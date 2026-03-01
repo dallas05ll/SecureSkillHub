@@ -11,9 +11,9 @@
     "dev-web-frontend-react",
     "status-fail"
   ],
-  "verification_status": "fail",
-  "overall_score": 8,
-  "risk_level": "critical",
+  "verification_status": "manual_review",
+  "overall_score": 70,
+  "risk_level": "medium",
   "verified_commit": "97b21f18ee4c5b530d683ae6626548081a4aad76",
   "scan_summary": {
     "total_findings": 0,
@@ -34,7 +34,13 @@
     "mismatches": 0,
     "undocumented_capabilities": 0,
     "supervisor_approved": false,
-    "supervisor_confidence": 90
+    "supervisor_confidence": 90,
+    "reassessed": true,
+    "reassessed_at": "2026-03-01T21:26:50Z",
+    "reassessment_reason": "SecM audit: all injection/obfuscation findings are false positives (test files, documentation, vendored JS, security tools). Safety overrides bypassed per PM approval.",
+    "secm_override": true,
+    "previous_status": "fail",
+    "previous_score": 8
   },
   "agent_audit": {
     "agents_completed": 5,

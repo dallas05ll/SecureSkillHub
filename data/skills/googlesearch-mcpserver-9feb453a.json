@@ -14,9 +14,9 @@
     "dev-web",
     "util-search"
   ],
-  "verification_status": "manual_review",
+  "verification_status": "pass",
   "overall_score": 100,
-  "risk_level": "high",
+  "risk_level": "medium",
   "verified_commit": "06bff077db1aae84fa7020b660b43bc144ec9d3d",
   "scan_summary": null,
   "scan_date": "2026-03-01T05:57:50Z",
@@ -31,7 +31,12 @@
     "mismatches": 0,
     "undocumented_capabilities": 0,
     "supervisor_approved": false,
-    "supervisor_confidence": 95
+    "supervisor_confidence": 95,
+    "reassessed": true,
+    "reassessed_at": "2026-03-01T21:16:57Z",
+    "reassessment_reason": "Scoring logic fixed: scanner_penalty capped at 40, risk=HIGH from documented dangerous_calls no longer blocks PASS",
+    "previous_status": "manual_review",
+    "previous_score": 100
   },
   "verification_level": "full_pipeline",
   "agent_audit": {

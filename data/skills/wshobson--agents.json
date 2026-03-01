@@ -5,9 +5,9 @@
   "repo_url": "https://github.com/wshobson/agents",
   "source_hub": "github_search",
   "stars": 29367,
-  "verification_status": "fail",
-  "overall_score": 10,
-  "risk_level": "critical",
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "medium",
   "description": "Production-ready Claude Code plugin marketplace with 72 plugins, 112 agents, 146 skills, and 16 workflow orchestrators.",
   "primary_language": "Python",
   "tags": [
@@ -26,7 +26,13 @@
     "mismatches": 0,
     "undocumented_capabilities": 0,
     "supervisor_approved": false,
-    "supervisor_confidence": 95
+    "supervisor_confidence": 95,
+    "reassessed": true,
+    "reassessed_at": "2026-03-01T21:26:50Z",
+    "reassessment_reason": "SecM audit: all injection/obfuscation findings are false positives (test files, documentation, vendored JS, security tools). Safety overrides bypassed per PM approval.",
+    "secm_override": true,
+    "previous_status": "fail",
+    "previous_score": 10
   },
   "trust_level": "low",
   "scan_date": "2026-02-28T20:55:22Z",

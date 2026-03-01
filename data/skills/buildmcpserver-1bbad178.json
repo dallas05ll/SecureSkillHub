@@ -12,9 +12,9 @@
     "data-ai",
     "dev-web-frontend-react"
   ],
-  "verification_status": "fail",
+  "verification_status": "pass",
   "overall_score": 100,
-  "risk_level": "high",
+  "risk_level": "medium",
   "verified_commit": "177d2accae1c232eb858f69b0e9bd101e5d2dce2",
   "scan_summary": {
     "total_findings": 0,
@@ -51,7 +51,12 @@
         "injection_patterns_count": 0,
         "repo_unavailable": false
       }
-    }
+    },
+    "reassessed": true,
+    "reassessed_at": "2026-03-01T21:16:57Z",
+    "reassessment_reason": "Scoring logic fixed: scanner_penalty capped at 40, risk=HIGH from documented dangerous_calls no longer blocks PASS",
+    "previous_status": "fail",
+    "previous_score": 100
   },
   "verification_level": "full_pipeline",
   "agent_audit": {

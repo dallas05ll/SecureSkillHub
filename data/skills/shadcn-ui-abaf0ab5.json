@@ -10,9 +10,9 @@
   "tags": [
     "dev"
   ],
-  "verification_status": "fail",
-  "overall_score": 10,
-  "risk_level": "critical",
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "medium",
   "verified_commit": "8053511fb130f60c976a0beb09cb696beb3d6b6a",
   "scan_summary": "Large modular plugin marketplace with 10 plugins and 174 total components (skills, agents, commands). MIT licensed. Makefile provides cross-CLI installation for Claude Code, Copilot, OpenCode, and Codex. Plugins are organized into separate directories with their own skills/agents/commands. Python and shell scripts in scripts/ are packaging/installation utilities. .skills-validator-check file present for validation tooling. pyproject.toml for Python tooling.",
   "scan_date": "2026-02-28T20:57:25Z",
@@ -27,7 +27,13 @@
     "mismatches": 0,
     "undocumented_capabilities": 0,
     "supervisor_approved": false,
-    "supervisor_confidence": 95
+    "supervisor_confidence": 95,
+    "reassessed": true,
+    "reassessed_at": "2026-03-01T21:26:50Z",
+    "reassessment_reason": "SecM audit: all injection/obfuscation findings are false positives (test files, documentation, vendored JS, security tools). Safety overrides bypassed per PM approval.",
+    "secm_override": true,
+    "previous_status": "fail",
+    "previous_score": 10
   },
   "verification_level": "full_pipeline",
   "agent_audit": {

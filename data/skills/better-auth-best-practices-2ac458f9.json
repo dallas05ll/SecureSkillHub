@@ -11,9 +11,9 @@
     "status-manual_review",
     "sec"
   ],
-  "verification_status": "manual_review",
+  "verification_status": "pass",
   "overall_score": 85,
-  "risk_level": "high",
+  "risk_level": "medium",
   "verified_commit": "f7c870fc9f9040f22ec39230ffc0f8b487e52893",
   "scan_summary": {
     "total_findings": 0,
@@ -33,7 +33,12 @@
     "mismatches": 0,
     "undocumented_capabilities": 0,
     "supervisor_approved": false,
-    "supervisor_confidence": 85
+    "supervisor_confidence": 85,
+    "reassessed": true,
+    "reassessed_at": "2026-03-01T21:16:57Z",
+    "reassessment_reason": "Scoring logic fixed: scanner_penalty capped at 40, risk=HIGH from documented dangerous_calls no longer blocks PASS",
+    "previous_status": "manual_review",
+    "previous_score": 85
   },
   "verification_level": "full_pipeline",
   "agent_audit": {

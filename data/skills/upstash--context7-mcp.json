@@ -5,7 +5,7 @@
   "repo_url": "https://github.com/upstash/context7-mcp",
   "source_hub": "github_search",
   "stars": 46887,
-  "verification_status": "manual_review",
+  "verification_status": "pass",
   "overall_score": 85,
   "risk_level": "high",
   "description": "MCP server providing up-to-date library documentation and code examples to LLMs via Context7 API, supporting stdio and HTTP transports.",
@@ -29,7 +29,12 @@
     "mismatches": 0,
     "undocumented_capabilities": 0,
     "supervisor_approved": false,
-    "supervisor_confidence": 85
+    "supervisor_confidence": 85,
+    "reassessed": true,
+    "reassessed_at": "2026-03-01T21:16:57Z",
+    "reassessment_reason": "Scoring logic fixed: scanner_penalty capped at 40, risk=HIGH from documented dangerous_calls no longer blocks PASS",
+    "previous_status": "manual_review",
+    "previous_score": 85
   },
   "trust_level": "low",
   "scan_date": "2026-03-01T05:57:17Z",

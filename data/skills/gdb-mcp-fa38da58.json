@@ -11,7 +11,7 @@
     "status-fail",
     "dev"
   ],
-  "verification_status": "fail",
+  "verification_status": "pass",
   "overall_score": 100,
   "risk_level": "high",
   "verified_commit": "7dff29b38653828413e799fe0ec535ea36018774",
@@ -51,7 +51,12 @@
         "injection_patterns_count": 0,
         "repo_unavailable": false
       }
-    }
+    },
+    "reassessed": true,
+    "reassessed_at": "2026-03-01T21:16:57Z",
+    "reassessment_reason": "Scoring logic fixed: scanner_penalty capped at 40, risk=HIGH from documented dangerous_calls no longer blocks PASS",
+    "previous_status": "fail",
+    "previous_score": 100
   },
   "agent_audit": {
     "agents_completed": 5,

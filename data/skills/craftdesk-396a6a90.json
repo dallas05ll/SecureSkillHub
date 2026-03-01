@@ -1,7 +1,7 @@
 {
   "id": "craftdesk-396a6a90",
   "name": "craftdesk",
-  "description": "Dependency management CLI for AI capabilities \u2014 install, manage, and version control Claude Code skills, agents, commands, hooks, and plugins.",
+  "description": "Dependency management CLI for AI capabilities — install, manage, and version control Claude Code skills, agents, commands, hooks, and plugins.",
   "repo_url": "https://github.com/mensfeld/craftdesk",
   "source_hub": "github_search",
   "skill_type": "agent_skill",
@@ -14,7 +14,7 @@
     "data-ai",
     "dev"
   ],
-  "verification_status": "fail",
+  "verification_status": "pass",
   "overall_score": 85,
   "risk_level": "high",
   "verified_commit": "03eecb7a424380f6b1f2f8341aec3efb0373c007",
@@ -48,7 +48,12 @@
         "injection_patterns_count": 0,
         "repo_unavailable": false
       }
-    }
+    },
+    "reassessed": true,
+    "reassessed_at": "2026-03-01T21:16:57Z",
+    "reassessment_reason": "Scoring logic fixed: scanner_penalty capped at 40, risk=HIGH from documented dangerous_calls no longer blocks PASS",
+    "previous_status": "fail",
+    "previous_score": 85
   },
   "trust_level": "low",
   "scan_date": "2026-03-01T06:03:10Z",

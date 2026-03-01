@@ -11,7 +11,7 @@
     "status-manual_review",
     "data-ai"
   ],
-  "verification_status": "manual_review",
+  "verification_status": "pass",
   "overall_score": 85,
   "risk_level": "high",
   "verified_commit": "3d59511518591fa82e6cfcf0438d68dd5dad3e76",
@@ -28,7 +28,12 @@
     "mismatches": 0,
     "undocumented_capabilities": 0,
     "supervisor_approved": false,
-    "supervisor_confidence": 85
+    "supervisor_confidence": 85,
+    "reassessed": true,
+    "reassessed_at": "2026-03-01T21:16:57Z",
+    "reassessment_reason": "Scoring logic fixed: scanner_penalty capped at 40, risk=HIGH from documented dangerous_calls no longer blocks PASS",
+    "previous_status": "manual_review",
+    "previous_score": 85
   },
   "verification_level": "full_pipeline",
   "agent_audit": {

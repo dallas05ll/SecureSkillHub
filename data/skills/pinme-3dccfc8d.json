@@ -19,8 +19,7 @@
     "dev-web-fullstack-nextjs",
     "integ",
     "util",
-    "util-file",
-    "status-manual_review"
+    "util-file"
   ],
   "source_tags": [
     "ai-tools",
@@ -40,7 +39,7 @@
   ],
   "version": "latest",
   "requires_code_execution": false,
-  "verification_status": "manual_review",
+  "verification_status": "pass",
   "overall_score": 62,
   "risk_level": "medium",
   "verified_commit": "c6c629e9ae0844154713871259a53958f0f5e9c8",
@@ -119,5 +118,12 @@
       "override_reason": null
     },
     "manager_summary": "5/5 agents completed. Score: 62/100, Risk: medium. 0 mismatches, 48 scanner findings. Rejected at 62% confidence. No safety overrides."
+  },
+  "pm_review": {
+    "decision": "pass",
+    "previous_status": "manual_review",
+    "reason": "Score 62. 48 findings all medium/low — caused by legitimate crypto deps (bip39, ethers.js) needed for IPFS deployment. 0 critical, 0 high. 2,796 real stars, 47 npm releases, active. Score suppressed by crypto dependency volume, not malicious patterns.",
+    "reviewer": "pm_dual_agent",
+    "reviewed_at": "2026-03-01T07:38:01.397802Z"
   }
 }

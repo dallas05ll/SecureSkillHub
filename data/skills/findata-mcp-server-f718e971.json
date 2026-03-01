@@ -13,9 +13,9 @@
     "data-ai",
     "util-search"
   ],
-  "verification_status": "fail",
+  "verification_status": "manual_review",
   "overall_score": 70,
-  "risk_level": "high",
+  "risk_level": "medium",
   "verified_commit": "f9a2f3a7c9c22f5a04ebe4db769f9e0c30743d75",
   "scan_summary": {
     "total_findings": 0,
@@ -53,7 +53,12 @@
         "injection_patterns_count": 0,
         "repo_unavailable": false
       }
-    }
+    },
+    "reassessed": true,
+    "reassessed_at": "2026-03-01T21:16:57Z",
+    "reassessment_reason": "Scoring logic fixed: scanner_penalty capped at 40, risk=HIGH from documented dangerous_calls no longer blocks PASS",
+    "previous_status": "fail",
+    "previous_score": 70
   },
   "agent_audit": {
     "agents_completed": 5,

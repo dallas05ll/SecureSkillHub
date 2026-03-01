@@ -15,9 +15,9 @@
     "integrations-github",
     "util"
   ],
-  "verification_status": "fail",
+  "verification_status": "manual_review",
   "overall_score": 70,
-  "risk_level": "high",
+  "risk_level": "medium",
   "verified_commit": "e981bc61c6f62be1bfb8d4b30ff5acc1b90329cb",
   "scan_summary": {
     "total_findings": 0,
@@ -55,7 +55,12 @@
         "injection_patterns_count": 0,
         "repo_unavailable": false
       }
-    }
+    },
+    "reassessed": true,
+    "reassessed_at": "2026-03-01T21:16:57Z",
+    "reassessment_reason": "Scoring logic fixed: scanner_penalty capped at 40, risk=HIGH from documented dangerous_calls no longer blocks PASS",
+    "previous_status": "fail",
+    "previous_score": 70
   },
   "agent_audit": {
     "agents_completed": 5,

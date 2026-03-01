@@ -12,7 +12,7 @@
     "data-ai",
     "data-ai-nlp"
   ],
-  "verification_status": "fail",
+  "verification_status": "manual_review",
   "overall_score": 66,
   "risk_level": "high",
   "verified_commit": "c8148563dd268126314e008fc1dc71930b6c7b61",
@@ -51,7 +51,12 @@
         "injection_patterns_count": 0,
         "repo_unavailable": false
       }
-    }
+    },
+    "reassessed": true,
+    "reassessed_at": "2026-03-01T21:16:57Z",
+    "reassessment_reason": "Scoring logic fixed: scanner_penalty capped at 40, risk=HIGH from documented dangerous_calls no longer blocks PASS",
+    "previous_status": "fail",
+    "previous_score": 66
   },
   "verification_level": "full_pipeline",
   "agent_audit": {

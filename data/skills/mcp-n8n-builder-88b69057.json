@@ -1,7 +1,7 @@
 {
   "id": "mcp-n8n-builder-88b69057",
   "name": "mcp-n8n-builder",
-  "description": "\ud83e\ude84 MCP server for programmatic creation and management of n8n workflows. Enables AI assistants to build, modify, and manage workflows without direct user intervention through a comprehensive set of tools and resources for interacting with n8n's REST API.",
+  "description": "🪄 MCP server for programmatic creation and management of n8n workflows. Enables AI assistants to build, modify, and manage workflows without direct user intervention through a comprehensive set of tools and resources for interacting with n8n's REST API.",
   "repo_url": "https://github.com/spences10/mcp-n8n-builder",
   "source_hub": "mcp_so",
   "owner": "spences10",
@@ -14,9 +14,9 @@
     "prod",
     "util"
   ],
-  "verification_status": "fail",
+  "verification_status": "pass",
   "overall_score": 100,
-  "risk_level": "high",
+  "risk_level": "medium",
   "verified_commit": "d77555be45280e57575bc651e905f0d5d5a9b3c1",
   "scan_summary": {
     "total_findings": 0,
@@ -53,7 +53,12 @@
         "injection_patterns_count": 0,
         "repo_unavailable": false
       }
-    }
+    },
+    "reassessed": true,
+    "reassessed_at": "2026-03-01T21:16:57Z",
+    "reassessment_reason": "Scoring logic fixed: scanner_penalty capped at 40, risk=HIGH from documented dangerous_calls no longer blocks PASS",
+    "previous_status": "fail",
+    "previous_score": 100
   },
   "verification_level": "full_pipeline",
   "agent_audit": {

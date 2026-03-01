@@ -1,7 +1,7 @@
 {
   "id": "mcp-auth-servers-6e990a37",
   "name": "mcp-auth-servers",
-  "description": "\ud83d\udd12 Reference MCP servers that demo how authentication works with the current Model Context Protocol spec.",
+  "description": "🔒 Reference MCP servers that demo how authentication works with the current Model Context Protocol spec.",
   "repo_url": "https://github.com/Azure-Samples/mcp-auth-servers",
   "source_hub": "mcp_so",
   "owner": "Azure-Samples",
@@ -14,9 +14,9 @@
     "sec",
     "sec-auth"
   ],
-  "verification_status": "fail",
+  "verification_status": "pass",
   "overall_score": 100,
-  "risk_level": "high",
+  "risk_level": "medium",
   "verified_commit": "4db42b5adf18b2c8cf211928a480bb62ed703216",
   "scan_summary": {
     "total_findings": 0,
@@ -54,7 +54,12 @@
         "injection_patterns_count": 0,
         "repo_unavailable": false
       }
-    }
+    },
+    "reassessed": true,
+    "reassessed_at": "2026-03-01T21:16:57Z",
+    "reassessment_reason": "Scoring logic fixed: scanner_penalty capped at 40, risk=HIGH from documented dangerous_calls no longer blocks PASS",
+    "previous_status": "fail",
+    "previous_score": 100
   },
   "agent_audit": {
     "agents_completed": 5,

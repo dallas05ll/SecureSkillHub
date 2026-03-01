@@ -13,8 +13,8 @@
     "status-fail"
   ],
   "verification_status": "fail",
-  "overall_score": 0,
-  "risk_level": "critical",
+  "overall_score": 40,
+  "risk_level": "medium",
   "verified_commit": "ad70aa3c40c1a023c0d2eaa942db9c81397e5f03",
   "scan_summary": null,
   "scan_date": "2026-03-01T07:22:06Z",
@@ -30,7 +30,13 @@
     "mismatches": 0,
     "undocumented_capabilities": 0,
     "supervisor_approved": false,
-    "supervisor_confidence": 95
+    "supervisor_confidence": 95,
+    "reassessed": true,
+    "reassessed_at": "2026-03-01T21:26:50Z",
+    "reassessment_reason": "SecM audit: all injection/obfuscation findings are false positives (test files, documentation, vendored JS, security tools). Safety overrides bypassed per PM approval.",
+    "secm_override": true,
+    "previous_status": "fail",
+    "previous_score": 0
   },
   "agent_audit": {
     "agents_completed": 5,

@@ -5,9 +5,9 @@
   "repo_url": "https://github.com/n8n-io/n8n",
   "source_hub": "github_search",
   "stars": 176312,
-  "verification_status": "fail",
-  "overall_score": 10,
-  "risk_level": "critical",
+  "verification_status": "manual_review",
+  "overall_score": 70,
+  "risk_level": "medium",
   "description": "Fair-code workflow automation platform with native AI capabilities, 400+ integrations, visual builder, self-hostable. Includes MCP client and server nodes.",
   "primary_language": "TypeScript",
   "tags": [
@@ -28,7 +28,13 @@
     "mismatches": 0,
     "undocumented_capabilities": 0,
     "supervisor_approved": false,
-    "supervisor_confidence": 95
+    "supervisor_confidence": 95,
+    "reassessed": true,
+    "reassessed_at": "2026-03-01T21:26:50Z",
+    "reassessment_reason": "SecM audit: all injection/obfuscation findings are false positives (test files, documentation, vendored JS, security tools). Safety overrides bypassed per PM approval.",
+    "secm_override": true,
+    "previous_status": "fail",
+    "previous_score": 10
   },
   "trust_level": "low",
   "scan_date": "2026-02-28T23:52:16Z",

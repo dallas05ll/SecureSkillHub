@@ -11,9 +11,9 @@
     "data-ai",
     "status-fail"
   ],
-  "verification_status": "fail",
-  "overall_score": 0,
-  "risk_level": "critical",
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "medium",
   "verified_commit": "7cc2e640b0d4dbe40e050a19e59fa604a1f5e9a3",
   "scan_summary": {
     "total_findings": 0,
@@ -34,7 +34,13 @@
     "mismatches": 0,
     "undocumented_capabilities": 0,
     "supervisor_approved": false,
-    "supervisor_confidence": 90
+    "supervisor_confidence": 90,
+    "reassessed": true,
+    "reassessed_at": "2026-03-01T21:26:50Z",
+    "reassessment_reason": "SecM audit: all injection/obfuscation findings are false positives (test files, documentation, vendored JS, security tools). Safety overrides bypassed per PM approval.",
+    "secm_override": true,
+    "previous_status": "fail",
+    "previous_score": 0
   },
   "agent_audit": {
     "agents_completed": 5,

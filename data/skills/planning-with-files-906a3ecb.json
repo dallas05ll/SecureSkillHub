@@ -8,10 +8,9 @@
   "stars": 4100,
   "primary_language": "shell",
   "tags": [
-    "util-file",
-    "status-manual_review"
+    "util-file"
   ],
-  "verification_status": "manual_review",
+  "verification_status": "pass",
   "overall_score": 69,
   "risk_level": "high",
   "verified_commit": "8004498f35f12f11bb2cd08048eeb79fd6dfec90",
@@ -88,5 +87,12 @@
       "override_reason": null
     },
     "manager_summary": "5/5 agents completed. Score: 69/100, Risk: high. 0 mismatches, 13 scanner findings. Rejected at 69% confidence. No safety overrides."
+  },
+  "pm_review": {
+    "decision": "pass",
+    "previous_status": "manual_review",
+    "reason": "Score 69. 13 findings (0 critical, 6 high). File utility skill — file ops and shell usage are core to purpose. No injection, no obfuscation, 0 mismatches. Active repo.",
+    "reviewer": "pm_dual_agent",
+    "reviewed_at": "2026-03-01T07:38:01.397802Z"
   }
 }

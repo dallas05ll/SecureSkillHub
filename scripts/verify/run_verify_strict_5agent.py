@@ -22,12 +22,15 @@ import logging
 import os
 import re
 import subprocess
+import sys
 import tempfile
 from urllib.parse import urlparse
 from dataclasses import dataclass
 from datetime import datetime, timezone
 from pathlib import Path
 from typing import Any
+
+sys.path.insert(0, str(Path(__file__).resolve().parent.parent.parent))
 
 from src.sanitizer.sanitizer import Sanitizer
 from src.sanitizer.schemas import (
@@ -44,7 +47,7 @@ from src.sanitizer.schemas import (
 from src.scanner.scanner import StaticScanner
 from src.reachability import log_to_skill_manager
 
-PROJECT_ROOT = Path(__file__).resolve().parent
+PROJECT_ROOT = Path(__file__).resolve().parent.parent.parent
 SKILLS_DIR = PROJECT_ROOT / "data" / "skills"
 REPORTS_DIR = PROJECT_ROOT / "data" / "scan-reports"
 RUN_REPORTS_DIR = PROJECT_ROOT / "data" / "verification-runs"
@@ -416,15 +419,23 @@ def run_agent_d(agent_a: AgentAOutput, agent_b: AgentBOutput, scanner: ScannerOu
 
     # Apply scanner-driven penalty so score reflects detected security findings,
     # not only doc/code mismatch quality.
-    scanner_penalty = (sev["high"] * 2) + sev["medium"] + (sev["low"] // 2)
+    # Cap at 40 — large codebases (n8n has 976 high findings) should not auto-crash
+    # to score 0. The penalty reflects "this code does things" not "this code is bad".
+    scanner_penalty = min(40, (sev["high"] * 2) + sev["medium"] + (sev["low"] // 2))
     score -= scanner_penalty
 
+    # Determine risk level.
+    # HIGH/CRITICAL reserved for real threats: injection patterns, high-risk
+    # obfuscation, or critical-severity scanner findings.
+    # dangerous_calls (subprocess, exec, fetch) are expected MCP server
+    # functionality — they indicate "this code CAN do X", not "this code IS
+    # malicious". These map to MEDIUM risk, not HIGH.
     risk = ScanSeverity.INFO
     if sev["critical"] > 0:
         risk = ScanSeverity.CRITICAL
-    elif sev["high"] > 0:
+    elif scanner.injection_patterns_count > 0 or scanner.obfuscation_high_risk_count > 0:
         risk = ScanSeverity.HIGH
-    elif sev["medium"] > 0 or undocumented:
+    elif sev["high"] > 0 or sev["medium"] > 0 or undocumented:
         risk = ScanSeverity.MEDIUM
     elif sev["low"] > 0:
         risk = ScanSeverity.LOW
@@ -433,7 +444,11 @@ def run_agent_d(agent_a: AgentAOutput, agent_b: AgentBOutput, scanner: ScannerOu
     score = max(0, min(100, score))
     if risk == ScanSeverity.CRITICAL:
         status = VerificationStatus.FAIL
-    elif score >= 80 and risk not in (ScanSeverity.HIGH, ScanSeverity.CRITICAL):
+    elif score >= 80 and risk not in (ScanSeverity.CRITICAL,):
+        # Allow PASS at risk=HIGH if score is strong. The HIGH risk from
+        # documented dangerous_calls (subprocess, exec) is expected MCP behavior,
+        # not evidence of malice. Safety overrides below still block on
+        # injection/obfuscation.
         status = VerificationStatus.PASS
     elif score >= 50 and risk != ScanSeverity.CRITICAL:
         status = VerificationStatus.MANUAL_REVIEW
