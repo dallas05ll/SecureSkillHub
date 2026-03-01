@@ -1,0 +1,26 @@
+{
+  "id": "mcp-server-diceroll-70227533",
+  "name": "mcp-server-diceroll",
+  "description": "fumievalさんのパクリ",
+  "repo_url": "https://github.com/shimapon/mcp-server-diceroll",
+  "source_hub": "mcp_so",
+  "owner": "shimapon",
+  "stars": 1,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "c0d4454867ab063ac38056d97343cb8764e203b7",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 4,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:41Z",
+  "verification_level": "scanner_only"
+}

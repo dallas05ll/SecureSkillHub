@@ -1,0 +1,31 @@
+{
+  "id": "sql-mcp-server-321f4de3",
+  "name": "SQL_MCP_Server",
+  "description": "SQLGenius is an AI-powered SQL assistant that converts natural language to SQL queries using Vertex AI's Gemini Pro. Built with MCP and Streamlit, it provides an intuitive interface for BigQuery data exploration with real-time visualization and schema management.",
+  "repo_url": "https://github.com/pawankumar94/SQL_MCP_Server",
+  "source_hub": "mcp_so",
+  "owner": "pawankumar94",
+  "stars": 12,
+  "primary_language": "unknown",
+  "tags": [
+    "data",
+    "data-ai",
+    "data-ai-nlp",
+    "data-db",
+    "integ-cloud-gcp",
+    "util",
+    "util-media"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "5978880252c5368d0a51e6ce551f9ccf7621475d",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 4,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:42:34Z",
+  "verification_level": "scanner_only"
+}

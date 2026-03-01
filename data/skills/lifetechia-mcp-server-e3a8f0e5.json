@@ -1,0 +1,26 @@
+{
+  "id": "lifetechia-mcp-server-e3a8f0e5",
+  "name": "lifetechia-mcp-server",
+  "description": "Lifetechia MCP server",
+  "repo_url": "https://github.com/ayurrin/lifetechia-mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "ayurrin",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "35dd30130828f3785ff365b03206d71cd86a6dfb",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 3,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:40Z",
+  "verification_level": "scanner_only"
+}

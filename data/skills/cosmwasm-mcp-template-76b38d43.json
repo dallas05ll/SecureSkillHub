@@ -1,0 +1,26 @@
+{
+  "id": "cosmwasm-mcp-template-76b38d43",
+  "name": "cosmwasm-mcp-template",
+  "description": "MCP server template for CosmWasm smart contract projects",
+  "repo_url": "https://github.com/drewstaylor/cosmwasm-mcp-template",
+  "source_hub": "mcp_so",
+  "owner": "drewstaylor",
+  "stars": 1,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "8e1e0bd574c4c65729f373335a67e3c59bfc8de1",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 2,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:40Z",
+  "verification_level": "scanner_only"
+}

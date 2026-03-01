@@ -1,0 +1,22 @@
+{
+  "id": "yt-dlp-mcp-39807e4c",
+  "name": "yt-dlp-mcp",
+  "description": "A Model Context Protocol (MCP) server that bridges Video & Audio content with Large Language Models using yt-dlp.",
+  "repo_url": "https://github.com/kevinwatt/yt-dlp-mcp",
+  "source_hub": "mcp_so",
+  "owner": "kevinwatt",
+  "stars": 217,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-audio",
+    "data-ai-nlp",
+    "util-media"
+  ],
+  "verification_status": "fail",
+  "overall_score": 10,
+  "risk_level": "critical",
+  "verified_commit": "0e5a30d10c0062a008cc122feaf93b4d753662d9",
+  "scan_summary": null,
+  "scan_date": "2026-02-27T06:14:23Z"
+}

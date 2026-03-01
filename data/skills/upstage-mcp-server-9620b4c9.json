@@ -1,0 +1,28 @@
+{
+  "id": "upstage-mcp-server-9620b4c9",
+  "name": "upstage-mcp-server",
+  "description": "A Model Context Protocol server for parsing documents using Upstage AI's document digitization API.",
+  "repo_url": "https://github.com/PritamPatil2603/upstage-mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "PritamPatil2603",
+  "stars": 3,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp",
+    "integ",
+    "prod-docs"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "4a3daca8fa195c3063485f4af3a738ada41bd26c",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 13,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:04:50Z",
+  "verification_level": "scanner_only"
+}

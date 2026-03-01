@@ -1,0 +1,30 @@
+{
+  "id": "linkedin-jobs-mcp-server-8800ae1b",
+  "name": "linkedin-jobs-mcp-server",
+  "description": "A Model Context Protocol (MCP) server for searching and retrieving LinkedIn job postings via the RapidAPI LinkedIn Data API.",
+  "repo_url": "https://github.com/Rom7699/linkedin-jobs-mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "Rom7699",
+  "stars": 1,
+  "primary_language": "unknown",
+  "tags": [
+    "data",
+    "data-ai",
+    "data-ai-nlp",
+    "integ",
+    "integ-social",
+    "util-search"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "c98ed858fda11833bedf2f5fd381a1d0d071b354",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 5,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:41Z",
+  "verification_level": "scanner_only"
+}

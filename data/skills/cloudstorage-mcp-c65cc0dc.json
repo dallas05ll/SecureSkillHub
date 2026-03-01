@@ -1,0 +1,27 @@
+{
+  "id": "cloudstorage-mcp-c65cc0dc",
+  "name": "cloudstorage-mcp",
+  "description": "MCP Server to interact with Google Cloud Storage",
+  "repo_url": "https://github.com/gitskyflux/cloudstorage-mcp",
+  "source_hub": "mcp_so",
+  "owner": "gitskyflux",
+  "stars": 2,
+  "primary_language": "unknown",
+  "tags": [
+    "integ-cloud",
+    "integ-cloud-gcp",
+    "util-file"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "320d516bd6a262079db02aa889e23c7be5408120",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 5,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:04:51Z",
+  "verification_level": "scanner_only"
+}

@@ -1,0 +1,25 @@
+{
+  "id": "mcp-deepwebresearch-0a21dbf4",
+  "name": "mcp-DEEPwebresearch",
+  "description": "Enhanced MCP server for deep web research",
+  "repo_url": "https://github.com/qpd-v/mcp-DEEPwebresearch",
+  "source_hub": "mcp_so",
+  "owner": "qpd-v",
+  "stars": 84,
+  "primary_language": "unknown",
+  "tags": [
+    "util-search"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "bdbbec656c0c2ad2a4d580c71ba804b367924fd7",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 22,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-27T06:40:44Z",
+  "verification_level": "scanner_only"
+}

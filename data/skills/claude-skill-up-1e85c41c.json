@@ -1,0 +1,27 @@
+{
+  "id": "claude-skill-up-1e85c41c",
+  "name": "claude-skill-up",
+  "description": "Gamified Claude Code command discovery. Daily quests, XP, streaks, and achievements that teach you the /commands you've been missing.",
+  "repo_url": "https://github.com/clawdioversace-beep/claude-skill-up",
+  "source_hub": "github_search",
+  "skill_type": "agent_skill",
+  "owner": "clawdioversace-beep",
+  "stars": 0,
+  "license": "",
+  "primary_language": "markdown",
+  "tags": [
+    "data-ai",
+    "dev"
+  ],
+  "verification_status": "manual_review",
+  "overall_score": 63,
+  "risk_level": "medium",
+  "verified_commit": null,
+  "scan_summary": null,
+  "last_updated": "2026-02-25T10:36:05Z",
+  "findings_summary": {
+    "notes": "Metadata-based verification. Score=63. Signals: stars=0 (-10); no license detected; owner='clawdioversace-beep' (+3); primary_language='markdown'; source_hub='github_search'. Status: manual_review. Risk: medium."
+  },
+  "trust_level": "low",
+  "scan_date": "2026-02-26T06:14:56Z"
+}

@@ -1,0 +1,26 @@
+{
+  "id": "mlb-mcp-2c0ab9d1",
+  "name": "mlb_mcp",
+  "description": "MCP server to fetch basic (and complex!) baseball-related stats.",
+  "repo_url": "https://github.com/jweingardt12/mlb_mcp",
+  "source_hub": "mcp_so",
+  "owner": "jweingardt12",
+  "stars": 1,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "util-search"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "1937297b3380f77dabb7e6d7109c384e4d68e099",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 6,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:41Z",
+  "verification_level": "scanner_only"
+}

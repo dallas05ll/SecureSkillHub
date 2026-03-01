@@ -1,0 +1,26 @@
+{
+  "id": "mcp-milvus-ca795134",
+  "name": "mcp-milvus",
+  "description": "An MCP server for Milvus that supports session connection management and accesses Milvus via the SSE interface.",
+  "repo_url": "https://github.com/tailabs/mcp-milvus",
+  "source_hub": "mcp_so",
+  "owner": "tailabs",
+  "stars": 1,
+  "primary_language": "unknown",
+  "tags": [
+    "data-db-vector",
+    "integ"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "df4186ac3c1df89b67b26d24cae9087ea2327b91",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 3,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:40Z",
+  "verification_level": "scanner_only"
+}

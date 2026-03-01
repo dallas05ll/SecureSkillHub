@@ -1,0 +1,25 @@
+{
+  "id": "mcp-server-1698ecec",
+  "name": "mcp-server",
+  "description": "An MCP server built on top of Nasdanika (AI) capabilities",
+  "repo_url": "https://github.com/Nasdanika-Demos/mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "Nasdanika-Demos",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "1e08616c8ab90bc856fa419b86fd5a4f1ae7fe97",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 5,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:40Z",
+  "verification_level": "scanner_only"
+}

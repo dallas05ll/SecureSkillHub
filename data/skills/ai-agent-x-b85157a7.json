@@ -1,0 +1,27 @@
+{
+  "id": "ai-agent-x-b85157a7",
+  "name": "ai-agent-X",
+  "description": "AI agent that can post on X(twitter) with the help of MCP(Model Text Protocol) Server.",
+  "repo_url": "https://github.com/sayandebnath-creator/ai-agent-X",
+  "source_hub": "mcp_so",
+  "owner": "sayandebnath-creator",
+  "stars": 1,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp",
+    "integ-social"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "9ea86e25534b74f1091cccfbf75db8243ac97e71",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 8,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:42Z",
+  "verification_level": "scanner_only"
+}

@@ -1,0 +1,26 @@
+{
+  "id": "mcp-ip-geolocator-ee273c5d",
+  "name": "mcp-ip-geolocator",
+  "description": "MCP server providing IP geolocation via IP-API.com. Free, no API key required.",
+  "repo_url": "https://github.com/tedlikeskix/mcp-ip-geolocator",
+  "source_hub": "mcp_so",
+  "owner": "tedlikeskix",
+  "stars": 2,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "util-map"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "a83a773307b9599b3bdfe119aae7225fa4841600",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 5,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:04:50Z",
+  "verification_level": "scanner_only"
+}

@@ -1,0 +1,39 @@
+{
+  "id": "swiftui-development-skills-aa1215b3",
+  "name": "SwiftUI Development Skills",
+  "description": "Apple-authored SwiftUI and platform guidance extracted from Xcode",
+  "repo_url": "https://github.com/ameyalambat128/swiftui-skills",
+  "source_hub": "claude_skills_hub",
+  "skill_type": "agent_skill",
+  "owner": "ameyalambat128",
+  "stars": 27,
+  "forks": 2,
+  "license": "MIT",
+  "primary_language": "markdown",
+  "tags": [
+    "dev",
+    "sec"
+  ],
+  "source_tags": [
+    "ai",
+    "document-processing",
+    "ios",
+    "coding"
+  ],
+  "categories": [
+    "dev"
+  ],
+  "version": "1.0.0",
+  "requires_code_execution": false,
+  "verification_status": "pass",
+  "overall_score": 88,
+  "risk_level": "low",
+  "verified_commit": null,
+  "scan_summary": null,
+  "findings_summary": {
+    "notes": "Metadata-based verification. Score=88. Signals: stars=27 (>=10, +5); license='MIT' (+5); owner='ameyalambat128' (+3); primary_language='markdown'; source_hub='claude_skills_hub' (+5). Status: pass. Risk: low."
+  },
+  "trust_level": "medium",
+  "scan_date": "2026-02-26T06:14:56Z",
+  "verification_level": "metadata_only"
+}

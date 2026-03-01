@@ -1,0 +1,26 @@
+{
+  "id": "mcpseverdbs-ea531744",
+  "name": "mcpseverdbs",
+  "description": "mcp server for databases",
+  "repo_url": "https://github.com/milan9527/mcpseverdbs",
+  "source_hub": "mcp_so",
+  "owner": "milan9527",
+  "stars": 1,
+  "primary_language": "unknown",
+  "tags": [
+    "data",
+    "data-db"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "15dee386cfbb65654a5a48be2c43a9b3bbfb8309",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 8,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:40Z",
+  "verification_level": "scanner_only"
+}

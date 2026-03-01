@@ -1,0 +1,26 @@
+{
+  "id": "mcp-duckduckresearch-17f32a6f",
+  "name": "mcp-duckduckresearch",
+  "description": "mcp server with duckducksearch, web2md, and web2photo",
+  "repo_url": "https://github.com/bkataru-workshop/mcp-duckduckresearch",
+  "source_hub": "mcp_so",
+  "owner": "bkataru-workshop",
+  "stars": 1,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai-vision",
+    "util-search"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "e12f0412fb4aa8d452cdd624e9ad3261745f6872",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 23,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:41Z",
+  "verification_level": "scanner_only"
+}

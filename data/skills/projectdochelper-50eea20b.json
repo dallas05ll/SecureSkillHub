@@ -1,0 +1,29 @@
+{
+  "id": "projectdochelper-50eea20b",
+  "name": "ProjectDocHelper",
+  "description": "ProjectDocHelper is an MCP (Model Context Protocol) server designed to automatically generate project documentation and make it accessible to AI development tools like Cursor through MCP, thereby improving the accuracy and relevance of AI responses.",
+  "repo_url": "https://github.com/Stark1937/ProjectDocHelper",
+  "source_hub": "mcp_so",
+  "owner": "Stark1937",
+  "stars": 1,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp",
+    "prod",
+    "prod-docs",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "ba41200a000964724fbe63bd49a8b6b2183dad89",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 9,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:40Z",
+  "verification_level": "scanner_only"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "comapos-ai-agent-n8n-77fd429f",
+  "name": "ComaPOS-AI-AGENT-n8n",
+  "description": "Este repositorio contiene un agente inteligente construido en n8n que utiliza la arquitectura MCP Server y MCP Client para generar, automatizar y entregar reportes del sistema de punto de venta ComaPOS.",
+  "repo_url": "https://github.com/aleosorio22/ComaPOS-AI-AGENT-n8n",
+  "source_hub": "mcp_so",
+  "owner": "aleosorio22",
+  "stars": 1,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "prod",
+    "util",
+    "util-map"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "b3f9bc5acbcf713ffbf5a92a44133ba7c15e9920",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 4,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:42Z",
+  "verification_level": "scanner_only"
+}

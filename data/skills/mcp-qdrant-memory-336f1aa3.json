@@ -1,0 +1,29 @@
+{
+  "id": "mcp-qdrant-memory-336f1aa3",
+  "name": "mcp-qdrant-memory",
+  "description": "MCP server providing a knowledge graph implementation with semantic search capabilities powered by Qdrant vector database",
+  "repo_url": "https://github.com/delorenj/mcp-qdrant-memory",
+  "source_hub": "mcp_so",
+  "owner": "delorenj",
+  "stars": 25,
+  "primary_language": "unknown",
+  "tags": [
+    "data",
+    "data-db",
+    "data-db-vector",
+    "prod-notes",
+    "util-search"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "8d37d65ee9e85916ae386ff87789f93488140e80",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 18,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:32:13Z",
+  "verification_level": "scanner_only"
+}

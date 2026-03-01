@@ -1,0 +1,26 @@
+{
+  "id": "openmm-mcp-server-bcbb3a17",
+  "name": "openmm-mcp-server",
+  "description": "OpenMM, an open-source platform for molecular dynamics (MD) simulations, is supported by an MCP server that offers a structured communication interface for task submission, management, and execution.",
+  "repo_url": "https://github.com/PhelanShao/openmm-mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "PhelanShao",
+  "stars": 32,
+  "primary_language": "unknown",
+  "tags": [
+    "prod-comm",
+    "prod-pm"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "33e3e47ac78cafb03421901f31822c0212ff2a8a",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 42,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:32:11Z",
+  "verification_level": "scanner_only"
+}

@@ -1,0 +1,27 @@
+{
+  "id": "agent-skills-guide-6d4779fd",
+  "name": "agent-skills-guide",
+  "description": "Guide for creating agent skill files, with examples, templates, and best practices for building custom agent capabilities ",
+  "repo_url": "https://github.com/zebbern/agent-skills-guide",
+  "source_hub": "github_search",
+  "skill_type": "agent_skill",
+  "owner": "zebbern",
+  "stars": 14,
+  "license": "",
+  "primary_language": "markdown",
+  "tags": [
+    "util-file"
+  ],
+  "verification_status": "pass",
+  "overall_score": 78,
+  "risk_level": "medium",
+  "verified_commit": null,
+  "scan_summary": null,
+  "last_updated": "2026-02-20T06:59:41Z",
+  "findings_summary": {
+    "notes": "Metadata-based verification. Score=78. Signals: stars=14 (>=10, +5); no license detected; owner='zebbern' (+3); primary_language='markdown'; source_hub='github_search'. Status: pass. Risk: medium."
+  },
+  "trust_level": "low",
+  "scan_date": "2026-02-26T06:14:55Z",
+  "verification_level": "metadata_only"
+}

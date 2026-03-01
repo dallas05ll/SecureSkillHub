@@ -1,0 +1,31 @@
+{
+  "id": "babysitter-9ac8f7cc",
+  "name": "babysitter",
+  "description": "Enables Claude Code to manage sophisticated development workflows through deterministic, resumable orchestration. Provides agent lifecycle management, workflow plugins, and a structured task dispatcher.",
+  "repo_url": "https://github.com/a5c-ai/babysitter",
+  "source_hub": "github_search",
+  "skill_type": "agent_skill",
+  "owner": "a5c-ai",
+  "stars": 336,
+  "forks": 15,
+  "license": "mit",
+  "primary_language": "JavaScript",
+  "tags": [
+    "data-ai",
+    "dev",
+    "prod",
+    "prod-pm"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "low",
+  "verified_commit": null,
+  "scan_summary": null,
+  "findings_summary": {
+    "notes": "Organization-backed repo (a5c-ai) with 336 stars, MIT license, active discussions and 5 open issues. JavaScript monorepo with packages/, plugins/, and .claude-plugin/ structure. Includes a test-dispatcher.js, pnpm workspace, and e2e tests. .claude directory contains settings and a skills folder. Actively maintained (pushed Feb 26, 2026). Code execution involved (Node.js orchestration scripts). No malicious patterns found. Slightly elevated complexity warrants code review before production use."
+  },
+  "last_updated": "2026-02-26T00:06:22Z",
+  "trust_level": "low",
+  "scan_date": "2026-02-26T02:21:06Z",
+  "verification_level": "scanner_only"
+}

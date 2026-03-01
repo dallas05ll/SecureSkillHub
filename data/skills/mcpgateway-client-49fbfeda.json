@@ -1,0 +1,25 @@
+{
+  "id": "mcpgateway-client-49fbfeda",
+  "name": "mcpgateway-client",
+  "description": "A lightweight SnapEnv McpGateway client for SnapEnv McpGateway server, enabling AI Agents access to MCP server's running on local computer.",
+  "repo_url": "https://github.com/snapby/mcpgateway-client",
+  "source_hub": "mcp_so",
+  "owner": "snapby",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "0e5d4127a78d7defdd516abd57520d52d0fc4ef8",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 17,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:42Z",
+  "verification_level": "scanner_only"
+}

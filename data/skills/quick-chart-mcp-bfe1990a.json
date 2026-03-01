@@ -1,0 +1,28 @@
+{
+  "id": "quick-chart-mcp-bfe1990a",
+  "name": "quick-chart-mcp",
+  "description": "A Model Context Protocol (MCP) server that provides chart tools, allowing it to interact with the quick chart through a standardized interface. This implementation is based on the chart definition and enables users can open quick chart pages seamlessly.",
+  "repo_url": "https://github.com/datafe/quick-chart-mcp",
+  "source_hub": "mcp_so",
+  "owner": "datafe",
+  "stars": 4,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp",
+    "sec-crypto",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "dc27fe57386f966cc9fa21c18a345721f87a75cd",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 20,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:04:50Z",
+  "verification_level": "scanner_only"
+}

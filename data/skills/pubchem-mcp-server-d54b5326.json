@@ -1,0 +1,28 @@
+{
+  "id": "pubchem-mcp-server-d54b5326",
+  "name": "pubchem-mcp-server",
+  "description": "Enables large language models to correctly query molecular databases and generate structure files",
+  "repo_url": "https://github.com/PhelanShao/pubchem-mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "PhelanShao",
+  "stars": 5,
+  "primary_language": "unknown",
+  "tags": [
+    "data",
+    "data-ai",
+    "data-db",
+    "util-file"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "b64f15c24f0253490c49d3442f118fb73b178133",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 10,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:54:04Z",
+  "verification_level": "scanner_only"
+}

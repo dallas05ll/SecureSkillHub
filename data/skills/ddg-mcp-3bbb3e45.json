@@ -1,0 +1,26 @@
+{
+  "id": "ddg-mcp-3bbb3e45",
+  "name": "ddg-mcp",
+  "description": "DuckDuckGo search API MCP server",
+  "repo_url": "https://github.com/misanthropic-ai/ddg-mcp",
+  "source_hub": "mcp_so",
+  "owner": "misanthropic-ai",
+  "stars": 10,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "util-search"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "8b60e1354d654cd9e73be3ee66836f304a7e9379",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 4,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:42:34Z",
+  "verification_level": "scanner_only"
+}

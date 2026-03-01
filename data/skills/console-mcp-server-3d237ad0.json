@@ -1,0 +1,26 @@
+{
+  "id": "console-mcp-server-3d237ad0",
+  "name": "console-mcp-server",
+  "description": "Mia-Platform Console MCP Server",
+  "repo_url": "https://github.com/mia-platform/console-mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "mia-platform",
+  "stars": 3,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "3b1e12ebefca69d29b11cb8d7bd889f0235b2374",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 72,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:04:51Z",
+  "verification_level": "scanner_only"
+}

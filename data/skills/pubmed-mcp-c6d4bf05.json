@@ -1,0 +1,28 @@
+{
+  "id": "pubmed-mcp-c6d4bf05",
+  "name": "pubmed-mcp",
+  "description": "A Model Context Protocol (MCP) server that enables AI assistants to search and analyze PubMed medical literature with advanced filtering, citations, and research tools.",
+  "repo_url": "https://github.com/chrismannina/pubmed-mcp",
+  "source_hub": "mcp_so",
+  "owner": "chrismannina",
+  "stars": 8,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp",
+    "util",
+    "util-search"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "dc33e3c301aeafb817aea99825e1d74e9ae81f6f",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 33,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:54:02Z",
+  "verification_level": "scanner_only"
+}

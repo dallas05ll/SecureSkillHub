@@ -1,0 +1,26 @@
+{
+  "id": "taskboardai-658acafa",
+  "name": "TaskBoardAI",
+  "description": "Kanban board designed for ai agents to keep track of multi-step tasks. Includes HIL Web UI and MCP server.",
+  "repo_url": "https://github.com/TuckerTucker/TaskBoardAI",
+  "source_hub": "mcp_so",
+  "owner": "TuckerTucker",
+  "stars": 1,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "prod-pm"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "350cd159814e0cddba26f1e655529320bca42fe8",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 138,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:41Z",
+  "verification_level": "scanner_only"
+}

@@ -1,0 +1,26 @@
+{
+  "id": "mcp-basic-test-213c712f",
+  "name": "mcp-basic-test",
+  "description": "Example node MCP server. When a user asks the agent for the passphrase, a special code phase is provided.",
+  "repo_url": "https://github.com/gbti-network/mcp-basic-test",
+  "source_hub": "mcp_so",
+  "owner": "gbti-network",
+  "stars": 1,
+  "primary_language": "unknown",
+  "tags": [
+    "dev",
+    "dev-testing"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "1d8653f1bc8f0666bdbfb3cd3c6d1f2b883763da",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 7,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:41Z",
+  "verification_level": "scanner_only"
+}

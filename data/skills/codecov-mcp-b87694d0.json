@@ -1,0 +1,27 @@
+{
+  "id": "codecov-mcp-b87694d0",
+  "name": "codecov-mcp",
+  "description": "A Codecov Model Context Protocol server",
+  "repo_url": "https://github.com/stedwick/codecov-mcp",
+  "source_hub": "mcp_so",
+  "owner": "stedwick",
+  "stars": 6,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp",
+    "dev"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "702b14397cb3c8246458037184469235442a34b2",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 12,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:54:02Z",
+  "verification_level": "scanner_only"
+}

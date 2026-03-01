@@ -1,0 +1,26 @@
+{
+  "id": "mcp-gateway-go-ec81c0ef",
+  "name": "mcp-gateway-go",
+  "description": "A Go gateway that converts stdio-based MCP servers to SSE endpoints using mcp-go.",
+  "repo_url": "https://github.com/zhengkunwang223/mcp-gateway-go",
+  "source_hub": "mcp_so",
+  "owner": "zhengkunwang223",
+  "stars": 4,
+  "primary_language": "unknown",
+  "tags": [
+    "dev-web-backend-go",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "eefef9998ff9a93cca690076f8e2ee109939224d",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 1,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:54:02Z",
+  "verification_level": "scanner_only"
+}

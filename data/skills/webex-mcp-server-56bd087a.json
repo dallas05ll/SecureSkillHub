@@ -1,0 +1,25 @@
+{
+  "id": "webex-mcp-server-56bd087a",
+  "name": "webex-mcp-server",
+  "description": "A NodeJS MCP server for interacting with Webex Spaces",
+  "repo_url": "https://github.com/bharath063/webex-mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "bharath063",
+  "stars": 2,
+  "primary_language": "unknown",
+  "tags": [
+    "dev-web-backend-node"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "fbb13de8919f2fdb004bef97d7101903d8643f32",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 5,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:40Z",
+  "verification_level": "scanner_only"
+}

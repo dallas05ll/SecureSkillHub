@@ -1,0 +1,26 @@
+{
+  "id": "waldur-mcp-server-1891612d",
+  "name": "waldur-mcp-server",
+  "description": "Server implementing Model Context Protocol for Waldur",
+  "repo_url": "https://github.com/waldur/waldur-mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "waldur",
+  "stars": 2,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "680266aaf620f0c2eb8cc36f97fe8b0783320ac7",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 9,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:42Z",
+  "verification_level": "scanner_only"
+}

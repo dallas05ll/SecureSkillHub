@@ -1,0 +1,26 @@
+{
+  "id": "mcp-document-server-53c3adc7",
+  "name": "mcp-document-server",
+  "description": "🚀 Document storage and retrieval system for MCP – fast, secure, and reliable.",
+  "repo_url": "https://github.com/GhosTHaise/mcp-document-server",
+  "source_hub": "mcp_so",
+  "owner": "GhosTHaise",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "prod-docs",
+    "util-file"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "5c5c3df4f933efe7f06572ca383e9df8c742d50f",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 3,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:40Z",
+  "verification_level": "scanner_only"
+}

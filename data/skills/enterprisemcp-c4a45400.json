@@ -1,0 +1,26 @@
+{
+  "id": "enterprisemcp-c4a45400",
+  "name": "EnterpriseMCP",
+  "description": "MCP-Server for connecting Enterprise functionality such as SAP or Salesforce Integration",
+  "repo_url": "https://github.com/sebi5000/EnterpriseMCP",
+  "source_hub": "mcp_so",
+  "owner": "sebi5000",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "integ-crm"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "a048d00ee76420dc098b6c87d12a3db273aef21a",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 1,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:40Z",
+  "verification_level": "scanner_only"
+}

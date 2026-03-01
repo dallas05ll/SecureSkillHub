@@ -1,0 +1,25 @@
+{
+  "id": "mcp-osrs-41e454e3",
+  "name": "mcp-osrs",
+  "description": "mcp server for AI to understand osrs",
+  "repo_url": "https://github.com/JayArrowz/mcp-osrs",
+  "source_hub": "mcp_so",
+  "owner": "JayArrowz",
+  "stars": 19,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "59949f7c2cad237b873199807468e66f2052cfd7",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 20,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:42:34Z",
+  "verification_level": "scanner_only"
+}

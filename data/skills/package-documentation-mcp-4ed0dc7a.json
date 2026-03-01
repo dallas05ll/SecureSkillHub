@@ -1,0 +1,25 @@
+{
+  "id": "package-documentation-mcp-4ed0dc7a",
+  "name": "package-documentation-mcp",
+  "description": "MCP Server to retrieve documentation for a package",
+  "repo_url": "https://github.com/cdugo/package-documentation-mcp",
+  "source_hub": "mcp_so",
+  "owner": "cdugo",
+  "stars": 15,
+  "primary_language": "unknown",
+  "tags": [
+    "prod-docs"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "9f8ac082cdf8a7d78b92b4df33b0bc6ddda6bd57",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 13,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:42:34Z",
+  "verification_level": "scanner_only"
+}

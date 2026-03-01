@@ -1,0 +1,27 @@
+{
+  "id": "lite-mcp-sdk-b60fc88a",
+  "name": "Lite_MCP_sdk",
+  "description": "a light weight version of mcp sdk inspired by official model context protocol sdk, NOW focus on sse only no stdio",
+  "repo_url": "https://github.com/S2thend/Lite_MCP_sdk",
+  "source_hub": "mcp_so",
+  "owner": "S2thend",
+  "stars": 8,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp",
+    "dev"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "e6bcb1644a310d6d2b5ed212743be54bda46e346",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 24,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:42:36Z",
+  "verification_level": "scanner_only"
+}

@@ -1,0 +1,25 @@
+{
+  "id": "test-mcpserver-2bfea36f",
+  "name": "test_MCPServer",
+  "description": "Test MCP server that can do several things",
+  "repo_url": "https://github.com/Cavumnigrum/test_MCPServer",
+  "source_hub": "mcp_so",
+  "owner": "Cavumnigrum",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "dev-testing"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "2f73eea935a72e14b6fcdf780ab14abba14c2d77",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 6,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:43:00Z",
+  "verification_level": "scanner_only"
+}

@@ -1,0 +1,25 @@
+{
+  "id": "keep-test1-0b725445",
+  "name": "keep_test1",
+  "description": "this is a test repo for mcp server",
+  "repo_url": "https://github.com/keepdoing555/keep_test1",
+  "source_hub": "mcp_so",
+  "owner": "keepdoing555",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "dev-testing"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "81930d6521cc0280a3a6c6bf5c59508288d30dbc",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 1,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:42Z",
+  "verification_level": "scanner_only"
+}

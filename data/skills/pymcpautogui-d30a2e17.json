@@ -1,0 +1,26 @@
+{
+  "id": "pymcpautogui-d30a2e17",
+  "name": "PyMCPAutoGUI",
+  "description": "GUI manipulation MCP server",
+  "repo_url": "https://github.com/kitfactory/PyMCPAutoGUI",
+  "source_hub": "mcp_so",
+  "owner": "kitfactory",
+  "stars": 17,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "8c765bb8d296077febd56ac4c6d18b81a14d7d1f",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 6,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:42:34Z",
+  "verification_level": "scanner_only"
+}

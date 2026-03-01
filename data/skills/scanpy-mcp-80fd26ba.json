@@ -1,0 +1,25 @@
+{
+  "id": "scanpy-mcp-80fd26ba",
+  "name": "scanpy-mcp",
+  "description": "MCP server for scanpy",
+  "repo_url": "https://github.com/scmcphub/scanpy-mcp",
+  "source_hub": "mcp_so",
+  "owner": "scmcphub",
+  "stars": 2,
+  "primary_language": "unknown",
+  "tags": [
+    "sec-scan"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "f7ec474e94150083c48cc30e700b0d1625235206",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 12,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:04:51Z",
+  "verification_level": "scanner_only"
+}

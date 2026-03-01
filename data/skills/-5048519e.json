@@ -1,0 +1,26 @@
+{
+  "id": "-5048519e",
+  "name": "中国轮椅旅行无障碍信息服务",
+  "description": "这个功能在目前国内还是独一家提供，希望对国内的无障碍出行有所帮助。\r\n这个MCP让AI助手能够实时查询真实的无障碍设施旅行数据，帮助用户在旅途中找到合适的无障碍设施。",
+  "repo_url": "https://github.com/pingosk/中国轮椅旅行无障碍信息服务",
+  "source_hub": "mcp_so",
+  "owner": "pingosk",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "repo_unavailable"
+  ],
+  "verification_status": "manual_review",
+  "overall_score": 0,
+  "risk_level": "high",
+  "verified_commit": "",
+  "scan_summary": null,
+  "scan_date": "2026-02-28T20:27:23Z",
+  "findings_summary": {
+    "error": "clone failed: Cloning into '/var/folders/pq/bb71gjzd01d29nnmqrhqr2rc0000gn/T/strict5_-5048519e_751go28q/repo'...\nremote: Repository not found.\nfatal: repository 'https://github.com/pingosk/中国轮椅旅行无障碍信息服务/' not found",
+    "supervisor_approved": false,
+    "supervisor_confidence": 0
+  },
+  "repo_status": "unavailable"
+}

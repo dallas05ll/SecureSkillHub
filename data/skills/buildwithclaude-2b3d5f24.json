@@ -1,0 +1,33 @@
+{
+  "id": "buildwithclaude-2b3d5f24",
+  "name": "buildwithclaude",
+  "description": "Build with Claude is a plugin marketplace and discovery hub for Claude Code, Claude Desktop, and the Agent SDK. It catalogs curated agents, slash commands, hooks, skills, and plugin packages alongside community-discovered resources including 20,000+ community plugins, 4,500+ MCP servers, and 1,100+ plugin marketplaces. Provides a web UI at buildwithclaude.com and integrates as a Claude Code plugin marketplace.",
+  "repo_url": "https://github.com/davepoon/buildwithclaude",
+  "source_hub": "github_search",
+  "skill_type": "agent_skill",
+  "owner": "davepoon",
+  "stars": 2492,
+  "license": "mit",
+  "primary_language": "TypeScript",
+  "tags": [
+    "data-ai",
+    "dev",
+    "prod-comm"
+  ],
+  "verification_status": "pass",
+  "overall_score": 78,
+  "risk_level": "low",
+  "verified_commit": null,
+  "scan_summary": null,
+  "last_updated": "2026-02-25T12:20:16Z",
+  "findings_summary": {
+    "has_readme": true,
+    "has_security_policy": false,
+    "has_mcp_server": true,
+    "dangerous_patterns": [],
+    "notes": "Active individual project with strong documentation including README, CONTRIBUTING.md, UPDATES.md, and screenshot assets. MIT licensed. Has mcp-servers.json curating Docker-based MCP servers from the official Docker MCP registry. Also includes a .claude-plugin directory, Dockerfile, and package.json indicating a deployable skill/plugin. No SECURITY.md found - primary gap for this score tier. The repo is a discovery/cataloging tool rather than an execution engine, limiting risk surface. Individual owner rather than an organization, but maintained with recent commits as of verification date."
+  },
+  "trust_level": "low",
+  "scan_date": "2026-02-25T22:25:12Z",
+  "verification_level": "scanner_only"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "chatgpt-mcp-server-c5d39f43",
+  "name": "chatgpt-mcp-server",
+  "description": "A Model Context Protocol server for Docker management through ChatGPT",
+  "repo_url": "https://github.com/Toowiredd/chatgpt-mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "Toowiredd",
+  "stars": 14,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp",
+    "dev-devops-docker",
+    "prod-comm"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "b274e160eecde3a23b549db339edc94088d3f929",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 13,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:54:02Z",
+  "verification_level": "scanner_only"
+}

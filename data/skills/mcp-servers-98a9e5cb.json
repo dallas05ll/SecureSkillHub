@@ -1,0 +1,26 @@
+{
+  "id": "mcp-servers-98a9e5cb",
+  "name": "MCP-Servers",
+  "description": "Servidores MCP",
+  "repo_url": "https://github.com/Haonter/MCP-Servers",
+  "source_hub": "mcp_so",
+  "owner": "Haonter",
+  "stars": 2,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "5195e09711c48703bf1d7cf215f761841febaf98",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 6,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:04:50Z",
+  "verification_level": "scanner_only"
+}

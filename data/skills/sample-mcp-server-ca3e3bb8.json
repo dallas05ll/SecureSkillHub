@@ -1,0 +1,26 @@
+{
+  "id": "sample-mcp-server-ca3e3bb8",
+  "name": "sample-mcp-server",
+  "description": "A simple example of MCP server.",
+  "repo_url": "https://github.com/tadayosi/sample-mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "tadayosi",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "62d2edcb3880559126810e8449cb9ee4ab3fb4e0",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 1,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:41Z",
+  "verification_level": "scanner_only"
+}

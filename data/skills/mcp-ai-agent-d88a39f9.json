@@ -1,0 +1,27 @@
+{
+  "id": "mcp-ai-agent-d88a39f9",
+  "name": "mcp-ai-agent",
+  "description": "AI Agent built with Google ADK that leverages Google Maps MCP Server to answer real-world location questions with tool usage and traceable execution via Opik.",
+  "repo_url": "https://github.com/luuisotorres/mcp-ai-agent",
+  "source_hub": "mcp_so",
+  "owner": "luuisotorres",
+  "stars": 7,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "util",
+    "util-map"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "652d87feca408ad90696d70a4bf39052af07380c",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 5,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:54:02Z",
+  "verification_level": "scanner_only"
+}

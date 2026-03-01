@@ -1,0 +1,25 @@
+{
+  "id": "localgpt-a74053b1",
+  "name": "localGPT",
+  "description": "An ollama interface which provides models with MCPs",
+  "repo_url": "https://github.com/pahulgogna/localGPT",
+  "source_hub": "mcp_so",
+  "owner": "pahulgogna",
+  "stars": 1,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "11b94d6804e2ac1fa36d9cf3a1cd1af659b864ff",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 36,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:41Z",
+  "verification_level": "scanner_only"
+}

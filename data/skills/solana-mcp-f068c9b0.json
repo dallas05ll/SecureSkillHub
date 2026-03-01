@@ -1,0 +1,26 @@
+{
+  "id": "solana-mcp-f068c9b0",
+  "name": "solana-mcp",
+  "description": "A MCP server to interact with the Solana blockchain with your own private key",
+  "repo_url": "https://github.com/Grandbusta/solana-mcp",
+  "source_hub": "mcp_so",
+  "owner": "Grandbusta",
+  "stars": 10,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "sec-crypto"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "a3ef6eca1f64448bfe9339fefbb94ff11f62d709",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 8,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:42:34Z",
+  "verification_level": "scanner_only"
+}

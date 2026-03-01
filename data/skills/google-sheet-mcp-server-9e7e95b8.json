@@ -1,0 +1,26 @@
+{
+  "id": "google-sheet-mcp-server-9e7e95b8",
+  "name": "google-sheet-mcp-server",
+  "description": "google-sheet-mcp-server",
+  "repo_url": "https://github.com/Meerkats-Ai/google-sheet-mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "Meerkats-Ai",
+  "stars": 1,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "37d6f72b812b34bec9bfb0a58f04496dae8c7720",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 6,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:40Z",
+  "verification_level": "scanner_only"
+}

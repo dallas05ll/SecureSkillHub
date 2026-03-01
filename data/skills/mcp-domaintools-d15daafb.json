@@ -1,0 +1,26 @@
+{
+  "id": "mcp-domaintools-d15daafb",
+  "name": "mcp-domaintools",
+  "description": "An MCP server via STDIO to query DNS and WHOIS information.",
+  "repo_url": "https://github.com/patrickdappollonio/mcp-domaintools",
+  "source_hub": "mcp_so",
+  "owner": "patrickdappollonio",
+  "stars": 10,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "ae6f8b7a37d5571e796e394e013c951f2f597587",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 3,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:42:34Z",
+  "verification_level": "scanner_only"
+}

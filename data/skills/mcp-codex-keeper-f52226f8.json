@@ -1,0 +1,27 @@
+{
+  "id": "mcp-codex-keeper-f52226f8",
+  "name": "mcp-codex-keeper",
+  "description": "An intelligent MCP server that serves as a guardian of development knowledge, providing Cline assistants with curated access to latest documentation and best practices across the software development landscape",
+  "repo_url": "https://github.com/aindreyway/mcp-codex-keeper",
+  "source_hub": "mcp_so",
+  "owner": "aindreyway",
+  "stars": 75,
+  "primary_language": "unknown",
+  "tags": [
+    "dev",
+    "dev-testing",
+    "prod-docs"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "f59e7972e220576d813d7b8d43c97acc1c36d8d0",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 10,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-27T06:40:44Z",
+  "verification_level": "scanner_only"
+}

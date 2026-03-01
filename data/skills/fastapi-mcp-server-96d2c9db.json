@@ -1,0 +1,25 @@
+{
+  "id": "fastapi-mcp-server-96d2c9db",
+  "name": "fastapi-mcp-server",
+  "description": "FastAPI MCP Server は、FastAPI を用いた MCP (Model Context Protocol) サーバーです。 このプロジェクトは、各種ツールやデータソースへのアクセスを統一的に実現することを目指します。",
+  "repo_url": "https://github.com/NishizukaKoichi/fastapi-mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "NishizukaKoichi",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp",
+    "dev-web-backend-python",
+    "integ",
+    "repo_unavailable"
+  ],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null,
+  "repo_status": "unavailable",
+  "repo_check_date": "2026-02-28T20:51:40.961751+00:00",
+  "repo_check_error": "fatal: could not read Username for 'https://github.com': Device not configured"
+}

@@ -1,0 +1,26 @@
+{
+  "id": "kbg-aa5434ed",
+  "name": "kbg",
+  "description": "A custom Vue.js component for visualizing knowledge base graphs generated from MCP memory servers.",
+  "repo_url": "https://github.com/ocasazza/kbg",
+  "source_hub": "mcp_so",
+  "owner": "ocasazza",
+  "stars": 1,
+  "primary_language": "unknown",
+  "tags": [
+    "dev-web-frontend-vue",
+    "prod-notes"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "6cf217fa1c0759e75fa86a36413f74beccbc6930",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 26,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:40Z",
+  "verification_level": "scanner_only"
+}

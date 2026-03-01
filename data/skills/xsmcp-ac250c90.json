@@ -1,0 +1,25 @@
+{
+  "id": "xsmcp-ac250c90",
+  "name": "xsmcp",
+  "description": "🤖📎 extra-small MCP SDK for quick client/server builds.",
+  "repo_url": "https://github.com/moeru-ai/xsmcp",
+  "source_hub": "mcp_so",
+  "owner": "moeru-ai",
+  "stars": 47,
+  "primary_language": "unknown",
+  "tags": [
+    "dev"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "79679f2ccdbe6600c86db74c9cb83cd3407439b8",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 86,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:32:13Z",
+  "verification_level": "scanner_only"
+}

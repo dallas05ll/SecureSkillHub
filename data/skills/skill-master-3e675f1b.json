@@ -1,0 +1,29 @@
+{
+  "id": "skill-master-3e675f1b",
+  "name": "skill-master",
+  "description": "Skill Master helps you to find, invoke and improve LLM Agent skills automatically. It is also a skill itself",
+  "repo_url": "https://github.com/zysilm-ai/skill-master",
+  "source_hub": "github_search",
+  "skill_type": "agent_skill",
+  "owner": "zysilm-ai",
+  "stars": 2,
+  "license": "mit",
+  "primary_language": "markdown",
+  "tags": [
+    "data-ai",
+    "prod",
+    "util-search"
+  ],
+  "verification_status": "pass",
+  "overall_score": 78,
+  "risk_level": "medium",
+  "verified_commit": null,
+  "scan_summary": null,
+  "last_updated": "2026-01-16T02:32:05Z",
+  "findings_summary": {
+    "notes": "Metadata-based verification. Score=78. Signals: stars=2; license='mit' (+5); owner='zysilm-ai' (+3); primary_language='markdown'; source_hub='github_search'. Status: pass. Risk: medium."
+  },
+  "trust_level": "low",
+  "scan_date": "2026-02-26T06:14:56Z",
+  "verification_level": "metadata_only"
+}

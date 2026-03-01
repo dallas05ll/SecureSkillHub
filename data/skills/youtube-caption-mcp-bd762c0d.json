@@ -1,0 +1,27 @@
+{
+  "id": "youtube-caption-mcp-bd762c0d",
+  "name": "youtube-caption-mcp",
+  "description": "An MCP server for cursor to retrieve YouTube video captions without requiring an API key.",
+  "repo_url": "https://github.com/iamyosuke/youtube-caption-mcp",
+  "source_hub": "mcp_so",
+  "owner": "iamyosuke",
+  "stars": 1,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "integ-social",
+    "util-media"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "b33673b280b788b32027f1e1646b09436195af17",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 28,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:41Z",
+  "verification_level": "scanner_only"
+}

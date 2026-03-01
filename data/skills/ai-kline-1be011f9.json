@@ -1,0 +1,25 @@
+{
+  "id": "ai-kline-1be011f9",
+  "name": "AI-Kline",
+  "description": "AI看线，结合K线图，技术指标，财务数据，新闻数据的AI股票分析及预测框架，支持WEB页面及MCP SERVER",
+  "repo_url": "https://github.com/QuantML-Github/AI-Kline",
+  "source_hub": "mcp_so",
+  "owner": "QuantML-Github",
+  "stars": 302,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 14,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-27T02:28:45Z",
+  "verification_level": "scanner_only"
+}

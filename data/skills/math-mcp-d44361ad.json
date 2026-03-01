@@ -1,0 +1,26 @@
+{
+  "id": "math-mcp-d44361ad",
+  "name": "math-mcp",
+  "description": "Demo of MCP client/server using durable objects for trackings state",
+  "repo_url": "https://github.com/dinasaur404/math-mcp",
+  "source_hub": "mcp_so",
+  "owner": "dinasaur404",
+  "stars": 1,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "61748bbeffc4471000a26e273f0b66ad6880dc72",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 6,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:40Z",
+  "verification_level": "scanner_only"
+}

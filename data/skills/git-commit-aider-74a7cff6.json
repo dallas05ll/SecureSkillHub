@@ -1,0 +1,27 @@
+{
+  "id": "git-commit-aider-74a7cff6",
+  "name": "git-commit-aider",
+  "description": "A simple MCP server that makes git commits on behave of AI, so that you can track AI contribution in your codebase",
+  "repo_url": "https://github.com/MrOrz/git-commit-aider",
+  "source_hub": "mcp_so",
+  "owner": "MrOrz",
+  "stars": 8,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "dev",
+    "dev-git"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "3acbfbb09407a0b9f364994b6f65539ee7028031",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 6,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:42:34Z",
+  "verification_level": "scanner_only"
+}

@@ -1,0 +1,27 @@
+{
+  "id": "vibe-eyes-client-145f06a7",
+  "name": "vibe-eyes-client",
+  "description": "Client library for integrating browser games with Vibe Eyes MCP debug server",
+  "repo_url": "https://github.com/monteslu/vibe-eyes-client",
+  "source_hub": "mcp_so",
+  "owner": "monteslu",
+  "stars": 2,
+  "primary_language": "unknown",
+  "tags": [
+    "dev",
+    "dev-web",
+    "util-search"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "5733787e286fc3ad8b64e07d498b14767bb74058",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 5,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:40Z",
+  "verification_level": "scanner_only"
+}

@@ -1,0 +1,26 @@
+{
+  "id": "whereami-mcp-673d971f",
+  "name": "whereami-mcp",
+  "description": "A lightweight mcp server that tells you exactly where you are.",
+  "repo_url": "https://github.com/kukapay/whereami-mcp",
+  "source_hub": "mcp_so",
+  "owner": "kukapay",
+  "stars": 4,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "aa9d1d9deeb7f3197fd20c27c37e5be2dffc0cc3",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 3,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:04:50Z",
+  "verification_level": "scanner_only"
+}

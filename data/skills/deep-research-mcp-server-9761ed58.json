@@ -1,0 +1,26 @@
+{
+  "id": "deep-research-mcp-server-9761ed58",
+  "name": "deep-research-mcp-server",
+  "description": "MCP Deep Research Server using Gemini creating a Research AI Agent",
+  "repo_url": "https://github.com/ssdeanx/deep-research-mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "ssdeanx",
+  "stars": 66,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "util-search"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "3b9d7171eaa0ecda735bb28943f750401c5d7e72",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 34,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-27T06:40:44Z",
+  "verification_level": "scanner_only"
+}

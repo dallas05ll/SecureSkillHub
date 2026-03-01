@@ -1,0 +1,26 @@
+{
+  "id": "mcp-on-edge-2574a2e7",
+  "name": "mcp-on-edge",
+  "description": "MCP Client and Server Implementation with Functions",
+  "repo_url": "https://github.com/amylixing/mcp-on-edge",
+  "source_hub": "mcp_so",
+  "owner": "amylixing",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "f77fb190e9ee2fc7ac361a5ed213b21a6c6e54c6",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 15,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:41Z",
+  "verification_level": "scanner_only"
+}

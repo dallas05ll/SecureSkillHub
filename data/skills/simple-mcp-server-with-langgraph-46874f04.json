@@ -1,0 +1,26 @@
+{
+  "id": "simple-mcp-server-with-langgraph-46874f04",
+  "name": "simple_mcp_server_with_langgraph",
+  "description": "Simple MCP server with Langgraph.",
+  "repo_url": "https://github.com/EunsuGoh/simple_mcp_server_with_langgraph",
+  "source_hub": "mcp_so",
+  "owner": "EunsuGoh",
+  "stars": 2,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "c2de47bb28537ebb09da2714f020c91e45e984f5",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 16,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:04:51Z",
+  "verification_level": "scanner_only"
+}

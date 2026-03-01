@@ -1,0 +1,27 @@
+{
+  "id": "mcp-server-with-semantic-kernel-b314821c",
+  "name": "mcp-server-with-semantic-kernel",
+  "description": "Building Semantic Kernel Agents with Model Context Protocol (MCP) Plugins in Python",
+  "repo_url": "https://github.com/cnrishiraj/mcp-server-with-semantic-kernel",
+  "source_hub": "mcp_so",
+  "owner": "cnrishiraj",
+  "stars": 1,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp",
+    "dev-web-backend-python"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "d9eeef00a4d209f3f4ddd625026069d44765e7bb",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 7,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:41Z",
+  "verification_level": "scanner_only"
+}

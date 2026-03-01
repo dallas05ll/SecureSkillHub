@@ -1,0 +1,32 @@
+{
+  "id": "claude-aws-cost-saver-3436f765",
+  "name": "claude-aws-cost-saver",
+  "description": "Claude Code plugin that finds AWS cost savings. 163 checks across EC2, RDS, S3, Lambda, and 30+ services.",
+  "repo_url": "https://github.com/prajapatimehul/claude-aws-cost-saver",
+  "source_hub": "github_search",
+  "skill_type": "agent_skill",
+  "owner": "prajapatimehul",
+  "stars": 10,
+  "license": "mit",
+  "primary_language": "markdown",
+  "tags": [
+    "data-ai",
+    "dev",
+    "integ-cloud",
+    "integ-cloud-aws",
+    "util-file",
+    "util-search"
+  ],
+  "verification_status": "pass",
+  "overall_score": 83,
+  "risk_level": "low",
+  "verified_commit": null,
+  "scan_summary": null,
+  "last_updated": "2026-02-16T12:17:36Z",
+  "findings_summary": {
+    "notes": "Metadata-based verification. Score=83. Signals: stars=10 (>=10, +5); license='mit' (+5); owner='prajapatimehul' (+3); primary_language='markdown'; source_hub='github_search'. Status: pass. Risk: low."
+  },
+  "trust_level": "low",
+  "scan_date": "2026-02-26T06:14:55Z",
+  "verification_level": "metadata_only"
+}

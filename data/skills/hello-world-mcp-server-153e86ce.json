@@ -1,0 +1,26 @@
+{
+  "id": "hello-world-mcp-server-153e86ce",
+  "name": "hello-world-mcp-server",
+  "description": "A simple Hello World MCP server example",
+  "repo_url": "https://github.com/arnab0831/hello-world-mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "arnab0831",
+  "stars": 2,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "0b6365de91876edee98a189139e685c212c8ad05",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 6,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:04:50Z",
+  "verification_level": "scanner_only"
+}

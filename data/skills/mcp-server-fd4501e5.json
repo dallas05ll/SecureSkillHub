@@ -1,0 +1,26 @@
+{
+  "id": "mcp-server-fd4501e5",
+  "name": "mcp-server",
+  "description": "测试 mcp server的代码库",
+  "repo_url": "https://github.com/Yangbin-v/mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "Yangbin-v",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "5b2f9b1943e65b2759382da14419d65663dfd437",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 1,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:40Z",
+  "verification_level": "scanner_only"
+}

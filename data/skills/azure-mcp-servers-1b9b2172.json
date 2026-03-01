@@ -1,0 +1,30 @@
+{
+  "id": "azure-mcp-servers-1b9b2172",
+  "name": "azure-mcp-servers",
+  "description": "This directory showcases various Model Context Protocol (MCP) servers. These servers enable Large Language Models (LLMs) to securely access tools and data sources from Microsoft Azure.",
+  "repo_url": "https://github.com/manekinekko/azure-mcp-servers",
+  "source_hub": "mcp_so",
+  "owner": "manekinekko",
+  "stars": 1,
+  "primary_language": "unknown",
+  "tags": [
+    "data",
+    "data-ai",
+    "data-ai-nlp",
+    "integ-cloud",
+    "integ-cloud-azure",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "efe554b9313578f191f3f34e5c62a6c2839b4ea0",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 1,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:40Z",
+  "verification_level": "scanner_only"
+}

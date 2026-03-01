@@ -1,0 +1,30 @@
+{
+  "id": "adobe-commerce-dev-mcp-4c0978a1",
+  "name": "Adobe Commerce Dev MCP",
+  "description": "This project implements a Model Context Protocol (MCP) server that interacts with Adobe Commerce. This protocol supports various tools to interact with Adobe Commerce GraphQL APIs.",
+  "repo_url": "https://github.com/rafaelstz/Adobe Commerce Dev MCP",
+  "source_hub": "mcp_so",
+  "owner": "rafaelstz",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp",
+    "data-db-graph",
+    "integ",
+    "util",
+    "repo_unavailable"
+  ],
+  "verification_status": "manual_review",
+  "overall_score": 0,
+  "risk_level": "high",
+  "verified_commit": "",
+  "scan_summary": null,
+  "scan_date": "2026-02-28T20:27:24Z",
+  "findings_summary": {
+    "error": "clone failed: Cloning into '/var/folders/pq/bb71gjzd01d29nnmqrhqr2rc0000gn/T/strict5_adobe-commerce-dev-mcp-4_or0fm5os/repo'...\nfatal: unable to access 'https://github.com/rafaelstz/Adobe Commerce Dev MCP/': URL rejected: Malformed input to a URL function",
+    "supervisor_approved": false,
+    "supervisor_confidence": 0
+  },
+  "repo_status": "unavailable"
+}

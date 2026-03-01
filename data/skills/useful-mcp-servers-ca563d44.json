@@ -1,0 +1,26 @@
+{
+  "id": "useful-mcp-servers-ca563d44",
+  "name": "useful-mcp-servers",
+  "description": "Collection of useful and secure MCP servers for various integrations and tasks",
+  "repo_url": "https://github.com/Vostos007/useful-mcp-servers",
+  "source_hub": "mcp_so",
+  "owner": "Vostos007",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "prod-pm"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "46b8f308ec339fa09e27508e74f06386320c03ac",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 1,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:42:59Z",
+  "verification_level": "scanner_only"
+}

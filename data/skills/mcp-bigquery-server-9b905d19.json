@@ -1,0 +1,28 @@
+{
+  "id": "mcp-bigquery-server-9b905d19",
+  "name": "mcp-bigquery-server",
+  "description": "A Model Context Protocol (MCP) server that provides secure, read-only access to BigQuery datasets. Enables Large Language Models (LLMs) to safely query and analyze data through a standardized interface.",
+  "repo_url": "https://github.com/ergut/mcp-bigquery-server",
+  "source_hub": "mcp_so",
+  "owner": "ergut",
+  "stars": 133,
+  "primary_language": "unknown",
+  "tags": [
+    "data",
+    "data-ai",
+    "data-ai-nlp",
+    "integ-cloud-gcp"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "36cebb115f9101363c24042b87ae68b7d38039e1",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 6,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-27T06:40:43Z",
+  "verification_level": "scanner_only"
+}

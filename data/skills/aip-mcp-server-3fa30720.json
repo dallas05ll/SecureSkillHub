@@ -1,0 +1,26 @@
+{
+  "id": "aip-mcp-server-3fa30720",
+  "name": "aip-mcp-server",
+  "description": "Secure agentic tool repo with execution environment",
+  "repo_url": "https://github.com/aipracticegovsg/aip-mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "aipracticegovsg",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 10,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-25T14:42:32Z",
+  "verification_level": "scanner_only"
+}

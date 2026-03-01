@@ -1,0 +1,25 @@
+{
+  "id": "mcp-rabuin-e3d2f6a8",
+  "name": "mcp-rabuin",
+  "description": "A MCP server for testing",
+  "repo_url": "https://github.com/rabuinDevelopair/mcp-rabuin",
+  "source_hub": "mcp_so",
+  "owner": "rabuinDevelopair",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "dev-testing"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "aa8b3c41f89e5f19000a43f1da566ee2c639c39e",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 1,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:42Z",
+  "verification_level": "scanner_only"
+}

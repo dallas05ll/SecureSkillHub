@@ -1,0 +1,34 @@
+{
+  "id": "coder-db-40311af9",
+  "name": "coder_db",
+  "description": "An intelligent code memory system that leverages vector embeddings, structured databases, and knowledge graphs to store, retrieve, and analyze code patterns with semantic search capabilities, quality metrics, and relationship modeling. Designed to enhance programming workflows through contextual recall of best practices, algorithms, and solutions.",
+  "repo_url": "https://github.com/angrysky56/coder_db",
+  "source_hub": "mcp_so",
+  "owner": "angrysky56",
+  "stars": 8,
+  "primary_language": "unknown",
+  "tags": [
+    "data",
+    "data-ai",
+    "data-ai-nlp",
+    "data-db",
+    "data-db-vector",
+    "dev",
+    "prod",
+    "prod-notes",
+    "util-monitor",
+    "util-search"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "e0ff6872b66da27c4703bd2e5a8ba44963d4fc26",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 34,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:42:34Z",
+  "verification_level": "scanner_only"
+}

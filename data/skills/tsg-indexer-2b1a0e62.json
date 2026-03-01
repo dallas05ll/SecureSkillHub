@@ -1,0 +1,27 @@
+{
+  "id": "tsg-indexer-2b1a0e62",
+  "name": "tsg_indexer",
+  "description": "A library for indexing code repositories using Tree-sitter Stack Graphs, designed to be used in MCP servers and other tools.",
+  "repo_url": "https://github.com/entrepeneur4lyf/tsg_indexer",
+  "source_hub": "mcp_so",
+  "owner": "entrepeneur4lyf",
+  "stars": 10,
+  "primary_language": "unknown",
+  "tags": [
+    "dev",
+    "util",
+    "util-search"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "b0819c7350bb1fe1f7ba47aee8324b19b12853e1",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 473,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:42:36Z",
+  "verification_level": "scanner_only"
+}

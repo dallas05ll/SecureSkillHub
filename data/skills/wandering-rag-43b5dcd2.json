@@ -1,0 +1,29 @@
+{
+  "id": "wandering-rag-43b5dcd2",
+  "name": "wandering-rag",
+  "description": "A CLI tool for personal RAG that retrieves data from Notion, Obsidian, Apple Notes, etc., stored in Qdrant and exposed as an MCP server.",
+  "repo_url": "https://github.com/wandermyz/wandering-rag",
+  "source_hub": "mcp_so",
+  "owner": "wandermyz",
+  "stars": 6,
+  "primary_language": "unknown",
+  "tags": [
+    "data",
+    "data-db-vector",
+    "prod-docs",
+    "prod-notes",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "61df5ce4f4aa036016b4205808f5849edd0c42a1",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 26,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:54:02Z",
+  "verification_level": "scanner_only"
+}

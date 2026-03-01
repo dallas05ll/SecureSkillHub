@@ -1,0 +1,28 @@
+{
+  "id": "optimized-memory-mcp-serverv2-db064a1e",
+  "name": "optimized-memory-mcp-serverv2",
+  "description": "This is a personal project to test Claude AI's ability to self-write an MCP Server code for its own use.",
+  "repo_url": "https://github.com/AgentWong/optimized-memory-mcp-serverv2",
+  "source_hub": "mcp_so",
+  "owner": "AgentWong",
+  "stars": 1,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "dev",
+    "dev-testing",
+    "prod-notes"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "c2225cf1967ff5b33a26c47c7fd39f8cbc4ff535",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 65,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:41Z",
+  "verification_level": "scanner_only"
+}

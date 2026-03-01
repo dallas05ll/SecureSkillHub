@@ -1,0 +1,26 @@
+{
+  "id": "mcp-json-tools-52e0ca87",
+  "name": "mcp-json-tools",
+  "description": "MCP server providing tools to query, inspect, and modify local JSON files.",
+  "repo_url": "https://github.com/zfirsty/mcp-json-tools",
+  "source_hub": "mcp_so",
+  "owner": "zfirsty",
+  "stars": 2,
+  "primary_language": "unknown",
+  "tags": [
+    "util",
+    "util-file"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "eb6e87192de80ce794d1ada025881fb4f7988237",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 7,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:04:50Z",
+  "verification_level": "scanner_only"
+}

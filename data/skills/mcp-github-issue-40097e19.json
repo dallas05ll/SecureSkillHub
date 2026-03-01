@@ -1,0 +1,26 @@
+{
+  "id": "mcp-github-issue-40097e19",
+  "name": "mcp-github-issue",
+  "description": "An MCP server that provides LLMs with the ability to use GitHub issues as tasks",
+  "repo_url": "https://github.com/sammcj/mcp-github-issue",
+  "source_hub": "mcp_so",
+  "owner": "sammcj",
+  "stars": 14,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "prod-pm"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "a191a41d2f51df9133edfcc6350a962deb64629b",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 7,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:42:36Z",
+  "verification_level": "scanner_only"
+}

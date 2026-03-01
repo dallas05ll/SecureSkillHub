@@ -1,0 +1,29 @@
+{
+  "id": "npm-helper-mcp-a2b98201",
+  "name": "npm-helper-mcp",
+  "description": "A Model Context Protocol (MCP) server providing tools for NPM package management and dependency updates. Helps LLMs like Claude interact with npm packages, search npm registry, and keep dependencies up-to-date.",
+  "repo_url": "https://github.com/pinkpixel-dev/npm-helper-mcp",
+  "source_hub": "mcp_so",
+  "owner": "pinkpixel-dev",
+  "stars": 8,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp",
+    "dev-web-backend-node",
+    "util",
+    "util-search"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "9b8307df703fe02ba1e7355bfba04ce9ef552aba",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 13,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:42:36Z",
+  "verification_level": "scanner_only"
+}

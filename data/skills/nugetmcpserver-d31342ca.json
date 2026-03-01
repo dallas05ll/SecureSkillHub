@@ -1,0 +1,26 @@
+{
+  "id": "nugetmcpserver-d31342ca",
+  "name": "NugetMcpServer",
+  "description": "Local MCP server demo",
+  "repo_url": "https://github.com/DimonSmart/NugetMcpServer",
+  "source_hub": "mcp_so",
+  "owner": "DimonSmart",
+  "stars": 14,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "1cbaf6a67efc17bc0c0a498825dbdfc8283d98df",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 6,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:42:36Z",
+  "verification_level": "scanner_only"
+}

@@ -1,0 +1,26 @@
+{
+  "id": "onchain-mcp-7b278603",
+  "name": "onchain-mcp",
+  "description": "Bringing the bankless onchain API to MCP",
+  "repo_url": "https://github.com/Bankless/onchain-mcp",
+  "source_hub": "mcp_so",
+  "owner": "Bankless",
+  "stars": 72,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "integ"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "5a0f10947e717c7988c7e75c7edd92544985fdf4",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 17,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-27T06:40:44Z",
+  "verification_level": "scanner_only"
+}

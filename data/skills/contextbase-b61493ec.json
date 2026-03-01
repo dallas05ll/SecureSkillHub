@@ -1,0 +1,27 @@
+{
+  "id": "contextbase-b61493ec",
+  "name": "contextbase",
+  "description": "A mcp server for storing and managing user context for ai apps via api",
+  "repo_url": "https://github.com/imfeniljikadara/contextbase",
+  "source_hub": "mcp_so",
+  "owner": "imfeniljikadara",
+  "stars": 1,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp",
+    "integ"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "878b7fdf9ad8440d24e55b82648600043b286f62",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 18,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:41Z",
+  "verification_level": "scanner_only"
+}

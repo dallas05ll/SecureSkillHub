@@ -1,0 +1,26 @@
+{
+  "id": "z3-mcp-8d04d9ed",
+  "name": "z3_mcp",
+  "description": "An MCP server for the z3 theorem prover",
+  "repo_url": "https://github.com/javergar/z3_mcp",
+  "source_hub": "mcp_so",
+  "owner": "javergar",
+  "stars": 4,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "0bb3eaf184a3832d5164ebe92d281dcbb97afe62",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 12,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:04:50Z",
+  "verification_level": "scanner_only"
+}

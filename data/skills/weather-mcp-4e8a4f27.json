@@ -1,0 +1,25 @@
+{
+  "id": "weather-mcp-4e8a4f27",
+  "name": "weather-mcp",
+  "description": "MCP server for weather forecasts and alerts",
+  "repo_url": "https://github.com/ruankie/weather-mcp",
+  "source_hub": "mcp_so",
+  "owner": "ruankie",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "util-monitor"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "8dab556552e2ae78e1117cc9b16f352e4cebd939",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 3,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:42:59Z",
+  "verification_level": "scanner_only"
+}

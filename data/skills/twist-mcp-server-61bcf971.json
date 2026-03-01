@@ -1,0 +1,26 @@
+{
+  "id": "twist-mcp-server-61bcf971",
+  "name": "twist-mcp-server",
+  "description": "Twist MCP server",
+  "repo_url": "https://github.com/mikemc/twist-mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "mikemc",
+  "stars": 1,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "ba071dd3ed065471daef392540ebe66623d18bdb",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 7,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:40Z",
+  "verification_level": "scanner_only"
+}

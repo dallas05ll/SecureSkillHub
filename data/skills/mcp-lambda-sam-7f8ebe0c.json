@@ -1,0 +1,27 @@
+{
+  "id": "mcp-lambda-sam-7f8ebe0c",
+  "name": "mcp-lambda-sam",
+  "description": "An AWS Serverless Application Model that operates as an MCP server via serverless AWS resources",
+  "repo_url": "https://github.com/markvp/mcp-lambda-sam",
+  "source_hub": "mcp_so",
+  "owner": "markvp",
+  "stars": 12,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "integ-cloud",
+    "integ-cloud-aws"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "a8aa4cc76fb3264bd6d38014b738fddd880eb9b8",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 29,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:42:34Z",
+  "verification_level": "scanner_only"
+}

@@ -1,0 +1,26 @@
+{
+  "id": "pubchem-mcp-server-d0526004",
+  "name": "PubChem-MCP-Server",
+  "description": "🧪 Enable AI assistants to search and access chemical compound information through a simple MCP interface.",
+  "repo_url": "https://github.com/JackKuo666/PubChem-MCP-Server",
+  "source_hub": "mcp_so",
+  "owner": "JackKuo666",
+  "stars": 4,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "util-search"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "69fd734e6d867261aa7216c85ea4725d6ef83929",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 4,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:04:50Z",
+  "verification_level": "scanner_only"
+}

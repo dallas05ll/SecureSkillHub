@@ -1,0 +1,26 @@
+{
+  "id": "mantine-ui-server-2b98f890",
+  "name": "mantine-ui-server",
+  "description": "MCP server for working with Mantine UI components - provides documentation, generation, and theme utilities",
+  "repo_url": "https://github.com/hakxel/mantine-ui-server",
+  "source_hub": "mcp_so",
+  "owner": "hakxel",
+  "stars": 14,
+  "primary_language": "unknown",
+  "tags": [
+    "prod-docs",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "f3f92e5dd533cc4d934297ecd992a77e66675b9e",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 15,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:42:36Z",
+  "verification_level": "scanner_only"
+}

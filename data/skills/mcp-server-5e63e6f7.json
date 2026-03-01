@@ -1,0 +1,28 @@
+{
+  "id": "mcp-server-5e63e6f7",
+  "name": "MCP-Server",
+  "description": "MCP server that provides tools for metadata retrieval from SharePoint and entity retrieval from a Neo4j knowledge graph using semantic similarity search.",
+  "repo_url": "https://github.com/JanithSilva/MCP-Server",
+  "source_hub": "mcp_so",
+  "owner": "JanithSilva",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "data",
+    "data-db-graph",
+    "util",
+    "util-search"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "d4cd0a558b7652fa707347432760f9c1deda7e0f",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 6,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:42Z",
+  "verification_level": "scanner_only"
+}

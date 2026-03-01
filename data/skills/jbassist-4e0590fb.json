@@ -1,0 +1,25 @@
+{
+  "id": "jbassist-4e0590fb",
+  "name": "JBAssist",
+  "description": "A Windows-compatible MCP server for querying Microsoft Graph API",
+  "repo_url": "https://github.com/JBAgent/JBAssist",
+  "source_hub": "mcp_so",
+  "owner": "JBAgent",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "integ"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "b17fcf4f1c7d4b2790e3bd98a56542865ae303d1",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 5,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:41Z",
+  "verification_level": "scanner_only"
+}

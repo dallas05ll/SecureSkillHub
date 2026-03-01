@@ -1,0 +1,26 @@
+{
+  "id": "mcp-rocq-1861269e",
+  "name": "mcp-rocq",
+  "description": "RoCQ (Coq Reasoning Server)",
+  "repo_url": "https://github.com/angrysky56/mcp-rocq",
+  "source_hub": "mcp_so",
+  "owner": "angrysky56",
+  "stars": 9,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "ef9e9a1e469ca9630dddf90d0a81b54911d6ce6b",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 14,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:42:34Z",
+  "verification_level": "scanner_only"
+}

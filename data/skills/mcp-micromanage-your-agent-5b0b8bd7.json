@@ -1,0 +1,28 @@
+{
+  "id": "mcp-micromanage-your-agent-5b0b8bd7",
+  "name": "mcp-micromanage-your-agent",
+  "description": "A Micromanagement Tool for Development Workflows: Helps coding agent plan, track, and visualize sequential development tasks with detailed commit-level granularity. Features interactive visualization, automated status tracking, and structured workflow management.",
+  "repo_url": "https://github.com/yodakeisuke/mcp-micromanage-your-agent",
+  "source_hub": "mcp_so",
+  "owner": "yodakeisuke",
+  "stars": 13,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "prod",
+    "prod-pm",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "9002f96946b20b1b5dacd2c866c8f44d21a0c294",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 47,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:42:34Z",
+  "verification_level": "scanner_only"
+}

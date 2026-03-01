@@ -1,0 +1,25 @@
+{
+  "id": "salesforce-mcp-3e83e43f",
+  "name": "salesforce-mcp",
+  "description": "Server which will let mcp client interact with Salesforce.",
+  "repo_url": "https://github.com/kiran-machhewar/salesforce-mcp",
+  "source_hub": "mcp_so",
+  "owner": "kiran-machhewar",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "integ-crm"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "ce8356e5130b4f73a2e568e898c782b830af18a1",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 1,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:40Z",
+  "verification_level": "scanner_only"
+}

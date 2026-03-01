@@ -1,0 +1,29 @@
+{
+  "id": "mcp-server-appointment-management-20310ada",
+  "name": "mcp-server-appointment-management",
+  "description": "This project is a Java-based MCP (Model-Context-Protocol) server designed to manage appointment data from the database.It provides a modular framework that exposes internal tools for data access and manipulation, with built-in support for AI-driven features",
+  "repo_url": "https://github.com/tszwalaw/mcp-server-appointment-management",
+  "source_hub": "mcp_so",
+  "owner": "tszwalaw",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "data",
+    "data-ai",
+    "data-ai-nlp",
+    "data-db",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "e0d8c1a1b0b7e3b475ef48189dbaeb194095b7f1",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 2,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:41Z",
+  "verification_level": "scanner_only"
+}

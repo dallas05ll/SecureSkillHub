@@ -1,0 +1,26 @@
+{
+  "id": "mcp-server-ce591950",
+  "name": "mcp_server",
+  "description": "implementing a sample mcp_server using dolphin_mcp client",
+  "repo_url": "https://github.com/karansharma3009/mcp_server",
+  "source_hub": "mcp_so",
+  "owner": "karansharma3009",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "54062aec4103282f3ea6527d7ebb2adceece69fb",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 6,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:40Z",
+  "verification_level": "scanner_only"
+}

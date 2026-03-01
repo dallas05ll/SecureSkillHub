@@ -1,0 +1,26 @@
+{
+  "id": "gdrive-mcp-server-b72fedd0",
+  "name": "gdrive-mcp-server",
+  "description": "Efficient implementation of the Google Drive MCP server",
+  "repo_url": "https://github.com/felores/gdrive-mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "felores",
+  "stars": 64,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "a1e0fa1f57319d261c5ee67f6302762ad23f11c4",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 9,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-27T06:40:43Z",
+  "verification_level": "scanner_only"
+}

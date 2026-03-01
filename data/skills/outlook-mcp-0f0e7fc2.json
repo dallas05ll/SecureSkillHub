@@ -1,0 +1,27 @@
+{
+  "id": "outlook-mcp-0f0e7fc2",
+  "name": "outlook-mcp",
+  "description": "MCP server for Claude to access Outlook data via Microsoft Graph API",
+  "repo_url": "https://github.com/ryaker/outlook-mcp",
+  "source_hub": "mcp_so",
+  "owner": "ryaker",
+  "stars": 251,
+  "primary_language": "unknown",
+  "tags": [
+    "data",
+    "data-ai",
+    "integ"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 52,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-27T02:28:45Z",
+  "verification_level": "scanner_only"
+}

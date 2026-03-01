@@ -1,0 +1,28 @@
+{
+  "id": "openai-deep-research-mcp-cf278057",
+  "name": "openai-deep-research-mcp",
+  "description": "OpenAI Deep Research MCP Server enables AI assistants to conduct comprehensive, multi-step research through intelligent web search and content synthesis. Transforms complex research queries into structured, citation-backed reports without writing custom search logic. Features iterative exploration, automatic knowledge gap identification, and seamless integration with OpenAI's Deep Research models for scholarly-quality research automation.",
+  "repo_url": "https://github.com/fbettag/openai-deep-research-mcp",
+  "source_hub": "mcp_so",
+  "owner": "fbettag",
+  "stars": 6,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "integ",
+    "prod",
+    "util-search"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "fcf13d6ef351c753eb3847fccc4205b15f9ac53d",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 6,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:54:02Z",
+  "verification_level": "scanner_only"
+}

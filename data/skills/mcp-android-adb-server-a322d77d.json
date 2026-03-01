@@ -1,0 +1,25 @@
+{
+  "id": "mcp-android-adb-server-a322d77d",
+  "name": "mcp-android-adb-server",
+  "description": "通过AI大模型操作安卓设备",
+  "repo_url": "https://github.com/github-hewei/mcp-android-adb-server",
+  "source_hub": "mcp_so",
+  "owner": "github-hewei",
+  "stars": 20,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "53aa2a6bd1bb310cf35622003a23ae7db760d126",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 3,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:32:11Z",
+  "verification_level": "scanner_only"
+}

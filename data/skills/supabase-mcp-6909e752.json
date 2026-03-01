@@ -1,0 +1,29 @@
+{
+  "id": "supabase-mcp-6909e752",
+  "name": "supabase-mcp",
+  "description": "A Model Context Protocol (MCP) server that provides AI assistants with the ability to interact with Supabase databases through standardized tools.",
+  "repo_url": "https://github.com/haladesigns/supabase-mcp",
+  "source_hub": "mcp_so",
+  "owner": "haladesigns",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "data",
+    "data-ai",
+    "data-ai-nlp",
+    "data-db",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "b1d7a47b68332b2709b51fd83e8ced784f3ac063",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 7,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:40Z",
+  "verification_level": "scanner_only"
+}

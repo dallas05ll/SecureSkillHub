@@ -1,0 +1,25 @@
+{
+  "id": "release-skills-c9bb5871",
+  "name": "Release Skills",
+  "description": "Agent skill: release-skills from jimliu/baoyu-skills",
+  "repo_url": "https://github.com/jimliu/baoyu-skills",
+  "source_hub": "skills_sh",
+  "owner": "jimliu",
+  "stars": 5500,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "7d03685ade4c4ec4b3fd7d4000d668222d56d0da",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 315,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:54:02Z",
+  "verification_level": "scanner_only"
+}

@@ -1,0 +1,26 @@
+{
+  "id": "google-slides-mcp-9c697b2b",
+  "name": "google-slides-mcp",
+  "description": "MCP Server for Google Slides",
+  "repo_url": "https://github.com/matteoantoci/google-slides-mcp",
+  "source_hub": "mcp_so",
+  "owner": "matteoantoci",
+  "stars": 152,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "4f4c1c575a7a093eb4e911f41d4316bce993bc79",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 17,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-27T06:36:35Z",
+  "verification_level": "scanner_only"
+}

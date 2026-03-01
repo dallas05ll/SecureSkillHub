@@ -1,0 +1,31 @@
+{
+  "id": "mockloop-mcp-b96f8364",
+  "name": "mockloop-mcp",
+  "description": "Intelligent Model Context Protocol (MCP) server for AI-assisted API development. Generate mock servers from OpenAPI specs with advanced logging, performance analytics, and server discovery. Optimized for AI development workflows with comprehensive testing insights and automated analysis.",
+  "repo_url": "https://github.com/MockLoop/mockloop-mcp",
+  "source_hub": "mcp_so",
+  "owner": "MockLoop",
+  "stars": 15,
+  "primary_language": "unknown",
+  "tags": [
+    "data",
+    "data-ai",
+    "data-ai-nlp",
+    "dev-testing",
+    "integ",
+    "prod",
+    "util-monitor"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "b067977f28e9649682ef9d55acf4af07921d2643",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 123,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:42:36Z",
+  "verification_level": "scanner_only"
+}

@@ -1,0 +1,27 @@
+{
+  "id": "chrome-extension-mcp-go-c22da0e1",
+  "name": "chrome-extension-mcp-go",
+  "description": "Chrome Extension MCP Server implemented in Go - For Model Context Protocol to interact with Chrome extensions",
+  "repo_url": "https://github.com/fujiron/chrome-extension-mcp-go",
+  "source_hub": "mcp_so",
+  "owner": "fujiron",
+  "stars": 2,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp",
+    "dev-web-backend-go"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "118e0b27f7ab8a3672510af73063ec50843b66d2",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 5,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:04:50Z",
+  "verification_level": "scanner_only"
+}

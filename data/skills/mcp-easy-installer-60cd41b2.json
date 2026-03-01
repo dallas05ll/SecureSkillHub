@@ -1,0 +1,27 @@
+{
+  "id": "mcp-easy-installer-60cd41b2",
+  "name": "mcp-easy-installer",
+  "description": "MCP easy installer is a robust mcp server with tools to search, install, configure, repair and uninstall MCP servers",
+  "repo_url": "https://github.com/onigetoc/mcp-easy-installer",
+  "source_hub": "mcp_so",
+  "owner": "onigetoc",
+  "stars": 18,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "util",
+    "util-search"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "3d4fbb611dd89e8554069ab52c3ba8ffaa868276",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 16,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:42:36Z",
+  "verification_level": "scanner_only"
+}

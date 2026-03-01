@@ -1,0 +1,26 @@
+{
+  "id": "mcp-servers-53bd84a5",
+  "name": "mcp-servers",
+  "description": "A collection of MCP servers.",
+  "repo_url": "https://github.com/MCP-Base/mcp-servers",
+  "source_hub": "mcp_so",
+  "owner": "MCP-Base",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "c5e3dc79d543d667fd5ca4db79b93e22346ebb4e",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 2,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:41Z",
+  "verification_level": "scanner_only"
+}

@@ -1,0 +1,26 @@
+{
+  "id": "home-assistant-mcp-agent-eb924319",
+  "name": "home-assistant-mcp-agent",
+  "description": "LiveKit Agent integrated with MCP server of Home Assistant",
+  "repo_url": "https://github.com/longcw/home-assistant-mcp-agent",
+  "source_hub": "mcp_so",
+  "owner": "longcw",
+  "stars": 19,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "dfbbc69f76fd4282a4bb1755e49fff19736a16e4",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 8,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:42:36Z",
+  "verification_level": "scanner_only"
+}

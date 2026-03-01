@@ -1,0 +1,85 @@
+{
+  "tag_path": "data-db-graph",
+  "label": "General Graph DB Package",
+  "description": "Top 5 verified graph db skills, auto-curated by GitHub stars and security score.",
+  "skill_ids": [
+    "mcp-neo4j-a62aa8d6",
+    "mcp-neo4j-server-6b9525c7",
+    "linear-claude-skill-3fde881d",
+    "mcp-server-leetcode-a1499097",
+    "msw-skill-8e45be3c"
+  ],
+  "skills": [
+    {
+      "id": "mcp-neo4j-a62aa8d6",
+      "name": "mcp-neo4j",
+      "description": "Model Context Protocol with Neo4j",
+      "repo_url": "https://github.com/neo4j-contrib/mcp-neo4j",
+      "stars": 908,
+      "overall_score": 85,
+      "verification_status": "pass",
+      "risk_level": "info",
+      "primary_language": "unknown",
+      "install_url": "https://github.com/neo4j-contrib/mcp-neo4j",
+      "skill_type": "unknown"
+    },
+    {
+      "id": "mcp-neo4j-server-6b9525c7",
+      "name": "mcp-neo4j-server",
+      "description": "mcp-neo4j-server",
+      "repo_url": "https://github.com/da-okazaki/mcp-neo4j-server",
+      "stars": 57,
+      "overall_score": 85,
+      "verification_status": "pass",
+      "risk_level": "info",
+      "primary_language": "unknown",
+      "install_url": "https://github.com/da-okazaki/mcp-neo4j-server",
+      "skill_type": "unknown"
+    },
+    {
+      "id": "linear-claude-skill-3fde881d",
+      "name": "linear-claude-skill",
+      "description": "Comprehensive Claude Code skill for managing Linear issues, projects, and teams with label taxonomy, MCP tools, and GraphQL API.",
+      "repo_url": "https://github.com/wrsmith108/linear-claude-skill",
+      "stars": 55,
+      "overall_score": 76,
+      "verification_status": "pass",
+      "risk_level": "low",
+      "primary_language": "TypeScript",
+      "install_url": "https://github.com/wrsmith108/linear-claude-skill",
+      "skill_type": "agent_skill"
+    },
+    {
+      "id": "mcp-server-leetcode-a1499097",
+      "name": "mcp-server-leetcode",
+      "description": "A Model Context Protocol (MCP) server for LeetCode that provides access to problems, user data, and contest information through GraphQL",
+      "repo_url": "https://github.com/doggybee/mcp-server-leetcode",
+      "stars": 39,
+      "overall_score": 85,
+      "verification_status": "pass",
+      "risk_level": "info",
+      "primary_language": "unknown",
+      "install_url": "https://github.com/doggybee/mcp-server-leetcode",
+      "skill_type": "unknown"
+    },
+    {
+      "id": "msw-skill-8e45be3c",
+      "name": "msw-skill",
+      "description": "AI agent skill for MSW 2.0 best practices by Anivar Aravind \u2014 20 rules, 6 references. Handler design, test patterns, GraphQL.",
+      "repo_url": "https://github.com/anivar/msw-skill",
+      "stars": 1,
+      "overall_score": 78,
+      "verification_status": "pass",
+      "risk_level": "medium",
+      "primary_language": "markdown",
+      "install_url": "https://github.com/anivar/msw-skill",
+      "skill_type": "agent_skill"
+    }
+  ],
+  "total_skills": 5,
+  "total_candidates": 5,
+  "avg_score": 81.8,
+  "min_score": 76,
+  "top_stars": 908,
+  "generated_at": "2026-02-28T03:46:45Z"
+}

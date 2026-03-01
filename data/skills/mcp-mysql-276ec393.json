@@ -1,0 +1,25 @@
+{
+  "id": "mcp-mysql-276ec393",
+  "name": "mcp-mysql",
+  "description": "MCP Server para conexión MySQL con túnel SSH",
+  "repo_url": "https://github.com/Carlosfpc/mcp-mysql",
+  "source_hub": "mcp_so",
+  "owner": "Carlosfpc",
+  "stars": 1,
+  "primary_language": "unknown",
+  "tags": [
+    "data-db"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "1c1b4e2e67664d94e151590b74383d5ad7a8aec6",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 4,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:41Z",
+  "verification_level": "scanner_only"
+}

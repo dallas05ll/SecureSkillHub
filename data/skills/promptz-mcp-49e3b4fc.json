@@ -1,0 +1,26 @@
+{
+  "id": "promptz-mcp-49e3b4fc",
+  "name": "promptz-mcp",
+  "description": "MCP Server implementation for promptz.dev",
+  "repo_url": "https://github.com/cremich/promptz-mcp",
+  "source_hub": "mcp_so",
+  "owner": "cremich",
+  "stars": 4,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "013335b2772db3712be8924d59e019bbf68ba2d6",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 17,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:04:50Z",
+  "verification_level": "scanner_only"
+}

@@ -1,0 +1,25 @@
+{
+  "id": "mcp-sage-f801f55c",
+  "name": "mcp-sage",
+  "description": "MCP Server for getting second opinions/reviews on large amounts of code.",
+  "repo_url": "https://github.com/jalehman/mcp-sage",
+  "source_hub": "mcp_so",
+  "owner": "jalehman",
+  "stars": 7,
+  "primary_language": "unknown",
+  "tags": [
+    "dev"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "3595faceb65aff3e48776b2f00ee38a886061e0f",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 41,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:54:02Z",
+  "verification_level": "scanner_only"
+}

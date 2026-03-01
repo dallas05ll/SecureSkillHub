@@ -1,0 +1,21 @@
+{
+  "id": "mcp-8101e934",
+  "name": "mcp",
+  "description": "A simple implementation of an MCP server for the ScreenshotOne API",
+  "repo_url": "https://github.com/screenshotone/mcp",
+  "source_hub": "mcp_so",
+  "owner": "screenshotone",
+  "stars": 35,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai-vision",
+    "integ"
+  ],
+  "verification_status": "pass",
+  "overall_score": 92,
+  "risk_level": "low",
+  "verified_commit": null,
+  "scan_summary": null,
+  "scan_date": "2026-02-26T03:00:50Z",
+  "verification_level": "scanner_only"
+}

@@ -1,0 +1,25 @@
+{
+  "id": "playwright-mcp-programmatic-95a6b7ae",
+  "name": "playwright_mcp_programmatic",
+  "description": "Testing Programmatic Access for Playwright MCP Server",
+  "repo_url": "https://github.com/hydroweaver/playwright_mcp_programmatic",
+  "source_hub": "mcp_so",
+  "owner": "hydroweaver",
+  "stars": 1,
+  "primary_language": "unknown",
+  "tags": [
+    "dev-testing"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "5904a6fab66379c016814c51edc92d1364ea4dc1",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 5,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:41Z",
+  "verification_level": "scanner_only"
+}

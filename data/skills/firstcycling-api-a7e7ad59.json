@@ -1,0 +1,28 @@
+{
+  "id": "firstcycling-api-a7e7ad59",
+  "name": "firstcycling-api",
+  "description": "This is a Model Context Protocol (MCP) server that provides professional cycling data from FirstCycling. It allows you to retrieve information about professional cyclists, race results, and more.",
+  "repo_url": "https://github.com/r-huijts/firstcycling-api",
+  "source_hub": "mcp_so",
+  "owner": "r-huijts",
+  "stars": 17,
+  "primary_language": "unknown",
+  "tags": [
+    "data",
+    "data-ai",
+    "data-ai-nlp",
+    "integ"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "bf6339322151b4684b7b7d0173356d2609136132",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 49,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:42:34Z",
+  "verification_level": "scanner_only"
+}

@@ -1,0 +1,25 @@
+{
+  "id": "debugger-mcp-88bd3e81",
+  "name": "debugger-mcp",
+  "description": "MCP server for interactive debugging",
+  "repo_url": "https://github.com/BloopAI/debugger-mcp",
+  "source_hub": "mcp_so",
+  "owner": "BloopAI",
+  "stars": 31,
+  "primary_language": "unknown",
+  "tags": [
+    "dev"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "259cb550ee02f1865ed1462765f458e87b37a8fe",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 79,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:32:11Z",
+  "verification_level": "scanner_only"
+}

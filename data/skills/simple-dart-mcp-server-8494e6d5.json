@@ -1,0 +1,26 @@
+{
+  "id": "simple-dart-mcp-server-8494e6d5",
+  "name": "simple_dart_mcp_server",
+  "description": "A very simple Model Context Protocol server implementation in Dart",
+  "repo_url": "https://github.com/nmfisher/simple_dart_mcp_server",
+  "source_hub": "mcp_so",
+  "owner": "nmfisher",
+  "stars": 3,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "77bd2b9de2a653fe79f5888857a7ef72645d0c1b",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 4,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:04:51Z",
+  "verification_level": "scanner_only"
+}

@@ -1,0 +1,29 @@
+{
+  "id": "cocoindex-claude-492e083a",
+  "name": "cocoindex-claude",
+  "description": "✨ CocoIndex Claude Code Skill ✨",
+  "repo_url": "https://github.com/cocoindex-io/cocoindex-claude",
+  "source_hub": "github_search",
+  "skill_type": "agent_skill",
+  "owner": "cocoindex-io",
+  "stars": 45,
+  "license": "apache-2.0",
+  "primary_language": "markdown",
+  "tags": [
+    "data-ai",
+    "dev",
+    "util-search"
+  ],
+  "verification_status": "pass",
+  "overall_score": 83,
+  "risk_level": "low",
+  "verified_commit": null,
+  "scan_summary": null,
+  "last_updated": "2026-02-22T07:29:00Z",
+  "findings_summary": {
+    "notes": "Metadata-based verification. Score=83. Signals: stars=45 (>=10, +5); license='apache-2.0' (+5); owner='cocoindex-io' (+3); primary_language='markdown'; source_hub='github_search'. Status: pass. Risk: low."
+  },
+  "trust_level": "low",
+  "scan_date": "2026-02-26T06:14:56Z",
+  "verification_level": "metadata_only"
+}

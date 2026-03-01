@@ -1,0 +1,26 @@
+{
+  "id": "csharptoastmcpserver-3f9ad867",
+  "name": "CSharpToastMcpServer",
+  "description": "Windowsで通知を表示することができるだけの C# 製MCPサーバー",
+  "repo_url": "https://github.com/yuiseki/CSharpToastMcpServer",
+  "source_hub": "mcp_so",
+  "owner": "yuiseki",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "0a788c935000a0839936ee511df16c0d04b2b79d",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 1,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:40Z",
+  "verification_level": "scanner_only"
+}

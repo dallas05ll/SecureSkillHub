@@ -1,0 +1,27 @@
+{
+  "id": "mcpd-059cc44a",
+  "name": "mcpd",
+  "description": "Model Context Protocol Daemon - a tool for installing, running and managing MCP servers",
+  "repo_url": "https://github.com/Pixeladed/mcpd",
+  "source_hub": "mcp_so",
+  "owner": "Pixeladed",
+  "stars": 1,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "49e1eea1c52b9ac7c6506a401407880d699f8fb6",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 12,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:41Z",
+  "verification_level": "scanner_only"
+}

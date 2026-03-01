@@ -1,0 +1,24 @@
+{
+  "id": "minimax-mcp-server-09a1082f",
+  "name": "MiniMax MCP Server",
+  "description": "Enables MCP clients like Claude Desktop and Cursor to interact with MiniMax APIs for generating speech, cloning voices, creating videos, and generating images.",
+  "repo_url": "https://github.com/MiniMax-AI/MiniMax-MCP",
+  "source_hub": "glama",
+  "owner": "MiniMax-AI",
+  "stars": 1274,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-audio",
+    "data-ai-vision",
+    "integ",
+    "util-media"
+  ],
+  "verification_status": "pass",
+  "overall_score": 80,
+  "risk_level": "low",
+  "verified_commit": null,
+  "scan_summary": null,
+  "scan_date": "2026-02-26T03:00:50Z",
+  "verification_level": "scanner_only"
+}

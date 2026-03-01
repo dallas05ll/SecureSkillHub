@@ -1,0 +1,25 @@
+{
+  "id": "mcp-server-integration-with-ollama-a47d21f6",
+  "name": "mcp_server_integration_with_ollama",
+  "description": "this repo has the mcp server with ollama",
+  "repo_url": "https://github.com/Muralidharandraju/mcp_server_integration_with_ollama",
+  "source_hub": "mcp_so",
+  "owner": "Muralidharandraju",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "integ"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "3281a95478f9456186a99b9a90851276e102f680",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 2,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:42Z",
+  "verification_level": "scanner_only"
+}

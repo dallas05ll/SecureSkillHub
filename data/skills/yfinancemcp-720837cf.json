@@ -1,0 +1,26 @@
+{
+  "id": "yfinancemcp-720837cf",
+  "name": "yfinancemcp",
+  "description": "MCP Server for Yahoo Finance w/ high level functions",
+  "repo_url": "https://github.com/coledie/yfinancemcp",
+  "source_hub": "mcp_so",
+  "owner": "coledie",
+  "stars": 1,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "9ef61c802e256d086c34246924120c80079a5fab",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 2,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:41Z",
+  "verification_level": "scanner_only"
+}

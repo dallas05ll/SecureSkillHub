@@ -1,0 +1,20 @@
+{
+  "id": "mcp-logseq-server-35df3144",
+  "name": "mcp-logseq-server",
+  "description": "MCP server to interact with LogSeq via its Local HTTP API - enabling AI assistants like Claude to seamlessly read, write, and manage your LogSeq graph.",
+  "repo_url": "https://github.com/ergut/mcp-logseq-server",
+  "source_hub": "mcp_so",
+  "owner": "ergut",
+  "stars": 195,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "integ"
+  ],
+  "verification_status": "fail",
+  "overall_score": 10,
+  "risk_level": "critical",
+  "verified_commit": "a2517a0191170da5b523269b0bf694601fcca324",
+  "scan_summary": null,
+  "scan_date": "2026-02-27T06:14:44Z"
+}

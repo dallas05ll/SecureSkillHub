@@ -1,0 +1,26 @@
+{
+  "id": "openmcpsever-f336d80b",
+  "name": "OpenMCPSever",
+  "description": "Open source for MCP server",
+  "repo_url": "https://github.com/chgaowei/OpenMCPSever",
+  "source_hub": "mcp_so",
+  "owner": "chgaowei",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "dd7c57242478a38417dc2fc769fe13bd112eeb3a",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 1,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:40Z",
+  "verification_level": "scanner_only"
+}

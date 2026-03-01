@@ -1,0 +1,26 @@
+{
+  "id": "ollama-lark-contentreader-479e5ee8",
+  "name": "ollama-lark-contentreader",
+  "description": "读取飞书/Lark文档 mcp server",
+  "repo_url": "https://github.com/baizhi958216/ollama-lark-contentreader",
+  "source_hub": "mcp_so",
+  "owner": "baizhi958216",
+  "stars": 2,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "e4e9eff73a4fdbc686b04a74e872da9cc4592d51",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 11,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:04:51Z",
+  "verification_level": "scanner_only"
+}

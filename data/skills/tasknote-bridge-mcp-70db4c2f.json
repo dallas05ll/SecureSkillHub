@@ -1,0 +1,27 @@
+{
+  "id": "tasknote-bridge-mcp-70db4c2f",
+  "name": "taskNote-bridge-mcp",
+  "description": "TaskNote Bridge - MCP Server for Things 3 and Apple Notes integration",
+  "repo_url": "https://github.com/ragdollKB/taskNote-bridge-mcp",
+  "source_hub": "mcp_so",
+  "owner": "ragdollKB",
+  "stars": 4,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "prod-notes",
+    "prod-pm"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "06c2bc97b5e93d7a38ebef8bc61f34e2738abc1f",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 20,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:04:50Z",
+  "verification_level": "scanner_only"
+}

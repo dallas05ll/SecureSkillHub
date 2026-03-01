@@ -1,0 +1,28 @@
+{
+  "id": "mcp-rubber-duck-761e4c35",
+  "name": "mcp-rubber-duck",
+  "description": "Query multiple LLMs in parallel from AI coding tools. Ask a question to OpenAI, Gemini, Groq, or any OpenAI-compatible API — and CLI agents like Claude Code, Codex, and Gemini CLI — then compare answers, run consensus votes, structured debates, and judge evaluations. Rubber duck debugging, but the ducks talk back.",
+  "repo_url": "https://github.com/nesquikm/mcp-rubber-duck",
+  "source_hub": "mcp_so",
+  "owner": "nesquikm",
+  "stars": 140,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "dev",
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "d80966a7ec9634d9f38d13538d4034454ebd9a94",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 156,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-27T06:36:35Z",
+  "verification_level": "scanner_only"
+}

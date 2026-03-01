@@ -1,0 +1,49 @@
+{
+  "id": "web-asset-generator-6888dce7",
+  "name": "Web Asset Generator",
+  "description": "Claude Code skill for generating favicons, app icons (PWA), and social media Open Graph images from logos, text, or emojis. Auto-detects frameworks (Next.js, Astro, etc.) and integrates generated assets.",
+  "repo_url": "https://github.com/alonw0/web-asset-generator",
+  "source_hub": "claude_skills_hub",
+  "skill_type": "agent_skill",
+  "owner": "alonw0",
+  "stars": 187,
+  "forks": 14,
+  "license": "MIT",
+  "primary_language": "Python",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp",
+    "data-ai-vision",
+    "dev",
+    "dev-web-frontend-react",
+    "dev-web-fullstack-nextjs",
+    "integ-social",
+    "util-media"
+  ],
+  "source_tags": [
+    "favicon",
+    "icons",
+    "open-graph",
+    "social-media",
+    "web-assets",
+    "pwa"
+  ],
+  "categories": [
+    "design",
+    "dev"
+  ],
+  "version": "1.0.0",
+  "requires_code_execution": true,
+  "verification_status": "pass",
+  "overall_score": 83,
+  "risk_level": "low",
+  "verified_commit": null,
+  "scan_summary": "Python-based image generation skill using Pillow and optional pilmoji. MIT licensed. Scripts include generate_favicons.py, generate_og_images.py, check_dependencies.py, emoji_utils.py, and lib/validators.py. All scripts perform local file I/O only — no network calls or external API usage. Dependencies: Pillow (required), pilmoji and emoji<2.0.0 (optional for emoji support). .claude-plugin marketplace format used. SKILL.md and CLAUDE.md present.",
+  "findings_summary": {
+    "notes": "Well-crafted utility skill for web asset generation. All Python scripts operate on local files using standard image processing libraries. No network calls in scripts. Dependency pinning uses >= version specifiers (not pinned) but for an image processing tool this is acceptable. Star count discrepancy (120 stored vs 187 live) suggests rapid growth. Clean code structure with validators library. No security concerns."
+  },
+  "scan_summary_note": "pip install Pillow required; optional pilmoji for emoji rendering",
+  "trust_level": "medium",
+  "scan_date": "2026-02-26T02:38:10Z",
+  "verification_level": "scanner_only"
+}

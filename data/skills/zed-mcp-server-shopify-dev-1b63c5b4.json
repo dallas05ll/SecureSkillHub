@@ -1,0 +1,25 @@
+{
+  "id": "zed-mcp-server-shopify-dev-1b63c5b4",
+  "name": "zed-mcp-server-shopify-dev",
+  "description": "A context server extension to add Shopify Dev MCP server to Zed",
+  "repo_url": "https://github.com/TheBeyondGroup/zed-mcp-server-shopify-dev",
+  "source_hub": "mcp_so",
+  "owner": "TheBeyondGroup",
+  "stars": 5,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai-nlp"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "9ac3fd9ede5e058ef6fc6b01e132e82ca16336b7",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 3,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:54:04Z",
+  "verification_level": "scanner_only"
+}

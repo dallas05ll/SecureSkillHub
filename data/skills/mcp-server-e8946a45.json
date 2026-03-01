@@ -1,0 +1,26 @@
+{
+  "id": "mcp-server-e8946a45",
+  "name": "mcp-server",
+  "description": "learn to make some mcp servers",
+  "repo_url": "https://github.com/yiGmMk/mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "yiGmMk",
+  "stars": 5,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "1265aed22fc322218608abdb2ab47d226432a6f9",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 9,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:54:02Z",
+  "verification_level": "scanner_only"
+}

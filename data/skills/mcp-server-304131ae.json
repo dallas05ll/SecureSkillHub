@@ -1,0 +1,27 @@
+{
+  "id": "mcp-server-304131ae",
+  "name": "mcp-server",
+  "description": "A full web interface for Minecraft server hosting A marketplace-style dashboard for managing multiple servers Your own cloud-based game hosting panel Tools for teams, events, streamers, or Minecraft mini-game development",
+  "repo_url": "https://github.com/Hezhykeyhel/mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "Hezhykeyhel",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "integ-cloud",
+    "util",
+    "util-media"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "080519fd87be4a8b9b66e5ae0541c2040a00adae",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 37,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:41Z",
+  "verification_level": "scanner_only"
+}

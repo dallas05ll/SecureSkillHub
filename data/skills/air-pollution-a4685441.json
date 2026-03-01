@@ -1,0 +1,30 @@
+{
+  "id": "air-pollution-a4685441",
+  "name": "Air-Pollution",
+  "description": "This project is a Model Context Protocol (MCP) Server built using Node.js + Express.js that interacts with the OpenWeather API. It allows users to fetch air pollution data based on latitude & longitude or city & country. The backend ensures secure API key management using dotenv and handles API requests efficiently.",
+  "repo_url": "https://github.com/Ashwani00001/Air-Pollution",
+  "source_hub": "mcp_so",
+  "owner": "Ashwani00001",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "data",
+    "data-ai",
+    "data-ai-nlp",
+    "dev-web-backend-node",
+    "integ",
+    "util-search"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 3,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-25T14:42:32Z",
+  "verification_level": "scanner_only"
+}

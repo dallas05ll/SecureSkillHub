@@ -1,0 +1,29 @@
+{
+  "id": "ckan-mcp-server-3ddb8047",
+  "name": "ckan-mcp-server",
+  "description": "The CKAN MCP Server provides access to CKAN APIs through the Model Context Protocol. CKAN is core to the vast majority of Open Data portals worldwide: https://github.com/ckan/ckan\r\n\r\nIt can be used with MCP-compatible clients like Claude Desktop, IDEs, or other AI applications to interact with CKAN data portals.\r\n\r\nWritten in Python",
+  "repo_url": "https://github.com/Ondics/ckan-mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "Ondics",
+  "stars": 12,
+  "primary_language": "unknown",
+  "tags": [
+    "data",
+    "data-ai",
+    "data-ai-nlp",
+    "dev-web-backend-python",
+    "integ"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "b1f76ed5ff35361aa89ce3aee7857abe1e6287ce",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 10,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:42:34Z",
+  "verification_level": "scanner_only"
+}

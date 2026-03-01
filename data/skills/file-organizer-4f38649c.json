@@ -1,0 +1,44 @@
+{
+  "id": "file-organizer-4f38649c",
+  "name": "File Organizer",
+  "description": "Intelligently organizes files and folders by understanding context and suggesting better structures",
+  "repo_url": "https://github.com/ComposioHQ/awesome-claude-skills/tree/master/file-organizer",
+  "source_hub": "claude_skills_hub",
+  "skill_type": "agent_skill",
+  "owner": "ComposioHQ",
+  "stars": 0,
+  "forks": 1,
+  "license": "Apache-2.0",
+  "primary_language": "markdown",
+  "tags": [
+    "data-ai-nlp",
+    "util-file",
+    "repo_unavailable"
+  ],
+  "source_tags": [
+    "organization",
+    "file-management",
+    "automation",
+    "cleanup"
+  ],
+  "categories": [
+    "productivity"
+  ],
+  "version": "1.0.0",
+  "requires_code_execution": true,
+  "verification_status": "manual_review",
+  "overall_score": 68,
+  "risk_level": "medium",
+  "verified_commit": null,
+  "scan_summary": null,
+  "parent_repo_stars": 5,
+  "is_monorepo_child": true,
+  "findings_summary": {
+    "notes": "Metadata-based verification. Score=68. Signals: stars=0 (-10); license='Apache-2.0' (+5); owner='ComposioHQ' (+3); primary_language='markdown'; source_hub='claude_skills_hub' (+5); is_monorepo_child=True (-5). Status: manual_review. Risk: medium."
+  },
+  "trust_level": "medium",
+  "scan_date": "2026-02-26T06:14:56Z",
+  "repo_status": "unavailable",
+  "repo_check_date": "2026-02-28T20:51:42.283236+00:00",
+  "repo_check_error": "fatal: repository 'https://github.com/ComposioHQ/awesome-claude-skills/tree/master/file-organizer/' not found"
+}

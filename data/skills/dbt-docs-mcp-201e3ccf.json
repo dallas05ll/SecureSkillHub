@@ -1,0 +1,27 @@
+{
+  "id": "dbt-docs-mcp-201e3ccf",
+  "name": "dbt-docs-mcp",
+  "description": "MCP (model context protocol) server for interacting with dbt Docs",
+  "repo_url": "https://github.com/mattijsdp/dbt-docs-mcp",
+  "source_hub": "mcp_so",
+  "owner": "mattijsdp",
+  "stars": 22,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp",
+    "prod-docs"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "54ab694c6b71343b6c0c1e71268bde80dd5c6569",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 11,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:32:11Z",
+  "verification_level": "scanner_only"
+}

@@ -1,0 +1,25 @@
+{
+  "id": "flutter-tools-d8cf7e50",
+  "name": "flutter-tools",
+  "description": "flutter mcp server",
+  "repo_url": "https://github.com/dkpoulsen/flutter-tools",
+  "source_hub": "mcp_so",
+  "owner": "dkpoulsen",
+  "stars": 8,
+  "primary_language": "unknown",
+  "tags": [
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "7829fe67f620d1c8c311f701d3d8b6341b6c2580",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 6,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:42:34Z",
+  "verification_level": "scanner_only"
+}

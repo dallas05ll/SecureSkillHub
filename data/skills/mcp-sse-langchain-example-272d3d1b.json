@@ -1,0 +1,25 @@
+{
+  "id": "mcp-sse-langchain-example-272d3d1b",
+  "name": "mcp-sse-langchain-example",
+  "description": "Example of using MCP servers, both over sdio + sse. Also using langchain-mcp",
+  "repo_url": "https://github.com/fredrikp999/mcp-sse-langchain-example",
+  "source_hub": "mcp_so",
+  "owner": "fredrikp999",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "0249b5b5de53bd055903bfc5daf9b1c6deb58635",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 5,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:41Z",
+  "verification_level": "scanner_only"
+}

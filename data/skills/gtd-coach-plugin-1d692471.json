@@ -1,0 +1,27 @@
+{
+  "id": "gtd-coach-plugin-1d692471",
+  "name": "gtd-coach-plugin",
+  "description": "Claude Skill that break down everyday's todo with details action plan based on your goal/plan",
+  "repo_url": "https://github.com/iamzifei/gtd-coach-plugin",
+  "source_hub": "github_search",
+  "skill_type": "agent_skill",
+  "owner": "iamzifei",
+  "stars": 26,
+  "license": "mit",
+  "primary_language": "markdown",
+  "tags": [
+    "data-ai"
+  ],
+  "verification_status": "pass",
+  "overall_score": 83,
+  "risk_level": "low",
+  "verified_commit": null,
+  "scan_summary": null,
+  "last_updated": "2026-01-20T09:51:16Z",
+  "findings_summary": {
+    "notes": "Metadata-based verification. Score=83. Signals: stars=26 (>=10, +5); license='mit' (+5); owner='iamzifei' (+3); primary_language='markdown'; source_hub='github_search'. Status: pass. Risk: low."
+  },
+  "trust_level": "low",
+  "scan_date": "2026-02-26T06:14:56Z",
+  "verification_level": "metadata_only"
+}

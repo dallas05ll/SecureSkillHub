@@ -1,0 +1,25 @@
+{
+  "id": "workos-mcp-6723ff14",
+  "name": "workos-mcp",
+  "description": "Lightweight MCP server to give your Cursor Agent access to the WorkOS API.",
+  "repo_url": "https://github.com/ZukAi-MCP/workos-mcp",
+  "source_hub": "mcp_so",
+  "owner": "ZukAi-MCP",
+  "stars": 14,
+  "primary_language": "unknown",
+  "tags": [
+    "integ"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "9082ca72eadd16d523c559aacbe84b378053f88a",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 26,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:42:36Z",
+  "verification_level": "scanner_only"
+}

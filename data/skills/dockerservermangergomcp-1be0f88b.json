@@ -1,0 +1,25 @@
+{
+  "id": "dockerservermangergomcp-1be0f88b",
+  "name": "dockerServerMangerGoMCP",
+  "description": "dockerServerMangerGoMCP",
+  "repo_url": "https://github.com/ThreatFlux/dockerServerMangerGoMCP",
+  "source_hub": "mcp_so",
+  "owner": "ThreatFlux",
+  "stars": 3,
+  "primary_language": "unknown",
+  "tags": [
+    "dev-devops-docker"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "bd1a880ef75a57af0a1e8a69a2b9f767e1ddf8d2",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 14,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:04:50Z",
+  "verification_level": "scanner_only"
+}

@@ -1,0 +1,25 @@
+{
+  "id": "sherlock-mcp-cbf23fc8",
+  "name": "sherlock-mcp",
+  "description": "Sherlock Domains MCP Server for buying & managing domains",
+  "repo_url": "https://github.com/Fewsats/sherlock-mcp",
+  "source_hub": "mcp_so",
+  "owner": "Fewsats",
+  "stars": 1,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "060828ff3a7781828ed3353b0e24a9d46ff77efa",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 4,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:41Z",
+  "verification_level": "scanner_only"
+}

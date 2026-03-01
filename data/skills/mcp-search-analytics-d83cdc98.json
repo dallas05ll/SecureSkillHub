@@ -1,0 +1,26 @@
+{
+  "id": "mcp-search-analytics-d83cdc98",
+  "name": "mcp-search-analytics",
+  "description": "MCP server for GA and GSC data analysis",
+  "repo_url": "https://github.com/dexter480/mcp-search-analytics",
+  "source_hub": "mcp_so",
+  "owner": "dexter480",
+  "stars": 2,
+  "primary_language": "unknown",
+  "tags": [
+    "data",
+    "util-search"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "062dc68fc9d4bf0f3758374b2e1860ba3580a505",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 4,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:04:51Z",
+  "verification_level": "scanner_only"
+}

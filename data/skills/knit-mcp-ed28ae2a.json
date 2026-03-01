@@ -1,0 +1,32 @@
+{
+  "id": "knit-mcp-ed28ae2a",
+  "name": "knit-mcp",
+  "description": "Knit MCP is Knit’s remote MCP server offering that allows you to create and package your own mcp servers that you can plug into your AI assistants to directly execute real-world tasks like:\n\nFetching employee or payslip data from HR tools\nCreating candidates in ATS systems\nUpdating invoices in accounting platforms\nPulling CRM opportunities or contact details\nAnd much more — with full end-user scoped permissions\nIt provides a real-time bridge between agents and hundreds of SaaS apps, with a fo...",
+  "repo_url": "https://github.com/knitapi/knit-mcp",
+  "source_hub": "mcp_so",
+  "owner": "knitapi",
+  "stars": 2,
+  "primary_language": "unknown",
+  "tags": [
+    "data",
+    "data-ai",
+    "data-ai-audio",
+    "integ-crm",
+    "integ-payment",
+    "prod-pm",
+    "util",
+    "util-search"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "287f07262d169399d3931e1cc339b38a5b63f3b7",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 1,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:04:51Z",
+  "verification_level": "scanner_only"
+}

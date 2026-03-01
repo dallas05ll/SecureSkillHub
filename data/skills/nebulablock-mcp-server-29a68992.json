@@ -1,0 +1,27 @@
+{
+  "id": "nebulablock-mcp-server-29a68992",
+  "name": "nebulablock-mcp-server",
+  "description": "This server integrates with the fastmcp library to expose the full range of NebulaBlock API functionalities as accessible tools, enabling seamless and efficient interaction within any MCP-compatible environment.",
+  "repo_url": "https://github.com/Nebula-Block-Data/nebulablock-mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "Nebula-Block-Data",
+  "stars": 1,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "2983eb853dbe806470430f29d52bece59e83c1d0",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 8,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:41Z",
+  "verification_level": "scanner_only"
+}

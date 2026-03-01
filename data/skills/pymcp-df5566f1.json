@@ -1,0 +1,27 @@
+{
+  "id": "pymcp-df5566f1",
+  "name": "pymcp",
+  "description": "Asynchronous Python library for building Model Context Protocol (MCP) servers and clients over HTTP/SSE, ideal for AI agents, tool integrations, and chatbot ecosystems.",
+  "repo_url": "https://github.com/rvirgilli/pymcp",
+  "source_hub": "mcp_so",
+  "owner": "rvirgilli",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp",
+    "dev-web-backend-python",
+    "integ",
+    "prod-comm",
+    "util",
+    "repo_unavailable"
+  ],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null,
+  "repo_status": "unavailable",
+  "repo_check_date": "2026-02-28T20:52:47.117503+00:00",
+  "repo_check_error": "fatal: could not read Username for 'https://github.com': Device not configured"
+}

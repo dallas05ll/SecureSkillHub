@@ -1,0 +1,27 @@
+{
+  "id": "mysql-mcp-2f41003c",
+  "name": "mysql-mcp",
+  "description": "An MCP server implementation that integrates with MySQL databases, providing secure database access capabilities for LLMs.",
+  "repo_url": "https://github.com/kevinwatt/mysql-mcp",
+  "source_hub": "mcp_so",
+  "owner": "kevinwatt",
+  "stars": 17,
+  "primary_language": "unknown",
+  "tags": [
+    "data",
+    "data-ai",
+    "data-db"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "0988eaf21e54b8c38cee69b1583668a841958fab",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 7,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:42:36Z",
+  "verification_level": "scanner_only"
+}

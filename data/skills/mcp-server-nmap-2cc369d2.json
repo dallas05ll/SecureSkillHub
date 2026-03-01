@@ -1,0 +1,25 @@
+{
+  "id": "mcp-server-nmap-2cc369d2",
+  "name": "mcp-server-nmap",
+  "description": "A MCP server for Nmap.",
+  "repo_url": "https://github.com/douyipu/mcp-server-nmap",
+  "source_hub": "mcp_so",
+  "owner": "douyipu",
+  "stars": 2,
+  "primary_language": "unknown",
+  "tags": [
+    "util-map"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "f1a65be20b2b89106962217b02e0d97cb2f99b37",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 2,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:04:51Z",
+  "verification_level": "scanner_only"
+}

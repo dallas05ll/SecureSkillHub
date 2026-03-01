@@ -1,0 +1,27 @@
+{
+  "id": "bloodhound-mcp-3aff9dab",
+  "name": "bloodhound_mcp",
+  "description": "A Model Context Protocol (MCP) server to converse with data in Bloodhound",
+  "repo_url": "https://github.com/mwnickerson/bloodhound_mcp",
+  "source_hub": "mcp_so",
+  "owner": "mwnickerson",
+  "stars": 59,
+  "primary_language": "unknown",
+  "tags": [
+    "data",
+    "data-ai",
+    "data-ai-nlp"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "ee09a19d70d51588c0bdf953e9cf310071ac37bc",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 12,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-27T06:40:43Z",
+  "verification_level": "scanner_only"
+}

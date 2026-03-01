@@ -1,0 +1,26 @@
+{
+  "id": "n8n-mcp-server-f97c8fe9",
+  "name": "n8n-mcp-server",
+  "description": "A Model-Controller-Provider (MCP) server implementation for n8n workflow automation",
+  "repo_url": "https://github.com/S17S17/n8n-mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "S17S17",
+  "stars": 3,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "prod"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "d5bd0612347c2a0e5b2879f0f8e95407260feafa",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 3,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:04:51Z",
+  "verification_level": "scanner_only"
+}

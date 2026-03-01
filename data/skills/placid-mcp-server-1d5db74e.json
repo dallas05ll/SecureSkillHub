@@ -1,0 +1,26 @@
+{
+  "id": "placid-mcp-server-1d5db74e",
+  "name": "placid-mcp-server",
+  "description": "Generate image and video creatives using Placid.app templates in MCP compatible hosts",
+  "repo_url": "https://github.com/felores/placid-mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "felores",
+  "stars": 14,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai-vision",
+    "util-media"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "f2e3e091e701098c07d9425cca56f7c2abd901b5",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 31,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:42:34Z",
+  "verification_level": "scanner_only"
+}

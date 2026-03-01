@@ -1,0 +1,25 @@
+{
+  "id": "mcp-therapy-4c265332",
+  "name": "mcp-therapy",
+  "description": "The testing library you need to test your MCP servers",
+  "repo_url": "https://github.com/thoughtspot/mcp-therapy",
+  "source_hub": "mcp_so",
+  "owner": "thoughtspot",
+  "stars": 12,
+  "primary_language": "unknown",
+  "tags": [
+    "dev-testing"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "1843c47b8f57066d9d23d149e82369b926c95a23",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 8,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:42:36Z",
+  "verification_level": "scanner_only"
+}

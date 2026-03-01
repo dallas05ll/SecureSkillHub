@@ -1,0 +1,28 @@
+{
+  "id": "mcp-server-discord-webhook-1ad8205c",
+  "name": "mcp-server-discord-webhook",
+  "description": "Model Context Protocol server for sending messages via Discord webhooks",
+  "repo_url": "https://github.com/shehdrbs123/mcp-server-discord-webhook",
+  "source_hub": "mcp_so",
+  "owner": "shehdrbs123",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp",
+    "integ",
+    "prod-comm"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "b88abd04c057792e401d7e3a058b3c39ab8ebd62",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 4,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:42Z",
+  "verification_level": "scanner_only"
+}

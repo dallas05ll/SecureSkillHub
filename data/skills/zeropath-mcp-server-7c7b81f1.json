@@ -1,0 +1,27 @@
+{
+  "id": "zeropath-mcp-server-7c7b81f1",
+  "name": "zeropath-mcp-server",
+  "description": "Open-source MCP server for querying ZeroPath security issues, patches, and scans using Claude, Cursor, Windsurf, or any AI assistant.",
+  "repo_url": "https://github.com/ZeroPathAI/zeropath-mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "ZeroPathAI",
+  "stars": 8,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "sec",
+    "sec-scan"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "3fadc6674f23a0809a9b957697b86a68dfd804b6",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 12,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:54:02Z",
+  "verification_level": "scanner_only"
+}

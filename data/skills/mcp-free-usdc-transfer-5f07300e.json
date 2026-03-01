@@ -1,0 +1,26 @@
+{
+  "id": "mcp-free-usdc-transfer-5f07300e",
+  "name": "mcp-free-usdc-transfer",
+  "description": "MCP (Model Context Protocol) server - free usdc transfer powered by Coinbase CDP",
+  "repo_url": "https://github.com/magnetai/mcp-free-usdc-transfer",
+  "source_hub": "mcp_so",
+  "owner": "magnetai",
+  "stars": 20,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "56a773dad543cc65f81c453fc6ff39e05d187442",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 5,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:32:12Z",
+  "verification_level": "scanner_only"
+}

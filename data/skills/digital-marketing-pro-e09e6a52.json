@@ -1,0 +1,34 @@
+{
+  "id": "digital-marketing-pro-e09e6a52",
+  "name": "digital-marketing-pro",
+  "description": "Claude Code plugin: 115 commands, 25 agents, 64 scripts, 67 MCP servers, 143 reference files. Eval/QA layer (hallucination detection, claim verification, A+ through F grading). Multilingual (Sarvam AI, DeepL, Google Cloud Translation). Full execution with approval workflow.",
+  "repo_url": "https://github.com/indranilbanerjee/digital-marketing-pro",
+  "source_hub": "github_search",
+  "skill_type": "agent_skill",
+  "owner": "indranilbanerjee",
+  "stars": 5,
+  "license": "mit",
+  "primary_language": "markdown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp",
+    "dev",
+    "dev-testing",
+    "integ-cloud",
+    "integ-cloud-gcp",
+    "prod",
+    "util-file"
+  ],
+  "verification_status": "pass",
+  "overall_score": 78,
+  "risk_level": "medium",
+  "verified_commit": null,
+  "scan_summary": null,
+  "last_updated": "2026-02-25T06:39:46Z",
+  "findings_summary": {
+    "notes": "Metadata-based verification. Score=78. Signals: stars=5; license='mit' (+5); owner='indranilbanerjee' (+3); primary_language='markdown'; source_hub='github_search'. Status: pass. Risk: medium."
+  },
+  "trust_level": "low",
+  "scan_date": "2026-02-26T06:14:56Z",
+  "verification_level": "metadata_only"
+}

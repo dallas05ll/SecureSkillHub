@@ -1,0 +1,32 @@
+{
+  "id": "zerodha-spring-mcp-bb6238fd",
+  "name": "zerodha-spring-mcp",
+  "description": "A Java implementation of Zerodha's Kite trading API as a Model Context Protocol (MCP) server using Spring Boot. This project enables AI agents to interact with the Kite trading platform through a standardized protocol, providing authentication and portfolio data access tools. Inspired by the official Go implementation.",
+  "repo_url": "https://github.com/Kartikhub/zerodha-spring-mcp",
+  "source_hub": "mcp_so",
+  "owner": "Kartikhub",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "data",
+    "data-ai",
+    "data-ai-nlp",
+    "dev-web-backend-go",
+    "integ",
+    "sec",
+    "sec-auth",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "6c0701f359b1f6cd351ebabd9642eba75d16d198",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 2,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:43:00Z",
+  "verification_level": "scanner_only"
+}

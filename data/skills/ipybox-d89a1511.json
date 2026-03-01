@@ -1,0 +1,28 @@
+{
+  "id": "ipybox-d89a1511",
+  "name": "ipybox",
+  "description": "Secure IPython/Jupyter kernel execution environment for AI agents, available as MCP server on PyPI.",
+  "repo_url": "https://github.com/gradion-ai/ipybox",
+  "source_hub": "github_search",
+  "skill_type": "agent_skill",
+  "owner": "gradion-ai",
+  "stars": 65,
+  "license": "apache-2.0",
+  "primary_language": "Python",
+  "tags": [
+    "data-ai",
+    "dev-web-backend-python"
+  ],
+  "verification_status": "pass",
+  "overall_score": 80,
+  "risk_level": "low",
+  "verified_commit": null,
+  "scan_summary": null,
+  "last_updated": "2026-02-25T15:10:32Z",
+  "findings_summary": {
+    "notes": "Apache-2.0 licensed, Python, actively maintained. PyPI package available. Good documentation site. Trusted execution sandbox."
+  },
+  "trust_level": "low",
+  "scan_date": "2026-02-26T02:11:57Z",
+  "verification_level": "scanner_only"
+}

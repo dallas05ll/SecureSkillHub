@@ -1,0 +1,26 @@
+{
+  "id": "simplelocalize-mcp-server-9cd03ce8",
+  "name": "simplelocalize-mcp-server",
+  "description": "Interact with the SimpleLocalize API using AI assistants like Github Copilot, Claude, or in AI-powered IDEs like Cursor AI.",
+  "repo_url": "https://github.com/simplelocalize/simplelocalize-mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "simplelocalize",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "integ"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "8db0e8f681dd61e7af70fe670d46b59d5abff0aa",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 14,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:41Z",
+  "verification_level": "scanner_only"
+}

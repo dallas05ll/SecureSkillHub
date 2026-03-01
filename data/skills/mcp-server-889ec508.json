@@ -1,0 +1,26 @@
+{
+  "id": "mcp-server-889ec508",
+  "name": "MCP-Server",
+  "description": "Lightweight programs that each expose specific capabilities through the standardized Model Context Protocol",
+  "repo_url": "https://github.com/akramsheriff5/MCP-Server",
+  "source_hub": "mcp_so",
+  "owner": "akramsheriff5",
+  "stars": 2,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "82b8ec86d22177ab8118c9fd3a5c29d7c5584235",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 10,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:04:51Z",
+  "verification_level": "scanner_only"
+}

@@ -1,0 +1,19 @@
+{
+  "started_at": "2026-02-28T22:32:48Z",
+  "finished_at": "2026-02-28T22:32:56Z",
+  "skill_type": "mcp_server",
+  "selected_ids": [
+    "isaac-sim-mcp-36d9be7b",
+    "mcp-client-server-b4b233a2",
+    "portainer-mcp-666cb919"
+  ],
+  "selected_count": 3,
+  "group_count": 3,
+  "processed_count": 3,
+  "status_counts": {
+    "manual_review": 3
+  },
+  "stage_failures": {},
+  "retry_ids": [],
+  "remaining_unverified": 0
+}

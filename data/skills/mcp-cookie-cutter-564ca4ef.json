@@ -1,0 +1,25 @@
+{
+  "id": "mcp-cookie-cutter-564ca4ef",
+  "name": "mcp-cookie-cutter",
+  "description": "A cookiecutter template for creating MCP (Model Control Protocol) servers",
+  "repo_url": "https://github.com/codingthefuturewithai/mcp-cookie-cutter",
+  "source_hub": "mcp_so",
+  "owner": "codingthefuturewithai",
+  "stars": 21,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "471628c1a8c3da9f3938fafdfb40b0e206bd2051",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 66,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:32:11Z",
+  "verification_level": "scanner_only"
+}

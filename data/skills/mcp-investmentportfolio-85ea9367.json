@@ -1,0 +1,26 @@
+{
+  "id": "mcp-investmentportfolio-85ea9367",
+  "name": "MCP_InvestmentPortfolio",
+  "description": "MCP Server: Investment Portfolio Management",
+  "repo_url": "https://github.com/ikhyunAn/MCP_InvestmentPortfolio",
+  "source_hub": "mcp_so",
+  "owner": "ikhyunAn",
+  "stars": 6,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "d2dadf7af1f31dae871fe43672a4af50c46365fe",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 20,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:54:04Z",
+  "verification_level": "scanner_only"
+}

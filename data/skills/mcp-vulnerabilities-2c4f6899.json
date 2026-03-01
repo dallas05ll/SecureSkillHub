@@ -1,0 +1,25 @@
+{
+  "id": "mcp-vulnerabilities-2c4f6899",
+  "name": "mcp-vulnerabilities",
+  "description": "An exploration of common MCP server vulnerabilities, along with a deep dive into MCP server prompt injection (+demonstrations for each!).",
+  "repo_url": "https://github.com/Tomby68/mcp-vulnerabilities",
+  "source_hub": "mcp_so",
+  "owner": "Tomby68",
+  "stars": 5,
+  "primary_language": "unknown",
+  "tags": [
+    "sec"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "68525cc4b72c4a594e779d8fb8c89b00eda9199c",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 39,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:54:02Z",
+  "verification_level": "scanner_only"
+}

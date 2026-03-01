@@ -1,0 +1,29 @@
+{
+  "id": "mcp-server-webscan-e96558a7",
+  "name": "mcp-server-webscan",
+  "description": "A Model Context Protocol (MCP) server for web content scanning and analysis. This server provides tools for fetching, analyzing, and extracting information from web pages.",
+  "repo_url": "https://github.com/bsmi021/mcp-server-webscan",
+  "source_hub": "mcp_so",
+  "owner": "bsmi021",
+  "stars": 12,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp",
+    "sec-scan",
+    "util",
+    "util-search"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "3c5d8ba705dbe25d25d67d375c1971a758c0f4b0",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 42,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:42:34Z",
+  "verification_level": "scanner_only"
+}

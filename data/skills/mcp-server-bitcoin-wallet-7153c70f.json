@@ -1,0 +1,24 @@
+{
+  "id": "mcp-server-bitcoin-wallet-7153c70f",
+  "name": "mcp-server-bitcoin-wallet",
+  "description": "An MCP server to allow AI agents to send and receive Bitcoin payments.",
+  "repo_url": "https://github.com/marcopesani/mcp-server-bitcoin-wallet",
+  "source_hub": "mcp_so",
+  "owner": "marcopesani",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "integ-payment",
+    "sec-crypto",
+    "repo_unavailable"
+  ],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null,
+  "repo_status": "unavailable",
+  "repo_check_date": "2026-02-28T20:52:17.943148+00:00",
+  "repo_check_error": "fatal: could not read Username for 'https://github.com': Device not configured"
+}

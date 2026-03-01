@@ -1,0 +1,26 @@
+{
+  "id": "osv-mcp-cd9fbf93",
+  "name": "OSV-MCP",
+  "description": "OSV MCP server implementation",
+  "repo_url": "https://github.com/EdenYavin/OSV-MCP",
+  "source_hub": "mcp_so",
+  "owner": "EdenYavin",
+  "stars": 2,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "ea55e51dce5a7929b1a0d0912b4c45b59b8f6704",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 7,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:04:51Z",
+  "verification_level": "scanner_only"
+}

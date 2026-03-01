@@ -1,0 +1,25 @@
+{
+  "id": "mcp-server-commandline-31371d7c",
+  "name": "MCP-Server-CommandLine",
+  "description": "This is a simple MCP-Server for command line, and the main idea belongs to hdcola",
+  "repo_url": "https://github.com/Allenyzh/MCP-Server-CommandLine",
+  "source_hub": "mcp_so",
+  "owner": "Allenyzh",
+  "stars": 1,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "7effb52144b24c8825f47f608fbd441585ee8f82",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 5,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:41Z",
+  "verification_level": "scanner_only"
+}

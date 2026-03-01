@@ -1,0 +1,25 @@
+{
+  "id": "nuvama-mcp-c49f181c",
+  "name": "nuvama-mcp",
+  "description": "MCP server to connect to nuvama-trade apis",
+  "repo_url": "https://github.com/alokamgnaneswarasai/nuvama-mcp",
+  "source_hub": "mcp_so",
+  "owner": "alokamgnaneswarasai",
+  "stars": 2,
+  "primary_language": "unknown",
+  "tags": [
+    "integ"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "984747d1a1e86fb6a72b72f9f9c1928704e63855",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 4,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:04:50Z",
+  "verification_level": "scanner_only"
+}

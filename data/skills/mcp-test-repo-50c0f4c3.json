@@ -1,0 +1,25 @@
+{
+  "id": "mcp-test-repo-50c0f4c3",
+  "name": "mcp-test-repo",
+  "description": "Ett testrepository skapat via GitHub MCP-server",
+  "repo_url": "https://github.com/klarkenolofsson/mcp-test-repo",
+  "source_hub": "mcp_so",
+  "owner": "klarkenolofsson",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "dev-testing"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "2dd881fa1b0ccd263a88d91de0af4120e39039d4",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 1,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:40Z",
+  "verification_level": "scanner_only"
+}

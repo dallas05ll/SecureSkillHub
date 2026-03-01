@@ -1,0 +1,28 @@
+{
+  "id": "cloudera-iceberg-mcp-server-25d3ef50",
+  "name": "Cloudera Iceberg MCP Server",
+  "description": "Enables read-only access to Apache Iceberg tables via Impala, allowing LLMs to inspect database schemas and execute SQL queries to retrieve data from Iceberg tables.",
+  "repo_url": "https://github.com/cloudera/iceberg-mcp-server",
+  "source_hub": "glama",
+  "owner": "cloudera",
+  "stars": 9,
+  "primary_language": "unknown",
+  "tags": [
+    "data",
+    "data-ai",
+    "data-db",
+    "integ-cloud"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 7,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-25T14:26:46Z",
+  "verification_level": "scanner_only"
+}

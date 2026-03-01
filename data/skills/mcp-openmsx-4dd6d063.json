@@ -1,0 +1,29 @@
+{
+  "id": "mcp-openmsx-4dd6d063",
+  "name": "mcp-openmsx",
+  "description": "A Model Context Protocol (MCP) server for automating openMSX emulator instances. This server provides comprehensive tools for MSX software development, testing, and automation through standardized MCP protocols.",
+  "repo_url": "https://github.com/nataliapc/mcp-openmsx",
+  "source_hub": "mcp_so",
+  "owner": "nataliapc",
+  "stars": 43,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp",
+    "dev-testing",
+    "prod",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "a0da613f183bd734c8b2830ec615d37b7bf236ca",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 264,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:32:11Z",
+  "verification_level": "scanner_only"
+}

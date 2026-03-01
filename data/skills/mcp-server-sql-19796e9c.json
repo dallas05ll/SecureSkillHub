@@ -1,0 +1,27 @@
+{
+  "id": "mcp-server-sql-19796e9c",
+  "name": "mcp-server-sql",
+  "description": "这是一个基于Spring Boot的SQL服务应用，用于执行SQL查询并将结果写入文件。该服务作为Spring AI MCP（Model, Chat, Prompt）框架的一部分，提供了SQL查询和更新操作的功能。",
+  "repo_url": "https://github.com/cherry-SC/mcp-server-sql",
+  "source_hub": "mcp_so",
+  "owner": "cherry-SC",
+  "stars": 2,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-db",
+    "prod-comm"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "673e51fce4eea5baa0199c8f81a7262a227f3311",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 2,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:04:50Z",
+  "verification_level": "scanner_only"
+}

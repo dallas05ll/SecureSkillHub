@@ -1,0 +1,26 @@
+{
+  "id": "tapd-mcp-server-e0a4315a",
+  "name": "tapd-mcp-server",
+  "description": "tapd",
+  "repo_url": "https://github.com/jiangwen0259/tapd-mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "jiangwen0259",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "e5b030ee33650af68a1fd55e1b83924b46b6b24f",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 6,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:42:59Z",
+  "verification_level": "scanner_only"
+}

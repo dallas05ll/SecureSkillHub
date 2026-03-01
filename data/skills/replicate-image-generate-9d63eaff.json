@@ -1,0 +1,25 @@
+{
+  "id": "replicate-image-generate-9d63eaff",
+  "name": "replicate-image-generate",
+  "description": "flux image generation mcp server",
+  "repo_url": "https://github.com/caok/replicate-image-generate",
+  "source_hub": "mcp_so",
+  "owner": "caok",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai-vision"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "6ed63cb555d646e5de2b3e262d21746b2b671824",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 5,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:41Z",
+  "verification_level": "scanner_only"
+}

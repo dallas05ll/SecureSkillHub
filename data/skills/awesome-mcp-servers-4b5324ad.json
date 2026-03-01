@@ -1,0 +1,26 @@
+{
+  "id": "awesome-mcp-servers-4b5324ad",
+  "name": "awesome-mcp-servers",
+  "description": "Awesome MCP Servers for ... everything",
+  "repo_url": "https://github.com/serp-ai/awesome-mcp-servers",
+  "source_hub": "mcp_so",
+  "owner": "serp-ai",
+  "stars": 22,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "96c85e076995f7720096dc27dcaac11d2a0d9e62",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 1,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:32:13Z",
+  "verification_level": "scanner_only"
+}

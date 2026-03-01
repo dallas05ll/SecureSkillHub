@@ -1,0 +1,25 @@
+{
+  "id": "wordpress-mcp-server-c5657864",
+  "name": "wordpress-mcp-server",
+  "description": "Comprehensive MCP server for WordPress management with 54 tools across posts, pages, media, users, comments, taxonomies, settings, and authentication.",
+  "repo_url": "https://github.com/docdyhr/wordpress-mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "docdyhr",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "sec",
+    "sec-auth",
+    "util",
+    "util-media",
+    "repo_unavailable"
+  ],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null,
+  "repo_status": "unavailable",
+  "repo_check_date": "2026-02-28T20:53:09.871931+00:00",
+  "repo_check_error": "fatal: could not read Username for 'https://github.com': Device not configured"
+}

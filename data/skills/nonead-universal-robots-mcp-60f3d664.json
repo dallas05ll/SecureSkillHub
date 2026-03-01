@@ -1,0 +1,26 @@
+{
+  "id": "nonead-universal-robots-mcp-60f3d664",
+  "name": "nonead-universal-robots-mcp",
+  "description": "Nonead Universal Robots MCP is an intelligent industrial collaborative robot control middleware system built based on the MCP (Model Control Protocol) interface protocol. It realizes the natural language interactive control of industrial robots by integrating a large language model (LLM). Support: Universal-Robots UR3\\UR5\\UR10\\UR3e\\UR5e\\UR7e\\UR10e\\UR12e\\UR16e\\UR15\\UR20\\UR30 PolyScope 3.x & 5.x",
+  "repo_url": "https://github.com/nonead/nonead-universal-robots-mcp",
+  "source_hub": "mcp_so",
+  "owner": "nonead",
+  "stars": 5,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "3d918c923f7f66f1f4c462e9151be63ec3a44dba",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 44,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:54:02Z",
+  "verification_level": "scanner_only"
+}

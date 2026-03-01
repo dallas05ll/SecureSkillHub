@@ -1,0 +1,26 @@
+{
+  "id": "imessage-mcp-4d28d464",
+  "name": "imessage-mcp",
+  "description": "iMessage RAG MCP Server from Anthropic MCP Hackathon (NYC)",
+  "repo_url": "https://github.com/willccbb/imessage-mcp",
+  "source_hub": "mcp_so",
+  "owner": "willccbb",
+  "stars": 14,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "prod-comm"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "8d316ae1ec01f2fd5bab997af5bf05541bfd8e74",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 17,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:42:34Z",
+  "verification_level": "scanner_only"
+}

@@ -1,0 +1,27 @@
+{
+  "id": "mcp-code-understanding-f2cf7b1b",
+  "name": "mcp-code-understanding",
+  "description": "An MCP (Model Context Protocol) server designed to understand codebases and provide intelligent context to AI coding assistants",
+  "repo_url": "https://github.com/codingthefuturewithai/mcp-code-understanding",
+  "source_hub": "mcp_so",
+  "owner": "codingthefuturewithai",
+  "stars": 10,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp",
+    "dev"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "f20e0111ef6775a65cf790f4e5c00e2e4ba64094",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 46,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:42:34Z",
+  "verification_level": "scanner_only"
+}

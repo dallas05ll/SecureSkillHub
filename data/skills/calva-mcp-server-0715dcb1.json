@@ -1,0 +1,26 @@
+{
+  "id": "calva-mcp-server-0715dcb1",
+  "name": "calva-mcp-server",
+  "description": "A VS Code Extension creating an MCP server for Calva's Clojure REPL connection",
+  "repo_url": "https://github.com/PEZ/calva-mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "PEZ",
+  "stars": 47,
+  "primary_language": "unknown",
+  "tags": [
+    "dev",
+    "integ"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "aacf5d10eb88337bc8f7304d77322f7643ad3942",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 26,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:32:11Z",
+  "verification_level": "scanner_only"
+}

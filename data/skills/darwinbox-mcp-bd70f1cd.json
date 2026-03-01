@@ -1,0 +1,26 @@
+{
+  "id": "darwinbox-mcp-bd70f1cd",
+  "name": "darwinbox-mcp",
+  "description": "MCP server for Darwinbox HRMS",
+  "repo_url": "https://github.com/prithvidbox/darwinbox-mcp",
+  "source_hub": "mcp_so",
+  "owner": "prithvidbox",
+  "stars": 1,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "a4ecc99ab2f7a9fd81380681ae4b87612a1f7acb",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 11,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:40Z",
+  "verification_level": "scanner_only"
+}

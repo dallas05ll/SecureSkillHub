@@ -1,0 +1,25 @@
+{
+  "id": "flights-mcp-292b0a36",
+  "name": "flights-mcp",
+  "description": "An MCP server to search for flights.",
+  "repo_url": "https://github.com/ravinahp/flights-mcp",
+  "source_hub": "mcp_so",
+  "owner": "ravinahp",
+  "stars": 166,
+  "primary_language": "unknown",
+  "tags": [
+    "util-search"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "749d7ad14cce86cd1ecd2c236c30b272f23f2d1e",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 21,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-27T06:36:35Z",
+  "verification_level": "scanner_only"
+}

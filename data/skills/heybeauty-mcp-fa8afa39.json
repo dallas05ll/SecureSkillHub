@@ -1,0 +1,26 @@
+{
+  "id": "heybeauty-mcp-fa8afa39",
+  "name": "heybeauty-mcp",
+  "description": "HeyBeauty MCP Server for Virtual TryOn",
+  "repo_url": "https://github.com/chatmcp/heybeauty-mcp",
+  "source_hub": "mcp_so",
+  "owner": "chatmcp",
+  "stars": 18,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "fb50162e033d656a5999924f47a1d1b5683a7ac9",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 6,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:42:36Z",
+  "verification_level": "scanner_only"
+}

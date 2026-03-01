@@ -1,0 +1,28 @@
+{
+  "id": "docker-mcp-server-413499c9",
+  "name": "docker_mcp_server",
+  "description": "Model Context Protocol MCP Server for Docker Commands. Provides Docker and Docker Swarm commands as MCP Tools.",
+  "repo_url": "https://github.com/makbn/docker_mcp_server",
+  "source_hub": "mcp_so",
+  "owner": "makbn",
+  "stars": 1,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp",
+    "dev-devops-docker",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "f5f40ca41f9b6c35de4ecb1ee1197706ab79598f",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 1,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:40Z",
+  "verification_level": "scanner_only"
+}

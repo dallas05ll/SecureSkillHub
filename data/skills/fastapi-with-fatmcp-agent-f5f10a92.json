@@ -1,0 +1,27 @@
+{
+  "id": "fastapi-with-fatmcp-agent-f5f10a92",
+  "name": "fastapi-with-fatmcp-agent",
+  "description": "A modular application API interface based on FastMCP, integrating a demo of the MCP server, FastAPI interface and LLM Agent processing capabilities | 一个基于FastMCP的模块化应用，集成了MCP服务器、FastAPI接口和LLM Agent 处理能力的 demo",
+  "repo_url": "https://github.com/ZhouhaoJiang/fastapi-with-fatmcp-agent",
+  "source_hub": "mcp_so",
+  "owner": "ZhouhaoJiang",
+  "stars": 10,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "dev-web-backend-python",
+    "integ"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "f6d4b179bf24eeaaea3da091cb886721fe45dd33",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 18,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:42:34Z",
+  "verification_level": "scanner_only"
+}

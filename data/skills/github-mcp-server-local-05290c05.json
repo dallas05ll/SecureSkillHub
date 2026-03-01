@@ -1,0 +1,25 @@
+{
+  "id": "github-mcp-server-local-05290c05",
+  "name": "github-mcp-server-local",
+  "description": "Local Docker setup for GitHub MCP Server with docker-compose",
+  "repo_url": "https://github.com/shesadri/github-mcp-server-local",
+  "source_hub": "mcp_so",
+  "owner": "shesadri",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "dev-devops-docker"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "8cb8ef0aeeea6d7c60b7fc0f781d98c6ef2756a2",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 6,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:40Z",
+  "verification_level": "scanner_only"
+}

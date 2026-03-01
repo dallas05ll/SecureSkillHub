@@ -1,0 +1,28 @@
+{
+  "id": "lenspr-0c2708b2",
+  "name": "lenspr",
+  "description": "Code intelligence MCP server that makes AI coding safer. Builds a dependency graph of your entire codebase so Claude, Cursor, or any MCP client knows what breaks before making changes. 60+ tools for impact analysis, health scoring, dead code detection, and architecture enforcement. Built for vibecoders who ship fast and teams who need reliability. Supports Python, TypeScript, JavaScript.",
+  "repo_url": "https://github.com/kyrylopr/lenspr",
+  "source_hub": "mcp_so",
+  "owner": "kyrylopr",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "dev",
+    "dev-web-backend-python",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "87bd1c9d8eeda0f3d44078296b2e017b85b6c999",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 103,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:40Z",
+  "verification_level": "scanner_only"
+}

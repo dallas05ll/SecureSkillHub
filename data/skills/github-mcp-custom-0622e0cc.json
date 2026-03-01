@@ -1,0 +1,25 @@
+{
+  "id": "github-mcp-custom-0622e0cc",
+  "name": "github-mcp-custom",
+  "description": "Cross-platform NPX-wrappable GitHub MCP Server for Windows, Linux, and macOS. No Docker required!",
+  "repo_url": "https://github.com/idletoaster/github-mcp-custom",
+  "source_hub": "mcp_so",
+  "owner": "idletoaster",
+  "stars": 2,
+  "primary_language": "unknown",
+  "tags": [
+    "dev-devops-docker"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "395510a07657fe28da5792530a81b5d7b10c75c1",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 5,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:04:51Z",
+  "verification_level": "scanner_only"
+}

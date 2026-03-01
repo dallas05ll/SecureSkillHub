@@ -1,0 +1,26 @@
+{
+  "id": "mcp-cursor-2288ebbc",
+  "name": "mcp-cursor",
+  "description": "An MCP server for sending prompts to Cursor IDE",
+  "repo_url": "https://github.com/ardyvoid/mcp-cursor",
+  "source_hub": "mcp_so",
+  "owner": "ardyvoid",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "2ad07932d6cdbadfc16c5d639ac1427fe4f7373d",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 5,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:40Z",
+  "verification_level": "scanner_only"
+}

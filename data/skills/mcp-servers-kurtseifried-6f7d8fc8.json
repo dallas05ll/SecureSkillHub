@@ -1,0 +1,26 @@
+{
+  "id": "mcp-servers-kurtseifried-6f7d8fc8",
+  "name": "mcp-servers-kurtseifried",
+  "description": "A collection of MCP servers",
+  "repo_url": "https://github.com/kurtseifried/mcp-servers-kurtseifried",
+  "source_hub": "mcp_so",
+  "owner": "kurtseifried",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "77526af624b2283d1c45314c28a53fbda4394288",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 13,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:40Z",
+  "verification_level": "scanner_only"
+}

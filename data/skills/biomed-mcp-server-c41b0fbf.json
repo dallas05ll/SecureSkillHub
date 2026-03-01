@@ -1,0 +1,26 @@
+{
+  "id": "biomed-mcp-server-c41b0fbf",
+  "name": "BioMed-MCP-Server",
+  "description": "A MCP Server for biomedical Literature Database",
+  "repo_url": "https://github.com/JackKuo666/BioMed-MCP-Server",
+  "source_hub": "mcp_so",
+  "owner": "JackKuo666",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "data",
+    "data-db"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "c927eadfd9f99246992f74d4bce6a4f581ab2e9a",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 1,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:41Z",
+  "verification_level": "scanner_only"
+}

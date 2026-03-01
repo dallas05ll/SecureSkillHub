@@ -1,0 +1,25 @@
+{
+  "id": "mcp-changtianml-4dfe44f4",
+  "name": "mcp-changtianML",
+  "description": "mcp server to access changtianML",
+  "repo_url": "https://github.com/AFAN-LIFE/mcp-changtianML",
+  "source_hub": "mcp_so",
+  "owner": "AFAN-LIFE",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "1df7259cf2b78f506a4afe07b1ee35a4b4faaadc",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 1,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:41Z",
+  "verification_level": "scanner_only"
+}

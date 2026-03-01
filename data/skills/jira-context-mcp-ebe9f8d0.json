@@ -1,0 +1,27 @@
+{
+  "id": "jira-context-mcp-ebe9f8d0",
+  "name": "Jira-Context-MCP",
+  "description": "MCP server to provide Jira Tickets information to AI coding agents like Cursor",
+  "repo_url": "https://github.com/rahulthedevil/Jira-Context-MCP",
+  "source_hub": "mcp_so",
+  "owner": "rahulthedevil",
+  "stars": 24,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp",
+    "prod-pm"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "ed9c13e4da908763d87e0dd0cd5cbfe0242dab77",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 11,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:32:11Z",
+  "verification_level": "scanner_only"
+}

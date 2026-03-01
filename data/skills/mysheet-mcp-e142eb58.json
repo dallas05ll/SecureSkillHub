@@ -1,0 +1,28 @@
+{
+  "id": "mysheet-mcp-e142eb58",
+  "name": "mysheet-mcp",
+  "description": "Mysheet-mcp is a MCP Server for converting Excel files into JSON format, particularly useful for data processing when called within large models or Agents.",
+  "repo_url": "https://github.com/lgwanai/mysheet-mcp",
+  "source_hub": "mcp_so",
+  "owner": "lgwanai",
+  "stars": 3,
+  "primary_language": "unknown",
+  "tags": [
+    "data",
+    "data-ai",
+    "util",
+    "util-file"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "863ea13daaf0f43c239345855acb81773ad320f4",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 3,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:04:50Z",
+  "verification_level": "scanner_only"
+}

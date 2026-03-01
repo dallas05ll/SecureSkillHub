@@ -1,0 +1,20 @@
+{
+  "id": "mcp-n8n-workflow-builder-b4f74b2d",
+  "name": "mcp-n8n-workflow-builder",
+  "description": "MCP server for Claude / Cursor building n8n workflow",
+  "repo_url": "https://github.com/salacoste/mcp-n8n-workflow-builder",
+  "source_hub": "mcp_so",
+  "owner": "salacoste",
+  "stars": 209,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "prod"
+  ],
+  "verification_status": "fail",
+  "overall_score": 10,
+  "risk_level": "critical",
+  "verified_commit": "db31e85c7f33f9254946d9a8dcf06a71fcbeb675",
+  "scan_summary": null,
+  "scan_date": "2026-02-27T06:14:35Z"
+}

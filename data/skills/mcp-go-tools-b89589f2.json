@@ -1,0 +1,29 @@
+{
+  "id": "mcp-go-tools-b89589f2",
+  "name": "mcp-go-tools",
+  "description": "A Go-focused Model Context Protocol (MCP) server that provides idiomatic Go code generation, style guidelines, and best practices. This tool helps Language Models understand and generate high-quality Go code following established patterns and conventions.",
+  "repo_url": "https://github.com/ksysoev/mcp-go-tools",
+  "source_hub": "mcp_so",
+  "owner": "ksysoev",
+  "stars": 5,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp",
+    "dev",
+    "dev-web-backend-go",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "5cf7f171745d2a49a1be50cbeec0805e142b9c6f",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 4,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:54:04Z",
+  "verification_level": "scanner_only"
+}

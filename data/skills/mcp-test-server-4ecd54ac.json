@@ -1,0 +1,26 @@
+{
+  "id": "mcp-test-server-4ecd54ac",
+  "name": "mcp-test-server.",
+  "description": "Petit serveur Express pour tester MCP avec n8n.",
+  "repo_url": "https://github.com/kailee83/mcp-test-server.",
+  "source_hub": "mcp_so",
+  "owner": "kailee83",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "dev-testing",
+    "dev-web-backend-node"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "1ec0110871aba77bd5d66a07d13eddf89cade50c",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 4,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:41Z",
+  "verification_level": "scanner_only"
+}

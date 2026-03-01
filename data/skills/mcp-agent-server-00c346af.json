@@ -1,0 +1,29 @@
+{
+  "id": "mcp-agent-server-00c346af",
+  "name": "mcp-agent-server",
+  "description": "Open-source, modular “brain” for AI employees. Integrates with n8n and workflow engines, features persistent agent memory, natural language interface, and feedback loops. SaaS-ready, extensible, and easy to deploy with Docker.",
+  "repo_url": "https://github.com/LeadBroaf/mcp-agent-server",
+  "source_hub": "mcp_so",
+  "owner": "LeadBroaf",
+  "stars": 3,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp",
+    "dev-devops-docker",
+    "prod",
+    "prod-notes"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "b172a72c80d9abfadbeda1e1d5b25fb4c00d2a0d",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 24,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:04:50Z",
+  "verification_level": "scanner_only"
+}

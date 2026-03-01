@@ -1,0 +1,27 @@
+{
+  "id": "elasticsearch-mcp-c5cd9e43",
+  "name": "elasticsearch-mcp",
+  "description": "Elasticsearch MCP server with available features including mappings management, search and indexing, and index management etc.",
+  "repo_url": "https://github.com/awesimon/elasticsearch-mcp",
+  "source_hub": "mcp_so",
+  "owner": "awesimon",
+  "stars": 18,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "util-map",
+    "util-search"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "b4e91e32b9174bc292e2c8c52dbe8fb1b0af125e",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 18,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:42:36Z",
+  "verification_level": "scanner_only"
+}

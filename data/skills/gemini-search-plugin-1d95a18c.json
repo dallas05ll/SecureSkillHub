@@ -1,0 +1,30 @@
+{
+  "id": "gemini-search-plugin-1d95a18c",
+  "name": "gemini-search-plugin",
+  "description": "Advanced Claude Code plugin for web search using Gemini CLI with caching, analytics, and validation. Includes comprehensive skills for plugin development.",
+  "repo_url": "https://github.com/d-oit/gemini-search-plugin",
+  "source_hub": "github_search",
+  "skill_type": "agent_skill",
+  "owner": "d-oit",
+  "stars": 10,
+  "license": "mit",
+  "primary_language": "markdown",
+  "tags": [
+    "data",
+    "data-ai",
+    "dev",
+    "util-search"
+  ],
+  "verification_status": "pass",
+  "overall_score": 83,
+  "risk_level": "low",
+  "verified_commit": null,
+  "scan_summary": null,
+  "last_updated": "2026-01-27T19:56:04Z",
+  "findings_summary": {
+    "notes": "Metadata-based verification. Score=83. Signals: stars=10 (>=10, +5); license='mit' (+5); owner='d-oit' (+3); primary_language='markdown'; source_hub='github_search'. Status: pass. Risk: low."
+  },
+  "trust_level": "low",
+  "scan_date": "2026-02-26T06:14:56Z",
+  "verification_level": "metadata_only"
+}

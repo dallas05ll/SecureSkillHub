@@ -1,0 +1,26 @@
+{
+  "id": "think-mcp-42faebc9",
+  "name": "think-mcp",
+  "description": "MCP Server for reasoning",
+  "repo_url": "https://github.com/Rai220/think-mcp",
+  "source_hub": "mcp_so",
+  "owner": "Rai220",
+  "stars": 91,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "b8cc127b1f4298d861745c3b99755b8f5ff05004",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 4,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-27T06:40:43Z",
+  "verification_level": "scanner_only"
+}

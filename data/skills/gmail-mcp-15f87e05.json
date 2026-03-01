@@ -1,0 +1,26 @@
+{
+  "id": "gmail-mcp-15f87e05",
+  "name": "gmail-mcp",
+  "description": "A Gmail MCP server",
+  "repo_url": "https://github.com/theposch/gmail-mcp",
+  "source_hub": "mcp_so",
+  "owner": "theposch",
+  "stars": 16,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "prod-comm"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "f30affc296870dbcf57b368bf661d7cd13fe00a6",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 4,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:42:34Z",
+  "verification_level": "scanner_only"
+}

@@ -1,0 +1,25 @@
+{
+  "id": "pubmedmcp-bacba1c1",
+  "name": "pubmedmcp",
+  "description": "A MCP server for PubMed data",
+  "repo_url": "https://github.com/grll/pubmedmcp",
+  "source_hub": "mcp_so",
+  "owner": "grll",
+  "stars": 96,
+  "primary_language": "unknown",
+  "tags": [
+    "data"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "b50dd67f949876bad0f8ffeee9aab31f8c113149",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 6,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-27T06:40:49Z",
+  "verification_level": "scanner_only"
+}

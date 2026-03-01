@@ -1,0 +1,27 @@
+{
+  "id": "sms-mcp-server-6fca1420",
+  "name": "sms-mcp-server",
+  "description": "A Model Context Protocol (MCP) server that enables Claude and other AI assistants to send SMS messages using Twilio.",
+  "repo_url": "https://github.com/YiyangLi/sms-mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "YiyangLi",
+  "stars": 12,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp",
+    "prod-comm"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "3cad4a3ecb6402d632d2b7cca6d8cebb1a22d2c1",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 5,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:42:36Z",
+  "verification_level": "scanner_only"
+}

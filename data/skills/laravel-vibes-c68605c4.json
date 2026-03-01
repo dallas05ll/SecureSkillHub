@@ -1,0 +1,26 @@
+{
+  "id": "laravel-vibes-c68605c4",
+  "name": "laravel-vibes",
+  "description": "A Laravel package for implementing the Machine Control Protocol (MCP) server",
+  "repo_url": "https://github.com/projectsaturnstudios/laravel-vibes",
+  "source_hub": "mcp_so",
+  "owner": "projectsaturnstudios",
+  "stars": 4,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "b5102e2a342c4bb843cce715df921489c9cb21d8",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 1,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:54:02Z",
+  "verification_level": "scanner_only"
+}

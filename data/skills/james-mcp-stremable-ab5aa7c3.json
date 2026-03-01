@@ -1,0 +1,25 @@
+{
+  "id": "james-mcp-stremable-ab5aa7c3",
+  "name": "james-mcp-stremable",
+  "description": "This is a customized MCP remote client based on the original project.(",
+  "repo_url": "https://github.com/network1211/james-mcp-stremable",
+  "source_hub": "mcp_so",
+  "owner": "network1211",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "140475ee7407b1d99b05f4f590be3629e6723748",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 8,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:41Z",
+  "verification_level": "scanner_only"
+}

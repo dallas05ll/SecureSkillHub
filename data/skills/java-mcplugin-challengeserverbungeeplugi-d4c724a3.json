@@ -1,0 +1,25 @@
+{
+  "id": "java-mcplugin-challengeserverbungeeplugi-d4c724a3",
+  "name": "Java-MCPlugin-ChallengeServerBungeePlugin",
+  "description": "The Java Minecraft Plugin (BungeeCord) for the Challenge Server.",
+  "repo_url": "https://github.com/Nikogenia/Java-MCPlugin-ChallengeServerBungeePlugin",
+  "source_hub": "mcp_so",
+  "owner": "Nikogenia",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "dev-web-backend-node"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "1c961ec86147cc3fec28cb30780a9a51865f849d",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 2,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:40Z",
+  "verification_level": "scanner_only"
+}

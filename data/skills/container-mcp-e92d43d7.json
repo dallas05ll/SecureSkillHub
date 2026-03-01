@@ -1,0 +1,29 @@
+{
+  "id": "container-mcp-e92d43d7",
+  "name": "container-mcp",
+  "description": "A podman ubuntu 24.04 container that serves a MCP server; with file, code execution, bash shell, and more.",
+  "repo_url": "https://github.com/54rt1n/container-mcp",
+  "source_hub": "mcp_so",
+  "owner": "54rt1n",
+  "stars": 19,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "dev",
+    "dev-devops-docker",
+    "dev-web-backend-node",
+    "util-file"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "3db484f92fbbfd8645a7dec26459aefd83ec6b73",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 87,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:42:36Z",
+  "verification_level": "scanner_only"
+}

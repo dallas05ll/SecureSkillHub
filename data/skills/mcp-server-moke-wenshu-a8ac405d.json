@@ -1,0 +1,29 @@
+{
+  "id": "mcp-server-moke-wenshu-a8ac405d",
+  "name": "mcp-server-moke-wenshu",
+  "description": "MokeWenShu is an AI-powered analysis tool for China Judgments Online, leveraging NLP and legal knowledge graphs to enable conversational document analysis, similar-case pattern mapping, and visualized judgment trend tracking, delivering dynamic insights for legal decision-making.",
+  "repo_url": "https://github.com/gzfutureai/mcp-server-moke-wenshu",
+  "source_hub": "mcp_so",
+  "owner": "gzfutureai",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp",
+    "prod-docs",
+    "util",
+    "util-map"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "daeeec6f377e04d8e409eab8013fcf22856bb066",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 1,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:41Z",
+  "verification_level": "scanner_only"
+}

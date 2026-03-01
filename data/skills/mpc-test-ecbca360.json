@@ -1,0 +1,25 @@
+{
+  "id": "mpc-test-ecbca360",
+  "name": "mpc-test",
+  "description": "MCP server that exercises all the features of the MCP protocol",
+  "repo_url": "https://github.com/Jazz-Man/mpc-test",
+  "source_hub": "mcp_so",
+  "owner": "Jazz-Man",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "dev-testing"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "37b8c374fc7df0111f3530e2dd64080b2651876e",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 10,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:40Z",
+  "verification_level": "scanner_only"
+}

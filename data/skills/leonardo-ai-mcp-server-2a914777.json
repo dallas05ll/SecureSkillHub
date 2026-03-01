@@ -1,0 +1,27 @@
+{
+  "id": "leonardo-ai-mcp-server-2a914777",
+  "name": "leonardo-ai-mcp-server",
+  "description": "MCP server for Leonardo AI API - Free daily credits for AI image generation",
+  "repo_url": "https://github.com/nikolausm/leonardo-ai-mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "nikolausm",
+  "stars": 1,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-vision",
+    "integ"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "a562530fb9ef507dca22d93bee3cf78cd0122562",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 3,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:41Z",
+  "verification_level": "scanner_only"
+}

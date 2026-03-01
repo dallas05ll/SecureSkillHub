@@ -1,0 +1,29 @@
+{
+  "id": "pubmed-search-mcp-server-96cc61ef",
+  "name": "pubmed-search-mcp-server",
+  "description": "A Model Content Protocol server that provides tools to search and retrieve academic papers from PubMed database.",
+  "repo_url": "https://github.com/gradusnikov/pubmed-search-mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "gradusnikov",
+  "stars": 6,
+  "primary_language": "unknown",
+  "tags": [
+    "data",
+    "data-ai",
+    "data-db",
+    "util",
+    "util-search"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "9083ae5d0acabe6c7c4de84f3ee89ed29ea745a2",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 3,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:54:02Z",
+  "verification_level": "scanner_only"
+}

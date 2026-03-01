@@ -1,0 +1,28 @@
+{
+  "id": "openapi2mcptools-f40f8c16",
+  "name": "openapi2mcptools",
+  "description": "OpenAPI specifications => MCP (Model Context Protocol) tools",
+  "repo_url": "https://github.com/2013xile/openapi2mcptools",
+  "source_hub": "mcp_so",
+  "owner": "2013xile",
+  "stars": 19,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp",
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "8c7b8e610fe3c1c65f01727ee010b52a6eae6d4b",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 10,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:42:34Z",
+  "verification_level": "scanner_only"
+}

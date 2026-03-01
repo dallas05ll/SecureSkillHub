@@ -1,0 +1,28 @@
+{
+  "id": "latest-news-mcp-server-4d9c207e",
+  "name": "latest-news-mcp-server",
+  "description": "MCP (model context protocol) server to fetch latest news",
+  "repo_url": "https://github.com/ronakkhandlwl/latest-news-mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "ronakkhandlwl",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp",
+    "dev-testing",
+    "util-search"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "f60407e73ef9f76f77d707a1f4e29a292dd773be",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 4,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:40Z",
+  "verification_level": "scanner_only"
+}

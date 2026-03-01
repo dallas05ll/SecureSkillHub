@@ -1,0 +1,26 @@
+{
+  "id": "random-number-mcp-55f4278b",
+  "name": "random-number-mcp",
+  "description": "Production-ready MCP server that provides LLMs with essential random generation abilities, built entirely on Python's standard library.",
+  "repo_url": "https://github.com/zazencodes/random-number-mcp",
+  "source_hub": "mcp_so",
+  "owner": "zazencodes",
+  "stars": 46,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "dev-web-backend-python"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "169326444d762838d9edc8431d012c453821a393",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 10,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:32:12Z",
+  "verification_level": "scanner_only"
+}

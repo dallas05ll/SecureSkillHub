@@ -1,0 +1,26 @@
+{
+  "id": "dylangames-mcp-chess-engine-498588a3",
+  "name": "dylangames-mcp-chess-engine",
+  "description": "A chess engine MCP server powered by Stockfish",
+  "repo_url": "https://github.com/wilson-urdaneta/dylangames-mcp-chess-engine",
+  "source_hub": "mcp_so",
+  "owner": "wilson-urdaneta",
+  "stars": 5,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "b9ef19f2a27b67491768ed821e17988634869db0",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 34,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:54:02Z",
+  "verification_level": "scanner_only"
+}

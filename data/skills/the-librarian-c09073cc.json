@@ -1,0 +1,28 @@
+{
+  "id": "the-librarian-c09073cc",
+  "name": "The-Librarian",
+  "description": "Stop re-explaining your project every session. Persistent memory for Cowork — 100% local, zero configuration. If it was useful to you, please consider buying me a drink (link below). Enjoy!",
+  "repo_url": "https://github.com/PRDicta/The-Librarian",
+  "source_hub": "github_search",
+  "skill_type": "agent_skill",
+  "owner": "PRDicta",
+  "stars": 11,
+  "license": "other",
+  "primary_language": "markdown",
+  "tags": [
+    "data-ai",
+    "prod-notes"
+  ],
+  "verification_status": "pass",
+  "overall_score": 83,
+  "risk_level": "low",
+  "verified_commit": null,
+  "scan_summary": null,
+  "last_updated": "2026-02-21T17:33:23Z",
+  "findings_summary": {
+    "notes": "Metadata-based verification. Score=83. Signals: stars=11 (>=10, +5); license='other' (+5); owner='PRDicta' (+3); primary_language='markdown'; source_hub='github_search'. Status: pass. Risk: low."
+  },
+  "trust_level": "low",
+  "scan_date": "2026-02-26T06:14:56Z",
+  "verification_level": "metadata_only"
+}

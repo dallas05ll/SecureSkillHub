@@ -1,0 +1,28 @@
+{
+  "id": "argus-d1070b94",
+  "name": "argus",
+  "description": "A Model Context Protocol (MCP) server for analyzing GitLab repositories and performing security assessments.",
+  "repo_url": "https://github.com/athapong/argus",
+  "source_hub": "mcp_so",
+  "owner": "athapong",
+  "stars": 1,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp",
+    "dev-git",
+    "sec"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "3c109bb4dc4ddd3ba6064b851cf06ead80d2b1fd",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 5,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:40Z",
+  "verification_level": "scanner_only"
+}

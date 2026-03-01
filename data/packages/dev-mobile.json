@@ -1,0 +1,29 @@
+{
+  "tag_path": "dev-mobile",
+  "label": "General Mobile Application Package",
+  "description": "Top 1 verified mobile application skills, auto-curated by GitHub stars and security score.",
+  "skill_ids": [
+    "jadx-ai-mcp-5c5bc36b"
+  ],
+  "skills": [
+    {
+      "id": "jadx-ai-mcp-5c5bc36b",
+      "name": "jadx-ai-mcp",
+      "description": "JADX plugin integrating an MCP server to enable LLMs like Claude to analyze Android APKs, uncover vulnerabilities, and perform reverse engineering through the Model Context Protocol.",
+      "repo_url": "https://github.com/zinja-coder/jadx-ai-mcp",
+      "stars": 1290,
+      "overall_score": 78,
+      "verification_status": "verified",
+      "risk_level": "low",
+      "primary_language": "Java",
+      "install_url": "https://github.com/zinja-coder/jadx-ai-mcp",
+      "skill_type": "unknown"
+    }
+  ],
+  "total_skills": 1,
+  "total_candidates": 1,
+  "avg_score": 78.0,
+  "min_score": 78,
+  "top_stars": 1290,
+  "generated_at": "2026-02-26T00:40:21Z"
+}

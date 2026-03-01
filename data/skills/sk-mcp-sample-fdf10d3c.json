@@ -1,0 +1,26 @@
+{
+  "id": "sk-mcp-sample-fdf10d3c",
+  "name": "sk-mcp-sample",
+  "description": "Semantic Kernel with MCP server/client sample using SSE transport protocal",
+  "repo_url": "https://github.com/vtjc2002/sk-mcp-sample",
+  "source_hub": "mcp_so",
+  "owner": "vtjc2002",
+  "stars": 2,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "8e763f449d0e210bb7ffb4f38c0f4e0d18db2f4b",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 3,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:04:51Z",
+  "verification_level": "scanner_only"
+}

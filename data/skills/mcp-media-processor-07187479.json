@@ -1,0 +1,30 @@
+{
+  "id": "mcp-media-processor-07187479",
+  "name": "mcp-media-processor",
+  "description": "A Node.js server implementing Model Context Protocol (MCP) for media processing operations, providing powerful video and image manipulation capabilities.",
+  "repo_url": "https://github.com/maoxiaoke/mcp-media-processor",
+  "source_hub": "mcp_so",
+  "owner": "maoxiaoke",
+  "stars": 25,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp",
+    "data-ai-vision",
+    "dev-web-backend-node",
+    "sec-auth",
+    "util-media"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "2aecf0fb94b398ae7a708a979e302d90f89d670c",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 7,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:32:11Z",
+  "verification_level": "scanner_only"
+}

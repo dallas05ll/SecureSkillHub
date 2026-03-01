@@ -1,0 +1,31 @@
+{
+  "id": "aws-ses-mcp-21a52598",
+  "name": "aws-ses-mcp",
+  "description": "This is a simple Model Context Protocol (MCP) server that sends emails using AWS SES (Simple Email Service). Perfect for integrating with Cursor or Claude Desktop to compose and send emails directly without copy-pasting. The service supports both plain text and HTML emails with advanced features like CC, BCC, and reply-to functionality.",
+  "repo_url": "https://github.com/omd01/aws-ses-mcp",
+  "source_hub": "mcp_so",
+  "owner": "omd01",
+  "stars": 4,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp",
+    "dev-devops-docker",
+    "dev-web",
+    "integ-cloud",
+    "integ-cloud-aws",
+    "prod-comm"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "222c28bb769f70781eb478941ad0f51bb5cefa5e",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 8,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:54:02Z",
+  "verification_level": "scanner_only"
+}

@@ -1,0 +1,25 @@
+{
+  "id": "moneybird-mcp-server-54d79653",
+  "name": "moneybird-mcp-server",
+  "description": "Moneybird MCP Server - Let Claude cook the books",
+  "repo_url": "https://github.com/vanderheijden86/moneybird-mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "vanderheijden86",
+  "stars": 23,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "0eb2bc42c454245a276976db706f0a0fbcf8c53e",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 19,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:32:13Z",
+  "verification_level": "scanner_only"
+}

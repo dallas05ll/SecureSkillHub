@@ -1,0 +1,26 @@
+{
+  "id": "mcp-state-server-21d54345",
+  "name": "mcp-state-server",
+  "description": "my new repository",
+  "repo_url": "https://github.com/norisuke3/mcp-state-server",
+  "source_hub": "mcp_so",
+  "owner": "norisuke3",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "2ed3f0d7d418cd7c64807a0bb964ae4477176e99",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 5,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:42Z",
+  "verification_level": "scanner_only"
+}

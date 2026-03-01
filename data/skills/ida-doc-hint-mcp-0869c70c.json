@@ -1,0 +1,25 @@
+{
+  "id": "ida-doc-hint-mcp-0869c70c",
+  "name": "IDA-doc-hint-mcp",
+  "description": "Ida documentation reader (sort-of) mcp server",
+  "repo_url": "https://github.com/Sysc4lls/IDA-doc-hint-mcp",
+  "source_hub": "mcp_so",
+  "owner": "Sysc4lls",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "prod-docs"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "b8ba06f4242ef27f4dd85191c51ca30caf64576b",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 3,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:41Z",
+  "verification_level": "scanner_only"
+}

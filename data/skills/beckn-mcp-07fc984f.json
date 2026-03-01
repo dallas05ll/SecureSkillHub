@@ -1,0 +1,26 @@
+{
+  "id": "beckn-mcp-07fc984f",
+  "name": "beckn-mcp",
+  "description": "MCP Server for Beckn Protocol (SSE Transport)",
+  "repo_url": "https://github.com/rajatsandeepsen/beckn-mcp",
+  "source_hub": "mcp_so",
+  "owner": "rajatsandeepsen",
+  "stars": 1,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "9bacc8472bf9fdbf9bb75a3703a76f9a02c026ba",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 17,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:41Z",
+  "verification_level": "scanner_only"
+}

@@ -1,0 +1,25 @@
+{
+  "id": "mcp-sample-vsc-debug-82427c2f",
+  "name": "mcp-sample-vsc-debug",
+  "description": "Create sample MCP server and able to debug in VSCode",
+  "repo_url": "https://github.com/swatDong/mcp-sample-vsc-debug",
+  "source_hub": "mcp_so",
+  "owner": "swatDong",
+  "stars": 4,
+  "primary_language": "unknown",
+  "tags": [
+    "dev"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "5cd213a9d4a60e1af227366f01ac98007e2d8665",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 13,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:54:02Z",
+  "verification_level": "scanner_only"
+}

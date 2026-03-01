@@ -1,0 +1,28 @@
+{
+  "id": "israeli-bank-scrapers-mcp-demo-512c854d",
+  "name": "israeli-bank-scrapers-mcp-demo",
+  "description": "A Model Context Protocol (MCP) server that demonstrates how to scrape financial data using the israeli-bank-scrapers library",
+  "repo_url": "https://github.com/shlomiuziel/israeli-bank-scrapers-mcp-demo",
+  "source_hub": "mcp_so",
+  "owner": "shlomiuziel",
+  "stars": 2,
+  "primary_language": "unknown",
+  "tags": [
+    "data",
+    "data-ai",
+    "data-ai-nlp",
+    "util-search"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "bc3dbe49d7cf8a886afb9773960eb14d3f113b55",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 7,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:04:51Z",
+  "verification_level": "scanner_only"
+}

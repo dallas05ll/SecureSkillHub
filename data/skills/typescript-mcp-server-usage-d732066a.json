@@ -1,0 +1,25 @@
+{
+  "id": "typescript-mcp-server-usage-d732066a",
+  "name": "typescript-mcp-server-usage",
+  "description": "Source code for creating mcp server using typescript sdk.",
+  "repo_url": "https://github.com/americano212/typescript-mcp-server-usage",
+  "source_hub": "mcp_so",
+  "owner": "americano212",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "dev"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "4e4e84c27cc504b3f027090f08f8606baf641ef9",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 5,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:43:00Z",
+  "verification_level": "scanner_only"
+}

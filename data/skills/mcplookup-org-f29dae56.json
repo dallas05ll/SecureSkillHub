@@ -1,0 +1,26 @@
+{
+  "id": "mcplookup-org-f29dae56",
+  "name": "mcplookup.org",
+  "description": "The One Ring MCP Server - Universal MCP Discovery Service for Model Context Protocol servers",
+  "repo_url": "https://github.com/TSavo/mcplookup.org",
+  "source_hub": "mcp_so",
+  "owner": "TSavo",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "6874e79abadb8ed5b60ba6c0677d0144f2e2cedb",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 304,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:41Z",
+  "verification_level": "scanner_only"
+}

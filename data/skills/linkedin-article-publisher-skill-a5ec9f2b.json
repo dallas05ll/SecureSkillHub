@@ -1,0 +1,28 @@
+{
+  "id": "linkedin-article-publisher-skill-a5ec9f2b",
+  "name": "linkedin-article-publisher-skill",
+  "description": "Claude Skill that publish on LinkedIn article",
+  "repo_url": "https://github.com/iamzifei/linkedin-article-publisher-skill",
+  "source_hub": "github_search",
+  "skill_type": "agent_skill",
+  "owner": "iamzifei",
+  "stars": 13,
+  "license": "mit",
+  "primary_language": "markdown",
+  "tags": [
+    "data-ai",
+    "integ-social"
+  ],
+  "verification_status": "pass",
+  "overall_score": 83,
+  "risk_level": "low",
+  "verified_commit": null,
+  "scan_summary": null,
+  "last_updated": "2026-02-24T07:54:46Z",
+  "findings_summary": {
+    "notes": "Metadata-based verification. Score=83. Signals: stars=13 (>=10, +5); license='mit' (+5); owner='iamzifei' (+3); primary_language='markdown'; source_hub='github_search'. Status: pass. Risk: low."
+  },
+  "trust_level": "low",
+  "scan_date": "2026-02-26T06:14:56Z",
+  "verification_level": "metadata_only"
+}

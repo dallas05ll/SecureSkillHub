@@ -1,0 +1,25 @@
+{
+  "id": "ai-6984578f",
+  "name": "AI",
+  "description": "AI in your terminal — powered by agents and MCP",
+  "repo_url": "https://github.com/tryAGI/AI",
+  "source_hub": "mcp_so",
+  "owner": "tryAGI",
+  "stars": 3,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "de2eed828ef0c9842e976a44c4cb9c1f460588e4",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 2,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:04:50Z",
+  "verification_level": "scanner_only"
+}

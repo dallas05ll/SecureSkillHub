@@ -1,0 +1,27 @@
+{
+  "id": "gel-mcp-server-5175f60c",
+  "name": "gel-mcp-server",
+  "description": "MCP Server enabling LLM Agents to interact with Gel databases",
+  "repo_url": "https://github.com/christian561/gel-mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "christian561",
+  "stars": 11,
+  "primary_language": "unknown",
+  "tags": [
+    "data",
+    "data-ai",
+    "data-db"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "ed7d442161ae6a196490229844b76d6808d437b7",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 6,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:42:36Z",
+  "verification_level": "scanner_only"
+}

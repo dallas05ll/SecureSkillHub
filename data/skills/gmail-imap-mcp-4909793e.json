@@ -1,0 +1,27 @@
+{
+  "id": "gmail-imap-mcp-4909793e",
+  "name": "gmail-imap-mcp",
+  "description": "Gmail IMAP MCP server for integrating Gmail with Claude and other AI assistants",
+  "repo_url": "https://github.com/tonykipkemboi/gmail-imap-mcp",
+  "source_hub": "mcp_so",
+  "owner": "tonykipkemboi",
+  "stars": 7,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "prod-comm",
+    "util-map"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "343a81b26cf5fb5d77fdd16c3dd6a661ca890784",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 8,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:54:02Z",
+  "verification_level": "scanner_only"
+}

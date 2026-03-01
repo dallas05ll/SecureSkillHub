@@ -1,0 +1,27 @@
+{
+  "id": "haze-mcpserver-echo-70516ced",
+  "name": "Haze.McpServer.Echo",
+  "description": "A Model Context Protocol(MCP) server for echo message",
+  "repo_url": "https://github.com/zaevi/Haze.McpServer.Echo",
+  "source_hub": "mcp_so",
+  "owner": "zaevi",
+  "stars": 1,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp",
+    "prod-comm"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "aabf4dd82efdb9ab5a8d8c767f2de0311276c1bb",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 1,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:40Z",
+  "verification_level": "scanner_only"
+}

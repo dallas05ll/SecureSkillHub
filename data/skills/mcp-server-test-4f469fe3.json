@@ -1,0 +1,25 @@
+{
+  "id": "mcp-server-test-4f469fe3",
+  "name": "mcp-server-test",
+  "description": "Test repository for server functionality",
+  "repo_url": "https://github.com/Ganapathi-AJ/mcp-server-test",
+  "source_hub": "mcp_so",
+  "owner": "Ganapathi-AJ",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "dev-testing"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "a06db0b93401bd5fe7abc5363a9e899987dc2e0c",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 1,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:40Z",
+  "verification_level": "scanner_only"
+}

@@ -1,0 +1,25 @@
+{
+  "id": "turbo-mcp-e25d1039",
+  "name": "turbo-mcp",
+  "description": "An MCP server layer to expose your REST API as MCP functions",
+  "repo_url": "https://github.com/indusbit/turbo-mcp",
+  "source_hub": "mcp_so",
+  "owner": "indusbit",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "integ"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "5e8aa3b1eac20206a1f6a876f350393827956484",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 12,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:43:00Z",
+  "verification_level": "scanner_only"
+}

@@ -1,0 +1,26 @@
+{
+  "id": "asktheapi-team-builder-fb7075a4",
+  "name": "asktheapi-team-builder",
+  "description": "Agent network builder for communicating with openapi apis. Based in autogen",
+  "repo_url": "https://github.com/AlexAlbala/asktheapi-team-builder",
+  "source_hub": "mcp_so",
+  "owner": "AlexAlbala",
+  "stars": 1,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "prod-comm"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "b946637c1b92d966958d408b39355ad0881d507a",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 27,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:42Z",
+  "verification_level": "scanner_only"
+}

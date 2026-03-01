@@ -1,0 +1,28 @@
+{
+  "id": "mcpapp-9bc95b3b",
+  "name": "MCPApp",
+  "description": "This text introduces the Model Context Protocol (MCP) for AI interaction, exploring Google Apps Script (GAS) as a server option. It shows feasibility with a sample but notes the lack of a GAS SDK, aiming to encourage understanding and development.",
+  "repo_url": "https://github.com/tanaikech/MCPApp",
+  "source_hub": "mcp_so",
+  "owner": "tanaikech",
+  "stars": 43,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp",
+    "dev",
+    "prod-notes"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "b96a713e0bbf326f6fa7f08255829e9b6d26137e",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 15,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:32:13Z",
+  "verification_level": "scanner_only"
+}

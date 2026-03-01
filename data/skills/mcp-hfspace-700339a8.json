@@ -1,0 +1,25 @@
+{
+  "id": "mcp-hfspace-700339a8",
+  "name": "mcp-hfspace",
+  "description": "MCP Server to Use HuggingFace spaces, easy configuration and Claude Desktop mode.",
+  "repo_url": "https://github.com/evalstate/mcp-hfspace",
+  "source_hub": "mcp_so",
+  "owner": "evalstate",
+  "stars": 383,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 23,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-27T02:28:45Z",
+  "verification_level": "scanner_only"
+}

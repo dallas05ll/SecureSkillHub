@@ -1,0 +1,27 @@
+{
+  "id": "website-generator-mcp-server-10a35449",
+  "name": "website-generator-mcp-server",
+  "description": "B12's model context protocol server for generating websites with AI",
+  "repo_url": "https://github.com/b12io/website-generator-mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "b12io",
+  "stars": 4,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp",
+    "dev-web"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "778cc62eefd0e89c1dba3afd17fc8fcd27130f22",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 7,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:04:51Z",
+  "verification_level": "scanner_only"
+}

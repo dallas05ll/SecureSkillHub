@@ -1,0 +1,25 @@
+{
+  "id": "mcp-tool-builder-ef59a6ae",
+  "name": "mcp-tool-builder",
+  "description": "MCP server that creates its own tools as needed",
+  "repo_url": "https://github.com/hanweg/mcp-tool-builder",
+  "source_hub": "mcp_so",
+  "owner": "hanweg",
+  "stars": 25,
+  "primary_language": "unknown",
+  "tags": [
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "878a7a0de1742c9d90724068ec0ede75b1f5e916",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 9,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:32:13Z",
+  "verification_level": "scanner_only"
+}

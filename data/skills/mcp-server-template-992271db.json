@@ -1,0 +1,28 @@
+{
+  "id": "mcp-server-template-992271db",
+  "name": "mcp-server-template",
+  "description": "A lightweight and extensible MCP (Model Context Protocol) server implementation built with Express.js and TypeScript. This template provides a solid foundation for building AI-powered applications that can communicate with MCP-compatible clients through Server-Sent Events (SSE).",
+  "repo_url": "https://github.com/antoniodevivo/mcp-server-template",
+  "source_hub": "mcp_so",
+  "owner": "antoniodevivo",
+  "stars": 1,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp",
+    "dev-web-backend-node",
+    "prod-comm"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "a3512925f75f0d8a80eb126f4748a66d0729ae44",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 13,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:40Z",
+  "verification_level": "scanner_only"
+}

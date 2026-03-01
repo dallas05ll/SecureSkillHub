@@ -1,0 +1,26 @@
+{
+  "id": "zim-mcp-server-2119a0ab",
+  "name": "zim-mcp-server",
+  "description": "A MCP server that enables AI models to access and search ZIM format knowledge bases offline",
+  "repo_url": "https://github.com/ThinkInAI-Hackathon/zim-mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "ThinkInAI-Hackathon",
+  "stars": 16,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "util-search"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "f1cfb844746601e278caaec015b064463caacbbe",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 4,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:42:36Z",
+  "verification_level": "scanner_only"
+}

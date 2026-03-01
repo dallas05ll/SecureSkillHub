@@ -1,0 +1,28 @@
+{
+  "id": "langchain-agent-mcp-server-0ad5e548",
+  "name": "langchain-agent-mcp-server",
+  "description": "A production-ready MCP server that exposes LangChain agent capabilities through the Model Context Protocol. Provides multi-step reasoning with ReAct pattern, tool support (web search, weather lookup), and is deployed on Google Cloud Run for scalable, serverless operation.",
+  "repo_url": "https://github.com/Will Flynn/langchain-agent-mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "Will Flynn",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp",
+    "dev-web-frontend-react",
+    "integ-cloud",
+    "integ-cloud-gcp",
+    "util",
+    "util-search",
+    "repo_unavailable"
+  ],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null,
+  "repo_status": "unavailable",
+  "repo_check_date": "2026-02-28T20:51:56.216676+00:00",
+  "repo_check_error": "fatal: unable to access 'https://github.com/Will Flynn/langchain-agent-mcp-server/': URL rejected: Malformed input to a URL function"
+}

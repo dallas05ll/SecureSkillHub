@@ -1,0 +1,26 @@
+{
+  "id": "mcp-server-boilerplate-2c487c2a",
+  "name": "mcp-server-boilerplate",
+  "description": "Model Context Protocol(MCP) サーバーのボイラープレートとなるシンプルな実装です。",
+  "repo_url": "https://github.com/takunagai/mcp-server-boilerplate",
+  "source_hub": "mcp_so",
+  "owner": "takunagai",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "eb8c03ff82c3180e801a55b8880e139a803c9829",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 6,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:40Z",
+  "verification_level": "scanner_only"
+}

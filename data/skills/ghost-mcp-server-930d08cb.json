@@ -1,0 +1,26 @@
+{
+  "id": "ghost-mcp-server-930d08cb",
+  "name": "Ghost-MCP-Server",
+  "description": "An MCP Server for managing posts on Ghost CMS",
+  "repo_url": "https://github.com/jgardner04/Ghost-MCP-Server",
+  "source_hub": "mcp_so",
+  "owner": "jgardner04",
+  "stars": 5,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "f8875b8bc56441944975bddd38e54cb7f02086c7",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 96,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:54:02Z",
+  "verification_level": "scanner_only"
+}

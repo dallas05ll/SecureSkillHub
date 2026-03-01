@@ -1,0 +1,29 @@
+{
+  "id": "dida-mcp-server-32c88741",
+  "name": "dida-mcp-server",
+  "description": "A Model Context Protocol (MCP) server for interacting with TickTick/Dida365 task management service. This server provides tools to manage tasks, projects, and tags through the TickTick API.",
+  "repo_url": "https://github.com/zhongwencool/dida-mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "zhongwencool",
+  "stars": 6,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp",
+    "integ",
+    "prod-pm",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "d97fec061e38835a19e5c83f6e015a7bc64dbb36",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 31,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:54:04Z",
+  "verification_level": "scanner_only"
+}

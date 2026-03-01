@@ -1,0 +1,26 @@
+{
+  "id": "npm-search-mcp-server-b1e4488d",
+  "name": "npm-search-mcp-server",
+  "description": "MCP server for searching npm packages",
+  "repo_url": "https://github.com/btwiuse/npm-search-mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "btwiuse",
+  "stars": 15,
+  "primary_language": "unknown",
+  "tags": [
+    "dev-web-backend-node",
+    "util-search"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "8e10d96ca769d721eb72ad76a8db70263f02ff0c",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 7,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:42:34Z",
+  "verification_level": "scanner_only"
+}

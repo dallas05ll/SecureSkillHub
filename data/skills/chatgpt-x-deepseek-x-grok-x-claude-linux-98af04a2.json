@@ -1,0 +1,26 @@
+{
+  "id": "chatgpt-x-deepseek-x-grok-x-claude-linux-98af04a2",
+  "name": "ChatGPT-x-DeepSeek-x-Grok-x-Claude-Linux-APP",
+  "description": "Electron-based desktop applications for various AI chat platforms.",
+  "repo_url": "https://github.com/alexandephilia/ChatGPT-x-DeepSeek-x-Grok-x-Claude-Linux-APP",
+  "source_hub": "mcp_so",
+  "owner": "alexandephilia",
+  "stars": 24,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "prod-comm"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "65e93c2852ad5974ca154f06148cd10e3cd644a9",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 22,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:32:13Z",
+  "verification_level": "scanner_only"
+}

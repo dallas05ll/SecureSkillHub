@@ -1,0 +1,25 @@
+{
+  "id": "finance-mcp-server-c173ac63",
+  "name": "finance-mcp-server",
+  "description": "Finance mcp server- Get up-to-date prices and news about stocks and cryptocurrencies",
+  "repo_url": "https://github.com/Otman404/finance-mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "Otman404",
+  "stars": 4,
+  "primary_language": "unknown",
+  "tags": [
+    "sec-crypto"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "be5305d7a89306738047879ac89e648d0cdb1e39",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 5,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:54:02Z",
+  "verification_level": "scanner_only"
+}

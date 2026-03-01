@@ -1,0 +1,26 @@
+{
+  "id": "powershell-mcp-f48a14ce",
+  "name": "powershell-mcp",
+  "description": "PowerShell MCP Server",
+  "repo_url": "https://github.com/gunjanjp/powershell-mcp",
+  "source_hub": "mcp_so",
+  "owner": "gunjanjp",
+  "stars": 13,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "652f7fb591e241147df0404fd55a91032b188cc1",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 22,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:42:34Z",
+  "verification_level": "scanner_only"
+}

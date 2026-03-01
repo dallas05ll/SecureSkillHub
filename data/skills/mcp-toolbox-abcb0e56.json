@@ -1,0 +1,26 @@
+{
+  "id": "mcp-toolbox-abcb0e56",
+  "name": "mcp-toolbox",
+  "description": "A stdio mcp server to connect to Tollbit's dynamic toolbox",
+  "repo_url": "https://github.com/tollbit/mcp-toolbox",
+  "source_hub": "mcp_so",
+  "owner": "tollbit",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "c4387f32ac77ec370dbd11f5232ad604b529222d",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 6,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:40Z",
+  "verification_level": "scanner_only"
+}

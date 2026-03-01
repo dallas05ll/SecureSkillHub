@@ -1,0 +1,25 @@
+{
+  "id": "htb-agent-c4513fca",
+  "name": "htb-agent",
+  "description": "An AI agent powered by cline.bot designed to solve Capture The Flag (CTF) challenges on a Kali Linux virtual machine via an MCP Server.",
+  "repo_url": "https://github.com/sjimnar/htb-agent",
+  "source_hub": "mcp_so",
+  "owner": "sjimnar",
+  "stars": 1,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "0f0d047445bf1a29bf4b7c550b15fc85fe2947e8",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 9,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:40Z",
+  "verification_level": "scanner_only"
+}

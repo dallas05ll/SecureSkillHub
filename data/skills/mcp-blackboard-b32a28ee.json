@@ -1,0 +1,27 @@
+{
+  "id": "mcp-blackboard-b32a28ee",
+  "name": "mcp-blackboard",
+  "description": "An MCP server for managing context and memory for a multi-agent task execution based on agentic directed acyclic graph",
+  "repo_url": "https://github.com/peekwez/mcp-blackboard",
+  "source_hub": "mcp_so",
+  "owner": "peekwez",
+  "stars": 2,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai-nlp",
+    "prod-notes",
+    "prod-pm"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "286e01c33cf092eee5b5f4f99a679b010749799e",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 32,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:04:51Z",
+  "verification_level": "scanner_only"
+}

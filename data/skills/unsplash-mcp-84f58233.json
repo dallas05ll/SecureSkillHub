@@ -1,0 +1,29 @@
+{
+  "id": "unsplash-mcp-84f58233",
+  "name": "unsplash-mcp",
+  "description": "An MCP (Model Context Protocol) server for searching and fetching Unsplash photos with proper attribution. Built for LLM workflows that generate content pages and need compliant, ready-to-embed credits.",
+  "repo_url": "https://github.com/cevatkerim/unsplash-mcp",
+  "source_hub": "mcp_so",
+  "owner": "cevatkerim",
+  "stars": 1,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp",
+    "data-ai-vision",
+    "prod",
+    "util-search"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "b92603cc9bdf34224729d6572e2d20fbfd8bca9d",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 3,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:40Z",
+  "verification_level": "scanner_only"
+}

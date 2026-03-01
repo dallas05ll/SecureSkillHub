@@ -1,0 +1,25 @@
+{
+  "id": "github-mcp-server-demo-0e16519b",
+  "name": "Github-MCP-Server-Demo",
+  "description": "Repository created via custom MCP Python server",
+  "repo_url": "https://github.com/jatinnahar15/Github-MCP-Server-Demo",
+  "source_hub": "mcp_so",
+  "owner": "jatinnahar15",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "dev-web-backend-python"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "b4feab871e2bb193e3dda61d60347dee895c6005",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 2,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:41Z",
+  "verification_level": "scanner_only"
+}

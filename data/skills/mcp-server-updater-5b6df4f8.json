@@ -1,0 +1,27 @@
+{
+  "id": "mcp-server-updater-5b6df4f8",
+  "name": "mcp-server-updater",
+  "description": "Automatically analyze and update Model Context Protocol (MCP) servers for Claude Desktop",
+  "repo_url": "https://github.com/JayceeB1/mcp-server-updater",
+  "source_hub": "mcp_so",
+  "owner": "JayceeB1",
+  "stars": 6,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp",
+    "prod"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "8cead9f3e63eccece8d3ab92fec27fc5e6d86fb7",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 3,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:54:02Z",
+  "verification_level": "scanner_only"
+}

@@ -1,0 +1,25 @@
+{
+  "id": "mcp-mssql-d8c9d6b4",
+  "name": "mcp-mssql",
+  "description": "MCP server for MSSQL",
+  "repo_url": "https://github.com/FarukNetworks/mcp-mssql",
+  "source_hub": "mcp_so",
+  "owner": "FarukNetworks",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "data-db"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "f40ffd132c822d7eb6420f00a70f37c299ee7189",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 11,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:40Z",
+  "verification_level": "scanner_only"
+}

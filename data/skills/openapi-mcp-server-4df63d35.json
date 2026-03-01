@@ -1,0 +1,26 @@
+{
+  "id": "openapi-mcp-server-4df63d35",
+  "name": "openapi-mcp-server",
+  "description": "Allow AI to wade through complex OpenAPIs using Simple Language",
+  "repo_url": "https://github.com/janwilmake/openapi-mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "janwilmake",
+  "stars": 878,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "integ"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 5,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-27T02:26:21Z",
+  "verification_level": "scanner_only"
+}

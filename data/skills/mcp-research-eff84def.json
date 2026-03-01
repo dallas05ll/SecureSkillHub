@@ -1,0 +1,28 @@
+{
+  "id": "mcp-research-eff84def",
+  "name": "mcp-research",
+  "description": "Research and documentation about Model Context Protocol (MCP) servers and implementations",
+  "repo_url": "https://github.com/spuerFan/mcp-research",
+  "source_hub": "mcp_so",
+  "owner": "spuerFan",
+  "stars": 2,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp",
+    "prod-docs",
+    "util-search"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "4cbf410742e7ce946ba8c3f644f113bf0de5dc5e",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 6,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:04:51Z",
+  "verification_level": "scanner_only"
+}

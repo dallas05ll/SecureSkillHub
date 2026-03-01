@@ -1,0 +1,26 @@
+{
+  "id": "cursor-resources-4bd14865",
+  "name": "cursor-resources",
+  "description": ".cursorrules, MCP and MCP servers, prompts, tips and tricks",
+  "repo_url": "https://github.com/ample-education/cursor-resources",
+  "source_hub": "mcp_so",
+  "owner": "ample-education",
+  "stars": 17,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "e25bdcd8f6ad5ab6bef20812192a5aeb064e829a",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 3,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:42:34Z",
+  "verification_level": "scanner_only"
+}

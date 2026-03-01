@@ -1,0 +1,28 @@
+{
+  "id": "node-runtime-mcp-ba8a2ace",
+  "name": "node-runtime-mcp",
+  "description": "the mcp server that run the code in Node.js container and obtain the result",
+  "repo_url": "https://github.com/zy445566/node-runtime-mcp",
+  "source_hub": "mcp_so",
+  "owner": "zy445566",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "dev",
+    "dev-devops-docker",
+    "dev-web-backend-node"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "3ef2550316e4ab1d72360e1e3c27579072800eec",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 6,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:40Z",
+  "verification_level": "scanner_only"
+}

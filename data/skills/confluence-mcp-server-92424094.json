@@ -1,0 +1,28 @@
+{
+  "id": "confluence-mcp-server-92424094",
+  "name": "confluence-mcp-server",
+  "description": "Confluence MCP server providing API tools for Atlassian Confluence operations including page management, space handling, and content search with built-in rate limiting and error handling.",
+  "repo_url": "https://github.com/pawankumar94/confluence-mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "pawankumar94",
+  "stars": 5,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "prod-docs",
+    "util",
+    "util-search"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "3a0689d7b9878c3fe3e057bd47b385232d8111fe",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 5,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:54:02Z",
+  "verification_level": "scanner_only"
+}

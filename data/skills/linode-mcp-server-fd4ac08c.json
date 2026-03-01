@@ -1,0 +1,27 @@
+{
+  "id": "linode-mcp-server-fd4ac08c",
+  "name": "linode-mcp-server",
+  "description": "A Model Context Protocol (MCP) server that enables AI assistants like Claude to interact with your Linode Cloud Platform environment.",
+  "repo_url": "https://github.com/takashito/linode-mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "takashito",
+  "stars": 14,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp",
+    "integ-cloud"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "26956e667df5dce9cd0f208121d19cc3a942b005",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 68,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:42:34Z",
+  "verification_level": "scanner_only"
+}

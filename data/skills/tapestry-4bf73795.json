@@ -1,0 +1,47 @@
+{
+  "id": "tapestry-4bf73795",
+  "name": "Tapestry",
+  "description": "The master orchestration skill for the tapestry collection. Detects content type (YouTube, article, PDF), extracts clean content, and automatically creates a Ship-Learn-Next action plan in one command.",
+  "repo_url": "https://github.com/michalparkola/tapestry-skills-for-claude-code/tree/main/tapestry",
+  "source_hub": "claude_skills_hub",
+  "skill_type": "agent_skill",
+  "owner": "michalparkola",
+  "stars": 0,
+  "forks": 42,
+  "license": "mit",
+  "primary_language": "Shell",
+  "tags": [
+    "integ-social",
+    "prod",
+    "util-media",
+    "repo_unavailable"
+  ],
+  "source_tags": [
+    "document-processing",
+    "coding",
+    "writing",
+    "video"
+  ],
+  "categories": [
+    "productivity"
+  ],
+  "version": "1.0.0",
+  "requires_code_execution": true,
+  "verification_status": "pass",
+  "overall_score": 78,
+  "risk_level": "low",
+  "verified_commit": null,
+  "scan_summary": null,
+  "findings_summary": {
+    "notes": "Parent repo michalparkola/tapestry-skills-for-claude-code confirmed (253 stars, MIT, Shell, created Oct 2025). Subdirectory tapestry/ exists with SKILL.md confirmed. Repo contains install.sh and 4 skill subdirectories (tapestry, article-extractor, youtube-transcript, ship-learn-next). Requires yt-dlp and Mozilla Readability/trafilatura for full functionality - external tool dependencies. 42 forks. MIT license. No malicious code. Tool execution (yt-dlp, Python scripts) required for operation."
+  },
+  "last_updated": "2026-02-25T00:00:00Z",
+  "parent_repo_stars": 253,
+  "is_monorepo_child": true,
+  "trust_level": "medium",
+  "scan_date": "2026-02-26T03:00:51Z",
+  "repo_status": "unavailable",
+  "repo_check_date": "2026-02-28T20:53:00.026507+00:00",
+  "repo_check_error": "fatal: repository 'https://github.com/michalparkola/tapestry-skills-for-claude-code/tree/main/tapestry/' not found",
+  "verification_level": "scanner_only"
+}

@@ -1,0 +1,26 @@
+{
+  "id": "ntropy-mcp-b96e58cb",
+  "name": "ntropy-mcp",
+  "description": "Ntropy MCP server",
+  "repo_url": "https://github.com/smithery-ai/ntropy-mcp",
+  "source_hub": "mcp_so",
+  "owner": "smithery-ai",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "9ba6c0d78d927cfd3743aae30fd2e184ae5ff67b",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 5,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:41Z",
+  "verification_level": "scanner_only"
+}

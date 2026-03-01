@@ -1,0 +1,26 @@
+{
+  "id": "last-manual-install-mcp-457bf03c",
+  "name": "last-manual-install-mcp",
+  "description": "mcp that installs other mcps. Last mcp you are going to install manually by adding commands to your mcp.json. Add this mcp to your favorite host and ask it to install whatever server you want",
+  "repo_url": "https://github.com/sam-ayo/last-manual-install-mcp",
+  "source_hub": "mcp_so",
+  "owner": "sam-ayo",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "3bec3002740941b6c2850bb61f215e977e350108",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 10,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:42Z",
+  "verification_level": "scanner_only"
+}

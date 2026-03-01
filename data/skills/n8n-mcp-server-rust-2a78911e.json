@@ -1,0 +1,25 @@
+{
+  "id": "n8n-mcp-server-rust-2a78911e",
+  "name": "n8n-mcp-server-rust",
+  "description": "An MCP server that can use n8n.",
+  "repo_url": "https://github.com/joshua-mo-143/n8n-mcp-server-rust",
+  "source_hub": "mcp_so",
+  "owner": "joshua-mo-143",
+  "stars": 6,
+  "primary_language": "unknown",
+  "tags": [
+    "dev-web-backend-rust"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "fa989368df6eaa38ebe5374f216b547885139d2c",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 2,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:54:02Z",
+  "verification_level": "scanner_only"
+}

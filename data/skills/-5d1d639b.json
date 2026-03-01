@@ -1,0 +1,25 @@
+{
+  "id": "-5d1d639b",
+  "name": "原型助手",
+  "description": "工具能力：\r\n\r\n- 提供导航栏。\r\n- 将标记与原型解耦。\r\n- 支持页面附加说明。",
+  "repo_url": "https://github.com/llxxbb/原型助手",
+  "source_hub": "mcp_so",
+  "owner": "llxxbb",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "repo_unavailable"
+  ],
+  "verification_status": "manual_review",
+  "overall_score": 0,
+  "risk_level": "high",
+  "verified_commit": "",
+  "scan_summary": null,
+  "scan_date": "2026-02-28T20:27:23Z",
+  "findings_summary": {
+    "error": "clone failed: Cloning into '/var/folders/pq/bb71gjzd01d29nnmqrhqr2rc0000gn/T/strict5_-5d1d639b_iz8m9j19/repo'...\nremote: Repository not found.\nfatal: repository 'https://github.com/llxxbb/原型助手/' not found",
+    "supervisor_approved": false,
+    "supervisor_confidence": 0
+  },
+  "repo_status": "unavailable"
+}

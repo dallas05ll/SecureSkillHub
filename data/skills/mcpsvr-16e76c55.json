@@ -1,0 +1,26 @@
+{
+  "id": "mcpsvr-16e76c55",
+  "name": "mcpsvr",
+  "description": "Discover Exceptional MCP Servers",
+  "repo_url": "https://github.com/nanbingxyz/mcpsvr",
+  "source_hub": "mcp_so",
+  "owner": "nanbingxyz",
+  "stars": 291,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 28,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-27T02:28:45Z",
+  "verification_level": "scanner_only"
+}

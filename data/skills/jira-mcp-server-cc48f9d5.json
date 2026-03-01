@@ -1,0 +1,26 @@
+{
+  "id": "jira-mcp-server-cc48f9d5",
+  "name": "jira-mcp-server",
+  "description": "A test of jira mcp server",
+  "repo_url": "https://github.com/KS-GEN-AI/jira-mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "KS-GEN-AI",
+  "stars": 25,
+  "primary_language": "unknown",
+  "tags": [
+    "dev-testing",
+    "prod-pm"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "0063dcb83ea64f30ce314889027a33388f5dc9fb",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 5,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:32:11Z",
+  "verification_level": "scanner_only"
+}

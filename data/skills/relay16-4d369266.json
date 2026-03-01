@@ -1,0 +1,28 @@
+{
+  "id": "relay16-4d369266",
+  "name": "Relay16",
+  "description": "Relay16 is a modern Nostr social client that integrates AI-powered tools through MCP servers for enhanced social media experiences.",
+  "repo_url": "https://github.com/Mancasvel/Relay16",
+  "source_hub": "mcp_so",
+  "owner": "Mancasvel",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "integ-social",
+    "util",
+    "util-media"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "6cc30de0502dcb85f08c81d5b19deff127b95614",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 51,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:41Z",
+  "verification_level": "scanner_only"
+}

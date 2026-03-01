@@ -1,0 +1,95 @@
+{
+  "id": "code-yeongyu--oh-my-opencode",
+  "name": "oh-my-opencode",
+  "skill_type": "mcp_server",
+  "repo_url": "https://github.com/code-yeongyu/oh-my-opencode",
+  "source_hub": "github_search",
+  "stars": 34263,
+  "verification_status": "fail",
+  "overall_score": 15,
+  "risk_level": "critical",
+  "description": "AI agent harness/plugin for OpenCode with multi-model orchestration, parallel background agents, LSP/AST tools, and built-in MCP servers.",
+  "primary_language": "TypeScript",
+  "tags": [
+    "data-ai",
+    "dev",
+    "util"
+  ],
+  "findings_summary": {
+    "scanner_findings": 679,
+    "dangerous_calls": 26,
+    "network_ops": 19,
+    "file_ops": 131,
+    "env_access": 446,
+    "obfuscation": 6,
+    "injection_patterns": 0,
+    "mismatches": 0,
+    "undocumented_capabilities": 0,
+    "supervisor_approved": false,
+    "supervisor_confidence": 90
+  },
+  "trust_level": "low",
+  "scan_date": "2026-02-28T20:55:20Z",
+  "verified_commit": "acc21326c50da142c2b1843d8e8ac82f3aa4712d",
+  "verification_level": "full_pipeline",
+  "agent_audit": {
+    "agents_completed": 5,
+    "agents_required": 5,
+    "pipeline_run_at": "2026-02-28T20:55:20Z",
+    "agent_a": {
+      "signed": true,
+      "signed_at": "2026-02-28T20:55:20Z",
+      "comment": "Docs quality 10/10. README present. 12 features, 4 permissions claimed.",
+      "doc_quality_score": 10,
+      "claimed_permissions": [
+        "network access",
+        "system command execution",
+        "file system access",
+        "environment/secret access"
+      ]
+    },
+    "agent_b": {
+      "signed": true,
+      "signed_at": "2026-02-28T20:55:20Z",
+      "comment": "1262 files analyzed. Found: 9 network, 3 file, 109 env, 4 system calls. Primary: typescript.",
+      "files_analyzed": 1262,
+      "capabilities_found": [
+        "imports external dependencies",
+        "performs network operations",
+        "reads/writes files",
+        "reads environment values",
+        "executes system commands"
+      ]
+    },
+    "agent_c_star": {
+      "signed": true,
+      "signed_at": "2026-02-28T20:55:20Z",
+      "comment": "679 findings: 0 critical, 83 high, 465 medium, 131 low. Obfuscation detected!. No injection.",
+      "total_findings": 679,
+      "severity_counts": {
+        "critical": 0,
+        "high": 83,
+        "medium": 465,
+        "low": 131,
+        "info": 0
+      }
+    },
+    "agent_d": {
+      "signed": true,
+      "signed_at": "2026-02-28T20:55:20Z",
+      "comment": "Score 15. 0 mismatches. Risk: critical. Safety overrides: applied.",
+      "score": 15,
+      "mismatches": 0,
+      "safety_overrides_applied": true
+    },
+    "agent_e": {
+      "signed": true,
+      "signed_at": "2026-02-28T20:55:20Z",
+      "comment": "Rejected. Confidence 90%. Deterministic override: high-risk obfuscation detected.",
+      "approved": false,
+      "confidence": 90,
+      "override_reason": "Deterministic override: high-risk obfuscation detected."
+    },
+    "manager_summary": "5/5 agents completed. Score: 15/100, Risk: critical. 0 mismatches, 679 scanner findings. Rejected at 90% confidence. Safety overrides triggered."
+  }
+}

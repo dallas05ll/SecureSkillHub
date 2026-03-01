@@ -1,0 +1,26 @@
+{
+  "id": "simple-mcp-fileserver-40fa0f48",
+  "name": "simple-mcp-fileserver",
+  "description": "A minimal MCP (Model Context Protocol) server for file system operations. Supports reading, writing, and listing files via JSON-RPC 2.0, designed for integration with AI agents such as Windsurf, Claude, or Codeium for autonomous coding and code repair.",
+  "repo_url": "https://github.com/aezizhu/simple-mcp-fileserver",
+  "source_hub": "mcp_so",
+  "owner": "aezizhu",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp",
+    "dev",
+    "integ",
+    "util-file",
+    "repo_unavailable"
+  ],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null,
+  "repo_status": "unavailable",
+  "repo_check_date": "2026-02-28T20:52:54.119928+00:00",
+  "repo_check_error": "fatal: could not read Username for 'https://github.com': Device not configured"
+}

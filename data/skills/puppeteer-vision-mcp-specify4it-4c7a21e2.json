@@ -1,0 +1,27 @@
+{
+  "id": "puppeteer-vision-mcp-specify4it-4c7a21e2",
+  "name": "puppeteer-vision-mcp-specify4it",
+  "description": "Configured Puppeteer Vision MCP server for website scraping with specific settings for specify4it.com",
+  "repo_url": "https://github.com/Larsbuilds/puppeteer-vision-mcp-specify4it",
+  "source_hub": "mcp_so",
+  "owner": "Larsbuilds",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai-vision",
+    "dev-web",
+    "integ"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "51354a45bd84f40f5c2364d284dd696661e77ee7",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 17,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:41Z",
+  "verification_level": "scanner_only"
+}

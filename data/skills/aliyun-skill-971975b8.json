@@ -1,0 +1,29 @@
+{
+  "id": "aliyun-skill-971975b8",
+  "name": "aliyun-skill",
+  "description": "Claude Code Skill for Alibaba Cloud (Aliyun) resource management - 阿里云资源管理 Skill",
+  "repo_url": "https://github.com/alexxxiong/aliyun-skill",
+  "source_hub": "github_search",
+  "skill_type": "agent_skill",
+  "owner": "alexxxiong",
+  "stars": 1,
+  "license": "mit",
+  "primary_language": "markdown",
+  "tags": [
+    "data-ai",
+    "dev",
+    "integ-cloud"
+  ],
+  "verification_status": "pass",
+  "overall_score": 78,
+  "risk_level": "medium",
+  "verified_commit": null,
+  "scan_summary": null,
+  "last_updated": "2026-02-19T09:24:35Z",
+  "findings_summary": {
+    "notes": "Metadata-based verification. Score=78. Signals: stars=1; license='mit' (+5); owner='alexxxiong' (+3); primary_language='markdown'; source_hub='github_search'. Status: pass. Risk: medium."
+  },
+  "trust_level": "low",
+  "scan_date": "2026-02-26T06:14:55Z",
+  "verification_level": "metadata_only"
+}

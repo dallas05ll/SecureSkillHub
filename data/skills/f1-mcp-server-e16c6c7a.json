@@ -1,0 +1,25 @@
+{
+  "id": "f1-mcp-server-e16c6c7a",
+  "name": "f1-mcp-server",
+  "description": "Formula-1 MCP server. Essentially a LLM wrapper around theOehrly/Fast-F1",
+  "repo_url": "https://github.com/Darakhsh1999/f1-mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "Darakhsh1999",
+  "stars": 1,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "d6d6cce4c62667ad67a2afe979d6f71471002918",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 21,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:40Z",
+  "verification_level": "scanner_only"
+}

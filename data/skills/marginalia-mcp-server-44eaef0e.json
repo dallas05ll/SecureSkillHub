@@ -1,0 +1,26 @@
+{
+  "id": "marginalia-mcp-server-44eaef0e",
+  "name": "marginalia-mcp-server",
+  "description": "An MCP server implementation for managing marginalia and annotations",
+  "repo_url": "https://github.com/bmorphism/marginalia-mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "bmorphism",
+  "stars": 7,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "7dc65f945db4bc74291df59fc576d4136dc9eb6b",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 4,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:54:04Z",
+  "verification_level": "scanner_only"
+}

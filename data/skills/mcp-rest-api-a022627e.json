@@ -1,0 +1,27 @@
+{
+  "id": "mcp-rest-api-a022627e",
+  "name": "mcp-rest-api",
+  "description": "A TypeScript-based MCP server that enables testing of REST APIs through Cline. This tool allows you to test and interact with any REST API endpoints directly from your development environment.",
+  "repo_url": "https://github.com/dkmaker/mcp-rest-api",
+  "source_hub": "mcp_so",
+  "owner": "dkmaker",
+  "stars": 88,
+  "primary_language": "unknown",
+  "tags": [
+    "dev-testing",
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "765ecdfd9d125816686eff2651d3f2631b8c9be1",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 14,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-27T06:40:49Z",
+  "verification_level": "scanner_only"
+}

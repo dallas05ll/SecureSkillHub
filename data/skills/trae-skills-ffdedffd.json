@@ -1,0 +1,112 @@
+{
+  "id": "trae-skills-ffdedffd",
+  "name": "TRAE-Skills",
+  "description": "Large collection of TRAE AI skills for standardizing modern software development workflows.",
+  "repo_url": "https://github.com/HighMark-31/TRAE-Skills",
+  "source_hub": "github_search",
+  "skill_type": "agent_skill",
+  "owner": "HighMark-31",
+  "stars": 65,
+  "license": "other",
+  "primary_language": "Markdown",
+  "tags": [
+    "data-ai",
+    "prod",
+    "status-fail"
+  ],
+  "verification_status": "fail",
+  "overall_score": 55,
+  "risk_level": "high",
+  "verified_commit": "7796aa5f0758f7a227b61e1a0589865ac0e7f0cf",
+  "scan_summary": null,
+  "last_updated": "2026-02-25T09:54:37Z",
+  "findings_summary": {
+    "scanner_findings": 34,
+    "dangerous_calls": 2,
+    "network_ops": 5,
+    "file_ops": 12,
+    "env_access": 13,
+    "obfuscation": 0,
+    "injection_patterns": 0,
+    "mismatches": 0,
+    "undocumented_capabilities": 0,
+    "supervisor_approved": false,
+    "supervisor_confidence": 55,
+    "pm_review": {
+      "reviewed_at": "2026-03-01T06:14:16Z",
+      "reviewer": "pm_dual_agent",
+      "previous_status": "manual_review",
+      "decision": "fail",
+      "reason": "PM final decision: fail due to high-risk scanner findings.",
+      "mode": "run-report",
+      "evidence": {
+        "score": 55,
+        "risk_level": "high",
+        "high_findings": 4,
+        "critical_findings": 0,
+        "obfuscation_high_risk_count": 0,
+        "injection_patterns_count": 0,
+        "repo_unavailable": false
+      }
+    }
+  },
+  "trust_level": "low",
+  "scan_date": "2026-03-01T06:02:59Z",
+  "verification_level": "full_pipeline",
+  "agent_audit": {
+    "agents_completed": 5,
+    "agents_required": 5,
+    "pipeline_run_at": "2026-03-01T06:02:59Z",
+    "agent_a": {
+      "signed": true,
+      "signed_at": "2026-03-01T06:02:59Z",
+      "comment": "Docs quality 9/10. README present. 12 features, 4 permissions claimed.",
+      "doc_quality_score": 9,
+      "claimed_permissions": [
+        "network access",
+        "system command execution",
+        "file system access",
+        "environment/secret access"
+      ]
+    },
+    "agent_b": {
+      "signed": true,
+      "signed_at": "2026-03-01T06:02:59Z",
+      "comment": "1 files analyzed. Found: 1 network, 0 file, 0 env, 0 system calls. Primary: unknown.",
+      "files_analyzed": 1,
+      "capabilities_found": [
+        "performs network operations"
+      ]
+    },
+    "agent_c_star": {
+      "signed": true,
+      "signed_at": "2026-03-01T06:02:59Z",
+      "comment": "34 findings: 0 critical, 4 high, 18 medium, 12 low. No obfuscation. No injection.",
+      "total_findings": 34,
+      "severity_counts": {
+        "critical": 0,
+        "high": 4,
+        "medium": 18,
+        "low": 12,
+        "info": 0
+      }
+    },
+    "agent_d": {
+      "signed": true,
+      "signed_at": "2026-03-01T06:02:59Z",
+      "comment": "Score 55. 0 mismatches. Risk: high. Safety overrides: none triggered.",
+      "score": 55,
+      "mismatches": 0,
+      "safety_overrides_applied": false
+    },
+    "agent_e": {
+      "signed": true,
+      "signed_at": "2026-03-01T06:02:59Z",
+      "comment": "Rejected. Confidence 55%. No overrides.",
+      "approved": false,
+      "confidence": 55,
+      "override_reason": null
+    },
+    "manager_summary": "5/5 agents completed. Score: 55/100, Risk: high. 0 mismatches, 34 scanner findings. Rejected at 55% confidence. No safety overrides.\n[2026-03-01T06:14:16Z] PM review: fail. PM final decision: fail due to high-risk scanner findings."
+  }
+}

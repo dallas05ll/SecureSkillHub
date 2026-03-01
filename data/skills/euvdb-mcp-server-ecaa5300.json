@@ -1,0 +1,29 @@
+{
+  "id": "euvdb-mcp-server-ecaa5300",
+  "name": "euvdb-mcp-server",
+  "description": "Python MCP server that allows interacting with the public ENISA vulnerability API (EUVDB) via the MCP (Model Context Protocol).",
+  "repo_url": "https://github.com/etxahun/euvdb-mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "etxahun",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp",
+    "dev-web-backend-python",
+    "integ",
+    "sec"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "62f857d73273a527d73cea56fec850373c2e059a",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 2,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:41Z",
+  "verification_level": "scanner_only"
+}

@@ -1,0 +1,30 @@
+{
+  "id": "edgeknowledge-skill-9e7de457",
+  "name": "EdgeKnowledge_Skill",
+  "description": " AI-powered edge knowledge mining from underground forums. Deep crawls Reddit, BlackHatWorld,   GreyHatMafia with browser automation, visual analysis, and structured reporting.",
+  "repo_url": "https://github.com/1596941391qq/EdgeKnowledge_Skill",
+  "source_hub": "github_search",
+  "skill_type": "agent_skill",
+  "owner": "1596941391qq",
+  "stars": 13,
+  "license": "",
+  "primary_language": "markdown",
+  "tags": [
+    "data-ai",
+    "dev-web",
+    "prod",
+    "util-search"
+  ],
+  "verification_status": "pass",
+  "overall_score": 78,
+  "risk_level": "medium",
+  "verified_commit": null,
+  "scan_summary": null,
+  "last_updated": "2026-02-20T20:01:12Z",
+  "findings_summary": {
+    "notes": "Metadata-based verification. Score=78. Signals: stars=13 (>=10, +5); no license detected; owner='1596941391qq' (+3); primary_language='markdown'; source_hub='github_search'. Status: pass. Risk: medium."
+  },
+  "trust_level": "low",
+  "scan_date": "2026-02-26T06:14:56Z",
+  "verification_level": "metadata_only"
+}

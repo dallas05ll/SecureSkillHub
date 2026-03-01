@@ -1,0 +1,25 @@
+{
+  "id": "mcp-demo-c8fb17aa",
+  "name": "mcp-demo",
+  "description": "使用百度AI开放平台MCP Server的demo",
+  "repo_url": "https://github.com/Baidu-AIP/mcp-demo",
+  "source_hub": "mcp_so",
+  "owner": "Baidu-AIP",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "a3f6c75887e8987e50f4d4dea946368b35e4feec",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 9,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:40Z",
+  "verification_level": "scanner_only"
+}

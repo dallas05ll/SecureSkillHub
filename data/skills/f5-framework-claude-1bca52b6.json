@@ -1,0 +1,28 @@
+{
+  "id": "f5-framework-claude-1bca52b6",
+  "name": "f5-framework-claude",
+  "description": "AI-Powered Development Framework for Claude Code — 70+ commands, 25 agents, 381 skills, quality gates",
+  "repo_url": "https://github.com/Fujigo-Software/f5-framework-claude",
+  "source_hub": "github_search",
+  "skill_type": "agent_skill",
+  "owner": "Fujigo-Software",
+  "stars": 17,
+  "license": "mit",
+  "primary_language": "markdown",
+  "tags": [
+    "data-ai",
+    "dev"
+  ],
+  "verification_status": "pass",
+  "overall_score": 83,
+  "risk_level": "low",
+  "verified_commit": null,
+  "scan_summary": null,
+  "last_updated": "2026-02-05T04:26:15Z",
+  "findings_summary": {
+    "notes": "Metadata-based verification. Score=83. Signals: stars=17 (>=10, +5); license='mit' (+5); owner='Fujigo-Software' (+3); primary_language='markdown'; source_hub='github_search'. Status: pass. Risk: low."
+  },
+  "trust_level": "low",
+  "scan_date": "2026-02-26T06:14:56Z",
+  "verification_level": "metadata_only"
+}

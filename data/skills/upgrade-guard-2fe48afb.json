@@ -1,0 +1,25 @@
+{
+  "id": "upgrade-guard-2fe48afb",
+  "name": "upgrade-guard",
+  "description": "Safe OpenClaw upgrades with snapshot, pre-flight checks, controlled upgrade, post-verification, and emergency rollback. Never lose a working system to a bad update.",
+  "repo_url": "https://github.com/jzOcb/upgrade-guard",
+  "source_hub": "github_search",
+  "skill_type": "agent_skill",
+  "owner": "jzOcb",
+  "stars": 10,
+  "license": "mit",
+  "primary_language": "markdown",
+  "tags": [],
+  "verification_status": "pass",
+  "overall_score": 83,
+  "risk_level": "low",
+  "verified_commit": null,
+  "scan_summary": null,
+  "last_updated": "2026-02-14T11:02:40Z",
+  "findings_summary": {
+    "notes": "Metadata-based verification. Score=83. Signals: stars=10 (>=10, +5); license='mit' (+5); owner='jzOcb' (+3); primary_language='markdown'; source_hub='github_search'. Status: pass. Risk: low."
+  },
+  "trust_level": "low",
+  "scan_date": "2026-02-26T06:14:56Z",
+  "verification_level": "metadata_only"
+}

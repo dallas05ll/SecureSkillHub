@@ -1,0 +1,26 @@
+{
+  "id": "tandoor-mcp-server-6bd6369b",
+  "name": "tandoor-mcp-server",
+  "description": "A Model Context Protocol (MCP) server for interacting with Tandoor Recipe Manager.",
+  "repo_url": "https://github.com/starbuck93/tandoor-mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "starbuck93",
+  "stars": 9,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "311237b9a909d21ad531055820b02c836546e1e9",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 7,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:42:36Z",
+  "verification_level": "scanner_only"
+}

@@ -1,0 +1,26 @@
+{
+  "id": "mcp-puppeteer-34d23559",
+  "name": "mcp-puppeteer",
+  "description": "A simple MCP server for controlling Chrome via Puppeteer",
+  "repo_url": "https://github.com/ratiofu/mcp-puppeteer",
+  "source_hub": "mcp_so",
+  "owner": "ratiofu",
+  "stars": 3,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "da445b22e21537d8beb4af47211181130de7c683",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 85,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:04:50Z",
+  "verification_level": "scanner_only"
+}

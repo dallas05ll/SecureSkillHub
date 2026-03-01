@@ -1,0 +1,29 @@
+{
+  "id": "mcp-hetzner-ed2bb6d4",
+  "name": "mcp-hetzner",
+  "description": "A Go Model Context Protocol (MCP) server for interacting with the Hetzner Cloud API.",
+  "repo_url": "https://github.com/MahdadGhasemian/mcp-hetzner",
+  "source_hub": "mcp_so",
+  "owner": "MahdadGhasemian",
+  "stars": 5,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp",
+    "dev-web-backend-go",
+    "integ",
+    "integ-cloud"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "d654f56be25c5b11d2a2b718ea29391a9cca8f21",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 6,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:54:02Z",
+  "verification_level": "scanner_only"
+}

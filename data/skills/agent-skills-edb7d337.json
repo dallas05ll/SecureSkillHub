@@ -1,0 +1,27 @@
+{
+  "id": "agent-skills-edb7d337",
+  "name": "agent-skills",
+  "description": "SpecStory's official collection of agent skills. Summarize, organize and create with `.specstory/history`",
+  "repo_url": "https://github.com/specstoryai/agent-skills",
+  "source_hub": "github_search",
+  "skill_type": "agent_skill",
+  "owner": "specstoryai",
+  "stars": 18,
+  "license": "apache-2.0",
+  "primary_language": "markdown",
+  "tags": [
+    "data-ai-nlp"
+  ],
+  "verification_status": "pass",
+  "overall_score": 83,
+  "risk_level": "low",
+  "verified_commit": null,
+  "scan_summary": null,
+  "last_updated": "2026-02-23T17:20:37Z",
+  "findings_summary": {
+    "notes": "Metadata-based verification. Score=83. Signals: stars=18 (>=10, +5); license='apache-2.0' (+5); owner='specstoryai' (+3); primary_language='markdown'; source_hub='github_search'. Status: pass. Risk: low."
+  },
+  "trust_level": "low",
+  "scan_date": "2026-02-26T06:14:55Z",
+  "verification_level": "metadata_only"
+}

@@ -1,0 +1,25 @@
+{
+  "id": "mcpterm-784b48a2",
+  "name": "mcpterm",
+  "description": "An MCP tool server that provides stateful, TUI-compatible terminal sessions.",
+  "repo_url": "https://github.com/dwrtz/mcpterm",
+  "source_hub": "mcp_so",
+  "owner": "dwrtz",
+  "stars": 14,
+  "primary_language": "unknown",
+  "tags": [
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "c89d8b1544eb0a8e61780d3d918b2f54cb0cd8a5",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 2,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:42:36Z",
+  "verification_level": "scanner_only"
+}

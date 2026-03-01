@@ -1,0 +1,27 @@
+{
+  "id": "mcp-server-bigquery-310b6061",
+  "name": "mcp-server-bigquery",
+  "description": "A Model Context Protocol server that provides access to BigQuery",
+  "repo_url": "https://github.com/LucasHild/mcp-server-bigquery",
+  "source_hub": "mcp_so",
+  "owner": "LucasHild",
+  "stars": 123,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp",
+    "integ-cloud-gcp"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "e68f17fb5ffed68ccc8c6f81d83f3fb48f60d5f8",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 6,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-27T06:40:49Z",
+  "verification_level": "scanner_only"
+}

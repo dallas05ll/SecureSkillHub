@@ -1,0 +1,26 @@
+{
+  "id": "waha-api-mcp-server-9c2851e9",
+  "name": "waha-api-mcp-server",
+  "description": "Allow AI to wade through complex OpenAPIs using Simple Language",
+  "repo_url": "https://github.com/gabfr/waha-api-mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "gabfr",
+  "stars": 1,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "integ"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "2def8f5d61dadd054a41b7bd3209cb9fdca2ec49",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 6,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:40Z",
+  "verification_level": "scanner_only"
+}

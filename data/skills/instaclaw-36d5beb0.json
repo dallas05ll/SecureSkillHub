@@ -1,0 +1,23 @@
+{
+  "id": "instaclaw-36d5beb0",
+  "name": "Instaclaw",
+  "description": "Agent skill: instaclaw from napoleond/instaclaw",
+  "repo_url": "https://github.com/napoleond/instaclaw",
+  "source_hub": "skills_sh",
+  "owner": "napoleond",
+  "stars": 4300,
+  "primary_language": "unknown",
+  "tags": [],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "a0138883f67738b955deed67105c4bbaeb0a3485",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 9,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:54:02Z",
+  "verification_level": "scanner_only"
+}

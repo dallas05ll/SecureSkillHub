@@ -1,0 +1,19 @@
+{
+  "id": "garmin-mcp-437690fe",
+  "name": "garmin_mcp",
+  "description": "MCP server to access Garmin data",
+  "repo_url": "https://github.com/Taxuspt/garmin_mcp",
+  "source_hub": "mcp_so",
+  "owner": "Taxuspt",
+  "stars": 219,
+  "primary_language": "unknown",
+  "tags": [
+    "data"
+  ],
+  "verification_status": "fail",
+  "overall_score": 10,
+  "risk_level": "critical",
+  "verified_commit": "9529a61122e0e9ab307ce59d894828a4c8506281",
+  "scan_summary": null,
+  "scan_date": "2026-02-27T06:14:23Z"
+}

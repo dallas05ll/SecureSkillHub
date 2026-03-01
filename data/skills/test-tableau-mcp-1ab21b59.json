@@ -1,0 +1,26 @@
+{
+  "id": "test-tableau-mcp-1ab21b59",
+  "name": "test-tableau-mcp",
+  "description": "a quick POC to expose Tableau VDS endpoints through an MCP server and integrate them with Claude Desktop client",
+  "repo_url": "https://github.com/joeconstantino/test-tableau-mcp",
+  "source_hub": "mcp_so",
+  "owner": "joeconstantino",
+  "stars": 3,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "dev-testing"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "4abd92336eceee76cb6a6c3439679f56e7d8cbd4",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 5,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:04:50Z",
+  "verification_level": "scanner_only"
+}

@@ -1,0 +1,31 @@
+{
+  "id": "zilliz-mcp-server-c57b951b",
+  "name": "Zilliz MCP Server",
+  "description": "Enables AI agents to interact with Milvus vector databases and Zilliz Cloud through natural language, allowing users to create clusters, manage collections, insert vector data, and perform semantic searches directly from their AI assistants.",
+  "repo_url": "https://github.com/zilliztech/zilliz-mcp-server",
+  "source_hub": "glama",
+  "owner": "zilliztech",
+  "stars": 32,
+  "primary_language": "unknown",
+  "tags": [
+    "data",
+    "data-ai",
+    "data-ai-nlp",
+    "data-db",
+    "data-db-vector",
+    "integ-cloud",
+    "util-search"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "28aa191b2e10b42e5634bea9105a682f151aacd1",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 25,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:32:12Z",
+  "verification_level": "scanner_only"
+}

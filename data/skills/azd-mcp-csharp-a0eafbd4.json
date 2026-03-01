@@ -1,0 +1,29 @@
+{
+  "id": "azd-mcp-csharp-a0eafbd4",
+  "name": "azd-mcp-csharp",
+  "description": "An AZD template to deploy a Model Context Protocol (MCP) server written in C# to Azure Container Apps using SSE Transport.",
+  "repo_url": "https://github.com/powergentic/azd-mcp-csharp",
+  "source_hub": "mcp_so",
+  "owner": "powergentic",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp",
+    "dev-devops-docker",
+    "integ-cloud",
+    "integ-cloud-azure"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "917add063e72ecf4e30efa9cbc4e8fd1b7a68e30",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 7,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:40Z",
+  "verification_level": "scanner_only"
+}

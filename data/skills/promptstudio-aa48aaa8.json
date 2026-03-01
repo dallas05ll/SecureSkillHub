@@ -1,0 +1,25 @@
+{
+  "id": "promptstudio-aa48aaa8",
+  "name": "promptstudio",
+  "description": "PromptStudio - An MCP server and Application for managing AI prompts with collections, variables, execution history, and import/export capabilities.",
+  "repo_url": "https://github.com/BodieCoding/promptstudio",
+  "source_hub": "mcp_so",
+  "owner": "BodieCoding",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "c7893174a122d938bd3eb3e8ce5468139b2931ae",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 58,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:42Z",
+  "verification_level": "scanner_only"
+}

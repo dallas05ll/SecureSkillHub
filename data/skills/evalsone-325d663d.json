@@ -1,0 +1,26 @@
+{
+  "id": "evalsone-325d663d",
+  "name": "EvalsOne",
+  "description": "Enables cloud-based AI services to access local Stdio based MCP servers via HTTP requests",
+  "repo_url": "https://github.com/EvalsOneAi/EvalsOne",
+  "source_hub": "mcp_so",
+  "owner": "EvalsOneAi",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "integ-cloud"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "9f7ea120b4c68509f88dd7323be3f554646c3b48",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 11,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:42Z",
+  "verification_level": "scanner_only"
+}

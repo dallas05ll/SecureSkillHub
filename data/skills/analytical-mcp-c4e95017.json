@@ -1,0 +1,26 @@
+{
+  "id": "analytical-mcp-c4e95017",
+  "name": "analytical-mcp",
+  "description": "Analytical MCP Server: Enhancing AI with Structured Problem-Solving Tools",
+  "repo_url": "https://github.com/quanticsoul4772/analytical-mcp",
+  "source_hub": "mcp_so",
+  "owner": "quanticsoul4772",
+  "stars": 4,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "4ae702996ac1823d33f52e34923d6f2d6fa0654b",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 164,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:54:04Z",
+  "verification_level": "scanner_only"
+}

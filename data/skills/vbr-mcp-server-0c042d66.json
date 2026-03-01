@@ -1,0 +1,26 @@
+{
+  "id": "vbr-mcp-server-0c042d66",
+  "name": "vbr-mcp-server",
+  "description": "MCP server to gather AWS cost information for VBR repositores",
+  "repo_url": "https://github.com/wjquigsAZ/vbr-mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "wjquigsAZ",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "integ-cloud",
+    "integ-cloud-aws"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "f4b357353cbe3ab125511a3501321b4678bcfe52",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 5,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:42:59Z",
+  "verification_level": "scanner_only"
+}

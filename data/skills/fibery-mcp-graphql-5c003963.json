@@ -1,0 +1,26 @@
+{
+  "id": "fibery-mcp-graphql-5c003963",
+  "name": "fibery-mcp-graphql",
+  "description": "MCP server to help your llm construct valid graphql queries for fibery.",
+  "repo_url": "https://github.com/greatwitenorth/fibery-mcp-graphql",
+  "source_hub": "mcp_so",
+  "owner": "greatwitenorth",
+  "stars": 1,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-db-graph"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "f7bacf0db3308724d72d9d1b5ff3be31e8086e65",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 4,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:41Z",
+  "verification_level": "scanner_only"
+}

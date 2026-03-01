@@ -1,0 +1,25 @@
+{
+  "id": "google-admin-mcp-2f8f7db4",
+  "name": "google-admin-mcp",
+  "description": "A FastMCP server for managing Google Workspace users through the Admin Directory API.",
+  "repo_url": "https://github.com/securityfortech/google-admin-mcp",
+  "source_hub": "mcp_so",
+  "owner": "securityfortech",
+  "stars": 9,
+  "primary_language": "unknown",
+  "tags": [
+    "integ"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "d5f6eca7eff90f329e28ea20cda997ea8994e620",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 5,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:42:36Z",
+  "verification_level": "scanner_only"
+}

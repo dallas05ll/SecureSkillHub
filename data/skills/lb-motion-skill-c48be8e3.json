@@ -1,0 +1,29 @@
+{
+  "id": "lb-motion-skill-c48be8e3",
+  "name": "lb-motion-skill",
+  "description": "Motion.dev animation library documentation in markdown format for AI agents - covers React/Vue animations, gestures, and scroll effects",
+  "repo_url": "https://github.com/leonaaardob/lb-motion-skill",
+  "source_hub": "github_search",
+  "skill_type": "agent_skill",
+  "owner": "leonaaardob",
+  "stars": 0,
+  "license": "",
+  "primary_language": "markdown",
+  "tags": [
+    "data-ai",
+    "dev-web-frontend-react",
+    "dev-web-frontend-vue",
+    "prod-docs"
+  ],
+  "verification_status": "manual_review",
+  "overall_score": 63,
+  "risk_level": "medium",
+  "verified_commit": null,
+  "scan_summary": null,
+  "last_updated": "2026-02-07T15:21:01Z",
+  "findings_summary": {
+    "notes": "Metadata-based verification. Score=63. Signals: stars=0 (-10); no license detected; owner='leonaaardob' (+3); primary_language='markdown'; source_hub='github_search'. Status: manual_review. Risk: medium."
+  },
+  "trust_level": "low",
+  "scan_date": "2026-02-26T06:14:56Z"
+}

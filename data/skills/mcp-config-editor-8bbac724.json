@@ -1,0 +1,26 @@
+{
+  "id": "mcp-config-editor-8bbac724",
+  "name": "mcp-config-editor",
+  "description": "A simple GUI for managing MCP servers, for easy toggle mcp servers.",
+  "repo_url": "https://github.com/kaichen/mcp-config-editor",
+  "source_hub": "mcp_so",
+  "owner": "kaichen",
+  "stars": 14,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "caa34bb2a8910a42bd99707063a4b69a90f9e0a4",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 28,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:42:34Z",
+  "verification_level": "scanner_only"
+}

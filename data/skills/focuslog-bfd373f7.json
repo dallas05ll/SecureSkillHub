@@ -1,0 +1,26 @@
+{
+  "id": "focuslog-bfd373f7",
+  "name": "focuslog",
+  "description": "A background server that logs your desktop activity, calculates your Actions Per Minute (APM), and provides a clean, anonymized timeline of your work on demand. It's designed to be a data source for personal analytics or AI assistants.",
+  "repo_url": "https://github.com/DragonsWho/focuslog",
+  "source_hub": "mcp_so",
+  "owner": "DragonsWho",
+  "stars": 1,
+  "primary_language": "unknown",
+  "tags": [
+    "data",
+    "data-ai"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "b25911af0ef7e03e6db14760d6a753b1747b3802",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 3,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:42Z",
+  "verification_level": "scanner_only"
+}

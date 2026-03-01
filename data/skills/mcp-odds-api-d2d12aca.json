@@ -1,0 +1,25 @@
+{
+  "id": "mcp-odds-api-d2d12aca",
+  "name": "mcp-odds-api",
+  "description": "MCP server for odds-api",
+  "repo_url": "https://github.com/marcoeg/mcp-odds-api",
+  "source_hub": "mcp_so",
+  "owner": "marcoeg",
+  "stars": 1,
+  "primary_language": "unknown",
+  "tags": [
+    "integ"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "d763cb9bf5658d28d9cb4ff1918f3d5a1a974d75",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 8,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:40Z",
+  "verification_level": "scanner_only"
+}

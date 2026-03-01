@@ -1,0 +1,25 @@
+{
+  "id": "procmonmcp-3bbc1228",
+  "name": "ProcmonMCP",
+  "description": "An MCP server for procmon files",
+  "repo_url": "https://github.com/JameZUK/ProcmonMCP",
+  "source_hub": "mcp_so",
+  "owner": "JameZUK",
+  "stars": 7,
+  "primary_language": "unknown",
+  "tags": [
+    "util-file"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "68be9668c31b17d8db3bc4314ddd11bf57345702",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 20,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:54:02Z",
+  "verification_level": "scanner_only"
+}

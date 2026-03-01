@@ -1,0 +1,26 @@
+{
+  "id": "bybit-mcp-3c4321cb",
+  "name": "bybit-mcp",
+  "description": "Ollama MCP server for bybit",
+  "repo_url": "https://github.com/sammcj/bybit-mcp",
+  "source_hub": "mcp_so",
+  "owner": "sammcj",
+  "stars": 16,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "249395f6b8046bad5a1cc2fabb4eda127678e102",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 86,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:42:36Z",
+  "verification_level": "scanner_only"
+}

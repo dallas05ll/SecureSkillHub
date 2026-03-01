@@ -1,0 +1,28 @@
+{
+  "id": "sdlc-studio-a261eb64",
+  "name": "sdlc-studio",
+  "description": "Claude Code skill for managing the full software development lifecycle",
+  "repo_url": "https://github.com/DarrenBenson/sdlc-studio",
+  "source_hub": "github_search",
+  "skill_type": "agent_skill",
+  "owner": "DarrenBenson",
+  "stars": 3,
+  "license": "mit",
+  "primary_language": "markdown",
+  "tags": [
+    "data-ai",
+    "dev"
+  ],
+  "verification_status": "pass",
+  "overall_score": 78,
+  "risk_level": "medium",
+  "verified_commit": null,
+  "scan_summary": null,
+  "last_updated": "2026-02-18T19:55:34Z",
+  "findings_summary": {
+    "notes": "Metadata-based verification. Score=78. Signals: stars=3; license='mit' (+5); owner='DarrenBenson' (+3); primary_language='markdown'; source_hub='github_search'. Status: pass. Risk: medium."
+  },
+  "trust_level": "low",
+  "scan_date": "2026-02-26T06:14:56Z",
+  "verification_level": "metadata_only"
+}

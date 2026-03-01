@@ -1,0 +1,26 @@
+{
+  "id": "github-explorer-mcp-4145ef2e",
+  "name": "github-explorer-mcp",
+  "description": "A TypeScript implementation of an MCP server that provides GitHub repository information including file content, directory structure, and other metadata for MCP clients.",
+  "repo_url": "https://github.com/x51xxx/github-explorer-mcp",
+  "source_hub": "mcp_so",
+  "owner": "x51xxx",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "data",
+    "util-file"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "44bfda71af40429148af06dab0efd5893ac0fa85",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 18,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:41Z",
+  "verification_level": "scanner_only"
+}

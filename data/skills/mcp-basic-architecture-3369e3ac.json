@@ -1,0 +1,28 @@
+{
+  "id": "mcp-basic-architecture-3369e3ac",
+  "name": "mcp-basic-architecture",
+  "description": "A Python-based Model Context Protocol (MCP) server that enables LLMs to access external tools and resources through a standardized interface.",
+  "repo_url": "https://github.com/rezawr/mcp-basic-architecture",
+  "source_hub": "mcp_so",
+  "owner": "rezawr",
+  "stars": 1,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp",
+    "dev-web-backend-python",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "8584b76844deb52f43cd2a6ae04e36148ffa900f",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 17,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:41Z",
+  "verification_level": "scanner_only"
+}

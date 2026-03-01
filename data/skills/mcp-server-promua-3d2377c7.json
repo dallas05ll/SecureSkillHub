@@ -1,0 +1,25 @@
+{
+  "id": "mcp-server-promua-3d2377c7",
+  "name": "mcp-server-promua",
+  "description": "MCP сервер для роботи з API Prom.ua",
+  "repo_url": "https://github.com/bigcatchkm/mcp-server-promua",
+  "source_hub": "mcp_so",
+  "owner": "bigcatchkm",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "integ"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "f12e77531990384330926d66746638d6600f6182",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 8,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:42Z",
+  "verification_level": "scanner_only"
+}

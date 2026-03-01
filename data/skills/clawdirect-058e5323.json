@@ -1,0 +1,23 @@
+{
+  "id": "clawdirect-058e5323",
+  "name": "Clawdirect",
+  "description": "Agent skill: clawdirect from napoleond/clawdirect",
+  "repo_url": "https://github.com/napoleond/clawdirect",
+  "source_hub": "skills_sh",
+  "owner": "napoleond",
+  "stars": 4300,
+  "primary_language": "unknown",
+  "tags": [],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "b645ffdd610571af6dd0dd4911cb905c57b1091a",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 29,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:54:04Z",
+  "verification_level": "scanner_only"
+}

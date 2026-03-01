@@ -1,0 +1,25 @@
+{
+  "id": "newsnow-mcp-server-756b43fd",
+  "name": "newsnow-mcp-server",
+  "description": "Official MCP Server for newnow, 40+ sources available.",
+  "repo_url": "https://github.com/ourongxing/newsnow-mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "ourongxing",
+  "stars": 25,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "7abcdeb90bddf5d03818c9a81ab7169d1aa7f2c1",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 11,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:32:12Z",
+  "verification_level": "scanner_only"
+}

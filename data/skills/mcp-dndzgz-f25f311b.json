@@ -1,0 +1,26 @@
+{
+  "id": "mcp-dndzgz-f25f311b",
+  "name": "mcp-dndzgz",
+  "description": "A MCP Server to know about Zaragoza bus, tram and bizi services in realtime",
+  "repo_url": "https://github.com/danilat/mcp-dndzgz",
+  "source_hub": "mcp_so",
+  "owner": "danilat",
+  "stars": 10,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "61cdc743e95755acd8d6b29bfa1c0c5922000dc3",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 4,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:42:36Z",
+  "verification_level": "scanner_only"
+}

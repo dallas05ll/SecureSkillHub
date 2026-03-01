@@ -1,0 +1,25 @@
+{
+  "id": "wealthy-mcp-de7d1167",
+  "name": "wealthy-mcp",
+  "description": "Wealthy-MCP",
+  "repo_url": "https://github.com/wealthy/wealthy-mcp",
+  "source_hub": "mcp_so",
+  "owner": "wealthy",
+  "stars": 27,
+  "primary_language": "unknown",
+  "tags": [
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "d3b684db5e1f99602a5e47308f2f465d62c1f28b",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 4,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:32:13Z",
+  "verification_level": "scanner_only"
+}

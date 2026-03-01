@@ -1,0 +1,26 @@
+{
+  "id": "website-898e31ee",
+  "name": "website",
+  "description": "The portal for aimcp",
+  "repo_url": "https://github.com/aimcp/website",
+  "source_hub": "mcp_so",
+  "owner": "aimcp",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "dev-web"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "c1eab9190384c409df6eeeb2d8ca05e1bc7e86a2",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 28,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:42:59Z",
+  "verification_level": "scanner_only"
+}

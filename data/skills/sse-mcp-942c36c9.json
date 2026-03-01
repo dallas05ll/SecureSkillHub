@@ -1,0 +1,26 @@
+{
+  "id": "sse-mcp-942c36c9",
+  "name": "sse-mcp",
+  "description": "sse base remote mcp server and client",
+  "repo_url": "https://github.com/goyatparmod/sse-mcp",
+  "source_hub": "mcp_so",
+  "owner": "goyatparmod",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "8f3dd353c825bb350ce18568527eff6ba0187b59",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 8,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:40Z",
+  "verification_level": "scanner_only"
+}

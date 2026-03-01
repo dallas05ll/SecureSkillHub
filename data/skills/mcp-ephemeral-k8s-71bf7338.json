@@ -1,0 +1,29 @@
+{
+  "id": "mcp-ephemeral-k8s-71bf7338",
+  "name": "mcp-ephemeral-k8s",
+  "description": "Python implementation to spawn ephemeral Model Context Protocol (MCP) servers using the kubernetes API.",
+  "repo_url": "https://github.com/BobMerkus/mcp-ephemeral-k8s",
+  "source_hub": "mcp_so",
+  "owner": "BobMerkus",
+  "stars": 2,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp",
+    "dev-devops-k8s",
+    "dev-web-backend-python",
+    "integ"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "5a8d51b91ec6a4472a3d38f3f91cfeef2212d5bd",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 50,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:04:50Z",
+  "verification_level": "scanner_only"
+}

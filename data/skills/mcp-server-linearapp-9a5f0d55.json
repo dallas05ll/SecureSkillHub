@@ -1,0 +1,28 @@
+{
+  "id": "mcp-server-linearapp-9a5f0d55",
+  "name": "mcp-server-linearapp",
+  "description": "A Model Context Protocol (MCP) server for the Linear API",
+  "repo_url": "https://github.com/magarcia/mcp-server-linearapp",
+  "source_hub": "mcp_so",
+  "owner": "magarcia",
+  "stars": 1,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp",
+    "integ",
+    "prod-pm"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "d53abc070f5036c1fc0c3952815ab58f776e9b41",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 87,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:41Z",
+  "verification_level": "scanner_only"
+}

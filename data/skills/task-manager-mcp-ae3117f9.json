@@ -1,0 +1,29 @@
+{
+  "id": "task-manager-mcp-ae3117f9",
+  "name": "task-manager-mcp",
+  "description": "Node.js MCP server using LLMs (Gemini/OpenRouter) for AI-assisted task planning, breakdown, and code review. Designed for Cursor integration.",
+  "repo_url": "https://github.com/jhawkins11/task-manager-mcp",
+  "source_hub": "mcp_so",
+  "owner": "jhawkins11",
+  "stars": 21,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "dev",
+    "dev-web-backend-node",
+    "integ",
+    "prod-pm"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "7e1c44136b13852d8dc62ddc37ab0e32a934b3ff",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 52,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:32:12Z",
+  "verification_level": "scanner_only"
+}

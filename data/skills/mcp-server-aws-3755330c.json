@@ -1,0 +1,28 @@
+{
+  "id": "mcp-server-aws-3755330c",
+  "name": "mcp-server-aws",
+  "description": "A Model Context Protocol server implementation for operations on AWS resources",
+  "repo_url": "https://github.com/rishikavikondala/mcp-server-aws",
+  "source_hub": "mcp_so",
+  "owner": "rishikavikondala",
+  "stars": 128,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp",
+    "integ-cloud",
+    "integ-cloud-aws"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "ecc72d251134ed265953d448313a186bdcf5d4d9",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 7,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-27T06:40:49Z",
+  "verification_level": "scanner_only"
+}

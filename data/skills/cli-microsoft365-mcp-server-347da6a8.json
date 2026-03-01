@@ -1,0 +1,26 @@
+{
+  "id": "cli-microsoft365-mcp-server-347da6a8",
+  "name": "cli-microsoft365-mcp-server",
+  "description": "Manage Microsoft 365 using MCP server",
+  "repo_url": "https://github.com/pnp/cli-microsoft365-mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "pnp",
+  "stars": 81,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "f2e491f866ff2e50c7fd530c86536da6b571cdca",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 11,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-27T06:40:43Z",
+  "verification_level": "scanner_only"
+}

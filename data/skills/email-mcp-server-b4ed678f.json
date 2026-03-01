@@ -1,0 +1,26 @@
+{
+  "id": "email-mcp-server-b4ed678f",
+  "name": "email-mcp-server",
+  "description": "This is an MCP server designed to handle email communications, supporting multiple email protocols and features.",
+  "repo_url": "https://github.com/ssqdoit/email-mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "ssqdoit",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "prod-comm"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "2e1aef2761f863e404d1f7df3c267023ad4d1f70",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 5,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:41Z",
+  "verification_level": "scanner_only"
+}

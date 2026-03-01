@@ -1,0 +1,27 @@
+{
+  "id": "mcp-server-1e741490",
+  "name": "mcp_server",
+  "description": "MCP Server is a tool for injecting faults and performing stress tests on Kubernetes pods and hosts using Chaos Mesh.",
+  "repo_url": "https://github.com/Hades-gsl/mcp_server",
+  "source_hub": "mcp_so",
+  "owner": "Hades-gsl",
+  "stars": 1,
+  "primary_language": "unknown",
+  "tags": [
+    "dev-devops-k8s",
+    "dev-testing",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "04b0a24925cf9e7abbf5c24b8d0dc6995a080d59",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 7,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:40Z",
+  "verification_level": "scanner_only"
+}

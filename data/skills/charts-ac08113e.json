@@ -1,0 +1,26 @@
+{
+  "id": "charts-ac08113e",
+  "name": "charts",
+  "description": "An MCP server for generating statistical graphics.",
+  "repo_url": "https://github.com/Austin-TB/charts",
+  "source_hub": "mcp_so",
+  "owner": "Austin-TB",
+  "stars": 1,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "c9760b14218d82bb7ed4449c74c39ca8b802e554",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 4,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:41Z",
+  "verification_level": "scanner_only"
+}

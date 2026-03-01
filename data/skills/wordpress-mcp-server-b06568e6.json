@@ -1,0 +1,25 @@
+{
+  "id": "wordpress-mcp-server-b06568e6",
+  "name": "wordpress-mcp-server",
+  "description": "This MCP server let you automate interactions with Wordpress",
+  "repo_url": "https://github.com/stefans71/wordpress-mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "stefans71",
+  "stars": 76,
+  "primary_language": "unknown",
+  "tags": [
+    "prod"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "c1422c55b6e04c630aac0d1705d4377a0b97beb7",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 5,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-27T06:40:43Z",
+  "verification_level": "scanner_only"
+}

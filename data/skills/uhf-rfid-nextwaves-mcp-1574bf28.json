@@ -1,0 +1,28 @@
+{
+  "id": "uhf-rfid-nextwaves-mcp-1574bf28",
+  "name": "uhf-rfid-nextwaves-mcp",
+  "description": "The Nextwaves SDK now handles the connection between your existing software and physical hardware.\r\n\r\nWe introduced the world's first Model Context Protocol (MCP) for UHF RFID.\r\n\r\nThis tool removes the heavy lifting of hardware integration. You no longer need to build middleware from scratch to get your legacy systems talking to AI agents.\r\n\r\nThe SDK writes the integration layer for you.\r\n\r\nYour current software stack gains immediate capabilities:\r\n\r\n    Standardized Communication: Connect ph...",
+  "repo_url": "https://github.com/Nextwaves Industries/uhf-rfid-nextwaves-mcp",
+  "source_hub": "mcp_so",
+  "owner": "Nextwaves Industries",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp",
+    "dev",
+    "integ",
+    "prod-comm",
+    "util",
+    "util-media",
+    "repo_unavailable"
+  ],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null,
+  "repo_status": "unavailable",
+  "repo_check_date": "2026-02-28T20:53:04.259977+00:00",
+  "repo_check_error": "fatal: unable to access 'https://github.com/Nextwaves Industries/uhf-rfid-nextwaves-mcp/': URL rejected: Malformed input to a URL function"
+}

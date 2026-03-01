@@ -1,0 +1,26 @@
+{
+  "id": "mcp-server-kintone-894767cf",
+  "name": "mcp-server-kintone",
+  "description": "MCP server for kintone",
+  "repo_url": "https://github.com/macrat/mcp-server-kintone",
+  "source_hub": "mcp_so",
+  "owner": "macrat",
+  "stars": 12,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "5b9528c95d8767dc7e257e6efdf69853b063394b",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 5,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:42:36Z",
+  "verification_level": "scanner_only"
+}

@@ -1,0 +1,26 @@
+{
+  "id": "bio-agents-mcp-e2fffe6d",
+  "name": "bio-agents-mcp",
+  "description": "MCP servers for Protein Data Bank, ChemBL, and other life science data (WIP), with Ollama client for local testing.",
+  "repo_url": "https://github.com/dogeplusplus/bio-agents-mcp",
+  "source_hub": "mcp_so",
+  "owner": "dogeplusplus",
+  "stars": 8,
+  "primary_language": "unknown",
+  "tags": [
+    "data",
+    "dev-testing"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "dc5928a85de49cf34d1d9f97a5ddd9ea1cede3d1",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 42,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:42:36Z",
+  "verification_level": "scanner_only"
+}

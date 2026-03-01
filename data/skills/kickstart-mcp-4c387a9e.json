@@ -1,0 +1,26 @@
+{
+  "id": "kickstart-mcp-4c387a9e",
+  "name": "kickstart-mcp",
+  "description": "🚀 Kickstart-mcp is tutorial for using mcp, making your own mcp server/client. We'll guide you through every step of your MCP journey",
+  "repo_url": "https://github.com/nolleh/kickstart-mcp",
+  "source_hub": "mcp_so",
+  "owner": "nolleh",
+  "stars": 2,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "34df10aef11295820f10a85425d325e3c2d78559",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 31,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:04:50Z",
+  "verification_level": "scanner_only"
+}

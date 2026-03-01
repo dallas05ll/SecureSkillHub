@@ -1,0 +1,25 @@
+{
+  "id": "mcp-server-galaxy-tool-41da4cc2",
+  "name": "mcp-server-galaxy-tool",
+  "description": "MCP server for Generating Galaxy Tools",
+  "repo_url": "https://github.com/goeckslab/mcp-server-galaxy-tool",
+  "source_hub": "mcp_so",
+  "owner": "goeckslab",
+  "stars": 1,
+  "primary_language": "unknown",
+  "tags": [
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "51c93d47139ca167cb65a0d4fa0718092216316c",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 3,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:41Z",
+  "verification_level": "scanner_only"
+}

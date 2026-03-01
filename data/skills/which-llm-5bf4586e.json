@@ -1,0 +1,27 @@
+{
+  "id": "which-llm-5bf4586e",
+  "name": "which-llm",
+  "description": "CLI + agent skill for selecting the right LLM based on benchmarks, capabilities, and cost. Works with Cursor, Claude Code, Copilot, and more.",
+  "repo_url": "https://github.com/richard-gyiko/which-llm",
+  "source_hub": "github_search",
+  "skill_type": "agent_skill",
+  "owner": "richard-gyiko",
+  "stars": 0,
+  "license": "mit",
+  "primary_language": "markdown",
+  "tags": [
+    "data-ai",
+    "dev"
+  ],
+  "verification_status": "manual_review",
+  "overall_score": 68,
+  "risk_level": "medium",
+  "verified_commit": null,
+  "scan_summary": null,
+  "last_updated": "2026-02-11T08:09:43Z",
+  "findings_summary": {
+    "notes": "Metadata-based verification. Score=68. Signals: stars=0 (-10); license='mit' (+5); owner='richard-gyiko' (+3); primary_language='markdown'; source_hub='github_search'. Status: manual_review. Risk: medium."
+  },
+  "trust_level": "low",
+  "scan_date": "2026-02-26T06:14:56Z"
+}

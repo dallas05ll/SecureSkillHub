@@ -1,0 +1,25 @@
+{
+  "id": "chatbot-pwa-frontend-8de449a2",
+  "name": "Chatbot-PWA-frontend",
+  "description": "frontend for generic MCP server based chatbot",
+  "repo_url": "https://github.com/Pratham-Jain-3903/Chatbot-PWA-frontend",
+  "source_hub": "mcp_so",
+  "owner": "Pratham-Jain-3903",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "prod-comm"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "0c5c0d1993c1085fd62cb8747f9d3dc2b134ffa3",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 78,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:40Z",
+  "verification_level": "scanner_only"
+}

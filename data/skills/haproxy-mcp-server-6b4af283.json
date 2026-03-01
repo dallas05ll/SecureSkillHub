@@ -1,0 +1,27 @@
+{
+  "id": "haproxy-mcp-server-6b4af283",
+  "name": "haproxy-mcp-server",
+  "description": "A Model Context Protocol (MCP) server for HAProxy implemented in Go, leveraging HAProxy Runtime API and mcp-go.",
+  "repo_url": "https://github.com/tuannvm/haproxy-mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "tuannvm",
+  "stars": 7,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp",
+    "integ"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "3492691fe2af36e9dedabbee02933f3894fcaecd",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 11,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:54:02Z",
+  "verification_level": "scanner_only"
+}

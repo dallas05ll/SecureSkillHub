@@ -1,0 +1,26 @@
+{
+  "id": "fiscal-data-mcp-8ac6f6c9",
+  "name": "fiscal-data-mcp",
+  "description": "mcp server connected to us treasury data, built with mcp-framework",
+  "repo_url": "https://github.com/QuantGeekDev/fiscal-data-mcp",
+  "source_hub": "mcp_so",
+  "owner": "QuantGeekDev",
+  "stars": 16,
+  "primary_language": "unknown",
+  "tags": [
+    "data",
+    "integ"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "17e7c2980fe6d5e9b8ffcbd19de6b55aee316aa4",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 9,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:42:36Z",
+  "verification_level": "scanner_only"
+}

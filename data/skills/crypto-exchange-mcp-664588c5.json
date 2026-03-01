@@ -1,0 +1,26 @@
+{
+  "id": "crypto-exchange-mcp-664588c5",
+  "name": "crypto_exchange_mcp",
+  "description": "MCP server implementation for the cryptocurrency exchange. This package provides a simple interface to interact with Bybit/OKX/Binance public API endpoints.",
+  "repo_url": "https://github.com/sydowma/crypto_exchange_mcp",
+  "source_hub": "mcp_so",
+  "owner": "sydowma",
+  "stars": 6,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "sec-crypto"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "b7e4fc8f62d5dde1103baa4583a2ffb45ecb3776",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 29,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:54:02Z",
+  "verification_level": "scanner_only"
+}

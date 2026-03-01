@@ -1,0 +1,26 @@
+{
+  "id": "docreadermcp-2567c46b",
+  "name": "DocReaderMCP",
+  "description": "An MCP server that can read online documents to solve problems accordingly!",
+  "repo_url": "https://github.com/NetMindAI-Open/DocReaderMCP",
+  "source_hub": "mcp_so",
+  "owner": "NetMindAI-Open",
+  "stars": 2,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai-vision",
+    "prod-docs"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "ec7235d09a8e4a1fe6fc459363453e5abddaa811",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 5,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:04:51Z",
+  "verification_level": "scanner_only"
+}

@@ -1,0 +1,25 @@
+{
+  "id": "mcp-mongodb-9b657cb5",
+  "name": "mcp-mongodb",
+  "description": "MCP Server",
+  "repo_url": "https://github.com/nan-qin/mcp-mongodb",
+  "source_hub": "mcp_so",
+  "owner": "nan-qin",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "data-db"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "c4d33d17d33e3b15c21a14bcd27b4a36728ca4a7",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 6,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:41Z",
+  "verification_level": "scanner_only"
+}

@@ -1,0 +1,26 @@
+{
+  "id": "postex-mcp-server-5eb6b34a",
+  "name": "PostEx-MCP-Server",
+  "description": "MCP server providing tools to interact with the PostEx Merchant API for order management, tracking, and other logistics operations.",
+  "repo_url": "https://github.com/faizan45640/PostEx-MCP-Server",
+  "source_hub": "mcp_so",
+  "owner": "faizan45640",
+  "stars": 1,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "3e048d3c5406db1ad1d4f8a6e4f12a26d6bf31eb",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 4,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:40Z",
+  "verification_level": "scanner_only"
+}

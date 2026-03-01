@@ -1,0 +1,26 @@
+{
+  "id": "mcp-server-template-ic-206543fb",
+  "name": "mcp-server-template-ic",
+  "description": "mcp servre with connect to ic wallet",
+  "repo_url": "https://github.com/baolongt/mcp-server-template-ic",
+  "source_hub": "mcp_so",
+  "owner": "baolongt",
+  "stars": 1,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "sec-crypto"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "a5b98dd4e671c937f1dee58457a2ef11ae7c492f",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 28,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:41Z",
+  "verification_level": "scanner_only"
+}

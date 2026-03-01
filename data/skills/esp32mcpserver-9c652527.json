@@ -1,0 +1,26 @@
+{
+  "id": "esp32mcpserver-9c652527",
+  "name": "ESP32MCPServer",
+  "description": "Allow AI models connect to ESP32 exposed interfaces. AI generated MCP server for ESP32.",
+  "repo_url": "https://github.com/navado/ESP32MCPServer",
+  "source_hub": "mcp_so",
+  "owner": "navado",
+  "stars": 32,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "integ"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "335ee9e13f720256558539bb9ef39cd2228dcc26",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 10,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:32:11Z",
+  "verification_level": "scanner_only"
+}

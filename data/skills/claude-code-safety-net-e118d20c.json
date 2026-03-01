@@ -1,0 +1,33 @@
+{
+  "id": "claude-code-safety-net-e118d20c",
+  "name": "claude-code-safety-net",
+  "description": "A Claude Code plugin (PreToolUse hook) that acts as a safety net, catching destructive git and filesystem commands before they execute. Supports semantic command analysis, shell wrapper detection, interpreter one-liner detection, strict/paranoid modes, secret redaction, and audit logging.",
+  "repo_url": "https://github.com/kenryu42/claude-code-safety-net",
+  "source_hub": "github_search",
+  "skill_type": "agent_skill",
+  "owner": "kenryu42",
+  "stars": 1087,
+  "license": "mit",
+  "primary_language": "TypeScript",
+  "tags": [
+    "data-ai",
+    "dev",
+    "sec-scan",
+    "util",
+    "util-file",
+    "util-monitor"
+  ],
+  "verification_status": "pass",
+  "overall_score": 80,
+  "risk_level": "low",
+  "verified_commit": "82f676be5a6991e1a3d4824ef6ac00607ed6e408",
+  "scan_summary": null,
+  "findings_summary": {
+    "notes": "MIT-licensed TypeScript Claude Code plugin by individual developer kenryu42. CONTRIBUTING.md present. Strong CI/CD setup with ci.yml, lint, publish, and Windows-specific test workflows. Codecov integration with coverage reporting. Security-focused by design: blocks destructive rm, git reset --hard, git checkout --, and related commands. Topics include 'security' tag. 43 forks, 1087 stars, actively maintained as of 2026-02-25. No SECURITY.md. Individual developer project but with professional engineering practices. Also supports OpenCode, Gemini CLI, and GitHub Copilot CLI."
+  },
+  "last_updated": "2026-02-25T14:44:00Z",
+  "last_verified": "2026-02-25T00:00:00Z",
+  "trust_level": "low",
+  "scan_date": "2026-02-25T23:11:10Z",
+  "verification_level": "scanner_only"
+}

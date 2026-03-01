@@ -1,0 +1,25 @@
+{
+  "id": "beam-mcp-server-99391d17",
+  "name": "beam-mcp-server",
+  "description": "MCP server to manage apache beam workflows with different runners",
+  "repo_url": "https://github.com/souravch/beam-mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "souravch",
+  "stars": 4,
+  "primary_language": "unknown",
+  "tags": [
+    "prod"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "d3f7669721be39659622570120fa8b39eb4d2a4a",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 166,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:54:02Z",
+  "verification_level": "scanner_only"
+}

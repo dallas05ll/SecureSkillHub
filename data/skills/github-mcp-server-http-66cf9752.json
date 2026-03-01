@@ -1,0 +1,26 @@
+{
+  "id": "github-mcp-server-http-66cf9752",
+  "name": "github-mcp-server-http",
+  "description": "GitHub MCP server over HTTP transport",
+  "repo_url": "https://github.com/wasaga/github-mcp-server-http",
+  "source_hub": "mcp_so",
+  "owner": "wasaga",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "162eff225e324b0daa79c4e1eb5748e816b71db6",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 1,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:42Z",
+  "verification_level": "scanner_only"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "quip-mcp-server-4dff015f",
+  "name": "quip-mcp-server",
+  "description": "Model Context Procotol(MCP) server for fetching Quip document",
+  "repo_url": "https://github.com/zxkane/quip-mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "zxkane",
+  "stars": 2,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp",
+    "prod-docs",
+    "util-search"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "43e7a6ebff12d3c89a73a812e5d9d9d0d5c14fe5",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 15,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:04:50Z",
+  "verification_level": "scanner_only"
+}

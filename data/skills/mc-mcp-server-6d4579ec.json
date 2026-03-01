@@ -1,0 +1,26 @@
+{
+  "id": "mc-mcp-server-6d4579ec",
+  "name": "mc-mcp-server",
+  "description": "🚧 java mcp server for minecraft",
+  "repo_url": "https://github.com/umjammer/mc-mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "umjammer",
+  "stars": 1,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "c11ce1cccee48776f241f3189d4990ea5a8bc9a0",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 1,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:41Z",
+  "verification_level": "scanner_only"
+}

@@ -1,0 +1,29 @@
+{
+  "id": "localstack-mcp-server-e7e956ff",
+  "name": "LocalStack MCP Server",
+  "description": "A Model Context Protocol (MCP) server for LocalStack that enables management of local AWS development environments, including container lifecycle operations, infrastructure deployments, log analysis with IAM policy generation, chaos injection, and Cloud Pods state management.",
+  "repo_url": "https://github.com/localstack/localstack-mcp-server",
+  "source_hub": "glama",
+  "owner": "localstack",
+  "stars": 18,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp",
+    "dev-devops-docker",
+    "integ-cloud",
+    "integ-cloud-aws"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "8be6aaff2ec0e94dfd61f30a81ae4c56cc9b7e28",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 35,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:42:36Z",
+  "verification_level": "scanner_only"
+}

@@ -1,0 +1,27 @@
+{
+  "id": "taskmaster-todoist-mcp-f3cdd564",
+  "name": "taskMaster-todoist-mcp",
+  "description": "A lightweight Model Context Protocol (MCP) server that enables natural language interaction with your Todoist tasks directly from your IDE. Built with simplicity and maintainability in mind.",
+  "repo_url": "https://github.com/mingolladaniele/taskMaster-todoist-mcp",
+  "source_hub": "mcp_so",
+  "owner": "mingolladaniele",
+  "stars": 42,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp",
+    "prod-pm"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "16e3fbaecd4d0312eb726fa6fac4a14dae769e29",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 12,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:32:13Z",
+  "verification_level": "scanner_only"
+}

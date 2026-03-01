@@ -1,0 +1,27 @@
+{
+  "id": "mcp-github-mapper-df2f4fd5",
+  "name": "MCP-Github-Mapper",
+  "description": "MCP GitHub Mapper is a MCP tool that will map any repository remotely and import the map directly into your code editor.",
+  "repo_url": "https://github.com/dazeb/MCP-Github-Mapper",
+  "source_hub": "mcp_so",
+  "owner": "dazeb",
+  "stars": 24,
+  "primary_language": "unknown",
+  "tags": [
+    "dev",
+    "util",
+    "util-map"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "486956aab4f4064075e41c7db6cfa9f6478c9042",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 8,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:32:11Z",
+  "verification_level": "scanner_only"
+}

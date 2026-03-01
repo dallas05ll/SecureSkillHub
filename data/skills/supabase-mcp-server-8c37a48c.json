@@ -1,0 +1,26 @@
+{
+  "id": "supabase-mcp-server-8c37a48c",
+  "name": "supabase-mcp-server",
+  "description": "Remote Supabase MCP server on Phala Cloud",
+  "repo_url": "https://github.com/tolak/supabase-mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "tolak",
+  "stars": 1,
+  "primary_language": "unknown",
+  "tags": [
+    "data-db",
+    "integ-cloud"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "6f32c6ba3b06772efcb2ec30e96ee66cceb0cad5",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 21,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:41Z",
+  "verification_level": "scanner_only"
+}

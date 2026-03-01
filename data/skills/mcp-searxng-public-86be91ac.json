@@ -1,0 +1,26 @@
+{
+  "id": "mcp-searxng-public-86be91ac",
+  "name": "mcp-searxng-public",
+  "description": "An MCP server that queries public SearXNG instances, parsing HTML contents into a JSON result",
+  "repo_url": "https://github.com/pwilkin/mcp-searxng-public",
+  "source_hub": "mcp_so",
+  "owner": "pwilkin",
+  "stars": 30,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "dev-web"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "84a2d71c202d6c5bcf36843ae2aaebd685654df1",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 8,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:32:13Z",
+  "verification_level": "scanner_only"
+}

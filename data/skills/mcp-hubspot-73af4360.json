@@ -1,0 +1,30 @@
+{
+  "id": "mcp-hubspot-73af4360",
+  "name": "mcp-hubspot",
+  "description": "An MCP server implementation that seamlessly connects Claude and other AI models to HubSpot CRM data. Provides tools for managing contacts, companies, and engagement activities through standardized interfaces. Simplifies contact creation, duplicate detection, and pipeline management with minimal configuration.",
+  "repo_url": "https://github.com/baryhuang/mcp-hubspot",
+  "source_hub": "mcp_so",
+  "owner": "baryhuang",
+  "stars": 116,
+  "primary_language": "unknown",
+  "tags": [
+    "data",
+    "data-ai",
+    "dev-devops-ci",
+    "integ",
+    "integ-crm",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "4a8345f2507b4159fc84eb500c74669329076f53",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 30,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-27T06:40:44Z",
+  "verification_level": "scanner_only"
+}

@@ -1,0 +1,29 @@
+{
+  "id": "n8n-ai-agent-dvm-mcp-client-dd5a5d69",
+  "name": "n8n-AI-agent-DVM-MCP-client",
+  "description": "An AI agent built in n8n which can find and use Model Context Protocol (MCP) Server Tools served as Data Vending Machines (DVM) over the Nostr network.",
+  "repo_url": "https://github.com/r0d8lsh0p/n8n-AI-agent-DVM-MCP-client",
+  "source_hub": "mcp_so",
+  "owner": "r0d8lsh0p",
+  "stars": 24,
+  "primary_language": "unknown",
+  "tags": [
+    "data",
+    "data-ai",
+    "data-ai-nlp",
+    "util",
+    "util-search"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "fafb81a956df7f3243183cafb0df12a434c90cd2",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 6,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:32:11Z",
+  "verification_level": "scanner_only"
+}

@@ -1,0 +1,26 @@
+{
+  "id": "spring-ai-mcp-poc-5e5ce234",
+  "name": "spring_ai_mcp_poc",
+  "description": "Spring AI integration with GitHub MCP server and LLM model - Proof of Concept",
+  "repo_url": "https://github.com/shesadri/spring_ai_mcp_poc",
+  "source_hub": "mcp_so",
+  "owner": "shesadri",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "integ"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "0805e89a0d1ac49d11b49078a2e4e4eaec8d30a4",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 5,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:43:00Z",
+  "verification_level": "scanner_only"
+}

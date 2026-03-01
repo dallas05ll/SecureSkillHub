@@ -1,0 +1,27 @@
+{
+  "id": "sample-building-mcp-servers-with-rust-9a53ae43",
+  "name": "sample-building-mcp-servers-with-rust",
+  "description": "This project provides sample MCP servers that can be used with Amazon Q CLI or other MCP-compatible AI assistants",
+  "repo_url": "https://github.com/aws-samples/sample-building-mcp-servers-with-rust",
+  "source_hub": "mcp_so",
+  "owner": "aws-samples",
+  "stars": 7,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "dev-web-backend-rust",
+    "integ-cloud-aws"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "4b65e9b1cec6d2bbb035f91699a11bd941cd0135",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 4,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:54:04Z",
+  "verification_level": "scanner_only"
+}

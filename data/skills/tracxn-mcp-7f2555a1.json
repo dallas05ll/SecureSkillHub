@@ -1,0 +1,26 @@
+{
+  "id": "tracxn-mcp-7f2555a1",
+  "name": "tracxn-mcp",
+  "description": "A Model Control Protocol (MCP) server implementation for interacting with the Tracxn API",
+  "repo_url": "https://github.com/vatsal191201/tracxn-mcp",
+  "source_hub": "mcp_so",
+  "owner": "vatsal191201",
+  "stars": 2,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "integ"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "44de2f8203bd4a70c635edc2af2d42f196ec7796",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 2,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:40Z",
+  "verification_level": "scanner_only"
+}

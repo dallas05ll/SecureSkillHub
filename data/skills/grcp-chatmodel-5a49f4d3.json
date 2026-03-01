@@ -1,0 +1,26 @@
+{
+  "id": "grcp-chatmodel-5a49f4d3",
+  "name": "grcp-chatmodel",
+  "description": "grcp chatmodel with mcp server model integrated with gemini model 5o-flash",
+  "repo_url": "https://github.com/omjamnekar/grcp-chatmodel",
+  "source_hub": "mcp_so",
+  "owner": "omjamnekar",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "prod-comm"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "45b31f22fe82936e097a3236c0c831acc20b2931",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 13,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:42Z",
+  "verification_level": "scanner_only"
+}

@@ -1,0 +1,27 @@
+{
+  "id": "value-investing-agent-53185da7",
+  "name": "Value-Investing-Agent",
+  "description": "AI-powered MCP server for value investors to analyze stocks using Benjamin Graham and Warren Buffett principles.",
+  "repo_url": "https://github.com/danielchu97/Value-Investing-Agent",
+  "source_hub": "github_search",
+  "skill_type": "agent_skill",
+  "owner": "danielchu97",
+  "stars": 53,
+  "license": "mit",
+  "primary_language": "TypeScript",
+  "tags": [
+    "data-ai"
+  ],
+  "verification_status": "pass",
+  "overall_score": 72,
+  "risk_level": "low",
+  "verified_commit": null,
+  "scan_summary": null,
+  "last_updated": "2026-02-13T16:33:24Z",
+  "findings_summary": {
+    "notes": "MIT licensed, TypeScript, npm package available. Well-documented with bilingual (EN/ZH) support. Niche but legitimate financial analysis tool."
+  },
+  "trust_level": "low",
+  "scan_date": "2026-02-26T02:12:39Z",
+  "verification_level": "scanner_only"
+}

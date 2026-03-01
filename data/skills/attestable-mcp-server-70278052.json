@@ -1,0 +1,26 @@
+{
+  "id": "attestable-mcp-server-70278052",
+  "name": "attestable-mcp-server",
+  "description": "Verify that any MCP server is running the intended and untampered code via hardware attestation.",
+  "repo_url": "https://github.com/co-browser/attestable-mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "co-browser",
+  "stars": 17,
+  "primary_language": "unknown",
+  "tags": [
+    "dev",
+    "dev-testing"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "aec3ef1c734f5cb43c41ee23c0db914c7153955e",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 12,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:42:34Z",
+  "verification_level": "scanner_only"
+}

@@ -1,0 +1,26 @@
+{
+  "id": "mcp-montano-server-84be4f25",
+  "name": "mcp-montano-server",
+  "description": "Simple MCP Server Implementation",
+  "repo_url": "https://github.com/lucasmontano/mcp-montano-server",
+  "source_hub": "mcp_so",
+  "owner": "lucasmontano",
+  "stars": 138,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "b9a7585f096e1984119c1c729c99b06c14cb2148",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 5,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-27T06:40:43Z",
+  "verification_level": "scanner_only"
+}

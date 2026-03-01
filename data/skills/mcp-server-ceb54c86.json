@@ -1,0 +1,26 @@
+{
+  "id": "mcp-server-ceb54c86",
+  "name": "mcp_server",
+  "description": "mcp_server",
+  "repo_url": "https://github.com/ningwenjie/mcp_server",
+  "source_hub": "mcp_so",
+  "owner": "ningwenjie",
+  "stars": 3,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "f319006d289f3b8043c9807e5df01b6551b2fbaa",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 20,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:04:50Z",
+  "verification_level": "scanner_only"
+}

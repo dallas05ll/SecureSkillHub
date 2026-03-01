@@ -1,0 +1,26 @@
+{
+  "id": "bangla-news-mcp-1f865200",
+  "name": "bangla-news-mcp",
+  "description": "A Model Context Protocol (MCP) server that retrieves bangla news to provide context to LLMs.",
+  "repo_url": "https://github.com/hurutta/bangla-news-mcp",
+  "source_hub": "mcp_so",
+  "owner": "hurutta",
+  "stars": 4,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "c4bf1156434f52f9c5d8c1caf29d0300e25547fd",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 8,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:54:04Z",
+  "verification_level": "scanner_only"
+}

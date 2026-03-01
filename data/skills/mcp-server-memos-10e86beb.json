@@ -1,0 +1,27 @@
+{
+  "id": "mcp-server-memos-10e86beb",
+  "name": "mcp-server-memos",
+  "description": "A MCP(Model Context Protocol) server for Memos.",
+  "repo_url": "https://github.com/LeslieLeung/mcp-server-memos",
+  "source_hub": "mcp_so",
+  "owner": "LeslieLeung",
+  "stars": 21,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp",
+    "prod-notes"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "ec0703a3d8cfb2973b0cf0e9fc142f7bd4389c1d",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 5,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:32:11Z",
+  "verification_level": "scanner_only"
+}

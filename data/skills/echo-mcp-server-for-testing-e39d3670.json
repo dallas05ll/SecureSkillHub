@@ -1,0 +1,27 @@
+{
+  "id": "echo-mcp-server-for-testing-e39d3670",
+  "name": "echo-mcp-server-for-testing",
+  "description": "A simple echo MCP (Model Context Protocol) Server for testing MCP Clients.",
+  "repo_url": "https://github.com/piebro/echo-mcp-server-for-testing",
+  "source_hub": "mcp_so",
+  "owner": "piebro",
+  "stars": 2,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp",
+    "dev-testing"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "4ff411841a8e0f80ac7e1a4972300b9a228af45b",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 4,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:04:51Z",
+  "verification_level": "scanner_only"
+}

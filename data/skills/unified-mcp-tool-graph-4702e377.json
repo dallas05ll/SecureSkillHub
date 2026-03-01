@@ -1,0 +1,27 @@
+{
+  "id": "unified-mcp-tool-graph-4702e377",
+  "name": "Unified-MCP-Tool-Graph",
+  "description": "Instead of dumping 1000+ tools into a model’s prompt and expecting it to choose wisely, the Unified MCP Tool Graph equips your LLM with structure, clarity, and relevance. It fixes tool confusion, prevents infinite loops, and enables modular, intelligent agent workflows.",
+  "repo_url": "https://github.com/pratikjadhav2726/Unified-MCP-Tool-Graph",
+  "source_hub": "mcp_so",
+  "owner": "pratikjadhav2726",
+  "stars": 27,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "prod",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "c8a51dd1b506eb9d0ab5692a17137a3021c6755f",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 54,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:32:11Z",
+  "verification_level": "scanner_only"
+}

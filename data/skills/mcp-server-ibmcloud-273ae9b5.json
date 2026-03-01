@@ -1,0 +1,28 @@
+{
+  "id": "mcp-server-ibmcloud-273ae9b5",
+  "name": "mcp_server_ibmcloud",
+  "description": "MCP server which provides IBM Cloud as a tool for use by LLM's, eg. via Anthopic Claude Desktop or map-cli (open source).",
+  "repo_url": "https://github.com/ccmitchellusa/mcp_server_ibmcloud",
+  "source_hub": "mcp_so",
+  "owner": "ccmitchellusa",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "integ-cloud",
+    "util",
+    "util-map"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "be1f289e2f9ea7ee58acdeef65854aa4e27e9504",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 1,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:41Z",
+  "verification_level": "scanner_only"
+}

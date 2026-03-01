@@ -1,0 +1,29 @@
+{
+  "id": "mcp-newsapi-6cd2dd84",
+  "name": "mcp-newsapi",
+  "description": "An MCP server exposing News API endpoints for searching and retrieving news articles. Provides reliable, easy-to-use tools for integrating news data into applications and workflows, with robust error handling and secure API key management.",
+  "repo_url": "https://github.com/matteoantoci/mcp-newsapi",
+  "source_hub": "mcp_so",
+  "owner": "matteoantoci",
+  "stars": 3,
+  "primary_language": "unknown",
+  "tags": [
+    "data",
+    "integ",
+    "prod",
+    "util",
+    "util-search"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "ec14ccbc0e5c8daa821a12d9867e4ed504f044e7",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 16,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:04:51Z",
+  "verification_level": "scanner_only"
+}

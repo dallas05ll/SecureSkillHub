@@ -1,0 +1,25 @@
+{
+  "id": "mcp-fashion-server-074e57df",
+  "name": "mcp-fashion-server",
+  "description": "AI 기반 여성 의류 쇼핑몰 콘텐츠 자동화 시스템",
+  "repo_url": "https://github.com/Kimkeunwoo-OSE/mcp-fashion-server",
+  "source_hub": "mcp_so",
+  "owner": "Kimkeunwoo-OSE",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "45b70505bcab8169e53f738317050f5a83e1dc83",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 57,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:40Z",
+  "verification_level": "scanner_only"
+}

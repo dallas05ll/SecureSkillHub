@@ -1,0 +1,25 @@
+{
+  "id": "mcp-explorer-ui-7fa1d97d",
+  "name": "mcp-explorer-ui",
+  "description": "an open-source web application for exploring and visualizing the MCP Servers",
+  "repo_url": "https://github.com/barnuri/mcp-explorer-ui",
+  "source_hub": "mcp_so",
+  "owner": "barnuri",
+  "stars": 3,
+  "primary_language": "unknown",
+  "tags": [
+    "dev-web"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "1006d40bda38a6439f569cf8b1eb12e2eb48fa86",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 19,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:04:51Z",
+  "verification_level": "scanner_only"
+}

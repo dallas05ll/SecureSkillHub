@@ -1,0 +1,27 @@
+{
+  "id": "todoist-go-mcp-server-18831e13",
+  "name": "todoist-go-mcp-server",
+  "description": "This project is a Go implementation of an MCP server that leverages the Todoist REST API v2.",
+  "repo_url": "https://github.com/naotama2002/todoist-go-mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "naotama2002",
+  "stars": 1,
+  "primary_language": "unknown",
+  "tags": [
+    "dev-web-backend-go",
+    "integ",
+    "prod-pm"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "b509f6736e4f0c5e2584b05bd6090d7d36739827",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 8,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:40Z",
+  "verification_level": "scanner_only"
+}

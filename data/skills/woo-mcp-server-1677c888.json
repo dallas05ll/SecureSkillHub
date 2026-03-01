@@ -1,0 +1,26 @@
+{
+  "id": "woo-mcp-server-1677c888",
+  "name": "Woo-mcp-server",
+  "description": "wocommarce mcp server",
+  "repo_url": "https://github.com/Slava12233/Woo-mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "Slava12233",
+  "stars": 2,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "4841c9d43c6890279f7064a52560bb359bca77a4",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 54,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:41Z",
+  "verification_level": "scanner_only"
+}

@@ -1,0 +1,30 @@
+{
+  "id": "codex-kkp-e7e6c814",
+  "name": "codex-kkp",
+  "description": "A Claude Code Plugin that enables seamless integration with Codex AI Agent for code analysis, implementation, and collaboration tasks.",
+  "repo_url": "https://github.com/ForteScarlet/codex-kkp",
+  "source_hub": "github_search",
+  "skill_type": "agent_skill",
+  "owner": "ForteScarlet",
+  "stars": 23,
+  "license": "mit",
+  "primary_language": "markdown",
+  "tags": [
+    "data-ai",
+    "dev",
+    "integ",
+    "prod-pm"
+  ],
+  "verification_status": "pass",
+  "overall_score": 83,
+  "risk_level": "low",
+  "verified_commit": null,
+  "scan_summary": null,
+  "last_updated": "2026-02-20T02:18:46Z",
+  "findings_summary": {
+    "notes": "Metadata-based verification. Score=83. Signals: stars=23 (>=10, +5); license='mit' (+5); owner='ForteScarlet' (+3); primary_language='markdown'; source_hub='github_search'. Status: pass. Risk: low."
+  },
+  "trust_level": "low",
+  "scan_date": "2026-02-26T06:14:56Z",
+  "verification_level": "metadata_only"
+}

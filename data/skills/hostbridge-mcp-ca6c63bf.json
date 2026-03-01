@@ -1,0 +1,26 @@
+{
+  "id": "hostbridge-mcp-ca6c63bf",
+  "name": "hostbridge-mcp",
+  "description": "MCP server for simplified framework deployments on shared hosting environments",
+  "repo_url": "https://github.com/elblanco2/hostbridge-mcp",
+  "source_hub": "mcp_so",
+  "owner": "elblanco2",
+  "stars": 1,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "7bea6197fe431887e12e2868afa11327190a2e81",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 26,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:41Z",
+  "verification_level": "scanner_only"
+}

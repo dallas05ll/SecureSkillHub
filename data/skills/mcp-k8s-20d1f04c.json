@@ -1,0 +1,27 @@
+{
+  "id": "mcp-k8s-20d1f04c",
+  "name": "mcp-k8s",
+  "description": "A Kubernetes MCP (Model Control Protocol) server that enables interaction with Kubernetes clusters through MCP tools.",
+  "repo_url": "https://github.com/silenceper/mcp-k8s",
+  "source_hub": "mcp_so",
+  "owner": "silenceper",
+  "stars": 141,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "dev-devops-k8s",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "e770cdc8fc3864ce63c8caa59108974b61a4b068",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 3,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-27T06:36:35Z",
+  "verification_level": "scanner_only"
+}

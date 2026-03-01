@@ -1,0 +1,26 @@
+{
+  "id": "mcp-bitbucket-91b5f7bc",
+  "name": "mcp-bitbucket",
+  "description": "Bitbucket MCP Server Implementation in Python",
+  "repo_url": "https://github.com/Kallows/mcp-bitbucket",
+  "source_hub": "mcp_so",
+  "owner": "Kallows",
+  "stars": 5,
+  "primary_language": "unknown",
+  "tags": [
+    "dev-git",
+    "dev-web-backend-python"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "c3180bfb7bc5caa55f63f539e378baf6f5cf570e",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 7,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:54:02Z",
+  "verification_level": "scanner_only"
+}

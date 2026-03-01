@@ -1,0 +1,25 @@
+{
+  "id": "test-mcp-servers-git-d0976b25",
+  "name": "test_mcp_servers_git",
+  "description": "A repository for testing MCP servers",
+  "repo_url": "https://github.com/sumitsatapathy/test_mcp_servers_git",
+  "source_hub": "mcp_so",
+  "owner": "sumitsatapathy",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "dev-testing"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "6e58e22a7284e4ceb6fe06328a4de490aa2a4760",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 3,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:42:59Z",
+  "verification_level": "scanner_only"
+}

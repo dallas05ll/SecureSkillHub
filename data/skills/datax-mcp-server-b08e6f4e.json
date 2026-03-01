@@ -1,0 +1,28 @@
+{
+  "id": "datax-mcp-server-b08e6f4e",
+  "name": "datax-mcp-server",
+  "description": "Datax is an intelligent data analysis tool designed for the AI era, enabling users to interact with data through natural language to effortlessly gain deep business insights and predictive analytics.",
+  "repo_url": "https://github.com/haobosang/datax-mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "haobosang",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "data",
+    "data-ai",
+    "data-ai-nlp",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "821f9ee51d431c33f9a71dd0f3bc84a68d6246ff",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 5,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:41Z",
+  "verification_level": "scanner_only"
+}

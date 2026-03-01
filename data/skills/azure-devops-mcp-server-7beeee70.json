@@ -1,0 +1,26 @@
+{
+  "id": "azure-devops-mcp-server-7beeee70",
+  "name": "azure-devops-mcp-server",
+  "description": "MCP server for Azure DevOps",
+  "repo_url": "https://github.com/munishm/azure-devops-mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "munishm",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "integ-cloud",
+    "integ-cloud-azure"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "8f22c7cf1db7efeaed149ffb489c25f660fb9131",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 3,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:40Z",
+  "verification_level": "scanner_only"
+}

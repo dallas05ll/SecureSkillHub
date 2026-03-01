@@ -1,0 +1,27 @@
+{
+  "id": "db-timetable-mcp-f8b275c4",
+  "name": "db-timetable-mcp",
+  "description": "Ein Model Context Protocol (MCP) Server für die Deutsche Bahn Timetable API",
+  "repo_url": "https://github.com/jorekai/db-timetable-mcp",
+  "source_hub": "mcp_so",
+  "owner": "jorekai",
+  "stars": 13,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp",
+    "integ"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "3095801415b5e541acce1807c8c9e70d0161afa4",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 24,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:42:34Z",
+  "verification_level": "scanner_only"
+}

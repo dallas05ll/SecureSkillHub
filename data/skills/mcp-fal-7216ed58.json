@@ -1,0 +1,26 @@
+{
+  "id": "mcp-fal-7216ed58",
+  "name": "mcp-fal",
+  "description": "A Model Context Protocol (MCP) server for interacting with fal.ai models and services.",
+  "repo_url": "https://github.com/am0y/mcp-fal",
+  "source_hub": "mcp_so",
+  "owner": "am0y",
+  "stars": 74,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "9c57d9970d92da7f9919e761ad21b545ff3c6739",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 10,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-27T06:40:49Z",
+  "verification_level": "scanner_only"
+}

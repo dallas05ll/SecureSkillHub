@@ -1,0 +1,27 @@
+{
+  "id": "puppeteer-plus-martech-mcp-24027837",
+  "name": "puppeteer-plus-martech-mcp",
+  "description": "MCP server for marketing technology analysis with AI assistants. Enables Claude and other MCP clients to detect analytics tools, tag managers, and advertising pixels through conversational interfaces.",
+  "repo_url": "https://github.com/moonbirdai/puppeteer-plus-martech-mcp",
+  "source_hub": "mcp_so",
+  "owner": "moonbirdai",
+  "stars": 4,
+  "primary_language": "unknown",
+  "tags": [
+    "data",
+    "data-ai",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "1878a43bc92934e45a919b656c8399a9f99f4b71",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 40,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:04:51Z",
+  "verification_level": "scanner_only"
+}

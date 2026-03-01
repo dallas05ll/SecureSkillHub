@@ -1,0 +1,29 @@
+{
+  "id": "atdd-08dd75d7",
+  "name": "atdd",
+  "description": "Claude Code plugin enforcing Acceptance Test Driven Development (ATDD) methodology when building software.",
+  "repo_url": "https://github.com/swingerman/atdd",
+  "source_hub": "github_search",
+  "skill_type": "agent_skill",
+  "owner": "swingerman",
+  "stars": 73,
+  "license": "mit",
+  "primary_language": "Shell",
+  "tags": [
+    "data-ai",
+    "dev",
+    "dev-testing"
+  ],
+  "verification_status": "pass",
+  "overall_score": 74,
+  "risk_level": "low",
+  "verified_commit": null,
+  "scan_summary": null,
+  "last_updated": "2026-02-24T19:21:42Z",
+  "findings_summary": {
+    "notes": "MIT licensed, Shell, actively maintained. Clear purpose, version 0.2.0. Well-documented testing workflow plugin."
+  },
+  "trust_level": "low",
+  "scan_date": "2026-02-26T02:11:43Z",
+  "verification_level": "scanner_only"
+}

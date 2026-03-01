@@ -1,0 +1,26 @@
+{
+  "id": "swift-tarot-mcp-661f1e23",
+  "name": "swift-tarot-mcp",
+  "description": "A Swift-based MCP (Model Context Protocol) server for tarot card readings",
+  "repo_url": "https://github.com/junebash/swift-tarot-mcp",
+  "source_hub": "mcp_so",
+  "owner": "junebash",
+  "stars": 5,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "fd32708561c977bfa05851c636ebf45e1730b8ef",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 5,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:54:02Z",
+  "verification_level": "scanner_only"
+}

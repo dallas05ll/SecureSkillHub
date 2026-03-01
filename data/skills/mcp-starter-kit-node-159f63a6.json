@@ -1,0 +1,26 @@
+{
+  "id": "mcp-starter-kit-node-159f63a6",
+  "name": "mcp-starter-kit-node",
+  "description": "MCP Server example for up and running in Node",
+  "repo_url": "https://github.com/scriptstar/mcp-starter-kit-node",
+  "source_hub": "mcp_so",
+  "owner": "scriptstar",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "e2e65570420c1f5d853fb8325a5adf1974a43b05",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 9,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:41Z",
+  "verification_level": "scanner_only"
+}

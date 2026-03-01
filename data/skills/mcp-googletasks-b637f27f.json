@@ -1,0 +1,27 @@
+{
+  "id": "mcp-googletasks-b637f27f",
+  "name": "mcp-googletasks",
+  "description": "This Model Context Protocol (MCP) server provides a bridge between Claude and Google Tasks, allowing you to manage your task lists and tasks directly through Claude.",
+  "repo_url": "https://github.com/arpitbatra123/mcp-googletasks",
+  "source_hub": "mcp_so",
+  "owner": "arpitbatra123",
+  "stars": 32,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp",
+    "prod-pm"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "78ba44d753f31fa18a1fadf897893bb63b4c054d",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 5,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:32:11Z",
+  "verification_level": "scanner_only"
+}

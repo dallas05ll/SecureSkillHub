@@ -1,0 +1,26 @@
+{
+  "id": "scryfall-mcp-8a4987d2",
+  "name": "scryfall-mcp",
+  "description": "MCP Server for Scryfall",
+  "repo_url": "https://github.com/bmurdock/scryfall-mcp",
+  "source_hub": "mcp_so",
+  "owner": "bmurdock",
+  "stars": 1,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "1814507e86344c3efd08d24aaba29a63fa339fb4",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 63,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:41Z",
+  "verification_level": "scanner_only"
+}

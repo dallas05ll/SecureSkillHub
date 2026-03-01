@@ -1,0 +1,27 @@
+{
+  "id": "mcp-server-file-modifier-9bb64268",
+  "name": "mcp-server-file-modifier",
+  "description": "Model Context Protocol server for file modifications and control",
+  "repo_url": "https://github.com/jpinillagoshawk/mcp-server-file-modifier",
+  "source_hub": "mcp_so",
+  "owner": "jpinillagoshawk",
+  "stars": 2,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp",
+    "util-file"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "40037741549ec72597d674e5e2afeaee949e37f0",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 4,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:04:50Z",
+  "verification_level": "scanner_only"
+}

@@ -1,0 +1,25 @@
+{
+  "id": "mcp-sample-financial-tool-df2c20d9",
+  "name": "mcp-sample-financial-tool",
+  "description": "Exploring MCP",
+  "repo_url": "https://github.com/Prayag2003/mcp-sample-financial-tool",
+  "source_hub": "mcp_so",
+  "owner": "Prayag2003",
+  "stars": 1,
+  "primary_language": "unknown",
+  "tags": [
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "271e09ca76312374ac71a9627f8591e1d7080053",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 4,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:40Z",
+  "verification_level": "scanner_only"
+}

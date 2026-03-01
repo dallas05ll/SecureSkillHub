@@ -1,0 +1,32 @@
+{
+  "id": "claude-skill-analyze-js-3df54de2",
+  "name": "claude-skill-analyze-js",
+  "description": "A Claude Code skill that performs static analysis on JavaScript files to find API endpoints, URLs, secrets, emails, and file references. Supports TOON format output (50% smaller than JSON) optimized for LLM consumption. Use with /analyze-js in Claude Code.",
+  "repo_url": "https://github.com/xrip/claude-skill-analyze-js",
+  "source_hub": "github_search",
+  "skill_type": "agent_skill",
+  "owner": "xrip",
+  "stars": 2,
+  "license": "mit",
+  "primary_language": "markdown",
+  "tags": [
+    "data-ai",
+    "dev",
+    "integ",
+    "prod-comm",
+    "util-file",
+    "util-search"
+  ],
+  "verification_status": "pass",
+  "overall_score": 78,
+  "risk_level": "medium",
+  "verified_commit": null,
+  "scan_summary": null,
+  "last_updated": "2026-01-07T08:35:38Z",
+  "findings_summary": {
+    "notes": "Metadata-based verification. Score=78. Signals: stars=2; license='mit' (+5); owner='xrip' (+3); primary_language='markdown'; source_hub='github_search'. Status: pass. Risk: medium."
+  },
+  "trust_level": "low",
+  "scan_date": "2026-02-26T06:14:56Z",
+  "verification_level": "metadata_only"
+}

@@ -1,0 +1,1531 @@
+{
+  "log_version": 1,
+  "entries": [
+    {
+      "timestamp": "2026-02-28T07:18:27.297662+00:00",
+      "check_type": "health_check",
+      "findings": {
+        "total_skills": 6340,
+        "verified": 4756,
+        "unverified": 1480,
+        "full_pipeline": 0,
+        "scanner_only": 0,
+        "metadata_only": 0,
+        "with_agent_audit": 0,
+        "status_breakdown": {
+          "pass": 4756,
+          "unverified": 1480,
+          "manual_review": 75,
+          "fail": 29
+        },
+        "star_tiers": {
+          "1000+": 179,
+          "100-999": 391,
+          "10-99": 1203,
+          "1-9": 1880,
+          "0": 2687
+        },
+        "issues": [
+          "884 verified skills with null verified_commit"
+        ]
+      },
+      "recommendations": [
+        "Crawl pending hubs: skills_sh, skillsmp",
+        "Investigate 884 verified skills with null verified_commit"
+      ],
+      "changes_since_last": {
+        "new_skills": 0,
+        "newly_verified": 0,
+        "status_changes": [
+          "First run — no previous data to compare"
+        ]
+      }
+    },
+    {
+      "timestamp": "2026-02-28T07:18:33.098724+00:00",
+      "check_type": "health_check",
+      "findings": {
+        "total_skills": 6340,
+        "verified": 4756,
+        "unverified": 1480,
+        "full_pipeline": 0,
+        "scanner_only": 0,
+        "metadata_only": 0,
+        "with_agent_audit": 0,
+        "status_breakdown": {
+          "pass": 4756,
+          "unverified": 1480,
+          "manual_review": 75,
+          "fail": 29
+        },
+        "star_tiers": {
+          "1000+": 179,
+          "100-999": 391,
+          "10-99": 1203,
+          "1-9": 1880,
+          "0": 2687
+        },
+        "issues": [
+          "884 verified skills with null verified_commit"
+        ]
+      },
+      "recommendations": [
+        "Crawl pending hubs: skills_sh, skillsmp",
+        "Investigate 884 verified skills with null verified_commit"
+      ],
+      "changes_since_last": {
+        "new_skills": 0,
+        "newly_verified": 0,
+        "status_changes": [
+          "No changes since last check"
+        ]
+      }
+    },
+    {
+      "timestamp": "2026-02-28T23:15:11.253351+00:00",
+      "check_type": "verification_run",
+      "findings": {
+        "selected_count": 1,
+        "processed_count": 1,
+        "status_counts": {
+          "manual_review": 1
+        },
+        "stage_failures": {},
+        "remaining_unverified": 1380,
+        "run_report": "/Users/liendallas/Desktop/Projects/SecureSkillHub/data/verification-runs/20260228T231511Z_strict5_limit1.json"
+      }
+    },
+    {
+      "timestamp": "2026-02-28T23:25:27.054726+00:00",
+      "check_type": "verification_run",
+      "findings": {
+        "selected_count": 0,
+        "processed_count": 0,
+        "status_counts": {},
+        "stage_failures": {},
+        "remaining_unverified": 0,
+        "run_report": "/Users/liendallas/Desktop/Projects/SecureSkillHub/data/verification-runs/20260228T232526Z_strict5_limit0.json"
+      }
+    },
+    {
+      "timestamp": "2026-02-28T23:25:27.479131+00:00",
+      "check_type": "verification_run",
+      "findings": {
+        "script": "run_verify_sample.py",
+        "source": "*",
+        "limit": 0,
+        "candidates": 0,
+        "attempted": 0,
+        "scanned": 0,
+        "pass": 0,
+        "manual_review": 0,
+        "fail": 0,
+        "clone_failures": 0,
+        "scanner_errors": 0,
+        "only_unverified": true,
+        "skill_type": "*",
+        "shard_index": 0,
+        "shard_count": 1,
+        "include_repo_unavailable": false
+      }
+    },
+    {
+      "timestamp": "2026-02-28T23:47:56.893500+00:00",
+      "check_type": "verification_run",
+      "findings": {
+        "selected_count": 0,
+        "processed_count": 0,
+        "status_counts": {},
+        "stage_failures": {},
+        "remaining_unverified": 0,
+        "run_report": "/Users/liendallas/Desktop/Projects/SecureSkillHub/data/verification-runs/20260228T234756Z_strict5_limit10.json"
+      }
+    },
+    {
+      "timestamp": "2026-02-28T23:52:09.863484+00:00",
+      "check_type": "verification_run",
+      "findings": {
+        "selected_count": 0,
+        "processed_count": 0,
+        "status_counts": {},
+        "stage_failures": {},
+        "remaining_unverified": 0,
+        "run_report": "/Users/liendallas/Desktop/Projects/SecureSkillHub/data/verification-runs/20260228T235209Z_strict5_limit10.json"
+      }
+    },
+    {
+      "timestamp": "2026-02-28T23:54:12.311752+00:00",
+      "check_type": "verification_run",
+      "findings": {
+        "selected_count": 10,
+        "processed_count": 10,
+        "status_counts": {
+          "manual_review": 7,
+          "fail": 3
+        },
+        "stage_failures": {},
+        "remaining_unverified": 0,
+        "run_report": "/Users/liendallas/Desktop/Projects/SecureSkillHub/data/verification-runs/20260228T235411Z_strict5_limit10.json"
+      }
+    },
+    {
+      "timestamp": "2026-03-01T00:33:00.817175+00:00",
+      "check_type": "health_check",
+      "findings": {
+        "total_skills": 6307,
+        "verified": 4679,
+        "unverified": 1380,
+        "full_pipeline": 0,
+        "scanner_only": 0,
+        "metadata_only": 0,
+        "with_agent_audit": 0,
+        "status_breakdown": {
+          "pass": 4679,
+          "unverified": 1380,
+          "manual_review": 201,
+          "fail": 47
+        },
+        "star_tiers": {
+          "1000+": 149,
+          "100-999": 388,
+          "10-99": 1203,
+          "1-9": 1880,
+          "0": 2687
+        },
+        "issues": [
+          "922 verified skills with null verified_commit"
+        ]
+      },
+      "recommendations": [
+        "Crawl pending hubs: skills_sh, skillsmp",
+        "Verify more skills: 1,380 unverified (only 0% verified)",
+        "Investigate 922 verified skills with null verified_commit"
+      ],
+      "changes_since_last": {
+        "new_skills": 6307,
+        "newly_verified": 4679,
+        "status_changes": [
+          "+6307 new skills added",
+          "+4679 newly verified",
+          "+1380 unverified delta"
+        ]
+      }
+    },
+    {
+      "timestamp": "2026-03-01T01:59:00.678860+00:00",
+      "check_type": "verification_run",
+      "findings": {
+        "selected_count": 0,
+        "processed_count": 0,
+        "status_counts": {},
+        "stage_failures": {},
+        "remaining_unverified": 0,
+        "run_report": "/Users/liendallas/Desktop/Projects/SecureSkillHub/data/verification-runs/20260301T015900Z_strict5_limit50.json"
+      }
+    },
+    {
+      "timestamp": "2026-03-01T01:59:01.154405+00:00",
+      "check_type": "health_check",
+      "findings": {
+        "total_skills": 6307,
+        "verified": 4679,
+        "unverified": 1380,
+        "full_pipeline": 0,
+        "scanner_only": 0,
+        "metadata_only": 0,
+        "with_agent_audit": 0,
+        "status_breakdown": {
+          "pass": 4679,
+          "unverified": 1380,
+          "manual_review": 201,
+          "fail": 47
+        },
+        "star_tiers": {
+          "1000+": 149,
+          "100-999": 388,
+          "10-99": 1203,
+          "1-9": 1880,
+          "0": 2687
+        },
+        "issues": [
+          "922 verified skills with null verified_commit"
+        ]
+      },
+      "recommendations": [
+        "Crawl pending hubs: skills_sh, skillsmp",
+        "Verify more skills: 1,380 unverified (only 0% verified)",
+        "Investigate 922 verified skills with null verified_commit"
+      ],
+      "changes_since_last": {
+        "new_skills": 6307,
+        "newly_verified": 4679,
+        "status_changes": [
+          "+6307 new skills added",
+          "+4679 newly verified",
+          "+1380 unverified delta"
+        ]
+      }
+    },
+    {
+      "timestamp": "2026-03-01T05:07:52.463313+00:00",
+      "check_type": "verification_run",
+      "findings": {
+        "selected_count": 50,
+        "processed_count": 50,
+        "status_counts": {
+          "pass": 21,
+          "manual_review": 23,
+          "fail": 6
+        },
+        "stage_failures": {},
+        "remaining_unverified": 0,
+        "run_report": "/Users/liendallas/Desktop/Projects/SecureSkillHub/data/verification-runs/20260301T050752Z_strict5_limit50.json"
+      }
+    },
+    {
+      "timestamp": "2026-03-01T05:32:52.475249+00:00",
+      "check_type": "sm_review",
+      "findings": {
+        "mode": "periodic",
+        "total_reviewed": 20,
+        "decision_counts": {
+          "escalate": 8,
+          "clean": 12
+        },
+        "total_issues": 8,
+        "pm_review_needed": [
+          "014-jenkinsmcp-2b8690a9",
+          "12306-mcp-6e97232c",
+          "302-browser-use-mcp-8b5d3ea5",
+          "302-custom-mcp-b5337113",
+          "302-sandbox-mcp-bb35feca",
+          "AgentDeskAI--browser-tools-mcp",
+          "OpenTofu--opentofu",
+          "ableton-live-mcp-server-680295ec"
+        ],
+        "pm_review_count": 8
+      },
+      "recommendations": [
+        "PM review needed for 8 skill(s)"
+      ]
+    },
+    {
+      "timestamp": "2026-03-01T05:32:57.984509+00:00",
+      "check_type": "sm_review",
+      "findings": {
+        "mode": "manual-review-queue",
+        "total_reviewed": 5,
+        "decision_counts": {
+          "pm_review_needed": 5
+        },
+        "total_issues": 0,
+        "pm_review_needed": [
+          "-0b70eb6d",
+          "-22234892",
+          "-5048519e",
+          "-5d1d639b",
+          "-f8244bae"
+        ],
+        "pm_review_count": 5
+      },
+      "recommendations": [
+        "PM review needed for 5 skill(s)"
+      ]
+    },
+    {
+      "timestamp": "2026-03-01T05:33:38.965497+00:00",
+      "check_type": "sm_review",
+      "findings": {
+        "mode": "run-report",
+        "total_reviewed": 3,
+        "decision_counts": {
+          "clean": 1,
+          "pm_review_needed": 2
+        },
+        "total_issues": 0,
+        "pm_review_needed": [
+          "browser-use-fb4a9228",
+          "browser-use-mcp-server-577325d5"
+        ],
+        "pm_review_count": 2
+      },
+      "recommendations": [
+        "PM review needed for 2 skill(s)"
+      ]
+    },
+    {
+      "timestamp": "2026-03-01T05:33:43.404608+00:00",
+      "check_type": "health_check",
+      "findings": {
+        "total_skills": 6307,
+        "verified": 4659,
+        "unverified": 1380,
+        "full_pipeline": 101,
+        "scanner_only": 4266,
+        "metadata_only": 361,
+        "with_agent_audit": 101,
+        "status_breakdown": {
+          "pass": 4659,
+          "unverified": 1380,
+          "manual_review": 216,
+          "fail": 52
+        },
+        "star_tiers": {
+          "1000+": 149,
+          "100-999": 388,
+          "10-99": 1203,
+          "1-9": 1880,
+          "0": 2687
+        },
+        "issues": [
+          "922 verified skills with null verified_commit"
+        ]
+      },
+      "recommendations": [
+        "Crawl pending hubs: skills_sh, skillsmp",
+        "Verify more skills: 1,380 unverified (only 1% verified)",
+        "Investigate 922 verified skills with null verified_commit"
+      ],
+      "changes_since_last": {
+        "new_skills": 6307,
+        "newly_verified": 4659,
+        "status_changes": [
+          "+6307 new skills added",
+          "+4659 newly verified",
+          "+1380 unverified delta"
+        ]
+      }
+    },
+    {
+      "timestamp": "2026-03-01T05:46:25.371838+00:00",
+      "check_type": "verification_run",
+      "findings": {
+        "selected_count": 50,
+        "processed_count": 50,
+        "status_counts": {
+          "manual_review": 32,
+          "pass": 17,
+          "fail": 1
+        },
+        "stage_failures": {
+          "clone": 1
+        },
+        "remaining_unverified": 0,
+        "run_report": "/Users/liendallas/Desktop/Projects/SecureSkillHub/data/verification-runs/20260301T054624Z_strict5_limit50.json"
+      }
+    },
+    {
+      "timestamp": "2026-03-01T05:49:43.482410+00:00",
+      "check_type": "sm_review",
+      "findings": {
+        "mode": "run-report",
+        "total_reviewed": 50,
+        "decision_counts": {
+          "clean": 18,
+          "pm_review_needed": 32
+        },
+        "total_issues": 0,
+        "pm_review_needed": [
+          "unsplash-smart-mcp-server-0dc151b4",
+          "mcp-compose-ce279a48",
+          "alibabacloud-devops-mcp-server-9896fe5a",
+          "esxi-mcp-server-888e5265",
+          "fastapi-mcp-sse-8802acc7",
+          "scheduler-mcp-31b5a8af",
+          "xcodemcp-4bbe1c2c",
+          "findata-mcp-server-f718e971",
+          "mcp-design-system-extractor-736e60df",
+          "mcp-kubernetes-e0007ac5",
+          "otelcol-mcp-ac118d61",
+          "feishu-mcp-server-f2507759",
+          "hackmd-mcp-5c8fb338",
+          "mcp-server-e8d755da",
+          "mcp-server-upstash-7e5758bc",
+          "powerpoint-mcp-e18ac67d",
+          "mcpdocserver-592c811d",
+          "activitywatch-mcp-server-dd56a218",
+          "crawlbase-mcp-6a88a5bf",
+          "end-to-end-agentic-ai-automation-lab-af5fa77e"
+        ],
+        "pm_review_count": 32
+      },
+      "recommendations": [
+        "PM review needed for 32 skill(s)"
+      ]
+    },
+    {
+      "timestamp": "2026-03-01T05:49:45.819511+00:00",
+      "check_type": "sm_review",
+      "findings": {
+        "mode": "manual-review-queue",
+        "total_reviewed": 50,
+        "decision_counts": {
+          "pm_review_needed": 50
+        },
+        "total_issues": 0,
+        "pm_review_needed": [
+          "-0b70eb6d",
+          "-22234892",
+          "-5048519e",
+          "-5d1d639b",
+          "-f8244bae",
+          "0xtotaylor-mcp-server-skyfire-637693c3",
+          "100-mcp-server-5b634baa",
+          "1broseidon-mcp-jira-server-c3890652",
+          "1password-cli-for-agents-skills-bdd6d521",
+          "2bo-qiita-mcp-server-1460f2af",
+          "3d-polaroid-mcp-server-663489b5",
+          "611711dark-mcp-calculate-server-cadcb4d9",
+          "9506hqwy-redmine-mcp-server-48585856",
+          "GLips--Figma-Context-MCP",
+          "LaurieWired--GhidraMCP",
+          "NevaMind-AI--memU",
+          "OthmanAdi--planning-with-files",
+          "a-christmas-carol-mcp-server-021b157f",
+          "a-mem-mcp-server-98214750",
+          "aallsbury-qb-time-mcp-server-c91969da"
+        ],
+        "pm_review_count": 50
+      },
+      "recommendations": [
+        "PM review needed for 50 skill(s)"
+      ]
+    },
+    {
+      "timestamp": "2026-03-01T05:52:49.646267+00:00",
+      "check_type": "verification_run",
+      "findings": {
+        "selected_count": 1,
+        "processed_count": 1,
+        "status_counts": {
+          "manual_review": 1
+        },
+        "stage_failures": {
+          "clone": 1
+        },
+        "remaining_unverified": 0,
+        "run_report": "/Users/liendallas/Desktop/Projects/SecureSkillHub/data/verification-runs/20260301T055248Z_strict5_limit50.json"
+      }
+    },
+    {
+      "timestamp": "2026-03-01T05:58:23.339597+00:00",
+      "check_type": "verification_run",
+      "findings": {
+        "selected_count": 50,
+        "processed_count": 50,
+        "status_counts": {
+          "manual_review": 45,
+          "pass": 1,
+          "fail": 4
+        },
+        "stage_failures": {},
+        "remaining_unverified": 0,
+        "run_report": "/Users/liendallas/Desktop/Projects/SecureSkillHub/data/verification-runs/20260301T055822Z_strict5_limit50.json"
+      }
+    },
+    {
+      "timestamp": "2026-03-01T05:59:24.923628+00:00",
+      "check_type": "sm_review",
+      "findings": {
+        "mode": "run-report",
+        "total_reviewed": 50,
+        "decision_counts": {
+          "pm_review_needed": 45,
+          "clean": 5
+        },
+        "total_issues": 0,
+        "pm_review_needed": [
+          "remotion-best-practices-52f6dfff",
+          "frontend-design-b0f77b24",
+          "agent-browser-1bf556f2",
+          "upstash--context7-mcp",
+          "browser-use-fb4a9228",
+          "seo-audit-708a167a",
+          "github--github-mcp-server",
+          "next-best-practices-211cd6ec",
+          "better-auth-best-practices-2ac458f9",
+          "qwibitai--nanoclaw",
+          "OthmanAdi--planning-with-files",
+          "building-native-ui-1a2120f1",
+          "GLips--Figma-Context-MCP",
+          "tadata-org--fastapi_mcp",
+          "NevaMind-AI--memU",
+          "design-md-d705d036",
+          "scientific-thinking-analysis-be07c652",
+          "modelcontextprotocol--inspector",
+          "mark3labs--mcp-go",
+          "flutter-animations-dc2bfbce"
+        ],
+        "pm_review_count": 45
+      },
+      "recommendations": [
+        "PM review needed for 45 skill(s)"
+      ]
+    },
+    {
+      "timestamp": "2026-03-01T06:03:15.499044+00:00",
+      "check_type": "verification_run",
+      "findings": {
+        "selected_count": 50,
+        "processed_count": 50,
+        "status_counts": {
+          "manual_review": 50
+        },
+        "stage_failures": {},
+        "remaining_unverified": 0,
+        "run_report": "/Users/liendallas/Desktop/Projects/SecureSkillHub/data/verification-runs/20260301T060315Z_strict5_limit50.json"
+      }
+    },
+    {
+      "timestamp": "2026-03-01T06:03:18.759977+00:00",
+      "check_type": "sm_review",
+      "findings": {
+        "mode": "run-report",
+        "total_reviewed": 50,
+        "decision_counts": {
+          "pm_review_needed": 50
+        },
+        "total_issues": 0,
+        "pm_review_needed": [
+          "loki-mcp-292580a6",
+          "mcp-canvas-lms-7a0e2850",
+          "mcp-n8n-builder-88b69057",
+          "woocommerce-mcp-server-52b29010",
+          "mcp-applemusic-9d2a86cd",
+          "basecamp-mcp-server-5136a3ab",
+          "markitdown-mcp-server-8ef5babf",
+          "mcp-server-node-2d752252",
+          "mcp-server-home-assistant-1d6761a6",
+          "fred-mcp-server-6d9c6234",
+          "trae-skills-ffdedffd",
+          "mcp-vercel-1aaba1c1",
+          "mcp-ripgrep-126bc612",
+          "woodshed-07b87bae",
+          "pubmed-mcp-server-ebabf7ce",
+          "yokatlas-mcp-3302caa3",
+          "buildmcpserver-1bbad178",
+          "trellis-blender-440f806d",
+          "unsplash-smart-mcp-server-0dc151b4",
+          "mcp-compose-ce279a48"
+        ],
+        "pm_review_count": 50
+      },
+      "recommendations": [
+        "PM review needed for 50 skill(s)"
+      ]
+    },
+    {
+      "timestamp": "2026-03-01T06:04:34.604659+00:00",
+      "check_type": "health_check",
+      "findings": {
+        "total_skills": 6307,
+        "verified": 4627,
+        "unverified": 1380,
+        "full_pipeline": 173,
+        "scanner_only": 4217,
+        "metadata_only": 361,
+        "with_agent_audit": 173,
+        "status_breakdown": {
+          "pass": 4627,
+          "unverified": 1380,
+          "manual_review": 243,
+          "fail": 57
+        },
+        "star_tiers": {
+          "1000+": 149,
+          "100-999": 388,
+          "10-99": 1203,
+          "1-9": 1880,
+          "0": 2687
+        },
+        "issues": [
+          "914 verified skills with null verified_commit"
+        ]
+      },
+      "recommendations": [
+        "Crawl pending hubs: skills_sh, skillsmp",
+        "Verify more skills: 1,380 unverified (only 1% verified)",
+        "Investigate 914 verified skills with null verified_commit"
+      ],
+      "changes_since_last": {
+        "new_skills": 6307,
+        "newly_verified": 4627,
+        "status_changes": [
+          "+6307 new skills added",
+          "+4627 newly verified",
+          "+1380 unverified delta"
+        ]
+      }
+    },
+    {
+      "timestamp": "2026-03-01T06:04:38.910290+00:00",
+      "check_type": "health_check",
+      "findings": {
+        "total_skills": 6307,
+        "verified": 4627,
+        "unverified": 1380,
+        "full_pipeline": 173,
+        "scanner_only": 4217,
+        "metadata_only": 361,
+        "with_agent_audit": 173,
+        "status_breakdown": {
+          "pass": 4627,
+          "unverified": 1380,
+          "manual_review": 243,
+          "fail": 57
+        },
+        "star_tiers": {
+          "1000+": 149,
+          "100-999": 388,
+          "10-99": 1203,
+          "1-9": 1880,
+          "0": 2687
+        },
+        "issues": [
+          "914 verified skills with null verified_commit"
+        ]
+      },
+      "recommendations": [
+        "Crawl pending hubs: skills_sh, skillsmp",
+        "Verify more skills: 1,380 unverified (only 1% verified)",
+        "Investigate 914 verified skills with null verified_commit"
+      ],
+      "changes_since_last": {
+        "new_skills": 0,
+        "newly_verified": 0,
+        "status_changes": [
+          "No changes since last check"
+        ]
+      }
+    },
+    {
+      "timestamp": "2026-03-01T06:04:42.261687+00:00",
+      "check_type": "health_check",
+      "findings": {
+        "total_skills": 6307,
+        "verified": 4627,
+        "unverified": 1380,
+        "full_pipeline": 173,
+        "scanner_only": 4217,
+        "metadata_only": 361,
+        "with_agent_audit": 173,
+        "status_breakdown": {
+          "pass": 4627,
+          "unverified": 1380,
+          "manual_review": 243,
+          "fail": 57
+        },
+        "star_tiers": {
+          "1000+": 149,
+          "100-999": 388,
+          "10-99": 1203,
+          "1-9": 1880,
+          "0": 2687
+        },
+        "issues": [
+          "914 verified skills with null verified_commit"
+        ]
+      },
+      "recommendations": [
+        "Crawl pending hubs: skills_sh, skillsmp",
+        "Verify more skills: 1,380 unverified (only 1% verified)",
+        "Investigate 914 verified skills with null verified_commit"
+      ],
+      "changes_since_last": {
+        "new_skills": 0,
+        "newly_verified": 0,
+        "status_changes": [
+          "No changes since last check"
+        ]
+      }
+    },
+    {
+      "timestamp": "2026-03-01T06:05:35.327814+00:00",
+      "check_type": "health_check",
+      "findings": {
+        "total_skills": 6307,
+        "verified": 4627,
+        "unverified": 1380,
+        "full_pipeline": 173,
+        "scanner_only": 4217,
+        "metadata_only": 361,
+        "with_agent_audit": 173,
+        "status_breakdown": {
+          "pass": 4627,
+          "unverified": 1380,
+          "manual_review": 243,
+          "fail": 57
+        },
+        "star_tiers": {
+          "1000+": 149,
+          "100-999": 388,
+          "10-99": 1203,
+          "1-9": 1880,
+          "0": 2687
+        },
+        "issues": [
+          "914 verified skills with null verified_commit"
+        ]
+      },
+      "recommendations": [
+        "Crawl pending hubs: skills_sh, skillsmp",
+        "Verify more skills: 1,380 unverified (only 1% verified)",
+        "Investigate 914 verified skills with null verified_commit"
+      ],
+      "changes_since_last": {
+        "new_skills": 0,
+        "newly_verified": 0,
+        "status_changes": [
+          "No changes since last check"
+        ]
+      }
+    },
+    {
+      "timestamp": "2026-03-01T06:06:01.019898+00:00",
+      "check_type": "health_check",
+      "findings": {
+        "total_skills": 6307,
+        "verified": 4627,
+        "unverified": 1380,
+        "full_pipeline": 173,
+        "scanner_only": 4217,
+        "metadata_only": 361,
+        "with_agent_audit": 173,
+        "status_breakdown": {
+          "pass": 4627,
+          "unverified": 1380,
+          "manual_review": 243,
+          "fail": 57
+        },
+        "star_tiers": {
+          "1000+": 149,
+          "100-999": 388,
+          "10-99": 1203,
+          "1-9": 1880,
+          "0": 2687
+        },
+        "issues": [
+          "914 verified skills with null verified_commit"
+        ]
+      },
+      "recommendations": [
+        "Crawl pending hubs: skills_sh, skillsmp",
+        "Verify more skills: 1,380 unverified (only 1% verified)",
+        "Investigate 914 verified skills with null verified_commit"
+      ],
+      "changes_since_last": {
+        "new_skills": 0,
+        "newly_verified": 0,
+        "status_changes": [
+          "No changes since last check"
+        ]
+      }
+    },
+    {
+      "timestamp": "2026-03-01T06:06:15.659293+00:00",
+      "check_type": "health_check",
+      "findings": {
+        "total_skills": 6307,
+        "verified": 4627,
+        "unverified": 1380,
+        "full_pipeline": 173,
+        "scanner_only": 4217,
+        "metadata_only": 361,
+        "with_agent_audit": 173,
+        "status_breakdown": {
+          "pass": 4627,
+          "unverified": 1380,
+          "manual_review": 243,
+          "fail": 57
+        },
+        "star_tiers": {
+          "1000+": 149,
+          "100-999": 388,
+          "10-99": 1203,
+          "1-9": 1880,
+          "0": 2687
+        },
+        "issues": [
+          "914 verified skills with null verified_commit"
+        ]
+      },
+      "recommendations": [
+        "Crawl pending hubs: skills_sh, skillsmp",
+        "Verify more skills: 1,380 unverified (only 1% verified)",
+        "Investigate 914 verified skills with null verified_commit"
+      ],
+      "changes_since_last": {
+        "new_skills": 0,
+        "newly_verified": 0,
+        "status_changes": [
+          "No changes since last check"
+        ]
+      }
+    },
+    {
+      "timestamp": "2026-03-01T06:07:23.030323+00:00",
+      "check_type": "sm_review",
+      "findings": {
+        "mode": "manual-review-queue",
+        "total_reviewed": 3,
+        "decision_counts": {
+          "pm_review_needed": 3
+        },
+        "total_issues": 0,
+        "pm_review_needed": [
+          "-0b70eb6d",
+          "-22234892",
+          "-5048519e"
+        ],
+        "pm_review_count": 3
+      },
+      "recommendations": [
+        "PM review needed for 3 skill(s)"
+      ]
+    },
+    {
+      "timestamp": "2026-03-01T06:14:16.488685+00:00",
+      "check_type": "sm_review",
+      "findings": {
+        "mode": "run-report",
+        "total_reviewed": 50,
+        "decision_counts": {
+          "pm_review_needed": 50
+        },
+        "total_issues": 0,
+        "pm_review_needed": [
+          "loki-mcp-292580a6",
+          "mcp-canvas-lms-7a0e2850",
+          "mcp-n8n-builder-88b69057",
+          "woocommerce-mcp-server-52b29010",
+          "mcp-applemusic-9d2a86cd",
+          "basecamp-mcp-server-5136a3ab",
+          "markitdown-mcp-server-8ef5babf",
+          "mcp-server-node-2d752252",
+          "mcp-server-home-assistant-1d6761a6",
+          "fred-mcp-server-6d9c6234",
+          "trae-skills-ffdedffd",
+          "mcp-vercel-1aaba1c1",
+          "mcp-ripgrep-126bc612",
+          "woodshed-07b87bae",
+          "pubmed-mcp-server-ebabf7ce",
+          "yokatlas-mcp-3302caa3",
+          "buildmcpserver-1bbad178",
+          "trellis-blender-440f806d",
+          "unsplash-smart-mcp-server-0dc151b4",
+          "mcp-compose-ce279a48"
+        ],
+        "pm_review_count": 50
+      },
+      "recommendations": [
+        "PM review needed for 50 skill(s)"
+      ]
+    },
+    {
+      "timestamp": "2026-03-01T06:14:16.489959+00:00",
+      "check_type": "pm_review",
+      "findings": {
+        "skill_id": "loki-mcp-292580a6",
+        "previous_status": "manual_review",
+        "decision": "fail",
+        "reason": "PM final decision: fail due to high-risk scanner findings.",
+        "reviewer": "pm_dual_agent",
+        "mode": "run-report"
+      }
+    },
+    {
+      "timestamp": "2026-03-01T06:14:16.490479+00:00",
+      "check_type": "pm_review",
+      "findings": {
+        "skill_id": "mcp-canvas-lms-7a0e2850",
+        "previous_status": "manual_review",
+        "decision": "fail",
+        "reason": "PM final decision: fail due to high-risk scanner findings.",
+        "reviewer": "pm_dual_agent",
+        "mode": "run-report"
+      }
+    },
+    {
+      "timestamp": "2026-03-01T06:14:16.491039+00:00",
+      "check_type": "pm_review",
+      "findings": {
+        "skill_id": "mcp-n8n-builder-88b69057",
+        "previous_status": "manual_review",
+        "decision": "fail",
+        "reason": "PM final decision: fail due to high-risk scanner findings.",
+        "reviewer": "pm_dual_agent",
+        "mode": "run-report"
+      }
+    },
+    {
+      "timestamp": "2026-03-01T06:14:16.491506+00:00",
+      "check_type": "pm_review",
+      "findings": {
+        "skill_id": "woocommerce-mcp-server-52b29010",
+        "previous_status": "manual_review",
+        "decision": "fail",
+        "reason": "PM final decision: fail due to high-risk scanner findings.",
+        "reviewer": "pm_dual_agent",
+        "mode": "run-report"
+      }
+    },
+    {
+      "timestamp": "2026-03-01T06:14:16.492001+00:00",
+      "check_type": "pm_review",
+      "findings": {
+        "skill_id": "mcp-applemusic-9d2a86cd",
+        "previous_status": "manual_review",
+        "decision": "fail",
+        "reason": "PM final decision: fail due to high-risk scanner findings.",
+        "reviewer": "pm_dual_agent",
+        "mode": "run-report"
+      }
+    },
+    {
+      "timestamp": "2026-03-01T06:14:16.492716+00:00",
+      "check_type": "pm_review",
+      "findings": {
+        "skill_id": "basecamp-mcp-server-5136a3ab",
+        "previous_status": "manual_review",
+        "decision": "fail",
+        "reason": "PM final decision: fail due to high-risk scanner findings.",
+        "reviewer": "pm_dual_agent",
+        "mode": "run-report"
+      }
+    },
+    {
+      "timestamp": "2026-03-01T06:14:16.493166+00:00",
+      "check_type": "pm_review",
+      "findings": {
+        "skill_id": "markitdown-mcp-server-8ef5babf",
+        "previous_status": "manual_review",
+        "decision": "fail",
+        "reason": "PM final decision: fail due to high-risk scanner findings.",
+        "reviewer": "pm_dual_agent",
+        "mode": "run-report"
+      }
+    },
+    {
+      "timestamp": "2026-03-01T06:14:16.493596+00:00",
+      "check_type": "pm_review",
+      "findings": {
+        "skill_id": "mcp-server-node-2d752252",
+        "previous_status": "manual_review",
+        "decision": "fail",
+        "reason": "PM final decision: fail due to high-risk scanner findings.",
+        "reviewer": "pm_dual_agent",
+        "mode": "run-report"
+      }
+    },
+    {
+      "timestamp": "2026-03-01T06:14:16.494045+00:00",
+      "check_type": "pm_review",
+      "findings": {
+        "skill_id": "mcp-server-home-assistant-1d6761a6",
+        "previous_status": "manual_review",
+        "decision": "fail",
+        "reason": "PM final decision: fail due to high-risk scanner findings.",
+        "reviewer": "pm_dual_agent",
+        "mode": "run-report"
+      }
+    },
+    {
+      "timestamp": "2026-03-01T06:14:16.494543+00:00",
+      "check_type": "pm_review",
+      "findings": {
+        "skill_id": "fred-mcp-server-6d9c6234",
+        "previous_status": "manual_review",
+        "decision": "fail",
+        "reason": "PM final decision: fail due to high-risk scanner findings.",
+        "reviewer": "pm_dual_agent",
+        "mode": "run-report"
+      }
+    },
+    {
+      "timestamp": "2026-03-01T06:14:16.495049+00:00",
+      "check_type": "pm_review",
+      "findings": {
+        "skill_id": "trae-skills-ffdedffd",
+        "previous_status": "manual_review",
+        "decision": "fail",
+        "reason": "PM final decision: fail due to high-risk scanner findings.",
+        "reviewer": "pm_dual_agent",
+        "mode": "run-report"
+      }
+    },
+    {
+      "timestamp": "2026-03-01T06:14:16.495524+00:00",
+      "check_type": "pm_review",
+      "findings": {
+        "skill_id": "mcp-vercel-1aaba1c1",
+        "previous_status": "manual_review",
+        "decision": "fail",
+        "reason": "PM final decision: fail due to high-risk scanner findings.",
+        "reviewer": "pm_dual_agent",
+        "mode": "run-report"
+      }
+    },
+    {
+      "timestamp": "2026-03-01T06:14:16.496035+00:00",
+      "check_type": "pm_review",
+      "findings": {
+        "skill_id": "mcp-ripgrep-126bc612",
+        "previous_status": "manual_review",
+        "decision": "fail",
+        "reason": "PM final decision: fail due to high-risk scanner findings.",
+        "reviewer": "pm_dual_agent",
+        "mode": "run-report"
+      }
+    },
+    {
+      "timestamp": "2026-03-01T06:14:16.496540+00:00",
+      "check_type": "pm_review",
+      "findings": {
+        "skill_id": "woodshed-07b87bae",
+        "previous_status": "manual_review",
+        "decision": "fail",
+        "reason": "PM final decision: fail due to high-risk scanner findings.",
+        "reviewer": "pm_dual_agent",
+        "mode": "run-report"
+      }
+    },
+    {
+      "timestamp": "2026-03-01T06:14:16.497098+00:00",
+      "check_type": "pm_review",
+      "findings": {
+        "skill_id": "pubmed-mcp-server-ebabf7ce",
+        "previous_status": "manual_review",
+        "decision": "fail",
+        "reason": "PM final decision: fail due to high-risk scanner findings.",
+        "reviewer": "pm_dual_agent",
+        "mode": "run-report"
+      }
+    },
+    {
+      "timestamp": "2026-03-01T06:14:16.497711+00:00",
+      "check_type": "pm_review",
+      "findings": {
+        "skill_id": "yokatlas-mcp-3302caa3",
+        "previous_status": "manual_review",
+        "decision": "fail",
+        "reason": "PM final decision: fail due to high-risk scanner findings.",
+        "reviewer": "pm_dual_agent",
+        "mode": "run-report"
+      }
+    },
+    {
+      "timestamp": "2026-03-01T06:14:16.498221+00:00",
+      "check_type": "pm_review",
+      "findings": {
+        "skill_id": "buildmcpserver-1bbad178",
+        "previous_status": "manual_review",
+        "decision": "fail",
+        "reason": "PM final decision: fail due to high-risk scanner findings.",
+        "reviewer": "pm_dual_agent",
+        "mode": "run-report"
+      }
+    },
+    {
+      "timestamp": "2026-03-01T06:14:16.498726+00:00",
+      "check_type": "pm_review",
+      "findings": {
+        "skill_id": "trellis-blender-440f806d",
+        "previous_status": "manual_review",
+        "decision": "fail",
+        "reason": "PM final decision: fail due to high-risk scanner findings.",
+        "reviewer": "pm_dual_agent",
+        "mode": "run-report"
+      }
+    },
+    {
+      "timestamp": "2026-03-01T06:14:16.499277+00:00",
+      "check_type": "pm_review",
+      "findings": {
+        "skill_id": "unsplash-smart-mcp-server-0dc151b4",
+        "previous_status": "manual_review",
+        "decision": "fail",
+        "reason": "PM final decision: fail due to high-risk scanner findings.",
+        "reviewer": "pm_dual_agent",
+        "mode": "run-report"
+      }
+    },
+    {
+      "timestamp": "2026-03-01T06:14:16.499915+00:00",
+      "check_type": "pm_review",
+      "findings": {
+        "skill_id": "mcp-compose-ce279a48",
+        "previous_status": "manual_review",
+        "decision": "fail",
+        "reason": "PM final decision: fail due to high-risk scanner findings.",
+        "reviewer": "pm_dual_agent",
+        "mode": "run-report"
+      }
+    },
+    {
+      "timestamp": "2026-03-01T06:14:16.500491+00:00",
+      "check_type": "pm_review",
+      "findings": {
+        "skill_id": "alibabacloud-devops-mcp-server-9896fe5a",
+        "previous_status": "manual_review",
+        "decision": "fail",
+        "reason": "PM final decision: fail due to high-risk scanner findings.",
+        "reviewer": "pm_dual_agent",
+        "mode": "run-report"
+      }
+    },
+    {
+      "timestamp": "2026-03-01T06:14:16.501035+00:00",
+      "check_type": "pm_review",
+      "findings": {
+        "skill_id": "esxi-mcp-server-888e5265",
+        "previous_status": "manual_review",
+        "decision": "fail",
+        "reason": "PM final decision: fail due to high-risk scanner findings.",
+        "reviewer": "pm_dual_agent",
+        "mode": "run-report"
+      }
+    },
+    {
+      "timestamp": "2026-03-01T06:14:16.501662+00:00",
+      "check_type": "pm_review",
+      "findings": {
+        "skill_id": "fastapi-mcp-sse-8802acc7",
+        "previous_status": "manual_review",
+        "decision": "fail",
+        "reason": "PM final decision: fail due to high-risk scanner findings.",
+        "reviewer": "pm_dual_agent",
+        "mode": "run-report"
+      }
+    },
+    {
+      "timestamp": "2026-03-01T06:14:16.502223+00:00",
+      "check_type": "pm_review",
+      "findings": {
+        "skill_id": "scheduler-mcp-31b5a8af",
+        "previous_status": "manual_review",
+        "decision": "fail",
+        "reason": "PM final decision: fail due to high-risk scanner findings.",
+        "reviewer": "pm_dual_agent",
+        "mode": "run-report"
+      }
+    },
+    {
+      "timestamp": "2026-03-01T06:14:16.502816+00:00",
+      "check_type": "pm_review",
+      "findings": {
+        "skill_id": "findata-mcp-server-f718e971",
+        "previous_status": "manual_review",
+        "decision": "fail",
+        "reason": "PM final decision: fail due to high-risk scanner findings.",
+        "reviewer": "pm_dual_agent",
+        "mode": "run-report"
+      }
+    },
+    {
+      "timestamp": "2026-03-01T06:14:16.503382+00:00",
+      "check_type": "pm_review",
+      "findings": {
+        "skill_id": "mcp-design-system-extractor-736e60df",
+        "previous_status": "manual_review",
+        "decision": "fail",
+        "reason": "PM final decision: fail due to high-risk scanner findings.",
+        "reviewer": "pm_dual_agent",
+        "mode": "run-report"
+      }
+    },
+    {
+      "timestamp": "2026-03-01T06:14:16.503906+00:00",
+      "check_type": "pm_review",
+      "findings": {
+        "skill_id": "mcp-kubernetes-e0007ac5",
+        "previous_status": "manual_review",
+        "decision": "fail",
+        "reason": "PM final decision: fail due to high-risk scanner findings.",
+        "reviewer": "pm_dual_agent",
+        "mode": "run-report"
+      }
+    },
+    {
+      "timestamp": "2026-03-01T06:14:16.504467+00:00",
+      "check_type": "pm_review",
+      "findings": {
+        "skill_id": "otelcol-mcp-ac118d61",
+        "previous_status": "manual_review",
+        "decision": "fail",
+        "reason": "PM final decision: fail due to high-risk scanner findings.",
+        "reviewer": "pm_dual_agent",
+        "mode": "run-report"
+      }
+    },
+    {
+      "timestamp": "2026-03-01T06:14:16.505031+00:00",
+      "check_type": "pm_review",
+      "findings": {
+        "skill_id": "xcodemcp-4bbe1c2c",
+        "previous_status": "manual_review",
+        "decision": "fail",
+        "reason": "PM final decision: fail due to high-risk scanner findings.",
+        "reviewer": "pm_dual_agent",
+        "mode": "run-report"
+      }
+    },
+    {
+      "timestamp": "2026-03-01T06:14:16.505847+00:00",
+      "check_type": "pm_review",
+      "findings": {
+        "skill_id": "craftdesk-396a6a90",
+        "previous_status": "manual_review",
+        "decision": "fail",
+        "reason": "PM final decision: fail due to high-risk scanner findings.",
+        "reviewer": "pm_dual_agent",
+        "mode": "run-report"
+      }
+    },
+    {
+      "timestamp": "2026-03-01T06:14:16.506403+00:00",
+      "check_type": "pm_review",
+      "findings": {
+        "skill_id": "feishu-mcp-server-f2507759",
+        "previous_status": "manual_review",
+        "decision": "fail",
+        "reason": "PM final decision: fail due to high-risk scanner findings.",
+        "reviewer": "pm_dual_agent",
+        "mode": "run-report"
+      }
+    },
+    {
+      "timestamp": "2026-03-01T06:14:16.506952+00:00",
+      "check_type": "pm_review",
+      "findings": {
+        "skill_id": "hackmd-mcp-5c8fb338",
+        "previous_status": "manual_review",
+        "decision": "fail",
+        "reason": "PM final decision: fail due to high-risk scanner findings.",
+        "reviewer": "pm_dual_agent",
+        "mode": "run-report"
+      }
+    },
+    {
+      "timestamp": "2026-03-01T06:14:16.507526+00:00",
+      "check_type": "pm_review",
+      "findings": {
+        "skill_id": "mcp-server-e8d755da",
+        "previous_status": "manual_review",
+        "decision": "fail",
+        "reason": "PM final decision: fail due to high-risk scanner findings.",
+        "reviewer": "pm_dual_agent",
+        "mode": "run-report"
+      }
+    },
+    {
+      "timestamp": "2026-03-01T06:14:16.508058+00:00",
+      "check_type": "pm_review",
+      "findings": {
+        "skill_id": "mcp-server-upstash-7e5758bc",
+        "previous_status": "manual_review",
+        "decision": "fail",
+        "reason": "PM final decision: fail due to high-risk scanner findings.",
+        "reviewer": "pm_dual_agent",
+        "mode": "run-report"
+      }
+    },
+    {
+      "timestamp": "2026-03-01T06:14:16.508605+00:00",
+      "check_type": "pm_review",
+      "findings": {
+        "skill_id": "powerpoint-mcp-e18ac67d",
+        "previous_status": "manual_review",
+        "decision": "fail",
+        "reason": "PM final decision: fail due to high-risk scanner findings.",
+        "reviewer": "pm_dual_agent",
+        "mode": "run-report"
+      }
+    },
+    {
+      "timestamp": "2026-03-01T06:14:16.509192+00:00",
+      "check_type": "pm_review",
+      "findings": {
+        "skill_id": "activitywatch-mcp-server-dd56a218",
+        "previous_status": "manual_review",
+        "decision": "fail",
+        "reason": "PM final decision: fail due to high-risk scanner findings.",
+        "reviewer": "pm_dual_agent",
+        "mode": "run-report"
+      }
+    },
+    {
+      "timestamp": "2026-03-01T06:14:16.509778+00:00",
+      "check_type": "pm_review",
+      "findings": {
+        "skill_id": "crawlbase-mcp-6a88a5bf",
+        "previous_status": "manual_review",
+        "decision": "fail",
+        "reason": "PM final decision: fail due to high-risk scanner findings.",
+        "reviewer": "pm_dual_agent",
+        "mode": "run-report"
+      }
+    },
+    {
+      "timestamp": "2026-03-01T06:14:16.510446+00:00",
+      "check_type": "pm_review",
+      "findings": {
+        "skill_id": "mcpdocserver-592c811d",
+        "previous_status": "manual_review",
+        "decision": "fail",
+        "reason": "PM final decision: fail due to high-risk scanner findings.",
+        "reviewer": "pm_dual_agent",
+        "mode": "run-report"
+      }
+    },
+    {
+      "timestamp": "2026-03-01T06:14:16.511028+00:00",
+      "check_type": "pm_review",
+      "findings": {
+        "skill_id": "buildkite-mcp-server-e83db089",
+        "previous_status": "manual_review",
+        "decision": "fail",
+        "reason": "PM final decision: fail due to high-risk scanner findings.",
+        "reviewer": "pm_dual_agent",
+        "mode": "run-report"
+      }
+    },
+    {
+      "timestamp": "2026-03-01T06:14:16.511649+00:00",
+      "check_type": "pm_review",
+      "findings": {
+        "skill_id": "mcp-auth-servers-6e990a37",
+        "previous_status": "manual_review",
+        "decision": "fail",
+        "reason": "PM final decision: fail due to high-risk scanner findings.",
+        "reviewer": "pm_dual_agent",
+        "mode": "run-report"
+      }
+    },
+    {
+      "timestamp": "2026-03-01T06:14:16.512240+00:00",
+      "check_type": "pm_review",
+      "findings": {
+        "skill_id": "mcp-server-atlassian-confluence-bd611437",
+        "previous_status": "manual_review",
+        "decision": "fail",
+        "reason": "PM final decision: fail due to high-risk scanner findings.",
+        "reviewer": "pm_dual_agent",
+        "mode": "run-report"
+      }
+    },
+    {
+      "timestamp": "2026-03-01T06:14:16.512785+00:00",
+      "check_type": "pm_review",
+      "findings": {
+        "skill_id": "mcp-server-notify-045416bc",
+        "previous_status": "manual_review",
+        "decision": "fail",
+        "reason": "PM final decision: fail due to high-risk scanner findings.",
+        "reviewer": "pm_dual_agent",
+        "mode": "run-report"
+      }
+    },
+    {
+      "timestamp": "2026-03-01T06:14:16.513327+00:00",
+      "check_type": "pm_review",
+      "findings": {
+        "skill_id": "openai-codex-mcp-3a586a3a",
+        "previous_status": "manual_review",
+        "decision": "fail",
+        "reason": "PM final decision: fail due to high-risk scanner findings.",
+        "reviewer": "pm_dual_agent",
+        "mode": "run-report"
+      }
+    },
+    {
+      "timestamp": "2026-03-01T06:14:16.513884+00:00",
+      "check_type": "pm_review",
+      "findings": {
+        "skill_id": "ops-mcp-server-9941f7c2",
+        "previous_status": "manual_review",
+        "decision": "manual_review",
+        "reason": "PM kept manual_review: ambiguous medium-risk profile; requires direct repository inspection.",
+        "reviewer": "pm_dual_agent",
+        "mode": "run-report"
+      }
+    },
+    {
+      "timestamp": "2026-03-01T06:14:16.514470+00:00",
+      "check_type": "pm_review",
+      "findings": {
+        "skill_id": "roadrecon-mcp-server-70893ade",
+        "previous_status": "manual_review",
+        "decision": "fail",
+        "reason": "PM final decision: fail due to high-risk scanner findings.",
+        "reviewer": "pm_dual_agent",
+        "mode": "run-report"
+      }
+    },
+    {
+      "timestamp": "2026-03-01T06:14:16.515075+00:00",
+      "check_type": "pm_review",
+      "findings": {
+        "skill_id": "trello-mcp-770386bf",
+        "previous_status": "manual_review",
+        "decision": "fail",
+        "reason": "PM final decision: fail due to high-risk scanner findings.",
+        "reviewer": "pm_dual_agent",
+        "mode": "run-report"
+      }
+    },
+    {
+      "timestamp": "2026-03-01T06:14:16.515656+00:00",
+      "check_type": "pm_review",
+      "findings": {
+        "skill_id": "vchart-mcp-server-449fbdcc",
+        "previous_status": "manual_review",
+        "decision": "fail",
+        "reason": "PM final decision: fail due to high-risk scanner findings.",
+        "reviewer": "pm_dual_agent",
+        "mode": "run-report"
+      }
+    },
+    {
+      "timestamp": "2026-03-01T06:14:16.516270+00:00",
+      "check_type": "pm_review",
+      "findings": {
+        "skill_id": "whatsapp-mcp-ts-7ba27d62",
+        "previous_status": "manual_review",
+        "decision": "fail",
+        "reason": "PM final decision: fail due to high-risk scanner findings.",
+        "reviewer": "pm_dual_agent",
+        "mode": "run-report"
+      }
+    },
+    {
+      "timestamp": "2026-03-01T06:14:16.516874+00:00",
+      "check_type": "pm_review",
+      "findings": {
+        "skill_id": "aspire-mcp-sample-7d6bbe79",
+        "previous_status": "manual_review",
+        "decision": "fail",
+        "reason": "PM final decision: fail due to high-risk scanner findings.",
+        "reviewer": "pm_dual_agent",
+        "mode": "run-report"
+      }
+    },
+    {
+      "timestamp": "2026-03-01T06:14:16.517530+00:00",
+      "check_type": "pm_review",
+      "findings": {
+        "skill_id": "gdb-mcp-fa38da58",
+        "previous_status": "manual_review",
+        "decision": "fail",
+        "reason": "PM final decision: fail due to high-risk scanner findings.",
+        "reviewer": "pm_dual_agent",
+        "mode": "run-report"
+      }
+    }
+  ],
+  "last_check": "2026-03-01T06:06:15.659293+00:00",
+  "summary": {
+    "total_checks": 11,
+    "issues_found_lifetime": 11,
+    "last_healthy": null
+  }
+}

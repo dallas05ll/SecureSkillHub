@@ -1,0 +1,26 @@
+{
+  "id": "mcp-server-e14f07e6",
+  "name": "mcp-server",
+  "description": "MCP Server for interacting with your Changerawr instance!",
+  "repo_url": "https://github.com/Changerawr/mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "Changerawr",
+  "stars": 2,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "11de2b8b1aacd14528ae41fc15be235c783260cc",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 18,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:04:51Z",
+  "verification_level": "scanner_only"
+}

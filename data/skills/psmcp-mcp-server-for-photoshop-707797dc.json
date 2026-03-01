@@ -1,0 +1,28 @@
+{
+  "id": "psmcp-mcp-server-for-photoshop-707797dc",
+  "name": "PsMCP-MCP-Server-for-Photoshop",
+  "description": "An Extensive MCP server and a Gradio MCP client ( with Gemini ) with several tools made using win32com to intereact with Photoshop. Designing with Photoshop has never been more fun!",
+  "repo_url": "https://github.com/Chandrahas455/PsMCP-MCP-Server-for-Photoshop",
+  "source_hub": "mcp_so",
+  "owner": "Chandrahas455",
+  "stars": 9,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-vision",
+    "dev-web-frontend-react",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "1de3262612c6985a4b86b052eae5a341dbf7ba40",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 5,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:42:36Z",
+  "verification_level": "scanner_only"
+}

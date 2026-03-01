@@ -1,0 +1,26 @@
+{
+  "id": "mcp-argo-server-1f9968dc",
+  "name": "mcp-argo-server",
+  "description": "An MCP server for running Argo workflows, written in Golang",
+  "repo_url": "https://github.com/jakkaj/mcp-argo-server",
+  "source_hub": "mcp_so",
+  "owner": "jakkaj",
+  "stars": 10,
+  "primary_language": "unknown",
+  "tags": [
+    "dev-web-backend-go",
+    "prod"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "f4fd50ee6d7734544184e9671c31d31b28143080",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 7,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:42:36Z",
+  "verification_level": "scanner_only"
+}

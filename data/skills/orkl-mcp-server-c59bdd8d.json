@@ -1,0 +1,25 @@
+{
+  "id": "orkl-mcp-server-c59bdd8d",
+  "name": "orkl_mcp_server",
+  "description": "MCP server for ORKL Threat Intelligence Library",
+  "repo_url": "https://github.com/heiths/orkl_mcp_server",
+  "source_hub": "mcp_so",
+  "owner": "heiths",
+  "stars": 3,
+  "primary_language": "unknown",
+  "tags": [
+    "sec"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "6e92e20146ac88dcb98ceec886159581941ee24f",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 18,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:04:50Z",
+  "verification_level": "scanner_only"
+}

@@ -1,0 +1,26 @@
+{
+  "id": "flights-mcp-server-25935d1d",
+  "name": "flights-mcp-server",
+  "description": "MCP Server for Google Flights !!",
+  "repo_url": "https://github.com/smamidipaka6/flights-mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "smamidipaka6",
+  "stars": 18,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "5e9460a47aeb4e80c20e6d49311f71278635c7ad",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 3,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:42:36Z",
+  "verification_level": "scanner_only"
+}

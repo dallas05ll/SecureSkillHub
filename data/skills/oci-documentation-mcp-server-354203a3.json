@@ -1,0 +1,27 @@
+{
+  "id": "oci-documentation-mcp-server-354203a3",
+  "name": "oci-documentation-mcp-server",
+  "description": "Model Context Protocol (MCP) server for OCI Documentation",
+  "repo_url": "https://github.com/jin38324/oci-documentation-mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "jin38324",
+  "stars": 10,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp",
+    "prod-docs"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "2c8c4f4d002800a3022a5b03789cd5e29e0a0ea9",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 8,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:42:36Z",
+  "verification_level": "scanner_only"
+}

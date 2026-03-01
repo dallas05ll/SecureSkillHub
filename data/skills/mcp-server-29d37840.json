@@ -1,0 +1,25 @@
+{
+  "id": "mcp-server-29d37840",
+  "name": "mcp-server",
+  "description": "spring-ai+mcp示例",
+  "repo_url": "https://github.com/destiny-say/mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "destiny-say",
+  "stars": 1,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "0fd6b2f8955890557fefdfab38087a7b39b995da",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 2,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:40Z",
+  "verification_level": "scanner_only"
+}

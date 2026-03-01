@@ -1,0 +1,25 @@
+{
+  "id": "options-chain-8f251793",
+  "name": "options-chain",
+  "description": "Option Chain MCP server",
+  "repo_url": "https://github.com/blake365/options-chain",
+  "source_hub": "mcp_so",
+  "owner": "blake365",
+  "stars": 6,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "6724a4a5db51b16f24bff128c6defd71875077a4",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 6,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:54:02Z",
+  "verification_level": "scanner_only"
+}

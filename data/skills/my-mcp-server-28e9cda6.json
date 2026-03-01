@@ -1,0 +1,26 @@
+{
+  "id": "my-mcp-server-28e9cda6",
+  "name": "my-mcp-server",
+  "description": "My MCP Server POC",
+  "repo_url": "https://github.com/quang-pham-dev/my-mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "quang-pham-dev",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "985aa8170ef835f57c4db13b04a9539ea21f4abb",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 12,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:40Z",
+  "verification_level": "scanner_only"
+}

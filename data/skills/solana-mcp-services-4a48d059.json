@@ -1,0 +1,24 @@
+{
+  "id": "solana-mcp-services-4a48d059",
+  "name": "Solana Mcp Services",
+  "description": "This is an MCP server that allows large language models (LLMs) like Claude to interact with the Solana blockchain. The service provides a set of APIs and WebSocket interfaces that enable AI models to perform operations such as querying balances, sending tokens, retrieving transaction history, creating custom PumpFun tokens, and more.",
+  "repo_url": "https://github.com/ArcReactor9/Solana Mcp Services",
+  "source_hub": "mcp_so",
+  "owner": "ArcReactor9",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "integ",
+    "sec-crypto",
+    "repo_unavailable"
+  ],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null,
+  "repo_status": "unavailable",
+  "repo_check_date": "2026-02-28T20:52:56.064632+00:00",
+  "repo_check_error": "fatal: unable to access 'https://github.com/ArcReactor9/Solana Mcp Services/': URL rejected: Malformed input to a URL function"
+}

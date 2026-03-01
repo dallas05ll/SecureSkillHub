@@ -1,0 +1,25 @@
+{
+  "id": "mcp-java-sample-abaa322b",
+  "name": "mcp-java-sample",
+  "description": "Sample of an MCP server using Spring AI with Java",
+  "repo_url": "https://github.com/Saularch97/mcp-java-sample",
+  "source_hub": "mcp_so",
+  "owner": "Saularch97",
+  "stars": 1,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "acb3be35a41cdc5aea4e6073466fc695b9eb6fd3",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 1,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:40Z",
+  "verification_level": "scanner_only"
+}

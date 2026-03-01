@@ -1,0 +1,25 @@
+{
+  "id": "sonarr-mcp-094c6ef5",
+  "name": "sonarr-mcp",
+  "description": "Give your LLM access to Sonarr",
+  "repo_url": "https://github.com/jbydeley/sonarr-mcp",
+  "source_hub": "mcp_so",
+  "owner": "jbydeley",
+  "stars": 2,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "fed5c0c5497be2a5eb9545bb606f66985c11eddd",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 54,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:40Z",
+  "verification_level": "scanner_only"
+}

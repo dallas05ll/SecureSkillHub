@@ -1,0 +1,28 @@
+{
+  "id": "commercecloud-mcp-server-c5a8bac2",
+  "name": "commercecloud-mcp-server",
+  "description": "🤖 An MCP server that helps connect your AI applications with your Salesforce Commerce Cloud instance",
+  "repo_url": "https://github.com/BrinsilElias/commercecloud-mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "BrinsilElias",
+  "stars": 8,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "integ",
+    "integ-cloud",
+    "integ-crm"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "2c81656666cdad017b6e0321f9bece1d38457135",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 38,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:42:34Z",
+  "verification_level": "scanner_only"
+}

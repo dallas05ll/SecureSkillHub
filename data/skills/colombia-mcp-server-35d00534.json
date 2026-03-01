@@ -1,0 +1,26 @@
+{
+  "id": "colombia-mcp-server-35d00534",
+  "name": "colombia-mcp-server",
+  "description": "MCP server para consultar información geográfica y turística de Colombia. Accede a datos de las 6 regiones naturales, 32 departamentos, ciudades, municipios y atracciones turísticas con coordenadas e imágenes.",
+  "repo_url": "https://github.com/crexative/colombia-mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "crexative",
+  "stars": 4,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "d853826a875b4a2546df3fc98682eaab84def45b",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 7,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:54:02Z",
+  "verification_level": "scanner_only"
+}

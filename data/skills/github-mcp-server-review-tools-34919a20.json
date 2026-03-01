@@ -1,0 +1,26 @@
+{
+  "id": "github-mcp-server-review-tools-34919a20",
+  "name": "github-mcp-server-review-tools",
+  "description": "Extended GitHub MCP Server with additional tools for pull request review comment functionality",
+  "repo_url": "https://github.com/wjessup/github-mcp-server-review-tools",
+  "source_hub": "mcp_so",
+  "owner": "wjessup",
+  "stars": 22,
+  "primary_language": "unknown",
+  "tags": [
+    "dev-git",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "e9f75c01db460d98d6b3143a6bba0c002111680d",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 9,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:32:13Z",
+  "verification_level": "scanner_only"
+}

@@ -1,0 +1,26 @@
+{
+  "id": "linuxsshmcpserver-0c6fc090",
+  "name": "linuxSshMcpServer",
+  "description": "establish ssh connection and send shell command or file to target linux server.",
+  "repo_url": "https://github.com/shiyi25928988/linuxSshMcpServer",
+  "source_hub": "mcp_so",
+  "owner": "shiyi25928988",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "util-file"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "0c26955557e928811d3d4305f411dce65bec721d",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 1,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:41Z",
+  "verification_level": "scanner_only"
+}

@@ -1,0 +1,29 @@
+{
+  "id": "mcp-boilerplate-28f2ab70",
+  "name": "mcp-boilerplate",
+  "description": "A powerful, production-ready MCP server implementing the Model Context Protocol with robust SSE transport, built-in tools, and comprehensive error handling. Seamlessly connect AI models to data sources with enterprise-grade stability and performance.",
+  "repo_url": "https://github.com/milxxyzxc/mcp-boilerplate",
+  "source_hub": "mcp_so",
+  "owner": "milxxyzxc",
+  "stars": 2,
+  "primary_language": "unknown",
+  "tags": [
+    "data",
+    "data-ai",
+    "data-ai-nlp",
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "3ca713ff31dd74b1e576c00af824916a237f85b4",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 14,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:04:50Z",
+  "verification_level": "scanner_only"
+}

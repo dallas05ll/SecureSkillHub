@@ -1,0 +1,25 @@
+{
+  "id": "dataproc-mcp-8c721ff4",
+  "name": "dataproc-mcp",
+  "description": "Private MCP Dataproc server repository",
+  "repo_url": "https://github.com/dipseth/dataproc-mcp",
+  "source_hub": "mcp_so",
+  "owner": "dipseth",
+  "stars": 10,
+  "primary_language": "unknown",
+  "tags": [
+    "data"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "f731f8ab2381198b31e2034a996c69a4c590ae9d",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 234,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:42:36Z",
+  "verification_level": "scanner_only"
+}

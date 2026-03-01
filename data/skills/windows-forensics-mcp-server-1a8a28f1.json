@@ -1,0 +1,23 @@
+{
+  "id": "windows-forensics-mcp-server-1a8a28f1",
+  "name": "windows-forensics-mcp-server",
+  "description": "Windows DFIR from Linux - A comprehensive forensics toolkit designed entirely for Linux environments with zero Windows tool dependencies. Parse Windows artifacts natively using pure Python libraries",
+  "repo_url": "https://github.com/x746b/windows-forensics-mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "x746b",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "dev-web-backend-python",
+    "util",
+    "repo_unavailable"
+  ],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null,
+  "repo_status": "unavailable",
+  "repo_check_date": "2026-02-28T20:53:09.541716+00:00",
+  "repo_check_error": "fatal: could not read Username for 'https://github.com': Device not configured"
+}

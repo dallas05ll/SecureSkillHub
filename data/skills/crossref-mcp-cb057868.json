@@ -1,0 +1,26 @@
+{
+  "id": "crossref-mcp-cb057868",
+  "name": "crossref-mcp",
+  "description": "MCP server for Crossref",
+  "repo_url": "https://github.com/botanicastudios/crossref-mcp",
+  "source_hub": "mcp_so",
+  "owner": "botanicastudios",
+  "stars": 1,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "12ed5e547cd3a6a6fdd84135a664a3488203d076",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 6,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:42Z",
+  "verification_level": "scanner_only"
+}

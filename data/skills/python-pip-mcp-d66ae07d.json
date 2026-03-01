@@ -1,0 +1,27 @@
+{
+  "id": "python-pip-mcp-d66ae07d",
+  "name": "python-pip-mcp",
+  "description": "Minimal Example Implementation of a MCP Server / Client with Python and Pip. This example is tested in VSCode and Windows and both server and client are debuggable.",
+  "repo_url": "https://github.com/lukeage/python-pip-mcp",
+  "source_hub": "mcp_so",
+  "owner": "lukeage",
+  "stars": 9,
+  "primary_language": "unknown",
+  "tags": [
+    "dev",
+    "dev-testing",
+    "dev-web-backend-python"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "ddab18e708951e342678bd8dc9ff4124701969c8",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 4,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:42:34Z",
+  "verification_level": "scanner_only"
+}

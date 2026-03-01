@@ -1,0 +1,28 @@
+{
+  "id": "mcp-ncbi-fetcher-9f43517e",
+  "name": "mcp-ncbi-fetcher",
+  "description": "docker-based mcp server that enables Claude to fetch biological sequence data from NCBI",
+  "repo_url": "https://github.com/actual-awg/mcp-ncbi-fetcher",
+  "source_hub": "mcp_so",
+  "owner": "actual-awg",
+  "stars": 1,
+  "primary_language": "unknown",
+  "tags": [
+    "data",
+    "data-ai",
+    "dev-devops-docker",
+    "util-search"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "e641545365a7fccc6bfe015da9515bcce86315aa",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 4,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:42Z",
+  "verification_level": "scanner_only"
+}

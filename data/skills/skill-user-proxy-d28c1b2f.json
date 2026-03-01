@@ -1,0 +1,24 @@
+{
+  "id": "skill-user-proxy-d28c1b2f",
+  "name": "skill-user-proxy",
+  "description": "Agent Skill that reviews agent work on behalf of the user",
+  "repo_url": "https://github.com/metyatech/skill-user-proxy",
+  "source_hub": "github_search",
+  "skill_type": "agent_skill",
+  "owner": "metyatech",
+  "stars": 0,
+  "license": "mit",
+  "primary_language": "markdown",
+  "tags": [],
+  "verification_status": "manual_review",
+  "overall_score": 68,
+  "risk_level": "medium",
+  "verified_commit": null,
+  "scan_summary": null,
+  "last_updated": "2026-02-24T02:35:52Z",
+  "findings_summary": {
+    "notes": "Metadata-based verification. Score=68. Signals: stars=0 (-10); license='mit' (+5); owner='metyatech' (+3); primary_language='markdown'; source_hub='github_search'. Status: manual_review. Risk: medium."
+  },
+  "trust_level": "low",
+  "scan_date": "2026-02-26T06:14:56Z"
+}

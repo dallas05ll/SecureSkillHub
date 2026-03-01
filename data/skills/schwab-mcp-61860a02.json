@@ -1,0 +1,26 @@
+{
+  "id": "schwab-mcp-61860a02",
+  "name": "schwab-mcp",
+  "description": "Schwab MCP server that enables AI assistants like Claude to retrieve and interact with your Schwab accounts and Schwab market data.",
+  "repo_url": "https://github.com/sudowealth/schwab-mcp",
+  "source_hub": "mcp_so",
+  "owner": "sudowealth",
+  "stars": 23,
+  "primary_language": "unknown",
+  "tags": [
+    "data",
+    "data-ai"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "9c8e32f2e53d2ce28ca7fff55a433d4193570c41",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 33,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:32:11Z",
+  "verification_level": "scanner_only"
+}

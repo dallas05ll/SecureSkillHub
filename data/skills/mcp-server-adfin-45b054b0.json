@@ -1,0 +1,27 @@
+{
+  "id": "mcp-server-adfin-45b054b0",
+  "name": "mcp-server-adfin",
+  "description": "A Model Context Protocol Server for connecting with Adfin APIs",
+  "repo_url": "https://github.com/Adfin-Engineering/mcp-server-adfin",
+  "source_hub": "mcp_so",
+  "owner": "Adfin-Engineering",
+  "stars": 9,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp",
+    "integ"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "514608efcf57c680a26ce31d6280f982aec83a77",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 7,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:42:36Z",
+  "verification_level": "scanner_only"
+}

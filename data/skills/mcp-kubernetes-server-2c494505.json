@@ -1,0 +1,28 @@
+{
+  "id": "mcp-kubernetes-server-2c494505",
+  "name": "mcp-kubernetes-server",
+  "description": "A Model Context Protocol (MCP) server that enables AI assistants to interact with Kubernetes clusters. It serves as a bridge between AI tools (like Claude, Cursor, and GitHub Copilot) and Kubernetes, translating natural language requests into Kubernetes operations and returning the results in a format the AI tools can understand.",
+  "repo_url": "https://github.com/feiskyer/mcp-kubernetes-server",
+  "source_hub": "mcp_so",
+  "owner": "feiskyer",
+  "stars": 16,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp",
+    "dev-devops-k8s",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "e1184f8c7c010a09be8dcc89094fe7f6d67bd1b0",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 17,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:42:36Z",
+  "verification_level": "scanner_only"
+}

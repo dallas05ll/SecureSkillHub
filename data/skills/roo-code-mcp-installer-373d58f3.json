@@ -1,0 +1,25 @@
+{
+  "id": "roo-code-mcp-installer-373d58f3",
+  "name": "Roo-Code-MCP-installer",
+  "description": "An MCP server installer for Roo Code. Handles the installation from Github, requirements, package management, update, installation and MCP Json configuration.",
+  "repo_url": "https://github.com/robertheadley/Roo-Code-MCP-installer",
+  "source_hub": "mcp_so",
+  "owner": "robertheadley",
+  "stars": 10,
+  "primary_language": "unknown",
+  "tags": [
+    "dev"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "1c49f3988570adfa3972fb5bf1e0316f2c71aecd",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 9,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:42:36Z",
+  "verification_level": "scanner_only"
+}

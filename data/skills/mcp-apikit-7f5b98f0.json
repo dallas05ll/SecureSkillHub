@@ -1,0 +1,26 @@
+{
+  "id": "mcp-apikit-7f5b98f0",
+  "name": "mcp-apikit",
+  "description": "Get API document info from mcp server",
+  "repo_url": "https://github.com/scarqin/mcp-apikit",
+  "source_hub": "mcp_so",
+  "owner": "scarqin",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "prod-docs"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "303bc797566bce80a779d241cad72de70ef8f552",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 8,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:40Z",
+  "verification_level": "scanner_only"
+}

@@ -1,0 +1,26 @@
+{
+  "id": "mcp-gdrive-server-18928863",
+  "name": "mcp-gdrive-server",
+  "description": "Google Drive MCP server for integrating with Google Drive to allow listing, reading, and searching over files.",
+  "repo_url": "https://github.com/tonioshikanlu/mcp-gdrive-server",
+  "source_hub": "mcp_so",
+  "owner": "tonioshikanlu",
+  "stars": 4,
+  "primary_language": "unknown",
+  "tags": [
+    "util-file",
+    "util-search"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "6c755acc37e37bb27bc91f04a22b18d2b4f8b99f",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 5,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:54:02Z",
+  "verification_level": "scanner_only"
+}

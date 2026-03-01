@@ -1,0 +1,26 @@
+{
+  "id": "gistpad-mcp-931c22eb",
+  "name": "gistpad-mcp",
+  "description": "📓 An MCP server for managing your personal knowledge, daily notes, and re-usable prompts via GitHub Gists",
+  "repo_url": "https://github.com/lostintangent/gistpad-mcp",
+  "source_hub": "mcp_so",
+  "owner": "lostintangent",
+  "stars": 187,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "prod-notes"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "4730a35ecfb399cb42a73055e269fb4e92c24707",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 23,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-27T06:36:35Z",
+  "verification_level": "scanner_only"
+}

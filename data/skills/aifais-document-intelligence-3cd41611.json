@@ -1,0 +1,31 @@
+{
+  "id": "aifais-document-intelligence-3cd41611",
+  "name": "aifais-document-intelligence",
+  "description": "Headless document processing for AI agents. Invoice extraction, contract analysis, and Dutch business verification. Pay-per-use via X402 on Solana. No API keys needed.",
+  "repo_url": "https://github.com/AIFAIS/aifais-document-intelligence",
+  "source_hub": "mcp_so",
+  "owner": "AIFAIS",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-audio",
+    "integ",
+    "integ-payment",
+    "prod-docs",
+    "sec-crypto",
+    "repo_unavailable"
+  ],
+  "verification_status": "manual_review",
+  "overall_score": 0,
+  "risk_level": "high",
+  "verified_commit": "",
+  "scan_summary": null,
+  "scan_date": "2026-02-28T20:27:24Z",
+  "findings_summary": {
+    "error": "clone failed: Cloning into '/var/folders/pq/bb71gjzd01d29nnmqrhqr2rc0000gn/T/strict5_aifais-document-intellig_cjmfc8ko/repo'...\nfatal: could not read Username for 'https://github.com': Device not configured",
+    "supervisor_approved": false,
+    "supervisor_confidence": 0
+  },
+  "repo_status": "unavailable"
+}

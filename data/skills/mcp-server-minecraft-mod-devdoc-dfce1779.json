@@ -1,0 +1,27 @@
+{
+  "id": "mcp-server-minecraft-mod-devdoc-dfce1779",
+  "name": "mcp-server-minecraft-mod-devdoc",
+  "description": "Model Context Protocol (MCP) Server for Minecraft Modding Documentation",
+  "repo_url": "https://github.com/Zhou-Shilin/mcp-server-minecraft-mod-devdoc",
+  "source_hub": "mcp_so",
+  "owner": "Zhou-Shilin",
+  "stars": 1,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp",
+    "prod-docs"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "c16c32a99b47e8927f6f24b241ad9a35b8d01d10",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 14,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:41Z",
+  "verification_level": "scanner_only"
+}

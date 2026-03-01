@@ -1,0 +1,26 @@
+{
+  "id": "mcp-sqlite-manager-2e697415",
+  "name": "mcp-sqlite-manager",
+  "description": "An MCP server to interact with SQLite databases",
+  "repo_url": "https://github.com/jonnyhoff/mcp-sqlite-manager",
+  "source_hub": "mcp_so",
+  "owner": "jonnyhoff",
+  "stars": 4,
+  "primary_language": "unknown",
+  "tags": [
+    "data",
+    "data-db"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "802290b79792f5df55baeacd36b8bec0c17eb57b",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 7,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:54:02Z",
+  "verification_level": "scanner_only"
+}

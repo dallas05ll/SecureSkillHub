@@ -1,0 +1,26 @@
+{
+  "id": "valjs-c3426c93",
+  "name": "valjs",
+  "description": "an mcp server for a valtown wrapper (terrible description)",
+  "repo_url": "https://github.com/thomasdavis/valjs",
+  "source_hub": "mcp_so",
+  "owner": "thomasdavis",
+  "stars": 1,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "f7d9144e85b014eebcf22f1f78a6a9d29afe5d4a",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 17,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:40Z",
+  "verification_level": "scanner_only"
+}

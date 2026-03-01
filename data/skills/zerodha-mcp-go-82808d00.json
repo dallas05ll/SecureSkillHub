@@ -1,0 +1,25 @@
+{
+  "id": "zerodha-mcp-go-82808d00",
+  "name": "zerodha-mcp-go",
+  "description": "MCP Server for Zerodha written in Golang",
+  "repo_url": "https://github.com/sukeesh/zerodha-mcp-go",
+  "source_hub": "mcp_so",
+  "owner": "sukeesh",
+  "stars": 11,
+  "primary_language": "unknown",
+  "tags": [
+    "dev-web-backend-go"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "f680ec5be05a3d5079c730f5d85a299663e221bf",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 1,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:42:36Z",
+  "verification_level": "scanner_only"
+}

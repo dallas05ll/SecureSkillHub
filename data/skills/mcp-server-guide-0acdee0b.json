@@ -1,0 +1,27 @@
+{
+  "id": "mcp-server-guide-0acdee0b",
+  "name": "mcp-server-guide",
+  "description": "A comprehensive guide and example implementations for building Model Context Protocol (MCP) servers in Python and TypeScript.",
+  "repo_url": "https://github.com/kaianuar/mcp-server-guide",
+  "source_hub": "mcp_so",
+  "owner": "kaianuar",
+  "stars": 1,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp",
+    "dev-web-backend-python"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "969317552dbef854c7555f0c754565c42fbfc00d",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 11,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:41Z",
+  "verification_level": "scanner_only"
+}

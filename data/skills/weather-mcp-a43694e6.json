@@ -1,0 +1,27 @@
+{
+  "id": "weather-mcp-a43694e6",
+  "name": "weather-mcp",
+  "description": "A Weather MCP server providing weather alerts and forecasts via the Model Context Protocol.",
+  "repo_url": "https://github.com/encoreshao/weather-mcp",
+  "source_hub": "mcp_so",
+  "owner": "encoreshao",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp",
+    "util-monitor"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "6189a7a0589bcc34704203207269e5f778de6c9d",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 5,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:43:00Z",
+  "verification_level": "scanner_only"
+}

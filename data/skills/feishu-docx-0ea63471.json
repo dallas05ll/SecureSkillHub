@@ -1,0 +1,31 @@
+{
+  "id": "feishu-docx-0ea63471",
+  "name": "feishu-docx",
+  "description": "Feishu/Lark Docs, Sheets, and Bitable to Markdown exporter with OAuth 2.0, CLI, TUI, and Claude Skills support for AI agent knowledge bases.",
+  "repo_url": "https://github.com/leemysw/feishu-docx",
+  "source_hub": "github_search",
+  "skill_type": "agent_skill",
+  "owner": "leemysw",
+  "stars": 57,
+  "license": "mit",
+  "primary_language": "Python",
+  "tags": [
+    "data-ai",
+    "integ",
+    "prod-docs",
+    "sec",
+    "sec-auth"
+  ],
+  "verification_status": "pass",
+  "overall_score": 74,
+  "risk_level": "low",
+  "verified_commit": null,
+  "scan_summary": null,
+  "last_updated": "2026-02-25T04:53:45Z",
+  "findings_summary": {
+    "notes": "MIT licensed, Python 3.11+, PyPI package available, actively maintained. OAuth integration for enterprise Feishu/Lark docs."
+  },
+  "trust_level": "low",
+  "scan_date": "2026-02-26T02:12:27Z",
+  "verification_level": "scanner_only"
+}

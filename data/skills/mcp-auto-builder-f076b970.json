@@ -1,0 +1,27 @@
+{
+  "id": "mcp-auto-builder-f076b970",
+  "name": "mcp_auto_builder",
+  "description": "Final unified interface for global users. Just describe your server, paste your API key (Claude/OpenAI/Grok), and this library will build, test, and deploy the full MCP server locally or remotely.",
+  "repo_url": "https://github.com/Sumedh1599/mcp_auto_builder",
+  "source_hub": "mcp_so",
+  "owner": "Sumedh1599",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "dev-testing",
+    "integ"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "d3fb89885747c14d7c5074646d5f7494f7a3e3fd",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 12,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:42Z",
+  "verification_level": "scanner_only"
+}

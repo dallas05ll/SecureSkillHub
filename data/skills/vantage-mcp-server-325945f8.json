@@ -1,0 +1,26 @@
+{
+  "id": "vantage-mcp-server-325945f8",
+  "name": "vantage-mcp-server",
+  "description": "MCP Server to fetch costs and usage data from your Vantage account.",
+  "repo_url": "https://github.com/vantage-sh/vantage-mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "vantage-sh",
+  "stars": 79,
+  "primary_language": "unknown",
+  "tags": [
+    "data",
+    "util-search"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "8bfc7df64aa3354ac6cad37df6a3b62feb706fd3",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 113,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-27T06:40:44Z",
+  "verification_level": "scanner_only"
+}

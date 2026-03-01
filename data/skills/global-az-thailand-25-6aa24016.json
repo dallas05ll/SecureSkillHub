@@ -1,0 +1,27 @@
+{
+  "id": "global-az-thailand-25-6aa24016",
+  "name": "global-az-thailand-25",
+  "description": "Introduction to the Azure MCP Server",
+  "repo_url": "https://github.com/ninefyi/global-az-thailand-25",
+  "source_hub": "mcp_so",
+  "owner": "ninefyi",
+  "stars": 4,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "integ-cloud",
+    "integ-cloud-azure"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "1a3f61f7170656a04e4af5b0fa7c3dcbb3ca3a91",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 4,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:54:02Z",
+  "verification_level": "scanner_only"
+}

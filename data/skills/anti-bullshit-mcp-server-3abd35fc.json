@@ -1,0 +1,25 @@
+{
+  "id": "anti-bullshit-mcp-server-3abd35fc",
+  "name": "anti-bullshit-mcp-server",
+  "description": "MCP server for analyzing claims, validating sources, and detecting manipulation using multiple epistemological frameworks",
+  "repo_url": "https://github.com/bmorphism/anti-bullshit-mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "bmorphism",
+  "stars": 23,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "89f5454ba55a66ca32dca5454aaca34b42508f3d",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 6,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:32:11Z",
+  "verification_level": "scanner_only"
+}

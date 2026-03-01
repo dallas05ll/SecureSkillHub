@@ -1,0 +1,25 @@
+{
+  "id": "014-jenkinsmcp-2b8690a9",
+  "name": "014.JenkinsMCP",
+  "description": "Jenkins MCP Server",
+  "repo_url": "https://github.com/WinJayX/014.JenkinsMCP",
+  "source_hub": "mcp_so",
+  "owner": "WinJayX",
+  "stars": 1,
+  "primary_language": "unknown",
+  "tags": [
+    "dev-devops-ci"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 4,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-26T04:49:07Z",
+  "verification_level": "scanner_only"
+}

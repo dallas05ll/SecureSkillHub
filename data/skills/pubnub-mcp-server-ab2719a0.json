@@ -1,0 +1,27 @@
+{
+  "id": "pubnub-mcp-server-ab2719a0",
+  "name": "pubnub-mcp-server",
+  "description": "PubNub MCP Model Context Protocol Server for use in Cursor, Windsurf, Claude Desktop, Claude Code and OpenAI Codex and more!",
+  "repo_url": "https://github.com/pubnub/pubnub-mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "pubnub",
+  "stars": 30,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp",
+    "dev"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "1a192d57321afd37b8d5793d6f2fe39ad1b9d9cb",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 62,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:32:12Z",
+  "verification_level": "scanner_only"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "branch-thinking-mcp-2e56b45e",
+  "name": "branch-thinking-mcp",
+  "description": "Branch-Thinking MCP Tool A TypeScript-powered MCP server for managing parallel branches of thought, semantic cross-references, and persistent tasks. Features dynamic scoring, AI-generated insights, batch operations, and visual graph navigation for advanced agentic workflows.",
+  "repo_url": "https://github.com/ssdeanx/branch-thinking-mcp",
+  "source_hub": "mcp_so",
+  "owner": "ssdeanx",
+  "stars": 15,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "prod",
+    "prod-pm",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "b59a838b372e579b0c839ba3ec1a4babb69414d3",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 13,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:42:36Z",
+  "verification_level": "scanner_only"
+}

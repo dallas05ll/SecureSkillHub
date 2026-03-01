@@ -1,0 +1,31 @@
+{
+  "id": "claude-matrix-4cf1bbc6",
+  "name": "Claude-Matrix",
+  "description": "Claude Code plugin providing persistent memory, code indexing across 15 languages, and automated hooks.",
+  "repo_url": "https://github.com/ojowwalker77/Claude-Matrix",
+  "source_hub": "github_search",
+  "skill_type": "agent_skill",
+  "owner": "ojowwalker77",
+  "stars": 97,
+  "license": "mit",
+  "primary_language": "TypeScript",
+  "tags": [
+    "data-ai",
+    "dev",
+    "prod",
+    "prod-notes",
+    "util-search"
+  ],
+  "verification_status": "pass",
+  "overall_score": 80,
+  "risk_level": "low",
+  "verified_commit": null,
+  "scan_summary": null,
+  "last_updated": "2026-02-24T18:29:59Z",
+  "findings_summary": {
+    "notes": "MIT licensed, TypeScript, actively maintained (updated 2026-02-24). Version 2.2.2, well-documented with CHANGELOG."
+  },
+  "trust_level": "low",
+  "scan_date": "2026-02-26T02:11:11Z",
+  "verification_level": "scanner_only"
+}

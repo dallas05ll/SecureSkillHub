@@ -1,0 +1,26 @@
+{
+  "id": "mcp-lambda-layer-87b83ac8",
+  "name": "mcp-lambda-layer",
+  "description": "A Lambda Layer that allows a lambda to operate as an MCP server",
+  "repo_url": "https://github.com/markvp/mcp-lambda-layer",
+  "source_hub": "mcp_so",
+  "owner": "markvp",
+  "stars": 12,
+  "primary_language": "unknown",
+  "tags": [
+    "integ-cloud",
+    "integ-cloud-aws"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "a8aa4cc76fb3264bd6d38014b738fddd880eb9b8",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 29,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:42:34Z",
+  "verification_level": "scanner_only"
+}

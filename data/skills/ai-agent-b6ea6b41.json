@@ -1,0 +1,25 @@
+{
+  "id": "ai-agent-b6ea6b41",
+  "name": "ai_agent",
+  "description": "A purly AI Agent using Gemini function call with MCP Server SSE!",
+  "repo_url": "https://github.com/anoochit/ai_agent",
+  "source_hub": "mcp_so",
+  "owner": "anoochit",
+  "stars": 3,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "0abd5f6c447cefc5d9bb9b62732656cd54ab217f",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 95,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:04:51Z",
+  "verification_level": "scanner_only"
+}

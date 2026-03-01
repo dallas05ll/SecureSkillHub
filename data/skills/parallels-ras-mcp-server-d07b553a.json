@@ -1,0 +1,26 @@
+{
+  "id": "parallels-ras-mcp-server-d07b553a",
+  "name": "parallels-ras-mcp-server",
+  "description": "MCP server for Parallels RAS using FastAPI",
+  "repo_url": "https://github.com/kamalsrini17/parallels-ras-mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "kamalsrini17",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "dev-web-backend-python",
+    "integ"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "bed49f3d4a7fe45a783ee5b0ecf3a19125f7557d",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 10,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:41Z",
+  "verification_level": "scanner_only"
+}

@@ -1,0 +1,25 @@
+{
+  "id": "mcp-linear-bc01f792",
+  "name": "mcp-linear",
+  "description": "An MCP Server for Linear",
+  "repo_url": "https://github.com/teamcurri/mcp-linear",
+  "source_hub": "mcp_so",
+  "owner": "teamcurri",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "prod-pm"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "6e6a7cb078cb0cc62ba2817c434dd3f1abed5d5d",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 7,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:41Z",
+  "verification_level": "scanner_only"
+}

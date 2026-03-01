@@ -1,0 +1,25 @@
+{
+  "id": "mcp-vsepgt-server-167a7c05",
+  "name": "mcp-vsepgt-server",
+  "description": "MCP сервера для VseGPT",
+  "repo_url": "https://github.com/janvarev/mcp-vsepgt-server",
+  "source_hub": "mcp_so",
+  "owner": "janvarev",
+  "stars": 6,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "19a9fc50acdbdfd48f4ab6bc7b4df2337755068c",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 3,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:54:02Z",
+  "verification_level": "scanner_only"
+}

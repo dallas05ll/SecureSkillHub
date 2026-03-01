@@ -1,0 +1,26 @@
+{
+  "id": "cursor-local-indexing-d598ba46",
+  "name": "cursor-local-indexing",
+  "description": "ChromaDB-powered local indexing support for Cursor, exposed as an MCP server",
+  "repo_url": "https://github.com/LuotoCompany/cursor-local-indexing",
+  "source_hub": "mcp_so",
+  "owner": "LuotoCompany",
+  "stars": 34,
+  "primary_language": "unknown",
+  "tags": [
+    "data-db-vector",
+    "util-search"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "92d0f461fe7ee53924cd353ecaad3fe52acb5cf9",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 4,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:32:12Z",
+  "verification_level": "scanner_only"
+}

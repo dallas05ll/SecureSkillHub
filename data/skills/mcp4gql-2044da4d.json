@@ -1,0 +1,25 @@
+{
+  "id": "mcp4gql-2044da4d",
+  "name": "mcp4gql",
+  "description": "MCP server for interacting with a GraphQL server",
+  "repo_url": "https://github.com/jorgeraad/mcp4gql",
+  "source_hub": "mcp_so",
+  "owner": "jorgeraad",
+  "stars": 3,
+  "primary_language": "unknown",
+  "tags": [
+    "data-db-graph"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "de8535f9c6c5e399f6c3b753a5fee808ac830753",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 10,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:04:50Z",
+  "verification_level": "scanner_only"
+}

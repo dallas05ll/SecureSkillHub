@@ -1,0 +1,27 @@
+{
+  "id": "promptfuzzer-mcp-25f351a1",
+  "name": "PromptFuzzer-MCP",
+  "description": "MCP Server for using Garak LLM vulnerability scanner",
+  "repo_url": "https://github.com/EdenYavin/PromptFuzzer-MCP",
+  "source_hub": "mcp_so",
+  "owner": "EdenYavin",
+  "stars": 6,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "sec",
+    "sec-scan"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "bbfaef25a47026c94ffc6d975b5a2064feeb0870",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 10,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:54:04Z",
+  "verification_level": "scanner_only"
+}

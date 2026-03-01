@@ -1,0 +1,25 @@
+{
+  "id": "mcp-airflow-openwebui-91d1ec96",
+  "name": "mcp-airflow-openwebui",
+  "description": "Integrate mcp-server-airflow to Open Web UI",
+  "repo_url": "https://github.com/Rakesh-infosrc/mcp-airflow-openwebui",
+  "source_hub": "mcp_so",
+  "owner": "Rakesh-infosrc",
+  "stars": 1,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "29a3402329ce76dbb3d5305e7f004aa4c01041bb",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 10,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:42Z",
+  "verification_level": "scanner_only"
+}

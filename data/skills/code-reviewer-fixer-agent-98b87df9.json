@@ -1,0 +1,28 @@
+{
+  "id": "code-reviewer-fixer-agent-98b87df9",
+  "name": "code-reviewer-fixer-agent",
+  "description": "This AI agent analyzes code repositories, detects potential security vulnerabilities, reviews code quality, and suggests fixes based on Sentry error logs using Sentry and GitHub MCP servers!",
+  "repo_url": "https://github.com/gokborayilmaz/code-reviewer-fixer-agent",
+  "source_hub": "mcp_so",
+  "owner": "gokborayilmaz",
+  "stars": 12,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "dev",
+    "sec",
+    "util-monitor"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "04b41672f51faf935757aeea7fe82285f80562ac",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 3,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:42:34Z",
+  "verification_level": "scanner_only"
+}

@@ -1,0 +1,46 @@
+{
+  "id": "subagent-driven-development-73335fd7",
+  "name": "Subagent-Driven Development",
+  "description": "Orchestration methodology that dispatches independent fresh subagents for individual implementation tasks with mandatory code-review checkpoints between iterations, supporting sequential, parallel, and investigation execution modes",
+  "repo_url": "https://github.com/NeoLabHQ/context-engineering-kit/tree/master/plugins/sadd/skills/subagent-driven-development",
+  "source_hub": "claude_skills_hub",
+  "skill_type": "agent_skill",
+  "owner": "NeoLabHQ",
+  "stars": 0,
+  "forks": 50,
+  "license": "GPL-3.0",
+  "primary_language": "markdown",
+  "tags": [
+    "dev",
+    "prod-pm",
+    "repo_unavailable"
+  ],
+  "source_tags": [
+    "testing",
+    "api",
+    "cli",
+    "coding",
+    "integration"
+  ],
+  "categories": [
+    "dev"
+  ],
+  "version": "1.0.0",
+  "requires_code_execution": false,
+  "verification_status": "pass",
+  "overall_score": 86,
+  "risk_level": "low",
+  "verified_commit": "554814cfd47755379170dd8686d9391822e3ea83",
+  "findings_summary": {
+    "notes": "Prompt-only skill (SKILL.md only, no scripts or hooks). Describes a multi-agent orchestration pattern using Task tool subagents with code review gates. No executable code or network calls present. Parent repo (NeoLabHQ/context-engineering-kit, TypeScript + Shell, 532 stars) is well-maintained and actively developed with organized plugin structure. Skill itself is markdown-only with no attack surface. Note: stars metadata was stale (recorded 433, actual 532). Skill enables dispatching Claude subagents for parallel/sequential work - users should be aware this pattern can spawn multiple agent tasks that incur token costs."
+  },
+  "scan_summary": "SKILL.md only - no scripts, hooks, or executables. Multi-agent orchestration pattern described in markdown. Low risk; token consumption implications for users of the skill.",
+  "parent_repo_stars": 532,
+  "is_monorepo_child": true,
+  "trust_level": "medium",
+  "scan_date": "2026-02-26T03:00:51Z",
+  "repo_status": "unavailable",
+  "repo_check_date": "2026-02-28T20:52:58.552944+00:00",
+  "repo_check_error": "fatal: repository 'https://github.com/NeoLabHQ/context-engineering-kit/tree/master/plugins/sadd/skills/subagent-driven-development/' not found",
+  "verification_level": "metadata_only"
+}

@@ -1,0 +1,26 @@
+{
+  "id": "recurse-mcp-d8cfa3f2",
+  "name": "recurse-mcp",
+  "description": "An MCP server for the Recurse Center",
+  "repo_url": "https://github.com/namanyayg/recurse-mcp",
+  "source_hub": "mcp_so",
+  "owner": "namanyayg",
+  "stars": 1,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "c4f6aed6958d9f9a677d0350f7d55f95bd001998",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 4,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:41Z",
+  "verification_level": "scanner_only"
+}

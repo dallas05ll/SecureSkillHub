@@ -1,0 +1,25 @@
+{
+  "id": "python-mcp-server-8a580789",
+  "name": "python-mcp-server",
+  "description": "Weather MCP server in python",
+  "repo_url": "https://github.com/aquental/python-mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "aquental",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "dev-web-backend-python"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "5ef635349a3052e1b6e39e52e2fe01ce3bcc476d",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 32,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:42Z",
+  "verification_level": "scanner_only"
+}

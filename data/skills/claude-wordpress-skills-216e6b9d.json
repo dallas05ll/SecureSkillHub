@@ -1,0 +1,30 @@
+{
+  "id": "claude-wordpress-skills-216e6b9d",
+  "name": "claude-wordpress-skills",
+  "description": "Professional WordPress engineering skills for Claude Code covering performance optimization, security auditing, and Gutenberg block development.",
+  "repo_url": "https://github.com/elvismdev/claude-wordpress-skills",
+  "source_hub": "github_search",
+  "skill_type": "agent_skill",
+  "owner": "elvismdev",
+  "stars": 85,
+  "license": "mit",
+  "primary_language": "Markdown",
+  "tags": [
+    "data-ai",
+    "dev",
+    "sec",
+    "sec-scan"
+  ],
+  "verification_status": "pass",
+  "overall_score": 76,
+  "risk_level": "low",
+  "verified_commit": null,
+  "scan_summary": null,
+  "last_updated": "2026-02-24T18:27:04Z",
+  "findings_summary": {
+    "notes": "MIT licensed, SKILL.md present, actively maintained. Some skills still WIP (security-review). Good domain focus."
+  },
+  "trust_level": "low",
+  "scan_date": "2026-02-26T02:11:19Z",
+  "verification_level": "scanner_only"
+}

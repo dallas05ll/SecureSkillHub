@@ -1,0 +1,26 @@
+{
+  "id": "olostep-mcp-server-cce7b1cf",
+  "name": "olostep-mcp-server",
+  "description": "Search Google, scrape webpage and retrieve content in markdown.",
+  "repo_url": "https://github.com/Olostep/olostep-mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "Olostep",
+  "stars": 8,
+  "primary_language": "unknown",
+  "tags": [
+    "prod-docs",
+    "util-search"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "dfb2880827e1f945a8a4b333a74a65df9e271670",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 22,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:42:34Z",
+  "verification_level": "scanner_only"
+}

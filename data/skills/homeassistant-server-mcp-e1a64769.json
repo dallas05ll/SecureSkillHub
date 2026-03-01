@@ -1,0 +1,28 @@
+{
+  "id": "homeassistant-server-mcp-e1a64769",
+  "name": "Homeassistant-server-mcp",
+  "description": "A Model Context Protocol (MCP) server for interacting with Home Assistant. This server provides tools to control and monitor your Home Assistant devices through MCP-enabled applications.",
+  "repo_url": "https://github.com/hekmon8/Homeassistant-server-mcp",
+  "source_hub": "mcp_so",
+  "owner": "hekmon8",
+  "stars": 46,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp",
+    "util",
+    "util-monitor"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "ad94df53d2851395e1b2710b54a32401b7040065",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 7,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:32:11Z",
+  "verification_level": "scanner_only"
+}

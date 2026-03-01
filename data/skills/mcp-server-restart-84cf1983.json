@@ -1,0 +1,25 @@
+{
+  "id": "mcp-server-restart-84cf1983",
+  "name": "mcp-server-restart",
+  "description": "Restarts Claude Desktop after mcp-server installation",
+  "repo_url": "https://github.com/non-dirty/mcp-server-restart",
+  "source_hub": "mcp_so",
+  "owner": "non-dirty",
+  "stars": 5,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "d8ef65c108f21725e79b05519d70a2e78051742d",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 7,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:54:02Z",
+  "verification_level": "scanner_only"
+}

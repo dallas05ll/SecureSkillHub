@@ -1,0 +1,27 @@
+{
+  "id": "dart-mcp-server-3fa313e6",
+  "name": "dart-mcp-server",
+  "description": "A Model Context Protocol server implementation for Dart task management system",
+  "repo_url": "https://github.com/jmanhype/dart-mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "jmanhype",
+  "stars": 5,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp",
+    "prod-pm"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "9c9fa9c22a821622b3bd661096dc9b4e2120edae",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 8,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:54:04Z",
+  "verification_level": "scanner_only"
+}

@@ -1,0 +1,25 @@
+{
+  "id": "codehooks-mcp-server-bcbeba74",
+  "name": "codehooks-mcp-server",
+  "description": "MCP server for codehooks.io",
+  "repo_url": "https://github.com/RestDB/codehooks-mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "RestDB",
+  "stars": 10,
+  "primary_language": "unknown",
+  "tags": [
+    "dev"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "1d731aae446c43309b672d5763d5a7b2618360d6",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 11,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:42:34Z",
+  "verification_level": "scanner_only"
+}

@@ -1,0 +1,29 @@
+{
+  "id": "algonius-browser-mcp-45fb7622",
+  "name": "algonius-browser-mcp",
+  "description": "Open-source MCP server for browser automation. Enables AI systems to control browsers, interact with web pages, and extract content programmatically.",
+  "repo_url": "https://github.com/algonius/algonius-browser-mcp",
+  "source_hub": "mcp_so",
+  "owner": "algonius",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "dev-web",
+    "prod",
+    "util-search",
+    "repo_unavailable"
+  ],
+  "verification_status": "manual_review",
+  "overall_score": 0,
+  "risk_level": "high",
+  "verified_commit": "",
+  "scan_summary": null,
+  "scan_date": "2026-02-28T20:27:25Z",
+  "findings_summary": {
+    "error": "clone failed: Cloning into '/var/folders/pq/bb71gjzd01d29nnmqrhqr2rc0000gn/T/strict5_algonius-browser-mcp-45f_inj011mo/repo'...\nfatal: could not read Username for 'https://github.com': Device not configured",
+    "supervisor_approved": false,
+    "supervisor_confidence": 0
+  },
+  "repo_status": "unavailable"
+}

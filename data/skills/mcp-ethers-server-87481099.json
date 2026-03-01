@@ -1,0 +1,27 @@
+{
+  "id": "mcp-ethers-server-87481099",
+  "name": "mcp-ethers-server",
+  "description": "A full implementation of Ethers as an AI tool for the model context protocol",
+  "repo_url": "https://github.com/crazyrabbitLTC/mcp-ethers-server",
+  "source_hub": "mcp_so",
+  "owner": "crazyrabbitLTC",
+  "stars": 12,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "d56ebd1d6cc489a9405204f1ee0ddb586bd3876f",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 165,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:42:34Z",
+  "verification_level": "scanner_only"
+}

@@ -1,0 +1,25 @@
+{
+  "id": "agently-mcp-hellogoodbye-ac6d86b2",
+  "name": "agently-mcp-hellogoodbye",
+  "description": "A simple example MCP server that demonstrates basic tool implementation with hello and goodbye functionality",
+  "repo_url": "https://github.com/onwardplatforms/agently-mcp-hellogoodbye",
+  "source_hub": "mcp_so",
+  "owner": "onwardplatforms",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "00478aaf33e22413183b1dca6e5e25bda4dd34fa",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 10,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:42Z",
+  "verification_level": "scanner_only"
+}

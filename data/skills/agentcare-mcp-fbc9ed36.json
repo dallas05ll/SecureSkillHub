@@ -1,0 +1,26 @@
+{
+  "id": "agentcare-mcp-fbc9ed36",
+  "name": "agentcare-mcp",
+  "description": "MCP Server for EMRs with FHIR",
+  "repo_url": "https://github.com/Kartha-AI/agentcare-mcp",
+  "source_hub": "mcp_so",
+  "owner": "Kartha-AI",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "1b467558f99570ac2f6d7fcff8d7bf8daec0f60f",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 26,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:41Z",
+  "verification_level": "scanner_only"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "data4library-mcp-f9e7ef25",
+  "name": "data4library-mcp",
+  "description": "A comprehensive MCP server providing complete access to Korea's Library Information Naru API. Enables AI models to easily access all public library information, book searches, loan status, and reading statistics across South Korea.",
+  "repo_url": "https://github.com/isnow890/data4library-mcp",
+  "source_hub": "mcp_so",
+  "owner": "isnow890",
+  "stars": 5,
+  "primary_language": "unknown",
+  "tags": [
+    "data",
+    "data-ai",
+    "integ",
+    "util-search"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "5aa8f62247b08c148330fc4930dd2ce99018d6d5",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 18,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:54:02Z",
+  "verification_level": "scanner_only"
+}

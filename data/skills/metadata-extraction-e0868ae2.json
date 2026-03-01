@@ -1,0 +1,51 @@
+{
+  "id": "metadata-extraction-e0868ae2",
+  "name": "Metadata Extraction",
+  "description": "Analyzes Claude Code conversation history to identify patterns, common mistakes, and opportunities for workflow improvement. Extracts and processes metadata from conversation data.",
+  "repo_url": "https://github.com/mhattingpete/claude-skills-marketplace/tree/main/productivity-skills-plugin/skills/conversation-analyzer",
+  "source_hub": "claude_skills_hub",
+  "skill_type": "agent_skill",
+  "owner": "mhattingpete",
+  "stars": 0,
+  "forks": 47,
+  "license": "Apache-2.0",
+  "primary_language": "Python",
+  "tags": [
+    "data",
+    "data-ai",
+    "dev",
+    "prod",
+    "repo_unavailable"
+  ],
+  "source_tags": [
+    "automation",
+    "testing",
+    "security",
+    "git",
+    "coding",
+    "productivity"
+  ],
+  "categories": [
+    "productivity",
+    "data-analysis"
+  ],
+  "version": "1.0.0",
+  "requires_code_execution": true,
+  "verification_status": "pass",
+  "overall_score": 72,
+  "risk_level": "low",
+  "verified_commit": null,
+  "scan_summary": null,
+  "findings_summary": {
+    "notes": "Repository confirmed active and public (406 stars, Apache-2.0). Subdirectory path in stored record (computer-forensics-skills) does not exist in the repo; the actual conversation-analyzer skill lives under productivity-skills-plugin/skills/conversation-analyzer. SKILL.md present. Python analysis script (analyze_history.py) included. Parent repo is well-maintained with 47 forks and active issues. Minor concern: subdirectory path mismatch in original record. No malicious code detected."
+  },
+  "last_updated": "2026-02-25T23:59:40Z",
+  "parent_repo_stars": 406,
+  "is_monorepo_child": true,
+  "trust_level": "medium",
+  "scan_date": "2026-02-26T03:00:51Z",
+  "repo_status": "unavailable",
+  "repo_check_date": "2026-02-28T20:52:32.582413+00:00",
+  "repo_check_error": "fatal: repository 'https://github.com/mhattingpete/claude-skills-marketplace/tree/main/productivity-skills-plugin/skills/conversation-analyzer/' not found",
+  "verification_level": "scanner_only"
+}

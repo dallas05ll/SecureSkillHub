@@ -1,0 +1,25 @@
+{
+  "id": "aj-mcp-3da43c06",
+  "name": "aj-mcp",
+  "description": "Simple MCP SDK in Java",
+  "repo_url": "https://github.com/lightweight-component/aj-mcp",
+  "source_hub": "mcp_so",
+  "owner": "lightweight-component",
+  "stars": 24,
+  "primary_language": "unknown",
+  "tags": [
+    "dev"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "36f99bc4123c060d1b27c577e0096c25b3826565",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 45,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:32:11Z",
+  "verification_level": "scanner_only"
+}

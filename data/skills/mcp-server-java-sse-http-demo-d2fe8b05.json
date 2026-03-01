@@ -1,0 +1,26 @@
+{
+  "id": "mcp-server-java-sse-http-demo-d2fe8b05",
+  "name": "mcp-server-java-sse-http-demo",
+  "description": "Java Model Context Protocol SSE HTTP Server with Jetty",
+  "repo_url": "https://github.com/stantonk/mcp-server-java-sse-http-demo",
+  "source_hub": "mcp_so",
+  "owner": "stantonk",
+  "stars": 5,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "91a056ab391524cd08ac8bbfb98b25457f8e601d",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 3,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:54:02Z",
+  "verification_level": "scanner_only"
+}

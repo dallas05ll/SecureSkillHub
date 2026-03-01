@@ -1,0 +1,27 @@
+{
+  "id": "word-orb-ac0edb8c",
+  "name": "word-orb",
+  "description": "Pedagogical word enrichment for AI agents. One API call returns what would cost 5 separate calls + an LLM generation: definition, IPA pronunciation, etymology as narrative, a teaching insight from Kelly (AI tutor), translations in 8 languages with native pronunciations, 3 age-appropriate explanations (kid/adult/senior), and a knowledge graph of connected words. Pre-computed and edge-cached on Cloudflare D1 — ~3ms response globally. Also includes 62,000 daily lesson segments across 365 days, 1...",
+  "repo_url": "https://github.com/Lesson of the Day, PBC/word-orb",
+  "source_hub": "mcp_so",
+  "owner": "Lesson of the Day, PBC",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp",
+    "integ",
+    "integ-cloud",
+    "sec-auth",
+    "sec-crypto",
+    "repo_unavailable"
+  ],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null,
+  "repo_status": "unavailable",
+  "repo_check_date": "2026-02-28T20:53:09.634246+00:00",
+  "repo_check_error": "fatal: unable to access 'https://github.com/Lesson of the Day, PBC/word-orb/': URL rejected: Malformed input to a URL function"
+}

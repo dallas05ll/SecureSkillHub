@@ -1,0 +1,26 @@
+{
+  "id": "fpl-server-0b7cd055",
+  "name": "fpl-server",
+  "description": "MCP server for FPL",
+  "repo_url": "https://github.com/Andyb9988/fpl-server",
+  "source_hub": "mcp_so",
+  "owner": "Andyb9988",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "ce19d84b130b2708d4ca05aed6fa4df06f7cad5a",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 1,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:41Z",
+  "verification_level": "scanner_only"
+}

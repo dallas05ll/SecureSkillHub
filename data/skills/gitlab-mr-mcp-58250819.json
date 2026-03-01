@@ -1,0 +1,29 @@
+{
+  "id": "gitlab-mr-mcp-58250819",
+  "name": "gitlab-mr-mcp",
+  "description": "Interact seamlessly with GitLab repositories to manage merge requests and issues. Fetch details, add comments, and streamline your code review process with ease.",
+  "repo_url": "https://github.com/kopfrechner/gitlab-mr-mcp",
+  "source_hub": "mcp_so",
+  "owner": "kopfrechner",
+  "stars": 82,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "dev",
+    "dev-git",
+    "util-media",
+    "util-search"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "44ca0d5a59a9accf8d1623b1fd2c8cf675d3d4f7",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 6,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-27T06:40:44Z",
+  "verification_level": "scanner_only"
+}

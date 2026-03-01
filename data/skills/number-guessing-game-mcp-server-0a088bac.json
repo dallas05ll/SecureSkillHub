@@ -1,0 +1,25 @@
+{
+  "id": "number-guessing-game-mcp-server-0a088bac",
+  "name": "number-guessing-game-mcp-server",
+  "description": "A demonstration of a MCP server showcasing dynamic tools and resources.",
+  "repo_url": "https://github.com/portal-labs-infrastructure/number-guessing-game-mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "portal-labs-infrastructure",
+  "stars": 1,
+  "primary_language": "unknown",
+  "tags": [
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "07de26169c05084c8a0f37b0add82f8a0d46bd3c",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 34,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:41Z",
+  "verification_level": "scanner_only"
+}

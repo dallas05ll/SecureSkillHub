@@ -1,0 +1,28 @@
+{
+  "id": "critical-briefs-11e2e506",
+  "name": "critical-briefs",
+  "description": "Critical Briefs: Agent Skills for Claude AI that validate business ideas, stress-test processes, and design MVPs through skeptical dialogue. Challenge assumptions and expose blind spots before you build.",
+  "repo_url": "https://github.com/Przemocny/critical-briefs",
+  "source_hub": "github_search",
+  "skill_type": "agent_skill",
+  "owner": "Przemocny",
+  "stars": 13,
+  "license": "apache-2.0",
+  "primary_language": "markdown",
+  "tags": [
+    "data-ai",
+    "dev-testing"
+  ],
+  "verification_status": "pass",
+  "overall_score": 83,
+  "risk_level": "low",
+  "verified_commit": null,
+  "scan_summary": null,
+  "last_updated": "2026-02-25T15:42:08Z",
+  "findings_summary": {
+    "notes": "Metadata-based verification. Score=83. Signals: stars=13 (>=10, +5); license='apache-2.0' (+5); owner='Przemocny' (+3); primary_language='markdown'; source_hub='github_search'. Status: pass. Risk: low."
+  },
+  "trust_level": "low",
+  "scan_date": "2026-02-26T06:14:56Z",
+  "verification_level": "metadata_only"
+}

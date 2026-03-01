@@ -1,0 +1,30 @@
+{
+  "started_at": "2026-02-28T23:52:16Z",
+  "finished_at": "2026-02-28T23:54:11Z",
+  "skill_type": "all",
+  "selected_ids": [
+    "find-skills-dbd2f3df",
+    "n8n-io--n8n",
+    "remotion-best-practices-52f6dfff",
+    "frontend-design-b0f77b24",
+    "azure-ai-4eff05a2",
+    "agent-browser-1bf556f2",
+    "superpowers-675df694",
+    "upstash--context7-mcp",
+    "agent-tools-0b12a3f4",
+    "browser-use-fb4a9228"
+  ],
+  "selected_count": 10,
+  "group_count": 5,
+  "processed_count": 10,
+  "status_counts": {
+    "manual_review": 7,
+    "fail": 3
+  },
+  "stage_failures": {},
+  "retry_ids": [],
+  "remaining_unverified": 0,
+  "only_unverified": true,
+  "source": "*",
+  "include_repo_unavailable": false
+}

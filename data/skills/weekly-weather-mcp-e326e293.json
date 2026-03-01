@@ -1,0 +1,25 @@
+{
+  "id": "weekly-weather-mcp-e326e293",
+  "name": "weekly-weather-mcp",
+  "description": "Weather MCP server which returns 7 days of detailed weather forecasts anywhere in the world",
+  "repo_url": "https://github.com/rossshannon/weekly-weather-mcp",
+  "source_hub": "mcp_so",
+  "owner": "rossshannon",
+  "stars": 8,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "44772db84d5cb7e07d0be661ecf93b1fcce5918b",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 9,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:54:02Z",
+  "verification_level": "scanner_only"
+}

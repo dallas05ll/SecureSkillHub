@@ -1,0 +1,25 @@
+{
+  "id": "i18n-mcp-server-07884bfd",
+  "name": "i18n-mcp-server",
+  "description": "MCP server for handling i18n JSON files",
+  "repo_url": "https://github.com/reinier-millo/i18n-mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "reinier-millo",
+  "stars": 8,
+  "primary_language": "unknown",
+  "tags": [
+    "util-file"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "ab715c47981847b818e5207a6f73a49dad092a46",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 16,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:42:34Z",
+  "verification_level": "scanner_only"
+}

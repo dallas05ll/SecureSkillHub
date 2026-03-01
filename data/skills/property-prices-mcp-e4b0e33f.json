@@ -1,0 +1,25 @@
+{
+  "id": "property-prices-mcp-e4b0e33f",
+  "name": "property-prices-mcp",
+  "description": "UK Property Price Search MCP Server",
+  "repo_url": "https://github.com/joemclo/property-prices-mcp",
+  "source_hub": "mcp_so",
+  "owner": "joemclo",
+  "stars": 1,
+  "primary_language": "unknown",
+  "tags": [
+    "util-search"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "96e2e87003bb86861012673d014bd15d8bf1899d",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 36,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:41Z",
+  "verification_level": "scanner_only"
+}

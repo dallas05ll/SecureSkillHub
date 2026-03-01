@@ -1,0 +1,25 @@
+{
+  "id": "test-mcp-server-191b5561",
+  "name": "test-mcp-server",
+  "description": "Test repository for MCP server demonstration",
+  "repo_url": "https://github.com/chalizardking/test-mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "chalizardking",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "dev-testing"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "e3b98511f96b0080fbf8d856378d46c0205d08c8",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 1,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:42:59Z",
+  "verification_level": "scanner_only"
+}

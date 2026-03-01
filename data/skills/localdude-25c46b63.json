@@ -1,0 +1,25 @@
+{
+  "id": "localdude-25c46b63",
+  "name": "localdude",
+  "description": "MCP server that allows accessing influxdb to read sensor from there in. Perhaps later some more active functionalities like sending mqtt messages.",
+  "repo_url": "https://github.com/jussikin/localdude",
+  "source_hub": "mcp_so",
+  "owner": "jussikin",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "prod-comm"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "3047dea02e6e8c3c1758a38185f16cda9ffa2ad9",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 11,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:41Z",
+  "verification_level": "scanner_only"
+}

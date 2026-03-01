@@ -1,0 +1,25 @@
+{
+  "id": "pemcp-1939bfd1",
+  "name": "PeMCP",
+  "description": "An comprehensive MCP Server for PE File Analysis",
+  "repo_url": "https://github.com/JameZUK/PeMCP",
+  "source_hub": "mcp_so",
+  "owner": "JameZUK",
+  "stars": 1,
+  "primary_language": "unknown",
+  "tags": [
+    "util-file"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "40c4d0c356e63bbc73151dfec65feb85e2419e42",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 116,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:41Z",
+  "verification_level": "scanner_only"
+}

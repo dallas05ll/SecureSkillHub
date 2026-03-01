@@ -1,0 +1,29 @@
+{
+  "id": "mcp-amazon-cloud-watch-logs-dfed5af3",
+  "name": "mcp-amazon-cloud-watch-logs",
+  "description": "A Model Context Protocol (MCP) server that enables AI assistants to interact with Amazon CloudWatch Logs through a standardized interface using AWS SDK.",
+  "repo_url": "https://github.com/hyorimitsu/mcp-amazon-cloud-watch-logs",
+  "source_hub": "mcp_so",
+  "owner": "hyorimitsu",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp",
+    "dev",
+    "integ-cloud",
+    "integ-cloud-aws"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "d1e539d126f06e68dbab8b03110ed05214cf1d3c",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 26,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:41Z",
+  "verification_level": "scanner_only"
+}

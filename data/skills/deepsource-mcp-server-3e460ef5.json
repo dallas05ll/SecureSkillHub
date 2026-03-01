@@ -1,0 +1,26 @@
+{
+  "id": "deepsource-mcp-server-3e460ef5",
+  "name": "deepsource-mcp-server",
+  "description": "Model Context Protocol (MCP) server for DeepSource",
+  "repo_url": "https://github.com/sapientpants/deepsource-mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "sapientpants",
+  "stars": 6,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "bfb0bce5f8c2cc449b8cb20ec37bce1b52052bd6",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 270,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:54:02Z",
+  "verification_level": "scanner_only"
+}

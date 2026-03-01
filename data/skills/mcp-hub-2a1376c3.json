@@ -1,0 +1,26 @@
+{
+  "id": "mcp-hub-2a1376c3",
+  "name": "mcp-hub",
+  "description": "A centralized hub server engineered to consolidate multiple MCP servers into dedicated Streamable HTTP or SSE endpoints, each tailored to specific use scenarios.",
+  "repo_url": "https://github.com/yourtion/mcp-hub",
+  "source_hub": "mcp_so",
+  "owner": "yourtion",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "util-media"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "8ea2f4baa4389e5809d0ae26c14badc023e40734",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 376,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:41Z",
+  "verification_level": "scanner_only"
+}

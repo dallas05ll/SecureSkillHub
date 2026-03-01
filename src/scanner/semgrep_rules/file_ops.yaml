@@ -1,0 +1,156 @@
+rules:
+  # -----------------------------------------------------------------------
+  # Python: File system operations
+  # -----------------------------------------------------------------------
+  - id: file-python-open
+    languages: [python]
+    severity: WARNING
+    message: >
+      open() call detected. Verify file paths are constrained and not
+      user-controlled without validation.
+    patterns:
+      - pattern: open(...)
+
+  - id: file-python-shutil
+    languages: [python]
+    severity: WARNING
+    message: >
+      shutil operation detected — can copy, move, or delete files and
+      directory trees.
+    pattern-either:
+      - pattern: shutil.copy(...)
+      - pattern: shutil.copy2(...)
+      - pattern: shutil.copytree(...)
+      - pattern: shutil.move(...)
+      - pattern: shutil.rmtree(...)
+      - pattern: shutil.make_archive(...)
+
+  - id: file-python-os-remove
+    languages: [python]
+    severity: WARNING
+    message: >
+      File deletion via os module detected. May remove critical files.
+    pattern-either:
+      - pattern: os.remove(...)
+      - pattern: os.unlink(...)
+      - pattern: os.rmdir(...)
+      - pattern: os.removedirs(...)
+
+  - id: file-python-os-mkdir
+    languages: [python]
+    severity: WARNING
+    message: >
+      Directory creation via os module detected.
+    pattern-either:
+      - pattern: os.makedirs(...)
+      - pattern: os.mkdir(...)
+
+  - id: file-python-os-rename
+    languages: [python]
+    severity: WARNING
+    message: >
+      File or directory rename detected. May be used to manipulate
+      filesystem structure.
+    patterns:
+      - pattern: os.rename(...)
+
+  - id: file-python-pathlib-write
+    languages: [python]
+    severity: WARNING
+    message: >
+      pathlib write operation detected. Verify target path is safe.
+    pattern-either:
+      - pattern: $PATH.write_text(...)
+      - pattern: $PATH.write_bytes(...)
+
+  - id: file-python-tempfile
+    languages: [python]
+    severity: WARNING
+    message: >
+      Temporary file/directory creation detected. Verify cleanup and
+      permissions.
+    pattern-either:
+      - pattern: tempfile.NamedTemporaryFile(...)
+      - pattern: tempfile.mkstemp(...)
+      - pattern: tempfile.mkdtemp(...)
+      - pattern: tempfile.TemporaryDirectory(...)
+
+  - id: file-python-glob
+    languages: [python]
+    severity: WARNING
+    message: >
+      Glob pattern file search detected — may enumerate filesystem contents.
+    pattern-either:
+      - pattern: glob.glob(...)
+      - pattern: glob.iglob(...)
+
+  # -----------------------------------------------------------------------
+  # JavaScript / TypeScript: File system operations
+  # -----------------------------------------------------------------------
+  - id: file-js-write
+    languages: [javascript, typescript]
+    severity: WARNING
+    message: >
+      File write operation detected. Verify target paths are constrained.
+    pattern-either:
+      - pattern: fs.writeFile(...)
+      - pattern: fs.writeFileSync(...)
+      - pattern: fs.appendFile(...)
+      - pattern: fs.appendFileSync(...)
+      - pattern: fs.createWriteStream(...)
+
+  - id: file-js-read
+    languages: [javascript, typescript]
+    severity: WARNING
+    message: >
+      File read operation detected. May access sensitive files.
+    pattern-either:
+      - pattern: fs.readFile(...)
+      - pattern: fs.readFileSync(...)
+      - pattern: fs.readdir(...)
+      - pattern: fs.readdirSync(...)
+      - pattern: fs.createReadStream(...)
+
+  - id: file-js-delete
+    languages: [javascript, typescript]
+    severity: WARNING
+    message: >
+      File deletion operation detected.
+    pattern-either:
+      - pattern: fs.unlink(...)
+      - pattern: fs.unlinkSync(...)
+      - pattern: fs.rmdir(...)
+      - pattern: fs.rmdirSync(...)
+      - pattern: fs.rm(...)
+      - pattern: fs.rmSync(...)
+
+  - id: file-js-mkdir
+    languages: [javascript, typescript]
+    severity: WARNING
+    message: >
+      Directory creation detected.
+    pattern-either:
+      - pattern: fs.mkdir(...)
+      - pattern: fs.mkdirSync(...)
+
+  - id: file-js-rename
+    languages: [javascript, typescript]
+    severity: WARNING
+    message: >
+      File rename operation detected.
+    pattern-either:
+      - pattern: fs.rename(...)
+      - pattern: fs.renameSync(...)
+
+  - id: file-js-promises
+    languages: [javascript, typescript]
+    severity: WARNING
+    message: >
+      Async file operation via fs.promises detected.
+    pattern-either:
+      - pattern: fs.promises.readFile(...)
+      - pattern: fs.promises.writeFile(...)
+      - pattern: fs.promises.unlink(...)
+      - pattern: fs.promises.mkdir(...)
+      - pattern: fs.promises.rmdir(...)
+      - pattern: fs.promises.rename(...)

@@ -1,0 +1,26 @@
+{
+  "id": "alpha-vantage-mcp-ff103864",
+  "name": "alpha_vantage_mcp",
+  "description": "MCP Server for AlphaVantage",
+  "repo_url": "https://github.com/septemhill/alpha_vantage_mcp",
+  "source_hub": "mcp_so",
+  "owner": "septemhill",
+  "stars": 2,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "97c74628760bf1078a8fbb4415726cd29ed24cd1",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 5,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:04:50Z",
+  "verification_level": "scanner_only"
+}

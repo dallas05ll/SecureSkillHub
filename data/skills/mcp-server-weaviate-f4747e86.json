@@ -1,0 +1,27 @@
+{
+  "id": "mcp-server-weaviate-f4747e86",
+  "name": "mcp-server-weaviate",
+  "description": "MCP (Model Context Protocol) server for Weaviate",
+  "repo_url": "https://github.com/weaviate/mcp-server-weaviate",
+  "source_hub": "mcp_so",
+  "owner": "weaviate",
+  "stars": 160,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp",
+    "data-db-vector"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "4db6a8f0aacfbca38b44510c60dc5f8afed0439b",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 1,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-27T06:36:35Z",
+  "verification_level": "scanner_only"
+}

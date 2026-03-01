@@ -1,0 +1,25 @@
+{
+  "id": "ens-mcp-server-40964108",
+  "name": "ens-mcp-server",
+  "description": "An MCP server for Ethereum Name Service resolutions",
+  "repo_url": "https://github.com/josheleonard/ens-mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "josheleonard",
+  "stars": 1,
+  "primary_language": "unknown",
+  "tags": [
+    "sec-crypto"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "b6bd9f3a4035af6da2727a98c6ffa89808a9f4f8",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 7,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:40Z",
+  "verification_level": "scanner_only"
+}

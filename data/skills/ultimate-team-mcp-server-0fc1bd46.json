@@ -1,0 +1,25 @@
+{
+  "id": "ultimate-team-mcp-server-0fc1bd46",
+  "name": "ultimate-team-mcp-server",
+  "description": "FDU Utils",
+  "repo_url": "https://github.com/msaelices/ultimate-team-mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "msaelices",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "9975495503a0abe8548bcc76091ea132c745b72a",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 47,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:42:59Z",
+  "verification_level": "scanner_only"
+}

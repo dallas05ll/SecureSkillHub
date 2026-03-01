@@ -1,0 +1,25 @@
+{
+  "id": "simple-mcp-sample-eeb54a0d",
+  "name": "simple-mcp-sample",
+  "description": "This repository demonstrates how to set up and implement basic MCP server that integrates with Claude Desktop.",
+  "repo_url": "https://github.com/edom18/simple-mcp-sample",
+  "source_hub": "mcp_so",
+  "owner": "edom18",
+  "stars": 3,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "3e25602f45d14f60c6e2d5de3c472a2269fb5e0c",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 9,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:04:50Z",
+  "verification_level": "scanner_only"
+}

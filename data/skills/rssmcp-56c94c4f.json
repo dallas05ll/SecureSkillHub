@@ -1,0 +1,26 @@
+{
+  "id": "rssmcp-56c94c4f",
+  "name": "rssmcp",
+  "description": "Simple RSS MCP Server",
+  "repo_url": "https://github.com/Lunran/rssmcp",
+  "source_hub": "mcp_so",
+  "owner": "Lunran",
+  "stars": 2,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "6cf1b37e047c475fcf8fb11d345291ce50453d92",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 7,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:04:51Z",
+  "verification_level": "scanner_only"
+}

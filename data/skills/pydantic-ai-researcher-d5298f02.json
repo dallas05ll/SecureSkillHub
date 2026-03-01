@@ -1,0 +1,26 @@
+{
+  "id": "pydantic-ai-researcher-d5298f02",
+  "name": "pydantic-ai-researcher",
+  "description": "pydantic-ai-researcher is a research system that orchestrates an asynchronous loop between two specialized agents: a research agent and an evaluator agent. The research agent answers complex queries using external MCP servers, while the evaluator agent assesses and refines these answers, iterating until a satisfactory response is attained.",
+  "repo_url": "https://github.com/ibagur/pydantic-ai-researcher",
+  "source_hub": "mcp_so",
+  "owner": "ibagur",
+  "stars": 1,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "util-search"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "c6c5f01fb69db80e4b542d1364ee56c3f56a5d07",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 6,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:40Z",
+  "verification_level": "scanner_only"
+}

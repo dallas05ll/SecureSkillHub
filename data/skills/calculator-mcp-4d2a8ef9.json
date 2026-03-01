@@ -1,0 +1,26 @@
+{
+  "id": "calculator-mcp-4d2a8ef9",
+  "name": "calculator-mcp",
+  "description": "High-precision calculation mcp server",
+  "repo_url": "https://github.com/to404hanga/calculator-mcp",
+  "source_hub": "mcp_so",
+  "owner": "to404hanga",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "4879e3c7dd2eb6e4007c1787d831292e7d5eba65",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 1,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:40Z",
+  "verification_level": "scanner_only"
+}

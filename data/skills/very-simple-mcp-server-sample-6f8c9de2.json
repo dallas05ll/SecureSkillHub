@@ -1,0 +1,26 @@
+{
+  "id": "very-simple-mcp-server-sample-6f8c9de2",
+  "name": "very-simple-mcp-server-sample",
+  "description": "The world most simplest MCP server sample, maybe.",
+  "repo_url": "https://github.com/ynaoto/very-simple-mcp-server-sample",
+  "source_hub": "mcp_so",
+  "owner": "ynaoto",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "40528cdf77b4b990d21c418b4377ceec089e858d",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 4,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:43:00Z",
+  "verification_level": "scanner_only"
+}

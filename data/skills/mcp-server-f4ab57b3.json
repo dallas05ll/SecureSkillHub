@@ -1,0 +1,26 @@
+{
+  "id": "mcp-server-f4ab57b3",
+  "name": "mcp-server",
+  "description": "SSAFY 학생들을 위한 프로젝트 포트폴리오 및 면접 준비 도우미 서버",
+  "repo_url": "https://github.com/wonnyboi/mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "wonnyboi",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "4ebf4e1c7c5c98f46e2b2eb0cf8e283eba0ba20b",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 13,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:41Z",
+  "verification_level": "scanner_only"
+}

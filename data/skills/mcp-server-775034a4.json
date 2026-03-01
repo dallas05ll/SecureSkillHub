@@ -1,0 +1,26 @@
+{
+  "id": "mcp-server-775034a4",
+  "name": "mcp-server",
+  "description": "Refunc Model Context Protocol Server",
+  "repo_url": "https://github.com/refunc/mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "refunc",
+  "stars": 1,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "6bb869f67f181ba40d432fe5d3555147dc2b2992",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 3,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:41Z",
+  "verification_level": "scanner_only"
+}

@@ -1,0 +1,226 @@
+{
+  "version": "2.0",
+  "updated_at": "2026-02-27T00:00:00Z",
+  "categories": [
+    {
+      "id": "dev",
+      "label": "Software Development",
+      "description": "Tools and skills for software engineering",
+      "skill_count": 0,
+      "children": [
+        {
+          "id": "dev-web",
+          "label": "Web Application",
+          "description": "Web development frameworks and tools",
+          "skill_count": 0,
+          "children": [
+            {
+              "id": "dev-web-frontend",
+              "label": "Frontend",
+              "description": "Client-side web development",
+              "skill_count": 0,
+              "children": [
+                {"id": "dev-web-frontend-react", "label": "React", "description": "React ecosystem tools", "skill_count": 0, "children": []},
+                {"id": "dev-web-frontend-vue", "label": "Vue", "description": "Vue ecosystem tools", "skill_count": 0, "children": []},
+                {"id": "dev-web-frontend-svelte", "label": "Svelte", "description": "Svelte ecosystem tools", "skill_count": 0, "children": []},
+                {"id": "dev-web-frontend-angular", "label": "Angular", "description": "Angular ecosystem tools", "skill_count": 0, "children": []}
+              ]
+            },
+            {
+              "id": "dev-web-backend",
+              "label": "Backend",
+              "description": "Server-side web development",
+              "skill_count": 0,
+              "children": [
+                {"id": "dev-web-backend-node", "label": "Node.js", "description": "Node.js ecosystem tools", "skill_count": 0, "children": []},
+                {"id": "dev-web-backend-python", "label": "Python", "description": "Python web frameworks", "skill_count": 0, "children": []},
+                {"id": "dev-web-backend-go", "label": "Go", "description": "Go web frameworks", "skill_count": 0, "children": []},
+                {"id": "dev-web-backend-rust", "label": "Rust", "description": "Rust web frameworks", "skill_count": 0, "children": []}
+              ]
+            },
+            {
+              "id": "dev-web-fullstack",
+              "label": "Fullstack",
+              "description": "Full-stack web development tools",
+              "skill_count": 0,
+              "children": [
+                {"id": "dev-web-fullstack-nextjs", "label": "Next.js", "description": "Next.js tools", "skill_count": 0, "children": []},
+                {"id": "dev-web-fullstack-nuxt", "label": "Nuxt", "description": "Nuxt tools", "skill_count": 0, "children": []}
+              ]
+            }
+          ]
+        },
+        {
+          "id": "dev-testing",
+          "label": "Testing & QA",
+          "description": "Testing frameworks, linting, and quality assurance",
+          "skill_count": 0,
+          "children": []
+        },
+        {
+          "id": "dev-git",
+          "label": "Git & Version Control",
+          "description": "Git workflows, hooks, and version control tools",
+          "skill_count": 0,
+          "children": []
+        },
+        {
+          "id": "dev-devops",
+          "label": "DevOps & Infrastructure",
+          "description": "CI/CD, containers, cloud infrastructure",
+          "skill_count": 0,
+          "children": [
+            {"id": "dev-devops-docker", "label": "Docker", "description": "Docker and containerization", "skill_count": 0, "children": []},
+            {"id": "dev-devops-k8s", "label": "Kubernetes", "description": "Kubernetes orchestration", "skill_count": 0, "children": []},
+            {"id": "dev-devops-ci", "label": "CI/CD", "description": "Continuous integration and deployment", "skill_count": 0, "children": []}
+          ]
+        },
+        {
+          "id": "dev-agents",
+          "label": "AI Agents & Multi-Agent",
+          "description": "Agent frameworks, orchestration, and multi-agent systems",
+          "skill_count": 0,
+          "children": []
+        },
+        {
+          "id": "dev-mobile",
+          "label": "Mobile Application",
+          "description": "Mobile app development tools",
+          "skill_count": 0,
+          "children": [
+            {"id": "dev-mobile-react-native", "label": "React Native", "description": "React Native tools", "skill_count": 0, "children": []},
+            {"id": "dev-mobile-flutter", "label": "Flutter", "description": "Flutter tools", "skill_count": 0, "children": []}
+          ]
+        },
+        {
+          "id": "dev-desktop",
+          "label": "Desktop Application",
+          "description": "Desktop app development tools",
+          "skill_count": 0,
+          "children": [
+            {"id": "dev-desktop-electron", "label": "Electron", "description": "Electron development", "skill_count": 0, "children": []},
+            {"id": "dev-desktop-tauri", "label": "Tauri", "description": "Tauri development", "skill_count": 0, "children": []}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "data",
+      "label": "Data & AI",
+      "description": "Data science, ML, and AI tools",
+      "skill_count": 0,
+      "children": [
+        {
+          "id": "data-ai",
+          "label": "AI & LLM Tools",
+          "description": "AI assistants, LLM utilities, and generative AI",
+          "skill_count": 0,
+          "children": [
+            {"id": "data-ai-nlp", "label": "NLP & Text", "description": "Natural language processing and text analysis", "skill_count": 0, "children": []},
+            {"id": "data-ai-vision", "label": "Vision", "description": "Computer vision and image processing", "skill_count": 0, "children": []},
+            {"id": "data-ai-audio", "label": "Audio", "description": "Speech, music, and audio processing", "skill_count": 0, "children": []}
+          ]
+        },
+        {
+          "id": "data-db",
+          "label": "Databases",
+          "description": "Database management, queries, and connectors",
+          "skill_count": 0,
+          "children": [
+            {"id": "data-db-vector", "label": "Vector DB", "description": "Vector databases for embeddings", "skill_count": 0, "children": []},
+            {"id": "data-db-graph", "label": "Graph DB", "description": "Graph databases and knowledge graphs", "skill_count": 0, "children": []}
+          ]
+        },
+        {
+          "id": "data-ml",
+          "label": "Machine Learning",
+          "description": "ML model development and deployment",
+          "skill_count": 0,
+          "children": []
+        },
+        {
+          "id": "data-analysis",
+          "label": "Data Analysis",
+          "description": "Data processing and visualization",
+          "skill_count": 0,
+          "children": []
+        }
+      ]
+    },
+    {
+      "id": "productivity",
+      "label": "Productivity & Office",
+      "description": "Workflow automation and office tools",
+      "skill_count": 0,
+      "children": [
+        {"id": "productivity-docs", "label": "Documents", "description": "Document creation and management", "skill_count": 0, "children": []},
+        {"id": "productivity-comm", "label": "Communication", "description": "Messaging, chat, and communication tools", "skill_count": 0, "children": []},
+        {"id": "productivity-pm", "label": "Project Management", "description": "Task tracking, kanban, and project tools", "skill_count": 0, "children": []},
+        {"id": "productivity-notes", "label": "Notes", "description": "Note-taking and knowledge management", "skill_count": 0, "children": []},
+        {"id": "productivity-calendar", "label": "Calendar", "description": "Scheduling and calendar tools", "skill_count": 0, "children": []},
+        {"id": "productivity-email", "label": "Email", "description": "Email management tools", "skill_count": 0, "children": []}
+      ]
+    },
+    {
+      "id": "integrations",
+      "label": "Integrations & APIs",
+      "description": "Third-party service connectors",
+      "skill_count": 0,
+      "children": [
+        {
+          "id": "integrations-cloud",
+          "label": "Cloud Services",
+          "description": "Cloud platform integrations",
+          "skill_count": 0,
+          "children": [
+            {"id": "integrations-cloud-aws", "label": "AWS", "description": "Amazon Web Services tools", "skill_count": 0, "children": []},
+            {"id": "integrations-cloud-azure", "label": "Azure", "description": "Microsoft Azure tools", "skill_count": 0, "children": []},
+            {"id": "integrations-cloud-gcp", "label": "GCP", "description": "Google Cloud Platform tools", "skill_count": 0, "children": []}
+          ]
+        },
+        {"id": "integrations-social", "label": "Social Media", "description": "Social platform integrations", "skill_count": 0, "children": []},
+        {"id": "integrations-crm", "label": "CRM", "description": "Customer relationship management", "skill_count": 0, "children": []},
+        {"id": "integrations-payment", "label": "Payments", "description": "Payment processing integrations", "skill_count": 0, "children": []},
+        {"id": "integrations-github", "label": "GitHub", "description": "GitHub integration tools", "skill_count": 0, "children": []},
+        {"id": "integrations-slack", "label": "Slack", "description": "Slack integration tools", "skill_count": 0, "children": []},
+        {"id": "integrations-notion", "label": "Notion", "description": "Notion integration tools", "skill_count": 0, "children": []},
+        {"id": "integrations-jira", "label": "Jira", "description": "Jira integration tools", "skill_count": 0, "children": []}
+      ]
+    },
+    {
+      "id": "security",
+      "label": "Security & Compliance",
+      "description": "Security scanning, auditing, and compliance tools",
+      "skill_count": 0,
+      "children": [
+        {"id": "security-scanning", "label": "Scanning", "description": "Vulnerability scanning tools", "skill_count": 0, "children": []},
+        {"id": "security-auth", "label": "Authentication", "description": "Auth and identity tools", "skill_count": 0, "children": []},
+        {"id": "security-secrets", "label": "Secrets Management", "description": "Secret and credential management", "skill_count": 0, "children": []},
+        {"id": "security-crypto", "label": "Crypto & Web3", "description": "Blockchain, cryptocurrency, and Web3 tools", "skill_count": 0, "children": []}
+      ]
+    },
+    {
+      "id": "utilities",
+      "label": "Utilities",
+      "description": "General-purpose utility tools",
+      "skill_count": 0,
+      "children": [
+        {"id": "utilities-file", "label": "File Management", "description": "File operations and conversion", "skill_count": 0, "children": []},
+        {"id": "utilities-search", "label": "Search", "description": "Search and information retrieval", "skill_count": 0, "children": []},
+        {"id": "utilities-browser", "label": "Browser", "description": "Web browsing and scraping", "skill_count": 0, "children": []},
+        {"id": "utilities-system", "label": "System", "description": "System administration tools", "skill_count": 0, "children": []},
+        {"id": "utilities-media", "label": "Media", "description": "Image, video, and media processing", "skill_count": 0, "children": []},
+        {"id": "utilities-monitor", "label": "Monitoring", "description": "System and service monitoring", "skill_count": 0, "children": []}
+      ]
+    },
+    {
+      "id": "status",
+      "label": "Status Tags",
+      "description": "Skill availability and health status indicators",
+      "skill_count": 0,
+      "children": [
+        {"id": "repo_unavailable", "label": "Repo Unavailable", "description": "Repository is unreachable, deleted, or became private", "skill_count": 0, "children": []}
+      ]
+    }
+  ]
+}

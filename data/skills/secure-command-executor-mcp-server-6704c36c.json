@@ -1,0 +1,26 @@
+{
+  "id": "secure-command-executor-mcp-server-6704c36c",
+  "name": "secure-command-executor-mcp-server",
+  "description": "A robust command execution service with daily log rotation, designed to securely manage and execute system commands with safety checks and logging.",
+  "repo_url": "https://github.com/HappyAny/secure-command-executor-mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "HappyAny",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "util-monitor"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "0804a8928d4a36c5d98ec3aee31cd9bf96ba78e2",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 3,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:40Z",
+  "verification_level": "scanner_only"
+}

@@ -1,0 +1,27 @@
+{
+  "id": "mysql-mcp-server-f7a2c58b",
+  "name": "mysql-mcp-server",
+  "description": "mcp model-context-protocol mysql cursor n8n",
+  "repo_url": "https://github.com/dave-wind/mysql-mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "dave-wind",
+  "stars": 12,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp",
+    "data-db"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "d82eabc611cd247af2d1ab081b41430d4f8e3687",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 5,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:42:34Z",
+  "verification_level": "scanner_only"
+}

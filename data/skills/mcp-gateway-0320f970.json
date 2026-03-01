@@ -1,0 +1,26 @@
+{
+  "id": "mcp-gateway-0320f970",
+  "name": "mcp-gateway",
+  "description": "A gateway demo for MCP SSE Server",
+  "repo_url": "https://github.com/lightconetech/mcp-gateway",
+  "source_hub": "mcp_so",
+  "owner": "lightconetech",
+  "stars": 151,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "2ff7fa454bc87089ccf4324b4373fda68efd425b",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 6,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-27T06:36:35Z",
+  "verification_level": "scanner_only"
+}

@@ -1,0 +1,30 @@
+{
+  "id": "gemforge-mcp-0a3d096a",
+  "name": "GemForge-MCP",
+  "description": "MCP server to empower your agent with enterprise-grade Gemini integration for codebase analysis, live search, text/PDF/image processing, and more on your favorite MCP clients.",
+  "repo_url": "https://github.com/PV-Bhat/GemForge-MCP",
+  "source_hub": "mcp_so",
+  "owner": "PV-Bhat",
+  "stars": 4,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp",
+    "data-ai-vision",
+    "dev",
+    "integ",
+    "util-search"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "fcdfe888accbc48ab2d368cb2b664c5989ed69e7",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 42,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:54:02Z",
+  "verification_level": "scanner_only"
+}

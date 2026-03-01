@@ -1,0 +1,28 @@
+{
+  "id": "mcp-server-2c82ec6d",
+  "name": "mcp-server",
+  "description": "Model Context Protocol server for images search using Inspire backend. Claude Dekstop ready",
+  "repo_url": "https://github.com/tech-inspire/mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "tech-inspire",
+  "stars": 3,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp",
+    "data-ai-vision",
+    "util-search"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "1adb0db01df329042fa74b9b53c21a58d778125d",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 10,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:04:51Z",
+  "verification_level": "scanner_only"
+}

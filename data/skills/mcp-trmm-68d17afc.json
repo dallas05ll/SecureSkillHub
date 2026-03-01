@@ -1,0 +1,26 @@
+{
+  "id": "mcp-trmm-68d17afc",
+  "name": "mcp-trmm",
+  "description": "This repo provides an MCP server to interact with an tRMM Instance.",
+  "repo_url": "https://github.com/Nels2/mcp-trmm",
+  "source_hub": "mcp_so",
+  "owner": "Nels2",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "b08393e1b8b61fe30babc9debea1a6584cbfa54a",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 12,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:41Z",
+  "verification_level": "scanner_only"
+}

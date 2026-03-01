@@ -1,0 +1,28 @@
+{
+  "id": "graph-of-thought-mcp-378b1a81",
+  "name": "Graph-of-Thought-MCP",
+  "description": "The Advanced Scientific Research (ASR) Graph of Thoughts (GoT) MCP server is a highly efficient implementation of the Model Context Protocol (MCP) that allows for sophisticated reasoning workflows using graph-based representations.",
+  "repo_url": "https://github.com/SaptaDey/Graph-of-Thought-MCP",
+  "source_hub": "mcp_so",
+  "owner": "SaptaDey",
+  "stars": 9,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp",
+    "prod",
+    "util-search"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "e2e27b915ccf8c906f997019f3739f2d12597954",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 52,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:42:34Z",
+  "verification_level": "scanner_only"
+}

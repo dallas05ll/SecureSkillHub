@@ -1,0 +1,25 @@
+{
+  "id": "napier-182b46e4",
+  "name": "napier",
+  "description": "Napier helps you install MCP servers from prompt.",
+  "repo_url": "https://github.com/va99/napier",
+  "source_hub": "mcp_so",
+  "owner": "va99",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "integ"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "6327624f215930269b02012e5345c98fa3970d1d",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 6,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:40Z",
+  "verification_level": "scanner_only"
+}

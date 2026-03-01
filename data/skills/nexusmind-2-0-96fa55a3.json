@@ -1,0 +1,26 @@
+{
+  "id": "nexusmind-2-0-96fa55a3",
+  "name": "NexusMind-2.0",
+  "description": "Next-Generation AI Reasoning Framework for Scientific Research",
+  "repo_url": "https://github.com/SaptaDey/NexusMind-2.0",
+  "source_hub": "mcp_so",
+  "owner": "SaptaDey",
+  "stars": 2,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "util-search"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "3ade87aea3adb3616679d4e238bb672b86c9de88",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 120,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:04:50Z",
+  "verification_level": "scanner_only"
+}

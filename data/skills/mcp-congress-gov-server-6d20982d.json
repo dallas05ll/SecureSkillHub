@@ -1,0 +1,27 @@
+{
+  "id": "mcp-congress-gov-server-6d20982d",
+  "name": "mcp-congress_gov_server",
+  "description": "This is a Model Context Protocol (MCP) server designed to provide access to the official Congress.gov API (v3) using a hybrid approach.",
+  "repo_url": "https://github.com/bsmi021/mcp-congress_gov_server",
+  "source_hub": "mcp_so",
+  "owner": "bsmi021",
+  "stars": 5,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp",
+    "integ"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "d6b3c4b755d8a2d210b38d288abc00bcf833a0d6",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 36,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:54:02Z",
+  "verification_level": "scanner_only"
+}

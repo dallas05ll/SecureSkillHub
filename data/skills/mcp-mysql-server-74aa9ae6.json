@@ -1,0 +1,26 @@
+{
+  "id": "mcp-mysql-server-74aa9ae6",
+  "name": "mcp-mysql-server",
+  "description": "A Spring AI-based MCP capable of executing any SQL query. 一个基于 Spring AI 的MCP服务，可执行任意 SQL。",
+  "repo_url": "https://github.com/JamesSmith888/mcp-mysql-server",
+  "source_hub": "mcp_so",
+  "owner": "JamesSmith888",
+  "stars": 26,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-db"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "58f0b39cec86970bcd7f763689c190fdb2f581fa",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 15,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:32:11Z",
+  "verification_level": "scanner_only"
+}

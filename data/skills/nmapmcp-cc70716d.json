@@ -1,0 +1,30 @@
+{
+  "id": "nmapmcp-cc70716d",
+  "name": "NmapMCP",
+  "description": "NmapMCP is a robust integration of the Nmap scanning tool with the Model Context Protocol (MCP), enabling seamless network scanning capabilities within MCP-compatible environments",
+  "repo_url": "https://github.com/0xPratikPatil/NmapMCP",
+  "source_hub": "mcp_so",
+  "owner": "0xPratikPatil",
+  "stars": 4,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp",
+    "integ",
+    "sec-scan",
+    "util",
+    "util-map"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "4e52edee239c52dca6af2f9e9f4d252490c9937e",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 4,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:04:50Z",
+  "verification_level": "scanner_only"
+}

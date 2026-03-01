@@ -1,0 +1,29 @@
+{
+  "id": "watsonx-mcp-server-209d6a13",
+  "name": "watsonx-mcp-server",
+  "description": "How to create a professional, production‑ready chatbot server powered by IBM Watsonx.ai and exposed via the Model Context Protocol (MCP) Python SDK.",
+  "repo_url": "https://github.com/ruslanmv/watsonx-mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "ruslanmv",
+  "stars": 2,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp",
+    "dev",
+    "dev-web-backend-python",
+    "prod-comm"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "bd3234be815ba4bccf7cb8aa346b91354c98fda3",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 8,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:40Z",
+  "verification_level": "scanner_only"
+}

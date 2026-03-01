@@ -1,0 +1,25 @@
+{
+  "id": "pipelex-mcp-06923ce8",
+  "name": "pipelex-mcp",
+  "description": "MCP server to run Pipelex pipelines",
+  "repo_url": "https://github.com/Pipelex/pipelex-mcp",
+  "source_hub": "mcp_so",
+  "owner": "Pipelex",
+  "stars": 8,
+  "primary_language": "unknown",
+  "tags": [
+    "dev-devops-ci"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "2254d438f750244a570b56a6043684e9436c08c3",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 19,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:42:34Z",
+  "verification_level": "scanner_only"
+}

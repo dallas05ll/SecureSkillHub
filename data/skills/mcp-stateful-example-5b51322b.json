@@ -1,0 +1,26 @@
+{
+  "id": "mcp-stateful-example-5b51322b",
+  "name": "mcp-stateful-example",
+  "description": "A simple stateful mcp server example. Clone and modify to make any stateful mcp server.",
+  "repo_url": "https://github.com/stevemadere/mcp-stateful-example",
+  "source_hub": "mcp_so",
+  "owner": "stevemadere",
+  "stars": 1,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "4fbbc098697a5aad9106cb9d45111ec0ee483fd9",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 40,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:41Z",
+  "verification_level": "scanner_only"
+}

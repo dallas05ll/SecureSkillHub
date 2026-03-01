@@ -1,0 +1,28 @@
+{
+  "id": "wp-ux-design-claude-skill-05d2473a",
+  "name": "wp-ux-design-claude-skill",
+  "description": "WordPress UX Design skill for Claude Code - Core Web Vitals, mobile-first design, typography systems, color management, navigation UX",
+  "repo_url": "https://github.com/xonack/wp-ux-design-claude-skill",
+  "source_hub": "github_search",
+  "skill_type": "agent_skill",
+  "owner": "xonack",
+  "stars": 1,
+  "license": "mit",
+  "primary_language": "markdown",
+  "tags": [
+    "data-ai",
+    "dev"
+  ],
+  "verification_status": "pass",
+  "overall_score": 78,
+  "risk_level": "medium",
+  "verified_commit": null,
+  "scan_summary": null,
+  "last_updated": "2026-01-29T22:52:27Z",
+  "findings_summary": {
+    "notes": "Metadata-based verification. Score=78. Signals: stars=1; license='mit' (+5); owner='xonack' (+3); primary_language='markdown'; source_hub='github_search'. Status: pass. Risk: medium."
+  },
+  "trust_level": "low",
+  "scan_date": "2026-02-26T06:14:56Z",
+  "verification_level": "metadata_only"
+}

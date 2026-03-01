@@ -1,0 +1,26 @@
+{
+  "id": "mcp-chat-29427754",
+  "name": "mcp_chat",
+  "description": "chat with a llm having access to a mcp server.",
+  "repo_url": "https://github.com/iAbdelRahim/mcp_chat",
+  "source_hub": "mcp_so",
+  "owner": "iAbdelRahim",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "prod-comm"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "b8c8c779441223167cbe75707a6f1ba2eb81d735",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 4,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:41Z",
+  "verification_level": "scanner_only"
+}

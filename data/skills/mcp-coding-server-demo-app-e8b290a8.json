@@ -1,0 +1,26 @@
+{
+  "id": "mcp-coding-server-demo-app-e8b290a8",
+  "name": "mcp-coding-server-demo-app",
+  "description": "Esperimento di sviluppo Java EE automatizzato con Claude + MCP",
+  "repo_url": "https://github.com/lamemind/mcp-coding-server-demo-app",
+  "source_hub": "mcp_so",
+  "owner": "lamemind",
+  "stars": 2,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "prod"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "4df0ea4dc13530e289e49e7b114c6952a1372d22",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 7,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:04:50Z",
+  "verification_level": "scanner_only"
+}

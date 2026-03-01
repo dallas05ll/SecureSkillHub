@@ -1,0 +1,29 @@
+{
+  "id": "asr-mcp-server-e71f24f0",
+  "name": "asr_mcp_server",
+  "description": "A Model Context Protocol (MCP) server that provides ASR(Automatic Speech Recognition) capabilities using the whisper engine. This server exposes TTS functionality through MCP tools, making it easy to integrate speech synthesis into your applications.",
+  "repo_url": "https://github.com/vidau-ai/asr_mcp_server",
+  "source_hub": "mcp_so",
+  "owner": "vidau-ai",
+  "stars": 1,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-audio",
+    "data-ai-nlp",
+    "prod",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "8a893eba724cd341bcfd058e412e87941bb83995",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 2,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:40Z",
+  "verification_level": "scanner_only"
+}

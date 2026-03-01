@@ -1,0 +1,27 @@
+{
+  "id": "re-stack-mcp-f68eeb44",
+  "name": "re-stack-mcp",
+  "description": "Re-Stack MCP server is designed to integrate Stack Overflow into LLM-based coding workflows using the Stack Exchange API",
+  "repo_url": "https://github.com/jagreetdg/re-stack-mcp",
+  "source_hub": "mcp_so",
+  "owner": "jagreetdg",
+  "stars": 2,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "integ",
+    "prod"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "bc1913f9ec9fc0b2b68963a48c27c2c831ef1159",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 22,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:04:51Z",
+  "verification_level": "scanner_only"
+}

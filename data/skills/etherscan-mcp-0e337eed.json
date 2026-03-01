@@ -1,0 +1,27 @@
+{
+  "id": "etherscan-mcp-0e337eed",
+  "name": "etherscan-mcp",
+  "description": "Model Context Protocol (MCP) Server for Etherscan",
+  "repo_url": "https://github.com/xiaok/etherscan-mcp",
+  "source_hub": "mcp_so",
+  "owner": "xiaok",
+  "stars": 17,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp",
+    "sec-scan"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "c494656bb950e9f4c0d730938a2f73e1a2a3d2d3",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 22,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:42:36Z",
+  "verification_level": "scanner_only"
+}

@@ -1,0 +1,25 @@
+{
+  "id": "connect-server-3e3d0da3",
+  "name": "connect-server",
+  "description": "MCP server to connect users",
+  "repo_url": "https://github.com/Danejw/connect-server",
+  "source_hub": "mcp_so",
+  "owner": "Danejw",
+  "stars": 1,
+  "primary_language": "unknown",
+  "tags": [
+    "integ"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "eda4d744e944f5e5ab1bd7b0d485b7e053639a33",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 10,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:40Z",
+  "verification_level": "scanner_only"
+}

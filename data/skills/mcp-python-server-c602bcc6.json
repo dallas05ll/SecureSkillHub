@@ -1,0 +1,25 @@
+{
+  "id": "mcp-python-server-c602bcc6",
+  "name": "mcp_python_server",
+  "description": "Ansible MCP Server for intelligent infrastructure management",
+  "repo_url": "https://github.com/washyu/mcp_python_server",
+  "source_hub": "mcp_so",
+  "owner": "washyu",
+  "stars": 4,
+  "primary_language": "unknown",
+  "tags": [
+    "dev-web-backend-python"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "282d90159ff79d741fa82926fcaab13bb12c945d",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 96,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:54:02Z",
+  "verification_level": "scanner_only"
+}

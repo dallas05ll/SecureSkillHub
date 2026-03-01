@@ -1,0 +1,25 @@
+{
+  "id": "mcp-polygon-5fa96a06",
+  "name": "mcp_polygon",
+  "description": "An MCP server for Polygon.io Financial Market Data",
+  "repo_url": "https://github.com/polygon-io/mcp_polygon",
+  "source_hub": "mcp_so",
+  "owner": "polygon-io",
+  "stars": 258,
+  "primary_language": "unknown",
+  "tags": [
+    "data"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 28,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-27T02:28:45Z",
+  "verification_level": "scanner_only"
+}

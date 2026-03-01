@@ -1,0 +1,26 @@
+{
+  "id": "mcp-summarizer-303fa39b",
+  "name": "mcp-summarizer",
+  "description": "MCP Server for AI Summarization",
+  "repo_url": "https://github.com/0xshellming/mcp-summarizer",
+  "source_hub": "mcp_so",
+  "owner": "0xshellming",
+  "stars": 155,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "1ce1d5d7003c134e2f075593d39603f72f5cc30a",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 6,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-27T06:36:35Z",
+  "verification_level": "scanner_only"
+}

@@ -1,0 +1,26 @@
+{
+  "id": "mcp-server-example-v2-259daedb",
+  "name": "mcp-server-example-v2",
+  "description": "A simple example of a Model Context Protocol Server implementation",
+  "repo_url": "https://github.com/dabouelhassan/mcp-server-example-v2",
+  "source_hub": "mcp_so",
+  "owner": "dabouelhassan",
+  "stars": 2,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "304ded5d4c26f6278d1a91da46c2be9c3b0d90e6",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 3,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:04:50Z",
+  "verification_level": "scanner_only"
+}

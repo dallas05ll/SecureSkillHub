@@ -1,0 +1,28 @@
+{
+  "id": "kaggle-mcp-b98c79c0",
+  "name": "kaggle-mcp",
+  "description": "Kaggle-MCP: Connect Claude AI to the Kaggle API through the Model Context Protocol (MCP), enabling competition, dataset, and kernel operations through the AI interface.",
+  "repo_url": "https://github.com/54yyyu/kaggle-mcp",
+  "source_hub": "mcp_so",
+  "owner": "54yyyu",
+  "stars": 29,
+  "primary_language": "unknown",
+  "tags": [
+    "data",
+    "data-ai",
+    "data-ai-nlp",
+    "integ"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "7d2554c0a0419dbcc64bb910a28d94e1786c81c8",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 18,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:32:11Z",
+  "verification_level": "scanner_only"
+}

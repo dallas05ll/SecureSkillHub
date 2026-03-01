@@ -1,0 +1,40 @@
+{
+  "id": "aws-skills-b54f31b9",
+  "name": "AWS Skills",
+  "description": "Claude Code plugins for AWS development with CDK best practices, cost optimization MCP servers, serverless/event-driven architecture patterns, and Bedrock AgentCore for AI agent deployment.",
+  "repo_url": "https://github.com/zxkane/aws-skills",
+  "source_hub": "claude_skills_hub",
+  "skill_type": "agent_skill",
+  "owner": "zxkane",
+  "stars": 179,
+  "forks": 19,
+  "license": "MIT",
+  "primary_language": "Shell",
+  "tags": [
+    "data-ai",
+    "dev",
+    "integ-cloud",
+    "integ-cloud-aws"
+  ],
+  "source_tags": [
+    "aws",
+    "coding",
+    "mcp"
+  ],
+  "categories": [
+    "dev"
+  ],
+  "version": "1.0.0",
+  "requires_code_execution": false,
+  "verification_status": "pass",
+  "overall_score": 87,
+  "risk_level": "low",
+  "verified_commit": null,
+  "scan_summary": "Well-structured AWS skills marketplace with 5 plugins covering CDK, cost optimization, serverless, and Bedrock AgentCore. MIT licensed. Skill files are Markdown-only with reference docs. MCP server integrations are listed in marketplace.json config but not bundled. No executable scripts in skill directories — only SKILL.md and references/ folders. Symlink-based local dev setup. Shell plugin in repo is minimal.",
+  "findings_summary": {
+    "notes": "High-quality AWS-focused skill collection with clean architecture. Skills reference MCP servers (AWS CDK MCP, Pricing, Cost Explorer, CloudWatch) that must be installed separately. This is an external dependency to document but not a security risk. No credential handling in skill files. Well-maintained with active GitHub Actions CI. Slight note: star count discrepancy (154 stored vs 179 live) suggests rapid growth."
+  },
+  "trust_level": "medium",
+  "scan_date": "2026-02-26T02:23:22Z",
+  "verification_level": "scanner_only"
+}

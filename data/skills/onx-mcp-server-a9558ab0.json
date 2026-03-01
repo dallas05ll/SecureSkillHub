@@ -1,0 +1,28 @@
+{
+  "id": "onx-mcp-server-a9558ab0",
+  "name": "onx-mcp-server",
+  "description": "A Model Context Protocol (MCP) server implementation that integrates with Onspring's API, allowing AI assistants to access and manipulate data stored in Onspring instances.",
+  "repo_url": "https://github.com/StevanFreeborn/onx-mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "StevanFreeborn",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "data",
+    "data-ai",
+    "data-ai-nlp",
+    "integ"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "29adc3359209fc1ffb055d1988b64f374177e5f0",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 25,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:42Z",
+  "verification_level": "scanner_only"
+}

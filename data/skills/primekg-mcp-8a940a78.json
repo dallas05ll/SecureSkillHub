@@ -1,0 +1,25 @@
+{
+  "id": "primekg-mcp-8a940a78",
+  "name": "primekg-mcp",
+  "description": "MCP Server for PrimeKG dataset",
+  "repo_url": "https://github.com/dmigo/primekg-mcp",
+  "source_hub": "mcp_so",
+  "owner": "dmigo",
+  "stars": 3,
+  "primary_language": "unknown",
+  "tags": [
+    "data"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "02fd265603c4d466fef7e55f7bb1c962a59ea265",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 18,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:04:50Z",
+  "verification_level": "scanner_only"
+}

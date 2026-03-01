@@ -1,0 +1,29 @@
+{
+  "id": "mcp-server-c01649b9",
+  "name": "MCP-Server",
+  "description": "MCP Code Assistant: A Python tool that scans project folders, analyzes code structure, and helps with debugging to improve developer productivity.",
+  "repo_url": "https://github.com/kiranimmadi2/MCP-Server",
+  "source_hub": "mcp_so",
+  "owner": "kiranimmadi2",
+  "stars": 1,
+  "primary_language": "unknown",
+  "tags": [
+    "dev",
+    "dev-web-backend-python",
+    "prod",
+    "sec-scan",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "1a79919838abcbf46bbafb40b1cc380df9c7b5f1",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 2,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:42Z",
+  "verification_level": "scanner_only"
+}

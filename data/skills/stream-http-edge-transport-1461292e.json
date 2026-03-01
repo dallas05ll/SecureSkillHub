@@ -1,0 +1,28 @@
+{
+  "id": "stream-http-edge-transport-1461292e",
+  "name": "stream-http-edge-transport",
+  "description": "A Stremeable Http Transport for the Model Context Protocol (MCP) suited for frameworks like Hono, enabling real-time communication using Server-Sent Events (SSE) and standard HTTP requests. Implements the MCP Streamable HTTP transport specification for edge-compatible environments.",
+  "repo_url": "https://github.com/enZane/stream-http-edge-transport",
+  "source_hub": "mcp_so",
+  "owner": "enZane",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp",
+    "prod-comm",
+    "util-media"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "7e7087cdc245e4552532b44f9d049d1c05e7fc8e",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 16,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:42:59Z",
+  "verification_level": "scanner_only"
+}

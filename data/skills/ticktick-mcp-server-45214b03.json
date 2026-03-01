@@ -1,0 +1,25 @@
+{
+  "id": "ticktick-mcp-server-45214b03",
+  "name": "ticktick-mcp-server",
+  "description": "MCP server for TickTick integration",
+  "repo_url": "https://github.com/rafliruslan/ticktick-mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "rafliruslan",
+  "stars": 5,
+  "primary_language": "unknown",
+  "tags": [
+    "integ"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "2857539d2c507a0a06bd6573a1d3c130ae90151b",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 9,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:54:02Z",
+  "verification_level": "scanner_only"
+}

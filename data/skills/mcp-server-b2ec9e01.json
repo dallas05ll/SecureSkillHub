@@ -1,0 +1,28 @@
+{
+  "id": "mcp-server-b2ec9e01",
+  "name": "mcp-server",
+  "description": "Este projeto é um experimento de utilização e testes de um servidor MCP (Model Context Protocol).",
+  "repo_url": "https://github.com/renancavichi/mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "renancavichi",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp",
+    "dev-testing",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "4ff677d39b01c97f1e5b193ce46ce28876df2a4c",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 11,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:40Z",
+  "verification_level": "scanner_only"
+}

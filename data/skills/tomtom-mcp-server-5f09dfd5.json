@@ -1,0 +1,30 @@
+{
+  "id": "tomtom-mcp-server-5f09dfd5",
+  "name": "TomTom MCP Server",
+  "description": "Provides seamless access to TomTom's location services including search, routing, traffic and static maps data, enabling easy integration of precise geolocation data into AI workflows and development environments.",
+  "repo_url": "https://github.com/tomtom-international/tomtom-mcp",
+  "source_hub": "glama",
+  "owner": "tomtom-international",
+  "stars": 38,
+  "primary_language": "unknown",
+  "tags": [
+    "data",
+    "data-ai",
+    "integ",
+    "prod",
+    "util-map",
+    "util-search"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "41e4271cdb51ffee692ca4365a96a7be88048f26",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 189,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:32:11Z",
+  "verification_level": "scanner_only"
+}

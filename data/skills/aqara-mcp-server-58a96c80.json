@@ -1,0 +1,25 @@
+{
+  "id": "aqara-mcp-server-58a96c80",
+  "name": "aqara-mcp-server",
+  "description": "Aqara's official MCP Server",
+  "repo_url": "https://github.com/aqara/aqara-mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "aqara",
+  "stars": 28,
+  "primary_language": "unknown",
+  "tags": [
+    "dev-testing"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "9eaae0bae387ba36774a23b3d874fe8035bb30be",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 9,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:32:11Z",
+  "verification_level": "scanner_only"
+}

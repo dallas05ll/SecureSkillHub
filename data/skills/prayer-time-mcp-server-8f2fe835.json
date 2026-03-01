@@ -1,0 +1,25 @@
+{
+  "id": "prayer-time-mcp-server-8f2fe835",
+  "name": "prayer-time-mcp-server",
+  "description": "A MCP server giving Salat (Namaz | Prayer) time for 5 daily prayers with middle of night, sunset and sunrise.",
+  "repo_url": "https://github.com/imsaar/prayer-time-mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "imsaar",
+  "stars": 1,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "bb3a36c264ca87efe4fcaee8646031fa8d61f7ec",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 7,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:42Z",
+  "verification_level": "scanner_only"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "file-search-mcp-585eab48",
+  "name": "file-search-mcp",
+  "description": "A specialized Model Context Protocol (MCP) server for full-text search within a filesystem.",
+  "repo_url": "https://github.com/Kurogoma4D/file-search-mcp",
+  "source_hub": "mcp_so",
+  "owner": "Kurogoma4D",
+  "stars": 18,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp",
+    "util-file",
+    "util-search"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "3538441ec38121c873e45ee410920451bfb91f9f",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 2,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:42:34Z",
+  "verification_level": "scanner_only"
+}

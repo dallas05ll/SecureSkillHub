@@ -1,0 +1,28 @@
+{
+  "id": "nile-mcp-server-b30aa9aa",
+  "name": "nile-mcp-server",
+  "description": "MCP server for Nile Database - Manage and query databases, tenants, users, auth using LLMs",
+  "repo_url": "https://github.com/niledatabase/nile-mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "niledatabase",
+  "stars": 16,
+  "primary_language": "unknown",
+  "tags": [
+    "data",
+    "data-ai",
+    "data-db",
+    "sec"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "2177d221587a092a55681f663a0ae4f5ada6a320",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 15,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:42:34Z",
+  "verification_level": "scanner_only"
+}

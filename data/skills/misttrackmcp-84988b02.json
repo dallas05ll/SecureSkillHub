@@ -1,0 +1,28 @@
+{
+  "id": "misttrackmcp-84988b02",
+  "name": "misttrackmcp",
+  "description": "The MistTrack MCP server allows Claude AI to directly access blockchain data provided by the MistTrack API, offering address analysis, risk assessment, transaction tracking, and fund flow visualization capabilities, with support for multi-layer recursive transaction analysis.",
+  "repo_url": "https://github.com/slowmist/misttrackmcp",
+  "source_hub": "mcp_so",
+  "owner": "slowmist",
+  "stars": 32,
+  "primary_language": "unknown",
+  "tags": [
+    "data",
+    "data-ai",
+    "integ",
+    "sec-crypto"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "5dc15f903c6fe702a91bb484eb0886544989ef39",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 48,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:32:12Z",
+  "verification_level": "scanner_only"
+}

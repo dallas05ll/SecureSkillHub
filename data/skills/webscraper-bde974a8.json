@@ -1,0 +1,26 @@
+{
+  "id": "webscraper-bde974a8",
+  "name": "webscraper",
+  "description": "MCP server that transcribes webpages for LLMs to use by providing the url to the LLM.",
+  "repo_url": "https://github.com/saishridhar/webscraper",
+  "source_hub": "mcp_so",
+  "owner": "saishridhar",
+  "stars": 6,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "util-search"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "019a1f7b8a492cbcfbca8a10d1b17d376a30c86d",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 8,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:54:02Z",
+  "verification_level": "scanner_only"
+}

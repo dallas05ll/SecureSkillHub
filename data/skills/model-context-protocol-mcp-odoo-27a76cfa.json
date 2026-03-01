@@ -1,0 +1,28 @@
+{
+  "id": "model-context-protocol-mcp-odoo-27a76cfa",
+  "name": "model-context-protocol-mcp-odoo",
+  "description": "Model Context Protocol (MCP) server for Odoo integration, allowing AI agents to access and manipulate Odoo data through a standardized interface.",
+  "repo_url": "https://github.com/yourtechtribe/model-context-protocol-mcp-odoo",
+  "source_hub": "mcp_so",
+  "owner": "yourtechtribe",
+  "stars": 13,
+  "primary_language": "unknown",
+  "tags": [
+    "data",
+    "data-ai",
+    "data-ai-nlp",
+    "integ"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "a5923719afc9f7cab13457d25597a1df9350125f",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 23,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:42:36Z",
+  "verification_level": "scanner_only"
+}

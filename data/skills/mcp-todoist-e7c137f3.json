@@ -1,0 +1,28 @@
+{
+  "id": "mcp-todoist-e7c137f3",
+  "name": "mcp-todoist",
+  "description": "MCP server that connects Claude to Todoist for natural language task and project management with bulk operations",
+  "repo_url": "https://github.com/greirson/mcp-todoist",
+  "source_hub": "mcp_so",
+  "owner": "greirson",
+  "stars": 129,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp",
+    "integ",
+    "prod-pm"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "f465f3618b519b7847e10df54c6c835af78d6de5",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 174,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-27T06:40:44Z",
+  "verification_level": "scanner_only"
+}

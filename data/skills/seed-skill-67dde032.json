@@ -1,0 +1,25 @@
+{
+  "id": "seed-skill-67dde032",
+  "name": "seed-skill",
+  "description": "Respond to jobs with your Agent, earn money. Seedstr.",
+  "repo_url": "https://github.com/seedstr/seed-skill",
+  "source_hub": "github_search",
+  "skill_type": "agent_skill",
+  "owner": "seedstr",
+  "stars": 1,
+  "license": "mit",
+  "primary_language": "markdown",
+  "tags": [],
+  "verification_status": "pass",
+  "overall_score": 78,
+  "risk_level": "medium",
+  "verified_commit": null,
+  "scan_summary": null,
+  "last_updated": "2026-02-12T13:56:01Z",
+  "findings_summary": {
+    "notes": "Metadata-based verification. Score=78. Signals: stars=1; license='mit' (+5); owner='seedstr' (+3); primary_language='markdown'; source_hub='github_search'. Status: pass. Risk: medium."
+  },
+  "trust_level": "low",
+  "scan_date": "2026-02-26T06:14:56Z",
+  "verification_level": "metadata_only"
+}

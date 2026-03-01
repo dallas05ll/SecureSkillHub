@@ -1,0 +1,29 @@
+{
+  "id": "awesome-mcp-servers-8249fc76",
+  "name": "awesome-mcp-servers",
+  "description": "A curated list of Model Context Protocol (MCP) servers and tools. Discover and explore various MCP implementations that enable AI models to connect with external data sources and tools.",
+  "repo_url": "https://github.com/habitoai/awesome-mcp-servers",
+  "source_hub": "mcp_so",
+  "owner": "habitoai",
+  "stars": 11,
+  "primary_language": "unknown",
+  "tags": [
+    "data",
+    "data-ai",
+    "data-ai-nlp",
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "a1b4af5b601b786f6e96e31218c4799ec7026f8e",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 3,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:42:36Z",
+  "verification_level": "scanner_only"
+}

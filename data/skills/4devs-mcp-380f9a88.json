@@ -1,0 +1,26 @@
+{
+  "id": "4devs-mcp-380f9a88",
+  "name": "4devs-mcp",
+  "description": "A repository with an implementation of MCP server for",
+  "repo_url": "https://github.com/renanmedina/4devs-mcp",
+  "source_hub": "mcp_so",
+  "owner": "renanmedina",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "c47dfa0cb87089e71a12555b787023f6bc473860",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 2,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:40Z",
+  "verification_level": "scanner_only"
+}

@@ -1,0 +1,26 @@
+{
+  "id": "mcp-serverless-fb244e53",
+  "name": "mcp-serverless",
+  "description": "Serverless implementation of the Model Context Protocol (MCP)",
+  "repo_url": "https://github.com/tilfin/mcp-serverless",
+  "source_hub": "mcp_so",
+  "owner": "tilfin",
+  "stars": 1,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "180fe794fea7249a3c235dc6c43e3450e640f1ee",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 17,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:41Z",
+  "verification_level": "scanner_only"
+}

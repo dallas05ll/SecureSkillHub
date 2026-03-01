@@ -1,0 +1,26 @@
+{
+  "id": "mcp-server-template-756edee5",
+  "name": "mcp-server-template",
+  "description": "Minimal typescript template to build an mcp server",
+  "repo_url": "https://github.com/jatinsandilya/mcp-server-template",
+  "source_hub": "mcp_so",
+  "owner": "jatinsandilya",
+  "stars": 14,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "4d739a1fb38a329571e43bd262e7b710a1d82853",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 5,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:42:36Z",
+  "verification_level": "scanner_only"
+}

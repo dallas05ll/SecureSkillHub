@@ -1,0 +1,25 @@
+{
+  "id": "mcp-ossinsight-5819a8f4",
+  "name": "mcp-ossinsight",
+  "description": "An MCP server based on OSSInsight.io, providing data analysis for GitHub individuals and repositories, as well as in-depth insights into the open source ecosystem.",
+  "repo_url": "https://github.com/damonxue/mcp-ossinsight",
+  "source_hub": "mcp_so",
+  "owner": "damonxue",
+  "stars": 13,
+  "primary_language": "unknown",
+  "tags": [
+    "data"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "0b00c754091459fc72542ab82e51a4a5ec6c8395",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 5,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:42:36Z",
+  "verification_level": "scanner_only"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "mcp-server-weather-36c8f85d",
+  "name": "MCP-Server---Weather",
+  "description": "An MCP server for Claude that provides real-time weather alerts and forecasts using the U.S. National Weather Service API. Built with fastmcp and httpx, it exposes two tools: get_alerts (by state) and get_forecast (by lat/lon). Uses stdio transport for Claude integration.",
+  "repo_url": "https://github.com/shiragannavar/MCP-Server---Weather",
+  "source_hub": "mcp_so",
+  "owner": "shiragannavar",
+  "stars": 2,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "integ",
+    "util",
+    "util-monitor"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "abe484f69c5b16a8c098c6e6ba0f6357e8f3fe21",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 3,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:04:50Z",
+  "verification_level": "scanner_only"
+}

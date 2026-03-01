@@ -1,0 +1,27 @@
+{
+  "id": "db-query-mcp-1e7d4554",
+  "name": "db-query-mcp",
+  "description": "db-query-mcp is a mcp tool supporting diverse database querying and exporting.",
+  "repo_url": "https://github.com/NewToolAI/db-query-mcp",
+  "source_hub": "mcp_so",
+  "owner": "NewToolAI",
+  "stars": 8,
+  "primary_language": "unknown",
+  "tags": [
+    "data",
+    "data-db",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "3d64cfe33e31c62446064048d7138320a4eee246",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 10,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:42:36Z",
+  "verification_level": "scanner_only"
+}

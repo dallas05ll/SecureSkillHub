@@ -1,0 +1,27 @@
+{
+  "id": "llm-chat-replay-4524bb98",
+  "name": "llm-chat-replay",
+  "description": "chat replay visualizer for sesssions saved in your LLM. create transcripts using your LLM + MCP filesystem server, and replay them here, to share with others",
+  "repo_url": "https://github.com/jonmadison/llm-chat-replay",
+  "source_hub": "mcp_so",
+  "owner": "jonmadison",
+  "stars": 2,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "prod-comm",
+    "util-file"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "293b404ec540d82caba08f91ba94f14146a956be",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 13,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:04:51Z",
+  "verification_level": "scanner_only"
+}

@@ -1,0 +1,26 @@
+{
+  "id": "mcp-server-tidb-a05f31b5",
+  "name": "mcp-server-tidb",
+  "description": "mcp server for tidb",
+  "repo_url": "https://github.com/c4pt0r/mcp-server-tidb",
+  "source_hub": "mcp_so",
+  "owner": "c4pt0r",
+  "stars": 23,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "080a1bf3f6d013befb1c358f80bc8c3f093ea558",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 7,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:32:11Z",
+  "verification_level": "scanner_only"
+}

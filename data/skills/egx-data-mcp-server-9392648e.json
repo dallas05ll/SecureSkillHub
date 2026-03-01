@@ -1,0 +1,26 @@
+{
+  "id": "egx-data-mcp-server-9392648e",
+  "name": "EGX-Data-MCP-Server",
+  "description": "MCP server for Egyptian Exchange (EGX) stock tools",
+  "repo_url": "https://github.com/M-Abdelmegeed/EGX-Data-MCP-Server",
+  "source_hub": "mcp_so",
+  "owner": "M-Abdelmegeed",
+  "stars": 1,
+  "primary_language": "unknown",
+  "tags": [
+    "data",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "d4ee5625b48ed0c9682c321ab5776936b845cf63",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 7,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:41Z",
+  "verification_level": "scanner_only"
+}

@@ -1,0 +1,30 @@
+{
+  "id": "mcpchain-323d7afc",
+  "name": "MCPChain",
+  "description": "MCPChain brings the Model Context Protocol to Web3 by anchoring agent tools, trust registries, and attestable executions on-chain.",
+  "repo_url": "https://github.com/Deeptanshu-sankhwar/MCPChain",
+  "source_hub": "mcp_so",
+  "owner": "Deeptanshu-sankhwar",
+  "stars": 15,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp",
+    "dev-testing",
+    "dev-web-backend-rust",
+    "sec-crypto",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "7f1e04810a0f86b9bd6bf73bdd8a5863d4529c63",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 44,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:42:36Z",
+  "verification_level": "scanner_only"
+}

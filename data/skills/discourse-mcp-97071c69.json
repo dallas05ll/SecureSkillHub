@@ -1,0 +1,28 @@
+{
+  "id": "discourse-mcp-97071c69",
+  "name": "Discourse MCP",
+  "description": "Enables AI agents to interact with Discourse forums through search, reading topics/posts, managing categories and users. Supports secure authentication and optional write operations with rate limiting.",
+  "repo_url": "https://github.com/discourse/discourse-mcp",
+  "source_hub": "glama",
+  "owner": "discourse",
+  "stars": 44,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "sec",
+    "sec-auth",
+    "util-search"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 54,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-25T14:26:46Z",
+  "verification_level": "scanner_only"
+}

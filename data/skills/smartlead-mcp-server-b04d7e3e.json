@@ -1,0 +1,26 @@
+{
+  "id": "smartlead-mcp-server-b04d7e3e",
+  "name": "smartlead-mcp-server",
+  "description": "smartlead-mcp-server typescript",
+  "repo_url": "https://github.com/Meerkats-Ai/smartlead-mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "Meerkats-Ai",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "083d08465dd9623226ef9a4c973022abefa026c9",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 7,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:43:00Z",
+  "verification_level": "scanner_only"
+}

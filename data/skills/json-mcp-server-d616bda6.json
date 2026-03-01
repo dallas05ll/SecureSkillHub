@@ -1,0 +1,26 @@
+{
+  "id": "json-mcp-server-d616bda6",
+  "name": "JSON-MCP-Server",
+  "description": "JSON handling and processing microservice server",
+  "repo_url": "https://github.com/GongRzhe/JSON-MCP-Server",
+  "source_hub": "mcp_so",
+  "owner": "GongRzhe",
+  "stars": 87,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "d2a4b120cb87fa85d4ed31747ccf5c89fe848fb0",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 5,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-27T06:40:44Z",
+  "verification_level": "scanner_only"
+}

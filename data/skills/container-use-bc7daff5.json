@@ -1,0 +1,26 @@
+{
+  "id": "container-use-bc7daff5",
+  "name": "container-use",
+  "description": "MCP server to add container superpowers to your AI agent",
+  "repo_url": "https://github.com/aluzzardi/container-use",
+  "source_hub": "mcp_so",
+  "owner": "aluzzardi",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "dev-devops-docker"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "be3a09405d9b9bed7addebb4f47455f2b6bacc35",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 19,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:40Z",
+  "verification_level": "scanner_only"
+}

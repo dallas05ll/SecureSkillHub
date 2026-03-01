@@ -1,0 +1,27 @@
+{
+  "id": "think-mcp-server-1ad8af9d",
+  "name": "think-mcp-server",
+  "description": "A minimal MCP Server based on the Anthropic's \"think\" tool research",
+  "repo_url": "https://github.com/marcopesani/think-mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "marcopesani",
+  "stars": 22,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "util",
+    "util-search"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "5d1155574e778cf8278a1bf3f82eb3e302441901",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 6,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:32:11Z",
+  "verification_level": "scanner_only"
+}

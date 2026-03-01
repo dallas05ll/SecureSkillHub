@@ -1,0 +1,29 @@
+{
+  "id": "claude-mnemonic-70e495b0",
+  "name": "claude-mnemonic",
+  "description": "Memory management and retrieval for Claude Code",
+  "repo_url": "https://github.com/lukaszraczylo/claude-mnemonic",
+  "source_hub": "github_search",
+  "skill_type": "agent_skill",
+  "owner": "lukaszraczylo",
+  "stars": 8,
+  "license": "mit",
+  "primary_language": "markdown",
+  "tags": [
+    "data-ai",
+    "dev",
+    "prod-notes"
+  ],
+  "verification_status": "pass",
+  "overall_score": 78,
+  "risk_level": "medium",
+  "verified_commit": null,
+  "scan_summary": null,
+  "last_updated": "2026-02-21T20:02:33Z",
+  "findings_summary": {
+    "notes": "Metadata-based verification. Score=78. Signals: stars=8; license='mit' (+5); owner='lukaszraczylo' (+3); primary_language='markdown'; source_hub='github_search'. Status: pass. Risk: medium."
+  },
+  "trust_level": "low",
+  "scan_date": "2026-02-26T06:14:55Z",
+  "verification_level": "metadata_only"
+}

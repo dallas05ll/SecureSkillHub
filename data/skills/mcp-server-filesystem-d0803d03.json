@@ -1,0 +1,28 @@
+{
+  "id": "mcp-server-filesystem-d0803d03",
+  "name": "mcp_server_filesystem",
+  "description": "MCP File System Server: A secure Model Context Protocol server that provides file operations for AI assistants. Enables Claude and other assistants to safely read, write, and list files in a designated project directory with robust path validation and security controls.",
+  "repo_url": "https://github.com/MarcusJellinghaus/mcp_server_filesystem",
+  "source_hub": "mcp_so",
+  "owner": "MarcusJellinghaus",
+  "stars": 44,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp",
+    "sec",
+    "util-file"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "8c8993e600847b55d3cd3da87e3306f4017ca49e",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 42,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:32:11Z",
+  "verification_level": "scanner_only"
+}

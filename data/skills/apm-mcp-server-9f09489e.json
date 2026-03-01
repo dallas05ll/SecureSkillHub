@@ -1,0 +1,26 @@
+{
+  "id": "apm-mcp-server-9f09489e",
+  "name": "apm-mcp-server",
+  "description": "アジャイルプラクティスマップのナレッジと対話するためのMCPサーバーです。",
+  "repo_url": "https://github.com/HappymanOkajima/apm-mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "HappymanOkajima",
+  "stars": 1,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "fe5edb9e5da99d8cf68a3b0bfce20337054da62a",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 11,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:42Z",
+  "verification_level": "scanner_only"
+}

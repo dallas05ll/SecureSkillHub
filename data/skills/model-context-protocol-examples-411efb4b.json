@@ -1,0 +1,27 @@
+{
+  "id": "model-context-protocol-examples-411efb4b",
+  "name": "model_context_protocol_examples",
+  "description": "Some examples to build server, client test in model context protocol. Một số ví dụ sử dụng MCP",
+  "repo_url": "https://github.com/anhnx000/model_context_protocol_examples",
+  "source_hub": "mcp_so",
+  "owner": "anhnx000",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp",
+    "dev-testing"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "847be0ca7b67db2eab5f833cf058ce9744655e6b",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 7,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:41Z",
+  "verification_level": "scanner_only"
+}

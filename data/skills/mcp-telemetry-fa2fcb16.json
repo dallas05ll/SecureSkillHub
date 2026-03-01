@@ -1,0 +1,27 @@
+{
+  "id": "mcp-telemetry-fa2fcb16",
+  "name": "mcp-telemetry",
+  "description": "Observability helps. This MCP server adds tracing to all your conversations on Claude (or suitable MCP client) so that you can trace, understand, debug and report on your all your interactions.",
+  "repo_url": "https://github.com/xprilion/mcp-telemetry",
+  "source_hub": "mcp_so",
+  "owner": "xprilion",
+  "stars": 2,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "dev",
+    "util-monitor"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "bf2af9298a8dda3f030169dee66229a363fcddff",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 3,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:04:50Z",
+  "verification_level": "scanner_only"
+}

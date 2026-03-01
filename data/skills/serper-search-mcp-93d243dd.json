@@ -1,0 +1,25 @@
+{
+  "id": "serper-search-mcp-93d243dd",
+  "name": "Serper-search-mcp",
+  "description": "Un-official Serper Google search server for Cline and other MCP clients",
+  "repo_url": "https://github.com/NightTrek/Serper-search-mcp",
+  "source_hub": "mcp_so",
+  "owner": "NightTrek",
+  "stars": 45,
+  "primary_language": "unknown",
+  "tags": [
+    "util-search"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "21b83f56f4565e0854becce0377a23ac831e6948",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 29,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:32:13Z",
+  "verification_level": "scanner_only"
+}

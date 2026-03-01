@@ -1,0 +1,26 @@
+{
+  "id": "remote-command-mcp-13bdbd69",
+  "name": "Remote-Command-MCP",
+  "description": "A Model Context Protocol (MCP) server that enables remote command execution across different operating systems.",
+  "repo_url": "https://github.com/deepsuthar496/Remote-Command-MCP",
+  "source_hub": "mcp_so",
+  "owner": "deepsuthar496",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "9d2a204c649c442e309cec57bfc9132cd7c61873",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 4,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:41Z",
+  "verification_level": "scanner_only"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "mcp-connect-59675e19",
+  "name": "mcp_connect",
+  "description": "MCP Connect is a versatile command-line interface (CLI) client designed to connect to various Model Context Protocol (MCP) servers using stdio transport. It provides seamless integration with OpenAI models and supports dynamic tool and resource management across multiple servers.",
+  "repo_url": "https://github.com/Abiorh001/mcp_connect",
+  "source_hub": "mcp_so",
+  "owner": "Abiorh001",
+  "stars": 232,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp",
+    "integ",
+    "util"
+  ],
+  "verification_status": "fail",
+  "overall_score": 10,
+  "risk_level": "critical",
+  "verified_commit": "4db19d71e09938bb7eef6aa94bbe4ab06ce12ab8",
+  "scan_summary": null,
+  "scan_date": "2026-02-27T06:14:02Z"
+}

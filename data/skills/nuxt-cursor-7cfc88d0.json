@@ -1,0 +1,26 @@
+{
+  "id": "nuxt-cursor-7cfc88d0",
+  "name": "nuxt-cursor",
+  "description": "MCP server helping models to understand your Vite/Nuxt app better.",
+  "repo_url": "https://github.com/JosephAnson/nuxt-cursor",
+  "source_hub": "mcp_so",
+  "owner": "JosephAnson",
+  "stars": 9,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "dev-web-frontend-vue"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "2285196e5c006e5d4fd9e4a518e5ffeb3ebee333",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 122,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:42:34Z",
+  "verification_level": "scanner_only"
+}

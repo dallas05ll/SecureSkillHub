@@ -1,0 +1,41 @@
+{
+  "id": "kaspersky-opentip-mcp-server-2bba2aa3",
+  "name": "Kaspersky OpenTIP MCP Server",
+  "description": "Kaspersky OpenTIP Model Context Protocol Server. This server gives access to Kaspersky OpenTIP API to agentic applications.",
+  "repo_url": "https://github.com/KasperskyLab/threat-intelligence",
+  "source_hub": "glama",
+  "owner": "KasperskyLab",
+  "stars": 21,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp",
+    "integ"
+  ],
+  "verification_status": "pass",
+  "overall_score": 74,
+  "risk_level": "medium",
+  "verified_commit": null,
+  "scan_summary": {
+    "total_findings": 10,
+    "files_scanned": 33,
+    "severity_counts": {
+      "medium": 2,
+      "low": 3
+    },
+    "category_counts": {
+      "network_ops": 1,
+      "file_ops": 5,
+      "env_access": 3
+    },
+    "verification_type": "full_llm_pipeline",
+    "key_findings": [
+      "Official Kaspersky Lab repo, Apache-2.0",
+      "Undocumented analyze_file tool reads arbitrary local files",
+      "File contents uploaded to Kaspersky servers (opentip.kaspersky.com)",
+      "No path validation on file read — recommend sandboxing"
+    ]
+  },
+  "scan_date": "2026-02-25T08:30:00Z",
+  "verification_level": "scanner_only"
+}

@@ -1,0 +1,25 @@
+{
+  "id": "mcp-server-demo-5d6797e8",
+  "name": "mcp-server-demo",
+  "description": "一个基于Spring Boot 的MCP（Model Control Protocol）服务示例项目",
+  "repo_url": "https://github.com/liqingdong/mcp-server-demo",
+  "source_hub": "mcp_so",
+  "owner": "liqingdong",
+  "stars": 4,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "86b62152e63328d20932af1a42c0269fa37b4916",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 2,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:54:02Z",
+  "verification_level": "scanner_only"
+}

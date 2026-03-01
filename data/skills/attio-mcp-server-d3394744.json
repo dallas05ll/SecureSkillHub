@@ -1,0 +1,26 @@
+{
+  "id": "attio-mcp-server-d3394744",
+  "name": "attio-mcp-server",
+  "description": "Attio Model Context Protocol (MCP) server implementation",
+  "repo_url": "https://github.com/kesslerio/attio-mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "kesslerio",
+  "stars": 55,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "375af28e0518689614be6c489fa0eb6dc942bdb9",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 1296,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-27T06:40:44Z",
+  "verification_level": "scanner_only"
+}

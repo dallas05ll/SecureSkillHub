@@ -1,0 +1,27 @@
+{
+  "id": "plasma-2de21c99",
+  "name": "plasma",
+  "description": "A Rails-inspired Ruby SDK for building Model Context Protocol (MCP) servers",
+  "repo_url": "https://github.com/plasma-mcp/plasma",
+  "source_hub": "mcp_so",
+  "owner": "plasma-mcp",
+  "stars": 1,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp",
+    "dev"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "60e9ea221bb3c6056b70c5ab3418a965fa4ff7f8",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 4,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:41Z",
+  "verification_level": "scanner_only"
+}

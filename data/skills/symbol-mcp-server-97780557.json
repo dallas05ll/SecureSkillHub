@@ -1,0 +1,26 @@
+{
+  "id": "symbol-mcp-server-97780557",
+  "name": "symbol-mcp-server",
+  "description": "Symbol MCP Server. (REST API tools)",
+  "repo_url": "https://github.com/husqvaluna/symbol-mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "husqvaluna",
+  "stars": 1,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "a866212c42a6640b206abefad64e4fd1518a8154",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 11,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:40Z",
+  "verification_level": "scanner_only"
+}

@@ -1,0 +1,25 @@
+{
+  "id": "mcp-money-42c09f56",
+  "name": "mcp-money",
+  "description": "MCP server to give nutsack wallets to agents, an important milestone in the path towardsskynet",
+  "repo_url": "https://github.com/pablof7z/mcp-money",
+  "source_hub": "mcp_so",
+  "owner": "pablof7z",
+  "stars": 16,
+  "primary_language": "unknown",
+  "tags": [
+    "sec-crypto"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "6392c0250c934fa8c9a992cece047f181813e454",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 8,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:42:36Z",
+  "verification_level": "scanner_only"
+}

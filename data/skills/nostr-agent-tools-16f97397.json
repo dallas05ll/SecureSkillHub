@@ -1,0 +1,25 @@
+{
+  "id": "nostr-agent-tools-16f97397",
+  "name": "nostr-agent-tools",
+  "description": "MCP Server for NOSTR agent",
+  "repo_url": "https://github.com/ehallmark/nostr-agent-tools",
+  "source_hub": "mcp_so",
+  "owner": "ehallmark",
+  "stars": 3,
+  "primary_language": "unknown",
+  "tags": [
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "4621f45c0adf912f08981ec26bdb09c14debfc90",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 226,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:04:50Z",
+  "verification_level": "scanner_only"
+}

@@ -1,0 +1,25 @@
+{
+  "id": "pydantic-ai-mcp-experiment-8635cd89",
+  "name": "pydantic-ai-mcp-experiment",
+  "description": "Minimalist examples to provide your own MCP servers to your local llm models.",
+  "repo_url": "https://github.com/eschmidt42/pydantic-ai-mcp-experiment",
+  "source_hub": "mcp_so",
+  "owner": "eschmidt42",
+  "stars": 1,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "002eb03a0277ee2dd6f1341e649a76874d8e1835",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 18,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:40Z",
+  "verification_level": "scanner_only"
+}

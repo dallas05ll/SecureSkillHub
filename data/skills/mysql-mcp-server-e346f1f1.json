@@ -1,0 +1,26 @@
+{
+  "id": "mysql-mcp-server-e346f1f1",
+  "name": "mysql-mcp-server",
+  "description": "mcp server accessing MySQL database",
+  "repo_url": "https://github.com/xiangma9712/mysql-mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "xiangma9712",
+  "stars": 6,
+  "primary_language": "unknown",
+  "tags": [
+    "data",
+    "data-db"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "007f1d2481ae524d6c9cdfe6e658793fbe02af73",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 7,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:54:02Z",
+  "verification_level": "scanner_only"
+}

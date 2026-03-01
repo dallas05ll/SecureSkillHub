@@ -1,0 +1,20 @@
+{
+  "id": "mcp-server-kubernetes-740d17af",
+  "name": "mcp-server-kubernetes",
+  "description": "MCP Server for kubernetes management commands",
+  "repo_url": "https://github.com/Flux159/mcp-server-kubernetes",
+  "source_hub": "mcp_so",
+  "owner": "Flux159",
+  "stars": 1323,
+  "primary_language": "unknown",
+  "tags": [
+    "dev-devops-k8s"
+  ],
+  "verification_status": "pass",
+  "overall_score": 73,
+  "risk_level": "medium",
+  "verified_commit": null,
+  "scan_summary": null,
+  "scan_date": "2026-02-26T03:00:50Z",
+  "verification_level": "scanner_only"
+}

@@ -1,0 +1,26 @@
+{
+  "id": "mcp-partner-hub-f0e4da1a",
+  "name": "mcp-partner-hub",
+  "description": "A centralized repository for discovering and comparing Model Context Protocol (MCP) servers from ISV partners.",
+  "repo_url": "https://github.com/zytbeyond/mcp-partner-hub",
+  "source_hub": "mcp_so",
+  "owner": "zytbeyond",
+  "stars": 3,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "3129a5351603f7f0335fb93ef74e37ff663d2147",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 20,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:04:50Z",
+  "verification_level": "scanner_only"
+}

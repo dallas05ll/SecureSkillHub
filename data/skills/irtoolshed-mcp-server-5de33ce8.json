@@ -1,0 +1,25 @@
+{
+  "id": "irtoolshed-mcp-server-5de33ce8",
+  "name": "irtoolshed-mcp-server",
+  "description": "an MCP server providing tools for network incident response folks",
+  "repo_url": "https://github.com/rossja/irtoolshed-mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "rossja",
+  "stars": 2,
+  "primary_language": "unknown",
+  "tags": [
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "08c3ce771ed61ef1e200424dfe92002e1186457b",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 13,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:04:50Z",
+  "verification_level": "scanner_only"
+}

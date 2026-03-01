@@ -1,0 +1,27 @@
+{
+  "id": "glide-api-mcp-server-0919d850",
+  "name": "glide-api-mcp-server",
+  "description": "Model Context Protocol (MCP) server for",
+  "repo_url": "https://github.com/knmurphy/glide-api-mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "knmurphy",
+  "stars": 5,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp",
+    "integ"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "f76571c1ab7eff68f6f8a656f1af7d9c73fb3b7d",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 5,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:54:02Z",
+  "verification_level": "scanner_only"
+}

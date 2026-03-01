@@ -1,0 +1,26 @@
+{
+  "id": "alexgoller-mcp-server-agenda-a969bba2",
+  "name": "alexgoller_mcp-server-agenda",
+  "description": "Mirror of",
+  "repo_url": "https://github.com/MCP-Mirror/alexgoller_mcp-server-agenda",
+  "source_hub": "mcp_so",
+  "owner": "MCP-Mirror",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "prod-calendar",
+    "repo_unavailable"
+  ],
+  "verification_status": "manual_review",
+  "overall_score": 0,
+  "risk_level": "high",
+  "verified_commit": "",
+  "scan_summary": null,
+  "scan_date": "2026-02-28T20:27:25Z",
+  "findings_summary": {
+    "error": "clone failed: Cloning into '/var/folders/pq/bb71gjzd01d29nnmqrhqr2rc0000gn/T/strict5_alexgoller-mcp-server-ag_y4smgvdq/repo'...\nfatal: could not read Username for 'https://github.com': Device not configured",
+    "supervisor_approved": false,
+    "supervisor_confidence": 0
+  },
+  "repo_status": "unavailable"
+}

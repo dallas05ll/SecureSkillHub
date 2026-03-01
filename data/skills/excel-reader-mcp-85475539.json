@@ -1,0 +1,28 @@
+{
+  "id": "excel-reader-mcp-85475539",
+  "name": "excel-reader-mcp",
+  "description": "A Model Context Protocol (MCP) server for reading Excel files with automatic chunking and pagination support. Built with SheetJS and TypeScript.",
+  "repo_url": "https://github.com/ArchimedesCrypto/excel-reader-mcp",
+  "source_hub": "mcp_so",
+  "owner": "ArchimedesCrypto",
+  "stars": 29,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp",
+    "prod",
+    "util-file"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "165c6b2ed2f549974556a1061ebc51fc45bee7a3",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 7,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:32:12Z",
+  "verification_level": "scanner_only"
+}

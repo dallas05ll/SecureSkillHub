@@ -1,0 +1,27 @@
+{
+  "id": "opendata-mcp-lab-3ab7209b",
+  "name": "opendata-mcp-lab",
+  "description": "Makes UK parliament public open data APIS available as a MCP server",
+  "repo_url": "https://github.com/chrisbrooksbank-parliament/opendata-mcp-lab",
+  "source_hub": "mcp_so",
+  "owner": "chrisbrooksbank-parliament",
+  "stars": 4,
+  "primary_language": "unknown",
+  "tags": [
+    "data",
+    "data-ai",
+    "integ"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "651f7e3ad81000cdb9b447b518dbae10f0b52a3c",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 32,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:04:51Z",
+  "verification_level": "scanner_only"
+}

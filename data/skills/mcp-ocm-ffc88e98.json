@@ -1,0 +1,28 @@
+{
+  "id": "mcp-ocm-ffc88e98",
+  "name": "mcp-ocm",
+  "description": "A comprehensive Model Control Protocol (MCP) server for Red Hat OpenShift Cluster Manager (OCM) API operations. This server provides 12 intelligent tools for cluster management, account operations, and infrastructure monitoring.",
+  "repo_url": "https://github.com/judexzhu/mcp-ocm",
+  "source_hub": "mcp_so",
+  "owner": "judexzhu",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "integ",
+    "util",
+    "util-monitor"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "5c8c3d0adb4b2176fb84abfb74d993113fcbabd2",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 4,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:40Z",
+  "verification_level": "scanner_only"
+}

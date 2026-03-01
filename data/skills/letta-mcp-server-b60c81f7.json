@@ -1,0 +1,26 @@
+{
+  "id": "letta-mcp-server-b60c81f7",
+  "name": "Letta-MCP-server",
+  "description": "MCP server to manage letta server and comunicate with agents",
+  "repo_url": "https://github.com/oculairmedia/Letta-MCP-server",
+  "source_hub": "mcp_so",
+  "owner": "oculairmedia",
+  "stars": 64,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "96a310383e83eaf3308930f018416928e1341f38",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 2771,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-27T06:40:44Z",
+  "verification_level": "scanner_only"
+}

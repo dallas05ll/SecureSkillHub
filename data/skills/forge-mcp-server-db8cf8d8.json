@@ -1,0 +1,26 @@
+{
+  "id": "forge-mcp-server-db8cf8d8",
+  "name": "forge-mcp-server",
+  "description": "Turn slow PyTorch into fast CUDA/Triton kernels. 32 parallel swarm agents optimize your code on real datacenter GPUs (B200, H200, H100, A100) with up to 14x speedup over torch.compile.",
+  "repo_url": "https://github.com/RightNow-AI/forge-mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "RightNow-AI",
+  "stars": 2,
+  "primary_language": "unknown",
+  "tags": [
+    "data",
+    "dev"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "ee1c96d41da3209b72827a78f02707876eba1959",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 27,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:04:51Z",
+  "verification_level": "scanner_only"
+}

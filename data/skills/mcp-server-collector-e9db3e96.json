@@ -1,0 +1,26 @@
+{
+  "id": "mcp-server-collector-e9db3e96",
+  "name": "mcp-server-collector",
+  "description": "A MCP Server used to collect MCP Servers over the internet.",
+  "repo_url": "https://github.com/Go-To-Sea/mcp-server-collector",
+  "source_hub": "mcp_so",
+  "owner": "Go-To-Sea",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "d4ca8b31db57f4d722f0f3958737d910a4bf9f62",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 9,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:41Z",
+  "verification_level": "scanner_only"
+}

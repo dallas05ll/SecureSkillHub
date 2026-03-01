@@ -1,0 +1,25 @@
+{
+  "id": "mcp-discovery-action-8a737ff0",
+  "name": "mcp-discovery-action",
+  "description": "GitHub Action for the mcp-discovery CLI",
+  "repo_url": "https://github.com/rust-mcp-stack/mcp-discovery-action",
+  "source_hub": "mcp_so",
+  "owner": "rust-mcp-stack",
+  "stars": 5,
+  "primary_language": "unknown",
+  "tags": [
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "2cb17fb5c6691c6300af423e8132062ebb2af244",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 3,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:54:04Z",
+  "verification_level": "scanner_only"
+}

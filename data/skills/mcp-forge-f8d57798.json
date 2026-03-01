@@ -1,0 +1,29 @@
+{
+  "id": "mcp-forge-f8d57798",
+  "name": "mcp-forge",
+  "description": "MCP-Forge is a powerful framework for dynamically generating, managing, and monitoring Model Context Protocol (MCP) servers. Using the official MCP SDK, this tool enables you to create specialized MCP servers on demand through a centralized interface.",
+  "repo_url": "https://github.com/iddv/mcp-forge",
+  "source_hub": "mcp_so",
+  "owner": "iddv",
+  "stars": 4,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp",
+    "dev",
+    "util",
+    "util-monitor"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "93ae7b87ea7dd8333f078f310f4661506cd23d4f",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 53,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:54:04Z",
+  "verification_level": "scanner_only"
+}

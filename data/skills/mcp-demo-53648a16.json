@@ -1,0 +1,28 @@
+{
+  "id": "mcp-demo-53648a16",
+  "name": "mcp-demo",
+  "description": "This demonstration project shows how to implement a Model Context Protocol (MCP) server with Retrieval-Augmented Generation (RAG) capabilities. The demo allows AI models to interact with a knowledge base, search for information, and add new documents.",
+  "repo_url": "https://github.com/thinklytics/mcp-demo",
+  "source_hub": "mcp_so",
+  "owner": "thinklytics",
+  "stars": 1,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp",
+    "prod-docs",
+    "util-search"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "2a87ee240784ea1834f34d421605755c8ed95f70",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 10,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:41Z",
+  "verification_level": "scanner_only"
+}

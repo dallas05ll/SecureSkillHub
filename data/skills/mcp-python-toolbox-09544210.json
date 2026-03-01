@@ -1,0 +1,28 @@
+{
+  "id": "mcp-python-toolbox-09544210",
+  "name": "mcp_python_toolbox",
+  "description": "A Model Context Protocol (MCP) server that provides a comprehensive set of tools for Python development",
+  "repo_url": "https://github.com/gianlucamazza/mcp_python_toolbox",
+  "source_hub": "mcp_so",
+  "owner": "gianlucamazza",
+  "stars": 8,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp",
+    "dev-web-backend-python",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "f2896087cfceba50ac4cb7b34e13c7c49f914381",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 12,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:42:36Z",
+  "verification_level": "scanner_only"
+}

@@ -1,0 +1,26 @@
+{
+  "id": "hide-mcp-67770fca",
+  "name": "hide-mcp",
+  "description": "MCP server for Hide",
+  "repo_url": "https://github.com/hide-org/hide-mcp",
+  "source_hub": "mcp_so",
+  "owner": "hide-org",
+  "stars": 11,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "2e4feae66e2599dec4e16607657ba2dc8282bc1d",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 15,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:42:34Z",
+  "verification_level": "scanner_only"
+}

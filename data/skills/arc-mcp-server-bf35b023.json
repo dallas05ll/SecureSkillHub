@@ -1,0 +1,26 @@
+{
+  "id": "arc-mcp-server-bf35b023",
+  "name": "arc-mcp-server",
+  "description": "Accelerate development with ARC MCP",
+  "repo_url": "https://github.com/maxmurphySF/arc-mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "maxmurphySF",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "906c5e0db82ef034a4ecf5734c679d9b3532a110",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 46,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:41Z",
+  "verification_level": "scanner_only"
+}

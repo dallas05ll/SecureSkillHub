@@ -1,0 +1,30 @@
+{
+  "id": "mcp-server-fastapi-containerapp-341a1d7f",
+  "name": "MCP-server-fastapi-containerapp",
+  "description": "This repo contains a remote MCP server implemented as a containerapp in Azure",
+  "repo_url": "https://github.com/joelborellis/MCP-server-fastapi-containerapp",
+  "source_hub": "mcp_so",
+  "owner": "joelborellis",
+  "stars": 9,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "dev-devops-docker",
+    "dev-web-backend-python",
+    "integ",
+    "integ-cloud",
+    "integ-cloud-azure"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "cd6ed195765e71ade06f354bdc7968dc84709eba",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 19,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:42:34Z",
+  "verification_level": "scanner_only"
+}

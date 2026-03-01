@@ -1,0 +1,28 @@
+{
+  "id": "mcp-zenodo-93d57295",
+  "name": "mcp-zenodo",
+  "description": "Tool-based LLM integration with Zenodo via the Model Context Protocol (MCP)",
+  "repo_url": "https://github.com/MSKazemi/mcp-zenodo",
+  "source_hub": "mcp_so",
+  "owner": "MSKazemi",
+  "stars": 4,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp",
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "9a8fd2dc83b9ac784a53509025d754c012dfaaf8",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 53,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:54:02Z",
+  "verification_level": "scanner_only"
+}

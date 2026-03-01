@@ -1,0 +1,26 @@
+{
+  "id": "jolokia-mcp-13831320",
+  "name": "jolokia-mcp",
+  "description": "Jolokia MCP server",
+  "repo_url": "https://github.com/tadayosi/jolokia-mcp",
+  "source_hub": "mcp_so",
+  "owner": "tadayosi",
+  "stars": 15,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "6626fa0d5f9c724ad57e198714551fcc902f17e8",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 1,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:42:36Z",
+  "verification_level": "scanner_only"
+}

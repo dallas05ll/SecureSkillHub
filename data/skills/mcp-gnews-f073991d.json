@@ -1,0 +1,25 @@
+{
+  "id": "mcp-gnews-f073991d",
+  "name": "mcp-gnews",
+  "description": "MCP server to give client the ability to searching related news on the internet",
+  "repo_url": "https://github.com/algonacci/mcp-gnews",
+  "source_hub": "mcp_so",
+  "owner": "algonacci",
+  "stars": 1,
+  "primary_language": "unknown",
+  "tags": [
+    "util-search"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "0b91a6d15afc4f3cffd048b7304a5f9f8d768164",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 3,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:41Z",
+  "verification_level": "scanner_only"
+}

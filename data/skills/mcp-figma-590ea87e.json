@@ -1,0 +1,25 @@
+{
+  "id": "mcp-figma-590ea87e",
+  "name": "mcp-figma",
+  "description": "Figma MCP Server with full API functionality",
+  "repo_url": "https://github.com/JayArrowz/mcp-figma",
+  "source_hub": "mcp_so",
+  "owner": "JayArrowz",
+  "stars": 59,
+  "primary_language": "unknown",
+  "tags": [
+    "integ"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "c97f31bb865f80e7c7a053718160c1e15754b646",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 10,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-27T06:40:49Z",
+  "verification_level": "scanner_only"
+}

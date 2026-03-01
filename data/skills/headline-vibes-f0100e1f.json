@@ -1,0 +1,26 @@
+{
+  "id": "headline-vibes-f0100e1f",
+  "name": "headline-vibes",
+  "description": "MCP Server - get a heat check headlines",
+  "repo_url": "https://github.com/fred-em/headline-vibes",
+  "source_hub": "mcp_so",
+  "owner": "fred-em",
+  "stars": 6,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "7d17610a15983d102c6186d2a9c6906c8bbce00b",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 33,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:54:04Z",
+  "verification_level": "scanner_only"
+}

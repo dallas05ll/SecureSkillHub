@@ -1,0 +1,25 @@
+{
+  "id": "feishu-mcp-server-1857eda1",
+  "name": "feishu-mcp-server",
+  "description": "npm feishu-mcp-server",
+  "repo_url": "https://github.com/hankeyyh/feishu-mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "hankeyyh",
+  "stars": 1,
+  "primary_language": "unknown",
+  "tags": [
+    "dev-web-backend-node"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "9b51a6485fbbe1db9849cab7dc7c31b56ee08c3b",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 8,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:41Z",
+  "verification_level": "scanner_only"
+}

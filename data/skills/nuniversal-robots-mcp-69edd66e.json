@@ -1,0 +1,26 @@
+{
+  "id": "nuniversal-robots-mcp-69edd66e",
+  "name": "nUniversal-Robots-MCP",
+  "description": "Universal-Robots MCP-Server",
+  "repo_url": "https://github.com/nonead/nUniversal-Robots-MCP",
+  "source_hub": "mcp_so",
+  "owner": "nonead",
+  "stars": 5,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "3d918c923f7f66f1f4c462e9151be63ec3a44dba",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 44,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:54:02Z",
+  "verification_level": "scanner_only"
+}

@@ -1,0 +1,27 @@
+{
+  "id": "nowledge-fc638dc0",
+  "name": "nowledge",
+  "description": "A MCP Server that gives you latest docs and data from the web",
+  "repo_url": "https://github.com/instructa/nowledge",
+  "source_hub": "mcp_so",
+  "owner": "instructa",
+  "stars": 17,
+  "primary_language": "unknown",
+  "tags": [
+    "data",
+    "dev-testing",
+    "prod-docs"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "9ade77cccaac6bca13087f399682849fae9279fd",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 30,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:42:34Z",
+  "verification_level": "scanner_only"
+}

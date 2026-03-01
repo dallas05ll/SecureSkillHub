@@ -1,0 +1,26 @@
+{
+  "id": "skillhub-mcp-1ee6faf3",
+  "name": "skillhub-mcp",
+  "description": "Skillhub MCP bridges that gap: it turns Claude-style skills into MCP tools, so any MCP client can call the same skills.",
+  "repo_url": "https://github.com/214140846/skillhub-mcp",
+  "source_hub": "mcp_so",
+  "owner": "214140846",
+  "stars": 1,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "e1d58a64ba24db151e5244d6e454b83435855d7d",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 13,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:41Z",
+  "verification_level": "scanner_only"
+}

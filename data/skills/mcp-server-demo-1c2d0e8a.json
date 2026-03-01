@@ -1,0 +1,26 @@
+{
+  "id": "mcp-server-demo-1c2d0e8a",
+  "name": "mcp-server-demo",
+  "description": "Demo PoC MCP server to be used in other PoC",
+  "repo_url": "https://github.com/dto-btn/mcp-server-demo",
+  "source_hub": "mcp_so",
+  "owner": "dto-btn",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "db74fbe08ebf80528935d291daf0e0cf2d47e379",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 14,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:41Z",
+  "verification_level": "scanner_only"
+}

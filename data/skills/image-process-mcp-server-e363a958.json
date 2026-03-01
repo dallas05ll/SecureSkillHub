@@ -1,0 +1,25 @@
+{
+  "id": "image-process-mcp-server-e363a958",
+  "name": "image-process-mcp-server",
+  "description": "An MCP Server for image processing that uses the Sharp library to provide image manipulation functionality. 这是一个用于处理图片的MCP Server，使用 sharp 库提供图片处理功能。",
+  "repo_url": "https://github.com/x007xyz/image-process-mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "x007xyz",
+  "stars": 5,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai-vision"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "69095a8ffbbb96a22c59e44a9598c9661737157e",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 5,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:54:02Z",
+  "verification_level": "scanner_only"
+}

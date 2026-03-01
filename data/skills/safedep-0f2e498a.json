@@ -1,0 +1,27 @@
+{
+  "id": "safedep-0f2e498a",
+  "name": "safedep",
+  "description": "SafeDep MCP Server protects AI coding agents from supply chain attacks by checking every open source package before installation.\r\n\r\nWhen your AI suggests a package, SafeDep validates it against our threat intelligence database, built from continuous scanning, behavioral analysis, and human security researcher verification. Malicious packages are blocked instantly. Safe packages install without friction.\r\n\r\nWe detect threats in hours, not the 24-48 hours it takes for public disclosure. Same i...",
+  "repo_url": "https://github.com/SafeDep/safedep",
+  "source_hub": "mcp_so",
+  "owner": "SafeDep",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "data",
+    "data-ai",
+    "data-db",
+    "sec",
+    "sec-scan",
+    "util-search",
+    "repo_unavailable"
+  ],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null,
+  "repo_status": "unavailable",
+  "repo_check_date": "2026-02-28T20:52:51.384683+00:00",
+  "repo_check_error": "fatal: could not read Username for 'https://github.com': Device not configured"
+}

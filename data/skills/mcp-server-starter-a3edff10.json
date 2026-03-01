@@ -1,0 +1,31 @@
+{
+  "id": "mcp-server-starter-a3edff10",
+  "name": "mcp-server-starter",
+  "description": "This repository contains a ready-to-use Model Context Protocol (MCP) server that supercharges your development workflow. As a new developer, I created this tool to consolidate documentation and streamline my development process—now I'm sharing it with you.",
+  "repo_url": "https://github.com/mgesteban/mcp-server-starter",
+  "source_hub": "mcp_so",
+  "owner": "mgesteban",
+  "stars": 2,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp",
+    "dev",
+    "prod",
+    "prod-docs",
+    "util",
+    "util-media"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "67b9b5839164a899039e41082d1682c2419454e7",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 14,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:04:51Z",
+  "verification_level": "scanner_only"
+}

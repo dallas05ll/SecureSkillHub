@@ -1,0 +1,29 @@
+{
+  "id": "mcp-browser-use-8418ee6d",
+  "name": "mcp-browser-use",
+  "description": "FastAPI server implementing MCP protocol Browser automation via browser-use library.",
+  "repo_url": "https://github.com/JovaniPink/mcp-browser-use",
+  "source_hub": "mcp_so",
+  "owner": "JovaniPink",
+  "stars": 57,
+  "primary_language": "unknown",
+  "tags": [
+    "dev-web",
+    "dev-web-backend-python",
+    "integ",
+    "prod",
+    "util-search"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "e5bc348ab030fac9a8965731e16aea0117b7c523",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 56,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-27T06:40:49Z",
+  "verification_level": "scanner_only"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "mcpserve-746b043b",
+  "name": "mcpserve",
+  "description": "Simple MCP Server w/ Shell Exec. Connect to Local via Ngrok, or Host Ubuntu24 Container via Docker",
+  "repo_url": "https://github.com/mark-oori/mcpserve",
+  "source_hub": "mcp_so",
+  "owner": "mark-oori",
+  "stars": 2,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "dev-devops-docker",
+    "dev-web-backend-node",
+    "integ"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "385539d19a13dbe91fe45b4ab1feda123701396f",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 5,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:04:50Z",
+  "verification_level": "scanner_only"
+}

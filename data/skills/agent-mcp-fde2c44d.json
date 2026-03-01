@@ -1,0 +1,26 @@
+{
+  "id": "agent-mcp-fde2c44d",
+  "name": "agent-mcp",
+  "description": "MCPAgent for Grupa.AI Multi-agent Collaboration Network (MACNET) with Model Context Protocol (MCP) capabilities baked in",
+  "repo_url": "https://github.com/grupa-ai/agent-mcp",
+  "source_hub": "mcp_so",
+  "owner": "grupa-ai",
+  "stars": 20,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 113,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-25T14:42:32Z",
+  "verification_level": "scanner_only"
+}

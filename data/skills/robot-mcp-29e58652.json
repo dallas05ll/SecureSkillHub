@@ -1,0 +1,26 @@
+{
+  "id": "robot-mcp-29e58652",
+  "name": "robot-mcp",
+  "description": "mcp server for johnny-five",
+  "repo_url": "https://github.com/monteslu/robot-mcp",
+  "source_hub": "mcp_so",
+  "owner": "monteslu",
+  "stars": 7,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "a94bd31bd23c8ccfe63fdf1a3428e9c75e08aed8",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 4,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:54:02Z",
+  "verification_level": "scanner_only"
+}

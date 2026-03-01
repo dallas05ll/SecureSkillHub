@@ -1,0 +1,28 @@
+{
+  "id": "youtube-mcp-server-375f8dfd",
+  "name": "youtube-mcp-server",
+  "description": "Servidor MCP para interactuar con la API de YouTube desde Claude y otros asistentes de IA",
+  "repo_url": "https://github.com/Nocodeboy/youtube-mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "Nocodeboy",
+  "stars": 1,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "integ",
+    "integ-social",
+    "util-media"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "033e8ebb1a15192648560d4b12d454cc209acf83",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 4,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:42Z",
+  "verification_level": "scanner_only"
+}

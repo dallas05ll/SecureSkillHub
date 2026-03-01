@@ -1,0 +1,25 @@
+{
+  "id": "ckanext-mcp-dd00725a",
+  "name": "ckanext-mcp",
+  "description": "An MCP server to answer questions about data",
+  "repo_url": "https://github.com/unckan/ckanext-mcp",
+  "source_hub": "mcp_so",
+  "owner": "unckan",
+  "stars": 1,
+  "primary_language": "unknown",
+  "tags": [
+    "data"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "29d2a5a4bd74257be52bcb850b8a3ad577d5300d",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 16,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:40Z",
+  "verification_level": "scanner_only"
+}

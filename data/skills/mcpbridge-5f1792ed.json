@@ -1,0 +1,25 @@
+{
+  "id": "mcpbridge-5f1792ed",
+  "name": "mcpbridge",
+  "description": "Server side of Firefox Claude MCP extension",
+  "repo_url": "https://github.com/k3d3/mcpbridge",
+  "source_hub": "mcp_so",
+  "owner": "k3d3",
+  "stars": 2,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "5d5e6b99ad749f1ab431629ea7d49bdbe5a6a4d2",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 2,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:04:51Z",
+  "verification_level": "scanner_only"
+}

@@ -1,0 +1,26 @@
+{
+  "id": "mcp-server-demo-ba17f2a4",
+  "name": "mcp-server-demo",
+  "description": "✨ MCP Server Demo",
+  "repo_url": "https://github.com/liuyuhe666/mcp-server-demo",
+  "source_hub": "mcp_so",
+  "owner": "liuyuhe666",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "d0ab2033c237014bb3abea300ef05b566c00649b",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 3,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:41Z",
+  "verification_level": "scanner_only"
+}

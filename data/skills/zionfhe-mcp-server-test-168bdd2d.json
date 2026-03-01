@@ -1,0 +1,25 @@
+{
+  "id": "zionfhe-mcp-server-test-168bdd2d",
+  "name": "zionfhe_mcp_server_test",
+  "description": "基于新型同态加密技术ZIONFHE的mcp server",
+  "repo_url": "https://github.com/joyecai/zionfhe_mcp_server_test",
+  "source_hub": "mcp_so",
+  "owner": "joyecai",
+  "stars": 2,
+  "primary_language": "unknown",
+  "tags": [
+    "dev-testing"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "c8d545c06ca722cd9088ea4302dba8546716bd57",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 3,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:42Z",
+  "verification_level": "scanner_only"
+}

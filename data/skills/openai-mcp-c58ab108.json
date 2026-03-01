@@ -1,0 +1,28 @@
+{
+  "id": "openai-mcp-c58ab108",
+  "name": "openai-mcp",
+  "description": "MCP server that enables Roo Code to make OpenAI API calls, with full support for DALL-E image generation",
+  "repo_url": "https://github.com/jezweb/openai-mcp",
+  "source_hub": "mcp_so",
+  "owner": "jezweb",
+  "stars": 1,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-vision",
+    "dev",
+    "integ"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "e5b1e73d4d37f96e44600fecee90988edf24a6d2",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 7,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:40Z",
+  "verification_level": "scanner_only"
+}

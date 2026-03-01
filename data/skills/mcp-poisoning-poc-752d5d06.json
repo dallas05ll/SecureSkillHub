@@ -1,0 +1,26 @@
+{
+  "id": "mcp-poisoning-poc-752d5d06",
+  "name": "mcp-poisoning-poc",
+  "description": "This repository demonstrates a variety of **MCP Poisoning Attacks** affecting real-world AI agent workflows.",
+  "repo_url": "https://github.com/wbfoss/mcp-poisoning-poc",
+  "source_hub": "mcp_so",
+  "owner": "wbfoss",
+  "stars": 14,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "prod"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "67fd8c6fdeeec33be27cdd16271855914f1ab000",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 36,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:42:34Z",
+  "verification_level": "scanner_only"
+}

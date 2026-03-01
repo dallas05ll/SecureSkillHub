@@ -1,0 +1,25 @@
+{
+  "id": "smartlead-mcp-server-288ae15d",
+  "name": "smartlead-mcp-server",
+  "description": "smaertlead mcp server for Campaign",
+  "repo_url": "https://github.com/lkm1developer/smartlead-mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "lkm1developer",
+  "stars": 3,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "2eb914694416a8eb50de0793ddb293f406fdfc93",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 7,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:04:51Z",
+  "verification_level": "scanner_only"
+}

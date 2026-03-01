@@ -1,0 +1,30 @@
+{
+  "id": "qasphere-mcp-59f65879",
+  "name": "qasphere-mcp",
+  "description": "A Model Context Protocol server for the QA Sphere test management system.\n\nThis integration enables Large Language Models (LLMs) to interact directly with QA Sphere test cases, allowing you to discover, summarize, and chat about test cases. In AI-powered IDEs that support MCP, you can reference specific QA Sphere test cases within your development workflow.",
+  "repo_url": "https://github.com/hypersequent/qasphere-mcp",
+  "source_hub": "mcp_so",
+  "owner": "hypersequent",
+  "stars": 19,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp",
+    "dev-testing",
+    "integ",
+    "prod",
+    "prod-comm"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "a7b8d6991fa62525f95a5e4ab9c0bfb3ba49a9ad",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 21,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:42:36Z",
+  "verification_level": "scanner_only"
+}

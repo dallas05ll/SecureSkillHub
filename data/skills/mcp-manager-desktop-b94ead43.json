@@ -1,0 +1,26 @@
+{
+  "id": "mcp-manager-desktop-b94ead43",
+  "name": "mcp-manager-desktop",
+  "description": "WIP: A MCP server to search, install, uninstall all your MCP servers or services for your Claude App (or more)",
+  "repo_url": "https://github.com/MCP-Club/mcp-manager-desktop",
+  "source_hub": "mcp_so",
+  "owner": "MCP-Club",
+  "stars": 16,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "util-search"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "14378b673c6ef417d4304eb0294cf829b9d666ca",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 55,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:42:34Z",
+  "verification_level": "scanner_only"
+}

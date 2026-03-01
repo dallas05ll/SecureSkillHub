@@ -1,0 +1,26 @@
+{
+  "id": "bookworm-0c39adf5",
+  "name": "bookworm",
+  "description": "MCP server for Rust documentation",
+  "repo_url": "https://github.com/dcdpr/bookworm",
+  "source_hub": "mcp_so",
+  "owner": "dcdpr",
+  "stars": 4,
+  "primary_language": "unknown",
+  "tags": [
+    "dev-web-backend-rust",
+    "prod-docs"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "e5313af31e26b411d6f32200a55d0f5da6da4f2b",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 12,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:54:02Z",
+  "verification_level": "scanner_only"
+}

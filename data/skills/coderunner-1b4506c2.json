@@ -1,0 +1,45 @@
+{
+  "id": "coderunner-1b4506c2",
+  "name": "coderunner",
+  "description": "A secure local sandbox MCP server that executes LLM-generated code using Apple's native container technology on macOS. Includes two bundled SKILL.md files (image-crop-rotate, pdf-text-replace) with Python helper scripts. Primarily an MCP server with skill examples.",
+  "repo_url": "https://github.com/instavm/coderunner",
+  "source_hub": "github_search",
+  "skill_type": "agent_skill",
+  "owner": "instavm",
+  "stars": 786,
+  "license": "apache-2.0",
+  "primary_language": "Python",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp",
+    "data-ai-vision",
+    "dev",
+    "dev-devops-docker",
+    "dev-web-backend-node",
+    "dev-web-backend-python",
+    "util",
+    "util-file"
+  ],
+  "verification_status": "pass",
+  "overall_score": 68,
+  "risk_level": "medium",
+  "verified_commit": null,
+  "findings_summary": {
+    "has_readme": true,
+    "has_security_policy": false,
+    "has_mcp_server": true,
+    "dangerous_patterns": [
+      "install.sh runs 'sudo installer -pkg' to install Apple container tool system-wide",
+      "install.sh downloads unsigned pkg from GitHub releases via curl",
+      "server.py uses Playwright async API for browser automation (broad capability)",
+      "entrypoint.sh manages container lifecycle with system-level commands",
+      "Primary function is arbitrary code execution (by design, sandboxed)"
+    ],
+    "notes": "This is primarily an MCP server (not a pure agent skill) that intentionally executes arbitrary LLM-generated code in Apple containers. The sandboxing approach is sound and the project is from an organization account with Apache-2.0 license. However, the install.sh requires sudo and downloads/installs a pkg file — users must trust the download. The two bundled SKILL.md files (image-crop-rotate, pdf-text-replace) are benign utility skills with well-scoped Python scripts. Requires macOS with Apple Silicon only. Flagged for manual review due to sudo install requirement and system-level scope, not due to malicious intent."
+  },
+  "scan_summary": null,
+  "last_updated": "2026-02-24T09:01:12Z",
+  "trust_level": "low",
+  "scan_date": "2026-02-26T02:04:30Z",
+  "verification_level": "scanner_only"
+}

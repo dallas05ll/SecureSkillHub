@@ -1,0 +1,27 @@
+{
+  "id": "writing-prose-like-a-human-for-agents-13c08636",
+  "name": "writing-prose-like-a-human-for-agents",
+  "description": "A skill and subagent that help AI agents write and edit prose that doesn't read like AI.",
+  "repo_url": "https://github.com/kylehughes/writing-prose-like-a-human-for-agents",
+  "source_hub": "github_search",
+  "skill_type": "agent_skill",
+  "owner": "kylehughes",
+  "stars": 3,
+  "license": "other",
+  "primary_language": "markdown",
+  "tags": [
+    "data-ai"
+  ],
+  "verification_status": "pass",
+  "overall_score": 78,
+  "risk_level": "medium",
+  "verified_commit": null,
+  "scan_summary": null,
+  "last_updated": "2026-02-24T15:10:01Z",
+  "findings_summary": {
+    "notes": "Metadata-based verification. Score=78. Signals: stars=3; license='other' (+5); owner='kylehughes' (+3); primary_language='markdown'; source_hub='github_search'. Status: pass. Risk: medium."
+  },
+  "trust_level": "low",
+  "scan_date": "2026-02-26T06:14:56Z",
+  "verification_level": "metadata_only"
+}

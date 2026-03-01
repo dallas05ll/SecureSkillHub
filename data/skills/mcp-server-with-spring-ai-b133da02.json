@@ -1,0 +1,25 @@
+{
+  "id": "mcp-server-with-spring-ai-b133da02",
+  "name": "mcp-server-with-spring-ai",
+  "description": "Build your own mcp server with spring ai",
+  "repo_url": "https://github.com/kuldeepsingh99/mcp-server-with-spring-ai",
+  "source_hub": "mcp_so",
+  "owner": "kuldeepsingh99",
+  "stars": 5,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "771b684ceb2ac7fcb304c2976001b73138e74104",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 5,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:54:02Z",
+  "verification_level": "scanner_only"
+}

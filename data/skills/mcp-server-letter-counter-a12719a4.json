@@ -1,0 +1,26 @@
+{
+  "id": "mcp-server-letter-counter-a12719a4",
+  "name": "mcp-server-letter-counter",
+  "description": "MCP server to count letters",
+  "repo_url": "https://github.com/higherpass/mcp-server-letter-counter",
+  "source_hub": "mcp_so",
+  "owner": "higherpass",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "5c6365aa54d7587b687c2ca013658b10ebb4606c",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 4,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:42Z",
+  "verification_level": "scanner_only"
+}

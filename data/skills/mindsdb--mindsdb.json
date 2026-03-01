@@ -1,0 +1,96 @@
+{
+  "id": "mindsdb--mindsdb",
+  "name": "mindsdb",
+  "skill_type": "mcp_server",
+  "repo_url": "https://github.com/mindsdb/mindsdb",
+  "source_hub": "github_search",
+  "stars": 38581,
+  "verification_status": "fail",
+  "overall_score": 15,
+  "risk_level": "critical",
+  "description": "Federated Query Engine for AI with a built-in MCP Server that connects databases, data warehouses, and SaaS apps for unified data access.",
+  "primary_language": "Python",
+  "tags": [
+    "data",
+    "data-ai",
+    "data-db",
+    "integ"
+  ],
+  "findings_summary": {
+    "scanner_findings": 1180,
+    "dangerous_calls": 54,
+    "network_ops": 132,
+    "file_ops": 283,
+    "env_access": 642,
+    "obfuscation": 14,
+    "injection_patterns": 0,
+    "mismatches": 0,
+    "undocumented_capabilities": 0,
+    "supervisor_approved": false,
+    "supervisor_confidence": 90
+  },
+  "trust_level": "low",
+  "scan_date": "2026-02-28T20:55:22Z",
+  "verified_commit": "dcc4b82e8e06ddfaf019dc4d1bf16a8e7ed5d302",
+  "verification_level": "full_pipeline",
+  "agent_audit": {
+    "agents_completed": 5,
+    "agents_required": 5,
+    "pipeline_run_at": "2026-02-28T20:55:22Z",
+    "agent_a": {
+      "signed": true,
+      "signed_at": "2026-02-28T20:55:22Z",
+      "comment": "Docs quality 9/10. README present. 12 features, 4 permissions claimed.",
+      "doc_quality_score": 9,
+      "claimed_permissions": [
+        "network access",
+        "system command execution",
+        "file system access",
+        "environment/secret access"
+      ]
+    },
+    "agent_b": {
+      "signed": true,
+      "signed_at": "2026-02-28T20:55:22Z",
+      "comment": "1668 files analyzed. Found: 45 network, 22 file, 14 env, 4 system calls. Primary: python.",
+      "files_analyzed": 1668,
+      "capabilities_found": [
+        "imports external dependencies",
+        "performs network operations",
+        "reads/writes files",
+        "reads environment values",
+        "executes system commands"
+      ]
+    },
+    "agent_c_star": {
+      "signed": true,
+      "signed_at": "2026-02-28T20:55:22Z",
+      "comment": "1180 findings: 0 critical, 123 high, 774 medium, 283 low. Obfuscation detected!. No injection.",
+      "total_findings": 1180,
+      "severity_counts": {
+        "critical": 0,
+        "high": 123,
+        "medium": 774,
+        "low": 283,
+        "info": 0
+      }
+    },
+    "agent_d": {
+      "signed": true,
+      "signed_at": "2026-02-28T20:55:22Z",
+      "comment": "Score 15. 0 mismatches. Risk: critical. Safety overrides: applied.",
+      "score": 15,
+      "mismatches": 0,
+      "safety_overrides_applied": true
+    },
+    "agent_e": {
+      "signed": true,
+      "signed_at": "2026-02-28T20:55:22Z",
+      "comment": "Rejected. Confidence 90%. Deterministic override: high-risk obfuscation detected.",
+      "approved": false,
+      "confidence": 90,
+      "override_reason": "Deterministic override: high-risk obfuscation detected."
+    },
+    "manager_summary": "5/5 agents completed. Score: 15/100, Risk: critical. 0 mismatches, 1180 scanner findings. Rejected at 90% confidence. Safety overrides triggered."
+  }
+}

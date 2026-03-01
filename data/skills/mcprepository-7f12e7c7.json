@@ -1,0 +1,26 @@
+{
+  "id": "mcprepository-7f12e7c7",
+  "name": "MCPRepository",
+  "description": "Open Source Repository for ModelContextProtocol MCP server",
+  "repo_url": "https://github.com/jaimaann/MCPRepository",
+  "source_hub": "mcp_so",
+  "owner": "jaimaann",
+  "stars": 7,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "b6cf9794d08f5042d395341b09cc6c182c5337d4",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 31,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:54:02Z",
+  "verification_level": "scanner_only"
+}

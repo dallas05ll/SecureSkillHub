@@ -1,0 +1,25 @@
+{
+  "id": "spacebridge-mcp-671faf31",
+  "name": "SpaceBridge-MCP",
+  "description": "MCP server that turbocharges vibe coding by automating issue tracking",
+  "repo_url": "https://github.com/spacecode-ai/SpaceBridge-MCP",
+  "source_hub": "mcp_so",
+  "owner": "spacecode-ai",
+  "stars": 6,
+  "primary_language": "unknown",
+  "tags": [
+    "prod"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "4fda3f8bb5f6e576c6662d05461094aab8e5004b",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 21,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:54:02Z",
+  "verification_level": "scanner_only"
+}

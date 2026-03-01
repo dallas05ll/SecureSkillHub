@@ -1,0 +1,96 @@
+{
+  "id": "seedance2-api-aa235660",
+  "name": "Seedance2 Api",
+  "description": "Agent skill: seedance2-api from hexiaochun/seedance2-api",
+  "repo_url": "https://github.com/hexiaochun/seedance2-api",
+  "source_hub": "skills_sh",
+  "owner": "hexiaochun",
+  "stars": 11400,
+  "primary_language": "java",
+  "tags": [
+    "integ"
+  ],
+  "verification_status": "pass",
+  "overall_score": 100,
+  "risk_level": "medium",
+  "verified_commit": "03cce209de6964375c0c8a988f5dd6f7bfed1d2e",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 7,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T20:57:34Z",
+  "findings_summary": {
+    "scanner_findings": 13,
+    "dangerous_calls": 0,
+    "network_ops": 11,
+    "file_ops": 0,
+    "env_access": 2,
+    "obfuscation": 0,
+    "injection_patterns": 0,
+    "mismatches": 0,
+    "undocumented_capabilities": 0,
+    "supervisor_approved": true,
+    "supervisor_confidence": 95
+  },
+  "verification_level": "full_pipeline",
+  "agent_audit": {
+    "agents_completed": 5,
+    "agents_required": 5,
+    "pipeline_run_at": "2026-02-28T20:57:34Z",
+    "agent_a": {
+      "signed": true,
+      "signed_at": "2026-02-28T20:57:34Z",
+      "comment": "Docs quality 9/10. README present. 12 features, 4 permissions claimed.",
+      "doc_quality_score": 9,
+      "claimed_permissions": [
+        "network access",
+        "system command execution",
+        "file system access",
+        "environment/secret access"
+      ]
+    },
+    "agent_b": {
+      "signed": true,
+      "signed_at": "2026-02-28T20:57:34Z",
+      "comment": "4 files analyzed. Found: 3 network, 0 file, 2 env, 0 system calls. Primary: java.",
+      "files_analyzed": 4,
+      "capabilities_found": [
+        "imports external dependencies",
+        "performs network operations",
+        "reads environment values"
+      ]
+    },
+    "agent_c_star": {
+      "signed": true,
+      "signed_at": "2026-02-28T20:57:34Z",
+      "comment": "13 findings: 0 critical, 0 high, 13 medium, 0 low. No obfuscation. No injection.",
+      "total_findings": 13,
+      "severity_counts": {
+        "critical": 0,
+        "high": 0,
+        "medium": 13,
+        "low": 0,
+        "info": 0
+      }
+    },
+    "agent_d": {
+      "signed": true,
+      "signed_at": "2026-02-28T20:57:34Z",
+      "comment": "Score 100. 0 mismatches. Risk: medium. Safety overrides: none triggered.",
+      "score": 100,
+      "mismatches": 0,
+      "safety_overrides_applied": false
+    },
+    "agent_e": {
+      "signed": true,
+      "signed_at": "2026-02-28T20:57:34Z",
+      "comment": "Approved. Confidence 95%. No overrides.",
+      "approved": true,
+      "confidence": 95,
+      "override_reason": null
+    },
+    "manager_summary": "5/5 agents completed. Score: 100/100, Risk: medium. 0 mismatches, 13 scanner findings. Approved at 95% confidence. No safety overrides."
+  }
+}

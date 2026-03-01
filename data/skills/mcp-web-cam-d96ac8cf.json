@@ -1,0 +1,26 @@
+{
+  "id": "mcp-web-cam-d96ac8cf",
+  "name": "mcp-web-cam",
+  "description": "A MCP server for using web camera",
+  "repo_url": "https://github.com/kmizu/mcp-web-cam",
+  "source_hub": "mcp_so",
+  "owner": "kmizu",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "51aa37f1c711241bc3ce733653cfd6936dfdbd8d",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 17,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:40Z",
+  "verification_level": "scanner_only"
+}

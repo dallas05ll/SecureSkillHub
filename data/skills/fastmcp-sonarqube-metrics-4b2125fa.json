@@ -1,0 +1,27 @@
+{
+  "id": "fastmcp-sonarqube-metrics-4b2125fa",
+  "name": "fastmcp-sonarqube-metrics",
+  "description": "Chat with your SonarQube data: explore metrics, compare trends, and track issues—effortlessly.",
+  "repo_url": "https://github.com/ArchAI-Labs/fastmcp-sonarqube-metrics",
+  "source_hub": "mcp_so",
+  "owner": "ArchAI-Labs",
+  "stars": 12,
+  "primary_language": "unknown",
+  "tags": [
+    "data",
+    "prod-comm",
+    "util-monitor"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "1654b4162d9cf9acf96faea2c7d96ccb3bdfa5a4",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 8,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:42:36Z",
+  "verification_level": "scanner_only"
+}

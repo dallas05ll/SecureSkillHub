@@ -1,0 +1,26 @@
+{
+  "id": "mcp-server-e19dbf48",
+  "name": "MCP-Server",
+  "description": "个人实践Cursor+MCP-Server",
+  "repo_url": "https://github.com/Dawson-web/MCP-Server",
+  "source_hub": "mcp_so",
+  "owner": "Dawson-web",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "a7ff7345ac565d45dce2bb800c75b0dc7d42a3b9",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 7,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:40Z",
+  "verification_level": "scanner_only"
+}

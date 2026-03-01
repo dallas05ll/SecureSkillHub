@@ -1,0 +1,29 @@
+{
+  "id": "perfetto-mcp-8060a3cc",
+  "name": "perfetto-mcp",
+  "description": "A Model Context Protocol (MCP) server that transforms natural-language prompts into focused Perfetto analyses. Quickly explain jank, diagnose ANRs, spot CPU hot threads, uncover lock contention, and find memory leaks – all without writing SQL.",
+  "repo_url": "https://github.com/antarikshc/perfetto-mcp",
+  "source_hub": "mcp_so",
+  "owner": "antarikshc",
+  "stars": 98,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp",
+    "data-db",
+    "prod-notes",
+    "util-search"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "97d74aec6b0a9b47728cec21842bad74588a2461",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 30,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-27T06:40:44Z",
+  "verification_level": "scanner_only"
+}

@@ -1,0 +1,26 @@
+{
+  "id": "applemusic-mcp-server-11f431b3",
+  "name": "applemusic-mcp-server",
+  "description": "An MCP server for interacting with the Apple Music API.",
+  "repo_url": "https://github.com/akr4/applemusic-mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "akr4",
+  "stars": 2,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai-audio",
+    "integ"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "e6130cf6df58bcfc3840db58ebac1cda2744db0c",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 3,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:04:51Z",
+  "verification_level": "scanner_only"
+}

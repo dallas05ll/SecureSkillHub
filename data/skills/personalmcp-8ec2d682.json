@@ -1,0 +1,26 @@
+{
+  "id": "personalmcp-8ec2d682",
+  "name": "PersonalMCP",
+  "description": "A collection Swift projects which aim to build a MCP server for completing personal tasks",
+  "repo_url": "https://github.com/spprichard/PersonalMCP",
+  "source_hub": "mcp_so",
+  "owner": "spprichard",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "prod-pm"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "b7dd7314d3c2bdec3f3e30dc7a3ef23dfa7fc92b",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 5,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:42Z",
+  "verification_level": "scanner_only"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "mcp-memory-bank-287b1ae9",
+  "name": "mcp-memory-bank",
+  "description": "A powerful, production-ready context management system for Large Language Models (LLMs). Built with ChromaDB and modern embedding technologies, it provides persistent, project-specific memory capabilities that enhance your AI's understanding and response quality.",
+  "repo_url": "https://github.com/bsmi021/mcp-memory-bank",
+  "source_hub": "mcp_so",
+  "owner": "bsmi021",
+  "stars": 5,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp",
+    "data-db-vector",
+    "prod-notes"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "30f9eb5e5eaaf5e12999958b6a91c2dc8a010b73",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 44,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:54:02Z",
+  "verification_level": "scanner_only"
+}

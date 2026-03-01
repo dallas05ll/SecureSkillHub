@@ -1,0 +1,27 @@
+{
+  "id": "cloudtasks-mcp-ed99a5ab",
+  "name": "cloudtasks-mcp",
+  "description": "MCP Server to interact with Google Cloud Tasks",
+  "repo_url": "https://github.com/gitskyflux/cloudtasks-mcp",
+  "source_hub": "mcp_so",
+  "owner": "gitskyflux",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "integ-cloud",
+    "integ-cloud-gcp",
+    "prod-pm"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "24827e737195d7b1f6523515772732d5c9a63e0b",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 6,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:40Z",
+  "verification_level": "scanner_only"
+}

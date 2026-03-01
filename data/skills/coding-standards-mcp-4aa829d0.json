@@ -1,0 +1,26 @@
+{
+  "id": "coding-standards-mcp-4aa829d0",
+  "name": "coding-standards-mcp",
+  "description": "MCP Server for Coding Standards - providing standardized coding guidelines and best practices",
+  "repo_url": "https://github.com/ggerve/coding-standards-mcp",
+  "source_hub": "mcp_so",
+  "owner": "ggerve",
+  "stars": 16,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "c21ab2754684329eab4feb72427dc9acfe61e52f",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 9,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:42:36Z",
+  "verification_level": "scanner_only"
+}

@@ -1,0 +1,21 @@
+{
+  "id": "unity-mcp-31b19f1c",
+  "name": "unity-mcp",
+  "description": "Unity MCP server, providing a bridge between the Unity Editor and external Large Language Models (LLMs) or cloud-based AI agents.",
+  "repo_url": "https://github.com/NoSpoonLab/unity-mcp",
+  "source_hub": "mcp_so",
+  "owner": "NoSpoonLab",
+  "stars": 3,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "integ-cloud"
+  ],
+  "verification_status": "pass",
+  "overall_score": 78,
+  "risk_level": "medium",
+  "verified_commit": null,
+  "scan_summary": null,
+  "scan_date": "2026-02-26T03:00:50Z",
+  "verification_level": "scanner_only"
+}

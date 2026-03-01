@@ -1,0 +1,25 @@
+{
+  "id": "100-training-of-mcp-servers-4106a980",
+  "name": "100-training-of-mcp-servers",
+  "description": "MCPサーバーを100個作ってみるトレーニング",
+  "repo_url": "https://github.com/Ossamoon/100-training-of-mcp-servers",
+  "source_hub": "mcp_so",
+  "owner": "Ossamoon",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "2060a060e3689b09c898372562919948e5431eda",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 1,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:41Z",
+  "verification_level": "scanner_only"
+}

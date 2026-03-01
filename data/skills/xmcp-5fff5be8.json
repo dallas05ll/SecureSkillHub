@@ -1,0 +1,27 @@
+{
+  "id": "xmcp-5fff5be8",
+  "name": "Xmcp",
+  "description": "An Ai agentic tool that creates posts on x automatically using mcp servers.",
+  "repo_url": "https://github.com/debasmitaas/Xmcp",
+  "source_hub": "mcp_so",
+  "owner": "debasmitaas",
+  "stars": 3,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "prod",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "9441cf29363209763a7242ec27ad728cedca10f5",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 8,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:04:50Z",
+  "verification_level": "scanner_only"
+}

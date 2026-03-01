@@ -1,0 +1,27 @@
+{
+  "id": "modelcontextprotocolserver-6f1ce378",
+  "name": "ModelContextProtocolServer",
+  "description": "MCP server to provide tools",
+  "repo_url": "https://github.com/InnoBridge/ModelContextProtocolServer",
+  "source_hub": "mcp_so",
+  "owner": "InnoBridge",
+  "stars": 1,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "226f6079e5518a5ba63b9587d78f268e114f6648",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 1,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:40Z",
+  "verification_level": "scanner_only"
+}

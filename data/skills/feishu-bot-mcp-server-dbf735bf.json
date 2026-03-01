@@ -1,0 +1,29 @@
+{
+  "id": "feishu-bot-mcp-server-dbf735bf",
+  "name": "feishu-bot-mcp-server",
+  "description": "A Python server implementation for Feishu (Lark) bot that follows the Model Context Protocol (MCP). This server provides a standardized interface for handling automated messaging and context-aware interactions within enterprise Feishu environments.",
+  "repo_url": "https://github.com/loonghao/feishu-bot-mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "loonghao",
+  "stars": 2,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp",
+    "dev-web-backend-python",
+    "prod",
+    "prod-comm"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "d0ae385983eb224f0aab1cef695df154c8a168f3",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 12,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:04:50Z",
+  "verification_level": "scanner_only"
+}

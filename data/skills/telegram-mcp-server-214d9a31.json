@@ -1,0 +1,25 @@
+{
+  "id": "telegram-mcp-server-214d9a31",
+  "name": "telegram-mcp-server",
+  "description": "MCP server implementation for Telegram",
+  "repo_url": "https://github.com/kfastov/telegram-mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "kfastov",
+  "stars": 30,
+  "primary_language": "unknown",
+  "tags": [
+    "prod-comm"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "493a3e7fdbef1121b52a05cd4ba6644a8b42c8f4",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 20,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:32:11Z",
+  "verification_level": "scanner_only"
+}

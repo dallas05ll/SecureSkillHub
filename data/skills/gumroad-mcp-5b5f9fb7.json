@@ -1,0 +1,27 @@
+{
+  "id": "gumroad-mcp-5b5f9fb7",
+  "name": "gumroad-mcp",
+  "description": "A Model Context Protocol (MCP) server implementation for Gumroad API",
+  "repo_url": "https://github.com/rmarescu/gumroad-mcp",
+  "source_hub": "mcp_so",
+  "owner": "rmarescu",
+  "stars": 17,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp",
+    "integ"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "657d05e41d9cea07ba88f0eddd3c182597a77d00",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 13,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:42:34Z",
+  "verification_level": "scanner_only"
+}

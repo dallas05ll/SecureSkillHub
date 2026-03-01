@@ -1,0 +1,25 @@
+{
+  "id": "remember-me-c8573af1",
+  "name": "remember-me",
+  "description": "MCP server to persist chat artefacts and rules",
+  "repo_url": "https://github.com/phlax/remember-me",
+  "source_hub": "mcp_so",
+  "owner": "phlax",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "prod-comm"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "bcc20a94eda7409ad34af772c148d5605bb2c43b",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 8,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:42Z",
+  "verification_level": "scanner_only"
+}

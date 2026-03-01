@@ -1,0 +1,26 @@
+{
+  "id": "octagon-investors-mcp-e335aec4",
+  "name": "octagon-investors-mcp",
+  "description": "The Octagon Investors MCP server provides specialized AI-powered investor information and investment activity analysis capabilities by integrating with advanced investor intelligence agents. Covers comprehensive business intelligence, investment criteria, portfolio analysis, and market research.",
+  "repo_url": "https://github.com/OctagonAI/octagon-investors-mcp",
+  "source_hub": "mcp_so",
+  "owner": "OctagonAI",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "util-search"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "dd73c91eccd657e35ba6f3b9a8e16ea8e2e340c2",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 7,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:41Z",
+  "verification_level": "scanner_only"
+}

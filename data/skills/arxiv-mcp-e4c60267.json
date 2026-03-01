@@ -1,0 +1,25 @@
+{
+  "id": "arxiv-mcp-e4c60267",
+  "name": "arXiv-mcp",
+  "description": "arXiv MCP server for fetching and searching papers.",
+  "repo_url": "https://github.com/Ray0907/arXiv-mcp",
+  "source_hub": "mcp_so",
+  "owner": "Ray0907",
+  "stars": 12,
+  "primary_language": "unknown",
+  "tags": [
+    "util-search"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "78f85235e75c415e8a74fa683e399eb5e704e503",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 5,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:42:34Z",
+  "verification_level": "scanner_only"
+}

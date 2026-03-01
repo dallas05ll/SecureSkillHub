@@ -1,0 +1,26 @@
+{
+  "id": "mcp-turborepo-40e11068",
+  "name": "mcp-turborepo",
+  "description": "A simple MCP client/server setup.",
+  "repo_url": "https://github.com/AnasSiddiqui18/mcp-turborepo",
+  "source_hub": "mcp_so",
+  "owner": "AnasSiddiqui18",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "b4609e2e66610315e8e486601002caf61b7b483c",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 32,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:40Z",
+  "verification_level": "scanner_only"
+}

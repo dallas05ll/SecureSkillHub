@@ -1,0 +1,25 @@
+{
+  "id": "notion-chakra-mcp-0849471e",
+  "name": "notion-chakra-mcp",
+  "description": "fastmcp implementation of notion-mcp server with support for extensible custom objects and functions",
+  "repo_url": "https://github.com/thestumonkey/notion-chakra-mcp",
+  "source_hub": "mcp_so",
+  "owner": "thestumonkey",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "prod-docs"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "165d525aad64392680a699db96d2f6ac6c888a2e",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 19,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:40Z",
+  "verification_level": "scanner_only"
+}

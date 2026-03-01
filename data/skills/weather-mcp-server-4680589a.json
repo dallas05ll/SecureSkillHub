@@ -1,0 +1,25 @@
+{
+  "id": "weather-mcp-server-4680589a",
+  "name": "weather-mcp-server",
+  "description": "Implementation of MCP documentation's \"quickstart\" server",
+  "repo_url": "https://github.com/Chazzychouse/weather-mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "Chazzychouse",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "prod-docs"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "4f1edd01ae95a852c68d53c397add9568da4e035",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 15,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:42:59Z",
+  "verification_level": "scanner_only"
+}

@@ -1,0 +1,25 @@
+{
+  "id": "freqtrade-mcp-ab018e1e",
+  "name": "freqtrade-mcp",
+  "description": "An MCP server that integrates with the Freqtrade cryptocurrency trading bot.",
+  "repo_url": "https://github.com/kukapay/freqtrade-mcp",
+  "source_hub": "mcp_so",
+  "owner": "kukapay",
+  "stars": 107,
+  "primary_language": "unknown",
+  "tags": [
+    "sec-crypto"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "6762093f9a294f770c886edcc1eda1c5a5ddeaf8",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 3,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-27T06:40:49Z",
+  "verification_level": "scanner_only"
+}

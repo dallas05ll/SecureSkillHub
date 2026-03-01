@@ -1,0 +1,27 @@
+{
+  "id": "alpaca-mcp-server-3101e7ed",
+  "name": "alpaca-mcp-server",
+  "description": "Model Context Protocol (MCP) server for Alpaca trading API",
+  "repo_url": "https://github.com/tedlikeskix/alpaca-mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "tedlikeskix",
+  "stars": 24,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp",
+    "integ"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 21,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-26T03:00:50Z",
+  "verification_level": "scanner_only"
+}

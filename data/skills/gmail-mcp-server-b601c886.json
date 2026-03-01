@@ -1,0 +1,26 @@
+{
+  "id": "gmail-mcp-server-b601c886",
+  "name": "Gmail-MCP-server",
+  "description": "This is Gmail MCP server by using this you can directly use your email.",
+  "repo_url": "https://github.com/Vijay-2005/Gmail-MCP-server",
+  "source_hub": "mcp_so",
+  "owner": "Vijay-2005",
+  "stars": 3,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "prod-comm"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "a921c13934d46ca13ca155adce4acda0a227bde3",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 4,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:04:51Z",
+  "verification_level": "scanner_only"
+}

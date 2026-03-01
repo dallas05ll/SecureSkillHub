@@ -1,0 +1,29 @@
+{
+  "id": "mcp-server-file-search-tool-2493d7b7",
+  "name": "mcp-server-file-search-tool",
+  "description": "A Model Context Protocol (MCP) server for searching file content with regex across various file types",
+  "repo_url": "https://github.com/RJTPP/mcp-server-file-search-tool",
+  "source_hub": "mcp_so",
+  "owner": "RJTPP",
+  "stars": 1,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp",
+    "util",
+    "util-file",
+    "util-search"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "edd9e7fde5c37c67b46e5138e1deb78eb926f6ed",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 12,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:40Z",
+  "verification_level": "scanner_only"
+}

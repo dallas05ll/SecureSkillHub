@@ -1,0 +1,25 @@
+{
+  "id": "mcp-server-f863c719",
+  "name": "mcp-server",
+  "description": "MCP server for Zeplin - used for screen and component code generation 💻",
+  "repo_url": "https://github.com/zeplin/mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "zeplin",
+  "stars": 9,
+  "primary_language": "unknown",
+  "tags": [
+    "dev"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "9e6148247e960707996537534481218a1c8272f1",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 17,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:42:36Z",
+  "verification_level": "scanner_only"
+}

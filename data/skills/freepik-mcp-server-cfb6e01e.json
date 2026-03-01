@@ -1,0 +1,26 @@
+{
+  "id": "freepik-mcp-server-cfb6e01e",
+  "name": "freepik-mcp-server",
+  "description": "MCP server for generating images with Freepik Flux-Dev API",
+  "repo_url": "https://github.com/grafikogr/freepik-mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "grafikogr",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai-vision",
+    "integ"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "f5efa6b1534502c31a5cb65c06f380e055279bce",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 3,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:40Z",
+  "verification_level": "scanner_only"
+}

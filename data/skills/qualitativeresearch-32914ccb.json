@@ -1,0 +1,26 @@
+{
+  "id": "qualitativeresearch-32914ccb",
+  "name": "qualitativeresearch",
+  "description": "Manage qualitative research context across sessions using knowledge graph based MCP Server",
+  "repo_url": "https://github.com/tejpalvirk/qualitativeresearch",
+  "source_hub": "mcp_so",
+  "owner": "tejpalvirk",
+  "stars": 8,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai-nlp",
+    "util-search"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "aafb98fa5f7797e77ab3a026c9cd619547652369",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 13,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:54:02Z",
+  "verification_level": "scanner_only"
+}

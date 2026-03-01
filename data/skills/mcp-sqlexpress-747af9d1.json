@@ -1,0 +1,26 @@
+{
+  "id": "mcp-sqlexpress-747af9d1",
+  "name": "mcp-sqlexpress",
+  "description": "MCP server for interacting with SQLExpress",
+  "repo_url": "https://github.com/hanweg/mcp-sqlexpress",
+  "source_hub": "mcp_so",
+  "owner": "hanweg",
+  "stars": 4,
+  "primary_language": "unknown",
+  "tags": [
+    "data-db",
+    "dev-web-backend-node"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "dd529c79a56da1b99ead5902b09eb5915f9ab19d",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 4,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:54:02Z",
+  "verification_level": "scanner_only"
+}

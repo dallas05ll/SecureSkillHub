@@ -1,0 +1,26 @@
+{
+  "id": "mermaid-mcp-server-b2a346b0",
+  "name": "mermaid-mcp-server",
+  "description": "An MCP server providing tools for validating and rendering Mermaid diagrams.",
+  "repo_url": "https://github.com/abekdwight/mermaid-mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "abekdwight",
+  "stars": 15,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "dcd29a4ea14fb6021a45fea7f445690196622378",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 5,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:42:34Z",
+  "verification_level": "scanner_only"
+}

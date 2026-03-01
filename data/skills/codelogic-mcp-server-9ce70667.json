@@ -1,0 +1,28 @@
+{
+  "id": "codelogic-mcp-server-9ce70667",
+  "name": "codelogic-mcp-server",
+  "description": "An MCP Server to utilize Codelogic's rich software dependency data in your AI programming assistant.",
+  "repo_url": "https://github.com/CodeLogicIncEngineering/codelogic-mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "CodeLogicIncEngineering",
+  "stars": 34,
+  "primary_language": "unknown",
+  "tags": [
+    "data",
+    "data-ai",
+    "dev",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "c0adaad8db6ca508d393365cb84708018cd76b1f",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 29,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:32:11Z",
+  "verification_level": "scanner_only"
+}

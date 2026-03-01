@@ -1,0 +1,26 @@
+{
+  "id": "mcp-server-5e931f86",
+  "name": "mcp-server",
+  "description": "A MCP server for Cappt",
+  "repo_url": "https://github.com/cappt-team/mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "cappt-team",
+  "stars": 9,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "adfc7c96c4e0db6ad1771e722d33be0d99cec10b",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 7,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:54:02Z",
+  "verification_level": "scanner_only"
+}

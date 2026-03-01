@@ -1,0 +1,27 @@
+{
+  "id": "mcpserveraitools-90aeaa41",
+  "name": "mcpserveraitools",
+  "description": "Just unleashed a \"Model Context Protocol\" (MCP) server that's basically JARVIS but with more attitude and less British accent! When the robot uprising happens, I'll be on their \"handled this human's weird questions\" list.",
+  "repo_url": "https://github.com/mynkchaudhry/mcpserveraitools",
+  "source_hub": "mcp_so",
+  "owner": "mynkchaudhry",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "025f04f9aeab21e304e78415192e4735fe306039",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 14,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:42Z",
+  "verification_level": "scanner_only"
+}

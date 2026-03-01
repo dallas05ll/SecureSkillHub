@@ -1,0 +1,26 @@
+{
+  "id": "mcp-stock-analysis-server-cd59ceac",
+  "name": "mcp-stock-analysis-server",
+  "description": "多指标下结合最新新闻智能诊断股票的mcp",
+  "repo_url": "https://github.com/omlovelife/mcp-stock-analysis-server",
+  "source_hub": "mcp_so",
+  "owner": "omlovelife",
+  "stars": 2,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "2e43401e7a00c2a0c6dafb8754bebba274c4f461",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 42,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:04:51Z",
+  "verification_level": "scanner_only"
+}

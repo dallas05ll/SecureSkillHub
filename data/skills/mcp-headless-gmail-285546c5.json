@@ -1,0 +1,28 @@
+{
+  "id": "mcp-headless-gmail-285546c5",
+  "name": "mcp-headless-gmail",
+  "description": "A MCP (Model Context Protocol) server that provides get, send Gmails without local credential or token setup.",
+  "repo_url": "https://github.com/baryhuang/mcp-headless-gmail",
+  "source_hub": "mcp_so",
+  "owner": "baryhuang",
+  "stars": 54,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp",
+    "prod-comm",
+    "sec-crypto"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "3c1dfc37fc88695eb901dfbbc3f4d6de3f967d15",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 7,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-27T06:40:44Z",
+  "verification_level": "scanner_only"
+}

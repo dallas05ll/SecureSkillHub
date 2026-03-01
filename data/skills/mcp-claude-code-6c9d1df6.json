@@ -1,0 +1,26 @@
+{
+  "id": "mcp-claude-code-6c9d1df6",
+  "name": "mcp-claude-code",
+  "description": "MCP implementation of Claude Code capabilities and more",
+  "repo_url": "https://github.com/SDGLBL/mcp-claude-code",
+  "source_hub": "mcp_so",
+  "owner": "SDGLBL",
+  "stars": 296,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "dev"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 97,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-27T02:28:45Z",
+  "verification_level": "scanner_only"
+}

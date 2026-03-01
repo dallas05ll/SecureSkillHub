@@ -1,0 +1,116 @@
+{
+  "id": "ops-mcp-server-9941f7c2",
+  "name": "ops-mcp-server",
+  "description": "ops-mcp-server is an IT operations management solution for the AI era. It achieves intelligent IT operations through the seamless integration of the Model Context Protocol (MCP) and Large Language Models (LLMs). By leveraging the power of LLMs and MCP's distributed architecture, it transforms traditional IT operations into an AI-driven experience, enabling automated server monitoring, intelligent anomaly detection, and context-aware troubleshooting. The system acts as a bridge between human o...",
+  "repo_url": "https://github.com/Heht571/ops-mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "Heht571",
+  "stars": 48,
+  "primary_language": "python",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp",
+    "integ",
+    "prod",
+    "util-monitor",
+    "status-manual_review"
+  ],
+  "verification_status": "manual_review",
+  "overall_score": 70,
+  "risk_level": "medium",
+  "verified_commit": "5e7bc7ec0faf7219fc245fe52b55ab9cfde0a7bc",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 60,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-03-01T06:03:05Z",
+  "verification_level": "full_pipeline",
+  "findings_summary": {
+    "scanner_findings": 7,
+    "dangerous_calls": 0,
+    "network_ops": 3,
+    "file_ops": 4,
+    "env_access": 0,
+    "obfuscation": 0,
+    "injection_patterns": 0,
+    "mismatches": 0,
+    "undocumented_capabilities": 0,
+    "supervisor_approved": false,
+    "supervisor_confidence": 70,
+    "pm_review": {
+      "reviewed_at": "2026-03-01T06:14:16Z",
+      "reviewer": "pm_dual_agent",
+      "previous_status": "manual_review",
+      "decision": "manual_review",
+      "reason": "PM kept manual_review: ambiguous medium-risk profile; requires direct repository inspection.",
+      "mode": "run-report",
+      "evidence": {
+        "score": 70,
+        "risk_level": "medium",
+        "high_findings": 0,
+        "critical_findings": 0,
+        "obfuscation_high_risk_count": 0,
+        "injection_patterns_count": 0,
+        "repo_unavailable": false
+      }
+    }
+  },
+  "agent_audit": {
+    "agents_completed": 5,
+    "agents_required": 5,
+    "pipeline_run_at": "2026-03-01T06:03:05Z",
+    "agent_a": {
+      "signed": true,
+      "signed_at": "2026-03-01T06:03:05Z",
+      "comment": "Docs quality 9/10. README present. 12 features, 4 permissions claimed.",
+      "doc_quality_score": 9,
+      "claimed_permissions": [
+        "network access",
+        "system command execution",
+        "file system access",
+        "environment/secret access"
+      ]
+    },
+    "agent_b": {
+      "signed": true,
+      "signed_at": "2026-03-01T06:03:05Z",
+      "comment": "55 files analyzed. Found: 0 network, 0 file, 0 env, 0 system calls. Primary: python.",
+      "files_analyzed": 55,
+      "capabilities_found": [
+        "imports external dependencies"
+      ]
+    },
+    "agent_c_star": {
+      "signed": true,
+      "signed_at": "2026-03-01T06:03:05Z",
+      "comment": "7 findings: 0 critical, 0 high, 3 medium, 4 low. No obfuscation. No injection.",
+      "total_findings": 7,
+      "severity_counts": {
+        "critical": 0,
+        "high": 0,
+        "medium": 3,
+        "low": 4,
+        "info": 0
+      }
+    },
+    "agent_d": {
+      "signed": true,
+      "signed_at": "2026-03-01T06:03:05Z",
+      "comment": "Score 70. 0 mismatches. Risk: medium. Safety overrides: none triggered.",
+      "score": 70,
+      "mismatches": 0,
+      "safety_overrides_applied": false
+    },
+    "agent_e": {
+      "signed": true,
+      "signed_at": "2026-03-01T06:03:05Z",
+      "comment": "Rejected. Confidence 70%. No overrides.",
+      "approved": false,
+      "confidence": 70,
+      "override_reason": null
+    },
+    "manager_summary": "5/5 agents completed. Score: 70/100, Risk: medium. 0 mismatches, 7 scanner findings. Rejected at 70% confidence. No safety overrides.\n[2026-03-01T06:14:16Z] PM review: manual_review. PM kept manual_review: ambiguous medium-risk profile; requires direct repository inspection."
+  }
+}

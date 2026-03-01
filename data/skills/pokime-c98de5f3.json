@@ -1,0 +1,25 @@
+{
+  "id": "pokime-c98de5f3",
+  "name": "pokime",
+  "description": "MCP server for accessing Pokemon + Anime information for LLM",
+  "repo_url": "https://github.com/buddhdev-harsh/pokime",
+  "source_hub": "mcp_so",
+  "owner": "buddhdev-harsh",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "c71fca6b9c3320687dc95a8c78d04a98a79869dc",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 6,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:40Z",
+  "verification_level": "scanner_only"
+}

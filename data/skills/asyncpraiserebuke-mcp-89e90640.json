@@ -1,0 +1,25 @@
+{
+  "id": "asyncpraiserebuke-mcp-89e90640",
+  "name": "asyncpraiserebuke-mcp",
+  "description": "MCP Server to get access to Reviews that are posted using the Async Praise Rebuke App",
+  "repo_url": "https://github.com/fabianwilliams/asyncpraiserebuke-mcp",
+  "source_hub": "mcp_so",
+  "owner": "fabianwilliams",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "5190ceb9dc3e17bf07b8728cd3bb1acdfebded64",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 11,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:40Z",
+  "verification_level": "scanner_only"
+}

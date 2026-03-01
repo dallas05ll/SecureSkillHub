@@ -1,0 +1,28 @@
+{
+  "id": "osmmcp-6d3177e3",
+  "name": "osmmcp",
+  "description": "OpenStreetMap MCP server providing precision geospatial tools for LLMs via Model Context Protocol. Features geocoding, routing, nearby places, neighborhood analysis, EV charging stations, and more.",
+  "repo_url": "https://github.com/NERVsystems/osmmcp",
+  "source_hub": "mcp_so",
+  "owner": "NERVsystems",
+  "stars": 12,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp",
+    "util",
+    "util-map"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "97050a10dbf17d29f5fef4296d8d4f1faea099ea",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 103,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:42:34Z",
+  "verification_level": "scanner_only"
+}

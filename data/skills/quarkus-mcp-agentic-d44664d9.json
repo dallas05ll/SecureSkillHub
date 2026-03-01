@@ -1,0 +1,26 @@
+{
+  "id": "quarkus-mcp-agentic-d44664d9",
+  "name": "quarkus-mcp-agentic",
+  "description": "This project uses Quarkus and the Model Context Protocol] to implement a simple agentic app using multiple MCP servers and Quarkus + LangChain4j.",
+  "repo_url": "https://github.com/jamesfalkner/quarkus-mcp-agentic",
+  "source_hub": "mcp_so",
+  "owner": "jamesfalkner",
+  "stars": 2,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "1365c1abf0680a876ced25f8f47cfe3d93747192",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 1,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:04:51Z",
+  "verification_level": "scanner_only"
+}

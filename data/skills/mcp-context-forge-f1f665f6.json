@@ -1,0 +1,26 @@
+{
+  "id": "mcp-context-forge-f1f665f6",
+  "name": "mcp-context-forge",
+  "description": "A Model Context Protocol (MCP) Gateway. Serves as a central management point for tools, resources, and prompts that can be accessed by MCP-compatible LLM applications. Converts REST API endpoints to MCP, composes virtual MCP servers with added security and observability, and converts between protocols (stdio, SSE).",
+  "repo_url": "https://github.com/IBM/mcp-context-forge",
+  "source_hub": "mcp_so",
+  "owner": "IBM",
+  "stars": 3329,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp",
+    "dev-devops-docker",
+    "integ",
+    "sec",
+    "util",
+    "util-monitor"
+  ],
+  "verification_status": "pass",
+  "overall_score": 95,
+  "risk_level": "low",
+  "verified_commit": "6c282918a54758fa72bb143c3cf290bc4dd760e7",
+  "scan_summary": null,
+  "scan_date": "2026-02-26T03:00:50Z",
+  "verification_level": "scanner_only"
+}

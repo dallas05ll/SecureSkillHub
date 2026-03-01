@@ -1,0 +1,25 @@
+{
+  "id": "pet-store-mcp-server-3-1f98a6a2",
+  "name": "Pet-store-MCP-server-3",
+  "description": "MCP server test",
+  "repo_url": "https://github.com/octaviusp/Pet-store-MCP-server-3",
+  "source_hub": "mcp_so",
+  "owner": "octaviusp",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "dev-testing"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "c01455524a424160b0c5e332a20ad56339bb8d9a",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 4,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:41Z",
+  "verification_level": "scanner_only"
+}

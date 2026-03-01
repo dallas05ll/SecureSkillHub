@@ -1,0 +1,27 @@
+{
+  "id": "agent-mcp-math-email-78fca780",
+  "name": "Agent-MCP-Math-Email",
+  "description": "Agent with MCP server solves math task and emails the output",
+  "repo_url": "https://github.com/movva09/Agent-MCP-Math-Email",
+  "source_hub": "mcp_so",
+  "owner": "movva09",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "prod-comm",
+    "prod-pm"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "6f6ea8402cffaa1a69d234da007a5c1d91f0d5c6",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 4,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:41Z",
+  "verification_level": "scanner_only"
+}

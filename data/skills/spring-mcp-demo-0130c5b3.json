@@ -1,0 +1,25 @@
+{
+  "id": "spring-mcp-demo-0130c5b3",
+  "name": "spring-mcp-demo",
+  "description": "MCP server using Spring-AI",
+  "repo_url": "https://github.com/ranjeet-floyd/spring-mcp-demo",
+  "source_hub": "mcp_so",
+  "owner": "ranjeet-floyd",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "77b50e90c54fe8da35c2f1eb851ad9633442626a",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 1,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:43:00Z",
+  "verification_level": "scanner_only"
+}

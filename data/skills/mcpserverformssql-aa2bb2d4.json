@@ -1,0 +1,28 @@
+{
+  "id": "mcpserverformssql-aa2bb2d4",
+  "name": "MCPServerForMSSQL",
+  "description": "This is a MCP Server for Claude-Code to connect to you Microsoft SQL Server",
+  "repo_url": "https://github.com/shakunvohradeltek/MCPServerForMSSQL",
+  "source_hub": "mcp_so",
+  "owner": "shakunvohradeltek",
+  "stars": 4,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-db",
+    "dev",
+    "integ"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "607343c10b94aeecc08ad103e84a0ebfdd9f4bc7",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 2,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:54:02Z",
+  "verification_level": "scanner_only"
+}

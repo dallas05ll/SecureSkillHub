@@ -1,0 +1,26 @@
+{
+  "id": "mcp-utils-e1bb575b",
+  "name": "mcp-utils",
+  "description": "Python utilities to work with MCP servers",
+  "repo_url": "https://github.com/fulfilio/mcp-utils",
+  "source_hub": "mcp_so",
+  "owner": "fulfilio",
+  "stars": 5,
+  "primary_language": "unknown",
+  "tags": [
+    "dev-web-backend-python",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "154447196947e8f8f4961e04ffe9dff4f5d05e8d",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 12,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:54:02Z",
+  "verification_level": "scanner_only"
+}

@@ -1,0 +1,25 @@
+{
+  "id": "mcp-code-review-server-143c64bd",
+  "name": "mcp-code-review-server",
+  "description": "A MCP server for code reviews",
+  "repo_url": "https://github.com/crazyrabbitLTC/mcp-code-review-server",
+  "source_hub": "mcp_so",
+  "owner": "crazyrabbitLTC",
+  "stars": 30,
+  "primary_language": "unknown",
+  "tags": [
+    "dev"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "ac4f28172497dcb8972db542070b9aaf9d7c565c",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 29,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:32:11Z",
+  "verification_level": "scanner_only"
+}

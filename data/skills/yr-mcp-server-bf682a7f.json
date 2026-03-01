@@ -1,0 +1,28 @@
+{
+  "id": "yr-mcp-server-bf682a7f",
+  "name": "yr-mcp-server",
+  "description": "MCP Server for using Yr Weather Data as Context in LLM tools.",
+  "repo_url": "https://github.com/AnyContext-ai/yr-mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "AnyContext-ai",
+  "stars": 1,
+  "primary_language": "unknown",
+  "tags": [
+    "data",
+    "data-ai",
+    "data-ai-nlp",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "3d8cd35d9e72907f5b41d3ca2e12e2476e35d32e",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 4,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:40Z",
+  "verification_level": "scanner_only"
+}

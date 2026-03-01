@@ -1,0 +1,30 @@
+{
+  "id": "terminator-6cc2a247",
+  "name": "terminator",
+  "description": "A lightweight Model Context Protocol (MCP) server written in Go that enables secure terminal command execution on macOS and Linux. Supports persistent shell sessions, configurable timeouts, and both HTTP (StreamableHTTP) and STDIO transports. Designed for AI integrations and automation use cases with flexible session management and platform-aware execution.",
+  "repo_url": "https://github.com/iris-networks/terminator",
+  "source_hub": "mcp_so",
+  "owner": "iris-networks",
+  "stars": 63,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp",
+    "dev-web-backend-go",
+    "integ",
+    "prod",
+    "util-media"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "026376ddf731e5e6a64f1738e1377b45a63367eb",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 119,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-27T06:40:44Z",
+  "verification_level": "scanner_only"
+}

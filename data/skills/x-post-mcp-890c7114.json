@@ -1,0 +1,27 @@
+{
+  "id": "x-post-mcp-890c7114",
+  "name": "x-post-mcp",
+  "description": "A Model Context Protocol (MCP) server that allows interaction with the X API, along with a client to interact with the server using Google's Gemini AI.",
+  "repo_url": "https://github.com/subhadeeproy3902/x-post-mcp",
+  "source_hub": "mcp_so",
+  "owner": "subhadeeproy3902",
+  "stars": 3,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp",
+    "integ"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "ca499510a7028d9c4cd8277a2442036bd6ac6c26",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 11,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:04:50Z",
+  "verification_level": "scanner_only"
+}

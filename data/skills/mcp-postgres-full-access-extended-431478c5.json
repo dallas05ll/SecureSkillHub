@@ -1,0 +1,28 @@
+{
+  "id": "mcp-postgres-full-access-extended-431478c5",
+  "name": "mcp-postgres-full-access-extended",
+  "description": "A fully featured PostgreSQL server adapter for the Model Context Protocol (MCP), providing robust read/write access and enhanced schema metadata for LLM and AI-powered applications. Supports full SQL DML/DDL operations.",
+  "repo_url": "https://github.com/kamusis/mcp-postgres-full-access-extended",
+  "source_hub": "mcp_so",
+  "owner": "kamusis",
+  "stars": 4,
+  "primary_language": "unknown",
+  "tags": [
+    "data",
+    "data-ai",
+    "data-ai-nlp",
+    "data-db"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "50af2192559a9e5ab7abd2d404db48119e31faac",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 10,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:54:04Z",
+  "verification_level": "scanner_only"
+}

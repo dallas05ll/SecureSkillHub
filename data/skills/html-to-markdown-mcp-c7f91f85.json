@@ -1,0 +1,31 @@
+{
+  "id": "html-to-markdown-mcp-c7f91f85",
+  "name": "html-to-markdown-mcp",
+  "description": "MCP server for converting HTML to Markdown using Turndown.js. Fetch web pages and convert them to clean, formatted Markdown.",
+  "repo_url": "https://github.com/levz0r/html-to-markdown-mcp",
+  "source_hub": "github_search",
+  "skill_type": "agent_skill",
+  "owner": "levz0r",
+  "stars": 21,
+  "license": "mit",
+  "primary_language": "markdown",
+  "tags": [
+    "data-ai",
+    "dev-web",
+    "prod-docs",
+    "util",
+    "util-search"
+  ],
+  "verification_status": "pass",
+  "overall_score": 83,
+  "risk_level": "low",
+  "verified_commit": null,
+  "scan_summary": null,
+  "last_updated": "2026-02-23T14:11:57Z",
+  "findings_summary": {
+    "notes": "Metadata-based verification. Score=83. Signals: stars=21 (>=10, +5); license='mit' (+5); owner='levz0r' (+3); primary_language='markdown'; source_hub='github_search'. Status: pass. Risk: low."
+  },
+  "trust_level": "low",
+  "scan_date": "2026-02-26T06:14:56Z",
+  "verification_level": "metadata_only"
+}

@@ -1,0 +1,26 @@
+{
+  "id": "railway-mcp-b8e156d1",
+  "name": "railway-mcp",
+  "description": "An unofficial and community-built MCP server for integrating with",
+  "repo_url": "https://github.com/jason-tan-swe/railway-mcp",
+  "source_hub": "mcp_so",
+  "owner": "jason-tan-swe",
+  "stars": 70,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "prod-comm"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "478f8c2b164bed12b02dde449dbeaafaf084a42e",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 46,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-27T06:40:44Z",
+  "verification_level": "scanner_only"
+}

@@ -1,0 +1,25 @@
+{
+  "id": "task-tracker-c7f47b2a",
+  "name": "task-tracker",
+  "description": "A mcp server for task management with Linear and time tracking with TrackingTime",
+  "repo_url": "https://github.com/reminia/task-tracker",
+  "source_hub": "mcp_so",
+  "owner": "reminia",
+  "stars": 2,
+  "primary_language": "unknown",
+  "tags": [
+    "prod-pm"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "d85c7ca6189961ffd0ce44925b072add967f36b6",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 10,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:40Z",
+  "verification_level": "scanner_only"
+}

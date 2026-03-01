@@ -1,0 +1,25 @@
+{
+  "id": "mcp-screenshot-server-9313aa37",
+  "name": "mcp-screenshot-server",
+  "description": "A MCP server for capturing screenshots",
+  "repo_url": "https://github.com/sethbang/mcp-screenshot-server",
+  "source_hub": "mcp_so",
+  "owner": "sethbang",
+  "stars": 16,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai-vision"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "768a69932b3c587d026d0297fde7423d55ee3048",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 42,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:42:36Z",
+  "verification_level": "scanner_only"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "mcprules-00310e27",
+  "name": "MCPRules",
+  "description": "A powerful Model Context Protocol (MCP) server that manages and serves programming guidelines and rules. This server integrates with development tools to provide consistent coding standards across projects.",
+  "repo_url": "https://github.com/bartwisch/MCPRules",
+  "source_hub": "mcp_so",
+  "owner": "bartwisch",
+  "stars": 22,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp",
+    "dev",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "d41cf14cda5db91b7cd204ad2f8c6260865374d9",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 8,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:32:11Z",
+  "verification_level": "scanner_only"
+}

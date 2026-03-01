@@ -1,0 +1,38 @@
+{
+  "id": "d3-js-visualization-c5416516",
+  "name": "D3.js Visualization",
+  "description": "Teaches Claude to produce D3 charts and interactive data visualizations",
+  "repo_url": "https://github.com/chrisvoncsefalvay/claude-d3js-skill",
+  "source_hub": "claude_skills_hub",
+  "skill_type": "agent_skill",
+  "owner": "chrisvoncsefalvay",
+  "stars": 110,
+  "forks": 9,
+  "license": "Unknown",
+  "primary_language": "markdown",
+  "tags": [
+    "data",
+    "data-ai"
+  ],
+  "source_tags": [
+    "visualization",
+    "dev"
+  ],
+  "categories": [
+    "dev",
+    "data-analysis"
+  ],
+  "version": "1.0.0",
+  "requires_code_execution": false,
+  "verification_status": "pass",
+  "overall_score": 93,
+  "risk_level": "low",
+  "verified_commit": null,
+  "scan_summary": null,
+  "findings_summary": {
+    "notes": "Metadata-based verification. Score=93. Signals: stars=110 (>=100, +10); license='Unknown' (+5); owner='chrisvoncsefalvay' (+3); primary_language='markdown'; source_hub='claude_skills_hub' (+5). Status: pass. Risk: low."
+  },
+  "trust_level": "medium",
+  "scan_date": "2026-02-26T06:14:56Z",
+  "verification_level": "metadata_only"
+}

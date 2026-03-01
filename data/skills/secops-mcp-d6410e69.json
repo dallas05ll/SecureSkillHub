@@ -1,0 +1,30 @@
+{
+  "id": "secops-mcp-d6410e69",
+  "name": "secops-mcp",
+  "description": "All-in-one security testing toolbox that brings together popular open source tools through a single MCP interface. Connected to an AI agent, it enables tasks like pentesting, bug bounty hunting, threat hunting, and more.",
+  "repo_url": "https://github.com/securityfortech/secops-mcp",
+  "source_hub": "mcp_so",
+  "owner": "securityfortech",
+  "stars": 182,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "dev-testing",
+    "integ",
+    "prod-pm",
+    "sec",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "6e09eb7d1b3b6ea784e36d6a0e977b0b7d6615e7",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 18,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-27T06:36:35Z",
+  "verification_level": "scanner_only"
+}

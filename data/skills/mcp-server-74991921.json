@@ -1,0 +1,26 @@
+{
+  "id": "mcp-server-74991921",
+  "name": "mcp-server",
+  "description": "A generic, modular server for implementing the Model Context Protocol (MCP).",
+  "repo_url": "https://github.com/profullstack/mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "profullstack",
+  "stars": 40,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "b97b514ca2c6a2084c74dca322c1cc5853ad3d32",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 331,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:32:11Z",
+  "verification_level": "scanner_only"
+}

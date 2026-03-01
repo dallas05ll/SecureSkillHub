@@ -1,0 +1,26 @@
+{
+  "id": "pubmed-mcp-server-d82a3b25",
+  "name": "PubMed-MCP-Server",
+  "description": "🔍 Enable AI assistants to search, access, and analyze PubMed articles through a simple MCP interface.",
+  "repo_url": "https://github.com/JackKuo666/PubMed-MCP-Server",
+  "source_hub": "mcp_so",
+  "owner": "JackKuo666",
+  "stars": 100,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "util-search"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "2a254f418f431e7ee5c161e38c8144890d52c20b",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 6,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-27T06:40:49Z",
+  "verification_level": "scanner_only"
+}

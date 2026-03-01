@@ -1,0 +1,25 @@
+{
+  "id": "worldtime-mcp-server-c4ec7afa",
+  "name": "worldtime-mcp-server",
+  "description": "A timezone MCP server based off OSS TimezoneDB API",
+  "repo_url": "https://github.com/usrrname/worldtime-mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "usrrname",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "integ"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "6413339001bb1bfd1b2ba61cc054cd063825e817",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 8,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:43:00Z",
+  "verification_level": "scanner_only"
+}

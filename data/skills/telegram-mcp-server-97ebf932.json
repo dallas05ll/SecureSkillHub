@@ -1,0 +1,27 @@
+{
+  "id": "telegram-mcp-server-97ebf932",
+  "name": "telegram-mcp-server",
+  "description": "An MCP server implementation that provides tools for interacting with the [Telegram Bot API](",
+  "repo_url": "https://github.com/NexusX-MCP/telegram-mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "NexusX-MCP",
+  "stars": 3,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "prod-comm",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "e8786bb11f492307311c28ff242c5f6315679ece",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 12,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:04:50Z",
+  "verification_level": "scanner_only"
+}

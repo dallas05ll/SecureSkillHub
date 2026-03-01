@@ -1,0 +1,27 @@
+{
+  "id": "sonar-mcp-server-000a500a",
+  "name": "sonar-mcp-server",
+  "description": "A MCP server implementation for the SonarQube Cloud API in Golang.",
+  "repo_url": "https://github.com/lreimer/sonar-mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "lreimer",
+  "stars": 2,
+  "primary_language": "unknown",
+  "tags": [
+    "dev-web-backend-go",
+    "integ",
+    "integ-cloud"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "84f38b4a385d6b8b402044954b75cbb95a1d6703",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 3,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:42Z",
+  "verification_level": "scanner_only"
+}

@@ -1,0 +1,25 @@
+{
+  "id": "mastra-89d5a7b0",
+  "name": "Mastra",
+  "description": "Agent skill: mastra from mastra-ai/skills",
+  "repo_url": "https://github.com/mastra-ai/skills",
+  "source_hub": "skills_sh",
+  "owner": "mastra-ai",
+  "stars": 4500,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "5dee864fad55e0f65446e9a49ad7520b200e6db4",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 9,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:54:02Z",
+  "verification_level": "scanner_only"
+}

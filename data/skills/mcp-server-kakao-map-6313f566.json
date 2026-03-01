@@ -1,0 +1,25 @@
+{
+  "id": "mcp-server-kakao-map-6313f566",
+  "name": "mcp-server-kakao-map",
+  "description": "kakao map mcp server",
+  "repo_url": "https://github.com/cgoinglove/mcp-server-kakao-map",
+  "source_hub": "mcp_so",
+  "owner": "cgoinglove",
+  "stars": 14,
+  "primary_language": "unknown",
+  "tags": [
+    "util-map"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "b851538d29d8e5f0031509cecfcc63373aeeda4d",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 9,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:42:34Z",
+  "verification_level": "scanner_only"
+}

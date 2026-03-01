@@ -1,0 +1,26 @@
+{
+  "id": "mcp-security-sandbox-ef04e9e0",
+  "name": "mcp-security-sandbox",
+  "description": "MCP Security Playground - Hack with MCP Servers, MCP Clients. Try out different vulnerabilities and abuse LLMs and agents in a UI friendly experimentation lab",
+  "repo_url": "https://github.com/SirAppSec/mcp-security-sandbox",
+  "source_hub": "mcp_so",
+  "owner": "SirAppSec",
+  "stars": 7,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "sec"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "4aca890b87dba8f6b5075332db49cf9939916f29",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 10,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:54:02Z",
+  "verification_level": "scanner_only"
+}

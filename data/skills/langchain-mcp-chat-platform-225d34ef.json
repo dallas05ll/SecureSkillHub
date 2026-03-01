@@ -1,0 +1,26 @@
+{
+  "id": "langchain-mcp-chat-platform-225d34ef",
+  "name": "langchain-mcp-chat-platform",
+  "description": "A versatile chat platform that integrates LangChain, custom MCP servers, and various AI models for enhanced chat capabilities.",
+  "repo_url": "https://github.com/BilalAltundag/langchain-mcp-chat-platform",
+  "source_hub": "mcp_so",
+  "owner": "BilalAltundag",
+  "stars": 1,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "prod-comm"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "82c5f919b231bf2f7b795573c12fb0ad66d1ed77",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 8,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:41Z",
+  "verification_level": "scanner_only"
+}

@@ -1,0 +1,32 @@
+{
+  "id": "catalyst-3c1e8a59",
+  "name": "catalyst",
+  "description": "Token-efficient Claude Code workspace with parallel agents and persistent memory. Research → Plan → Implement →   Validate workflow.",
+  "repo_url": "https://github.com/coalesce-labs/catalyst",
+  "source_hub": "github_search",
+  "skill_type": "agent_skill",
+  "owner": "coalesce-labs",
+  "stars": 9,
+  "license": "",
+  "primary_language": "markdown",
+  "tags": [
+    "data-ai",
+    "dev",
+    "prod",
+    "prod-notes",
+    "sec-crypto",
+    "util-search"
+  ],
+  "verification_status": "pass",
+  "overall_score": 73,
+  "risk_level": "medium",
+  "verified_commit": null,
+  "scan_summary": null,
+  "last_updated": "2026-02-18T12:32:59Z",
+  "findings_summary": {
+    "notes": "Metadata-based verification. Score=73. Signals: stars=9; no license detected; owner='coalesce-labs' (+3); primary_language='markdown'; source_hub='github_search'. Status: pass. Risk: medium."
+  },
+  "trust_level": "low",
+  "scan_date": "2026-02-26T06:14:55Z",
+  "verification_level": "metadata_only"
+}

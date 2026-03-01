@@ -1,0 +1,27 @@
+{
+  "id": "mcp-on-vercel-documentation-8083b6af",
+  "name": "mcp-on-vercel-documentation",
+  "description": "An MCP server to deliver context to the MeetingBaaS chat",
+  "repo_url": "https://github.com/Meeting-Baas/mcp-on-vercel-documentation",
+  "source_hub": "mcp_so",
+  "owner": "Meeting-Baas",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai-nlp",
+    "prod-comm",
+    "prod-docs"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "0df3c924c1c12a848b3ce7bd39bca4a82005d4d0",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 17,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:40Z",
+  "verification_level": "scanner_only"
+}

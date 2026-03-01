@@ -1,0 +1,26 @@
+{
+  "id": "postg-mem-dbdc674f",
+  "name": "postg-mem",
+  "description": "MCP server to store memories in postgres",
+  "repo_url": "https://github.com/dariogriffo/postg-mem",
+  "source_hub": "mcp_so",
+  "owner": "dariogriffo",
+  "stars": 13,
+  "primary_language": "unknown",
+  "tags": [
+    "data-db",
+    "prod-notes"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "8f9c724c0e1358ff2e92b2874825f596c70fa83b",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 2,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:42:36Z",
+  "verification_level": "scanner_only"
+}

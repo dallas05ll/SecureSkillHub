@@ -1,0 +1,26 @@
+{
+  "id": "code-reviewer-mcp-688e6ae6",
+  "name": "code-reviewer-mcp",
+  "description": "A code reviewer MCP powered by AI.",
+  "repo_url": "https://github.com/joaomj/code-reviewer-mcp",
+  "source_hub": "mcp_so",
+  "owner": "joaomj",
+  "stars": 5,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "dev"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "7d3ef2f70ba26a5749e1590721242ca0f2de28c7",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 6,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:54:02Z",
+  "verification_level": "scanner_only"
+}

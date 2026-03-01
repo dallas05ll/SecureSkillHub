@@ -1,0 +1,25 @@
+{
+  "id": "xs-mcp-nu-3dc6ae63",
+  "name": "xs.mcp.nu",
+  "description": "a Nushell cross.stream extension to interact with MCP servers",
+  "repo_url": "https://github.com/cablehead/xs.mcp.nu",
+  "source_hub": "mcp_so",
+  "owner": "cablehead",
+  "stars": 18,
+  "primary_language": "unknown",
+  "tags": [
+    "util-media"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "f8ce800e68999e7f3d29df799510cdd9c38726b9",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 138,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:42:36Z",
+  "verification_level": "scanner_only"
+}

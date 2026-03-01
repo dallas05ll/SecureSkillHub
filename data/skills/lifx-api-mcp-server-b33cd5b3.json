@@ -1,0 +1,25 @@
+{
+  "id": "lifx-api-mcp-server-b33cd5b3",
+  "name": "lifx-api-mcp-server",
+  "description": "🤖💡 MCP Server for LIFX API",
+  "repo_url": "https://github.com/furey/lifx-api-mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "furey",
+  "stars": 3,
+  "primary_language": "unknown",
+  "tags": [
+    "integ"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "5aa7c8adceaaf0d468cdc5139580e966174073de",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 5,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:04:50Z",
+  "verification_level": "scanner_only"
+}

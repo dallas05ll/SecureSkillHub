@@ -1,0 +1,27 @@
+{
+  "id": "vimble-mcp-43120e58",
+  "name": "vimble-mcp",
+  "description": "A Model Context Protocol (MCP) server for executing JavaScript code using Vimble.",
+  "repo_url": "https://github.com/johnhenry/vimble-mcp",
+  "source_hub": "mcp_so",
+  "owner": "johnhenry",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp",
+    "dev"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "0701c41e7a63ee2c0141488ba3fa303b119c5f1b",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 5,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:43:00Z",
+  "verification_level": "scanner_only"
+}

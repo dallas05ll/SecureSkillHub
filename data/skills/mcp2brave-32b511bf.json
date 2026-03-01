@@ -1,0 +1,27 @@
+{
+  "id": "mcp2brave-32b511bf",
+  "name": "mcp2brave",
+  "description": "一个MCP服务器，基于Brave API让你的Claude Cline以及Langchain实现网络搜索功能。An MCP server that use Brave API allows your Claude Cline and Langchain to implement network search functions.",
+  "repo_url": "https://github.com/mcp2everything/mcp2brave",
+  "source_hub": "mcp_so",
+  "owner": "mcp2everything",
+  "stars": 2,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "integ",
+    "util-search"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "1e7099b1e3bad213b08e8c69b3c75d1edde78f53",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 3,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:04:51Z",
+  "verification_level": "scanner_only"
+}

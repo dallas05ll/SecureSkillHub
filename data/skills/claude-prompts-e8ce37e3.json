@@ -1,0 +1,30 @@
+{
+  "id": "claude-prompts-e8ce37e3",
+  "name": "claude-prompts",
+  "description": "AI prompt database and builder skill for Claude Code. 2,500+ curated prompts across 19 categories and 17 AI models.",
+  "repo_url": "https://github.com/AgriciDaniel/claude-prompts",
+  "source_hub": "github_search",
+  "skill_type": "agent_skill",
+  "owner": "AgriciDaniel",
+  "stars": 3,
+  "license": "mit",
+  "primary_language": "markdown",
+  "tags": [
+    "data",
+    "data-ai",
+    "data-db",
+    "dev"
+  ],
+  "verification_status": "pass",
+  "overall_score": 78,
+  "risk_level": "medium",
+  "verified_commit": null,
+  "scan_summary": null,
+  "last_updated": "2026-02-25T01:05:07Z",
+  "findings_summary": {
+    "notes": "Metadata-based verification. Score=78. Signals: stars=3; license='mit' (+5); owner='AgriciDaniel' (+3); primary_language='markdown'; source_hub='github_search'. Status: pass. Risk: medium."
+  },
+  "trust_level": "low",
+  "scan_date": "2026-02-26T06:14:56Z",
+  "verification_level": "metadata_only"
+}

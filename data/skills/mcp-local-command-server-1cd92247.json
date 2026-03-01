@@ -1,0 +1,26 @@
+{
+  "id": "mcp-local-command-server-1cd92247",
+  "name": "mcp-local-command-server",
+  "description": "A TypeScript-based MCP server that executes commands and returns structured outputs.",
+  "repo_url": "https://github.com/kentaro/mcp-local-command-server",
+  "source_hub": "mcp_so",
+  "owner": "kentaro",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "b6c1a3270474d265d8e816f02c2b0116f1dc5240",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 5,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:40Z",
+  "verification_level": "scanner_only"
+}

@@ -1,0 +1,26 @@
+{
+  "id": "caddy-mcp-b53561e2",
+  "name": "caddy-mcp",
+  "description": "Caddy MCP server",
+  "repo_url": "https://github.com/lum8rjack/caddy-mcp",
+  "source_hub": "mcp_so",
+  "owner": "lum8rjack",
+  "stars": 5,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "9f3b57eff1bb498641cab44c795572942a89884d",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 1,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:54:02Z",
+  "verification_level": "scanner_only"
+}

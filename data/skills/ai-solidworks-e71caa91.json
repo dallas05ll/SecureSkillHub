@@ -1,0 +1,25 @@
+{
+  "id": "ai-solidworks-e71caa91",
+  "name": "AI-SolidWorks",
+  "description": "the first local gui mcp server for SolidWorks",
+  "repo_url": "https://github.com/sina-salim/AI-SolidWorks",
+  "source_hub": "mcp_so",
+  "owner": "sina-salim",
+  "stars": 13,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "fe9a1611ef97b8bbb7b0ff246cbb2529da59b84b",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 4,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:42:36Z",
+  "verification_level": "scanner_only"
+}

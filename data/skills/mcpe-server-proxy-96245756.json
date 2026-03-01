@@ -1,0 +1,26 @@
+{
+  "id": "mcpe-server-proxy-96245756",
+  "name": "MCPE-Server-Proxy",
+  "description": "This helps with joining MCPI servers on MCPE",
+  "repo_url": "https://github.com/Red-exe-Engineer/MCPE-Server-Proxy",
+  "source_hub": "mcp_so",
+  "owner": "Red-exe-Engineer",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "46d1259589f24516ca9f969fda105424930d0117",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 2,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:40Z",
+  "verification_level": "scanner_only"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "mcp-supabase-95603cab",
+  "name": "mcp-supabase",
+  "description": "A collection of MCP servers that connect LLMs to Supabase",
+  "repo_url": "https://github.com/supabase-community/mcp-supabase",
+  "source_hub": "mcp_so",
+  "owner": "supabase-community",
+  "stars": 2486,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-db",
+    "integ"
+  ],
+  "verification_status": "pass",
+  "overall_score": 87,
+  "risk_level": "medium",
+  "verified_commit": null,
+  "scan_summary": null,
+  "scan_date": "2026-02-26T03:00:50Z",
+  "verification_level": "scanner_only"
+}

@@ -1,0 +1,26 @@
+{
+  "id": "gmail-mcp-java-server-df9548c2",
+  "name": "gmail-mcp-java-server",
+  "description": "Gmail MCP Server using Java and Spring Boot",
+  "repo_url": "https://github.com/christo707/gmail-mcp-java-server",
+  "source_hub": "mcp_so",
+  "owner": "christo707",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "prod-comm"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "6bd920d1034c45065f1f7e07b3fc09b8590fe19b",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 1,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:41Z",
+  "verification_level": "scanner_only"
+}

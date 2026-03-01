@@ -1,0 +1,26 @@
+{
+  "id": "books-mcp-server-8c4940aa",
+  "name": "books-mcp-server",
+  "description": "This is an MCP server used for querying books, and it can be applied in common MCP clients, such as Cherry Studio.",
+  "repo_url": "https://github.com/VmLia/books-mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "VmLia",
+  "stars": 5,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "e81a33ca2ad85b704d42bc4f075c313f36d96101",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 4,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:54:02Z",
+  "verification_level": "scanner_only"
+}

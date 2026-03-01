@@ -1,0 +1,26 @@
+{
+  "id": "mcp-server-lol-40da5070",
+  "name": "mcp-server-lol",
+  "description": "a MCP server to lol esport information",
+  "repo_url": "https://github.com/andraderaul/mcp-server-lol",
+  "source_hub": "mcp_so",
+  "owner": "andraderaul",
+  "stars": 1,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "568bc51e75966c611ea315b3a41d027b5c6ab9c9",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 44,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:42Z",
+  "verification_level": "scanner_only"
+}

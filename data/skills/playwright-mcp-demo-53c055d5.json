@@ -1,0 +1,25 @@
+{
+  "id": "playwright-mcp-demo-53c055d5",
+  "name": "playwright-mcp-demo",
+  "description": "mcp server demo project",
+  "repo_url": "https://github.com/bmanjunath/playwright-mcp-demo",
+  "source_hub": "mcp_so",
+  "owner": "bmanjunath",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "dev-testing"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "952aee65697fcce4118885222306287b4e8b31f8",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 1,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:42Z",
+  "verification_level": "scanner_only"
+}

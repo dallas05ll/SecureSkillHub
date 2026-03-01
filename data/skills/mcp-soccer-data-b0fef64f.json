@@ -1,0 +1,26 @@
+{
+  "id": "mcp-soccer-data-b0fef64f",
+  "name": "mcp-soccer-data",
+  "description": "An MCP server that provides real-time football data based on the SoccerDataAPI.",
+  "repo_url": "https://github.com/yeonupark/mcp-soccer-data",
+  "source_hub": "mcp_so",
+  "owner": "yeonupark",
+  "stars": 27,
+  "primary_language": "unknown",
+  "tags": [
+    "data",
+    "integ"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "9a80c7df68af60140f990e91c312eadba6d3466a",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 5,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:32:11Z",
+  "verification_level": "scanner_only"
+}

@@ -1,0 +1,35 @@
+{
+  "id": "daymon-94a20b85",
+  "name": "daymon",
+  "description": "Open-source cross-platform desktop application (Electron/TypeScript) that runs Claude tasks on schedule, maintains persistent memory via SQLite, and orchestrates background AI automation using Claude Desktop or Claude Code subscriptions without requiring API keys",
+  "repo_url": "https://github.com/daymonio/daymon",
+  "source_hub": "github_search",
+  "skill_type": "agent_skill",
+  "owner": "daymonio",
+  "stars": 363,
+  "forks": 3,
+  "license": "MIT",
+  "primary_language": "TypeScript",
+  "tags": [
+    "data-ai",
+    "data-db",
+    "dev",
+    "integ",
+    "prod",
+    "prod-calendar",
+    "prod-notes",
+    "prod-pm"
+  ],
+  "verification_status": "pass",
+  "overall_score": 72,
+  "risk_level": "medium",
+  "verified_commit": "536295561b5eef2df9c7ff34688907162d8f04c2",
+  "findings_summary": {
+    "notes": "Electron-based desktop application (TypeScript) with MCP server integration. Very new repo (created 2026-02-14, only 11 days old at time of verification), last pushed 2026-02-19. 363 stars, 3 forks, MIT license, 1 open issue. Notable: runs as a persistent background daemon, uses SQLite for memory storage, spawns Claude processes on schedule. MCP config example shows it requires node path and db path configuration. Has SECURITY.md with responsible disclosure policy (hello@daymon.io). Repo structure includes src/, electron/, mcp/, build scripts. Not affiliated with Anthropic per README disclaimer. Key concerns: (1) very new project with minimal community vetting, (2) background daemon execution model requires elevated trust, (3) scheduled task automation could be misused, (4) no evidence of audit. Legitimate use case is clearly documented. No SKILL.md found - uses claude-skills tag but is primarily an application, not a pure skill."
+  },
+  "scan_summary": "Electron/TypeScript desktop daemon. Background process execution, SQLite persistence, MCP integration. New project (11 days old at verification), background execution model warrants caution. No scripts inspected beyond config example.",
+  "last_updated": "2026-02-19T18:03:18Z",
+  "trust_level": "low",
+  "scan_date": "2026-02-26T02:04:07Z",
+  "verification_level": "scanner_only"
+}

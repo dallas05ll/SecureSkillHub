@@ -1,0 +1,27 @@
+{
+  "id": "mcp-rest-sample-7bbd4797",
+  "name": "mcp-rest-sample",
+  "description": "Python sample code for MCP server + REST API (FastAPI) integration",
+  "repo_url": "https://github.com/BeaverHouse/mcp-rest-sample",
+  "source_hub": "mcp_so",
+  "owner": "BeaverHouse",
+  "stars": 1,
+  "primary_language": "unknown",
+  "tags": [
+    "dev",
+    "dev-web-backend-python",
+    "integ"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "6dd6b4fdc32bc6c0e122e2e85b8cb77ce73eac81",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 27,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:40Z",
+  "verification_level": "scanner_only"
+}

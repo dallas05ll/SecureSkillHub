@@ -1,0 +1,27 @@
+{
+  "id": "teamretro-mcp-server-90a41767",
+  "name": "teamretro-mcp-server",
+  "description": "Model Context Protocol (MCP) server for TeamRetro integration.",
+  "repo_url": "https://github.com/adepanges/teamretro-mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "adepanges",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp",
+    "integ"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "2e03cdf5471ac0d6d725cdf674381bd623d72655",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 69,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:43:00Z",
+  "verification_level": "scanner_only"
+}

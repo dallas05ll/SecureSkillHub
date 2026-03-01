@@ -1,0 +1,26 @@
+{
+  "id": "csharpwindowinfomcpserver-d48621c9",
+  "name": "CSharpWindowInfoMcpServer",
+  "description": "Windowsで全ウィンドウの詳細情報を取得することができるだけの C# 製MCPサーバー",
+  "repo_url": "https://github.com/yuiseki/CSharpWindowInfoMcpServer",
+  "source_hub": "mcp_so",
+  "owner": "yuiseki",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "32bd7b9825de42788d5cb5b1c0907056b24b5fe2",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 3,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:41Z",
+  "verification_level": "scanner_only"
+}

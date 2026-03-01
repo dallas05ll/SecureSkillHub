@@ -1,0 +1,26 @@
+{
+  "id": "mcp-weather-server-example-342be549",
+  "name": "mcp-weather-server-example",
+  "description": "Claude Model Context Protocol Weather Server Example",
+  "repo_url": "https://github.com/duan-li/mcp-weather-server-example",
+  "source_hub": "mcp_so",
+  "owner": "duan-li",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "30f0b07fea62db6883a8f3bfbd44e7696f3f55b5",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 4,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:41Z",
+  "verification_level": "scanner_only"
+}

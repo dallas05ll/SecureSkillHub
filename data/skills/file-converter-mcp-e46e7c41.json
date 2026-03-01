@@ -1,0 +1,26 @@
+{
+  "id": "file-converter-mcp-e46e7c41",
+  "name": "file-converter-mcp",
+  "description": "A MCP server that provides file conversion tools",
+  "repo_url": "https://github.com/wowyuarm/file-converter-mcp",
+  "source_hub": "mcp_so",
+  "owner": "wowyuarm",
+  "stars": 23,
+  "primary_language": "unknown",
+  "tags": [
+    "util",
+    "util-file"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "50f95928aae6457e65b36d3962253b9dbfd4331b",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 10,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:32:13Z",
+  "verification_level": "scanner_only"
+}

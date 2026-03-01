@@ -1,0 +1,28 @@
+{
+  "id": "outlookmcpserver-944f7d98",
+  "name": "OutlookMCPServer",
+  "description": "This MCP server gives Claude Desktop access to your Microsoft 365 mail and Calendar, OneDrive, and Sharepoint using the Microsoft Graph API.\n\n✨ Features\n✅ Mail access: Compose, File, Delete, Search, filter, and analyze your inbox from Claude or any MCP-compatible agent (DONE)\n🔜 Calendar support: List Events, Create Events, Delete Events, Search, Update (DONE)\n🚧 OneDrive/Sharepoint support: Drive load, file metadata, file search queries (Coming soon: file parsing)",
+  "repo_url": "https://github.com/Ian Hill/OutlookMCPServer",
+  "source_hub": "mcp_so",
+  "owner": "Ian Hill",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "data",
+    "data-ai",
+    "dev-devops-docker",
+    "integ",
+    "prod-calendar",
+    "util-file",
+    "util-search",
+    "repo_unavailable"
+  ],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null,
+  "repo_status": "unavailable",
+  "repo_check_date": "2026-02-28T20:52:41.482383+00:00",
+  "repo_check_error": "fatal: unable to access 'https://github.com/Ian Hill/OutlookMCPServer/': URL rejected: Malformed input to a URL function"
+}

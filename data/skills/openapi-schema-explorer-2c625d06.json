@@ -1,0 +1,23 @@
+{
+  "id": "openapi-schema-explorer-2c625d06",
+  "name": "OpenAPI Schema Explorer",
+  "description": "MCP server providing token-efficient access to OpenAPI/Swagger specs via MCP Resources for client-side exploration.",
+  "repo_url": "https://github.com/kadykov/OpenAPI Schema Explorer",
+  "source_hub": "mcp_so",
+  "owner": "kadykov",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "sec-crypto",
+    "repo_unavailable"
+  ],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null,
+  "repo_status": "unavailable",
+  "repo_check_date": "2026-02-28T20:52:40.255389+00:00",
+  "repo_check_error": "fatal: unable to access 'https://github.com/kadykov/OpenAPI Schema Explorer/': URL rejected: Malformed input to a URL function"
+}

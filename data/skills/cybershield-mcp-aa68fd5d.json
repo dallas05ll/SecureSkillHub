@@ -1,0 +1,27 @@
+{
+  "id": "cybershield-mcp-aa68fd5d",
+  "name": "CyberShield-MCP",
+  "description": "Servidor MCP para ciberseguridad en Windows. Expone herramientas defensivas como APIs HTTP listas para ser usadas por agentes IA, Claude Desktop o scripts personalizados. Fácil de integrar, extensible y listo para automatizar tu defensa digital.",
+  "repo_url": "https://github.com/jmatias2411/CyberShield-MCP",
+  "source_hub": "mcp_so",
+  "owner": "jmatias2411",
+  "stars": 5,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "integ",
+    "prod"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "958f63332f1bf9e59ed63c3dc74c61b502d5bd9a",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 22,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:54:02Z",
+  "verification_level": "scanner_only"
+}

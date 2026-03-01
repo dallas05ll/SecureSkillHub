@@ -1,0 +1,27 @@
+{
+  "id": "mcp-recon-5b70a1f3",
+  "name": "MCP_Recon",
+  "description": "A comprehensive Model Context Protocol (MCP) server for web security reconnaissance and analysis.",
+  "repo_url": "https://github.com/sundayz-hunter/MCP_Recon",
+  "source_hub": "mcp_so",
+  "owner": "sundayz-hunter",
+  "stars": 6,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp",
+    "sec"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "bf97b7be5c15224b2b4b8ea08d146616dee1c879",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 11,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:54:02Z",
+  "verification_level": "scanner_only"
+}

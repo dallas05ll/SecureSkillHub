@@ -1,0 +1,26 @@
+{
+  "id": "atlantis-mcp-server-3e64d297",
+  "name": "atlantis-mcp-server",
+  "description": "A configurable MCP client/server",
+  "repo_url": "https://github.com/ProjectAtlantis-dev/atlantis-mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "ProjectAtlantis-dev",
+  "stars": 7,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "4c74eb3cab190ca12ba31974a5fe3875624bfe50",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 30,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:54:02Z",
+  "verification_level": "scanner_only"
+}

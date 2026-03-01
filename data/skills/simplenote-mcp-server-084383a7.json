@@ -1,0 +1,27 @@
+{
+  "id": "simplenote-mcp-server-084383a7",
+  "name": "simplenote-mcp-server",
+  "description": "MCP Server for Simplenote integration with Claude Desktop",
+  "repo_url": "https://github.com/docdyhr/simplenote-mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "docdyhr",
+  "stars": 10,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "integ",
+    "prod-notes"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "383f4ffeac569bac6896d6b460283688a0852458",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 319,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:42:36Z",
+  "verification_level": "scanner_only"
+}

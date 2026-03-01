@@ -1,0 +1,25 @@
+{
+  "id": "monad-mcp-server-a48e022c",
+  "name": "Monad-MCP-Server",
+  "description": "This MCP server allows to check the MONAD network data",
+  "repo_url": "https://github.com/LOFT228/Monad-MCP-Server",
+  "source_hub": "mcp_so",
+  "owner": "LOFT228",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "data"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "f553b67054dea4cfb8f8181799fc5419ccd75f55",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 7,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:41Z",
+  "verification_level": "scanner_only"
+}

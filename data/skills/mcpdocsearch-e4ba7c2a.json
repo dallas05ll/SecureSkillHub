@@ -1,0 +1,31 @@
+{
+  "id": "mcpdocsearch-e4ba7c2a",
+  "name": "MCPDocSearch",
+  "description": "This project provides a toolset to crawl websites wikis, tool/library documentions and generate Markdown documentation, and make that documentation searchable via a Model Context Protocol (MCP) server, designed for integration with tools like Cursor.",
+  "repo_url": "https://github.com/alizdavoodi/MCPDocSearch",
+  "source_hub": "mcp_so",
+  "owner": "alizdavoodi",
+  "stars": 35,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp",
+    "dev-web",
+    "integ",
+    "prod-docs",
+    "util",
+    "util-search"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "4f3b7e9ba9364366cbcd5d86119a9bd7c24b7e76",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 16,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:32:11Z",
+  "verification_level": "scanner_only"
+}

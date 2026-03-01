@@ -1,0 +1,25 @@
+{
+  "id": "filesystem-operations-mcp-cf852880",
+  "name": "filesystem-operations-mcp",
+  "description": "MCP Server for reading many files at the same time",
+  "repo_url": "https://github.com/strawgate/filesystem-operations-mcp",
+  "source_hub": "mcp_so",
+  "owner": "strawgate",
+  "stars": 25,
+  "primary_language": "unknown",
+  "tags": [
+    "util-file"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "af7610f5df261b8d5533b3455a2c9b83ce2c38bb",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 14,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:32:11Z",
+  "verification_level": "scanner_only"
+}

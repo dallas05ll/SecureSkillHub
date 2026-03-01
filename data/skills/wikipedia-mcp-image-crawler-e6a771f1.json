@@ -1,0 +1,29 @@
+{
+  "id": "wikipedia-mcp-image-crawler-e6a771f1",
+  "name": "wikipedia-mcp-image-crawler",
+  "description": "A Wikipedia Image Search Tool. Follows Creative Commons Licences for images and uses them in your projects via Claude Desktop/Cline.",
+  "repo_url": "https://github.com/dazeb/wikipedia-mcp-image-crawler",
+  "source_hub": "mcp_so",
+  "owner": "dazeb",
+  "stars": 10,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-vision",
+    "prod-docs",
+    "util",
+    "util-search"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "739dbd91bfba991e465d391cff650a68b0473264",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 5,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:42:34Z",
+  "verification_level": "scanner_only"
+}

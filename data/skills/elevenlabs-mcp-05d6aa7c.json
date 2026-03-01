@@ -1,0 +1,25 @@
+{
+  "id": "elevenlabs-mcp-05d6aa7c",
+  "name": "elevenlabs-mcp",
+  "description": "MCP server implementation for ElevenLabs API integration",
+  "repo_url": "https://github.com/Garblesnarff/elevenlabs-mcp",
+  "source_hub": "mcp_so",
+  "owner": "Garblesnarff",
+  "stars": 1,
+  "primary_language": "unknown",
+  "tags": [
+    "integ"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "c2ae87350e44db66b3b01edb1d0b6fef7514c35e",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 17,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:42Z",
+  "verification_level": "scanner_only"
+}

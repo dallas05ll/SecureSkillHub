@@ -1,0 +1,26 @@
+{
+  "id": "mcp-server-cli-f3a0be47",
+  "name": "mcp-server-cli",
+  "description": "Model Context Protocol server to run shell scripts or commands",
+  "repo_url": "https://github.com/hdcola/mcp-server-cli",
+  "source_hub": "mcp_so",
+  "owner": "hdcola",
+  "stars": 1,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "cd609fa9f41129800730a9e38dbfe4671dfdcc0b",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 8,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:41Z",
+  "verification_level": "scanner_only"
+}

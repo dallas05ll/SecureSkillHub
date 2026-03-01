@@ -1,0 +1,26 @@
+{
+  "id": "korx-share-mcp-server-6e32643b",
+  "name": "korx-share-mcp-server",
+  "description": "Generates a secure, shareable URL for any AI-created visual content (charts/dashboards/HTML) with preserving full interactivity, support Claude, DeepSeek, Grok, Gemini, etc.",
+  "repo_url": "https://github.com/Dearest/korx-share-mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "Dearest",
+  "stars": 1,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "dev-web"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "fbb1d4dd1a4699c37e376e361c38afbbb22740a2",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 6,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:42Z",
+  "verification_level": "scanner_only"
+}

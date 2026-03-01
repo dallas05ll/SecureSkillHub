@@ -1,0 +1,27 @@
+{
+  "id": "mcp-server-adb-af49403c",
+  "name": "mcp-server-adb",
+  "description": "A Model Context Protocol server for Android Debug Bridge (ADB) control",
+  "repo_url": "https://github.com/yava555/mcp-server-adb",
+  "source_hub": "mcp_so",
+  "owner": "yava555",
+  "stars": 2,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp",
+    "dev"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "58f98e82c7f3eed81dbbd91b4ff712cc8af1efcd",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 11,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:04:51Z",
+  "verification_level": "scanner_only"
+}

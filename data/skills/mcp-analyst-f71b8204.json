@@ -1,0 +1,26 @@
+{
+  "id": "mcp-analyst-f71b8204",
+  "name": "mcp-analyst",
+  "description": "MCP Analyst is an MCP server that empowers claude to analyze local CSV or Parquet files.",
+  "repo_url": "https://github.com/unravel-team/mcp-analyst",
+  "source_hub": "mcp_so",
+  "owner": "unravel-team",
+  "stars": 18,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "util-file"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "c1691462b48e4bb3b595610e9f04e6db5d4854d5",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 4,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:42:34Z",
+  "verification_level": "scanner_only"
+}

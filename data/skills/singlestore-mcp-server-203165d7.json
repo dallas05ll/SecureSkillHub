@@ -1,0 +1,26 @@
+{
+  "id": "singlestore-mcp-server-203165d7",
+  "name": "singlestore-mcp-server",
+  "description": "SingleStore MCP server implemented in TS",
+  "repo_url": "https://github.com/madhukarkumar/singlestore-mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "madhukarkumar",
+  "stars": 4,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "db29b0cba7506e32b25c31f4ac9abe3ad0f815ab",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 11,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:04:51Z",
+  "verification_level": "scanner_only"
+}

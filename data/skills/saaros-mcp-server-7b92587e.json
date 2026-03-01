@@ -1,0 +1,28 @@
+{
+  "id": "saaros-mcp-server-7b92587e",
+  "name": "saaros-mcp-server",
+  "description": "A Model Context Protocol (MCP) server that provides access to the Brave Search API, running as a background thread",
+  "repo_url": "https://github.com/mjochum64/saaros-mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "mjochum64",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp",
+    "integ",
+    "util-search"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "a3e844d54d938fd852b73adf1fd6c23cf592ab92",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 7,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:40Z",
+  "verification_level": "scanner_only"
+}

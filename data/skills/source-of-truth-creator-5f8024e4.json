@@ -1,0 +1,29 @@
+{
+  "id": "source-of-truth-creator-5f8024e4",
+  "name": "source-of-truth-creator",
+  "description": "Claude skill & templates for creating epistemically honest Source of Truth documents. Prevents 6 failure modes: unqualified headers, unmarked estimates, self-assessment bias, absence-as-proof claims, illustrative-as-data, staleness. Companion to Clarity Gate.",
+  "repo_url": "https://github.com/frmoretto/source-of-truth-creator",
+  "source_hub": "github_search",
+  "skill_type": "agent_skill",
+  "owner": "frmoretto",
+  "stars": 1,
+  "license": "other",
+  "primary_language": "markdown",
+  "tags": [
+    "data",
+    "data-ai",
+    "prod-docs"
+  ],
+  "verification_status": "pass",
+  "overall_score": 78,
+  "risk_level": "medium",
+  "verified_commit": null,
+  "scan_summary": null,
+  "last_updated": "2026-01-19T22:53:16Z",
+  "findings_summary": {
+    "notes": "Metadata-based verification. Score=78. Signals: stars=1; license='other' (+5); owner='frmoretto' (+3); primary_language='markdown'; source_hub='github_search'. Status: pass. Risk: medium."
+  },
+  "trust_level": "low",
+  "scan_date": "2026-02-26T06:14:56Z",
+  "verification_level": "metadata_only"
+}

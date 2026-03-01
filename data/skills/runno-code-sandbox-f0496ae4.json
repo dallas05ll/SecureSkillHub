@@ -1,0 +1,24 @@
+{
+  "id": "runno-code-sandbox-f0496ae4",
+  "name": "runno-code-sandbox",
+  "description": "The @runno/mcp server provides a run_code tool that AI assistants can use to execute code snippets in various programming languages. It leverages the @runno/sandbox package, which uses WebAssembly to create isolated environments for code execution. The result of the code execution is provided over STDIO.",
+  "repo_url": "https://github.com/taybenlor/runno-code-sandbox",
+  "source_hub": "mcp_so",
+  "owner": "taybenlor",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "dev",
+    "util",
+    "repo_unavailable"
+  ],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null,
+  "repo_status": "unavailable",
+  "repo_check_date": "2026-02-28T20:52:51.239952+00:00",
+  "repo_check_error": "fatal: could not read Username for 'https://github.com': Device not configured"
+}

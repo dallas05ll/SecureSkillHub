@@ -1,0 +1,28 @@
+{
+  "id": "mcp-server-agenda-6c5534b2",
+  "name": "mcp-server-agenda",
+  "description": "A model context protocol server to interface the agenda note taking software using x-callback-url",
+  "repo_url": "https://github.com/alexgoller/mcp-server-agenda",
+  "source_hub": "mcp_so",
+  "owner": "alexgoller",
+  "stars": 5,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp",
+    "prod-calendar",
+    "prod-notes"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "33eec16ccf3730b09907d2b2629137793105311f",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 5,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:54:02Z",
+  "verification_level": "scanner_only"
+}

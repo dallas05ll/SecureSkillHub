@@ -1,0 +1,25 @@
+{
+  "id": "23andme-raw-data-lookup-mcp-a7691dff",
+  "name": "23andme-raw-data-lookup-mcp",
+  "description": "MCP server for 23andMe genetic data retrieval by RSID",
+  "repo_url": "https://github.com/obuchowski/23andme-raw-data-lookup-mcp",
+  "source_hub": "mcp_so",
+  "owner": "obuchowski",
+  "stars": 1,
+  "primary_language": "unknown",
+  "tags": [
+    "data"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "41e1c7d5200cfc523ed49bbb902aa2bc3c6ed214",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 7,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:40Z",
+  "verification_level": "scanner_only"
+}

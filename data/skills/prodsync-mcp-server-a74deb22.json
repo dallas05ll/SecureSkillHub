@@ -1,0 +1,26 @@
+{
+  "id": "prodsync-mcp-server-a74deb22",
+  "name": "prodsync-mcp-server",
+  "description": "A custom MCP server that brings real-time production context for developers",
+  "repo_url": "https://github.com/mukeshjc/prodsync-mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "mukeshjc",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai-nlp",
+    "dev"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "b0674e21125c98cb88d4fcd3a50b1e2fe1855546",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 7,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:40Z",
+  "verification_level": "scanner_only"
+}

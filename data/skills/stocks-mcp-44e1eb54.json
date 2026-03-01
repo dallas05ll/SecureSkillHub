@@ -1,0 +1,25 @@
+{
+  "id": "stocks-mcp-44e1eb54",
+  "name": "stocks-mcp",
+  "description": "Stocks MCP. Stock Price Lookup Agent.",
+  "repo_url": "https://github.com/SKWK/stocks-mcp",
+  "source_hub": "mcp_so",
+  "owner": "SKWK",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "ac52cdeb7fa7799597d0e694767d712a404ef40d",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 7,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:43:00Z",
+  "verification_level": "scanner_only"
+}

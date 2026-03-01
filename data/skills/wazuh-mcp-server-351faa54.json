@@ -1,0 +1,31 @@
+{
+  "id": "wazuh-mcp-server-351faa54",
+  "name": "Wazuh-MCP-Server",
+  "description": "An open-source MCP server for integrating Wazuh security data with LLMs (such as the Claude Desktop App). This service authenticates with the Wazuh RESTful API, retrieves alerts from Elasticsearch indices, transforms events into an MCP-compliant JSON format, and exposes an HTTP endpoint for Claude Desktop to fetch real-time security context.",
+  "repo_url": "https://github.com/unmuktoai/Wazuh-MCP-Server",
+  "source_hub": "mcp_so",
+  "owner": "unmuktoai",
+  "stars": 129,
+  "primary_language": "unknown",
+  "tags": [
+    "data",
+    "data-ai",
+    "data-ai-nlp",
+    "integ",
+    "sec",
+    "util-monitor",
+    "util-search"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "a9636fbf2516f0f4a137407a78bd4e8fee0fe43f",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 53,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-27T06:40:44Z",
+  "verification_level": "scanner_only"
+}

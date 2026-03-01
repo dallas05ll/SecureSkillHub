@@ -1,0 +1,25 @@
+{
+  "id": "searoute-mcp-84a26226",
+  "name": "searoute_mcp",
+  "description": "A Maritime Routing MCP Server that computes sea routes and geodesic distances using searoute and geopy. Built for maritime operations and research.",
+  "repo_url": "https://github.com/Project-Harrison/searoute_mcp",
+  "source_hub": "mcp_so",
+  "owner": "Project-Harrison",
+  "stars": 7,
+  "primary_language": "unknown",
+  "tags": [
+    "util-search"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "a4e0ea6b9d960b8474a42982e21fdf79ecb4ed2e",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 16,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:54:02Z",
+  "verification_level": "scanner_only"
+}

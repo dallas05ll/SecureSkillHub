@@ -1,0 +1,25 @@
+{
+  "id": "valtown-mcp-server-a314b162",
+  "name": "valtown-mcp-server",
+  "description": "ValTown MCP Server - Execute ValTown functions from AI assistants",
+  "repo_url": "https://github.com/PrashamTrivedi/valtown-mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "PrashamTrivedi",
+  "stars": 15,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "149fc9bf6ed840252f0b7e85f01100c2d5810e0a",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 33,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:42:36Z",
+  "verification_level": "scanner_only"
+}

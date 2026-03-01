@@ -1,0 +1,26 @@
+{
+  "id": "resilient-mcp-05d1eb85",
+  "name": "Resilient-MCP",
+  "description": "MCP Server to interact with ResilientDB",
+  "repo_url": "https://github.com/harish876/Resilient-MCP",
+  "source_hub": "mcp_so",
+  "owner": "harish876",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "6b1165dcd7866bdbee95dc87a71b9f580c7c2bc9",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 5,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:40Z",
+  "verification_level": "scanner_only"
+}

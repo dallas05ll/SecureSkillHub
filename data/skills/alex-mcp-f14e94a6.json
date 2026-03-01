@@ -1,0 +1,33 @@
+{
+  "id": "alex-mcp-f14e94a6",
+  "name": "alex-mcp",
+  "description": "Professional MCP server for OpenAlex academic research - ML-powered author disambiguation, institution resolution, and comprehensive researcher profiles with ORCID integration\n\n\nTransform your AI assistant into a powerful academic research tool! This MCP server provides seamless access to OpenAlex's comprehensive database of 200+ million scholarly works and researchers. Features include intelligent author disambiguation using machine learning, automatic institution name expansion (MIT → Massa...",
+  "repo_url": "https://github.com/drAbreu/alex-mcp",
+  "source_hub": "mcp_so",
+  "owner": "drAbreu",
+  "stars": 32,
+  "primary_language": "unknown",
+  "tags": [
+    "data",
+    "data-ai",
+    "data-db",
+    "integ",
+    "prod",
+    "sec",
+    "util",
+    "util-file",
+    "util-search"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "55b62b0ab267f023ca93f95e7e5726628710626a",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 11,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:32:12Z",
+  "verification_level": "scanner_only"
+}

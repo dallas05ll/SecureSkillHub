@@ -1,0 +1,26 @@
+{
+  "id": "notionbae-d3eb4ba0",
+  "name": "NotionBae",
+  "description": "MCP Server for Notion.com integration",
+  "repo_url": "https://github.com/mrcunninghamz/NotionBae",
+  "source_hub": "mcp_so",
+  "owner": "mrcunninghamz",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "prod-docs"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "60205b54ee87f6db9bf60a63d83c381b45e5efd8",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 2,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:40Z",
+  "verification_level": "scanner_only"
+}

@@ -1,0 +1,25 @@
+{
+  "id": "weather-mcp-server-62327410",
+  "name": "weather-mcp-server",
+  "description": "this is a Mcp server for us weather, I create it for test purposes",
+  "repo_url": "https://github.com/michael7736/weather-mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "michael7736",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "dev-testing"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "03a5b29aed264f434def03eb31e037fdff5fa123",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 3,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:43:00Z",
+  "verification_level": "scanner_only"
+}

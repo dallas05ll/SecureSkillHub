@@ -1,0 +1,26 @@
+{
+  "id": "mcpilled-c4ee5b2d",
+  "name": "mcpilled",
+  "description": "MCPilled.com is a collection of curated news about MCP servers, clients, protocol updates and everything else MCP",
+  "repo_url": "https://github.com/altryne/mcpilled",
+  "source_hub": "mcp_so",
+  "owner": "altryne",
+  "stars": 1,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "d2644fb98e19bcc204542fa5ade0a2d5e658cbb3",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 140,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:40Z",
+  "verification_level": "scanner_only"
+}

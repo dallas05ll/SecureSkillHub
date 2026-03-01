@@ -1,0 +1,26 @@
+{
+  "id": "mcpe-alpha-server-for-pterodactyl-e0be83ce",
+  "name": "MCPE-Alpha-Server-for-Pterodactyl",
+  "description": "Cores for MCPE Alpha servers using the Pterodactyl panel",
+  "repo_url": "https://github.com/eqozqq/MCPE-Alpha-Server-for-Pterodactyl",
+  "source_hub": "mcp_so",
+  "owner": "eqozqq",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "4d4a328a189ab0a1d11f0f8da1b9d9bfed33344d",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 1,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:40Z",
+  "verification_level": "scanner_only"
+}

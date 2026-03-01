@@ -1,0 +1,25 @@
+{
+  "id": "a2amcp-837effdd",
+  "name": "A2AMCP",
+  "description": "A2AMCP is a Agent2Agent MCP communication Server taking the concept from Google's Agent2Agent Protocol (A2A)",
+  "repo_url": "https://github.com/webdevtodayjason/A2AMCP",
+  "source_hub": "mcp_so",
+  "owner": "webdevtodayjason",
+  "stars": 19,
+  "primary_language": "unknown",
+  "tags": [
+    "prod-comm"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "272713a045f1257838a7de1dd7a03db923843c5b",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 32,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:42:34Z",
+  "verification_level": "scanner_only"
+}

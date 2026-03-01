@@ -1,0 +1,28 @@
+{
+  "id": "claude-council-c002a141",
+  "name": "claude-council",
+  "description": "Claude Code plugin to consult multiple AI coding agents (Gemini, OpenAI, Grok) for diverse perspectives",
+  "repo_url": "https://github.com/hex/claude-council",
+  "source_hub": "github_search",
+  "skill_type": "agent_skill",
+  "owner": "hex",
+  "stars": 12,
+  "license": "mit",
+  "primary_language": "markdown",
+  "tags": [
+    "data-ai",
+    "dev"
+  ],
+  "verification_status": "pass",
+  "overall_score": 83,
+  "risk_level": "low",
+  "verified_commit": null,
+  "scan_summary": null,
+  "last_updated": "2026-02-23T16:53:07Z",
+  "findings_summary": {
+    "notes": "Metadata-based verification. Score=83. Signals: stars=12 (>=10, +5); license='mit' (+5); owner='hex' (+3); primary_language='markdown'; source_hub='github_search'. Status: pass. Risk: low."
+  },
+  "trust_level": "low",
+  "scan_date": "2026-02-26T06:14:55Z",
+  "verification_level": "metadata_only"
+}

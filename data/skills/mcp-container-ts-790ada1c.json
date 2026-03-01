@@ -1,0 +1,31 @@
+{
+  "id": "mcp-container-ts-790ada1c",
+  "name": "mcp-container-ts",
+  "description": "This is a quick start guide that provides the basic building blocks to set up a remote Model Context Protocol (MCP) server using Azure Container Apps. The MCP server is built using Node.js and TypeScript, and it can be used to run various tools and services in a serverless environment.",
+  "repo_url": "https://github.com/Azure-Samples/mcp-container-ts",
+  "source_hub": "mcp_so",
+  "owner": "Azure-Samples",
+  "stars": 44,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp",
+    "dev-devops-docker",
+    "dev-web-backend-node",
+    "integ-cloud",
+    "integ-cloud-azure",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "44ac4b2d1ad67497808ec270bf562d79fccaa6ed",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 31,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:32:12Z",
+  "verification_level": "scanner_only"
+}

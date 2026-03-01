@@ -1,0 +1,26 @@
+{
+  "id": "rapidocr-mcp-7ddf9fcc",
+  "name": "rapidocr-mcp",
+  "description": "A MCP server based on RapidOCR, providing an easy-to-use OCR interface.",
+  "repo_url": "https://github.com/z4none/rapidocr-mcp",
+  "source_hub": "mcp_so",
+  "owner": "z4none",
+  "stars": 5,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai-vision",
+    "integ"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "92fc28f19b4598c0c77b1894766a73945262e2cb",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 6,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:54:04Z",
+  "verification_level": "scanner_only"
+}

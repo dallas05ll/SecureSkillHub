@@ -1,0 +1,28 @@
+{
+  "id": "upguard-cyberrisk-mcp-server-nodejs-2b606712",
+  "name": "upguard-cyberrisk-mcp-server-nodejs",
+  "description": "Node.js MCP server for UpGuard CyberRisk API integration. Provides comprehensive cybersecurity risk assessment tools with stateless HTTP transport, caching, and resilience patterns.",
+  "repo_url": "https://github.com/leroylim/upguard-cyberrisk-mcp-server-nodejs",
+  "source_hub": "mcp_so",
+  "owner": "leroylim",
+  "stars": 1,
+  "primary_language": "unknown",
+  "tags": [
+    "dev-web-backend-node",
+    "integ",
+    "sec",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "84c6c0f12720350ea53b0efae68457884626567c",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 114,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:41Z",
+  "verification_level": "scanner_only"
+}

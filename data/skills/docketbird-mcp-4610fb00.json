@@ -1,0 +1,25 @@
+{
+  "id": "docketbird-mcp-4610fb00",
+  "name": "docketbird-mcp",
+  "description": "MCP server for APIs hosted by DocketBird.",
+  "repo_url": "https://github.com/gravix-db/docketbird-mcp",
+  "source_hub": "mcp_so",
+  "owner": "gravix-db",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "integ"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "4a9dea7a33eb4770a6c11723668502603c2e8f61",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 10,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:41Z",
+  "verification_level": "scanner_only"
+}

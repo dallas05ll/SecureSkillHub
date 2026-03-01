@@ -1,0 +1,27 @@
+{
+  "id": "voxta-mcp-5ef6b943",
+  "name": "voxta-mcp",
+  "description": "Voxta provider that enables communication with Model Context Protocol (MCP) servers",
+  "repo_url": "https://github.com/vega-holdings/voxta-mcp",
+  "source_hub": "mcp_so",
+  "owner": "vega-holdings",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp",
+    "prod-comm"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "f238770aab60ea07c40f90830ca04a6094f3c31f",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 8,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:43:00Z",
+  "verification_level": "scanner_only"
+}

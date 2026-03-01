@@ -1,0 +1,25 @@
+{
+  "id": "mcp-contrast-edaef490",
+  "name": "mcp-contrast",
+  "description": "MCP Server for Contrast Security",
+  "repo_url": "https://github.com/Contrast-Security-OSS/mcp-contrast",
+  "source_hub": "mcp_so",
+  "owner": "Contrast-Security-OSS",
+  "stars": 16,
+  "primary_language": "unknown",
+  "tags": [
+    "sec"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "ebf0ee3dbb44f066988b6f418abae9bff5e8ebdf",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 49,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:42:34Z",
+  "verification_level": "scanner_only"
+}

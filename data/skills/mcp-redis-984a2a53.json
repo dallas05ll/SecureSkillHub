@@ -1,0 +1,28 @@
+{
+  "id": "mcp-redis-984a2a53",
+  "name": "mcp-redis",
+  "description": "The official Redis MCP Server is a natural language interface designed for agentic applications to manage and search data in Redis efficiently",
+  "repo_url": "https://github.com/redis/mcp-redis",
+  "source_hub": "mcp_so",
+  "owner": "redis",
+  "stars": 432,
+  "primary_language": "unknown",
+  "tags": [
+    "data",
+    "data-ai-nlp",
+    "data-db",
+    "util-search"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 49,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-27T02:28:45Z",
+  "verification_level": "scanner_only"
+}

@@ -1,0 +1,26 @@
+{
+  "id": "bn-cline-mcp-1c23b227",
+  "name": "bn_cline_mcp",
+  "description": "An MCP server for Cline that works with Binary Ninja",
+  "repo_url": "https://github.com/opensensor/bn_cline_mcp",
+  "source_hub": "mcp_so",
+  "owner": "opensensor",
+  "stars": 4,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "66bfdd2a451a493e2911699fa84686168d221081",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 22,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:54:02Z",
+  "verification_level": "scanner_only"
+}

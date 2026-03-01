@@ -1,0 +1,26 @@
+{
+  "id": "thinking-partner-mcp-raycast-d2f988ed",
+  "name": "thinking-partner-mcp-raycast",
+  "description": "Raycast Extension that acts as an MCP client for the Thinking Partner MCP server",
+  "repo_url": "https://github.com/nwant/thinking-partner-mcp-raycast",
+  "source_hub": "mcp_so",
+  "owner": "nwant",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "2c2f89d6edfdcaab0aff8541678dc04e5043abf2",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 13,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:42:59Z",
+  "verification_level": "scanner_only"
+}

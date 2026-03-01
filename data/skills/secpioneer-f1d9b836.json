@@ -1,0 +1,26 @@
+{
+  "id": "secpioneer-f1d9b836",
+  "name": "secpioneer",
+  "description": "An AI Native Agent for Security Caps and MCP Servers",
+  "repo_url": "https://github.com/VillanCh/secpioneer",
+  "source_hub": "mcp_so",
+  "owner": "VillanCh",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "sec"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "80fd7bf314f53eae9d5b1fa2ad2886640bf34970",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 31,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:40Z",
+  "verification_level": "scanner_only"
+}

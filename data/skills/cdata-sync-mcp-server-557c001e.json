@@ -1,0 +1,29 @@
+{
+  "id": "cdata-sync-mcp-server-557c001e",
+  "name": "CData Sync MCP Server",
+  "description": "Enables AI assistants to manage CData Sync operations, including data synchronization jobs, connections, and ETL processes through stdio or HTTP transports. It provides tools for executing jobs, monitoring real-time progress via Server-Sent Events, and handling comprehensive workspace configurations.",
+  "repo_url": "https://github.com/CDataSoftware/cdata-sync-mcp-server",
+  "source_hub": "glama",
+  "owner": "CDataSoftware",
+  "stars": 3,
+  "primary_language": "unknown",
+  "tags": [
+    "data",
+    "data-ai",
+    "integ",
+    "util",
+    "util-monitor"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 41,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-25T14:26:46Z",
+  "verification_level": "scanner_only"
+}

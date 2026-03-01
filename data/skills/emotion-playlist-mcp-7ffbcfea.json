@@ -1,0 +1,26 @@
+{
+  "id": "emotion-playlist-mcp-7ffbcfea",
+  "name": "emotion_playlist_mcp",
+  "description": "An MCP Server that makes spotify playlists based on your emotions",
+  "repo_url": "https://github.com/dldnlee/emotion_playlist_mcp",
+  "source_hub": "mcp_so",
+  "owner": "dldnlee",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "5fe2280c8045b015c4d95e4070bf17d70f6d9594",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 11,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:40Z",
+  "verification_level": "scanner_only"
+}

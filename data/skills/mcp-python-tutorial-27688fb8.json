@@ -1,0 +1,25 @@
+{
+  "id": "mcp-python-tutorial-27688fb8",
+  "name": "mcp-python-tutorial",
+  "description": "Enhanced version of the MCP server tutorial.",
+  "repo_url": "https://github.com/z3r0-m4n/mcp-python-tutorial",
+  "source_hub": "mcp_so",
+  "owner": "z3r0-m4n",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "dev-web-backend-python"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "11ce5bc459da05bcf7e6d9f7ff613a3a1c597cb4",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 3,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:41Z",
+  "verification_level": "scanner_only"
+}

@@ -1,0 +1,29 @@
+{
+  "id": "fastapi-mcp-78e57471",
+  "name": "fastapi-mcp",
+  "description": "Example web app mounting a model context protocol (MCP) server on a FastAPI server",
+  "repo_url": "https://github.com/KimiJL/fastapi-mcp",
+  "source_hub": "mcp_so",
+  "owner": "KimiJL",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp",
+    "dev-web",
+    "dev-web-backend-python",
+    "integ"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "f74a0101ad540b30c0ddd33a2de4f12547fe7c65",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 6,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:41Z",
+  "verification_level": "scanner_only"
+}

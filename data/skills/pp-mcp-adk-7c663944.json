@@ -1,0 +1,26 @@
+{
+  "id": "pp-mcp-adk-7c663944",
+  "name": "pp_mcp_adk",
+  "description": "The commerce-centric demo shown live at Paypal Dev Days 2025 on 4/29. Featuring Paypal Agent Toolkit & MCP server with Google's Agent Development Kit (ADK)",
+  "repo_url": "https://github.com/gkcng/pp_mcp_adk",
+  "source_hub": "mcp_so",
+  "owner": "gkcng",
+  "stars": 1,
+  "primary_language": "unknown",
+  "tags": [
+    "integ-payment",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "2dc1b2aa031c7747bb394203a1caa7019afe89f7",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 9,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:41Z",
+  "verification_level": "scanner_only"
+}

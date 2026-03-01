@@ -1,0 +1,26 @@
+{
+  "id": "ms-creator-mcp-server-a2fbf847",
+  "name": "ms-creator-mcp-server",
+  "description": "makeshop クリエイターモード用 MCPサーバー (非公式)",
+  "repo_url": "https://github.com/Dosugamea/ms-creator-mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "Dosugamea",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "903a68bd5ff4c43535e8a22c3ed93241525c8555",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 13,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:41Z",
+  "verification_level": "scanner_only"
+}

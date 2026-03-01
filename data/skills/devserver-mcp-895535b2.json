@@ -1,0 +1,25 @@
+{
+  "id": "devserver-mcp-895535b2",
+  "name": "devserver-mcp",
+  "description": "MCP server and a unified TUI for managing dev servers + Playwright",
+  "repo_url": "https://github.com/Uninen/devserver-mcp",
+  "source_hub": "mcp_so",
+  "owner": "Uninen",
+  "stars": 1,
+  "primary_language": "unknown",
+  "tags": [
+    "dev-testing"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "9f13dd615b8f6cc2b9fd330068d133a06b7bae10",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 53,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:42Z",
+  "verification_level": "scanner_only"
+}

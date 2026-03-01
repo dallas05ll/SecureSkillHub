@@ -1,0 +1,26 @@
+{
+  "id": "mcp-brower-use-916f1587",
+  "name": "mcp-brower-use",
+  "description": "using different mcp servers to automate the tasks",
+  "repo_url": "https://github.com/Rizwankaka/mcp-brower-use",
+  "source_hub": "mcp_so",
+  "owner": "Rizwankaka",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "prod",
+    "prod-pm"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "578635000c16658dea7f1376b50dca724e49c177",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 6,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:40Z",
+  "verification_level": "scanner_only"
+}

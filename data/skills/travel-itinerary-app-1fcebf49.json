@@ -1,0 +1,28 @@
+{
+  "id": "travel-itinerary-app-1fcebf49",
+  "name": "travel_itinerary_app",
+  "description": "Create a backend system for managing travel itineraries with the following components: 1. Database architecture for trip itineraries and models for the same using SQLAlchemy 2. RESTful API endpoints for creating and viewing itineraries 3. MCP server that provides recommended itineraries based on duration",
+  "repo_url": "https://github.com/21471A0505/travel_itinerary_app",
+  "source_hub": "mcp_so",
+  "owner": "21471A0505",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "data",
+    "data-ai",
+    "data-db",
+    "integ"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "2b3a1e4da34e491d87a6f334130b1c05e6bd5ace",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 7,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:43:00Z",
+  "verification_level": "scanner_only"
+}

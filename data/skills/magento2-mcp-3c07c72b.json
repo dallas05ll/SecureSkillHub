@@ -1,0 +1,26 @@
+{
+  "id": "magento2-mcp-3c07c72b",
+  "name": "magento2-mcp",
+  "description": "A MCP server for Magento 2",
+  "repo_url": "https://github.com/boldcommerce/magento2-mcp",
+  "source_hub": "mcp_so",
+  "owner": "boldcommerce",
+  "stars": 47,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "5a97766b52797b26fdcd09f00115d79a0748390f",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 13,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:32:11Z",
+  "verification_level": "scanner_only"
+}

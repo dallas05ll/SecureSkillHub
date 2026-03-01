@@ -1,0 +1,28 @@
+{
+  "id": "substrate-mcp-rs-e7ebf188",
+  "name": "substrate-mcp-rs",
+  "description": "A Model Context Protocol (MCP) server for Substrate blockchains, written in Rust and interfacing the subxt crate.",
+  "repo_url": "https://github.com/ThomasMarches/substrate-mcp-rs",
+  "source_hub": "mcp_so",
+  "owner": "ThomasMarches",
+  "stars": 12,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp",
+    "dev-web-backend-rust",
+    "sec-crypto"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "6e50d6f5b62cd4432ba7d391d5a60550abe4f7be",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 2,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:42:36Z",
+  "verification_level": "scanner_only"
+}

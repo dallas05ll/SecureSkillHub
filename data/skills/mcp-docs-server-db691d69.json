@@ -1,0 +1,26 @@
+{
+  "id": "mcp-docs-server-db691d69",
+  "name": "mcp_docs_server",
+  "description": "helper for build a mcp server",
+  "repo_url": "https://github.com/crossagent/mcp_docs_server",
+  "source_hub": "mcp_so",
+  "owner": "crossagent",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "prod-docs",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "88127f313ac60c0c6ba6a2606d69dba1ad962df8",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 38,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:40Z",
+  "verification_level": "scanner_only"
+}

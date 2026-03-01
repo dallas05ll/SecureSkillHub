@@ -1,0 +1,26 @@
+{
+  "id": "unstuckmcp-03c05d08",
+  "name": "unstuckmcp",
+  "description": "MCP Server to ask humans for help",
+  "repo_url": "https://github.com/dtdannen/unstuckmcp",
+  "source_hub": "mcp_so",
+  "owner": "dtdannen",
+  "stars": 12,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "099c84979326ebbe09cc33d3cee52adf79c57d01",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 166,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:42:36Z",
+  "verification_level": "scanner_only"
+}

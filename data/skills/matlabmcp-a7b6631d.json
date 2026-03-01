@@ -1,0 +1,27 @@
+{
+  "id": "matlabmcp-a7b6631d",
+  "name": "MatlabMCP",
+  "description": "MCP server to run MATLAB code from LLM via the Matlab Engine API.",
+  "repo_url": "https://github.com/jigarbhoye04/MatlabMCP",
+  "source_hub": "mcp_so",
+  "owner": "jigarbhoye04",
+  "stars": 20,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "dev",
+    "integ"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "2513e6cec053e44efddba108bbbf8f71a27aa055",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 7,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:32:11Z",
+  "verification_level": "scanner_only"
+}

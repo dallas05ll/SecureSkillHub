@@ -1,0 +1,28 @@
+{
+  "id": "ssq-predictor-9b578215",
+  "name": "ssq-predictor",
+  "description": "双色球预测分析 Agent Skill，融合概率统计、物理学、易经玄学三维度分析，支持 Claude Code / Cursor / Windsurf / Codex CLI",
+  "repo_url": "https://github.com/ma-pony/ssq-predictor",
+  "source_hub": "github_search",
+  "skill_type": "agent_skill",
+  "owner": "ma-pony",
+  "stars": 3,
+  "license": "",
+  "primary_language": "markdown",
+  "tags": [
+    "data-ai",
+    "dev"
+  ],
+  "verification_status": "pass",
+  "overall_score": 73,
+  "risk_level": "medium",
+  "verified_commit": null,
+  "scan_summary": null,
+  "last_updated": "2026-02-22T12:00:57Z",
+  "findings_summary": {
+    "notes": "Metadata-based verification. Score=73. Signals: stars=3; no license detected; owner='ma-pony' (+3); primary_language='markdown'; source_hub='github_search'. Status: pass. Risk: medium."
+  },
+  "trust_level": "low",
+  "scan_date": "2026-02-26T06:14:56Z",
+  "verification_level": "metadata_only"
+}

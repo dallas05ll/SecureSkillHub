@@ -1,0 +1,29 @@
+{
+  "id": "clojars-mcp-server-66c10e49",
+  "name": "Clojars-MCP-Server",
+  "description": "A Model Context Protocol (MCP) server that provides tools for fetching dependency information from Clojars, the Clojure community's artifact repository.",
+  "repo_url": "https://github.com/Bigsy/Clojars-MCP-Server",
+  "source_hub": "mcp_so",
+  "owner": "Bigsy",
+  "stars": 5,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp",
+    "prod-comm",
+    "util",
+    "util-search"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "24c84934a96d3cb10ebc3ee6602736e46f66cc4b",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 7,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:54:02Z",
+  "verification_level": "scanner_only"
+}

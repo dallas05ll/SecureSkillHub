@@ -1,0 +1,27 @@
+{
+  "id": "openligadbllm-53e4c21b",
+  "name": "OpenLigaDbLlm",
+  "description": "A .NET project for interacting with OpenLigaDb, featuring a chat interface with integrated tools and an MCP server component.",
+  "repo_url": "https://github.com/FelixDamrau/OpenLigaDbLlm",
+  "source_hub": "mcp_so",
+  "owner": "FelixDamrau",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "prod-comm",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "3935c824cb3ac70c6805b74eccb8bb8dc7e7c2b6",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 3,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:41Z",
+  "verification_level": "scanner_only"
+}

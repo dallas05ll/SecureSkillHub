@@ -1,0 +1,27 @@
+{
+  "id": "up-bank-mcp-6b2bd6e6",
+  "name": "up-bank-mcp",
+  "description": "MCP (Model Context Protocol) server implementation for Up Bank's API",
+  "repo_url": "https://github.com/stuliston/up-bank-mcp",
+  "source_hub": "mcp_so",
+  "owner": "stuliston",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp",
+    "integ"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "d93c727a283d81c873ec2627831b7f4f32ae7ffa",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 4,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:43:00Z",
+  "verification_level": "scanner_only"
+}

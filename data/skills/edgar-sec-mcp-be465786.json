@@ -1,0 +1,25 @@
+{
+  "id": "edgar-sec-mcp-be465786",
+  "name": "edgar-sec-mcp",
+  "description": "An MCP Server to get data from EDGAR",
+  "repo_url": "https://github.com/flothjl/edgar-sec-mcp",
+  "source_hub": "mcp_so",
+  "owner": "flothjl",
+  "stars": 5,
+  "primary_language": "unknown",
+  "tags": [
+    "data"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "3b9ce65c1d76eb837a48348743600d77e2e69dce",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 11,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:54:04Z",
+  "verification_level": "scanner_only"
+}

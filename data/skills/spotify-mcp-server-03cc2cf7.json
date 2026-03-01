@@ -1,0 +1,25 @@
+{
+  "id": "spotify-mcp-server-03cc2cf7",
+  "name": "spotify-mcp-server",
+  "description": "A Media Control Protocol server for controlling Spotify playback",
+  "repo_url": "https://github.com/Jopgood/spotify-mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "Jopgood",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "util-media"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "e58ad0675afe0b22e466233426707e32dc8d28d2",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 11,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:43:00Z",
+  "verification_level": "scanner_only"
+}

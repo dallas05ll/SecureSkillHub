@@ -1,0 +1,25 @@
+{
+  "id": "mcp-server-searxng-n8n-21ec2b15",
+  "name": "mcp-server-searxng-n8n",
+  "description": "MCP Server for SearxNG n8n integration",
+  "repo_url": "https://github.com/tamler/mcp-server-searxng-n8n",
+  "source_hub": "mcp_so",
+  "owner": "tamler",
+  "stars": 4,
+  "primary_language": "unknown",
+  "tags": [
+    "integ"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "d089b3e03749e61f3ccc06f42bfd7f386a3bc4fe",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 7,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:54:02Z",
+  "verification_level": "scanner_only"
+}

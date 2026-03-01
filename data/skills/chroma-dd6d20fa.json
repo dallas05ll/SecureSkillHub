@@ -1,0 +1,29 @@
+{
+  "id": "chroma-dd6d20fa",
+  "name": "chroma",
+  "description": "A Model Context Protocol (MCP) server implementation that provides vector database capabilities through Chroma.",
+  "repo_url": "https://github.com/privetin/chroma",
+  "source_hub": "mcp_so",
+  "owner": "privetin",
+  "stars": 41,
+  "primary_language": "unknown",
+  "tags": [
+    "data",
+    "data-ai",
+    "data-ai-nlp",
+    "data-db",
+    "data-db-vector"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "7d1b85ab72c9c1c8f9b67f3cacd38f723d93780f",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 5,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:32:11Z",
+  "verification_level": "scanner_only"
+}

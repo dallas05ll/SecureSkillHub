@@ -1,0 +1,25 @@
+{
+  "id": "gridscale-mcp-23b1dd96",
+  "name": "gridscale-mcp",
+  "description": "MCP Server to interact with the Gridscale API",
+  "repo_url": "https://github.com/fabiante/gridscale-mcp",
+  "source_hub": "mcp_so",
+  "owner": "fabiante",
+  "stars": 2,
+  "primary_language": "unknown",
+  "tags": [
+    "integ"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "bdfd60e99c6d0772dc0291189e88b0cc5b5b3840",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 1,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:04:50Z",
+  "verification_level": "scanner_only"
+}

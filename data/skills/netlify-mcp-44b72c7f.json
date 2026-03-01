@@ -1,0 +1,28 @@
+{
+  "id": "netlify-mcp-44b72c7f",
+  "name": "netlify-mcp",
+  "description": "MCP server for Netlify integration - manage Netlify sites through Model Context Protocol",
+  "repo_url": "https://github.com/MCERQUA/netlify-mcp",
+  "source_hub": "mcp_so",
+  "owner": "MCERQUA",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "data",
+    "data-ai",
+    "data-ai-nlp",
+    "integ"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "25a16da968183e9eeab2b19076d38c0c6f379b5f",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 8,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:40Z",
+  "verification_level": "scanner_only"
+}

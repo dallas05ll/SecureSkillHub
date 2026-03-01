@@ -1,0 +1,27 @@
+{
+  "id": "duckduckgo-web-search-ed02b34f",
+  "name": "duckduckgo-web-search",
+  "description": "DuckDuckGo Web Search MCP Server - A simple web search implementation for Claude Desktop using DuckDuckGo API",
+  "repo_url": "https://github.com/Sunwood-ai-labs/duckduckgo-web-search",
+  "source_hub": "mcp_so",
+  "owner": "Sunwood-ai-labs",
+  "stars": 11,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "integ",
+    "util-search"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "d4fb277fa38aa9255c562ae0a2e52be8f8924428",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 5,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:42:34Z",
+  "verification_level": "scanner_only"
+}

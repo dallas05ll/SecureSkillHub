@@ -1,0 +1,26 @@
+{
+  "id": "quckstart-mcp-server-9719241a",
+  "name": "quckstart-mcp-server",
+  "description": "mcp server 테스트",
+  "repo_url": "https://github.com/abel9851/quckstart-mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "abel9851",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "0cacad438b2739384af8eaa0e389c60213e0479b",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 4,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:42Z",
+  "verification_level": "scanner_only"
+}

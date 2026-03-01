@@ -1,0 +1,26 @@
+{
+  "id": "clarion-builder-mcp-server-9810d2ea",
+  "name": "clarion-builder-mcp-server",
+  "description": "MCP server providing Clarion development and build capabilities",
+  "repo_url": "https://github.com/peterparker57/clarion-builder-mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "peterparker57",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "74f6e6a6ac7085159bb56bfff7f3d63d71287320",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 1,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:40Z",
+  "verification_level": "scanner_only"
+}

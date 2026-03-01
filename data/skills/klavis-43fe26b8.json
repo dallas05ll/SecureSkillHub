@@ -1,0 +1,21 @@
+{
+  "id": "klavis-43fe26b8",
+  "name": "klavis",
+  "description": "Klavis AI (YC X25): Open Source MCP integration for AI applications",
+  "repo_url": "https://github.com/Klavis-AI/klavis",
+  "source_hub": "mcp_so",
+  "owner": "Klavis-AI",
+  "stars": 5645,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "integ"
+  ],
+  "verification_status": "pass",
+  "overall_score": 88,
+  "risk_level": "low",
+  "verified_commit": "0d7df956",
+  "scan_summary": "Well-maintained YC-backed organization repository with 5,645 stars, 537 forks, and active daily commits. Apache 2.0 licensed, includes CONTRIBUTING.md, CLA requirement, and CI/CD workflows. No SECURITY.md found but overall posture is strong.",
+  "scan_date": "2026-02-26T03:00:50Z",
+  "verification_level": "scanner_only"
+}

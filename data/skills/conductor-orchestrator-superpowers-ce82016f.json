@@ -1,0 +1,31 @@
+{
+  "id": "conductor-orchestrator-superpowers-ce82016f",
+  "name": "conductor-orchestrator-superpowers",
+  "description": "Multi-agent orchestration system for Claude Code with parallel execution, automated quality gates, Board of Directors, and bundled Superpowers skills. Provides 16 agents, 42 skills, 22 commands, and 5 board director roles for structured engineering team workflows.",
+  "repo_url": "https://github.com/Ibrahim-3d/conductor-orchestrator-superpowers",
+  "source_hub": "github_search",
+  "skill_type": "agent_skill",
+  "owner": "Ibrahim-3d",
+  "stars": 230,
+  "license": "mit",
+  "primary_language": "Python",
+  "tags": [
+    "data-ai",
+    "dev",
+    "dev-web-backend-node",
+    "prod"
+  ],
+  "verification_status": "pass",
+  "overall_score": 82,
+  "risk_level": "low",
+  "verified_commit": null,
+  "scan_summary": null,
+  "last_updated": "2026-02-25T12:00:01Z",
+  "findings_summary": {
+    "notes": "Well-structured multi-agent orchestration plugin with MIT license. Has a SessionStart hook (hooks/session-start.sh) that reads a SKILL.md file and injects context — behavior is transparent and benign. Hook reads local files using safe bash parameter substitution, no network calls or credential access. Bundles superpowers v4.3.0 (MIT). Scripts directory contains only a setup.sh. No dangerous eval/exec patterns found. Active development (created Feb 2026, 25 forks, 2 open issues). Documentation is thorough with CHANGELOG. Claim of 16 agents / 42 skills / 22 commands is consistent with directory structure (agents/, commands/, skills/ directories present). Minor concern: recently created repo (Feb 2026) with high star count may indicate rapid organic growth or coordinated promotion."
+  },
+  "verification_date": "2026-02-25",
+  "trust_level": "low",
+  "scan_date": "2026-02-26T02:15:55Z",
+  "verification_level": "scanner_only"
+}

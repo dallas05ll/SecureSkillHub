@@ -1,0 +1,25 @@
+{
+  "id": "typecast-api-mcp-server-sample-00761499",
+  "name": "typecast-api-mcp-server-sample",
+  "description": "MCP Server for typecast-api",
+  "repo_url": "https://github.com/neosapience/typecast-api-mcp-server-sample",
+  "source_hub": "mcp_so",
+  "owner": "neosapience",
+  "stars": 3,
+  "primary_language": "unknown",
+  "tags": [
+    "integ"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "2dbeae80be8e329e0cce20f103f14483a3f55310",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 9,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:04:50Z",
+  "verification_level": "scanner_only"
+}

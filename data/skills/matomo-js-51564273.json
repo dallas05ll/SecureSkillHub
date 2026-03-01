@@ -1,0 +1,25 @@
+{
+  "id": "matomo-js-51564273",
+  "name": "matomo-js",
+  "description": "A modern JavaScript/TypeScript client library for Matomo Analytics.",
+  "repo_url": "https://github.com/mj-kiwi/matomo-js",
+  "source_hub": "mcp_so",
+  "owner": "mj-kiwi",
+  "stars": 8,
+  "primary_language": "unknown",
+  "tags": [
+    "data"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "4f1cf2cc5e5504638a9d92fa8dd6d69ae940c174",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 164,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:42:34Z",
+  "verification_level": "scanner_only"
+}

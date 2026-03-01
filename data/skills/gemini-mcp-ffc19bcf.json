@@ -1,0 +1,26 @@
+{
+  "id": "gemini-mcp-ffc19bcf",
+  "name": "gemini-mcp",
+  "description": "MCP Server that enables Claude code to interact with Gemini",
+  "repo_url": "https://github.com/RLabs-Inc/gemini-mcp",
+  "source_hub": "mcp_so",
+  "owner": "RLabs-Inc",
+  "stars": 136,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "dev"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "8138e639338c1c9572ea681f1c4ad97493ab66f9",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 53,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-27T06:40:44Z",
+  "verification_level": "scanner_only"
+}

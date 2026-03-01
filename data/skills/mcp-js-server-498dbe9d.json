@@ -1,0 +1,27 @@
+{
+  "id": "mcp-js-server-498dbe9d",
+  "name": "mcp-js-server",
+  "description": "An unofficial JavaScript SDK for Model Context Protocol",
+  "repo_url": "https://github.com/davlgd/mcp-js-server",
+  "source_hub": "mcp_so",
+  "owner": "davlgd",
+  "stars": 5,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp",
+    "dev"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "2dc6ec810e94663737eac4849940e62b35ebd917",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 8,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:54:02Z",
+  "verification_level": "scanner_only"
+}

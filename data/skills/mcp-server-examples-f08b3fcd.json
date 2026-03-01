@@ -1,0 +1,26 @@
+{
+  "id": "mcp-server-examples-f08b3fcd",
+  "name": "mcp-server-examples",
+  "description": "MCP Examples for AutoDev",
+  "repo_url": "https://github.com/unit-mesh/mcp-server-examples",
+  "source_hub": "mcp_so",
+  "owner": "unit-mesh",
+  "stars": 2,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "cecff9678a97293a7aecacef94f355b0681ba624",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 12,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:04:50Z",
+  "verification_level": "scanner_only"
+}

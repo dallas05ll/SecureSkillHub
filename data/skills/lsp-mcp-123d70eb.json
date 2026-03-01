@@ -1,0 +1,26 @@
+{
+  "id": "lsp-mcp-123d70eb",
+  "name": "lsp-mcp",
+  "description": "An MCP server that lets you interact with LSP servers",
+  "repo_url": "https://github.com/Tritlo/lsp-mcp",
+  "source_hub": "mcp_so",
+  "owner": "Tritlo",
+  "stars": 106,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "a37170a1bbd6b7fe99c8021707b6ff0dbbaed376",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 16,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-27T06:40:44Z",
+  "verification_level": "scanner_only"
+}

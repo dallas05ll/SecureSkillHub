@@ -1,0 +1,26 @@
+{
+  "id": "neuromcp-sqlserver-e114e4ee",
+  "name": "neuromcp.sqlserver",
+  "description": "A tool for interacting with Microsoft SQL Server databases:\n\n- SQL Query Execution: Execute SQL queries against SQL Server databases\n- Schema Inspection: Explore database schema information\n- Connection Management: Safely store and manage database connections\n\nEasy install by running dotnet command :\ndotnet tool install --global NeuroMCP.SqlServer",
+  "repo_url": "https://github.com/AhmedKhalil777/neuromcp.sqlserver",
+  "source_hub": "mcp_so",
+  "owner": "AhmedKhalil777",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "data",
+    "data-ai",
+    "data-db",
+    "integ",
+    "util",
+    "repo_unavailable"
+  ],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null,
+  "repo_status": "unavailable",
+  "repo_check_date": "2026-02-28T20:52:37.086373+00:00",
+  "repo_check_error": "fatal: could not read Username for 'https://github.com': Device not configured"
+}

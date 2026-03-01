@@ -1,0 +1,26 @@
+{
+  "id": "holaspirit-mcp-server-9c3f6f78",
+  "name": "holaspirit-mcp-server",
+  "description": "A MCP server that accesses to Holaspirit",
+  "repo_url": "https://github.com/syucream/holaspirit-mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "syucream",
+  "stars": 1,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "3fbb6efe0baeed41b4d032a57e2cc0f04f3543b3",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 13,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:41Z",
+  "verification_level": "scanner_only"
+}

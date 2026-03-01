@@ -1,0 +1,26 @@
+{
+  "id": "mariadb-mcp-server-b3e835a9",
+  "name": "mariadb-mcp-server",
+  "description": "An mcp server that provides read-only access to MariaDB.",
+  "repo_url": "https://github.com/abel9851/mariadb-mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "abel9851",
+  "stars": 19,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "fc0e1c4bde58764145d8ecb70f82dee05bfe530a",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 6,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:42:34Z",
+  "verification_level": "scanner_only"
+}

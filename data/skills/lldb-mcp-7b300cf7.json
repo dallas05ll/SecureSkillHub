@@ -1,0 +1,26 @@
+{
+  "id": "lldb-mcp-7b300cf7",
+  "name": "lldb-mcp",
+  "description": "LLDB MCP server",
+  "repo_url": "https://github.com/stass/lldb-mcp",
+  "source_hub": "mcp_so",
+  "owner": "stass",
+  "stars": 78,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "a610f2d0d3835739c41762352442ba2a13958b38",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 2,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-27T06:40:44Z",
+  "verification_level": "scanner_only"
+}

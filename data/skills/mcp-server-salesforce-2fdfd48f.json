@@ -1,0 +1,29 @@
+{
+  "id": "mcp-server-salesforce-2fdfd48f",
+  "name": "mcp-server-salesforce",
+  "description": "Model Context Protocol server for Salesforce integration - enables AI agents to securely access Salesforce data",
+  "repo_url": "https://github.com/tomnagengast/mcp-server-salesforce",
+  "source_hub": "mcp_so",
+  "owner": "tomnagengast",
+  "stars": 5,
+  "primary_language": "unknown",
+  "tags": [
+    "data",
+    "data-ai",
+    "data-ai-nlp",
+    "integ",
+    "integ-crm"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "1adf2003814e9088c3b17c3671fdac8ca49c9b2b",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 19,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:54:04Z",
+  "verification_level": "scanner_only"
+}

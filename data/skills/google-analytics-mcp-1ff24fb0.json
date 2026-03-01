@@ -1,0 +1,28 @@
+{
+  "id": "google-analytics-mcp-1ff24fb0",
+  "name": "google-analytics-mcp",
+  "description": "Google Analytics 4 MCP Server for Claude, Cursor, Windsurf etc - Access GA4 data through natural language with 200+ dimensions & metrics",
+  "repo_url": "https://github.com/surendranb/google-analytics-mcp",
+  "source_hub": "mcp_so",
+  "owner": "surendranb",
+  "stars": 180,
+  "primary_language": "unknown",
+  "tags": [
+    "data",
+    "data-ai",
+    "data-ai-nlp",
+    "util-monitor"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "791103c9b3c50d1074947c16b912e20e8db59433",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 13,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-27T06:36:35Z",
+  "verification_level": "scanner_only"
+}

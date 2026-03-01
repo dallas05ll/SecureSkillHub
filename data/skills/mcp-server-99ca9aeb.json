@@ -1,0 +1,26 @@
+{
+  "id": "mcp-server-99ca9aeb",
+  "name": "MCP-Server",
+  "description": "MCP Server 구축과 활용",
+  "repo_url": "https://github.com/khai01/MCP-Server",
+  "source_hub": "mcp_so",
+  "owner": "khai01",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "fb454baec308f460599b24479899f9c4b5d44dcb",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 1,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:40Z",
+  "verification_level": "scanner_only"
+}

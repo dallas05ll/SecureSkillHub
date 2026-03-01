@@ -1,0 +1,26 @@
+{
+  "id": "apollo-io-mcp-server-12c206a8",
+  "name": "apollo-io-mcp-server",
+  "description": "MCP server that exposes the Apollo.io API functionalities as tools",
+  "repo_url": "https://github.com/edwardchoh/apollo-io-mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "edwardchoh",
+  "stars": 12,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "47cefc8f1dfff08cc8fa4eec2596dfa1bf34d7a6",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 10,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:42:36Z",
+  "verification_level": "scanner_only"
+}

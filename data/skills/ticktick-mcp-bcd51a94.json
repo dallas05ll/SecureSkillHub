@@ -1,0 +1,19 @@
+{
+  "id": "ticktick-mcp-bcd51a94",
+  "name": "ticktick-mcp",
+  "description": "MCP server that interacts with TickTick (Dida 365) via the TickTick Open API",
+  "repo_url": "https://github.com/jacepark12/ticktick-mcp",
+  "source_hub": "mcp_so",
+  "owner": "jacepark12",
+  "stars": 244,
+  "primary_language": "unknown",
+  "tags": [
+    "integ"
+  ],
+  "verification_status": "fail",
+  "overall_score": 15,
+  "risk_level": "critical",
+  "verified_commit": "f8100993c1a380066dc03ef350cbc874f884976c",
+  "scan_summary": null,
+  "scan_date": "2026-02-27T06:13:55Z"
+}

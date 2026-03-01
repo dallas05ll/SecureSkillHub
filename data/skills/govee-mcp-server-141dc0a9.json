@@ -1,0 +1,26 @@
+{
+  "id": "govee-mcp-server-141dc0a9",
+  "name": "govee_mcp_server",
+  "description": "MCP Server to control govee lights",
+  "repo_url": "https://github.com/mathd/govee_mcp_server",
+  "source_hub": "mcp_so",
+  "owner": "mathd",
+  "stars": 5,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "5fc73518231e16cffe5c6ed48388fc6982ebd6c6",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 21,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:54:02Z",
+  "verification_level": "scanner_only"
+}

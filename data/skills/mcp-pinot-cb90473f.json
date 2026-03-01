@@ -1,0 +1,26 @@
+{
+  "id": "mcp-pinot-cb90473f",
+  "name": "mcp-pinot",
+  "description": "MCP Server for Apache Pinot",
+  "repo_url": "https://github.com/startreedata/mcp-pinot",
+  "source_hub": "mcp_so",
+  "owner": "startreedata",
+  "stars": 14,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "4a0b115d5fc36379faad25e352717957ef63265c",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 44,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:42:36Z",
+  "verification_level": "scanner_only"
+}

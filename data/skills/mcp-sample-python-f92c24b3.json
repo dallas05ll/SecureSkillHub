@@ -1,0 +1,25 @@
+{
+  "id": "mcp-sample-python-f92c24b3",
+  "name": "mcp-sample-python",
+  "description": "Start guide to build a MCP server",
+  "repo_url": "https://github.com/mamazinho/mcp-sample-python",
+  "source_hub": "mcp_so",
+  "owner": "mamazinho",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "dev-web-backend-python"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "f2c6db89a2f4966381fd85e02cdb0de3ae4e94de",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 3,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:42Z",
+  "verification_level": "scanner_only"
+}

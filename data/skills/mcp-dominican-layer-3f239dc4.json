@@ -1,0 +1,25 @@
+{
+  "id": "mcp-dominican-layer-3f239dc4",
+  "name": "mcp-dominican-layer",
+  "description": "This MCP server provides access to information about the Dominican Congress, including legislative agendas, legislator activity, and new bills.",
+  "repo_url": "https://github.com/EnzoVezzaro/mcp-dominican-layer",
+  "source_hub": "mcp_so",
+  "owner": "EnzoVezzaro",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "prod-calendar"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "39dd373786712650097ad31db27d5c477c8f9c82",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 15,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:41Z",
+  "verification_level": "scanner_only"
+}

@@ -1,0 +1,26 @@
+{
+  "id": "mcp-server-appwrite-78941796",
+  "name": "mcp-server-appwrite",
+  "description": "MCP to connect LLMs to Appwrite",
+  "repo_url": "https://github.com/christyjacob4/mcp-server-appwrite",
+  "source_hub": "mcp_so",
+  "owner": "christyjacob4",
+  "stars": 61,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "integ"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "e89e4f1cac01903094ccc474e34f0143ddca31b5",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 8,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-27T06:40:44Z",
+  "verification_level": "scanner_only"
+}

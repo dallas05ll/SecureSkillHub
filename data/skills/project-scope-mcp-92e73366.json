@@ -1,0 +1,30 @@
+{
+  "id": "project-scope-mcp-92e73366",
+  "name": "project-scope-mcp",
+  "description": "A production-ready MCP server that gives AI agents deep codebase understanding. Features AST-based semantic analysis, context-aware security scanning (zero false positives on source code), safe refactoring tools with previews, and comprehensive Git operations.",
+  "repo_url": "https://github.com/adityasasidhar/project-scope-mcp",
+  "source_hub": "mcp_so",
+  "owner": "adityasasidhar",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp",
+    "dev",
+    "sec",
+    "sec-scan",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "f8719bf7dc3c8f0f32a34afe9bfb0fc7c7a5cbe5",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 20,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:41Z",
+  "verification_level": "scanner_only"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "recraft-ai-mcp-server-388b7f70",
+  "name": "Recraft AI MCP Server",
+  "description": "An MCP server that integrates with Recraft AI to enable generation and manipulation of high-quality raster and vector images through tools like image generation, editing, vectorization, background removal, and upscaling.",
+  "repo_url": "https://github.com/recraft-ai/mcp-recraft-server",
+  "source_hub": "glama",
+  "owner": "recraft-ai",
+  "stars": 46,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-vision",
+    "data-db-vector",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "c7a1ed664fc37dcde351f3b8f2a39585bf4544ee",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 58,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:32:13Z",
+  "verification_level": "scanner_only"
+}

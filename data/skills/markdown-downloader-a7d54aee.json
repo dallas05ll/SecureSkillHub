@@ -1,0 +1,28 @@
+{
+  "id": "markdown-downloader-a7d54aee",
+  "name": "markdown-downloader",
+  "description": "A MCP Server that will download any webpage as markdown in an instant. Download docs straight to your IDE for AI context. Powered by Jina.ai",
+  "repo_url": "https://github.com/dazeb/markdown-downloader",
+  "source_hub": "mcp_so",
+  "owner": "dazeb",
+  "stars": 47,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp",
+    "prod-docs",
+    "util-file"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "3d4394b34b6c99d81af817623af55e3384df5a6a",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 8,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:32:12Z",
+  "verification_level": "scanner_only"
+}

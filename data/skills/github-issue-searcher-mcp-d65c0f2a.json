@@ -1,0 +1,29 @@
+{
+  "id": "github-issue-searcher-mcp-d65c0f2a",
+  "name": "GitHub.Issue.Searcher.MCP",
+  "description": "🔍 A Model Context Protocol (MCP) server that provides semantic search capabilities for GitHub repository issues using FAISS and OpenAI embeddings. Perfect for developers who want to quickly find relevant issues, bug reports, and discussions across GitHub repositories using natural language queries.",
+  "repo_url": "https://github.com/calumjs/GitHub.Issue.Searcher.MCP",
+  "source_hub": "mcp_so",
+  "owner": "calumjs",
+  "stars": 2,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp",
+    "data-db-vector",
+    "dev",
+    "util-search"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "f9c9648672b75bb190f7eb2b4595511db6833d16",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 12,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:04:50Z",
+  "verification_level": "scanner_only"
+}

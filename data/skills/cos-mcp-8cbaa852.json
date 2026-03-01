@@ -1,0 +1,26 @@
+{
+  "id": "cos-mcp-8cbaa852",
+  "name": "cos-mcp",
+  "description": "基于 MCP 协议的腾讯云 COS MCP Server，无需编码即可让大模型快速接入腾讯云存储 (COS) 和数据万象 (CI) 能力。",
+  "repo_url": "https://github.com/Tencent/cos-mcp",
+  "source_hub": "mcp_so",
+  "owner": "Tencent",
+  "stars": 25,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "f5d501d0407e13c6382c47909804fa7995bb9159",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 22,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:32:12Z",
+  "verification_level": "scanner_only"
+}

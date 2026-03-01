@@ -1,0 +1,26 @@
+{
+  "id": "math-all-mcp-a4a76d64",
+  "name": "math-all-mcp",
+  "description": "A MCP(Model Context Protocol) server that can handle math calculations with SSE support",
+  "repo_url": "https://github.com/CoderiGenius/math-all-mcp",
+  "source_hub": "mcp_so",
+  "owner": "CoderiGenius",
+  "stars": 2,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "23fb9270c460a2304e0563053de270a01abfffb6",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 3,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:04:51Z",
+  "verification_level": "scanner_only"
+}

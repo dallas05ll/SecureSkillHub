@@ -1,0 +1,26 @@
+{
+  "id": "claude-mcp-setup-543a7e56",
+  "name": "claude-mcp-setup",
+  "description": "Easy setup script for Anthropic Claude Model Context Protocol (MCP) servers on Windows",
+  "repo_url": "https://github.com/patruff/claude-mcp-setup",
+  "source_hub": "mcp_so",
+  "owner": "patruff",
+  "stars": 47,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "865adfa24b37ddf111f2f3f82ff47161f583258c",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 5,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:32:12Z",
+  "verification_level": "scanner_only"
+}

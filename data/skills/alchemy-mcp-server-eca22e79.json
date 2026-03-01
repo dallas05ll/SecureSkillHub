@@ -1,0 +1,26 @@
+{
+  "id": "alchemy-mcp-server-eca22e79",
+  "name": "Alchemy MCP Server",
+  "description": "Alchemy MCP Server",
+  "repo_url": "https://github.com/alchemyplatform/alchemy-mcp-server",
+  "source_hub": "glama",
+  "owner": "alchemyplatform",
+  "stars": 74,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 14,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-26T04:46:31Z",
+  "verification_level": "scanner_only"
+}

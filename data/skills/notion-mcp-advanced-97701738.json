@@ -1,0 +1,31 @@
+{
+  "id": "notion-mcp-advanced-97701738",
+  "name": "Notion_MCP_advanced",
+  "description": "Notion MCP Integration is a lightweight Model Context Protocol (MCP) server that seamlessly integrates with Notion's API to manage a minimalist personal to-do list through Claude. This project provides basic functionality tailored specifically for a simple Notion database structure, enabling efficient task management without unnecessary complexity.",
+  "repo_url": "https://github.com/Ruijian-Zha/Notion_MCP_advanced",
+  "source_hub": "mcp_so",
+  "owner": "Ruijian-Zha",
+  "stars": 10,
+  "primary_language": "unknown",
+  "tags": [
+    "data",
+    "data-ai",
+    "data-ai-nlp",
+    "data-db",
+    "integ",
+    "prod-docs",
+    "prod-pm"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "cb22c3fee45f93b503eed217ff7349ada077734b",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 6,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:42:34Z",
+  "verification_level": "scanner_only"
+}

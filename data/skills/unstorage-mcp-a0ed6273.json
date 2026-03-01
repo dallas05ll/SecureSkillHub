@@ -1,0 +1,26 @@
+{
+  "id": "unstorage-mcp-a0ed6273",
+  "name": "unstorage-mcp",
+  "description": "Key-Value storage MCP server based on unjs/unstorage, support drivers: redis, mongodb, filesystem. http",
+  "repo_url": "https://github.com/slow-groovin/unstorage-mcp",
+  "source_hub": "mcp_so",
+  "owner": "slow-groovin",
+  "stars": 1,
+  "primary_language": "unknown",
+  "tags": [
+    "data-db",
+    "util-file"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "cf9d8689d45404bcadbcc0bb6d60c8af8adbc98d",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 14,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:40Z",
+  "verification_level": "scanner_only"
+}

@@ -1,0 +1,25 @@
+{
+  "id": "mcp-server-nodejs-9ee9c459",
+  "name": "mcp-server-nodejs",
+  "description": "A MCP server for Cappt ( NodeJS version )",
+  "repo_url": "https://github.com/cappt-team/mcp-server-nodejs",
+  "source_hub": "mcp_so",
+  "owner": "cappt-team",
+  "stars": 9,
+  "primary_language": "unknown",
+  "tags": [
+    "dev-web-backend-node"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "adfc7c96c4e0db6ad1771e722d33be0d99cec10b",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 7,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:42:36Z",
+  "verification_level": "scanner_only"
+}

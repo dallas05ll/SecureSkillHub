@@ -1,0 +1,27 @@
+{
+  "id": "nestjs-mcp-5d912d7e",
+  "name": "nestjs-mcp",
+  "description": "NestJS module for seamless Model Context Protocol (MCP) server integration using decorators.",
+  "repo_url": "https://github.com/bamada/nestjs-mcp",
+  "source_hub": "mcp_so",
+  "owner": "bamada",
+  "stars": 25,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp",
+    "integ"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "921eb0d5f951c0c29dc3796dbc311c0607249b21",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 28,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:32:11Z",
+  "verification_level": "scanner_only"
+}

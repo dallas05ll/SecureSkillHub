@@ -1,0 +1,25 @@
+{
+  "id": "mcp-math-calculator-97cdc30f",
+  "name": "mcp-math-calculator",
+  "description": "精确数学计算的 MCP 服务器 - 为 AI 提供 100% 准确的数学计算能力",
+  "repo_url": "https://github.com/Cosmiumx/mcp-math-calculator",
+  "source_hub": "mcp_so",
+  "owner": "Cosmiumx",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "414fc61154ed3102737aaa518704bc250839a7d7",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 12,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:42Z",
+  "verification_level": "scanner_only"
+}

@@ -1,0 +1,25 @@
+{
+  "id": "mcp-hosting-tee-2f17364e",
+  "name": "mcp-hosting-tee",
+  "description": "MCP servers hosting in Phala Cloud",
+  "repo_url": "https://github.com/tolak/mcp-hosting-tee",
+  "source_hub": "mcp_so",
+  "owner": "tolak",
+  "stars": 4,
+  "primary_language": "unknown",
+  "tags": [
+    "integ-cloud"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "2554e5ee0e1cec056e748f37d10330d3b4cd55c7",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 2,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:54:02Z",
+  "verification_level": "scanner_only"
+}

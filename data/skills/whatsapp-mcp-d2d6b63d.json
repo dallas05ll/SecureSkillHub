@@ -1,0 +1,29 @@
+{
+  "id": "whatsapp-mcp-d2d6b63d",
+  "name": "whatsapp-mcp",
+  "description": "A server that integrates WhatsApp with the Model Context Protocol (MCP), enabling AI-driven interactions. It allows searching, reading, and sending messages, including media, while storing all data locally in an SQLite database. Integrates with Claude or Cursor for enhanced functionality.",
+  "repo_url": "https://github.com/zeddkhan03/whatsapp-mcp",
+  "source_hub": "mcp_so",
+  "owner": "zeddkhan03",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "data",
+    "data-ai",
+    "data-ai-nlp",
+    "data-db",
+    "prod-comm",
+    "util-media",
+    "util-search",
+    "repo_unavailable"
+  ],
+  "verification_status": "manual_review",
+  "overall_score": 52,
+  "risk_level": "high",
+  "verified_commit": null,
+  "scan_summary": null,
+  "scan_date": "2026-02-26T03:00:51Z",
+  "repo_status": "unavailable",
+  "repo_check_date": "2026-02-28T20:53:08.965480+00:00",
+  "repo_check_error": "fatal: could not read Username for 'https://github.com': Device not configured"
+}

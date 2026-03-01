@@ -1,0 +1,25 @@
+{
+  "id": "mcp-image-placeholder-10bf9413",
+  "name": "mcp-image-placeholder",
+  "description": "A lightweight MCP server for generating placeholder images from multiple providers.",
+  "repo_url": "https://github.com/husniadil/mcp-image-placeholder",
+  "source_hub": "mcp_so",
+  "owner": "husniadil",
+  "stars": 11,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai-vision"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "f92b72b07a8f791aeb303d3a9db359c59777392b",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 4,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:42:34Z",
+  "verification_level": "scanner_only"
+}

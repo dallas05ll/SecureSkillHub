@@ -1,0 +1,26 @@
+{
+  "id": "mcp-server-jira-fdcde2ae",
+  "name": "mcp-server-JIRA",
+  "description": "Mcp server in typescript to connect with Jira Analyze the issues",
+  "repo_url": "https://github.com/uddeshya-23/mcp-server-JIRA",
+  "source_hub": "mcp_so",
+  "owner": "uddeshya-23",
+  "stars": 2,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "prod-pm"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "0c88cf4251cf27eb25e9064527c98e8817b6961b",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 19,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:04:50Z",
+  "verification_level": "scanner_only"
+}

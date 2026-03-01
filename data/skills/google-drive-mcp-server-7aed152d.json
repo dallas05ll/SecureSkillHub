@@ -1,0 +1,26 @@
+{
+  "id": "google-drive-mcp-server-7aed152d",
+  "name": "google-drive-mcp-server",
+  "description": "google drive mcp 서버를 만들어보자 일단 sheet부터",
+  "repo_url": "https://github.com/seeun0210/google-drive-mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "seeun0210",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "45215d9937572733c4f9a64d117a8d21c4d1c42c",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 8,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:41Z",
+  "verification_level": "scanner_only"
+}

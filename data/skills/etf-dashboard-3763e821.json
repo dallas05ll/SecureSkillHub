@@ -1,0 +1,26 @@
+{
+  "id": "etf-dashboard-3763e821",
+  "name": "etf_dashboard",
+  "description": "Interactive dashboard for analyzing ETFs using both real time API data and historical data pulled through yfinance endpoints",
+  "repo_url": "https://github.com/violettance/etf_dashboard",
+  "source_hub": "mcp_so",
+  "owner": "violettance",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "data",
+    "integ"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "eeb725472eb317a4062bfbfc4ab9c0236b782e36",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 81,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:41Z",
+  "verification_level": "scanner_only"
+}

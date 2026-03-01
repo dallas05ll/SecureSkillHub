@@ -1,0 +1,25 @@
+{
+  "id": "mcpmultichat-d9c53142",
+  "name": "mcpMultiChat",
+  "description": "A simple chat loop that includes multple mcp servers.",
+  "repo_url": "https://github.com/dmcsvoices/mcpMultiChat",
+  "source_hub": "mcp_so",
+  "owner": "dmcsvoices",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "prod-comm"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "32aa13547aefad29eaf7d64973a6dc2ddd5f9961",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 7,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:41Z",
+  "verification_level": "scanner_only"
+}

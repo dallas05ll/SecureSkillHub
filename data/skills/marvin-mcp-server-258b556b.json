@@ -1,0 +1,26 @@
+{
+  "id": "marvin-mcp-server-258b556b",
+  "name": "marvin-mcp-server",
+  "description": "MCP server for amazing marvin.",
+  "repo_url": "https://github.com/tsvikas/marvin-mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "tsvikas",
+  "stars": 1,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "ade8ff2a8eaf8ab08e2a937c04bc7edd5570b5be",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 11,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:42Z",
+  "verification_level": "scanner_only"
+}

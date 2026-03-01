@@ -1,0 +1,26 @@
+{
+  "id": "example-mcp-server-d81c38f3",
+  "name": "example-mcp-server",
+  "description": "Example code for Anthropic MCP server.",
+  "repo_url": "https://github.com/megmogmog1965/example-mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "megmogmog1965",
+  "stars": 1,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "dev"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "84cd3385cd73e360daa9dc58f4ec6e2e1e71d69c",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 5,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:41Z",
+  "verification_level": "scanner_only"
+}

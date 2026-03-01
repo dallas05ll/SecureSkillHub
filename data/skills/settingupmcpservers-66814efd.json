@@ -1,0 +1,26 @@
+{
+  "id": "settingupmcpservers-66814efd",
+  "name": "SettingUpMcpServers",
+  "description": "This Repo is a playground for Vibe Coding using GitHub Agent Mode in VS Code and various MCP Servers. All done through the editor - development, testing, GitHub environments / Actions, issues etc.",
+  "repo_url": "https://github.com/StargrrlMoonlight/SettingUpMcpServers",
+  "source_hub": "mcp_so",
+  "owner": "StargrrlMoonlight",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "dev",
+    "dev-testing"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "983cefb2bd193f85238563c1b52493319b24d894",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 39,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:40Z",
+  "verification_level": "scanner_only"
+}

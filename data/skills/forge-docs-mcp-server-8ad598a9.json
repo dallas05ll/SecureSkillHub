@@ -1,0 +1,25 @@
+{
+  "id": "forge-docs-mcp-server-8ad598a9",
+  "name": "forge_docs_mcp_server",
+  "description": "Forge is an advanced 3D Gaussian Splatting renderer for THREE.js",
+  "repo_url": "https://github.com/angrypenguinpng/forge_docs_mcp_server",
+  "source_hub": "mcp_so",
+  "owner": "angrypenguinpng",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "prod-docs"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "b9f1a60fb77dd0788db407fe04f925c802f2f1ec",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 7,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:40Z",
+  "verification_level": "scanner_only"
+}

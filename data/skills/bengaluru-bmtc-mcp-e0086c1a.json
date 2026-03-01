@@ -1,0 +1,26 @@
+{
+  "id": "bengaluru-bmtc-mcp-e0086c1a",
+  "name": "bengaluru-bmtc-mcp",
+  "description": "Bengaluru BMTC MCP Server",
+  "repo_url": "https://github.com/ajeetraina/bengaluru-bmtc-mcp",
+  "source_hub": "mcp_so",
+  "owner": "ajeetraina",
+  "stars": 3,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "a7573ccabc6a4a9e459c9d8c5af4716f554e399e",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 38,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:04:50Z",
+  "verification_level": "scanner_only"
+}

@@ -1,0 +1,25 @@
+{
+  "id": "social-mcp-23384897",
+  "name": "social_mcp",
+  "description": "Socail MCP Server",
+  "repo_url": "https://github.com/kitadmin01/social_mcp",
+  "source_hub": "mcp_so",
+  "owner": "kitadmin01",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "28b71a5ab9fb27e66e80a6ab9b3f0ec2b5befe0b",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 37,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:40Z",
+  "verification_level": "scanner_only"
+}

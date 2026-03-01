@@ -1,0 +1,27 @@
+{
+  "id": "linear-mcp-d6e33fac",
+  "name": "linear-mcp",
+  "description": "Linear API MCP server for LLM integration",
+  "repo_url": "https://github.com/jtrim/linear-mcp",
+  "source_hub": "mcp_so",
+  "owner": "jtrim",
+  "stars": 1,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "integ",
+    "prod-pm"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "3c27998b4bc6fce3cebf03619054a1c5d4d102fc",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 1,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:40Z",
+  "verification_level": "scanner_only"
+}

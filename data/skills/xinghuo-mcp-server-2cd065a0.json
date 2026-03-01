@@ -1,0 +1,28 @@
+{
+  "id": "xinghuo-mcp-server-2cd065a0",
+  "name": "xinghuo-mcp-server",
+  "description": "A Model Context Protocol server provides access to the Xinghuo BIF Blockchain Test Network",
+  "repo_url": "https://github.com/caict-4iot-dev/xinghuo-mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "caict-4iot-dev",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp",
+    "dev-testing",
+    "sec-crypto"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "432f91ef9bac8f8b03bee32bf10c2284f718ac27",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 6,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:43:00Z",
+  "verification_level": "scanner_only"
+}

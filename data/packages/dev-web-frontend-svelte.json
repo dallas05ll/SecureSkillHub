@@ -1,0 +1,29 @@
+{
+  "tag_path": "dev-web-frontend-svelte",
+  "label": "General Svelte Package",
+  "description": "Top 1 verified svelte skills, auto-curated by GitHub stars and security score.",
+  "skill_ids": [
+    "mcp-adapter-14432921"
+  ],
+  "skills": [
+    {
+      "id": "mcp-adapter-14432921",
+      "name": "mcp-adapter",
+      "description": "Easily spin up an MCP Server on Next.js, Nuxt.js, Svelte.js, and more",
+      "repo_url": "https://github.com/vercel/mcp-adapter",
+      "stars": 566,
+      "overall_score": 85,
+      "verification_status": "pass",
+      "risk_level": "info",
+      "primary_language": "unknown",
+      "install_url": "https://github.com/vercel/mcp-adapter",
+      "skill_type": "unknown"
+    }
+  ],
+  "total_skills": 1,
+  "total_candidates": 1,
+  "avg_score": 85.0,
+  "min_score": 85,
+  "top_stars": 566,
+  "generated_at": "2026-02-28T03:46:45Z"
+}

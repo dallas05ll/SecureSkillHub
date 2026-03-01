@@ -1,0 +1,26 @@
+{
+  "id": "aldrin-labs-solana-mcp-server-1cec5891",
+  "name": "aldrin-labs_solana-mcp-server",
+  "description": "Mirror of",
+  "repo_url": "https://github.com/MCP-Mirror/aldrin-labs_solana-mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "MCP-Mirror",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "sec-crypto",
+    "repo_unavailable"
+  ],
+  "verification_status": "manual_review",
+  "overall_score": 0,
+  "risk_level": "high",
+  "verified_commit": "",
+  "scan_summary": null,
+  "scan_date": "2026-02-28T20:27:24Z",
+  "findings_summary": {
+    "error": "clone failed: Cloning into '/var/folders/pq/bb71gjzd01d29nnmqrhqr2rc0000gn/T/strict5_aldrin-labs-solana-mcp-s_7jox3okn/repo'...\nfatal: could not read Username for 'https://github.com': Device not configured",
+    "supervisor_approved": false,
+    "supervisor_confidence": 0
+  },
+  "repo_status": "unavailable"
+}

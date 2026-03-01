@@ -1,0 +1,28 @@
+{
+  "id": "mcp-commit-story-a6cc4bea",
+  "name": "mcp-commit-story",
+  "description": "mcp-commit-story is a Model Context Protocol (MCP) server designed to capture and generate engineering journal entries within a code repository. The journal captures technical progress, decision-making context, and emotional tone, with the goal of producing content that can later be reused for storytelling (e.g., blog posts, conference talks).",
+  "repo_url": "https://github.com/wiggitywhitney/mcp-commit-story",
+  "source_hub": "mcp_so",
+  "owner": "wiggitywhitney",
+  "stars": 14,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp",
+    "dev",
+    "prod-notes"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "bb08c9c433da0f5bfba23b4ae113d5dfc3d855b0",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 438,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:42:34Z",
+  "verification_level": "scanner_only"
+}

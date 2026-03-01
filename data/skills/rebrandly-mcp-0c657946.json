@@ -1,0 +1,26 @@
+{
+  "id": "rebrandly-mcp-0c657946",
+  "name": "rebrandly-mcp",
+  "description": "MCP Server test Rebrandly API",
+  "repo_url": "https://github.com/gonzariosm/rebrandly-mcp",
+  "source_hub": "mcp_so",
+  "owner": "gonzariosm",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "dev-testing",
+    "integ"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "6da9ae00a17a331642ee9829644861c385426d6a",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 2,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:40Z",
+  "verification_level": "scanner_only"
+}

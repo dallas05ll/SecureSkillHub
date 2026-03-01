@@ -1,0 +1,25 @@
+{
+  "id": "agora-mcp-f0012880",
+  "name": "agora-mcp",
+  "description": "Agora MCP server to search & buy across thousands of online stores",
+  "repo_url": "https://github.com/Fewsats/agora-mcp",
+  "source_hub": "mcp_so",
+  "owner": "Fewsats",
+  "stars": 2,
+  "primary_language": "unknown",
+  "tags": [
+    "util-search"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "abc84e9961df56b36d759c6b3c805b098ca54b0a",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 4,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:04:51Z",
+  "verification_level": "scanner_only"
+}

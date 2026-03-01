@@ -1,0 +1,26 @@
+{
+  "id": "hf-mcp-99279e1b",
+  "name": "hf-mcp",
+  "description": "HF MCP Server",
+  "repo_url": "https://github.com/eugenechabanov/hf-mcp",
+  "source_hub": "mcp_so",
+  "owner": "eugenechabanov",
+  "stars": 1,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "43218af4c6619a5b3ce134760af2525d376b8a57",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 7,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:40Z",
+  "verification_level": "scanner_only"
+}

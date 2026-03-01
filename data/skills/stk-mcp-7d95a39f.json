@@ -1,0 +1,25 @@
+{
+  "id": "stk-mcp-7d95a39f",
+  "name": "stk-mcp",
+  "description": "An MCP server allowing LLMs to interact with Ansys/AGI STK - Digital Mission Engineering Software",
+  "repo_url": "https://github.com/alti3/stk-mcp",
+  "source_hub": "mcp_so",
+  "owner": "alti3",
+  "stars": 23,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "b36a95fb7972da8adca5bc6eaa77d487496d402b",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 25,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:32:11Z",
+  "verification_level": "scanner_only"
+}

@@ -1,0 +1,23 @@
+{
+  "id": "ops-3166cb60",
+  "name": "ops",
+  "description": "OPS is a MCP server that allows you to build, deploy and orchestrate unikernels on any cloud from AWS to GCP or Azure. Unikernels are single application virtual machines with no users, no shells and no ability to run other programs.",
+  "repo_url": "https://github.com/nanovms/ops",
+  "source_hub": "mcp_so",
+  "owner": "nanovms",
+  "stars": 1466,
+  "primary_language": "unknown",
+  "tags": [
+    "integ-cloud",
+    "integ-cloud-aws",
+    "integ-cloud-azure",
+    "integ-cloud-gcp"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "low",
+  "verified_commit": null,
+  "scan_summary": null,
+  "scan_date": "2026-02-26T03:00:50Z",
+  "verification_level": "scanner_only"
+}

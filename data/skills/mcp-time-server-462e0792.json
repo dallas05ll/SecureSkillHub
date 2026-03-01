@@ -1,0 +1,26 @@
+{
+  "id": "mcp-time-server-462e0792",
+  "name": "mcp-time-server",
+  "description": "Model Context Protocol Time Server - A robust timezone-aware time server implementation",
+  "repo_url": "https://github.com/txbm/mcp-time-server",
+  "source_hub": "mcp_so",
+  "owner": "txbm",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "db8d1419b4c458fe98a4743b6e83f20a322063ef",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 1,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:41Z",
+  "verification_level": "scanner_only"
+}

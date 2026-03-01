@@ -1,0 +1,25 @@
+{
+  "id": "mcp-server-unusualwhales-b5ceb3a3",
+  "name": "mcp-server-unusualwhales",
+  "description": "MCP Server for the Unusual Whales REST API",
+  "repo_url": "https://github.com/danwagnerco/mcp-server-unusualwhales",
+  "source_hub": "mcp_so",
+  "owner": "danwagnerco",
+  "stars": 10,
+  "primary_language": "unknown",
+  "tags": [
+    "integ"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "527f52a2d2b2944d6d2810f79a2c9d115417cedd",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 3,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:42:34Z",
+  "verification_level": "scanner_only"
+}

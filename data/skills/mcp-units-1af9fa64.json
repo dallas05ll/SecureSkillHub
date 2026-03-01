@@ -1,0 +1,26 @@
+{
+  "id": "mcp-units-1af9fa64",
+  "name": "mcp-units",
+  "description": "An MCP server for conversion of units related to cooking",
+  "repo_url": "https://github.com/sellisd/mcp-units",
+  "source_hub": "mcp_so",
+  "owner": "sellisd",
+  "stars": 1,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "eaa0a76b873b46603837fb20c5817910d4a31be8",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 12,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:41Z",
+  "verification_level": "scanner_only"
+}

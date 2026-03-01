@@ -1,0 +1,27 @@
+{
+  "id": "modex-ec537dba",
+  "name": "modex",
+  "description": "Modex is a Clojure MCP Library to augment your AI models with Tools, Resources & Prompts using Clojure (Model Context Protocol). Implements MCP Server & Client.",
+  "repo_url": "https://github.com/theronic/modex",
+  "source_hub": "mcp_so",
+  "owner": "theronic",
+  "stars": 110,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "1b3faf910276c4e056a65c5572f3d9d159bb69c0",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 2,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-27T06:40:43Z",
+  "verification_level": "scanner_only"
+}

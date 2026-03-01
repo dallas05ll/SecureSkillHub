@@ -1,0 +1,25 @@
+{
+  "id": "firefly-mcp-3e06d482",
+  "name": "firefly-mcp",
+  "description": "Firefly MCP",
+  "repo_url": "https://github.com/gofireflyio/firefly-mcp",
+  "source_hub": "mcp_so",
+  "owner": "gofireflyio",
+  "stars": 15,
+  "primary_language": "unknown",
+  "tags": [
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "12f7951014943d5fe4e788f9d36b2e74040000da",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 9,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:42:36Z",
+  "verification_level": "scanner_only"
+}

@@ -1,0 +1,27 @@
+{
+  "id": "mcp-toolbox-for-databases-ab9b957e",
+  "name": "mcp-toolbox-for-databases",
+  "description": "MCP Toolbox for Databases is an open source MCP server for databases. It enables you to develop tools easier, faster, and more securely by handling the complexities such as connection pooling, authentication, and more.",
+  "repo_url": "https://github.com/googleapis/mcp-toolbox-for-databases",
+  "source_hub": "mcp_so",
+  "owner": "googleapis",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "data",
+    "data-db",
+    "integ",
+    "sec",
+    "sec-auth",
+    "util",
+    "repo_unavailable"
+  ],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null,
+  "repo_status": "unavailable",
+  "repo_check_date": "2026-02-28T20:52:27.542085+00:00",
+  "repo_check_error": "fatal: could not read Username for 'https://github.com': Device not configured"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "resend-mcp-af3d006c",
+  "name": "resend-mcp",
+  "description": "A MCP server for Resend API. Let LLMs compose and send emails for you.",
+  "repo_url": "https://github.com/Hawstein/resend-mcp",
+  "source_hub": "mcp_so",
+  "owner": "Hawstein",
+  "stars": 6,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "dev-devops-docker",
+    "integ",
+    "prod-comm"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "86a779b34f541f094c0dbab7f6790c2a9ceca8bb",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 5,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:54:02Z",
+  "verification_level": "scanner_only"
+}

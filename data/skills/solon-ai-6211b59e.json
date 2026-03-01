@@ -1,0 +1,26 @@
+{
+  "id": "solon-ai-6211b59e",
+  "name": "solon-ai",
+  "description": "Java AI (agent) full scenario application development framework (LLM, Function Call, RAG, Embedding, Reranking, Flow, MCP Server, Mcp Client). Compatible with java8 ~ java24.",
+  "repo_url": "https://github.com/opensolon/solon-ai",
+  "source_hub": "mcp_so",
+  "owner": "opensolon",
+  "stars": 305,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-db-vector"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 75,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-27T02:28:45Z",
+  "verification_level": "scanner_only"
+}

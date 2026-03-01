@@ -1,0 +1,89 @@
+{
+  "id": "OpenTofu--opentofu",
+  "name": "opentofu",
+  "skill_type": "mcp_server",
+  "repo_url": "https://github.com/OpenTofu/opentofu",
+  "source_hub": "github_search",
+  "stars": 27964,
+  "verification_status": "pass",
+  "overall_score": 70,
+  "risk_level": "high",
+  "description": "Open-source Terraform fork for declarative cloud infrastructure management, backed by CNCF.",
+  "primary_language": "Go",
+  "tags": [
+    "integ-cloud"
+  ],
+  "findings_summary": {
+    "scanner_findings": 34,
+    "dangerous_calls": 2,
+    "network_ops": 0,
+    "file_ops": 0,
+    "env_access": 12,
+    "obfuscation": 15,
+    "injection_patterns": 0,
+    "mismatches": 0,
+    "undocumented_capabilities": 0,
+    "supervisor_approved": false,
+    "supervisor_confidence": 70
+  },
+  "trust_level": "low",
+  "scan_date": "2026-02-28T20:55:22Z",
+  "verified_commit": "f1c8e39b69c057d885d434a5920f9ea3e76da167",
+  "verification_level": "full_pipeline",
+  "agent_audit": {
+    "agents_completed": 5,
+    "agents_required": 5,
+    "pipeline_run_at": "2026-02-28T20:55:22Z",
+    "agent_a": {
+      "signed": true,
+      "signed_at": "2026-02-28T20:55:22Z",
+      "comment": "Docs quality 9/10. README present. 12 features, 4 permissions claimed.",
+      "doc_quality_score": 9,
+      "claimed_permissions": [
+        "network access",
+        "system command execution",
+        "file system access",
+        "environment/secret access"
+      ]
+    },
+    "agent_b": {
+      "signed": true,
+      "signed_at": "2026-02-28T20:55:22Z",
+      "comment": "2237 files analyzed. Found: 1 network, 0 file, 0 env, 0 system calls. Primary: go.",
+      "files_analyzed": 2237,
+      "capabilities_found": [
+        "performs network operations"
+      ]
+    },
+    "agent_c_star": {
+      "signed": true,
+      "signed_at": "2026-02-28T20:55:22Z",
+      "comment": "34 findings: 0 critical, 22 high, 12 medium, 0 low. Obfuscation detected!. No injection.",
+      "total_findings": 34,
+      "severity_counts": {
+        "critical": 0,
+        "high": 22,
+        "medium": 12,
+        "low": 0,
+        "info": 0
+      }
+    },
+    "agent_d": {
+      "signed": true,
+      "signed_at": "2026-02-28T20:55:22Z",
+      "comment": "Score 70. 0 mismatches. Risk: high. Safety overrides: none triggered.",
+      "score": 70,
+      "mismatches": 0,
+      "safety_overrides_applied": false
+    },
+    "agent_e": {
+      "signed": true,
+      "signed_at": "2026-02-28T20:55:22Z",
+      "comment": "Rejected. Confidence 70%. No overrides.",
+      "approved": false,
+      "confidence": 70,
+      "override_reason": null
+    },
+    "manager_summary": "5/5 agents completed. Score: 70/100, Risk: high. 0 mismatches, 34 scanner findings. Rejected at 70% confidence. No safety overrides."
+  }
+}

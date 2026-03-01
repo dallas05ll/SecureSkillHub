@@ -1,0 +1,26 @@
+{
+  "id": "ngspice-mcp-29907ecd",
+  "name": "ngspice-mcp",
+  "description": "An MCP server for interfacing with the ngspice circuit simulator",
+  "repo_url": "https://github.com/gtnoble/ngspice-mcp",
+  "source_hub": "mcp_so",
+  "owner": "gtnoble",
+  "stars": 9,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "75e9f59863b8b1e04296113bcf236038547c8cd4",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 3,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:42:36Z",
+  "verification_level": "scanner_only"
+}

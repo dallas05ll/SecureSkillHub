@@ -1,0 +1,27 @@
+{
+  "id": "git-mcp-server-5d4f709d",
+  "name": "git-mcp-server",
+  "description": "MCP server to communicate with github repo without the need to run docker",
+  "repo_url": "https://github.com/sidgupt12/git-mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "sidgupt12",
+  "stars": 5,
+  "primary_language": "unknown",
+  "tags": [
+    "dev-devops-docker",
+    "dev-git",
+    "prod-comm"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "d1a00e410dfedf2a61005a7f96144be10fa763d4",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 6,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:54:04Z",
+  "verification_level": "scanner_only"
+}

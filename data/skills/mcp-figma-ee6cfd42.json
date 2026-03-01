@@ -1,0 +1,27 @@
+{
+  "id": "mcp-figma-ee6cfd42",
+  "name": "mcp-figma",
+  "description": "A Figma API server implementation based on Model Context Protocol (MCP), supporting Figma plugin and widget integration.",
+  "repo_url": "https://github.com/sichang824/mcp-figma",
+  "source_hub": "mcp_so",
+  "owner": "sichang824",
+  "stars": 3,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp",
+    "integ"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "dc9788f410052a1dfd49a63f87851b7ccd8ee250",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 61,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:04:50Z",
+  "verification_level": "scanner_only"
+}

@@ -1,0 +1,27 @@
+{
+  "id": "jupyter-notebook-mcp-eb313ed9",
+  "name": "jupyter-notebook-mcp",
+  "description": "A Model Context Protocol (MCP) for Jupyter Notebook",
+  "repo_url": "https://github.com/jjsantos01/jupyter-notebook-mcp",
+  "source_hub": "mcp_so",
+  "owner": "jjsantos01",
+  "stars": 120,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp",
+    "prod-notes"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "1511d78bb03f35c7142010e0eff3226c7d10b9da",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 8,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-27T06:40:44Z",
+  "verification_level": "scanner_only"
+}

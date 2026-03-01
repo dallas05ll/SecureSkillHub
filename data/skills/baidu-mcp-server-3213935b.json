@@ -1,0 +1,27 @@
+{
+  "id": "baidu-mcp-server-3213935b",
+  "name": "baidu-mcp-server",
+  "description": "Baidu Search MCP Server I A Model Context Protocol (MCP) server that provides web search capabilities through Baidu, with additional features for content fetching and parsing.",
+  "repo_url": "https://github.com/Evilran/baidu-mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "Evilran",
+  "stars": 21,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp",
+    "util-search"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "728492b5a703078df2b6a77ff0f6ccad78cbdc87",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 5,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:32:12Z",
+  "verification_level": "scanner_only"
+}

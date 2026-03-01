@@ -1,0 +1,26 @@
+{
+  "id": "mcp-server-ftp-786f7636",
+  "name": "mcp-server-ftp",
+  "description": "Model Context Protocol server for FTP access",
+  "repo_url": "https://github.com/alxspiker/mcp-server-ftp",
+  "source_hub": "mcp_so",
+  "owner": "alxspiker",
+  "stars": 14,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "e57d2637a08ba7403e02f93a3917a7806e6cc9fc",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 6,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:42:34Z",
+  "verification_level": "scanner_only"
+}

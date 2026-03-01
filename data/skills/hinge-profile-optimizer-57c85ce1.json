@@ -1,0 +1,29 @@
+{
+  "id": "hinge-profile-optimizer-57c85ce1",
+  "name": "hinge-profile-optimizer",
+  "description": "Hinge Dating Profile Optimizer — A Claude Skill. Comprehensive, research-backed process based on 45+ peer-reviewed sources. 45 mins to meet your life partner (or weekend 9/10).",
+  "repo_url": "https://github.com/b1rdmania/hinge-profile-optimizer",
+  "source_hub": "github_search",
+  "skill_type": "agent_skill",
+  "owner": "b1rdmania",
+  "stars": 9,
+  "license": "mit",
+  "primary_language": "markdown",
+  "tags": [
+    "data-ai",
+    "util-file",
+    "util-search"
+  ],
+  "verification_status": "pass",
+  "overall_score": 78,
+  "risk_level": "medium",
+  "verified_commit": null,
+  "scan_summary": null,
+  "last_updated": "2026-02-13T20:35:50Z",
+  "findings_summary": {
+    "notes": "Metadata-based verification. Score=78. Signals: stars=9; license='mit' (+5); owner='b1rdmania' (+3); primary_language='markdown'; source_hub='github_search'. Status: pass. Risk: medium."
+  },
+  "trust_level": "low",
+  "scan_date": "2026-02-26T06:14:56Z",
+  "verification_level": "metadata_only"
+}

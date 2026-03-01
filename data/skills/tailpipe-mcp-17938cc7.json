@@ -1,0 +1,26 @@
+{
+  "id": "tailpipe-mcp-17938cc7",
+  "name": "tailpipe-mcp",
+  "description": "Enable AI assistants to explore and query your Tailpipe data!",
+  "repo_url": "https://github.com/turbot/tailpipe-mcp",
+  "source_hub": "mcp_so",
+  "owner": "turbot",
+  "stars": 7,
+  "primary_language": "unknown",
+  "tags": [
+    "data",
+    "data-ai"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "f5b7f4c877414f754fbd53850110c35a2b38bc90",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 45,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:54:02Z",
+  "verification_level": "scanner_only"
+}

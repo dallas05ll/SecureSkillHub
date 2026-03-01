@@ -1,0 +1,40 @@
+{
+  "id": "arscontexta-76423d78",
+  "name": "arscontexta",
+  "description": "Claude Code plugin that generates individualized knowledge systems from conversation. You describe how you think and work, have a conversation and get a complete second brain as markdown files you own.",
+  "repo_url": "https://github.com/agenticnotetaking/arscontexta",
+  "source_hub": "github_search",
+  "skill_type": "agent_skill",
+  "owner": "agenticnotetaking",
+  "stars": 1879,
+  "license": "MIT",
+  "primary_language": "Shell",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp",
+    "dev",
+    "prod-docs",
+    "util-file"
+  ],
+  "verification_status": "pass",
+  "overall_score": 65,
+  "risk_level": "medium",
+  "verified_commit": null,
+  "scan_summary": null,
+  "findings_summary": {
+    "notes": "Organization (agenticnotetaking) repository with 1,879 stars. MIT license is OSI-approved and permissive. No SECURITY.md present. Shell-based plugin, not archived, not a fork. Actively maintained (last updated 2026-02-25). CAUTION: Repository was created very recently (2026-02-15, only 10 days old) which warrants heightened scrutiny. Despite rapid star acquisition, the extreme recency means it lacks a track record. Shell-based implementation executes scripts on the host system. The repo structure includes hooks, generators, and agents that run shell commands. Rapid star growth combined with very new creation date is a pattern that can indicate astroturfing."
+  },
+  "verified_at": "2026-02-25",
+  "repo_canonical": "https://github.com/agenticnotetaking/arscontexta",
+  "owner_type": "Organization",
+  "has_security_md": false,
+  "has_license": true,
+  "license_spdx": "MIT",
+  "archived": false,
+  "is_fork": false,
+  "created_at": "2026-02-15",
+  "last_updated": "2026-02-25",
+  "trust_level": "low",
+  "scan_date": "2026-02-25T23:06:27Z",
+  "verification_level": "scanner_only"
+}

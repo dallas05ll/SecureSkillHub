@@ -1,0 +1,22 @@
+{
+  "id": "yahoo-finance-mcp-08c8e946",
+  "name": "yahoo-finance-mcp",
+  "description": "This is a Model Context Protocol (MCP) server that provides comprehensive financial data from Yahoo Finance. It allows you to retrieve detailed information about stocks, including historical prices, company information, financial statements, options data, and market news.",
+  "repo_url": "https://github.com/Alex2Yang97/yahoo-finance-mcp",
+  "source_hub": "mcp_so",
+  "owner": "Alex2Yang97",
+  "stars": 223,
+  "primary_language": "unknown",
+  "tags": [
+    "data",
+    "data-ai",
+    "data-ai-nlp"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "medium",
+  "verified_commit": "88ee02382764a91639a402694541360874511653",
+  "scan_summary": null,
+  "scan_date": "2026-02-27T06:14:15Z",
+  "verification_level": "scanner_only"
+}

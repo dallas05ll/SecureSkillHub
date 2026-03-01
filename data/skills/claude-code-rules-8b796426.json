@@ -1,0 +1,29 @@
+{
+  "id": "claude-code-rules-8b796426",
+  "name": "claude-code-rules",
+  "description": "Claude Code Handbook — curated collection of recommendations and practices for AI-assisted development workflows.",
+  "repo_url": "https://github.com/NikiforovAll/claude-code-rules",
+  "source_hub": "github_search",
+  "skill_type": "agent_skill",
+  "owner": "NikiforovAll",
+  "stars": 88,
+  "license": "apache-2.0",
+  "primary_language": "MDX",
+  "tags": [
+    "data-ai",
+    "dev",
+    "prod"
+  ],
+  "verification_status": "pass",
+  "overall_score": 80,
+  "risk_level": "low",
+  "verified_commit": null,
+  "scan_summary": null,
+  "last_updated": "2026-02-24T07:14:33Z",
+  "findings_summary": {
+    "notes": "Apache-2.0 licensed, MDX content, well-maintained documentation site at nikiforovall.blog. Plugin marketplace support."
+  },
+  "trust_level": "low",
+  "scan_date": "2026-02-26T02:11:19Z",
+  "verification_level": "scanner_only"
+}

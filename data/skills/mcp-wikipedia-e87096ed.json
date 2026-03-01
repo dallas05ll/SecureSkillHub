@@ -1,0 +1,28 @@
+{
+  "id": "mcp-wikipedia-e87096ed",
+  "name": "mcp-wikipedia",
+  "description": "A simple MCP Server in Python for working with Wikipedia topic content in a GenAI context",
+  "repo_url": "https://github.com/danbunnell/mcp-wikipedia",
+  "source_hub": "mcp_so",
+  "owner": "danbunnell",
+  "stars": 1,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp",
+    "dev-web-backend-python",
+    "prod-docs"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "6e27d402a89b508c795f435aef53280059ce5040",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 4,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:41Z",
+  "verification_level": "scanner_only"
+}

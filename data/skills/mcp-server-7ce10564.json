@@ -1,0 +1,26 @@
+{
+  "id": "mcp-server-7ce10564",
+  "name": "mcp-server",
+  "description": "Creating my new mcp server",
+  "repo_url": "https://github.com/kurmithabhanuprakashreddy/mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "kurmithabhanuprakashreddy",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "e5d93cb5aca48845c0030f9685d80e810e19e88e",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 3,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:40Z",
+  "verification_level": "scanner_only"
+}

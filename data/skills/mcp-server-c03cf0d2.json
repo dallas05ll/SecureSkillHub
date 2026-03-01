@@ -1,0 +1,25 @@
+{
+  "id": "mcp-server-c03cf0d2",
+  "name": "mcp-server",
+  "description": "assignment for alaiy internship",
+  "repo_url": "https://github.com/SaanidhyaM/mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "SaanidhyaM",
+  "stars": 1,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "b4400543a1c57f3590add057625e6b5f5a95ab31",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 6,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:40Z",
+  "verification_level": "scanner_only"
+}

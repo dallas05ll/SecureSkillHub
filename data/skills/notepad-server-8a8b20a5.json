@@ -1,0 +1,27 @@
+{
+  "id": "notepad-server-8a8b20a5",
+  "name": "notepad-server",
+  "description": "Notes server based on TypeScript implementation of the MCP protocol, providing functions for adding, removing, and updating notes, and supporting integration with Claude Desktop.基于 TypeScript 实现的 MCP 协议笔记服务器,提供笔记的添加、删除、更新等功能,支持与 Claude Desktop 集成。",
+  "repo_url": "https://github.com/GuoAccount/notepad-server",
+  "source_hub": "mcp_so",
+  "owner": "GuoAccount",
+  "stars": 1,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "integ",
+    "prod-notes"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "299e7036b398c01058e01a18ec61207f0008b80c",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 6,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:40Z",
+  "verification_level": "scanner_only"
+}

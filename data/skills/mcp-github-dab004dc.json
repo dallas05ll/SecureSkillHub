@@ -1,0 +1,26 @@
+{
+  "id": "mcp-github-dab004dc",
+  "name": "MCP-Github",
+  "description": "This repository was created to demonstrate the capabilities of the GitHub MCP server.",
+  "repo_url": "https://github.com/politercaptain/MCP-Github",
+  "source_hub": "mcp_so",
+  "owner": "politercaptain",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "b2dd5b48244ae30455c0f14e30d57e014e975a61",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 1,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:42Z",
+  "verification_level": "scanner_only"
+}

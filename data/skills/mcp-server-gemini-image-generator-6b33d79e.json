@@ -1,0 +1,28 @@
+{
+  "id": "mcp-server-gemini-image-generator-6b33d79e",
+  "name": "mcp-server-gemini-image-generator",
+  "description": "MCP server for AI image generation and editing using Google's Gemini Flash models. Create images from text prompts with intelligent filename generation and strict text exclusion. Supports text-to-image generation with future expansion to image editing capabilities.",
+  "repo_url": "https://github.com/qhdrl12/mcp-server-gemini-image-generator",
+  "source_hub": "mcp_so",
+  "owner": "qhdrl12",
+  "stars": 28,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp",
+    "data-ai-vision",
+    "util-file"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "694895eb92c2d628497cb08a332f60834ca10ea5",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 7,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:32:12Z",
+  "verification_level": "scanner_only"
+}

@@ -1,0 +1,25 @@
+{
+  "id": "node-mcp-server-2a03f8c0",
+  "name": "node-mcp-server",
+  "description": "A sample Node.js MCP Server template that you can use to create your own MCP servers.",
+  "repo_url": "https://github.com/iamtraction/node-mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "iamtraction",
+  "stars": 3,
+  "primary_language": "unknown",
+  "tags": [
+    "dev-web-backend-node"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "e03050f440ac054852c48052b8c9020407c53a4d",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 10,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:04:50Z",
+  "verification_level": "scanner_only"
+}

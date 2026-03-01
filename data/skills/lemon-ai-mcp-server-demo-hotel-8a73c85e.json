@@ -1,0 +1,26 @@
+{
+  "id": "lemon-ai-mcp-server-demo-hotel-8a73c85e",
+  "name": "lemon-ai-mcp-server-demo-hotel",
+  "description": "一个mcp server的demo，前台录入酒店的房间信息，然后可以通过mcp查询当前酒店的最新数据 前台vue3后台python fastapi + sqlite",
+  "repo_url": "https://github.com/LemonITCN/lemon-ai-mcp-server-demo-hotel",
+  "source_hub": "mcp_so",
+  "owner": "LemonITCN",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-db",
+    "dev-web-backend-python",
+    "dev-web-frontend-vue",
+    "integ",
+    "repo_unavailable"
+  ],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null,
+  "repo_status": "unavailable",
+  "repo_check_date": "2026-02-28T20:51:57.138265+00:00",
+  "repo_check_error": "fatal: could not read Username for 'https://github.com': Device not configured"
+}

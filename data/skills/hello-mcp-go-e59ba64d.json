@@ -1,0 +1,26 @@
+{
+  "id": "hello-mcp-go-e59ba64d",
+  "name": "hello-mcp-go",
+  "description": "mcp server in go",
+  "repo_url": "https://github.com/softchris/hello-mcp-go",
+  "source_hub": "mcp_so",
+  "owner": "softchris",
+  "stars": 5,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "110738615d489b3465354566a1ee10e2d97a708d",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 3,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:54:02Z",
+  "verification_level": "scanner_only"
+}

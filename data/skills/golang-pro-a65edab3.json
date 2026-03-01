@@ -1,0 +1,21 @@
+{
+  "id": "golang-pro-a65edab3",
+  "name": "Golang Pro",
+  "description": "Agent skill: golang-pro from jeffallan/claude-skills",
+  "repo_url": "https://github.com/jeffallan/claude-skills",
+  "source_hub": "skills_sh",
+  "owner": "jeffallan",
+  "stars": 3700,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "dev-web-backend-go"
+  ],
+  "verification_status": "pass",
+  "overall_score": 82,
+  "risk_level": "low",
+  "verified_commit": "ad70aa3c40c1a023c0d2eaa942db9c81397e5f03",
+  "scan_summary": null,
+  "scan_date": "2026-02-25T22:18:26Z",
+  "verification_level": "scanner_only"
+}

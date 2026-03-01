@@ -1,0 +1,26 @@
+{
+  "id": "curl-mcp-server-b63f024e",
+  "name": "curl-mcp-server",
+  "description": "cURL MCP Server",
+  "repo_url": "https://github.com/neeraj15022001/curl-mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "neeraj15022001",
+  "stars": 2,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "abb2cdbd00ecfef40865ccc54e370b7cf63b7b6b",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 5,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:04:51Z",
+  "verification_level": "scanner_only"
+}

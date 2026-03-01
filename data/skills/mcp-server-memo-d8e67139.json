@@ -1,0 +1,25 @@
+{
+  "id": "mcp-server-memo-d8e67139",
+  "name": "mcp-server-memo",
+  "description": "A lightweight MCP server for session memory management",
+  "repo_url": "https://github.com/doggybee/mcp-server-memo",
+  "source_hub": "mcp_so",
+  "owner": "doggybee",
+  "stars": 1,
+  "primary_language": "unknown",
+  "tags": [
+    "prod-notes"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "2d039dc913d8cfff700c2917a3a020f27c26482d",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 8,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:40Z",
+  "verification_level": "scanner_only"
+}

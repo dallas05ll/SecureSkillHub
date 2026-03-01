@@ -1,0 +1,26 @@
+{
+  "id": "mcp-memory-py-6b71adc2",
+  "name": "mcp-memory-py",
+  "description": "MCP server for enabling memory for Claude through a knowledge graph",
+  "repo_url": "https://github.com/edobez/mcp-memory-py",
+  "source_hub": "mcp_so",
+  "owner": "edobez",
+  "stars": 8,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "prod-notes"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "c47d23de07a7b5ce7dc14133014b836670aaeae2",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 9,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:42:34Z",
+  "verification_level": "scanner_only"
+}

@@ -1,0 +1,116 @@
+{
+  "id": "craftdesk-396a6a90",
+  "name": "craftdesk",
+  "description": "Dependency management CLI for AI capabilities — install, manage, and version control Claude Code skills, agents, commands, hooks, and plugins.",
+  "repo_url": "https://github.com/mensfeld/craftdesk",
+  "source_hub": "github_search",
+  "skill_type": "agent_skill",
+  "owner": "mensfeld",
+  "stars": 50,
+  "license": "",
+  "primary_language": "TypeScript",
+  "tags": [
+    "data-ai",
+    "dev",
+    "status-fail"
+  ],
+  "verification_status": "fail",
+  "overall_score": 85,
+  "risk_level": "high",
+  "verified_commit": "03eecb7a424380f6b1f2f8341aec3efb0373c007",
+  "scan_summary": null,
+  "last_updated": "2026-02-25T09:56:10Z",
+  "findings_summary": {
+    "scanner_findings": 217,
+    "dangerous_calls": 3,
+    "network_ops": 2,
+    "file_ops": 187,
+    "env_access": 9,
+    "obfuscation": 8,
+    "injection_patterns": 0,
+    "mismatches": 0,
+    "undocumented_capabilities": 0,
+    "supervisor_approved": false,
+    "supervisor_confidence": 85,
+    "pm_review": {
+      "reviewed_at": "2026-03-01T06:14:16Z",
+      "reviewer": "pm_dual_agent",
+      "previous_status": "manual_review",
+      "decision": "fail",
+      "reason": "PM final decision: fail due to high-risk scanner findings.",
+      "mode": "run-report",
+      "evidence": {
+        "score": 85,
+        "risk_level": "high",
+        "high_findings": 19,
+        "critical_findings": 0,
+        "obfuscation_high_risk_count": 0,
+        "injection_patterns_count": 0,
+        "repo_unavailable": false
+      }
+    }
+  },
+  "trust_level": "low",
+  "scan_date": "2026-03-01T06:03:10Z",
+  "verification_level": "full_pipeline",
+  "agent_audit": {
+    "agents_completed": 5,
+    "agents_required": 5,
+    "pipeline_run_at": "2026-03-01T06:03:10Z",
+    "agent_a": {
+      "signed": true,
+      "signed_at": "2026-03-01T06:03:10Z",
+      "comment": "Docs quality 9/10. README present. 12 features, 4 permissions claimed.",
+      "doc_quality_score": 9,
+      "claimed_permissions": [
+        "network access",
+        "system command execution",
+        "file system access",
+        "environment/secret access"
+      ]
+    },
+    "agent_b": {
+      "signed": true,
+      "signed_at": "2026-03-01T06:03:10Z",
+      "comment": "84 files analyzed. Found: 2 network, 130 file, 9 env, 1 system calls. Primary: typescript.",
+      "files_analyzed": 84,
+      "capabilities_found": [
+        "imports external dependencies",
+        "performs network operations",
+        "reads/writes files",
+        "reads environment values",
+        "executes system commands"
+      ]
+    },
+    "agent_c_star": {
+      "signed": true,
+      "signed_at": "2026-03-01T06:03:10Z",
+      "comment": "217 findings: 0 critical, 19 high, 11 medium, 187 low. Obfuscation detected!. No injection.",
+      "total_findings": 217,
+      "severity_counts": {
+        "critical": 0,
+        "high": 19,
+        "medium": 11,
+        "low": 187,
+        "info": 0
+      }
+    },
+    "agent_d": {
+      "signed": true,
+      "signed_at": "2026-03-01T06:03:10Z",
+      "comment": "Score 85. 0 mismatches. Risk: high. Safety overrides: none triggered.",
+      "score": 85,
+      "mismatches": 0,
+      "safety_overrides_applied": false
+    },
+    "agent_e": {
+      "signed": true,
+      "signed_at": "2026-03-01T06:03:10Z",
+      "comment": "Rejected. Confidence 85%. No overrides.",
+      "approved": false,
+      "confidence": 85,
+      "override_reason": null
+    },
+    "manager_summary": "5/5 agents completed. Score: 85/100, Risk: high. 0 mismatches, 217 scanner findings. Rejected at 85% confidence. No safety overrides.\n[2026-03-01T06:14:16Z] PM review: fail. PM final decision: fail due to high-risk scanner findings."
+  }
+}

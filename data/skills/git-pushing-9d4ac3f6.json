@@ -1,0 +1,52 @@
+{
+  "id": "git-pushing-9d4ac3f6",
+  "name": "Git Pushing",
+  "description": "Automates git stage-commit-push workflow using a smart_commit.sh bash script that analyzes staged files to auto-generate conventional commit messages (feat/fix/docs/test/chore/refactor), adds Claude Code attribution footer, and pushes to remote with branch tracking",
+  "repo_url": "https://github.com/mhattingpete/claude-skills-marketplace/tree/main/engineering-workflow-plugin/skills/git-pushing",
+  "source_hub": "claude_skills_hub",
+  "skill_type": "agent_skill",
+  "owner": "mhattingpete",
+  "stars": 0,
+  "forks": 47,
+  "license": "Apache-2.0",
+  "primary_language": "shell",
+  "tags": [
+    "data-ai",
+    "dev",
+    "dev-testing",
+    "prod",
+    "prod-comm",
+    "prod-docs",
+    "util-file",
+    "repo_unavailable"
+  ],
+  "source_tags": [
+    "automation",
+    "testing",
+    "git",
+    "coding",
+    "productivity"
+  ],
+  "categories": [
+    "dev",
+    "productivity"
+  ],
+  "version": "1.0.0",
+  "requires_code_execution": true,
+  "verification_status": "pass",
+  "overall_score": 75,
+  "risk_level": "low",
+  "verified_commit": "004b0ece6e4b207a18c81d9e641eb2c29521a258",
+  "findings_summary": {
+    "notes": "Contains SKILL.md and a bash script (scripts/smart_commit.sh). Script reviewed in full: uses `set -e`, color-coded output, checks for empty diffs before staging, runs `git add .` (stages all files), analyzes file names/extensions for commit type detection, builds conventional commit message (type(scope): description), appends Claude Code attribution footer, then pushes. If new branch, uses `git push -u origin <branch>` and prints GitHub PR link. No network calls except git push to configured remote. No secrets handling, no eval, no dynamic code execution. Key concern: `git add .` stages ALL files unconditionally - could accidentally include sensitive files (.env, credentials). Users should ensure .gitignore is properly configured before using this skill. Actual repo star count 406 (recorded as 350 in metadata)."
+  },
+  "scan_summary": "SKILL.md + smart_commit.sh bash script. Script uses `git add .` to stage all files - users must ensure .gitignore excludes sensitive files. Conventional commit message auto-generation, adds Claude Code footer. No other concerns.",
+  "parent_repo_stars": 406,
+  "is_monorepo_child": true,
+  "trust_level": "medium",
+  "scan_date": "2026-02-26T03:00:51Z",
+  "repo_status": "unavailable",
+  "repo_check_date": "2026-02-28T20:51:45.693908+00:00",
+  "repo_check_error": "fatal: repository 'https://github.com/mhattingpete/claude-skills-marketplace/tree/main/engineering-workflow-plugin/skills/git-pushing/' not found",
+  "verification_level": "metadata_only"
+}

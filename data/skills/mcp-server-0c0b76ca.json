@@ -1,0 +1,25 @@
+{
+  "id": "mcp-server-0c0b76ca",
+  "name": "MCP-Server",
+  "description": "Sử dụng MCP Server & Agent LangChain/LangGraph",
+  "repo_url": "https://github.com/ThangQT2606/MCP-Server",
+  "source_hub": "mcp_so",
+  "owner": "ThangQT2606",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "52f98d3bd6f879b3d3ff09d17950fdcfbf438936",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 10,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:40Z",
+  "verification_level": "scanner_only"
+}

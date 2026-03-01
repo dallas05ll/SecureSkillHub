@@ -1,0 +1,26 @@
+{
+  "id": "openapi-mcp-generator-49ba1e7b",
+  "name": "openapi-mcp-generator",
+  "description": "A tool that converts OpenAPI specifications to MCP server",
+  "repo_url": "https://github.com/harsha-iiiv/openapi-mcp-generator",
+  "source_hub": "mcp_so",
+  "owner": "harsha-iiiv",
+  "stars": 521,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 46,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-27T02:28:45Z",
+  "verification_level": "scanner_only"
+}

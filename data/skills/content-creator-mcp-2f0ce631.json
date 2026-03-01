@@ -1,0 +1,26 @@
+{
+  "id": "content-creator-mcp-2f0ce631",
+  "name": "content-creator-mcp",
+  "description": "MCP Server that implements a content creator agent.",
+  "repo_url": "https://github.com/MatheusOliveiraSilva/content-creator-mcp",
+  "source_hub": "mcp_so",
+  "owner": "MatheusOliveiraSilva",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "0285902543ed265e143ab35a176961d36dacd320",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 4,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:41Z",
+  "verification_level": "scanner_only"
+}

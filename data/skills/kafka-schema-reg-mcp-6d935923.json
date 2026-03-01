@@ -1,0 +1,25 @@
+{
+  "id": "kafka-schema-reg-mcp-6d935923",
+  "name": "kafka-schema-reg-mcp",
+  "description": "A comprehensive Message Control Protocol (MCP) server for Kafka Schema Registry.",
+  "repo_url": "https://github.com/aywengo/kafka-schema-reg-mcp",
+  "source_hub": "mcp_so",
+  "owner": "aywengo",
+  "stars": 31,
+  "primary_language": "unknown",
+  "tags": [
+    "prod-comm"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "730122c8c1b5d30b0f0606437c6fc9b16a24ca6a",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 253,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:32:12Z",
+  "verification_level": "scanner_only"
+}

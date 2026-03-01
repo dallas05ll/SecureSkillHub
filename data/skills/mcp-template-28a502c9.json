@@ -1,0 +1,26 @@
+{
+  "id": "mcp-template-28a502c9",
+  "name": "mcp-template",
+  "description": "A barebones MCP server implementation in Swift using loopwork-ai's mcp-swift-sdk.",
+  "repo_url": "https://github.com/adamwulf/mcp-template",
+  "source_hub": "mcp_so",
+  "owner": "adamwulf",
+  "stars": 14,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "dev"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "2d43cdef886a329fbba994ff507b495fd7773670",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 9,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:42:34Z",
+  "verification_level": "scanner_only"
+}

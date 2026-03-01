@@ -1,0 +1,26 @@
+{
+  "id": "web-scout-mcp-7b873589",
+  "name": "web-scout-mcp",
+  "description": "A powerful MCP server extension providing web search and content extraction capabilities. Integrates DuckDuckGo search functionality and URL content extraction into your MCP environment, enabling AI assistants to search the web and extract webpage content programmatically.",
+  "repo_url": "https://github.com/pinkpixel-dev/web-scout-mcp",
+  "source_hub": "mcp_so",
+  "owner": "pinkpixel-dev",
+  "stars": 117,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "util-search"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "aa4a1c2536bc9c0bab5d3f3e2415e1d6cc483561",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 10,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-27T06:40:44Z",
+  "verification_level": "scanner_only"
+}

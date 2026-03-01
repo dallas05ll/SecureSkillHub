@@ -1,0 +1,25 @@
+{
+  "id": "mcp-server-howto-94f43562",
+  "name": "mcp-server-howto",
+  "description": "Instructions for an AI on how to create a Java based mcp server and client",
+  "repo_url": "https://github.com/jayessdeesea/mcp-server-howto",
+  "source_hub": "mcp_so",
+  "owner": "jayessdeesea",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "0c6b1ae2f23898e5a8d1fbeb03500807db5c79c2",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 1,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:40Z",
+  "verification_level": "scanner_only"
+}

@@ -1,0 +1,29 @@
+{
+  "id": "herald-the-self-hosted-mcp-bridge-betwee-147ed1cf",
+  "name": "herald---the-self-hosted-mcp-bridge-between-claude-chat-and-claude-code.",
+  "description": "You're on the couch. On your phone. You open Claude Chat and type:\r\n\r\n\"Refactor the auth middleware in my-api to use JWT instead of session cookies. Run the tests.\"\r\n\r\nFour minutes later, it's done. Branch created, code refactored, tests passing, changes committed. Your workstation did all the work. You never opened your laptop.\r\n\r\nThat's Herald.\r\n\r\nThe Problem\r\nClaude Chat and Claude Code are two brilliant tools that live in completely separate worlds.\r\nYou've been copy-pasting between them....",
+  "repo_url": "https://github.com/Benjamin Touchard/herald---the-self-hosted-mcp-bridge-between-claude-chat-and-claude-code.",
+  "source_hub": "mcp_so",
+  "owner": "Benjamin Touchard",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "dev",
+    "dev-testing",
+    "integ",
+    "prod-comm",
+    "sec",
+    "sec-auth",
+    "util",
+    "repo_unavailable"
+  ],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null,
+  "repo_status": "unavailable",
+  "repo_check_date": "2026-02-28T20:51:49.514412+00:00",
+  "repo_check_error": "fatal: unable to access 'https://github.com/Benjamin Touchard/herald---the-self-hosted-mcp-bridge-between-claude-chat-and-claude-code./': URL rejected: Malformed input to a URL function"
+}

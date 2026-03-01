@@ -1,0 +1,27 @@
+{
+  "id": "roc-cwa-mcp-b9b66a88",
+  "name": "roc-cwa-mcp",
+  "description": "A Model Context Protocol (MCP) server that interfaces with Taiwan's Central Weather Administration (CWA) API.",
+  "repo_url": "https://github.com/stephen9412/roc-cwa-mcp",
+  "source_hub": "mcp_so",
+  "owner": "stephen9412",
+  "stars": 5,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp",
+    "integ"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "a2ad36e673be5392eb14d4e18f55394af368c14c",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 11,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:54:02Z",
+  "verification_level": "scanner_only"
+}

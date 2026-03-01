@@ -1,0 +1,26 @@
+{
+  "id": "weather-mcp-server-b3e36f9e",
+  "name": "weather-mcp-server",
+  "description": "Simple Weather MCP Server Example",
+  "repo_url": "https://github.com/hideya/weather-mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "hideya",
+  "stars": 12,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "39ae8ac2dd5c53640035538bf507be6bc4b18c72",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 5,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:42:34Z",
+  "verification_level": "scanner_only"
+}

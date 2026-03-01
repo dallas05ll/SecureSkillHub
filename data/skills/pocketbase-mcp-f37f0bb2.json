@@ -1,0 +1,26 @@
+{
+  "id": "pocketbase-mcp-f37f0bb2",
+  "name": "pocketbase-mcp",
+  "description": "MCP-compliant PocketBase server implementation",
+  "repo_url": "https://github.com/mrbarbosa/pocketbase-mcp",
+  "source_hub": "mcp_so",
+  "owner": "mrbarbosa",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "3188674681bb5e77575be794dc6850853a040745",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 3,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:40Z",
+  "verification_level": "scanner_only"
+}

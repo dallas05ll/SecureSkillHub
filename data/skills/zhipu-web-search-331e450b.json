@@ -1,0 +1,23 @@
+{
+  "id": "zhipu-web-search-331e450b",
+  "name": "zhipu-web-search",
+  "description": "Zhipu Web Search MCP Server is a search engine specifically designed for large models. It integrates four search engines, allowing users to flexibly compare and switch between them. Building upon the web crawling and ranking capabilities of traditional search engines, it enhances intent recognition capabilities, returning results more suitable for large model processing (such as webpage titles, URLs, summaries, site names, site icons, etc.). This helps AI applications achieve \"dynamic knowled...",
+  "repo_url": "https://github.com/BigModel/zhipu-web-search",
+  "source_hub": "mcp_so",
+  "owner": "BigModel",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "util-search",
+    "repo_unavailable"
+  ],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null,
+  "repo_status": "unavailable",
+  "repo_check_date": "2026-02-28T20:53:12.699531+00:00",
+  "repo_check_error": "fatal: could not read Username for 'https://github.com': Device not configured"
+}

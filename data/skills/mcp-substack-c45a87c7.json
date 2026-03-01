@@ -1,0 +1,27 @@
+{
+  "id": "mcp-substack-c45a87c7",
+  "name": "mcp-substack",
+  "description": "🤖 MCP Server for Substack integration with Claude AI Desktop. Download and parse Substack posts directly in your Claude conversations.",
+  "repo_url": "https://github.com/michalnaka/mcp-substack",
+  "source_hub": "mcp_so",
+  "owner": "michalnaka",
+  "stars": 16,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "integ",
+    "util-file"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "ae00208d643603e6b490afa41f98e48021d56b13",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 4,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:42:34Z",
+  "verification_level": "scanner_only"
+}

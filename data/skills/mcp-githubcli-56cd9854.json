@@ -1,0 +1,26 @@
+{
+  "id": "mcp-githubcli-56cd9854",
+  "name": "mcp-githubcli",
+  "description": "MCP server on GithubCLI allow you to access private repos",
+  "repo_url": "https://github.com/Chenlong-Tao/mcp-githubcli",
+  "source_hub": "mcp_so",
+  "owner": "Chenlong-Tao",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "826ecf1bbb2f6518993eb36457a8cd15621b94cb",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 5,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:42Z",
+  "verification_level": "scanner_only"
+}

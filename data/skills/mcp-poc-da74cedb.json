@@ -1,0 +1,26 @@
+{
+  "id": "mcp-poc-da74cedb",
+  "name": "MCP-PoC",
+  "description": "Type Script MCP Server Proof of Concept",
+  "repo_url": "https://github.com/OSTUSA/MCP-PoC",
+  "source_hub": "mcp_so",
+  "owner": "OSTUSA",
+  "stars": 2,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "a1e65e20b7e990b3ac65a6cb61548ef116b65b74",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 7,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:04:50Z",
+  "verification_level": "scanner_only"
+}

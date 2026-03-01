@@ -1,0 +1,28 @@
+{
+  "id": "augmented-nature-chembl-mcp-server-0f07f845",
+  "name": "Augmented-Nature-ChEMBL-MCP-Server",
+  "description": "A comprehensive Model Context Protocol (MCP) server providing advanced access to the ChEMBL chemical database.",
+  "repo_url": "https://github.com/Augmented-Nature/Augmented-Nature-ChEMBL-MCP-Server",
+  "source_hub": "mcp_so",
+  "owner": "Augmented-Nature",
+  "stars": 76,
+  "primary_language": "unknown",
+  "tags": [
+    "data",
+    "data-ai",
+    "data-ai-nlp",
+    "data-db"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "02782d76d731d481da3f3132d71f48988b5f1bd1",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 5,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-27T06:40:43Z",
+  "verification_level": "scanner_only"
+}

@@ -1,0 +1,27 @@
+{
+  "id": "my-mcp-setup-ccb42280",
+  "name": "my-mcp-setup",
+  "description": "My MCP (Model Context Protocol) server setup for local environment to automate anything by LLM",
+  "repo_url": "https://github.com/ntsd/my-mcp-setup",
+  "source_hub": "mcp_so",
+  "owner": "ntsd",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp",
+    "prod"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "15d45942d58ff07aaf8c39433b9745697dddeaf2",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 2,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:41Z",
+  "verification_level": "scanner_only"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "awesome-mcp-servers-directory-c1836329",
+  "name": "Awesome-MCP-Servers-directory",
+  "description": "A comprehensive collection of Model Context Protocol (MCP) servers categorized by functionality. This repository helps developers and AI enthusiasts discover and utilize the wide array of available MCP servers for various applications.",
+  "repo_url": "https://github.com/habitoai/Awesome-MCP-Servers-directory",
+  "source_hub": "mcp_so",
+  "owner": "habitoai",
+  "stars": 4,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp",
+    "dev",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "deb2583fcdf72403d6a41941bbb70367c2b4c3a9",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 6,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:54:02Z",
+  "verification_level": "scanner_only"
+}

@@ -1,0 +1,25 @@
+{
+  "id": "mcp-server-688c6e33",
+  "name": "mcp_server",
+  "description": "Очень удобный поисковик на python. Можно внедрить на сайт или использовать локально на ПК с любой ОС.",
+  "repo_url": "https://github.com/romanshablio/mcp_server",
+  "source_hub": "mcp_so",
+  "owner": "romanshablio",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "dev-web-backend-python"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "579d374bdcadbc666d0e85b5f3330b2f18c90233",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 7,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:41Z",
+  "verification_level": "scanner_only"
+}

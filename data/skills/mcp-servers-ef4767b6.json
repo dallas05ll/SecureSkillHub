@@ -1,0 +1,25 @@
+{
+  "id": "mcp-servers-ef4767b6",
+  "name": "mcp-servers",
+  "description": "Make AI agent more general",
+  "repo_url": "https://github.com/louisfghbvc/mcp-servers",
+  "source_hub": "mcp_so",
+  "owner": "louisfghbvc",
+  "stars": 1,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "0bea379b41c4e8441663c78c674db9b68e1f2df9",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 9,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:41Z",
+  "verification_level": "scanner_only"
+}

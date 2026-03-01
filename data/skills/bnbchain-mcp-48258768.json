@@ -1,0 +1,25 @@
+{
+  "id": "bnbchain-mcp-48258768",
+  "name": "bnbchain-mcp",
+  "description": "bnbchain-mcp",
+  "repo_url": "https://github.com/bnb-chain/bnbchain-mcp",
+  "source_hub": "glama",
+  "owner": "bnb-chain",
+  "stars": 50,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 88,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-25T14:26:46Z",
+  "verification_level": "scanner_only"
+}

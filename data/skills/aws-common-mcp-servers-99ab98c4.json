@@ -1,0 +1,30 @@
+{
+  "id": "aws-common-mcp-servers-99ab98c4",
+  "name": "aws-common-mcp-servers",
+  "description": "Deployable MCP Servers for common AWS services (Location, S3, Aurora PG Data API) using AWS CDK.",
+  "repo_url": "https://github.com/vAirpower/aws-common-mcp-servers",
+  "source_hub": "mcp_so",
+  "owner": "vAirpower",
+  "stars": 1,
+  "primary_language": "unknown",
+  "tags": [
+    "data",
+    "integ",
+    "integ-cloud",
+    "integ-cloud-aws",
+    "util-file",
+    "util-map"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "eea867733c9dade5b417de51d9417a4a1c2475e0",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 18,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:40Z",
+  "verification_level": "scanner_only"
+}

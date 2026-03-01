@@ -1,0 +1,26 @@
+{
+  "id": "mcp-server-trfrmarket-169661e0",
+  "name": "mcp-server-trfrmarket",
+  "description": "An MCP server for transfer market based on popular R package & some other decorations",
+  "repo_url": "https://github.com/abhishek9909/mcp-server-trfrmarket",
+  "source_hub": "mcp_so",
+  "owner": "abhishek9909",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "f7c90b312084f7eb356e56bf43bb93cea685ffe5",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 18,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:40Z",
+  "verification_level": "scanner_only"
+}

@@ -1,0 +1,26 @@
+{
+  "id": "mcp-server-2f0f613d",
+  "name": "mcp-server",
+  "description": "springboot 集成mcp-server",
+  "repo_url": "https://github.com/daodaomangod/mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "daodaomangod",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "233d251adc900b25c8cb2e93322681f2f8f1ba1f",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 3,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:41Z",
+  "verification_level": "scanner_only"
+}

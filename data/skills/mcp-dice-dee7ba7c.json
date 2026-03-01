@@ -1,0 +1,25 @@
+{
+  "id": "mcp-dice-dee7ba7c",
+  "name": "mcp-dice",
+  "description": "A MCP server enabling LLMs to roll dice",
+  "repo_url": "https://github.com/yamaton/mcp-dice",
+  "source_hub": "mcp_so",
+  "owner": "yamaton",
+  "stars": 4,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "535bb98c95f2c5ffc4802d6397980154f0b3808b",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 5,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:54:02Z",
+  "verification_level": "scanner_only"
+}

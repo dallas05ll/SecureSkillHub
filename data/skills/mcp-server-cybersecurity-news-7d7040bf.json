@@ -1,0 +1,26 @@
+{
+  "id": "mcp-server-cybersecurity-news-7d7040bf",
+  "name": "MCP-Server-Cybersecurity-News",
+  "description": "Implementazione di un server MCP integrabile con Claude Desktop che consente di accedere alle ultime notizie sulla cybersecurity da vari siti web.",
+  "repo_url": "https://github.com/enggpt-it/MCP-Server-Cybersecurity-News",
+  "source_hub": "mcp_so",
+  "owner": "enggpt-it",
+  "stars": 2,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "sec"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "4a519e8a0feff811789ca28065bba3f7eebcffb2",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 3,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:04:50Z",
+  "verification_level": "scanner_only"
+}

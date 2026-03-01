@@ -1,0 +1,27 @@
+{
+  "id": "travel-itinerary-e4ce94aa",
+  "name": "Travel_itinerary",
+  "description": "A backend system built with FastAPI and SQLAlchemy to manage travel itineraries, including hotel stays, transfers, activities, and day-wise plans. Also includes a recommendation endpoint via an MCP server.",
+  "repo_url": "https://github.com/Shirisha-16/Travel_itinerary",
+  "source_hub": "mcp_so",
+  "owner": "Shirisha-16",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "data-db",
+    "dev-web-backend-python",
+    "integ"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "47cacc1a7f89f467f2fcb7ad11c2482f0a36fbe1",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 9,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:42:59Z",
+  "verification_level": "scanner_only"
+}

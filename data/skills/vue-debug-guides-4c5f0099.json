@@ -1,0 +1,26 @@
+{
+  "id": "vue-debug-guides-4c5f0099",
+  "name": "Vue Debug Guides",
+  "description": "Agent skill: vue-debug-guides from hyf0/vue-skills",
+  "repo_url": "https://github.com/hyf0/vue-skills",
+  "source_hub": "skills_sh",
+  "owner": "hyf0",
+  "stars": 7500,
+  "primary_language": "unknown",
+  "tags": [
+    "dev",
+    "dev-web-frontend-vue"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "f3dd1bf4d3ac78331bdc903e4519d561c538ca6a",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 208,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:54:04Z",
+  "verification_level": "scanner_only"
+}

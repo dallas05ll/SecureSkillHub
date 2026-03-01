@@ -1,0 +1,25 @@
+{
+  "id": "bloodhound-mcp-bacb56b5",
+  "name": "bloodhound-mcp",
+  "description": "MCP server for bloodhound's api",
+  "repo_url": "https://github.com/tac01337/bloodhound-mcp",
+  "source_hub": "mcp_so",
+  "owner": "tac01337",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "integ"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "910e4ff6e62ca3e06dedcfd987dc3803174ed53e",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 2,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:40Z",
+  "verification_level": "scanner_only"
+}

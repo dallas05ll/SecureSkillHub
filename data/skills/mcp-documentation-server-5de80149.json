@@ -1,0 +1,26 @@
+{
+  "id": "mcp-documentation-server-5de80149",
+  "name": "mcp-documentation-server",
+  "description": "MCP Documentation Server with AI Learning Capabilities",
+  "repo_url": "https://github.com/mahawi1992/mcp-documentation-server",
+  "source_hub": "mcp_so",
+  "owner": "mahawi1992",
+  "stars": 10,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "prod-docs"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "1e542b1a3c072ddc1046eb526ae7939310d125d5",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 56,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:42:34Z",
+  "verification_level": "scanner_only"
+}

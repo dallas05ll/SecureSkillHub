@@ -1,0 +1,25 @@
+{
+  "id": "mcproto-5f35a7c5",
+  "name": "mcproto",
+  "description": "Easily run or chain together MCP servers alongside your normal Ruby logic.",
+  "repo_url": "https://github.com/wassson/mcproto",
+  "source_hub": "mcp_so",
+  "owner": "wassson",
+  "stars": 2,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "ccc1d948469977a2871b8d49f62a64cf6ced61b9",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 13,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:04:51Z",
+  "verification_level": "scanner_only"
+}

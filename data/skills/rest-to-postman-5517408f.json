@@ -1,0 +1,26 @@
+{
+  "id": "rest-to-postman-5517408f",
+  "name": "rest-to-postman",
+  "description": "Rest To Postman Collection MCP Server",
+  "repo_url": "https://github.com/runninghare/rest-to-postman",
+  "source_hub": "mcp_so",
+  "owner": "runninghare",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "1156c0ac43e4b0dbf705080a3687e71cc8c8d59e",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 12,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:40Z",
+  "verification_level": "scanner_only"
+}

@@ -1,0 +1,25 @@
+{
+  "id": "realtime-register-mcp-fb708421",
+  "name": "realtime-register-mcp",
+  "description": "An MCP server for interacting with the RealtimeRegister API",
+  "repo_url": "https://github.com/zenjoy/realtime-register-mcp",
+  "source_hub": "mcp_so",
+  "owner": "zenjoy",
+  "stars": 1,
+  "primary_language": "unknown",
+  "tags": [
+    "integ"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "45a449b3d441542b277c285ef293f8146b49da00",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 44,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:41Z",
+  "verification_level": "scanner_only"
+}

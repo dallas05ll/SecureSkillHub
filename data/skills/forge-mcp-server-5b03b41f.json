@@ -1,0 +1,26 @@
+{
+  "id": "forge-mcp-server-5b03b41f",
+  "name": "forge-mcp-server",
+  "description": "Laravel Forge MCP server for managing servers, sites, and deployments",
+  "repo_url": "https://github.com/bretterer/forge-mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "bretterer",
+  "stars": 7,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "b7717596275754ca3032e6b364d5aaaa3a041648",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 7,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:54:02Z",
+  "verification_level": "scanner_only"
+}

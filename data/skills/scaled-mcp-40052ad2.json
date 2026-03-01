@@ -1,0 +1,25 @@
+{
+  "id": "scaled-mcp-40052ad2",
+  "name": "scaled-mcp",
+  "description": "ScaledMCP is a horizontally scalabled MCP and A2A Server. You know, for AI.",
+  "repo_url": "https://github.com/Traego/scaled-mcp",
+  "source_hub": "mcp_so",
+  "owner": "Traego",
+  "stars": 44,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "53eccfe963832dc64cc9f82f559c0b8a01170c81",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 44,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:32:11Z",
+  "verification_level": "scanner_only"
+}

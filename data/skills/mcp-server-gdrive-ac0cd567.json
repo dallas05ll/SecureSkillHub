@@ -1,0 +1,27 @@
+{
+  "id": "mcp-server-gdrive-ac0cd567",
+  "name": "mcp-server-gdrive",
+  "description": "A Model Context Protocol (MCP) server for interacting with Google Drive API",
+  "repo_url": "https://github.com/asadudin/mcp-server-gdrive",
+  "source_hub": "mcp_so",
+  "owner": "asadudin",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp",
+    "integ"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "510dcac107ce18971b54f8faf9cc8089182f9872",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 4,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:41Z",
+  "verification_level": "scanner_only"
+}

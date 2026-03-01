@@ -1,0 +1,27 @@
+{
+  "id": "mcp-3d-relief-6e64e5b3",
+  "name": "mcp_3d_relief",
+  "description": "This project provides a MCP server that converts 2D images into 3D relief models in STL format, suitable for 3D printing or rendering.",
+  "repo_url": "https://github.com/Bigchx/mcp_3d_relief",
+  "source_hub": "mcp_so",
+  "owner": "Bigchx",
+  "stars": 17,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-vision",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "f84ec0864c2f70c1fb43a86e269d71b42a8b57e6",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 5,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:42:34Z",
+  "verification_level": "scanner_only"
+}

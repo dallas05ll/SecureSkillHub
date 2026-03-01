@@ -1,0 +1,26 @@
+{
+  "id": "bitbucket-mcp-server-ae66fbcf",
+  "name": "bitbucket-mcp-server",
+  "description": "MCP Server for interacting with BitBucket API",
+  "repo_url": "https://github.com/pdogra1299/bitbucket-mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "pdogra1299",
+  "stars": 16,
+  "primary_language": "unknown",
+  "tags": [
+    "dev-git",
+    "integ"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "73550137ec113471d7f27905f5db677682267c93",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 28,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:42:34Z",
+  "verification_level": "scanner_only"
+}

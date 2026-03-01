@@ -1,0 +1,26 @@
+{
+  "id": "typescript-mcp-server-boilerplate-854fad40",
+  "name": "typescript-mcp-server-boilerplate",
+  "description": "A simple Typescript MCP Server Boilerplate",
+  "repo_url": "https://github.com/siavashdelkhosh81/typescript-mcp-server-boilerplate",
+  "source_hub": "mcp_so",
+  "owner": "siavashdelkhosh81",
+  "stars": 3,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "1ee2112500092229dd15bd43cd9a252f7ec89a04",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 4,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:04:51Z",
+  "verification_level": "scanner_only"
+}

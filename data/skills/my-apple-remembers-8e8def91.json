@@ -1,0 +1,26 @@
+{
+  "id": "my-apple-remembers-8e8def91",
+  "name": "my-apple-remembers",
+  "description": "A lightweight MCP server that integrates with Apple Notes to create a personal memory system for AI. Easily recall and save information from your Mac using simple AppleScript commands. Compatible with all macOS versions with minimal setup requirements.",
+  "repo_url": "https://github.com/baryhuang/my-apple-remembers",
+  "source_hub": "mcp_so",
+  "owner": "baryhuang",
+  "stars": 10,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "prod-notes"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "41c77788da6a76c07532b49a4e99b5b70ffeb984",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 4,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:42:34Z",
+  "verification_level": "scanner_only"
+}

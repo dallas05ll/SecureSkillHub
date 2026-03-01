@@ -1,0 +1,27 @@
+{
+  "id": "mcphub-f37f1d72",
+  "name": "mcphub",
+  "description": "MCPHub is an embeddable Model Context Protocol (MCP) solution for AI services. Seamlessly integrate MCP servers with OpenAI Agents, LangChain, and Autogen frameworks through a unified interface. Simplifies configuration, setup, and management of MCP tools across different AI applications.",
+  "repo_url": "https://github.com/Cognitive-Stack/mcphub",
+  "source_hub": "mcp_so",
+  "owner": "Cognitive-Stack",
+  "stars": 81,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "25e87f8336bd321be520bb53c57f0a9ef05b0a63",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 31,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-27T06:40:49Z",
+  "verification_level": "scanner_only"
+}

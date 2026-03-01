@@ -1,0 +1,29 @@
+{
+  "id": "mcp-email-verify-bb0d138c",
+  "name": "MCP-Email-Verify",
+  "description": "A lightweight Model Context Protocol (MCP) server that enables your LLM to validate email addresses. This tool checks email format, domain validity, and deliverability using the AbstractAPI Email Validation API. Perfect for integrating email validation into AI applications like Claude Desktop.",
+  "repo_url": "https://github.com/Abhi5h3k/MCP-Email-Verify",
+  "source_hub": "mcp_so",
+  "owner": "Abhi5h3k",
+  "stars": 2,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp",
+    "integ",
+    "prod-comm",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "ec73c5e5ed767b85892a20566bcc14fef210cd57",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 4,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:04:51Z",
+  "verification_level": "scanner_only"
+}

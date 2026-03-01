@@ -1,0 +1,26 @@
+{
+  "id": "hirebase-mcp-c317bf07",
+  "name": "hirebase-mcp",
+  "description": "A Python MCP Server for hirebase.org's API",
+  "repo_url": "https://github.com/jhgaylor/hirebase-mcp",
+  "source_hub": "mcp_so",
+  "owner": "jhgaylor",
+  "stars": 9,
+  "primary_language": "unknown",
+  "tags": [
+    "dev-web-backend-python",
+    "integ"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "d39f035f9c8471685c41bf4dbef4b5ed63f0b5ab",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 6,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:42:36Z",
+  "verification_level": "scanner_only"
+}

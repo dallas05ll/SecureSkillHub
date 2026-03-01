@@ -1,0 +1,27 @@
+{
+  "id": "livebook-tools-862999d3",
+  "name": "livebook_tools",
+  "description": "Powertools for livebook.dev — AI Code Editing, MCP Servers, and Running Livebooks from the CLI",
+  "repo_url": "https://github.com/thmsmlr/livebook_tools",
+  "source_hub": "mcp_so",
+  "owner": "thmsmlr",
+  "stars": 112,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "dev",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "2c1f57f52b4a3e6587a3f64668b77d262632c8a1",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 1,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-27T06:40:44Z",
+  "verification_level": "scanner_only"
+}

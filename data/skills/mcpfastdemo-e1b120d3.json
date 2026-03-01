@@ -1,0 +1,26 @@
+{
+  "id": "mcpfastdemo-e1b120d3",
+  "name": "MCPFastDemo",
+  "description": "A MCP Server FastDemo with webui",
+  "repo_url": "https://github.com/Chenlong-Tao/MCPFastDemo",
+  "source_hub": "mcp_so",
+  "owner": "Chenlong-Tao",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "5518649dfa7ad726549799648468396ec3b9d3a7",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 3,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:41Z",
+  "verification_level": "scanner_only"
+}

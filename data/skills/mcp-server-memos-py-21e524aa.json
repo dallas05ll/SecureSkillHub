@@ -1,0 +1,28 @@
+{
+  "id": "mcp-server-memos-py-21e524aa",
+  "name": "mcp-server-memos-py",
+  "description": "A Python package enabling LLM models to interact with the Memos server via the MCP interface for searching, creating, retrieving, and managing memos.",
+  "repo_url": "https://github.com/RyoJerryYu/mcp-server-memos-py",
+  "source_hub": "mcp_so",
+  "owner": "RyoJerryYu",
+  "stars": 21,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "dev-web-backend-python",
+    "prod-notes",
+    "util-search"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "1064544b750d7154ed447dad489727867a7afc9f",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 18,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:32:12Z",
+  "verification_level": "scanner_only"
+}

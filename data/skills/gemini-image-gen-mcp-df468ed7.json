@@ -1,0 +1,26 @@
+{
+  "id": "gemini-image-gen-mcp-df468ed7",
+  "name": "gemini-image-gen-mcp",
+  "description": "A Model Calling Protocol (MCP) server that allows Claude and other LLMs to generate images using Google's Gemini AI model.",
+  "repo_url": "https://github.com/collactivelabs/gemini-image-gen-mcp",
+  "source_hub": "mcp_so",
+  "owner": "collactivelabs",
+  "stars": 1,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-vision"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "e333d16a85ffda1869e45f5653047611f919abf2",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 20,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:41Z",
+  "verification_level": "scanner_only"
+}

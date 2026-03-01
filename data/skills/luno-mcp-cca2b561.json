@@ -1,0 +1,25 @@
+{
+  "id": "luno-mcp-cca2b561",
+  "name": "luno-mcp",
+  "description": "MCP Server for Luno API",
+  "repo_url": "https://github.com/luno/luno-mcp",
+  "source_hub": "mcp_so",
+  "owner": "luno",
+  "stars": 15,
+  "primary_language": "unknown",
+  "tags": [
+    "integ"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "65994be726c86a00e1385ea5c0230b3d31d47fa1",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 7,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:42:36Z",
+  "verification_level": "scanner_only"
+}

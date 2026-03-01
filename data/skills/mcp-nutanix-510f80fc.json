@@ -1,0 +1,26 @@
+{
+  "id": "mcp-nutanix-510f80fc",
+  "name": "mcp-nutanix",
+  "description": "MCP Server for Nutanix",
+  "repo_url": "https://github.com/thunderboltsid/mcp-nutanix",
+  "source_hub": "mcp_so",
+  "owner": "thunderboltsid",
+  "stars": 12,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "a940e00376e6a65adefb580660c990c3be4253dd",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 1,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:42:34Z",
+  "verification_level": "scanner_only"
+}

@@ -1,0 +1,25 @@
+{
+  "id": "mcp-otzaria-server-b63006f4",
+  "name": "mcp-otzaria-server",
+  "description": "makes the jewish library accessible to LLMs through the MCP protocol",
+  "repo_url": "https://github.com/Sivan22/mcp-otzaria-server",
+  "source_hub": "mcp_so",
+  "owner": "Sivan22",
+  "stars": 20,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "45e89b381d72033ae65f47cf0085d3fe6a512d8a",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 8,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:32:11Z",
+  "verification_level": "scanner_only"
+}

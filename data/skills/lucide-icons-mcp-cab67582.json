@@ -1,0 +1,29 @@
+{
+  "id": "lucide-icons-mcp-cab67582",
+  "name": "lucide-icons-mcp",
+  "description": "A Model Context Protocol (MCP) server exposing Lucide icons as resources and tools for LLMs and agentic applications. Built with Bun and the MCP TypeScript SDK.",
+  "repo_url": "https://github.com/SeeYangZhi/lucide-icons-mcp",
+  "source_hub": "mcp_so",
+  "owner": "SeeYangZhi",
+  "stars": 25,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp",
+    "dev",
+    "dev-web-backend-node",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "9b603ac4a2678554a3679696f3f05ec96c821b06",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 17,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:32:13Z",
+  "verification_level": "scanner_only"
+}

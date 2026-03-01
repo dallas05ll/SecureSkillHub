@@ -1,0 +1,26 @@
+{
+  "id": "gamecode-mcp2-7c370079",
+  "name": "gamecode-mcp2",
+  "description": "mcp in rust both client and server",
+  "repo_url": "https://github.com/navicore/gamecode-mcp2",
+  "source_hub": "mcp_so",
+  "owner": "navicore",
+  "stars": 2,
+  "primary_language": "unknown",
+  "tags": [
+    "dev",
+    "dev-web-backend-rust"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "3e56a6d829000f99ea1b0f2a50e41ffb6b4ec714",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 43,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:04:51Z",
+  "verification_level": "scanner_only"
+}

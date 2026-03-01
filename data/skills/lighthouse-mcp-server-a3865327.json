@@ -1,0 +1,28 @@
+{
+  "id": "lighthouse-mcp-server-a3865327",
+  "name": "lighthouse-mcp-server",
+  "description": "MCP server that enables AI agents to perform comprehensive web audits using Google Lighthouse with 13+ tools for performance, accessibility, SEO, and security analysis.",
+  "repo_url": "https://github.com/danielsogl/lighthouse-mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "danielsogl",
+  "stars": 44,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "sec",
+    "sec-scan",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "047a742f30995974eb6c224f2fa1539f5d3c791a",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 45,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:32:11Z",
+  "verification_level": "scanner_only"
+}

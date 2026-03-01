@@ -1,0 +1,25 @@
+{
+  "id": "create-typescript-server-a86418c5",
+  "name": "create-typescript-server",
+  "description": "CLI tool to create a new TypeScript MCP server",
+  "repo_url": "https://github.com/modelcontextprotocol/create-typescript-server",
+  "source_hub": "mcp_so",
+  "owner": "modelcontextprotocol",
+  "stars": 172,
+  "primary_language": "unknown",
+  "tags": [
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "3115f395cebe7c3ca631ba4becd4cbdf46cd6291",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 9,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-27T06:36:35Z",
+  "verification_level": "scanner_only"
+}

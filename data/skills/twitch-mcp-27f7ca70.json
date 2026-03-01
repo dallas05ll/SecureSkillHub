@@ -1,0 +1,28 @@
+{
+  "id": "twitch-mcp-27f7ca70",
+  "name": "twitch-mcp",
+  "description": "A Model Context Protocol (MCP) server which allows MCP Clients (such as Claude) to connect to Twitch Chat.",
+  "repo_url": "https://github.com/TomCools/twitch-mcp",
+  "source_hub": "mcp_so",
+  "owner": "TomCools",
+  "stars": 6,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp",
+    "integ",
+    "prod-comm"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "aa8f2d4e3fe39e962fc4326de1f45c9c83f39198",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 1,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:54:04Z",
+  "verification_level": "scanner_only"
+}

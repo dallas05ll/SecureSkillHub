@@ -1,0 +1,25 @@
+{
+  "id": "linear-mcp-59655562",
+  "name": "Linear-MCP",
+  "description": "Sample MCP server for learning purposes",
+  "repo_url": "https://github.com/peterchappy/Linear-MCP",
+  "source_hub": "mcp_so",
+  "owner": "peterchappy",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "prod-pm"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "9279f5c105be4e03f7811fd6354387820b9e0817",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 6,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:41Z",
+  "verification_level": "scanner_only"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "aws-sample-gen-ai-mcp-server-9eb41a99",
+  "name": "aws-sample-gen-ai-mcp-server",
+  "description": "sample code using gen-ai(bedrock) with mcp-server",
+  "repo_url": "https://github.com/jikang-jeong/aws-sample-gen-ai-mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "jikang-jeong",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "dev",
+    "integ-cloud",
+    "integ-cloud-aws"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "cdcc4b32f97ee7872a391d504429e1c0d4fb472c",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 26,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:41Z",
+  "verification_level": "scanner_only"
+}

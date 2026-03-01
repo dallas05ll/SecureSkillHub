@@ -1,0 +1,30 @@
+{
+  "id": "searchapi-mcp-server-48045834",
+  "name": "searchapi-mcp-server",
+  "description": "TypeScript Model Context Protocol (MCP) server boilerplate providing search API tools/resources. Includes CLI support and extensible structure for connecting AI systems (LLMs) to external data sources (Google, Bing, etc.) via SearchAPI.site",
+  "repo_url": "https://github.com/mrgoonie/searchapi-mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "mrgoonie",
+  "stars": 14,
+  "primary_language": "unknown",
+  "tags": [
+    "data",
+    "data-ai",
+    "data-ai-nlp",
+    "integ",
+    "util",
+    "util-search"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "32cba9202931c43901e5609a73fa1462af5ad8d1",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 33,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:42:34Z",
+  "verification_level": "scanner_only"
+}

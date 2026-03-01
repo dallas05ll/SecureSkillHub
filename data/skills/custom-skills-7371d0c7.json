@@ -1,0 +1,27 @@
+{
+  "id": "custom-skills-7371d0c7",
+  "name": "custom-skills",
+  "description": "Public repo for my custom-built claude skills (currently just animation-review)",
+  "repo_url": "https://github.com/jaaaaaaaaaaack/custom-skills",
+  "source_hub": "github_search",
+  "skill_type": "agent_skill",
+  "owner": "jaaaaaaaaaaack",
+  "stars": 15,
+  "license": "",
+  "primary_language": "markdown",
+  "tags": [
+    "data-ai"
+  ],
+  "verification_status": "pass",
+  "overall_score": 78,
+  "risk_level": "medium",
+  "verified_commit": null,
+  "scan_summary": null,
+  "last_updated": "2026-02-16T07:41:55Z",
+  "findings_summary": {
+    "notes": "Metadata-based verification. Score=78. Signals: stars=15 (>=10, +5); no license detected; owner='jaaaaaaaaaaack' (+3); primary_language='markdown'; source_hub='github_search'. Status: pass. Risk: medium."
+  },
+  "trust_level": "low",
+  "scan_date": "2026-02-26T06:14:56Z",
+  "verification_level": "metadata_only"
+}

@@ -1,0 +1,26 @@
+{
+  "id": "youtube-mcp-5937851e",
+  "name": "youtube_mcp",
+  "description": "youtube transcriber mcp server",
+  "repo_url": "https://github.com/format37/youtube_mcp",
+  "source_hub": "mcp_so",
+  "owner": "format37",
+  "stars": 29,
+  "primary_language": "unknown",
+  "tags": [
+    "integ-social",
+    "util-media"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "8088308e89611ac98fba95385f65e1e11f332051",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 10,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:32:11Z",
+  "verification_level": "scanner_only"
+}

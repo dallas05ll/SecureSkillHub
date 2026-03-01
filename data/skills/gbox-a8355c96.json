@@ -1,0 +1,31 @@
+{
+  "id": "gbox-a8355c96",
+  "name": "gbox",
+  "description": "GBOX provides environments for AI Agents to operate computer and mobile devices.\r\n\r\nMobile Scenario: Your agents can use GBOX to develop/test android apps, or run apps on the Android to complete various tasks(mobile automation).\r\n\r\nDesktop Scenario: Your agents can use GBOX to operate desktop apps such as browser, terminal, VSCode, etc(desktop automation).\r\n\r\nMCP: You can also plug GBOX MCP to any Agent you like, such as Cursor, Claude Code. These agents will instantly get the ability to oper...",
+  "repo_url": "https://github.com/babelcloud/gbox",
+  "source_hub": "mcp_so",
+  "owner": "babelcloud",
+  "stars": 164,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "dev",
+    "dev-testing",
+    "dev-web",
+    "prod",
+    "prod-pm",
+    "util-search"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "ebafd5ea5287b08321078fedd0eceda847e78702",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 80,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-27T06:36:35Z",
+  "verification_level": "scanner_only"
+}

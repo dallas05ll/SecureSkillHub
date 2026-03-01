@@ -1,0 +1,25 @@
+{
+  "id": "flux-schnell-mcp-7f3043b4",
+  "name": "flux-schnell-mcp",
+  "description": "mcp server to generate image via replicate flux schnell",
+  "repo_url": "https://github.com/ckz/flux-schnell-mcp",
+  "source_hub": "mcp_so",
+  "owner": "ckz",
+  "stars": 3,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai-vision"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "279bb274a02af71476dc0851c8f2a0e63b117a82",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 4,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:04:50Z",
+  "verification_level": "scanner_only"
+}

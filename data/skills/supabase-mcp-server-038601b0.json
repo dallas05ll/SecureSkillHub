@@ -1,0 +1,28 @@
+{
+  "id": "supabase-mcp-server-038601b0",
+  "name": "supabase-mcp-server",
+  "description": "Query MCP enables end-to-end management of Supabase via chat interface: read & write query executions, management API support, automatic migration versioning, access to logs and much more.",
+  "repo_url": "https://github.com/alexander-zuev/supabase-mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "alexander-zuev",
+  "stars": 813,
+  "primary_language": "unknown",
+  "tags": [
+    "data-db",
+    "integ",
+    "prod",
+    "prod-comm"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 75,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-27T02:26:21Z",
+  "verification_level": "scanner_only"
+}

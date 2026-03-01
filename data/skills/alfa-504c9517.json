@@ -1,0 +1,30 @@
+{
+  "id": "alfa-504c9517",
+  "name": "alfa",
+  "description": "Alfa seamlessly brings the latest code docs directly into your AI code editor. Our MCP (model context protocol) server, is like a cheat code that helps AI code editors like Cursor just work, no matter what LLM you're using.",
+  "repo_url": "https://github.com/alfahq/alfa",
+  "source_hub": "mcp_so",
+  "owner": "alfahq",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp",
+    "dev",
+    "dev-testing",
+    "prod-docs",
+    "repo_unavailable"
+  ],
+  "verification_status": "manual_review",
+  "overall_score": 0,
+  "risk_level": "high",
+  "verified_commit": "",
+  "scan_summary": null,
+  "scan_date": "2026-02-28T20:27:25Z",
+  "findings_summary": {
+    "error": "clone failed: Cloning into '/var/folders/pq/bb71gjzd01d29nnmqrhqr2rc0000gn/T/strict5_alfa-504c9517_j2mw0_wi/repo'...\nfatal: could not read Username for 'https://github.com': Device not configured",
+    "supervisor_approved": false,
+    "supervisor_confidence": 0
+  },
+  "repo_status": "unavailable"
+}

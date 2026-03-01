@@ -1,0 +1,26 @@
+{
+  "id": "model-context-protocol-8e33c65f",
+  "name": "model-context-protocol",
+  "description": "MCP Server Package",
+  "repo_url": "https://github.com/mcp-agents/model-context-protocol",
+  "source_hub": "mcp_so",
+  "owner": "mcp-agents",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "bca1ac96384bf9d1f8a625fe77f7a27fe2514c0e",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 5,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:40Z",
+  "verification_level": "scanner_only"
+}

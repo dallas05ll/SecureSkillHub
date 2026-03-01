@@ -1,0 +1,26 @@
+{
+  "id": "automcp-2e696c46",
+  "name": "automcp",
+  "description": "Library for autogenerating MCP server and client code based on a specified YAML schema",
+  "repo_url": "https://github.com/beaukuhn/automcp",
+  "source_hub": "mcp_so",
+  "owner": "beaukuhn",
+  "stars": 1,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "dev"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "12ab1df20197a2c7bbf4df95d12df7464fc92cc2",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 20,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:40Z",
+  "verification_level": "scanner_only"
+}

@@ -1,0 +1,25 @@
+{
+  "id": "mcp-find-e7cd8e7c",
+  "name": "mcp-find",
+  "description": "Search for MCP Servers from the command line",
+  "repo_url": "https://github.com/mcprepository/mcp-find",
+  "source_hub": "mcp_so",
+  "owner": "mcprepository",
+  "stars": 5,
+  "primary_language": "unknown",
+  "tags": [
+    "util-search"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "c4c9a68c83f34a526db6f4f14c165cdda8ef0f51",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 4,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:54:02Z",
+  "verification_level": "scanner_only"
+}

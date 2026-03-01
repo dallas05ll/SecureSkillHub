@@ -1,0 +1,26 @@
+{
+  "id": "my-fastmcp-example-5872f837",
+  "name": "My-FastMCP-Example",
+  "description": "My example of setting up a MCP server",
+  "repo_url": "https://github.com/GanonUchiha/My-FastMCP-Example",
+  "source_hub": "mcp_so",
+  "owner": "GanonUchiha",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "d2b6652ea9bac93c7b65f4c4d15970d153d97bea",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 3,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:41Z",
+  "verification_level": "scanner_only"
+}

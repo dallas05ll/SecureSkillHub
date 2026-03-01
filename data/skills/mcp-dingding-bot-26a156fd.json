@@ -1,0 +1,27 @@
+{
+  "id": "mcp-dingding-bot-26a156fd",
+  "name": "mcp-dingding-bot",
+  "description": "MCP Server for send text/markdown message via dingding (aka dingtalk) group custom robot",
+  "repo_url": "https://github.com/Shawyeok/mcp-dingding-bot",
+  "source_hub": "mcp_so",
+  "owner": "Shawyeok",
+  "stars": 12,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai-nlp",
+    "prod-comm",
+    "prod-docs"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "a878a3054a5e1a401c39052e1b4530f7fc2c1784",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 5,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:42:36Z",
+  "verification_level": "scanner_only"
+}

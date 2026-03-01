@@ -1,0 +1,22 @@
+{
+  "id": "mcp-scan-97994414",
+  "name": "mcp-scan",
+  "description": "A security scanning tool for MCP servers",
+  "repo_url": "https://github.com/invariantlabs-ai/mcp-scan",
+  "source_hub": "mcp_so",
+  "owner": "invariantlabs-ai",
+  "stars": 1585,
+  "primary_language": "unknown",
+  "tags": [
+    "sec",
+    "sec-scan",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 92,
+  "risk_level": "low",
+  "verified_commit": null,
+  "scan_summary": null,
+  "scan_date": "2026-02-26T03:00:50Z",
+  "verification_level": "scanner_only"
+}

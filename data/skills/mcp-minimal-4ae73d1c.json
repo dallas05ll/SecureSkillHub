@@ -1,0 +1,26 @@
+{
+  "id": "mcp-minimal-4ae73d1c",
+  "name": "mcp-minimal",
+  "description": "A minimal MCP server to validate that MCP client configurations are working.",
+  "repo_url": "https://github.com/janspoerer/mcp-minimal",
+  "source_hub": "mcp_so",
+  "owner": "janspoerer",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "d1bb9d44d800b3b326d8a6e51452b20f3119796f",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 4,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:42Z",
+  "verification_level": "scanner_only"
+}

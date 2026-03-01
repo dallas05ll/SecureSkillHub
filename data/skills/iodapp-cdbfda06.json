@@ -1,0 +1,26 @@
+{
+  "id": "iodapp-cdbfda06",
+  "name": "iodapp",
+  "description": "discover and install MCP servers",
+  "repo_url": "https://github.com/iodmcp/iodapp",
+  "source_hub": "mcp_so",
+  "owner": "iodmcp",
+  "stars": 7,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "7fba18b4eca50b25ddb33b37f4d64a0a0d49b907",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 37,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:54:02Z",
+  "verification_level": "scanner_only"
+}

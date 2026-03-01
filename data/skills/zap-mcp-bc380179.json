@@ -1,0 +1,25 @@
+{
+  "id": "zap-mcp-bc380179",
+  "name": "ZAP-MCP",
+  "description": "VIBE CODING 😈 lol",
+  "repo_url": "https://github.com/ajtazer/ZAP-MCP",
+  "source_hub": "mcp_so",
+  "owner": "ajtazer",
+  "stars": 16,
+  "primary_language": "unknown",
+  "tags": [
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "5954b07212c1d52c26edcbc830a560dc6acdfe5a",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 32,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:42:34Z",
+  "verification_level": "scanner_only"
+}

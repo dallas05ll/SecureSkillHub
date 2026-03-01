@@ -1,0 +1,27 @@
+{
+  "id": "mcp-attr-example-cargo-metadata-aef29cdd",
+  "name": "mcp-attr-example-cargo-metadata",
+  "description": "AI任せで作ってみたMCP Server",
+  "repo_url": "https://github.com/frozenlib/mcp-attr-example-cargo-metadata",
+  "source_hub": "mcp_so",
+  "owner": "frozenlib",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "data",
+    "data-ai",
+    "dev-web-backend-rust"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "e8ad6fda4f95d131ab908134abe33fe41ebec0e8",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 2,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:41Z",
+  "verification_level": "scanner_only"
+}

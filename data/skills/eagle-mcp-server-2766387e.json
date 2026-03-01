@@ -1,0 +1,29 @@
+{
+  "id": "eagle-mcp-server-2766387e",
+  "name": "eagle-mcp-server",
+  "description": "A Model Context Protocol (MCP) server for Eagle. Manages local media files (e.g., images, mp3, mp4)",
+  "repo_url": "https://github.com/tuki0918/eagle-mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "tuki0918",
+  "stars": 12,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp",
+    "data-ai-vision",
+    "util-file",
+    "util-media"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "297b9f1dab35cb8011cd535f789004325203f69b",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 17,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:42:34Z",
+  "verification_level": "scanner_only"
+}

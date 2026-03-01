@@ -1,0 +1,25 @@
+{
+  "id": "mcp-server-f15d7067",
+  "name": "MCP-Server",
+  "description": "MCP Server for tool calling",
+  "repo_url": "https://github.com/datzii/MCP-Server",
+  "source_hub": "mcp_so",
+  "owner": "datzii",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "ab97659c9edfdfa16ee0bd5af77a6ae88f4ca4f8",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 5,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:41Z",
+  "verification_level": "scanner_only"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "core-52045eb4",
+  "name": "core",
+  "description": "A framework helps you quickly build AI Native IDE products. MCP Client, supports Model Context Protocol (MCP) tools via MCP server.",
+  "repo_url": "https://github.com/opensumi/core",
+  "source_hub": "mcp_so",
+  "owner": "opensumi",
+  "stars": 3606,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "low",
+  "verified_commit": "4ccd4542e2080c557d7f4eab7102a890118d242f",
+  "scan_summary": null,
+  "scan_date": "2026-02-26T03:00:50Z",
+  "verification_level": "scanner_only"
+}

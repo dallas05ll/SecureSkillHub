@@ -1,0 +1,27 @@
+{
+  "id": "mcp-db-context-aea4c879",
+  "name": "mcp-db-context",
+  "description": "MCP Server for working with large Oracle databases",
+  "repo_url": "https://github.com/danielmeppiel/mcp-db-context",
+  "source_hub": "mcp_so",
+  "owner": "danielmeppiel",
+  "stars": 115,
+  "primary_language": "unknown",
+  "tags": [
+    "data",
+    "data-ai-nlp",
+    "data-db"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "37ce2ead4e8caa274eb9442b44aff7f7a59573dd",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 26,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-27T06:40:44Z",
+  "verification_level": "scanner_only"
+}

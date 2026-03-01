@@ -1,0 +1,25 @@
+{
+  "id": "mcp-synolink-36af583c",
+  "name": "MCP-SynoLink",
+  "description": "MCP server for Synology NAS file operations",
+  "repo_url": "https://github.com/Do-Boo/MCP-SynoLink",
+  "source_hub": "mcp_so",
+  "owner": "Do-Boo",
+  "stars": 20,
+  "primary_language": "unknown",
+  "tags": [
+    "util-file"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "8705c86928c4d91dbf37e8b31b09e1c2dda7aa45",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 4,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:32:11Z",
+  "verification_level": "scanner_only"
+}

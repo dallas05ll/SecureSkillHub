@@ -1,0 +1,27 @@
+{
+  "id": "aleph-10-2b29fcfd",
+  "name": "aleph-10",
+  "description": "Vector Memory MCP Server - An MCP server with vector-based memory storage capabilities",
+  "repo_url": "https://github.com/bjkemp/aleph-10",
+  "source_hub": "mcp_so",
+  "owner": "bjkemp",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "data-db-vector",
+    "prod-notes",
+    "util-file"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "64de243371e8e7ca9cfc27c891c9eef7981330c3",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 34,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:41Z",
+  "verification_level": "scanner_only"
+}

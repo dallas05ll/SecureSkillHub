@@ -1,0 +1,31 @@
+{
+  "id": "mnemonic-c4f37211",
+  "name": "mnemonic",
+  "description": "Persistent filesystem-based memory system for Claude Code. Pure MIF Level 3 compliant memory storage with YAML frontmatter, bi-temporal tracking, and proactive hooks. No dependencies - just markdown files and git.",
+  "repo_url": "https://github.com/zircote/mnemonic",
+  "source_hub": "github_search",
+  "skill_type": "agent_skill",
+  "owner": "zircote",
+  "stars": 6,
+  "license": "mit",
+  "primary_language": "markdown",
+  "tags": [
+    "data-ai",
+    "dev",
+    "prod-docs",
+    "prod-notes",
+    "util-file"
+  ],
+  "verification_status": "pass",
+  "overall_score": 78,
+  "risk_level": "medium",
+  "verified_commit": null,
+  "scan_summary": null,
+  "last_updated": "2026-02-23T00:54:23Z",
+  "findings_summary": {
+    "notes": "Metadata-based verification. Score=78. Signals: stars=6; license='mit' (+5); owner='zircote' (+3); primary_language='markdown'; source_hub='github_search'. Status: pass. Risk: medium."
+  },
+  "trust_level": "low",
+  "scan_date": "2026-02-26T06:14:56Z",
+  "verification_level": "metadata_only"
+}

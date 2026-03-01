@@ -1,0 +1,26 @@
+{
+  "id": "mcp-this-b944da81",
+  "name": "mcp-this",
+  "description": "Create an MCP server for any command",
+  "repo_url": "https://github.com/shane-kercheval/mcp-this",
+  "source_hub": "mcp_so",
+  "owner": "shane-kercheval",
+  "stars": 15,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "cddae530d2ec6f320f80a25dc51dd70b22a7df0c",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 32,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:42:36Z",
+  "verification_level": "scanner_only"
+}

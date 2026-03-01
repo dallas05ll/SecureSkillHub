@@ -1,0 +1,29 @@
+{
+  "id": "acc-mcp-v0-2-2fa49294",
+  "name": "ACC_MCP_V0.2",
+  "description": "Model Context Protocol (MCP) server for Autodesk Construction Cloud Issues API",
+  "repo_url": "https://github.com/itaico82/ACC_MCP_V0.2",
+  "source_hub": "mcp_so",
+  "owner": "itaico82",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp",
+    "integ",
+    "integ-cloud",
+    "repo_unavailable"
+  ],
+  "verification_status": "manual_review",
+  "overall_score": 0,
+  "risk_level": "high",
+  "verified_commit": "",
+  "scan_summary": null,
+  "scan_date": "2026-02-28T20:27:23Z",
+  "findings_summary": {
+    "error": "clone failed: Cloning into '/var/folders/pq/bb71gjzd01d29nnmqrhqr2rc0000gn/T/strict5_acc-mcp-v0-2-2fa49294_ffrdezyo/repo'...\nfatal: could not read Username for 'https://github.com': Device not configured",
+    "supervisor_approved": false,
+    "supervisor_confidence": 0
+  },
+  "repo_status": "unavailable"
+}

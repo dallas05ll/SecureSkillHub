@@ -1,0 +1,27 @@
+{
+  "id": "mcp-server-malaysia-prayer-time-de520374",
+  "name": "mcp-server-malaysia-prayer-time",
+  "description": "A Model Context Protocol (MCP) server for Malaysia Prayer Time data",
+  "repo_url": "https://github.com/amanasmuei/mcp-server-malaysia-prayer-time",
+  "source_hub": "mcp_so",
+  "owner": "amanasmuei",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "data",
+    "data-ai",
+    "data-ai-nlp"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "3650b9a3b366c3f4c75b90d167fcb7e936bf51eb",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 34,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:40Z",
+  "verification_level": "scanner_only"
+}

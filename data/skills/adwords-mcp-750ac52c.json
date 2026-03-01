@@ -1,0 +1,26 @@
+{
+  "id": "adwords-mcp-750ac52c",
+  "name": "adwords-mcp",
+  "description": "A cringe-worthy MCP server that serves ads to developers in Cursor, Claude, and other clients",
+  "repo_url": "https://github.com/gregce/adwords-mcp",
+  "source_hub": "mcp_so",
+  "owner": "gregce",
+  "stars": 6,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "dev"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "ac4c6ac1fa064f6151ee9034797e910e6fd134a5",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 23,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:54:02Z",
+  "verification_level": "scanner_only"
+}

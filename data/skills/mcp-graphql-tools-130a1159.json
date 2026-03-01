@@ -1,0 +1,27 @@
+{
+  "id": "mcp-graphql-tools-130a1159",
+  "name": "mcp-graphql-tools",
+  "description": "GraphQL MCP server for AI assistants",
+  "repo_url": "https://github.com/saewoohan/mcp-graphql-tools",
+  "source_hub": "mcp_so",
+  "owner": "saewoohan",
+  "stars": 8,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-db-graph",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "81db1dd11652ca0c19852d3251fbd0bfcc1d7429",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 7,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:42:34Z",
+  "verification_level": "scanner_only"
+}

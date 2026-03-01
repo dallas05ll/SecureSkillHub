@@ -1,0 +1,27 @@
+{
+  "id": "octagon-private-companies-mcp-504aeb1e",
+  "name": "octagon-private-companies-mcp",
+  "description": "The Octagon Private Companies MCP server provides specialized AI-powered private company information and financial data analysis capabilities by integrating with advanced company intelligence agents. Covers comprehensive business intelligence, financial metrics, employee trends, and industry benchmarks.",
+  "repo_url": "https://github.com/OctagonAI/octagon-private-companies-mcp",
+  "source_hub": "mcp_so",
+  "owner": "OctagonAI",
+  "stars": 1,
+  "primary_language": "unknown",
+  "tags": [
+    "data",
+    "data-ai",
+    "util-monitor"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "40f3386b5480719cec44a381b1be278c6a0da138",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 7,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:42Z",
+  "verification_level": "scanner_only"
+}

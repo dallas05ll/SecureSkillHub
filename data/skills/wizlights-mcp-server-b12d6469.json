@@ -1,0 +1,26 @@
+{
+  "id": "wizlights-mcp-server-b12d6469",
+  "name": "wizlights-mcp-server",
+  "description": "Model Context Protocol (MCP) server to allow LLMs to controls WiZ devices.",
+  "repo_url": "https://github.com/jeettrivedi/wizlights-mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "jeettrivedi",
+  "stars": 1,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "8e63fc2c55b3700968e3c9aed453c3efb3a16eb0",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 16,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:41Z",
+  "verification_level": "scanner_only"
+}

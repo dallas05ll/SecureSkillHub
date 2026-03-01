@@ -1,0 +1,26 @@
+{
+  "id": "storyblok-mcp-server-f59ac2cc",
+  "name": "storyblok-mcp-server",
+  "description": "The Storyblok MCP server enables your AI assistants to directly access and manage your Storyblok spaces, stories, components, assets, workflows, and more.",
+  "repo_url": "https://github.com/Kiran1689/storyblok-mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "Kiran1689",
+  "stars": 36,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "prod"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "704df7f98d5a73176b81bcb20c989590eba8516a",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 36,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:32:11Z",
+  "verification_level": "scanner_only"
+}

@@ -1,0 +1,27 @@
+{
+  "id": "simple-timer-mcp-server-25557fbe",
+  "name": "Simple-Timer-MCP-Server",
+  "description": "An MCP (Model Context Protocol) Server that provides interval timing functionality using token-based time tracking.",
+  "repo_url": "https://github.com/tonyOgbonna/Simple-Timer-MCP-Server",
+  "source_hub": "mcp_so",
+  "owner": "tonyOgbonna",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp",
+    "sec-crypto"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "5c47c38c51a87b7c80a07f525ec9ccf89383475b",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 5,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:40Z",
+  "verification_level": "scanner_only"
+}

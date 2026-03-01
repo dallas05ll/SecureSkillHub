@@ -1,0 +1,21 @@
+{
+  "id": "mcp-foundry-b006b243",
+  "name": "mcp-foundry",
+  "description": "A MCP Server for Azure AI Foundry",
+  "repo_url": "https://github.com/azure-ai-foundry/mcp-foundry",
+  "source_hub": "mcp_so",
+  "owner": "azure-ai-foundry",
+  "stars": 235,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "integ-cloud",
+    "integ-cloud-azure"
+  ],
+  "verification_status": "fail",
+  "overall_score": 10,
+  "risk_level": "critical",
+  "verified_commit": "8902e5c9ee52b3780ef5bb4f14d957e6c7986214",
+  "scan_summary": null,
+  "scan_date": "2026-02-27T06:14:02Z"
+}

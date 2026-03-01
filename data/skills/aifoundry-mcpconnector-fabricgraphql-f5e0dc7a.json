@@ -1,0 +1,30 @@
+{
+  "id": "aifoundry-mcpconnector-fabricgraphql-f5e0dc7a",
+  "name": "AIFoundry-MCPConnector-FabricGraphQL",
+  "description": "MCP Client and Server apps to demo integration of Azure OpenAI-based AI agent with a Data Warehouse, exposed through GraphQL in Microsoft Fabric.",
+  "repo_url": "https://github.com/LazaUK/AIFoundry-MCPConnector-FabricGraphQL",
+  "source_hub": "mcp_so",
+  "owner": "LazaUK",
+  "stars": 10,
+  "primary_language": "unknown",
+  "tags": [
+    "data",
+    "data-ai",
+    "data-db-graph",
+    "integ",
+    "integ-cloud",
+    "integ-cloud-azure"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "25253e6aa532b14fb3893475579243fab607264c",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 4,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:42:34Z",
+  "verification_level": "scanner_only"
+}

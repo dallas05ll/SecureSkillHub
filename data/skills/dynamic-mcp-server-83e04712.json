@@ -1,0 +1,26 @@
+{
+  "id": "dynamic-mcp-server-83e04712",
+  "name": "dynamic-mcp-server",
+  "description": "A flexible and extensible framework for building Model Context Protocol (MCP) servers that conforms to the [Model Context Protocol specification](",
+  "repo_url": "https://github.com/scitara-cto/dynamic-mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "scitara-cto",
+  "stars": 11,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "f3cf96a4da34f80c7e1275a40858fe449f069320",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 91,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:42:36Z",
+  "verification_level": "scanner_only"
+}

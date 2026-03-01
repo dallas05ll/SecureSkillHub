@@ -1,0 +1,26 @@
+{
+  "id": "attack-mcp-server-c9524e5e",
+  "name": "attAck-mcp-server",
+  "description": "This project is an MCP (Model Context Protocol) server for querying ATT&CK (Adversarial Tactics, Techniques, and Common Knowledge) techniques and tactics. It provides a way to access and retrieve information about various attack techniques and tactics used by adversaries.",
+  "repo_url": "https://github.com/alex-llm/attAck-mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "alex-llm",
+  "stars": 3,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "4f9a7ada6e58d95035eceb2a735c07998d200034",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 6,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:04:51Z",
+  "verification_level": "scanner_only"
+}

@@ -1,0 +1,27 @@
+{
+  "id": "tools-d8cb703a",
+  "name": "tools",
+  "description": "Monorepo for Sylph Lab Model Context Protocol (MCP) tools and servers.",
+  "repo_url": "https://github.com/sylphlab/tools",
+  "source_hub": "mcp_so",
+  "owner": "sylphlab",
+  "stars": 4,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "c723bdae8e992d69a88f951b23fff3d2c027c468",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 309,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:04:51Z",
+  "verification_level": "scanner_only"
+}

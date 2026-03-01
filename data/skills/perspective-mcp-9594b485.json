@@ -1,0 +1,26 @@
+{
+  "id": "perspective-mcp-9594b485",
+  "name": "perspective-mcp",
+  "description": "MCP server for multi-perspective analysis and structured debates",
+  "repo_url": "https://github.com/FiveOhhWon/perspective-mcp",
+  "source_hub": "mcp_so",
+  "owner": "FiveOhhWon",
+  "stars": 1,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "6e1212af244d24032d8cad04311d43ea6ff6c91f",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 11,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:42Z",
+  "verification_level": "scanner_only"
+}

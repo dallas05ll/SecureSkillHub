@@ -1,0 +1,49 @@
+{
+  "id": "test-fixing-c0fee197",
+  "name": "Test Fixing",
+  "description": "Systematically identifies and fixes all failing tests using smart error grouping strategies. Runs tests, analyzes failure patterns, groups similar errors, and applies targeted fixes.",
+  "repo_url": "https://github.com/mhattingpete/claude-skills-marketplace/tree/main/engineering-workflow-plugin/skills/test-fixing",
+  "source_hub": "claude_skills_hub",
+  "skill_type": "agent_skill",
+  "owner": "mhattingpete",
+  "stars": 0,
+  "forks": 47,
+  "license": "Apache-2.0",
+  "primary_language": "Markdown",
+  "tags": [
+    "data-ai",
+    "dev-testing",
+    "repo_unavailable"
+  ],
+  "source_tags": [
+    "automation",
+    "ai",
+    "testing",
+    "git",
+    "coding",
+    "debugging"
+  ],
+  "categories": [
+    "dev",
+    "productivity"
+  ],
+  "version": "1.0.0",
+  "requires_code_execution": false,
+  "verification_status": "pass",
+  "overall_score": 80,
+  "risk_level": "low",
+  "verified_commit": null,
+  "scan_summary": null,
+  "findings_summary": {
+    "notes": "Subdirectory confirmed to exist at engineering-workflow-plugin/skills/test-fixing with a SKILL.md. Parent repo mhattingpete/claude-skills-marketplace is active (406 stars, Apache-2.0, last pushed Jan 2026). SKILL.md has clear trigger conditions, systematic approach, and no external network calls or script execution required. Skill is purely declarative. No risk indicators found."
+  },
+  "last_updated": "2026-02-25T23:59:40Z",
+  "parent_repo_stars": 406,
+  "is_monorepo_child": true,
+  "trust_level": "medium",
+  "scan_date": "2026-02-26T03:00:51Z",
+  "repo_status": "unavailable",
+  "repo_check_date": "2026-02-28T20:53:01.219536+00:00",
+  "repo_check_error": "fatal: repository 'https://github.com/mhattingpete/claude-skills-marketplace/tree/main/engineering-workflow-plugin/skills/test-fixing/' not found",
+  "verification_level": "scanner_only"
+}

@@ -1,0 +1,25 @@
+{
+  "id": "springboot-mcpserver-junit-05f8c0c5",
+  "name": "springboot-MCPserver-JUnit",
+  "description": "A template idea project by springboot、mcp (server)、junit，including junit test methods.",
+  "repo_url": "https://github.com/dreamcenter/springboot-MCPserver-JUnit",
+  "source_hub": "mcp_so",
+  "owner": "dreamcenter",
+  "stars": 13,
+  "primary_language": "unknown",
+  "tags": [
+    "dev-testing"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "b201c77e89b69353e6cbef7b91182a706d34f9aa",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 1,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:42:36Z",
+  "verification_level": "scanner_only"
+}

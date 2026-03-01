@@ -1,0 +1,26 @@
+{
+  "id": "mysql-mcp-4eed3af1",
+  "name": "mysql-mcp",
+  "description": "MCP server that provides direct access to MySQL databases",
+  "repo_url": "https://github.com/LeonMelamud/mysql-mcp",
+  "source_hub": "mcp_so",
+  "owner": "LeonMelamud",
+  "stars": 7,
+  "primary_language": "unknown",
+  "tags": [
+    "data",
+    "data-db"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "24ab1744e95c20a7638f427f84e2143d7fd5c325",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 10,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:54:02Z",
+  "verification_level": "scanner_only"
+}

@@ -1,0 +1,26 @@
+{
+  "id": "rss-reader-server-688bb5c1",
+  "name": "rss-reader-server",
+  "description": "Simple RSS reader MCP Server",
+  "repo_url": "https://github.com/tanevanwifferen/rss-reader-server",
+  "source_hub": "mcp_so",
+  "owner": "tanevanwifferen",
+  "stars": 3,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "703fec11de1c3232bc223922aa4e67a8e4e172ea",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 5,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:04:50Z",
+  "verification_level": "scanner_only"
+}

@@ -1,0 +1,27 @@
+{
+  "id": "unity-code-e3c4c529",
+  "name": "unity-code",
+  "description": "Enables AI agents to compile code and run tests in Unity Editor.",
+  "repo_url": "https://github.com/hackerzhuli/unity-code",
+  "source_hub": "mcp_so",
+  "owner": "hackerzhuli",
+  "stars": 32,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "dev",
+    "dev-testing"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "515f3ef62459e39ded927ba0485efcfc59f0d1e8",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 56,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:32:11Z",
+  "verification_level": "scanner_only"
+}

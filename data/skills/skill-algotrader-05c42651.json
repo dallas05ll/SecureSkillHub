@@ -1,0 +1,31 @@
+{
+  "id": "skill-algotrader-05c42651",
+  "name": "skill-algotrader",
+  "description": "Quantitative trading skill for Indian equity markets with Zerodha integration.   Generate trading bots, fetch live index data, and manage risk with Claude Code.",
+  "repo_url": "https://github.com/javajack/skill-algotrader",
+  "source_hub": "github_search",
+  "skill_type": "agent_skill",
+  "owner": "javajack",
+  "stars": 2,
+  "license": "",
+  "primary_language": "markdown",
+  "tags": [
+    "data",
+    "data-ai",
+    "dev",
+    "integ",
+    "util-search"
+  ],
+  "verification_status": "pass",
+  "overall_score": 73,
+  "risk_level": "medium",
+  "verified_commit": null,
+  "scan_summary": null,
+  "last_updated": "2026-02-22T11:14:17Z",
+  "findings_summary": {
+    "notes": "Metadata-based verification. Score=73. Signals: stars=2; no license detected; owner='javajack' (+3); primary_language='markdown'; source_hub='github_search'. Status: pass. Risk: medium."
+  },
+  "trust_level": "low",
+  "scan_date": "2026-02-26T06:14:56Z",
+  "verification_level": "metadata_only"
+}

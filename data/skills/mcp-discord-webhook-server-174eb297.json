@@ -1,0 +1,26 @@
+{
+  "id": "mcp-discord-webhook-server-174eb297",
+  "name": "mcp-discord-webhook-server",
+  "description": "一个用于发送discord信息的mcp webhook工具",
+  "repo_url": "https://github.com/mabingyin-seek/mcp-discord-webhook-server",
+  "source_hub": "mcp_so",
+  "owner": "mabingyin-seek",
+  "stars": 1,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "prod-comm"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "341f0a4445e1f858982b7e5c35a51e54f184e84e",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 5,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:40Z",
+  "verification_level": "scanner_only"
+}

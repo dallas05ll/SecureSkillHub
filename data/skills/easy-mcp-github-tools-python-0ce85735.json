@@ -1,0 +1,28 @@
+{
+  "id": "easy-mcp-github-tools-python-0ce85735",
+  "name": "easy-mcp-github-tools-python",
+  "description": "A set of powerful tools designed for seamless integration with GitHub via MCP",
+  "repo_url": "https://github.com/ground-creative/easy-mcp-github-tools-python",
+  "source_hub": "mcp_so",
+  "owner": "ground-creative",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "dev-web-backend-python",
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "c4f1857af62505d2a0eebba13d4dc9663804f916",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 50,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:42Z",
+  "verification_level": "scanner_only"
+}

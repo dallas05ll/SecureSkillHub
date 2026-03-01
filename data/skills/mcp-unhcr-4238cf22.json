@@ -1,0 +1,26 @@
+{
+  "id": "mcp-unhcr-4238cf22",
+  "name": "mcp_unhcr",
+  "description": "MCP server provides access to UNHCR RDF",
+  "repo_url": "https://github.com/rvibek/mcp_unhcr",
+  "source_hub": "mcp_so",
+  "owner": "rvibek",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "5fef27a4cb174e10af0f94947191dcfe50c55f1c",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 6,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:40Z",
+  "verification_level": "scanner_only"
+}

@@ -1,0 +1,26 @@
+{
+  "id": "mcp-trino-d766bc97",
+  "name": "mcp-trino",
+  "description": "A high-performance Model Context Protocol (MCP) server for Trino implemented in Go. mcp, mcp-server, trino",
+  "repo_url": "https://github.com/heavenlycolle/mcp-trino",
+  "source_hub": "mcp_so",
+  "owner": "heavenlycolle",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "66a3c3b3f8a02687078defd23624b806f18781ad",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 12,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:41Z",
+  "verification_level": "scanner_only"
+}

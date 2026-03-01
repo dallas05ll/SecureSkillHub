@@ -1,0 +1,26 @@
+{
+  "id": "stape-mcp-server-ba9a440b",
+  "name": "stape-mcp-server",
+  "description": "Interact with the Seape API using AI assistants like Claude, or in AI-powered IDEs like Cursor.",
+  "repo_url": "https://github.com/stape-io/stape-mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "stape-io",
+  "stars": 7,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "integ"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "5f4a81142fd57523b5c27e3f2ed9a5d8018e0130",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 102,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:54:02Z",
+  "verification_level": "scanner_only"
+}

@@ -1,0 +1,26 @@
+{
+  "id": "allaboutai-yt-mcp-servers-c4f3a3c5",
+  "name": "AllAboutAI-YT_mcp-servers",
+  "description": "Mirror of",
+  "repo_url": "https://github.com/MCP-Mirror/AllAboutAI-YT_mcp-servers",
+  "source_hub": "mcp_so",
+  "owner": "MCP-Mirror",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "repo_unavailable"
+  ],
+  "verification_status": "manual_review",
+  "overall_score": 0,
+  "risk_level": "high",
+  "verified_commit": "",
+  "scan_summary": null,
+  "scan_date": "2026-02-28T20:27:25Z",
+  "findings_summary": {
+    "error": "clone failed: Cloning into '/var/folders/pq/bb71gjzd01d29nnmqrhqr2rc0000gn/T/strict5_allaboutai-yt-mcp-server_ns77f_h0/repo'...\nfatal: could not read Username for 'https://github.com': Device not configured",
+    "supervisor_approved": false,
+    "supervisor_confidence": 0
+  },
+  "repo_status": "unavailable"
+}

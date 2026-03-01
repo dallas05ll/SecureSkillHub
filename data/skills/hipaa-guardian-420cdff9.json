@@ -1,0 +1,30 @@
+{
+  "id": "hipaa-guardian-420cdff9",
+  "name": "hipaa-guardian",
+  "description": "AI agent skill for HIPAA compliance - PHI/PII detection, code scanning, audit reports, and remediation guidance",
+  "repo_url": "https://github.com/1Mangesh1/hipaa-guardian",
+  "source_hub": "github_search",
+  "skill_type": "agent_skill",
+  "owner": "1Mangesh1",
+  "stars": 4,
+  "license": "",
+  "primary_language": "markdown",
+  "tags": [
+    "data-ai",
+    "dev",
+    "sec-scan",
+    "util-media"
+  ],
+  "verification_status": "pass",
+  "overall_score": 73,
+  "risk_level": "medium",
+  "verified_commit": null,
+  "scan_summary": null,
+  "last_updated": "2026-02-09T05:45:31Z",
+  "findings_summary": {
+    "notes": "Metadata-based verification. Score=73. Signals: stars=4; no license detected; owner='1Mangesh1' (+3); primary_language='markdown'; source_hub='github_search'. Status: pass. Risk: medium."
+  },
+  "trust_level": "low",
+  "scan_date": "2026-02-26T06:14:56Z",
+  "verification_level": "metadata_only"
+}

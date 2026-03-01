@@ -1,0 +1,31 @@
+{
+  "id": "mcp-llm-fastapi-ui-e9df7df8",
+  "name": "mcp-llm-fastapi-ui",
+  "description": "A model that uses streamlit as frontend and MCP server(notion and postgres tools) and FAST API for integration",
+  "repo_url": "https://github.com/vasstavkumar/mcp-llm-fastapi-ui",
+  "source_hub": "mcp_so",
+  "owner": "vasstavkumar",
+  "stars": 1,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-db",
+    "dev-web-backend-python",
+    "integ",
+    "prod-docs",
+    "util",
+    "util-media"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "2630454a683eb209a001231fca3969987519d712",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 11,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:40Z",
+  "verification_level": "scanner_only"
+}

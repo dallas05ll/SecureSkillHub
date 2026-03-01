@@ -1,0 +1,25 @@
+{
+  "id": "translationx-mcp-server-61cf5467",
+  "name": "Translationx-mcp-server",
+  "description": "MCP Server for Translationx",
+  "repo_url": "https://github.com/Deep-Intelligent-Pharma/Translationx-mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "Deep-Intelligent-Pharma",
+  "stars": 4,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai-nlp"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "a56c33798a3a6504c79d6ef59e9f953c4714f88f",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 13,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:04:50Z",
+  "verification_level": "scanner_only"
+}

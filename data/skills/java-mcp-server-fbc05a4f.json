@@ -1,0 +1,25 @@
+{
+  "id": "java-mcp-server-fbc05a4f",
+  "name": "java_mcp_server",
+  "description": "Java 환경에서 MCP 서버를 구축하여 Claude Client와 연결해보자",
+  "repo_url": "https://github.com/seonghoo1217/java_mcp_server",
+  "source_hub": "mcp_so",
+  "owner": "seonghoo1217",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "62e5cfa857d987b1edc36ffae9d6f0b97830576b",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 1,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:42Z",
+  "verification_level": "scanner_only"
+}

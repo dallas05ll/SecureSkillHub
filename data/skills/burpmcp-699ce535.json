@@ -1,0 +1,26 @@
+{
+  "id": "burpmcp-699ce535",
+  "name": "BurpMCP",
+  "description": "MCP Server for Burpsuite",
+  "repo_url": "https://github.com/N0el4kLs/BurpMCP",
+  "source_hub": "mcp_so",
+  "owner": "N0el4kLs",
+  "stars": 7,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "5d639c4bec1a11812c6e66f247bc65eccd688e3a",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 3,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:54:02Z",
+  "verification_level": "scanner_only"
+}

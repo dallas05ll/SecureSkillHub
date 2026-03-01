@@ -1,0 +1,26 @@
+{
+  "id": "mcp-kubectl-server-f9fc8ce2",
+  "name": "mcp-kubectl-server",
+  "description": "mcp-k8's-server",
+  "repo_url": "https://github.com/bikramjitchawla/mcp-kubectl-server",
+  "source_hub": "mcp_so",
+  "owner": "bikramjitchawla",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "f2ee3818ea5e837c1f3df971c135599b0a205be3",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 28,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:41Z",
+  "verification_level": "scanner_only"
+}

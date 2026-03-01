@@ -1,0 +1,25 @@
+{
+  "id": "raidshadowlegendsbutitsmcp-d6d94cf7",
+  "name": "RaidShadowLegendsButItsMCP",
+  "description": "MCP server for Raid Shadow Legneds, Obviously",
+  "repo_url": "https://github.com/MadnessEngineering/RaidShadowLegendsButItsMCP",
+  "source_hub": "mcp_so",
+  "owner": "MadnessEngineering",
+  "stars": 1,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "7b7c2bd6be56564a0e7759cf07ab5f832a128326",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 7,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:40Z",
+  "verification_level": "scanner_only"
+}

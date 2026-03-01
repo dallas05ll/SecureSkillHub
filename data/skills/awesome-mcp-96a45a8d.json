@@ -1,0 +1,25 @@
+{
+  "id": "awesome-mcp-96a45a8d",
+  "name": "awesome-mcp",
+  "description": "A collection of mcp servers/client/sdks",
+  "repo_url": "https://github.com/MCPHubCloud/awesome-mcp",
+  "source_hub": "mcp_so",
+  "owner": "MCPHubCloud",
+  "stars": 22,
+  "primary_language": "unknown",
+  "tags": [
+    "dev"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "df64757e4d24ec924f2e78c1759c63c1c34775c0",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 1,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:32:12Z",
+  "verification_level": "scanner_only"
+}

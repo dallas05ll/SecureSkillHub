@@ -1,0 +1,25 @@
+{
+  "id": "mcp-hono-stateless-046381c0",
+  "name": "mcp-hono-stateless",
+  "description": "An example Hono MCP server using Streamable HTTP",
+  "repo_url": "https://github.com/mhart/mcp-hono-stateless",
+  "source_hub": "mcp_so",
+  "owner": "mhart",
+  "stars": 101,
+  "primary_language": "unknown",
+  "tags": [
+    "util-media"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "90ea3f09bfb546bad483c5ed0244271f1652df28",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 7,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-27T06:40:44Z",
+  "verification_level": "scanner_only"
+}

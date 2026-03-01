@@ -1,0 +1,26 @@
+{
+  "id": "mcp-server-google-cloud-logging-e79c8037",
+  "name": "mcp-server-google-cloud-logging",
+  "description": "gcloud で Logging からログを取得する",
+  "repo_url": "https://github.com/kazuhideoki/mcp-server-google-cloud-logging",
+  "source_hub": "mcp_so",
+  "owner": "kazuhideoki",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "integ-cloud",
+    "util-monitor"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "64f0d3316d53b12a9766b9a985ea5f0653684df4",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 6,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:40Z",
+  "verification_level": "scanner_only"
+}

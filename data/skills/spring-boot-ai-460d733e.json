@@ -1,0 +1,26 @@
+{
+  "id": "spring-boot-ai-460d733e",
+  "name": "spring-boot-ai",
+  "description": "🍀 🤖 Spring Boot AI - Evaluation Testing",
+  "repo_url": "https://github.com/rogervinas/spring-boot-ai",
+  "source_hub": "mcp_so",
+  "owner": "rogervinas",
+  "stars": 7,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "dev-testing"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "06fa8156ee33acb3786360476a8ea6f09a6fdc1d",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 7,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:54:02Z",
+  "verification_level": "scanner_only"
+}

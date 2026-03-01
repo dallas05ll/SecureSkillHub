@@ -1,0 +1,27 @@
+{
+  "id": "nps-mcp-3ed6546a",
+  "name": "nps_mcp",
+  "description": "Model Context Protocol (MCP) Server for National Park Services data",
+  "repo_url": "https://github.com/amysatterlee/nps_mcp",
+  "source_hub": "mcp_so",
+  "owner": "amysatterlee",
+  "stars": 3,
+  "primary_language": "unknown",
+  "tags": [
+    "data",
+    "data-ai",
+    "data-ai-nlp"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "3e5e3205f553d33b27b5d6e767de6a656859e3d7",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 5,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:04:50Z",
+  "verification_level": "scanner_only"
+}

@@ -1,0 +1,30 @@
+{
+  "id": "nextcloudmcp-e3d74d24",
+  "name": "nextcloudmcp",
+  "description": "A comprehensive Model Context Protocol (MCP) server for Nextcloud integration, providing AI agents with secure access to Nextcloud's file management, sharing, user administration, and system monitoring capabilities.",
+  "repo_url": "https://github.com/bizneto/nextcloudmcp",
+  "source_hub": "mcp_so",
+  "owner": "bizneto",
+  "stars": 2,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp",
+    "integ",
+    "integ-cloud",
+    "util-file",
+    "util-monitor"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "c261f4bccea9e5527e5c874b6e6ff6140999d860",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 28,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:04:50Z",
+  "verification_level": "scanner_only"
+}

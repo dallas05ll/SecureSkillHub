@@ -1,0 +1,32 @@
+{
+  "id": "mcp-ollama-server-afe592e3",
+  "name": "MCP-ollama_server",
+  "description": "Extends Model Context Protocol (MCP) to local LLMs via Ollama, enabling Claude-like tool use (files, web, email, GitHub, AI images) while keeping data private. Modular Python servers for on-prem AI. #LocalAI #MCP #Ollama",
+  "repo_url": "https://github.com/Sethuram2003/MCP-ollama_server",
+  "source_hub": "mcp_so",
+  "owner": "Sethuram2003",
+  "stars": 23,
+  "primary_language": "unknown",
+  "tags": [
+    "data",
+    "data-ai",
+    "data-ai-nlp",
+    "data-ai-vision",
+    "dev-web-backend-python",
+    "prod-comm",
+    "util",
+    "util-file"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "2ca8ce5d345721907527abd409a3e83627cdc3c6",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 11,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:32:11Z",
+  "verification_level": "scanner_only"
+}

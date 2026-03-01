@@ -1,0 +1,26 @@
+{
+  "id": "mcp-server-yahoo-finance-2dea3aa4",
+  "name": "mcp-server-yahoo-finance",
+  "description": "MCP Yahoo Finance Server and UI",
+  "repo_url": "https://github.com/quartermaine/mcp-server-yahoo-finance",
+  "source_hub": "mcp_so",
+  "owner": "quartermaine",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "acedfe79ec2a9fd62896ebd2126a0e23082d6685",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 6,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:42Z",
+  "verification_level": "scanner_only"
+}

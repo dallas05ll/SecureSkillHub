@@ -1,0 +1,26 @@
+{
+  "id": "mo-d50bb599",
+  "name": "mo",
+  "description": "Linear<>Cursor MCP Server for AI powered project management",
+  "repo_url": "https://github.com/ztfo/mo",
+  "source_hub": "mcp_so",
+  "owner": "ztfo",
+  "stars": 1,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "prod-pm"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "ca52c03d64b3b53131409c002d4b6e11fff0e319",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 53,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:41Z",
+  "verification_level": "scanner_only"
+}

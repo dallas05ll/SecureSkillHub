@@ -1,0 +1,28 @@
+{
+  "id": "chatgpt-mcp-server-c5510ecd",
+  "name": "chatgpt_mcp_server",
+  "description": "Since ChatGPT has memory it becomes a valuable data source for other models; facilitating a shared memory outside of a single model provider",
+  "repo_url": "https://github.com/NamanSharma5/chatgpt_mcp_server",
+  "source_hub": "mcp_so",
+  "owner": "NamanSharma5",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "data",
+    "data-ai",
+    "prod-comm",
+    "prod-notes"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "0861fa8c59dbe8ddec5c4d92c8825ab1e5b11bb1",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 3,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:40Z",
+  "verification_level": "scanner_only"
+}

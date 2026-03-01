@@ -1,0 +1,28 @@
+{
+  "id": "mcp-server-ledger-d3493703",
+  "name": "mcp-server-ledger",
+  "description": "A Model Context Protocol server for interacting with Ledger CLI, a powerful double-entry accounting system. This server enables Large Language Models to query and analyze financial data through a standardized interface, making it easy for AI assistants to help with financial reporting, budget analysis, and accounting tasks.",
+  "repo_url": "https://github.com/minhyeoky/mcp-server-ledger",
+  "source_hub": "mcp_so",
+  "owner": "minhyeoky",
+  "stars": 43,
+  "primary_language": "unknown",
+  "tags": [
+    "data",
+    "data-ai",
+    "data-ai-nlp",
+    "prod-pm"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "e25f3aede8b925dcc1a9791082634215afdf5799",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 4,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:32:11Z",
+  "verification_level": "scanner_only"
+}

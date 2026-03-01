@@ -1,0 +1,26 @@
+{
+  "id": "mcp-brave-search-bbe4b6f9",
+  "name": "mcp-brave-search",
+  "description": "An MCP server for integrating with the Brave Search API, and it supports HTTP proxying.",
+  "repo_url": "https://github.com/kwp-lab/mcp-brave-search",
+  "source_hub": "mcp_so",
+  "owner": "kwp-lab",
+  "stars": 1,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "util-search"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "0ef341025c54a5d533855d41d5d65f580c11d8ad",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 6,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:40Z",
+  "verification_level": "scanner_only"
+}

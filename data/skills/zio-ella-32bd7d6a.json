@@ -1,0 +1,25 @@
+{
+  "id": "zio-ella-32bd7d6a",
+  "name": "zio-ella",
+  "description": "MCP framework for ZIO HTTP",
+  "repo_url": "https://github.com/otobrglez/zio-ella",
+  "source_hub": "mcp_so",
+  "owner": "otobrglez",
+  "stars": 2,
+  "primary_language": "unknown",
+  "tags": [
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "df9a24d66447bbd49f12f8719f74bbef40efbdd2",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 2,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:41Z",
+  "verification_level": "scanner_only"
+}

@@ -1,0 +1,26 @@
+{
+  "id": "mcp-servers-scratch-21e776a9",
+  "name": "mcp-servers-scratch",
+  "description": "mcp server",
+  "repo_url": "https://github.com/i-k-suke/mcp-servers-scratch",
+  "source_hub": "mcp_so",
+  "owner": "i-k-suke",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "ec8fc8966836d12f2bc2d4b2836e0bbe571ab4ab",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 1,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:41Z",
+  "verification_level": "scanner_only"
+}

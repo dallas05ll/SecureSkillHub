@@ -1,0 +1,26 @@
+{
+  "id": "clockify-mcp-ee576147",
+  "name": "clockify-mcp",
+  "description": "Clockify Model Context Protocol (MCP) server",
+  "repo_url": "https://github.com/inakianduaga/clockify-mcp",
+  "source_hub": "mcp_so",
+  "owner": "inakianduaga",
+  "stars": 7,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "2f615b05b33d75d9754f82e9cb353d91b3ae6c78",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 15,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:54:02Z",
+  "verification_level": "scanner_only"
+}

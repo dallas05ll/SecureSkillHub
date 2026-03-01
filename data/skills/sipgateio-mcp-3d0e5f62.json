@@ -1,0 +1,25 @@
+{
+  "id": "sipgateio-mcp-3d0e5f62",
+  "name": "sipgateio-mcp",
+  "description": "MCP Server for the sipgate API",
+  "repo_url": "https://github.com/BlackMac/sipgateio-mcp",
+  "source_hub": "mcp_so",
+  "owner": "BlackMac",
+  "stars": 2,
+  "primary_language": "unknown",
+  "tags": [
+    "integ"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "d55ad3d787d1d0bdbe8cee87a0c265bb350942a9",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 8,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:04:50Z",
+  "verification_level": "scanner_only"
+}

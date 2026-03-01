@@ -1,0 +1,25 @@
+{
+  "id": "mcp-server-estudo-1dac1b2f",
+  "name": "mcp-server-estudo",
+  "description": "Projeto Typescript implementando um MCP Server que consome a Brasil API.",
+  "repo_url": "https://github.com/felipeleite11/mcp-server-estudo",
+  "source_hub": "mcp_so",
+  "owner": "felipeleite11",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "integ"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "3af446e0d5a2112ae651ae004cf8fb0fba4bcf07",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 8,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:40Z",
+  "verification_level": "scanner_only"
+}

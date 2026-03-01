@@ -1,0 +1,27 @@
+{
+  "id": "youtube-transcript-mcp-38779df5",
+  "name": "youtube-transcript-mcp",
+  "description": "Zero-setup YouTube transcript extraction for Claude. Works on mobile, desktop, and web - no local installation required.",
+  "repo_url": "https://github.com/ergut/youtube-transcript-mcp",
+  "source_hub": "mcp_so",
+  "owner": "ergut",
+  "stars": 14,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "integ-social",
+    "util-media"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "af0836f46ea382ef720bde82ec1636c39ae527c8",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 15,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:42:34Z",
+  "verification_level": "scanner_only"
+}

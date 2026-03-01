@@ -1,0 +1,26 @@
+{
+  "id": "ai-2e81ab76",
+  "name": "ai",
+  "description": "Official AI SDK by Ampersand",
+  "repo_url": "https://github.com/amp-labs/ai",
+  "source_hub": "mcp_so",
+  "owner": "amp-labs",
+  "stars": 9,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "dev"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "19e82e7200889402a45f8d50c9f795790fbbd462",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 74,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:42:34Z",
+  "verification_level": "scanner_only"
+}

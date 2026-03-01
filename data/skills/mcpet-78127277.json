@@ -1,0 +1,27 @@
+{
+  "id": "mcpet-78127277",
+  "name": "mcpet",
+  "description": "This is a TypeScript-based Model Context Protocol (MCP) server that implements a virtual pet simulation system. It demonstrates core MCP concepts by providing tools for pet care and interaction.",
+  "repo_url": "https://github.com/shreyaskarnik/mcpet",
+  "source_hub": "mcp_so",
+  "owner": "shreyaskarnik",
+  "stars": 10,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "95439d4eab8d2225701a9d3d3f3ab7b0c628cbcb",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 8,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:42:34Z",
+  "verification_level": "scanner_only"
+}

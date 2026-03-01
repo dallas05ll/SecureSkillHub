@@ -1,0 +1,29 @@
+{
+  "id": "linkedin-post-generator-bd44099c",
+  "name": "LinkedIn-Post-Generator",
+  "description": "A Model Context Protocol (MCP) server that automates generating LinkedIn post drafts from YouTube videos. This server provides high-quality, editable content drafts based on YouTube video transcripts.",
+  "repo_url": "https://github.com/NvkAnirudh/LinkedIn-Post-Generator",
+  "source_hub": "mcp_so",
+  "owner": "NvkAnirudh",
+  "stars": 19,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp",
+    "integ-social",
+    "prod",
+    "util-media"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "4b167d45d146936faa67b8fda776bccada9f634e",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 12,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:42:34Z",
+  "verification_level": "scanner_only"
+}

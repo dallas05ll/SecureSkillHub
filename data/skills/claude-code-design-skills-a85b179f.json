@@ -1,0 +1,29 @@
+{
+  "id": "claude-code-design-skills-a85b179f",
+  "name": "claude-code-design-skills",
+  "description": " Claude Code skills for automated design-to-code workflows. ",
+  "repo_url": "https://github.com/scoobynko/claude-code-design-skills",
+  "source_hub": "github_search",
+  "skill_type": "agent_skill",
+  "owner": "scoobynko",
+  "stars": 28,
+  "license": "mit",
+  "primary_language": "markdown",
+  "tags": [
+    "data-ai",
+    "dev",
+    "prod"
+  ],
+  "verification_status": "pass",
+  "overall_score": 83,
+  "risk_level": "low",
+  "verified_commit": null,
+  "scan_summary": null,
+  "last_updated": "2026-02-23T20:43:43Z",
+  "findings_summary": {
+    "notes": "Metadata-based verification. Score=83. Signals: stars=28 (>=10, +5); license='mit' (+5); owner='scoobynko' (+3); primary_language='markdown'; source_hub='github_search'. Status: pass. Risk: low."
+  },
+  "trust_level": "low",
+  "scan_date": "2026-02-26T06:14:55Z",
+  "verification_level": "metadata_only"
+}

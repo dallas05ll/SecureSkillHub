@@ -1,0 +1,26 @@
+{
+  "id": "mcp-rawr-graphiti-5b52b336",
+  "name": "mcp-rawr-graphiti",
+  "description": "Graphiti Model Context Protocol (MCP) Server - An MCP server for knowledge graph management via Graphiti",
+  "repo_url": "https://github.com/mateicanavra/mcp-rawr-graphiti",
+  "source_hub": "mcp_so",
+  "owner": "mateicanavra",
+  "stars": 98,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "37cbfd80ef54b3c9ec43a1901bc654ca1c0f6965",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 61,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-27T06:40:43Z",
+  "verification_level": "scanner_only"
+}

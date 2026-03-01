@@ -1,0 +1,28 @@
+{
+  "id": "nmap-mcp-server-6980bf1a",
+  "name": "nmap-mcp-server",
+  "description": "A Model Context Protocol (MCP) server that enables AI assistants to perform network scanning operations using NMAP",
+  "repo_url": "https://github.com/PhialsBasement/nmap-mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "PhialsBasement",
+  "stars": 43,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp",
+    "sec-scan",
+    "util-map"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "2160e5f2b7dd09a1d61419195fd2b588a0bc26d5",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 5,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:32:11Z",
+  "verification_level": "scanner_only"
+}

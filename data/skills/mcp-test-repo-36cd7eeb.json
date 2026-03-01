@@ -1,0 +1,25 @@
+{
+  "id": "mcp-test-repo-36cd7eeb",
+  "name": "mcp-test-repo",
+  "description": "Test repository for GitHub MCP server validation",
+  "repo_url": "https://github.com/hamnhugs/mcp-test-repo",
+  "source_hub": "mcp_so",
+  "owner": "hamnhugs",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "dev-testing"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "49b250e2be4e0423a7fe5b9024e63ae94c10653d",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 1,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:41Z",
+  "verification_level": "scanner_only"
+}

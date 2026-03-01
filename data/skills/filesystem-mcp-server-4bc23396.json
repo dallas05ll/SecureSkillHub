@@ -1,0 +1,28 @@
+{
+  "id": "filesystem-mcp-server-4bc23396",
+  "name": "filesystem-mcp-server",
+  "description": "A Model Context Protocol (MCP) server for platform-agnostic file capabilities, including advanced search/replace and directory tree traversal",
+  "repo_url": "https://github.com/cyanheads/filesystem-mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "cyanheads",
+  "stars": 34,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp",
+    "util-file",
+    "util-search"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "513ec49313dd83a7e960ba2f73e431e53410d457",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 65,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:32:13Z",
+  "verification_level": "scanner_only"
+}

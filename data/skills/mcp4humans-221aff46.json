@@ -1,0 +1,29 @@
+{
+  "id": "mcp4humans-221aff46",
+  "name": "mcp4humans",
+  "description": "User-friendly client for Model Context Protocol (MCP) servers - connect, manage, and execute MCP tools directly in VS Code",
+  "repo_url": "https://github.com/daninemonic/mcp4humans",
+  "source_hub": "mcp_so",
+  "owner": "daninemonic",
+  "stars": 2,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp",
+    "dev",
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "fa22b4e4694e1fa0b0cdea131fab0b54cae64a90",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 24,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:04:50Z",
+  "verification_level": "scanner_only"
+}

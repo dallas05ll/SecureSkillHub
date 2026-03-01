@@ -1,0 +1,28 @@
+{
+  "id": "shodan-mcp-server-e72a74b7",
+  "name": "Shodan-MCP-Server",
+  "description": "This is a Model Context Protocol (MCP) server that provides access to the Shodan API. It allows you to programmatically query Shodan for information about devices, vulnerabilities, and more.",
+  "repo_url": "https://github.com/X3r0K/Shodan-MCP-Server",
+  "source_hub": "mcp_so",
+  "owner": "X3r0K",
+  "stars": 2,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp",
+    "integ",
+    "sec"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "56380860a47d947106cdc0b34a5a61b556132f37",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 4,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:04:50Z",
+  "verification_level": "scanner_only"
+}

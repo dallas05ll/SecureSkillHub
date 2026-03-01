@@ -1,0 +1,27 @@
+{
+  "id": "vscode-context-mcp-87b65165",
+  "name": "vscode-context-mcp",
+  "description": "MCP Server to Connect with VS Code IDE",
+  "repo_url": "https://github.com/vilasone455/vscode-context-mcp",
+  "source_hub": "mcp_so",
+  "owner": "vilasone455",
+  "stars": 9,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai-nlp",
+    "dev",
+    "integ"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "30c4d1c5771844de855b4048b6b04663708f194e",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 31,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:42:34Z",
+  "verification_level": "scanner_only"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "websearch-mcp-c50ee1ae",
+  "name": "WebSearch-MCP",
+  "description": "[Self-hosted] A Model Context Protocol (MCP) server implementation that provides a web search capability over stdio transport. This server integrates with a WebSearch Crawler API to retrieve search results.",
+  "repo_url": "https://github.com/mnhlt/WebSearch-MCP",
+  "source_hub": "mcp_so",
+  "owner": "mnhlt",
+  "stars": 31,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp",
+    "integ",
+    "util-search"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "5829622c780396c68b964099577f3beb32d75735",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 9,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:32:13Z",
+  "verification_level": "scanner_only"
+}

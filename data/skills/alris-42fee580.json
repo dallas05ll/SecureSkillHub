@@ -1,0 +1,29 @@
+{
+  "id": "alris-42fee580",
+  "name": "alris",
+  "description": "Alris is an AI automation tool that transforms natural language commands into task execution.",
+  "repo_url": "https://github.com/Daniel-16/alris",
+  "source_hub": "mcp_so",
+  "owner": "Daniel-16",
+  "stars": 12,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp",
+    "prod",
+    "prod-pm",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "631e8a9fa9cda604eb2dd7c037594ec19f4f9d71",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 87,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:42:34Z",
+  "verification_level": "scanner_only"
+}

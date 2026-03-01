@@ -1,0 +1,26 @@
+{
+  "id": "docs-to-mcp-cli-b91e83e6",
+  "name": "docs-to-mcp-cli",
+  "description": "A CLI utility for turning your docs into a stdio MCP server",
+  "repo_url": "https://github.com/Tiberriver256/docs-to-mcp-cli",
+  "source_hub": "mcp_so",
+  "owner": "Tiberriver256",
+  "stars": 2,
+  "primary_language": "unknown",
+  "tags": [
+    "prod-docs",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "570abd961a6576fb27d3e145639eb682d2341a27",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 12,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:04:51Z",
+  "verification_level": "scanner_only"
+}

@@ -1,0 +1,30 @@
+{
+  "id": "spec-oxide-mcp-for-spec-driven-developme-355a8175",
+  "name": "spec-oxide-mcp-for-spec-driven-development-with-claude-code-to-avoid-token-waste",
+  "description": "Spec Oxide is a comprehensive workflow and toolset that enables spec-driven development for AI-assisted coding with Claude Code. You agree on what to build before any code is written. Spec Oxide ships a CLI and an MCP server to list and manage specifications as Markdown files as well as change proposals. A built-in search functionality finds the relevant spec files to avoid loading too many files into the Claude Code context window.",
+  "repo_url": "https://github.com/marconae/spec-oxide-mcp-for-spec-driven-development-with-claude-code-to-avoid-token-waste",
+  "source_hub": "mcp_so",
+  "owner": "marconae",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp",
+    "dev",
+    "prod",
+    "prod-docs",
+    "sec-crypto",
+    "util",
+    "util-file",
+    "util-search",
+    "repo_unavailable"
+  ],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null,
+  "repo_status": "unavailable",
+  "repo_check_date": "2026-02-28T20:52:56.627444+00:00",
+  "repo_check_error": "fatal: could not read Username for 'https://github.com': Device not configured"
+}

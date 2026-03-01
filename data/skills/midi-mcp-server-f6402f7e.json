@@ -1,0 +1,30 @@
+{
+  "id": "midi-mcp-server-f6402f7e",
+  "name": "midi-mcp-server",
+  "description": "MIDI MCP Server is a Model Context Protocol (MCP) server that enables AI models to generate MIDI files from text-based music data. This tool allows for programmatic creation of musical compositions through a standardized interface.",
+  "repo_url": "https://github.com/tubone24/midi-mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "tubone24",
+  "stars": 33,
+  "primary_language": "unknown",
+  "tags": [
+    "data",
+    "data-ai",
+    "data-ai-audio",
+    "data-ai-nlp",
+    "util",
+    "util-file"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "f66b933966c0ae82cc6d1e86d585b0465a4fa7bd",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 11,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:32:12Z",
+  "verification_level": "scanner_only"
+}

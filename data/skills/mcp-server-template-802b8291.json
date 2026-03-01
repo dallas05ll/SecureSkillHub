@@ -1,0 +1,28 @@
+{
+  "id": "mcp-server-template-802b8291",
+  "name": "mcp-server-template",
+  "description": "TypeScript boilerplate for MCP servers using the official SDK, with support for stdio/http, logging, docker, and tests.",
+  "repo_url": "https://github.com/Falkicon/mcp-server-template",
+  "source_hub": "mcp_so",
+  "owner": "Falkicon",
+  "stars": 1,
+  "primary_language": "unknown",
+  "tags": [
+    "dev",
+    "dev-devops-docker",
+    "dev-testing",
+    "util-monitor"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "529f7cf4b31e583cb7628b4f513dc9ba5ff99d8c",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 16,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:40Z",
+  "verification_level": "scanner_only"
+}

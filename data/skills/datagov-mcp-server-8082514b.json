@@ -1,0 +1,26 @@
+{
+  "id": "datagov-mcp-server-8082514b",
+  "name": "datagov-mcp-server",
+  "description": "An MCP server for accessing data from Data.gov, providing tools and resources for interacting with government datasets.",
+  "repo_url": "https://github.com/melaodoidao/datagov-mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "melaodoidao",
+  "stars": 19,
+  "primary_language": "unknown",
+  "tags": [
+    "data",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "2087a40aaa8a3696ec41d5e1446a447cd99b5105",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 4,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:42:34Z",
+  "verification_level": "scanner_only"
+}

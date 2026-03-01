@@ -1,0 +1,28 @@
+{
+  "id": "zabbix-mcp-server-74bd1f03",
+  "name": "zabbix-mcp-server",
+  "description": "🔌 Complete MCP server for Zabbix integration - Connect AI assistants to Zabbix monitoring with 40+ tools for hosts, items, triggers, templates, problems, and more. Features read-only mode and comprehensive API coverage.",
+  "repo_url": "https://github.com/mpeirone/zabbix-mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "mpeirone",
+  "stars": 160,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "integ",
+    "util",
+    "util-monitor"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "3da470ea05f7976f1078851b4a722b6b03d6eb75",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 11,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-27T06:36:35Z",
+  "verification_level": "scanner_only"
+}

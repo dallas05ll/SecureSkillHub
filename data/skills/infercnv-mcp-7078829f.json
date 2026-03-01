@@ -1,0 +1,26 @@
+{
+  "id": "infercnv-mcp-7078829f",
+  "name": "infercnv-mcp",
+  "description": "MCP server for CNV analysis using infercnv",
+  "repo_url": "https://github.com/scmcphub/infercnv-mcp",
+  "source_hub": "mcp_so",
+  "owner": "scmcphub",
+  "stars": 1,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "2ce60ffbbaddb1796fda5a59e490960fbb8175dc",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 16,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:40Z",
+  "verification_level": "scanner_only"
+}

@@ -1,0 +1,20 @@
+{
+  "id": "mcp-telegram-1157fbf2",
+  "name": "mcp-telegram",
+  "description": "MCP Server for Telegram",
+  "repo_url": "https://github.com/dryeab/mcp-telegram",
+  "source_hub": "mcp_so",
+  "owner": "dryeab",
+  "stars": 232,
+  "primary_language": "unknown",
+  "tags": [
+    "prod-comm"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "low",
+  "verified_commit": "653a1ed43c4927b28b4060e6759d3c4009d5ea00",
+  "scan_summary": null,
+  "scan_date": "2026-02-27T06:14:08Z",
+  "verification_level": "scanner_only"
+}

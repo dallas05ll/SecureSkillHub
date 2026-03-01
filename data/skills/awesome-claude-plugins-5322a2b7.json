@@ -1,0 +1,31 @@
+{
+  "id": "awesome-claude-plugins-5322a2b7",
+  "name": "awesome-claude-plugins",
+  "description": "Curated list and repository of production-ready Claude Code plugins including custom commands, agents, hooks, and MCP servers. Features a connect-apps plugin enabling Claude to interact with 500+ external apps via Composio.",
+  "repo_url": "https://github.com/ComposioHQ/awesome-claude-plugins",
+  "source_hub": "github_search",
+  "skill_type": "agent_skill",
+  "owner": "ComposioHQ",
+  "stars": 1210,
+  "license": null,
+  "has_security_md": false,
+  "primary_language": "JavaScript",
+  "tags": [
+    "data-ai",
+    "dev",
+    "integ"
+  ],
+  "verification_status": "pass",
+  "overall_score": 70,
+  "risk_level": "low",
+  "verified_at": "2026-02-25",
+  "findings_summary": {
+    "notes": "Organization-backed repository (ComposioHQ) providing curated Claude Code plugins. Actively maintained (updated Feb 2026, 184 forks, 17 open issues). No license file present (README badge shows MIT but no actual LICENSE file found). No SECURITY.md. The connect-apps plugin integrates with Composio to connect Claude to 500+ external applications (email, GitHub, Slack, etc.) - this is the primary security consideration, as it grants Claude broad third-party service access. Composio is a legitimate commercial integration platform. Organization backing from Composio provides some accountability. Score reflects organizational credibility against missing license file and broad external access capabilities."
+  },
+  "verified_commit": null,
+  "scan_summary": null,
+  "last_updated": "2026-02-25T17:31:40Z",
+  "trust_level": "low",
+  "scan_date": "2026-02-25T23:05:30Z",
+  "verification_level": "scanner_only"
+}

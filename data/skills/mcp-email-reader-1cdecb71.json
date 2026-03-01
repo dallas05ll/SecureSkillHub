@@ -1,0 +1,28 @@
+{
+  "id": "mcp-email-reader-1cdecb71",
+  "name": "mcp_email_reader",
+  "description": "Model Context Protocol (MCP) server to connect to an email server and to read emails",
+  "repo_url": "https://github.com/karateboss/mcp_email_reader",
+  "source_hub": "mcp_so",
+  "owner": "karateboss",
+  "stars": 1,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp",
+    "integ",
+    "prod-comm"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "721705ad0b3813e7ce1939f8b91b7eed84b084ce",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 3,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:40Z",
+  "verification_level": "scanner_only"
+}

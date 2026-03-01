@@ -1,0 +1,28 @@
+{
+  "id": "assets-mcp-7efd44e2",
+  "name": "assets-mcp",
+  "description": "A Cloudflare Worker MCP server that integrates with the Helius API to provide asset search tools",
+  "repo_url": "https://github.com/pratikbuilds/assets-mcp",
+  "source_hub": "mcp_so",
+  "owner": "pratikbuilds",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "integ-cloud",
+    "util",
+    "util-search"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "2c048a2694146098236cd008e6230baee7440587",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 9,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:41Z",
+  "verification_level": "scanner_only"
+}

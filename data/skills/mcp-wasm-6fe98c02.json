@@ -1,0 +1,30 @@
+{
+  "id": "mcp-wasm-6fe98c02",
+  "name": "mcp-wasm",
+  "description": "A proof-of-concept implementation of a Model Context Protocol (MCP) server that runs in WebAssembly (WASM) within a web browser. This project demonstrates the integration of MCP tools and resources in a browser environment.",
+  "repo_url": "https://github.com/beekmarks/mcp-wasm",
+  "source_hub": "mcp_so",
+  "owner": "beekmarks",
+  "stars": 33,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp",
+    "dev-web",
+    "integ",
+    "util",
+    "util-search"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "902510ce0c5332b3c7c0446ae9444e85765ed4bd",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 21,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:32:11Z",
+  "verification_level": "scanner_only"
+}

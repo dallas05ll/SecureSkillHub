@@ -1,0 +1,27 @@
+{
+  "id": "12306-mcp-6e97232c",
+  "name": "12306-mcp",
+  "description": "This is a 12306 ticket search server based on the Model Context Protocol (MCP).",
+  "repo_url": "https://github.com/Joooook/12306-mcp",
+  "source_hub": "mcp_so",
+  "owner": "Joooook",
+  "stars": 728,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp",
+    "util-search"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 9,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-27T02:26:21Z",
+  "verification_level": "scanner_only"
+}

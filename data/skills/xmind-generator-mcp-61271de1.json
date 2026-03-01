@@ -1,0 +1,27 @@
+{
+  "id": "xmind-generator-mcp-61271de1",
+  "name": "xmind-generator-mcp",
+  "description": "An MCP (Model Context Protocol) server for generating Xmind mind maps. This server allows LLMs to create structured mind maps through the MCP protocol.",
+  "repo_url": "https://github.com/BangyiZhang/xmind-generator-mcp",
+  "source_hub": "mcp_so",
+  "owner": "BangyiZhang",
+  "stars": 30,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp",
+    "util-map"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "41fae9560f3780b794399e127f190dea5d6e689c",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 7,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:32:13Z",
+  "verification_level": "scanner_only"
+}

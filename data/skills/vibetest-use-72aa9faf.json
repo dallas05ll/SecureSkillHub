@@ -1,0 +1,28 @@
+{
+  "id": "vibetest-use-72aa9faf",
+  "name": "vibetest-use",
+  "description": "Vibetest MCP - automated QA testing using Browser-Use agents",
+  "repo_url": "https://github.com/browser-use/vibetest-use",
+  "source_hub": "mcp_so",
+  "owner": "browser-use",
+  "stars": 768,
+  "primary_language": "unknown",
+  "tags": [
+    "dev-testing",
+    "dev-web",
+    "prod",
+    "util-search"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 10,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-27T02:26:21Z",
+  "verification_level": "scanner_only"
+}

@@ -1,0 +1,26 @@
+{
+  "id": "mcp-server-postgres-91871148",
+  "name": "mcp-server-postgres",
+  "description": "MCP Server for PostgreSQL databases",
+  "repo_url": "https://github.com/yuru-sha/mcp-server-postgres",
+  "source_hub": "mcp_so",
+  "owner": "yuru-sha",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "data",
+    "data-db"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "914310b83d1a4a3557fb60f51b41b0531152ddc6",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 8,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:41Z",
+  "verification_level": "scanner_only"
+}

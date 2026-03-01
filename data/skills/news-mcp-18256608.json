@@ -1,0 +1,25 @@
+{
+  "id": "news-mcp-18256608",
+  "name": "news-mcp",
+  "description": "MCP server for news articles using the Webz.io API",
+  "repo_url": "https://github.com/venkytv/news-mcp",
+  "source_hub": "mcp_so",
+  "owner": "venkytv",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "integ"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "f3d063fdcbb1d76dea3f47de353496665fcb36dc",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 1,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:41Z",
+  "verification_level": "scanner_only"
+}

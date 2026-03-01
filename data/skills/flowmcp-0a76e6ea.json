@@ -1,0 +1,28 @@
+{
+  "id": "flowmcp-0a76e6ea",
+  "name": "flowMCP",
+  "description": "FlowMCP is a framework for adapting existing web APIs into a standardized Model Context Protocol (MCP) interface, enabling structured, testable, and semantically consistent access for AI systems.",
+  "repo_url": "https://github.com/FlowMCP/flowMCP",
+  "source_hub": "mcp_so",
+  "owner": "FlowMCP",
+  "stars": 1,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp",
+    "dev-testing",
+    "integ"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "e53247f0eba7df8c964391b882e48271461ef11e",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 88,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:41Z",
+  "verification_level": "scanner_only"
+}

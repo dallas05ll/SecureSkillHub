@@ -1,0 +1,27 @@
+{
+  "id": "ai-agent-dbb13bb7",
+  "name": "AI-Agent",
+  "description": "An AI Agent with MCP Server interacts intelligently, using tools via the Model Context Protocol to perform actions based on user input.",
+  "repo_url": "https://github.com/mdistekhar/AI-Agent",
+  "source_hub": "mcp_so",
+  "owner": "mdistekhar",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "83eb745c36f5efe7ad0fc8b869b02134d32ffeda",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 5,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:42Z",
+  "verification_level": "scanner_only"
+}

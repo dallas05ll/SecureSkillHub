@@ -1,0 +1,26 @@
+{
+  "id": "elastica-mcp-server-f65e834c",
+  "name": "elastica-mcp-server",
+  "description": "Efficient server implementation that leverages the Elastica Cosserat-Rod simulation framework to facilitate Model Context Protocol (MCP).",
+  "repo_url": "https://github.com/skim0119/elastica-mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "skim0119",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "22ae19fe1ba4d6aa34ff9dcf48c5982aab8040ef",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 12,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:42Z",
+  "verification_level": "scanner_only"
+}

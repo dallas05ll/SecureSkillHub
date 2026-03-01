@@ -1,0 +1,26 @@
+{
+  "id": "zed-resend-mcp-server-ef60d97f",
+  "name": "zed-resend-mcp-server",
+  "description": "A Zed extension for the Resend MCP.",
+  "repo_url": "https://github.com/danilo-leal/zed-resend-mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "danilo-leal",
+  "stars": 5,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "547e988b94b0355a3c219cf8ca112905f31d815b",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 4,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:54:02Z",
+  "verification_level": "scanner_only"
+}

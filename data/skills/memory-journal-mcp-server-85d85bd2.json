@@ -1,0 +1,28 @@
+{
+  "id": "memory-journal-mcp-server-85d85bd2",
+  "name": "memory-journal-mcp-server",
+  "description": "MCP server designed to help you search and analyze your photo library (iCloud)",
+  "repo_url": "https://github.com/Siddhant-K-code/memory-journal-mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "Siddhant-K-code",
+  "stars": 23,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai-vision",
+    "integ-cloud",
+    "prod-notes",
+    "util-search"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "1e63d2819bb4182f7058ad24f06c9bae3487c235",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 3,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:32:12Z",
+  "verification_level": "scanner_only"
+}

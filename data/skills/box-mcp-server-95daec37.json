@@ -1,0 +1,28 @@
+{
+  "id": "box-mcp-server-95daec37",
+  "name": "box-mcp-server",
+  "description": "A Box model context protocol server to search, read and access files",
+  "repo_url": "https://github.com/hmk/box-mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "hmk",
+  "stars": 10,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp",
+    "util-file",
+    "util-search"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "209245e0c6ba50014306a23dc18b6200b99a0e9f",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 7,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:42:36Z",
+  "verification_level": "scanner_only"
+}

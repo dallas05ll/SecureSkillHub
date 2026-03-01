@@ -1,0 +1,25 @@
+{
+  "id": "test-repo-from-custom-mcp-96bfbd29",
+  "name": "test-repo-from-custom-mcp",
+  "description": "Test repository created by custom MCP server",
+  "repo_url": "https://github.com/Sujith-Srinivas/test-repo-from-custom-mcp",
+  "source_hub": "mcp_so",
+  "owner": "Sujith-Srinivas",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "dev-testing"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "91efa15ab46aeffa1eda18025d1d7b82e092f662",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 1,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:42:59Z",
+  "verification_level": "scanner_only"
+}

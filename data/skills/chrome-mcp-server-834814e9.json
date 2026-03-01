@@ -1,0 +1,26 @@
+{
+  "id": "chrome-mcp-server-834814e9",
+  "name": "chrome-mcp-server",
+  "description": "MCP server to interact with Chrome",
+  "repo_url": "https://github.com/jverre/chrome-mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "jverre",
+  "stars": 4,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "c129548677c7457032709f065a2cf0c994076038",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 12,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:54:02Z",
+  "verification_level": "scanner_only"
+}

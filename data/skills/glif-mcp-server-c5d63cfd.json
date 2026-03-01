@@ -1,0 +1,28 @@
+{
+  "id": "glif-mcp-server-c5d63cfd",
+  "name": "glif-mcp-server",
+  "description": "Easily run glif.app AI workflows inside your LLM: image generators, memes, selfies, and more. Glif supports all major multimedia AI models inside one app",
+  "repo_url": "https://github.com/glifxyz/glif-mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "glifxyz",
+  "stars": 79,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-vision",
+    "prod",
+    "util-media"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "fd4356f98ec3cea70ff87524dcdc6c93e33b04ce",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 37,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-27T06:40:43Z",
+  "verification_level": "scanner_only"
+}

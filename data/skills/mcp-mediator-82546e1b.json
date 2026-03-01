@@ -1,0 +1,29 @@
+{
+  "id": "mcp-mediator-82546e1b",
+  "name": "mcp_mediator",
+  "description": "Automatically generate an MCP Server from existing source code, service classes, helper methods, and external MCP tools. The MCP Mediator aggregates various sources and tools into a unified system, enabling seamless automatic generation of a complete MCP Server.",
+  "repo_url": "https://github.com/makbn/mcp_mediator",
+  "source_hub": "mcp_so",
+  "owner": "makbn",
+  "stars": 9,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "dev",
+    "prod",
+    "util",
+    "util-media"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "04e8d24ccfd6bcd587fb3055a8a3d629255294d6",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 6,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:42:34Z",
+  "verification_level": "scanner_only"
+}

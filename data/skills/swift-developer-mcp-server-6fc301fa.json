@@ -1,0 +1,25 @@
+{
+  "id": "swift-developer-mcp-server-6fc301fa",
+  "name": "swift-developer-mcp-server",
+  "description": "A Local MCP server useful for Cross Platform Swift Development",
+  "repo_url": "https://github.com/edgeengineer/swift-developer-mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "edgeengineer",
+  "stars": 4,
+  "primary_language": "unknown",
+  "tags": [
+    "dev"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "34a68bc60f2d130fa3164115593659664722c88a",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 3,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:04:51Z",
+  "verification_level": "scanner_only"
+}

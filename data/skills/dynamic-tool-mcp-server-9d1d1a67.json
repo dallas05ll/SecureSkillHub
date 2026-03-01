@@ -1,0 +1,26 @@
+{
+  "id": "dynamic-tool-mcp-server-9d1d1a67",
+  "name": "dynamic-tool-mcp-server",
+  "description": "A basic MCP server using the SSE transport that can be used to test dynamic tool creation/management",
+  "repo_url": "https://github.com/scitara-cto/dynamic-tool-mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "scitara-cto",
+  "stars": 2,
+  "primary_language": "unknown",
+  "tags": [
+    "dev-testing",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "d0cf1e39f594dce3325ebdfdfcc3f3a4872ac7de",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 3,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:04:50Z",
+  "verification_level": "scanner_only"
+}

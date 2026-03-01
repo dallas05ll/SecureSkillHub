@@ -1,0 +1,40 @@
+{
+  "id": "claude-code-terminal-title-41465492",
+  "name": "Claude Code Terminal Title",
+  "description": "Claude Code skill that automatically updates terminal window titles to reflect the current task, useful for managing multiple Claude Code instances.",
+  "repo_url": "https://github.com/bluzername/claude-code-terminal-title",
+  "source_hub": "claude_skills_hub",
+  "skill_type": "agent_skill",
+  "owner": "bluzername",
+  "stars": 65,
+  "forks": 5,
+  "license": "Unknown",
+  "primary_language": "Shell",
+  "tags": [
+    "data-ai",
+    "dev",
+    "prod",
+    "prod-pm"
+  ],
+  "source_tags": [
+    "automation",
+    "cli",
+    "coding"
+  ],
+  "categories": [
+    "dev"
+  ],
+  "version": "1.0.0",
+  "requires_code_execution": false,
+  "verification_status": "pass",
+  "overall_score": 68,
+  "risk_level": "low",
+  "verified_commit": null,
+  "scan_summary": null,
+  "findings_summary": {
+    "notes": "No explicit license. Shell script, simple and well-focused. Practical utility for developers running multiple sessions."
+  },
+  "trust_level": "medium",
+  "scan_date": "2026-02-26T02:11:57Z",
+  "verification_level": "scanner_only"
+}

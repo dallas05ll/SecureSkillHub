@@ -1,0 +1,27 @@
+{
+  "id": "mcp-server-research-dcf1a430",
+  "name": "mcp_server_research",
+  "description": "research claude code and mcp server",
+  "repo_url": "https://github.com/ckz/mcp_server_research",
+  "source_hub": "mcp_so",
+  "owner": "ckz",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "dev",
+    "util-search"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "7e544e21b5190fc8eaae4f4192124cc3c65acc76",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 6,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:40Z",
+  "verification_level": "scanner_only"
+}

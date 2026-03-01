@@ -1,0 +1,25 @@
+{
+  "id": "canvas-mcp-9c334138",
+  "name": "canvas-mcp",
+  "description": "An MCP Server for Canvas / Instructure to help pull Assignment details and deadlines",
+  "repo_url": "https://github.com/mbcrosier/canvas-mcp",
+  "source_hub": "mcp_so",
+  "owner": "mbcrosier",
+  "stars": 8,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "e4dbb4e6128b3b02c9aee627ebf055291879ca53",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 6,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:42:34Z",
+  "verification_level": "scanner_only"
+}

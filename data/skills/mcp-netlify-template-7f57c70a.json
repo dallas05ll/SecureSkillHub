@@ -1,0 +1,25 @@
+{
+  "id": "mcp-netlify-template-7f57c70a",
+  "name": "mcp_netlify_template",
+  "description": "A barebones MCP server template for Netlify deployment",
+  "repo_url": "https://github.com/memextech/mcp_netlify_template",
+  "source_hub": "mcp_so",
+  "owner": "memextech",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "data"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "a36f1d8cc859e2a287e637d6aff57443b27a22bc",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 15,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:40Z",
+  "verification_level": "scanner_only"
+}

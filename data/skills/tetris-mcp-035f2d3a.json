@@ -1,0 +1,26 @@
+{
+  "id": "tetris-mcp-035f2d3a",
+  "name": "tetris-mcp",
+  "description": "MCP Server capable of operating Tetris board",
+  "repo_url": "https://github.com/EdamAme-x/tetris-mcp",
+  "source_hub": "mcp_so",
+  "owner": "EdamAme-x",
+  "stars": 4,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "ac1c6d327ca4fdf165433a84bfb010f3a0da803c",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 9,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:04:51Z",
+  "verification_level": "scanner_only"
+}

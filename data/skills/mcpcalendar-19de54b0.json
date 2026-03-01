@@ -1,0 +1,27 @@
+{
+  "id": "mcpcalendar-19de54b0",
+  "name": "MCPCalendar",
+  "description": "MCP Server for Connecting Google Calendar And Claude Desktop",
+  "repo_url": "https://github.com/Codewith-me1/MCPCalendar",
+  "source_hub": "mcp_so",
+  "owner": "Codewith-me1",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "integ",
+    "prod-calendar"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "f059f72d96d757b66ba3a05aa8494810aad7104b",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 6,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:40Z",
+  "verification_level": "scanner_only"
+}

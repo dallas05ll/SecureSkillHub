@@ -1,0 +1,28 @@
+{
+  "id": "mcp-composer-f8c10560",
+  "name": "mcp-composer",
+  "description": "Connect and dynamically manage multiple MCP servers/tools through a single SSE interface, allowing your AI agent or AI APP to control MCP servers more flexibly",
+  "repo_url": "https://github.com/htkuan/mcp-composer",
+  "source_hub": "mcp_so",
+  "owner": "htkuan",
+  "stars": 17,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "dev-devops-docker",
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "898238b21896b9fccf429b48c297f293001373ec",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 13,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:42:34Z",
+  "verification_level": "scanner_only"
+}

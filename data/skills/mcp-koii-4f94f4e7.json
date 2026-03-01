@@ -1,0 +1,26 @@
+{
+  "id": "mcp-koii-4f94f4e7",
+  "name": "mcp-koii",
+  "description": "MCP Server for Teenage Engineering EP-133 KO-II",
+  "repo_url": "https://github.com/benjaminr/mcp-koii",
+  "source_hub": "mcp_so",
+  "owner": "benjaminr",
+  "stars": 17,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "652793d684be8b9c30698ebf8857c032b6bb427d",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 9,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:42:36Z",
+  "verification_level": "scanner_only"
+}

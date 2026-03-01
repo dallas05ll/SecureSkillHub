@@ -1,0 +1,26 @@
+{
+  "id": "mcp-think-fc928663",
+  "name": "MCP-Think",
+  "description": "MCP Think tool prebuilt binaries and code",
+  "repo_url": "https://github.com/iamwavecut/MCP-Think",
+  "source_hub": "mcp_so",
+  "owner": "iamwavecut",
+  "stars": 18,
+  "primary_language": "unknown",
+  "tags": [
+    "dev",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "35dbb4ea1e9dec2df7297b0a499139ec13a0f183",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 3,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:42:36Z",
+  "verification_level": "scanner_only"
+}

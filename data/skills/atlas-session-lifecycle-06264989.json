@@ -1,0 +1,27 @@
+{
+  "id": "atlas-session-lifecycle-06264989",
+  "name": "atlas-session-lifecycle",
+  "description": "Atlas session lifecycle management skill with version 2.0.0, providing structured start/end session workflows.",
+  "repo_url": "https://github.com/anombyte93/atlas-session-lifecycle",
+  "source_hub": "github_search",
+  "skill_type": "agent_skill",
+  "owner": "anombyte93",
+  "stars": 84,
+  "license": "mit",
+  "primary_language": "Python",
+  "tags": [
+    "prod"
+  ],
+  "verification_status": "pass",
+  "overall_score": 75,
+  "risk_level": "low",
+  "verified_commit": null,
+  "scan_summary": null,
+  "last_updated": "2026-02-24T07:38:32Z",
+  "findings_summary": {
+    "notes": "MIT licensed, Python, actively maintained. Clean documentation with badges. Well-scoped functionality."
+  },
+  "trust_level": "low",
+  "scan_date": "2026-02-26T02:11:19Z",
+  "verification_level": "scanner_only"
+}

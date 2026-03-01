@@ -1,0 +1,29 @@
+{
+  "id": "whatsapp-mcp-local-ollam-360552ff",
+  "name": "whatsapp-mcp-local-ollam",
+  "description": "WhatsApp Messaging with MCP & Ollama This project integrates PraisonAI Agents with Ollama (llama3.2) and a Go-based WhatsApp bridge. It allows you to send WhatsApp messages using natural language through a local REST API, powered by an LLM and custom MCP tools.",
+  "repo_url": "https://github.com/AakibAnsarime/whatsapp-mcp-local-ollam",
+  "source_hub": "mcp_so",
+  "owner": "AakibAnsarime",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp",
+    "integ",
+    "prod-comm",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "a40ead831d8a7b1be7b56ce2bff99344ca477f28",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 7,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:43:00Z",
+  "verification_level": "scanner_only"
+}

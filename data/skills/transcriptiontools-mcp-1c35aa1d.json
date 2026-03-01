@@ -1,0 +1,27 @@
+{
+  "id": "transcriptiontools-mcp-1c35aa1d",
+  "name": "TranscriptionTools-MCP",
+  "description": "An MCP server providing intelligent transcript processing capabilities, featuring natural formatting, contextual repair, and smart summarization powered by Deep Thinking LLMs.",
+  "repo_url": "https://github.com/MushroomFleet/TranscriptionTools-MCP",
+  "source_hub": "mcp_so",
+  "owner": "MushroomFleet",
+  "stars": 18,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "05d1b076d2ffb2b3a338181c863978e81e7309d7",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 16,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:42:36Z",
+  "verification_level": "scanner_only"
+}

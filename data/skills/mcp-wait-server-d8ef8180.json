@@ -1,0 +1,25 @@
+{
+  "id": "mcp-wait-server-d8ef8180",
+  "name": "mcp-wait-server",
+  "description": "MCP Server to allow AI models to wait",
+  "repo_url": "https://github.com/Amico1285/mcp-wait-server",
+  "source_hub": "mcp_so",
+  "owner": "Amico1285",
+  "stars": 1,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "21cd54592aeef77629f2c0a589846134066fe67b",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 6,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:42Z",
+  "verification_level": "scanner_only"
+}

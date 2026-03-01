@@ -1,0 +1,26 @@
+{
+  "id": "mcp-current-datetime-be151e2c",
+  "name": "mcp-current-datetime",
+  "description": "Simple MCP server to return current datetime",
+  "repo_url": "https://github.com/ks217/mcp-current-datetime",
+  "source_hub": "mcp_so",
+  "owner": "ks217",
+  "stars": 1,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "29709781e8530cfe6d6902335787d70ba19a67d0",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 5,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:40Z",
+  "verification_level": "scanner_only"
+}

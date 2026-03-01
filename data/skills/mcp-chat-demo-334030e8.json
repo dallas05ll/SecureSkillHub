@@ -1,0 +1,28 @@
+{
+  "id": "mcp-chat-demo-334030e8",
+  "name": "mcp-chat-demo",
+  "description": "A sample chat application demonstrating integration with Model Context Protocol (MCP) servers",
+  "repo_url": "https://github.com/ehartye/mcp-chat-demo",
+  "source_hub": "mcp_so",
+  "owner": "ehartye",
+  "stars": 1,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp",
+    "integ",
+    "prod-comm"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "68632cd25f2201ef15fd98933f54a6a932638394",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 2,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:42Z",
+  "verification_level": "scanner_only"
+}

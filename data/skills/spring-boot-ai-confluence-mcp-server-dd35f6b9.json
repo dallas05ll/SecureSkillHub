@@ -1,0 +1,28 @@
+{
+  "id": "spring-boot-ai-confluence-mcp-server-dd35f6b9",
+  "name": "spring-boot-ai-confluence-mcp-server",
+  "description": "A Spring Boot AI-powered Model Context Protocol Server for interacting with Confluence Cloud",
+  "repo_url": "https://github.com/BootcampToProd/spring-boot-ai-confluence-mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "BootcampToProd",
+  "stars": 4,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp",
+    "integ-cloud",
+    "prod-docs"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "27c0acadff66374e55abbc555f9d2838248a16cb",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 1,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:04:50Z",
+  "verification_level": "scanner_only"
+}

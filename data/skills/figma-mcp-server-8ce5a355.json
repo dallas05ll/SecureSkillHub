@@ -1,0 +1,26 @@
+{
+  "id": "figma-mcp-server-8ce5a355",
+  "name": "figma-mcp-server",
+  "description": "A simple MCP server for Figma",
+  "repo_url": "https://github.com/planetabhi/figma-mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "planetabhi",
+  "stars": 8,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "1f0978796a02b0e88fafcfd6a23cfd1a22b1f795",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 31,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:42:34Z",
+  "verification_level": "scanner_only"
+}

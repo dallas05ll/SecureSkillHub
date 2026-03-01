@@ -1,0 +1,27 @@
+{
+  "id": "xcodeproj-mcp-server-0506f874",
+  "name": "xcodeproj-mcp-server",
+  "description": "A Model Context Protocol Server to manipulate *.xcodeproj",
+  "repo_url": "https://github.com/giginet/xcodeproj-mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "giginet",
+  "stars": 116,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp",
+    "dev"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "b29c9aae7fa57a9e65e50fa91dc55eebd1820d4b",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 2,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-27T06:40:49Z",
+  "verification_level": "scanner_only"
+}

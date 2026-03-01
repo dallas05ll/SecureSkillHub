@@ -1,0 +1,30 @@
+{
+  "id": "omnimind-427affad",
+  "name": "OmniMind",
+  "description": "OmniMind: An open-source Python library for effortless MCP (Model Context Protocol) integration, AI Agents, AI workflows, and AI Automations. Plug & Play AI Tools for MCP Servers and Clients, powered by Google Gemini.",
+  "repo_url": "https://github.com/Techiral/OmniMind",
+  "source_hub": "mcp_so",
+  "owner": "Techiral",
+  "stars": 36,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp",
+    "dev-web-backend-python",
+    "integ",
+    "prod",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "43cbc243af65a66ea1f0caa4b7737be207e07730",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 37,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:32:11Z",
+  "verification_level": "scanner_only"
+}

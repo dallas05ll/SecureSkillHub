@@ -1,0 +1,26 @@
+{
+  "id": "elixir-mcp-server-fa04c8e1",
+  "name": "elixir_mcp_server",
+  "description": "An example of how to implement an MCP server using Elixir and SSE transport",
+  "repo_url": "https://github.com/epinault/elixir_mcp_server",
+  "source_hub": "mcp_so",
+  "owner": "epinault",
+  "stars": 7,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "e05dac7d076d5955c005429c848d04055d066c77",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 6,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:54:02Z",
+  "verification_level": "scanner_only"
+}

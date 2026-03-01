@@ -1,0 +1,28 @@
+{
+  "id": "azure-resource-graph-mcp-server-c20657a9",
+  "name": "azure-resource-graph-mcp-server",
+  "description": "Model Context Protocol (MCP) server that provides access to Azure Resource Graph queries. It allows you to retrieve information about Azure resources across your subscriptions using Resource Graph queries.",
+  "repo_url": "https://github.com/hardik-id/azure-resource-graph-mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "hardik-id",
+  "stars": 16,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp",
+    "integ-cloud",
+    "integ-cloud-azure"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "698c7b03a9be86578fa07581168151b6ec41274e",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 5,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:42:34Z",
+  "verification_level": "scanner_only"
+}

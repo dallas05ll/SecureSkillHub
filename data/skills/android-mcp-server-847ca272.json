@@ -1,0 +1,26 @@
+{
+  "id": "android-mcp-server-847ca272",
+  "name": "android-mcp-server",
+  "description": "An MCP server that provides control over Android devices via adb",
+  "repo_url": "https://github.com/minhalvp/android-mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "minhalvp",
+  "stars": 670,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 9,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-27T02:28:45Z",
+  "verification_level": "scanner_only"
+}

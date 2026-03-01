@@ -1,0 +1,25 @@
+{
+  "id": "mcp-nf-core-04d9eb55",
+  "name": "mcp-nf-core",
+  "description": "Unofficial MCP server for nf-core tools.",
+  "repo_url": "https://github.com/FloWuenne/mcp-nf-core",
+  "source_hub": "mcp_so",
+  "owner": "FloWuenne",
+  "stars": 1,
+  "primary_language": "unknown",
+  "tags": [
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "92fbd6006d82369799f6a45d8c5698ebbdff1b19",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 4,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:40Z",
+  "verification_level": "scanner_only"
+}

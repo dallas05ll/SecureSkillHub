@@ -1,0 +1,28 @@
+{
+  "id": "mcp-atlassian-af0cc707",
+  "name": "mcp-atlassian",
+  "description": "MCP server for integrating Atlassian products (Confluence, Jira) with Model Context Protocol",
+  "repo_url": "https://github.com/petrsovadina/mcp-atlassian",
+  "source_hub": "mcp_so",
+  "owner": "petrsovadina",
+  "stars": 2,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp",
+    "prod-docs",
+    "prod-pm"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "2b92d7ba4c0b848198f170c143e30150ae674122",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 6,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:04:50Z",
+  "verification_level": "scanner_only"
+}

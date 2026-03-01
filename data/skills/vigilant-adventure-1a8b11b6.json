@@ -1,0 +1,26 @@
+{
+  "id": "vigilant-adventure-1a8b11b6",
+  "name": "vigilant-adventure",
+  "description": "hey,i wanted to play with some mods but when i try to open the game it says; The game crashed whilst initializing game Error: java.lang.NoClassDefFoundError: cpw/mods/fml/common/IPlayerTracker Exit Code: -1 what can i do to make it work?the log is; ---- Minecraft Crash Report ---- WARNING: coremods are present: MekanismCoremod (Mekanism-1.12.2-9…",
+  "repo_url": "https://github.com/chuckmen/vigilant-adventure",
+  "source_hub": "mcp_so",
+  "owner": "chuckmen",
+  "stars": 1,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "dev"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "21dc50945b463f7a629f5f1b87543be760dcdcba",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 1,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:41Z",
+  "verification_level": "scanner_only"
+}

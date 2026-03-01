@@ -1,0 +1,26 @@
+{
+  "id": "custom-gitlab-server-2bb11903",
+  "name": "custom-gitlab-server",
+  "description": "MCP Server for interacting with the GitLab API",
+  "repo_url": "https://github.com/nooqta/custom-gitlab-server",
+  "source_hub": "mcp_so",
+  "owner": "nooqta",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "dev-git",
+    "integ"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "0f607fec2dfdeda5e273c3e0e796ff091a3d7ca8",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 6,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:41Z",
+  "verification_level": "scanner_only"
+}

@@ -1,0 +1,26 @@
+{
+  "id": "mcp-server-logical-solver-14713568",
+  "name": "mcp-server-logical-solver",
+  "description": "A project that integrates mcp servers for Prover9/Mace4 for a logical reasoning agent",
+  "repo_url": "https://github.com/RyanNg1403/mcp-server-logical-solver",
+  "source_hub": "mcp_so",
+  "owner": "RyanNg1403",
+  "stars": 1,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "89ccaaf287015c4ddf31531302967008b4a34494",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 9,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:41Z",
+  "verification_level": "scanner_only"
+}

@@ -1,0 +1,25 @@
+{
+  "id": "solana-mcp-84e8bd03",
+  "name": "Solana-MCP",
+  "description": "A simple solana mcp server.",
+  "repo_url": "https://github.com/Devang0907/Solana-MCP",
+  "source_hub": "mcp_so",
+  "owner": "Devang0907",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "sec-crypto"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "eeeeb23ae00e94cfd2edd7ffc030534a998c4e43",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 9,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:43:00Z",
+  "verification_level": "scanner_only"
+}

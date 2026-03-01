@@ -1,0 +1,26 @@
+{
+  "id": "tamagotchi-mcp-server-0dee9824",
+  "name": "tamagotchi-mcp-server",
+  "description": "實作簡易的 Tamagotchi MCP Server，模擬電子雞遊戲",
+  "repo_url": "https://github.com/wai-imyen/tamagotchi-mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "wai-imyen",
+  "stars": 2,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "8b13c60abe8a0db32b6bef77d0e1c7e085f84cba",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 4,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:42Z",
+  "verification_level": "scanner_only"
+}

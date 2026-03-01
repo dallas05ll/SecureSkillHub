@@ -1,0 +1,27 @@
+{
+  "id": "create-mcp-server-app-33b12019",
+  "name": "create-mcp-server-app",
+  "description": "A CLI tool for quickly scaffolding Model Context Protocol (MCP) server applications with TypeScript support and modern development tooling",
+  "repo_url": "https://github.com/boguan/create-mcp-server-app",
+  "source_hub": "mcp_so",
+  "owner": "boguan",
+  "stars": 58,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "ced7cfd6eb572e420e095572721ee18efce65538",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 67,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-27T06:40:44Z",
+  "verification_level": "scanner_only"
+}

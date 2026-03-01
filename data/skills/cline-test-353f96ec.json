@@ -1,0 +1,25 @@
+{
+  "id": "cline-test-353f96ec",
+  "name": "cline_test",
+  "description": "Repository created via MCP server",
+  "repo_url": "https://github.com/clee74/cline_test",
+  "source_hub": "mcp_so",
+  "owner": "clee74",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "dev-testing"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "867ff60e8315e1207a4364b864b91996b2e14c0b",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 1,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:42Z",
+  "verification_level": "scanner_only"
+}

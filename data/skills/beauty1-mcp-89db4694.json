@@ -1,0 +1,26 @@
+{
+  "id": "beauty1-mcp-89db4694",
+  "name": "beauty1-mcp",
+  "description": "MCP server configuration for beauty1 project",
+  "repo_url": "https://github.com/Spa42/beauty1-mcp",
+  "source_hub": "mcp_so",
+  "owner": "Spa42",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "dfd32cd7c3e6e287a2411fc9d865203727597078",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 2,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:42Z",
+  "verification_level": "scanner_only"
+}

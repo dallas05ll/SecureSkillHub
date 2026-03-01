@@ -1,0 +1,26 @@
+{
+  "id": "myshoes-mcp-server-6e94346c",
+  "name": "myshoes-mcp-server",
+  "description": "The myshoes MCP Server is Model Context Protocol (MCP) compliant server for the whywaita/myshoes.",
+  "repo_url": "https://github.com/whywaita/myshoes-mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "whywaita",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "5a9cdecc0a95611944dcae01d62f42d2a588efef",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 2,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:41Z",
+  "verification_level": "scanner_only"
+}

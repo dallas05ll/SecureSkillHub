@@ -1,0 +1,25 @@
+{
+  "id": "amazon-fresh-server-2f685939",
+  "name": "amazon-fresh-server",
+  "description": "An amazon fresh mcp server",
+  "repo_url": "https://github.com/Alec2435/amazon-fresh-server",
+  "source_hub": "mcp_so",
+  "owner": "Alec2435",
+  "stars": 62,
+  "primary_language": "unknown",
+  "tags": [
+    "integ-cloud-aws"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 6,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-25T14:42:32Z",
+  "verification_level": "scanner_only"
+}

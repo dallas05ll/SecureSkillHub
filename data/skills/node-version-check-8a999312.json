@@ -1,0 +1,25 @@
+{
+  "id": "node-version-check-8a999312",
+  "name": "node-version-check",
+  "description": "A simple MCP server to check Node.js version",
+  "repo_url": "https://github.com/lmcmz/node-version-check",
+  "source_hub": "mcp_so",
+  "owner": "lmcmz",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "dev-web-backend-node"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "3d499955fcc33b7765781764939b5ff13feb8d26",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 4,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:41Z",
+  "verification_level": "scanner_only"
+}

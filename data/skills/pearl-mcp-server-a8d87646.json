@@ -1,0 +1,26 @@
+{
+  "id": "pearl-mcp-server-a8d87646",
+  "name": "pearl_mcp_server",
+  "description": "A Model Context Protocol (MCP) server implementation that exposes Pearl's AI and Expert services through a standardized interface",
+  "repo_url": "https://github.com/Pearl-com/pearl_mcp_server",
+  "source_hub": "mcp_so",
+  "owner": "Pearl-com",
+  "stars": 7,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "f1cef06ab27a0558d27860939e848717a7c841ee",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 10,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:54:02Z",
+  "verification_level": "scanner_only"
+}

@@ -1,0 +1,25 @@
+{
+  "id": "story-sdk-mcp-a4ece6fd",
+  "name": "story-sdk-mcp",
+  "description": "An MCP server for the Story SDK",
+  "repo_url": "https://github.com/piplabs/story-sdk-mcp",
+  "source_hub": "mcp_so",
+  "owner": "piplabs",
+  "stars": 17,
+  "primary_language": "unknown",
+  "tags": [
+    "dev"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "1b11cfeab196cd6ea5d06a17a3cd5b851d2c378d",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 37,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:42:34Z",
+  "verification_level": "scanner_only"
+}

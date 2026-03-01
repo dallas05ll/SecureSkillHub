@@ -1,0 +1,28 @@
+{
+  "id": "stac-mcp-14501d83",
+  "name": "stac-mcp",
+  "description": "An MCP (Model Context Protocol) Server that provides access to STAC (SpatioTemporal Asset Catalog) APIs for geospatial data discovery and access.",
+  "repo_url": "https://github.com/BnJam/stac-mcp",
+  "source_hub": "mcp_so",
+  "owner": "BnJam",
+  "stars": 10,
+  "primary_language": "unknown",
+  "tags": [
+    "data",
+    "data-ai",
+    "data-ai-nlp",
+    "integ"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "d230f1690e1bd24827d8895823b1efb1f27e07cc",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 135,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:42:34Z",
+  "verification_level": "scanner_only"
+}

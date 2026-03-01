@@ -1,0 +1,31 @@
+{
+  "id": "youtube-transcript-api-a3f1b788",
+  "name": "Youtube-Transcript-API",
+  "description": "YouTube Transcript API — Extract, transcribe, and translate YouTube videos at scale. Supports captions, audio transcription (ASR), batch processing, and 100+ languages. https://youtubetranscript.dev",
+  "repo_url": "https://github.com/Youtube-Transcript-Dev/Youtube-Transcript-API",
+  "source_hub": "github_search",
+  "skill_type": "agent_skill",
+  "owner": "Youtube-Transcript-Dev",
+  "stars": 5,
+  "license": "mit",
+  "primary_language": "markdown",
+  "tags": [
+    "data-ai-audio",
+    "data-ai-nlp",
+    "integ",
+    "integ-social",
+    "util-media"
+  ],
+  "verification_status": "pass",
+  "overall_score": 78,
+  "risk_level": "medium",
+  "verified_commit": null,
+  "scan_summary": null,
+  "last_updated": "2026-02-17T11:33:22Z",
+  "findings_summary": {
+    "notes": "Metadata-based verification. Score=78. Signals: stars=5; license='mit' (+5); owner='Youtube-Transcript-Dev' (+3); primary_language='markdown'; source_hub='github_search'. Status: pass. Risk: medium."
+  },
+  "trust_level": "low",
+  "scan_date": "2026-02-26T06:14:56Z",
+  "verification_level": "metadata_only"
+}

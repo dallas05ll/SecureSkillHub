@@ -1,0 +1,27 @@
+{
+  "id": "agent-skills-b0c676c1",
+  "name": "agent-skills",
+  "description": "skills for AI agents",
+  "repo_url": "https://github.com/azzgo/agent-skills",
+  "source_hub": "github_search",
+  "skill_type": "agent_skill",
+  "owner": "azzgo",
+  "stars": 1,
+  "license": "",
+  "primary_language": "markdown",
+  "tags": [
+    "data-ai"
+  ],
+  "verification_status": "pass",
+  "overall_score": 73,
+  "risk_level": "medium",
+  "verified_commit": null,
+  "scan_summary": null,
+  "last_updated": "2026-02-07T16:19:53Z",
+  "findings_summary": {
+    "notes": "Metadata-based verification. Score=73. Signals: stars=1; no license detected; owner='azzgo' (+3); primary_language='markdown'; source_hub='github_search'. Status: pass. Risk: medium."
+  },
+  "trust_level": "low",
+  "scan_date": "2026-02-26T06:14:55Z",
+  "verification_level": "metadata_only"
+}

@@ -1,0 +1,25 @@
+{
+  "id": "trykitt-mcp-753b02f5",
+  "name": "trykitt-mcp",
+  "description": "An MCP server acting as a wrapper around the Trykitt API (",
+  "repo_url": "https://github.com/samy-clivolt/trykitt-mcp",
+  "source_hub": "mcp_so",
+  "owner": "samy-clivolt",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "integ"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "64b03f0b86e61824116a8fa173b1f58184d97fb9",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 7,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:42:59Z",
+  "verification_level": "scanner_only"
+}

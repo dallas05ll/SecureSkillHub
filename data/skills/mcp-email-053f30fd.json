@@ -1,0 +1,26 @@
+{
+  "id": "mcp-email-053f30fd",
+  "name": "mcp_email",
+  "description": "An MCP Server enabling POP3 and SMTP functionality for compatable AI Agents",
+  "repo_url": "https://github.com/gaddobenedetti/mcp_email",
+  "source_hub": "mcp_so",
+  "owner": "gaddobenedetti",
+  "stars": 1,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "prod-comm"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "6094b2114550e35790bd3ce248dab6c2ff99c3cc",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 3,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:42Z",
+  "verification_level": "scanner_only"
+}

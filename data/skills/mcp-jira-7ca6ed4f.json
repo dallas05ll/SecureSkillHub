@@ -1,0 +1,27 @@
+{
+  "id": "mcp-jira-7ca6ed4f",
+  "name": "mcp-jira",
+  "description": "A high-performance, asynchronous Model Context Protocol (MCP) server that integrates with JIRA using stdio transport",
+  "repo_url": "https://github.com/judexzhu/mcp-jira",
+  "source_hub": "mcp_so",
+  "owner": "judexzhu",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp",
+    "prod-pm"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "07b4f82412121fd6346b3942e5f9b3a26719cf21",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 9,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:42Z",
+  "verification_level": "scanner_only"
+}

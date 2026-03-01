@@ -1,0 +1,26 @@
+{
+  "id": "mcp-ectors-e899661a",
+  "name": "mcp-ectors",
+  "description": "The MCP enterprise actors-based server or mcp-ectors for short",
+  "repo_url": "https://github.com/mcp-ectors/mcp-ectors",
+  "source_hub": "mcp_so",
+  "owner": "mcp-ectors",
+  "stars": 31,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "7c75e15eb23bfd1dd47d92fe5f4cb6b043cd5626",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 3,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:32:13Z",
+  "verification_level": "scanner_only"
+}

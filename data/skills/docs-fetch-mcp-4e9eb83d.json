@@ -1,0 +1,26 @@
+{
+  "id": "docs-fetch-mcp-4e9eb83d",
+  "name": "docs-fetch-mcp",
+  "description": "MCP server for fetching web page content with recursive exploration capability",
+  "repo_url": "https://github.com/wolfyy970/docs-fetch-mcp",
+  "source_hub": "mcp_so",
+  "owner": "wolfyy970",
+  "stars": 7,
+  "primary_language": "unknown",
+  "tags": [
+    "prod-docs",
+    "util-search"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "952c2c07f89de4975bb5ba65300372243a452541",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 9,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:54:04Z",
+  "verification_level": "scanner_only"
+}

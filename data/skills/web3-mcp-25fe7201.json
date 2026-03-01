@@ -1,0 +1,28 @@
+{
+  "id": "web3-mcp-25fe7201",
+  "name": "web3-mcp",
+  "description": "MCP server for using your browser wallet with natural language",
+  "repo_url": "https://github.com/menuRivera/web3-mcp",
+  "source_hub": "mcp_so",
+  "owner": "menuRivera",
+  "stars": 2,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai-nlp",
+    "dev-web",
+    "sec-crypto",
+    "util-search"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "4f77fe491fc59f09d45c0291885fa4a883b81d01",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 42,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:42Z",
+  "verification_level": "scanner_only"
+}

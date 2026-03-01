@@ -1,0 +1,26 @@
+{
+  "id": "agents-mcp-usage-53d2633b",
+  "name": "agents-mcp-usage",
+  "description": "Repo for demonstrating simple Model Context Protocol (MCP) server with several Agent Frameworks",
+  "repo_url": "https://github.com/andrewginns/agents-mcp-usage",
+  "source_hub": "mcp_so",
+  "owner": "andrewginns",
+  "stars": 6,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "7c44b53b1e4a1b1ecf1bed1487e6445ab5573581",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 43,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:54:02Z",
+  "verification_level": "scanner_only"
+}

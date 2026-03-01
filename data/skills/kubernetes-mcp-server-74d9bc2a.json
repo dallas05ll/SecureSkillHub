@@ -1,0 +1,27 @@
+{
+  "id": "kubernetes-mcp-server-74d9bc2a",
+  "name": "kubernetes-mcp-server",
+  "description": "Model Context Protocol (MCP) server for Kubernetes and OpenShift containers, context, kubernetes, mcp, model, model-context-pr, openshift, protocol",
+  "repo_url": "https://github.com/nearvitamin/kubernetes-mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "nearvitamin",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp",
+    "dev-devops-docker",
+    "dev-devops-k8s",
+    "repo_unavailable"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "low",
+  "verified_commit": null,
+  "scan_summary": null,
+  "scan_date": "2026-02-26T03:00:50Z",
+  "repo_status": "unavailable",
+  "repo_check_date": "2026-02-28T20:51:56.192055+00:00",
+  "repo_check_error": "fatal: could not read Username for 'https://github.com': Device not configured",
+  "verification_level": "scanner_only"
+}

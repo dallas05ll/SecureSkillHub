@@ -1,0 +1,25 @@
+{
+  "id": "mcp-url2markdown-29b1863d",
+  "name": "mcp-url2markdown",
+  "description": "url to markdown mcp server",
+  "repo_url": "https://github.com/sungithubid/mcp-url2markdown",
+  "source_hub": "mcp_so",
+  "owner": "sungithubid",
+  "stars": 1,
+  "primary_language": "unknown",
+  "tags": [
+    "prod-docs"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "afe750f5b233f1b2954b266f476e7c77c81a3562",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 3,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:40Z",
+  "verification_level": "scanner_only"
+}

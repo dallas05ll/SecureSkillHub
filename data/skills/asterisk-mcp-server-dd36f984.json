@@ -1,0 +1,26 @@
+{
+  "id": "asterisk-mcp-server-dd36f984",
+  "name": "asterisk-mcp-server",
+  "description": "Asterisk Model Context Protocol (MCP) server.",
+  "repo_url": "https://github.com/getAsterisk/asterisk-mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "getAsterisk",
+  "stars": 31,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "c1430271d44538ac4f56e070977c22e06b212909",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 8,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:32:13Z",
+  "verification_level": "scanner_only"
+}

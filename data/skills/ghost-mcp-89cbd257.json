@@ -1,0 +1,26 @@
+{
+  "id": "ghost-mcp-89cbd257",
+  "name": "ghost-mcp",
+  "description": "A Model Context Protocol (MCP) server for interacting with Ghost CMS through LLM interfaces like Claude. Allow you to control your Ghost blog by simply asking Claude etc.",
+  "repo_url": "https://github.com/MFYDev/ghost-mcp",
+  "source_hub": "mcp_so",
+  "owner": "MFYDev",
+  "stars": 147,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "5edffe2e24b8b67e3b35fdcc841000a12793a0e6",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 21,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-27T06:36:35Z",
+  "verification_level": "scanner_only"
+}

@@ -1,0 +1,26 @@
+{
+  "id": "pocketbase-mcp-4c8959f2",
+  "name": "pocketbase-mcp",
+  "description": "MCP server for building PocketBase apps really quickly - Need a front end quick consider FastPocket",
+  "repo_url": "https://github.com/mrwyndham/pocketbase-mcp",
+  "source_hub": "mcp_so",
+  "owner": "mrwyndham",
+  "stars": 111,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "5f0ac762324e009a02f34e159b88636d917df08a",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 5,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-27T06:40:44Z",
+  "verification_level": "scanner_only"
+}

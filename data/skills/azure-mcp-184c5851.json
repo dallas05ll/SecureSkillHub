@@ -1,0 +1,21 @@
+{
+  "id": "azure-mcp-184c5851",
+  "name": "azure-mcp",
+  "description": "The Azure MCP Server, bringing the power of Azure to your agents.",
+  "repo_url": "https://github.com/Azure/azure-mcp",
+  "source_hub": "mcp_so",
+  "owner": "Azure",
+  "stars": 1204,
+  "primary_language": "unknown",
+  "tags": [
+    "integ-cloud",
+    "integ-cloud-azure"
+  ],
+  "verification_status": "pass",
+  "overall_score": 75,
+  "risk_level": "low",
+  "verified_commit": null,
+  "scan_summary": null,
+  "scan_date": "2026-02-26T03:00:50Z",
+  "verification_level": "scanner_only"
+}

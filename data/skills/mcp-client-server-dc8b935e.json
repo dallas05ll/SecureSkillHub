@@ -1,0 +1,26 @@
+{
+  "id": "mcp-client-server-dc8b935e",
+  "name": "mcp-client-server",
+  "description": "A simple MCP example with client and server",
+  "repo_url": "https://github.com/logesh-kumar/mcp-client-server",
+  "source_hub": "mcp_so",
+  "owner": "logesh-kumar",
+  "stars": 1,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "f7aa6646ed5d3b19403f30f33eb3861719055f43",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 5,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:42Z",
+  "verification_level": "scanner_only"
+}

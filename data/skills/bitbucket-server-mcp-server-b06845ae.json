@@ -1,0 +1,27 @@
+{
+  "id": "bitbucket-server-mcp-server-b06845ae",
+  "name": "bitbucket-server-mcp-server",
+  "description": "MCP (Model Context Protocol) server for Bitbucket Server Pull Request management",
+  "repo_url": "https://github.com/kartikpatpatwingify/bitbucket-server-mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "kartikpatpatwingify",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp",
+    "dev-git"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "83768c0fa18fb7fe5f46297d8309318e90546984",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 10,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:42Z",
+  "verification_level": "scanner_only"
+}

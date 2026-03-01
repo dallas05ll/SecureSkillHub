@@ -1,0 +1,31 @@
+{
+  "id": "medifinder-mcp-2ba96381",
+  "name": "medifinder-mcp",
+  "description": "Message Communication Protocol (MCP) server that facilitates secure, standardized communication between system components and the medicine inventory database. Provides RESTful endpoints for location-based medicine searches, availability queries, and optimized messaging for WhatsApp integration.",
+  "repo_url": "https://github.com/MediFinderBot/medifinder-mcp",
+  "source_hub": "mcp_so",
+  "owner": "MediFinderBot",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "data",
+    "data-ai",
+    "data-db",
+    "integ",
+    "prod-comm",
+    "util-map",
+    "util-search"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "95babc372029d28299ff5469a43c61443339275b",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 24,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:40Z",
+  "verification_level": "scanner_only"
+}

@@ -1,0 +1,26 @@
+{
+  "id": "mcp-teamate-server-0a4cf034",
+  "name": "mcp-teamate-server",
+  "description": "Teamate MCP 服务器端",
+  "repo_url": "https://github.com/aokihu/mcp-teamate-server",
+  "source_hub": "mcp_so",
+  "owner": "aokihu",
+  "stars": 1,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "a4c9814e4efb33bc9ac724bbbdad840f0b612af1",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 14,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:40Z",
+  "verification_level": "scanner_only"
+}

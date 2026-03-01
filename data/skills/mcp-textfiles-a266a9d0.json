@@ -1,0 +1,26 @@
+{
+  "id": "mcp-textfiles-a266a9d0",
+  "name": "MCP_TextFiles",
+  "description": "MCP server to list, read and write .txt files given a local route",
+  "repo_url": "https://github.com/Digio-Campus/MCP_TextFiles",
+  "source_hub": "mcp_so",
+  "owner": "Digio-Campus",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai-nlp",
+    "util-file"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "4dbaea7604940949b2a7ea3f33f17bbb36b8ce66",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 5,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:40Z",
+  "verification_level": "scanner_only"
+}

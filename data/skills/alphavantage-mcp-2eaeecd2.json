@@ -1,0 +1,27 @@
+{
+  "id": "alphavantage-mcp-2eaeecd2",
+  "name": "alphavantage_mcp",
+  "description": "A Model Context Protocol (MCP) server for accessing Alpha Vantage stock and financial data.",
+  "repo_url": "https://github.com/iferdelja/alphavantage_mcp",
+  "source_hub": "mcp_so",
+  "owner": "iferdelja",
+  "stars": 1,
+  "primary_language": "unknown",
+  "tags": [
+    "data",
+    "data-ai",
+    "data-ai-nlp"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "b85a8c3a811d5d8cb0fae3ec19566afdb75368bf",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 27,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:40Z",
+  "verification_level": "scanner_only"
+}

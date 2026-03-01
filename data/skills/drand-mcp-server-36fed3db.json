@@ -1,0 +1,26 @@
+{
+  "id": "drand-mcp-server-36fed3db",
+  "name": "drand-mcp-server",
+  "description": "A model context protocol server for drand",
+  "repo_url": "https://github.com/randa-mu/drand-mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "randa-mu",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "22b9618d5c5593bd174221cbe0fd7aad9be973ff",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 8,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:41Z",
+  "verification_level": "scanner_only"
+}

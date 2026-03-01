@@ -1,0 +1,27 @@
+{
+  "id": "pure-model-context-protocol-44704ccf",
+  "name": "pure-model-context-protocol",
+  "description": "A simple MCP server to interact with Pure storage arrays",
+  "repo_url": "https://github.com/jboothomas/pure-model-context-protocol",
+  "source_hub": "mcp_so",
+  "owner": "jboothomas",
+  "stars": 3,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp",
+    "util-file"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "4edd218394923a44865ada7f3ada98c7420425d1",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 5,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:04:50Z",
+  "verification_level": "scanner_only"
+}

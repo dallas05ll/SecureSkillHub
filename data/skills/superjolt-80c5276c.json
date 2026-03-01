@@ -1,0 +1,26 @@
+{
+  "id": "superjolt-80c5276c",
+  "name": "superjolt",
+  "description": "Superjolt is a Platform-as-a-Service (PaaS) that enables developers to deploy JavaScript applications instantly with a single command: npx superjolt deploy. Through its native Model Context Protocol (MCP) integration, developers can manage their entire deployment infrastructure using natural language via Claude Desktop. Instead of memorizing CLI commands or navigating complex dashboards, you can simply tell Claude what you want: \"Show me all my running services,\" \"Restart the API service,\" or...",
+  "repo_url": "https://github.com/scoritz/superjolt",
+  "source_hub": "mcp_so",
+  "owner": "scoritz",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp",
+    "dev",
+    "integ",
+    "prod-notes",
+    "repo_unavailable"
+  ],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null,
+  "repo_status": "unavailable",
+  "repo_check_date": "2026-02-28T20:52:58.733011+00:00",
+  "repo_check_error": "fatal: could not read Username for 'https://github.com': Device not configured"
+}

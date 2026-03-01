@@ -1,0 +1,29 @@
+{
+  "id": "eget-mcp-539f18e2",
+  "name": "eget_mcp",
+  "description": "A simple MCP server that integrates eGet web scraper with Claude for Desktop. This connector allows Claude to scrape web content through your local eGet API, enabling search, summarization, and analysis of websites directly in conversations.",
+  "repo_url": "https://github.com/vishwajeetdabholkar/eget_mcp",
+  "source_hub": "mcp_so",
+  "owner": "vishwajeetdabholkar",
+  "stars": 3,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp",
+    "dev-web",
+    "integ",
+    "util-search"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "367afa96721824dfa2f5b81dc90df007995df331",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 2,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:04:50Z",
+  "verification_level": "scanner_only"
+}

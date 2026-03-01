@@ -1,0 +1,26 @@
+{
+  "id": "mcp-server-bash-24777ad5",
+  "name": "mcp-server-bash",
+  "description": "minimalistic MCP server written in bash script",
+  "repo_url": "https://github.com/antonum/mcp-server-bash",
+  "source_hub": "mcp_so",
+  "owner": "antonum",
+  "stars": 26,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "356ce3d90f45011125a758e01cbd49d2e619b6c0",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 3,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:32:11Z",
+  "verification_level": "scanner_only"
+}

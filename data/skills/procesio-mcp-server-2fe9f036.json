@@ -1,0 +1,25 @@
+{
+  "id": "procesio-mcp-server-2fe9f036",
+  "name": "procesio-mcp-server",
+  "description": "MCP Server for interacting with the Procesio API",
+  "repo_url": "https://github.com/serenichron/procesio-mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "serenichron",
+  "stars": 2,
+  "primary_language": "unknown",
+  "tags": [
+    "integ"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "7c1da5f721e71d3eabbc28b53859ae0a712cf846",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 5,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:04:50Z",
+  "verification_level": "scanner_only"
+}

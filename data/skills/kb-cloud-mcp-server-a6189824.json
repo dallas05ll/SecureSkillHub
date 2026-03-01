@@ -1,0 +1,25 @@
+{
+  "id": "kb-cloud-mcp-server-a6189824",
+  "name": "kb-cloud-mcp-server",
+  "description": "MCP server for KubeBlocks Cloud",
+  "repo_url": "https://github.com/apecloud/kb-cloud-mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "apecloud",
+  "stars": 2,
+  "primary_language": "unknown",
+  "tags": [
+    "integ-cloud"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "e3b1f9ec4de3a70a2bcbacac6ab44cfda2861502",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 8,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:04:51Z",
+  "verification_level": "scanner_only"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "skills-b1bc2b7d",
+  "name": "skills",
+  "description": "Production-ready Expo React Native mobile app skill with RevenueCat payments, AdMob, i18n, onboarding, and NativeTabs.",
+  "repo_url": "https://github.com/zaferayan/skills",
+  "source_hub": "github_search",
+  "skill_type": "agent_skill",
+  "owner": "zaferayan",
+  "stars": 99,
+  "license": "",
+  "primary_language": "Markdown",
+  "tags": [
+    "dev-web-frontend-react",
+    "integ-payment"
+  ],
+  "verification_status": "pass",
+  "overall_score": 78,
+  "risk_level": "low",
+  "verified_commit": null,
+  "scan_summary": null,
+  "last_updated": "2026-02-20T08:55:44Z",
+  "findings_summary": {
+    "notes": "SKILL.md present, MIT license missing but content is well-structured. Actively maintained, solid documentation."
+  },
+  "trust_level": "low",
+  "scan_date": "2026-02-26T02:11:11Z",
+  "verification_level": "scanner_only"
+}

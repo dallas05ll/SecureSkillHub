@@ -1,0 +1,25 @@
+{
+  "id": "compliant-llm-d03f96ca",
+  "name": "compliant-llm",
+  "description": "Build Secure and Compliant AI agents and MCP Servers. YC W23",
+  "repo_url": "https://github.com/fiddlecube/compliant-llm",
+  "source_hub": "mcp_so",
+  "owner": "fiddlecube",
+  "stars": 158,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "0593d7c5c6659c103c4c866ea048dbdfd0b9b9e3",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 142,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-27T06:36:35Z",
+  "verification_level": "scanner_only"
+}

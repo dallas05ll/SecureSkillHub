@@ -1,0 +1,25 @@
+{
+  "id": "claude-autoapprove-mcp-3b06f2d5",
+  "name": "claude_autoapprove_mcp",
+  "description": "An MCP server to inject auto-approve MCP functionality into Claude Desktop",
+  "repo_url": "https://github.com/PyneSys/claude_autoapprove_mcp",
+  "source_hub": "mcp_so",
+  "owner": "PyneSys",
+  "stars": 27,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "606c6f7a0b94b32fe2b18b099c80abb365f07468",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 6,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:32:11Z",
+  "verification_level": "scanner_only"
+}

@@ -1,0 +1,26 @@
+{
+  "id": "astra-db-mcp-89cc4cb2",
+  "name": "astra-db-mcp",
+  "description": "An MCP server for Astra DB workloads",
+  "repo_url": "https://github.com/datastax/astra-db-mcp",
+  "source_hub": "mcp_so",
+  "owner": "datastax",
+  "stars": 38,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "da7da00667ed07593a664e6cdfb754f9e18c1867",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 61,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:32:11Z",
+  "verification_level": "scanner_only"
+}

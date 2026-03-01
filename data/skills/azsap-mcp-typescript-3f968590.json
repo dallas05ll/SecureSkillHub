@@ -1,0 +1,26 @@
+{
+  "id": "azsap-mcp-typescript-3f968590",
+  "name": "azsap-mcp-typescript",
+  "description": "SAP On Azure MCP Server for TypeScript",
+  "repo_url": "https://github.com/ArchitectRavi/azsap-mcp-typescript",
+  "source_hub": "mcp_so",
+  "owner": "ArchitectRavi",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "integ-cloud",
+    "integ-cloud-azure"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "8a2741d82f8cdf90f997e6025f4d6c830831483c",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 23,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:41Z",
+  "verification_level": "scanner_only"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "iaptic-mcp-server-99068d55",
+  "name": "Iaptic MCP Server",
+  "description": "A server for interacting with the Iaptic API, allowing AI models like Claude to query customer, purchase, and transaction data, as well as retrieve statistical insights.",
+  "repo_url": "https://github.com/iaptic/mcp-server-iaptic",
+  "source_hub": "glama",
+  "owner": "iaptic",
+  "stars": 5,
+  "primary_language": "unknown",
+  "tags": [
+    "data",
+    "data-ai",
+    "integ",
+    "integ-crm"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "157a730c5b9b32e9a103d1e2114251720d66eecf",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 14,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:54:04Z",
+  "verification_level": "scanner_only"
+}

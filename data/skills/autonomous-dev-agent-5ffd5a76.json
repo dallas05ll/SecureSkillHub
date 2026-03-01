@@ -1,0 +1,28 @@
+{
+  "id": "autonomous-dev-agent-5ffd5a76",
+  "name": "autonomous-dev-agent",
+  "description": "🚀 MCP Server: Platform enabling AIs to act as autonomous developers. From idea conception to final testing, automating the entire software development process. #AutonomousDev #AI #Innovation #SoftwareEngineering #FutureOfDev",
+  "repo_url": "https://github.com/Bufigol/autonomous-dev-agent",
+  "source_hub": "mcp_so",
+  "owner": "Bufigol",
+  "stars": 1,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "dev",
+    "dev-testing",
+    "prod"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "89c6053fcf5ae7bde82d74d0f49fbddb4d7c0ba1",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 8,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:40Z",
+  "verification_level": "scanner_only"
+}

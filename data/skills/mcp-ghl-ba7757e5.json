@@ -1,0 +1,26 @@
+{
+  "id": "mcp-ghl-ba7757e5",
+  "name": "MCP-GHL",
+  "description": "GHL MCP server to GHL Demo Sub Account",
+  "repo_url": "https://github.com/JewelreyBoxAI/MCP-GHL",
+  "source_hub": "mcp_so",
+  "owner": "JewelreyBoxAI",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "dbd55caba88219814a48d75d754ff5fd5fd1b7ea",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 9,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:42Z",
+  "verification_level": "scanner_only"
+}

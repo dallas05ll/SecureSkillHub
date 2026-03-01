@@ -1,0 +1,26 @@
+{
+  "id": "plex-mcp-4f9aa8e7",
+  "name": "plex-mcp",
+  "description": "Plex MCP server",
+  "repo_url": "https://github.com/djbriane/plex-mcp",
+  "source_hub": "mcp_so",
+  "owner": "djbriane",
+  "stars": 2,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "8f1dad323501a0e561aeec254712de6b913c2600",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 8,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:04:50Z",
+  "verification_level": "scanner_only"
+}

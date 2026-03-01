@@ -1,0 +1,28 @@
+{
+  "id": "mcp-server-for-hashing-33f8d1b9",
+  "name": "MCP-Server-for-Hashing",
+  "description": "A Model Context Protocol (MCP) server for calculating MD5 and SHA-256 hashes, complete with tools and guides for understanding and building MCP servers. Works with Claude Desktop & VSCode.",
+  "repo_url": "https://github.com/kanad13/MCP-Server-for-Hashing",
+  "source_hub": "mcp_so",
+  "owner": "kanad13",
+  "stars": 5,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp",
+    "dev",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "3829d3df83435a3cb049719491aa9f54a6f927d8",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 9,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:54:04Z",
+  "verification_level": "scanner_only"
+}

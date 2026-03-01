@@ -1,0 +1,32 @@
+{
+  "id": "claude-code-settings-89738951",
+  "name": "claude-code-settings",
+  "description": "Curated Claude Code settings, custom commands, skills, and sub-agents for enhanced development workflows including spec-driven feature development, GitHub integration, LiteLLM proxy support, and multi-model routing.",
+  "repo_url": "https://github.com/feiskyer/claude-code-settings",
+  "source_hub": "github_search",
+  "skill_type": "agent_skill",
+  "owner": "feiskyer",
+  "stars": 1232,
+  "license": "mit",
+  "has_security_md": false,
+  "primary_language": "Shell",
+  "tags": [
+    "data-ai",
+    "dev",
+    "integ",
+    "prod"
+  ],
+  "verification_status": "pass",
+  "overall_score": 72,
+  "risk_level": "low",
+  "verified_at": "2026-02-25",
+  "findings_summary": {
+    "notes": "Well-structured individual developer project for Claude Code configuration. MIT licensed with active maintenance (updated Feb 2026, 186 forks). Provides Claude Code plugin marketplace integration, npx skills installer, LiteLLM proxy setup for multi-model support, and various specialized skills (codex, kiro, youtube transcribe, etc). Supports Copilot, Codex, and other AI coding tools. No SECURITY.md. Primary consideration is that these settings modify Claude's behavior and permissions - users should review CLAUDE.md and settings.json before applying. Individual developer (not org-backed), but widely adopted community resource with clear documentation."
+  },
+  "verified_commit": null,
+  "scan_summary": null,
+  "last_updated": "2026-02-25T14:54:36Z",
+  "trust_level": "low",
+  "scan_date": "2026-02-25T23:04:40Z",
+  "verification_level": "scanner_only"
+}

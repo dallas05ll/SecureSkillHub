@@ -1,0 +1,29 @@
+{
+  "id": "todo-mcp-server-d62551b9",
+  "name": "todo-mcp-server",
+  "description": "A demo project connecting AI assistants to a Todo app using Model Context Protocol. Features React frontend, FastAPI backend, and Claude Desktop integration.",
+  "repo_url": "https://github.com/sam55silver/todo-mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "sam55silver",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp",
+    "dev-web-backend-python",
+    "dev-web-frontend-react",
+    "integ"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "fc495ecfde9e1dd5bcf256275ef9185cf3f7635f",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 22,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:43:00Z",
+  "verification_level": "scanner_only"
+}

@@ -1,0 +1,26 @@
+{
+  "id": "mcproxy-8d4b5fc2",
+  "name": "mcproxy",
+  "description": "A proxy between MCP Clients and MCP Servers",
+  "repo_url": "https://github.com/LaurentAjdnik/mcproxy",
+  "source_hub": "mcp_so",
+  "owner": "LaurentAjdnik",
+  "stars": 2,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "8e2bbefac5ee5eaf5cb1505d9b7e04848974734b",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 1,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:04:50Z",
+  "verification_level": "scanner_only"
+}

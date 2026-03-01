@@ -1,0 +1,30 @@
+{
+  "id": "claude-code-spec-kit-subagent-plugin-99d3f765",
+  "name": "claude-code-spec-kit-subagent-plugin",
+  "description": "A Claude Code plugin that provides a conversational, adaptive, and agentic subagent for co-creating rigorous, multi-perspective technical specs—featuring dynamic memory graphs, adaptive workflows, and explicit multi-role analysis. Especially useful for non-technical users and teams adopting the Spec Kit Methodology.",
+  "repo_url": "https://github.com/jcmrs/claude-code-spec-kit-subagent-plugin",
+  "source_hub": "github_search",
+  "skill_type": "agent_skill",
+  "owner": "jcmrs",
+  "stars": 17,
+  "license": "mit",
+  "primary_language": "markdown",
+  "tags": [
+    "data-ai",
+    "dev",
+    "prod",
+    "prod-notes"
+  ],
+  "verification_status": "pass",
+  "overall_score": 83,
+  "risk_level": "low",
+  "verified_commit": null,
+  "scan_summary": null,
+  "last_updated": "2026-02-25T01:12:59Z",
+  "findings_summary": {
+    "notes": "Metadata-based verification. Score=83. Signals: stars=17 (>=10, +5); license='mit' (+5); owner='jcmrs' (+3); primary_language='markdown'; source_hub='github_search'. Status: pass. Risk: low."
+  },
+  "trust_level": "low",
+  "scan_date": "2026-02-26T06:14:55Z",
+  "verification_level": "metadata_only"
+}

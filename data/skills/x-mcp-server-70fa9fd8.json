@@ -1,0 +1,26 @@
+{
+  "id": "x-mcp-server-70fa9fd8",
+  "name": "x-mcp-server",
+  "description": "This is an MCP server for the X Platform",
+  "repo_url": "https://github.com/siddheshutd/x-mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "siddheshutd",
+  "stars": 6,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "630e340f98ab3dde85e0c48da727116a302e817e",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 9,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:54:02Z",
+  "verification_level": "scanner_only"
+}

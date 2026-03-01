@@ -1,0 +1,25 @@
+{
+  "id": "repo-created-using-mcp-server-9eaee2da",
+  "name": "repo-created-using-mcp-server",
+  "description": "Repository created using GitHub MCP tools",
+  "repo_url": "https://github.com/jayant-vashisth/repo-created-using-mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "jayant-vashisth",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "b8ea35b0280677766254e1e72345cae244cfe288",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 1,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:41Z",
+  "verification_level": "scanner_only"
+}

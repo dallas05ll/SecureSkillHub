@@ -1,0 +1,26 @@
+{
+  "id": "imap-mcp-c6e3dcef",
+  "name": "imap-mcp",
+  "description": "MCP Server providing Basic IMAP Tools",
+  "repo_url": "https://github.com/Derek-Ashmore/imap-mcp",
+  "source_hub": "mcp_so",
+  "owner": "Derek-Ashmore",
+  "stars": 1,
+  "primary_language": "unknown",
+  "tags": [
+    "util",
+    "util-map"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "10ef147f6d148ee20437357d26b394fd00a07e27",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 10,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:41Z",
+  "verification_level": "scanner_only"
+}

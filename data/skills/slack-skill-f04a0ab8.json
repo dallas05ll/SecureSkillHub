@@ -1,0 +1,28 @@
+{
+  "id": "slack-skill-f04a0ab8",
+  "name": "slack-skill",
+  "description": "Slack integration for OpenClaw/Clawd agents - Send messages, manage channels",
+  "repo_url": "https://github.com/SecureSkills-io/slack-skill",
+  "source_hub": "github_search",
+  "skill_type": "agent_skill",
+  "owner": "SecureSkills-io",
+  "stars": 1,
+  "license": "",
+  "primary_language": "markdown",
+  "tags": [
+    "integ",
+    "prod-comm"
+  ],
+  "verification_status": "pass",
+  "overall_score": 73,
+  "risk_level": "medium",
+  "verified_commit": null,
+  "scan_summary": null,
+  "last_updated": "2026-02-06T09:13:09Z",
+  "findings_summary": {
+    "notes": "Metadata-based verification. Score=73. Signals: stars=1; no license detected; owner='SecureSkills-io' (+3); primary_language='markdown'; source_hub='github_search'. Status: pass. Risk: medium."
+  },
+  "trust_level": "low",
+  "scan_date": "2026-02-26T06:14:56Z",
+  "verification_level": "metadata_only"
+}

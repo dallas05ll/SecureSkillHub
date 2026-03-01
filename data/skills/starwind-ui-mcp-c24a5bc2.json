@@ -1,0 +1,26 @@
+{
+  "id": "starwind-ui-mcp-c24a5bc2",
+  "name": "starwind-ui-mcp",
+  "description": "Local MCP server implementation for Starwind UI that you can use with Cursor, Windsurf, and other AI tools",
+  "repo_url": "https://github.com/starwind-ui/starwind-ui-mcp",
+  "source_hub": "mcp_so",
+  "owner": "starwind-ui",
+  "stars": 33,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "3f6b49c63807f98a2bda0c94ead0e9febf8cc739",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 29,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:32:11Z",
+  "verification_level": "scanner_only"
+}

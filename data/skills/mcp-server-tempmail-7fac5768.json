@@ -1,0 +1,28 @@
+{
+  "id": "mcp-server-tempmail-7fac5768",
+  "name": "mcp-server-tempmail",
+  "description": "An MCP (Model Context Protocol) server for temporary email management using the ChatTempMail API.",
+  "repo_url": "https://github.com/Selenium39/mcp-server-tempmail",
+  "source_hub": "mcp_so",
+  "owner": "Selenium39",
+  "stars": 9,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp",
+    "integ",
+    "prod-comm"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "dea629f94e89e2d647e30db1791ba8a23dfc46f2",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 7,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:42:34Z",
+  "verification_level": "scanner_only"
+}

@@ -1,0 +1,27 @@
+{
+  "id": "mase2-mcp-server-d97ceaf9",
+  "name": "mase2_mcp_server",
+  "description": "Node.js-basierter Model Control Protocol Server, der die REST-API aus sws-computersysteme/mase2_frontend_techniker/server/api/v1 kapselt.",
+  "repo_url": "https://github.com/biebl/mase2_mcp_server",
+  "source_hub": "mcp_so",
+  "owner": "biebl",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "dev-web-backend-node",
+    "integ"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "19a4a6d9c74f46d3bf142ec35cebadaa69639b05",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 17,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:41Z",
+  "verification_level": "scanner_only"
+}

@@ -1,0 +1,29 @@
+{
+  "id": "claude-md-optimizer-b5876df3",
+  "name": "claude-md-optimizer",
+  "description": "Claude Code skill for optimizing oversized CLAUDE.md files using progressive disclosure",
+  "repo_url": "https://github.com/wrsmith108/claude-md-optimizer",
+  "source_hub": "github_search",
+  "skill_type": "agent_skill",
+  "owner": "wrsmith108",
+  "stars": 2,
+  "license": "",
+  "primary_language": "markdown",
+  "tags": [
+    "data-ai",
+    "dev",
+    "util-file"
+  ],
+  "verification_status": "pass",
+  "overall_score": 73,
+  "risk_level": "medium",
+  "verified_commit": null,
+  "scan_summary": null,
+  "last_updated": "2026-02-22T04:39:57Z",
+  "findings_summary": {
+    "notes": "Metadata-based verification. Score=73. Signals: stars=2; no license detected; owner='wrsmith108' (+3); primary_language='markdown'; source_hub='github_search'. Status: pass. Risk: medium."
+  },
+  "trust_level": "low",
+  "scan_date": "2026-02-26T06:14:55Z",
+  "verification_level": "metadata_only"
+}

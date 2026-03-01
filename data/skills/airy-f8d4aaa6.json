@@ -1,0 +1,28 @@
+{
+  "id": "airy-f8d4aaa6",
+  "name": "airy",
+  "description": "An AI tool for interacting with databases.",
+  "repo_url": "https://github.com/tinrab/airy",
+  "source_hub": "mcp_so",
+  "owner": "tinrab",
+  "stars": 5,
+  "primary_language": "unknown",
+  "tags": [
+    "data",
+    "data-ai",
+    "data-db",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "2532c9bb7d362db4b99dc4d16fdcbef416afd812",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 5,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:54:02Z",
+  "verification_level": "scanner_only"
+}

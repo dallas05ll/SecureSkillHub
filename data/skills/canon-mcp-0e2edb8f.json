@@ -1,0 +1,25 @@
+{
+  "id": "canon-mcp-0e2edb8f",
+  "name": "canon-mcp",
+  "description": "MCP server for Canon Cameras via CCAPI",
+  "repo_url": "https://github.com/ediardo/canon-mcp",
+  "source_hub": "mcp_so",
+  "owner": "ediardo",
+  "stars": 7,
+  "primary_language": "unknown",
+  "tags": [
+    "integ"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "fdd6f5197d2db82e0d83ef8c1c3428d54387eebd",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 17,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:54:02Z",
+  "verification_level": "scanner_only"
+}

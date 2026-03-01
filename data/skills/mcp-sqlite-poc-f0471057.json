@@ -1,0 +1,25 @@
+{
+  "id": "mcp-sqlite-poc-f0471057",
+  "name": "mcp_sqlite_poc",
+  "description": "simple poc to demostrate an mcp server on top of sqlite db",
+  "repo_url": "https://github.com/madhavarora1988/mcp_sqlite_poc",
+  "source_hub": "mcp_so",
+  "owner": "madhavarora1988",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "data-db"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "28fac08b8df4eb02c6450c8e371736f83ae8c69d",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 4,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:41Z",
+  "verification_level": "scanner_only"
+}

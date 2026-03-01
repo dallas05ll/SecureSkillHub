@@ -1,0 +1,27 @@
+{
+  "id": "magic-api-mcp-server-07ff7938",
+  "name": "magic-api-mcp-server",
+  "description": "Magic-API MCP Server - A Model Context Protocol server for Magic-API development",
+  "repo_url": "https://github.com/Dwsy/magic-api-mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "Dwsy",
+  "stars": 21,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp",
+    "integ"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "60a3c99bc86d27f269c9d6e29511dc0aa713a78b",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 223,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:32:11Z",
+  "verification_level": "scanner_only"
+}

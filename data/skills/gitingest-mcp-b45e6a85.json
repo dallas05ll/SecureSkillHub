@@ -1,0 +1,26 @@
+{
+  "id": "gitingest-mcp-b45e6a85",
+  "name": "Gitingest-MCP",
+  "description": "mcp server for gitingest",
+  "repo_url": "https://github.com/puravparab/Gitingest-MCP",
+  "source_hub": "mcp_so",
+  "owner": "puravparab",
+  "stars": 135,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "c3b630a07304fb02e98eec12d38640a8c024a4ed",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 6,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-27T06:40:44Z",
+  "verification_level": "scanner_only"
+}

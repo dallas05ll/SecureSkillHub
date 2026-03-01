@@ -1,0 +1,22 @@
+{
+  "id": "proxmox-mcp-server-db5a1fcd",
+  "name": "proxmox-mcp-server",
+  "description": "Repository for the Proxmox MCP Server project, enabling Windsurf to perform all functions accessible via the Proxmox API.",
+  "repo_url": "https://github.com/aphilips/proxmox-mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "aphilips",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "repo_unavailable"
+  ],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null,
+  "repo_status": "unavailable",
+  "repo_check_date": "2026-02-28T20:52:46.203908+00:00",
+  "repo_check_error": "fatal: could not read Username for 'https://github.com': Device not configured"
+}

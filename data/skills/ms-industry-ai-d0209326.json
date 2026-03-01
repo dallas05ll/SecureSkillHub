@@ -1,0 +1,26 @@
+{
+  "id": "ms-industry-ai-d0209326",
+  "name": "ms_industry_ai",
+  "description": "Enables useful sales use-cases via MCP Server, for use within any common AI Chat",
+  "repo_url": "https://github.com/sebi5000/ms_industry_ai",
+  "source_hub": "mcp_so",
+  "owner": "sebi5000",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "prod-comm"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "2e55247d16fc74fc666c1ff75e5baf1b3520605c",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 1,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:42Z",
+  "verification_level": "scanner_only"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "weatherxm-pro-mcp-84136f87",
+  "name": "weatherxm-pro-mcp",
+  "description": "This MCP server exposes the WeatherXM PRO APIs as MCP tools, allowing clients to access weather station data, observations, and forecasts through the MCP protocol.",
+  "repo_url": "https://github.com/WeatherXM/weatherxm-pro-mcp",
+  "source_hub": "mcp_so",
+  "owner": "WeatherXM",
+  "stars": 7,
+  "primary_language": "unknown",
+  "tags": [
+    "data",
+    "integ",
+    "util",
+    "util-monitor"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "58e1eadc5e59e3e5613efa3313a26853893e4a03",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 5,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:54:02Z",
+  "verification_level": "scanner_only"
+}

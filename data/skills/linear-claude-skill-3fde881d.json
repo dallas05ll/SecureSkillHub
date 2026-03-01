@@ -1,0 +1,32 @@
+{
+  "id": "linear-claude-skill-3fde881d",
+  "name": "linear-claude-skill",
+  "description": "Comprehensive Claude Code skill for managing Linear issues, projects, and teams with label taxonomy, MCP tools, and GraphQL API.",
+  "repo_url": "https://github.com/wrsmith108/linear-claude-skill",
+  "source_hub": "github_search",
+  "skill_type": "agent_skill",
+  "owner": "wrsmith108",
+  "stars": 55,
+  "license": "mit",
+  "primary_language": "TypeScript",
+  "tags": [
+    "data-ai",
+    "data-db-graph",
+    "dev",
+    "integ",
+    "prod-pm",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 76,
+  "risk_level": "low",
+  "verified_commit": null,
+  "scan_summary": null,
+  "last_updated": "2026-02-25T05:00:00Z",
+  "findings_summary": {
+    "notes": "MIT licensed, TypeScript, actively maintained. Well-designed skill with clear label system and multiple integration patterns."
+  },
+  "trust_level": "low",
+  "scan_date": "2026-02-26T02:12:27Z",
+  "verification_level": "scanner_only"
+}

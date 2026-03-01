@@ -1,0 +1,27 @@
+{
+  "id": "x-com-mcp-server-42e07c78",
+  "name": "x.com-mcp-server",
+  "description": "MCP server implementation for X.com API with OAuth 2.0 support",
+  "repo_url": "https://github.com/tiovikram/x.com-mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "tiovikram",
+  "stars": 5,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "sec",
+    "sec-auth"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "a3fd5383faaee81e705cee8a7e69971442248fcf",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 5,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:54:02Z",
+  "verification_level": "scanner_only"
+}

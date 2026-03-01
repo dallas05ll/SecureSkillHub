@@ -1,0 +1,26 @@
+{
+  "id": "mcp-ip-geo-e238ba00",
+  "name": "mcp-ip-geo",
+  "description": "An MCP Server that provides IP geolocation lookup (country, region, city, etc.) via ip-api.com.",
+  "repo_url": "https://github.com/chenmingyong0423/mcp-ip-geo",
+  "source_hub": "mcp_so",
+  "owner": "chenmingyong0423",
+  "stars": 11,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "util-map"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "379241adb300c6fa70e362a833d1efd1f4bee067",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 2,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:42:36Z",
+  "verification_level": "scanner_only"
+}

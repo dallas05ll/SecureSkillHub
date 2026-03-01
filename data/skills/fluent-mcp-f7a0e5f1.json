@@ -1,0 +1,26 @@
+{
+  "id": "fluent-mcp-f7a0e5f1",
+  "name": "fluent_mcp",
+  "description": "python package for creating MCP servers with embedded LLM reasoning",
+  "repo_url": "https://github.com/FluentData/fluent_mcp",
+  "source_hub": "mcp_so",
+  "owner": "FluentData",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "dev-web-backend-python"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "a7b4ec7d85984e33d155496be1d2d6e806fefd90",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 54,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:41Z",
+  "verification_level": "scanner_only"
+}

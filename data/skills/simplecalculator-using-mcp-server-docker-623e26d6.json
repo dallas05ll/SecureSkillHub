@@ -1,0 +1,27 @@
+{
+  "id": "simplecalculator-using-mcp-server-docker-623e26d6",
+  "name": "SimpleCalculator-using-MCP-Server---Docker",
+  "description": "A demonstration of custom Model Context Protocol (MCP) implementation for arithmetic operations, containerized with Docker for seamless deployment.",
+  "repo_url": "https://github.com/DionBenFernandes-Dev/SimpleCalculator-using-MCP-Server---Docker",
+  "source_hub": "mcp_so",
+  "owner": "DionBenFernandes-Dev",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp",
+    "dev-devops-docker"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "d8bb2f58952e01424b545e975b829641f518ae3e",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 7,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:43:00Z",
+  "verification_level": "scanner_only"
+}

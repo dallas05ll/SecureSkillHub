@@ -1,0 +1,22 @@
+{
+  "started_at": "2026-02-28T20:11:58Z",
+  "finished_at": "2026-02-28T20:13:43Z",
+  "skill_type": "mcp_server",
+  "selected_ids": [
+    "find-skills-dbd2f3df",
+    "n8n-io--n8n",
+    "azure-ai-4eff05a2",
+    "superpowers-675df694",
+    "agent-tools-0b12a3f4"
+  ],
+  "selected_count": 5,
+  "group_count": 5,
+  "processed_count": 5,
+  "status_counts": {
+    "manual_review": 2,
+    "fail": 3
+  },
+  "stage_failures": {},
+  "retry_ids": [],
+  "remaining_unverified": 0
+}

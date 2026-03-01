@@ -1,0 +1,26 @@
+{
+  "id": "berlin-transport-mcp-a16bf890",
+  "name": "berlin-transport-mcp",
+  "description": "An MCP server for the Berlin Public Transport",
+  "repo_url": "https://github.com/harshil1712/berlin-transport-mcp",
+  "source_hub": "mcp_so",
+  "owner": "harshil1712",
+  "stars": 6,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "47eb42e0d757d58b520a9b0279b32047539596a5",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 7,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:54:02Z",
+  "verification_level": "scanner_only"
+}

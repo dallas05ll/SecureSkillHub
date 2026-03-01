@@ -1,0 +1,26 @@
+{
+  "id": "mcp-planio-e8bf4733",
+  "name": "mcp_planio",
+  "description": "MCP server for Plan.IO",
+  "repo_url": "https://github.com/karateboss/mcp_planio",
+  "source_hub": "mcp_so",
+  "owner": "karateboss",
+  "stars": 1,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "9abd22d6d704a2a13f287a7f5dd31803fa3b10ef",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 3,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:41Z",
+  "verification_level": "scanner_only"
+}

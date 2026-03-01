@@ -1,0 +1,33 @@
+{
+  "id": "codex-settings-63a10681",
+  "name": "codex-settings",
+  "description": "OpenAI Codex CLI settings, configurations, skills, and prompts for vibe coding. Supports multiple model providers via LiteLLM proxy including GitHub Copilot models. Includes skills for image generation, YouTube transcription, and spec-driven workflows.",
+  "repo_url": "https://github.com/feiskyer/codex-settings",
+  "source_hub": "github_search",
+  "skill_type": "agent_skill",
+  "owner": "feiskyer",
+  "stars": 141,
+  "forks": 22,
+  "license": "MIT",
+  "primary_language": "Shell",
+  "tags": [
+    "data-ai",
+    "data-ai-vision",
+    "dev",
+    "integ-social",
+    "prod",
+    "util-media"
+  ],
+  "verification_status": "pass",
+  "overall_score": 74,
+  "risk_level": "low",
+  "verified_commit": null,
+  "scan_summary": "Configuration and skills repository primarily for OpenAI Codex CLI but includes Claude-compatible skills. MIT licensed. Skills use SKILL.md format with references/. Contains LiteLLM config (litellm_config.yaml) which includes model routing configuration. Policy files (.codexpolicy) define allowed operations. No hardcoded credentials — uses environment variables. Some skills include YouTube API and image generation capabilities.",
+  "findings_summary": {
+    "notes": "Primarily a Codex CLI settings repo that also includes Claude-compatible skills. Good skill structure. litellm_config.yaml references multiple model providers (Copilot, Azure, OpenRouter) but uses variable substitution not hardcoded keys. Skills are knowledge/prompt files. Minor note: primarily designed for Codex CLI, Claude compatibility secondary. No security concerns for the skill content itself."
+  },
+  "last_updated": "2026-02-25T14:54:23Z",
+  "trust_level": "low",
+  "scan_date": "2026-02-26T02:24:21Z",
+  "verification_level": "scanner_only"
+}

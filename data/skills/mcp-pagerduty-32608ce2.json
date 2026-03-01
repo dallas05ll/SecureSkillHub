@@ -1,0 +1,28 @@
+{
+  "id": "mcp-pagerduty-32608ce2",
+  "name": "mcp-pagerduty",
+  "description": "A Model Context Protocol (MCP) server that provides integration with PagerDuty for incident management and monitoring operations.",
+  "repo_url": "https://github.com/judexzhu/mcp-pagerduty",
+  "source_hub": "mcp_so",
+  "owner": "judexzhu",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp",
+    "integ",
+    "util-monitor"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "24d97b39db241ac1113ba9321a57d395147b0a70",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 3,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:40Z",
+  "verification_level": "scanner_only"
+}

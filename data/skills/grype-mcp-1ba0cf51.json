@@ -1,0 +1,26 @@
+{
+  "id": "grype-mcp-1ba0cf51",
+  "name": "grype-mcp",
+  "description": "MCP server for grype",
+  "repo_url": "https://github.com/ahmetak4n/grype-mcp",
+  "source_hub": "mcp_so",
+  "owner": "ahmetak4n",
+  "stars": 3,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "f728bf566d77b4495e69674020d0080a131aeb80",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 6,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:04:50Z",
+  "verification_level": "scanner_only"
+}

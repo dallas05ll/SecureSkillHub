@@ -1,0 +1,25 @@
+{
+  "id": "mcp-science-81bcabb1",
+  "name": "mcp.science",
+  "description": "Open Source MCP Servers for Scientific Research",
+  "repo_url": "https://github.com/pathintegral-institute/mcp.science",
+  "source_hub": "mcp_so",
+  "owner": "pathintegral-institute",
+  "stars": 112,
+  "primary_language": "unknown",
+  "tags": [
+    "util-search"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "4dcc2cbd573de5d10214c729f400a124c90eb42b",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 111,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-27T06:40:44Z",
+  "verification_level": "scanner_only"
+}

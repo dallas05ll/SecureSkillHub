@@ -1,0 +1,27 @@
+{
+  "id": "mcp-dyamics365-server-d3632103",
+  "name": "mcp-dyamics365-server",
+  "description": "MCP Server for Microsoft Dynamics 365",
+  "repo_url": "https://github.com/srikanth-paladugula/mcp-dyamics365-server",
+  "source_hub": "mcp_so",
+  "owner": "srikanth-paladugula",
+  "stars": 16,
+  "primary_language": "unknown",
+  "tags": [
+    "integ-cloud",
+    "integ-cloud-aws",
+    "util-file"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "e41c1070052cf6387a72d90b15dff702e347e7cb",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 7,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:42:34Z",
+  "verification_level": "scanner_only"
+}

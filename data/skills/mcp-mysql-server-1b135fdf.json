@@ -1,0 +1,28 @@
+{
+  "id": "mcp-mysql-server-1b135fdf",
+  "name": "mcp-mysql-server",
+  "description": "A Model Context Protocol server for MySQL database operations",
+  "repo_url": "https://github.com/f4ww4z/mcp-mysql-server",
+  "source_hub": "mcp_so",
+  "owner": "f4ww4z",
+  "stars": 151,
+  "primary_language": "unknown",
+  "tags": [
+    "data",
+    "data-ai",
+    "data-ai-nlp",
+    "data-db"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "9e0a7df0cb5d1edaa0017ae555ae10aa4e69ce0c",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 7,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-27T06:36:35Z",
+  "verification_level": "scanner_only"
+}

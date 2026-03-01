@@ -1,0 +1,26 @@
+{
+  "id": "demo-ts-mcp-client-server-7640ed3f",
+  "name": "demo-ts-mcp-client-server",
+  "description": "Demo of MCP server with HTTP SSE and a client",
+  "repo_url": "https://github.com/bertrandgressier/demo-ts-mcp-client-server",
+  "source_hub": "mcp_so",
+  "owner": "bertrandgressier",
+  "stars": 1,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "ef9f3876c28faa221bd2a6153d739e17dcc099c3",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 12,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:41Z",
+  "verification_level": "scanner_only"
+}

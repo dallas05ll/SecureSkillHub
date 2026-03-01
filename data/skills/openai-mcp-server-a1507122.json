@@ -1,0 +1,25 @@
+{
+  "id": "openai-mcp-server-a1507122",
+  "name": "openai-mcp-server",
+  "description": "MCP server for OpenAI protocol",
+  "repo_url": "https://github.com/voronkovm/openai-mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "voronkovm",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "928a1e9f5141ce13301ecb08c6fb587b4e09f94c",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 6,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:40Z",
+  "verification_level": "scanner_only"
+}

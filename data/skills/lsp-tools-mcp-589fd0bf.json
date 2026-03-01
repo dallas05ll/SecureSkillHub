@@ -1,0 +1,25 @@
+{
+  "id": "lsp-tools-mcp-589fd0bf",
+  "name": "lsp-tools-mcp",
+  "description": "An MCP server to build LSP",
+  "repo_url": "https://github.com/rajnaveen344/lsp-tools-mcp",
+  "source_hub": "mcp_so",
+  "owner": "rajnaveen344",
+  "stars": 1,
+  "primary_language": "unknown",
+  "tags": [
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "0700f4d5f43a2f35e949379fbf8fa373868570e2",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 12,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:42Z",
+  "verification_level": "scanner_only"
+}

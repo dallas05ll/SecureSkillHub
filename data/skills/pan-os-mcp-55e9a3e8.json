@@ -1,0 +1,26 @@
+{
+  "id": "pan-os-mcp-55e9a3e8",
+  "name": "pan-os-mcp",
+  "description": "PAN-OS MCP Server (XML API)",
+  "repo_url": "https://github.com/edoscars/pan-os-mcp",
+  "source_hub": "mcp_so",
+  "owner": "edoscars",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "integ"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "f30445113a1ecebc87688fbda2422ee293d72eae",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 5,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:40Z",
+  "verification_level": "scanner_only"
+}

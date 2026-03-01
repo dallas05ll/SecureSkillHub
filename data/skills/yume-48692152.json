@@ -1,0 +1,28 @@
+{
+  "id": "yume-48692152",
+  "name": "yume",
+  "description": "Desktop GUI application for Claude Code providing enhanced UI, background agents, interleaved thinking, and multi-provider support.",
+  "repo_url": "https://github.com/aofp/yume",
+  "source_hub": "github_search",
+  "skill_type": "agent_skill",
+  "owner": "aofp",
+  "stars": 77,
+  "license": "other",
+  "primary_language": "HTML",
+  "tags": [
+    "data-ai",
+    "dev"
+  ],
+  "verification_status": "pass",
+  "overall_score": 75,
+  "risk_level": "low",
+  "verified_commit": null,
+  "scan_summary": null,
+  "last_updated": "2026-02-25T04:35:59Z",
+  "findings_summary": {
+    "notes": "No standard OSS license (NOASSERTION), HTML/CSS app. Active, unique value proposition as desktop wrapper. No dangerous patterns."
+  },
+  "trust_level": "low",
+  "scan_date": "2026-02-26T02:11:43Z",
+  "verification_level": "scanner_only"
+}

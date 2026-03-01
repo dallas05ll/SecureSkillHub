@@ -1,0 +1,26 @@
+{
+  "id": "mcp-auto-register-79862596",
+  "name": "mcp_auto_register",
+  "description": "Automate the registration of functions and classes from a python package into a FastMCP instance.",
+  "repo_url": "https://github.com/JoshuaSiraj/mcp_auto_register",
+  "source_hub": "mcp_so",
+  "owner": "JoshuaSiraj",
+  "stars": 9,
+  "primary_language": "unknown",
+  "tags": [
+    "dev-web-backend-python",
+    "prod"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "38a0edc46f3edc0e17f48eac1b9d77af49f5d50e",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 7,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:42:36Z",
+  "verification_level": "scanner_only"
+}

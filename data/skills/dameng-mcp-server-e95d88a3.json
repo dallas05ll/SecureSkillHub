@@ -1,0 +1,26 @@
+{
+  "id": "dameng-mcp-server-e95d88a3",
+  "name": "dameng-mcp-server",
+  "description": "dameng-mcp-server",
+  "repo_url": "https://github.com/1092705638/dameng-mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "1092705638",
+  "stars": 1,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "e23862103f22b0781248843214ad3300304c9b17",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 4,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:40Z",
+  "verification_level": "scanner_only"
+}

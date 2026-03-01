@@ -1,0 +1,25 @@
+{
+  "id": "mcp-server-patent-07054358",
+  "name": "mcp-server-patent",
+  "description": "MCP Server configuration with patent API integrations",
+  "repo_url": "https://github.com/myownipgit/mcp-server-patent",
+  "source_hub": "mcp_so",
+  "owner": "myownipgit",
+  "stars": 1,
+  "primary_language": "unknown",
+  "tags": [
+    "integ"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "ad342ff503d40abd9ad23f520f7ccdde35ad5189",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 1,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:40Z",
+  "verification_level": "scanner_only"
+}

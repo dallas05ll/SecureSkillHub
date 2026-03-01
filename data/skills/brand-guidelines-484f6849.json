@@ -1,0 +1,51 @@
+{
+  "id": "brand-guidelines-484f6849",
+  "name": "Brand Guidelines",
+  "description": "Apply Anthropic's official brand identity to claude.ai artifacts, ensuring consistent use of brand colors, typography, spacing, and visual design language. Useful for teams building internal tools, presentations, or documents that need to adhere to Anthropic's brand standards.",
+  "repo_url": "https://github.com/anthropics/skills/tree/main/brand-guidelines",
+  "source_hub": "claude_skills_hub",
+  "skill_type": "agent_skill",
+  "owner": "anthropics",
+  "stars": 0,
+  "forks": 7854,
+  "license": "Apache-2.0",
+  "primary_language": "Markdown",
+  "tags": [
+    "data-ai",
+    "prod-docs",
+    "sec-auth",
+    "util",
+    "repo_unavailable"
+  ],
+  "source_tags": [
+    "branding",
+    "design",
+    "anthropic",
+    "style-guide"
+  ],
+  "categories": [
+    "design"
+  ],
+  "version": "1.0.0",
+  "requires_code_execution": false,
+  "verification_status": "pass",
+  "overall_score": 92,
+  "risk_level": "low",
+  "verified_commit": null,
+  "scan_summary": null,
+  "findings_summary": {
+    "has_readme": true,
+    "has_security_policy": false,
+    "has_mcp_server": false,
+    "dangerous_patterns": [],
+    "notes": "Official Anthropic skill from anthropics/skills repository. Contains SKILL.md and Apache-2.0 LICENSE.txt. Verified at skills/brand-guidelines/ in the repo tree."
+  },
+  "parent_repo_stars": 75705,
+  "is_monorepo_child": true,
+  "trust_level": "medium",
+  "scan_date": "2026-02-26T03:00:51Z",
+  "repo_status": "unavailable",
+  "repo_check_date": "2026-02-28T20:51:24.704765+00:00",
+  "repo_check_error": "fatal: repository 'https://github.com/anthropics/skills/tree/main/brand-guidelines/' not found",
+  "verification_level": "scanner_only"
+}

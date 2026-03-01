@@ -1,0 +1,25 @@
+{
+  "id": "aps-mcp-96258160",
+  "name": "aps-mcp",
+  "description": "Simple prototype MCP server integrating Autodesk APIs",
+  "repo_url": "https://github.com/kpphillips/aps-mcp",
+  "source_hub": "mcp_so",
+  "owner": "kpphillips",
+  "stars": 17,
+  "primary_language": "unknown",
+  "tags": [
+    "integ"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "e7c02da58f030788521e2578d9708dcbcda7791d",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 5,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:42:34Z",
+  "verification_level": "scanner_only"
+}

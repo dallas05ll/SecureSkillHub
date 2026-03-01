@@ -1,0 +1,26 @@
+{
+  "id": "tmap-mcp-a3219311",
+  "name": "tmap_mcp",
+  "description": "tmap rest api 기반 mcp server 구축",
+  "repo_url": "https://github.com/bm1120/tmap_mcp",
+  "source_hub": "mcp_so",
+  "owner": "bm1120",
+  "stars": 1,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "util-map"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "dcccc042bfcad25eab3197c9bbad10b1047276ee",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 9,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:41Z",
+  "verification_level": "scanner_only"
+}

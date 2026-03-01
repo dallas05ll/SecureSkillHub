@@ -1,0 +1,27 @@
+{
+  "id": "markmap-mcp-server-b148bb20",
+  "name": "markmap-mcp-server",
+  "description": "An MCP server for converting Markdown to interactive mind maps with export support (PNG/JPG/SVG).",
+  "repo_url": "https://github.com/jinzcdev/markmap-mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "jinzcdev",
+  "stars": 175,
+  "primary_language": "unknown",
+  "tags": [
+    "prod-docs",
+    "util",
+    "util-map"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "a207b68744badc677fe2695470019e6e54452069",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 17,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-27T06:36:35Z",
+  "verification_level": "scanner_only"
+}

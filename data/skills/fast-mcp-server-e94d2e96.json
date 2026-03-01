@@ -1,0 +1,28 @@
+{
+  "id": "fast-mcp-server-e94d2e96",
+  "name": "fast-mcp-server",
+  "description": "A lightweight MCP (Model Context Protocol) Server implementation exposing custom tools via SSE for integration with AI clients.",
+  "repo_url": "https://github.com/kongo97/fast-mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "kongo97",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp",
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "0f550842623d6d8f59bd159e6ccdda9a82ee5c3e",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 6,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:41Z",
+  "verification_level": "scanner_only"
+}

@@ -1,0 +1,26 @@
+{
+  "id": "mcpproxy-fae56834",
+  "name": "mcpproxy",
+  "description": "Start any MCP Server remotely using the MCP standard protocol.",
+  "repo_url": "https://github.com/jinyalong/mcpproxy",
+  "source_hub": "mcp_so",
+  "owner": "jinyalong",
+  "stars": 3,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "67179b1c3adf11456e7c4db4141d6c5eefcc2f36",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 11,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:04:51Z",
+  "verification_level": "scanner_only"
+}

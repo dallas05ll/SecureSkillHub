@@ -1,0 +1,28 @@
+{
+  "id": "remote-mcp-server-authless-scrape-and-an-b4e574ed",
+  "name": "remote-mcp-server-authless-scrape-and-analyze-website",
+  "description": "Analyze and ask questions about an input website using this Cloudflare MCP server",
+  "repo_url": "https://github.com/elizabethsiegle/remote-mcp-server-authless-scrape-and-analyze-website",
+  "source_hub": "mcp_so",
+  "owner": "elizabethsiegle",
+  "stars": 6,
+  "primary_language": "unknown",
+  "tags": [
+    "dev-web",
+    "integ-cloud",
+    "sec",
+    "util-search"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "fbcb61ec97d963903afb60a3c1f822b0aa1792ea",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 7,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:54:02Z",
+  "verification_level": "scanner_only"
+}

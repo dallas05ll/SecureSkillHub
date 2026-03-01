@@ -1,0 +1,27 @@
+{
+  "id": "mcp-sandbox-8dd8d098",
+  "name": "mcp-sandbox",
+  "description": "Turn any JavaScript module into a sandboxed MCP (Model Context Protocol) server with automatic reflection and type inference.",
+  "repo_url": "https://github.com/danstarns/mcp-sandbox",
+  "source_hub": "mcp_so",
+  "owner": "danstarns",
+  "stars": 5,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp",
+    "prod"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "6cf124bd6dc9170fa5ddabe66ced50636d04b8a3",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 28,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:54:04Z",
+  "verification_level": "scanner_only"
+}

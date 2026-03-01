@@ -1,0 +1,28 @@
+{
+  "id": "perplexity-mcp-069e9543",
+  "name": "perplexity-mcp",
+  "description": "A Model Context Protocol (MCP) server that provides web search functionality using Perplexity AI's API.",
+  "repo_url": "https://github.com/jsonallen/perplexity-mcp",
+  "source_hub": "mcp_so",
+  "owner": "jsonallen",
+  "stars": 283,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp",
+    "integ",
+    "util-search"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 6,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-27T02:28:45Z",
+  "verification_level": "scanner_only"
+}

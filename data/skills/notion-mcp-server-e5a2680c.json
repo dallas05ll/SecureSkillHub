@@ -1,0 +1,29 @@
+{
+  "id": "notion-mcp-server-e5a2680c",
+  "name": "notion-mcp-server",
+  "description": "**Notion MCP Server** is a Model Context Protocol (MCP) server implementation that enables AI assistants to interact with Notion's API. This production-ready server provides a complete set of tools.",
+  "repo_url": "https://github.com/awkoy/notion-mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "awkoy",
+  "stars": 144,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp",
+    "integ",
+    "prod-docs",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "94e8a32c465abff916df479312b52d7469bcc9a2",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 55,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-27T06:36:35Z",
+  "verification_level": "scanner_only"
+}

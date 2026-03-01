@@ -1,0 +1,28 @@
+{
+  "id": "mcp-docker-e10f79e7",
+  "name": "MCP-Docker",
+  "description": "Dockerized MCP server environments for seamless agent-tool integration.",
+  "repo_url": "https://github.com/ysys143/MCP-Docker",
+  "source_hub": "mcp_so",
+  "owner": "ysys143",
+  "stars": 1,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "dev-devops-docker",
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "933f2566f7591be941da61a904eff7c1e5a4a16b",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 30,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:41Z",
+  "verification_level": "scanner_only"
+}

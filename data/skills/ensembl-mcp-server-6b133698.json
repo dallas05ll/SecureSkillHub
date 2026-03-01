@@ -1,0 +1,28 @@
+{
+  "id": "ensembl-mcp-server-6b133698",
+  "name": "ensembl-mcp-server",
+  "description": "A full-featured Model Context Protocol (MCP) server that exposes Ensembl’s REST API. Built using the TypeScript MCP SDK",
+  "repo_url": "https://github.com/effieklimi/ensembl-mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "effieklimi",
+  "stars": 6,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp",
+    "dev",
+    "integ"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "3488bb23b4084405f0818b2e958fdc9440eea181",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 29,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:54:02Z",
+  "verification_level": "scanner_only"
+}

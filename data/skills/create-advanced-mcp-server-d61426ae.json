@@ -1,0 +1,26 @@
+{
+  "id": "create-advanced-mcp-server-d61426ae",
+  "name": "create-advanced-mcp-server",
+  "description": "A comprehensive architecture for building robust Model Context Protocol (MCP) servers with integrated web capabilities",
+  "repo_url": "https://github.com/bsmi021/create-advanced-mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "bsmi021",
+  "stars": 2,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "9bba97d374290fc3c5f553cedba0496f3ad56c31",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 8,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:04:51Z",
+  "verification_level": "scanner_only"
+}

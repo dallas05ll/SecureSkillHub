@@ -1,0 +1,26 @@
+{
+  "id": "cline-memory-bank-cc9c6ecd",
+  "name": "Cline-Memory-Bank",
+  "description": "A memory system for Cline that tracks progress between conversations. Avoid large token usage!",
+  "repo_url": "https://github.com/dazeb/Cline-Memory-Bank",
+  "source_hub": "mcp_so",
+  "owner": "dazeb",
+  "stars": 59,
+  "primary_language": "unknown",
+  "tags": [
+    "prod-notes",
+    "sec-crypto"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "55c81b9cf6c16700983c84dc4cdea3cafa19a75f",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 8,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-27T06:40:44Z",
+  "verification_level": "scanner_only"
+}

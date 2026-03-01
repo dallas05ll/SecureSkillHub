@@ -1,0 +1,26 @@
+{
+  "id": "homebrew-jira-cli-mcp-3469a519",
+  "name": "homebrew-jira-cli-mcp",
+  "description": "Homebrew tap for jira-cli-mcp - MCP server that wraps jira-cli for AI assistants",
+  "repo_url": "https://github.com/choplin/homebrew-jira-cli-mcp",
+  "source_hub": "mcp_so",
+  "owner": "choplin",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "prod-pm"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "92e394b534faecd5bba5d002a019bd87b03ae136",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 1,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:41Z",
+  "verification_level": "scanner_only"
+}

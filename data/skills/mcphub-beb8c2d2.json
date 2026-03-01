@@ -1,0 +1,26 @@
+{
+  "id": "mcphub-beb8c2d2",
+  "name": "mcphub",
+  "description": "MCPHub - A cross-platform GUI application to discover, install, and manage Model Context Protocol (MCP) servers. Think of it as apt/pip but for MCP servers.",
+  "repo_url": "https://github.com/hemangjoshi37a/mcphub",
+  "source_hub": "mcp_so",
+  "owner": "hemangjoshi37a",
+  "stars": 10,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "d05ba2c46385f0ea20a0738a07a6b02d278e29fe",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 36,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:42:36Z",
+  "verification_level": "scanner_only"
+}

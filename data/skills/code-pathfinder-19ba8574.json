@@ -1,0 +1,29 @@
+{
+  "id": "code-pathfinder-19ba8574",
+  "name": "code-pathfinder",
+  "description": "Code Pathfinder's MCP Server provides AI coding assistants like Claude Code with deep semantic understanding of codebases through call graph analysis, symbol search, and dependency tracking. It enables developers to ask natural language questions like \"who calls this function?\" instead of manually using grep or searching code. The tool runs 100% locally (your code never leaves your machine), is free and open-source under AGPL-3.0, and installs in under 5 minutes. [codepathfinder](https://code...",
+  "repo_url": "https://github.com/shivasurya/code-pathfinder",
+  "source_hub": "mcp_so",
+  "owner": "shivasurya",
+  "stars": 110,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp",
+    "dev",
+    "util",
+    "util-search"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "ce24fd13fbdfa2042a25176033cae16a791de1eb",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 287,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-27T06:40:49Z",
+  "verification_level": "scanner_only"
+}

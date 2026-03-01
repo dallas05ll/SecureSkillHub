@@ -1,0 +1,25 @@
+{
+  "id": "telegram-notification-mcp-9b387229",
+  "name": "telegram-notification-mcp",
+  "description": "Simple MCP server to send you notifications on telegram",
+  "repo_url": "https://github.com/kstonekuan/telegram-notification-mcp",
+  "source_hub": "mcp_so",
+  "owner": "kstonekuan",
+  "stars": 20,
+  "primary_language": "unknown",
+  "tags": [
+    "prod-comm"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "02c4c47ec8572df765660cfd65ee1409ad8ec7c5",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 10,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:32:11Z",
+  "verification_level": "scanner_only"
+}

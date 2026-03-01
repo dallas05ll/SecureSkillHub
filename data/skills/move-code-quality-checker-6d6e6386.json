@@ -1,0 +1,39 @@
+{
+  "id": "move-code-quality-checker-6d6e6386",
+  "name": "Move Code Quality Checker",
+  "description": "Analyzes Move language packages against the official Move Book Code Quality Checklist for Move 2024 Edition compliance",
+  "repo_url": "https://github.com/1NickPappas/move-code-quality-skill",
+  "source_hub": "claude_skills_hub",
+  "skill_type": "agent_skill",
+  "owner": "1NickPappas",
+  "stars": 13,
+  "forks": 0,
+  "license": "MIT",
+  "primary_language": "markdown",
+  "tags": [
+    "data-ai",
+    "dev",
+    "sec-scan"
+  ],
+  "source_tags": [
+    "ai",
+    "testing",
+    "coding"
+  ],
+  "categories": [
+    "dev"
+  ],
+  "version": "1.0.0",
+  "requires_code_execution": false,
+  "verification_status": "pass",
+  "overall_score": 88,
+  "risk_level": "low",
+  "verified_commit": null,
+  "scan_summary": null,
+  "findings_summary": {
+    "notes": "Metadata-based verification. Score=88. Signals: stars=13 (>=10, +5); license='MIT' (+5); owner='1NickPappas' (+3); primary_language='markdown'; source_hub='claude_skills_hub' (+5). Status: pass. Risk: low."
+  },
+  "trust_level": "medium",
+  "scan_date": "2026-02-26T06:14:56Z",
+  "verification_level": "metadata_only"
+}

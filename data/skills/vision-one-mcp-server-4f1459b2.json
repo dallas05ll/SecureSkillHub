@@ -1,0 +1,30 @@
+{
+  "id": "vision-one-mcp-server-4f1459b2",
+  "name": "vision-one-mcp-server",
+  "description": "The Trend Vision One Model Context Protocol (MCP) Server enables natural language interaction between your favourite AI tooling and the Trend Vision One web APIs. This allows users to harness the power of Large Language Models (LLM) to interpret and respond to security events.",
+  "repo_url": "https://github.com/trendmicro/vision-one-mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "trendmicro",
+  "stars": 27,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp",
+    "data-ai-vision",
+    "integ",
+    "sec",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "720730a314513de6278b62825efb868364030541",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 9,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:32:12Z",
+  "verification_level": "scanner_only"
+}

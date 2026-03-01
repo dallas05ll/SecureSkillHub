@@ -1,0 +1,26 @@
+{
+  "id": "ipl-schedule-api-mcp-server-2126dae8",
+  "name": "ipl-schedule-api-mcp-server",
+  "description": "ipl-schedule-api-mcp-server",
+  "repo_url": "https://github.com/shabbirdwd53/ipl-schedule-api-mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "shabbirdwd53",
+  "stars": 1,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "prod-calendar"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "31b5591a74689b72414b82bd3bcdb1b06305579f",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 2,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:41Z",
+  "verification_level": "scanner_only"
+}

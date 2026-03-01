@@ -1,0 +1,28 @@
+{
+  "id": "text2sim-mcp-server-11c17cc5",
+  "name": "text2sim-MCP-server",
+  "description": "Text2Sim MCP Server is a discrete-event simulation engine that generates and executes flexible SimPy-based models from natural language descriptions. Supports multi-domain workflows (airport, healthcare, manufacturing) with configurable entities, stochastic logic, and real-time metrics.",
+  "repo_url": "https://github.com/IamCatoBot/text2sim-MCP-server",
+  "source_hub": "mcp_so",
+  "owner": "IamCatoBot",
+  "stars": 19,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp",
+    "prod",
+    "util-monitor"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "5ac84e4f6479be291d36b705faf459a9c6864d80",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 57,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:42:34Z",
+  "verification_level": "scanner_only"
+}

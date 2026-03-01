@@ -1,0 +1,25 @@
+{
+  "id": "roo-logger-576995d9",
+  "name": "roo-logger",
+  "description": "Roo Code/Clineにアクティビティを記録させるmcp-server",
+  "repo_url": "https://github.com/annenpolka/roo-logger",
+  "source_hub": "mcp_so",
+  "owner": "annenpolka",
+  "stars": 24,
+  "primary_language": "unknown",
+  "tags": [
+    "dev"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "6ebede5ebd8e25e0929246a1af2038a80db9a57c",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 34,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:32:13Z",
+  "verification_level": "scanner_only"
+}

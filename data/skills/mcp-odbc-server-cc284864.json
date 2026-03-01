@@ -1,0 +1,29 @@
+{
+  "id": "mcp-odbc-server-cc284864",
+  "name": "mcp-odbc-server",
+  "description": "Typescript based Model Context Procotol (MCP) Server for Open Database Connectivity (ODBC)",
+  "repo_url": "https://github.com/OpenLinkSoftware/mcp-odbc-server",
+  "source_hub": "mcp_so",
+  "owner": "OpenLinkSoftware",
+  "stars": 10,
+  "primary_language": "unknown",
+  "tags": [
+    "data",
+    "data-ai",
+    "data-ai-nlp",
+    "data-db",
+    "integ"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "d9313b52ae86d72f537f0436c3aa9e63d3709848",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 4,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:42:36Z",
+  "verification_level": "scanner_only"
+}

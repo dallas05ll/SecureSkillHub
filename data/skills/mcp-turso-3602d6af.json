@@ -1,0 +1,31 @@
+{
+  "id": "mcp-turso-3602d6af",
+  "name": "mcp-turso",
+  "description": "🗂️ A Model Context Protocol (MCP) server that provides integration with Turso databases for LLMs. This server implements a two-level authentication system to handle both organization-level and database-level operations, making it easy to manage and query Turso databases directly from LLMs.",
+  "repo_url": "https://github.com/spences10/mcp-turso",
+  "source_hub": "mcp_so",
+  "owner": "spences10",
+  "stars": 15,
+  "primary_language": "unknown",
+  "tags": [
+    "data",
+    "data-ai",
+    "data-ai-nlp",
+    "data-db",
+    "integ",
+    "sec",
+    "sec-auth"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "d59fd19662fc38dd11f0f8b274d53647fe4bd642",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 20,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:42:34Z",
+  "verification_level": "scanner_only"
+}

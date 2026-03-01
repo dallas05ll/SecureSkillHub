@@ -1,0 +1,26 @@
+{
+  "id": "sketch-context-mcp-c6a1de08",
+  "name": "Sketch-Context-MCP",
+  "description": "MCP server to provide Sketch layout information to AI coding agents like Cursor",
+  "repo_url": "https://github.com/jshmllr/Sketch-Context-MCP",
+  "source_hub": "mcp_so",
+  "owner": "jshmllr",
+  "stars": 66,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "efcd160357ea82aac51b40909bd807e2444e5dd6",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 11,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-27T06:40:43Z",
+  "verification_level": "scanner_only"
+}

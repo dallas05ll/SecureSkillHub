@@ -1,0 +1,26 @@
+{
+  "id": "ardupilot-mcp-server-sandbox-f45e94c5",
+  "name": "ardupilot-mcp-server-sandbox",
+  "description": "ArduPilot を自然言語で操作するための [MCP（Model Context Protocol）] サーバーのサンドボックスです。 mcp プロトコルに対応しており、Claude DesktopやCline などの MCP 対応チャット環境から使用可能です。",
+  "repo_url": "https://github.com/hfujikawa77/ardupilot-mcp-server-sandbox",
+  "source_hub": "mcp_so",
+  "owner": "hfujikawa77",
+  "stars": 7,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "87f1234c5264c580dcbcbce374b447667a1d2ddc",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 3,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:54:02Z",
+  "verification_level": "scanner_only"
+}

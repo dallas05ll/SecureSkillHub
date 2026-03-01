@@ -1,0 +1,26 @@
+{
+  "id": "nextcloud-mcp-server-5675b795",
+  "name": "nextcloud-mcp-server",
+  "description": "A MCP server for reading data from NextCloud",
+  "repo_url": "https://github.com/Monadical-SAS/nextcloud-mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "Monadical-SAS",
+  "stars": 8,
+  "primary_language": "unknown",
+  "tags": [
+    "data",
+    "integ-cloud"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "742ffc3916a9983479d9af62b6b92643066a96f3",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 7,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:42:34Z",
+  "verification_level": "scanner_only"
+}

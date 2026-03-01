@@ -1,0 +1,30 @@
+{
+  "id": "myaiserv-5d562364",
+  "name": "myaiserv",
+  "description": "High-performance FastAPI server implementing Model Context Protocol (MCP) for seamless integration with Large Language Models (LLMs). Built with modern stack: FastAPI, Elasticsearch, Redis, Prometheus, and Grafana.",
+  "repo_url": "https://github.com/eagurin/myaiserv",
+  "source_hub": "mcp_so",
+  "owner": "eagurin",
+  "stars": 9,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp",
+    "data-db",
+    "dev-web-backend-python",
+    "integ",
+    "util-search"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "f9175747cd33a0d3d792ab92249d8664f40762a9",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 126,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:42:34Z",
+  "verification_level": "scanner_only"
+}

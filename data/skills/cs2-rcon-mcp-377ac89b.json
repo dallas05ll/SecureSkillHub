@@ -1,0 +1,25 @@
+{
+  "id": "cs2-rcon-mcp-377ac89b",
+  "name": "cs2-rcon-mcp",
+  "description": "CS2 RCON MCP - Server management tool for Counter-Strike 2",
+  "repo_url": "https://github.com/v9rt3x/cs2-rcon-mcp",
+  "source_hub": "mcp_so",
+  "owner": "v9rt3x",
+  "stars": 9,
+  "primary_language": "unknown",
+  "tags": [
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "c7344e57143f86dcd6100d9dbe59d0f4bfc4357d",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 9,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:42:34Z",
+  "verification_level": "scanner_only"
+}

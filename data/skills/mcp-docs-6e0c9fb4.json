@@ -1,0 +1,26 @@
+{
+  "id": "mcp-docs-6e0c9fb4",
+  "name": "mcp-docs",
+  "description": "A Simple MCP server to serve documentation for AI apps",
+  "repo_url": "https://github.com/antunsz/mcp-docs",
+  "source_hub": "mcp_so",
+  "owner": "antunsz",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "prod-docs"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "4ef583f466e8aba5434c41da08018ef2ee7b17a0",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 1,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:41Z",
+  "verification_level": "scanner_only"
+}

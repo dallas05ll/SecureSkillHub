@@ -1,0 +1,25 @@
+{
+  "id": "mcp-docx-server-d6d51fc9",
+  "name": "mcp-docx-server",
+  "description": "MCP server to manipulate DOCX file",
+  "repo_url": "https://github.com/h4ck4life/mcp-docx-server",
+  "source_hub": "mcp_so",
+  "owner": "h4ck4life",
+  "stars": 5,
+  "primary_language": "unknown",
+  "tags": [
+    "util-file"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "bad7d7299a5a5002170749246f42bf27632e6147",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 14,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:54:02Z",
+  "verification_level": "scanner_only"
+}

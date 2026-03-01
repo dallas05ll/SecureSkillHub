@@ -1,0 +1,27 @@
+{
+  "id": "civicnet-mcp-server-81089de9",
+  "name": "civicnet-mcp-server",
+  "description": "Civicnet MCP Server - modular, principle-driven server for local, trusted, and agentic community AI.",
+  "repo_url": "https://github.com/Publik-Works/civicnet-mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "Publik-Works",
+  "stars": 2,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "dev-web-backend-rust",
+    "prod-comm"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "de38943f3c16f0f7693b2d9146912ebc5256a4cb",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 8,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:04:50Z",
+  "verification_level": "scanner_only"
+}

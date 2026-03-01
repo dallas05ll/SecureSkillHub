@@ -1,0 +1,27 @@
+{
+  "id": "json2video-mcp-server-94024ece",
+  "name": "json2video-mcp-server",
+  "description": "Message Communication Protocol server for json2video API integration",
+  "repo_url": "https://github.com/omergocmen/json2video-mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "omergocmen",
+  "stars": 25,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "prod-comm",
+    "util-media"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "bf155c05b6905576e883c0542b971648d5243fc4",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 5,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:32:12Z",
+  "verification_level": "scanner_only"
+}

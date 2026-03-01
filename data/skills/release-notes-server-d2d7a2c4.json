@@ -1,0 +1,25 @@
+{
+  "id": "release-notes-server-d2d7a2c4",
+  "name": "release-notes-server",
+  "description": "An MCP server for generating release notes from GitHub commits",
+  "repo_url": "https://github.com/nickbaumann98/release-notes-server",
+  "source_hub": "mcp_so",
+  "owner": "nickbaumann98",
+  "stars": 3,
+  "primary_language": "unknown",
+  "tags": [
+    "prod-notes"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "2ffb2fd554d8fec92b9d791d2d1138cde540bfb6",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 9,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:04:50Z",
+  "verification_level": "scanner_only"
+}

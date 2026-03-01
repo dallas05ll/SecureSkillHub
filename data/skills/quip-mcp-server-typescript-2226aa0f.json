@@ -1,0 +1,29 @@
+{
+  "id": "quip-mcp-server-typescript-2226aa0f",
+  "name": "quip-mcp-server-typescript",
+  "description": "Model Context Procotol(MCP) server for fetching Quip document, support both stdio and streamable HTTP transports.",
+  "repo_url": "https://github.com/zxkane/quip-mcp-server-typescript",
+  "source_hub": "mcp_so",
+  "owner": "zxkane",
+  "stars": 1,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp",
+    "prod-docs",
+    "util-media",
+    "util-search"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "01cfa8794758db3d9ab1527a0bab90757ce6fda2",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 65,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:40Z",
+  "verification_level": "scanner_only"
+}

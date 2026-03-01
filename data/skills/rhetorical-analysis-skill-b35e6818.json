@@ -1,0 +1,27 @@
+{
+  "id": "rhetorical-analysis-skill-b35e6818",
+  "name": "rhetorical-analysis-skill",
+  "description": "Claude Skill d'analyse rhétorique méthodique d'une source",
+  "repo_url": "https://github.com/bastien-gallay/rhetorical-analysis-skill",
+  "source_hub": "github_search",
+  "skill_type": "agent_skill",
+  "owner": "bastien-gallay",
+  "stars": 2,
+  "license": "mit",
+  "primary_language": "markdown",
+  "tags": [
+    "data-ai"
+  ],
+  "verification_status": "pass",
+  "overall_score": 78,
+  "risk_level": "medium",
+  "verified_commit": null,
+  "scan_summary": null,
+  "last_updated": "2025-12-16T07:55:04Z",
+  "findings_summary": {
+    "notes": "Metadata-based verification. Score=78. Signals: stars=2; license='mit' (+5); owner='bastien-gallay' (+3); primary_language='markdown'; source_hub='github_search'. Status: pass. Risk: medium."
+  },
+  "trust_level": "low",
+  "scan_date": "2026-02-26T06:14:56Z",
+  "verification_level": "metadata_only"
+}

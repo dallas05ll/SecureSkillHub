@@ -1,0 +1,26 @@
+{
+  "id": "cfbd-mcp-server-22b0b584",
+  "name": "cfbd-mcp-server",
+  "description": "An MCP server enabling CFBD API queries within Claude Desktop.",
+  "repo_url": "https://github.com/lenwood/cfbd-mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "lenwood",
+  "stars": 24,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "integ"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "fd1e302dc421f716ca9595cb6417b21c1b3b6451",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 7,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:32:12Z",
+  "verification_level": "scanner_only"
+}

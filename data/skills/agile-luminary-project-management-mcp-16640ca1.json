@@ -1,0 +1,34 @@
+{
+  "id": "agile-luminary-project-management-mcp-16640ca1",
+  "name": "agile-luminary-project-management-mcp",
+  "description": "Agile Luminary: Bring Order to Your Vibes\n\nProduct teams lose critical context every time work moves from planning to development. Stories get misinterpreted, features break, and developers rebuild what already exists because the connection between vision and code is broken.\nAgile Luminary is the AI-native project management tool that keeps your entire product context connected. Transform simple prompts into comprehensive documentation, user stories, and workflows that stay linked from concep...",
+  "repo_url": "https://github.com/AgileLuminary/agile-luminary-project-management-mcp",
+  "source_hub": "mcp_so",
+  "owner": "AgileLuminary",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp",
+    "data-ai-vision",
+    "dev",
+    "integ",
+    "prod",
+    "prod-docs",
+    "prod-pm",
+    "util",
+    "repo_unavailable"
+  ],
+  "verification_status": "manual_review",
+  "overall_score": 0,
+  "risk_level": "high",
+  "verified_commit": "",
+  "scan_summary": null,
+  "scan_date": "2026-02-28T20:27:24Z",
+  "findings_summary": {
+    "error": "clone failed: Cloning into '/var/folders/pq/bb71gjzd01d29nnmqrhqr2rc0000gn/T/strict5_agile-luminary-project-m_8wwqi9k6/repo'...\nfatal: could not read Username for 'https://github.com': Device not configured",
+    "supervisor_approved": false,
+    "supervisor_confidence": 0
+  },
+  "repo_status": "unavailable"
+}

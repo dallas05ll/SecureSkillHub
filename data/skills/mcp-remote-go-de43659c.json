@@ -1,0 +1,28 @@
+{
+  "id": "mcp-remote-go-de43659c",
+  "name": "mcp-remote-go",
+  "description": "This Go implementation allows MCP clients that only support local (stdio) connections to connect to remote MCP servers with authentication support.",
+  "repo_url": "https://github.com/naotama2002/mcp-remote-go",
+  "source_hub": "mcp_so",
+  "owner": "naotama2002",
+  "stars": 4,
+  "primary_language": "unknown",
+  "tags": [
+    "dev-web-backend-go",
+    "integ",
+    "sec",
+    "sec-auth"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "4f2916271a28c14a8e475a5d087a7c9436d160e5",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 4,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:54:02Z",
+  "verification_level": "scanner_only"
+}

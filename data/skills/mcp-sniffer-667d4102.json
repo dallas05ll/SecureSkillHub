@@ -1,0 +1,26 @@
+{
+  "id": "mcp-sniffer-667d4102",
+  "name": "mcp-sniffer",
+  "description": "MCP Sniffer captures network traffic between MCP clients and servers and displays it in a web UI.",
+  "repo_url": "https://github.com/shivdeepak/mcp-sniffer",
+  "source_hub": "mcp_so",
+  "owner": "shivdeepak",
+  "stars": 2,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "f054e0feaed41cfa1538a576888f38d96208fc7c",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 112,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:04:50Z",
+  "verification_level": "scanner_only"
+}

@@ -1,0 +1,30 @@
+{
+  "id": "claude-plugins-91d7f443",
+  "name": "claude-plugins",
+  "description": "This project  equips Claude Code with advanced binary analysis capabilities for tasks such as incident response, malware investigation, and vulnerability assessment",
+  "repo_url": "https://github.com/DeepBitsTechnology/claude-plugins",
+  "source_hub": "github_search",
+  "skill_type": "agent_skill",
+  "owner": "DeepBitsTechnology",
+  "stars": 30,
+  "license": "apache-2.0",
+  "primary_language": "markdown",
+  "tags": [
+    "data-ai",
+    "dev",
+    "prod-pm",
+    "sec"
+  ],
+  "verification_status": "pass",
+  "overall_score": 83,
+  "risk_level": "low",
+  "verified_commit": null,
+  "scan_summary": null,
+  "last_updated": "2026-02-24T16:36:54Z",
+  "findings_summary": {
+    "notes": "Metadata-based verification. Score=83. Signals: stars=30 (>=10, +5); license='apache-2.0' (+5); owner='DeepBitsTechnology' (+3); primary_language='markdown'; source_hub='github_search'. Status: pass. Risk: low."
+  },
+  "trust_level": "low",
+  "scan_date": "2026-02-26T06:14:56Z",
+  "verification_level": "metadata_only"
+}

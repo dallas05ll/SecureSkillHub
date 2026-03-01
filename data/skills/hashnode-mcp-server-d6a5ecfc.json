@@ -1,0 +1,28 @@
+{
+  "id": "hashnode-mcp-server-d6a5ecfc",
+  "name": "hashnode-mcp-server",
+  "description": "A Model Context Protocol (MCP) server that connects AI assistants to the Hashnode API, enabling seamless content creation, management, and retrieval through AI interactions. Create, update, and search Hashnode articles directly through Claude or other AI assistants.",
+  "repo_url": "https://github.com/sbmagar13/hashnode-mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "sbmagar13",
+  "stars": 6,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp",
+    "integ",
+    "util-search"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "1d392edf567839a9c1c5ffc6678e9b52fa1cc83c",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 10,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:54:02Z",
+  "verification_level": "scanner_only"
+}

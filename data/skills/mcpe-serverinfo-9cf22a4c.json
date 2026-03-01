@@ -1,0 +1,26 @@
+{
+  "id": "mcpe-serverinfo-9cf22a4c",
+  "name": "MCPE-ServerInfo",
+  "description": "마인크래프트 베드락 서버주소를 입력받아 비연결 정보를 표시하는 프로그램입니다.",
+  "repo_url": "https://github.com/yeondu1062/MCPE-ServerInfo",
+  "source_hub": "mcp_so",
+  "owner": "yeondu1062",
+  "stars": 2,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "7f4620a6f1a07deaf869f36494d270d1ef4f7dd0",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 1,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:04:50Z",
+  "verification_level": "scanner_only"
+}

@@ -1,0 +1,25 @@
+{
+  "id": "meilisearch-hybrid-search-mcp-c54c402f",
+  "name": "meilisearch-hybrid-search-mcp",
+  "description": "A mcp server that supports hybrid search for meilisearch written in Go",
+  "repo_url": "https://github.com/miiton/meilisearch-hybrid-search-mcp",
+  "source_hub": "mcp_so",
+  "owner": "miiton",
+  "stars": 11,
+  "primary_language": "unknown",
+  "tags": [
+    "util-search"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "8aba418c968f2e4be9de76d279416ae1f19811d0",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 1,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:42:34Z",
+  "verification_level": "scanner_only"
+}

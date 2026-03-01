@@ -1,0 +1,26 @@
+{
+  "id": "roam-research-mcp-a17bb618",
+  "name": "roam-research-mcp",
+  "description": "MCP Server for Roam Research Graph Integration",
+  "repo_url": "https://github.com/2b3pro/roam-research-mcp",
+  "source_hub": "mcp_so",
+  "owner": "2b3pro",
+  "stars": 78,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "util-search"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "0c25de274239ce22e2a063d3deb1270c6b18080f",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 93,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-27T06:40:49Z",
+  "verification_level": "scanner_only"
+}

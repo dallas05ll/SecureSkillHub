@@ -1,0 +1,29 @@
+{
+  "id": "k8s-multicluster-mcp-00a56e6c",
+  "name": "k8s_multicluster_mcp",
+  "description": "An MCP (Model Context Protocol) server application for Kubernetes operations, providing a standardized API to interact with multiple Kubernetes clusters simultaneously using multiple kubeconfig files.",
+  "repo_url": "https://github.com/razvanmacovei/k8s_multicluster_mcp",
+  "source_hub": "mcp_so",
+  "owner": "razvanmacovei",
+  "stars": 12,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp",
+    "dev-devops-k8s",
+    "integ",
+    "util-file"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "40245bfa5753ff1c124ce4d228ab4f037a8003cc",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 34,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:42:34Z",
+  "verification_level": "scanner_only"
+}

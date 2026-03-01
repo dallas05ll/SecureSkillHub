@@ -1,0 +1,25 @@
+{
+  "id": "pagespeed-mcp-server-3cdd17bd",
+  "name": "Pagespeed-MCP-Server",
+  "description": "Pull pagespeed data using this MCP server.",
+  "repo_url": "https://github.com/PhialsBasement/Pagespeed-MCP-Server",
+  "source_hub": "mcp_so",
+  "owner": "PhialsBasement",
+  "stars": 13,
+  "primary_language": "unknown",
+  "tags": [
+    "data"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "9727a4776ef16b539ef16aae7f12acab8d7d434d",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 6,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:42:34Z",
+  "verification_level": "scanner_only"
+}

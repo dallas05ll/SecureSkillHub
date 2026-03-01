@@ -1,0 +1,28 @@
+{
+  "id": "tfnsw-realtime-alerts-mcp-server-ae27c892",
+  "name": "tfnsw-realtime-alerts-mcp-server",
+  "description": "A Model Context Protocol (MCP) server for TfNSW's realtime alerts API",
+  "repo_url": "https://github.com/piddlingtuna/tfnsw-realtime-alerts-mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "piddlingtuna",
+  "stars": 7,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp",
+    "integ",
+    "util-monitor"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "df2c868b624ca9d9e96bbd535e50ad256b94b9c6",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 6,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:54:02Z",
+  "verification_level": "scanner_only"
+}

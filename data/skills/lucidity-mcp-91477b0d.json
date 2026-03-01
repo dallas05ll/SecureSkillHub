@@ -1,0 +1,27 @@
+{
+  "id": "lucidity-mcp-91477b0d",
+  "name": "lucidity-mcp",
+  "description": "AI-powered code quality analysis using MCP to help AI assistants review code more effectively. Analyze git changes for complexity, security issues, and more through structured prompts.",
+  "repo_url": "https://github.com/hyperb1iss/lucidity-mcp",
+  "source_hub": "mcp_so",
+  "owner": "hyperb1iss",
+  "stars": 79,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "dev",
+    "sec"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "cdcb184bf1e0b59f118fa41011d266d8f29fb4ff",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 16,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-27T06:40:44Z",
+  "verification_level": "scanner_only"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "lspace-server-a24c2cf4",
+  "name": "lspace-server",
+  "description": "Lspace is an open source mcp server and standalone application that eliminates context-switching friction by letting you capture insights from any AI session and instantly make them available across all your tools - turning scattered conversations into persistent, searchable knowledge.",
+  "repo_url": "https://github.com/Lspace-io/lspace-server",
+  "source_hub": "mcp_so",
+  "owner": "Lspace-io",
+  "stars": 8,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp",
+    "util",
+    "util-search"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "79f02fe5aa8970b210a6a05cf097155f8d9ffd71",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 58,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:42:34Z",
+  "verification_level": "scanner_only"
+}

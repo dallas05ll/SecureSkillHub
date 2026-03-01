@@ -1,0 +1,26 @@
+{
+  "id": "anthropic-mcp-server-3880d2a4",
+  "name": "Anthropic-MCP-Server",
+  "description": "Server for Posting Tweets from X (Twitter) Using a Google Sheet as a source",
+  "repo_url": "https://github.com/CoderSoumya007/Anthropic-MCP-Server",
+  "source_hub": "mcp_so",
+  "owner": "CoderSoumya007",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "integ-social"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "4f4797d4a431f277f90345bf55905be53241992e",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 1,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:41Z",
+  "verification_level": "scanner_only"
+}

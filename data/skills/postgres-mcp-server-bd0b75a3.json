@@ -1,0 +1,25 @@
+{
+  "id": "postgres-mcp-server-bd0b75a3",
+  "name": "Postgres_MCP_Server",
+  "description": "FastMCP Based MCP Server to Control Postgres",
+  "repo_url": "https://github.com/VivekMalipatel/Postgres_MCP_Server",
+  "source_hub": "mcp_so",
+  "owner": "VivekMalipatel",
+  "stars": 2,
+  "primary_language": "unknown",
+  "tags": [
+    "data-db"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "36488016cb65a773418629fe611ff2e2a43fbf88",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 4,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:04:51Z",
+  "verification_level": "scanner_only"
+}

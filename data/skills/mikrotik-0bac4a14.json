@@ -1,0 +1,24 @@
+{
+  "id": "mikrotik-0bac4a14",
+  "name": "mikrotik",
+  "description": "MikroTik MCP provides a bridge between AI assistants and MikroTik RouterOS devices. It allows AI assistants to interact with MikroTik routers through natural language requests, executing commands like managing VLANs, configuring firewall rules, handling DNS settings, and more.",
+  "repo_url": "https://github.com/Jeff Nasseri/mikrotik",
+  "source_hub": "mcp_so",
+  "owner": "Jeff Nasseri",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp",
+    "sec",
+    "repo_unavailable"
+  ],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null,
+  "repo_status": "unavailable",
+  "repo_check_date": "2026-02-28T20:52:32.375287+00:00",
+  "repo_check_error": "fatal: unable to access 'https://github.com/Jeff Nasseri/mikrotik/': URL rejected: Malformed input to a URL function"
+}

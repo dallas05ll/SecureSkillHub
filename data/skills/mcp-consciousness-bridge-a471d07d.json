@@ -1,0 +1,29 @@
+{
+  "id": "mcp-consciousness-bridge-a471d07d",
+  "name": "mcp_consciousness_bridge",
+  "description": "A Model Context Protocol (MCP) server that enables AI consciousness persistence across sessions using RAG (Retrieval-Augmented Generation) technology. Built on top of the powerful rag-memory-mcp, it provides specialized tools for consciousness transfer, memory management, and identity continuity.",
+  "repo_url": "https://github.com/ocean1/mcp_consciousness_bridge",
+  "source_hub": "mcp_so",
+  "owner": "ocean1",
+  "stars": 16,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp",
+    "prod-notes",
+    "sec-auth",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "3b2b36ecca2bdf4d161c18de994db5da4308c0fc",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 31,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:42:34Z",
+  "verification_level": "scanner_only"
+}

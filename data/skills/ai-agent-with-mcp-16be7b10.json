@@ -1,0 +1,26 @@
+{
+  "id": "ai-agent-with-mcp-16be7b10",
+  "name": "ai-agent-with-mcp",
+  "description": "Playground create my first MCP (Model Context Protocol) server",
+  "repo_url": "https://github.com/moises-paschoalick/ai-agent-with-mcp",
+  "source_hub": "mcp_so",
+  "owner": "moises-paschoalick",
+  "stars": 2,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "d2c3e83f56d2894bb1c35f905843359ca5017701",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 7,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:04:50Z",
+  "verification_level": "scanner_only"
+}

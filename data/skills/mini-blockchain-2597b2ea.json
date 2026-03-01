@@ -1,0 +1,28 @@
+{
+  "id": "mini-blockchain-2597b2ea",
+  "name": "Mini-Blockchain",
+  "description": "A simple blockchain implementation in Rust featuring SHA-256 hashing, CLI interface, and MCP server integration. Demonstrates core blockchain concepts through block creation and chain validation while exposing blockchain functionalities over a network.",
+  "repo_url": "https://github.com/FaustoS88/Mini-Blockchain",
+  "source_hub": "mcp_so",
+  "owner": "FaustoS88",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "dev-web-backend-rust",
+    "integ",
+    "sec-crypto"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "cec7bb69d34475636f40585721e3da0e97b66937",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 2,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:41Z",
+  "verification_level": "scanner_only"
+}

@@ -1,0 +1,30 @@
+{
+  "id": "weather-mcp-1521d247",
+  "name": "weather-mcp",
+  "description": "A Model Context Protocol (MCP) server that provides weather forecast data from the Government of Canada Weather API. Fetch accurate 5-day forecasts for any location in Canada by latitude and longitude. Easily integrates with Claude Desktop and other MCP-compatible clients.",
+  "repo_url": "https://github.com/SeanLF/weather-mcp",
+  "source_hub": "mcp_so",
+  "owner": "SeanLF",
+  "stars": 2,
+  "primary_language": "unknown",
+  "tags": [
+    "data",
+    "data-ai",
+    "data-ai-nlp",
+    "integ",
+    "util-map",
+    "util-search"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "58e84c64beb523651645a4a21f90f57f2f826af8",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 6,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:41Z",
+  "verification_level": "scanner_only"
+}

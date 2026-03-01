@@ -1,0 +1,26 @@
+{
+  "id": "learning-assistant-server-e5a720ef",
+  "name": "Learning-Assistant-Server",
+  "description": "MCP server for analyzing PDFs and recommending study problems",
+  "repo_url": "https://github.com/ktwome/Learning-Assistant-Server",
+  "source_hub": "mcp_so",
+  "owner": "ktwome",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "89bbf0634d06865d897816ba83e4df04e519cbf1",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 21,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:40Z",
+  "verification_level": "scanner_only"
+}

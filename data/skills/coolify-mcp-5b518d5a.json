@@ -1,0 +1,26 @@
+{
+  "id": "coolify-mcp-5b518d5a",
+  "name": "coolify-mcp",
+  "description": "MCP server for Coolify",
+  "repo_url": "https://github.com/StuMason/coolify-mcp",
+  "source_hub": "mcp_so",
+  "owner": "StuMason",
+  "stars": 185,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "5bc63e88f3ac010c8aa6f77c44abaf131a5fd123",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 34,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-27T06:36:35Z",
+  "verification_level": "scanner_only"
+}

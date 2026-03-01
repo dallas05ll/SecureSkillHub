@@ -1,0 +1,25 @@
+{
+  "id": "sentry-selfhosted-mcp-820a1f4a",
+  "name": "sentry-selfhosted-mcp",
+  "description": "An MCP server for self-hosted sentry.",
+  "repo_url": "https://github.com/ddfourtwo/sentry-selfhosted-mcp",
+  "source_hub": "mcp_so",
+  "owner": "ddfourtwo",
+  "stars": 14,
+  "primary_language": "unknown",
+  "tags": [
+    "util-monitor"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "79b748ac49872d40451ed717c4084517c5107d29",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 6,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:42:34Z",
+  "verification_level": "scanner_only"
+}

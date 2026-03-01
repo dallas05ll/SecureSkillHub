@@ -1,0 +1,26 @@
+{
+  "id": "chainlist-mcp-bcf24004",
+  "name": "chainlist-mcp",
+  "description": "An MCP server that gives AI agents fast access to verified EVM chain information, including RPC URLs, chain IDs, explorers, and native tokens.",
+  "repo_url": "https://github.com/kukapay/chainlist-mcp",
+  "source_hub": "mcp_so",
+  "owner": "kukapay",
+  "stars": 2,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "sec-crypto"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "e416cc79b2f017547988466dc6056e0d243c90e3",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 3,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:04:50Z",
+  "verification_level": "scanner_only"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "mcp-telegram-poc-a3a74ae9",
+  "name": "mcp-telegram-poc",
+  "description": "A Python-based Model Context Protocol (MCP) client and server that enables LLMs to send notifications via Telegram and receive user responses.",
+  "repo_url": "https://github.com/arananet/mcp-telegram-poc",
+  "source_hub": "mcp_so",
+  "owner": "arananet",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp",
+    "dev-web-backend-python",
+    "prod-comm"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "54e41c13e7b5c756fad33b37be4a36aa14a7ddfa",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 12,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:41Z",
+  "verification_level": "scanner_only"
+}

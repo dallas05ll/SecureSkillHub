@@ -1,0 +1,25 @@
+{
+  "id": "mcp-server-dify-b0091be0",
+  "name": "mcp-server-dify",
+  "description": "Sample MCP Server for Dify AI",
+  "repo_url": "https://github.com/yuru-sha/mcp-server-dify",
+  "source_hub": "mcp_so",
+  "owner": "yuru-sha",
+  "stars": 11,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "1c70ca39e39bbd71bfa4e3317ca302aa06b1b6db",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 8,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:42:36Z",
+  "verification_level": "scanner_only"
+}

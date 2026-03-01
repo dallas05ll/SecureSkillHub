@@ -1,0 +1,26 @@
+{
+  "id": "cosa-sai-aaad4e96",
+  "name": "cosa-sai",
+  "description": "MCP server for retrieving relevant documentation from a knowledge base",
+  "repo_url": "https://github.com/M-Gonzalo/cosa-sai",
+  "source_hub": "mcp_so",
+  "owner": "M-Gonzalo",
+  "stars": 14,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "prod-docs"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "6a863f44e7ff94c537bdd4704172375304f687af",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 37,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:42:34Z",
+  "verification_level": "scanner_only"
+}

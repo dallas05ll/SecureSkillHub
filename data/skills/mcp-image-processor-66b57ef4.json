@@ -1,0 +1,26 @@
+{
+  "id": "mcp-image-processor-66b57ef4",
+  "name": "mcp-image-processor",
+  "description": "mcp server for image professing",
+  "repo_url": "https://github.com/HYPERVAPOR/mcp-image-processor",
+  "source_hub": "mcp_so",
+  "owner": "HYPERVAPOR",
+  "stars": 4,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai-vision",
+    "sec-auth"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "c2158cdba068c259c90e0fb7b073571591ac40bc",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 6,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:54:02Z",
+  "verification_level": "scanner_only"
+}

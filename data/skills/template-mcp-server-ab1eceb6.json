@@ -1,0 +1,26 @@
+{
+  "id": "template-mcp-server-ab1eceb6",
+  "name": "template-mcp-server",
+  "description": "PDM template for developing an MCP server",
+  "repo_url": "https://github.com/pdm-project/template-mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "pdm-project",
+  "stars": 1,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "3afc85c21ff20ba8209f6d70928a9206fa500bf5",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 7,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:40Z",
+  "verification_level": "scanner_only"
+}

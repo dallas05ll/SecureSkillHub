@@ -1,0 +1,26 @@
+{
+  "id": "github-mcp-server-wheel-b5eb8787",
+  "name": "github-mcp-server-wheel",
+  "description": "Packages",
+  "repo_url": "https://github.com/tjni/github-mcp-server-wheel",
+  "source_hub": "mcp_so",
+  "owner": "tjni",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "f4a2ed45117a0986d94594ba1f97c0ed729cae89",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 5,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:41Z",
+  "verification_level": "scanner_only"
+}

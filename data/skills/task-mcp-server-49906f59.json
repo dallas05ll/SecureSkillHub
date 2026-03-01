@@ -1,0 +1,25 @@
+{
+  "id": "task-mcp-server-49906f59",
+  "name": "task-mcp-server",
+  "description": "A MCP Task Server",
+  "repo_url": "https://github.com/milkosten/task-mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "milkosten",
+  "stars": 11,
+  "primary_language": "unknown",
+  "tags": [
+    "prod-pm"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "d1ee4d4e9f18cc3a517cd80801bdabe397aa8819",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 7,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:42:34Z",
+  "verification_level": "scanner_only"
+}

@@ -1,0 +1,26 @@
+{
+  "id": "first-mcp-server-4acb688f",
+  "name": "first-mcp-server",
+  "description": "初めてのMCPサーバー",
+  "repo_url": "https://github.com/YuukiTsuchida/first-mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "YuukiTsuchida",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "225cde56ab6d365a8d0a418141947ae8ba6c143c",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 6,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:40Z",
+  "verification_level": "scanner_only"
+}

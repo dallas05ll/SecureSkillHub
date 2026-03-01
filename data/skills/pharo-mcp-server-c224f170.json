@@ -1,0 +1,26 @@
+{
+  "id": "pharo-mcp-server-c224f170",
+  "name": "pharo-mcp-server",
+  "description": "Pharo Smalltalk implementation of Anthropic's Model Context Protocol (MCP) server specification. Enables LLMs like Claude to interact with Pharo applications.",
+  "repo_url": "https://github.com/paulwilke/pharo-mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "paulwilke",
+  "stars": 12,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "b63ce2cb6f4a8a2ddc643c231e6aa197ecac048c",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 1,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:42:36Z",
+  "verification_level": "scanner_only"
+}

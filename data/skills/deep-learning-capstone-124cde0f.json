@@ -1,0 +1,26 @@
+{
+  "id": "deep-learning-capstone-124cde0f",
+  "name": "deep-learning-capstone",
+  "description": "Deep Learning capstone project about MCP servers",
+  "repo_url": "https://github.com/rmatusevych/deep-learning-capstone",
+  "source_hub": "mcp_so",
+  "owner": "rmatusevych",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "789cd92881d0cb82233c773ec1a020d800bc189a",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 5,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:42Z",
+  "verification_level": "scanner_only"
+}

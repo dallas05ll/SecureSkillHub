@@ -1,0 +1,27 @@
+{
+  "id": "dokploy-mcp-784415a4",
+  "name": "dokploy-mcp",
+  "description": "Dokploy MCP Server exposes Dokploy functionalities as tools consumable via the Model Context Protocol (MCP)",
+  "repo_url": "https://github.com/andradehenrique/dokploy-mcp",
+  "source_hub": "mcp_so",
+  "owner": "andradehenrique",
+  "stars": 17,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "b3183787985c34dd759437c8bb10950357030a62",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 66,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:42:34Z",
+  "verification_level": "scanner_only"
+}

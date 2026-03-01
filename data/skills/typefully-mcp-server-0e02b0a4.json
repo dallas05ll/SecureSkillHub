@@ -1,0 +1,26 @@
+{
+  "id": "typefully-mcp-server-0e02b0a4",
+  "name": "typefully-mcp-server",
+  "description": "MCP server for Typefully service",
+  "repo_url": "https://github.com/pepuscz/typefully-mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "pepuscz",
+  "stars": 6,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "131866b50862e0066ab91e832bf997b370758194",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 15,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:54:02Z",
+  "verification_level": "scanner_only"
+}

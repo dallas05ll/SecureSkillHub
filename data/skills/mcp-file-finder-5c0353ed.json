@@ -1,0 +1,27 @@
+{
+  "id": "mcp-file-finder-5c0353ed",
+  "name": "mcp-file-finder",
+  "description": "MCP server on Python",
+  "repo_url": "https://github.com/cavil2015/mcp-file-finder",
+  "source_hub": "mcp_so",
+  "owner": "cavil2015",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "dev-web-backend-python",
+    "util-file",
+    "util-search"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "4cb468428da5190c9aba2f5125f5cdcae3912d00",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 4,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:41Z",
+  "verification_level": "scanner_only"
+}

@@ -1,0 +1,27 @@
+{
+  "id": "remote-mcp-functions-typescript-d92f93f3",
+  "name": "remote-mcp-functions-typescript",
+  "description": "This is a quickstart template to easily build and deploy a custom remote MCP server to the cloud using Azure functions. You can clone/restore/run on your local machine with debugging, and azd up to have it in the cloud in a couple minutes. The MCP server is secured by design.",
+  "repo_url": "https://github.com/Azure-Samples/remote-mcp-functions-typescript",
+  "source_hub": "mcp_so",
+  "owner": "Azure-Samples",
+  "stars": 43,
+  "primary_language": "unknown",
+  "tags": [
+    "dev",
+    "integ-cloud",
+    "integ-cloud-azure"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "5ca7757ec6ab0303ad4e22a3ae18f18c2573b2e5",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 21,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:32:11Z",
+  "verification_level": "scanner_only"
+}

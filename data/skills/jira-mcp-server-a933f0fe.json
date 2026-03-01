@@ -1,0 +1,26 @@
+{
+  "id": "jira-mcp-server-a933f0fe",
+  "name": "JIRA-MCP-Server",
+  "description": "JIRA MCP Server: Essential API Integrations for Technical Program Managers",
+  "repo_url": "https://github.com/rujutaranade/JIRA-MCP-Server",
+  "source_hub": "mcp_so",
+  "owner": "rujutaranade",
+  "stars": 2,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "prod-pm"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "2db8f8030ad64ad6e6678dec905360c88c8c68a3",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 10,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:04:50Z",
+  "verification_level": "scanner_only"
+}

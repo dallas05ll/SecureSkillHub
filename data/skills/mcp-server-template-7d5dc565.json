@@ -1,0 +1,27 @@
+{
+  "id": "mcp-server-template-7d5dc565",
+  "name": "mcp-server-template",
+  "description": "MCP starter kit for building AI tools with Bun runtime - specialized for interactive quizzes",
+  "repo_url": "https://github.com/tkc/mcp-server-template",
+  "source_hub": "mcp_so",
+  "owner": "tkc",
+  "stars": 1,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "dev-web-backend-node",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "8755e137362d3a9a4b8df557b97be8441155f258",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 6,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:42Z",
+  "verification_level": "scanner_only"
+}

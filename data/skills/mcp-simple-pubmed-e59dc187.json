@@ -1,0 +1,27 @@
+{
+  "id": "mcp-simple-pubmed-e59dc187",
+  "name": "mcp-simple-pubmed",
+  "description": "MCP server for searching and querying PubMed medical papers/research database",
+  "repo_url": "https://github.com/andybrandt/mcp-simple-pubmed",
+  "source_hub": "mcp_so",
+  "owner": "andybrandt",
+  "stars": 158,
+  "primary_language": "unknown",
+  "tags": [
+    "data",
+    "data-db",
+    "util-search"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "de245d350c456df353363a50051ed5547dedafc0",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 13,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-27T06:36:35Z",
+  "verification_level": "scanner_only"
+}

@@ -1,0 +1,26 @@
+{
+  "id": "php-universal-mcp-server-38e1f806",
+  "name": "php-universal-mcp-server",
+  "description": "Um servidor MCP universal para desenvolvimento PHP em qualquer provedor de hospedagem ou nuvem",
+  "repo_url": "https://github.com/Lucasdoreac/php-universal-mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "Lucasdoreac",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "eef65b4d26059ce51c94366409c00f7a3818d337",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 282,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:42Z",
+  "verification_level": "scanner_only"
+}

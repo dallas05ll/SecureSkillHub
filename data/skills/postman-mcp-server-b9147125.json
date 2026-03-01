@@ -1,0 +1,26 @@
+{
+  "id": "postman-mcp-server-b9147125",
+  "name": "postman-mcp-server",
+  "description": "An MCP server that provides access to Postman.",
+  "repo_url": "https://github.com/delano/postman-mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "delano",
+  "stars": 144,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "d29c2df5dedbb4f3384ebc0a71e8d256e04671a2",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 67,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-27T06:36:35Z",
+  "verification_level": "scanner_only"
+}

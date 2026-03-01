@@ -1,0 +1,26 @@
+{
+  "id": "wcgw-vscode-9ca0b10d",
+  "name": "wcgw-vscode",
+  "description": "Send code snippet and paths to Claude. Designed to work with wcgw mcp server.",
+  "repo_url": "https://github.com/rusiaaman/wcgw-vscode",
+  "source_hub": "mcp_so",
+  "owner": "rusiaaman",
+  "stars": 1,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "dev"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "ddf49c45e5542f80db73010fba929a291ca8e656",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 8,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:41Z",
+  "verification_level": "scanner_only"
+}

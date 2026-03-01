@@ -1,0 +1,28 @@
+{
+  "id": "midaz-mcp-server-da47ea44",
+  "name": "midaz-mcp-server",
+  "description": "A MCP server for the Midaz platform. Enables AI assistants to interact with Midaz's core banking APIs for automated ledger operations, account management, and transaction processing. Features comprehensive API coverage, real-time data access, and robust error handling for building AI-powered financial applications and intelligent fintech workflows.",
+  "repo_url": "https://github.com/LerianStudio/midaz-mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "LerianStudio",
+  "stars": 6,
+  "primary_language": "unknown",
+  "tags": [
+    "data",
+    "data-ai",
+    "integ",
+    "prod"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "166685de508b7e77c2c4d07d236277370e173297",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 101,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:54:02Z",
+  "verification_level": "scanner_only"
+}

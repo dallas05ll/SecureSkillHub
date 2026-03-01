@@ -1,0 +1,29 @@
+{
+  "id": "browse-together-mcp-d9eace11",
+  "name": "browse-together-mcp",
+  "description": "Co-browse with your AI as you edit code. A headed Playwright-controlled browser with accompanying MCP server.",
+  "repo_url": "https://github.com/canadaduane/browse-together-mcp",
+  "source_hub": "mcp_so",
+  "owner": "canadaduane",
+  "stars": 6,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "dev",
+    "dev-testing",
+    "dev-web",
+    "util-search"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "06b181e4496cb3abeb399772816654a2c14198fe",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 38,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:54:02Z",
+  "verification_level": "scanner_only"
+}

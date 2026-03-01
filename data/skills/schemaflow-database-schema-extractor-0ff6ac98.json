@@ -1,0 +1,28 @@
+{
+  "id": "schemaflow-database-schema-extractor-0ff6ac98",
+  "name": "schemaflow---database-schema-extractor",
+  "description": "Real-time PostgreSQL & Supabase database schema access for AI-IDEs via Model Context Protocol. Provides live database context to AI assistants through secure SSE connections, enabling smarter code generation with always up-to-date schema information. Features three powerful tools: get_schema, analyze_database, and check_schema_alignment.",
+  "repo_url": "https://github.com/CryptoRadi/schemaflow---database-schema-extractor",
+  "source_hub": "mcp_so",
+  "owner": "CryptoRadi",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "data",
+    "data-ai",
+    "data-ai-nlp",
+    "data-db",
+    "dev",
+    "integ",
+    "util",
+    "repo_unavailable"
+  ],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null,
+  "repo_status": "unavailable",
+  "repo_check_date": "2026-02-28T20:52:52.044007+00:00",
+  "repo_check_error": "fatal: could not read Username for 'https://github.com': Device not configured"
+}

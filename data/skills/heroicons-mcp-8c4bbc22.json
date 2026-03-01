@@ -1,0 +1,28 @@
+{
+  "id": "heroicons-mcp-8c4bbc22",
+  "name": "heroicons-mcp",
+  "description": "heroicons-mcp is a Model Context Protocol (MCP) server that exposes Heroicons. It allows LLMs and agentic applications to search, list, and generate usage examples of icons in React applications.",
+  "repo_url": "https://github.com/SeeYangZhi/heroicons-mcp",
+  "source_hub": "mcp_so",
+  "owner": "SeeYangZhi",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp",
+    "dev-web-frontend-react",
+    "util-search"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "2d27b5d4eaf641fa51232bf68d2f2f63e82c21b6",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 10,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:41Z",
+  "verification_level": "scanner_only"
+}

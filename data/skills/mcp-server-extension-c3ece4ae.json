@@ -1,0 +1,26 @@
+{
+  "id": "mcp-server-extension-c3ece4ae",
+  "name": "mcp-server-extension",
+  "description": "A basic MCP server for tool exposure using FastMCP and VS code extension distribution",
+  "repo_url": "https://github.com/ranjanbinwani/mcp-server-extension",
+  "source_hub": "mcp_so",
+  "owner": "ranjanbinwani",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "dev",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "a1035d40a225bc741aa293509a84c397255a278f",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 5,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:40Z",
+  "verification_level": "scanner_only"
+}

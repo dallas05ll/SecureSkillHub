@@ -1,0 +1,26 @@
+{
+  "id": "swiftmcp-94ee413b",
+  "name": "SwiftMCP",
+  "description": "Model Context Protocol (MCP) Swift",
+  "repo_url": "https://github.com/G1Joshi/SwiftMCP",
+  "source_hub": "mcp_so",
+  "owner": "G1Joshi",
+  "stars": 6,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "2b7aff19aa737a11850f78dada54a2d64aa8e6ee",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 1,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:54:04Z",
+  "verification_level": "scanner_only"
+}

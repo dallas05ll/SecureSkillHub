@@ -1,0 +1,36 @@
+{
+  "id": "windows-mcp-aa607c9f",
+  "name": "Windows-MCP",
+  "description": "Lightweight MCP Server for automating Windows OS in the easy way.",
+  "repo_url": "https://github.com/CursorTouch/Windows-MCP",
+  "source_hub": "mcp_so",
+  "owner": "CursorTouch",
+  "stars": 4425,
+  "primary_language": "unknown",
+  "tags": [
+    "prod"
+  ],
+  "verification_status": "pass",
+  "overall_score": 72,
+  "risk_level": "high",
+  "verified_commit": "504a0076",
+  "scan_summary": {
+    "verified_at": "2026-02-25",
+    "repo_created": "2025-05-13",
+    "last_pushed": "2026-02-25",
+    "license": "MIT",
+    "has_security_md": true,
+    "has_contributing_md": true,
+    "has_tests": true,
+    "has_telemetry": true,
+    "telemetry_opt_out": true,
+    "pypi_published": true,
+    "mcp_registry_listed": true,
+    "claude_directory_listed": true,
+    "forks": 550,
+    "open_issues": 7,
+    "version": "0.6.8"
+  },
+  "scan_date": "2026-02-26T03:00:51Z",
+  "verification_level": "scanner_only"
+}

@@ -1,0 +1,27 @@
+{
+  "id": "rigup-nix-1603885d",
+  "name": "rigup.nix",
+  "description": "Nix-based system for packaging knowledge, instructions, and skills for AI agents with executable knowledge (riglets) as modular units.",
+  "repo_url": "https://github.com/YPares/rigup.nix",
+  "source_hub": "github_search",
+  "skill_type": "agent_skill",
+  "owner": "YPares",
+  "stars": 52,
+  "license": "mit",
+  "primary_language": "Nix",
+  "tags": [
+    "data-ai"
+  ],
+  "verification_status": "pass",
+  "overall_score": 76,
+  "risk_level": "low",
+  "verified_commit": null,
+  "scan_summary": null,
+  "last_updated": "2026-02-24T23:36:50Z",
+  "findings_summary": {
+    "notes": "MIT licensed, Nix, very actively maintained (updated today). Unique Nix-based approach to skill packaging. Well-documented."
+  },
+  "trust_level": "low",
+  "scan_date": "2026-02-26T02:12:39Z",
+  "verification_level": "scanner_only"
+}

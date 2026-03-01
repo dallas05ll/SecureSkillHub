@@ -1,0 +1,26 @@
+{
+  "id": "kimcp-9cd04c22",
+  "name": "kimcp",
+  "description": "MCP server enabling LLMs to use Korean APIs (Naver, Kakao, etc.)",
+  "repo_url": "https://github.com/zeikar/kimcp",
+  "source_hub": "mcp_so",
+  "owner": "zeikar",
+  "stars": 6,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "integ"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "5e1c0dd6d8097bb9c1e2b609cb1b2547a31dd7b4",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 9,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:54:02Z",
+  "verification_level": "scanner_only"
+}

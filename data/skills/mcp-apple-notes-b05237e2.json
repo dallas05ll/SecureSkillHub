@@ -1,0 +1,25 @@
+{
+  "id": "mcp-apple-notes-b05237e2",
+  "name": "mcp-apple-notes",
+  "description": "MCP server for apple notes",
+  "repo_url": "https://github.com/Siddhant-K-code/mcp-apple-notes",
+  "source_hub": "mcp_so",
+  "owner": "Siddhant-K-code",
+  "stars": 15,
+  "primary_language": "unknown",
+  "tags": [
+    "prod-notes"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "822082aecc7e765e623011d904fa7f4325f864ee",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 7,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:42:34Z",
+  "verification_level": "scanner_only"
+}

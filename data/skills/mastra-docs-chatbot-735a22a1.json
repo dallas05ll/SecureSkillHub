@@ -1,0 +1,27 @@
+{
+  "id": "mastra-docs-chatbot-735a22a1",
+  "name": "mastra-docs-chatbot",
+  "description": "test chatbot using mastra's mcp docs server",
+  "repo_url": "https://github.com/adeniyii/mastra-docs-chatbot",
+  "source_hub": "mcp_so",
+  "owner": "adeniyii",
+  "stars": 2,
+  "primary_language": "unknown",
+  "tags": [
+    "dev-testing",
+    "prod-comm",
+    "prod-docs"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "68b15a61b121199cdcffa8d45ac93c9de9f166b8",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 24,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:04:50Z",
+  "verification_level": "scanner_only"
+}

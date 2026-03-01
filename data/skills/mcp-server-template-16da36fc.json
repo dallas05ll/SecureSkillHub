@@ -1,0 +1,26 @@
+{
+  "id": "mcp-server-template-16da36fc",
+  "name": "mcp-server-template",
+  "description": "Typescript Template for Model Context Protocol (MCP) Server",
+  "repo_url": "https://github.com/nqtri/mcp-server-template",
+  "source_hub": "mcp_so",
+  "owner": "nqtri",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "5a082a7e48e3b210121ed3ffae06c9daf5dca281",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 5,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:42Z",
+  "verification_level": "scanner_only"
+}

@@ -1,0 +1,26 @@
+{
+  "id": "azure-devops-mcp-d49a70d5",
+  "name": "azure-devops-mcp",
+  "description": "Remote Azure DevOps MCP Server",
+  "repo_url": "https://github.com/jmnbc/azure-devops-mcp",
+  "source_hub": "mcp_so",
+  "owner": "jmnbc",
+  "stars": 1,
+  "primary_language": "unknown",
+  "tags": [
+    "integ-cloud",
+    "integ-cloud-azure"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "d491e22b9dbc99eb1dbe792bde746bbfcf5e72aa",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 2,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:41Z",
+  "verification_level": "scanner_only"
+}

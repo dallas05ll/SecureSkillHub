@@ -1,0 +1,32 @@
+{
+  "id": "generic-mcp-server-167f3141",
+  "name": "generic-mcp-server",
+  "description": "A sample Model Context Protocol (MCP) server for movie database interactions. Built with TypeScript, Express, and the MCP SDK, it enables AI agents to search and discover films, actors, and directors through standardized tools and resources.",
+  "repo_url": "https://github.com/csainath0210/generic-mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "csainath0210",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "data",
+    "data-ai",
+    "data-ai-nlp",
+    "data-db",
+    "dev",
+    "dev-web-backend-node",
+    "util",
+    "util-search"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "d0058ce9b8a1f85355171f84e6dd1b4490849156",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 15,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:40Z",
+  "verification_level": "scanner_only"
+}

@@ -1,0 +1,26 @@
+{
+  "id": "stela-mcp-962a5934",
+  "name": "stela-mcp",
+  "description": "MCP server for local system operations",
+  "repo_url": "https://github.com/Sachin-Bhat/stela-mcp",
+  "source_hub": "mcp_so",
+  "owner": "Sachin-Bhat",
+  "stars": 1,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "d036b7c05f84064c502abd69b5da8cb8994046dc",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 8,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:41Z",
+  "verification_level": "scanner_only"
+}

@@ -1,0 +1,26 @@
+{
+  "id": "lemonade-stand-mcp-server-f777c261",
+  "name": "Lemonade-Stand-MCP-Server",
+  "description": "A simple, working example of a Model Context Protocol (MCP) server that lets you play the classic Lemonade Stand game through Claude Desktop.",
+  "repo_url": "https://github.com/jimmcq/Lemonade-Stand-MCP-Server",
+  "source_hub": "mcp_so",
+  "owner": "jimmcq",
+  "stars": 7,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "a179f13c0367d274fcc3e9913dbc114695a79d5e",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 6,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:54:02Z",
+  "verification_level": "scanner_only"
+}

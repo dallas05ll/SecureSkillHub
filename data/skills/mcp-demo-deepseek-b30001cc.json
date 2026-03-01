@@ -1,0 +1,25 @@
+{
+  "id": "mcp-demo-deepseek-b30001cc",
+  "name": "mcp-demo-deepseek",
+  "description": "Run a MCP client & server demo with DeepSeek API",
+  "repo_url": "https://github.com/Bill-Cai/mcp-demo-deepseek",
+  "source_hub": "mcp_so",
+  "owner": "Bill-Cai",
+  "stars": 4,
+  "primary_language": "unknown",
+  "tags": [
+    "integ"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "4fd72557ac55443901827f1f81fa07752fbe0261",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 4,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:54:02Z",
+  "verification_level": "scanner_only"
+}

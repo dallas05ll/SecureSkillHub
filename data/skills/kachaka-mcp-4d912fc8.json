@@ -1,0 +1,26 @@
+{
+  "id": "kachaka-mcp-4d912fc8",
+  "name": "kachaka-mcp",
+  "description": "Kachaka MCP Server - Model Context Protocol server for Kachaka robot",
+  "repo_url": "https://github.com/comoc/kachaka-mcp",
+  "source_hub": "mcp_so",
+  "owner": "comoc",
+  "stars": 1,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "1281c24685a99684cc17f63061695f07d5b85ae8",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 15,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:41Z",
+  "verification_level": "scanner_only"
+}

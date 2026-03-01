@@ -1,0 +1,27 @@
+{
+  "id": "memgpt-mcp-server-9d17266e",
+  "name": "Memgpt-MCP-Server",
+  "description": "A Model Context Protocol (MCP) server that provides persistent memory and multi-model LLM support.",
+  "repo_url": "https://github.com/Vic563/Memgpt-MCP-Server",
+  "source_hub": "mcp_so",
+  "owner": "Vic563",
+  "stars": 27,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp",
+    "prod-notes"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "5b36577580f40b6c40e4dc484192343de61442aa",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 5,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:32:12Z",
+  "verification_level": "scanner_only"
+}

@@ -1,0 +1,26 @@
+{
+  "id": "ambur-mcp-ef18dc1c",
+  "name": "ambur-mcp",
+  "description": "MCP server in Rust, for wrapping Ambur query and execute entry point messages to be broadcast by a signer",
+  "repo_url": "https://github.com/phi-labs-ltd/ambur-mcp",
+  "source_hub": "mcp_so",
+  "owner": "phi-labs-ltd",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "dev-web-backend-rust",
+    "prod-comm"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "fe8ef2e9fb4b019bdb43fb6a86f7cecbd75a7ac5",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 2,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:40Z",
+  "verification_level": "scanner_only"
+}

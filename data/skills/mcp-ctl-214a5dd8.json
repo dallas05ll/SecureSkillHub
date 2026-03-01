@@ -1,0 +1,26 @@
+{
+  "id": "mcp-ctl-214a5dd8",
+  "name": "mcp_ctl",
+  "description": "A package manager to manage all your mcp servers across platforms",
+  "repo_url": "https://github.com/cloudycotton/mcp_ctl",
+  "source_hub": "mcp_so",
+  "owner": "cloudycotton",
+  "stars": 39,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "05c920d629def0e97b637eaa0c78aecbaa0c2c14",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 23,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:32:13Z",
+  "verification_level": "scanner_only"
+}

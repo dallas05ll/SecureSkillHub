@@ -1,0 +1,26 @@
+{
+  "id": "alist-mcp-server-59e03c42",
+  "name": "alist-mcp-server",
+  "description": "MCP Server for Alist",
+  "repo_url": "https://github.com/JavanShen/alist-mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "JavanShen",
+  "stars": 1,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "1a319bedef9163c56244079f42930420edd1d884",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 12,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:42Z",
+  "verification_level": "scanner_only"
+}

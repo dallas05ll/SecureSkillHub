@@ -1,0 +1,26 @@
+{
+  "id": "shinkai-apps-cab532ad",
+  "name": "shinkai-apps",
+  "description": "Shinkai is a two click install AI manager (Local and Remote) that allows you to create AI agents in 5 minutes or less using a simple UI. Agents and tools are exposed as an MCP Server.",
+  "repo_url": "https://github.com/dcSpark/shinkai-apps",
+  "source_hub": "mcp_so",
+  "owner": "dcSpark",
+  "stars": 418,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 980,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-27T02:28:45Z",
+  "verification_level": "scanner_only"
+}

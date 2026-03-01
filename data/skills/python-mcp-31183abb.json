@@ -1,0 +1,26 @@
+{
+  "id": "python-mcp-31183abb",
+  "name": "python_mcp",
+  "description": "MCP Server to run python code locally",
+  "repo_url": "https://github.com/Alec2435/python_mcp",
+  "source_hub": "mcp_so",
+  "owner": "Alec2435",
+  "stars": 55,
+  "primary_language": "unknown",
+  "tags": [
+    "dev",
+    "dev-web-backend-python"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "9aee64bcca5b439355eb4e42b44e2c48dbf6da8c",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 4,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-27T06:40:44Z",
+  "verification_level": "scanner_only"
+}

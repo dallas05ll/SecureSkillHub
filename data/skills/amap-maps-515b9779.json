@@ -1,0 +1,26 @@
+{
+  "id": "amap-maps-515b9779",
+  "name": "amap-maps",
+  "description": "高德地图官方 MCP Server",
+  "repo_url": "https://github.com/amap/amap-maps",
+  "source_hub": "mcp_so",
+  "owner": "amap",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "util-map",
+    "repo_unavailable"
+  ],
+  "verification_status": "manual_review",
+  "overall_score": 0,
+  "risk_level": "high",
+  "verified_commit": "",
+  "scan_summary": null,
+  "scan_date": "2026-02-28T20:27:25Z",
+  "findings_summary": {
+    "error": "clone failed: Cloning into '/var/folders/pq/bb71gjzd01d29nnmqrhqr2rc0000gn/T/strict5_amap-maps-515b9779_k63rq0xe/repo'...\nfatal: could not read Username for 'https://github.com': Device not configured",
+    "supervisor_approved": false,
+    "supervisor_confidence": 0
+  },
+  "repo_status": "unavailable"
+}

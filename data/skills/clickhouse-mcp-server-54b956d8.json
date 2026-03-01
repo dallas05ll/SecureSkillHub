@@ -1,0 +1,27 @@
+{
+  "id": "clickhouse-mcp-server-54b956d8",
+  "name": "clickhouse-mcp-server",
+  "description": "An MCP server implementation that enables Claude AI to interact with Clickhouse databases.",
+  "repo_url": "https://github.com/burakdirin/clickhouse-mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "burakdirin",
+  "stars": 2,
+  "primary_language": "unknown",
+  "tags": [
+    "data",
+    "data-ai",
+    "data-db"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "342a7b5cbe2b29f7c9248399bd549c615acb0ad7",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 7,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:04:51Z",
+  "verification_level": "scanner_only"
+}

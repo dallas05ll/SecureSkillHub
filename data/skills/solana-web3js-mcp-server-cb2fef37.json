@@ -1,0 +1,25 @@
+{
+  "id": "solana-web3js-mcp-server-cb2fef37",
+  "name": "solana-web3js-mcp-server",
+  "description": "MCP server for Solana web3.js development and smart contract deployment",
+  "repo_url": "https://github.com/FrankGenGo/solana-web3js-mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "FrankGenGo",
+  "stars": 4,
+  "primary_language": "unknown",
+  "tags": [
+    "sec-crypto"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "8021ef4cea6abbf657052bddc01d38d2629a7b37",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 59,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:04:50Z",
+  "verification_level": "scanner_only"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "usescraper-mcp-server-ac3cf38b",
+  "name": "usescraper-mcp-server",
+  "description": "MCP server for the useScraper API. This is a server that scrapes a URL to text or markdown",
+  "repo_url": "https://github.com/tanevanwifferen/usescraper-mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "tanevanwifferen",
+  "stars": 4,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai-nlp",
+    "integ",
+    "prod-docs",
+    "util-search"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "5650b39030fd55aa55e1c44f9da42b6f2568d5e6",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 6,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:04:50Z",
+  "verification_level": "scanner_only"
+}

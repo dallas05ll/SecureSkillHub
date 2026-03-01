@@ -1,0 +1,29 @@
+{
+  "id": "skills-7459d5ac",
+  "name": "skills",
+  "description": "Comprehensive collection of 40+ agent skills from Wondel.ai covering product strategy, UX design, marketing, sales, code craftsmanship, and systems architecture. Based on canonical product/business books. Compatible with Claude Code, Cursor, Cline, and other agents via npx skills.",
+  "repo_url": "https://github.com/wondelai/skills",
+  "source_hub": "github_search",
+  "skill_type": "agent_skill",
+  "owner": "wondelai",
+  "stars": 147,
+  "forks": 15,
+  "license": "MIT",
+  "primary_language": "Shell",
+  "tags": [
+    "data-ai",
+    "dev"
+  ],
+  "verification_status": "pass",
+  "overall_score": 86,
+  "risk_level": "low",
+  "verified_commit": null,
+  "scan_summary": "Large, well-organized multi-agent skill collection covering product, UX, marketing, sales, engineering domains. MIT licensed. Skills are pure Markdown SKILL.md files. Has .claude-plugin marketplace format, .cursor and .windsurf integration directories, plus scripts/ for npx skills CLI. No executable code in skill files. Shell scripts in /scripts are packaging utilities.",
+  "findings_summary": {
+    "notes": "High-quality, commercially-polished skill library from Wondel.ai. Clear skill structure with good metadata. Multi-platform compatibility (Claude Code, Cursor, Windsurf, etc.) is a strength. All skill content is Markdown — no code execution. Live at skills.wondel.ai for browsing. No security concerns."
+  },
+  "last_updated": "2026-02-26T01:18:37Z",
+  "trust_level": "low",
+  "scan_date": "2026-02-26T02:24:12Z",
+  "verification_level": "metadata_only"
+}

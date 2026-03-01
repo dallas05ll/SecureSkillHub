@@ -1,0 +1,28 @@
+{
+  "id": "mcp-arm-dqr-8eae0cfc",
+  "name": "MCP-ARM-DQR",
+  "description": "An MCP (Model Context Protocol) server for accessing Data Quality Report(DQR) databases from the ARM user facility.",
+  "repo_url": "https://github.com/lishanlitamu/MCP-ARM-DQR",
+  "source_hub": "mcp_so",
+  "owner": "lishanlitamu",
+  "stars": 1,
+  "primary_language": "unknown",
+  "tags": [
+    "data",
+    "data-ai",
+    "data-ai-nlp",
+    "data-db"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "378d5d2790f1f14758a73a480189da5dd20bb9cf",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 3,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:40Z",
+  "verification_level": "scanner_only"
+}

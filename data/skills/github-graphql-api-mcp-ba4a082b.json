@@ -1,0 +1,28 @@
+{
+  "id": "github-graphql-api-mcp-ba4a082b",
+  "name": "github_graphql_api_mcp",
+  "description": "A Model Control Protocol (MCP) server for exploring the GitHub GraphQL schema and executing optimized queries. Provides AI assistants with efficient GitHub data retrieval capabilities through GraphQL.",
+  "repo_url": "https://github.com/wanzunz/github_graphql_api_mcp",
+  "source_hub": "mcp_so",
+  "owner": "wanzunz",
+  "stars": 4,
+  "primary_language": "unknown",
+  "tags": [
+    "data",
+    "data-ai",
+    "data-db-graph",
+    "integ"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "88fd94b44a8402c8c5e5c89df2d240af6b0191d3",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 8,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:54:02Z",
+  "verification_level": "scanner_only"
+}

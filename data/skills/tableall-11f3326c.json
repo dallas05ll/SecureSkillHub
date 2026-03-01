@@ -1,0 +1,26 @@
+{
+  "id": "tableall-11f3326c",
+  "name": "tableall",
+  "description": "TABLEALL MCP Server is a Model Context Protocol (MCP) server that allows AI Agent to access real-time restaurant information, availability, and menu data from TABLEALL. This integration enables AI Agent to help users find restaurants, check availability, and explore menu options directly through conversation.",
+  "repo_url": "https://github.com/TABLEALL/tableall",
+  "source_hub": "mcp_so",
+  "owner": "TABLEALL",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "data",
+    "data-ai",
+    "data-ai-nlp",
+    "integ",
+    "util-search",
+    "repo_unavailable"
+  ],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null,
+  "repo_status": "unavailable",
+  "repo_check_date": "2026-02-28T20:52:59.373091+00:00",
+  "repo_check_error": "fatal: could not read Username for 'https://github.com': Device not configured"
+}

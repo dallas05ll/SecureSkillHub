@@ -1,0 +1,26 @@
+{
+  "id": "coin-flip-mcp-d3188a62",
+  "name": "coin-flip-mcp",
+  "description": "MCP server for flipping coins with true randomness from random.org",
+  "repo_url": "https://github.com/TeglonLabs/coin-flip-mcp",
+  "source_hub": "mcp_so",
+  "owner": "TeglonLabs",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "81c4b4dcb3f61ef23baf33967cf5c89e383fcd0f",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 5,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:41Z",
+  "verification_level": "scanner_only"
+}

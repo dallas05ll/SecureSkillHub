@@ -1,0 +1,25 @@
+{
+  "id": "cerebro-f87b4acc",
+  "name": "CereBro",
+  "description": "A model-agnostic MCP Client-Server for .Net",
+  "repo_url": "https://github.com/rob1997/CereBro",
+  "source_hub": "mcp_so",
+  "owner": "rob1997",
+  "stars": 16,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "95ffa4be4f046bb1e82d2d03bd70a81a451c9ec3",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 16,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:42:34Z",
+  "verification_level": "scanner_only"
+}

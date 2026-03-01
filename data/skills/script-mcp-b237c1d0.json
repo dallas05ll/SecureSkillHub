@@ -1,0 +1,26 @@
+{
+  "id": "script-mcp-b237c1d0",
+  "name": "script-mcp",
+  "description": "MCP server to for running script",
+  "repo_url": "https://github.com/nguyenvanduocit/script-mcp",
+  "source_hub": "mcp_so",
+  "owner": "nguyenvanduocit",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "e4bdb21d24010a2d5b892c7efab44a227b673455",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 2,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:40Z",
+  "verification_level": "scanner_only"
+}

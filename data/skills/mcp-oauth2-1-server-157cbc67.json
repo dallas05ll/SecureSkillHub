@@ -1,0 +1,27 @@
+{
+  "id": "mcp-oauth2-1-server-157cbc67",
+  "name": "mcp-oauth2.1-server",
+  "description": "Reference mcp server implementation of draft mcp oauth spec",
+  "repo_url": "https://github.com/QuantGeekDev/mcp-oauth2.1-server",
+  "source_hub": "mcp_so",
+  "owner": "QuantGeekDev",
+  "stars": 8,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "sec",
+    "sec-auth"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "e4ae7720cd008f3def2c1cc989932480142ae416",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 15,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:42:34Z",
+  "verification_level": "scanner_only"
+}

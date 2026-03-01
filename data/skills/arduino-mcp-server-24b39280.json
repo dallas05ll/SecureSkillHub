@@ -1,0 +1,26 @@
+{
+  "id": "arduino-mcp-server-24b39280",
+  "name": "arduino-mcp-server",
+  "description": "An arduino mcp server written in go",
+  "repo_url": "https://github.com/dido18/arduino-mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "dido18",
+  "stars": 1,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "0c650bf3f3a86934d75dfd5ae3960438416411fe",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 1,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:40Z",
+  "verification_level": "scanner_only"
+}

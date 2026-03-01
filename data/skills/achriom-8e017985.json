@@ -1,0 +1,31 @@
+{
+  "id": "achriom-8e017985",
+  "name": "achriom",
+  "description": "The media memory layer for AI agents and their humans. Your AI client gets 29 tools to search your collection, add items, update ratings, preview music, and find patterns across everything you've read, watched, and listened to.",
+  "repo_url": "https://github.com/achriom/achriom",
+  "source_hub": "mcp_so",
+  "owner": "achriom",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-audio",
+    "prod-notes",
+    "util",
+    "util-media",
+    "util-search",
+    "repo_unavailable"
+  ],
+  "verification_status": "manual_review",
+  "overall_score": 0,
+  "risk_level": "high",
+  "verified_commit": "",
+  "scan_summary": null,
+  "scan_date": "2026-02-28T20:27:23Z",
+  "findings_summary": {
+    "error": "clone failed: Cloning into '/var/folders/pq/bb71gjzd01d29nnmqrhqr2rc0000gn/T/strict5_achriom-8e017985_i7u6mauc/repo'...\nfatal: could not read Username for 'https://github.com': Device not configured",
+    "supervisor_approved": false,
+    "supervisor_confidence": 0
+  },
+  "repo_status": "unavailable"
+}

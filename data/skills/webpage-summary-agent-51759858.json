@@ -1,0 +1,26 @@
+{
+  "id": "webpage-summary-agent-51759858",
+  "name": "webpage-summary-agent",
+  "description": "Webpage Summary Agent with mcp-agent 、MCP servers and qwen.",
+  "repo_url": "https://github.com/yeshan333/webpage-summary-agent",
+  "source_hub": "mcp_so",
+  "owner": "yeshan333",
+  "stars": 1,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "1daf49832c09e5635ccff1c281bd01d43811c8c3",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 6,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:42Z",
+  "verification_level": "scanner_only"
+}

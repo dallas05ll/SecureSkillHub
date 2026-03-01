@@ -1,0 +1,25 @@
+{
+  "id": "terminal-5a4ff66d",
+  "name": "terminal",
+  "description": "MCP server for executing terminal commands through Claude Desktop",
+  "repo_url": "https://github.com/stat-guy/terminal",
+  "source_hub": "mcp_so",
+  "owner": "stat-guy",
+  "stars": 8,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "17058e23df3be02bb87b374cd36f724ebdb690a9",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 4,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:54:02Z",
+  "verification_level": "scanner_only"
+}

@@ -1,0 +1,54 @@
+{
+  "id": "web-app-testing-862f3134",
+  "name": "Web App Testing",
+  "description": "Test local web applications using Playwright for automated UI verification, element discovery, console log capture, and debugging. Provides Python example scripts for common automation patterns including static HTML testing, element interaction, and server-backed test scenarios.",
+  "repo_url": "https://github.com/anthropics/skills/tree/main/webapp-testing",
+  "source_hub": "claude_skills_hub",
+  "skill_type": "agent_skill",
+  "owner": "anthropics",
+  "stars": 0,
+  "forks": 7854,
+  "license": "Apache-2.0",
+  "primary_language": "Python",
+  "tags": [
+    "data-ai",
+    "dev",
+    "dev-testing",
+    "dev-web",
+    "dev-web-backend-python",
+    "prod",
+    "repo_unavailable"
+  ],
+  "source_tags": [
+    "testing",
+    "playwright",
+    "qa",
+    "automation",
+    "debugging"
+  ],
+  "categories": [
+    "dev"
+  ],
+  "version": "1.0.0",
+  "requires_code_execution": true,
+  "verification_status": "pass",
+  "overall_score": 93,
+  "risk_level": "low",
+  "verified_commit": null,
+  "scan_summary": null,
+  "findings_summary": {
+    "has_readme": true,
+    "has_security_policy": false,
+    "has_mcp_server": false,
+    "dangerous_patterns": [],
+    "notes": "Official Anthropic skill from anthropics/skills repository. Contains SKILL.md, Python example scripts (console_logging.py, element_discovery.py, static_html_automation.py), a server utility script, and Apache-2.0 LICENSE.txt. Verified at skills/webapp-testing/ in the repo tree."
+  },
+  "parent_repo_stars": 75705,
+  "is_monorepo_child": true,
+  "trust_level": "medium",
+  "scan_date": "2026-02-26T03:00:51Z",
+  "repo_status": "unavailable",
+  "repo_check_date": "2026-02-28T20:53:08.254843+00:00",
+  "repo_check_error": "fatal: repository 'https://github.com/anthropics/skills/tree/main/webapp-testing/' not found",
+  "verification_level": "scanner_only"
+}

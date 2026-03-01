@@ -1,0 +1,25 @@
+{
+  "id": "shipyard-mcp-1422cc98",
+  "name": "shipyard-mcp",
+  "description": "Loop your agents into environment management, and give them access/context to run tests, tail environment logs, start/stop environments, and debug remote issues.",
+  "repo_url": "https://github.com/shipyard/shipyard-mcp",
+  "source_hub": "mcp_so",
+  "owner": "shipyard",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp",
+    "dev",
+    "dev-testing",
+    "repo_unavailable"
+  ],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null,
+  "repo_status": "unavailable",
+  "repo_check_date": "2026-02-28T20:52:53.647846+00:00",
+  "repo_check_error": "fatal: could not read Username for 'https://github.com': Device not configured"
+}

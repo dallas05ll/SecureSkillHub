@@ -1,0 +1,27 @@
+{
+  "id": "mcp-demo-d63069ae",
+  "name": "mcp-demo",
+  "description": "URL MCP is a proof of concept stateless MCP server builder that allows users to build MCP servers without writing or hosting code. It's intended for protocol and security experimentation rather than for building real world MCP integrations.",
+  "repo_url": "https://github.com/sshh12/mcp-demo",
+  "source_hub": "mcp_so",
+  "owner": "sshh12",
+  "stars": 10,
+  "primary_language": "unknown",
+  "tags": [
+    "dev",
+    "integ",
+    "sec"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "b66c22bf6dc02ab9045cc4f5decc79de86d55768",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 4,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:42:36Z",
+  "verification_level": "scanner_only"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "coingecko-mcp-server-eb4ab362",
+  "name": "coingecko-mcp-server",
+  "description": "A Node.js Express server that provides a simplified and configurable interface to the CoinGecko cryptocurrency data API",
+  "repo_url": "https://github.com/GaplyDev01/coingecko-mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "GaplyDev01",
+  "stars": 1,
+  "primary_language": "unknown",
+  "tags": [
+    "data",
+    "dev-web-backend-node",
+    "integ",
+    "sec-crypto"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "9c47004d4f7e8f9d6ab7027c9c18222538e5eefa",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 13,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:41Z",
+  "verification_level": "scanner_only"
+}

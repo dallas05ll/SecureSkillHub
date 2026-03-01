@@ -1,0 +1,25 @@
+{
+  "id": "google-adk-mcp-e2820f19",
+  "name": "google-adk-mcp",
+  "description": "Using Google ADK with and MCP server written for the repair_world_application",
+  "repo_url": "https://github.com/nikhilpurwant/google-adk-mcp",
+  "source_hub": "mcp_so",
+  "owner": "nikhilpurwant",
+  "stars": 6,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "9f36a411d974f64bee64a652ea6d57f3afbc6671",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 5,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:54:02Z",
+  "verification_level": "scanner_only"
+}

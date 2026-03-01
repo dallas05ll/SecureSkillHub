@@ -1,0 +1,30 @@
+{
+  "id": "essentials-claude-code-966171ed",
+  "name": "essentials-claude-code",
+  "description": "Loops, swarms, and team coordination powered by Claude Code's built-in Task System for multi-agent workflows.",
+  "repo_url": "https://github.com/GantisStorm/essentials-claude-code",
+  "source_hub": "github_search",
+  "skill_type": "agent_skill",
+  "owner": "GantisStorm",
+  "stars": 82,
+  "license": "unlicense",
+  "primary_language": "Markdown",
+  "tags": [
+    "data-ai",
+    "dev",
+    "prod",
+    "prod-pm"
+  ],
+  "verification_status": "pass",
+  "overall_score": 78,
+  "risk_level": "low",
+  "verified_commit": null,
+  "scan_summary": null,
+  "last_updated": "2026-02-25T12:15:32Z",
+  "findings_summary": {
+    "notes": "Unlicense, recently active. Good focus on Claude Code's native task orchestration features."
+  },
+  "trust_level": "low",
+  "scan_date": "2026-02-26T02:11:19Z",
+  "verification_level": "scanner_only"
+}

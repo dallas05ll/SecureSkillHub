@@ -1,0 +1,26 @@
+{
+  "id": "mcp-phenoage-clock-da0d087d",
+  "name": "mcp-phenoage-clock",
+  "description": "MCP server for calculating biological age using the Morgan Levine PhenoAge clock",
+  "repo_url": "https://github.com/199-biotechnologies/mcp-phenoage-clock",
+  "source_hub": "mcp_so",
+  "owner": "199-biotechnologies",
+  "stars": 5,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "67bbb0440839ffcd49c8a6d17bbf8f2136729ce0",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 8,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:54:02Z",
+  "verification_level": "scanner_only"
+}

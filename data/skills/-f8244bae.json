@@ -1,0 +1,26 @@
+{
+  "id": "-f8244bae",
+  "name": "教学视频生成",
+  "description": "Scenext 是一个AI视频生成平台，能够根据提供的问题和参考答案内容自动生成高质量的讲解视频。",
+  "repo_url": "https://github.com/typing233/教学视频生成",
+  "source_hub": "mcp_so",
+  "owner": "typing233",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "repo_unavailable"
+  ],
+  "verification_status": "manual_review",
+  "overall_score": 0,
+  "risk_level": "high",
+  "verified_commit": "",
+  "scan_summary": null,
+  "scan_date": "2026-02-28T20:27:23Z",
+  "findings_summary": {
+    "error": "clone failed: Cloning into '/var/folders/pq/bb71gjzd01d29nnmqrhqr2rc0000gn/T/strict5_-f8244bae_3c144g8i/repo'...\nremote: Repository not found.\nfatal: repository 'https://github.com/typing233/教学视频生成/' not found",
+    "supervisor_approved": false,
+    "supervisor_confidence": 0
+  },
+  "repo_status": "unavailable"
+}

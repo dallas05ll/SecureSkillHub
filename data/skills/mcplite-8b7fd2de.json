@@ -1,0 +1,26 @@
+{
+  "id": "mcplite-8b7fd2de",
+  "name": "MCPLite",
+  "description": "MCP client/server framework from scratch",
+  "repo_url": "https://github.com/acesanderson/MCPLite",
+  "source_hub": "mcp_so",
+  "owner": "acesanderson",
+  "stars": 1,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "3c8e4574b82663dc1da763488a599653d7fbfa9a",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 44,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:41Z",
+  "verification_level": "scanner_only"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "mcp-alchemy-d4ee75d2",
+  "name": "mcp-alchemy",
+  "description": "A MCP (model context protocol) server that gives the LLM access to and knowledge about relational databases like SQLite, Postgresql, MySQL & MariaDB, Oracle, and MS-SQL.",
+  "repo_url": "https://github.com/runekaagaard/mcp-alchemy",
+  "source_hub": "mcp_so",
+  "owner": "runekaagaard",
+  "stars": 393,
+  "primary_language": "unknown",
+  "tags": [
+    "data",
+    "data-ai",
+    "data-ai-nlp",
+    "data-db"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 9,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-27T02:28:45Z",
+  "verification_level": "scanner_only"
+}

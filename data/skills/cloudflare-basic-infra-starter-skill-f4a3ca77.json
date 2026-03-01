@@ -1,0 +1,28 @@
+{
+  "id": "cloudflare-basic-infra-starter-skill-f4a3ca77",
+  "name": "cloudflare-basic-infra-starter-skill",
+  "description": "AI coding agent skill encapsulating all the kerfuffle needed to get a basic Cloudflare proejct going that I've used in past projects. D1 for storage, Workers, etc",
+  "repo_url": "https://github.com/boxabirds/cloudflare-basic-infra-starter-skill",
+  "source_hub": "github_search",
+  "skill_type": "agent_skill",
+  "owner": "boxabirds",
+  "stars": 0,
+  "license": "apache-2.0",
+  "primary_language": "markdown",
+  "tags": [
+    "data-ai",
+    "integ-cloud",
+    "util-file"
+  ],
+  "verification_status": "manual_review",
+  "overall_score": 68,
+  "risk_level": "medium",
+  "verified_commit": null,
+  "scan_summary": null,
+  "last_updated": "2026-02-24T21:26:56Z",
+  "findings_summary": {
+    "notes": "Metadata-based verification. Score=68. Signals: stars=0 (-10); license='apache-2.0' (+5); owner='boxabirds' (+3); primary_language='markdown'; source_hub='github_search'. Status: manual_review. Risk: medium."
+  },
+  "trust_level": "low",
+  "scan_date": "2026-02-26T06:14:56Z"
+}

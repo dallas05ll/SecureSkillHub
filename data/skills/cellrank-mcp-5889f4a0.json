@@ -1,0 +1,26 @@
+{
+  "id": "cellrank-mcp-5889f4a0",
+  "name": "cellrank-mcp",
+  "description": "MCP server for trajectory inference using cellrank",
+  "repo_url": "https://github.com/scmcphub/cellrank-mcp",
+  "source_hub": "mcp_so",
+  "owner": "scmcphub",
+  "stars": 2,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "484531ca20de45dcb5565d800202326e724c1e5a",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 17,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:04:51Z",
+  "verification_level": "scanner_only"
+}

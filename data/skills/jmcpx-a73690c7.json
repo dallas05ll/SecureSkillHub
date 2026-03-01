@@ -1,0 +1,26 @@
+{
+  "id": "jmcpx-a73690c7",
+  "name": "jmcpx",
+  "description": "CLI client for interacting with MCP servers.",
+  "repo_url": "https://github.com/Ernyoke/jmcpx",
+  "source_hub": "mcp_so",
+  "owner": "Ernyoke",
+  "stars": 1,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "c78277689b48b2e8fbc884fc1eb0fe18fa27fa4a",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 1,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:40Z",
+  "verification_level": "scanner_only"
+}

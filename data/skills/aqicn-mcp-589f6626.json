@@ -1,0 +1,26 @@
+{
+  "id": "aqicn-mcp-589f6626",
+  "name": "aqicn-mcp",
+  "description": "An MCP server to get Air Quality Data using AQICN.org",
+  "repo_url": "https://github.com/mattmarcin/aqicn-mcp",
+  "source_hub": "mcp_so",
+  "owner": "mattmarcin",
+  "stars": 1,
+  "primary_language": "unknown",
+  "tags": [
+    "data",
+    "data-ai"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "44d7d9ffcff934fe722b201b350776855579af62",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 4,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:41Z",
+  "verification_level": "scanner_only"
+}

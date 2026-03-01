@@ -1,0 +1,29 @@
+{
+  "id": "knotie-ai-mcp-02668695",
+  "name": "knotie-ai-mcp",
+  "description": "The Model Context Protocol (MCP) server that enables AI agents like Claude Desktop to interact with the Knotie AI Pro platform for automated customer and voice AI agent management.",
+  "repo_url": "https://github.com/avijeett007/knotie-ai-mcp",
+  "source_hub": "mcp_so",
+  "owner": "avijeett007",
+  "stars": 2,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-audio",
+    "data-ai-nlp",
+    "integ-crm",
+    "prod"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "c3f39c32065b2a205216b1058d561fba2451de48",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 9,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:04:50Z",
+  "verification_level": "scanner_only"
+}

@@ -1,0 +1,26 @@
+{
+  "id": "tiger-fe5255f1",
+  "name": "tiger",
+  "description": "The Tiger MCP server provides mcp tools for managing and querying Postgres database services on tiger cloud. Tiger cloud is the best PostgreSQL cloud provider for Developers,\r\nDevices, and Agents. It provides TimescaleDB, which optimizes Postgres for insert-heavy workloads like time-series, events, transactions, and append-mostly datasets.",
+  "repo_url": "https://github.com/Tiger Data/tiger",
+  "source_hub": "mcp_so",
+  "owner": "Tiger Data",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "data",
+    "data-db",
+    "dev",
+    "integ-cloud",
+    "util",
+    "repo_unavailable"
+  ],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null,
+  "repo_status": "unavailable",
+  "repo_check_date": "2026-02-28T20:53:01.643366+00:00",
+  "repo_check_error": "fatal: unable to access 'https://github.com/Tiger Data/tiger/': URL rejected: Malformed input to a URL function"
+}

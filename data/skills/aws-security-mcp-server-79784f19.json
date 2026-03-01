@@ -1,0 +1,28 @@
+{
+  "id": "aws-security-mcp-server-79784f19",
+  "name": "aws-security-mcp-server",
+  "description": "Query your AWS environment with natural language.",
+  "repo_url": "https://github.com/skjortan23/aws-security-mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "skjortan23",
+  "stars": 7,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai-nlp",
+    "integ-cloud",
+    "integ-cloud-aws",
+    "sec"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "f31ce69bb5b4719cfaecdc082e7c384258276fc8",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 5,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:54:04Z",
+  "verification_level": "scanner_only"
+}

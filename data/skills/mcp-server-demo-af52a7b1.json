@@ -1,0 +1,27 @@
+{
+  "id": "mcp-server-demo-af52a7b1",
+  "name": "mcp-server-demo",
+  "description": "Demo repository for MCP (Model Context Protocol) server integration",
+  "repo_url": "https://github.com/Manobhiramlol/mcp-server-demo",
+  "source_hub": "mcp_so",
+  "owner": "Manobhiramlol",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp",
+    "integ"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "c9d3e7cc74d1d84dbe5ad8511ab4c4a1fe4c34a1",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 4,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:40Z",
+  "verification_level": "scanner_only"
+}

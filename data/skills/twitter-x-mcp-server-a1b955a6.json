@@ -1,0 +1,31 @@
+{
+  "id": "twitter-x-mcp-server-a1b955a6",
+  "name": "twitter-X-mcp-server",
+  "description": "X Tools for Claude MCP: A lightweight toolkit enabling Claude to search Twitter with natural language and display results based on user intent. Get raw tweet data or AI analysis—your choice. Supports advanced Twitter search operators with filters for users, dates, and engagement metrics. Seamlessly integrates with Claude Desktop via MCP.",
+  "repo_url": "https://github.com/0xGval/twitter-X-mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "0xGval",
+  "stars": 16,
+  "primary_language": "unknown",
+  "tags": [
+    "data",
+    "data-ai",
+    "data-ai-nlp",
+    "integ-social",
+    "util",
+    "util-monitor",
+    "util-search"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "80d014552da138276ee0e79944093dc8978a6bbe",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 6,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:42:34Z",
+  "verification_level": "scanner_only"
+}

@@ -1,0 +1,34 @@
+{
+  "id": "claude-reflect-9910d2c7",
+  "name": "claude-reflect",
+  "description": "A self-learning system for Claude Code that captures user corrections and workflow patterns via hooks, then syncs learnings to CLAUDE.md and AGENTS.md through a manual review process. Includes SKILL.md, slash commands (/reflect, /reflect-skills, /skip-reflect, /view-queue), and Python hook scripts.",
+  "repo_url": "https://github.com/BayramAnnakov/claude-reflect",
+  "source_hub": "github_search",
+  "skill_type": "agent_skill",
+  "owner": "BayramAnnakov",
+  "stars": 742,
+  "license": "mit",
+  "primary_language": "Python",
+  "tags": [
+    "data-ai",
+    "dev",
+    "dev-web-backend-python",
+    "prod"
+  ],
+  "verification_status": "pass",
+  "overall_score": 82,
+  "risk_level": "low",
+  "verified_commit": null,
+  "findings_summary": {
+    "has_readme": true,
+    "has_security_policy": false,
+    "has_mcp_server": false,
+    "dangerous_patterns": [],
+    "notes": "Well-engineered skill with transparent hook usage. Four hooks are registered: UserPromptSubmit (capture_learning.py — reads prompt from stdin, appends to ~/.claude/learnings-queue.json), PreCompact (check_learnings.py), PostToolUse/Bash (post_commit_reminder.py), and SessionStart (session_start_reminder.py). All scripts are readable Python that operate only on local CLAUDE.md/queue files. No network calls, no exfiltration, corrections are queued for human review before being applied. Includes a full test suite (160 passing per README). MIT licensed. SKILL.md is well-structured with clear trigger descriptions. Changelog and distribution docs present. Minor gap: no SECURITY.md. Overall a high-quality, trustworthy skill."
+  },
+  "scan_summary": null,
+  "last_updated": "2026-02-25T22:16:39Z",
+  "trust_level": "low",
+  "scan_date": "2026-02-26T02:04:40Z",
+  "verification_level": "scanner_only"
+}

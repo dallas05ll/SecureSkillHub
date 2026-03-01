@@ -1,0 +1,27 @@
+{
+  "id": "modelcontextprotocol--registry",
+  "name": "registry",
+  "skill_type": "mcp_server",
+  "repo_url": "https://github.com/modelcontextprotocol/registry",
+  "source_hub": "github_search",
+  "stars": 6473,
+  "verification_status": "pass",
+  "overall_score": 95,
+  "risk_level": "low",
+  "description": "Community-driven registry service for MCP servers, providing app-store-like directory with publishing, validation, and auth.",
+  "primary_language": "Go",
+  "tags": [
+    "prod-comm",
+    "sec"
+  ],
+  "findings_summary": {
+    "has_readme": true,
+    "has_security_policy": true,
+    "has_mcp_server": true,
+    "dangerous_patterns": [],
+    "notes": "Official MCP org. Maintainers from Anthropic, GitHub, PulseMCP, Stacklok. GitHub OAuth/OIDC/DNS auth. SECURITY.md present."
+  },
+  "trust_level": "low",
+  "scan_date": "2026-02-26T03:00:50Z",
+  "verification_level": "scanner_only"
+}

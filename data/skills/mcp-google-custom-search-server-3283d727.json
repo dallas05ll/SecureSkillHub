@@ -1,0 +1,27 @@
+{
+  "id": "mcp-google-custom-search-server-3283d727",
+  "name": "mcp-google-custom-search-server",
+  "description": "An mcp server for searching against google custom search api",
+  "repo_url": "https://github.com/alexatnordnet/mcp-google-custom-search-server",
+  "source_hub": "mcp_so",
+  "owner": "alexatnordnet",
+  "stars": 41,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "integ",
+    "util-search"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "27b8ba58daab905b88cbd580749ada8cc8f48f22",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 7,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:32:11Z",
+  "verification_level": "scanner_only"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "zotero-mcp-c485e766",
+  "name": "zotero-mcp",
+  "description": "Model Context Protocol (MCP) server for the Zotero API, in Python",
+  "repo_url": "https://github.com/kujenga/zotero-mcp",
+  "source_hub": "mcp_so",
+  "owner": "kujenga",
+  "stars": 132,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp",
+    "dev-web-backend-python",
+    "integ"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "db1aa904b72db4ef645b4a57197883d2e967bd0d",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 10,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-27T06:40:44Z",
+  "verification_level": "scanner_only"
+}

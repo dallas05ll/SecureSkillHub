@@ -1,0 +1,26 @@
+{
+  "id": "monkdb-mcp-101c7ab4",
+  "name": "monkdb-mcp",
+  "description": "An MCP server 🚀 for MonkDB, licensed under Apache 2.0 📜",
+  "repo_url": "https://github.com/monkdbofficial/monkdb-mcp",
+  "source_hub": "mcp_so",
+  "owner": "monkdbofficial",
+  "stars": 2,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "a6b71ee7abe202b646c2ce395f1c44c426200164",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 20,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:04:50Z",
+  "verification_level": "scanner_only"
+}

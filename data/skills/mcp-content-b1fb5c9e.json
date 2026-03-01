@@ -1,0 +1,27 @@
+{
+  "id": "mcp-content-b1fb5c9e",
+  "name": "mcp_content",
+  "description": "Repositório com um MCP-Server que gera ideias de posts para blog, YouTube ou redes sociais",
+  "repo_url": "https://github.com/marioluciofjr/mcp_content",
+  "source_hub": "mcp_so",
+  "owner": "marioluciofjr",
+  "stars": 3,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "integ-social",
+    "util-media"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "6d195216c8297c6ebd65b47bb83fb313c7e8cab4",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 5,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:04:51Z",
+  "verification_level": "scanner_only"
+}

@@ -1,0 +1,25 @@
+{
+  "id": "mcp-server-test-cea76b58",
+  "name": "mcp-server-test",
+  "description": "MCP Server Test Repository",
+  "repo_url": "https://github.com/rainemng/mcp-server-test",
+  "source_hub": "mcp_so",
+  "owner": "rainemng",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "dev-testing"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "6397be841078ed86fcf6bb9e9a220fcd03dafc7e",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 1,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:40Z",
+  "verification_level": "scanner_only"
+}

@@ -1,0 +1,26 @@
+{
+  "id": "remote-mcp-server-c316dc90",
+  "name": "remote-mcp-server",
+  "description": "This is an example of a remote MCP server.",
+  "repo_url": "https://github.com/dmd0822/remote-mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "dmd0822",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "a44bffa8467c3e60aeba645eb71e0269494d748b",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 8,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:42Z",
+  "verification_level": "scanner_only"
+}

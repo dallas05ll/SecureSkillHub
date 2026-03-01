@@ -1,0 +1,26 @@
+{
+  "id": "mcp-server-calculator-a550776f",
+  "name": "mcp-server-calculator",
+  "description": "Example project showing how to build a simple MCP Server (and having it on Smithery!)",
+  "repo_url": "https://github.com/simonberner/mcp-server-calculator",
+  "source_hub": "mcp_so",
+  "owner": "simonberner",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "350ed58736a5f9294eb5919e0dda404b807aaa8f",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 6,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:40Z",
+  "verification_level": "scanner_only"
+}

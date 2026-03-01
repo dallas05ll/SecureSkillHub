@@ -1,0 +1,25 @@
+{
+  "id": "flux-www-ad2a12e5",
+  "name": "flux-www",
+  "description": "site and docs for flux mcp server",
+  "repo_url": "https://github.com/asrvd/flux-www",
+  "source_hub": "mcp_so",
+  "owner": "asrvd",
+  "stars": 2,
+  "primary_language": "unknown",
+  "tags": [
+    "prod-docs"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "b891605d9375ddc241ba2fe092d5774ee51021c2",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 20,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:04:51Z",
+  "verification_level": "scanner_only"
+}

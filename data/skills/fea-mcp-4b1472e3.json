@@ -1,0 +1,25 @@
+{
+  "id": "fea-mcp-4b1472e3",
+  "name": "FEA-MCP",
+  "description": "FEA AI MCP Server (for LUSAS, ETABS etc)",
+  "repo_url": "https://github.com/GreatApo/FEA-MCP",
+  "source_hub": "mcp_so",
+  "owner": "GreatApo",
+  "stars": 7,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "6025912c848e79d89c8161086da351ef07d808a0",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 7,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:54:02Z",
+  "verification_level": "scanner_only"
+}

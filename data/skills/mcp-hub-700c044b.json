@@ -1,0 +1,26 @@
+{
+  "id": "mcp-hub-700c044b",
+  "name": "mcp-hub",
+  "description": "A curated list of awesome Model Context Protocol (MCP) servers.",
+  "repo_url": "https://github.com/lobstercare/mcp-hub",
+  "source_hub": "mcp_so",
+  "owner": "lobstercare",
+  "stars": 59,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "13dce941da5532f5efea9d3c5c56e721c34efeb0",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 2,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-27T06:40:43Z",
+  "verification_level": "scanner_only"
+}

@@ -1,0 +1,25 @@
+{
+  "id": "apimatic-validator-mcp-1b811332",
+  "name": "apimatic-validator-mcp",
+  "description": "APIMatic Validator MCP Server for validating OpenAPI specs via APIMatic's API with MCP",
+  "repo_url": "https://github.com/apimatic/apimatic-validator-mcp",
+  "source_hub": "mcp_so",
+  "owner": "apimatic",
+  "stars": 7,
+  "primary_language": "unknown",
+  "tags": [
+    "integ"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "8e762bbd8efbfbc79553070b9e731d5a0f8df3a0",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 155,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:54:02Z",
+  "verification_level": "scanner_only"
+}

@@ -1,0 +1,26 @@
+{
+  "id": "malloy-mcp-server-44a1f349",
+  "name": "malloy-mcp-server",
+  "description": "An MCP Server for interacting with Malloy data models through the Malloy Publisher",
+  "repo_url": "https://github.com/namabile/malloy-mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "namabile",
+  "stars": 2,
+  "primary_language": "unknown",
+  "tags": [
+    "data",
+    "data-ai"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "3220562375fc486fe681d8d8adbc551da5162559",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 11,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:04:50Z",
+  "verification_level": "scanner_only"
+}

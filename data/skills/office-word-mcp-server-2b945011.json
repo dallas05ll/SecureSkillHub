@@ -1,0 +1,22 @@
+{
+  "id": "office-word-mcp-server-2b945011",
+  "name": "Office-Word-MCP-Server",
+  "description": "A Model Context Protocol (MCP) server for creating, reading, and manipulating Microsoft Word documents. This server enables AI assistants to work with Word documents through a standardized interface, providing rich document editing capabilities.",
+  "repo_url": "https://github.com/GongRzhe/Office-Word-MCP-Server",
+  "source_hub": "mcp_so",
+  "owner": "GongRzhe",
+  "stars": 1634,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp",
+    "prod-docs"
+  ],
+  "verification_status": "pass",
+  "overall_score": 68,
+  "risk_level": "low",
+  "verified_commit": null,
+  "scan_summary": null,
+  "scan_date": "2026-02-26T03:00:50Z",
+  "verification_level": "scanner_only"
+}

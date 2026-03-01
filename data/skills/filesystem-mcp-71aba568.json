@@ -1,0 +1,28 @@
+{
+  "id": "filesystem-mcp-71aba568",
+  "name": "filesystem-mcp",
+  "description": "Node.js Model Context Protocol (MCP) server providing secure, relative filesystem access for AI agents like Cline/Claude.",
+  "repo_url": "https://github.com/sylphlab/filesystem-mcp",
+  "source_hub": "mcp_so",
+  "owner": "sylphlab",
+  "stars": 6,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp",
+    "dev-web-backend-node",
+    "util-file"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "4b1acd69c28b66053449d1fcf717e33b8a77ca45",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 65,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:54:02Z",
+  "verification_level": "scanner_only"
+}

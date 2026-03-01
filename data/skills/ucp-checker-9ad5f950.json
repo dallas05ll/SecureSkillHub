@@ -1,0 +1,24 @@
+{
+  "id": "ucp-checker-9ad5f950",
+  "name": "ucp-checker",
+  "description": "Check if any domain supports Universal Commerce Protocol (UCP). Returns verification status, manifest version, capabilities, response latency, and AI bot access policies (GPTBot, ClaudeBot, Google-Extended). Enables agent-to-tool compatibility for agentic commerce workflows.",
+  "repo_url": "https://github.com/Benji Fisher/ucp-checker",
+  "source_hub": "mcp_so",
+  "owner": "Benji Fisher",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "prod",
+    "util",
+    "repo_unavailable"
+  ],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null,
+  "repo_status": "unavailable",
+  "repo_check_date": "2026-02-28T20:53:04.094479+00:00",
+  "repo_check_error": "fatal: unable to access 'https://github.com/Benji Fisher/ucp-checker/': URL rejected: Malformed input to a URL function"
+}

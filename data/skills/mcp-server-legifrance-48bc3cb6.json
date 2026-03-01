@@ -1,0 +1,26 @@
+{
+  "id": "mcp-server-legifrance-48bc3cb6",
+  "name": "mcp-server-legifrance",
+  "description": "Legifrance MCP Server",
+  "repo_url": "https://github.com/rdassignies/mcp-server-legifrance",
+  "source_hub": "mcp_so",
+  "owner": "rdassignies",
+  "stars": 41,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "3c20aa7fc5a8b60d024f6276ca0f813ecb5d8d6f",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 3,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:32:11Z",
+  "verification_level": "scanner_only"
+}

@@ -1,0 +1,26 @@
+{
+  "id": "mcp-server-kalshi-d7c1c6d3",
+  "name": "mcp-server-kalshi",
+  "description": "A MCP server to interact with Kalshi prediction markets",
+  "repo_url": "https://github.com/9crusher/mcp-server-kalshi",
+  "source_hub": "mcp_so",
+  "owner": "9crusher",
+  "stars": 17,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "32c83ef9f086ce47165d48ed9cc6ac535d938f3d",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 13,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:42:34Z",
+  "verification_level": "scanner_only"
+}

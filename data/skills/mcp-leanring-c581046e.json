@@ -1,0 +1,25 @@
+{
+  "id": "mcp-leanring-c581046e",
+  "name": "mcp_leanring",
+  "description": "mcp example from webset",
+  "repo_url": "https://github.com/zhkzly/mcp_leanring",
+  "source_hub": "mcp_so",
+  "owner": "zhkzly",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "b173d059d206c0ee47500bc839211170c7f63c17",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 9,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:42Z",
+  "verification_level": "scanner_only"
+}

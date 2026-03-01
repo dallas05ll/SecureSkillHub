@@ -1,0 +1,25 @@
+{
+  "id": "devdocs-mcp-5c490c73",
+  "name": "devdocs-mcp",
+  "description": "An MCP server inspired by devocs.io",
+  "repo_url": "https://github.com/llmian-space/devdocs-mcp",
+  "source_hub": "mcp_so",
+  "owner": "llmian-space",
+  "stars": 9,
+  "primary_language": "unknown",
+  "tags": [
+    "prod-docs"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "8af0fcb732d16bbe10c07887f4bcd57a4ab132fb",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 9,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:42:34Z",
+  "verification_level": "scanner_only"
+}

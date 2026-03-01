@@ -1,0 +1,26 @@
+{
+  "id": "sonarqube-mcp-server-a4855a8d",
+  "name": "sonarqube-mcp-server",
+  "description": "Model Context Protocol (MCP) server for SonarQube",
+  "repo_url": "https://github.com/sapientpants/sonarqube-mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "sapientpants",
+  "stars": 100,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "65c7c48ab01471dd6f09f23b3ba551d586e6781c",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 1,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-27T06:40:43Z",
+  "verification_level": "scanner_only"
+}

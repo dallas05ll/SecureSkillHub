@@ -1,0 +1,27 @@
+{
+  "id": "mcp-synaptic-8b39caa5",
+  "name": "mcp-synaptic",
+  "description": "Memory-enhanced MCP server with local RAG database and expiring memory capabilities",
+  "repo_url": "https://github.com/jvanmelckebeke/mcp-synaptic",
+  "source_hub": "mcp_so",
+  "owner": "jvanmelckebeke",
+  "stars": 3,
+  "primary_language": "unknown",
+  "tags": [
+    "data",
+    "data-db",
+    "prod-notes"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "9431d30c1b8265683f504688596ef4890ee19c99",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 78,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:04:51Z",
+  "verification_level": "scanner_only"
+}

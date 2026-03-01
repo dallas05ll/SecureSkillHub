@@ -1,0 +1,28 @@
+{
+  "id": "goscry-00bb6d16",
+  "name": "goscry",
+  "description": "GoScry is a server application written in Go that acts as a bridge between a controlling system (like an LLM or script) and a web browser.",
+  "repo_url": "https://github.com/copyleftdev/goscry",
+  "source_hub": "mcp_so",
+  "owner": "copyleftdev",
+  "stars": 1,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "dev-web",
+    "dev-web-backend-go",
+    "util-search"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "8ac97ea826adf0d74bcb9070fd9a77173aaa2ae6",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 12,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:40Z",
+  "verification_level": "scanner_only"
+}

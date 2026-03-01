@@ -1,0 +1,25 @@
+{
+  "id": "mcp-bear-d70b80d4",
+  "name": "mcp-bear",
+  "description": "A MCP server for interacting with Bear note-taking software.",
+  "repo_url": "https://github.com/jkawamoto/mcp-bear",
+  "source_hub": "mcp_so",
+  "owner": "jkawamoto",
+  "stars": 67,
+  "primary_language": "unknown",
+  "tags": [
+    "prod-notes"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "ce033e4e955cec85c51784c151e653a14d11ace2",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 12,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-27T06:40:44Z",
+  "verification_level": "scanner_only"
+}

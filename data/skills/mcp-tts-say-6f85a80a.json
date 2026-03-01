@@ -1,0 +1,27 @@
+{
+  "id": "mcp-tts-say-6f85a80a",
+  "name": "mcp-tts-say",
+  "description": "MCP Server Tool for Text To Speech",
+  "repo_url": "https://github.com/hirokidaichi/mcp-tts-say",
+  "source_hub": "mcp_so",
+  "owner": "hirokidaichi",
+  "stars": 6,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai-audio",
+    "data-ai-nlp",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "66d85ddfdba64c69d5d8400bfe46ada5f9eb82b3",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 17,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:54:02Z",
+  "verification_level": "scanner_only"
+}

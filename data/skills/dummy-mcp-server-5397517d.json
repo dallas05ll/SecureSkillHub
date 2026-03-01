@@ -1,0 +1,26 @@
+{
+  "id": "dummy-mcp-server-5397517d",
+  "name": "dummy_mcp_server",
+  "description": "n8n을 위한 sse 기반 mcp server 입니다.",
+  "repo_url": "https://github.com/restful3/dummy_mcp_server",
+  "source_hub": "mcp_so",
+  "owner": "restful3",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "93bf4daf61ecda35e2d11f4ed0d79977f13fbdad",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 8,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:41Z",
+  "verification_level": "scanner_only"
+}

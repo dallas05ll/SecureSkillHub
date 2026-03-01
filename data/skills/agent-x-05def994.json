@@ -1,0 +1,25 @@
+{
+  "id": "agent-x-05def994",
+  "name": "AGENT-X",
+  "description": "AI AGENT BUILT WITH MCP SERVER",
+  "repo_url": "https://github.com/karmveershubham/AGENT-X",
+  "source_hub": "mcp_so",
+  "owner": "karmveershubham",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "98ec77f2b83be1d084266c55332e12e6df8018f0",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 8,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:40Z",
+  "verification_level": "scanner_only"
+}

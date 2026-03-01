@@ -1,0 +1,26 @@
+{
+  "id": "quip-mcp-server-e3f40520",
+  "name": "quip-mcp-server",
+  "description": "quip mcp server",
+  "repo_url": "https://github.com/AvinashBole/quip-mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "AvinashBole",
+  "stars": 5,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "75c2abab46c163ec5fb594315dc9d498785742fd",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 7,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:54:02Z",
+  "verification_level": "scanner_only"
+}

@@ -1,0 +1,25 @@
+{
+  "id": "sgrep-1f785263",
+  "name": "sgrep",
+  "description": "CLI for semantic grep",
+  "repo_url": "https://github.com/XiaoConstantine/sgrep",
+  "source_hub": "github_search",
+  "skill_type": "agent_skill",
+  "owner": "XiaoConstantine",
+  "stars": 8,
+  "license": "apache-2.0",
+  "primary_language": "markdown",
+  "tags": [],
+  "verification_status": "pass",
+  "overall_score": 78,
+  "risk_level": "medium",
+  "verified_commit": null,
+  "scan_summary": null,
+  "last_updated": "2026-01-29T12:28:18Z",
+  "findings_summary": {
+    "notes": "Metadata-based verification. Score=78. Signals: stars=8; license='apache-2.0' (+5); owner='XiaoConstantine' (+3); primary_language='markdown'; source_hub='github_search'. Status: pass. Risk: medium."
+  },
+  "trust_level": "low",
+  "scan_date": "2026-02-26T06:14:56Z",
+  "verification_level": "metadata_only"
+}

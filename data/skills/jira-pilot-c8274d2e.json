@@ -1,0 +1,27 @@
+{
+  "id": "jira-pilot-c8274d2e",
+  "name": "jira-pilot",
+  "description": "AI-powered Jira CLI and MCP server for humans and agents to manage issues, sprints, boards with interactive wizards, multi-provider AI (OpenAI/Gemini/Anthropic), and a 14-tool MCP server for AI assistants",
+  "repo_url": "https://github.com/Aarul5/jira-pilot",
+  "source_hub": "mcp_so",
+  "owner": "Aarul5",
+  "stars": 2,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "prod-pm",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "f728832be4b8e573e0f80d0015f7c4b7eef01039",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 64,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:04:51Z",
+  "verification_level": "scanner_only"
+}

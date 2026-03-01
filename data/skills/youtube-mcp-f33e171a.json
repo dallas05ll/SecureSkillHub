@@ -1,0 +1,32 @@
+{
+  "id": "youtube-mcp-f33e171a",
+  "name": "Youtube-MCP",
+  "description": "YouTube MCP Server is an AI-powered solution designed to revolutionize your YouTube experience. It empowers users to search for YouTube videos, retrieve detailed transcripts, and perform semantic searches over video content—all without relying on the official API. By integrating with a vector database, this server streamlines content discovery.",
+  "repo_url": "https://github.com/IA-Programming/Youtube-MCP",
+  "source_hub": "mcp_so",
+  "owner": "IA-Programming",
+  "stars": 10,
+  "primary_language": "unknown",
+  "tags": [
+    "data",
+    "data-ai",
+    "data-db",
+    "data-db-vector",
+    "integ",
+    "integ-social",
+    "util-media",
+    "util-search"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "d881b90116700e5e00069a7a74aaf7c0d18693a1",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 3,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:42:34Z",
+  "verification_level": "scanner_only"
+}

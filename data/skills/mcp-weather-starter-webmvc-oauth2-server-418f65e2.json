@@ -1,0 +1,27 @@
+{
+  "id": "mcp-weather-starter-webmvc-oauth2-server-418f65e2",
+  "name": "mcp-weather-starter-webmvc-oauth2-server",
+  "description": "Forked from",
+  "repo_url": "https://github.com/akshay12390/mcp-weather-starter-webmvc-oauth2-server",
+  "source_hub": "mcp_so",
+  "owner": "akshay12390",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "sec",
+    "sec-auth"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "a8096ad6dfe149f6d9f72b4915a6762e821d126b",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 5,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:40Z",
+  "verification_level": "scanner_only"
+}

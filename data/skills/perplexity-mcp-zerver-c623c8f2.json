@@ -1,0 +1,26 @@
+{
+  "id": "perplexity-mcp-zerver-c623c8f2",
+  "name": "perplexity-mcp-zerver",
+  "description": "MCP web search using perplexity without any API KEYS",
+  "repo_url": "https://github.com/wysh3/perplexity-mcp-zerver",
+  "source_hub": "mcp_so",
+  "owner": "wysh3",
+  "stars": 73,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "util-search"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "3e316abed14c28af2e4dbd1b0ce510c56b396e40",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 46,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-27T06:40:43Z",
+  "verification_level": "scanner_only"
+}

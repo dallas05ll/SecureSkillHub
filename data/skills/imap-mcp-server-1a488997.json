@@ -1,0 +1,28 @@
+{
+  "id": "imap-mcp-server-1a488997",
+  "name": "imap-mcp-server",
+  "description": "An IMAP Model Context Protocol server implementation that enables email interaction through MCP.",
+  "repo_url": "https://github.com/djaboxx/imap-mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "djaboxx",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp",
+    "prod-comm",
+    "util-map"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "f28312bbc646c22d9201ee3522127eb8479af14a",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 1,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:42Z",
+  "verification_level": "scanner_only"
+}

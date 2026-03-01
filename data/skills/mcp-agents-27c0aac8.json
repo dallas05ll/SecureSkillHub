@@ -1,0 +1,26 @@
+{
+  "id": "mcp-agents-27c0aac8",
+  "name": "mcp-agents",
+  "description": "A curated list of essential MCP servers that I created for personal use. Feel free to use them.",
+  "repo_url": "https://github.com/omar391/mcp-agents",
+  "source_hub": "mcp_so",
+  "owner": "omar391",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "4b420d485929e00bb1cead00704bf7e1266d964d",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 20,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:42Z",
+  "verification_level": "scanner_only"
+}

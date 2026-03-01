@@ -1,0 +1,27 @@
+{
+  "id": "contextlattice-73b2000b",
+  "name": "contextlattice",
+  "description": "Private-by-default local-first MCP memory context task orchestrator for long-horizon work across agents and apps.",
+  "repo_url": "https://github.com/sheawinkler/contextlattice",
+  "source_hub": "mcp_so",
+  "owner": "sheawinkler",
+  "stars": 1,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai-nlp",
+    "prod-notes",
+    "prod-pm"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "e699e63747b2557368dc44530fd5a316ac677553",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 319,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:41Z",
+  "verification_level": "scanner_only"
+}

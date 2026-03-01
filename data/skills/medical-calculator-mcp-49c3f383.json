@@ -1,0 +1,26 @@
+{
+  "id": "medical-calculator-mcp-49c3f383",
+  "name": "Medical_calculator_MCP",
+  "description": "MCP server for medical calculations",
+  "repo_url": "https://github.com/johnyquest7/Medical_calculator_MCP",
+  "source_hub": "mcp_so",
+  "owner": "johnyquest7",
+  "stars": 2,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "f677e7bd4e1b19bd75c882689c2ea990545123ad",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 2,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:04:51Z",
+  "verification_level": "scanner_only"
+}

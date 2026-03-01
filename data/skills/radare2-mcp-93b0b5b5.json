@@ -1,0 +1,26 @@
+{
+  "id": "radare2-mcp-93b0b5b5",
+  "name": "radare2-mcp",
+  "description": "MCP stdio server for radare2",
+  "repo_url": "https://github.com/radareorg/radare2-mcp",
+  "source_hub": "mcp_so",
+  "owner": "radareorg",
+  "stars": 153,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "66e8730a6758a7225a829a9fb1825ccf0c9ba428",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 12,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-27T06:36:35Z",
+  "verification_level": "scanner_only"
+}

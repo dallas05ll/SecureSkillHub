@@ -1,0 +1,28 @@
+{
+  "id": "using-firebase-9465c739",
+  "name": "using-firebase",
+  "description": "User Firebase Skill for using the command line and developing in Python and Typescript ",
+  "repo_url": "https://github.com/SpillwaveSolutions/using-firebase",
+  "source_hub": "github_search",
+  "skill_type": "agent_skill",
+  "owner": "SpillwaveSolutions",
+  "stars": 2,
+  "license": "",
+  "primary_language": "markdown",
+  "tags": [
+    "data-db",
+    "dev-web-backend-python"
+  ],
+  "verification_status": "pass",
+  "overall_score": 73,
+  "risk_level": "medium",
+  "verified_commit": null,
+  "scan_summary": null,
+  "last_updated": "2026-02-16T00:21:45Z",
+  "findings_summary": {
+    "notes": "Metadata-based verification. Score=73. Signals: stars=2; no license detected; owner='SpillwaveSolutions' (+3); primary_language='markdown'; source_hub='github_search'. Status: pass. Risk: medium."
+  },
+  "trust_level": "low",
+  "scan_date": "2026-02-26T06:14:56Z",
+  "verification_level": "metadata_only"
+}

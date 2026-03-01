@@ -1,0 +1,26 @@
+{
+  "id": "springinitializr-mcp-3701a785",
+  "name": "springinitializr-mcp",
+  "description": "MCP server for Spring Initializr",
+  "repo_url": "https://github.com/hpalma/springinitializr-mcp",
+  "source_hub": "mcp_so",
+  "owner": "hpalma",
+  "stars": 4,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "75e2c4d571782c919eaadd42a0694c39139d9cf5",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 3,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:04:51Z",
+  "verification_level": "scanner_only"
+}

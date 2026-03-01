@@ -1,0 +1,25 @@
+{
+  "id": "mcp-metaso-e76579be",
+  "name": "mcp-metaso",
+  "description": "秘塔搜索api的非官方mcp封装",
+  "repo_url": "https://github.com/HundunOnline/mcp-metaso",
+  "source_hub": "mcp_so",
+  "owner": "HundunOnline",
+  "stars": 13,
+  "primary_language": "unknown",
+  "tags": [
+    "integ"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "8f4e8e4b19cc2a0cb167636658d75a4585bea523",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 11,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:42:36Z",
+  "verification_level": "scanner_only"
+}

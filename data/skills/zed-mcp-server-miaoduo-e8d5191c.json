@@ -1,0 +1,26 @@
+{
+  "id": "zed-mcp-server-miaoduo-e8d5191c",
+  "name": "zed-mcp-server-miaoduo",
+  "description": "miaoduo mcp server extension for zed editor",
+  "repo_url": "https://github.com/benmooo/zed-mcp-server-miaoduo",
+  "source_hub": "mcp_so",
+  "owner": "benmooo",
+  "stars": 2,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "89f1e9492c8ebdb3a49975af391b6f203119841c",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 4,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:41Z",
+  "verification_level": "scanner_only"
+}

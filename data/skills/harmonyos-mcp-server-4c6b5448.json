@@ -1,0 +1,26 @@
+{
+  "id": "harmonyos-mcp-server-4c6b5448",
+  "name": "HarmonyOS-mcp-server",
+  "description": "MCP server for manipulating HarmonyOS next devices.",
+  "repo_url": "https://github.com/XixianLiang/HarmonyOS-mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "XixianLiang",
+  "stars": 28,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "919425d6b170286aed1003a900057d7957f160c1",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 15,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:32:11Z",
+  "verification_level": "scanner_only"
+}

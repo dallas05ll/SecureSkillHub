@@ -1,0 +1,26 @@
+{
+  "id": "spotify-mcp-85664514",
+  "name": "spotify-mcp",
+  "description": "A spotify MCP server",
+  "repo_url": "https://github.com/richbai90/spotify-mcp",
+  "source_hub": "mcp_so",
+  "owner": "richbai90",
+  "stars": 1,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "4203dfa06e487c1904e589f0b9ad691a0e44d821",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 11,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:41Z",
+  "verification_level": "scanner_only"
+}

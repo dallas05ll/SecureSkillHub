@@ -1,0 +1,25 @@
+{
+  "id": "mcp-sequentialthinking-tools-7ba2c6da",
+  "name": "mcp-sequentialthinking-tools",
+  "description": "🧠 An adaptation of the MCP Sequential Thinking Server to guide tool usage. This server provides recommendations for which MCP tools would be most effective at each stage.",
+  "repo_url": "https://github.com/spences10/mcp-sequentialthinking-tools",
+  "source_hub": "mcp_so",
+  "owner": "spences10",
+  "stars": 566,
+  "primary_language": "unknown",
+  "tags": [
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 9,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-27T02:28:45Z",
+  "verification_level": "scanner_only"
+}

@@ -1,0 +1,27 @@
+{
+  "id": "mcp-window-screenshooter-89c91927",
+  "name": "mcp-window-screenshooter",
+  "description": "A cross-platform Model Context Protocol (MCP) server that enables AI agents to capture screenshots of specific application windows!",
+  "repo_url": "https://github.com/Tiartyos/mcp-window-screenshooter",
+  "source_hub": "mcp_so",
+  "owner": "Tiartyos",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp",
+    "data-ai-vision"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "1d258722de41bc93535c3593b80d1e8ff75e6874",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 10,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:40Z",
+  "verification_level": "scanner_only"
+}

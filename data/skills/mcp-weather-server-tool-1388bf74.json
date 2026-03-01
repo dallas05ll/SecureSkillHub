@@ -1,0 +1,30 @@
+{
+  "id": "mcp-weather-server-tool-1388bf74",
+  "name": "mcp-weather-server-tool",
+  "description": "A specialized weather data server built using the MCP SDK and TypeScript that provides weather information through the Model Context Protocol (MCP). This project enables Large Language Models that support MCP to access weather data directly, creating a seamless integration between AI systems and real-time weather information.",
+  "repo_url": "https://github.com/nosadaniel/mcp-weather-server-tool",
+  "source_hub": "mcp_so",
+  "owner": "nosadaniel",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "data",
+    "data-ai",
+    "data-ai-nlp",
+    "dev",
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "7d89457ae14ab71fae2bfab7b96b0bf0aa3c6b67",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 9,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:42Z",
+  "verification_level": "scanner_only"
+}

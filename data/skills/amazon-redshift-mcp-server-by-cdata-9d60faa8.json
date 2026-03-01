@@ -1,0 +1,28 @@
+{
+  "id": "amazon-redshift-mcp-server-by-cdata-9d60faa8",
+  "name": "amazon-redshift-mcp-server-by-cdata",
+  "description": "This read-only MCP Server allows you to connect to Amazon Redshift data from Claude Desktop through CData JDBC Drivers. Free (beta) read/write servers available at",
+  "repo_url": "https://github.com/CDataSoftware/amazon-redshift-mcp-server-by-cdata",
+  "source_hub": "mcp_so",
+  "owner": "CDataSoftware",
+  "stars": 2,
+  "primary_language": "unknown",
+  "tags": [
+    "data",
+    "data-ai",
+    "integ",
+    "integ-cloud-aws"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "f0fd11e16c8ce3559336257f975b54d59c9215a0",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 1,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:04:51Z",
+  "verification_level": "scanner_only"
+}

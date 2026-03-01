@@ -1,0 +1,26 @@
+{
+  "id": "zulip-mcp-server-061e115c",
+  "name": "zulip-mcp-server",
+  "description": "unofficial zulip mcp server",
+  "repo_url": "https://github.com/avisekrath/zulip-mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "avisekrath",
+  "stars": 7,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "87b6ada45b0c8b508e34fff5061ea05e39f8482c",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 23,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:54:02Z",
+  "verification_level": "scanner_only"
+}

@@ -1,0 +1,25 @@
+{
+  "id": "mcp-server-weather-python-699170d0",
+  "name": "mcp-server-weather-python",
+  "description": "a mcp server for get weather.use python",
+  "repo_url": "https://github.com/yestarz/mcp-server-weather-python",
+  "source_hub": "mcp_so",
+  "owner": "yestarz",
+  "stars": 1,
+  "primary_language": "unknown",
+  "tags": [
+    "dev-web-backend-python"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "bbc5f2813f12579e014f9641e3b2501d4034d9c1",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 3,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:40Z",
+  "verification_level": "scanner_only"
+}

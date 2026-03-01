@@ -1,0 +1,26 @@
+{
+  "id": "ts-mcp-fa34cadb",
+  "name": "ts-mcp",
+  "description": "Super simple TanStack Start MCP server",
+  "repo_url": "https://github.com/jherr/ts-mcp",
+  "source_hub": "mcp_so",
+  "owner": "jherr",
+  "stars": 8,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "b71be9e7a3c6a3bd5f16d9fe5a090c6dc7513b37",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 18,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:54:04Z",
+  "verification_level": "scanner_only"
+}

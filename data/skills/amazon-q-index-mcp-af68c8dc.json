@@ -1,0 +1,26 @@
+{
+  "id": "amazon-q-index-mcp-af68c8dc",
+  "name": "amazon-q-index-mcp",
+  "description": "MCP Server using Amazon Q Business Cross App index",
+  "repo_url": "https://github.com/windson/amazon-q-index-mcp",
+  "source_hub": "mcp_so",
+  "owner": "windson",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "integ-cloud-aws",
+    "util-search"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "95f09dd3fca8c7b12f505ca1e1f2321dcda7f02a",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 11,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:42Z",
+  "verification_level": "scanner_only"
+}

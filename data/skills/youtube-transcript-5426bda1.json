@@ -1,0 +1,50 @@
+{
+  "id": "youtube-transcript-5426bda1",
+  "name": "YouTube Transcript",
+  "description": "Downloads and cleans YouTube video transcripts using yt-dlp with automatic deduplication. Falls back to Whisper transcription if no subtitles are available. Saves transcripts using the video title as filename.",
+  "repo_url": "https://github.com/michalparkola/tapestry-skills-for-claude-code/tree/main/youtube-transcript",
+  "source_hub": "claude_skills_hub",
+  "skill_type": "agent_skill",
+  "owner": "michalparkola",
+  "stars": 0,
+  "forks": 42,
+  "license": "mit",
+  "primary_language": "Shell",
+  "tags": [
+    "data-ai",
+    "data-ai-audio",
+    "integ-social",
+    "prod",
+    "util-file",
+    "util-media",
+    "repo_unavailable"
+  ],
+  "source_tags": [
+    "document-processing",
+    "coding",
+    "writing",
+    "video"
+  ],
+  "categories": [
+    "creative"
+  ],
+  "version": "1.0.0",
+  "requires_code_execution": true,
+  "verification_status": "pass",
+  "overall_score": 74,
+  "risk_level": "low",
+  "verified_commit": null,
+  "scan_summary": null,
+  "findings_summary": {
+    "notes": "Subdirectory youtube-transcript/ confirmed in michalparkola/tapestry-skills-for-claude-code (253 stars, MIT). SKILL.md present. Requires yt-dlp installation for YouTube access. Optional Whisper fallback requires OpenAI Whisper (local model). Contacts YouTube servers to download VTT transcripts - standard web scraping pattern. No API keys required for basic functionality. No malicious code found."
+  },
+  "last_updated": "2026-02-25T00:00:00Z",
+  "parent_repo_stars": 253,
+  "is_monorepo_child": true,
+  "trust_level": "medium",
+  "scan_date": "2026-02-26T03:00:51Z",
+  "repo_status": "unavailable",
+  "repo_check_date": "2026-02-28T20:53:12.127525+00:00",
+  "repo_check_error": "fatal: repository 'https://github.com/michalparkola/tapestry-skills-for-claude-code/tree/main/youtube-transcript/' not found",
+  "verification_level": "scanner_only"
+}

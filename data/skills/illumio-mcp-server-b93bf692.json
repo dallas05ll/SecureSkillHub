@@ -1,0 +1,25 @@
+{
+  "id": "illumio-mcp-server-b93bf692",
+  "name": "illumio-mcp-server",
+  "description": "The first MCP server for cybersecurity",
+  "repo_url": "https://github.com/alexgoller/illumio-mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "alexgoller",
+  "stars": 2,
+  "primary_language": "unknown",
+  "tags": [
+    "sec"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "c8918c614c71078b43f09ac8fc9801cf69553197",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 5,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:04:50Z",
+  "verification_level": "scanner_only"
+}

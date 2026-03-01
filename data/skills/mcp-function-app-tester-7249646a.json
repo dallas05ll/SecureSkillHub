@@ -1,0 +1,26 @@
+{
+  "id": "mcp-function-app-tester-7249646a",
+  "name": "mcp-function-app-tester",
+  "description": "A MCP Server to test local development of function app apis",
+  "repo_url": "https://github.com/dkmaker/mcp-function-app-tester",
+  "source_hub": "mcp_so",
+  "owner": "dkmaker",
+  "stars": 3,
+  "primary_language": "unknown",
+  "tags": [
+    "dev-testing",
+    "integ"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "366f975d88c9a61cdf7ccfff0339e9acd07f4d8f",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 6,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:04:50Z",
+  "verification_level": "scanner_only"
+}

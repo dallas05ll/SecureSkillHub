@@ -1,0 +1,25 @@
+{
+  "id": "mcp-firebird-72f18e5e",
+  "name": "mcp-firebird",
+  "description": "MCP Firebird is a server that implements Anthropic's Model Context Protocol (MCP) for Firebird SQL databases. It allows Large Language Models (LLMs) like Claude to access, analyze, and manipulate data in Firebird databases securely and in a controlled manner.",
+  "repo_url": "https://github.com/PuroDelphi/mcp-firebird",
+  "source_hub": "mcp_so",
+  "owner": "PuroDelphi",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "data",
+    "data-ai",
+    "data-ai-nlp",
+    "data-db",
+    "repo_unavailable"
+  ],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null,
+  "repo_status": "unavailable",
+  "repo_check_date": "2026-02-28T20:52:07.332230+00:00",
+  "repo_check_error": "fatal: could not read Username for 'https://github.com': Device not configured"
+}

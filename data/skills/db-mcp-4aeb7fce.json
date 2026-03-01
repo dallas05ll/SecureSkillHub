@@ -1,0 +1,26 @@
+{
+  "id": "db-mcp-4aeb7fce",
+  "name": "db-mcp",
+  "description": "Custom made MCP Server for Popular databases (Currently Supporting MYSQL)",
+  "repo_url": "https://github.com/tirthraj07/db-mcp",
+  "source_hub": "mcp_so",
+  "owner": "tirthraj07",
+  "stars": 1,
+  "primary_language": "unknown",
+  "tags": [
+    "data",
+    "data-db"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "47f2315b7a4f67c8f4bfc554fe2937bf5451209e",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 14,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:40Z",
+  "verification_level": "scanner_only"
+}

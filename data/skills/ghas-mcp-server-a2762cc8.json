@@ -1,0 +1,25 @@
+{
+  "id": "ghas-mcp-server-a2762cc8",
+  "name": "ghas-mcp-server",
+  "description": "MCP Server for GitHub Advanced Security",
+  "repo_url": "https://github.com/rajbos/ghas-mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "rajbos",
+  "stars": 5,
+  "primary_language": "unknown",
+  "tags": [
+    "sec"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "925859b0a734739ddf40f39ad579f3bb588ba152",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 10,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:54:02Z",
+  "verification_level": "scanner_only"
+}

@@ -1,0 +1,91 @@
+{
+  "id": "mcp-forge-de854ad9",
+  "name": "mcp_forge",
+  "description": "这是一个专为开发企业级MCP server而设计的通用开发框架",
+  "repo_url": "https://github.com/mlzoo/mcp_forge",
+  "source_hub": "mcp_so",
+  "owner": "mlzoo",
+  "stars": 196,
+  "primary_language": "python",
+  "tags": [
+    "integ",
+    "util",
+    "status-manual_review"
+  ],
+  "verification_status": "manual_review",
+  "overall_score": 100,
+  "risk_level": "high",
+  "verified_commit": "d6ecd11510ee90c544a5e0d3630c0bd981296b5d",
+  "scan_summary": null,
+  "scan_date": "2026-03-01T05:58:08Z",
+  "findings_summary": {
+    "scanner_findings": 9,
+    "dangerous_calls": 0,
+    "network_ops": 0,
+    "file_ops": 0,
+    "env_access": 0,
+    "obfuscation": 0,
+    "injection_patterns": 0,
+    "mismatches": 0,
+    "undocumented_capabilities": 0,
+    "supervisor_approved": false,
+    "supervisor_confidence": 95
+  },
+  "verification_level": "full_pipeline",
+  "agent_audit": {
+    "agents_completed": 5,
+    "agents_required": 5,
+    "pipeline_run_at": "2026-03-01T05:58:08Z",
+    "agent_a": {
+      "signed": true,
+      "signed_at": "2026-03-01T05:58:08Z",
+      "comment": "Docs quality 9/10. README present. 12 features, 4 permissions claimed.",
+      "doc_quality_score": 9,
+      "claimed_permissions": [
+        "network access",
+        "system command execution",
+        "file system access",
+        "environment/secret access"
+      ]
+    },
+    "agent_b": {
+      "signed": true,
+      "signed_at": "2026-03-01T05:58:08Z",
+      "comment": "5 files analyzed. Found: 0 network, 0 file, 0 env, 0 system calls. Primary: python.",
+      "files_analyzed": 5,
+      "capabilities_found": [
+        "imports external dependencies"
+      ]
+    },
+    "agent_c_star": {
+      "signed": true,
+      "signed_at": "2026-03-01T05:58:08Z",
+      "comment": "9 findings: 0 critical, 9 high, 0 medium, 0 low. No obfuscation. No injection.",
+      "total_findings": 9,
+      "severity_counts": {
+        "critical": 0,
+        "high": 9,
+        "medium": 0,
+        "low": 0,
+        "info": 0
+      }
+    },
+    "agent_d": {
+      "signed": true,
+      "signed_at": "2026-03-01T05:58:08Z",
+      "comment": "Score 100. 0 mismatches. Risk: high. Safety overrides: none triggered.",
+      "score": 100,
+      "mismatches": 0,
+      "safety_overrides_applied": false
+    },
+    "agent_e": {
+      "signed": true,
+      "signed_at": "2026-03-01T05:58:08Z",
+      "comment": "Rejected. Confidence 95%. No overrides.",
+      "approved": false,
+      "confidence": 95,
+      "override_reason": null
+    },
+    "manager_summary": "5/5 agents completed. Score: 100/100, Risk: high. 0 mismatches, 9 scanner findings. Rejected at 95% confidence. No safety overrides."
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "id": "random-tables-mcp-97b1ff23",
+  "name": "random-tables-mcp",
+  "description": "MCP server for generating dynamic random tables for tabletop RPGs with nested templates and weighted probabilities",
+  "repo_url": "https://github.com/MikeORed/random-tables-mcp",
+  "source_hub": "mcp_so",
+  "owner": "MikeORed",
+  "stars": 2,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "fa3230aae267fc0d871a054a3b5496d9ed768866",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 111,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:04:50Z",
+  "verification_level": "scanner_only"
+}

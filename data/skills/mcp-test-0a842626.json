@@ -1,0 +1,25 @@
+{
+  "id": "mcp-test-0a842626",
+  "name": "mcp-test",
+  "description": "GitHub MCP Server implementation and testing repository",
+  "repo_url": "https://github.com/tomo-cps/mcp-test",
+  "source_hub": "mcp_so",
+  "owner": "tomo-cps",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "dev-testing"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "494bc8c99cb2d9a720c6a81a1b84753bf63d63fb",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 2,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:42Z",
+  "verification_level": "scanner_only"
+}

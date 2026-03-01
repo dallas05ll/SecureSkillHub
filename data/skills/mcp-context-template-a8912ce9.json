@@ -1,0 +1,28 @@
+{
+  "id": "mcp-context-template-a8912ce9",
+  "name": "mcp-context-template",
+  "description": "🪱 MCP Context Template is a repository designed to centrally manage AI tools (MCP) to reduce context sharing costs and improve development productivity.",
+  "repo_url": "https://github.com/currenjin/mcp-context-template",
+  "source_hub": "mcp_so",
+  "owner": "currenjin",
+  "stars": 5,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp",
+    "prod",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "86aca69ab0c15d793a20fcc6cedbb46a5cb60360",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 11,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:54:02Z",
+  "verification_level": "scanner_only"
+}

@@ -1,0 +1,26 @@
+{
+  "id": "icici-direct-mcp-server-1fe7a5e1",
+  "name": "icici-direct-mcp-server",
+  "description": "learning",
+  "repo_url": "https://github.com/nicodishanthj/icici-direct-mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "nicodishanthj",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "cad3e3fd3cf0cadc9f6b8e6620a28a79564eb38e",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 1,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:41Z",
+  "verification_level": "scanner_only"
+}

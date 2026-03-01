@@ -1,0 +1,26 @@
+{
+  "id": "fs-mcp-4ba2c583",
+  "name": "fs-mcp",
+  "description": "A Go MCP server enabling file system interactions.",
+  "repo_url": "https://github.com/lealre/fs-mcp",
+  "source_hub": "mcp_so",
+  "owner": "lealre",
+  "stars": 1,
+  "primary_language": "unknown",
+  "tags": [
+    "dev-web-backend-go",
+    "util-file"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "c2e7bde099b1867a119d27b17b2d5d5dadab3458",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 2,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:40Z",
+  "verification_level": "scanner_only"
+}

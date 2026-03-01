@@ -1,0 +1,25 @@
+{
+  "id": "mcp-template-b1e6f9eb",
+  "name": "mcp_template",
+  "description": "A template for building mcp servers in python",
+  "repo_url": "https://github.com/chrisboden/mcp_template",
+  "source_hub": "mcp_so",
+  "owner": "chrisboden",
+  "stars": 5,
+  "primary_language": "unknown",
+  "tags": [
+    "dev-web-backend-python"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "7f59a046efb10be4de65d4eb63873bde927d5d90",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 11,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:54:02Z",
+  "verification_level": "scanner_only"
+}

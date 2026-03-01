@@ -1,0 +1,25 @@
+{
+  "id": "easymcp-f0db3f7a",
+  "name": "EasyMCP",
+  "description": "Support easy mcp server connecting to user without the knowledge of programs",
+  "repo_url": "https://github.com/jeean0668/EasyMCP",
+  "source_hub": "mcp_so",
+  "owner": "jeean0668",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "integ"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "988ac1bb1818e53bfb9c6a07abb3dd8d17d328b2",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 9,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:40Z",
+  "verification_level": "scanner_only"
+}

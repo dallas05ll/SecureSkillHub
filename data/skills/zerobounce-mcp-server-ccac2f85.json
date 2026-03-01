@@ -1,0 +1,26 @@
+{
+  "id": "zerobounce-mcp-server-ccac2f85",
+  "name": "zerobounce-mcp-server",
+  "description": "zerobounce-mcp-server",
+  "repo_url": "https://github.com/avivshafir/zerobounce-mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "avivshafir",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "48375a5c3ec4e6bfddd6ab17b41bc3512e430f51",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 5,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:42:59Z",
+  "verification_level": "scanner_only"
+}

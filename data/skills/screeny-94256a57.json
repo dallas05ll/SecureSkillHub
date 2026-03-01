@@ -1,0 +1,26 @@
+{
+  "id": "screeny-94256a57",
+  "name": "screeny",
+  "description": "Screeny is a privacy-focused macOS MCP server enabling AI agents to capture screenshots of user-approved windows",
+  "repo_url": "https://github.com/rohanrav/screeny",
+  "source_hub": "mcp_so",
+  "owner": "rohanrav",
+  "stars": 12,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-vision"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "99c7ddd1234d6f13b74343cd9d980af7228d9bea",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 6,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:42:34Z",
+  "verification_level": "scanner_only"
+}

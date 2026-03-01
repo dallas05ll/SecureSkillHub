@@ -1,0 +1,32 @@
+{
+  "id": "kanban-tui-068b9375",
+  "name": "kanban-tui",
+  "description": "Customizable terminal-based Kanban task manager built with Textual (Python TUI framework). Supports SQLite, Jira, and Claude task backends. Includes MCP server and CLI interface enabling AI agent co-op mode. Available on PyPI.",
+  "repo_url": "https://github.com/Zaloog/kanban-tui",
+  "source_hub": "github_search",
+  "skill_type": "agent_skill",
+  "owner": "Zaloog",
+  "stars": 210,
+  "license": "mit",
+  "primary_language": "Python",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp",
+    "data-db",
+    "dev-web-backend-python",
+    "prod-pm"
+  ],
+  "verification_status": "pass",
+  "overall_score": 88,
+  "risk_level": "low",
+  "verified_commit": null,
+  "scan_summary": null,
+  "last_updated": "2026-02-24T08:02:29Z",
+  "findings_summary": {
+    "notes": "Mature, well-established Python project (created Aug 2024) with MIT license, PyPI package, coverage badges, and active development (4 open issues). Repository is a full Python application — not a SKILL.md-based agent skill in the traditional sense, but provides an MCP server and CLI for agent integration. Source is clean with standard Python package layout (src/kanban_tui/). No hooks, no install scripts, no hidden scripts. Uses standard dependencies (Textual, SQLite, Pydantic). High confidence this does what it claims. Downloadable via uvx, standard install. No dangerous patterns identified. This is a legitimate productivity tool with AI-agent integration capabilities."
+  },
+  "verification_date": "2026-02-25",
+  "trust_level": "low",
+  "scan_date": "2026-02-26T02:16:20Z",
+  "verification_level": "scanner_only"
+}

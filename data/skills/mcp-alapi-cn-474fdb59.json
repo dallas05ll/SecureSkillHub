@@ -1,0 +1,25 @@
+{
+  "id": "mcp-alapi-cn-474fdb59",
+  "name": "mcp-alapi-cn",
+  "description": "这是一个基于 [ALAPI](",
+  "repo_url": "https://github.com/ALAPI-SDK/mcp-alapi-cn",
+  "source_hub": "mcp_so",
+  "owner": "ALAPI-SDK",
+  "stars": 9,
+  "primary_language": "unknown",
+  "tags": [
+    "integ"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "cb0114f966a1536dfa7b2096da07946793823f23",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 6,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:42:34Z",
+  "verification_level": "scanner_only"
+}

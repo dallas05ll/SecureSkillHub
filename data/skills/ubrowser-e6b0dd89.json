@@ -1,0 +1,32 @@
+{
+  "id": "ubrowser-e6b0dd89",
+  "name": "ubrowser",
+  "description": "The fastest, cheapest browser automation for Claude Code.",
+  "repo_url": "https://github.com/Lulzx/ubrowser",
+  "source_hub": "github_search",
+  "skill_type": "agent_skill",
+  "owner": "Lulzx",
+  "stars": 12,
+  "license": "",
+  "primary_language": "markdown",
+  "tags": [
+    "data-ai",
+    "dev",
+    "dev-testing",
+    "dev-web",
+    "prod",
+    "util-search"
+  ],
+  "verification_status": "pass",
+  "overall_score": 78,
+  "risk_level": "medium",
+  "verified_commit": null,
+  "scan_summary": null,
+  "last_updated": "2026-02-17T22:34:10Z",
+  "findings_summary": {
+    "notes": "Metadata-based verification. Score=78. Signals: stars=12 (>=10, +5); no license detected; owner='Lulzx' (+3); primary_language='markdown'; source_hub='github_search'. Status: pass. Risk: medium."
+  },
+  "trust_level": "low",
+  "scan_date": "2026-02-26T06:14:56Z",
+  "verification_level": "metadata_only"
+}

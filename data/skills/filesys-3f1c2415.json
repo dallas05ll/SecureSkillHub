@@ -1,0 +1,26 @@
+{
+  "id": "filesys-3f1c2415",
+  "name": "Filesys",
+  "description": "This is a File system mcp server that could allow an LLM to read and list files from a specified safe directory on your local machine.",
+  "repo_url": "https://github.com/iBz-04/Filesys",
+  "source_hub": "mcp_so",
+  "owner": "iBz-04",
+  "stars": 2,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "util-file"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "6105a823434d281db8a0a5054755d1e85f958866",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 14,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:04:50Z",
+  "verification_level": "scanner_only"
+}

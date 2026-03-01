@@ -1,0 +1,26 @@
+{
+  "id": "tutorial-weathermcp-e266d471",
+  "name": "tutorial-weathermcp",
+  "description": "Tutorial for mcp server",
+  "repo_url": "https://github.com/kwonci/tutorial-weathermcp",
+  "source_hub": "mcp_so",
+  "owner": "kwonci",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "9fc99639439c7ac94ee54036109a4901ef3f2010",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 5,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:43:00Z",
+  "verification_level": "scanner_only"
+}

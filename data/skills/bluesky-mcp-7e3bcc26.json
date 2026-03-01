@@ -1,0 +1,24 @@
+{
+  "id": "bluesky-mcp-7e3bcc26",
+  "name": "bluesky-mcp",
+  "description": "Bluesky MCP is a Go-based server for the Bluesky social network, offering AI-powered features via JSON-RPC 2.0 API endpoints. It supports flexible configuration and follows industry best practises for security, performance, and error handling.",
+  "repo_url": "https://github.com/littleironwaltz/bluesky-mcp",
+  "source_hub": "mcp_so",
+  "owner": "littleironwaltz",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "integ",
+    "sec",
+    "repo_unavailable"
+  ],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null,
+  "repo_status": "unavailable",
+  "repo_check_date": "2026-02-28T20:51:23.805058+00:00",
+  "repo_check_error": "fatal: could not read Username for 'https://github.com': Device not configured"
+}

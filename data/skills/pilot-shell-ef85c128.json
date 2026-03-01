@@ -1,0 +1,32 @@
+{
+  "id": "pilot-shell-ef85c128",
+  "name": "pilot-shell",
+  "description": "Professional development environment wrapper for Claude Code that enforces tests, formatting, linting, and type checking on every edit. Installs via curl-pipe-bash script. Configures Claude hooks, MCP servers, skills, and dev container. Designed for agentic, autonomous software development sessions.",
+  "repo_url": "https://github.com/maxritter/pilot-shell",
+  "source_hub": "github_search",
+  "skill_type": "agent_skill",
+  "owner": "maxritter",
+  "stars": 1441,
+  "license": "other",
+  "primary_language": "TypeScript",
+  "tags": [
+    "data-ai",
+    "dev",
+    "dev-devops-docker",
+    "dev-testing"
+  ],
+  "verification_status": "pass",
+  "overall_score": 58,
+  "risk_level": "medium",
+  "verified_commit": null,
+  "scan_summary": null,
+  "last_updated": "2026-02-25T15:42:21Z",
+  "findings_summary": {
+    "notes": "Individual developer repo with a proprietary/non-OSI license (custom 'All rights reserved' agreement, not an open source license). No SECURITY.md. Installation via curl-pipe-bash which is a significant security risk requiring trust in the author. Installs Claude Code hooks, MCP servers, and shell integrations that modify the development environment broadly. Actively maintained (recent Feb 2026 commits, 0 open issues). High stars (1441) indicate popularity. Risk stems from: (1) curl-pipe-bash installation vector, (2) proprietary license restricting inspection/auditing rights, (3) broad environment modification scope."
+  },
+  "has_security_md": false,
+  "org_owned": false,
+  "trust_level": "low",
+  "scan_date": "2026-02-25T23:07:47Z",
+  "verification_level": "scanner_only"
+}

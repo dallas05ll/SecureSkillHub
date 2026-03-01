@@ -1,0 +1,26 @@
+{
+  "id": "pinner-mcp-7ee40fb8",
+  "name": "pinner-mcp",
+  "description": "Model Context Protocol (MCP) server to pin components to their immutable version",
+  "repo_url": "https://github.com/safedep/pinner-mcp",
+  "source_hub": "mcp_so",
+  "owner": "safedep",
+  "stars": 12,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "095b2c0285684f54efae7dd9ae32e23c9a32665a",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 3,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:42:34Z",
+  "verification_level": "scanner_only"
+}

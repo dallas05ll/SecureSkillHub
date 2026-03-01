@@ -1,0 +1,26 @@
+{
+  "id": "pingera-mcp-8f3980f9",
+  "name": "pingera-mcp",
+  "description": "An MCP server for Pingera monitoring platform. Geo-distributed monitoring, playwright scripts execution, status pages.",
+  "repo_url": "https://github.com/pingera/pingera-mcp",
+  "source_hub": "mcp_so",
+  "owner": "pingera",
+  "stars": 1,
+  "primary_language": "unknown",
+  "tags": [
+    "dev-testing",
+    "util-monitor"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "81d58a88a713265fa33e435c53aeed974889468c",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 55,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:40Z",
+  "verification_level": "scanner_only"
+}

@@ -1,0 +1,27 @@
+{
+  "id": "wikijs-mcp-1e4bdf4f",
+  "name": "wikijs-mcp",
+  "description": "Simple Model Context Protocol (MCP) server for Wiki.js",
+  "repo_url": "https://github.com/RicardoCenci/wikijs-mcp",
+  "source_hub": "mcp_so",
+  "owner": "RicardoCenci",
+  "stars": 2,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp",
+    "prod-docs"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "0e2e23e3e3d5f0e678b66ac860f97d6396e72a62",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 24,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:40Z",
+  "verification_level": "scanner_only"
+}

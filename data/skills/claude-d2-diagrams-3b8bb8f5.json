@@ -1,0 +1,29 @@
+{
+  "id": "claude-d2-diagrams-3b8bb8f5",
+  "name": "claude-d2-diagrams",
+  "description": "A Claude Code plugin that generates infrastructure and architecture diagrams (and documentation) from your codebase using D2",
+  "repo_url": "https://github.com/heathdutton/claude-d2-diagrams",
+  "source_hub": "github_search",
+  "skill_type": "agent_skill",
+  "owner": "heathdutton",
+  "stars": 9,
+  "license": "",
+  "primary_language": "markdown",
+  "tags": [
+    "data-ai",
+    "dev",
+    "prod-docs"
+  ],
+  "verification_status": "pass",
+  "overall_score": 73,
+  "risk_level": "medium",
+  "verified_commit": null,
+  "scan_summary": null,
+  "last_updated": "2026-01-24T10:01:34Z",
+  "findings_summary": {
+    "notes": "Metadata-based verification. Score=73. Signals: stars=9; no license detected; owner='heathdutton' (+3); primary_language='markdown'; source_hub='github_search'. Status: pass. Risk: medium."
+  },
+  "trust_level": "low",
+  "scan_date": "2026-02-26T06:14:55Z",
+  "verification_level": "metadata_only"
+}

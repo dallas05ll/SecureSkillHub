@@ -1,0 +1,26 @@
+{
+  "id": "simple-jira-mcp-2d8c0e15",
+  "name": "simple-jira-mcp",
+  "description": "A really simple MCP server for Jira, which uses docker for easy deployment.",
+  "repo_url": "https://github.com/maximepeabody/simple-jira-mcp",
+  "source_hub": "mcp_so",
+  "owner": "maximepeabody",
+  "stars": 1,
+  "primary_language": "unknown",
+  "tags": [
+    "dev-devops-docker",
+    "prod-pm"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "792d822400f8b4f2086510e3f672e56133f2fa5c",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 4,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:42Z",
+  "verification_level": "scanner_only"
+}

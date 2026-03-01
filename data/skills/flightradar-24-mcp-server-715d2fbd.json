@@ -1,0 +1,26 @@
+{
+  "id": "flightradar-24-mcp-server-715d2fbd",
+  "name": "flightradar-24-mcp-server",
+  "description": "Flightrader24 MCP Server",
+  "repo_url": "https://github.com/Brown-Dan/flightradar-24-mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "Brown-Dan",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "3857506f0ea36d06e89d7397e89fdf5e705e57d6",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 1,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:42Z",
+  "verification_level": "scanner_only"
+}

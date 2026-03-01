@@ -1,0 +1,26 @@
+{
+  "id": "deepseek-thinking-claude-3-5-sonnet-clin-4b26314d",
+  "name": "Deepseek-Thinking-Claude-3.5-Sonnet-CLINE-MCP",
+  "description": "🧠 MCP server implementing RAT (Retrieval Augmented Thinking) - combines DeepSeek's reasoning with GPT-4/Claude/Mistral responses, maintaining conversation context between interactions.",
+  "repo_url": "https://github.com/newideas99/Deepseek-Thinking-Claude-3.5-Sonnet-CLINE-MCP",
+  "source_hub": "mcp_so",
+  "owner": "newideas99",
+  "stars": 112,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "a45b5ddd82dfed110e9aaece2fc24996330b3dc2",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 6,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-27T06:40:43Z",
+  "verification_level": "scanner_only"
+}

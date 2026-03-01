@@ -1,0 +1,25 @@
+{
+  "id": "mcp-all-servers-10a4459a",
+  "name": "mcp-all-servers",
+  "description": "All MCP servers including brave can be connected",
+  "repo_url": "https://github.com/aswinthulasir/mcp-all-servers",
+  "source_hub": "mcp_so",
+  "owner": "aswinthulasir",
+  "stars": 1,
+  "primary_language": "unknown",
+  "tags": [
+    "integ"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "6bbcb3bf6fdad8d5364332b441c3b693627d0aa7",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 107,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:41Z",
+  "verification_level": "scanner_only"
+}

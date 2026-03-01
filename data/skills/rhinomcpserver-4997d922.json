@@ -1,0 +1,27 @@
+{
+  "id": "rhinomcpserver-4997d922",
+  "name": "rhinoMcpServer",
+  "description": "RhinoMCP connects Rhino to Claude AI through the Model Context Protocol (MCP), enabling AI-assisted 3D modeling and architectural design.",
+  "repo_url": "https://github.com/always-tinkering/rhinoMcpServer",
+  "source_hub": "mcp_so",
+  "owner": "always-tinkering",
+  "stars": 44,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp",
+    "integ"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "67e8896eba88c4fcf488333199ed9874b6e868ad",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 19,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:32:11Z",
+  "verification_level": "scanner_only"
+}

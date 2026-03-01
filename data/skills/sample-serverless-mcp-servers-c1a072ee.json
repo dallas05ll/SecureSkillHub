@@ -1,0 +1,20 @@
+{
+  "id": "sample-serverless-mcp-servers-c1a072ee",
+  "name": "sample-serverless-mcp-servers",
+  "description": "Sample implementations of MCP Servers running on AWS Serverless compute",
+  "repo_url": "https://github.com/aws-samples/sample-serverless-mcp-servers",
+  "source_hub": "mcp_so",
+  "owner": "aws-samples",
+  "stars": 230,
+  "primary_language": "unknown",
+  "tags": [
+    "integ-cloud",
+    "integ-cloud-aws"
+  ],
+  "verification_status": "fail",
+  "overall_score": 15,
+  "risk_level": "critical",
+  "verified_commit": "bbe044151e7ccc02130ca8a6393be32572e475f8",
+  "scan_summary": null,
+  "scan_date": "2026-02-27T06:14:08Z"
+}

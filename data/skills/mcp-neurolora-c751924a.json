@@ -1,0 +1,27 @@
+{
+  "id": "mcp-neurolora-c751924a",
+  "name": "mcp-neurolora",
+  "description": "An intelligent MCP server that provides tools for collecting and documenting code from directories",
+  "repo_url": "https://github.com/aindreyway/mcp-neurolora",
+  "source_hub": "mcp_so",
+  "owner": "aindreyway",
+  "stars": 15,
+  "primary_language": "unknown",
+  "tags": [
+    "dev",
+    "prod-docs",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "d7c73fda1bc3644cfe5286a40fbc4cf5bfca6b43",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 29,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:42:34Z",
+  "verification_level": "scanner_only"
+}

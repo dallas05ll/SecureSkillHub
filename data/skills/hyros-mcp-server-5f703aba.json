@@ -1,0 +1,29 @@
+{
+  "id": "hyros-mcp-server-5f703aba",
+  "name": "hyros-mcp-server",
+  "description": "Hyros MCP Server - Model Context Protocol server providing 24 Hyros API tools for AI agents and automation platforms",
+  "repo_url": "https://github.com/zalogarcia/hyros-mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "zalogarcia",
+  "stars": 1,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp",
+    "integ",
+    "prod",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "32d543ff901d148b1548e80383498f31e03118c3",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 3,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:40Z",
+  "verification_level": "scanner_only"
+}

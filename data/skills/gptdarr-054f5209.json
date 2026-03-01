@@ -1,0 +1,27 @@
+{
+  "id": "gptdarr-054f5209",
+  "name": "gptdarr",
+  "description": "A MCP Server for efficiently managing and automating TV shows and movies in Sonarr and Radarr setups. Simplify your media library management with AI-driven insights and commands.",
+  "repo_url": "https://github.com/csmit195/gptdarr",
+  "source_hub": "mcp_so",
+  "owner": "csmit195",
+  "stars": 3,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "prod",
+    "util-media"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "7ea763857e1a533212183ba849c3e6618e74ea19",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 14,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:04:50Z",
+  "verification_level": "scanner_only"
+}

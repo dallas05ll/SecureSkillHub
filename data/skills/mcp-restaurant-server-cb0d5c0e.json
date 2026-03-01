@@ -1,0 +1,28 @@
+{
+  "id": "mcp-restaurant-server-cb0d5c0e",
+  "name": "mcp-restaurant-server",
+  "description": "MCP API server example : where customers can order from a fun dummy restaurant menu, track order status (success/failed), and view order history. Fully RESTful, plug-and-play, and perfect for testing MCP integrations.",
+  "repo_url": "https://github.com/sachnaror/mcp-restaurant-server",
+  "source_hub": "mcp_so",
+  "owner": "sachnaror",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "dev-testing",
+    "integ",
+    "integ-crm"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "abce20d1b48172bb3976ab4cfe9ee1d7e5f07532",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 19,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:40Z",
+  "verification_level": "scanner_only"
+}

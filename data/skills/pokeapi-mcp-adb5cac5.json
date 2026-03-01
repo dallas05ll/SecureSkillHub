@@ -1,0 +1,26 @@
+{
+  "id": "pokeapi-mcp-adb5cac5",
+  "name": "Pokeapi-MCP",
+  "description": "MCP server for agentic AI to withdraw information",
+  "repo_url": "https://github.com/GomesAdhikari/Pokeapi-MCP",
+  "source_hub": "mcp_so",
+  "owner": "GomesAdhikari",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "integ"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "5fbca5dd5cedaa980fb04cbe807eb7777b0943e2",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 46,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:41Z",
+  "verification_level": "scanner_only"
+}

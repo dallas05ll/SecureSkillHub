@@ -1,0 +1,26 @@
+{
+  "id": "mcp-market-data-server-24fa069c",
+  "name": "mcp-market-data-server",
+  "description": "Standalone server designed to deliver market data insights to AI trading agents. It processes data from external brokers and computes structured information to help LLMs and other AI systems make more informed trading decisions using JSON RPC protocol",
+  "repo_url": "https://github.com/fintools-ai/mcp-market-data-server",
+  "source_hub": "mcp_so",
+  "owner": "fintools-ai",
+  "stars": 1,
+  "primary_language": "unknown",
+  "tags": [
+    "data",
+    "data-ai"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "8956478a58bc8796fc5576e3b9b016b75f53457b",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 28,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:42Z",
+  "verification_level": "scanner_only"
+}

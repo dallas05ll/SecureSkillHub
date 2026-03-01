@@ -1,0 +1,25 @@
+{
+  "id": "mcp-server-weather-c624ea88",
+  "name": "mcp-server-weather",
+  "description": "First MCP Server implementation using US weather API",
+  "repo_url": "https://github.com/msremigio/mcp-server-weather",
+  "source_hub": "mcp_so",
+  "owner": "msremigio",
+  "stars": 2,
+  "primary_language": "unknown",
+  "tags": [
+    "integ"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "1e4d7e7f62e930462d73f5a3a8466ab11b2743d0",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 5,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:04:50Z",
+  "verification_level": "scanner_only"
+}

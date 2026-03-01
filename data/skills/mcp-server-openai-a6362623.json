@@ -1,0 +1,25 @@
+{
+  "id": "mcp-server-openai-a6362623",
+  "name": "mcp-server-openai",
+  "description": "Query OpenAI models directly from Claude using MCP protocol.",
+  "repo_url": "https://github.com/pierrebrunelle/mcp-server-openai",
+  "source_hub": "mcp_so",
+  "owner": "pierrebrunelle",
+  "stars": 79,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "67e598884e6fe7f28fc43bec2db8e37f482953ee",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 6,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-27T06:40:49Z",
+  "verification_level": "scanner_only"
+}

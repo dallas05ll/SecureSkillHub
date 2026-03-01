@@ -1,0 +1,27 @@
+{
+  "id": "docker-mcp-8b780984",
+  "name": "docker_mcp",
+  "description": "MCP Server for docker container creation and code execution",
+  "repo_url": "https://github.com/zaycruz/docker_mcp",
+  "source_hub": "mcp_so",
+  "owner": "zaycruz",
+  "stars": 4,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "dev",
+    "dev-devops-docker"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "1721b205595aed15df5aa99a0524992de428284e",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 10,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:54:02Z",
+  "verification_level": "scanner_only"
+}

@@ -1,0 +1,25 @@
+{
+  "id": "mysql-mcp-server-3d23b566",
+  "name": "mysql-mcp-server",
+  "description": "mysql-mcp-server. java version",
+  "repo_url": "https://github.com/Jasondeepny/mysql-mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "Jasondeepny",
+  "stars": 2,
+  "primary_language": "unknown",
+  "tags": [
+    "data-db"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "07477dd60b996f2ce3df3124fd35ab2cf8de289e",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 2,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:04:50Z",
+  "verification_level": "scanner_only"
+}

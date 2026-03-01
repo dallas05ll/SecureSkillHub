@@ -1,0 +1,26 @@
+{
+  "id": "flyworks-mcp-1e6565d0",
+  "name": "flyworks-mcp",
+  "description": "Fast and free zeroshot lipsync MCP server",
+  "repo_url": "https://github.com/Flyworks-AI/flyworks-mcp",
+  "source_hub": "mcp_so",
+  "owner": "Flyworks-AI",
+  "stars": 93,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "3561ded8ac0473eef21451caf7166dabeae47e3e",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 11,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-27T06:40:49Z",
+  "verification_level": "scanner_only"
+}

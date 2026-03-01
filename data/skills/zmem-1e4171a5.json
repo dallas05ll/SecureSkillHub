@@ -1,0 +1,25 @@
+{
+  "id": "zmem-1e4171a5",
+  "name": "zmem",
+  "description": "Global MCP server that manage all the project data,",
+  "repo_url": "https://github.com/meetdhanani17/zmem",
+  "source_hub": "mcp_so",
+  "owner": "meetdhanani17",
+  "stars": 6,
+  "primary_language": "unknown",
+  "tags": [
+    "data"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "085841994eff05477e1ad321cf5b65754b7e5cbc",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 6,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:54:02Z",
+  "verification_level": "scanner_only"
+}

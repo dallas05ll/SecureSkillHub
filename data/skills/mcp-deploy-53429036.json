@@ -1,0 +1,26 @@
+{
+  "id": "mcp-deploy-53429036",
+  "name": "mcp-deploy",
+  "description": "Medrehab MCP Server",
+  "repo_url": "https://github.com/SiteGlue/mcp-deploy",
+  "source_hub": "mcp_so",
+  "owner": "SiteGlue",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "ab844ae9ae67c81fd660cb448fc440f431754df5",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 8,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:41Z",
+  "verification_level": "scanner_only"
+}

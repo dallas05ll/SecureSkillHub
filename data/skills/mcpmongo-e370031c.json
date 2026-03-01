@@ -1,0 +1,29 @@
+{
+  "id": "mcpmongo-e370031c",
+  "name": "mcpmongo",
+  "description": "This project demonstrates the integration of MongoDB with the Model Context Protocol (MCP) to provide AI assistants with database interaction capabilities.",
+  "repo_url": "https://github.com/the-sukhsingh/mcpmongo",
+  "source_hub": "mcp_so",
+  "owner": "the-sukhsingh",
+  "stars": 1,
+  "primary_language": "unknown",
+  "tags": [
+    "data",
+    "data-ai",
+    "data-ai-nlp",
+    "data-db",
+    "integ"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "234d2533fe447c01c2fa49131d8bb1572643eb37",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 8,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:41Z",
+  "verification_level": "scanner_only"
+}

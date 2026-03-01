@@ -1,0 +1,30 @@
+{
+  "id": "blockrun-agent-wallet-1ebbdcc4",
+  "name": "blockrun-agent-wallet",
+  "description": "Give AI agents a wallet to pay for GPT, Grok, DALL-E, and 30+ models. No API keys needed. Works with Claude Code and Antigravity.",
+  "repo_url": "https://github.com/BlockRunAI/blockrun-agent-wallet",
+  "source_hub": "github_search",
+  "skill_type": "agent_skill",
+  "owner": "BlockRunAI",
+  "stars": 23,
+  "license": "",
+  "primary_language": "markdown",
+  "tags": [
+    "data-ai",
+    "dev",
+    "integ",
+    "sec-crypto"
+  ],
+  "verification_status": "pass",
+  "overall_score": 78,
+  "risk_level": "medium",
+  "verified_commit": null,
+  "scan_summary": null,
+  "last_updated": "2026-02-23T17:44:39Z",
+  "findings_summary": {
+    "notes": "Metadata-based verification. Score=78. Signals: stars=23 (>=10, +5); no license detected; owner='BlockRunAI' (+3); primary_language='markdown'; source_hub='github_search'. Status: pass. Risk: medium."
+  },
+  "trust_level": "low",
+  "scan_date": "2026-02-26T06:14:55Z",
+  "verification_level": "metadata_only"
+}

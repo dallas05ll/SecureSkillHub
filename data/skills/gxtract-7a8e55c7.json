@@ -1,0 +1,29 @@
+{
+  "id": "gxtract-7a8e55c7",
+  "name": "gxtract",
+  "description": "GXtract is a Model Context Protocol (MCP) server designed to integrate with VS Code and other compatible editors. It provides a suite of tools for interacting with the GroundX platform, enabling you to leverage its powerful document understanding capabilities directly within your development environment.",
+  "repo_url": "https://github.com/sascharo/gxtract",
+  "source_hub": "mcp_so",
+  "owner": "sascharo",
+  "stars": 1,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp",
+    "dev",
+    "prod-docs",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "d53d066d9745e1bdbdeb4edfd57da3d39542d859",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 28,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:41Z",
+  "verification_level": "scanner_only"
+}

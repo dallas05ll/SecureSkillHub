@@ -1,0 +1,26 @@
+{
+  "id": "mcp-module-53ac0ed5",
+  "name": "mcp-module",
+  "description": "Implementation of mcp server/client",
+  "repo_url": "https://github.com/Dpun/mcp-module",
+  "source_hub": "mcp_so",
+  "owner": "Dpun",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "e3e2a7f5a1c86a9336f5acbcf05fb0f7ad41d9ce",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 8,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:40Z",
+  "verification_level": "scanner_only"
+}

@@ -1,0 +1,26 @@
+{
+  "id": "vap-agent-image-video-music-generation-3f070852",
+  "name": "vap-agent-image,-video-&-music-generation",
+  "description": "VAP is an MCP server for AI media generation with cost control. Generate images&Editing (Flux2 Pro), videos (Veo 3.1), and music (Suno V5) with deterministic pricing.\r\n\r\nFeatures:\r\n Pre-commit pricing – Know exact cost before execution\r\n Budget enforcement – Reserve → Burn → Refund model\r\n Deterministic retry behavior – No runaway costs\r\n Production-ready outputs – Normalized to broadcast standards\r\n\r\nhttps://vapagent.com\r\n\r\n\r\nAvailable tools: generate_image, generate_video, generate_music, e...",
+  "repo_url": "https://github.com/elestirelbilinc-sketch/vap-agent-image,-video-&-music-generation",
+  "source_hub": "mcp_so",
+  "owner": "elestirelbilinc-sketch",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-audio",
+    "data-ai-vision",
+    "util",
+    "util-media",
+    "repo_unavailable"
+  ],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null,
+  "repo_status": "unavailable",
+  "repo_check_date": "2026-02-28T20:53:05.791768+00:00",
+  "repo_check_error": "remote: Repository not found.\nfatal: repository 'https://github.com/elestirelbilinc-sketch/vap-agent-image,-video-&-music-generation/' not found"
+}

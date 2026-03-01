@@ -1,0 +1,26 @@
+{
+  "id": "bing-search-mcp-afcf90b1",
+  "name": "bing-search-mcp",
+  "description": "MCP Server for Bing Search API",
+  "repo_url": "https://github.com/leehanchung/bing-search-mcp",
+  "source_hub": "mcp_so",
+  "owner": "leehanchung",
+  "stars": 77,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "util-search"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "887097adcc0c2b9de67843bed072245afc05dd70",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 6,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-27T06:40:44Z",
+  "verification_level": "scanner_only"
+}

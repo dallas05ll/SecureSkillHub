@@ -1,0 +1,27 @@
+{
+  "id": "big-brother-mcp-11fd8893",
+  "name": "big-brother-mcp",
+  "description": "A Model Context Protocol (MCP) server designed as a honeypot to catch AI systems that automatically try to report users to law enforcement agencies.",
+  "repo_url": "https://github.com/angrypenguinpng/big-brother-mcp",
+  "source_hub": "mcp_so",
+  "owner": "angrypenguinpng",
+  "stars": 3,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp",
+    "prod"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "401eff9467ab51f1ff03b0632f6bc206580ca50c",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 3,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:04:51Z",
+  "verification_level": "scanner_only"
+}

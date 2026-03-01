@@ -1,0 +1,25 @@
+{
+  "id": "mcp-coding-mr-d0397b89",
+  "name": "mcp-coding-mr",
+  "description": "A simple MCP server for CODING MR API",
+  "repo_url": "https://github.com/yankeguo/mcp-coding-mr",
+  "source_hub": "mcp_so",
+  "owner": "yankeguo",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "integ"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "8cd097bddcc99e99eb1d9ba11b1d73e9da527075",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 7,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:40Z",
+  "verification_level": "scanner_only"
+}

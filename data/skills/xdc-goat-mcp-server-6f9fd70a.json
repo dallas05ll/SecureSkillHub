@@ -1,0 +1,26 @@
+{
+  "id": "xdc-goat-mcp-server-6f9fd70a",
+  "name": "xdc-goat-mcp-server",
+  "description": "xdc-goat-mcp-server",
+  "repo_url": "https://github.com/chainaimlabs/xdc-goat-mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "chainaimlabs",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "252e916ea48e36bc3ef79dc509625724932a045f",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 47,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:43:00Z",
+  "verification_level": "scanner_only"
+}

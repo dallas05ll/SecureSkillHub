@@ -1,0 +1,23 @@
+{
+  "id": "mcp-8c938ae6",
+  "name": "mcp",
+  "description": "羽山数据API服务现已全面兼容MCP协议，打造数据服务MCP Server。mcp-server-unsense-corp-npm项目为企业类数据查询服务server，用户可通过简单配置快速通过LLM使用羽山数据企业类数据服务。依赖MCP Typescript SDK，可在支持MCP协议的智能体助手中快速接入。",
+  "repo_url": "https://github.com/usensedata/mcp",
+  "source_hub": "mcp_so",
+  "owner": "usensedata",
+  "stars": 5,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "dev",
+    "dev-web-backend-node",
+    "integ"
+  ],
+  "verification_status": "pass",
+  "overall_score": 92,
+  "risk_level": "low",
+  "verified_commit": null,
+  "scan_summary": null,
+  "scan_date": "2026-02-26T03:00:50Z",
+  "verification_level": "scanner_only"
+}

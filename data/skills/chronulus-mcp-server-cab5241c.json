@@ -1,0 +1,26 @@
+{
+  "id": "chronulus-mcp-server-cab5241c",
+  "name": "Chronulus MCP Server",
+  "description": "Enables integration of Chronulus AI Forecasting & Prediction Agents with Claude, allowing users to access AI-powered forecasting and prediction capabilities directly through Claude's interface.",
+  "repo_url": "https://github.com/ChronulusAI/chronulus-mcp",
+  "source_hub": "glama",
+  "owner": "ChronulusAI",
+  "stars": 104,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "integ"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 18,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-25T14:26:46Z",
+  "verification_level": "scanner_only"
+}

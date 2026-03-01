@@ -1,0 +1,29 @@
+{
+  "id": "awesome-web3-mcp-servers-053f3ffd",
+  "name": "awesome-web3-mcp-servers",
+  "description": "DeMCP is the first Decentralized MCP network, offering SSE proxies for MCP services and mainstream LLMs, tackling trust and security with TEE and blockchain.",
+  "repo_url": "https://github.com/demcp/awesome-web3-mcp-servers",
+  "source_hub": "mcp_so",
+  "owner": "demcp",
+  "stars": 595,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "dev-web-backend-rust",
+    "sec",
+    "sec-crypto",
+    "util-media"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 1,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-27T02:28:45Z",
+  "verification_level": "scanner_only"
+}

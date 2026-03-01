@@ -1,0 +1,30 @@
+{
+  "id": "gorse-2b735c86",
+  "name": "gorse",
+  "description": "Data On Tap Inc. is a Full MVNO operating network 302 100 in Canada. This is DOT's code repository. It includes advanced security and authentication, various connectivity tools, intelligence, including smart network reservations, eSIM/iSIM, bootstrap wireless connectivity, D2C satellite, frameworks and concepts to build on. OpenAPI 3.1. MCP server.",
+  "repo_url": "https://github.com/dataontap/gorse",
+  "source_hub": "mcp_so",
+  "owner": "dataontap",
+  "stars": 1,
+  "primary_language": "unknown",
+  "tags": [
+    "data",
+    "dev",
+    "integ",
+    "sec",
+    "sec-auth",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "55d73fd66fc516871f14705693fa629733bf16e7",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 76,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:42Z",
+  "verification_level": "scanner_only"
+}

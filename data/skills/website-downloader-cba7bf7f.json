@@ -1,0 +1,26 @@
+{
+  "id": "website-downloader-cba7bf7f",
+  "name": "website-downloader",
+  "description": "MCP server to download entire websites",
+  "repo_url": "https://github.com/pskill9/website-downloader",
+  "source_hub": "mcp_so",
+  "owner": "pskill9",
+  "stars": 148,
+  "primary_language": "unknown",
+  "tags": [
+    "dev-web",
+    "util-file"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "5b399bebad1800ac6df5052b63eaea37117092b6",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 5,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-27T06:36:35Z",
+  "verification_level": "scanner_only"
+}

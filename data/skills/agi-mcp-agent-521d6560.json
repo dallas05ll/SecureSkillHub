@@ -1,0 +1,29 @@
+{
+  "id": "agi-mcp-agent-521d6560",
+  "name": "agi-mcp-agent",
+  "description": "A modular AGI agent framework based on MCP (Multi-Context Processing), inspired by Manus, with ChatGPT-style LLM integration and task control.",
+  "repo_url": "https://github.com/ot2net/agi-mcp-agent",
+  "source_hub": "mcp_so",
+  "owner": "ot2net",
+  "stars": 8,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp",
+    "integ",
+    "prod-comm",
+    "prod-pm"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "3c15bc6b4228ccf7ca73c6533000a81f9dc2670b",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 154,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:42:34Z",
+  "verification_level": "scanner_only"
+}

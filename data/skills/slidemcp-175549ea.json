@@ -1,0 +1,25 @@
+{
+  "id": "slidemcp-175549ea",
+  "name": "slideMCP",
+  "description": "MCP Server for the Slide API",
+  "repo_url": "https://github.com/amcchord/slideMCP",
+  "source_hub": "mcp_so",
+  "owner": "amcchord",
+  "stars": 3,
+  "primary_language": "unknown",
+  "tags": [
+    "integ"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "eafe1c777de62d1f7e095a8ccfafe47c95418cca",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 64,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:04:50Z",
+  "verification_level": "scanner_only"
+}

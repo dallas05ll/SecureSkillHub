@@ -1,0 +1,26 @@
+{
+  "id": "mcp-server-mariadb-reader-277333fb",
+  "name": "mcp_server_mariadb_reader",
+  "description": "mcp_server_mariadb_reader",
+  "repo_url": "https://github.com/moosin76/mcp_server_mariadb_reader",
+  "source_hub": "mcp_so",
+  "owner": "moosin76",
+  "stars": 2,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "05059b4fdd203ad55ff7b0649e427f05e60efb2e",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 7,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:04:50Z",
+  "verification_level": "scanner_only"
+}

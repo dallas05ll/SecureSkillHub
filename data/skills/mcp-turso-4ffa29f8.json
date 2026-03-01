@@ -1,0 +1,26 @@
+{
+  "id": "mcp-turso-4ffa29f8",
+  "name": "mcp-turso",
+  "description": "MCP server for interacting with Turso-hosted LibSQL databases",
+  "repo_url": "https://github.com/nbbaier/mcp-turso",
+  "source_hub": "mcp_so",
+  "owner": "nbbaier",
+  "stars": 6,
+  "primary_language": "unknown",
+  "tags": [
+    "data",
+    "data-db"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "d5321c18413f8b41315a9ef6a494071b34586574",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 9,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:54:02Z",
+  "verification_level": "scanner_only"
+}

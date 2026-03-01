@@ -1,0 +1,24 @@
+{
+  "id": "postgres-mcp-8fcc11ae",
+  "name": "postgres-mcp",
+  "description": "A lightweight MCP (Model Context Protocol) server built to query Postgres database. It provides comprehensive tools for database operations, table introspection, and query execution with smart permission handling.",
+  "repo_url": "https://github.com/freakynit/postgres-mcp",
+  "source_hub": "mcp_so",
+  "owner": "freakynit",
+  "stars": 1,
+  "primary_language": "unknown",
+  "tags": [
+    "data",
+    "data-ai",
+    "data-ai-nlp",
+    "data-db",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 78,
+  "risk_level": "low",
+  "verified_commit": null,
+  "scan_summary": null,
+  "scan_date": "2026-02-26T03:00:50Z",
+  "verification_level": "scanner_only"
+}

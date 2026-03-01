@@ -1,0 +1,26 @@
+{
+  "id": "stopwatch-mcp-0994af1d",
+  "name": "stopwatch-mcp",
+  "description": "StopWatch MCP Server",
+  "repo_url": "https://github.com/jabrena/stopwatch-mcp",
+  "source_hub": "mcp_so",
+  "owner": "jabrena",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "50b09efc23f945ee9fdea8d5991f06952a12ac0f",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 1,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:42:59Z",
+  "verification_level": "scanner_only"
+}

@@ -1,0 +1,25 @@
+{
+  "id": "mcp-repob7b7df37-94c2-48e4-8721-6cc695c2-1ca4116f",
+  "name": "mcp_repob7b7df37-94c2-48e4-8721-6cc695c23d4c",
+  "description": "This is a test repository created by test script of MCP Server for GitHub",
+  "repo_url": "https://github.com/sanskarmk/mcp_repob7b7df37-94c2-48e4-8721-6cc695c23d4c",
+  "source_hub": "mcp_so",
+  "owner": "sanskarmk",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "dev-testing"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "5fc68df98698373f9b5341191cc72c51a4b25e09",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 1,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:41Z",
+  "verification_level": "scanner_only"
+}

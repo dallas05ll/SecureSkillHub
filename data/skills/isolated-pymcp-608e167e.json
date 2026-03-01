@@ -1,0 +1,27 @@
+{
+  "id": "isolated-pymcp-608e167e",
+  "name": "isolated-pymcp",
+  "description": "A secure, isolated environment for exploring Python development with Model Context Protocol (MCP) and Language Server Protocol (LSP)",
+  "repo_url": "https://github.com/aygp-dr/isolated-pymcp",
+  "source_hub": "mcp_so",
+  "owner": "aygp-dr",
+  "stars": 6,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp",
+    "dev-web-backend-python"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "db37571a0084ab6c8f0b03b4d199ba70c3293547",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 171,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:54:02Z",
+  "verification_level": "scanner_only"
+}

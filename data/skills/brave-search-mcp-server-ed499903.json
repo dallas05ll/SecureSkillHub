@@ -1,0 +1,30 @@
+{
+  "id": "brave-search-mcp-server-ed499903",
+  "name": "Brave Search MCP Server",
+  "description": "An MCP implementation that integrates the Brave Search API, providing comprehensive search capabilities including web, local business, image, video, news searches, and AI-powered summarization.",
+  "repo_url": "https://github.com/brave/brave-search-mcp-server",
+  "source_hub": "glama",
+  "owner": "brave",
+  "stars": 687,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp",
+    "data-ai-vision",
+    "integ",
+    "util-media",
+    "util-search"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 41,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-25T14:26:46Z",
+  "verification_level": "scanner_only"
+}

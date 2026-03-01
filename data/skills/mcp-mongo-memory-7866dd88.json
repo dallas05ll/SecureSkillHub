@@ -1,0 +1,26 @@
+{
+  "id": "mcp-mongo-memory-7866dd88",
+  "name": "mcp-mongo-memory",
+  "description": "MCP-server implementing a memory system backed in MongoDB.",
+  "repo_url": "https://github.com/santahate/mcp-mongo-memory",
+  "source_hub": "mcp_so",
+  "owner": "santahate",
+  "stars": 1,
+  "primary_language": "unknown",
+  "tags": [
+    "data-db",
+    "prod-notes"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "62590c28b4e6f7585666c59d70bbe61df369c259",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 15,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:40Z",
+  "verification_level": "scanner_only"
+}

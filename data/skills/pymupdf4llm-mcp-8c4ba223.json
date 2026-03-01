@@ -1,0 +1,25 @@
+{
+  "id": "pymupdf4llm-mcp-8c4ba223",
+  "name": "pymupdf4llm-mcp",
+  "description": "MCP server for pymupdf4llm, best pdf2md for LLM",
+  "repo_url": "https://github.com/ai-zerolab/pymupdf4llm-mcp",
+  "source_hub": "mcp_so",
+  "owner": "ai-zerolab",
+  "stars": 1,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "9fc52b5b67c419bd169e2905efb6e704c5113577",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 14,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:41Z",
+  "verification_level": "scanner_only"
+}

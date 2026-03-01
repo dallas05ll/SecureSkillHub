@@ -1,0 +1,28 @@
+{
+  "id": "git-mcp-server-498c8f62",
+  "name": "git-mcp-server",
+  "description": "A Model Context Protocol (MCP) server to provide git tools for LLM Agents, with fixes for the amend parameter caching issue",
+  "repo_url": "https://github.com/wty0512/git-mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "wty0512",
+  "stars": 1,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp",
+    "dev-git",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "0a7dd20481ccad73b5dd8b31986aeec5a3fa387a",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 26,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:40Z",
+  "verification_level": "scanner_only"
+}

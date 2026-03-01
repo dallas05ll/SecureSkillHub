@@ -1,0 +1,23 @@
+{
+  "id": "mcp-obsidian-03666543",
+  "name": "mcp-obsidian",
+  "description": "A connector for Claude Desktop to read and search an Obsidian vault.",
+  "repo_url": "https://github.com/smithery-ai/mcp-obsidian",
+  "source_hub": "mcp_so",
+  "owner": "smithery-ai",
+  "stars": 1310,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "integ",
+    "prod-docs",
+    "util-search"
+  ],
+  "verification_status": "pass",
+  "overall_score": 80,
+  "risk_level": "low",
+  "verified_commit": null,
+  "scan_summary": null,
+  "scan_date": "2026-02-26T03:00:50Z",
+  "verification_level": "scanner_only"
+}

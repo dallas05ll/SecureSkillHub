@@ -1,0 +1,26 @@
+{
+  "id": "fm-mcp-comfyui-bridge-f1cdcdb8",
+  "name": "fm-mcp-comfyui-bridge",
+  "description": "LLM MCP server for image generation with ComfyUI",
+  "repo_url": "https://github.com/rerofumi/fm-mcp-comfyui-bridge",
+  "source_hub": "mcp_so",
+  "owner": "rerofumi",
+  "stars": 2,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-vision"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "28af5d5cfdf5ed27301623f7551c41eebb632117",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 16,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:04:50Z",
+  "verification_level": "scanner_only"
+}

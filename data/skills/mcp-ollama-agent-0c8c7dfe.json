@@ -1,0 +1,29 @@
+{
+  "id": "mcp-ollama-agent-0c8c7dfe",
+  "name": "mcp-ollama-agent",
+  "description": "A TypeScript example showcasing the integration of Ollama with the Model Context Protocol (MCP), specifically the Filesystem MCP Server. This project provides an interactive command-line interface for an AI agent that can utilize filesystem tools.",
+  "repo_url": "https://github.com/ausboss/mcp-ollama-agent",
+  "source_hub": "mcp_so",
+  "owner": "ausboss",
+  "stars": 29,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp",
+    "integ",
+    "util",
+    "util-file"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "b8e0ca5c8f471a19e1271925cc2371a205b01680",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 21,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:32:12Z",
+  "verification_level": "scanner_only"
+}

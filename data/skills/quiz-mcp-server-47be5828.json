@@ -1,0 +1,26 @@
+{
+  "id": "quiz-mcp-server-47be5828",
+  "name": "quiz-mcp-server",
+  "description": "Stand up a MCPserver for quiz app for kids",
+  "repo_url": "https://github.com/sathana87/quiz-mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "sathana87",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "add007bb89e1aa935a9de082974723d5073c0a08",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 1,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:40Z",
+  "verification_level": "scanner_only"
+}

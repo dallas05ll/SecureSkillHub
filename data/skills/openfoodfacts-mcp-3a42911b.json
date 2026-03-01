@@ -1,0 +1,26 @@
+{
+  "id": "openfoodfacts-mcp-3a42911b",
+  "name": "OpenFoodFacts-MCP",
+  "description": "MCP Server for OpenFoodFacts.",
+  "repo_url": "https://github.com/JagjeevanAK/OpenFoodFacts-MCP",
+  "source_hub": "mcp_so",
+  "owner": "JagjeevanAK",
+  "stars": 12,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "3da55a69f83e0ef8ef6f0ba1b3799b565d5bded8",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 29,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:42:36Z",
+  "verification_level": "scanner_only"
+}

@@ -1,0 +1,25 @@
+{
+  "id": "mcp-prompt-stdio-ba37ed3c",
+  "name": "MCP-Prompt-STDIO",
+  "description": "A prompt to help AI build MCP servers.",
+  "repo_url": "https://github.com/ChrisRoyse/MCP-Prompt-STDIO",
+  "source_hub": "mcp_so",
+  "owner": "ChrisRoyse",
+  "stars": 6,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "91b993e56649fd28fa43fee9f9a54c2ba34f5626",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 1,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:54:02Z",
+  "verification_level": "scanner_only"
+}

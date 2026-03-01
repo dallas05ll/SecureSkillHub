@@ -1,0 +1,25 @@
+{
+  "id": "directus-mcp-5ce977b1",
+  "name": "directus-mcp",
+  "description": "MCP server for Directus API integration",
+  "repo_url": "https://github.com/pixelsock/directus-mcp",
+  "source_hub": "mcp_so",
+  "owner": "pixelsock",
+  "stars": 23,
+  "primary_language": "unknown",
+  "tags": [
+    "integ"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "77758625355d105364eeaeac9afec2f743fe369b",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 6,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:32:11Z",
+  "verification_level": "scanner_only"
+}

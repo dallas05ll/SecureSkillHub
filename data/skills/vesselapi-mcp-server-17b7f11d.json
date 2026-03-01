@@ -1,0 +1,26 @@
+{
+  "id": "vesselapi-mcp-server-17b7f11d",
+  "name": "vesselapi-mcp-server",
+  "description": "Query maritime vessel tracking data via natural language. Search vessels by name/IMO/MMSI, get real-time positions, ETAs, portevents, emissions, inspections, casualty records, and NAVTEX safety messages. Powered by vesselapi.com.",
+  "repo_url": "https://github.com/vessel-api/vesselapi-mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "vessel-api",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "data",
+    "data-ai-nlp",
+    "integ",
+    "prod-comm",
+    "util-search",
+    "repo_unavailable"
+  ],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null,
+  "repo_status": "unavailable",
+  "repo_check_date": "2026-02-28T20:53:06.229066+00:00",
+  "repo_check_error": "fatal: could not read Username for 'https://github.com': Device not configured"
+}

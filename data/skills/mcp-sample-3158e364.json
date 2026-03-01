@@ -1,0 +1,27 @@
+{
+  "id": "mcp-sample-3158e364",
+  "name": "mcp-sample",
+  "description": "Test repository created using Claude Desktop and MCP server integration",
+  "repo_url": "https://github.com/pxdsgnco/mcp-sample",
+  "source_hub": "mcp_so",
+  "owner": "pxdsgnco",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "dev-testing",
+    "integ"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "2cfac064f7171504999886b6db09a0166e4706f9",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 1,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:41Z",
+  "verification_level": "scanner_only"
+}

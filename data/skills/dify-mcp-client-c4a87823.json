@@ -1,0 +1,26 @@
+{
+  "id": "dify-mcp-client-c4a87823",
+  "name": "dify-mcp-client",
+  "description": "MCP Client as an Agent Strategy Plugin. Dify is not MCP Server but MCP Host.",
+  "repo_url": "https://github.com/3dify-project/dify-mcp-client",
+  "source_hub": "mcp_so",
+  "owner": "3dify-project",
+  "stars": 163,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "ea46cb50814875cabd10b3259e578a42ebe35263",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 29,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-27T06:36:35Z",
+  "verification_level": "scanner_only"
+}

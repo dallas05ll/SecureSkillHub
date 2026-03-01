@@ -1,0 +1,26 @@
+{
+  "id": "zendesk-mcp-server-kon-8a60e7aa",
+  "name": "zendesk-mcp-server-kon",
+  "description": "이 프로젝트는 reminia/zendesk-mcp-server(",
+  "repo_url": "https://github.com/nicekon/zendesk-mcp-server-kon",
+  "source_hub": "mcp_so",
+  "owner": "nicekon",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "4717ee6299539c653655ba1d579cdcde42a0757c",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 6,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:42:59Z",
+  "verification_level": "scanner_only"
+}

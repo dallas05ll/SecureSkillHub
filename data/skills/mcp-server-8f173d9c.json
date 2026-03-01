@@ -1,0 +1,30 @@
+{
+  "id": "mcp-server-8f173d9c",
+  "name": "mcp-server",
+  "description": "Future location for a deployable MCP server to turn internal databases, APIs, and more services into MCP tools for internal LLM apps.",
+  "repo_url": "https://github.com/microsoft/mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "microsoft",
+  "stars": 10,
+  "primary_language": "unknown",
+  "tags": [
+    "data",
+    "data-ai",
+    "data-db",
+    "integ",
+    "util",
+    "util-map"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "6fa701896dc8c5f45d7efe1d35f7a84737214ef5",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 4,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:42:36Z",
+  "verification_level": "scanner_only"
+}

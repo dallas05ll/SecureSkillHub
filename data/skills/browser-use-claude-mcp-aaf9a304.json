@@ -1,0 +1,29 @@
+{
+  "id": "browser-use-claude-mcp-aaf9a304",
+  "name": "Browser-use-claude-mcp",
+  "description": "A browser automation MCP server for AI models like Claude and Gemini 2.5, enabling web browsing capabilities through natural language",
+  "repo_url": "https://github.com/jasondsmith72/Browser-use-claude-mcp",
+  "source_hub": "mcp_so",
+  "owner": "jasondsmith72",
+  "stars": 1,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp",
+    "dev-web",
+    "prod",
+    "util-search"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "17015c4afaffcf11831019ff98a3d7d9082a6daa",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 41,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:41Z",
+  "verification_level": "scanner_only"
+}

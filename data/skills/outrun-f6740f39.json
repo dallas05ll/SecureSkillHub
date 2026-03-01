@@ -1,0 +1,25 @@
+{
+  "id": "outrun-f6740f39",
+  "name": "outrun",
+  "description": "The API that lets Claude check if Bitcoin is crashing before it answers you. \r\n\r\nMachine-friendly crypto state queries paid via Lightning micropayments.\r\n\r\nPrice. Threshold. Volatility. Volume. Wicks. Correlation. Weather.",
+  "repo_url": "https://github.com/Outrun/outrun",
+  "source_hub": "mcp_so",
+  "owner": "Outrun",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "integ",
+    "integ-payment",
+    "sec-crypto",
+    "repo_unavailable"
+  ],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null,
+  "repo_status": "unavailable",
+  "repo_check_date": "2026-02-28T20:52:41.761507+00:00",
+  "repo_check_error": "fatal: could not read Username for 'https://github.com': Device not configured"
+}

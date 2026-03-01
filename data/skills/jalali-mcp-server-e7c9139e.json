@@ -1,0 +1,26 @@
+{
+  "id": "jalali-mcp-server-e7c9139e",
+  "name": "jalali-mcp-server",
+  "description": "jalali date mcp server",
+  "repo_url": "https://github.com/pfndesign/jalali-mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "pfndesign",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "23ff0bbadc7baff231dc8156698c6aaa040459a1",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 6,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:40Z",
+  "verification_level": "scanner_only"
+}

@@ -1,0 +1,27 @@
+{
+  "id": "claude-mcp-get-326814f7",
+  "name": "claude-mcp-get",
+  "description": "A comprehensive toolkit for installing and configuring Model Context Protocol (MCP) servers on Windows systems",
+  "repo_url": "https://github.com/PWereh/claude-mcp-get",
+  "source_hub": "mcp_so",
+  "owner": "PWereh",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "0c032a1c7e509c0f486280e8e9b31ead15c20b67",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 7,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:42Z",
+  "verification_level": "scanner_only"
+}

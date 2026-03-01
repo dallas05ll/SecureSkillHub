@@ -1,0 +1,25 @@
+{
+  "id": "bmi-mcp-b4b4ef02",
+  "name": "BMI_MCP",
+  "description": "Simple MCP server to provide health related metrics",
+  "repo_url": "https://github.com/sryno/BMI_MCP",
+  "source_hub": "mcp_so",
+  "owner": "sryno",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "util-monitor"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "130c0e41ede299267a89008725869b32b93868c0",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 8,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:41Z",
+  "verification_level": "scanner_only"
+}

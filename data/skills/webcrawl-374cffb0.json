@@ -1,0 +1,24 @@
+{
+  "id": "webcrawl-374cffb0",
+  "name": "webcrawl",
+  "description": "Bridge the gap between your web crawler and AI language models using Model Context Protocol (MCP). With mcp-server-webcrawl, your AI client filters and analyzes web content under your direction or autonomously, extracting insights from your web content. Support for WARC, wget, InterroBot, Katana, and SiteOne crawlers is available out of the gate. The server includes a full-text search interface with boolean support, resource filtering by type, HTTP status, and more.",
+  "repo_url": "https://github.com/pragmar/webcrawl",
+  "source_hub": "mcp_so",
+  "owner": "pragmar",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp",
+    "util-search",
+    "repo_unavailable"
+  ],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null,
+  "repo_status": "unavailable",
+  "repo_check_date": "2026-02-28T20:53:08.303510+00:00",
+  "repo_check_error": "fatal: could not read Username for 'https://github.com': Device not configured"
+}

@@ -1,0 +1,25 @@
+{
+  "id": "harvest-mcp-server-a3a1b112",
+  "name": "harvest-mcp-server",
+  "description": "An MCP server for natural language time entry in Harvest",
+  "repo_url": "https://github.com/adrian-dotco/harvest-mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "adrian-dotco",
+  "stars": 4,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai-nlp"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "2a6b730a272430e851a46fdb217903b05388e197",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 49,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:54:02Z",
+  "verification_level": "scanner_only"
+}

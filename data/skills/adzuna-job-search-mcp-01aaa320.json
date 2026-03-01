@@ -1,0 +1,27 @@
+{
+  "id": "adzuna-job-search-mcp-01aaa320",
+  "name": "adzuna-job-search-mcp",
+  "description": "Search millions of job listings across 12 countries including the US, UK, Germany, France, Australia, Canada, and India, with powerful filters for keywords, location, salary range, and job type.",
+  "repo_url": "https://github.com/Folarin Akinloye/adzuna-job-search-mcp",
+  "source_hub": "mcp_so",
+  "owner": "Folarin Akinloye",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "util-map",
+    "util-search",
+    "repo_unavailable"
+  ],
+  "verification_status": "manual_review",
+  "overall_score": 0,
+  "risk_level": "high",
+  "verified_commit": "",
+  "scan_summary": null,
+  "scan_date": "2026-02-28T20:27:24Z",
+  "findings_summary": {
+    "error": "clone failed: Cloning into '/var/folders/pq/bb71gjzd01d29nnmqrhqr2rc0000gn/T/strict5_adzuna-job-search-mcp-01_b4qkhq6y/repo'...\nfatal: unable to access 'https://github.com/Folarin Akinloye/adzuna-job-search-mcp/': URL rejected: Malformed input to a URL function",
+    "supervisor_approved": false,
+    "supervisor_confidence": 0
+  },
+  "repo_status": "unavailable"
+}

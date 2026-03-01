@@ -1,0 +1,28 @@
+{
+  "id": "ja-writing-tools-b505e005",
+  "name": "ja-writing-tools",
+  "description": "日本語ライティング支援を目的としたClaude Skills",
+  "repo_url": "https://github.com/finelagusaz/ja-writing-tools",
+  "source_hub": "github_search",
+  "skill_type": "agent_skill",
+  "owner": "finelagusaz",
+  "stars": 4,
+  "license": "",
+  "primary_language": "markdown",
+  "tags": [
+    "data-ai",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 73,
+  "risk_level": "medium",
+  "verified_commit": null,
+  "scan_summary": null,
+  "last_updated": "2026-02-18T12:52:56Z",
+  "findings_summary": {
+    "notes": "Metadata-based verification. Score=73. Signals: stars=4; no license detected; owner='finelagusaz' (+3); primary_language='markdown'; source_hub='github_search'. Status: pass. Risk: medium."
+  },
+  "trust_level": "low",
+  "scan_date": "2026-02-26T06:14:56Z",
+  "verification_level": "metadata_only"
+}

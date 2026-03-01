@@ -1,0 +1,25 @@
+{
+  "id": "pubmed-search-7ef9cae3",
+  "name": "pubmed_search",
+  "description": "MCP PubMed Search Server",
+  "repo_url": "https://github.com/wavelovey/pubmed_search",
+  "source_hub": "mcp_so",
+  "owner": "wavelovey",
+  "stars": 47,
+  "primary_language": "unknown",
+  "tags": [
+    "util-search"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "f56aa71342adbc3725901532b5f0e464219d27c8",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 4,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:32:11Z",
+  "verification_level": "scanner_only"
+}

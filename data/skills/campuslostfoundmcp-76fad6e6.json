@@ -1,0 +1,25 @@
+{
+  "id": "campuslostfoundmcp-76fad6e6",
+  "name": "CampusLostFoundMCP",
+  "description": "Modular CLI-based MCP server to manage campus lost & found items using Claude Desktop.",
+  "repo_url": "https://github.com/utkarshagawade17/CampusLostFoundMCP",
+  "source_hub": "mcp_so",
+  "owner": "utkarshagawade17",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "b619720fa9cd8a9386353604ad01e26dd8769c86",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 5,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:42Z",
+  "verification_level": "scanner_only"
+}

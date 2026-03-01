@@ -1,0 +1,28 @@
+{
+  "id": "document-search-mcp-server-0c715016",
+  "name": "document-search-mcp-server",
+  "description": "MCP (Minimal Command Protocol) server that allows users to search for documentation from popular libraries such as LangChain, LlamaIndex, and OpenAI using the Serper API. The server fetches search results and extracts the relevant documentation from the web using HTTP requests and BeautifulSoup.",
+  "repo_url": "https://github.com/sawantudayan/document-search-mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "sawantudayan",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "integ",
+    "prod-docs",
+    "util-search"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "25995ba9df1f548df75d28551e73aa2ffd036f40",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 3,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:40Z",
+  "verification_level": "scanner_only"
+}

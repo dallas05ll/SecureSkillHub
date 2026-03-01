@@ -1,0 +1,25 @@
+{
+  "id": "mcp-server-weather-forecast-b91e2aee",
+  "name": "mcp-server-weather-forecast",
+  "description": "Get weather forecasts using an AI agent and an MCP server.",
+  "repo_url": "https://github.com/hitechdk/mcp-server-weather-forecast",
+  "source_hub": "mcp_so",
+  "owner": "hitechdk",
+  "stars": 1,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "32cc8f08bd337f66f8a9366f86e7a25db17c1235",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 4,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:42Z",
+  "verification_level": "scanner_only"
+}

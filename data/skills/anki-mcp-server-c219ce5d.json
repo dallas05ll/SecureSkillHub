@@ -1,0 +1,26 @@
+{
+  "id": "anki-mcp-server-c219ce5d",
+  "name": "anki-mcp-server",
+  "description": "An MCP server for Anki",
+  "repo_url": "https://github.com/scorzeth/anki-mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "scorzeth",
+  "stars": 176,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "9078e84aeef5832f32dd282d55f745c464beb9a6",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 4,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-27T06:36:35Z",
+  "verification_level": "scanner_only"
+}

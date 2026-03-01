@@ -1,0 +1,25 @@
+{
+  "id": "mcp-kagi-search-4ce0daaf",
+  "name": "mcp-kagi-search",
+  "description": "Kagi search MCP server",
+  "repo_url": "https://github.com/kamou/mcp-kagi-search",
+  "source_hub": "mcp_so",
+  "owner": "kamou",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "util-search"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "3faf51e72d7c0d3f316be874805978d932656235",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 5,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:40Z",
+  "verification_level": "scanner_only"
+}

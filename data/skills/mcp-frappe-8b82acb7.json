@@ -1,0 +1,26 @@
+{
+  "id": "mcp-frappe-8b82acb7",
+  "name": "mcp-frappe",
+  "description": "MCP Server for Frappe",
+  "repo_url": "https://github.com/tuanle96/mcp-frappe",
+  "source_hub": "mcp_so",
+  "owner": "tuanle96",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "3e2266528b33ce0cd1d953c5288cbb5c393212e5",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 1,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:40Z",
+  "verification_level": "scanner_only"
+}

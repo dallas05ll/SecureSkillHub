@@ -1,0 +1,30 @@
+{
+  "id": "dskills-a0eb6087",
+  "name": "DSkills",
+  "description": "CLI tools skill collection for AI coding assistants including web search via Grok/Exa, sequential thinking, and Serena code understanding.",
+  "repo_url": "https://github.com/Dianel555/DSkills",
+  "source_hub": "github_search",
+  "skill_type": "agent_skill",
+  "owner": "Dianel555",
+  "stars": 58,
+  "license": "mit",
+  "primary_language": "Python",
+  "tags": [
+    "data-ai",
+    "dev",
+    "util",
+    "util-search"
+  ],
+  "verification_status": "pass",
+  "overall_score": 70,
+  "risk_level": "low",
+  "verified_commit": null,
+  "scan_summary": null,
+  "last_updated": "2026-02-22T16:43:01Z",
+  "findings_summary": {
+    "notes": "MIT licensed, Python, recently maintained. Good variety of useful CLI tools. Multi-agent compatible."
+  },
+  "trust_level": "low",
+  "scan_date": "2026-02-26T02:12:11Z",
+  "verification_level": "scanner_only"
+}

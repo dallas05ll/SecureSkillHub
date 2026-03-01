@@ -1,0 +1,25 @@
+{
+  "id": "simple-mcp-server-ac8614c8",
+  "name": "simple-mcp-server",
+  "description": "A basic stdio & streamable http implementation of FastMCP Server",
+  "repo_url": "https://github.com/rjmoggach/simple-mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "rjmoggach",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "util-media"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "85ff8d8c29ecff549d9eb1fb200afa66b4d8ccfd",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 3,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:41Z",
+  "verification_level": "scanner_only"
+}

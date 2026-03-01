@@ -1,0 +1,116 @@
+{
+  "id": "whatsapp-mcp-ts-7ba27d62",
+  "name": "whatsapp-mcp-ts",
+  "description": "WhatsApp MCP Server (TypeScript/Baileys)",
+  "repo_url": "https://github.com/jlucaso1/whatsapp-mcp-ts",
+  "source_hub": "mcp_so",
+  "owner": "jlucaso1",
+  "stars": 48,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "status-fail"
+  ],
+  "verification_status": "fail",
+  "overall_score": 100,
+  "risk_level": "high",
+  "verified_commit": "ce9b144a2327d44f4288ee400503e2dc06c7d2d5",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 10,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-03-01T06:03:06Z",
+  "verification_level": "full_pipeline",
+  "findings_summary": {
+    "scanner_findings": 13,
+    "dangerous_calls": 8,
+    "network_ops": 0,
+    "file_ops": 2,
+    "env_access": 3,
+    "obfuscation": 0,
+    "injection_patterns": 0,
+    "mismatches": 0,
+    "undocumented_capabilities": 0,
+    "supervisor_approved": false,
+    "supervisor_confidence": 95,
+    "pm_review": {
+      "reviewed_at": "2026-03-01T06:14:16Z",
+      "reviewer": "pm_dual_agent",
+      "previous_status": "manual_review",
+      "decision": "fail",
+      "reason": "PM final decision: fail due to high-risk scanner findings.",
+      "mode": "run-report",
+      "evidence": {
+        "score": 100,
+        "risk_level": "high",
+        "high_findings": 8,
+        "critical_findings": 0,
+        "obfuscation_high_risk_count": 0,
+        "injection_patterns_count": 0,
+        "repo_unavailable": false
+      }
+    }
+  },
+  "agent_audit": {
+    "agents_completed": 5,
+    "agents_required": 5,
+    "pipeline_run_at": "2026-03-01T06:03:06Z",
+    "agent_a": {
+      "signed": true,
+      "signed_at": "2026-03-01T06:03:06Z",
+      "comment": "Docs quality 9/10. README present. 12 features, 4 permissions claimed.",
+      "doc_quality_score": 9,
+      "claimed_permissions": [
+        "network access",
+        "system command execution",
+        "file system access",
+        "environment/secret access"
+      ]
+    },
+    "agent_b": {
+      "signed": true,
+      "signed_at": "2026-03-01T06:03:06Z",
+      "comment": "9 files analyzed. Found: 2 network, 1 file, 3 env, 6 system calls. Primary: unknown.",
+      "files_analyzed": 9,
+      "capabilities_found": [
+        "imports external dependencies",
+        "performs network operations",
+        "reads/writes files",
+        "reads environment values",
+        "executes system commands"
+      ]
+    },
+    "agent_c_star": {
+      "signed": true,
+      "signed_at": "2026-03-01T06:03:06Z",
+      "comment": "13 findings: 0 critical, 8 high, 3 medium, 2 low. No obfuscation. No injection.",
+      "total_findings": 13,
+      "severity_counts": {
+        "critical": 0,
+        "high": 8,
+        "medium": 3,
+        "low": 2,
+        "info": 0
+      }
+    },
+    "agent_d": {
+      "signed": true,
+      "signed_at": "2026-03-01T06:03:06Z",
+      "comment": "Score 100. 0 mismatches. Risk: high. Safety overrides: none triggered.",
+      "score": 100,
+      "mismatches": 0,
+      "safety_overrides_applied": false
+    },
+    "agent_e": {
+      "signed": true,
+      "signed_at": "2026-03-01T06:03:06Z",
+      "comment": "Rejected. Confidence 95%. No overrides.",
+      "approved": false,
+      "confidence": 95,
+      "override_reason": null
+    },
+    "manager_summary": "5/5 agents completed. Score: 100/100, Risk: high. 0 mismatches, 13 scanner findings. Rejected at 95% confidence. No safety overrides.\n[2026-03-01T06:14:16Z] PM review: fail. PM final decision: fail due to high-risk scanner findings."
+  }
+}

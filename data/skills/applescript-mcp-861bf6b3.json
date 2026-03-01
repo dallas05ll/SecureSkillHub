@@ -1,0 +1,26 @@
+{
+  "id": "applescript-mcp-861bf6b3",
+  "name": "applescript-mcp",
+  "description": "MCP server that execute applescript giving you full control of your Mac",
+  "repo_url": "https://github.com/Hassanali4/applescript-mcp",
+  "source_hub": "mcp_so",
+  "owner": "Hassanali4",
+  "stars": 15,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "4f4be9945e676b600da73ac3c4781605423fd57f",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 7,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:42:34Z",
+  "verification_level": "scanner_only"
+}

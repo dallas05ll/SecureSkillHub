@@ -1,0 +1,27 @@
+{
+  "id": "azure-cli-mcp-using-python-42409a1e",
+  "name": "azure-cli-mcp-using-python",
+  "description": "MCP server to access Azure using az commands.",
+  "repo_url": "https://github.com/devanshjainms/azure-cli-mcp-using-python",
+  "source_hub": "mcp_so",
+  "owner": "devanshjainms",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "dev-web-backend-python",
+    "integ-cloud",
+    "integ-cloud-azure"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "363e143020b3e67de8ba2dc15e05bd53b146d578",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 1,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:42Z",
+  "verification_level": "scanner_only"
+}

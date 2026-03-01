@@ -1,0 +1,29 @@
+{
+  "id": "wecom-bot-mcp-server-637ac40b",
+  "name": "wecom-bot-mcp-server",
+  "description": "A Python server implementation for WeCom (WeChat Work) bot that follows the Model Context Protocol (MCP). This server provides a standardized interface for handling automated messaging and context-aware interactions within enterprise WeChat environments.",
+  "repo_url": "https://github.com/loonghao/wecom-bot-mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "loonghao",
+  "stars": 76,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp",
+    "dev-web-backend-python",
+    "prod",
+    "prod-comm"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "3e614be74bdb93771050579dcff3fe28d105813e",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 66,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-27T06:40:49Z",
+  "verification_level": "scanner_only"
+}

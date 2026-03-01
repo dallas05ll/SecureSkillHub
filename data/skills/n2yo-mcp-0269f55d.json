@@ -1,0 +1,26 @@
+{
+  "id": "n2yo-mcp-0269f55d",
+  "name": "N2YO-MCP",
+  "description": "MCP server to query N2YO space catalog",
+  "repo_url": "https://github.com/MaxwellCalkin/N2YO-MCP",
+  "source_hub": "mcp_so",
+  "owner": "MaxwellCalkin",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "005659fed7e80dba6d482d30eee238b10dd6ce09",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 14,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:40Z",
+  "verification_level": "scanner_only"
+}

@@ -1,0 +1,26 @@
+{
+  "id": "aoirint-mcping-server-7fa23330",
+  "name": "aoirint_mcping_server",
+  "description": "Headless status monitor with HTTP JSON API for Minecraft Bedrock/Java server",
+  "repo_url": "https://github.com/aoirint/aoirint_mcping_server",
+  "source_hub": "mcp_so",
+  "owner": "aoirint",
+  "stars": 1,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "util-monitor"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "8b999b73d0815a6916adad81c6d8fc8c530df7aa",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 23,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:41Z",
+  "verification_level": "scanner_only"
+}

@@ -1,0 +1,26 @@
+{
+  "id": "mcp-stdio2sse-e71c2799",
+  "name": "mcp_stdio2sse",
+  "description": "SSE Version of Stdio MCP servers",
+  "repo_url": "https://github.com/dmcqueen/mcp_stdio2sse",
+  "source_hub": "mcp_so",
+  "owner": "dmcqueen",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "3f22adfb3722a5cbfb7a15b8988a9b623f92bb62",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 16,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:40Z",
+  "verification_level": "scanner_only"
+}

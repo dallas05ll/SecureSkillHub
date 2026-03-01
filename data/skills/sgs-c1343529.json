@@ -1,0 +1,25 @@
+{
+  "id": "sgs-c1343529",
+  "name": "sgs",
+  "description": "Agentic RAG and MCP server for Sydney Grammar School chat",
+  "repo_url": "https://github.com/WhisperLooms/sgs",
+  "source_hub": "mcp_so",
+  "owner": "WhisperLooms",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "prod-comm"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "c989b8ddf1fd6294dc5a0eac5e4417a6e201c30b",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 15,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:41Z",
+  "verification_level": "scanner_only"
+}

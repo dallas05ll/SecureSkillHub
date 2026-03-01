@@ -1,0 +1,28 @@
+{
+  "id": "itinerary-mcp-server-65526813",
+  "name": "itinerary-mcp-server",
+  "description": "FastAPI-based travel itinerary system with MCP integration for AI-powered discovery, filtering, and creation of travel plans via natural language.",
+  "repo_url": "https://github.com/aryanranderiya/itinerary-mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "aryanranderiya",
+  "stars": 1,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp",
+    "dev-web-backend-python",
+    "integ"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "380ae3c3a208b305d504f54f3046bc841c5c619d",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 9,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:42Z",
+  "verification_level": "scanner_only"
+}

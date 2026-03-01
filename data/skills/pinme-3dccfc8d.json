@@ -1,0 +1,58 @@
+{
+  "id": "pinme-3dccfc8d",
+  "name": "pinme",
+  "description": "Zero-config frontend deployment tool that publishes static sites as verifiable content via IPFS/decentralized storage with a single command. Supports Claude Code Skills natively. Handles Vite/React/Vue/Next.js builds, CAR file import/export, custom domain binding, and GitHub Actions integration.",
+  "repo_url": "https://github.com/glitternetwork/pinme",
+  "source_hub": "github_search",
+  "skill_type": "agent_skill",
+  "owner": "glitternetwork",
+  "stars": 2796,
+  "forks": 208,
+  "license": "MIT",
+  "primary_language": "TypeScript",
+  "tags": [
+    "data-ai",
+    "dev",
+    "dev-devops-ci",
+    "dev-web-frontend-react",
+    "dev-web-frontend-vue",
+    "dev-web-fullstack-nextjs",
+    "integ",
+    "util",
+    "util-file"
+  ],
+  "source_tags": [
+    "ai-tools",
+    "claude-code-skill",
+    "claude-skills",
+    "deployment",
+    "frontend",
+    "hosting",
+    "serverless",
+    "static-site",
+    "web-hosting",
+    "zero-configuration"
+  ],
+  "categories": [
+    "dev",
+    "deployment"
+  ],
+  "version": "latest",
+  "requires_code_execution": false,
+  "verification_status": "pass",
+  "overall_score": 72,
+  "risk_level": "low",
+  "verified_commit": "c6c629e9ae0844154713871259a53958f0f5e9c8",
+  "scan_summary": null,
+  "findings_summary": {
+    "has_readme": true,
+    "has_security_policy": false,
+    "has_mcp_server": false,
+    "dangerous_patterns": [],
+    "notes": "Well-structured individual org repo (glitternetwork) written in TypeScript. MIT license. Actively maintained with last push Feb 16 2026. Has LICENSE, CHANGELOG.md, .env.example, and a properly integrated Claude Code skill under .claude/skills/pinme/. Good documentation including SKILL.md, table of contents, error handling guide, and upload limits documentation. Prettierrc code style enforced. 208 forks and only 2 open issues indicating good maintenance. Missing SECURITY.md. Deployment target is IPFS/decentralized storage (pinit.eth.limo domain) which introduces a novel trust model: content is content-addressed and tamper-evident, but relies on third-party IPFS pinning infrastructure. VIP membership required for custom domain binding. No malicious patterns detected. Users should note dependency on glitternetwork's IPFS pinning service availability."
+  },
+  "last_updated": "2026-02-25T22:00:00Z",
+  "trust_level": "low",
+  "scan_date": "2026-02-25T22:23:19Z",
+  "verification_level": "scanner_only"
+}

@@ -1,0 +1,27 @@
+{
+  "id": "travel-itinerary-e72d5733",
+  "name": "Travel-Itinerary",
+  "description": "This is a backend system for managing travel itineraries using FastAPI and SQLAlchemy, featuring RESTful APIs to create and view itineraries and an MCP server to recommend itineraries based on trip duration.",
+  "repo_url": "https://github.com/ThasnimaShereef/Travel-Itinerary",
+  "source_hub": "mcp_so",
+  "owner": "ThasnimaShereef",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "data-db",
+    "dev-web-backend-python",
+    "integ"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "2d5ec81e684e677b49580f85ac02b4f72abaad2f",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 11,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:43:00Z",
+  "verification_level": "scanner_only"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "mcp-server-duckdb-b642bf8d",
+  "name": "mcp-server-duckdb",
+  "description": "A Model Context Protocol (MCP) server implementation for DuckDB, providing database interaction capabilities",
+  "repo_url": "https://github.com/ktanaka101/mcp-server-duckdb",
+  "source_hub": "mcp_so",
+  "owner": "ktanaka101",
+  "stars": 173,
+  "primary_language": "unknown",
+  "tags": [
+    "data",
+    "data-ai",
+    "data-ai-nlp",
+    "data-db"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "2cc7c29e22b5300e310ba38f86a1105c0dd7ff6d",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 7,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-27T06:36:35Z",
+  "verification_level": "scanner_only"
+}

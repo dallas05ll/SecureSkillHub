@@ -1,0 +1,25 @@
+{
+  "id": "gbox-mcp-4222432c",
+  "name": "gbox_mcp",
+  "description": "GBox MCP Server 是一个基于 FastMCP 协议的服务器实现，提供了与 GBox 游戏引擎的实时通信和控制能力。它能帮助 AI 理解和操作 GBox 脚本，实现游戏运行时的智能控制和资源管理。同时通过与 ComfyUI 的集成，支持基于文本描述生成游戏素材和图像资源",
+  "repo_url": "https://github.com/jinruozai/gbox_mcp",
+  "source_hub": "mcp_so",
+  "owner": "jinruozai",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "14c54fd90407e9fa3e2fee3b0140d8ee6566df95",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 10,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:42Z",
+  "verification_level": "scanner_only"
+}

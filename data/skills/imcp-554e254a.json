@@ -1,0 +1,20 @@
+{
+  "id": "imcp-554e254a",
+  "name": "iMCP",
+  "description": "A macOS app that provides an MCP server to your Messages, Contacts, Reminders and more",
+  "repo_url": "https://github.com/loopwork-ai/iMCP",
+  "source_hub": "mcp_so",
+  "owner": "loopwork-ai",
+  "stars": 1170,
+  "primary_language": "unknown",
+  "tags": [
+    "prod-comm"
+  ],
+  "verification_status": "pass",
+  "overall_score": 75,
+  "risk_level": "low",
+  "verified_commit": "6d0df253cd31d485edaede4929dc3e92d5825cab",
+  "scan_summary": null,
+  "scan_date": "2026-02-26T03:00:50Z",
+  "verification_level": "scanner_only"
+}

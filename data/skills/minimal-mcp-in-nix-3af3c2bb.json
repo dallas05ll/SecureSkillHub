@@ -1,0 +1,25 @@
+{
+  "id": "minimal-mcp-in-nix-3af3c2bb",
+  "name": "minimal-mcp-in-nix",
+  "description": "Creating a barebones MCP server around python (plus uv), encapsulated in a nix flake",
+  "repo_url": "https://github.com/mccartykim/minimal-mcp-in-nix",
+  "source_hub": "mcp_so",
+  "owner": "mccartykim",
+  "stars": 3,
+  "primary_language": "unknown",
+  "tags": [
+    "dev-web-backend-python"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "c422b6a939e87a49214f6da1751bc41f1009444c",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 5,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:04:50Z",
+  "verification_level": "scanner_only"
+}

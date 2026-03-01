@@ -1,0 +1,30 @@
+{
+  "id": "codeintelimcp-180885b2",
+  "name": "CodeInteliMCP",
+  "description": "Advanced MCP server for code intelligence with multi-repository support, Tree-sitter parsing, DuckDB graph database, and ChromaDB vector search",
+  "repo_url": "https://github.com/rahulvgmail/CodeInteliMCP",
+  "source_hub": "mcp_so",
+  "owner": "rahulvgmail",
+  "stars": 8,
+  "primary_language": "unknown",
+  "tags": [
+    "data",
+    "data-db",
+    "data-db-graph",
+    "data-db-vector",
+    "dev",
+    "util-search"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "519b1d944f577106afe07ea6f6f1a764205938b4",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 48,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:42:36Z",
+  "verification_level": "scanner_only"
+}

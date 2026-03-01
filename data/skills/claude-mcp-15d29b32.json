@@ -1,0 +1,26 @@
+{
+  "id": "claude-mcp-15d29b32",
+  "name": "claude-mcp",
+  "description": "An MCP server for using GRID API directly from Claude for Desktop",
+  "repo_url": "https://github.com/GRID-is/claude-mcp",
+  "source_hub": "mcp_so",
+  "owner": "GRID-is",
+  "stars": 3,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "integ"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "19925645bad9a0db5dc59006f3ef78af181d4dc5",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 14,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:04:51Z",
+  "verification_level": "scanner_only"
+}

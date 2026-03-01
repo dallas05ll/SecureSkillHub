@@ -1,0 +1,34 @@
+{
+  "id": "mcp-server-5637a72c",
+  "name": "MCP-Server",
+  "description": "This MCP server lets AI assistants access and search your private documents, codebases, and latest tech info. It processes Markdown, text, and PDFs into a searchable database, extending AI knowledge beyond training data. Built with Docker, supports free and paid embeddings, and keeps AI updated with your data.",
+  "repo_url": "https://github.com/donphi/MCP-Server",
+  "source_hub": "mcp_so",
+  "owner": "donphi",
+  "stars": 8,
+  "primary_language": "unknown",
+  "tags": [
+    "data",
+    "data-ai",
+    "data-ai-nlp",
+    "data-db",
+    "data-db-vector",
+    "dev",
+    "dev-devops-docker",
+    "dev-testing",
+    "prod-docs",
+    "util-search"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "4b2f550f9507893c5b8b3fb5db1a6388a1884eb3",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 27,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:42:34Z",
+  "verification_level": "scanner_only"
+}

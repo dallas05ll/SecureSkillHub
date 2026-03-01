@@ -1,0 +1,26 @@
+{
+  "id": "ip-mcp-server-ac2e5078",
+  "name": "ip-mcp-server",
+  "description": "A IP MCP server.",
+  "repo_url": "https://github.com/huangxinping/ip-mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "huangxinping",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "8ca3410d3c630a18e25c038115811981cab489bf",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 2,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:40Z",
+  "verification_level": "scanner_only"
+}

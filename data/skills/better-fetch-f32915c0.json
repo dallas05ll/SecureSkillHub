@@ -1,0 +1,29 @@
+{
+  "id": "better-fetch-f32915c0",
+  "name": "better-fetch",
+  "description": "A powerful Model Context Protocol (MCP) server that intelligently fetches and processes web content with nested URL crawling capabilities. Transform any documentation site or web resource into clean, structured markdown files perfect for AI consumption and analysis.",
+  "repo_url": "https://github.com/flutterninja9/better-fetch",
+  "source_hub": "mcp_so",
+  "owner": "flutterninja9",
+  "stars": 10,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp",
+    "prod-docs",
+    "util-file",
+    "util-search"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "9983b9b66109999688420b7c89950b25d56aa9d9",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 7,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:42:36Z",
+  "verification_level": "scanner_only"
+}

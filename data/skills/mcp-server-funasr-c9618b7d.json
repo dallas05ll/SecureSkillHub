@@ -1,0 +1,26 @@
+{
+  "id": "mcp-server-funasr-c9618b7d",
+  "name": "mcp-server-funasr",
+  "description": "MCPServer is a Python-based server that leverages Alibaba's FunASR library to provide speech processing services through the FastMCP framework.",
+  "repo_url": "https://github.com/radial-hks/mcp-server-funasr",
+  "source_hub": "mcp_so",
+  "owner": "radial-hks",
+  "stars": 3,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai-audio",
+    "dev-web-backend-python"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "3647402b581cc701cdffbbbc5212a174034f090d",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 11,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:04:51Z",
+  "verification_level": "scanner_only"
+}

@@ -1,0 +1,25 @@
+{
+  "id": "worldpay-mcp-d9029ee3",
+  "name": "worldpay-mcp",
+  "description": "MCP Server for Worldpay APIs",
+  "repo_url": "https://github.com/simonwfarrow/worldpay-mcp",
+  "source_hub": "mcp_so",
+  "owner": "simonwfarrow",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "integ"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "55a626cb89f3c148520ff3204ce890327937b6af",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 39,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:42:59Z",
+  "verification_level": "scanner_only"
+}

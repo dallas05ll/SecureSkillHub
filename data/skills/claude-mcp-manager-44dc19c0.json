@@ -1,0 +1,25 @@
+{
+  "id": "claude-mcp-manager-44dc19c0",
+  "name": "claude-mcp-manager",
+  "description": "Script to easily switch between Claude MCP server configurations on macOS.",
+  "repo_url": "https://github.com/BLTGV/claude-mcp-manager",
+  "source_hub": "mcp_so",
+  "owner": "BLTGV",
+  "stars": 1,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "f4b67916b64568bc1a2fa7105f8021fe5340595c",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 10,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:41Z",
+  "verification_level": "scanner_only"
+}

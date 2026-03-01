@@ -1,0 +1,39 @@
+{
+  "id": "pomodoro-system-e9886ffd",
+  "name": "Pomodoro System",
+  "description": "System Skill Pattern reference implementation - Pomodoro timer combining CLI tool, SKILL.md guidelines, and database for persistent state",
+  "repo_url": "https://github.com/jakedahn/pomodoro",
+  "source_hub": "claude_skills_hub",
+  "skill_type": "agent_skill",
+  "owner": "jakedahn",
+  "stars": 28,
+  "forks": 5,
+  "license": "MIT",
+  "primary_language": "markdown",
+  "tags": [
+    "data",
+    "data-db",
+    "util"
+  ],
+  "source_tags": [
+    "cli",
+    "markdown",
+    "database"
+  ],
+  "categories": [
+    "productivity"
+  ],
+  "version": "1.0.0",
+  "requires_code_execution": false,
+  "verification_status": "pass",
+  "overall_score": 88,
+  "risk_level": "low",
+  "verified_commit": null,
+  "scan_summary": null,
+  "findings_summary": {
+    "notes": "Metadata-based verification. Score=88. Signals: stars=28 (>=10, +5); license='MIT' (+5); owner='jakedahn' (+3); primary_language='markdown'; source_hub='claude_skills_hub' (+5). Status: pass. Risk: low."
+  },
+  "trust_level": "medium",
+  "scan_date": "2026-02-26T06:14:56Z",
+  "verification_level": "metadata_only"
+}

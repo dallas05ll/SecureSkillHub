@@ -1,0 +1,27 @@
+{
+  "id": "mssqlclient-mcp-server-a2f78857",
+  "name": "mssqlclient-mcp-server",
+  "description": "A Microsoft SQL Server client implementing the Model Context Protocol (MCP). This server provides SQL query capabilities through a simple MCP interface.",
+  "repo_url": "https://github.com/aadversteeg/mssqlclient-mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "aadversteeg",
+  "stars": 24,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp",
+    "data-db"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "ebb3e6a552f3de16e07d04b98cd30ce558f6d8fe",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 10,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:32:11Z",
+  "verification_level": "scanner_only"
+}

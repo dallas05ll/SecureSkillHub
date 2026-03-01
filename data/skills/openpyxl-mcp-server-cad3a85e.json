@@ -1,0 +1,30 @@
+{
+  "id": "openpyxl-mcp-server-cad3a85e",
+  "name": "openpyxl-mcp-server",
+  "description": "A thin wrapper around the OpenPyXl Python library that exposes some of its features as Model Context Protocol (MCP) server. This allows Claude and other MCP clients to fetch data from Excel files.",
+  "repo_url": "https://github.com/jonemo/openpyxl-mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "jonemo",
+  "stars": 18,
+  "primary_language": "unknown",
+  "tags": [
+    "data",
+    "data-ai",
+    "data-ai-nlp",
+    "dev-web-backend-python",
+    "util-file",
+    "util-search"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "ac1f9cfbcdfd455cdbe67b069e0877f3a5779437",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 5,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:42:36Z",
+  "verification_level": "scanner_only"
+}

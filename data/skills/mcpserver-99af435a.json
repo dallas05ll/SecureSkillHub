@@ -1,0 +1,26 @@
+{
+  "id": "mcpserver-99af435a",
+  "name": "mcpserver",
+  "description": "A sample MCP server",
+  "repo_url": "https://github.com/Vinayak9769/mcpserver",
+  "source_hub": "mcp_so",
+  "owner": "Vinayak9769",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "c43409b591fda4a4811485905028277419d43286",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 4,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:42Z",
+  "verification_level": "scanner_only"
+}

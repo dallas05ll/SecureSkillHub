@@ -1,0 +1,26 @@
+{
+  "id": "spine2d-animation-mcp-6d96e997",
+  "name": "spine2d-animation-mcp",
+  "description": "MCP server for creating SPINE2D animations",
+  "repo_url": "https://github.com/naosen/spine2d-animation-mcp",
+  "source_hub": "mcp_so",
+  "owner": "naosen",
+  "stars": 38,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "103994b09c40d2c008693a875e9f2eae2b7edcf1",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 14,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:32:13Z",
+  "verification_level": "scanner_only"
+}

@@ -1,0 +1,29 @@
+{
+  "id": "agentipy-mcp-server-79045fce",
+  "name": "agentipy-mcp-server",
+  "description": "The Agentipy MCP Server is an open-source Model Context Protocol (MCP) server that enables Claude AI to interact with the Solana blockchain. It provides a standardized interface for AI agents to perform various blockchain operations, including transactions, wallet management, and data queries.",
+  "repo_url": "https://github.com/niceberginc/agentipy-mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "niceberginc",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "data",
+    "data-ai",
+    "data-ai-nlp",
+    "sec-crypto",
+    "repo_unavailable"
+  ],
+  "verification_status": "manual_review",
+  "overall_score": 0,
+  "risk_level": "high",
+  "verified_commit": "",
+  "scan_summary": null,
+  "scan_date": "2026-02-28T20:27:24Z",
+  "findings_summary": {
+    "error": "clone failed: Cloning into '/var/folders/pq/bb71gjzd01d29nnmqrhqr2rc0000gn/T/strict5_agentipy-mcp-server-7904_4p_sz6cx/repo'...\nfatal: could not read Username for 'https://github.com': Device not configured",
+    "supervisor_approved": false,
+    "supervisor_confidence": 0
+  },
+  "repo_status": "unavailable"
+}

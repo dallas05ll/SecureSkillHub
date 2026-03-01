@@ -1,0 +1,28 @@
+{
+  "id": "mcp-server-odoo-21801f02",
+  "name": "mcp-server-odoo",
+  "description": "A Model Context Protocol (MCP) server that enables AI assistants to securely interact with Odoo ERP systems through standardized resources and tools for data retrieval and manipulation.",
+  "repo_url": "https://github.com/ivnvxd/mcp-server-odoo",
+  "source_hub": "mcp_so",
+  "owner": "ivnvxd",
+  "stars": 163,
+  "primary_language": "unknown",
+  "tags": [
+    "data",
+    "data-ai",
+    "data-ai-nlp",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "120653c2909a75c80203637aab896aa03e957f6e",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 64,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-27T06:36:35Z",
+  "verification_level": "scanner_only"
+}

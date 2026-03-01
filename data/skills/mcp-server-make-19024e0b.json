@@ -1,0 +1,26 @@
+{
+  "id": "mcp-server-make-19024e0b",
+  "name": "mcp-server-make",
+  "description": "MCP Server for GNU Make",
+  "repo_url": "https://github.com/wrale/mcp-server-make",
+  "source_hub": "mcp_so",
+  "owner": "wrale",
+  "stars": 9,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "adb3d6fcc62a2f394c7a7429b3bb93758465a874",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 10,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:42:34Z",
+  "verification_level": "scanner_only"
+}

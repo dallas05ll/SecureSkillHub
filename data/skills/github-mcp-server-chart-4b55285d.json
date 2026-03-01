@@ -1,0 +1,25 @@
+{
+  "id": "github-mcp-server-chart-4b55285d",
+  "name": "github-mcp-server-chart",
+  "description": "Helm chart GitHub's official MCP Server",
+  "repo_url": "https://github.com/1995parham/github-mcp-server-chart",
+  "source_hub": "mcp_so",
+  "owner": "1995parham",
+  "stars": 1,
+  "primary_language": "unknown",
+  "tags": [
+    "dev-devops-k8s"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "0babe3c3dc7a4913a748c97d64d2c24a66f428f7",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 11,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:41Z",
+  "verification_level": "scanner_only"
+}

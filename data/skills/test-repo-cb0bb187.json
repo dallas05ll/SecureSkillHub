@@ -1,0 +1,22 @@
+{
+  "id": "test-repo-cb0bb187",
+  "name": "test-repo",
+  "description": "A test repository created using the GitHub MCP server",
+  "repo_url": "https://github.com/vishalkarmalkar/test-repo",
+  "source_hub": "mcp_so",
+  "owner": "vishalkarmalkar",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "dev-testing",
+    "repo_unavailable"
+  ],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null,
+  "repo_status": "unavailable",
+  "repo_check_date": "2026-02-28T20:53:01.166493+00:00",
+  "repo_check_error": "fatal: could not read Username for 'https://github.com': Device not configured"
+}

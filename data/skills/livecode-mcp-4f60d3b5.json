@@ -1,0 +1,25 @@
+{
+  "id": "livecode-mcp-4f60d3b5",
+  "name": "livecode-mcp",
+  "description": "Run io.livecode.ch as an MCP server",
+  "repo_url": "https://github.com/namin/livecode-mcp",
+  "source_hub": "mcp_so",
+  "owner": "namin",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "dev"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "09653a13e0e9fb8dfc40c5dfed92e3d7a0f0a82f",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 4,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:40Z",
+  "verification_level": "scanner_only"
+}

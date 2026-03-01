@@ -1,0 +1,25 @@
+{
+  "id": "excel-to-json-mcp-by-wtsolutions-71a6afa3",
+  "name": "excel-to-json-mcp-by-wtsolutions",
+  "description": "The Excel to JSON MCP (Model Context Protocol) provides a standardized interface for converting Excel and CSV data into JSON format using the Model Context Protocol. This MCP implementation offers two specific tools for data conversion:\n\nexcel_to_json_mcp_from_data: Converts tab-separated or comma-separated text data\nexcel_to_json_mcp_from_url: Converts Excel from a provided URL",
+  "repo_url": "https://github.com/WTSolutions/excel-to-json-mcp-by-wtsolutions",
+  "source_hub": "mcp_so",
+  "owner": "WTSolutions",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "data",
+    "data-ai",
+    "data-ai-nlp",
+    "util",
+    "repo_unavailable"
+  ],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null,
+  "repo_status": "unavailable",
+  "repo_check_date": "2026-02-28T20:51:40.354020+00:00",
+  "repo_check_error": "fatal: could not read Username for 'https://github.com': Device not configured"
+}

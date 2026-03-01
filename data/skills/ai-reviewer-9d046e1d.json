@@ -1,0 +1,26 @@
+{
+  "id": "ai-reviewer-9d046e1d",
+  "name": "ai-reviewer",
+  "description": "Create AI code reviewer that can be used on github and locally through an MCP server",
+  "repo_url": "https://github.com/JFinchy/ai-reviewer",
+  "source_hub": "mcp_so",
+  "owner": "JFinchy",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "dev"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "8710e252623210ca782a28a2e9e66f582d36cb1b",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 1,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:41Z",
+  "verification_level": "scanner_only"
+}

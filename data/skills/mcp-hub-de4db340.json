@@ -1,0 +1,29 @@
+{
+  "id": "mcp-hub-de4db340",
+  "name": "mcp-hub",
+  "description": "MCP Hub is a comprehensive framework for building, managing, and deploying Model Context Protocol (MCP) clients and servers. It provides tools and configurations to enable seamless integration and execution of end-to-end MCP workflows.",
+  "repo_url": "https://github.com/reddy-sh/mcp-hub",
+  "source_hub": "mcp_so",
+  "owner": "reddy-sh",
+  "stars": 2,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp",
+    "integ",
+    "prod",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "1c0a664d3d45dede56f014a8811d9a905e8e96f0",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 68,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:04:51Z",
+  "verification_level": "scanner_only"
+}

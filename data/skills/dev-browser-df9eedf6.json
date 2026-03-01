@@ -1,0 +1,49 @@
+{
+  "id": "dev-browser-df9eedf6",
+  "name": "Dev Browser",
+  "description": "A Claude Code skill that gives agents the ability to control a web browser for testing and verifying work during development. Uses Playwright for browser automation with persistent pages, LLM-friendly DOM snapshots, and optional Chrome extension support for accessing existing browser sessions.",
+  "repo_url": "https://github.com/SawyerHood/dev-browser",
+  "source_hub": "claude_skills_hub",
+  "skill_type": "agent_skill",
+  "owner": "SawyerHood",
+  "stars": 3675,
+  "forks": 236,
+  "license": "MIT",
+  "primary_language": "TypeScript",
+  "tags": [
+    "data-ai",
+    "dev",
+    "dev-testing",
+    "dev-web",
+    "prod",
+    "util-search"
+  ],
+  "source_tags": [
+    "web",
+    "dev",
+    "playwright",
+    "skills",
+    "claude-code"
+  ],
+  "categories": [
+    "dev"
+  ],
+  "version": "1.0.0",
+  "requires_code_execution": false,
+  "verification_status": "pass",
+  "overall_score": 78,
+  "risk_level": "low",
+  "verified_commit": "66682fb0513aec308e68d71740e2b0394a29d884",
+  "scan_summary": null,
+  "findings_summary": {
+    "has_readme": true,
+    "has_security_policy": false,
+    "has_mcp_server": false,
+    "dangerous_patterns": [],
+    "notes": "Well-maintained individual repo by SawyerHood. TypeScript codebase with Playwright browser automation. Has LICENSE (MIT), CONTRIBUTING.md, CI workflow (.github/workflows/ci.yml), pre-commit hooks via Husky, and a test suite in the extension directory. The skill is properly structured under skills/dev-browser/. Active development: last pushed Jan 2025 with 3,675 stars. Missing SECURITY.md is the primary gap. No dangerous patterns detected. Browser automation is scoped to developer testing use-cases. Installable via Claude Code marketplace."
+  },
+  "last_updated": "2026-02-25T22:00:00Z",
+  "trust_level": "medium",
+  "scan_date": "2026-02-25T22:22:01Z",
+  "verification_level": "scanner_only"
+}

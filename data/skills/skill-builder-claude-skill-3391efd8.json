@@ -1,0 +1,28 @@
+{
+  "id": "skill-builder-claude-skill-3391efd8",
+  "name": "skill-builder-claude-skill",
+  "description": "Claude Code skill for creating new skills with templates and best practices",
+  "repo_url": "https://github.com/wrsmith108/skill-builder-claude-skill",
+  "source_hub": "github_search",
+  "skill_type": "agent_skill",
+  "owner": "wrsmith108",
+  "stars": 4,
+  "license": "mit",
+  "primary_language": "markdown",
+  "tags": [
+    "data-ai",
+    "dev"
+  ],
+  "verification_status": "pass",
+  "overall_score": 78,
+  "risk_level": "medium",
+  "verified_commit": null,
+  "scan_summary": null,
+  "last_updated": "2026-02-10T21:53:44Z",
+  "findings_summary": {
+    "notes": "Metadata-based verification. Score=78. Signals: stars=4; license='mit' (+5); owner='wrsmith108' (+3); primary_language='markdown'; source_hub='github_search'. Status: pass. Risk: medium."
+  },
+  "trust_level": "low",
+  "scan_date": "2026-02-26T06:14:56Z",
+  "verification_level": "metadata_only"
+}

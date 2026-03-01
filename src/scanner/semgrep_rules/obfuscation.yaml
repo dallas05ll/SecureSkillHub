@@ -1,0 +1,140 @@
+rules:
+  # -----------------------------------------------------------------------
+  # Python: Encoding and obfuscation patterns
+  # -----------------------------------------------------------------------
+  - id: obfuscation-python-base64-decode
+    languages: [python]
+    severity: WARNING
+    message: >
+      base64 decoding detected. Often used to hide malicious payloads
+      from static analysis.
+    pattern-either:
+      - pattern: base64.b64decode(...)
+      - pattern: base64.b32decode(...)
+      - pattern: base64.b16decode(...)
+      - pattern: base64.decodebytes(...)
+      - pattern: base64.urlsafe_b64decode(...)
+
+  - id: obfuscation-python-base64-encode
+    languages: [python]
+    severity: WARNING
+    message: >
+      base64 encoding detected. May be used to encode data for exfiltration
+      or to hide payloads.
+    pattern-either:
+      - pattern: base64.b64encode(...)
+      - pattern: base64.b32encode(...)
+      - pattern: base64.urlsafe_b64encode(...)
+
+  - id: obfuscation-python-codecs-decode
+    languages: [python]
+    severity: WARNING
+    message: >
+      codecs.decode() detected — may be used for rot13 or other encoding
+      tricks to hide malicious strings.
+    patterns:
+      - pattern: codecs.decode(...)
+
+  - id: obfuscation-python-marshal-loads
+    languages: [python]
+    severity: ERROR
+    message: >
+      marshal.loads() detected — deserializes Python bytecode objects.
+      Can execute arbitrary code and is commonly used in obfuscated malware.
+    patterns:
+      - pattern: marshal.loads(...)
+
+  - id: obfuscation-python-zlib-decompress
+    languages: [python]
+    severity: WARNING
+    message: >
+      zlib.decompress() detected — may decompress hidden payloads.
+    patterns:
+      - pattern: zlib.decompress(...)
+
+  - id: obfuscation-python-exec-decode
+    languages: [python]
+    severity: ERROR
+    message: >
+      exec() with decoded/decompressed content — strong indicator of
+      obfuscated malicious code.
+    patterns:
+      - pattern: exec(base64.b64decode(...))
+      - pattern: exec(zlib.decompress(...))
+      - pattern: exec(codecs.decode(...))
+
+  - id: obfuscation-python-eval-decode
+    languages: [python]
+    severity: ERROR
+    message: >
+      eval() with decoded content — strong indicator of obfuscated
+      malicious code.
+    patterns:
+      - pattern: eval(base64.b64decode(...))
+      - pattern: eval(codecs.decode(...))
+
+  # -----------------------------------------------------------------------
+  # JavaScript / TypeScript: Encoding and obfuscation patterns
+  # -----------------------------------------------------------------------
+  - id: obfuscation-js-atob
+    languages: [javascript, typescript]
+    severity: WARNING
+    message: >
+      atob() base64 decoding detected. May hide malicious payloads.
+    patterns:
+      - pattern: atob(...)
+
+  - id: obfuscation-js-btoa
+    languages: [javascript, typescript]
+    severity: WARNING
+    message: >
+      btoa() base64 encoding detected. May encode data for exfiltration.
+    patterns:
+      - pattern: btoa(...)
+
+  - id: obfuscation-js-buffer-from
+    languages: [javascript, typescript]
+    severity: WARNING
+    message: >
+      Buffer.from() with encoding detected. May be used to decode
+      hidden payloads.
+    pattern-either:
+      - pattern: Buffer.from(..., "base64")
+      - pattern: Buffer.from(..., 'base64')
+      - pattern: Buffer.from(..., "hex")
+      - pattern: Buffer.from(..., 'hex')
+
+  - id: obfuscation-js-fromCharCode
+    languages: [javascript, typescript]
+    severity: WARNING
+    message: >
+      String.fromCharCode() detected — builds strings from char codes,
+      commonly used to evade static analysis.
+    patterns:
+      - pattern: String.fromCharCode(...)
+
+  - id: obfuscation-js-eval-atob
+    languages: [javascript, typescript]
+    severity: ERROR
+    message: >
+      eval(atob(...)) — executes base64-decoded string. Strong indicator
+      of obfuscated malicious code.
+    patterns:
+      - pattern: eval(atob(...))
+
+  - id: obfuscation-js-function-atob
+    languages: [javascript, typescript]
+    severity: ERROR
+    message: >
+      new Function(atob(...)) — creates function from base64-decoded
+      string. Strong indicator of obfuscated malicious code.
+    patterns:
+      - pattern: new Function(atob(...))
+
+  - id: obfuscation-js-unescape
+    languages: [javascript, typescript]
+    severity: WARNING
+    message: >
+      unescape() detected — legacy function that may decode obfuscated strings.
+    patterns:
+      - pattern: unescape(...)

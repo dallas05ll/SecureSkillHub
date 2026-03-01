@@ -1,0 +1,30 @@
+{
+  "id": "grove-public-endpoints-mcp-server-97e127bc",
+  "name": "Grove Public Endpoints MCP Server",
+  "description": "Enables natural language queries and JSON-RPC calls to 69+ blockchain networks through Grove's free public endpoints. Supports Ethereum, Solana, Cosmos chains, and Layer 2 solutions without requiring authentication or API keys.",
+  "repo_url": "https://github.com/buildwithgrove/mcp",
+  "source_hub": "glama",
+  "owner": "pokt-network",
+  "stars": 10,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp",
+    "integ",
+    "sec",
+    "sec-auth",
+    "sec-crypto"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "3635435910ab61cb27e847371337442b570f1d25",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 45,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:42:36Z",
+  "verification_level": "scanner_only"
+}

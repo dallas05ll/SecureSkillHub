@@ -1,0 +1,26 @@
+{
+  "id": "descope-mcp-server-74859d06",
+  "name": "descope-mcp-server",
+  "description": "Interact with Descope's Management APIs to manage users, audit, and more.",
+  "repo_url": "https://github.com/descope-sample-apps/descope-mcp-server-stdio",
+  "source_hub": "glama",
+  "owner": "descope-sample-apps",
+  "stars": 28,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "sec-scan"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 8,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-25T14:26:46Z",
+  "verification_level": "scanner_only"
+}

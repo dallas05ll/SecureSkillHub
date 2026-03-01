@@ -1,0 +1,28 @@
+{
+  "id": "web-search-mcp-219eec8b",
+  "name": "Web_Search_MCP",
+  "description": "An MCP(Model Context Protocol) Server with a web search tool",
+  "repo_url": "https://github.com/memohib/Web_Search_MCP",
+  "source_hub": "mcp_so",
+  "owner": "memohib",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp",
+    "util",
+    "util-search"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "ab52c22ad27e24a5a9cc5ff6379fe01a2c9c7c9a",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 3,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:43:00Z",
+  "verification_level": "scanner_only"
+}

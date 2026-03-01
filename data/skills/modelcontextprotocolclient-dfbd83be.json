@@ -1,0 +1,26 @@
+{
+  "id": "modelcontextprotocolclient-dfbd83be",
+  "name": "ModelContextProtocolClient",
+  "description": "Host with MCP client to call MCP servers for MCP development",
+  "repo_url": "https://github.com/InnoBridge/ModelContextProtocolClient",
+  "source_hub": "mcp_so",
+  "owner": "InnoBridge",
+  "stars": 2,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "0c7bebd88671cffc83598c9bf0cbf08141349392",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 3,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:04:50Z",
+  "verification_level": "scanner_only"
+}

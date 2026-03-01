@@ -1,0 +1,28 @@
+{
+  "id": "mcp-a2a-07652965",
+  "name": "MCP_A2A",
+  "description": "A2A MCP Server is a lightweight Python bridge that lets Claude Desktop or any MCP client talk to A2A agents. It provides three tools: register servers, list agents, and call an agent, enabling quick integration of A2A-compatible agents with zero boilerplate for rapid prototyping.",
+  "repo_url": "https://github.com/regismesquita/MCP_A2A",
+  "source_hub": "mcp_so",
+  "owner": "regismesquita",
+  "stars": 21,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "dev-web-backend-python",
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "3933fe5f81cd03877d11fe4624c486f61fecfa48",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 5,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:32:11Z",
+  "verification_level": "scanner_only"
+}

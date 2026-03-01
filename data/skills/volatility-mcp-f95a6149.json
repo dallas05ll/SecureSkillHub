@@ -1,0 +1,26 @@
+{
+  "id": "volatility-mcp-f95a6149",
+  "name": "volatility-mcp",
+  "description": "This repo hosts an MCP server for volatility3.x",
+  "repo_url": "https://github.com/Gaffx/volatility-mcp",
+  "source_hub": "mcp_so",
+  "owner": "Gaffx",
+  "stars": 39,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "8c9aafcf530f73834ff014e36df09996f97688ef",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 5,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:32:13Z",
+  "verification_level": "scanner_only"
+}

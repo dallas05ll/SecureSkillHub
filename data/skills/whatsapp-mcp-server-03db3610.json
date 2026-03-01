@@ -1,0 +1,23 @@
+{
+  "id": "whatsapp-mcp-server-03db3610",
+  "name": "whatsapp-mcp-server",
+  "description": "whatsapp mcp server consisting of a whatsapp bridge and a mcp server",
+  "repo_url": "https://github.com/whatsapp-automation/whatsapp-mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "whatsapp-automation",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "util",
+    "repo_unavailable"
+  ],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null,
+  "repo_status": "unavailable",
+  "repo_check_date": "2026-02-28T20:53:09.021573+00:00",
+  "repo_check_error": "fatal: could not read Username for 'https://github.com': Device not configured"
+}

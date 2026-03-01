@@ -1,0 +1,26 @@
+{
+  "id": "mcp-manager-2c331b63",
+  "name": "mcp-manager",
+  "description": "simple web ui to manage mcp (model context protocol) servers in the claude app",
+  "repo_url": "https://github.com/ZukAi-MCP/mcp-manager",
+  "source_hub": "mcp_so",
+  "owner": "ZukAi-MCP",
+  "stars": 103,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "99f4a3b57aa7b513e43269727c5391ee07612edd",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 70,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-27T06:40:44Z",
+  "verification_level": "scanner_only"
+}

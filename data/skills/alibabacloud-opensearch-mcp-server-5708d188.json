@@ -1,0 +1,29 @@
+{
+  "id": "alibabacloud-opensearch-mcp-server-5708d188",
+  "name": "alibabacloud-opensearch-mcp-server",
+  "description": "This MCP server equips AI Agents with tools to interact with OpenSearch through a standardized and extensible interface. See our product document for more information.",
+  "repo_url": "https://github.com/aliyun/alibabacloud-opensearch-mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "aliyun",
+  "stars": 11,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "integ-cloud",
+    "prod-docs",
+    "util",
+    "util-search"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "545d26435fbd49cb98febd959b2ff2cab6848d4c",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 11,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:42:34Z",
+  "verification_level": "scanner_only"
+}

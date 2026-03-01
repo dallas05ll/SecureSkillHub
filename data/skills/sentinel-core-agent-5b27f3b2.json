@@ -1,0 +1,28 @@
+{
+  "id": "sentinel-core-agent-5b27f3b2",
+  "name": "Sentinel-Core-Agent",
+  "description": "SentinelCore is an advanced AI agent powered by Model Context Protocol. It can browse the web, interact with local file systems, and is designed to keep evolving with new features. Whether you're looking for a smart assistant, a system manager, or a knowledge guide, SentinelCore adapts to your needs seamlessly.",
+  "repo_url": "https://github.com/bhuvanmdev/Sentinel-Core-Agent",
+  "source_hub": "mcp_so",
+  "owner": "bhuvanmdev",
+  "stars": 1,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp",
+    "util-file",
+    "util-search"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "7698a439c3de06f411f475d68d65f47a1c5816fa",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 11,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:42Z",
+  "verification_level": "scanner_only"
+}

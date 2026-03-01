@@ -1,0 +1,27 @@
+{
+  "id": "seedream-mcp-0d74463d",
+  "name": "seedream_mcp",
+  "description": "基于火山引擎 Seedream 4.0 API 的 MCP（Model Context Protocol）工具集，提供文生图、图生图、多图融合和组图生成等功能。",
+  "repo_url": "https://github.com/tengmmvp/seedream_mcp",
+  "source_hub": "mcp_so",
+  "owner": "tengmmvp",
+  "stars": 6,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp",
+    "integ"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "64931ec525545b723e00e63f5369fb9486d72796",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 49,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:54:04Z",
+  "verification_level": "scanner_only"
+}

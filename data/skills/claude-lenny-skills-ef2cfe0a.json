@@ -1,0 +1,27 @@
+{
+  "id": "claude-lenny-skills-ef2cfe0a",
+  "name": "claude-lenny-skills",
+  "description": "Lenny's Podcast product management skills - 86 actionable PM skills across hiring, strategy, growth, leadership, and more",
+  "repo_url": "https://github.com/LeoLin990405/claude-lenny-skills",
+  "source_hub": "github_search",
+  "skill_type": "agent_skill",
+  "owner": "LeoLin990405",
+  "stars": 3,
+  "license": "mit",
+  "primary_language": "markdown",
+  "tags": [
+    "data-ai"
+  ],
+  "verification_status": "pass",
+  "overall_score": 78,
+  "risk_level": "medium",
+  "verified_commit": null,
+  "scan_summary": null,
+  "last_updated": "2026-02-07T00:22:37Z",
+  "findings_summary": {
+    "notes": "Metadata-based verification. Score=78. Signals: stars=3; license='mit' (+5); owner='LeoLin990405' (+3); primary_language='markdown'; source_hub='github_search'. Status: pass. Risk: medium."
+  },
+  "trust_level": "low",
+  "scan_date": "2026-02-26T06:14:55Z",
+  "verification_level": "metadata_only"
+}

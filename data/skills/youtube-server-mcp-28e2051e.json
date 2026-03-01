@@ -1,0 +1,28 @@
+{
+  "id": "youtube-server-mcp-28e2051e",
+  "name": "youtube-server-mcp",
+  "description": "MCP server for youtube! Allows you to directly search and access transcripts on youtube through a single call in the Claude LLM",
+  "repo_url": "https://github.com/dongjunhahm/youtube-server-mcp",
+  "source_hub": "mcp_so",
+  "owner": "dongjunhahm",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "integ-social",
+    "util-media",
+    "util-search"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "3a3af1df51a88252c4b222d4a81417b2be5eab15",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 8,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:42:59Z",
+  "verification_level": "scanner_only"
+}

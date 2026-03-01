@@ -1,0 +1,26 @@
+{
+  "id": "ts-mcp-client-server-1c6cac05",
+  "name": "ts-mcp-client-server",
+  "description": "MCP client and server with command line chat interface using Anthropic",
+  "repo_url": "https://github.com/oneness/ts-mcp-client-server",
+  "source_hub": "mcp_so",
+  "owner": "oneness",
+  "stars": 5,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "prod-comm"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "fdd63109417b913b4b05f884d64c26ba239addd1",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 9,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:54:02Z",
+  "verification_level": "scanner_only"
+}

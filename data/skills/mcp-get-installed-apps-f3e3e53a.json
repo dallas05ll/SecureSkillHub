@@ -1,0 +1,26 @@
+{
+  "id": "mcp-get-installed-apps-f3e3e53a",
+  "name": "mcp-get-installed-apps",
+  "description": "A Model Context Protocol (MCP) server that provides information about installed applications on your computer, support MacOS and Windows.",
+  "repo_url": "https://github.com/Xutaotaotao/mcp-get-installed-apps",
+  "source_hub": "mcp_so",
+  "owner": "Xutaotaotao",
+  "stars": 3,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "ac42b3cc478e79f41d569acb661e643b0f06b1e0",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 4,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:04:51Z",
+  "verification_level": "scanner_only"
+}

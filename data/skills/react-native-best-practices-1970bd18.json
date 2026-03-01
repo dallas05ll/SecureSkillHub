@@ -1,0 +1,25 @@
+{
+  "id": "react-native-best-practices-1970bd18",
+  "name": "React Native Best Practices",
+  "description": "Agent skill: react-native-best-practices from callstackincubator/agent-skills",
+  "repo_url": "https://github.com/callstackincubator/agent-skills",
+  "source_hub": "skills_sh",
+  "owner": "callstackincubator",
+  "stars": 6500,
+  "primary_language": "unknown",
+  "tags": [
+    "dev-web-frontend-react"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "35d2e956c9fee6d60169a32494906fd98dc5e71c",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 48,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:54:02Z",
+  "verification_level": "scanner_only"
+}

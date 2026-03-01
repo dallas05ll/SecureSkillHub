@@ -1,0 +1,25 @@
+{
+  "id": "mcp-github-discussions-f1453e65",
+  "name": "mcp_github_discussions",
+  "description": "A MCP Server with tools for interfacing with Discussions on Github",
+  "repo_url": "https://github.com/jasona7/mcp_github_discussions",
+  "source_hub": "mcp_so",
+  "owner": "jasona7",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "bb59528dd7016aa54ecd98ec2664823754747c28",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 3,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:40Z",
+  "verification_level": "scanner_only"
+}

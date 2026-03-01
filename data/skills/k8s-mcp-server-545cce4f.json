@@ -1,0 +1,25 @@
+{
+  "id": "k8s-mcp-server-545cce4f",
+  "name": "k8s-mcp-server",
+  "description": "MCP server for all of your needs in k8s ☸️",
+  "repo_url": "https://github.com/MayukhSobo/k8s-mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "MayukhSobo",
+  "stars": 2,
+  "primary_language": "unknown",
+  "tags": [
+    "dev-devops-k8s"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "16edf85efabf977183b238812613d70e83cea00f",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 7,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:04:51Z",
+  "verification_level": "scanner_only"
+}

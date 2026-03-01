@@ -1,0 +1,27 @@
+{
+  "id": "gmail-mcp-server-558fbede",
+  "name": "Gmail-mcp-server",
+  "description": "A model context protocol server for your Gmail",
+  "repo_url": "https://github.com/Quantum-369/Gmail-mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "Quantum-369",
+  "stars": 16,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp",
+    "prod-comm"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "63cb7794b22aabbb50d0d5f2b180b0e72eef854d",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 10,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:42:34Z",
+  "verification_level": "scanner_only"
+}

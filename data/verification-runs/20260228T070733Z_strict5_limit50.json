@@ -1,0 +1,19 @@
+{
+  "started_at": "2026-02-28T07:07:27Z",
+  "finished_at": "2026-02-28T07:07:33Z",
+  "skill_type": "mcp_server",
+  "selected_ids": [
+    "microsoft--playwright-mcp",
+    "browser-use-fb4a9228",
+    "browser-use-mcp-server-577325d5"
+  ],
+  "selected_count": 3,
+  "group_count": 3,
+  "processed_count": 3,
+  "status_counts": {
+    "fail": 3
+  },
+  "stage_failures": {},
+  "retry_ids": [],
+  "remaining_unverified": 0
+}

@@ -1,0 +1,26 @@
+{
+  "id": "flowmcp-666fcdcf",
+  "name": "flowMCP",
+  "description": "A modular framework for building, validating, and testing REST API routes using declarative schemas and zod interfaces.",
+  "repo_url": "https://github.com/a6b8/flowMCP",
+  "source_hub": "mcp_so",
+  "owner": "a6b8",
+  "stars": 1,
+  "primary_language": "unknown",
+  "tags": [
+    "dev-testing",
+    "integ"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "e53247f0eba7df8c964391b882e48271461ef11e",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 88,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:41Z",
+  "verification_level": "scanner_only"
+}

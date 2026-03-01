@@ -1,0 +1,26 @@
+{
+  "id": "vercel-ai-chat-mcp-20048d5b",
+  "name": "vercel-ai-chat-mcp",
+  "description": "Add mcp servers to vercel's open source ai chat",
+  "repo_url": "https://github.com/andrewhuang427/vercel-ai-chat-mcp",
+  "source_hub": "mcp_so",
+  "owner": "andrewhuang427",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "prod-comm"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "87fd94d9bc10854a66d250812025dcdd2ea0a11e",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 150,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:43:00Z",
+  "verification_level": "scanner_only"
+}

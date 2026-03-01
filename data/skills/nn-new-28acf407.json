@@ -1,0 +1,26 @@
+{
+  "id": "nn-new-28acf407",
+  "name": "NN-New",
+  "description": "created from MCP server demo",
+  "repo_url": "https://github.com/ninilang/NN-New",
+  "source_hub": "mcp_so",
+  "owner": "ninilang",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "4fcd627b76ccc476268b519f7db8afc570cd4f4a",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 1,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:40Z",
+  "verification_level": "scanner_only"
+}

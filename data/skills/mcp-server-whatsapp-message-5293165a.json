@@ -1,0 +1,26 @@
+{
+  "id": "mcp-server-whatsapp-message-5293165a",
+  "name": "mcp-server-whatsapp-message",
+  "description": "MCP to send message using Meta whatsapp API",
+  "repo_url": "https://github.com/deuslirio/mcp-server-whatsapp-message",
+  "source_hub": "mcp_so",
+  "owner": "deuslirio",
+  "stars": 1,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "prod-comm"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "64ca8cc60b3be5d8a83d41d9e8ef4c0dd6084261",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 6,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:40Z",
+  "verification_level": "scanner_only"
+}

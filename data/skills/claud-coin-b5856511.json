@@ -1,0 +1,25 @@
+{
+  "id": "claud-coin-b5856511",
+  "name": "claud-coin",
+  "description": "$CLAUDE Decentralized AI-Dev Ecosystem",
+  "repo_url": "https://github.com/seanivore/claud-coin",
+  "source_hub": "mcp_so",
+  "owner": "seanivore",
+  "stars": 2,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "dddab24d7afdc9acc0917f915b4b536f79a04536",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 49,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:04:50Z",
+  "verification_level": "scanner_only"
+}

@@ -1,0 +1,27 @@
+{
+  "id": "mcp-tools-cli-49ad6622",
+  "name": "mcp-tools-cli",
+  "description": "command-line client for interacting with Model Context Protocol (MCP) servers.",
+  "repo_url": "https://github.com/moritalous/mcp-tools-cli",
+  "source_hub": "mcp_so",
+  "owner": "moritalous",
+  "stars": 2,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "514800fdf94bd104cd98e8fa9b39506268b781a2",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 7,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:04:51Z",
+  "verification_level": "scanner_only"
+}

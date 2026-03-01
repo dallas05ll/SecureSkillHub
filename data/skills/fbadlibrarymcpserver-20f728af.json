@@ -1,0 +1,30 @@
+{
+  "id": "fbadlibrarymcpserver-20f728af",
+  "name": "FbAdLibraryMCPServer",
+  "description": "Build a Model Context Protocol (MCP) server that provides access to Facebook's Ad Library through web scraping. The server should allow clients to search for advertisements with various filters and retrieve comprehensive ad data.",
+  "repo_url": "https://github.com/StinCodes/FbAdLibraryMCPServer",
+  "source_hub": "mcp_so",
+  "owner": "StinCodes",
+  "stars": 2,
+  "primary_language": "unknown",
+  "tags": [
+    "data",
+    "data-ai",
+    "data-ai-nlp",
+    "integ",
+    "integ-social",
+    "util-search"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "c42fe689cf89abc21bc55adb0c73ff51c67d030c",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 10,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:04:51Z",
+  "verification_level": "scanner_only"
+}

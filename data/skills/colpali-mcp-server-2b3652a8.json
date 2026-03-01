@@ -1,0 +1,26 @@
+{
+  "id": "colpali-mcp-server-2b3652a8",
+  "name": "colpali_mcp_server",
+  "description": "mcp server for Colpali (text-rich images) retrieval",
+  "repo_url": "https://github.com/camillebrl/colpali_mcp_server",
+  "source_hub": "mcp_so",
+  "owner": "camillebrl",
+  "stars": 1,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai-nlp",
+    "data-ai-vision"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "58a4d5d094c4d7f09d924ca9f0999a1b2c5d963f",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 21,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:41Z",
+  "verification_level": "scanner_only"
+}

@@ -1,0 +1,26 @@
+{
+  "id": "jetson-mcp-d0897a77",
+  "name": "jetson-mcp",
+  "description": "A MCP server for using natural language to monitor and remote control a Nvidia Jetson board",
+  "repo_url": "https://github.com/Zalmotek/jetson-mcp",
+  "source_hub": "mcp_so",
+  "owner": "Zalmotek",
+  "stars": 10,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai-nlp",
+    "util-monitor"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "bd54fab5d0495877a6085e1e69a9849332b7241e",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 5,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:42:34Z",
+  "verification_level": "scanner_only"
+}

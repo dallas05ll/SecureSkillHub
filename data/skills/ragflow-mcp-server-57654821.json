@@ -1,0 +1,25 @@
+{
+  "id": "ragflow-mcp-server-57654821",
+  "name": "ragflow_mcp_server",
+  "description": "A mcp server to retrieve documents from ragflow",
+  "repo_url": "https://github.com/xiangmy21/ragflow_mcp_server",
+  "source_hub": "mcp_so",
+  "owner": "xiangmy21",
+  "stars": 1,
+  "primary_language": "unknown",
+  "tags": [
+    "prod-docs"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "3a456f2cb5e1b35fa91ed6c73024b8d05046c11d",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 3,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:42Z",
+  "verification_level": "scanner_only"
+}

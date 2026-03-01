@@ -1,0 +1,27 @@
+{
+  "id": "marimo-docs-mcp-a69f454b",
+  "name": "marimo-docs-mcp",
+  "description": "A Model Context Protocol (MCP) server that provides programmatic access to the Marimo Documentation.",
+  "repo_url": "https://github.com/StevenBtw/marimo-docs-mcp",
+  "source_hub": "mcp_so",
+  "owner": "StevenBtw",
+  "stars": 12,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp",
+    "prod-docs"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "82fae33b7c4a31a3bc4fceb189a787c51bdb0a4e",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 5,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:42:34Z",
+  "verification_level": "scanner_only"
+}

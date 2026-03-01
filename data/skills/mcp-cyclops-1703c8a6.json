@@ -1,0 +1,26 @@
+{
+  "id": "mcp-cyclops-1703c8a6",
+  "name": "mcp-cyclops",
+  "description": "Model Context Protocol server for Cyclops",
+  "repo_url": "https://github.com/cyclops-ui/mcp-cyclops",
+  "source_hub": "mcp_so",
+  "owner": "cyclops-ui",
+  "stars": 30,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "db5dc1f20930009437cba2ced9f11689a7399b27",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 3,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:32:11Z",
+  "verification_level": "scanner_only"
+}

@@ -1,0 +1,34 @@
+{
+  "id": "ai-design-components-93a50b20",
+  "name": "ai-design-components",
+  "description": "Comprehensive UI/UX and backend component design skills for AI-assisted development with Claude. Covers React components, design systems, deployment on AWS/Azure/GCP, CI pipelines, and more.",
+  "repo_url": "https://github.com/ancoleman/ai-design-components",
+  "source_hub": "github_search",
+  "skill_type": "agent_skill",
+  "owner": "ancoleman",
+  "stars": 290,
+  "forks": 0,
+  "license": "mit",
+  "primary_language": "Python",
+  "tags": [
+    "data-ai",
+    "dev-devops-ci",
+    "dev-web-frontend-react",
+    "integ-cloud",
+    "integ-cloud-aws",
+    "integ-cloud-azure",
+    "integ-cloud-gcp"
+  ],
+  "verification_status": "pass",
+  "overall_score": 83,
+  "risk_level": "low",
+  "verified_commit": null,
+  "scan_summary": null,
+  "findings_summary": {
+    "notes": "Repository confirmed (290 stars, MIT, Python, created Nov 2025). Extensive skills/ directory with 20+ skills covering UI components, networking, cloud deployment, debugging, and backend design. .claude-plugin/ present. Comprehensive install.sh (v3.0) with interactive mode, marketplace management, and plugin install/uninstall commands. CONTRIBUTING.md, CODE_OF_CONDUCT.md, SETUP.md, CHANGELOG.md present. VERSION file tracks releases. Also includes .claude-commands/ and evaluation/ directories. Well-maintained with structured release process. No security concerns found."
+  },
+  "last_updated": "2026-02-25T11:23:43Z",
+  "trust_level": "low",
+  "scan_date": "2026-02-26T02:22:52Z",
+  "verification_level": "scanner_only"
+}

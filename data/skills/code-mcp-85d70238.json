@@ -1,0 +1,26 @@
+{
+  "id": "code-mcp-85d70238",
+  "name": "code-mcp",
+  "description": "Reusable MCP server setup to augment AI coding agents with specific repo guidelines",
+  "repo_url": "https://github.com/jtmckay/code-mcp",
+  "source_hub": "mcp_so",
+  "owner": "jtmckay",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "dev"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "e9ad6b1ad403f6ed30734c03e56f78b189d78ee4",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 1,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:41Z",
+  "verification_level": "scanner_only"
+}

@@ -1,0 +1,25 @@
+{
+  "id": "translate-server-6d68074b",
+  "name": "translate-server",
+  "description": "一个简单的翻译MCP Server，可以实现单文件或者目录翻译能力，仅支持JSON数据(JSON，JS，TS格式)，根据文件名称自动截取翻译的目标语言，完成自动化处理。",
+  "repo_url": "https://github.com/vlinr/translate-server",
+  "source_hub": "mcp_so",
+  "owner": "vlinr",
+  "stars": 1,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai-nlp"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "ebe0cc3519581cc511f75659d3adf590bcf05782",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 14,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:42Z",
+  "verification_level": "scanner_only"
+}

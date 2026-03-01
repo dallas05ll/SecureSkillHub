@@ -1,0 +1,28 @@
+{
+  "id": "cc-frontend-skills-4879b2bd",
+  "name": "cc-frontend-skills",
+  "description": "Claude Code plugin for creating distinctive, production-grade frontend UIs that avoid generic AI-generated aesthetics, based on Anthropic's blog post.",
+  "repo_url": "https://github.com/oikon48/cc-frontend-skills",
+  "source_hub": "github_search",
+  "skill_type": "agent_skill",
+  "owner": "oikon48",
+  "stars": 63,
+  "license": "mit",
+  "primary_language": "Markdown",
+  "tags": [
+    "data-ai",
+    "dev"
+  ],
+  "verification_status": "pass",
+  "overall_score": 72,
+  "risk_level": "low",
+  "verified_commit": null,
+  "scan_summary": null,
+  "last_updated": "2026-02-24T11:34:54Z",
+  "findings_summary": {
+    "notes": "MIT licensed, recently active. Inspired by official Anthropic blog post on frontend design through skills. Good provenance."
+  },
+  "trust_level": "low",
+  "scan_date": "2026-02-26T02:12:11Z",
+  "verification_level": "scanner_only"
+}

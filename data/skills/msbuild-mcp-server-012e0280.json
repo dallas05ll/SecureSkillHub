@@ -1,0 +1,26 @@
+{
+  "id": "msbuild-mcp-server-012e0280",
+  "name": "msbuild-mcp-server",
+  "description": "A lightweight MCP (Model Context Protocol) server for building MSBuild projects. Supports dynamic MSBuild discovery using vswhere and provides flexible build configuration options.",
+  "repo_url": "https://github.com/zenoengine/msbuild-mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "zenoengine",
+  "stars": 7,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "146d944209b2a367dbd24298636582dad74ea678",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 3,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:54:02Z",
+  "verification_level": "scanner_only"
+}

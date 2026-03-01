@@ -1,0 +1,26 @@
+{
+  "id": "mcp-server-github-repo-4e83d83f",
+  "name": "mcp-server-github-repo",
+  "description": "MCP server for interacting with a github repo",
+  "repo_url": "https://github.com/loglmhq/mcp-server-github-repo",
+  "source_hub": "mcp_so",
+  "owner": "loglmhq",
+  "stars": 6,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "15e6eca15d33cb2528896ef3e2b5b401b92ddb43",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 5,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:54:04Z",
+  "verification_level": "scanner_only"
+}

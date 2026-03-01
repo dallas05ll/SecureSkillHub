@@ -1,0 +1,25 @@
+{
+  "id": "auto-tool-switcher-4392b1b6",
+  "name": "auto-tool-switcher",
+  "description": "A MCP server that allows your client to switch MCP servers so you don't run in to a tool limit.",
+  "repo_url": "https://github.com/Maiks-Dev-Team/auto-tool-switcher",
+  "source_hub": "mcp_so",
+  "owner": "Maiks-Dev-Team",
+  "stars": 1,
+  "primary_language": "unknown",
+  "tags": [
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "99ab9b8434347cba71b066db61b5c15e1546df30",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 33,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:41Z",
+  "verification_level": "scanner_only"
+}

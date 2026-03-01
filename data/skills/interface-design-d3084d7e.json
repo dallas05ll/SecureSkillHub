@@ -1,0 +1,23 @@
+{
+  "id": "interface-design-d3084d7e",
+  "name": "Interface Design",
+  "description": "Agent skill: interface-design from dammyjay93/interface-design",
+  "repo_url": "https://github.com/dammyjay93/interface-design",
+  "source_hub": "skills_sh",
+  "owner": "dammyjay93",
+  "stars": 5900,
+  "primary_language": "unknown",
+  "tags": [],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "8c407c1c42890010a9eb403a9f419b1eeadcfdad",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 4,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:54:02Z",
+  "verification_level": "scanner_only"
+}

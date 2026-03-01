@@ -1,0 +1,26 @@
+{
+  "id": "weather-server-665d13cb",
+  "name": "weather-server",
+  "description": "TypeScript-based MCP server that implements a weather information system.",
+  "repo_url": "https://github.com/chaminda360/weather-server",
+  "source_hub": "mcp_so",
+  "owner": "chaminda360",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "caec961d9fac15d09a0fb859f1569d2cc5ad33b5",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 6,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:42:59Z",
+  "verification_level": "scanner_only"
+}

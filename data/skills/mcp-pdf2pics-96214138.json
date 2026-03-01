@@ -1,0 +1,26 @@
+{
+  "id": "mcp-pdf2pics-96214138",
+  "name": "mcp-pdf2pics",
+  "description": "pdf to pictures mcp server",
+  "repo_url": "https://github.com/gfhe/mcp-pdf2pics",
+  "source_hub": "mcp_so",
+  "owner": "gfhe",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "3c5dcba2326ea7cff0b0f2f3f6393e7f1343a75e",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 6,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:42Z",
+  "verification_level": "scanner_only"
+}

@@ -1,0 +1,26 @@
+{
+  "id": "mcp-server-adc59c9b",
+  "name": "mcp-server",
+  "description": "MCP Server for DealX platform",
+  "repo_url": "https://github.com/DealExpress/mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "DealExpress",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "ee92397c969e1d2e1b71c7c9a87e262daa22cb10",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 10,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:40Z",
+  "verification_level": "scanner_only"
+}

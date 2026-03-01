@@ -1,0 +1,24 @@
+{
+  "id": "gopls-ce7fbe0c",
+  "name": "gopls",
+  "description": "An MCP (Model Context Protocol) server that wraps gopls to provide Go language server features.",
+  "repo_url": "https://github.com/Yantrio/gopls",
+  "source_hub": "mcp_so",
+  "owner": "Yantrio",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp",
+    "dev-web-backend-go",
+    "repo_unavailable"
+  ],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null,
+  "repo_status": "unavailable",
+  "repo_check_date": "2026-02-28T20:51:47.923181+00:00",
+  "repo_check_error": "fatal: could not read Username for 'https://github.com': Device not configured"
+}

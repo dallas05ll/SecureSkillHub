@@ -1,0 +1,26 @@
+{
+  "id": "php-mcp-protocol-server-1e502304",
+  "name": "php-mcp-protocol-server",
+  "description": "Servidor MCP para PHP Universal - integra PHP com o protocolo Model Context Protocol",
+  "repo_url": "https://github.com/Lucasdoreac/php-mcp-protocol-server",
+  "source_hub": "mcp_so",
+  "owner": "Lucasdoreac",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "ba29d84c53e6fc7ac979bbbca281cf8f36865766",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 4,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:41Z",
+  "verification_level": "scanner_only"
+}

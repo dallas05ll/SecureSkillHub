@@ -1,0 +1,25 @@
+{
+  "id": "mcp-on-cloudrun-d2cd039e",
+  "name": "mcp-on-cloudrun",
+  "description": "Deploy and host a remote MCP server on Cloud Run",
+  "repo_url": "https://github.com/jackwotherspoon/mcp-on-cloudrun",
+  "source_hub": "mcp_so",
+  "owner": "jackwotherspoon",
+  "stars": 7,
+  "primary_language": "unknown",
+  "tags": [
+    "integ-cloud"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "1c8ea6e8326246094c35a7d18997ea0c77e7e6cd",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 5,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:54:02Z",
+  "verification_level": "scanner_only"
+}

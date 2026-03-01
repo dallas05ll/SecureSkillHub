@@ -1,0 +1,31 @@
+{
+  "id": "google-workspace-mcp-2d955b78",
+  "name": "google-workspace-mcp",
+  "description": "A Model Context Protocol (MCP) server that provides authenticated access to Google Workspace APIs, offering integrated Authentication, Gmail, Calendar, and Drive functionality",
+  "repo_url": "https://github.com/aaronsb/google-workspace-mcp",
+  "source_hub": "mcp_so",
+  "owner": "aaronsb",
+  "stars": 120,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp",
+    "integ",
+    "prod-calendar",
+    "prod-comm",
+    "sec",
+    "sec-auth"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "c0d8df820ab36cc9cf36bbfdc51e35555155b623",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 118,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-27T06:40:44Z",
+  "verification_level": "scanner_only"
+}

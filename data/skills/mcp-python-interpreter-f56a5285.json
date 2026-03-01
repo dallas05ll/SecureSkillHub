@@ -1,0 +1,26 @@
+{
+  "id": "mcp-python-interpreter-f56a5285",
+  "name": "mcp-python-interpreter",
+  "description": "MCP Python Interpreter: run python code.",
+  "repo_url": "https://github.com/yzfly/mcp-python-interpreter",
+  "source_hub": "mcp_so",
+  "owner": "yzfly",
+  "stars": 90,
+  "primary_language": "unknown",
+  "tags": [
+    "dev",
+    "dev-web-backend-python"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "cde1ebd5f7614ffbc6dfab64d0c5ccab1469b234",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 5,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-27T06:40:44Z",
+  "verification_level": "scanner_only"
+}

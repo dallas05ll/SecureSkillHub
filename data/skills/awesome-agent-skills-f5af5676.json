@@ -1,0 +1,32 @@
+{
+  "id": "awesome-agent-skills-f5af5676",
+  "name": "awesome-agent-skills",
+  "description": "🚀 Explore modular agent skills for dynamic AI development, enabling on-demand knowledge injection through standardized `SKILL.md` packages.",
+  "repo_url": "https://github.com/jrmapa/awesome-agent-skills",
+  "source_hub": "github_search",
+  "skill_type": "agent_skill",
+  "owner": "jrmapa",
+  "stars": 3,
+  "license": "",
+  "primary_language": "Markdown",
+  "tags": [
+    "data-ai"
+  ],
+  "verification_status": "pass",
+  "overall_score": 78,
+  "risk_level": "low",
+  "verified_commit": null,
+  "scan_summary": null,
+  "last_updated": "2026-02-25T12:20:47Z",
+  "findings_summary": {
+    "has_readme": true,
+    "has_security_policy": false,
+    "has_mcp_server": false,
+    "dangerous_patterns": [],
+    "notes": "Awesome-list only. No executable code. Includes security warning. MIT. 8k stars."
+  },
+  "duplicate_of": "VoltAgent--awesome-agent-skills",
+  "trust_level": "low",
+  "scan_date": "2026-02-25T23:13:52Z",
+  "verification_level": "scanner_only"
+}

@@ -1,0 +1,25 @@
+{
+  "id": "mcp-rag-5fbca358",
+  "name": "MCP-RAG",
+  "description": "MCP server Implantation for RAG (GroundX API)",
+  "repo_url": "https://github.com/sujithadr/MCP-RAG",
+  "source_hub": "mcp_so",
+  "owner": "sujithadr",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "integ"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "8e4390a73cffc3308054d737dd2ddd6a943d8d8e",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 11,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:40Z",
+  "verification_level": "scanner_only"
+}

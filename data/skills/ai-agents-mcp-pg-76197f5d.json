@@ -1,0 +1,26 @@
+{
+  "id": "ai-agents-mcp-pg-76197f5d",
+  "name": "ai-agents-mcp-pg",
+  "description": "This repo is an extension of PostgreSQL MCP Server providing functionalities to create tables, insert entries, update entries, delete entries, and drop tables.",
+  "repo_url": "https://github.com/vignesh-codes/ai-agents-mcp-pg",
+  "source_hub": "mcp_so",
+  "owner": "vignesh-codes",
+  "stars": 27,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-db"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "9899b75dbc5e735cf2fa8e9bde473d0d63c02413",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 5,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:32:11Z",
+  "verification_level": "scanner_only"
+}

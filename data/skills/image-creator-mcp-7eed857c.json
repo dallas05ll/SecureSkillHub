@@ -1,0 +1,27 @@
+{
+  "id": "image-creator-mcp-7eed857c",
+  "name": "image-creator-mcp",
+  "description": "Model Context Protocol (MCP) server enabling AI clients (Cline, Claude Desktop) to generate images using OpenAI (DALL-E 3, gpt-image-1) and save them directly to the user's project directory.",
+  "repo_url": "https://github.com/dfeirstein/image-creator-mcp",
+  "source_hub": "mcp_so",
+  "owner": "dfeirstein",
+  "stars": 2,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp",
+    "data-ai-vision"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "2c7a5cae02330ed91923adea53caa8206ebab42b",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 14,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:04:51Z",
+  "verification_level": "scanner_only"
+}

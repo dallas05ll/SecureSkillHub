@@ -1,0 +1,27 @@
+{
+  "id": "filemaker-mcp-local-3ccc9a00",
+  "name": "filemaker_mcp_local",
+  "description": "Local dynamic mcp server for FileMaker databases",
+  "repo_url": "https://github.com/mw777eds/filemaker_mcp_local",
+  "source_hub": "mcp_so",
+  "owner": "mw777eds",
+  "stars": 2,
+  "primary_language": "unknown",
+  "tags": [
+    "data",
+    "data-db",
+    "util-file"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "057be7ec0059e33998e05737c23eea09da585e76",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 5,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:04:50Z",
+  "verification_level": "scanner_only"
+}

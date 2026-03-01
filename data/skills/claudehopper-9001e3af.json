@@ -1,0 +1,26 @@
+{
+  "id": "claudehopper-9001e3af",
+  "name": "ClaudeHopper",
+  "description": "A macOS menu bar application that helps manage MCP (Model Context Protocol) servers for Claude Desktop.",
+  "repo_url": "https://github.com/Arborist-ai/ClaudeHopper",
+  "source_hub": "mcp_so",
+  "owner": "Arborist-ai",
+  "stars": 4,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "f6e41767004d864513ad803a55b24a24ce4dee29",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 43,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:54:02Z",
+  "verification_level": "scanner_only"
+}

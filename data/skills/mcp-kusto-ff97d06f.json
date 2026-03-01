@@ -1,0 +1,26 @@
+{
+  "id": "mcp-kusto-ff97d06f",
+  "name": "mcp-kusto",
+  "description": "An MCP Server for Azure Kusto",
+  "repo_url": "https://github.com/ashishroy077/mcp-kusto",
+  "source_hub": "mcp_so",
+  "owner": "ashishroy077",
+  "stars": 3,
+  "primary_language": "unknown",
+  "tags": [
+    "integ-cloud",
+    "integ-cloud-azure"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "d43b0f9ada6fb489d1a7b893b3c61e4e22f1d45b",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 22,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:04:51Z",
+  "verification_level": "scanner_only"
+}

@@ -1,0 +1,26 @@
+{
+  "id": "mcp-servers-040d7173",
+  "name": "mcp-servers",
+  "description": "This is a collection of example MCP Servers for development.",
+  "repo_url": "https://github.com/getjotsu/mcp-servers",
+  "source_hub": "mcp_so",
+  "owner": "getjotsu",
+  "stars": 2,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "507ce5832b0126fa5eb71d77066f6e2c8907a37f",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 52,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:04:51Z",
+  "verification_level": "scanner_only"
+}

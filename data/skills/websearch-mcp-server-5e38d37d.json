@@ -1,0 +1,25 @@
+{
+  "id": "websearch-mcp-server-5e38d37d",
+  "name": "websearch-mcp-server",
+  "description": "MCP server for agent web search",
+  "repo_url": "https://github.com/Howe829/websearch-mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "Howe829",
+  "stars": 15,
+  "primary_language": "unknown",
+  "tags": [
+    "util-search"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "08e97dc81914c9de096ebedee673963c1b394734",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 28,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:42:34Z",
+  "verification_level": "scanner_only"
+}

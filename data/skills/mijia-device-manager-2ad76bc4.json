@@ -1,0 +1,28 @@
+{
+  "id": "mijia-device-manager-2ad76bc4",
+  "name": "mijia-device-manager",
+  "description": "管理和控制小米/米家智能家居设备的SIKIL，兼容claude code或openclaw等agent，支持设备发现、开关控制、亮度调节、颜色设置等功能。",
+  "repo_url": "https://github.com/dean2021/mijia-device-manager",
+  "source_hub": "github_search",
+  "skill_type": "agent_skill",
+  "owner": "dean2021",
+  "stars": 45,
+  "license": "",
+  "primary_language": "markdown",
+  "tags": [
+    "data-ai",
+    "dev"
+  ],
+  "verification_status": "pass",
+  "overall_score": 78,
+  "risk_level": "medium",
+  "verified_commit": null,
+  "scan_summary": null,
+  "last_updated": "2026-02-24T19:28:16Z",
+  "findings_summary": {
+    "notes": "Metadata-based verification. Score=78. Signals: stars=45 (>=10, +5); no license detected; owner='dean2021' (+3); primary_language='markdown'; source_hub='github_search'. Status: pass. Risk: medium."
+  },
+  "trust_level": "low",
+  "scan_date": "2026-02-26T06:14:56Z",
+  "verification_level": "metadata_only"
+}

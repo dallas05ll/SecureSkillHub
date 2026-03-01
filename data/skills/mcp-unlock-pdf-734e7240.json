@@ -1,0 +1,26 @@
+{
+  "id": "mcp-unlock-pdf-734e7240",
+  "name": "mcp-unlock-pdf",
+  "description": "MCP server to give client the ability read protected (or un-unprotected) PDF",
+  "repo_url": "https://github.com/algonacci/mcp-unlock-pdf",
+  "source_hub": "mcp_so",
+  "owner": "algonacci",
+  "stars": 2,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "632a67ae9b41f50d683e4ab9f1560e971d40f172",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 3,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:04:50Z",
+  "verification_level": "scanner_only"
+}

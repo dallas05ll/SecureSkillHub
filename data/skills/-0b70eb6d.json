@@ -1,0 +1,26 @@
+{
+  "id": "-0b70eb6d",
+  "name": "腾讯云直播服务",
+  "description": "本项目主要为大语言模型提供通过自然语言调用腾讯云直播API，管理腾讯云直播服务的能力。",
+  "repo_url": "https://github.com/willsygao/腾讯云直播服务",
+  "source_hub": "mcp_so",
+  "owner": "willsygao",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "repo_unavailable"
+  ],
+  "verification_status": "manual_review",
+  "overall_score": 0,
+  "risk_level": "high",
+  "verified_commit": "",
+  "scan_summary": null,
+  "scan_date": "2026-02-28T20:27:23Z",
+  "findings_summary": {
+    "error": "clone failed: Cloning into '/var/folders/pq/bb71gjzd01d29nnmqrhqr2rc0000gn/T/strict5_-0b70eb6d_e2p_rdsc/repo'...\nremote: Repository not found.\nfatal: repository 'https://github.com/willsygao/腾讯云直播服务/' not found",
+    "supervisor_approved": false,
+    "supervisor_confidence": 0
+  },
+  "repo_status": "unavailable"
+}

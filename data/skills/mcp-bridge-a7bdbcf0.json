@@ -1,0 +1,26 @@
+{
+  "id": "mcp-bridge-a7bdbcf0",
+  "name": "mcp-bridge",
+  "description": "Mcp bridge to convert stdio servers to sse or streamable http",
+  "repo_url": "https://github.com/brrock/mcp-bridge",
+  "source_hub": "mcp_so",
+  "owner": "brrock",
+  "stars": 8,
+  "primary_language": "unknown",
+  "tags": [
+    "util",
+    "util-media"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "ad46ba285e0ef6096fb1b271e3099cc48a5f75ac",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 37,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:42:34Z",
+  "verification_level": "scanner_only"
+}

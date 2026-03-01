@@ -1,0 +1,26 @@
+{
+  "id": "nearby-search-mcp-caf8de9d",
+  "name": "nearby-search-mcp",
+  "description": "An MCP server for nearby place searches with IP-based location detection.",
+  "repo_url": "https://github.com/kukapay/nearby-search-mcp",
+  "source_hub": "mcp_so",
+  "owner": "kukapay",
+  "stars": 22,
+  "primary_language": "unknown",
+  "tags": [
+    "util-map",
+    "util-search"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "9509a1348a3ee5153d66e659c0ba56ae5cbf03b8",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 3,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:32:12Z",
+  "verification_level": "scanner_only"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "gibber-mcp-4040b720",
+  "name": "gibber-mcp",
+  "description": "Tiny MCP server with cryptography tools, sufficient to establish end-to-end encryption between LLM agents",
+  "repo_url": "https://github.com/anton10xr/gibber-mcp",
+  "source_hub": "mcp_so",
+  "owner": "anton10xr",
+  "stars": 212,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "sec",
+    "sec-crypto",
+    "util"
+  ],
+  "verification_status": "fail",
+  "overall_score": 15,
+  "risk_level": "critical",
+  "verified_commit": "0cd69424737dd3b0515bdddbb95a124c25ea0b8e",
+  "scan_summary": null,
+  "scan_date": "2026-02-27T06:14:31Z"
+}

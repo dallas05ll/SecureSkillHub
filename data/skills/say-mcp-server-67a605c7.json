@@ -1,0 +1,26 @@
+{
+  "id": "say-mcp-server-67a605c7",
+  "name": "say-mcp-server",
+  "description": "MCP server for macOS text-to-speech functionality",
+  "repo_url": "https://github.com/bmorphism/say-mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "bmorphism",
+  "stars": 19,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai-audio",
+    "data-ai-nlp"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "f79862b600dd8cdff09f13e91dda450800ac78a5",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 4,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:42:34Z",
+  "verification_level": "scanner_only"
+}

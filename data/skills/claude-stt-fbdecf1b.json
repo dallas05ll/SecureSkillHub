@@ -1,0 +1,31 @@
+{
+  "id": "claude-stt-fbdecf1b",
+  "name": "claude-stt",
+  "description": "Local speech-to-text plugin for Claude Code using Moonshine ONNX model for on-device audio processing. Push-to-talk via Ctrl+Shift+Space hotkey with ~400ms transcription latency. All audio processed locally with no external service calls.",
+  "repo_url": "https://github.com/jarrodwatts/claude-stt",
+  "source_hub": "github_search",
+  "skill_type": "agent_skill",
+  "owner": "jarrodwatts",
+  "stars": 352,
+  "forks": 32,
+  "license": "MIT",
+  "primary_language": "Python",
+  "tags": [
+    "data-ai",
+    "data-ai-audio",
+    "data-ai-nlp",
+    "dev"
+  ],
+  "verification_status": "pass",
+  "overall_score": 78,
+  "risk_level": "low",
+  "verified_commit": "b7b6d9562ab14dfb170580e168bbcda6a8fd1e3f",
+  "findings_summary": {
+    "notes": "Python-based STT plugin with clean architecture. 352 stars, 32 forks, MIT license, created 2026-01-13, last pushed 2026-02-03. Has CHANGELOG.md, CONTRIBUTING.md, CODE_OF_CONDUCT.md, SECURITY.md. Plugin structure: .claude-plugin/marketplace.json + plugin.json, hooks/hooks.json, scripts/setup.py + exec.py, commands/, tests/, src/claude_stt/. SessionStart hook launches a background daemon: `python3 ${CLAUDE_PLUGIN_ROOT}/scripts/exec.py -m claude_stt.daemon start --background`. setup.py verified: validates Python 3.10+, creates venv, downloads Moonshine model (~200MB). exec.py verified: resolves Python path via uv or .venv, no hardcoded paths. Key security notes: (1) background daemon starts on every session, (2) downloads ~200MB Moonshine model on first setup, (3) requires microphone permission, (4) privacy-positive: all processing local, audio discarded after transcription. 5 open issues. Well-structured code with proper error handling and cross-platform support (macOS/Linux/Windows)."
+  },
+  "scan_summary": "Python plugin with SessionStart hook that starts background STT daemon. Uses exec.py launcher and setup.py bootstrapper. Moonshine ONNX model downloaded on setup. All audio processing is local. Background daemon model warrants review of daemon lifecycle management.",
+  "last_updated": "2026-02-03T00:57:50Z",
+  "trust_level": "low",
+  "scan_date": "2026-02-26T02:04:16Z",
+  "verification_level": "scanner_only"
+}

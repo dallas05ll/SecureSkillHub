@@ -1,0 +1,28 @@
+{
+  "id": "sqlite-mcp-e9f7faaa",
+  "name": "sqlite-mcp",
+  "description": "A lightweight Model Context Protocol (MCP) server that enables Large Language Models (LLMs) to autonomously interact with SQLite databases.",
+  "repo_url": "https://github.com/dubydu/sqlite-mcp",
+  "source_hub": "mcp_so",
+  "owner": "dubydu",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "data",
+    "data-ai",
+    "data-ai-nlp",
+    "data-db"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "139840735ff1f4c73d95b2ffb86db3ad26fd6908",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 8,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:42:59Z",
+  "verification_level": "scanner_only"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "komodo-mcp-b0a56c54",
+  "name": "komodo-mcp",
+  "description": "MCP para Komodo es un servidor de protocolo MCP (Model Context Protocol) que proporciona una interfaz programática completa para gestionar infraestructura Docker a través de la API de Komodo.",
+  "repo_url": "https://github.com/Nonetss/komodo-mcp",
+  "source_hub": "mcp_so",
+  "owner": "Nonetss",
+  "stars": 6,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp",
+    "dev-devops-docker",
+    "integ"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "86972d5dbb8edc3699538b0e9bf07f21c9197159",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 16,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:54:02Z",
+  "verification_level": "scanner_only"
+}

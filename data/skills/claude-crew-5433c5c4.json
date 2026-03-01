@@ -1,0 +1,27 @@
+{
+  "id": "claude-crew-5433c5c4",
+  "name": "claude-crew",
+  "description": "A CLI tool for enhancing Claude Desktop with additional capabilities and workflows",
+  "repo_url": "https://github.com/d-kimuson/claude-crew",
+  "source_hub": "mcp_so",
+  "owner": "d-kimuson",
+  "stars": 43,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "prod",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "804cf0a003c704599906a0f5141ae3a2e9eab537",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 119,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:32:11Z",
+  "verification_level": "scanner_only"
+}

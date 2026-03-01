@@ -1,0 +1,25 @@
+{
+  "id": "commcare-connect-mcp-3cc4da1a",
+  "name": "commcare-connect-mcp",
+  "description": "A proof of concept demo of an MCP server for CommCare Connect",
+  "repo_url": "https://github.com/dimagi/commcare-connect-mcp",
+  "source_hub": "mcp_so",
+  "owner": "dimagi",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "integ"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "9d51909afff2558152543544cbc365701172e7fc",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 5,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:40Z",
+  "verification_level": "scanner_only"
+}

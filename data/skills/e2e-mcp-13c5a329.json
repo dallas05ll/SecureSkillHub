@@ -1,0 +1,27 @@
+{
+  "id": "e2e-mcp-13c5a329",
+  "name": "e2e-mcp",
+  "description": "e2e mcp server to automate validating your ai generated code",
+  "repo_url": "https://github.com/m2rads/e2e-mcp",
+  "source_hub": "mcp_so",
+  "owner": "m2rads",
+  "stars": 3,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "dev",
+    "prod"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "dc1646c22cf0f06ce0b8e373a57e7fd87d242758",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 42,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:04:51Z",
+  "verification_level": "scanner_only"
+}

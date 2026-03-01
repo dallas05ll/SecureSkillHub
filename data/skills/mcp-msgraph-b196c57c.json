@@ -1,0 +1,25 @@
+{
+  "id": "mcp-msgraph-b196c57c",
+  "name": "mcp-msgraph",
+  "description": "A prototype MCP server which reads a user profile from Microsoft Graph.",
+  "repo_url": "https://github.com/kevinbellinger/mcp-msgraph",
+  "source_hub": "mcp_so",
+  "owner": "kevinbellinger",
+  "stars": 1,
+  "primary_language": "unknown",
+  "tags": [
+    "util-file"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "6645a044180c766fa39e22b9ddc2ba6fd5936ae4",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 4,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:41Z",
+  "verification_level": "scanner_only"
+}

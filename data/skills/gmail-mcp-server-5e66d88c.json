@@ -1,0 +1,27 @@
+{
+  "id": "gmail-mcp-server-5e66d88c",
+  "name": "gmail-mcp-server",
+  "description": "Model Context Protocol (MCP) server for Gmail",
+  "repo_url": "https://github.com/jasonsum/gmail-mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "jasonsum",
+  "stars": 68,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp",
+    "prod-comm"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "da273b2e2e7324e9d875a312054fa440db29ddc9",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 4,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-27T06:40:44Z",
+  "verification_level": "scanner_only"
+}

@@ -1,0 +1,26 @@
+{
+  "id": "gatherings-mcp-7ba7e8ed",
+  "name": "gatherings-mcp",
+  "description": "This is a TypeScript-based MCP server, which wraps around a python script. together it helps track expenses and payments for social events, making it easy to calculate reimbursements and settle balances between friends.",
+  "repo_url": "https://github.com/abutbul/gatherings-mcp",
+  "source_hub": "mcp_so",
+  "owner": "abutbul",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "dev-web-backend-python",
+    "integ-payment"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "16037f316baf4243211814e29326d729899c91e5",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 12,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:41Z",
+  "verification_level": "scanner_only"
+}

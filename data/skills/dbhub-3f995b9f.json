@@ -1,0 +1,22 @@
+{
+  "id": "dbhub-3f995b9f",
+  "name": "dbhub",
+  "description": "Universal database MCP server connecting to MySQL, PostgreSQL, Oracle, SQL Server, MariaDB, SQLite.",
+  "repo_url": "https://github.com/bytebase/dbhub",
+  "source_hub": "mcp_so",
+  "owner": "bytebase",
+  "stars": 2177,
+  "primary_language": "unknown",
+  "tags": [
+    "data",
+    "data-db",
+    "integ"
+  ],
+  "verification_status": "pass",
+  "overall_score": 80,
+  "risk_level": "low",
+  "verified_commit": null,
+  "scan_summary": null,
+  "scan_date": "2026-02-26T03:00:50Z",
+  "verification_level": "scanner_only"
+}

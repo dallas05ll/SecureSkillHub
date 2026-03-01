@@ -1,0 +1,29 @@
+{
+  "id": "visual-studio-mcp-server-fb51c071",
+  "name": "visual-studio-mcp-server",
+  "description": "MCP Server for Visual Studio bridges your IDE with AI coding assistants like Claude Code, Cursor, Windsurf, and Cline. \r\n\r\n  Unlike file-based tools, this extension provides what AI agents CAN'T do alone:\r\n  • IntelliSense & semantic code understanding (powered by Roslyn)\r\n  • Symbol search - definitions, usages, inheritance hierarchies\r\n  • Solution/project navigation and document outlines\r\n  • Build execution with clean, structured error output\r\n  • Async test execution with progress tracki...",
+  "repo_url": "https://github.com/Ladislav Sopko/visual-studio-mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "Ladislav Sopko",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "dev",
+    "dev-testing",
+    "prod-docs",
+    "sec-crypto",
+    "util",
+    "util-file",
+    "util-search",
+    "repo_unavailable"
+  ],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null,
+  "repo_status": "unavailable",
+  "repo_check_date": "2026-02-28T20:53:06.569218+00:00",
+  "repo_check_error": "fatal: unable to access 'https://github.com/Ladislav Sopko/visual-studio-mcp-server/': URL rejected: Malformed input to a URL function"
+}

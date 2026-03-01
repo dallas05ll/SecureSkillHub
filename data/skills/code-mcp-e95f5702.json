@@ -1,0 +1,25 @@
+{
+  "id": "code-mcp-e95f5702",
+  "name": "code-mcp",
+  "description": "An MCP Server and companion VSCode Extension.",
+  "repo_url": "https://github.com/block/code-mcp",
+  "source_hub": "mcp_so",
+  "owner": "block",
+  "stars": 76,
+  "primary_language": "unknown",
+  "tags": [
+    "dev"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "0fe81eb8f6e8b3fdd5bb93c5b2066fc5bedccf8d",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 35,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-27T06:40:44Z",
+  "verification_level": "scanner_only"
+}

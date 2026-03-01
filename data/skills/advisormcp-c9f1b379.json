@@ -1,0 +1,26 @@
+{
+  "id": "advisormcp-c9f1b379",
+  "name": "AdvisorMcp",
+  "description": "Test MCP server and client to control advisors api",
+  "repo_url": "https://github.com/Lautarotetamusa/AdvisorMcp",
+  "source_hub": "mcp_so",
+  "owner": "Lautarotetamusa",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "dev-testing",
+    "integ"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "9fe6c04ebc518879d38075667ebc5b3e9e24f4c8",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 8,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:40Z",
+  "verification_level": "scanner_only"
+}

@@ -1,0 +1,25 @@
+{
+  "id": "dart-mcp-server-3d28859f",
+  "name": "DART-mcp-server",
+  "description": "한국의 전자공시시스템 API를 활용하는 mcp 서버",
+  "repo_url": "https://github.com/snaiws/DART-mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "snaiws",
+  "stars": 7,
+  "primary_language": "unknown",
+  "tags": [
+    "integ"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "7fdc7c472c99aef1a0536e43ee4c7963bf4bf4bb",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 320,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:54:02Z",
+  "verification_level": "scanner_only"
+}

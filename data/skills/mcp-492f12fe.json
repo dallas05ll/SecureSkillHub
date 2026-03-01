@@ -1,0 +1,25 @@
+{
+  "id": "mcp-492f12fe",
+  "name": "mcp",
+  "description": "Ask questions and perform actions on your Whatsapp chats with an LLM.",
+  "repo_url": "https://github.com/Periskope/mcp",
+  "source_hub": "mcp_so",
+  "owner": "Periskope",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "prod-comm",
+    "repo_unavailable"
+  ],
+  "verification_status": "pass",
+  "overall_score": 92,
+  "risk_level": "low",
+  "verified_commit": null,
+  "scan_summary": null,
+  "scan_date": "2026-02-26T03:00:50Z",
+  "repo_status": "unavailable",
+  "repo_check_date": "2026-02-28T20:52:00.701034+00:00",
+  "repo_check_error": "fatal: could not read Username for 'https://github.com': Device not configured",
+  "verification_level": "scanner_only"
+}

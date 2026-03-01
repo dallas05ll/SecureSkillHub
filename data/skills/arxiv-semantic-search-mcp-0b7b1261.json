@@ -1,0 +1,29 @@
+{
+  "id": "arxiv-semantic-search-mcp-0b7b1261",
+  "name": "arxiv-semantic-search-mcp",
+  "description": "A lightweight MCP server that lets AI assistants query the arXiv API. It provides two powerful search approaches:\n\n- **Semantic Search**: Uses vector embeddings to understand the meaning of your query, powered by [ArxivSearch](https://hub.arxiv-search.cn)\n  > **Note**: Currently, semantic search only supports papers in Computer Science (cs.*) categories\n- **Keyword Search**: Supports structured queries with multiple filters including categories, date ranges, and field-specific searches\n  > No...",
+  "repo_url": "https://github.com/icyclv/arxiv-semantic-search-mcp",
+  "source_hub": "mcp_so",
+  "owner": "icyclv",
+  "stars": 2,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-db-vector",
+    "integ",
+    "prod-notes",
+    "util-search"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "430114e575f94b4818d4a3169c8127ff76ef24ae",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 8,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:04:50Z",
+  "verification_level": "scanner_only"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "aptos-mcp-server-628ea6fc",
+  "name": "aptos-mcp-server",
+  "description": "A Model Context Protocol (MCP) server for interacting with Aptos documentation and creating full-stack Aptos blockchain applications.",
+  "repo_url": "https://github.com/Tlazypanda/aptos-mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "Tlazypanda",
+  "stars": 1,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp",
+    "prod-docs",
+    "sec-crypto"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "40e217dc02543b0acb0f07590a6e1a2f3a250b74",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 3,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:40Z",
+  "verification_level": "scanner_only"
+}

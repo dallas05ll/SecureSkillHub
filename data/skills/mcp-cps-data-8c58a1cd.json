@@ -1,0 +1,25 @@
+{
+  "id": "mcp-cps-data-8c58a1cd",
+  "name": "mcp-cps-data",
+  "description": "MCP Server for locally hosted data on Chicago Public Schools",
+  "repo_url": "https://github.com/mdagost/mcp-cps-data",
+  "source_hub": "mcp_so",
+  "owner": "mdagost",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "data"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "2bf97fde97f2a83d9efe5bed3cddaae140940a95",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 4,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:42Z",
+  "verification_level": "scanner_only"
+}

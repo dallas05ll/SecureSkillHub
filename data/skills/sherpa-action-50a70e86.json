@@ -1,0 +1,29 @@
+{
+  "id": "sherpa-action-50a70e86",
+  "name": "Sherpa-Action",
+  "description": "AI that ships your code. Deploy to any cloud with plain English.",
+  "repo_url": "https://github.com/sherpa-sh/Sherpa-Action",
+  "source_hub": "github_search",
+  "skill_type": "agent_skill",
+  "owner": "sherpa-sh",
+  "stars": 21,
+  "license": "apache-2.0",
+  "primary_language": "markdown",
+  "tags": [
+    "data-ai",
+    "dev",
+    "integ-cloud"
+  ],
+  "verification_status": "pass",
+  "overall_score": 83,
+  "risk_level": "low",
+  "verified_commit": null,
+  "scan_summary": null,
+  "last_updated": "2026-02-17T21:03:17Z",
+  "findings_summary": {
+    "notes": "Metadata-based verification. Score=83. Signals: stars=21 (>=10, +5); license='apache-2.0' (+5); owner='sherpa-sh' (+3); primary_language='markdown'; source_hub='github_search'. Status: pass. Risk: low."
+  },
+  "trust_level": "low",
+  "scan_date": "2026-02-26T06:14:56Z",
+  "verification_level": "metadata_only"
+}

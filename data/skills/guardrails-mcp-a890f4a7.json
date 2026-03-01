@@ -1,0 +1,26 @@
+{
+  "id": "guardrails-mcp-a890f4a7",
+  "name": "guardrails-mcp",
+  "description": "Enable AI assistants to explore and query your Turbot Guardrails data!",
+  "repo_url": "https://github.com/turbot/guardrails-mcp",
+  "source_hub": "mcp_so",
+  "owner": "turbot",
+  "stars": 4,
+  "primary_language": "unknown",
+  "tags": [
+    "data",
+    "data-ai"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "912a7369ebc3bd4997aefcfbb4c83565f66d24e8",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 34,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:54:04Z",
+  "verification_level": "scanner_only"
+}

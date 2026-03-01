@@ -1,0 +1,30 @@
+{
+  "id": "cloudflare-browser-rendering-mcp-b230b3c9",
+  "name": "cloudflare-browser-rendering-mcp",
+  "description": "This MCP server provides tools for interacting with Cloudflare Browser Rendering, allowing you to fetch and process web content for use as context in LLMs directly from Cline or Claude Desktop.",
+  "repo_url": "https://github.com/amotivv/cloudflare-browser-rendering-mcp",
+  "source_hub": "mcp_so",
+  "owner": "amotivv",
+  "stars": 11,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp",
+    "dev-web",
+    "integ-cloud",
+    "util",
+    "util-search"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "4375ea019e50108f7d5f6c7b3d30ba4c4b69a7c8",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 12,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:42:34Z",
+  "verification_level": "scanner_only"
+}

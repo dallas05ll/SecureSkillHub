@@ -1,0 +1,27 @@
+{
+  "id": "azureappconfigurationhelper-mcp-5efecc53",
+  "name": "AzureAppConfigurationHelper-MCP",
+  "description": "An MCP server that helps people develop application with Azure App Configuration.",
+  "repo_url": "https://github.com/zhiyuanliang-ms/AzureAppConfigurationHelper-MCP",
+  "source_hub": "mcp_so",
+  "owner": "zhiyuanliang-ms",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "integ-cloud",
+    "integ-cloud-azure",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "11b21f25b81f33a9bdd214ff4feeb5b8be9ef1e8",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 9,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:41Z",
+  "verification_level": "scanner_only"
+}

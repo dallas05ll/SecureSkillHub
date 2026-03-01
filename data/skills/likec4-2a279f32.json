@@ -1,0 +1,26 @@
+{
+  "id": "likec4-2a279f32",
+  "name": "LikeC4",
+  "description": "LikeC4 MCP Server provides knowledge of your LikeC4 model to LLMs.\nThis enables you to query your model in natural language:\n- “Lookup LikeC4 model and list all incoming relationships of the backend api”\n- “What elements from the inside of the ‘Backend’ have relations with the legacy database”\n- “List all elements tagged ‘legacy’ from team1 project”\n- “What technologies are used for ui (consider all elements with browser shape)“",
+  "repo_url": "https://github.com/LikeC4/LikeC4",
+  "source_hub": "mcp_so",
+  "owner": "LikeC4",
+  "stars": 2781,
+  "primary_language": "unknown",
+  "tags": [
+    "data",
+    "data-ai",
+    "data-ai-nlp",
+    "data-db",
+    "dev-web",
+    "integ",
+    "util-search"
+  ],
+  "verification_status": "pass",
+  "overall_score": 88,
+  "risk_level": "low",
+  "verified_commit": null,
+  "scan_summary": null,
+  "scan_date": "2026-02-26T03:00:50Z",
+  "verification_level": "scanner_only"
+}

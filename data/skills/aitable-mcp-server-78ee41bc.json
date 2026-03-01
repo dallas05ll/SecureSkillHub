@@ -1,0 +1,28 @@
+{
+  "id": "aitable-mcp-server-78ee41bc",
+  "name": "aitable-mcp-server",
+  "description": "AITable.ai Model Context Protocol Server enables AI agents to connect and work with AITable datasheets.",
+  "repo_url": "https://github.com/apitable/aitable-mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "apitable",
+  "stars": 10,
+  "primary_language": "unknown",
+  "tags": [
+    "data",
+    "data-ai",
+    "data-ai-nlp",
+    "integ"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "0db703e3759d324307888e87b625caf6949ae402",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 9,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:42:34Z",
+  "verification_level": "scanner_only"
+}

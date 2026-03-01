@@ -1,0 +1,29 @@
+{
+  "id": "afterpaths-92990c6e",
+  "name": "afterpaths",
+  "description": "Summarize and search coding sessions, automatically extract rules from session discoveries (dead ends, decisions, gotchas) and benchmark performance across coding agents. Works with Claude Code, Codex CLI and Cursor.",
+  "repo_url": "https://github.com/burnssa/afterpaths",
+  "source_hub": "mcp_so",
+  "owner": "burnssa",
+  "stars": 2,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp",
+    "dev",
+    "prod",
+    "util-search"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "bdf4838d87b10878aa1dda435ef9f2b508a5fc3d",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 35,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:04:51Z",
+  "verification_level": "scanner_only"
+}

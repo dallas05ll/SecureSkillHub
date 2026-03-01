@@ -1,0 +1,28 @@
+{
+  "id": "mcpservers-36211e4c",
+  "name": "mcpservers",
+  "description": "MCP Servers is a platform focused on showcasing and connecting Model Context Protocol servers, providing developers with convenient MCP server discovery and integration services.",
+  "repo_url": "https://github.com/mcpserversvip/mcpservers",
+  "source_hub": "mcp_so",
+  "owner": "mcpserversvip",
+  "stars": 1,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp",
+    "dev",
+    "integ"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "fc5c04562b1e1dba8829be28588ca8594c1d569e",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 1,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:40Z",
+  "verification_level": "scanner_only"
+}

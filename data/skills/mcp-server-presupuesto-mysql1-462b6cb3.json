@@ -1,0 +1,25 @@
+{
+  "id": "mcp-server-presupuesto-mysql1-462b6cb3",
+  "name": "mcp-server-presupuesto-mysql1",
+  "description": "mcp-server-presupuesto-mysql1",
+  "repo_url": "https://github.com/w2pwinlinux/mcp-server-presupuesto-mysql1",
+  "source_hub": "mcp_so",
+  "owner": "w2pwinlinux",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "data-db"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "ba8f1fd7392a15309a5786251d45ac7814df945f",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 11,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:41Z",
+  "verification_level": "scanner_only"
+}

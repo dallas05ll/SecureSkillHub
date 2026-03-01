@@ -1,0 +1,27 @@
+{
+  "id": "apple-notes-mcp-35e3e5e8",
+  "name": "apple-notes-mcp",
+  "description": "Read your Apple Notes with Claude Model Context Protocol",
+  "repo_url": "https://github.com/sirmews/apple-notes-mcp",
+  "source_hub": "mcp_so",
+  "owner": "sirmews",
+  "stars": 125,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp",
+    "prod-notes"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "d4cfb110b8141bf16d7db08b8573e54192cf4873",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 6,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-27T06:40:44Z",
+  "verification_level": "scanner_only"
+}

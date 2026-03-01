@@ -1,0 +1,27 @@
+{
+  "id": "tiktok-mcp-9c9af8fa",
+  "name": "tiktok-mcp",
+  "description": "Model Context Protocol (MCP) with TikTok integration",
+  "repo_url": "https://github.com/Seym0n/tiktok-mcp",
+  "source_hub": "mcp_so",
+  "owner": "Seym0n",
+  "stars": 132,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp",
+    "integ"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "bb9f98c05ca21dc3881ce8a0924f3b168d0f977b",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 5,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-27T06:40:49Z",
+  "verification_level": "scanner_only"
+}

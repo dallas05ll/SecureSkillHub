@@ -1,0 +1,26 @@
+{
+  "id": "mcp-playwright-5514a20a",
+  "name": "mcp-playwright",
+  "description": "Playwright MCP Server 一个基于 FastMCP 框架的专业级 Playwright 浏览器自动化 MCP 服务器，为 LLM 应用提供强大的网页交互和数据提取能力。",
+  "repo_url": "https://github.com/ma-pony/mcp-playwright",
+  "source_hub": "mcp_so",
+  "owner": "ma-pony",
+  "stars": 10,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "dev-testing"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "0c85be489bd61146d4ace32c6027f9a88e80df91",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 18,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:42:34Z",
+  "verification_level": "scanner_only"
+}

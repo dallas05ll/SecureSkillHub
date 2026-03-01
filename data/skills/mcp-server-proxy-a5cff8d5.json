@@ -1,0 +1,25 @@
+{
+  "id": "mcp-server-proxy-a5cff8d5",
+  "name": "mcp-server-proxy",
+  "description": "Converts MCP protocol's SSE transport layer to a standard HTTP request/response.",
+  "repo_url": "https://github.com/leizongmin/mcp-server-proxy",
+  "source_hub": "mcp_so",
+  "owner": "leizongmin",
+  "stars": 22,
+  "primary_language": "unknown",
+  "tags": [
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "ea6340f9a6dd82b3a99f03020544efea228791a1",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 5,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:32:11Z",
+  "verification_level": "scanner_only"
+}

@@ -1,0 +1,26 @@
+{
+  "id": "super-win-cli-mcp-server-30788e4e",
+  "name": "super-win-cli-mcp-server",
+  "description": "Enhanced MCP server with unrestricted system access capabilities",
+  "repo_url": "https://github.com/delorenj/super-win-cli-mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "delorenj",
+  "stars": 7,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "adf15d1cd5055d1c10d971862157258c78e3bc6e",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 12,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:54:04Z",
+  "verification_level": "scanner_only"
+}

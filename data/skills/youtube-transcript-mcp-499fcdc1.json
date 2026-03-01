@@ -1,0 +1,27 @@
+{
+  "id": "youtube-transcript-mcp-499fcdc1",
+  "name": "youtube-transcript-mcp",
+  "description": "MCP server for YouTubeTranscript.dev — extract transcripts, manage history, and power AI assistants with YouTube content.",
+  "repo_url": "https://github.com/Youtube-Transcript-Dev/youtube-transcript-mcp",
+  "source_hub": "mcp_so",
+  "owner": "Youtube-Transcript-Dev",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "integ-social",
+    "util-media"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "5c29885f376459f8e15a949119802ef72849458c",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 20,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:43:00Z",
+  "verification_level": "scanner_only"
+}

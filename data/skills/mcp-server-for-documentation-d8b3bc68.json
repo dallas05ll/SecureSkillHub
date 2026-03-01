@@ -1,0 +1,26 @@
+{
+  "id": "mcp-server-for-documentation-d8b3bc68",
+  "name": "MCP-Server-for-Documentation",
+  "description": "A simple MCP server to search for documentation",
+  "repo_url": "https://github.com/gpreddy172/MCP-Server-for-Documentation",
+  "source_hub": "mcp_so",
+  "owner": "gpreddy172",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "prod-docs",
+    "util-search"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "18bab11daa597a0ce9a0e98d20a52fbfb64f863e",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 3,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:42Z",
+  "verification_level": "scanner_only"
+}

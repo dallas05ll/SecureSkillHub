@@ -1,0 +1,25 @@
+{
+  "id": "sikulix-mcp-server-ea2ff3dc",
+  "name": "SikuliX_mcp_server",
+  "description": "Make use of the SikuliX to build the MCP server for AI Agent to interact with the computer.",
+  "repo_url": "https://github.com/moming2k/SikuliX_mcp_server",
+  "source_hub": "mcp_so",
+  "owner": "moming2k",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "a94b4055aca97a4d87228f5456fa2786141edc65",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 1,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:42:59Z",
+  "verification_level": "scanner_only"
+}

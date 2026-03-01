@@ -1,0 +1,27 @@
+{
+  "id": "claude-mcp-integration-d1293a1d",
+  "name": "claude-mcp-integration",
+  "description": "Claude MCP Server Integration & GitHub Actions",
+  "repo_url": "https://github.com/mokemoke0821/claude-mcp-integration",
+  "source_hub": "mcp_so",
+  "owner": "mokemoke0821",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "dev-devops-ci",
+    "integ"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "5ff4613ac05113a9d0442d0987a92a4d97552175",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 177,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:40Z",
+  "verification_level": "scanner_only"
+}

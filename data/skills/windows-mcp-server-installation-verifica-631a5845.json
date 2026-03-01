@@ -1,0 +1,28 @@
+{
+  "id": "windows-mcp-server-installation-verifica-631a5845",
+  "name": "Windows-MCP-Server-Installation-Verification-Guide",
+  "description": "Windows MCP server setup differs from Mac by requiring absolute file paths and explicit node.exe references instead of npx commands. The installation requires verifying npm and installing packages globally to the AppData\\Roaming\\npm\\node_modules directory. Running servers needs complete paths for both node.exe and the server's index.js file.",
+  "repo_url": "https://github.com/trevorwilkerson/Windows-MCP-Server-Installation-Verification-Guide",
+  "source_hub": "mcp_so",
+  "owner": "trevorwilkerson",
+  "stars": 19,
+  "primary_language": "unknown",
+  "tags": [
+    "data",
+    "dev-web-backend-node",
+    "util-file",
+    "util-search"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "18a5d34cda2af519741ea12c5025eda4cbdd90e4",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 5,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:42:36Z",
+  "verification_level": "scanner_only"
+}

@@ -1,0 +1,27 @@
+{
+  "id": "chroma-mcp-server-b0852269",
+  "name": "chroma_mcp_server",
+  "description": "MCP Server for ChromaDB integration into Cursor with MCP compatible AI models",
+  "repo_url": "https://github.com/djm81/chroma_mcp_server",
+  "source_hub": "mcp_so",
+  "owner": "djm81",
+  "stars": 26,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-db-vector",
+    "integ"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "4401cbbb23e80a2aafcdf99140eed095d87d1ad4",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 196,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:32:11Z",
+  "verification_level": "scanner_only"
+}

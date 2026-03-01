@@ -1,0 +1,26 @@
+{
+  "id": "tencent-rtc-mcp-server-e383c36b",
+  "name": "tencent-rtc-mcp-server",
+  "description": "It exposes Tencent RTC SDK documentation and Tencent RTC API resources to LLM-based tools. This improves the ability of LLM AI Agent to understand and interact with the Tencent RT SDK and API.",
+  "repo_url": "https://github.com/Tencent-RTC/tencent-rtc-mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "Tencent-RTC",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "dev",
+    "integ",
+    "prod-docs",
+    "util",
+    "repo_unavailable"
+  ],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null,
+  "repo_status": "unavailable",
+  "repo_check_date": "2026-02-28T20:53:00.575057+00:00",
+  "repo_check_error": "fatal: could not read Username for 'https://github.com': Device not configured"
+}

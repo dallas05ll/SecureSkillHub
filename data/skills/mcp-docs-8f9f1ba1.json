@@ -1,0 +1,26 @@
+{
+  "id": "mcp-docs-8f9f1ba1",
+  "name": "mcp_docs",
+  "description": "Provide documentation about your Elixir project's functions and functions of dependencies to an LLM through an SSE MCP server.",
+  "repo_url": "https://github.com/josiahdahl/mcp_docs",
+  "source_hub": "mcp_so",
+  "owner": "josiahdahl",
+  "stars": 4,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "prod-docs"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "94d2eda43967cae0e3468e13418b9339c9d6a2a7",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 3,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:54:02Z",
+  "verification_level": "scanner_only"
+}

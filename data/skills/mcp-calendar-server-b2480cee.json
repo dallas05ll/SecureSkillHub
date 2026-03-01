@@ -1,0 +1,25 @@
+{
+  "id": "mcp-calendar-server-b2480cee",
+  "name": "mcp-calendar-server",
+  "description": "Serviço mcp de calendario",
+  "repo_url": "https://github.com/GG3T/mcp-calendar-server",
+  "source_hub": "mcp_so",
+  "owner": "GG3T",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "prod-calendar"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "12b54af84ecb0730391b0590b063861d3cc655bb",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 1,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:40Z",
+  "verification_level": "scanner_only"
+}

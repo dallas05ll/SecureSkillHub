@@ -1,0 +1,25 @@
+{
+  "id": "tinderbox-mcp-978a1033",
+  "name": "tinderbox-mcp",
+  "description": "An MCP server for interacting with the knowledge management tool Tinderbox.",
+  "repo_url": "https://github.com/phkus/tinderbox-mcp",
+  "source_hub": "mcp_so",
+  "owner": "phkus",
+  "stars": 6,
+  "primary_language": "unknown",
+  "tags": [
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "1e9c4d0dd90f63edf2e58661c41978b393bceee9",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 9,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:54:02Z",
+  "verification_level": "scanner_only"
+}

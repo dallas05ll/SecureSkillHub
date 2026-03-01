@@ -1,0 +1,25 @@
+{
+  "id": "ccxt-mcp-95d3129d",
+  "name": "ccxt-mcp",
+  "description": "MCP Server for trading cryptocurrencies",
+  "repo_url": "https://github.com/pcriadoperez/ccxt-mcp",
+  "source_hub": "mcp_so",
+  "owner": "pcriadoperez",
+  "stars": 1,
+  "primary_language": "unknown",
+  "tags": [
+    "sec-crypto"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "1ce3d2d19cff62d0342b11a1b3b9fee4df7655c6",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 21,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:40Z",
+  "verification_level": "scanner_only"
+}

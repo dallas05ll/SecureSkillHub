@@ -1,0 +1,28 @@
+{
+  "id": "multi-chat-mcp-server-e79b367c",
+  "name": "multi-chat-mcp-server",
+  "description": "Google Chat MCP server that lets AI assistants like Claude and Cursor participate directly in team conversations - search messages, help teammates, share files, and coordinate across chat platforms.",
+  "repo_url": "https://github.com/siva010928/multi-chat-mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "siva010928",
+  "stars": 21,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "prod-comm",
+    "util-file",
+    "util-search"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "83291c74c42da60f19b1147742e779a85d269376",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 62,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:32:11Z",
+  "verification_level": "scanner_only"
+}

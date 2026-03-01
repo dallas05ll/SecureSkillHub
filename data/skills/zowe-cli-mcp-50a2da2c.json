@@ -1,0 +1,25 @@
+{
+  "id": "zowe-cli-mcp-50a2da2c",
+  "name": "zowe-cli-mcp",
+  "description": "MCP Server using Zowe SDK",
+  "repo_url": "https://github.com/crshnburn/zowe-cli-mcp",
+  "source_hub": "mcp_so",
+  "owner": "crshnburn",
+  "stars": 1,
+  "primary_language": "unknown",
+  "tags": [
+    "dev"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "c98d641ae5c60dc2b13d5d3de7a58b67714b49e8",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 5,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:42Z",
+  "verification_level": "scanner_only"
+}

@@ -1,0 +1,25 @@
+{
+  "id": "mcp-atendeai-58502e28",
+  "name": "mcp-atendeai",
+  "description": "Server MCP for atendeAi",
+  "repo_url": "https://github.com/ViniciusAmeric/mcp-atendeai",
+  "source_hub": "mcp_so",
+  "owner": "ViniciusAmeric",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "24afb9add058637127c34863a49fb3eb27d11a72",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 1,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:42Z",
+  "verification_level": "scanner_only"
+}

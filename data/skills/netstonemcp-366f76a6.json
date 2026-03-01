@@ -1,0 +1,26 @@
+{
+  "id": "netstonemcp-366f76a6",
+  "name": "NetStoneMCP",
+  "description": "MCP Toolset for FFXIV Lodestone — Integrates NetStone into a modern, natural-language-driven MCP server for character and world data queries.",
+  "repo_url": "https://github.com/dks50217/NetStoneMCP",
+  "source_hub": "mcp_so",
+  "owner": "dks50217",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "data",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "b1ae4f6e41e512ef1766cfac8d75e0d07ba9a361",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 4,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:41Z",
+  "verification_level": "scanner_only"
+}

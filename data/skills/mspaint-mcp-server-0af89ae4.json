@@ -1,0 +1,27 @@
+{
+  "id": "mspaint-mcp-server-0af89ae4",
+  "name": "MSPaint-MCP-Server",
+  "description": "A simple Model Context Protocol (MCP) server client code to solve math problems and show the solution in MSPaint application",
+  "repo_url": "https://github.com/shettysaish20/MSPaint-MCP-Server",
+  "source_hub": "mcp_so",
+  "owner": "shettysaish20",
+  "stars": 1,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp",
+    "dev"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "e3a7c21796e0f6912645402b10a1856da48e7515",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 4,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:41Z",
+  "verification_level": "scanner_only"
+}

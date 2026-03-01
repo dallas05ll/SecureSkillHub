@@ -1,0 +1,26 @@
+{
+  "id": "plane-mcp-server-6ecbfaf4",
+  "name": "plane-mcp-server",
+  "description": "✈ MCP For Plane.so",
+  "repo_url": "https://github.com/Creodot/plane-mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "Creodot",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "9c9721114049fae33c7069ea0075ed8ca7e507a0",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 31,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:40Z",
+  "verification_level": "scanner_only"
+}

@@ -1,0 +1,29 @@
+{
+  "id": "gdrive-sparc-mcp-b5782cfd",
+  "name": "gdrive-sparc-mcp",
+  "description": "Google Drive MCP Server - A Model Context Protocol server for intelligent Google Drive integration with OAuth 2.0, content analysis, and organization insights",
+  "repo_url": "https://github.com/danfeder/gdrive-sparc-mcp",
+  "source_hub": "mcp_so",
+  "owner": "danfeder",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp",
+    "integ",
+    "sec",
+    "sec-auth"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "446f11aa33b3856e9fcc7e198b3d64b3117755c4",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 37,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:40Z",
+  "verification_level": "scanner_only"
+}

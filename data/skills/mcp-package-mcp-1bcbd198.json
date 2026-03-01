@@ -1,0 +1,26 @@
+{
+  "id": "mcp-package-mcp-1bcbd198",
+  "name": "mcp-package-mcp",
+  "description": "MCP package for scorzeth/anki-mcp-server",
+  "repo_url": "https://github.com/manojkumargogula/mcp-package-mcp",
+  "source_hub": "mcp_so",
+  "owner": "manojkumargogula",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "5c5f13afb3bec01a6aa7205c7c04ae64d99e3deb",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 3,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:40Z",
+  "verification_level": "scanner_only"
+}

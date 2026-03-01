@@ -1,0 +1,28 @@
+{
+  "id": "linkedin-mcp-server-f627e2a4",
+  "name": "linkedin-mcp-server",
+  "description": "Model Context Protocol (MCP) server for LinkedIn API integration",
+  "repo_url": "https://github.com/Dishant27/linkedin-mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "Dishant27",
+  "stars": 40,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp",
+    "integ",
+    "integ-social"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "1f6286ac5db085867eb31e7ba14726f2bc33a698",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 9,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:32:12Z",
+  "verification_level": "scanner_only"
+}

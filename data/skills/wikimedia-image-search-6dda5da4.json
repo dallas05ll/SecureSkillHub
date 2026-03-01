@@ -1,0 +1,27 @@
+{
+  "id": "wikimedia-image-search-6dda5da4",
+  "name": "wikimedia-image-search",
+  "description": "An MCP server enabling AI assistants or agents to search Wikimedia Commons images with metadata and visual thumbnails.",
+  "repo_url": "https://github.com/yanexr/wikimedia-image-search",
+  "source_hub": "mcp_so",
+  "owner": "yanexr",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "data",
+    "data-ai",
+    "data-ai-vision",
+    "prod-docs",
+    "util-media",
+    "util-search",
+    "repo_unavailable"
+  ],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null,
+  "repo_status": "unavailable",
+  "repo_check_date": "2026-02-28T20:53:09.478457+00:00",
+  "repo_check_error": "fatal: could not read Username for 'https://github.com': Device not configured"
+}

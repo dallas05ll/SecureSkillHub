@@ -1,0 +1,29 @@
+{
+  "id": "cursormcpmonitor-f4d348c2",
+  "name": "CursorMCPMonitor",
+  "description": "Real-time monitoring tool for Model Context Protocol (MCP) interactions in Cursor AI editor. Track, analyze, and debug AI context exchanges between LLM clients and servers. Supports log rotation, pattern matching, and color-coded event visualization.",
+  "repo_url": "https://github.com/willibrandon/CursorMCPMonitor",
+  "source_hub": "mcp_so",
+  "owner": "willibrandon",
+  "stars": 12,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp",
+    "dev",
+    "util",
+    "util-monitor"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "9e0e9f391ba5f52b035e368849ca40cee3ffd06c",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 13,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:42:36Z",
+  "verification_level": "scanner_only"
+}

@@ -1,0 +1,27 @@
+{
+  "id": "claude-code-mcp-ae529aa9",
+  "name": "claude-code-mcp",
+  "description": "MCP Server connects with claude code local command.",
+  "repo_url": "https://github.com/KunihiroS/claude-code-mcp",
+  "source_hub": "mcp_so",
+  "owner": "KunihiroS",
+  "stars": 34,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "dev",
+    "integ"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "80b78c678eaebf15432a34301c342d2e4b80b7de",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 6,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:32:11Z",
+  "verification_level": "scanner_only"
+}

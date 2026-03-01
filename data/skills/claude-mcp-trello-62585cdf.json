@@ -1,0 +1,28 @@
+{
+  "id": "claude-mcp-trello-62585cdf",
+  "name": "claude-mcp-trello",
+  "description": "A Model Context Protocol (MCP) server that provides tools for interacting with Trello boards.",
+  "repo_url": "https://github.com/hrs-asano/claude-mcp-trello",
+  "source_hub": "mcp_so",
+  "owner": "hrs-asano",
+  "stars": 18,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp",
+    "prod-pm",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "ad126147ec5f75883d84444ff4d6b9512ed4631e",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 11,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:42:34Z",
+  "verification_level": "scanner_only"
+}

@@ -1,0 +1,25 @@
+{
+  "id": "elasticsearch7-mcp-server-890409a8",
+  "name": "elasticsearch7-mcp-server",
+  "description": "elasticsearch7 mcp server",
+  "repo_url": "https://github.com/imlewc/elasticsearch7-mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "imlewc",
+  "stars": 6,
+  "primary_language": "unknown",
+  "tags": [
+    "util-search"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "d92edfb8bde4a1d223f454564b6f9dca89c74eec",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 8,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:54:02Z",
+  "verification_level": "scanner_only"
+}

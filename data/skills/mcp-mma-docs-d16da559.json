@@ -1,0 +1,26 @@
+{
+  "id": "mcp-mma-docs-d16da559",
+  "name": "mcp-mma-docs",
+  "description": "MCP server for checking Mathematica code via local MMA installation",
+  "repo_url": "https://github.com/benhaotang/mcp-mma-docs",
+  "source_hub": "mcp_so",
+  "owner": "benhaotang",
+  "stars": 8,
+  "primary_language": "unknown",
+  "tags": [
+    "dev",
+    "prod-docs"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "1abc9aa97a9bdedf2f2fcaae148c012db1cb3038",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 3,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:42:36Z",
+  "verification_level": "scanner_only"
+}

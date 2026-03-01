@@ -1,0 +1,27 @@
+{
+  "id": "mcp-tavily-search-3e0ee394",
+  "name": "mcp-tavily-search",
+  "description": "A Model Context Protocol (MCP) server that provide search by tavily.",
+  "repo_url": "https://github.com/y7ut/mcp-tavily-search",
+  "source_hub": "mcp_so",
+  "owner": "y7ut",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp",
+    "util-search"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "34d9104ad91ea3c245a69af97e5da130a0430118",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 1,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:40Z",
+  "verification_level": "scanner_only"
+}

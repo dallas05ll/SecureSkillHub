@@ -1,0 +1,26 @@
+{
+  "id": "mcp-agg-5c1f6e77",
+  "name": "mcp-agg",
+  "description": "Aggregate MCP server",
+  "repo_url": "https://github.com/moosh3/mcp-agg",
+  "source_hub": "mcp_so",
+  "owner": "moosh3",
+  "stars": 2,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "673f8fa2dc87c63f728233da7ee13575460615c1",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 112,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:04:50Z",
+  "verification_level": "scanner_only"
+}

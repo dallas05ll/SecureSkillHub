@@ -1,0 +1,26 @@
+{
+  "id": "finvasia-73e67d59",
+  "name": "Finvasia",
+  "description": "MCP Server for Finvasia",
+  "repo_url": "https://github.com/HexaMCP/Finvasia",
+  "source_hub": "mcp_so",
+  "owner": "HexaMCP",
+  "stars": 4,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "e31a39795e1e809b72d7fbe46e9bff75750f18a8",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 12,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:54:02Z",
+  "verification_level": "scanner_only"
+}

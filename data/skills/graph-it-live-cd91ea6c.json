@@ -1,0 +1,27 @@
+{
+  "id": "graph-it-live-cd91ea6c",
+  "name": "Graph-It-Live",
+  "description": "Graph-It-Live VS Code Extension",
+  "repo_url": "https://github.com/magic5644/Graph-It-Live",
+  "source_hub": "github_search",
+  "skill_type": "agent_skill",
+  "owner": "magic5644",
+  "stars": 19,
+  "license": "mit",
+  "primary_language": "markdown",
+  "tags": [
+    "dev"
+  ],
+  "verification_status": "pass",
+  "overall_score": 83,
+  "risk_level": "low",
+  "verified_commit": null,
+  "scan_summary": null,
+  "last_updated": "2026-02-25T11:25:10Z",
+  "findings_summary": {
+    "notes": "Metadata-based verification. Score=83. Signals: stars=19 (>=10, +5); license='mit' (+5); owner='magic5644' (+3); primary_language='markdown'; source_hub='github_search'. Status: pass. Risk: low."
+  },
+  "trust_level": "low",
+  "scan_date": "2026-02-26T06:14:56Z",
+  "verification_level": "metadata_only"
+}

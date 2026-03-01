@@ -1,0 +1,26 @@
+{
+  "id": "pushplus-mcp-server-typescript-ab17cb37",
+  "name": "pushplus-mcp-server-typescript",
+  "description": "pushplus 推送加 MCP Server TypeScript版\n实现了pushplus的消息推送接口",
+  "repo_url": "https://github.com/pushplus/pushplus-mcp-server-typescript",
+  "source_hub": "mcp_so",
+  "owner": "pushplus",
+  "stars": 3,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "e62095b7efcc4376b3d372c01db64a1b77b476f0",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 8,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:04:51Z",
+  "verification_level": "scanner_only"
+}

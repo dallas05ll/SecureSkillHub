@@ -1,0 +1,26 @@
+{
+  "id": "claude-desktop-mcp-server-49b25328",
+  "name": "claude-desktop-mcp-server",
+  "description": "Claude Desktop MCP Server - Local desktop AI agent with file access and notifications",
+  "repo_url": "https://github.com/mows21/claude-desktop-mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "mows21",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "util-file"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "ef206b89a808a25c37db9497da1d0e48351f90f3",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 1,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:40Z",
+  "verification_level": "scanner_only"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "poratiner-ce-mcp-server-1d6a8c71",
+  "name": "poratiner-ce-mcp-server",
+  "description": "A Model Context Protocol (MCP) server implementation for Portainer, enabling AI assistants to interact with Docker containers and services through Portainer's API.",
+  "repo_url": "https://github.com/BirajMainali/poratiner-ce-mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "BirajMainali",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp",
+    "dev-devops-docker",
+    "integ"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "ee4970376229a59ff134a19183b88813396ed7fd",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 8,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:41Z",
+  "verification_level": "scanner_only"
+}

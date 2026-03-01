@@ -1,0 +1,26 @@
+{
+  "id": "mcp-server-docker-ts-5db8b6de",
+  "name": "mcp-server-docker-ts",
+  "description": "TypeScript version of MCP server Docker with remote connection support",
+  "repo_url": "https://github.com/HelloDimension/mcp-server-docker-ts",
+  "source_hub": "mcp_so",
+  "owner": "HelloDimension",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "dev-devops-docker",
+    "integ"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "9041be3381bc8babc30e616ea08f3082c648df05",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 3,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:40Z",
+  "verification_level": "scanner_only"
+}

@@ -1,0 +1,26 @@
+{
+  "id": "groceries-mcp-9ecc160c",
+  "name": "groceries-mcp",
+  "description": "An mcp server for groceries vendors",
+  "repo_url": "https://github.com/o-b-one/groceries-mcp",
+  "source_hub": "mcp_so",
+  "owner": "o-b-one",
+  "stars": 3,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "2a7044b82f0e90191e996abe2cb4c3a23aeae692",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 31,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:04:51Z",
+  "verification_level": "scanner_only"
+}

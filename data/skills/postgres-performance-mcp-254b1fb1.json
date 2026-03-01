@@ -1,0 +1,25 @@
+{
+  "id": "postgres-performance-mcp-254b1fb1",
+  "name": "postgres-performance-mcp",
+  "description": "PostgreSQL performance analysis and optimization MCP server",
+  "repo_url": "https://github.com/rameshv29/postgres-performance-mcp",
+  "source_hub": "mcp_so",
+  "owner": "rameshv29",
+  "stars": 2,
+  "primary_language": "unknown",
+  "tags": [
+    "data-db"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "c14590d7be5bf38758df9bfa66bf015bdadc41f6",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 13,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:04:50Z",
+  "verification_level": "scanner_only"
+}

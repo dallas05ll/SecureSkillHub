@@ -1,0 +1,26 @@
+{
+  "id": "advanced-homeassistant-mcp-46cc912c",
+  "name": "advanced-homeassistant-mcp",
+  "description": "An advanced MCP server for Home Assistant. 🔋 Batteries included.",
+  "repo_url": "https://github.com/jango-blockchained/advanced-homeassistant-mcp",
+  "source_hub": "mcp_so",
+  "owner": "jango-blockchained",
+  "stars": 47,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 270,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-25T14:42:32Z",
+  "verification_level": "scanner_only"
+}

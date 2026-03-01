@@ -1,0 +1,26 @@
+{
+  "id": "payloadcmsmcp-3af20f32",
+  "name": "payloadcmsmcp",
+  "description": "Payload CMS MCP Server",
+  "repo_url": "https://github.com/Matmax-Worldwide/payloadcmsmcp",
+  "source_hub": "mcp_so",
+  "owner": "Matmax-Worldwide",
+  "stars": 107,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "65049f9d5ea24c7706cca87ba99359b5df25429f",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 24,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-27T06:40:43Z",
+  "verification_level": "scanner_only"
+}

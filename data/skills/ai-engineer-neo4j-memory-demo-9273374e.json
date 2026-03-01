@@ -1,0 +1,27 @@
+{
+  "id": "ai-engineer-neo4j-memory-demo-9273374e",
+  "name": "ai-engineer-neo4j-memory-demo",
+  "description": "A short demo of the Neo4j Memory MCP server.",
+  "repo_url": "https://github.com/a-s-g93/ai-engineer-neo4j-memory-demo",
+  "source_hub": "mcp_so",
+  "owner": "a-s-g93",
+  "stars": 5,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-db-graph",
+    "prod-notes"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "d5a549571e8530d875b7373df9b204527270b971",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 1,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:54:02Z",
+  "verification_level": "scanner_only"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "notion-mcp-50fdc0a7",
+  "name": "notion_mcp",
+  "description": "A simple MCP integration that allows Claude to read and manage a personal Notion todo list",
+  "repo_url": "https://github.com/danhilse/notion_mcp",
+  "source_hub": "mcp_so",
+  "owner": "danhilse",
+  "stars": 206,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "integ",
+    "prod-docs"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "medium",
+  "verified_commit": "fec49b95f9a1eb7d27db9433af0b61bc2354f398",
+  "scan_summary": null,
+  "scan_date": "2026-02-27T06:14:34Z",
+  "verification_level": "scanner_only"
+}

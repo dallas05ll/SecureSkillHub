@@ -1,0 +1,26 @@
+{
+  "id": "cursor-memory-mcp-14c05d2a",
+  "name": "cursor-memory-mcp",
+  "description": "The Cursor Memory MCP Server provides a powerful tool to assist in coding with cursor, enpower cursor to operate with memory, make coding taste much more dilicious",
+  "repo_url": "https://github.com/zjmwqx/cursor-memory-mcp",
+  "source_hub": "mcp_so",
+  "owner": "zjmwqx",
+  "stars": 1,
+  "primary_language": "unknown",
+  "tags": [
+    "prod-notes",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "a6492695760f1747cbdcffe7579c07e2b6a7f0c2",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 13,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:41Z",
+  "verification_level": "scanner_only"
+}

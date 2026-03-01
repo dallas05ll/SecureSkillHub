@@ -1,0 +1,26 @@
+{
+  "id": "mcp-server-sparql-f5b10efa",
+  "name": "mcp-server-sparql",
+  "description": "An MCP server for querying SPARQL endpoint.",
+  "repo_url": "https://github.com/ekzhu/mcp-server-sparql",
+  "source_hub": "mcp_so",
+  "owner": "ekzhu",
+  "stars": 8,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "dc41a6dc6fc6f91e8e0dd56741b05e2994cd2eee",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 4,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:42:36Z",
+  "verification_level": "scanner_only"
+}

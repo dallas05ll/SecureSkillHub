@@ -1,0 +1,27 @@
+{
+  "id": "knowledge-tools-mcp-2cf628b5",
+  "name": "knowledge-tools-mcp",
+  "description": "An MCP server for interacting with various research & notetaking applications.",
+  "repo_url": "https://github.com/lhondikoi/knowledge-tools-mcp",
+  "source_hub": "mcp_so",
+  "owner": "lhondikoi",
+  "stars": 1,
+  "primary_language": "unknown",
+  "tags": [
+    "prod-notes",
+    "util",
+    "util-search"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "b33b762fdd1b5b34fd91f0013531b0f90fffba4f",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 1,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:41Z",
+  "verification_level": "scanner_only"
+}

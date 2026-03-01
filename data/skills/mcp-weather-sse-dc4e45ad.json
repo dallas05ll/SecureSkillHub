@@ -1,0 +1,28 @@
+{
+  "id": "mcp-weather-sse-dc4e45ad",
+  "name": "mcp-weather-sse",
+  "description": "An MCP server that connects AI assistants to real-time weather data through OpenWeatherMap API using Server-Sent Events.",
+  "repo_url": "https://github.com/jdhettema/mcp-weather-sse",
+  "source_hub": "mcp_so",
+  "owner": "jdhettema",
+  "stars": 1,
+  "primary_language": "unknown",
+  "tags": [
+    "data",
+    "data-ai",
+    "integ",
+    "util-map"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "813655ae2452370716a2d414716fe6bad35db26f",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 4,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:40Z",
+  "verification_level": "scanner_only"
+}

@@ -1,0 +1,27 @@
+{
+  "id": "mcp-sg-lta-35e122c6",
+  "name": "mcp-sg-lta",
+  "description": "MCP server for Singapore's Land Transport Authority (LTA) DataMall API",
+  "repo_url": "https://github.com/arjunkmrm/mcp-sg-lta",
+  "source_hub": "mcp_so",
+  "owner": "arjunkmrm",
+  "stars": 3,
+  "primary_language": "unknown",
+  "tags": [
+    "data",
+    "integ",
+    "sec"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "2dbaeab855397b93768106efcb721bf86130853d",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 6,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:04:50Z",
+  "verification_level": "scanner_only"
+}

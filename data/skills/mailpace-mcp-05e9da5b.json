@@ -1,0 +1,27 @@
+{
+  "id": "mailpace-mcp-05e9da5b",
+  "name": "mailpace-mcp",
+  "description": "An Model Context Protocol (MCP) Server for Transactional Email Provider MailPace",
+  "repo_url": "https://github.com/mailpace/mailpace-mcp",
+  "source_hub": "mcp_so",
+  "owner": "mailpace",
+  "stars": 1,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp",
+    "prod-comm"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "dd6266b9d8c740998e65810d5bfbecb7c75f4dcb",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 7,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:40Z",
+  "verification_level": "scanner_only"
+}

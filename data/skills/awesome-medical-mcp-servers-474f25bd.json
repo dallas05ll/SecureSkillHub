@@ -1,0 +1,26 @@
+{
+  "id": "awesome-medical-mcp-servers-474f25bd",
+  "name": "awesome-medical-mcp-servers",
+  "description": "A collection of Medical MCP servers.",
+  "repo_url": "https://github.com/sunanhe/awesome-medical-mcp-servers",
+  "source_hub": "mcp_so",
+  "owner": "sunanhe",
+  "stars": 64,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "ac8652db40d1d6f1629a1cacb111ad376ea1ff85",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 2,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-27T06:40:49Z",
+  "verification_level": "scanner_only"
+}

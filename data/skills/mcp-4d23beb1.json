@@ -1,0 +1,21 @@
+{
+  "id": "mcp-4d23beb1",
+  "name": "mcp",
+  "description": "The mcp service collection, including aliyun cli and aliyun log, mysql, redis, and the se service of the common tool collection",
+  "repo_url": "https://github.com/LikeRainDay/mcp",
+  "source_hub": "mcp_so",
+  "owner": "LikeRainDay",
+  "stars": 1,
+  "primary_language": "unknown",
+  "tags": [
+    "data-db",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 92,
+  "risk_level": "low",
+  "verified_commit": null,
+  "scan_summary": null,
+  "scan_date": "2026-02-26T03:00:50Z",
+  "verification_level": "scanner_only"
+}

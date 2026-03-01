@@ -1,0 +1,22 @@
+{
+  "id": "kubernetes-mcp-server-083ef26a",
+  "name": "kubernetes-mcp-server",
+  "description": "Model Context Protocol (MCP) server for Kubernetes and OpenShift",
+  "repo_url": "https://github.com/manusa/kubernetes-mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "manusa",
+  "stars": 1202,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp",
+    "dev-devops-k8s"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "low",
+  "verified_commit": "143bc678507d54483785138324021ca4ad5f4914",
+  "scan_summary": null,
+  "scan_date": "2026-02-26T03:00:50Z",
+  "verification_level": "scanner_only"
+}

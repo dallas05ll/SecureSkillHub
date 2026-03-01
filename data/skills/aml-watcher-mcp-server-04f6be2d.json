@@ -1,0 +1,30 @@
+{
+  "id": "aml-watcher-mcp-server-04f6be2d",
+  "name": "aml-watcher-mcp-server",
+  "description": "AML Watcher – Automated AML Risk Detection & Monitoring\nAML Watcher is a RESTful API solution designed to streamline the detection and monitoring of potential money laundering activities. By automating the screening process for individuals and entities, AML Watcher helps organizations meet regulatory compliance standards while minimizing manual overhead.",
+  "repo_url": "https://github.com/Tech-AML/aml-watcher-mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "Tech-AML",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "integ",
+    "prod",
+    "sec-scan",
+    "util-media",
+    "util-monitor"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "4e307323966860769dd437ca8a9ab26068e76463",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 1,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:40Z",
+  "verification_level": "scanner_only"
+}

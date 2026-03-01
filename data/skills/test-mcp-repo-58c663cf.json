@@ -1,0 +1,25 @@
+{
+  "id": "test-mcp-repo-58c663cf",
+  "name": "test-mcp-repo",
+  "description": "Test repository for MCP server",
+  "repo_url": "https://github.com/tonton2006/test-mcp-repo",
+  "source_hub": "mcp_so",
+  "owner": "tonton2006",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "dev-testing"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "5ab157156b8ad4aeb02ac41ac77dd2e31fa2963e",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 7,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:43:00Z",
+  "verification_level": "scanner_only"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "aider-mcp-upgraded-31a86e9e",
+  "name": "aider-mcp-upgraded",
+  "description": "Aider-MCP is a production-grade MCP server that enables intelligent, parallel AI coding with universal auto-detection across Python, JavaScript, and TypeScript. Features 70% token reduction through smart context extraction, strategic model selection, and comprehensive cost management.",
+  "repo_url": "https://github.com/jacv888/aider-mcp-upgraded",
+  "source_hub": "mcp_so",
+  "owner": "jacv888",
+  "stars": 4,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp",
+    "dev-web-backend-python",
+    "sec-crypto"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "96a0d6c82a8eb8b6e553dcb96f6aeb2fc22dadcf",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 52,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:54:02Z",
+  "verification_level": "scanner_only"
+}

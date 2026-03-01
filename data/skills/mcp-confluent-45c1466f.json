@@ -1,0 +1,26 @@
+{
+  "id": "mcp-confluent-45c1466f",
+  "name": "mcp-confluent",
+  "description": "An MCP server implementation built to interact with Confluent Kafka and Confluent Cloud REST APIs.",
+  "repo_url": "https://github.com/confluentinc/mcp-confluent",
+  "source_hub": "glama",
+  "owner": "confluentinc",
+  "stars": 132,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "integ-cloud"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "8378d4b8df2c694076981ce16056031204878440",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 86,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-27T06:40:44Z",
+  "verification_level": "scanner_only"
+}

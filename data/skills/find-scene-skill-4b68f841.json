@@ -1,0 +1,29 @@
+{
+  "id": "find-scene-skill-4b68f841",
+  "name": "find-scene-skill",
+  "description": "AI agent skill for the find-scene API \u2014 search and download movie/TV scenes by dialog, time, or visual description",
+  "repo_url": "https://github.com/uriva/find-scene-skill",
+  "source_hub": "github_search",
+  "skill_type": "agent_skill",
+  "owner": "uriva",
+  "stars": 0,
+  "license": "",
+  "primary_language": "markdown",
+  "tags": [
+    "data-ai",
+    "integ",
+    "util-file",
+    "util-search"
+  ],
+  "verification_status": "manual_review",
+  "overall_score": 63,
+  "risk_level": "medium",
+  "verified_commit": null,
+  "scan_summary": null,
+  "last_updated": "2026-02-23T12:18:23Z",
+  "findings_summary": {
+    "notes": "Metadata-based verification. Score=63. Signals: stars=0 (-10); no license detected; owner='uriva' (+3); primary_language='markdown'; source_hub='github_search'. Status: manual_review. Risk: medium."
+  },
+  "trust_level": "low",
+  "scan_date": "2026-02-26T06:14:56Z"
+}

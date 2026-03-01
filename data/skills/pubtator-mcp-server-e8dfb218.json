@@ -1,0 +1,26 @@
+{
+  "id": "pubtator-mcp-server-e8dfb218",
+  "name": "PubTator-MCP-Server",
+  "description": "🔍 A biomedical literature annotation and relationship mining server based on PubTator3, providing convenient access through the MCP interface.",
+  "repo_url": "https://github.com/JackKuo666/PubTator-MCP-Server",
+  "source_hub": "mcp_so",
+  "owner": "JackKuo666",
+  "stars": 8,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "de7e3315258a32e4b315671cdd0d2d2d64864e2e",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 5,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:54:02Z",
+  "verification_level": "scanner_only"
+}

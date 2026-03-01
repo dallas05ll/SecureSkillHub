@@ -1,0 +1,29 @@
+{
+  "id": "claude-starter-kit-d94b41b1",
+  "name": "claude-starter-kit",
+  "description": "Starter template repository for Claude Code with pre-configured MCP servers, skills, sub-agents, commands, and hooks for AI development workflows.",
+  "repo_url": "https://github.com/serpro69/claude-starter-kit",
+  "source_hub": "github_search",
+  "skill_type": "agent_skill",
+  "owner": "serpro69",
+  "stars": 58,
+  "license": "mit",
+  "primary_language": "Shell",
+  "tags": [
+    "data-ai",
+    "dev",
+    "prod"
+  ],
+  "verification_status": "pass",
+  "overall_score": 74,
+  "risk_level": "low",
+  "verified_commit": null,
+  "scan_summary": null,
+  "last_updated": "2026-02-24T15:10:07Z",
+  "findings_summary": {
+    "notes": "MIT licensed, Shell, actively maintained. Listed in awesome-claude-code. Good starting point template."
+  },
+  "trust_level": "low",
+  "scan_date": "2026-02-26T02:12:11Z",
+  "verification_level": "scanner_only"
+}

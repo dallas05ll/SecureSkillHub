@@ -1,0 +1,26 @@
+{
+  "id": "spotify-agent-4c18913a",
+  "name": "Spotify-Agent",
+  "description": "Create an MCP Server to interact with Spotify, LastFM and the internet to collate music data and make recommendations.",
+  "repo_url": "https://github.com/sbhikha/Spotify-Agent",
+  "source_hub": "mcp_so",
+  "owner": "sbhikha",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "data",
+    "data-ai-audio"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "52d2e5185b2f2811ad19b191b5f3e87b77ac54a1",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 5,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:40Z",
+  "verification_level": "scanner_only"
+}

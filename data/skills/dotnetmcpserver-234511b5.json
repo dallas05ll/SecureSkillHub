@@ -1,0 +1,25 @@
+{
+  "id": "dotnetmcpserver-234511b5",
+  "name": "DotnetMCPServer",
+  "description": "Exemplo de MCP Server desenvolvido em .NET acessando uma API para consulta/cadastro de livros",
+  "repo_url": "https://github.com/andreluizsecco/DotnetMCPServer",
+  "source_hub": "mcp_so",
+  "owner": "andreluizsecco",
+  "stars": 14,
+  "primary_language": "unknown",
+  "tags": [
+    "integ"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "29f26856b981612495707abe7a49175198f13160",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 12,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:42:34Z",
+  "verification_level": "scanner_only"
+}

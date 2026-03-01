@@ -1,0 +1,41 @@
+{
+  "id": "joesandboxmcp-d4dd72df",
+  "name": "JoeSandboxMCP",
+  "description": "A Model Context Protocol (MCP) server for interacting with Joe Sandbox Cloud.\nThis server exposes rich analysis and IOC extraction capabilities from Joe Sandbox and integrates cleanly into any MCP-compatible application (e.g. Claude Desktop, Glama, or custom LLM agents).",
+  "repo_url": "https://github.com/joesecurity/joesandboxMCP",
+  "source_hub": "glama",
+  "owner": "joesecurity",
+  "stars": 9,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp",
+    "integ-cloud"
+  ],
+  "verification_status": "pass",
+  "overall_score": 82,
+  "risk_level": "low",
+  "verified_commit": null,
+  "scan_summary": {
+    "total_findings": 34,
+    "files_scanned": 7,
+    "severity_counts": {
+      "medium": 5,
+      "low": 28
+    },
+    "category_counts": {
+      "network_ops": 1,
+      "file_ops": 28,
+      "env_access": 4
+    },
+    "verification_type": "full_llm_pipeline",
+    "key_findings": [
+      "Official Joe Security project, MIT license",
+      "All network traffic to jbxcloud.joesecurity.org only",
+      "extractall() without ZipSlip protection (mitigated by trusted source)",
+      "sample_path allows arbitrary local file reads for upload"
+    ]
+  },
+  "scan_date": "2026-02-25T08:30:00Z",
+  "verification_level": "scanner_only"
+}

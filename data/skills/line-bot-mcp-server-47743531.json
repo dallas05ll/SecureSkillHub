@@ -1,0 +1,27 @@
+{
+  "id": "line-bot-mcp-server-47743531",
+  "name": "line-bot-mcp-server",
+  "description": "MCP server that integrates the LINE Messaging API to connect an AI Agent to the LINE Official Account.",
+  "repo_url": "https://github.com/line/line-bot-mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "line",
+  "stars": 524,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "integ",
+    "prod-comm"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 34,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-27T02:28:45Z",
+  "verification_level": "scanner_only"
+}

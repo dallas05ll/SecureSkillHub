@@ -1,0 +1,26 @@
+{
+  "id": "ragflow-mcp-5fd29bc6",
+  "name": "ragflow-mcp",
+  "description": "Simple RAGFlow MCP. Only useful until the RAGFlow team releases the official MCP server",
+  "repo_url": "https://github.com/oraichain/ragflow-mcp",
+  "source_hub": "mcp_so",
+  "owner": "oraichain",
+  "stars": 14,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "33853a86039be54592fd2aab2b49dfc2c8d2d207",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 13,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:42:36Z",
+  "verification_level": "scanner_only"
+}

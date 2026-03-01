@@ -1,0 +1,21 @@
+{
+  "id": "anki-mcp-server-5e7dd6e8",
+  "name": "anki-mcp-server",
+  "description": "A Model Context Protocol (MCP) server that enables LLMs to interact with Anki flashcard software through AnkiConnect.",
+  "repo_url": "https://github.com/nailuoGG/anki-mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "nailuoGG",
+  "stars": 222,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp",
+    "integ"
+  ],
+  "verification_status": "fail",
+  "overall_score": 15,
+  "risk_level": "critical",
+  "verified_commit": "7c223d774fbba9015f1dda32f035eea21f88ebb8",
+  "scan_summary": null,
+  "scan_date": "2026-02-27T06:14:15Z"
+}

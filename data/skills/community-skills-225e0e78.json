@@ -1,0 +1,26 @@
+{
+  "id": "community-skills-225e0e78",
+  "name": "community-skills",
+  "description": "A collection of curated useful skills for autohand cli agent",
+  "repo_url": "https://github.com/autohandai/community-skills",
+  "source_hub": "github_search",
+  "skill_type": "agent_skill",
+  "owner": "autohandai",
+  "stars": 0,
+  "license": "mit",
+  "primary_language": "markdown",
+  "tags": [
+    "prod-comm"
+  ],
+  "verification_status": "manual_review",
+  "overall_score": 68,
+  "risk_level": "medium",
+  "verified_commit": null,
+  "scan_summary": null,
+  "last_updated": "2026-01-23T09:35:43Z",
+  "findings_summary": {
+    "notes": "Metadata-based verification. Score=68. Signals: stars=0 (-10); license='mit' (+5); owner='autohandai' (+3); primary_language='markdown'; source_hub='github_search'. Status: manual_review. Risk: medium."
+  },
+  "trust_level": "low",
+  "scan_date": "2026-02-26T06:14:56Z"
+}

@@ -1,0 +1,26 @@
+{
+  "id": "covid-mcp-server-a8bf013d",
+  "name": "covid-mcp-server",
+  "description": "MCP server for fetching real-time COVID-19 data by country",
+  "repo_url": "https://github.com/aarushkx/covid-mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "aarushkx",
+  "stars": 3,
+  "primary_language": "unknown",
+  "tags": [
+    "data",
+    "util-search"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "38f8562a55f9f506dc72c052e2dc2caecaf13a95",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 6,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:04:51Z",
+  "verification_level": "scanner_only"
+}

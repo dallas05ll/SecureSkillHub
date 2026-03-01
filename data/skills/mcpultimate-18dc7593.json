@@ -1,0 +1,25 @@
+{
+  "id": "mcpultimate-18dc7593",
+  "name": "MCPUltimate",
+  "description": "Ultimate MCP server aimed at stateful agents and managing vast workspaces",
+  "repo_url": "https://github.com/CryingSurrogate/MCPUltimate",
+  "source_hub": "mcp_so",
+  "owner": "CryingSurrogate",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "f56af8b1a5870bfe60dbfe789499f718a53dd27c",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 1,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:42Z",
+  "verification_level": "scanner_only"
+}

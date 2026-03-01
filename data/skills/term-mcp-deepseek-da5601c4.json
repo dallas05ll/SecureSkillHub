@@ -1,0 +1,25 @@
+{
+  "id": "term-mcp-deepseek-da5601c4",
+  "name": "term_mcp_deepseek",
+  "description": "A MCP‑like server using the DeepSeek API for Terminal",
+  "repo_url": "https://github.com/OthmaneBlial/term_mcp_deepseek",
+  "source_hub": "mcp_so",
+  "owner": "OthmaneBlial",
+  "stars": 15,
+  "primary_language": "unknown",
+  "tags": [
+    "integ"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "884a44563f96bdb2859ce635c0ab589906cc1813",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 36,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:54:04Z",
+  "verification_level": "scanner_only"
+}

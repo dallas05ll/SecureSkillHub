@@ -1,0 +1,27 @@
+{
+  "id": "sendforsign-mcp-server-a323dcf7",
+  "name": "SendForSign MCP Server",
+  "description": "Enables interaction with the SendForSign API to list document templates and read template content for electronic signature workflows.",
+  "repo_url": "https://github.com/sendforsign/mcp",
+  "source_hub": "glama",
+  "owner": "sendforsign",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "prod",
+    "prod-docs"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "690b7bb574c71ec52f9c2d62079958c589f3d596",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 5,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:40Z",
+  "verification_level": "scanner_only"
+}

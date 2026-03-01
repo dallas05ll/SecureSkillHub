@@ -1,0 +1,46 @@
+{
+  "id": "kaizen-1e122e8c",
+  "name": "Kaizen",
+  "description": "Applies continuous improvement methodology through four pillars: Kaizen (incremental iteration), Poka-Yoke (error-proofing via type systems and validation), Standardized Work (following established patterns), and Just-In-Time (YAGNI, avoiding over-engineering), based on Lean manufacturing philosophy",
+  "repo_url": "https://github.com/NeoLabHQ/context-engineering-kit/tree/master/plugins/kaizen/skills/kaizen",
+  "source_hub": "claude_skills_hub",
+  "skill_type": "agent_skill",
+  "owner": "NeoLabHQ",
+  "stars": 0,
+  "forks": 50,
+  "license": "GPL-3.0",
+  "primary_language": "markdown",
+  "tags": [
+    "data-ai",
+    "repo_unavailable"
+  ],
+  "source_tags": [
+    "ai",
+    "testing",
+    "cli",
+    "coding",
+    "integration"
+  ],
+  "categories": [
+    "productivity",
+    "dev"
+  ],
+  "version": "1.0.0",
+  "requires_code_execution": false,
+  "verification_status": "pass",
+  "overall_score": 90,
+  "risk_level": "low",
+  "verified_commit": "554814cfd47755379170dd8686d9391822e3ea83",
+  "findings_summary": {
+    "notes": "Prompt-only skill (SKILL.md only, no scripts or hooks). Comprehensive reference guide with excellent TypeScript/code examples demonstrating iterative improvement, type-safe error proofing, pattern consistency, and YAGNI principles. Content is high quality and practically actionable. No executable code, no network calls, zero attack surface. Part of well-maintained NeoLabHQ/context-engineering-kit (532 stars, active as of 2026-02-24, GPL-3.0). Kaizen skill directory contains only SKILL.md. Integrates with other kaizen plugin commands (/why, /cause-and-effect, etc.) but those are separate files."
+  },
+  "scan_summary": "SKILL.md only - no scripts, hooks, or executables. High-quality educational content on software improvement methodology. No security concerns.",
+  "parent_repo_stars": 532,
+  "is_monorepo_child": true,
+  "trust_level": "medium",
+  "scan_date": "2026-02-26T03:00:51Z",
+  "repo_status": "unavailable",
+  "repo_check_date": "2026-02-28T20:51:55.268555+00:00",
+  "repo_check_error": "fatal: repository 'https://github.com/NeoLabHQ/context-engineering-kit/tree/master/plugins/kaizen/skills/kaizen/' not found",
+  "verification_level": "scanner_only"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "smallcloud-mcp-server-d2557b69",
+  "name": "smallcloud-mcp-server",
+  "description": "SmallCloud MCP Server Demonstration of an Anthropic MCP server using the Model Context Protocol SDK by Anthropic. For use with Claude Desktop and other MCP Hosts.",
+  "repo_url": "https://github.com/SmallCloudCo/smallcloud-mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "SmallCloudCo",
+  "stars": 2,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp",
+    "dev",
+    "integ-cloud"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "72d93d4da11f6fc7bb35b6f5b22855c96536022a",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 7,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:41Z",
+  "verification_level": "scanner_only"
+}

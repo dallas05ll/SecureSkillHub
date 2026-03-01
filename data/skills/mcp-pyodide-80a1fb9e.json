@@ -1,0 +1,26 @@
+{
+  "id": "mcp-pyodide-80a1fb9e",
+  "name": "mcp-pyodide",
+  "description": "A Pyodide server implementation for the Model Context Protocol (MCP).",
+  "repo_url": "https://github.com/yonaka15/mcp-pyodide",
+  "source_hub": "mcp_so",
+  "owner": "yonaka15",
+  "stars": 18,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "afbb5bd5f2d3568ef2eba6d820a0613482e3f6be",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 14,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:42:34Z",
+  "verification_level": "scanner_only"
+}

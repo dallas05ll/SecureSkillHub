@@ -1,0 +1,26 @@
+{
+  "id": "mcpsqlserver-7e23104e",
+  "name": "MCPSqlServer",
+  "description": "SQL Server MCP Server for Windsurf IDE - A standalone MCP server providing SQL Server integration capabilities",
+  "repo_url": "https://github.com/ian-cowley/MCPSqlServer",
+  "source_hub": "mcp_so",
+  "owner": "ian-cowley",
+  "stars": 15,
+  "primary_language": "unknown",
+  "tags": [
+    "data-db",
+    "integ"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "9dc6591e66fdf05fc5fa5660dbbe75acbf85705d",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 3,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:42:34Z",
+  "verification_level": "scanner_only"
+}

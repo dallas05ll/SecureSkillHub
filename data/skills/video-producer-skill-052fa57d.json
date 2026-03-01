@@ -1,0 +1,29 @@
+{
+  "id": "video-producer-skill-052fa57d",
+  "name": "video-producer-skill",
+  "description": "Claude code / Open Code Skill guiding you step by step, to generate continuous-shot video using Gemini web interface",
+  "repo_url": "https://github.com/zysilm-ai/video-producer-skill",
+  "source_hub": "github_search",
+  "skill_type": "agent_skill",
+  "owner": "zysilm-ai",
+  "stars": 2,
+  "license": "mit",
+  "primary_language": "markdown",
+  "tags": [
+    "data-ai",
+    "dev",
+    "util-media"
+  ],
+  "verification_status": "pass",
+  "overall_score": 78,
+  "risk_level": "medium",
+  "verified_commit": null,
+  "scan_summary": null,
+  "last_updated": "2026-02-04T23:28:04Z",
+  "findings_summary": {
+    "notes": "Metadata-based verification. Score=78. Signals: stars=2; license='mit' (+5); owner='zysilm-ai' (+3); primary_language='markdown'; source_hub='github_search'. Status: pass. Risk: medium."
+  },
+  "trust_level": "low",
+  "scan_date": "2026-02-26T06:14:56Z",
+  "verification_level": "metadata_only"
+}

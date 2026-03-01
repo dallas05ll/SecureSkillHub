@@ -1,0 +1,26 @@
+{
+  "id": "mcp-doc-forge-7a455cd9",
+  "name": "mcp-doc-forge",
+  "description": "MCP server that provides doc forge capabilities",
+  "repo_url": "https://github.com/cablate/mcp-doc-forge",
+  "source_hub": "mcp_so",
+  "owner": "cablate",
+  "stars": 17,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "9e4ca9aa34d49efa29c14fd7d96c7b45cd33c06d",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 15,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:42:36Z",
+  "verification_level": "scanner_only"
+}

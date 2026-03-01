@@ -1,0 +1,27 @@
+{
+  "id": "mcp-package-docs-5b03abbc",
+  "name": "mcp-package-docs",
+  "description": "An MCP server that provides LLMs with efficient access to package documentation across multiple programming languages",
+  "repo_url": "https://github.com/sammcj/mcp-package-docs",
+  "source_hub": "mcp_so",
+  "owner": "sammcj",
+  "stars": 80,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "dev",
+    "prod-docs"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "ba3a4b4418d92804300de049bd365e029f75efbc",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 23,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-27T06:40:44Z",
+  "verification_level": "scanner_only"
+}

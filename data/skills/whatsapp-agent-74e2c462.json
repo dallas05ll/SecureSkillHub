@@ -1,0 +1,29 @@
+{
+  "id": "whatsapp-agent-74e2c462",
+  "name": "whatsapp-agent",
+  "description": "This project creates a LangGraph assistant using tool-calling supported by LLM, integrated with a local WhatsApp Mcp server for context-aware message automation.",
+  "repo_url": "https://github.com/SadineniAbhi/whatsapp-agent",
+  "source_hub": "mcp_so",
+  "owner": "SadineniAbhi",
+  "stars": 1,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp",
+    "prod",
+    "prod-comm",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "3d92241896396fba00ec4f39a8314ef3d5e69472",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 3,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:40Z",
+  "verification_level": "scanner_only"
+}

@@ -1,0 +1,25 @@
+{
+  "id": "marshal-mcp-861013cc",
+  "name": "Marshal-MCP",
+  "description": "Mcp services by marshal",
+  "repo_url": "https://github.com/XTeam-Wing/Marshal-MCP",
+  "source_hub": "mcp_so",
+  "owner": "XTeam-Wing",
+  "stars": 2,
+  "primary_language": "unknown",
+  "tags": [
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "87186668f7a2e9d31fcda5a8ff17f9800924c898",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 2,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:04:51Z",
+  "verification_level": "scanner_only"
+}

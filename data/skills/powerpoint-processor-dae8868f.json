@@ -1,0 +1,51 @@
+{
+  "id": "powerpoint-processor-dae8868f",
+  "name": "PowerPoint Processor",
+  "description": "Create, edit, and analyze PowerPoint presentations using Anthropic's production document skill. Supports slide layout management, speaker notes, charts, and template-based creation. This skill underlies Claude's native .pptx capabilities on claude.ai.",
+  "repo_url": "https://github.com/anthropics/skills/tree/main/document-skills/pptx",
+  "source_hub": "claude_skills_hub",
+  "skill_type": "agent_skill",
+  "owner": "anthropics",
+  "stars": 0,
+  "forks": 7854,
+  "license": "Proprietary",
+  "primary_language": "Python",
+  "tags": [
+    "data-ai",
+    "prod-docs",
+    "prod-notes",
+    "sec-auth",
+    "repo_unavailable"
+  ],
+  "source_tags": [
+    "powerpoint",
+    "presentations",
+    "slides",
+    "charts"
+  ],
+  "categories": [
+    "office"
+  ],
+  "version": "1.0.0",
+  "requires_code_execution": true,
+  "verification_status": "pass",
+  "overall_score": 90,
+  "risk_level": "low",
+  "verified_commit": null,
+  "scan_summary": null,
+  "findings_summary": {
+    "has_readme": true,
+    "has_security_policy": false,
+    "has_mcp_server": false,
+    "dangerous_patterns": [],
+    "notes": "Official Anthropic skill from anthropics/skills repository. Source-available (not open source) — production document skill powering Claude's .pptx file capabilities. Python scripts for slide generation, cleaning, and thumbnailing. Verified at skills/pptx/ in the repo tree."
+  },
+  "parent_repo_stars": 75705,
+  "is_monorepo_child": true,
+  "trust_level": "medium",
+  "scan_date": "2026-02-26T03:00:51Z",
+  "repo_status": "unavailable",
+  "repo_check_date": "2026-02-28T20:52:45.344564+00:00",
+  "repo_check_error": "fatal: repository 'https://github.com/anthropics/skills/tree/main/document-skills/pptx/' not found",
+  "verification_level": "scanner_only"
+}

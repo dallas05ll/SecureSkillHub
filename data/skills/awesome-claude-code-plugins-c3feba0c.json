@@ -1,0 +1,37 @@
+{
+  "id": "awesome-claude-code-plugins-c3feba0c",
+  "name": "awesome-claude-code-plugins",
+  "description": "A curated awesome-list of Claude Code plugins organized by category: workflow orchestration, DevOps automation, code quality, data analytics, design/UX, git workflow, security/compliance, and more. Includes a set of official Claude Code plugins (agent-sdk-dev, pr-review-toolkit, commit-commands, feature-dev, security-guidance) with working implementations.",
+  "repo_url": "https://github.com/ccplugins/awesome-claude-code-plugins",
+  "source_hub": "github_search",
+  "skill_type": "agent_skill",
+  "owner": "ccplugins",
+  "stars": 503,
+  "license": "apache-2.0",
+  "primary_language": "Python",
+  "tags": [
+    "data",
+    "data-ai",
+    "dev",
+    "prod",
+    "sec",
+    "sec-scan",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 79,
+  "risk_level": "low",
+  "verified_commit": null,
+  "findings_summary": {
+    "has_readme": true,
+    "has_security_policy": false,
+    "has_mcp_server": false,
+    "dangerous_patterns": [],
+    "notes": "High-quality curated list with bundled plugin implementations. The included security-guidance plugin (security_reminder_hook.py) is a PreToolUse hook that intercepts Write/Edit/MultiEdit tool calls and warns about known dangerous patterns (eval, innerHTML, pickle, os.system, GitHub Actions injection, dangerouslySetInnerHTML, etc.) — a genuinely useful security tool. The hook uses exit code 2 to block tool use when a pattern is detected, which is correct hook behavior. Hooks are scoped to Edit/Write/MultiEdit only. The agent-sdk-dev plugin is attributed to an Anthropic employee (ashwin@anthropic.com). Chinese README available (README-zh.md). Apache-2.0 licensed. Curated list quality is high with categories and official plugin examples. The bundled security hook is the most substantive implemented component — reviewed and found safe."
+  },
+  "scan_summary": null,
+  "last_updated": "2026-02-26T00:06:09Z",
+  "trust_level": "low",
+  "scan_date": "2026-02-26T02:05:39Z",
+  "verification_level": "scanner_only"
+}

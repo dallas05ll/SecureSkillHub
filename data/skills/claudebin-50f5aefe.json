@@ -1,0 +1,28 @@
+{
+  "id": "claudebin-50f5aefe",
+  "name": "claudebin",
+  "description": "A Claude Code plugin for publishing sessions to claudebin.com",
+  "repo_url": "https://github.com/wunderlabs-dev/claudebin",
+  "source_hub": "github_search",
+  "skill_type": "agent_skill",
+  "owner": "wunderlabs-dev",
+  "stars": 16,
+  "license": "mit",
+  "primary_language": "markdown",
+  "tags": [
+    "data-ai",
+    "dev"
+  ],
+  "verification_status": "pass",
+  "overall_score": 83,
+  "risk_level": "low",
+  "verified_commit": null,
+  "scan_summary": null,
+  "last_updated": "2026-02-25T03:58:21Z",
+  "findings_summary": {
+    "notes": "Metadata-based verification. Score=83. Signals: stars=16 (>=10, +5); license='mit' (+5); owner='wunderlabs-dev' (+3); primary_language='markdown'; source_hub='github_search'. Status: pass. Risk: low."
+  },
+  "trust_level": "low",
+  "scan_date": "2026-02-26T06:14:56Z",
+  "verification_level": "metadata_only"
+}

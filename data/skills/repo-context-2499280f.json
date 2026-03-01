@@ -1,0 +1,33 @@
+{
+  "id": "repo-context-2499280f",
+  "name": "repo-context",
+  "description": "Repo Context MCP provides programmatic access to repository contents for integrations and automation. It can list directories/files, read any file, return the README, perform TypeScript type analysis (via ts-morph), and search for OpenAPI/Swagger spec files. Supports local repo paths and reading from private GitHub repos when GITHUB_TOKEN is set in the environment. Ideal for code analysis, docs generation, and CI pipelines.",
+  "repo_url": "https://github.com/pablo-peek/repo-context",
+  "source_hub": "mcp_so",
+  "owner": "pablo-peek",
+  "stars": 1,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai-nlp",
+    "dev",
+    "dev-devops-ci",
+    "integ",
+    "prod",
+    "prod-docs",
+    "sec-crypto",
+    "util-file",
+    "util-search"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "e7de70ba2bde23a062062fe0ce1df8c7f2189a13",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 6,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:42Z",
+  "verification_level": "scanner_only"
+}

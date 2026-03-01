@@ -1,0 +1,22 @@
+{
+  "id": "peekaboo-7a0ef95f",
+  "name": "peekaboo",
+  "description": "## What Peekaboo Can Do\n\nPeekaboo provides three main tools that give AI agents visual capabilities:\n\n- **`image`** - Capture screenshots of screens or specific applications\n- **`analyze`** - Ask AI questions about captured images using vision models\n- **`list`** - Enumerate available screens and windows for targeted captures\n\nEach tool is designed to be powerful and flexible. The most powerful feature is visual question answering - agents can ask questions about screenshots like \"What do you...",
+  "repo_url": "https://github.com/steipete/peekaboo",
+  "source_hub": "mcp_so",
+  "owner": "steipete",
+  "stars": 2383,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-vision",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 75,
+  "risk_level": "medium",
+  "verified_commit": null,
+  "scan_summary": null,
+  "scan_date": "2026-02-26T03:00:50Z",
+  "verification_level": "scanner_only"
+}

@@ -1,0 +1,26 @@
+{
+  "id": "mcp-servers-113d3243",
+  "name": "mcp-servers",
+  "description": "MCP Servers List",
+  "repo_url": "https://github.com/integrabotia/mcp-servers",
+  "source_hub": "mcp_so",
+  "owner": "integrabotia",
+  "stars": 1,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "6d20b7684460c81c14ae6a9a158a00ff9cb71aef",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 24,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:42Z",
+  "verification_level": "scanner_only"
+}

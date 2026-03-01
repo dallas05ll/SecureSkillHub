@@ -1,0 +1,26 @@
+{
+  "id": "zed-exa-mcp-extension-6ad218aa",
+  "name": "zed-exa-mcp-extension",
+  "description": "Zed extension for Exa's MCP server",
+  "repo_url": "https://github.com/exa-labs/zed-exa-mcp-extension",
+  "source_hub": "mcp_so",
+  "owner": "exa-labs",
+  "stars": 20,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "0d73e2adcc35da4853c683bda132310d2c1ac58d",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 4,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:42:36Z",
+  "verification_level": "scanner_only"
+}

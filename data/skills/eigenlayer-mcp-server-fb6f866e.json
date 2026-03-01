@@ -1,0 +1,26 @@
+{
+  "id": "eigenlayer-mcp-server-fb6f866e",
+  "name": "eigenlayer-mcp-server",
+  "description": "Model Context Protocol (MCP) Server for EigenLayer",
+  "repo_url": "https://github.com/Layr-Labs/eigenlayer-mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "Layr-Labs",
+  "stars": 1,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "be104be06d3eaeb35a5d8b78e32a5b0ade46f108",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 21,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:41Z",
+  "verification_level": "scanner_only"
+}

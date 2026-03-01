@@ -1,0 +1,28 @@
+{
+  "id": "personalproductivityagent-0046dca2",
+  "name": "PersonalProductivityAgent",
+  "description": "Personal Productivity Agent (Python) for Windows. Automates tasks, provides system info, and uses Google Gemini for intelligent Windows Event Log analysis. Supports interactive CLI and MCP server mode.",
+  "repo_url": "https://github.com/mwill20/PersonalProductivityAgent",
+  "source_hub": "mcp_so",
+  "owner": "mwill20",
+  "stars": 2,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "dev-web-backend-python",
+    "prod",
+    "prod-pm"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "8927ac6091aa531045f43c1b921d90bd229aae2d",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 3,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:04:51Z",
+  "verification_level": "scanner_only"
+}

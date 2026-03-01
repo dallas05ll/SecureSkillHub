@@ -1,0 +1,26 @@
+{
+  "id": "alexander-zuev-supabase-mcp-server-87bd804c",
+  "name": "alexander-zuev_supabase-mcp-server",
+  "description": "Mirror of",
+  "repo_url": "https://github.com/MCP-Mirror/alexander-zuev_supabase-mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "MCP-Mirror",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "data-db",
+    "repo_unavailable"
+  ],
+  "verification_status": "manual_review",
+  "overall_score": 0,
+  "risk_level": "high",
+  "verified_commit": "",
+  "scan_summary": null,
+  "scan_date": "2026-02-28T20:27:25Z",
+  "findings_summary": {
+    "error": "clone failed: Cloning into '/var/folders/pq/bb71gjzd01d29nnmqrhqr2rc0000gn/T/strict5_alexander-zuev-supabase-_8jz_9h7h/repo'...\nfatal: could not read Username for 'https://github.com': Device not configured",
+    "supervisor_approved": false,
+    "supervisor_confidence": 0
+  },
+  "repo_status": "unavailable"
+}

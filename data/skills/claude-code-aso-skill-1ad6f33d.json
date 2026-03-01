@@ -1,0 +1,28 @@
+{
+  "id": "claude-code-aso-skill-1ad6f33d",
+  "name": "claude-code-aso-skill",
+  "description": "🚀 Optimize App Store visibility with AI agents in the Claude Code framework for enhanced performance and growth.",
+  "repo_url": "https://github.com/wsbs20/claude-code-aso-skill",
+  "source_hub": "github_search",
+  "skill_type": "agent_skill",
+  "owner": "wsbs20",
+  "stars": 16,
+  "license": "other",
+  "primary_language": "markdown",
+  "tags": [
+    "data-ai",
+    "dev"
+  ],
+  "verification_status": "pass",
+  "overall_score": 83,
+  "risk_level": "low",
+  "verified_commit": null,
+  "scan_summary": null,
+  "last_updated": "2026-02-25T15:45:37Z",
+  "findings_summary": {
+    "notes": "Metadata-based verification. Score=83. Signals: stars=16 (>=10, +5); license='other' (+5); owner='wsbs20' (+3); primary_language='markdown'; source_hub='github_search'. Status: pass. Risk: low."
+  },
+  "trust_level": "low",
+  "scan_date": "2026-02-26T06:14:55Z",
+  "verification_level": "metadata_only"
+}

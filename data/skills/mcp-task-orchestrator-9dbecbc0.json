@@ -1,0 +1,27 @@
+{
+  "id": "mcp-task-orchestrator-9dbecbc0",
+  "name": "mcp-task-orchestrator",
+  "description": "A Model Context Protocol server that provides task orchestration capabilities for AI assistants",
+  "repo_url": "https://github.com/EchoingVesper/mcp-task-orchestrator",
+  "source_hub": "mcp_so",
+  "owner": "EchoingVesper",
+  "stars": 24,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp",
+    "prod-pm"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "db942e70e611afa2fce3a25384e26bc83440ef18",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 1020,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:32:13Z",
+  "verification_level": "scanner_only"
+}

@@ -1,0 +1,26 @@
+{
+  "id": "openscad-mcp-server-8a03a046",
+  "name": "OpenSCAD-MCP-Server",
+  "description": "Devin's attempt at creating an OpenSCAD MCP Server that takes a user prompt and generates a preview image and 3d file.",
+  "repo_url": "https://github.com/jhacksman/OpenSCAD-MCP-Server",
+  "source_hub": "mcp_so",
+  "owner": "jhacksman",
+  "stars": 126,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai-vision",
+    "util-file"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "6948c2dc5a385adc987bc3ff75ba435d26f48ba3",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 67,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-27T06:40:44Z",
+  "verification_level": "scanner_only"
+}

@@ -1,0 +1,26 @@
+{
+  "id": "mcp-server-demo-f83b3357",
+  "name": "mcp-server-demo",
+  "description": "Mini mcp server implementation",
+  "repo_url": "https://github.com/PanGan21/mcp-server-demo",
+  "source_hub": "mcp_so",
+  "owner": "PanGan21",
+  "stars": 4,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "d84d386abf35a145951d1c35f8b3c2858c518108",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 5,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:54:02Z",
+  "verification_level": "scanner_only"
+}

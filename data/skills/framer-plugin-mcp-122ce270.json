@@ -1,0 +1,27 @@
+{
+  "id": "framer-plugin-mcp-122ce270",
+  "name": "framer-plugin-mcp",
+  "description": "A Model Context Protocol (MCP) server for creating and managing Framer plugins with web3 capabilities",
+  "repo_url": "https://github.com/Sheshiyer/framer-plugin-mcp",
+  "source_hub": "mcp_so",
+  "owner": "Sheshiyer",
+  "stars": 29,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp",
+    "sec-crypto"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "5e17486196e1fe334c79c45f52ff63a68c3da681",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 4,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:32:13Z",
+  "verification_level": "scanner_only"
+}

@@ -1,0 +1,29 @@
+{
+  "id": "ddg-mcp-server-cb36b7b8",
+  "name": "ddg_mcp_server",
+  "description": "A web search tool and API powered by DuckDuckGo, Gradio, and MCP, providing both a user-friendly web interface and Claude Desktop tool integration. It fetches web search results, extracts summaries, and retrieves the full content of web pages in markdown format.",
+  "repo_url": "https://github.com/shgsousa/ddg_mcp_server",
+  "source_hub": "mcp_so",
+  "owner": "shgsousa",
+  "stars": 3,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "integ",
+    "prod-docs",
+    "util",
+    "util-search"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "2069e807812c1a85ef83a99ac30f503938c3927c",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 7,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:04:50Z",
+  "verification_level": "scanner_only"
+}

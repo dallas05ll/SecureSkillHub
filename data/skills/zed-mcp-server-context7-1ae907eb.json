@@ -1,0 +1,25 @@
+{
+  "id": "zed-mcp-server-context7-1ae907eb",
+  "name": "zed-mcp-server-context7",
+  "description": "Context7 MCP Server for Zed",
+  "repo_url": "https://github.com/akbxr/zed-mcp-server-context7",
+  "source_hub": "mcp_so",
+  "owner": "akbxr",
+  "stars": 96,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai-nlp"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "702460acf387f0eb18ccdf2f96343ae5e34aaeed",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 4,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-27T06:40:43Z",
+  "verification_level": "scanner_only"
+}

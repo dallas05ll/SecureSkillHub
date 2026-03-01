@@ -1,0 +1,43 @@
+{
+  "id": "csv-data-summarizer-80775e3c",
+  "name": "CSV Data Summarizer",
+  "description": "Automatically analyzes uploaded CSV files and generates comprehensive summary statistics, missing data detection, and quick visualizations using Python, pandas, matplotlib, and seaborn - without requiring user prompts.",
+  "repo_url": "https://github.com/coffeefuelbump/csv-data-summarizer-claude-skill",
+  "source_hub": "claude_skills_hub",
+  "skill_type": "agent_skill",
+  "owner": "coffeefuelbump",
+  "stars": 254,
+  "forks": 43,
+  "license": "unlicensed",
+  "primary_language": "Python",
+  "tags": [
+    "data",
+    "data-ai-nlp",
+    "dev-web-backend-python",
+    "prod",
+    "util-file"
+  ],
+  "source_tags": [
+    "automation",
+    "data-analysis",
+    "visualization"
+  ],
+  "categories": [
+    "data-analysis",
+    "productivity"
+  ],
+  "version": "2.1.0",
+  "requires_code_execution": true,
+  "verification_status": "pass",
+  "overall_score": 76,
+  "risk_level": "low",
+  "verified_commit": null,
+  "scan_summary": null,
+  "findings_summary": {
+    "notes": "Repository confirmed (254 stars, no license, Python, created Oct 2025). SKILL.md (v2.1.0) with clear trigger conditions and automatic behavior. analyze.py is a clean pandas/matplotlib/seaborn script for CSV analysis and visualization. requirements.txt specifies python>=3.8, pandas>=2.0.0, matplotlib>=3.7.0, seaborn>=0.12.0. Examples directory and resources present. ZIP archive (csv-data-summarizer.zip) included for easy distribution. Concern: no open source license declared (GitHub shows None) - users should be aware of usage rights ambiguity. No malicious code found. Code execution required (Python data processing)."
+  },
+  "last_updated": "2026-02-25T00:00:00Z",
+  "trust_level": "medium",
+  "scan_date": "2026-02-26T02:25:54Z",
+  "verification_level": "scanner_only"
+}

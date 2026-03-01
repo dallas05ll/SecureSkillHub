@@ -1,0 +1,25 @@
+{
+  "id": "notionmcp-88d93604",
+  "name": "notionMCP",
+  "description": "Node based Notion MCP server",
+  "repo_url": "https://github.com/Sjotie/notionMCP",
+  "source_hub": "mcp_so",
+  "owner": "Sjotie",
+  "stars": 11,
+  "primary_language": "unknown",
+  "tags": [
+    "prod-docs"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "0396413784cfcc08e87050d4f75bcb21e02aa3db",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 4,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:42:34Z",
+  "verification_level": "scanner_only"
+}

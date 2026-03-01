@@ -1,0 +1,25 @@
+{
+  "id": "notion-mcp-d6f48d2b",
+  "name": "notion-mcp",
+  "description": "My implementation of a Notion MCP Server",
+  "repo_url": "https://github.com/kyrelldixon/notion-mcp",
+  "source_hub": "mcp_so",
+  "owner": "kyrelldixon",
+  "stars": 3,
+  "primary_language": "unknown",
+  "tags": [
+    "prod-docs"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "fd2d14930eb843e25d5fe888e21d510b9f5c7662",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 32,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:04:51Z",
+  "verification_level": "scanner_only"
+}

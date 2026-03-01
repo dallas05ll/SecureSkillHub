@@ -1,0 +1,25 @@
+{
+  "id": "shannon-thinking-28280379",
+  "name": "shannon-thinking",
+  "description": "MCP server for applying a Claude Shannon-inspired problem-solving pattern",
+  "repo_url": "https://github.com/olaservo/shannon-thinking",
+  "source_hub": "mcp_so",
+  "owner": "olaservo",
+  "stars": 60,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "ba01de122e577082928228f3f9f11c03857bdd34",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 9,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-27T06:40:49Z",
+  "verification_level": "scanner_only"
+}

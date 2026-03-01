@@ -1,0 +1,25 @@
+{
+  "id": "rss-mcp-server-5c119bfc",
+  "name": "rss-mcp-server",
+  "description": "supprot fever api + remote",
+  "repo_url": "https://github.com/weekend-project-space/rss-mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "weekend-project-space",
+  "stars": 5,
+  "primary_language": "unknown",
+  "tags": [
+    "integ"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "2d671cb4c868119917616a411f31f36bf12ce041",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 6,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:54:02Z",
+  "verification_level": "scanner_only"
+}

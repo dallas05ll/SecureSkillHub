@@ -1,0 +1,29 @@
+{
+  "id": "mcp-game-helper-fcc0eaaa",
+  "name": "mcp-game-helper",
+  "description": "Custom Model Context Protocol (MCP) Server that provides AI-powered tools to assist game developers in tasks related to combat balancing, skill analysis, level pacing, and simulation.",
+  "repo_url": "https://github.com/xhulz/mcp-game-helper",
+  "source_hub": "mcp_so",
+  "owner": "xhulz",
+  "stars": 4,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp",
+    "dev",
+    "prod-pm",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "897395965e47b35dbbf082c5274dc85e5e0c6203",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 13,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:54:02Z",
+  "verification_level": "scanner_only"
+}

@@ -1,0 +1,26 @@
+{
+  "id": "marvel-mcp-azure-functions-f5aad4bd",
+  "name": "marvel-mcp-azure-functions",
+  "description": "MCP server hosted using Azure Functions",
+  "repo_url": "https://github.com/DanWahlin/marvel-mcp-azure-functions",
+  "source_hub": "mcp_so",
+  "owner": "DanWahlin",
+  "stars": 1,
+  "primary_language": "unknown",
+  "tags": [
+    "integ-cloud",
+    "integ-cloud-azure"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "ceca79272cb3621ee4ed15d6b37b1a98699968a2",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 27,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:41Z",
+  "verification_level": "scanner_only"
+}

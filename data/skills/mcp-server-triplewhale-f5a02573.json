@@ -1,0 +1,26 @@
+{
+  "id": "mcp-server-triplewhale-f5a02573",
+  "name": "mcp-server-triplewhale",
+  "description": "Triplewhale MCP Server",
+  "repo_url": "https://github.com/Triple-Whale/mcp-server-triplewhale",
+  "source_hub": "mcp_so",
+  "owner": "Triple-Whale",
+  "stars": 5,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "6948082d5eb68f6855aafb279e196ede54e4eaed",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 10,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:54:02Z",
+  "verification_level": "scanner_only"
+}

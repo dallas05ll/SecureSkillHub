@@ -1,0 +1,22 @@
+{
+  "id": "mcptools-4e29f4f0",
+  "name": "mcptools",
+  "description": "A command-line interface for interacting with MCP (Model Context Protocol) servers using both stdio and HTTP transport.",
+  "repo_url": "https://github.com/f/mcptools",
+  "source_hub": "mcp_so",
+  "owner": "f",
+  "stars": 1493,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 72,
+  "risk_level": "low",
+  "verified_commit": null,
+  "scan_summary": null,
+  "scan_date": "2026-02-26T03:00:50Z",
+  "verification_level": "scanner_only"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "files-mcp-edce0f79",
+  "name": "files-mcp",
+  "description": "Files.com MCP allows your AI model, like ChatGPT or Claude, to use Files.com directly. Want to move files, copy files, or perform real File Transfer in the Cloud and to/from on-premise servers via AI? You're in the right place.",
+  "repo_url": "https://github.com/Files-com/files-mcp",
+  "source_hub": "mcp_so",
+  "owner": "Files-com",
+  "stars": 2,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "integ-cloud",
+    "prod-comm",
+    "util-file"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "9d28640a453933316c457d4c46be830682fc283a",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 36,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:04:51Z",
+  "verification_level": "scanner_only"
+}

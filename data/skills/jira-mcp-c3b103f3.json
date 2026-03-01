@@ -1,0 +1,27 @@
+{
+  "id": "jira-mcp-c3b103f3",
+  "name": "jira-mcp",
+  "description": "A Model-Context-Protocol(MCP) server to allow Claude desktop to create Jira tickets.",
+  "repo_url": "https://github.com/MankowskiNick/jira-mcp",
+  "source_hub": "mcp_so",
+  "owner": "MankowskiNick",
+  "stars": 6,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp",
+    "prod-pm"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "fd5a0aa01207d656d86e39b2d33a638ee7d5fa6e",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 25,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:54:02Z",
+  "verification_level": "scanner_only"
+}

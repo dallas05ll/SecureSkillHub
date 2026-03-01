@@ -1,0 +1,27 @@
+{
+  "id": "airtable-mcp-server-60641595",
+  "name": "airtable-mcp-server",
+  "description": "An MCP server for interacting with Airtable - create, list, and search records, bases, and tables.",
+  "repo_url": "https://github.com/felores/airtable-mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "felores",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "util-search",
+    "repo_unavailable"
+  ],
+  "verification_status": "manual_review",
+  "overall_score": 0,
+  "risk_level": "high",
+  "verified_commit": "",
+  "scan_summary": null,
+  "scan_date": "2026-02-28T20:27:24Z",
+  "findings_summary": {
+    "error": "clone failed: Cloning into '/var/folders/pq/bb71gjzd01d29nnmqrhqr2rc0000gn/T/strict5_airtable-mcp-server-6064_7251ig5_/repo'...\nfatal: could not read Username for 'https://github.com': Device not configured",
+    "supervisor_approved": false,
+    "supervisor_confidence": 0
+  },
+  "repo_status": "unavailable"
+}

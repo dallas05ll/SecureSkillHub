@@ -1,0 +1,26 @@
+{
+  "id": "java-project-starter-mcp-0f3e284d",
+  "name": "java-project-starter-mcp",
+  "description": "MCP Server for starting new projects",
+  "repo_url": "https://github.com/brunoborges/java-project-starter-mcp",
+  "source_hub": "mcp_so",
+  "owner": "brunoborges",
+  "stars": 2,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "07a5ee00e82f1a4dcb9686c8c2ec9ca85920ba60",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 2,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:04:50Z",
+  "verification_level": "scanner_only"
+}

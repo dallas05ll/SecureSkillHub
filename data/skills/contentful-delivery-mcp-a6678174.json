@@ -1,0 +1,25 @@
+{
+  "id": "contentful-delivery-mcp-a6678174",
+  "name": "contentful-delivery-mcp",
+  "description": "Contentful MCP Server for Delivery API",
+  "repo_url": "https://github.com/mshaaban0/contentful-delivery-mcp",
+  "source_hub": "mcp_so",
+  "owner": "mshaaban0",
+  "stars": 8,
+  "primary_language": "unknown",
+  "tags": [
+    "integ"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "679bcbdb18a221800a221bbad989606061790e8d",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 15,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:42:34Z",
+  "verification_level": "scanner_only"
+}

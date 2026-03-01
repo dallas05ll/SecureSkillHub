@@ -1,0 +1,31 @@
+{
+  "id": "memex-kb-297080d7",
+  "name": "memex-kb",
+  "description": "Searchable Markdown KB built for AI workflows. Hybrid search, typed relations, wiki links, graph views. Token-efficient CLI for agents, static publishing for  humans.",
+  "repo_url": "https://github.com/chriskd/memex-kb",
+  "source_hub": "github_search",
+  "skill_type": "agent_skill",
+  "owner": "chriskd",
+  "stars": 10,
+  "license": "mit",
+  "primary_language": "markdown",
+  "tags": [
+    "data-ai",
+    "prod",
+    "prod-docs",
+    "sec-crypto",
+    "util-search"
+  ],
+  "verification_status": "pass",
+  "overall_score": 83,
+  "risk_level": "low",
+  "verified_commit": null,
+  "scan_summary": null,
+  "last_updated": "2026-02-10T00:58:25Z",
+  "findings_summary": {
+    "notes": "Metadata-based verification. Score=83. Signals: stars=10 (>=10, +5); license='mit' (+5); owner='chriskd' (+3); primary_language='markdown'; source_hub='github_search'. Status: pass. Risk: low."
+  },
+  "trust_level": "low",
+  "scan_date": "2026-02-26T06:14:56Z",
+  "verification_level": "metadata_only"
+}

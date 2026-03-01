@@ -1,0 +1,25 @@
+{
+  "id": "mcp-server-jupyter-b66ce3f4",
+  "name": "mcp-server-jupyter",
+  "description": "MCP server for Jupyter Notebooks and JupyterLab",
+  "repo_url": "https://github.com/ihrpr/mcp-server-jupyter",
+  "source_hub": "mcp_so",
+  "owner": "ihrpr",
+  "stars": 31,
+  "primary_language": "unknown",
+  "tags": [
+    "prod-notes"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "fb4427030f7cd1e6b06268e6e1c7baa1a059bce4",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 6,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:32:12Z",
+  "verification_level": "scanner_only"
+}

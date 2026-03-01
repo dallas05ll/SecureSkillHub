@@ -1,0 +1,28 @@
+{
+  "id": "mcp-azuresearch-79472701",
+  "name": "mcp-azuresearch",
+  "description": "An experimental MCP Azure AI Search Server",
+  "repo_url": "https://github.com/Azure-Samples/mcp-azuresearch",
+  "source_hub": "mcp_so",
+  "owner": "Azure-Samples",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "integ-cloud",
+    "integ-cloud-azure",
+    "util-search"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "2ce88c231cdfd6bb3e24c83225ba5e65798e001d",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 4,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:41Z",
+  "verification_level": "scanner_only"
+}

@@ -1,0 +1,27 @@
+{
+  "id": "mcp-server-gsc-4ece447a",
+  "name": "mcp-server-gsc",
+  "description": "A Model Context Protocol (MCP) server providing access to Google Search Console",
+  "repo_url": "https://github.com/ahonn/mcp-server-gsc",
+  "source_hub": "mcp_so",
+  "owner": "ahonn",
+  "stars": 167,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp",
+    "util-search"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "e671b155271b2b412a302cff1e72f6e14424a7ac",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 15,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-27T06:36:35Z",
+  "verification_level": "scanner_only"
+}

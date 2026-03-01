@@ -1,0 +1,30 @@
+{
+  "id": "mcp-oauth-server-web-36af1ba7",
+  "name": "mcp_oauth_server_web",
+  "description": "MCP Streamable HTTP Server with Standard Browser OAuth",
+  "repo_url": "https://github.com/asibyl/mcp_oauth_server_web",
+  "source_hub": "mcp_so",
+  "owner": "asibyl",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "dev-web",
+    "integ",
+    "sec",
+    "sec-auth",
+    "util-media",
+    "util-search"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "f6e4d81e623e9a69ece34adf99e160d11085b265",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 10,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:40Z",
+  "verification_level": "scanner_only"
+}

@@ -1,0 +1,25 @@
+{
+  "id": "coin-daemon-mcp-77196872",
+  "name": "coin_daemon_mcp",
+  "description": "MCP server for interacting with cryptocurrency daemon RPC interfaces (BETA)",
+  "repo_url": "https://github.com/raw391/coin_daemon_mcp",
+  "source_hub": "mcp_so",
+  "owner": "raw391",
+  "stars": 1,
+  "primary_language": "unknown",
+  "tags": [
+    "sec-crypto"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "d1f773a4da52e12c3c6e83c783653ef19244a3fd",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 19,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:40Z",
+  "verification_level": "scanner_only"
+}

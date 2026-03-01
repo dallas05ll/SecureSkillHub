@@ -1,0 +1,20 @@
+{
+  "id": "damn-vulnerable-mcp-server-7a371454",
+  "name": "damn-vulnerable-MCP-server",
+  "description": "Damn Vulnerable MCP Server",
+  "repo_url": "https://github.com/harishsg993010/damn-vulnerable-MCP-server",
+  "source_hub": "mcp_so",
+  "owner": "harishsg993010",
+  "stars": 1258,
+  "primary_language": "unknown",
+  "tags": [
+    "sec"
+  ],
+  "verification_status": "pass",
+  "overall_score": 62,
+  "risk_level": "medium",
+  "verified_commit": null,
+  "scan_summary": null,
+  "scan_date": "2026-02-26T03:00:50Z",
+  "verification_level": "scanner_only"
+}

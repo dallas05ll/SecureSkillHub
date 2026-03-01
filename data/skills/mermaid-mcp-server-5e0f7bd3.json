@@ -1,0 +1,22 @@
+{
+  "id": "mermaid-mcp-server-5e0f7bd3",
+  "name": "mermaid-mcp-server",
+  "description": "A Model Context Protocol (MCP) server that converts Mermaid diagrams to PNG images",
+  "repo_url": "https://github.com/peng-shawn/mermaid-mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "peng-shawn",
+  "stars": 222,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp",
+    "data-ai-vision",
+    "util"
+  ],
+  "verification_status": "fail",
+  "overall_score": 15,
+  "risk_level": "critical",
+  "verified_commit": "81dc507991c6bfcc09bb59805916d47c9bfd03c5",
+  "scan_summary": null,
+  "scan_date": "2026-02-27T06:14:17Z"
+}

@@ -1,0 +1,23 @@
+{
+  "id": "chungoid-cf8033e7",
+  "name": "chungoid",
+  "description": "it built itself",
+  "repo_url": "https://github.com/chungoid/chungoid",
+  "source_hub": "mcp_so",
+  "owner": "chungoid",
+  "stars": 2,
+  "primary_language": "unknown",
+  "tags": [],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "8c74662557356feb71ba723a0b7cb1718ce46b2b",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 242,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:04:51Z",
+  "verification_level": "scanner_only"
+}

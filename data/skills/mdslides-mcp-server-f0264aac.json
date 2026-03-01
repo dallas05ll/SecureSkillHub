@@ -1,0 +1,28 @@
+{
+  "id": "mdslides-mcp-server-f0264aac",
+  "name": "mdslides-mcp-server",
+  "description": "MCP (Model Context Protocol) server for generating HTML slides from Markdown content",
+  "repo_url": "https://github.com/bsmnyk/mdslides-mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "bsmnyk",
+  "stars": 6,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp",
+    "dev-web",
+    "prod-docs"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "6459c318232cf0794ff35845262b18a51c7e3f63",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 6,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:54:02Z",
+  "verification_level": "scanner_only"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "claude-prompt-engineering-guide-fcfe5d6b",
+  "name": "claude-prompt-engineering-guide",
+  "description": "Comprehensive guide for writing professional Claude Standard prompts with MCP, Skills, and Superpowers integration. Official Anthropic best practices for Claude 4.x models.",
+  "repo_url": "https://github.com/ThamJiaHe/claude-prompt-engineering-guide",
+  "source_hub": "github_search",
+  "skill_type": "agent_skill",
+  "owner": "ThamJiaHe",
+  "stars": 47,
+  "license": "mit",
+  "primary_language": "markdown",
+  "tags": [
+    "data-ai",
+    "integ"
+  ],
+  "verification_status": "pass",
+  "overall_score": 83,
+  "risk_level": "low",
+  "verified_commit": null,
+  "scan_summary": null,
+  "last_updated": "2026-02-25T12:14:13Z",
+  "findings_summary": {
+    "notes": "Metadata-based verification. Score=83. Signals: stars=47 (>=10, +5); license='mit' (+5); owner='ThamJiaHe' (+3); primary_language='markdown'; source_hub='github_search'. Status: pass. Risk: low."
+  },
+  "trust_level": "low",
+  "scan_date": "2026-02-26T06:14:56Z",
+  "verification_level": "metadata_only"
+}

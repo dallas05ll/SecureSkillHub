@@ -1,0 +1,26 @@
+{
+  "id": "rtfmbro-mcp-e5645223",
+  "name": "rtfmbro-mcp",
+  "description": "rtfmbro provides always-up-to-date, version-specific package documentation as context for coding agents. An alternative to context7",
+  "repo_url": "https://github.com/marckrenn/rtfmbro-mcp",
+  "source_hub": "mcp_so",
+  "owner": "marckrenn",
+  "stars": 78,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai-nlp",
+    "prod-docs"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "249b8517a603c6473c662bf3bf2b1e74902ead56",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 2,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-27T06:40:43Z",
+  "verification_level": "scanner_only"
+}

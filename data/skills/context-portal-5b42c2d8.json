@@ -1,0 +1,27 @@
+{
+  "id": "context-portal-5b42c2d8",
+  "name": "context-portal",
+  "description": "Context Portal (ConPort): A memory bank MCP server building a project-specific knowledge graph to supercharge AI assistants. Enables powerful Retrieval Augmented Generation (RAG) for context-aware development in your IDE.",
+  "repo_url": "https://github.com/GreatScottyMac/context-portal",
+  "source_hub": "mcp_so",
+  "owner": "GreatScottyMac",
+  "stars": 750,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp",
+    "prod-notes"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 24,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-27T02:26:21Z",
+  "verification_level": "scanner_only"
+}

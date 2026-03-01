@@ -1,0 +1,27 @@
+{
+  "id": "mcp-server-email-8c02dd7a",
+  "name": "mcp-server-email",
+  "description": "mcp-server demo about send email by golang",
+  "repo_url": "https://github.com/CocaineCong/mcp-server-email",
+  "source_hub": "mcp_so",
+  "owner": "CocaineCong",
+  "stars": 1,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "dev-web-backend-go",
+    "prod-comm"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "87cc1c63ee0912f975721c164e0116bc4ea7cfa1",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 1,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:42Z",
+  "verification_level": "scanner_only"
+}

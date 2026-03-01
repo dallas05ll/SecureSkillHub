@@ -1,0 +1,29 @@
+{
+  "id": "slack-search-3ad068e6",
+  "name": "Slack-Search",
+  "description": "Using Model Context Protocol (MCP) to build a local Slack thread searcher with Claude Desktop and a lightweight Python server.",
+  "repo_url": "https://github.com/AdilFayyaz/Slack-Search",
+  "source_hub": "mcp_so",
+  "owner": "AdilFayyaz",
+  "stars": 2,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp",
+    "dev-web-backend-python",
+    "prod-comm",
+    "util-search"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "f6325771e138c8618a4afed20969878fff548a8d",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 4,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:40Z",
+  "verification_level": "scanner_only"
+}

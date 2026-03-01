@@ -1,0 +1,26 @@
+{
+  "id": "cozyapi-dfc70034",
+  "name": "cozyapi",
+  "description": "Let AI agents interact with your API",
+  "repo_url": "https://github.com/jehrhardt/cozyapi",
+  "source_hub": "mcp_so",
+  "owner": "jehrhardt",
+  "stars": 2,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "integ"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "cde79d7c5820771af2e0179a146fe398544ac772",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 25,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:04:51Z",
+  "verification_level": "scanner_only"
+}

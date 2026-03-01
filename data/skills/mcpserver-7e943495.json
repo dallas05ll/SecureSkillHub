@@ -1,0 +1,26 @@
+{
+  "id": "mcpserver-7e943495",
+  "name": "mcpserver",
+  "description": "a simple mcp server exposing a list of colors",
+  "repo_url": "https://github.com/mrwylan/mcpserver",
+  "source_hub": "mcp_so",
+  "owner": "mrwylan",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "c8a7e7c621961e3b7bd7bff5a3979185e7dcc06b",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 2,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:41Z",
+  "verification_level": "scanner_only"
+}

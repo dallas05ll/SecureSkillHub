@@ -1,0 +1,28 @@
+{
+  "id": "iac-memory-mcp-server-project-0ce1b064",
+  "name": "iac-memory-mcp-server-project",
+  "description": "This is a personal project to determine whether or not Claude 3.5 Sonnet can write moderately complex MCP Server code (Python).",
+  "repo_url": "https://github.com/AgentWong/iac-memory-mcp-server-project",
+  "source_hub": "mcp_so",
+  "owner": "AgentWong",
+  "stars": 6,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "dev",
+    "dev-web-backend-python",
+    "prod-notes"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "78ef535f6d78a0d2a4bfec352e20105dc83a9b25",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 113,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:54:02Z",
+  "verification_level": "scanner_only"
+}

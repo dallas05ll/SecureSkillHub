@@ -1,0 +1,26 @@
+{
+  "id": "protolink-8b824ece",
+  "name": "ProtoLink",
+  "description": "Simplifying MCP server interactions for seamless AI integration.",
+  "repo_url": "https://github.com/StevenROyola/ProtoLink",
+  "source_hub": "mcp_so",
+  "owner": "StevenROyola",
+  "stars": 2,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "integ"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "027977e58850a58edd2584e01a9030461c7c7cb4",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 9,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:04:50Z",
+  "verification_level": "scanner_only"
+}

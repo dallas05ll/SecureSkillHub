@@ -1,0 +1,25 @@
+{
+  "id": "craftgate-mcp-server-b00a5543",
+  "name": "craftgate_mcp_server",
+  "description": "Bu MCP sunucu projesinde, Craftgate’in ödeme listeleme aracı entegre edilmiştir. Bu araç sayesinde ödemeler sorgulanabilir ve ödemeler hakkında LLM (Large Language Model) desteğiyle analiz yapılabilir.",
+  "repo_url": "https://github.com/semihshn/craftgate_mcp_server",
+  "source_hub": "mcp_so",
+  "owner": "semihshn",
+  "stars": 1,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "31200358c0cdb1ac5836ce4275185d7e2212b3d6",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 1,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:41Z",
+  "verification_level": "scanner_only"
+}

@@ -1,0 +1,26 @@
+{
+  "id": "ai-rules-mcp-85a0c26d",
+  "name": "ai-rules-mcp",
+  "description": "An MCP server middleware to transfer global rules to coding agents",
+  "repo_url": "https://github.com/RonTrace/ai-rules-mcp",
+  "source_hub": "mcp_so",
+  "owner": "RonTrace",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "repo_unavailable"
+  ],
+  "verification_status": "manual_review",
+  "overall_score": 0,
+  "risk_level": "high",
+  "verified_commit": "",
+  "scan_summary": null,
+  "scan_date": "2026-02-28T20:27:24Z",
+  "findings_summary": {
+    "error": "clone failed: Cloning into '/var/folders/pq/bb71gjzd01d29nnmqrhqr2rc0000gn/T/strict5_ai-rules-mcp-85a0c26d_hiixyzhb/repo'...\nfatal: could not read Username for 'https://github.com': Device not configured",
+    "supervisor_approved": false,
+    "supervisor_confidence": 0
+  },
+  "repo_status": "unavailable"
+}

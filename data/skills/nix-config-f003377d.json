@@ -1,0 +1,33 @@
+{
+  "id": "nix-config-f003377d",
+  "name": "nix-config",
+  "description": "A personal Nix system configuration (nix-darwin + home-manager) for macOS that includes Claude Code plugins, skills, and hooks as part of the dotfiles. Includes a deep-research-team SKILL.md and several plugin integrations (ai-sdk, homebrew, tts, pua-unicode, cc-maintenance).",
+  "repo_url": "https://github.com/malob/nix-config",
+  "source_hub": "github_search",
+  "skill_type": "agent_skill",
+  "owner": "malob",
+  "stars": 451,
+  "forks": 35,
+  "license": "mit",
+  "primary_language": "nix",
+  "tags": [
+    "data-ai",
+    "data-ai-audio",
+    "dev",
+    "integ",
+    "util-file",
+    "util-search"
+  ],
+  "verification_status": "pass",
+  "overall_score": 72,
+  "risk_level": "low",
+  "verified_commit": null,
+  "scan_summary": null,
+  "last_updated": "2026-02-23T18:50:57Z",
+  "findings_summary": {
+    "notes": "This is primarily a personal Nix dotfile configuration rather than a standalone agent skill. It gained stars due to its well-crafted Claude Code plugin configurations. The Claude-specific content lives under configs/claude/ and is symlinked via Nix into ~/.claude/. Notable contents: a deep-research-team SKILL.md (multi-agent research orchestration), several plugin SKILL.md files (ai-sdk-docs, audit-permissions, homebrew new-cask, icon-lookup, TTS cancel/say/start/stop), and hooks. Hook analysis: format-nix.sh (PostToolUse on Edit/Write for .nix files) runs nixfmt, deadnix, and statix — entirely benign. Other hooks (notify-ghostty.sh, prefer-mcp-web-tools.sh, shellcheck-lint.sh) are straightforward utilities. Claude settings.json is well-structured. The ai-sdk-docs skill runs shell scripts (fetch-doc.sh, list-docs.sh, query-models.sh) to retrieve Vercel AI SDK docs — benign. The audit-permissions skill uses Python scripts to discover and clean up settings — no dangerous patterns. No hardcoded credentials, no obfuscation, no data exfiltration. MIT licensed. The primary risk is that this is a personal dotfile repo and its Claude config may evolve without versioning guarantees."
+  },
+  "trust_level": "low",
+  "scan_date": "2026-02-26T01:23:39Z",
+  "verification_level": "scanner_only"
+}

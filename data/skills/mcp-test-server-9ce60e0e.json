@@ -1,0 +1,25 @@
+{
+  "id": "mcp-test-server-9ce60e0e",
+  "name": "mcp-test-server",
+  "description": "GitHub MCP server for testing",
+  "repo_url": "https://github.com/MOHIT-SOLANKII/mcp-test-server",
+  "source_hub": "mcp_so",
+  "owner": "MOHIT-SOLANKII",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "dev-testing"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "514984b4672e3baaaafbec6059c6613bc5599a85",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 5,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:42Z",
+  "verification_level": "scanner_only"
+}

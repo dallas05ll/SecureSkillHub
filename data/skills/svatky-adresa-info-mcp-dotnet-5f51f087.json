@@ -1,0 +1,26 @@
+{
+  "id": "svatky-adresa-info-mcp-dotnet-5f51f087",
+  "name": "svatky-adresa-info-mcp-dotnet",
+  "description": "MCP server for svatky.adresa.info",
+  "repo_url": "https://github.com/segeda/svatky-adresa-info-mcp-dotnet",
+  "source_hub": "mcp_so",
+  "owner": "segeda",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "f14a8fcc49a55c7836021bffac17ca716a0afdaa",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 1,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:42:59Z",
+  "verification_level": "scanner_only"
+}

@@ -1,0 +1,29 @@
+{
+  "id": "mcpollinations-a61656ab",
+  "name": "MCPollinations",
+  "description": "A Model Context Protocol (MCP) server that enables AI assistants to generate images, text, and audio through the Pollinations APIs. Supports customizable parameters, image saving, and multiple model options.",
+  "repo_url": "https://github.com/pinkpixel-dev/MCPollinations",
+  "source_hub": "mcp_so",
+  "owner": "pinkpixel-dev",
+  "stars": 39,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-audio",
+    "data-ai-nlp",
+    "data-ai-vision",
+    "integ"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "57c6940739ed00a791eb77a091099d6a09f3b2ea",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 21,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:32:11Z",
+  "verification_level": "scanner_only"
+}

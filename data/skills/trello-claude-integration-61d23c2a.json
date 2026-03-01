@@ -1,0 +1,27 @@
+{
+  "id": "trello-claude-integration-61d23c2a",
+  "name": "trello-claude-integration",
+  "description": "Интеграция Claude с Trello через MCP Server на Smithery.ai",
+  "repo_url": "https://github.com/inakitka/trello-claude-integration",
+  "source_hub": "mcp_so",
+  "owner": "inakitka",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "integ",
+    "prod-pm"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "c9210bfa7956add66e33a6ae80c22aa6ff7d7df5",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 20,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:42:59Z",
+  "verification_level": "scanner_only"
+}

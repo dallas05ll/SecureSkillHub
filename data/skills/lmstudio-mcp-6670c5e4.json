@@ -1,0 +1,26 @@
+{
+  "id": "lmstudio-mcp-6670c5e4",
+  "name": "LMStudio-MCP",
+  "description": "A Model Control Protocol (MCP) server that allows Claude to communicate with locally running LLM models via LM Studio.",
+  "repo_url": "https://github.com/infinitimeless/LMStudio-MCP",
+  "source_hub": "mcp_so",
+  "owner": "infinitimeless",
+  "stars": 139,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "prod-comm"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "ec39dc02b2f9560351b354925562f1fb533f771f",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 12,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-27T06:40:44Z",
+  "verification_level": "scanner_only"
+}

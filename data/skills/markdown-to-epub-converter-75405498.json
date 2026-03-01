@@ -1,0 +1,41 @@
+{
+  "id": "markdown-to-epub-converter-75405498",
+  "name": "Markdown to EPUB Converter",
+  "description": "Claude Code skill that converts markdown documents and chat summaries into professional EPUB3 ebooks compatible with all major reading platforms.",
+  "repo_url": "https://github.com/smerchek/claude-epub-skill",
+  "source_hub": "claude_skills_hub",
+  "skill_type": "agent_skill",
+  "owner": "smerchek",
+  "stars": 68,
+  "forks": 7,
+  "license": "MIT",
+  "primary_language": "Python",
+  "tags": [
+    "data-ai",
+    "dev",
+    "prod-comm",
+    "prod-docs",
+    "util"
+  ],
+  "source_tags": [
+    "document-processing",
+    "research",
+    "markdown"
+  ],
+  "categories": [
+    "office"
+  ],
+  "version": "1.0.0",
+  "requires_code_execution": false,
+  "verification_status": "pass",
+  "overall_score": 76,
+  "risk_level": "low",
+  "verified_commit": null,
+  "scan_summary": null,
+  "findings_summary": {
+    "notes": "MIT licensed, Python, actively maintained. Clear, well-scoped functionality. EPUB3 output for all major readers."
+  },
+  "trust_level": "medium",
+  "scan_date": "2026-02-26T02:11:57Z",
+  "verification_level": "scanner_only"
+}

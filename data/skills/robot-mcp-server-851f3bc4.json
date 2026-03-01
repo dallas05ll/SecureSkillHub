@@ -1,0 +1,25 @@
+{
+  "id": "robot-mcp-server-851f3bc4",
+  "name": "robot-mcp-server",
+  "description": "mcp server for robot and automations",
+  "repo_url": "https://github.com/showkeyjar/robot-mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "showkeyjar",
+  "stars": 12,
+  "primary_language": "unknown",
+  "tags": [
+    "prod"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "88be9d965cf7ac89c55d9cf51bd0fbb4271e2e77",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 6,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:42:34Z",
+  "verification_level": "scanner_only"
+}

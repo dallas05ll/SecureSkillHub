@@ -1,0 +1,24 @@
+{
+  "id": "mcp-a602275a",
+  "name": "mcp",
+  "description": "Links to samples, tools, and resources for building and integrating Model Context Protocol (MCP) servers on Azure using multiple languages",
+  "repo_url": "https://github.com/Azure-Samples/mcp",
+  "source_hub": "mcp_so",
+  "owner": "Azure-Samples",
+  "stars": 41,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp",
+    "integ-cloud",
+    "integ-cloud-azure",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 92,
+  "risk_level": "low",
+  "verified_commit": null,
+  "scan_summary": null,
+  "scan_date": "2026-02-26T03:00:50Z",
+  "verification_level": "scanner_only"
+}

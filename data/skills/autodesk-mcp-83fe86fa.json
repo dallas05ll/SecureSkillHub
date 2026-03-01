@@ -1,0 +1,26 @@
+{
+  "id": "autodesk-mcp-83fe86fa",
+  "name": "autodesk-mcp",
+  "description": "Autodesk Platform Services MCP server",
+  "repo_url": "https://github.com/Guidogl/autodesk-mcp",
+  "source_hub": "mcp_so",
+  "owner": "Guidogl",
+  "stars": 1,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "75339b2bc5d40ab20f9bf5bfa8a4ad3005a8bf24",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 13,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:41Z",
+  "verification_level": "scanner_only"
+}

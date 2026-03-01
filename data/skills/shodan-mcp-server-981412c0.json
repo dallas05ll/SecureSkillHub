@@ -1,0 +1,27 @@
+{
+  "id": "shodan-mcp-server-981412c0",
+  "name": "shodan-mcp-server",
+  "description": "A Model Context Protocol server that provides access to Shodan API functionality",
+  "repo_url": "https://github.com/Cyreslab-AI/shodan-mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "Cyreslab-AI",
+  "stars": 40,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp",
+    "integ"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "73bf9c9648fda1f6c95ec6d648695afc665e4ccb",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 7,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:32:13Z",
+  "verification_level": "scanner_only"
+}

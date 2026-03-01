@@ -1,0 +1,27 @@
+{
+  "id": "mcp-kafka-processor-93237f61",
+  "name": "mcp-kafka-processor",
+  "description": "An MCP server for processing Kafka events and enabling LLMs to interact with event streams",
+  "repo_url": "https://github.com/boufnichel/mcp-kafka-processor",
+  "source_hub": "mcp_so",
+  "owner": "boufnichel",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "sec-auth",
+    "util-media"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "08cef47fd4e960822515dd90864ff62f4b540f2b",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 2,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:42Z",
+  "verification_level": "scanner_only"
+}

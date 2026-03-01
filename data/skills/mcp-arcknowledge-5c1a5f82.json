@@ -1,0 +1,25 @@
+{
+  "id": "mcp-arcknowledge-5c1a5f82",
+  "name": "mcp-arcknowledge",
+  "description": "This MCP server conveniently lets you configure and interact across all your custom webhook endpoints from a config(knowledgebase json).\n\nYou can manage new endpoint knowledge doc sources  URLs.",
+  "repo_url": "https://github.com/dragonjump/mcp-arcknowledge",
+  "source_hub": "mcp_so",
+  "owner": "dragonjump",
+  "stars": 2,
+  "primary_language": "unknown",
+  "tags": [
+    "integ"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "45e1dd0f54f10b5286ee887923a2dc5ac1fe5383",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 12,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:04:51Z",
+  "verification_level": "scanner_only"
+}

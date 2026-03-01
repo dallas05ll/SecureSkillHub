@@ -1,0 +1,28 @@
+{
+  "id": "article-scraper-mcp-e9ece163",
+  "name": "article-scraper-mcp",
+  "description": "A Model Context Protocol (MCP) server that fetches article data from URLs using newspaper3k.",
+  "repo_url": "https://github.com/dmitriiweb/article-scraper-mcp",
+  "source_hub": "mcp_so",
+  "owner": "dmitriiweb",
+  "stars": 2,
+  "primary_language": "unknown",
+  "tags": [
+    "data",
+    "data-ai",
+    "data-ai-nlp",
+    "util-search"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "984c51f9864970097923cee6c04a8c370cbd7e19",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 6,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:04:51Z",
+  "verification_level": "scanner_only"
+}

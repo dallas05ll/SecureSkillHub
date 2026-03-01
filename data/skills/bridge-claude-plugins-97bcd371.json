@@ -1,0 +1,28 @@
+{
+  "id": "bridge-claude-plugins-97bcd371",
+  "name": "bridge-claude-plugins",
+  "description": "Collection of Claude Code plugins for Playgama Bridge",
+  "repo_url": "https://github.com/Playgama/bridge-claude-plugins",
+  "source_hub": "github_search",
+  "skill_type": "agent_skill",
+  "owner": "Playgama",
+  "stars": 10,
+  "license": "mit",
+  "primary_language": "markdown",
+  "tags": [
+    "data-ai",
+    "dev"
+  ],
+  "verification_status": "pass",
+  "overall_score": 83,
+  "risk_level": "low",
+  "verified_commit": null,
+  "scan_summary": null,
+  "last_updated": "2026-01-16T13:40:37Z",
+  "findings_summary": {
+    "notes": "Metadata-based verification. Score=83. Signals: stars=10 (>=10, +5); license='mit' (+5); owner='Playgama' (+3); primary_language='markdown'; source_hub='github_search'. Status: pass. Risk: low."
+  },
+  "trust_level": "low",
+  "scan_date": "2026-02-26T06:14:55Z",
+  "verification_level": "metadata_only"
+}

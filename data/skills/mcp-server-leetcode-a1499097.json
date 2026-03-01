@@ -1,0 +1,30 @@
+{
+  "id": "mcp-server-leetcode-a1499097",
+  "name": "mcp-server-leetcode",
+  "description": "A Model Context Protocol (MCP) server for LeetCode that provides access to problems, user data, and contest information through GraphQL",
+  "repo_url": "https://github.com/doggybee/mcp-server-leetcode",
+  "source_hub": "mcp_so",
+  "owner": "doggybee",
+  "stars": 39,
+  "primary_language": "unknown",
+  "tags": [
+    "data",
+    "data-ai",
+    "data-ai-nlp",
+    "data-db-graph",
+    "dev",
+    "dev-testing"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "eedc0c8681ce94f6bee90c604a921c9b1f01c0ec",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 14,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:32:11Z",
+  "verification_level": "scanner_only"
+}

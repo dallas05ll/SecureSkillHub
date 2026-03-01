@@ -1,0 +1,26 @@
+{
+  "id": "libgen-mcp-e3c72525",
+  "name": "libgen-mcp",
+  "description": "Library Genesis MCP server",
+  "repo_url": "https://github.com/mwaraic/libgen-mcp",
+  "source_hub": "mcp_so",
+  "owner": "mwaraic",
+  "stars": 2,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "cef560cf4bc643becaaa2688d1fdbf69386e4015",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 10,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:04:51Z",
+  "verification_level": "scanner_only"
+}

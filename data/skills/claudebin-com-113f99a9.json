@@ -1,0 +1,28 @@
+{
+  "id": "claudebin-com-113f99a9",
+  "name": "claudebin.com",
+  "description": "Claudebin is a minimalistic tool for publishing and sharing Claude coding sessions",
+  "repo_url": "https://github.com/wunderlabs-dev/claudebin.com",
+  "source_hub": "github_search",
+  "skill_type": "agent_skill",
+  "owner": "wunderlabs-dev",
+  "stars": 46,
+  "license": "mit",
+  "primary_language": "markdown",
+  "tags": [
+    "data-ai",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 83,
+  "risk_level": "low",
+  "verified_commit": null,
+  "scan_summary": null,
+  "last_updated": "2026-02-24T12:57:09Z",
+  "findings_summary": {
+    "notes": "Metadata-based verification. Score=83. Signals: stars=46 (>=10, +5); license='mit' (+5); owner='wunderlabs-dev' (+3); primary_language='markdown'; source_hub='github_search'. Status: pass. Risk: low."
+  },
+  "trust_level": "low",
+  "scan_date": "2026-02-26T06:14:56Z",
+  "verification_level": "metadata_only"
+}

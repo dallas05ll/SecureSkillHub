@@ -1,0 +1,42 @@
+{
+  "id": "heroku-mcp-server-4f61b09a",
+  "name": "Heroku MCP server",
+  "description": "Let's your agent access the heroku platform",
+  "repo_url": "https://github.com/heroku/heroku-mcp-server",
+  "source_hub": "glama",
+  "owner": "heroku",
+  "stars": 74,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 82,
+  "risk_level": "low",
+  "verified_commit": null,
+  "scan_summary": {
+    "total_findings": 47,
+    "files_scanned": 67,
+    "severity_counts": {
+      "high": 1,
+      "medium": 24,
+      "low": 22
+    },
+    "category_counts": {
+      "file_ops": 22,
+      "network_ops": 20,
+      "env_access": 4,
+      "dangerous_calls": 1
+    },
+    "verification_type": "full_llm_pipeline",
+    "key_findings": [
+      "Official Heroku/Salesforce project, Apache-2.0",
+      "1 execSync with API-sourced values (low practical risk)",
+      "All network calls target legitimate Heroku API endpoints",
+      "Zero obfuscation, zero injection patterns"
+    ]
+  },
+  "scan_date": "2026-02-25T08:30:00Z",
+  "verification_level": "scanner_only"
+}

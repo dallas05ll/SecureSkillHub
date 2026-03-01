@@ -1,0 +1,26 @@
+{
+  "id": "steel-mcp-server-08aeb632",
+  "name": "steel-mcp-server",
+  "description": "MCP Server for interacting with a Steel web browser",
+  "repo_url": "https://github.com/steel-dev/steel-mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "steel-dev",
+  "stars": 46,
+  "primary_language": "unknown",
+  "tags": [
+    "dev-web",
+    "util-search"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "35c2a1597be85ebaa88758dc3e4e26e8959aaf95",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 5,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:32:11Z",
+  "verification_level": "scanner_only"
+}

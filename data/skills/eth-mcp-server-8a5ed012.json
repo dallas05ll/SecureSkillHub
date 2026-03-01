@@ -1,0 +1,26 @@
+{
+  "id": "eth-mcp-server-8a5ed012",
+  "name": "eth-mcp-server",
+  "description": "An ETH-obsessed MCP Server, where the creator is still pondering its ultimate usage. For now, it's just for fun!",
+  "repo_url": "https://github.com/qingfengzxr/eth-mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "qingfengzxr",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "6fc5a75f0a352d9ef6656ac4ff788b9d0712c511",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 2,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:42Z",
+  "verification_level": "scanner_only"
+}

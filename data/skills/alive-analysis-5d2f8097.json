@@ -1,0 +1,30 @@
+{
+  "id": "alive-analysis-5d2f8097",
+  "name": "alive-analysis",
+  "description": "Data analysis workflow kit for AI coding agents. Structure your analysis with the ALIVE loop — Ask, Look, Investigate, Voice, Evolve.",
+  "repo_url": "https://github.com/with-geun/alive-analysis",
+  "source_hub": "github_search",
+  "skill_type": "agent_skill",
+  "owner": "with-geun",
+  "stars": 17,
+  "license": "mit",
+  "primary_language": "markdown",
+  "tags": [
+    "data",
+    "data-ai",
+    "data-ai-audio",
+    "prod"
+  ],
+  "verification_status": "pass",
+  "overall_score": 83,
+  "risk_level": "low",
+  "verified_commit": null,
+  "scan_summary": null,
+  "last_updated": "2026-02-25T08:17:28Z",
+  "findings_summary": {
+    "notes": "Metadata-based verification. Score=83. Signals: stars=17 (>=10, +5); license='mit' (+5); owner='with-geun' (+3); primary_language='markdown'; source_hub='github_search'. Status: pass. Risk: low."
+  },
+  "trust_level": "low",
+  "scan_date": "2026-02-26T06:14:55Z",
+  "verification_level": "metadata_only"
+}

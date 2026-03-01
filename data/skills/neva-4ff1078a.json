@@ -1,0 +1,26 @@
+{
+  "id": "neva-4ff1078a",
+  "name": "neva",
+  "description": "MCP client and server SDK for Rust",
+  "repo_url": "https://github.com/RomanEmreis/neva",
+  "source_hub": "mcp_so",
+  "owner": "RomanEmreis",
+  "stars": 5,
+  "primary_language": "unknown",
+  "tags": [
+    "dev",
+    "dev-web-backend-rust"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "00886142650114b476a31da42b9779052a67595d",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 32,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:54:02Z",
+  "verification_level": "scanner_only"
+}

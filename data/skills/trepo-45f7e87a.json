@@ -1,0 +1,26 @@
+{
+  "id": "trepo-45f7e87a",
+  "name": "trepo",
+  "description": "Convert OpenAPI specifications to MCP server ready tools",
+  "repo_url": "https://github.com/sam-ayo/trepo",
+  "source_hub": "mcp_so",
+  "owner": "sam-ayo",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "4b8353a39d5836ac8691ee412ab1daf9a6a424ed",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 1,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:43:00Z",
+  "verification_level": "scanner_only"
+}

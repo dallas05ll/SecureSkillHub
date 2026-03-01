@@ -1,0 +1,31 @@
+{
+  "id": "serpstat-mcp-server-3ba9d65e",
+  "name": "Serpstat MCP Server",
+  "description": "Integrates the Serpstat SEO API with the Model Context Protocol to provide AI assistants with comprehensive data for domain analysis, keyword research, and competitor tracking. It enables users to perform complex SEO tasks like backlink analysis and site audits through natural language interfaces.",
+  "repo_url": "https://github.com/SerpstatGlobal/serpstat-mcp-server-js",
+  "source_hub": "glama",
+  "owner": "SerpstatGlobal",
+  "stars": 3,
+  "primary_language": "unknown",
+  "tags": [
+    "data",
+    "data-ai",
+    "data-ai-nlp",
+    "integ",
+    "prod-pm",
+    "sec-scan",
+    "util-search"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "aba6df6c5a9b3f868e898d99d2f7e327b456553b",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 46,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:04:50Z",
+  "verification_level": "scanner_only"
+}

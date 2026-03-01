@@ -1,0 +1,25 @@
+{
+  "id": "mcp-live-events-83018e2e",
+  "name": "mcp-live-events",
+  "description": "MCP Server for interacting with live music events",
+  "repo_url": "https://github.com/mmmaaatttttt/mcp-live-events",
+  "source_hub": "mcp_so",
+  "owner": "mmmaaatttttt",
+  "stars": 2,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai-audio"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "a53dd9908b8ec66fa7125488b11a13e98ca8d3da",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 7,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:04:50Z",
+  "verification_level": "scanner_only"
+}

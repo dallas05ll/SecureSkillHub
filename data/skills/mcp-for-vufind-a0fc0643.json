@@ -1,0 +1,25 @@
+{
+  "id": "mcp-for-vufind-a0fc0643",
+  "name": "MCP-for-VuFind",
+  "description": "a simple MCP Server for VuFind",
+  "repo_url": "https://github.com/jaohbib/MCP-for-VuFind",
+  "source_hub": "mcp_so",
+  "owner": "jaohbib",
+  "stars": 1,
+  "primary_language": "unknown",
+  "tags": [
+    "util-search"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "d61412d0a91ef0f0a0fc8418ccb8f757257b8c64",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 4,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:42Z",
+  "verification_level": "scanner_only"
+}

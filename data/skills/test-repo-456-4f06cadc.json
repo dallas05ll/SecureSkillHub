@@ -1,0 +1,25 @@
+{
+  "id": "test-repo-456-4f06cadc",
+  "name": "test-repo-456",
+  "description": "Test repository created via GitHub MCP server",
+  "repo_url": "https://github.com/sugamass/test-repo-456",
+  "source_hub": "mcp_so",
+  "owner": "sugamass",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "dev-testing"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "b17a95823bd7423fcd47cc92846982c77dda226e",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 1,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:43:00Z",
+  "verification_level": "scanner_only"
+}

@@ -1,0 +1,29 @@
+{
+  "id": "mcp-sql-server-natural-lang-155781ec",
+  "name": "mcp-sql-server-natural-lang",
+  "description": "A Model Context Protocol (MCP) implementation enabling communication between an LLM and SQL Server. Allows users to query SQL databases using natural language and get structured SQL responses.",
+  "repo_url": "https://github.com/Amanp17/mcp-sql-server-natural-lang",
+  "source_hub": "mcp_so",
+  "owner": "Amanp17",
+  "stars": 2,
+  "primary_language": "unknown",
+  "tags": [
+    "data",
+    "data-ai",
+    "data-ai-nlp",
+    "data-db",
+    "prod-comm"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "ede29894f4fd1fb65fbfdc86cdace86c9549c4d8",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 4,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:04:51Z",
+  "verification_level": "scanner_only"
+}

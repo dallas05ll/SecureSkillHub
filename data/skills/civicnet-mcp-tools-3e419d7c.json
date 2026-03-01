@@ -1,0 +1,31 @@
+{
+  "id": "civicnet-mcp-tools-3e419d7c",
+  "name": "civicnet-mcp-tools",
+  "description": "CivicNet MCP Tools are a modular set of administrative and developer utilities that make it easy for any community, organization, or contributor to manage, audit, test, and extend their local MCP (Model Context Protocol) server and node.",
+  "repo_url": "https://github.com/Publik-Works/civicnet-mcp-tools",
+  "source_hub": "mcp_so",
+  "owner": "Publik-Works",
+  "stars": 1,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp",
+    "dev",
+    "dev-testing",
+    "prod-comm",
+    "sec-scan",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "756223750f068b23e5dec41f27e5c0e942c8f1c7",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 1,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:40Z",
+  "verification_level": "scanner_only"
+}

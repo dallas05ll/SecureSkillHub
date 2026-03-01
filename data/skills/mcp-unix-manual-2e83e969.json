@@ -1,0 +1,26 @@
+{
+  "id": "mcp-unix-manual-2e83e969",
+  "name": "mcp-unix-manual",
+  "description": "An MCP server that provides Unix command documentation directly within LLMs conversations.",
+  "repo_url": "https://github.com/tizee/mcp-unix-manual",
+  "source_hub": "mcp_so",
+  "owner": "tizee",
+  "stars": 1,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "prod-docs"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "79b511aeda80a8fe766731974cebfe03dfecafa2",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 4,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:42Z",
+  "verification_level": "scanner_only"
+}

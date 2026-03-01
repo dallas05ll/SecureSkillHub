@@ -1,0 +1,26 @@
+{
+  "id": "mcp-everything-server-docker-image-e890b05f",
+  "name": "mcp-everything-server-docker-image",
+  "description": "Docker image for the MCP everything server with SSE transport",
+  "repo_url": "https://github.com/tzolov/mcp-everything-server-docker-image",
+  "source_hub": "mcp_so",
+  "owner": "tzolov",
+  "stars": 7,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai-vision",
+    "dev-devops-docker"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "18d3cedb9f3685fff86b9e18dad413c9ad99506c",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 12,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:54:02Z",
+  "verification_level": "scanner_only"
+}

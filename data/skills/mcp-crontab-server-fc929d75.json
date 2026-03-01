@@ -1,0 +1,26 @@
+{
+  "id": "mcp-crontab-server-fc929d75",
+  "name": "mcp-crontab-server",
+  "description": "A MCP Server exposing tools for fetching entries and viewing logs",
+  "repo_url": "https://github.com/jasona7/mcp-crontab-server",
+  "source_hub": "mcp_so",
+  "owner": "jasona7",
+  "stars": 3,
+  "primary_language": "unknown",
+  "tags": [
+    "util",
+    "util-search"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "6f2e3feeef9db02d8653ca56eda4348b84115e9d",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 7,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:04:50Z",
+  "verification_level": "scanner_only"
+}

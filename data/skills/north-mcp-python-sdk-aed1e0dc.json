@@ -1,0 +1,26 @@
+{
+  "id": "north-mcp-python-sdk-aed1e0dc",
+  "name": "north-mcp-python-sdk",
+  "description": "An sdk for creating MCP Servers with north",
+  "repo_url": "https://github.com/cohere-ai/north-mcp-python-sdk",
+  "source_hub": "mcp_so",
+  "owner": "cohere-ai",
+  "stars": 11,
+  "primary_language": "unknown",
+  "tags": [
+    "dev",
+    "dev-web-backend-python"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "3c2083607737e0d1940a3b8e2c90e1de776167a8",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 18,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:42:36Z",
+  "verification_level": "scanner_only"
+}

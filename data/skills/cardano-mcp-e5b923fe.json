@@ -1,0 +1,28 @@
+{
+  "id": "cardano-mcp-e5b923fe",
+  "name": "Cardano_MCP",
+  "description": "A specialized RAG gateway providing language models with Cardano blockchain knowledge. Enables AI assistants to access documentation, validate smart contracts, understand UTXO patterns, and discover development resources. Built on the MCP TypeScript SDK. Open-source.",
+  "repo_url": "https://github.com/Jimmyh-world/Cardano_MCP",
+  "source_hub": "mcp_so",
+  "owner": "Jimmyh-world",
+  "stars": 1,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "dev",
+    "prod-docs",
+    "sec-crypto"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "76b76bbd1278551fb65ad82768150af4d06b698a",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 151,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:42Z",
+  "verification_level": "scanner_only"
+}

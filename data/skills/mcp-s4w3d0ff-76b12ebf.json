@@ -1,0 +1,25 @@
+{
+  "id": "mcp-s4w3d0ff-76b12ebf",
+  "name": "mcp-s4w3d0ff",
+  "description": "Collection of MCP servers written in python",
+  "repo_url": "https://github.com/s4w3d0ff/mcp-s4w3d0ff",
+  "source_hub": "mcp_so",
+  "owner": "s4w3d0ff",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "dev-web-backend-python"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "bbb1031711c363ec85e96802fdc9df6fa09c136d",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 3,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:40Z",
+  "verification_level": "scanner_only"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "human-interface-guidelines-skill-c604491c",
+  "name": "human-interface-guidelines-skill",
+  "description": "Reusable HIG skill for iOS, iPadOS, macOS, watchOS, tvOS, and visionOS design review/spec workflows.",
+  "repo_url": "https://github.com/zanwei/human-interface-guidelines-skill",
+  "source_hub": "github_search",
+  "skill_type": "agent_skill",
+  "owner": "zanwei",
+  "stars": 1,
+  "license": "mit",
+  "primary_language": "markdown",
+  "tags": [
+    "data-ai-vision",
+    "prod"
+  ],
+  "verification_status": "pass",
+  "overall_score": 78,
+  "risk_level": "medium",
+  "verified_commit": null,
+  "scan_summary": null,
+  "last_updated": "2026-02-21T11:42:18Z",
+  "findings_summary": {
+    "notes": "Metadata-based verification. Score=78. Signals: stars=1; license='mit' (+5); owner='zanwei' (+3); primary_language='markdown'; source_hub='github_search'. Status: pass. Risk: medium."
+  },
+  "trust_level": "low",
+  "scan_date": "2026-02-26T06:14:56Z",
+  "verification_level": "metadata_only"
+}

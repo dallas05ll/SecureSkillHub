@@ -1,0 +1,22 @@
+{
+  "id": "composer-mcp-server-b298db73",
+  "name": "composer-mcp-server",
+  "description": "Composer's MCP server lets MCP-enabled LLMs like Claude backtest trading ideas and automatically invest in them for you",
+  "repo_url": "https://github.com/invest-composer/composer-mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "invest-composer",
+  "stars": 220,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "dev-devops-docker",
+    "dev-testing",
+    "prod"
+  ],
+  "verification_status": "fail",
+  "overall_score": 15,
+  "risk_level": "critical",
+  "verified_commit": "88e53a0f9e001a5e33ba953a24b9f971b88747a2",
+  "scan_summary": null,
+  "scan_date": "2026-02-27T06:14:18Z"
+}

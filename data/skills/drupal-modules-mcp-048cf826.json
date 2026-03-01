@@ -1,0 +1,28 @@
+{
+  "id": "drupal-modules-mcp-048cf826",
+  "name": "drupal-modules-mcp",
+  "description": "Model Context Protocol (MCP) servers for Drupal development. Includes tools for querying Drupal.org module. Seamlessly integrates with Cline and other MCP-compatible clients to enhance Drupal development workflows.",
+  "repo_url": "https://github.com/Cleversoft-IT/drupal-modules-mcp",
+  "source_hub": "mcp_so",
+  "owner": "Cleversoft-IT",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp",
+    "prod",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "76229f659793d7d4e33e540d222f17b9a1bf3ed9",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 5,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:40Z",
+  "verification_level": "scanner_only"
+}

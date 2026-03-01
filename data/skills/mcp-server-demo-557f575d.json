@@ -1,0 +1,26 @@
+{
+  "id": "mcp-server-demo-557f575d",
+  "name": "mcp-server-demo",
+  "description": "MCP server basic demo with stdio and sse transports",
+  "repo_url": "https://github.com/chaitanya1731/mcp-server-demo",
+  "source_hub": "mcp_so",
+  "owner": "chaitanya1731",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "8ff7977374650885e3ba0a0a14eb4da7b3427f36",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 5,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:42Z",
+  "verification_level": "scanner_only"
+}

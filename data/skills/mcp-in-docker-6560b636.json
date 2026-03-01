@@ -1,0 +1,25 @@
+{
+  "id": "mcp-in-docker-6560b636",
+  "name": "mcp-in-docker",
+  "description": "A Dockerized MCP server setup to deploy onto remote development servers",
+  "repo_url": "https://github.com/eooo-io/mcp-in-docker",
+  "source_hub": "mcp_so",
+  "owner": "eooo-io",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "dev-devops-docker"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "d8df449c2ed79274fb8adc203c0ff973c2a195e3",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 6,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:40Z",
+  "verification_level": "scanner_only"
+}

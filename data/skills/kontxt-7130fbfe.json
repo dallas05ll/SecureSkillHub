@@ -1,0 +1,26 @@
+{
+  "id": "kontxt-7130fbfe",
+  "name": "Kontxt",
+  "description": "Codebase indexing MCP server",
+  "repo_url": "https://github.com/ReyNeill/Kontxt",
+  "source_hub": "mcp_so",
+  "owner": "ReyNeill",
+  "stars": 10,
+  "primary_language": "unknown",
+  "tags": [
+    "dev",
+    "util-search"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "25b3dec4ac08a15f6c5990a8bf6bf4fbe2a1626d",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 7,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:42:34Z",
+  "verification_level": "scanner_only"
+}

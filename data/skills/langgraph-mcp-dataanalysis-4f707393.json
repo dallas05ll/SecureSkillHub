@@ -1,0 +1,25 @@
+{
+  "id": "langgraph-mcp-dataanalysis-4f707393",
+  "name": "langgraph-mcp-dataanalysis",
+  "description": "DataAnalysis Agent using LangGraph & MCP server and client",
+  "repo_url": "https://github.com/gongwon-nayeon/langgraph-mcp-dataanalysis",
+  "source_hub": "mcp_so",
+  "owner": "gongwon-nayeon",
+  "stars": 10,
+  "primary_language": "unknown",
+  "tags": [
+    "data"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "4b640e32d185c447df52fd922c203c686fccdd43",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 3,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:42:34Z",
+  "verification_level": "scanner_only"
+}

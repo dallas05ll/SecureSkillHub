@@ -1,0 +1,26 @@
+{
+  "id": "mcp-servers-collection-da152af3",
+  "name": "mcp-servers-collection",
+  "description": "A collection of Model Context Protocol (MCP) servers for enhancing Claude's capabilities in Cursor IDE",
+  "repo_url": "https://github.com/fpardon-upeo/mcp-servers-collection",
+  "source_hub": "mcp_so",
+  "owner": "fpardon-upeo",
+  "stars": 1,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "bcde053e2a50216c4ecef3c6612fa8a999b9f985",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 4,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:40Z",
+  "verification_level": "scanner_only"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "ticktick-mcp-server-5e564edd",
+  "name": "ticktick-mcp-server",
+  "description": "A Model Context Protocol (MCP) server designed to integrate with the TickTick task management platform, enabling intelligent context-aware task operations and automation.",
+  "repo_url": "https://github.com/alexarevalo9/ticktick-mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "alexarevalo9",
+  "stars": 62,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp",
+    "prod",
+    "prod-pm"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "b1e840aa6b3a019e35b105fb1c6b278bcca32461",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 16,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-27T06:40:43Z",
+  "verification_level": "scanner_only"
+}

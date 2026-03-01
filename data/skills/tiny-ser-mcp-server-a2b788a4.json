@@ -1,0 +1,26 @@
+{
+  "id": "tiny-ser-mcp-server-a2b788a4",
+  "name": "tiny-ser-mcp-server",
+  "description": "MCP",
+  "repo_url": "https://github.com/bestK/tiny-ser-mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "bestK",
+  "stars": 1,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "7b6311edfffb715239757e66b2a7bb979ebaaf1a",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 10,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:40Z",
+  "verification_level": "scanner_only"
+}

@@ -1,0 +1,25 @@
+{
+  "id": "mcpjungle-9faab14a",
+  "name": "MCPJungle",
+  "description": "Self-hosted MCP Server registry for AI agents",
+  "repo_url": "https://github.com/duaraghav8/MCPJungle",
+  "source_hub": "mcp_so",
+  "owner": "duaraghav8",
+  "stars": 872,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 8,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-27T02:26:21Z",
+  "verification_level": "scanner_only"
+}

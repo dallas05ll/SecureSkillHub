@@ -1,0 +1,28 @@
+{
+  "id": "claude-spp-ece3743b",
+  "name": "claude-spp",
+  "description": "Pair programming with Claude code. Turns Claude into a pair-programmer/coach who partners with you and helps you learn programming and software engineering.",
+  "repo_url": "https://github.com/mlolson/claude-spp",
+  "source_hub": "github_search",
+  "skill_type": "agent_skill",
+  "owner": "mlolson",
+  "stars": 10,
+  "license": "mit",
+  "primary_language": "markdown",
+  "tags": [
+    "data-ai",
+    "dev"
+  ],
+  "verification_status": "pass",
+  "overall_score": 83,
+  "risk_level": "low",
+  "verified_commit": null,
+  "scan_summary": null,
+  "last_updated": "2026-02-17T17:45:22Z",
+  "findings_summary": {
+    "notes": "Metadata-based verification. Score=83. Signals: stars=10 (>=10, +5); license='mit' (+5); owner='mlolson' (+3); primary_language='markdown'; source_hub='github_search'. Status: pass. Risk: low."
+  },
+  "trust_level": "low",
+  "scan_date": "2026-02-26T06:14:56Z",
+  "verification_level": "metadata_only"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "mcp-server-vector-search-0744f04c",
+  "name": "mcp-server-vector-search",
+  "description": "MCP Server to improve LLM context through vector search.",
+  "repo_url": "https://github.com/miosomos/mcp-server-vector-search",
+  "source_hub": "mcp_so",
+  "owner": "miosomos",
+  "stars": 3,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp",
+    "data-db-vector",
+    "util-search"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "021b2b664a42277d920b3712bbc6cf6e1df669c0",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 5,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:04:50Z",
+  "verification_level": "scanner_only"
+}

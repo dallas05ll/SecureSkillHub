@@ -1,0 +1,26 @@
+{
+  "id": "mcp-server-playground-759807cf",
+  "name": "mcp-server-playground",
+  "description": "MCP Server example with TypeScript",
+  "repo_url": "https://github.com/psaboia/mcp-server-playground",
+  "source_hub": "mcp_so",
+  "owner": "psaboia",
+  "stars": 6,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "4163ad67c99670dbf1c599641e4da80eb6650ea6",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 6,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:54:02Z",
+  "verification_level": "scanner_only"
+}

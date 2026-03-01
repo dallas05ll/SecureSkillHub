@@ -1,0 +1,26 @@
+{
+  "id": "mcp-deno-sandbox-e0c942fb",
+  "name": "mcp-deno-sandbox",
+  "description": "An MCP server that allows you to run TypeScript, JavaScript, and Python code in a sandbox on your local machine using the Deno® sandbox. This server provides a controlled environment for executing code with explicit permission controls.",
+  "repo_url": "https://github.com/bewt85/mcp-deno-sandbox",
+  "source_hub": "mcp_so",
+  "owner": "bewt85",
+  "stars": 13,
+  "primary_language": "unknown",
+  "tags": [
+    "dev",
+    "dev-web-backend-python"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "84ec190513e6b7726036a161338197451c6c3144",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 11,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:42:34Z",
+  "verification_level": "scanner_only"
+}

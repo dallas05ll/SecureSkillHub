@@ -1,0 +1,21 @@
+{
+  "id": "mcp-openapi-server-e3f3afbe",
+  "name": "mcp-openapi-server",
+  "description": "MCP Server (Model Context Protocol) for turning OpenAPI specifications into a MCP Resource",
+  "repo_url": "https://github.com/ivo-toby/mcp-openapi-server",
+  "source_hub": "mcp_so",
+  "owner": "ivo-toby",
+  "stars": 227,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp",
+    "integ"
+  ],
+  "verification_status": "fail",
+  "overall_score": 10,
+  "risk_level": "critical",
+  "verified_commit": "010b118b659cb348dfc0e1ebea66dcf452926f54",
+  "scan_summary": null,
+  "scan_date": "2026-02-27T06:14:13Z"
+}

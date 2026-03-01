@@ -1,0 +1,26 @@
+{
+  "id": "mcp-jina-reader-d97f8ccc",
+  "name": "mcp-jina-reader",
+  "description": "Jina Reader MCP Server",
+  "repo_url": "https://github.com/wong2/mcp-jina-reader",
+  "source_hub": "mcp_so",
+  "owner": "wong2",
+  "stars": 47,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "1301242884f92c5efe35c6b622f5c21c200fa84f",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 5,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:32:11Z",
+  "verification_level": "scanner_only"
+}

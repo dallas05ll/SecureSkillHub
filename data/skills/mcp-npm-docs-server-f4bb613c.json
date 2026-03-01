@@ -1,0 +1,29 @@
+{
+  "id": "mcp-npm-docs-server-f4bb613c",
+  "name": "mcp-npm_docs-server",
+  "description": "An MCP server that provides a tool to fetch metadata and documentation (including README content) for NPM packages, using a local cache to improve performance.",
+  "repo_url": "https://github.com/bsmi021/mcp-npm_docs-server",
+  "source_hub": "mcp_so",
+  "owner": "bsmi021",
+  "stars": 3,
+  "primary_language": "unknown",
+  "tags": [
+    "data",
+    "dev-web-backend-node",
+    "prod-docs",
+    "util",
+    "util-search"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "26e6b51eb66337e6879dc3af51248ebfcbc5b507",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 21,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:04:50Z",
+  "verification_level": "scanner_only"
+}

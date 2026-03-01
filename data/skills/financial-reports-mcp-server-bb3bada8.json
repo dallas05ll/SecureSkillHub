@@ -1,0 +1,28 @@
+{
+  "id": "financial-reports-mcp-server-bb3bada8",
+  "name": "financial-reports-mcp-server",
+  "description": "Instantly query European financial data for AI. This FastMCP server connects the FinancialReports.eu API to powerful language models, making complex reports easy to search, analyze, and explain",
+  "repo_url": "https://github.com/itisaevalex/financial-reports-mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "itisaevalex",
+  "stars": 7,
+  "primary_language": "unknown",
+  "tags": [
+    "data",
+    "data-ai",
+    "integ",
+    "util-search"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "6a2aad5daa6a3fea2bc15495e4e7edc8dbdf058e",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 21,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:54:04Z",
+  "verification_level": "scanner_only"
+}

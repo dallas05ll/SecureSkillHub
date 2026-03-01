@@ -1,0 +1,34 @@
+{
+  "id": "skillforge-2b6fcb3d",
+  "name": "SkillForge",
+  "description": "An intelligent meta-skill and skill creation methodology for Claude Code and Codex. Analyzes any input to recommend existing skills, improve them, or create new ones using a multi-phase process with 11 thinking lenses, regression questioning, and a synthesis panel. Includes scaffold scripts, validation tools, and reference documentation.",
+  "repo_url": "https://github.com/tripleyak/SkillForge",
+  "source_hub": "github_search",
+  "skill_type": "agent_skill",
+  "owner": "tripleyak",
+  "stars": 516,
+  "license": "mit",
+  "primary_language": "Python",
+  "tags": [
+    "data-ai",
+    "dev",
+    "prod-docs",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 84,
+  "risk_level": "low",
+  "verified_commit": null,
+  "findings_summary": {
+    "has_readme": true,
+    "has_security_policy": false,
+    "has_mcp_server": false,
+    "dangerous_patterns": [],
+    "notes": "High-quality meta-skill with excellent documentation. The SKILL.md is well-structured (313 lines after v5.0 optimization) with clear frontmatter including name, description, model specification, allowed-tools list (Read, Glob, Grep, Write, Edit only), and user-invocable flag. Helper Python scripts (init_skill.py, validate-skill.py, package_skill.py, discover_skills.py, quick_validate.py, triage_skill_request.py) are local-only tools for skill scaffolding and validation. check_docs_safety.py is a safety checker. No network calls, no hooks, no dangerous patterns. The .skillignore file and packaging safety hardening (v5.1) show security awareness. Comprehensive reference documentation in references/ folder. MIT licensed. Top-tier example of skill engineering best practices."
+  },
+  "scan_summary": null,
+  "last_updated": "2026-02-25T18:22:13Z",
+  "trust_level": "low",
+  "scan_date": "2026-02-26T02:05:22Z",
+  "verification_level": "scanner_only"
+}

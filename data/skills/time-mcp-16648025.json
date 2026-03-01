@@ -1,0 +1,26 @@
+{
+  "id": "time-mcp-16648025",
+  "name": "time-mcp",
+  "description": "mcp server for the time and date",
+  "repo_url": "https://github.com/sidharthrajaram/time-mcp",
+  "source_hub": "mcp_so",
+  "owner": "sidharthrajaram",
+  "stars": 2,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "f8f2a271b95f6678e50c8f65440747790df9e566",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 3,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:41Z",
+  "verification_level": "scanner_only"
+}

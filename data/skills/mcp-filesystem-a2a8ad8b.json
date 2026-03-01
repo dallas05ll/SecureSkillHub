@@ -1,0 +1,28 @@
+{
+  "id": "mcp-filesystem-a2a8ad8b",
+  "name": "mcp-filesystem",
+  "description": "A secure Model Context Protocol (MCP) server providing filesystem access within predefined directories",
+  "repo_url": "https://github.com/gabrielmaialva33/mcp-filesystem",
+  "source_hub": "mcp_so",
+  "owner": "gabrielmaialva33",
+  "stars": 7,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp",
+    "sec-crypto",
+    "util-file"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "442501c06f54a81293548a9f60d33f2f5e0fe973",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 29,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:54:02Z",
+  "verification_level": "scanner_only"
+}

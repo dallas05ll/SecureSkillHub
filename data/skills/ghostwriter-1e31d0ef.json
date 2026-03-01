@@ -1,0 +1,25 @@
+{
+  "id": "ghostwriter-1e31d0ef",
+  "name": "ghostwriter",
+  "description": "MCP server for working on files",
+  "repo_url": "https://github.com/kaqu/ghostwriter",
+  "source_hub": "mcp_so",
+  "owner": "kaqu",
+  "stars": 1,
+  "primary_language": "unknown",
+  "tags": [
+    "util-file"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "70c5c22efa804494bd7bba016524ccfec82c4452",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 12,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:42Z",
+  "verification_level": "scanner_only"
+}

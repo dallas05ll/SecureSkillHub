@@ -1,0 +1,112 @@
+{
+  "id": "mcp-applemusic-9d2a86cd",
+  "name": "mcp-applemusic",
+  "description": "An experimental MCP server for controlling Apple Music.",
+  "repo_url": "https://github.com/kennethreitz/mcp-applemusic",
+  "source_hub": "mcp_so",
+  "owner": "kennethreitz",
+  "stars": 73,
+  "primary_language": "python",
+  "tags": [
+    "data-ai-audio",
+    "status-fail"
+  ],
+  "verification_status": "fail",
+  "overall_score": 100,
+  "risk_level": "high",
+  "verified_commit": "936fb77f23f1dc2d65a6a9994cabc9cd1dd824a4",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 3,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-03-01T06:02:57Z",
+  "findings_summary": {
+    "scanner_findings": 1,
+    "dangerous_calls": 1,
+    "network_ops": 0,
+    "file_ops": 0,
+    "env_access": 0,
+    "obfuscation": 0,
+    "injection_patterns": 0,
+    "mismatches": 0,
+    "undocumented_capabilities": 0,
+    "supervisor_approved": false,
+    "supervisor_confidence": 95,
+    "pm_review": {
+      "reviewed_at": "2026-03-01T06:14:16Z",
+      "reviewer": "pm_dual_agent",
+      "previous_status": "manual_review",
+      "decision": "fail",
+      "reason": "PM final decision: fail due to high-risk scanner findings.",
+      "mode": "run-report",
+      "evidence": {
+        "score": 100,
+        "risk_level": "high",
+        "high_findings": 1,
+        "critical_findings": 0,
+        "obfuscation_high_risk_count": 0,
+        "injection_patterns_count": 0,
+        "repo_unavailable": false
+      }
+    }
+  },
+  "verification_level": "full_pipeline",
+  "agent_audit": {
+    "agents_completed": 5,
+    "agents_required": 5,
+    "pipeline_run_at": "2026-03-01T06:02:57Z",
+    "agent_a": {
+      "signed": true,
+      "signed_at": "2026-03-01T06:02:57Z",
+      "comment": "Docs quality 8/10. README present. 12 features, 3 permissions claimed.",
+      "doc_quality_score": 8,
+      "claimed_permissions": [
+        "network access",
+        "system command execution",
+        "file system access"
+      ]
+    },
+    "agent_b": {
+      "signed": true,
+      "signed_at": "2026-03-01T06:02:57Z",
+      "comment": "2 files analyzed. Found: 0 network, 0 file, 0 env, 1 system calls. Primary: python.",
+      "files_analyzed": 2,
+      "capabilities_found": [
+        "imports external dependencies",
+        "executes system commands"
+      ]
+    },
+    "agent_c_star": {
+      "signed": true,
+      "signed_at": "2026-03-01T06:02:57Z",
+      "comment": "1 findings: 0 critical, 1 high, 0 medium, 0 low. No obfuscation. No injection.",
+      "total_findings": 1,
+      "severity_counts": {
+        "critical": 0,
+        "high": 1,
+        "medium": 0,
+        "low": 0,
+        "info": 0
+      }
+    },
+    "agent_d": {
+      "signed": true,
+      "signed_at": "2026-03-01T06:02:57Z",
+      "comment": "Score 100. 0 mismatches. Risk: high. Safety overrides: none triggered.",
+      "score": 100,
+      "mismatches": 0,
+      "safety_overrides_applied": false
+    },
+    "agent_e": {
+      "signed": true,
+      "signed_at": "2026-03-01T06:02:57Z",
+      "comment": "Rejected. Confidence 95%. No overrides.",
+      "approved": false,
+      "confidence": 95,
+      "override_reason": null
+    },
+    "manager_summary": "5/5 agents completed. Score: 100/100, Risk: high. 0 mismatches, 1 scanner findings. Rejected at 95% confidence. No safety overrides.\n[2026-03-01T06:14:16Z] PM review: fail. PM final decision: fail due to high-risk scanner findings."
+  }
+}

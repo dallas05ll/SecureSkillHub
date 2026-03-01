@@ -1,0 +1,26 @@
+{
+  "id": "wonderland-editor-mcp-a81beaf0",
+  "name": "wonderland-editor-mcp",
+  "description": "MCP Server Plugin for Wonderland Editor",
+  "repo_url": "https://github.com/Squareys/wonderland-editor-mcp",
+  "source_hub": "mcp_so",
+  "owner": "Squareys",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "b0dc823b6ff7732618a6163fa53741141d2cbd39",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 11,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:42:59Z",
+  "verification_level": "scanner_only"
+}

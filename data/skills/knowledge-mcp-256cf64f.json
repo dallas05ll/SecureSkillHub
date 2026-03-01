@@ -1,0 +1,27 @@
+{
+  "id": "knowledge-mcp-256cf64f",
+  "name": "knowledge-mcp",
+  "description": "MCP Server that serves knowledge from a Neo4J Database",
+  "repo_url": "https://github.com/simon-k/knowledge-mcp",
+  "source_hub": "mcp_so",
+  "owner": "simon-k",
+  "stars": 3,
+  "primary_language": "unknown",
+  "tags": [
+    "data",
+    "data-db",
+    "data-db-graph"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "9ba6ff560bf3a8b7029ee3043c0290d06e87a84f",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 4,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:04:51Z",
+  "verification_level": "scanner_only"
+}

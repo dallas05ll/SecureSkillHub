@@ -1,0 +1,27 @@
+{
+  "id": "3d-polaroid-mcp-server-663489b5",
+  "name": "3d-polaroid-mcp-server",
+  "description": "A MCP server implementation that provides a tool to generate 3D image for a given 2D.",
+  "repo_url": "https://github.com/nifengxiaofei/3d-polaroid-mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "nifengxiaofei",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai-vision",
+    "util",
+    "repo_unavailable"
+  ],
+  "verification_status": "manual_review",
+  "overall_score": 0,
+  "risk_level": "high",
+  "verified_commit": "",
+  "scan_summary": null,
+  "scan_date": "2026-02-28T20:27:23Z",
+  "findings_summary": {
+    "error": "clone failed: Cloning into '/var/folders/pq/bb71gjzd01d29nnmqrhqr2rc0000gn/T/strict5_3d-polaroid-mcp-server-6_2c3km987/repo'...\nfatal: could not read Username for 'https://github.com': Device not configured",
+    "supervisor_approved": false,
+    "supervisor_confidence": 0
+  },
+  "repo_status": "unavailable"
+}

@@ -1,0 +1,26 @@
+{
+  "id": "skate-goat-8ff0ee39",
+  "name": "skate-goat",
+  "description": "An MCP server leveraging the Skate AMM SDK & Goat SDK - powering DeFi activity",
+  "repo_url": "https://github.com/Skate-Org/skate-goat",
+  "source_hub": "mcp_so",
+  "owner": "Skate-Org",
+  "stars": 1,
+  "primary_language": "unknown",
+  "tags": [
+    "dev",
+    "sec-crypto"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "84a5bf090c47124a7f32e6237eef5c5e3c83317a",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 14,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:40Z",
+  "verification_level": "scanner_only"
+}

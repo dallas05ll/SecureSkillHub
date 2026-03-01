@@ -1,0 +1,27 @@
+{
+  "id": "neo4j-mcp-2a8658cc",
+  "name": "neo4j-mcp",
+  "description": "Neo4j MCP Server - A microservice for Neo4j database operations",
+  "repo_url": "https://github.com/dandelionmayday123/neo4j-mcp",
+  "source_hub": "mcp_so",
+  "owner": "dandelionmayday123",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "data",
+    "data-db",
+    "data-db-graph"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "012af26b16af05db67b27fe6ad23de120566db3d",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 6,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:40Z",
+  "verification_level": "scanner_only"
+}

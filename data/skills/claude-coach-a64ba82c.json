@@ -1,0 +1,27 @@
+{
+  "id": "claude-coach-a64ba82c",
+  "name": "claude-coach",
+  "description": "Claude as your endurance coach for marathons, triathlons, Ironman events, and more",
+  "repo_url": "https://github.com/felixrieseberg/claude-coach",
+  "source_hub": "github_search",
+  "skill_type": "agent_skill",
+  "owner": "felixrieseberg",
+  "stars": 20,
+  "license": "mit",
+  "primary_language": "markdown",
+  "tags": [
+    "data-ai"
+  ],
+  "verification_status": "pass",
+  "overall_score": 83,
+  "risk_level": "low",
+  "verified_commit": null,
+  "scan_summary": null,
+  "last_updated": "2026-02-23T14:20:05Z",
+  "findings_summary": {
+    "notes": "Metadata-based verification. Score=83. Signals: stars=20 (>=10, +5); license='mit' (+5); owner='felixrieseberg' (+3); primary_language='markdown'; source_hub='github_search'. Status: pass. Risk: low."
+  },
+  "trust_level": "low",
+  "scan_date": "2026-02-26T06:14:55Z",
+  "verification_level": "metadata_only"
+}

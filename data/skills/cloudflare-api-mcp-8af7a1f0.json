@@ -1,0 +1,26 @@
+{
+  "id": "cloudflare-api-mcp-8af7a1f0",
+  "name": "cloudflare-api-mcp",
+  "description": "Lightweight MCP server to give your Cursor Agent access to the Cloudflare API.",
+  "repo_url": "https://github.com/ZukAi-MCP/cloudflare-api-mcp",
+  "source_hub": "mcp_so",
+  "owner": "ZukAi-MCP",
+  "stars": 16,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "integ-cloud"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "5deb1ddf351f4a75d7f91527c21afc83c92e28b8",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 50,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:42:34Z",
+  "verification_level": "scanner_only"
+}

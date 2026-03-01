@@ -1,0 +1,26 @@
+{
+  "id": "logzio-mcp-server-7f018379",
+  "name": "logzio-mcp-server",
+  "description": "Unofficial mcp server for logz.io",
+  "repo_url": "https://github.com/jklnr/logzio-mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "jklnr",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "a485fe41978863ef43c1bdbe920be33427c1745b",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 18,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:40Z",
+  "verification_level": "scanner_only"
+}

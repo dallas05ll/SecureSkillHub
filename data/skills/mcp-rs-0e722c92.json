@@ -1,0 +1,25 @@
+{
+  "id": "mcp-rs-0e722c92",
+  "name": "mcp_rs",
+  "description": "Simple MCP server implemented in Rust",
+  "repo_url": "https://github.com/inomata137/mcp_rs",
+  "source_hub": "mcp_so",
+  "owner": "inomata137",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "dev-web-backend-rust"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "1daa3ea59c64f875e2eefa37055f5297e4b783c7",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 9,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:41Z",
+  "verification_level": "scanner_only"
+}

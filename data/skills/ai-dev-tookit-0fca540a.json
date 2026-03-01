@@ -1,0 +1,28 @@
+{
+  "id": "ai-dev-tookit-0fca540a",
+  "name": "ai-dev-tookit",
+  "description": "A comprehensive MCP server combining file system access, AI Librarian, context compression, and project scaffolding tools",
+  "repo_url": "https://github.com/ReadyPlayerSix/ai-dev-tookit",
+  "source_hub": "mcp_so",
+  "owner": "ReadyPlayerSix",
+  "stars": 1,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp",
+    "util",
+    "util-file"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "587e5b6e4bc7b3148c90edee548df4aa604d8d25",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 164,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:40Z",
+  "verification_level": "scanner_only"
+}

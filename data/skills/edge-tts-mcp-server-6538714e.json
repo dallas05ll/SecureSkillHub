@@ -1,0 +1,27 @@
+{
+  "id": "edge-tts-mcp-server-6538714e",
+  "name": "edge_tts_mcp_server",
+  "description": "Model Context Protocol for Text-to-Speech",
+  "repo_url": "https://github.com/yuiseki/edge_tts_mcp_server",
+  "source_hub": "mcp_so",
+  "owner": "yuiseki",
+  "stars": 5,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-audio",
+    "data-ai-nlp"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "1f4504b6f93a68b3f568874675fe499abfb373ba",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 5,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:54:02Z",
+  "verification_level": "scanner_only"
+}

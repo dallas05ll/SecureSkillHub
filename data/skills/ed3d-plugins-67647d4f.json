@@ -1,0 +1,32 @@
+{
+  "id": "ed3d-plugins-67647d4f",
+  "name": "ed3d-plugins",
+  "description": "Collection of Claude Code plugins centered around a research-plan-implement (RPI) workflow. Includes plan-and-execute, house style, basic agents, research agents, Playwright automation, and hooks for skill reinforcement and CLAUDE.md updates.",
+  "repo_url": "https://github.com/ed3dai/ed3d-plugins",
+  "source_hub": "github_search",
+  "skill_type": "agent_skill",
+  "owner": "ed3dai",
+  "stars": 127,
+  "forks": 15,
+  "license": "",
+  "primary_language": "Python",
+  "tags": [
+    "data-ai",
+    "dev",
+    "dev-testing",
+    "prod",
+    "util-search"
+  ],
+  "verification_status": "pass",
+  "overall_score": 78,
+  "risk_level": "low",
+  "verified_commit": null,
+  "scan_summary": "Well-designed multi-plugin collection with RPI workflow, agent definitions, and hooks. Hook scripts (hook-reminder.sh) emit JSON-formatted context injection for Claude — benign shell script using cat heredoc. hooks.json defines Claude Code hook configuration. No license file found. Plugin system uses .claude-plugin marketplace.json format. Derived partially from obra/superpowers (credited). Python used in Playwright plugin for automation.",
+  "findings_summary": {
+    "notes": "High-quality plugin collection with good documentation and clear plugin modularity. Hooks are legitimate Claude Code hook mechanisms (UserPromptSubmit, PostToolUse) — hook-reminder.sh outputs a JSON context addition encouraging skill activation, which is benign. Playwright plugin involves browser automation (expected for that plugin type). No license file is a concern for redistribution. Overall well-maintained with active changelog."
+  },
+  "last_updated": "2026-02-25T00:13:32Z",
+  "trust_level": "low",
+  "scan_date": "2026-02-26T02:38:07Z",
+  "verification_level": "scanner_only"
+}

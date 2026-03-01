@@ -1,0 +1,27 @@
+{
+  "id": "cldgeminipdf-analyzer-d0c5f390",
+  "name": "CLDGeminiPDF-Analyzer",
+  "description": "MCP server for Claude Desktop allowing sharing files to Google's Gemini AI models via API for analysis and then response retrieval to Claude Desktop for further processing",
+  "repo_url": "https://github.com/tfll37/CLDGeminiPDF-Analyzer",
+  "source_hub": "mcp_so",
+  "owner": "tfll37",
+  "stars": 3,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "integ",
+    "util-file"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "5538a1fa67989827b51d4c4d55a19e1c8971ca8b",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 1,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:04:51Z",
+  "verification_level": "scanner_only"
+}

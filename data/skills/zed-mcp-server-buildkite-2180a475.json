@@ -1,0 +1,26 @@
+{
+  "id": "zed-mcp-server-buildkite-2180a475",
+  "name": "zed-mcp-server-buildkite",
+  "description": "Buildkite Integration for Zed - Access your Buildkite CI/CD pipelines and builds directly from your editor",
+  "repo_url": "https://github.com/mcncl/zed-mcp-server-buildkite",
+  "source_hub": "mcp_so",
+  "owner": "mcncl",
+  "stars": 3,
+  "primary_language": "unknown",
+  "tags": [
+    "dev-devops-ci",
+    "integ"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "537b60a81ad9307e43b9431473323be07b741f25",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 5,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:04:51Z",
+  "verification_level": "scanner_only"
+}

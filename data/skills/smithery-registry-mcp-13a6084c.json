@@ -1,0 +1,25 @@
+{
+  "id": "smithery-registry-mcp-13a6084c",
+  "name": "smithery-registry-mcp",
+  "description": "MCP server for interacting with the Smithery Registry API",
+  "repo_url": "https://github.com/aloshy-ai/smithery-registry-mcp",
+  "source_hub": "mcp_so",
+  "owner": "aloshy-ai",
+  "stars": 2,
+  "primary_language": "unknown",
+  "tags": [
+    "integ"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "e5ecbfd1f30cf73f04ca347eb4a6799e3db811cc",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 5,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:41Z",
+  "verification_level": "scanner_only"
+}

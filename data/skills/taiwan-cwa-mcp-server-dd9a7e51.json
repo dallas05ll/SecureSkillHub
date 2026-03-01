@@ -1,0 +1,26 @@
+{
+  "id": "taiwan-cwa-mcp-server-dd9a7e51",
+  "name": "taiwan-cwa-mcp-server",
+  "description": "Taiwan Central Weather Administration (CWA) API MCP Server",
+  "repo_url": "https://github.com/stephen9412/taiwan-cwa-mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "stephen9412",
+  "stars": 1,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "integ"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "dbc79449c5630627a224bc3fa6a55b1f7ceb4c95",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 12,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:40Z",
+  "verification_level": "scanner_only"
+}

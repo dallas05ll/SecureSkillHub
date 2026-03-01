@@ -1,0 +1,27 @@
+{
+  "id": "adampippert-multi-service-mcp-server-c34b7c97",
+  "name": "AdamPippert_multi-service-mcp-server",
+  "description": "Mirror of",
+  "repo_url": "https://github.com/MCP-Mirror/AdamPippert_multi-service-mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "MCP-Mirror",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "util",
+    "repo_unavailable"
+  ],
+  "verification_status": "manual_review",
+  "overall_score": 0,
+  "risk_level": "high",
+  "verified_commit": "",
+  "scan_summary": null,
+  "scan_date": "2026-02-28T20:27:24Z",
+  "findings_summary": {
+    "error": "clone failed: Cloning into '/var/folders/pq/bb71gjzd01d29nnmqrhqr2rc0000gn/T/strict5_adampippert-multi-servic_owxhazqd/repo'...\nfatal: could not read Username for 'https://github.com': Device not configured",
+    "supervisor_approved": false,
+    "supervisor_confidence": 0
+  },
+  "repo_status": "unavailable"
+}

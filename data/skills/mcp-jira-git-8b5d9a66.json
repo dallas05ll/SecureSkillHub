@@ -1,0 +1,26 @@
+{
+  "id": "mcp-jira-git-8b5d9a66",
+  "name": "mcp-jira-git",
+  "description": "MCP Server - Jira & Git Integration",
+  "repo_url": "https://github.com/kashuta/mcp-jira-git",
+  "source_hub": "mcp_so",
+  "owner": "kashuta",
+  "stars": 1,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "prod-pm"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "7274548b0d354711e37551fa644900fcc4a5b40a",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 17,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:40Z",
+  "verification_level": "scanner_only"
+}

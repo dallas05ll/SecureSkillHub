@@ -1,0 +1,25 @@
+{
+  "id": "mcp-server-make-dot-com-ffd73e24",
+  "name": "mcp-server-make-dot-com",
+  "description": "An MCP server implementation that integrates parts of the Make.com API",
+  "repo_url": "https://github.com/elitau/mcp-server-make-dot-com",
+  "source_hub": "mcp_so",
+  "owner": "elitau",
+  "stars": 1,
+  "primary_language": "unknown",
+  "tags": [
+    "integ"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "326ded8615231d57a32b4bcfb9b76d4a9788ad96",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 17,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:40Z",
+  "verification_level": "scanner_only"
+}

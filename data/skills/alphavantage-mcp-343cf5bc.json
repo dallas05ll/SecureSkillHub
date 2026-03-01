@@ -1,0 +1,26 @@
+{
+  "id": "alphavantage-mcp-343cf5bc",
+  "name": "alphavantage-mcp",
+  "description": "alphavantage mcp server",
+  "repo_url": "https://github.com/lifejwang11/alphavantage-mcp",
+  "source_hub": "mcp_so",
+  "owner": "lifejwang11",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "62d447c73d1bb5580c62755dbdfb7d6cf7ab5feb",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 5,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:41Z",
+  "verification_level": "scanner_only"
+}

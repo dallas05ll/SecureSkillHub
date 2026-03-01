@@ -1,0 +1,97 @@
+{
+  "id": "thedotmack--claude-mem",
+  "name": "claude-mem",
+  "skill_type": "mcp_server",
+  "repo_url": "https://github.com/thedotmack/claude-mem",
+  "source_hub": "github_search",
+  "stars": 30916,
+  "verification_status": "fail",
+  "overall_score": 10,
+  "risk_level": "critical",
+  "description": "Persistent memory compression system for Claude Code that captures tool usage, generates summaries, and injects context via lifecycle hooks.",
+  "primary_language": "TypeScript",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp",
+    "dev",
+    "prod-notes",
+    "util"
+  ],
+  "findings_summary": {
+    "scanner_findings": 717,
+    "dangerous_calls": 91,
+    "network_ops": 118,
+    "file_ops": 73,
+    "env_access": 147,
+    "obfuscation": 32,
+    "injection_patterns": 10,
+    "mismatches": 0,
+    "undocumented_capabilities": 0,
+    "supervisor_approved": false,
+    "supervisor_confidence": 95
+  },
+  "trust_level": "low",
+  "scan_date": "2026-02-28T20:55:22Z",
+  "verified_commit": "ecb09df42002db222a57e117abcec188393ef984",
+  "verification_level": "full_pipeline",
+  "agent_audit": {
+    "agents_completed": 5,
+    "agents_required": 5,
+    "pipeline_run_at": "2026-02-28T20:55:22Z",
+    "agent_a": {
+      "signed": true,
+      "signed_at": "2026-02-28T20:55:22Z",
+      "comment": "Docs quality 10/10. README present. 12 features, 4 permissions claimed.",
+      "doc_quality_score": 10,
+      "claimed_permissions": [
+        "network access",
+        "system command execution",
+        "file system access",
+        "environment/secret access"
+      ]
+    },
+    "agent_b": {
+      "signed": true,
+      "signed_at": "2026-02-28T20:55:22Z",
+      "comment": "381 files analyzed. Found: 99 network, 16 file, 100 env, 19 system calls. Primary: typescript.",
+      "files_analyzed": 381,
+      "capabilities_found": [
+        "imports external dependencies",
+        "performs network operations",
+        "reads/writes files",
+        "reads environment values",
+        "executes system commands"
+      ]
+    },
+    "agent_c_star": {
+      "signed": true,
+      "signed_at": "2026-02-28T20:55:22Z",
+      "comment": "717 findings: 10 critical, 369 high, 265 medium, 73 low. Obfuscation detected!. Injection patterns found!.",
+      "total_findings": 717,
+      "severity_counts": {
+        "critical": 10,
+        "high": 369,
+        "medium": 265,
+        "low": 73,
+        "info": 0
+      }
+    },
+    "agent_d": {
+      "signed": true,
+      "signed_at": "2026-02-28T20:55:22Z",
+      "comment": "Score 10. 0 mismatches. Risk: critical. Safety overrides: applied.",
+      "score": 10,
+      "mismatches": 0,
+      "safety_overrides_applied": true
+    },
+    "agent_e": {
+      "signed": true,
+      "signed_at": "2026-02-28T20:55:22Z",
+      "comment": "Rejected. Confidence 95%. Deterministic override: injection patterns detected.",
+      "approved": false,
+      "confidence": 95,
+      "override_reason": "Deterministic override: injection patterns detected."
+    },
+    "manager_summary": "5/5 agents completed. Score: 10/100, Risk: critical. 0 mismatches, 717 scanner findings. Rejected at 95% confidence. Safety overrides triggered."
+  }
+}

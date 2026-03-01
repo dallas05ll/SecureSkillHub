@@ -1,0 +1,25 @@
+{
+  "id": "duckduckgo-mcp-server-f4f8a4c9",
+  "name": "duckduckgo-mcp-server",
+  "description": "DuckDuckGo MCP Server for Claude Desktop and Cursor",
+  "repo_url": "https://github.com/rsimd/duckduckgo-mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "rsimd",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "934215e39746daa61790f679c54a28b4238152c3",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 9,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:40Z",
+  "verification_level": "scanner_only"
+}

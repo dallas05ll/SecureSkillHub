@@ -1,0 +1,27 @@
+{
+  "id": "stacktrace-mcp-ec327fb0",
+  "name": "stacktrace-mcp",
+  "description": "Simple JS Stacktrace MCP for getting the nearest error location from JS asset URL and let LLM checks if it matches anything with current codebase. Designed for non-sourcemap users.",
+  "repo_url": "https://github.com/antonybudianto/stacktrace-mcp",
+  "source_hub": "mcp_so",
+  "owner": "antonybudianto",
+  "stars": 1,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "dev",
+    "util-map"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "b2494c722f6e1f855391c3678125a6ae1d9abfed",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 5,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:41Z",
+  "verification_level": "scanner_only"
+}

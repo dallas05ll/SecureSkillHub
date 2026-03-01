@@ -1,0 +1,25 @@
+{
+  "id": "mcp-llm-9778dc68",
+  "name": "mcp-llm",
+  "description": "An MCP server that provides LLMs access to other LLMs",
+  "repo_url": "https://github.com/sammcj/mcp-llm",
+  "source_hub": "mcp_so",
+  "owner": "sammcj",
+  "stars": 77,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "4dc292c9713904376e56d19cbc9a79690d303e95",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 9,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-27T06:40:49Z",
+  "verification_level": "scanner_only"
+}

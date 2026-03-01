@@ -1,0 +1,27 @@
+{
+  "id": "mcp-runner-f0c90b2a",
+  "name": "mcp-runner",
+  "description": "A TypeScript SDK for running MCP (Model Context Protocol) servers with process reuse capabilities",
+  "repo_url": "https://github.com/cookiecad/mcp-runner",
+  "source_hub": "mcp_so",
+  "owner": "cookiecad",
+  "stars": 7,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp",
+    "dev"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "9d81f6b4153cae09053d0b014049c68a63f9722d",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 9,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:54:04Z",
+  "verification_level": "scanner_only"
+}

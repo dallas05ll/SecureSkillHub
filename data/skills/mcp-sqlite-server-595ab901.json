@@ -1,0 +1,26 @@
+{
+  "id": "mcp-sqlite-server-595ab901",
+  "name": "mcp-sqlite-server",
+  "description": "These are MCP server implementations for accessing a SQLite database in your MCP client. There is both a SDIO and a SSE implementation.",
+  "repo_url": "https://github.com/prayanks/mcp-sqlite-server",
+  "source_hub": "mcp_so",
+  "owner": "prayanks",
+  "stars": 10,
+  "primary_language": "unknown",
+  "tags": [
+    "data",
+    "data-db"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "563dcabe385405c573d39a7459e63a1038cbe20c",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 5,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:42:36Z",
+  "verification_level": "scanner_only"
+}

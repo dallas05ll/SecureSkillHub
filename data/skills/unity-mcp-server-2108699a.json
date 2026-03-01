@@ -1,0 +1,25 @@
+{
+  "id": "unity-mcp-server-2108699a",
+  "name": "unity-mcp-server",
+  "description": "I am building probably the first Claude MCP Server for Unity Editor that's on the internet.",
+  "repo_url": "https://github.com/propenster/unity-mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "propenster",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "1d4376573dd4671773ea29829237e1638c2a5ac0",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 5,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:42:59Z",
+  "verification_level": "scanner_only"
+}

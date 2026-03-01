@@ -1,0 +1,25 @@
+{
+  "id": "mcp-server-4cfe726e",
+  "name": "mcp-server",
+  "description": "MCP server for Glean API integration",
+  "repo_url": "https://github.com/gleanwork/mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "gleanwork",
+  "stars": 55,
+  "primary_language": "unknown",
+  "tags": [
+    "integ"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "c9f24bc1373fa7a8195750662a798428c7be7bc4",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 62,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-27T06:40:49Z",
+  "verification_level": "scanner_only"
+}

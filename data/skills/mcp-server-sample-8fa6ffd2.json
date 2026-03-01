@@ -1,0 +1,26 @@
+{
+  "id": "mcp-server-sample-8fa6ffd2",
+  "name": "mcp-server-sample",
+  "description": "Modelo de Servidor MCP baseado na documentação oficial",
+  "repo_url": "https://github.com/gabrielfroes/mcp-server-sample",
+  "source_hub": "mcp_so",
+  "owner": "gabrielfroes",
+  "stars": 75,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "prod-docs"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "30f5b7e3a539b8d12117b6de3dacea5da1a2ffcf",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 9,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-27T06:40:44Z",
+  "verification_level": "scanner_only"
+}

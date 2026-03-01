@@ -1,0 +1,28 @@
+{
+  "id": "remote-auth-mcp-apim-py-473f16bc",
+  "name": "remote-auth-mcp-apim-py",
+  "description": "Remote MCP server with auth gated by Azure API Management",
+  "repo_url": "https://github.com/localden/remote-auth-mcp-apim-py",
+  "source_hub": "mcp_so",
+  "owner": "localden",
+  "stars": 31,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "integ-cloud",
+    "integ-cloud-azure",
+    "sec"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "6d0950cea97c85b43e590c18c7e7eb78a9d046fc",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 16,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:32:11Z",
+  "verification_level": "scanner_only"
+}

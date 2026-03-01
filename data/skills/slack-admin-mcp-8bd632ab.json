@@ -1,0 +1,25 @@
+{
+  "id": "slack-admin-mcp-8bd632ab",
+  "name": "slack-admin-mcp",
+  "description": "MCP server for Slack channel administration (create, rename, archive)",
+  "repo_url": "https://github.com/xiujiang1987/slack-admin-mcp",
+  "source_hub": "mcp_so",
+  "owner": "xiujiang1987",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "prod-comm"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "411bd2c3004121d1a99e69f2b7b59a5b026b7487",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 5,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:43:00Z",
+  "verification_level": "scanner_only"
+}

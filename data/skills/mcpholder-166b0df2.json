@@ -1,0 +1,26 @@
+{
+  "id": "mcpholder-166b0df2",
+  "name": "MCPholder",
+  "description": "mobile app connect with cloudflare MCP server",
+  "repo_url": "https://github.com/WilliamSuiself/MCPholder",
+  "source_hub": "mcp_so",
+  "owner": "WilliamSuiself",
+  "stars": 1,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "integ-cloud"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "3be73d323f4b45260485a992b0085e8cd5ce8d31",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 1,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:40Z",
+  "verification_level": "scanner_only"
+}

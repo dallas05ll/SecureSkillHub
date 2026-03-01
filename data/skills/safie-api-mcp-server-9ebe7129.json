@@ -1,0 +1,27 @@
+{
+  "id": "safie-api-mcp-server-9ebe7129",
+  "name": "safie-api-mcp-server",
+  "description": "MCP server that enables AI Agents to use images and events from Safie camera devices",
+  "repo_url": "https://github.com/SafiePublic/safie-api-mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "SafiePublic",
+  "stars": 6,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-vision",
+    "integ"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "81340b89fa951528d14070ce7f05c03321423748",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 4,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:54:02Z",
+  "verification_level": "scanner_only"
+}

@@ -1,0 +1,29 @@
+{
+  "id": "neodb-mcp-server-3fc3664c",
+  "name": "NeoDB MCP Server",
+  "description": "Enables interaction with NeoDB, a social book cataloging service, by providing tools to fetch user info, search books, and retrieve detailed book information through its API.",
+  "repo_url": "https://github.com/xytangme/neodb-mcp",
+  "source_hub": "glama",
+  "owner": "xytangme",
+  "stars": 2,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "integ",
+    "sec-auth",
+    "util",
+    "util-search"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "2fe3d9c9a680662939b7bd4999afffcfbfb4b15b",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 4,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:04:50Z",
+  "verification_level": "scanner_only"
+}

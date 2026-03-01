@@ -1,0 +1,25 @@
+{
+  "id": "china-festival-mcp-58f1d741",
+  "name": "china-festival-mcp",
+  "description": "一个基于模型上下文协议（MCP）的中国节假日和农历信息服务器，为AI助手提供准确的法定节假日、调休安排、中国传统节日、农历转换、二十四节气和八字计算功能。西方节日都是固定公历日期，不需要查询工具。\r\n\r\n项目地址：https://github.com/Eis4TY/china-festival-mcp",
+  "repo_url": "https://github.com/Eis4TY/china-festival-mcp",
+  "source_hub": "mcp_so",
+  "owner": "Eis4TY",
+  "stars": 1,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "3744a8b6f27e5fa3c91aed8688f2a8521c6e4df1",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 13,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:42Z",
+  "verification_level": "scanner_only"
+}

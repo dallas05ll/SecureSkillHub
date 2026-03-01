@@ -1,0 +1,28 @@
+{
+  "id": "claude-code-wakatime-51e4e5fe",
+  "name": "claude-code-wakatime",
+  "description": "Official WakaTime plugin for Claude Code to track AI usage, lines of code generated, and time spent prompting.",
+  "repo_url": "https://github.com/wakatime/claude-code-wakatime",
+  "source_hub": "github_search",
+  "skill_type": "agent_skill",
+  "owner": "wakatime",
+  "stars": 57,
+  "license": "bsd-3-clause",
+  "primary_language": "TypeScript",
+  "tags": [
+    "data-ai",
+    "dev"
+  ],
+  "verification_status": "pass",
+  "overall_score": 82,
+  "risk_level": "low",
+  "verified_commit": null,
+  "scan_summary": null,
+  "last_updated": "2026-02-23T20:23:44Z",
+  "findings_summary": {
+    "notes": "BSD-3-Clause by wakatime (reputable established company), TypeScript, actively maintained. Official plugin from known service."
+  },
+  "trust_level": "low",
+  "scan_date": "2026-02-26T02:12:11Z",
+  "verification_level": "scanner_only"
+}

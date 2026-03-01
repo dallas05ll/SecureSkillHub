@@ -1,0 +1,26 @@
+{
+  "id": "spotify-mcp-9ebd2f0b",
+  "name": "spotify_mcp",
+  "description": "MCP Server to control Spotify",
+  "repo_url": "https://github.com/jmoro0408/spotify_mcp",
+  "source_hub": "mcp_so",
+  "owner": "jmoro0408",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "16cdf5951982030fcd3f84a168359acd3e8347aa",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 9,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:42:59Z",
+  "verification_level": "scanner_only"
+}

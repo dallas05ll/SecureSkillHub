@@ -1,0 +1,25 @@
+{
+  "id": "teamwork-mcp-12e763f2",
+  "name": "Teamwork-MCP",
+  "description": "MCP server to connect to the Teamwork API",
+  "repo_url": "https://github.com/readingdancer/Teamwork-MCP",
+  "source_hub": "mcp_so",
+  "owner": "readingdancer",
+  "stars": 13,
+  "primary_language": "unknown",
+  "tags": [
+    "integ"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "1dcde821612714752e463c90781ffc2d0c1b4fbb",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 105,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:42:34Z",
+  "verification_level": "scanner_only"
+}

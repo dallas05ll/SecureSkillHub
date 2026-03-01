@@ -1,0 +1,27 @@
+{
+  "id": "mcp-docs-assistant-53a412b5",
+  "name": "mcp-docs-assistant",
+  "description": "Simple MCP Server implemented using Anthropic's MCP SDK",
+  "repo_url": "https://github.com/AarnoStormborn/mcp-docs-assistant",
+  "source_hub": "mcp_so",
+  "owner": "AarnoStormborn",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "dev",
+    "prod-docs"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "f090160f676b32c1792d99a48a5905357f36ca68",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 4,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:41Z",
+  "verification_level": "scanner_only"
+}

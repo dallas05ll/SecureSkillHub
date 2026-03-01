@@ -1,0 +1,23 @@
+{
+  "id": "mcp-6914455e",
+  "name": "mcp",
+  "description": "Arcjet Model Context Protocol (MCP) server. Help your AI agents implement bot detection, rate limiting, email validation, attack protection, data redaction.",
+  "repo_url": "https://github.com/arcjet/mcp",
+  "source_hub": "mcp_so",
+  "owner": "arcjet",
+  "stars": 1,
+  "primary_language": "unknown",
+  "tags": [
+    "data",
+    "data-ai",
+    "data-ai-nlp",
+    "prod-comm"
+  ],
+  "verification_status": "pass",
+  "overall_score": 92,
+  "risk_level": "low",
+  "verified_commit": null,
+  "scan_summary": null,
+  "scan_date": "2026-02-26T03:00:50Z",
+  "verification_level": "scanner_only"
+}

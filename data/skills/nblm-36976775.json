@@ -1,0 +1,23 @@
+{
+  "id": "nblm-36976775",
+  "name": "Nblm",
+  "description": "Agent skill: nblm from magicseek/nblm",
+  "repo_url": "https://github.com/magicseek/nblm",
+  "source_hub": "skills_sh",
+  "owner": "magicseek",
+  "stars": 6200,
+  "primary_language": "unknown",
+  "tags": [],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "6d989d4b17be50fb3f0fb744d26032173fc01a2d",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 57,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:54:02Z",
+  "verification_level": "scanner_only"
+}

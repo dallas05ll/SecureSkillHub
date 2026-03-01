@@ -1,0 +1,26 @@
+{
+  "id": "hyperscale-mcp-3b771e82",
+  "name": "hyperscale-mcp",
+  "description": "An MCP server for Hyperscale",
+  "repo_url": "https://github.com/adalundhe/hyperscale-mcp",
+  "source_hub": "mcp_so",
+  "owner": "adalundhe",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "c72e982855c2d424affe2af5c5f6b1ecb61f3ea5",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 24,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:42Z",
+  "verification_level": "scanner_only"
+}

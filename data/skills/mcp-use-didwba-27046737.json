@@ -1,0 +1,26 @@
+{
+  "id": "mcp-use-didwba-27046737",
+  "name": "mcp-use-didwba",
+  "description": "An example of an MCP client and server using didwba as the authentication technology.",
+  "repo_url": "https://github.com/chgaowei/mcp-use-didwba",
+  "source_hub": "mcp_so",
+  "owner": "chgaowei",
+  "stars": 2,
+  "primary_language": "unknown",
+  "tags": [
+    "sec",
+    "sec-auth"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "51e27a11f10d633dbac39fbb96f2bf1c9fd6eee7",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 5,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:04:51Z",
+  "verification_level": "scanner_only"
+}

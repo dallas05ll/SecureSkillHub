@@ -1,0 +1,26 @@
+{
+  "id": "mcp-server-playbook-2025-38d3e8d2",
+  "name": "mcp-server-playbook-2025",
+  "description": "Model Context Protocol Quick Start Guide - 2025",
+  "repo_url": "https://github.com/munganaai/mcp-server-playbook-2025",
+  "source_hub": "mcp_so",
+  "owner": "munganaai",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "0c48ed8620b772ab571e80e2ddd2d4f3bde8234b",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 2,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:40Z",
+  "verification_level": "scanner_only"
+}

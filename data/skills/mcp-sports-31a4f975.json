@@ -1,0 +1,26 @@
+{
+  "id": "mcp-sports-31a4f975",
+  "name": "mcp-sports",
+  "description": "An MCP server for real-time sports.",
+  "repo_url": "https://github.com/michaelfromyeg/mcp-sports",
+  "source_hub": "mcp_so",
+  "owner": "michaelfromyeg",
+  "stars": 5,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "10fbfa288529e8a692b2ec8b76ce5a7cb01c7e6e",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 14,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:54:02Z",
+  "verification_level": "scanner_only"
+}

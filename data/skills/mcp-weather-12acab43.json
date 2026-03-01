@@ -1,0 +1,25 @@
+{
+  "id": "mcp-weather-12acab43",
+  "name": "mcp-weather",
+  "description": "mcp demo for",
+  "repo_url": "https://github.com/GreatAuk/mcp-weather",
+  "source_hub": "mcp_so",
+  "owner": "GreatAuk",
+  "stars": 4,
+  "primary_language": "unknown",
+  "tags": [
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "25997cf6b2da45df86909db85e540c3e6e125ab3",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 20,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:54:02Z",
+  "verification_level": "scanner_only"
+}

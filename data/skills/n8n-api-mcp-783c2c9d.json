@@ -1,0 +1,25 @@
+{
+  "id": "n8n-api-mcp-783c2c9d",
+  "name": "N8N-api-MCP",
+  "description": "MCP Server for interacting with an n8n instance",
+  "repo_url": "https://github.com/jasondsmith72/N8N-api-MCP",
+  "source_hub": "mcp_so",
+  "owner": "jasondsmith72",
+  "stars": 1,
+  "primary_language": "unknown",
+  "tags": [
+    "integ"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "1b2a10f0e4a660e45a86110cbdedb351b50b7e9b",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 6,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:40Z",
+  "verification_level": "scanner_only"
+}

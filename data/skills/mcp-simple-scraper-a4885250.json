@@ -1,0 +1,26 @@
+{
+  "id": "mcp-simple-scraper-a4885250",
+  "name": "mcp-simple-scraper",
+  "description": "MCP server that extracts text content from webpages, YouTube videos, and PDFs for LLMs to use.",
+  "repo_url": "https://github.com/sektor10/mcp-simple-scraper",
+  "source_hub": "mcp_so",
+  "owner": "sektor10",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp",
+    "integ-social",
+    "util-media",
+    "util-search",
+    "repo_unavailable"
+  ],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null,
+  "repo_status": "unavailable",
+  "repo_check_date": "2026-02-28T20:52:25.454948+00:00",
+  "repo_check_error": "fatal: could not read Username for 'https://github.com': Device not configured"
+}

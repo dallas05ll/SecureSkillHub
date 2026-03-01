@@ -1,0 +1,25 @@
+{
+  "id": "kospi-kosdaq-stock-server-66eb7209",
+  "name": "kospi-kosdaq-stock-server",
+  "description": "An MCP server that provides KOSPI/KOSDAQ stock data using FastMCP",
+  "repo_url": "https://github.com/dragon1086/kospi-kosdaq-stock-server",
+  "source_hub": "mcp_so",
+  "owner": "dragon1086",
+  "stars": 63,
+  "primary_language": "unknown",
+  "tags": [
+    "data"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "4fed3319aedccb01cc59867ebe499893e6f54f31",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 8,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-27T06:40:44Z",
+  "verification_level": "scanner_only"
+}

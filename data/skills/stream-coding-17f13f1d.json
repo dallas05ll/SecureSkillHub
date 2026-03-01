@@ -1,0 +1,39 @@
+{
+  "id": "stream-coding-17f13f1d",
+  "name": "Stream Coding",
+  "description": "Stop 'vibe coding' and start Stream Coding, the 10-20x velocity methodology for AI-accelerated development",
+  "repo_url": "https://github.com/frmoretto/stream-coding",
+  "source_hub": "claude_skills_hub",
+  "skill_type": "agent_skill",
+  "owner": "frmoretto",
+  "stars": 44,
+  "forks": 4,
+  "license": "NOASSERTION",
+  "primary_language": "markdown",
+  "tags": [
+    "data-ai",
+    "util-media"
+  ],
+  "source_tags": [
+    "ai",
+    "coding",
+    "markdown",
+    "video"
+  ],
+  "categories": [
+    "dev"
+  ],
+  "version": "1.0.0",
+  "requires_code_execution": false,
+  "verification_status": "pass",
+  "overall_score": 88,
+  "risk_level": "low",
+  "verified_commit": null,
+  "scan_summary": null,
+  "findings_summary": {
+    "notes": "Metadata-based verification. Score=88. Signals: stars=44 (>=10, +5); license='NOASSERTION' (+5); owner='frmoretto' (+3); primary_language='markdown'; source_hub='claude_skills_hub' (+5). Status: pass. Risk: low."
+  },
+  "trust_level": "medium",
+  "scan_date": "2026-02-26T06:14:56Z",
+  "verification_level": "metadata_only"
+}

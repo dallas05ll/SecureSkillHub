@@ -1,0 +1,25 @@
+{
+  "id": "vuln-fs-bf5aec5c",
+  "name": "vuln-fs",
+  "description": "vulnerable MCP server example",
+  "repo_url": "https://github.com/0pstech/vuln-fs",
+  "source_hub": "mcp_so",
+  "owner": "0pstech",
+  "stars": 1,
+  "primary_language": "unknown",
+  "tags": [
+    "sec"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "ab63ec753b521620e2edb35a21b8cd90382f2b44",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 5,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:42Z",
+  "verification_level": "scanner_only"
+}

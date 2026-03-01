@@ -1,0 +1,27 @@
+{
+  "id": "codebox-ai-4cddecbc",
+  "name": "codebox-ai",
+  "description": "A secure Python code execution service designed to integrate with LLMs like GPT and Claude, providing a self-hosted alternative to OpenAI's Code Interpreter. Now with MCP server.",
+  "repo_url": "https://github.com/tomconte/codebox-ai",
+  "source_hub": "mcp_so",
+  "owner": "tomconte",
+  "stars": 9,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "dev",
+    "dev-web-backend-python"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "b8fd03af1bcb6f1d2f19c697d3cb7ef0110be669",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 21,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:42:36Z",
+  "verification_level": "scanner_only"
+}

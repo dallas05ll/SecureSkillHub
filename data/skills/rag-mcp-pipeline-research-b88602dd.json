@@ -1,0 +1,29 @@
+{
+  "id": "rag-mcp-pipeline-research-b88602dd",
+  "name": "rag-mcp-pipeline-research",
+  "description": "A learning repository exploring Retrieval-Augmented Generation (RAG) and Multi-Cloud Processing (MCP) server integration using free and open-source models.",
+  "repo_url": "https://github.com/dzikrisyairozi/rag-mcp-pipeline-research",
+  "source_hub": "mcp_so",
+  "owner": "dzikrisyairozi",
+  "stars": 1,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "dev-devops-ci",
+    "integ",
+    "integ-cloud",
+    "util-search"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "45975df38548f57fe7704316000d9238109eb89f",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 53,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:41Z",
+  "verification_level": "scanner_only"
+}

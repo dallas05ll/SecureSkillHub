@@ -1,0 +1,26 @@
+{
+  "id": "public-apis-mcp-09d1c5bf",
+  "name": "public-apis-mcp",
+  "description": "MCP server exposing a catalog of free APIs with embedding-based lookups",
+  "repo_url": "https://github.com/zazencodes/public-apis-mcp",
+  "source_hub": "mcp_so",
+  "owner": "zazencodes",
+  "stars": 6,
+  "primary_language": "unknown",
+  "tags": [
+    "data-db-vector",
+    "integ"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "5d988a789d1d1d9c79b209b93a85b91cf431b008",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 17,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:54:02Z",
+  "verification_level": "scanner_only"
+}

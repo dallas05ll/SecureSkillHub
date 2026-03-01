@@ -1,0 +1,27 @@
+{
+  "id": "npm-sentinel-mcp-4474f71a",
+  "name": "npm-sentinel-mcp",
+  "description": "A powerful Model Context Protocol (MCP) server that revolutionizes NPM package analysis through AI.",
+  "repo_url": "https://github.com/Nekzus/npm-sentinel-mcp",
+  "source_hub": "mcp_so",
+  "owner": "Nekzus",
+  "stars": 18,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp",
+    "dev-web-backend-node"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "a90c07650284aba60a398ae71945fdf7512caea6",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 20,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:42:34Z",
+  "verification_level": "scanner_only"
+}

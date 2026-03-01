@@ -1,0 +1,28 @@
+{
+  "id": "punkpeye--awesome-mcp-clients",
+  "name": "awesome-mcp-clients",
+  "skill_type": "mcp_server",
+  "repo_url": "https://github.com/punkpeye/awesome-mcp-clients",
+  "source_hub": "github_search",
+  "stars": 6300,
+  "verification_status": "pass",
+  "overall_score": 82,
+  "risk_level": "low",
+  "description": "Curated awesome-list of Model Context Protocol (MCP) clients. Documentation-only repo.",
+  "primary_language": "Markdown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp",
+    "prod-docs"
+  ],
+  "findings_summary": {
+    "has_readme": true,
+    "has_security_policy": false,
+    "has_mcp_server": false,
+    "dangerous_patterns": [],
+    "notes": "MIT. Pure docs, zero executable code. Curated link directory."
+  },
+  "trust_level": "low",
+  "scan_date": "2026-02-26T03:00:50Z",
+  "verification_level": "scanner_only"
+}

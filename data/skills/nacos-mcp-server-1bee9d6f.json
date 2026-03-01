@@ -1,0 +1,25 @@
+{
+  "id": "nacos-mcp-server-1bee9d6f",
+  "name": "Nacos MCP Server",
+  "description": "A server that enables interaction with Nacos service discovery and configuration management through Large Language Models, providing read-only access to namespaces, services, and configurations.",
+  "repo_url": "https://github.com/nacos-group/nacos-mcp-server",
+  "source_hub": "glama",
+  "owner": "nacos-group",
+  "stars": 6,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "e3cba2ee0011a5405837f503e20175c95b0aa17c",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 6,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:54:04Z",
+  "verification_level": "scanner_only"
+}

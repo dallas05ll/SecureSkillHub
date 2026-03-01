@@ -1,0 +1,29 @@
+{
+  "id": "ai-agent-team-c29e57ac",
+  "name": "ai-agent-team",
+  "description": "A 24/7 AI development team with specialized agent roles: Product Manager, Frontend Dev, Backend Dev, QA Engineer, DevOps Engineer, and Tech Lead. One-click install with bilingual (Chinese/English) command support.",
+  "repo_url": "https://github.com/peterfei/ai-agent-team",
+  "source_hub": "github_search",
+  "skill_type": "agent_skill",
+  "owner": "peterfei",
+  "stars": 274,
+  "forks": 0,
+  "license": "mit",
+  "primary_language": "JavaScript",
+  "tags": [
+    "data-ai",
+    "dev-testing"
+  ],
+  "verification_status": "pass",
+  "overall_score": 72,
+  "risk_level": "low",
+  "verified_commit": null,
+  "scan_summary": null,
+  "findings_summary": {
+    "notes": "Repository confirmed (274 stars, MIT, JavaScript, created Nov 2025). Structured .claude/ directory with agents/ (product_manager.md, frontend_dev.md, backend_dev.md, devops_engineer.md, qa_engineer.md, tech-leader.md), commands/ (be-start.md, fe-start.md, ops-start.md, pm-start.md, qa-start.md, start-task.md), hooks/, skills/, and CLAUDE.md/USAGE.md. package.json with npm installable bin/ai-agent-team.js. Includes platform-specific install scripts (install.sh, install.bat, install.ps1). Multiple release note files present. MCP integration (.mcp.json). Concern: bilingual Chinese repo with limited community engagement (0 forks). No malicious code found."
+  },
+  "last_updated": "2026-02-24T08:32:28Z",
+  "trust_level": "low",
+  "scan_date": "2026-02-26T02:23:01Z",
+  "verification_level": "scanner_only"
+}

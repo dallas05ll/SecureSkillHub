@@ -1,0 +1,27 @@
+{
+  "id": "mcp-driven-web-automation-bf0e3243",
+  "name": "mcp-driven-web-automation",
+  "description": "Experiments on using mcp for web automation using playwright / puppeteer map servers",
+  "repo_url": "https://github.com/Prathameshs/mcp-driven-web-automation",
+  "source_hub": "mcp_so",
+  "owner": "Prathameshs",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "dev-testing",
+    "prod",
+    "util-map"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "80ed5f3b1b3874128ef8646e291654491202f15c",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 11,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:41Z",
+  "verification_level": "scanner_only"
+}

@@ -1,0 +1,25 @@
+{
+  "id": "file-store-mcp-cbd9540a",
+  "name": "file-store-mcp",
+  "description": "file store mcp server",
+  "repo_url": "https://github.com/sjzar/file-store-mcp",
+  "source_hub": "mcp_so",
+  "owner": "sjzar",
+  "stars": 8,
+  "primary_language": "unknown",
+  "tags": [
+    "util-file"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "822885c1b8f7bb70911b08c8df4f38a217356acb",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 2,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:42:36Z",
+  "verification_level": "scanner_only"
+}

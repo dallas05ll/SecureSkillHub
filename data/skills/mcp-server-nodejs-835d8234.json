@@ -1,0 +1,26 @@
+{
+  "id": "mcp-server-nodejs-835d8234",
+  "name": "mcp-server-nodejs",
+  "description": "streamable http MCP Server using Nodejs",
+  "repo_url": "https://github.com/nabadeep25/mcp-server-nodejs",
+  "source_hub": "mcp_so",
+  "owner": "nabadeep25",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "dev-web-backend-node",
+    "util-media"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "4274d059d4bf060a53accea9e4a3d7b6c2af70da",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 8,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:40Z",
+  "verification_level": "scanner_only"
+}

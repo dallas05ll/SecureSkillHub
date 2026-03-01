@@ -1,0 +1,28 @@
+{
+  "id": "things3-mcp-646d877c",
+  "name": "things3-mcp",
+  "description": "MCP server for Things3 integration on macOS",
+  "repo_url": "https://github.com/urbanogardun/things3-mcp",
+  "source_hub": "mcp_so",
+  "owner": "urbanogardun",
+  "stars": 18,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "integ-cloud",
+    "integ-cloud-aws",
+    "util-file"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "d209ef62b4df22128cd4f96033ab1034df5fb9a0",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 45,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:42:34Z",
+  "verification_level": "scanner_only"
+}

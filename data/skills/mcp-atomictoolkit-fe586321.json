@@ -1,0 +1,25 @@
+{
+  "id": "mcp-atomictoolkit-fe586321",
+  "name": "mcp-atomictoolkit",
+  "description": "An MCP-compatible server providing atomistic simulation capabilities through ASE, pymatgen, etc.",
+  "repo_url": "https://github.com/XirtamEsrevni/mcp-atomictoolkit",
+  "source_hub": "mcp_so",
+  "owner": "XirtamEsrevni",
+  "stars": 10,
+  "primary_language": "unknown",
+  "tags": [
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "ef5fc88aeae12e66cc77dc7cb89ca76df0c1eb3d",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 39,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:42:34Z",
+  "verification_level": "scanner_only"
+}

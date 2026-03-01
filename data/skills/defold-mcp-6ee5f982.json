@@ -1,0 +1,26 @@
+{
+  "id": "defold-mcp-6ee5f982",
+  "name": "defold-mcp",
+  "description": "My attempt to create a MCP server that can be used with cursor to work on a defold project",
+  "repo_url": "https://github.com/ChadAragorn/defold-mcp",
+  "source_hub": "mcp_so",
+  "owner": "ChadAragorn",
+  "stars": 10,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "1243f4bc8c3fd3436e42b43544b2888aa5cb14d8",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 4,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:42:36Z",
+  "verification_level": "scanner_only"
+}

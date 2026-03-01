@@ -1,0 +1,28 @@
+{
+  "id": "azure-openai-mcp-example-5673eb29",
+  "name": "azure-openai-mcp-example",
+  "description": "This project showcases how to use the MCP protocol with Azure OpenAI. It provides a simple example to interact with OpenAI's API seamlessly via an MCP server and client.",
+  "repo_url": "https://github.com/manekinekko/azure-openai-mcp-example",
+  "source_hub": "mcp_so",
+  "owner": "manekinekko",
+  "stars": 32,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "integ",
+    "integ-cloud",
+    "integ-cloud-azure"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "e3235ce73371ff22ee61690454232b55f7b18163",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 31,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:32:11Z",
+  "verification_level": "scanner_only"
+}

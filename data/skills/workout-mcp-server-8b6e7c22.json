@@ -1,0 +1,26 @@
+{
+  "id": "workout-mcp-server-8b6e7c22",
+  "name": "workout_mcp_server",
+  "description": "MCP Server for workout info",
+  "repo_url": "https://github.com/ipdelete/workout_mcp_server",
+  "source_hub": "mcp_so",
+  "owner": "ipdelete",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "0f80e29efcdfb792eefe700ba3890e361713e7df",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 25,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:42:59Z",
+  "verification_level": "scanner_only"
+}

@@ -1,0 +1,25 @@
+{
+  "id": "moteurimmo-mcp-server-5a1b478f",
+  "name": "moteurimmo-mcp-server",
+  "description": "A MCP Server for MoteurImmo API",
+  "repo_url": "https://github.com/MeilleursBiens/moteurimmo-mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "MeilleursBiens",
+  "stars": 1,
+  "primary_language": "unknown",
+  "tags": [
+    "integ"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "93d7ddc1cf58294af4479e2ef2c9f68674719b5e",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 11,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:41Z",
+  "verification_level": "scanner_only"
+}

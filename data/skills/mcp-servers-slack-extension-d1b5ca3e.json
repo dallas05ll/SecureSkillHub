@@ -1,0 +1,25 @@
+{
+  "id": "mcp-servers-slack-extension-d1b5ca3e",
+  "name": "mcp-servers-slack-extension",
+  "description": "An extension for Slack's MCP server",
+  "repo_url": "https://github.com/motsuo373/mcp-servers-slack-extension",
+  "source_hub": "mcp_so",
+  "owner": "motsuo373",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "prod-comm"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "40727e7f9a5f427d32e7fb307a47f6bebf02fa90",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 4,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:41Z",
+  "verification_level": "scanner_only"
+}

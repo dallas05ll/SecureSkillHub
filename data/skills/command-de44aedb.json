@@ -1,0 +1,26 @@
+{
+  "id": "command-de44aedb",
+  "name": "command",
+  "description": "Scopecraft Command - A CLI and MCP server for Markdown-Driven Task Management (MDTM)",
+  "repo_url": "https://github.com/scopecraft/command",
+  "source_hub": "mcp_so",
+  "owner": "scopecraft",
+  "stars": 172,
+  "primary_language": "unknown",
+  "tags": [
+    "prod-docs",
+    "prod-pm"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "ba95eaec68a8a4ceff79e602fe4b13573ebaf467",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 405,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-27T06:36:35Z",
+  "verification_level": "scanner_only"
+}

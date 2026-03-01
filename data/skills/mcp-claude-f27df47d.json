@@ -1,0 +1,25 @@
+{
+  "id": "mcp-claude-f27df47d",
+  "name": "mcp-claude",
+  "description": "using claude with different mcp servers",
+  "repo_url": "https://github.com/hrushik-reddy/mcp-claude",
+  "source_hub": "mcp_so",
+  "owner": "hrushik-reddy",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "2401387e2423a3028c30d4bc0b5b4d12e49cc38e",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 1,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:40Z",
+  "verification_level": "scanner_only"
+}

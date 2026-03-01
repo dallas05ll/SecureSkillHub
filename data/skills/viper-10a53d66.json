@@ -1,0 +1,131 @@
+{
+  "id": "viper-10a53d66",
+  "name": "Viper",
+  "description": "Adversary simulation and Red teaming platform with AI",
+  "repo_url": "https://github.com/FunnyWolf/Viper",
+  "source_hub": "mcp_so",
+  "owner": "FunnyWolf",
+  "stars": 4973,
+  "primary_language": "shell",
+  "tags": [
+    "data-ai",
+    "status-fail"
+  ],
+  "verification_status": "fail",
+  "overall_score": 10,
+  "risk_level": "critical",
+  "verified_commit": "4044f49d4d685c921d677b25f9128536e7bb8976",
+  "scan_summary": {
+    "last_verified": "2026-02-25",
+    "repo_metadata": {
+      "created_at": "2020-05-29",
+      "last_pushed": "2026-01-18",
+      "latest_release": "v3.1.10",
+      "forks": 668,
+      "open_issues": 5,
+      "has_discussions": true,
+      "archived": false,
+      "topics": [
+        "red-team-tools",
+        "metasploit-framework",
+        "post-exploitation",
+        "cobalt-strike",
+        "ai",
+        "llm",
+        "mcp-server",
+        "viper"
+      ]
+    },
+    "positive_signals": [
+      "Actively maintained: latest release v3.1.10 published 2026-01-18",
+      "Project has been in continuous development since 2020 (5+ years)",
+      "Comprehensive bilingual (English + Chinese) documentation site at viperrtp.com",
+      "668 forks and 4,973 stars indicate a large, engaged security research community",
+      "Structured issue tracker with bug report and feature request templates",
+      "Discord community and Twitter presence for user support",
+      "Docker-based deployment reduces host system exposure",
+      "Transparent product comparison against Cobalt Strike, NightHawk, BruteRatel",
+      "Explicit positioning as a cybersecurity assessment and red team tool"
+    ],
+    "risk_signals": [
+      "No LICENSE file present in repository (proprietary/source-available model)",
+      "No SECURITY.md or responsible disclosure policy found",
+      "No explicit legal disclaimer or ethical use notice in README or docs",
+      "Includes built-in AV/EDR evasion and anti-tracing capabilities",
+      "Features defense evasion, implant deployment, and payload generation for live targets",
+      "Primarily authored by a single developer (FunnyWolf) with limited code review visibility",
+      "Repository language breakdown returns empty (obfuscated or binary-heavy distribution)",
+      "Community edition free; monetized Pro tier suggests commercial offensive tooling positioning"
+    ],
+    "findings_summary": "Viper is a well-known, actively maintained red team command-and-control (C2) platform that wraps Metasploit Framework with a modern web UI, LLM agent integration, and extensive post-exploitation modules. It is a legitimate and widely-used tool in the professional penetration testing and adversary simulation space, analogous to Cobalt Strike. The project has 5+ years of development history, comprehensive documentation in English and Chinese, and a strong community. However, it lacks a LICENSE file, a SECURITY.md responsible disclosure policy, and any explicit terms-of-use or ethical use disclaimer in its public-facing documentation. The tool includes built-in AV/EDR evasion, anti-tracing, and implant deployment capabilities that carry inherent dual-use risk. Flagged for manual review to confirm the operator context aligns with authorized security testing use cases."
+  },
+  "scan_date": "2026-03-01T05:57:29Z",
+  "findings_summary": {
+    "scanner_findings": 17,
+    "dangerous_calls": 3,
+    "network_ops": 0,
+    "file_ops": 0,
+    "env_access": 0,
+    "obfuscation": 6,
+    "injection_patterns": 2,
+    "mismatches": 0,
+    "undocumented_capabilities": 0,
+    "supervisor_approved": false,
+    "supervisor_confidence": 95
+  },
+  "verification_level": "full_pipeline",
+  "agent_audit": {
+    "agents_completed": 5,
+    "agents_required": 5,
+    "pipeline_run_at": "2026-03-01T05:57:29Z",
+    "agent_a": {
+      "signed": true,
+      "signed_at": "2026-03-01T05:57:29Z",
+      "comment": "Docs quality 9/10. README present. 12 features, 4 permissions claimed.",
+      "doc_quality_score": 9,
+      "claimed_permissions": [
+        "network access",
+        "system command execution",
+        "file system access",
+        "environment/secret access"
+      ]
+    },
+    "agent_b": {
+      "signed": true,
+      "signed_at": "2026-03-01T05:57:29Z",
+      "comment": "6 files analyzed. Found: 0 network, 0 file, 0 env, 0 system calls. Primary: shell.",
+      "files_analyzed": 6,
+      "capabilities_found": []
+    },
+    "agent_c_star": {
+      "signed": true,
+      "signed_at": "2026-03-01T05:57:29Z",
+      "comment": "17 findings: 2 critical, 15 high, 0 medium, 0 low. Obfuscation detected!. Injection patterns found!.",
+      "total_findings": 17,
+      "severity_counts": {
+        "critical": 2,
+        "high": 15,
+        "medium": 0,
+        "low": 0,
+        "info": 0
+      }
+    },
+    "agent_d": {
+      "signed": true,
+      "signed_at": "2026-03-01T05:57:29Z",
+      "comment": "Score 10. 0 mismatches. Risk: critical. Safety overrides: applied.",
+      "score": 10,
+      "mismatches": 0,
+      "safety_overrides_applied": true
+    },
+    "agent_e": {
+      "signed": true,
+      "signed_at": "2026-03-01T05:57:29Z",
+      "comment": "Rejected. Confidence 95%. Deterministic override: injection patterns detected.",
+      "approved": false,
+      "confidence": 95,
+      "override_reason": "Deterministic override: injection patterns detected."
+    },
+    "manager_summary": "5/5 agents completed. Score: 10/100, Risk: critical. 0 mismatches, 17 scanner findings. Rejected at 95% confidence. Safety overrides triggered."
+  }
+}

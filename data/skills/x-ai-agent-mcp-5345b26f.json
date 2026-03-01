@@ -1,0 +1,25 @@
+{
+  "id": "x-ai-agent-mcp-5345b26f",
+  "name": "X_AI_AGENT_MCP",
+  "description": "X Ai agent made with Gemini-Flash-2.0 and MCP Server",
+  "repo_url": "https://github.com/bharathgaddam1712/X_AI_AGENT_MCP",
+  "source_hub": "mcp_so",
+  "owner": "bharathgaddam1712",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "54438561d483c9104757f9f805b45502c35b1815",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 8,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:43:00Z",
+  "verification_level": "scanner_only"
+}

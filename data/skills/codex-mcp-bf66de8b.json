@@ -1,0 +1,28 @@
+{
+  "id": "codex-mcp-bf66de8b",
+  "name": "codex-mcp",
+  "description": "A Model Context Protocol server for the Codex API",
+  "repo_url": "https://github.com/Codex-Data/codex-mcp",
+  "source_hub": "mcp_so",
+  "owner": "Codex-Data",
+  "stars": 22,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp",
+    "dev",
+    "integ"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "d31ebf35eef28d8f3bd57ad63fb13b9470849cbd",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 17,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:32:11Z",
+  "verification_level": "scanner_only"
+}

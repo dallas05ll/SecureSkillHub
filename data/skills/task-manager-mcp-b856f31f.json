@@ -1,0 +1,25 @@
+{
+  "id": "task-manager-mcp-b856f31f",
+  "name": "task-manager-mcp",
+  "description": "A task management MCP server that provides comprehensive project and task tracking capabilities",
+  "repo_url": "https://github.com/tradesdontlie/task-manager-mcp",
+  "source_hub": "mcp_so",
+  "owner": "tradesdontlie",
+  "stars": 34,
+  "primary_language": "unknown",
+  "tags": [
+    "prod-pm"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "cd467b172d5c7026b17bc54b1c417568a44ee57a",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 11,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:32:11Z",
+  "verification_level": "scanner_only"
+}

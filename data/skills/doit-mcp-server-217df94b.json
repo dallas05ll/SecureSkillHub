@@ -1,0 +1,26 @@
+{
+  "id": "doit-mcp-server-217df94b",
+  "name": "doit-mcp-server",
+  "description": "DoiT official MCP Server",
+  "repo_url": "https://github.com/doitintl/doit-mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "doitintl",
+  "stars": 13,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "eba42d11cd072f56de918276dd1f2d8e7bb22bcc",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 49,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:42:36Z",
+  "verification_level": "scanner_only"
+}

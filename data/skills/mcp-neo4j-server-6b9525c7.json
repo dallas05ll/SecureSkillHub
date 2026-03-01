@@ -1,0 +1,25 @@
+{
+  "id": "mcp-neo4j-server-6b9525c7",
+  "name": "mcp-neo4j-server",
+  "description": "mcp-neo4j-server",
+  "repo_url": "https://github.com/da-okazaki/mcp-neo4j-server",
+  "source_hub": "mcp_so",
+  "owner": "da-okazaki",
+  "stars": 57,
+  "primary_language": "unknown",
+  "tags": [
+    "data-db-graph"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "8a93b901ebbbde985c5357cff222f04feb6ac859",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 8,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-27T06:40:43Z",
+  "verification_level": "scanner_only"
+}

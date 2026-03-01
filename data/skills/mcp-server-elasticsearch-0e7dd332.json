@@ -1,0 +1,28 @@
+{
+  "id": "mcp-server-elasticsearch-0e7dd332",
+  "name": "mcp-server-elasticsearch",
+  "description": "A production-ready Model Context Protocol (MCP) server that connects AI assistants like Claude Desktop to Elasticsearch clusters. This server provides comprehensive Elasticsearch operations through natural language interactions.",
+  "repo_url": "https://github.com/zx8086/mcp-server-elasticsearch",
+  "source_hub": "mcp_so",
+  "owner": "zx8086",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp",
+    "integ",
+    "util-search"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "6fc48406d8a79933b8f40923f53b3894375194c6",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 313,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:41Z",
+  "verification_level": "scanner_only"
+}

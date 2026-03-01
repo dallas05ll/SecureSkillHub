@@ -1,0 +1,25 @@
+{
+  "id": "dataset-viewer-7da90a41",
+  "name": "dataset-viewer",
+  "description": "MCP server for Hugging Face dataset viewer",
+  "repo_url": "https://github.com/privetin/dataset-viewer",
+  "source_hub": "mcp_so",
+  "owner": "privetin",
+  "stars": 30,
+  "primary_language": "unknown",
+  "tags": [
+    "data"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "b1a340430a2e7f5c388e6d8676ad5366c1f18f2a",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 4,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:32:11Z",
+  "verification_level": "scanner_only"
+}

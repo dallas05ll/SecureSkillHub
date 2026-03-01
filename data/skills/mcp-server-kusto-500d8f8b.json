@@ -1,0 +1,27 @@
+{
+  "id": "mcp-server-kusto-500d8f8b",
+  "name": "mcp-server-kusto",
+  "description": "A mcp server that uses azure data explorer as a backend",
+  "repo_url": "https://github.com/ZZZHDW/mcp-server-kusto",
+  "source_hub": "mcp_so",
+  "owner": "ZZZHDW",
+  "stars": 1,
+  "primary_language": "unknown",
+  "tags": [
+    "data",
+    "integ-cloud",
+    "integ-cloud-azure"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "723087fff856d26dbe260c4423ab13cbd519d0c8",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 4,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:40Z",
+  "verification_level": "scanner_only"
+}

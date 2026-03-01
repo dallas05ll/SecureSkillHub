@@ -1,0 +1,167 @@
+rules:
+  # -----------------------------------------------------------------------
+  # Python: Shell execution and dynamic code evaluation
+  # -----------------------------------------------------------------------
+  - id: dangerous-os-system
+    languages: [python]
+    severity: ERROR
+    message: >
+      os.system() executes shell commands and is vulnerable to injection.
+      This is a critical finding for untrusted code.
+    patterns:
+      - pattern: os.system(...)
+
+  - id: dangerous-os-popen
+    languages: [python]
+    severity: ERROR
+    message: >
+      os.popen() executes shell commands via a pipe. Dangerous in untrusted code.
+    patterns:
+      - pattern: os.popen(...)
+
+  - id: dangerous-subprocess-call
+    languages: [python]
+    severity: ERROR
+    message: >
+      subprocess module invocation detected. Allows arbitrary command execution.
+    pattern-either:
+      - pattern: subprocess.call(...)
+      - pattern: subprocess.run(...)
+      - pattern: subprocess.Popen(...)
+      - pattern: subprocess.check_output(...)
+      - pattern: subprocess.check_call(...)
+      - pattern: subprocess.getoutput(...)
+      - pattern: subprocess.getstatusoutput(...)
+
+  - id: dangerous-subprocess-shell-true
+    languages: [python]
+    severity: ERROR
+    message: >
+      subprocess with shell=True is especially dangerous — allows shell injection.
+    patterns:
+      - pattern: subprocess.$FUNC(..., shell=True, ...)
+
+  - id: dangerous-eval
+    languages: [python]
+    severity: ERROR
+    message: >
+      eval() executes arbitrary Python expressions. Critical risk in untrusted code.
+    patterns:
+      - pattern: eval(...)
+
+  - id: dangerous-exec
+    languages: [python]
+    severity: ERROR
+    message: >
+      exec() executes arbitrary Python code. Critical risk in untrusted code.
+    patterns:
+      - pattern: exec(...)
+
+  - id: dangerous-compile-exec
+    languages: [python]
+    severity: ERROR
+    message: >
+      compile() with exec mode can be used to dynamically generate executable code.
+    patterns:
+      - pattern: compile(..., "exec")
+
+  - id: dangerous-importlib
+    languages: [python]
+    severity: WARNING
+    message: >
+      Dynamic import via importlib may load untrusted modules at runtime.
+    patterns:
+      - pattern: importlib.import_module(...)
+
+  - id: dangerous-dunder-import
+    languages: [python]
+    severity: WARNING
+    message: >
+      __import__() dynamically imports modules — may load untrusted code.
+    patterns:
+      - pattern: __import__(...)
+
+  - id: dangerous-pickle-loads
+    languages: [python]
+    severity: ERROR
+    message: >
+      pickle.loads() can execute arbitrary code during deserialization.
+    pattern-either:
+      - pattern: pickle.loads(...)
+      - pattern: pickle.load(...)
+      - pattern: pickle.Unpickler(...)
+
+  - id: dangerous-ctypes
+    languages: [python]
+    severity: ERROR
+    message: >
+      ctypes usage detected — allows calling arbitrary native/shared library functions.
+    pattern-either:
+      - pattern: ctypes.cdll.$FUNC(...)
+      - pattern: ctypes.CDLL(...)
+
+  - id: dangerous-os-exec-family
+    languages: [python]
+    severity: ERROR
+    message: >
+      os.exec*() replaces the current process with a new one. Dangerous.
+    pattern-either:
+      - pattern: os.execl(...)
+      - pattern: os.execle(...)
+      - pattern: os.execlp(...)
+      - pattern: os.execlpe(...)
+      - pattern: os.execv(...)
+      - pattern: os.execve(...)
+      - pattern: os.execvp(...)
+      - pattern: os.execvpe(...)
+
+  # -----------------------------------------------------------------------
+  # JavaScript / TypeScript: Shell execution and dynamic code evaluation
+  # -----------------------------------------------------------------------
+  - id: dangerous-child-process-exec
+    languages: [javascript, typescript]
+    severity: ERROR
+    message: >
+      child_process.exec() runs shell commands. Critical risk in untrusted code.
+    pattern-either:
+      - pattern: child_process.exec(...)
+      - pattern: child_process.execSync(...)
+      - pattern: child_process.execFile(...)
+      - pattern: child_process.spawn(...)
+      - pattern: child_process.spawnSync(...)
+      - pattern: child_process.fork(...)
+
+  - id: dangerous-require-child-process
+    languages: [javascript, typescript]
+    severity: ERROR
+    message: >
+      Importing child_process module — enables shell command execution.
+    pattern-either:
+      - pattern: require("child_process")
+      - pattern: require('child_process')
+
+  - id: dangerous-js-eval
+    languages: [javascript, typescript]
+    severity: ERROR
+    message: >
+      eval() executes arbitrary JavaScript code. Critical risk.
+    patterns:
+      - pattern: eval(...)
+
+  - id: dangerous-js-function-constructor
+    languages: [javascript, typescript]
+    severity: ERROR
+    message: >
+      new Function() dynamically creates executable code from strings.
+    patterns:
+      - pattern: new Function(...)
+
+  - id: dangerous-js-vm-run
+    languages: [javascript, typescript]
+    severity: WARNING
+    message: >
+      vm module can execute code in sandboxed contexts but escapes are common.
+    pattern-either:
+      - pattern: vm.runInNewContext(...)
+      - pattern: vm.runInThisContext(...)
+      - pattern: vm.createScript(...)

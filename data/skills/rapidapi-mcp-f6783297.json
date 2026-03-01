@@ -1,0 +1,27 @@
+{
+  "id": "rapidapi-mcp-f6783297",
+  "name": "RapidAPI-MCP",
+  "description": "MCP Server implementation for RapidAPI Global Patent API integration with SQLite storage",
+  "repo_url": "https://github.com/myownipgit/RapidAPI-MCP",
+  "source_hub": "mcp_so",
+  "owner": "myownipgit",
+  "stars": 5,
+  "primary_language": "unknown",
+  "tags": [
+    "data-db",
+    "integ",
+    "util-file"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "cbc2226665e75a080c947332457e3cfd6574ad25",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 15,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:54:02Z",
+  "verification_level": "scanner_only"
+}

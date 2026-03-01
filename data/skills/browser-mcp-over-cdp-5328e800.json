@@ -1,0 +1,27 @@
+{
+  "id": "browser-mcp-over-cdp-5328e800",
+  "name": "browser-mcp-over-cdp",
+  "description": "MCP Server that manages a Chrome browser using the Chrome DevTools Protocol (CDP)",
+  "repo_url": "https://github.com/dumitrubogdanmihai/browser-mcp-over-cdp",
+  "source_hub": "mcp_so",
+  "owner": "dumitrubogdanmihai",
+  "stars": 4,
+  "primary_language": "unknown",
+  "tags": [
+    "dev-web",
+    "util",
+    "util-search"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "2c35299d31342ee7e7d0e1a856eedf799b2a398f",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 38,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:54:04Z",
+  "verification_level": "scanner_only"
+}

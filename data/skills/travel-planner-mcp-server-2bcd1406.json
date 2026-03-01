@@ -1,0 +1,26 @@
+{
+  "id": "travel-planner-mcp-server-2bcd1406",
+  "name": "TRAVEL-PLANNER-MCP-Server",
+  "description": "Travel planning and itinerary management microservice server",
+  "repo_url": "https://github.com/GongRzhe/TRAVEL-PLANNER-MCP-Server",
+  "source_hub": "mcp_so",
+  "owner": "GongRzhe",
+  "stars": 94,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "cfec0e4e8233ca99fa401e987d7d8b34c42dd477",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 6,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-27T06:40:44Z",
+  "verification_level": "scanner_only"
+}

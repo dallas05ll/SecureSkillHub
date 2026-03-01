@@ -1,0 +1,26 @@
+{
+  "id": "blocknative-mcp-40ac43f6",
+  "name": "blocknative-mcp",
+  "description": "An MCP server that provides real-time gas price predictions across multiple blockchains.",
+  "repo_url": "https://github.com/kukapay/blocknative-mcp",
+  "source_hub": "mcp_so",
+  "owner": "kukapay",
+  "stars": 4,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "sec-crypto"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "c219324996189fc1e5d15048682d2049d809144c",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 4,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:54:02Z",
+  "verification_level": "scanner_only"
+}

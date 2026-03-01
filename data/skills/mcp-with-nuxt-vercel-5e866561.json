@@ -1,0 +1,25 @@
+{
+  "id": "mcp-with-nuxt-vercel-5e866561",
+  "name": "mcp-with-nuxt-vercel",
+  "description": "Example of creating a MCP server with Nuxt & Vercel.",
+  "repo_url": "https://github.com/atinux/mcp-with-nuxt-vercel",
+  "source_hub": "mcp_so",
+  "owner": "atinux",
+  "stars": 17,
+  "primary_language": "unknown",
+  "tags": [
+    "dev-web-frontend-vue"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "c72c85a027b3f94151095708fa7f5b6c4099b895",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 10,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:42:34Z",
+  "verification_level": "scanner_only"
+}

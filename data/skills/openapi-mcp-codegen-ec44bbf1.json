@@ -1,0 +1,26 @@
+{
+  "id": "openapi-mcp-codegen-ec44bbf1",
+  "name": "openapi-mcp-codegen",
+  "description": "OpenAPI to MCP Server Code Generator",
+  "repo_url": "https://github.com/cnoe-io/openapi-mcp-codegen",
+  "source_hub": "mcp_so",
+  "owner": "cnoe-io",
+  "stars": 32,
+  "primary_language": "unknown",
+  "tags": [
+    "dev",
+    "integ"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "d0d9e1d848c5705d9bfb1f58a82a7e653c9c85c2",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 588,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:32:13Z",
+  "verification_level": "scanner_only"
+}

@@ -1,0 +1,26 @@
+{
+  "id": "mcp-client-352ed601",
+  "name": "mcp-client",
+  "description": "an MCP client written in angular/typescript using Claude.ai for integration with ApiLogicServer server executions",
+  "repo_url": "https://github.com/thomasgpeters/mcp-client",
+  "source_hub": "mcp_so",
+  "owner": "thomasgpeters",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "integ"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "4a68c99e708c83cd9f0f61c764968f0dd52753ab",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 20,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:41Z",
+  "verification_level": "scanner_only"
+}

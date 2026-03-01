@@ -1,0 +1,26 @@
+{
+  "id": "hatch-mcp-server-1ac4731d",
+  "name": "hatch-mcp-server",
+  "description": "hatch-mcp-server",
+  "repo_url": "https://github.com/Meerkats-Ai/hatch-mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "Meerkats-Ai",
+  "stars": 1,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "82bc00a01b5905eb8b918dfb3962d9df928e5797",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 6,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:42Z",
+  "verification_level": "scanner_only"
+}

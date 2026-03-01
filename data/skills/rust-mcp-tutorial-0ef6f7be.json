@@ -1,0 +1,25 @@
+{
+  "id": "rust-mcp-tutorial-0ef6f7be",
+  "name": "rust-mcp-tutorial",
+  "description": "rustでmcp serverのお試し",
+  "repo_url": "https://github.com/savacan/rust-mcp-tutorial",
+  "source_hub": "mcp_so",
+  "owner": "savacan",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "dev-web-backend-rust"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "24cbe566833e2a238df0ab10f043daa6c5d5b33d",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 2,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:41Z",
+  "verification_level": "scanner_only"
+}

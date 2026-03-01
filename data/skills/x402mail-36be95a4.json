@@ -1,0 +1,31 @@
+{
+  "id": "x402mail-36be95a4",
+  "name": "x402mail",
+  "description": "Send and receive emails via Python SDK or MCP. No API keys, no accounts - your wallet is your identity. Pay per call with USDC on Base via the x402 protocol. $0.005 per email.",
+  "repo_url": "https://github.com/MuzsaiLajos/x402mail",
+  "source_hub": "mcp_so",
+  "owner": "MuzsaiLajos",
+  "stars": 1,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "dev",
+    "dev-web-backend-python",
+    "integ",
+    "prod-comm",
+    "sec-auth",
+    "sec-crypto"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "a6b6d2c99174e8ece5e7972d515c6d6be4458b83",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 9,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:41Z",
+  "verification_level": "scanner_only"
+}

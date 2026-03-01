@@ -1,0 +1,28 @@
+{
+  "id": "mcp-devtools-49619765",
+  "name": "mcp-devtools",
+  "description": "MCP DevTools: A suite of Model Context Protocol servers enabling AI assistants to interact with developer tools and services",
+  "repo_url": "https://github.com/DXHeroes/mcp-devtools",
+  "source_hub": "mcp_so",
+  "owner": "DXHeroes",
+  "stars": 13,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp",
+    "dev",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "7581ef5be587f9ecb0a24cd71a25334cd5803574",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 62,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:42:34Z",
+  "verification_level": "scanner_only"
+}

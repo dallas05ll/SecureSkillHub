@@ -1,0 +1,26 @@
+{
+  "id": "cmd-line-executor-mcp-45ee9fc7",
+  "name": "cmd-line-executor-MCP",
+  "description": "Experimental MCP server to execute command line commands",
+  "repo_url": "https://github.com/MarkusPfundstein/cmd-line-executor-MCP",
+  "source_hub": "mcp_so",
+  "owner": "MarkusPfundstein",
+  "stars": 4,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "26479b913ec8b9822fad0fcb0ee59375a30c1894",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 4,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:54:02Z",
+  "verification_level": "scanner_only"
+}

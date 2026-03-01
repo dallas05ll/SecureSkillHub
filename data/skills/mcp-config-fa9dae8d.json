@@ -1,0 +1,25 @@
+{
+  "id": "mcp-config-fa9dae8d",
+  "name": "mcp-config",
+  "description": "A CLI tool for easy installation of MCP servers and managing their configuration",
+  "repo_url": "https://github.com/marcusschiesser/mcp-config",
+  "source_hub": "mcp_so",
+  "owner": "marcusschiesser",
+  "stars": 64,
+  "primary_language": "unknown",
+  "tags": [
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "19c797fec1b5b1ae5f140766554d2fecb5bda61d",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 37,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-27T06:40:44Z",
+  "verification_level": "scanner_only"
+}

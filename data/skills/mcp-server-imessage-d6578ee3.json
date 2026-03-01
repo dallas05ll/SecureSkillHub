@@ -1,0 +1,25 @@
+{
+  "id": "mcp-server-imessage-d6578ee3",
+  "name": "mcp-server-imessage",
+  "description": "MCP server for interacting with iMessage on macOS",
+  "repo_url": "https://github.com/shirhatti/mcp-server-imessage",
+  "source_hub": "mcp_so",
+  "owner": "shirhatti",
+  "stars": 5,
+  "primary_language": "unknown",
+  "tags": [
+    "prod-comm"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "848d0d87589266fe7d97a0b688155f1b224ec073",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 21,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:54:02Z",
+  "verification_level": "scanner_only"
+}

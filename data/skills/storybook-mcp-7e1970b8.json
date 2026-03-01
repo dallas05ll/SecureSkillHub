@@ -1,0 +1,24 @@
+{
+  "id": "storybook-mcp-7e1970b8",
+  "name": "storybook-mcp",
+  "description": "Help agents automatically write and test stories for your UI components.\r\n\r\nStorybook MCP enables a workflow where for each UI component created, the agent will automatically generate and link to example stories. These stories let you visually verify the new UI in each of its key states, and provide documentation and component tests.",
+  "repo_url": "https://github.com/storybookjs/storybook-mcp",
+  "source_hub": "mcp_so",
+  "owner": "storybookjs",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "dev-testing",
+    "prod",
+    "prod-docs",
+    "repo_unavailable"
+  ],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null,
+  "repo_status": "unavailable",
+  "repo_check_date": "2026-02-28T20:52:58.013827+00:00",
+  "repo_check_error": "fatal: could not read Username for 'https://github.com': Device not configured"
+}

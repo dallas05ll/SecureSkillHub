@@ -1,0 +1,26 @@
+{
+  "id": "go-mcp-server-example-ce1194ae",
+  "name": "go-mcp-server-example",
+  "description": "Example how to make a DIY MCP server in Go",
+  "repo_url": "https://github.com/BearHuddleston/go-mcp-server-example",
+  "source_hub": "mcp_so",
+  "owner": "BearHuddleston",
+  "stars": 13,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "3e25464732bba9e492a8b8ad542ca43241196131",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 1,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:42:34Z",
+  "verification_level": "scanner_only"
+}

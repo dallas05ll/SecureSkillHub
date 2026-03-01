@@ -1,0 +1,27 @@
+{
+  "id": "mcp-reasoner-35f8d41a",
+  "name": "MCP-Reasoner",
+  "description": "Model Context Protocol (MCP) server implementation using Google OR-Tools for constraint solving",
+  "repo_url": "https://github.com/MCP-Reasoner/MCP-Reasoner",
+  "source_hub": "mcp_so",
+  "owner": "MCP-Reasoner",
+  "stars": 1,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "949f6601a05597f01115e67e094f36a99d676329",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 78,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:41Z",
+  "verification_level": "scanner_only"
+}

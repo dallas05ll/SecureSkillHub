@@ -1,0 +1,26 @@
+{
+  "id": "tutorial-mcp-server-dotnet-4b57ec80",
+  "name": "tutorial-mcp-server-dotnet",
+  "description": "This is a very basic example of how to create MCP servers in .NET",
+  "repo_url": "https://github.com/mehrandvd/tutorial-mcp-server-dotnet",
+  "source_hub": "mcp_so",
+  "owner": "mehrandvd",
+  "stars": 7,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "aa1ba25ba2c3edc03984b56156991ca092332b4e",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 1,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:54:02Z",
+  "verification_level": "scanner_only"
+}

@@ -1,0 +1,25 @@
+{
+  "id": "aie-mcp-9aef94b5",
+  "name": "aie-mcp",
+  "description": "MCP remote server for AI Engineer World's Fair 2025",
+  "repo_url": "https://github.com/aiDotEngineer/aie-mcp",
+  "source_hub": "mcp_so",
+  "owner": "aiDotEngineer",
+  "stars": 56,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "2edce781ef5abff8d9b9c6fe283a103279c3d9e0",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 10,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-27T06:40:49Z",
+  "verification_level": "scanner_only"
+}

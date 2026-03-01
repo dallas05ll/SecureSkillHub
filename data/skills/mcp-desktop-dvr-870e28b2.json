@@ -1,0 +1,25 @@
+{
+  "id": "mcp-desktop-dvr-870e28b2",
+  "name": "mcp-desktop-dvr",
+  "description": "MCP server for desktop video capture and analysis on macOS",
+  "repo_url": "https://github.com/Randroids-Dojo/mcp-desktop-dvr",
+  "source_hub": "mcp_so",
+  "owner": "Randroids-Dojo",
+  "stars": 4,
+  "primary_language": "unknown",
+  "tags": [
+    "util-media"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "1e5fd83688635ebce1d0a0d43953fcd28f3c6ef3",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 48,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:54:02Z",
+  "verification_level": "scanner_only"
+}

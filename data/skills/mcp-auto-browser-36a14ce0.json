@@ -1,0 +1,28 @@
+{
+  "id": "mcp-auto-browser-36a14ce0",
+  "name": "mcp-auto-browser",
+  "description": "MCP server that connect to your browser using --remote-debugging-port",
+  "repo_url": "https://github.com/acro5piano/mcp-auto-browser",
+  "source_hub": "mcp_so",
+  "owner": "acro5piano",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "dev",
+    "dev-web",
+    "integ",
+    "util-search"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "499428ee084aa89c4b466913779f4b9da53cf956",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 4,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:41Z",
+  "verification_level": "scanner_only"
+}

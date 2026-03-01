@@ -1,0 +1,30 @@
+{
+  "id": "mcpilot-685d7939",
+  "name": "MCPilot",
+  "description": "MCPilot is an AI chatbot that integrates real-time tools like DuckDuckGo, Airbnb, and weather APIs. Built with MCP Servers, Gradio, and GROQ, it provides context-aware responses and smooth interactions. Currently in beta, MCPilot aims to assist with real-time queries and tasks.",
+  "repo_url": "https://github.com/m-rishab/MCPilot",
+  "source_hub": "mcp_so",
+  "owner": "m-rishab",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp",
+    "integ",
+    "prod-comm",
+    "prod-pm",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "102f2f8584e95c5bbdfbeb69bda78d681f1caf96",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 7,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:40Z",
+  "verification_level": "scanner_only"
+}

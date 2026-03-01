@@ -1,0 +1,30 @@
+{
+  "id": "mcp-snowflake-reader-7e04b29a",
+  "name": "mcp-snowflake-reader",
+  "description": "A Model Context Protocol (MCP) server that provides secure, read-only access to Snowflake databases. Allows LLMs to safely query tables and describe schemas without write permissions. Built with Python and the official Snowflake SDK.",
+  "repo_url": "https://github.com/fnf-deepHeading/mcp-snowflake-reader",
+  "source_hub": "mcp_so",
+  "owner": "fnf-deepHeading",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "data",
+    "data-ai",
+    "data-ai-nlp",
+    "data-db",
+    "dev",
+    "dev-web-backend-python"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "fe8c72dcaf8985cb72ee35be2ca7e558c54a4752",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 6,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:42Z",
+  "verification_level": "scanner_only"
+}

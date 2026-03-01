@@ -1,0 +1,26 @@
+{
+  "id": "keycloak-mcp-server-bf3a2188",
+  "name": "keycloak-mcp-server",
+  "description": "an experiment on using Keycloak admin client and expose it as an mcp server",
+  "repo_url": "https://github.com/sshaaf/keycloak-mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "sshaaf",
+  "stars": 36,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "59679479432b43a28838bbfb9780819be6fea34c",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 40,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:32:11Z",
+  "verification_level": "scanner_only"
+}

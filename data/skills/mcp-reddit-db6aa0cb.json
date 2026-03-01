@@ -1,0 +1,28 @@
+{
+  "id": "mcp-reddit-db6aa0cb",
+  "name": "mcp-reddit",
+  "description": "A Model Context Protocol (MCP) server that provides tools for fetching and analyzing Reddit content.",
+  "repo_url": "https://github.com/adhikasp/mcp-reddit",
+  "source_hub": "mcp_so",
+  "owner": "adhikasp",
+  "stars": 354,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp",
+    "util",
+    "util-search"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 4,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-27T02:28:45Z",
+  "verification_level": "scanner_only"
+}

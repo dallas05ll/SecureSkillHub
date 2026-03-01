@@ -1,0 +1,27 @@
+{
+  "id": "mcp-daemonize-ec91e007",
+  "name": "mcp-daemonize",
+  "description": "A Model Context Protocol server for seamless management and monitoring of long-running daemons via AI agents",
+  "repo_url": "https://github.com/mackee/mcp-daemonize",
+  "source_hub": "mcp_so",
+  "owner": "mackee",
+  "stars": 7,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp",
+    "util-monitor"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "255510193561e9c053fbb2cb3dbc16dcb7c435c9",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 2,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:54:04Z",
+  "verification_level": "scanner_only"
+}

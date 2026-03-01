@@ -1,0 +1,25 @@
+{
+  "id": "cmd-mcp-server-522d298f",
+  "name": "CMD-MCP-Server",
+  "description": "MCP server for executing CMD commands. Can be hooked to claude for additional agentics.",
+  "repo_url": "https://github.com/PhialsBasement/CMD-MCP-Server",
+  "source_hub": "mcp_so",
+  "owner": "PhialsBasement",
+  "stars": 23,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "08a3492dd98ba363a7b3dcf73949ca229327b776",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 7,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:32:11Z",
+  "verification_level": "scanner_only"
+}

@@ -1,0 +1,26 @@
+{
+  "id": "laravel-mcp-5de30ace",
+  "name": "laravel-mcp",
+  "description": "A package for developing MCP Servers with Laravel.",
+  "repo_url": "https://github.com/InnoGE/laravel-mcp",
+  "source_hub": "mcp_so",
+  "owner": "InnoGE",
+  "stars": 17,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "65535538a02fb6e44b44aa1b33298315772b2f02",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 4,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:42:34Z",
+  "verification_level": "scanner_only"
+}

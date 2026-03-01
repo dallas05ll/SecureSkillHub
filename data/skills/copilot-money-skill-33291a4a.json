@@ -1,0 +1,29 @@
+{
+  "id": "copilot-money-skill-33291a4a",
+  "name": "copilot-money-skill",
+  "description": "Copilot Money skill for Claude Code - query and analyze personal finance data",
+  "repo_url": "https://github.com/chardigio/copilot-money-skill",
+  "source_hub": "github_search",
+  "skill_type": "agent_skill",
+  "owner": "chardigio",
+  "stars": 3,
+  "license": "mit",
+  "primary_language": "markdown",
+  "tags": [
+    "data",
+    "data-ai",
+    "dev"
+  ],
+  "verification_status": "pass",
+  "overall_score": 78,
+  "risk_level": "medium",
+  "verified_commit": null,
+  "scan_summary": null,
+  "last_updated": "2026-02-09T16:26:57Z",
+  "findings_summary": {
+    "notes": "Metadata-based verification. Score=78. Signals: stars=3; license='mit' (+5); owner='chardigio' (+3); primary_language='markdown'; source_hub='github_search'. Status: pass. Risk: medium."
+  },
+  "trust_level": "low",
+  "scan_date": "2026-02-26T06:14:56Z",
+  "verification_level": "metadata_only"
+}

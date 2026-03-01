@@ -1,0 +1,26 @@
+{
+  "id": "ansible-tower-mcp-67b5b60d",
+  "name": "ansible-tower-mcp",
+  "description": "MCP Server for Ansible Tower",
+  "repo_url": "https://github.com/a37ai/ansible-tower-mcp",
+  "source_hub": "mcp_so",
+  "owner": "a37ai",
+  "stars": 9,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "1921def311e8c1cd49b3f7260fdeea1138a1ca7f",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 2,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:42:34Z",
+  "verification_level": "scanner_only"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "anchor-browser-378afc83",
+  "name": "anchor-browser",
+  "description": "A remote-hosted and fully-controllable browser for your AI agent.",
+  "repo_url": "https://github.com/browsermcp-com/anchor-browser",
+  "source_hub": "mcp_so",
+  "owner": "browsermcp-com",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "dev-web",
+    "util-search",
+    "repo_unavailable"
+  ],
+  "verification_status": "manual_review",
+  "overall_score": 0,
+  "risk_level": "high",
+  "verified_commit": "",
+  "scan_summary": null,
+  "scan_date": "2026-02-28T20:27:25Z",
+  "findings_summary": {
+    "error": "clone failed: Cloning into '/var/folders/pq/bb71gjzd01d29nnmqrhqr2rc0000gn/T/strict5_anchor-browser-378afc83_8v1hbsbt/repo'...\nfatal: could not read Username for 'https://github.com': Device not configured",
+    "supervisor_approved": false,
+    "supervisor_confidence": 0
+  },
+  "repo_status": "unavailable"
+}

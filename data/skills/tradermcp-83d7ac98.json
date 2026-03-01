@@ -1,0 +1,25 @@
+{
+  "id": "tradermcp-83d7ac98",
+  "name": "traderMCP",
+  "description": "basic MCP server for zerodha trading through claude 3.7 sonnet",
+  "repo_url": "https://github.com/advith15/traderMCP",
+  "source_hub": "mcp_so",
+  "owner": "advith15",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "4d8a94066c2e859d5fbab68115976c633ef55749",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 5,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:43:00Z",
+  "verification_level": "scanner_only"
+}

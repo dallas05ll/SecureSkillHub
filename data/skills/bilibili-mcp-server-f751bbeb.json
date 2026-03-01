@@ -1,0 +1,26 @@
+{
+  "id": "bilibili-mcp-server-f751bbeb",
+  "name": "bilibili-mcp-server",
+  "description": "mcp-server学习",
+  "repo_url": "https://github.com/LittleSix1/bilibili-mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "LittleSix1",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "3d1b6c887eaee557d3d1884b57451435d2367085",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 3,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:40Z",
+  "verification_level": "scanner_only"
+}

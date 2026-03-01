@@ -1,0 +1,27 @@
+{
+  "id": "ajbr0wn-gmail-mcp-server-d0664ea2",
+  "name": "ajbr0wn_gmail-mcp-server",
+  "description": "Mirror of",
+  "repo_url": "https://github.com/MCP-Mirror/ajbr0wn_gmail-mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "MCP-Mirror",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "prod-comm",
+    "repo_unavailable"
+  ],
+  "verification_status": "manual_review",
+  "overall_score": 0,
+  "risk_level": "high",
+  "verified_commit": "",
+  "scan_summary": null,
+  "scan_date": "2026-02-28T20:27:25Z",
+  "findings_summary": {
+    "error": "clone failed: Cloning into '/var/folders/pq/bb71gjzd01d29nnmqrhqr2rc0000gn/T/strict5_ajbr0wn-gmail-mcp-server_bl8u15iy/repo'...\nfatal: could not read Username for 'https://github.com': Device not configured",
+    "supervisor_approved": false,
+    "supervisor_confidence": 0
+  },
+  "repo_status": "unavailable"
+}

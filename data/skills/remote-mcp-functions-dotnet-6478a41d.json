@@ -1,0 +1,27 @@
+{
+  "id": "remote-mcp-functions-dotnet-6478a41d",
+  "name": "remote-mcp-functions-dotnet",
+  "description": "This is a quickstart template to easily build and deploy a custom remote MCP server to the cloud using Azure functions. You can clone/restore/run on your local machine with debugging, and `azd up` to have it in the cloud in a couple minutes. The MCP server is secured by design using",
+  "repo_url": "https://github.com/Azure-Samples/remote-mcp-functions-dotnet",
+  "source_hub": "mcp_so",
+  "owner": "Azure-Samples",
+  "stars": 119,
+  "primary_language": "unknown",
+  "tags": [
+    "dev",
+    "integ-cloud",
+    "integ-cloud-azure"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "0fff1a675dbf280ef08beabd5b151a8ecd259980",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 22,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-27T06:40:43Z",
+  "verification_level": "scanner_only"
+}

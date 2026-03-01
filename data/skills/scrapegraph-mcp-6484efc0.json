@@ -1,0 +1,25 @@
+{
+  "id": "scrapegraph-mcp-6484efc0",
+  "name": "scrapegraph-mcp",
+  "description": "ScapeGraph MCP Server",
+  "repo_url": "https://github.com/ScrapeGraphAI/scrapegraph-mcp",
+  "source_hub": "mcp_so",
+  "owner": "ScrapeGraphAI",
+  "stars": 58,
+  "primary_language": "unknown",
+  "tags": [
+    "util-search"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "f8161ffa2d4f20f911518dfc6745afbf097ba69e",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 8,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-27T06:40:43Z",
+  "verification_level": "scanner_only"
+}

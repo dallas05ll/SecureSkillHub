@@ -1,0 +1,27 @@
+{
+  "id": "perplexity-mcp-6f654523",
+  "name": "perplexity-mcp",
+  "description": "An MCP server for the Perplexity for use with Claude Code and Claude Desktop, giving you enhanced search and reasoning capabilties.",
+  "repo_url": "https://github.com/Alcova-AI/perplexity-mcp",
+  "source_hub": "mcp_so",
+  "owner": "Alcova-AI",
+  "stars": 29,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "dev",
+    "util-search"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "86d11636bcfd1b41eaad3d04db6d90146f7a5f65",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 2,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:32:13Z",
+  "verification_level": "scanner_only"
+}

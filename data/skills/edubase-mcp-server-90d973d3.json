@@ -1,0 +1,28 @@
+{
+  "id": "edubase-mcp-server-90d973d3",
+  "name": "EduBase MCP Server",
+  "description": "Enables AI assistants to interact with the EduBase educational platform to create quizzes, upload questions, schedule exams, manage educational content, and analyze user results through natural language.",
+  "repo_url": "https://github.com/EduBase/MCP",
+  "source_hub": "glama",
+  "owner": "EduBase",
+  "stars": 24,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp",
+    "prod-calendar",
+    "util-file"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 22,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-25T14:26:46Z",
+  "verification_level": "scanner_only"
+}

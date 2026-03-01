@@ -1,0 +1,25 @@
+{
+  "id": "mcp-config-manager-d7d4d0ce",
+  "name": "mcp-config-manager",
+  "description": "This package provides functionality to manage MCP server configurations for different clients like Cline and Claude Desktop.",
+  "repo_url": "https://github.com/easytocloud/mcp-config-manager",
+  "source_hub": "mcp_so",
+  "owner": "easytocloud",
+  "stars": 1,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "8f8cebaa76e86462bd7c80540963cd489d934e42",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 3,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:42Z",
+  "verification_level": "scanner_only"
+}

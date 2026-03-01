@@ -1,0 +1,27 @@
+{
+  "id": "aws-documentation-mcp-e40cdb49",
+  "name": "aws-documentation-mcp",
+  "description": "AWS Documentation MCP Server - AWS公式ドキュメントを活用したMCPサーバー",
+  "repo_url": "https://github.com/enomoto11/aws-documentation-mcp",
+  "source_hub": "mcp_so",
+  "owner": "enomoto11",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "integ-cloud",
+    "integ-cloud-aws",
+    "prod-docs"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "b115c69613ce2cce3ff96f6f49f0a5adda2b2dcb",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 3,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:40Z",
+  "verification_level": "scanner_only"
+}

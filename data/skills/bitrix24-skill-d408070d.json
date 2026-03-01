@@ -1,0 +1,30 @@
+{
+  "id": "bitrix24-skill-d408070d",
+  "name": "bitrix24-skill",
+  "description": "Bitrix24 AI Agent skill: webhook/OAuth, events, retries, safety guardrails, and ops patterns",
+  "repo_url": "https://github.com/vrtalex/bitrix24-skill",
+  "source_hub": "github_search",
+  "skill_type": "agent_skill",
+  "owner": "vrtalex",
+  "stars": 4,
+  "license": "unlicense",
+  "primary_language": "markdown",
+  "tags": [
+    "data-ai",
+    "integ",
+    "sec",
+    "sec-auth"
+  ],
+  "verification_status": "pass",
+  "overall_score": 78,
+  "risk_level": "medium",
+  "verified_commit": null,
+  "scan_summary": null,
+  "last_updated": "2026-02-17T14:08:59Z",
+  "findings_summary": {
+    "notes": "Metadata-based verification. Score=78. Signals: stars=4; license='unlicense' (+5); owner='vrtalex' (+3); primary_language='markdown'; source_hub='github_search'. Status: pass. Risk: medium."
+  },
+  "trust_level": "low",
+  "scan_date": "2026-02-26T06:14:55Z",
+  "verification_level": "metadata_only"
+}

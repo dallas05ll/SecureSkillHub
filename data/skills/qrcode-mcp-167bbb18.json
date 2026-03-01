@@ -1,0 +1,27 @@
+{
+  "id": "qrcode-mcp-167bbb18",
+  "name": "qrcode-mcp",
+  "description": "A Model Context Protocol (MCP) server for generating simple QR codes. Support custom QR code styles.",
+  "repo_url": "https://github.com/1595901624/qrcode-mcp",
+  "source_hub": "mcp_so",
+  "owner": "1595901624",
+  "stars": 6,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp",
+    "dev"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "c8e64e919e21e0129aad73210772e72bd8422119",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 7,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:54:02Z",
+  "verification_level": "scanner_only"
+}

@@ -1,0 +1,26 @@
+{
+  "id": "wildfly-mcp-server-7d0f14b9",
+  "name": "wildfly-mcp-server",
+  "description": "A WildFly MCP server to integrate with your AI chatbot such as claude.ai",
+  "repo_url": "https://github.com/jfdenise/wildfly-mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "jfdenise",
+  "stars": 7,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "prod-comm"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "e31986c0addfb08b9054a7baf50daf94673eb507",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 25,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:54:02Z",
+  "verification_level": "scanner_only"
+}

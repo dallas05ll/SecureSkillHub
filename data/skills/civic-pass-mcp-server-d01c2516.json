@@ -1,0 +1,26 @@
+{
+  "id": "civic-pass-mcp-server-d01c2516",
+  "name": "civic-pass-mcp-server",
+  "description": "civic-pass-mcp-server",
+  "repo_url": "https://github.com/chainaim3003/civic-pass-mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "chainaim3003",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "8461ac66df1e9944359a21f07ca4a1a56d9b4707",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 14,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:42Z",
+  "verification_level": "scanner_only"
+}

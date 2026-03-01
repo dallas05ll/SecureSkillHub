@@ -1,0 +1,28 @@
+{
+  "id": "pg-aiguide-63a4c2f3",
+  "name": "pg-aiguide",
+  "description": "AI-optimized PostgreSQL expertise for coding assistants. pg-aiguide helps AI coding tools write dramatically better PostgreSQL code. \r\n\r\nIt provides:\r\n- Semantic search across the official PostgreSQL manual (version-aware)\r\n- AI-optimized “skills” available through MCP tools — curated, opinionated Postgres best practices used automatically by AI agents\r\n- Extension ecosystem docs, starting with TimescaleDB, with more coming soon",
+  "repo_url": "https://github.com/Tiger Data/pg-aiguide",
+  "source_hub": "mcp_so",
+  "owner": "Tiger Data",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-db",
+    "dev",
+    "prod",
+    "prod-docs",
+    "util",
+    "util-search",
+    "repo_unavailable"
+  ],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null,
+  "repo_status": "unavailable",
+  "repo_check_date": "2026-02-28T20:52:42.955619+00:00",
+  "repo_check_error": "fatal: unable to access 'https://github.com/Tiger Data/pg-aiguide/': URL rejected: Malformed input to a URL function"
+}

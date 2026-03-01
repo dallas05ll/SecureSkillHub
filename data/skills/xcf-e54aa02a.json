@@ -1,0 +1,26 @@
+{
+  "id": "xcf-e54aa02a",
+  "name": "xcf",
+  "description": "XCodeFreeze MCP Xcode Automation local server",
+  "repo_url": "https://github.com/CodeFreezeAI/xcf",
+  "source_hub": "mcp_so",
+  "owner": "CodeFreezeAI",
+  "stars": 12,
+  "primary_language": "unknown",
+  "tags": [
+    "dev",
+    "prod"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "3f0e793e0ac07d05bdf3d6b8c999e95a3dc0e7dc",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 9,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:42:36Z",
+  "verification_level": "scanner_only"
+}

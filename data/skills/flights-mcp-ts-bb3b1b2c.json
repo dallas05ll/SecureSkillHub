@@ -1,0 +1,27 @@
+{
+  "id": "flights-mcp-ts-bb3b1b2c",
+  "name": "flights-mcp-ts",
+  "description": "A TypeScript implementation of a flight search MCP server that uses the Duffel API to search for flights. This MCP server provides tools to search for one-way, round-trip, and multi-city flights.",
+  "repo_url": "https://github.com/clockworked247/flights-mcp-ts",
+  "source_hub": "mcp_so",
+  "owner": "clockworked247",
+  "stars": 4,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "util",
+    "util-search"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "5ea594b79d8211c80ff33881dbc4c20740e4602e",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 13,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:54:02Z",
+  "verification_level": "scanner_only"
+}

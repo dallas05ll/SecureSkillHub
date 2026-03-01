@@ -1,0 +1,25 @@
+{
+  "id": "mcp-servers-client-langgraph-react-agent-0ad0ba49",
+  "name": "mcp-servers-client-langgraph-react-agent",
+  "description": "Multi MCP Server and client w/ LangGraph Prebuilt ReAct Agent",
+  "repo_url": "https://github.com/ahmedmusawir/mcp-servers-client-langgraph-react-agent",
+  "source_hub": "mcp_so",
+  "owner": "ahmedmusawir",
+  "stars": 2,
+  "primary_language": "unknown",
+  "tags": [
+    "dev-web-frontend-react"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "f6be4fb14ecb76a5a271f4b6a9f4bc005f46191b",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 8,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:04:51Z",
+  "verification_level": "scanner_only"
+}

@@ -1,0 +1,25 @@
+{
+  "id": "monkeytypemcp-21c8b1c2",
+  "name": "MonkeytypeMCP",
+  "description": "An MCP server for monkeytype.com that exposes all of their API endpoints.",
+  "repo_url": "https://github.com/CodeDreamer06/MonkeytypeMCP",
+  "source_hub": "mcp_so",
+  "owner": "CodeDreamer06",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "integ"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "195b5b54d3361f2db94f2072518f9e1cebcb7348",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 4,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:41Z",
+  "verification_level": "scanner_only"
+}

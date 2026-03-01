@@ -1,0 +1,27 @@
+{
+  "id": "spotdraft-mcp-6835bd9b",
+  "name": "spotdraft-mcp",
+  "description": "Integrate the SpotDraft API into agentic workflows via MCP. This server provides tools to interact with SpotDraft's contract management features.",
+  "repo_url": "https://github.com/SpotDraft/spotdraft-mcp",
+  "source_hub": "mcp_so",
+  "owner": "SpotDraft",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "prod",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "4c533bb73a0fe1f28674edfbc6d4a7910854424a",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 46,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:40Z",
+  "verification_level": "scanner_only"
+}

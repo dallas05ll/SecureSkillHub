@@ -1,0 +1,25 @@
+{
+  "id": "d365-agent-mcpserver-ts-70d3b74c",
+  "name": "d365-agent-mcpserver-ts",
+  "description": "MCP Server implementation for Dynamics 365 AI Agent (TypeScript)",
+  "repo_url": "https://github.com/ntrtd/d365-agent-mcpserver-ts",
+  "source_hub": "mcp_so",
+  "owner": "ntrtd",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "aaa1d3ea8bd52329440c00ff6149e50b83915104",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 11,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:41Z",
+  "verification_level": "scanner_only"
+}

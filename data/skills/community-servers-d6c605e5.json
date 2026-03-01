@@ -1,0 +1,28 @@
+{
+  "id": "community-servers-d6c605e5",
+  "name": "community-servers",
+  "description": "This repository contains a collection of community-maintained Model Context Protocol (MCP) servers. All servers are automatically listed on the MCP Get registry and can be viewed and installed via CLI",
+  "repo_url": "https://github.com/mcp-get/community-servers",
+  "source_hub": "mcp_so",
+  "owner": "mcp-get",
+  "stars": 66,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp",
+    "prod",
+    "prod-comm"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "c2807a74debcf84cf2a6220cf2f71ce9e44b82e7",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 18,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-27T06:40:44Z",
+  "verification_level": "scanner_only"
+}

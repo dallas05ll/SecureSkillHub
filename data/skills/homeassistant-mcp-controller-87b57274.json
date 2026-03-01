@@ -1,0 +1,25 @@
+{
+  "id": "homeassistant-mcp-controller-87b57274",
+  "name": "homeassistant-mcp-controller",
+  "description": "A Home Assistant integration to control various MCP servers including Bookstack, Microsoft 365, and Loki",
+  "repo_url": "https://github.com/PKHexxxor/homeassistant-mcp-controller",
+  "source_hub": "mcp_so",
+  "owner": "PKHexxxor",
+  "stars": 2,
+  "primary_language": "unknown",
+  "tags": [
+    "integ"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "40ea169b0953eac6f857567c31a00d831f24645d",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 40,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:04:50Z",
+  "verification_level": "scanner_only"
+}

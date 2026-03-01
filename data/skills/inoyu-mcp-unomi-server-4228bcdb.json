@@ -1,0 +1,26 @@
+{
+  "id": "inoyu-mcp-unomi-server-4228bcdb",
+  "name": "inoyu-mcp-unomi-server",
+  "description": "An implementation of Anthropic's Model Context Protocol for the Apache Unomi CDP",
+  "repo_url": "https://github.com/sergehuber/inoyu-mcp-unomi-server",
+  "source_hub": "mcp_so",
+  "owner": "sergehuber",
+  "stars": 8,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "1195fe2fae09d03be1dd8cdd33d4947c35ff4a26",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 6,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:42:36Z",
+  "verification_level": "scanner_only"
+}

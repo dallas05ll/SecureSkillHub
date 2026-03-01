@@ -1,0 +1,28 @@
+{
+  "id": "gepetto-0d35d9aa",
+  "name": "gepetto",
+  "description": "🪵 Transform rough ideas into living implementation plans in Claude. Like Geppetto carved Pinocchio, craft detailed specs through research, interviews, and multi-LLM review.",
+  "repo_url": "https://github.com/softaworks/gepetto",
+  "source_hub": "github_search",
+  "skill_type": "agent_skill",
+  "owner": "softaworks",
+  "stars": 18,
+  "license": "mit",
+  "primary_language": "markdown",
+  "tags": [
+    "data-ai",
+    "util-search"
+  ],
+  "verification_status": "pass",
+  "overall_score": 83,
+  "risk_level": "low",
+  "verified_commit": null,
+  "scan_summary": null,
+  "last_updated": "2026-02-04T05:51:37Z",
+  "findings_summary": {
+    "notes": "Metadata-based verification. Score=83. Signals: stars=18 (>=10, +5); license='mit' (+5); owner='softaworks' (+3); primary_language='markdown'; source_hub='github_search'. Status: pass. Risk: low."
+  },
+  "trust_level": "low",
+  "scan_date": "2026-02-26T06:14:56Z",
+  "verification_level": "metadata_only"
+}

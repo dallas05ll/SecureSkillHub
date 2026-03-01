@@ -1,0 +1,28 @@
+{
+  "id": "openops-6578e739",
+  "name": "openops",
+  "description": "The batteries-included, No-Code FinOps automation platform, with the AI you trust.",
+  "repo_url": "https://github.com/openops-cloud/openops",
+  "source_hub": "mcp_so",
+  "owner": "openops-cloud",
+  "stars": 994,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "dev",
+    "dev-web-backend-rust",
+    "prod"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 3107,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-27T02:26:21Z",
+  "verification_level": "scanner_only"
+}

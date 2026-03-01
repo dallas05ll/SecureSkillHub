@@ -1,0 +1,26 @@
+{
+  "id": "iotdb-mcp-server-b8707c1d",
+  "name": "iotdb-mcp-server",
+  "description": "Apache IoTDB MCP Server",
+  "repo_url": "https://github.com/apache/iotdb-mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "apache",
+  "stars": 34,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "9b5792e23fa0e2cfe94e78c22b2e6e03c135a99e",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 8,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:32:11Z",
+  "verification_level": "scanner_only"
+}

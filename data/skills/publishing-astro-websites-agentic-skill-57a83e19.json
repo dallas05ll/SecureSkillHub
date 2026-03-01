@@ -1,0 +1,33 @@
+{
+  "id": "publishing-astro-websites-agentic-skill-57a83e19",
+  "name": "publishing-astro-websites-agentic-skill",
+  "description": "A comprehensive Claude Code skill for building and deploying static websites with the Astro framework. Covers SSG, Content Collections, Markdown/MDX, Mermaid diagrams, Pagefind search, i18n, and deployment to Firebase/Netlify/Vercel.",
+  "repo_url": "https://github.com/SpillwaveSolutions/publishing-astro-websites-agentic-skill",
+  "source_hub": "github_search",
+  "skill_type": "agent_skill",
+  "owner": "SpillwaveSolutions",
+  "stars": 4,
+  "license": "",
+  "primary_language": "markdown",
+  "tags": [
+    "data",
+    "data-ai",
+    "data-db",
+    "dev",
+    "dev-web",
+    "prod-docs",
+    "util-search"
+  ],
+  "verification_status": "pass",
+  "overall_score": 73,
+  "risk_level": "medium",
+  "verified_commit": null,
+  "scan_summary": null,
+  "last_updated": "2026-02-24T01:31:00Z",
+  "findings_summary": {
+    "notes": "Metadata-based verification. Score=73. Signals: stars=4; no license detected; owner='SpillwaveSolutions' (+3); primary_language='markdown'; source_hub='github_search'. Status: pass. Risk: medium."
+  },
+  "trust_level": "low",
+  "scan_date": "2026-02-26T06:14:56Z",
+  "verification_level": "metadata_only"
+}

@@ -1,0 +1,25 @@
+{
+  "id": "pbixray-mcp-server-1d3601e0",
+  "name": "pbixray-mcp-server",
+  "description": "Analyse PowerBI models and reports (.pbix) using AI through this MCP-server implementation of PBIXRay.",
+  "repo_url": "https://github.com/jonaolden/pbixray-mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "jonaolden",
+  "stars": 39,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "3f44779bf20a2ab08e9306f11816ab6f501077aa",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 24,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:32:12Z",
+  "verification_level": "scanner_only"
+}

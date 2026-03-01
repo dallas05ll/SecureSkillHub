@@ -1,0 +1,28 @@
+{
+  "id": "context-optimizer-mcp-93e8a2aa",
+  "name": "context-optimizer-mcp",
+  "description": "An MCP server that uses Redis and in-memory caching to optimize and extend context windows for large chat histories",
+  "repo_url": "https://github.com/degenhero/context-optimizer-mcp",
+  "source_hub": "mcp_so",
+  "owner": "degenhero",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai-nlp",
+    "data-db",
+    "prod-comm",
+    "prod-notes"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "b916b993e81fb4d9126a6126ea71994a01003642",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 12,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:42Z",
+  "verification_level": "scanner_only"
+}

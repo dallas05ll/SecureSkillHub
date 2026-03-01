@@ -1,0 +1,26 @@
+{
+  "id": "kanvas-mcp-791f0903",
+  "name": "kanvas_mcp",
+  "description": "Kanvas MCP Server",
+  "repo_url": "https://github.com/bakaphp/kanvas_mcp",
+  "source_hub": "mcp_so",
+  "owner": "bakaphp",
+  "stars": 1,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "30bf1f8315f94ee928537853e6bb981f9a00727a",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 16,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:42Z",
+  "verification_level": "scanner_only"
+}

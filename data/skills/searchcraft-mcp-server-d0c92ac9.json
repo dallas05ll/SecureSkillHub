@@ -1,0 +1,26 @@
+{
+  "id": "searchcraft-mcp-server-d0c92ac9",
+  "name": "searchcraft-mcp-server",
+  "description": "An MCP Server powered by Searchcraft – the developer-first vertical search engine.",
+  "repo_url": "https://github.com/searchcraft-inc/searchcraft-mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "searchcraft-inc",
+  "stars": 7,
+  "primary_language": "unknown",
+  "tags": [
+    "dev",
+    "util-search"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "fbaff71af0f1d00cb326b3c1eddd54feee638178",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 94,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:54:02Z",
+  "verification_level": "scanner_only"
+}

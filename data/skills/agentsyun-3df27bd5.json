@@ -1,0 +1,26 @@
+{
+  "id": "agentsyun-3df27bd5",
+  "name": "agentsyun优惠券",
+  "description": "Agentsyun优惠券MCP服务，提供多品类优惠券查询、筛选和推广链接生成功能，支持外卖、美食、休闲娱乐、酒店民宿、门票度假、医药等多个类目。",
+  "repo_url": "https://github.com/Agentsyun/agentsyun优惠券",
+  "source_hub": "mcp_so",
+  "owner": "Agentsyun",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "util",
+    "repo_unavailable"
+  ],
+  "verification_status": "manual_review",
+  "overall_score": 0,
+  "risk_level": "high",
+  "verified_commit": "",
+  "scan_summary": null,
+  "scan_date": "2026-02-28T20:27:24Z",
+  "findings_summary": {
+    "error": "clone failed: Cloning into '/var/folders/pq/bb71gjzd01d29nnmqrhqr2rc0000gn/T/strict5_agentsyun-3df27bd5_n768n7t3/repo'...\nremote: Repository not found.\nfatal: repository 'https://github.com/Agentsyun/agentsyun优惠券/' not found",
+    "supervisor_approved": false,
+    "supervisor_confidence": 0
+  },
+  "repo_status": "unavailable"
+}

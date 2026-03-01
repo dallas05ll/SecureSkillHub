@@ -1,0 +1,26 @@
+{
+  "id": "typescript-mcp-client-server-abe1cd87",
+  "name": "typescript-mcp-client-server",
+  "description": "MCP Client & Server",
+  "repo_url": "https://github.com/ijshd7/typescript-mcp-client-server",
+  "source_hub": "mcp_so",
+  "owner": "ijshd7",
+  "stars": 1,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "1b0789567cdfc81cd36084e2f281dbc769278b42",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 9,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:40Z",
+  "verification_level": "scanner_only"
+}

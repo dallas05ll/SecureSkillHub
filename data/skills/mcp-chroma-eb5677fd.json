@@ -1,0 +1,25 @@
+{
+  "id": "mcp-chroma-eb5677fd",
+  "name": "mcp.chroma",
+  "description": "a mcp server for interacting with ChromaDB",
+  "repo_url": "https://github.com/volteditor/mcp.chroma",
+  "source_hub": "mcp_so",
+  "owner": "volteditor",
+  "stars": 1,
+  "primary_language": "unknown",
+  "tags": [
+    "data-db-vector"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "6234efb9d6be13311f67df68bf76c0781427e381",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 3,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:40Z",
+  "verification_level": "scanner_only"
+}

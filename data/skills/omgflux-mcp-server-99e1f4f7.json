@@ -1,0 +1,27 @@
+{
+  "id": "omgflux-mcp-server-99e1f4f7",
+  "name": "omgflux-mcp-server",
+  "description": "This mcp uses the flux api of ohmygpt to generate images",
+  "repo_url": "https://github.com/XXpE3/omgflux-mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "XXpE3",
+  "stars": 2,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-vision",
+    "integ"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "d8991fe738e66ee19081bbe38760b904c222ccc3",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 6,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:04:50Z",
+  "verification_level": "scanner_only"
+}

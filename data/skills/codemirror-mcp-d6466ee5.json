@@ -1,0 +1,27 @@
+{
+  "id": "codemirror-mcp-d6466ee5",
+  "name": "codemirror-mcp",
+  "description": "CodeMirror extension to hook up a Model Context Provider (MCP)",
+  "repo_url": "https://github.com/marimo-team/codemirror-mcp",
+  "source_hub": "mcp_so",
+  "owner": "marimo-team",
+  "stars": 79,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp",
+    "dev"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "652deac94a8dae5933b7ef0ea03848f8464aeac2",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 30,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-27T06:40:49Z",
+  "verification_level": "scanner_only"
+}

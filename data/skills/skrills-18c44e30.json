@@ -1,0 +1,32 @@
+{
+  "id": "skrills-18c44e30",
+  "name": "skrills",
+  "description": "Rust-based CLI tool for managing Claude Code skills, available on crates.io with CI and documentation pipeline.",
+  "repo_url": "https://github.com/athola/skrills",
+  "source_hub": "github_search",
+  "skill_type": "agent_skill",
+  "owner": "athola",
+  "stars": 52,
+  "license": "mit",
+  "primary_language": "Rust",
+  "tags": [
+    "data-ai",
+    "dev",
+    "dev-devops-ci",
+    "dev-web-backend-rust",
+    "prod-docs",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 72,
+  "risk_level": "low",
+  "verified_commit": null,
+  "scan_summary": null,
+  "last_updated": "2026-02-20T21:50:33Z",
+  "findings_summary": {
+    "notes": "MIT licensed, Rust, crates.io package, CI/CD pipeline present. Solid engineering with tests and docs."
+  },
+  "trust_level": "low",
+  "scan_date": "2026-02-26T02:12:39Z",
+  "verification_level": "scanner_only"
+}

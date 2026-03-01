@@ -1,0 +1,28 @@
+{
+  "id": "kite-mcp-53cafcff",
+  "name": "kite-mcp",
+  "description": "A Model Context Protocol (MCP) server for integrating with Zerodha Kite API. This server provides Claude with tools to interact with your Kite trading account. This is an unofficial integration with Zerodha Kite API. Use at your own risk. Always verify trades and orders before execution.",
+  "repo_url": "https://github.com/codeglyph/kite-mcp",
+  "source_hub": "mcp_so",
+  "owner": "codeglyph",
+  "stars": 4,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp",
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "82b8ee7d0a3ae836ee81248ae05fa9f6765e01d7",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 11,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:54:02Z",
+  "verification_level": "scanner_only"
+}

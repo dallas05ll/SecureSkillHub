@@ -1,0 +1,26 @@
+{
+  "id": "mcp-yfinance-7df736ae",
+  "name": "mcp-yfinance",
+  "description": "MCP Server for fething yfinance financial data into Claude Desktop",
+  "repo_url": "https://github.com/9nate-drake/mcp-yfinance",
+  "source_hub": "mcp_so",
+  "owner": "9nate-drake",
+  "stars": 18,
+  "primary_language": "unknown",
+  "tags": [
+    "data",
+    "data-ai"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "3cf61923945ed1b8f956bd92eaee5e74e65e895d",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 2,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:42:34Z",
+  "verification_level": "scanner_only"
+}

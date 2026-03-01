@@ -1,0 +1,30 @@
+{
+  "id": "mcp-geocoder-rosetta-10a1a426",
+  "name": "mcp-geocoder-rosetta",
+  "description": "A \"rosetta stone\" repo that shows creating simple geocoder MCP servers in python (with googlemaps sdk and direct googlemaps API with urllib) and typescript. CLI clients and documentation on adding them to Claude Desktop App.",
+  "repo_url": "https://github.com/richardschrammcom/mcp-geocoder-rosetta",
+  "source_hub": "mcp_so",
+  "owner": "richardschrammcom",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "dev",
+    "dev-web-backend-python",
+    "integ",
+    "prod-docs",
+    "util-map"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "300d6fdaf766fd408bdd02b3113d4db14b36d327",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 23,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:41Z",
+  "verification_level": "scanner_only"
+}

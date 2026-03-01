@@ -1,0 +1,26 @@
+{
+  "id": "mcp-shell-3e13ca98",
+  "name": "mcp-shell",
+  "description": "Give hands to AI. MCP server to run shell commands securely, auditably, and on demand.",
+  "repo_url": "https://github.com/sonirico/mcp-shell",
+  "source_hub": "mcp_so",
+  "owner": "sonirico",
+  "stars": 57,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "sec-scan"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "8c00c6acf5684ae65d6f7cd0d875f0dcfd66f62c",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 3,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-27T06:40:44Z",
+  "verification_level": "scanner_only"
+}

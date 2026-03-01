@@ -1,0 +1,25 @@
+{
+  "id": "jira-mcp-server-7c4b1f01",
+  "name": "jira-mcp-server",
+  "description": "MCP server for JIRA",
+  "repo_url": "https://github.com/AzamMehr/jira-mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "AzamMehr",
+  "stars": 1,
+  "primary_language": "unknown",
+  "tags": [
+    "prod-pm"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "18cdef476c02cda57937cb267f4580d444619df9",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 1,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:41Z",
+  "verification_level": "scanner_only"
+}

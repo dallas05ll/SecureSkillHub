@@ -1,0 +1,27 @@
+{
+  "id": "hardstop-b585815c",
+  "name": "hardstop",
+  "description": "Don't let AI destroy your hard work! HardStop is a rock-solid protection for AI-generated commands. Pre-execution safety validation for Claude Code, Claude Cowork. Catches dangerous commands before they run: whether from AI mistakes, hallucinations, prompt injection, or misunderstood instructions. Seatbelts for the agentic AI era.",
+  "repo_url": "https://github.com/frmoretto/hardstop",
+  "source_hub": "github_search",
+  "skill_type": "agent_skill",
+  "owner": "frmoretto",
+  "stars": 18,
+  "license": "other",
+  "primary_language": "markdown",
+  "tags": [
+    "data-ai",
+    "dev"
+  ],
+  "verification_status": "manual_review",
+  "overall_score": 63,
+  "risk_level": "high",
+  "verified_commit": null,
+  "scan_summary": null,
+  "last_updated": "2026-02-22T05:57:23Z",
+  "findings_summary": {
+    "notes": "Metadata-based verification. Score=63. Signals: stars=18 (>=10, +5); license='other' (+5); owner='frmoretto' (+3); primary_language='markdown'; suspicious keywords in description: ['inject'] (-20, risk_level forced to 'high'); source_hub='github_search'. Status: manual_review. Risk: high."
+  },
+  "trust_level": "low",
+  "scan_date": "2026-02-26T06:14:56Z"
+}

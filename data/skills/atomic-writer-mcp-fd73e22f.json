@@ -1,0 +1,28 @@
+{
+  "id": "atomic-writer-mcp-fd73e22f",
+  "name": "atomic-writer-mcp",
+  "description": "🔒 Atomic Writer MCP Server: A secure file operation service that prevents data loss through atomic transactions. Built for AI integrations, collaborative editing, and critical data management.",
+  "repo_url": "https://github.com/vanzan01/atomic-writer-mcp",
+  "source_hub": "mcp_so",
+  "owner": "vanzan01",
+  "stars": 5,
+  "primary_language": "unknown",
+  "tags": [
+    "data",
+    "data-ai",
+    "integ",
+    "util-file"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "0d1e885507a50fb8783fccca49c2c33310ba59dd",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 32,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:54:02Z",
+  "verification_level": "scanner_only"
+}

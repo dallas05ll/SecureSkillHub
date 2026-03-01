@@ -1,0 +1,28 @@
+{
+  "id": "mcp-fastapi-ping-pong-3eb274ec",
+  "name": "mcp-fastapi-ping-pong",
+  "description": "🏓 An experimental and educational app for Ping-pong server demonstrating MCP (Model Context Protocol) calls via FastAPI",
+  "repo_url": "https://github.com/kimtth/mcp-fastapi-ping-pong",
+  "source_hub": "mcp_so",
+  "owner": "kimtth",
+  "stars": 1,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp",
+    "dev-web-backend-python",
+    "integ"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "b014428fefc8d1d53726bbb4f6a9a8f7d9fa5d38",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 6,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:41Z",
+  "verification_level": "scanner_only"
+}

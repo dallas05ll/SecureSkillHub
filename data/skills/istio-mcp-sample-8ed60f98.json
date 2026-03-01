@@ -1,0 +1,26 @@
+{
+  "id": "istio-mcp-sample-8ed60f98",
+  "name": "istio-mcp-sample",
+  "description": "A sample implementation of a MCP-over-XDSv3 gRPC server for Istio.",
+  "repo_url": "https://github.com/antoineco/istio-mcp-sample",
+  "source_hub": "mcp_so",
+  "owner": "antoineco",
+  "stars": 1,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "9503f2f22ee3535b212bd9606ce7260b49960a93",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 2,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:41Z",
+  "verification_level": "scanner_only"
+}

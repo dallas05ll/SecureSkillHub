@@ -1,0 +1,25 @@
+{
+  "id": "mcp-chess-1d3990a7",
+  "name": "mcp-chess",
+  "description": "MCP server for playing chess against AI",
+  "repo_url": "https://github.com/jiayao/mcp-chess",
+  "source_hub": "mcp_so",
+  "owner": "jiayao",
+  "stars": 18,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "e439d4653513443e7f3219f500cdc980fb60ff89",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 5,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:42:36Z",
+  "verification_level": "scanner_only"
+}

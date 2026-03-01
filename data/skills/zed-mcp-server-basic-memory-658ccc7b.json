@@ -1,0 +1,26 @@
+{
+  "id": "zed-mcp-server-basic-memory-658ccc7b",
+  "name": "zed-mcp-server-basic-memory",
+  "description": "Basic Memory MCP server integration, for Zed Editor's Assistant.",
+  "repo_url": "https://github.com/ossfellow/zed-mcp-server-basic-memory",
+  "source_hub": "mcp_so",
+  "owner": "ossfellow",
+  "stars": 1,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "prod-notes"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "6148063062fae845e5dd9e717c6f936f49af46ba",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 3,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:41Z",
+  "verification_level": "scanner_only"
+}

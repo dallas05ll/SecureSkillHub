@@ -1,0 +1,25 @@
+{
+  "id": "qcli-memories-mcp-658a09d8",
+  "name": "QCLI-memories-mcp",
+  "description": "an MCP server implementing a memory feature for Q CLI",
+  "repo_url": "https://github.com/gengisb/QCLI-memories-mcp",
+  "source_hub": "mcp_so",
+  "owner": "gengisb",
+  "stars": 1,
+  "primary_language": "unknown",
+  "tags": [
+    "prod-notes"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "43a83f0f0b57d018a1a8735c276b365a0446b5a9",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 3,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:42Z",
+  "verification_level": "scanner_only"
+}

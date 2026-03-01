@@ -1,0 +1,44 @@
+{
+  "id": "ship-learn-next-8fe62c61",
+  "name": "Ship-Learn-Next",
+  "description": "Transforms passive learning content (transcripts, articles, tutorials) into actionable implementation plans using the Ship-Learn-Next framework. Helps iterate on what to build or learn next based on feedback loops.",
+  "repo_url": "https://github.com/michalparkola/tapestry-skills-for-claude-code/tree/main/ship-learn-next",
+  "source_hub": "claude_skills_hub",
+  "skill_type": "agent_skill",
+  "owner": "michalparkola",
+  "stars": 0,
+  "forks": 42,
+  "license": "mit",
+  "primary_language": "Markdown",
+  "tags": [
+    "repo_unavailable"
+  ],
+  "source_tags": [
+    "document-processing",
+    "coding",
+    "writing",
+    "video"
+  ],
+  "categories": [
+    "productivity"
+  ],
+  "version": "1.0.0",
+  "requires_code_execution": false,
+  "verification_status": "pass",
+  "overall_score": 77,
+  "risk_level": "low",
+  "verified_commit": null,
+  "scan_summary": null,
+  "findings_summary": {
+    "notes": "Subdirectory ship-learn-next/ confirmed in michalparkola/tapestry-skills-for-claude-code (253 stars, MIT). SKILL.md present. Purely declarative skill - no code execution required. Converts extracted content into structured action plans using the Ship-Learn-Next methodology. No external dependencies. Safe for immediate use."
+  },
+  "last_updated": "2026-02-25T00:00:00Z",
+  "parent_repo_stars": 253,
+  "is_monorepo_child": true,
+  "trust_level": "medium",
+  "scan_date": "2026-02-26T03:00:51Z",
+  "repo_status": "unavailable",
+  "repo_check_date": "2026-02-28T20:52:53.948757+00:00",
+  "repo_check_error": "fatal: repository 'https://github.com/michalparkola/tapestry-skills-for-claude-code/tree/main/ship-learn-next/' not found",
+  "verification_level": "scanner_only"
+}

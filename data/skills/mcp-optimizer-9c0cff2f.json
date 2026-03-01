@@ -1,0 +1,25 @@
+{
+  "id": "mcp-optimizer-9c0cff2f",
+  "name": "mcp-optimizer",
+  "description": "Mathematical Optimization MCP Server with PuLP and OR-Tools support",
+  "repo_url": "https://github.com/dmitryanchikov/mcp-optimizer",
+  "source_hub": "mcp_so",
+  "owner": "dmitryanchikov",
+  "stars": 3,
+  "primary_language": "unknown",
+  "tags": [
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "65db2231711535033936975e7450032a3a494954",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 97,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:04:51Z",
+  "verification_level": "scanner_only"
+}

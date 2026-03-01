@@ -1,0 +1,27 @@
+{
+  "id": "financial-analysis-mcp-server-ec678d82",
+  "name": "financial-analysis-mcp-server",
+  "description": "An Anthropic Model Context Protocol (MCP) server for financial analysis with alphavantage.com and financialmodellingprep.com API integration.",
+  "repo_url": "https://github.com/kablewy/financial-analysis-mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "kablewy",
+  "stars": 11,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp",
+    "integ"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "254f236e5e2128678626b0d42342473709a585ee",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 5,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:42:34Z",
+  "verification_level": "scanner_only"
+}

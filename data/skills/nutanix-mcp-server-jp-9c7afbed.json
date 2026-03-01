@@ -1,0 +1,28 @@
+{
+  "id": "nutanix-mcp-server-jp-9c7afbed",
+  "name": "nutanix-mcp-server-jp",
+  "description": "Nutanix Prism Central と連携してクラスタ・仮想マシン情報を取得する MCP (Model Context Protocol) サーバーの FastAPI 実装",
+  "repo_url": "https://github.com/takanorisuzuki/nutanix-mcp-server-jp",
+  "source_hub": "mcp_so",
+  "owner": "takanorisuzuki",
+  "stars": 1,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp",
+    "dev-web-backend-python",
+    "integ"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "ed9e83878b4665b2d5fdc06f8bbd8e9f9998b2b0",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 11,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:42Z",
+  "verification_level": "scanner_only"
+}

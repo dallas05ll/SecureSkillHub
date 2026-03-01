@@ -1,0 +1,25 @@
+{
+  "id": "ardour-mcp-b8e68901",
+  "name": "ardour-mcp",
+  "description": "mcp server to connect Ardour 9 DAW",
+  "repo_url": "https://github.com/pyroqbit/ardour-mcp",
+  "source_hub": "mcp_so",
+  "owner": "pyroqbit",
+  "stars": 1,
+  "primary_language": "unknown",
+  "tags": [
+    "integ"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "2f6bc80447832a9ba180d1b7b108c8fd55eeb593",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 4,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:42Z",
+  "verification_level": "scanner_only"
+}

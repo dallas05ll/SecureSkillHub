@@ -1,0 +1,26 @@
+{
+  "id": "dolphindb-mcp-server-6fd99746",
+  "name": "dolphindb-mcp-server",
+  "description": "dolphindb-mcp-server",
+  "repo_url": "https://github.com/tradercjz/dolphindb-mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "tradercjz",
+  "stars": 5,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "539e698c23d30d57d0bb49a0e45399ead46adf1d",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 6,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:54:02Z",
+  "verification_level": "scanner_only"
+}

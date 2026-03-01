@@ -1,0 +1,26 @@
+{
+  "id": "pco-mcp-d6909605",
+  "name": "pco-mcp",
+  "description": "Planning Center Online MCP Server",
+  "repo_url": "https://github.com/jake-ccnh/pco-mcp",
+  "source_hub": "mcp_so",
+  "owner": "jake-ccnh",
+  "stars": 8,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "6bb8239f8ca5b218773fb8a167fcfc9a8aee8cd0",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 3,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:42:34Z",
+  "verification_level": "scanner_only"
+}

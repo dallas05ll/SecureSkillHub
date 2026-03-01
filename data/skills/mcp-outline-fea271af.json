@@ -1,0 +1,27 @@
+{
+  "id": "mcp-outline-fea271af",
+  "name": "mcp-outline",
+  "description": "A Model Context Protocol (MCP) server enabling AI assistants to interact with Outline documentation services.",
+  "repo_url": "https://github.com/Vortiago/mcp-outline",
+  "source_hub": "mcp_so",
+  "owner": "Vortiago",
+  "stars": 102,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp",
+    "prod-docs"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "3c46879d0b355a5ebfea4b3ad252ed3450e61d0a",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 87,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-27T06:40:49Z",
+  "verification_level": "scanner_only"
+}

@@ -1,0 +1,25 @@
+{
+  "id": "muckrock-mcp-5f35ce54",
+  "name": "muckrock-mcp",
+  "description": "Highly experimental, insecure, and unstable MuckRock FOIA MCP Server with 20+ tools for filing, tracking, and managing Freedom of Information Act requests",
+  "repo_url": "https://github.com/morisy/muckrock-mcp",
+  "source_hub": "mcp_so",
+  "owner": "morisy",
+  "stars": 2,
+  "primary_language": "unknown",
+  "tags": [
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "56e6b078c4ec19fc2c6f3ca67d77e3ad4bfea49b",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 7,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:04:51Z",
+  "verification_level": "scanner_only"
+}

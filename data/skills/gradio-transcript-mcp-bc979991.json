@@ -1,0 +1,26 @@
+{
+  "id": "gradio-transcript-mcp-bc979991",
+  "name": "gradio-transcript-mcp",
+  "description": "Gradio demo cum MCP server to generate transcripts from Audio/Video",
+  "repo_url": "https://github.com/bsmnyk/gradio-transcript-mcp",
+  "source_hub": "mcp_so",
+  "owner": "bsmnyk",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai-audio",
+    "util-media"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "6b6fa2c30377753ec679a1a5de8f3cc50a18798e",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 7,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:41Z",
+  "verification_level": "scanner_only"
+}

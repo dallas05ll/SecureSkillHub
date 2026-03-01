@@ -1,0 +1,25 @@
+{
+  "id": "click-mcp-1ba70d81",
+  "name": "click-mcp",
+  "description": "Turn click CLIs into MCP servers with one line of code",
+  "repo_url": "https://github.com/crowecawcaw/click-mcp",
+  "source_hub": "mcp_so",
+  "owner": "crowecawcaw",
+  "stars": 11,
+  "primary_language": "unknown",
+  "tags": [
+    "dev"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "fade60f87dc1d3c6411b3d8e94dc3e0800edeff3",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 24,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:42:34Z",
+  "verification_level": "scanner_only"
+}

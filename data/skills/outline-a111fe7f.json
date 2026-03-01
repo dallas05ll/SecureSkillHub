@@ -1,0 +1,47 @@
+{
+  "id": "outline-a111fe7f",
+  "name": "Outline",
+  "description": "Outline knowledge base integration skill for Claude Code, enabling document creation and retrieval.",
+  "repo_url": "https://github.com/sanjay3290/ai-skills/tree/main/skills/outline",
+  "source_hub": "claude_skills_hub",
+  "skill_type": "agent_skill",
+  "owner": "sanjay3290",
+  "stars": 0,
+  "forks": 6,
+  "license": "Apache-2.0",
+  "primary_language": "Python",
+  "tags": [
+    "data-ai",
+    "dev",
+    "integ",
+    "prod-docs",
+    "repo_unavailable"
+  ],
+  "source_tags": [
+    "ai",
+    "document-processing",
+    "coding"
+  ],
+  "categories": [
+    "dev",
+    "productivity"
+  ],
+  "version": "1.0.0",
+  "requires_code_execution": false,
+  "verification_status": "pass",
+  "overall_score": 72,
+  "risk_level": "low",
+  "verified_commit": null,
+  "scan_summary": null,
+  "findings_summary": {
+    "notes": "Apache-2.0, Python, maintained repo. Multiple skills in single monorepo. Repo stars ~102."
+  },
+  "parent_repo_stars": 79,
+  "is_monorepo_child": true,
+  "trust_level": "medium",
+  "scan_date": "2026-02-26T03:00:51Z",
+  "repo_status": "unavailable",
+  "repo_check_date": "2026-02-28T20:52:41.778984+00:00",
+  "repo_check_error": "fatal: repository 'https://github.com/sanjay3290/ai-skills/tree/main/skills/outline/' not found",
+  "verification_level": "scanner_only"
+}

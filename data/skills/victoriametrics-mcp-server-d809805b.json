@@ -1,0 +1,25 @@
+{
+  "id": "victoriametrics-mcp-server-d809805b",
+  "name": "VictoriaMetrics-mcp-server",
+  "description": "MCP Server for the VictoriaMetrics.",
+  "repo_url": "https://github.com/yincongcyincong/VictoriaMetrics-mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "yincongcyincong",
+  "stars": 7,
+  "primary_language": "unknown",
+  "tags": [
+    "util-monitor"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "c3a5ef928875f627f39cbd24d250a402cd3f7079",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 5,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:54:02Z",
+  "verification_level": "scanner_only"
+}

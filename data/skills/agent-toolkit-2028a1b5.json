@@ -1,0 +1,30 @@
+{
+  "id": "agent-toolkit-2028a1b5",
+  "name": "agent-toolkit",
+  "description": "Official Sanity agent toolkit providing MCP server and agent skills for Sanity CMS integration with Claude Code and other editors.",
+  "repo_url": "https://github.com/sanity-io/agent-toolkit",
+  "source_hub": "github_search",
+  "skill_type": "agent_skill",
+  "owner": "sanity-io",
+  "stars": 90,
+  "license": "mit",
+  "primary_language": "JavaScript",
+  "tags": [
+    "data-ai",
+    "dev",
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 88,
+  "risk_level": "low",
+  "verified_commit": null,
+  "scan_summary": null,
+  "last_updated": "2026-02-24T22:20:03Z",
+  "findings_summary": {
+    "notes": "MIT licensed by sanity-io (reputable org), well-documented, SKILL.md present, actively maintained."
+  },
+  "trust_level": "low",
+  "scan_date": "2026-02-26T02:11:11Z",
+  "verification_level": "scanner_only"
+}

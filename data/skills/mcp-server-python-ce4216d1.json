@@ -1,0 +1,27 @@
+{
+  "id": "mcp-server-python-ce4216d1",
+  "name": "MCP-Server-python",
+  "description": "Simple implementation of a Model Communication Protocol (MCP) server using Python over the network using sse transport",
+  "repo_url": "https://github.com/Perteghella/MCP-Server-python",
+  "source_hub": "mcp_so",
+  "owner": "Perteghella",
+  "stars": 1,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "dev-web-backend-python",
+    "prod-comm"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "952d443a25de47d04e32e972ae3222af9197b7d7",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 9,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:42Z",
+  "verification_level": "scanner_only"
+}

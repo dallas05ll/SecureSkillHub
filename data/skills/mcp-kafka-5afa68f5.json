@@ -1,0 +1,26 @@
+{
+  "id": "mcp-kafka-5afa68f5",
+  "name": "mcp-kafka",
+  "description": "An MCP server for Apache Kafka & its ecosystem.",
+  "repo_url": "https://github.com/brandon-powers/mcp-kafka",
+  "source_hub": "mcp_so",
+  "owner": "brandon-powers",
+  "stars": 3,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "3f6e717cfc6de895300ff9e15be303ff25438edd",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 7,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:04:50Z",
+  "verification_level": "scanner_only"
+}

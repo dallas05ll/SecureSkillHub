@@ -1,0 +1,25 @@
+{
+  "id": "cf-mcp-server-9ad3dfa5",
+  "name": "cf-mcp-server",
+  "description": "An MCP server on Cloudflare Workers",
+  "repo_url": "https://github.com/anishgowda21/cf-mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "anishgowda21",
+  "stars": 1,
+  "primary_language": "unknown",
+  "tags": [
+    "integ-cloud"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "70670d89135e93d25b69b2c743f9842383152656",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 6,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:40Z",
+  "verification_level": "scanner_only"
+}

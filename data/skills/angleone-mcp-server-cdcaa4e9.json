@@ -1,0 +1,29 @@
+{
+  "id": "angleone-mcp-server-cdcaa4e9",
+  "name": "angleone-mcp-server",
+  "description": "An MCP (Model Context Protocol) server implementation integrated with Angle One APIs for financial data processing and analysis.",
+  "repo_url": "https://github.com/baba786/angleone-mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "baba786",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "data",
+    "data-ai",
+    "data-ai-nlp",
+    "integ",
+    "repo_unavailable"
+  ],
+  "verification_status": "manual_review",
+  "overall_score": 0,
+  "risk_level": "high",
+  "verified_commit": "",
+  "scan_summary": null,
+  "scan_date": "2026-02-28T20:27:25Z",
+  "findings_summary": {
+    "error": "clone failed: Cloning into '/var/folders/pq/bb71gjzd01d29nnmqrhqr2rc0000gn/T/strict5_angleone-mcp-server-cdca_4jhmodns/repo'...\nfatal: could not read Username for 'https://github.com': Device not configured",
+    "supervisor_approved": false,
+    "supervisor_confidence": 0
+  },
+  "repo_status": "unavailable"
+}

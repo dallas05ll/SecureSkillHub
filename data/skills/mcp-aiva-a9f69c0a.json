@@ -1,0 +1,25 @@
+{
+  "id": "mcp-aiva-a9f69c0a",
+  "name": "MCP-AIVA",
+  "description": "MCP server for the TM Forum AIVA AI Assistant",
+  "repo_url": "https://github.com/LesterThomas/MCP-AIVA",
+  "source_hub": "mcp_so",
+  "owner": "LesterThomas",
+  "stars": 1,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "eb1ecfee27258eb9b9730f5b86e9de8eaf917715",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 6,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:40Z",
+  "verification_level": "scanner_only"
+}

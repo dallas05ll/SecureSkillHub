@@ -1,0 +1,28 @@
+{
+  "id": "mcp-server-boilerplate-5591b362",
+  "name": "mcp-server-boilerplate",
+  "description": "MCP Server Boilerplate is a Node.js example that demonstrates how to build an MCP server with a custom tool, including one that loads an environment variable from a configuration file, to integrate seamlessly with AI-assisted environments like Cursor AI.",
+  "repo_url": "https://github.com/lucianoayres/mcp-server-boilerplate",
+  "source_hub": "mcp_so",
+  "owner": "lucianoayres",
+  "stars": 68,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "dev-web-backend-node",
+    "util",
+    "util-file"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "fb4603787f5d8bf50bcefe8d669849618f4cab4b",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 3,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-27T06:40:44Z",
+  "verification_level": "scanner_only"
+}

@@ -1,0 +1,49 @@
+{
+  "id": "review-implementing-620f7b22",
+  "name": "Review Implementing",
+  "description": "Systematically processes and implements code review feedback by parsing reviewer comments into discrete TodoWrite tasks, locating relevant code, making targeted changes with Edit/Write tools, running tests and linting, and reporting progress in real-time",
+  "repo_url": "https://github.com/mhattingpete/claude-skills-marketplace/tree/main/engineering-workflow-plugin/skills/review-implementing",
+  "source_hub": "claude_skills_hub",
+  "skill_type": "agent_skill",
+  "owner": "mhattingpete",
+  "stars": 0,
+  "forks": 47,
+  "license": "Apache-2.0",
+  "primary_language": "markdown",
+  "tags": [
+    "dev",
+    "dev-testing",
+    "prod-pm",
+    "util",
+    "repo_unavailable"
+  ],
+  "source_tags": [
+    "automation",
+    "testing",
+    "git",
+    "coding",
+    "productivity"
+  ],
+  "categories": [
+    "dev",
+    "productivity"
+  ],
+  "version": "1.0.0",
+  "requires_code_execution": false,
+  "verification_status": "pass",
+  "overall_score": 82,
+  "risk_level": "low",
+  "verified_commit": "004b0ece6e4b207a18c81d9e641eb2c29521a258",
+  "findings_summary": {
+    "notes": "Prompt-only skill (SKILL.md only, no additional scripts or hooks). Well-structured workflow for implementing code review feedback: parse notes, create TodoWrite tasks, locate code with Grep/Glob, implement with Edit tool, verify with tests and ruff linting, report to user. References pytest conventions and PEP 604/585 type hints. Parent repo (mhattingpete/claude-skills-marketplace, HTML primary language, 406 stars) note: actual star count is 406 not 350 as recorded in metadata. Repo created 2025-10-17, last pushed 2026-01-15, Apache-2.0 license. CHANGELOG shows review-implementing was part of v1.0.0 initial release. repo has execution-runtime with sandbox.py (RestrictedPython sandboxing) but this skill does not use it. No attack surface for this SKILL.md-only skill."
+  },
+  "scan_summary": "SKILL.md only - no scripts, hooks, or executables. Structured code-review workflow that operates on user's local codebase. Stale star count in metadata (recorded 350, actual 406). No security concerns.",
+  "parent_repo_stars": 406,
+  "is_monorepo_child": true,
+  "trust_level": "medium",
+  "scan_date": "2026-02-26T03:00:51Z",
+  "repo_status": "unavailable",
+  "repo_check_date": "2026-02-28T20:52:50.589332+00:00",
+  "repo_check_error": "fatal: repository 'https://github.com/mhattingpete/claude-skills-marketplace/tree/main/engineering-workflow-plugin/skills/review-implementing/' not found",
+  "verification_level": "metadata_only"
+}

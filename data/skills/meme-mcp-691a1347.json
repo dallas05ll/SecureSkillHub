@@ -1,0 +1,27 @@
+{
+  "id": "meme-mcp-691a1347",
+  "name": "meme-mcp",
+  "description": "A simple Model Context Protocol (MCP) server for generating memes using the ImgFlip API",
+  "repo_url": "https://github.com/haltakov/meme-mcp",
+  "source_hub": "mcp_so",
+  "owner": "haltakov",
+  "stars": 46,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp",
+    "integ"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "fa5daf13db16d313a913d8216258b21eba09d838",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 4,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:32:11Z",
+  "verification_level": "scanner_only"
+}

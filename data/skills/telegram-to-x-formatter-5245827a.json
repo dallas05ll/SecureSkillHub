@@ -1,0 +1,25 @@
+{
+  "id": "telegram-to-x-formatter-5245827a",
+  "name": "telegram-to-x-formatter",
+  "description": "MCP server для адаптации постов из Telegram в формат X с ограничением в 220 символов",
+  "repo_url": "https://github.com/iliamak/telegram-to-x-formatter",
+  "source_hub": "mcp_so",
+  "owner": "iliamak",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "prod-comm"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "95b4d8b5646060fc75612542d12d0bc65500c56b",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 3,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:42:59Z",
+  "verification_level": "scanner_only"
+}

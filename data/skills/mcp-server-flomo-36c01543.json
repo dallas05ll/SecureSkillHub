@@ -1,0 +1,25 @@
+{
+  "id": "mcp-server-flomo-36c01543",
+  "name": "mcp-server-flomo",
+  "description": "record notes to flomo",
+  "repo_url": "https://github.com/GolderBrother/mcp-server-flomo",
+  "source_hub": "mcp_so",
+  "owner": "GolderBrother",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "prod-notes"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "c36dafaf755aa2e5416342f756dc00894f27cf55",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 7,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:41Z",
+  "verification_level": "scanner_only"
+}

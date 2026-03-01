@@ -1,0 +1,26 @@
+{
+  "id": "querypie-mcp-server-e8f55c2e",
+  "name": "querypie-mcp-server",
+  "description": "The MCP server for QueryPie for administrators to manage it.",
+  "repo_url": "https://github.com/querypie/querypie-mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "querypie",
+  "stars": 9,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "f818cb45649f6ecc373b0452f0882bd9c6bffca9",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 13,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:42:34Z",
+  "verification_level": "scanner_only"
+}

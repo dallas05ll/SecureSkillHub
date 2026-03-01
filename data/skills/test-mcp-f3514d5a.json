@@ -1,0 +1,25 @@
+{
+  "id": "test-mcp-f3514d5a",
+  "name": "test-mcp",
+  "description": "Simple MCP server for testing purposes.",
+  "repo_url": "https://github.com/mrexodia/test-mcp",
+  "source_hub": "mcp_so",
+  "owner": "mrexodia",
+  "stars": 5,
+  "primary_language": "unknown",
+  "tags": [
+    "dev-testing"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "dfa0c7eb8b3dac4aefb5e80df1f31e232d58978c",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 9,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:54:02Z",
+  "verification_level": "scanner_only"
+}

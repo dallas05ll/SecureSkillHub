@@ -1,0 +1,25 @@
+{
+  "id": "hello-mcp-server-current-time-4d0cfb36",
+  "name": "hello-mcp-server-current-time",
+  "description": "基于spring-ai-starter-mcp-server的自定义mcp server简单示例，获取当前时间，",
+  "repo_url": "https://github.com/devotion-coding/hello-mcp-server-current-time",
+  "source_hub": "mcp_so",
+  "owner": "devotion-coding",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "c13b9e9c7e85efc0b20e1617c4038bc2c020e276",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 4,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:40Z",
+  "verification_level": "scanner_only"
+}

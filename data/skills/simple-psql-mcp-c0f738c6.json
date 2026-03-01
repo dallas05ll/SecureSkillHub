@@ -1,0 +1,30 @@
+{
+  "id": "simple-psql-mcp-c0f738c6",
+  "name": "simple-psql-mcp",
+  "description": "A beginner-friendly MCP server template featuring a PostgreSQL connector with clean, easy-to-understand code. Perfect for developers new to Model Context Protocol who want to experiment and create their own AI tool connectors with minimal setup.",
+  "repo_url": "https://github.com/NetanelBollag/simple-psql-mcp",
+  "source_hub": "mcp_so",
+  "owner": "NetanelBollag",
+  "stars": 31,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp",
+    "data-db",
+    "dev",
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "c66995f818f3b2fd7588e18471c8e1b769118845",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 10,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:32:12Z",
+  "verification_level": "scanner_only"
+}

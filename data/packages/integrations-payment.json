@@ -1,0 +1,57 @@
+{
+  "tag_path": "integrations-payment",
+  "label": "General Payments Package",
+  "description": "Top 3 verified payments skills, auto-curated by GitHub stars and security score.",
+  "skill_ids": [
+    "skills-b1bc2b7d",
+    "paddle-mcp-server-468f0e69",
+    "invoice-organizer-2aadf3b1"
+  ],
+  "skills": [
+    {
+      "id": "skills-b1bc2b7d",
+      "name": "skills",
+      "description": "Production-ready Expo React Native mobile app skill with RevenueCat payments, AdMob, i18n, onboarding, and NativeTabs.",
+      "repo_url": "https://github.com/zaferayan/skills",
+      "stars": 99,
+      "overall_score": 78,
+      "verification_status": "pass",
+      "risk_level": "low",
+      "primary_language": "Markdown",
+      "install_url": "https://github.com/zaferayan/skills",
+      "skill_type": "agent_skill"
+    },
+    {
+      "id": "paddle-mcp-server-468f0e69",
+      "name": "paddle-mcp-server",
+      "description": "Interact with the Paddle API using AI assistants like Claude, or in AI-powered IDEs like Cursor. Manage product catalog, billing and subscriptions, and reports.",
+      "repo_url": "https://github.com/PaddleHQ/paddle-mcp-server",
+      "stars": 42,
+      "overall_score": 85,
+      "verification_status": "pass",
+      "risk_level": "info",
+      "primary_language": "unknown",
+      "install_url": "https://github.com/PaddleHQ/paddle-mcp-server",
+      "skill_type": "unknown"
+    },
+    {
+      "id": "invoice-organizer-2aadf3b1",
+      "name": "Invoice Organizer",
+      "description": "Automatically organizes invoices and receipts for tax preparation by reading and renaming files",
+      "repo_url": "https://github.com/ComposioHQ/awesome-claude-skills/tree/master/invoice-organizer",
+      "stars": 0,
+      "overall_score": 68,
+      "verification_status": "manual_review",
+      "risk_level": "medium",
+      "primary_language": "markdown",
+      "install_url": "https://github.com/ComposioHQ/awesome-claude-skills/tree/master/invoice-organizer",
+      "skill_type": "agent_skill"
+    }
+  ],
+  "total_skills": 3,
+  "total_candidates": 3,
+  "avg_score": 77.0,
+  "min_score": 68,
+  "top_stars": 99,
+  "generated_at": "2026-02-28T03:46:45Z"
+}

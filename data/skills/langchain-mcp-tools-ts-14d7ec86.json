@@ -1,0 +1,26 @@
+{
+  "id": "langchain-mcp-tools-ts-14d7ec86",
+  "name": "langchain-mcp-tools-ts",
+  "description": "Package intended to simplify the use of MCP server tools within LangChain",
+  "repo_url": "https://github.com/hideya/langchain-mcp-tools-ts",
+  "source_hub": "mcp_so",
+  "owner": "hideya",
+  "stars": 22,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "9b76633299ea44665031848f84d9fd18ecdf904b",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 27,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:32:11Z",
+  "verification_level": "scanner_only"
+}

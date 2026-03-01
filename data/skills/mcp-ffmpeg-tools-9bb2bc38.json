@@ -1,0 +1,33 @@
+{
+  "id": "mcp-ffmpeg-tools-9bb2bc38",
+  "name": "mcp-ffmpeg-tools",
+  "description": "mcp-ffmpeg-tools is an open-source Python MCP (Model-Command Protocol) server that enables LLMs to perform media processing tasks by interpreting natural language instructions. It automatically generates and executes FFmpeg commands, then validates results using `ffprobe` or screenshots. The tool also supports querying FFmpeg source code to verify command correctness, making it ideal for intelligent, language-driven media workflows across platforms.",
+  "repo_url": "https://github.com/gamhoi/mcp-ffmpeg-tools",
+  "source_hub": "mcp_so",
+  "owner": "gamhoi",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp",
+    "data-ai-vision",
+    "dev",
+    "dev-web-backend-python",
+    "prod",
+    "prod-pm",
+    "util",
+    "util-media"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "efe21d9206a9085bb2fefd08254a2125948eeec4",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 6,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:41Z",
+  "verification_level": "scanner_only"
+}

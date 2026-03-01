@@ -1,0 +1,29 @@
+{
+  "id": "next-unicorn-skill-13107e47",
+  "name": "Next-Unicorn-Skill",
+  "description": "AI-powered codebase auditor that detects reinvented wheels and suggests unicorn-grade library replacements. Stop Vibe Coding debt with smart migration plans.",
+  "repo_url": "https://github.com/Nebutra/Next-Unicorn-Skill",
+  "source_hub": "github_search",
+  "skill_type": "agent_skill",
+  "owner": "Nebutra",
+  "stars": 1,
+  "license": "mit",
+  "primary_language": "markdown",
+  "tags": [
+    "data-ai",
+    "dev",
+    "sec-scan"
+  ],
+  "verification_status": "pass",
+  "overall_score": 78,
+  "risk_level": "medium",
+  "verified_commit": null,
+  "scan_summary": null,
+  "last_updated": "2026-02-13T13:00:06Z",
+  "findings_summary": {
+    "notes": "Metadata-based verification. Score=78. Signals: stars=1; license='mit' (+5); owner='Nebutra' (+3); primary_language='markdown'; source_hub='github_search'. Status: pass. Risk: medium."
+  },
+  "trust_level": "low",
+  "scan_date": "2026-02-26T06:14:56Z",
+  "verification_level": "metadata_only"
+}

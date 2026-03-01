@@ -1,0 +1,26 @@
+{
+  "id": "time-tools-mcp-server-cf2e2786",
+  "name": "time-tools-mcp-server",
+  "description": "MCP server to enable AI agents to perform time-related processing, such as retrieving the current time",
+  "repo_url": "https://github.com/t-shiratori/time-tools-mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "t-shiratori",
+  "stars": 2,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "e8a019a98e151be0655bf6960bf4b4f30f4215ed",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 9,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:41Z",
+  "verification_level": "scanner_only"
+}

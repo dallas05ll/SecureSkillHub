@@ -1,0 +1,26 @@
+{
+  "id": "croft-5dfa2bab",
+  "name": "croft",
+  "description": "MCP server for all of your Laravel projects - better AI pair programming, coming soon..",
+  "repo_url": "https://github.com/ashleyhindle/croft",
+  "source_hub": "mcp_so",
+  "owner": "ashleyhindle",
+  "stars": 88,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "dev"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "082f635743fcc7afa11f8a0b285343773f453df0",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 6,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-27T06:40:44Z",
+  "verification_level": "scanner_only"
+}

@@ -1,0 +1,26 @@
+{
+  "id": "voxbuilder-mcp-local-a31d77d3",
+  "name": "voxbuilder-mcp-local",
+  "description": "(Demo) MCP Server to create and draw .vox models file locally",
+  "repo_url": "https://github.com/tobylai-toby/voxbuilder-mcp-local",
+  "source_hub": "mcp_so",
+  "owner": "tobylai-toby",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "util-file"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "15be72d25503a9ab4384d5524438b7a99af10776",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 5,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:42:59Z",
+  "verification_level": "scanner_only"
+}

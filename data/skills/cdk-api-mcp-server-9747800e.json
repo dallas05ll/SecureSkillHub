@@ -1,0 +1,27 @@
+{
+  "id": "cdk-api-mcp-server-9747800e",
+  "name": "cdk-api-mcp-server",
+  "description": "An MCP server provides AWS CDK API references and samples",
+  "repo_url": "https://github.com/konokenj/cdk-api-mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "konokenj",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "integ-cloud",
+    "integ-cloud-aws"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "a257aa029721cad2ea3df08947629198efc2595e",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 31,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:41Z",
+  "verification_level": "scanner_only"
+}

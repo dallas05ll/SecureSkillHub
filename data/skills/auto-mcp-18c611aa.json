@@ -1,0 +1,25 @@
+{
+  "id": "auto-mcp-18c611aa",
+  "name": "auto_mcp",
+  "description": "This package provides necessary tooling to launch an MCP server for the ROS network. It provides support for introspection and manual config.",
+  "repo_url": "https://github.com/snick-m/auto_mcp",
+  "source_hub": "mcp_so",
+  "owner": "snick-m",
+  "stars": 14,
+  "primary_language": "unknown",
+  "tags": [
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "450381d8568a73d867da80e8ccc28cbe2a8d0acb",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 10,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:42:36Z",
+  "verification_level": "scanner_only"
+}

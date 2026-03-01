@@ -1,0 +1,30 @@
+{
+  "id": "awesome-claude-a02ac4ac",
+  "name": "awesome-claude",
+  "description": "Curated awesome list of tools, SDKs, prompts, tutorials, and community projects for working with Claude, updated for 2026.",
+  "repo_url": "https://github.com/ai-for-developers/awesome-claude",
+  "source_hub": "github_search",
+  "skill_type": "agent_skill",
+  "owner": "ai-for-developers",
+  "stars": 54,
+  "license": "cc0-1.0",
+  "primary_language": "Markdown",
+  "tags": [
+    "data-ai",
+    "dev",
+    "prod-comm",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 68,
+  "risk_level": "low",
+  "verified_commit": null,
+  "scan_summary": null,
+  "last_updated": "2026-02-25T10:40:04Z",
+  "findings_summary": {
+    "notes": "CC0-1.0 licensed (public domain), Markdown, recently active. Standard awesome-list format. Aggregate resource, not a functional skill."
+  },
+  "trust_level": "low",
+  "scan_date": "2026-02-26T02:12:27Z",
+  "verification_level": "scanner_only"
+}

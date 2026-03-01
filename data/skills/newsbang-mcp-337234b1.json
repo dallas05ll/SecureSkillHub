@@ -1,0 +1,26 @@
+{
+  "id": "newsbang-mcp-337234b1",
+  "name": "newsbang-mcp",
+  "description": "Newsbang MCP is a smart media command platform that gives you real-time access to top headlines, intelligent news search, and in-depth reports and analysis — helping you stay informed, spot trends, and seize opportunities.",
+  "repo_url": "https://github.com/NewsBang/newsbang-mcp",
+  "source_hub": "mcp_so",
+  "owner": "NewsBang",
+  "stars": 5,
+  "primary_language": "unknown",
+  "tags": [
+    "util-media",
+    "util-search"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "570b88938b6bc508072fe2be9d0f531daca31483",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 1,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:54:04Z",
+  "verification_level": "scanner_only"
+}

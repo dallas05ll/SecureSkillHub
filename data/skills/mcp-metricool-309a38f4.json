@@ -1,0 +1,25 @@
+{
+  "id": "mcp-metricool-309a38f4",
+  "name": "mcp-metricool",
+  "description": "mcp-metricool",
+  "repo_url": "https://github.com/metricool/mcp-metricool",
+  "source_hub": "glama",
+  "owner": "metricool",
+  "stars": 29,
+  "primary_language": "unknown",
+  "tags": [
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "af42afba075f7f5280cb8d911081a772d8d0c1c6",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 11,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:32:11Z",
+  "verification_level": "scanner_only"
+}

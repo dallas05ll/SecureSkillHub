@@ -1,0 +1,27 @@
+{
+  "id": "mcp-server-clickup-95d77f3f",
+  "name": "mcp-server-clickup",
+  "description": "Model Context Protocol (MCP) server implementation for ClickUp integration",
+  "repo_url": "https://github.com/noahvanhart/mcp-server-clickup",
+  "source_hub": "mcp_so",
+  "owner": "noahvanhart",
+  "stars": 5,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp",
+    "integ"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "595a90fcc01e4b5785c774791dbd70174e17589e",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 8,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:54:02Z",
+  "verification_level": "scanner_only"
+}

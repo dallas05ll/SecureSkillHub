@@ -1,0 +1,29 @@
+{
+  "id": "puppeteer-real-browser-mcp-server-ddd6ffb7",
+  "name": "puppeteer-real-browser-mcp-server",
+  "description": "Puppeteer-Real-Browser MCP Server: A Model Context Protocol (MCP) server that provides AI assistants with powerful, detection-resistant browser automation capabilities using puppeteer-real-browser.",
+  "repo_url": "https://github.com/withLinda/puppeteer-real-browser-mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "withLinda",
+  "stars": 16,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp",
+    "dev-web",
+    "prod",
+    "util-search"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "05704a715b9e01003e44f5e5582bafc73ae45a5e",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 70,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:42:34Z",
+  "verification_level": "scanner_only"
+}

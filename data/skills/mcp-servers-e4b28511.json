@@ -1,0 +1,26 @@
+{
+  "id": "mcp-servers-e4b28511",
+  "name": "mcp-servers",
+  "description": "MCP Servers to extend functionality",
+  "repo_url": "https://github.com/ihiteshsharma/mcp-servers",
+  "source_hub": "mcp_so",
+  "owner": "ihiteshsharma",
+  "stars": 1,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "6255eb6701a4a5d5953dff4fcc21ec1b47f27157",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 7,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:40Z",
+  "verification_level": "scanner_only"
+}

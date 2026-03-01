@@ -1,0 +1,25 @@
+{
+  "id": "openai-mcp-implementation-3090eb28",
+  "name": "openai-mcp-implementation",
+  "description": "Implementation of OpenAI MCP Server",
+  "repo_url": "https://github.com/Spysailor/openai-mcp-implementation",
+  "source_hub": "mcp_so",
+  "owner": "Spysailor",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "e393f693e6071a40e2efa877614cf9002e26b502",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 3,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:42Z",
+  "verification_level": "scanner_only"
+}

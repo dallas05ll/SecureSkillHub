@@ -1,0 +1,26 @@
+{
+  "id": "mcp-server-template-09cc6074",
+  "name": "mcp-server-template",
+  "description": "A quick-start template to develop your own MCP Server to make AI to get access to your tools/resources",
+  "repo_url": "https://github.com/LSTM-Kirigaya/mcp-server-template",
+  "source_hub": "mcp_so",
+  "owner": "LSTM-Kirigaya",
+  "stars": 7,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "3dd7e11bf1fe8a6b5d5c2d53019b99c803c57b76",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 6,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:54:04Z",
+  "verification_level": "scanner_only"
+}

@@ -1,0 +1,26 @@
+{
+  "id": "node-candidate-mcp-server-c81512a9",
+  "name": "node-candidate-mcp-server",
+  "description": "A Model Context Protocol (MCP) server library that gives LLMs access to information about a candidate.",
+  "repo_url": "https://github.com/jhgaylor/node-candidate-mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "jhgaylor",
+  "stars": 81,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "3c91d9c6f39a0e47d8280c77e6a59a40e97f3746",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 17,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-27T06:40:43Z",
+  "verification_level": "scanner_only"
+}

@@ -1,0 +1,29 @@
+{
+  "id": "indian-railway-mcp-a37b4323",
+  "name": "indian-railway-mcp",
+  "description": "MCP server for Indian Railway data. Search trains, check seat availability, get live statuses, delay info, station/train codes, and more — all via a simple Claude Desktop integration.",
+  "repo_url": "https://github.com/amith-vp/indian-railway-mcp",
+  "source_hub": "mcp_so",
+  "owner": "amith-vp",
+  "stars": 27,
+  "primary_language": "unknown",
+  "tags": [
+    "data",
+    "data-ai",
+    "dev",
+    "integ",
+    "util-search"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "b422df91aa93f7409cd954d8a42bca09f1e7aa70",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 8,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:32:11Z",
+  "verification_level": "scanner_only"
+}

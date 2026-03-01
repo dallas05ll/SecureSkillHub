@@ -1,0 +1,30 @@
+{
+  "id": "minimax-mcp-js-ffc554e1",
+  "name": "MiniMax-MCP-JS",
+  "description": "Official MiniMax Model Context Protocol (MCP) JavaScript implementation that provides seamless integration with MiniMax's powerful AI capabilities including image generation, video generation, text-to-speech, and voice cloning APIs.",
+  "repo_url": "https://github.com/MiniMax-AI/MiniMax-MCP-JS",
+  "source_hub": "mcp_so",
+  "owner": "MiniMax-AI",
+  "stars": 104,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-audio",
+    "data-ai-nlp",
+    "data-ai-vision",
+    "integ",
+    "util-media"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "c5eb6ed61a34658fd0cc810156bfcb29e5d4fecb",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 28,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-27T06:40:43Z",
+  "verification_level": "scanner_only"
+}

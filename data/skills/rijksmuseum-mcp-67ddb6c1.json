@@ -1,0 +1,25 @@
+{
+  "id": "rijksmuseum-mcp-67ddb6c1",
+  "name": "rijksmuseum-mcp",
+  "description": "Rijksmuseum MCP integration for artwork exploration and analysis",
+  "repo_url": "https://github.com/r-huijts/rijksmuseum-mcp",
+  "source_hub": "mcp_so",
+  "owner": "r-huijts",
+  "stars": 63,
+  "primary_language": "unknown",
+  "tags": [
+    "integ"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "af9c2a2dba1e709f2193a59bb3fee3a3b66380b5",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 13,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-27T06:40:43Z",
+  "verification_level": "scanner_only"
+}

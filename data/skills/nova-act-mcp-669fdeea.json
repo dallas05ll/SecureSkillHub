@@ -1,0 +1,26 @@
+{
+  "id": "nova-act-mcp-669fdeea",
+  "name": "nova-act-mcp",
+  "description": "Nova Act MCP Server on ECS Fargate",
+  "repo_url": "https://github.com/awsdataarchitect/nova-act-mcp",
+  "source_hub": "mcp_so",
+  "owner": "awsdataarchitect",
+  "stars": 2,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "c4162745d6ee116e69b91cff83e14f68e3f7b938",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 11,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:04:51Z",
+  "verification_level": "scanner_only"
+}

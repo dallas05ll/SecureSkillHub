@@ -1,0 +1,27 @@
+{
+  "id": "mcpserver-azuredevops-1cb5cfd4",
+  "name": "mcpserver.azuredevops",
+  "description": "A Stdio MCP server as dotnet tool to access Azure DevOps.",
+  "repo_url": "https://github.com/StefH/mcpserver.azuredevops",
+  "source_hub": "mcp_so",
+  "owner": "StefH",
+  "stars": 3,
+  "primary_language": "unknown",
+  "tags": [
+    "integ-cloud",
+    "integ-cloud-azure",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "a63ea259cfd73c3e82c5809dc7e502c7170f5bfe",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 4,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:04:50Z",
+  "verification_level": "scanner_only"
+}

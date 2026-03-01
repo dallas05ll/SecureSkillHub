@@ -1,0 +1,27 @@
+{
+  "id": "mcp-newsnow-08a056f7",
+  "name": "mcp_newsnow",
+  "description": "一个基于 Model Context Protocol (MCP) 的新闻聚合服务器，通过 Newsnow API 提供多平台热点新闻和趋势话题。",
+  "repo_url": "https://github.com/sligter/mcp_newsnow",
+  "source_hub": "mcp_so",
+  "owner": "sligter",
+  "stars": 67,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp",
+    "integ"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "62683334d616333572da4752a7e0e23886f3eec9",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 6,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-27T06:40:44Z",
+  "verification_level": "scanner_only"
+}

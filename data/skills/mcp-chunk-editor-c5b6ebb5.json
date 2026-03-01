@@ -1,0 +1,26 @@
+{
+  "id": "mcp-chunk-editor-c5b6ebb5",
+  "name": "mcp-chunk-editor",
+  "description": "An MCP server providing an efficient and safe text editor for LLMs",
+  "repo_url": "https://github.com/dwymark/mcp-chunk-editor",
+  "source_hub": "mcp_so",
+  "owner": "dwymark",
+  "stars": 4,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "96056564dad40cb409f2df62993f59fe20e0adae",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 9,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:54:02Z",
+  "verification_level": "scanner_only"
+}

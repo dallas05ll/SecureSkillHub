@@ -1,0 +1,27 @@
+{
+  "id": "mcp-with-d1-data-c61ddc71",
+  "name": "mcp-with-d1-data",
+  "description": "Demo MCP Server build using Cloudflare MCPAgent Durable Objects and D1 database",
+  "repo_url": "https://github.com/jubalm/mcp-with-d1-data",
+  "source_hub": "mcp_so",
+  "owner": "jubalm",
+  "stars": 2,
+  "primary_language": "unknown",
+  "tags": [
+    "data",
+    "data-db",
+    "integ-cloud"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "ca551a6aa5fdfa075c42d870974119df0854b7d9",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 12,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:04:51Z",
+  "verification_level": "scanner_only"
+}

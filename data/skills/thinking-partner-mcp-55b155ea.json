@@ -1,0 +1,26 @@
+{
+  "id": "thinking-partner-mcp-55b155ea",
+  "name": "thinking-partner-mcp",
+  "description": "MCP server for unified AI thinking partner across Claude Desktop and Code",
+  "repo_url": "https://github.com/nwant/thinking-partner-mcp",
+  "source_hub": "mcp_so",
+  "owner": "nwant",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "dev"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "53f61d632688bbc21f3efafc30fe1383eb441c96",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 23,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:43:00Z",
+  "verification_level": "scanner_only"
+}

@@ -1,0 +1,27 @@
+{
+  "id": "mcp-jinaai-reader-66e9f8e0",
+  "name": "mcp-jinaai-reader",
+  "description": "Model Context Protocol (MCP) Server for the Jina.ai Reader API",
+  "repo_url": "https://github.com/ASRagab/mcp-jinaai-reader",
+  "source_hub": "mcp_so",
+  "owner": "ASRagab",
+  "stars": 2,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp",
+    "integ"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "392094e980f0f40c12d719e988f3c154a3113a16",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 3,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:04:51Z",
+  "verification_level": "scanner_only"
+}

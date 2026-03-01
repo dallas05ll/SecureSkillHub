@@ -1,0 +1,26 @@
+{
+  "id": "mcp-server-hcp-terraform-0ba2f6b8",
+  "name": "mcp-server-hcp-terraform",
+  "description": "MCP server for working with HCP Terraform",
+  "repo_url": "https://github.com/dulltz/mcp-server-hcp-terraform",
+  "source_hub": "mcp_so",
+  "owner": "dulltz",
+  "stars": 1,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "262a40f7802965198b5127b8eb6d6b4f0ee77b70",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 3,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:42Z",
+  "verification_level": "scanner_only"
+}

@@ -1,0 +1,25 @@
+{
+  "id": "telegram-mcp-server-e5f285cb",
+  "name": "telegram-mcp-server",
+  "description": "Simple Telegram MCP server",
+  "repo_url": "https://github.com/abhinavkale-dev/telegram-mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "abhinavkale-dev",
+  "stars": 3,
+  "primary_language": "unknown",
+  "tags": [
+    "prod-comm"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "f7ab9e08b0419e8d8ace722e33d698f4b1ccd23e",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 5,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:04:51Z",
+  "verification_level": "scanner_only"
+}

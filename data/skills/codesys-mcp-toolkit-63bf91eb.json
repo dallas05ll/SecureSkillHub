@@ -1,0 +1,29 @@
+{
+  "id": "codesys-mcp-toolkit-63bf91eb",
+  "name": "codesys-mcp-toolkit",
+  "description": "Model Context Protocol server for CODESYS automation platform",
+  "repo_url": "https://github.com/johannesPettersson80/codesys-mcp-toolkit",
+  "source_hub": "mcp_so",
+  "owner": "johannesPettersson80",
+  "stars": 29,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp",
+    "dev",
+    "prod",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "1195a6724017b831b4f2e24d15541dbdc57429b7",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 16,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:32:11Z",
+  "verification_level": "scanner_only"
+}

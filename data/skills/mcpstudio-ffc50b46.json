@@ -1,0 +1,26 @@
+{
+  "id": "mcpstudio-ffc50b46",
+  "name": "MCPstudio",
+  "description": "Postman for MCP servers",
+  "repo_url": "https://github.com/lonexreb/MCPstudio",
+  "source_hub": "mcp_so",
+  "owner": "lonexreb",
+  "stars": 2,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "12c4392014919192bf8e649183d8a7612fcc7f7f",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 170,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:04:50Z",
+  "verification_level": "scanner_only"
+}

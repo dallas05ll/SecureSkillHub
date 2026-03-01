@@ -1,0 +1,26 @@
+{
+  "id": "mapbox-mcp-server-9b4407af",
+  "name": "mapbox-mcp-server",
+  "description": "MCP Server for the Mapbox API.",
+  "repo_url": "https://github.com/AidenYangX/mapbox-mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "AidenYangX",
+  "stars": 12,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "util-map"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "7104e983b27b549d0f989f168532bca93ab06f77",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 35,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:42:34Z",
+  "verification_level": "scanner_only"
+}

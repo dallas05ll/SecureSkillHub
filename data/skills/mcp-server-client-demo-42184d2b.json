@@ -1,0 +1,26 @@
+{
+  "id": "mcp-server-client-demo-42184d2b",
+  "name": "mcp-server-client-demo",
+  "description": "Basic demo for a MCP client & server",
+  "repo_url": "https://github.com/julienlucas/mcp-server-client-demo",
+  "source_hub": "mcp_so",
+  "owner": "julienlucas",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "9ae40b94c1601514282b20faf6fd5c4855f537ce",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 10,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:41Z",
+  "verification_level": "scanner_only"
+}

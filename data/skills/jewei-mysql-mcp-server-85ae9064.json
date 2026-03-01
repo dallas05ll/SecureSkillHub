@@ -1,0 +1,25 @@
+{
+  "id": "jewei-mysql-mcp-server-85ae9064",
+  "name": "jewei-mysql-mcp-server",
+  "description": "# MySQL MCP Server\r\n\r\n这是一个MySQL数据库查询服务器，提供了以下功能：\r\n\r\n- 执行SQL查询（仅支持SELECT语句）\r\n- 获取表结构信息\r\n- 列出数据库中的所有表",
+  "repo_url": "https://github.com/jeweis/jewei-mysql-mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "jeweis",
+  "stars": 1,
+  "primary_language": "unknown",
+  "tags": [
+    "data-db"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "80e53ecaf3fbe25991f6d90ebbe837decff0fceb",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 7,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:40Z",
+  "verification_level": "scanner_only"
+}

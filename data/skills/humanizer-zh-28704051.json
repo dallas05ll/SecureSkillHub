@@ -1,0 +1,23 @@
+{
+  "id": "humanizer-zh-28704051",
+  "name": "Humanizer Zh",
+  "description": "Agent skill: humanizer-zh from op7418/humanizer-zh",
+  "repo_url": "https://github.com/op7418/humanizer-zh",
+  "source_hub": "skills_sh",
+  "owner": "op7418",
+  "stars": 5000,
+  "primary_language": "unknown",
+  "tags": [],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "91f3d394db8419c20d67ebe22a96cf8fee0a404b",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 2,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:54:02Z",
+  "verification_level": "scanner_only"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "pantheon-mcp-1cb9747c",
+  "name": "pantheon-mcp",
+  "description": "Pantheon-MCP enables agents to match each task with a tailored instructions set (agent definition) automatically.",
+  "repo_url": "https://github.com/valado/pantheon-mcp",
+  "source_hub": "mcp_so",
+  "owner": "valado",
+  "stars": 8,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "prod",
+    "prod-pm",
+    "sec-crypto"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "fe8737a58d79fb2c2ee3b561bad991b8e08639bd",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 53,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:42:36Z",
+  "verification_level": "scanner_only"
+}

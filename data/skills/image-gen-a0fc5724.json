@@ -1,0 +1,28 @@
+{
+  "id": "image-gen-a0fc5724",
+  "name": "image_gen",
+  "description": "Image generation skill that uses Gemini Banana to generate images. ",
+  "repo_url": "https://github.com/SpillwaveSolutions/image_gen",
+  "source_hub": "github_search",
+  "skill_type": "agent_skill",
+  "owner": "SpillwaveSolutions",
+  "stars": 2,
+  "license": "",
+  "primary_language": "markdown",
+  "tags": [
+    "data-ai",
+    "data-ai-vision"
+  ],
+  "verification_status": "pass",
+  "overall_score": 73,
+  "risk_level": "medium",
+  "verified_commit": null,
+  "scan_summary": null,
+  "last_updated": "2026-02-03T07:12:42Z",
+  "findings_summary": {
+    "notes": "Metadata-based verification. Score=73. Signals: stars=2; no license detected; owner='SpillwaveSolutions' (+3); primary_language='markdown'; source_hub='github_search'. Status: pass. Risk: medium."
+  },
+  "trust_level": "low",
+  "scan_date": "2026-02-26T06:14:56Z",
+  "verification_level": "metadata_only"
+}

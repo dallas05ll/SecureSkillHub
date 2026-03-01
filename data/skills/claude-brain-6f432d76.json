@@ -1,0 +1,36 @@
+{
+  "id": "claude-brain-6f432d76",
+  "name": "claude-brain",
+  "description": "Give Claude Code persistent, photographic memory in a single portable .mv2 file. No external database required - uses a native Rust core with sub-millisecond operations, git-committable and shareable.",
+  "repo_url": "https://github.com/memvid/claude-brain",
+  "source_hub": "github_search",
+  "skill_type": "agent_skill",
+  "owner": "memvid",
+  "stars": 309,
+  "forks": 0,
+  "license": "mit",
+  "primary_language": "TypeScript",
+  "tags": [
+    "data",
+    "data-ai",
+    "data-ai-vision",
+    "data-db",
+    "dev",
+    "dev-git",
+    "dev-web-backend-rust",
+    "prod-notes",
+    "util-file"
+  ],
+  "verification_status": "pass",
+  "overall_score": 79,
+  "risk_level": "low",
+  "verified_commit": null,
+  "scan_summary": null,
+  "findings_summary": {
+    "notes": "Repository confirmed (309 stars, MIT, TypeScript, created Dec 2025). Well-structured with commands/ (ask.md, recent.md, search.md, stats.md), hooks/hooks.json, skills/, and .claude-plugin/. Built-in TypeScript with a Rust native core for memory operations. tsup.config.ts and tsconfig.json present. CONTRIBUTING.md available. Hooks usage means PostToolUse/PreToolUse execution - users should review hooks.json before installation. Binary distribution in dist/. No malicious patterns found. Proprietary .mv2 file format is opaque but localized."
+  },
+  "last_updated": "2026-02-24T17:53:12Z",
+  "trust_level": "low",
+  "scan_date": "2026-02-26T02:21:52Z",
+  "verification_level": "scanner_only"
+}

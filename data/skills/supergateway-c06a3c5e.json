@@ -1,0 +1,25 @@
+{
+  "id": "supergateway-c06a3c5e",
+  "name": "supergateway",
+  "description": "Run MCP stdio servers over SSE and SSE over stdio. AI gateway.",
+  "repo_url": "https://github.com/coding-alt/supergateway",
+  "source_hub": "mcp_so",
+  "owner": "coding-alt",
+  "stars": 6,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "2e5f0646f0e928f10ee58660d4315c84ca21c3a0",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 1,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:54:02Z",
+  "verification_level": "scanner_only"
+}

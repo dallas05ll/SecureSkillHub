@@ -1,0 +1,29 @@
+{
+  "id": "pydantic-ai-skills-256aa892",
+  "name": "pydantic-ai-skills",
+  "description": "Production-ready Claude Code skills for building AI agents with Pydantic AI. Includes dependency injection, tools, validators, streaming, multi-agent orchestration, and evaluation framework patterns.",
+  "repo_url": "https://github.com/Fuenfgeld/pydantic-ai-skills",
+  "source_hub": "github_search",
+  "skill_type": "agent_skill",
+  "owner": "Fuenfgeld",
+  "stars": 4,
+  "license": "mit",
+  "primary_language": "markdown",
+  "tags": [
+    "data-ai",
+    "dev",
+    "util",
+    "util-media"
+  ],
+  "verification_status": "manual_review",
+  "overall_score": 58,
+  "risk_level": "high",
+  "verified_commit": null,
+  "scan_summary": null,
+  "last_updated": "2026-02-06T17:35:04Z",
+  "findings_summary": {
+    "notes": "Metadata-based verification. Score=58. Signals: stars=4; license='mit' (+5); owner='Fuenfgeld' (+3); primary_language='markdown'; suspicious keywords in description: ['inject'] (-20, risk_level forced to 'high'); source_hub='github_search'. Status: manual_review. Risk: high."
+  },
+  "trust_level": "low",
+  "scan_date": "2026-02-26T06:14:56Z"
+}

@@ -1,0 +1,25 @@
+{
+  "id": "linkerd2-mcp-c75d3bfc",
+  "name": "linkerd2-mcp",
+  "description": "An MCP server over the Linkerd2 Proxy API",
+  "repo_url": "https://github.com/eli-nomasec/linkerd2-mcp",
+  "source_hub": "mcp_so",
+  "owner": "eli-nomasec",
+  "stars": 2,
+  "primary_language": "unknown",
+  "tags": [
+    "integ"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "2424e40c8227c62c24448cc4f502b161dcf5159a",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 14,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:04:50Z",
+  "verification_level": "scanner_only"
+}

@@ -1,0 +1,25 @@
+{
+  "id": "swemo-mcp-e8a94b81",
+  "name": "swemo-mcp",
+  "description": "An MCP Server for Riksbank data (monetary policy, SWEA, SWESTR)",
+  "repo_url": "https://github.com/aerugo/swemo-mcp",
+  "source_hub": "mcp_so",
+  "owner": "aerugo",
+  "stars": 1,
+  "primary_language": "unknown",
+  "tags": [
+    "data"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "602b2c383af97d86f519e0e4894641f895a291ce",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 12,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:41Z",
+  "verification_level": "scanner_only"
+}

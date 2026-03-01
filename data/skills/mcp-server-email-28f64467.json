@@ -1,0 +1,26 @@
+{
+  "id": "mcp-server-email-28f64467",
+  "name": "mcp_server_email",
+  "description": "This repository is a mail-sending service developed based on the MCP protocol and Resend. It can be used to send emails, including mass emails. Additionally, it allows querying emails by ID, updating delayed emails, and canceling delayed emails.",
+  "repo_url": "https://github.com/Marary/mcp_server_email",
+  "source_hub": "mcp_so",
+  "owner": "Marary",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "prod-comm"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "ef4f94cc0f1bfc190a22e36036e1dd9e829e1781",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 4,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:42Z",
+  "verification_level": "scanner_only"
+}

@@ -1,0 +1,26 @@
+{
+  "id": "pr-review-mcp-server-dca8483e",
+  "name": "pr-review-mcp-server",
+  "description": "pr 분석을 좀 더 편하게 하고자 미리 작성해주는 mcp 서버입니다.",
+  "repo_url": "https://github.com/wn01011/pr-review-mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "wn01011",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "7db5d0b64cb2ce4ca4a67c7d5d568311062af72d",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 23,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:40Z",
+  "verification_level": "scanner_only"
+}

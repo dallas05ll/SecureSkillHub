@@ -1,0 +1,28 @@
+{
+  "id": "primitive-go-mcp-server-baf2aff8",
+  "name": "primitive-go-mcp-server",
+  "description": "A Go implementation of an MCP (Model Context Protocol) server tools",
+  "repo_url": "https://github.com/prasanthmj/primitive-go-mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "prasanthmj",
+  "stars": 12,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp",
+    "dev-web-backend-go",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "17384ff73a3ec5f34a67ac2dfb8fe6a711b54469",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 1,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:42:34Z",
+  "verification_level": "scanner_only"
+}

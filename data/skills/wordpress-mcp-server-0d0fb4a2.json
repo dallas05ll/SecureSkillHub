@@ -1,0 +1,25 @@
+{
+  "id": "wordpress-mcp-server-0d0fb4a2",
+  "name": "wordpress-mcp-server",
+  "description": "A Machine Communication Protocol (MCP) server for publishing content to WordPress sites",
+  "repo_url": "https://github.com/rmcendarfer2017/wordpress-mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "rmcendarfer2017",
+  "stars": 2,
+  "primary_language": "unknown",
+  "tags": [
+    "prod-comm"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "f58a91a2c3d7fea24b4c5af83a95800407f5e2ef",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 4,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:42Z",
+  "verification_level": "scanner_only"
+}

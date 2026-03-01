@@ -1,0 +1,39 @@
+{
+  "id": "awesome-llm-skills-170e8e95",
+  "name": "awesome-llm-skills",
+  "description": "A curated list of awesome LLM and AI Agent Skills, resources and tools for customising AI Agent workflows — works with Claude Code, Codex, Gemini CLI and custom AI Agents. Includes multiple SKILL.md files (algorithmic-art, artifacts-builder, brand-guidelines, canvas-design, etc.) with shell and JS helper scripts.",
+  "repo_url": "https://github.com/Prat011/awesome-llm-skills",
+  "source_hub": "github_search",
+  "skill_type": "agent_skill",
+  "owner": "Prat011",
+  "stars": 934,
+  "license": "",
+  "primary_language": "Python",
+  "tags": [
+    "data-ai",
+    "dev",
+    "prod",
+    "util",
+    "util-file"
+  ],
+  "verification_status": "pass",
+  "overall_score": 72,
+  "risk_level": "low",
+  "verified_commit": null,
+  "findings_summary": {
+    "has_readme": true,
+    "has_security_policy": false,
+    "has_mcp_server": false,
+    "dangerous_patterns": [
+      "artifacts-builder/scripts/init-artifact.sh runs pnpm/npm install and modifies project files",
+      "artifacts-builder/scripts/bundle-artifact.sh installs parcel and parcel plugins (pnpm add -D)",
+      "No license file detected (license field empty)"
+    ],
+    "notes": "Well-structured curated list with multiple real SKILL.md files covering creative and dev workflows. The bundler and artifact scripts in artifacts-builder are functional build helpers, not exfiltration risks, but they do execute package installs. The repository has 13 open issues, active community (79 forks), and covers a broad range of platforms. Missing a license declaration is a distribution concern. No hooks or auto-executing scripts on install. Score penalised for missing license and scripts that install packages without sandbox."
+  },
+  "scan_summary": null,
+  "last_updated": "2026-02-25T19:05:04Z",
+  "trust_level": "low",
+  "scan_date": "2026-02-26T02:04:23Z",
+  "verification_level": "scanner_only"
+}

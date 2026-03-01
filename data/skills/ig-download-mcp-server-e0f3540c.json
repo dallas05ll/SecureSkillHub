@@ -1,0 +1,27 @@
+{
+  "id": "ig-download-mcp-server-e0f3540c",
+  "name": "ig-download-mcp-server",
+  "description": "MCP service for downloading Instagram videos",
+  "repo_url": "https://github.com/handoing/ig-download-mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "handoing",
+  "stars": 4,
+  "primary_language": "unknown",
+  "tags": [
+    "integ-social",
+    "util-file",
+    "util-media"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "f35a350e2a8d4d7033fe207aad56ef24f219daf0",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 4,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:54:02Z",
+  "verification_level": "scanner_only"
+}

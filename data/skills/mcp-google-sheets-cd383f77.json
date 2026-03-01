@@ -1,0 +1,26 @@
+{
+  "id": "mcp-google-sheets-cd383f77",
+  "name": "mcp-google-sheets",
+  "description": "This MCP server integrates with your Google Drive and Google Sheets, to enable creating and modifying spreadsheets.",
+  "repo_url": "https://github.com/xing5/mcp-google-sheets",
+  "source_hub": "mcp_so",
+  "owner": "xing5",
+  "stars": 699,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 4,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-27T02:26:21Z",
+  "verification_level": "scanner_only"
+}

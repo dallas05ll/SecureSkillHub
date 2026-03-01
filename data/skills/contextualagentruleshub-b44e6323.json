@@ -1,0 +1,26 @@
+{
+  "id": "contextualagentruleshub-b44e6323",
+  "name": "ContextualAgentRulesHub",
+  "description": "MCP (Model Context Protocol) server designed to manage and provide contextual rules for AI agents",
+  "repo_url": "https://github.com/oshvartz/ContextualAgentRulesHub",
+  "source_hub": "mcp_so",
+  "owner": "oshvartz",
+  "stars": 1,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "a563c79e140b59cf00f820eb8f89d2e8a8909c61",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 44,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:42Z",
+  "verification_level": "scanner_only"
+}

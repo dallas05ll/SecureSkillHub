@@ -1,0 +1,27 @@
+{
+  "id": "mongo-mcp-ec82a9c4",
+  "name": "mongo-mcp",
+  "description": "MCP server that provide tools to LLMs such as claude in cursor to interact with MongoDB",
+  "repo_url": "https://github.com/1RB/mongo-mcp",
+  "source_hub": "mcp_so",
+  "owner": "1RB",
+  "stars": 13,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-db",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "4a5b1c0a0101b75a1471e7b79c516c56987541dd",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 18,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:42:34Z",
+  "verification_level": "scanner_only"
+}

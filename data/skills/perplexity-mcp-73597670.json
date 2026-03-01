@@ -1,0 +1,26 @@
+{
+  "id": "perplexity-mcp-73597670",
+  "name": "perplexity-mcp",
+  "description": "A Perplexity MCP server based on",
+  "repo_url": "https://github.com/RossH121/perplexity-mcp",
+  "source_hub": "mcp_so",
+  "owner": "RossH121",
+  "stars": 3,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "cebeb66e6b7d8a5d0b8df8c80cc05fafdcc75e57",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 23,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:04:51Z",
+  "verification_level": "scanner_only"
+}

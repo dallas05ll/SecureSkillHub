@@ -1,0 +1,26 @@
+{
+  "id": "mcp-searxng-enhanced-f67a6dad",
+  "name": "mcp-searxng-enhanced",
+  "description": "Enhanced MCP server for SearXNG: category-aware web-search, web-scraping, and date/time retrieval.",
+  "repo_url": "https://github.com/OvertliDS/mcp-searxng-enhanced",
+  "source_hub": "mcp_so",
+  "owner": "OvertliDS",
+  "stars": 34,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "util-search"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "566470b9dd082c118156eded1c496a5aab1e0074",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 4,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:32:11Z",
+  "verification_level": "scanner_only"
+}

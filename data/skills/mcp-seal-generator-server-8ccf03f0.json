@@ -1,0 +1,25 @@
+{
+  "id": "mcp-seal-generator-server-8ccf03f0",
+  "name": "mcp-seal-generator-server",
+  "description": "基于 Spring AI 的印章生成的 MCP Server 服务，快速让 AI 生成公章、私章。",
+  "repo_url": "https://github.com/lilei0303/mcp-seal-generator-server",
+  "source_hub": "mcp_so",
+  "owner": "lilei0303",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "167f7f823256e91f1fcd75f8f248e46d69b3644a",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 4,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:41Z",
+  "verification_level": "scanner_only"
+}

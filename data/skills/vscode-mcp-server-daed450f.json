@@ -1,0 +1,25 @@
+{
+  "id": "vscode-mcp-server-daed450f",
+  "name": "vscode-mcp-server",
+  "description": "VSCode MCP Server for managing VSCode settings, extensions, snippets, and more",
+  "repo_url": "https://github.com/markjspivey-xwisee/vscode-mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "markjspivey-xwisee",
+  "stars": 2,
+  "primary_language": "unknown",
+  "tags": [
+    "dev"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "dcc50196afa4aa5980a25374bfa70d40b050c71a",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 1,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:41Z",
+  "verification_level": "scanner_only"
+}

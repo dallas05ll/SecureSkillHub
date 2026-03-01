@@ -1,0 +1,26 @@
+{
+  "id": "mcp-demo-aviation-weather-be6e779c",
+  "name": "mcp-demo-aviation-weather",
+  "description": "Demonstrate an MCP server for fetching aviation weather data",
+  "repo_url": "https://github.com/mcdickenson/mcp-demo-aviation-weather",
+  "source_hub": "mcp_so",
+  "owner": "mcdickenson",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "data",
+    "util-search"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "25dacb1208a1c63d46796147cdaebdae92a36632",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 5,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:41Z",
+  "verification_level": "scanner_only"
+}

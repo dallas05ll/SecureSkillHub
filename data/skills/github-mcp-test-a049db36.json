@@ -1,0 +1,25 @@
+{
+  "id": "github-mcp-test-a049db36",
+  "name": "github-mcp-test",
+  "description": "Test repository for GitHub MCP server functionality",
+  "repo_url": "https://github.com/ariofarmani/github-mcp-test",
+  "source_hub": "mcp_so",
+  "owner": "ariofarmani",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "dev-testing"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "beaeef26128bdc07c08ae7ffa2fabdefdb91e623",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 1,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:42Z",
+  "verification_level": "scanner_only"
+}

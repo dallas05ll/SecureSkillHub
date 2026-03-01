@@ -1,0 +1,27 @@
+{
+  "id": "mcp-nvd-712c8cfa",
+  "name": "mcp-nvd",
+  "description": "An MCP server to query the NIST National Vulnerability Database (NVD)",
+  "repo_url": "https://github.com/marcoeg/mcp-nvd",
+  "source_hub": "mcp_so",
+  "owner": "marcoeg",
+  "stars": 12,
+  "primary_language": "unknown",
+  "tags": [
+    "data",
+    "data-db",
+    "sec"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "568a603946715b7b3d520556841d826d2f73a222",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 9,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:42:34Z",
+  "verification_level": "scanner_only"
+}

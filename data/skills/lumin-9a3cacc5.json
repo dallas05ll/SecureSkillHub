@@ -1,0 +1,25 @@
+{
+  "id": "lumin-9a3cacc5",
+  "name": "lumin",
+  "description": "This is an MCP (Model Context Protocol) server for integrating with Lumin's API services. It allows AI assistants (MCP clients, e.g Claude Desktop, Cursor) to interact with Lumin features such as document management, signature requests, and user information.",
+  "repo_url": "https://github.com/luminpdf/lumin",
+  "source_hub": "mcp_so",
+  "owner": "luminpdf",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp",
+    "integ",
+    "prod-docs",
+    "repo_unavailable"
+  ],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null,
+  "repo_status": "unavailable",
+  "repo_check_date": "2026-02-28T20:51:58.763925+00:00",
+  "repo_check_error": "fatal: could not read Username for 'https://github.com': Device not configured"
+}

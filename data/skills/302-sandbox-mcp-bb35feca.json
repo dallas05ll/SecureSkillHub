@@ -1,0 +1,26 @@
+{
+  "id": "302-sandbox-mcp-bb35feca",
+  "name": "302_sandbox_mcp",
+  "description": "Create a remote sandbox that can execute code/run commands/upload and download files.\n创建远程沙盒，可以执行代码/运行命令/上传下载文件",
+  "repo_url": "https://github.com/302ai/302_sandbox_mcp",
+  "source_hub": "mcp_so",
+  "owner": "302ai",
+  "stars": 21,
+  "primary_language": "unknown",
+  "tags": [
+    "dev",
+    "util-file"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 10,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-25T14:42:32Z",
+  "verification_level": "scanner_only"
+}

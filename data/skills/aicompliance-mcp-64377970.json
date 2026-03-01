@@ -1,0 +1,26 @@
+{
+  "id": "aicompliance-mcp-64377970",
+  "name": "aicompliance_mcp",
+  "description": "An MCP server to answer questions on the original EU AI Act",
+  "repo_url": "https://github.com/thoughtgeek/aicompliance_mcp",
+  "source_hub": "mcp_so",
+  "owner": "thoughtgeek",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "sec-scan"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "742bc058ce6fc2e31632a1049ed1d6018e803261",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 20,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:41Z",
+  "verification_level": "scanner_only"
+}

@@ -1,0 +1,25 @@
+{
+  "id": "ragchatbot-mcpserver-232e95b1",
+  "name": "RagChatbot_MCPServer",
+  "description": "Building an Rag-based HR chatbot for providing rules in workplace with MCP server",
+  "repo_url": "https://github.com/ImVirtue/RagChatbot_MCPServer",
+  "source_hub": "mcp_so",
+  "owner": "ImVirtue",
+  "stars": 6,
+  "primary_language": "unknown",
+  "tags": [
+    "prod-comm"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "249536d242ad52ec6235431577cef4bfc9abc872",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 7,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:54:02Z",
+  "verification_level": "scanner_only"
+}

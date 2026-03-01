@@ -1,0 +1,25 @@
+{
+  "id": "mmnt-mcp-server-086f95a5",
+  "name": "mmnt-mcp-server",
+  "description": "MCP server for Mamont search engine",
+  "repo_url": "https://github.com/zbkm/mmnt-mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "zbkm",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "util-search"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "ac438b17859b84f912ce5f32b3ef11036749bf19",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 14,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:42Z",
+  "verification_level": "scanner_only"
+}

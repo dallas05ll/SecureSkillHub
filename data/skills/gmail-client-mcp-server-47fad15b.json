@@ -1,0 +1,28 @@
+{
+  "id": "gmail-client-mcp-server-47fad15b",
+  "name": "gmail-client-mcp-server",
+  "description": "Acceso de asistentes de IA a Gmail mediante el Model Context Protocol (MCP)",
+  "repo_url": "https://github.com/FranciscoYuster/gmail-client-mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "FranciscoYuster",
+  "stars": 1,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp",
+    "prod-comm",
+    "util-media"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "8610844db4e3dc6e2dc497851a9150b488a2d837",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 3,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:42Z",
+  "verification_level": "scanner_only"
+}

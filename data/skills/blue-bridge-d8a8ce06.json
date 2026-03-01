@@ -1,0 +1,29 @@
+{
+  "id": "blue-bridge-d8a8ce06",
+  "name": "blue-bridge",
+  "description": "Sample prompts and recipes for using Model Context Protocol (MCP) server to query and manage Azure resources — scenarios include Azure Managed Grafana, Azure Data Explorer (Kusto), Azure Resource Graph, Azure Resource Manager and more.",
+  "repo_url": "https://github.com/Azure/blue-bridge",
+  "source_hub": "mcp_so",
+  "owner": "Azure",
+  "stars": 10,
+  "primary_language": "unknown",
+  "tags": [
+    "data",
+    "data-ai",
+    "data-ai-nlp",
+    "integ-cloud",
+    "integ-cloud-azure"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "19345fd4fb0060950540f80b35d5398affd0886f",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 4,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:42:34Z",
+  "verification_level": "scanner_only"
+}

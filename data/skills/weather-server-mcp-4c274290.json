@@ -1,0 +1,25 @@
+{
+  "id": "weather-server-mcp-4c274290",
+  "name": "weather-server-mcp",
+  "description": "A server that can be used to call function that give current weather status in Claude Desktop. Following this tutorial:",
+  "repo_url": "https://github.com/aashimajaiswal/weather-server-mcp",
+  "source_hub": "mcp_so",
+  "owner": "aashimajaiswal",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "523670b8e1c587f4574d1cdcd468482f913a86c6",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 4,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:43:00Z",
+  "verification_level": "scanner_only"
+}

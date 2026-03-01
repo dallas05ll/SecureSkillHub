@@ -1,0 +1,30 @@
+{
+  "id": "claude-equity-research-10a10303",
+  "name": "claude-equity-research",
+  "description": "Claude Code plugin for institutional-grade equity research. Generates professional buy/sell/hold recommendations with fundamental analysis, technical indicators, and risk assessment. Educational use only - not financial advice.",
+  "repo_url": "https://github.com/quant-sentiment-ai/claude-equity-research",
+  "source_hub": "github_search",
+  "skill_type": "agent_skill",
+  "owner": "quant-sentiment-ai",
+  "stars": 315,
+  "forks": 0,
+  "license": "mit",
+  "primary_language": "Markdown",
+  "tags": [
+    "data-ai",
+    "dev",
+    "util-search"
+  ],
+  "verification_status": "pass",
+  "overall_score": 68,
+  "risk_level": "medium",
+  "verified_commit": null,
+  "scan_summary": null,
+  "findings_summary": {
+    "notes": "Repository confirmed (315 stars, MIT, created Sep 2025). Contains .claude-plugin/marketplace.json and commands/ directory with trading-ideas.md. No code execution required - purely declarative prompts. SECURITY.md present. Concern: org 'quant-sentiment-ai' has no listed forks (0) despite 315 stars, which is unusual and may indicate star inflation. Financial content classification warrants noting: plugin makes buy/sell recommendations that could mislead users despite disclaimer. Primary language reported as None by GitHub (no code files), all markdown. No malicious patterns found but financial advice risk category applies."
+  },
+  "last_updated": "2026-02-25T14:12:17Z",
+  "trust_level": "low",
+  "scan_date": "2026-02-26T02:21:27Z",
+  "verification_level": "scanner_only"
+}

@@ -1,0 +1,26 @@
+{
+  "id": "remote-mcp-functions-1d440d0a",
+  "name": "remote-mcp-functions",
+  "description": "Landing page for Remote MCP Server efforts in Azure Functions with links to all language stack specific repos.",
+  "repo_url": "https://github.com/Azure-Samples/remote-mcp-functions",
+  "source_hub": "mcp_so",
+  "owner": "Azure-Samples",
+  "stars": 110,
+  "primary_language": "unknown",
+  "tags": [
+    "integ-cloud",
+    "integ-cloud-azure"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "e203f8afdcf068f3416c116e3dd85af8e709ab04",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 4,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-27T06:40:44Z",
+  "verification_level": "scanner_only"
+}

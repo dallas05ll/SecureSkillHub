@@ -1,0 +1,24 @@
+{
+  "id": "engine-openapi-mcp-01ff67fa",
+  "name": "engine-openapi-mcp",
+  "description": "提供了一系列用于神岛引擎的 OpenAPI MCP (Model Context Protocol) 工具，帮助 AI 更高效地调用引擎接口。",
+  "repo_url": "https://github.com/神岛实验室/engine-openapi-mcp",
+  "source_hub": "mcp_so",
+  "owner": "神岛实验室",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp",
+    "integ",
+    "repo_unavailable"
+  ],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null,
+  "repo_status": "unavailable",
+  "repo_check_date": "2026-02-28T20:51:39.386588+00:00",
+  "repo_check_error": "remote: Repository not found.\nfatal: repository 'https://github.com/神岛实验室/engine-openapi-mcp/' not found"
+}

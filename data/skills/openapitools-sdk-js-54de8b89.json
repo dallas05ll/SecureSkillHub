@@ -1,0 +1,28 @@
+{
+  "id": "openapitools-sdk-js-54de8b89",
+  "name": "openapitools-sdk-js",
+  "description": "Your APIs, Now AI Tools. Build mcp servers in a minute.",
+  "repo_url": "https://github.com/kvssankar/openapitools-sdk-js",
+  "source_hub": "mcp_so",
+  "owner": "kvssankar",
+  "stars": 1,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "dev",
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "f6e50e19717b2d895ff36693b60e89187bc9b9f0",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 22,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:42Z",
+  "verification_level": "scanner_only"
+}

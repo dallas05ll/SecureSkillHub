@@ -1,0 +1,27 @@
+{
+  "id": "mongo-mcp-887b205c",
+  "name": "mongo-mcp",
+  "description": "A mongo db server for the model context protocol (MCP)",
+  "repo_url": "https://github.com/QuantGeekDev/mongo-mcp",
+  "source_hub": "mcp_so",
+  "owner": "QuantGeekDev",
+  "stars": 174,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp",
+    "data-db"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "8bf10970b878be089d417c545c01f5be88b1ded5",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 20,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-27T06:36:35Z",
+  "verification_level": "scanner_only"
+}

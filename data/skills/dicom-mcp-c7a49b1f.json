@@ -1,0 +1,26 @@
+{
+  "id": "dicom-mcp-c7a49b1f",
+  "name": "dicom-mcp",
+  "description": "Model Context Protocol (MCP) for interacting with dicom servers (PACS etc.)",
+  "repo_url": "https://github.com/ChristianHinge/dicom-mcp",
+  "source_hub": "mcp_so",
+  "owner": "ChristianHinge",
+  "stars": 82,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "955fc5168410a22509ae11dc21852d8f7719e770",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 19,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-27T06:40:44Z",
+  "verification_level": "scanner_only"
+}

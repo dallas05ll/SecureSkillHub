@@ -1,0 +1,27 @@
+{
+  "id": "sketchfab-mcp-server-15d2c041",
+  "name": "sketchfab-mcp-server",
+  "description": "This is an MCP (Model Context Protocol) Server for discovering and downloading 3D models",
+  "repo_url": "https://github.com/gregkop/sketchfab-mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "gregkop",
+  "stars": 28,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp",
+    "util-file"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "e5969ef8588d0a47a8c5a0341903f3efacb74b3b",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 6,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:32:12Z",
+  "verification_level": "scanner_only"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "futuur-mcp-7fcf8fbf",
+  "name": "Futuur-MCP",
+  "description": "Futuur API MCP Integration is a powerful TypeScript-based server that implements the Model Context Protocol (MCP) for seamless integration with the Futuur API. This project provides a robust interface for handling market data, categories, user information, and betting operations.",
+  "repo_url": "https://github.com/futuur/Futuur-MCP",
+  "source_hub": "mcp_so",
+  "owner": "futuur",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "data",
+    "data-ai",
+    "data-ai-nlp",
+    "integ"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "71693e52bcf797d6d3e6bbd920082ee5190d4209",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 27,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:41Z",
+  "verification_level": "scanner_only"
+}

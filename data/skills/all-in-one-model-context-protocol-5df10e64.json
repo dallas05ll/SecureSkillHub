@@ -1,0 +1,34 @@
+{
+  "id": "all-in-one-model-context-protocol-5df10e64",
+  "name": "all-in-one-model-context-protocol",
+  "description": "🚀 All-in-one MCP server with AI search, RAG, and multi-service integrations (GitLab/Jira/Confluence/YouTube) for AI-enhanced development workflows",
+  "repo_url": "https://github.com/nguyenvanduocit/all-in-one-model-context-protocol",
+  "source_hub": "mcp_so",
+  "owner": "nguyenvanduocit",
+  "stars": 98,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp",
+    "dev-git",
+    "integ",
+    "integ-social",
+    "prod",
+    "prod-docs",
+    "prod-pm",
+    "util-media",
+    "util-search"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "342c09febf99330cc1e60fba0d5c104411781159",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 1,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-27T06:40:44Z",
+  "verification_level": "scanner_only"
+}

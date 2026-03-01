@@ -1,0 +1,25 @@
+{
+  "id": "rambling-thought-trail-b0142fa3",
+  "name": "Rambling-Thought-Trail",
+  "description": "Taking the sequential thinking mcp server and prodding it onwards.",
+  "repo_url": "https://github.com/prdnr/Rambling-Thought-Trail",
+  "source_hub": "mcp_so",
+  "owner": "prdnr",
+  "stars": 1,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "4f229c97b2f3a71e82538ec907503b215509a19b",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 1,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:40Z",
+  "verification_level": "scanner_only"
+}

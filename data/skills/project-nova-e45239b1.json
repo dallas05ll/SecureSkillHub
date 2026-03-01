@@ -1,0 +1,32 @@
+{
+  "id": "project-nova-e45239b1",
+  "name": "project-nova",
+  "description": "A multi-agent AI architecture that connects 25+ specialized agents through n8n and MCP servers. Project NOVA routes requests to domain-specific experts, enabling control of applications from knowledge bases to DAWs, home automation to development tools. Includes system prompts, Dockerfiles, and workflows for a complete AI assistant ecosystem.",
+  "repo_url": "https://github.com/PradeepaRW/project-nova",
+  "source_hub": "mcp_so",
+  "owner": "PradeepaRW",
+  "stars": 28,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "dev-devops-docker",
+    "integ",
+    "integ-cloud",
+    "integ-cloud-aws",
+    "prod",
+    "util",
+    "util-file"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "a2c1638a3fa29b1cd5438eb9e37d05f39f405263",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 161,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:32:11Z",
+  "verification_level": "scanner_only"
+}

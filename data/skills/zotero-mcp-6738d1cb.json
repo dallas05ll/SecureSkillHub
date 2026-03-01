@@ -1,0 +1,27 @@
+{
+  "id": "zotero-mcp-6738d1cb",
+  "name": "zotero_mcp",
+  "description": "Support connecting zotero via MCP, with custom server and client, without the need for tools like the Claude app, Cursor, etc.",
+  "repo_url": "https://github.com/LRriver/zotero_mcp",
+  "source_hub": "mcp_so",
+  "owner": "LRriver",
+  "stars": 5,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "c1d19c8f6223c00037a91582ffe8d455262b492c",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 6,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:54:02Z",
+  "verification_level": "scanner_only"
+}

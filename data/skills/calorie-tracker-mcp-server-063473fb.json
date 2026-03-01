@@ -1,0 +1,28 @@
+{
+  "id": "calorie-tracker-mcp-server-063473fb",
+  "name": "calorie-tracker-mcp-server",
+  "description": "MCP server for tracking daily calorie intake with accurate BMR/TDEE calculations. Built on Cloudflare Workers with D1 database.",
+  "repo_url": "https://github.com/thitiph0n/calorie-tracker-mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "thitiph0n",
+  "stars": 3,
+  "primary_language": "unknown",
+  "tags": [
+    "data",
+    "data-ai",
+    "data-db",
+    "integ-cloud"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "e5f7c3b753f229363b3c6e82a8457773ecc4b98d",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 47,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:04:51Z",
+  "verification_level": "scanner_only"
+}

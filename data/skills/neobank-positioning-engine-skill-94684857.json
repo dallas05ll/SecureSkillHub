@@ -1,0 +1,24 @@
+{
+  "id": "neobank-positioning-engine-skill-94684857",
+  "name": "Neobank-Positioning-Engine-Skill",
+  "description": "",
+  "repo_url": "https://github.com/growgami/Neobank-Positioning-Engine-Skill",
+  "source_hub": "github_search",
+  "skill_type": "agent_skill",
+  "owner": "growgami",
+  "stars": 0,
+  "license": "mit",
+  "primary_language": "markdown",
+  "tags": [],
+  "verification_status": "manual_review",
+  "overall_score": 68,
+  "risk_level": "medium",
+  "verified_commit": null,
+  "scan_summary": null,
+  "last_updated": "2026-02-21T20:57:23Z",
+  "findings_summary": {
+    "notes": "Metadata-based verification. Score=68. Signals: stars=0 (-10); license='mit' (+5); owner='growgami' (+3); primary_language='markdown'; source_hub='github_search'. Status: manual_review. Risk: medium."
+  },
+  "trust_level": "low",
+  "scan_date": "2026-02-26T06:14:56Z"
+}

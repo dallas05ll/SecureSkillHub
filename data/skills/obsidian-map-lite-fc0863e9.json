@@ -1,0 +1,26 @@
+{
+  "id": "obsidian-map-lite-fc0863e9",
+  "name": "obsidian-map-lite",
+  "description": "A TypeScript-based MCP server for Obsidian, providing a simple interface to interact with Obsidian vaults.",
+  "repo_url": "https://github.com/yokarilight/obsidian-map-lite",
+  "source_hub": "mcp_so",
+  "owner": "yokarilight",
+  "stars": 1,
+  "primary_language": "unknown",
+  "tags": [
+    "prod-docs",
+    "util-map"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "7dd4213946bc023cca00f58c16a7c626f0bb786a",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 9,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:40Z",
+  "verification_level": "scanner_only"
+}

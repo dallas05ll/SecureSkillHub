@@ -1,0 +1,27 @@
+{
+  "id": "arxiv-search-mcp-server-4a71c04a",
+  "name": "arxiv-search-MCP-Server",
+  "description": "A Model Context Protocol server for searching academic papers on arXiv.",
+  "repo_url": "https://github.com/win4r/arxiv-search-MCP-Server",
+  "source_hub": "mcp_so",
+  "owner": "win4r",
+  "stars": 7,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp",
+    "util-search"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "400b278e2dc75434fff82247ee621698f4f578a1",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 5,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:54:02Z",
+  "verification_level": "scanner_only"
+}

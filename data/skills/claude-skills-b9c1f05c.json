@@ -1,0 +1,38 @@
+{
+  "id": "claude-skills-b9c1f05c",
+  "name": "claude-skills",
+  "description": "66 specialized skills across 12 categories for full-stack developers using Claude Code, including backend, frontend, infrastructure, security, DevOps, and data/ML. Also includes 9 project workflow commands and context engineering tools. Installable via Claude Code plugin marketplace.",
+  "repo_url": "https://github.com/jezweb/claude-skills",
+  "source_hub": "github_search",
+  "skill_type": "agent_skill",
+  "owner": "jezweb",
+  "stars": 538,
+  "license": "mit",
+  "primary_language": "python",
+  "tags": [
+    "data",
+    "data-ai",
+    "data-ai-nlp",
+    "dev",
+    "prod",
+    "sec",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 82,
+  "risk_level": "low",
+  "verified_commit": null,
+  "scan_summary": null,
+  "last_updated": "2026-02-25T12:17:53Z",
+  "findings_summary": {
+    "has_readme": true,
+    "has_security_policy": false,
+    "has_mcp_server": false,
+    "dangerous_patterns": [],
+    "notes": "Well-maintained individual developer project with strong community adoption. 3738 stars, 225 forks, 30 contributors, active CI with GitHub Actions. MIT licensed. Version 0.4.9 with changelog and full documentation site. Contains CONTRIBUTING.md, QUICKSTART.md, and skills documentation. No SECURITY.md present. Primary language confirmed as Python with markdown skills. Uses Claude Code plugin marketplace (.claude-plugin/marketplace.json). No dangerous patterns detected - skills are markdown prompt files, workflow commands are standard slash commands. Requires Atlassian MCP server for workflow features (optional). Strong commit signing policy (web_commit_signoff_required: true). Minor deductions for missing security policy and solo ownership."
+  },
+  "duplicate_of": "claude-skills-57ac0418",
+  "trust_level": "low",
+  "scan_date": "2026-02-25T23:13:52Z",
+  "verification_level": "scanner_only"
+}

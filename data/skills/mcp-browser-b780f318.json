@@ -1,0 +1,27 @@
+{
+  "id": "mcp-browser-b780f318",
+  "name": "mcp-browser",
+  "description": "NeoForge Browser MCP server - used to test the frontend",
+  "repo_url": "https://github.com/neoforge-dev/mcp-browser",
+  "source_hub": "mcp_so",
+  "owner": "neoforge-dev",
+  "stars": 2,
+  "primary_language": "unknown",
+  "tags": [
+    "dev-testing",
+    "dev-web",
+    "util-search"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "8579b875c66ad455a9a5aa2c033a018a18113192",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 54,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:04:51Z",
+  "verification_level": "scanner_only"
+}

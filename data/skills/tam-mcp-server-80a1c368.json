@@ -1,0 +1,28 @@
+{
+  "id": "tam-mcp-server-80a1c368",
+  "name": "TAM-MCP-Server",
+  "description": "A comprehensive **Model Context Protocol (MCP)** server for market sizing analysis, TAM/SAM calculations, and industry research. Built with TypeScript, Express.js, and following the MCP 2024-11-05 specification.",
+  "repo_url": "https://github.com/gvaibhav/TAM-MCP-Server",
+  "source_hub": "mcp_so",
+  "owner": "gvaibhav",
+  "stars": 29,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp",
+    "dev-web-backend-node",
+    "util-search"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "25030aa6f226164ee92c345df5262b5904c7327f",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 173,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:32:11Z",
+  "verification_level": "scanner_only"
+}

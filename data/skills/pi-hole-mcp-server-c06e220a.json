@@ -1,0 +1,22 @@
+{
+  "id": "pi-hole-mcp-server-c06e220a",
+  "name": "pi-hole-mcp-server",
+  "description": "Manage Pi-hole with the power of AI\r\n\r\nA Pi-hole MCP (Model Control Protocol) server implemented in Java that allows AI applications to interact with and\r\nmanage a Pi-hole instance through standard commands.",
+  "repo_url": "https://github.com/JafarKhQ/pi-hole-mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "JafarKhQ",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "repo_unavailable"
+  ],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null,
+  "repo_status": "unavailable",
+  "repo_check_date": "2026-02-28T20:52:43.419911+00:00",
+  "repo_check_error": "fatal: could not read Username for 'https://github.com': Device not configured"
+}

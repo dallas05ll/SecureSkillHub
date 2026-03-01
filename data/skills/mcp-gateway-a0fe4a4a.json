@@ -1,0 +1,25 @@
+{
+  "id": "mcp-gateway-a0fe4a4a",
+  "name": "mcp-gateway",
+  "description": "MCP Gateway and Registry",
+  "repo_url": "https://github.com/aarora79/mcp-gateway",
+  "source_hub": "mcp_so",
+  "owner": "aarora79",
+  "stars": 80,
+  "primary_language": "unknown",
+  "tags": [
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "5ff9d36f6a1f831e96e005bf28ac0af3e8c6d679",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 31,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-27T06:40:44Z",
+  "verification_level": "scanner_only"
+}

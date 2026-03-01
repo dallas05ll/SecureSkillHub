@@ -1,0 +1,25 @@
+{
+  "id": "mcp-all-4ee8aca1",
+  "name": "mcp-all",
+  "description": "Building MCP Servers and Clients with Spring AI",
+  "repo_url": "https://github.com/yyykf/mcp-all",
+  "source_hub": "mcp_so",
+  "owner": "yyykf",
+  "stars": 1,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "618cfee8dde7f094ef98954afc00e07b9d10c474",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 3,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:40Z",
+  "verification_level": "scanner_only"
+}

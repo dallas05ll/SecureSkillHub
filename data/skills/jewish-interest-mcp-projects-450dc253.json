@@ -1,0 +1,26 @@
+{
+  "id": "jewish-interest-mcp-projects-450dc253",
+  "name": "Jewish-Interest-MCP-Projects",
+  "description": "Some MCP (model context protocol) servers which might be of interest to Jewish users",
+  "repo_url": "https://github.com/danielrosehill/Jewish-Interest-MCP-Projects",
+  "source_hub": "mcp_so",
+  "owner": "danielrosehill",
+  "stars": 1,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "969aba92e7689448e762c26d981462da7ecf4d81",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 1,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:41Z",
+  "verification_level": "scanner_only"
+}

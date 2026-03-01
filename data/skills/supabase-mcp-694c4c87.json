@@ -1,0 +1,26 @@
+{
+  "id": "supabase-mcp-694c4c87",
+  "name": "supabase-mcp",
+  "description": "Supabase MCP server created in Python.",
+  "repo_url": "https://github.com/coleam00/supabase-mcp",
+  "source_hub": "mcp_so",
+  "owner": "coleam00",
+  "stars": 189,
+  "primary_language": "unknown",
+  "tags": [
+    "data-db",
+    "dev-web-backend-python"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "fc4229e34a7265d8841a21b8a1044400e12f6363",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 9,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-27T06:36:35Z",
+  "verification_level": "scanner_only"
+}

@@ -1,0 +1,23 @@
+{
+  "id": "swiftui-expert-skill-a242c934",
+  "name": "Swiftui Expert Skill",
+  "description": "Agent skill: swiftui-expert-skill from avdlee/swiftui-agent-skill",
+  "repo_url": "https://github.com/avdlee/swiftui-agent-skill",
+  "source_hub": "skills_sh",
+  "owner": "avdlee",
+  "stars": 6000,
+  "primary_language": "unknown",
+  "tags": [],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "b4d29fba3650f5dde11e331c656e82e7086e8971",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 18,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:54:04Z",
+  "verification_level": "scanner_only"
+}

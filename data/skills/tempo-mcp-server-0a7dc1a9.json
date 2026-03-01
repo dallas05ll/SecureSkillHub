@@ -1,0 +1,26 @@
+{
+  "id": "tempo-mcp-server-0a7dc1a9",
+  "name": "tempo-mcp-server",
+  "description": "An MCP ( Model Context Protocol ) Server for Grafana Tempo",
+  "repo_url": "https://github.com/scottlepp/tempo-mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "scottlepp",
+  "stars": 21,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "f7117e3976305f97ea7803481c63aeadfbcd135c",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 17,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:32:13Z",
+  "verification_level": "scanner_only"
+}

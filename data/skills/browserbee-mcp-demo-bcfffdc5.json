@@ -1,0 +1,26 @@
+{
+  "id": "browserbee-mcp-demo-bcfffdc5",
+  "name": "browserbee-mcp-demo",
+  "description": "Demo MCP servers for BrowserBee",
+  "repo_url": "https://github.com/nalbion/browserbee-mcp-demo",
+  "source_hub": "mcp_so",
+  "owner": "nalbion",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "dev-web",
+    "util-search"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "21cb4815c8986afaed8596fe8f0fe43f973d6805",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 12,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:41Z",
+  "verification_level": "scanner_only"
+}

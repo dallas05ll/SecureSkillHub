@@ -1,0 +1,26 @@
+{
+  "id": "fastmcp-finance-5a7040ab",
+  "name": "FastMCP-Finance",
+  "description": "Built an MCP server for Yahoo Finance",
+  "repo_url": "https://github.com/bharathgaddam1712/FastMCP-Finance",
+  "source_hub": "mcp_so",
+  "owner": "bharathgaddam1712",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "de7d6fed74c3ac729c028b6bc1522fffd1e85992",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 5,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:41Z",
+  "verification_level": "scanner_only"
+}

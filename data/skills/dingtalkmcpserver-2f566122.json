@@ -1,0 +1,25 @@
+{
+  "id": "dingtalkmcpserver-2f566122",
+  "name": "DingTalkMCPServer",
+  "description": "Provide MCP Server private skills for DingTalk AI Agent",
+  "repo_url": "https://github.com/MiechalZhao/DingTalkMCPServer",
+  "source_hub": "mcp_so",
+  "owner": "MiechalZhao",
+  "stars": 2,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "563723fce19e4755b43dd8766a8a5dce3a184968",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 12,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:04:50Z",
+  "verification_level": "scanner_only"
+}

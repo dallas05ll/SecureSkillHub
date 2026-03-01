@@ -1,0 +1,26 @@
+{
+  "id": "watsonx-rag-mcp-server-2369b5e2",
+  "name": "watsonx-rag-mcp-server",
+  "description": "Building a Watsonx.ai Chatbot RAG Server with MCP compatible with Claude Desktop.",
+  "repo_url": "https://github.com/ruslanmv/watsonx-rag-mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "ruslanmv",
+  "stars": 2,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "prod-comm"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "08511bfe3e3941bf72d44202845395152e5e4485",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 12,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:40Z",
+  "verification_level": "scanner_only"
+}

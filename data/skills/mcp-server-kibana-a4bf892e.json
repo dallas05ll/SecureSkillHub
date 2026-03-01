@@ -1,0 +1,25 @@
+{
+  "id": "mcp-server-kibana-a4bf892e",
+  "name": "mcp-server-kibana",
+  "description": "MCP server for Kibana, Access search and manage Kibana in MCP Client.",
+  "repo_url": "https://github.com/TocharianOU/mcp-server-kibana",
+  "source_hub": "mcp_so",
+  "owner": "TocharianOU",
+  "stars": 55,
+  "primary_language": "unknown",
+  "tags": [
+    "util-search"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "31bc2accea9e5f1dd0f1d4e6158ad9b68c0303ee",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 28,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-27T06:40:44Z",
+  "verification_level": "scanner_only"
+}

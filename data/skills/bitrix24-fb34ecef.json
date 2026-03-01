@@ -1,0 +1,25 @@
+{
+  "id": "bitrix24-fb34ecef",
+  "name": "bitrix24",
+  "description": "The Bitrix24 MCP Server is designed to connect external systems to Bitrix24.\r\nIt provides AI agents with standardized access to Bitrix24 features and data via the Model Context Protocol (MCP).\r\n\r\nThe MCP server enables external AI systems to interact with Bitrix24 modules through a single standardized interface. You can connect the Bitrix24 MCP Server to the AI model you already use and manage Bitrix24 directly from it. The MCP server allows actions to be performed and data to be retrieved st...",
+  "repo_url": "https://github.com/Bitrix24/bitrix24",
+  "source_hub": "mcp_so",
+  "owner": "Bitrix24",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "data",
+    "data-ai",
+    "data-ai-nlp",
+    "integ",
+    "repo_unavailable"
+  ],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null,
+  "repo_status": "unavailable",
+  "repo_check_date": "2026-02-28T20:51:23.453796+00:00",
+  "repo_check_error": "fatal: could not read Username for 'https://github.com': Device not configured"
+}

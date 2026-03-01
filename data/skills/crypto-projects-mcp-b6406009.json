@@ -1,0 +1,27 @@
+{
+  "id": "crypto-projects-mcp-b6406009",
+  "name": "crypto-projects-mcp",
+  "description": "An MCP server that provides cryptocurrency project data to AI agents",
+  "repo_url": "https://github.com/kukapay/crypto-projects-mcp",
+  "source_hub": "mcp_so",
+  "owner": "kukapay",
+  "stars": 1,
+  "primary_language": "unknown",
+  "tags": [
+    "data",
+    "data-ai",
+    "sec-crypto"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "6f61003fab80e2d8142d493cb3b589b5c0d01a83",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 3,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:40Z",
+  "verification_level": "scanner_only"
+}

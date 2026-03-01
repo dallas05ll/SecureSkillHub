@@ -1,0 +1,25 @@
+{
+  "id": "powerdrill-mcp-4273799d",
+  "name": "powerdrill-mcp",
+  "description": "The MCP server for Powerdrill API.",
+  "repo_url": "https://github.com/powerdrillai/powerdrill-mcp",
+  "source_hub": "mcp_so",
+  "owner": "powerdrillai",
+  "stars": 12,
+  "primary_language": "unknown",
+  "tags": [
+    "integ"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "98ad13665473c4b4e083eec7f407b845b108f99e",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 14,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:42:36Z",
+  "verification_level": "scanner_only"
+}

@@ -1,0 +1,26 @@
+{
+  "id": "deepseek-thinker-mcp-71a8f60a",
+  "name": "deepseek-thinker-mcp",
+  "description": "A MCP provider Deepseek reasoning content to MCP-enabled AI Clients, like Claude Desktop. Supports access to Deepseek's CoT from the Deepseek API service or a local Ollama server.",
+  "repo_url": "https://github.com/ruixingshi/deepseek-thinker-mcp",
+  "source_hub": "mcp_so",
+  "owner": "ruixingshi",
+  "stars": 67,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "integ"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "d9152ba424bd14422851ac718e02b8ba79f971cc",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 6,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-27T06:40:49Z",
+  "verification_level": "scanner_only"
+}

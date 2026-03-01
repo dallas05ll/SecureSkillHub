@@ -1,0 +1,26 @@
+{
+  "id": "ledger-mate-mcp-server-for-typescript-2be5b4e3",
+  "name": "ledger-mate-mcp-server-for-typescript",
+  "description": "小记 MCP Server for TypeScript",
+  "repo_url": "https://github.com/big-mouth-cn/ledger-mate-mcp-server-for-typescript",
+  "source_hub": "mcp_so",
+  "owner": "big-mouth-cn",
+  "stars": 2,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "7bc3d7a85ac18373056f3f29c2992b776e22a42e",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 6,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:04:50Z",
+  "verification_level": "scanner_only"
+}

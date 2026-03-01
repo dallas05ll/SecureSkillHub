@@ -1,0 +1,22 @@
+{
+  "id": "langchain-mcp-de95989d",
+  "name": "langchain-mcp",
+  "description": "Model Context Protocol tool support for LangChain",
+  "repo_url": "https://github.com/rectalogic/langchain-mcp",
+  "source_hub": "mcp_so",
+  "owner": "rectalogic",
+  "stars": 205,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 100,
+  "risk_level": "info",
+  "verified_commit": "dfa5b6b396bd5209ca36295b26c7eed865555c39",
+  "scan_summary": null,
+  "scan_date": "2026-02-27T06:14:40Z",
+  "verification_level": "scanner_only"
+}

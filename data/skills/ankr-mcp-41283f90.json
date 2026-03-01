@@ -1,0 +1,25 @@
+{
+  "id": "ankr-mcp-41283f90",
+  "name": "ankr-mcp",
+  "description": "MCP server for Ankr APIs",
+  "repo_url": "https://github.com/akki91/ankr-mcp",
+  "source_hub": "mcp_so",
+  "owner": "akki91",
+  "stars": 1,
+  "primary_language": "unknown",
+  "tags": [
+    "integ"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "7edd5fe1635f336ca85e495bdb8838159fd25d7f",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 8,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:41Z",
+  "verification_level": "scanner_only"
+}

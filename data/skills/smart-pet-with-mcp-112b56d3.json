@@ -1,0 +1,26 @@
+{
+  "id": "smart-pet-with-mcp-112b56d3",
+  "name": "smart-pet-with-mcp",
+  "description": "一个桌宠形式的mcp client，可以对接任意mcp server,配合测试的mcp server 开源地址：",
+  "repo_url": "https://github.com/shijianzhong/smart-pet-with-mcp",
+  "source_hub": "mcp_so",
+  "owner": "shijianzhong",
+  "stars": 59,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "49310343e0674d1d2587e0f16d9ab6dcb1811b30",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 685,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-27T06:40:49Z",
+  "verification_level": "scanner_only"
+}

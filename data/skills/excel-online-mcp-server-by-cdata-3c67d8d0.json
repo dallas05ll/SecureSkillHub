@@ -1,0 +1,27 @@
+{
+  "id": "excel-online-mcp-server-by-cdata-3c67d8d0",
+  "name": "excel-online-mcp-server-by-cdata",
+  "description": "This read-only MCP Server allows you to connect to Excel Online data from Claude Desktop through CData JDBC Drivers. Free (beta) read/write servers available at",
+  "repo_url": "https://github.com/CDataSoftware/excel-online-mcp-server-by-cdata",
+  "source_hub": "mcp_so",
+  "owner": "CDataSoftware",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "data",
+    "data-ai",
+    "integ"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "1afff0107da9ef1a1f4de8e6a015a600c08dcfc6",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 1,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:40Z",
+  "verification_level": "scanner_only"
+}

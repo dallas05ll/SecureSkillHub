@@ -1,0 +1,28 @@
+{
+  "id": "code-index-mcp-3fa62a79",
+  "name": "code-index-mcp",
+  "description": "A Model Context Protocol (MCP) server that helps large language models index, search, and analyze code repositories with minimal setup",
+  "repo_url": "https://github.com/johnhuang316/code-index-mcp",
+  "source_hub": "mcp_so",
+  "owner": "johnhuang316",
+  "stars": 792,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp",
+    "dev",
+    "util-search"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 138,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-27T02:26:21Z",
+  "verification_level": "scanner_only"
+}

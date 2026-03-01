@@ -1,0 +1,28 @@
+{
+  "id": "notion-mcp-c7a21807",
+  "name": "notion-mcp",
+  "description": "A Model Context Protocol (MCP) server implementation for Notion integration, providing a standardized interface for interacting with Notion's API.",
+  "repo_url": "https://github.com/ccabanillas/notion-mcp",
+  "source_hub": "mcp_so",
+  "owner": "ccabanillas",
+  "stars": 113,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp",
+    "integ",
+    "prod-docs"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "6871e6e1190dc8f50d09180fa3e71410f592c77f",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 10,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-27T06:40:49Z",
+  "verification_level": "scanner_only"
+}

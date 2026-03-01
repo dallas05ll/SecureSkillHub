@@ -1,0 +1,30 @@
+{
+  "id": "mcp-godo-bd7bae57",
+  "name": "mcp-godo",
+  "description": "Simple mcp server for handling todo lists, for sake of practice and education",
+  "repo_url": "https://github.com/lvturner/mcp-godo",
+  "source_hub": "mcp_so",
+  "owner": "lvturner",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "util",
+    "repo_unavailable"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "9f1efa4bb7d7f87e84b31f19a502bc36f2d1b83c",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 21,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:40Z",
+  "repo_status": "unavailable",
+  "repo_check_date": "2026-02-28T20:52:08.444333+00:00",
+  "repo_check_error": "fatal: could not read Username for 'https://github.com': Device not configured",
+  "verification_level": "scanner_only"
+}

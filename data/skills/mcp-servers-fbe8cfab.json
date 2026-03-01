@@ -1,0 +1,26 @@
+{
+  "id": "mcp-servers-fbe8cfab",
+  "name": "mcp-servers",
+  "description": "Repository for Model Context Protocol Servers",
+  "repo_url": "https://github.com/stefanstranger/mcp-servers",
+  "source_hub": "mcp_so",
+  "owner": "stefanstranger",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "ad5bb1e07e08ad87079ead86b13567b471287a2b",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 1,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:41Z",
+  "verification_level": "scanner_only"
+}

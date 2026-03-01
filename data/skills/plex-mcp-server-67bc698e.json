@@ -1,0 +1,25 @@
+{
+  "id": "plex-mcp-server-67bc698e",
+  "name": "plex-mcp-server",
+  "description": "MCP Server for Plex to allow LLMs to converse with Plex.",
+  "repo_url": "https://github.com/vladimir-tutin/plex-mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "vladimir-tutin",
+  "stars": 91,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "0723c720498c4ab1eaf3a22ffc7b5a451985f0c0",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 15,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-27T06:40:49Z",
+  "verification_level": "scanner_only"
+}

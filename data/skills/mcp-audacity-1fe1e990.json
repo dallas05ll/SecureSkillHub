@@ -1,0 +1,26 @@
+{
+  "id": "mcp-audacity-1fe1e990",
+  "name": "mcp-audacity",
+  "description": "MCP server for Audacity",
+  "repo_url": "https://github.com/An-3/mcp-audacity",
+  "source_hub": "mcp_so",
+  "owner": "An-3",
+  "stars": 18,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "5f9705936cb07551214c8cd9aa07f5cb1f7d9531",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 15,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:42:34Z",
+  "verification_level": "scanner_only"
+}

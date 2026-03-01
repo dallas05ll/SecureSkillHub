@@ -1,0 +1,25 @@
+{
+  "id": "advanced-reason-mcp-022a7618",
+  "name": "advanced-reason-mcp",
+  "description": "Enhanced version of \"Sequential Thinking\" MCP",
+  "repo_url": "https://github.com/Kuon-dev/advanced-reason-mcp",
+  "source_hub": "mcp_so",
+  "owner": "Kuon-dev",
+  "stars": 33,
+  "primary_language": "unknown",
+  "tags": [
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "c8d72e6aab71e461a456685936144544e0d08b0c",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 11,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:32:11Z",
+  "verification_level": "scanner_only"
+}

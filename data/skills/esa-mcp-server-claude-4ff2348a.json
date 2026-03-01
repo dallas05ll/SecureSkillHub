@@ -1,0 +1,26 @@
+{
+  "id": "esa-mcp-server-claude-4ff2348a",
+  "name": "esa-mcp-server-claude",
+  "description": "ESA.io Model Context Protocol server for Claude Desktop",
+  "repo_url": "https://github.com/sou-lab/esa-mcp-server-claude",
+  "source_hub": "mcp_so",
+  "owner": "sou-lab",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "187511fdb4cacb7292ce993756d17688f15d60f1",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 4,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:41Z",
+  "verification_level": "scanner_only"
+}

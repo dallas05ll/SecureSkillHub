@@ -1,0 +1,28 @@
+{
+  "id": "naver-search-mcp-85a0190f",
+  "name": "naver-search-mcp",
+  "description": "MCP server for Naver Search API integration. Provides comprehensive search capabilities across Naver services (web, news, blog, shopping, etc) and data trend analysis tools via DataLab API.",
+  "repo_url": "https://github.com/isnow890/naver-search-mcp",
+  "source_hub": "mcp_so",
+  "owner": "isnow890",
+  "stars": 57,
+  "primary_language": "unknown",
+  "tags": [
+    "data",
+    "integ",
+    "util",
+    "util-search"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "7aa0222c0547d284e6f0c6dfc046a9bb3d91dd9f",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 23,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-27T06:40:44Z",
+  "verification_level": "scanner_only"
+}

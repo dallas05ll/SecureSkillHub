@@ -1,0 +1,25 @@
+{
+  "id": "mcp-persona-sessions-2ef55b7c",
+  "name": "mcp-persona-sessions",
+  "description": "MCP server for persona-driven AI sessions: practice interviews, conduct guided reflection, and role-play conversations with realistic personas",
+  "repo_url": "https://github.com/mattjoyce/mcp-persona-sessions",
+  "source_hub": "mcp_so",
+  "owner": "mattjoyce",
+  "stars": 8,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "08f7ac087387a189ac752f495b6c53fc877cf16a",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 10,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:42:34Z",
+  "verification_level": "scanner_only"
+}

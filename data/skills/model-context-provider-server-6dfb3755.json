@@ -1,0 +1,26 @@
+{
+  "id": "model-context-provider-server-6dfb3755",
+  "name": "model-context-provider-server",
+  "description": "Built a MCP server for learning purpose",
+  "repo_url": "https://github.com/bizprat/model-context-provider-server",
+  "source_hub": "mcp_so",
+  "owner": "bizprat",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "acb15c64c63283f1e4646abb7bf5134feca8205c",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 6,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:42Z",
+  "verification_level": "scanner_only"
+}

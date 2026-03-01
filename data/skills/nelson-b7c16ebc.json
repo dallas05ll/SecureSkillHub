@@ -1,0 +1,30 @@
+{
+  "id": "nelson-b7c16ebc",
+  "name": "nelson",
+  "description": "Coordinate agent teams in Claude Code using a Royal Navy inspired command structure and operating procedures. Provides structured sailing orders, battle plans, action stations, and a captain's log to manage complex tasks from single-session work through to multi-agent squadrons.",
+  "repo_url": "https://github.com/harrymunro/nelson",
+  "source_hub": "github_search",
+  "skill_type": "agent_skill",
+  "owner": "harrymunro",
+  "stars": 169,
+  "forks": 13,
+  "license": "MIT",
+  "primary_language": "Python",
+  "tags": [
+    "data-ai",
+    "dev",
+    "prod-pm"
+  ],
+  "verification_status": "pass",
+  "overall_score": 88,
+  "risk_level": "low",
+  "verified_commit": null,
+  "scan_summary": "Well-structured multi-agent coordination skill with clean SKILL.md, MIT license, linting/lint configs, no executable scripts with dangerous patterns. Contains check-references.sh and count-tokens.py helper scripts that are benign. Uses established plugin marketplace format. No hooks, no network calls, no credential handling. Reference files are pure Markdown templates.",
+  "findings_summary": {
+    "notes": "Clean, well-documented skill with clear multi-agent workflow structure. Markdown-only skill content with reference templates. Helper scripts are read-only/informational. No security concerns identified. Minor: no pinned dependencies, Python helper is bundled but only reads local files."
+  },
+  "last_updated": "2026-02-25T17:21:00Z",
+  "trust_level": "low",
+  "scan_date": "2026-02-26T02:22:41Z",
+  "verification_level": "scanner_only"
+}

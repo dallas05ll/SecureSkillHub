@@ -1,0 +1,26 @@
+{
+  "id": "system-information-mcp-0cf1372f",
+  "name": "system_information_mcp",
+  "description": "DevEnvInfoServer - Cursor MCP Server for Development Environment Information",
+  "repo_url": "https://github.com/carterlasalle/system_information_mcp",
+  "source_hub": "mcp_so",
+  "owner": "carterlasalle",
+  "stars": 7,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "58fc9c2881547f2ddd12588849aa548b86f512fb",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 4,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:54:02Z",
+  "verification_level": "scanner_only"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "employeemcpserver-88a5b11a",
+  "name": "employeemcpserver",
+  "description": "Spring ai, mcp server, aws bedrock, pg vectore store. mcp using sync SSE transport.",
+  "repo_url": "https://github.com/alokkulkarni/employeemcpserver",
+  "source_hub": "mcp_so",
+  "owner": "alokkulkarni",
+  "stars": 1,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-db-vector",
+    "integ-cloud",
+    "integ-cloud-aws"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "aea738f6eb7f9f049bb82b33e6bf2840ef0ae007",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 2,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:40Z",
+  "verification_level": "scanner_only"
+}

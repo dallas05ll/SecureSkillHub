@@ -1,0 +1,26 @@
+{
+  "id": "pokemon-mcp-b70078f4",
+  "name": "pokemon-mcp",
+  "description": "MCP server for pokemon information",
+  "repo_url": "https://github.com/Zenith-Mind/pokemon-mcp",
+  "source_hub": "mcp_so",
+  "owner": "Zenith-Mind",
+  "stars": 5,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "9484505568b0402a40fb403247654eee4dcbf76c",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 13,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:54:02Z",
+  "verification_level": "scanner_only"
+}

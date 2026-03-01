@@ -1,0 +1,28 @@
+{
+  "id": "mcp-hetzner-4cd2b628",
+  "name": "mcp-hetzner",
+  "description": "A Model Context Protocol (MCP) server for interacting with the Hetzner Cloud API. This server allows language models to manage Hetzner Cloud resources through structured functions.",
+  "repo_url": "https://github.com/dkruyt/mcp-hetzner",
+  "source_hub": "mcp_so",
+  "owner": "dkruyt",
+  "stars": 81,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp",
+    "integ",
+    "integ-cloud"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "aedcffb5025dc67cb3b71f6586d3869f8855d788",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 8,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-27T06:40:44Z",
+  "verification_level": "scanner_only"
+}

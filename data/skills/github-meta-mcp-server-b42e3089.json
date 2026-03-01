@@ -1,0 +1,25 @@
+{
+  "id": "github-meta-mcp-server-b42e3089",
+  "name": "github-meta-mcp-server",
+  "description": "An MCP server that enables natural language commands for managing GitHub repositories",
+  "repo_url": "https://github.com/PoliTwit1984/github-meta-mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "PoliTwit1984",
+  "stars": 1,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai-nlp"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "bee5484266ba3a749899fddbe46f74474bfb90e8",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 5,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:41Z",
+  "verification_level": "scanner_only"
+}

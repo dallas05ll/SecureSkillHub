@@ -1,0 +1,25 @@
+{
+  "id": "financialassistant-566bee42",
+  "name": "FinancialAssistant",
+  "description": "Financial MultiAgent Colaboration with MCP Server with Tools",
+  "repo_url": "https://github.com/nielsenfonseca/FinancialAssistant",
+  "source_hub": "mcp_so",
+  "owner": "nielsenfonseca",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "6048ee5c0e6566853b61dc94fa3beca452f80378",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 11,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:41Z",
+  "verification_level": "scanner_only"
+}

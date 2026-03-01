@@ -1,0 +1,26 @@
+{
+  "id": "mcp-token-analyzer-a53451d7",
+  "name": "mcp-token-analyzer",
+  "description": "MCP Server for Analyzing Tokens using the Coin Gecko API. Includes RSI, EMA, MACD, Bollinger Bands, Golden-Cross and Death-Cross.",
+  "repo_url": "https://github.com/Charged-Particles/mcp-token-analyzer",
+  "source_hub": "mcp_so",
+  "owner": "Charged-Particles",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "sec-crypto"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "b3260e33cb734d55fcd11ffc37491db5c0f85f92",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 5,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:41Z",
+  "verification_level": "scanner_only"
+}

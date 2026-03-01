@@ -1,0 +1,26 @@
+{
+  "id": "mcp-servers-d56d970d",
+  "name": "mcp-servers",
+  "description": "服务器管理仓库",
+  "repo_url": "https://github.com/fist-maestro/mcp-servers",
+  "source_hub": "mcp_so",
+  "owner": "fist-maestro",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "eecd837b0af318455555027c3559f95697f7fc2c",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 22,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:40Z",
+  "verification_level": "scanner_only"
+}

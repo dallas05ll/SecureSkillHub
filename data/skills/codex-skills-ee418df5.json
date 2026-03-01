@@ -1,0 +1,27 @@
+{
+  "id": "codex-skills-ee418df5",
+  "name": "codex-skills",
+  "description": "🛠️ Discover and manage personal Codex CLI skills with ease, organizing them in a simple catalog for quick access and efficient use.",
+  "repo_url": "https://github.com/lancenunes/codex-skills",
+  "source_hub": "github_search",
+  "skill_type": "agent_skill",
+  "owner": "lancenunes",
+  "stars": 4,
+  "license": "mit",
+  "primary_language": "markdown",
+  "tags": [
+    "dev"
+  ],
+  "verification_status": "pass",
+  "overall_score": 78,
+  "risk_level": "medium",
+  "verified_commit": null,
+  "scan_summary": null,
+  "last_updated": "2026-02-25T12:15:04Z",
+  "findings_summary": {
+    "notes": "Metadata-based verification. Score=78. Signals: stars=4; license='mit' (+5); owner='lancenunes' (+3); primary_language='markdown'; source_hub='github_search'. Status: pass. Risk: medium."
+  },
+  "trust_level": "low",
+  "scan_date": "2026-02-26T06:14:56Z",
+  "verification_level": "metadata_only"
+}

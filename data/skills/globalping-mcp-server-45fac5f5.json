@@ -1,0 +1,25 @@
+{
+  "id": "globalping-mcp-server-45fac5f5",
+  "name": "globalping-mcp-server",
+  "description": "Remote MCP server that gives LLMs access to run network commands",
+  "repo_url": "https://github.com/jsdelivr/globalping-mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "jsdelivr",
+  "stars": 46,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "2ff38918769a4d0676246c654fb8ca971204b9fa",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 42,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:32:11Z",
+  "verification_level": "scanner_only"
+}

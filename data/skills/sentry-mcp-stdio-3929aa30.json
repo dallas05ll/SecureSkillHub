@@ -1,0 +1,27 @@
+{
+  "id": "sentry-mcp-stdio-3929aa30",
+  "name": "sentry-mcp-stdio",
+  "description": "Model Context Protocol (MCP) server for Sentry",
+  "repo_url": "https://github.com/getsentry/sentry-mcp-stdio",
+  "source_hub": "mcp_so",
+  "owner": "getsentry",
+  "stars": 8,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp",
+    "util-monitor"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "d527a093261c26b01360b9ce2b5b4aeb23d673b7",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 7,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:54:02Z",
+  "verification_level": "scanner_only"
+}

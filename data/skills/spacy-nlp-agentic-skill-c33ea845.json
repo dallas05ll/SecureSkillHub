@@ -1,0 +1,29 @@
+{
+  "id": "spacy-nlp-agentic-skill-c33ea845",
+  "name": "spacy-nlp-agentic-skill",
+  "description": "Claude Code plugin for NLP with spaCy 3.x - entity extraction, classification, batch processing",
+  "repo_url": "https://github.com/SpillwaveSolutions/spacy-nlp-agentic-skill",
+  "source_hub": "github_search",
+  "skill_type": "agent_skill",
+  "owner": "SpillwaveSolutions",
+  "stars": 1,
+  "license": "",
+  "primary_language": "markdown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp",
+    "dev"
+  ],
+  "verification_status": "pass",
+  "overall_score": 73,
+  "risk_level": "medium",
+  "verified_commit": null,
+  "scan_summary": null,
+  "last_updated": "2026-01-17T05:23:45Z",
+  "findings_summary": {
+    "notes": "Metadata-based verification. Score=73. Signals: stars=1; no license detected; owner='SpillwaveSolutions' (+3); primary_language='markdown'; source_hub='github_search'. Status: pass. Risk: medium."
+  },
+  "trust_level": "low",
+  "scan_date": "2026-02-26T06:14:56Z",
+  "verification_level": "metadata_only"
+}

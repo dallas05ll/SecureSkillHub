@@ -1,0 +1,25 @@
+{
+  "id": "octagon-financial-statements-mcp-8c997b18",
+  "name": "octagon-financial-statements-mcp",
+  "description": "The Octagon Financial Statements MCP server provides specialized AI-powered financial statement analysis capabilities by integrating with advanced financial analysis agents. Covers over 8,000 public companies with comprehensive analysis of income statements, balance sheets, cash flow statements, financial ratios, and analysts' estimates.",
+  "repo_url": "https://github.com/OctagonAI/octagon-financial-statements-mcp",
+  "source_hub": "mcp_so",
+  "owner": "OctagonAI",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "19e79d409b1db1ac72b72c060de10cf33463857d",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 7,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:41Z",
+  "verification_level": "scanner_only"
+}

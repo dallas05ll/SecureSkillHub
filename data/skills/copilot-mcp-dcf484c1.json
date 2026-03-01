@@ -1,0 +1,30 @@
+{
+  "id": "copilot-mcp-dcf484c1",
+  "name": "copilot-mcp",
+  "description": "A VS Code extension that lets users discover, install, and manage MCP servers and Agent Skills for use with GitHub Copilot, Claude Code, and Codex CLI. Provides a sidebar UI and chat participant interface for MCP server management.",
+  "repo_url": "https://github.com/VikashLoomba/copilot-mcp",
+  "source_hub": "github_search",
+  "skill_type": "agent_skill",
+  "owner": "VikashLoomba",
+  "stars": 468,
+  "forks": 51,
+  "license": "gpl-3.0",
+  "primary_language": "typescript",
+  "tags": [
+    "data-ai",
+    "dev",
+    "prod-comm"
+  ],
+  "verification_status": "pass",
+  "overall_score": 65,
+  "risk_level": "medium",
+  "verified_commit": null,
+  "scan_summary": null,
+  "last_updated": "2026-02-25T10:02:12Z",
+  "findings_summary": {
+    "notes": "This is a VS Code extension rather than a traditional agent skill SKILL.md. It has no SKILL.md file — instead it provides Claude Code commands in .claude/commands/ and a CLAUDE.md for developer guidance. The extension has full TypeScript source available. Key concern: the extension.ts initializes an Azure Application Insights telemetry reporter with a hardcoded instrumentation key, meaning usage data is sent to AutomataLabs' telemetry endpoint. This is disclosed implicitly by the telemetry code but not prominently highlighted in the README. The extension promotes 'Cloud MCP' (cloudmcp.run), a commercial service. No hooks or scripts that run on the user's machine are present beyond the VS Code extension's normal operation. GPL-3.0 licensed. GitHub Actions workflows include automated Claude code review on PRs. The tool category is better described as a VS Code MCP/skill marketplace tool rather than an agent skill itself. Functional but the telemetry without explicit opt-in is a minor concern."
+  },
+  "trust_level": "low",
+  "scan_date": "2026-02-26T01:23:20Z",
+  "verification_level": "scanner_only"
+}

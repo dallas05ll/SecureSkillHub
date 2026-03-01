@@ -1,0 +1,27 @@
+{
+  "id": "mcp-server-rss3-d792a4fa",
+  "name": "mcp-server-rss3",
+  "description": "rss3 + mcp server = 🪄✨",
+  "repo_url": "https://github.com/RSS3-Network/mcp-server-rss3",
+  "source_hub": "mcp_so",
+  "owner": "RSS3-Network",
+  "stars": 3,
+  "primary_language": "unknown",
+  "tags": [
+    "integ-cloud",
+    "integ-cloud-aws",
+    "util-file"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "766aa39739081e4bf6e86a7679a17f2da474ab23",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 6,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:04:50Z",
+  "verification_level": "scanner_only"
+}

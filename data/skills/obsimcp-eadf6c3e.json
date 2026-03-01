@@ -1,0 +1,27 @@
+{
+  "id": "obsimcp-eadf6c3e",
+  "name": "ObsiMCP",
+  "description": "A obsidian server for the model context protocol (MCP)",
+  "repo_url": "https://github.com/IAMLEIzZ/ObsiMCP",
+  "source_hub": "mcp_so",
+  "owner": "IAMLEIzZ",
+  "stars": 1,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp",
+    "prod-docs"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "c549db874e5394e628cb10c254aa524142b832d4",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 2,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:41Z",
+  "verification_level": "scanner_only"
+}

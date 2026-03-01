@@ -1,0 +1,26 @@
+{
+  "id": "mcp-copilot-55fb3a44",
+  "name": "mcp-copilot",
+  "description": "A Meta MCP server that seamlessly scales LLMs to 1000+ MCP servers through automatic routing.",
+  "repo_url": "https://github.com/tshu-w/mcp-copilot",
+  "source_hub": "mcp_so",
+  "owner": "tshu-w",
+  "stars": 18,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "prod"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "2a945728365215947696b1b28d4a7a96d6abced3",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 12,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:42:34Z",
+  "verification_level": "scanner_only"
+}

@@ -1,0 +1,25 @@
+{
+  "id": "git-commit-84755991",
+  "name": "Git Commit",
+  "description": "Agent skill: git-commit from github/awesome-copilot",
+  "repo_url": "https://github.com/github/awesome-copilot",
+  "source_hub": "skills_sh",
+  "owner": "github",
+  "stars": 3800,
+  "primary_language": "unknown",
+  "tags": [
+    "dev-git"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "4488150e942c231c148e9648b3eda147d5237279",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 1059,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:54:02Z",
+  "verification_level": "scanner_only"
+}

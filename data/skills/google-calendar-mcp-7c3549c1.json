@@ -1,0 +1,25 @@
+{
+  "id": "google-calendar-mcp-7c3549c1",
+  "name": "google-calendar-mcp",
+  "description": "MCP server for google calendar",
+  "repo_url": "https://github.com/surana-mudit/google-calendar-mcp",
+  "source_hub": "mcp_so",
+  "owner": "surana-mudit",
+  "stars": 4,
+  "primary_language": "unknown",
+  "tags": [
+    "prod-calendar"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "eb78431db724925ff7bf1573ce91569a40ba0e26",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 5,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:54:02Z",
+  "verification_level": "scanner_only"
+}

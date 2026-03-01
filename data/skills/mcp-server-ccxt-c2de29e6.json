@@ -1,0 +1,26 @@
+{
+  "id": "mcp-server-ccxt-c2de29e6",
+  "name": "mcp-server-ccxt",
+  "description": "High-performance CCXT MCP server for cryptocurrency exchange integration",
+  "repo_url": "https://github.com/doggybee/mcp-server-ccxt",
+  "source_hub": "mcp_so",
+  "owner": "doggybee",
+  "stars": 129,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "sec-crypto"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "b0b532334a3f37f47d40c439aee505d8853ae3e8",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 20,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-27T06:40:43Z",
+  "verification_level": "scanner_only"
+}

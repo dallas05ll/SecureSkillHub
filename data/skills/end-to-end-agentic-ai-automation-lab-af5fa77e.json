@@ -1,0 +1,40 @@
+{
+  "id": "end-to-end-agentic-ai-automation-lab-af5fa77e",
+  "name": "End-to-End-Agentic-Ai-Automation-Lab",
+  "description": "This repository contains hands-on projects, code examples, and deployment workflows. Explore multi-agent systems, LangChain, LangGraph, CrewAI, RAG, automation with n8n, and scalable agent deployment using Docker, AWS, and BentoML.",
+  "repo_url": "https://github.com/MDalamin5/End-to-End-Agentic-Ai-Automation-Lab",
+  "source_hub": "mcp_so",
+  "owner": "MDalamin5",
+  "stars": 48,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "dev",
+    "dev-devops-docker",
+    "integ-cloud",
+    "integ-cloud-aws",
+    "prod",
+    "repo_unavailable",
+    "status-manual_review"
+  ],
+  "verification_status": "manual_review",
+  "overall_score": 85,
+  "risk_level": "high",
+  "verified_commit": "76c661b2a966bddbe1effd6b4b4ba5c3572eae8d",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 424,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-03-01T05:49:48Z",
+  "verification_level": "scanner_only",
+  "findings_summary": {
+    "error": "clone failed: clone timeout",
+    "supervisor_approved": false,
+    "supervisor_confidence": 0
+  },
+  "repo_status": "unavailable",
+  "repo_check_date": "2026-03-01T05:49:48Z",
+  "repo_check_error": "clone timeout"
+}

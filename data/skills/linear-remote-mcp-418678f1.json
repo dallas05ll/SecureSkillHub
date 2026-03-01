@@ -1,0 +1,27 @@
+{
+  "id": "linear-remote-mcp-418678f1",
+  "name": "linear-remote-mcp",
+  "description": "Remote Model Context Protocol (MCP) server for Linear.",
+  "repo_url": "https://github.com/martinsione/linear-remote-mcp",
+  "source_hub": "mcp_so",
+  "owner": "martinsione",
+  "stars": 17,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp",
+    "prod-pm"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "867577f7ad4e7ed08c898783ae64d128e0a73418",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 16,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:42:36Z",
+  "verification_level": "scanner_only"
+}

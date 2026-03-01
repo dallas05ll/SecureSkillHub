@@ -1,0 +1,28 @@
+{
+  "id": "claude-code-whatsapp-approval-6b8cdc93",
+  "name": "claude-code-whatsapp-approval",
+  "description": "MCP server with Whatsapp integration (Twilio) to remote approve Claude Code tool use",
+  "repo_url": "https://github.com/adstastic/claude-code-whatsapp-approval",
+  "source_hub": "mcp_so",
+  "owner": "adstastic",
+  "stars": 13,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "dev",
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "19307883cd5b14aeed0f6527a77223e420f2a710",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 7,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:42:36Z",
+  "verification_level": "scanner_only"
+}

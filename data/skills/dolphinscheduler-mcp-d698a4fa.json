@@ -1,0 +1,28 @@
+{
+  "id": "dolphinscheduler-mcp-d698a4fa",
+  "name": "dolphinscheduler-mcp",
+  "description": "A Model Context Protocol (MCP) server for Apache Dolphinscheduler. This provides access to your Apache Dolphinshcheduler RESTful API V1 instance and the surrounding ecosystem.",
+  "repo_url": "https://github.com/ocean-zhc/dolphinscheduler-mcp",
+  "source_hub": "mcp_so",
+  "owner": "ocean-zhc",
+  "stars": 19,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp",
+    "integ",
+    "prod-calendar"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "d44f0bd0b3a2f75bca1ecf94264d357e640f083b",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 114,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:42:34Z",
+  "verification_level": "scanner_only"
+}

@@ -1,0 +1,26 @@
+{
+  "id": "mcp-weather-server-f0362138",
+  "name": "mcp-weather-server",
+  "description": "MCP weather server repo",
+  "repo_url": "https://github.com/MSVK1995/mcp-weather-server",
+  "source_hub": "mcp_so",
+  "owner": "MSVK1995",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "648361f90642332e9668171a03dcc42b58b68e24",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 3,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:41Z",
+  "verification_level": "scanner_only"
+}

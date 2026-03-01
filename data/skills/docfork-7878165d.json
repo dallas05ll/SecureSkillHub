@@ -1,0 +1,27 @@
+{
+  "id": "docfork-7878165d",
+  "name": "Docfork",
+  "description": "Provides up-to-date documentation for 9000+ libraries directly in your AI code editor, enabling accurate code suggestions and eliminating outdated information.",
+  "repo_url": "https://github.com/docfork/docfork-mcp",
+  "source_hub": "glama",
+  "owner": "docfork",
+  "stars": 423,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "dev",
+    "prod-docs"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 68,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-25T14:26:46Z",
+  "verification_level": "scanner_only"
+}

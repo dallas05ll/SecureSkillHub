@@ -1,0 +1,26 @@
+{
+  "id": "vito-mcp-124aacd9",
+  "name": "vito-mcp",
+  "description": "A Model Context Protocol (MCP) server implementation for RAG",
+  "repo_url": "https://github.com/hadv/vito-mcp",
+  "source_hub": "mcp_so",
+  "owner": "hadv",
+  "stars": 5,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "20b200cb03e9a36a5164ab64d4524cacc37417cd",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 24,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:54:04Z",
+  "verification_level": "scanner_only"
+}

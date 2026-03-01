@@ -1,0 +1,28 @@
+{
+  "id": "mcp-server-abfbbcfb",
+  "name": "mcp-server",
+  "description": "Model Context Protocol (MCP) server for using the Eyevinn Open Source Cloud API",
+  "repo_url": "https://github.com/EyevinnOSC/mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "EyevinnOSC",
+  "stars": 7,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp",
+    "integ",
+    "integ-cloud"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "4b568beeef7c59c768dab41f0592980c9f6bffcd",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 16,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:54:02Z",
+  "verification_level": "scanner_only"
+}

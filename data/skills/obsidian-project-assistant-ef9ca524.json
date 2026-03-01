@@ -1,0 +1,30 @@
+{
+  "id": "obsidian-project-assistant-ef9ca524",
+  "name": "obsidian-project-assistant",
+  "description": "📓 Claude Code skill and agent for automatic project documentation in Obsidian",
+  "repo_url": "https://github.com/ali5ter/obsidian-project-assistant",
+  "source_hub": "github_search",
+  "skill_type": "agent_skill",
+  "owner": "ali5ter",
+  "stars": 3,
+  "license": "mit",
+  "primary_language": "markdown",
+  "tags": [
+    "data-ai",
+    "dev",
+    "prod",
+    "prod-docs"
+  ],
+  "verification_status": "pass",
+  "overall_score": 78,
+  "risk_level": "medium",
+  "verified_commit": null,
+  "scan_summary": null,
+  "last_updated": "2026-01-31T03:24:08Z",
+  "findings_summary": {
+    "notes": "Metadata-based verification. Score=78. Signals: stars=3; license='mit' (+5); owner='ali5ter' (+3); primary_language='markdown'; source_hub='github_search'. Status: pass. Risk: medium."
+  },
+  "trust_level": "low",
+  "scan_date": "2026-02-26T06:14:56Z",
+  "verification_level": "metadata_only"
+}

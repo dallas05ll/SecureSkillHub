@@ -1,0 +1,25 @@
+{
+  "id": "deepseek-mcp-server-d56e77f6",
+  "name": "deepseek-MCP-server",
+  "description": "MCP server that enhances Claude's reasoning capabilities by integrating DeepSeek R1's advanced reasoning engine",
+  "repo_url": "https://github.com/moyu6027/deepseek-MCP-server",
+  "source_hub": "mcp_so",
+  "owner": "moyu6027",
+  "stars": 1,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "63326383c2a114b88566adb6dfd5aa8de8685857",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 4,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:40Z",
+  "verification_level": "scanner_only"
+}

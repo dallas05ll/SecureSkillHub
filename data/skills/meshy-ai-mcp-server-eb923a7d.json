@@ -1,0 +1,29 @@
+{
+  "id": "meshy-ai-mcp-server-eb923a7d",
+  "name": "meshy-ai-mcp-server",
+  "description": "This is a Model Context Protocol (MCP) server for interacting with the Meshy AI API. It provides tools for generating 3D models from text and images, applying textures, and remeshing models.",
+  "repo_url": "https://github.com/pasie15/meshy-ai-mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "pasie15",
+  "stars": 20,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp",
+    "data-ai-vision",
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "a96836d2b7ad17657e6a6332cd34f2d7806ad6ae",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 7,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:32:11Z",
+  "verification_level": "scanner_only"
+}

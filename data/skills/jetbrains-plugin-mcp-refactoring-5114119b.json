@@ -1,0 +1,25 @@
+{
+  "id": "jetbrains-plugin-mcp-refactoring-5114119b",
+  "name": "jetbrains-plugin-mcp-refactoring",
+  "description": "Jetbrains MCP Server Plugin for Refactoring",
+  "repo_url": "https://github.com/Harineko0/jetbrains-plugin-mcp-refactoring",
+  "source_hub": "mcp_so",
+  "owner": "Harineko0",
+  "stars": 1,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "825b3df30c199efc029f403769a8dcc3f8f02e67",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 4,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:40Z",
+  "verification_level": "scanner_only"
+}

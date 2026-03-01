@@ -1,0 +1,25 @@
+{
+  "id": "mcp-server-searxng-99bf8999",
+  "name": "mcp-server-searxng",
+  "description": "An MCP server implementation that integrates with SearXNG, providing privacy-focused meta search capabilities.",
+  "repo_url": "https://github.com/kevinwatt/mcp-server-searxng",
+  "source_hub": "mcp_so",
+  "owner": "kevinwatt",
+  "stars": 27,
+  "primary_language": "unknown",
+  "tags": [
+    "util-search"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "b915ed0dfc84d2421d2520a192e669b0d5acbe26",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 9,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:32:11Z",
+  "verification_level": "scanner_only"
+}

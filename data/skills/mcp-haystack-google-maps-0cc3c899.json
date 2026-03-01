@@ -1,0 +1,26 @@
+{
+  "id": "mcp-haystack-google-maps-0cc3c899",
+  "name": "mcp-haystack-google-maps",
+  "description": "Demo for using MCP Servers in a Haystack Pipeline",
+  "repo_url": "https://github.com/oryx1729/mcp-haystack-google-maps",
+  "source_hub": "mcp_so",
+  "owner": "oryx1729",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "dev-devops-ci",
+    "util-map"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "1756da8486f96a5c6463a1979c9c772f21f6e698",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 3,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:40Z",
+  "verification_level": "scanner_only"
+}

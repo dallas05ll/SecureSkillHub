@@ -1,0 +1,27 @@
+{
+  "id": "image-builder-mcp-511ebad1",
+  "name": "image-builder-mcp",
+  "description": "An MCP server to connect image-builder to an AI/LLM",
+  "repo_url": "https://github.com/schuellerf/image-builder-mcp",
+  "source_hub": "mcp_so",
+  "owner": "schuellerf",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-vision",
+    "integ"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "c08638571f519b40c19ff6a779e9db20046ffc1f",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 10,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:40Z",
+  "verification_level": "scanner_only"
+}

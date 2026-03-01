@@ -1,0 +1,26 @@
+{
+  "id": "beatport-mcp-server-04440ca1",
+  "name": "beatport-mcp-server",
+  "description": "MCP Server that connects an LLM to the Beatport API",
+  "repo_url": "https://github.com/ivo-toby/beatport-mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "ivo-toby",
+  "stars": 4,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "integ"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "40030ee3873eea1ddae03a1e13c67cf48307c824",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 24,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:54:02Z",
+  "verification_level": "scanner_only"
+}

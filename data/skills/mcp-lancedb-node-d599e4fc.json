@@ -1,0 +1,25 @@
+{
+  "id": "mcp-lancedb-node-d599e4fc",
+  "name": "mcp-LanceDB-node",
+  "description": "LanceDB MCP Server nodejs",
+  "repo_url": "https://github.com/vurtnec/mcp-LanceDB-node",
+  "source_hub": "mcp_so",
+  "owner": "vurtnec",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "dev-web-backend-node"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "46ab4c093d31b9c37ef6c6e84c9c401d742401e9",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 6,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:41Z",
+  "verification_level": "scanner_only"
+}

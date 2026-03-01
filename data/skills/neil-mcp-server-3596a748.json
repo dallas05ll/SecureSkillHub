@@ -1,0 +1,25 @@
+{
+  "id": "neil-mcp-server-3596a748",
+  "name": "neil-mcp-server",
+  "description": "mcp mysql",
+  "repo_url": "https://github.com/ni-shiliu/neil-mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "ni-shiliu",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "data-db"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "c6d547c3d9a4590bbe628bdf623a913ac3c536d8",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 3,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:42Z",
+  "verification_level": "scanner_only"
+}

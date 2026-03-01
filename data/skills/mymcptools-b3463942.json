@@ -1,0 +1,25 @@
+{
+  "id": "mymcptools-b3463942",
+  "name": "myMcpTools",
+  "description": "用于收集常用的MCP工具和学习MCP server开发",
+  "repo_url": "https://github.com/starwu/myMcpTools",
+  "source_hub": "mcp_so",
+  "owner": "starwu",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "9b366af7000df44cabedd5252107cfca47e6778e",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 1,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:40Z",
+  "verification_level": "scanner_only"
+}

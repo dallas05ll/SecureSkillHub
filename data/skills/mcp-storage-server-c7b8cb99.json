@@ -1,0 +1,27 @@
+{
+  "id": "mcp-storage-server-c7b8cb99",
+  "name": "mcp-storage-server",
+  "description": "Storacha MCP storage server - self-sovereign data for your AI applications.",
+  "repo_url": "https://github.com/storacha/mcp-storage-server",
+  "source_hub": "mcp_so",
+  "owner": "storacha",
+  "stars": 12,
+  "primary_language": "unknown",
+  "tags": [
+    "data",
+    "data-ai",
+    "util-file"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "0a339824568e3809b006dc039e2fd0f6b133e3c8",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 43,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:42:34Z",
+  "verification_level": "scanner_only"
+}

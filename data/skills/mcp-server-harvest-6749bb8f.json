@@ -1,0 +1,26 @@
+{
+  "id": "mcp-server-harvest-6749bb8f",
+  "name": "mcp-server-harvest",
+  "description": "MCP (Model Context Protocol) server for Harvest Time Tracking.",
+  "repo_url": "https://github.com/mayank2424/mcp-server-harvest",
+  "source_hub": "mcp_so",
+  "owner": "mayank2424",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "9d2e309b8f61eea556f31b301d9af44880efc247",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 17,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:41Z",
+  "verification_level": "scanner_only"
+}

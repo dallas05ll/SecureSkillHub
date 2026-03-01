@@ -1,0 +1,26 @@
+{
+  "id": "weather-mpc-s-34c375ce",
+  "name": "weather-mpc-s",
+  "description": "My first MCP Server for learning",
+  "repo_url": "https://github.com/bee1194/weather-mpc-s",
+  "source_hub": "mcp_so",
+  "owner": "bee1194",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "0956bfd334d6be40882ec3013f1f14adc0e75a08",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 13,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:43:00Z",
+  "verification_level": "scanner_only"
+}

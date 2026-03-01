@@ -1,0 +1,26 @@
+{
+  "id": "mcp-server-axiom-0fd823a0",
+  "name": "mcp-server-axiom",
+  "description": "An MCP server for Axiom",
+  "repo_url": "https://github.com/zed-extensions/mcp-server-axiom",
+  "source_hub": "mcp_so",
+  "owner": "zed-extensions",
+  "stars": 4,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "c9ce79e89fa72d7621815fc3f6e73990691c15b1",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 4,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:54:04Z",
+  "verification_level": "scanner_only"
+}

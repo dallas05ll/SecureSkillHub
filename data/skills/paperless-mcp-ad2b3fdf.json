@@ -1,0 +1,29 @@
+{
+  "id": "paperless-mcp-ad2b3fdf",
+  "name": "paperless-mcp",
+  "description": "An MCP (Model Context Protocol) server for interacting with a Paperless-NGX API server. This server provides tools for managing documents, tags, correspondents, and document types in your Paperless-NGX instance.",
+  "repo_url": "https://github.com/baruchiro/paperless-mcp",
+  "source_hub": "mcp_so",
+  "owner": "baruchiro",
+  "stars": 63,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp",
+    "integ",
+    "prod-docs",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "5ad68b6b3ea80c7f5701968a177e74352645c7a4",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 25,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-27T06:40:49Z",
+  "verification_level": "scanner_only"
+}

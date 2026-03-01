@@ -1,0 +1,26 @@
+{
+  "id": "mcp-server-8faae1db",
+  "name": "mcp-server",
+  "description": "MCP server for EventCatalog",
+  "repo_url": "https://github.com/event-catalog/mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "event-catalog",
+  "stars": 22,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "be3847d4c99282dabe772b11184295ea2d78655e",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 36,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:32:12Z",
+  "verification_level": "scanner_only"
+}

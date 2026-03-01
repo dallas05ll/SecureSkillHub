@@ -1,0 +1,33 @@
+{
+  "id": "smart-ralph-7e583b67",
+  "name": "smart-ralph",
+  "description": "Spec-driven development Claude Code plugin implementing the Ralph agentic loop pattern. Converts feature ideas into structured specs (research.md, requirements.md, design.md, tasks.md), then executes tasks one-by-one with fresh context per task. Includes PreToolUse, Stop, and SessionStart hooks for loop control.",
+  "repo_url": "https://github.com/tzachbon/smart-ralph",
+  "source_hub": "github_search",
+  "skill_type": "agent_skill",
+  "owner": "tzachbon",
+  "stars": 181,
+  "license": "mit",
+  "primary_language": "Shell",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp",
+    "dev",
+    "prod-pm",
+    "util",
+    "util-search"
+  ],
+  "verification_status": "pass",
+  "overall_score": 82,
+  "risk_level": "low",
+  "verified_commit": null,
+  "scan_summary": null,
+  "last_updated": "2026-02-25T18:22:07Z",
+  "findings_summary": {
+    "notes": "Well-structured spec-driven development plugin (MIT license, Jan 2026). Two plugin directories: ralph-speckit and ralph-specum. The hooks.json for ralph-specum defines three hooks: (1) PreToolUse on AskUserQuestion — runs quick-mode-guard.sh to enforce quick mode behavior, (2) Stop hook — runs stop-watcher.sh as a loop controller that checks for active spec and remaining tasks before allowing the agent to stop, (3) SessionStart — runs load-spec-context.sh to inject spec context. Reviewed stop-watcher.sh: it reads from local files, checks the .claude/ralph-specum.local.md settings file for enabled state, and uses jq to parse input — no network access, no credential handling. Has .agents/, .cursor/, .gemini/ directories for cross-tool compatibility. TROUBLESHOOTING.md present. CLAUDE.md at root. 9 open issues. No dangerous patterns identified. The Stop hook loop controller is legitimate and transparent — it blocks completion only when tasks remain in an active spec."
+  },
+  "verification_date": "2026-02-25",
+  "trust_level": "low",
+  "scan_date": "2026-02-26T02:21:09Z",
+  "verification_level": "scanner_only"
+}

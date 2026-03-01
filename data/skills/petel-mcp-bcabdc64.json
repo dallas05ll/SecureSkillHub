@@ -1,0 +1,26 @@
+{
+  "id": "petel-mcp-bcabdc64",
+  "name": "petel-mcp",
+  "description": "MCP server for teachers accessing PETEL",
+  "repo_url": "https://github.com/nadavkav/petel-mcp",
+  "source_hub": "mcp_so",
+  "owner": "nadavkav",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "96024fecd8906750d7ad45058f5144b2814c6a8c",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 1,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:42Z",
+  "verification_level": "scanner_only"
+}

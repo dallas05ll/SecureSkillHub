@@ -1,0 +1,26 @@
+{
+  "id": "claude-dev-tools-f4db2d6b",
+  "name": "claude-dev-tools",
+  "description": "MCP server stack for Claude that gives it terminal control",
+  "repo_url": "https://github.com/StrawHatAI/claude-dev-tools",
+  "source_hub": "mcp_so",
+  "owner": "StrawHatAI",
+  "stars": 7,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "d191a8ce2e2ef3cb83c386b18cda2730c9aa64d7",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 20,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:54:04Z",
+  "verification_level": "scanner_only"
+}

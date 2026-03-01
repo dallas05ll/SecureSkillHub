@@ -1,0 +1,32 @@
+{
+  "id": "claude-patent-creator-a1eca4af",
+  "name": "Claude-Patent-Creator",
+  "description": "USPTO patent creation system with MCP server + Claude Code plugin. Hybrid RAG search over   MPEP/USC/CFR, BigQuery access to 76M+ patents, automated 35 USC 112 compliance checks, prior   art search, diagram generation. GPU-accelerated with skills and autonomous agents.",
+  "repo_url": "https://github.com/RobThePCGuy/Claude-Patent-Creator",
+  "source_hub": "github_search",
+  "skill_type": "agent_skill",
+  "owner": "RobThePCGuy",
+  "stars": 21,
+  "license": "mit",
+  "primary_language": "markdown",
+  "tags": [
+    "data-ai",
+    "dev",
+    "integ-cloud-gcp",
+    "prod",
+    "sec-scan",
+    "util-search"
+  ],
+  "verification_status": "pass",
+  "overall_score": 83,
+  "risk_level": "low",
+  "verified_commit": null,
+  "scan_summary": null,
+  "last_updated": "2026-02-22T11:33:31Z",
+  "findings_summary": {
+    "notes": "Metadata-based verification. Score=83. Signals: stars=21 (>=10, +5); license='mit' (+5); owner='RobThePCGuy' (+3); primary_language='markdown'; source_hub='github_search'. Status: pass. Risk: low."
+  },
+  "trust_level": "low",
+  "scan_date": "2026-02-26T06:14:55Z",
+  "verification_level": "metadata_only"
+}

@@ -1,0 +1,27 @@
+{
+  "id": "project-hub-mcp-server-9f794a7c",
+  "name": "project-hub-mcp-server",
+  "description": "MCP server for managing software projects, providing tools for project tracking, note-taking, and GitHub integration",
+  "repo_url": "https://github.com/peterparker57/project-hub-mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "peterparker57",
+  "stars": 5,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "prod-notes",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "18627491f47e9327fe326491d06f74e1053614c3",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 18,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:54:02Z",
+  "verification_level": "scanner_only"
+}

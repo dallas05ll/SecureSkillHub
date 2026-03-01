@@ -1,0 +1,34 @@
+{
+  "id": "claude-emporium-acc498fd",
+  "name": "claude-emporium",
+  "description": "A Claude Code plugin marketplace containing six Roman-themed plugins (Praetorian, Historian, Oracle, Gladiator, Vigil, Orator), each wrapping standalone MCP servers with automation hooks, slash commands, and skills for context management, session memory, tool discovery, error learning, file recovery, and prompt optimization.",
+  "repo_url": "https://github.com/Vvkmnn/claude-emporium",
+  "source_hub": "github_search",
+  "skill_type": "agent_skill",
+  "owner": "Vvkmnn",
+  "stars": 377,
+  "forks": 6,
+  "license": "",
+  "primary_language": "javascript",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp",
+    "dev",
+    "prod",
+    "prod-notes",
+    "util",
+    "util-file"
+  ],
+  "verification_status": "pass",
+  "overall_score": 74,
+  "risk_level": "low",
+  "verified_commit": null,
+  "scan_summary": null,
+  "last_updated": "2026-02-26T00:01:35Z",
+  "findings_summary": {
+    "notes": "Well-organized multi-plugin marketplace with clear architecture: each plugin has SKILL.md, hooks (JavaScript), and commands. Hooks reviewed (post-error.js, pre-bash.js, stop.js, pre-planning.js, pre-task.js, pre-websearch.js): all are benign, read-only observers that emit contextual messages to guide Claude behavior. The pre-bash.js hook detects destructive commands (rm, rmdir, mv, sed -i, git reset) and triggers a quicksave — a useful safety feature. The post-error.js hook observes tool failures and emits guidance messages without any data exfiltration. A shared utils.js manages hook I/O patterns. The hooks call out to npm-published MCP servers (claude-praetorian-mcp, claude-historian-mcp, etc.) which run locally via npx. No hardcoded secrets, no obfuscation, no dangerous shell patterns. SECURITY.md present. No license declared. The repo description says 'UNDER CONSTRUCTION' but the code is functional and well-documented. Marked as JavaScript (not Python) since the hooks are Node.js scripts."
+  },
+  "trust_level": "low",
+  "scan_date": "2026-02-26T01:23:20Z",
+  "verification_level": "scanner_only"
+}

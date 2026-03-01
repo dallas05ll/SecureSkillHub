@@ -1,0 +1,27 @@
+{
+  "id": "mcp-d365ce-ceb02150",
+  "name": "mcp-d365ce",
+  "description": "MCP server for Dynamcis 365 Customer Engagement (Dataverse / Power Platform) enabling metadata discovery, search and other odata operations",
+  "repo_url": "https://github.com/noorsyyed/mcp-d365ce",
+  "source_hub": "mcp_so",
+  "owner": "noorsyyed",
+  "stars": 1,
+  "primary_language": "unknown",
+  "tags": [
+    "data",
+    "integ-crm",
+    "util-search"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "65f4bb690f385fe3690dc82fcb22a1b3268a9d18",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 1,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:40Z",
+  "verification_level": "scanner_only"
+}

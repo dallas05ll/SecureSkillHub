@@ -1,0 +1,29 @@
+{
+  "id": "openapi-mcp-3a67689f",
+  "name": "OpenAPI-MCP",
+  "description": "The OpenAPI to Model Context Protocol (MCP) proxy server bridges the gap between AI agents and external APIs by dynamically translating OpenAPI specifications into standardized MCP tools. This simplifies the integration process, significantly reducing development time and complexity associated with custom API wrappers.",
+  "repo_url": "https://github.com/gujord/OpenAPI-MCP",
+  "source_hub": "mcp_so",
+  "owner": "gujord",
+  "stars": 64,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp",
+    "integ",
+    "sec-auth",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "721ba12e05234484074afcbe4d9897c3ddc6a986",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 47,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-27T06:40:49Z",
+  "verification_level": "scanner_only"
+}

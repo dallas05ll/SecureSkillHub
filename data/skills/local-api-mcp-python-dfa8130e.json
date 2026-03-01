@@ -1,0 +1,26 @@
+{
+  "id": "local-api-mcp-python-dfa8130e",
+  "name": "local-api-mcp-python",
+  "description": "MCP server for using the AdsPower LocalAPI",
+  "repo_url": "https://github.com/AdsPower/local-api-mcp-python",
+  "source_hub": "mcp_so",
+  "owner": "AdsPower",
+  "stars": 6,
+  "primary_language": "unknown",
+  "tags": [
+    "dev-web-backend-python",
+    "integ"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "8263e3f84f51407e2f6eecc340e168c5b639b16f",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 3,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:54:02Z",
+  "verification_level": "scanner_only"
+}

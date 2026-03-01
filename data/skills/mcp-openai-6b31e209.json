@@ -1,0 +1,26 @@
+{
+  "id": "mcp-openai-6b31e209",
+  "name": "mcp-openai",
+  "description": "Chat with OpenAI models from Claude Desktop",
+  "repo_url": "https://github.com/mzxrai/mcp-openai",
+  "source_hub": "mcp_so",
+  "owner": "mzxrai",
+  "stars": 71,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "prod-comm"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "df0d846c4fe0b54ec7a18c6dcdbf408e14fa340d",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 6,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-27T06:40:49Z",
+  "verification_level": "scanner_only"
+}

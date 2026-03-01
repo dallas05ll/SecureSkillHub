@@ -1,0 +1,26 @@
+{
+  "id": "drupalmcp-io-e3dae181",
+  "name": "drupalmcp.io",
+  "description": "Guides, examples, and resources for working with Drupal and the MCP server.",
+  "repo_url": "https://github.com/Omedia/drupalmcp.io",
+  "source_hub": "mcp_so",
+  "owner": "Omedia",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "6f713688402af0745819357b80e6e705a99d9deb",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 27,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:41Z",
+  "verification_level": "scanner_only"
+}

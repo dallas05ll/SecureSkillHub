@@ -1,0 +1,96 @@
+{
+  "id": "1Panel-dev--MaxKB",
+  "name": "MaxKB",
+  "skill_type": "mcp_server",
+  "repo_url": "https://github.com/1Panel-dev/MaxKB",
+  "source_hub": "github_search",
+  "stars": 20166,
+  "verification_status": "fail",
+  "overall_score": 15,
+  "risk_level": "critical",
+  "description": "Open-source platform for building enterprise-grade AI agents with RAG pipelines, agentic workflows, and MCP tool-use capabilities.",
+  "primary_language": "Python",
+  "tags": [
+    "data-ai",
+    "dev-devops-ci",
+    "prod",
+    "util"
+  ],
+  "findings_summary": {
+    "scanner_findings": 557,
+    "dangerous_calls": 20,
+    "network_ops": 44,
+    "file_ops": 270,
+    "env_access": 123,
+    "obfuscation": 81,
+    "injection_patterns": 0,
+    "mismatches": 0,
+    "undocumented_capabilities": 0,
+    "supervisor_approved": false,
+    "supervisor_confidence": 90
+  },
+  "trust_level": "low",
+  "scan_date": "2026-02-28T20:57:07Z",
+  "verified_commit": "ae3d95f3c4b369e543949a853982c217800d9cbc",
+  "verification_level": "full_pipeline",
+  "agent_audit": {
+    "agents_completed": 5,
+    "agents_required": 5,
+    "pipeline_run_at": "2026-02-28T20:57:07Z",
+    "agent_a": {
+      "signed": true,
+      "signed_at": "2026-02-28T20:57:07Z",
+      "comment": "Docs quality 9/10. README present. 12 features, 4 permissions claimed.",
+      "doc_quality_score": 9,
+      "claimed_permissions": [
+        "network access",
+        "system command execution",
+        "file system access",
+        "environment/secret access"
+      ]
+    },
+    "agent_b": {
+      "signed": true,
+      "signed_at": "2026-02-28T20:57:07Z",
+      "comment": "1305 files analyzed. Found: 16 network, 35 file, 23 env, 14 system calls. Primary: python.",
+      "files_analyzed": 1305,
+      "capabilities_found": [
+        "imports external dependencies",
+        "performs network operations",
+        "reads/writes files",
+        "reads environment values",
+        "executes system commands"
+      ]
+    },
+    "agent_c_star": {
+      "signed": true,
+      "signed_at": "2026-02-28T20:57:07Z",
+      "comment": "557 findings: 0 critical, 120 high, 167 medium, 270 low. Obfuscation detected!. No injection.",
+      "total_findings": 557,
+      "severity_counts": {
+        "critical": 0,
+        "high": 120,
+        "medium": 167,
+        "low": 270,
+        "info": 0
+      }
+    },
+    "agent_d": {
+      "signed": true,
+      "signed_at": "2026-02-28T20:57:07Z",
+      "comment": "Score 15. 0 mismatches. Risk: critical. Safety overrides: applied.",
+      "score": 15,
+      "mismatches": 0,
+      "safety_overrides_applied": true
+    },
+    "agent_e": {
+      "signed": true,
+      "signed_at": "2026-02-28T20:57:07Z",
+      "comment": "Rejected. Confidence 90%. Deterministic override: high-risk obfuscation detected.",
+      "approved": false,
+      "confidence": 90,
+      "override_reason": "Deterministic override: high-risk obfuscation detected."
+    },
+    "manager_summary": "5/5 agents completed. Score: 15/100, Risk: critical. 0 mismatches, 557 scanner findings. Rejected at 90% confidence. Safety overrides triggered."
+  }
+}

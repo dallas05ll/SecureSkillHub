@@ -1,0 +1,25 @@
+{
+  "id": "agentskillsdir-e4677dac",
+  "name": "agentskillsdir",
+  "description": "",
+  "repo_url": "https://github.com/gabeosx/agentskillsdir",
+  "source_hub": "github_search",
+  "skill_type": "agent_skill",
+  "owner": "gabeosx",
+  "stars": 1,
+  "license": "",
+  "primary_language": "markdown",
+  "tags": [],
+  "verification_status": "pass",
+  "overall_score": 73,
+  "risk_level": "medium",
+  "verified_commit": null,
+  "scan_summary": null,
+  "last_updated": "2026-01-19T18:42:47Z",
+  "findings_summary": {
+    "notes": "Metadata-based verification. Score=73. Signals: stars=1; no license detected; owner='gabeosx' (+3); primary_language='markdown'; source_hub='github_search'. Status: pass. Risk: medium."
+  },
+  "trust_level": "low",
+  "scan_date": "2026-02-26T06:14:55Z",
+  "verification_level": "metadata_only"
+}

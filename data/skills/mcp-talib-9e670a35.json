@@ -1,0 +1,27 @@
+{
+  "id": "mcp-talib-9e670a35",
+  "name": "mcp-talib",
+  "description": "A Model Context Protocol (MCP) server that provides the functions of the ta-lib-python",
+  "repo_url": "https://github.com/Jung-YongHan/mcp-talib",
+  "source_hub": "mcp_so",
+  "owner": "Jung-YongHan",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp",
+    "dev-web-backend-python"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "adeed21691a0aa9dbdf2368f6f1142054a26eda7",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 1,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:42Z",
+  "verification_level": "scanner_only"
+}

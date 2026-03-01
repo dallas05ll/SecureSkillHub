@@ -1,0 +1,26 @@
+{
+  "id": "monarch-mcp-af1bd7c7",
+  "name": "monarch-mcp",
+  "description": "small mcp server for accessing monarch money",
+  "repo_url": "https://github.com/martinamps/monarch-mcp",
+  "source_hub": "mcp_so",
+  "owner": "martinamps",
+  "stars": 2,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "007c5506479e16c07f73e933cce5f664a634079f",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 12,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:04:50Z",
+  "verification_level": "scanner_only"
+}

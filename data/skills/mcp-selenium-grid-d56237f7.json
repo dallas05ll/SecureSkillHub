@@ -1,0 +1,31 @@
+{
+  "id": "mcp-selenium-grid-d56237f7",
+  "name": "mcp-selenium-grid",
+  "description": "(DO NOT USE, NOT READY) A Model Context Protocol (MCP) server that enables AI Agents to request and manage Selenium browser instances through a secure API. Perfect for your automated browser testing needs! 🚀",
+  "repo_url": "https://github.com/Falamarcao/mcp-selenium-grid",
+  "source_hub": "mcp_so",
+  "owner": "Falamarcao",
+  "stars": 8,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp",
+    "dev-testing",
+    "dev-web",
+    "integ",
+    "prod",
+    "util-search"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "edb1bc4d46c2f1e4fbf88f81d69df1f737c579f1",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 98,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:42:36Z",
+  "verification_level": "scanner_only"
+}

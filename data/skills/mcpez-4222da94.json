@@ -1,0 +1,26 @@
+{
+  "id": "mcpez-4222da94",
+  "name": "mcpez",
+  "description": "micro unified mcp server",
+  "repo_url": "https://github.com/Veallym0n/mcpez",
+  "source_hub": "mcp_so",
+  "owner": "Veallym0n",
+  "stars": 5,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "f1abcd532c51395bff0877d418cdcfa8f6085b27",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 12,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:54:04Z",
+  "verification_level": "scanner_only"
+}

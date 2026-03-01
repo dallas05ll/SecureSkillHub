@@ -1,0 +1,25 @@
+{
+  "id": "stackoverflow-mcp-server-16708cc9",
+  "name": "stackoverflow-mcp-server",
+  "description": "A python mcp server for stackoverflow",
+  "repo_url": "https://github.com/CodexVeritax/stackoverflow-mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "CodexVeritax",
+  "stars": 4,
+  "primary_language": "unknown",
+  "tags": [
+    "dev-web-backend-python"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "5ef3630edf3a6fddf19499fb0e3bc245df4ec230",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 14,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:04:50Z",
+  "verification_level": "scanner_only"
+}

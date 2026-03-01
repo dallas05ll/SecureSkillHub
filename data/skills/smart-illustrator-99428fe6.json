@@ -1,0 +1,30 @@
+{
+  "id": "smart-illustrator-99428fe6",
+  "name": "smart-illustrator",
+  "description": "AI-powered article illustrations with intelligent position detection and a cover learning system. Uses Gemini API for image generation, supports Mermaid diagrams and Excalidraw exports.",
+  "repo_url": "https://github.com/axtonliu/smart-illustrator",
+  "source_hub": "github_search",
+  "skill_type": "agent_skill",
+  "owner": "axtonliu",
+  "stars": 329,
+  "forks": 44,
+  "license": "mit",
+  "primary_language": "TypeScript",
+  "tags": [
+    "data-ai",
+    "data-ai-vision",
+    "integ"
+  ],
+  "verification_status": "pass",
+  "overall_score": 78,
+  "risk_level": "low",
+  "verified_commit": null,
+  "scan_summary": null,
+  "findings_summary": {
+    "notes": "Repository confirmed (329 stars, MIT, TypeScript, created Feb 2026). SKILL.md present. Scripts directory contains TypeScript files for image generation (Gemini API), Mermaid/Excalidraw export, and a cover-learner. External API dependency on Gemini API noted. No open issues (0). Prompts directory contains structured learning-analysis and varied-styles markdown files. Bilingual README (EN/ZH). 44 forks indicating high community interest. External API key required - users should secure credentials."
+  },
+  "last_updated": "2026-02-24T01:19:25Z",
+  "trust_level": "low",
+  "scan_date": "2026-02-26T02:21:15Z",
+  "verification_level": "scanner_only"
+}

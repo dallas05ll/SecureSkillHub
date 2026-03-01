@@ -1,0 +1,26 @@
+{
+  "id": "mcpserver-ce4af33e",
+  "name": "mcpServer",
+  "description": "MCP 서버 학습을 위한 간단예제 실습",
+  "repo_url": "https://github.com/hyen43/mcpServer",
+  "source_hub": "mcp_so",
+  "owner": "hyen43",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "675e80f43f64dc571cc3c871609ba9e1718881ea",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 7,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:40Z",
+  "verification_level": "scanner_only"
+}

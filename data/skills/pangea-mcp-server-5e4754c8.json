@@ -1,0 +1,27 @@
+{
+  "id": "pangea-mcp-server-5e4754c8",
+  "name": "pangea-mcp-server",
+  "description": "A Model Context Protocol (MCP) server that provides integration with Pangea APIs",
+  "repo_url": "https://github.com/pangeacyber/pangea-mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "pangeacyber",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp",
+    "integ"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "de2804298dfd9637ed30e4264809310808c423f6",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 32,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:40Z",
+  "verification_level": "scanner_only"
+}

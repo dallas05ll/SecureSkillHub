@@ -1,0 +1,26 @@
+{
+  "id": "huggingface-mcp-server-9678c46d",
+  "name": "huggingface-mcp-server",
+  "description": "MCP server for Hugging Face API integration - Access Stable Diffusion and other AI models",
+  "repo_url": "https://github.com/nikolausm/huggingface-mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "nikolausm",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "integ"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "b1e481ebcfd33145894c4f2237e75c37204afafb",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 3,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:40Z",
+  "verification_level": "scanner_only"
+}

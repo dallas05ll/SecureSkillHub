@@ -1,0 +1,25 @@
+{
+  "id": "api-market-mcp-server-f5337e75",
+  "name": "api-market-mcp-server",
+  "description": "API Market MCP Servers",
+  "repo_url": "https://github.com/Noveum/api-market-mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "Noveum",
+  "stars": 3,
+  "primary_language": "unknown",
+  "tags": [
+    "integ"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "21efb9bd35cb2008dfa71739bd7bc68e6e936fd9",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 48,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:04:51Z",
+  "verification_level": "scanner_only"
+}

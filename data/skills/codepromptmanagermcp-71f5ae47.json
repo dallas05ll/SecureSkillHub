@@ -1,0 +1,25 @@
+{
+  "id": "codepromptmanagermcp-71f5ae47",
+  "name": "codePromptManagerMCP",
+  "description": "This helps you create a mcp server which your IDE can access to create and save prompts for you code base",
+  "repo_url": "https://github.com/vivek100/codePromptManagerMCP",
+  "source_hub": "mcp_so",
+  "owner": "vivek100",
+  "stars": 1,
+  "primary_language": "unknown",
+  "tags": [
+    "dev"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "51369706d8d60e3f9f875585eef717f9f8c0759a",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 85,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:42Z",
+  "verification_level": "scanner_only"
+}

@@ -1,0 +1,29 @@
+{
+  "id": "taskflow-mcp-6870fd3f",
+  "name": "taskflow-mcp",
+  "description": "A task management Model Context Protocol (MCP) server that helps AI assistants break down user requests into manageable tasks with subtasks, dependencies, and notes. Enforces a structured workflow with user approval steps.",
+  "repo_url": "https://github.com/pinkpixel-dev/taskflow-mcp",
+  "source_hub": "mcp_so",
+  "owner": "pinkpixel-dev",
+  "stars": 28,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp",
+    "prod",
+    "prod-notes",
+    "prod-pm"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "95b1d5fb0a7c028bae2cff9d2166e8636a5444fd",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 30,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:32:13Z",
+  "verification_level": "scanner_only"
+}

@@ -1,0 +1,26 @@
+{
+  "id": "maxcompute-mcp-server-9d2d0f4a",
+  "name": "maxcompute-mcp-server",
+  "description": "Alibaba cloud MaxCompute (ODPS) MCP server implemented by python",
+  "repo_url": "https://github.com/datafe/maxcompute-mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "datafe",
+  "stars": 4,
+  "primary_language": "unknown",
+  "tags": [
+    "dev-web-backend-python",
+    "integ-cloud"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "8b3fc601b1b3f1b0e7af85abc8141747470b4cd8",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 4,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:54:02Z",
+  "verification_level": "scanner_only"
+}

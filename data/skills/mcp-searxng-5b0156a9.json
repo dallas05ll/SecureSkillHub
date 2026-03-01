@@ -1,0 +1,25 @@
+{
+  "id": "mcp-searxng-5b0156a9",
+  "name": "mcp-searxng",
+  "description": "About 一個用來讓 AI Agent 可透過 SearXNG 服務來搜尋外部網站內容與資訊的 MCP server 。",
+  "repo_url": "https://github.com/erhwenkuo/mcp-searxng",
+  "source_hub": "mcp_so",
+  "owner": "erhwenkuo",
+  "stars": 8,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "a6fb7172212fa801108c9899ebf9562b79442d61",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 7,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:42:34Z",
+  "verification_level": "scanner_only"
+}

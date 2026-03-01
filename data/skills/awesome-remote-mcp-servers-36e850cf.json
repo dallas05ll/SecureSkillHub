@@ -1,0 +1,26 @@
+{
+  "id": "awesome-remote-mcp-servers-36e850cf",
+  "name": "awesome-remote-mcp-servers",
+  "description": "awesome remote mcp servers",
+  "repo_url": "https://github.com/weekend-project-space/awesome-remote-mcp-servers",
+  "source_hub": "mcp_so",
+  "owner": "weekend-project-space",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "fa6aa6d106b614420ace88bcd807e2acdb13c1fb",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 1,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:42Z",
+  "verification_level": "scanner_only"
+}

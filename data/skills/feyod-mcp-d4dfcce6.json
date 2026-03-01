@@ -1,0 +1,27 @@
+{
+  "id": "feyod-mcp-d4dfcce6",
+  "name": "feyod-mcp",
+  "description": "Model Content Protocol (MCP) server for querying Feyenoord football match data using natural language.",
+  "repo_url": "https://github.com/jeroenvdmeer/feyod-mcp",
+  "source_hub": "mcp_so",
+  "owner": "jeroenvdmeer",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "data",
+    "data-ai",
+    "data-ai-nlp"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "a0f8e31410a909b74865f98759f40f661cb800d3",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 5,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:41Z",
+  "verification_level": "scanner_only"
+}

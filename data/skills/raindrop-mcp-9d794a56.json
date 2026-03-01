@@ -1,0 +1,25 @@
+{
+  "id": "raindrop-mcp-9d794a56",
+  "name": "raindrop-mcp",
+  "description": "MCP for raindrop",
+  "repo_url": "https://github.com/sachin-philip/raindrop-mcp",
+  "source_hub": "mcp_so",
+  "owner": "sachin-philip",
+  "stars": 11,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "1a817d7b4c27c788ffc52f8758ce152f0ee27a92",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 5,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:42:36Z",
+  "verification_level": "scanner_only"
+}

@@ -1,0 +1,26 @@
+{
+  "id": "mcp-pptr-47993675",
+  "name": "MCP-pptr",
+  "description": "A pptr mcp server for better cursor",
+  "repo_url": "https://github.com/RingoTC/MCP-pptr",
+  "source_hub": "mcp_so",
+  "owner": "RingoTC",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "1f1e8ee638cbd9f33349eecae73a3b05215ced69",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 12,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:41Z",
+  "verification_level": "scanner_only"
+}

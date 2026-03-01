@@ -1,0 +1,26 @@
+{
+  "id": "mcp-starter-239d1ac1",
+  "name": "mcp-starter",
+  "description": "A start template for a typescript mcp server",
+  "repo_url": "https://github.com/MatthewDailey/mcp-starter",
+  "source_hub": "mcp_so",
+  "owner": "MatthewDailey",
+  "stars": 13,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "cfc574ef4ff7f1feebf4f2f6b96388df2988e620",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 5,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:42:36Z",
+  "verification_level": "scanner_only"
+}

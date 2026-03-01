@@ -1,0 +1,27 @@
+{
+  "id": "gitgud-fbe27c4a",
+  "name": "gitgud",
+  "description": "Keep your coding skills sharp in the age of AI",
+  "repo_url": "https://github.com/MissingPackage/gitgud",
+  "source_hub": "github_search",
+  "skill_type": "agent_skill",
+  "owner": "MissingPackage",
+  "stars": 28,
+  "license": "mit",
+  "primary_language": "markdown",
+  "tags": [
+    "data-ai"
+  ],
+  "verification_status": "pass",
+  "overall_score": 83,
+  "risk_level": "low",
+  "verified_commit": null,
+  "scan_summary": null,
+  "last_updated": "2026-01-10T00:08:17Z",
+  "findings_summary": {
+    "notes": "Metadata-based verification. Score=83. Signals: stars=28 (>=10, +5); license='mit' (+5); owner='MissingPackage' (+3); primary_language='markdown'; source_hub='github_search'. Status: pass. Risk: low."
+  },
+  "trust_level": "low",
+  "scan_date": "2026-02-26T06:14:56Z",
+  "verification_level": "metadata_only"
+}

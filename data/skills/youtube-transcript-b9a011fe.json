@@ -1,0 +1,26 @@
+{
+  "id": "youtube-transcript-b9a011fe",
+  "name": "youtube_transcript",
+  "description": "A MCP server helps to transcript a youtube video",
+  "repo_url": "https://github.com/minhleathvn/youtube_transcript",
+  "source_hub": "mcp_so",
+  "owner": "minhleathvn",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "integ-social",
+    "util-media"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "04babbdc47c7a7869e22814a828a9246de426a05",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 19,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:42:59Z",
+  "verification_level": "scanner_only"
+}

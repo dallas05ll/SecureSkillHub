@@ -1,0 +1,26 @@
+{
+  "id": "mcp-for-programmer-7c01a2a9",
+  "name": "mcp-for-programmer",
+  "description": "一个为程序员学习助力的Model Context Protocol服务器。",
+  "repo_url": "https://github.com/zaizaizhao/mcp-for-programmer",
+  "source_hub": "mcp_so",
+  "owner": "zaizaizhao",
+  "stars": 1,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "d8693e8354138619d2fda828e7ca8a9128f1ee1d",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 36,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:41Z",
+  "verification_level": "scanner_only"
+}

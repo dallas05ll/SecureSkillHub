@@ -1,0 +1,26 @@
+{
+  "id": "findingalpha-ai-mcp-89a904e1",
+  "name": "findingalpha-ai-mcp",
+  "description": "MCP Server for segmented revenue and congress trading",
+  "repo_url": "https://github.com/finding-alpha/findingalpha-ai-mcp",
+  "source_hub": "mcp_so",
+  "owner": "finding-alpha",
+  "stars": 1,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "util-search"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "fa49d96d4ce526f29e44da18593ece221e5a7804",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 10,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:42Z",
+  "verification_level": "scanner_only"
+}

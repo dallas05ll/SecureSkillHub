@@ -1,0 +1,49 @@
+{
+  "id": "ios-simulator-skill-15a6d602",
+  "name": "iOS Simulator Skill",
+  "description": "21 production-ready Python scripts for iOS app testing, building, and automation on macOS. Uses accessibility API for semantic element navigation (not pixel-based), optimized for AI agents with token-efficient output. Requires macOS, Xcode, and Python 3.",
+  "repo_url": "https://github.com/conorluddy/ios-simulator-skill",
+  "source_hub": "claude_skills_hub",
+  "skill_type": "agent_skill",
+  "owner": "conorluddy",
+  "stars": 535,
+  "forks": 28,
+  "license": "mit",
+  "primary_language": "Python",
+  "tags": [
+    "data-ai",
+    "dev",
+    "dev-testing",
+    "dev-web-backend-python",
+    "integ",
+    "prod",
+    "sec-crypto"
+  ],
+  "source_tags": [
+    "ios",
+    "testing",
+    "automation",
+    "simulator",
+    "accessibility",
+    "xcode",
+    "mobile"
+  ],
+  "categories": [
+    "dev",
+    "testing"
+  ],
+  "version": "1.3.0",
+  "requires_code_execution": true,
+  "verification_status": "pass",
+  "overall_score": 90,
+  "risk_level": "low",
+  "verified_commit": null,
+  "scan_summary": null,
+  "findings_summary": {
+    "notes": "Excellent iOS automation skill with clear SKILL.md (v1.3.0), 21 well-documented Python scripts for legitimate iOS simulator interaction. MIT license, pre-commit config, DEV.md for contributors, pyproject.toml. No hooks. Scripts use standard macOS APIs (xcrun simctl, idb, accessibility APIs). SKILL.md is comprehensive and documents all 21 scripts with their options. Semantic navigation approach is a genuine improvement over pixel-based methods. Very high star count (535) relative to other skills in this batch — likely due to being a well-established, genuinely useful tool. No dangerous patterns: no eval, no network exfiltration, no credential access. Note: actual star count (535) significantly higher than the 200 recorded in the existing skill file. macOS-only limitation is clearly documented."
+  },
+  "verification_date": "2026-02-25",
+  "trust_level": "medium",
+  "scan_date": "2026-02-26T02:17:53Z",
+  "verification_level": "scanner_only"
+}

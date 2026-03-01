@@ -1,0 +1,23 @@
+{
+  "id": "seo-geo-49cb81d7",
+  "name": "Seo Geo",
+  "description": "Agent skill: seo-geo from resciencelab/opc-skills",
+  "repo_url": "https://github.com/resciencelab/opc-skills",
+  "source_hub": "skills_sh",
+  "owner": "resciencelab",
+  "stars": 5800,
+  "primary_language": "unknown",
+  "tags": [],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "a34da672ee665e79b0c51f530050b2989eade0fe",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 118,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:54:02Z",
+  "verification_level": "scanner_only"
+}

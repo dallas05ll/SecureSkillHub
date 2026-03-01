@@ -1,0 +1,26 @@
+{
+  "id": "nextchat-mcp-c22fb9d8",
+  "name": "NextChat-MCP",
+  "description": "NextChat with MCP server creation functionality and OpenRouter integration",
+  "repo_url": "https://github.com/vredrick2/NextChat-MCP",
+  "source_hub": "mcp_so",
+  "owner": "vredrick2",
+  "stars": 1,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "prod-comm"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "f9b3555a9441fa1b9c796d56014d6fdf39155c96",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 209,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:41Z",
+  "verification_level": "scanner_only"
+}

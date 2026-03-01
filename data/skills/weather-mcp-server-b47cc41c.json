@@ -1,0 +1,26 @@
+{
+  "id": "weather-mcp-server-b47cc41c",
+  "name": "weather-mcp-server",
+  "description": "MCP Server Free Weather",
+  "repo_url": "https://github.com/Yarflam/weather-mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "Yarflam",
+  "stars": 1,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "01ecec36e8d7dfa4d6e1d7c7ea23ad959a035865",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 5,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:40Z",
+  "verification_level": "scanner_only"
+}

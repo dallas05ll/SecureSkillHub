@@ -1,0 +1,21 @@
+{
+  "id": "container-use-d2e99f05",
+  "name": "container-use",
+  "description": "MCP server to add container superpowers to your AI agent",
+  "repo_url": "https://github.com/dagger/container-use",
+  "source_hub": "mcp_so",
+  "owner": "dagger",
+  "stars": 3570,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "dev-devops-docker"
+  ],
+  "verification_status": "pass",
+  "overall_score": 80,
+  "risk_level": "low",
+  "verified_commit": "be3a09405d9b9bed7addebb4f47455f2b6bacc35",
+  "scan_summary": null,
+  "scan_date": "2026-02-26T03:00:50Z",
+  "verification_level": "scanner_only"
+}

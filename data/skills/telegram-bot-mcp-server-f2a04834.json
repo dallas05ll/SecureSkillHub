@@ -1,0 +1,25 @@
+{
+  "id": "telegram-bot-mcp-server-f2a04834",
+  "name": "telegram-bot-mcp-server",
+  "description": "Telegram bot mcp server",
+  "repo_url": "https://github.com/siavashdelkhosh81/telegram-bot-mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "siavashdelkhosh81",
+  "stars": 7,
+  "primary_language": "unknown",
+  "tags": [
+    "prod-comm"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "12a8f834645c2de49d837c2ed0d067b771aaf8ae",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 8,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:54:02Z",
+  "verification_level": "scanner_only"
+}

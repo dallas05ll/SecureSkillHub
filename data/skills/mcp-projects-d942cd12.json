@@ -1,0 +1,26 @@
+{
+  "id": "mcp-projects-d942cd12",
+  "name": "mcp-projects",
+  "description": "My Projects Repo for MCP (Model Context Protocol)",
+  "repo_url": "https://github.com/SrGrace/mcp-projects",
+  "source_hub": "mcp_so",
+  "owner": "SrGrace",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "640e8a4d1756949e2c2e113959aa6a7acf3a9993",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 15,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:40Z",
+  "verification_level": "scanner_only"
+}

@@ -1,0 +1,25 @@
+{
+  "id": "akirapapa-mcp-notion-server-e022f5bf",
+  "name": "akirapapa-mcp-notion-server",
+  "description": "Notion MCPでブロックやトグルなどしようできるようにしたサーバー",
+  "repo_url": "https://github.com/Akira-Papa/akirapapa-mcp-notion-server",
+  "source_hub": "mcp_so",
+  "owner": "Akira-Papa",
+  "stars": 4,
+  "primary_language": "unknown",
+  "tags": [
+    "prod-docs"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 5,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-25T14:42:32Z",
+  "verification_level": "scanner_only"
+}

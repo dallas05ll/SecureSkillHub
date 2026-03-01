@@ -1,0 +1,35 @@
+{
+  "id": "aws-agent-skills-5a2c4082",
+  "name": "aws-agent-skills",
+  "description": "AWS knowledge skills for Claude Code and Codex agents covering 18 core AWS services (IAM, Lambda, DynamoDB, S3, API Gateway, EC2, ECS, EKS, CloudFormation, CloudWatch, RDS, SQS, SNS, Cognito, Step Functions, and more). Token-efficient local skill files updated weekly from AWS documentation.",
+  "repo_url": "https://github.com/itsmostafa/aws-agent-skills",
+  "source_hub": "github_search",
+  "skill_type": "agent_skill",
+  "owner": "itsmostafa",
+  "stars": 1001,
+  "license": "mit",
+  "primary_language": "Python",
+  "tags": [
+    "data-ai",
+    "dev",
+    "integ",
+    "integ-cloud",
+    "integ-cloud-aws",
+    "prod-docs",
+    "sec-crypto",
+    "util-file"
+  ],
+  "verification_status": "pass",
+  "overall_score": 72,
+  "risk_level": "low",
+  "verified_commit": "2ccd14e6700ba96524e0961a6750ce6b056ed9c8",
+  "scan_summary": null,
+  "findings_summary": {
+    "notes": "MIT-licensed agent skill set for AWS cloud engineering maintained by individual developer itsmostafa. Repository created 2019-05-18, updated 2026-02-24. 425 forks, 1001 stars. CI workflow for weekly AWS documentation update checks present. LICENSE file at root. No SECURITY.md, no CONTRIBUTING.md. Contains markdown skill files for 18 AWS domains plus a security.md skill file within skills/s3/. Individual developer project with strong community adoption indicated by fork count. Content is static knowledge (Markdown) rather than executable code, reducing supply-chain risk. Suitable for use with Claude Code plugin ecosystem."
+  },
+  "last_updated": "2026-02-24T22:36:52Z",
+  "last_verified": "2026-02-25T00:00:00Z",
+  "trust_level": "low",
+  "scan_date": "2026-02-25T23:12:13Z",
+  "verification_level": "scanner_only"
+}

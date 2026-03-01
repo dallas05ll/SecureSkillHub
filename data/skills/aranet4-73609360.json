@@ -1,0 +1,25 @@
+{
+  "id": "aranet4-73609360",
+  "name": "Aranet4",
+  "description": "Manage your Aranet4 CO2 sensor data by scanning devices, fetching and storing measurements in a local db, and querying historical data with optional visualizations. Easily configure the server with AI assistance.",
+  "repo_url": "https://github.com/diegobit/Aranet4",
+  "source_hub": "mcp_so",
+  "owner": "diegobit",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "data",
+    "data-ai",
+    "sec-scan",
+    "util-search",
+    "repo_unavailable"
+  ],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null,
+  "repo_status": "unavailable",
+  "repo_check_date": "2026-02-28T20:51:19.119251+00:00",
+  "repo_check_error": "fatal: could not read Username for 'https://github.com': Device not configured"
+}

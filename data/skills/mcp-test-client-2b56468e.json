@@ -1,0 +1,28 @@
+{
+  "id": "mcp-test-client-2b56468e",
+  "name": "mcp-test-client",
+  "description": "MCP Test Client is a TypeScript testing utility for Model Context Protocol (MCP) servers.",
+  "repo_url": "https://github.com/crazyrabbitLTC/mcp-test-client",
+  "source_hub": "mcp_so",
+  "owner": "crazyrabbitLTC",
+  "stars": 13,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp",
+    "dev-testing",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "3d2a7d62f602f06038b54fd7ab0b949a97afdf8e",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 19,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:42:36Z",
+  "verification_level": "scanner_only"
+}

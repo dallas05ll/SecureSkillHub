@@ -1,0 +1,26 @@
+{
+  "id": "mcp-base-79b49228",
+  "name": "mcp-base",
+  "description": "directory for best MCP Servers",
+  "repo_url": "https://github.com/berkayderin/mcp-base",
+  "source_hub": "mcp_so",
+  "owner": "berkayderin",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "dabe083ec438453c7d1ffb12880745f292bc0094",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 80,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:41Z",
+  "verification_level": "scanner_only"
+}

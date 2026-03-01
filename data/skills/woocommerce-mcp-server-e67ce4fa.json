@@ -1,0 +1,26 @@
+{
+  "id": "woocommerce-mcp-server-e67ce4fa",
+  "name": "woocommerce-mcp-server",
+  "description": "Model Context Protocol server for WooCommerce management",
+  "repo_url": "https://github.com/Vostos007/woocommerce-mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "Vostos007",
+  "stars": 2,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "68c5a62fb3cfc4a1ca7489dea48abbf08af097a0",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 39,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:41Z",
+  "verification_level": "scanner_only"
+}

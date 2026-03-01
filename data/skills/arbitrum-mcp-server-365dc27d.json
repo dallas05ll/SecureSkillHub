@@ -1,0 +1,30 @@
+{
+  "id": "arbitrum-mcp-server-365dc27d",
+  "name": "arbitrum_mcp_server",
+  "description": "A Model Context Protocol (MCP) server that provides real-time Arbitrum blockchain data analysis using the Arbiscan API and Claude AI.",
+  "repo_url": "https://github.com/0xRecruiter/arbitrum_mcp_server",
+  "source_hub": "mcp_so",
+  "owner": "0xRecruiter",
+  "stars": 1,
+  "primary_language": "unknown",
+  "tags": [
+    "data",
+    "data-ai",
+    "data-ai-nlp",
+    "integ",
+    "sec-crypto",
+    "sec-scan"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "6e36e610c3c3b763d6108ffda9c929c94a5b1057",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 4,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:41Z",
+  "verification_level": "scanner_only"
+}

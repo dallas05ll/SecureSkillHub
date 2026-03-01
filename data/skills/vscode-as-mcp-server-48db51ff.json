@@ -1,0 +1,28 @@
+{
+  "id": "vscode-as-mcp-server-48db51ff",
+  "name": "vscode-as-mcp-server",
+  "description": "Expose VSCode features such as file viewing and editing as MCP, enabling advanced AI-assisted coding directly from tools like Claude Desktop",
+  "repo_url": "https://github.com/acomagu/vscode-as-mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "acomagu",
+  "stars": 112,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "dev",
+    "util",
+    "util-file"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "839b5439cf0025ec3450b6eb8120c659f0001fe6",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 56,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-27T06:40:49Z",
+  "verification_level": "scanner_only"
+}

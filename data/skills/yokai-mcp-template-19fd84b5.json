@@ -1,0 +1,26 @@
+{
+  "id": "yokai-mcp-template-19fd84b5",
+  "name": "yokai-mcp-template",
+  "description": "MCP server template based on the Yokai Go framework.",
+  "repo_url": "https://github.com/ankorstore/yokai-mcp-template",
+  "source_hub": "mcp_so",
+  "owner": "ankorstore",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "dev-web-backend-go"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "70a63118d355d3b53aba40fbef9387bab1db9d04",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 8,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:43:00Z",
+  "verification_level": "scanner_only"
+}

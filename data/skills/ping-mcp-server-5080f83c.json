@@ -1,0 +1,27 @@
+{
+  "id": "ping-mcp-server-5080f83c",
+  "name": "ping-mcp-server",
+  "description": "This mcp server allows Claude to perform network connectivity tests and ping operations.",
+  "repo_url": "https://github.com/sadeghtkd/ping-mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "sadeghtkd",
+  "stars": 2,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "dev-testing",
+    "integ"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "e03d88f73c86915bb83868c106c11b2da61e0fdf",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 3,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:04:50Z",
+  "verification_level": "scanner_only"
+}

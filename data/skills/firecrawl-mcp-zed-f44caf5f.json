@@ -1,0 +1,25 @@
+{
+  "id": "firecrawl-mcp-zed-f44caf5f",
+  "name": "firecrawl-mcp-zed",
+  "description": "Firecrawl MCP Server for Zed",
+  "repo_url": "https://github.com/akbxr/firecrawl-mcp-zed",
+  "source_hub": "mcp_so",
+  "owner": "akbxr",
+  "stars": 7,
+  "primary_language": "unknown",
+  "tags": [
+    "util-search"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "2a03b7bbc93e151be6f35ff05235ec2adc6a1030",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 4,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:54:02Z",
+  "verification_level": "scanner_only"
+}

@@ -1,0 +1,26 @@
+{
+  "id": "deepre-638f9579",
+  "name": "deepre",
+  "description": "local mcp server perplexity",
+  "repo_url": "https://github.com/hirokidaichi/deepre",
+  "source_hub": "mcp_so",
+  "owner": "hirokidaichi",
+  "stars": 2,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "ffdc24d2aa18f08e39939c30ee958b8ef6610ea6",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 23,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:04:51Z",
+  "verification_level": "scanner_only"
+}

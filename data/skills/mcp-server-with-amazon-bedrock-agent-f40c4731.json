@@ -1,0 +1,25 @@
+{
+  "id": "mcp-server-with-amazon-bedrock-agent-f40c4731",
+  "name": "mcp-server-with-amazon-bedrock-agent",
+  "description": "mcp server with amazon bedrock agent",
+  "repo_url": "https://github.com/shridharMe/mcp-server-with-amazon-bedrock-agent",
+  "source_hub": "mcp_so",
+  "owner": "shridharMe",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "integ-cloud-aws"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "87f267dbb1662486255dd2f2dc87a06153f2e985",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 5,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:41Z",
+  "verification_level": "scanner_only"
+}

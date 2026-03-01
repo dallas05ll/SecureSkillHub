@@ -1,0 +1,26 @@
+{
+  "id": "openmeteo-weather-mcp-c42fa80f",
+  "name": "openmeteo-weather-mcp",
+  "description": "MCP server that fetches current weather info and forecast for a given location.",
+  "repo_url": "https://github.com/walidsi/openmeteo-weather-mcp",
+  "source_hub": "mcp_so",
+  "owner": "walidsi",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "util-map",
+    "util-search"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "651c9250bd1ebb2485239775feb7d7f6dfbd8a3d",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 4,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:41Z",
+  "verification_level": "scanner_only"
+}

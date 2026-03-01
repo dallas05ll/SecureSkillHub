@@ -1,0 +1,27 @@
+{
+  "id": "mochow-mcp-server-python-ecedbaac",
+  "name": "mochow-mcp-server-python",
+  "description": "Model Context Protocol Server for Mochow",
+  "repo_url": "https://github.com/baidu/mochow-mcp-server-python",
+  "source_hub": "mcp_so",
+  "owner": "baidu",
+  "stars": 3,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp",
+    "dev-web-backend-python"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "0010e6516e11bc046415794bce22dd5ba3137570",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 5,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:04:50Z",
+  "verification_level": "scanner_only"
+}

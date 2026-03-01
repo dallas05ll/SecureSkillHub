@@ -1,0 +1,25 @@
+{
+  "id": "mcp-api-expert-647fd1b9",
+  "name": "mcp-api-expert",
+  "description": "MCP server that enables MCP to make REST API calls",
+  "repo_url": "https://github.com/jwaldor/mcp-api-expert",
+  "source_hub": "mcp_so",
+  "owner": "jwaldor",
+  "stars": 9,
+  "primary_language": "unknown",
+  "tags": [
+    "integ"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "139894d29960f9c2ab2ca4c4d7aba1cec2413aaa",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 6,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:42:34Z",
+  "verification_level": "scanner_only"
+}

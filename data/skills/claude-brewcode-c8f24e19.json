@@ -1,0 +1,31 @@
+{
+  "id": "claude-brewcode-c8f24e19",
+  "name": "claude-brewcode",
+  "description": "Brewcode - full-featured development platform for Claude Code: infinite focus tasks with automatic context handoff, prompt optimization, skill/agent creation, quorum code reviews, project rules management, and knowledge persistence",
+  "repo_url": "https://github.com/kochetkov-ma/claude-brewcode",
+  "source_hub": "github_search",
+  "skill_type": "agent_skill",
+  "owner": "kochetkov-ma",
+  "stars": 12,
+  "license": "mit",
+  "primary_language": "markdown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp",
+    "dev",
+    "prod",
+    "prod-pm"
+  ],
+  "verification_status": "pass",
+  "overall_score": 83,
+  "risk_level": "low",
+  "verified_commit": null,
+  "scan_summary": null,
+  "last_updated": "2026-02-23T07:59:55Z",
+  "findings_summary": {
+    "notes": "Metadata-based verification. Score=83. Signals: stars=12 (>=10, +5); license='mit' (+5); owner='kochetkov-ma' (+3); primary_language='markdown'; source_hub='github_search'. Status: pass. Risk: low."
+  },
+  "trust_level": "low",
+  "scan_date": "2026-02-26T06:14:55Z",
+  "verification_level": "metadata_only"
+}

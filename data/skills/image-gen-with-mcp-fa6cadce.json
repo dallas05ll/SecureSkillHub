@@ -1,0 +1,27 @@
+{
+  "id": "image-gen-with-mcp-fa6cadce",
+  "name": "image_gen_with_mcp",
+  "description": "This project provides an HTTP server for image generation using Stable Diffusion, along with a Model Context Protocol (MCP) server that enables AI agents to request image generation.",
+  "repo_url": "https://github.com/aymec/image_gen_with_mcp",
+  "source_hub": "mcp_so",
+  "owner": "aymec",
+  "stars": 2,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp",
+    "data-ai-vision"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "7dd57bc23d372a0bf328a74b1b2deec0fc3aa90f",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 7,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:04:50Z",
+  "verification_level": "scanner_only"
+}

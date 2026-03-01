@@ -1,0 +1,29 @@
+{
+  "id": "claude-code-workflow-a94e1a16",
+  "name": "claude-code-workflow",
+  "description": "Claude Code Development Workflow Template - BDD/TDD Skill and code review CC hooks for autonomous feature development",
+  "repo_url": "https://github.com/zxkane/claude-code-workflow",
+  "source_hub": "github_search",
+  "skill_type": "agent_skill",
+  "owner": "zxkane",
+  "stars": 2,
+  "license": "",
+  "primary_language": "markdown",
+  "tags": [
+    "data-ai",
+    "dev",
+    "prod"
+  ],
+  "verification_status": "pass",
+  "overall_score": 73,
+  "risk_level": "medium",
+  "verified_commit": null,
+  "scan_summary": null,
+  "last_updated": "2026-02-13T02:48:36Z",
+  "findings_summary": {
+    "notes": "Metadata-based verification. Score=73. Signals: stars=2; no license detected; owner='zxkane' (+3); primary_language='markdown'; source_hub='github_search'. Status: pass. Risk: medium."
+  },
+  "trust_level": "low",
+  "scan_date": "2026-02-26T06:14:55Z",
+  "verification_level": "metadata_only"
+}

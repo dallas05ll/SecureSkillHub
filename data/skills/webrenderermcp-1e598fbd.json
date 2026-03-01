@@ -1,0 +1,26 @@
+{
+  "id": "webrenderermcp-1e598fbd",
+  "name": "WebRendererMCP",
+  "description": "MCP server that renders HTML produced by LLMs",
+  "repo_url": "https://github.com/zys5945/WebRendererMCP",
+  "source_hub": "mcp_so",
+  "owner": "zys5945",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "dev-web"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "91f80e1cda9d04ec8cfd9a9c65b9af4adf9807f4",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 6,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:43:00Z",
+  "verification_level": "scanner_only"
+}

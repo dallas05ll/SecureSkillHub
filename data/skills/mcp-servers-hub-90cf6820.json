@@ -1,0 +1,26 @@
+{
+  "id": "mcp-servers-hub-90cf6820",
+  "name": "mcp-servers-hub",
+  "description": "Explore MCP Servers and Clients.",
+  "repo_url": "https://github.com/tmstack/mcp-servers-hub",
+  "source_hub": "mcp_so",
+  "owner": "tmstack",
+  "stars": 7,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "7fee4f36d189b09763ee8bd431445591d5218672",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 1,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:54:02Z",
+  "verification_level": "scanner_only"
+}

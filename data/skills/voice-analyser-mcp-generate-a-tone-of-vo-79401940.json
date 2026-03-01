@@ -1,0 +1,25 @@
+{
+  "id": "voice-analyser-mcp-generate-a-tone-of-vo-79401940",
+  "name": "voice-analyser-mcp---generate-a-tone-of-voice-guide-for-your-llm-to-follow",
+  "description": "Traditional style guides list rules: \"Use short sentences. Vary paragraph length. Include personal anecdotes.\"\r\n\r\nThis doesn't work. Writers don't follow rules - they channel voice.\r\n\r\nThis tool extracts the statistical fingerprint of your writing and presents it as immersive examples with annotations showing what makes each passage feel human. The goal is voice replication through pattern recognition, not rule compliance.",
+  "repo_url": "https://github.com/houtini-ai/voice-analyser-mcp---generate-a-tone-of-voice-guide-for-your-llm-to-follow",
+  "source_hub": "mcp_so",
+  "owner": "houtini-ai",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-audio",
+    "sec-scan",
+    "util",
+    "repo_unavailable"
+  ],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null,
+  "repo_status": "unavailable",
+  "repo_check_date": "2026-02-28T20:53:06.869370+00:00",
+  "repo_check_error": "fatal: could not read Username for 'https://github.com': Device not configured"
+}

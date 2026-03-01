@@ -1,0 +1,26 @@
+{
+  "id": "unleash-mcp-17da94cc",
+  "name": "unleash-mcp",
+  "description": "A Model Context Protocol (MCP) server implementation that integrates with Unleash Feature Toggle system.",
+  "repo_url": "https://github.com/cuongtl1992/unleash-mcp",
+  "source_hub": "mcp_so",
+  "owner": "cuongtl1992",
+  "stars": 10,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "83b9e73c7b14dfe02a2111fc2639eeb253dd2534",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 79,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:42:34Z",
+  "verification_level": "scanner_only"
+}

@@ -1,0 +1,43 @@
+{
+  "id": "n8n-workflow-skills-997e8b19",
+  "name": "n8n Workflow Skills",
+  "description": "Comprehensive n8n workflow automation skill pack for AI assistants. Covers 545 n8n nodes and 20 curated workflow templates. Built on n8n-mcp architecture with five-layer modular TypeScript pipeline (collectors, parsers, organizers, generators, build scripts). Supports Claude Code, Claude.ai, and Claude Desktop.",
+  "repo_url": "https://github.com/haunchen/n8n-skills",
+  "source_hub": "claude_skills_hub",
+  "skill_type": "agent_skill",
+  "owner": "haunchen",
+  "stars": 215,
+  "forks": 18,
+  "license": "other",
+  "primary_language": "TypeScript",
+  "tags": [
+    "data-ai",
+    "dev",
+    "dev-devops-ci",
+    "prod"
+  ],
+  "source_tags": [
+    "automation",
+    "ai",
+    "productivity",
+    "n8n"
+  ],
+  "categories": [
+    "dev",
+    "productivity"
+  ],
+  "version": "1.0.0",
+  "requires_code_execution": false,
+  "verification_status": "pass",
+  "overall_score": 84,
+  "risk_level": "low",
+  "verified_commit": null,
+  "scan_summary": null,
+  "findings_summary": {
+    "notes": "Well-structured TypeScript project (Oct 2025) for generating n8n skill packs. Clean source layout (src/analyzers, src/collectors, src/generators, src/organizers, src/parsers). Has CLAUDE.md, CODE_OF_CONDUCT.md, SECURITY.md, CONTRIBUTING.md, ATTRIBUTIONS.md — all in English and Traditional Chinese. Has proper Jest test config. SECURITY.md present indicating security awareness. ATTRIBUTIONS.md credits the n8n-mcp project this is built on. The project generates SKILL.md files with node documentation — no code execution at runtime. License is 'Other' (NOASSERTION) — this warrants attention but the ATTRIBUTIONS file suggests licensing is acknowledged. No hooks, no install scripts, no dangerous patterns. Note: actual star count (215) slightly higher than recorded (194)."
+  },
+  "verification_date": "2026-02-25",
+  "trust_level": "medium",
+  "scan_date": "2026-02-26T02:18:29Z",
+  "verification_level": "scanner_only"
+}

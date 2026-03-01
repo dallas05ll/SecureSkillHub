@@ -1,0 +1,50 @@
+{
+  "id": "theme-factory-f75f048e",
+  "name": "Theme Factory",
+  "description": "Style claude.ai artifacts with 10 professionally designed pre-set themes (e.g., Arctic Frost, Midnight Galaxy, Ocean Depths, Desert Rose) or generate fully custom themes on-the-fly based on user descriptions. Each theme specifies a complete design system including color palette, typography, spacing, and visual identity. A reference theme showcase PDF is included.",
+  "repo_url": "https://github.com/anthropics/skills/tree/main/theme-factory",
+  "source_hub": "claude_skills_hub",
+  "skill_type": "agent_skill",
+  "owner": "anthropics",
+  "stars": 0,
+  "forks": 7854,
+  "license": "Apache-2.0",
+  "primary_language": "Markdown",
+  "tags": [
+    "data-ai",
+    "sec-auth",
+    "repo_unavailable"
+  ],
+  "source_tags": [
+    "themes",
+    "styling",
+    "design",
+    "colors",
+    "fonts"
+  ],
+  "categories": [
+    "design"
+  ],
+  "version": "1.0.0",
+  "requires_code_execution": false,
+  "verification_status": "pass",
+  "overall_score": 92,
+  "risk_level": "low",
+  "verified_commit": null,
+  "scan_summary": null,
+  "findings_summary": {
+    "has_readme": true,
+    "has_security_policy": false,
+    "has_mcp_server": false,
+    "dangerous_patterns": [],
+    "notes": "Official Anthropic skill from anthropics/skills repository. Contains SKILL.md, 10 pre-built theme markdown files, a theme showcase PDF, and Apache-2.0 LICENSE.txt. Verified at skills/theme-factory/ in the repo tree."
+  },
+  "parent_repo_stars": 75705,
+  "is_monorepo_child": true,
+  "trust_level": "medium",
+  "scan_date": "2026-02-26T03:00:51Z",
+  "repo_status": "unavailable",
+  "repo_check_date": "2026-02-28T20:53:01.787025+00:00",
+  "repo_check_error": "fatal: repository 'https://github.com/anthropics/skills/tree/main/theme-factory/' not found",
+  "verification_level": "scanner_only"
+}

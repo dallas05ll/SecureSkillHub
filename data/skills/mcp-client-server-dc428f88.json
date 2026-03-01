@@ -1,0 +1,28 @@
+{
+  "id": "mcp-client-server-dc428f88",
+  "name": "mcp_client_server",
+  "description": "his is a Node.js command-line application that integrates with GitHub via the Model Context Protocol (MCP) server and OpenAI's API.",
+  "repo_url": "https://github.com/devmadni/mcp_client_server",
+  "source_hub": "mcp_so",
+  "owner": "devmadni",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp",
+    "dev-web-backend-node",
+    "integ"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "a1f68ff90e668ab10142946196b25b7a73005634",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 4,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:40Z",
+  "verification_level": "scanner_only"
+}

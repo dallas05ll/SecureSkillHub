@@ -1,0 +1,27 @@
+{
+  "id": "marketscope-ai-powered-industry-segment--8f050b25",
+  "name": "MarketScope-AI-Powered-Industry-Segment-Intelligence-Platform",
+  "description": "This is our final project , in this we have utlized langgraph coupled with various mcp server mounted of fastapi using fastmcp to create mutlifaceted application for healthcare vendor to make them understand more about their product performance and provide suggestions and strategies",
+  "repo_url": "https://github.com/BigDataTeam5/MarketScope-AI-Powered-Industry-Segment-Intelligence-Platform",
+  "source_hub": "mcp_so",
+  "owner": "BigDataTeam5",
+  "stars": 1,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "dev-web-backend-python",
+    "integ"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "9ad16780cf09ec420d4e7633f3a58c9e1f99eb2b",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 46,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:41Z",
+  "verification_level": "scanner_only"
+}

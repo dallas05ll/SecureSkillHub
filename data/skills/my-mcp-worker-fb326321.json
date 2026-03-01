@@ -1,0 +1,25 @@
+{
+  "id": "my-mcp-worker-fb326321",
+  "name": "my-mcp-worker",
+  "description": "MCP Server with Cloudflare Workers",
+  "repo_url": "https://github.com/sivakumarl/my-mcp-worker",
+  "source_hub": "mcp_so",
+  "owner": "sivakumarl",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "integ-cloud"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "f75f790cf4108da9b232312021377a42c9466259",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 8,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:42Z",
+  "verification_level": "scanner_only"
+}

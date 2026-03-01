@@ -1,0 +1,25 @@
+{
+  "id": "mcp-human-resources-ff65e474",
+  "name": "mcp-human-resources",
+  "description": "Spring Boot MCP Server implementation focused on exposing Human Resources department data",
+  "repo_url": "https://github.com/dbrown725/mcp-human-resources",
+  "source_hub": "mcp_so",
+  "owner": "dbrown725",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "data"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "ecc1f29c6831c80bed142ca046137284234e5b62",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 19,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:42Z",
+  "verification_level": "scanner_only"
+}

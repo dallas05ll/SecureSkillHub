@@ -1,0 +1,26 @@
+{
+  "id": "mcp-optionsflow-5e1b5c3a",
+  "name": "mcp-optionsflow",
+  "description": "An MCP server providing advanced options analysis through Yahoo Finance, supporting Greeks calculations, strategy evaluation (CCS/PCS/CSP/CC), and risk metrics. Built for MCP with Claude.ai.",
+  "repo_url": "https://github.com/twolven/mcp-optionsflow",
+  "source_hub": "mcp_so",
+  "owner": "twolven",
+  "stars": 25,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "util-monitor"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "e633054da3b8adbccf4162f86b60a1ee9b2939d8",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 3,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:32:12Z",
+  "verification_level": "scanner_only"
+}

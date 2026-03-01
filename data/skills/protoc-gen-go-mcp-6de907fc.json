@@ -1,0 +1,26 @@
+{
+  "id": "protoc-gen-go-mcp-6de907fc",
+  "name": "protoc-gen-go-mcp",
+  "description": "Go protobuf compiler extension to turn any gRPC service into an MCP server",
+  "repo_url": "https://github.com/redpanda-data/protoc-gen-go-mcp",
+  "source_hub": "mcp_so",
+  "owner": "redpanda-data",
+  "stars": 187,
+  "primary_language": "unknown",
+  "tags": [
+    "dev",
+    "dev-web-backend-go"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "a98b94b5957ad55a9a2c151223c5bd99f251e989",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 10,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-27T06:36:35Z",
+  "verification_level": "scanner_only"
+}

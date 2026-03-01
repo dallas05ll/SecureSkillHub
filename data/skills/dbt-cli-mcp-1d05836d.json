@@ -1,0 +1,26 @@
+{
+  "id": "dbt-cli-mcp-1d05836d",
+  "name": "dbt-cli-mcp",
+  "description": "DBT CLI MCP Server",
+  "repo_url": "https://github.com/MammothGrowth/dbt-cli-mcp",
+  "source_hub": "mcp_so",
+  "owner": "MammothGrowth",
+  "stars": 19,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "6283b0507a074347dbc08ad95cd335068ef7c65c",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 53,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:42:36Z",
+  "verification_level": "scanner_only"
+}

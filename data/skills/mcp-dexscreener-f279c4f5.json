@@ -1,0 +1,26 @@
+{
+  "id": "mcp-dexscreener-f279c4f5",
+  "name": "mcp-dexscreener",
+  "description": "Dexscreener API's MCP server - let your AI agent check any on-chain price using Dexscreener's free and open API",
+  "repo_url": "https://github.com/janswist/mcp-dexscreener",
+  "source_hub": "mcp_so",
+  "owner": "janswist",
+  "stars": 16,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "integ"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "e19f0327dbb3bdf8c22e291684bccbc0c0f4475c",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 5,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:42:36Z",
+  "verification_level": "scanner_only"
+}

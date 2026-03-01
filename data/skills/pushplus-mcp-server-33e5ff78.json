@@ -1,0 +1,26 @@
+{
+  "id": "pushplus-mcp-server-33e5ff78",
+  "name": "pushplus-mcp-server",
+  "description": "使用Java开发的pushplus MCP Server。\n提供使用pushplus推送消息的能力。",
+  "repo_url": "https://github.com/pushplus/pushplus-mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "pushplus",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "8abc7b9ebce583928cb17fa94b6fd7e0eb690fd7",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 2,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:42Z",
+  "verification_level": "scanner_only"
+}

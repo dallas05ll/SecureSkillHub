@@ -1,0 +1,25 @@
+{
+  "id": "mcp-python-starter-ecb2b853",
+  "name": "mcp-python-starter",
+  "description": "A starter MCP server in Python.",
+  "repo_url": "https://github.com/SamMorrowDrums/mcp-python-starter",
+  "source_hub": "mcp_so",
+  "owner": "SamMorrowDrums",
+  "stars": 16,
+  "primary_language": "unknown",
+  "tags": [
+    "dev-web-backend-python"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "86a59aab0f8ed02a2959c0a4f34db2f14f4db9ad",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 11,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:42:34Z",
+  "verification_level": "scanner_only"
+}

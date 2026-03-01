@@ -1,0 +1,32 @@
+{
+  "id": "antigravity-skills-d66f1950",
+  "name": "antigravity-skills",
+  "description": "Empower agents with professional capabilities through modular SKILL.md definitions for full-stack development, complex logic planning, multimedia processing, and more. Compatible with Claude Code, Gemini CLI, Cursor, Codex, and other AI coding tools.",
+  "repo_url": "https://github.com/guanyang/antigravity-skills",
+  "source_hub": "github_search",
+  "skill_type": "agent_skill",
+  "owner": "guanyang",
+  "stars": 312,
+  "forks": 0,
+  "license": "mit",
+  "primary_language": "Python",
+  "tags": [
+    "data-ai",
+    "dev",
+    "sec-crypto",
+    "util",
+    "util-media"
+  ],
+  "verification_status": "pass",
+  "overall_score": 81,
+  "risk_level": "low",
+  "verified_commit": null,
+  "scan_summary": null,
+  "findings_summary": {
+    "notes": "Repository confirmed (312 stars, MIT, Python, created Jan 2026). Comprehensive skills library with 20+ skill subdirectories (brainstorming, dispatching-parallel-agents, frontend-design, context-optimization, etc.). Structured .claude-plugin configuration. Includes skills_index.json and skills_sources.json for metadata tracking. CONTRIBUTING.md and SECURITY.md present. Bilingual documentation (EN/ZH). Cross-IDE compatibility is a notable strength. Python scripts in skills/. Concern: 0 recorded forks despite 312 stars - may indicate recent star growth."
+  },
+  "last_updated": "2026-02-25T13:23:05Z",
+  "trust_level": "low",
+  "scan_date": "2026-02-26T02:21:43Z",
+  "verification_level": "metadata_only"
+}

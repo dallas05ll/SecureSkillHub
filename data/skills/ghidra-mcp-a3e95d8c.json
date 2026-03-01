@@ -1,0 +1,26 @@
+{
+  "id": "ghidra-mcp-a3e95d8c",
+  "name": "ghidra_mcp",
+  "description": "Ghidra MCP server that extracts decompiled binary context and exposes it to LLMs via Model Context Protocol.",
+  "repo_url": "https://github.com/Bamimore-Tomi/ghidra_mcp",
+  "source_hub": "mcp_so",
+  "owner": "Bamimore-Tomi",
+  "stars": 4,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "de9ea219c1f4d38c98fd36ba02385a1c93bd99de",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 6,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:54:02Z",
+  "verification_level": "scanner_only"
+}

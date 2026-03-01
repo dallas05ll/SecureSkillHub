@@ -1,0 +1,26 @@
+{
+  "id": "anki-mcp-server-b7667ecf",
+  "name": "Anki-MCP-Server",
+  "description": "Anki MCP Server to allow LLMs to create and manage Anki decks via Anki Connect",
+  "repo_url": "https://github.com/ethangillani/Anki-MCP-Server",
+  "source_hub": "mcp_so",
+  "owner": "ethangillani",
+  "stars": 1,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "integ"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "c93c399ab6ad49e3586deb85ab49869c43da2cd0",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 6,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:40Z",
+  "verification_level": "scanner_only"
+}

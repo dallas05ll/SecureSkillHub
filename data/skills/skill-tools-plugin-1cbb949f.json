@@ -1,0 +1,29 @@
+{
+  "id": "skill-tools-plugin-1cbb949f",
+  "name": "skill-tools-plugin",
+  "description": "Claude Code plugin for validating, linting, and scoring SKILL.md files",
+  "repo_url": "https://github.com/skill-tools/skill-tools-plugin",
+  "source_hub": "github_search",
+  "skill_type": "agent_skill",
+  "owner": "skill-tools",
+  "stars": 0,
+  "license": "mit",
+  "primary_language": "markdown",
+  "tags": [
+    "data-ai",
+    "dev",
+    "util",
+    "util-file"
+  ],
+  "verification_status": "manual_review",
+  "overall_score": 68,
+  "risk_level": "medium",
+  "verified_commit": null,
+  "scan_summary": null,
+  "last_updated": "2026-02-19T16:29:54Z",
+  "findings_summary": {
+    "notes": "Metadata-based verification. Score=68. Signals: stars=0 (-10); license='mit' (+5); owner='skill-tools' (+3); primary_language='markdown'; source_hub='github_search'. Status: manual_review. Risk: medium."
+  },
+  "trust_level": "low",
+  "scan_date": "2026-02-26T06:14:56Z"
+}

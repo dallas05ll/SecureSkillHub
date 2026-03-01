@@ -1,0 +1,26 @@
+{
+  "id": "mcp-postman-b38e9970",
+  "name": "mcp-postman",
+  "description": "MCP Server for running Postman Collections with Newman",
+  "repo_url": "https://github.com/shannonlal/mcp-postman",
+  "source_hub": "mcp_so",
+  "owner": "shannonlal",
+  "stars": 84,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "fd551a4ed029ccee08c0292e0efb226b6b3d8420",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 27,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-27T06:40:44Z",
+  "verification_level": "scanner_only"
+}

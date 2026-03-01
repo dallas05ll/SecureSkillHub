@@ -1,0 +1,27 @@
+{
+  "id": "jupyter-mcp-server-63fe065f",
+  "name": "jupyter-mcp-server",
+  "description": "An MCP service specifically developed for AI to connect and manage Jupyter Notebooks",
+  "repo_url": "https://github.com/ChengJiale150/jupyter-mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "ChengJiale150",
+  "stars": 8,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "integ",
+    "prod-notes"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "13021afc8bead75ab32129dad2ceb28a2c43335c",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 27,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:42:34Z",
+  "verification_level": "scanner_only"
+}

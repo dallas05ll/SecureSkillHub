@@ -1,0 +1,27 @@
+{
+  "id": "mysql-mcp-e8dd734d",
+  "name": "mysql-mcp",
+  "description": "An MCP server that allows the model to safely obtain information from the MySQL database.",
+  "repo_url": "https://github.com/the-nine-nation/mysql-mcp",
+  "source_hub": "mcp_so",
+  "owner": "the-nine-nation",
+  "stars": 1,
+  "primary_language": "unknown",
+  "tags": [
+    "data",
+    "data-ai",
+    "data-db"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "1c32ca1dd4c95cc796e578a1cfe32cd10f5fae92",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 5,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:41Z",
+  "verification_level": "scanner_only"
+}

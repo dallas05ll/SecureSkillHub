@@ -1,0 +1,26 @@
+{
+  "id": "trino-mcp-26cc1bcb",
+  "name": "trino_mcp",
+  "description": "MCP Server for Trino",
+  "repo_url": "https://github.com/stinkgen/trino_mcp",
+  "source_hub": "mcp_so",
+  "owner": "stinkgen",
+  "stars": 10,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "fb6777f1874cba6782142d841b4b735dfbb3d719",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 36,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:42:34Z",
+  "verification_level": "scanner_only"
+}

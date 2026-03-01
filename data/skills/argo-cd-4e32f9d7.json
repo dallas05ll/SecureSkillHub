@@ -1,0 +1,23 @@
+{
+  "id": "argo-cd-4e32f9d7",
+  "name": "Argo CD",
+  "description": "An implementation of Model Context Protocol (MCP) server for Argo CD, enabling AI assistants to interact with your Argo CD applications through natural language.",
+  "repo_url": "https://github.com/akuity/Argo CD",
+  "source_hub": "mcp_so",
+  "owner": "akuity",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp",
+    "repo_unavailable"
+  ],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null,
+  "repo_status": "unavailable",
+  "repo_check_date": "2026-02-28T20:51:19.101010+00:00",
+  "repo_check_error": "fatal: unable to access 'https://github.com/akuity/Argo CD/': URL rejected: Malformed input to a URL function"
+}

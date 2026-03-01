@@ -1,0 +1,25 @@
+{
+  "id": "untapped-mcp-d010a5a4",
+  "name": "untapped-mcp",
+  "description": "A Untapped MCP server to be used with claude.",
+  "repo_url": "https://github.com/etoxin/untapped-mcp",
+  "source_hub": "mcp_so",
+  "owner": "etoxin",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "e3378a9a75ac9c142e21f1a117e8ce394b3fcce7",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 12,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:42:59Z",
+  "verification_level": "scanner_only"
+}

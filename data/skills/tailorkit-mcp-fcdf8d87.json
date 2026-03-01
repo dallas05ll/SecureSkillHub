@@ -1,0 +1,26 @@
+{
+  "id": "tailorkit-mcp-fcdf8d87",
+  "name": "tailorkit-mcp",
+  "description": "TailorKit MCP is a powerful product customization framework for e-commerce that enables merchants to create interactive personalization experiences. Features template management, layer control, and Shopify integration for offering customizable products with minimal development effort.",
+  "repo_url": "https://github.com/sellersmith/tailorkit-mcp",
+  "source_hub": "mcp_so",
+  "owner": "sellersmith",
+  "stars": 6,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "integ"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "485b31a1dedfdb25bca25847be5b9ee6fc8f6745",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 69,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:54:02Z",
+  "verification_level": "scanner_only"
+}

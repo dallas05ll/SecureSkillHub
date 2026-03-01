@@ -1,0 +1,26 @@
+{
+  "id": "mcp-mianshiya-server-587ebafc",
+  "name": "mcp-mianshiya-server",
+  "description": "MCP Server面试鸭搜索题目的服务",
+  "repo_url": "https://github.com/gulihua10010/mcp-mianshiya-server",
+  "source_hub": "mcp_so",
+  "owner": "gulihua10010",
+  "stars": 118,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "bfc51a7b9d7244f4f3bfeb3d5874f0e10e044257",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 3,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-27T06:40:44Z",
+  "verification_level": "scanner_only"
+}

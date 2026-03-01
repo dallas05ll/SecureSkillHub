@@ -1,0 +1,30 @@
+{
+  "id": "cursor-rules-java-a489ac4f",
+  "name": "cursor-rules-java",
+  "description": "A collection of system prompts and skills for Java software engineers covering Maven best practices, dependency management, and Java-specific AI coding workflows for Claude Code, Cursor, Copilot, and IntelliJ.",
+  "repo_url": "https://github.com/jabrena/cursor-rules-java",
+  "source_hub": "github_search",
+  "skill_type": "agent_skill",
+  "owner": "jabrena",
+  "stars": 297,
+  "forks": 0,
+  "license": "apache-2.0",
+  "primary_language": "Java",
+  "tags": [
+    "data-ai",
+    "dev",
+    "prod"
+  ],
+  "verification_status": "pass",
+  "overall_score": 77,
+  "risk_level": "low",
+  "verified_commit": null,
+  "scan_summary": null,
+  "findings_summary": {
+    "notes": "Repository confirmed (297 stars, Apache-2.0, Java, created Feb 2025). Mature project with CHANGELOG.md, CONTRIBUTING.md, Maven wrapper (mvnw), and a site-generator. Skills are in .agents/skills/ directory (symlinked from root 'skills'). Contains 2 confirmed skill directories (110-java-maven-best-practices, 111-java-maven-dependencies). Multi-tool support (.cursor, .claude, .agents). Comprehensive documentation (AGENTS.md, SYSTEM-PROMPTS-JAVA.md). A site-generator/ and skills-generator/ indicate tooling around skill creation. No security issues detected."
+  },
+  "last_updated": "2026-02-25T09:02:25Z",
+  "trust_level": "low",
+  "scan_date": "2026-02-26T02:22:41Z",
+  "verification_level": "scanner_only"
+}

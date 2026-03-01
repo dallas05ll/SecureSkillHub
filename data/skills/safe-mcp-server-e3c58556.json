@@ -1,0 +1,25 @@
+{
+  "id": "safe-mcp-server-e3c58556",
+  "name": "safe-mcp-server",
+  "description": "An MCP server implementation for interacting with Safe (Gnosis Safe) smart contract wallets",
+  "repo_url": "https://github.com/5ajaki/safe-mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "5ajaki",
+  "stars": 2,
+  "primary_language": "unknown",
+  "tags": [
+    "sec-crypto"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "6b03332695c2023b0ce0a7557a71074551f160ac",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 6,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:04:50Z",
+  "verification_level": "scanner_only"
+}

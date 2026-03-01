@@ -1,0 +1,26 @@
+{
+  "id": "web-search-agent-e332ec92",
+  "name": "web-search-agent",
+  "description": "Showcase: Let an agentic coding assistant create a small web search agent with Pydantic AI using MCP server",
+  "repo_url": "https://github.com/thetom42/web-search-agent",
+  "source_hub": "mcp_so",
+  "owner": "thetom42",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "util-search"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "88a1cc73aaaa8275e8f8cc6181160ce833821d0c",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 2,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:42:59Z",
+  "verification_level": "scanner_only"
+}

@@ -1,0 +1,26 @@
+{
+  "id": "roo-code-custom-mode-editor-mcp-server-62f7a4fe",
+  "name": "roo-code-custom-mode-editor-mcp-server",
+  "description": "An MCP server that knows how to edit the Roo Code custom modes file",
+  "repo_url": "https://github.com/raymondlowe/roo-code-custom-mode-editor-mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "raymondlowe",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "dev",
+    "util-file"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "cada5bfeeff4bda9fab2a00165399493818499e2",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 5,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:40Z",
+  "verification_level": "scanner_only"
+}

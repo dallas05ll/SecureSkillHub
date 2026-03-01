@@ -1,0 +1,24 @@
+{
+  "id": "open-meteo-weather-mcp-d2f87f78",
+  "name": "open-meteo-weather-mcp",
+  "description": "A simple MCP server that provides current weather and hourly weather forecasts for a given location using the Open-Meteo API.\n\nDownload from https://github.com/walidsi/openmeteo-weather-mcp",
+  "repo_url": "https://github.com/walidsi/open-meteo-weather-mcp",
+  "source_hub": "mcp_so",
+  "owner": "walidsi",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "util-file",
+    "util-map",
+    "repo_unavailable"
+  ],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null,
+  "repo_status": "unavailable",
+  "repo_check_date": "2026-02-28T20:52:40.176599+00:00",
+  "repo_check_error": "fatal: could not read Username for 'https://github.com': Device not configured"
+}

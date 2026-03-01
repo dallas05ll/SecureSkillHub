@@ -1,0 +1,29 @@
+{
+  "id": "mcp-timeplus-02e7dfdc",
+  "name": "mcp-timeplus",
+  "description": "Execute SQL queries and manage databases seamlessly with Timeplus. Leverage powerful tools to interact with your data, Kafka topics, and Iceberg tables efficiently. Enhance your data workflows with a user-friendly interface and robust backend capabilities.",
+  "repo_url": "https://github.com/jovezhong/mcp-timeplus",
+  "source_hub": "mcp_so",
+  "owner": "jovezhong",
+  "stars": 12,
+  "primary_language": "unknown",
+  "tags": [
+    "data",
+    "data-ai",
+    "data-db",
+    "prod",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "20c52f41b6b530152aa3458f4702fe2f30efd000",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 10,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:42:34Z",
+  "verification_level": "scanner_only"
+}

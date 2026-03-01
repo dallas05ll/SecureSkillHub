@@ -1,0 +1,26 @@
+{
+  "id": "fhir-mcp-server-223bc3a5",
+  "name": "fhir-mcp-server",
+  "description": "A C#-based Model Context Protocol (MCP) server for FHIR",
+  "repo_url": "https://github.com/quiquemz/fhir-mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "quiquemz",
+  "stars": 3,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "4419919af0b0665a097018a1b8b400cc7c97d23f",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 2,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:04:51Z",
+  "verification_level": "scanner_only"
+}

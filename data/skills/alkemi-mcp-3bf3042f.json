@@ -1,0 +1,27 @@
+{
+  "id": "alkemi-mcp-3bf3042f",
+  "name": "alkemi-mcp",
+  "description": "Integrate your Alkemi Data, connected to Snowflake, Google BigQuery, DataBricks and other sources, with your MCP Client.",
+  "repo_url": "https://github.com/alkemi-ai/alkemi-mcp",
+  "source_hub": "mcp_so",
+  "owner": "alkemi-ai",
+  "stars": 2,
+  "primary_language": "unknown",
+  "tags": [
+    "data",
+    "integ",
+    "integ-cloud-gcp"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "3e289324e443dfc00343d688aef845808ccf4c3b",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 6,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:04:51Z",
+  "verification_level": "scanner_only"
+}

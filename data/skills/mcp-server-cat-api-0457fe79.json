@@ -1,0 +1,25 @@
+{
+  "id": "mcp-server-cat-api-0457fe79",
+  "name": "mcp-server-cat-api",
+  "description": "Experimental MCP server for cat API",
+  "repo_url": "https://github.com/ameba23/mcp-server-cat-api",
+  "source_hub": "mcp_so",
+  "owner": "ameba23",
+  "stars": 1,
+  "primary_language": "unknown",
+  "tags": [
+    "integ"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "02707674ede4896565077841cc2635ff00e80384",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 2,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:40Z",
+  "verification_level": "scanner_only"
+}

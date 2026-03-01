@@ -1,0 +1,25 @@
+{
+  "id": "openapi-mcpserver-generator-75203773",
+  "name": "openapi-mcpserver-generator",
+  "description": "Generate MCP server from openapi specifications",
+  "repo_url": "https://github.com/vincent-pli/openapi-mcpserver-generator",
+  "source_hub": "mcp_so",
+  "owner": "vincent-pli",
+  "stars": 1,
+  "primary_language": "unknown",
+  "tags": [
+    "integ"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "cfc9783af61bc3bedeae1b8c1a76cff649bb676a",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 12,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:41Z",
+  "verification_level": "scanner_only"
+}

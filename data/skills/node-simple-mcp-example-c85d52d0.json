@@ -1,0 +1,25 @@
+{
+  "id": "node-simple-mcp-example-c85d52d0",
+  "name": "node-simple-mcp-example",
+  "description": "Simple MCP server using Claude to interact with a local JSON server",
+  "repo_url": "https://github.com/sunmer/node-simple-mcp-example",
+  "source_hub": "mcp_so",
+  "owner": "sunmer",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "cc8927ec98e9ee46e6e1396c1e520f5962c11c95",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 8,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:40Z",
+  "verification_level": "scanner_only"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "mcp-server-notion-609b61ed",
+  "name": "mcp-server-notion",
+  "description": "A Model Context Protocol server wrapping the official Notion SDK",
+  "repo_url": "https://github.com/ramidecodes/mcp-server-notion",
+  "source_hub": "mcp_so",
+  "owner": "ramidecodes",
+  "stars": 10,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp",
+    "dev",
+    "prod-docs"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "13c5a3b4597ebaae5c435701b939554f4ff188fe",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 15,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:42:34Z",
+  "verification_level": "scanner_only"
+}

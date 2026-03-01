@@ -1,0 +1,27 @@
+{
+  "id": "discordmcp-3fd76c74",
+  "name": "discordmcp",
+  "description": "Discord MCP Server for Claude Integration",
+  "repo_url": "https://github.com/v-3/discordmcp",
+  "source_hub": "mcp_so",
+  "owner": "v-3",
+  "stars": 176,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "integ",
+    "prod-comm"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "39622af0333bcd324e811a2390146927517fb03d",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 5,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-27T06:36:35Z",
+  "verification_level": "scanner_only"
+}

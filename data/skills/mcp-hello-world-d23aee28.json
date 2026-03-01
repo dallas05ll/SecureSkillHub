@@ -1,0 +1,26 @@
+{
+  "id": "mcp-hello-world-d23aee28",
+  "name": "mcp-hello-world",
+  "description": "A simple Hello World MCP server for CI/CD test",
+  "repo_url": "https://github.com/lobehub/mcp-hello-world",
+  "source_hub": "mcp_so",
+  "owner": "lobehub",
+  "stars": 22,
+  "primary_language": "unknown",
+  "tags": [
+    "dev-devops-ci",
+    "dev-testing"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "9ec2a14b4f0ebd64681149e160a6b7cc7c85ea9f",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 16,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:32:11Z",
+  "verification_level": "scanner_only"
+}

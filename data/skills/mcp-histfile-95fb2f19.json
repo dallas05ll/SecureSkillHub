@@ -1,0 +1,27 @@
+{
+  "id": "mcp-histfile-95fb2f19",
+  "name": "mcp-histfile",
+  "description": "An MCP(Model Context Protocol) Server for retrieving and sharing your bash/zsh history with MCP Client (Cursor, Claude etc.)",
+  "repo_url": "https://github.com/rajpdus/mcp-histfile",
+  "source_hub": "mcp_so",
+  "owner": "rajpdus",
+  "stars": 2,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp",
+    "util-file"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "3cf8a71a227f89e4bfe20d3570e01284373e785e",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 4,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:04:50Z",
+  "verification_level": "scanner_only"
+}

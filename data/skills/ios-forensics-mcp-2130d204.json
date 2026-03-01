@@ -1,0 +1,25 @@
+{
+  "id": "ios-forensics-mcp-2130d204",
+  "name": "ios-forensics-mcp",
+  "description": "iOS Forensics MCP Server for analyzing iPhone/iPad file systems",
+  "repo_url": "https://github.com/RLabs-Inc/ios-forensics-mcp",
+  "source_hub": "mcp_so",
+  "owner": "RLabs-Inc",
+  "stars": 11,
+  "primary_language": "unknown",
+  "tags": [
+    "util-file"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "f4c4fe9da88a9dbe08f15ba44f87339b845c1a92",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 54,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:42:36Z",
+  "verification_level": "scanner_only"
+}

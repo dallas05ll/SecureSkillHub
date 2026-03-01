@@ -1,0 +1,27 @@
+{
+  "id": "mcp-lab-e1947a6b",
+  "name": "mcp-lab",
+  "description": "MCP(Model Context Protolol) server-client examples, code, designs, and tutorials.",
+  "repo_url": "https://github.com/cevheri/mcp-lab",
+  "source_hub": "mcp_so",
+  "owner": "cevheri",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp",
+    "dev"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "33dc40f7ce0279443e382dc180124015fc3682f4",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 1,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:40Z",
+  "verification_level": "scanner_only"
+}

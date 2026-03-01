@@ -1,0 +1,27 @@
+{
+  "id": "mcp-server-libsql-b50b3062",
+  "name": "mcp-server-libsql",
+  "description": "Model Context Protocol server for libsql",
+  "repo_url": "https://github.com/nicholasq/mcp-server-libsql",
+  "source_hub": "mcp_so",
+  "owner": "nicholasq",
+  "stars": 6,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp",
+    "data-db"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "d6faedd3275cccfa7f5ec413ab510473bc32eba3",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 5,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:54:02Z",
+  "verification_level": "scanner_only"
+}

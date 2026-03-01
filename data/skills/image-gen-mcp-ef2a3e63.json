@@ -1,0 +1,28 @@
+{
+  "id": "image-gen-mcp-ef2a3e63",
+  "name": "image-gen-mcp",
+  "description": "A MCP server that provides text-to-image generation capabilities using Stable Diffusion WebUI API (ForgeUI/AUTOMATIC-1111)",
+  "repo_url": "https://github.com/Ichigo3766/image-gen-mcp",
+  "source_hub": "mcp_so",
+  "owner": "Ichigo3766",
+  "stars": 30,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai-nlp",
+    "data-ai-vision",
+    "integ",
+    "prod"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "0829260ebc6efca98e6ce2297d0f46fad35dc11e",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 5,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:32:12Z",
+  "verification_level": "scanner_only"
+}

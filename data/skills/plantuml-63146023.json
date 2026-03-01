@@ -1,0 +1,31 @@
+{
+  "id": "plantuml-63146023",
+  "name": "plantuml",
+  "description": "A Plantuml Claude Skill that can generate images and help you create Plantuml digrams from source code. It can also extract plantuml diagrams from a markdown file and then generate each of those to images and create a new markdown file with image links to those diagrams.",
+  "repo_url": "https://github.com/SpillwaveSolutions/plantuml",
+  "source_hub": "github_search",
+  "skill_type": "agent_skill",
+  "owner": "SpillwaveSolutions",
+  "stars": 7,
+  "license": "",
+  "primary_language": "markdown",
+  "tags": [
+    "data-ai",
+    "data-ai-vision",
+    "dev",
+    "prod-docs",
+    "util-file"
+  ],
+  "verification_status": "pass",
+  "overall_score": 73,
+  "risk_level": "medium",
+  "verified_commit": null,
+  "scan_summary": null,
+  "last_updated": "2026-02-21T03:41:27Z",
+  "findings_summary": {
+    "notes": "Metadata-based verification. Score=73. Signals: stars=7; no license detected; owner='SpillwaveSolutions' (+3); primary_language='markdown'; source_hub='github_search'. Status: pass. Risk: medium."
+  },
+  "trust_level": "low",
+  "scan_date": "2026-02-26T06:14:56Z",
+  "verification_level": "metadata_only"
+}

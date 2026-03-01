@@ -1,0 +1,26 @@
+{
+  "id": "mcp-on-edge-2743965e",
+  "name": "mcp-on-edge",
+  "description": "MCP Client and Server Implementation with Functions",
+  "repo_url": "https://github.com/xixian/mcp-on-edge",
+  "source_hub": "mcp_so",
+  "owner": "xixian",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "6a1d9118055f0b87e39e3f47cb58a10c10e48b8e",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 15,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:42Z",
+  "verification_level": "scanner_only"
+}

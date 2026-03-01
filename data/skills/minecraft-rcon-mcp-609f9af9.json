@@ -1,0 +1,26 @@
+{
+  "id": "minecraft-rcon-mcp-609f9af9",
+  "name": "minecraft-rcon-mcp",
+  "description": "a tiny minecraft mcp server, using the rcon interface",
+  "repo_url": "https://github.com/deemkeen/minecraft-rcon-mcp",
+  "source_hub": "mcp_so",
+  "owner": "deemkeen",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "dc4e8f5beedf29410184be76aaac2bb6d24738c0",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 1,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:41Z",
+  "verification_level": "scanner_only"
+}

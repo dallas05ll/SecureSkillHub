@@ -1,0 +1,28 @@
+{
+  "id": "outline-driven-development-bc569980",
+  "name": "outline-driven-development",
+  "description": "Outline Driven Development – Beyond \"specs\" or \"vibes\" using AST analysis and Modern CLI Tools w/ context engineering; batteries-included",
+  "repo_url": "https://github.com/OutlineDriven/outline-driven-development",
+  "source_hub": "github_search",
+  "skill_type": "agent_skill",
+  "owner": "OutlineDriven",
+  "stars": 37,
+  "license": "apache-2.0",
+  "primary_language": "markdown",
+  "tags": [
+    "data-ai-nlp",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 83,
+  "risk_level": "low",
+  "verified_commit": null,
+  "scan_summary": null,
+  "last_updated": "2026-02-19T20:46:43Z",
+  "findings_summary": {
+    "notes": "Metadata-based verification. Score=83. Signals: stars=37 (>=10, +5); license='apache-2.0' (+5); owner='OutlineDriven' (+3); primary_language='markdown'; source_hub='github_search'. Status: pass. Risk: low."
+  },
+  "trust_level": "low",
+  "scan_date": "2026-02-26T06:14:56Z",
+  "verification_level": "metadata_only"
+}

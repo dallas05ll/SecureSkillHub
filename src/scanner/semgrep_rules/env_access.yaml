@@ -1,0 +1,93 @@
+rules:
+  # -----------------------------------------------------------------------
+  # Python: Environment variable access
+  # -----------------------------------------------------------------------
+  - id: env-python-os-environ
+    languages: [python]
+    severity: WARNING
+    message: >
+      Access to os.environ detected. May read or modify environment
+      variables containing secrets (API keys, tokens, etc.).
+    patterns:
+      - pattern: os.environ
+
+  - id: env-python-os-getenv
+    languages: [python]
+    severity: WARNING
+    message: >
+      os.getenv() call detected. Reads environment variables which
+      may contain secrets.
+    patterns:
+      - pattern: os.getenv(...)
+
+  - id: env-python-os-putenv
+    languages: [python]
+    severity: ERROR
+    message: >
+      os.putenv() detected — modifies process environment variables.
+      This could inject malicious values for other processes.
+    patterns:
+      - pattern: os.putenv(...)
+
+  - id: env-python-dotenv-load
+    languages: [python]
+    severity: WARNING
+    message: >
+      dotenv loading detected. Reads .env files which typically contain
+      secrets and credentials.
+    pattern-either:
+      - pattern: load_dotenv(...)
+      - pattern: dotenv_values(...)
+
+  - id: env-python-environ-subscript
+    languages: [python]
+    severity: WARNING
+    message: >
+      Direct access to os.environ dictionary for a specific key.
+    patterns:
+      - pattern: os.environ[$KEY]
+
+  - id: env-python-environ-get
+    languages: [python]
+    severity: WARNING
+    message: >
+      os.environ.get() call detected — reads environment variables.
+    patterns:
+      - pattern: os.environ.get(...)
+
+  # -----------------------------------------------------------------------
+  # JavaScript / TypeScript: Environment variable access
+  # -----------------------------------------------------------------------
+  - id: env-js-process-env
+    languages: [javascript, typescript]
+    severity: WARNING
+    message: >
+      process.env access detected. May read environment variables
+      containing secrets.
+    patterns:
+      - pattern: process.env
+
+  - id: env-js-process-env-key
+    languages: [javascript, typescript]
+    severity: WARNING
+    message: >
+      Direct access to a specific environment variable via process.env.
+    patterns:
+      - pattern: process.env.$KEY
+
+  - id: env-js-dotenv-config
+    languages: [javascript, typescript]
+    severity: WARNING
+    message: >
+      dotenv configuration detected — loads .env files containing secrets.
+    patterns:
+      - pattern: dotenv.config(...)
+
+  - id: env-js-dotenv-require
+    languages: [javascript, typescript]
+    severity: WARNING
+    message: >
+      dotenv module import detected.
+    pattern-either:
+      - pattern: require("dotenv")
+      - pattern: require('dotenv')

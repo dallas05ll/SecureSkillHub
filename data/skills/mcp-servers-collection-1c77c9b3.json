@@ -1,0 +1,25 @@
+{
+  "id": "mcp-servers-collection-1c77c9b3",
+  "name": "mcp-servers-collection",
+  "description": "Collection of verified MCP servers and integrations",
+  "repo_url": "https://github.com/Vostos007/mcp-servers-collection",
+  "source_hub": "mcp_so",
+  "owner": "Vostos007",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "integ"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "f20113d102d9c4e62a2c7868b71f810b0a117272",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 3,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:42Z",
+  "verification_level": "scanner_only"
+}

@@ -1,0 +1,25 @@
+{
+  "id": "anilsit-mcp-02e36e60",
+  "name": "anilsit-mcp",
+  "description": "An MCP server for the Anilist API",
+  "repo_url": "https://github.com/IchanP/anilsit-mcp",
+  "source_hub": "mcp_so",
+  "owner": "IchanP",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "integ"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "d2862aefacad98a97a6b8d51da9c5b4df985b367",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 6,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:42Z",
+  "verification_level": "scanner_only"
+}

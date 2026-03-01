@@ -1,0 +1,25 @@
+{
+  "id": "web-monitor-mcp-safepoint-6b00a925",
+  "name": "web-monitor-mcp-safepoint",
+  "description": "The mcp server for safepoint web monitor",
+  "repo_url": "https://github.com/co0ontty/web-monitor-mcp-safepoint",
+  "source_hub": "mcp_so",
+  "owner": "co0ontty",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "util-monitor"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "6e1fdeeb313567443fd10a12e891e229ed0fd001",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 1,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:43:00Z",
+  "verification_level": "scanner_only"
+}

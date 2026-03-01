@@ -1,0 +1,25 @@
+{
+  "id": "firecrawl-258dea90",
+  "name": "Firecrawl",
+  "description": "Agent skill: firecrawl from firecrawl/cli",
+  "repo_url": "https://github.com/firecrawl/cli",
+  "source_hub": "skills_sh",
+  "owner": "firecrawl",
+  "stars": 6700,
+  "primary_language": "unknown",
+  "tags": [
+    "util-search"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "ebe87b3f5ae07b913726659bc9a80d68f019e80e",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 55,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:54:02Z",
+  "verification_level": "scanner_only"
+}

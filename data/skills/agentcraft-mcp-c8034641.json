@@ -1,0 +1,26 @@
+{
+  "id": "agentcraft-mcp-c8034641",
+  "name": "agentcraft-mcp",
+  "description": "AgentCraft MCP Server",
+  "repo_url": "https://github.com/seyhunak/agentcraft-mcp",
+  "source_hub": "mcp_so",
+  "owner": "seyhunak",
+  "stars": 2,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "70b78311328d0c8ec3517a5567e5c579216dd5b8",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 14,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:04:50Z",
+  "verification_level": "scanner_only"
+}

@@ -1,0 +1,25 @@
+{
+  "id": "transformerbee-mcp-6a5dde54",
+  "name": "TransformerBee.mcp",
+  "description": "MCP server wrapper around transformer.bee aka edifact-bo4e-converter",
+  "repo_url": "https://github.com/Hochfrequenz/TransformerBee.mcp",
+  "source_hub": "mcp_so",
+  "owner": "Hochfrequenz",
+  "stars": 1,
+  "primary_language": "unknown",
+  "tags": [
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "b6e15ce6d38dbe5317d79b76e88cb4b4c10163e1",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 11,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:41Z",
+  "verification_level": "scanner_only"
+}

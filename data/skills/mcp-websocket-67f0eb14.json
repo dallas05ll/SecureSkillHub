@@ -1,0 +1,27 @@
+{
+  "id": "mcp-websocket-67f0eb14",
+  "name": "mcp-websocket",
+  "description": "This server implements an MCP (Model Context Protocol) server with WebSocket enhancements for real-time data updates.",
+  "repo_url": "https://github.com/virajsharma2000/mcp-websocket",
+  "source_hub": "mcp_so",
+  "owner": "virajsharma2000",
+  "stars": 28,
+  "primary_language": "unknown",
+  "tags": [
+    "data",
+    "data-ai",
+    "data-ai-nlp"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "e8191a0e01c6fd0c21431e10b7c522c4a18a15b2",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 2,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:32:13Z",
+  "verification_level": "scanner_only"
+}

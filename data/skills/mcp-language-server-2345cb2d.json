@@ -1,0 +1,21 @@
+{
+  "id": "mcp-language-server-2345cb2d",
+  "name": "mcp-language-server",
+  "description": "mcp-language-server gives MCP enabled clients access semantic tools like get definition, references, rename, and diagnostics.",
+  "repo_url": "https://github.com/isaacphi/mcp-language-server",
+  "source_hub": "mcp_so",
+  "owner": "isaacphi",
+  "stars": 1454,
+  "primary_language": "unknown",
+  "tags": [
+    "sec-crypto",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 74,
+  "risk_level": "low",
+  "verified_commit": null,
+  "scan_summary": null,
+  "scan_date": "2026-02-26T03:00:50Z",
+  "verification_level": "scanner_only"
+}

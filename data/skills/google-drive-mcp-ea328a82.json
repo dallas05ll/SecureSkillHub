@@ -1,0 +1,26 @@
+{
+  "id": "google-drive-mcp-ea328a82",
+  "name": "google_drive_mcp",
+  "description": "An MCP Server for Google Drive",
+  "repo_url": "https://github.com/festusev/google_drive_mcp",
+  "source_hub": "mcp_so",
+  "owner": "festusev",
+  "stars": 2,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "e6906e6780fb342b0a6f828ef5a03013732b5574",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 12,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:04:50Z",
+  "verification_level": "scanner_only"
+}

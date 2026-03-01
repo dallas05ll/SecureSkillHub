@@ -1,0 +1,25 @@
+{
+  "id": "mcp-rag-1cfefe36",
+  "name": "MCP-RAG",
+  "description": "RAG system that utilizes MCP server",
+  "repo_url": "https://github.com/kira1228/MCP-RAG",
+  "source_hub": "mcp_so",
+  "owner": "kira1228",
+  "stars": 2,
+  "primary_language": "unknown",
+  "tags": [
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "0af0039382b2e3073e55168e878dfbe030b79ade",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 3,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:04:50Z",
+  "verification_level": "scanner_only"
+}

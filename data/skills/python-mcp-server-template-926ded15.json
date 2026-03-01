@@ -1,0 +1,25 @@
+{
+  "id": "python-mcp-server-template-926ded15",
+  "name": "python-mcp-server-template",
+  "description": "Production-ready Python MCP server template using FastMCP framework",
+  "repo_url": "https://github.com/aj-geddes/python-mcp-server-template",
+  "source_hub": "mcp_so",
+  "owner": "aj-geddes",
+  "stars": 2,
+  "primary_language": "unknown",
+  "tags": [
+    "dev-web-backend-python"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "a8122bcd4074adec01f0dca13b711c51d04dc144",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 60,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:04:51Z",
+  "verification_level": "scanner_only"
+}

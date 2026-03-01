@@ -1,0 +1,28 @@
+{
+  "id": "mcp-client-browser-d609d746",
+  "name": "mcp-client-browser",
+  "description": "TypeScript SDK for using large language models with an MCP server directly in the browser, powered by Cherry Studio's prompt templates.",
+  "repo_url": "https://github.com/autoexpect/mcp-client-browser",
+  "source_hub": "mcp_so",
+  "owner": "autoexpect",
+  "stars": 5,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "dev",
+    "dev-web",
+    "util-search"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "6ed8a97f1d5b6091706bb1fa842ddfb616dbf3d6",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 11,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:54:04Z",
+  "verification_level": "scanner_only"
+}

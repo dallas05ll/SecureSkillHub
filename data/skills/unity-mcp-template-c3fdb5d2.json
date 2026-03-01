@@ -1,0 +1,25 @@
+{
+  "id": "unity-mcp-template-c3fdb5d2",
+  "name": "unity-mcp-template",
+  "description": "Simple template project for controlling Unity via MCP",
+  "repo_url": "https://github.com/dunward/unity-mcp-template",
+  "source_hub": "mcp_so",
+  "owner": "dunward",
+  "stars": 10,
+  "primary_language": "unknown",
+  "tags": [
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "695f367a57ba3d1202e32c6916410ec4d4bbad64",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 10,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:42:36Z",
+  "verification_level": "scanner_only"
+}

@@ -1,0 +1,25 @@
+{
+  "id": "bucketeer-docs-local-mcp-server-008e99a7",
+  "name": "bucketeer-docs-local-mcp-server",
+  "description": "Local MCP Server to query Bucketeer documentation",
+  "repo_url": "https://github.com/bucketeer-io/bucketeer-docs-local-mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "bucketeer-io",
+  "stars": 1,
+  "primary_language": "unknown",
+  "tags": [
+    "prod-docs"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "770792d3d909a057db60ad3bf8a79ed136383709",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 23,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:41Z",
+  "verification_level": "scanner_only"
+}

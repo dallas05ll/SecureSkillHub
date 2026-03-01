@@ -1,0 +1,30 @@
+{
+  "id": "nova-act-mcp-6f9fa284",
+  "name": "nova-act-mcp",
+  "description": "An MCP server providing tools to control web browsers using the Amazon Nova Act SDK. Enables multi-step browser automation workflows via MCP agents.",
+  "repo_url": "https://github.com/madtank/nova-act-mcp",
+  "source_hub": "mcp_so",
+  "owner": "madtank",
+  "stars": 16,
+  "primary_language": "unknown",
+  "tags": [
+    "dev",
+    "dev-web",
+    "integ-cloud-aws",
+    "prod",
+    "util",
+    "util-search"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "eeeda629502227679905d4d0135cc40f84df6ebb",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 43,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:42:34Z",
+  "verification_level": "scanner_only"
+}

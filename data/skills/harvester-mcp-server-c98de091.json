@@ -1,0 +1,26 @@
+{
+  "id": "harvester-mcp-server-c98de091",
+  "name": "harvester-mcp-server",
+  "description": "Model Context Protocol (MCP) server for Harvester HCI",
+  "repo_url": "https://github.com/starbops/harvester-mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "starbops",
+  "stars": 2,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "34cdaab74b1465d5875eeef337f9c9853ff3f63c",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 1,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:04:51Z",
+  "verification_level": "scanner_only"
+}

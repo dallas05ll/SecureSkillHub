@@ -1,0 +1,27 @@
+{
+  "id": "penumbra-mcp-99cd01e3",
+  "name": "penumbra-mcp",
+  "description": "MCP server for interacting with Penumbra blockchain - providing privacy-preserving tools for chain interaction",
+  "repo_url": "https://github.com/bmorphism/penumbra-mcp",
+  "source_hub": "mcp_so",
+  "owner": "bmorphism",
+  "stars": 5,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "sec-crypto",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "375d1c8ada904fe2e45d25f4d546f9b4876e44d1",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 5,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:54:02Z",
+  "verification_level": "scanner_only"
+}

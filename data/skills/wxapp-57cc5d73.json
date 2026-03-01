@@ -1,0 +1,25 @@
+{
+  "id": "wxapp-57cc5d73",
+  "name": "wxapp",
+  "description": "通过SSE的方式实现小程序对MCP Server调用的chatbox，包含一个MCP Client的部署与分享",
+  "repo_url": "https://github.com/shareAI-lab/wxapp",
+  "source_hub": "mcp_so",
+  "owner": "shareAI-lab",
+  "stars": 7,
+  "primary_language": "unknown",
+  "tags": [
+    "prod-comm"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "a971649539ac726d69729a9b072e90fd8245933d",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 107,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:54:04Z",
+  "verification_level": "scanner_only"
+}

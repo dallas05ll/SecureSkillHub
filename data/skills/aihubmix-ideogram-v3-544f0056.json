@@ -1,0 +1,28 @@
+{
+  "id": "aihubmix-ideogram-v3-544f0056",
+  "name": "aihubmix-ideogram-v3",
+  "description": "This is an MCP server for text-to-image generation; the image generation model is ideogram-v3;",
+  "repo_url": "https://github.com/AiHubmix/aihubmix-ideogram-v3",
+  "source_hub": "mcp_so",
+  "owner": "AiHubmix",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp",
+    "data-ai-vision",
+    "repo_unavailable"
+  ],
+  "verification_status": "manual_review",
+  "overall_score": 0,
+  "risk_level": "high",
+  "verified_commit": "",
+  "scan_summary": null,
+  "scan_date": "2026-02-28T20:27:24Z",
+  "findings_summary": {
+    "error": "clone failed: Cloning into '/var/folders/pq/bb71gjzd01d29nnmqrhqr2rc0000gn/T/strict5_aihubmix-ideogram-v3-544_wbdb04ed/repo'...\nfatal: could not read Username for 'https://github.com': Device not configured",
+    "supervisor_approved": false,
+    "supervisor_confidence": 0
+  },
+  "repo_status": "unavailable"
+}

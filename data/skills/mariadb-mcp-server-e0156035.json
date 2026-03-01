@@ -1,0 +1,26 @@
+{
+  "id": "mariadb-mcp-server-e0156035",
+  "name": "mariadb-mcp-server",
+  "description": "An MCP server that provides access to MariaDB ou MySQL databases.",
+  "repo_url": "https://github.com/rjsalgado/mariadb-mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "rjsalgado",
+  "stars": 15,
+  "primary_language": "unknown",
+  "tags": [
+    "data",
+    "data-db"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "9693f9fe5e09ba13c043f01c7879c95feef8bac4",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 10,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:42:34Z",
+  "verification_level": "scanner_only"
+}

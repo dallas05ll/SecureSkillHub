@@ -1,0 +1,26 @@
+{
+  "id": "genesis-mcp-b9d0a609",
+  "name": "genesis-mcp",
+  "description": "MCP Server for Genesis World.",
+  "repo_url": "https://github.com/dustland/genesis-mcp",
+  "source_hub": "mcp_so",
+  "owner": "dustland",
+  "stars": 4,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "36175cdeaab5e1ef4baa90e9b68e91e24df6b769",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 12,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:54:02Z",
+  "verification_level": "scanner_only"
+}

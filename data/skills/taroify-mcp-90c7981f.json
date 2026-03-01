@@ -1,0 +1,25 @@
+{
+  "id": "taroify-mcp-90c7981f",
+  "name": "taroify-mcp",
+  "description": "Taroify MCP 是一项独立的 MCP（模型上下文协议）服务，旨在将 Taroify 与大模型连接起来。它使大模型能够直接从文档中检索组件、API数据。",
+  "repo_url": "https://github.com/taroify/taroify-mcp",
+  "source_hub": "mcp_so",
+  "owner": "taroify",
+  "stars": 8,
+  "primary_language": "unknown",
+  "tags": [
+    "integ"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "1b9f91242b208dfa5b838eedde966b16289e5b08",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 217,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:54:02Z",
+  "verification_level": "scanner_only"
+}

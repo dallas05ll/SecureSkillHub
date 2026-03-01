@@ -1,0 +1,26 @@
+{
+  "id": "mcp-software-consultant-7b354684",
+  "name": "mcp-software-consultant",
+  "description": "A CLI tool, MCP server, and vscode extension that allows Cline to ask an external specialized consultant for help",
+  "repo_url": "https://github.com/delorenj/mcp-software-consultant",
+  "source_hub": "mcp_so",
+  "owner": "delorenj",
+  "stars": 1,
+  "primary_language": "unknown",
+  "tags": [
+    "dev",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "aa9bd8bb1abb2bdd9e11be5adccaf11ee8b0cca4",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 14,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:41Z",
+  "verification_level": "scanner_only"
+}

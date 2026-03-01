@@ -1,0 +1,26 @@
+{
+  "id": "alphavantage-8b41e7e0",
+  "name": "alphavantage",
+  "description": "A MCP server for the stock market data API, Alphavantage API.",
+  "repo_url": "https://github.com/calvernaz/alphavantage",
+  "source_hub": "mcp_so",
+  "owner": "calvernaz",
+  "stars": 73,
+  "primary_language": "unknown",
+  "tags": [
+    "data",
+    "integ"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "d11dc513ba87dbf1e24bd87c384ee5cd9b37857c",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 30,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-27T06:40:44Z",
+  "verification_level": "scanner_only"
+}

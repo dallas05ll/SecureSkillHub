@@ -1,0 +1,25 @@
+{
+  "id": "arxiv-search-mcp-server-9a1a56e7",
+  "name": "arXiv-Search-MCP-Server",
+  "description": "About A MCP Server for arXiv Search",
+  "repo_url": "https://github.com/JackKuo666/arXiv-Search-MCP-Server",
+  "source_hub": "mcp_so",
+  "owner": "JackKuo666",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "util-search"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "a2197d4932de90825f54bd24d016eb6dde656ab1",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 1,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:40Z",
+  "verification_level": "scanner_only"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "droma-mcp-dd871eb1",
+  "name": "DROMA_MCP",
+  "description": "A Model Context Protocol (MCP) server for DROMA (Drug Response Omics association MAp) - enabling natural language interactions with drug-omics association analysis.",
+  "repo_url": "https://github.com/mugpeng/DROMA_MCP",
+  "source_hub": "mcp_so",
+  "owner": "mugpeng",
+  "stars": 1,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp",
+    "sec-auth",
+    "util-map"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "8fb00c8367c7666fbaf0bfee1656ca710b2c6d10",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 19,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:42Z",
+  "verification_level": "scanner_only"
+}

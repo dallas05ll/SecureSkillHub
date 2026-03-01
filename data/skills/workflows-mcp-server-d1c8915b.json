@@ -1,0 +1,28 @@
+{
+  "id": "workflows-mcp-server-d1c8915b",
+  "name": "workflows-mcp-server",
+  "description": "A server that provides an integration through both direct REST endpoints and Model Context Protocol (MCP) integration to a workflow engine.",
+  "repo_url": "https://github.com/popand/workflows-mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "popand",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp",
+    "integ",
+    "prod"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "9993706d2244731212d1875717012acf363ec348",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 13,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:43:00Z",
+  "verification_level": "scanner_only"
+}

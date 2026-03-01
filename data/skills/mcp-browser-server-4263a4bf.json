@@ -1,0 +1,27 @@
+{
+  "id": "mcp-browser-server-4263a4bf",
+  "name": "mcp-browser-server",
+  "description": "Allow your Github Copilot Chat to navigate your frontend projects. Also compatible with Chat.fans Agents",
+  "repo_url": "https://github.com/Wladastic/mcp-browser-server",
+  "source_hub": "mcp_so",
+  "owner": "Wladastic",
+  "stars": 3,
+  "primary_language": "unknown",
+  "tags": [
+    "dev-web",
+    "prod-comm",
+    "util-search"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "5b491ab366f5767cc08f8aee8908b6d07d39ff28",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 20,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:04:51Z",
+  "verification_level": "scanner_only"
+}

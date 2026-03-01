@@ -1,0 +1,31 @@
+{
+  "id": "cc-best-c1131038",
+  "name": "cc-best",
+  "description": "🎭 cc-best: Turn Claude Code into a full dev team — PM→Lead→Dev→QA autonomous workflow. 40 commands · 17 skills · 8 agents · 33 rules · 21 hooks · auto-learning pipeline. | 一个插件，完整开发团队。",
+  "repo_url": "https://github.com/xiaobei930/cc-best",
+  "source_hub": "github_search",
+  "skill_type": "agent_skill",
+  "owner": "xiaobei930",
+  "stars": 25,
+  "license": "mit",
+  "primary_language": "markdown",
+  "tags": [
+    "data-ai",
+    "dev",
+    "dev-devops-ci",
+    "dev-testing",
+    "prod"
+  ],
+  "verification_status": "pass",
+  "overall_score": 83,
+  "risk_level": "low",
+  "verified_commit": null,
+  "scan_summary": null,
+  "last_updated": "2026-02-25T02:10:53Z",
+  "findings_summary": {
+    "notes": "Metadata-based verification. Score=83. Signals: stars=25 (>=10, +5); license='mit' (+5); owner='xiaobei930' (+3); primary_language='markdown'; source_hub='github_search'. Status: pass. Risk: low."
+  },
+  "trust_level": "low",
+  "scan_date": "2026-02-26T06:14:55Z",
+  "verification_level": "metadata_only"
+}

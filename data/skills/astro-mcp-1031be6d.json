@@ -1,0 +1,26 @@
+{
+  "id": "astro-mcp-1031be6d",
+  "name": "astro_mcp",
+  "description": "mcp server for desi and other surveys",
+  "repo_url": "https://github.com/SandyYuan/astro_mcp",
+  "source_hub": "mcp_so",
+  "owner": "SandyYuan",
+  "stars": 3,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "65be516ceb6fd227a985bc9a8103f768ede4493a",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 21,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:04:50Z",
+  "verification_level": "scanner_only"
+}

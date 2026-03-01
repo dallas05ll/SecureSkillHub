@@ -1,0 +1,26 @@
+{
+  "id": "mcp-agent-a1a36e2d",
+  "name": "mcp_agent",
+  "description": "public server for mcp",
+  "repo_url": "https://github.com/jameshung2015/mcp_agent",
+  "source_hub": "mcp_so",
+  "owner": "jameshung2015",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "b80dd4dcb85f4aad798b49ea861c14e0b98b48c6",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 11,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:42Z",
+  "verification_level": "scanner_only"
+}

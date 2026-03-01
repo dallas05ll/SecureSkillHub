@@ -1,0 +1,27 @@
+{
+  "id": "openwebui-server-5a606c0d",
+  "name": "Openwebui-server",
+  "description": "This server provides Model Context Protocol (MCP) services for OpenWebUI, enabling knowledge base integration and retrieval.",
+  "repo_url": "https://github.com/Welkon/Openwebui-server",
+  "source_hub": "mcp_so",
+  "owner": "Welkon",
+  "stars": 8,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp",
+    "integ"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "8d94b78c839f626c46017d3117e1583a0704423b",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 6,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:42:36Z",
+  "verification_level": "scanner_only"
+}

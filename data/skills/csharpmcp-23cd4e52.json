@@ -1,0 +1,25 @@
+{
+  "id": "csharpmcp-23cd4e52",
+  "name": "CSharpMCP",
+  "description": "A Roslyn-based mcp server for dynamically executing C# code snippets",
+  "repo_url": "https://github.com/li-zhixin/CSharpMCP",
+  "source_hub": "mcp_so",
+  "owner": "li-zhixin",
+  "stars": 1,
+  "primary_language": "unknown",
+  "tags": [
+    "dev"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "93972bc8fdb60bf52492c75101187c9b3d26a0b5",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 2,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:40Z",
+  "verification_level": "scanner_only"
+}

@@ -1,0 +1,25 @@
+{
+  "id": "flock-mcp-29f5c2fe",
+  "name": "flock-mcp",
+  "description": "Flock MCP Servers and Tools",
+  "repo_url": "https://github.com/whiteducksoftware/flock-mcp",
+  "source_hub": "mcp_so",
+  "owner": "whiteducksoftware",
+  "stars": 2,
+  "primary_language": "unknown",
+  "tags": [
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "ddd2f716d7a7742e15b907887e484a6b6fb4135d",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 15,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:04:50Z",
+  "verification_level": "scanner_only"
+}

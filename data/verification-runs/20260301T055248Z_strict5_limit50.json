@@ -1,0 +1,24 @@
+{
+  "started_at": "2026-03-01T05:49:48Z",
+  "finished_at": "2026-03-01T05:52:48Z",
+  "skill_type": "all",
+  "selected_ids": [
+    "end-to-end-agentic-ai-automation-lab-af5fa77e"
+  ],
+  "selected_count": 1,
+  "group_count": 1,
+  "processed_count": 1,
+  "status_counts": {
+    "manual_review": 1
+  },
+  "stage_failures": {
+    "clone": 1
+  },
+  "retry_ids": [
+    "end-to-end-agentic-ai-automation-lab-af5fa77e"
+  ],
+  "remaining_unverified": 0,
+  "only_unverified": true,
+  "source": "*",
+  "include_repo_unavailable": false
+}

@@ -1,0 +1,27 @@
+{
+  "id": "mcp-ts-template-7b2ad255",
+  "name": "mcp-ts-template",
+  "description": "TypeScript template for building Model Context Protocol (MCP) servers & clients. A beginner-friendly, production-ready starting point with essential utilities, examples, and type safety.",
+  "repo_url": "https://github.com/cyanheads/mcp-ts-template",
+  "source_hub": "mcp_so",
+  "owner": "cyanheads",
+  "stars": 117,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "793c3673c1fb92e26c80698eacd5f33e8d640818",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 334,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-27T06:40:49Z",
+  "verification_level": "scanner_only"
+}

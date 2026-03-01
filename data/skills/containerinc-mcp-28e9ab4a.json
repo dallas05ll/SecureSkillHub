@@ -1,0 +1,27 @@
+{
+  "id": "containerinc-mcp-28e9ab4a",
+  "name": "containerinc-mcp",
+  "description": "MCP Server for automated deployments onto Container Inc.",
+  "repo_url": "https://github.com/f-inc/containerinc-mcp",
+  "source_hub": "mcp_so",
+  "owner": "f-inc",
+  "stars": 8,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "dev-devops-docker",
+    "prod"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "f7dab0104e72167bee5f7cde37f15bddf2d48a94",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 4,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:42:36Z",
+  "verification_level": "scanner_only"
+}

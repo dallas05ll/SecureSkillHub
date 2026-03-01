@@ -1,0 +1,30 @@
+{
+  "id": "whatsupdoc-233d5eed",
+  "name": "WhatsUpDoc",
+  "description": "Scrape any developer documentation and save it locally as a markdown file using anthropic's MCP to standardize communication between the cli and the documentation server",
+  "repo_url": "https://github.com/paradiselabs-ai/WhatsUpDoc",
+  "source_hub": "mcp_so",
+  "owner": "paradiselabs-ai",
+  "stars": 3,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "dev",
+    "prod-comm",
+    "prod-docs",
+    "util-file",
+    "util-search"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "615ce22cbef2116b5b3a77b75f405a0ad48ffe93",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 6,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:04:51Z",
+  "verification_level": "scanner_only"
+}

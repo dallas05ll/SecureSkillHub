@@ -1,0 +1,93 @@
+{
+  "id": "better-auth-best-practices-2ac458f9",
+  "name": "Better Auth Best Practices",
+  "description": "Agent skill: better-auth-best-practices from better-auth/skills",
+  "repo_url": "https://github.com/better-auth/skills",
+  "source_hub": "skills_sh",
+  "owner": "better-auth",
+  "stars": 16400,
+  "primary_language": "unknown",
+  "tags": [
+    "sec",
+    "status-manual_review"
+  ],
+  "verification_status": "manual_review",
+  "overall_score": 85,
+  "risk_level": "high",
+  "verified_commit": "f7c870fc9f9040f22ec39230ffc0f8b487e52893",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 8,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-03-01T05:57:29Z",
+  "findings_summary": {
+    "scanner_findings": 3,
+    "dangerous_calls": 0,
+    "network_ops": 0,
+    "file_ops": 0,
+    "env_access": 2,
+    "obfuscation": 0,
+    "injection_patterns": 0,
+    "mismatches": 0,
+    "undocumented_capabilities": 0,
+    "supervisor_approved": false,
+    "supervisor_confidence": 85
+  },
+  "verification_level": "full_pipeline",
+  "agent_audit": {
+    "agents_completed": 5,
+    "agents_required": 5,
+    "pipeline_run_at": "2026-03-01T05:57:29Z",
+    "agent_a": {
+      "signed": true,
+      "signed_at": "2026-03-01T05:57:29Z",
+      "comment": "Docs quality 7/10. README missing. 12 features, 4 permissions claimed.",
+      "doc_quality_score": 7,
+      "claimed_permissions": [
+        "network access",
+        "system command execution",
+        "file system access",
+        "environment/secret access"
+      ]
+    },
+    "agent_b": {
+      "signed": true,
+      "signed_at": "2026-03-01T05:57:29Z",
+      "comment": "0 files analyzed. Found: 0 network, 0 file, 0 env, 0 system calls. Primary: unknown.",
+      "files_analyzed": 0,
+      "capabilities_found": []
+    },
+    "agent_c_star": {
+      "signed": true,
+      "signed_at": "2026-03-01T05:57:29Z",
+      "comment": "3 findings: 0 critical, 1 high, 2 medium, 0 low. No obfuscation. No injection.",
+      "total_findings": 3,
+      "severity_counts": {
+        "critical": 0,
+        "high": 1,
+        "medium": 2,
+        "low": 0,
+        "info": 0
+      }
+    },
+    "agent_d": {
+      "signed": true,
+      "signed_at": "2026-03-01T05:57:29Z",
+      "comment": "Score 85. 0 mismatches. Risk: high. Safety overrides: none triggered.",
+      "score": 85,
+      "mismatches": 0,
+      "safety_overrides_applied": false
+    },
+    "agent_e": {
+      "signed": true,
+      "signed_at": "2026-03-01T05:57:29Z",
+      "comment": "Rejected. Confidence 85%. No overrides.",
+      "approved": false,
+      "confidence": 85,
+      "override_reason": null
+    },
+    "manager_summary": "5/5 agents completed. Score: 85/100, Risk: high. 0 mismatches, 3 scanner findings. Rejected at 85% confidence. No safety overrides."
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "id": "octomind-mcp-eb9e2f29",
+  "name": "octomind-mcp",
+  "description": "mcp server to interact with the octomind plattform. octomind provides a create, run & fix solutions for e2e web testing, see https://octomind.dev",
+  "repo_url": "https://github.com/OctoMind-dev/octomind-mcp",
+  "source_hub": "glama",
+  "owner": "OctoMind-dev",
+  "stars": 21,
+  "primary_language": "unknown",
+  "tags": [
+    "dev-testing"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "f4752ef38291364e9c94f86c69cd29fb0baa4dd5",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 37,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:32:11Z",
+  "verification_level": "scanner_only"
+}

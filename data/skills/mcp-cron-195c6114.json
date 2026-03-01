@@ -1,0 +1,26 @@
+{
+  "id": "mcp-cron-195c6114",
+  "name": "mcp-cron",
+  "description": "MCP Server that schedule command or AI prompt",
+  "repo_url": "https://github.com/jolks/mcp-cron",
+  "source_hub": "mcp_so",
+  "owner": "jolks",
+  "stars": 17,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "prod-calendar"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "aff8eea39a8124a75c90498b06b374a3ca3042d9",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 13,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:42:34Z",
+  "verification_level": "scanner_only"
+}

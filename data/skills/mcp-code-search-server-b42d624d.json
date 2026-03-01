@@ -1,0 +1,27 @@
+{
+  "id": "mcp-code-search-server-b42d624d",
+  "name": "mcp-code-search-server",
+  "description": "一个MCP Server，帮助LLM查找相关代码在文件中的位置，支持返回完整的函数定义。",
+  "repo_url": "https://github.com/fx-an/mcp-code-search-server",
+  "source_hub": "mcp_so",
+  "owner": "fx-an",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "dev",
+    "util-search"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "47051cce240975b9c3761d8ee6ea1e0b0f4d5686",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 19,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:42Z",
+  "verification_level": "scanner_only"
+}

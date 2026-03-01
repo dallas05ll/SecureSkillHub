@@ -1,0 +1,28 @@
+{
+  "id": "mcp-metatrader5-server-abaf7bef",
+  "name": "mcp-metatrader5-server",
+  "description": "A Model Context Protocol (MCP) server for interacting with the MetaTrader 5 trading platform. This server provides AI assistants with tools and resources to access market data, perform trading operations, and analyze trading history.",
+  "repo_url": "https://github.com/Qoyyuum/mcp-metatrader5-server",
+  "source_hub": "mcp_so",
+  "owner": "Qoyyuum",
+  "stars": 87,
+  "primary_language": "unknown",
+  "tags": [
+    "data",
+    "data-ai",
+    "data-ai-nlp",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "2c9067caffac7939296154245fc5679d112393bb",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 28,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-27T06:40:44Z",
+  "verification_level": "scanner_only"
+}

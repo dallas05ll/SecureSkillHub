@@ -1,0 +1,28 @@
+{
+  "id": "mcp-server-ts-trello-e8113c97",
+  "name": "mcp-server-ts-trello",
+  "description": "TypeScript implementation of a Model Context Protocol (MCP) server for Trello integration",
+  "repo_url": "https://github.com/andypost/mcp-server-ts-trello",
+  "source_hub": "mcp_so",
+  "owner": "andypost",
+  "stars": 1,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp",
+    "integ",
+    "prod-pm"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "4350a916d04d072e36b44dbb338073b8aeb7814a",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 7,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:41Z",
+  "verification_level": "scanner_only"
+}

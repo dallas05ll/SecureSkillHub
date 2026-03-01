@@ -1,0 +1,27 @@
+{
+  "id": "datagovmy-mcp-34c77e37",
+  "name": "datagovmy-mcp",
+  "description": "A NodeJS TypeScript MCP server designed to fetch foreign exchange rate data from datagov.my and perform bidirectional currency conversion between foreign currencies and MYR.",
+  "repo_url": "https://github.com/leeliwei930/datagovmy-mcp",
+  "source_hub": "mcp_so",
+  "owner": "leeliwei930",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "data",
+    "dev-web-backend-node",
+    "util-search"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "faa1bc61fa89d2ad0536f78dbb8746bd7c211fec",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 9,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:41Z",
+  "verification_level": "scanner_only"
+}

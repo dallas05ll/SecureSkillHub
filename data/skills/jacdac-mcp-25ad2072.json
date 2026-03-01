@@ -1,0 +1,26 @@
+{
+  "id": "jacdac-mcp-25ad2072",
+  "name": "jacdac-mcp",
+  "description": "A MCP server for Jacdac",
+  "repo_url": "https://github.com/pelikhan/jacdac-mcp",
+  "source_hub": "mcp_so",
+  "owner": "pelikhan",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "f47c578ec4f43e5e9a117c072d38de737d2c63f2",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 6,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:41Z",
+  "verification_level": "scanner_only"
+}

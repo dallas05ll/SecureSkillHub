@@ -1,0 +1,26 @@
+{
+  "id": "pubdev-mcp-31039c27",
+  "name": "pubdev_mcp",
+  "description": "A MCP server that helps you find and search for packages on pub.dev through natural language queries",
+  "repo_url": "https://github.com/kikuchy/pubdev_mcp",
+  "source_hub": "mcp_so",
+  "owner": "kikuchy",
+  "stars": 12,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai-nlp",
+    "util-search"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "49a5fb673f87d642786c093ed1f35455ff542e4c",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 4,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:42:36Z",
+  "verification_level": "scanner_only"
+}

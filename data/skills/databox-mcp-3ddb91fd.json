@@ -1,0 +1,33 @@
+{
+  "id": "databox-mcp-3ddb91fd",
+  "name": "databox-mcp",
+  "description": "The Databox MCP server empowers your AI tools to talk to your data, enabling agentic analytics, automated data ingestion, and real-time conversational analytics. It transforms Databox into an intelligent backend for your LLMs, allowing tools like ChatGPT, Claude and Cursor to query metrics and KPIs across 130+ platforms using natural language with zero SQL required.\r\n\r\nUnlike standard read-only connectors, this server supports bidirectional workflows: your agents can autonomously ingest struc...",
+  "repo_url": "https://github.com/Databox/databox-mcp",
+  "source_hub": "mcp_so",
+  "owner": "Databox",
+  "stars": 1,
+  "primary_language": "unknown",
+  "tags": [
+    "data",
+    "data-ai",
+    "data-ai-nlp",
+    "data-db",
+    "integ",
+    "prod",
+    "prod-comm",
+    "util",
+    "util-monitor"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "bbff5f1714102673ea288464e58f9b6e9f310f47",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 1,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:41Z",
+  "verification_level": "scanner_only"
+}

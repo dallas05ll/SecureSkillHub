@@ -1,0 +1,27 @@
+{
+  "id": "mcp-nuclei-server-adfcd9af",
+  "name": "mcp_nuclei_server",
+  "description": "A Nuclei security scanning server based on MCP (Model Control Protocol), providing convenient vulnerability scanning services.一个基于 MCP (Model Control Protocol) 的 Nuclei 安全扫描服务器，提供便捷的漏洞扫描服务。",
+  "repo_url": "https://github.com/crazyMarky/mcp_nuclei_server",
+  "source_hub": "mcp_so",
+  "owner": "crazyMarky",
+  "stars": 20,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "sec",
+    "sec-scan"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "143d327c6673a709829ee54f6d6834ec682bbe8b",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 3,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:32:13Z",
+  "verification_level": "scanner_only"
+}

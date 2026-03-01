@@ -1,0 +1,26 @@
+{
+  "id": "todo-mcp-server-dc33811e",
+  "name": "todo-mcp-server",
+  "description": "The repository todo-mcp-server is a minimal Todo application implemented as an MCP (Model Context Protocol) server. It provides basic functionalities such as listing, viewing, adding, removing, and clearing todo items.",
+  "repo_url": "https://github.com/idsulik/todo-mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "idsulik",
+  "stars": 6,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "3fe45ac39c504df289feaa6107c968f4950cbe35",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 3,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:54:02Z",
+  "verification_level": "scanner_only"
+}

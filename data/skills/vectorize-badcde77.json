@@ -1,0 +1,29 @@
+{
+  "id": "vectorize-badcde77",
+  "name": "Vectorize",
+  "description": "Vectorize MCP server for advanced retrieval, Private Deep Research, Anything-to-Markdown file extraction and text chunking.",
+  "repo_url": "https://github.com/vectorize-io/vectorize-mcp-server",
+  "source_hub": "glama",
+  "owner": "vectorize-io",
+  "stars": 102,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai-nlp",
+    "data-db-vector",
+    "prod-docs",
+    "util-file",
+    "util-search"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "2e23cf2222cf9bc368a450b4953d7a9ee5574235",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 6,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-27T06:40:44Z",
+  "verification_level": "scanner_only"
+}

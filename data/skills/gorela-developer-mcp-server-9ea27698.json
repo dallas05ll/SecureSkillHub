@@ -1,0 +1,26 @@
+{
+  "id": "gorela-developer-mcp-server-9ea27698",
+  "name": "gorela-developer-mcp-server",
+  "description": "고릴라(Gorela) 연동 개발자를 위한 개발자 사이트 API 문서 제공 MCP 서버",
+  "repo_url": "https://github.com/BarogoDevelopers/gorela-developer-mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "BarogoDevelopers",
+  "stars": 1,
+  "primary_language": "unknown",
+  "tags": [
+    "dev",
+    "integ"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "d475a96bde0a6a7c5d8b2fe19f53ce0030bf9cad",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 8,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:41Z",
+  "verification_level": "scanner_only"
+}

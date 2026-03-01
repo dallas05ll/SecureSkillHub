@@ -1,0 +1,25 @@
+{
+  "id": "mcp-server-python-58cde7ef",
+  "name": "mcp-server-python",
+  "description": "Inkeep MCP Server",
+  "repo_url": "https://github.com/inkeep/mcp-server-python",
+  "source_hub": "mcp_so",
+  "owner": "inkeep",
+  "stars": 24,
+  "primary_language": "unknown",
+  "tags": [
+    "dev-web-backend-python"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "400ad3c102ee115b6eecbb2cbfe8868d0c1b1832",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 6,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:32:12Z",
+  "verification_level": "scanner_only"
+}

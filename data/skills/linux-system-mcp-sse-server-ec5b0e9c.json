@@ -1,0 +1,24 @@
+{
+  "id": "linux-system-mcp-sse-server-ec5b0e9c",
+  "name": "Linux System MCP SSE Server",
+  "description": "The aimiox Linux System MCP SSE Server is a lightweight agent for exposing system telemetry, logs, and network information via SSE. It's designed for Ubuntu 22.04+ and integrates seamlessly with the OpenAI Agents SDK or any compatible MCP client.",
+  "repo_url": "https://github.com/aimiox/Linux System MCP SSE Server",
+  "source_hub": "mcp_so",
+  "owner": "aimiox",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "dev",
+    "dev-web-backend-node",
+    "repo_unavailable"
+  ],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null,
+  "repo_status": "unavailable",
+  "repo_check_date": "2026-02-28T20:51:57.719336+00:00",
+  "repo_check_error": "fatal: unable to access 'https://github.com/aimiox/Linux System MCP SSE Server/': URL rejected: Malformed input to a URL function"
+}

@@ -1,0 +1,26 @@
+{
+  "id": "kit-1e7ef27a",
+  "name": "kit",
+  "description": "Visual testing tool for MCP servers",
+  "repo_url": "https://github.com/muppet-dev/kit",
+  "source_hub": "mcp_so",
+  "owner": "muppet-dev",
+  "stars": 59,
+  "primary_language": "unknown",
+  "tags": [
+    "dev-testing",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "740b6cd3ec6477c502eda1bab2c7abfb0514f2ef",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 357,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-27T06:40:44Z",
+  "verification_level": "scanner_only"
+}

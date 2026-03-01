@@ -1,0 +1,26 @@
+{
+  "id": "bitrix24-mcp-server-1b56a793",
+  "name": "bitrix24-mcp-server",
+  "description": "MCP Server for Bitrix24",
+  "repo_url": "https://github.com/realbrodiwhite/bitrix24-mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "realbrodiwhite",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "d2d3a6735c55b5fa1e5ff38b82dcc0b761e07290",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 5,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:41Z",
+  "verification_level": "scanner_only"
+}

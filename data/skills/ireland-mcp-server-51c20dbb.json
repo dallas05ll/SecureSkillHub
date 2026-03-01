@@ -1,0 +1,26 @@
+{
+  "id": "ireland-mcp-server-51c20dbb",
+  "name": "ireland_mcp_server",
+  "description": "MCP for Comic Book Database",
+  "repo_url": "https://github.com/jeromewoody/ireland_mcp_server",
+  "source_hub": "mcp_so",
+  "owner": "jeromewoody",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "data",
+    "data-db"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "068f6f17a41cb9955d3b63812050b673431f144d",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 6,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:41Z",
+  "verification_level": "scanner_only"
+}

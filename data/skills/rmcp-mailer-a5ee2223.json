@@ -1,0 +1,27 @@
+{
+  "id": "rmcp-mailer-a5ee2223",
+  "name": "rmcp-mailer",
+  "description": "An example rust-based MCP server for sending emails.",
+  "repo_url": "https://github.com/AlvinHon/rmcp-mailer",
+  "source_hub": "mcp_so",
+  "owner": "AlvinHon",
+  "stars": 1,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "dev-web-backend-rust",
+    "prod-comm"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "f7cfee20e46152ea16ac897542f626c753eb73c4",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 3,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:40Z",
+  "verification_level": "scanner_only"
+}

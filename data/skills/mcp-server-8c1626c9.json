@@ -1,0 +1,25 @@
+{
+  "id": "mcp-server-8c1626c9",
+  "name": "mcp-server",
+  "description": "MCP server for the Apache Camel based Weik.io Integration Platform",
+  "repo_url": "https://github.com/weikio/mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "weikio",
+  "stars": 1,
+  "primary_language": "unknown",
+  "tags": [
+    "integ"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "f698daee7490bd9fc3691eee9d5589c9732b6309",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 14,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:41Z",
+  "verification_level": "scanner_only"
+}

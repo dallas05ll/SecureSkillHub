@@ -1,0 +1,28 @@
+{
+  "id": "golf-fb000db4",
+  "name": "golf",
+  "description": "Production-Ready MCP Server Framework • Build, deploy & scale secure AI agent infrastructure • Includes Auth, Observability, Debugger, Telemetry & Runtime • Run real-world MCPs powering AI Agents",
+  "repo_url": "https://github.com/golf-mcp/golf",
+  "source_hub": "mcp_so",
+  "owner": "golf-mcp",
+  "stars": 811,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "dev",
+    "sec",
+    "util-monitor"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 71,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-27T02:26:21Z",
+  "verification_level": "scanner_only"
+}

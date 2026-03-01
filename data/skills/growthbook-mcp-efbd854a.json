@@ -1,0 +1,26 @@
+{
+  "id": "growthbook-mcp-efbd854a",
+  "name": "growthbook-mcp",
+  "description": "Official GrowthBook MCP server for creating flags, getting experiments, and more.",
+  "repo_url": "https://github.com/growthbook/growthbook-mcp",
+  "source_hub": "mcp_so",
+  "owner": "growthbook",
+  "stars": 19,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "236ecb069715b0457a902b11cb0242dc99623176",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 36,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:42:34Z",
+  "verification_level": "scanner_only"
+}

@@ -1,0 +1,26 @@
+{
+  "id": "comfyui-mcp-server-28ebfc7a",
+  "name": "comfyui_mcp_server",
+  "description": "generate_image and other workflows",
+  "repo_url": "https://github.com/zuojianghua/comfyui_mcp_server",
+  "source_hub": "mcp_so",
+  "owner": "zuojianghua",
+  "stars": 4,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai-vision",
+    "prod"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "33e6bf9b5c0a08dcb84af317be0b975675e19dc1",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 6,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:54:02Z",
+  "verification_level": "scanner_only"
+}

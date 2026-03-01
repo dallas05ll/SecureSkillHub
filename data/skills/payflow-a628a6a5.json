@@ -1,0 +1,26 @@
+{
+  "id": "payflow-a628a6a5",
+  "name": "payflow",
+  "description": "A toolkit for building micropayment-gated MCP servers",
+  "repo_url": "https://github.com/chainbound/payflow",
+  "source_hub": "mcp_so",
+  "owner": "chainbound",
+  "stars": 5,
+  "primary_language": "unknown",
+  "tags": [
+    "integ-payment",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "a483fa4b219d55dab1a725758d019b0d23c45e3a",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 15,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:54:04Z",
+  "verification_level": "scanner_only"
+}

@@ -1,0 +1,25 @@
+{
+  "id": "istio-mcp-3edaf7f7",
+  "name": "istio-mcp",
+  "description": "A tool library that encapsulates istio mcp client/server",
+  "repo_url": "https://github.com/slime-io/istio-mcp",
+  "source_hub": "mcp_so",
+  "owner": "slime-io",
+  "stars": 2,
+  "primary_language": "unknown",
+  "tags": [
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "b36fb1902b29b35a51180b635e1aa1f1e1f1985a",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 1,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:04:50Z",
+  "verification_level": "scanner_only"
+}

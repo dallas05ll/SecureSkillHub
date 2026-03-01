@@ -1,0 +1,27 @@
+{
+  "id": "ghost-mcp-server-7314647e",
+  "name": "ghost-mcp-server",
+  "description": "A Model Context Protocol (MCP) server that integrates with the Ghost Admin API. This server enables programmatic access to Ghost CMS features including post management, page management, member management, and more.",
+  "repo_url": "https://github.com/mtane0412/ghost-mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "mtane0412",
+  "stars": 2,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp",
+    "integ"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "1907cd375a3efa709707a935c3d2e8e68273cd32",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 15,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:04:51Z",
+  "verification_level": "scanner_only"
+}

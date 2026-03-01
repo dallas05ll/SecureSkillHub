@@ -1,0 +1,27 @@
+{
+  "id": "file-edit-check-server-aafdd38d",
+  "name": "file-edit-check-server",
+  "description": "MCP server that enforces pre-read checks and detailed commit documentation",
+  "repo_url": "https://github.com/punkpeye/file-edit-check-server",
+  "source_hub": "mcp_so",
+  "owner": "punkpeye",
+  "stars": 2,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "prod-docs",
+    "util-file"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "bab3271ef7d1a773d8885ae513dc91b27d914d83",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 4,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:04:51Z",
+  "verification_level": "scanner_only"
+}

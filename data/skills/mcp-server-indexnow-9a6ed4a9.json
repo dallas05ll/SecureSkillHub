@@ -1,0 +1,27 @@
+{
+  "id": "mcp-server-indexnow-9a6ed4a9",
+  "name": "mcp-server-indexnow",
+  "description": "A Model Context Protocol (MCP) server allowing URL indexing requests via the IndexNow protocol. This server acts as a bridge, enabling MCP-compatible clients (like IDEs or AI assistants) to submit URLs to search engines using the IndexNow protocol for potentially faster content discovery and indexing.",
+  "repo_url": "https://github.com/zizzfizzix/mcp-server-indexnow",
+  "source_hub": "mcp_so",
+  "owner": "zizzfizzix",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp",
+    "util-search"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "d32356c66eaf488712ad3adf64fd094660391e8e",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 9,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:41Z",
+  "verification_level": "scanner_only"
+}

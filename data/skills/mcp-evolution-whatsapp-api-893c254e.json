@@ -1,0 +1,25 @@
+{
+  "id": "mcp-evolution-whatsapp-api-893c254e",
+  "name": "mcp-evolution-whatsapp-api",
+  "description": "MCP server for evolution, the non official api for whatsapp",
+  "repo_url": "https://github.com/aiteks-ltda/mcp-evolution-whatsapp-api",
+  "source_hub": "mcp_so",
+  "owner": "aiteks-ltda",
+  "stars": 25,
+  "primary_language": "unknown",
+  "tags": [
+    "integ"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "e61528e0eb50dd361ae628102dff88d5d2bfd1ba",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 82,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:32:11Z",
+  "verification_level": "scanner_only"
+}

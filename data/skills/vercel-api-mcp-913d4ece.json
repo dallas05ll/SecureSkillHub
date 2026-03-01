@@ -1,0 +1,25 @@
+{
+  "id": "vercel-api-mcp-913d4ece",
+  "name": "vercel-api-mcp",
+  "description": "Lightweight MCP server to give your Cursor Agent access to the Vercel API.",
+  "repo_url": "https://github.com/ZukAi-MCP/vercel-api-mcp",
+  "source_hub": "mcp_so",
+  "owner": "ZukAi-MCP",
+  "stars": 20,
+  "primary_language": "unknown",
+  "tags": [
+    "integ"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "af1515d6a005729154bdbb35939a11d0a1f517bb",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 43,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:42:34Z",
+  "verification_level": "scanner_only"
+}

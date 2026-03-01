@@ -1,0 +1,44 @@
+{
+  "id": "changelog-generator-8819a674",
+  "name": "Changelog Generator",
+  "description": "Automatically creates user-facing changelogs from git commits by analyzing history and categorizing changes",
+  "repo_url": "https://github.com/ComposioHQ/awesome-claude-skills/tree/master/changelog-generator",
+  "source_hub": "claude_skills_hub",
+  "skill_type": "agent_skill",
+  "owner": "ComposioHQ",
+  "stars": 0,
+  "forks": 1,
+  "license": "Apache-2.0",
+  "primary_language": "markdown",
+  "tags": [
+    "dev-git",
+    "prod",
+    "repo_unavailable"
+  ],
+  "source_tags": [
+    "git",
+    "changelog",
+    "release-notes",
+    "automation"
+  ],
+  "categories": [
+    "dev"
+  ],
+  "version": "1.0.0",
+  "requires_code_execution": true,
+  "verification_status": "manual_review",
+  "overall_score": 68,
+  "risk_level": "medium",
+  "verified_commit": null,
+  "scan_summary": null,
+  "parent_repo_stars": 5,
+  "is_monorepo_child": true,
+  "findings_summary": {
+    "notes": "Metadata-based verification. Score=68. Signals: stars=0 (-10); license='Apache-2.0' (+5); owner='ComposioHQ' (+3); primary_language='markdown'; source_hub='claude_skills_hub' (+5); is_monorepo_child=True (-5). Status: manual_review. Risk: medium."
+  },
+  "trust_level": "medium",
+  "scan_date": "2026-02-26T06:14:55Z",
+  "repo_status": "unavailable",
+  "repo_check_date": "2026-02-28T20:51:26.296904+00:00",
+  "repo_check_error": "fatal: repository 'https://github.com/ComposioHQ/awesome-claude-skills/tree/master/changelog-generator/' not found"
+}

@@ -1,0 +1,27 @@
+{
+  "id": "mcp-security-scans-d48506c7",
+  "name": "mcp-security-scans",
+  "description": "Research project by",
+  "repo_url": "https://github.com/mcp-research/mcp-security-scans",
+  "source_hub": "mcp_so",
+  "owner": "mcp-research",
+  "stars": 1,
+  "primary_language": "unknown",
+  "tags": [
+    "sec",
+    "sec-scan",
+    "util-search"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "c45ce7860a610b1d14d2610e23487188a659ec43",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 38,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:41Z",
+  "verification_level": "scanner_only"
+}

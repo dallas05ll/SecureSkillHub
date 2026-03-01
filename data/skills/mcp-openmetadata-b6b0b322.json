@@ -1,0 +1,26 @@
+{
+  "id": "mcp-openmetadata-b6b0b322",
+  "name": "mcp-openmetadata",
+  "description": "MCP server providing OpenMetadata APIs",
+  "repo_url": "https://github.com/pfldy2850/mcp-openmetadata",
+  "source_hub": "mcp_so",
+  "owner": "pfldy2850",
+  "stars": 2,
+  "primary_language": "unknown",
+  "tags": [
+    "data",
+    "integ"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "3eb1381998fad0385a82386e345c6c5fb7692165",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 14,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:04:51Z",
+  "verification_level": "scanner_only"
+}

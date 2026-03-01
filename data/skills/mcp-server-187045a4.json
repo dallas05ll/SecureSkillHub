@@ -1,0 +1,27 @@
+{
+  "id": "mcp-server-187045a4",
+  "name": "mcp-server",
+  "description": "A simple AI-powered sticky notes app using MCP (Model Context Protocol) to add, read, delete, and summarize notes through Claude Desktop.",
+  "repo_url": "https://github.com/itsmerizzi/mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "itsmerizzi",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp",
+    "prod-notes"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "798890428c73f35bd66090151a4f9192b38d6bb0",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 2,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:41Z",
+  "verification_level": "scanner_only"
+}

@@ -1,0 +1,26 @@
+{
+  "id": "simple-mcp-server-7a6a7a19",
+  "name": "simple-mcp-server",
+  "description": "Model Context Protocol (MCP) server integrated with an external inference service (e.g., Ollama/Gemma3) via middleware.",
+  "repo_url": "https://github.com/jorgesandoval/simple-mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "jorgesandoval",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "0e1008077a332f064dae9c0a9b3934abdc2ae58b",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 13,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:41Z",
+  "verification_level": "scanner_only"
+}

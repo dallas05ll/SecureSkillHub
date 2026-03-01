@@ -1,0 +1,26 @@
+{
+  "id": "mcp0-dd2f6dcf",
+  "name": "mcp0",
+  "description": "Secure MCP (Model Context Protocol) servers configurator/inspector/proxy with hot reload support. Configure once, reuse with any MCP client.",
+  "repo_url": "https://github.com/ins0mniaque/mcp0",
+  "source_hub": "mcp_so",
+  "owner": "ins0mniaque",
+  "stars": 1,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "51ddac52165105421d6600251cc68aba8810fa42",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 1,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:40Z",
+  "verification_level": "scanner_only"
+}

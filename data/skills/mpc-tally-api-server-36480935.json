@@ -1,0 +1,30 @@
+{
+  "id": "mpc-tally-api-server-36480935",
+  "name": "mpc-tally-api-server",
+  "description": "A Model Context Protocol (MCP) server that enables AI agents to interact with the Tally API, providing access to DAO governance data, proposals, and metadata. Built with TypeScript and GraphQL, it offers a secure and efficient way to fetch and sort DAO information through standardized MCP functions.",
+  "repo_url": "https://github.com/crazyrabbitLTC/mpc-tally-api-server",
+  "source_hub": "mcp_so",
+  "owner": "crazyrabbitLTC",
+  "stars": 7,
+  "primary_language": "unknown",
+  "tags": [
+    "data",
+    "data-ai",
+    "data-ai-nlp",
+    "data-db-graph",
+    "integ",
+    "util-search"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "db750cc0605a4578655c9364b8592f3db1f05959",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 103,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:54:02Z",
+  "verification_level": "scanner_only"
+}

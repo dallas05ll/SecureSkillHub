@@ -1,0 +1,27 @@
+{
+  "id": "project-docs-181cc738",
+  "name": "project-docs",
+  "description": "this is a MCP server that create uml text based class diagrams, project tree structure and a list of modules anf functions in the project to assist cursor in understanding the project.",
+  "repo_url": "https://github.com/osok/project-docs",
+  "source_hub": "mcp_so",
+  "owner": "osok",
+  "stars": 2,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp",
+    "prod-docs"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "a4bfa93cd99d52919ae04f1cb9aaadb65113fbcc",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 23,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:04:50Z",
+  "verification_level": "scanner_only"
+}

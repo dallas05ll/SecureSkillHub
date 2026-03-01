@@ -1,0 +1,26 @@
+{
+  "id": "mcp-server-attom-a11b2db0",
+  "name": "mcp-server-attom",
+  "description": "An MCP Server for ATTOM",
+  "repo_url": "https://github.com/nkbud/mcp-server-attom",
+  "source_hub": "mcp_so",
+  "owner": "nkbud",
+  "stars": 2,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "1acf175581038b003b63cb876a3e0fcc9aff83ad",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 99,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:04:51Z",
+  "verification_level": "scanner_only"
+}

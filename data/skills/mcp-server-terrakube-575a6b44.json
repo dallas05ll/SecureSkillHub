@@ -1,0 +1,26 @@
+{
+  "id": "mcp-server-terrakube-575a6b44",
+  "name": "mcp-server-terrakube",
+  "description": "Model Context Protocol Server for Terrakube",
+  "repo_url": "https://github.com/AzBuilder/mcp-server-terrakube",
+  "source_hub": "mcp_so",
+  "owner": "AzBuilder",
+  "stars": 2,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "cb357a2abab82ad591a00466aa53ed2d87a50a1f",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 13,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:04:50Z",
+  "verification_level": "scanner_only"
+}

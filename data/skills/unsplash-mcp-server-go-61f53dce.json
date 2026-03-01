@@ -1,0 +1,25 @@
+{
+  "id": "unsplash-mcp-server-go-61f53dce",
+  "name": "unsplash-mcp-server-go",
+  "description": "a Swift implementation of hellokaton/unsplash-mcp-server, with additional features like get_photo and random_photo",
+  "repo_url": "https://github.com/okooo5km/unsplash-mcp-server-go",
+  "source_hub": "mcp_so",
+  "owner": "okooo5km",
+  "stars": 13,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai-vision"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "c887771d2b7e111c41619295b54bc841f16e799c",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 1,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:42:36Z",
+  "verification_level": "scanner_only"
+}

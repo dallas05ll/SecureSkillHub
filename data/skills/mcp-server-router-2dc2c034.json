@@ -1,0 +1,26 @@
+{
+  "id": "mcp-server-router-2dc2c034",
+  "name": "mcp-server-router",
+  "description": "mcprouter for remote mcp servers",
+  "repo_url": "https://github.com/chatmcp/mcp-server-router",
+  "source_hub": "mcp_so",
+  "owner": "chatmcp",
+  "stars": 4,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "d9bc61f4d170937b5bb38deb2022d0d3f8879a26",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 7,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:54:02Z",
+  "verification_level": "scanner_only"
+}

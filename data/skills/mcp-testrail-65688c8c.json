@@ -1,0 +1,27 @@
+{
+  "id": "mcp-testrail-65688c8c",
+  "name": "mcp_testrail",
+  "description": "Mcp Server to access testrail data",
+  "repo_url": "https://github.com/Murali-Bobby/mcp_testrail",
+  "source_hub": "mcp_so",
+  "owner": "Murali-Bobby",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "data",
+    "data-ai",
+    "dev-testing"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "234a238aef78c36598a7b789b15e563719698df6",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 6,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:40Z",
+  "verification_level": "scanner_only"
+}

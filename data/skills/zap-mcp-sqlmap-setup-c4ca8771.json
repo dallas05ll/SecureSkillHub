@@ -1,0 +1,27 @@
+{
+  "id": "zap-mcp-sqlmap-setup-c4ca8771",
+  "name": "zap-mcp-sqlmap-setup",
+  "description": "ZAP MCP Server with SQLMap integration setup guide and configuration",
+  "repo_url": "https://github.com/UnknownAirtist/zap-mcp-sqlmap-setup",
+  "source_hub": "mcp_so",
+  "owner": "UnknownAirtist",
+  "stars": 1,
+  "primary_language": "unknown",
+  "tags": [
+    "data-db",
+    "integ",
+    "util-map"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "52df123b6ac04eebbc6c97b2db721aa770dfffdf",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 5,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:40Z",
+  "verification_level": "scanner_only"
+}

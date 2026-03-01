@@ -1,0 +1,21 @@
+{
+  "id": "unreal-mcp-62dc0b06",
+  "name": "unreal-mcp",
+  "description": "Enable AI assistant clients like Cursor, Windsurf and Claude Desktop to control Unreal Engine through natural language using the Model Context Protocol (MCP).",
+  "repo_url": "https://github.com/chongdashu/unreal-mcp",
+  "source_hub": "mcp_so",
+  "owner": "chongdashu",
+  "stars": 1440,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp"
+  ],
+  "verification_status": "pass",
+  "overall_score": 62,
+  "risk_level": "medium",
+  "verified_commit": null,
+  "scan_summary": null,
+  "scan_date": "2026-02-26T03:00:50Z",
+  "verification_level": "scanner_only"
+}

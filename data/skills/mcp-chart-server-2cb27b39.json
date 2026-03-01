@@ -1,0 +1,26 @@
+{
+  "id": "mcp-chart-server-2cb27b39",
+  "name": "mcp-chart-server",
+  "description": "An MCP server to generate trading charts",
+  "repo_url": "https://github.com/Lumif-ai/mcp-chart-server",
+  "source_hub": "mcp_so",
+  "owner": "Lumif-ai",
+  "stars": 1,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "6f2c9f3c67b361a6ebe1618e9ba493c5b4b02a86",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 15,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:41Z",
+  "verification_level": "scanner_only"
+}

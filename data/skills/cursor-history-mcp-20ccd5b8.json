@@ -1,0 +1,28 @@
+{
+  "id": "cursor-history-mcp-20ccd5b8",
+  "name": "Cursor-history-MCP",
+  "description": "API service to search vectorized Cursor IDE chat history using LanceDB and Ollama",
+  "repo_url": "https://github.com/markelaugust74/Cursor-history-MCP",
+  "source_hub": "mcp_so",
+  "owner": "markelaugust74",
+  "stars": 4,
+  "primary_language": "unknown",
+  "tags": [
+    "data-db-vector",
+    "integ",
+    "prod-comm",
+    "util-search"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "a47b0b67dbaea1533ccfe8ba993e0734358ce300",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 4,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:54:02Z",
+  "verification_level": "scanner_only"
+}

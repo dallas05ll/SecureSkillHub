@@ -1,0 +1,25 @@
+{
+  "id": "mcp-devto-79719993",
+  "name": "mcp-devto",
+  "description": "mcp server to publish dev.to article automatically. In .NET 9",
+  "repo_url": "https://github.com/extinctsion/mcp-devto",
+  "source_hub": "mcp_so",
+  "owner": "extinctsion",
+  "stars": 1,
+  "primary_language": "unknown",
+  "tags": [
+    "prod"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "8a465ea604a6349be84295fbc9945f575a4859e2",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 5,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:40Z",
+  "verification_level": "scanner_only"
+}

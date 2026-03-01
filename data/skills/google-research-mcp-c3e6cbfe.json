@@ -1,0 +1,30 @@
+{
+  "id": "google-research-mcp-c3e6cbfe",
+  "name": "google-research-mcp",
+  "description": "Power your AI agents with Google Search–enhanced research via an open-source MCP server. Includes tools for Google Search, YouTube/web scraping, LLM-driven synthesis, persistent caching, and dual transport (STDIO + HTTP SSE) for efficient, flexible integration.",
+  "repo_url": "https://github.com/zoharbabin/google-research-mcp",
+  "source_hub": "mcp_so",
+  "owner": "zoharbabin",
+  "stars": 13,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "integ",
+    "integ-social",
+    "util",
+    "util-media",
+    "util-search"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "9cfe2f9cf275773ec3d6e8c764f0021fb8f61922",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 116,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:42:36Z",
+  "verification_level": "scanner_only"
+}

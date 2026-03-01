@@ -1,0 +1,25 @@
+{
+  "id": "spring-ai-mcp-server-1283c0cc",
+  "name": "spring-ai-mcp-server",
+  "description": "spring-ai-mcp-server",
+  "repo_url": "https://github.com/Ohanvi/spring-ai-mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "Ohanvi",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "becfe9cf4138d61bc315895ab5f020f38699a559",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 2,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:42:59Z",
+  "verification_level": "scanner_only"
+}

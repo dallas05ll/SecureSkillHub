@@ -1,0 +1,25 @@
+{
+  "id": "mcp-x-f6f67a16",
+  "name": "MCP-X",
+  "description": "这是一个MCP客户端，让你轻松配置各个大模型，对接各种MCP Server而开发。This is an MCP client that allows you to easily configure various large models and develop interfaces with various MCP servers.",
+  "repo_url": "https://github.com/TimeCyber/MCP-X",
+  "source_hub": "mcp_so",
+  "owner": "TimeCyber",
+  "stars": 139,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "958de4c9f8c64bdc4cc942f5e433df5bf361313a",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 204,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-27T06:40:44Z",
+  "verification_level": "scanner_only"
+}

@@ -1,0 +1,29 @@
+{
+  "id": "mcp-subfinder-server-11975ef9",
+  "name": "mcp_subfinder_server",
+  "description": "Model Context Protocol (MCP) server that wraps ProjectDiscovery's subfinder tool for powerful subdomain enumeration through a JSON-RPC API.",
+  "repo_url": "https://github.com/copyleftdev/mcp_subfinder_server",
+  "source_hub": "mcp_so",
+  "owner": "copyleftdev",
+  "stars": 2,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp",
+    "integ",
+    "util",
+    "util-search"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "889c87717fade3f5e8122010665a27606bfbf3a7",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 3,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:04:50Z",
+  "verification_level": "scanner_only"
+}

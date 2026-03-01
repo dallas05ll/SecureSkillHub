@@ -1,0 +1,28 @@
+{
+  "id": "clay-3c8104d7",
+  "name": "Clay",
+  "description": "A Model Context Protocol (MCP) server for Clay (clay.earth). Search your email, calendar, Twitter / X, Linkedin, iMessage, Facebook, and WhatsApp contacts. Take notes, set reminders, and more.\n\nExamples\n\n    \"Who in my network works at Google as a Product Manager?\"\n    \"Who is John Smith?\"\n    \"Add a new contact named Jane Doe, who is a Designer at Figma.\"\n    \"Save a note for John Smith: 'Follow up about the Q2 report.'\"\n    \"Create a group called 'Investors 2025.'\"",
+  "repo_url": "https://github.com/clay-inc/Clay",
+  "source_hub": "mcp_so",
+  "owner": "clay-inc",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp",
+    "integ-social",
+    "prod-calendar",
+    "prod-comm",
+    "prod-notes",
+    "util-search",
+    "repo_unavailable"
+  ],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null,
+  "repo_status": "unavailable",
+  "repo_check_date": "2026-02-28T20:51:29.449055+00:00",
+  "repo_check_error": "fatal: could not read Username for 'https://github.com': Device not configured"
+}

@@ -1,0 +1,26 @@
+{
+  "id": "mcp-chat-ed01fa0b",
+  "name": "mcp-chat",
+  "description": "Open Source Generic MCP Client for testing & evaluating mcp servers and agents",
+  "repo_url": "https://github.com/Flux159/mcp-chat",
+  "source_hub": "mcp_so",
+  "owner": "Flux159",
+  "stars": 133,
+  "primary_language": "unknown",
+  "tags": [
+    "dev-testing",
+    "prod-comm"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "489eed64972e9cb30ed9363a5dec4fb3140f4a1b",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 24,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-27T06:40:44Z",
+  "verification_level": "scanner_only"
+}

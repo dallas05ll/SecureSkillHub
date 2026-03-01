@@ -1,0 +1,25 @@
+{
+  "id": "awesome-crypto-mcp-servers-8eb11936",
+  "name": "awesome-crypto-mcp-servers",
+  "description": "A collection of crypto MCP servers.",
+  "repo_url": "https://github.com/badkk/awesome-crypto-mcp-servers",
+  "source_hub": "mcp_so",
+  "owner": "badkk",
+  "stars": 127,
+  "primary_language": "unknown",
+  "tags": [
+    "sec-crypto"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "6f3db72a6f5e8cfe79e660868b4f9e6eaa67d5eb",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 1,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-27T06:40:43Z",
+  "verification_level": "scanner_only"
+}

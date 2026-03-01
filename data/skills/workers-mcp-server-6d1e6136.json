@@ -1,0 +1,26 @@
+{
+  "id": "workers-mcp-server-6d1e6136",
+  "name": "workers-mcp-server",
+  "description": "Talk to a Cloudflare Worker from Claude Desktop!",
+  "repo_url": "https://github.com/geelen/workers-mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "geelen",
+  "stars": 64,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "integ-cloud"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "c32f7dd3c75a9f752dcd8672bcc9f6c45ee80f77",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 10,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-27T06:40:43Z",
+  "verification_level": "scanner_only"
+}

@@ -1,0 +1,29 @@
+{
+  "id": "neo4j-mcpserver-5532012b",
+  "name": "neo4j-mcpserver",
+  "description": "A Neo4j MCP server implementation for managing graph database operations through the Model Context Protocol",
+  "repo_url": "https://github.com/Tobarrientos2/neo4j-mcpserver",
+  "source_hub": "mcp_so",
+  "owner": "Tobarrientos2",
+  "stars": 4,
+  "primary_language": "unknown",
+  "tags": [
+    "data",
+    "data-ai",
+    "data-ai-nlp",
+    "data-db",
+    "data-db-graph"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "e319102062bba761a47d943a60557a4f6bdf2355",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 6,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:04:50Z",
+  "verification_level": "scanner_only"
+}

@@ -1,0 +1,26 @@
+{
+  "id": "nns-mcp-2bb12cbf",
+  "name": "nns-mcp",
+  "description": "Nad Name Service MCP Server",
+  "repo_url": "https://github.com/nadnameservice/nns-mcp",
+  "source_hub": "mcp_so",
+  "owner": "nadnameservice",
+  "stars": 3,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "2353dd8f1df436cf07cc9c97e7f8b572eee302f3",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 9,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:04:51Z",
+  "verification_level": "scanner_only"
+}

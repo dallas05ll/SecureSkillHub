@@ -1,0 +1,28 @@
+{
+  "id": "memory-bank-mcp-87b74cde",
+  "name": "memory-bank-MCP",
+  "description": "Memory Bank is an MCP server that helps teams create, manage, and access structured project documentation. It generates and maintains a set of interconnected Markdown documents that capture different aspects of project knowledge, from high-level goals to technical details and day-to-day progress.",
+  "repo_url": "https://github.com/tuncer-byte/memory-bank-MCP",
+  "source_hub": "mcp_so",
+  "owner": "tuncer-byte",
+  "stars": 102,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "integ",
+    "prod-docs",
+    "prod-notes"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "c97d3cce0b312f2696e00de3ee6d7963b6c288a1",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 15,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-27T06:40:43Z",
+  "verification_level": "scanner_only"
+}

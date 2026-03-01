@@ -1,0 +1,29 @@
+{
+  "id": "custom-mcp-server-for-ai-powered-sticky--0aa4ee92",
+  "name": "Custom-MCP-Server-for-AI-Powered-Sticky-Notes",
+  "description": "This project is a lightweight and extensible Custom MCP Server built using FastMCP, designed for capturing, storing, and managing sticky notes via AI tools. This project allows seamless interaction with note-taking functionality through natural language commands, making it ideal for productivity, reminders, or quick ideation.",
+  "repo_url": "https://github.com/kishorekrrish3/Custom-MCP-Server-for-AI-Powered-Sticky-Notes",
+  "source_hub": "mcp_so",
+  "owner": "kishorekrrish3",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp",
+    "prod",
+    "prod-notes",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "a100c4d4a9c28fe5604fd036bcc91f19aca0913a",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 4,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:40Z",
+  "verification_level": "scanner_only"
+}

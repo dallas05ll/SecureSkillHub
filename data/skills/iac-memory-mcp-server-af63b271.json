@@ -1,0 +1,27 @@
+{
+  "id": "iac-memory-mcp-server-af63b271",
+  "name": "iac-memory-mcp-server",
+  "description": "This is a personal project to see if Claude 3.5 Sonnet can write a moderately complex MCP Server in Python.",
+  "repo_url": "https://github.com/AgentWong/iac-memory-mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "AgentWong",
+  "stars": 1,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "dev-web-backend-python",
+    "prod-notes"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "92bec752cb0257e4469f0bf50e947c47d15cf135",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 24,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:41Z",
+  "verification_level": "scanner_only"
+}

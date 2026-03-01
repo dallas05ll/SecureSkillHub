@@ -1,0 +1,38 @@
+{
+  "id": "vectorize-mcp-worker-1793fe39",
+  "name": "Vectorize MCP Worker",
+  "description": "Edge-native MCP server patterns for production RAG",
+  "repo_url": "https://github.com/dannwaneri/vectorize-mcp-worker",
+  "source_hub": "claude_skills_hub",
+  "skill_type": "agent_skill",
+  "owner": "dannwaneri",
+  "stars": 12,
+  "forks": 3,
+  "license": "MIT",
+  "primary_language": "markdown",
+  "tags": [
+    "data-db-vector"
+  ],
+  "source_tags": [
+    "mcp",
+    "rag",
+    "dev"
+  ],
+  "categories": [
+    "dev",
+    "ai"
+  ],
+  "version": "1.0.0",
+  "requires_code_execution": false,
+  "verification_status": "pass",
+  "overall_score": 88,
+  "risk_level": "low",
+  "verified_commit": null,
+  "scan_summary": null,
+  "findings_summary": {
+    "notes": "Metadata-based verification. Score=88. Signals: stars=12 (>=10, +5); license='MIT' (+5); owner='dannwaneri' (+3); primary_language='markdown'; source_hub='claude_skills_hub' (+5). Status: pass. Risk: low."
+  },
+  "trust_level": "medium",
+  "scan_date": "2026-02-26T06:14:56Z",
+  "verification_level": "metadata_only"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "limelink-mcp-server-98ab14b3",
+  "name": "limelink-mcp-server",
+  "description": "MCP server for managing Limelink dynamic links. Create short links with platform-specific deep linking (iOS/Android), social media previews, and UTM tracking. Retrieve link details by suffix or full URL. Includes\r\n   documentation resources and guided prompts for link creation and deep linking setup.ㅌ",
+  "repo_url": "https://github.com/hellovelop/limelink-mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "hellovelop",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "integ-social",
+    "prod-docs",
+    "util-media"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "849efb2df8d800a886f55b6abb809d8fde13639a",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 41,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:40Z",
+  "verification_level": "scanner_only"
+}

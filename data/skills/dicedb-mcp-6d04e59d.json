@@ -1,0 +1,28 @@
+{
+  "id": "dicedb-mcp-6d04e59d",
+  "name": "dicedb-mcp",
+  "description": "A Model Context Protocol (MCP) server implementation for DiceDB to enable AI applications to interact with DiceDB databases.",
+  "repo_url": "https://github.com/pottekkat/dicedb-mcp",
+  "source_hub": "mcp_so",
+  "owner": "pottekkat",
+  "stars": 5,
+  "primary_language": "unknown",
+  "tags": [
+    "data",
+    "data-ai",
+    "data-ai-nlp",
+    "data-db"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "f32e96822ebd3f5cafcf1f04d8ac34fe837e9c1b",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 4,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:54:02Z",
+  "verification_level": "scanner_only"
+}

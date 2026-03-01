@@ -1,0 +1,32 @@
+{
+  "id": "bonnard-59e6bdb4",
+  "name": "bonnard",
+  "description": "Ultra-fast to deploy agentic-first mcp-ready semantic layer. Let your data be like water.\r\n\r\nBonnard is a CLI for building and deploying semantic layers. Define metrics and dimensions in YAML, deploy a governed MCP server, and serve AI agents and BI tools. Supports Snowflake, BigQuery, Databricks, PostgreSQL, and more. \r\n\r\nShips with native integrations for Claude Code, Cursor, and Codex.\r\n\r\nGitHub: https://github.com/meal-inc/bonnard-cli\r\nDocs: https://docs.bonnard.dev/docs/\r\nnpm: https://ww...",
+  "repo_url": "https://github.com/Bonnard/bonnard",
+  "source_hub": "mcp_so",
+  "owner": "Bonnard",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "data",
+    "data-ai",
+    "data-db",
+    "dev",
+    "dev-web-backend-node",
+    "integ",
+    "integ-cloud-gcp",
+    "prod-docs",
+    "sec-crypto",
+    "util",
+    "util-monitor",
+    "repo_unavailable"
+  ],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null,
+  "repo_status": "unavailable",
+  "repo_check_date": "2026-02-28T20:51:23.997357+00:00",
+  "repo_check_error": "fatal: could not read Username for 'https://github.com': Device not configured"
+}

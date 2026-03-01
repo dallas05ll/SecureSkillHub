@@ -1,0 +1,25 @@
+{
+  "id": "mcp-server-hub-a63ffbf8",
+  "name": "mcp-server-hub",
+  "description": "An attempt to create a singleton MCP server hub that is usable by Cline/Roo Code",
+  "repo_url": "https://github.com/ksze/mcp-server-hub",
+  "source_hub": "mcp_so",
+  "owner": "ksze",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "dev"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "aa74f13d3093b0d9cf69200267adfd02b7608991",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 1,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:40Z",
+  "verification_level": "scanner_only"
+}

@@ -1,0 +1,27 @@
+{
+  "id": "porkbun-mcp-server-0472cbfe",
+  "name": "porkbun-mcp-server",
+  "description": "MCP server implementation for managing domains, DNS, and SSL via the Porkbun API.",
+  "repo_url": "https://github.com/miraclebakelaser/porkbun-mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "miraclebakelaser",
+  "stars": 12,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "dev-web-backend-node",
+    "integ"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "c8c69d0982d79f698445a7c5f2537f0422b425d4",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 5,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:42:34Z",
+  "verification_level": "scanner_only"
+}

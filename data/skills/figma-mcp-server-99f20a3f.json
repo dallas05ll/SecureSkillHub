@@ -1,0 +1,25 @@
+{
+  "id": "figma-mcp-server-99f20a3f",
+  "name": "Figma_MCP_Server",
+  "description": "react",
+  "repo_url": "https://github.com/Dhruv-220/Figma_MCP_Server",
+  "source_hub": "mcp_so",
+  "owner": "Dhruv-220",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "dev-web-frontend-react"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "175b9235bb785df500bab91c1b5f83a67bc5722d",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 29,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:41Z",
+  "verification_level": "scanner_only"
+}

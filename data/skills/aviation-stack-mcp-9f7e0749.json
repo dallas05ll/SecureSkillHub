@@ -1,0 +1,25 @@
+{
+  "id": "aviation-stack-mcp-9f7e0749",
+  "name": "aviation_stack_mcp",
+  "description": "This is a mcp server for aviationstack flight APIs",
+  "repo_url": "https://github.com/mohitatust/aviation_stack_mcp",
+  "source_hub": "mcp_so",
+  "owner": "mohitatust",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "integ"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "84d67b7ddf3d89bf60c00f61aea2723dc2cb8a0a",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 10,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:40Z",
+  "verification_level": "scanner_only"
+}

@@ -1,0 +1,25 @@
+{
+  "id": "pubmed-search-b8fa66e0",
+  "name": "Pubmed_Search",
+  "description": "MCP server for PubMed medical research search with Impact Factor analysis",
+  "repo_url": "https://github.com/YOUNGSUK81/Pubmed_Search",
+  "source_hub": "mcp_so",
+  "owner": "YOUNGSUK81",
+  "stars": 1,
+  "primary_language": "unknown",
+  "tags": [
+    "util-search"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "bf1b1944ce1d7044891183d81eac1d0bb3dc8264",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 5,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:41Z",
+  "verification_level": "scanner_only"
+}

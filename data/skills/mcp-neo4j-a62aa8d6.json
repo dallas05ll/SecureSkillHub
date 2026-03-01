@@ -1,0 +1,27 @@
+{
+  "id": "mcp-neo4j-a62aa8d6",
+  "name": "mcp-neo4j",
+  "description": "Model Context Protocol with Neo4j",
+  "repo_url": "https://github.com/neo4j-contrib/mcp-neo4j",
+  "source_hub": "mcp_so",
+  "owner": "neo4j-contrib",
+  "stars": 908,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp",
+    "data-db-graph"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 81,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-27T02:26:21Z",
+  "verification_level": "scanner_only"
+}

@@ -1,0 +1,29 @@
+{
+  "id": "sentry-mcp-server-2c63a72c",
+  "name": "sentry-mcp-server",
+  "description": "🤖 A TypeScript implementation of a Sentry MCP (Modern Context Protocol) tool that allows AI agents to access and analyze Sentry error data.",
+  "repo_url": "https://github.com/FaureAlexis/sentry-mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "FaureAlexis",
+  "stars": 2,
+  "primary_language": "unknown",
+  "tags": [
+    "data",
+    "data-ai",
+    "data-ai-nlp",
+    "util",
+    "util-monitor"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "40a252bddbd5712a674fafcde284b1f900076e18",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 12,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:04:51Z",
+  "verification_level": "scanner_only"
+}

@@ -1,0 +1,26 @@
+{
+  "id": "perplexity-ask-openrouter-74e211f8",
+  "name": "perplexity-ask-openrouter",
+  "description": "The Perplexity Ask MCP Server use OpenRouter",
+  "repo_url": "https://github.com/elct9620/perplexity-ask-openrouter",
+  "source_hub": "mcp_so",
+  "owner": "elct9620",
+  "stars": 2,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "a2bdeef17689558e355130a7f2f0d81fcf4a37bf",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 19,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:04:50Z",
+  "verification_level": "scanner_only"
+}

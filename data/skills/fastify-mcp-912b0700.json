@@ -1,0 +1,26 @@
+{
+  "id": "fastify-mcp-912b0700",
+  "name": "fastify-mcp",
+  "description": "A Fastify plugin to run Model Context Protocol (MCP) servers",
+  "repo_url": "https://github.com/haroldadmin/fastify-mcp",
+  "source_hub": "mcp_so",
+  "owner": "haroldadmin",
+  "stars": 23,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "8da0755e04436413d3f5ee9010859125433a8a81",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 16,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:32:12Z",
+  "verification_level": "scanner_only"
+}

@@ -1,0 +1,25 @@
+{
+  "id": "auto-dev-next-f9b88f09",
+  "name": "auto-dev-next",
+  "description": "the AutoDev Next with Compose UI and MCP control backend server.",
+  "repo_url": "https://github.com/unit-mesh/auto-dev-next",
+  "source_hub": "mcp_so",
+  "owner": "unit-mesh",
+  "stars": 11,
+  "primary_language": "unknown",
+  "tags": [
+    "dev-devops-docker"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "a01c74491eb61b83e365c94b966ef885ed4ac099",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 1,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:42:34Z",
+  "verification_level": "scanner_only"
+}

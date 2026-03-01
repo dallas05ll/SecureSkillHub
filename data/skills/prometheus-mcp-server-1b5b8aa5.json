@@ -1,0 +1,26 @@
+{
+  "id": "prometheus-mcp-server-1b5b8aa5",
+  "name": "prometheus-mcp-server",
+  "description": "一个简化版的Prometheus MCP服务器，用于收集和暴露MCP服务器的指标",
+  "repo_url": "https://github.com/qingshanyuluo/prometheus-mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "qingshanyuluo",
+  "stars": 3,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "62efc5879c47dab4a858ac5381b4f78b353b27b0",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 5,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:04:51Z",
+  "verification_level": "scanner_only"
+}

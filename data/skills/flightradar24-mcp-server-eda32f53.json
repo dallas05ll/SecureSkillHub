@@ -1,0 +1,26 @@
+{
+  "id": "flightradar24-mcp-server-eda32f53",
+  "name": "flightradar24-mcp-server",
+  "description": "Model Context Protocol server for Flight Tracking",
+  "repo_url": "https://github.com/sunsetcoder/flightradar24-mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "sunsetcoder",
+  "stars": 46,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "97d3e99614605c5fb21005d0ebaf93847cdde829",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 10,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:32:11Z",
+  "verification_level": "scanner_only"
+}

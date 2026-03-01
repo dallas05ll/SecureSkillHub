@@ -1,0 +1,27 @@
+{
+  "id": "mcp-server-customer-db-8f46b428",
+  "name": "mcp-server-customer-db",
+  "description": "Experiment with MCP for an internal customer database",
+  "repo_url": "https://github.com/Marcelixoo/mcp-server-customer-db",
+  "source_hub": "mcp_so",
+  "owner": "Marcelixoo",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "data",
+    "data-db",
+    "integ-crm"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "3719a17fde7df9464b1f4193d3e770652e6d3b09",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 3,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:40Z",
+  "verification_level": "scanner_only"
+}

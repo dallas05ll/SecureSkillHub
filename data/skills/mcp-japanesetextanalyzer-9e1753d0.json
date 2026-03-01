@@ -1,0 +1,25 @@
+{
+  "id": "mcp-japanesetextanalyzer-9e1753d0",
+  "name": "mcp-JapaneseTextAnalyzer",
+  "description": "MCP server for analyzing Japanese text with morphological analysis",
+  "repo_url": "https://github.com/Mistizz/mcp-JapaneseTextAnalyzer",
+  "source_hub": "mcp_so",
+  "owner": "Mistizz",
+  "stars": 4,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai-nlp"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "83c3c2c74f85b37eca4c6b50cd88105388ca4d93",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 6,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:54:02Z",
+  "verification_level": "scanner_only"
+}

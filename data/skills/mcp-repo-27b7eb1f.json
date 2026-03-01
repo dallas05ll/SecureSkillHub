@@ -1,0 +1,25 @@
+{
+  "id": "mcp-repo-27b7eb1f",
+  "name": "MCP-Repo",
+  "description": "Repository for testing MCP GitHub server capabilities",
+  "repo_url": "https://github.com/JYf12/MCP-Repo",
+  "source_hub": "mcp_so",
+  "owner": "JYf12",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "dev-testing"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "5f3ba6cc6da656ce957c2b2e96aa1a0a00d4ff99",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 1,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:40Z",
+  "verification_level": "scanner_only"
+}

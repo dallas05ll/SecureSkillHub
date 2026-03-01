@@ -1,0 +1,41 @@
+{
+  "id": "mailgun-mcp-server-c46418a5",
+  "name": "Mailgun MCP Server",
+  "description": "A Model Context Protocol server implementation that enables AI assistants like Claude Desktop to interact with Mailgun email services, allowing users to send emails and visualize email delivery statistics through natural language.",
+  "repo_url": "https://github.com/mailgun/mailgun-mcp-server",
+  "source_hub": "glama",
+  "owner": "mailgun",
+  "stars": 45,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp",
+    "prod-comm"
+  ],
+  "verification_status": "pass",
+  "overall_score": 90,
+  "risk_level": "low",
+  "verified_commit": null,
+  "scan_summary": {
+    "total_findings": 5,
+    "files_scanned": 15,
+    "severity_counts": {
+      "medium": 2,
+      "low": 3
+    },
+    "category_counts": {
+      "network_ops": 2,
+      "env_access": 1,
+      "file_ops": 2
+    },
+    "verification_type": "full_llm_pipeline",
+    "key_findings": [
+      "Official Mailgun project",
+      "Clean proxy to Mailgun HTTPS API",
+      "No dangerous calls, no exfiltration vectors",
+      "Perfect alignment between docs and code"
+    ]
+  },
+  "scan_date": "2026-02-25T08:30:00Z",
+  "verification_level": "scanner_only"
+}

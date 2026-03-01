@@ -1,0 +1,28 @@
+{
+  "id": "bitrefill-mcp-server-b38dabb4",
+  "name": "bitrefill-mcp-server",
+  "description": "A Model Context Protocol Server connector for Bitrefill public API, to enable AI agents to search and shop on Bitrefill.",
+  "repo_url": "https://github.com/bitrefill/bitrefill-mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "bitrefill",
+  "stars": 7,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp",
+    "integ",
+    "util-search"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "3bc6123a829f1dae2f62bbf76dd2ee68a5546a50",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 30,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:54:02Z",
+  "verification_level": "scanner_only"
+}

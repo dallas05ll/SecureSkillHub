@@ -1,0 +1,26 @@
+{
+  "id": "todoist-mcp-1144e6df",
+  "name": "todoist-mcp",
+  "description": "This MCP server enables advanced task and project management via Claude Desktop and other MCP-compatible clients.",
+  "repo_url": "https://github.com/stevengonsalvez/todoist-mcp",
+  "source_hub": "mcp_so",
+  "owner": "stevengonsalvez",
+  "stars": 2,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "prod-pm"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "1ca5d2f8ac0ddea07345472814e206e7cb2957c6",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 7,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:42Z",
+  "verification_level": "scanner_only"
+}

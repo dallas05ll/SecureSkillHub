@@ -1,0 +1,28 @@
+{
+  "id": "opencode-intern-claude-code-skill-1a46a09e",
+  "name": "Opencode-Intern-Claude-Code-Skill",
+  "description": "Use Opencode in Claude through ACP",
+  "repo_url": "https://github.com/smadgerano/Opencode-Intern-Claude-Code-Skill",
+  "source_hub": "github_search",
+  "skill_type": "agent_skill",
+  "owner": "smadgerano",
+  "stars": 1,
+  "license": "",
+  "primary_language": "markdown",
+  "tags": [
+    "data-ai",
+    "dev"
+  ],
+  "verification_status": "pass",
+  "overall_score": 73,
+  "risk_level": "medium",
+  "verified_commit": null,
+  "scan_summary": null,
+  "last_updated": "2026-01-20T06:37:36Z",
+  "findings_summary": {
+    "notes": "Metadata-based verification. Score=73. Signals: stars=1; no license detected; owner='smadgerano' (+3); primary_language='markdown'; source_hub='github_search'. Status: pass. Risk: medium."
+  },
+  "trust_level": "low",
+  "scan_date": "2026-02-26T06:14:56Z",
+  "verification_level": "metadata_only"
+}

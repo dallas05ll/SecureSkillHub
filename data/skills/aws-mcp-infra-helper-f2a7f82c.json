@@ -1,0 +1,31 @@
+{
+  "id": "aws-mcp-infra-helper-f2a7f82c",
+  "name": "aws-mcp-infra-helper",
+  "description": "This creates an MCP server enabling Claude to run security scans on Terraform code, create architecture diagrams of your AWS cloud architectures and execute terraform commands to deploy or modify resources",
+  "repo_url": "https://github.com/madhurprash/aws-mcp-infra-helper",
+  "source_hub": "mcp_so",
+  "owner": "madhurprash",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "dev",
+    "integ-cloud",
+    "integ-cloud-aws",
+    "sec",
+    "sec-scan",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "64098d71d570c6f8a7bfdd68467b47b530aa6a74",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 4,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:40Z",
+  "verification_level": "scanner_only"
+}

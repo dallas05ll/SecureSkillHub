@@ -1,0 +1,26 @@
+{
+  "id": "fastdomaincheck-mcp-server-python-2b092e13",
+  "name": "fastdomaincheck-mcp-server-python",
+  "description": "MCP Server for checking domain name availability using WHOIS and DNS via stdio.",
+  "repo_url": "https://github.com/bingal/fastdomaincheck-mcp-server-python",
+  "source_hub": "mcp_so",
+  "owner": "bingal",
+  "stars": 22,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "dev-web-backend-python"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "124ddbd090333dafb0848eff7fe368b999712bfe",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 8,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:32:12Z",
+  "verification_level": "scanner_only"
+}

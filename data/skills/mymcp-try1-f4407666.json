@@ -1,0 +1,26 @@
+{
+  "id": "mymcp-try1-f4407666",
+  "name": "MyMCP_Try1",
+  "description": "Trying MCP server creation",
+  "repo_url": "https://github.com/rajeshkanaka/MyMCP_Try1",
+  "source_hub": "mcp_so",
+  "owner": "rajeshkanaka",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "8a11d0892cb0c08678c046fb6167a34a85e42d40",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 1,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:42Z",
+  "verification_level": "scanner_only"
+}

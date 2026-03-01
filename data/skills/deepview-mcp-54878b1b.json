@@ -1,0 +1,27 @@
+{
+  "id": "deepview-mcp-54878b1b",
+  "name": "deepview-mcp",
+  "description": "DeepView MCP is a Model Context Protocol server that enables IDEs like Cursor and Windsurf to analyze large codebases using Gemini 2.5 Pro's extensive context window.",
+  "repo_url": "https://github.com/ai-1st/deepview-mcp",
+  "source_hub": "mcp_so",
+  "owner": "ai-1st",
+  "stars": 67,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp",
+    "dev"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "4209ae9086bf9be2bb3e43e323d6156cf5573679",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 10,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-27T06:40:43Z",
+  "verification_level": "scanner_only"
+}

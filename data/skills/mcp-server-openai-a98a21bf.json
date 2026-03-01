@@ -1,0 +1,25 @@
+{
+  "id": "mcp-server-openai-a98a21bf",
+  "name": "mcp-server-openai",
+  "description": "mcp-server-openai with o3-mini support",
+  "repo_url": "https://github.com/thadius83/mcp-server-openai",
+  "source_hub": "mcp_so",
+  "owner": "thadius83",
+  "stars": 3,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "eced8d51750fda45c442e14ea0310f64c974da8e",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 7,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:04:51Z",
+  "verification_level": "scanner_only"
+}

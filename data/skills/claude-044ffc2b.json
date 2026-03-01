@@ -1,0 +1,29 @@
+{
+  "id": "claude-044ffc2b",
+  "name": ".claude",
+  "description": "Production-ready Claude Code configuration with 7 specialized agents, 8 workflow automation commands, and reusable skills from the Weaverse team.",
+  "repo_url": "https://github.com/Weaverse/.claude",
+  "source_hub": "github_search",
+  "skill_type": "agent_skill",
+  "owner": "Weaverse",
+  "stars": 76,
+  "license": "",
+  "primary_language": "Shell",
+  "tags": [
+    "data-ai",
+    "dev",
+    "prod"
+  ],
+  "verification_status": "pass",
+  "overall_score": 74,
+  "risk_level": "low",
+  "verified_commit": null,
+  "scan_summary": null,
+  "last_updated": "2026-02-10T15:28:05Z",
+  "findings_summary": {
+    "notes": "No explicit license. Shell scripts, recently updated. Well-organized dotfiles structure for team sharing."
+  },
+  "trust_level": "low",
+  "scan_date": "2026-02-26T02:11:43Z",
+  "verification_level": "scanner_only"
+}

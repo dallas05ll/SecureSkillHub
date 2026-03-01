@@ -1,0 +1,28 @@
+{
+  "id": "thingsboard-mcp-server-e90af040",
+  "name": "thingsboard-mcp-server",
+  "description": "Thingsboard MCP Server for using Thingsboard Data as context in LLM tools",
+  "repo_url": "https://github.com/AnyContext-ai/thingsboard-mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "AnyContext-ai",
+  "stars": 9,
+  "primary_language": "unknown",
+  "tags": [
+    "data",
+    "data-ai",
+    "data-ai-nlp",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "879e52bc3b88e814ac045cfb45eb741ce9c4ea39",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 3,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:42:36Z",
+  "verification_level": "scanner_only"
+}

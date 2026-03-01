@@ -1,0 +1,25 @@
+{
+  "id": "claude-autoapprove-43fc93cf",
+  "name": "claude_autoapprove",
+  "description": "Autoapprove support for claude",
+  "repo_url": "https://github.com/PyneSys/claude_autoapprove",
+  "source_hub": "mcp_so",
+  "owner": "PyneSys",
+  "stars": 12,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "da509e3d1b81ba33aaa492b317621138da9c71c5",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 6,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:42:36Z",
+  "verification_level": "scanner_only"
+}

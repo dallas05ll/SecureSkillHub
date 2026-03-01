@@ -1,0 +1,26 @@
+{
+  "id": "xrpl-mcp-service-d841a6e9",
+  "name": "xrpl-mcp-service",
+  "description": "An MCP server implementation for interacting with the XRP Ledger blockchain",
+  "repo_url": "https://github.com/tedlikeskix/xrpl-mcp-service",
+  "source_hub": "mcp_so",
+  "owner": "tedlikeskix",
+  "stars": 4,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "sec-crypto"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "624a17c81cb784f316066ac001de1575d0fa15b6",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 7,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:04:50Z",
+  "verification_level": "scanner_only"
+}

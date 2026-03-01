@@ -1,0 +1,26 @@
+{
+  "id": "mcp-server-gmail-plugin-for-claude-deskt-2e633d9a",
+  "name": "MCP-Server---Gmail-Plugin-for-Claude-Desktop",
+  "description": "An MCP server for local machine in Claude Desktop",
+  "repo_url": "https://github.com/sanchisingh01/MCP-Server---Gmail-Plugin-for-Claude-Desktop",
+  "source_hub": "mcp_so",
+  "owner": "sanchisingh01",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "prod-comm"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "9438708216ec5da6cd3c46905cb6aaf906391427",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 5,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:40Z",
+  "verification_level": "scanner_only"
+}

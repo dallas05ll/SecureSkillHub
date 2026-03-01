@@ -1,0 +1,26 @@
+{
+  "id": "mcp-server-steam-f3253ec6",
+  "name": "mcp-server-steam",
+  "description": "MCP Server for interacting with Steam",
+  "repo_url": "https://github.com/dsp/mcp-server-steam",
+  "source_hub": "mcp_so",
+  "owner": "dsp",
+  "stars": 11,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "081402ee19212f344c00daed8ead4e2d76db92ee",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 2,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:42:34Z",
+  "verification_level": "scanner_only"
+}

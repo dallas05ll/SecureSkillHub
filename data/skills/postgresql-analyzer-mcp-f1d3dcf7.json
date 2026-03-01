@@ -1,0 +1,25 @@
+{
+  "id": "postgresql-analyzer-mcp-f1d3dcf7",
+  "name": "postgreSQL-analyzer-mcp",
+  "description": "PostgreSQL performance analysis and optimization MCP server",
+  "repo_url": "https://github.com/rameshv29/postgreSQL-analyzer-mcp",
+  "source_hub": "mcp_so",
+  "owner": "rameshv29",
+  "stars": 2,
+  "primary_language": "unknown",
+  "tags": [
+    "data-db"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "c14590d7be5bf38758df9bfa66bf015bdadc41f6",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 13,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:04:51Z",
+  "verification_level": "scanner_only"
+}

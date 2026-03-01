@@ -1,0 +1,28 @@
+{
+  "id": "gmail-attachment-mcp-server-e0202c74",
+  "name": "gmail-attachment-mcp-server",
+  "description": "mcp server for downloading attachments from gmail using imap",
+  "repo_url": "https://github.com/gnmahanth/gmail-attachment-mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "gnmahanth",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "prod-comm",
+    "util-file",
+    "util-map"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "3a42473be275d34cf09c564956b712767ba8bb7b",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 3,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:40Z",
+  "verification_level": "scanner_only"
+}

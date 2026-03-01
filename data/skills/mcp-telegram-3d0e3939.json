@@ -1,0 +1,25 @@
+{
+  "id": "mcp-telegram-3d0e3939",
+  "name": "mcp-telegram",
+  "description": "A Telegram MCP Server designed for agentic applications to manage and interact with Telegram efficiently",
+  "repo_url": "https://github.com/Hesbadami/mcp-telegram",
+  "source_hub": "mcp_so",
+  "owner": "Hesbadami",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "prod-comm"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "d571d3c5f808985b31641b247a1000d6e7400e56",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 10,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:41Z",
+  "verification_level": "scanner_only"
+}

@@ -1,0 +1,25 @@
+{
+  "id": "mcp-server-saillogger-ff7c31bb",
+  "name": "mcp-server-saillogger",
+  "description": "An MCP server that provides real-time AIS positions from the Saillogger network into AI applications",
+  "repo_url": "https://github.com/Saillogger/mcp-server-saillogger",
+  "source_hub": "mcp_so",
+  "owner": "Saillogger",
+  "stars": 1,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "9acc91c1e2a128e4718216ea59b906dbb8991a9e",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 3,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:40Z",
+  "verification_level": "scanner_only"
+}

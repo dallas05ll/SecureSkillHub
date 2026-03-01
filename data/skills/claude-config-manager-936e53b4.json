@@ -1,0 +1,28 @@
+{
+  "id": "claude-config-manager-936e53b4",
+  "name": "claude-config-manager",
+  "description": "A lightweight, command-line tool for managing Claude Desktop MCP (Model Context Protocol) configurations. This tool makes it easy to toggle MCP servers on and off, create preset configurations, and manage backups.",
+  "repo_url": "https://github.com/eversonl/claude-config-manager",
+  "source_hub": "mcp_so",
+  "owner": "eversonl",
+  "stars": 2,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp",
+    "util",
+    "util-file"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "1334985cd2a89bdd0082d13ae033893d6c716ffa",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 2,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:04:50Z",
+  "verification_level": "scanner_only"
+}

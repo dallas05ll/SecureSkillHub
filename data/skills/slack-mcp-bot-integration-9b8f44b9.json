@@ -1,0 +1,28 @@
+{
+  "id": "slack-mcp-bot-integration-9b8f44b9",
+  "name": "slack-mcp-bot-integration",
+  "description": "WIP: Simple MCP (Model Context Protocol) server example for Slack",
+  "repo_url": "https://github.com/seratch/slack-mcp-bot-integration",
+  "source_hub": "mcp_so",
+  "owner": "seratch",
+  "stars": 3,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp",
+    "integ",
+    "prod-comm"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "8c70aa54a6bbc2a9fe1ccdb3bdc60e3bfc7df266",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 10,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:04:51Z",
+  "verification_level": "scanner_only"
+}

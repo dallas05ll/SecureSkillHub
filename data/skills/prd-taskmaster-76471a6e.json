@@ -1,0 +1,32 @@
+{
+  "id": "prd-taskmaster-76471a6e",
+  "name": "prd-taskmaster",
+  "description": "AI-powered PRD generator for Claude Code with Taskmaster integration. Asks 12+ structured questions, generates comprehensive technical PRDs, runs 13 automated validation checks, and supports autonomous task execution with 4 operating modes.",
+  "repo_url": "https://github.com/anombyte93/prd-taskmaster",
+  "source_hub": "github_search",
+  "skill_type": "agent_skill",
+  "owner": "anombyte93",
+  "stars": 115,
+  "forks": 11,
+  "license": "MIT",
+  "primary_language": "Python",
+  "tags": [
+    "data-ai",
+    "dev",
+    "integ",
+    "prod",
+    "prod-pm"
+  ],
+  "verification_status": "pass",
+  "overall_score": 80,
+  "risk_level": "low",
+  "verified_commit": null,
+  "scan_summary": "Python-based PRD generation skill with SKILL.md, script.py automation, and install.sh. MIT licensed. install.sh uses set -euo pipefail, clones repo via git (not curl-pipe), checks for updates via GitHub API, and installs to ~/.claude/skills. script.py performs local filesystem operations only (read templates, write PRD files, validate content, run subprocess for taskmaster CLI). SKILL.md has proper frontmatter with allowed-tools list. No network calls except GitHub API for update check.",
+  "findings_summary": {
+    "notes": "Well-structured PRD skill with clean separation between AI judgment (SKILL.md) and mechanical operations (script.py). script.py only does local file I/O and subprocess calls to taskmaster CLI — no arbitrary code execution beyond that. install.sh is a clean git-clone installer with version checking. SKILL.md specifies allowed-tools which is a good security practice. SECURITY.md present in repo. Minor: depends on external taskmaster tool being installed. No security concerns."
+  },
+  "last_updated": "2026-02-25T19:01:29Z",
+  "trust_level": "low",
+  "scan_date": "2026-02-26T02:39:51Z",
+  "verification_level": "scanner_only"
+}

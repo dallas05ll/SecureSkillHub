@@ -1,0 +1,26 @@
+{
+  "id": "cwm-api-gateway-mcp-f9c836f1",
+  "name": "CWM-API-Gateway-MCP",
+  "description": "ConnectWise Manage API Gateway MCP Server for Claude",
+  "repo_url": "https://github.com/jasondsmith72/CWM-API-Gateway-MCP",
+  "source_hub": "mcp_so",
+  "owner": "jasondsmith72",
+  "stars": 14,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "integ"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "a34642e234a811cc8959d8a94d4912fe3cd4ff47",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 22,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:42:36Z",
+  "verification_level": "scanner_only"
+}

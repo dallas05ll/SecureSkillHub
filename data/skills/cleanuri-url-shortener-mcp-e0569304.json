@@ -1,0 +1,26 @@
+{
+  "id": "cleanuri-url-shortener-mcp-e0569304",
+  "name": "cleanuri-url-shortener-mcp",
+  "description": "This MCP server will return the shortened URL using cleanuri.",
+  "repo_url": "https://github.com/Talismanic/cleanuri-url-shortener-mcp",
+  "source_hub": "mcp_so",
+  "owner": "Talismanic",
+  "stars": 4,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "0da7fce9799e34f01f867d8b330d7b2c496ee632",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 5,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:54:02Z",
+  "verification_level": "scanner_only"
+}

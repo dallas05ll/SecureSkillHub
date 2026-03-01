@@ -1,0 +1,26 @@
+{
+  "id": "mcp-mood-quotes-47582450",
+  "name": "mcp-mood-quotes",
+  "description": "An MCP server that returns mood-based quotes",
+  "repo_url": "https://github.com/computerscienceiscool/mcp-mood-quotes",
+  "source_hub": "mcp_so",
+  "owner": "computerscienceiscool",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "45f3cb6ecc788f06bc661197280a65a0a4d69a93",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 2,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:41Z",
+  "verification_level": "scanner_only"
+}

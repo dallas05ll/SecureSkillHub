@@ -1,0 +1,25 @@
+{
+  "id": "skysql-mcp-760bf797",
+  "name": "skysql-mcp",
+  "description": "SkySQL MCP server and client repository.",
+  "repo_url": "https://github.com/skysqlinc/skysql-mcp",
+  "source_hub": "mcp_so",
+  "owner": "skysqlinc",
+  "stars": 2,
+  "primary_language": "unknown",
+  "tags": [
+    "data-db"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "f8f4f76410fd88b57b051d9a2992673d7a0bea5f",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 10,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:40Z",
+  "verification_level": "scanner_only"
+}

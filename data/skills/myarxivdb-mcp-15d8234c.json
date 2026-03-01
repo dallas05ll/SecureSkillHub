@@ -1,0 +1,26 @@
+{
+  "id": "myarxivdb-mcp-15d8234c",
+  "name": "MyArxivDB_MCP",
+  "description": "(bkms1 term project) MCP server for crawling paper from arxiv & manipulating PostgresDB",
+  "repo_url": "https://github.com/Jongbin-kr/MyArxivDB_MCP",
+  "source_hub": "mcp_so",
+  "owner": "Jongbin-kr",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "data-db",
+    "util-search"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "cb90d23d042eba109f1f7553c30cda53a90ab7d2",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 5,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:41Z",
+  "verification_level": "scanner_only"
+}

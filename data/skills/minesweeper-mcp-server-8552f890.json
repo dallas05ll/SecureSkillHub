@@ -1,0 +1,26 @@
+{
+  "id": "minesweeper-mcp-server-8552f890",
+  "name": "minesweeper-mcp-server",
+  "description": "An MCP server for playing Minesweeper",
+  "repo_url": "https://github.com/CODGODMW/minesweeper-mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "CODGODMW",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "44c1a9c680611fed2cd828cd50ff91908a47c838",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 5,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:42Z",
+  "verification_level": "scanner_only"
+}

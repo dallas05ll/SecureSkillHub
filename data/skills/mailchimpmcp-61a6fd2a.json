@@ -1,0 +1,27 @@
+{
+  "id": "mailchimpmcp-61a6fd2a",
+  "name": "MailchimpMCP",
+  "description": "Some utilities for developing an MCP server for the Mailchimp API",
+  "repo_url": "https://github.com/bryangsmith/MailchimpMCP",
+  "source_hub": "mcp_so",
+  "owner": "bryangsmith",
+  "stars": 1,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "37aebc234772ac73fd7431ad743d74c5c67e3ea0",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 4,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:40Z",
+  "verification_level": "scanner_only"
+}

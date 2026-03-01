@@ -1,0 +1,26 @@
+{
+  "id": "comfy-ui-mcp-server-e9add4d8",
+  "name": "comfy-ui-mcp-server",
+  "description": "what it says on the tin",
+  "repo_url": "https://github.com/jonpojonpo/comfy-ui-mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "jonpojonpo",
+  "stars": 4,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "4e978c369da81b8e52af35223c4d36a645d52830",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 4,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:54:02Z",
+  "verification_level": "scanner_only"
+}

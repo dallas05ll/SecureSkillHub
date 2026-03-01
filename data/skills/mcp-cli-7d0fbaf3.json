@@ -1,0 +1,25 @@
+{
+  "id": "mcp-cli-7d0fbaf3",
+  "name": "mcp-cli",
+  "description": "a simple MCP server allowing VS Code to run a specific shell command without asking",
+  "repo_url": "https://github.com/gelisam/mcp-cli",
+  "source_hub": "mcp_so",
+  "owner": "gelisam",
+  "stars": 6,
+  "primary_language": "unknown",
+  "tags": [
+    "dev"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "2c1b2fd1cda697973097fe8dc988bb4c3c96015b",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 1,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:54:04Z",
+  "verification_level": "scanner_only"
+}

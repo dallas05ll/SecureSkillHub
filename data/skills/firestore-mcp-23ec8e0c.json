@@ -1,0 +1,26 @@
+{
+  "id": "firestore-mcp-23ec8e0c",
+  "name": "firestore-mcp",
+  "description": "MCP Server to interact with Google Cloud Firestore",
+  "repo_url": "https://github.com/gitskyflux/firestore-mcp",
+  "source_hub": "mcp_so",
+  "owner": "gitskyflux",
+  "stars": 1,
+  "primary_language": "unknown",
+  "tags": [
+    "integ-cloud",
+    "integ-cloud-gcp"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "5cb17738be2ac89453ddd3ccf1624948c927e6a2",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 5,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:40Z",
+  "verification_level": "scanner_only"
+}

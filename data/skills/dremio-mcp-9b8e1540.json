@@ -1,0 +1,26 @@
+{
+  "id": "dremio-mcp-9b8e1540",
+  "name": "dremio-mcp",
+  "description": "Dremio MCP server",
+  "repo_url": "https://github.com/dremio/dremio-mcp",
+  "source_hub": "mcp_so",
+  "owner": "dremio",
+  "stars": 47,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "584ca0fef8fb21584138f8c044740cd1af3e4086",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 92,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:32:11Z",
+  "verification_level": "scanner_only"
+}

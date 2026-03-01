@@ -1,0 +1,25 @@
+{
+  "id": "docker-expert-cce9e542",
+  "name": "Docker Expert",
+  "description": "Agent skill: docker-expert from sickn33/antigravity-awesome-skills",
+  "repo_url": "https://github.com/sickn33/antigravity-awesome-skills",
+  "source_hub": "skills_sh",
+  "owner": "sickn33",
+  "stars": 4200,
+  "primary_language": "unknown",
+  "tags": [
+    "dev-devops-docker"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "64dab41930a800748f16bd284ceeb3a83250c2e1",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 3559,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:54:02Z",
+  "verification_level": "scanner_only"
+}

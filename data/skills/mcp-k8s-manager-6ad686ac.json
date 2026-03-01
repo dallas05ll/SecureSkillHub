@@ -1,0 +1,29 @@
+{
+  "id": "mcp-k8s-manager-6ad686ac",
+  "name": "mcp-k8s-manager",
+  "description": "Un MCP server per la gestione di cluster Kubernetes su AKS (Azure Kubernetes Service), utilizzabile da Claude Desktop. Offre strumenti per eseguire comandi `kubectl` e `kubectx` direttamente da un'interfaccia conversazionale.",
+  "repo_url": "https://github.com/crtdaniele/mcp-k8s-manager",
+  "source_hub": "mcp_so",
+  "owner": "crtdaniele",
+  "stars": 4,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "dev-devops-k8s",
+    "integ-cloud",
+    "integ-cloud-azure",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "a6952c5240911a8db788834b741f04dd3eff5f4b",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 6,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:54:02Z",
+  "verification_level": "scanner_only"
+}

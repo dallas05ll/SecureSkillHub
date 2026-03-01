@@ -1,0 +1,28 @@
+{
+  "id": "claude-code-supervisor-8b5b32f0",
+  "name": "claude-code-supervisor",
+  "description": "Auto-review and iterate until quality work is delivered - a better alternative to ralph-claude-code. Switch between multiple Claude Code providers (Kimi, GLM, MiniMax, etc.) with a single command.",
+  "repo_url": "https://github.com/guyskk/claude-code-supervisor",
+  "source_hub": "github_search",
+  "skill_type": "agent_skill",
+  "owner": "guyskk",
+  "stars": 41,
+  "license": "mit",
+  "primary_language": "markdown",
+  "tags": [
+    "data-ai",
+    "dev"
+  ],
+  "verification_status": "pass",
+  "overall_score": 83,
+  "risk_level": "low",
+  "verified_commit": null,
+  "scan_summary": null,
+  "last_updated": "2026-02-25T05:25:33Z",
+  "findings_summary": {
+    "notes": "Metadata-based verification. Score=83. Signals: stars=41 (>=10, +5); license='mit' (+5); owner='guyskk' (+3); primary_language='markdown'; source_hub='github_search'. Status: pass. Risk: low."
+  },
+  "trust_level": "low",
+  "scan_date": "2026-02-26T06:14:55Z",
+  "verification_level": "metadata_only"
+}

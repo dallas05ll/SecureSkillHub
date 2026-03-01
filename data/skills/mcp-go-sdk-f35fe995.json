@@ -1,0 +1,26 @@
+{
+  "id": "mcp-go-sdk-f35fe995",
+  "name": "mcp-go-sdk",
+  "description": "MCP Server SDK in Go and some servers I'm using myself",
+  "repo_url": "https://github.com/dentaku7/mcp-go-sdk",
+  "source_hub": "mcp_so",
+  "owner": "dentaku7",
+  "stars": 3,
+  "primary_language": "unknown",
+  "tags": [
+    "dev",
+    "dev-web-backend-go"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "717e87c42cff5583a660aaa9f0cc8723221e392d",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 24,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:04:50Z",
+  "verification_level": "scanner_only"
+}

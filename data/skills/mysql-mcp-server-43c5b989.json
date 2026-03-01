@@ -1,0 +1,26 @@
+{
+  "id": "mysql-mcp-server-43c5b989",
+  "name": "mysql-mcp-server",
+  "description": "在 cursor 工具中通过 mysql mcp 服务读取本地 mysql 库，方便通过 AI 来编程开发",
+  "repo_url": "https://github.com/lichuanrong7/mysql-mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "lichuanrong7",
+  "stars": 16,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-db"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "165b2f91cbc19abeab1ac1572dc5ef9892b66f0f",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 8,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:42:36Z",
+  "verification_level": "scanner_only"
+}

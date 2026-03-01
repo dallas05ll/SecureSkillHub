@@ -1,0 +1,28 @@
+{
+  "id": "cursor-rust-tools-39b0f361",
+  "name": "cursor-rust-tools",
+  "description": "A MCP server to allow the LLM in Cursor to access Rust Analyzer, Crate Docs and Cargo Commands.",
+  "repo_url": "https://github.com/terhechte/cursor-rust-tools",
+  "source_hub": "mcp_so",
+  "owner": "terhechte",
+  "stars": 84,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "dev-web-backend-rust",
+    "prod-docs",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "1aec56464b8fef08a53b40f48420468145e22e4c",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 2,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-27T06:40:43Z",
+  "verification_level": "scanner_only"
+}

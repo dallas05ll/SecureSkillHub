@@ -1,0 +1,25 @@
+{
+  "id": "etcd-mcp-server-366b6486",
+  "name": "etcd-mcp-server",
+  "description": "An MCP server for etcd for AI clients to interact with",
+  "repo_url": "https://github.com/anveshreddy18/etcd-mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "anveshreddy18",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "d8ab0ae3eb5e7645a4bfc5e8ded85c8799f3ad07",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 1,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:41Z",
+  "verification_level": "scanner_only"
+}

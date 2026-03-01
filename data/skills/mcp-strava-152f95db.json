@@ -1,0 +1,26 @@
+{
+  "id": "mcp-strava-152f95db",
+  "name": "mcp-strava",
+  "description": "The MCP Strava Server facilitates seamless integration between Strava APIs and Claude for Desktop.",
+  "repo_url": "https://github.com/MariyaFilippova/mcp-strava",
+  "source_hub": "mcp_so",
+  "owner": "MariyaFilippova",
+  "stars": 13,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "integ"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "d20b0cc46be8deaf6e032f6c24f3c052026522bf",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 1,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:42:34Z",
+  "verification_level": "scanner_only"
+}

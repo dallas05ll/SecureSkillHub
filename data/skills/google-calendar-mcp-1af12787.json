@@ -1,0 +1,27 @@
+{
+  "id": "google-calendar-mcp-1af12787",
+  "name": "google-calendar-mcp",
+  "description": "Google Calendar MCP server for Claude Desktop integration",
+  "repo_url": "https://github.com/takumi0706/google-calendar-mcp",
+  "source_hub": "mcp_so",
+  "owner": "takumi0706",
+  "stars": 54,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "integ",
+    "prod-calendar"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "a6c4696c08bb65b6618b664dbde10869b53397f6",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 57,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-27T06:40:49Z",
+  "verification_level": "scanner_only"
+}

@@ -1,0 +1,25 @@
+{
+  "id": "mcp-with-typescript-e270efaa",
+  "name": "MCP_With_TypeScript",
+  "description": "This is an MCP Server . Established And Tested On Localhost ( Build Specifically to Run On Localhost / LocalMachine ) .",
+  "repo_url": "https://github.com/azfarazam122/MCP_With_TypeScript",
+  "source_hub": "mcp_so",
+  "owner": "azfarazam122",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "dev-testing"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "b5fe238ae567605c7cf91f14dda61065b481adcf",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 1,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:40Z",
+  "verification_level": "scanner_only"
+}

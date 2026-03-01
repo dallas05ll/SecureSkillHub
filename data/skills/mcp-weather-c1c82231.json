@@ -1,0 +1,26 @@
+{
+  "id": "mcp-weather-c1c82231",
+  "name": "mcp-weather",
+  "description": "A simple MCP server that provides weather info",
+  "repo_url": "https://github.com/wizcas/mcp-weather",
+  "source_hub": "mcp_so",
+  "owner": "wizcas",
+  "stars": 1,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "645b6f7486b066962405e1131c46066720ac971c",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 15,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:40Z",
+  "verification_level": "scanner_only"
+}

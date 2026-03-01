@@ -1,0 +1,28 @@
+{
+  "id": "microsoft-sql-server-mcp-server-by-cdata-d906b1b4",
+  "name": "microsoft-sql-server-mcp-server-by-cdata",
+  "description": "This read-only MCP Server allows you to connect to Microsoft SQL Server data from Claude Desktop through CData JDBC Drivers. Free (beta) read/write servers available at",
+  "repo_url": "https://github.com/CDataSoftware/microsoft-sql-server-mcp-server-by-cdata",
+  "source_hub": "mcp_so",
+  "owner": "CDataSoftware",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "data",
+    "data-ai",
+    "data-db",
+    "integ"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "e2e733b80229845898736f955b1539c1638a6e0d",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 1,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:40Z",
+  "verification_level": "scanner_only"
+}

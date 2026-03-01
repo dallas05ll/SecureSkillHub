@@ -1,0 +1,25 @@
+{
+  "id": "amtb-mcp-cd72715a",
+  "name": "amtb-mcp",
+  "description": "MCP server for interacting with AMTB resources / tools",
+  "repo_url": "https://github.com/l2yao/amtb-mcp",
+  "source_hub": "mcp_so",
+  "owner": "l2yao",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "87d417d93708e0d34898d8c36b960c8ff7881fa5",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 6,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:41Z",
+  "verification_level": "scanner_only"
+}

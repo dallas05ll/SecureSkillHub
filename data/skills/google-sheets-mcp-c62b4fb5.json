@@ -1,0 +1,26 @@
+{
+  "id": "google-sheets-mcp-c62b4fb5",
+  "name": "google-sheets-mcp",
+  "description": "A Google Sheets specific MCP Server 📊🤖",
+  "repo_url": "https://github.com/mkummer225/google-sheets-mcp",
+  "source_hub": "mcp_so",
+  "owner": "mkummer225",
+  "stars": 119,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "1d52b9ddf162ec302f693d4e00d5c57a52e908bb",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 6,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-27T06:40:49Z",
+  "verification_level": "scanner_only"
+}

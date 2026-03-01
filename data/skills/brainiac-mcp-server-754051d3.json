@@ -1,0 +1,26 @@
+{
+  "id": "brainiac-mcp-server-754051d3",
+  "name": "brainiac-mcp-server",
+  "description": "Brainiac MCP Server is a sophisticated cognitive computing engine that leverages the Model Context Protocol (MCP) to deliver human-like reasoning capabilities.",
+  "repo_url": "https://github.com/cavanaughdesign/brainiac-mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "cavanaughdesign",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "3ad68625c7a81f356d1c983f0a2b1eb7e99abaa7",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 12,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:40Z",
+  "verification_level": "scanner_only"
+}

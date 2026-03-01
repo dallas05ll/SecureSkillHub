@@ -1,0 +1,25 @@
+{
+  "id": "aegntic-mcp-83b051da",
+  "name": "aegntic-MCP",
+  "description": "AegnticMCP automates the creation and management of MCP servers, ensuring they are stable, adaptable, and intelligent.",
+  "repo_url": "https://github.com/aegntic/aegntic-MCP",
+  "source_hub": "mcp_so",
+  "owner": "aegntic",
+  "stars": 5,
+  "primary_language": "unknown",
+  "tags": [
+    "prod"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "00e395862cc6c965a3a342b2e74ca3b44c5f0567",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 496,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:54:04Z",
+  "verification_level": "scanner_only"
+}

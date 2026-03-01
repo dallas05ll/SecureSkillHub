@@ -1,0 +1,26 @@
+{
+  "id": "mcp-server-5e477278",
+  "name": "mcp-server",
+  "description": "Trying out the MCP server... might turn out great maybe?",
+  "repo_url": "https://github.com/biggestUaena24/mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "biggestUaena24",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "deb68f7d4c601e33c29f302494c0428edb414c1b",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 5,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:41Z",
+  "verification_level": "scanner_only"
+}

@@ -1,0 +1,25 @@
+{
+  "id": "react-doctor-8d902736",
+  "name": "React Doctor",
+  "description": "Agent skill: react-doctor from millionco/react-doctor",
+  "repo_url": "https://github.com/millionco/react-doctor",
+  "source_hub": "skills_sh",
+  "owner": "millionco",
+  "stars": 5100,
+  "primary_language": "unknown",
+  "tags": [
+    "dev-web-frontend-react"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "97b21f18ee4c5b530d683ae6626548081a4aad76",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 124,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:54:02Z",
+  "verification_level": "scanner_only"
+}

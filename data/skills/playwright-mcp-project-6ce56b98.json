@@ -1,0 +1,26 @@
+{
+  "id": "playwright-mcp-project-6ce56b98",
+  "name": "playwright-mcp-project",
+  "description": "A project to demonstrate Playwright MCP server usage with Jenkins pipeline",
+  "repo_url": "https://github.com/vikaskumarprofessional92/playwright-mcp-project",
+  "source_hub": "mcp_so",
+  "owner": "vikaskumarprofessional92",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "dev-devops-ci",
+    "dev-testing"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "c7c143dd7bc88144e5a392d91b5a676170482a88",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 17,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:40Z",
+  "verification_level": "scanner_only"
+}

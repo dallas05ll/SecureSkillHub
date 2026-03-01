@@ -1,0 +1,25 @@
+{
+  "id": "server-a0be3a93",
+  "name": "server",
+  "description": "All-in-1 MCP server for developers",
+  "repo_url": "https://github.com/agentmode/server",
+  "source_hub": "mcp_so",
+  "owner": "agentmode",
+  "stars": 3,
+  "primary_language": "unknown",
+  "tags": [
+    "dev"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "6720f675d2d0ba939fcc9668a30066bb3f068078",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 33,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:04:51Z",
+  "verification_level": "scanner_only"
+}

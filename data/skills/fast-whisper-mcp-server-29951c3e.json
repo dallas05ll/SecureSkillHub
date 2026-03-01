@@ -1,0 +1,25 @@
+{
+  "id": "fast-whisper-mcp-server-29951c3e",
+  "name": "Fast-Whisper-MCP-Server",
+  "description": "A high-performance speech recognition MCP server based on Faster Whisper, providing efficient audio transcription capabilities.",
+  "repo_url": "https://github.com/BigUncle/Fast-Whisper-MCP-Server",
+  "source_hub": "mcp_so",
+  "owner": "BigUncle",
+  "stars": 14,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai-audio"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "11153dc757c152c1561c64b6e5b472481f5b2574",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 10,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:42:36Z",
+  "verification_level": "scanner_only"
+}

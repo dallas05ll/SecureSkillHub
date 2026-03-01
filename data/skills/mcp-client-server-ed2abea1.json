@@ -1,0 +1,26 @@
+{
+  "id": "mcp-client-server-ed2abea1",
+  "name": "mcp-client-server",
+  "description": "Simplest example of MCP client-server architecture over HTTP using Python & Golang",
+  "repo_url": "https://github.com/duaraghav8/mcp-client-server",
+  "source_hub": "mcp_so",
+  "owner": "duaraghav8",
+  "stars": 3,
+  "primary_language": "unknown",
+  "tags": [
+    "dev-web-backend-go",
+    "dev-web-backend-python"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "ebf35a2058559bfc6d55840c6ec2b2b2edb37a92",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 33,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:04:51Z",
+  "verification_level": "scanner_only"
+}

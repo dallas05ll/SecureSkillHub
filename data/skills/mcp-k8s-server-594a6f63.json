@@ -1,0 +1,27 @@
+{
+  "id": "mcp-k8s-server-594a6f63",
+  "name": "mcp-k8s-server",
+  "description": "AI-powered MCP server understands natural language queries about your Kubernetes cluster",
+  "repo_url": "https://github.com/hariohmprasath/mcp-k8s-server",
+  "source_hub": "mcp_so",
+  "owner": "hariohmprasath",
+  "stars": 14,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp",
+    "dev-devops-k8s"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "6942254bf11312c1d895945f163628fc961dc08f",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 4,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:42:34Z",
+  "verification_level": "scanner_only"
+}

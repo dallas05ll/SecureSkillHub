@@ -1,0 +1,25 @@
+{
+  "id": "cryptogecko-mcp-server-3393c280",
+  "name": "cryptogecko-mcp-server",
+  "description": "An MCP client and server for cryptogecko using fastMCP library and Starlette",
+  "repo_url": "https://github.com/Frostbite22/cryptogecko-mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "Frostbite22",
+  "stars": 2,
+  "primary_language": "unknown",
+  "tags": [
+    "sec-crypto"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "9caa3d7c8db19b40d7e771bc405a4180bdb9d77a",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 4,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:04:50Z",
+  "verification_level": "scanner_only"
+}

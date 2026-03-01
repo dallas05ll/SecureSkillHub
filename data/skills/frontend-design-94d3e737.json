@@ -1,0 +1,26 @@
+{
+  "id": "frontend-design-94d3e737",
+  "name": "Frontend Design",
+  "description": "Agent skill: frontend-design from anthropics/claude-code",
+  "repo_url": "https://github.com/anthropics/claude-code",
+  "source_hub": "skills_sh",
+  "owner": "anthropics",
+  "stars": 5000,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "dev"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "cd4956871a56b07d9d2a6cb538fae109d04c9d57",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 142,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:54:02Z",
+  "verification_level": "scanner_only"
+}

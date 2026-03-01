@@ -1,0 +1,28 @@
+{
+  "id": "skills-1fae7042",
+  "name": "skills",
+  "description": "Generate production-quality Dify workflow DSL files with precise Pydantic-based node schemas",
+  "repo_url": "https://github.com/R3flector/skills",
+  "source_hub": "github_search",
+  "skill_type": "agent_skill",
+  "owner": "R3flector",
+  "stars": 3,
+  "license": "",
+  "primary_language": "markdown",
+  "tags": [
+    "prod",
+    "util-file"
+  ],
+  "verification_status": "pass",
+  "overall_score": 73,
+  "risk_level": "medium",
+  "verified_commit": null,
+  "scan_summary": null,
+  "last_updated": "2026-02-11T13:29:26Z",
+  "findings_summary": {
+    "notes": "Metadata-based verification. Score=73. Signals: stars=3; no license detected; owner='R3flector' (+3); primary_language='markdown'; source_hub='github_search'. Status: pass. Risk: medium."
+  },
+  "trust_level": "low",
+  "scan_date": "2026-02-26T06:14:56Z",
+  "verification_level": "metadata_only"
+}

@@ -1,0 +1,32 @@
+{
+  "id": "claude-ads-be9406f5",
+  "name": "claude-ads",
+  "description": "Comprehensive paid advertising audit and optimization skill for Claude Code. Covers Google, Meta, YouTube, LinkedIn, TikTok, and Microsoft Ads with 190 audit checks, industry-specific templates, parallel subagent delegation, weighted scoring, conversion tracking analysis, and creative quality assessment.",
+  "repo_url": "https://github.com/AgriciDaniel/claude-ads",
+  "source_hub": "github_search",
+  "skill_type": "agent_skill",
+  "owner": "AgriciDaniel",
+  "stars": 386,
+  "forks": 97,
+  "license": "mit",
+  "primary_language": "python",
+  "tags": [
+    "data-ai",
+    "dev",
+    "integ-social",
+    "sec-scan",
+    "util-media"
+  ],
+  "verification_status": "pass",
+  "overall_score": 76,
+  "risk_level": "low",
+  "verified_commit": null,
+  "scan_summary": null,
+  "last_updated": "2026-02-26T00:30:22Z",
+  "findings_summary": {
+    "notes": "Substantial and well-organized advertising audit skill with a main ads/SKILL.md plus 12 sub-skills (ads-google, ads-meta, ads-youtube, ads-linkedin, ads-tiktok, ads-microsoft, ads-creative, ads-landing, ads-budget, ads-plan, ads-competitor, ads-audit), 6 parallel subagent definitions, and reference documentation. The SKILL.md has proper YAML frontmatter with allowed-tools scoped to Read, Grep, Glob, Bash, WebFetch. The install.sh script clones the repo via git into ~/.claude/skills/ and ~/.claude/agents/ — no binary downloads, transparent installation. Python scripts reviewed: fetch_page.py fetches landing pages for quality analysis using standard urllib/requests (no credentials, no sensitive data exfiltration). capture_screenshot.py uses Playwright for screenshots. analyze_landing.py performs HTML analysis. All scripts are well-documented, single-purpose, and contain no dangerous patterns. Research files are thorough advertising audit references. Industry templates (SaaS, e-commerce, local-service, etc.) in ads-plan/assets/ are markdown templates. MIT licensed. No obfuscation, no hardcoded credentials. The install.ps1 is a PowerShell equivalent with the same logic. High-quality, domain-specific skill."
+  },
+  "trust_level": "low",
+  "scan_date": "2026-02-26T02:03:46Z",
+  "verification_level": "scanner_only"
+}

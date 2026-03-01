@@ -1,0 +1,26 @@
+{
+  "id": "github-mcp-server-config-2eaa6e77",
+  "name": "github-mcp-server-config",
+  "description": "Documentation and configuration details for GitHub MCP server setup",
+  "repo_url": "https://github.com/yosay-org/github-mcp-server-config",
+  "source_hub": "mcp_so",
+  "owner": "yosay-org",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "prod-docs"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "bf356e185833e163d1ffe0ae3f1fed7a29d3712a",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 1,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:41Z",
+  "verification_level": "scanner_only"
+}

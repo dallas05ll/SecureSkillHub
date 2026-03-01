@@ -1,0 +1,26 @@
+{
+  "id": "hello-mcp-server-f733d3cb",
+  "name": "hello-mcp-server",
+  "description": "This is a project for learning MCP Server from ABC",
+  "repo_url": "https://github.com/nbkhoi/hello-mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "nbkhoi",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "400fb50d0b07061de9d0594c7b36804bec1bd910",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 1,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:41Z",
+  "verification_level": "scanner_only"
+}

@@ -1,0 +1,26 @@
+{
+  "id": "hellomcp-d03aa0f0",
+  "name": "hellomcp",
+  "description": "The minimal Python MCP server implementation with MCP Python SDK.",
+  "repo_url": "https://github.com/bioerrorlog/hellomcp",
+  "source_hub": "mcp_so",
+  "owner": "bioerrorlog",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "dev",
+    "dev-web-backend-python"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "d6e809882f81832b5a5492b4bd925e7572954e89",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 3,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:40Z",
+  "verification_level": "scanner_only"
+}

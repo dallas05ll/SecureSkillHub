@@ -1,0 +1,26 @@
+{
+  "id": "opgen-mcp-server-f44ecaea",
+  "name": "opgen-mcp-server",
+  "description": "A MCP server implementation for password generation, based on 1Password/spg/cmd/opgen",
+  "repo_url": "https://github.com/syumai/opgen-mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "syumai",
+  "stars": 4,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "4dace2456d5e518d40718e99034d29a1c983a43f",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 1,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:04:50Z",
+  "verification_level": "scanner_only"
+}

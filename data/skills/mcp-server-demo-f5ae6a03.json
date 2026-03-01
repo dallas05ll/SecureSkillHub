@@ -1,0 +1,26 @@
+{
+  "id": "mcp-server-demo-f5ae6a03",
+  "name": "mcp-server-demo",
+  "description": "A demo project using the MCP Python SDK.",
+  "repo_url": "https://github.com/Maureth/mcp-server-demo",
+  "source_hub": "mcp_so",
+  "owner": "Maureth",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "dev",
+    "dev-web-backend-python"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "2af6df511c2903f700e835d64eac38f0f5dceb41",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 5,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:40Z",
+  "verification_level": "scanner_only"
+}

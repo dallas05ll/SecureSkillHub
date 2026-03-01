@@ -1,0 +1,26 @@
+{
+  "id": "toggl-mcp-server-d31e5ea8",
+  "name": "toggl-mcp-server",
+  "description": "MCP Server for Toggl",
+  "repo_url": "https://github.com/abhinav24jha/toggl-mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "abhinav24jha",
+  "stars": 12,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "a0d242312979473bedb923b5326fcc62067302b8",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 4,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:42:34Z",
+  "verification_level": "scanner_only"
+}

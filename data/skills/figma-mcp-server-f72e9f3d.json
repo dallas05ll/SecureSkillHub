@@ -1,0 +1,25 @@
+{
+  "id": "figma-mcp-server-f72e9f3d",
+  "name": "figma-mcp-server",
+  "description": "Claude MCP Server to work with figma",
+  "repo_url": "https://github.com/karthiks3000/figma-mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "karthiks3000",
+  "stars": 35,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "0bbd21d96c7ca02a015c6ddd5122f88528217a23",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 31,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:32:13Z",
+  "verification_level": "scanner_only"
+}

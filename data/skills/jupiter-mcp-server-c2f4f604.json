@@ -1,0 +1,28 @@
+{
+  "id": "jupiter-mcp-server-c2f4f604",
+  "name": "jupiter-mcp-server",
+  "description": "Model Context Protocol server providing Claude AI with access to Jupiter's swap API on Solana",
+  "repo_url": "https://github.com/quanghuynguyen1902/jupiter-mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "quanghuynguyen1902",
+  "stars": 16,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp",
+    "integ",
+    "sec-crypto"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "277fae1a4cda6de1b7d2b7d3d28842a1422aaae1",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 17,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:42:34Z",
+  "verification_level": "scanner_only"
+}

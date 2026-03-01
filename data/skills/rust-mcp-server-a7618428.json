@@ -1,0 +1,29 @@
+{
+  "id": "rust-mcp-server-a7618428",
+  "name": "rust-mcp-server",
+  "description": "Model Context Protocol server for Rust development tools (clippy, rustfmt, cargo check, cargo test)",
+  "repo_url": "https://github.com/lh/rust-mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "lh",
+  "stars": 1,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp",
+    "dev-testing",
+    "dev-web-backend-rust",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "0cd0f2b4c27d6cc61cd3a270be0fe3536cc9135f",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 7,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:42Z",
+  "verification_level": "scanner_only"
+}

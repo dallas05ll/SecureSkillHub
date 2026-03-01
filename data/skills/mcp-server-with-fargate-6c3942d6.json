@@ -1,0 +1,26 @@
+{
+  "id": "mcp-server-with-fargate-6c3942d6",
+  "name": "mcp-server-with-fargate",
+  "description": "Running an MCP Server on AWS Fargate on Amazon ECS",
+  "repo_url": "https://github.com/dgallitelli/mcp-server-with-fargate",
+  "source_hub": "mcp_so",
+  "owner": "dgallitelli",
+  "stars": 6,
+  "primary_language": "unknown",
+  "tags": [
+    "integ-cloud",
+    "integ-cloud-aws"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "398977e5c6e48fa68707745e7a0461f182938b84",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 5,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:54:02Z",
+  "verification_level": "scanner_only"
+}

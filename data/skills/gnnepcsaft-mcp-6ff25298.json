@@ -1,0 +1,25 @@
+{
+  "id": "gnnepcsaft-mcp-6ff25298",
+  "name": "gnnepcsaft-mcp",
+  "description": "This is the Model Context Protocol (MCP) server implementation for GNNePCSAFT tools. GNNePCSAFT is a Graph Neural Network (GNN) that can estimate ePC-SAFT parameters. This allows thermodynamic calculations like density and vapor pressure without experimental data for any molecule. FeOS is used for the PC-SAFT calculations.",
+  "repo_url": "https://github.com/wildsonbbl/gnnepcsaft-mcp",
+  "source_hub": "mcp_so",
+  "owner": "wildsonbbl",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "data",
+    "data-ai",
+    "data-ai-nlp",
+    "util",
+    "repo_unavailable"
+  ],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null,
+  "repo_status": "unavailable",
+  "repo_check_date": "2026-02-28T20:51:46.757337+00:00",
+  "repo_check_error": "fatal: could not read Username for 'https://github.com': Device not configured"
+}

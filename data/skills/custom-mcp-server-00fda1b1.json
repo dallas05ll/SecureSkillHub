@@ -1,0 +1,26 @@
+{
+  "id": "custom-mcp-server-00fda1b1",
+  "name": "custom-mcp-server",
+  "description": "A custom MCP server integrating Brave search, filesystem, GitHub, and sequential thinking",
+  "repo_url": "https://github.com/degenhero/custom-mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "degenhero",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "util-file",
+    "util-search"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "a0359ca7f20344e61bc0841d4d2df033ccfa0f5e",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 8,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:41Z",
+  "verification_level": "scanner_only"
+}

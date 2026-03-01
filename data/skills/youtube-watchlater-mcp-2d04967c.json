@@ -1,0 +1,26 @@
+{
+  "id": "youtube-watchlater-mcp-2d04967c",
+  "name": "youtube-watchlater-mcp",
+  "description": "MCP server for accessing YouTube Watch Later playlist",
+  "repo_url": "https://github.com/rados10/youtube-watchlater-mcp",
+  "source_hub": "mcp_so",
+  "owner": "rados10",
+  "stars": 9,
+  "primary_language": "unknown",
+  "tags": [
+    "integ-social",
+    "util-media"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "b088610fb5ee3a22e54fbf6eece4ae6a2c0116a5",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 7,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:42:36Z",
+  "verification_level": "scanner_only"
+}

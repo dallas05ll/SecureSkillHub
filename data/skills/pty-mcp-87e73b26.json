@@ -1,0 +1,25 @@
+{
+  "id": "pty-mcp-87e73b26",
+  "name": "pty-mcp",
+  "description": "An MCP tool server that provides a stateful terminal.",
+  "repo_url": "https://github.com/qododavid/pty-mcp",
+  "source_hub": "mcp_so",
+  "owner": "qododavid",
+  "stars": 5,
+  "primary_language": "unknown",
+  "tags": [
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "57eb56aa00198e803915b9fcb420081386a8c375",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 4,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:54:02Z",
+  "verification_level": "scanner_only"
+}

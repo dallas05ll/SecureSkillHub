@@ -1,0 +1,29 @@
+{
+  "id": "pinecone-claude-code-plugin-bf41aad0",
+  "name": "pinecone-claude-code-plugin",
+  "description": "The official Pinecone marketplace for Claude Code Plugins",
+  "repo_url": "https://github.com/pinecone-io/pinecone-claude-code-plugin",
+  "source_hub": "github_search",
+  "skill_type": "agent_skill",
+  "owner": "pinecone-io",
+  "stars": 40,
+  "license": "mit",
+  "primary_language": "markdown",
+  "tags": [
+    "data-ai",
+    "data-db-vector",
+    "dev"
+  ],
+  "verification_status": "pass",
+  "overall_score": 83,
+  "risk_level": "low",
+  "verified_commit": null,
+  "scan_summary": null,
+  "last_updated": "2026-02-15T22:47:01Z",
+  "findings_summary": {
+    "notes": "Metadata-based verification. Score=83. Signals: stars=40 (>=10, +5); license='mit' (+5); owner='pinecone-io' (+3); primary_language='markdown'; source_hub='github_search'. Status: pass. Risk: low."
+  },
+  "trust_level": "low",
+  "scan_date": "2026-02-26T06:14:56Z",
+  "verification_level": "metadata_only"
+}

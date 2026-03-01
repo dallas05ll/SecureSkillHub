@@ -1,0 +1,47 @@
+{
+  "id": "tapestry-skills-920b4dbc",
+  "name": "Tapestry Skills",
+  "description": "Unified content extraction and action planning workflow - extract from any source (YouTube, articles, PDFs) and create Ship-Learn-Next plans. This record originally referenced a placeholder URL.",
+  "repo_url": "https://github.com/yourusername/tapestry-skills-for-claude-code",
+  "source_hub": "claude_skills_hub",
+  "skill_type": "agent_skill",
+  "owner": "tapestry",
+  "stars": 250,
+  "forks": 35,
+  "license": "MIT",
+  "primary_language": "Markdown",
+  "tags": [
+    "integ-social",
+    "prod",
+    "util-media",
+    "repo_unavailable"
+  ],
+  "source_tags": [
+    "productivity",
+    "learning",
+    "content-extraction",
+    "action-planning",
+    "youtube",
+    "ship-learn-next"
+  ],
+  "categories": [
+    "productivity",
+    "learning"
+  ],
+  "version": "1.0.0",
+  "requires_code_execution": true,
+  "verification_status": "fail",
+  "overall_score": 0,
+  "risk_level": "high",
+  "verified_commit": null,
+  "scan_summary": null,
+  "findings_summary": {
+    "notes": "CRITICAL: The repo_url contains the literal placeholder 'yourusername' - https://github.com/yourusername/tapestry-skills-for-claude-code returns HTTP 404 Not Found. This repository does not exist. The real tapestry skills collection is at michalparkola/tapestry-skills-for-claude-code (253 stars). This record should be corrected or removed. Star count of 250 cannot be verified. Do not display this skill to users until the URL is corrected."
+  },
+  "last_updated": "2026-02-25T00:00:00Z",
+  "trust_level": "medium",
+  "scan_date": "2026-02-26T02:23:23Z",
+  "repo_status": "unavailable",
+  "repo_check_date": "2026-02-28T20:52:59.719076+00:00",
+  "repo_check_error": "fatal: could not read Username for 'https://github.com': Device not configured"
+}

@@ -1,0 +1,27 @@
+{
+  "id": "mcp-server-vscode-5349ae10",
+  "name": "MCP-Server-VSCode",
+  "description": "A Visual Studio Code extension for Model Context Protocol (MCP) server implementation",
+  "repo_url": "https://github.com/syedshamir/MCP-Server-VSCode",
+  "source_hub": "mcp_so",
+  "owner": "syedshamir",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp",
+    "dev"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "6e794e9d2441b911183e3e8c0db423647ea06f40",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 1,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:40Z",
+  "verification_level": "scanner_only"
+}

@@ -1,0 +1,27 @@
+{
+  "id": "mcp-nest-6a515a97",
+  "name": "MCP-Nest",
+  "description": "A NestJS module to effortlessly create Model Context Protocol (MCP) servers for exposing AI tools, resources, and prompts.",
+  "repo_url": "https://github.com/rekog-labs/MCP-Nest",
+  "source_hub": "mcp_so",
+  "owner": "rekog-labs",
+  "stars": 584,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 169,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-27T02:28:45Z",
+  "verification_level": "scanner_only"
+}

@@ -1,0 +1,26 @@
+{
+  "id": "influxdb-mcp-server-f6173956",
+  "name": "influxdb-mcp-server",
+  "description": "An MCP Server for querying InfluxDB",
+  "repo_url": "https://github.com/idoru/influxdb-mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "idoru",
+  "stars": 31,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "60b7344147b1cff75853605e37048512473a20e3",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 26,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:32:11Z",
+  "verification_level": "scanner_only"
+}

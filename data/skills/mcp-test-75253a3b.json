@@ -1,0 +1,27 @@
+{
+  "id": "mcp-test-75253a3b",
+  "name": "mcp-test",
+  "description": "Tutorials on mcp server integration with LLM apps",
+  "repo_url": "https://github.com/kavinduhapu/mcp-test",
+  "source_hub": "mcp_so",
+  "owner": "kavinduhapu",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "dev-testing",
+    "integ"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "66272bf4316cba33d3909cec5d7f0d3f58188bc2",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 6,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:40Z",
+  "verification_level": "scanner_only"
+}

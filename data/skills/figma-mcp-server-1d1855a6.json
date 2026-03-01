@@ -1,0 +1,26 @@
+{
+  "id": "figma-mcp-server-1d1855a6",
+  "name": "figma-mcp-server",
+  "description": "A real-time WebSocket server for multi-user cursor collaboration in Figma using the Multi-Cursor Protocol (MCP).",
+  "repo_url": "https://github.com/QnoteAITeam/figma-mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "QnoteAITeam",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "e427a40719cac894177fcedbcc43c14f5deeed25",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 19,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:41Z",
+  "verification_level": "scanner_only"
+}

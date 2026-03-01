@@ -1,0 +1,28 @@
+{
+  "id": "db-mcp-server-d517f758",
+  "name": "db-mcp-server",
+  "description": "A powerful multi-database server implementing the Model Context Protocol (MCP) to provide AI assistants with structured access to databases.",
+  "repo_url": "https://github.com/FreePeak/db-mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "FreePeak",
+  "stars": 344,
+  "primary_language": "unknown",
+  "tags": [
+    "data",
+    "data-ai",
+    "data-ai-nlp",
+    "data-db"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 43,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-27T02:28:45Z",
+  "verification_level": "scanner_only"
+}

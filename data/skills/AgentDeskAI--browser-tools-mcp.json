@@ -1,0 +1,36 @@
+{
+  "id": "AgentDeskAI--browser-tools-mcp",
+  "name": "browser-tools-mcp",
+  "skill_type": "mcp_server",
+  "repo_url": "https://github.com/AgentDeskAI/browser-tools-mcp",
+  "source_hub": "github_search",
+  "stars": 7093,
+  "verification_status": "pass",
+  "overall_score": 74,
+  "risk_level": "medium",
+  "description": "MCP server + Chrome extension for browser monitoring: console logs, network traffic, screenshots, and Lighthouse audits.",
+  "primary_language": "JavaScript",
+  "tags": [
+    "data-ai-vision",
+    "dev-web",
+    "sec-scan",
+    "util",
+    "util-monitor",
+    "util-search"
+  ],
+  "findings_summary": {
+    "has_readme": true,
+    "has_security_policy": false,
+    "has_mcp_server": true,
+    "dangerous_patterns": [
+      "child_process.exec for browser launching",
+      "Binds 0.0.0.0 by default",
+      "Open CORS",
+      "No auth on local endpoints"
+    ],
+    "notes": "MIT. exec scoped to browser ops. MCP strictly localhost-bound. Server identity signature check. No exfiltration."
+  },
+  "trust_level": "low",
+  "scan_date": "2026-02-26T03:00:50Z",
+  "verification_level": "scanner_only"
+}

@@ -1,0 +1,25 @@
+{
+  "id": "mcp-quanmiao-hotnews-929e1c56",
+  "name": "mcp-quanmiao-hotnews",
+  "description": "全妙新闻播报MCP Server 是一个基于阿里云百炼API的新闻聚合服务，专注于实时获取热点新闻资讯。",
+  "repo_url": "https://github.com/iic-llm-solution/mcp-quanmiao-hotnews",
+  "source_hub": "mcp_so",
+  "owner": "iic-llm-solution",
+  "stars": 7,
+  "primary_language": "unknown",
+  "tags": [
+    "integ"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "215f7bfdca365a81e7c9396ed79715a4cd4d5879",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 12,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:54:02Z",
+  "verification_level": "scanner_only"
+}

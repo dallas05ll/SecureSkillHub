@@ -1,0 +1,26 @@
+{
+  "id": "mcp-rs-test-1285b565",
+  "name": "mcp_rs_test",
+  "description": "MCP server implementation in Rust",
+  "repo_url": "https://github.com/andrewsah/mcp_rs_test",
+  "source_hub": "mcp_so",
+  "owner": "andrewsah",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "dev-testing",
+    "dev-web-backend-rust"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "d37155c6f1d547b987a0b6977d05cda67acb4c9b",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 2,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:41Z",
+  "verification_level": "scanner_only"
+}

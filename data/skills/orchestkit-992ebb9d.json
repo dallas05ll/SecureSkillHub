@@ -1,0 +1,30 @@
+{
+  "id": "orchestkit-992ebb9d",
+  "name": "orchestkit",
+  "description": "Comprehensive Claude Code toolkit with 67 skills, 37 agents, 81 hooks, and 3 plugins for workflow orchestration.",
+  "repo_url": "https://github.com/yonatangross/orchestkit",
+  "source_hub": "github_search",
+  "skill_type": "agent_skill",
+  "owner": "yonatangross",
+  "stars": 90,
+  "license": "mit",
+  "primary_language": "TypeScript",
+  "tags": [
+    "data-ai",
+    "dev",
+    "prod",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "low",
+  "verified_commit": null,
+  "scan_summary": null,
+  "last_updated": "2026-02-25T11:37:34Z",
+  "findings_summary": {
+    "notes": "MIT licensed, TypeScript, actively maintained. SKILL.md present. Ambitious scope with large collection of resources."
+  },
+  "trust_level": "low",
+  "scan_date": "2026-02-26T02:11:19Z",
+  "verification_level": "scanner_only"
+}

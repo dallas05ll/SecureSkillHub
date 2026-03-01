@@ -1,0 +1,26 @@
+{
+  "id": "github-file-search-mcp-12a61327",
+  "name": "github-file-search-mcp-",
+  "description": "An example to demonstrate how to build and run an MCP server",
+  "repo_url": "https://github.com/anupj/github-file-search-mcp-",
+  "source_hub": "mcp_so",
+  "owner": "anupj",
+  "stars": 1,
+  "primary_language": "unknown",
+  "tags": [
+    "util-file",
+    "util-search"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "882da8d213b882b46eeea351f8ff351b92eebce5",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 5,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:40Z",
+  "verification_level": "scanner_only"
+}

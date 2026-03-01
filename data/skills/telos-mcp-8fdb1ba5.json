@@ -1,0 +1,25 @@
+{
+  "id": "telos-mcp-8fdb1ba5",
+  "name": "telos-mcp",
+  "description": "T/MCP is a powerful MCP server that provides access to Telos, a philosophical AI mentor.",
+  "repo_url": "https://github.com/AporiaLabs/telos-mcp",
+  "source_hub": "mcp_so",
+  "owner": "AporiaLabs",
+  "stars": 1,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "5a2d5a52f81a9e303f5ebc158ad4027f1fe32368",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 18,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:40Z",
+  "verification_level": "scanner_only"
+}

@@ -1,0 +1,25 @@
+{
+  "id": "simpleserversetup-f747fff1",
+  "name": "SimpleServerSetup",
+  "description": "A dual-mode Python calculator server supporting both Server-Sent Events (SSE) for web clients and Standard Input/Output (STDIO) for terminal interaction.",
+  "repo_url": "https://github.com/DionBenFernandes-Dev/SimpleServerSetup",
+  "source_hub": "mcp_so",
+  "owner": "DionBenFernandes-Dev",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "dev-web-backend-python"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "c002a6042e9f9ba4852c5475d9d812a0bce91425",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 7,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:42:59Z",
+  "verification_level": "scanner_only"
+}

@@ -1,0 +1,25 @@
+{
+  "id": "vsc-mcp-f4990fc4",
+  "name": "vsc-mcp",
+  "description": "MCP server for interacting with VSCode and forks (Cursor, Windsurf and others)",
+  "repo_url": "https://github.com/0xh3x/vsc-mcp",
+  "source_hub": "mcp_so",
+  "owner": "0xh3x",
+  "stars": 4,
+  "primary_language": "unknown",
+  "tags": [
+    "dev"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "8aa8019ca7cfd05298b5f9a7d933a4fd806a39b7",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 12,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:04:50Z",
+  "verification_level": "scanner_only"
+}

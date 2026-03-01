@@ -1,0 +1,23 @@
+{
+  "id": "sharepoint-mcp-server-3b060928",
+  "name": "SharePoint MCP Server",
+  "description": "This MCP server for Claude Desktop allows you to interact with SharePoint Online using the SharePoint REST API. It is designed to be used with the Claude Desktop app, but can also be used by other MCP clients. A lot of supported operations",
+  "repo_url": "https://github.com/Zerg00s/SharePoint MCP Server",
+  "source_hub": "mcp_so",
+  "owner": "Zerg00s",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "integ",
+    "repo_unavailable"
+  ],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null,
+  "repo_status": "unavailable",
+  "repo_check_date": "2026-02-28T20:52:53.286825+00:00",
+  "repo_check_error": "fatal: unable to access 'https://github.com/Zerg00s/SharePoint MCP Server/': URL rejected: Malformed input to a URL function"
+}

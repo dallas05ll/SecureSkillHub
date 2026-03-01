@@ -1,0 +1,32 @@
+{
+  "id": "mcp-smart-crawler-b3d2ae43",
+  "name": "mcp-smart-crawler",
+  "description": "MCP Smart Crawler is a Model Context Protocol (MCP) server uses Playwright to crawl web content, extract metadata, and download resources such as videos and images.",
+  "repo_url": "https://github.com/loo-y/mcp-smart-crawler",
+  "source_hub": "mcp_so",
+  "owner": "loo-y",
+  "stars": 4,
+  "primary_language": "unknown",
+  "tags": [
+    "data",
+    "data-ai",
+    "data-ai-nlp",
+    "data-ai-vision",
+    "dev-testing",
+    "util-file",
+    "util-media",
+    "util-search"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "a1f18f82fd25158b9951a8d1a8dfea5fbd6dc874",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 8,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:54:04Z",
+  "verification_level": "scanner_only"
+}

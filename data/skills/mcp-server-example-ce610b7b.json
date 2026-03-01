@@ -1,0 +1,30 @@
+{
+  "id": "mcp-server-example-ce610b7b",
+  "name": "mcp-server-example",
+  "description": "In this example, you host a MCP Server using SSE and use the MCP Inspector to debug/test it. There are 2 basic Tools: Azure, WhoIs and GitLab Tools",
+  "repo_url": "https://github.com/garrardkitchen/mcp-server-example",
+  "source_hub": "mcp_so",
+  "owner": "garrardkitchen",
+  "stars": 1,
+  "primary_language": "unknown",
+  "tags": [
+    "dev",
+    "dev-git",
+    "dev-testing",
+    "integ-cloud",
+    "integ-cloud-azure",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "7a99e1f5eecfd1bf1eae753437b8089a110fb7b1",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 5,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:40Z",
+  "verification_level": "scanner_only"
+}

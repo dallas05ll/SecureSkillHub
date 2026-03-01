@@ -1,0 +1,27 @@
+{
+  "id": "dhan-broker-mcp-trades-b67d09cc",
+  "name": "Dhan Broker MCP Trades",
+  "description": "Dhan Trading MCP Server\nA Model Context Protocol (MCP) server integration for the Dhan Trading API, allowing Claude to access your trading account information.\nOverview\nThis project creates an MCP server that connects the Dhan Trading API with Claude AI, enabling Claude to:\n\nCheck your account balance\nView your holdings and positions\nGet live profit and loss information\nFetch latest trading prices\nPlace and manage orders\n\nInstallation\nPrerequisites\n\nPython 3.8+ installed\nClaude Desktop applic...",
+  "repo_url": "https://github.com/mayankthole/Dhan Broker MCP Trades",
+  "source_hub": "mcp_so",
+  "owner": "mayankthole",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp",
+    "dev-testing",
+    "dev-web-backend-python",
+    "integ",
+    "util-search",
+    "repo_unavailable"
+  ],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null,
+  "repo_status": "unavailable",
+  "repo_check_date": "2026-02-28T20:51:36.381605+00:00",
+  "repo_check_error": "fatal: unable to access 'https://github.com/mayankthole/Dhan Broker MCP Trades/': URL rejected: Malformed input to a URL function"
+}

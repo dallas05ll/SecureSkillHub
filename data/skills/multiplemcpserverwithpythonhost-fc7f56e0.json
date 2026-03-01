@@ -1,0 +1,26 @@
+{
+  "id": "multiplemcpserverwithpythonhost-fc7f56e0",
+  "name": "multipleMCPServerWithPythonHost",
+  "description": "This repository contains a python implementation of an MCP Host which is capable of running several MCP Servers with SSE protocol",
+  "repo_url": "https://github.com/hackerinheels/multipleMCPServerWithPythonHost",
+  "source_hub": "mcp_so",
+  "owner": "hackerinheels",
+  "stars": 1,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "dev-web-backend-python"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "77ee201b0ae5f8a2fae5aa205bb426da049e3679",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 14,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:42Z",
+  "verification_level": "scanner_only"
+}

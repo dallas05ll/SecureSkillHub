@@ -1,0 +1,25 @@
+{
+  "id": "ramp-mcp-8b1b0c1e",
+  "name": "ramp-mcp",
+  "description": "ramp-mcp",
+  "repo_url": "https://github.com/ramp-public/ramp-mcp",
+  "source_hub": "mcp_so",
+  "owner": "ramp-public",
+  "stars": 30,
+  "primary_language": "unknown",
+  "tags": [
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "b31c0b409cf167c2012e0b12f166397a3f302d2d",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 11,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:32:13Z",
+  "verification_level": "scanner_only"
+}

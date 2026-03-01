@@ -1,0 +1,28 @@
+{
+  "id": "pypi-query-mcp-server-fe1ddcb0",
+  "name": "pypi-query-mcp-server",
+  "description": "A Model Context Protocol (MCP) server for Python package intelligence, providing structured queries for PyPI packages and GitHub repositories. Features include dependency analysis, version tracking, and package metadata retrieval for LLM interactions.",
+  "repo_url": "https://github.com/loonghao/pypi-query-mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "loonghao",
+  "stars": 18,
+  "primary_language": "unknown",
+  "tags": [
+    "data",
+    "data-ai",
+    "data-ai-nlp",
+    "dev-web-backend-python"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "4a6740196ceb068a3fc101bd927a18945acdb4e7",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 55,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:42:34Z",
+  "verification_level": "scanner_only"
+}

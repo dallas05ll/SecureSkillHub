@@ -1,0 +1,26 @@
+{
+  "id": "mcp-transformers-b888c172",
+  "name": "MCP-Transformers",
+  "description": "LangChain wrapper for seamless integration MCP-servers with different open-source large language models from transformers library.",
+  "repo_url": "https://github.com/getStRiCtd/MCP-Transformers",
+  "source_hub": "mcp_so",
+  "owner": "getStRiCtd",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "integ"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "6c0602ddcba5e4468fa87325217a44d4d377c270",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 13,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:40Z",
+  "verification_level": "scanner_only"
+}

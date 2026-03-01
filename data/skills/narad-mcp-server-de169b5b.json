@@ -1,0 +1,28 @@
+{
+  "id": "narad-mcp-server-de169b5b",
+  "name": "Narad-MCP-Server",
+  "description": "Narad MCP Server integrates GitHub, Email, and WhatsApp agents, allowing seamless communication and task automation through HTTP requests. It supports real-time and offline operations, providing a secure, efficient backend solution for managing multiple services with AI-powered workflows.",
+  "repo_url": "https://github.com/Edge-Explorer/Narad-MCP-Server",
+  "source_hub": "mcp_so",
+  "owner": "Edge-Explorer",
+  "stars": 6,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "prod",
+    "prod-comm",
+    "prod-pm"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "a2353fc5f938e0acbd91e586e8692c15c96f9316",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 8,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:54:02Z",
+  "verification_level": "scanner_only"
+}

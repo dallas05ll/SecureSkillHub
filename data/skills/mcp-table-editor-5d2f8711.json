@@ -1,0 +1,25 @@
+{
+  "id": "mcp-table-editor-5d2f8711",
+  "name": "mcp-table-editor",
+  "description": "Easy-to-use table editing MCP server for LLM",
+  "repo_url": "https://github.com/elda27/mcp-table-editor",
+  "source_hub": "mcp_so",
+  "owner": "elda27",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "383491bd6102b3a6caa9b95343092c746fbd9473",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 44,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:41Z",
+  "verification_level": "scanner_only"
+}

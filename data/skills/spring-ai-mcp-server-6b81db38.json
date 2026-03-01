@@ -1,0 +1,25 @@
+{
+  "id": "spring-ai-mcp-server-6b81db38",
+  "name": "spring-ai-mcp-server",
+  "description": "스프링부트와 AI를 활용한 엑셀, PPT 생성 서버",
+  "repo_url": "https://github.com/haeseoky/spring-ai-mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "haeseoky",
+  "stars": 6,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "e0a0e9cef9cf42bdea4ec683b9fbf48a680cefaa",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 2,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:54:02Z",
+  "verification_level": "scanner_only"
+}

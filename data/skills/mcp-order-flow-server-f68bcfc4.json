@@ -1,0 +1,25 @@
+{
+  "id": "mcp-order-flow-server-f68bcfc4",
+  "name": "mcp-order-flow-server",
+  "description": "This is the mcp to fetch and get order flow information",
+  "repo_url": "https://github.com/fintools-ai/mcp-order-flow-server",
+  "source_hub": "mcp_so",
+  "owner": "fintools-ai",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "util-search"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "19e5e2454940149256078be5e6e1b094e6b195b7",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 17,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:42Z",
+  "verification_level": "scanner_only"
+}

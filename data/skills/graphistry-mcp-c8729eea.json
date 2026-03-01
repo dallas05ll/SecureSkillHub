@@ -1,0 +1,26 @@
+{
+  "id": "graphistry-mcp-c8729eea",
+  "name": "Graphistry MCP",
+  "description": "GPU-accelerated graph visualization and analytics server for Large Language Models that integrates with Model Control Protocol (MCP), enabling AI assistants to visualize and analyze complex network data.",
+  "repo_url": "https://github.com/graphistry/graphistry-mcp",
+  "source_hub": "glama",
+  "owner": "graphistry",
+  "stars": 10,
+  "primary_language": "unknown",
+  "tags": [
+    "data",
+    "data-ai"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 14,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-25T14:26:46Z",
+  "verification_level": "scanner_only"
+}

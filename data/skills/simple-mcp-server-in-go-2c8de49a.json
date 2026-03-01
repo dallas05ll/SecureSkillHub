@@ -1,0 +1,25 @@
+{
+  "id": "simple-mcp-server-in-go-2c8de49a",
+  "name": "simple-mcp-server-in-go",
+  "description": "A simple MCP server built using Go for concurrency",
+  "repo_url": "https://github.com/mahimairaja/simple-mcp-server-in-go",
+  "source_hub": "mcp_so",
+  "owner": "mahimairaja",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "dev-web-backend-go"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "81c37b3603faa9bf8ad9b6b1f3c5c49cce2e4301",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 1,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:41Z",
+  "verification_level": "scanner_only"
+}

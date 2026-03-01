@@ -1,0 +1,27 @@
+{
+  "id": "dependency-mcp-e37e17d4",
+  "name": "dependency-mcp",
+  "description": "A Model Context Protocol (MCP) server for analyzing code dependencies",
+  "repo_url": "https://github.com/mkearl/dependency-mcp",
+  "source_hub": "mcp_so",
+  "owner": "mkearl",
+  "stars": 18,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp",
+    "dev"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "3fddfb20d24aebdc12d4f5f3fadfb182aa06bd0d",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 7,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:42:34Z",
+  "verification_level": "scanner_only"
+}

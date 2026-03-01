@@ -1,0 +1,27 @@
+{
+  "id": "mercari-jp-mcp-94a04911",
+  "name": "mercari-jp-mcp",
+  "description": "This is a Model Context Protocol (MCP) server that provides real time data from Japan’s Mercari (jp.mercari.com). It allows you to retrieve information about product and prices (more to come) to be analyzed by LLM.",
+  "repo_url": "https://github.com/msr2903/mercari-jp-mcp",
+  "source_hub": "mcp_so",
+  "owner": "msr2903",
+  "stars": 9,
+  "primary_language": "unknown",
+  "tags": [
+    "data",
+    "data-ai",
+    "data-ai-nlp"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "30566c999613e3891091d92b66780a0fc0f4441e",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 5,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:42:36Z",
+  "verification_level": "scanner_only"
+}

@@ -1,0 +1,26 @@
+{
+  "id": "mcp-server-algorithm-e81d0c1b",
+  "name": "mcp_server-algorithm",
+  "description": "알고리즘 MCP를 구현해보자",
+  "repo_url": "https://github.com/POcodingWER/mcp_server-algorithm",
+  "source_hub": "mcp_so",
+  "owner": "POcodingWER",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "98f767f88b6100c86047d2accff5d8ae82ef4a11",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 76,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:40Z",
+  "verification_level": "scanner_only"
+}

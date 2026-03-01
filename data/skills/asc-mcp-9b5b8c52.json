@@ -1,0 +1,33 @@
+{
+  "id": "asc-mcp-9b5b8c52",
+  "name": "asc-mcp",
+  "description": "MCP server for App Store Connect API with 208 tools across 25 workers. Manage apps, builds, TestFlight, in-app purchases, subscriptions, reviews, provisioning, screenshots, analytics, and more - directly from Claude, Cursor, VS Code, or any MCP client. Multi-account support, worker filtering, JWT auth.",
+  "repo_url": "https://github.com/zelentsov-dev/asc-mcp",
+  "source_hub": "mcp_so",
+  "owner": "zelentsov-dev",
+  "stars": 3,
+  "primary_language": "unknown",
+  "tags": [
+    "data",
+    "data-ai",
+    "data-ai-vision",
+    "dev",
+    "dev-testing",
+    "integ",
+    "sec",
+    "sec-auth",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "74677d0531f5583ebd8e5c82cf6d5f68a5fef125",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 31,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:04:50Z",
+  "verification_level": "scanner_only"
+}

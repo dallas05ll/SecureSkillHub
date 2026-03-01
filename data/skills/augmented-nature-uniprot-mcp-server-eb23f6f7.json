@@ -1,0 +1,28 @@
+{
+  "id": "augmented-nature-uniprot-mcp-server-eb23f6f7",
+  "name": "Augmented-Nature-UniProt-MCP-Server",
+  "description": "A comprehensive Model Context Protocol (MCP) server providing advanced access to the UniProt protein database.",
+  "repo_url": "https://github.com/Augmented-Nature/Augmented-Nature-UniProt-MCP-Server",
+  "source_hub": "mcp_so",
+  "owner": "Augmented-Nature",
+  "stars": 19,
+  "primary_language": "unknown",
+  "tags": [
+    "data",
+    "data-ai",
+    "data-ai-nlp",
+    "data-db"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "b486dc5cd487800fc638f0fff25040d99bc29aa3",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 5,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:42:34Z",
+  "verification_level": "scanner_only"
+}

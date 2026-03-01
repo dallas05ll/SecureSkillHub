@@ -1,0 +1,25 @@
+{
+  "id": "mcp-server-ab14c220",
+  "name": "mcp_server",
+  "description": "Go mcp server",
+  "repo_url": "https://github.com/HyperLiar/mcp_server",
+  "source_hub": "mcp_so",
+  "owner": "HyperLiar",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "dev-web-backend-go"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "4865dbb0ccd11e4779c938e2d95013ebccb72c43",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 1,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:40Z",
+  "verification_level": "scanner_only"
+}

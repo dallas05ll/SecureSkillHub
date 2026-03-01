@@ -1,0 +1,28 @@
+{
+  "id": "code-surgeon-0e7a58bb",
+  "name": "code-surgeon",
+  "description": "Stop analyzing code manually. Understand your codebase, review changes for safety, find performance issues, or plan implementations with surgical precision. 4 modes, zero setup, complete confidence.",
+  "repo_url": "https://github.com/baagad-ai/code-surgeon",
+  "source_hub": "github_search",
+  "skill_type": "agent_skill",
+  "owner": "baagad-ai",
+  "stars": 1,
+  "license": "mit",
+  "primary_language": "markdown",
+  "tags": [
+    "dev",
+    "util-search"
+  ],
+  "verification_status": "pass",
+  "overall_score": 78,
+  "risk_level": "medium",
+  "verified_commit": null,
+  "scan_summary": null,
+  "last_updated": "2026-02-18T18:09:25Z",
+  "findings_summary": {
+    "notes": "Metadata-based verification. Score=78. Signals: stars=1; license='mit' (+5); owner='baagad-ai' (+3); primary_language='markdown'; source_hub='github_search'. Status: pass. Risk: medium."
+  },
+  "trust_level": "low",
+  "scan_date": "2026-02-26T06:14:56Z",
+  "verification_level": "metadata_only"
+}

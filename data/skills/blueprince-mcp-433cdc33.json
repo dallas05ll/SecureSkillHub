@@ -1,0 +1,25 @@
+{
+  "id": "blueprince-mcp-433cdc33",
+  "name": "blueprince-mcp",
+  "description": "MCP Server for local notes while playing through Blue Prince",
+  "repo_url": "https://github.com/myungbeans/blueprince-mcp",
+  "source_hub": "mcp_so",
+  "owner": "myungbeans",
+  "stars": 2,
+  "primary_language": "unknown",
+  "tags": [
+    "prod-notes"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "d99c63b01a67b02ab5644bf2d41a2a7590035d11",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 9,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:04:51Z",
+  "verification_level": "scanner_only"
+}

@@ -1,0 +1,29 @@
+{
+  "id": "acp-mcp-server-18dd1d49",
+  "name": "ACP-MCP-Server",
+  "description": "A bridge server that connects Agent Communication Protocol (ACP) agents with Model Context Protocol (MCP) clients, enabling seamless integration between ACP-based AI agents and MCP-compatible tools like Claude Desktop.",
+  "repo_url": "https://github.com/GongRzhe/ACP-MCP-Server",
+  "source_hub": "mcp_so",
+  "owner": "GongRzhe",
+  "stars": 19,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp",
+    "integ",
+    "prod-comm",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "e0925b6a5552e6339e568754dd6a14494dc5093a",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 16,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:42:36Z",
+  "verification_level": "scanner_only"
+}

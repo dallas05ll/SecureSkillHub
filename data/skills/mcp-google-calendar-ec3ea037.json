@@ -1,0 +1,25 @@
+{
+  "id": "mcp-google-calendar-ec3ea037",
+  "name": "mcp-google-calendar",
+  "description": "MCP Server for Google Calendar",
+  "repo_url": "https://github.com/bpirvu/mcp-google-calendar",
+  "source_hub": "mcp_so",
+  "owner": "bpirvu",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "prod-calendar"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "f977bd6113b90c58e4b2938a59f1e0e98bb85c99",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 1,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:41Z",
+  "verification_level": "scanner_only"
+}

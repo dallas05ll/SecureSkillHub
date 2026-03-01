@@ -1,0 +1,26 @@
+{
+  "id": "zendesk-mcp-server-79f21d55",
+  "name": "zendesk-mcp-server",
+  "description": "A Model Context Protocol server for Zendesk",
+  "repo_url": "https://github.com/reminia/zendesk-mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "reminia",
+  "stars": 61,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "3410b0d6efa19b99781ede4f536c6a6e565a879a",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 5,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-27T06:40:43Z",
+  "verification_level": "scanner_only"
+}

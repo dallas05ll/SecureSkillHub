@@ -1,0 +1,26 @@
+{
+  "id": "personal-mcp-servers-d7d52e87",
+  "name": "personal-mcp-servers",
+  "description": "Colección de servidores MCP personalizados para interactuar con varios servicios como clima, noticias y más",
+  "repo_url": "https://github.com/charry07/personal-mcp-servers",
+  "source_hub": "mcp_so",
+  "owner": "charry07",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "a6a469bb3ca4c7f4d6075f26abc0adefb45a4a4c",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 6,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:41Z",
+  "verification_level": "scanner_only"
+}

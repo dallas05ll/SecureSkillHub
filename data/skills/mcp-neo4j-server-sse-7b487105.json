@@ -1,0 +1,25 @@
+{
+  "id": "mcp-neo4j-server-sse-7b487105",
+  "name": "mcp-neo4j-server-sse",
+  "description": "mcp-neo4j-server-sse is an MCP server that uses Server-Sent Events (SSE) as the transport protocol.",
+  "repo_url": "https://github.com/dsimile/mcp-neo4j-server-sse",
+  "source_hub": "mcp_so",
+  "owner": "dsimile",
+  "stars": 5,
+  "primary_language": "unknown",
+  "tags": [
+    "data-db-graph"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "217c9c65e7630e2aa096aa275fd800fcef0083d0",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 4,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:54:02Z",
+  "verification_level": "scanner_only"
+}

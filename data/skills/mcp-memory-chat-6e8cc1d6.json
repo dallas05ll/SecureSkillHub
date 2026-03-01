@@ -1,0 +1,27 @@
+{
+  "id": "mcp-memory-chat-6e8cc1d6",
+  "name": "mcp-memory-chat",
+  "description": "mcp-memory-chat / mcp server intregation with claude/Cursor/cmd",
+  "repo_url": "https://github.com/onon1999/mcp-memory-chat",
+  "source_hub": "mcp_so",
+  "owner": "onon1999",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "prod-comm",
+    "prod-notes"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "4f8712e4bc93cb7c63b6c867995700b170bf5fa9",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 16,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:40Z",
+  "verification_level": "scanner_only"
+}

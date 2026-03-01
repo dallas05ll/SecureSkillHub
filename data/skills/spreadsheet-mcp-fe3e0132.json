@@ -1,0 +1,28 @@
+{
+  "id": "spreadsheet-mcp-fe3e0132",
+  "name": "spreadsheet-mcp",
+  "description": "A TypeScript-based Model Context Protocol (MCP) server for viewing, filtering, sorting, and updating CSV/XLSX spreadsheet files via LLM or API integration.",
+  "repo_url": "https://github.com/ZephyrDeng/spreadsheet-mcp",
+  "source_hub": "mcp_so",
+  "owner": "ZephyrDeng",
+  "stars": 10,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp",
+    "integ",
+    "util-file"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "f93a0c331b5fe0887e346e99a1c43d1a88be696a",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 11,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:42:36Z",
+  "verification_level": "scanner_only"
+}

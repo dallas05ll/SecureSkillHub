@@ -1,0 +1,28 @@
+{
+  "id": "mcp-weather-76cc5ded",
+  "name": "mcp-weather",
+  "description": "A weather Model context protocol (MCP) tool server to allow AI agents to have access to real time weather data.",
+  "repo_url": "https://github.com/jpan8866/mcp-weather",
+  "source_hub": "mcp_so",
+  "owner": "jpan8866",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "data",
+    "data-ai",
+    "data-ai-nlp",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "d743a51f62da2031e567d2bd49b7fd27ae0609e4",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 5,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:40Z",
+  "verification_level": "scanner_only"
+}

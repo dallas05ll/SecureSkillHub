@@ -1,0 +1,20 @@
+{
+  "id": "ros-mcp-server-cdd227a3",
+  "name": "ros_mcp_server",
+  "description": "The ROS MCP Server is designed to facilitate the control of robotic movement by providing a set of functions that allow for precise manipulation of linear and angular velocities.",
+  "repo_url": "https://github.com/lpigeon/ros_mcp_server",
+  "source_hub": "mcp_so",
+  "owner": "lpigeon",
+  "stars": 1031,
+  "primary_language": "unknown",
+  "tags": [
+    "prod-pm"
+  ],
+  "verification_status": "pass",
+  "overall_score": 73,
+  "risk_level": "low",
+  "verified_commit": "199d21908a936d17fc8f02a318cf7758ab619376",
+  "scan_summary": null,
+  "scan_date": "2026-02-26T03:00:50Z",
+  "verification_level": "scanner_only"
+}

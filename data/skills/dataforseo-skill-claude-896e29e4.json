@@ -1,0 +1,30 @@
+{
+  "id": "dataforseo-skill-claude-896e29e4",
+  "name": "dataforseo-skill-claude",
+  "description": "DataForSEO API skill for Claude Code - Complete SEO data integration",
+  "repo_url": "https://github.com/nikhilbhansali/dataforseo-skill-claude",
+  "source_hub": "github_search",
+  "skill_type": "agent_skill",
+  "owner": "nikhilbhansali",
+  "stars": 18,
+  "license": "mit",
+  "primary_language": "markdown",
+  "tags": [
+    "data",
+    "data-ai",
+    "dev",
+    "integ"
+  ],
+  "verification_status": "pass",
+  "overall_score": 83,
+  "risk_level": "low",
+  "verified_commit": null,
+  "scan_summary": null,
+  "last_updated": "2026-02-22T03:36:09Z",
+  "findings_summary": {
+    "notes": "Metadata-based verification. Score=83. Signals: stars=18 (>=10, +5); license='mit' (+5); owner='nikhilbhansali' (+3); primary_language='markdown'; source_hub='github_search'. Status: pass. Risk: low."
+  },
+  "trust_level": "low",
+  "scan_date": "2026-02-26T06:14:56Z",
+  "verification_level": "metadata_only"
+}

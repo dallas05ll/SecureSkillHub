@@ -1,0 +1,28 @@
+{
+  "id": "enrichment-mcp-327f1d45",
+  "name": "enrichment-mcp",
+  "description": "A Model Context Protocol server for enriching data from multiple security products",
+  "repo_url": "https://github.com/MSAdministrator/enrichment-mcp",
+  "source_hub": "mcp_so",
+  "owner": "MSAdministrator",
+  "stars": 3,
+  "primary_language": "unknown",
+  "tags": [
+    "data",
+    "data-ai",
+    "data-ai-nlp",
+    "sec"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "6fd8c5f09929b0a17b61597cc023023705c36ddd",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 3,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:04:51Z",
+  "verification_level": "scanner_only"
+}

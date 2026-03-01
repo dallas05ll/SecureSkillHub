@@ -1,0 +1,26 @@
+{
+  "id": "math-mcp-server-9101b5f9",
+  "name": "math-mcp-server",
+  "description": "This project implements a math MCP server with the help of fastmcp, aiming to provide tools for LLMs to perform complex mathematical calculations and analyses.",
+  "repo_url": "https://github.com/111-test-111/math-mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "111-test-111",
+  "stars": 5,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "e7c7465817f932fb56ffcbc28e752b67a0981b5a",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 21,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:54:02Z",
+  "verification_level": "scanner_only"
+}

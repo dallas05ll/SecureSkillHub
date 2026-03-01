@@ -1,0 +1,28 @@
+{
+  "id": "snyk-0a9b70bc",
+  "name": "Snyk",
+  "description": "Enhance security posture by embedding Snyk vulnerability scanning directly into agentic workflows.",
+  "repo_url": "https://github.com/Snyk/Snyk",
+  "source_hub": "mcp_so",
+  "owner": "Snyk",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "data-db-vector",
+    "prod",
+    "sec",
+    "sec-scan"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "1d112a36396f9e01243c4d75e67717e26dfaf1c6",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 2189,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:42:59Z",
+  "verification_level": "scanner_only"
+}

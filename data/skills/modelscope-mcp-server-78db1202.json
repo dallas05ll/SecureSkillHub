@@ -1,0 +1,26 @@
+{
+  "id": "modelscope-mcp-server-78db1202",
+  "name": "modelscope-mcp-server",
+  "description": "A MCP server that integrates with ModelScope's ecosystem, providing seamless access to AI models, datasets, apps, papers, and generation capabilities through popular MCP clients.",
+  "repo_url": "https://github.com/modelscope/modelscope-mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "modelscope",
+  "stars": 18,
+  "primary_language": "unknown",
+  "tags": [
+    "data",
+    "data-ai"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "def8baa255ef5388b7bb8390d7b82c47969f8ea2",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 44,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:42:34Z",
+  "verification_level": "scanner_only"
+}

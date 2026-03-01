@@ -1,0 +1,28 @@
+{
+  "id": "azure-terminal-copilot-5903d78b",
+  "name": "azure-terminal-copilot",
+  "description": "A Python-based Azure CLI assistant that provides natural language processing capabilities for Azure commands, leveraging Azure MCP Server.",
+  "repo_url": "https://github.com/madebygps/azure-terminal-copilot",
+  "source_hub": "mcp_so",
+  "owner": "madebygps",
+  "stars": 27,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai-nlp",
+    "dev-web-backend-python",
+    "integ-cloud",
+    "integ-cloud-azure"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "44e69f44985c0029fbf083234c37741437207fb1",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 3,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:32:11Z",
+  "verification_level": "scanner_only"
+}

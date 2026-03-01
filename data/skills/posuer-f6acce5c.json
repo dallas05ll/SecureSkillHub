@@ -1,0 +1,27 @@
+{
+  "id": "posuer-f6acce5c",
+  "name": "posuer",
+  "description": "A Model Context Protocol (MCP) manager that connects LLM clients to multiple backend servers, aggregating capabilities while simplifying configuration and deployment.",
+  "repo_url": "https://github.com/jkoelker/posuer",
+  "source_hub": "mcp_so",
+  "owner": "jkoelker",
+  "stars": 4,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp",
+    "integ"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "72bae521681fa7bcf4f7087656d7bad7c2297173",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 3,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:04:50Z",
+  "verification_level": "scanner_only"
+}

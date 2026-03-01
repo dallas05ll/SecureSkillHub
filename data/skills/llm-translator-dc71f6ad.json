@@ -1,0 +1,29 @@
+{
+  "id": "llm-translator-dc71f6ad",
+  "name": "llm-translator",
+  "description": "这个技能让 Claude 可以使用任何 LLM API（OpenAI、国内大模型等）来翻译文本和文件。",
+  "repo_url": "https://github.com/lisniuse/llm-translator",
+  "source_hub": "github_search",
+  "skill_type": "agent_skill",
+  "owner": "lisniuse",
+  "stars": 1,
+  "license": "mit",
+  "primary_language": "markdown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp",
+    "integ"
+  ],
+  "verification_status": "pass",
+  "overall_score": 78,
+  "risk_level": "medium",
+  "verified_commit": null,
+  "scan_summary": null,
+  "last_updated": "2026-02-09T13:30:08Z",
+  "findings_summary": {
+    "notes": "Metadata-based verification. Score=78. Signals: stars=1; license='mit' (+5); owner='lisniuse' (+3); primary_language='markdown'; source_hub='github_search'. Status: pass. Risk: medium."
+  },
+  "trust_level": "low",
+  "scan_date": "2026-02-26T06:14:56Z",
+  "verification_level": "metadata_only"
+}

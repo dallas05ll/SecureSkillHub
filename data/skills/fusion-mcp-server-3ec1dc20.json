@@ -1,0 +1,30 @@
+{
+  "id": "fusion-mcp-server-3ec1dc20",
+  "name": "Fusion-MCP-Server",
+  "description": "Remote control solution for Fusion 360 using client-server architecture. Features JSON socket communication, modular design with Python server and client library, plus Fusion 360 add-in. Enables command monitoring, remote execution, and model data retrieval for automation workflows.",
+  "repo_url": "https://github.com/Joelalbon/Fusion-MCP-Server",
+  "source_hub": "mcp_so",
+  "owner": "Joelalbon",
+  "stars": 26,
+  "primary_language": "unknown",
+  "tags": [
+    "data",
+    "data-ai",
+    "dev-web-backend-python",
+    "prod",
+    "prod-comm",
+    "util-monitor"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "918301e79d2c77d5d1783d2bd8b6c4d57b8822c5",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 5,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:32:12Z",
+  "verification_level": "scanner_only"
+}

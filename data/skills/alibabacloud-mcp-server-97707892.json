@@ -1,0 +1,27 @@
+{
+  "id": "alibabacloud-mcp-server-97707892",
+  "name": "AlibabaCloud MCP Server",
+  "description": "A server that provides access to Alibaba Cloud resources including ECS, VPC, and CloudMonitor through API and OOS implementations, enabling resource management and monitoring via a unified interface.",
+  "repo_url": "https://github.com/aliyun/alibabacloud-core-mcp-server",
+  "source_hub": "glama",
+  "owner": "aliyun",
+  "stars": 102,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "integ-cloud",
+    "util-monitor"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 37,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-25T14:26:46Z",
+  "verification_level": "scanner_only"
+}

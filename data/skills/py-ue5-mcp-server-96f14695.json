@@ -1,0 +1,26 @@
+{
+  "id": "py-ue5-mcp-server-96f14695",
+  "name": "py-ue5-mcp-server",
+  "description": "an ue5 mcp server that allows the user to access functions in blueprint actors",
+  "repo_url": "https://github.com/edi3on/py-ue5-mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "edi3on",
+  "stars": 5,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "950c6abb96a27f81815475ae16670d2642f52089",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 52,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:54:02Z",
+  "verification_level": "scanner_only"
+}

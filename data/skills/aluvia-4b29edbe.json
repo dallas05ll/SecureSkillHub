@@ -1,0 +1,29 @@
+{
+  "id": "aluvia-4b29edbe",
+  "name": "aluvia",
+  "description": "Give your AI agent unblockable browser access. Aluvia routes traffic through premium mobile carrier IPs to bypass 403s, CAPTCHAs, and WAFs automatically.",
+  "repo_url": "https://github.com/Aluvia/aluvia",
+  "source_hub": "mcp_so",
+  "owner": "Aluvia",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "dev-web",
+    "prod",
+    "util-search",
+    "repo_unavailable"
+  ],
+  "verification_status": "manual_review",
+  "overall_score": 0,
+  "risk_level": "high",
+  "verified_commit": "",
+  "scan_summary": null,
+  "scan_date": "2026-02-28T20:27:25Z",
+  "findings_summary": {
+    "error": "clone failed: Cloning into '/var/folders/pq/bb71gjzd01d29nnmqrhqr2rc0000gn/T/strict5_aluvia-4b29edbe_0ufiutl4/repo'...\nfatal: could not read Username for 'https://github.com': Device not configured",
+    "supervisor_approved": false,
+    "supervisor_confidence": 0
+  },
+  "repo_status": "unavailable"
+}

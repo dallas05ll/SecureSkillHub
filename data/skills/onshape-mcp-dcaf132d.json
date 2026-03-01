@@ -1,0 +1,26 @@
+{
+  "id": "onshape-mcp-dcaf132d",
+  "name": "onshape-mcp",
+  "description": "MCP server or onshape CAD",
+  "repo_url": "https://github.com/BLamy/onshape-mcp",
+  "source_hub": "mcp_so",
+  "owner": "BLamy",
+  "stars": 11,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "79c748c8e5030fe8bc2b27be3a2ed124f5bfe1c6",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 7,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:42:36Z",
+  "verification_level": "scanner_only"
+}

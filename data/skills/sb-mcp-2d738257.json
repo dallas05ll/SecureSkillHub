@@ -1,0 +1,27 @@
+{
+  "id": "sb-mcp-2d738257",
+  "name": "SB-MCP",
+  "description": "Supabase Model Context Protocol (MCP) server for CRUD operations and Edge Functions",
+  "repo_url": "https://github.com/Cappahccino/SB-MCP",
+  "source_hub": "mcp_so",
+  "owner": "Cappahccino",
+  "stars": 4,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp",
+    "data-db"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "eff6c4beb6a7272731bc89c3825cabe8339023da",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 19,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:04:50Z",
+  "verification_level": "scanner_only"
+}

@@ -1,0 +1,29 @@
+{
+  "id": "police-uk-api-mcp-server-5b5b12ff",
+  "name": "police-uk-api-mcp-server",
+  "description": "A Python-based MCP server providing tools to access and interact with the police.uk API, offering data on crimes, police forces, neighbourhoods, and stop-and-search incidents.",
+  "repo_url": "https://github.com/dwain-barnes/police-uk-api-mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "dwain-barnes",
+  "stars": 2,
+  "primary_language": "unknown",
+  "tags": [
+    "data",
+    "dev-web-backend-python",
+    "integ",
+    "util",
+    "util-search"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "15344f34014acdb4e15fa660a63540a493f93053",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 4,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:04:50Z",
+  "verification_level": "scanner_only"
+}

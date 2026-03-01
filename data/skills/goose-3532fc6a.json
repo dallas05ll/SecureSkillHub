@@ -1,0 +1,25 @@
+{
+  "id": "goose-3532fc6a",
+  "name": "goose",
+  "description": "Goose AI with MCP Servers",
+  "repo_url": "https://github.com/MyBlockcities/goose",
+  "source_hub": "mcp_so",
+  "owner": "MyBlockcities",
+  "stars": 1,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "ca0d4bb06f9b01510500990eab6cac269c653a90",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 21,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:41Z",
+  "verification_level": "scanner_only"
+}

@@ -1,0 +1,60 @@
+{
+  "id": "reddit-content-fetcher-210fbc8c",
+  "name": "Reddit Content Fetcher",
+  "description": "Fetches Reddit content via Gemini CLI when WebFetch is blocked or returns 403 errors. Lives as a subdirectory skill within the ykdojo/claude-code-tips repository, which contains 45 Claude Code workflow tips including multi-Claude orchestration, context management, and productivity scripts.",
+  "repo_url": "https://github.com/ykdojo/claude-code-tips/tree/main/skills/reddit-fetch",
+  "source_hub": "claude_skills_hub",
+  "skill_type": "agent_skill",
+  "owner": "ykdojo",
+  "stars": 0,
+  "forks": 191,
+  "license": "NOASSERTION",
+  "primary_language": "JavaScript",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp",
+    "dev",
+    "prod",
+    "util-search",
+    "repo_unavailable"
+  ],
+  "source_tags": [
+    "ai",
+    "web",
+    "cli",
+    "coding",
+    "debugging",
+    "writing"
+  ],
+  "categories": [
+    "dev"
+  ],
+  "version": "1.0.0",
+  "requires_code_execution": false,
+  "verification_status": "pass",
+  "overall_score": 62,
+  "risk_level": "medium",
+  "verified_commit": null,
+  "scan_summary": null,
+  "findings_summary": {
+    "notes": "Parent repo ykdojo/claude-code-tips is an active personal (User) repository with 3,161 stars. License is proprietary/custom (All Rights Reserved with contributor CLA), not an OSI-approved open-source license. No SECURITY.md present. Skill is a subdirectory (skills/reddit-fetch) containing a single SKILL.md file. Repo is actively maintained (last updated 2026-02-25). The non-standard license restricts redistribution and commercial use. Dependency on Gemini CLI as an external tool introduces a third-party execution path."
+  },
+  "verified_at": "2026-02-25",
+  "repo_canonical": "https://github.com/ykdojo/claude-code-tips",
+  "owner_type": "User",
+  "has_security_md": false,
+  "has_license": true,
+  "license_spdx": "NOASSERTION",
+  "archived": false,
+  "is_fork": false,
+  "created_at": "2025-11-28",
+  "last_updated": "2026-02-25",
+  "parent_repo_stars": 3161,
+  "is_monorepo_child": true,
+  "trust_level": "medium",
+  "scan_date": "2026-02-26T03:00:51Z",
+  "repo_status": "unavailable",
+  "repo_check_date": "2026-02-28T20:52:49.444437+00:00",
+  "repo_check_error": "fatal: repository 'https://github.com/ykdojo/claude-code-tips/tree/main/skills/reddit-fetch/' not found",
+  "verification_level": "scanner_only"
+}

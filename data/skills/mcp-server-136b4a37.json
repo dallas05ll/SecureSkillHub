@@ -1,0 +1,27 @@
+{
+  "id": "mcp-server-136b4a37",
+  "name": "mcp-server",
+  "description": "Model context protocol server with Veryfi API access",
+  "repo_url": "https://github.com/veryfi/mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "veryfi",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp",
+    "integ"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "eb73e23e236863194ffe751dd055b5943f692616",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 7,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:40Z",
+  "verification_level": "scanner_only"
+}

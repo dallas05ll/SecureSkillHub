@@ -1,0 +1,27 @@
+{
+  "id": "mcp-jfrog-dcae3f80",
+  "name": "mcp-jfrog",
+  "description": "Model Context Protocol (MCP) Server for the JFrog Platform API, enabling repository management, build tracking, release lifecycle management, and more.",
+  "repo_url": "https://github.com/jfrog/mcp-jfrog",
+  "source_hub": "mcp_so",
+  "owner": "jfrog",
+  "stars": 111,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp",
+    "integ"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "667a01f6d39360db730ece3f57723afbfb900722",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 34,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-27T06:40:43Z",
+  "verification_level": "scanner_only"
+}

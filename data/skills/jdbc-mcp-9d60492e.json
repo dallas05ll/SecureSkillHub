@@ -1,0 +1,26 @@
+{
+  "id": "jdbc-mcp-9d60492e",
+  "name": "jdbc-mcp",
+  "description": "JDBC MCP modified from quarkus-mcp-servers",
+  "repo_url": "https://github.com/guanghuang/jdbc-mcp",
+  "source_hub": "mcp_so",
+  "owner": "guanghuang",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "70d9f3b246a12b8d538b717d60471f9cd1f31609",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 2,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:42Z",
+  "verification_level": "scanner_only"
+}

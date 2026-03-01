@@ -1,0 +1,26 @@
+{
+  "id": "ollama-agi-hub-0e168a01",
+  "name": "ollama-agi-hub",
+  "description": "Ollama AGI server - An MCP hub with built in registry and plug support.",
+  "repo_url": "https://github.com/GaryMatthews/ollama-agi-hub",
+  "source_hub": "mcp_so",
+  "owner": "GaryMatthews",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "8ad4e394e12d0c95587b27a0bb1b3b960861a3b9",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 1,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:42Z",
+  "verification_level": "scanner_only"
+}

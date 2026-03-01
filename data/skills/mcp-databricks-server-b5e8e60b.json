@@ -1,0 +1,25 @@
+{
+  "id": "mcp-databricks-server-b5e8e60b",
+  "name": "mcp-databricks-server",
+  "description": "Databricks MCP Server",
+  "repo_url": "https://github.com/RafaelCartenet/mcp-databricks-server",
+  "source_hub": "mcp_so",
+  "owner": "RafaelCartenet",
+  "stars": 36,
+  "primary_language": "unknown",
+  "tags": [
+    "data"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "f7b0e2bcc324424378586b569ac1376115cbc957",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 6,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:32:13Z",
+  "verification_level": "scanner_only"
+}

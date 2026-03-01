@@ -1,0 +1,27 @@
+{
+  "id": "outlook-calendar-mcp-994698db",
+  "name": "Outlook_Calendar_MCP",
+  "description": "A Model Context Protocol (MCP) server that allows Claude to access and manage your local Microsfot Outlook calendar (Windows only).",
+  "repo_url": "https://github.com/merajmehrabi/Outlook_Calendar_MCP",
+  "source_hub": "mcp_so",
+  "owner": "merajmehrabi",
+  "stars": 33,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp",
+    "prod-calendar"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "38ef09b8dc2c9315596d75f8f475278253b502bc",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 9,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:32:13Z",
+  "verification_level": "scanner_only"
+}

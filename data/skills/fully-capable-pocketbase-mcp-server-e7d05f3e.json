@@ -1,0 +1,26 @@
+{
+  "id": "fully-capable-pocketbase-mcp-server-e7d05f3e",
+  "name": "fully-capable-pocketbase-mcp-server",
+  "description": "# PocketBase MCP Server\n\nA Model Context Protocol (MCP) server that provides tools for managing PocketBase instances. This server enables LLMs to interact with PocketBase databases through a standardized protocol.\n\n## Overview\n\nThis MCP server exposes PocketBase functionality as tools that can be used by any MCP-compatible client (like Claude Desktop, Cursor, or other LLM applications). It provides comprehensive access to PocketBase features including:\n\n- Collection management (CRUD operation...",
+  "repo_url": "https://github.com/Jocelyn Knight (@BlackGirlCoding)/fully-capable-pocketbase-mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "Jocelyn Knight (@BlackGirlCoding)",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "data",
+    "data-ai",
+    "data-ai-nlp",
+    "data-db",
+    "util",
+    "repo_unavailable"
+  ],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null,
+  "repo_status": "unavailable",
+  "repo_check_date": "2026-02-28T20:51:43.579045+00:00",
+  "repo_check_error": "fatal: unable to access 'https://github.com/Jocelyn Knight (@BlackGirlCoding)/fully-capable-pocketbase-mcp-server/': URL rejected: Malformed input to a URL function"
+}

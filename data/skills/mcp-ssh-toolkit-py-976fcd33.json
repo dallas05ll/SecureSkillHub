@@ -1,0 +1,27 @@
+{
+  "id": "mcp-ssh-toolkit-py-976fcd33",
+  "name": "mcp-ssh-toolkit-py",
+  "description": "mcp-ssh-toolkit-py is a powerful MCP server for secure SSH command execution via Model Context Protocol.",
+  "repo_url": "https://github.com/VitalyMalakanov/mcp-ssh-toolkit-py",
+  "source_hub": "mcp_so",
+  "owner": "VitalyMalakanov",
+  "stars": 4,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "6a2e67da40e8fafa44399ceb95a66c4b4e52d191",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 8,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:54:02Z",
+  "verification_level": "scanner_only"
+}

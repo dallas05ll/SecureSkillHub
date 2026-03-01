@@ -1,0 +1,27 @@
+{
+  "id": "linear-mcp-server-1a30565d",
+  "name": "linear-mcp-server",
+  "description": "Robust, production tested MCP Server for linear (API)",
+  "repo_url": "https://github.com/kablewy/linear-mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "kablewy",
+  "stars": 2,
+  "primary_language": "unknown",
+  "tags": [
+    "dev-testing",
+    "integ",
+    "prod-pm"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "68f6d57ee0066399232ea702297ab3ba501f016d",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 9,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:04:50Z",
+  "verification_level": "scanner_only"
+}

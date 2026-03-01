@@ -1,0 +1,29 @@
+{
+  "id": "es-mcp-server-d34c8b33",
+  "name": "es_mcp_server",
+  "description": "elasticsearch mcp server and client, supports es7 and es8, based on Model Context Protocol python sdk",
+  "repo_url": "https://github.com/macgaf/es_mcp_server",
+  "source_hub": "mcp_so",
+  "owner": "macgaf",
+  "stars": 2,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp",
+    "dev",
+    "dev-web-backend-python",
+    "util-search"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "031a30abb7cc0615cd2dbd13a9f1ae8cc638cf9a",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 18,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:04:51Z",
+  "verification_level": "scanner_only"
+}

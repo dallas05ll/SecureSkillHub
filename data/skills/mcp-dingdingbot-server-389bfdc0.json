@@ -1,0 +1,25 @@
+{
+  "id": "mcp-dingdingbot-server-389bfdc0",
+  "name": "mcp-dingdingbot-server",
+  "description": "钉钉webhook MCP server",
+  "repo_url": "https://github.com/HundunOnline/mcp-dingdingbot-server",
+  "source_hub": "mcp_so",
+  "owner": "HundunOnline",
+  "stars": 21,
+  "primary_language": "unknown",
+  "tags": [
+    "integ"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "d5ec444d7b912e6b0d875070b9f08fa32af39ce5",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 19,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:32:12Z",
+  "verification_level": "scanner_only"
+}

@@ -1,0 +1,25 @@
+{
+  "id": "drone-ci-mcp-afcfb0d2",
+  "name": "drone-ci-mcp",
+  "description": "MCP server to expose drone cicd server as tools",
+  "repo_url": "https://github.com/madappa-sharath/drone-ci-mcp",
+  "source_hub": "mcp_so",
+  "owner": "madappa-sharath",
+  "stars": 4,
+  "primary_language": "unknown",
+  "tags": [
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "0c4b874af6d32a3ce1bb941397eca071e0219a30",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 15,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:54:02Z",
+  "verification_level": "scanner_only"
+}

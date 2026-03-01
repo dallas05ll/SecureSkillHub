@@ -1,0 +1,26 @@
+{
+  "id": "mcp-server-scanner-4ebe79db",
+  "name": "mcp-server-scanner",
+  "description": "detect exposed mcp servers over the internet and enumerate their tools",
+  "repo_url": "https://github.com/m-q-t/mcp-server-scanner",
+  "source_hub": "mcp_so",
+  "owner": "m-q-t",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "sec-scan",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "969fb5845a7466705e85b4d8bcf102c176f49eea",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 1,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:41Z",
+  "verification_level": "scanner_only"
+}

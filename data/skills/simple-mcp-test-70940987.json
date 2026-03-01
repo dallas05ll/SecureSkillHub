@@ -1,0 +1,27 @@
+{
+  "id": "simple-mcp-test-70940987",
+  "name": "simple-mcp-test",
+  "description": "A sample project testing Model Context Protocol (MCP) server and client interaction.",
+  "repo_url": "https://github.com/tjjd4/simple-mcp-test",
+  "source_hub": "mcp_so",
+  "owner": "tjjd4",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp",
+    "dev-testing"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "52b2136b7fbd8e158765b6c803853137730f605d",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 6,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:43:00Z",
+  "verification_level": "scanner_only"
+}

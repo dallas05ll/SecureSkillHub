@@ -1,0 +1,26 @@
+{
+  "id": "yamcp-69436e29",
+  "name": "yamcp",
+  "description": "Organize your MCP servers in local workspaces, share them as Yet-Another-MCP through a single command",
+  "repo_url": "https://github.com/hamidra/yamcp",
+  "source_hub": "mcp_so",
+  "owner": "hamidra",
+  "stars": 61,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "f74f5261bc0c7b1527fc0b29cb6607aad179ecb4",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 40,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-27T06:40:49Z",
+  "verification_level": "scanner_only"
+}

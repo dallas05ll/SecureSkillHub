@@ -1,0 +1,25 @@
+{
+  "id": "hubspot-mcp-server-b16be92c",
+  "name": "hubspot-mcp-server",
+  "description": "hubspot mcp server",
+  "repo_url": "https://github.com/lkm1developer/hubspot-mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "lkm1developer",
+  "stars": 13,
+  "primary_language": "unknown",
+  "tags": [
+    "integ-crm"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "34bc3f9b4dd87ca53f6aaa6e8d2fd6a1a81b2b00",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 6,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:42:34Z",
+  "verification_level": "scanner_only"
+}

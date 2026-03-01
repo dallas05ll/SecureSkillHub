@@ -1,0 +1,30 @@
+{
+  "id": "mcp-cloud-compliance-86c78a5a",
+  "name": "mcp-cloud-compliance",
+  "description": "Conversational cloud security compliance auditing. MCP server enabling natural language queries about AWS security posture via Claude and other AI assistants.",
+  "repo_url": "https://github.com/uprightsleepy/mcp-cloud-compliance",
+  "source_hub": "mcp_so",
+  "owner": "uprightsleepy",
+  "stars": 5,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp",
+    "integ-cloud",
+    "integ-cloud-aws",
+    "sec",
+    "sec-scan"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "180f9ad2dd45bee15268ad6b684e6b34412fa46e",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 2,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:54:02Z",
+  "verification_level": "scanner_only"
+}

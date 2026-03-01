@@ -1,0 +1,25 @@
+{
+  "id": "stocks-ce9e8b99",
+  "name": "stocks",
+  "description": "skills for doing stock analysis",
+  "repo_url": "https://github.com/limit881010/stocks",
+  "source_hub": "github_search",
+  "skill_type": "agent_skill",
+  "owner": "limit881010",
+  "stars": 4,
+  "license": "",
+  "primary_language": "markdown",
+  "tags": [],
+  "verification_status": "pass",
+  "overall_score": 73,
+  "risk_level": "medium",
+  "verified_commit": null,
+  "scan_summary": null,
+  "last_updated": "2026-02-18T12:41:45Z",
+  "findings_summary": {
+    "notes": "Metadata-based verification. Score=73. Signals: stars=4; no license detected; owner='limit881010' (+3); primary_language='markdown'; source_hub='github_search'. Status: pass. Risk: medium."
+  },
+  "trust_level": "low",
+  "scan_date": "2026-02-26T06:14:56Z",
+  "verification_level": "metadata_only"
+}

@@ -1,0 +1,25 @@
+{
+  "id": "comos-federation-gateway-1f884455",
+  "name": "comos-federation-gateway",
+  "description": "Multi-tenant commerce gateway for AI shopping. Connect once, shop any store on the ComOS network. 17 commerce tools for catalog search, cart management, orders, and inventory. Supports dynamic tenant discovery - AI agents can browse and buy from multiple storefronts through a single MCP connection.",
+  "repo_url": "https://github.com/ComOS/comos-federation-gateway",
+  "source_hub": "mcp_so",
+  "owner": "ComOS",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "integ",
+    "util",
+    "util-search",
+    "repo_unavailable"
+  ],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null,
+  "repo_status": "unavailable",
+  "repo_check_date": "2026-02-28T20:51:31.498470+00:00",
+  "repo_check_error": "fatal: could not read Username for 'https://github.com': Device not configured"
+}

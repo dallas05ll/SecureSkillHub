@@ -1,0 +1,26 @@
+{
+  "id": "rodumani-29a26644",
+  "name": "rodumani",
+  "description": "Remotion editor MCP server",
+  "repo_url": "https://github.com/smilish67/rodumani",
+  "source_hub": "mcp_so",
+  "owner": "smilish67",
+  "stars": 7,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "9fb64e01d34c09527f7b8afe062628b3b4a73b21",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 19,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:54:02Z",
+  "verification_level": "scanner_only"
+}

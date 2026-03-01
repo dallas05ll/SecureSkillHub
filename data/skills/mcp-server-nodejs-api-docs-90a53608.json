@@ -1,0 +1,27 @@
+{
+  "id": "mcp-server-nodejs-api-docs-90a53608",
+  "name": "mcp-server-nodejs-api-docs",
+  "description": "MCP Server for the Node.js API documentation",
+  "repo_url": "https://github.com/snyk-labs/mcp-server-nodejs-api-docs",
+  "source_hub": "mcp_so",
+  "owner": "snyk-labs",
+  "stars": 4,
+  "primary_language": "unknown",
+  "tags": [
+    "dev-web-backend-node",
+    "integ",
+    "prod-docs"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "eef43eb857a83c90b9298c2293d116e915a98dfe",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 16,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:54:04Z",
+  "verification_level": "scanner_only"
+}

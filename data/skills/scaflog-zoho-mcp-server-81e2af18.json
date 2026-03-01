@@ -1,0 +1,26 @@
+{
+  "id": "scaflog-zoho-mcp-server-81e2af18",
+  "name": "scaflog-zoho-mcp-server",
+  "description": "MCP Server for Scaflog Zoho Creator App",
+  "repo_url": "https://github.com/mastercode-io/scaflog-zoho-mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "mastercode-io",
+  "stars": 1,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "e037d825d65dc32dd73c08b940cd8c31c48b78d4",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 13,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:41Z",
+  "verification_level": "scanner_only"
+}

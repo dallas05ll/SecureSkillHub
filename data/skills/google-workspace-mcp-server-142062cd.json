@@ -1,0 +1,29 @@
+{
+  "id": "google-workspace-mcp-server-142062cd",
+  "name": "google-workspace-mcp-server",
+  "description": "A Model Context Protocol server for Google Workspace integration (Gmail and Calendar)",
+  "repo_url": "https://github.com/epaproditus/google-workspace-mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "epaproditus",
+  "stars": 27,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp",
+    "integ",
+    "prod-calendar",
+    "prod-comm"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "d98b9500ee1d51efbc0646702d8b5eda0454b622",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 7,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:32:13Z",
+  "verification_level": "scanner_only"
+}

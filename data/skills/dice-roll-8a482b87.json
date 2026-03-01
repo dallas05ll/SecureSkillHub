@@ -1,0 +1,24 @@
+{
+  "id": "dice-roll-8a482b87",
+  "name": "dice-roll",
+  "description": "A Model Context Protocol (MCP) server for simulating dice rolls with support for standard dice notation and Fate/Fudge dice. It provides tools to parse dice notation strings (like \"3d6+4\") and generate random dice rolls. Integrates with MCP-compatible clients like Claude Desktop and features full input/output validation using Zod schemas. It supports both standard dice (NdS+M format) and Fate/Fudge dice (NdF format) commonly used in tabletop role-playing games.",
+  "repo_url": "https://github.com/lpbayliss/dice-roll",
+  "source_hub": "mcp_so",
+  "owner": "lpbayliss",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp",
+    "util",
+    "repo_unavailable"
+  ],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null,
+  "repo_status": "unavailable",
+  "repo_check_date": "2026-02-28T20:51:36.571168+00:00",
+  "repo_check_error": "fatal: could not read Username for 'https://github.com': Device not configured"
+}

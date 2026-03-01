@@ -1,0 +1,26 @@
+{
+  "id": "mcp-stdio-adapter-ab623bca",
+  "name": "mcp-stdio-adapter",
+  "description": "Expose a remote MCP server (HTTP) as a local stdio MCP server.",
+  "repo_url": "https://github.com/jrderuiter/mcp-stdio-adapter",
+  "source_hub": "mcp_so",
+  "owner": "jrderuiter",
+  "stars": 2,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "86777491a461a4b6598dcd95470d29efda9a403d",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 3,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:04:50Z",
+  "verification_level": "scanner_only"
+}

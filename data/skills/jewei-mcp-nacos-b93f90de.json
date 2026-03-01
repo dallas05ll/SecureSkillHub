@@ -1,0 +1,25 @@
+{
+  "id": "jewei-mcp-nacos-b93f90de",
+  "name": "jewei-mcp-nacos",
+  "description": "Nacos MCP Server - 让 AI 助手能够查询和管理 Nacos 配置。\r\n\r\n支持 Nacos 1.x/2.x/3.x 版本。",
+  "repo_url": "https://github.com/jeweis/jewei-mcp-nacos",
+  "source_hub": "mcp_so",
+  "owner": "jeweis",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "e2d35317b302d12e0fb975a7e038142dd0e3b015",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 15,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:42Z",
+  "verification_level": "scanner_only"
+}

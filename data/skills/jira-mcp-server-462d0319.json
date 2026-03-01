@@ -1,0 +1,25 @@
+{
+  "id": "jira-mcp-server-462d0319",
+  "name": "jira-mcp-server",
+  "description": "Jira MCP Server",
+  "repo_url": "https://github.com/brianstone/jira-mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "brianstone",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "prod-pm"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "c3e6797ef49923a396e333daeb6592befcd82db6",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 22,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:41Z",
+  "verification_level": "scanner_only"
+}

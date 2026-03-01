@@ -1,0 +1,28 @@
+{
+  "id": "alpaca-mcp-server-0b18ac25",
+  "name": "alpaca-mcp-server",
+  "description": "With Alpaca's MCP server, you can:\r\n* Build simple and complex trading strategies for stocks and options using natural language with your Alpaca account\r\n* Pull real-time and historical market data for stocks and options, including stock prices, contract prices, and the Greeks, without switching tools\r\n* Manage your portfolio including tracking investments, monitoring positions, and creating watchlists, all in one place\r\n* Switch easily between your paper and live trading accounts",
+  "repo_url": "https://github.com/alpacahq/alpaca-mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "alpacahq",
+  "stars": 524,
+  "primary_language": "unknown",
+  "tags": [
+    "data",
+    "data-ai-nlp",
+    "util",
+    "util-monitor"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 21,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-25T14:42:32Z",
+  "verification_level": "scanner_only"
+}

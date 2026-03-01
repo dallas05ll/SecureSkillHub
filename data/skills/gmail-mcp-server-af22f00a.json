@@ -1,0 +1,26 @@
+{
+  "id": "gmail-mcp-server-af22f00a",
+  "name": "Gmail-mcp-server",
+  "description": "A resilient MCP server built with fastMCP for sending emails through Gmail's SMTP server using AI agents.",
+  "repo_url": "https://github.com/MaitreyaM/Gmail-mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "MaitreyaM",
+  "stars": 10,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "prod-comm"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "8b5f5ac72b44483d949d5da4d29f4e157a361645",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 4,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:42:34Z",
+  "verification_level": "scanner_only"
+}

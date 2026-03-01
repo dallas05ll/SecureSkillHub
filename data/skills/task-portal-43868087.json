@@ -1,0 +1,27 @@
+{
+  "id": "task-portal-43868087",
+  "name": "task-portal",
+  "description": "MCP-Server tool use project concept for Claude and compatible AI.",
+  "repo_url": "https://github.com/angrysky56/task-portal",
+  "source_hub": "mcp_so",
+  "owner": "angrysky56",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "prod-pm",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "262d82b16eacc814ff827ad0b66f9f71ba01d6ac",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 26,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:42:59Z",
+  "verification_level": "scanner_only"
+}

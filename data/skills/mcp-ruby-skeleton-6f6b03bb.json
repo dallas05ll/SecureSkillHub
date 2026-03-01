@@ -1,0 +1,27 @@
+{
+  "id": "mcp-ruby-skeleton-6f6b03bb",
+  "name": "mcp-ruby-skeleton",
+  "description": "Experimental Ruby implementation of Model Context Protocol (MCP) - A starter server framework for trying out LLM integrations",
+  "repo_url": "https://github.com/bash0C7/mcp-ruby-skeleton",
+  "source_hub": "mcp_so",
+  "owner": "bash0C7",
+  "stars": 4,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp",
+    "integ"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "747e4ffe24a203b8a5fcf370fbe880eaea584ba1",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 2,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:54:02Z",
+  "verification_level": "scanner_only"
+}

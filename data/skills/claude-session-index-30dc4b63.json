@@ -1,0 +1,35 @@
+{
+  "id": "claude-session-index-30dc4b63",
+  "name": "claude-session-index",
+  "description": "Index, search, and analyze your Claude Code sessions. Full-text search, conversation retrieval, analytics, and cross-session synthesis.",
+  "repo_url": "https://github.com/lee-fuhr/claude-session-index",
+  "source_hub": "github_search",
+  "skill_type": "agent_skill",
+  "owner": "lee-fuhr",
+  "stars": 12,
+  "license": "mit",
+  "primary_language": "markdown",
+  "tags": [
+    "data",
+    "data-ai",
+    "data-ai-nlp",
+    "dev",
+    "util-search",
+    "repo_unavailable"
+  ],
+  "verification_status": "pass",
+  "overall_score": 83,
+  "risk_level": "low",
+  "verified_commit": null,
+  "scan_summary": null,
+  "last_updated": "2026-02-22T21:36:52Z",
+  "findings_summary": {
+    "notes": "Metadata-based verification. Score=83. Signals: stars=12 (>=10, +5); license='mit' (+5); owner='lee-fuhr' (+3); primary_language='markdown'; source_hub='github_search'. Status: pass. Risk: low."
+  },
+  "trust_level": "low",
+  "scan_date": "2026-02-26T06:14:56Z",
+  "repo_status": "unavailable",
+  "repo_check_date": "2026-02-28T20:51:28.644514+00:00",
+  "repo_check_error": "fatal: could not read Username for 'https://github.com': Device not configured",
+  "verification_level": "metadata_only"
+}

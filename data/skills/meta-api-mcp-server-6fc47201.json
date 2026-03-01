@@ -1,0 +1,27 @@
+{
+  "id": "meta-api-mcp-server-6fc47201",
+  "name": "meta-api-mcp-server",
+  "description": "A user-friendly editor tool has been developed to create or edit JSON configuration files:",
+  "repo_url": "https://github.com/savhascelik/meta-api-mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "savhascelik",
+  "stars": 12,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "util",
+    "util-file"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "75e50106a77940f0ce67b354de520cdfe1c775e8",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 9,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:42:36Z",
+  "verification_level": "scanner_only"
+}

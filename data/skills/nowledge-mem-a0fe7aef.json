@@ -1,0 +1,27 @@
+{
+  "id": "nowledge-mem-a0fe7aef",
+  "name": "nowledge-mem",
+  "description": "The graph augmented, smart and local-first Personal Context Manager, or Personal Agent Memory, just works.\r\n\r\nNowledge Mem ingests your agent’s summarized memories through its MCP tools or prompts, enabling you to enhance your memory and knowledge using a GraphRAG approach. By leveraging LLMs, embedding models, BM25, graph algorithms, and a built-in knowledge graph, Nowledge Mem makes building, searching, and exploring your personal knowledge easier than ever.",
+  "repo_url": "https://github.com/Nowledge Labs, LLC/nowledge-mem",
+  "source_hub": "mcp_so",
+  "owner": "Nowledge Labs, LLC",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp",
+    "data-db-vector",
+    "prod-notes",
+    "util",
+    "util-search",
+    "repo_unavailable"
+  ],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null,
+  "repo_status": "unavailable",
+  "repo_check_date": "2026-02-28T20:52:38.328246+00:00",
+  "repo_check_error": "fatal: unable to access 'https://github.com/Nowledge Labs, LLC/nowledge-mem/': URL rejected: Malformed input to a URL function"
+}

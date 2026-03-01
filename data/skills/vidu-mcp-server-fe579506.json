@@ -1,0 +1,26 @@
+{
+  "id": "vidu-mcp-server-fe579506",
+  "name": "vidu-mcp-server",
+  "description": "MCP server for Vidu video generation API",
+  "repo_url": "https://github.com/el-el-san/vidu-mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "el-el-san",
+  "stars": 3,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "util-media"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "c09e775acc2e395bb0132423feb2c1d554578ba4",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 6,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:04:51Z",
+  "verification_level": "scanner_only"
+}

@@ -1,0 +1,27 @@
+{
+  "id": "gcp-mcp-server-f64dec9e",
+  "name": "gcp-mcp-server",
+  "description": "A MCP server implementation for Google Cloud using Go and Cobra.",
+  "repo_url": "https://github.com/lreimer/gcp-mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "lreimer",
+  "stars": 4,
+  "primary_language": "unknown",
+  "tags": [
+    "dev-web-backend-go",
+    "integ-cloud",
+    "integ-cloud-gcp"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "d81c0d1cf88afc4bd4e6cf6f743ba4523abd4f48",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 2,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:54:04Z",
+  "verification_level": "scanner_only"
+}

@@ -1,0 +1,25 @@
+{
+  "id": "d365-agent-mcpserver-dotnet-4e5e6038",
+  "name": "d365-agent-mcpserver-dotnet",
+  "description": "MCP Server implementation for Dynamics 365 AI Agent (C#/.NET)",
+  "repo_url": "https://github.com/ntrtd/d365-agent-mcpserver-dotnet",
+  "source_hub": "mcp_so",
+  "owner": "ntrtd",
+  "stars": 2,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "15683f5fabca0a589e8ade35481d6c63dc7ea213",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 2,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:04:50Z",
+  "verification_level": "scanner_only"
+}

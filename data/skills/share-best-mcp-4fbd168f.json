@@ -1,0 +1,26 @@
+{
+  "id": "share-best-mcp-4fbd168f",
+  "name": "share-best-mcp",
+  "description": "世界上最好的MCP Servers的列表,The best mcp servers in the world.",
+  "repo_url": "https://github.com/shareAI-lab/share-best-mcp",
+  "source_hub": "mcp_so",
+  "owner": "shareAI-lab",
+  "stars": 110,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "32b18f341c46bcb15ef1905aa5723d370f71d8eb",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 9,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-27T06:40:44Z",
+  "verification_level": "scanner_only"
+}

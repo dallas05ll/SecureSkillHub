@@ -1,0 +1,27 @@
+{
+  "id": "mcp-hub-mcp-90c94727",
+  "name": "mcp-hub-mcp",
+  "description": "A hub server that connects to and manages other MCP (Model Context Protocol) servers.",
+  "repo_url": "https://github.com/warpdev/mcp-hub-mcp",
+  "source_hub": "mcp_so",
+  "owner": "warpdev",
+  "stars": 59,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp",
+    "integ"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "060838ad7034bd366873b04b7aa50ce676132ae8",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 10,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-27T06:40:44Z",
+  "verification_level": "scanner_only"
+}

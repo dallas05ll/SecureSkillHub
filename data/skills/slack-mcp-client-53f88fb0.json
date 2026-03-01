@@ -1,0 +1,29 @@
+{
+  "id": "slack-mcp-client-53f88fb0",
+  "name": "slack-mcp-client",
+  "description": "A Slack bot and MCP client acts as a bridge between Slack and Model Context Protocol (MCP) servers. Using Slack as the interface, it enables large language models (LLMs) to connect and interact with various MCP servers through standardized MCP tools.",
+  "repo_url": "https://github.com/tuannvm/slack-mcp-client",
+  "source_hub": "mcp_so",
+  "owner": "tuannvm",
+  "stars": 161,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp",
+    "integ",
+    "prod-comm",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "131233da19425664fd0a44d877835a4eb9b742dd",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 42,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-27T06:36:35Z",
+  "verification_level": "scanner_only"
+}

@@ -1,0 +1,27 @@
+{
+  "id": "mcp-browser-use-tools-cd1ed2d0",
+  "name": "mcp-browser-use-tools",
+  "description": "This package vendors a subset of [browser-use](",
+  "repo_url": "https://github.com/phact/mcp-browser-use-tools",
+  "source_hub": "mcp_so",
+  "owner": "phact",
+  "stars": 1,
+  "primary_language": "unknown",
+  "tags": [
+    "dev-web",
+    "util",
+    "util-search"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "b3cb3351199c075ee5b6a1f5121327dca694c3be",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 157,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:40Z",
+  "verification_level": "scanner_only"
+}

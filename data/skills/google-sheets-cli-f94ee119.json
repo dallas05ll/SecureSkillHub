@@ -1,0 +1,40 @@
+{
+  "id": "google-sheets-cli-f94ee119",
+  "name": "Google Sheets CLI",
+  "description": "Google Sheets CLI automation - composable CLI for humans and agents",
+  "repo_url": "https://github.com/gmickel/sheets-cli",
+  "source_hub": "claude_skills_hub",
+  "skill_type": "agent_skill",
+  "owner": "gmickel",
+  "stars": 41,
+  "forks": 4,
+  "license": "Unknown",
+  "primary_language": "markdown",
+  "tags": [
+    "prod"
+  ],
+  "source_tags": [
+    "automation",
+    "ai",
+    "cli",
+    "coding",
+    "google-sheets"
+  ],
+  "categories": [
+    "dev",
+    "productivity"
+  ],
+  "version": "1.0.0",
+  "requires_code_execution": false,
+  "verification_status": "pass",
+  "overall_score": 88,
+  "risk_level": "low",
+  "verified_commit": null,
+  "scan_summary": null,
+  "findings_summary": {
+    "notes": "Metadata-based verification. Score=88. Signals: stars=41 (>=10, +5); license='Unknown' (+5); owner='gmickel' (+3); primary_language='markdown'; source_hub='claude_skills_hub' (+5). Status: pass. Risk: low."
+  },
+  "trust_level": "medium",
+  "scan_date": "2026-02-26T06:14:56Z",
+  "verification_level": "metadata_only"
+}

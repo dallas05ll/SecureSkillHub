@@ -1,0 +1,28 @@
+{
+  "id": "mcp-github-pr-issue-analyser-5d842c95",
+  "name": "mcp-github-pr-issue-analyser",
+  "description": "A Model Context Protocol (MCP) application for automated GitHub PR analysis and issue management. Enables LLMs to fetch PR details, analyse diffs, manage issues, and handle releases through a standardised interface",
+  "repo_url": "https://github.com/saidsef/mcp-github-pr-issue-analyser",
+  "source_hub": "mcp_so",
+  "owner": "saidsef",
+  "stars": 5,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp",
+    "prod",
+    "util-search"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "428d0d1a472d75349276437c5d81d7a9cf0e88b4",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 10,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:54:02Z",
+  "verification_level": "scanner_only"
+}

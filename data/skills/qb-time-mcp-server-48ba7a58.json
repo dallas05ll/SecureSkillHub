@@ -1,0 +1,27 @@
+{
+  "id": "qb-time-mcp-server-48ba7a58",
+  "name": "qb-time-mcp-server",
+  "description": "A Message Control Protocol (MCP) server that provides unified access to QuickBooks Time API functionality. Developed with AI assistance.",
+  "repo_url": "https://github.com/aallsbury/qb-time-mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "aallsbury",
+  "stars": 10,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "integ",
+    "prod-comm"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "b1fa6a86f561e2278e036640081098764e5b8d77",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 28,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:42:34Z",
+  "verification_level": "scanner_only"
+}

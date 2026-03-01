@@ -1,0 +1,25 @@
+{
+  "id": "mvn-mcp-server-57799a8c",
+  "name": "mvn-mcp-server",
+  "description": "MCP Server to communicate with Maven Central Feed",
+  "repo_url": "https://github.com/danielscholl/mvn-mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "danielscholl",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "prod-comm"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "59bc768d61bf5553fd63fbd683571852b9ac94ee",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 90,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:40Z",
+  "verification_level": "scanner_only"
+}

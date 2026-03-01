@@ -1,0 +1,26 @@
+{
+  "id": "putio-mcp-server-d3c64e8b",
+  "name": "putio-mcp-server",
+  "description": "MCP server for interacting put.io",
+  "repo_url": "https://github.com/putdotio/putio-mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "putdotio",
+  "stars": 11,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "a84ff547996287887662fa7723306fe75695a376",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 3,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:42:36Z",
+  "verification_level": "scanner_only"
+}

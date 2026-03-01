@@ -1,0 +1,25 @@
+{
+  "id": "mcp-web-client-50efc8c1",
+  "name": "mcp-web-client",
+  "description": "A web client for managing MCP servers and tools",
+  "repo_url": "https://github.com/AVGenAI/mcp-web-client",
+  "source_hub": "mcp_so",
+  "owner": "AVGenAI",
+  "stars": 1,
+  "primary_language": "unknown",
+  "tags": [
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "1e45e7c07a88cd561b04436b04f8ae147d8a956e",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 13,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:41Z",
+  "verification_level": "scanner_only"
+}

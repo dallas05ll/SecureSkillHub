@@ -1,0 +1,26 @@
+{
+  "id": "mcp-email-client-337991d9",
+  "name": "mcp-email-client",
+  "description": "Email Client as MCP Server. Feature: multiple configuration, more than just gmail",
+  "repo_url": "https://github.com/gamalan/mcp-email-client",
+  "source_hub": "mcp_so",
+  "owner": "gamalan",
+  "stars": 16,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "prod-comm"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "51e431a777cbc10ec8aecd9507d28e330e1d3247",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 15,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:42:36Z",
+  "verification_level": "scanner_only"
+}

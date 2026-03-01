@@ -1,0 +1,28 @@
+{
+  "id": "mcp-file-navigator-ed8e93f3",
+  "name": "mcp-file-navigator",
+  "description": "A secure Model Context Protocol (MCP) server for file system operations. Enables AI assistants like Claude and Cursor to access, read, write, and manage files on your system with robust path validation and dynamic storage location management.",
+  "repo_url": "https://github.com/Priyonuj/mcp-file-navigator",
+  "source_hub": "mcp_so",
+  "owner": "Priyonuj",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp",
+    "util-file",
+    "util-map"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "c3420347f2dab99893cd3bedc28fbc39d033a9c1",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 13,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:42Z",
+  "verification_level": "scanner_only"
+}

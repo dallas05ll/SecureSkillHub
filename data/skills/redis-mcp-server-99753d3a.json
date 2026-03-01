@@ -1,0 +1,29 @@
+{
+  "id": "redis-mcp-server-99753d3a",
+  "name": "REDIS-MCP-Server",
+  "description": "A Redis Model Context Protocol (MCP) server implementation for interacting with Redis databases. This server enables LLMs to interact with Redis key-value stores through a set of standardized tools.",
+  "repo_url": "https://github.com/GongRzhe/REDIS-MCP-Server",
+  "source_hub": "mcp_so",
+  "owner": "GongRzhe",
+  "stars": 30,
+  "primary_language": "unknown",
+  "tags": [
+    "data",
+    "data-ai",
+    "data-ai-nlp",
+    "data-db",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "9af5fa9492102e800351d03c8c9e37089a13773b",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 8,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:32:11Z",
+  "verification_level": "scanner_only"
+}

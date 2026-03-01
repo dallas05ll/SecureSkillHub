@@ -1,0 +1,26 @@
+{
+  "id": "mcp-leetcode-crawler-fbe54b93",
+  "name": "mcp-leetcode-crawler",
+  "description": "mcp server for craw the interview questions in discussion",
+  "repo_url": "https://github.com/louisfghbvc/mcp-leetcode-crawler",
+  "source_hub": "mcp_so",
+  "owner": "louisfghbvc",
+  "stars": 4,
+  "primary_language": "unknown",
+  "tags": [
+    "dev",
+    "util-search"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "0db830a9c5e127fa64db32c369674513fce4022d",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 7,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:54:04Z",
+  "verification_level": "scanner_only"
+}

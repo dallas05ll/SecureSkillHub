@@ -1,0 +1,25 @@
+{
+  "id": "mcp-metal-price-9c7c3c4c",
+  "name": "mcp-metal-price",
+  "description": "An MCP server that provides current and historical gold/precious metal prices via the GoldAPI.io service.",
+  "repo_url": "https://github.com/isdaniel/mcp-metal-price",
+  "source_hub": "mcp_so",
+  "owner": "isdaniel",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "integ"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "a42b77709c3370fb3c4922930c70d276c23fc77e",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 7,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:41Z",
+  "verification_level": "scanner_only"
+}

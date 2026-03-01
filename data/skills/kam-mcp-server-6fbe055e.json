@@ -1,0 +1,26 @@
+{
+  "id": "kam-mcp-server-6fbe055e",
+  "name": "kam-mcp-server",
+  "description": "KAM MCP Server",
+  "repo_url": "https://github.com/Bamo-alt/kam-mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "Bamo-alt",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "30476005d3dbe05b1bafeab2e8fb7a28500b35f9",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 19,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:40Z",
+  "verification_level": "scanner_only"
+}

@@ -1,0 +1,26 @@
+{
+  "id": "mcp-server-eks-809f130c",
+  "name": "mcp-server-eks",
+  "description": "Demo eks mcp server",
+  "repo_url": "https://github.com/jbrcoleman/mcp-server-eks",
+  "source_hub": "mcp_so",
+  "owner": "jbrcoleman",
+  "stars": 1,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "dbbdbfa73b8601cdecb9529d63b596e10a90382b",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 21,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:41Z",
+  "verification_level": "scanner_only"
+}

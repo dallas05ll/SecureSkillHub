@@ -1,0 +1,28 @@
+{
+  "id": "google-chat-mcp-server-b4a1ada2",
+  "name": "Google_chat_mcp_server",
+  "description": "This is G_chat Mcp server written in Ts contain various tools fetch to post.",
+  "repo_url": "https://github.com/KaranThink41/Google_chat_mcp_server",
+  "source_hub": "mcp_so",
+  "owner": "KaranThink41",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "prod-comm",
+    "util",
+    "util-search"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "c339ebb412c1078dbf6505a66b36e6ae3f97fb97",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 7,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:40Z",
+  "verification_level": "scanner_only"
+}

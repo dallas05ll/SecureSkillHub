@@ -1,0 +1,26 @@
+{
+  "id": "google-adk-elevenlabs-mcp-4642e8ab",
+  "name": "google-adk-elevenlabs-mcp",
+  "description": "Quick example of building a speaker agent with Google ADK and ElevenLabs' MCP server",
+  "repo_url": "https://github.com/reymerekar7/google-adk-elevenlabs-mcp",
+  "source_hub": "mcp_so",
+  "owner": "reymerekar7",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "aa4e6ef0ac57218b01f508facd4d1abe2301aa4e",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 4,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:40Z",
+  "verification_level": "scanner_only"
+}

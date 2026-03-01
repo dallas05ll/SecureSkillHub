@@ -1,0 +1,27 @@
+{
+  "id": "express-mcp-server-text-extractor-24a88bed",
+  "name": "express-mcp-server-text-extractor",
+  "description": "An MCP server providing tools to extract text from things",
+  "repo_url": "https://github.com/jhgaylor/express-mcp-server-text-extractor",
+  "source_hub": "mcp_so",
+  "owner": "jhgaylor",
+  "stars": 1,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai-nlp",
+    "dev-web-backend-node",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "9a49dacca7b305a828cdfc88729368d38ce3e297",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 8,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:42Z",
+  "verification_level": "scanner_only"
+}

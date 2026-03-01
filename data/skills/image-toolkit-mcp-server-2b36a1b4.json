@@ -1,0 +1,27 @@
+{
+  "id": "image-toolkit-mcp-server-2b36a1b4",
+  "name": "Image-Toolkit-MCP-Server",
+  "description": "Use AI to edit image (AI P图)",
+  "repo_url": "https://github.com/Kira-Pgr/Image-Toolkit-MCP-Server",
+  "source_hub": "mcp_so",
+  "owner": "Kira-Pgr",
+  "stars": 18,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-vision",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "5bc0cd17358e19a5415d11a531088170d7b81452",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 5,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:42:34Z",
+  "verification_level": "scanner_only"
+}

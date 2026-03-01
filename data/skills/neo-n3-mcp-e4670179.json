@@ -1,0 +1,26 @@
+{
+  "id": "neo-n3-mcp-e4670179",
+  "name": "neo-n3-mcp",
+  "description": "An MCP server for interacting with the Neo N3 blockchain.",
+  "repo_url": "https://github.com/r3e-network/neo-n3-mcp",
+  "source_hub": "mcp_so",
+  "owner": "r3e-network",
+  "stars": 4,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "sec-crypto"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "bc146cd61ba2e15c79008f0c8e701c6a0d36e613",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 69,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:54:04Z",
+  "verification_level": "scanner_only"
+}

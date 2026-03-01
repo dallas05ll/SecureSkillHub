@@ -1,0 +1,26 @@
+{
+  "id": "mcp-elevenlab-scribe-asr-11260195",
+  "name": "MCP-Elevenlab-Scribe-ASR",
+  "description": "Model Control Protocol (MCP) server for ElevenLabs Scribe ASR API",
+  "repo_url": "https://github.com/aromanstatue/MCP-Elevenlab-Scribe-ASR",
+  "source_hub": "mcp_so",
+  "owner": "aromanstatue",
+  "stars": 3,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "integ"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "044e8b9a27aa1a41f1f384cfd6f3cb1595b6e433",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 10,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:04:50Z",
+  "verification_level": "scanner_only"
+}

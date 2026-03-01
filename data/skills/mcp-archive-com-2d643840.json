@@ -1,0 +1,26 @@
+{
+  "id": "mcp-archive-com-2d643840",
+  "name": "MCP-Archive.com",
+  "description": "Moderated collection of MCP servers",
+  "repo_url": "https://github.com/VladonSD/MCP-Archive.com",
+  "source_hub": "mcp_so",
+  "owner": "VladonSD",
+  "stars": 1,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "9cb79ce9bfccac25ff369454b33ff235194f9f42",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 1,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:42Z",
+  "verification_level": "scanner_only"
+}

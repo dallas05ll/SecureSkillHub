@@ -1,0 +1,29 @@
+{
+  "id": "leetcode-mcp-server-a271a223",
+  "name": "leetcode-mcp-server",
+  "description": "An MCP server enabling automated access to LeetCode's problems, solutions, and public data with optional authentication for user-specific features, supporting leetcode.com & leetcode.cn sites.",
+  "repo_url": "https://github.com/jinzcdev/leetcode-mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "jinzcdev",
+  "stars": 93,
+  "primary_language": "unknown",
+  "tags": [
+    "data",
+    "dev",
+    "prod",
+    "sec",
+    "sec-auth"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "e5f27259542f95bc26abd5c881234aeeae4853d6",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 35,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-27T06:40:43Z",
+  "verification_level": "scanner_only"
+}

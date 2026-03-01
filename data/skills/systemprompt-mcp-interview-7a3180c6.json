@@ -1,0 +1,26 @@
+{
+  "id": "systemprompt-mcp-interview-7a3180c6",
+  "name": "systemprompt-mcp-interview",
+  "description": "A specialized Model Context Protocol (MCP) server that enables AI-powered interview roleplay scenarios",
+  "repo_url": "https://github.com/Ejb503/systemprompt-mcp-interview",
+  "source_hub": "mcp_so",
+  "owner": "Ejb503",
+  "stars": 5,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "6c4c3a3580910d04ebbafde155b0b8efac259665",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 69,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:54:04Z",
+  "verification_level": "scanner_only"
+}

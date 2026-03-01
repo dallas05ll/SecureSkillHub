@@ -1,0 +1,25 @@
+{
+  "id": "nysse-mcp-server-c4b0e87c",
+  "name": "nysse-mcp-server",
+  "description": "Nysse bus tracking MCP server for LLM AI agents",
+  "repo_url": "https://github.com/tlaukkanen/nysse-mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "tlaukkanen",
+  "stars": 1,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "13cf8ff703bbdebc7cf255e7f8f930f465eda8f0",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 12,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:40Z",
+  "verification_level": "scanner_only"
+}

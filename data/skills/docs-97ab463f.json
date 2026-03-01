@@ -1,0 +1,27 @@
+{
+  "id": "docs-97ab463f",
+  "name": "docs",
+  "description": "使用 Hexo 架設簡單的分享技術文件並發佈到\"cloudflare\"，包含介紹文章: \"全面瞭解 n8n v1.88.0 的重磅更新 —— MCP Server\"、\"教會你用 Google AI Studio 提早結束工作回家\"、\"C# 設計模式學習筆記與程式碼範例\"、\"JavaScript 設計模式學習筆記與程式碼範例\"、\"Functional Design Pattern 是一個結合函數式程式設計和設計模式的概念\"",
+  "repo_url": "https://github.com/chiisen/docs",
+  "source_hub": "mcp_so",
+  "owner": "chiisen",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "integ-cloud",
+    "prod-docs"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "b3badc98b9ab4fd6c50501c4f51665a2ab90f33e",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 123,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:41Z",
+  "verification_level": "scanner_only"
+}

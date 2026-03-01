@@ -1,0 +1,27 @@
+{
+  "id": "mcp-server-aibd-devcontainer-7c21cc72",
+  "name": "mcp-server-aibd-devcontainer",
+  "description": "MCP server for AI-boosted development in VS Code DevContainers.",
+  "repo_url": "https://github.com/gergelyszerovay/mcp-server-aibd-devcontainer",
+  "source_hub": "mcp_so",
+  "owner": "gergelyszerovay",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "dev",
+    "dev-devops-docker"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "5b30cbec34b32df8845813cbb3a2671a46ea17b0",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 94,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:42Z",
+  "verification_level": "scanner_only"
+}

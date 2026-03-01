@@ -1,0 +1,25 @@
+{
+  "id": "tinypng-mcp-server-1047302f",
+  "name": "tinypng-mcp-server",
+  "description": "🧙🏻 Integrated TinyPNG MCP server, quickly use TinyPNG through LLMs.",
+  "repo_url": "https://github.com/aiyogg/tinypng-mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "aiyogg",
+  "stars": 4,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "61f65fc2c3fb0fa65b8e7e40ea152772ebdf296d",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 13,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:04:50Z",
+  "verification_level": "scanner_only"
+}

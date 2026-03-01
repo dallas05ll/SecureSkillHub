@@ -1,0 +1,29 @@
+{
+  "id": "pymcp-fs-05f077db",
+  "name": "PyMCP-FS",
+  "description": "This is a robust Python-based MCP Filesystem Server. It enables AI models and applications to securely interact with the host system's file directories through a defined set of tools, allowing for operations like reading, writing, moving, and listing files and directories.",
+  "repo_url": "https://github.com/hypercat/PyMCP-FS",
+  "source_hub": "mcp_so",
+  "owner": "hypercat",
+  "stars": 1,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "dev-web-backend-python",
+    "sec-crypto",
+    "util",
+    "util-file"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "ea6dc9ae64cd5034cf37463d62e0ee2cfd7a5603",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 5,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:41Z",
+  "verification_level": "scanner_only"
+}

@@ -1,0 +1,25 @@
+{
+  "id": "mcp-server-emojikey-b73850d5",
+  "name": "mcp-server-emojikey",
+  "description": "MCP Server for emojikey.io ... save your unique relationship state and interaction style with your favorite LLM",
+  "repo_url": "https://github.com/identimoji/mcp-server-emojikey",
+  "source_hub": "mcp_so",
+  "owner": "identimoji",
+  "stars": 4,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "948a696aecd3444841a09089b335f9339ab0dd3f",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 47,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:54:02Z",
+  "verification_level": "scanner_only"
+}

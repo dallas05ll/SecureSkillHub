@@ -1,0 +1,23 @@
+{
+  "id": "ip2location-io-33d8d10b",
+  "name": "ip2location-io",
+  "description": "IP Geolocation MCP server that query the geolocation information using IP2Location.io API. User can query for 1,000 per day without an API key, or 50,000 per month with a free API key.",
+  "repo_url": "https://github.com/ip2location/ip2location-io",
+  "source_hub": "mcp_so",
+  "owner": "ip2location",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "util-map",
+    "repo_unavailable"
+  ],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null,
+  "repo_status": "unavailable",
+  "repo_check_date": "2026-02-28T20:51:52.255970+00:00",
+  "repo_check_error": "fatal: could not read Username for 'https://github.com': Device not configured"
+}

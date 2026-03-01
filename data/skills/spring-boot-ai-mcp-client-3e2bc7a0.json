@@ -1,0 +1,26 @@
+{
+  "id": "spring-boot-ai-mcp-client-3e2bc7a0",
+  "name": "spring-boot-ai-mcp-client",
+  "description": "A Spring Boot application for interacting with MCP servers using Spring AI Chat Client and Rest Controller",
+  "repo_url": "https://github.com/BootcampToProd/spring-boot-ai-mcp-client",
+  "source_hub": "mcp_so",
+  "owner": "BootcampToProd",
+  "stars": 1,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "prod-comm"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "d0503f78035dc92db113f35cb82b1da18a12361a",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 2,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:40Z",
+  "verification_level": "scanner_only"
+}

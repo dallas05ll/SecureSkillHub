@@ -1,0 +1,26 @@
+{
+  "id": "basic-sentiment-mcp-server-ac8a039a",
+  "name": "basic-sentiment-mcp-server",
+  "description": "A basic server using the Model Context Protocol, around text sentiment",
+  "repo_url": "https://github.com/pdulapalli/basic-sentiment-mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "pdulapalli",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "eaaeee6fc31f9eef314f1babba2129a969a2dc60",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 3,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:40Z",
+  "verification_level": "scanner_only"
+}

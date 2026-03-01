@@ -1,0 +1,27 @@
+{
+  "id": "easy-mcp-use-72872146",
+  "name": "easy-mcp-use",
+  "description": "Easy-MCP-Use is the open source TypeScript library to connect any LLM to any MCP server and build custom agents that have tool access, without using closed source or application clients.",
+  "repo_url": "https://github.com/dforel/easy-mcp-use",
+  "source_hub": "mcp_so",
+  "owner": "dforel",
+  "stars": 13,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "b2a7a51215b39dbfab9d06485af91c4eb8ee7ac3",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 32,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:42:34Z",
+  "verification_level": "scanner_only"
+}

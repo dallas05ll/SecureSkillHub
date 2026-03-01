@@ -1,0 +1,26 @@
+{
+  "id": "emcp-7d3dce8d",
+  "name": "emcp",
+  "description": "A framework for building simple MCP servers with custom middleware",
+  "repo_url": "https://github.com/joeymeere/emcp",
+  "source_hub": "mcp_so",
+  "owner": "joeymeere",
+  "stars": 11,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "66e93cf6b1f223053d26435905148e92c1d1a050",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 10,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:42:34Z",
+  "verification_level": "scanner_only"
+}

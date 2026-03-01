@@ -1,0 +1,28 @@
+{
+  "id": "mcp-server-database-jdbc-fcc8ec3a",
+  "name": "mcp-server-database-jdbc",
+  "description": "A MCP (model context protocol) server that gives the LLM access to and knowledge about databases",
+  "repo_url": "https://github.com/delei/mcp-server-database-jdbc",
+  "source_hub": "mcp_so",
+  "owner": "delei",
+  "stars": 2,
+  "primary_language": "unknown",
+  "tags": [
+    "data",
+    "data-ai",
+    "data-ai-nlp",
+    "data-db"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "4b386f050609ba217ce0770df8495784422e85f0",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 2,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:04:50Z",
+  "verification_level": "scanner_only"
+}

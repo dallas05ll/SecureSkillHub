@@ -1,0 +1,25 @@
+{
+  "id": "mcp-pdf-extraction-server-843fa71a",
+  "name": "mcp-pdf-extraction-server",
+  "description": "MCP server to extract contents from a PDF file",
+  "repo_url": "https://github.com/xraywu/mcp-pdf-extraction-server",
+  "source_hub": "mcp_so",
+  "owner": "xraywu",
+  "stars": 28,
+  "primary_language": "unknown",
+  "tags": [
+    "util-file"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "3c7736c76c6005a08baa9fc9c39c47686d2fc5ff",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 6,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:32:11Z",
+  "verification_level": "scanner_only"
+}

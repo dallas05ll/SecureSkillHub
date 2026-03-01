@@ -1,0 +1,29 @@
+{
+  "id": "ts-def-mcp-34e4ea6d",
+  "name": "ts-def-mcp",
+  "description": "A Model Context Protocol (MCP) server that helps AI code editors find TypeScript symbol definitions in your codebase.",
+  "repo_url": "https://github.com/runninghare/ts-def-mcp",
+  "source_hub": "mcp_so",
+  "owner": "runninghare",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp",
+    "dev",
+    "sec-crypto",
+    "util-search"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "74c2c2d2020b69d7531614dd48f3bdc565ac4958",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 6,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:43:00Z",
+  "verification_level": "scanner_only"
+}

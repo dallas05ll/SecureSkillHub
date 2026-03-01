@@ -1,0 +1,29 @@
+{
+  "id": "mcp-gitee-ent-2d9bdb01",
+  "name": "mcp-gitee-ent",
+  "description": "mcp-gitee-ent is the Model Context Protocol (MCP) server implementation for Gitee Enterprise. It provides a set of tools that interact with the Gitee Enterprise API, allowing AI assistants to manage repositories, issues, pull requests, etc.",
+  "repo_url": "https://github.com/oschina/mcp-gitee-ent",
+  "source_hub": "mcp_so",
+  "owner": "oschina",
+  "stars": 1,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp",
+    "dev-git",
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "cefcffe839ec3902728ad20e50db087859100f22",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 18,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:40Z",
+  "verification_level": "scanner_only"
+}

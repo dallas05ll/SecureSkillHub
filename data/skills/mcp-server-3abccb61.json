@@ -1,0 +1,26 @@
+{
+  "id": "mcp-server-3abccb61",
+  "name": "mcp-server",
+  "description": "D-Zero frontend coding MCP server",
+  "repo_url": "https://github.com/d-zero-dev/mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "d-zero-dev",
+  "stars": 12,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "57bad2ea498fd720d12079579b22e3ed7a715a54",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 33,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:42:34Z",
+  "verification_level": "scanner_only"
+}

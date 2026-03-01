@@ -1,0 +1,25 @@
+{
+  "id": "obsidian-mcp-c2fc82b6",
+  "name": "obsidian-mcp",
+  "description": "A simple MCP server for Obsidian",
+  "repo_url": "https://github.com/StevenStavrakis/obsidian-mcp",
+  "source_hub": "mcp_so",
+  "owner": "StevenStavrakis",
+  "stars": 640,
+  "primary_language": "unknown",
+  "tags": [
+    "prod-docs"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 37,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-27T02:28:45Z",
+  "verification_level": "scanner_only"
+}

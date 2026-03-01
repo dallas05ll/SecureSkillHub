@@ -1,0 +1,30 @@
+{
+  "id": "k-lean-c3a97e56",
+  "name": "K-LEAN",
+  "description": "Cross-platform toolkit to enhance Claude Code with multi-LLM consensus, 8 specialist agents, semantic knowledge search, and one-command install.",
+  "repo_url": "https://github.com/calinfaja/K-LEAN",
+  "source_hub": "github_search",
+  "skill_type": "agent_skill",
+  "owner": "calinfaja",
+  "stars": 29,
+  "license": "apache-2.0",
+  "primary_language": "markdown",
+  "tags": [
+    "data-ai",
+    "dev",
+    "util",
+    "util-search"
+  ],
+  "verification_status": "pass",
+  "overall_score": 83,
+  "risk_level": "low",
+  "verified_commit": null,
+  "scan_summary": null,
+  "last_updated": "2026-02-16T09:37:15Z",
+  "findings_summary": {
+    "notes": "Metadata-based verification. Score=83. Signals: stars=29 (>=10, +5); license='apache-2.0' (+5); owner='calinfaja' (+3); primary_language='markdown'; source_hub='github_search'. Status: pass. Risk: low."
+  },
+  "trust_level": "low",
+  "scan_date": "2026-02-26T06:14:56Z",
+  "verification_level": "metadata_only"
+}

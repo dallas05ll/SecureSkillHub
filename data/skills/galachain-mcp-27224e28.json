@@ -1,0 +1,25 @@
+{
+  "id": "galachain-mcp-27224e28",
+  "name": "galachain-mcp",
+  "description": "Galachain MCP server for use with LLMs",
+  "repo_url": "https://github.com/IndiaJonathan/galachain-mcp",
+  "source_hub": "mcp_so",
+  "owner": "IndiaJonathan",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "faad42dead96509faa06baa57e9cfbadeb5dbb19",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 6,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:40Z",
+  "verification_level": "scanner_only"
+}

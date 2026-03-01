@@ -1,0 +1,29 @@
+{
+  "id": "mcp-qdrant-docs-97dc9735",
+  "name": "mcp-qdrant-docs",
+  "description": "An MCP server that scrapes websites, indexes content into Qdrant, and provides a query tool.",
+  "repo_url": "https://github.com/kazuph/mcp-qdrant-docs",
+  "source_hub": "mcp_so",
+  "owner": "kazuph",
+  "stars": 1,
+  "primary_language": "unknown",
+  "tags": [
+    "data-db-vector",
+    "dev-web",
+    "prod-docs",
+    "util",
+    "util-search"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "fb5d464e2035219ff54f6f34978b5787d6ddf676",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 5,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:41Z",
+  "verification_level": "scanner_only"
+}

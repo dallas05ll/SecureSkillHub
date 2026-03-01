@@ -1,0 +1,29 @@
+{
+  "id": "adversarial-spec-1f156691",
+  "name": "adversarial-spec",
+  "description": "A Claude Code plugin that iteratively refines product specifications by debating between multiple LLMs (GPT, Gemini, Grok, etc.) until all models reach consensus. Claude acts as an active participant, not just an orchestrator.",
+  "repo_url": "https://github.com/zscole/adversarial-spec",
+  "source_hub": "github_search",
+  "skill_type": "agent_skill",
+  "owner": "zscole",
+  "stars": 497,
+  "forks": 41,
+  "license": "mit",
+  "primary_language": "python",
+  "tags": [
+    "data-ai",
+    "dev"
+  ],
+  "verification_status": "pass",
+  "overall_score": 82,
+  "risk_level": "low",
+  "verified_commit": null,
+  "scan_summary": null,
+  "last_updated": "2026-02-25T23:10:02Z",
+  "findings_summary": {
+    "notes": "Well-structured agent skill with a clear SKILL.md, proper plugin manifest, comprehensive Python scripts for multi-LLM debate orchestration, and a full test suite. The skill uses 'litellm' for API routing to external LLM providers (OpenAI, Anthropic, Google, xAI, Mistral, Groq, Deepseek, etc.) and supports AWS Bedrock and CLI tools. Allowed tools are explicitly scoped (Bash, Read, Write, AskUserQuestion). Scripts are well-commented with no obfuscation. Requires external API keys (OPENAI_API_KEY, GEMINI_API_KEY, etc.) which is expected and documented. A telegram_bot.py is present but appears to be an optional notification feature. Pre-commit config and CI pipeline present. No dangerous patterns (no exfiltration, no shell injections, no hardcoded credentials). Minor concern: the skill runs arbitrary Python subprocess calls via litellm to external APIs, but this is the intended use case and transparently documented."
+  },
+  "trust_level": "low",
+  "scan_date": "2026-02-26T01:22:52Z",
+  "verification_level": "scanner_only"
+}

@@ -1,0 +1,27 @@
+{
+  "id": "vibe-check-mcp-1469058d",
+  "name": "vibe-check-mcp",
+  "description": "Stop AI coding disasters before they cost you weeks. Real-time anti-pattern detection for vibe coders who love AI tools but need a safety net to avoid expensive overengineering traps.",
+  "repo_url": "https://github.com/kesslerio/vibe-check-mcp",
+  "source_hub": "mcp_so",
+  "owner": "kesslerio",
+  "stars": 20,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "dev",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "c98bc09bb54ca68a3bd6535558e28d822d51e59d",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 350,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:42:34Z",
+  "verification_level": "scanner_only"
+}

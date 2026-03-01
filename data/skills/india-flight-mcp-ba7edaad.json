@@ -1,0 +1,26 @@
+{
+  "id": "india-flight-mcp-ba7edaad",
+  "name": "india-flight-mcp",
+  "description": "MCP server to find the cheapest air fare",
+  "repo_url": "https://github.com/ravi-bytes/india-flight-mcp",
+  "source_hub": "mcp_so",
+  "owner": "ravi-bytes",
+  "stars": 1,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "util-search"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "d5bae63a23787620990a87f7e592cdb4aed41786",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 14,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:42Z",
+  "verification_level": "scanner_only"
+}

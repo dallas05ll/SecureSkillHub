@@ -1,0 +1,26 @@
+{
+  "id": "uncover-mcp-b5e69d1f",
+  "name": "uncover-mcp",
+  "description": "uncover mcp server",
+  "repo_url": "https://github.com/Co5mos/uncover-mcp",
+  "source_hub": "mcp_so",
+  "owner": "Co5mos",
+  "stars": 14,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "bc16bbf1cf2d8d510e129be6a43a3708d7824862",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 3,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:42:34Z",
+  "verification_level": "scanner_only"
+}

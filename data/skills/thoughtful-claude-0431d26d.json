@@ -1,0 +1,25 @@
+{
+  "id": "thoughtful-claude-0431d26d",
+  "name": "thoughtful-claude",
+  "description": "MCP server that enhances Claude's reasoning capabilities by integrating DeepSeek R1's advanced reasoning engine 🤔",
+  "repo_url": "https://github.com/martinbowling/thoughtful-claude",
+  "source_hub": "mcp_so",
+  "owner": "martinbowling",
+  "stars": 56,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "501f23ee4dace81446508fdfd89ba04130adf870",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 2,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-27T06:40:44Z",
+  "verification_level": "scanner_only"
+}

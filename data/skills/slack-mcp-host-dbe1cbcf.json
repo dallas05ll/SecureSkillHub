@@ -1,0 +1,25 @@
+{
+  "id": "slack-mcp-host-dbe1cbcf",
+  "name": "slack-mcp-host",
+  "description": "MCP Host Server Application for Slack",
+  "repo_url": "https://github.com/jexp/slack-mcp-host",
+  "source_hub": "mcp_so",
+  "owner": "jexp",
+  "stars": 5,
+  "primary_language": "unknown",
+  "tags": [
+    "prod-comm"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "57f4edf727288e1cec88d3ff21b3c051e19ace79",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 9,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:54:02Z",
+  "verification_level": "scanner_only"
+}

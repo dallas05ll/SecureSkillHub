@@ -1,0 +1,25 @@
+{
+  "id": "openml-mcp-server-cb7af623",
+  "name": "openml-mcp-server",
+  "description": "An MCP server to interact with OpenML",
+  "repo_url": "https://github.com/mallochio/openml-mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "mallochio",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "25efb6933885529ef8194be72e03a289b509bdda",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 8,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:42Z",
+  "verification_level": "scanner_only"
+}

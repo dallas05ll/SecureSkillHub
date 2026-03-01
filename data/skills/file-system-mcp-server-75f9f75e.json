@@ -1,0 +1,27 @@
+{
+  "id": "file-system-mcp-server-75f9f75e",
+  "name": "file-system-mcp-server",
+  "description": "A comprehensive MCP (Model Context Protocol) server for file system operations, providing Claude and other AI assistants with access to local files and directories.",
+  "repo_url": "https://github.com/calebmwelsh/file-system-mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "calebmwelsh",
+  "stars": 2,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp",
+    "util-file"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "767dca2085f8c8a5aa327e818cf378682dd13f07",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 6,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:04:50Z",
+  "verification_level": "scanner_only"
+}

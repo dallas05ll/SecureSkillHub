@@ -1,0 +1,26 @@
+{
+  "id": "mcp-servers-95e4bcd9",
+  "name": "mcp-servers",
+  "description": "Mcp server örnekleri",
+  "repo_url": "https://github.com/HakanUcaar/mcp-servers",
+  "source_hub": "mcp_so",
+  "owner": "HakanUcaar",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "928fc9e048b0239cb54bc2fb48649f510dce2797",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 22,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:41Z",
+  "verification_level": "scanner_only"
+}

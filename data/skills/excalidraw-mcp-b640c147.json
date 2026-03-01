@@ -1,0 +1,26 @@
+{
+  "id": "excalidraw-mcp-b640c147",
+  "name": "excalidraw-mcp",
+  "description": "Model Context Protocol (MCP) server for Excalidraw - Work in Progress",
+  "repo_url": "https://github.com/i-tozer/excalidraw-mcp",
+  "source_hub": "mcp_so",
+  "owner": "i-tozer",
+  "stars": 45,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "18b2014bc2d674add5f34482a95eaa7189048df5",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 11,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:32:11Z",
+  "verification_level": "scanner_only"
+}

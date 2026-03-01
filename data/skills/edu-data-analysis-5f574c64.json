@@ -1,0 +1,25 @@
+{
+  "id": "edu-data-analysis-5f574c64",
+  "name": "edu-data-analysis",
+  "description": "demo of how to use edu data via mcp server",
+  "repo_url": "https://github.com/ckz/edu-data-analysis",
+  "source_hub": "mcp_so",
+  "owner": "ckz",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "data"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "4ee583be463f6c6245aa3f1e1ba99cbcb4da473b",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 1,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:41Z",
+  "verification_level": "scanner_only"
+}

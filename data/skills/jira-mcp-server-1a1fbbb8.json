@@ -1,0 +1,26 @@
+{
+  "id": "jira-mcp-server-1a1fbbb8",
+  "name": "jira-mcp-server",
+  "description": "An MCP server compatible with Jira V2 and V3 api and custom fields",
+  "repo_url": "https://github.com/fkesheh/jira-mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "fkesheh",
+  "stars": 4,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "prod-pm"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "32c772c0d4b3dc9ea4e88982cfefa95d41d103b6",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 7,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:54:02Z",
+  "verification_level": "scanner_only"
+}

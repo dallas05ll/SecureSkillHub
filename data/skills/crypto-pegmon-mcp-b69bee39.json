@@ -1,0 +1,26 @@
+{
+  "id": "crypto-pegmon-mcp-b69bee39",
+  "name": "crypto-pegmon-mcp",
+  "description": "An MCP server that tracks stablecoin peg integrity across multiple blockchains.",
+  "repo_url": "https://github.com/kukapay/crypto-pegmon-mcp",
+  "source_hub": "mcp_so",
+  "owner": "kukapay",
+  "stars": 4,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "sec-crypto"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "4617619f7fcde447c88636bc4fc637fbb352fad1",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 3,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:54:04Z",
+  "verification_level": "scanner_only"
+}

@@ -1,0 +1,26 @@
+{
+  "id": "mcp-interactive-7e1e2e74",
+  "name": "mcp-interactive",
+  "description": "This MCP server enhances LLM coordination, offering greater control and predictability, and significantly reduces billable requests by minimizing user interactions within a single task.",
+  "repo_url": "https://github.com/ivan-mezentsev/mcp-interactive",
+  "source_hub": "mcp_so",
+  "owner": "ivan-mezentsev",
+  "stars": 3,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "prod-pm"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "d9eb83c305faf744c04d085c33508a173276e322",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 12,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:04:51Z",
+  "verification_level": "scanner_only"
+}

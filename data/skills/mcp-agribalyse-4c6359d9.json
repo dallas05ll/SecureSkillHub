@@ -1,0 +1,25 @@
+{
+  "id": "mcp-agribalyse-4c6359d9",
+  "name": "mcp_agribalyse",
+  "description": "MCP Server of Agribalyse API",
+  "repo_url": "https://github.com/tracy040401/mcp_agribalyse",
+  "source_hub": "mcp_so",
+  "owner": "tracy040401",
+  "stars": 2,
+  "primary_language": "unknown",
+  "tags": [
+    "integ"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "343da5780887e0963fa72c50485e60658489dd11",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 7,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:04:51Z",
+  "verification_level": "scanner_only"
+}

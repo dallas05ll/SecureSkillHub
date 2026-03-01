@@ -1,0 +1,26 @@
+{
+  "id": "mcp-jdbc-server-e80dffbd",
+  "name": "mcp-jdbc-server",
+  "description": "Java based Model Context Procotol (MCP) Server for JDBC",
+  "repo_url": "https://github.com/OpenLinkSoftware/mcp-jdbc-server",
+  "source_hub": "mcp_so",
+  "owner": "OpenLinkSoftware",
+  "stars": 11,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "3df8fa15bf3f8c9d8caa3b27cc17c32ebb6f6e3a",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 1,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:42:34Z",
+  "verification_level": "scanner_only"
+}

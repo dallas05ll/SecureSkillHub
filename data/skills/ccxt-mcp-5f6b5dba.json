@@ -1,0 +1,29 @@
+{
+  "id": "ccxt-mcp-5f6b5dba",
+  "name": "ccxt-mcp",
+  "description": "CCXT MCP Server bridges the gap between AI models and cryptocurrency trading by providing a standardized interface through the Model Context Protocol. Created to empower automated trading strategies, this tool allows AI assistants like Claude and GPT to directly interact with over 100 cryptocurrency exchanges without requiring users to write comple",
+  "repo_url": "https://github.com/Obinox04/ccxt-mcp",
+  "source_hub": "mcp_so",
+  "owner": "Obinox04",
+  "stars": 3,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp",
+    "prod",
+    "sec-crypto",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "d8cb6cde99ee237e05f90a540884c3c797fda5ab",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 17,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:04:50Z",
+  "verification_level": "scanner_only"
+}

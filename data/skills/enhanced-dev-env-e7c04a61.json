@@ -1,0 +1,26 @@
+{
+  "id": "enhanced-dev-env-e7c04a61",
+  "name": "enhanced-dev-env",
+  "description": "Enhanced development environment with MCP servers, UV package manager, and Open Interpreter",
+  "repo_url": "https://github.com/danmarauda/enhanced-dev-env",
+  "source_hub": "mcp_so",
+  "owner": "danmarauda",
+  "stars": 4,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "931a351bba9035d5cdfccbc5ee12f4c321555760",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 15,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:54:02Z",
+  "verification_level": "scanner_only"
+}

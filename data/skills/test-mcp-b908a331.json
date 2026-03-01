@@ -1,0 +1,26 @@
+{
+  "id": "test-mcp-b908a331",
+  "name": "test-mcp",
+  "description": "test mcp servers and tokens used",
+  "repo_url": "https://github.com/287852793/test-mcp",
+  "source_hub": "mcp_so",
+  "owner": "287852793",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "dev-testing",
+    "sec-crypto"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "f4974b84d8053eb8b6ff25696ef3d79bfe6081d9",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 2,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:42:59Z",
+  "verification_level": "scanner_only"
+}

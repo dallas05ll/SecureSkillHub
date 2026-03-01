@@ -1,0 +1,25 @@
+{
+  "id": "todoist-mcp-server-ex-21689321",
+  "name": "todoist-mcp-server-ex",
+  "description": "MCP server implementation for Todoist in Elixir",
+  "repo_url": "https://github.com/croesnick/todoist-mcp-server-ex",
+  "source_hub": "mcp_so",
+  "owner": "croesnick",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "prod-pm"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "f8bc2232f9cafeb1ed52a315949c701c1c236b15",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 2,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:42:59Z",
+  "verification_level": "scanner_only"
+}

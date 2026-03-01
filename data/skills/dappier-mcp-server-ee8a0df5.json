@@ -1,0 +1,29 @@
+{
+  "id": "dappier-mcp-server-ee8a0df5",
+  "name": "Dappier MCP Server",
+  "description": "Connects LLMs and Agentic AIs to real-time, rights-cleared data from trusted sources, providing access to specialized models including web search, news, sports, and financial data.",
+  "repo_url": "https://github.com/DappierAI/dappier-mcp",
+  "source_hub": "glama",
+  "owner": "DappierAI",
+  "stars": 39,
+  "primary_language": "unknown",
+  "tags": [
+    "data",
+    "data-ai",
+    "dev-web-backend-rust",
+    "integ",
+    "util-search"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 6,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-25T14:26:46Z",
+  "verification_level": "scanner_only"
+}

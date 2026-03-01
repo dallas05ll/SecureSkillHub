@@ -1,0 +1,25 @@
+{
+  "id": "kodit-261cd4f4",
+  "name": "kodit",
+  "description": "MCP server to index external repositories",
+  "repo_url": "https://github.com/helixml/kodit",
+  "source_hub": "mcp_so",
+  "owner": "helixml",
+  "stars": 115,
+  "primary_language": "unknown",
+  "tags": [
+    "util-search"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "f797fa05c007fac705deee174aae50218788b1d9",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 72,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-27T06:40:43Z",
+  "verification_level": "scanner_only"
+}

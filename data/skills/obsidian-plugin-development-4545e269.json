@@ -1,0 +1,41 @@
+{
+  "id": "obsidian-plugin-development-4545e269",
+  "name": "Obsidian Plugin Development",
+  "description": "Comprehensive Claude Code skill for Obsidian plugin development with all 27 ESLint rules and official submission guidelines.",
+  "repo_url": "https://github.com/gapmiss/obsidian-plugin-skill",
+  "source_hub": "claude_skills_hub",
+  "skill_type": "agent_skill",
+  "owner": "gapmiss",
+  "stars": 77,
+  "forks": 7,
+  "license": "MIT",
+  "primary_language": "JavaScript",
+  "tags": [
+    "data-ai",
+    "dev",
+    "prod-docs"
+  ],
+  "source_tags": [
+    "coding",
+    "markdown",
+    "integration",
+    "obsidian"
+  ],
+  "categories": [
+    "dev",
+    "productivity"
+  ],
+  "version": "1.0.0",
+  "requires_code_execution": false,
+  "verification_status": "pass",
+  "overall_score": 80,
+  "risk_level": "low",
+  "verified_commit": null,
+  "scan_summary": null,
+  "findings_summary": {
+    "notes": "MIT licensed, JavaScript, actively maintained. High-quality domain-specific knowledge base. Well-structured skill."
+  },
+  "trust_level": "medium",
+  "scan_date": "2026-02-26T02:11:43Z",
+  "verification_level": "scanner_only"
+}

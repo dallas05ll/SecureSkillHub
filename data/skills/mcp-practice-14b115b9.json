@@ -1,0 +1,26 @@
+{
+  "id": "mcp-practice-14b115b9",
+  "name": "mcp_practice",
+  "description": "a mcp server",
+  "repo_url": "https://github.com/vivalalova/mcp_practice",
+  "source_hub": "mcp_so",
+  "owner": "vivalalova",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "1ccf5e3518983f563fd138a5fb5e3400c67f0494",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 5,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:41Z",
+  "verification_level": "scanner_only"
+}

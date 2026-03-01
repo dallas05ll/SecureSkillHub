@@ -1,0 +1,26 @@
+{
+  "id": "mcp-golang-http-server-4d26ae71",
+  "name": "mcp-golang-http-server",
+  "description": "A simple MCP server exposed via SSE with examples tools, resources and prompts",
+  "repo_url": "https://github.com/davidferlay/mcp-golang-http-server",
+  "source_hub": "mcp_so",
+  "owner": "davidferlay",
+  "stars": 2,
+  "primary_language": "unknown",
+  "tags": [
+    "dev-web-backend-go",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "7dafbcd6822aafc5c8cd3546a4078326a4514d07",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 1,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:04:50Z",
+  "verification_level": "scanner_only"
+}

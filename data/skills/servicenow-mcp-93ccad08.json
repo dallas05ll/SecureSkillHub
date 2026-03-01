@@ -1,0 +1,20 @@
+{
+  "id": "servicenow-mcp-93ccad08",
+  "name": "servicenow-mcp",
+  "description": "MCP Server for ServiceNow",
+  "repo_url": "https://github.com/osomai/servicenow-mcp",
+  "source_hub": "mcp_so",
+  "owner": "osomai",
+  "stars": 208,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "util"
+  ],
+  "verification_status": "fail",
+  "overall_score": 10,
+  "risk_level": "critical",
+  "verified_commit": "06250607bdfc814f9bb56551bba16c3a7fb5a8c9",
+  "scan_summary": null,
+  "scan_date": "2026-02-27T06:14:33Z"
+}

@@ -1,0 +1,27 @@
+{
+  "id": "modern-java-4b2b3173",
+  "name": "modern-java",
+  "description": "AI skill that transforms legacy Java code to modern idioms \u2014 version-aware, framework-smart, zero config.",
+  "repo_url": "https://github.com/ajaywadhara/modern-java",
+  "source_hub": "github_search",
+  "skill_type": "agent_skill",
+  "owner": "ajaywadhara",
+  "stars": 0,
+  "license": "",
+  "primary_language": "markdown",
+  "tags": [
+    "data-ai",
+    "dev"
+  ],
+  "verification_status": "manual_review",
+  "overall_score": 63,
+  "risk_level": "medium",
+  "verified_commit": null,
+  "scan_summary": null,
+  "last_updated": "2026-02-21T23:31:04Z",
+  "findings_summary": {
+    "notes": "Metadata-based verification. Score=63. Signals: stars=0 (-10); no license detected; owner='ajaywadhara' (+3); primary_language='markdown'; source_hub='github_search'. Status: manual_review. Risk: medium."
+  },
+  "trust_level": "low",
+  "scan_date": "2026-02-26T06:14:56Z"
+}

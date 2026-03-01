@@ -1,0 +1,26 @@
+{
+  "id": "pct-mcp-server-31143523",
+  "name": "pct-mcp-server",
+  "description": "Personal Context Technology for AI Personalization MCP server",
+  "repo_url": "https://github.com/mikhashev/pct-mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "mikhashev",
+  "stars": 4,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "4010f02b341cf166c9e1a08f4a57ce917f6bb882",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 11,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:04:51Z",
+  "verification_level": "scanner_only"
+}

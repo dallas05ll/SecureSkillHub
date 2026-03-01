@@ -1,0 +1,28 @@
+{
+  "id": "mcp-adk-dev-environment-bae03537",
+  "name": "mcp-adk-dev-environment",
+  "description": "MCP (Model Context Protocol) development environment with Google ADK Python framework integration and custom network discovery server",
+  "repo_url": "https://github.com/linus-mcmanamey/mcp-adk-dev-environment",
+  "source_hub": "mcp_so",
+  "owner": "linus-mcmanamey",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp",
+    "dev-web-backend-python",
+    "integ"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "18a79d7ccb261cdb214f9b87914b439b597ae12b",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 22,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:41Z",
+  "verification_level": "scanner_only"
+}

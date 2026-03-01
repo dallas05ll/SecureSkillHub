@@ -1,0 +1,27 @@
+{
+  "id": "paddle-mcp-server-468f0e69",
+  "name": "paddle-mcp-server",
+  "description": "Interact with the Paddle API using AI assistants like Claude, or in AI-powered IDEs like Cursor. Manage product catalog, billing and subscriptions, and reports.",
+  "repo_url": "https://github.com/PaddleHQ/paddle-mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "PaddleHQ",
+  "stars": 42,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "integ",
+    "integ-payment"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "c24af5f6454a7545bd485fc71022ac4cbb050830",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 15,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:32:12Z",
+  "verification_level": "scanner_only"
+}

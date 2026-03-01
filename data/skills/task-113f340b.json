@@ -1,0 +1,27 @@
+{
+  "id": "task-113f340b",
+  "name": "task",
+  "description": "an MCP server to expose a data format for translating tasks into environmental actions",
+  "repo_url": "https://github.com/crteal/task",
+  "source_hub": "mcp_so",
+  "owner": "crteal",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "data",
+    "data-ai-nlp",
+    "prod-pm"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "f768b267023d35f47748cff703787daa6f6a7a07",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 4,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:43:00Z",
+  "verification_level": "scanner_only"
+}

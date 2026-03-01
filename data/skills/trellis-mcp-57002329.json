@@ -1,0 +1,27 @@
+{
+  "id": "trellis-mcp-57002329",
+  "name": "trellis_mcp",
+  "description": "Model Context Protocol(MCP) for TRELLIS(SOTA text-to-3d/image-to-3d) models",
+  "repo_url": "https://github.com/FishWoWater/trellis_mcp",
+  "source_hub": "mcp_so",
+  "owner": "FishWoWater",
+  "stars": 6,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp",
+    "data-ai-vision"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "8cb8de5f471f0b596dac7edce75f786114dd7928",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 8,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:54:02Z",
+  "verification_level": "scanner_only"
+}

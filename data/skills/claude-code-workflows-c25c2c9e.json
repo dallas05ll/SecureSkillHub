@@ -1,0 +1,30 @@
+{
+  "id": "claude-code-workflows-c25c2c9e",
+  "name": "claude-code-workflows",
+  "description": "Production-ready development workflows for Claude Code with specialized backend, frontend, and fullstack agents. Includes metronome add-on for preventing shortcut-taking and governance plugin for deployment safety.",
+  "repo_url": "https://github.com/shinpr/claude-code-workflows",
+  "source_hub": "github_search",
+  "skill_type": "agent_skill",
+  "owner": "shinpr",
+  "stars": 158,
+  "forks": 34,
+  "license": "MIT",
+  "primary_language": "Markdown",
+  "tags": [
+    "data-ai",
+    "dev",
+    "prod"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "low",
+  "verified_commit": null,
+  "scan_summary": "Well-structured multi-plugin workflow system with backend, frontend, and fullstack components. MIT licensed, organized into agents/commands/skills directories. No executable scripts with dangerous patterns. .claude-plugin marketplace format properly used. No credential handling or network calls in skill files.",
+  "findings_summary": {
+    "notes": "High-quality workflow skill with good separation of concerns across backend/frontend/fullstack plugins. Excellent documentation with clear command structure. Properly uses plugin marketplace format. No security issues found. Integrates with external plugins (metronome, governance) which are third-party but noted in docs."
+  },
+  "last_updated": "2026-02-25T22:04:01Z",
+  "trust_level": "low",
+  "scan_date": "2026-02-26T02:22:54Z",
+  "verification_level": "scanner_only"
+}

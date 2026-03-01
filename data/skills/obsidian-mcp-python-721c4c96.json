@@ -1,0 +1,27 @@
+{
+  "id": "obsidian-mcp-python-721c4c96",
+  "name": "obsidian-mcp-python",
+  "description": "obsidian-mcp-python, a very simple MCP Server demo that can help you to operate something about your obsidian md file",
+  "repo_url": "https://github.com/hellozhangran/obsidian-mcp-python",
+  "source_hub": "mcp_so",
+  "owner": "hellozhangran",
+  "stars": 3,
+  "primary_language": "unknown",
+  "tags": [
+    "dev-web-backend-python",
+    "prod-docs",
+    "util-file"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "200e8662e0f5cc9d388f5d524be430b8e137b59e",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 8,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:04:51Z",
+  "verification_level": "scanner_only"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "claude-layered-memory-architecture-168c8ff9",
+  "name": "claude-layered-memory-architecture",
+  "description": "Three-layer memory architecture for long-term AI learning with Claude",
+  "repo_url": "https://github.com/juanmacruzherrera/claude-layered-memory-architecture",
+  "source_hub": "github_search",
+  "skill_type": "agent_skill",
+  "owner": "juanmacruzherrera",
+  "stars": 8,
+  "license": "mit",
+  "primary_language": "markdown",
+  "tags": [
+    "data-ai",
+    "prod-notes"
+  ],
+  "verification_status": "pass",
+  "overall_score": 78,
+  "risk_level": "medium",
+  "verified_commit": null,
+  "scan_summary": null,
+  "last_updated": "2026-02-08T05:42:19Z",
+  "findings_summary": {
+    "notes": "Metadata-based verification. Score=78. Signals: stars=8; license='mit' (+5); owner='juanmacruzherrera' (+3); primary_language='markdown'; source_hub='github_search'. Status: pass. Risk: medium."
+  },
+  "trust_level": "low",
+  "scan_date": "2026-02-26T06:14:55Z",
+  "verification_level": "metadata_only"
+}

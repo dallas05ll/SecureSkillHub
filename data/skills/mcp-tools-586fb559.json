@@ -1,0 +1,27 @@
+{
+  "id": "mcp-tools-586fb559",
+  "name": "MCP-tools",
+  "description": "Collection of Model Context Protocol (MCP) servers for various SaaS tools and services",
+  "repo_url": "https://github.com/jamesmcarthur-3999/MCP-tools",
+  "source_hub": "mcp_so",
+  "owner": "jamesmcarthur-3999",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "a13ce7af8dfad400deb1610ae943702831f58ca6",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 16,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:41Z",
+  "verification_level": "scanner_only"
+}

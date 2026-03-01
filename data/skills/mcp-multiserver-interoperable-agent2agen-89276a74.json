@@ -1,0 +1,28 @@
+{
+  "id": "mcp-multiserver-interoperable-agent2agen-89276a74",
+  "name": "MCP-MultiServer-Interoperable-Agent2Agent-LangGraph-AI-System",
+  "description": "This project demonstrates a decoupled real-time agent architecture that connects LangGraph agents to remote tools served by custom MCP (Modular Command Protocol) servers. The architecture enables a flexible and scalable multi-agent system where each tool can be hosted independently (via SSE or STDIO), offering modularity and cloud-deployable execut",
+  "repo_url": "https://github.com/junfanz1/MCP-MultiServer-Interoperable-Agent2Agent-LangGraph-AI-System",
+  "source_hub": "mcp_so",
+  "owner": "junfanz1",
+  "stars": 24,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "integ",
+    "integ-cloud",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "e4184da985fcb933abfd47acb77e5b786bf89849",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 15,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:32:11Z",
+  "verification_level": "scanner_only"
+}

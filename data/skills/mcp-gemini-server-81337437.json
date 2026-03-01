@@ -1,0 +1,28 @@
+{
+  "id": "mcp-gemini-server-81337437",
+  "name": "mcp-gemini-server",
+  "description": "This project provides a dedicated MCP (Model Context Protocol) server that wraps the @google/genai SDK. It exposes Google's Gemini model capabilities as standard MCP tools, allowing other LLMs (like Cline) or MCP-compatible systems to leverage Gemini's features as a backend workhorse.",
+  "repo_url": "https://github.com/bsmi021/mcp-gemini-server",
+  "source_hub": "mcp_so",
+  "owner": "bsmi021",
+  "stars": 35,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp",
+    "dev",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "8e449d13adb13a4e8de5b1d27a125921a4eb7eb2",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 144,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:32:11Z",
+  "verification_level": "scanner_only"
+}

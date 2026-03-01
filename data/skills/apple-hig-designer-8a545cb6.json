@@ -1,0 +1,28 @@
+{
+  "id": "apple-hig-designer-8a545cb6",
+  "name": "Apple-Hig-Designer",
+  "description": "Claude Code skill for creating Apple HIG-compliant interfaces blending with various design styles.",
+  "repo_url": "https://github.com/axiaoge2/Apple-Hig-Designer",
+  "source_hub": "github_search",
+  "skill_type": "agent_skill",
+  "owner": "axiaoge2",
+  "stars": 95,
+  "license": "mit",
+  "primary_language": "JavaScript",
+  "tags": [
+    "data-ai",
+    "dev"
+  ],
+  "verification_status": "pass",
+  "overall_score": 72,
+  "risk_level": "low",
+  "verified_commit": null,
+  "scan_summary": null,
+  "last_updated": "2026-02-21T02:33:09Z",
+  "findings_summary": {
+    "notes": "MIT licensed, JavaScript, recently maintained. Good multilingual documentation (EN/ZH)."
+  },
+  "trust_level": "low",
+  "scan_date": "2026-02-26T02:11:11Z",
+  "verification_level": "scanner_only"
+}

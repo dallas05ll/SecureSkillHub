@@ -1,0 +1,25 @@
+{
+  "id": "mattermost-mcp-eda839ee",
+  "name": "mattermost-mcp",
+  "description": "Mattermost MCP server to enable Claude to interact with Mattermost Workspaces",
+  "repo_url": "https://github.com/pvev/mattermost-mcp",
+  "source_hub": "mcp_so",
+  "owner": "pvev",
+  "stars": 28,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "fd64488da729da41e21f6f0e93c6e9b6559b4fae",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 23,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:32:11Z",
+  "verification_level": "scanner_only"
+}

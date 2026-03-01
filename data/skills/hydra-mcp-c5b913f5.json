@@ -1,0 +1,27 @@
+{
+  "id": "hydra-mcp-c5b913f5",
+  "name": "hydra-mcp",
+  "description": "Just a test project for an intermediate server between endpoints and Claude's MCP",
+  "repo_url": "https://github.com/keyboardsmoke/hydra-mcp",
+  "source_hub": "mcp_so",
+  "owner": "keyboardsmoke",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "dev-testing",
+    "util-media"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "5e0f047f34755c264b1e0dcabea6c81af9fdbf93",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 5,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:41Z",
+  "verification_level": "scanner_only"
+}

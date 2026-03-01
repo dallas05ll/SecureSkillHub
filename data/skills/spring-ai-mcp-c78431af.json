@@ -1,0 +1,27 @@
+{
+  "id": "spring-ai-mcp-c78431af",
+  "name": "spring-ai-mcp",
+  "description": "AI-powered chat assistant for banking microservices using Spring AI and Model Context Protocol (MCP). Interact with your microservices through natural language chat, view accounts, personal details, and transactions—all in one unified interface.",
+  "repo_url": "https://github.com/rifatcakir/spring-ai-mcp",
+  "source_hub": "mcp_so",
+  "owner": "rifatcakir",
+  "stars": 1,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp",
+    "prod-comm"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "74b8218d5c1024e7734193518f2e7549aebfe1d5",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 15,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:42Z",
+  "verification_level": "scanner_only"
+}

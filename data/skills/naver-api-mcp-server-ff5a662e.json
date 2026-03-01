@@ -1,0 +1,25 @@
+{
+  "id": "naver-api-mcp-server-ff5a662e",
+  "name": "naver-api-mcp-server",
+  "description": "nest.js naver api mcp server",
+  "repo_url": "https://github.com/easdkr/naver-api-mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "easdkr",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "integ"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "938a0a82b4be48ca9a2169ea1fe88e59d5a164d9",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 12,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:40Z",
+  "verification_level": "scanner_only"
+}

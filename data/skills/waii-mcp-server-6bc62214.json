@@ -1,0 +1,25 @@
+{
+  "id": "waii-mcp-server-6bc62214",
+  "name": "waii-mcp-server",
+  "description": "waii mcp server",
+  "repo_url": "https://github.com/waii-ai/waii-mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "waii-ai",
+  "stars": 7,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "b35f911bec87068e2af51c67ebbd04f44f5248d5",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 10,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:54:04Z",
+  "verification_level": "scanner_only"
+}

@@ -1,0 +1,26 @@
+{
+  "id": "mcp-netsuite-f368cba0",
+  "name": "MCP-Netsuite",
+  "description": "This is an mock MCP server for Oracle Netsuite",
+  "repo_url": "https://github.com/Kkartik14/MCP-Netsuite",
+  "source_hub": "mcp_so",
+  "owner": "Kkartik14",
+  "stars": 3,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "1991b4f7f347a6cab7af1f75ca0b84d2e42cbdb8",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 10,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:04:50Z",
+  "verification_level": "scanner_only"
+}

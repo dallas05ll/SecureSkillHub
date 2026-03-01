@@ -1,0 +1,26 @@
+{
+  "id": "agentwong-iac-memory-mcp-server-project-45b11e8f",
+  "name": "AgentWong_iac-memory-mcp-server-project",
+  "description": "Mirror of",
+  "repo_url": "https://github.com/MCP-Mirror/AgentWong_iac-memory-mcp-server-project",
+  "source_hub": "mcp_so",
+  "owner": "MCP-Mirror",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "prod-notes",
+    "repo_unavailable"
+  ],
+  "verification_status": "manual_review",
+  "overall_score": 0,
+  "risk_level": "high",
+  "verified_commit": "",
+  "scan_summary": null,
+  "scan_date": "2026-02-28T20:27:24Z",
+  "findings_summary": {
+    "error": "clone failed: Cloning into '/var/folders/pq/bb71gjzd01d29nnmqrhqr2rc0000gn/T/strict5_agentwong-iac-memory-mcp_vv6sc769/repo'...\nfatal: could not read Username for 'https://github.com': Device not configured",
+    "supervisor_approved": false,
+    "supervisor_confidence": 0
+  },
+  "repo_status": "unavailable"
+}

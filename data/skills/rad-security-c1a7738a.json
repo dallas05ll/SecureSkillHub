@@ -1,0 +1,32 @@
+{
+  "id": "rad-security-c1a7738a",
+  "name": "RAD Security",
+  "description": "CP server for RAD Security, providing AI-powered security insights for Kubernetes and cloud environments. This server provides tools for querying the Rad Security API and retrieving security findings, reports, runtime data and many more.",
+  "repo_url": "https://github.com/rad-security/mcp-server",
+  "source_hub": "glama",
+  "owner": "rad-security",
+  "stars": 5,
+  "primary_language": "unknown",
+  "tags": [
+    "data",
+    "data-ai",
+    "dev-devops-k8s",
+    "integ",
+    "integ-cloud",
+    "sec",
+    "util",
+    "util-search"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "df3f3cca6c13f12e13fe2f50e32ca3e21e4e3c6c",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 33,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:54:02Z",
+  "verification_level": "scanner_only"
+}

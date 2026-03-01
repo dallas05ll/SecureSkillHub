@@ -1,0 +1,26 @@
+{
+  "id": "mcp-gsheet-70193b86",
+  "name": "mcp-gsheet",
+  "description": "Model Context Protocol (MCP) server that allows interaction with Google Sheets",
+  "repo_url": "https://github.com/shionhonda/mcp-gsheet",
+  "source_hub": "mcp_so",
+  "owner": "shionhonda",
+  "stars": 2,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "f69b829cfc125bb6ca56bae6dae18633da0eb4ce",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 4,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:04:51Z",
+  "verification_level": "scanner_only"
+}

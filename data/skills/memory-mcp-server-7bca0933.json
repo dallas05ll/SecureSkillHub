@@ -1,0 +1,27 @@
+{
+  "id": "memory-mcp-server-7bca0933",
+  "name": "memory-mcp-server",
+  "description": "A MCP (Model Context Protocol) server providing long-term memory for LLMs",
+  "repo_url": "https://github.com/hpkv-io/memory-mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "hpkv-io",
+  "stars": 13,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp",
+    "prod-notes"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "3c1e8f76bcf028eb1c66b13680a0c23893a54a86",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 1,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:42:34Z",
+  "verification_level": "scanner_only"
+}

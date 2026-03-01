@@ -1,0 +1,26 @@
+{
+  "id": "openalex-mcp-d7e84e05",
+  "name": "openalex-mcp",
+  "description": "openalex-mcp is a mcp server which provide AI agents with tools to interact with OpenAlex.",
+  "repo_url": "https://github.com/reetp14/openalex-mcp",
+  "source_hub": "mcp_so",
+  "owner": "reetp14",
+  "stars": 3,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "615fbc480eb9009b34e72e1574e8a0c9e56e165d",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 22,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:04:50Z",
+  "verification_level": "scanner_only"
+}

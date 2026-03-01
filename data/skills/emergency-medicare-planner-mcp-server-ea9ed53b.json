@@ -1,0 +1,26 @@
+{
+  "id": "emergency-medicare-planner-mcp-server-ea9ed53b",
+  "name": "emergency-medicare-planner-mcp-server",
+  "description": "emergency-medicare-planner-mcp-server",
+  "repo_url": "https://github.com/manolaz/emergency-medicare-planner-mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "manolaz",
+  "stars": 4,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "2c92860f112a28d9b989f9ca346fc69c7fac603e",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 5,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:54:02Z",
+  "verification_level": "scanner_only"
+}

@@ -1,0 +1,27 @@
+{
+  "id": "mcp-local-server-f2d9f00c",
+  "name": "mcp-local-server",
+  "description": "Local Model Context Protocol Server with BirdNet-Pi integration",
+  "repo_url": "https://github.com/DMontgomery40/mcp-local-server",
+  "source_hub": "mcp_so",
+  "owner": "DMontgomery40",
+  "stars": 3,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp",
+    "integ"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "a890edfaf69eb8705e6f917cb18e97e3710293fc",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 15,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:04:50Z",
+  "verification_level": "scanner_only"
+}

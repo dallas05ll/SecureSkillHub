@@ -1,0 +1,26 @@
+{
+  "id": "ms-sentinel-mcp-server-8a588cd1",
+  "name": "ms-sentinel-mcp-server",
+  "description": "MCP server for Microsoft Sentinel. Enables access to Sentinel logs, incidents, analytics, and Entra ID data via a modular, queryable interface. Strictly non-production. Designed for use with Claude and other LLMs.",
+  "repo_url": "https://github.com/dstreefkerk/ms-sentinel-mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "dstreefkerk",
+  "stars": 15,
+  "primary_language": "unknown",
+  "tags": [
+    "data",
+    "data-ai"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "122dd210fe8dc543e25dbb8b12934f60240d6f56",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 111,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:42:36Z",
+  "verification_level": "scanner_only"
+}

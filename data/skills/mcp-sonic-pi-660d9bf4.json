@@ -1,0 +1,26 @@
+{
+  "id": "mcp-sonic-pi-660d9bf4",
+  "name": "mcp-sonic-pi",
+  "description": "MCP server for Sonic Pi",
+  "repo_url": "https://github.com/vinayak-mehta/mcp-sonic-pi",
+  "source_hub": "mcp_so",
+  "owner": "vinayak-mehta",
+  "stars": 15,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "92c7fd9438ed415ea09c3204623a5f91f0e385ee",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 4,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:42:34Z",
+  "verification_level": "scanner_only"
+}

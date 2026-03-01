@@ -1,0 +1,26 @@
+{
+  "id": "feed-mcp-622e9c55",
+  "name": "feed-mcp",
+  "description": "MCP Server for RSS, Atom, and JSON Feeds",
+  "repo_url": "https://github.com/richardwooding/feed-mcp",
+  "source_hub": "mcp_so",
+  "owner": "richardwooding",
+  "stars": 14,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "8b55c7eeae5c22fcf3255c995f3b3cff3af8d4a8",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 10,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:42:34Z",
+  "verification_level": "scanner_only"
+}

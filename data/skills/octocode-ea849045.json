@@ -1,0 +1,29 @@
+{
+  "id": "octocode-ea849045",
+  "name": "octocode",
+  "description": "Advanced AI code assistant that intelligently searches and discovers connections across GitHub repositories and NPM packages. Features zero-config authentication, smart fallbacks, and LLM-optimized content delivery. Ask natural language questions to understand code architectures, find implementation patterns, and explore the entire development ecosystem.",
+  "repo_url": "https://github.com/bgauryy/octocode",
+  "source_hub": "mcp_so",
+  "owner": "bgauryy",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp",
+    "dev",
+    "dev-web-backend-node",
+    "integ",
+    "sec",
+    "sec-auth",
+    "util-search",
+    "repo_unavailable"
+  ],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null,
+  "repo_status": "unavailable",
+  "repo_check_date": "2026-02-28T20:52:39.321006+00:00",
+  "repo_check_error": "fatal: could not read Username for 'https://github.com': Device not configured"
+}

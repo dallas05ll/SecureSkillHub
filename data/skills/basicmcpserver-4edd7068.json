@@ -1,0 +1,26 @@
+{
+  "id": "basicmcpserver-4edd7068",
+  "name": "basicMcpServer",
+  "description": "타입스크립트로 구현한 MCP 서버 기",
+  "repo_url": "https://github.com/HIG52/basicMcpServer",
+  "source_hub": "mcp_so",
+  "owner": "HIG52",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "659e25c918057205679ccaf2cfeba40837bb7946",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 7,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:41Z",
+  "verification_level": "scanner_only"
+}

@@ -1,0 +1,25 @@
+{
+  "id": "gitlab-mr-mcp-server-bdfb0569",
+  "name": "gitlab-mr-mcp-server",
+  "description": "MCP server to work with GitLab MR",
+  "repo_url": "https://github.com/AlcibiadesCleinias/gitlab-mr-mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "AlcibiadesCleinias",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "dev-git"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "122931fdfb91a7910e62a3c6a520a9b55465c611",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 1,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:40Z",
+  "verification_level": "scanner_only"
+}

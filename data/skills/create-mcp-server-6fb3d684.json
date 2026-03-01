@@ -1,0 +1,26 @@
+{
+  "id": "create-mcp-server-6fb3d684",
+  "name": "create-mcp-server",
+  "description": "A custom MCP server that provides arithmetic calculation tools and fast mathematical operations for AI assistants.",
+  "repo_url": "https://github.com/JustVarunsai/create-mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "JustVarunsai",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "71a3a82016afd67ef699335b4cc909004570776a",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 4,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:40Z",
+  "verification_level": "scanner_only"
+}

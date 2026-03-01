@@ -1,0 +1,25 @@
+{
+  "id": "agentcare-mcp-azalea-eac8a3bd",
+  "name": "agentcare-mcp-azalea",
+  "description": "Agent Care MCP Server configured for Azalea Health FHIR API integration",
+  "repo_url": "https://github.com/vlcosent/agentcare-mcp-azalea",
+  "source_hub": "mcp_so",
+  "owner": "vlcosent",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "integ"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "116b88697a35a26b9fb9d0d04a4e0b2c63d7a51a",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 1,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:40Z",
+  "verification_level": "scanner_only"
+}

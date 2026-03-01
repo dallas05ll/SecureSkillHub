@@ -1,0 +1,26 @@
+{
+  "id": "mcp-server-node-js-f963a92c",
+  "name": "MCP-Server-Node.js",
+  "description": "A simple mcp server demonstrating resources, tools, and prompts",
+  "repo_url": "https://github.com/Siratul804/MCP-Server-Node.js",
+  "source_hub": "mcp_so",
+  "owner": "Siratul804",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "dev-web-backend-node",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "89595044a807b53f569d3b63539e31fb511d896f",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 4,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:42Z",
+  "verification_level": "scanner_only"
+}

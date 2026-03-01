@@ -1,0 +1,25 @@
+{
+  "id": "mssql-mcp-9fadfe5b",
+  "name": "mssql-mcp",
+  "description": "mssql mcp server",
+  "repo_url": "https://github.com/daobataotie/mssql-mcp",
+  "source_hub": "mcp_so",
+  "owner": "daobataotie",
+  "stars": 39,
+  "primary_language": "unknown",
+  "tags": [
+    "data-db"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "cbb1fb7889f33a1a8865c81072fe933d1f27ff36",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 6,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:32:11Z",
+  "verification_level": "scanner_only"
+}

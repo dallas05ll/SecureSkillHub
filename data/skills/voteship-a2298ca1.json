@@ -1,0 +1,25 @@
+{
+  "id": "voteship-a2298ca1",
+  "name": "voteship",
+  "description": "MCP server for VoteShip - manage feature requests, votes, roadmaps, and changelogs from any MCP client. 22 tools, 5 resources, 4 workflow prompts. Triage feedback, detect duplicates, plan sprints, and generate changelogs with AI",
+  "repo_url": "https://github.com/Matt Kilmer/voteship",
+  "source_hub": "mcp_so",
+  "owner": "Matt Kilmer",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "prod",
+    "util",
+    "util-map",
+    "repo_unavailable"
+  ],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null,
+  "repo_status": "unavailable",
+  "repo_check_date": "2026-02-28T20:53:06.662849+00:00",
+  "repo_check_error": "fatal: unable to access 'https://github.com/Matt Kilmer/voteship/': URL rejected: Malformed input to a URL function"
+}

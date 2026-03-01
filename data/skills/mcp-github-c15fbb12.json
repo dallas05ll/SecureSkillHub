@@ -1,0 +1,25 @@
+{
+  "id": "mcp-github-c15fbb12",
+  "name": "mcp-github",
+  "description": "Connect MCP Github server",
+  "repo_url": "https://github.com/ElsayedAhmed19/mcp-github",
+  "source_hub": "mcp_so",
+  "owner": "ElsayedAhmed19",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "integ"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "af215106f55f45926775bcbfd91daba8f6249bf1",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 1,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:41Z",
+  "verification_level": "scanner_only"
+}

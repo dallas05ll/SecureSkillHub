@@ -1,0 +1,27 @@
+{
+  "id": "macos-office365-mcp-server-4a0d81fc",
+  "name": "macos-office365-mcp-server",
+  "description": "A comprehensive Model Context Protocol (MCP) server for automating Microsoft Office 365 applications (PowerPoint and Word) on macOS through AI agents like Claude and Cline.",
+  "repo_url": "https://github.com/vAirpower/macos-office365-mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "vAirpower",
+  "stars": 10,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp",
+    "prod"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "128a6250024eb7ae5e5d9f5237aeddcea93eb2db",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 19,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:42:36Z",
+  "verification_level": "scanner_only"
+}

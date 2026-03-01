@@ -1,0 +1,25 @@
+{
+  "id": "alibabacloud-polardb-mcp-server-116b54f0",
+  "name": "alibabacloud-polardb-mcp-server",
+  "description": "MCP Servers to access PolarDB.",
+  "repo_url": "https://github.com/aliyun/alibabacloud-polardb-mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "aliyun",
+  "stars": 14,
+  "primary_language": "unknown",
+  "tags": [
+    "integ-cloud"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "b9b8daf5cac2bf1c496416d62e67cfeeab5b6e54",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 30,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:42:34Z",
+  "verification_level": "scanner_only"
+}

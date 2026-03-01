@@ -1,0 +1,26 @@
+{
+  "id": "mcp-server-demo-f55d6911",
+  "name": "mcp_server_demo",
+  "description": "MCP Server Demo",
+  "repo_url": "https://github.com/etrex/mcp_server_demo",
+  "source_hub": "mcp_so",
+  "owner": "etrex",
+  "stars": 2,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "e720200331640728d33be109e6ba86ccff4c733f",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 2,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:04:51Z",
+  "verification_level": "scanner_only"
+}

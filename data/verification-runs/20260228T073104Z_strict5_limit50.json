@@ -1,0 +1,28 @@
+{
+  "started_at": "2026-02-28T07:29:29Z",
+  "finished_at": "2026-02-28T07:31:04Z",
+  "skill_type": "mcp_server",
+  "selected_ids": [
+    "find-skills-dbd2f3df",
+    "n8n-io--n8n",
+    "vercel-react-best-practices-56554634",
+    "remotion-best-practices-52f6dfff",
+    "frontend-design-b0f77b24",
+    "azure-ai-4eff05a2",
+    "agent-browser-1bf556f2",
+    "superpowers-675df694",
+    "upstash--context7-mcp",
+    "agent-tools-0b12a3f4"
+  ],
+  "selected_count": 10,
+  "group_count": 5,
+  "processed_count": 10,
+  "status_counts": {
+    "pass": 1,
+    "fail": 5,
+    "manual_review": 4
+  },
+  "stage_failures": {},
+  "retry_ids": [],
+  "remaining_unverified": 0
+}

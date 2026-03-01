@@ -1,0 +1,25 @@
+{
+  "id": "project-0d8391b4",
+  "name": "project",
+  "description": "MCP server for project management",
+  "repo_url": "https://github.com/tejpalvirk/project",
+  "source_hub": "mcp_so",
+  "owner": "tejpalvirk",
+  "stars": 16,
+  "primary_language": "unknown",
+  "tags": [
+    "prod-pm"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "e6c03673c5d8aaa9bd3d096b31897e86c5b98083",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 13,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:42:36Z",
+  "verification_level": "scanner_only"
+}

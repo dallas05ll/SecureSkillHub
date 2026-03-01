@@ -1,0 +1,26 @@
+{
+  "id": "mcp-server-serper-46d3352a",
+  "name": "mcp-server-serper",
+  "description": "Serper MCP Server supporting search and webpage scraping",
+  "repo_url": "https://github.com/marcopesani/mcp-server-serper",
+  "source_hub": "mcp_so",
+  "owner": "marcopesani",
+  "stars": 139,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "util-search"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "f18d0b108fe38110dc15ccbfe6278bb5f45a53a1",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 13,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-27T06:40:49Z",
+  "verification_level": "scanner_only"
+}

@@ -1,0 +1,25 @@
+{
+  "id": "awesome-devops-mcp-servers-5d650670",
+  "name": "awesome-devops-mcp-servers",
+  "description": "MCPServers in the DevOps domain.",
+  "repo_url": "https://github.com/derisk-ai/awesome-devops-mcp-servers",
+  "source_hub": "mcp_so",
+  "owner": "derisk-ai",
+  "stars": 6,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "a84a2824e6526ec9a64930971cd4f0be51e0d48f",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 2,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:54:04Z",
+  "verification_level": "scanner_only"
+}

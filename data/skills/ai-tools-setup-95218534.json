@@ -1,0 +1,27 @@
+{
+  "id": "ai-tools-setup-95218534",
+  "name": "ai-tools-setup",
+  "description": "Centralized management of AI tool configurations (rules, commands, MCP servers) with streamlined setup for global and project-specific environments.",
+  "repo_url": "https://github.com/kevinjalbert/ai-tools-setup",
+  "source_hub": "mcp_so",
+  "owner": "kevinjalbert",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "util",
+    "util-media"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "30b6bc8f386d319634e21e56fe7264ad1bdeb909",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 1,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:40Z",
+  "verification_level": "scanner_only"
+}

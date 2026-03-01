@@ -1,0 +1,26 @@
+{
+  "id": "linux-command-mcp-8ff4dc59",
+  "name": "linux-command-mcp",
+  "description": "MCP server and client for running Linux commands",
+  "repo_url": "https://github.com/xkiranj/linux-command-mcp",
+  "source_hub": "mcp_so",
+  "owner": "xkiranj",
+  "stars": 19,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "8a090e21928d76b4b2ef2cd7a35b99a0e1f6d221",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 14,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:42:36Z",
+  "verification_level": "scanner_only"
+}

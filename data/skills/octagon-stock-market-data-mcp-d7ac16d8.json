@@ -1,0 +1,26 @@
+{
+  "id": "octagon-stock-market-data-mcp-d7ac16d8",
+  "name": "octagon-stock-market-data-mcp",
+  "description": "The Octagon Stock Market Data MCP server provides specialized AI-powered stock market data and valuation analysis capabilities by integrating with advanced stock data agents. Real-time market data, comprehensive technical indicators, and unlimited market intelligence.",
+  "repo_url": "https://github.com/OctagonAI/octagon-stock-market-data-mcp",
+  "source_hub": "mcp_so",
+  "owner": "OctagonAI",
+  "stars": 2,
+  "primary_language": "unknown",
+  "tags": [
+    "data",
+    "data-ai"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "277d166544a833a6da4293021d263b069a977214",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 7,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:04:51Z",
+  "verification_level": "scanner_only"
+}

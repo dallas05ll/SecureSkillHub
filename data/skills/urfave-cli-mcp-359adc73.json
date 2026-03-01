@@ -1,0 +1,25 @@
+{
+  "id": "urfave-cli-mcp-359adc73",
+  "name": "urfave-cli-mcp",
+  "description": "Expose",
+  "repo_url": "https://github.com/thepwagner/urfave-cli-mcp",
+  "source_hub": "mcp_so",
+  "owner": "thepwagner",
+  "stars": 2,
+  "primary_language": "unknown",
+  "tags": [
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "92e78cf61c11ed04f6341481eee48620edb17409",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 1,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:41Z",
+  "verification_level": "scanner_only"
+}

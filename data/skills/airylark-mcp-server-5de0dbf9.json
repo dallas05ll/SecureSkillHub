@@ -1,0 +1,25 @@
+{
+  "id": "airylark-mcp-server-5de0dbf9",
+  "name": "airylark-mcp-server",
+  "description": "强大的MCP翻译服务器！#AiryLarkMCP 🌐 专为专业翻译人员设计： • 三阶段翻译流程：分析规划、精准翻译、全文审校 • 自动识别专业领域术语 • 提供全面翻译质量评估 • 支持多语种互译 • 保持原文风格与专业性 💯 无缝集成Claude/Cursor等支持MCP的AI助手，让AI翻译达到专业水准！",
+  "repo_url": "https://github.com/wizd/airylark-mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "wizd",
+  "stars": 23,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "d514dc5f5d2061095b60a711be4aece48307bee0",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 9,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:32:13Z",
+  "verification_level": "scanner_only"
+}

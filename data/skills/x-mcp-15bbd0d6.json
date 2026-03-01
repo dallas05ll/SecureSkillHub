@@ -1,0 +1,26 @@
+{
+  "id": "x-mcp-15bbd0d6",
+  "name": "x-mcp",
+  "description": "An MCP Server to interact with X/Twitter besides the official API.",
+  "repo_url": "https://github.com/Barresider/x-mcp",
+  "source_hub": "mcp_so",
+  "owner": "Barresider",
+  "stars": 5,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "integ-social"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "77817e4898367d5f00f59f79621b46ae71b180fb",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 29,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:54:02Z",
+  "verification_level": "scanner_only"
+}

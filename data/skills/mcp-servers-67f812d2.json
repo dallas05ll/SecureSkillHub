@@ -1,0 +1,26 @@
+{
+  "id": "mcp-servers-67f812d2",
+  "name": "mcp-servers",
+  "description": "A collection of Minecraft Protocol (MCP) servers implemented in TypeScript",
+  "repo_url": "https://github.com/pgtipping/mcp-servers",
+  "source_hub": "mcp_so",
+  "owner": "pgtipping",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "3d9e6f52c9addd13ece45e879a768e54ff8e00d2",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 8,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:40Z",
+  "verification_level": "scanner_only"
+}

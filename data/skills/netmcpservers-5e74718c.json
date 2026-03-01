@@ -1,0 +1,26 @@
+{
+  "id": "netmcpservers-5e74718c",
+  "name": "NetMcpServers",
+  "description": "Collection of my MCP (Model Context Protocol) servers written in .NET",
+  "repo_url": "https://github.com/Redth/NetMcpServers",
+  "source_hub": "mcp_so",
+  "owner": "Redth",
+  "stars": 2,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "b1485397bd1c94f990ee5815111196a493f2b1c4",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 7,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:04:51Z",
+  "verification_level": "scanner_only"
+}

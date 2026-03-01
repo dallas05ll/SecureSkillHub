@@ -1,0 +1,25 @@
+{
+  "id": "ygocdb-mcp-a7362501",
+  "name": "ygocdb-mcp",
+  "description": "用于与游戏王中文卡查百鸽(ygocdb.com)API交互的MCP服务端",
+  "repo_url": "https://github.com/lieyanqzu/ygocdb-mcp",
+  "source_hub": "mcp_so",
+  "owner": "lieyanqzu",
+  "stars": 4,
+  "primary_language": "unknown",
+  "tags": [
+    "integ"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "73921049d744d3800f9701ea00c9abe57328075e",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 8,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:04:51Z",
+  "verification_level": "scanner_only"
+}

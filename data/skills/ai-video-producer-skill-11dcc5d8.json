@@ -1,0 +1,28 @@
+{
+  "id": "ai-video-producer-skill-11dcc5d8",
+  "name": "ai-video-producer-skill",
+  "description": "LLM Agent skill to create videos via local diffusion models",
+  "repo_url": "https://github.com/zysilm-ai/ai-video-producer-skill",
+  "source_hub": "github_search",
+  "skill_type": "agent_skill",
+  "owner": "zysilm-ai",
+  "stars": 5,
+  "license": "mit",
+  "primary_language": "markdown",
+  "tags": [
+    "data-ai",
+    "util-media"
+  ],
+  "verification_status": "pass",
+  "overall_score": 78,
+  "risk_level": "medium",
+  "verified_commit": null,
+  "scan_summary": null,
+  "last_updated": "2026-02-04T23:28:43Z",
+  "findings_summary": {
+    "notes": "Metadata-based verification. Score=78. Signals: stars=5; license='mit' (+5); owner='zysilm-ai' (+3); primary_language='markdown'; source_hub='github_search'. Status: pass. Risk: medium."
+  },
+  "trust_level": "low",
+  "scan_date": "2026-02-26T06:14:55Z",
+  "verification_level": "metadata_only"
+}

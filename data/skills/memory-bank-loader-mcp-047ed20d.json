@@ -1,0 +1,28 @@
+{
+  "id": "memory-bank-loader-mcp-047ed20d",
+  "name": "memory-bank-loader-mcp",
+  "description": "This is an MCP server for retrieving all files in the memory-bank directory at once. Its purpose is to reduce AI tool invocation frequency when loading memory-bank, saving both time and money.",
+  "repo_url": "https://github.com/abeyuya/memory-bank-loader-mcp",
+  "source_hub": "mcp_so",
+  "owner": "abeyuya",
+  "stars": 4,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "prod-notes",
+    "util",
+    "util-file"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "35c54e4812704f279369fe2ffd5144e03f5d7ade",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 12,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:54:04Z",
+  "verification_level": "scanner_only"
+}

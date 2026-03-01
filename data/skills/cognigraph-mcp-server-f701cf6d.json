@@ -1,0 +1,26 @@
+{
+  "id": "cognigraph-mcp-server-f701cf6d",
+  "name": "cognigraph-mcp-server",
+  "description": "use markmap-cli,mermaid-cli to create cognigraph",
+  "repo_url": "https://github.com/xsp52Hz/cognigraph-mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "xsp52Hz",
+  "stars": 1,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "util-map"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "3e2cbc570516619cb445f332c3fe1975086de37d",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 6,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:40Z",
+  "verification_level": "scanner_only"
+}

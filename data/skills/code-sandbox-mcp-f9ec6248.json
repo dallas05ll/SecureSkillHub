@@ -1,0 +1,28 @@
+{
+  "id": "code-sandbox-mcp-f9ec6248",
+  "name": "code-sandbox-mcp",
+  "description": "An MCP server to create secure code sandbox environment for executing code within Docker containers. This MCP server provides AI applications with a safe and isolated environment for running code while maintaining security through containerization.",
+  "repo_url": "https://github.com/Automata-Labs-team/code-sandbox-mcp",
+  "source_hub": "mcp_so",
+  "owner": "Automata-Labs-team",
+  "stars": 314,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "dev",
+    "dev-devops-docker",
+    "sec"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 12,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-27T02:28:45Z",
+  "verification_level": "scanner_only"
+}

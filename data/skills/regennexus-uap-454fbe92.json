@@ -1,0 +1,26 @@
+{
+  "id": "regennexus-uap-454fbe92",
+  "name": "regennexus-uap",
+  "description": "## Features\r\n- **Device Control**: GPIO, PWM, sensors, cameras\r\n- **Robotic Arms**: Amber B1, Lucid One with gripper support\r\n- **Mesh Networking**: Auto-discovery across LAN\r\n- **Security**: AES-256 encryption, token auth\r\n\r\n## Installation\r\npip install regennexus",
+  "repo_url": "https://github.com/ReGenNow/regennexus-uap",
+  "source_hub": "mcp_so",
+  "owner": "ReGenNow",
+  "stars": 8,
+  "primary_language": "unknown",
+  "tags": [
+    "sec",
+    "sec-crypto"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "a9183e4c13ea97bc1bbe47e2c1890a8bcf8282bc",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 122,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:54:02Z",
+  "verification_level": "scanner_only"
+}

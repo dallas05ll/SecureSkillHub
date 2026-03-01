@@ -1,0 +1,26 @@
+{
+  "id": "hackathon-12-mcp-compliance-19c812a4",
+  "name": "hackathon-12-mcp-compliance",
+  "description": "An mcp server to support compliance operations in AI agents",
+  "repo_url": "https://github.com/grafana/hackathon-12-mcp-compliance",
+  "source_hub": "mcp_so",
+  "owner": "grafana",
+  "stars": 4,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "sec-scan"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "be1bf7acb820dad79205726b7375f204f51246ef",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 6,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:54:02Z",
+  "verification_level": "scanner_only"
+}

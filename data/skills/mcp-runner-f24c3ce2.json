@@ -1,0 +1,26 @@
+{
+  "id": "mcp-runner-f24c3ce2",
+  "name": "mcp-runner",
+  "description": "Runs and manages MCP servers",
+  "repo_url": "https://github.com/Streamline-TS/mcp-runner",
+  "source_hub": "mcp_so",
+  "owner": "Streamline-TS",
+  "stars": 2,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "452ec02e842a5a14ef6b69256a01f683b696a19a",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 7,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:04:50Z",
+  "verification_level": "scanner_only"
+}

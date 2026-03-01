@@ -1,0 +1,25 @@
+{
+  "id": "omnispindle-2bfa36b8",
+  "name": "Omnispindle",
+  "description": "Simple MCP server to provide my Local Cursor with access to add items to my MongoDB todo list",
+  "repo_url": "https://github.com/MadnessEngineering/Omnispindle",
+  "source_hub": "mcp_so",
+  "owner": "MadnessEngineering",
+  "stars": 9,
+  "primary_language": "unknown",
+  "tags": [
+    "data-db"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "feb70f51aa76538f9d0e655b1f79fa751fa9afb8",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 100,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:42:36Z",
+  "verification_level": "scanner_only"
+}

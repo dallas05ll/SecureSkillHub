@@ -1,0 +1,27 @@
+{
+  "id": "microsoft-docs-mcp-server-82b24e42",
+  "name": "microsoft-docs-mcp-server",
+  "description": "The Microsoft Learn MCP Server is a cloud-hosted service that enables MCP hosts like GitHub Copilot and Cursor to search and retrieve accurate information directly from Microsoft's official documentation. By implementing the standardized Model Context Protocol (MCP), this service allows any compatible AI system to ground its responses in authoritative Microsoft content.",
+  "repo_url": "https://github.com/Microsoft Learn/microsoft-docs-mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "Microsoft Learn",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp",
+    "integ-cloud",
+    "prod-docs",
+    "sec",
+    "util-search",
+    "repo_unavailable"
+  ],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null,
+  "repo_status": "unavailable",
+  "repo_check_date": "2026-02-28T20:52:32.111690+00:00",
+  "repo_check_error": "fatal: unable to access 'https://github.com/Microsoft Learn/microsoft-docs-mcp-server/': URL rejected: Malformed input to a URL function"
+}

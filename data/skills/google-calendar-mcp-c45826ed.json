@@ -1,0 +1,28 @@
+{
+  "id": "google-calendar-mcp-c45826ed",
+  "name": "google-calendar-mcp",
+  "description": "Model Context Protocol (MCP) server for Claude Desktop connecting to Google Calender using Google Calendar API",
+  "repo_url": "https://github.com/Jackson88/google-calendar-mcp",
+  "source_hub": "mcp_so",
+  "owner": "Jackson88",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp",
+    "integ",
+    "prod-calendar"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "739bb2c79a62641ce1916ac0f6b93a83dee4d4f1",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 22,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:41Z",
+  "verification_level": "scanner_only"
+}

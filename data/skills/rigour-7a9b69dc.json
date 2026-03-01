@@ -1,0 +1,31 @@
+{
+  "id": "rigour-7a9b69dc",
+  "name": "rigour",
+  "description": "Deterministic quality gates for AI coding agents. Rigour runs 23 automated checks on every file AI writes — structural analysis, security scanning, AI-drift detection, and agent governance. \r\n\r\nWorks as an MCP server for Claude Desktop, Cursor, and Cline. Supports TypeScript, JavaScript, Python, Go, Ruby, and C#. Forces AI agents to write production-grade code with PASS/FAIL enforcement.",
+  "repo_url": "https://github.com/rigour-labs/rigour",
+  "source_hub": "mcp_so",
+  "owner": "rigour-labs",
+  "stars": 16,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "dev",
+    "dev-web-backend-python",
+    "prod",
+    "sec",
+    "sec-scan",
+    "util-file"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "0cb1d3e751d85304c3fe195396ceb751b3797a4c",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 239,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:42:34Z",
+  "verification_level": "scanner_only"
+}

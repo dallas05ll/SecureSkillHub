@@ -1,0 +1,25 @@
+{
+  "id": "markdownify-mcp-utf8-cc3b244d",
+  "name": "markdownify-mcp-utf8",
+  "description": "MCP Markdownify Server with UTF-8 Support - Enhanced version with better multilingual handling",
+  "repo_url": "https://github.com/JDJR2024/markdownify-mcp-utf8",
+  "source_hub": "mcp_so",
+  "owner": "JDJR2024",
+  "stars": 10,
+  "primary_language": "unknown",
+  "tags": [
+    "prod-docs"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "f7445b2ab767711d26d2e50294d7c49053235a12",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 12,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:42:34Z",
+  "verification_level": "scanner_only"
+}

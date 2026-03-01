@@ -1,0 +1,30 @@
+{
+  "id": "mobai-mcp-b99e862a",
+  "name": "mobai-mcp",
+  "description": "MCP (Model Context Protocol) server for MobAI (https://mobai.run) - AI-powered mobile device automation. This server enables AI coding assistants like Cursor, Windsurf, Cline, and other MCP-compatible tools to control Android and iOS devices, emulators, and simulators.\r\n\r\nFeatures\r\n- Device Control: List, connect, and manage Android/iOS devices\r\n- UI Automation: Tap, type, swipe, and interact with native apps\r\n- Web Automation: Control Safari/Chrome and WebViews with CSS selectors\r\n- DSL Batc...",
+  "repo_url": "https://github.com/MobAI-App/mobai-mcp",
+  "source_hub": "mcp_so",
+  "owner": "MobAI-App",
+  "stars": 44,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp",
+    "dev-web",
+    "integ",
+    "prod",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "9ea54953804027450fd91f539b9bb63c7e23f109",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 6,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:32:13Z",
+  "verification_level": "scanner_only"
+}

@@ -1,0 +1,27 @@
+{
+  "id": "copilot-taskmaster-extension-1bf05c06",
+  "name": "copilot-taskmaster-extension",
+  "description": "A GitHub Copilot chat extension that integrates with the Taskmaster-AI MCP server.",
+  "repo_url": "https://github.com/lookatitude/copilot-taskmaster-extension",
+  "source_hub": "mcp_so",
+  "owner": "lookatitude",
+  "stars": 3,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "prod-comm",
+    "prod-pm"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "c35cd4bc4810474525f13e0f639917d953ae004a",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 9,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:04:50Z",
+  "verification_level": "scanner_only"
+}

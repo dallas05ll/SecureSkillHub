@@ -1,0 +1,26 @@
+{
+  "id": "unofficial-mapy-com-mcp-62751c11",
+  "name": "unofficial_mapy_com_mcp",
+  "description": "An simlpe mcp server for mapy.com",
+  "repo_url": "https://github.com/07pepa/unofficial_mapy_com_mcp",
+  "source_hub": "mcp_so",
+  "owner": "07pepa",
+  "stars": 1,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "util-map"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "b40cbe944a0c9940ba6327d624dc941ed9716038",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 31,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:42Z",
+  "verification_level": "scanner_only"
+}

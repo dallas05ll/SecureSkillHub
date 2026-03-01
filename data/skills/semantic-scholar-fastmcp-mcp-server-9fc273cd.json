@@ -1,0 +1,27 @@
+{
+  "id": "semantic-scholar-fastmcp-mcp-server-9fc273cd",
+  "name": "semantic-scholar-fastmcp-mcp-server",
+  "description": "A FastMCP server implementation for the Semantic Scholar API, providing comprehensive access to academic paper data, author information, and citation networks.",
+  "repo_url": "https://github.com/YUZongmin/semantic-scholar-fastmcp-mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "YUZongmin",
+  "stars": 95,
+  "primary_language": "unknown",
+  "tags": [
+    "data",
+    "integ",
+    "sec"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "580ed5ab5d51f15d9788e8bc7f56195e0b1558a6",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 29,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-27T06:40:44Z",
+  "verification_level": "scanner_only"
+}

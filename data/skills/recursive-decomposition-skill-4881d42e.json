@@ -1,0 +1,30 @@
+{
+  "id": "recursive-decomposition-skill-4881d42e",
+  "name": "recursive-decomposition-skill",
+  "description": "Claude Code skill for handling long-context tasks through recursive decomposition",
+  "repo_url": "https://github.com/massimodeluisa/recursive-decomposition-skill",
+  "source_hub": "github_search",
+  "skill_type": "agent_skill",
+  "owner": "massimodeluisa",
+  "stars": 17,
+  "license": "mit",
+  "primary_language": "markdown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp",
+    "dev",
+    "prod-pm"
+  ],
+  "verification_status": "pass",
+  "overall_score": 83,
+  "risk_level": "low",
+  "verified_commit": null,
+  "scan_summary": null,
+  "last_updated": "2026-02-22T07:54:22Z",
+  "findings_summary": {
+    "notes": "Metadata-based verification. Score=83. Signals: stars=17 (>=10, +5); license='mit' (+5); owner='massimodeluisa' (+3); primary_language='markdown'; source_hub='github_search'. Status: pass. Risk: low."
+  },
+  "trust_level": "low",
+  "scan_date": "2026-02-26T06:14:56Z",
+  "verification_level": "metadata_only"
+}

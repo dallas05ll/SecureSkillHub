@@ -1,0 +1,30 @@
+{
+  "id": "mcpbundler-agent-skills-marketplace-edeefe19",
+  "name": "mcpbundler-agent-skills-marketplace",
+  "description": "agent skills marketplace for mcp bundler(can be used with other ai tools with support of agent skills markeplaces). some skills are mine, also borrowed skills(credited to authors)",
+  "repo_url": "https://github.com/eugenepyvovarov/mcpbundler-agent-skills-marketplace",
+  "source_hub": "github_search",
+  "skill_type": "agent_skill",
+  "owner": "eugenepyvovarov",
+  "stars": 7,
+  "license": "mit",
+  "primary_language": "markdown",
+  "tags": [
+    "data-ai",
+    "dev-web-backend-node",
+    "sec",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 78,
+  "risk_level": "medium",
+  "verified_commit": null,
+  "scan_summary": null,
+  "last_updated": "2026-02-15T08:45:53Z",
+  "findings_summary": {
+    "notes": "Metadata-based verification. Score=78. Signals: stars=7; license='mit' (+5); owner='eugenepyvovarov' (+3); primary_language='markdown'; source_hub='github_search'. Status: pass. Risk: medium."
+  },
+  "trust_level": "low",
+  "scan_date": "2026-02-26T06:14:56Z",
+  "verification_level": "metadata_only"
+}

@@ -1,0 +1,27 @@
+{
+  "id": "realestate-rag-mcp-b00576dd",
+  "name": "realestate-rag-mcp",
+  "description": "MCP server containing tools for real esate search",
+  "repo_url": "https://github.com/danny-tdoan/realestate-rag-mcp",
+  "source_hub": "mcp_so",
+  "owner": "danny-tdoan",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "util",
+    "util-search"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "be65b0b26434bbb001c693a96db082896c321f9d",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 17,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:40Z",
+  "verification_level": "scanner_only"
+}

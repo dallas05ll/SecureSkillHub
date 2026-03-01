@@ -1,0 +1,32 @@
+{
+  "id": "crypto-news-telegram-bot-fbda9f32",
+  "name": "crypto-news-telegram-bot",
+  "description": "A Telegram bot that fetches and summarizes cryptocurrency news using CryptoPanic API, xAI (Grok), and an MCP FastAPI server. Includes robust logging and error handling.",
+  "repo_url": "https://github.com/deb-pradhan/crypto-news-telegram-bot",
+  "source_hub": "mcp_so",
+  "owner": "deb-pradhan",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp",
+    "dev-web-backend-python",
+    "integ",
+    "prod-comm",
+    "sec-crypto",
+    "util-monitor",
+    "util-search"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "5c31abb2dcacbb21bb2576a5ced4e3943dddc6a2",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 6,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:42Z",
+  "verification_level": "scanner_only"
+}

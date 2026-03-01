@@ -1,0 +1,25 @@
+{
+  "id": "mcp-china-weather-server-aedc10ee",
+  "name": "mcp-China-weather-server",
+  "description": "An MCP server for China weather queries based on the 高德 API.",
+  "repo_url": "https://github.com/Le-dawn/mcp-China-weather-server",
+  "source_hub": "mcp_so",
+  "owner": "Le-dawn",
+  "stars": 3,
+  "primary_language": "unknown",
+  "tags": [
+    "integ"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "226e56c948024838dee9863ded2424feef988906",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 5,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:04:50Z",
+  "verification_level": "scanner_only"
+}

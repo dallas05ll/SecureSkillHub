@@ -1,0 +1,26 @@
+{
+  "id": "amazon-vpc-lattice-mcp-server-049ecc83",
+  "name": "amazon-vpc-lattice-mcp-server",
+  "description": "A MCP server for Amazon VPC Lattice",
+  "repo_url": "https://github.com/rlymbur/amazon-vpc-lattice-mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "rlymbur",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "integ-cloud-aws",
+    "repo_unavailable"
+  ],
+  "verification_status": "manual_review",
+  "overall_score": 0,
+  "risk_level": "high",
+  "verified_commit": "",
+  "scan_summary": null,
+  "scan_date": "2026-02-28T20:27:25Z",
+  "findings_summary": {
+    "error": "clone failed: Cloning into '/var/folders/pq/bb71gjzd01d29nnmqrhqr2rc0000gn/T/strict5_amazon-vpc-lattice-mcp-s_7i_1hexg/repo'...\nfatal: could not read Username for 'https://github.com': Device not configured",
+    "supervisor_approved": false,
+    "supervisor_confidence": 0
+  },
+  "repo_status": "unavailable"
+}

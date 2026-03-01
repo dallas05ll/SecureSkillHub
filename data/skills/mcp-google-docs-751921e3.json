@@ -1,0 +1,25 @@
+{
+  "id": "mcp-google-docs-751921e3",
+  "name": "mcp-google-docs",
+  "description": "mcp server for creating, reading, editing google docs (supports comments)",
+  "repo_url": "https://github.com/phact/mcp-google-docs",
+  "source_hub": "mcp_so",
+  "owner": "phact",
+  "stars": 11,
+  "primary_language": "unknown",
+  "tags": [
+    "prod-docs"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "f948f485fcebaf0c5c8c8a75b16257351f58dfd8",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 6,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:42:34Z",
+  "verification_level": "scanner_only"
+}

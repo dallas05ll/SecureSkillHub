@@ -1,0 +1,25 @@
+{
+  "id": "mcp-wegene-assistant-f0e86c54",
+  "name": "mcp-wegene-assistant",
+  "description": "MCP server to analyze your genetic test results from WeGene",
+  "repo_url": "https://github.com/xraywu/mcp-wegene-assistant",
+  "source_hub": "mcp_so",
+  "owner": "xraywu",
+  "stars": 4,
+  "primary_language": "unknown",
+  "tags": [
+    "dev-testing"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "ded9744fee7edff7c3ca0f1a632beaad5bd9f052",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 11,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:54:04Z",
+  "verification_level": "scanner_only"
+}

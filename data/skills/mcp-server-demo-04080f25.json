@@ -1,0 +1,26 @@
+{
+  "id": "mcp-server-demo-04080f25",
+  "name": "mcp-server-demo",
+  "description": "MCP Server Demo Implementation",
+  "repo_url": "https://github.com/chitta-behera/mcp-server-demo",
+  "source_hub": "mcp_so",
+  "owner": "chitta-behera",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "01e7331bfcc06cff1f6d2515a39a0fa60db8459a",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 8,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:41Z",
+  "verification_level": "scanner_only"
+}

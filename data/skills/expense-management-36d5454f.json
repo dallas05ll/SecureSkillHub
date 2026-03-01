@@ -1,0 +1,26 @@
+{
+  "id": "expense-management-36d5454f",
+  "name": "expense-management",
+  "description": "An expense management MCP server",
+  "repo_url": "https://github.com/under-doc/expense-management",
+  "source_hub": "mcp_so",
+  "owner": "under-doc",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "f3fab3a39590d2c399bab59bcfe5f70f64a607db",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 1,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:41Z",
+  "verification_level": "scanner_only"
+}

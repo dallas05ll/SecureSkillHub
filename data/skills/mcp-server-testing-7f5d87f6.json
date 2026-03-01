@@ -1,0 +1,25 @@
+{
+  "id": "mcp-server-testing-7f5d87f6",
+  "name": "MCP-Server-Testing",
+  "description": "First MCP Server",
+  "repo_url": "https://github.com/zaeem9236/MCP-Server-Testing",
+  "source_hub": "mcp_so",
+  "owner": "zaeem9236",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "dev-testing"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "46f583bc574bc0db37135843748f53f9ce37ba6e",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 4,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:41Z",
+  "verification_level": "scanner_only"
+}

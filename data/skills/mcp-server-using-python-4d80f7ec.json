@@ -1,0 +1,29 @@
+{
+  "id": "mcp-server-using-python-4d80f7ec",
+  "name": "MCP-server-using-python",
+  "description": "We are building a local MCP server called mix_server ,a working connection to claude for desktop so you can talk to your tools thorugh natural language.",
+  "repo_url": "https://github.com/Harshita0614/MCP-server-using-python",
+  "source_hub": "mcp_so",
+  "owner": "Harshita0614",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp",
+    "dev-web-backend-python",
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "f4f21222d732831cc22121165615087e69cf744d",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 1,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:42Z",
+  "verification_level": "scanner_only"
+}

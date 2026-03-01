@@ -1,0 +1,25 @@
+{
+  "id": "prefect-mcp-server-3e7d05b2",
+  "name": "prefect-mcp-server",
+  "description": "MCP server for interacting with the Prefect API",
+  "repo_url": "https://github.com/fortunto2/prefect-mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "fortunto2",
+  "stars": 7,
+  "primary_language": "unknown",
+  "tags": [
+    "integ"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "e235eec845091eb4caeb2062d332911d612f39b5",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 6,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:54:02Z",
+  "verification_level": "scanner_only"
+}

@@ -1,0 +1,26 @@
+{
+  "id": "mcp-grpc-transport-54e90fae",
+  "name": "mcp-grpc-transport",
+  "description": "gRPC transport for MCP servers",
+  "repo_url": "https://github.com/rustycl0ck/mcp-grpc-transport",
+  "source_hub": "mcp_so",
+  "owner": "rustycl0ck",
+  "stars": 4,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "353d429df6325ed9180ef4771a2f5d868a304c1a",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 1,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:54:02Z",
+  "verification_level": "scanner_only"
+}

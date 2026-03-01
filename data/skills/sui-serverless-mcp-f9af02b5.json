@@ -1,0 +1,26 @@
+{
+  "id": "sui-serverless-mcp-f9af02b5",
+  "name": "sui-serverless-mcp",
+  "description": "My Amplify Gen 2 starter application",
+  "repo_url": "https://github.com/tamago-labs/sui-serverless-mcp",
+  "source_hub": "mcp_so",
+  "owner": "tamago-labs",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "6588b1a1e02f38e3f0b125bf4c12b7e5dd687309",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 48,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:42:59Z",
+  "verification_level": "scanner_only"
+}

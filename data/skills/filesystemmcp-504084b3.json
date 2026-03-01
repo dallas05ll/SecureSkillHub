@@ -1,0 +1,25 @@
+{
+  "id": "filesystemmcp-504084b3",
+  "name": "fileSystemMCP",
+  "description": "An MCP server config to manage the file system of any directory in my PC",
+  "repo_url": "https://github.com/AgarwalSiddhant1996/fileSystemMCP",
+  "source_hub": "mcp_so",
+  "owner": "AgarwalSiddhant1996",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "util-file"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "0c1b7139533c306550c40c5981814e617c80bb26",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 3,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:40Z",
+  "verification_level": "scanner_only"
+}

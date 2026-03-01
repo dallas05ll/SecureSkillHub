@@ -1,0 +1,27 @@
+{
+  "id": "mcpixir-e4211cf5",
+  "name": "mcpixir",
+  "description": "🌐 Mcpixir is the open source way to connect any LLM to any MCP server and build custom agents that have tool access, without using closed source or application clients.",
+  "repo_url": "https://github.com/ramonlimaramos/mcpixir",
+  "source_hub": "mcp_so",
+  "owner": "ramonlimaramos",
+  "stars": 7,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "a74fbd50d24061ca72e02c0c9d83f9f6370c8f46",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 7,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:54:02Z",
+  "verification_level": "scanner_only"
+}

@@ -1,0 +1,25 @@
+{
+  "id": "hevy-mcp-ts-68238a20",
+  "name": "hevy-mcp-ts",
+  "description": "A TypeScript MCP Server for interacting with Hevy Workout App in LLMs",
+  "repo_url": "https://github.com/amilz/hevy-mcp-ts",
+  "source_hub": "mcp_so",
+  "owner": "amilz",
+  "stars": 2,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "4e388f37644437090de3343cd82985c053cefdd6",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 18,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:04:51Z",
+  "verification_level": "scanner_only"
+}

@@ -1,0 +1,25 @@
+{
+  "id": "comfy-mcp-server-aaec50e3",
+  "name": "comfy-mcp-server",
+  "description": "A server using FastMCP framework to generate images based on prompts via a remote Comfy server.",
+  "repo_url": "https://github.com/lalanikarim/comfy-mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "lalanikarim",
+  "stars": 38,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai-vision"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "8803d7afb6a2266fad23245ed2b463a70c757708",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 5,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:32:11Z",
+  "verification_level": "scanner_only"
+}

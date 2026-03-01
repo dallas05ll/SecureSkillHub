@@ -1,0 +1,26 @@
+{
+  "id": "minecraft-mcp-server-c0b9dcd2",
+  "name": "minecraft-mcp-server",
+  "description": "Python-based MCP server for seamless Minecraft server management via RCON. Integrates FastMCP for easy command execution, supports interaction with Claude Desktop and other MCP clients, and offers a flexible architecture for local development and production use.",
+  "repo_url": "https://github.com/Peterson047/minecraft-mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "Peterson047",
+  "stars": 5,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "dev-web-backend-python"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "d0e28cfaf271a0b1d76c33b4f0ddc312a8402626",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 7,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:54:02Z",
+  "verification_level": "scanner_only"
+}

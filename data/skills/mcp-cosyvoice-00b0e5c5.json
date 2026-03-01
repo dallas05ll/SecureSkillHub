@@ -1,0 +1,25 @@
+{
+  "id": "mcp-cosyvoice-00b0e5c5",
+  "name": "Mcp_cosyvoice",
+  "description": "Mcp server",
+  "repo_url": "https://github.com/943003797/Mcp_cosyvoice",
+  "source_hub": "mcp_so",
+  "owner": "943003797",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai-audio"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "992f863095bab9c2119a9c7433bbe97ad97451df",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 5,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:41Z",
+  "verification_level": "scanner_only"
+}

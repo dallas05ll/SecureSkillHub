@@ -1,0 +1,26 @@
+{
+  "id": "xhs-mcp-agent-2e6458ee",
+  "name": "xhs_mcp_agent",
+  "description": "XHS MCP Agent - A MCP server implementation",
+  "repo_url": "https://github.com/proerror77/xhs_mcp_agent",
+  "source_hub": "mcp_so",
+  "owner": "proerror77",
+  "stars": 18,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "c3a2d9a83ba253866c76def54a81ddf3029dccbd",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 25,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:42:34Z",
+  "verification_level": "scanner_only"
+}

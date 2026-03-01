@@ -1,0 +1,26 @@
+{
+  "id": "weather-ee9ce31b",
+  "name": "weather",
+  "description": "This is a tutorial repo about MCP server and client",
+  "repo_url": "https://github.com/oyzh888/weather",
+  "source_hub": "mcp_so",
+  "owner": "oyzh888",
+  "stars": 1,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "df0753041c4eb7bc01b3bceba0883268a0551e3f",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 12,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:41Z",
+  "verification_level": "scanner_only"
+}

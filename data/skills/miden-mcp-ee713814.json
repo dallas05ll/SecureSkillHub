@@ -1,0 +1,25 @@
+{
+  "id": "miden-mcp-ee713814",
+  "name": "miden-mcp",
+  "description": "Miden MCP server for developers",
+  "repo_url": "https://github.com/greenhat/miden-mcp",
+  "source_hub": "mcp_so",
+  "owner": "greenhat",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "dev"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "15cf15fdf43541211e003ef15cd8bbbfe874d86f",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 8,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:41Z",
+  "verification_level": "scanner_only"
+}

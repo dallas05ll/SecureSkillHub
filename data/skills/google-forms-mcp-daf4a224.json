@@ -1,0 +1,26 @@
+{
+  "id": "google-forms-mcp-daf4a224",
+  "name": "google-forms-mcp",
+  "description": "Google Forms MCP Server",
+  "repo_url": "https://github.com/matteoantoci/google-forms-mcp",
+  "source_hub": "mcp_so",
+  "owner": "matteoantoci",
+  "stars": 8,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "96f7fa1ff02b8130105ddc6d98796f3b49c1c574",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 12,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:42:36Z",
+  "verification_level": "scanner_only"
+}

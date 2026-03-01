@@ -1,0 +1,28 @@
+{
+  "id": "mcp-server-todotxt-980b16f8",
+  "name": "mcp-server-todotxt",
+  "description": "MCP Todo.txt Integration is an MCP server for managing Todo.txt tasks. Add, update, filter, and organize tasks programmatically via the MCP protocol. Features include searching, sorting, metadata, batch operations, and dynamic updates.",
+  "repo_url": "https://github.com/guifelix/mcp-server-todotxt",
+  "source_hub": "mcp_so",
+  "owner": "guifelix",
+  "stars": 9,
+  "primary_language": "unknown",
+  "tags": [
+    "data",
+    "integ",
+    "prod-pm",
+    "util-search"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "75ce26bbfaaa0df014205989620179c195627cab",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 10,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:42:36Z",
+  "verification_level": "scanner_only"
+}

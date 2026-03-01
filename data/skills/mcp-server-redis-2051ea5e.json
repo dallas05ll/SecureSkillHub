@@ -1,0 +1,29 @@
+{
+  "id": "mcp-server-redis-2051ea5e",
+  "name": "mcp-server-redis",
+  "description": "MCP server to interact with Redis Server, AWS Memory DB, etc for caching or other use-cases where in-memory and key-value based storage is appropriate",
+  "repo_url": "https://github.com/prajwalnayak7/mcp-server-redis",
+  "source_hub": "mcp_so",
+  "owner": "prajwalnayak7",
+  "stars": 25,
+  "primary_language": "unknown",
+  "tags": [
+    "data-db",
+    "integ-cloud",
+    "integ-cloud-aws",
+    "prod-notes",
+    "util-file"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "9d8a342d6a3c1a06fde6e469ebac50c59790b9bf",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 18,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:32:11Z",
+  "verification_level": "scanner_only"
+}

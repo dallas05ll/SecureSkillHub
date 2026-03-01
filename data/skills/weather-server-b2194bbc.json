@@ -1,0 +1,27 @@
+{
+  "id": "weather-server-b2194bbc",
+  "name": "weather-server",
+  "description": "A weather information server built using Model Context Protocol (MCP) to provide real-time weather data and forecasts",
+  "repo_url": "https://github.com/pg-yuly/weather-server",
+  "source_hub": "mcp_so",
+  "owner": "pg-yuly",
+  "stars": 1,
+  "primary_language": "unknown",
+  "tags": [
+    "data",
+    "data-ai",
+    "data-ai-nlp"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "fb671c664622cae4cc65f11756df2b4825a1faf4",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 4,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:41Z",
+  "verification_level": "scanner_only"
+}

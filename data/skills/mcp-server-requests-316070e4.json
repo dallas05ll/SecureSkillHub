@@ -1,0 +1,26 @@
+{
+  "id": "mcp-server-requests-316070e4",
+  "name": "mcp-server-requests",
+  "description": "Need a MCP server built? Request it here.",
+  "repo_url": "https://github.com/JordanDalton/mcp-server-requests",
+  "source_hub": "mcp_so",
+  "owner": "JordanDalton",
+  "stars": 3,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "eb8f748c3d4ddefc1a5603082a98f94e9bc961fc",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 1,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:04:51Z",
+  "verification_level": "scanner_only"
+}

@@ -1,0 +1,26 @@
+{
+  "id": "raftt-mcp-server-4a88ea54",
+  "name": "raftt-mcp-server",
+  "description": "MCP server for raftt claude integration",
+  "repo_url": "https://github.com/vrvaderom/raftt-mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "vrvaderom",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "integ"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "acb5aa6a33f5cf990a6023e39df3d5ba5d0d5ba0",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 1,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:41Z",
+  "verification_level": "scanner_only"
+}

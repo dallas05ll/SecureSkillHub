@@ -1,0 +1,27 @@
+{
+  "id": "spring-boot-ai-mongo-mcp-server-e49d28cd",
+  "name": "spring-boot-ai-mongo-mcp-server",
+  "description": "This is MCP Server Code",
+  "repo_url": "https://github.com/shdhumale/spring-boot-ai-mongo-mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "shdhumale",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-db",
+    "dev"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "66dea1f1e139b374f5e3ee37dc316ef6c3ed54c1",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 1,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:43:00Z",
+  "verification_level": "scanner_only"
+}

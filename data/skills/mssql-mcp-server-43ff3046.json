@@ -1,0 +1,26 @@
+{
+  "id": "mssql-mcp-server-43ff3046",
+  "name": "mssql-mcp-server",
+  "description": "MCP server enables AI agents to interact with MSSQL.",
+  "repo_url": "https://github.com/stilllovee/mssql-mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "stilllovee",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-db"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "ae58f740e082e9f7add7f2d457e79e1c372e9734",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 12,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:40Z",
+  "verification_level": "scanner_only"
+}

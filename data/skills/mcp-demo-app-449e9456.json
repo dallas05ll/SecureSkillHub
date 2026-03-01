@@ -1,0 +1,28 @@
+{
+  "id": "mcp-demo-app-449e9456",
+  "name": "mcp-demo-app",
+  "description": "A simple Node.js/Express API server using TypeScript for managing products and orders, with Model Context Protocol (MCP) integration.",
+  "repo_url": "https://github.com/sameerfa/mcp-demo-app",
+  "source_hub": "mcp_so",
+  "owner": "sameerfa",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp",
+    "dev-web-backend-node",
+    "integ"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "da98ac1ca1ec96306bf78be09c746a4bff3c2f74",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 8,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:41Z",
+  "verification_level": "scanner_only"
+}

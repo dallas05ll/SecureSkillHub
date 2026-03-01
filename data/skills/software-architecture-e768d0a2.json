@@ -1,0 +1,44 @@
+{
+  "id": "software-architecture-e768d0a2",
+  "name": "Software Architecture",
+  "description": "Guidance for quality-focused software development based on Clean Architecture and Domain-Driven Design principles, covering early return patterns, library-first approach, DDD/ubiquitous language, naming conventions, separation of concerns, and anti-pattern avoidance",
+  "repo_url": "https://github.com/NeoLabHQ/context-engineering-kit/tree/master/plugins/ddd/skills/software-architecture",
+  "source_hub": "claude_skills_hub",
+  "skill_type": "agent_skill",
+  "owner": "NeoLabHQ",
+  "stars": 0,
+  "forks": 50,
+  "license": "GPL-3.0",
+  "primary_language": "markdown",
+  "tags": [
+    "data-ai",
+    "repo_unavailable"
+  ],
+  "source_tags": [
+    "testing",
+    "cli",
+    "coding",
+    "integration"
+  ],
+  "categories": [
+    "dev"
+  ],
+  "version": "1.0.0",
+  "requires_code_execution": false,
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "low",
+  "verified_commit": "554814cfd47755379170dd8686d9391822e3ea83",
+  "findings_summary": {
+    "notes": "Prompt-only skill (SKILL.md only, no scripts or hooks). Provides concise, opinionated coding standards based on Clean Architecture and DDD: early returns, arrow functions, max 80-line functions, max 200-line files, domain-specific naming, no generic utils/helpers, library-first approach, and separation of concerns. No executable code or network calls. Zero attack surface. Part of NeoLabHQ/context-engineering-kit (532 stars, TypeScript primary language, active repo, GPL-3.0). The ddd plugin directory also includes a setup-code-formating skill (separate skill). Skill content is well-structured and actionable."
+  },
+  "scan_summary": "SKILL.md only - no scripts, hooks, or executables. Concise software architecture guidelines. No security concerns.",
+  "parent_repo_stars": 532,
+  "is_monorepo_child": true,
+  "trust_level": "medium",
+  "scan_date": "2026-02-26T03:00:51Z",
+  "repo_status": "unavailable",
+  "repo_check_date": "2026-02-28T20:52:56.455779+00:00",
+  "repo_check_error": "fatal: repository 'https://github.com/NeoLabHQ/context-engineering-kit/tree/master/plugins/ddd/skills/software-architecture/' not found",
+  "verification_level": "scanner_only"
+}

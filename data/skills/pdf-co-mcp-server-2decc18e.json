@@ -1,0 +1,30 @@
+{
+  "id": "pdf-co-mcp-server-2decc18e",
+  "name": "PDF.co MCP Server",
+  "description": "Provides PDF.co API functionality through the Model Context Protocol, enabling AI assistants to perform various PDF processing tasks like conversion, editing, searching, and security operations.",
+  "repo_url": "https://github.com/pdfdotco/pdfco-mcp",
+  "source_hub": "glama",
+  "owner": "pdfdotco",
+  "stars": 9,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp",
+    "integ",
+    "prod-pm",
+    "sec",
+    "util-search"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "da15b28f68ede5eec029ede1a374f6be7b0890f6",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 21,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:42:34Z",
+  "verification_level": "scanner_only"
+}

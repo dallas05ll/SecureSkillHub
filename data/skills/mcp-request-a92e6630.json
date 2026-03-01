@@ -1,0 +1,25 @@
+{
+  "id": "mcp-request-a92e6630",
+  "name": "mcp-request",
+  "description": "A general-purpose HTTP request service for interacting with multiple APIs",
+  "repo_url": "https://github.com/chendatony31/mcp-request",
+  "source_hub": "mcp_so",
+  "owner": "chendatony31",
+  "stars": 1,
+  "primary_language": "unknown",
+  "tags": [
+    "integ"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "2fc0604a0232752a8c830a277af965dbb60a6c8c",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 5,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:42Z",
+  "verification_level": "scanner_only"
+}

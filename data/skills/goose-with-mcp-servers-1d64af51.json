@@ -1,0 +1,27 @@
+{
+  "id": "goose-with-mcp-servers-1d64af51",
+  "name": "goose-with-mcp-servers",
+  "description": "Codename goose docker image with mcp servers",
+  "repo_url": "https://github.com/elsewhat/goose-with-mcp-servers",
+  "source_hub": "mcp_so",
+  "owner": "elsewhat",
+  "stars": 4,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai-vision",
+    "dev",
+    "dev-devops-docker"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "246ab30848de1b72367a432ada7556c6b2e021d3",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 1,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:54:02Z",
+  "verification_level": "scanner_only"
+}

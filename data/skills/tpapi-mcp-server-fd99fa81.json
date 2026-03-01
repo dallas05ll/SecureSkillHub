@@ -1,0 +1,26 @@
+{
+  "id": "tpapi-mcp-server-fd99fa81",
+  "name": "tpapi-mcp-server",
+  "description": "ThemeParks.wiki API MCP Server",
+  "repo_url": "https://github.com/habuma/tpapi-mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "habuma",
+  "stars": 3,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "prod-docs"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "6488beb8be32108c13438e26052fd82a893bc7f9",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 1,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:04:51Z",
+  "verification_level": "scanner_only"
+}

@@ -1,0 +1,25 @@
+{
+  "id": "fastmcp-boilerplate-599e828c",
+  "name": "fastmcp-boilerplate",
+  "description": "A simple MCP server built using FastMCP, TypeScript, ESLint, and Prettier.",
+  "repo_url": "https://github.com/punkpeye/fastmcp-boilerplate",
+  "source_hub": "mcp_so",
+  "owner": "punkpeye",
+  "stars": 81,
+  "primary_language": "unknown",
+  "tags": [
+    "dev"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "7c9a5cab750859023ffe60b37aba0cacc72d4228",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 8,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-27T06:40:44Z",
+  "verification_level": "scanner_only"
+}

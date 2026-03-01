@@ -1,0 +1,25 @@
+{
+  "id": "cronsignal-c830949e",
+  "name": "cronsignal",
+  "description": "Monitor cron jobs and scheduled tasks. Get alerts when they don't run, see why they failed with captured output. Create and manage monitors directly from Claude, Cursor, or any MCP-compatible AI assistant.",
+  "repo_url": "https://github.com/CronSignal/cronsignal",
+  "source_hub": "mcp_so",
+  "owner": "CronSignal",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "prod-calendar",
+    "prod-pm",
+    "util-monitor",
+    "repo_unavailable"
+  ],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null,
+  "repo_status": "unavailable",
+  "repo_check_date": "2026-02-28T20:51:33.290896+00:00",
+  "repo_check_error": "fatal: could not read Username for 'https://github.com': Device not configured"
+}

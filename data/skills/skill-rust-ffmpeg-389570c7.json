@@ -1,0 +1,31 @@
+{
+  "id": "skill-rust-ffmpeg-389570c7",
+  "name": "skill-rust-ffmpeg",
+  "description": "Claude Code skill for Rust FFmpeg video/audio development: library selection, code generation, and problem solving",
+  "repo_url": "https://github.com/YeautyYE/skill-rust-ffmpeg",
+  "source_hub": "github_search",
+  "skill_type": "agent_skill",
+  "owner": "YeautyYE",
+  "stars": 4,
+  "license": "mit",
+  "primary_language": "markdown",
+  "tags": [
+    "data-ai",
+    "data-ai-audio",
+    "dev",
+    "dev-web-backend-rust",
+    "util-media"
+  ],
+  "verification_status": "pass",
+  "overall_score": 78,
+  "risk_level": "medium",
+  "verified_commit": null,
+  "scan_summary": null,
+  "last_updated": "2026-02-20T20:13:27Z",
+  "findings_summary": {
+    "notes": "Metadata-based verification. Score=78. Signals: stars=4; license='mit' (+5); owner='YeautyYE' (+3); primary_language='markdown'; source_hub='github_search'. Status: pass. Risk: medium."
+  },
+  "trust_level": "low",
+  "scan_date": "2026-02-26T06:14:56Z",
+  "verification_level": "metadata_only"
+}

@@ -1,0 +1,27 @@
+{
+  "id": "anthropic-mcp-code-analyzer-d457cf1d",
+  "name": "anthropic-mcp-code-analyzer",
+  "description": "An MCP server for analyzing open source projects and assisting with codebase integration",
+  "repo_url": "https://github.com/kivo360/anthropic-mcp-code-analyzer",
+  "source_hub": "mcp_so",
+  "owner": "kivo360",
+  "stars": 11,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "dev",
+    "integ"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "4f5f0bd1cca2990218072e3d5f74144b14dca9f1",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 3,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:42:36Z",
+  "verification_level": "scanner_only"
+}

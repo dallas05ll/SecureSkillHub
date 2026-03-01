@@ -1,0 +1,32 @@
+{
+  "id": "mixcut-skill-861c11a2",
+  "name": "MixCut-Skill",
+  "description": "AI-powered YouTube video mashup tool. Automatically downloads clips, generates bilingual subtitles, and creates mixed-cut compilations using Remotion.",
+  "repo_url": "https://github.com/garroshub/MixCut-Skill",
+  "source_hub": "github_search",
+  "skill_type": "agent_skill",
+  "owner": "garroshub",
+  "stars": 1,
+  "license": "apache-2.0",
+  "primary_language": "markdown",
+  "tags": [
+    "data-ai",
+    "integ-social",
+    "prod",
+    "util",
+    "util-file",
+    "util-media"
+  ],
+  "verification_status": "pass",
+  "overall_score": 78,
+  "risk_level": "medium",
+  "verified_commit": null,
+  "scan_summary": null,
+  "last_updated": "2026-01-26T04:24:34Z",
+  "findings_summary": {
+    "notes": "Metadata-based verification. Score=78. Signals: stars=1; license='apache-2.0' (+5); owner='garroshub' (+3); primary_language='markdown'; source_hub='github_search'. Status: pass. Risk: medium."
+  },
+  "trust_level": "low",
+  "scan_date": "2026-02-26T06:14:56Z",
+  "verification_level": "metadata_only"
+}

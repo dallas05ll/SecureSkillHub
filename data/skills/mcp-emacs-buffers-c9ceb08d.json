@@ -1,0 +1,26 @@
+{
+  "id": "mcp-emacs-buffers-c9ceb08d",
+  "name": "mcp-emacs-buffers",
+  "description": "An MCP Server exposing open Emacs buffers as Resources",
+  "repo_url": "https://github.com/kfischer-okarin/mcp-emacs-buffers",
+  "source_hub": "mcp_so",
+  "owner": "kfischer-okarin",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "209b37280fdb054084756343f0546476e4c4bb7d",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 1,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:42Z",
+  "verification_level": "scanner_only"
+}

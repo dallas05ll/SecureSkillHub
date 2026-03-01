@@ -1,0 +1,25 @@
+{
+  "id": "mcp-backstage-example-97e1ff72",
+  "name": "mcp-backstage-example",
+  "description": "A sample MCP Server and Agent that uses it to pull data from a Backstage instanace",
+  "repo_url": "https://github.com/evanshortiss/mcp-backstage-example",
+  "source_hub": "mcp_so",
+  "owner": "evanshortiss",
+  "stars": 7,
+  "primary_language": "unknown",
+  "tags": [
+    "data"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "946af8009c7958704f3ccf7fc32e1bc6b778aa9b",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 14,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:54:02Z",
+  "verification_level": "scanner_only"
+}

@@ -1,0 +1,26 @@
+{
+  "id": "poem-mcp-681c1061",
+  "name": "poem_mcp",
+  "description": "A MCP server provide knowlarge about ancient Chinese",
+  "repo_url": "https://github.com/charlesix59/poem_mcp",
+  "source_hub": "mcp_so",
+  "owner": "charlesix59",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "74c8b0893f274a8853ea74c10499e15d4ef06f65",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 1,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:41Z",
+  "verification_level": "scanner_only"
+}

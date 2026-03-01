@@ -1,0 +1,33 @@
+{
+  "id": "ordinary-claude-skills-9257946a",
+  "name": "ordinary-claude-skills",
+  "description": "Aggregated repository of 600+ official and community-built Claude skills organized by category, with a searchable static documentation site. Covers science, software engineering, infrastructure, data/AI, business, creative, and web3 domains.",
+  "repo_url": "https://github.com/Microck/ordinary-claude-skills",
+  "source_hub": "github_search",
+  "skill_type": "agent_skill",
+  "owner": "Microck",
+  "stars": 128,
+  "forks": 15,
+  "license": "other",
+  "primary_language": "Python",
+  "tags": [
+    "data",
+    "data-ai",
+    "prod-comm",
+    "prod-docs",
+    "sec-crypto",
+    "util-search"
+  ],
+  "verification_status": "pass",
+  "overall_score": 58,
+  "risk_level": "medium",
+  "verified_commit": null,
+  "scan_summary": "Aggregated collection of 600+ skills from multiple sources (Anthropic, Composio, k-dense-ai, community). Non-standard license (NOASSERTION). Skills are categorized in skills_all/ and skills_categorized/ directories. Repo author acknowledges passive maintenance and does not individually vet each skill. Contains Python utility scripts for site generation. Static docs site at microck.github.io.",
+  "findings_summary": {
+    "notes": "Large aggregation repo with known caveats: (1) Author self-describes it as 'non-curated' and says bugs may go unnoticed; (2) License is NOASSERTION — unclear redistribution rights for the aggregated skills; (3) Skills from various third-party sources with unverified individual quality; (4) 600+ skills makes individual review impractical. Useful as a browsing index but individual skills should be vetted before use in sensitive contexts."
+  },
+  "last_updated": "2026-02-25T17:38:04Z",
+  "trust_level": "low",
+  "scan_date": "2026-02-26T02:25:54Z",
+  "verification_level": "scanner_only"
+}

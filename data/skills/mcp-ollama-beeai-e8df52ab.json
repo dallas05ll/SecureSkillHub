@@ -1,0 +1,26 @@
+{
+  "id": "mcp-ollama-beeai-e8df52ab",
+  "name": "mcp-ollama-beeai",
+  "description": "A minimal agentic app to interact with OLLAMA models leveraging multiple MCP server tools using BeeAI framework.",
+  "repo_url": "https://github.com/tamdilip/mcp-ollama-beeai",
+  "source_hub": "mcp_so",
+  "owner": "tamdilip",
+  "stars": 5,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "ebb0eae8e8f7dae4a2966e6cb30d10ba1f8878b4",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 6,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:54:02Z",
+  "verification_level": "scanner_only"
+}

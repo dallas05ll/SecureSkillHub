@@ -1,0 +1,29 @@
+{
+  "id": "currency-exchange-mcp-69851eb8",
+  "name": "Currency_Exchange_MCP",
+  "description": "A real-time currency exchange service built with Python and MCP (Model Context Protocol). Provides exchange rates between any two supported currencies and lists all available currencies. Features Docker support for easy deployment and uses Server-Sent Events (SSE) for efficient real-time communication.",
+  "repo_url": "https://github.com/ankitbelbase17/Currency_Exchange_MCP",
+  "source_hub": "mcp_so",
+  "owner": "ankitbelbase17",
+  "stars": 3,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp",
+    "dev-devops-docker",
+    "dev-web-backend-python",
+    "prod-comm"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "dcb9a8abb552d6b7487ccd38c4602ffc53c76467",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 11,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:04:50Z",
+  "verification_level": "scanner_only"
+}

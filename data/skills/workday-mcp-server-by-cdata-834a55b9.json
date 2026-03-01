@@ -1,0 +1,27 @@
+{
+  "id": "workday-mcp-server-by-cdata-834a55b9",
+  "name": "workday-mcp-server-by-cdata",
+  "description": "This read-only MCP Server allows you to connect to Workday data from Claude Desktop through CData JDBC Drivers. Free (beta) read/write servers available at",
+  "repo_url": "https://github.com/CDataSoftware/workday-mcp-server-by-cdata",
+  "source_hub": "mcp_so",
+  "owner": "CDataSoftware",
+  "stars": 8,
+  "primary_language": "unknown",
+  "tags": [
+    "data",
+    "data-ai",
+    "integ"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "173f8209e486919b685cfba89dbda29f385a9f93",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 1,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:54:02Z",
+  "verification_level": "scanner_only"
+}

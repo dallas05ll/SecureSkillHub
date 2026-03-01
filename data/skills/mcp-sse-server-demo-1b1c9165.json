@@ -1,0 +1,26 @@
+{
+  "id": "mcp-sse-server-demo-1b1c9165",
+  "name": "mcp-sse-server-demo",
+  "description": "mcp sse server demo",
+  "repo_url": "https://github.com/arthur-vr/mcp-sse-server-demo",
+  "source_hub": "mcp_so",
+  "owner": "arthur-vr",
+  "stars": 1,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "22ffa2d86d8faa50292aaea73cce8f9fea18642d",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 5,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:40Z",
+  "verification_level": "scanner_only"
+}

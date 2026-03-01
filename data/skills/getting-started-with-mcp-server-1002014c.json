@@ -1,0 +1,26 @@
+{
+  "id": "getting-started-with-mcp-server-1002014c",
+  "name": "getting-started-with-mcp-server",
+  "description": "This tutorial walks you through setting up a basic MCP (Model Context Protocol) server to expose read-only resources to Large Language Models (LLMs) like Claude.",
+  "repo_url": "https://github.com/cycle-sync-ai/getting-started-with-mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "cycle-sync-ai",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "7fd4d61b271216d4c4102a9fc0551add3d0f2612",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 5,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:42Z",
+  "verification_level": "scanner_only"
+}

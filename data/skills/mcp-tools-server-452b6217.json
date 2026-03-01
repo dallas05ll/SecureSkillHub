@@ -1,0 +1,26 @@
+{
+  "id": "mcp-tools-server-452b6217",
+  "name": "mcp-tools-server",
+  "description": "In this repository I want to create my personalized tools for llms",
+  "repo_url": "https://github.com/Dkuaik/mcp-tools-server",
+  "source_hub": "mcp_so",
+  "owner": "Dkuaik",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "456f9bd4cc08ae0d648e1599563fdfdc02316244",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 1,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:42Z",
+  "verification_level": "scanner_only"
+}

@@ -1,0 +1,25 @@
+{
+  "id": "crypto-whitepapers-mcp-848cc446",
+  "name": "crypto-whitepapers-mcp",
+  "description": "An MCP server serving as a structured knowledge base of crypto whitepapers.",
+  "repo_url": "https://github.com/kukapay/crypto-whitepapers-mcp",
+  "source_hub": "mcp_so",
+  "owner": "kukapay",
+  "stars": 6,
+  "primary_language": "unknown",
+  "tags": [
+    "sec-crypto"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "72ffa610269b6eb9b2fe5dea15bf7b932a7ddd04",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 4,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:54:02Z",
+  "verification_level": "scanner_only"
+}

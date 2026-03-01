@@ -1,0 +1,28 @@
+{
+  "id": "skill-description-optimizer-63562c2e",
+  "name": "skill-description-optimizer",
+  "description": "Meta-skill for optimizing Claude Skill descriptions using SDS standard and data-driven analysis",
+  "repo_url": "https://github.com/LZMW/skill-description-optimizer",
+  "source_hub": "github_search",
+  "skill_type": "agent_skill",
+  "owner": "LZMW",
+  "stars": 4,
+  "license": "mit",
+  "primary_language": "markdown",
+  "tags": [
+    "data",
+    "data-ai"
+  ],
+  "verification_status": "pass",
+  "overall_score": 78,
+  "risk_level": "medium",
+  "verified_commit": null,
+  "scan_summary": null,
+  "last_updated": "2026-01-27T14:35:54Z",
+  "findings_summary": {
+    "notes": "Metadata-based verification. Score=78. Signals: stars=4; license='mit' (+5); owner='LZMW' (+3); primary_language='markdown'; source_hub='github_search'. Status: pass. Risk: medium."
+  },
+  "trust_level": "low",
+  "scan_date": "2026-02-26T06:14:56Z",
+  "verification_level": "metadata_only"
+}

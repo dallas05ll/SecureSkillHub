@@ -1,0 +1,26 @@
+{
+  "id": "playwright-mcp-docker-99132186",
+  "name": "playwright-mcp-docker",
+  "description": "This project provides a Docker Compose environment to run the '@playwright/mcp' server.",
+  "repo_url": "https://github.com/iuill/playwright-mcp-docker",
+  "source_hub": "mcp_so",
+  "owner": "iuill",
+  "stars": 32,
+  "primary_language": "unknown",
+  "tags": [
+    "dev-devops-docker",
+    "dev-testing"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "405909bfc8396a6b1e8979035d8ff705da276020",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 4,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:32:11Z",
+  "verification_level": "scanner_only"
+}

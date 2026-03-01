@@ -1,0 +1,25 @@
+{
+  "id": "scrapi-c8e9b2a6",
+  "name": "scrapi",
+  "description": "Web scraping MCP server for AI agents. Bypass anti-bot systems and get clean, LLM-ready Markdown content. Supports both stdio and Streamable HTTP transports. Built on 8+ years of production scraping infrastructure.",
+  "repo_url": "https://github.com/bamchi/scrapi",
+  "source_hub": "mcp_so",
+  "owner": "bamchi",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "integ",
+    "prod-docs",
+    "util-media",
+    "repo_unavailable"
+  ],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null,
+  "repo_status": "unavailable",
+  "repo_check_date": "2026-02-28T20:52:52.242988+00:00",
+  "repo_check_error": "fatal: could not read Username for 'https://github.com': Device not configured"
+}

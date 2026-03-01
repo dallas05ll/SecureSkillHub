@@ -1,0 +1,30 @@
+{
+  "id": "get-y2b-clips-8c85336f",
+  "name": "get-y2b-clips",
+  "description": "YouTube nuggets extraction via Claude Code Skill",
+  "repo_url": "https://github.com/DidierRLopes/get-y2b-clips",
+  "source_hub": "github_search",
+  "skill_type": "agent_skill",
+  "owner": "DidierRLopes",
+  "stars": 3,
+  "license": "mit",
+  "primary_language": "markdown",
+  "tags": [
+    "data-ai",
+    "dev",
+    "integ-social",
+    "util-media"
+  ],
+  "verification_status": "pass",
+  "overall_score": 78,
+  "risk_level": "medium",
+  "verified_commit": null,
+  "scan_summary": null,
+  "last_updated": "2026-01-28T22:09:05Z",
+  "findings_summary": {
+    "notes": "Metadata-based verification. Score=78. Signals: stars=3; license='mit' (+5); owner='DidierRLopes' (+3); primary_language='markdown'; source_hub='github_search'. Status: pass. Risk: medium."
+  },
+  "trust_level": "low",
+  "scan_date": "2026-02-26T06:14:56Z",
+  "verification_level": "metadata_only"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "memento-mcp-oauth-7f0cc7e3",
+  "name": "memento-mcp-oauth",
+  "description": "Memento MCP Server with OAuth authentication for Claude.ai",
+  "repo_url": "https://github.com/odenizo/memento-mcp-oauth",
+  "source_hub": "mcp_so",
+  "owner": "odenizo",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "integ",
+    "sec",
+    "sec-auth"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "343f788806c360814b98e13caa335c820ea9525a",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 1,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:42Z",
+  "verification_level": "scanner_only"
+}

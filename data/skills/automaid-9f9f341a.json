@@ -1,0 +1,26 @@
+{
+  "id": "automaid-9f9f341a",
+  "name": "AutoMaid",
+  "description": "AgenticMaid is a Python library designed to interact with one or more Multi-Capability Protocol (MCP) servers.",
+  "repo_url": "https://github.com/Buidl-Land/AutoMaid",
+  "source_hub": "mcp_so",
+  "owner": "Buidl-Land",
+  "stars": 1,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "dev-web-backend-python"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "5d5ad9e143d1b4115c39e612594237c14ca35b63",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 11,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:42Z",
+  "verification_level": "scanner_only"
+}

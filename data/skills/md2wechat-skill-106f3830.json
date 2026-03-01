@@ -1,0 +1,34 @@
+{
+  "id": "md2wechat-skill-106f3830",
+  "name": "md2wechat-skill",
+  "description": "Converts Markdown articles to WeChat Official Account formatted HTML with inline CSS and optionally uploads to the WeChat draft box. Supports API mode (fast, via md2wechat.cn) and AI mode (Claude-powered themed layouts). Includes writer style assistant and AI humanizer.",
+  "repo_url": "https://github.com/geekjourneyx/md2wechat-skill",
+  "source_hub": "github_search",
+  "skill_type": "agent_skill",
+  "owner": "geekjourneyx",
+  "stars": 472,
+  "forks": 82,
+  "license": "",
+  "primary_language": "go",
+  "tags": [
+    "data-ai",
+    "dev-web",
+    "integ",
+    "prod-comm",
+    "prod-docs",
+    "util",
+    "util-file"
+  ],
+  "verification_status": "pass",
+  "overall_score": 68,
+  "risk_level": "medium",
+  "verified_commit": null,
+  "scan_summary": null,
+  "last_updated": "2026-02-25T16:40:12Z",
+  "findings_summary": {
+    "notes": "Functional skill with SKILL.md, comprehensive Go source code, and well-documented references. The SKILL.md frontmatter specifies 'primaryEnv: IMAGE_API_KEY' and requires curl/wget. The install.sh downloads a pre-compiled binary from GitHub Releases and places it in ~/.local/bin. The run.sh (used by the skill) also downloads a pre-compiled binary from GitHub Releases to ~/.cache/md2wechat. Key risk: The skill invokes a pre-built closed-source binary (md2wechat) downloaded from GitHub Releases at runtime. While the Go source code is included in the repo, there is no checksum verification for the downloaded binary, meaning the binary could differ from the source. The Go source does make outbound calls to md2wechat.cn API and the WeChat API, both of which handle user content. No license declared. The binary download mechanism lacks pinned versions or integrity checks in the run.sh (though a minimum size check of 100KB is present). Recommended for users who trust the owner and can verify the binary."
+  },
+  "trust_level": "low",
+  "scan_date": "2026-02-26T01:22:53Z",
+  "verification_level": "scanner_only"
+}

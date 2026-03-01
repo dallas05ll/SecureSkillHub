@@ -1,0 +1,26 @@
+{
+  "id": "mcp-change-analyzer-2981cc15",
+  "name": "mcp_change_analyzer",
+  "description": "MCP Server for analyzing outstanding changes to a repo",
+  "repo_url": "https://github.com/manavgup/mcp_change_analyzer",
+  "source_hub": "mcp_so",
+  "owner": "manavgup",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "d8028c64693a2079e8c80e446427aa1e4c0db061",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 21,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:40Z",
+  "verification_level": "scanner_only"
+}

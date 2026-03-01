@@ -1,0 +1,29 @@
+{
+  "id": "rspace-mcp-server-cba2cc36",
+  "name": "RSpace MCP Server",
+  "description": "A proof-of-concept server that enables LLM agents to interact with RSpace API endpoints using the Model Context Protocol, allowing AI assistants to access and manipulate research data in RSpace.",
+  "repo_url": "https://github.com/rspace-os/rspace-mcp",
+  "source_hub": "glama",
+  "owner": "rspace-os",
+  "stars": 4,
+  "primary_language": "unknown",
+  "tags": [
+    "data",
+    "data-ai",
+    "data-ai-nlp",
+    "integ",
+    "util-search"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "3c5cd4b8b41ec58ee7e980da312638095733d739",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 5,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:04:50Z",
+  "verification_level": "scanner_only"
+}

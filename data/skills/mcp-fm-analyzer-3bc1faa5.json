@@ -1,0 +1,27 @@
+{
+  "id": "mcp-fm-analyzer-3bc1faa5",
+  "name": "mcp-fm-analyzer",
+  "description": "The UVL Analyzer MCP is a Model Context Protocol (MCP) server designed to analyze feature models written in the Universal Variability Language (UVL). It provides a variety of tools to process and extract insights from feature models, such as identifying atomic sets, calculating average branching factors, and more.",
+  "repo_url": "https://github.com/lbdudc/mcp-fm-analyzer",
+  "source_hub": "mcp_so",
+  "owner": "lbdudc",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "fef30e7d6dfd2c4e1d22f70484793c5c2962beb1",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 6,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:41Z",
+  "verification_level": "scanner_only"
+}

@@ -1,0 +1,26 @@
+{
+  "id": "appium-mcp-bd3196b0",
+  "name": "appium-mcp",
+  "description": "MCP SERVER for appium",
+  "repo_url": "https://github.com/Rahulec08/appium-mcp",
+  "source_hub": "mcp_so",
+  "owner": "Rahulec08",
+  "stars": 57,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "16a22cb79e239d56396150292ca5be39bc9c4177",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 32,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-27T06:40:44Z",
+  "verification_level": "scanner_only"
+}

@@ -1,0 +1,26 @@
+{
+  "id": "mcp-puppeteer-server-044e2c87",
+  "name": "Mcp-Puppeteer-Server",
+  "description": "MCP Puppeteer Server HomeAssistant Add-on",
+  "repo_url": "https://github.com/rotexhawk/Mcp-Puppeteer-Server",
+  "source_hub": "mcp_so",
+  "owner": "rotexhawk",
+  "stars": 1,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "bf34cecfc63bc46ce5924fa20b1024afe3b89c13",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 7,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:40Z",
+  "verification_level": "scanner_only"
+}

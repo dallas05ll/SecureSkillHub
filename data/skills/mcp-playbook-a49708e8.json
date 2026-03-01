@@ -1,0 +1,27 @@
+{
+  "id": "mcp-playbook-a49708e8",
+  "name": "mcp-playbook",
+  "description": "A Model Context Protocol (MCP) server for managing project documentation and saving conversation logs within a user-specified target project directory.",
+  "repo_url": "https://github.com/dwarvesf/mcp-playbook",
+  "source_hub": "mcp_so",
+  "owner": "dwarvesf",
+  "stars": 4,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp",
+    "prod-docs"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "533a94d1a0aabf5bd4b40aebc824d6c41fd67b62",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 50,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:54:02Z",
+  "verification_level": "scanner_only"
+}

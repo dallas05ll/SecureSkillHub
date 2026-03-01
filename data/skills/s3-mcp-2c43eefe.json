@@ -1,0 +1,27 @@
+{
+  "id": "s3-mcp-2c43eefe",
+  "name": "s3-mcp",
+  "description": "s3-mcp is a MCP server facilitates agent's access to S3-compatible storage.",
+  "repo_url": "https://github.com/diabloneo/s3-mcp",
+  "source_hub": "mcp_so",
+  "owner": "diabloneo",
+  "stars": 1,
+  "primary_language": "unknown",
+  "tags": [
+    "integ-cloud",
+    "integ-cloud-aws",
+    "util-file"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "23c4d5f404320ca8a0ef464087866921cae4e41b",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 3,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:40Z",
+  "verification_level": "scanner_only"
+}

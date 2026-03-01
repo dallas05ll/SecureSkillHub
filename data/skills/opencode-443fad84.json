@@ -1,0 +1,28 @@
+{
+  "id": "opencode-443fad84",
+  "name": "opencode",
+  "description": "Pre-built Opencode environment configuration with agents, commands, skills, themes, and MCP server definitions ready to use and customize.",
+  "repo_url": "https://github.com/jjmartres/opencode",
+  "source_hub": "github_search",
+  "skill_type": "agent_skill",
+  "owner": "jjmartres",
+  "stars": 50,
+  "license": "mit",
+  "primary_language": "Python",
+  "tags": [
+    "dev",
+    "sec-crypto"
+  ],
+  "verification_status": "pass",
+  "overall_score": 70,
+  "risk_level": "low",
+  "verified_commit": null,
+  "scan_summary": null,
+  "last_updated": "2026-02-25T01:58:32Z",
+  "findings_summary": {
+    "notes": "MIT licensed, Python, actively maintained (updated today). Opencode-specific config kit similar to Claude dotfiles repos."
+  },
+  "trust_level": "low",
+  "scan_date": "2026-02-26T02:12:52Z",
+  "verification_level": "scanner_only"
+}

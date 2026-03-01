@@ -1,0 +1,42 @@
+{
+  "id": "langsmith-mcp-server-95626866",
+  "name": "LangSmith MCP Server",
+  "description": "Enables language models to access LangSmith observability platform features including fetching conversation history, managing prompts, retrieving traces and runs, working with datasets and examples, and analyzing experiments.",
+  "repo_url": "https://github.com/langchain-ai/langsmith-mcp-server",
+  "source_hub": "glama",
+  "owner": "langchain-ai",
+  "stars": 86,
+  "primary_language": "unknown",
+  "tags": [
+    "data",
+    "data-ai",
+    "util-monitor",
+    "util-search"
+  ],
+  "verification_status": "pass",
+  "overall_score": 82,
+  "risk_level": "low",
+  "verified_commit": null,
+  "scan_summary": {
+    "total_findings": 12,
+    "files_scanned": 38,
+    "severity_counts": {
+      "medium": 5,
+      "low": 7
+    },
+    "category_counts": {
+      "network_ops": 2,
+      "file_ops": 0,
+      "env_access": 3
+    },
+    "verification_type": "full_llm_pipeline",
+    "key_findings": [
+      "Official LangChain project, MIT license",
+      "Read-only MCP server — no file I/O in core source",
+      "All network calls target LangSmith API only",
+      "os.environ SET creates race condition risk in HTTP mode"
+    ]
+  },
+  "scan_date": "2026-02-25T08:30:00Z",
+  "verification_level": "scanner_only"
+}

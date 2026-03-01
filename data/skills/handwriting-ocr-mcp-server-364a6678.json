@@ -1,0 +1,27 @@
+{
+  "id": "handwriting-ocr-mcp-server-364a6678",
+  "name": "handwriting-ocr-mcp-server",
+  "description": "Model Context Protocol (MCP) Server for Handwriting OCR",
+  "repo_url": "https://github.com/Handwriting-OCR/handwriting-ocr-mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "Handwriting-OCR",
+  "stars": 13,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp",
+    "data-ai-vision"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "1b81cd90103265eac82d4a441fe669e6c7ccf03a",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 6,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:42:34Z",
+  "verification_level": "scanner_only"
+}

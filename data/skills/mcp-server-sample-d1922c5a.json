@@ -1,0 +1,26 @@
+{
+  "id": "mcp-server-sample-d1922c5a",
+  "name": "mcp-server-sample",
+  "description": "MCP Server Sample",
+  "repo_url": "https://github.com/antonioscapellato/mcp-server-sample",
+  "source_hub": "mcp_so",
+  "owner": "antonioscapellato",
+  "stars": 2,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "eb319e3cc32c758f7b0a7f57a73c63ce12c077ba",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 3,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:04:51Z",
+  "verification_level": "scanner_only"
+}

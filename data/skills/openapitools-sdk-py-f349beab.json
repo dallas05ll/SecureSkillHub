@@ -1,0 +1,28 @@
+{
+  "id": "openapitools-sdk-py-f349beab",
+  "name": "openapitools-sdk-py",
+  "description": "Your APIs, Now AI Tools. Build mcp servers in a minute.",
+  "repo_url": "https://github.com/kvssankar/openapitools-sdk-py",
+  "source_hub": "mcp_so",
+  "owner": "kvssankar",
+  "stars": 2,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "dev",
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "93a565079bfc3e9e12b474e0e87cb50034480a2c",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 17,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:04:51Z",
+  "verification_level": "scanner_only"
+}

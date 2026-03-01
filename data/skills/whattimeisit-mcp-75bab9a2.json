@@ -1,0 +1,26 @@
+{
+  "id": "whattimeisit-mcp-75bab9a2",
+  "name": "whattimeisit-mcp",
+  "description": "A lightweight mcp server that tells you exactly what time is it based on your IP.",
+  "repo_url": "https://github.com/kukapay/whattimeisit-mcp",
+  "source_hub": "mcp_so",
+  "owner": "kukapay",
+  "stars": 9,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "dbd8a7650604dee7506ee4cc3fd7c090c94e5caf",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 4,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:42:34Z",
+  "verification_level": "scanner_only"
+}

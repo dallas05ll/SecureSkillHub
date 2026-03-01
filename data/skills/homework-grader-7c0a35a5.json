@@ -1,0 +1,28 @@
+{
+  "id": "homework-grader-7c0a35a5",
+  "name": "homework-grader",
+  "description": "Rubric-driven AI homework grading system built as a Claude Code Skill. Score student submissions with CoT reasoning, bias mitigation, and PDCA quality cycle.",
+  "repo_url": "https://github.com/ChantillyAn/homework-grader",
+  "source_hub": "github_search",
+  "skill_type": "agent_skill",
+  "owner": "ChantillyAn",
+  "stars": 2,
+  "license": "mit",
+  "primary_language": "markdown",
+  "tags": [
+    "data-ai",
+    "dev"
+  ],
+  "verification_status": "pass",
+  "overall_score": 78,
+  "risk_level": "medium",
+  "verified_commit": null,
+  "scan_summary": null,
+  "last_updated": "2026-02-23T04:36:57Z",
+  "findings_summary": {
+    "notes": "Metadata-based verification. Score=78. Signals: stars=2; license='mit' (+5); owner='ChantillyAn' (+3); primary_language='markdown'; source_hub='github_search'. Status: pass. Risk: medium."
+  },
+  "trust_level": "low",
+  "scan_date": "2026-02-26T06:14:56Z",
+  "verification_level": "metadata_only"
+}

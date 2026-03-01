@@ -1,0 +1,29 @@
+{
+  "id": "mcp-api-server-0a01410f",
+  "name": "MCP-API-Server",
+  "description": "A FastAPI-MCP server that fetches Wikipedia summaries for AI assistants, deployed using Google Colab and Ngrok.",
+  "repo_url": "https://github.com/Rishavv007/MCP-API-Server",
+  "source_hub": "mcp_so",
+  "owner": "Rishavv007",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "dev-web-backend-python",
+    "integ",
+    "prod-docs",
+    "util-search"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "ef979991713c079edc533a353c70138221a561ed",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 2,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:42Z",
+  "verification_level": "scanner_only"
+}

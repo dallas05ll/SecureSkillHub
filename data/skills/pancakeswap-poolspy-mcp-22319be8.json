@@ -1,0 +1,26 @@
+{
+  "id": "pancakeswap-poolspy-mcp-22319be8",
+  "name": "pancakeswap-poolspy-mcp",
+  "description": "An MCP server that tracks newly created liquidity pools on Pancake Swap",
+  "repo_url": "https://github.com/kukapay/pancakeswap-poolspy-mcp",
+  "source_hub": "mcp_so",
+  "owner": "kukapay",
+  "stars": 7,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "533e34308f3cbf8528e079c76dd3a6b53d5c4d3d",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 4,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:54:04Z",
+  "verification_level": "scanner_only"
+}

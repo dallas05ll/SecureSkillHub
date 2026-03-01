@@ -1,0 +1,25 @@
+{
+  "id": "time-mcp-e28b8c7d",
+  "name": "time-mcp",
+  "description": "🚀 Time MCP Server: Giving LLMs Time Awareness Capabilities",
+  "repo_url": "https://github.com/yokingma/time-mcp",
+  "source_hub": "mcp_so",
+  "owner": "yokingma",
+  "stars": 59,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "5bc003e14465812becb9c96159841af5d6430c0e",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 9,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-27T06:40:43Z",
+  "verification_level": "scanner_only"
+}

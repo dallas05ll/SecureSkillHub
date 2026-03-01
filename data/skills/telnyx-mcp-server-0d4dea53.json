@@ -1,0 +1,28 @@
+{
+  "id": "telnyx-mcp-server-0d4dea53",
+  "name": "telnyx-mcp-server",
+  "description": "Official Telnyx Local Model Context Protocol (MCP) Server that enables interaction with powerful telephony, messaging, and AI assistant APIs. This server allows MCP clients like Claude Desktop, Cursor, Windsurf, OpenAI Agents and others to manage phone numbers, send messages, make calls, and create AI assistants.",
+  "repo_url": "https://github.com/team-telnyx/telnyx-mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "team-telnyx",
+  "stars": 24,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp",
+    "integ",
+    "prod-comm"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "3f6a1173fec2b5bf3db4338384a9f7b00b8eaec8",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 51,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:32:11Z",
+  "verification_level": "scanner_only"
+}

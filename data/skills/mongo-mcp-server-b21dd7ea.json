@@ -1,0 +1,25 @@
+{
+  "id": "mongo-mcp-server-b21dd7ea",
+  "name": "mongo_mcp_server",
+  "description": "mongodb mcp server를 만들어보자",
+  "repo_url": "https://github.com/seeun0210/mongo_mcp_server",
+  "source_hub": "mcp_so",
+  "owner": "seeun0210",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "data-db"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "15050950cda4a3884098a3dde4e762d7db6a728d",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 15,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:41Z",
+  "verification_level": "scanner_only"
+}

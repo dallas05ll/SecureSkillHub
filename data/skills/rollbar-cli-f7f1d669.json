@@ -1,0 +1,24 @@
+{
+  "id": "rollbar-cli-f7f1d669",
+  "name": "rollbar-cli",
+  "description": "CLI and Agent SKill for Rollbar error tracking",
+  "repo_url": "https://github.com/robzolkos/rollbar-cli",
+  "source_hub": "github_search",
+  "skill_type": "agent_skill",
+  "owner": "robzolkos",
+  "stars": 0,
+  "license": "mit",
+  "primary_language": "markdown",
+  "tags": [],
+  "verification_status": "manual_review",
+  "overall_score": 68,
+  "risk_level": "medium",
+  "verified_commit": null,
+  "scan_summary": null,
+  "last_updated": "2026-02-03T13:02:51Z",
+  "findings_summary": {
+    "notes": "Metadata-based verification. Score=68. Signals: stars=0 (-10); license='mit' (+5); owner='robzolkos' (+3); primary_language='markdown'; source_hub='github_search'. Status: manual_review. Risk: medium."
+  },
+  "trust_level": "low",
+  "scan_date": "2026-02-26T06:14:56Z"
+}

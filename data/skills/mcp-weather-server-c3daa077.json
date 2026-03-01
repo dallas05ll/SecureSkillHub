@@ -1,0 +1,26 @@
+{
+  "id": "mcp-weather-server-c3daa077",
+  "name": "MCP-Weather-Server",
+  "description": "A weather server application for MCP",
+  "repo_url": "https://github.com/cskiro/MCP-Weather-Server",
+  "source_hub": "mcp_so",
+  "owner": "cskiro",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "90971e0e9ebad4ac4e9ca4a62088fbf1db2bd8d4",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 5,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:40Z",
+  "verification_level": "scanner_only"
+}

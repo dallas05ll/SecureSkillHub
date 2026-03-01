@@ -1,0 +1,27 @@
+{
+  "id": "timemcp-0515afd6",
+  "name": "TimeMCP",
+  "description": "Golang MCP server to replace modelcontextprotocol/time MCP server",
+  "repo_url": "https://github.com/chew-z/TimeMCP",
+  "source_hub": "mcp_so",
+  "owner": "chew-z",
+  "stars": 1,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp",
+    "dev-web-backend-go"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "78074d9f248bfef329b89e412d53229a545df956",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 4,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:41Z",
+  "verification_level": "scanner_only"
+}

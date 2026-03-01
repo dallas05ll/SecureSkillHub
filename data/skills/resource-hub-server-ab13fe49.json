@@ -1,0 +1,25 @@
+{
+  "id": "resource-hub-server-ab13fe49",
+  "name": "resource-hub-server",
+  "description": "An MCP proxy server to connect to the resource hub",
+  "repo_url": "https://github.com/adamwattis/resource-hub-server",
+  "source_hub": "mcp_so",
+  "owner": "adamwattis",
+  "stars": 4,
+  "primary_language": "unknown",
+  "tags": [
+    "integ"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "a012025177892eb0b9db2abea95353c9e6ad1f35",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 6,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:04:50Z",
+  "verification_level": "scanner_only"
+}

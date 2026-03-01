@@ -1,0 +1,29 @@
+{
+  "id": "aws-storage-mcp-8d9ee78d",
+  "name": "aws-storage-mcp",
+  "description": "A Model Context Protocol (MCP) server that enables natural language interactions with AWS storage services through Amazon Q CLI.",
+  "repo_url": "https://github.com/aquavis12/aws-storage-mcp",
+  "source_hub": "mcp_so",
+  "owner": "aquavis12",
+  "stars": 1,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp",
+    "integ-cloud",
+    "integ-cloud-aws",
+    "util-file"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "8687a9198fd2c16ebb8ff583bb21c8827b61cd4c",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 27,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:40Z",
+  "verification_level": "scanner_only"
+}

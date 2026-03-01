@@ -1,0 +1,26 @@
+{
+  "id": "mcp-nhost-2f73f58a",
+  "name": "mcp-nhost",
+  "description": "Nhost's MCP server",
+  "repo_url": "https://github.com/nhost/mcp-nhost",
+  "source_hub": "mcp_so",
+  "owner": "nhost",
+  "stars": 5,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "8b8ee71843cbcd90764e95ba098314b9d73694c0",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 74,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:54:04Z",
+  "verification_level": "scanner_only"
+}

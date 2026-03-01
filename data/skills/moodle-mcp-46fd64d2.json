@@ -1,0 +1,26 @@
+{
+  "id": "moodle-mcp-46fd64d2",
+  "name": "moodle-mcp",
+  "description": "A Model Context Protocol (MCP) server implementation that provides capabilities to interact with Moodle LMS",
+  "repo_url": "https://github.com/loyaniu/moodle-mcp",
+  "source_hub": "mcp_so",
+  "owner": "loyaniu",
+  "stars": 14,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "fb79b6351a085085c27f65383e78a5c82914cbc3",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 9,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:42:34Z",
+  "verification_level": "scanner_only"
+}

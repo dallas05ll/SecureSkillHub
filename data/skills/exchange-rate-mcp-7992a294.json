@@ -1,0 +1,26 @@
+{
+  "id": "exchange-rate-mcp-7992a294",
+  "name": "exchange-rate-mcp",
+  "description": "Toy MCP server that provides access to exchange rate data from the Norges Bank API.",
+  "repo_url": "https://github.com/karashiiro/exchange-rate-mcp",
+  "source_hub": "mcp_so",
+  "owner": "karashiiro",
+  "stars": 2,
+  "primary_language": "unknown",
+  "tags": [
+    "data",
+    "integ"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "ab3267bfd0499bc8b7360e9b0fc0776dfe712e34",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 9,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:04:50Z",
+  "verification_level": "scanner_only"
+}

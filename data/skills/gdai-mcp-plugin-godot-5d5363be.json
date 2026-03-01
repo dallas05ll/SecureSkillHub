@@ -1,0 +1,27 @@
+{
+  "id": "gdai-mcp-plugin-godot-5d5363be",
+  "name": "gdai-mcp-plugin-godot",
+  "description": "A MCP server integration for Godot Engine that allows Claude, Cursor, Windsurf, VSCode, etc to perform actions like creating scenes, resources, scripts, reading errors and much more.",
+  "repo_url": "https://github.com/3ddelano/gdai-mcp-plugin-godot",
+  "source_hub": "mcp_so",
+  "owner": "3ddelano",
+  "stars": 70,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "dev",
+    "integ"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "b680ee07af73d00f6fbd83e4b55a4a9f6574cee2",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 2,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-27T06:40:44Z",
+  "verification_level": "scanner_only"
+}

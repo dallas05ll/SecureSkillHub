@@ -1,0 +1,30 @@
+{
+  "id": "mcp-docs-reader-7a8d0070",
+  "name": "mcp_docs_reader",
+  "description": "A lightweight MCP server that loads PDF files, extracts and chunks their text, builds a semantic vector index, and returns relevant passages to Claude or other AI agents for document-based question answering.",
+  "repo_url": "https://github.com/AIMIZING/mcp_docs_reader",
+  "source_hub": "mcp_so",
+  "owner": "AIMIZING",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp",
+    "data-db-vector",
+    "prod-docs",
+    "util-file",
+    "util-search"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "88fb80fb5958a65bf6ef579ddcae97513a51dfb7",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 5,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:42Z",
+  "verification_level": "scanner_only"
+}

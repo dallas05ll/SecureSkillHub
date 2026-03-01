@@ -1,0 +1,26 @@
+{
+  "id": "mcp-server-mas-sequential-thinking-c533c8f2",
+  "name": "mcp-server-mas-sequential-thinking",
+  "description": "mcp-server-mas-sequential-thinking is a project focused on improving decision-making processes in multi-agent systems. It implements sequential reasoning techniques to enhance collaboration and efficiency among agents in various scenarios.",
+  "repo_url": "https://github.com/iniarfia/mcp-server-mas-sequential-thinking",
+  "source_hub": "mcp_so",
+  "owner": "iniarfia",
+  "stars": 8,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "12cbdd73f10e98c5e3ae2125d4d1b64e99b08534",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 4,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:42:36Z",
+  "verification_level": "scanner_only"
+}

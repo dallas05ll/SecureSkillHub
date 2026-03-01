@@ -1,0 +1,28 @@
+{
+  "id": "cloudinary-mcp-server-ab839218",
+  "name": "cloudinary-mcp-server",
+  "description": "Model Context Protocol (MCP) Server for Cloudinary API",
+  "repo_url": "https://github.com/yoavniran/cloudinary-mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "yoavniran",
+  "stars": 1,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp",
+    "integ",
+    "integ-cloud"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "9aaa641e065fd8d86ea2a2aa1fc289e458e06967",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 22,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:41Z",
+  "verification_level": "scanner_only"
+}

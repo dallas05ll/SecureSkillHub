@@ -1,0 +1,25 @@
+{
+  "id": "linear-mcp-b505f174",
+  "name": "linear-mcp",
+  "description": "MCP server for Linear (",
+  "repo_url": "https://github.com/tiovikram/linear-mcp",
+  "source_hub": "mcp_so",
+  "owner": "tiovikram",
+  "stars": 3,
+  "primary_language": "unknown",
+  "tags": [
+    "prod-pm"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "f04265c803ef3897a66e397363960b7a428e1cdf",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 6,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:04:51Z",
+  "verification_level": "scanner_only"
+}

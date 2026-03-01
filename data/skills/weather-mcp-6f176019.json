@@ -1,0 +1,26 @@
+{
+  "id": "weather-mcp-6f176019",
+  "name": "weather-mcp",
+  "description": "A weather MCP server Demo",
+  "repo_url": "https://github.com/vhxnif/weather-mcp",
+  "source_hub": "mcp_so",
+  "owner": "vhxnif",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "0f34372e3ac7206157f03379277453e861470e1a",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 11,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:42:59Z",
+  "verification_level": "scanner_only"
+}

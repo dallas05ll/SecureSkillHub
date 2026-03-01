@@ -1,0 +1,26 @@
+{
+  "id": "mcp-server-project-61573d16",
+  "name": "mcp_server_project",
+  "description": "Model Context Protocol server",
+  "repo_url": "https://github.com/donohue76/mcp_server_project",
+  "source_hub": "mcp_so",
+  "owner": "donohue76",
+  "stars": 1,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "9ccb7585655a51a72adacacda083c3e4ca2970e0",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 92,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:41Z",
+  "verification_level": "scanner_only"
+}

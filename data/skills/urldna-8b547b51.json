@@ -1,0 +1,96 @@
+{
+  "id": "urldna-8b547b51",
+  "name": "urldna",
+  "description": "Scan and analyze potentially malicious URLs using the urlDNA",
+  "repo_url": "https://github.com/urlDNA/urldna",
+  "source_hub": "mcp_so",
+  "owner": "urlDNA",
+  "stars": 75,
+  "primary_language": "python",
+  "tags": [
+    "sec-scan",
+    "status-pass"
+  ],
+  "verification_status": "pass",
+  "overall_score": 100,
+  "risk_level": "medium",
+  "verified_commit": "49cb9dddb40eb5a53763c62c266b7231311dd8f8",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 44,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-03-01T05:07:44Z",
+  "findings_summary": {
+    "scanner_findings": 8,
+    "dangerous_calls": 0,
+    "network_ops": 6,
+    "file_ops": 2,
+    "env_access": 0,
+    "obfuscation": 0,
+    "injection_patterns": 0,
+    "mismatches": 0,
+    "undocumented_capabilities": 0,
+    "supervisor_approved": true,
+    "supervisor_confidence": 95
+  },
+  "verification_level": "full_pipeline",
+  "agent_audit": {
+    "agents_completed": 5,
+    "agents_required": 5,
+    "pipeline_run_at": "2026-03-01T05:07:44Z",
+    "agent_a": {
+      "signed": true,
+      "signed_at": "2026-03-01T05:07:44Z",
+      "comment": "Docs quality 8/10. README present. 12 features, 3 permissions claimed.",
+      "doc_quality_score": 8,
+      "claimed_permissions": [
+        "network access",
+        "file system access",
+        "environment/secret access"
+      ]
+    },
+    "agent_b": {
+      "signed": true,
+      "signed_at": "2026-03-01T05:07:44Z",
+      "comment": "42 files analyzed. Found: 6 network, 2 file, 0 env, 0 system calls. Primary: python.",
+      "files_analyzed": 42,
+      "capabilities_found": [
+        "imports external dependencies",
+        "performs network operations",
+        "reads/writes files"
+      ]
+    },
+    "agent_c_star": {
+      "signed": true,
+      "signed_at": "2026-03-01T05:07:44Z",
+      "comment": "8 findings: 0 critical, 0 high, 6 medium, 2 low. No obfuscation. No injection.",
+      "total_findings": 8,
+      "severity_counts": {
+        "critical": 0,
+        "high": 0,
+        "medium": 6,
+        "low": 2,
+        "info": 0
+      }
+    },
+    "agent_d": {
+      "signed": true,
+      "signed_at": "2026-03-01T05:07:44Z",
+      "comment": "Score 100. 0 mismatches. Risk: medium. Safety overrides: none triggered.",
+      "score": 100,
+      "mismatches": 0,
+      "safety_overrides_applied": false
+    },
+    "agent_e": {
+      "signed": true,
+      "signed_at": "2026-03-01T05:07:44Z",
+      "comment": "Approved. Confidence 95%. No overrides.",
+      "approved": true,
+      "confidence": 95,
+      "override_reason": null
+    },
+    "manager_summary": "5/5 agents completed. Score: 100/100, Risk: medium. 0 mismatches, 8 scanner findings. Approved at 95% confidence. No safety overrides."
+  }
+}

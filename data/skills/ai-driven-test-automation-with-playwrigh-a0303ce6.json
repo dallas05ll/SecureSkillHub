@@ -1,0 +1,27 @@
+{
+  "id": "ai-driven-test-automation-with-playwrigh-a0303ce6",
+  "name": "ai_driven_test_automation_with_playwright_cursor_mcp_server",
+  "description": "ai_driven_test_automation_with_playwright_cursor_mcp_server",
+  "repo_url": "https://github.com/lupusludens-se/ai_driven_test_automation_with_playwright_cursor_mcp_server",
+  "source_hub": "mcp_so",
+  "owner": "lupusludens-se",
+  "stars": 1,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "dev-testing",
+    "prod"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "3fda9747fc231f9877cf15fadce5362eeff5a3d7",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 10,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:40Z",
+  "verification_level": "scanner_only"
+}

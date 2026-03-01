@@ -1,0 +1,25 @@
+{
+  "id": "mcp-server-isitdown-ed7ea9d0",
+  "name": "mcp-server-isitdown",
+  "description": "An MCP server that checks if a website is currently down by querying the website",
+  "repo_url": "https://github.com/hesreallyhim/mcp-server-isitdown",
+  "source_hub": "mcp_so",
+  "owner": "hesreallyhim",
+  "stars": 2,
+  "primary_language": "unknown",
+  "tags": [
+    "dev-web"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "8035168d7bd6c2a44e6f2c9f80682e1e288bde38",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 7,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:04:51Z",
+  "verification_level": "scanner_only"
+}

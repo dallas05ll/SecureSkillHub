@@ -1,0 +1,26 @@
+{
+  "id": "twitter-mcp-b8c94d8d",
+  "name": "twitter-mcp",
+  "description": "This MCP server allows Clients to interact with Twitter, enabling posting tweets and searching Twitter.",
+  "repo_url": "https://github.com/Rakibulislamsarkar/twitter-mcp",
+  "source_hub": "mcp_so",
+  "owner": "Rakibulislamsarkar",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "integ-social",
+    "util-search"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "f1e45b24d85c96e77db93a23de5f5a74758a109d",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 8,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:42:59Z",
+  "verification_level": "scanner_only"
+}

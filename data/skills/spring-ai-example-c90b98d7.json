@@ -1,0 +1,25 @@
+{
+  "id": "spring-ai-example-c90b98d7",
+  "name": "spring-ai-example",
+  "description": "spring ai example. mcp server, agentic ai.",
+  "repo_url": "https://github.com/lucasdengcn/spring-ai-example",
+  "source_hub": "mcp_so",
+  "owner": "lucasdengcn",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "3e055f8b770c7eb9a8e6fe1e5248b94bc76b29c5",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 6,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:40Z",
+  "verification_level": "scanner_only"
+}

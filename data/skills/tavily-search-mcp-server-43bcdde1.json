@@ -1,0 +1,27 @@
+{
+  "id": "tavily-search-mcp-server-43bcdde1",
+  "name": "tavily-search-mcp-server",
+  "description": "An MCP server implementation that integrates the Tavily Search API, providing optimized search capabilities for LLMs.",
+  "repo_url": "https://github.com/apappascs/tavily-search-mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "apappascs",
+  "stars": 4,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "integ",
+    "util-search"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "9a3c6430cbc727123ccdf1d9ce57cbb94eedc2b5",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 9,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:04:50Z",
+  "verification_level": "scanner_only"
+}

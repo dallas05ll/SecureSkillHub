@@ -1,0 +1,27 @@
+{
+  "id": "trusted-mcp-server-1095d372",
+  "name": "trusted-mcp-server",
+  "description": "First Trusted MCP server running on AWS Nitro Enclave Trusted Execution Environment",
+  "repo_url": "https://github.com/0xfreysa/trusted-mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "0xfreysa",
+  "stars": 16,
+  "primary_language": "unknown",
+  "tags": [
+    "dev-web-backend-rust",
+    "integ-cloud",
+    "integ-cloud-aws"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "e8b5dc984214451e039540761fa1a1bebe6c9871",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 54,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:42:36Z",
+  "verification_level": "scanner_only"
+}

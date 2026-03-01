@@ -1,0 +1,26 @@
+{
+  "id": "mcp-kibela-edd5c6fd",
+  "name": "mcp-kibela",
+  "description": "MCP server implementation that enables AI assistants to search and reference Kibela content",
+  "repo_url": "https://github.com/kj455/mcp-kibela",
+  "source_hub": "mcp_so",
+  "owner": "kj455",
+  "stars": 12,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "util-search"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "af4683939450c7f50e1824d336b1953cb2b10cb1",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 27,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:42:36Z",
+  "verification_level": "scanner_only"
+}

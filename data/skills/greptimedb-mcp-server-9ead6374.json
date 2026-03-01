@@ -1,0 +1,28 @@
+{
+  "id": "greptimedb-mcp-server-9ead6374",
+  "name": "GreptimeDB MCP Server",
+  "description": "A Model Context Protocol server implementation that enables AI assistants to securely interact with GreptimeDB, allowing them to explore database schema, read data, and execute SQL queries through a controlled interface.",
+  "repo_url": "https://github.com/GreptimeTeam/greptimedb-mcp-server",
+  "source_hub": "glama",
+  "owner": "GreptimeTeam",
+  "stars": 26,
+  "primary_language": "unknown",
+  "tags": [
+    "data",
+    "data-ai",
+    "data-ai-nlp",
+    "data-db"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 31,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-25T14:26:46Z",
+  "verification_level": "scanner_only"
+}

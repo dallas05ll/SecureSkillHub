@@ -1,0 +1,31 @@
+{
+  "id": "mcp-browser-automation-917510c2",
+  "name": "mcp-browser-automation",
+  "description": "Python-based MCP toolset with Echo server for testing and Browser Automation server using browser-use and LangChain for AI-driven web interactions",
+  "repo_url": "https://github.com/djpapzin/mcp-browser-automation",
+  "source_hub": "mcp_so",
+  "owner": "djpapzin",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "dev-testing",
+    "dev-web",
+    "dev-web-backend-python",
+    "prod",
+    "util",
+    "util-search"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "e503ff31956f319c909a15d89927b6016157cb5a",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 4,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:41Z",
+  "verification_level": "scanner_only"
+}

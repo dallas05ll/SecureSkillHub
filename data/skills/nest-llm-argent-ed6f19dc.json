@@ -1,0 +1,25 @@
+{
+  "id": "nest-llm-argent-ed6f19dc",
+  "name": "nest-llm-argent",
+  "description": "MCP 的出现带来了极大的灵活性，其最大的优势在于通过开发的 MCP Server，可以支持对接到不同的客户端。这种高度可扩展性促使我们深入思考：如何将 MCP Server 无缝集成到现有的 Web 服务中？ 我的解决方案是设计一个适配层，既能保持 MCP Server 包的完整性，又能方便地接入到各种场景中。因此，诞生了这个项目。 最终希望提供，大模型的调用包装接口，及mcp的相关配置请求接口。",
+  "repo_url": "https://github.com/luis1232023/nest-llm-argent",
+  "source_hub": "mcp_so",
+  "owner": "luis1232023",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "0180af6481a9f640c092d6c5f2ed97f25dfb2183",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 23,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:41Z",
+  "verification_level": "scanner_only"
+}

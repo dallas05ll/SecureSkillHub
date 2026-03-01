@@ -1,0 +1,27 @@
+{
+  "id": "simple-mcp-build-01679edf",
+  "name": "Simple-MCP-Build",
+  "description": "This is a simple MCP Server Framework that enables data to be passed through a structured messaging protocol, allowing seamless communication between clients and servers. It supports efficient data exchange, real-time processing, and customizable extensions for various applications, ensuring scalability and reliability in diverse environments.",
+  "repo_url": "https://github.com/jraa1995/Simple-MCP-Build",
+  "source_hub": "mcp_so",
+  "owner": "jraa1995",
+  "stars": 1,
+  "primary_language": "unknown",
+  "tags": [
+    "data",
+    "data-ai",
+    "prod-comm"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "681e51803575f51df87876a2f51ab7aeb363a854",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 14,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:40Z",
+  "verification_level": "scanner_only"
+}

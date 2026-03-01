@@ -1,0 +1,26 @@
+{
+  "id": "mcp-hn-a640d139",
+  "name": "mcp-hn",
+  "description": "MCP Server for Hackernews",
+  "repo_url": "https://github.com/erithwik/mcp-hn",
+  "source_hub": "mcp_so",
+  "owner": "erithwik",
+  "stars": 63,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "a454f624e6b1171e0e3dbe0c9eafd2830565190f",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 6,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-27T06:40:44Z",
+  "verification_level": "scanner_only"
+}

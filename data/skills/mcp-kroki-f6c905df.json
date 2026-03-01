@@ -1,0 +1,25 @@
+{
+  "id": "mcp-kroki-f6c905df",
+  "name": "mcp-kroki",
+  "description": "MCP server to convert a diagram to picture using kroki.io",
+  "repo_url": "https://github.com/tkoba1974/mcp-kroki",
+  "source_hub": "mcp_so",
+  "owner": "tkoba1974",
+  "stars": 5,
+  "primary_language": "unknown",
+  "tags": [
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "cd7003dcea86b9f12d604fa579c18f71ed1e67e1",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 6,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:54:04Z",
+  "verification_level": "scanner_only"
+}

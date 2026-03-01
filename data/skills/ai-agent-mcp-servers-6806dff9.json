@@ -1,0 +1,27 @@
+{
+  "id": "ai-agent-mcp-servers-6806dff9",
+  "name": "ai-agent-mcp-servers",
+  "description": "AI Agent MCP Servers Provide Tools For ai-agent-workflow of FinTech Project",
+  "repo_url": "https://github.com/shayne007/ai-agent-mcp-servers",
+  "source_hub": "mcp_so",
+  "owner": "shayne007",
+  "stars": 2,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "prod",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "d6a71a8be1d2f4c9af08139a99b6a94094061d9a",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 32,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:04:51Z",
+  "verification_level": "scanner_only"
+}

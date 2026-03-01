@@ -1,0 +1,30 @@
+{
+  "id": "jira-mcp-server-76bfdcdd",
+  "name": "jira-mcp-server",
+  "description": "A Model Context Protocol (MCP) server that allows Claude and other AI assistants to create and manage Jira issues.",
+  "repo_url": "https://github.com/jitendrajaware/jira-mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "jitendrajaware",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp",
+    "prod-pm",
+    "repo_unavailable"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 0,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:41Z",
+  "repo_status": "unavailable",
+  "repo_check_date": "2026-02-28T20:51:53.713964+00:00",
+  "verification_level": "scanner_only"
+}

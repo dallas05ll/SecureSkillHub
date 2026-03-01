@@ -1,0 +1,26 @@
+{
+  "id": "mcp-perforce-d75a30ee",
+  "name": "mcp-perforce",
+  "description": "MCP Perforce Server",
+  "repo_url": "https://github.com/Cocoon-AI/mcp-perforce",
+  "source_hub": "mcp_so",
+  "owner": "Cocoon-AI",
+  "stars": 28,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "7bc9d6991b0fb3e1f2b03071d6987d0c9e76492f",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 20,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:32:11Z",
+  "verification_level": "scanner_only"
+}

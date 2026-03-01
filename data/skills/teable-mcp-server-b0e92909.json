@@ -1,0 +1,26 @@
+{
+  "id": "teable-mcp-server-b0e92909",
+  "name": "teable-mcp-server",
+  "description": "an mcp server to interact with teable's database",
+  "repo_url": "https://github.com/mounta11n/teable-mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "mounta11n",
+  "stars": 1,
+  "primary_language": "unknown",
+  "tags": [
+    "data",
+    "data-db"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "a3133f4d6e6cde94be043f933650eb1a5fc1666a",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 4,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:42Z",
+  "verification_level": "scanner_only"
+}

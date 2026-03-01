@@ -1,0 +1,29 @@
+{
+  "id": "scan-mcp-66aceee8",
+  "name": "scan-mcp",
+  "description": "scan-mcp offers a robust and minimal MCP server designed for efficient document scanning on Linux systems. It simplifies image capture from scanners, supporting advanced features like Automatic Document Feeder (ADF), duplex scanning, and specific page sizing. The tool intelligently discovers and selects devices, handles scan jobs with JSON Schema-validated inputs, and assembles multipage documents, making it ideal for automating and standardizing document digitization workflows.",
+  "repo_url": "https://github.com/jacksenechal/scan-mcp",
+  "source_hub": "mcp_so",
+  "owner": "jacksenechal",
+  "stars": 5,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai-vision",
+    "prod",
+    "prod-docs",
+    "sec-scan",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "f105daaa2578b4b199b8ce036b7ffbf613e2fe71",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 54,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:54:02Z",
+  "verification_level": "scanner_only"
+}

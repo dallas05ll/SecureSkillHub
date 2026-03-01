@@ -1,0 +1,27 @@
+{
+  "id": "strava-mcp-86e2332e",
+  "name": "strava-mcp",
+  "description": "A Model Context Protocol (MCP) server implementation for Strava API",
+  "repo_url": "https://github.com/rmarescu/strava-mcp",
+  "source_hub": "mcp_so",
+  "owner": "rmarescu",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp",
+    "integ"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "f0c071d2f93d4c9b171c1dad4c742dda4090a42a",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 7,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:40Z",
+  "verification_level": "scanner_only"
+}

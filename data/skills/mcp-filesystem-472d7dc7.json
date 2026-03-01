@@ -1,0 +1,27 @@
+{
+  "id": "mcp-filesystem-472d7dc7",
+  "name": "mcp-filesystem",
+  "description": "Model Context Protocol (MCP) server with a resource for each file in a workspace",
+  "repo_url": "https://github.com/isaacphi/mcp-filesystem",
+  "source_hub": "mcp_so",
+  "owner": "isaacphi",
+  "stars": 3,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp",
+    "util-file"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "d0627518ec53db91cc4e1c9c2a6b92c4cbc64220",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 1,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:04:51Z",
+  "verification_level": "scanner_only"
+}

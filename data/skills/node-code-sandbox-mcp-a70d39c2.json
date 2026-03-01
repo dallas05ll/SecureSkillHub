@@ -1,0 +1,29 @@
+{
+  "id": "node-code-sandbox-mcp-a70d39c2",
+  "name": "node-code-sandbox-mcp",
+  "description": "# 🐢🚀 Node.js Sandbox MCP ServerThis repository hosts a Node.js server that implements the Model Context Protocol (MCP) for running JavaScript in isolated Docker containers. It allows for on-the-fly npm dependency installation, making it easy to execute code safely and efficiently.",
+  "repo_url": "https://github.com/mozicim/node-code-sandbox-mcp",
+  "source_hub": "mcp_so",
+  "owner": "mozicim",
+  "stars": 4,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp",
+    "dev",
+    "dev-devops-docker",
+    "dev-web-backend-node"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "c3ff8b550df4ed9cb14e5fd40a6003bbdaba8446",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 63,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:04:51Z",
+  "verification_level": "scanner_only"
+}

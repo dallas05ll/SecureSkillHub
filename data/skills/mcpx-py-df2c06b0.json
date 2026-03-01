@@ -1,0 +1,25 @@
+{
+  "id": "mcpx-py-df2c06b0",
+  "name": "mcpx-py",
+  "description": "Python client library for",
+  "repo_url": "https://github.com/dylibso/mcpx-py",
+  "source_hub": "mcp_so",
+  "owner": "dylibso",
+  "stars": 25,
+  "primary_language": "unknown",
+  "tags": [
+    "dev-web-backend-python"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "5a5f456152de596bb02c15ae5d5e917c0cf902cf",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 9,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:32:11Z",
+  "verification_level": "scanner_only"
+}

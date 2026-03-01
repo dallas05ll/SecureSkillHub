@@ -1,0 +1,25 @@
+{
+  "id": "mcp-tools-a4d2490a",
+  "name": "mcp-tools",
+  "description": "A collection of tools and helpers for creating MCP servers and clients",
+  "repo_url": "https://github.com/civicteam/mcp-tools",
+  "source_hub": "mcp_so",
+  "owner": "civicteam",
+  "stars": 6,
+  "primary_language": "unknown",
+  "tags": [
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "0092f828dcfdf3d1acd314fcc070747b15230eae",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 212,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:54:02Z",
+  "verification_level": "scanner_only"
+}

@@ -1,0 +1,26 @@
+{
+  "id": "kite-mcp-server-bcaa5d8f",
+  "name": "kite-mcp-server",
+  "description": "Zerodha Kite MCP server",
+  "repo_url": "https://github.com/illustriousj/kite-mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "illustriousj",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "7c8056fda5527c41f8ce633844d43c1dad1220d9",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 2,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:40Z",
+  "verification_level": "scanner_only"
+}

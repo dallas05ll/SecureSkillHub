@@ -1,0 +1,25 @@
+{
+  "id": "iotdb-mcp-server-treemodel-8a73e9e5",
+  "name": "iotdb-mcp-server-TreeModel",
+  "description": "iotdb-mcp-server for tree model",
+  "repo_url": "https://github.com/xiangmy21/iotdb-mcp-server-TreeModel",
+  "source_hub": "mcp_so",
+  "owner": "xiangmy21",
+  "stars": 1,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "ba60010cccbc7573841252f51558a84d8be576c7",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 7,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:40Z",
+  "verification_level": "scanner_only"
+}

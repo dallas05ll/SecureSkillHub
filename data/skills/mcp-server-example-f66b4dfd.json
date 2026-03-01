@@ -1,0 +1,30 @@
+{
+  "id": "mcp-server-example-f66b4dfd",
+  "name": "mcp-server-example",
+  "description": "🚀 A conversational AI agent powered by Model Context Protocol (MCP), Express.js, and Gemini API that can automate Twitter (X) posts and perform dynamic interactions.",
+  "repo_url": "https://github.com/ameyshrotri/mcp-server-example",
+  "source_hub": "mcp_so",
+  "owner": "ameyshrotri",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp",
+    "dev-web-backend-node",
+    "integ",
+    "integ-social",
+    "prod"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "186ef9a31a3d8c0c727762b2d6d2011970f93da3",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 8,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:42Z",
+  "verification_level": "scanner_only"
+}

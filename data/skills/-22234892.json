@@ -1,0 +1,26 @@
+{
+  "id": "-22234892",
+  "name": "墨问创作助手",
+  "description": "墨问是集记录、创作和分享于一体的智能笔记工具和内容社区，让有价值的内容，在人与人之间流动。\n\n墨问 MCP Server 提供了笔记创建、编辑、权限设置(公开/私有)、文件上传等能力。通过与墨问 MCP Server的结合，用户可以在所有支持 Streamable HTTP 的 MCP Host (Cursor、Trae等)中，通过自然语言完成笔记的编写、润色、纠错并直接保存至墨问笔记工具之中。",
+  "repo_url": "https://github.com/we-mowen/墨问创作助手",
+  "source_hub": "mcp_so",
+  "owner": "we-mowen",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "util-media",
+    "repo_unavailable"
+  ],
+  "verification_status": "manual_review",
+  "overall_score": 0,
+  "risk_level": "high",
+  "verified_commit": "",
+  "scan_summary": null,
+  "scan_date": "2026-02-28T20:27:23Z",
+  "findings_summary": {
+    "error": "clone failed: Cloning into '/var/folders/pq/bb71gjzd01d29nnmqrhqr2rc0000gn/T/strict5_-22234892__s8929xi/repo'...\nremote: Repository not found.\nfatal: repository 'https://github.com/we-mowen/墨问创作助手/' not found",
+    "supervisor_approved": false,
+    "supervisor_confidence": 0
+  },
+  "repo_status": "unavailable"
+}

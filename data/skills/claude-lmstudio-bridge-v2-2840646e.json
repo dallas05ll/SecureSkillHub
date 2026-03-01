@@ -1,0 +1,26 @@
+{
+  "id": "claude-lmstudio-bridge-v2-2840646e",
+  "name": "Claude-LMStudio-Bridge_V2",
+  "description": "A bridge MCP server that allows Claude to communicate with locally running LLM models via LM Studio",
+  "repo_url": "https://github.com/infinitimeless/Claude-LMStudio-Bridge_V2",
+  "source_hub": "mcp_so",
+  "owner": "infinitimeless",
+  "stars": 10,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "prod-comm"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "d3ebb6615e8925cbc3126bc85e72dddba75d4359",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 5,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:42:34Z",
+  "verification_level": "scanner_only"
+}

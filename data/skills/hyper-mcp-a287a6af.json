@@ -1,0 +1,25 @@
+{
+  "id": "hyper-mcp-a287a6af",
+  "name": "hyper-mcp",
+  "description": "Unlocks all of MCP for your favourite agent 🌩️",
+  "repo_url": "https://github.com/kranners/hyper-mcp",
+  "source_hub": "mcp_so",
+  "owner": "kranners",
+  "stars": 7,
+  "primary_language": "unknown",
+  "tags": [
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "149f3f13f7ae061504b6179fab96f6f3e712baa6",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 22,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:54:04Z",
+  "verification_level": "scanner_only"
+}

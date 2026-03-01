@@ -1,0 +1,26 @@
+{
+  "id": "my-mcp-ssh-501ad5aa",
+  "name": "my-mcp-ssh",
+  "description": "MCP-based SSH tool for LLMs to interact with remote servers.",
+  "repo_url": "https://github.com/ffpy/my-mcp-ssh",
+  "source_hub": "mcp_so",
+  "owner": "ffpy",
+  "stars": 4,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "bbf6df718d6fa8f0618a82cebc03684bf99f4081",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 7,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:54:02Z",
+  "verification_level": "scanner_only"
+}

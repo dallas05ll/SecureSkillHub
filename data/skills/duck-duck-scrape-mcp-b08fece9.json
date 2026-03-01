@@ -1,0 +1,25 @@
+{
+  "id": "duck-duck-scrape-mcp-b08fece9",
+  "name": "duck-duck-scrape-mcp",
+  "description": "An MCP server for (free!) search results via duckduckgo",
+  "repo_url": "https://github.com/mmkal/duck-duck-scrape-mcp",
+  "source_hub": "mcp_so",
+  "owner": "mmkal",
+  "stars": 1,
+  "primary_language": "unknown",
+  "tags": [
+    "util-search"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "12bcc3f1c61f6e8d8604a5c93fce9adcdfc63a34",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 4,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:40Z",
+  "verification_level": "scanner_only"
+}

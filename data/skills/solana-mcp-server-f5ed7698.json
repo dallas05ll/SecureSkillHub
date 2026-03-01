@@ -1,0 +1,25 @@
+{
+  "id": "solana-mcp-server-f5ed7698",
+  "name": "solana-mcp-server",
+  "description": "solana mcp sever to enable solana rpc methods",
+  "repo_url": "https://github.com/aldrin-labs/solana-mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "aldrin-labs",
+  "stars": 24,
+  "primary_language": "unknown",
+  "tags": [
+    "sec-crypto"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "9db0ca3192352d15a3f5968072e2a4cfa7e706ea",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 2,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:32:11Z",
+  "verification_level": "scanner_only"
+}

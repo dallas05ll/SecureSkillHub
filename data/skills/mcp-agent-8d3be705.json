@@ -1,0 +1,27 @@
+{
+  "id": "mcp-agent-8d3be705",
+  "name": "mcp-agent",
+  "description": "MCP Agent is optimized using the ReWOO pattern, enabling even LLMs with fewer parameters to efficiently utilize MCP Server with minimal token consumption.",
+  "repo_url": "https://github.com/Nhahan/mcp-agent",
+  "source_hub": "mcp_so",
+  "owner": "Nhahan",
+  "stars": 5,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "sec-crypto",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "1452b0cba3786c19f77d5b317a837fb0bf74277f",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 34,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:54:02Z",
+  "verification_level": "scanner_only"
+}

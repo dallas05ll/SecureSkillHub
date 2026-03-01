@@ -1,0 +1,29 @@
+{
+  "id": "the-startup-a05ce95e",
+  "name": "the-startup",
+  "description": "Multi-agent AI framework for Claude Code that implements a startup team structure. Provides spec-driven development (PRD → SDD → Implementation Plan → Code), parallel specialist agent execution, and 10 slash commands across 3 phases. Includes a shell-based installer and statusline component.",
+  "repo_url": "https://github.com/rsmdt/the-startup",
+  "source_hub": "github_search",
+  "skill_type": "agent_skill",
+  "owner": "rsmdt",
+  "stars": 202,
+  "license": "mit",
+  "primary_language": "Shell",
+  "tags": [
+    "data-ai",
+    "dev"
+  ],
+  "verification_status": "pass",
+  "overall_score": 80,
+  "risk_level": "low",
+  "verified_commit": null,
+  "scan_summary": null,
+  "last_updated": "2026-02-25T17:18:05Z",
+  "findings_summary": {
+    "notes": "Well-documented Claude Code plugin marketplace with MIT license. The install.sh script performs standard plugin installation via Claude Code's plugin system (/plugin marketplace add, /plugin install), downloads a statusline.sh script from GitHub raw, and writes to ~/.config/the-agentic-startup/ and ~/.claude/settings.json. The script is transparent and uses set -e for safety. Plugins directory contains 'start' and 'team' subdirectories. Scripts directory present. No credential collection or exfiltration. The curl-pipe-sh install pattern is standard but carries inherent trust risk (install.sh downloads additional scripts from raw.githubusercontent.com). CHANGELOG.md present, mentioned in awesome-claude-code list. CI/CD badge shown in README. Release workflow present in .github. Minor risk: curl-pipe-sh pattern and downloading secondary scripts at install time."
+  },
+  "verification_date": "2026-02-25",
+  "trust_level": "low",
+  "scan_date": "2026-02-26T02:17:34Z",
+  "verification_level": "scanner_only"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "webcrawl-mcp-9a947aec",
+  "name": "Webcrawl-MCP",
+  "description": "This repository implements a Model Context Protocol (MCP) server for web crawling capabilities, exposing crawlers as LangChain-compatible tools or any MCP-compliant client. It includes two main services:",
+  "repo_url": "https://github.com/SteffenHebestreit/Webcrawl-MCP",
+  "source_hub": "mcp_so",
+  "owner": "SteffenHebestreit",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp",
+    "util",
+    "util-search"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "541c2af0fe29de6344e3abc85edfc49f88f4632e",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 48,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:43:00Z",
+  "verification_level": "scanner_only"
+}

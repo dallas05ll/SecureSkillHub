@@ -1,0 +1,25 @@
+{
+  "id": "openrouter-search-server-4374d16e",
+  "name": "openrouter-search-server",
+  "description": "MCP server for OpenRouter search functionality",
+  "repo_url": "https://github.com/joaomj/openrouter-search-server",
+  "source_hub": "mcp_so",
+  "owner": "joaomj",
+  "stars": 8,
+  "primary_language": "unknown",
+  "tags": [
+    "util-search"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "df447f9bf9898ea9411c15edb1e810af74aaf616",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 5,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:42:34Z",
+  "verification_level": "scanner_only"
+}

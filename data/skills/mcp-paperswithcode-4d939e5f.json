@@ -1,0 +1,26 @@
+{
+  "id": "mcp-paperswithcode-4d939e5f",
+  "name": "mcp-paperswithcode",
+  "description": "An unofficial MCP interface to interact with the PapersWithCode API",
+  "repo_url": "https://github.com/hbg/mcp-paperswithcode",
+  "source_hub": "mcp_so",
+  "owner": "hbg",
+  "stars": 16,
+  "primary_language": "unknown",
+  "tags": [
+    "dev",
+    "integ"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "4ea2305145f63678884b55151e5b763a6377151d",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 5,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:42:34Z",
+  "verification_level": "scanner_only"
+}

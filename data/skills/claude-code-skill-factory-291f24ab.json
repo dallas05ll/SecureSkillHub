@@ -1,0 +1,38 @@
+{
+  "id": "claude-code-skill-factory-291f24ab",
+  "name": "claude-code-skill-factory",
+  "description": "A comprehensive toolkit for generating production-ready Claude Skills, Code Agents, slash commands, and LLM prompts at scale. Includes interactive builder agents, 69 prompt presets, slash commands for the full skill lifecycle, and multiple example generated skills with Python implementation files.",
+  "repo_url": "https://github.com/alirezarezvani/claude-code-skill-factory",
+  "source_hub": "github_search",
+  "skill_type": "agent_skill",
+  "owner": "alirezarezvani",
+  "stars": 530,
+  "license": "mit",
+  "primary_language": "Python",
+  "tags": [
+    "data-ai",
+    "dev",
+    "dev-web-backend-python",
+    "util",
+    "util-file"
+  ],
+  "verification_status": "pass",
+  "overall_score": 76,
+  "risk_level": "low",
+  "verified_commit": null,
+  "findings_summary": {
+    "has_readme": true,
+    "has_security_policy": true,
+    "has_mcp_server": false,
+    "dangerous_patterns": [
+      ".github/EMERGENCY_CLEANUP.sh present (not auto-executed, manual admin script)",
+      "generated-skills/ contains Python scripts for scrum-master, social-media-analyzer, etc. that perform API calls — these are example outputs, not hooks"
+    ],
+    "notes": "Well-organized skill factory toolkit. The .claude/commands/ folder contains slash command markdown files (build, install-skill, security-scan, etc.) which are instruction files, not scripts. The .claude/agents/ folder has interactive guide agents (factory-guide, skills-guide, etc.) — clean markdown. No hooks registered. The generated-skills/ directory contains example produced skills with Python implementations for scrum masters, TDD guides, tech-stack evaluators, etc. These are benign utility scripts that perform expected tasks (API calls to Jira/Linear, metrics calculation). SECURITY_AUDIT.md and branch protection config present — developer shows security awareness. MIT licensed. Large active repo with extensive GitHub workflow automation. Score moderate due to large footprint and example scripts that make external API calls."
+  },
+  "scan_summary": null,
+  "last_updated": "2026-02-25T21:14:17Z",
+  "trust_level": "low",
+  "scan_date": "2026-02-26T02:05:05Z",
+  "verification_level": "scanner_only"
+}

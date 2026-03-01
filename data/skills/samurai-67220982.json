@@ -1,0 +1,26 @@
+{
+  "id": "samurai-67220982",
+  "name": "samurai",
+  "description": "The Next generation MCP toolkit",
+  "repo_url": "https://github.com/exprays/samurai",
+  "source_hub": "mcp_so",
+  "owner": "exprays",
+  "stars": 1,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "e4fb5d405df981db5f68bfd2d306dce9c43c8437",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 5,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:40Z",
+  "verification_level": "scanner_only"
+}

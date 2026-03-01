@@ -1,0 +1,30 @@
+{
+  "id": "pymcp-sse-2400acd5",
+  "name": "pymcp-sse",
+  "description": "Asynchronous Python library for building Model Context Protocol (MCP) servers and clients over HTTP/SSE, ideal for AI agents, tool integrations, and chatbot ecosystems.",
+  "repo_url": "https://github.com/rvirgilli/pymcp-sse",
+  "source_hub": "mcp_so",
+  "owner": "rvirgilli",
+  "stars": 2,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp",
+    "dev-web-backend-python",
+    "integ",
+    "prod-comm",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "f355b8a78f7a7a3f865575666ef80a7679713971",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 30,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:04:50Z",
+  "verification_level": "scanner_only"
+}

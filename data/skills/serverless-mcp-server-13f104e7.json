@@ -1,0 +1,29 @@
+{
+  "id": "serverless-mcp-server-13f104e7",
+  "name": "serverless-mcp-server",
+  "description": "A super simple Model Context Protocol (MCP) server deployed on AWS Lambda and exposed via Amazon API Gateway, deployed with Serverless Framework.",
+  "repo_url": "https://github.com/eleva/serverless-mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "eleva",
+  "stars": 18,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp",
+    "integ",
+    "integ-cloud",
+    "integ-cloud-aws"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "b3d9909e839883dc02c829d75a580de217cc5f31",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 9,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:42:36Z",
+  "verification_level": "scanner_only"
+}

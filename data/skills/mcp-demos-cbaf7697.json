@@ -1,0 +1,25 @@
+{
+  "id": "mcp-demos-cbaf7697",
+  "name": "mcp-demos",
+  "description": "《从原理到实战：掌握 MCP》系列文章的示例代码库",
+  "repo_url": "https://github.com/jinzcdev/mcp-demos",
+  "source_hub": "mcp_so",
+  "owner": "jinzcdev",
+  "stars": 10,
+  "primary_language": "unknown",
+  "tags": [
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "df5ee6af7e309090d224782109cbf175a8062c05",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 15,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:42:34Z",
+  "verification_level": "scanner_only"
+}

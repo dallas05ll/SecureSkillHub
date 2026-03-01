@@ -1,0 +1,26 @@
+{
+  "id": "everything-search-server-071639fc",
+  "name": "everything-search-server",
+  "description": "MCP server for Everything Search integration",
+  "repo_url": "https://github.com/Alihkhawaher/everything-search-server",
+  "source_hub": "mcp_so",
+  "owner": "Alihkhawaher",
+  "stars": 9,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "util-search"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "ecb8a887ebe1d638c8468c97ff4dd9a709cc20fa",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 8,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:42:34Z",
+  "verification_level": "scanner_only"
+}

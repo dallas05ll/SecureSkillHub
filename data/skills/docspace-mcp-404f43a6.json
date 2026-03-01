@@ -1,0 +1,25 @@
+{
+  "id": "docspace-mcp-404f43a6",
+  "name": "docspace-mcp",
+  "description": "DocSpace MCP Server",
+  "repo_url": "https://github.com/ONLYOFFICE/docspace-mcp",
+  "source_hub": "mcp_so",
+  "owner": "ONLYOFFICE",
+  "stars": 15,
+  "primary_language": "unknown",
+  "tags": [
+    "prod-docs"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "32a7a50d7999452fcb1d03d97791cdd1833439db",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 111,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:42:36Z",
+  "verification_level": "scanner_only"
+}

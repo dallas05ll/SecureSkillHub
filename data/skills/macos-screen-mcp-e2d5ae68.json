@@ -1,0 +1,25 @@
+{
+  "id": "macos-screen-mcp-e2d5ae68",
+  "name": "macos-screen-mcp",
+  "description": "MCP Server to screenshot and control macOS windows (made for Cursor)",
+  "repo_url": "https://github.com/jhead/macos-screen-mcp",
+  "source_hub": "mcp_so",
+  "owner": "jhead",
+  "stars": 13,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai-vision"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "e2a4c3db3c71bcaf962a81ae053c77fec537bd7f",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 8,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:42:34Z",
+  "verification_level": "scanner_only"
+}

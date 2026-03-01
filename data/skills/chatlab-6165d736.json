@@ -1,0 +1,29 @@
+{
+  "id": "chatlab-6165d736",
+  "name": "chatlab",
+  "description": "LLM chat app for integration tests using llama-stack-client, llama, Ollama, MCP, Tools",
+  "repo_url": "https://github.com/ricardoborges/chatlab",
+  "source_hub": "mcp_so",
+  "owner": "ricardoborges",
+  "stars": 3,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "dev-testing",
+    "integ",
+    "prod-comm",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "bc443f32d9a054fa3fffe0df043ffa03cc39dc34",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 17,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:04:50Z",
+  "verification_level": "scanner_only"
+}

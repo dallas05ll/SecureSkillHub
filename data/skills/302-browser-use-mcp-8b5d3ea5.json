@@ -1,0 +1,28 @@
+{
+  "id": "302-browser-use-mcp-8b5d3ea5",
+  "name": "302_browser_use_mcp",
+  "description": "Automatically create a remote browser to complete your specified tasks, developed based on Browser Use + Sandbox.\n\n自动创建一个远程浏览器，完成你指定的任务，基于Browser Use + Sandbox开发。",
+  "repo_url": "https://github.com/302ai/302_browser_use_mcp",
+  "source_hub": "mcp_so",
+  "owner": "302ai",
+  "stars": 8,
+  "primary_language": "unknown",
+  "tags": [
+    "dev-web",
+    "prod",
+    "prod-pm",
+    "util-search"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 10,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-25T14:42:32Z",
+  "verification_level": "scanner_only"
+}

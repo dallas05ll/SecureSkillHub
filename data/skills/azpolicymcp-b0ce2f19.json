@@ -1,0 +1,26 @@
+{
+  "id": "azpolicymcp-b0ce2f19",
+  "name": "AzPolicyMCP",
+  "description": "Simple MCP server to help create Azure Policies for any resource type.",
+  "repo_url": "https://github.com/Jitha-afk/AzPolicyMCP",
+  "source_hub": "mcp_so",
+  "owner": "Jitha-afk",
+  "stars": 2,
+  "primary_language": "unknown",
+  "tags": [
+    "integ-cloud",
+    "integ-cloud-azure"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "e30dc081363c76a5083e9f89beea40c8f3382e04",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 8,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:04:50Z",
+  "verification_level": "scanner_only"
+}

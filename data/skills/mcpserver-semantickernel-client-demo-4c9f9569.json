@@ -1,0 +1,26 @@
+{
+  "id": "mcpserver-semantickernel-client-demo-4c9f9569",
+  "name": "mcpserver-semantickernel-client-demo",
+  "description": "Showing a super simple implementation of an c# MCP server hosted with Aspire and consumed by Semantic Kernel",
+  "repo_url": "https://github.com/joslat/mcpserver-semantickernel-client-demo",
+  "source_hub": "mcp_so",
+  "owner": "joslat",
+  "stars": 5,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "d3b10dbd8b3ba666e70b400b13becc83833ab925",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 10,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:54:02Z",
+  "verification_level": "scanner_only"
+}

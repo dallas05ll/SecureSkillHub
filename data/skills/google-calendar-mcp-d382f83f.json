@@ -1,0 +1,25 @@
+{
+  "id": "google-calendar-mcp-d382f83f",
+  "name": "google-calendar-mcp",
+  "description": "This is a google calendar MCP server written in Java Quarkus. (WIP)",
+  "repo_url": "https://github.com/adalbertdb/google-calendar-mcp",
+  "source_hub": "mcp_so",
+  "owner": "adalbertdb",
+  "stars": 1,
+  "primary_language": "unknown",
+  "tags": [
+    "prod-calendar"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "b45bbac17f42204a605b40ed0ba53cca3d51df40",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 1,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:40Z",
+  "verification_level": "scanner_only"
+}

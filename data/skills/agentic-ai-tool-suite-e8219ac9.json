@@ -1,0 +1,31 @@
+{
+  "id": "agentic-ai-tool-suite-e8219ac9",
+  "name": "agentic-ai-tool-suite",
+  "description": "A suite of Model Context Protocol (MCP) servers designed to enhance AI agent capabilities. Provides tools for media search/understanding (images, video), web information retrieval, PDF generation, and PowerPoint presentation creation, enabling agents to interact with diverse data formats and external resources",
+  "repo_url": "https://github.com/Godzilla675/agentic-ai-tool-suite",
+  "source_hub": "mcp_so",
+  "owner": "Godzilla675",
+  "stars": 19,
+  "primary_language": "unknown",
+  "tags": [
+    "data",
+    "data-ai",
+    "data-ai-nlp",
+    "data-ai-vision",
+    "util",
+    "util-media",
+    "util-search"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "ac94b68caa05d79c967d8348d37d30f52c80c810",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 24,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:42:34Z",
+  "verification_level": "scanner_only"
+}

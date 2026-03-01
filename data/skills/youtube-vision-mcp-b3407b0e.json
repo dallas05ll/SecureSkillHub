@@ -1,0 +1,31 @@
+{
+  "id": "youtube-vision-mcp-b3407b0e",
+  "name": "Youtube-Vision-MCP",
+  "description": "MCP (Model Context Protocol) server that utilizes the Google Gemini Vision API to interact with YouTube videos.",
+  "repo_url": "https://github.com/minbang930/Youtube-Vision-MCP",
+  "source_hub": "mcp_so",
+  "owner": "minbang930",
+  "stars": 6,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp",
+    "data-ai-vision",
+    "integ",
+    "integ-social",
+    "util",
+    "util-media"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "44a9e00bab1f00bb180dd8cac6a59d730a07062a",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 6,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:54:02Z",
+  "verification_level": "scanner_only"
+}

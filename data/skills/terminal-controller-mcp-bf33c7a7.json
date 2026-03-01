@@ -1,0 +1,27 @@
+{
+  "id": "terminal-controller-mcp-bf33c7a7",
+  "name": "terminal-controller-mcp",
+  "description": "A Model Context Protocol (MCP) server that enables secure terminal command execution, directory navigation, and file system operations through a standardized interface.",
+  "repo_url": "https://github.com/GongRzhe/terminal-controller-mcp",
+  "source_hub": "mcp_so",
+  "owner": "GongRzhe",
+  "stars": 99,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp",
+    "util-file"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "a224da101ccd6a97c0f3d35ebedcbfbd9b3d3159",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 7,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-27T06:40:44Z",
+  "verification_level": "scanner_only"
+}

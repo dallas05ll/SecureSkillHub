@@ -1,0 +1,25 @@
+{
+  "id": "xperience-community-mcp-server-6bdb6d1e",
+  "name": "xperience-community-mcp-server",
+  "description": "ASP.NET Core MCP server for Xperience by Kentico projects",
+  "repo_url": "https://github.com/seangwright/xperience-community-mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "seangwright",
+  "stars": 10,
+  "primary_language": "unknown",
+  "tags": [
+    "prod-comm"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "f8833908a1a0a13d641dbb389b50a0c05e92a7c0",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 22,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:42:36Z",
+  "verification_level": "scanner_only"
+}

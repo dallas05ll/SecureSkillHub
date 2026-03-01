@@ -1,0 +1,71 @@
+{
+  "tag_path": "dev-web-frontend-vue",
+  "label": "General Vue Package",
+  "description": "Top 4 verified vue skills, auto-curated by GitHub stars and security score.",
+  "skill_ids": [
+    "pinme-3dccfc8d",
+    "mcp-adapter-14432921",
+    "mcp-with-nuxt-vercel-5e866561",
+    "lb-motion-skill-c48be8e3"
+  ],
+  "skills": [
+    {
+      "id": "pinme-3dccfc8d",
+      "name": "pinme",
+      "description": "Zero-config frontend deployment tool that publishes static sites as verifiable content via IPFS/decentralized storage with a single command. Supports Claude Code Skills natively. Handles Vite/React/Vu",
+      "repo_url": "https://github.com/glitternetwork/pinme",
+      "stars": 2796,
+      "overall_score": 72,
+      "verification_status": "pass",
+      "risk_level": "low",
+      "primary_language": "TypeScript",
+      "install_url": "https://github.com/glitternetwork/pinme",
+      "skill_type": "agent_skill"
+    },
+    {
+      "id": "mcp-adapter-14432921",
+      "name": "mcp-adapter",
+      "description": "Easily spin up an MCP Server on Next.js, Nuxt.js, Svelte.js, and more",
+      "repo_url": "https://github.com/vercel/mcp-adapter",
+      "stars": 566,
+      "overall_score": 85,
+      "verification_status": "pass",
+      "risk_level": "info",
+      "primary_language": "unknown",
+      "install_url": "https://github.com/vercel/mcp-adapter",
+      "skill_type": "unknown"
+    },
+    {
+      "id": "mcp-with-nuxt-vercel-5e866561",
+      "name": "mcp-with-nuxt-vercel",
+      "description": "Example of creating a MCP server with Nuxt & Vercel.",
+      "repo_url": "https://github.com/atinux/mcp-with-nuxt-vercel",
+      "stars": 17,
+      "overall_score": 85,
+      "verification_status": "pass",
+      "risk_level": "info",
+      "primary_language": "unknown",
+      "install_url": "https://github.com/atinux/mcp-with-nuxt-vercel",
+      "skill_type": "unknown"
+    },
+    {
+      "id": "lb-motion-skill-c48be8e3",
+      "name": "lb-motion-skill",
+      "description": "Motion.dev animation library documentation in markdown format for AI agents - covers React/Vue animations, gestures, and scroll effects",
+      "repo_url": "https://github.com/leonaaardob/lb-motion-skill",
+      "stars": 0,
+      "overall_score": 63,
+      "verification_status": "manual_review",
+      "risk_level": "medium",
+      "primary_language": "markdown",
+      "install_url": "https://github.com/leonaaardob/lb-motion-skill",
+      "skill_type": "agent_skill"
+    }
+  ],
+  "total_skills": 4,
+  "total_candidates": 4,
+  "avg_score": 76.2,
+  "min_score": 63,
+  "top_stars": 2796,
+  "generated_at": "2026-02-28T03:46:45Z"
+}

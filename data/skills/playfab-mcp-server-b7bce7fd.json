@@ -1,0 +1,26 @@
+{
+  "id": "playfab-mcp-server-b7bce7fd",
+  "name": "playfab-mcp-server",
+  "description": "MCP Server for PlayFab",
+  "repo_url": "https://github.com/akiojin/playfab-mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "akiojin",
+  "stars": 2,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "72a572a94375dc243cf414d74356403115285925",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 161,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:04:51Z",
+  "verification_level": "scanner_only"
+}

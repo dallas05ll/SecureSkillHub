@@ -1,0 +1,25 @@
+{
+  "id": "shell-mcp-server-edc4c72c",
+  "name": "shell-mcp-server",
+  "description": "Secure shell command execution MCP server for Claude AI. Enables controlled shell access within specified directories.",
+  "repo_url": "https://github.com/blazickjp/shell-mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "blazickjp",
+  "stars": 17,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "309537a344fd48325644876dcb552bb39eb7a6fc",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 8,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:42:36Z",
+  "verification_level": "scanner_only"
+}

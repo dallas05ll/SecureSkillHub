@@ -1,0 +1,24 @@
+{
+  "id": "open-ledger-mcp-server-f883d315",
+  "name": "Open-Ledger-MCP-Server",
+  "description": "A Model Context Protocol (MCP) server implementation for the OpenLedger API. This server provides structured context to AI models according to the MCP specification.",
+  "repo_url": "https://github.com/openledger/Open-Ledger-MCP-Server",
+  "source_hub": "mcp_so",
+  "owner": "openledger",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp",
+    "integ",
+    "repo_unavailable"
+  ],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null,
+  "repo_status": "unavailable",
+  "repo_check_date": "2026-02-28T20:52:39.993647+00:00",
+  "repo_check_error": "fatal: could not read Username for 'https://github.com': Device not configured"
+}

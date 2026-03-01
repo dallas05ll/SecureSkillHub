@@ -1,0 +1,25 @@
+{
+  "id": "mcp-server-exe-f3bfcba0",
+  "name": "mcp_server_exe",
+  "description": "小智 & Cursor 的 MCP 启动器 - MCP For Cursor&xiaozhi。打包成可执行文件。Turn MCP server into an executable file",
+  "repo_url": "https://github.com/shadowcz007/mcp_server_exe",
+  "source_hub": "mcp_so",
+  "owner": "shadowcz007",
+  "stars": 131,
+  "primary_language": "unknown",
+  "tags": [
+    "util-file"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "ad5555bc090813f26bdc9fdf402e7d517102de2b",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 47,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-27T06:40:44Z",
+  "verification_level": "scanner_only"
+}

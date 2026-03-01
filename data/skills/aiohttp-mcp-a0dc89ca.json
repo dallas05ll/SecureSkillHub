@@ -1,0 +1,27 @@
+{
+  "id": "aiohttp-mcp-a0dc89ca",
+  "name": "aiohttp-mcp",
+  "description": "Tools for building Model Context Protocol (MCP) servers on top of aiohttp",
+  "repo_url": "https://github.com/kulapard/aiohttp-mcp",
+  "source_hub": "mcp_so",
+  "owner": "kulapard",
+  "stars": 7,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "e30873e28ecb59da9649f2a2608ea78818aa1943",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 30,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:54:04Z",
+  "verification_level": "scanner_only"
+}

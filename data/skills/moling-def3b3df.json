@@ -1,0 +1,27 @@
+{
+  "id": "moling-def3b3df",
+  "name": "moling",
+  "description": "MoLing is a computer-use and browser-use based MCP server. It is a locally deployed, dependency-free office AI assistant.",
+  "repo_url": "https://github.com/gojue/moling",
+  "source_hub": "mcp_so",
+  "owner": "gojue",
+  "stars": 326,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "dev-web",
+    "util-search"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 10,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-27T02:28:45Z",
+  "verification_level": "scanner_only"
+}

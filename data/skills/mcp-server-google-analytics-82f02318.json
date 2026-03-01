@@ -1,0 +1,26 @@
+{
+  "id": "mcp-server-google-analytics-82f02318",
+  "name": "mcp-server-google-analytics",
+  "description": "A MCP server for Google Analytics Data API",
+  "repo_url": "https://github.com/eno-graph/mcp-server-google-analytics",
+  "source_hub": "mcp_so",
+  "owner": "eno-graph",
+  "stars": 7,
+  "primary_language": "unknown",
+  "tags": [
+    "data",
+    "integ"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "130331902162bc28e6d7156aecc6a92963b6d985",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 11,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:54:02Z",
+  "verification_level": "scanner_only"
+}

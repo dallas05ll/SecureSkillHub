@@ -1,0 +1,28 @@
+{
+  "id": "my-mcp-server-d8ec801e",
+  "name": "my-mcp-server",
+  "description": "Demo project showcasing MCP server integration with MongoDB Atlas for payment data retrieval.",
+  "repo_url": "https://github.com/Denyme24/my-mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "Denyme24",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "data",
+    "data-db",
+    "integ",
+    "integ-payment"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "5a59e2e3967a1d0b9a403d14bf06b11437869463",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 4,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:41Z",
+  "verification_level": "scanner_only"
+}

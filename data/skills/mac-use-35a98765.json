@@ -1,0 +1,25 @@
+{
+  "id": "mac-use-35a98765",
+  "name": "mac-use",
+  "description": "Native Mac Use for LLMs and MCP Servers.",
+  "repo_url": "https://github.com/hanzoai/mac-use",
+  "source_hub": "mcp_so",
+  "owner": "hanzoai",
+  "stars": 2,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "2dabcb0446d8e0158e655708a2d39c19aef08271",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 22,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:04:50Z",
+  "verification_level": "scanner_only"
+}

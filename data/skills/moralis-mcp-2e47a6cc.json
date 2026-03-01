@@ -1,0 +1,29 @@
+{
+  "id": "moralis-mcp-2e47a6cc",
+  "name": "moralis-mcp",
+  "description": "A powerful Model Context Protocol (MCP) server implementation that provides seamless access to Moralis Web3 API endpoints for querying blockchain data across multiple networks, including NFTs, tokens, wallet analytics, and DeFi positions.",
+  "repo_url": "https://github.com/a6b8/moralis-mcp",
+  "source_hub": "mcp_so",
+  "owner": "a6b8",
+  "stars": 1,
+  "primary_language": "unknown",
+  "tags": [
+    "data",
+    "data-ai",
+    "data-ai-nlp",
+    "integ",
+    "sec-crypto"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "941ce85cca032668978afcd262f7fce2291c736b",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 8,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:40Z",
+  "verification_level": "scanner_only"
+}

@@ -1,0 +1,29 @@
+{
+  "id": "antigravity-workflows-6e6d80a6",
+  "name": "antigravity-workflows",
+  "description": "Stack-agnostic, question-driven workflow collection for AI coding assistants, available as npm package.",
+  "repo_url": "https://github.com/harikrishna8121999/antigravity-workflows",
+  "source_hub": "github_search",
+  "skill_type": "agent_skill",
+  "owner": "harikrishna8121999",
+  "stars": 53,
+  "license": "other",
+  "primary_language": "JavaScript",
+  "tags": [
+    "data-ai",
+    "dev-web-backend-node",
+    "prod"
+  ],
+  "verification_status": "pass",
+  "overall_score": 70,
+  "risk_level": "low",
+  "verified_commit": null,
+  "scan_summary": null,
+  "last_updated": "2026-02-25T16:03:23Z",
+  "findings_summary": {
+    "notes": "NOASSERTION license (non-standard Apache variant). JavaScript, npm package, actively maintained. No dangerous patterns found."
+  },
+  "trust_level": "low",
+  "scan_date": "2026-02-26T02:12:39Z",
+  "verification_level": "scanner_only"
+}

@@ -1,0 +1,27 @@
+{
+  "id": "mcp-server-vscode-extensions-ad39689d",
+  "name": "mcp-server-vscode-extensions",
+  "description": "MCP tool for automatically installing VS Code extensions in Cursor",
+  "repo_url": "https://github.com/siliconuy/mcp-server-vscode-extensions",
+  "source_hub": "mcp_so",
+  "owner": "siliconuy",
+  "stars": 2,
+  "primary_language": "unknown",
+  "tags": [
+    "dev",
+    "prod",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "f87f6ba364d2c87deb709779d9619f5d13266beb",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 5,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:04:51Z",
+  "verification_level": "scanner_only"
+}

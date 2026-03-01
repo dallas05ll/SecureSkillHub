@@ -1,0 +1,26 @@
+{
+  "id": "mcp-server-demo-cb4bcbbe",
+  "name": "mcp-server-demo",
+  "description": "简单的 MCP Server 示例项目",
+  "repo_url": "https://github.com/oneinstepGO/mcp-server-demo",
+  "source_hub": "mcp_so",
+  "owner": "oneinstepGO",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "8655b8c51f4e70c273ac8d9540482a727cfef920",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 3,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:42Z",
+  "verification_level": "scanner_only"
+}

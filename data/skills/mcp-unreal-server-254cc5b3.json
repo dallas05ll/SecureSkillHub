@@ -1,0 +1,25 @@
+{
+  "id": "mcp-unreal-server-254cc5b3",
+  "name": "MCP-Unreal-Server",
+  "description": "A MCP Server implementation for interacting with Unreal Engine instances through remote Python execution.",
+  "repo_url": "https://github.com/radial-hks/MCP-Unreal-Server",
+  "source_hub": "mcp_so",
+  "owner": "radial-hks",
+  "stars": 5,
+  "primary_language": "unknown",
+  "tags": [
+    "dev-web-backend-python"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "6f31425c7fac23b7f1b0bdda9c3384427228c4fb",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 10,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:54:02Z",
+  "verification_level": "scanner_only"
+}

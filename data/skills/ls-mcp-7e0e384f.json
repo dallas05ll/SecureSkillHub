@@ -1,0 +1,26 @@
+{
+  "id": "ls-mcp-7e0e384f",
+  "name": "ls-mcp",
+  "description": "List MCP Servers configuration in your system",
+  "repo_url": "https://github.com/lirantal/ls-mcp",
+  "source_hub": "mcp_so",
+  "owner": "lirantal",
+  "stars": 79,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "a6481b0242c24ea2779096637e9d80b55c20d304",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 63,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-27T06:40:44Z",
+  "verification_level": "scanner_only"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "mcp-server-for-smart-bulb-with-claude-60c7fdb6",
+  "name": "MCP-Server-for-Smart-Bulb-With-Claude",
+  "description": "This project creates an MCP server using Node.js and TypeScript to autonomously control a smart bulb via UDP communication. It integrates with AI interfaces like ChatGPT or Claude, enabling seamless, anonymous, and automated lighting control with color and brightness adjustments.",
+  "repo_url": "https://github.com/Arpitmahajan123/MCP-Server-for-Smart-Bulb-With-Claude",
+  "source_hub": "mcp_so",
+  "owner": "Arpitmahajan123",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "dev-web-backend-node",
+    "prod",
+    "prod-comm"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "65ed723d496e023489d5c08d048163f5ac80303e",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 6,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:41Z",
+  "verification_level": "scanner_only"
+}

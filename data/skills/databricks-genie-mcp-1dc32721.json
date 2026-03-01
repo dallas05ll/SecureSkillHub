@@ -1,0 +1,29 @@
+{
+  "id": "databricks-genie-mcp-1dc32721",
+  "name": "databricks-genie-mcp",
+  "description": "This project implements a Model Context Protocol (MCP) server that exposes Databricks Genie API capabilities as tools",
+  "repo_url": "https://github.com/alexxx-db/databricks-genie-mcp",
+  "source_hub": "mcp_so",
+  "owner": "alexxx-db",
+  "stars": 13,
+  "primary_language": "unknown",
+  "tags": [
+    "data",
+    "data-ai",
+    "data-ai-nlp",
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "0d4998faec0ae17baa83bf457c8616edbc5910a1",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 4,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:42:36Z",
+  "verification_level": "scanner_only"
+}

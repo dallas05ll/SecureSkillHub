@@ -1,0 +1,24 @@
+{
+  "id": "lnd-mcp-server-2fd6f1c2",
+  "name": "lnd-mcp-server",
+  "description": "A Model Context Protocol (MCP) for querying Lightning Network (LND) node data using natural language.",
+  "repo_url": "https://github.com/pblittle/lnd-mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "pblittle",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "data",
+    "data-ai",
+    "data-ai-nlp",
+    "repo_unavailable"
+  ],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null,
+  "repo_status": "unavailable",
+  "repo_check_date": "2026-02-28T20:51:58.247612+00:00",
+  "repo_check_error": "fatal: could not read Username for 'https://github.com': Device not configured"
+}

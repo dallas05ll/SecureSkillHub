@@ -1,0 +1,26 @@
+{
+  "id": "mcp-gmail-0bed2f4b",
+  "name": "MCP_gmail",
+  "description": "mcp server",
+  "repo_url": "https://github.com/Aayushchaudry/MCP_gmail",
+  "source_hub": "mcp_so",
+  "owner": "Aayushchaudry",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "prod-comm"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "a698d7019fa9afdc3bf6b30ca6289bf7179a2e76",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 8,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:40Z",
+  "verification_level": "scanner_only"
+}

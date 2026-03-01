@@ -1,0 +1,27 @@
+{
+  "id": "mikecreighton-dot-com-content-mcp-6d9f3170",
+  "name": "mikecreighton-dot-com-content-mcp",
+  "description": "A Model Context Protocol (MCP) server that will provide all of the Mike Creighton Consulting website pages as Resources to any MCP clients.",
+  "repo_url": "https://github.com/mikecreighton/mikecreighton-dot-com-content-mcp",
+  "source_hub": "mcp_so",
+  "owner": "mikecreighton",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp",
+    "dev-web"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "6c568e7e5a73c17627a11dd1e68e8d4a9de8a371",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 8,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:41Z",
+  "verification_level": "scanner_only"
+}

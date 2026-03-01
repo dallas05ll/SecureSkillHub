@@ -1,0 +1,25 @@
+{
+  "id": "vibecheck-17fd9c71",
+  "name": "VibeCheck",
+  "description": "[MCP Server] Complete QA for cursor",
+  "repo_url": "https://github.com/Ilikepizza2/VibeCheck",
+  "source_hub": "mcp_so",
+  "owner": "Ilikepizza2",
+  "stars": 66,
+  "primary_language": "unknown",
+  "tags": [
+    "dev-testing"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "91d205c6619f97cc3209e57866f2c213aca13734",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 38,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-27T06:40:44Z",
+  "verification_level": "scanner_only"
+}

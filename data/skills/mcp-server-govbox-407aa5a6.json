@@ -1,0 +1,26 @@
+{
+  "id": "mcp-server-govbox-407aa5a6",
+  "name": "mcp-server-govbox",
+  "description": "Protótipo de servidor MCP para utilização com LLMs",
+  "repo_url": "https://github.com/giovanoh/mcp-server-govbox",
+  "source_hub": "mcp_so",
+  "owner": "giovanoh",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "6a4ffb0cbb5b82c41a2279fda2ad5b3c53ad75a4",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 3,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:41Z",
+  "verification_level": "scanner_only"
+}

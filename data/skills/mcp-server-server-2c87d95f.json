@@ -1,0 +1,26 @@
+{
+  "id": "mcp-server-server-2c87d95f",
+  "name": "mcp-server-server",
+  "description": "MCP server of servers",
+  "repo_url": "https://github.com/rgarcia/mcp-server-server",
+  "source_hub": "mcp_so",
+  "owner": "rgarcia",
+  "stars": 2,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "6a2f05b9459465fffa8422f7b617ad0383083425",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 16,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:04:50Z",
+  "verification_level": "scanner_only"
+}

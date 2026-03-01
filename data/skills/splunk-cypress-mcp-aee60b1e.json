@@ -1,0 +1,25 @@
+{
+  "id": "splunk-cypress-mcp-aee60b1e",
+  "name": "splunk-cypress-mcp",
+  "description": "mcp server for cypress",
+  "repo_url": "https://github.com/mgandhi82/splunk-cypress-mcp",
+  "source_hub": "mcp_so",
+  "owner": "mgandhi82",
+  "stars": 2,
+  "primary_language": "unknown",
+  "tags": [
+    "dev-testing"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "1a8924706c04b0f2eb74afa6a0676288b7eb93d7",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 12,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:40Z",
+  "verification_level": "scanner_only"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "gh-mcp-server-1fbafc29",
+  "name": "gh-mcp-server",
+  "description": "GitHub context server for AI models. Fetch files, structure, filter, and more.",
+  "repo_url": "https://github.com/shanksxz/gh-mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "shanksxz",
+  "stars": 2,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp",
+    "util-file",
+    "util-search"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "71927d92daeca0b1e3dc9c86841efa9a92b82c59",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 5,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:04:50Z",
+  "verification_level": "scanner_only"
+}

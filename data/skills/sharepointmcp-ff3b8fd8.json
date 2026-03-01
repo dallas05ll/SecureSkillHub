@@ -1,0 +1,26 @@
+{
+  "id": "sharepointmcp-ff3b8fd8",
+  "name": "SharePointMCP",
+  "description": "Create MCP server for accessing SharePoint Online",
+  "repo_url": "https://github.com/mhmd2015/SharePointMCP",
+  "source_hub": "mcp_so",
+  "owner": "mhmd2015",
+  "stars": 1,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "19255eaf916b6bf0d8370b5641a1b201a6783f60",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 3,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:40Z",
+  "verification_level": "scanner_only"
+}

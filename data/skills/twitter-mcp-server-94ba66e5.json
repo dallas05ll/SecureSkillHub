@@ -1,0 +1,26 @@
+{
+  "id": "twitter-mcp-server-94ba66e5",
+  "name": "twitter-mcp-server",
+  "description": "A Unofficial Twitter MCP Server with cookie auth.",
+  "repo_url": "https://github.com/gkydev/twitter-mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "gkydev",
+  "stars": 12,
+  "primary_language": "unknown",
+  "tags": [
+    "integ-social",
+    "sec"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "c9d33a0f4f270465c3d47a494a4b90f7af4578d7",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 5,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:42:34Z",
+  "verification_level": "scanner_only"
+}

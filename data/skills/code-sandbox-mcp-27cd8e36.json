@@ -1,0 +1,25 @@
+{
+  "id": "code-sandbox-mcp-27cd8e36",
+  "name": "code-sandbox-mcp",
+  "description": "An MCP server to create secure code sandbox environment for executing code within Docker containers. This MCP server provides AI applications with a safe and isolated environment for running code while maintaining security through containerization.",
+  "repo_url": "https://github.com/insecurepla/code-sandbox-mcp",
+  "source_hub": "mcp_so",
+  "owner": "insecurepla",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "dev",
+    "dev-devops-docker",
+    "sec",
+    "repo_unavailable"
+  ],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null,
+  "repo_status": "unavailable",
+  "repo_check_date": "2026-02-28T20:51:30.449271+00:00",
+  "repo_check_error": "fatal: could not read Username for 'https://github.com': Device not configured"
+}

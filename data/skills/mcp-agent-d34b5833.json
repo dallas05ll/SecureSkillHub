@@ -1,0 +1,27 @@
+{
+  "id": "mcp-agent-d34b5833",
+  "name": "mcp-agent",
+  "description": "Implementation of an MCP (Model Context Protocol) architecture featuring an MCP client and an MCP server. The project enables structured communication between distributed systems, supporting asynchronous interactions and efficient message handling",
+  "repo_url": "https://github.com/nervo84/mcp-agent",
+  "source_hub": "mcp_so",
+  "owner": "nervo84",
+  "stars": 1,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp",
+    "prod-comm"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "600b1d9ccbaa1c5a259545f22a9c152494cb5a3a",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 5,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:41Z",
+  "verification_level": "scanner_only"
+}

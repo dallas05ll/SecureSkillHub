@@ -1,0 +1,25 @@
+{
+  "id": "bridge-rates-mcp-95a87983",
+  "name": "bridge-rates-mcp",
+  "description": "An MCP server that delivers real-time cross-chain bridge rates and optimal transfer routes to onchain AI agents.",
+  "repo_url": "https://github.com/kukapay/bridge-rates-mcp",
+  "source_hub": "mcp_so",
+  "owner": "kukapay",
+  "stars": 4,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "8b75b09c48658baf30deae127e2bde4e07785c6b",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 3,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:54:02Z",
+  "verification_level": "scanner_only"
+}

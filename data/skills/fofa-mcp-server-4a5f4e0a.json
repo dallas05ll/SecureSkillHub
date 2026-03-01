@@ -1,0 +1,27 @@
+{
+  "id": "fofa-mcp-server-4a5f4e0a",
+  "name": "fofa-mcp-server",
+  "description": "This server provides access to FoFa API functionality through the Model Context Protocol.",
+  "repo_url": "https://github.com/help116114/fofa-mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "help116114",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp",
+    "integ"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "1ccd2564f9df0ccf6f42e409ee6bc1c8f4313b9b",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 5,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:40Z",
+  "verification_level": "scanner_only"
+}

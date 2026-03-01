@@ -1,0 +1,26 @@
+{
+  "id": "mayamcp-914755be",
+  "name": "MayaMCP",
+  "description": "Model Context Protocol (MCP) server implementation for Autodesk Maya",
+  "repo_url": "https://github.com/PatrickPalmer/MayaMCP",
+  "source_hub": "mcp_so",
+  "owner": "PatrickPalmer",
+  "stars": 46,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "5aa3d7b575facf699f88d5334aafa785516bb7e5",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 21,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:32:12Z",
+  "verification_level": "scanner_only"
+}

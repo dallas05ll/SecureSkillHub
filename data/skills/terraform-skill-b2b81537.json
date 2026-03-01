@@ -1,0 +1,35 @@
+{
+  "id": "terraform-skill-b2b81537",
+  "name": "terraform-skill",
+  "description": "Claude Agent Skill providing comprehensive Terraform and OpenTofu best practices including testing strategies (native tests vs Terratest), module development patterns, CI/CD workflows (GitHub Actions, GitLab CI), security scanning (Trivy, Checkov), and production IaC patterns.",
+  "repo_url": "https://github.com/antonbabenko/terraform-skill",
+  "source_hub": "github_search",
+  "skill_type": "agent_skill",
+  "owner": "antonbabenko",
+  "stars": 1225,
+  "license": "other",
+  "has_security_md": false,
+  "primary_language": "Markdown",
+  "tags": [
+    "data-ai",
+    "dev-devops-ci",
+    "dev-git",
+    "dev-testing",
+    "prod",
+    "sec",
+    "sec-scan"
+  ],
+  "verification_status": "pass",
+  "overall_score": 80,
+  "risk_level": "low",
+  "verified_at": "2026-02-25",
+  "findings_summary": {
+    "notes": "High-quality individual developer project by antonbabenko, a well-known Terraform community expert and prolific open source contributor (creator of terraform-aws-modules and other popular Terraform resources). Very recently created (Jan 2026) with rapid star growth (1225 stars in ~6 weeks). License is 'Other/NOASSERTION' (Apache 2.0 referenced in README badge but no standard LICENSE file). No SECURITY.md. Purely a Claude Code skill containing guidance documents, decision matrices, and best practice patterns for Terraform/OpenTofu. No executable code that could pose runtime risks. Topics include security and compliance scanning guidance. Excellent documentation quality. Installed via Claude Code plugin marketplace."
+  },
+  "verified_commit": null,
+  "scan_summary": null,
+  "last_updated": "2026-02-25T22:25:09Z",
+  "trust_level": "low",
+  "scan_date": "2026-02-25T23:05:53Z",
+  "verification_level": "scanner_only"
+}

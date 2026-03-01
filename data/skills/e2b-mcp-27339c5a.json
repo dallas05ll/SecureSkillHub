@@ -1,0 +1,27 @@
+{
+  "id": "e2b-mcp-27339c5a",
+  "name": "E2B_MCP",
+  "description": "Support connecting E2B via MCP, with custom server and client, without the need for tools like the Claude app, Cursor, etc.",
+  "repo_url": "https://github.com/LRriver/E2B_MCP",
+  "source_hub": "mcp_so",
+  "owner": "LRriver",
+  "stars": 4,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "871d4bc4fa7fec86b38201cd7fb328e6743cf898",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 7,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:54:02Z",
+  "verification_level": "scanner_only"
+}

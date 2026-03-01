@@ -1,0 +1,25 @@
+{
+  "id": "remembering-conversations-acd92983",
+  "name": "Remembering Conversations",
+  "description": "Agent skill: remembering-conversations from obra/episodic-memory",
+  "repo_url": "https://github.com/obra/episodic-memory",
+  "source_hub": "skills_sh",
+  "owner": "obra",
+  "stars": 5500,
+  "primary_language": "unknown",
+  "tags": [
+    "prod-notes"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "6feaa5bd8752ae104c88d251e68ce19c30a1bd2f",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 49,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:54:02Z",
+  "verification_level": "scanner_only"
+}

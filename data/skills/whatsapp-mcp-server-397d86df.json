@@ -1,0 +1,26 @@
+{
+  "id": "whatsapp-mcp-server-397d86df",
+  "name": "whatsapp-mcp-server",
+  "description": "Model Context Protocol (MCP) server for WhatsApp.",
+  "repo_url": "https://github.com/ClostAI/whatsapp-mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "ClostAI",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "f8fb63c1a9a5281de0056d530d7d35c7655ded25",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 8,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:43:00Z",
+  "verification_level": "scanner_only"
+}

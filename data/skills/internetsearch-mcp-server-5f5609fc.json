@@ -1,0 +1,25 @@
+{
+  "id": "internetsearch-mcp-server-5f5609fc",
+  "name": "Internetsearch-mcp-server",
+  "description": "一个用于联网搜索的MCP服务器",
+  "repo_url": "https://github.com/mingdedi/Internetsearch-mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "mingdedi",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "util-search"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "adc799cad9bb7b7e6e643a6b1323fd62fd4a8ad0",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 5,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:40Z",
+  "verification_level": "scanner_only"
+}

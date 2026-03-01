@@ -1,0 +1,28 @@
+{
+  "id": "langchain-mcp-examples-15d1db62",
+  "name": "langchain-mcp-examples",
+  "description": "A practical demonstration of integrating LangChain with Model Control Protocol (MCP) featuring both single and multi-server implementations. Includes examples of mathematical computations and weather queries using async operations, React agents, and OpenAI integration. Perfect for developers looking to understand MCP-LangChain integration patterns.",
+  "repo_url": "https://github.com/Ayyappa054/langchain-mcp-examples",
+  "source_hub": "mcp_so",
+  "owner": "Ayyappa054",
+  "stars": 2,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "dev",
+    "dev-web-frontend-react",
+    "integ"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "9cb97e58e6f5d357a6adde4a212caaffb68084ea",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 6,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:04:51Z",
+  "verification_level": "scanner_only"
+}

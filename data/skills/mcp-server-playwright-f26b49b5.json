@@ -1,0 +1,28 @@
+{
+  "id": "mcp-server-playwright-f26b49b5",
+  "name": "MCP-Server-Playwright",
+  "description": "MCP server for browser automation using Playwright",
+  "repo_url": "https://github.com/Automata-Labs-team/MCP-Server-Playwright",
+  "source_hub": "mcp_so",
+  "owner": "Automata-Labs-team",
+  "stars": 281,
+  "primary_language": "unknown",
+  "tags": [
+    "dev-testing",
+    "dev-web",
+    "prod",
+    "util-search"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 6,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-27T02:28:45Z",
+  "verification_level": "scanner_only"
+}

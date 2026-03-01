@@ -1,0 +1,29 @@
+{
+  "id": "nexushub-3dee7eef",
+  "name": "NexusHub",
+  "description": "NexusHub is a powerful Model Context Protocol (MCP) server that functions as a central connection point for AI workflows and tool integration.",
+  "repo_url": "https://github.com/webdevtodayjason/NexusHub",
+  "source_hub": "mcp_so",
+  "owner": "webdevtodayjason",
+  "stars": 1,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp",
+    "integ",
+    "prod",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "31d1d182a444408e290e4a276ac2094db00defbc",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 30,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:42Z",
+  "verification_level": "scanner_only"
+}

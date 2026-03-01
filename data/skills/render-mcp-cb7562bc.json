@@ -1,0 +1,25 @@
+{
+  "id": "render-mcp-cb7562bc",
+  "name": "render-mcp",
+  "description": "An unofficial MCP server for Render to help developers ship code faster via Cline, Cursor, and Windsurf",
+  "repo_url": "https://github.com/niyogi/render-mcp",
+  "source_hub": "mcp_so",
+  "owner": "niyogi",
+  "stars": 15,
+  "primary_language": "unknown",
+  "tags": [
+    "dev"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "96c2ff1036de8f237497429a9cc439460baa101f",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 14,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:42:36Z",
+  "verification_level": "scanner_only"
+}

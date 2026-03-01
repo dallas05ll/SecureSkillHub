@@ -1,0 +1,30 @@
+{
+  "id": "claude-mountaineering-skills-f9ebafdf",
+  "name": "claude-mountaineering-skills",
+  "description": "Automates mountain route research for North American peaks. Aggregates data from 10+ mountaineering sources to generate detailed route beta reports with weather, avalanche conditions, and trip reports.",
+  "repo_url": "https://github.com/dreamiurg/claude-mountaineering-skills",
+  "source_hub": "github_search",
+  "skill_type": "agent_skill",
+  "owner": "dreamiurg",
+  "stars": 16,
+  "license": "mit",
+  "primary_language": "markdown",
+  "tags": [
+    "data",
+    "data-ai",
+    "prod",
+    "util-search"
+  ],
+  "verification_status": "pass",
+  "overall_score": 83,
+  "risk_level": "low",
+  "verified_commit": null,
+  "scan_summary": null,
+  "last_updated": "2026-02-24T08:37:54Z",
+  "findings_summary": {
+    "notes": "Metadata-based verification. Score=83. Signals: stars=16 (>=10, +5); license='mit' (+5); owner='dreamiurg' (+3); primary_language='markdown'; source_hub='github_search'. Status: pass. Risk: low."
+  },
+  "trust_level": "low",
+  "scan_date": "2026-02-26T06:14:55Z",
+  "verification_level": "metadata_only"
+}

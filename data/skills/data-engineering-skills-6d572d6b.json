@@ -1,0 +1,30 @@
+{
+  "id": "data-engineering-skills-6d572d6b",
+  "name": "data-engineering-skills",
+  "description": "Claude Code skills for analytics and data engineers working with dbt and Snowflake, encoding experienced engineer workflows and best practices.",
+  "repo_url": "https://github.com/AltimateAI/data-engineering-skills",
+  "source_hub": "github_search",
+  "skill_type": "agent_skill",
+  "owner": "AltimateAI",
+  "stars": 55,
+  "license": "mit",
+  "primary_language": "Markdown",
+  "tags": [
+    "data",
+    "data-ai",
+    "dev",
+    "prod"
+  ],
+  "verification_status": "pass",
+  "overall_score": 76,
+  "risk_level": "low",
+  "verified_commit": null,
+  "scan_summary": null,
+  "last_updated": "2026-02-23T16:08:20Z",
+  "findings_summary": {
+    "notes": "MIT licensed by AltimateAI (known dbt tooling company), actively maintained. Good provenance from established data tooling company."
+  },
+  "trust_level": "low",
+  "scan_date": "2026-02-26T02:12:27Z",
+  "verification_level": "scanner_only"
+}

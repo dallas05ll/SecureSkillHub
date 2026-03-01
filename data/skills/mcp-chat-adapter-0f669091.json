@@ -1,0 +1,26 @@
+{
+  "id": "mcp-chat-adapter-0f669091",
+  "name": "mcp-chat-adapter",
+  "description": "MCP server for using OpenAI compatible chat endpoints",
+  "repo_url": "https://github.com/aiamblichus/mcp-chat-adapter",
+  "source_hub": "mcp_so",
+  "owner": "aiamblichus",
+  "stars": 3,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "prod-comm"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "483cf610e86753561b18481c2967f591c5e6dbae",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 14,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:04:50Z",
+  "verification_level": "scanner_only"
+}

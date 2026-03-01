@@ -1,0 +1,26 @@
+{
+  "id": "design-system-server-9df62010",
+  "name": "design-system-server",
+  "description": "A proof-of-concept for publish design system guidance and code snippets as an MCP server for usage with LLMs",
+  "repo_url": "https://github.com/pglevy/design-system-server",
+  "source_hub": "mcp_so",
+  "owner": "pglevy",
+  "stars": 7,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "dev"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "fc5eb857675dc1d4130d6977e19b35c2fbb06575",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 30,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:54:02Z",
+  "verification_level": "scanner_only"
+}

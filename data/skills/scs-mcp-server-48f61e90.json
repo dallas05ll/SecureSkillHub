@@ -1,0 +1,25 @@
+{
+  "id": "scs-mcp-server-48f61e90",
+  "name": "scs-mcp-server",
+  "description": "Simutrans横断検索APIを介してアドオン検索するMCPサ－バーです",
+  "repo_url": "https://github.com/128na/scs-mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "128na",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "integ"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "d6bb948c05b2ddac7da2ecc43685fe1a8eb15855",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 5,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:41Z",
+  "verification_level": "scanner_only"
+}

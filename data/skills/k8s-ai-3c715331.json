@@ -1,0 +1,28 @@
+{
+  "id": "k8s-ai-3c715331",
+  "name": "k8s-ai",
+  "description": "AI-Powered Kubernetes Management System: A platform combining natural language processing with Kubernetes management. Users can perform real-time diagnostics, resource monitoring, and smart log analysis. It simplifies Kubernetes management through conversational AI, providing a modern alternative",
+  "repo_url": "https://github.com/hariohmprasath/k8s-ai",
+  "source_hub": "mcp_so",
+  "owner": "hariohmprasath",
+  "stars": 14,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp",
+    "dev-devops-k8s",
+    "util-monitor"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "6942254bf11312c1d895945f163628fc961dc08f",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 4,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:42:36Z",
+  "verification_level": "scanner_only"
+}

@@ -1,0 +1,26 @@
+{
+  "id": "homebrew-mcp-33bd17fa",
+  "name": "homebrew-mcp",
+  "description": "Homebrew MCP : Comprehensive brew support for installing, upgrading, searching, and maintaining macOS packages.",
+  "repo_url": "https://github.com/jeannier/homebrew-mcp",
+  "source_hub": "mcp_so",
+  "owner": "jeannier",
+  "stars": 25,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "util-search"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "2784cfad6d4739085ab40e73437f75c405cb2ac1",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 6,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:32:11Z",
+  "verification_level": "scanner_only"
+}

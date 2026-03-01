@@ -1,0 +1,26 @@
+{
+  "id": "mcp-dump-fa80d41f",
+  "name": "MCP-dump",
+  "description": "all the MCP (model context protocol) servers out here are build out of curiosity",
+  "repo_url": "https://github.com/Jayanth-MKV/MCP-dump",
+  "source_hub": "mcp_so",
+  "owner": "Jayanth-MKV",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "eb30bb18bdbb8199b32fe94792c7bfa5e8e4cd7f",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 24,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:42Z",
+  "verification_level": "scanner_only"
+}

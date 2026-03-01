@@ -1,0 +1,25 @@
+{
+  "id": "mcp-hk-transport-eta-ceca9d07",
+  "name": "mcp-hk-transport-eta",
+  "description": "Get ETA (Estimated Time of Arrival) for public transport in Hong Kong.",
+  "repo_url": "https://github.com/kennyfong19931/mcp-hk-transport-eta",
+  "source_hub": "mcp_so",
+  "owner": "kennyfong19931",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "f25c9558082a9dd6dfb9bc25a1b04974983d39bc",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 5,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:40Z",
+  "verification_level": "scanner_only"
+}

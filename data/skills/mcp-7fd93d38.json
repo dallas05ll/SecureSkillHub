@@ -1,0 +1,25 @@
+{
+  "id": "mcp-7fd93d38",
+  "name": "mcp",
+  "description": "basic mcp server",
+  "repo_url": "https://github.com/celsorodriguesGC/mcp",
+  "source_hub": "mcp_so",
+  "owner": "celsorodriguesGC",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "util",
+    "repo_unavailable"
+  ],
+  "verification_status": "pass",
+  "overall_score": 92,
+  "risk_level": "low",
+  "verified_commit": null,
+  "scan_summary": null,
+  "scan_date": "2026-02-26T03:00:50Z",
+  "repo_status": "unavailable",
+  "repo_check_date": "2026-02-28T20:52:00.974668+00:00",
+  "repo_check_error": "fatal: could not read Username for 'https://github.com': Device not configured",
+  "verification_level": "scanner_only"
+}

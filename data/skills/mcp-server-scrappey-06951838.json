@@ -1,0 +1,27 @@
+{
+  "id": "mcp-server-scrappey-06951838",
+  "name": "mcp-server-scrappey",
+  "description": "Allow LLMs to control a browser with Scrappey",
+  "repo_url": "https://github.com/pim97/mcp-server-scrappey",
+  "source_hub": "mcp_so",
+  "owner": "pim97",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "dev-web",
+    "util-search"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "88f4b4d060ec52700738197eb9f4966902e8aac3",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 7,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:42Z",
+  "verification_level": "scanner_only"
+}

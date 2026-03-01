@@ -1,0 +1,34 @@
+{
+  "id": "claude-night-market-bb677e28",
+  "name": "claude-night-market",
+  "description": "Collection of 16 Claude Code plugins for software engineering workflows: git operations, code review, spec-driven development, issue management, session management, security controls, OAuth flows, and cross-session state management. Includes hooks for TDD enforcement, risk gating, and homeostatic skill stability monitoring.",
+  "repo_url": "https://github.com/athola/claude-night-market",
+  "source_hub": "github_search",
+  "skill_type": "agent_skill",
+  "owner": "athola",
+  "stars": 183,
+  "license": "mit",
+  "primary_language": "Python",
+  "tags": [
+    "data-ai",
+    "dev",
+    "integ",
+    "prod",
+    "sec",
+    "sec-auth",
+    "util-monitor"
+  ],
+  "verification_status": "pass",
+  "overall_score": 76,
+  "risk_level": "medium",
+  "verified_commit": null,
+  "scan_summary": null,
+  "last_updated": "2026-02-25T22:38:04Z",
+  "findings_summary": {
+    "notes": "Extensive, feature-rich multi-plugin marketplace (MIT) with 16 plugins. Very high complexity — 72 open issues is a significant concern for stability. Plugins include: abstract, archetypes, attune, conjure, conserve, hookify, imbue, leyline, memory-palace, minister, parseltongue, pensive, sanctum, scribe, scry, spec-kit. Has pre-commit hooks, Makefile, pyproject.toml, and comprehensive documentation. Security concerns to note: (1) 'leyline' manages OAuth flows for GitHub/GitLab/AWS with local token caching — this involves credential handling which requires careful trust evaluation. (2) 'conserve' implements permission checks that block/approve commands — this is a powerful hook that could block legitimate operations if misconfigured. (3) The system integrates deeply with GitHub Discussions for cross-session state. (4) Complexity is very high — README is extremely long and references many versions of Claude Code. The hooks operate at a privileged level (PreToolUse blocking). The conserve plugin's 'automatically approving safe commands like ls while blocking high-risk operations like rm -rf /' description is security-relevant. No obvious malicious patterns, but high complexity and 72 open issues warrant cautious deployment."
+  },
+  "verification_date": "2026-02-25",
+  "trust_level": "low",
+  "scan_date": "2026-02-26T02:19:52Z",
+  "verification_level": "scanner_only"
+}

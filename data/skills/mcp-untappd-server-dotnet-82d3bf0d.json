@@ -1,0 +1,26 @@
+{
+  "id": "mcp-untappd-server-dotnet-82d3bf0d",
+  "name": "mcp-untappd-server-dotnet",
+  "description": "An example MCP Azure Function in F#",
+  "repo_url": "https://github.com/jtucker/mcp-untappd-server-dotnet",
+  "source_hub": "mcp_so",
+  "owner": "jtucker",
+  "stars": 9,
+  "primary_language": "unknown",
+  "tags": [
+    "integ-cloud",
+    "integ-cloud-azure"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "c5e0ac9cd7ac5d117de4dd307a7df38f6edef86b",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 4,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:42:34Z",
+  "verification_level": "scanner_only"
+}

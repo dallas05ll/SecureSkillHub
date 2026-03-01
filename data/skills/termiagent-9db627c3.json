@@ -1,0 +1,28 @@
+{
+  "id": "termiagent-9db627c3",
+  "name": "termiAgent",
+  "description": "termiAgent is an LLM-driven command-line assistant that provides plug-in role settings to create workflows for different tasks. At the same time, it is an mcp-client that can freely connect to your mcp-servers.",
+  "repo_url": "https://github.com/ccq1/termiAgent",
+  "source_hub": "mcp_so",
+  "owner": "ccq1",
+  "stars": 2,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "integ",
+    "prod",
+    "prod-pm"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "514fb464a6c7704778048d0c881d07624f339fe0",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 13,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:40Z",
+  "verification_level": "scanner_only"
+}

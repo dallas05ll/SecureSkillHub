@@ -1,0 +1,27 @@
+{
+  "id": "documentation-mcp-9062bb33",
+  "name": "Documentation-MCP",
+  "description": "An MCP server that can work with Claude desktop to fetch documentation from langchain, llama-index, and OpenAI.",
+  "repo_url": "https://github.com/sagacious-satadru/Documentation-MCP",
+  "source_hub": "mcp_so",
+  "owner": "sagacious-satadru",
+  "stars": 3,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "prod-docs",
+    "util-search"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "5c7650daacdf1848448abdfe14eabb603c51e7e2",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 3,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:04:50Z",
+  "verification_level": "scanner_only"
+}

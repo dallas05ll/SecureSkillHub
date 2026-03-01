@@ -1,0 +1,27 @@
+{
+  "id": "aps-aecdm-mcp-dotnet-69bc8913",
+  "name": "aps-aecdm-mcp-dotnet",
+  "description": ".NET MCP Server to connect with Claude Desktop and AEC Data Model API",
+  "repo_url": "https://github.com/JoaoMartins-callmeJohn/aps-aecdm-mcp-dotnet",
+  "source_hub": "mcp_so",
+  "owner": "JoaoMartins-callmeJohn",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "data",
+    "data-ai",
+    "integ"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "a477b3a902db4b6873d08ceb00791ed861dff046",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 2,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:40Z",
+  "verification_level": "scanner_only"
+}

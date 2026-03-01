@@ -1,0 +1,25 @@
+{
+  "id": "spring-ai-mcp-server-f1fff3c3",
+  "name": "spring-ai-mcp-server",
+  "description": "MCP Server using Spring AI",
+  "repo_url": "https://github.com/moises-paschoalick/spring-ai-mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "moises-paschoalick",
+  "stars": 2,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "173874f6abdefc093f628b27582defadb18d373c",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 1,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:41Z",
+  "verification_level": "scanner_only"
+}

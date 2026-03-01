@@ -1,0 +1,27 @@
+{
+  "id": "mcp-atp-49c8a962",
+  "name": "mcp-atp",
+  "description": "MCP server for IQAI's Agent tokenization platform",
+  "repo_url": "https://github.com/IQAIcom/mcp-atp",
+  "source_hub": "mcp_so",
+  "owner": "IQAIcom",
+  "stars": 2,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "dev-testing",
+    "sec-crypto"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "81ed28deb92dea6dbee0fb9c497c34591b30667c",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 24,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:04:50Z",
+  "verification_level": "scanner_only"
+}

@@ -1,0 +1,25 @@
+{
+  "id": "postmancer-1c9151b8",
+  "name": "postmancer",
+  "description": "An experimental MCP server Rest Client intended to be a replacement of tools postman & insomnia",
+  "repo_url": "https://github.com/hijaz/postmancer",
+  "source_hub": "mcp_so",
+  "owner": "hijaz",
+  "stars": 31,
+  "primary_language": "unknown",
+  "tags": [
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "d71f38e14421a3ff5fa65b335f164c1a0b002d5b",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 24,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:32:11Z",
+  "verification_level": "scanner_only"
+}

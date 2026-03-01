@@ -1,0 +1,26 @@
+{
+  "id": "clear-thought-mcp-ce911bd4",
+  "name": "clear-thought-mcp",
+  "description": "Clear Thought MCP Server repository",
+  "repo_url": "https://github.com/ThinkFar/clear-thought-mcp",
+  "source_hub": "mcp_so",
+  "owner": "ThinkFar",
+  "stars": 4,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "2bf958b64d50b7c6d336d0756b70b06401eca1fd",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 22,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:54:04Z",
+  "verification_level": "scanner_only"
+}

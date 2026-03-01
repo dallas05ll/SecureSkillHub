@@ -1,0 +1,29 @@
+{
+  "id": "popkit-claude-7e72caf0",
+  "name": "popkit-claude",
+  "description": "AI-powered development workflow automation for Claude Code. Modular plugin suite with 23 commands, 38 skills, and 22 specialized agents for professional software development.",
+  "repo_url": "https://github.com/jrc1883/popkit-claude",
+  "source_hub": "github_search",
+  "skill_type": "agent_skill",
+  "owner": "jrc1883",
+  "stars": 4,
+  "license": "other",
+  "primary_language": "markdown",
+  "tags": [
+    "data-ai",
+    "dev",
+    "prod"
+  ],
+  "verification_status": "pass",
+  "overall_score": 78,
+  "risk_level": "medium",
+  "verified_commit": null,
+  "scan_summary": null,
+  "last_updated": "2026-02-23T18:53:46Z",
+  "findings_summary": {
+    "notes": "Metadata-based verification. Score=78. Signals: stars=4; license='other' (+5); owner='jrc1883' (+3); primary_language='markdown'; source_hub='github_search'. Status: pass. Risk: medium."
+  },
+  "trust_level": "low",
+  "scan_date": "2026-02-26T06:14:56Z",
+  "verification_level": "metadata_only"
+}

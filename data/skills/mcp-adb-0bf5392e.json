@@ -1,0 +1,26 @@
+{
+  "id": "mcp-adb-0bf5392e",
+  "name": "mcp-adb",
+  "description": "MCP (Model Context Protocol) Server to control Android TV",
+  "repo_url": "https://github.com/isseikz/mcp-adb",
+  "source_hub": "mcp_so",
+  "owner": "isseikz",
+  "stars": 2,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "e3e4093853bfca13670cfa69a8a4fc75361f81fb",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 7,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:04:50Z",
+  "verification_level": "scanner_only"
+}

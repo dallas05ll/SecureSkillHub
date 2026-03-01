@@ -1,0 +1,24 @@
+{
+  "id": "skill-autonomous-orchestrator-e6e7e9e4",
+  "name": "skill-autonomous-orchestrator",
+  "description": "Agent Skill for autonomous continuous operation across a workspace",
+  "repo_url": "https://github.com/metyatech/skill-autonomous-orchestrator",
+  "source_hub": "github_search",
+  "skill_type": "agent_skill",
+  "owner": "metyatech",
+  "stars": 0,
+  "license": "mit",
+  "primary_language": "markdown",
+  "tags": [],
+  "verification_status": "manual_review",
+  "overall_score": 68,
+  "risk_level": "medium",
+  "verified_commit": null,
+  "scan_summary": null,
+  "last_updated": "2026-02-24T02:35:34Z",
+  "findings_summary": {
+    "notes": "Metadata-based verification. Score=68. Signals: stars=0 (-10); license='mit' (+5); owner='metyatech' (+3); primary_language='markdown'; source_hub='github_search'. Status: manual_review. Risk: medium."
+  },
+  "trust_level": "low",
+  "scan_date": "2026-02-26T06:14:56Z"
+}

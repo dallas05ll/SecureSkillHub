@@ -1,0 +1,26 @@
+{
+  "id": "mcp-servers-2376b73b",
+  "name": "mcp-servers",
+  "description": "🚀 The Model Context Protocol servers on my machine",
+  "repo_url": "https://github.com/goofansu/mcp-servers",
+  "source_hub": "mcp_so",
+  "owner": "goofansu",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "d90454ea8e74aaba767a668f17422cf598531eba",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 5,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:42Z",
+  "verification_level": "scanner_only"
+}

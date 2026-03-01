@@ -1,0 +1,26 @@
+{
+  "id": "aws-mcp-servers-config-48f1e53b",
+  "name": "aws-mcp-servers-config",
+  "description": "AWS MCP Server Configurations for different operating systems",
+  "repo_url": "https://github.com/BrianSuarezSantiago/aws-mcp-servers-config",
+  "source_hub": "mcp_so",
+  "owner": "BrianSuarezSantiago",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "integ-cloud",
+    "integ-cloud-aws"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "9265f758073963b730abfdfae179d001cc7b6a09",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 6,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:40Z",
+  "verification_level": "scanner_only"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "agent-pagerduty-c396b528",
+  "name": "agent-pagerduty",
+  "description": "PagerDuty AI Agent powered by 1st Party MCP Server using OpenAPI Codegen, LangGraph and LangChain MCP Adapters. Agent is exposed on various agent transport protocols (AGNTCY ACP, Google A2A, MCP Server)Agent for PagerDuty",
+  "repo_url": "https://github.com/cnoe-io/agent-pagerduty",
+  "source_hub": "mcp_so",
+  "owner": "cnoe-io",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "dev",
+    "integ",
+    "repo_unavailable"
+  ],
+  "verification_status": "manual_review",
+  "overall_score": 0,
+  "risk_level": "high",
+  "verified_commit": "",
+  "scan_summary": null,
+  "scan_date": "2026-02-28T20:27:24Z",
+  "findings_summary": {
+    "error": "clone failed: Cloning into '/var/folders/pq/bb71gjzd01d29nnmqrhqr2rc0000gn/T/strict5_agent-pagerduty-c396b528_y1pqf78r/repo'...\nfatal: could not read Username for 'https://github.com': Device not configured",
+    "supervisor_approved": false,
+    "supervisor_confidence": 0
+  },
+  "repo_status": "unavailable"
+}

@@ -1,0 +1,26 @@
+{
+  "id": "eclass-mcp-server-79ffa22f",
+  "name": "eClass-MCP-Server",
+  "description": "an MCP server for GUnet's Open eClass",
+  "repo_url": "https://github.com/sdi2200262/eClass-MCP-Server",
+  "source_hub": "mcp_so",
+  "owner": "sdi2200262",
+  "stars": 8,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "8b4e39c7fe7eae05a1ed4fc1e933a09175a6fa67",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 17,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:42:34Z",
+  "verification_level": "scanner_only"
+}

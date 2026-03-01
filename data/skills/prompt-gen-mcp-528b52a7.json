@@ -1,0 +1,26 @@
+{
+  "id": "prompt-gen-mcp-528b52a7",
+  "name": "prompt-gen-mcp",
+  "description": "Transform simple questions into comprehensive, context-aware prompts\nby combining PromptGen’s hosted prompt-engineering techniques with\ncode context that stays 100 % on your machine.",
+  "repo_url": "https://github.com/prompt-gen-mcp/prompt-gen-mcp",
+  "source_hub": "mcp_so",
+  "owner": "prompt-gen-mcp",
+  "stars": 4,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai-nlp",
+    "dev"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "11c0095465e96d4767278b4eaf66837d195d1c61",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 8,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:04:51Z",
+  "verification_level": "scanner_only"
+}

@@ -1,0 +1,25 @@
+{
+  "id": "test-repo-14d38e37",
+  "name": "test-repo",
+  "description": "Test repository created via MCP server",
+  "repo_url": "https://github.com/Bocchi-NotLikeCodeVersion/test-repo",
+  "source_hub": "mcp_so",
+  "owner": "Bocchi-NotLikeCodeVersion",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "dev-testing"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "62aaf8a4d20067f3e19da6743400c795c72a09cb",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 1,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:42:59Z",
+  "verification_level": "scanner_only"
+}

@@ -1,0 +1,156 @@
+rules:
+  # -----------------------------------------------------------------------
+  # Python: Network / HTTP / Socket operations
+  # -----------------------------------------------------------------------
+  - id: network-requests-call
+    languages: [python]
+    severity: WARNING
+    message: >
+      HTTP request via the requests library detected. Verify the target URL
+      is expected and not used for data exfiltration.
+    pattern-either:
+      - pattern: requests.get(...)
+      - pattern: requests.post(...)
+      - pattern: requests.put(...)
+      - pattern: requests.delete(...)
+      - pattern: requests.patch(...)
+      - pattern: requests.head(...)
+      - pattern: requests.options(...)
+      - pattern: requests.request(...)
+
+  - id: network-urllib-open
+    languages: [python]
+    severity: WARNING
+    message: >
+      urllib request detected. May connect to external services.
+    pattern-either:
+      - pattern: urllib.request.urlopen(...)
+      - pattern: urllib.request.urlretrieve(...)
+      - pattern: urllib.request.Request(...)
+
+  - id: network-httpx
+    languages: [python]
+    severity: WARNING
+    message: >
+      httpx HTTP client usage detected. Verify target URLs.
+    pattern-either:
+      - pattern: httpx.get(...)
+      - pattern: httpx.post(...)
+      - pattern: httpx.put(...)
+      - pattern: httpx.delete(...)
+      - pattern: httpx.patch(...)
+      - pattern: httpx.AsyncClient(...)
+      - pattern: httpx.Client(...)
+
+  - id: network-aiohttp
+    languages: [python]
+    severity: WARNING
+    message: >
+      aiohttp session detected — async HTTP client for outbound requests.
+    patterns:
+      - pattern: aiohttp.ClientSession(...)
+
+  - id: network-socket-create
+    languages: [python]
+    severity: ERROR
+    message: >
+      Raw socket creation detected. May be used for arbitrary network
+      connections, port scanning, or data exfiltration.
+    patterns:
+      - pattern: socket.socket(...)
+
+  - id: network-http-client
+    languages: [python]
+    severity: WARNING
+    message: >
+      Low-level HTTP connection via http.client detected.
+    pattern-either:
+      - pattern: http.client.HTTPConnection(...)
+      - pattern: http.client.HTTPSConnection(...)
+
+  - id: network-smtp
+    languages: [python]
+    severity: ERROR
+    message: >
+      SMTP client detected — may send emails or exfiltrate data via email.
+    patterns:
+      - pattern: smtplib.SMTP(...)
+
+  - id: network-ftp
+    languages: [python]
+    severity: ERROR
+    message: >
+      FTP client detected — may transfer files to external servers.
+    patterns:
+      - pattern: ftplib.FTP(...)
+
+  - id: network-paramiko-ssh
+    languages: [python]
+    severity: ERROR
+    message: >
+      SSH client via paramiko detected — allows remote command execution.
+    pattern-either:
+      - pattern: paramiko.SSHClient(...)
+      - pattern: paramiko.Transport(...)
+
+  # -----------------------------------------------------------------------
+  # JavaScript / TypeScript: Network operations
+  # -----------------------------------------------------------------------
+  - id: network-js-fetch
+    languages: [javascript, typescript]
+    severity: WARNING
+    message: >
+      fetch() call detected. Verify target URL is expected.
+    patterns:
+      - pattern: fetch(...)
+
+  - id: network-js-axios
+    languages: [javascript, typescript]
+    severity: WARNING
+    message: >
+      axios HTTP request detected. Verify target URLs.
+    pattern-either:
+      - pattern: axios.get(...)
+      - pattern: axios.post(...)
+      - pattern: axios.put(...)
+      - pattern: axios.delete(...)
+      - pattern: axios.patch(...)
+      - pattern: axios.request(...)
+
+  - id: network-js-http-request
+    languages: [javascript, typescript]
+    severity: WARNING
+    message: >
+      Node.js http/https module request detected.
+    pattern-either:
+      - pattern: http.request(...)
+      - pattern: https.request(...)
+      - pattern: http.get(...)
+      - pattern: https.get(...)
+
+  - id: network-js-websocket
+    languages: [javascript, typescript]
+    severity: WARNING
+    message: >
+      WebSocket connection detected — allows persistent bidirectional communication.
+    patterns:
+      - pattern: new WebSocket(...)
+
+  - id: network-js-net-socket
+    languages: [javascript, typescript]
+    severity: ERROR
+    message: >
+      Raw TCP socket via net module detected. May be used for arbitrary
+      network connections.
+    pattern-either:
+      - pattern: net.createConnection(...)
+      - pattern: net.createServer(...)
+      - pattern: new net.Socket(...)
+
+  - id: network-js-xmlhttprequest
+    languages: [javascript, typescript]
+    severity: WARNING
+    message: >
+      XMLHttpRequest detected — legacy HTTP client for outbound requests.
+    patterns:
+      - pattern: new XMLHttpRequest(...)

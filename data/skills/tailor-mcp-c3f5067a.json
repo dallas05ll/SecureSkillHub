@@ -1,0 +1,27 @@
+{
+  "id": "tailor-mcp-c3f5067a",
+  "name": "tailor-mcp",
+  "description": "The tailorctl command-line utility, with a focus on MCP (Model Context Protocol) server functionality.",
+  "repo_url": "https://github.com/tailor-platform/tailor-mcp",
+  "source_hub": "mcp_so",
+  "owner": "tailor-platform",
+  "stars": 8,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "ba8cc65be4dc58c33999607bca4642ad03c7cea9",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 5,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:54:02Z",
+  "verification_level": "scanner_only"
+}

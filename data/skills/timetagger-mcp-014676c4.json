@@ -1,0 +1,25 @@
+{
+  "id": "timetagger-mcp-014676c4",
+  "name": "timetagger-mcp",
+  "description": "A MCP server for the timetagger tool, allowing you to start, stop timers and get reports directly from your MCP Client",
+  "repo_url": "https://github.com/regismesquita/timetagger-mcp",
+  "source_hub": "mcp_so",
+  "owner": "regismesquita",
+  "stars": 1,
+  "primary_language": "unknown",
+  "tags": [
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "87e728ac4f512237fd462164fbfb73dc8874a488",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 6,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:42Z",
+  "verification_level": "scanner_only"
+}

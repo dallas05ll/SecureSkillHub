@@ -1,0 +1,25 @@
+{
+  "id": "pushover-mcp-3f8f03ad",
+  "name": "pushover-mcp",
+  "description": "A MCP implementation for sending notifications via Pushover",
+  "repo_url": "https://github.com/AshikNesin/pushover-mcp",
+  "source_hub": "mcp_so",
+  "owner": "AshikNesin",
+  "stars": 34,
+  "primary_language": "unknown",
+  "tags": [
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "53816a4bfcbef049dd2d3730c3fb8bafa2e63e10",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 7,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:32:13Z",
+  "verification_level": "scanner_only"
+}

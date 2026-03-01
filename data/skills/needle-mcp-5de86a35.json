@@ -1,0 +1,27 @@
+{
+  "id": "needle-mcp-5de86a35",
+  "name": "needle-mcp",
+  "description": "Integration of Needle in modelcontextprotocol",
+  "repo_url": "https://github.com/needle-ai/needle-mcp",
+  "source_hub": "mcp_so",
+  "owner": "needle-ai",
+  "stars": 96,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp",
+    "integ"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "96d82632e3c719ffa61dc8f0909a7cc0d185a161",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 5,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-27T06:40:44Z",
+  "verification_level": "scanner_only"
+}

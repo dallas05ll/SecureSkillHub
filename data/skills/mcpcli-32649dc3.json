@@ -1,0 +1,25 @@
+{
+  "id": "mcpcli-32649dc3",
+  "name": "mcpcli",
+  "description": "cli tool for inspect mcp server",
+  "repo_url": "https://github.com/winterfx/mcpcli",
+  "source_hub": "mcp_so",
+  "owner": "winterfx",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "4ff0f3763db86485f177559dad4b72eb0a7dabd3",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 1,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:40Z",
+  "verification_level": "scanner_only"
+}

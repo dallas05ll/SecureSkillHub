@@ -1,0 +1,27 @@
+{
+  "id": "aws-mcp-cloud-dev-3d8f5e13",
+  "name": "aws-mcp-cloud-dev",
+  "description": "AI-powered cloud development with AWS MCP Servers",
+  "repo_url": "https://github.com/hrudu-dev/aws-mcp-cloud-dev",
+  "source_hub": "mcp_so",
+  "owner": "hrudu-dev",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "integ-cloud",
+    "integ-cloud-aws"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "8b4fcf98e54818a4431d43dcc8fbdf2b04da68f1",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 2,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:42Z",
+  "verification_level": "scanner_only"
+}

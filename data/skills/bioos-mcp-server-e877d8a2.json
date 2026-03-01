@@ -1,0 +1,26 @@
+{
+  "id": "bioos-mcp-server-e877d8a2",
+  "name": "bioos-mcp-server",
+  "description": "The MCP Servers for Bio-OS instance platforms.",
+  "repo_url": "https://github.com/GBA-BI/bioos-mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "GBA-BI",
+  "stars": 4,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "3ad611843389bf4f119d66165b2cb1589873d871",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 12,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:54:02Z",
+  "verification_level": "scanner_only"
+}

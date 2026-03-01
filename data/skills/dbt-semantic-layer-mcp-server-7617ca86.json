@@ -1,0 +1,26 @@
+{
+  "id": "dbt-semantic-layer-mcp-server-7617ca86",
+  "name": "dbt-semantic-layer-mcp-server",
+  "description": "MCP Server for querying DBT Semantic Layer",
+  "repo_url": "https://github.com/TommyBez/dbt-semantic-layer-mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "TommyBez",
+  "stars": 11,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "f225120798f99dda63c1fcd1cd661d94e0610b3b",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 12,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:42:36Z",
+  "verification_level": "scanner_only"
+}

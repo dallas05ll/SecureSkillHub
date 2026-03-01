@@ -1,0 +1,25 @@
+{
+  "id": "nn-githubtestrepo-98577f64",
+  "name": "NN-GitHubTestRepo",
+  "description": "created from MCP server demo",
+  "repo_url": "https://github.com/ninilang/NN-GitHubTestRepo",
+  "source_hub": "mcp_so",
+  "owner": "ninilang",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "dev-testing"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "31c2eb705581de69820b48ebc00e322daf2bc4f7",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 1,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:40Z",
+  "verification_level": "scanner_only"
+}

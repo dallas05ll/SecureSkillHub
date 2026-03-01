@@ -1,0 +1,27 @@
+{
+  "id": "crawl4-mcp-fef30075",
+  "name": "crawl4-mcp",
+  "description": "本项目是一个crawl4ai 的爬虫MCP SERVER，提供高级网络爬虫。使用此 MCP SERVER，您可以抓取任何内容，将内容保存为本地markdown文件，然后在任何地方将该知识用于 RAG。",
+  "repo_url": "https://github.com/ShiDuLin/crawl4-mcp",
+  "source_hub": "mcp_so",
+  "owner": "ShiDuLin",
+  "stars": 2,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "prod-docs",
+    "util-search"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "8e0139c5479eeab7484eac237100b29d80b8b325",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 16,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:04:50Z",
+  "verification_level": "scanner_only"
+}

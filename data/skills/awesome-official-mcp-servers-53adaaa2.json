@@ -1,0 +1,26 @@
+{
+  "id": "awesome-official-mcp-servers-53adaaa2",
+  "name": "Awesome-Official-MCP-Servers",
+  "description": "MCP 精选，MCP Servers，官方MCP",
+  "repo_url": "https://github.com/MCPStar/Awesome-Official-MCP-Servers",
+  "source_hub": "mcp_so",
+  "owner": "MCPStar",
+  "stars": 2,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "accf160e5e41e77965af58e5ebaf17e99f0bb0ef",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 2,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:04:51Z",
+  "verification_level": "scanner_only"
+}

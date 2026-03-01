@@ -1,0 +1,25 @@
+{
+  "id": "mcp-node-server-32572bfb",
+  "name": "mcp-node-server",
+  "description": "A basic Node.js server for MCP",
+  "repo_url": "https://github.com/blocksan/mcp-node-server",
+  "source_hub": "mcp_so",
+  "owner": "blocksan",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "dev-web-backend-node"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "fb32b3ea7dfee393620ebfc22b81ef13aaca8e4e",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 3,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:42Z",
+  "verification_level": "scanner_only"
+}

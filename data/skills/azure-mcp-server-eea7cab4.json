@@ -1,0 +1,28 @@
+{
+  "id": "azure-mcp-server-eea7cab4",
+  "name": "azure-mcp-server",
+  "description": "MCP Server for the Azure DevOps API, enabling project management, repository operations, and more.",
+  "repo_url": "https://github.com/ZubeidHendricks/azure-mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "ZubeidHendricks",
+  "stars": 6,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "integ-cloud",
+    "integ-cloud-azure",
+    "prod-pm"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "6b93beeb364f8d26c2876814cd7e9a115b1cde3d",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 13,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:54:02Z",
+  "verification_level": "scanner_only"
+}

@@ -1,0 +1,25 @@
+{
+  "id": "cloudflare-mcp-template-2bd40d7a",
+  "name": "cloudflare-mcp-template",
+  "description": "Template to easily make an MCP server on Cloudflare",
+  "repo_url": "https://github.com/janwilmake/cloudflare-mcp-template",
+  "source_hub": "mcp_so",
+  "owner": "janwilmake",
+  "stars": 5,
+  "primary_language": "unknown",
+  "tags": [
+    "integ-cloud"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "9c3706fb8fa091c831881c38e2cc4dfde8c75c37",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 6,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:54:04Z",
+  "verification_level": "scanner_only"
+}

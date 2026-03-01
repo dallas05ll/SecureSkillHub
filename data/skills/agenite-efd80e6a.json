@@ -1,0 +1,30 @@
+{
+  "id": "agenite-efd80e6a",
+  "name": "agenite",
+  "description": "🤖 Build powerful AI agents with TypeScript. Agenite makes it easy to create, compose, and control AI agents with first-class support for tools, streaming, and multi-agent architectures. Switch seamlessly between providers like OpenAI, Anthropic, AWS Bedrock, and Ollama.",
+  "repo_url": "https://github.com/subeshb1/agenite",
+  "source_hub": "mcp_so",
+  "owner": "subeshb1",
+  "stars": 68,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "dev-devops-docker",
+    "integ-cloud",
+    "integ-cloud-aws",
+    "util",
+    "util-media"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "e0f7e0559800b0574e3cbb0cd39d72c659437d68",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 210,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-27T06:40:43Z",
+  "verification_level": "scanner_only"
+}

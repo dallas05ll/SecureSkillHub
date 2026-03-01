@@ -1,0 +1,27 @@
+{
+  "id": "openai-image-gen-mcp-b0c7bac4",
+  "name": "openai-image-gen-mcp",
+  "description": "OpenAI Image Generation MCP that enables server to generate and edit images using OpenAI's gpt-image-1 api modes.",
+  "repo_url": "https://github.com/jerryzhao173985/openai-image-gen-mcp",
+  "source_hub": "mcp_so",
+  "owner": "jerryzhao173985",
+  "stars": 5,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-vision",
+    "integ"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "6cec6d6e252c991154adfdaf143843fdfb5ec3f4",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 26,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:54:02Z",
+  "verification_level": "scanner_only"
+}

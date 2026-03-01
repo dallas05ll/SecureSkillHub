@@ -1,0 +1,30 @@
+{
+  "id": "browserloop-92788a25",
+  "name": "browserloop",
+  "description": "A Model Context Protocol (MCP) server for taking screenshots of web pages using Playwright.",
+  "repo_url": "https://github.com/mattiasw/browserloop",
+  "source_hub": "mcp_so",
+  "owner": "mattiasw",
+  "stars": 22,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp",
+    "data-ai-vision",
+    "dev-testing",
+    "dev-web",
+    "util-search"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "715a69906a1a7812ef46f48b44cc72564e2a05a1",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 50,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:32:11Z",
+  "verification_level": "scanner_only"
+}

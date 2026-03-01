@@ -1,0 +1,26 @@
+{
+  "id": "wuwa-mcp-server-f5d2dbd3",
+  "name": "wuwa-mcp-server",
+  "description": "A MCP server providing character info query for wuthering waves",
+  "repo_url": "https://github.com/jacksmith3888/wuwa-mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "jacksmith3888",
+  "stars": 2,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "c8070d319bb334c202ea718657d98f53f8880296",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 39,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:40Z",
+  "verification_level": "scanner_only"
+}

@@ -1,0 +1,26 @@
+{
+  "id": "tsp-mcp-server-e991b271",
+  "name": "tsp-mcp-server",
+  "description": "A Model Context Protocol server for solving Traveling Salesman Problem (TSP)",
+  "repo_url": "https://github.com/omeletJK/tsp-mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "omeletJK",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "826a76087f1dc1735fdd8dda513f895907381541",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 7,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:43:00Z",
+  "verification_level": "scanner_only"
+}

@@ -1,0 +1,25 @@
+{
+  "id": "opcua-mcp-738bca17",
+  "name": "opcua-mcp",
+  "description": "An MCP server that connects to OPC UA-enabled industrial systems.",
+  "repo_url": "https://github.com/kukapay/opcua-mcp",
+  "source_hub": "mcp_so",
+  "owner": "kukapay",
+  "stars": 23,
+  "primary_language": "unknown",
+  "tags": [
+    "integ"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "c483a5afbb30a7b61d9908a089296b3f4b0d5dcc",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 3,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:32:11Z",
+  "verification_level": "scanner_only"
+}

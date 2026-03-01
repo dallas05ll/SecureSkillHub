@@ -1,0 +1,26 @@
+{
+  "id": "alpha-vantage-mcp-server-4aa38a50",
+  "name": "alpha-vantage-mcp-server",
+  "description": "The official Alpha Vantage API MCP server",
+  "repo_url": "https://github.com/alphavantage/alpha-vantage-mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "alphavantage",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "repo_unavailable"
+  ],
+  "verification_status": "manual_review",
+  "overall_score": 0,
+  "risk_level": "high",
+  "verified_commit": "",
+  "scan_summary": null,
+  "scan_date": "2026-02-28T20:27:25Z",
+  "findings_summary": {
+    "error": "clone failed: Cloning into '/var/folders/pq/bb71gjzd01d29nnmqrhqr2rc0000gn/T/strict5_alpha-vantage-mcp-server_9k3s2mza/repo'...\nfatal: could not read Username for 'https://github.com': Device not configured",
+    "supervisor_approved": false,
+    "supervisor_confidence": 0
+  },
+  "repo_status": "unavailable"
+}

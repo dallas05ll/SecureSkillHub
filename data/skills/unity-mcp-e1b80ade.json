@@ -1,0 +1,25 @@
+{
+  "id": "unity-mcp-e1b80ade",
+  "name": "unity-mcp",
+  "description": "A Unity MCP server that allows MCP clients like Claude Desktop or Cursor to perform Unity Editor actions.",
+  "repo_url": "https://github.com/justinpbarnett/unity-mcp",
+  "source_hub": "mcp_so",
+  "owner": "justinpbarnett",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "78bf4a0b851189e283a497656ee40b22be84fa8a",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 227,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:43:00Z",
+  "verification_level": "scanner_only"
+}

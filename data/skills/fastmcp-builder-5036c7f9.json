@@ -1,0 +1,32 @@
+{
+  "id": "fastmcp-builder-5036c7f9",
+  "name": "fastmcp-builder",
+  "description": "A comprehensive Claude Code skill for building production-ready MCP servers using FastMCP. Includes reference guides, runnable examples, and a complete implementation with OAuth, testing, and best practices.",
+  "repo_url": "https://github.com/husniadil/fastmcp-builder",
+  "source_hub": "github_search",
+  "skill_type": "agent_skill",
+  "owner": "husniadil",
+  "stars": 5,
+  "license": "mit",
+  "primary_language": "markdown",
+  "tags": [
+    "data-ai",
+    "dev",
+    "dev-testing",
+    "integ",
+    "sec",
+    "sec-auth"
+  ],
+  "verification_status": "pass",
+  "overall_score": 78,
+  "risk_level": "medium",
+  "verified_commit": null,
+  "scan_summary": null,
+  "last_updated": "2026-02-25T05:58:50Z",
+  "findings_summary": {
+    "notes": "Metadata-based verification. Score=78. Signals: stars=5; license='mit' (+5); owner='husniadil' (+3); primary_language='markdown'; source_hub='github_search'. Status: pass. Risk: medium."
+  },
+  "trust_level": "low",
+  "scan_date": "2026-02-26T06:14:56Z",
+  "verification_level": "metadata_only"
+}

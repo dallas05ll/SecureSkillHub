@@ -1,0 +1,57 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+dist/
+/build/
+*.egg
+.eggs/
+.venv/
+venv/
+env/
+*.whl
+
+# Claude Code internal state
+.claude/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Temporary working directories
+tmp_*/
+
+# Environment
+.env
+.env.local
+*.pem
+credentials.json
+
+# Node (if any frontend tooling added later)
+node_modules/
+package-lock.json
+
+# Data artifacts (keep structure, ignore large outputs)
+data/discovered/*.json
+data/scan-reports/**/*.json
+!data/tags.json
+!data/stats.json
+
+# Generated site API (rebuilt from data/ during CI deploy)
+site/api/skills/*.json
+site/api/packages/*.json
+site/api/indexes/*.json
+site/api/skills/by-tag/*.json
+site/api/skills/by-tier/*.json
+site/api/tags.json
+site/api/stats.json
+site/api/search-index.json

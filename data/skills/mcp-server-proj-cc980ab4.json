@@ -1,0 +1,26 @@
+{
+  "id": "mcp-server-proj-cc980ab4",
+  "name": "mcp-server-proj",
+  "description": "MCP Server PROJ (cartographic projections and coordinate transformations )",
+  "repo_url": "https://github.com/radial-hks/mcp-server-proj",
+  "source_hub": "mcp_so",
+  "owner": "radial-hks",
+  "stars": 1,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "4612e10269f7048e6cd8c0f8a6f5b96792d5d71a",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 8,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:41Z",
+  "verification_level": "scanner_only"
+}

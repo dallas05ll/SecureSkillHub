@@ -1,0 +1,26 @@
+{
+  "id": "mysql-mcp-server-pro-cc093b26",
+  "name": "mysql_mcp_server_pro",
+  "description": "Support for SSE, STDIO in MySQL MCP server, includes CRUD, database anomaly analysis capabilities .支持SSE，STDIO；不仅止于mysql的增删改查功能； 还包含了数据库异常分析能力；且便于开发者们进行个性化的工具扩展",
+  "repo_url": "https://github.com/wenb1n-dev/mysql_mcp_server_pro",
+  "source_hub": "mcp_so",
+  "owner": "wenb1n-dev",
+  "stars": 292,
+  "primary_language": "unknown",
+  "tags": [
+    "data",
+    "data-db"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 37,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-27T02:28:45Z",
+  "verification_level": "scanner_only"
+}

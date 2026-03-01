@@ -1,0 +1,29 @@
+{
+  "id": "mcp-security-a95c5e80",
+  "name": "mcp-security",
+  "description": "A standardized security evaluation framework for MCP servers, including assessment templates and an automated vulnerability scanner. This registry helps developers identify secure implementations for AI applications and promotes best practices across the MCP ecosystem.",
+  "repo_url": "https://github.com/everychart/mcp-security",
+  "source_hub": "mcp_so",
+  "owner": "everychart",
+  "stars": 2,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "dev",
+    "prod",
+    "sec",
+    "sec-scan"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "d95b492b440efe46e9732b7fef59f9d580aba9a2",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 23,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:04:50Z",
+  "verification_level": "scanner_only"
+}

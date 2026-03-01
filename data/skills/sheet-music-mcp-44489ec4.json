@@ -1,0 +1,25 @@
+{
+  "id": "sheet-music-mcp-44489ec4",
+  "name": "sheet-music-mcp",
+  "description": "A MCP Server for sheet music render",
+  "repo_url": "https://github.com/imiskolee/sheet-music-mcp",
+  "source_hub": "mcp_so",
+  "owner": "imiskolee",
+  "stars": 1,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai-audio"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "e765d90e09c6d4addf3d2a00cba27748078a0be9",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 1,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:40Z",
+  "verification_level": "scanner_only"
+}

@@ -1,0 +1,25 @@
+{
+  "total_skills": 6307,
+  "verified_skills": 50,
+  "failed_skills": 106,
+  "pending_review": 4771,
+  "total_scans_run": 4927,
+  "last_crawl": "2026-02-28T03:45:21Z",
+  "last_build": "2026-02-28T03:45:21Z",
+  "sources": {
+    "mcp_so": 5620,
+    "github_search": 517,
+    "skills_sh": 45,
+    "claude_skills_hub": 75,
+    "glama": 50
+  },
+  "skill_types": {
+    "mcp_server": 5767,
+    "agent_skill": 540
+  },
+  "verification_tiers": {
+    "full_pipeline": 50,
+    "scanner_only": 4216,
+    "metadata_only": 361
+  }
+}

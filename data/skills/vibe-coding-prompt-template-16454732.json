@@ -1,0 +1,39 @@
+{
+  "id": "vibe-coding-prompt-template-16454732",
+  "name": "vibe-coding-prompt-template",
+  "description": "Templates and workflow for generating PRDs, Tech Designs, and MVP specifications using LLMs for AI IDEs. A documentation-only prompt template repository with no executable code.",
+  "repo_url": "https://github.com/KhazP/vibe-coding-prompt-template",
+  "source_hub": "github_search",
+  "skill_type": "agent_skill",
+  "owner": "KhazP",
+  "stars": 1848,
+  "license": "MIT",
+  "primary_language": "Markdown",
+  "tags": [
+    "data-ai",
+    "dev",
+    "prod",
+    "prod-docs"
+  ],
+  "verification_status": "pass",
+  "overall_score": 68,
+  "risk_level": "low",
+  "verified_commit": null,
+  "scan_summary": null,
+  "findings_summary": {
+    "notes": "Personal (User) repository by KhazP with 1,848 stars. MIT license is OSI-approved and permissive. No SECURITY.md present. No executable code language detected (pure documentation/Markdown). Not archived, not a fork. Actively maintained (last updated 2026-02-25). Created April 2025. As a prompt template repository with no executable code, the attack surface is minimal. Primary risk is prompt injection via template content. Low risk overall due to documentation-only nature, but docked points for personal ownership and no SECURITY.md."
+  },
+  "verified_at": "2026-02-25",
+  "repo_canonical": "https://github.com/KhazP/vibe-coding-prompt-template",
+  "owner_type": "User",
+  "has_security_md": false,
+  "has_license": true,
+  "license_spdx": "MIT",
+  "archived": false,
+  "is_fork": false,
+  "created_at": "2025-04-14",
+  "last_updated": "2026-02-25",
+  "trust_level": "low",
+  "scan_date": "2026-02-25T23:06:34Z",
+  "verification_level": "scanner_only"
+}

@@ -1,0 +1,25 @@
+{
+  "id": "kotlin-mcp-server-5276fee4",
+  "name": "kotlin-mcp-server",
+  "description": "基于Kotlin的MCP服务端实现，并接入业务API",
+  "repo_url": "https://github.com/lenzSR/kotlin-mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "lenzSR",
+  "stars": 1,
+  "primary_language": "unknown",
+  "tags": [
+    "integ"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "11c3a6e7bd148dee916b0dfadc220fa053437220",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 1,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:40Z",
+  "verification_level": "scanner_only"
+}

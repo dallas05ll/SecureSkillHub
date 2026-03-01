@@ -1,0 +1,25 @@
+{
+  "id": "mcp-http-host-4f1ba45b",
+  "name": "mcp-http-host",
+  "description": "Local http server that proxies requests o LLMs and uses mcp-servers if needed",
+  "repo_url": "https://github.com/VyacheslavVanin/mcp-http-host",
+  "source_hub": "mcp_so",
+  "owner": "VyacheslavVanin",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "ac310fd9965be2751e537405faa1e1325614a117",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 17,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:40Z",
+  "verification_level": "scanner_only"
+}

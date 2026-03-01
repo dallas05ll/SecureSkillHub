@@ -1,0 +1,25 @@
+{
+  "id": "mcp-py-exam-a98cbbd6",
+  "name": "mcp_py_exam",
+  "description": "MCP servers and client with gemini",
+  "repo_url": "https://github.com/istanadodan/mcp_py_exam",
+  "source_hub": "mcp_so",
+  "owner": "istanadodan",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "abbbefc0f8cc965b9ca56aa3d68319e30a7d6baf",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 140,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:40Z",
+  "verification_level": "scanner_only"
+}

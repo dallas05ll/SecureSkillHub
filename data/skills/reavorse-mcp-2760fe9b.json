@@ -1,0 +1,26 @@
+{
+  "id": "reavorse-mcp-2760fe9b",
+  "name": "reavorse-mcp",
+  "description": "An enhanced Unity package to communicate with a local MCP Client via a Python server, with extended material, particle, lighting, UI and physics features.",
+  "repo_url": "https://github.com/HuangChILun/reavorse-mcp",
+  "source_hub": "mcp_so",
+  "owner": "HuangChILun",
+  "stars": 4,
+  "primary_language": "unknown",
+  "tags": [
+    "dev-web-backend-python",
+    "prod-comm"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "fae029c83679cccfda957c94d4b20184d90eb71b",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 15,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:04:51Z",
+  "verification_level": "scanner_only"
+}

@@ -1,0 +1,27 @@
+{
+  "id": "mcp-discord-raw-551d29c5",
+  "name": "mcp-discord-raw",
+  "description": "MCP server for discord bot - adds one tool with raw API access",
+  "repo_url": "https://github.com/hanweg/mcp-discord-raw",
+  "source_hub": "mcp_so",
+  "owner": "hanweg",
+  "stars": 8,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "prod-comm",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "8eee0f02e756c45acaa7a532801e4aae4b940b46",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 5,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:42:36Z",
+  "verification_level": "scanner_only"
+}

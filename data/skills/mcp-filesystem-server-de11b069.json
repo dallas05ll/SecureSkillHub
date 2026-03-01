@@ -1,0 +1,31 @@
+{
+  "id": "mcp-filesystem-server-de11b069",
+  "name": "mcp-filesystem-server",
+  "description": "A Go implementation of the Model Context Protocol (MCP), enabling seamless integration between LLM applications and external data sources and tools",
+  "repo_url": "https://github.com/qiangmzsx/mcp-filesystem-server",
+  "source_hub": "mcp_so",
+  "owner": "qiangmzsx",
+  "stars": 6,
+  "primary_language": "unknown",
+  "tags": [
+    "data",
+    "data-ai",
+    "data-ai-nlp",
+    "dev-web-backend-go",
+    "integ",
+    "util",
+    "util-file"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "794ca68ac40ea5356fa4e0e31ae247d95a9d5ad1",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 1,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:54:02Z",
+  "verification_level": "scanner_only"
+}

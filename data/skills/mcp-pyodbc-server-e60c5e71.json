@@ -1,0 +1,26 @@
+{
+  "id": "mcp-pyodbc-server-e60c5e71",
+  "name": "mcp-pyodbc-server",
+  "description": "A simple MCP ODBC server using FastAPI, ODBC and PyODBC.",
+  "repo_url": "https://github.com/OpenLinkSoftware/mcp-pyodbc-server",
+  "source_hub": "mcp_so",
+  "owner": "OpenLinkSoftware",
+  "stars": 5,
+  "primary_language": "unknown",
+  "tags": [
+    "dev-web-backend-python",
+    "integ"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "bfaaf691622fd7ba4d975e89bc2910d850e6e2e5",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 4,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:54:02Z",
+  "verification_level": "scanner_only"
+}

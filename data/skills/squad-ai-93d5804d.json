@@ -1,0 +1,25 @@
+{
+  "id": "squad-ai-93d5804d",
+  "name": "squad-ai",
+  "description": "A Model Context Protocol (MCP) server that connects Squad, the AI‑powered product‑discovery and strategy platform to any MCP‑aware large‑language‑model (LLM) application. It exposes a rich tool‑kit for creating, querying and updating product‑strategy artefacts (opportunities, solutions, outcomes, requirements, knowledge, workspaces and feedback) directly from your favourite AI product co‑pilot.",
+  "repo_url": "https://github.com/Squad AI/squad-ai",
+  "source_hub": "mcp_so",
+  "owner": "Squad AI",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp",
+    "integ",
+    "util",
+    "repo_unavailable"
+  ],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null,
+  "repo_status": "unavailable",
+  "repo_check_date": "2026-02-28T20:52:57.166803+00:00",
+  "repo_check_error": "fatal: unable to access 'https://github.com/Squad AI/squad-ai/': URL rejected: Malformed input to a URL function"
+}

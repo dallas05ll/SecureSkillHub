@@ -1,0 +1,26 @@
+{
+  "id": "awesome-mcp-8e4255f9",
+  "name": "Awesome-MCP",
+  "description": "Awesome MCP servers & clients & everthing",
+  "repo_url": "https://github.com/iAmCorey/Awesome-MCP",
+  "source_hub": "mcp_so",
+  "owner": "iAmCorey",
+  "stars": 4,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "06963618a5431823312b241a3392bc8dd4fed5bd",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 1,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:54:02Z",
+  "verification_level": "scanner_only"
+}

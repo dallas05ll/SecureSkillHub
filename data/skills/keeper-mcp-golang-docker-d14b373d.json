@@ -1,0 +1,28 @@
+{
+  "id": "keeper-mcp-golang-docker-d14b373d",
+  "name": "keeper-mcp-golang-docker",
+  "description": "Keeper Secrets Manager - MCP (Model Context Protocol) server implementation",
+  "repo_url": "https://github.com/Keeper-Security/keeper-mcp-golang-docker",
+  "source_hub": "mcp_so",
+  "owner": "Keeper-Security",
+  "stars": 6,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp",
+    "dev-devops-docker",
+    "dev-web-backend-go"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "cac362909a33767f4dd9729f535715a8b9583ff5",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 38,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:54:02Z",
+  "verification_level": "scanner_only"
+}

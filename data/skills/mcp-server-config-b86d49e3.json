@@ -1,0 +1,26 @@
+{
+  "id": "mcp-server-config-b86d49e3",
+  "name": "mcp-server-config",
+  "description": "Fixed configuration for Model Context Protocol server with proper dependencies",
+  "repo_url": "https://github.com/rvjwhite/mcp-server-config",
+  "source_hub": "mcp_so",
+  "owner": "rvjwhite",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "c8735f54dfa828812e8f2ace126abd0885ea18c3",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 3,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:42Z",
+  "verification_level": "scanner_only"
+}

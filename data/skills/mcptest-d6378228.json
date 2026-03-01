@@ -1,0 +1,26 @@
+{
+  "id": "mcptest-d6378228",
+  "name": "mcptest",
+  "description": "MCP server with GitHub integration",
+  "repo_url": "https://github.com/somaria/mcptest",
+  "source_hub": "mcp_so",
+  "owner": "somaria",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "dev-testing",
+    "integ"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "042a26ec4e71fb3796f255bf44c1cd7d5e8789a0",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 6,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:41Z",
+  "verification_level": "scanner_only"
+}

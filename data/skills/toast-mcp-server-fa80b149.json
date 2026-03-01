@@ -1,0 +1,27 @@
+{
+  "id": "toast-mcp-server-fa80b149",
+  "name": "-toast-mcp-server",
+  "description": "A Model Context Protocol (MCP) server with Windows 10 desktop notifications support. It processes notification requests from MCP clients like VSCode Cline and displays customizable desktop notifications using win10toast.",
+  "repo_url": "https://github.com/naru-sensei/-toast-mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "naru-sensei",
+  "stars": 3,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp",
+    "dev"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "35a356555a6028c4ec7df31b7a67ac09c55b3aac",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 28,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:04:50Z",
+  "verification_level": "scanner_only"
+}

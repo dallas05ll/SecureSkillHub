@@ -1,0 +1,26 @@
+{
+  "id": "strava-mcp-783a31e2",
+  "name": "strava-mcp",
+  "description": "An MCP server for Strava users",
+  "repo_url": "https://github.com/anton-mcquinn/strava-mcp",
+  "source_hub": "mcp_so",
+  "owner": "anton-mcquinn",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "38f8aad5a29ca573512a3eaf2c79b1a75d259103",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 3,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:43:00Z",
+  "verification_level": "scanner_only"
+}

@@ -1,0 +1,26 @@
+{
+  "id": "surf-mcp-6737c1a9",
+  "name": "surf-mcp",
+  "description": "An MCP server for people who surf waves and the web.",
+  "repo_url": "https://github.com/ravinahp/surf-mcp",
+  "source_hub": "mcp_so",
+  "owner": "ravinahp",
+  "stars": 19,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "83649906e1dcab2e8ff8e0872188ff9ffc0b25a2",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 6,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:42:36Z",
+  "verification_level": "scanner_only"
+}

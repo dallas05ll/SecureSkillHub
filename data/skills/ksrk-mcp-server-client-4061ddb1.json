@@ -1,0 +1,27 @@
+{
+  "id": "ksrk-mcp-server-client-4061ddb1",
+  "name": "ksrk-mcp-server-client",
+  "description": "MCP server to get latest information about me (for now), you can add that mcp server to claude desktop or create custom client which you can see in the file",
+  "repo_url": "https://github.com/karan-ksrk/ksrk-mcp-server-client",
+  "source_hub": "mcp_so",
+  "owner": "karan-ksrk",
+  "stars": 2,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "dev-testing",
+    "util-file"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "6ac8f8e958843965a646bfd90220b5c3546f3699",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 5,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:04:50Z",
+  "verification_level": "scanner_only"
+}

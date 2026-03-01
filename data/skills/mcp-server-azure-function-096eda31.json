@@ -1,0 +1,26 @@
+{
+  "id": "mcp-server-azure-function-096eda31",
+  "name": "mcp-server-azure-function",
+  "description": "Crea tu servidor MCP con Azure Functions ⚡️🧰",
+  "repo_url": "https://github.com/0GiS0/mcp-server-azure-function",
+  "source_hub": "mcp_so",
+  "owner": "0GiS0",
+  "stars": 6,
+  "primary_language": "unknown",
+  "tags": [
+    "integ-cloud",
+    "integ-cloud-azure"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "d50c205e5bf5389b9dcd763ddd5afc2422765ef6",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 4,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:54:02Z",
+  "verification_level": "scanner_only"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "mcp-server-6f978ac3",
+  "name": "mcp-server",
+  "description": "This MCP server provides documentation about Strands Agents to your GenAI tools, so you can use your favorite AI coding assistant to vibe-code Strands Agents.",
+  "repo_url": "https://github.com/strands-agents/mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "strands-agents",
+  "stars": 259,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "dev",
+    "prod-docs",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 14,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-27T02:28:45Z",
+  "verification_level": "scanner_only"
+}

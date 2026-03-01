@@ -1,0 +1,26 @@
+{
+  "id": "mcp-server-count-r-89435e5d",
+  "name": "mcp-server-count-r-",
+  "description": "Simple MCP Server to count char \"r\"",
+  "repo_url": "https://github.com/ma3u/mcp-server-count-r-",
+  "source_hub": "mcp_so",
+  "owner": "ma3u",
+  "stars": 1,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "51dd433e5ca14c7a844637aeb78b30a635ac640b",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 2,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:42Z",
+  "verification_level": "scanner_only"
+}

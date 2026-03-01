@@ -1,0 +1,26 @@
+{
+  "id": "mcp-server-client-impl-e66c8dd8",
+  "name": "mcp_server_client_impl",
+  "description": "This is a basic MCP Server-Client Impl using SSE",
+  "repo_url": "https://github.com/parasjain2426/mcp_server_client_impl",
+  "source_hub": "mcp_so",
+  "owner": "parasjain2426",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "411963d592a04f6a2916f25950ed5621ba2ceddc",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 4,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:42Z",
+  "verification_level": "scanner_only"
+}

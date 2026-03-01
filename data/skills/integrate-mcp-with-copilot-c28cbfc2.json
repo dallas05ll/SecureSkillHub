@@ -1,0 +1,26 @@
+{
+  "id": "integrate-mcp-with-copilot-c28cbfc2",
+  "name": "integrate-mcp-with-copilot",
+  "description": "Learn how to use MCP Servers with GitHub Copilot",
+  "repo_url": "https://github.com/skills/integrate-mcp-with-copilot",
+  "source_hub": "mcp_so",
+  "owner": "skills",
+  "stars": 173,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "206fbd0dd8a28d713a63291ef1ce225bd4d6bf5a",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 5,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-27T06:36:35Z",
+  "verification_level": "scanner_only"
+}

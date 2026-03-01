@@ -1,0 +1,25 @@
+{
+  "id": "302-custom-mcp-b5337113",
+  "name": "302_custom_mcp",
+  "description": "在302后台自选Tools，快速生成定制的MCP Server。",
+  "repo_url": "https://github.com/302ai/302_custom_mcp",
+  "source_hub": "mcp_so",
+  "owner": "302ai",
+  "stars": 2,
+  "primary_language": "unknown",
+  "tags": [
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 10,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-25T14:42:32Z",
+  "verification_level": "scanner_only"
+}

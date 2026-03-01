@@ -1,0 +1,27 @@
+{
+  "id": "quick-data-mcp-097d46bb",
+  "name": "quick-data-mcp",
+  "description": "Prompt focused MCP Server for .json and .csv agentic data analytics for Claude Code",
+  "repo_url": "https://github.com/disler/quick-data-mcp",
+  "source_hub": "mcp_so",
+  "owner": "disler",
+  "stars": 144,
+  "primary_language": "unknown",
+  "tags": [
+    "data",
+    "data-ai",
+    "dev"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "02142fc23b8c7f417decf08e897c8c0c079565a8",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 76,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-27T06:36:35Z",
+  "verification_level": "scanner_only"
+}

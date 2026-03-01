@@ -1,0 +1,27 @@
+{
+  "id": "dynamodb-mcp-server-27438b9d",
+  "name": "dynamodb-mcp-server",
+  "description": "Model Context Protocol server for managing Amazon DynamoDB resources",
+  "repo_url": "https://github.com/imankamyabi/dynamodb-mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "imankamyabi",
+  "stars": 15,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp",
+    "integ-cloud-aws"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "493d8d4f46f69bc7e42328cdcbd08af15b7a0c77",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 4,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:42:34Z",
+  "verification_level": "scanner_only"
+}

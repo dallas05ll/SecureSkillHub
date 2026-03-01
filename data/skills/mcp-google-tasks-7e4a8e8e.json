@@ -1,0 +1,28 @@
+{
+  "id": "mcp-google-tasks-7e4a8e8e",
+  "name": "mcp-google-tasks",
+  "description": "Node.js server implementing Model Context Protocol (MCP) for Google Tasks",
+  "repo_url": "https://github.com/mstfe/mcp-google-tasks",
+  "source_hub": "mcp_so",
+  "owner": "mstfe",
+  "stars": 6,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp",
+    "dev-web-backend-node",
+    "prod-pm"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "b4f2b3648784315c412586a1a97d0b1725ad66bb",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 5,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:54:02Z",
+  "verification_level": "scanner_only"
+}

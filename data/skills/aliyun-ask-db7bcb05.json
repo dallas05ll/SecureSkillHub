@@ -1,0 +1,30 @@
+{
+  "id": "aliyun-ask-db7bcb05",
+  "name": "aliyun-ask",
+  "description": "This is a specialized skill designed for Claude Code to query Alibaba Cloud resources using natural language. It supports retrieving information across various services such as ECS, RDS, VPC, SLB, OSS, and more.这是一个专为 Claude Code 设计的阿里云资源查询技能skill，通过自然语言查询阿里云资源信息，包括 ECS、RDS、VPC、SLB、OSS 等多种服务。",
+  "repo_url": "https://github.com/go-restream/aliyun-ask",
+  "source_hub": "github_search",
+  "skill_type": "agent_skill",
+  "owner": "go-restream",
+  "stars": 2,
+  "license": "apache-2.0",
+  "primary_language": "markdown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp",
+    "dev",
+    "integ-cloud"
+  ],
+  "verification_status": "pass",
+  "overall_score": 78,
+  "risk_level": "medium",
+  "verified_commit": null,
+  "scan_summary": null,
+  "last_updated": "2026-01-29T10:35:26Z",
+  "findings_summary": {
+    "notes": "Metadata-based verification. Score=78. Signals: stars=2; license='apache-2.0' (+5); owner='go-restream' (+3); primary_language='markdown'; source_hub='github_search'. Status: pass. Risk: medium."
+  },
+  "trust_level": "low",
+  "scan_date": "2026-02-26T06:14:55Z",
+  "verification_level": "metadata_only"
+}

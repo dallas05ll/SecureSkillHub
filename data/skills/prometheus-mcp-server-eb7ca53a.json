@@ -1,0 +1,29 @@
+{
+  "id": "prometheus-mcp-server-eb7ca53a",
+  "name": "prometheus_mcp_server",
+  "description": "A Model Context Protocol (MCP) server enabling LLMs to query, analyze, and interact with Prometheus databases through predefined routes.",
+  "repo_url": "https://github.com/CaesarYangs/prometheus_mcp_server",
+  "source_hub": "mcp_so",
+  "owner": "CaesarYangs",
+  "stars": 34,
+  "primary_language": "unknown",
+  "tags": [
+    "data",
+    "data-ai",
+    "data-ai-nlp",
+    "data-db",
+    "sec-crypto"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "665f962e9596c6d40a8d0eedd6ad3aad93e44a6d",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 16,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:32:12Z",
+  "verification_level": "scanner_only"
+}

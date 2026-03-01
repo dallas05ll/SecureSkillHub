@@ -1,0 +1,28 @@
+{
+  "id": "mcp-oauth-client-web-0184f74a",
+  "name": "mcp_oauth_client_web",
+  "description": "web client to inspect transport and messages to and from MCP servers",
+  "repo_url": "https://github.com/asibyl/mcp_oauth_client_web",
+  "source_hub": "mcp_so",
+  "owner": "asibyl",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "prod-comm",
+    "sec",
+    "sec-auth"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "33f0c5523562e21635466381f41e2663b98d9c60",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 26,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:42Z",
+  "verification_level": "scanner_only"
+}

@@ -1,0 +1,26 @@
+{
+  "id": "nba-analytics-mcp-6bd7b8ce",
+  "name": "nba-analytics-mcp",
+  "description": "Advanced NBA odds tracking, betting analysis, and trivia MCP server for Claude Desktop with line movement detection and AI/ML game simulations",
+  "repo_url": "https://github.com/nikhilkichili/nba-analytics-mcp",
+  "source_hub": "mcp_so",
+  "owner": "nikhilkichili",
+  "stars": 2,
+  "primary_language": "unknown",
+  "tags": [
+    "data",
+    "data-ai"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "26da6165430a90daedf59f6c511f0842aa35c4ab",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 14,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:04:51Z",
+  "verification_level": "scanner_only"
+}

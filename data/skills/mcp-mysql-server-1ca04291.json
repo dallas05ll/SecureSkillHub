@@ -1,0 +1,28 @@
+{
+  "id": "mcp-mysql-server-1ca04291",
+  "name": "mcp-mysql-server",
+  "description": "A Model Context Protocol server that provides MySQL database operations. This server enables AI models to interact with MySQL databases through a standardized interface.Supports operations such as querying, inserting, updating, deleting, DDL, parsing SQL statements, and performance analysis on databases.",
+  "repo_url": "https://github.com/huangfeng19820712/mcp-mysql-server",
+  "source_hub": "mcp_so",
+  "owner": "huangfeng19820712",
+  "stars": 12,
+  "primary_language": "unknown",
+  "tags": [
+    "data",
+    "data-ai",
+    "data-ai-nlp",
+    "data-db"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "c94c523e15db7bd1a1442a761a0925f97838a7eb",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 12,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:42:36Z",
+  "verification_level": "scanner_only"
+}

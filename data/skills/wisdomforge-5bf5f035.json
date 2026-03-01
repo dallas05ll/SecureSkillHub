@@ -1,0 +1,28 @@
+{
+  "id": "wisdomforge-5bf5f035",
+  "name": "wisdomforge",
+  "description": "A powerful knowledge management system that forges wisdom from experiences, insights, and best practices. Built with Qdrant vector database for efficient knowledge storage and retrieval.",
+  "repo_url": "https://github.com/hadv/wisdomforge",
+  "source_hub": "mcp_so",
+  "owner": "hadv",
+  "stars": 5,
+  "primary_language": "unknown",
+  "tags": [
+    "data",
+    "data-db",
+    "data-db-vector",
+    "util-file"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "20b200cb03e9a36a5164ab64d4524cacc37417cd",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 24,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:54:02Z",
+  "verification_level": "scanner_only"
+}

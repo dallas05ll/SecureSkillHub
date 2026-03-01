@@ -1,0 +1,26 @@
+{
+  "id": "programmable-email-f6163395",
+  "name": "programmable-email",
+  "description": "MCP server for Gmail",
+  "repo_url": "https://github.com/juecd/programmable-email",
+  "source_hub": "mcp_so",
+  "owner": "juecd",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "prod-comm"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "b93064b9351dd131ba0d3a72ffc50abe5089534c",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 9,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:40Z",
+  "verification_level": "scanner_only"
+}

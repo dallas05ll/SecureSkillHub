@@ -1,0 +1,30 @@
+{
+  "id": "mcpagentai-2666640c",
+  "name": "mcpagentai",
+  "description": "Python SDK designed to simplify interactions with MCP (Model Context Protocol) servers. It provides an easy-to-use interface for connecting to MCP servers, reading resources, and calling tools",
+  "repo_url": "https://github.com/mcpagents-ai/mcpagentai",
+  "source_hub": "mcp_so",
+  "owner": "mcpagents-ai",
+  "stars": 22,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp",
+    "dev",
+    "dev-web-backend-python",
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "7be12cd5c58f5045a6de1abff61a8bfa6d0197c2",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 41,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:32:11Z",
+  "verification_level": "scanner_only"
+}

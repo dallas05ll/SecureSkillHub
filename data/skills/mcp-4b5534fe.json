@@ -1,0 +1,25 @@
+{
+  "id": "mcp-4b5534fe",
+  "name": "MCP",
+  "description": "MCP de mi perfil",
+  "repo_url": "https://github.com/cdryampi/MCP",
+  "source_hub": "mcp_so",
+  "owner": "cdryampi",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "9c8ed6bd0789fd3eb05696f6bd6df82f3512a32c",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 6,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:41Z",
+  "verification_level": "scanner_only"
+}

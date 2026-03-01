@@ -1,0 +1,26 @@
+{
+  "id": "mcp-server-a03a555a",
+  "name": "mcp-server",
+  "description": "mcp 서버 개발하기",
+  "repo_url": "https://github.com/zusdn90/mcp-server",
+  "source_hub": "mcp_so",
+  "owner": "zusdn90",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "b8d310bcd8431950c2ff8f81a24b8481c26bf3f2",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 5,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:41Z",
+  "verification_level": "scanner_only"
+}

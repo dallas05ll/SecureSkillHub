@@ -1,0 +1,32 @@
+{
+  "id": "resume-assistant-skill-cb8f3f68",
+  "name": "resume-assistant-skill",
+  "description": "智能简历助手 - AI-powered resume assistant with 5 specialized agents for Chinese job seekers | Claude Code Skill",
+  "repo_url": "https://github.com/Y1fe1-Yang/resume-assistant-skill",
+  "source_hub": "github_search",
+  "skill_type": "agent_skill",
+  "owner": "Y1fe1-Yang",
+  "stars": 1,
+  "license": "mit",
+  "primary_language": "markdown",
+  "tags": [
+    "data-ai",
+    "dev",
+    "repo_unavailable"
+  ],
+  "verification_status": "pass",
+  "overall_score": 78,
+  "risk_level": "medium",
+  "verified_commit": null,
+  "scan_summary": null,
+  "last_updated": "2026-02-01T15:44:27Z",
+  "findings_summary": {
+    "notes": "Metadata-based verification. Score=78. Signals: stars=1; license='mit' (+5); owner='Y1fe1-Yang' (+3); primary_language='markdown'; source_hub='github_search'. Status: pass. Risk: medium."
+  },
+  "trust_level": "low",
+  "scan_date": "2026-02-26T06:14:56Z",
+  "repo_status": "unavailable",
+  "repo_check_date": "2026-02-28T20:52:50.145873+00:00",
+  "repo_check_error": "fatal: could not read Username for 'https://github.com': Device not configured",
+  "verification_level": "metadata_only"
+}

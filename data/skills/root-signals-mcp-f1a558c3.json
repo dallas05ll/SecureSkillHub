@@ -1,0 +1,25 @@
+{
+  "id": "root-signals-mcp-f1a558c3",
+  "name": "root-signals-mcp",
+  "description": "MCP for Root Signals Evaluation Platform",
+  "repo_url": "https://github.com/root-signals/root-signals-mcp",
+  "source_hub": "mcp_so",
+  "owner": "root-signals",
+  "stars": 11,
+  "primary_language": "unknown",
+  "tags": [
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "420aabb72d1824ddfb2c74b7a4eaf3bcf9a9de1c",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 29,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:42:34Z",
+  "verification_level": "scanner_only"
+}

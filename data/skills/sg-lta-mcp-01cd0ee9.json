@@ -1,0 +1,25 @@
+{
+  "id": "sg-lta-mcp-01cd0ee9",
+  "name": "sg-lta-mcp",
+  "description": "MCP server to access Singapore's LTA data",
+  "repo_url": "https://github.com/arjunkmrm/sg-lta-mcp",
+  "source_hub": "mcp_so",
+  "owner": "arjunkmrm",
+  "stars": 2,
+  "primary_language": "unknown",
+  "tags": [
+    "data"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "7b8eb71be7f3bf782b35e953c4ec694e410f7aca",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 6,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:04:50Z",
+  "verification_level": "scanner_only"
+}

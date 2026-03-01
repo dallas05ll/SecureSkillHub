@@ -1,0 +1,25 @@
+{
+  "id": "mcpserver-041e9cc7",
+  "name": "MCPServer",
+  "description": "MCP server for GitHub API integration",
+  "repo_url": "https://github.com/amurata/MCPServer",
+  "source_hub": "mcp_so",
+  "owner": "amurata",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "integ"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "be5f4bcc5f88f2f98f24c8575457bbd0089dd3f1",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 3,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:40Z",
+  "verification_level": "scanner_only"
+}

@@ -1,0 +1,27 @@
+{
+  "id": "netmind-parse-pdf-mcp-3bc38f45",
+  "name": "Netmind-Parse-PDF-MCP",
+  "description": "A Model Context Protocol (MCP) server that parses PDF files from a given URL into structured formats.",
+  "repo_url": "https://github.com/protagolabs/Netmind-Parse-PDF-MCP",
+  "source_hub": "mcp_so",
+  "owner": "protagolabs",
+  "stars": 6,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp",
+    "util-file"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "54bd3f666ea68360568f83f555849489b1bb3e26",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 5,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:54:02Z",
+  "verification_level": "scanner_only"
+}

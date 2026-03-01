@@ -1,0 +1,28 @@
+{
+  "id": "sage-9d9080c5",
+  "name": "sage",
+  "description": "Sage — Safety for Agents: lightweight Agent Detection & Response layer for AI agents guarding commands, files, and web requests via hook systems.",
+  "repo_url": "https://github.com/avast/sage",
+  "source_hub": "github_search",
+  "skill_type": "agent_skill",
+  "owner": "avast",
+  "stars": 75,
+  "license": "apache-2.0",
+  "primary_language": "TypeScript",
+  "tags": [
+    "data-ai",
+    "util-file"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "low",
+  "verified_commit": null,
+  "scan_summary": null,
+  "last_updated": "2026-02-25T15:42:58Z",
+  "findings_summary": {
+    "notes": "Apache-2.0 by avast (reputable security company), TypeScript, actively maintained. Security-focused tool, no dangerous patterns."
+  },
+  "trust_level": "low",
+  "scan_date": "2026-02-26T02:11:43Z",
+  "verification_level": "scanner_only"
+}

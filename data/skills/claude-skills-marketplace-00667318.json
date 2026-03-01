@@ -1,0 +1,32 @@
+{
+  "id": "claude-skills-marketplace-00667318",
+  "name": "claude-skills-marketplace",
+  "description": "A curated marketplace of Claude Code plugins for software engineering workflows. Includes engineering-workflow, visual-documentation, productivity, and code-operations plugins with SKILL.md files, agents, scripts, and an MCP-based code execution runtime with sandboxing.",
+  "repo_url": "https://github.com/mhattingpete/claude-skills-marketplace",
+  "source_hub": "github_search",
+  "skill_type": "agent_skill",
+  "owner": "mhattingpete",
+  "stars": 406,
+  "forks": 47,
+  "license": "apache-2.0",
+  "primary_language": "python",
+  "tags": [
+    "data-ai",
+    "dev",
+    "prod",
+    "prod-docs",
+    "util-file"
+  ],
+  "verification_status": "pass",
+  "overall_score": 78,
+  "risk_level": "low",
+  "verified_commit": null,
+  "scan_summary": null,
+  "last_updated": "2026-02-25T23:59:40Z",
+  "findings_summary": {
+    "notes": "Well-structured marketplace with 4 plugin categories (engineering-workflow, visual-documentation, productivity, code-operations). SKILL.md files are well-formatted with trigger descriptions. The smart_commit.sh script handles git staging, commit message generation, and push — uses 'git add .' which stages all files (broad but expected). The code-execution skill references an execution-runtime with a sandboxed Python executor using RestrictedPython, resource limits, allowed-only import whitelist, and removal of dangerous builtins (eval, exec, __import__, open). A PII detector is also included. The MCP server (FastMCP) provides secure code execution. The conversation-analyzer's analyze_history.py script reads Claude session history files from ~/.claude/conversations — this is read-only analysis of local data. Template HTML files for visual documentation are static SVG/HTML with no scripts. No exfiltration, no hardcoded credentials, no obfuscation. The setup.sh for execution-runtime installs Python dependencies via pip/uv. Apache-2.0 licensed. A .claude/install-gh.sh script installs the GitHub CLI if missing — benign provisioning. High overall quality."
+  },
+  "trust_level": "low",
+  "scan_date": "2026-02-26T01:42:30Z",
+  "verification_level": "scanner_only"
+}

@@ -1,0 +1,27 @@
+{
+  "id": "mcp-dev-on-azure-lab-8f89cee9",
+  "name": "mcp-dev-on-azure-lab",
+  "description": "how to develop mcp server and debugging from local to azure",
+  "repo_url": "https://github.com/huqianghui/mcp-dev-on-azure-lab",
+  "source_hub": "mcp_so",
+  "owner": "huqianghui",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "dev",
+    "integ-cloud",
+    "integ-cloud-azure"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "fd61eaadcf3b1a8b24ff83afdfa07137f8c8e4b8",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 23,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:41Z",
+  "verification_level": "scanner_only"
+}

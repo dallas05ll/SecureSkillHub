@@ -1,0 +1,27 @@
+{
+  "id": "mcp-ayd-server-f8d7341e",
+  "name": "mcp-ayd-server",
+  "description": "MCP (Model Context Protocol) Server for Ayd status monitoring service.",
+  "repo_url": "https://github.com/macrat/mcp-ayd-server",
+  "source_hub": "mcp_so",
+  "owner": "macrat",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-ai-nlp",
+    "util-monitor"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "dc9118a76a25738a72dcf65c7b6f6bf0890eeb38",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 2,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:40Z",
+  "verification_level": "scanner_only"
+}

@@ -1,0 +1,25 @@
+{
+  "id": "mcp-server-couchbase-ecb7bbef",
+  "name": "mcp-server-couchbase",
+  "description": "MCP Server to interact with data in Couchbase Clusters",
+  "repo_url": "https://github.com/Couchbase-Ecosystem/mcp-server-couchbase",
+  "source_hub": "mcp_so",
+  "owner": "Couchbase-Ecosystem",
+  "stars": 27,
+  "primary_language": "unknown",
+  "tags": [
+    "data"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "ad6a4e8a128daef239153208480102445829e3ff",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 37,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:32:13Z",
+  "verification_level": "scanner_only"
+}

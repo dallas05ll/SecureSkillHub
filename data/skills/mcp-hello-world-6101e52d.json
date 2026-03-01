@@ -1,0 +1,26 @@
+{
+  "id": "mcp-hello-world-6101e52d",
+  "name": "mcp_hello_world",
+  "description": "A repository created using the MCP server",
+  "repo_url": "https://github.com/JavaProgrammerLB/mcp_hello_world",
+  "source_hub": "mcp_so",
+  "owner": "JavaProgrammerLB",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "b24aa13ac158dc753c51f3520fb6418f7d4dbd02",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 1,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:40Z",
+  "verification_level": "scanner_only"
+}

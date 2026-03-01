@@ -1,0 +1,25 @@
+{
+  "id": "mcpdoc-53574b8c",
+  "name": "McpDoc",
+  "description": "An MCP Server to generate C4 Architecture diagrams from code.",
+  "repo_url": "https://github.com/jonverrier/McpDoc",
+  "source_hub": "mcp_so",
+  "owner": "jonverrier",
+  "stars": 40,
+  "primary_language": "unknown",
+  "tags": [
+    "dev"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "4595c402fb1e1f3fd5a17f0900fe868d757cafa8",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 34,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T03:32:12Z",
+  "verification_level": "scanner_only"
+}

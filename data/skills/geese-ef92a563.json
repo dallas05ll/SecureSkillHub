@@ -1,0 +1,26 @@
+{
+  "id": "geese-ef92a563",
+  "name": "geese",
+  "description": "all commits are via a goose mcp-server-git extension",
+  "repo_url": "https://github.com/zzstoatzz/geese",
+  "source_hub": "mcp_so",
+  "owner": "zzstoatzz",
+  "stars": 1,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "90f7fb4afc87cf8bc5ca8e457342251b0059f2f9",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 7,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:40Z",
+  "verification_level": "scanner_only"
+}

@@ -1,0 +1,99 @@
+{
+  "tag_path": "integrations-crm",
+  "label": "General CRM Package",
+  "description": "Top 6 verified crm skills, auto-curated by GitHub stars and security score.",
+  "skill_ids": [
+    "mcp-hubspot-73af4360",
+    "salesforce-mcp-server-21c1d3fc",
+    "salesforce-mcp-server-c9c603ee",
+    "revenue-os-11a573f6",
+    "mcp-server-salesforce-2e5430a2",
+    "hubspot-mcp-server-b16be92c"
+  ],
+  "skills": [
+    {
+      "id": "mcp-hubspot-73af4360",
+      "name": "mcp-hubspot",
+      "description": "An MCP server implementation that seamlessly connects Claude and other AI models to HubSpot CRM data. Provides tools for managing contacts, companies, and engagement activities through standardized in",
+      "repo_url": "https://github.com/baryhuang/mcp-hubspot",
+      "stars": 116,
+      "overall_score": 85,
+      "verification_status": "pass",
+      "risk_level": "info",
+      "primary_language": "unknown",
+      "install_url": "https://github.com/baryhuang/mcp-hubspot",
+      "skill_type": "unknown"
+    },
+    {
+      "id": "salesforce-mcp-server-21c1d3fc",
+      "name": "salesforce-mcp-server",
+      "description": "Model Context Protocol server for Salesforce REST API integration",
+      "repo_url": "https://github.com/kablewy/salesforce-mcp-server",
+      "stars": 43,
+      "overall_score": 85,
+      "verification_status": "pass",
+      "risk_level": "info",
+      "primary_language": "unknown",
+      "install_url": "https://github.com/kablewy/salesforce-mcp-server",
+      "skill_type": "unknown"
+    },
+    {
+      "id": "salesforce-mcp-server-c9c603ee",
+      "name": "salesforce-mcp-server",
+      "description": "A comprehensive Model Context Protocol (MCP) server that provides seamless Salesforce integration for AI development tools like Claude Desktop, Cline, and other MCP-compatible clients.",
+      "repo_url": "https://github.com/jaworjar95/salesforce-mcp-server",
+      "stars": 36,
+      "overall_score": 85,
+      "verification_status": "pass",
+      "risk_level": "info",
+      "primary_language": "unknown",
+      "install_url": "https://github.com/jaworjar95/salesforce-mcp-server",
+      "skill_type": "unknown"
+    },
+    {
+      "id": "revenue-os-11a573f6",
+      "name": "revenue-os",
+      "description": "From code to customers to cash \u2014 The monetization OS for developers. A Claude Code plugin for ICP discovery, value propositions, pricing, outreach, and more.",
+      "repo_url": "https://github.com/Belkins/revenue-os",
+      "stars": 17,
+      "overall_score": 83,
+      "verification_status": "pass",
+      "risk_level": "low",
+      "primary_language": "markdown",
+      "install_url": "https://github.com/Belkins/revenue-os",
+      "skill_type": "agent_skill"
+    },
+    {
+      "id": "mcp-server-salesforce-2e5430a2",
+      "name": "mcp-server-salesforce",
+      "description": "An MCP (Model Context Protocol) server implementation that integrates Claude with Salesforce, enabling natural language interactions with your Salesforce data and metadata. This server allows Claude t",
+      "repo_url": "https://github.com/SurajAdsul/mcp-server-salesforce",
+      "stars": 15,
+      "overall_score": 85,
+      "verification_status": "pass",
+      "risk_level": "info",
+      "primary_language": "unknown",
+      "install_url": "https://github.com/SurajAdsul/mcp-server-salesforce",
+      "skill_type": "unknown"
+    },
+    {
+      "id": "hubspot-mcp-server-b16be92c",
+      "name": "hubspot-mcp-server",
+      "description": "hubspot mcp server",
+      "repo_url": "https://github.com/lkm1developer/hubspot-mcp-server",
+      "stars": 13,
+      "overall_score": 85,
+      "verification_status": "pass",
+      "risk_level": "info",
+      "primary_language": "unknown",
+      "install_url": "https://github.com/lkm1developer/hubspot-mcp-server",
+      "skill_type": "unknown"
+    }
+  ],
+  "total_skills": 6,
+  "total_candidates": 6,
+  "avg_score": 84.7,
+  "min_score": 83,
+  "top_stars": 116,
+  "generated_at": "2026-02-28T03:46:45Z"
+}

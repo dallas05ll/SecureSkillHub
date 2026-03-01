@@ -1,0 +1,26 @@
+{
+  "id": "official-substack-mcp-server-a52f83a2",
+  "name": "Official Substack MCP Server",
+  "description": "The tool connects to your Substack/Medium blogs via their RSS feeds, fetches your posts, and permanently caches them locally. It also generates embeddings for each post, enabling semantic search to find the most relevant essays based on your queries.\n\nWhen you ask Claude about your writing, it can use these individual essay resources to provide insights or help you develop new ideas based on your existing content.",
+  "repo_url": "https://github.com/jean-technologies/Official Substack MCP Server",
+  "source_hub": "mcp_so",
+  "owner": "jean-technologies",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai",
+    "data-db-vector",
+    "integ",
+    "util",
+    "util-search",
+    "repo_unavailable"
+  ],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null,
+  "repo_status": "unavailable",
+  "repo_check_date": "2026-02-28T20:52:39.296527+00:00",
+  "repo_check_error": "fatal: unable to access 'https://github.com/jean-technologies/Official Substack MCP Server/': URL rejected: Malformed input to a URL function"
+}

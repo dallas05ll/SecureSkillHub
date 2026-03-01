@@ -1,0 +1,25 @@
+{
+  "id": "resemblemcp-4adbf5a4",
+  "name": "ResembleMCP",
+  "description": "Resemble AI MCP Server Implementation Challenge",
+  "repo_url": "https://github.com/liwilliam2021/ResembleMCP",
+  "source_hub": "mcp_so",
+  "owner": "liwilliam2021",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "data-ai"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "info",
+  "verified_commit": "387741f2299ad82a60c76e73d26a2b3b527aee49",
+  "scan_summary": {
+    "total_findings": 0,
+    "files_scanned": 1,
+    "severity_counts": {},
+    "category_counts": {}
+  },
+  "scan_date": "2026-02-28T04:14:42Z",
+  "verification_level": "scanner_only"
+}
