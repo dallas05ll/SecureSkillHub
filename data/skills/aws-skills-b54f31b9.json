@@ -30,7 +30,7 @@
   "overall_score": 87,
   "risk_level": "low",
   "verified_commit": null,
-  "scan_summary": "Well-structured AWS skills marketplace with 5 plugins covering CDK, cost optimization, serverless, and Bedrock AgentCore. MIT licensed. Skill files are Markdown-only with reference docs. MCP server integrations are listed in marketplace.json config but not bundled. No executable scripts in skill directories — only SKILL.md and references/ folders. Symlink-based local dev setup. Shell plugin in repo is minimal.",
+  "scan_summary": "Well-structured AWS skills marketplace with 5 plugins covering CDK, cost optimization, serverless, and Bedrock AgentCore. MIT licensed. Skill files are Markdown-only with reference docs. MCP server integrations are listed in marketplace.json config but not bundled. No executable scripts in skill directories \u2014 only SKILL.md and references/ folders. Symlink-based local dev setup. Shell plugin in repo is minimal.",
   "findings_summary": {
     "notes": "High-quality AWS-focused skill collection with clean architecture. Skills reference MCP servers (AWS CDK MCP, Pricing, Cost Explorer, CloudWatch) that must be installed separately. This is an external dependency to document but not a security risk. No credential handling in skill files. Well-maintained with active GitHub Actions CI. Slight note: star count discrepancy (154 stored vs 179 live) suggests rapid growth."
   },

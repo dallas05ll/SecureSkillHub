@@ -1,7 +1,7 @@
 {
   "id": "kafka-mcp-server-c2d6b11c",
   "name": "kafka-mcp-server",
-  "description": "This project provides a **Model Context Protocol (MCP)** server that enables interaction with a Kafka cluster via standard tool-based interfaces. It exposes Kafka operations like producing messages, consuming, listing topics, and more — all accessible through Claude Desktop or any MCP-compatible client.",
+  "description": "This project provides a **Model Context Protocol (MCP)** server that enables interaction with a Kafka cluster via standard tool-based interfaces. It exposes Kafka operations like producing messages, consuming, listing topics, and more \u2014 all accessible through Claude Desktop or any MCP-compatible client.",
   "repo_url": "https://github.com/Joel-hanson/kafka-mcp-server",
   "source_hub": "mcp_so",
   "owner": "Joel-hanson",

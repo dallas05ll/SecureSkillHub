@@ -14,6 +14,7 @@
     "data-ai-nlp",
     "data-db",
     "dev-web-backend-python",
+    "integrations-jira",
     "prod-pm"
   ],
   "verification_status": "pass",
@@ -23,7 +24,7 @@
   "scan_summary": null,
   "last_updated": "2026-02-24T08:02:29Z",
   "findings_summary": {
-    "notes": "Mature, well-established Python project (created Aug 2024) with MIT license, PyPI package, coverage badges, and active development (4 open issues). Repository is a full Python application — not a SKILL.md-based agent skill in the traditional sense, but provides an MCP server and CLI for agent integration. Source is clean with standard Python package layout (src/kanban_tui/). No hooks, no install scripts, no hidden scripts. Uses standard dependencies (Textual, SQLite, Pydantic). High confidence this does what it claims. Downloadable via uvx, standard install. No dangerous patterns identified. This is a legitimate productivity tool with AI-agent integration capabilities."
+    "notes": "Mature, well-established Python project (created Aug 2024) with MIT license, PyPI package, coverage badges, and active development (4 open issues). Repository is a full Python application \u2014 not a SKILL.md-based agent skill in the traditional sense, but provides an MCP server and CLI for agent integration. Source is clean with standard Python package layout (src/kanban_tui/). No hooks, no install scripts, no hidden scripts. Uses standard dependencies (Textual, SQLite, Pydantic). High confidence this does what it claims. Downloadable via uvx, standard install. No dangerous patterns identified. This is a legitimate productivity tool with AI-agent integration capabilities."
   },
   "verification_date": "2026-02-25",
   "trust_level": "low",

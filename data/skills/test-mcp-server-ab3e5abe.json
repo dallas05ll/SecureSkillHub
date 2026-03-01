@@ -1,7 +1,7 @@
 {
   "id": "test-mcp-server-ab3e5abe",
   "name": "test-mcp-server",
-  "description": "learning-focused project that connects the Claude desktop app to the US NWS API using a custom protocol, injecting real-time weather data into Claude’s context.",
+  "description": "learning-focused project that connects the Claude desktop app to the US NWS API using a custom protocol, injecting real-time weather data into Claude\u2019s context.",
   "repo_url": "https://github.com/shreyyzsh/test-mcp-server",
   "source_hub": "mcp_so",
   "owner": "shreyyzsh",
@@ -11,6 +11,7 @@
     "data",
     "data-ai",
     "data-ai-nlp",
+    "dev-desktop",
     "dev-testing",
     "integ"
   ],

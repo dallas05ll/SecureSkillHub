@@ -11,12 +11,12 @@
   "description": "Official MCP Inspector: visual developer tool for testing and debugging MCP servers via React UI and Node.js proxy.",
   "primary_language": "TypeScript",
   "tags": [
+    "status-manual_review",
     "dev",
     "dev-testing",
     "dev-web-backend-node",
     "dev-web-frontend-react",
-    "util",
-    "status-manual_review"
+    "util"
   ],
   "findings_summary": {
     "scanner_findings": 128,

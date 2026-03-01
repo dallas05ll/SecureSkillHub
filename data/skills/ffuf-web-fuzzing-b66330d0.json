@@ -35,9 +35,9 @@
   "overall_score": 72,
   "risk_level": "medium",
   "verified_commit": null,
-  "scan_summary": "Security-focused skill that wraps the ffuf web fuzzer tool. Contains SKILL.md with expert ffuf guidance, ffuf_helper.py for result analysis, and wordlist resources. Python helper only reads local JSON files — no network calls in the script itself. Requires ffuf binary installed externally. MIT licensed. README includes ethics/safety warnings. No LICENSE file in repo (MIT referenced in README only).",
+  "scan_summary": "Security-focused skill that wraps the ffuf web fuzzer tool. Contains SKILL.md with expert ffuf guidance, ffuf_helper.py for result analysis, and wordlist resources. Python helper only reads local JSON files \u2014 no network calls in the script itself. Requires ffuf binary installed externally. MIT licensed. README includes ethics/safety warnings. No LICENSE file in repo (MIT referenced in README only).",
   "findings_summary": {
-    "notes": "Legitimate penetration testing skill by security researcher jthack. The ffuf tool itself executes real HTTP requests against targets — users must have explicit authorization. Skill includes rate limiting guidance and ethics warnings. Python helper (ffuf_helper.py) is read-only result analysis with no dangerous operations. Inherent dual-use risk: same skill enables both authorized testing and unauthorized scanning. Appropriate for security professionals with proper authorization. Note: no standalone LICENSE file found despite MIT claim in README; star count 150 stored vs 117 live suggests discrepancy."
+    "notes": "Legitimate penetration testing skill by security researcher jthack. The ffuf tool itself executes real HTTP requests against targets \u2014 users must have explicit authorization. Skill includes rate limiting guidance and ethics warnings. Python helper (ffuf_helper.py) is read-only result analysis with no dangerous operations. Inherent dual-use risk: same skill enables both authorized testing and unauthorized scanning. Appropriate for security professionals with proper authorization. Note: no standalone LICENSE file found despite MIT claim in README; star count 150 stored vs 117 live suggests discrepancy."
   },
   "trust_level": "medium",
   "scan_date": "2026-02-26T02:23:54Z",

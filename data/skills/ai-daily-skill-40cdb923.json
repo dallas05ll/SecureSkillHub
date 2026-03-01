@@ -24,7 +24,7 @@
   "verified_commit": null,
   "scan_summary": "Python-heavy skill with RSS fetching, Claude API proxy usage, email notification, and image generation. Requires third-party API key (ZHIPU_API_KEY) routing through a Chinese AI proxy (bigmodel.cn) instead of official Anthropic endpoints. No LICENSE file present. Dependencies include anthropic, feedparser, requests, python-dateutil. .env.example present with credential placeholders.",
   "findings_summary": {
-    "notes": "Functional skill but notable concerns: (1) Routes Claude API calls through a third-party Chinese proxy (open.bigmodel.cn/api/anthropic) via ZHIPU_API_KEY — users' prompts and responses pass through this intermediary; (2) No license file — unclear redistribution rights; (3) Email SMTP credentials required for notification feature; (4) High fork count (56) suggests active use. Users should be aware API traffic is not going directly to Anthropic. Otherwise code quality is reasonable."
+    "notes": "Functional skill but notable concerns: (1) Routes Claude API calls through a third-party Chinese proxy (open.bigmodel.cn/api/anthropic) via ZHIPU_API_KEY \u2014 users' prompts and responses pass through this intermediary; (2) No license file \u2014 unclear redistribution rights; (3) Email SMTP credentials required for notification feature; (4) High fork count (56) suggests active use. Users should be aware API traffic is not going directly to Anthropic. Otherwise code quality is reasonable."
   },
   "last_updated": "2026-02-24T11:28:15Z",
   "trust_level": "low",

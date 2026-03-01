@@ -24,7 +24,7 @@
   "verified_commit": null,
   "scan_summary": "Aggregated collection of 600+ skills from multiple sources (Anthropic, Composio, k-dense-ai, community). Non-standard license (NOASSERTION). Skills are categorized in skills_all/ and skills_categorized/ directories. Repo author acknowledges passive maintenance and does not individually vet each skill. Contains Python utility scripts for site generation. Static docs site at microck.github.io.",
   "findings_summary": {
-    "notes": "Large aggregation repo with known caveats: (1) Author self-describes it as 'non-curated' and says bugs may go unnoticed; (2) License is NOASSERTION — unclear redistribution rights for the aggregated skills; (3) Skills from various third-party sources with unverified individual quality; (4) 600+ skills makes individual review impractical. Useful as a browsing index but individual skills should be vetted before use in sensitive contexts."
+    "notes": "Large aggregation repo with known caveats: (1) Author self-describes it as 'non-curated' and says bugs may go unnoticed; (2) License is NOASSERTION \u2014 unclear redistribution rights for the aggregated skills; (3) Skills from various third-party sources with unverified individual quality; (4) 600+ skills makes individual review impractical. Useful as a browsing index but individual skills should be vetted before use in sensitive contexts."
   },
   "last_updated": "2026-02-25T17:38:04Z",
   "trust_level": "low",

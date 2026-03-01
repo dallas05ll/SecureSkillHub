@@ -1,15 +1,15 @@
 {
   "id": "100-mcp-server-5b634baa",
-  "name": "快递100-mcp-server",
-  "description": "快递100 MCP Server提供快递信息查询、快递运费预估比价、快递时效查询（含发货前时效查询与在途动态时效查询）等功能。 Express100 MCP Server provides functions such as express delivery information queries, courier freight estimation and comparison, and transit time inquiries (including pre-shipment transit time checks and in-transit dynamic time estimates).",
-  "repo_url": "https://github.com/kuaidi100-api/快递100-mcp-server",
+  "name": "\u5feb\u9012100-mcp-server",
+  "description": "\u5feb\u9012100 MCP Server\u63d0\u4f9b\u5feb\u9012\u4fe1\u606f\u67e5\u8be2\u3001\u5feb\u9012\u8fd0\u8d39\u9884\u4f30\u6bd4\u4ef7\u3001\u5feb\u9012\u65f6\u6548\u67e5\u8be2\uff08\u542b\u53d1\u8d27\u524d\u65f6\u6548\u67e5\u8be2\u4e0e\u5728\u9014\u52a8\u6001\u65f6\u6548\u67e5\u8be2\uff09\u7b49\u529f\u80fd\u3002 Express100 MCP Server provides functions such as express delivery information queries, courier freight estimation and comparison, and transit time inquiries (including pre-shipment transit time checks and in-transit dynamic time estimates).",
+  "repo_url": "https://github.com/kuaidi100-api/\u5feb\u9012100-mcp-server",
   "source_hub": "mcp_so",
   "owner": "kuaidi100-api",
   "stars": 0,
   "primary_language": "unknown",
   "tags": [
-    "dev-web-backend-node",
-    "repo_unavailable"
+    "repo_unavailable",
+    "dev-web-backend-node"
   ],
   "verification_status": "manual_review",
   "overall_score": 0,
@@ -18,7 +18,7 @@
   "scan_summary": null,
   "scan_date": "2026-02-28T20:27:23Z",
   "findings_summary": {
-    "error": "clone failed: Cloning into '/var/folders/pq/bb71gjzd01d29nnmqrhqr2rc0000gn/T/strict5_100-mcp-server-5b634baa_rp64ft9v/repo'...\nremote: Repository not found.\nfatal: repository 'https://github.com/kuaidi100-api/快递100-mcp-server/' not found",
+    "error": "clone failed: Cloning into '/var/folders/pq/bb71gjzd01d29nnmqrhqr2rc0000gn/T/strict5_100-mcp-server-5b634baa_rp64ft9v/repo'...\nremote: Repository not found.\nfatal: repository 'https://github.com/kuaidi100-api/\u5feb\u9012100-mcp-server/' not found",
     "supervisor_approved": false,
     "supervisor_confidence": 0
   },

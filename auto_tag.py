@@ -24,16 +24,30 @@ TAG_RULES: list[tuple[str, list[str]]] = [
     ("dev-web-frontend-react", ["react", "jsx", "next.js", "nextjs"]),
     ("dev-web-frontend-vue", ["vue", "nuxt"]),
     ("dev-web-frontend-svelte", ["svelte"]),
+    # Angular — only 4 hits in corpus, all genuine Angular projects
+    ("dev-web-frontend-angular", ["angular"]),
     ("dev-web-backend-node", ["node.js", "nodejs", "express", "npm", "bun"]),
     ("dev-web-backend-python", ["python", "django", "flask", "fastapi"]),
     ("dev-web-backend-go", ["golang", " go "]),
     ("dev-web-backend-rust", ["rust", "cargo"]),
     ("dev-web-fullstack-nextjs", ["next.js", "nextjs"]),
+    # Nuxt is a Vue full-stack framework; skills may also get dev-web-frontend-vue
+    ("dev-web-fullstack-nuxt", ["nuxt"]),
     ("dev-devops-docker", ["docker", "container", "compose"]),
     ("dev-devops-k8s", ["kubernetes", "k8s", "helm"]),
     ("dev-devops-ci", ["ci/cd", "github actions", "jenkins", "pipeline"]),
     ("dev-git", ["git repo", "git commit", "gitlab", "bitbucket", "pull request", "pr review", "git-", "gitops"]),
     ("dev-testing", ["test", "testing", "jest", "pytest", "cypress", "playwright", "qa"]),
+    # AI agents & multi-agent frameworks — specific framework/pattern names only
+    ("dev-agents", ["agent framework", "multi-agent", "langchain", "langgraph", "autogen", "crewai", "agentic workflow", "agent orchestrat"]),
+    # Mobile — avoid bare "swift"/"kotlin" (too broad); use platform-specific phrases
+    ("dev-mobile", ["react native", "flutter", "ios app", "android app", "mobile app", "mobile development", "mobile application"]),
+    ("dev-mobile-react-native", ["react native"]),
+    ("dev-mobile-flutter", ["flutter"]),
+    # Desktop — electron/tauri are specific enough; also match explicit desktop phrases
+    ("dev-desktop", ["electron", "tauri", "desktop application", "desktop app"]),
+    ("dev-desktop-electron", ["electron"]),
+    ("dev-desktop-tauri", ["tauri"]),
 
     # --- Data & AI ---
     ("data", ["data", "analytics", "dataset", "etl"]),
@@ -44,6 +58,10 @@ TAG_RULES: list[tuple[str, list[str]]] = [
     ("data-db", ["database", "sql", "postgres", "mysql", "mongo", "redis", "sqlite", "supabase", "firebase"]),
     ("data-db-graph", ["neo4j", "graph database", "graphql"]),
     ("data-db-vector", ["vector", "embedding", "pinecone", "qdrant", "weaviate", "milvus", "chroma"]),
+    # Machine learning — framework names and ML-specific workflows
+    ("data-ml", ["machine learning", "deep learning", "neural network", "tensorflow", "pytorch", "huggingface", "hugging face", "mlflow", "model training", "model inference"]),
+    # Data analysis — tools for processing, querying, and visualising datasets
+    ("data-analysis", ["data analysis", "data visualization", "data processing", "jupyter", "pandas", "spreadsheet", "csv analysis"]),
 
     # --- Productivity & Office ---
     ("prod", ["productiv", "workflow", "automat"]),
@@ -52,6 +70,9 @@ TAG_RULES: list[tuple[str, list[str]]] = [
     ("prod-comm", ["slack", "discord", "telegram", "email", "gmail", "chat", "messag", "communi"]),
     ("prod-calendar", ["calendar", "schedule", "agenda", "booking"]),
     ("prod-notes", ["note", "memo", "journal", "diary"]),
+    # Email — specific email protocols and services; generic "email" word is too broad
+    # (already caught by prod-comm above; this tag captures dedicated email-tool skills)
+    ("productivity-email", ["gmail", "sendgrid", "mailgun", "smtp", "imap", "send email", "email client", "email management", "protonmail"]),
 
     # --- Integrations & APIs ---
     ("integ", ["api", "integration", "connect", "webhook", "oauth"]),
@@ -62,12 +83,23 @@ TAG_RULES: list[tuple[str, list[str]]] = [
     ("integ-payment", ["payment", "stripe", "paypal", "billing", "invoice"]),
     ("integ-social", ["twitter", "facebook", "instagram", "linkedin", "social media", "youtube"]),
     ("integ-crm", ["salesforce", "hubspot", "crm", "customer"]),
+    # GitHub integration — must be API/tooling target, not just the hosting platform.
+    # Bare "github" is skipped (nearly universal); use specific API/feature phrases.
+    ("integrations-github", ["github api", "octokit", "github issue", "github pull request", "github repository", "github workflow", "github copilot", "github mcp"]),
+    # Slack integration — "slack" by itself is specific enough for this platform
+    ("integrations-slack", ["slack", "slackbot"]),
+    # Notion integration — single proper noun, low false-positive risk
+    ("integrations-notion", ["notion"]),
+    # Jira integration — single proper noun
+    ("integrations-jira", ["jira"]),
 
     # --- Security & Compliance ---
     ("sec", ["security", "auth", "encrypt", "firewall", "vulnerab", "pentest", "threat"]),
     ("sec-auth", ["authentication", "oauth", "jwt", "sso", "identity", "login"]),
     ("sec-scan", ["scanner", "scan", "audit", "compliance", "cve"]),
     ("sec-crypto", ["crypto", "blockchain", "web3", "solana", "ethereum", "defi", "wallet", "token"]),
+    # Secrets management — specific products and patterns only; "vault" alone hits Obsidian vaults
+    ("security-secrets", ["hashicorp vault", "1password", "secret management", "aws secrets manager", "bitwarden", "vault secrets", "credential vault", "secrets manager"]),
 
     # --- Utilities ---
     ("util", ["util", "tool", "helper", "convert"]),
@@ -76,6 +108,8 @@ TAG_RULES: list[tuple[str, list[str]]] = [
     ("util-monitor", ["monitor", "logging", "metrics", "observ", "alert", "sentry", "datadog"]),
     ("util-map", ["map", "geolocation", "gps", "location", "geocod", "mapbox", "amap"]),
     ("util-media", ["media", "video", "stream", "ffmpeg", "youtube"]),
+    # System utilities — shell/terminal/process-level tools; avoid "terminal" alone (too broad)
+    ("utilities-system", ["shell command", "bash script", "system administration", "process management", "system info", "terminal emulator", "cli tool", "system command"]),
 ]
 
 

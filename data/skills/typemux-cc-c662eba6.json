@@ -1,7 +1,7 @@
 {
   "id": "typemux-cc-c662eba6",
   "name": "typemux-cc",
-  "description": "Claude Code plugin: Python type-checker LSP multiplexer. Auto-detects .venv and routes to pyright/ty/pyrefly—no Claude Code restart.",
+  "description": "Claude Code plugin: Python type-checker LSP multiplexer. Auto-detects .venv and routes to pyright/ty/pyrefly\u2014no Claude Code restart.",
   "repo_url": "https://github.com/K-dash/typemux-cc",
   "source_hub": "github_search",
   "skill_type": "agent_skill",

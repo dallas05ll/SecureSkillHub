@@ -1,15 +1,15 @@
 {
   "id": "ai-994cac49",
-  "name": "AI对口型 - 飞影数字人",
-  "description": "免费快速的数字人对口型服务",
-  "repo_url": "https://github.com/Flyworks AI/AI对口型 - 飞影数字人",
+  "name": "AI\u5bf9\u53e3\u578b - \u98de\u5f71\u6570\u5b57\u4eba",
+  "description": "\u514d\u8d39\u5feb\u901f\u7684\u6570\u5b57\u4eba\u5bf9\u53e3\u578b\u670d\u52a1",
+  "repo_url": "https://github.com/Flyworks AI/AI\u5bf9\u53e3\u578b - \u98de\u5f71\u6570\u5b57\u4eba",
   "source_hub": "mcp_so",
   "owner": "Flyworks AI",
   "stars": 0,
   "primary_language": "unknown",
   "tags": [
-    "data-ai",
-    "repo_unavailable"
+    "repo_unavailable",
+    "data-ai"
   ],
   "verification_status": "manual_review",
   "overall_score": 0,
@@ -18,7 +18,7 @@
   "scan_summary": null,
   "scan_date": "2026-02-28T20:27:24Z",
   "findings_summary": {
-    "error": "clone failed: Cloning into '/var/folders/pq/bb71gjzd01d29nnmqrhqr2rc0000gn/T/strict5_ai-994cac49_om4m0w00/repo'...\nfatal: unable to access 'https://github.com/Flyworks AI/AI对口型 - 飞影数字人/': URL rejected: Malformed input to a URL function",
+    "error": "clone failed: Cloning into '/var/folders/pq/bb71gjzd01d29nnmqrhqr2rc0000gn/T/strict5_ai-994cac49_om4m0w00/repo'...\nfatal: unable to access 'https://github.com/Flyworks AI/AI\u5bf9\u53e3\u578b - \u98de\u5f71\u6570\u5b57\u4eba/': URL rejected: Malformed input to a URL function",
     "supervisor_approved": false,
     "supervisor_confidence": 0
   },

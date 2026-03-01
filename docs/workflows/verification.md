@@ -52,6 +52,7 @@ Important: `verification_status` is the canonical field. Treat `status-*` tags a
 When this is detected, scripts write:
 
 - tag: `repo_unavailable`
+- tag: `not_reachable` (alias for fast agent/human filtering)
 - `repo_status: "unavailable"`
 - `repo_check_date`
 - `repo_check_error` (truncated)

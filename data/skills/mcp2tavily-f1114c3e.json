@@ -1,7 +1,7 @@
 {
   "id": "mcp2tavily-f1114c3e",
   "name": "mcp2tavily",
-  "description": "一个MCP服务器，让你的Claude Cline以及Langchain实现网络搜索功能。An MCP server that allows your Claude Cline and Langchain to implement network search functions.",
+  "description": "\u4e00\u4e2aMCP\u670d\u52a1\u5668\uff0c\u8ba9\u4f60\u7684Claude Cline\u4ee5\u53caLangchain\u5b9e\u73b0\u7f51\u7edc\u641c\u7d22\u529f\u80fd\u3002An MCP server that allows your Claude Cline and Langchain to implement network search functions.",
   "repo_url": "https://github.com/mcp2everything/mcp2tavily",
   "source_hub": "mcp_so",
   "owner": "mcp2everything",
@@ -9,6 +9,7 @@
   "primary_language": "unknown",
   "tags": [
     "data-ai",
+    "dev-agents",
     "util-search"
   ],
   "verification_status": "pass",

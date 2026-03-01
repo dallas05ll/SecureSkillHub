@@ -1,7 +1,7 @@
 {
   "id": "alive-analysis-5d2f8097",
   "name": "alive-analysis",
-  "description": "Data analysis workflow kit for AI coding agents. Structure your analysis with the ALIVE loop — Ask, Look, Investigate, Voice, Evolve.",
+  "description": "Data analysis workflow kit for AI coding agents. Structure your analysis with the ALIVE loop \u2014 Ask, Look, Investigate, Voice, Evolve.",
   "repo_url": "https://github.com/with-geun/alive-analysis",
   "source_hub": "github_search",
   "skill_type": "agent_skill",
@@ -13,6 +13,7 @@
     "data",
     "data-ai",
     "data-ai-audio",
+    "data-analysis",
     "prod"
   ],
   "verification_status": "pass",

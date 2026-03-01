@@ -35,7 +35,7 @@
       "entrypoint.sh manages container lifecycle with system-level commands",
       "Primary function is arbitrary code execution (by design, sandboxed)"
     ],
-    "notes": "This is primarily an MCP server (not a pure agent skill) that intentionally executes arbitrary LLM-generated code in Apple containers. The sandboxing approach is sound and the project is from an organization account with Apache-2.0 license. However, the install.sh requires sudo and downloads/installs a pkg file — users must trust the download. The two bundled SKILL.md files (image-crop-rotate, pdf-text-replace) are benign utility skills with well-scoped Python scripts. Requires macOS with Apple Silicon only. Flagged for manual review due to sudo install requirement and system-level scope, not due to malicious intent."
+    "notes": "This is primarily an MCP server (not a pure agent skill) that intentionally executes arbitrary LLM-generated code in Apple containers. The sandboxing approach is sound and the project is from an organization account with Apache-2.0 license. However, the install.sh requires sudo and downloads/installs a pkg file \u2014 users must trust the download. The two bundled SKILL.md files (image-crop-rotate, pdf-text-replace) are benign utility skills with well-scoped Python scripts. Requires macOS with Apple Silicon only. Flagged for manual review due to sudo install requirement and system-level scope, not due to malicious intent."
   },
   "scan_summary": null,
   "last_updated": "2026-02-24T09:01:12Z",

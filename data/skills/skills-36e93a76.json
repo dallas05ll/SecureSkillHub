@@ -20,9 +20,9 @@
   "overall_score": 90,
   "risk_level": "low",
   "verified_commit": null,
-  "scan_summary": "Official skills from Posit (a well-known enterprise open-source company behind RStudio). MIT licensed. Skills are SKILL.md files with clean metadata. Includes a Python utility (count-skill-tokens.py) for tooling only. PR automation skill (pr-create) interfaces with GitHub Actions and CI — legitimate use. .claude-plugin marketplace format properly used. Contributes to open-source release workflows (changelog, blog posts).",
+  "scan_summary": "Official skills from Posit (a well-known enterprise open-source company behind RStudio). MIT licensed. Skills are SKILL.md files with clean metadata. Includes a Python utility (count-skill-tokens.py) for tooling only. PR automation skill (pr-create) interfaces with GitHub Actions and CI \u2014 legitimate use. .claude-plugin marketplace format properly used. Contributes to open-source release workflows (changelog, blog posts).",
   "findings_summary": {
-    "notes": "High-quality, professionally maintained skills from a trusted open-source organization. Clean SKILL.md structure with good documentation. The pr-create skill monitors GitHub CI and debugs failures — this is expected behavior for a PR automation skill, not a concern. Well-organized domain structure (posit-dev, r-lib, shiny, quarto, brand-yml, open-source). No security concerns."
+    "notes": "High-quality, professionally maintained skills from a trusted open-source organization. Clean SKILL.md structure with good documentation. The pr-create skill monitors GitHub CI and debugs failures \u2014 this is expected behavior for a PR automation skill, not a concern. Well-organized domain structure (posit-dev, r-lib, shiny, quarto, brand-yml, open-source). No security concerns."
   },
   "last_updated": "2026-02-25T13:35:36Z",
   "trust_level": "low",

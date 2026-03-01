@@ -17,6 +17,7 @@
     "dev-testing",
     "integ-cloud",
     "integ-cloud-azure",
+    "integrations-slack",
     "prod-comm",
     "prod-pm"
   ],
@@ -27,7 +28,7 @@
   "scan_summary": null,
   "last_updated": "2026-02-25T16:12:14Z",
   "findings_summary": {
-    "notes": "Comprehensive, well-organized multi-plugin configuration with 15+ plugins. Each plugin has a proper plugin.json manifest, SKILL.md files, commands, hooks, and MCP configurations. Hook analysis: enforce_rg_over_grep.py (PreToolUse on Bash) blocks grep/find in favor of ripgrep — benign linting hook. gh_pr_create_confirm.py (PreToolUse) parses 'gh pr create' commands and shows a confirmation dialog before execution — a safety feature. git_commit_confirm.py similarly adds confirmation before git commits. The hooks use exit code 2 to block tool calls, which is the correct hook API. sync_marketplace_to_plugins.py and validate-agent.sh are developer tools. No data exfiltration, no hardcoded secrets, no obfuscation. MCP configs reference well-known servers (Context7, GitHub MCP, Slack MCP, etc.). A validation GitHub Action checks plugin manifests. Apache-2.0 licensed with CONTRIBUTING.md and INSTALL.md. The .claude/settings-zai.json and .codex/config.toml appear to be personal proxy configs (ccproxy/LiteLLM) but contain no secrets. Excellent overall quality and transparency."
+    "notes": "Comprehensive, well-organized multi-plugin configuration with 15+ plugins. Each plugin has a proper plugin.json manifest, SKILL.md files, commands, hooks, and MCP configurations. Hook analysis: enforce_rg_over_grep.py (PreToolUse on Bash) blocks grep/find in favor of ripgrep \u2014 benign linting hook. gh_pr_create_confirm.py (PreToolUse) parses 'gh pr create' commands and shows a confirmation dialog before execution \u2014 a safety feature. git_commit_confirm.py similarly adds confirmation before git commits. The hooks use exit code 2 to block tool calls, which is the correct hook API. sync_marketplace_to_plugins.py and validate-agent.sh are developer tools. No data exfiltration, no hardcoded secrets, no obfuscation. MCP configs reference well-known servers (Context7, GitHub MCP, Slack MCP, etc.). A validation GitHub Action checks plugin manifests. Apache-2.0 licensed with CONTRIBUTING.md and INSTALL.md. The .claude/settings-zai.json and .codex/config.toml appear to be personal proxy configs (ccproxy/LiteLLM) but contain no secrets. Excellent overall quality and transparency."
   },
   "trust_level": "low",
   "scan_date": "2026-02-26T01:42:30Z",

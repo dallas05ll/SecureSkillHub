@@ -1,18 +1,18 @@
 {
   "id": "mcp-auth-servers-6e990a37",
   "name": "mcp-auth-servers",
-  "description": "🔒 Reference MCP servers that demo how authentication works with the current Model Context Protocol spec.",
+  "description": "\ud83d\udd12 Reference MCP servers that demo how authentication works with the current Model Context Protocol spec.",
   "repo_url": "https://github.com/Azure-Samples/mcp-auth-servers",
   "source_hub": "mcp_so",
   "owner": "Azure-Samples",
   "stars": 48,
   "primary_language": "typescript",
   "tags": [
+    "status-fail",
     "data-ai",
     "data-ai-nlp",
     "sec",
-    "sec-auth",
-    "status-fail"
+    "sec-auth"
   ],
   "verification_status": "fail",
   "overall_score": 100,

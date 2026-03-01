@@ -96,10 +96,20 @@ TAG_ALIASES: dict[str, str] = {
     "data-db":           "data-db",
     "data-db-graph":     "data-db-graph",
     "data-db-vector":    "data-db-vector",
+    "data-ml":           "data-ml",
+    "data-analysis":     "data-analysis",
     # ── Dev (miscellaneous abbreviated dev tags) ───────────────────
     "dev-testing":       "dev-testing",
     "dev-git":           "dev-git",
     "dev-agents":        "dev-agents",
+    "dev-mobile":        "dev-mobile",
+    "dev-mobile-react-native": "dev-mobile-react-native",
+    "dev-mobile-flutter": "dev-mobile-flutter",
+    "dev-desktop":       "dev-desktop",
+    "dev-desktop-electron": "dev-desktop-electron",
+    "dev-desktop-tauri": "dev-desktop-tauri",
+    "dev-web-frontend-angular": "dev-web-frontend-angular",
+    "dev-web-fullstack-nuxt": "dev-web-fullstack-nuxt",
     "dev-automation":    "dev",
     "dev-backend":       "dev-web-backend",
     "dev-diagramming":   "dev",
@@ -122,6 +132,27 @@ TAG_ALIASES: dict[str, str] = {
     "dev-tools":         "dev",
     "dev-unity":         "dev",
     "dev-workflow":      "dev",
+    # ── Integrations (platform-specific) ───────────────────────────
+    "integrations-github": "integrations-github",
+    "integrations-slack":  "integrations-slack",
+    "integrations-notion": "integrations-notion",
+    "integrations-jira":   "integrations-jira",
+    # ── Productivity (platform-specific) ───────────────────────────
+    "productivity-email":  "productivity-email",
+    # ── Security (secrets management) ──────────────────────────────
+    "security-secrets":    "security-secrets",
+    # ── Utilities (system-level) ────────────────────────────────────
+    "utilities-system":    "utilities-system",
+}
+
+# Reverse alias mapping: abbreviated → canonical.
+# Used by build_tag_and_tier_indexes() to write by-tag files under BOTH the
+# abbreviated tag ID (as found on skills) and the canonical tag ID (as listed
+# in tags.json).  Only includes entries where abbreviated != canonical.
+REVERSE_ALIASES: dict[str, str] = {
+    abbrev: canonical
+    for abbrev, canonical in TAG_ALIASES.items()
+    if abbrev != canonical
 }
 
 STATUS_ALIASES: dict[str, str] = {
@@ -217,7 +248,12 @@ def _normalize_skill_record(raw: dict[str, Any]) -> dict[str, Any]:
     normalized["scan_date"] = str(normalized.get("scan_date") or "")
     normalized["description"] = str(normalized.get("description") or "")
     tags = normalized.get("tags")
-    normalized["tags"] = list(dict.fromkeys(tags)) if isinstance(tags, list) else []
+    # Translate abbreviated tags to canonical tags.json IDs via TAG_ALIASES
+    # so that skill tags match the sidebar tag tree for frontend filtering.
+    raw_tags = list(dict.fromkeys(tags)) if isinstance(tags, list) else []
+    normalized["tags"] = list(dict.fromkeys(
+        TAG_ALIASES.get(t, t) for t in raw_tags
+    ))
     normalized["stars"] = _safe_int(normalized.get("stars"), 0)
     normalized["owner"] = str(normalized.get("owner") or "")
     normalized["primary_language"] = str(normalized.get("primary_language") or "unknown")
@@ -497,6 +533,14 @@ def build_tag_and_tier_indexes(index: list[dict[str, Any]], tag_tree_data: dict[
             by_tag.setdefault(str(tag), []).append(skill)
 
     by_tag_index: dict[str, dict[str, int]] = {}
+
+    # Accumulate skills for canonical tag IDs that don't already have their
+    # own direct by_tag bucket.  Multiple abbreviated tags may map to the
+    # same canonical (e.g. sec-scan, sec-scanning, sec-pentest → security-scanning),
+    # so we merge them via a seen-ID set to avoid duplicates.
+    canonical_buckets: dict[str, list[dict[str, Any]]] = {}
+    canonical_seen_ids: dict[str, set[str]] = {}
+
     for tag, tag_skills in sorted(by_tag.items()):
         verified = sum(
             1 for s in tag_skills
@@ -514,6 +558,40 @@ def build_tag_and_tier_indexes(index: list[dict[str, Any]], tag_tree_data: dict[
             "total": payload["total"],
             "verified": payload["verified"],
             "top_stars": payload["top_stars"],
+        }
+
+        # Accumulate skills into canonical bucket for later writing.
+        canonical = REVERSE_ALIASES.get(tag)
+        if canonical and canonical != tag and canonical not in by_tag:
+            if canonical not in canonical_buckets:
+                canonical_buckets[canonical] = []
+                canonical_seen_ids[canonical] = set()
+            for skill in tag_skills:
+                skill_id = skill.get("id", "")
+                if skill_id not in canonical_seen_ids[canonical]:
+                    canonical_seen_ids[canonical].add(skill_id)
+                    canonical_buckets[canonical].append(skill)
+
+    # Write canonical alias files (merging all abbreviated variants).
+    for canonical, canon_skills in sorted(canonical_buckets.items()):
+        # Re-sort by stars descending to match the rest of the by-tag files.
+        canon_skills.sort(key=lambda s: s.get("stars", 0), reverse=True)
+        verified = sum(
+            1 for s in canon_skills
+            if _normalize_verification_status(s.get("verification_status")) == "pass"
+        )
+        canonical_payload = {
+            "tag": canonical,
+            "total": len(canon_skills),
+            "verified": verified,
+            "top_stars": canon_skills[0].get("stars", 0) if canon_skills else 0,
+            "skills": canon_skills,
+        }
+        _write_json(API_SKILLS_BY_TAG_DIR / f"{canonical}.json", canonical_payload)
+        by_tag_index[canonical] = {
+            "total": canonical_payload["total"],
+            "verified": canonical_payload["verified"],
+            "top_stars": canonical_payload["top_stars"],
         }
 
     # Build category-grouped tag index for fast frontend navigation
@@ -535,7 +613,16 @@ def build_tag_and_tier_indexes(index: list[dict[str, Any]], tag_tree_data: dict[
             _map_tags_to_category(cat, cat_id, tag_to_category)
 
     for tag_id in by_tag_index:
-        cat = tag_to_category.get(tag_id, "uncategorized")
+        # Look up category by canonical ID first (tags.json uses canonical).
+        # If the tag_id is abbreviated, resolve via REVERSE_ALIASES so it
+        # lands in the correct category instead of "uncategorized".
+        cat = tag_to_category.get(tag_id)
+        if cat is None:
+            canonical = REVERSE_ALIASES.get(tag_id)
+            if canonical:
+                cat = tag_to_category.get(canonical)
+        if cat is None:
+            cat = "uncategorized"
         by_category_index["by_category"].setdefault(cat, []).append(tag_id)
 
     # Sort tags within each category by skill count (descending)
@@ -657,7 +744,15 @@ def build_packages(skills: list[dict[str, Any]], tag_tree: dict[str, Any]) -> in
             "selection_mode": pkg.get("selection_mode", "verified_only"),
         }
 
+    # Blocklist for source package files (same tags as fallback blocklist).
+    _SOURCE_PKG_BLOCKLIST = {"repo_unavailable", "clone_failure", "status",
+                             "status-pass", "status-fail", "status-manual_review",
+                             "status-unverified", "status-updated_unverified"}
+
     for pkg_file in package_files:
+        # Skip blocklisted source packages.
+        if pkg_file.stem in _SOURCE_PKG_BLOCKLIST:
+            continue
         try:
             raw = _read_json(pkg_file)
             # data/packages/index.json is a manifest, not a SkillPackage payload.
@@ -687,6 +782,10 @@ def build_packages(skills: list[dict[str, Any]], tag_tree: dict[str, Any]) -> in
             logger.exception("Failed to load/validate package: %s", pkg_file)
 
     # Fallback generation: guarantee one package per canonical tag node.
+    # Skip system/status tags that shouldn't have packages.
+    _PACKAGE_BLOCKLIST = {"repo_unavailable", "clone_failure", "status",
+                          "status-pass", "status-fail", "status-manual_review",
+                          "status-unverified", "status-updated_unverified"}
     now_str = datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
     top_n = 10
     for category in tag_tree.get("categories", []):
@@ -694,7 +793,8 @@ def build_packages(skills: list[dict[str, Any]], tag_tree: dict[str, Any]) -> in
         while stack:
             node = stack.pop()
             tag_id = str(node.get("id", ""))
-            if not tag_id:
+            if not tag_id or tag_id in _PACKAGE_BLOCKLIST:
+                stack.extend(node.get("children", []) or [])
                 continue
 
             out_path = API_PACKAGES_DIR / f"{tag_id}.json"
@@ -722,17 +822,27 @@ def build_packages(skills: list[dict[str, Any]], tag_tree: dict[str, Any]) -> in
                 reverse=True,
             )
 
-            verified = [
+            # Quality floor: only include skills that meet curation standards.
+            # - verification_status must be "pass" or "manual_review"
+            # - risk_level must not be "critical"
+            # - overall_score must be >= 50
+            _CURATED_STATUSES = {"pass", "manual_review"}
+            qualified = [
                 s for s in candidates
-                if _normalize_verification_status(s.get("verification_status")) == "pass"
+                if (
+                    _normalize_verification_status(s.get("verification_status")) in _CURATED_STATUSES
+                    and str(s.get("risk_level", "info")).lower() != "critical"
+                    and int(s.get("overall_score", 0) or 0) >= 50
+                )
             ]
-            selected = verified[:top_n]
+
+            # Skip package generation if no qualifying skills remain.
+            if not qualified:
+                stack.extend(node.get("children", []) or [])
+                continue
+
+            selected = qualified[:top_n]
             selection_mode = "verified_only"
-            if len(selected) < top_n:
-                fallback = [s for s in candidates if s not in selected]
-                selected = (selected + fallback)[:top_n]
-                if fallback:
-                    selection_mode = "verified_plus_fallback"
 
             avg_score = (
                 round(
@@ -746,13 +856,13 @@ def build_packages(skills: list[dict[str, Any]], tag_tree: dict[str, Any]) -> in
                 "tag_path": tag_id,
                 "label": f"General {node.get('label', tag_id)} Package",
                 "description": (
-                    f"Top {len(selected)} skills for {node.get('label', tag_id)} "
-                    f"(selection mode: {selection_mode.replace('_', ' ')})."
+                    f"Top {len(selected)} verified skills for {node.get('label', tag_id)}, "
+                    f"auto-curated by stars and security score."
                 ),
                 "skill_ids": [s.get("id", "") for s in selected if s.get("id")],
                 "skills": selected,
                 "total_skills": len(selected),
-                "total_candidates": len(candidates),
+                "total_candidates": len(qualified),
                 "avg_score": avg_score,
                 "top_stars": int(selected[0].get("stars", 0) or 0) if selected else 0,
                 "selection_mode": selection_mode,

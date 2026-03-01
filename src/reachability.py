@@ -16,6 +16,7 @@ from pathlib import Path
 
 TAG_UNAVAILABLE = "repo_unavailable"
 TAG_CLONE_FAILURE = "clone_failure"  # Legacy, mapped to repo_unavailable
+TAG_NOT_REACHABLE = "not_reachable"  # Human/agent friendly alias
 
 SKILL_MANAGER_LOG = Path("data/skill-manager-log.json")
 
@@ -49,7 +50,7 @@ def check_repo(repo_url: str, timeout: int = 15) -> dict:
 def is_unavailable(skill_data: dict) -> bool:
     """Check if a skill is already tagged as unavailable."""
     tags = skill_data.get("tags", [])
-    return TAG_UNAVAILABLE in tags or TAG_CLONE_FAILURE in tags
+    return TAG_UNAVAILABLE in tags or TAG_CLONE_FAILURE in tags or TAG_NOT_REACHABLE in tags
 
 
 def mark_unavailable(skill_data: dict, error_msg: str | None = None) -> dict:
@@ -59,6 +60,8 @@ def mark_unavailable(skill_data: dict, error_msg: str | None = None) -> dict:
         tags.remove(TAG_CLONE_FAILURE)
     if TAG_UNAVAILABLE not in tags:
         tags.append(TAG_UNAVAILABLE)
+    if TAG_NOT_REACHABLE not in tags:
+        tags.append(TAG_NOT_REACHABLE)
     skill_data["tags"] = tags
     skill_data["repo_status"] = "unavailable"
     skill_data["repo_check_date"] = datetime.now(timezone.utc).isoformat()

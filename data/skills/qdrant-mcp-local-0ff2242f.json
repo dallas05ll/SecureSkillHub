@@ -1,7 +1,7 @@
 {
   "id": "qdrant-mcp-local-0ff2242f",
   "name": "qdrant-mcp-local",
-  "description": "ローカル環境でQdrantとMCP-server-qdrantを簡単に立ち上げるためのDocker Compose設定",
+  "description": "\u30ed\u30fc\u30ab\u30eb\u74b0\u5883\u3067Qdrant\u3068MCP-server-qdrant\u3092\u7c21\u5358\u306b\u7acb\u3061\u4e0a\u3052\u308b\u305f\u3081\u306eDocker Compose\u8a2d\u5b9a",
   "repo_url": "https://github.com/hirokita117/qdrant-mcp-local",
   "source_hub": "mcp_so",
   "owner": "hirokita117",

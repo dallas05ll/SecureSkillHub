@@ -6,7 +6,7 @@
   "source_hub": "mcp_so",
   "owner": "LikeC4",
   "stars": 2781,
-  "primary_language": "unknown",
+  "primary_language": "typescript",
   "tags": [
     "data",
     "data-ai",
@@ -14,13 +14,87 @@
     "data-db",
     "dev-web",
     "integ",
-    "util-search"
+    "util-search",
+    "status-fail"
   ],
-  "verification_status": "pass",
-  "overall_score": 88,
-  "risk_level": "low",
-  "verified_commit": null,
+  "verification_status": "fail",
+  "overall_score": 0,
+  "risk_level": "critical",
+  "verified_commit": "5993c843bbcb1adef29b2cc5c2ac14f2980f9285",
   "scan_summary": null,
-  "scan_date": "2026-02-26T03:00:50Z",
-  "verification_level": "scanner_only"
+  "scan_date": "2026-03-01T07:23:35Z",
+  "verification_level": "full_pipeline",
+  "findings_summary": {
+    "scanner_findings": 84,
+    "dangerous_calls": 4,
+    "network_ops": 5,
+    "file_ops": 34,
+    "env_access": 23,
+    "obfuscation": 14,
+    "injection_patterns": 0,
+    "mismatches": 0,
+    "undocumented_capabilities": 0,
+    "supervisor_approved": false,
+    "supervisor_confidence": 90
+  },
+  "agent_audit": {
+    "agents_completed": 5,
+    "agents_required": 5,
+    "pipeline_run_at": "2026-03-01T07:23:35Z",
+    "agent_a": {
+      "signed": true,
+      "signed_at": "2026-03-01T07:23:35Z",
+      "comment": "Docs quality 9/10. README present. 12 features, 4 permissions claimed.",
+      "doc_quality_score": 9,
+      "claimed_permissions": [
+        "network access",
+        "system command execution",
+        "file system access",
+        "environment/secret access"
+      ]
+    },
+    "agent_b": {
+      "signed": true,
+      "signed_at": "2026-03-01T07:23:35Z",
+      "comment": "6598 files analyzed. Found: 4 network, 16 file, 6 env, 2 system calls. Primary: typescript.",
+      "files_analyzed": 6598,
+      "capabilities_found": [
+        "imports external dependencies",
+        "performs network operations",
+        "reads/writes files",
+        "reads environment values",
+        "executes system commands"
+      ]
+    },
+    "agent_c_star": {
+      "signed": true,
+      "signed_at": "2026-03-01T07:23:35Z",
+      "comment": "84 findings: 0 critical, 22 high, 28 medium, 34 low. Obfuscation detected!. No injection.",
+      "total_findings": 84,
+      "severity_counts": {
+        "critical": 0,
+        "high": 22,
+        "medium": 28,
+        "low": 34,
+        "info": 0
+      }
+    },
+    "agent_d": {
+      "signed": true,
+      "signed_at": "2026-03-01T07:23:35Z",
+      "comment": "Score 0. 0 mismatches. Risk: critical. Safety overrides: applied.",
+      "score": 0,
+      "mismatches": 0,
+      "safety_overrides_applied": true
+    },
+    "agent_e": {
+      "signed": true,
+      "signed_at": "2026-03-01T07:23:35Z",
+      "comment": "Rejected. Confidence 90%. Deterministic override: high-risk obfuscation detected.",
+      "approved": false,
+      "confidence": 90,
+      "override_reason": "Deterministic override: high-risk obfuscation detected."
+    },
+    "manager_summary": "5/5 agents completed. Score: 0/100, Risk: critical. 0 mismatches, 84 scanner findings. Rejected at 90% confidence. Safety overrides triggered."
+  }
 }

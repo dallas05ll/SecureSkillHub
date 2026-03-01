@@ -748,6 +748,23 @@ select {
   box-shadow: 0 8px 24px rgba(0, 0, 0, 0.3);
 }
 
+.skill-card-unreachable {
+  background: linear-gradient(180deg, rgba(120, 125, 135, 0.12), rgba(120, 125, 135, 0.08));
+  border-color: rgba(120, 125, 135, 0.4);
+}
+
+.skill-card-unreachable:hover {
+  background: linear-gradient(180deg, rgba(120, 125, 135, 0.15), rgba(120, 125, 135, 0.1));
+  border-color: rgba(120, 125, 135, 0.55);
+}
+
+.skill-card-unreachable .skill-name,
+.skill-card-unreachable .skill-description,
+.skill-card-unreachable .skill-meta,
+.skill-card-unreachable .skill-tag {
+  color: #a5acb8;
+}
+
 .skill-card-top {
   display: flex;
   align-items: flex-start;
@@ -1499,18 +1516,16 @@ select {
   }
 
   .toolbar-inner {
-    display: grid;
-    grid-template-columns: auto minmax(0, 1fr) auto;
-    grid-template-areas:
-      "sidebar sort verified"
-      "search search search";
-    gap: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
     padding: 10px 16px 12px;
     min-height: auto;
   }
 
   .search-container {
-    grid-area: search;
+    order: 10;
+    flex-basis: 100%;
     max-width: none;
     width: 100%;
   }
@@ -1520,8 +1535,9 @@ select {
   }
 
   .sort-container {
-    grid-area: sort;
+    order: 1;
     min-width: 0;
+    flex: 1;
   }
 
   .sort-select {
@@ -1530,12 +1546,11 @@ select {
   }
 
   .verified-toggle {
-    grid-area: verified;
-    justify-self: end;
+    order: 2;
     margin-left: 0;
     min-height: var(--control-height-mobile);
-    padding: 0 10px;
-    font-size: 0.74rem;
+    padding: 0 8px;
+    font-size: 0.72rem;
   }
 
   .sort-label {
@@ -1544,7 +1559,7 @@ select {
 
   .sidebar-toggle {
     display: inline-flex;
-    grid-area: sidebar;
+    order: 0;
     min-width: var(--control-height-mobile);
     min-height: var(--control-height-mobile);
   }
@@ -2871,4 +2886,14 @@ select {
 /* Report list with top margin */
 .report-list--spaced {
   margin-top: 8px;
+}
+
+/* Utility: muted text (used in agent audit trail) */
+.text-muted {
+  color: var(--text-muted);
+}
+
+/* Install section (extends report-section with no extra styles currently) */
+.install-section {
+  /* Inherits from .report-section */
 }

@@ -1,13 +1,14 @@
 {
   "id": "twelve-data-915f2904",
   "name": "twelve-data",
-  "description": "A Model Context Protocol server for the Twelve Data API. This server provides tools to fetch market data—historical time series, latest quotes, and instrument lists—for stocks, forex pairs, and cryptocurrencies.",
+  "description": "A Model Context Protocol server for the Twelve Data API. This server provides tools to fetch market data\u2014historical time series, latest quotes, and instrument lists\u2014for stocks, forex pairs, and cryptocurrencies.",
   "repo_url": "https://github.com/Twelve Data/twelve-data",
   "source_hub": "mcp_so",
   "owner": "Twelve Data",
   "stars": 0,
   "primary_language": "unknown",
   "tags": [
+    "repo_unavailable",
     "data",
     "data-ai",
     "data-ai-nlp",
@@ -15,8 +16,7 @@
     "integ",
     "sec-crypto",
     "util",
-    "util-search",
-    "repo_unavailable"
+    "util-search"
   ],
   "verification_status": "unverified",
   "overall_score": 0,

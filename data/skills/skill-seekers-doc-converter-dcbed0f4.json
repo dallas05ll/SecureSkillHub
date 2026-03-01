@@ -16,6 +16,7 @@
     "data-db",
     "data-db-vector",
     "dev",
+    "dev-agents",
     "dev-devops-ci",
     "dev-web",
     "integ",
@@ -77,7 +78,7 @@
       "WARN: LICENSE contains placeholder '[Your Name/Username]' not replaced",
       "INFO: Individual developer repo (not an org), but highly active",
       "INFO: 98 open issues suggests active user community",
-      "INFO: Requires API keys (Anthropic, optional Google/OpenAI) at runtime — user-supplied only"
+      "INFO: Requires API keys (Anthropic, optional Google/OpenAI) at runtime \u2014 user-supplied only"
     ]
   },
   "trust_level": "medium",

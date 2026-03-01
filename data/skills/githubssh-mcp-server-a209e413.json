@@ -1,16 +1,15 @@
 {
   "id": "githubssh-mcp-server-a209e413",
   "name": "githubSSH-mcp-server",
-  "description": "增强版GitHub MCP Server，支持智能SSH访问检测和自动访问方式切换",
+  "description": "\u589e\u5f3a\u7248GitHub MCP Server\uff0c\u652f\u6301\u667a\u80fdSSH\u8bbf\u95ee\u68c0\u6d4b\u548c\u81ea\u52a8\u8bbf\u95ee\u65b9\u5f0f\u5207\u6362",
   "repo_url": "https://github.com/pyz11/githubSSH-mcp-server",
   "source_hub": "mcp_so",
   "owner": "pyz11",
   "stars": 0,
   "primary_language": "unknown",
   "tags": [
-    "integ",
-    "util",
-    "repo_unavailable"
+    "repo_unavailable",
+    "integrations-github"
   ],
   "verification_status": "unverified",
   "overall_score": 0,

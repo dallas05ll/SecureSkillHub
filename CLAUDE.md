@@ -18,8 +18,12 @@ Each topic has ONE canonical home. Never duplicate content across files. If you 
 | Design principles | `docs/design/principles.md` | 22 numbered constraints |
 | Verification architecture | `docs/design/verification-architecture.md` | How 5-agent pipeline works |
 | Project manager agent | `PROJECT_MANAGER.md` | Manual review, doc alignment, goal tracking |
+| Skills Manager (catalog health, SM-A/SM-B review) | `SKILLS_MANAGER.md` | Dual-agent quality + integrity review, selects what VM verifies |
+| Verification Manager (pipeline execution) | `VERIFICATION_MANAGER.md` | Runs 5-agent pipeline, safety override guardian |
 | Agent experience (CLI, packages, entry, UX) | `AGENT_EXPERIENCE_MANAGER.md` | Agent-facing UX, CLI, packages, feedback |
 | Deploy, git, commit tracking, rollback | `DEPLOY_MANAGER.md` | Executes deploys on PM instruction |
+| Frontend visual QA, CSS, rendering bugs | `FRONTEND_MANAGER.md` | Human-facing UI owner |
+| Doc librarian, doc-code alignment, Quick Nav | `DOCUMENTATION_MANAGER.md` | Knows all files/paths, fixes doc drift on PM instruction (5 sub-agents) |
 
 **Rules:**
 - Before writing content, check if it already exists in a canonical file

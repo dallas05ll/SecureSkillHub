@@ -1,8 +1,8 @@
 {
   "id": "-5d1d639b",
-  "name": "原型助手",
-  "description": "工具能力：\r\n\r\n- 提供导航栏。\r\n- 将标记与原型解耦。\r\n- 支持页面附加说明。",
-  "repo_url": "https://github.com/llxxbb/原型助手",
+  "name": "\u539f\u578b\u52a9\u624b",
+  "description": "\u5de5\u5177\u80fd\u529b\uff1a\r\n\r\n- \u63d0\u4f9b\u5bfc\u822a\u680f\u3002\r\n- \u5c06\u6807\u8bb0\u4e0e\u539f\u578b\u89e3\u8026\u3002\r\n- \u652f\u6301\u9875\u9762\u9644\u52a0\u8bf4\u660e\u3002",
+  "repo_url": "https://github.com/llxxbb/\u539f\u578b\u52a9\u624b",
   "source_hub": "mcp_so",
   "owner": "llxxbb",
   "stars": 0,
@@ -17,7 +17,7 @@
   "scan_summary": null,
   "scan_date": "2026-02-28T20:27:23Z",
   "findings_summary": {
-    "error": "clone failed: Cloning into '/var/folders/pq/bb71gjzd01d29nnmqrhqr2rc0000gn/T/strict5_-5d1d639b_iz8m9j19/repo'...\nremote: Repository not found.\nfatal: repository 'https://github.com/llxxbb/原型助手/' not found",
+    "error": "clone failed: Cloning into '/var/folders/pq/bb71gjzd01d29nnmqrhqr2rc0000gn/T/strict5_-5d1d639b_iz8m9j19/repo'...\nremote: Repository not found.\nfatal: repository 'https://github.com/llxxbb/\u539f\u578b\u52a9\u624b/' not found",
     "supervisor_approved": false,
     "supervisor_confidence": 0
   },

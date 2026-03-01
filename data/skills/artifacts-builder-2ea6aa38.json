@@ -1,7 +1,7 @@
 {
   "id": "artifacts-builder-2ea6aa38",
   "name": "Artifacts Builder",
-  "description": "Build complex, multi-component claude.ai HTML artifacts using a modern frontend stack: React 18, TypeScript, Vite, Tailwind CSS 3.4.1, and 40+ pre-installed shadcn/ui components. The skill provides initialization and bundling scripts that produce a fully self-contained single HTML file suitable for use as a Claude artifact. Intended for artifacts requiring state management, routing, or component libraries — not for simple single-file HTML/JSX artifacts.",
+  "description": "Build complex, multi-component claude.ai HTML artifacts using a modern frontend stack: React 18, TypeScript, Vite, Tailwind CSS 3.4.1, and 40+ pre-installed shadcn/ui components. The skill provides initialization and bundling scripts that produce a fully self-contained single HTML file suitable for use as a Claude artifact. Intended for artifacts requiring state management, routing, or component libraries \u2014 not for simple single-file HTML/JSX artifacts.",
   "repo_url": "https://github.com/anthropics/skills/tree/main/web-artifacts-builder",
   "source_hub": "claude_skills_hub",
   "skill_type": "agent_skill",
@@ -11,12 +11,12 @@
   "license": "Apache-2.0",
   "primary_language": "TypeScript",
   "tags": [
+    "repo_unavailable",
     "data-ai",
     "dev-web",
     "dev-web-backend-node",
     "dev-web-frontend-react",
-    "util-file",
-    "repo_unavailable"
+    "util-file"
   ],
   "source_tags": [
     "react",

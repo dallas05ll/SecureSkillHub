@@ -38,7 +38,7 @@
   "overall_score": 83,
   "risk_level": "low",
   "verified_commit": null,
-  "scan_summary": "Python-based image generation skill using Pillow and optional pilmoji. MIT licensed. Scripts include generate_favicons.py, generate_og_images.py, check_dependencies.py, emoji_utils.py, and lib/validators.py. All scripts perform local file I/O only — no network calls or external API usage. Dependencies: Pillow (required), pilmoji and emoji<2.0.0 (optional for emoji support). .claude-plugin marketplace format used. SKILL.md and CLAUDE.md present.",
+  "scan_summary": "Python-based image generation skill using Pillow and optional pilmoji. MIT licensed. Scripts include generate_favicons.py, generate_og_images.py, check_dependencies.py, emoji_utils.py, and lib/validators.py. All scripts perform local file I/O only \u2014 no network calls or external API usage. Dependencies: Pillow (required), pilmoji and emoji<2.0.0 (optional for emoji support). .claude-plugin marketplace format used. SKILL.md and CLAUDE.md present.",
   "findings_summary": {
     "notes": "Well-crafted utility skill for web asset generation. All Python scripts operate on local files using standard image processing libraries. No network calls in scripts. Dependency pinning uses >= version specifiers (not pinned) but for an image processing tool this is acceptable. Star count discrepancy (120 stored vs 187 live) suggests rapid growth. Clean code structure with validators library. No security concerns."
   },

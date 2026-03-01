@@ -1,15 +1,15 @@
 {
   "id": "-0b70eb6d",
-  "name": "腾讯云直播服务",
-  "description": "本项目主要为大语言模型提供通过自然语言调用腾讯云直播API，管理腾讯云直播服务的能力。",
-  "repo_url": "https://github.com/willsygao/腾讯云直播服务",
+  "name": "\u817e\u8baf\u4e91\u76f4\u64ad\u670d\u52a1",
+  "description": "\u672c\u9879\u76ee\u4e3b\u8981\u4e3a\u5927\u8bed\u8a00\u6a21\u578b\u63d0\u4f9b\u901a\u8fc7\u81ea\u7136\u8bed\u8a00\u8c03\u7528\u817e\u8baf\u4e91\u76f4\u64adAPI\uff0c\u7ba1\u7406\u817e\u8baf\u4e91\u76f4\u64ad\u670d\u52a1\u7684\u80fd\u529b\u3002",
+  "repo_url": "https://github.com/willsygao/\u817e\u8baf\u4e91\u76f4\u64ad\u670d\u52a1",
   "source_hub": "mcp_so",
   "owner": "willsygao",
   "stars": 0,
   "primary_language": "unknown",
   "tags": [
-    "integ",
-    "repo_unavailable"
+    "repo_unavailable",
+    "integ"
   ],
   "verification_status": "manual_review",
   "overall_score": 0,
@@ -18,7 +18,7 @@
   "scan_summary": null,
   "scan_date": "2026-02-28T20:27:23Z",
   "findings_summary": {
-    "error": "clone failed: Cloning into '/var/folders/pq/bb71gjzd01d29nnmqrhqr2rc0000gn/T/strict5_-0b70eb6d_e2p_rdsc/repo'...\nremote: Repository not found.\nfatal: repository 'https://github.com/willsygao/腾讯云直播服务/' not found",
+    "error": "clone failed: Cloning into '/var/folders/pq/bb71gjzd01d29nnmqrhqr2rc0000gn/T/strict5_-0b70eb6d_e2p_rdsc/repo'...\nremote: Repository not found.\nfatal: repository 'https://github.com/willsygao/\u817e\u8baf\u4e91\u76f4\u64ad\u670d\u52a1/' not found",
     "supervisor_approved": false,
     "supervisor_confidence": 0
   },

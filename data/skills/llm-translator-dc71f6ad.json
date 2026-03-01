@@ -1,7 +1,7 @@
 {
   "id": "llm-translator-dc71f6ad",
   "name": "llm-translator",
-  "description": "这个技能让 Claude 可以使用任何 LLM API（OpenAI、国内大模型等）来翻译文本和文件。",
+  "description": "\u8fd9\u4e2a\u6280\u80fd\u8ba9 Claude \u53ef\u4ee5\u4f7f\u7528\u4efb\u4f55 LLM API\uff08OpenAI\u3001\u56fd\u5185\u5927\u6a21\u578b\u7b49\uff09\u6765\u7ffb\u8bd1\u6587\u672c\u548c\u6587\u4ef6\u3002",
   "repo_url": "https://github.com/lisniuse/llm-translator",
   "source_hub": "github_search",
   "skill_type": "agent_skill",

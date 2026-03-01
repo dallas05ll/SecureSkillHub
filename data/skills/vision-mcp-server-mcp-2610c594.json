@@ -1,19 +1,19 @@
 {
   "id": "vision-mcp-server-mcp-2610c594",
-  "name": "vision-mcp-server-|-图片分析-mcp",
+  "name": "vision-mcp-server-|-\u56fe\u7247\u5206\u6790-mcp",
   "description": "This MCP addresses the visual recognition limitations of text-based models by enabling accurate image description and identification, making it excellent for AI-assisted reference design interface analysis.\r\n\r\nIt currently supports dropping links into the dialog box or placing images in the project folder for recognition.\r\nThe tool can be integrated with MCP platforms like Claude Code, Cline, and Trae. Beyond programming applications, it also provides visual recognition capabilities for model...",
-  "repo_url": "https://github.com/Markusbetter/vision-mcp-server-|-图片分析-mcp",
+  "repo_url": "https://github.com/Markusbetter/vision-mcp-server-|-\u56fe\u7247\u5206\u6790-mcp",
   "source_hub": "mcp_so",
   "owner": "Markusbetter",
   "stars": 0,
   "primary_language": "unknown",
   "tags": [
+    "repo_unavailable",
     "data-ai",
     "data-ai-nlp",
     "data-ai-vision",
     "dev",
-    "util",
-    "repo_unavailable"
+    "util"
   ],
   "verification_status": "unverified",
   "overall_score": 0,
@@ -22,5 +22,5 @@
   "scan_summary": null,
   "repo_status": "unavailable",
   "repo_check_date": "2026-02-28T20:53:06.744271+00:00",
-  "repo_check_error": "remote: Repository not found.\nfatal: repository 'https://github.com/Markusbetter/vision-mcp-server-|-图片分析-mcp/' not found"
+  "repo_check_error": "remote: Repository not found.\nfatal: repository 'https://github.com/Markusbetter/vision-mcp-server-|-\u56fe\u7247\u5206\u6790-mcp/' not found"
 }

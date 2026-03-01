@@ -1,7 +1,7 @@
 {
   "id": "mcp-github-server-bf2eaeb7",
   "name": "mcp-github-server",
-  "description": "GitHub APIを使用したModel Context Protocolサーバーの実装",
+  "description": "GitHub API\u3092\u4f7f\u7528\u3057\u305fModel Context Protocol\u30b5\u30fc\u30d0\u30fc\u306e\u5b9f\u88c5",
   "repo_url": "https://github.com/emrum01/mcp-github-server",
   "source_hub": "mcp_so",
   "owner": "emrum01",
@@ -10,7 +10,8 @@
   "tags": [
     "data-ai",
     "data-ai-nlp",
-    "integ"
+    "integ",
+    "integrations-github"
   ],
   "verification_status": "pass",
   "overall_score": 85,

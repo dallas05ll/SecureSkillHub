@@ -11,13 +11,13 @@
   "description": "GitHub's official MCP Server connecting AI tools to GitHub for repo management, issues, PRs, CI/CD, and code analysis via natural language.",
   "primary_language": "Go",
   "tags": [
+    "status-manual_review",
     "data-ai",
     "data-ai-nlp",
     "dev",
     "dev-devops-ci",
     "integ",
-    "util",
-    "status-manual_review"
+    "util"
   ],
   "findings_summary": {
     "scanner_findings": 10,

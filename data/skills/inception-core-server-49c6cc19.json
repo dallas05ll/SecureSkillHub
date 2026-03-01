@@ -1,7 +1,7 @@
 {
   "id": "inception-core-server-49c6cc19",
   "name": "inception-core-server",
-  "description": "Model–Context–Protocol (MCP) Server A modular, extensible Rust-based server providing short-term, long-term, and latent memory services, a chat endpoint backed by a BaseAgent + Sentience DSL, and seamless integration with ChromaDB and LLM services.",
+  "description": "Model\u2013Context\u2013Protocol (MCP) Server A modular, extensible Rust-based server providing short-term, long-term, and latent memory services, a chat endpoint backed by a BaseAgent + Sentience DSL, and seamless integration with ChromaDB and LLM services.",
   "repo_url": "https://github.com/nbursa/inception-core-server",
   "source_hub": "mcp_so",
   "owner": "nbursa",

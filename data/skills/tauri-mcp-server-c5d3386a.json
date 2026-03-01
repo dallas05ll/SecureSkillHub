@@ -1,20 +1,23 @@
 {
   "id": "tauri-mcp-server-c5d3386a",
   "name": "tauri-mcp-server",
-  "description": "Build, test, debug, and interact with desktop and mobile applications with the Tauri framework.\r\n\r\n Screenshots, DOM state, and console logs from your running app give the AI rich context to understand what's happening—and tools to interact with it.",
+  "description": "Build, test, debug, and interact with desktop and mobile applications with the Tauri framework.\r\n\r\n Screenshots, DOM state, and console logs from your running app give the AI rich context to understand what's happening\u2014and tools to interact with it.",
   "repo_url": "https://github.com/hypothesi/tauri-mcp-server",
   "source_hub": "mcp_so",
   "owner": "hypothesi",
   "stars": 0,
   "primary_language": "unknown",
   "tags": [
+    "repo_unavailable",
     "data-ai",
     "data-ai-nlp",
     "data-ai-vision",
     "dev",
+    "dev-desktop",
+    "dev-desktop-tauri",
+    "dev-mobile",
     "dev-testing",
-    "util",
-    "repo_unavailable"
+    "util"
   ],
   "verification_status": "unverified",
   "overall_score": 0,

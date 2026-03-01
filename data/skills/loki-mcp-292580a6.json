@@ -8,12 +8,12 @@
   "stars": 91,
   "primary_language": "unknown",
   "tags": [
+    "status-fail",
     "data-ai",
-    "data-ai-nlp",
-    "status-fail"
+    "data-ai-nlp"
   ],
   "verification_status": "fail",
-  "overall_score": 100,
+  "overall_score": 66,
   "risk_level": "high",
   "verified_commit": "c8148563dd268126314e008fc1dc71930b6c7b61",
   "scan_summary": {
@@ -22,7 +22,7 @@
     "severity_counts": {},
     "category_counts": {}
   },
-  "scan_date": "2026-03-01T06:02:57Z",
+  "scan_date": "2026-03-01T06:32:49Z",
   "findings_summary": {
     "scanner_findings": 17,
     "dangerous_calls": 0,
@@ -34,16 +34,16 @@
     "mismatches": 0,
     "undocumented_capabilities": 0,
     "supervisor_approved": false,
-    "supervisor_confidence": 95,
+    "supervisor_confidence": 66,
     "pm_review": {
-      "reviewed_at": "2026-03-01T06:14:16Z",
+      "reviewed_at": "2026-03-01T06:33:25Z",
       "reviewer": "pm_dual_agent",
       "previous_status": "manual_review",
       "decision": "fail",
       "reason": "PM final decision: fail due to high-risk scanner findings.",
-      "mode": "run-report",
+      "mode": "skill-ids",
       "evidence": {
-        "score": 100,
+        "score": 66,
         "risk_level": "high",
         "high_findings": 17,
         "critical_findings": 0,
@@ -57,10 +57,10 @@
   "agent_audit": {
     "agents_completed": 5,
     "agents_required": 5,
-    "pipeline_run_at": "2026-03-01T06:02:57Z",
+    "pipeline_run_at": "2026-03-01T06:32:49Z",
     "agent_a": {
       "signed": true,
-      "signed_at": "2026-03-01T06:02:57Z",
+      "signed_at": "2026-03-01T06:32:49Z",
       "comment": "Docs quality 9/10. README present. 12 features, 4 permissions claimed.",
       "doc_quality_score": 9,
       "claimed_permissions": [
@@ -72,14 +72,14 @@
     },
     "agent_b": {
       "signed": true,
-      "signed_at": "2026-03-01T06:02:57Z",
+      "signed_at": "2026-03-01T06:32:49Z",
       "comment": "15 files analyzed. Found: 0 network, 0 file, 0 env, 0 system calls. Primary: unknown.",
       "files_analyzed": 15,
       "capabilities_found": []
     },
     "agent_c_star": {
       "signed": true,
-      "signed_at": "2026-03-01T06:02:57Z",
+      "signed_at": "2026-03-01T06:32:49Z",
       "comment": "17 findings: 0 critical, 17 high, 0 medium, 0 low. No obfuscation. No injection.",
       "total_findings": 17,
       "severity_counts": {
@@ -92,20 +92,20 @@
     },
     "agent_d": {
       "signed": true,
-      "signed_at": "2026-03-01T06:02:57Z",
-      "comment": "Score 100. 0 mismatches. Risk: high. Safety overrides: none triggered.",
-      "score": 100,
+      "signed_at": "2026-03-01T06:32:49Z",
+      "comment": "Score 66. 0 mismatches. Risk: high. Safety overrides: none triggered.",
+      "score": 66,
       "mismatches": 0,
       "safety_overrides_applied": false
     },
     "agent_e": {
       "signed": true,
-      "signed_at": "2026-03-01T06:02:57Z",
-      "comment": "Rejected. Confidence 95%. No overrides.",
+      "signed_at": "2026-03-01T06:32:49Z",
+      "comment": "Rejected. Confidence 66%. No overrides.",
       "approved": false,
-      "confidence": 95,
+      "confidence": 66,
       "override_reason": null
     },
-    "manager_summary": "5/5 agents completed. Score: 100/100, Risk: high. 0 mismatches, 17 scanner findings. Rejected at 95% confidence. No safety overrides.\n[2026-03-01T06:14:16Z] PM review: fail. PM final decision: fail due to high-risk scanner findings."
+    "manager_summary": "5/5 agents completed. Score: 66/100, Risk: high. 0 mismatches, 17 scanner findings. Rejected at 66% confidence. No safety overrides.\n[2026-03-01T06:33:25Z] PM review: fail. PM final decision: fail due to high-risk scanner findings."
   }
 }

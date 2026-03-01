@@ -11,13 +11,13 @@
   "description": "Go implementation of the Model Context Protocol (MCP), enabling LLM integration with external data sources and tools.",
   "primary_language": "Go",
   "tags": [
+    "status-manual_review",
     "data",
     "data-ai",
     "data-ai-nlp",
     "dev-web-backend-go",
     "integ",
-    "util",
-    "status-manual_review"
+    "util"
   ],
   "findings_summary": {
     "scanner_findings": 4,

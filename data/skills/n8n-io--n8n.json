@@ -11,11 +11,11 @@
   "description": "Fair-code workflow automation platform with native AI capabilities, 400+ integrations, visual builder, self-hostable. Includes MCP client and server nodes.",
   "primary_language": "TypeScript",
   "tags": [
+    "status-fail",
     "data-ai",
     "dev",
     "integ",
-    "prod",
-    "status-fail"
+    "prod"
   ],
   "findings_summary": {
     "scanner_findings": 2583,

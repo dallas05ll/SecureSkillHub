@@ -1,7 +1,7 @@
 {
   "id": "the-startup-a05ce95e",
   "name": "the-startup",
-  "description": "Multi-agent AI framework for Claude Code that implements a startup team structure. Provides spec-driven development (PRD → SDD → Implementation Plan → Code), parallel specialist agent execution, and 10 slash commands across 3 phases. Includes a shell-based installer and statusline component.",
+  "description": "Multi-agent AI framework for Claude Code that implements a startup team structure. Provides spec-driven development (PRD \u2192 SDD \u2192 Implementation Plan \u2192 Code), parallel specialist agent execution, and 10 slash commands across 3 phases. Includes a shell-based installer and statusline component.",
   "repo_url": "https://github.com/rsmdt/the-startup",
   "source_hub": "github_search",
   "skill_type": "agent_skill",
@@ -11,7 +11,8 @@
   "primary_language": "Shell",
   "tags": [
     "data-ai",
-    "dev"
+    "dev",
+    "dev-agents"
   ],
   "verification_status": "pass",
   "overall_score": 80,

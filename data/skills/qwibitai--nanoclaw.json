@@ -11,10 +11,11 @@
   "description": "Lightweight AI assistant running Claude agents in isolated containers. Supports WhatsApp, Telegram, Discord, Slack, and agent swarms.",
   "primary_language": "TypeScript",
   "tags": [
+    "status-manual_review",
     "data-ai",
     "dev-devops-docker",
-    "prod-comm",
-    "status-manual_review"
+    "integrations-slack",
+    "prod-comm"
   ],
   "findings_summary": {
     "scanner_findings": 550,

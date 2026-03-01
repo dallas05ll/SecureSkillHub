@@ -11,10 +11,10 @@
   "description": "Memory framework for 24/7 proactive AI agents. Structured file-system-like memory with intent capture and cross-session persistence.",
   "primary_language": "Python",
   "tags": [
+    "status-manual_review",
     "data-ai",
     "prod-notes",
-    "util-file",
-    "status-manual_review"
+    "util-file"
   ],
   "findings_summary": {
     "scanner_findings": 203,

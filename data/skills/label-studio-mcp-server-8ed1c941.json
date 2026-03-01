@@ -1,18 +1,19 @@
 {
   "id": "label-studio-mcp-server-8ed1c941",
   "name": "label-studio-mcp-server",
-  "description": "The Label Studio MCP enables seamless management and orchestration of data labeling workflows within Label Studio, the leading open-source data annotation platform. With this MCP, users can programmatically create and configure labeling projects, manage tasks at scale, and automate prediction workflows—empowering teams to efficiently curate high-quality training data for machine learning and AI initiatives.",
+  "description": "The Label Studio MCP enables seamless management and orchestration of data labeling workflows within Label Studio, the leading open-source data annotation platform. With this MCP, users can programmatically create and configure labeling projects, manage tasks at scale, and automate prediction workflows\u2014empowering teams to efficiently curate high-quality training data for machine learning and AI initiatives.",
   "repo_url": "https://github.com/Human Signal/label-studio-mcp-server",
   "source_hub": "mcp_so",
   "owner": "Human Signal",
   "stars": 0,
   "primary_language": "unknown",
   "tags": [
+    "repo_unavailable",
     "data",
     "data-ai",
+    "data-ml",
     "prod",
-    "prod-pm",
-    "repo_unavailable"
+    "prod-pm"
   ],
   "verification_status": "unverified",
   "overall_score": 0,

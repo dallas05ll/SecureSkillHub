@@ -24,7 +24,7 @@
     "has_security_policy": false,
     "has_mcp_server": false,
     "dangerous_patterns": [
-      "hooks/hooks.json registers PreToolUse, PostToolUse, Stop, and SubagentStop hooks for ralph-guard.py — only active when FLOW_RALPH=1 env var is set",
+      "hooks/hooks.json registers PreToolUse, PostToolUse, Stop, and SubagentStop hooks for ralph-guard.py \u2014 only active when FLOW_RALPH=1 env var is set",
       "ralph-guard.py is a conditional guard script (not examined in full, but hook is gated by env var and file existence check)"
     ],
     "notes": "Mature, well-documented plugin from Gordon Mickel (mickel.tech). The flow-next plugin includes 16 SKILL.md files (browser, flow-next-deps, flow-next-epic-review, flow-next-export-context, flow-next-impl-review, etc.), 11 commands, and 20 subagents. The hooks.json guards ralph-guard.py behind two conditions: the file must exist at scripts/ralph/hooks/ralph-guard.py AND the FLOW_RALPH=1 env var must be set. This is a responsible opt-in pattern. The plugin also uses a .flow/ task tracking system with JSON epics. Extensive documentation. Active project (v0.24.0). MIT licensed. Score reflects hook presence requiring trust evaluation, but the gating mechanism and transparency earn passing status."

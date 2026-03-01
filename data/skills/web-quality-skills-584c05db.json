@@ -24,7 +24,7 @@
     "has_security_policy": false,
     "has_mcp_server": false,
     "dangerous_patterns": [],
-    "notes": "Excellent quality skill collection by Addy Osmani (Google Chrome team). Six well-structured SKILL.md files with clear descriptions and usage triggers. The single shell script (skills/web-quality-audit/scripts/analyze.sh) is a static HTML analyzer that reads local files and outputs JSON — no network calls, no system modifications, no package installs. Includes reference documentation (WCAG.md, LCP.md) alongside skills. AGENTS.md and CLAUDE.md present for agent context. MIT licensed. No hooks, no dangerous patterns. High trust due to authoritative author. Minor gap: no security policy. Best example of clean skill design in this batch."
+    "notes": "Excellent quality skill collection by Addy Osmani (Google Chrome team). Six well-structured SKILL.md files with clear descriptions and usage triggers. The single shell script (skills/web-quality-audit/scripts/analyze.sh) is a static HTML analyzer that reads local files and outputs JSON \u2014 no network calls, no system modifications, no package installs. Includes reference documentation (WCAG.md, LCP.md) alongside skills. AGENTS.md and CLAUDE.md present for agent context. MIT licensed. No hooks, no dangerous patterns. High trust due to authoritative author. Minor gap: no security policy. Best example of clean skill design in this batch."
   },
   "scan_summary": null,
   "last_updated": "2026-02-25T23:02:37Z",

@@ -7,10 +7,12 @@
   "owner": "antfu",
   "stars": 7200,
   "primary_language": "unknown",
-  "tags": [],
-  "verification_status": "pass",
-  "overall_score": 85,
-  "risk_level": "info",
+  "tags": [
+    "status-fail"
+  ],
+  "verification_status": "fail",
+  "overall_score": 0,
+  "risk_level": "critical",
   "verified_commit": "3fb90f01f5298b00de0a2500aab1ddd1357e6eb2",
   "scan_summary": {
     "total_findings": 0,
@@ -18,6 +20,76 @@
     "severity_counts": {},
     "category_counts": {}
   },
-  "scan_date": "2026-02-28T03:54:02Z",
-  "verification_level": "scanner_only"
+  "scan_date": "2026-03-01T07:21:38Z",
+  "verification_level": "full_pipeline",
+  "findings_summary": {
+    "scanner_findings": 126,
+    "dangerous_calls": 10,
+    "network_ops": 65,
+    "file_ops": 14,
+    "env_access": 26,
+    "obfuscation": 0,
+    "injection_patterns": 1,
+    "mismatches": 0,
+    "undocumented_capabilities": 0,
+    "supervisor_approved": false,
+    "supervisor_confidence": 95
+  },
+  "agent_audit": {
+    "agents_completed": 5,
+    "agents_required": 5,
+    "pipeline_run_at": "2026-03-01T07:21:38Z",
+    "agent_a": {
+      "signed": true,
+      "signed_at": "2026-03-01T07:21:38Z",
+      "comment": "Docs quality 10/10. README present. 12 features, 4 permissions claimed.",
+      "doc_quality_score": 10,
+      "claimed_permissions": [
+        "network access",
+        "system command execution",
+        "file system access",
+        "environment/secret access"
+      ]
+    },
+    "agent_b": {
+      "signed": true,
+      "signed_at": "2026-03-01T07:21:38Z",
+      "comment": "7 files analyzed. Found: 0 network, 0 file, 0 env, 6 system calls. Primary: unknown.",
+      "files_analyzed": 7,
+      "capabilities_found": [
+        "imports external dependencies",
+        "executes system commands"
+      ]
+    },
+    "agent_c_star": {
+      "signed": true,
+      "signed_at": "2026-03-01T07:21:38Z",
+      "comment": "126 findings: 1 critical, 20 high, 91 medium, 14 low. No obfuscation. Injection patterns found!.",
+      "total_findings": 126,
+      "severity_counts": {
+        "critical": 1,
+        "high": 20,
+        "medium": 91,
+        "low": 14,
+        "info": 0
+      }
+    },
+    "agent_d": {
+      "signed": true,
+      "signed_at": "2026-03-01T07:21:38Z",
+      "comment": "Score 0. 0 mismatches. Risk: critical. Safety overrides: applied.",
+      "score": 0,
+      "mismatches": 0,
+      "safety_overrides_applied": true
+    },
+    "agent_e": {
+      "signed": true,
+      "signed_at": "2026-03-01T07:21:38Z",
+      "comment": "Rejected. Confidence 95%. Deterministic override: injection patterns detected.",
+      "approved": false,
+      "confidence": 95,
+      "override_reason": "Deterministic override: injection patterns detected."
+    },
+    "manager_summary": "5/5 agents completed. Score: 0/100, Risk: critical. 0 mismatches, 126 scanner findings. Rejected at 95% confidence. Safety overrides triggered."
+  }
 }

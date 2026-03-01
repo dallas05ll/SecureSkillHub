@@ -1,7 +1,7 @@
 {
   "id": "git-jira-mcp-server-135e83e7",
   "name": "git-jira-mcp-server",
-  "description": "这是一个用于获取 Jira 需求信息的 MCP 服务器，基于当前 Git 分支名自动获取对应的 Jira 需求详情。",
+  "description": "\u8fd9\u662f\u4e00\u4e2a\u7528\u4e8e\u83b7\u53d6 Jira \u9700\u6c42\u4fe1\u606f\u7684 MCP \u670d\u52a1\u5668\uff0c\u57fa\u4e8e\u5f53\u524d Git \u5206\u652f\u540d\u81ea\u52a8\u83b7\u53d6\u5bf9\u5e94\u7684 Jira \u9700\u6c42\u8be6\u60c5\u3002",
   "repo_url": "https://github.com/1pone/git-jira-mcp-server",
   "source_hub": "mcp_so",
   "owner": "1pone",
@@ -9,6 +9,7 @@
   "primary_language": "unknown",
   "tags": [
     "dev-git",
+    "integrations-jira",
     "prod-pm"
   ],
   "verification_status": "pass",

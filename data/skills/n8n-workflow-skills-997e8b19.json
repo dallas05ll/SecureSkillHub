@@ -34,7 +34,7 @@
   "verified_commit": null,
   "scan_summary": null,
   "findings_summary": {
-    "notes": "Well-structured TypeScript project (Oct 2025) for generating n8n skill packs. Clean source layout (src/analyzers, src/collectors, src/generators, src/organizers, src/parsers). Has CLAUDE.md, CODE_OF_CONDUCT.md, SECURITY.md, CONTRIBUTING.md, ATTRIBUTIONS.md — all in English and Traditional Chinese. Has proper Jest test config. SECURITY.md present indicating security awareness. ATTRIBUTIONS.md credits the n8n-mcp project this is built on. The project generates SKILL.md files with node documentation — no code execution at runtime. License is 'Other' (NOASSERTION) — this warrants attention but the ATTRIBUTIONS file suggests licensing is acknowledged. No hooks, no install scripts, no dangerous patterns. Note: actual star count (215) slightly higher than recorded (194)."
+    "notes": "Well-structured TypeScript project (Oct 2025) for generating n8n skill packs. Clean source layout (src/analyzers, src/collectors, src/generators, src/organizers, src/parsers). Has CLAUDE.md, CODE_OF_CONDUCT.md, SECURITY.md, CONTRIBUTING.md, ATTRIBUTIONS.md \u2014 all in English and Traditional Chinese. Has proper Jest test config. SECURITY.md present indicating security awareness. ATTRIBUTIONS.md credits the n8n-mcp project this is built on. The project generates SKILL.md files with node documentation \u2014 no code execution at runtime. License is 'Other' (NOASSERTION) \u2014 this warrants attention but the ATTRIBUTIONS file suggests licensing is acknowledged. No hooks, no install scripts, no dangerous patterns. Note: actual star count (215) slightly higher than recorded (194)."
   },
   "verification_date": "2026-02-25",
   "trust_level": "medium",

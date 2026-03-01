@@ -1,18 +1,18 @@
 {
   "id": "usensedata-mcp-server-c42ab1ce",
   "name": "usensedata-mcp-server",
-  "description": "羽山数据API服务现已全面兼容MCP协议，打造数据服务MCP Server。usensedata-mcp-server-query-china-company项目为企业类数据查询服务server，用户可通过简单配置快速通过LLM使用羽山数据企业类数据服务。依赖MCP Typescript SDK，可在支持MCP协议的智能体助手中快速接入。",
+  "description": "\u7fbd\u5c71\u6570\u636eAPI\u670d\u52a1\u73b0\u5df2\u5168\u9762\u517c\u5bb9MCP\u534f\u8bae\uff0c\u6253\u9020\u6570\u636e\u670d\u52a1MCP Server\u3002usensedata-mcp-server-query-china-company\u9879\u76ee\u4e3a\u4f01\u4e1a\u7c7b\u6570\u636e\u67e5\u8be2\u670d\u52a1server\uff0c\u7528\u6237\u53ef\u901a\u8fc7\u7b80\u5355\u914d\u7f6e\u5feb\u901f\u901a\u8fc7LLM\u4f7f\u7528\u7fbd\u5c71\u6570\u636e\u4f01\u4e1a\u7c7b\u6570\u636e\u670d\u52a1\u3002\u4f9d\u8d56MCP Typescript SDK\uff0c\u53ef\u5728\u652f\u6301MCP\u534f\u8bae\u7684\u667a\u80fd\u4f53\u52a9\u624b\u4e2d\u5feb\u901f\u63a5\u5165\u3002",
   "repo_url": "https://github.com/usensedata/usensedata-mcp-server",
   "source_hub": "mcp_so",
   "owner": "usensedata",
   "stars": 0,
   "primary_language": "unknown",
   "tags": [
+    "repo_unavailable",
     "data",
     "data-ai",
     "dev",
-    "integ",
-    "repo_unavailable"
+    "integ"
   ],
   "verification_status": "unverified",
   "overall_score": 0,

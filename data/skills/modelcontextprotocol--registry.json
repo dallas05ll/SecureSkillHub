@@ -5,23 +5,87 @@
   "repo_url": "https://github.com/modelcontextprotocol/registry",
   "source_hub": "github_search",
   "stars": 6473,
-  "verification_status": "pass",
-  "overall_score": 95,
-  "risk_level": "low",
+  "verification_status": "fail",
+  "overall_score": 6,
+  "risk_level": "high",
   "description": "Community-driven registry service for MCP servers, providing app-store-like directory with publishing, validation, and auth.",
   "primary_language": "Go",
   "tags": [
     "prod-comm",
-    "sec"
+    "sec",
+    "status-fail"
   ],
   "findings_summary": {
-    "has_readme": true,
-    "has_security_policy": true,
-    "has_mcp_server": true,
-    "dangerous_patterns": [],
-    "notes": "Official MCP org. Maintainers from Anthropic, GitHub, PulseMCP, Stacklok. GitHub OAuth/OIDC/DNS auth. SECURITY.md present."
+    "scanner_findings": 32,
+    "dangerous_calls": 14,
+    "network_ops": 0,
+    "file_ops": 0,
+    "env_access": 0,
+    "obfuscation": 7,
+    "injection_patterns": 0,
+    "mismatches": 0,
+    "undocumented_capabilities": 0,
+    "supervisor_approved": false,
+    "supervisor_confidence": 50
   },
   "trust_level": "low",
-  "scan_date": "2026-02-26T03:00:50Z",
-  "verification_level": "scanner_only"
+  "scan_date": "2026-03-01T07:21:40Z",
+  "verification_level": "full_pipeline",
+  "verified_commit": "bb84ea69e810ad1c9a1cde6760dacfc0890f8848",
+  "agent_audit": {
+    "agents_completed": 5,
+    "agents_required": 5,
+    "pipeline_run_at": "2026-03-01T07:21:40Z",
+    "agent_a": {
+      "signed": true,
+      "signed_at": "2026-03-01T07:21:40Z",
+      "comment": "Docs quality 9/10. README present. 12 features, 4 permissions claimed.",
+      "doc_quality_score": 9,
+      "claimed_permissions": [
+        "network access",
+        "system command execution",
+        "file system access",
+        "environment/secret access"
+      ]
+    },
+    "agent_b": {
+      "signed": true,
+      "signed_at": "2026-03-01T07:21:40Z",
+      "comment": "148 files analyzed. Found: 5 network, 0 file, 0 env, 0 system calls. Primary: go.",
+      "files_analyzed": 148,
+      "capabilities_found": [
+        "performs network operations"
+      ]
+    },
+    "agent_c_star": {
+      "signed": true,
+      "signed_at": "2026-03-01T07:21:40Z",
+      "comment": "32 findings: 0 critical, 32 high, 0 medium, 0 low. Obfuscation detected!. No injection.",
+      "total_findings": 32,
+      "severity_counts": {
+        "critical": 0,
+        "high": 32,
+        "medium": 0,
+        "low": 0,
+        "info": 0
+      }
+    },
+    "agent_d": {
+      "signed": true,
+      "signed_at": "2026-03-01T07:21:40Z",
+      "comment": "Score 6. 0 mismatches. Risk: high. Safety overrides: none triggered.",
+      "score": 6,
+      "mismatches": 0,
+      "safety_overrides_applied": false
+    },
+    "agent_e": {
+      "signed": true,
+      "signed_at": "2026-03-01T07:21:40Z",
+      "comment": "Rejected. Confidence 50%. No overrides.",
+      "approved": false,
+      "confidence": 50,
+      "override_reason": null
+    },
+    "manager_summary": "5/5 agents completed. Score: 6/100, Risk: high. 0 mismatches, 32 scanner findings. Rejected at 50% confidence. No safety overrides."
+  }
 }

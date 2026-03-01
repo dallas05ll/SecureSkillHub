@@ -13,6 +13,7 @@
     "data",
     "data-ai",
     "dev",
+    "dev-agents",
     "integ",
     "prod",
     "sec-scan",
@@ -22,7 +23,7 @@
   "overall_score": 78,
   "risk_level": "low",
   "findings_summary": {
-    "notes": "Legitimate ASO automation skill with a proper SKILL.md, Python utility scripts (keyword_analyzer.py, competitor_analyzer.py, metadata_optimizer.py, aso_scorer.py, etc.), and well-structured documentation. Uses iTunes Search API (free, official) and WebFetch for competitor data. No hooks or dangerous scripts found. License is listed as 'Other' — the LICENSE.md file exists but is non-standard. Description in the existing record mentions 'AEO Automation Framework for GitHub' which is inaccurate; the tool is actually ASO (App Store Optimization) focused on iOS/Android. Scripts appear to be data processing utilities, no network exfiltration patterns. Minor concern: license clarity. Active repo (Nov 2025 creation, updated Feb 2026)."
+    "notes": "Legitimate ASO automation skill with a proper SKILL.md, Python utility scripts (keyword_analyzer.py, competitor_analyzer.py, metadata_optimizer.py, aso_scorer.py, etc.), and well-structured documentation. Uses iTunes Search API (free, official) and WebFetch for competitor data. No hooks or dangerous scripts found. License is listed as 'Other' \u2014 the LICENSE.md file exists but is non-standard. Description in the existing record mentions 'AEO Automation Framework for GitHub' which is inaccurate; the tool is actually ASO (App Store Optimization) focused on iOS/Android. Scripts appear to be data processing utilities, no network exfiltration patterns. Minor concern: license clarity. Active repo (Nov 2025 creation, updated Feb 2026)."
   },
   "verification_date": "2026-02-25",
   "trust_level": "low",

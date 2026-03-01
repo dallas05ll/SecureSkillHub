@@ -102,6 +102,7 @@ CLAIM_SYSTEM = {"shell", "command", "exec", "subprocess", "system"}
 CLAIM_FILE = {"file", "filesystem", "read", "write", "storage"}
 CLAIM_ENV = {"env", "environment", "token", "secret", "credential", "key"}
 STATUS_TAG_PREFIX = "status-"
+NOT_REACHABLE_TAG = "not_reachable"
 
 
 @dataclass
@@ -413,6 +414,11 @@ def run_agent_d(agent_a: AgentAOutput, agent_b: AgentBOutput, scanner: ScannerOu
 
     sev = severity_counts(scanner)
 
+    # Apply scanner-driven penalty so score reflects detected security findings,
+    # not only doc/code mismatch quality.
+    scanner_penalty = (sev["high"] * 2) + sev["medium"] + (sev["low"] // 2)
+    score -= scanner_penalty
+
     risk = ScanSeverity.INFO
     if sev["critical"] > 0:
         risk = ScanSeverity.CRITICAL
@@ -452,7 +458,8 @@ def run_agent_d(agent_a: AgentAOutput, agent_b: AgentBOutput, scanner: ScannerOu
 
     summary = (
         f"Deterministic scoring: score={score}, status={status.value}, risk={risk.value}. "
-        f"Mismatches={len(mismatches)}, undocumented={len(undocumented)}, scanner_findings={len(scanner.findings)}."
+        f"Mismatches={len(mismatches)}, undocumented={len(undocumented)}, scanner_findings={len(scanner.findings)}, "
+        f"scanner_penalty={scanner_penalty}."
     )
 
     return ScorerOutput(
@@ -694,6 +701,8 @@ def update_skill_file(
     tags = [str(t) for t in tags if not str(t).startswith(STATUS_TAG_PREFIX)]
     if ensure_repo_unavailable_tag and "repo_unavailable" not in tags:
         tags.append("repo_unavailable")
+    if ensure_repo_unavailable_tag and NOT_REACHABLE_TAG not in tags:
+        tags.append(NOT_REACHABLE_TAG)
     tags.append(f"{STATUS_TAG_PREFIX}{normalized_status}")
     data["tags"] = list(dict.fromkeys(tags))
     if primary_language and (not data.get("primary_language") or data.get("primary_language") == "unknown"):
@@ -875,7 +884,7 @@ def has_repo_unavailable_tag(tags: Any) -> bool:
     if not isinstance(tags, list):
         return False
     tag_set = {str(t) for t in tags}
-    return "repo_unavailable" in tag_set or "clone_failure" in tag_set
+    return "repo_unavailable" in tag_set or "clone_failure" in tag_set or NOT_REACHABLE_TAG in tag_set
 
 
 def load_candidates(

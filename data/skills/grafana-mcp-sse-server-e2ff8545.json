@@ -1,21 +1,21 @@
 {
   "id": "grafana-mcp-sse-server-e2ff8545",
   "name": "Grafana MCP SSE Server",
-  "description": "Grafana SSE Server provides an easy way to query Grafana dashboards and panels using the MCP — enabling natural language querying, monitoring dashboards, and real-time data extraction.\n\nsudo docker run -p 8010:8010 \\\n  -e GRAFANA_API_KEY=\"YOUR_KEY\" \\\n  -e GRAFANA_URL=\"https://grafana.example.com\" \\\n  aimiox/amx-mcp-grafana:latest",
+  "description": "Grafana SSE Server provides an easy way to query Grafana dashboards and panels using the MCP \u2014 enabling natural language querying, monitoring dashboards, and real-time data extraction.\n\nsudo docker run -p 8010:8010 \\\n  -e GRAFANA_API_KEY=\"YOUR_KEY\" \\\n  -e GRAFANA_URL=\"https://grafana.example.com\" \\\n  aimiox/amx-mcp-grafana:latest",
   "repo_url": "https://github.com/aimiox/Grafana MCP SSE Server",
   "source_hub": "mcp_so",
   "owner": "aimiox",
   "stars": 0,
   "primary_language": "unknown",
   "tags": [
+    "repo_unavailable",
     "data",
     "data-ai",
     "data-ai-nlp",
     "dev-devops-docker",
     "dev-testing",
     "integ",
-    "util-monitor",
-    "repo_unavailable"
+    "util-monitor"
   ],
   "verification_status": "unverified",
   "overall_score": 0,

@@ -1,24 +1,31 @@
 {
   "id": "baidu-map-f82915b9",
   "name": "baidu-map",
-  "description": "百度地图核心API现已全面兼容MCP协议，是国内首家兼容MCP协议的地图服务商。",
+  "description": "\u767e\u5ea6\u5730\u56fe\u6838\u5fc3API\u73b0\u5df2\u5168\u9762\u517c\u5bb9MCP\u534f\u8bae\uff0c\u662f\u56fd\u5185\u9996\u5bb6\u517c\u5bb9MCP\u534f\u8bae\u7684\u5730\u56fe\u670d\u52a1\u5546\u3002",
   "repo_url": "https://github.com/baidu-maps/baidu-map",
   "source_hub": "mcp_so",
   "owner": "baidu-maps",
   "stars": 0,
   "primary_language": "unknown",
   "tags": [
+    "repo_unavailable",
+    "status-manual_review",
     "data-ai",
     "integ",
-    "util-map",
-    "repo_unavailable"
+    "util-map"
   ],
-  "verification_status": "unverified",
+  "verification_status": "manual_review",
   "overall_score": 0,
-  "risk_level": "info",
-  "verified_commit": null,
+  "risk_level": "high",
+  "verified_commit": "",
   "scan_summary": null,
   "repo_status": "unavailable",
-  "repo_check_date": "2026-02-28T20:51:22.324424+00:00",
-  "repo_check_error": "fatal: could not read Username for 'https://github.com': Device not configured"
+  "repo_check_date": "2026-03-01T06:36:26Z",
+  "repo_check_error": "Cloning into '/var/folders/pq/bb71gjzd01d29nnmqrhqr2rc0000gn/T/strict5_baidu-map-f82915b9_8zwwbzsb/repo'...\nfatal: could not read Username for 'https://github.com': Device not configured",
+  "scan_date": "2026-03-01T06:36:26Z",
+  "findings_summary": {
+    "error": "clone failed: Cloning into '/var/folders/pq/bb71gjzd01d29nnmqrhqr2rc0000gn/T/strict5_baidu-map-f82915b9_8zwwbzsb/repo'...\nfatal: could not read Username for 'https://github.com': Device not configured",
+    "supervisor_approved": false,
+    "supervisor_confidence": 0
+  }
 }

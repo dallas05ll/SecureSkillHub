@@ -22,7 +22,7 @@
   "verified_commit": null,
   "scan_summary": "Large collection of 42 PM framework skills with Shell adapter scripts. License is CC BY-NC-SA 4.0 (non-commercial) which is noted. Shell scripts in /scripts are adapter helpers for packaging, not executed at runtime. Well-organized SKILL.md structure per skill. No network calls, no credential handling, no dangerous bash patterns found.",
   "findings_summary": {
-    "notes": "Solid PM skills collection with good documentation. Non-commercial license (CC BY-NC-SA 4.0) restricts commercial use — users should note this limitation. Shell scripts are packaging/tooling utilities only. Active maintenance visible from changelog. Minor: large repo size due to 42+ skill files."
+    "notes": "Solid PM skills collection with good documentation. Non-commercial license (CC BY-NC-SA 4.0) restricts commercial use \u2014 users should note this limitation. Shell scripts are packaging/tooling utilities only. Active maintenance visible from changelog. Minor: large repo size due to 42+ skill files."
   },
   "last_updated": "2026-02-25T20:19:58Z",
   "trust_level": "low",

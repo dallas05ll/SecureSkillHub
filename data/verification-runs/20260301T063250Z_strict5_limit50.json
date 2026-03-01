@@ -1,0 +1,20 @@
+{
+  "started_at": "2026-03-01T06:32:48Z",
+  "finished_at": "2026-03-01T06:32:50Z",
+  "skill_type": "all",
+  "selected_ids": [
+    "loki-mcp-292580a6"
+  ],
+  "selected_count": 1,
+  "group_count": 1,
+  "processed_count": 1,
+  "status_counts": {
+    "manual_review": 1
+  },
+  "stage_failures": {},
+  "retry_ids": [],
+  "remaining_unverified": 0,
+  "only_unverified": true,
+  "source": "*",
+  "include_repo_unavailable": false
+}

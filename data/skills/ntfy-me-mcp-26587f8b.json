@@ -1,19 +1,19 @@
 {
   "id": "ntfy-me-mcp-26587f8b",
   "name": "ntfy-me-mcp",
-  "description": "An ntfy MCP server for sending/fetching ntfy notifications to any/self-hosted ntfy.sh server from AI Agents 📤 (supports secure token auth & more - use with npx or docker!)",
+  "description": "An ntfy MCP server for sending/fetching ntfy notifications to any/self-hosted ntfy.sh server from AI Agents \ud83d\udce4 (supports secure token auth & more - use with npx or docker!)",
   "repo_url": "https://github.com/gitmotion/ntfy-me-mcp",
   "source_hub": "mcp_so",
   "owner": "gitmotion",
   "stars": 53,
   "primary_language": "typescript",
   "tags": [
+    "status-pass",
     "data-ai",
     "dev-devops-docker",
     "sec",
     "sec-crypto",
-    "util-search",
-    "status-pass"
+    "util-search"
   ],
   "verification_status": "pass",
   "overall_score": 85,

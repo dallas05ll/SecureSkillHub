@@ -1,7 +1,7 @@
 {
   "id": "agentic-search-cf980681",
   "name": "Agentic_search",
-  "description": "Learn how to: ✅ Build a file-search AI using natural language queries ✅ Create embeddings from local Linux files using Hugging Face models ✅ Integrate Gemini API (Google AI Studio) into your local apps ✅ Use MCP to control multiple agents with server-client architecture ✅ Apply cosine similarity, asyncio Python, and more!",
+  "description": "Learn how to: \u2705 Build a file-search AI using natural language queries \u2705 Create embeddings from local Linux files using Hugging Face models \u2705 Integrate Gemini API (Google AI Studio) into your local apps \u2705 Use MCP to control multiple agents with server-client architecture \u2705 Apply cosine similarity, asyncio Python, and more!",
   "repo_url": "https://github.com/Code-Trees/Agentic_search",
   "source_hub": "mcp_so",
   "owner": "Code-Trees",
@@ -11,6 +11,7 @@
     "data-ai",
     "data-ai-nlp",
     "data-db-vector",
+    "data-ml",
     "dev-web-backend-python",
     "integ",
     "util-file",

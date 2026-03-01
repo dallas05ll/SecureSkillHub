@@ -1,13 +1,14 @@
 {
   "id": "visual-studio-mcp-server-fb51c071",
   "name": "visual-studio-mcp-server",
-  "description": "MCP Server for Visual Studio bridges your IDE with AI coding assistants like Claude Code, Cursor, Windsurf, and Cline. \r\n\r\n  Unlike file-based tools, this extension provides what AI agents CAN'T do alone:\r\n  • IntelliSense & semantic code understanding (powered by Roslyn)\r\n  • Symbol search - definitions, usages, inheritance hierarchies\r\n  • Solution/project navigation and document outlines\r\n  • Build execution with clean, structured error output\r\n  • Async test execution with progress tracki...",
+  "description": "MCP Server for Visual Studio bridges your IDE with AI coding assistants like Claude Code, Cursor, Windsurf, and Cline. \r\n\r\n  Unlike file-based tools, this extension provides what AI agents CAN'T do alone:\r\n  \u2022 IntelliSense & semantic code understanding (powered by Roslyn)\r\n  \u2022 Symbol search - definitions, usages, inheritance hierarchies\r\n  \u2022 Solution/project navigation and document outlines\r\n  \u2022 Build execution with clean, structured error output\r\n  \u2022 Async test execution with progress tracki...",
   "repo_url": "https://github.com/Ladislav Sopko/visual-studio-mcp-server",
   "source_hub": "mcp_so",
   "owner": "Ladislav Sopko",
   "stars": 0,
   "primary_language": "unknown",
   "tags": [
+    "repo_unavailable",
     "data-ai",
     "dev",
     "dev-testing",
@@ -15,8 +16,7 @@
     "sec-crypto",
     "util",
     "util-file",
-    "util-search",
-    "repo_unavailable"
+    "util-search"
   ],
   "verification_status": "unverified",
   "overall_score": 0,

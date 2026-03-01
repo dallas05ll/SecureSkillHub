@@ -9,7 +9,7 @@ Verified skills in this catalog are analysed by a multi-agent verification pipel
 
 This file is the machine-readable entry point. If you are an AI agent helping a user discover skills, follow the instructions below.
 
-**Discovery**: This file is available at `/entry.md`. A machine-readable config is at `/.well-known/agent.json`. Do NOT parse `index.html` — it is a human-facing frontend.
+**Discovery**: This file is available at `entry.md` (relative to site root). A machine-readable config is at `.well-known/agent.json`. Do NOT parse `index.html` — it is a human-facing frontend.
 
 For repository operators: this file is discovery/API guidance, while executable verification operations live in `docs/workflows/verification.md`.
 
@@ -32,11 +32,11 @@ To filter by catalog, use the `skill_type` field on any skill object.
 ## Quick-start flow
 
 1. Ask the user: **"Are you looking for Agent Skills (expertise/workflows), MCP Servers (tool connections), or both?"**
-2. Fetch `/api/tags.json` to load the full category tree.
+2. Fetch `api/tags.json` to load the full category tree.
 3. Show the top-level categories as options.
 4. Navigate the **4-layer tag hierarchy**: Category -> Subcategory -> Specialization -> Stack.
-5. Use `/api/skills/by-tag/{tag}.json` for fast tag-filtered results (sorted by GitHub stars).
-6. Use `/api/skills/by-tier/{tier}.json` for popularity-based browsing (tier-1 = 1000+ stars).
+5. Use `api/skills/by-tag/{tag}.json` for fast tag-filtered results (sorted by GitHub stars).
+6. Use `api/skills/by-tier/{tier}.json` for popularity-based browsing (tier-1 = 1000+ stars).
 7. When the user selects a skill, fetch its detail file for the available security summary and metadata.
 
 ---
@@ -45,7 +45,7 @@ To filter by catalog, use the `skill_type` field on any skill object.
 
 All endpoints return JSON and are relative to the site root.
 
-### GET /api/tags.json
+### GET api/tags.json
 
 Full tag navigation tree. Structure:
 
@@ -57,7 +57,7 @@ Full tag navigation tree. Structure:
 
 Each `TagNode` has: `id`, `label`, `description`, `skill_count`, `children: [TagNode]`.
 
-### GET /api/skills/index.json
+### GET api/skills/index.json
 
 All skills (summarised), sorted by GitHub stars descending. Each entry:
 
@@ -72,7 +72,7 @@ The index includes enough fields for most use cases -- you only need to fetch in
 
 Use this to filter, sort, or search across all skills without fetching each detail file. The `verification_level` field (`full_pipeline`, `scanner_only`, `metadata_only`, or null) indicates verification depth.
 
-### GET /api/skills/by-tag/{tag_id}.json
+### GET api/skills/by-tag/{tag_id}.json
 
 Skills filtered by a specific tag, sorted by stars. Faster than loading the full index.
 
@@ -82,16 +82,16 @@ Skills filtered by a specific tag, sorted by stars. Faster than loading the full
   "skills": [ ... ] }
 ```
 
-**Tag discovery**: The tag tree (`/api/tags.json`) has 55 official hierarchical nodes. However, 345 by-tag files exist including informal source tags (e.g., `accessibility`, `agent-orchestration`). You can request any by-tag file directly if you know the tag name -- not all appear in the tree.
+**Tag discovery**: The tag tree (`api/tags.json`) has 55 official hierarchical nodes. However, 345 by-tag files exist including informal source tags (e.g., `accessibility`, `agent-orchestration`). You can request any by-tag file directly if you know the tag name -- not all appear in the tree.
 
-An additional meta-index is available at `/api/skills/by-tag/index.json` with three views:
+An additional meta-index is available at `api/skills/by-tag/index.json` with three views:
 - `tags`: per-tag statistics (total, verified, top_stars)
 - `by_category`: tags grouped by top-level category
 - `sorted_by_count`: all tags sorted by skill count descending
 
 Use this to discover available tags beyond the hierarchical tree.
 
-### GET /api/skills/by-tier/{tier}.json
+### GET api/skills/by-tier/{tier}.json
 
 Skills grouped by GitHub star tier:
 
@@ -103,7 +103,7 @@ Skills grouped by GitHub star tier:
 | `tier-4` | 1-9 | Standard |
 | `tier-5` | 0 | Low priority |
 
-### GET /api/skills/{id}.json
+### GET api/skills/{id}.json
 
 Full detail for a single skill including:
 
@@ -120,7 +120,7 @@ Full detail for a single skill including:
   - `agent_a` through `agent_e`: each has `signed` (bool), `signed_at` (ISO), `comment` (string)
   - Use this to assess verification depth and read individual agent assessments
 
-### GET /api/stats.json
+### GET api/stats.json
 
 Hub-wide statistics:
 
@@ -135,7 +135,7 @@ Hub-wide statistics:
 
 `verified_skills` counts only `full_pipeline` skills. Use `verification_tiers` for the full breakdown.
 
-### GET /api/search-index.json
+### GET api/search-index.json
 
 Lightweight search index for client-side fuzzy search. Each entry:
 
@@ -146,7 +146,7 @@ Lightweight search index for client-side fuzzy search. Each entry:
 
 Use this for fast filtering by score, verification status, or skill type without fetching detail files.
 
-### GET /api/packages/{tag_path}.json
+### GET api/packages/{tag_path}.json
 
 Pre-curated skill packages for a tag. Contains the top verified skills auto-curated by stars and score.
 
@@ -159,13 +159,13 @@ Use `skill_ids` to fetch detail files for each skill in the package.
 
 ### Agent-Optimized Indexes
 
-These endpoints provide pre-computed views optimized for agent workflows. All are under `/api/indexes/`.
+These endpoints provide pre-computed views optimized for agent workflows. All are under `api/indexes/`.
 
-#### GET /api/indexes/manifest.json
+#### GET api/indexes/manifest.json
 
 Lightweight manifest of all skills with core fields (`id`, `name`, `verification_status`, `verification_level`, `overall_score`, `stars`, `risk_level`, `repo_url`). Faster than loading the full index when you only need basic metadata.
 
-#### GET /api/indexes/by-status.json
+#### GET api/indexes/by-status.json
 
 Skills grouped by verification status. Structure:
 
@@ -182,15 +182,15 @@ Skills grouped by verification status. Structure:
 }
 ```
 
-#### GET /api/indexes/by-risk.json
+#### GET api/indexes/by-risk.json
 
 Skills grouped by risk level. Same structure as by-status but keyed by risk levels (`info`, `low`, `medium`, `high`, `critical`).
 
-#### GET /api/indexes/verify-queue.json
+#### GET api/indexes/verify-queue.json
 
 Unverified skills prioritized by star tier (`tier_1_1000plus` through `tier_5_0`). Use this to find the highest-impact skills that need verification.
 
-#### GET /api/indexes/lookup.json
+#### GET api/indexes/lookup.json
 
 Bucketed skill ID lookup by 2-character prefix. Use for O(1) skill existence checks without loading the full index.
 
@@ -213,7 +213,7 @@ Agent -> User:
 
 User: "Agent Skills for React development"
 
-Agent: (fetches /api/skills/by-tag/dev-web-frontend-react.json, filters skill_type=agent_skill)
+Agent: (fetches api/skills/by-tag/dev-web-frontend-react.json, filters skill_type=agent_skill)
 Agent -> User:
   "I found 2 verified React Agent Skills:
    1. claude-skills (Score: 82, 538 stars, verified) -- Claude Code skill packages
@@ -222,7 +222,7 @@ Agent -> User:
 
 User: "What MCP servers work well with React?"
 
-Agent: (fetches /api/skills/by-tag/dev-web-frontend-react.json, filters skill_type=mcp_server)
+Agent: (fetches api/skills/by-tag/dev-web-frontend-react.json, filters skill_type=mcp_server)
 Agent -> User:
   "Here are MCP servers tagged for React development:
    1. Figma-Context-MCP (Score: 82, 13248 stars, verified) -- Figma design context for AI coding
@@ -231,7 +231,7 @@ Agent -> User:
 
 User: "Show me database MCP servers"
 
-Agent: (fetches /api/skills/by-tag/data-db.json)
+Agent: (fetches api/skills/by-tag/data-db.json)
 Agent -> User:
   "Top database MCP servers (261 total, 21 verified):
    1. mcp-supabase (Score: 87, 2486 stars, verified) -- Supabase integration
@@ -336,7 +336,7 @@ If the user says "install my usual stack" or "set up my tools":
 - Skills with `verification_level: "metadata_only"` were not code-scanned — add a disclaimer when recommending these.
 - Always show the `risk_level` and `findings_summary` when recommending a skill.
 - If a skill is `updated_unverified`, warn the user that the code has changed since the last audit.
-- Use `/api/skills/by-tag/{tag}.json` for fast filtered results instead of loading the full index.
+- Use `api/skills/by-tag/{tag}.json` for fast filtered results instead of loading the full index.
 - Use the `skill_type` field to filter between Agent Skills and MCP Servers.
 - Tag IDs follow a hierarchical pattern: `category-subcategory-specialization-stack` (e.g., `dev-web-frontend-react`).
 - Star count indicates community adoption — higher stars = more widely used = higher verification priority.

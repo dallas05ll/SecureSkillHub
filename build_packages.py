@@ -126,11 +126,18 @@ def build_package_for_tag(
                     seen_repos.add(repo)
                 candidates.append(skill)
 
-    # Only include verified/passing skills, sorted by stars
+    # Quality floor: only include skills that meet curation standards.
+    # - verification_status must be "pass" or "manual_review"
+    # - risk_level must not be "critical"
+    # - overall_score must be >= 50
+    _CURATED_STATUSES = {"pass", "manual_review"}
     verified = [
         s for s in candidates
-        if s.get("verification_status") not in ("unverified", "fail", "")
-        and s.get("overall_score", 0) >= 50
+        if (
+            str(s.get("verification_status", "")).strip().lower() in _CURATED_STATUSES
+            and str(s.get("risk_level", "info")).strip().lower() != "critical"
+            and int(s.get("overall_score", 0) or 0) >= 50
+        )
     ]
     verified.sort(key=lambda s: (-s.get("stars", 0), s.get("name", "")))
 

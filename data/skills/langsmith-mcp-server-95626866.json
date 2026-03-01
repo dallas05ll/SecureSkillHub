@@ -32,7 +32,7 @@
     "verification_type": "full_llm_pipeline",
     "key_findings": [
       "Official LangChain project, MIT license",
-      "Read-only MCP server — no file I/O in core source",
+      "Read-only MCP server \u2014 no file I/O in core source",
       "All network calls target LangSmith API only",
       "os.environ SET creates race condition risk in HTTP mode"
     ]

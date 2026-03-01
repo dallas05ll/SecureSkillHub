@@ -1,0 +1,1871 @@
+{
+  "source_run": "data/verification-runs/20260301T060315Z_strict5_limit50.json",
+  "non_pass_count": 50,
+  "status_counts": {
+    "fail": 49,
+    "manual_review": 1
+  },
+  "items": [
+    {
+      "skill_id": "loki-mcp-292580a6",
+      "name": "loki-mcp",
+      "final_status": "fail",
+      "pm_decision": "fail",
+      "pm_reason": "PM final decision: fail due to high-risk scanner findings.",
+      "pm_reviewed_at": "2026-03-01T06:14:16Z",
+      "pm_evidence": {
+        "score": 100,
+        "risk_level": "high",
+        "high_findings": 17,
+        "critical_findings": 0,
+        "obfuscation_high_risk_count": 0,
+        "injection_patterns_count": 0,
+        "repo_unavailable": false
+      },
+      "scanner_findings_total": 17,
+      "scanner_severity_counts": {
+        "high": 17
+      },
+      "top_scanner_categories": [
+        [
+          "suspicious_urls",
+          17
+        ]
+      ]
+    },
+    {
+      "skill_id": "mcp-canvas-lms-7a0e2850",
+      "name": "mcp-canvas-lms",
+      "final_status": "fail",
+      "pm_decision": "fail",
+      "pm_reason": "PM final decision: fail due to high-risk scanner findings.",
+      "pm_reviewed_at": "2026-03-01T06:14:16Z",
+      "pm_evidence": {
+        "score": 85,
+        "risk_level": "high",
+        "high_findings": 2,
+        "critical_findings": 0,
+        "obfuscation_high_risk_count": 0,
+        "injection_patterns_count": 0,
+        "repo_unavailable": false
+      },
+      "scanner_findings_total": 11,
+      "scanner_severity_counts": {
+        "medium": 9,
+        "high": 2
+      },
+      "top_scanner_categories": [
+        [
+          "env_access",
+          6
+        ],
+        [
+          "network_ops",
+          3
+        ],
+        [
+          "dangerous_calls",
+          1
+        ],
+        [
+          "suspicious_urls",
+          1
+        ]
+      ]
+    },
+    {
+      "skill_id": "mcp-n8n-builder-88b69057",
+      "name": "mcp-n8n-builder",
+      "final_status": "fail",
+      "pm_decision": "fail",
+      "pm_reason": "PM final decision: fail due to high-risk scanner findings.",
+      "pm_reviewed_at": "2026-03-01T06:14:16Z",
+      "pm_evidence": {
+        "score": 100,
+        "risk_level": "high",
+        "high_findings": 2,
+        "critical_findings": 0,
+        "obfuscation_high_risk_count": 0,
+        "injection_patterns_count": 0,
+        "repo_unavailable": false
+      },
+      "scanner_findings_total": 11,
+      "scanner_severity_counts": {
+        "medium": 9,
+        "high": 2
+      },
+      "top_scanner_categories": [
+        [
+          "env_access",
+          6
+        ],
+        [
+          "network_ops",
+          3
+        ],
+        [
+          "suspicious_urls",
+          2
+        ]
+      ]
+    },
+    {
+      "skill_id": "woocommerce-mcp-server-52b29010",
+      "name": "woocommerce-mcp-server",
+      "final_status": "fail",
+      "pm_decision": "fail",
+      "pm_reason": "PM final decision: fail due to high-risk scanner findings.",
+      "pm_reviewed_at": "2026-03-01T06:14:16Z",
+      "pm_evidence": {
+        "score": 85,
+        "risk_level": "high",
+        "high_findings": 1,
+        "critical_findings": 0,
+        "obfuscation_high_risk_count": 0,
+        "injection_patterns_count": 0,
+        "repo_unavailable": false
+      },
+      "scanner_findings_total": 7,
+      "scanner_severity_counts": {
+        "medium": 6,
+        "high": 1
+      },
+      "top_scanner_categories": [
+        [
+          "env_access",
+          6
+        ],
+        [
+          "obfuscation",
+          1
+        ]
+      ]
+    },
+    {
+      "skill_id": "mcp-applemusic-9d2a86cd",
+      "name": "mcp-applemusic",
+      "final_status": "fail",
+      "pm_decision": "fail",
+      "pm_reason": "PM final decision: fail due to high-risk scanner findings.",
+      "pm_reviewed_at": "2026-03-01T06:14:16Z",
+      "pm_evidence": {
+        "score": 100,
+        "risk_level": "high",
+        "high_findings": 1,
+        "critical_findings": 0,
+        "obfuscation_high_risk_count": 0,
+        "injection_patterns_count": 0,
+        "repo_unavailable": false
+      },
+      "scanner_findings_total": 1,
+      "scanner_severity_counts": {
+        "high": 1
+      },
+      "top_scanner_categories": [
+        [
+          "dangerous_calls",
+          1
+        ]
+      ]
+    },
+    {
+      "skill_id": "basecamp-mcp-server-5136a3ab",
+      "name": "Basecamp-MCP-Server",
+      "final_status": "fail",
+      "pm_decision": "fail",
+      "pm_reason": "PM final decision: fail due to high-risk scanner findings.",
+      "pm_reviewed_at": "2026-03-01T06:14:16Z",
+      "pm_evidence": {
+        "score": 100,
+        "risk_level": "high",
+        "high_findings": 84,
+        "critical_findings": 0,
+        "obfuscation_high_risk_count": 0,
+        "injection_patterns_count": 0,
+        "repo_unavailable": false
+      },
+      "scanner_findings_total": 181,
+      "scanner_severity_counts": {
+        "high": 84,
+        "medium": 55,
+        "low": 42
+      },
+      "top_scanner_categories": [
+        [
+          "suspicious_urls",
+          76
+        ],
+        [
+          "env_access",
+          46
+        ],
+        [
+          "file_ops",
+          42
+        ],
+        [
+          "network_ops",
+          9
+        ],
+        [
+          "dangerous_calls",
+          8
+        ]
+      ]
+    },
+    {
+      "skill_id": "markitdown-mcp-server-8ef5babf",
+      "name": "markitdown_mcp_server",
+      "final_status": "fail",
+      "pm_decision": "fail",
+      "pm_reason": "PM final decision: fail due to high-risk scanner findings.",
+      "pm_reviewed_at": "2026-03-01T06:14:16Z",
+      "pm_evidence": {
+        "score": 100,
+        "risk_level": "high",
+        "high_findings": 1,
+        "critical_findings": 0,
+        "obfuscation_high_risk_count": 0,
+        "injection_patterns_count": 0,
+        "repo_unavailable": false
+      },
+      "scanner_findings_total": 1,
+      "scanner_severity_counts": {
+        "high": 1
+      },
+      "top_scanner_categories": [
+        [
+          "dangerous_calls",
+          1
+        ]
+      ]
+    },
+    {
+      "skill_id": "mcp-server-node-2d752252",
+      "name": "mcp-server-node",
+      "final_status": "fail",
+      "pm_decision": "fail",
+      "pm_reason": "PM final decision: fail due to high-risk scanner findings.",
+      "pm_reviewed_at": "2026-03-01T06:14:16Z",
+      "pm_evidence": {
+        "score": 100,
+        "risk_level": "high",
+        "high_findings": 1,
+        "critical_findings": 0,
+        "obfuscation_high_risk_count": 0,
+        "injection_patterns_count": 0,
+        "repo_unavailable": false
+      },
+      "scanner_findings_total": 5,
+      "scanner_severity_counts": {
+        "medium": 4,
+        "high": 1
+      },
+      "top_scanner_categories": [
+        [
+          "env_access",
+          4
+        ],
+        [
+          "suspicious_urls",
+          1
+        ]
+      ]
+    },
+    {
+      "skill_id": "mcp-server-home-assistant-1d6761a6",
+      "name": "mcp-server-home-assistant",
+      "final_status": "fail",
+      "pm_decision": "fail",
+      "pm_reason": "PM final decision: fail due to high-risk scanner findings.",
+      "pm_reviewed_at": "2026-03-01T06:14:16Z",
+      "pm_evidence": {
+        "score": 100,
+        "risk_level": "high",
+        "high_findings": 1,
+        "critical_findings": 0,
+        "obfuscation_high_risk_count": 0,
+        "injection_patterns_count": 0,
+        "repo_unavailable": false
+      },
+      "scanner_findings_total": 3,
+      "scanner_severity_counts": {
+        "high": 1,
+        "medium": 2
+      },
+      "top_scanner_categories": [
+        [
+          "env_access",
+          2
+        ],
+        [
+          "suspicious_urls",
+          1
+        ]
+      ]
+    },
+    {
+      "skill_id": "fred-mcp-server-6d9c6234",
+      "name": "fred-mcp-server",
+      "final_status": "fail",
+      "pm_decision": "fail",
+      "pm_reason": "PM final decision: fail due to high-risk scanner findings.",
+      "pm_reviewed_at": "2026-03-01T06:14:16Z",
+      "pm_evidence": {
+        "score": 85,
+        "risk_level": "high",
+        "high_findings": 4,
+        "critical_findings": 0,
+        "obfuscation_high_risk_count": 0,
+        "injection_patterns_count": 0,
+        "repo_unavailable": false
+      },
+      "scanner_findings_total": 28,
+      "scanner_severity_counts": {
+        "high": 4,
+        "medium": 22,
+        "low": 2
+      },
+      "top_scanner_categories": [
+        [
+          "env_access",
+          16
+        ],
+        [
+          "network_ops",
+          6
+        ],
+        [
+          "suspicious_urls",
+          4
+        ],
+        [
+          "file_ops",
+          2
+        ]
+      ]
+    },
+    {
+      "skill_id": "trae-skills-ffdedffd",
+      "name": "TRAE-Skills",
+      "final_status": "fail",
+      "pm_decision": "fail",
+      "pm_reason": "PM final decision: fail due to high-risk scanner findings.",
+      "pm_reviewed_at": "2026-03-01T06:14:16Z",
+      "pm_evidence": {
+        "score": 55,
+        "risk_level": "high",
+        "high_findings": 4,
+        "critical_findings": 0,
+        "obfuscation_high_risk_count": 0,
+        "injection_patterns_count": 0,
+        "repo_unavailable": false
+      },
+      "scanner_findings_total": 34,
+      "scanner_severity_counts": {
+        "high": 4,
+        "medium": 18,
+        "low": 12
+      },
+      "top_scanner_categories": [
+        [
+          "env_access",
+          13
+        ],
+        [
+          "file_ops",
+          12
+        ],
+        [
+          "network_ops",
+          5
+        ],
+        [
+          "suspicious_urls",
+          2
+        ],
+        [
+          "dangerous_calls",
+          2
+        ]
+      ]
+    },
+    {
+      "skill_id": "mcp-vercel-1aaba1c1",
+      "name": "mcp-vercel",
+      "final_status": "fail",
+      "pm_decision": "fail",
+      "pm_reason": "PM final decision: fail due to high-risk scanner findings.",
+      "pm_reviewed_at": "2026-03-01T06:14:16Z",
+      "pm_evidence": {
+        "score": 85,
+        "risk_level": "high",
+        "high_findings": 5,
+        "critical_findings": 0,
+        "obfuscation_high_risk_count": 0,
+        "injection_patterns_count": 0,
+        "repo_unavailable": false
+      },
+      "scanner_findings_total": 8,
+      "scanner_severity_counts": {
+        "high": 5,
+        "medium": 3
+      },
+      "top_scanner_categories": [
+        [
+          "suspicious_urls",
+          3
+        ],
+        [
+          "dangerous_calls",
+          2
+        ],
+        [
+          "env_access",
+          2
+        ],
+        [
+          "network_ops",
+          1
+        ]
+      ]
+    },
+    {
+      "skill_id": "mcp-ripgrep-126bc612",
+      "name": "mcp-ripgrep",
+      "final_status": "fail",
+      "pm_decision": "fail",
+      "pm_reason": "PM final decision: fail due to high-risk scanner findings.",
+      "pm_reviewed_at": "2026-03-01T06:14:16Z",
+      "pm_evidence": {
+        "score": 100,
+        "risk_level": "high",
+        "high_findings": 6,
+        "critical_findings": 0,
+        "obfuscation_high_risk_count": 0,
+        "injection_patterns_count": 0,
+        "repo_unavailable": false
+      },
+      "scanner_findings_total": 6,
+      "scanner_severity_counts": {
+        "high": 6
+      },
+      "top_scanner_categories": [
+        [
+          "dangerous_calls",
+          6
+        ]
+      ]
+    },
+    {
+      "skill_id": "woodshed-07b87bae",
+      "name": "woodshed",
+      "final_status": "fail",
+      "pm_decision": "fail",
+      "pm_reason": "PM final decision: fail due to high-risk scanner findings.",
+      "pm_reviewed_at": "2026-03-01T06:14:16Z",
+      "pm_evidence": {
+        "score": 100,
+        "risk_level": "high",
+        "high_findings": 1,
+        "critical_findings": 0,
+        "obfuscation_high_risk_count": 0,
+        "injection_patterns_count": 0,
+        "repo_unavailable": false
+      },
+      "scanner_findings_total": 1,
+      "scanner_severity_counts": {
+        "high": 1
+      },
+      "top_scanner_categories": [
+        [
+          "dangerous_calls",
+          1
+        ]
+      ]
+    },
+    {
+      "skill_id": "pubmed-mcp-server-ebabf7ce",
+      "name": "pubmed-mcp-server",
+      "final_status": "fail",
+      "pm_decision": "fail",
+      "pm_reason": "PM final decision: fail due to high-risk scanner findings.",
+      "pm_reviewed_at": "2026-03-01T06:14:16Z",
+      "pm_evidence": {
+        "score": 100,
+        "risk_level": "high",
+        "high_findings": 2,
+        "critical_findings": 0,
+        "obfuscation_high_risk_count": 0,
+        "injection_patterns_count": 0,
+        "repo_unavailable": false
+      },
+      "scanner_findings_total": 23,
+      "scanner_severity_counts": {
+        "high": 2,
+        "medium": 8,
+        "low": 13
+      },
+      "top_scanner_categories": [
+        [
+          "file_ops",
+          13
+        ],
+        [
+          "network_ops",
+          5
+        ],
+        [
+          "env_access",
+          3
+        ],
+        [
+          "suspicious_urls",
+          1
+        ],
+        [
+          "dangerous_calls",
+          1
+        ]
+      ]
+    },
+    {
+      "skill_id": "yokatlas-mcp-3302caa3",
+      "name": "yokatlas-mcp",
+      "final_status": "fail",
+      "pm_decision": "fail",
+      "pm_reason": "PM final decision: fail due to high-risk scanner findings.",
+      "pm_reviewed_at": "2026-03-01T06:14:16Z",
+      "pm_evidence": {
+        "score": 75,
+        "risk_level": "high",
+        "high_findings": 1,
+        "critical_findings": 0,
+        "obfuscation_high_risk_count": 0,
+        "injection_patterns_count": 0,
+        "repo_unavailable": false
+      },
+      "scanner_findings_total": 6,
+      "scanner_severity_counts": {
+        "low": 5,
+        "high": 1
+      },
+      "top_scanner_categories": [
+        [
+          "file_ops",
+          5
+        ],
+        [
+          "obfuscation",
+          1
+        ]
+      ]
+    },
+    {
+      "skill_id": "buildmcpserver-1bbad178",
+      "name": "BuildMCPServer",
+      "final_status": "fail",
+      "pm_decision": "fail",
+      "pm_reason": "PM final decision: fail due to high-risk scanner findings.",
+      "pm_reviewed_at": "2026-03-01T06:14:16Z",
+      "pm_evidence": {
+        "score": 100,
+        "risk_level": "high",
+        "high_findings": 1,
+        "critical_findings": 0,
+        "obfuscation_high_risk_count": 0,
+        "injection_patterns_count": 0,
+        "repo_unavailable": false
+      },
+      "scanner_findings_total": 2,
+      "scanner_severity_counts": {
+        "medium": 1,
+        "high": 1
+      },
+      "top_scanner_categories": [
+        [
+          "network_ops",
+          1
+        ],
+        [
+          "suspicious_urls",
+          1
+        ]
+      ]
+    },
+    {
+      "skill_id": "trellis-blender-440f806d",
+      "name": "trellis_blender",
+      "final_status": "fail",
+      "pm_decision": "fail",
+      "pm_reason": "PM final decision: fail due to high-risk scanner findings.",
+      "pm_reviewed_at": "2026-03-01T06:14:16Z",
+      "pm_evidence": {
+        "score": 85,
+        "risk_level": "high",
+        "high_findings": 6,
+        "critical_findings": 0,
+        "obfuscation_high_risk_count": 0,
+        "injection_patterns_count": 0,
+        "repo_unavailable": false
+      },
+      "scanner_findings_total": 59,
+      "scanner_severity_counts": {
+        "high": 6,
+        "medium": 18,
+        "low": 35
+      },
+      "top_scanner_categories": [
+        [
+          "file_ops",
+          35
+        ],
+        [
+          "network_ops",
+          18
+        ],
+        [
+          "obfuscation",
+          4
+        ],
+        [
+          "dangerous_calls",
+          1
+        ],
+        [
+          "suspicious_urls",
+          1
+        ]
+      ]
+    },
+    {
+      "skill_id": "unsplash-smart-mcp-server-0dc151b4",
+      "name": "unsplash-smart-mcp-server",
+      "final_status": "fail",
+      "pm_decision": "fail",
+      "pm_reason": "PM final decision: fail due to high-risk scanner findings.",
+      "pm_reviewed_at": "2026-03-01T06:14:16Z",
+      "pm_evidence": {
+        "score": 85,
+        "risk_level": "high",
+        "high_findings": 11,
+        "critical_findings": 0,
+        "obfuscation_high_risk_count": 0,
+        "injection_patterns_count": 0,
+        "repo_unavailable": false
+      },
+      "scanner_findings_total": 70,
+      "scanner_severity_counts": {
+        "medium": 35,
+        "high": 11,
+        "low": 24
+      },
+      "top_scanner_categories": [
+        [
+          "env_access",
+          28
+        ],
+        [
+          "file_ops",
+          24
+        ],
+        [
+          "network_ops",
+          7
+        ],
+        [
+          "suspicious_urls",
+          6
+        ],
+        [
+          "dangerous_calls",
+          3
+        ]
+      ]
+    },
+    {
+      "skill_id": "mcp-compose-ce279a48",
+      "name": "mcp-compose",
+      "final_status": "fail",
+      "pm_decision": "fail",
+      "pm_reason": "PM final decision: fail due to high-risk scanner findings.",
+      "pm_reviewed_at": "2026-03-01T06:14:16Z",
+      "pm_evidence": {
+        "score": 100,
+        "risk_level": "high",
+        "high_findings": 64,
+        "critical_findings": 0,
+        "obfuscation_high_risk_count": 0,
+        "injection_patterns_count": 0,
+        "repo_unavailable": false
+      },
+      "scanner_findings_total": 161,
+      "scanner_severity_counts": {
+        "high": 64,
+        "medium": 97
+      },
+      "top_scanner_categories": [
+        [
+          "network_ops",
+          89
+        ],
+        [
+          "suspicious_urls",
+          58
+        ],
+        [
+          "env_access",
+          8
+        ],
+        [
+          "dangerous_calls",
+          6
+        ]
+      ]
+    },
+    {
+      "skill_id": "alibabacloud-devops-mcp-server-9896fe5a",
+      "name": "alibabacloud-devops-mcp-server",
+      "final_status": "fail",
+      "pm_decision": "fail",
+      "pm_reason": "PM final decision: fail due to high-risk scanner findings.",
+      "pm_reviewed_at": "2026-03-01T06:14:16Z",
+      "pm_evidence": {
+        "score": 100,
+        "risk_level": "high",
+        "high_findings": 16,
+        "critical_findings": 0,
+        "obfuscation_high_risk_count": 0,
+        "injection_patterns_count": 0,
+        "repo_unavailable": false
+      },
+      "scanner_findings_total": 24,
+      "scanner_severity_counts": {
+        "high": 16,
+        "medium": 8
+      },
+      "top_scanner_categories": [
+        [
+          "suspicious_urls",
+          16
+        ],
+        [
+          "env_access",
+          6
+        ],
+        [
+          "network_ops",
+          2
+        ]
+      ]
+    },
+    {
+      "skill_id": "esxi-mcp-server-888e5265",
+      "name": "esxi-mcp-server",
+      "final_status": "fail",
+      "pm_decision": "fail",
+      "pm_reason": "PM final decision: fail due to high-risk scanner findings.",
+      "pm_reviewed_at": "2026-03-01T06:14:16Z",
+      "pm_evidence": {
+        "score": 100,
+        "risk_level": "high",
+        "high_findings": 3,
+        "critical_findings": 0,
+        "obfuscation_high_risk_count": 0,
+        "injection_patterns_count": 0,
+        "repo_unavailable": false
+      },
+      "scanner_findings_total": 9,
+      "scanner_severity_counts": {
+        "low": 2,
+        "medium": 4,
+        "high": 3
+      },
+      "top_scanner_categories": [
+        [
+          "env_access",
+          3
+        ],
+        [
+          "suspicious_urls",
+          3
+        ],
+        [
+          "file_ops",
+          2
+        ],
+        [
+          "network_ops",
+          1
+        ]
+      ]
+    },
+    {
+      "skill_id": "fastapi-mcp-sse-8802acc7",
+      "name": "fastapi_mcp_sse",
+      "final_status": "fail",
+      "pm_decision": "fail",
+      "pm_reason": "PM final decision: fail due to high-risk scanner findings.",
+      "pm_reviewed_at": "2026-03-01T06:14:16Z",
+      "pm_evidence": {
+        "score": 85,
+        "risk_level": "high",
+        "high_findings": 22,
+        "critical_findings": 0,
+        "obfuscation_high_risk_count": 0,
+        "injection_patterns_count": 0,
+        "repo_unavailable": false
+      },
+      "scanner_findings_total": 25,
+      "scanner_severity_counts": {
+        "high": 22,
+        "medium": 3
+      },
+      "top_scanner_categories": [
+        [
+          "suspicious_urls",
+          22
+        ],
+        [
+          "env_access",
+          2
+        ],
+        [
+          "network_ops",
+          1
+        ]
+      ]
+    },
+    {
+      "skill_id": "scheduler-mcp-31b5a8af",
+      "name": "scheduler-mcp",
+      "final_status": "fail",
+      "pm_decision": "fail",
+      "pm_reason": "PM final decision: fail due to high-risk scanner findings.",
+      "pm_reviewed_at": "2026-03-01T06:14:16Z",
+      "pm_evidence": {
+        "score": 85,
+        "risk_level": "high",
+        "high_findings": 3,
+        "critical_findings": 0,
+        "obfuscation_high_risk_count": 0,
+        "injection_patterns_count": 0,
+        "repo_unavailable": false
+      },
+      "scanner_findings_total": 40,
+      "scanner_severity_counts": {
+        "medium": 29,
+        "high": 3,
+        "low": 8
+      },
+      "top_scanner_categories": [
+        [
+          "env_access",
+          27
+        ],
+        [
+          "file_ops",
+          8
+        ],
+        [
+          "network_ops",
+          2
+        ],
+        [
+          "suspicious_urls",
+          2
+        ],
+        [
+          "dangerous_calls",
+          1
+        ]
+      ]
+    },
+    {
+      "skill_id": "findata-mcp-server-f718e971",
+      "name": "finData-mcp-server",
+      "final_status": "fail",
+      "pm_decision": "fail",
+      "pm_reason": "PM final decision: fail due to high-risk scanner findings.",
+      "pm_reviewed_at": "2026-03-01T06:14:16Z",
+      "pm_evidence": {
+        "score": 70,
+        "risk_level": "high",
+        "high_findings": 3,
+        "critical_findings": 0,
+        "obfuscation_high_risk_count": 0,
+        "injection_patterns_count": 0,
+        "repo_unavailable": false
+      },
+      "scanner_findings_total": 9,
+      "scanner_severity_counts": {
+        "high": 3,
+        "medium": 3,
+        "low": 3
+      },
+      "top_scanner_categories": [
+        [
+          "env_access",
+          3
+        ],
+        [
+          "file_ops",
+          3
+        ],
+        [
+          "suspicious_urls",
+          2
+        ],
+        [
+          "dangerous_calls",
+          1
+        ]
+      ]
+    },
+    {
+      "skill_id": "mcp-design-system-extractor-736e60df",
+      "name": "mcp-design-system-extractor",
+      "final_status": "fail",
+      "pm_decision": "fail",
+      "pm_reason": "PM final decision: fail due to high-risk scanner findings.",
+      "pm_reviewed_at": "2026-03-01T06:14:16Z",
+      "pm_evidence": {
+        "score": 85,
+        "risk_level": "high",
+        "high_findings": 27,
+        "critical_findings": 0,
+        "obfuscation_high_risk_count": 0,
+        "injection_patterns_count": 0,
+        "repo_unavailable": false
+      },
+      "scanner_findings_total": 42,
+      "scanner_severity_counts": {
+        "high": 27,
+        "medium": 9,
+        "low": 6
+      },
+      "top_scanner_categories": [
+        [
+          "suspicious_urls",
+          15
+        ],
+        [
+          "dangerous_calls",
+          12
+        ],
+        [
+          "file_ops",
+          6
+        ],
+        [
+          "env_access",
+          5
+        ],
+        [
+          "network_ops",
+          4
+        ]
+      ]
+    },
+    {
+      "skill_id": "mcp-kubernetes-e0007ac5",
+      "name": "mcp-kubernetes",
+      "final_status": "fail",
+      "pm_decision": "fail",
+      "pm_reason": "PM final decision: fail due to high-risk scanner findings.",
+      "pm_reviewed_at": "2026-03-01T06:14:16Z",
+      "pm_evidence": {
+        "score": 70,
+        "risk_level": "high",
+        "high_findings": 2,
+        "critical_findings": 0,
+        "obfuscation_high_risk_count": 0,
+        "injection_patterns_count": 0,
+        "repo_unavailable": false
+      },
+      "scanner_findings_total": 3,
+      "scanner_severity_counts": {
+        "high": 2,
+        "low": 1
+      },
+      "top_scanner_categories": [
+        [
+          "dangerous_calls",
+          1
+        ],
+        [
+          "file_ops",
+          1
+        ],
+        [
+          "obfuscation",
+          1
+        ]
+      ]
+    },
+    {
+      "skill_id": "otelcol-mcp-ac118d61",
+      "name": "otelcol-mcp",
+      "final_status": "fail",
+      "pm_decision": "fail",
+      "pm_reason": "PM final decision: fail due to high-risk scanner findings.",
+      "pm_reviewed_at": "2026-03-01T06:14:16Z",
+      "pm_evidence": {
+        "score": 75,
+        "risk_level": "high",
+        "high_findings": 5,
+        "critical_findings": 0,
+        "obfuscation_high_risk_count": 0,
+        "injection_patterns_count": 0,
+        "repo_unavailable": false
+      },
+      "scanner_findings_total": 24,
+      "scanner_severity_counts": {
+        "high": 5,
+        "medium": 4,
+        "low": 15
+      },
+      "top_scanner_categories": [
+        [
+          "file_ops",
+          15
+        ],
+        [
+          "env_access",
+          4
+        ],
+        [
+          "obfuscation",
+          4
+        ],
+        [
+          "suspicious_urls",
+          1
+        ]
+      ]
+    },
+    {
+      "skill_id": "xcodemcp-4bbe1c2c",
+      "name": "XcodeMCP",
+      "final_status": "fail",
+      "pm_decision": "fail",
+      "pm_reason": "PM final decision: fail due to high-risk scanner findings.",
+      "pm_reviewed_at": "2026-03-01T06:14:16Z",
+      "pm_evidence": {
+        "score": 85,
+        "risk_level": "high",
+        "high_findings": 5,
+        "critical_findings": 0,
+        "obfuscation_high_risk_count": 0,
+        "injection_patterns_count": 0,
+        "repo_unavailable": false
+      },
+      "scanner_findings_total": 50,
+      "scanner_severity_counts": {
+        "high": 5,
+        "medium": 29,
+        "low": 16
+      },
+      "top_scanner_categories": [
+        [
+          "env_access",
+          29
+        ],
+        [
+          "file_ops",
+          16
+        ],
+        [
+          "dangerous_calls",
+          5
+        ]
+      ]
+    },
+    {
+      "skill_id": "craftdesk-396a6a90",
+      "name": "craftdesk",
+      "final_status": "fail",
+      "pm_decision": "fail",
+      "pm_reason": "PM final decision: fail due to high-risk scanner findings.",
+      "pm_reviewed_at": "2026-03-01T06:14:16Z",
+      "pm_evidence": {
+        "score": 85,
+        "risk_level": "high",
+        "high_findings": 19,
+        "critical_findings": 0,
+        "obfuscation_high_risk_count": 0,
+        "injection_patterns_count": 0,
+        "repo_unavailable": false
+      },
+      "scanner_findings_total": 217,
+      "scanner_severity_counts": {
+        "high": 19,
+        "low": 187,
+        "medium": 11
+      },
+      "top_scanner_categories": [
+        [
+          "file_ops",
+          187
+        ],
+        [
+          "env_access",
+          9
+        ],
+        [
+          "suspicious_urls",
+          8
+        ],
+        [
+          "obfuscation",
+          8
+        ],
+        [
+          "dangerous_calls",
+          3
+        ]
+      ]
+    },
+    {
+      "skill_id": "feishu-mcp-server-f2507759",
+      "name": "feishu-mcp-server",
+      "final_status": "fail",
+      "pm_decision": "fail",
+      "pm_reason": "PM final decision: fail due to high-risk scanner findings.",
+      "pm_reviewed_at": "2026-03-01T06:14:16Z",
+      "pm_evidence": {
+        "score": 85,
+        "risk_level": "high",
+        "high_findings": 1,
+        "critical_findings": 0,
+        "obfuscation_high_risk_count": 0,
+        "injection_patterns_count": 0,
+        "repo_unavailable": false
+      },
+      "scanner_findings_total": 7,
+      "scanner_severity_counts": {
+        "medium": 6,
+        "high": 1
+      },
+      "top_scanner_categories": [
+        [
+          "env_access",
+          6
+        ],
+        [
+          "obfuscation",
+          1
+        ]
+      ]
+    },
+    {
+      "skill_id": "hackmd-mcp-5c8fb338",
+      "name": "hackmd-mcp",
+      "final_status": "fail",
+      "pm_decision": "fail",
+      "pm_reason": "PM final decision: fail due to high-risk scanner findings.",
+      "pm_reviewed_at": "2026-03-01T06:14:16Z",
+      "pm_evidence": {
+        "score": 85,
+        "risk_level": "high",
+        "high_findings": 2,
+        "critical_findings": 0,
+        "obfuscation_high_risk_count": 0,
+        "injection_patterns_count": 0,
+        "repo_unavailable": false
+      },
+      "scanner_findings_total": 11,
+      "scanner_severity_counts": {
+        "high": 2,
+        "medium": 9
+      },
+      "top_scanner_categories": [
+        [
+          "env_access",
+          9
+        ],
+        [
+          "suspicious_urls",
+          1
+        ],
+        [
+          "obfuscation",
+          1
+        ]
+      ]
+    },
+    {
+      "skill_id": "mcp-server-e8d755da",
+      "name": "mcp-server",
+      "final_status": "fail",
+      "pm_decision": "fail",
+      "pm_reason": "PM final decision: fail due to high-risk scanner findings.",
+      "pm_reviewed_at": "2026-03-01T06:14:16Z",
+      "pm_evidence": {
+        "score": 85,
+        "risk_level": "high",
+        "high_findings": 2,
+        "critical_findings": 0,
+        "obfuscation_high_risk_count": 0,
+        "injection_patterns_count": 0,
+        "repo_unavailable": false
+      },
+      "scanner_findings_total": 6,
+      "scanner_severity_counts": {
+        "high": 2,
+        "medium": 4
+      },
+      "top_scanner_categories": [
+        [
+          "network_ops",
+          2
+        ],
+        [
+          "env_access",
+          2
+        ],
+        [
+          "suspicious_urls",
+          1
+        ],
+        [
+          "obfuscation",
+          1
+        ]
+      ]
+    },
+    {
+      "skill_id": "mcp-server-upstash-7e5758bc",
+      "name": "mcp-server-upstash",
+      "final_status": "fail",
+      "pm_decision": "fail",
+      "pm_reason": "PM final decision: fail due to high-risk scanner findings.",
+      "pm_reviewed_at": "2026-03-01T06:14:16Z",
+      "pm_evidence": {
+        "score": 85,
+        "risk_level": "high",
+        "high_findings": 2,
+        "critical_findings": 0,
+        "obfuscation_high_risk_count": 0,
+        "injection_patterns_count": 0,
+        "repo_unavailable": false
+      },
+      "scanner_findings_total": 6,
+      "scanner_severity_counts": {
+        "high": 2,
+        "medium": 4
+      },
+      "top_scanner_categories": [
+        [
+          "network_ops",
+          2
+        ],
+        [
+          "env_access",
+          2
+        ],
+        [
+          "suspicious_urls",
+          1
+        ],
+        [
+          "obfuscation",
+          1
+        ]
+      ]
+    },
+    {
+      "skill_id": "powerpoint-mcp-e18ac67d",
+      "name": "powerpoint-mcp",
+      "final_status": "fail",
+      "pm_decision": "fail",
+      "pm_reason": "PM final decision: fail due to high-risk scanner findings.",
+      "pm_reviewed_at": "2026-03-01T06:14:16Z",
+      "pm_evidence": {
+        "score": 85,
+        "risk_level": "high",
+        "high_findings": 2,
+        "critical_findings": 0,
+        "obfuscation_high_risk_count": 0,
+        "injection_patterns_count": 0,
+        "repo_unavailable": false
+      },
+      "scanner_findings_total": 11,
+      "scanner_severity_counts": {
+        "low": 5,
+        "medium": 4,
+        "high": 2
+      },
+      "top_scanner_categories": [
+        [
+          "file_ops",
+          5
+        ],
+        [
+          "env_access",
+          3
+        ],
+        [
+          "network_ops",
+          1
+        ],
+        [
+          "obfuscation",
+          1
+        ],
+        [
+          "suspicious_urls",
+          1
+        ]
+      ]
+    },
+    {
+      "skill_id": "activitywatch-mcp-server-dd56a218",
+      "name": "activitywatch-mcp-server",
+      "final_status": "fail",
+      "pm_decision": "fail",
+      "pm_reason": "PM final decision: fail due to high-risk scanner findings.",
+      "pm_reviewed_at": "2026-03-01T06:14:16Z",
+      "pm_evidence": {
+        "score": 85,
+        "risk_level": "high",
+        "high_findings": 17,
+        "critical_findings": 0,
+        "obfuscation_high_risk_count": 0,
+        "injection_patterns_count": 0,
+        "repo_unavailable": false
+      },
+      "scanner_findings_total": 32,
+      "scanner_severity_counts": {
+        "high": 17,
+        "medium": 15
+      },
+      "top_scanner_categories": [
+        [
+          "suspicious_urls",
+          16
+        ],
+        [
+          "env_access",
+          9
+        ],
+        [
+          "network_ops",
+          6
+        ],
+        [
+          "dangerous_calls",
+          1
+        ]
+      ]
+    },
+    {
+      "skill_id": "crawlbase-mcp-6a88a5bf",
+      "name": "crawlbase-mcp",
+      "final_status": "fail",
+      "pm_decision": "fail",
+      "pm_reason": "PM final decision: fail due to high-risk scanner findings.",
+      "pm_reviewed_at": "2026-03-01T06:14:16Z",
+      "pm_evidence": {
+        "score": 100,
+        "risk_level": "high",
+        "high_findings": 1,
+        "critical_findings": 0,
+        "obfuscation_high_risk_count": 0,
+        "injection_patterns_count": 0,
+        "repo_unavailable": false
+      },
+      "scanner_findings_total": 7,
+      "scanner_severity_counts": {
+        "high": 1,
+        "medium": 6
+      },
+      "top_scanner_categories": [
+        [
+          "env_access",
+          4
+        ],
+        [
+          "network_ops",
+          2
+        ],
+        [
+          "suspicious_urls",
+          1
+        ]
+      ]
+    },
+    {
+      "skill_id": "mcpdocserver-592c811d",
+      "name": "McpDocServer",
+      "final_status": "fail",
+      "pm_decision": "fail",
+      "pm_reason": "PM final decision: fail due to high-risk scanner findings.",
+      "pm_reviewed_at": "2026-03-01T06:14:16Z",
+      "pm_evidence": {
+        "score": 85,
+        "risk_level": "high",
+        "high_findings": 1,
+        "critical_findings": 0,
+        "obfuscation_high_risk_count": 0,
+        "injection_patterns_count": 0,
+        "repo_unavailable": false
+      },
+      "scanner_findings_total": 14,
+      "scanner_severity_counts": {
+        "low": 13,
+        "high": 1
+      },
+      "top_scanner_categories": [
+        [
+          "file_ops",
+          13
+        ],
+        [
+          "dangerous_calls",
+          1
+        ]
+      ]
+    },
+    {
+      "skill_id": "buildkite-mcp-server-e83db089",
+      "name": "buildkite-mcp-server",
+      "final_status": "fail",
+      "pm_decision": "fail",
+      "pm_reason": "PM final decision: fail due to high-risk scanner findings.",
+      "pm_reviewed_at": "2026-03-01T06:14:16Z",
+      "pm_evidence": {
+        "score": 85,
+        "risk_level": "high",
+        "high_findings": 2,
+        "critical_findings": 0,
+        "obfuscation_high_risk_count": 0,
+        "injection_patterns_count": 0,
+        "repo_unavailable": false
+      },
+      "scanner_findings_total": 2,
+      "scanner_severity_counts": {
+        "high": 2
+      },
+      "top_scanner_categories": [
+        [
+          "dangerous_calls",
+          2
+        ]
+      ]
+    },
+    {
+      "skill_id": "mcp-auth-servers-6e990a37",
+      "name": "mcp-auth-servers",
+      "final_status": "fail",
+      "pm_decision": "fail",
+      "pm_reason": "PM final decision: fail due to high-risk scanner findings.",
+      "pm_reviewed_at": "2026-03-01T06:14:16Z",
+      "pm_evidence": {
+        "score": 100,
+        "risk_level": "high",
+        "high_findings": 6,
+        "critical_findings": 0,
+        "obfuscation_high_risk_count": 0,
+        "injection_patterns_count": 0,
+        "repo_unavailable": false
+      },
+      "scanner_findings_total": 32,
+      "scanner_severity_counts": {
+        "medium": 22,
+        "high": 6,
+        "low": 4
+      },
+      "top_scanner_categories": [
+        [
+          "env_access",
+          19
+        ],
+        [
+          "suspicious_urls",
+          6
+        ],
+        [
+          "file_ops",
+          4
+        ],
+        [
+          "network_ops",
+          3
+        ]
+      ]
+    },
+    {
+      "skill_id": "mcp-server-atlassian-confluence-bd611437",
+      "name": "mcp-server-atlassian-confluence",
+      "final_status": "fail",
+      "pm_decision": "fail",
+      "pm_reason": "PM final decision: fail due to high-risk scanner findings.",
+      "pm_reviewed_at": "2026-03-01T06:14:16Z",
+      "pm_evidence": {
+        "score": 55,
+        "risk_level": "high",
+        "high_findings": 7,
+        "critical_findings": 0,
+        "obfuscation_high_risk_count": 0,
+        "injection_patterns_count": 0,
+        "repo_unavailable": false
+      },
+      "scanner_findings_total": 43,
+      "scanner_severity_counts": {
+        "high": 7,
+        "low": 11,
+        "medium": 25
+      },
+      "top_scanner_categories": [
+        [
+          "env_access",
+          24
+        ],
+        [
+          "file_ops",
+          11
+        ],
+        [
+          "suspicious_urls",
+          5
+        ],
+        [
+          "dangerous_calls",
+          1
+        ],
+        [
+          "network_ops",
+          1
+        ]
+      ]
+    },
+    {
+      "skill_id": "mcp-server-notify-045416bc",
+      "name": "mcp_server_notify",
+      "final_status": "fail",
+      "pm_decision": "fail",
+      "pm_reason": "PM final decision: fail due to high-risk scanner findings.",
+      "pm_reviewed_at": "2026-03-01T06:14:16Z",
+      "pm_evidence": {
+        "score": 70,
+        "risk_level": "high",
+        "high_findings": 5,
+        "critical_findings": 0,
+        "obfuscation_high_risk_count": 0,
+        "injection_patterns_count": 0,
+        "repo_unavailable": false
+      },
+      "scanner_findings_total": 15,
+      "scanner_severity_counts": {
+        "high": 5,
+        "low": 8,
+        "medium": 2
+      },
+      "top_scanner_categories": [
+        [
+          "file_ops",
+          8
+        ],
+        [
+          "dangerous_calls",
+          4
+        ],
+        [
+          "env_access",
+          2
+        ],
+        [
+          "obfuscation",
+          1
+        ]
+      ]
+    },
+    {
+      "skill_id": "openai-codex-mcp-3a586a3a",
+      "name": "openai-codex-mcp",
+      "final_status": "fail",
+      "pm_decision": "fail",
+      "pm_reason": "PM final decision: fail due to high-risk scanner findings.",
+      "pm_reviewed_at": "2026-03-01T06:14:16Z",
+      "pm_evidence": {
+        "score": 70,
+        "risk_level": "high",
+        "high_findings": 10,
+        "critical_findings": 0,
+        "obfuscation_high_risk_count": 0,
+        "injection_patterns_count": 0,
+        "repo_unavailable": false
+      },
+      "scanner_findings_total": 12,
+      "scanner_severity_counts": {
+        "high": 10,
+        "low": 1,
+        "medium": 1
+      },
+      "top_scanner_categories": [
+        [
+          "suspicious_urls",
+          7
+        ],
+        [
+          "dangerous_calls",
+          2
+        ],
+        [
+          "file_ops",
+          1
+        ],
+        [
+          "env_access",
+          1
+        ],
+        [
+          "obfuscation",
+          1
+        ]
+      ]
+    },
+    {
+      "skill_id": "ops-mcp-server-9941f7c2",
+      "name": "ops-mcp-server",
+      "final_status": "manual_review",
+      "pm_decision": "manual_review",
+      "pm_reason": "PM kept manual_review: ambiguous medium-risk profile; requires direct repository inspection.",
+      "pm_reviewed_at": "2026-03-01T06:14:16Z",
+      "pm_evidence": {
+        "score": 70,
+        "risk_level": "medium",
+        "high_findings": 0,
+        "critical_findings": 0,
+        "obfuscation_high_risk_count": 0,
+        "injection_patterns_count": 0,
+        "repo_unavailable": false
+      },
+      "scanner_findings_total": 7,
+      "scanner_severity_counts": {
+        "low": 4,
+        "medium": 3
+      },
+      "top_scanner_categories": [
+        [
+          "file_ops",
+          4
+        ],
+        [
+          "network_ops",
+          3
+        ]
+      ]
+    },
+    {
+      "skill_id": "roadrecon-mcp-server-70893ade",
+      "name": "roadrecon_mcp_server",
+      "final_status": "fail",
+      "pm_decision": "fail",
+      "pm_reason": "PM final decision: fail due to high-risk scanner findings.",
+      "pm_reviewed_at": "2026-03-01T06:14:16Z",
+      "pm_evidence": {
+        "score": 85,
+        "risk_level": "high",
+        "high_findings": 3,
+        "critical_findings": 0,
+        "obfuscation_high_risk_count": 0,
+        "injection_patterns_count": 0,
+        "repo_unavailable": false
+      },
+      "scanner_findings_total": 10,
+      "scanner_severity_counts": {
+        "medium": 2,
+        "low": 5,
+        "high": 3
+      },
+      "top_scanner_categories": [
+        [
+          "file_ops",
+          5
+        ],
+        [
+          "suspicious_urls",
+          3
+        ],
+        [
+          "network_ops",
+          1
+        ],
+        [
+          "env_access",
+          1
+        ]
+      ]
+    },
+    {
+      "skill_id": "trello-mcp-770386bf",
+      "name": "trello-mcp",
+      "final_status": "fail",
+      "pm_decision": "fail",
+      "pm_reason": "PM final decision: fail due to high-risk scanner findings.",
+      "pm_reviewed_at": "2026-03-01T06:14:16Z",
+      "pm_evidence": {
+        "score": 85,
+        "risk_level": "high",
+        "high_findings": 6,
+        "critical_findings": 0,
+        "obfuscation_high_risk_count": 0,
+        "injection_patterns_count": 0,
+        "repo_unavailable": false
+      },
+      "scanner_findings_total": 17,
+      "scanner_severity_counts": {
+        "medium": 11,
+        "high": 6
+      },
+      "top_scanner_categories": [
+        [
+          "env_access",
+          9
+        ],
+        [
+          "suspicious_urls",
+          6
+        ],
+        [
+          "network_ops",
+          2
+        ]
+      ]
+    },
+    {
+      "skill_id": "vchart-mcp-server-449fbdcc",
+      "name": "vchart-mcp-server",
+      "final_status": "fail",
+      "pm_decision": "fail",
+      "pm_reason": "PM final decision: fail due to high-risk scanner findings.",
+      "pm_reviewed_at": "2026-03-01T06:14:16Z",
+      "pm_evidence": {
+        "score": 100,
+        "risk_level": "high",
+        "high_findings": 4,
+        "critical_findings": 0,
+        "obfuscation_high_risk_count": 0,
+        "injection_patterns_count": 0,
+        "repo_unavailable": false
+      },
+      "scanner_findings_total": 6,
+      "scanner_severity_counts": {
+        "high": 4,
+        "medium": 2
+      },
+      "top_scanner_categories": [
+        [
+          "suspicious_urls",
+          4
+        ],
+        [
+          "network_ops",
+          1
+        ],
+        [
+          "env_access",
+          1
+        ]
+      ]
+    },
+    {
+      "skill_id": "whatsapp-mcp-ts-7ba27d62",
+      "name": "whatsapp-mcp-ts",
+      "final_status": "fail",
+      "pm_decision": "fail",
+      "pm_reason": "PM final decision: fail due to high-risk scanner findings.",
+      "pm_reviewed_at": "2026-03-01T06:14:16Z",
+      "pm_evidence": {
+        "score": 100,
+        "risk_level": "high",
+        "high_findings": 8,
+        "critical_findings": 0,
+        "obfuscation_high_risk_count": 0,
+        "injection_patterns_count": 0,
+        "repo_unavailable": false
+      },
+      "scanner_findings_total": 13,
+      "scanner_severity_counts": {
+        "medium": 3,
+        "high": 8,
+        "low": 2
+      },
+      "top_scanner_categories": [
+        [
+          "dangerous_calls",
+          8
+        ],
+        [
+          "env_access",
+          3
+        ],
+        [
+          "file_ops",
+          2
+        ]
+      ]
+    },
+    {
+      "skill_id": "aspire-mcp-sample-7d6bbe79",
+      "name": "Aspire.MCP.Sample",
+      "final_status": "fail",
+      "pm_decision": "fail",
+      "pm_reason": "PM final decision: fail due to high-risk scanner findings.",
+      "pm_reviewed_at": "2026-03-01T06:14:16Z",
+      "pm_evidence": {
+        "score": 100,
+        "risk_level": "high",
+        "high_findings": 10,
+        "critical_findings": 0,
+        "obfuscation_high_risk_count": 0,
+        "injection_patterns_count": 0,
+        "repo_unavailable": false
+      },
+      "scanner_findings_total": 10,
+      "scanner_severity_counts": {
+        "high": 10
+      },
+      "top_scanner_categories": [
+        [
+          "suspicious_urls",
+          10
+        ]
+      ]
+    },
+    {
+      "skill_id": "gdb-mcp-fa38da58",
+      "name": "GDB-MCP",
+      "final_status": "fail",
+      "pm_decision": "fail",
+      "pm_reason": "PM final decision: fail due to high-risk scanner findings.",
+      "pm_reviewed_at": "2026-03-01T06:14:16Z",
+      "pm_evidence": {
+        "score": 100,
+        "risk_level": "high",
+        "high_findings": 11,
+        "critical_findings": 0,
+        "obfuscation_high_risk_count": 0,
+        "injection_patterns_count": 0,
+        "repo_unavailable": false
+      },
+      "scanner_findings_total": 34,
+      "scanner_severity_counts": {
+        "high": 11,
+        "low": 23
+      },
+      "top_scanner_categories": [
+        [
+          "file_ops",
+          23
+        ],
+        [
+          "dangerous_calls",
+          11
+        ]
+      ]
+    }
+  ]
+}

@@ -6,17 +6,90 @@
   "source_hub": "mcp_so",
   "owner": "steipete",
   "stars": 2383,
-  "primary_language": "unknown",
+  "primary_language": "shell",
   "tags": [
     "data-ai",
     "data-ai-vision",
-    "util"
+    "util",
+    "status-fail"
   ],
-  "verification_status": "pass",
-  "overall_score": 75,
-  "risk_level": "medium",
-  "verified_commit": null,
+  "verification_status": "fail",
+  "overall_score": 0,
+  "risk_level": "high",
+  "verified_commit": "bace59f90bb276f1c6fb613acfda3935ec4a7a90",
   "scan_summary": null,
-  "scan_date": "2026-02-26T03:00:50Z",
-  "verification_level": "scanner_only"
+  "scan_date": "2026-03-01T07:24:07Z",
+  "verification_level": "full_pipeline",
+  "findings_summary": {
+    "scanner_findings": 68,
+    "dangerous_calls": 37,
+    "network_ops": 2,
+    "file_ops": 11,
+    "env_access": 7,
+    "obfuscation": 0,
+    "injection_patterns": 0,
+    "mismatches": 0,
+    "undocumented_capabilities": 0,
+    "supervisor_approved": false,
+    "supervisor_confidence": 50
+  },
+  "agent_audit": {
+    "agents_completed": 5,
+    "agents_required": 5,
+    "pipeline_run_at": "2026-03-01T07:24:07Z",
+    "agent_a": {
+      "signed": true,
+      "signed_at": "2026-03-01T07:24:07Z",
+      "comment": "Docs quality 9/10. README present. 12 features, 4 permissions claimed.",
+      "doc_quality_score": 9,
+      "claimed_permissions": [
+        "network access",
+        "system command execution",
+        "file system access",
+        "environment/secret access"
+      ]
+    },
+    "agent_b": {
+      "signed": true,
+      "signed_at": "2026-03-01T07:24:07Z",
+      "comment": "62 files analyzed. Found: 0 network, 9 file, 5 env, 6 system calls. Primary: shell.",
+      "files_analyzed": 62,
+      "capabilities_found": [
+        "imports external dependencies",
+        "reads/writes files",
+        "reads environment values",
+        "executes system commands"
+      ]
+    },
+    "agent_c_star": {
+      "signed": true,
+      "signed_at": "2026-03-01T07:24:07Z",
+      "comment": "68 findings: 0 critical, 48 high, 9 medium, 11 low. No obfuscation. No injection.",
+      "total_findings": 68,
+      "severity_counts": {
+        "critical": 0,
+        "high": 48,
+        "medium": 9,
+        "low": 11,
+        "info": 0
+      }
+    },
+    "agent_d": {
+      "signed": true,
+      "signed_at": "2026-03-01T07:24:07Z",
+      "comment": "Score 0. 0 mismatches. Risk: high. Safety overrides: none triggered.",
+      "score": 0,
+      "mismatches": 0,
+      "safety_overrides_applied": false
+    },
+    "agent_e": {
+      "signed": true,
+      "signed_at": "2026-03-01T07:24:07Z",
+      "comment": "Rejected. Confidence 50%. No overrides.",
+      "approved": false,
+      "confidence": 50,
+      "override_reason": null
+    },
+    "manager_summary": "5/5 agents completed. Score: 0/100, Risk: high. 0 mismatches, 68 scanner findings. Rejected at 50% confidence. No safety overrides."
+  }
 }

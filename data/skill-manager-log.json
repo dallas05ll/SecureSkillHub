@@ -1520,12 +1520,196 @@
         "reviewer": "pm_dual_agent",
         "mode": "run-report"
       }
+    },
+    {
+      "timestamp": "2026-03-01T06:32:50.875578+00:00",
+      "check_type": "verification_run",
+      "findings": {
+        "selected_count": 1,
+        "processed_count": 1,
+        "status_counts": {
+          "manual_review": 1
+        },
+        "stage_failures": {},
+        "remaining_unverified": 0,
+        "run_report": "/Users/liendallas/Desktop/Projects/SecureSkillHub/data/verification-runs/20260301T063250Z_strict5_limit50.json"
+      }
+    },
+    {
+      "timestamp": "2026-03-01T06:33:25.531150+00:00",
+      "check_type": "sm_review",
+      "findings": {
+        "mode": "skill-ids",
+        "total_reviewed": 1,
+        "decision_counts": {
+          "pm_review_needed": 1
+        },
+        "total_issues": 0,
+        "pm_review_needed": [
+          "loki-mcp-292580a6"
+        ],
+        "pm_review_count": 1
+      },
+      "recommendations": [
+        "PM review needed for 1 skill(s)"
+      ]
+    },
+    {
+      "timestamp": "2026-03-01T06:33:25.532349+00:00",
+      "check_type": "pm_review",
+      "findings": {
+        "skill_id": "loki-mcp-292580a6",
+        "previous_status": "manual_review",
+        "decision": "fail",
+        "reason": "PM final decision: fail due to high-risk scanner findings.",
+        "reviewer": "pm_dual_agent",
+        "mode": "skill-ids"
+      }
+    },
+    {
+      "timestamp": "2026-03-01T06:36:27.572280+00:00",
+      "check_type": "verification_run",
+      "findings": {
+        "selected_count": 50,
+        "processed_count": 50,
+        "status_counts": {
+          "manual_review": 50
+        },
+        "stage_failures": {
+          "clone": 50
+        },
+        "remaining_unverified": 1330,
+        "run_report": "/Users/liendallas/Desktop/Projects/SecureSkillHub/data/verification-runs/20260301T063627Z_strict5_limit50.json"
+      }
+    },
+    {
+      "timestamp": "2026-03-01T06:36:30.425833+00:00",
+      "check_type": "sm_review",
+      "findings": {
+        "mode": "run-report",
+        "total_reviewed": 50,
+        "decision_counts": {
+          "pm_review_needed": 50
+        },
+        "total_issues": 0,
+        "pm_review_needed": [
+          "anuragrai017-python-docs-server-mcp-serv-cd71d1b8",
+          "aoirint-aoirint-mcping-server-9f9a2bc7",
+          "apache-doris-mcp-server-39cc86ba",
+          "apappascs-mcp-servers-hub-94ddaa26",
+          "apappascs-tavily-search-mcp-server-6da1de3c",
+          "apify-mcp-server-rag-web-browser-ff2408ec",
+          "apinetwork-piapi-mcp-server-f069aa5d",
+          "appdog-680a95c7",
+          "applescript-bb-mcp-server-ceed3647",
+          "apptweak-mcp-bfecc620",
+          "arabold-docs-mcp-server-dbe7c7ab",
+          "aranet4-73609360",
+          "arcgis-mcp-servers-291eb5f5",
+          "argo-cd-4e32f9d7",
+          "ariunbolor-nsaf-mcp-server-213088eb",
+          "arre-ankit-notion-mcp-server-5ffbee33",
+          "artificial-analysis-7febd270",
+          "asset-price-mcp-285e1ecb",
+          "asusevski-opendota-mcp-server-5483dde6",
+          "atkn-mcp-b5f350b7"
+        ],
+        "pm_review_count": 50
+      },
+      "recommendations": [
+        "PM review needed for 50 skill(s)"
+      ]
+    },
+    {
+      "timestamp": "2026-03-01T07:18:28.830118+00:00",
+      "check_type": "health_check",
+      "findings": {
+        "total_skills": 6307,
+        "verified": 4627,
+        "unverified": 1330,
+        "full_pipeline": 173,
+        "scanner_only": 4217,
+        "metadata_only": 361,
+        "with_agent_audit": 173,
+        "status_breakdown": {
+          "pass": 4627,
+          "unverified": 1330,
+          "manual_review": 244,
+          "fail": 106
+        },
+        "star_tiers": {
+          "1000+": 149,
+          "100-999": 388,
+          "10-99": 1203,
+          "1-9": 1880,
+          "0": 2687
+        },
+        "issues": [
+          "964 verified skills with null verified_commit"
+        ]
+      },
+      "recommendations": [
+        "Crawl pending hubs: skills_sh, skillsmp",
+        "Verify more skills: 1,330 unverified (only 1% verified)",
+        "Investigate 964 verified skills with null verified_commit"
+      ],
+      "changes_since_last": {
+        "new_skills": 6307,
+        "newly_verified": 4627,
+        "status_changes": [
+          "+6307 new skills added",
+          "+4627 newly verified",
+          "+1330 unverified delta"
+        ]
+      }
+    },
+    {
+      "timestamp": "2026-03-01T07:24:23.755641+00:00",
+      "check_type": "verification_run",
+      "findings": {
+        "selected_count": 50,
+        "processed_count": 50,
+        "status_counts": {
+          "fail": 35,
+          "pass": 8,
+          "manual_review": 7
+        },
+        "stage_failures": {},
+        "remaining_unverified": 0,
+        "run_report": "/Users/liendallas/Desktop/Projects/SecureSkillHub/data/verification-runs/20260301T072423Z_strict5_limit50.json"
+      }
+    },
+    {
+      "timestamp": "2026-03-01T07:24:33.654473+00:00",
+      "check_type": "sm_review",
+      "findings": {
+        "mode": "run-report",
+        "total_reviewed": 50,
+        "decision_counts": {
+          "clean": 43,
+          "pm_review_needed": 7
+        },
+        "total_issues": 0,
+        "pm_review_needed": [
+          "mastra-89d5a7b0",
+          "instaclaw-36d5beb0",
+          "planning-with-files-906a3ecb",
+          "convex-d88ae04c",
+          "pinme-3dccfc8d",
+          "arxiv-mcp-server-6e4944dd",
+          "postgres-mcp-23d75fe2"
+        ],
+        "pm_review_count": 7
+      },
+      "recommendations": [
+        "PM review needed for 7 skill(s)"
+      ]
     }
   ],
-  "last_check": "2026-03-01T06:06:15.659293+00:00",
+  "last_check": "2026-03-01T07:18:28.830118+00:00",
   "summary": {
-    "total_checks": 11,
-    "issues_found_lifetime": 11,
+    "total_checks": 12,
+    "issues_found_lifetime": 12,
     "last_healthy": null
   }
 }

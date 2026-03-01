@@ -1,7 +1,7 @@
 {
   "id": "mcp-client-openai-5efac3af",
   "name": "mcp-client-openai",
-  "description": "本项目实现了一个兼容 OpenAI API 格式的 MCP-Client服务，允许通过标准的 OpenAI API 接口与本地 MCP-Server进行交互。",
+  "description": "\u672c\u9879\u76ee\u5b9e\u73b0\u4e86\u4e00\u4e2a\u517c\u5bb9 OpenAI API \u683c\u5f0f\u7684 MCP-Client\u670d\u52a1\uff0c\u5141\u8bb8\u901a\u8fc7\u6807\u51c6\u7684 OpenAI API \u63a5\u53e3\u4e0e\u672c\u5730 MCP-Server\u8fdb\u884c\u4ea4\u4e92\u3002",
   "repo_url": "https://github.com/njcx/mcp-client-openai",
   "source_hub": "mcp_so",
   "owner": "njcx",

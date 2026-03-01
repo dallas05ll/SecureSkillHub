@@ -1,21 +1,21 @@
 {
   "id": "withings-e5e33e20",
   "name": "withings",
-  "description": "A Model Context Protocol (MCP) server that brings your Withings health data into MCP client. Access your sleep patterns, body measurements, workouts, heart data, and more through natural conversation.\r\n\r\n🔒 Privacy First: This is my personal project, and the repository is intentionally public to demonstrate transparency. The code shows that no personal information is logged or stored maliciously. All sensitive data (tokens, user IDs) is encrypted at rest and automatically redacted from logs. Y...",
+  "description": "A Model Context Protocol (MCP) server that brings your Withings health data into MCP client. Access your sleep patterns, body measurements, workouts, heart data, and more through natural conversation.\r\n\r\n\ud83d\udd12 Privacy First: This is my personal project, and the repository is intentionally public to demonstrate transparency. The code shows that no personal information is logged or stored maliciously. All sensitive data (tokens, user IDs) is encrypted at rest and automatically redacted from logs. Y...",
   "repo_url": "https://github.com/akutishevsky/withings",
   "source_hub": "mcp_so",
   "owner": "akutishevsky",
   "stars": 0,
   "primary_language": "unknown",
   "tags": [
+    "repo_unavailable",
     "data",
     "data-ai",
     "data-ai-nlp",
     "dev",
     "prod",
     "sec",
-    "sec-crypto",
-    "repo_unavailable"
+    "sec-crypto"
   ],
   "verification_status": "unverified",
   "overall_score": 0,

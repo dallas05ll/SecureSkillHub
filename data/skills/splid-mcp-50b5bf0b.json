@@ -1,20 +1,20 @@
 {
   "id": "splid-mcp-50b5bf0b",
   "name": "splid-mcp",
-  "description": "# Splid MCP Server\r\n\r\nA Model Context Protocol (MCP) server that exposes Splid (splid.app) via tools, powered by the reverse‑engineered `splid-js` client.\r\n\r\n- Language/Runtime: Node.js (ESM) + TypeScript\r\n- Transport: Streamable HTTP (and stdio for local inspector)\r\n- License: MIT\r\n\r\n## Quick start\r\n\r\n1) Install\r\n\r\n```bash\r\nnpm install\r\n```\r\n\r\n2) Configure env\r\n\r\nCreate a `.env` in project root:\r\n\r\n```\r\nCODE=YOUR_SPLID_INVITE_CODE\r\nPORT=8000\r\n```\r\n\r\n3) Build and run\r\n\r\n```bash\r\nnpm run build...",
+  "description": "# Splid MCP Server\r\n\r\nA Model Context Protocol (MCP) server that exposes Splid (splid.app) via tools, powered by the reverse\u2011engineered `splid-js` client.\r\n\r\n- Language/Runtime: Node.js (ESM) + TypeScript\r\n- Transport: Streamable HTTP (and stdio for local inspector)\r\n- License: MIT\r\n\r\n## Quick start\r\n\r\n1) Install\r\n\r\n```bash\r\nnpm install\r\n```\r\n\r\n2) Configure env\r\n\r\nCreate a `.env` in project root:\r\n\r\n```\r\nCODE=YOUR_SPLID_INVITE_CODE\r\nPORT=8000\r\n```\r\n\r\n3) Build and run\r\n\r\n```bash\r\nnpm run build...",
   "repo_url": "https://github.com/mxxfun/splid-mcp",
   "source_hub": "mcp_so",
   "owner": "mxxfun",
   "stars": 0,
   "primary_language": "unknown",
   "tags": [
+    "repo_unavailable",
     "data-ai",
     "data-ai-nlp",
     "dev",
     "dev-web-backend-node",
     "util",
-    "util-media",
-    "repo_unavailable"
+    "util-media"
   ],
   "verification_status": "unverified",
   "overall_score": 0,

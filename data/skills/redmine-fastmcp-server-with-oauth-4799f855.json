@@ -1,17 +1,17 @@
 {
   "id": "redmine-fastmcp-server-with-oauth-4799f855",
   "name": "redmine-fastmcp-server-with-oauth",
-  "description": "A centrally-deployed MCP server for Redmine with OAuth 2.0 authentication. An administrator deploys it once; users connect by authorizing through Redmine — no API keys or per-user setup required. Built with FastMCP 3.",
+  "description": "A centrally-deployed MCP server for Redmine with OAuth 2.0 authentication. An administrator deploys it once; users connect by authorizing through Redmine \u2014 no API keys or per-user setup required. Built with FastMCP 3.",
   "repo_url": "https://github.com/Tolga Uzun/redmine-fastmcp-server-with-oauth",
   "source_hub": "mcp_so",
   "owner": "Tolga Uzun",
   "stars": 0,
   "primary_language": "unknown",
   "tags": [
+    "repo_unavailable",
     "integ",
     "sec",
-    "sec-auth",
-    "repo_unavailable"
+    "sec-auth"
   ],
   "verification_status": "unverified",
   "overall_score": 0,

@@ -26,6 +26,7 @@ sys.path.insert(0, str(Path(__file__).resolve().parent))
 
 from src.reachability import (
     TAG_CLONE_FAILURE,
+    TAG_NOT_REACHABLE,
     TAG_UNAVAILABLE,
     check_repo,
     log_to_skill_manager,
@@ -51,7 +52,7 @@ def load_skills() -> list[dict]:
 
 def tag_skill_unavailable(skill_data: dict, error_msg: str | None = None) -> bool:
     """Add repo_unavailable tag to a skill and write to disk. Returns True if modified."""
-    was_unavailable = TAG_UNAVAILABLE in skill_data.get("tags", [])
+    was_unavailable = TAG_UNAVAILABLE in skill_data.get("tags", []) or TAG_NOT_REACHABLE in skill_data.get("tags", [])
     had_clone_failure = TAG_CLONE_FAILURE in skill_data.get("tags", [])
 
     mark_unavailable(skill_data, error_msg)
@@ -78,6 +79,9 @@ def remove_unavailable_tag(skill_data: dict) -> bool:
     if TAG_CLONE_FAILURE in tags:
         tags.remove(TAG_CLONE_FAILURE)
         modified = True
+    if TAG_NOT_REACHABLE in tags:
+        tags.remove(TAG_NOT_REACHABLE)
+        modified = True
 
     if modified:
         skill_data["tags"] = tags
@@ -96,6 +100,7 @@ def remove_unavailable_tag(skill_data: dict) -> bool:
 def print_report(skills: list[dict]) -> None:
     """Print current reachability stats."""
     unavailable = [s for s in skills if TAG_UNAVAILABLE in s.get("tags", [])]
+    not_reachable = [s for s in skills if TAG_NOT_REACHABLE in s.get("tags", [])]
     clone_fail = [s for s in skills if TAG_CLONE_FAILURE in s.get("tags", [])]
     has_check = [s for s in skills if s.get("repo_check_date")]
 
@@ -104,6 +109,7 @@ def print_report(skills: list[dict]) -> None:
     print(f"{'='*60}")
     print(f"  Total skills:            {len(skills):>6}")
     print(f"  Tagged repo_unavailable: {len(unavailable):>6}")
+    print(f"  Tagged not_reachable:    {len(not_reachable):>6}")
     print(f"  Tagged clone_failure:    {len(clone_fail):>6} (legacy)")
     print(f"  Previously checked:      {len(has_check):>6}")
     print(f"  Never checked:           {len(skills) - len(has_check):>6}")
@@ -133,6 +139,7 @@ def main() -> None:
         to_check = [
             s for s in skills
             if TAG_UNAVAILABLE not in s.get("tags", [])
+            and TAG_NOT_REACHABLE not in s.get("tags", [])
             and TAG_CLONE_FAILURE not in s.get("tags", [])
         ]
         print(f"Filtering to {len(to_check)} untagged skills")
@@ -140,6 +147,7 @@ def main() -> None:
         to_check = [
             s for s in skills
             if TAG_UNAVAILABLE in s.get("tags", [])
+            or TAG_NOT_REACHABLE in s.get("tags", [])
             or TAG_CLONE_FAILURE in s.get("tags", [])
         ]
         print(f"Re-checking {len(to_check)} previously unavailable skills")

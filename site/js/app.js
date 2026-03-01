@@ -247,6 +247,14 @@
     return tags.indexOf(tagId) !== -1;
   }
 
+  function isRepoUnavailableSkill(skill) {
+    if (!skill) return false;
+    if (hasSkillTag(skill, 'repo_unavailable')) return true;
+    if (hasSkillTag(skill, 'clone_failure')) return true;
+    if (hasSkillTag(skill, 'not_reachable')) return true;
+    return String(skill.repo_status || '').toLowerCase() === 'unavailable';
+  }
+
   function getAgentsCompleted(skill) {
     var agentsCompleted = Number(skill && skill.agents_completed || 0);
     if (!agentsCompleted && skill && skill.agent_audit && typeof skill.agent_audit.agents_completed === 'number') {
@@ -257,11 +265,11 @@
 
   function isSystemCardTag(tag) {
     if (!tag) return true;
-    return tag === 'repo_unavailable' || tag === 'clone_failure' || /^status-/.test(tag);
+    return tag === 'repo_unavailable' || tag === 'clone_failure' || tag === 'not_reachable' || /^status-/.test(tag);
   }
 
   function buildSecondaryCardBadge(skill, status) {
-    if (hasSkillTag(skill, 'repo_unavailable')) {
+    if (isRepoUnavailableSkill(skill)) {
       return {
         className: 'unavailable-badge skill-badge-secondary',
         label: 'Unavailable',
@@ -1015,7 +1023,7 @@
     for (var j = 0; j < state.searchSuggestions.length; j++) {
       var item = state.searchSuggestions[j];
       var skill = state.skillById[item.id];
-      var statusLabel = skill ? badgeLabel(getNormalizedSkillStatus(skill)) : '';
+      var statusLabel = skill ? badgeLabel(getNormalizedSkillStatus(skill), skill) : '';
       var stars = skill && skill.stars ? (' · ' + formatNumber(skill.stars) + '★') : '';
       html += '<button class="search-suggest-row" type="button" data-suggest-index="' + j + '" data-skill-id="' + escapeHtml(item.id) + '">';
       html += '<span class="search-suggest-title">' + escapeHtml(item.name || item.id) + '</span>';
@@ -1154,7 +1162,7 @@
     // Filter out unavailable repos
     if (state.hideUnavailable) {
       skills = skills.filter(function (s) {
-        return !hasSkillTag(s, 'repo_unavailable');
+        return !isRepoUnavailableSkill(s);
       });
     }
 
@@ -1334,7 +1342,8 @@
     var score = skill.overall_score != null ? skill.overall_score : null;
     var sClass = score != null ? scoreClass(score) : '';
 
-    var html = '<div class="skill-card" data-skill-id="' + escapeHtml(skill.id) + '">';
+    var isUnavailable = isRepoUnavailableSkill(skill);
+    var html = '<div class="skill-card' + (isUnavailable ? ' skill-card-unreachable' : '') + '" data-skill-id="' + escapeHtml(skill.id) + '">';
 
     // Top row: name + badge
     html += '<div class="skill-card-top">';
@@ -1674,7 +1683,7 @@
       var a = audit[agents[i].key];
       var signed = a && a.signed;
       var icon = signed ? '<span style="color:#4caf50">&#x2713;</span>' : '<span style="color:#666">&#x2717;</span>';
-      var comment = (a && a.comment) ? a.comment : '<span class="text-muted">Not run</span>';
+      var comment = (a && a.comment) ? escapeHtml(a.comment) : '<span class="text-muted">Not run</span>';
       html += '<tr style="border-bottom:1px solid var(--border-subtle,#222)">';
       html += '<td style="padding:4px 8px;white-space:nowrap">' + agents[i].label + '</td>';
       html += '<td style="padding:4px 8px">' + icon + '</td>';
@@ -1685,7 +1694,7 @@
 
     if (audit.manager_summary) {
       html += '<div style="margin-top:8px;padding:8px 12px;background:var(--bg-card-alt,#1a1a2e);border-radius:6px;font-size:0.85em">';
-      html += '<strong>Manager Summary:</strong> ' + audit.manager_summary;
+      html += '<strong>Manager Summary:</strong> ' + escapeHtml(audit.manager_summary);
       html += '</div>';
     }
 
@@ -1695,6 +1704,20 @@
 
   function renderSecurityReport(skill) {
     var html = '';
+
+    if (isRepoUnavailableSkill(skill)) {
+      html += '<div class="report-section">';
+      html += '<div class="report-section-title">Repository Availability</div>';
+      html += '<p class="report-body-text"><strong>Status:</strong> Not reachable</p>';
+      if (skill.repo_check_date) {
+        html += '<p class="report-body-text"><strong>Last Check:</strong> ' + escapeHtml(formatDate(skill.repo_check_date)) + '</p>';
+      }
+      if (skill.repo_check_error) {
+        html += '<p class="report-body-text"><strong>Error:</strong> ' + escapeHtml(String(skill.repo_check_error)) + '</p>';
+      }
+      html += '<p class="report-body-text--muted">This skill is tagged <code>not_reachable</code> and <code>repo_unavailable</code>. Recheck reachability before trusting install guidance.</p>';
+      html += '</div>';
+    }
 
     // Show agent audit trail if available (from verification_level + agent_audit fields)
     if (skill.agent_audit && skill.agent_audit.agents_completed > 0) {
@@ -1710,7 +1733,7 @@
 
     // Show PM final decision (if present in findings_summary.pm_review)
     if (skill.findings_summary && skill.findings_summary.pm_review) {
-      html += renderPMReview(skill.findings_summary.pm_review);
+      html += renderPMReview(skill.findings_summary.pm_review, skill);
     }
 
     // If the detailed report data is not available, show a minimal view
@@ -2002,7 +2025,7 @@
     return html;
   }
 
-  function renderPMReview(pmReview) {
+  function renderPMReview(pmReview, skill) {
     if (!pmReview || typeof pmReview !== 'object') return '';
     var decision = normalizeStatus(pmReview.decision);
     var reason = String(pmReview.reason || '').trim();
@@ -2013,7 +2036,7 @@
     var html = '<div class="report-section">';
     html += '<div class="report-section-title">Project Manager Review</div>';
     html += '<div class="report-body-text">';
-    html += '<span class="skill-badge ' + badgeClass(decision) + '">' + badgeLabel(decision) + '</span>';
+    html += '<span class="skill-badge ' + badgeClass(decision, skill) + '">' + badgeLabel(decision, skill) + '</span>';
     html += ' &mdash; Final Decision';
     html += '</div>';
     html += '<div class="report-body-text">';

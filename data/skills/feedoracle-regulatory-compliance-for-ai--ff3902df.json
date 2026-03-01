@@ -1,21 +1,21 @@
 {
   "id": "feedoracle-regulatory-compliance-for-ai--ff3902df",
-  "name": "feedoracle-—-regulatory-compliance-for-ai-agents",
-  "description": "9 MCP tools for regulatory compliance pre-flight checks. Returns PASS/WARN/BLOCK verdicts with cryptographic signatures for stablecoins and DeFi protocols. Covers MiCA authorization (ESMA/EBA), DORA Art.28 custody risk, evidence grading (A–F across 69 protocols), macro risk (86 FRED series), market liquidity (MiCA Art.45), RLUSD real-time attestation, and signed PDF reports with XRPL blockchain anchoring. HMAC-SHA256 signed responses, unified JSON schema, audit-grade metadata. Free tier: 100 ...",
-  "repo_url": "https://github.com/feedoracle/feedoracle-—-regulatory-compliance-for-ai-agents",
+  "name": "feedoracle-\u2014-regulatory-compliance-for-ai-agents",
+  "description": "9 MCP tools for regulatory compliance pre-flight checks. Returns PASS/WARN/BLOCK verdicts with cryptographic signatures for stablecoins and DeFi protocols. Covers MiCA authorization (ESMA/EBA), DORA Art.28 custody risk, evidence grading (A\u2013F across 69 protocols), macro risk (86 FRED series), market liquidity (MiCA Art.45), RLUSD real-time attestation, and signed PDF reports with XRPL blockchain anchoring. HMAC-SHA256 signed responses, unified JSON schema, audit-grade metadata. Free tier: 100 ...",
+  "repo_url": "https://github.com/feedoracle/feedoracle-\u2014-regulatory-compliance-for-ai-agents",
   "source_hub": "mcp_so",
   "owner": "feedoracle",
   "stars": 0,
   "primary_language": "unknown",
   "tags": [
+    "repo_unavailable",
     "data",
     "data-ai",
     "dev-testing",
     "sec",
     "sec-crypto",
     "sec-scan",
-    "util",
-    "repo_unavailable"
+    "util"
   ],
   "verification_status": "unverified",
   "overall_score": 0,
@@ -24,5 +24,5 @@
   "scan_summary": null,
   "repo_status": "unavailable",
   "repo_check_date": "2026-02-28T20:51:41.281434+00:00",
-  "repo_check_error": "remote: Repository not found.\nfatal: repository 'https://github.com/feedoracle/feedoracle-—-regulatory-compliance-for-ai-agents/' not found"
+  "repo_check_error": "remote: Repository not found.\nfatal: repository 'https://github.com/feedoracle/feedoracle-\u2014-regulatory-compliance-for-ai-agents/' not found"
 }

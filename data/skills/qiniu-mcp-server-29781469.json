@@ -1,7 +1,7 @@
 {
   "id": "qiniu-mcp-server-29781469",
   "name": "qiniu-mcp-server",
-  "description": "基于七牛云产品构建的 Model Context Protocol (MCP) Server，支持用户在 AI 大模型客户端的上下文中通过该 MCP Server 来访问七牛云存储资源、利用 Dora 服务进行图片操作等。\r\n\r\n如果有什么需求欢迎在下方评论，您也可以在 github 仓库中提 issue。",
+  "description": "\u57fa\u4e8e\u4e03\u725b\u4e91\u4ea7\u54c1\u6784\u5efa\u7684 Model Context Protocol (MCP) Server\uff0c\u652f\u6301\u7528\u6237\u5728 AI \u5927\u6a21\u578b\u5ba2\u6237\u7aef\u7684\u4e0a\u4e0b\u6587\u4e2d\u901a\u8fc7\u8be5 MCP Server \u6765\u8bbf\u95ee\u4e03\u725b\u4e91\u5b58\u50a8\u8d44\u6e90\u3001\u5229\u7528 Dora \u670d\u52a1\u8fdb\u884c\u56fe\u7247\u64cd\u4f5c\u7b49\u3002\r\n\r\n\u5982\u679c\u6709\u4ec0\u4e48\u9700\u6c42\u6b22\u8fce\u5728\u4e0b\u65b9\u8bc4\u8bba\uff0c\u60a8\u4e5f\u53ef\u4ee5\u5728 github \u4ed3\u5e93\u4e2d\u63d0 issue\u3002",
   "repo_url": "https://github.com/Qiniu/qiniu-mcp-server",
   "source_hub": "mcp_so",
   "owner": "Qiniu",
