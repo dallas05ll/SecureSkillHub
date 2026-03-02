@@ -19,7 +19,7 @@ import sys
 from datetime import datetime, timezone
 from pathlib import Path
 
-PROJECT_ROOT = Path(__file__).resolve().parent
+PROJECT_ROOT = Path(__file__).resolve().parent.parent.parent
 CRAWL_STATE_FILE = PROJECT_ROOT / "data" / "crawl-state.json"
 
 

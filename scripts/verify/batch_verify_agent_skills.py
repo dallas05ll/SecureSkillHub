@@ -16,6 +16,9 @@ import os
 import glob
 import subprocess
 import sys
+from pathlib import Path
+
+sys.path.insert(0, str(Path(__file__).resolve().parent.parent.parent))
 
 from src.reachability import log_to_skill_manager
 
@@ -162,7 +165,7 @@ def score_skill(data: dict) -> tuple[int, str, str, str]:
 
 
 def main():
-    project_root = os.path.dirname(os.path.abspath(__file__))
+    project_root = str(Path(__file__).resolve().parent.parent.parent)
     skills_dir = os.path.join(project_root, "data", "skills")
     pattern = os.path.join(skills_dir, "*.json")
 

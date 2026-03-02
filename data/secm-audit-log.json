@@ -1,0 +1,45 @@
+{
+  "log_version": 1,
+  "entries": [
+    {
+      "timestamp": "2026-03-01T19:29:39.225043+00:00",
+      "audit_type": "secm_fp_audit",
+      "mode": "skill-ids",
+      "skill_ids": [
+        "xcodebuildmcp-c8de0f2b"
+      ],
+      "overrides_only": false,
+      "total_audited": 1,
+      "total_false_positives": 0,
+      "results_summary": [
+        {
+          "skill_id": "xcodebuildmcp-c8de0f2b",
+          "findings_total": 148,
+          "fp": 0,
+          "tp": 0,
+          "recommendation": "mixed — 0 true, 0 false, 148 needs investigation"
+        }
+      ]
+    },
+    {
+      "timestamp": "2026-03-01T19:29:51.764272+00:00",
+      "audit_type": "secm_fp_audit",
+      "mode": "skill-ids",
+      "skill_ids": [
+        "xcodebuildmcp-c8de0f2b"
+      ],
+      "overrides_only": true,
+      "total_audited": 1,
+      "total_false_positives": 0,
+      "results_summary": [
+        {
+          "skill_id": "xcodebuildmcp-c8de0f2b",
+          "findings_total": 1,
+          "fp": 0,
+          "tp": 0,
+          "recommendation": "mixed — 0 true, 0 false, 1 needs investigation"
+        }
+      ]
+    }
+  ]
+}

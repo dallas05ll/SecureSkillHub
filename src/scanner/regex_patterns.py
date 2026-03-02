@@ -177,7 +177,10 @@ INJECTION_PATTERNS: list[PatternEntry] = [
     _compile("ignore_safety",      r"\bIGNORE\s+(SAFETY|RESTRICTIONS?|FILTERS?|GUARDRAILS?)\b", re.IGNORECASE),
     _compile("roleplay_escape",    r"\b(END|EXIT|LEAVE)\s+(ROLEPLAY|CHARACTER|SIMULATION)\b", re.IGNORECASE),
     _compile("hidden_instruction",  r"<!--.*?(?:SYSTEM\s*:|IGNORE\s+(?:PREVIOUS|ABOVE|ALL)|OVERRIDE\s+(?:ROLE|MODE)|INSTRUCTION\s*:).*?-->", re.IGNORECASE),
-    _compile("markdown_injection", r"\[.*\]\(.*(?:javascript|data|vbscript):.*\)", re.IGNORECASE),
+    # Only match when javascript:/data:/vbscript: is the URL protocol (right after open paren).
+    # Previous pattern matched data: ANYWHERE in the URL, causing false positives on
+    # shields.io badges with logo=data:image/svg+xml;base64,... (46 skills affected).
+    _compile("markdown_injection", r"\[.*\]\(\s*(?:javascript|data|vbscript):.*\)", re.IGNORECASE),
 ]
 
 # ---------------------------------------------------------------------------

@@ -22,7 +22,9 @@ from concurrent.futures import ThreadPoolExecutor, as_completed
 from datetime import datetime, timezone
 from pathlib import Path
 
-sys.path.insert(0, str(Path(__file__).resolve().parent))
+sys.path.insert(0, str(Path(__file__).resolve().parent.parent.parent))
+
+PROJECT_ROOT = Path(__file__).resolve().parent.parent.parent
 
 from src.reachability import (
     TAG_CLONE_FAILURE,
@@ -33,8 +35,8 @@ from src.reachability import (
     mark_unavailable,
 )
 
-SKILLS_DIR = Path("data/skills")
-LOG_FILE = Path("data/reachability-check.json")
+SKILLS_DIR = PROJECT_ROOT / "data" / "skills"
+LOG_FILE = PROJECT_ROOT / "data" / "reachability-check.json"
 
 
 def load_skills() -> list[dict]:

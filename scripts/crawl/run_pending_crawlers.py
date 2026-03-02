@@ -22,7 +22,7 @@ from pathlib import Path
 import httpx
 from bs4 import BeautifulSoup
 
-sys.path.insert(0, str(Path(__file__).resolve().parent))
+sys.path.insert(0, str(Path(__file__).resolve().parent.parent.parent))
 
 from src.sanitizer.schemas import (
     CrawlerBatch,
@@ -38,7 +38,7 @@ logging.basicConfig(
 logger = logging.getLogger("run_pending_crawlers")
 
 
-OUTPUT_DIR = Path(__file__).resolve().parent / "data" / "discovered"
+OUTPUT_DIR = Path(__file__).resolve().parent.parent.parent / "data" / "discovered"
 
 
 # ---------------------------------------------------------------------------

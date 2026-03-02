@@ -33,10 +33,10 @@ All skills with `verification_status: "manual_review"` come to you for final dec
    Or use the skills manager review script:
    ```bash
    # Review only (no status write-back)
-   python3 skills_manager_review.py --manual-review-queue --limit 10
+   python3 scripts/review/skills_manager_review.py --manual-review-queue --limit 10
 
    # Finalize PM decisions (writes status + PM comment into skill JSON)
-   python3 skills_manager_review.py --manual-review-queue --limit 10 --pm-finalize
+   python3 scripts/review/skills_manager_review.py --manual-review-queue --limit 10 --pm-finalize
    ```
 
 ```bash
@@ -62,8 +62,8 @@ You are the guardian of truth. Docs must match code. You **detect** drift; the *
 | verification.md matches actual scripts | Compare CLI flags, output fields, scoring logic against code |
 | entry.md matches API output | Fetch a sample `/api/skills/{id}.json` and verify fields listed in entry.md exist |
 | Schema matches written data | Compare `src/sanitizer/schemas.py` fields against actual skill JSON files |
-| AGENTS.md ownership is complete | Every root-level `.py` script appears in a workstream |
-| DocM Quick Nav is current | Check `DOCUMENTATION_MANAGER.md` Global Quick Nav matches actual file structure |
+| AGENTS.md ownership is complete | Every script in `scripts/` appears in a workstream |
+| DocM Quick Nav is current | Check `roles/DOCUMENTATION_MANAGER.md` Global Quick Nav matches actual file structure |
 
 **When you find drift:**
 1. Document the specific inconsistency (what doc says vs what code does)
@@ -87,9 +87,9 @@ The project goals (from `docs/design/vision.md`):
 
 **Current State Checks:**
 ```bash
-python3 health_check.py                    # Collection health dashboard
-python3 health_check.py --history 5        # Recent activity
-python3 build_indexes.py --only by-status  # Status breakdown
+python3 scripts/review/health_check.py                    # Collection health dashboard
+python3 scripts/review/health_check.py --history 5        # Recent activity
+python3 scripts/build/build_indexes.py --only by-status   # Status breakdown
 ```
 
 ### 4. Spawning Sub-Agents
@@ -115,6 +115,22 @@ Any team member or agent can ask you questions. You have access to:
 - The skill manager log (`data/skill-manager-log.json`) for operational history
 
 When answering, always cite the canonical source file. If the answer isn't documented, document it after answering.
+
+### 6. File Registry Notifications
+
+When any workflow creates, moves, or deletes project files, notify DocM to update the file registry:
+
+```python
+from src.docm_registry import register_file, move_file
+
+# After creating a new script
+register_file("scripts/verify/new_verifier.py", "New verification helper", owner="WS2", category="script")
+
+# After moving files
+move_file("old_path.py", "new_path.py", reason="Reorganization")
+```
+
+**Rule:** No file should exist in the project without a registry entry. This ensures DocM can always answer "where is file X?" questions.
 
 ---
 
@@ -159,21 +175,28 @@ PM decides "verify now"
   → SM reviews (SM-A + SM-B cross-validation)
   → SM escalates manual_review / disagreements to PM
   → PM makes final decisions (pass/fail/keep)
+    ├── PM confident → PM decides directly
+    └── PM unsure → PM asks SecM to audit → SecM investigates → PM decides
+  → PM instructs WS3 to rebuild site (build_json + build_html + build_indexes)
+  → PM instructs DeployM to commit + deploy
 ```
 
 **Key delegation:**
 - SM decides **what** to verify (priority selection)
 - VM decides **how** to verify (execution, parallelism, error handling)
 - PM decides **when** to trigger and makes **final calls** on escalations
+- **WS3 rebuilds** the site after PM decisions are written (build_json → build_html → build_indexes)
+- **DeployM deploys** after rebuild is confirmed clean
 
 ### 6. Role Delegation Reference
 
-You manage 5 other roles. Know who does what:
+You manage 6 other roles. Know who does what:
 
 | Role | Abbrev | What They Do | When You Call Them |
 |------|--------|-------------|-------------------|
 | **Skills Manager** | SM | Catalog health, selects verification targets, reviews VM output (SM-A/SM-B) | After verification, to review results |
 | **Verification Manager** | VM | Executes 5-agent pipeline, produces scan reports, guards safety overrides | When you trigger verification |
+| **Security Manager** | SecM | False positive audit, pattern accuracy, PM's security consultant | When you're unsure about fail/manual_review decisions |
 | **Documentation Manager** | DocM | Fixes doc drift, maintains Global Quick Nav, project librarian | When you detect doc-code inconsistency |
 | **Deploy Manager** | DeployM | Git ops, CI/CD, rollback | When you approve a deploy |
 | **Agent Experience Manager** | AXM | CLI, packages, entry.md, agent-facing UX | When agent UX needs work |
@@ -220,10 +243,10 @@ From `docs/design/principles.md` — the non-negotiables:
 
 ```bash
 # Full dashboard
-python3 health_check.py
+python3 scripts/review/health_check.py
 
 # Recent activity
-python3 health_check.py --history 5
+python3 scripts/review/health_check.py --history 5
 
 # Manual review queue
 python3 -c "
@@ -236,7 +259,7 @@ for s in sorted(mr, key=lambda x: -(x.get(\"stars\") or 0))[:10]:
 "
 
 # Doc-code alignment spot check
-python3 -m py_compile run_verify_strict_5agent.py
-python3 -m py_compile run_verify_sample.py
+python3 -m py_compile scripts/verify/run_verify_strict_5agent.py
+python3 -m py_compile scripts/verify/run_verify_sample.py
 python3 -m py_compile src/build/build_json.py
 ```

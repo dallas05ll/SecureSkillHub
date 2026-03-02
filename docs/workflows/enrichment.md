@@ -12,7 +12,7 @@ How skills are enriched with additional metadata after collection.
 
 ## Star Enrichment
 
-**Script:** `enrich_stars.py`
+**Script:** `scripts/enrich/enrich_stars.py`
 
 Fetches GitHub star counts for all skills with `repo_url` pointing to github.com. Uses the `gh api` CLI (authenticated, 5,000 req/hr limit).
 
@@ -33,7 +33,7 @@ Fetches GitHub star counts for all skills with `repo_url` pointing to github.com
 
 ## Auto-Tagging
 
-**Script:** `auto_tag.py`
+**Script:** `scripts/enrich/auto_tag.py`
 
 Assigns tags from the 4-layer tag hierarchy (`data/tags.json`) based on keyword patterns in the skill's name and description.
 
@@ -47,7 +47,7 @@ Assigns tags from the 4-layer tag hierarchy (`data/tags.json`) based on keyword 
 
 **Important:**
 - Auto-tagging **overwrites existing tags**. If a skill has manually curated tags, they will be replaced.
-- `auto_tag.py` uses a relative path (`Path("data/skills")`) — **must be run from the project root directory**.
+- `scripts/enrich/auto_tag.py` uses a relative path (`Path("data/skills")`) — **must be run from the project root directory**.
 
 ---
 
@@ -55,10 +55,10 @@ Assigns tags from the 4-layer tag hierarchy (`data/tags.json`) based on keyword 
 
 ```bash
 # Enrich star counts
-python3 enrich_stars.py                    # All skills (overwrites existing stars, batch-size=50)
-python3 enrich_stars.py --skip-existing    # Only skills with stars=0 or missing
-python3 enrich_stars.py --batch-size 100   # Larger batches (default: 50)
+python3 scripts/enrich/enrich_stars.py                    # All skills (overwrites existing stars, batch-size=50)
+python3 scripts/enrich/enrich_stars.py --skip-existing    # Only skills with stars=0 or missing
+python3 scripts/enrich/enrich_stars.py --batch-size 100   # Larger batches (default: 50)
 
 # Auto-tag skills
-python3 auto_tag.py                        # Tag all skills (overwrites existing tags)
+python3 scripts/enrich/auto_tag.py                        # Tag all skills (overwrites existing tags)
 ```

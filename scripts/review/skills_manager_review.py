@@ -32,7 +32,7 @@ from datetime import datetime, timezone
 from pathlib import Path
 from typing import Any
 
-PROJECT_ROOT = Path(__file__).resolve().parent
+PROJECT_ROOT = Path(__file__).resolve().parent.parent.parent
 SKILLS_DIR = PROJECT_ROOT / "data" / "skills"
 VERIFICATION_RUNS_DIR = PROJECT_ROOT / "data" / "verification-runs"
 SCAN_REPORTS_DIR = PROJECT_ROOT / "data" / "scan-reports"

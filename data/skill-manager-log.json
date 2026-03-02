@@ -1704,6 +1704,124 @@
       "recommendations": [
         "PM review needed for 7 skill(s)"
       ]
+    },
+    {
+      "timestamp": "2026-03-01T07:38:09.949193+00:00",
+      "check_type": "pm_review",
+      "findings": {
+        "skill_id": "postgres-mcp-23d75fe2",
+        "previous_status": "manual_review",
+        "decision": "pass",
+        "reason": "Score 91, database MCP, expected findings only",
+        "reviewer": "pm_dual_agent"
+      }
+    },
+    {
+      "timestamp": "2026-03-01T07:38:09.950442+00:00",
+      "check_type": "pm_review",
+      "findings": {
+        "skill_id": "arxiv-mcp-server-6e4944dd",
+        "previous_status": "manual_review",
+        "decision": "pass",
+        "reason": "Score 79, arXiv MCP, low-severity findings",
+        "reviewer": "pm_dual_agent"
+      }
+    },
+    {
+      "timestamp": "2026-03-01T07:38:09.950923+00:00",
+      "check_type": "pm_review",
+      "findings": {
+        "skill_id": "mastra-89d5a7b0",
+        "previous_status": "manual_review",
+        "decision": "pass",
+        "reason": "Score 76, all findings are false positives on docs-only repo",
+        "reviewer": "pm_dual_agent"
+      }
+    },
+    {
+      "timestamp": "2026-03-01T07:38:09.951433+00:00",
+      "check_type": "pm_review",
+      "findings": {
+        "skill_id": "planning-with-files-906a3ecb",
+        "previous_status": "manual_review",
+        "decision": "pass",
+        "reason": "Score 69, file utility, expected ops",
+        "reviewer": "pm_dual_agent"
+      }
+    },
+    {
+      "timestamp": "2026-03-01T07:38:09.951984+00:00",
+      "check_type": "pm_review",
+      "findings": {
+        "skill_id": "pinme-3dccfc8d",
+        "previous_status": "manual_review",
+        "decision": "pass",
+        "reason": "Score 62, crypto deps volume, not malicious",
+        "reviewer": "pm_dual_agent"
+      }
+    },
+    {
+      "timestamp": "2026-03-01T07:38:09.952540+00:00",
+      "check_type": "pm_review",
+      "findings": {
+        "skill_id": "convex-d88ae04c",
+        "previous_status": "manual_review",
+        "decision": "pass",
+        "reason": "Score 54, Convex backend, expected network/env",
+        "reviewer": "pm_dual_agent"
+      }
+    },
+    {
+      "timestamp": "2026-03-01T07:38:09.953181+00:00",
+      "check_type": "pm_review",
+      "findings": {
+        "skill_id": "instaclaw-36d5beb0",
+        "previous_status": "manual_review",
+        "decision": "fail",
+        "reason": "Fabricated star count (4300 vs 0), missing README, doc-code mismatch, zero maintenance",
+        "reviewer": "pm_dual_agent"
+      }
+    },
+    {
+      "timestamp": "2026-03-01T07:49:42.295075+00:00",
+      "check_type": "pm_review",
+      "findings": {
+        "skill_id": "xcodebuildmcp-c8de0f2b",
+        "previous_status": "fail",
+        "decision": "pass",
+        "reason": "False positive safety overrides on README badge and release script. See pm_review in skill JSON.",
+        "reviewer": "pm_dual_agent",
+        "false_positive_rules": [
+          "regex_markdown_injection",
+          "regex_js_buffer_from"
+        ]
+      }
+    },
+    {
+      "timestamp": "2026-03-01T19:29:39.227406+00:00",
+      "check_type": "secm_fp_audit",
+      "findings": {
+        "mode": "skill-ids",
+        "skill_ids": [
+          "xcodebuildmcp-c8de0f2b"
+        ],
+        "total_audited": 1,
+        "total_false_positives": 0,
+        "overrides_only": false
+      }
+    },
+    {
+      "timestamp": "2026-03-01T19:29:51.765649+00:00",
+      "check_type": "secm_fp_audit",
+      "findings": {
+        "mode": "skill-ids",
+        "skill_ids": [
+          "xcodebuildmcp-c8de0f2b"
+        ],
+        "total_audited": 1,
+        "total_false_positives": 0,
+        "overrides_only": true
+      }
     }
   ],
   "last_check": "2026-03-01T07:18:28.830118+00:00",

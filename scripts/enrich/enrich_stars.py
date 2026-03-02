@@ -26,7 +26,7 @@ logging.basicConfig(
 )
 logger = logging.getLogger("enrich_stars")
 
-SKILLS_DIR = Path(__file__).resolve().parent / "data" / "skills"
+SKILLS_DIR = Path(__file__).resolve().parent.parent.parent / "data" / "skills"
 
 # GitHub API rate limit: 5000 req/hr authenticated
 # We batch requests and add small delays to stay safe

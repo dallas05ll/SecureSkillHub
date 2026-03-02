@@ -16,7 +16,8 @@ import sys
 from datetime import datetime, timezone
 from pathlib import Path
 
-SKILLS_DIR = Path("data/skills")
+PROJECT_ROOT = Path(__file__).resolve().parent.parent.parent
+SKILLS_DIR = PROJECT_ROOT / "data" / "skills"
 
 # source_hub → trust_level mapping (matches TrustLevel enum in schemas.py)
 SOURCE_TRUST: dict[str, str] = {

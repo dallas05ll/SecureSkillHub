@@ -11,9 +11,10 @@ import re
 import sys
 from pathlib import Path
 
-sys.path.insert(0, str(Path(__file__).resolve().parent))
+sys.path.insert(0, str(Path(__file__).resolve().parent.parent.parent))
 
-SKILLS_DIR = Path("data/skills")
+PROJECT_ROOT = Path(__file__).resolve().parent.parent.parent
+SKILLS_DIR = PROJECT_ROOT / "data" / "skills"
 
 # Keyword -> tag mappings. Each entry: (tag_id, keywords_list)
 # Checked against name + description (lowercased)

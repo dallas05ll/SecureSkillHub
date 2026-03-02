@@ -26,28 +26,28 @@ See `CLAUDE.md` for the full project structure. Key rule: `site/api/**` is gener
 
 Assign each spawned agent to exactly one workstream:
 
-- **WS1 Crawler/Data Intake**
-  - Owns: `src/crawler/**`, `run_crawl.py`, `run_pending_crawlers.py`, `crawl_agent_skills.py`, `crawl_state.py`, `import_agent_skills.py`, `process_discovered.py`, `enrich_stars.py`, `auto_tag.py`, `check_reachability.py`
+- **WS1 Crawler/Data Intake** *(Named role: SM)*
+  - Owns: `src/crawler/**`, `scripts/crawl/run_crawl.py`, `scripts/crawl/run_pending_crawlers.py`, `scripts/crawl/crawl_agent_skills.py`, `scripts/crawl/crawl_state.py`, `scripts/crawl/import_agent_skills.py`, `scripts/crawl/process_discovered.py`, `scripts/enrich/enrich_stars.py`, `scripts/enrich/auto_tag.py`, `scripts/crawl/check_reachability.py`
   - May write: `data/discovered/**`, `data/claudeskills_info_complete.json`, `data/crawl-state.json`
 - **WS2 Verification (VM)**
-  - Owns: `src/scanner/**`, `src/sanitizer/**`, `src/verification/**`, `run_verify_sample.py`, `run_verify_strict_5agent.py`, `batch_verify_agent_skills.py`, `audit_verification_paths.py`, `backfill_verification_level.py`
+  - Owns: `src/scanner/**`, `src/sanitizer/**`, `src/verification/**`, `scripts/verify/run_verify_sample.py`, `scripts/verify/run_verify_strict_5agent.py`, `scripts/verify/batch_verify_agent_skills.py`, `scripts/verify/audit_verification_paths.py`, `scripts/verify/backfill_verification_level.py`
   - May write: `data/scan-reports/**`, `data/verification-runs/**`, `data/skills/**` (verification fields only), `data/skill-manager-log.json` (verification_run entries)
   - Receives requests from: SM (skill selection), PM (trigger)
   - Hands results to: SM (SM-A/SM-B review)
   - Never reviews own output (SM does that). Never decides what to verify (SM does that).
-  - See `VERIFICATION_MANAGER.md` for full role definition
+  - See `roles/VERIFICATION_MANAGER.md` for full role definition
 - **WS3 Build/Indexing**
-  - Owns: `src/build/**`, `build_packages.py`, `build_priority.py`, `build_indexes.py`, `fix_data_quality.py`
+  - Owns: `src/build/**`, `scripts/build/build_packages.py`, `scripts/build/build_priority.py`, `scripts/build/build_indexes.py`, `scripts/build/fix_data_quality.py`
   - May write: `site/api/**`, `site/sitemap.xml`, `site/robots.txt`, `data/packages/**`
 - **WS4 Frontend/UX (Frontend Manager)**
   - Owns: `site/index.html`, `site/docs.html`, `site/css/**`, `site/js/**`, `site/profile.html`
   - Must not hand-edit generated JSON
-  - See `FRONTEND_MANAGER.md` for full role definition
+  - See `roles/FRONTEND_MANAGER.md` for full role definition
   - Coordinates with: WS3 (data), WS6 AXM (entry.md), WS7 DM (deploy)
-- **WS5 API (Cloudflare Worker)**
+- **WS5 API (Cloudflare Worker)** *(Named role: AXM)*
   - Owns: `api/**`
 - **WS6 Agent Experience (AXM)**
-  - Owns: `cli/**`, `site/entry.md`, `build_packages.py`, `data/packages/**`
+  - Owns: `cli/**`, `site/entry.md`, `scripts/build/build_packages.py`, `data/packages/**`
   - May write: `site/api/packages/**`
   - Coordinates with: WS4 (frontend), WS3 (build pipeline)
 - **WS7 Deploy (DeployM)**
@@ -56,9 +56,9 @@ Assign each spawned agent to exactly one workstream:
   - Executes deploys on PM instruction. Does not decide what to deploy.
   - Coordinates with: PM (approval), AXM (post-deploy testing), DocM (post-deploy Quick Nav check)
 - **WS8 Documentation (DocM)**
-  - Owns: `README.md`, `DOCUMENTATION_MANAGER.md`
+  - Owns: `README.md`, `roles/DOCUMENTATION_MANAGER.md`
   - May write: any `.md` doc file (during doc-alignment fixes on PM instruction)
-  - Maintains the **Global Quick Nav** in `DOCUMENTATION_MANAGER.md` (master file map for all agents)
+  - Maintains the **Global Quick Nav** in `roles/DOCUMENTATION_MANAGER.md` (master file map for all agents)
   - Fixes documentation drift when PM detects inconsistencies (PM detects → DocM fixes)
   - Other agents ask DocM when they can't find a file, doc, or section
   - Has up to **5 sub-agents** for parallel work
@@ -70,20 +70,25 @@ If a task spans workstreams, split into separate agents with explicit handoff.
 
 These roles oversee multiple workstreams but do not own exclusive file sets. They read from workstream outputs and write decisions/reviews.
 
-- **Project Manager (PM)** — Manual review approvals, doc-alignment detection, goal tracking. See `PROJECT_MANAGER.md`.
+- **Project Manager (PM)** — Manual review approvals, doc-alignment detection, goal tracking. See `roles/PROJECT_MANAGER.md`.
   - Reads from: all workstreams (approval authority)
   - Writes to: `data/skills/*.json` (PM review decisions), `data/skill-manager-log.json` (pm_review entries)
   - Detects doc drift → notifies DocM to fix
-- **Skills Manager (SM)** — Catalog health, dual-agent SM-A/SM-B review, pipeline monitoring. See `SKILLS_MANAGER.md`.
-  - Owns: `skills_manager_review.py`, `health_check.py`
+- **Skills Manager (SM)** — Catalog health, dual-agent SM-A/SM-B review, pipeline monitoring. See `roles/SKILLS_MANAGER.md`.
+  - Owns: `scripts/review/skills_manager_review.py`, `scripts/review/health_check.py`
   - Reads from: WS1 (crawl results), VM (verification results), WS3 (build outputs)
   - Writes to: `data/skill-manager-log.json` (sm_review entries), `data/skills/*.json` (review decisions)
   - Selects what VM should verify (priority tiers). Reviews VM's output (SM-A/SM-B).
-- **Verification Manager (VM)** — Pipeline execution, scanner maintenance, safety override guardian. See `VERIFICATION_MANAGER.md`.
-  - Owns: WS2 file set (src/scanner/**, src/sanitizer/**, src/verification/**, run_verify_*.py)
+- **Verification Manager (VM)** — Pipeline execution, scanner maintenance, safety override guardian. See `roles/VERIFICATION_MANAGER.md`.
+  - Owns: WS2 file set (src/scanner/**, src/sanitizer/**, src/verification/**, scripts/verify/run_verify_*.py)
   - Reads from: SM (verification requests), PM (trigger signals)
   - Writes to: `data/scan-reports/**`, `data/verification-runs/**`, `data/skills/**` (verification fields), `data/skill-manager-log.json`
   - Never reviews own output (SM does that). Never decides what to verify (SM does that).
+- **Security Manager (SecM)** — PM's on-demand security consultant. False positive audit, pattern accuracy. See `roles/SECURITY_MANAGER.md`.
+  - Owns: `scripts/secm/secm_false_positive_audit.py`, `scripts/secm/secm_pattern_test.py`, `data/secm-audit-log.json`, `data/pattern-test-cases/`
+  - Reads from: WS2 (scan reports, regex_patterns.py), SM (skill data, skill-manager-log.json)
+  - Writes to: `data/secm-audit-log.json`, `data/skill-manager-log.json` (secm_fp_audit / secm_pattern_audit entries)
+  - Invoked by PM only. Not in the normal verification chain.
 
 ## 4) Non-Negotiable Consistency Rules
 
@@ -113,14 +118,14 @@ Use `AGENT_TASK_TEMPLATE.md` for this contract.
 Run these after relevant changes:
 
 - Python syntax:
-  - `.venv/bin/python -m py_compile src/build/build_json.py src/build/build_html.py run_verify_sample.py`
+  - `.venv/bin/python -m py_compile src/build/build_json.py src/build/build_html.py scripts/verify/run_verify_sample.py`
 - Frontend syntax:
   - `node --check site/js/app.js`
 - Build:
   - `.venv/bin/python -m src.build.build_json`
   - `.venv/bin/python -m src.build.build_html`
 - Verification:
-  - `python3 run_verify_strict_5agent.py --limit 5 --only-unverified`
+  - `python3 scripts/verify/run_verify_strict_5agent.py --limit 5 --only-unverified`
 - Smoke:
   - `python3 -m http.server 4173 --directory site`
   - Verify `/`, `/api/stats.json`, `/api/skills/index.json`, `/api/search-index.json`

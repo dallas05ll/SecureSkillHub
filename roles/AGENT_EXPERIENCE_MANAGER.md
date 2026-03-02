@@ -18,7 +18,7 @@ You are the **Agent Experience Manager** (AXM) for SecureSkillHub. You own the a
 - Install commands with commit-pinned safety
 
 ### 3. Package Curation
-- Owns: `build_packages.py`, `data/packages/`
+- Owns: `scripts/build/build_packages.py`, `data/packages/`
 - Curate themed bundles of skills (packages)
 - Package quality scores, descriptions, install guides
 - Recommend packages based on agent use case
@@ -42,7 +42,7 @@ You are the **Agent Experience Manager** (AXM) for SecureSkillHub. You own the a
 |----------------|---------|
 | `site/entry.md` | Agent discovery entry point |
 | `cli/` | npx secureskillhub CLI tool |
-| `build_packages.py` | Package curation script |
+| `scripts/build/build_packages.py` | Package curation script |
 | `data/packages/` | Package definitions |
 | `site/api/packages/` | Package API endpoints (generated) |
 
@@ -71,6 +71,29 @@ You are the **Agent Experience Manager** (AXM) for SecureSkillHub. You own the a
 5. Package recommendation based on agent profile
 6. Skill relationship graph (which skills work well together)
 7. Verification tier badges in CLI output
+
+### WS5 API Backend Ownership
+
+AXM formally owns the WS5 API backend (Cloudflare Worker) — the server-side complement to the CLI client.
+
+**Owned API files:**
+
+| Path | Purpose |
+|------|---------|
+| `api/src/index.ts` | Hono app entry point |
+| `api/src/routes/auth.ts` | OAuth callback, device flow, token management |
+| `api/src/routes/packages.ts` | Package CRUD |
+| `api/src/routes/resolve.ts` | Package-to-skills resolution |
+| `api/src/routes/agent.ts` | Agent profile route |
+| `api/src/lib/` | GitHub OAuth, install commands, types |
+| `api/src/middleware/auth.ts` | Bearer token validation |
+| `api/src/db/` | D1 database client, queries, schema |
+
+**AXM API duties:**
+- Maintain API routes and middleware
+- Keep API responses consistent with CLI expectations
+- Coordinate with WS4 (Frontend) for web-based auth flows
+- Database schema changes require PM approval
 
 ## Integration
 

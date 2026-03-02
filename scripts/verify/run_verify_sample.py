@@ -22,7 +22,7 @@ import tempfile
 from datetime import datetime, timezone
 from pathlib import Path
 
-sys.path.insert(0, str(Path(__file__).resolve().parent))
+sys.path.insert(0, str(Path(__file__).resolve().parent.parent.parent))
 
 from src.reachability import log_to_skill_manager
 from src.scanner.scanner import StaticScanner
@@ -33,7 +33,7 @@ logging.basicConfig(
 )
 logger = logging.getLogger("verify_sample")
 
-PROJECT_ROOT = Path(__file__).resolve().parent
+PROJECT_ROOT = Path(__file__).resolve().parent.parent.parent
 SKILLS_DIR = PROJECT_ROOT / "data" / "skills"
 REPORTS_DIR = PROJECT_ROOT / "data" / "scan-reports"
 STATUS_TAG_PREFIX = "status-"

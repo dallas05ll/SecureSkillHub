@@ -13,17 +13,18 @@ Each topic has ONE canonical home. Never duplicate content across files. If you 
 | All data contracts (Pydantic models) | `src/sanitizer/schemas.py` | Single schema source |
 | Growth/monetization strategy | `STRATEGY.md` | Direction, not implementation |
 | Workflow documentation (verify, crawl, build, etc.) | `docs/workflows/` | 6 workflow files, quick nav below |
-| Per-hub crawl tracking | `data/crawl-state.json` | Read/update via `crawl_state.py` |
+| Per-hub crawl tracking | `data/crawl-state.json` | Read/update via `scripts/crawl/crawl_state.py` |
 | Project vision & goals | `docs/design/vision.md` | North star for all agents |
 | Design principles | `docs/design/principles.md` | 22 numbered constraints |
 | Verification architecture | `docs/design/verification-architecture.md` | How 5-agent pipeline works |
-| Project manager agent | `PROJECT_MANAGER.md` | Manual review, doc alignment, goal tracking |
-| Skills Manager (catalog health, SM-A/SM-B review) | `SKILLS_MANAGER.md` | Dual-agent quality + integrity review, selects what VM verifies |
-| Verification Manager (pipeline execution) | `VERIFICATION_MANAGER.md` | Runs 5-agent pipeline, safety override guardian |
-| Agent experience (CLI, packages, entry, UX) | `AGENT_EXPERIENCE_MANAGER.md` | Agent-facing UX, CLI, packages, feedback |
-| Deploy, git, commit tracking, rollback | `DEPLOY_MANAGER.md` | Executes deploys on PM instruction |
-| Frontend visual QA, CSS, rendering bugs | `FRONTEND_MANAGER.md` | Human-facing UI owner |
-| Doc librarian, doc-code alignment, Quick Nav | `DOCUMENTATION_MANAGER.md` | Knows all files/paths, fixes doc drift on PM instruction (5 sub-agents) |
+| Project manager agent | `roles/PROJECT_MANAGER.md` | Manual review, doc alignment, goal tracking |
+| Skills Manager (catalog health, SM-A/SM-B review) | `roles/SKILLS_MANAGER.md` | Dual-agent quality + integrity review, selects what VM verifies |
+| Verification Manager (pipeline execution) | `roles/VERIFICATION_MANAGER.md` | Runs 5-agent pipeline, safety override guardian |
+| Agent experience (CLI, packages, entry, UX) | `roles/AGENT_EXPERIENCE_MANAGER.md` | Agent-facing UX, CLI, packages, feedback |
+| Deploy, git, commit tracking, rollback | `roles/DEPLOY_MANAGER.md` | Executes deploys on PM instruction |
+| Frontend visual QA, CSS, rendering bugs | `roles/FRONTEND_MANAGER.md` | Human-facing UI owner |
+| Doc librarian, doc-code alignment, Quick Nav | `roles/DOCUMENTATION_MANAGER.md` | Knows all files/paths, fixes doc drift on PM instruction (5 sub-agents) |
+| Security Manager (false positive audit, patterns) | `roles/SECURITY_MANAGER.md` | PM's on-demand security consultant, pattern accuracy |
 
 **Rules:**
 - Before writing content, check if it already exists in a canonical file
@@ -51,11 +52,20 @@ Every Task agent MUST use the correct model for its job type. Set the `model` pa
 ## Project Structure (Current)
 
 ```
+roles/                — agent role definition files (8 *_MANAGER.md files)
+scripts/crawl/        — crawl scripts (run_crawl, crawl_state, check_reachability, etc.)
+scripts/verify/       — verification scripts (run_verify_strict_5agent, run_verify_sample, etc.)
+scripts/build/        — build scripts (build_indexes, build_packages, build_priority, fix_data_quality)
+scripts/review/       — review scripts (skills_manager_review, health_check)
+scripts/enrich/       — enrichment scripts (enrich_stars, auto_tag)
+scripts/secm/         — security manager scripts (secm_false_positive_audit, secm_pattern_test)
 data/skills/          — skill JSON files (source of truth)
 data/packages/        — source package definitions
 data/tags.json        — 4-layer tag hierarchy
 data/stats.json       — hub-wide statistics
 data/crawl-state.json — per-hub crawl tracking (6 sources)
+data/pattern-test-cases/ — test corpus for scanner pattern regression testing
+data/secm-audit-log.json — SecM audit trail (append-only)
 docs/workflows/       — workflow documentation (6 files)
 docs/design/          — vision, principles, verification architecture (north star docs)
 src/sanitizer/        — schemas.py (Pydantic models), sanitizer.py
@@ -69,10 +79,6 @@ site/api/             — generated JSON API endpoints (do not hand-edit)
 site/entry.md         — agent-readable discovery entry point
 api/                  — Cloudflare Worker API (user accounts, custom packages)
 cli/                  — npx secureskillhub CLI tool
-health_check.py       — skills manager dashboard (runnable)
-crawl_state.py        — crawl-state.json read/write helper + CLI
-check_reachability.py — batch repo reachability checker (tags unavailable repos)
-build_indexes.py      — generates site/api/indexes/ (manifest, by-status, by-risk, lookup, verify-queue)
 ```
 
 ## Workflows
@@ -96,7 +102,7 @@ build_indexes.py      — generates site/api/indexes/ (manifest, by-status, by-r
 > | Decide what to verify next | `docs/workflows/skills-manager.md` | Verification Priority |
 > | Build/recommend packages | `docs/workflows/skills-manager.md` | Package Recommendations |
 > | Fix data quality issues | `docs/workflows/skills-manager.md` | Commands |
-> | Check repo reachability | `check_reachability.py` | `--report` for stats, `--recheck` for re-test |
+> | Check repo reachability | `scripts/crawl/check_reachability.py` | `--report` for stats, `--recheck` for re-test |
 > | Quickly find skills by status/risk/ID | `site/api/indexes/` | manifest, by-status, by-risk, lookup |
 > | See what needs verification next | `site/api/indexes/verify-queue.json` | Tiered by stars |
 > | Run the full refresh (crawl→deploy) | `docs/workflows/deployment.md` | Full Refresh Sequence |
@@ -113,12 +119,12 @@ All workflows documented in `docs/workflows/`. Each file: Purpose → Quick Nav 
 ```bash
 .venv/bin/python -m src.build.build_json   # Generate API JSON (skills, stats, tags, by-tag, by-tier, packages)
 .venv/bin/python -m src.build.build_html   # Update HTML meta + sitemap + robots
-python3 build_packages.py                  # Rebuild source package files in data/packages/ (optional/manual)
-python3 build_priority.py                  # Rebuild source priority indexes in data + site/api (optional/manual)
-python3 health_check.py                    # Skills manager dashboard
-python3 crawl_state.py show               # View crawl state for all hubs
-python3 run_verify_strict_5agent.py --limit 50  # Full 5-agent deterministic verification
-python3 build_indexes.py                   # Rebuild agent-access indexes (manifest, by-status, by-risk, verify-queue, lookup)
+python3 scripts/build/build_packages.py                  # Rebuild source package files in data/packages/ (optional/manual)
+python3 scripts/build/build_priority.py                  # Rebuild source priority indexes in data + site/api (optional/manual)
+python3 scripts/review/health_check.py                   # Skills manager dashboard
+python3 scripts/crawl/crawl_state.py show                # View crawl state for all hubs
+python3 scripts/verify/run_verify_strict_5agent.py --limit 50  # Full 5-agent deterministic verification
+python3 scripts/build/build_indexes.py                   # Rebuild agent-access indexes (manifest, by-status, by-risk, verify-queue, lookup)
 ```
 
 ## Key Conventions
@@ -133,7 +139,7 @@ python3 build_indexes.py                   # Rebuild agent-access indexes (manif
 - **Status normalization is mandatory** — Canonical statuses are `pass`, `fail`, `manual_review`, `unverified`, `updated_unverified`.
 - **No API keys in the pipeline** — All verification runs locally. Agents A/B/D/E use prepare()/validate_and_override() pattern.
 - **Three verification levels** — `full_pipeline` (5 agents), `scanner_only` (C* only), `metadata_only` (no clone). Don't conflate them.
-- **run_verify_strict_5agent.py is the primary runner** — Full 5-agent deterministic verification. Use this, not pipeline.py.
+- **scripts/verify/run_verify_strict_5agent.py is the primary runner** — Full 5-agent deterministic verification. Use this, not pipeline.py.
 
 ## Security Rules
 
@@ -157,13 +163,13 @@ Every agent that discovers or imports new skills MUST follow these rules:
 2. **Check reachability** — Before adding a new skill, verify the repo is reachable: `git ls-remote --exit-code --heads <repo_url>` (returncode 0 = reachable). Tag unreachable repos with `repo_unavailable`.
 3. **Tag unavailable repos** — If a repo returns non-zero from `git ls-remote`, add `repo_unavailable` to its `tags` array and set `repo_status: "unavailable"` and `repo_check_date` to current ISO timestamp.
 4. **Never import known unavailable** — If a skill already has `repo_unavailable` tag, do not re-import it. Skip it during crawl.
-5. **Reachability check script** — `python3 check_reachability.py` can batch-check all repos. Use `--recheck` to re-test previously unavailable repos (they may come back online).
+5. **Reachability check script** — `python3 scripts/crawl/check_reachability.py` can batch-check all repos. Use `--recheck` to re-test previously unavailable repos (they may come back online).
 6. **Normalize legacy tags** — The old `clone_failure` tag is deprecated. Use `repo_unavailable` instead. TAG_ALIASES in build_json.py maps `clone_failure` → `repo_unavailable`.
 
 ### Reachability Quick Reference
 ```bash
-python3 check_reachability.py --report          # See current stats
-python3 check_reachability.py --only-untagged   # Check new skills only
-python3 check_reachability.py --recheck         # Re-test unavailable repos
-python3 check_reachability.py --limit 100       # Quick sample check
+python3 scripts/crawl/check_reachability.py --report          # See current stats
+python3 scripts/crawl/check_reachability.py --only-untagged   # Check new skills only
+python3 scripts/crawl/check_reachability.py --recheck         # Re-test unavailable repos
+python3 scripts/crawl/check_reachability.py --limit 100       # Quick sample check
 ```

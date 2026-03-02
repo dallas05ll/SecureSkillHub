@@ -57,11 +57,11 @@ PM runs doc-alignment audit (weekly or after major changes)
 | Check | Source of Truth | Doc to Update |
 |-------|----------------|---------------|
 | CLAUDE.md Quick Nav links resolve | Target files' actual section headings | `CLAUDE.md` Quick Nav table |
-| verification.md matches scripts | `run_verify_strict_5agent.py` CLI flags and output | `docs/workflows/verification.md` |
+| verification.md matches scripts | `scripts/verify/run_verify_strict_5agent.py` CLI flags and output | `docs/workflows/verification.md` |
 | entry.md matches API output | Actual JSON at `site/api/skills/*.json` | `site/entry.md` |
 | Schema matches written data | `src/sanitizer/schemas.py` field definitions | Any doc referencing field names |
-| AGENTS.md ownership is complete | Root-level scripts that exist | `AGENTS.md` workstream ownership |
-| Role files match actual behavior | Code and scripts they reference | `*_MANAGER.md` files |
+| AGENTS.md ownership is complete | Scripts in `scripts/` that exist | `AGENTS.md` workstream ownership |
+| Role files match actual behavior | Code and scripts they reference | `roles/*_MANAGER.md` files |
 | Workflow docs match commands | Actual CLI flags and script behavior | `docs/workflows/*.md` |
 
 **Rule:** Code wins. If docs conflict with code, update the docs to match the code. Never change code to match stale docs.
@@ -80,18 +80,12 @@ PM runs doc-alignment audit (weekly or after major changes)
 
 This is the authoritative map of every file in the project. Keep it current.
 
-### Root — Role & Config Files
+### Root — Config Files
 
 | File | Brief | Owner |
 |------|-------|-------|
 | `CLAUDE.md` | Canonical agent rules, model routing, project structure, conventions | System (auto-loaded) |
 | `AGENTS.md` | Parallel agent execution contract, workstream file ownership | System |
-| `PROJECT_MANAGER.md` | PM role: manual review, doc-alignment detection, goal tracking | PM |
-| `SKILLS_MANAGER.md` | SM role: catalog health, dual-agent SM-A/SM-B review | SM |
-| `AGENT_EXPERIENCE_MANAGER.md` | AXM role: CLI, packages, entry.md, agent UX | AXM |
-| `DEPLOY_MANAGER.md` | DeployM role: git ops, CI/CD, rollback | DeployM |
-| `VERIFICATION_MANAGER.md` | VM role: pipeline execution, safety overrides, scan reports | VM |
-| `DOCUMENTATION_MANAGER.md` | DocM role: librarian, doc-code alignment, Quick Nav (this file) | DocM |
 | `AGENT_TASK_TEMPLATE.md` | Template for spinning up parallel agent tasks | System |
 | `STRATEGY.md` | Growth/monetization strategy (direction, not implementation) | PM |
 | `README.md` | Public-facing project overview for GitHub visitors | DocM |
@@ -99,36 +93,58 @@ This is the authoritative map of every file in the project. Keep it current.
 | `pyproject.toml` | Python package build configuration | WS2 |
 | `requirements.txt` | Python dependency list | WS2 |
 
-### Root — Python Scripts
+### `roles/` — Agent Role Files
+
+| File | Brief | Owner |
+|------|-------|-------|
+| `roles/PROJECT_MANAGER.md` | PM role: manual review, doc-alignment detection, goal tracking | PM |
+| `roles/SKILLS_MANAGER.md` | SM role: catalog health, dual-agent SM-A/SM-B review | SM |
+| `roles/AGENT_EXPERIENCE_MANAGER.md` | AXM role: CLI, packages, entry.md, agent UX | AXM |
+| `roles/DEPLOY_MANAGER.md` | DeployM role: git ops, CI/CD, rollback | DeployM |
+| `roles/VERIFICATION_MANAGER.md` | VM role: pipeline execution, safety overrides, scan reports | VM |
+| `roles/DOCUMENTATION_MANAGER.md` | DocM role: librarian, doc-code alignment, Quick Nav (this file) | DocM |
+| `roles/SECURITY_MANAGER.md` | SecM role: false positive audit, pattern accuracy, PM's security consultant | SecM |
+| `roles/FRONTEND_MANAGER.md` | Frontend Manager role: human-facing UI, visual QA, CSS | WS4 |
+
+### `scripts/` — Python Scripts
 
 | Script | Brief | Workstream |
 |--------|-------|------------|
-| `run_crawl.py` | Run all crawlers in parallel | WS1 |
-| `run_pending_crawlers.py` | Run pending crawlers (skills_sh, skillsmp) | WS1 |
-| `crawl_agent_skills.py` | Crawl GitHub for repos containing SKILL.md | WS1 |
-| `crawl_state.py` | Read/write helper for crawl-state.json | WS1 |
-| `import_agent_skills.py` | Import skills from claudeskills.info dump | WS1 |
-| `process_discovered.py` | Process raw discoveries into validated skill entries | WS1 |
-| `check_reachability.py` | Batch repo reachability checker (git ls-remote) | WS1/SM |
-| `enrich_stars.py` | Enrich skills with current GitHub star counts | WS1/SM |
-| `auto_tag.py` | Auto-tag skills by content analysis | WS1/SM |
-| `run_verify_strict_5agent.py` | **Primary runner** — Full 5-agent deterministic verification | WS2 |
-| `run_verify_sample.py` | Scanner-only (Agent C*) verification | WS2 |
-| `batch_verify_agent_skills.py` | Batch verification for agent_skill entries | WS2 |
-| `audit_verification_paths.py` | Audit verification paths (reporting only) | WS2 |
-| `backfill_verification_level.py` | One-time migration: backfill verification_level | WS2 |
-| `skills_manager_review.py` | Dual-agent SM-A/SM-B review orchestrator | SM |
-| `health_check.py` | Skills manager dashboard + logging | SM |
-| `fix_data_quality.py` | Data quality cleanup for skill JSONs | WS3/SM |
-| `build_indexes.py` | Generate agent-access indexes (manifest, by-status, by-risk, verify-queue, lookup) | WS3 |
-| `build_packages.py` | Rebuild source package definitions | WS6 (AXM) |
-| `build_priority.py` | Rebuild star-priority verification queue | WS3 |
+| **`scripts/crawl/`** | | |
+| `scripts/crawl/run_crawl.py` | Run all crawlers in parallel | WS1 |
+| `scripts/crawl/run_pending_crawlers.py` | Run pending crawlers (skills_sh, skillsmp) | WS1 |
+| `scripts/crawl/crawl_agent_skills.py` | Crawl GitHub for repos containing SKILL.md | WS1 |
+| `scripts/crawl/crawl_state.py` | Read/write helper for crawl-state.json | WS1 |
+| `scripts/crawl/import_agent_skills.py` | Import skills from claudeskills.info dump | WS1 |
+| `scripts/crawl/process_discovered.py` | Process raw discoveries into validated skill entries | WS1 |
+| `scripts/crawl/check_reachability.py` | Batch repo reachability checker (git ls-remote) | WS1/SM |
+| **`scripts/verify/`** | | |
+| `scripts/verify/run_verify_strict_5agent.py` | **Primary runner** — Full 5-agent deterministic verification | WS2 |
+| `scripts/verify/run_verify_sample.py` | Scanner-only (Agent C*) verification | WS2 |
+| `scripts/verify/batch_verify_agent_skills.py` | Batch verification for agent_skill entries | WS2 |
+| `scripts/verify/audit_verification_paths.py` | Audit verification paths (reporting only) | WS2 |
+| `scripts/verify/backfill_verification_level.py` | One-time migration: backfill verification_level | WS2 |
+| **`scripts/build/`** | | |
+| `scripts/build/build_indexes.py` | Generate agent-access indexes (manifest, by-status, by-risk, verify-queue, lookup) | WS3 |
+| `scripts/build/build_packages.py` | Rebuild source package definitions | WS6 (AXM) |
+| `scripts/build/build_priority.py` | Rebuild star-priority verification queue | WS3 |
+| `scripts/build/fix_data_quality.py` | Data quality cleanup for skill JSONs | WS3/SM |
+| **`scripts/review/`** | | |
+| `scripts/review/skills_manager_review.py` | Dual-agent SM-A/SM-B review orchestrator | SM |
+| `scripts/review/health_check.py` | Skills manager dashboard + logging | SM |
+| **`scripts/enrich/`** | | |
+| `scripts/enrich/enrich_stars.py` | Enrich skills with current GitHub star counts | WS1/SM |
+| `scripts/enrich/auto_tag.py` | Auto-tag skills by content analysis | WS1/SM |
+| **`scripts/secm/`** | | |
+| `scripts/secm/secm_false_positive_audit.py` | SecM false positive investigation CLI | SecM |
+| `scripts/secm/secm_pattern_test.py` | SecM pattern regression test suite | SecM |
 
 ### `src/` — Python Source Packages
 
 | Path | Brief |
 |------|-------|
 | `src/reachability.py` | Shared module: repo reachability checks + skills manager logging |
+| `src/docm_registry.py` | DocM file registry helper: register, move, remove, validate files |
 | **`src/sanitizer/`** | |
 | `src/sanitizer/schemas.py` | **Single source of truth** for all Pydantic data models |
 | `src/sanitizer/sanitizer.py` | Inter-agent output sanitizer: validates and strips injection |
@@ -141,7 +157,7 @@ This is the authoritative map of every file in the project. Keep it current.
 | `src/verification/agent_b_code_parser.py` | Agent B: extracts code behavior (never sees docs) |
 | `src/verification/agent_d_scorer.py` | Agent D: compares A vs B+C*, scores mismatches |
 | `src/verification/agent_e_supervisor.py` | Agent E: final approval/rejection, checks for agent compromise |
-| `src/verification/pipeline.py` | Reference pipeline architecture (execution via run_verify_strict_5agent.py) |
+| `src/verification/pipeline.py` | Reference pipeline architecture (execution via scripts/verify/run_verify_strict_5agent.py) |
 | **`src/crawler/`** | |
 | `src/crawler/base.py` | Abstract base crawler: async HTTP, rate limiting, retry |
 | `src/crawler/mcp_so.py` | Crawler for mcp.so |
@@ -197,7 +213,7 @@ This is the authoritative map of every file in the project. Keep it current.
 | `site/api/skills/by-tier/` | Per-star-tier skill lists |
 | `site/api/packages/` | ~80 generated package JSON files |
 | `site/api/packages/index.json` | Package directory index |
-| **`site/api/indexes/`** | **Agent-access indexes (generated by build_indexes.py)** |
+| **`site/api/indexes/`** | **Agent-access indexes (generated by scripts/build/build_indexes.py)** |
 | `site/api/indexes/manifest.json` | All 6,307 skill IDs with key metadata |
 | `site/api/indexes/by-status.json` | Skills grouped by verification status |
 | `site/api/indexes/by-risk.json` | Skills grouped by risk level |
@@ -260,7 +276,7 @@ This is the authoritative map of every file in the project. Keep it current.
 |------|-------|
 | `data/skills/` | **Source of truth** — 6,307 individual skill JSON files |
 | `data/packages/` | 53 source package definition JSON files |
-| `data/discovered/` | Raw crawl batch files (input to process_discovered.py) |
+| `data/discovered/` | Raw crawl batch files (input to scripts/crawl/process_discovered.py) |
 | `data/scan-reports/` | ~4,147 per-skill scan report directories |
 | `data/verification-runs/` | Timestamped verification pipeline output files |
 | `data/reports/` | PM review reports |
@@ -273,12 +289,56 @@ This is the authoritative map of every file in the project. Keep it current.
 | `data/claudeskills_info_complete.json` | Extracted claudeskills.info dump |
 | `data/10-agent-review-report.md` | 38-finding report from 10-agent audit (P0-P3) |
 | `data/pm-review-2026-02-28.md` | PM manual review decisions |
+| `data/secm-audit-log.json` | SecM audit trail (false positive / pattern audits) |
+| `data/pattern-test-cases/` | Test corpus for scanner pattern regression testing |
 
 ### `.github/` — CI/CD
 
 | Path | Brief |
 |------|-------|
 | `.github/workflows/deploy.yml` | GitHub Actions: build + deploy site to GitHub Pages on push to main |
+
+---
+
+## DocM File Registry Protocol
+
+The DocM maintains a persistent file registry to track all project files across sessions.
+
+### Registry Components
+
+| Component | Location | Purpose |
+|-----------|----------|---------|
+| Registry helper | `src/docm_registry.py` | Python API: register, move, remove, validate |
+| File registry | Memory: `docm-file-registry.json` | Current file inventory with briefs + owners |
+| Audit log | Memory: `docm-audit-log.json` | Timestamped trail of all registry changes |
+| Role memory | Memory: `documentation-manager.md` | DocM quick reference + path lookup |
+
+### Registry Operations
+
+```python
+from src.docm_registry import register_file, move_file, remove_file, validate_registry
+
+# Register a new file
+register_file("scripts/crawl/new_crawler.py", "New skill hub crawler", owner="WS1", category="script")
+
+# Record a file move
+move_file("old/path.py", "new/path.py", reason="Reorganization")
+
+# Remove a file
+remove_file("deprecated/script.py", reason="No longer needed")
+
+# Validate all registered files exist
+result = validate_registry()
+print(f"Valid: {result['valid']}/{result['total']}, Missing: {result['missing']}")
+```
+
+### Protocol Rules
+
+1. **Every new file** created in the project must be registered via `register_file()`
+2. **Every file move** must be recorded via `move_file()` — the registry stays in sync
+3. **Every file deletion** must be recorded via `remove_file()`
+4. **After bulk operations**, run `validate_registry()` to catch missed updates
+5. **PM notifies DocM** when new files are created during any workflow
 
 ---
 
@@ -289,6 +349,7 @@ This is the authoritative map of every file in the project. Keep it current.
 | **Project Manager** | PM detects doc drift → notifies DocM to fix. DocM reports back when done. |
 | **Deploy Manager** | After DocM updates docs, DeployM commits and deploys (via PM approval). |
 | **Skills Manager** | SM may flag stale workflow docs after pipeline changes → route through PM to DocM. |
+| **Security Manager** | DocM keeps SecM docs aligned with actual SecM behavior and pattern test corpus. |
 | **Agent Experience Manager** | AXM owns `site/entry.md` content; DocM ensures it stays aligned with actual API. |
 | **All agents** | Any agent that can't find a file, doc, or section asks DocM. DocM points them to the right path. |
 

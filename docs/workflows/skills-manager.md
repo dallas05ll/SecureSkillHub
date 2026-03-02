@@ -22,8 +22,8 @@ Read these files for a complete picture of the collection:
 |-------------|------|-------------------|
 | Hub statistics | `data/stats.json` | Total skills, verified/failed/pending counts, per-source totals |
 | Crawl state | `data/crawl-state.json` | Per-hub crawl status, last crawl dates, completion |
-| Verify queue (scripts) | `data/verify-queue.json` | Tier breakdown (by stars), built by `build_priority.py` |
-| Verify queue (agents) | `site/api/indexes/verify-queue.json` | Same data, agent-accessible API path, built by `build_indexes.py` |
+| Verify queue (scripts) | `data/verify-queue.json` | Tier breakdown (by stars), built by `scripts/build/build_priority.py` |
+| Verify queue (agents) | `site/api/indexes/verify-queue.json` | Same data, agent-accessible API path, built by `scripts/build/build_indexes.py` |
 | Package index | `data/packages/index.json` | Auto-curated packages, tag coverage, avg scores |
 | Tag hierarchy | `data/tags.json` | 4-layer taxonomy, all valid tag IDs |
 | Individual skills | `data/skills/*.json` | Full skill records (6,307 files) |
@@ -34,7 +34,7 @@ Read these files for a complete picture of the collection:
 
 ## Health Checks
 
-Run `python3 health_check.py` for an automated dashboard, or check manually:
+Run `python3 scripts/review/health_check.py` for an automated dashboard, or check manually:
 
 ### 1. Collection Coverage
 
@@ -45,23 +45,23 @@ Run `python3 health_check.py` for an automated dashboard, or check manually:
 ### 2. Verification Coverage
 
 - What % of skills are verified? (`data/stats.json` → verified_skills / total_skills)
-- Run `python3 health_check.py` for live numbers (do not rely on hardcoded stats)
+- Run `python3 scripts/review/health_check.py` for live numbers (do not rely on hardcoded stats)
 - How many `fail` or `manual_review` need attention?
 
 ### 3. Data Quality
 
 - Skills with `verified_commit: null` — were they scanned without capturing the commit?
-- Skills with `findings_summary` as a string (should be dict) — run `fix_data_quality.py`
+- Skills with `findings_summary` as a string (should be dict) — run `scripts/build/fix_data_quality.py`
 - Skills with `scan_date: null` but `verification_status != unverified` — data inconsistency
 
 ### 4. Tag Coverage
 
-- Are there skills with empty `tags: []`? → Run `python3 auto_tag.py`
+- Are there skills with empty `tags: []`? → Run `python3 scripts/enrich/auto_tag.py`
 - Are tags balanced or concentrated in a few categories?
 
 ### 5. Package Gaps
 
-- Are there top-level tags with no packages? → Run `python3 build_packages.py`
+- Are there top-level tags with no packages? → Run `python3 scripts/build/build_packages.py`
 - Do packages have enough high-quality skills (score ≥ 70, verified)?
 
 ---
@@ -74,25 +74,25 @@ The skills manager supervises both crawl and verification pipelines through `dat
 
 | `check_type` | Source | What It Records |
 |--------------|--------|-----------------|
-| `crawl_run` | `process_discovered.py`, `crawl_agent_skills.py` | Skills discovered, deduped, reachable, written |
+| `crawl_run` | `scripts/crawl/process_discovered.py`, `scripts/crawl/crawl_agent_skills.py` | Skills discovered, deduped, reachable, written |
 | `crawl_reachability` | `src/reachability.py` (inline) | Per-batch reachability results during crawl |
-| `reachability_run` | `check_reachability.py` (batch) | Full-collection reachability scan |
-| `health_check` | `health_check.py` | Collection stats, verification coverage, quality |
-| `verification_run` | `run_verify_strict_5agent.py`, `run_verify_sample.py`, `batch_verify_agent_skills.py` | Verification pipeline results (full/scanner-only/metadata-only) |
+| `reachability_run` | `scripts/crawl/check_reachability.py` (batch) | Full-collection reachability scan |
+| `health_check` | `scripts/review/health_check.py` | Collection stats, verification coverage, quality |
+| `verification_run` | `scripts/verify/run_verify_strict_5agent.py`, `scripts/verify/run_verify_sample.py`, `scripts/verify/batch_verify_agent_skills.py` | Verification pipeline results (full/scanner-only/metadata-only) |
 
 ### What the Manager Monitors
 
 1. **Crawl quality** — What fraction of each hub's discoveries are dead repos? High unreachable rate (>30%) = low-quality hub, reconsider priority.
-2. **Collection decay** — Are previously-reachable repos going offline? Run `check_reachability.py --recheck` periodically.
+2. **Collection decay** — Are previously-reachable repos going offline? Run `scripts/crawl/check_reachability.py --recheck` periodically.
 3. **Duplicate prevention** — Crawl scripts now check existing `repo_url` before adding. Log tracks new vs merged.
 4. **Verification progress** — How many skills have `verification_level: full_pipeline` vs `scanner_only` vs `unverified`?
-5. **Unavailable skills** — monitor `repo_unavailable` tag volume via `python3 check_reachability.py --report`; verification scripts skip these by default.
+5. **Unavailable skills** — monitor `repo_unavailable` tag volume via `python3 scripts/crawl/check_reachability.py --report`; verification scripts skip these by default.
 6. **Status search tags** — verification scripts sync one `status-*` tag on touched records (`status-pass`, `status-manual_review`, etc.); use `verification_status` as canonical for full-collection analytics.
 
 ### Reading the Log
 
 ```bash
-python3 health_check.py --history 5   # Last 5 log entries
+python3 scripts/review/health_check.py --history 5   # Last 5 log entries
 python3 -c "import json; [print(e['check_type'], e['timestamp'][:16], json.dumps(e.get('findings',{}))) for e in json.load(open('data/skill-manager-log.json')).get('entries',[])]"
 ```
 
@@ -116,7 +116,7 @@ Skills are prioritized by GitHub stars (highest first). Use `data/verify-queue.j
 
 ## Package Recommendations
 
-Packages are auto-curated by `build_packages.py` based on:
+Packages are auto-curated by `scripts/build/build_packages.py` based on:
 
 1. **Tag hierarchy** — packages follow the tag tree (e.g., `dev-web-backend-python`)
 2. **Minimum skills** — need ≥ 1 skill with score ≥ 50 and status not `unverified`/`fail`
@@ -127,7 +127,7 @@ Packages are auto-curated by `build_packages.py` based on:
 - After a bulk verification run (new skills verified)
 - After star enrichment (rankings may change)
 - After adding a new tag category
-- Run: `python3 build_packages.py`
+- Run: `python3 scripts/build/build_packages.py`
 
 **Current packages:** 16 (concentrated in dev and data domains)
 
@@ -158,9 +158,9 @@ Some environments maintain aggregate counters at the log root. Treat these as op
 ### How to View History
 
 ```bash
-python3 health_check.py --history       # Show last 5 entries
-python3 health_check.py --history 10    # Show last 10 entries
-python3 health_check.py --history 1     # Show only the most recent entry
+python3 scripts/review/health_check.py --history       # Show last 5 entries
+python3 scripts/review/health_check.py --history 10    # Show last 10 entries
+python3 scripts/review/health_check.py --history 1     # Show only the most recent entry
 ```
 
 ### Behavior Tracking
@@ -179,26 +179,26 @@ Over time, the log builds a picture of the collection's health trajectory. By re
 
 ```bash
 # Health dashboard (also logs to data/skill-manager-log.json)
-python3 health_check.py
+python3 scripts/review/health_check.py
 
 # View skill manager history
-python3 health_check.py --history           # Last 5 entries
-python3 health_check.py --history 10        # Last 10 entries
+python3 scripts/review/health_check.py --history           # Last 5 entries
+python3 scripts/review/health_check.py --history 10        # Last 10 entries
 
 # Priority verification
-python3 build_indexes.py --only verify-queue --only by-status
-python3 run_verify_sample.py --only-unverified --limit 20  # Scanner-only sample
-python3 run_verify_strict_5agent.py --limit 20 --group-count 5 --only-unverified
+python3 scripts/build/build_indexes.py --only verify-queue --only by-status
+python3 scripts/verify/run_verify_sample.py --only-unverified --limit 20  # Scanner-only sample
+python3 scripts/verify/run_verify_strict_5agent.py --limit 20 --group-count 5 --only-unverified
 
 # Enrichment
-python3 enrich_stars.py --skip-existing                     # Update star counts
-python3 auto_tag.py                                         # Re-tag all skills
+python3 scripts/enrich/enrich_stars.py --skip-existing                     # Update star counts
+python3 scripts/enrich/auto_tag.py                                         # Re-tag all skills
 
 # Package management
-python3 build_packages.py                                   # Rebuild packages
+python3 scripts/build/build_packages.py                                   # Rebuild packages
 
 # Data quality
-python3 fix_data_quality.py                                 # Fix schema inconsistencies
+python3 scripts/build/fix_data_quality.py                                 # Fix schema inconsistencies
 
 # Full rebuild
 .venv/bin/python -m src.build.build_json                    # Rebuild API JSON

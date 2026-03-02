@@ -16,7 +16,7 @@ import sys
 import uuid
 from pathlib import Path
 
-sys.path.insert(0, str(Path(__file__).resolve().parent))
+sys.path.insert(0, str(Path(__file__).resolve().parent.parent.parent))
 
 logging.basicConfig(
     level=logging.INFO,
@@ -24,7 +24,7 @@ logging.basicConfig(
 )
 logger = logging.getLogger("import_agent_skills")
 
-PROJECT_ROOT = Path(__file__).resolve().parent
+PROJECT_ROOT = Path(__file__).resolve().parent.parent.parent
 SKILLS_DIR = PROJECT_ROOT / "data" / "skills"
 EXTRACTED_FILE = PROJECT_ROOT / "data" / "claudeskills_info_complete.json"
 

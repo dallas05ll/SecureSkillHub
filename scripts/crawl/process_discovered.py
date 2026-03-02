@@ -21,7 +21,7 @@ import sys
 import uuid
 from pathlib import Path
 
-sys.path.insert(0, str(Path(__file__).resolve().parent))
+sys.path.insert(0, str(Path(__file__).resolve().parent.parent.parent))
 
 logging.basicConfig(
     level=logging.INFO,
@@ -29,7 +29,7 @@ logging.basicConfig(
 )
 logger = logging.getLogger("process_discovered")
 
-PROJECT_ROOT = Path(__file__).resolve().parent
+PROJECT_ROOT = Path(__file__).resolve().parent.parent.parent
 DISCOVERED_DIR = PROJECT_ROOT / "data" / "discovered"
 SKILLS_DIR = PROJECT_ROOT / "data" / "skills"
 

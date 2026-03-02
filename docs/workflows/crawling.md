@@ -19,9 +19,9 @@ How skills are discovered and collected from external hubs.
 
 | Hub | Crawler File | Runner | Status | Collected | Trust |
 |-----|-------------|--------|--------|-----------|-------|
-| mcp.so | `src/crawler/mcp_so.py` | `run_crawl.py` | Done | 5,421 | LOW — unvetted directory |
-| Glama.ai | `src/crawler/glama.py` | `run_crawl.py` | Done | 51 | MEDIUM — curated |
-| GitHub Search | `crawl_agent_skills.py` | Direct CLI | Done | 499 | MEDIUM — GitHub topics/code search |
+| mcp.so | `src/crawler/mcp_so.py` | `scripts/crawl/run_crawl.py` | Done | 5,421 | LOW — unvetted directory |
+| Glama.ai | `src/crawler/glama.py` | `scripts/crawl/run_crawl.py` | Done | 51 | MEDIUM — curated |
+| GitHub Search | `scripts/crawl/crawl_agent_skills.py` | Direct CLI | Done | 499 | MEDIUM — GitHub topics/code search |
 | ClaudeSkills.info | `src/crawler/claudeskills.py` | None (import only) | Partial | 76 | MEDIUM — curated |
 | Skills.sh | `src/crawler/skills_sh.py` | None | Pending | 0 | MEDIUM — Snyk scanning |
 | SkillsMP | `src/crawler/skillsmp.py` | None | Pending | 0 | LOW — 96K+ unvetted aggregator |
@@ -37,18 +37,18 @@ How crawling actually works today (not aspirational):
 ### Path 1: Batch Pipeline (mcp.so + Glama)
 
 ```
-run_crawl.py
+scripts/crawl/run_crawl.py
   → runs GlamaCrawler + MCPSoCrawler in parallel (asyncio)
   → each crawler writes to data/discovered/batch-{source}-{timestamp}.json
-  → process_discovered.py merges batches into data/skills/
+  → scripts/crawl/process_discovered.py merges batches into data/skills/
      - deduplication by repo_url
      - generates deterministic skill IDs
      - ✅ REACHABILITY CHECK: filters out unreachable repos before writing
      - logs results to skills manager (data/skill-manager-log.json)
 
-⚠️ CRITICAL: process_discovered.py has TWO modes:
-   - `python3 process_discovered.py --merge` → preserves existing stars, verification, scan data
-   - `python3 process_discovered.py` (no flag) → DELETES ALL existing skill files first
+⚠️ CRITICAL: scripts/crawl/process_discovered.py has TWO modes:
+   - `python3 scripts/crawl/process_discovered.py --merge` → preserves existing stars, verification, scan data
+   - `python3 scripts/crawl/process_discovered.py` (no flag) → DELETES ALL existing skill files first
    Always use --merge for incremental updates.
    Use --skip-reachability to skip the reachability check (faster but includes dead repos).
 ```
@@ -56,7 +56,7 @@ run_crawl.py
 ### Path 2: Direct Write (GitHub Search)
 
 ```
-crawl_agent_skills.py
+scripts/crawl/crawl_agent_skills.py
   → uses `gh` CLI to search GitHub topics + code
   → ✅ DEDUP CHECK: skips repos already in data/skills/
   → ✅ REACHABILITY CHECK: filters out unreachable repos before writing
@@ -67,7 +67,7 @@ crawl_agent_skills.py
 ### Path 3: Static Import (ClaudeSkills)
 
 ```
-import_agent_skills.py
+scripts/crawl/import_agent_skills.py
   → reads a static JSON dump from ClaudeSkills.info
   → maps categories to our tag hierarchy
   → writes to data/skills/ with skill_type="agent_skill"
@@ -75,7 +75,7 @@ import_agent_skills.py
 
 ### Path 4: Not Yet Run
 
-`src/crawler/skills_sh.py` and `src/crawler/skillsmp.py` exist as crawler classes but have no runner script. They would need to be added to `run_crawl.py` or get their own runner.
+`src/crawler/skills_sh.py` and `src/crawler/skillsmp.py` exist as crawler classes but have no runner script. They would need to be added to `scripts/crawl/run_crawl.py` or get their own runner.
 
 ---
 
@@ -107,12 +107,12 @@ All crawl scripts import from `src/reachability.py`:
 
 ### Batch Reachability (post-save)
 
-For skills already in the collection, use `check_reachability.py`:
+For skills already in the collection, use `scripts/crawl/check_reachability.py`:
 
 ```bash
-python3 check_reachability.py --report          # View stats
-python3 check_reachability.py --only-untagged   # Check new skills only
-python3 check_reachability.py --recheck         # Re-test unavailable repos (recovery)
+python3 scripts/crawl/check_reachability.py --report          # View stats
+python3 scripts/crawl/check_reachability.py --only-untagged   # Check new skills only
+python3 scripts/crawl/check_reachability.py --recheck         # Re-test unavailable repos (recovery)
 ```
 
 ### Stats (as of 2026-02-28)
@@ -144,8 +144,8 @@ Executes the actual crawl, processes results, updates state.
 
 ```
 Input: Crawl plan from Evaluator
-Execution: run_crawl.py or individual crawler
-Post-processing: process_discovered.py → merge into data/skills/
+Execution: scripts/crawl/run_crawl.py or individual crawler
+Post-processing: scripts/crawl/process_discovered.py → merge into data/skills/
 Output: Updated data/crawl-state.json with results
 ```
 
@@ -160,9 +160,9 @@ Separation prevents a single agent from both deciding to crawl a low-quality hub
 To register a new skill hub:
 
 1. Add a crawler class in `src/crawler/` extending `BaseCrawler`
-2. Register the hub using `crawl_state.py` (preferred) or edit `data/crawl-state.json` manually:
+2. Register the hub using `scripts/crawl/crawl_state.py` (preferred) or edit `data/crawl-state.json` manually:
    ```bash
-   python3 crawl_state.py add-hub new_hub_key \
+   python3 scripts/crawl/crawl_state.py add-hub new_hub_key \
      --url https://example.com \
      --crawler src/crawler/new_hub.py \
      --trust LOW \
@@ -185,8 +185,8 @@ To register a new skill hub:
      }
    }
    ```
-3. Add the crawler to `run_crawl.py` imports and `crawlers` list
-4. Run a test crawl: `python3 run_crawl.py --max-pages 2`
+3. Add the crawler to `scripts/crawl/run_crawl.py` imports and `crawlers` list
+4. Run a test crawl: `python3 scripts/crawl/run_crawl.py --max-pages 2`
 
 ---
 
@@ -194,13 +194,13 @@ To register a new skill hub:
 
 Tracked in `data/crawl-state.json`. See that file for current state of all 6 sources.
 
-Use `crawl_state.py` to read/update:
+Use `scripts/crawl/crawl_state.py` to read/update:
 
 ```bash
-python3 crawl_state.py show                          # Print formatted state
-python3 crawl_state.py mark-done mcp_so --total 5421 --pages 115
-python3 crawl_state.py mark-partial claude_skills_hub --total 76 --pages 1
-python3 crawl_state.py add-hub new_hub --url https://example.com --crawler src/crawler/new.py
+python3 scripts/crawl/crawl_state.py show                          # Print formatted state
+python3 scripts/crawl/crawl_state.py mark-done mcp_so --total 5421 --pages 115
+python3 scripts/crawl/crawl_state.py mark-partial claude_skills_hub --total 76 --pages 1
+python3 scripts/crawl/crawl_state.py add-hub new_hub --url https://example.com --crawler src/crawler/new.py
 ```
 
 ---
@@ -209,22 +209,22 @@ python3 crawl_state.py add-hub new_hub --url https://example.com --crawler src/c
 
 ```bash
 # Run active crawlers (Glama + mcp.so)
-python3 run_crawl.py --max-pages 10
+python3 scripts/crawl/run_crawl.py --max-pages 10
 
 # Process discovered batches into data/skills/
-python3 process_discovered.py --merge                   # ⚠️ ALWAYS use --merge for incremental updates
-python3 process_discovered.py --merge --limit 100       # Limit to first 100 skills (for testing)
-# python3 process_discovered.py                         # ⚠️ WITHOUT --merge: deletes ALL existing files
+python3 scripts/crawl/process_discovered.py --merge                   # ⚠️ ALWAYS use --merge for incremental updates
+python3 scripts/crawl/process_discovered.py --merge --limit 100       # Limit to first 100 skills (for testing)
+# python3 scripts/crawl/process_discovered.py                         # ⚠️ WITHOUT --merge: deletes ALL existing files
 
 # Crawl GitHub for agent skills
-python3 crawl_agent_skills.py                           # Default: up to 500 skills
-python3 crawl_agent_skills.py --limit 50                # Limit collection size
+python3 scripts/crawl/crawl_agent_skills.py                           # Default: up to 500 skills
+python3 scripts/crawl/crawl_agent_skills.py --limit 50                # Limit collection size
 
 # Import from ClaudeSkills.info static dump
-python3 import_agent_skills.py                          # Reads data/claudeskills_info_complete.json
+python3 scripts/crawl/import_agent_skills.py                          # Reads data/claudeskills_info_complete.json
 
 # Check crawl state
-python3 crawl_state.py show
+python3 scripts/crawl/crawl_state.py show
 ```
 
 ---
@@ -233,7 +233,7 @@ python3 crawl_state.py show
 
 ```
                     ┌──────────────┐
-                    │  run_crawl.py│
+                    │ run_crawl.py │
                     │ (Glama+mcp.so)│
                     └──────┬───────┘
                            │ batch JSON
@@ -245,7 +245,7 @@ python3 crawl_state.py show
                          │
                          ▼
               ┌──────────────────────┐
-              │ process_discovered.py│──────────────┐
+              │process_discovered.py │──────────────┐
               │ (merge + dedup)      │              │
               └──────────┬───────────┘              │
                          │                          │
@@ -257,7 +257,7 @@ python3 crawl_state.py show
                          ▲                          │
                          │ direct write             │
               ┌──────────┴───────────┐   ┌─────────┴──────────┐
-              │crawl_agent_skills.py │   │import_agent_skills.py│
+              │crawl_agent_skills.py │   │import_agent_skills.py │
               │ (GitHub search)      │   │ (ClaudeSkills dump)  │
               └──────────────────────┘   └──────────────────────┘
 ```

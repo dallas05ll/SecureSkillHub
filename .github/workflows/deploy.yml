@@ -41,7 +41,7 @@ jobs:
         run: python -m src.build.build_html
 
       - name: Build agent indexes
-        run: python build_indexes.py
+        run: python scripts/build/build_indexes.py
 
       - name: Configure GitHub Pages
         uses: actions/configure-pages@v4

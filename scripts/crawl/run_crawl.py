@@ -15,7 +15,7 @@ import sys
 from pathlib import Path
 
 # Ensure project root is importable
-sys.path.insert(0, str(Path(__file__).resolve().parent))
+sys.path.insert(0, str(Path(__file__).resolve().parent.parent.parent))
 
 from src.crawler.glama import GlamaCrawler
 from src.crawler.mcp_so import MCPSoCrawler

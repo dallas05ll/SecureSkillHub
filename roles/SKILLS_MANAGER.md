@@ -10,12 +10,12 @@ You are the first line of defense for data quality. Monitor continuously:
 
 | Check | Frequency | Command |
 |-------|-----------|---------|
-| Collection health dashboard | After every crawl/verify batch | `python3 health_check.py` |
-| Verification coverage | Daily | `python3 health_check.py` (check verified %) |
-| Data quality issues | After bulk operations | `python3 fix_data_quality.py` |
-| Reachability decay | Weekly | `python3 check_reachability.py --report` |
-| Tag coverage gaps | After auto_tag or crawl | `python3 auto_tag.py` |
-| Package freshness | After verification runs | `python3 build_packages.py` |
+| Collection health dashboard | After every crawl/verify batch | `python3 scripts/review/health_check.py` |
+| Verification coverage | Daily | `python3 scripts/review/health_check.py` (check verified %) |
+| Data quality issues | After bulk operations | `python3 scripts/build/fix_data_quality.py` |
+| Reachability decay | Weekly | `python3 scripts/crawl/check_reachability.py --report` |
+| Tag coverage gaps | After auto_tag or crawl | `python3 scripts/enrich/auto_tag.py` |
+| Package freshness | After verification runs | `python3 scripts/build/build_packages.py` |
 
 ### 2. Post-Verification Review (Dual-Agent)
 
@@ -24,19 +24,19 @@ After every verification run, both sub-agents review the results independently b
 **Run the review:**
 ```bash
 # After a verification run
-python3 skills_manager_review.py --run-report data/verification-runs/<report>.json
+python3 scripts/review/skills_manager_review.py --run-report data/verification-runs/<report>.json
 
 # Review specific skills
-python3 skills_manager_review.py --skill-ids skill_a,skill_b
+python3 scripts/review/skills_manager_review.py --skill-ids skill_a,skill_b
 
 # Review manual_review queue (for PM escalation)
-python3 skills_manager_review.py --manual-review-queue --limit 10
+python3 scripts/review/skills_manager_review.py --manual-review-queue --limit 10
 
 # Periodic full-collection audit
-python3 skills_manager_review.py --periodic
+python3 scripts/review/skills_manager_review.py --periodic
 
 # Finalize PM decisions (writes status changes)
-python3 skills_manager_review.py --manual-review-queue --limit 10 --pm-finalize
+python3 scripts/review/skills_manager_review.py --manual-review-queue --limit 10 --pm-finalize
 ```
 
 ### 3. Pipeline Supervision
@@ -67,7 +67,7 @@ Decide what gets verified next based on the star-tier system:
 
 ```bash
 # Check current priority queue
-python3 build_indexes.py --only verify-queue --only by-status
+python3 scripts/build/build_indexes.py --only verify-queue --only by-status
 ```
 
 ### 5. Package Quality Oversight
@@ -76,10 +76,10 @@ Monitor package quality and trigger rebuilds:
 
 ```bash
 # Rebuild packages after verification changes
-python3 build_packages.py
+python3 scripts/build/build_packages.py
 
 # Check package coverage gaps
-python3 build_packages.py --dry-run  # (if available)
+python3 scripts/build/build_packages.py --dry-run  # (if available)
 ```
 
 ---
@@ -140,9 +140,15 @@ After both agents complete their independent reviews:
 - Both agents finding issues on the same skill
 - Anomalies: unexpected patterns in verification runs
 
+### Post-Decision Rebuild (PM responsibility)
+After PM makes final decisions on escalated skills, PM must:
+1. Instruct WS3 to rebuild: `build_json` + `build_html` + `build_indexes`
+2. Instruct DeployM to commit + deploy
+Without this step, the site shows stale data. SM should remind PM if rebuild hasn't happened.
+
 ### From Verification Manager (VM)
 - After VM completes a run, VM hands SM the run report path
-- SM runs `skills_manager_review.py --run-report <path>` to review all results
+- SM runs `scripts/review/skills_manager_review.py --run-report <path>` to review all results
 - SM never runs verification scripts directly — that is VM's job
 - SM selects WHAT to verify (priority tiers) and tells VM to execute
 
@@ -162,13 +168,37 @@ VM executes and returns the run report path to SM for review.
 
 | File/Script | Purpose |
 |-------------|---------|
-| `skills_manager_review.py` | Dual-agent review orchestrator |
-| `health_check.py` | Collection health dashboard |
-| `fix_data_quality.py` | Data quality cleanup |
-| `check_reachability.py` | Batch repo reachability checker |
-| `auto_tag.py` | Auto-tag skills by content analysis |
-| `enrich_stars.py` | GitHub stars enrichment |
+| `scripts/review/skills_manager_review.py` | Dual-agent review orchestrator |
+| `scripts/review/health_check.py` | Collection health dashboard |
+| `scripts/build/fix_data_quality.py` | Data quality cleanup |
+| `scripts/crawl/check_reachability.py` | Batch repo reachability checker |
+| `scripts/enrich/auto_tag.py` | Auto-tag skills by content analysis |
+| `scripts/enrich/enrich_stars.py` | GitHub stars enrichment |
 | `data/skill-manager-log.json` | Operational memory log |
+
+### WS1 Crawl Pipeline Ownership
+
+SM formally owns the WS1 crawl pipeline — selecting crawl targets, monitoring crawl quality, and ensuring reachability checks are current.
+
+**Owned crawl scripts:**
+
+| Script | Purpose |
+|--------|---------|
+| `scripts/crawl/run_crawl.py` | Run all crawlers in parallel |
+| `scripts/crawl/run_pending_crawlers.py` | Run pending crawlers |
+| `scripts/crawl/crawl_agent_skills.py` | GitHub SKILL.md discovery |
+| `scripts/crawl/crawl_state.py` | Crawl state tracking |
+| `scripts/crawl/import_agent_skills.py` | ClaudeSkills import |
+| `scripts/crawl/process_discovered.py` | Raw discovery processing |
+| `scripts/crawl/check_reachability.py` | Repo reachability batch checker |
+| `scripts/enrich/enrich_stars.py` | Star count enrichment |
+| `scripts/enrich/auto_tag.py` | Auto-tagging by content |
+
+**SM crawl duties:**
+- Decide which hubs to crawl and when
+- Monitor crawl results (new skills found, dedup rate, reachability rate)
+- Trigger re-crawls when coverage gaps are detected
+- Review crawl quality via `data/skill-manager-log.json` entries
 
 ## Relationship to Other Roles
 
@@ -176,7 +206,8 @@ VM executes and returns the run report path to SM for review.
 |------|-------------|
 | **Project Manager** | PM triggers verification. SM escalates manual_review and split decisions. PM makes final calls. |
 | **Verification Manager** | **Tightest coupling.** SM selects WHAT to verify → VM executes → SM reviews results (SM-A/SM-B). SM never runs verification scripts. |
-| **Agent Experience Manager** | SM signals when packages need rebuild after verification changes. AXM owns `build_packages.py` and package UX. SM monitors package quality (read-only). |
+| **Security Manager** | SecM investigates specific skills when SM/PM need deeper false positive analysis. SM may flag patterns with high false positive rates to PM, who invokes SecM. |
+| **Agent Experience Manager** | SM signals when packages need rebuild after verification changes. AXM owns `scripts/build/build_packages.py` and package UX. SM monitors package quality (read-only). |
 | **Deploy Manager** | SM requests rebuild+deploy after bulk verification. Route through PM. |
 | **Documentation Manager** | DocM keeps workflow docs aligned with actual SM/VM behavior. |
 
@@ -186,28 +217,28 @@ VM executes and returns the run report path to SM for review.
 
 ```bash
 # Health dashboard
-python3 health_check.py
-python3 health_check.py --history 5
+python3 scripts/review/health_check.py
+python3 scripts/review/health_check.py --history 5
 
 # Post-verification review
-python3 skills_manager_review.py --run-report <path>
-python3 skills_manager_review.py --manual-review-queue --limit 10
-python3 skills_manager_review.py --periodic --limit 50
+python3 scripts/review/skills_manager_review.py --run-report <path>
+python3 scripts/review/skills_manager_review.py --manual-review-queue --limit 10
+python3 scripts/review/skills_manager_review.py --periodic --limit 50
 
 # PM finalization
-python3 skills_manager_review.py --manual-review-queue --pm-finalize
+python3 scripts/review/skills_manager_review.py --manual-review-queue --pm-finalize
 
 # Data quality
-python3 fix_data_quality.py
-python3 check_reachability.py --report
-python3 check_reachability.py --recheck
+python3 scripts/build/fix_data_quality.py
+python3 scripts/crawl/check_reachability.py --report
+python3 scripts/crawl/check_reachability.py --recheck
 
 # Enrichment
-python3 enrich_stars.py --skip-existing
-python3 auto_tag.py
+python3 scripts/enrich/enrich_stars.py --skip-existing
+python3 scripts/enrich/auto_tag.py
 
 # Verification priority
-python3 build_indexes.py --only verify-queue --only by-status
+python3 scripts/build/build_indexes.py --only verify-queue --only by-status
 ```
 
 ---
@@ -224,7 +255,7 @@ The skills manager maintains persistent memory at `data/skill-manager-log.json`.
 
 ```bash
 # View recent history
-python3 health_check.py --history 5
+python3 scripts/review/health_check.py --history 5
 
 # Raw log inspection
 python3 -c "import json; [print(e['check_type'], e['timestamp'][:16]) for e in json.load(open('data/skill-manager-log.json')).get('entries',[])]"

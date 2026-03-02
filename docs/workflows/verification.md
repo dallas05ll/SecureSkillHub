@@ -8,7 +8,7 @@ A skill is considered fully verified only when all of these are true:
 
 1. `verification_status == "pass"`
 2. `verification_level == "full_pipeline"` **or** `agent_audit.agents_completed >= 5`
-3. In current operations, that state is produced by `run_verify_strict_5agent.py` (A + B + C* + D + E)
+3. In current operations, that state is produced by `scripts/verify/run_verify_strict_5agent.py` (A + B + C* + D + E)
 
 This is the same rule used by the site stats/frontend logic.
 
@@ -16,9 +16,9 @@ This is the same rule used by the site stats/frontend logic.
 
 | `verification_level` | Meaning | Script |
 |---|---|---|
-| `full_pipeline` | Full 5-agent verification (doc-vs-code + scanner + scoring + supervisor) | `run_verify_strict_5agent.py` |
-| `scanner_only` | Agent C* deterministic scanner only | `run_verify_sample.py` |
-| `metadata_only` | Metadata heuristic only (no clone / no code scan) | `batch_verify_agent_skills.py` |
+| `full_pipeline` | Full 5-agent verification (doc-vs-code + scanner + scoring + supervisor) | `scripts/verify/run_verify_strict_5agent.py` |
+| `scanner_only` | Agent C* deterministic scanner only | `scripts/verify/run_verify_sample.py` |
+| `metadata_only` | Metadata heuristic only (no clone / no code scan) | `scripts/verify/batch_verify_agent_skills.py` |
 | empty / missing | Not yet normalized or not verified through current scripts | n/a |
 
 ## Verification Statuses and `status-*` Tags
@@ -61,12 +61,12 @@ By default, both verification runners skip `repo_unavailable` skills. Use `--inc
 
 Reachability maintenance:
 
-- `python3 check_reachability.py` adds/removes `repo_unavailable`
-- `python3 check_reachability.py --recheck` retries currently unavailable repos and removes the tag if reachable
+- `python3 scripts/crawl/check_reachability.py` adds/removes `repo_unavailable`
+- `python3 scripts/crawl/check_reachability.py --recheck` retries currently unavailable repos and removes the tag if reachable
 
 ## Full Pipeline Outputs (Strict 5-Agent)
 
-`run_verify_strict_5agent.py` writes:
+`scripts/verify/run_verify_strict_5agent.py` writes:
 
 1. Skill updates in `data/skills/{id}.json`
 2. Per-agent reports in `data/scan-reports/{id}/`:
@@ -87,7 +87,7 @@ There are two queue files with different purposes.
 
 ### Script queue (`data/verify-queue.json`)
 
-Built by `python3 build_priority.py`.
+Built by `python3 scripts/build/build_priority.py`.
 
 Shape highlights:
 
@@ -98,7 +98,7 @@ Shape highlights:
 
 ### Agent/API queue (`site/api/indexes/verify-queue.json`)
 
-Built by `python3 build_indexes.py`.
+Built by `python3 scripts/build/build_indexes.py`.
 
 Shape highlights:
 
@@ -118,28 +118,28 @@ Notes:
 1. **(Optional) Refresh reachability first**
 
 ```bash
-python3 check_reachability.py --only-untagged
-python3 check_reachability.py --recheck
+python3 scripts/crawl/check_reachability.py --only-untagged
+python3 scripts/crawl/check_reachability.py --recheck
 ```
 
 2. **Select candidates**
 
 ```bash
-python3 build_indexes.py --only verify-queue --only by-status
+python3 scripts/build/build_indexes.py --only verify-queue --only by-status
 ```
 
 3. **Run full verification (recommended production path)**
 
 ```bash
-python3 run_verify_strict_5agent.py --limit 100 --group-count 10 --only-unverified
+python3 scripts/verify/run_verify_strict_5agent.py --limit 100 --group-count 10 --only-unverified
 # target explicit records when needed
-python3 run_verify_strict_5agent.py --skill-ids skill_a,skill_b,skill_c
+python3 scripts/verify/run_verify_strict_5agent.py --skill-ids skill_a,skill_b,skill_c
 ```
 
 4. **(Optional) scanner-only sampling**
 
 ```bash
-python3 run_verify_sample.py --limit 50 --only-unverified
+python3 scripts/verify/run_verify_sample.py --limit 50 --only-unverified
 ```
 
 5. **Rebuild site API + HTML**
@@ -147,7 +147,7 @@ python3 run_verify_sample.py --limit 50 --only-unverified
 ```bash
 .venv/bin/python -m src.build.build_json
 .venv/bin/python -m src.build.build_html
-python3 build_indexes.py
+python3 scripts/build/build_indexes.py
 ```
 
 6. **Smoke checks**
@@ -161,15 +161,15 @@ python3 -m http.server 4173 --directory site
 
 ```bash
 # Full pipeline verification
-python3 run_verify_strict_5agent.py --limit 50 --group-count 5 --only-unverified
-python3 run_verify_strict_5agent.py --limit 50 --group-count 5 --include-repo-unavailable
+python3 scripts/verify/run_verify_strict_5agent.py --limit 50 --group-count 5 --only-unverified
+python3 scripts/verify/run_verify_strict_5agent.py --limit 50 --group-count 5 --include-repo-unavailable
 
 # Scanner-only verification
-python3 run_verify_sample.py --limit 20 --only-unverified
-python3 run_verify_sample.py --limit 20 --shard-index 0 --shard-count 4
+python3 scripts/verify/run_verify_sample.py --limit 20 --only-unverified
+python3 scripts/verify/run_verify_sample.py --limit 20 --shard-index 0 --shard-count 4
 
 # Metadata-only (agent_skill only)
-python3 batch_verify_agent_skills.py
+python3 scripts/verify/batch_verify_agent_skills.py
 ```
 
 ## Post-Verification Review
@@ -179,22 +179,22 @@ After a verification run completes, the Skills Manager reviews all processed ski
 1. **SM-A (Reviewer)**: Checks verification quality — does `verification_level` match `agent_audit` evidence? Are score thresholds correct? Were safety overrides applied?
 2. **SM-B (Auditor)**: Checks data integrity — tags consistent, no duplicates, `findings_summary` is dict, no conflicting fields.
 3. **Reconciliation**: Both agree clean → finalize. Both find issues → flag for PM. Disagree → escalate to PM with both perspectives.
-4. For `manual_review` results: PM auto-reviews using Decision Tree from `PROJECT_MANAGER.md`.
+4. For `manual_review` results: PM auto-reviews using Decision Tree from `roles/PROJECT_MANAGER.md`.
 5. All decisions logged to `data/skill-manager-log.json` with `check_type: "sm_review"` or `"pm_review"`.
 
 ```bash
 # Auto-review everything from a verification run
-python3 skills_manager_review.py --run-report data/verification-runs/<timestamp>_strict5_limit50.json
+python3 scripts/review/skills_manager_review.py --run-report data/verification-runs/<timestamp>_strict5_limit50.json
 
 # PM finalizes manual_review outcomes (writes status + comment to skill JSON)
-python3 skills_manager_review.py --run-report data/verification-runs/<timestamp>_strict5_limit50.json --pm-finalize
+python3 scripts/review/skills_manager_review.py --run-report data/verification-runs/<timestamp>_strict5_limit50.json --pm-finalize
 
 # Review the manual_review queue (PM-triggered)
-python3 skills_manager_review.py --manual-review-queue --limit 10
+python3 scripts/review/skills_manager_review.py --manual-review-queue --limit 10
 
 # PM finalizes a slice of manual_review queue
-python3 skills_manager_review.py --manual-review-queue --limit 10 --pm-finalize
+python3 scripts/review/skills_manager_review.py --manual-review-queue --limit 10 --pm-finalize
 
 # Periodic data quality audit of all pass skills
-python3 skills_manager_review.py --periodic
+python3 scripts/review/skills_manager_review.py --periodic
 ```

@@ -18,8 +18,10 @@ import json
 import glob
 import os
 from collections import Counter
+from pathlib import Path
 
-SKILLS_DIR = "data/skills"
+PROJECT_ROOT = Path(__file__).resolve().parent.parent.parent
+SKILLS_DIR = str(PROJECT_ROOT / "data" / "skills")
 
 
 def all_5_agents_signed(agent_audit: dict) -> bool:
@@ -131,5 +133,5 @@ def main():
 
 
 if __name__ == "__main__":
-    os.chdir(os.path.dirname(os.path.abspath(__file__)))
+    os.chdir(str(PROJECT_ROOT))
     main()

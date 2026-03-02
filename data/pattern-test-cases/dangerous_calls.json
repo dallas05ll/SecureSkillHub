@@ -1,0 +1,106 @@
+{
+  "description": "Test cases for DANGEROUS_CALLS regex patterns. True positives should match; false positives should NOT match.",
+  "test_cases": [
+    {
+      "pattern_name": "py_os_system",
+      "true_positives": [
+        {"text": "os.system('rm -rf /')", "reason": "Direct shell command execution"},
+        {"text": "os.system(user_input)", "reason": "Shell execution with user-controlled input"},
+        {"text": "os . system ( cmd )", "reason": "Spaced-out call to bypass naive matching"}
+      ],
+      "false_positives": [
+        {"text": "# os.system is dangerous, use subprocess instead", "reason": "Comment about os.system, not actual call"},
+        {"text": "operating_system = 'linux'", "reason": "Variable name containing 'os' but not os.system call"}
+      ]
+    },
+    {
+      "pattern_name": "py_subprocess_call",
+      "true_positives": [
+        {"text": "subprocess.call(['ls', '-la'])", "reason": "Subprocess call to shell command"},
+        {"text": "subprocess.run(cmd, shell=True)", "reason": "Subprocess with shell=True"},
+        {"text": "subprocess.Popen(['curl', url])", "reason": "Popen launching external process"},
+        {"text": "subprocess.check_output(['git', 'status'])", "reason": "Git command via subprocess"}
+      ],
+      "false_positives": [
+        {"text": "# Use subprocess.run instead of os.system", "reason": "Documentation recommendation"}
+      ]
+    },
+    {
+      "pattern_name": "py_eval",
+      "true_positives": [
+        {"text": "eval(user_input)", "reason": "Eval of untrusted input"},
+        {"text": "result = eval(expression)", "reason": "Dynamic code evaluation"},
+        {"text": "eval('__import__(\"os\").system(\"id\")')", "reason": "Classic eval injection"}
+      ],
+      "false_positives": [
+        {"text": "evaluation_score = compute_score()", "reason": "Variable named 'evaluation' not eval() call"},
+        {"text": "model.evaluate(test_data)", "reason": "ML model evaluate method, not eval()"}
+      ]
+    },
+    {
+      "pattern_name": "py_exec",
+      "true_positives": [
+        {"text": "exec(compiled_code)", "reason": "Executing dynamically compiled code"},
+        {"text": "exec('import os; os.system(\"id\")')", "reason": "Classic exec injection"}
+      ],
+      "false_positives": [
+        {"text": "execution_time = time.time()", "reason": "Variable named execution, not exec()"},
+        {"text": "executor = ThreadPoolExecutor()", "reason": "Executor class, not exec()"}
+      ]
+    },
+    {
+      "pattern_name": "py_pickle_loads",
+      "true_positives": [
+        {"text": "pickle.loads(data)", "reason": "Deserializing untrusted pickle data"},
+        {"text": "obj = pickle.Unpickler(file).load()", "reason": "Unpickler usage"},
+        {"text": "pickle.load(open('data.pkl', 'rb'))", "reason": "Loading pickle file"}
+      ],
+      "false_positives": [
+        {"text": "# pickle.loads can execute arbitrary code", "reason": "Documentation warning"}
+      ]
+    },
+    {
+      "pattern_name": "js_child_process",
+      "true_positives": [
+        {"text": "child_process.exec('ls -la')", "reason": "Shell command execution via child_process"},
+        {"text": "child_process.spawn('node', ['script.js'])", "reason": "Spawning child process"},
+        {"text": "child_process.execSync('git status')", "reason": "Synchronous shell execution"}
+      ],
+      "false_positives": [
+        {"text": "// child_process is a Node.js built-in module", "reason": "Documentation comment"}
+      ]
+    },
+    {
+      "pattern_name": "js_eval",
+      "true_positives": [
+        {"text": "eval(userCode)", "reason": "Evaluating user-provided code"},
+        {"text": "window.eval(payload)", "reason": "Window eval with payload"}
+      ],
+      "false_positives": [
+        {"text": "evaluateExpression(input)", "reason": "Function named evaluate, not eval()"},
+        {"text": "const evaluation = getResults()", "reason": "Variable named evaluation"}
+      ]
+    },
+    {
+      "pattern_name": "js_function_ctor",
+      "true_positives": [
+        {"text": "new Function('return ' + code)()", "reason": "Dynamic function creation from string"},
+        {"text": "var fn = new Function(body)", "reason": "Function constructor with dynamic body"}
+      ],
+      "false_positives": [
+        {"text": "// new Function is similar to eval", "reason": "Comment about Function constructor"},
+        {"text": "class MyFunction extends BaseClass {", "reason": "Class named MyFunction, not constructor"}
+      ]
+    },
+    {
+      "pattern_name": "shell_backtick_exec",
+      "true_positives": [
+        {"text": "`echo $(whoami)`", "reason": "Command substitution in backtick string"},
+        {"text": "`result is $(curl http://evil.com)`", "reason": "Network command in template literal"}
+      ],
+      "false_positives": [
+        {"text": "`simple template string ${variable}`", "reason": "Normal template literal without $() command sub"}
+      ]
+    }
+  ]
+}

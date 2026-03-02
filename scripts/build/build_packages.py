@@ -28,7 +28,7 @@ logging.basicConfig(
 )
 logger = logging.getLogger("build_packages")
 
-PROJECT_ROOT = Path(__file__).resolve().parent
+PROJECT_ROOT = Path(__file__).resolve().parent.parent.parent
 SKILLS_DIR = PROJECT_ROOT / "data" / "skills"
 TAGS_FILE = PROJECT_ROOT / "data" / "tags.json"
 PACKAGES_DIR = PROJECT_ROOT / "data" / "packages"

@@ -40,7 +40,7 @@ __version__ = "1.0.0"
 # Paths
 # ---------------------------------------------------------------------------
 
-PROJECT_ROOT = Path(__file__).resolve().parent
+PROJECT_ROOT = Path(__file__).resolve().parent.parent.parent
 DATA_DIR = PROJECT_ROOT / "data"
 SKILLS_DIR = DATA_DIR / "skills"
 INDEXES_DIR = PROJECT_ROOT / "site" / "api" / "indexes"

@@ -18,7 +18,7 @@ TAG_UNAVAILABLE = "repo_unavailable"
 TAG_CLONE_FAILURE = "clone_failure"  # Legacy, mapped to repo_unavailable
 TAG_NOT_REACHABLE = "not_reachable"  # Human/agent friendly alias
 
-SKILL_MANAGER_LOG = Path("data/skill-manager-log.json")
+SKILL_MANAGER_LOG = Path(__file__).resolve().parent.parent / "data" / "skill-manager-log.json"
 
 
 def check_repo(repo_url: str, timeout: int = 15) -> dict:

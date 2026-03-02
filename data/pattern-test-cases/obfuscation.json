@@ -1,0 +1,91 @@
+{
+  "description": "Test cases for OBFUSCATION regex patterns (both HIGH_RISK and LOW_RISK). True positives should match; false positives should NOT match.",
+  "test_cases": [
+    {
+      "pattern_name": "py_rot13",
+      "true_positives": [
+        {"text": "codecs.decode(payload, 'rot_13')", "reason": "ROT13 decoding of unknown payload"},
+        {"text": "codecs.decode(hidden_cmd, 'rot13')", "reason": "ROT13 decode of hidden command string"}
+      ],
+      "false_positives": [
+        {"text": "codecs.decode(data, 'utf-8')", "reason": "Normal UTF-8 decoding, not ROT13"},
+        {"text": "# ROT13 is a simple cipher used for fun puzzles", "reason": "Comment about ROT13, not actual usage"}
+      ]
+    },
+    {
+      "pattern_name": "py_marshal_loads",
+      "true_positives": [
+        {"text": "marshal.loads(encoded_payload)", "reason": "Deserializing marshalled binary data"},
+        {"text": "result = marshal.loads(data)", "reason": "Loading marshalled code objects"}
+      ],
+      "false_positives": [
+        {"text": "# marshal.loads is dangerous, never use it", "reason": "Documentation warning, not usage"},
+        {"text": "json.loads(data)  # not marshal.loads", "reason": "json.loads, not marshal.loads"}
+      ]
+    },
+    {
+      "pattern_name": "py_chr_concat",
+      "true_positives": [
+        {"text": "cmd = chr(101) + chr(118) + chr(97) + chr(108)", "reason": "Building string character by character to hide 'eval'"},
+        {"text": "chr(115) + chr(121)", "reason": "Character-by-character string construction"}
+      ],
+      "false_positives": [
+        {"text": "separator = chr(10)", "reason": "Single chr() call for newline, not obfuscation"},
+        {"text": "char = chr(ord('A') + i)", "reason": "Arithmetic chr() in a loop, not string building"}
+      ]
+    },
+    {
+      "pattern_name": "hex_escape_seq",
+      "true_positives": [
+        {"text": "payload = \"\\x65\\x76\\x61\\x6c\\x28\"", "reason": "Hex-encoded eval( string"},
+        {"text": "cmd = b\"\\x2f\\x62\\x69\\x6e\\x2f\\x73\\x68\"", "reason": "Hex-encoded /bin/sh path"}
+      ],
+      "false_positives": [
+        {"text": "prefix = \"\\x00\"", "reason": "Single null byte, not obfuscation"},
+        {"text": "header = b\"\\x89\\x50\"", "reason": "PNG magic bytes, only 2 hex escapes"}
+      ]
+    },
+    {
+      "pattern_name": "unicode_escape_seq",
+      "true_positives": [
+        {"text": "s = \"\\u0065\\u0076\\u0061\\u006c\"", "reason": "Unicode-encoded eval string"},
+        {"text": "hidden = \"\\u0073\\u0079\\u0073\\u0074\\u0065\\u006d\"", "reason": "Unicode-encoded 'system'"}
+      ],
+      "false_positives": [
+        {"text": "emoji = \"\\u2603\"", "reason": "Single unicode escape for snowman emoji"},
+        {"text": "bullet = \"\\u2022 \"", "reason": "Single unicode escape for bullet point"}
+      ]
+    },
+    {
+      "pattern_name": "py_base64_decode",
+      "true_positives": [
+        {"text": "base64.b64decode(encoded_cmd)", "reason": "Decoding potentially obfuscated command"},
+        {"text": "data = base64.urlsafe_b64decode(token)", "reason": "Base64 URL-safe decode"}
+      ],
+      "false_positives": [
+        {"text": "# base64.b64decode is used for auth tokens", "reason": "Documentation, not actual call"}
+      ]
+    },
+    {
+      "pattern_name": "long_base64_literal",
+      "true_positives": [
+        {"text": "payload = \"SGVsbG8gV29ybGQhIFRoaXMgaXMgYSBsb25nIGJhc2U2NCBlbmNvZGVkIHN0cmluZyB0aGF0IHNob3VsZCBiZSBkZXRlY3RlZA==\"", "reason": "Long base64 literal that could hide malicious content"}
+      ],
+      "false_positives": [
+        {"text": "token = \"abc123\"", "reason": "Short string, not 60+ chars of base64"},
+        {"text": "id = \"short\"", "reason": "Very short string"}
+      ]
+    },
+    {
+      "pattern_name": "js_string_fromCharCode",
+      "true_positives": [
+        {"text": "var cmd = String.fromCharCode(101, 118, 97, 108)", "reason": "Building eval string from char codes"},
+        {"text": "String.fromCharCode(115, 121, 115, 116, 101, 109)", "reason": "Building 'system' from char codes"}
+      ],
+      "false_positives": [
+        {"text": "// String.fromCharCode can be used for obfuscation", "reason": "Comment about the function"},
+        {"text": "str.fromCharCode is a JS method", "reason": "Documentation text, not actual call"}
+      ]
+    }
+  ]
+}

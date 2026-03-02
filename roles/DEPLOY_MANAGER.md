@@ -51,7 +51,7 @@ Co-Authored-By: Claude Opus 4.6 <noreply@anthropic.com>
 ```bash
 .venv/bin/python -m src.build.build_json
 .venv/bin/python -m src.build.build_html
-python3 build_indexes.py
+python3 scripts/build/build_indexes.py
 
 # Smoke test
 python3 -m http.server 8000 --directory site &
@@ -161,5 +161,5 @@ git push origin main
 # Build (pre-deploy)
 .venv/bin/python -m src.build.build_json
 .venv/bin/python -m src.build.build_html
-python3 build_indexes.py
+python3 scripts/build/build_indexes.py
 ```

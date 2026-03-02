@@ -14,9 +14,9 @@ You execute verification at three levels, each with two possible execution paths
 
 | Level | Deterministic Path | Task-Agent Path | When to Use |
 |-------|-------------------|-----------------|-------------|
-| **Full Pipeline** | `run_verify_strict_5agent.py` (regex, zero LLM) | `pipeline.py` + Task agents (A=sonnet, B=sonnet, D=opus, E=opus) | Deterministic for bulk; Task-agent for Tier 1/2 high-star skills |
-| **Scanner Only** | `run_verify_sample.py` (C* only) | Same (C* is always deterministic) | Fast bulk triage, no doc-vs-code comparison |
-| **Metadata Only** | `batch_verify_agent_skills.py` | N/A | Zero-cost triage for large backlogs |
+| **Full Pipeline** | `scripts/verify/run_verify_strict_5agent.py` (regex, zero LLM) | `pipeline.py` + Task agents (A=sonnet, B=sonnet, D=opus, E=opus) | Deterministic for bulk; Task-agent for Tier 1/2 high-star skills |
+| **Scanner Only** | `scripts/verify/run_verify_sample.py` (C* only) | Same (C* is always deterministic) | Fast bulk triage, no doc-vs-code comparison |
+| **Metadata Only** | `scripts/verify/batch_verify_agent_skills.py` | N/A | Zero-cost triage for large backlogs |
 
 **Default:** Use deterministic path for bulk runs. Use Task-agent path for high-priority skills where LLM reasoning adds value (Tier 1: 1000+ stars, Tier 2: 100-999 stars).
 
@@ -24,34 +24,34 @@ You execute verification at three levels, each with two possible execution paths
 
 ```bash
 # Full 5-agent pipeline (PREFERRED)
-python3 run_verify_strict_5agent.py \
+python3 scripts/verify/run_verify_strict_5agent.py \
   --skill-ids skill_a,skill_b,skill_c \
   --group-count 5 \
   --limit 50
 
 # Full pipeline — unverified only, by priority
-python3 run_verify_strict_5agent.py \
+python3 scripts/verify/run_verify_strict_5agent.py \
   --only-unverified \
   --limit 50 \
   --group-count 5
 
 # Full pipeline — specific source
-python3 run_verify_strict_5agent.py \
+python3 scripts/verify/run_verify_strict_5agent.py \
   --source glama \
   --only-unverified \
   --limit 20
 
 # Scanner-only (C* only, fast)
-python3 run_verify_sample.py \
+python3 scripts/verify/run_verify_sample.py \
   --only-unverified \
   --limit 100
 
 # Scanner-only — specific skills
-python3 run_verify_sample.py \
+python3 scripts/verify/run_verify_sample.py \
   --skill-ids skill_a,skill_b
 
 # Metadata-only batch (no clone)
-python3 batch_verify_agent_skills.py
+python3 scripts/verify/batch_verify_agent_skills.py
 ```
 
 ### 2. Pre-Flight Checks
@@ -69,13 +69,13 @@ print(f'All {len(ids)} skills found')
 " "skill_a,skill_b,skill_c"
 
 # 2. Check repo reachability (optional, recommended for large batches)
-python3 check_reachability.py --only-untagged --limit 50
+python3 scripts/crawl/check_reachability.py --only-untagged --limit 50
 
 # 3. Verify disk space for cloning
 df -h /tmp
 
 # 4. Check current verification coverage
-python3 health_check.py
+python3 scripts/review/health_check.py
 ```
 
 **Pre-flight checklist:**
@@ -96,7 +96,7 @@ Maximize throughput by tuning concurrency parameters:
 | Batch size | Implicit (limit / group-count) | Skills per thread. Keep 5-10 per group for optimal throughput. |
 
 **Concurrency rules:**
-- `run_verify_strict_5agent.py` is **entirely deterministic** (zero LLM calls). Agents A/B/D/E are local Python code. Parallelism is limited by CPU and disk I/O, not API rate limits.
+- `scripts/verify/run_verify_strict_5agent.py` is **entirely deterministic** (zero LLM calls). Agents A/B/D/E are local Python code. Parallelism is limited by CPU and disk I/O, not API rate limits.
 - Each group clones repos independently using `--depth 1`. With `--group-count 5`, that's up to 5 concurrent `git clone` operations.
 - Monitor for GitHub rate limiting on large batches (>100 skills). If clone failure rate exceeds 10%, reduce `--group-count` and add delay.
 
@@ -135,7 +135,7 @@ retry = [r['skill_id'] for r in report.get('processed', []) if r.get('status') =
 print(','.join(retry))
 "
 # Then re-run with those IDs
-python3 run_verify_strict_5agent.py --skill-ids <retry_ids>
+python3 scripts/verify/run_verify_strict_5agent.py --skill-ids <retry_ids>
 ```
 
 ### 6. Re-Verification
@@ -145,7 +145,7 @@ Handle re-verification requests for:
 | Scenario | Source | Command |
 |----------|--------|---------|
 | Updated repos | SM detects `updated_unverified` | `--skill-ids <ids>` (overrides existing results) |
-| Scanner-only → full pipeline upgrade | SM requests deeper verification | `run_verify_strict_5agent.py --skill-ids <ids>` |
+| Scanner-only → full pipeline upgrade | SM requests deeper verification | `scripts/verify/run_verify_strict_5agent.py --skill-ids <ids>` |
 | PM requests re-verify after manual review | PM | `--skill-ids <ids>` |
 | Periodic re-scan of pass skills | SM periodic audit | `--skill-ids <ids>` (re-run to check for regressions) |
 
@@ -262,7 +262,7 @@ Verification complete.
   Results: pass=X, fail=Y, manual_review=Z
   Stage failures: clone=N (retry_ids: [...])
   Duration: Xs
-  Next step: SM should run skills_manager_review.py --run-report <path>
+  Next step: SM should run scripts/review/skills_manager_review.py --run-report <path>
 ```
 
 ### Handoff to SM (Post-Verification)
@@ -272,10 +272,14 @@ After every verification run:
 1. VM writes the run report to `data/verification-runs/`
 2. VM logs to `data/skill-manager-log.json` (type: `verification_run`)
 3. VM notifies SM with the report path and summary
-4. SM runs `python3 skills_manager_review.py --run-report <path>`
+4. SM runs `python3 scripts/review/skills_manager_review.py --run-report <path>`
 5. SM-A reviews verification quality, SM-B reviews data integrity
 6. SM reconciles and escalates `manual_review` / disagreements to PM
 7. PM makes final decisions on escalated skills
+8. **PM instructs WS3 to rebuild** — `build_json` + `build_html` + `build_indexes`
+9. **PM instructs DeployM to commit + deploy** — site reflects new data
+
+**Critical:** Steps 8-9 must happen after EVERY verification batch AND after PM manual review decisions. Without rebuild, the site shows stale data.
 
 **VM never reviews its own output.** This is a critical security property — no single role can both execute and approve verification.
 
@@ -297,9 +301,9 @@ PM says: "Re-verify skill X — new repo activity detected"
 
 | File/Path | Purpose |
 |-----------|---------|
-| `run_verify_strict_5agent.py` | **Primary runner** — full 5-agent deterministic verification |
-| `run_verify_sample.py` | Scanner-only (C*) batch runner |
-| `batch_verify_agent_skills.py` | Metadata-only quick triage |
+| `scripts/verify/run_verify_strict_5agent.py` | **Primary runner** — full 5-agent deterministic verification |
+| `scripts/verify/run_verify_sample.py` | Scanner-only (C*) batch runner |
+| `scripts/verify/batch_verify_agent_skills.py` | Metadata-only quick triage |
 | `src/verification/pipeline.py` | Reference pipeline utilities |
 | `src/verification/agent_a_md_reader.py` | Agent A: doc extraction (never sees code) |
 | `src/verification/agent_b_code_parser.py` | Agent B: code extraction (never sees docs) |
@@ -310,8 +314,8 @@ PM says: "Re-verify skill X — new repo activity detected"
 | `src/scanner/semgrep_rules/*.yaml` | Semgrep rule files (5 YAML files) |
 | `src/sanitizer/sanitizer.py` | Inter-agent output sanitization |
 | `src/sanitizer/schemas.py` | Data contracts (shared read; VM is primary maintainer for verification models) |
-| `audit_verification_paths.py` | Verification path analysis/reporting |
-| `backfill_verification_level.py` | One-time migration utility |
+| `scripts/verify/audit_verification_paths.py` | Verification path analysis/reporting |
+| `scripts/verify/backfill_verification_level.py` | One-time migration utility |
 
 ### Write Permissions
 
@@ -326,10 +330,10 @@ PM says: "Re-verify skill X — new repo activity detected"
 
 | Path | Owned By | Why VM Reads |
 |------|----------|-------------|
-| `skills_manager_review.py` | SM | VM produces what this consumes, but never runs it |
-| `health_check.py` | SM | VM may check coverage stats before a run |
+| `scripts/review/skills_manager_review.py` | SM | VM produces what this consumes, but never runs it |
+| `scripts/review/health_check.py` | SM | VM may check coverage stats before a run |
 | `data/verify-queue.json` | SM/WS3 | VM reads to understand priority, but SM decides selection |
-| `check_reachability.py` | SM/WS1 | VM may pre-check reachability, but doesn't own the script |
+| `scripts/crawl/check_reachability.py` | SM/WS1 | VM may pre-check reachability, but doesn't own the script |
 
 ---
 
@@ -339,6 +343,7 @@ PM says: "Re-verify skill X — new repo activity detected"
 |------|-------------|
 | **Project Manager** | PM triggers verification ("verify now"). VM executes. PM approves manual_review escalations. |
 | **Skills Manager** | SM selects what to verify (priority tiers). VM executes. SM reviews results (SM-A/SM-B). Tightest coupling in the system. |
+| **Security Manager** | SecM audits pattern accuracy; VM implements pattern fixes on PM instruction. SecM never modifies scanner code directly. |
 | **Deploy Manager** | After verification + SM review + rebuild, DeployM commits and deploys. |
 | **Documentation Manager** | DocM keeps verification docs aligned with VM's actual pipeline behavior. |
 | **Agent Experience Manager** | AXM consumes verification results for the agent-facing catalog. |
@@ -360,7 +365,7 @@ The pipeline has **two execution paths**. You must know both and when to use eac
 
 ### Path 1: Deterministic Runner (fast, free, shallow)
 
-**Script:** `run_verify_strict_5agent.py`
+**Script:** `scripts/verify/run_verify_strict_5agent.py`
 **Models:** None — zero LLM calls. Agents A/B/D/E implemented as local Python regex/pattern matching.
 **Use when:** Bulk verification, initial triage, large batches, cost-sensitive runs.
 **Limitation:** No actual LLM reasoning. Cannot detect subtle doc-vs-code mismatches that require understanding intent. Pattern matching only.
@@ -416,29 +421,29 @@ Agents A and B can run as parallel Task agents since they have no dependency on 
 
 ```bash
 # === Full Pipeline (Primary) ===
-python3 run_verify_strict_5agent.py --limit 50 --group-count 5 --only-unverified
-python3 run_verify_strict_5agent.py --skill-ids id1,id2,id3
-python3 run_verify_strict_5agent.py --source glama --only-unverified --limit 20
+python3 scripts/verify/run_verify_strict_5agent.py --limit 50 --group-count 5 --only-unverified
+python3 scripts/verify/run_verify_strict_5agent.py --skill-ids id1,id2,id3
+python3 scripts/verify/run_verify_strict_5agent.py --source glama --only-unverified --limit 20
 
 # === Scanner Only (Fast Triage) ===
-python3 run_verify_sample.py --only-unverified --limit 100
-python3 run_verify_sample.py --skill-ids id1,id2
+python3 scripts/verify/run_verify_sample.py --only-unverified --limit 100
+python3 scripts/verify/run_verify_sample.py --skill-ids id1,id2
 
 # === Metadata Only (Zero-Cost Triage) ===
-python3 batch_verify_agent_skills.py
+python3 scripts/verify/batch_verify_agent_skills.py
 
 # === Pre-Flight ===
-python3 health_check.py
-python3 check_reachability.py --only-untagged --limit 50
+python3 scripts/review/health_check.py
+python3 scripts/crawl/check_reachability.py --only-untagged --limit 50
 
 # === Post-Run (VM notifies SM, SM runs this) ===
-# python3 skills_manager_review.py --run-report data/verification-runs/<report>.json
+# python3 scripts/review/skills_manager_review.py --run-report data/verification-runs/<report>.json
 
 # === Recovery ===
 # Extract retry IDs from a failed run, then re-run
 python3 -c "import json; r=json.load(open('data/verification-runs/<report>.json')); print(','.join(p['skill_id'] for p in r.get('processed',[]) if p.get('status')=='error'))"
-python3 run_verify_strict_5agent.py --skill-ids <retry_ids>
+python3 scripts/verify/run_verify_strict_5agent.py --skill-ids <retry_ids>
 
 # === Coverage Check ===
-python3 build_indexes.py --only verify-queue --only by-status
+python3 scripts/build/build_indexes.py --only verify-queue --only by-status
 ```

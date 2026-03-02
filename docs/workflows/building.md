@@ -17,11 +17,11 @@ Run in this order:
 
 | Step | Script | What It Does | Required? |
 |------|--------|-------------|-----------|
-| 1 | `python3 build_packages.py` | Rebuilds `data/packages/*.json` from tag hierarchy + skill data | Optional/manual |
-| 2 | `python3 build_priority.py` | Rebuilds `data/verify-queue.json` plus star-sorted `site/api/skills/by-tag/`, `by-tier/`, `index.json` | Optional/manual |
+| 1 | `python3 scripts/build/build_packages.py` | Rebuilds `data/packages/*.json` from tag hierarchy + skill data | Optional/manual |
+| 2 | `python3 scripts/build/build_priority.py` | Rebuilds `data/verify-queue.json` plus star-sorted `site/api/skills/by-tag/`, `by-tier/`, `index.json` | Optional/manual |
 | 3 | `.venv/bin/python -m src.build.build_json` | Generates all API JSON: skills, stats, tags, by-tag, by-tier, packages | **Required** |
 | 4 | `.venv/bin/python -m src.build.build_html` | Updates HTML meta tags, sitemap.xml, robots.txt | **Required** |
-| 5 | `python3 build_indexes.py` | Generates agent-access indexes (manifest, by-status, by-risk, lookup, verify-queue) | **Recommended** |
+| 5 | `python3 scripts/build/build_indexes.py` | Generates agent-access indexes (manifest, by-status, by-risk, lookup, verify-queue) | **Recommended** |
 
 Steps 1-2 are optional preparatory steps. Steps 3-4 are the canonical build. Step 5 builds compact indexes for efficient agent access.
 
@@ -30,14 +30,14 @@ Steps 1-2 are optional preparatory steps. Steps 3-4 are the canonical build. Ste
 ## Build Overlap
 
 ```
-⚠️ build_priority.py and build_json.py BOTH generate site/api/skills/by-tag/ and by-tier/.
-   build_priority.py is standalone (manual, optional) — use for quick index updates.
+⚠️ scripts/build/build_priority.py and build_json.py BOTH generate site/api/skills/by-tag/ and by-tier/.
+   scripts/build/build_priority.py is standalone (manual, optional) — use for quick index updates.
    build_json.py is the canonical build — always run this before deploy.
    If you run both, build_json.py output wins (runs second, overwrites).
 ```
 
 **Why both exist:**
-- `build_priority.py` was created for quick standalone index updates without a full rebuild
+- `scripts/build/build_priority.py` was created for quick standalone index updates without a full rebuild
 - `build_json.py` is the complete build that also generates skills, stats, tags, and packages
 - For deploys, always use `build_json.py` — it's the canonical build
 
@@ -61,7 +61,7 @@ site/api/
     └── {package-id}.json      — Individual packages
 ```
 
-`build_indexes.py` outputs:
+`scripts/build/build_indexes.py` outputs:
 
 ```
 site/api/indexes/
@@ -74,8 +74,8 @@ site/api/indexes/
 
 Queue semantics:
 
-- `data/verify-queue.json` (from `build_priority.py`) is script-facing and contains richer summaries in `queue[]`.
-- `site/api/indexes/verify-queue.json` (from `build_indexes.py`) is API-facing and contains compact tier lists for agents.
+- `data/verify-queue.json` (from `scripts/build/build_priority.py`) is script-facing and contains richer summaries in `queue[]`.
+- `site/api/indexes/verify-queue.json` (from `scripts/build/build_indexes.py`) is API-facing and contains compact tier lists for agents.
 - Both queues currently include only `verification_status == "unverified"` items.
 
 `build_html.py` outputs:
@@ -99,18 +99,18 @@ site/
 .venv/bin/python -m src.build.build_html   # Update HTML assets
 
 # Optional preparatory steps
-python3 build_packages.py                  # Rebuild source package files (top 10 per tag)
-python3 build_packages.py --top 20         # More skills per package
-python3 build_priority.py                  # Rebuild priority indexes (standalone)
+python3 scripts/build/build_packages.py                  # Rebuild source package files (top 10 per tag)
+python3 scripts/build/build_packages.py --top 20         # More skills per package
+python3 scripts/build/build_priority.py                  # Rebuild priority indexes (standalone)
 
 # Build agent-access indexes
-python3 build_indexes.py                   # All indexes
-python3 build_indexes.py --only manifest   # Just the compact manifest
+python3 scripts/build/build_indexes.py                   # All indexes
+python3 scripts/build/build_indexes.py --only manifest   # Just the compact manifest
 
 # Complete refresh (run all in order)
-python3 build_packages.py && \
-python3 build_priority.py && \
+python3 scripts/build/build_packages.py && \
+python3 scripts/build/build_priority.py && \
 .venv/bin/python -m src.build.build_json && \
 .venv/bin/python -m src.build.build_html && \
-python3 build_indexes.py
+python3 scripts/build/build_indexes.py
 ```
