@@ -765,6 +765,49 @@ def findings_summary(scanner: ScannerOutput, scorer: ScorerOutput, supervisor: S
     }
 
 
+def build_scan_report(scanner: ScannerOutput) -> dict[str, Any]:
+    """Build a scan_report dict from ScannerOutput for storage in skill JSON.
+
+    Contains all counts + category breakdown + top findings (capped at 20).
+    This enables post-verification PM review and auto-clear without needing
+    the separate scan-reports/ side files.
+    """
+    # Category breakdown from findings
+    category_counts: dict[str, int] = {}
+    severity_counts: dict[str, int] = {"critical": 0, "high": 0, "medium": 0, "low": 0, "info": 0}
+    for f in scanner.findings:
+        cat = f.category if hasattr(f, "category") else "unknown"
+        category_counts[cat] = category_counts.get(cat, 0) + 1
+        sev = f.severity.value if hasattr(f.severity, "value") else str(f.severity)
+        severity_counts[sev] = severity_counts.get(sev, 0) + 1
+
+    # Top findings (capped at 20 to keep skill JSON manageable)
+    top_findings = []
+    for f in scanner.findings[:20]:
+        entry: dict[str, Any] = {
+            "rule_id": f.rule_id if hasattr(f, "rule_id") else "",
+            "severity": f.severity.value if hasattr(f.severity, "value") else str(f.severity),
+            "category": f.category if hasattr(f, "category") else "",
+        }
+        if hasattr(f, "file_path") and f.file_path:
+            entry["file"] = str(f.file_path)[:200]
+        if hasattr(f, "line_number") and f.line_number:
+            entry["line"] = f.line_number
+        top_findings.append(entry)
+
+    return {
+        "total_findings": len(scanner.findings),
+        "injection_patterns_count": scanner.injection_patterns_count,
+        "obfuscation_count": scanner.obfuscation_count,
+        "obfuscation_high_risk_count": scanner.obfuscation_high_risk_count,
+        "dangerous_calls_count": scanner.dangerous_calls_count,
+        "severity_counts": severity_counts,
+        "category_counts": category_counts,
+        "top_findings": top_findings,
+        "total_files_scanned": scanner.total_files_scanned,
+    }
+
+
 NETWORK_PROBE_URL = "https://github.com/modelcontextprotocol/servers"
 
 # Git error patterns that indicate the repo itself is gone/private/deleted,
@@ -849,6 +892,7 @@ def update_skill_file(
     primary_language: str,
     verification_level: str = "",
     agent_audit: dict[str, Any] | None = None,
+    scan_report: dict[str, Any] | None = None,
     ensure_repo_unavailable_tag: bool = False,
     repo_status: str | None = None,
     repo_check_date: str | None = None,
@@ -862,6 +906,8 @@ def update_skill_file(
     data["scan_date"] = scan_date
     data["verified_commit"] = verified_commit
     data["findings_summary"] = summary
+    if scan_report is not None:
+        data["scan_report"] = scan_report
     tags = data.get("tags", [])
     if not isinstance(tags, list):
         tags = []
@@ -1027,6 +1073,7 @@ def verify_one_skill(skill: dict[str, Any], sanitizer: Sanitizer) -> SkillRunRes
                 final_risk = "medium"  # downgrade from critical since it's a known FP
 
         summary = findings_summary(scanner, scorer, supervisor)
+        scan_rpt = build_scan_report(scanner)
 
         audit = build_agent_audit(agent_a, agent_b, scanner, scorer, supervisor, scan_date)
 
@@ -1051,6 +1098,7 @@ def verify_one_skill(skill: dict[str, Any], sanitizer: Sanitizer) -> SkillRunRes
             primary_language=agent_b.primary_language,
             verification_level="full_pipeline",
             agent_audit=audit,
+            scan_report=scan_rpt,
         )
 
         return SkillRunResult(

@@ -1,0 +1,20 @@
+{
+  "started_at": "2026-03-04T20:23:56Z",
+  "finished_at": "2026-03-04T20:24:01Z",
+  "skill_type": "all",
+  "selected_ids": [
+    "agent-authoring-9b50b76b"
+  ],
+  "selected_count": 1,
+  "group_count": 5,
+  "processed_count": 1,
+  "status_counts": {
+    "pass": 1
+  },
+  "stage_failures": {},
+  "retry_ids": [],
+  "remaining_unverified": 5609,
+  "only_unverified": true,
+  "source": "*",
+  "include_repo_unavailable": false
+}
