@@ -7,7 +7,7 @@
   "skill_type": "agent_skill",
   "owner": "astronomer",
   "stars": 0,
-  "primary_language": "unknown",
+  "primary_language": "python",
   "tags": [
     "agent-skills",
     "installs:283",
@@ -15,14 +15,260 @@
     "dev-devops",
     "dev-testing",
     "util",
-    "util-monitor"
+    "util-monitor",
+    "status-pass"
   ],
-  "verification_status": "unverified",
-  "overall_score": 0,
-  "risk_level": "info",
-  "verified_commit": null,
+  "verification_status": "pass",
+  "overall_score": 60,
+  "risk_level": "medium",
+  "verified_commit": "1c6cf77086d1f58ada591e22518d8435cfa4fd21",
   "scan_summary": null,
   "repo_status": "available",
   "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
-  "repo_check_error": null
+  "repo_check_error": null,
+  "scan_date": "2026-03-04T23:01:45Z",
+  "findings_summary": {
+    "scanner_findings": 345,
+    "dangerous_calls": 25,
+    "network_ops": 24,
+    "file_ops": 19,
+    "env_access": 113,
+    "obfuscation": 0,
+    "injection_patterns": 0,
+    "mismatches": 0,
+    "undocumented_capabilities": 0,
+    "supervisor_approved": false,
+    "supervisor_confidence": 60
+  },
+  "scan_report": {
+    "total_findings": 345,
+    "injection_patterns_count": 0,
+    "obfuscation_count": 0,
+    "obfuscation_high_risk_count": 0,
+    "dangerous_calls_count": 25,
+    "severity_counts": {
+      "critical": 0,
+      "high": 189,
+      "medium": 137,
+      "low": 19,
+      "info": 0
+    },
+    "category_counts": {
+      "suspicious_urls": 164,
+      "network_ops": 24,
+      "env_access": 113,
+      "dangerous_calls": 25,
+      "file_ops": 19
+    },
+    "top_findings": [
+      {
+        "rule_id": "regex_localhost_non_std",
+        "severity": "high",
+        "category": "suspicious_urls",
+        "file": "astro-airflow-mcp/README.md",
+        "line": 135
+      },
+      {
+        "rule_id": "regex_localhost_non_std",
+        "severity": "high",
+        "category": "suspicious_urls",
+        "file": "astro-airflow-mcp/README.md",
+        "line": 143
+      },
+      {
+        "rule_id": "regex_localhost_non_std",
+        "severity": "high",
+        "category": "suspicious_urls",
+        "file": "astro-airflow-mcp/README.md",
+        "line": 337
+      },
+      {
+        "rule_id": "regex_localhost_non_std",
+        "severity": "high",
+        "category": "suspicious_urls",
+        "file": "astro-airflow-mcp/README.md",
+        "line": 421
+      },
+      {
+        "rule_id": "regex_localhost_non_std",
+        "severity": "high",
+        "category": "suspicious_urls",
+        "file": "astro-airflow-mcp/README.md",
+        "line": 448
+      },
+      {
+        "rule_id": "regex_localhost_non_std",
+        "severity": "high",
+        "category": "suspicious_urls",
+        "file": "astro-airflow-mcp/README.md",
+        "line": 453
+      },
+      {
+        "rule_id": "regex_localhost_non_std",
+        "severity": "high",
+        "category": "suspicious_urls",
+        "file": "astro-airflow-mcp/README.md",
+        "line": 494
+      },
+      {
+        "rule_id": "regex_localhost_non_std",
+        "severity": "high",
+        "category": "suspicious_urls",
+        "file": "astro-airflow-mcp/README.md",
+        "line": 522
+      },
+      {
+        "rule_id": "regex_localhost_non_std",
+        "severity": "high",
+        "category": "suspicious_urls",
+        "file": "astro-airflow-mcp/docker-compose.test.yml",
+        "line": 6
+      },
+      {
+        "rule_id": "regex_localhost_non_std",
+        "severity": "high",
+        "category": "suspicious_urls",
+        "file": "astro-airflow-mcp/docker-compose.test.yml",
+        "line": 10
+      },
+      {
+        "rule_id": "regex_localhost_non_std",
+        "severity": "high",
+        "category": "suspicious_urls",
+        "file": "astro-airflow-mcp/docker-compose.test.yml",
+        "line": 52
+      },
+      {
+        "rule_id": "regex_py_requests",
+        "severity": "medium",
+        "category": "network_ops",
+        "file": "astro-airflow-mcp/AGENTS.md",
+        "line": 58
+      },
+      {
+        "rule_id": "regex_py_httpx",
+        "severity": "medium",
+        "category": "network_ops",
+        "file": "astro-airflow-mcp/AGENTS.md",
+        "line": 54
+      },
+      {
+        "rule_id": "regex_py_httpx",
+        "severity": "medium",
+        "category": "network_ops",
+        "file": "astro-airflow-mcp/AGENTS.md",
+        "line": 71
+      },
+      {
+        "rule_id": "regex_py_requests",
+        "severity": "medium",
+        "category": "network_ops",
+        "file": "astro-airflow-mcp/CLAUDE.md",
+        "line": 58
+      },
+      {
+        "rule_id": "regex_py_httpx",
+        "severity": "medium",
+        "category": "network_ops",
+        "file": "astro-airflow-mcp/CLAUDE.md",
+        "line": 54
+      },
+      {
+        "rule_id": "regex_py_httpx",
+        "severity": "medium",
+        "category": "network_ops",
+        "file": "astro-airflow-mcp/CLAUDE.md",
+        "line": 71
+      },
+      {
+        "rule_id": "regex_generic_password",
+        "severity": "medium",
+        "category": "env_access",
+        "file": "astro-airflow-mcp/tests/test_utils.py",
+        "line": 48
+      },
+      {
+        "rule_id": "regex_generic_password",
+        "severity": "medium",
+        "category": "env_access",
+        "file": "astro-airflow-mcp/tests/test_utils.py",
+        "line": 86
+      },
+      {
+        "rule_id": "regex_localhost_non_std",
+        "severity": "high",
+        "category": "suspicious_urls",
+        "file": "astro-airflow-mcp/tests/test_utils.py",
+        "line": 32
+      }
+    ],
+    "total_files_scanned": 136
+  },
+  "verification_level": "full_pipeline",
+  "agent_audit": {
+    "agents_completed": 5,
+    "agents_required": 5,
+    "pipeline_run_at": "2026-03-04T23:01:45Z",
+    "agent_a": {
+      "signed": true,
+      "signed_at": "2026-03-04T23:01:45Z",
+      "comment": "Docs quality 10/10. README present. 12 features, 4 permissions claimed.",
+      "doc_quality_score": 10,
+      "claimed_permissions": [
+        "network access",
+        "system command execution",
+        "file system access",
+        "environment/secret access"
+      ]
+    },
+    "agent_b": {
+      "signed": true,
+      "signed_at": "2026-03-04T23:01:45Z",
+      "comment": "98 files analyzed. Found: 11 network, 37 file, 61 env, 16 system calls. Primary: python.",
+      "files_analyzed": 98,
+      "capabilities_found": [
+        "imports external dependencies",
+        "performs network operations",
+        "reads/writes files",
+        "reads environment values",
+        "executes system commands"
+      ]
+    },
+    "agent_c_star": {
+      "signed": true,
+      "signed_at": "2026-03-04T23:01:45Z",
+      "comment": "345 findings: 0 critical, 189 high, 137 medium, 19 low. No obfuscation. No injection.",
+      "total_findings": 345,
+      "severity_counts": {
+        "critical": 0,
+        "high": 189,
+        "medium": 137,
+        "low": 19,
+        "info": 0
+      }
+    },
+    "agent_d": {
+      "signed": true,
+      "signed_at": "2026-03-04T23:01:45Z",
+      "comment": "Score 60. 0 mismatches. Risk: medium. Safety overrides: none triggered.",
+      "score": 60,
+      "mismatches": 0,
+      "safety_overrides_applied": false
+    },
+    "agent_e": {
+      "signed": true,
+      "signed_at": "2026-03-04T23:01:45Z",
+      "comment": "Rejected. Confidence 60%. No overrides.",
+      "approved": false,
+      "confidence": 60,
+      "override_reason": null
+    },
+    "manager_summary": "5/5 agents completed. Score: 60/100, Risk: medium. 0 mismatches, 345 scanner findings. Rejected at 60% confidence. No safety overrides.",
+    "auto_clear": {
+      "applied": true,
+      "reason": "Auto-clear Cat 1: clean profile (0 inj, 0 obf_hr, score=60)",
+      "original_status": "manual_review",
+      "original_score": 60
+    }
+  }
 }

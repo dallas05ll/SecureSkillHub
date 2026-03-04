@@ -7,21 +7,267 @@
   "skill_type": "agent_skill",
   "owner": "geekskai",
   "stars": 0,
-  "primary_language": "unknown",
+  "primary_language": "typescript",
   "tags": [
     "agent-skills",
     "installs:101",
     "data",
     "data-ai",
     "util",
-    "util-search"
+    "util-search",
+    "status-pass"
   ],
-  "verification_status": "unverified",
-  "overall_score": 0,
-  "risk_level": "info",
-  "verified_commit": null,
+  "verification_status": "pass",
+  "overall_score": 60,
+  "risk_level": "medium",
+  "verified_commit": "3effeef7a8c723fd5b5bac00b927ecf12b001ad6",
   "scan_summary": null,
   "repo_status": "available",
   "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
-  "repo_check_error": null
+  "repo_check_error": null,
+  "scan_date": "2026-03-04T23:04:59Z",
+  "findings_summary": {
+    "scanner_findings": 94,
+    "dangerous_calls": 7,
+    "network_ops": 46,
+    "file_ops": 7,
+    "env_access": 33,
+    "obfuscation": 1,
+    "injection_patterns": 0,
+    "mismatches": 0,
+    "undocumented_capabilities": 0,
+    "supervisor_approved": false,
+    "supervisor_confidence": 60
+  },
+  "scan_report": {
+    "total_findings": 94,
+    "injection_patterns_count": 0,
+    "obfuscation_count": 1,
+    "obfuscation_high_risk_count": 0,
+    "dangerous_calls_count": 7,
+    "severity_counts": {
+      "critical": 0,
+      "high": 8,
+      "medium": 79,
+      "low": 7,
+      "info": 0
+    },
+    "category_counts": {
+      "env_access": 33,
+      "dangerous_calls": 7,
+      "network_ops": 46,
+      "file_ops": 7,
+      "obfuscation": 1
+    },
+    "top_findings": [
+      {
+        "rule_id": "regex_js_process_env",
+        "severity": "medium",
+        "category": "env_access",
+        "file": "contentlayer.config.ts",
+        "line": 28
+      },
+      {
+        "rule_id": "regex_js_process_env",
+        "severity": "medium",
+        "category": "env_access",
+        "file": "next.config.js",
+        "line": 7
+      },
+      {
+        "rule_id": "regex_js_process_env",
+        "severity": "medium",
+        "category": "env_access",
+        "file": "next.config.js",
+        "line": 10
+      },
+      {
+        "rule_id": "regex_js_process_env",
+        "severity": "medium",
+        "category": "env_access",
+        "file": "next.config.js",
+        "line": 11
+      },
+      {
+        "rule_id": "regex_js_process_env",
+        "severity": "medium",
+        "category": "env_access",
+        "file": "next.config.js",
+        "line": 12
+      },
+      {
+        "rule_id": "regex_shell_backtick_exec",
+        "severity": "high",
+        "category": "dangerous_calls",
+        "file": "README.md",
+        "line": 114
+      },
+      {
+        "rule_id": "regex_js_process_env",
+        "severity": "medium",
+        "category": "env_access",
+        "file": "instrumentation-client.ts",
+        "line": 4
+      },
+      {
+        "rule_id": "regex_js_process_env",
+        "severity": "medium",
+        "category": "env_access",
+        "file": "instrumentation-client.ts",
+        "line": 10
+      },
+      {
+        "rule_id": "regex_shell_backtick_exec",
+        "severity": "high",
+        "category": "dangerous_calls",
+        "file": "README-CN.md",
+        "line": 103
+      },
+      {
+        "rule_id": "regex_js_process_env",
+        "severity": "medium",
+        "category": "env_access",
+        "file": "app/privacy/layout.tsx",
+        "line": 67
+      },
+      {
+        "rule_id": "regex_js_process_env",
+        "severity": "medium",
+        "category": "env_access",
+        "file": "app/[locale]/layout.tsx",
+        "line": 99
+      },
+      {
+        "rule_id": "regex_js_fetch",
+        "severity": "medium",
+        "category": "network_ops",
+        "file": "app/[locale]/tools/soundcloud-playlist-downloader/page.tsx",
+        "line": 89
+      },
+      {
+        "rule_id": "regex_js_fetch",
+        "severity": "medium",
+        "category": "network_ops",
+        "file": "app/[locale]/tools/soundcloud-playlist-downloader/page.tsx",
+        "line": 157
+      },
+      {
+        "rule_id": "regex_js_fetch",
+        "severity": "medium",
+        "category": "network_ops",
+        "file": "app/[locale]/tools/soundcloud-playlist-downloader/page.tsx",
+        "line": 167
+      },
+      {
+        "rule_id": "regex_js_fetch",
+        "severity": "medium",
+        "category": "network_ops",
+        "file": "app/[locale]/tools/soundcloud-playlist-downloader/page.tsx",
+        "line": 175
+      },
+      {
+        "rule_id": "regex_js_fetch",
+        "severity": "medium",
+        "category": "network_ops",
+        "file": "app/[locale]/tools/soundcloud-playlist-downloader/page.tsx",
+        "line": 182
+      },
+      {
+        "rule_id": "regex_js_fetch",
+        "severity": "medium",
+        "category": "network_ops",
+        "file": "app/[locale]/tools/soundcloud-playlist-downloader/page.tsx",
+        "line": 190
+      },
+      {
+        "rule_id": "regex_js_fetch",
+        "severity": "medium",
+        "category": "network_ops",
+        "file": "app/[locale]/tools/soundcloud-playlist-downloader/components/PlaylistTracks.tsx",
+        "line": 41
+      },
+      {
+        "rule_id": "regex_js_fetch",
+        "severity": "medium",
+        "category": "network_ops",
+        "file": "app/[locale]/tools/snow-day-calculator/page.tsx",
+        "line": 171
+      },
+      {
+        "rule_id": "regex_js_fetch",
+        "severity": "medium",
+        "category": "network_ops",
+        "file": "app/[locale]/tools/heic-to-pdf/components/HeicConverter/useHeicConverter.ts",
+        "line": 205
+      }
+    ],
+    "total_files_scanned": 444
+  },
+  "verification_level": "full_pipeline",
+  "agent_audit": {
+    "agents_completed": 5,
+    "agents_required": 5,
+    "pipeline_run_at": "2026-03-04T23:04:59Z",
+    "agent_a": {
+      "signed": true,
+      "signed_at": "2026-03-04T23:04:59Z",
+      "comment": "Docs quality 9/10. README present. 12 features, 4 permissions claimed.",
+      "doc_quality_score": 9,
+      "claimed_permissions": [
+        "network access",
+        "system command execution",
+        "file system access",
+        "environment/secret access"
+      ]
+    },
+    "agent_b": {
+      "signed": true,
+      "signed_at": "2026-03-04T23:04:59Z",
+      "comment": "381 files analyzed. Found: 48 network, 5 file, 32 env, 6 system calls. Primary: typescript.",
+      "files_analyzed": 381,
+      "capabilities_found": [
+        "imports external dependencies",
+        "performs network operations",
+        "reads/writes files",
+        "reads environment values",
+        "executes system commands"
+      ]
+    },
+    "agent_c_star": {
+      "signed": true,
+      "signed_at": "2026-03-04T23:04:59Z",
+      "comment": "94 findings: 0 critical, 8 high, 79 medium, 7 low. Obfuscation detected!. No injection.",
+      "total_findings": 94,
+      "severity_counts": {
+        "critical": 0,
+        "high": 8,
+        "medium": 79,
+        "low": 7,
+        "info": 0
+      }
+    },
+    "agent_d": {
+      "signed": true,
+      "signed_at": "2026-03-04T23:04:59Z",
+      "comment": "Score 60. 0 mismatches. Risk: medium. Safety overrides: none triggered.",
+      "score": 60,
+      "mismatches": 0,
+      "safety_overrides_applied": false
+    },
+    "agent_e": {
+      "signed": true,
+      "signed_at": "2026-03-04T23:04:59Z",
+      "comment": "Rejected. Confidence 60%. No overrides.",
+      "approved": false,
+      "confidence": 60,
+      "override_reason": null
+    },
+    "manager_summary": "5/5 agents completed. Score: 60/100, Risk: medium. 0 mismatches, 94 scanner findings. Rejected at 60% confidence. No safety overrides.",
+    "auto_clear": {
+      "applied": true,
+      "reason": "Auto-clear Cat 1: clean profile (0 inj, 0 obf_hr, score=60)",
+      "original_status": "manual_review",
+      "original_score": 60
+    }
+  }
 }

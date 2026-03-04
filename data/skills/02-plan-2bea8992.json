@@ -11,26 +11,26 @@
   "tags": [
     "agent-skills",
     "installs:17",
-    "status-fail",
     "prod",
-    "prod-docs"
+    "prod-docs",
+    "status-pass"
   ],
-  "verification_status": "fail",
-  "overall_score": 15,
-  "risk_level": "critical",
-  "verified_commit": "927bb36465cc6c2b1d84e73129de17c2318d6dcf",
+  "verification_status": "pass",
+  "overall_score": 50,
+  "risk_level": "medium",
+  "verified_commit": "ed2c582ab8878c4d3a2ccf222c47b51d02cff57d",
   "scan_summary": null,
   "repo_status": "available",
   "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
   "repo_check_error": null,
-  "scan_date": "2026-03-04T16:06:28Z",
+  "scan_date": "2026-03-04T22:58:27Z",
   "findings_summary": {
-    "scanner_findings": 27399,
-    "dangerous_calls": 6929,
-    "network_ops": 5292,
-    "file_ops": 3091,
-    "env_access": 6901,
-    "obfuscation": 457,
+    "scanner_findings": 27574,
+    "dangerous_calls": 6983,
+    "network_ops": 5318,
+    "file_ops": 3111,
+    "env_access": 6947,
+    "obfuscation": 454,
     "injection_patterns": 0,
     "mismatches": 0,
     "undocumented_capabilities": 0,
@@ -41,10 +41,10 @@
   "agent_audit": {
     "agents_completed": 5,
     "agents_required": 5,
-    "pipeline_run_at": "2026-03-04T16:06:28Z",
+    "pipeline_run_at": "2026-03-04T22:58:27Z",
     "agent_a": {
       "signed": true,
-      "signed_at": "2026-03-04T16:06:28Z",
+      "signed_at": "2026-03-04T22:58:27Z",
       "comment": "Docs quality 10/10. README present. 12 features, 3 permissions claimed.",
       "doc_quality_score": 10,
       "claimed_permissions": [
@@ -55,7 +55,7 @@
     },
     "agent_b": {
       "signed": true,
-      "signed_at": "2026-03-04T16:06:28Z",
+      "signed_at": "2026-03-04T22:58:27Z",
       "comment": "20 files analyzed. Found: 8 network, 26 file, 16 env, 3 system calls. Primary: unknown.",
       "files_analyzed": 20,
       "capabilities_found": [
@@ -68,20 +68,20 @@
     },
     "agent_c_star": {
       "signed": true,
-      "signed_at": "2026-03-04T16:06:28Z",
-      "comment": "27399 findings: 0 critical, 12115 high, 12193 medium, 3091 low. Obfuscation detected!. No injection.",
-      "total_findings": 27399,
+      "signed_at": "2026-03-04T22:58:27Z",
+      "comment": "27574 findings: 0 critical, 12198 high, 12265 medium, 3111 low. Obfuscation detected!. No injection.",
+      "total_findings": 27574,
       "severity_counts": {
         "critical": 0,
-        "high": 12115,
-        "medium": 12193,
-        "low": 3091,
+        "high": 12198,
+        "medium": 12265,
+        "low": 3111,
         "info": 0
       }
     },
     "agent_d": {
       "signed": true,
-      "signed_at": "2026-03-04T16:06:28Z",
+      "signed_at": "2026-03-04T22:58:27Z",
       "comment": "Score 15. 0 mismatches. Risk: critical. Safety overrides: applied.",
       "score": 15,
       "mismatches": 0,
@@ -89,12 +89,188 @@
     },
     "agent_e": {
       "signed": true,
-      "signed_at": "2026-03-04T16:06:28Z",
+      "signed_at": "2026-03-04T22:58:27Z",
       "comment": "Rejected. Confidence 90%. Deterministic override: high-risk obfuscation detected.",
       "approved": false,
       "confidence": 90,
       "override_reason": "Deterministic override: high-risk obfuscation detected."
     },
-    "manager_summary": "5/5 agents completed. Score: 15/100, Risk: critical. 0 mismatches, 27399 scanner findings. Rejected at 90% confidence. Safety overrides triggered."
+    "manager_summary": "5/5 agents completed. Score: 15/100, Risk: critical. 0 mismatches, 27574 scanner findings. Rejected at 90% confidence. Safety overrides triggered.",
+    "auto_clear": {
+      "applied": true,
+      "reason": "Auto-clear Cat 2: obfuscation-only (23 obf_hr, 2 dangerous, 0 inj, 511439 files)",
+      "original_status": "fail",
+      "original_score": 15
+    }
+  },
+  "sm_cleanup": {
+    "action": "reset_stale_fail",
+    "reason": "Pre-fix fail (no scan_report), would auto-clear now. Reset for re-verification.",
+    "cleaned_at": "2026-03-04T22:57:54.198835+00:00"
+  },
+  "scan_report": {
+    "total_findings": 27574,
+    "injection_patterns_count": 0,
+    "obfuscation_count": 454,
+    "obfuscation_high_risk_count": 23,
+    "dangerous_calls_count": 6983,
+    "severity_counts": {
+      "critical": 0,
+      "high": 12198,
+      "medium": 12265,
+      "low": 3111,
+      "info": 0
+    },
+    "category_counts": {
+      "network_ops": 5318,
+      "dangerous_calls": 6983,
+      "env_access": 6947,
+      "file_ops": 3111,
+      "suspicious_urls": 4761,
+      "obfuscation": 454
+    },
+    "top_findings": [
+      {
+        "rule_id": "regex_js_fetch",
+        "severity": "medium",
+        "category": "network_ops",
+        "file": "README.md",
+        "line": 181
+      },
+      {
+        "rule_id": "regex_py_subprocess_call",
+        "severity": "high",
+        "category": "dangerous_calls",
+        "file": "scripts/sync_indexes.py",
+        "line": 36
+      },
+      {
+        "rule_id": "regex_py_os_getenv",
+        "severity": "medium",
+        "category": "env_access",
+        "file": "scripts/sync_indexes.py",
+        "line": 80
+      },
+      {
+        "rule_id": "regex_py_os_getenv",
+        "severity": "medium",
+        "category": "env_access",
+        "file": "scripts/fix_non_english_descriptions.py",
+        "line": 99
+      },
+      {
+        "rule_id": "regex_py_open",
+        "severity": "low",
+        "category": "file_ops",
+        "file": "scripts/count_skills.py",
+        "line": 5
+      },
+      {
+        "rule_id": "regex_py_subprocess_call",
+        "severity": "high",
+        "category": "dangerous_calls",
+        "file": "scripts/register_new_manual_skills.py",
+        "line": 31
+      },
+      {
+        "rule_id": "regex_py_subprocess_call",
+        "severity": "high",
+        "category": "dangerous_calls",
+        "file": "scripts/register_new_manual_skills.py",
+        "line": 49
+      },
+      {
+        "rule_id": "regex_py_open",
+        "severity": "low",
+        "category": "file_ops",
+        "file": "scripts/register_new_manual_skills.py",
+        "line": 21
+      },
+      {
+        "rule_id": "regex_py_os_getenv",
+        "severity": "medium",
+        "category": "env_access",
+        "file": "scripts/translate_descriptions.py",
+        "line": 101
+      },
+      {
+        "rule_id": "regex_py_os_getenv",
+        "severity": "medium",
+        "category": "env_access",
+        "file": "scripts/translate_descriptions.py",
+        "line": 128
+      },
+      {
+        "rule_id": "regex_py_os_getenv",
+        "severity": "medium",
+        "category": "env_access",
+        "file": "scripts/translate_descriptions.py",
+        "line": 218
+      },
+      {
+        "rule_id": "regex_py_os_getenv",
+        "severity": "medium",
+        "category": "env_access",
+        "file": "scripts/translate_descriptions.py",
+        "line": 232
+      },
+      {
+        "rule_id": "regex_py_os_getenv",
+        "severity": "medium",
+        "category": "env_access",
+        "file": "scripts/translate_descriptions.py",
+        "line": 386
+      },
+      {
+        "rule_id": "regex_py_urllib",
+        "severity": "medium",
+        "category": "network_ops",
+        "file": "scripts/notify_discord_new_skills.py",
+        "line": 64
+      },
+      {
+        "rule_id": "regex_py_urllib",
+        "severity": "medium",
+        "category": "network_ops",
+        "file": "scripts/notify_discord_new_skills.py",
+        "line": 75
+      },
+      {
+        "rule_id": "regex_py_os_environ",
+        "severity": "medium",
+        "category": "env_access",
+        "file": "scripts/notify_discord_new_skills.py",
+        "line": 36
+      },
+      {
+        "rule_id": "regex_discord_webhook",
+        "severity": "high",
+        "category": "suspicious_urls",
+        "file": "scripts/notify_discord_new_skills.py",
+        "line": 10
+      },
+      {
+        "rule_id": "regex_py_open",
+        "severity": "low",
+        "category": "file_ops",
+        "file": "scripts/build_skill_category_index.py",
+        "line": 503
+      },
+      {
+        "rule_id": "regex_py_subprocess_call",
+        "severity": "high",
+        "category": "dangerous_calls",
+        "file": "data/skills-md/avivk5498/my-claude-code-skills/runpod-serverless-builder/SKILL.md",
+        "line": 46
+      },
+      {
+        "rule_id": "regex_py_open",
+        "severity": "low",
+        "category": "file_ops",
+        "file": "data/skills-md/avivk5498/my-claude-code-skills/runpod-serverless-builder/SKILL.md",
+        "line": 228
+      }
+    ],
+    "total_files_scanned": 511439
   }
 }

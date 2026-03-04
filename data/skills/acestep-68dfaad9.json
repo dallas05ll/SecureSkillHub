@@ -11,24 +11,24 @@
   "tags": [
     "agent-skills",
     "installs:5784",
-    "status-fail",
     "data",
     "data-ai",
     "data-ai-audio",
     "dev",
     "dev-web",
     "dev-web-frontend",
-    "integ"
+    "integ",
+    "status-pass"
   ],
-  "verification_status": "fail",
-  "overall_score": 15,
-  "risk_level": "critical",
+  "verification_status": "pass",
+  "overall_score": 50,
+  "risk_level": "medium",
   "verified_commit": "c0a32a23826a99eff208b9b305f088a49737463d",
   "scan_summary": null,
   "repo_status": "available",
   "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
   "repo_check_error": null,
-  "scan_date": "2026-03-04T17:56:24Z",
+  "scan_date": "2026-03-04T22:58:27Z",
   "findings_summary": {
     "scanner_findings": 930,
     "dangerous_calls": 77,
@@ -46,10 +46,10 @@
   "agent_audit": {
     "agents_completed": 5,
     "agents_required": 5,
-    "pipeline_run_at": "2026-03-04T17:56:24Z",
+    "pipeline_run_at": "2026-03-04T22:58:27Z",
     "agent_a": {
       "signed": true,
-      "signed_at": "2026-03-04T17:56:24Z",
+      "signed_at": "2026-03-04T22:58:27Z",
       "comment": "Docs quality 9/10. README present. 12 features, 4 permissions claimed.",
       "doc_quality_score": 9,
       "claimed_permissions": [
@@ -61,7 +61,7 @@
     },
     "agent_b": {
       "signed": true,
-      "signed_at": "2026-03-04T17:56:24Z",
+      "signed_at": "2026-03-04T22:58:27Z",
       "comment": "920 files analyzed. Found: 21 network, 93 file, 120 env, 33 system calls. Primary: python.",
       "files_analyzed": 920,
       "capabilities_found": [
@@ -74,7 +74,7 @@
     },
     "agent_c_star": {
       "signed": true,
-      "signed_at": "2026-03-04T17:56:24Z",
+      "signed_at": "2026-03-04T22:58:27Z",
       "comment": "930 findings: 0 critical, 203 high, 202 medium, 525 low. Obfuscation detected!. No injection.",
       "total_findings": 930,
       "severity_counts": {
@@ -87,7 +87,7 @@
     },
     "agent_d": {
       "signed": true,
-      "signed_at": "2026-03-04T17:56:24Z",
+      "signed_at": "2026-03-04T22:58:27Z",
       "comment": "Score 15. 0 mismatches. Risk: critical. Safety overrides: applied.",
       "score": 15,
       "mismatches": 0,
@@ -95,12 +95,188 @@
     },
     "agent_e": {
       "signed": true,
-      "signed_at": "2026-03-04T17:56:24Z",
+      "signed_at": "2026-03-04T22:58:27Z",
       "comment": "Rejected. Confidence 90%. Deterministic override: high-risk obfuscation detected.",
       "approved": false,
       "confidence": 90,
       "override_reason": "Deterministic override: high-risk obfuscation detected."
     },
-    "manager_summary": "5/5 agents completed. Score: 15/100, Risk: critical. 0 mismatches, 930 scanner findings. Rejected at 90% confidence. Safety overrides triggered."
+    "manager_summary": "5/5 agents completed. Score: 15/100, Risk: critical. 0 mismatches, 930 scanner findings. Rejected at 90% confidence. Safety overrides triggered.",
+    "auto_clear": {
+      "applied": true,
+      "reason": "Auto-clear Cat 2: obfuscation-only (7 obf_hr, 0 dangerous, 0 inj, 989 files)",
+      "original_status": "fail",
+      "original_score": 15
+    }
+  },
+  "sm_cleanup": {
+    "action": "reset_stale_fail",
+    "reason": "Pre-fix fail (no scan_report), would auto-clear now. Reset for re-verification.",
+    "cleaned_at": "2026-03-04T22:57:54.198835+00:00"
+  },
+  "scan_report": {
+    "total_findings": 930,
+    "injection_patterns_count": 0,
+    "obfuscation_count": 26,
+    "obfuscation_high_risk_count": 7,
+    "dangerous_calls_count": 77,
+    "severity_counts": {
+      "critical": 0,
+      "high": 203,
+      "medium": 202,
+      "low": 525,
+      "info": 0
+    },
+    "category_counts": {
+      "suspicious_urls": 100,
+      "file_ops": 525,
+      "env_access": 172,
+      "network_ops": 30,
+      "obfuscation": 26,
+      "dangerous_calls": 77
+    },
+    "top_findings": [
+      {
+        "rule_id": "regex_localhost_non_std",
+        "severity": "high",
+        "category": "suspicious_urls",
+        "file": "docker-compose.jetson.yml",
+        "line": 91
+      },
+      {
+        "rule_id": "regex_localhost_non_std",
+        "severity": "high",
+        "category": "suspicious_urls",
+        "file": "docker-compose.jetson.yml",
+        "line": 92
+      },
+      {
+        "rule_id": "regex_py_open",
+        "severity": "low",
+        "category": "file_ops",
+        "file": "profile_inference.py",
+        "line": 126
+      },
+      {
+        "rule_id": "regex_py_open",
+        "severity": "low",
+        "category": "file_ops",
+        "file": "profile_inference.py",
+        "line": 204
+      },
+      {
+        "rule_id": "regex_py_open",
+        "severity": "low",
+        "category": "file_ops",
+        "file": "profile_inference.py",
+        "line": 552
+      },
+      {
+        "rule_id": "regex_py_open",
+        "severity": "low",
+        "category": "file_ops",
+        "file": "profile_inference.py",
+        "line": 708
+      },
+      {
+        "rule_id": "regex_py_open",
+        "severity": "low",
+        "category": "file_ops",
+        "file": "profile_inference.py",
+        "line": 1053
+      },
+      {
+        "rule_id": "regex_py_open",
+        "severity": "low",
+        "category": "file_ops",
+        "file": "profile_inference.py",
+        "line": 1199
+      },
+      {
+        "rule_id": "regex_py_open",
+        "severity": "low",
+        "category": "file_ops",
+        "file": "profile_inference.py",
+        "line": 1643
+      },
+      {
+        "rule_id": "regex_py_open",
+        "severity": "low",
+        "category": "file_ops",
+        "file": "profile_inference.py",
+        "line": 1694
+      },
+      {
+        "rule_id": "regex_py_shutil",
+        "severity": "low",
+        "category": "file_ops",
+        "file": "profile_inference.py",
+        "line": 1714
+      },
+      {
+        "rule_id": "regex_py_os_path",
+        "severity": "low",
+        "category": "file_ops",
+        "file": "profile_inference.py",
+        "line": 57
+      },
+      {
+        "rule_id": "regex_py_os_path",
+        "severity": "low",
+        "category": "file_ops",
+        "file": "profile_inference.py",
+        "line": 124
+      },
+      {
+        "rule_id": "regex_py_os_path",
+        "severity": "low",
+        "category": "file_ops",
+        "file": "profile_inference.py",
+        "line": 125
+      },
+      {
+        "rule_id": "regex_py_os_path",
+        "severity": "low",
+        "category": "file_ops",
+        "file": "profile_inference.py",
+        "line": 428
+      },
+      {
+        "rule_id": "regex_py_os_path",
+        "severity": "low",
+        "category": "file_ops",
+        "file": "profile_inference.py",
+        "line": 431
+      },
+      {
+        "rule_id": "regex_py_os_path",
+        "severity": "low",
+        "category": "file_ops",
+        "file": "profile_inference.py",
+        "line": 545
+      },
+      {
+        "rule_id": "regex_py_os_path",
+        "severity": "low",
+        "category": "file_ops",
+        "file": "profile_inference.py",
+        "line": 548
+      },
+      {
+        "rule_id": "regex_py_os_path",
+        "severity": "low",
+        "category": "file_ops",
+        "file": "profile_inference.py",
+        "line": 1046
+      },
+      {
+        "rule_id": "regex_py_os_path",
+        "severity": "low",
+        "category": "file_ops",
+        "file": "profile_inference.py",
+        "line": 1049
+      }
+    ],
+    "total_files_scanned": 989
   }
 }

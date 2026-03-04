@@ -12,14 +12,260 @@
     "agent-skills",
     "installs:192",
     "data",
-    "data-ai"
+    "data-ai",
+    "status-pass"
   ],
-  "verification_status": "unverified",
-  "overall_score": 0,
-  "risk_level": "info",
-  "verified_commit": null,
+  "verification_status": "pass",
+  "overall_score": 50,
+  "risk_level": "medium",
+  "verified_commit": "2998e29bc7f9c3350c2a311fecd9c2d1f4747ec2",
   "scan_summary": null,
   "repo_status": "available",
   "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
-  "repo_check_error": null
+  "repo_check_error": null,
+  "scan_date": "2026-03-04T23:09:38Z",
+  "findings_summary": {
+    "scanner_findings": 52,
+    "dangerous_calls": 17,
+    "network_ops": 4,
+    "file_ops": 16,
+    "env_access": 4,
+    "obfuscation": 2,
+    "injection_patterns": 2,
+    "mismatches": 0,
+    "undocumented_capabilities": 0,
+    "supervisor_approved": false,
+    "supervisor_confidence": 95
+  },
+  "scan_report": {
+    "total_findings": 52,
+    "injection_patterns_count": 2,
+    "obfuscation_count": 2,
+    "obfuscation_high_risk_count": 1,
+    "dangerous_calls_count": 17,
+    "severity_counts": {
+      "critical": 2,
+      "high": 26,
+      "medium": 8,
+      "low": 16,
+      "info": 0
+    },
+    "category_counts": {
+      "injection_patterns": 2,
+      "env_access": 4,
+      "dangerous_calls": 17,
+      "file_ops": 16,
+      "network_ops": 4,
+      "obfuscation": 2,
+      "suspicious_urls": 7
+    },
+    "top_findings": [
+      {
+        "rule_id": "regex_ignore_previous",
+        "severity": "critical",
+        "category": "injection_patterns",
+        "file": "scripts/security-scan-allowlist-ai-factory.json",
+        "line": 19
+      },
+      {
+        "rule_id": "regex_ignore_previous",
+        "severity": "critical",
+        "category": "injection_patterns",
+        "file": "scripts/security-scan-allowlist-ai-factory.json",
+        "line": 91
+      },
+      {
+        "rule_id": "regex_js_process_env",
+        "severity": "medium",
+        "category": "env_access",
+        "file": "skills/aif-fix/SKILL.md",
+        "line": 289
+      },
+      {
+        "rule_id": "regex_shell_backtick_exec",
+        "severity": "high",
+        "category": "dangerous_calls",
+        "file": "skills/aif-verify/SKILL.md",
+        "line": 87
+      },
+      {
+        "rule_id": "regex_shell_backtick_exec",
+        "severity": "high",
+        "category": "dangerous_calls",
+        "file": "skills/aif-plan/SKILL.md",
+        "line": 210
+      },
+      {
+        "rule_id": "regex_shell_backtick_exec",
+        "severity": "high",
+        "category": "dangerous_calls",
+        "file": "skills/aif-plan/SKILL.md",
+        "line": 490
+      },
+      {
+        "rule_id": "regex_shell_backtick_exec",
+        "severity": "high",
+        "category": "dangerous_calls",
+        "file": "skills/aif-build-automation/references/BEST-PRACTICES.md",
+        "line": 34
+      },
+      {
+        "rule_id": "regex_shell_backtick_exec",
+        "severity": "high",
+        "category": "dangerous_calls",
+        "file": "skills/aif-build-automation/references/BEST-PRACTICES.md",
+        "line": 56
+      },
+      {
+        "rule_id": "regex_shell_backtick_exec",
+        "severity": "high",
+        "category": "dangerous_calls",
+        "file": "skills/aif-build-automation/references/BEST-PRACTICES.md",
+        "line": 65
+      },
+      {
+        "rule_id": "regex_shell_backtick_exec",
+        "severity": "high",
+        "category": "dangerous_calls",
+        "file": "skills/aif-build-automation/references/BEST-PRACTICES.md",
+        "line": 99
+      },
+      {
+        "rule_id": "regex_shell_backtick_exec",
+        "severity": "high",
+        "category": "dangerous_calls",
+        "file": "skills/aif-build-automation/references/BEST-PRACTICES.md",
+        "line": 602
+      },
+      {
+        "rule_id": "regex_py_exec",
+        "severity": "high",
+        "category": "dangerous_calls",
+        "file": "skills/aif-security-checklist/SKILL.md",
+        "line": 217
+      },
+      {
+        "rule_id": "regex_py_eval",
+        "severity": "high",
+        "category": "dangerous_calls",
+        "file": "skills/aif-security-checklist/references/RACE-CONDITIONS.md",
+        "line": 128
+      },
+      {
+        "rule_id": "regex_py_open",
+        "severity": "low",
+        "category": "file_ops",
+        "file": "skills/aif-security-checklist/references/RACE-CONDITIONS.md",
+        "line": 71
+      },
+      {
+        "rule_id": "regex_js_process_env",
+        "severity": "medium",
+        "category": "env_access",
+        "file": "skills/aif-security-checklist/references/AUTH-PATTERNS.md",
+        "line": 45
+      },
+      {
+        "rule_id": "regex_py_exec",
+        "severity": "high",
+        "category": "dangerous_calls",
+        "file": "skills/aif-security-checklist/references/PROMPT-INJECTION.md",
+        "line": 41
+      },
+      {
+        "rule_id": "regex_js_fetch",
+        "severity": "medium",
+        "category": "network_ops",
+        "file": "skills/aif-security-checklist/references/PROMPT-INJECTION.md",
+        "line": 22
+      },
+      {
+        "rule_id": "regex_js_fetch",
+        "severity": "medium",
+        "category": "network_ops",
+        "file": "skills/aif-security-checklist/references/PROMPT-INJECTION.md",
+        "line": 27
+      },
+      {
+        "rule_id": "regex_shell_backtick_exec",
+        "severity": "high",
+        "category": "dangerous_calls",
+        "file": "skills/aif-skill-generator/SKILL.md",
+        "line": 98
+      },
+      {
+        "rule_id": "regex_py_eval",
+        "severity": "high",
+        "category": "dangerous_calls",
+        "file": "skills/aif-skill-generator/references/SECURITY-SCANNING.md",
+        "line": 37
+      }
+    ],
+    "total_files_scanned": 138
+  },
+  "verification_level": "full_pipeline",
+  "agent_audit": {
+    "agents_completed": 5,
+    "agents_required": 5,
+    "pipeline_run_at": "2026-03-04T23:09:38Z",
+    "agent_a": {
+      "signed": true,
+      "signed_at": "2026-03-04T23:09:38Z",
+      "comment": "Docs quality 10/10. README present. 12 features, 4 permissions claimed.",
+      "doc_quality_score": 10,
+      "claimed_permissions": [
+        "network access",
+        "system command execution",
+        "file system access",
+        "environment/secret access"
+      ]
+    },
+    "agent_b": {
+      "signed": true,
+      "signed_at": "2026-03-04T23:09:38Z",
+      "comment": "67 files analyzed. Found: 1 network, 8 file, 0 env, 0 system calls. Primary: unknown.",
+      "files_analyzed": 67,
+      "capabilities_found": [
+        "imports external dependencies",
+        "performs network operations",
+        "reads/writes files"
+      ]
+    },
+    "agent_c_star": {
+      "signed": true,
+      "signed_at": "2026-03-04T23:09:38Z",
+      "comment": "52 findings: 2 critical, 26 high, 8 medium, 16 low. Obfuscation detected!. Injection patterns found!.",
+      "total_findings": 52,
+      "severity_counts": {
+        "critical": 2,
+        "high": 26,
+        "medium": 8,
+        "low": 16,
+        "info": 0
+      }
+    },
+    "agent_d": {
+      "signed": true,
+      "signed_at": "2026-03-04T23:09:38Z",
+      "comment": "Score 10. 0 mismatches. Risk: critical. Safety overrides: applied.",
+      "score": 10,
+      "mismatches": 0,
+      "safety_overrides_applied": true
+    },
+    "agent_e": {
+      "signed": true,
+      "signed_at": "2026-03-04T23:09:38Z",
+      "comment": "Rejected. Confidence 95%. Deterministic override: injection patterns detected.",
+      "approved": false,
+      "confidence": 95,
+      "override_reason": "Deterministic override: injection patterns detected."
+    },
+    "manager_summary": "5/5 agents completed. Score: 10/100, Risk: critical. 0 mismatches, 52 scanner findings. Rejected at 95% confidence. Safety overrides triggered.",
+    "auto_clear": {
+      "applied": true,
+      "reason": "Auto-clear Cat 11: incidental (2 inj in 52 findings)",
+      "original_status": "fail",
+      "original_score": 10
+    }
+  }
 }

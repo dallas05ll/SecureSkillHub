@@ -7,19 +7,250 @@
   "skill_type": "agent_skill",
   "owner": "miyatti777",
   "stars": 0,
-  "primary_language": "unknown",
+  "primary_language": "shell",
   "tags": [
     "agent-skills",
     "installs:54",
     "data",
-    "data-ai"
+    "data-ai",
+    "status-pass"
   ],
-  "verification_status": "unverified",
-  "overall_score": 0,
-  "risk_level": "info",
-  "verified_commit": null,
+  "verification_status": "pass",
+  "overall_score": 67,
+  "risk_level": "medium",
+  "verified_commit": "815a6691e2d38ad991702ce14510815a58b4489b",
   "scan_summary": null,
   "repo_status": "available",
   "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
-  "repo_check_error": null
+  "repo_check_error": null,
+  "scan_date": "2026-03-04T23:01:10Z",
+  "findings_summary": {
+    "scanner_findings": 19,
+    "dangerous_calls": 1,
+    "network_ops": 0,
+    "file_ops": 0,
+    "env_access": 10,
+    "obfuscation": 0,
+    "injection_patterns": 0,
+    "mismatches": 0,
+    "undocumented_capabilities": 0,
+    "supervisor_approved": false,
+    "supervisor_confidence": 67
+  },
+  "scan_report": {
+    "total_findings": 19,
+    "injection_patterns_count": 0,
+    "obfuscation_count": 0,
+    "obfuscation_high_risk_count": 0,
+    "dangerous_calls_count": 1,
+    "severity_counts": {
+      "critical": 0,
+      "high": 9,
+      "medium": 10,
+      "low": 0,
+      "info": 0
+    },
+    "category_counts": {
+      "suspicious_urls": 8,
+      "env_access": 10,
+      "dangerous_calls": 1
+    },
+    "top_findings": [
+      {
+        "rule_id": "regex_localhost_non_std",
+        "severity": "high",
+        "category": "suspicious_urls",
+        "file": "skills/command-templates/system_building_templates/CMD_sys_03_API設計.md",
+        "line": 115
+      },
+      {
+        "rule_id": "regex_localhost_non_std",
+        "severity": "high",
+        "category": "suspicious_urls",
+        "file": "skills/command-templates/system_building_templates/CMD_sys_08_ドキュメント整備.md",
+        "line": 212
+      },
+      {
+        "rule_id": "regex_localhost_non_std",
+        "severity": "high",
+        "category": "suspicious_urls",
+        "file": "skills/command-templates/system_building_templates/CMD_sys_08_ドキュメント整備.md",
+        "line": 273
+      },
+      {
+        "rule_id": "regex_js_process_env",
+        "severity": "medium",
+        "category": "env_access",
+        "file": "skills/command-templates/system_building_templates/CMD_sys_06_テスト設計.md",
+        "line": 442
+      },
+      {
+        "rule_id": "regex_js_process_env",
+        "severity": "medium",
+        "category": "env_access",
+        "file": "skills/command-templates/system_building_templates/CMD_sys_06_テスト設計.md",
+        "line": 443
+      },
+      {
+        "rule_id": "regex_js_process_env",
+        "severity": "medium",
+        "category": "env_access",
+        "file": "skills/command-templates/system_building_templates/CMD_sys_06_テスト設計.md",
+        "line": 444
+      },
+      {
+        "rule_id": "regex_js_process_env",
+        "severity": "medium",
+        "category": "env_access",
+        "file": "skills/command-templates/system_building_templates/CMD_sys_06_テスト設計.md",
+        "line": 459
+      },
+      {
+        "rule_id": "regex_localhost_non_std",
+        "severity": "high",
+        "category": "suspicious_urls",
+        "file": "skills/command-templates/system_building_templates/CMD_sys_06_テスト設計.md",
+        "line": 447
+      },
+      {
+        "rule_id": "regex_localhost_non_std",
+        "severity": "high",
+        "category": "suspicious_urls",
+        "file": "skills/command-templates/system_building_templates/CMD_sys_06_テスト設計.md",
+        "line": 458
+      },
+      {
+        "rule_id": "regex_js_process_env",
+        "severity": "medium",
+        "category": "env_access",
+        "file": "skills/command-templates/system_building_templates/CMD_sys_07_デプロイ設計.md",
+        "line": 318
+      },
+      {
+        "rule_id": "regex_js_process_env",
+        "severity": "medium",
+        "category": "env_access",
+        "file": "skills/command-templates/system_building_templates/CMD_sys_07_デプロイ設計.md",
+        "line": 320
+      },
+      {
+        "rule_id": "regex_js_process_env",
+        "severity": "medium",
+        "category": "env_access",
+        "file": "skills/command-templates/system_building_templates/CMD_sys_07_デプロイ設計.md",
+        "line": 329
+      },
+      {
+        "rule_id": "regex_js_process_env",
+        "severity": "medium",
+        "category": "env_access",
+        "file": "skills/command-templates/system_building_templates/CMD_sys_07_デプロイ設計.md",
+        "line": 330
+      },
+      {
+        "rule_id": "regex_js_process_env",
+        "severity": "medium",
+        "category": "env_access",
+        "file": "skills/command-templates/system_building_templates/CMD_sys_07_デプロイ設計.md",
+        "line": 359
+      },
+      {
+        "rule_id": "regex_js_process_env",
+        "severity": "medium",
+        "category": "env_access",
+        "file": "skills/command-templates/system_building_templates/CMD_sys_07_デプロイ設計.md",
+        "line": 372
+      },
+      {
+        "rule_id": "regex_localhost_non_std",
+        "severity": "high",
+        "category": "suspicious_urls",
+        "file": "skills/command-templates/system_building_templates/CMD_sys_07_デプロイ設計.md",
+        "line": 235
+      },
+      {
+        "rule_id": "regex_localhost_non_std",
+        "severity": "high",
+        "category": "suspicious_urls",
+        "file": "skills/command-templates/system_building_templates/CMD_sys_07_デプロイ設計.md",
+        "line": 245
+      },
+      {
+        "rule_id": "regex_shell_backtick_exec",
+        "severity": "high",
+        "category": "dangerous_calls",
+        "file": "skills/command-templates/project_management_templates/CMD_prj_01_プロジェクト開始.md",
+        "line": 28
+      },
+      {
+        "rule_id": "regex_localhost_non_std",
+        "severity": "high",
+        "category": "suspicious_urls",
+        "file": "skills/command-templates/development_ax_templates/CMD_dv_12_コードレビューチェックリスト.md",
+        "line": 437
+      }
+    ],
+    "total_files_scanned": 161
+  },
+  "verification_level": "full_pipeline",
+  "agent_audit": {
+    "agents_completed": 5,
+    "agents_required": 5,
+    "pipeline_run_at": "2026-03-04T23:01:10Z",
+    "agent_a": {
+      "signed": true,
+      "signed_at": "2026-03-04T23:01:10Z",
+      "comment": "Docs quality 10/10. README present. 12 features, 4 permissions claimed.",
+      "doc_quality_score": 10,
+      "claimed_permissions": [
+        "network access",
+        "system command execution",
+        "file system access",
+        "environment/secret access"
+      ]
+    },
+    "agent_b": {
+      "signed": true,
+      "signed_at": "2026-03-04T23:01:10Z",
+      "comment": "1 files analyzed. Found: 0 network, 0 file, 0 env, 0 system calls. Primary: shell.",
+      "files_analyzed": 1,
+      "capabilities_found": []
+    },
+    "agent_c_star": {
+      "signed": true,
+      "signed_at": "2026-03-04T23:01:10Z",
+      "comment": "19 findings: 0 critical, 9 high, 10 medium, 0 low. No obfuscation. No injection.",
+      "total_findings": 19,
+      "severity_counts": {
+        "critical": 0,
+        "high": 9,
+        "medium": 10,
+        "low": 0,
+        "info": 0
+      }
+    },
+    "agent_d": {
+      "signed": true,
+      "signed_at": "2026-03-04T23:01:10Z",
+      "comment": "Score 67. 0 mismatches. Risk: medium. Safety overrides: none triggered.",
+      "score": 67,
+      "mismatches": 0,
+      "safety_overrides_applied": false
+    },
+    "agent_e": {
+      "signed": true,
+      "signed_at": "2026-03-04T23:01:10Z",
+      "comment": "Rejected. Confidence 67%. No overrides.",
+      "approved": false,
+      "confidence": 67,
+      "override_reason": null
+    },
+    "manager_summary": "5/5 agents completed. Score: 67/100, Risk: medium. 0 mismatches, 19 scanner findings. Rejected at 67% confidence. No safety overrides.",
+    "auto_clear": {
+      "applied": true,
+      "reason": "Auto-clear Cat 1: clean profile (0 inj, 0 obf_hr, score=67)",
+      "original_status": "manual_review",
+      "original_score": 67
+    }
+  }
 }

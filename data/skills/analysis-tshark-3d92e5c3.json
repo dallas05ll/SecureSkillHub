@@ -12,14 +12,259 @@
     "agent-skills",
     "installs:51",
     "sec",
-    "util"
+    "util",
+    "status-pass"
   ],
-  "verification_status": "unverified",
-  "overall_score": 0,
-  "risk_level": "info",
-  "verified_commit": null,
+  "verification_status": "pass",
+  "overall_score": 60,
+  "risk_level": "medium",
+  "verified_commit": "394ee0d0dd7c97e0ddc273b989cd657528544ad9",
   "scan_summary": null,
   "repo_status": "available",
   "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
-  "repo_check_error": null
+  "repo_check_error": null,
+  "scan_date": "2026-03-04T23:15:25Z",
+  "findings_summary": {
+    "scanner_findings": 299,
+    "dangerous_calls": 86,
+    "network_ops": 9,
+    "file_ops": 101,
+    "env_access": 92,
+    "obfuscation": 0,
+    "injection_patterns": 0,
+    "mismatches": 0,
+    "undocumented_capabilities": 0,
+    "supervisor_approved": false,
+    "supervisor_confidence": 60
+  },
+  "scan_report": {
+    "total_findings": 299,
+    "injection_patterns_count": 0,
+    "obfuscation_count": 0,
+    "obfuscation_high_risk_count": 0,
+    "dangerous_calls_count": 86,
+    "severity_counts": {
+      "critical": 0,
+      "high": 97,
+      "medium": 101,
+      "low": 101,
+      "info": 0
+    },
+    "category_counts": {
+      "dangerous_calls": 86,
+      "file_ops": 101,
+      "env_access": 92,
+      "suspicious_urls": 11,
+      "network_ops": 9
+    },
+    "top_findings": [
+      {
+        "rule_id": "regex_shell_backtick_exec",
+        "severity": "high",
+        "category": "dangerous_calls",
+        "file": "CONTRIBUTE.md",
+        "line": 711
+      },
+      {
+        "rule_id": "regex_py_open",
+        "severity": "low",
+        "category": "file_ops",
+        "file": "CONTRIBUTE.md",
+        "line": 808
+      },
+      {
+        "rule_id": "regex_shell_backtick_exec",
+        "severity": "high",
+        "category": "dangerous_calls",
+        "file": "skills/offsec/analysis-tshark/SKILL.md",
+        "line": 354
+      },
+      {
+        "rule_id": "regex_shell_backtick_exec",
+        "severity": "high",
+        "category": "dangerous_calls",
+        "file": "skills/offsec/analysis-tshark/SKILL.md",
+        "line": 439
+      },
+      {
+        "rule_id": "regex_shell_backtick_exec",
+        "severity": "high",
+        "category": "dangerous_calls",
+        "file": "skills/offsec/analysis-tshark/SKILL.md",
+        "line": 543
+      },
+      {
+        "rule_id": "regex_py_os_path",
+        "severity": "low",
+        "category": "file_ops",
+        "file": "skills/offsec/analysis-tshark/references/EXAMPLE.md",
+        "line": 533
+      },
+      {
+        "rule_id": "regex_py_os_environ",
+        "severity": "medium",
+        "category": "env_access",
+        "file": "skills/offsec/analysis-tshark/references/EXAMPLE.md",
+        "line": 423
+      },
+      {
+        "rule_id": "regex_py_os_environ",
+        "severity": "medium",
+        "category": "env_access",
+        "file": "skills/offsec/analysis-tshark/assets/rule-template.yaml",
+        "line": 147
+      },
+      {
+        "rule_id": "regex_py_os_environ",
+        "severity": "medium",
+        "category": "env_access",
+        "file": "skills/offsec/analysis-tshark/assets/rule-template.yaml",
+        "line": 162
+      },
+      {
+        "rule_id": "regex_js_process_env",
+        "severity": "medium",
+        "category": "env_access",
+        "file": "skills/offsec/analysis-tshark/assets/rule-template.yaml",
+        "line": 148
+      },
+      {
+        "rule_id": "regex_py_open",
+        "severity": "low",
+        "category": "file_ops",
+        "file": "skills/offsec/analysis-tshark/assets/ci-config-template.yml",
+        "line": 74
+      },
+      {
+        "rule_id": "regex_py_open",
+        "severity": "low",
+        "category": "file_ops",
+        "file": "skills/offsec/analysis-tshark/assets/ci-config-template.yml",
+        "line": 134
+      },
+      {
+        "rule_id": "regex_py_open",
+        "severity": "low",
+        "category": "file_ops",
+        "file": "skills/offsec/analysis-tshark/assets/ci-config-template.yml",
+        "line": 250
+      },
+      {
+        "rule_id": "regex_js_fs_read",
+        "severity": "low",
+        "category": "file_ops",
+        "file": "skills/offsec/analysis-tshark/assets/ci-config-template.yml",
+        "line": 323
+      },
+      {
+        "rule_id": "regex_raw_ip_url",
+        "severity": "high",
+        "category": "suspicious_urls",
+        "file": "skills/offsec/webapp-sqlmap/SKILL.md",
+        "line": 242
+      },
+      {
+        "rule_id": "regex_raw_ip_url",
+        "severity": "high",
+        "category": "suspicious_urls",
+        "file": "skills/offsec/webapp-sqlmap/SKILL.md",
+        "line": 368
+      },
+      {
+        "rule_id": "regex_py_os_path",
+        "severity": "low",
+        "category": "file_ops",
+        "file": "skills/offsec/webapp-sqlmap/references/EXAMPLE.md",
+        "line": 533
+      },
+      {
+        "rule_id": "regex_py_os_environ",
+        "severity": "medium",
+        "category": "env_access",
+        "file": "skills/offsec/webapp-sqlmap/references/EXAMPLE.md",
+        "line": 423
+      },
+      {
+        "rule_id": "regex_py_os_environ",
+        "severity": "medium",
+        "category": "env_access",
+        "file": "skills/offsec/webapp-sqlmap/assets/rule-template.yaml",
+        "line": 147
+      },
+      {
+        "rule_id": "regex_py_os_environ",
+        "severity": "medium",
+        "category": "env_access",
+        "file": "skills/offsec/webapp-sqlmap/assets/rule-template.yaml",
+        "line": 162
+      }
+    ],
+    "total_files_scanned": 209
+  },
+  "verification_level": "full_pipeline",
+  "agent_audit": {
+    "agents_completed": 5,
+    "agents_required": 5,
+    "pipeline_run_at": "2026-03-04T23:15:25Z",
+    "agent_a": {
+      "signed": true,
+      "signed_at": "2026-03-04T23:15:25Z",
+      "comment": "Docs quality 10/10. README present. 12 features, 4 permissions claimed.",
+      "doc_quality_score": 10,
+      "claimed_permissions": [
+        "network access",
+        "system command execution",
+        "file system access",
+        "environment/secret access"
+      ]
+    },
+    "agent_b": {
+      "signed": true,
+      "signed_at": "2026-03-04T23:15:25Z",
+      "comment": "85 files analyzed. Found: 0 network, 52 file, 54 env, 4 system calls. Primary: unknown.",
+      "files_analyzed": 85,
+      "capabilities_found": [
+        "imports external dependencies",
+        "reads/writes files",
+        "reads environment values",
+        "executes system commands"
+      ]
+    },
+    "agent_c_star": {
+      "signed": true,
+      "signed_at": "2026-03-04T23:15:25Z",
+      "comment": "299 findings: 0 critical, 97 high, 101 medium, 101 low. No obfuscation. No injection.",
+      "total_findings": 299,
+      "severity_counts": {
+        "critical": 0,
+        "high": 97,
+        "medium": 101,
+        "low": 101,
+        "info": 0
+      }
+    },
+    "agent_d": {
+      "signed": true,
+      "signed_at": "2026-03-04T23:15:25Z",
+      "comment": "Score 60. 0 mismatches. Risk: medium. Safety overrides: none triggered.",
+      "score": 60,
+      "mismatches": 0,
+      "safety_overrides_applied": false
+    },
+    "agent_e": {
+      "signed": true,
+      "signed_at": "2026-03-04T23:15:25Z",
+      "comment": "Rejected. Confidence 60%. No overrides.",
+      "approved": false,
+      "confidence": 60,
+      "override_reason": null
+    },
+    "manager_summary": "5/5 agents completed. Score: 60/100, Risk: medium. 0 mismatches, 299 scanner findings. Rejected at 60% confidence. No safety overrides.",
+    "auto_clear": {
+      "applied": true,
+      "reason": "Auto-clear Cat 1: clean profile (0 inj, 0 obf_hr, score=60)",
+      "original_status": "manual_review",
+      "original_score": 60
+    }
+  }
 }

@@ -7,7 +7,7 @@
   "skill_type": "agent_skill",
   "owner": "airbytehq",
   "stars": 0,
-  "primary_language": "unknown",
+  "primary_language": "python",
   "tags": [
     "agent-skills",
     "installs:104",
@@ -25,14 +25,260 @@
     "integrations-slack",
     "prod",
     "prod-comm",
-    "prod-pm"
+    "prod-pm",
+    "status-pass"
   ],
-  "verification_status": "unverified",
-  "overall_score": 0,
-  "risk_level": "info",
-  "verified_commit": null,
+  "verification_status": "pass",
+  "overall_score": 60,
+  "risk_level": "medium",
+  "verified_commit": "52d5a25ade1dbfc49494d45764c81cf672e4ee75",
   "scan_summary": null,
   "repo_status": "available",
   "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
-  "repo_check_error": null
+  "repo_check_error": null,
+  "scan_date": "2026-03-04T23:14:44Z",
+  "findings_summary": {
+    "scanner_findings": 2697,
+    "dangerous_calls": 223,
+    "network_ops": 256,
+    "file_ops": 586,
+    "env_access": 1442,
+    "obfuscation": 190,
+    "injection_patterns": 0,
+    "mismatches": 0,
+    "undocumented_capabilities": 0,
+    "supervisor_approved": false,
+    "supervisor_confidence": 60
+  },
+  "scan_report": {
+    "total_findings": 2697,
+    "injection_patterns_count": 0,
+    "obfuscation_count": 190,
+    "obfuscation_high_risk_count": 0,
+    "dangerous_calls_count": 223,
+    "severity_counts": {
+      "critical": 0,
+      "high": 413,
+      "medium": 1698,
+      "low": 586,
+      "info": 0
+    },
+    "category_counts": {
+      "env_access": 1442,
+      "network_ops": 256,
+      "obfuscation": 190,
+      "file_ops": 586,
+      "dangerous_calls": 223
+    },
+    "top_findings": [
+      {
+        "rule_id": "regex_py_os_environ",
+        "severity": "medium",
+        "category": "env_access",
+        "file": "README.md",
+        "line": 198
+      },
+      {
+        "rule_id": "regex_py_os_environ",
+        "severity": "medium",
+        "category": "env_access",
+        "file": "README.md",
+        "line": 211
+      },
+      {
+        "rule_id": "regex_py_dotenv_load",
+        "severity": "medium",
+        "category": "env_access",
+        "file": "README.md",
+        "line": 195
+      },
+      {
+        "rule_id": "regex_generic_api_key",
+        "severity": "medium",
+        "category": "env_access",
+        "file": "connectors/granola/AUTH.md",
+        "line": 67
+      },
+      {
+        "rule_id": "regex_generic_api_key",
+        "severity": "medium",
+        "category": "env_access",
+        "file": "connectors/granola/airbyte_agent_granola/connector_model.py",
+        "line": 39
+      },
+      {
+        "rule_id": "regex_generic_api_key",
+        "severity": "medium",
+        "category": "env_access",
+        "file": "connectors/granola/airbyte_agent_granola/connector_model.py",
+        "line": 45
+      },
+      {
+        "rule_id": "regex_py_httpx",
+        "severity": "medium",
+        "category": "network_ops",
+        "file": "connectors/granola/airbyte_agent_granola/_vendored/connector_sdk/auth_strategies.py",
+        "line": 1041
+      },
+      {
+        "rule_id": "regex_generic_api_key",
+        "severity": "medium",
+        "category": "env_access",
+        "file": "connectors/granola/airbyte_agent_granola/_vendored/connector_sdk/auth_strategies.py",
+        "line": 209
+      },
+      {
+        "rule_id": "regex_generic_api_key",
+        "severity": "medium",
+        "category": "env_access",
+        "file": "connectors/granola/airbyte_agent_granola/_vendored/connector_sdk/auth_strategies.py",
+        "line": 212
+      },
+      {
+        "rule_id": "regex_generic_api_key",
+        "severity": "medium",
+        "category": "env_access",
+        "file": "connectors/granola/airbyte_agent_granola/_vendored/connector_sdk/auth_strategies.py",
+        "line": 255
+      },
+      {
+        "rule_id": "regex_generic_api_key",
+        "severity": "medium",
+        "category": "env_access",
+        "file": "connectors/granola/airbyte_agent_granola/_vendored/connector_sdk/auth_strategies.py",
+        "line": 264
+      },
+      {
+        "rule_id": "regex_generic_api_key",
+        "severity": "medium",
+        "category": "env_access",
+        "file": "connectors/granola/airbyte_agent_granola/_vendored/connector_sdk/auth_strategies.py",
+        "line": 271
+      },
+      {
+        "rule_id": "regex_generic_api_key",
+        "severity": "medium",
+        "category": "env_access",
+        "file": "connectors/granola/airbyte_agent_granola/_vendored/connector_sdk/auth_strategies.py",
+        "line": 1094
+      },
+      {
+        "rule_id": "regex_py_base64_encode",
+        "severity": "high",
+        "category": "obfuscation",
+        "file": "connectors/granola/airbyte_agent_granola/_vendored/connector_sdk/auth_strategies.py",
+        "line": 542
+      },
+      {
+        "rule_id": "regex_py_base64_encode",
+        "severity": "high",
+        "category": "obfuscation",
+        "file": "connectors/granola/airbyte_agent_granola/_vendored/connector_sdk/auth_strategies.py",
+        "line": 1007
+      },
+      {
+        "rule_id": "regex_py_open",
+        "severity": "low",
+        "category": "file_ops",
+        "file": "connectors/granola/airbyte_agent_granola/_vendored/connector_sdk/utils.py",
+        "line": 57
+      },
+      {
+        "rule_id": "regex_py_os_environ",
+        "severity": "medium",
+        "category": "env_access",
+        "file": "connectors/granola/airbyte_agent_granola/_vendored/connector_sdk/secrets.py",
+        "line": 82
+      },
+      {
+        "rule_id": "regex_py_os_environ",
+        "severity": "medium",
+        "category": "env_access",
+        "file": "connectors/granola/airbyte_agent_granola/_vendored/connector_sdk/secrets.py",
+        "line": 90
+      },
+      {
+        "rule_id": "regex_py_os_environ",
+        "severity": "medium",
+        "category": "env_access",
+        "file": "connectors/granola/airbyte_agent_granola/_vendored/connector_sdk/secrets.py",
+        "line": 105
+      },
+      {
+        "rule_id": "regex_py_os_environ",
+        "severity": "medium",
+        "category": "env_access",
+        "file": "connectors/granola/airbyte_agent_granola/_vendored/connector_sdk/secrets.py",
+        "line": 120
+      }
+    ],
+    "total_files_scanned": 2383
+  },
+  "verification_level": "full_pipeline",
+  "agent_audit": {
+    "agents_completed": 5,
+    "agents_required": 5,
+    "pipeline_run_at": "2026-03-04T23:14:44Z",
+    "agent_a": {
+      "signed": true,
+      "signed_at": "2026-03-04T23:14:44Z",
+      "comment": "Docs quality 10/10. README present. 12 features, 4 permissions claimed.",
+      "doc_quality_score": 10,
+      "claimed_permissions": [
+        "network access",
+        "system command execution",
+        "file system access",
+        "environment/secret access"
+      ]
+    },
+    "agent_b": {
+      "signed": true,
+      "signed_at": "2026-03-04T23:14:44Z",
+      "comment": "2229 files analyzed. Found: 15 network, 150 file, 83 env, 47 system calls. Primary: python.",
+      "files_analyzed": 2229,
+      "capabilities_found": [
+        "imports external dependencies",
+        "performs network operations",
+        "reads/writes files",
+        "reads environment values",
+        "executes system commands"
+      ]
+    },
+    "agent_c_star": {
+      "signed": true,
+      "signed_at": "2026-03-04T23:14:44Z",
+      "comment": "2697 findings: 0 critical, 413 high, 1698 medium, 586 low. Obfuscation detected!. No injection.",
+      "total_findings": 2697,
+      "severity_counts": {
+        "critical": 0,
+        "high": 413,
+        "medium": 1698,
+        "low": 586,
+        "info": 0
+      }
+    },
+    "agent_d": {
+      "signed": true,
+      "signed_at": "2026-03-04T23:14:44Z",
+      "comment": "Score 60. 0 mismatches. Risk: medium. Safety overrides: none triggered.",
+      "score": 60,
+      "mismatches": 0,
+      "safety_overrides_applied": false
+    },
+    "agent_e": {
+      "signed": true,
+      "signed_at": "2026-03-04T23:14:44Z",
+      "comment": "Rejected. Confidence 60%. No overrides.",
+      "approved": false,
+      "confidence": 60,
+      "override_reason": null
+    },
+    "manager_summary": "5/5 agents completed. Score: 60/100, Risk: medium. 0 mismatches, 2697 scanner findings. Rejected at 60% confidence. No safety overrides.",
+    "auto_clear": {
+      "applied": true,
+      "reason": "Auto-clear Cat 1: clean profile (0 inj, 0 obf_hr, score=60)",
+      "original_status": "manual_review",
+      "original_score": 60
+    }
+  }
 }

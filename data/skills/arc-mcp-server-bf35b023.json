@@ -6,14 +6,15 @@
   "source_hub": "mcp_so",
   "owner": "maxmurphySF",
   "stars": 0,
-  "primary_language": "unknown",
+  "primary_language": "typescript",
   "tags": [
     "integ",
-    "util"
+    "util",
+    "status-pass"
   ],
-  "verification_status": "unverified",
-  "overall_score": 85,
-  "risk_level": "info",
+  "verification_status": "pass",
+  "overall_score": 50,
+  "risk_level": "medium",
   "verified_commit": "906c5e0db82ef034a4ecf5734c679d9b3532a110",
   "scan_summary": {
     "total_findings": 0,
@@ -21,7 +22,7 @@
     "severity_counts": {},
     "category_counts": {}
   },
-  "scan_date": "2026-02-28T04:14:41Z",
+  "scan_date": "2026-03-04T23:01:06Z",
   "status_cleared": {
     "date": "2026-03-02T20:40:18.531782+00:00",
     "previous_status": "pass",
@@ -30,5 +31,246 @@
     "verification_level": "scanner_only",
     "reason": "SM cleanup: only full_pipeline pass is real pass. Needs re-verification."
   },
-  "skill_type": "mcp_server"
+  "skill_type": "mcp_server",
+  "findings_summary": {
+    "scanner_findings": 69,
+    "dangerous_calls": 1,
+    "network_ops": 8,
+    "file_ops": 1,
+    "env_access": 32,
+    "obfuscation": 0,
+    "injection_patterns": 0,
+    "mismatches": 0,
+    "undocumented_capabilities": 0,
+    "supervisor_approved": false,
+    "supervisor_confidence": 50
+  },
+  "scan_report": {
+    "total_findings": 69,
+    "injection_patterns_count": 0,
+    "obfuscation_count": 0,
+    "obfuscation_high_risk_count": 0,
+    "dangerous_calls_count": 1,
+    "severity_counts": {
+      "critical": 0,
+      "high": 28,
+      "medium": 40,
+      "low": 1,
+      "info": 0
+    },
+    "category_counts": {
+      "env_access": 32,
+      "dangerous_calls": 1,
+      "network_ops": 8,
+      "suspicious_urls": 27,
+      "file_ops": 1
+    },
+    "top_findings": [
+      {
+        "rule_id": "regex_generic_password",
+        "severity": "medium",
+        "category": "env_access",
+        "file": "docs/tools/microservices-interaction.md",
+        "line": 119
+      },
+      {
+        "rule_id": "regex_shell_backtick_exec",
+        "severity": "high",
+        "category": "dangerous_calls",
+        "file": "docs/tools/deployment-tools.md",
+        "line": 289
+      },
+      {
+        "rule_id": "regex_js_fetch",
+        "severity": "medium",
+        "category": "network_ops",
+        "file": "docs/tools/documentation-assistant.md",
+        "line": 244
+      },
+      {
+        "rule_id": "regex_localhost_non_std",
+        "severity": "high",
+        "category": "suspicious_urls",
+        "file": "docs/tools/project-generation.md",
+        "line": 119
+      },
+      {
+        "rule_id": "regex_localhost_non_std",
+        "severity": "high",
+        "category": "suspicious_urls",
+        "file": "docs/tools/project-generation.md",
+        "line": 401
+      },
+      {
+        "rule_id": "regex_generic_api_key",
+        "severity": "medium",
+        "category": "env_access",
+        "file": "docs/troubleshooting/common-issues.md",
+        "line": 107
+      },
+      {
+        "rule_id": "regex_generic_api_key",
+        "severity": "medium",
+        "category": "env_access",
+        "file": "docs/troubleshooting/common-issues.md",
+        "line": 378
+      },
+      {
+        "rule_id": "regex_localhost_non_std",
+        "severity": "high",
+        "category": "suspicious_urls",
+        "file": "docs/troubleshooting/common-issues.md",
+        "line": 111
+      },
+      {
+        "rule_id": "regex_localhost_non_std",
+        "severity": "high",
+        "category": "suspicious_urls",
+        "file": "docs/troubleshooting/common-issues.md",
+        "line": 121
+      },
+      {
+        "rule_id": "regex_localhost_non_std",
+        "severity": "high",
+        "category": "suspicious_urls",
+        "file": "docs/troubleshooting/common-issues.md",
+        "line": 183
+      },
+      {
+        "rule_id": "regex_localhost_non_std",
+        "severity": "high",
+        "category": "suspicious_urls",
+        "file": "docs/troubleshooting/common-issues.md",
+        "line": 203
+      },
+      {
+        "rule_id": "regex_localhost_non_std",
+        "severity": "high",
+        "category": "suspicious_urls",
+        "file": "docs/troubleshooting/common-issues.md",
+        "line": 267
+      },
+      {
+        "rule_id": "regex_localhost_non_std",
+        "severity": "high",
+        "category": "suspicious_urls",
+        "file": "docs/troubleshooting/common-issues.md",
+        "line": 386
+      },
+      {
+        "rule_id": "regex_js_fs_read",
+        "severity": "low",
+        "category": "file_ops",
+        "file": "docs/troubleshooting/debugging.md",
+        "line": 520
+      },
+      {
+        "rule_id": "regex_localhost_non_std",
+        "severity": "high",
+        "category": "suspicious_urls",
+        "file": "docs/troubleshooting/debugging.md",
+        "line": 111
+      },
+      {
+        "rule_id": "regex_localhost_non_std",
+        "severity": "high",
+        "category": "suspicious_urls",
+        "file": "docs/troubleshooting/debugging.md",
+        "line": 144
+      },
+      {
+        "rule_id": "regex_localhost_non_std",
+        "severity": "high",
+        "category": "suspicious_urls",
+        "file": "docs/troubleshooting/debugging.md",
+        "line": 148
+      },
+      {
+        "rule_id": "regex_localhost_non_std",
+        "severity": "high",
+        "category": "suspicious_urls",
+        "file": "docs/troubleshooting/debugging.md",
+        "line": 257
+      },
+      {
+        "rule_id": "regex_localhost_non_std",
+        "severity": "high",
+        "category": "suspicious_urls",
+        "file": "docs/troubleshooting/debugging.md",
+        "line": 261
+      },
+      {
+        "rule_id": "regex_localhost_non_std",
+        "severity": "high",
+        "category": "suspicious_urls",
+        "file": "docs/troubleshooting/debugging.md",
+        "line": 429
+      }
+    ],
+    "total_files_scanned": 46
+  },
+  "verification_level": "full_pipeline",
+  "agent_audit": {
+    "agents_completed": 5,
+    "agents_required": 5,
+    "pipeline_run_at": "2026-03-04T23:01:06Z",
+    "agent_a": {
+      "signed": true,
+      "signed_at": "2026-03-04T23:01:06Z",
+      "comment": "Docs quality 9/10. README present. 12 features, 4 permissions claimed.",
+      "doc_quality_score": 9,
+      "claimed_permissions": [
+        "network access",
+        "system command execution",
+        "file system access",
+        "environment/secret access"
+      ]
+    },
+    "agent_b": {
+      "signed": true,
+      "signed_at": "2026-03-04T23:01:06Z",
+      "comment": "20 files analyzed. Found: 0 network, 0 file, 10 env, 0 system calls. Primary: typescript.",
+      "files_analyzed": 20,
+      "capabilities_found": [
+        "imports external dependencies",
+        "reads environment values"
+      ]
+    },
+    "agent_c_star": {
+      "signed": true,
+      "signed_at": "2026-03-04T23:01:06Z",
+      "comment": "69 findings: 0 critical, 28 high, 40 medium, 1 low. No obfuscation. No injection.",
+      "total_findings": 69,
+      "severity_counts": {
+        "critical": 0,
+        "high": 28,
+        "medium": 40,
+        "low": 1,
+        "info": 0
+      }
+    },
+    "agent_d": {
+      "signed": true,
+      "signed_at": "2026-03-04T23:01:06Z",
+      "comment": "Score 50. 0 mismatches. Risk: medium. Safety overrides: none triggered.",
+      "score": 50,
+      "mismatches": 0,
+      "safety_overrides_applied": false
+    },
+    "agent_e": {
+      "signed": true,
+      "signed_at": "2026-03-04T23:01:06Z",
+      "comment": "Rejected. Confidence 50%. No overrides.",
+      "approved": false,
+      "confidence": 50,
+      "override_reason": null
+    },
+    "manager_summary": "5/5 agents completed. Score: 50/100, Risk: medium. 0 mismatches, 69 scanner findings. Rejected at 50% confidence. No safety overrides.",
+    "auto_clear": {
+      "applied": true,
+      "reason": "Auto-clear Cat 1: clean profile (0 inj, 0 obf_hr, score=50)",
+      "original_status": "manual_review",
+      "original_score": 50
+    }
+  }
 }
