@@ -125,7 +125,9 @@ python3 scripts/build/build_packages.py                  # Rebuild source packag
 python3 scripts/build/build_priority.py                  # Rebuild source priority indexes in data + site/api (optional/manual)
 python3 scripts/review/health_check.py                   # Skills manager dashboard
 python3 scripts/crawl/crawl_state.py show                # View crawl state for all hubs
-python3 scripts/verify/run_verify_strict_5agent.py --limit 50  # Full 5-agent deterministic verification
+# Verification (MANDATORY flow: SM selects → VM executes)
+SM_TARGETS=$(python3 scripts/review/sm_select_targets.py --limit 100 --output-ids)
+.venv/bin/python scripts/verify/run_verify_strict_5agent.py --skill-ids "$SM_TARGETS"
 python3 scripts/build/build_indexes.py                   # Rebuild agent-access indexes (manifest, by-status, by-risk, verify-queue, lookup)
 ```
 
@@ -141,7 +143,8 @@ python3 scripts/build/build_indexes.py                   # Rebuild agent-access 
 - **Status normalization is mandatory** — Canonical statuses are `pass`, `fail`, `manual_review`, `unverified`, `updated_unverified`.
 - **No API keys in the pipeline** — All verification runs locally. Agents A/B/D/E use prepare()/validate_and_override() pattern.
 - **Three verification levels** — `full_pipeline` (5 agents), `scanner_only` (C* only), `metadata_only` (no clone). Don't conflate them.
-- **scripts/verify/run_verify_strict_5agent.py is the primary runner** — Full 5-agent deterministic verification. Use this, not pipeline.py.
+- **SM MUST select targets before VM runs** — Never call `run_verify_strict_5agent.py --limit N` directly. Always: `SM_TARGETS=$(python3 scripts/review/sm_select_targets.py --limit N --output-ids) && .venv/bin/python scripts/verify/run_verify_strict_5agent.py --skill-ids "$SM_TARGETS"`. VM without SM selection is NOT allowed.
+- **scripts/verify/run_verify_strict_5agent.py is the primary runner** — Full 5-agent deterministic verification. Use with `--skill-ids` from SM, not `--limit`.
 
 ## Security Rules
 

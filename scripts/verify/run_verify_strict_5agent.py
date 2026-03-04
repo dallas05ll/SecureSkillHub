@@ -1291,6 +1291,16 @@ def main() -> None:
         id_order = {sid: i for i, sid in enumerate(target_ids)}
         selected.sort(key=lambda d: id_order.get(d.get("id", ""), 999))
     else:
+        # MANDATORY: SM must select targets. VM should not self-select.
+        # Use SM selection script: python3 scripts/review/sm_select_targets.py --limit N --output-ids
+        # Then pass result via --skill-ids.
+        # Fallback to load_candidates() only warns — SM selection is the correct flow.
+        logger.warning(
+            "WARNING: No --skill-ids provided. SM target selection should be used. "
+            "Run: SM_TARGETS=$(python3 scripts/review/sm_select_targets.py --limit %d --output-ids) "
+            "&& python3 scripts/verify/run_verify_strict_5agent.py --skill-ids \"$SM_TARGETS\"",
+            args.limit,
+        )
         selected = load_candidates(
             limit=args.limit,
             skill_type=args.skill_type,

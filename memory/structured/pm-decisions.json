@@ -36,6 +36,13 @@
       "category": "workflow",
       "decision": "SM learns from each verification run via sm_evolve.py. Updates structured memory with tag analysis, quality metrics, FP patterns.",
       "date": "2026-03-04"
+    },
+    {
+      "id": "pm-d-006",
+      "title": "SM selection MANDATORY before VM execution",
+      "category": "workflow_enforcement",
+      "description": "VM must NEVER self-select verification targets. SM must select via sm_select_targets.py --output-ids, then VM receives --skill-ids. Prior batches 1-7 used VM load_candidates() (star-sorted, not random, but bypassed SM). Enforced 2026-03-04.",
+      "date": "2026-03-04"
     }
   ]
 }
