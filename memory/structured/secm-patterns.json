@@ -54,7 +54,7 @@
       "id": "secm-p-009",
       "title": "Structural FP: full-repo skills",
       "category": "root_cause",
-      "description": "SkillsMP skills link to full project repos (jetbrains/intellij-community 182K files). Scanner scans entire codebase. Not a pattern issue — structural input issue."
+      "description": "SkillsMP skills link to full project repos (jetbrains/intellij-community 182K files). Scanner scans entire codebase. Not a pattern issue \u2014 structural input issue."
     },
     {
       "id": "secm-p-010",
@@ -91,9 +91,25 @@
       "priority": "P1",
       "action": "Exclude data: in f-string interpolation from markdown_injection pattern",
       "discovered": "2026-03-04T20:17:33.523325+00:00"
+    },
+    {
+      "id": "secm-p-015",
+      "title": "Auto-clear Cat 2+3: obfuscation FP resolution",
+      "category": "scanner_fix",
+      "description": "New auto-clear categories distinguish truly dangerous obfuscation (rot13, marshal_loads, chr_concat) from noise (hex_escape_seq, unicode_escape_seq). Cat 2 clears obf_hr with 0 inj + 0 dangerous. Cat 3 clears obf_hr in large repos (>=200 files). Eliminates 134+ PM overrides.",
+      "priority": "P0",
+      "discovered": "2026-03-04"
+    },
+    {
+      "id": "secm-p-016",
+      "title": "Auto-clear Cat 12: injection-only without dangerous obf",
+      "category": "scanner_fix",
+      "description": "Skills with injection counts up to 49 but no dangerous obfuscation patterns (rot13/marshal/chr_concat) are auto-cleared. Eliminates remaining injection FP edge cases not covered by Cat 9/10/11.",
+      "priority": "P1",
+      "discovered": "2026-03-04"
     }
   ],
-  "last_evolve": "2026-03-04T21:49:16.883334+00:00",
+  "last_evolve": "2026-03-04T22:01:46.427454+00:00",
   "evolve_history": [
     {
       "timestamp": "2026-03-04T20:17:33.523325+00:00",
@@ -110,6 +126,19 @@
     },
     {
       "timestamp": "2026-03-04T21:49:16.883334+00:00",
+      "total_overrides": 647,
+      "by_type": {
+        "other": 617,
+        "injection_fp": 14,
+        "obfuscation_fp": 9,
+        "structural_large_repo": 5,
+        "data_uri_base64": 2
+      },
+      "proposals_generated": 0,
+      "new_entries_added": 0
+    },
+    {
+      "timestamp": "2026-03-04T22:01:46.427454+00:00",
       "total_overrides": 647,
       "by_type": {
         "other": 617,

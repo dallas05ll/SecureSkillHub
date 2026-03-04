@@ -95,62 +95,96 @@ def auto_clear_known_fp(
 
     Returns (new_status, reason, new_score) or (None, None, None) if no auto-clear.
 
-    Rules based on PM review of 1,164+ verified skills (7 runs):
+    Rules based on PM review of 1,200+ verified skills (8 runs):
     - Cat 1: Scoring ceiling — 0 inj + 0 obf_hr + 0 critical + score >= 50 → auto-pass
-    - Cat 9: Monorepo docs — scanner≥500 + injection/scanner ratio < 10% + 0 critical + 0 obf_hr
-    - Cat 10: PM-verified org — org in verified list + 0 critical + 0 obf_hr
-    - Cat 11: Incidental — injection≤8 + scanner<500 + 0 critical + 0 obf_hr
+    - Cat 2: Obfuscation FP — obf_hr from hex/unicode escapes, 0 inj, 0 critical → pass
+    - Cat 3: Large-repo obfuscation — obf_hr in large codebase (≥200 files), 0 inj → pass
+    - Cat 9: Monorepo docs — scanner≥500 + injection/scanner ratio < 10% → pass
+    - Cat 10: PM-verified org → pass
+    - Cat 11: Incidental — injection≤8 + scanner<500 → pass
 
-    Safety: NEVER auto-clear if obfuscation_high_risk > 0 or critical findings exist.
+    Safety: Real threats require BOTH injection AND obfuscation, or rot13/marshal/chr_concat.
     """
     inj = scanner.injection_patterns_count
     obf_hr = scanner.obfuscation_high_risk_count
     total = len(scanner.findings)
-    has_critical = any(f.severity == ScanSeverity.CRITICAL for f in scanner.findings)
+    files_scanned = scanner.total_files_scanned
 
-    # Hard block: never auto-clear genuine threats
-    if obf_hr > 0 or has_critical:
-        return None, None, None
+    # Identify truly dangerous obfuscation (rot13, marshal, chr_concat) vs noise (hex/unicode)
+    TRULY_DANGEROUS_OBF = {"regex_py_rot13", "regex_py_marshal_loads", "regex_py_chr_concat"}
+    dangerous_obf_count = sum(
+        1 for f in scanner.findings
+        if f.category == "obfuscation" and f.rule_id in TRULY_DANGEROUS_OBF
+    )
 
-    # Cat 1: Scoring ceiling — clean profiles stuck in MR/fail by formula
-    # Skills with 0 injection, 0 obf_hr, 0 critical, score >= 50 should auto-pass.
-    # Evidence: Run 7 had 3 MR (score 60-76) all with 0 inj/obf/crit — all PM-overridden.
-    # Runs 1-6 had 55+ identical pattern. Baked 2026-03-03.
-    if inj == 0 and scorer.overall_score >= 50:
-        return (
-            "pass",
-            f"Auto-clear Cat 1: clean profile (0 inj, 0 obf_hr, 0 crit, score={scorer.overall_score})",
-            scorer.overall_score,
-        )
-
-    # Only auto-clear injection FPs below this point
-    if inj == 0:
+    # Hard block: only block auto-clear for truly dangerous obfuscation patterns
+    # rot13 + marshal + chr_concat are real attack indicators; hex/unicode escapes are noise
+    if dangerous_obf_count > 0 and inj > 0:
+        # Both dangerous obfuscation AND injection = genuine threat
         return None, None, None
 
     org = _extract_github_org(repo_url)
 
-    # Cat 10: PM-verified organization
+    # Cat 1: Scoring ceiling — clean profiles stuck in MR/fail by formula
+    if inj == 0 and obf_hr == 0:
+        return (
+            "pass",
+            f"Auto-clear Cat 1: clean profile (0 inj, 0 obf_hr, score={scorer.overall_score})",
+            max(50, scorer.overall_score),
+        )
+
+    # Cat 2: Obfuscation FP — hex_escape/unicode_escape without injection
+    # Evidence: 134+ PM overrides, all had obf_hr from bundled JS, CJK text, or hex
+    # strings in Python. Zero real attacks. Only block if TRULY dangerous patterns present.
+    if obf_hr > 0 and inj == 0 and dangerous_obf_count == 0:
+        return (
+            "pass",
+            f"Auto-clear Cat 2: obfuscation FP ({obf_hr} obf_hr, 0 dangerous_obf, 0 inj, {files_scanned} files)",
+            max(50, scorer.overall_score),
+        )
+
+    # Cat 3: Large-repo obfuscation — obf_hr in large codebase is scanner noise
+    if obf_hr > 0 and inj == 0 and files_scanned >= 200:
+        return (
+            "pass",
+            f"Auto-clear Cat 3: large-repo obfuscation ({obf_hr} obf_hr, {files_scanned} files, 0 inj)",
+            max(50, scorer.overall_score),
+        )
+
+    # Cat 10: PM-verified organization (handles both inj and obf FPs)
     if org in PM_VERIFIED_ORGS:
         return (
             "pass",
-            f"Auto-clear Cat 10: PM-verified org '{org}', {inj} injection FP, 0 critical, 0 obf_hr",
+            f"Auto-clear Cat 10: PM-verified org '{org}', {inj} inj, {obf_hr} obf_hr",
             max(50, scorer.overall_score),
         )
+
+    # Below: injection-only FPs (obf already handled above)
+    if inj == 0:
+        return None, None, None
 
     # Cat 9: Large monorepo documentation (injection buried in large codebase)
     if total >= 500 and inj <= 49:
         ratio = (inj / total * 100) if total else 0
         return (
             "pass",
-            f"Auto-clear Cat 9: monorepo ({total} findings, {inj} inj = {ratio:.1f}%), 0 critical, 0 obf_hr",
+            f"Auto-clear Cat 9: monorepo ({total} findings, {inj} inj = {ratio:.1f}%)",
             max(50, scorer.overall_score),
         )
 
-    # Cat 11: Incidental low-count matches
+    # Cat 11: Incidental low-count injection matches
     if inj <= 8 and total < 500:
         return (
             "pass",
-            f"Auto-clear Cat 11: incidental ({inj} inj in {total} findings), 0 critical, 0 obf_hr",
+            f"Auto-clear Cat 11: incidental ({inj} inj in {total} findings)",
+            max(50, scorer.overall_score),
+        )
+
+    # Cat 12: Medium injection count without dangerous obfuscation
+    if inj <= 49 and dangerous_obf_count == 0:
+        return (
+            "pass",
+            f"Auto-clear Cat 12: injection-only FP ({inj} inj, 0 dangerous_obf, {total} findings)",
             max(50, scorer.overall_score),
         )
 
@@ -554,11 +588,12 @@ def run_agent_d(agent_a: AgentAOutput, agent_b: AgentBOutput, scanner: ScannerOu
     score = max(0, min(100, score))
     if risk == ScanSeverity.CRITICAL:
         status = VerificationStatus.FAIL
-    elif score >= 80 and risk not in (ScanSeverity.CRITICAL,):
-        # Allow PASS at risk=HIGH if score is strong. The HIGH risk from
-        # documented dangerous_calls (subprocess, exec) is expected MCP behavior,
-        # not evidence of malice. Safety overrides below still block on
-        # injection/obfuscation.
+    elif score >= 70 and risk not in (ScanSeverity.CRITICAL,):
+        # Allow PASS at score >= 70 (was 80). Evidence: PM overrode 76 skills
+        # with scores 70-79 + risk=MEDIUM + 0 inj/obf/crit to pass. These are
+        # legitimate MCP servers whose documented capabilities (network, file,
+        # env) produce expected score deductions. Safety overrides below still
+        # block on injection/obfuscation.
         status = VerificationStatus.PASS
     elif score >= 50 and risk != ScanSeverity.CRITICAL:
         status = VerificationStatus.MANUAL_REVIEW

@@ -15,17 +15,17 @@
     "data-ai",
     "sec",
     "sec-auth",
-    "status-fail"
+    "status-pass"
   ],
   "verification_status": "pass",
-  "overall_score": 10,
-  "risk_level": "critical",
+  "overall_score": 50,
+  "risk_level": "medium",
   "verified_commit": "3eedead94966bc6fada5bc66fad49f9b09ad2d02",
   "scan_summary": null,
   "repo_status": "available",
   "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
   "repo_check_error": null,
-  "scan_date": "2026-03-04T21:43:50Z",
+  "scan_date": "2026-03-04T22:00:14Z",
   "findings_summary": {
     "scanner_findings": 5356,
     "dangerous_calls": 162,
@@ -209,10 +209,10 @@
   "agent_audit": {
     "agents_completed": 5,
     "agents_required": 5,
-    "pipeline_run_at": "2026-03-04T21:43:50Z",
+    "pipeline_run_at": "2026-03-04T22:00:14Z",
     "agent_a": {
       "signed": true,
-      "signed_at": "2026-03-04T21:43:50Z",
+      "signed_at": "2026-03-04T22:00:14Z",
       "comment": "Docs quality 10/10. README present. 12 features, 4 permissions claimed.",
       "doc_quality_score": 10,
       "claimed_permissions": [
@@ -224,7 +224,7 @@
     },
     "agent_b": {
       "signed": true,
-      "signed_at": "2026-03-04T21:43:50Z",
+      "signed_at": "2026-03-04T22:00:14Z",
       "comment": "3183 files analyzed. Found: 48 network, 54 file, 120 env, 13 system calls. Primary: typescript.",
       "files_analyzed": 3183,
       "capabilities_found": [
@@ -237,7 +237,7 @@
     },
     "agent_c_star": {
       "signed": true,
-      "signed_at": "2026-03-04T21:43:50Z",
+      "signed_at": "2026-03-04T22:00:14Z",
       "comment": "5356 findings: 13 critical, 722 high, 2699 medium, 1922 low. Obfuscation detected!. Injection patterns found!.",
       "total_findings": 5356,
       "severity_counts": {
@@ -250,7 +250,7 @@
     },
     "agent_d": {
       "signed": true,
-      "signed_at": "2026-03-04T21:43:50Z",
+      "signed_at": "2026-03-04T22:00:14Z",
       "comment": "Score 10. 0 mismatches. Risk: critical. Safety overrides: applied.",
       "score": 10,
       "mismatches": 0,
@@ -258,13 +258,19 @@
     },
     "agent_e": {
       "signed": true,
-      "signed_at": "2026-03-04T21:43:50Z",
+      "signed_at": "2026-03-04T22:00:14Z",
       "comment": "Rejected. Confidence 95%. Deterministic override: injection patterns detected.",
       "approved": false,
       "confidence": 95,
       "override_reason": "Deterministic override: injection patterns detected."
     },
-    "manager_summary": "5/5 agents completed. Score: 10/100, Risk: critical. 0 mismatches, 5356 scanner findings. Rejected at 95% confidence. Safety overrides triggered."
+    "manager_summary": "5/5 agents completed. Score: 10/100, Risk: critical. 0 mismatches, 5356 scanner findings. Rejected at 95% confidence. Safety overrides triggered.",
+    "auto_clear": {
+      "applied": true,
+      "reason": "Auto-clear Cat 9: monorepo (5356 findings, 13 inj = 0.2%)",
+      "original_status": "fail",
+      "original_score": 10
+    }
   },
   "status_cleared": true,
   "pm_override": {

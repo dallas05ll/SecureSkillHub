@@ -1,0 +1,23 @@
+{
+  "started_at": "2026-03-04T21:59:20Z",
+  "finished_at": "2026-03-04T22:00:05Z",
+  "skill_type": "all",
+  "selected_ids": [
+    "agent-canvas-3381a96c",
+    "agent-customization-f2e66b88",
+    "agent-mail-991c11ae",
+    "agent-browser-76c1879e"
+  ],
+  "selected_count": 4,
+  "group_count": 5,
+  "processed_count": 4,
+  "status_counts": {
+    "pass": 4
+  },
+  "stage_failures": {},
+  "retry_ids": [],
+  "remaining_unverified": 5513,
+  "only_unverified": true,
+  "source": "*",
+  "include_repo_unavailable": false
+}

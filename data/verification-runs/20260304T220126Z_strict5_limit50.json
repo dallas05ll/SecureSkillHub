@@ -1,0 +1,25 @@
+{
+  "started_at": "2026-03-04T22:00:14Z",
+  "finished_at": "2026-03-04T22:01:26Z",
+  "skill_type": "all",
+  "selected_ids": [
+    "agent-browser-79e8989d",
+    "agent-browser-91bd862d",
+    "agent-browser-fda2f834",
+    "agent-browser-ff679c95",
+    "agent-identity-485c1190",
+    "agent-mail-5c9a3048"
+  ],
+  "selected_count": 6,
+  "group_count": 5,
+  "processed_count": 6,
+  "status_counts": {
+    "pass": 6
+  },
+  "stage_failures": {},
+  "retry_ids": [],
+  "remaining_unverified": 5513,
+  "only_unverified": true,
+  "source": "*",
+  "include_repo_unavailable": false
+}

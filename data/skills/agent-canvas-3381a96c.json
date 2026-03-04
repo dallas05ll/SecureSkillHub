@@ -12,17 +12,17 @@
     "agent-skills",
     "installs:37",
     "utilities",
-    "status-fail"
+    "status-pass"
   ],
   "verification_status": "pass",
-  "overall_score": 15,
-  "risk_level": "critical",
+  "overall_score": 50,
+  "risk_level": "medium",
   "verified_commit": "d6f122fabdf05c6220fdd174bfaa7a7f7ed7588b",
   "scan_summary": null,
   "repo_status": "available",
   "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
   "repo_check_error": null,
-  "scan_date": "2026-03-04T21:44:37Z",
+  "scan_date": "2026-03-04T21:59:21Z",
   "findings_summary": {
     "scanner_findings": 4631,
     "dangerous_calls": 6,
@@ -205,10 +205,10 @@
   "agent_audit": {
     "agents_completed": 5,
     "agents_required": 5,
-    "pipeline_run_at": "2026-03-04T21:44:37Z",
+    "pipeline_run_at": "2026-03-04T21:59:21Z",
     "agent_a": {
       "signed": true,
-      "signed_at": "2026-03-04T21:44:37Z",
+      "signed_at": "2026-03-04T21:59:21Z",
       "comment": "Docs quality 10/10. README present. 12 features, 4 permissions claimed.",
       "doc_quality_score": 10,
       "claimed_permissions": [
@@ -220,7 +220,7 @@
     },
     "agent_b": {
       "signed": true,
-      "signed_at": "2026-03-04T21:44:37Z",
+      "signed_at": "2026-03-04T21:59:21Z",
       "comment": "148 files analyzed. Found: 0 network, 0 file, 12 env, 0 system calls. Primary: typescript.",
       "files_analyzed": 148,
       "capabilities_found": [
@@ -230,7 +230,7 @@
     },
     "agent_c_star": {
       "signed": true,
-      "signed_at": "2026-03-04T21:44:37Z",
+      "signed_at": "2026-03-04T21:59:21Z",
       "comment": "4631 findings: 0 critical, 4600 high, 25 medium, 6 low. Obfuscation detected!. No injection.",
       "total_findings": 4631,
       "severity_counts": {
@@ -243,7 +243,7 @@
     },
     "agent_d": {
       "signed": true,
-      "signed_at": "2026-03-04T21:44:37Z",
+      "signed_at": "2026-03-04T21:59:21Z",
       "comment": "Score 15. 0 mismatches. Risk: critical. Safety overrides: applied.",
       "score": 15,
       "mismatches": 0,
@@ -251,13 +251,19 @@
     },
     "agent_e": {
       "signed": true,
-      "signed_at": "2026-03-04T21:44:37Z",
+      "signed_at": "2026-03-04T21:59:21Z",
       "comment": "Rejected. Confidence 90%. Deterministic override: high-risk obfuscation detected.",
       "approved": false,
       "confidence": 90,
       "override_reason": "Deterministic override: high-risk obfuscation detected."
     },
-    "manager_summary": "5/5 agents completed. Score: 15/100, Risk: critical. 0 mismatches, 4631 scanner findings. Rejected at 90% confidence. Safety overrides triggered."
+    "manager_summary": "5/5 agents completed. Score: 15/100, Risk: critical. 0 mismatches, 4631 scanner findings. Rejected at 90% confidence. Safety overrides triggered.",
+    "auto_clear": {
+      "applied": true,
+      "reason": "Auto-clear Cat 2: obfuscation FP (4589 obf_hr, 0 dangerous_obf, 0 inj, 158 files)",
+      "original_status": "fail",
+      "original_score": 15
+    }
   },
   "status_cleared": true,
   "pm_override": {

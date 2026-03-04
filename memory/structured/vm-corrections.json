@@ -28,7 +28,7 @@
     },
     {
       "id": "vm-c-004",
-      "title": "dangerous_calls → MEDIUM risk",
+      "title": "dangerous_calls \u2192 MEDIUM risk",
       "category": "scoring",
       "status": "fixed",
       "description": "dangerous_calls findings no longer set risk=HIGH. CRITICAL only from injection/obfuscation. Removed 50% false fail rate.",
@@ -95,7 +95,7 @@
       "title": "JSON files excluded from obfuscation",
       "category": "scanner",
       "status": "fixed",
-      "description": "JSON files are data, not code — exclude from obfuscation scanning.",
+      "description": "JSON files are data, not code \u2014 exclude from obfuscation scanning.",
       "date_fixed": "2026-02-28"
     },
     {
@@ -135,8 +135,24 @@
       "title": "Run 3 consolidated scanner fixes",
       "category": "scanner",
       "status": "fixed",
-      "description": "7 fixes: unicode_escape_seq threshold 3→6, override_role context, roleplay_escape trailing, Cat 9 security detector skip, Cat 10 webpack chunk skip, protobuf _pb2.py skip, 4 new PM_VERIFIED_ORGS.",
+      "description": "7 fixes: unicode_escape_seq threshold 3\u21926, override_role context, roleplay_escape trailing, Cat 9 security detector skip, Cat 10 webpack chunk skip, protobuf _pb2.py skip, 4 new PM_VERIFIED_ORGS.",
       "date_fixed": "2026-03-04"
+    },
+    {
+      "id": "vm-c-018",
+      "title": "Auto-clear hard-block on obf_hr caused 100% FP fail rate",
+      "category": "auto_clear",
+      "status": "fixed",
+      "description": "auto_clear_known_fp() had unconditional hard-block: if obf_hr > 0 return None. This meant every skill with even 1 hex_escape or unicode_escape in bundled JS/CJK text was stuck at fail. Fix: distinguish truly dangerous obfuscation (rot13, marshal, chr_concat) from noise (hex/unicode escapes). Added Cat 2 (obf FP without dangerous patterns), Cat 3 (large-repo obf), Cat 12 (injection-only without dangerous obf). Only block auto-clear when BOTH dangerous_obf AND injection are present.",
+      "fix_date": "2026-03-04"
+    },
+    {
+      "id": "vm-c-019",
+      "title": "Pass threshold lowered from 80 to 70",
+      "category": "scoring",
+      "status": "fixed",
+      "description": "Pass required score >= 80, but legitimate MCP servers with documented capabilities (network, file, env access) scored 70-79 due to expected deductions. PM had overridden 76+ such skills. Threshold lowered to >= 70 for non-critical risk.",
+      "fix_date": "2026-03-04"
     }
   ]
 }

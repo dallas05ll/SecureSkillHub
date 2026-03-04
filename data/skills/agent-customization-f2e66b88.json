@@ -13,23 +13,23 @@
     "installs:9472",
     "dev",
     "util",
-    "status-fail"
+    "status-pass"
   ],
   "verification_status": "pass",
-  "overall_score": 15,
-  "risk_level": "critical",
-  "verified_commit": "a7fdf0dd08ab1003270ab84fbc304f1384250769",
+  "overall_score": 50,
+  "risk_level": "medium",
+  "verified_commit": "a1ad7957ddad8d2a967db22de5fc93ed118d4355",
   "scan_summary": null,
   "repo_status": "available",
   "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
   "repo_check_error": null,
-  "scan_date": "2026-03-04T21:45:59Z",
+  "scan_date": "2026-03-04T21:59:21Z",
   "findings_summary": {
-    "scanner_findings": 1061,
+    "scanner_findings": 1063,
     "dangerous_calls": 221,
     "network_ops": 161,
     "file_ops": 395,
-    "env_access": 139,
+    "env_access": 141,
     "obfuscation": 118,
     "injection_patterns": 0,
     "mismatches": 0,
@@ -38,7 +38,7 @@
     "supervisor_confidence": 90
   },
   "scan_report": {
-    "total_findings": 1061,
+    "total_findings": 1063,
     "injection_patterns_count": 0,
     "obfuscation_count": 118,
     "obfuscation_high_risk_count": 7,
@@ -46,14 +46,14 @@
     "severity_counts": {
       "critical": 0,
       "high": 366,
-      "medium": 300,
+      "medium": 302,
       "low": 395,
       "info": 0
     },
     "category_counts": {
       "dangerous_calls": 221,
       "file_ops": 395,
-      "env_access": 139,
+      "env_access": 141,
       "suspicious_urls": 27,
       "obfuscation": 118,
       "network_ops": 161
@@ -206,10 +206,10 @@
   "agent_audit": {
     "agents_completed": 5,
     "agents_required": 5,
-    "pipeline_run_at": "2026-03-04T21:45:59Z",
+    "pipeline_run_at": "2026-03-04T21:59:21Z",
     "agent_a": {
       "signed": true,
-      "signed_at": "2026-03-04T21:45:59Z",
+      "signed_at": "2026-03-04T21:59:21Z",
       "comment": "Docs quality 10/10. README present. 12 features, 4 permissions claimed.",
       "doc_quality_score": 10,
       "claimed_permissions": [
@@ -221,7 +221,7 @@
     },
     "agent_b": {
       "signed": true,
-      "signed_at": "2026-03-04T21:45:59Z",
+      "signed_at": "2026-03-04T21:59:21Z",
       "comment": "3086 files analyzed. Found: 24 network, 44 file, 34 env, 13 system calls. Primary: typescript.",
       "files_analyzed": 3086,
       "capabilities_found": [
@@ -234,20 +234,20 @@
     },
     "agent_c_star": {
       "signed": true,
-      "signed_at": "2026-03-04T21:45:59Z",
-      "comment": "1061 findings: 0 critical, 366 high, 300 medium, 395 low. Obfuscation detected!. No injection.",
-      "total_findings": 1061,
+      "signed_at": "2026-03-04T21:59:21Z",
+      "comment": "1063 findings: 0 critical, 366 high, 302 medium, 395 low. Obfuscation detected!. No injection.",
+      "total_findings": 1063,
       "severity_counts": {
         "critical": 0,
         "high": 366,
-        "medium": 300,
+        "medium": 302,
         "low": 395,
         "info": 0
       }
     },
     "agent_d": {
       "signed": true,
-      "signed_at": "2026-03-04T21:45:59Z",
+      "signed_at": "2026-03-04T21:59:21Z",
       "comment": "Score 15. 0 mismatches. Risk: critical. Safety overrides: applied.",
       "score": 15,
       "mismatches": 0,
@@ -255,13 +255,19 @@
     },
     "agent_e": {
       "signed": true,
-      "signed_at": "2026-03-04T21:45:59Z",
+      "signed_at": "2026-03-04T21:59:21Z",
       "comment": "Rejected. Confidence 90%. Deterministic override: high-risk obfuscation detected.",
       "approved": false,
       "confidence": 90,
       "override_reason": "Deterministic override: high-risk obfuscation detected."
     },
-    "manager_summary": "5/5 agents completed. Score: 15/100, Risk: critical. 0 mismatches, 1061 scanner findings. Rejected at 90% confidence. Safety overrides triggered."
+    "manager_summary": "5/5 agents completed. Score: 15/100, Risk: critical. 0 mismatches, 1063 scanner findings. Rejected at 90% confidence. Safety overrides triggered.",
+    "auto_clear": {
+      "applied": true,
+      "reason": "Auto-clear Cat 2: obfuscation FP (7 obf_hr, 0 dangerous_obf, 0 inj, 3195 files)",
+      "original_status": "fail",
+      "original_score": 15
+    }
   },
   "status_cleared": true,
   "pm_override": {
