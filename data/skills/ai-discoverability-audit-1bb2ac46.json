@@ -14,14 +14,185 @@
     "data",
     "data-ai",
     "util",
-    "util-search"
+    "util-search",
+    "status-pass"
   ],
-  "verification_status": "unverified",
-  "overall_score": 0,
-  "risk_level": "info",
-  "verified_commit": null,
+  "verification_status": "pass",
+  "overall_score": 80,
+  "risk_level": "medium",
+  "verified_commit": "24f6aeefe33b37d511e0a5fae201a6d9321f7265",
   "scan_summary": null,
   "repo_status": "available",
   "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
-  "repo_check_error": null
+  "repo_check_error": null,
+  "scan_date": "2026-03-04T22:28:40Z",
+  "findings_summary": {
+    "scanner_findings": 11,
+    "dangerous_calls": 6,
+    "network_ops": 1,
+    "file_ops": 4,
+    "env_access": 0,
+    "obfuscation": 0,
+    "injection_patterns": 0,
+    "mismatches": 0,
+    "undocumented_capabilities": 0,
+    "supervisor_approved": true,
+    "supervisor_confidence": 80
+  },
+  "scan_report": {
+    "total_findings": 11,
+    "injection_patterns_count": 0,
+    "obfuscation_count": 0,
+    "obfuscation_high_risk_count": 0,
+    "dangerous_calls_count": 6,
+    "severity_counts": {
+      "critical": 0,
+      "high": 6,
+      "medium": 1,
+      "low": 4,
+      "info": 0
+    },
+    "category_counts": {
+      "file_ops": 4,
+      "dangerous_calls": 6,
+      "network_ops": 1
+    },
+    "top_findings": [
+      {
+        "rule_id": "regex_py_open",
+        "severity": "low",
+        "category": "file_ops",
+        "file": "pro/brand-voice-extractor/SKILL.md",
+        "line": 108
+      },
+      {
+        "rule_id": "regex_shell_backtick_exec",
+        "severity": "high",
+        "category": "dangerous_calls",
+        "file": "tweet-draft-reviewer/SKILL.md",
+        "line": 42
+      },
+      {
+        "rule_id": "regex_shell_backtick_exec",
+        "severity": "high",
+        "category": "dangerous_calls",
+        "file": "daily-briefing-builder/SKILL.md",
+        "line": 60
+      },
+      {
+        "rule_id": "regex_shell_backtick_exec",
+        "severity": "high",
+        "category": "dangerous_calls",
+        "file": "daily-briefing-builder/SKILL.md",
+        "line": 75
+      },
+      {
+        "rule_id": "regex_js_fetch",
+        "severity": "medium",
+        "category": "network_ops",
+        "file": "social-card-gen/generate.js",
+        "line": 157
+      },
+      {
+        "rule_id": "regex_js_fs_write",
+        "severity": "low",
+        "category": "file_ops",
+        "file": "social-card-gen/generate.js",
+        "line": 197
+      },
+      {
+        "rule_id": "regex_js_fs_read",
+        "severity": "low",
+        "category": "file_ops",
+        "file": "social-card-gen/generate.js",
+        "line": 153
+      },
+      {
+        "rule_id": "regex_js_fs_mkdir",
+        "severity": "low",
+        "category": "file_ops",
+        "file": "social-card-gen/generate.js",
+        "line": 193
+      },
+      {
+        "rule_id": "regex_shell_backtick_exec",
+        "severity": "high",
+        "category": "dangerous_calls",
+        "file": "vault-cleanup-auditor/SKILL.md",
+        "line": 51
+      },
+      {
+        "rule_id": "regex_shell_backtick_exec",
+        "severity": "high",
+        "category": "dangerous_calls",
+        "file": "vault-cleanup-auditor/SKILL.md",
+        "line": 65
+      },
+      {
+        "rule_id": "regex_shell_backtick_exec",
+        "severity": "high",
+        "category": "dangerous_calls",
+        "file": "vault-cleanup-auditor/SKILL.md",
+        "line": 122
+      }
+    ],
+    "total_files_scanned": 65
+  },
+  "verification_level": "full_pipeline",
+  "agent_audit": {
+    "agents_completed": 5,
+    "agents_required": 5,
+    "pipeline_run_at": "2026-03-04T22:28:40Z",
+    "agent_a": {
+      "signed": true,
+      "signed_at": "2026-03-04T22:28:40Z",
+      "comment": "Docs quality 10/10. README present. 12 features, 4 permissions claimed.",
+      "doc_quality_score": 10,
+      "claimed_permissions": [
+        "network access",
+        "system command execution",
+        "file system access",
+        "environment/secret access"
+      ]
+    },
+    "agent_b": {
+      "signed": true,
+      "signed_at": "2026-03-04T22:28:40Z",
+      "comment": "7 files analyzed. Found: 1 network, 0 file, 0 env, 0 system calls. Primary: unknown.",
+      "files_analyzed": 7,
+      "capabilities_found": [
+        "performs network operations"
+      ]
+    },
+    "agent_c_star": {
+      "signed": true,
+      "signed_at": "2026-03-04T22:28:40Z",
+      "comment": "11 findings: 0 critical, 6 high, 1 medium, 4 low. No obfuscation. No injection.",
+      "total_findings": 11,
+      "severity_counts": {
+        "critical": 0,
+        "high": 6,
+        "medium": 1,
+        "low": 4,
+        "info": 0
+      }
+    },
+    "agent_d": {
+      "signed": true,
+      "signed_at": "2026-03-04T22:28:40Z",
+      "comment": "Score 80. 0 mismatches. Risk: medium. Safety overrides: none triggered.",
+      "score": 80,
+      "mismatches": 0,
+      "safety_overrides_applied": false
+    },
+    "agent_e": {
+      "signed": true,
+      "signed_at": "2026-03-04T22:28:40Z",
+      "comment": "Approved. Confidence 80%. No overrides.",
+      "approved": true,
+      "confidence": 80,
+      "override_reason": null
+    },
+    "manager_summary": "5/5 agents completed. Score: 80/100, Risk: medium. 0 mismatches, 11 scanner findings. Approved at 80% confidence. No safety overrides."
+  }
 }

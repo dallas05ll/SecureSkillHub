@@ -12,14 +12,137 @@
     "agent-skills",
     "installs:41",
     "prod",
-    "prod-docs"
+    "prod-docs",
+    "status-pass"
   ],
-  "verification_status": "unverified",
-  "overall_score": 0,
-  "risk_level": "info",
-  "verified_commit": null,
+  "verification_status": "pass",
+  "overall_score": 94,
+  "risk_level": "medium",
+  "verified_commit": "2cb89940f38523aa5598e0e513b734ec3f5af574",
   "scan_summary": null,
   "repo_status": "available",
   "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
-  "repo_check_error": null
+  "repo_check_error": null,
+  "scan_date": "2026-03-04T22:31:51Z",
+  "findings_summary": {
+    "scanner_findings": 4,
+    "dangerous_calls": 3,
+    "network_ops": 0,
+    "file_ops": 1,
+    "env_access": 0,
+    "obfuscation": 0,
+    "injection_patterns": 0,
+    "mismatches": 0,
+    "undocumented_capabilities": 0,
+    "supervisor_approved": true,
+    "supervisor_confidence": 94
+  },
+  "scan_report": {
+    "total_findings": 4,
+    "injection_patterns_count": 0,
+    "obfuscation_count": 0,
+    "obfuscation_high_risk_count": 0,
+    "dangerous_calls_count": 3,
+    "severity_counts": {
+      "critical": 0,
+      "high": 3,
+      "medium": 0,
+      "low": 1,
+      "info": 0
+    },
+    "category_counts": {
+      "dangerous_calls": 3,
+      "file_ops": 1
+    },
+    "top_findings": [
+      {
+        "rule_id": "regex_shell_backtick_exec",
+        "severity": "high",
+        "category": "dangerous_calls",
+        "file": "home/gemini/commands/resync.toml",
+        "line": 17
+      },
+      {
+        "rule_id": "regex_py_open",
+        "severity": "low",
+        "category": "file_ops",
+        "file": "home/config/zsh/init.zsh",
+        "line": 92
+      },
+      {
+        "rule_id": "regex_shell_backtick_exec",
+        "severity": "high",
+        "category": "dangerous_calls",
+        "file": "home/claude/agents/git-reward.md",
+        "line": 109
+      },
+      {
+        "rule_id": "regex_shell_backtick_exec",
+        "severity": "high",
+        "category": "dangerous_calls",
+        "file": "home/claude/skills/style-review/SKILL.md",
+        "line": 44
+      }
+    ],
+    "total_files_scanned": 100
+  },
+  "verification_level": "full_pipeline",
+  "agent_audit": {
+    "agents_completed": 5,
+    "agents_required": 5,
+    "pipeline_run_at": "2026-03-04T22:31:51Z",
+    "agent_a": {
+      "signed": true,
+      "signed_at": "2026-03-04T22:31:51Z",
+      "comment": "Docs quality 10/10. README present. 12 features, 4 permissions claimed.",
+      "doc_quality_score": 10,
+      "claimed_permissions": [
+        "network access",
+        "system command execution",
+        "file system access",
+        "environment/secret access"
+      ]
+    },
+    "agent_b": {
+      "signed": true,
+      "signed_at": "2026-03-04T22:31:51Z",
+      "comment": "49 files analyzed. Found: 0 network, 1 file, 0 env, 6 system calls. Primary: unknown.",
+      "files_analyzed": 49,
+      "capabilities_found": [
+        "imports external dependencies",
+        "reads/writes files",
+        "executes system commands"
+      ]
+    },
+    "agent_c_star": {
+      "signed": true,
+      "signed_at": "2026-03-04T22:31:51Z",
+      "comment": "4 findings: 0 critical, 3 high, 0 medium, 1 low. No obfuscation. No injection.",
+      "total_findings": 4,
+      "severity_counts": {
+        "critical": 0,
+        "high": 3,
+        "medium": 0,
+        "low": 1,
+        "info": 0
+      }
+    },
+    "agent_d": {
+      "signed": true,
+      "signed_at": "2026-03-04T22:31:51Z",
+      "comment": "Score 94. 0 mismatches. Risk: medium. Safety overrides: none triggered.",
+      "score": 94,
+      "mismatches": 0,
+      "safety_overrides_applied": false
+    },
+    "agent_e": {
+      "signed": true,
+      "signed_at": "2026-03-04T22:31:51Z",
+      "comment": "Approved. Confidence 94%. No overrides.",
+      "approved": true,
+      "confidence": 94,
+      "override_reason": null
+    },
+    "manager_summary": "5/5 agents completed. Score: 94/100, Risk: medium. 0 mismatches, 4 scanner findings. Approved at 94% confidence. No safety overrides."
+  }
 }

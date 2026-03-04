@@ -17,14 +17,254 @@
     "dev-web-frontend-react",
     "dev-web-fullstack",
     "dev-web-fullstack-nextjs",
-    "prod"
+    "prod",
+    "status-pass"
   ],
-  "verification_status": "unverified",
-  "overall_score": 0,
-  "risk_level": "info",
-  "verified_commit": null,
+  "verification_status": "pass",
+  "overall_score": 50,
+  "risk_level": "medium",
+  "verified_commit": "6a79f87f1e966bc7fcf542597ef00cd6951ef556",
   "scan_summary": null,
   "repo_status": "available",
   "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
-  "repo_check_error": null
+  "repo_check_error": null,
+  "scan_date": "2026-03-04T22:27:59Z",
+  "findings_summary": {
+    "scanner_findings": 26,
+    "dangerous_calls": 3,
+    "network_ops": 3,
+    "file_ops": 0,
+    "env_access": 11,
+    "obfuscation": 2,
+    "injection_patterns": 0,
+    "mismatches": 0,
+    "undocumented_capabilities": 0,
+    "supervisor_approved": false,
+    "supervisor_confidence": 50
+  },
+  "scan_report": {
+    "total_findings": 26,
+    "injection_patterns_count": 0,
+    "obfuscation_count": 2,
+    "obfuscation_high_risk_count": 0,
+    "dangerous_calls_count": 3,
+    "severity_counts": {
+      "critical": 0,
+      "high": 12,
+      "medium": 14,
+      "low": 0,
+      "info": 0
+    },
+    "category_counts": {
+      "dangerous_calls": 3,
+      "suspicious_urls": 7,
+      "env_access": 11,
+      "network_ops": 3,
+      "obfuscation": 2
+    },
+    "top_findings": [
+      {
+        "rule_id": "regex_shell_backtick_exec",
+        "severity": "high",
+        "category": "dangerous_calls",
+        "file": "betterauth-tanstack-convex/SKILL.md",
+        "line": 34
+      },
+      {
+        "rule_id": "regex_localhost_non_std",
+        "severity": "high",
+        "category": "suspicious_urls",
+        "file": "betterauth-tanstack-convex/SKILL.md",
+        "line": 36
+      },
+      {
+        "rule_id": "regex_localhost_non_std",
+        "severity": "high",
+        "category": "suspicious_urls",
+        "file": "betterauth-tanstack-convex/SKILL.md",
+        "line": 44
+      },
+      {
+        "rule_id": "regex_shell_backtick_exec",
+        "severity": "high",
+        "category": "dangerous_calls",
+        "file": "betterauth-tanstack-convex/references/setup-guide.md",
+        "line": 75
+      },
+      {
+        "rule_id": "regex_js_process_env",
+        "severity": "medium",
+        "category": "env_access",
+        "file": "betterauth-tanstack-convex/references/setup-guide.md",
+        "line": 113
+      },
+      {
+        "rule_id": "regex_js_process_env",
+        "severity": "medium",
+        "category": "env_access",
+        "file": "betterauth-tanstack-convex/references/setup-guide.md",
+        "line": 177
+      },
+      {
+        "rule_id": "regex_js_process_env",
+        "severity": "medium",
+        "category": "env_access",
+        "file": "betterauth-tanstack-convex/references/setup-guide.md",
+        "line": 178
+      },
+      {
+        "rule_id": "regex_localhost_non_std",
+        "severity": "high",
+        "category": "suspicious_urls",
+        "file": "betterauth-tanstack-convex/references/setup-guide.md",
+        "line": 80
+      },
+      {
+        "rule_id": "regex_localhost_non_std",
+        "severity": "high",
+        "category": "suspicious_urls",
+        "file": "betterauth-tanstack-convex/references/setup-guide.md",
+        "line": 92
+      },
+      {
+        "rule_id": "regex_js_fetch",
+        "severity": "medium",
+        "category": "network_ops",
+        "file": "convex-tanstack/references/07-storage.md",
+        "line": 99
+      },
+      {
+        "rule_id": "regex_shell_backtick_exec",
+        "severity": "high",
+        "category": "dangerous_calls",
+        "file": "convex-tanstack/references/01-setup.md",
+        "line": 116
+      },
+      {
+        "rule_id": "regex_localhost_non_std",
+        "severity": "high",
+        "category": "suspicious_urls",
+        "file": "convex-tanstack/references/01-setup.md",
+        "line": 111
+      },
+      {
+        "rule_id": "regex_localhost_non_std",
+        "severity": "high",
+        "category": "suspicious_urls",
+        "file": "convex-tanstack/references/01-setup.md",
+        "line": 121
+      },
+      {
+        "rule_id": "regex_js_fetch",
+        "severity": "medium",
+        "category": "network_ops",
+        "file": "convex-tanstack/references/05-backend.md",
+        "line": 543
+      },
+      {
+        "rule_id": "regex_js_process_env",
+        "severity": "medium",
+        "category": "env_access",
+        "file": "convex-tanstack/references/05-backend.md",
+        "line": 546
+      },
+      {
+        "rule_id": "regex_js_process_env",
+        "severity": "medium",
+        "category": "env_access",
+        "file": "convex-tanstack/references/03-auth.md",
+        "line": 17
+      },
+      {
+        "rule_id": "regex_js_process_env",
+        "severity": "medium",
+        "category": "env_access",
+        "file": "convex-tanstack/references/03-auth.md",
+        "line": 101
+      },
+      {
+        "rule_id": "regex_js_process_env",
+        "severity": "medium",
+        "category": "env_access",
+        "file": "convex-tanstack/references/03-auth.md",
+        "line": 102
+      },
+      {
+        "rule_id": "regex_js_process_env",
+        "severity": "medium",
+        "category": "env_access",
+        "file": "convex-actions-general/SKILL.md",
+        "line": 70
+      },
+      {
+        "rule_id": "regex_js_process_env",
+        "severity": "medium",
+        "category": "env_access",
+        "file": "convex-actions-general/SKILL.md",
+        "line": 139
+      }
+    ],
+    "total_files_scanned": 46
+  },
+  "verification_level": "full_pipeline",
+  "agent_audit": {
+    "agents_completed": 5,
+    "agents_required": 5,
+    "pipeline_run_at": "2026-03-04T22:27:59Z",
+    "agent_a": {
+      "signed": true,
+      "signed_at": "2026-03-04T22:27:59Z",
+      "comment": "Docs quality 10/10. README present. 12 features, 4 permissions claimed.",
+      "doc_quality_score": 10,
+      "claimed_permissions": [
+        "network access",
+        "system command execution",
+        "file system access",
+        "environment/secret access"
+      ]
+    },
+    "agent_b": {
+      "signed": true,
+      "signed_at": "2026-03-04T22:27:59Z",
+      "comment": "0 files analyzed. Found: 0 network, 0 file, 0 env, 0 system calls. Primary: unknown.",
+      "files_analyzed": 0,
+      "capabilities_found": []
+    },
+    "agent_c_star": {
+      "signed": true,
+      "signed_at": "2026-03-04T22:27:59Z",
+      "comment": "26 findings: 0 critical, 12 high, 14 medium, 0 low. Obfuscation detected!. No injection.",
+      "total_findings": 26,
+      "severity_counts": {
+        "critical": 0,
+        "high": 12,
+        "medium": 14,
+        "low": 0,
+        "info": 0
+      }
+    },
+    "agent_d": {
+      "signed": true,
+      "signed_at": "2026-03-04T22:27:59Z",
+      "comment": "Score 50. 0 mismatches. Risk: medium. Safety overrides: none triggered.",
+      "score": 50,
+      "mismatches": 0,
+      "safety_overrides_applied": false
+    },
+    "agent_e": {
+      "signed": true,
+      "signed_at": "2026-03-04T22:27:59Z",
+      "comment": "Rejected. Confidence 50%. No overrides.",
+      "approved": false,
+      "confidence": 50,
+      "override_reason": null
+    },
+    "manager_summary": "5/5 agents completed. Score: 50/100, Risk: medium. 0 mismatches, 26 scanner findings. Rejected at 50% confidence. No safety overrides.",
+    "auto_clear": {
+      "applied": true,
+      "reason": "Auto-clear Cat 1: clean profile (0 inj, 0 obf_hr, score=50)",
+      "original_status": "manual_review",
+      "original_score": 50
+    }
+  }
 }

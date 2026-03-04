@@ -7,7 +7,7 @@
   "skill_type": "agent_skill",
   "owner": "vigorx777",
   "stars": 0,
-  "primary_language": "unknown",
+  "primary_language": "typescript",
   "tags": [
     "agent-skills",
     "installs:749",
@@ -17,14 +17,181 @@
     "integ",
     "integ-cloud",
     "prod",
-    "prod-docs"
+    "prod-docs",
+    "status-pass"
   ],
-  "verification_status": "unverified",
-  "overall_score": 0,
-  "risk_level": "info",
-  "verified_commit": null,
+  "verification_status": "pass",
+  "overall_score": 87,
+  "risk_level": "medium",
+  "verified_commit": "1f484a3f2f101cb0f1a94a35b1a1befe0f672b82",
   "scan_summary": null,
   "repo_status": "available",
   "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
-  "repo_check_error": null
+  "repo_check_error": null,
+  "scan_date": "2026-03-04T22:30:53Z",
+  "findings_summary": {
+    "scanner_findings": 10,
+    "dangerous_calls": 3,
+    "network_ops": 3,
+    "file_ops": 0,
+    "env_access": 4,
+    "obfuscation": 0,
+    "injection_patterns": 0,
+    "mismatches": 0,
+    "undocumented_capabilities": 0,
+    "supervisor_approved": true,
+    "supervisor_confidence": 87
+  },
+  "scan_report": {
+    "total_findings": 10,
+    "injection_patterns_count": 0,
+    "obfuscation_count": 0,
+    "obfuscation_high_risk_count": 0,
+    "dangerous_calls_count": 3,
+    "severity_counts": {
+      "critical": 0,
+      "high": 3,
+      "medium": 7,
+      "low": 0,
+      "info": 0
+    },
+    "category_counts": {
+      "dangerous_calls": 3,
+      "network_ops": 3,
+      "env_access": 4
+    },
+    "top_findings": [
+      {
+        "rule_id": "regex_shell_backtick_exec",
+        "severity": "high",
+        "category": "dangerous_calls",
+        "file": "SKILL.md",
+        "line": 143
+      },
+      {
+        "rule_id": "regex_py_exec",
+        "severity": "high",
+        "category": "dangerous_calls",
+        "file": "scripts/digest.ts",
+        "line": 246
+      },
+      {
+        "rule_id": "regex_py_exec",
+        "severity": "high",
+        "category": "dangerous_calls",
+        "file": "scripts/digest.ts",
+        "line": 272
+      },
+      {
+        "rule_id": "regex_js_fetch",
+        "severity": "medium",
+        "category": "network_ops",
+        "file": "scripts/digest.ts",
+        "line": 302
+      },
+      {
+        "rule_id": "regex_js_fetch",
+        "severity": "medium",
+        "category": "network_ops",
+        "file": "scripts/digest.ts",
+        "line": 370
+      },
+      {
+        "rule_id": "regex_js_fetch",
+        "severity": "medium",
+        "category": "network_ops",
+        "file": "scripts/digest.ts",
+        "line": 404
+      },
+      {
+        "rule_id": "regex_js_process_env",
+        "severity": "medium",
+        "category": "env_access",
+        "file": "scripts/digest.ts",
+        "line": 1049
+      },
+      {
+        "rule_id": "regex_js_process_env",
+        "severity": "medium",
+        "category": "env_access",
+        "file": "scripts/digest.ts",
+        "line": 1050
+      },
+      {
+        "rule_id": "regex_js_process_env",
+        "severity": "medium",
+        "category": "env_access",
+        "file": "scripts/digest.ts",
+        "line": 1051
+      },
+      {
+        "rule_id": "regex_js_process_env",
+        "severity": "medium",
+        "category": "env_access",
+        "file": "scripts/digest.ts",
+        "line": 1052
+      }
+    ],
+    "total_files_scanned": 3
+  },
+  "verification_level": "full_pipeline",
+  "agent_audit": {
+    "agents_completed": 5,
+    "agents_required": 5,
+    "pipeline_run_at": "2026-03-04T22:30:53Z",
+    "agent_a": {
+      "signed": true,
+      "signed_at": "2026-03-04T22:30:53Z",
+      "comment": "Docs quality 10/10. README present. 12 features, 4 permissions claimed.",
+      "doc_quality_score": 10,
+      "claimed_permissions": [
+        "network access",
+        "system command execution",
+        "file system access",
+        "environment/secret access"
+      ]
+    },
+    "agent_b": {
+      "signed": true,
+      "signed_at": "2026-03-04T22:30:53Z",
+      "comment": "1 files analyzed. Found: 3 network, 0 file, 4 env, 2 system calls. Primary: typescript.",
+      "files_analyzed": 1,
+      "capabilities_found": [
+        "imports external dependencies",
+        "performs network operations",
+        "reads environment values",
+        "executes system commands"
+      ]
+    },
+    "agent_c_star": {
+      "signed": true,
+      "signed_at": "2026-03-04T22:30:53Z",
+      "comment": "10 findings: 0 critical, 3 high, 7 medium, 0 low. No obfuscation. No injection.",
+      "total_findings": 10,
+      "severity_counts": {
+        "critical": 0,
+        "high": 3,
+        "medium": 7,
+        "low": 0,
+        "info": 0
+      }
+    },
+    "agent_d": {
+      "signed": true,
+      "signed_at": "2026-03-04T22:30:53Z",
+      "comment": "Score 87. 0 mismatches. Risk: medium. Safety overrides: none triggered.",
+      "score": 87,
+      "mismatches": 0,
+      "safety_overrides_applied": false
+    },
+    "agent_e": {
+      "signed": true,
+      "signed_at": "2026-03-04T22:30:53Z",
+      "comment": "Approved. Confidence 87%. No overrides.",
+      "approved": true,
+      "confidence": 87,
+      "override_reason": null
+    },
+    "manager_summary": "5/5 agents completed. Score: 87/100, Risk: medium. 0 mismatches, 10 scanner findings. Approved at 87% confidence. No safety overrides."
+  }
 }

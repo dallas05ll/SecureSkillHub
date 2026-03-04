@@ -7,20 +7,267 @@
   "skill_type": "agent_skill",
   "owner": "solar-luna",
   "stars": 0,
-  "primary_language": "unknown",
+  "primary_language": "python",
   "tags": [
     "agent-skills",
     "installs:15",
     "data",
     "data-ai",
-    "util"
+    "util",
+    "status-pass"
   ],
-  "verification_status": "unverified",
-  "overall_score": 0,
-  "risk_level": "info",
-  "verified_commit": null,
+  "verification_status": "pass",
+  "overall_score": 60,
+  "risk_level": "medium",
+  "verified_commit": "09854dd9922d9e4fab6e5a961cd6b7fc63b97d0a",
   "scan_summary": null,
   "repo_status": "available",
   "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
-  "repo_check_error": null
+  "repo_check_error": null,
+  "scan_date": "2026-03-04T22:30:47Z",
+  "findings_summary": {
+    "scanner_findings": 235,
+    "dangerous_calls": 21,
+    "network_ops": 15,
+    "file_ops": 167,
+    "env_access": 10,
+    "obfuscation": 4,
+    "injection_patterns": 0,
+    "mismatches": 0,
+    "undocumented_capabilities": 0,
+    "supervisor_approved": false,
+    "supervisor_confidence": 60
+  },
+  "scan_report": {
+    "total_findings": 235,
+    "injection_patterns_count": 0,
+    "obfuscation_count": 4,
+    "obfuscation_high_risk_count": 0,
+    "dangerous_calls_count": 21,
+    "severity_counts": {
+      "critical": 0,
+      "high": 43,
+      "medium": 25,
+      "low": 167,
+      "info": 0
+    },
+    "category_counts": {
+      "dangerous_calls": 21,
+      "suspicious_urls": 18,
+      "network_ops": 15,
+      "env_access": 10,
+      "file_ops": 167,
+      "obfuscation": 4
+    },
+    "top_findings": [
+      {
+        "rule_id": "regex_shell_backtick_exec",
+        "severity": "high",
+        "category": "dangerous_calls",
+        "file": "QUICKSTART.md",
+        "line": 26
+      },
+      {
+        "rule_id": "regex_shell_backtick_exec",
+        "severity": "high",
+        "category": "dangerous_calls",
+        "file": "QUICKSTART.md",
+        "line": 132
+      },
+      {
+        "rule_id": "regex_shell_backtick_exec",
+        "severity": "high",
+        "category": "dangerous_calls",
+        "file": "QUICKSTART.md",
+        "line": 187
+      },
+      {
+        "rule_id": "regex_shell_backtick_exec",
+        "severity": "high",
+        "category": "dangerous_calls",
+        "file": "QUICKSTART.md",
+        "line": 206
+      },
+      {
+        "rule_id": "regex_localhost_non_std",
+        "severity": "high",
+        "category": "suspicious_urls",
+        "file": "QUICKSTART.md",
+        "line": 80
+      },
+      {
+        "rule_id": "regex_localhost_non_std",
+        "severity": "high",
+        "category": "suspicious_urls",
+        "file": "README.md",
+        "line": 120
+      },
+      {
+        "rule_id": "regex_shell_backtick_exec",
+        "severity": "high",
+        "category": "dangerous_calls",
+        "file": "PUSH_GUIDE.md",
+        "line": 91
+      },
+      {
+        "rule_id": "regex_localhost_non_std",
+        "severity": "high",
+        "category": "suspicious_urls",
+        "file": "config/config.example.sh",
+        "line": 16
+      },
+      {
+        "rule_id": "regex_localhost_non_std",
+        "severity": "high",
+        "category": "suspicious_urls",
+        "file": "docs/WINDOWS.md",
+        "line": 84
+      },
+      {
+        "rule_id": "regex_shell_backtick_exec",
+        "severity": "high",
+        "category": "dangerous_calls",
+        "file": "docs/INSTALL.md",
+        "line": 74
+      },
+      {
+        "rule_id": "regex_shell_backtick_exec",
+        "severity": "high",
+        "category": "dangerous_calls",
+        "file": "docs/INSTALL.md",
+        "line": 216
+      },
+      {
+        "rule_id": "regex_py_requests",
+        "severity": "medium",
+        "category": "network_ops",
+        "file": "docs/INSTALL.md",
+        "line": 179
+      },
+      {
+        "rule_id": "regex_py_os_getenv",
+        "severity": "medium",
+        "category": "env_access",
+        "file": "docs/INSTALL.md",
+        "line": 175
+      },
+      {
+        "rule_id": "regex_py_os_getenv",
+        "severity": "medium",
+        "category": "env_access",
+        "file": "docs/INSTALL.md",
+        "line": 176
+      },
+      {
+        "rule_id": "regex_localhost_non_std",
+        "severity": "high",
+        "category": "suspicious_urls",
+        "file": "skills/wechat-article-formatter/EXAMPLES.md",
+        "line": 396
+      },
+      {
+        "rule_id": "regex_localhost_non_std",
+        "severity": "high",
+        "category": "suspicious_urls",
+        "file": "skills/wechat-article-formatter/EXAMPLES.md",
+        "line": 397
+      },
+      {
+        "rule_id": "regex_py_open",
+        "severity": "low",
+        "category": "file_ops",
+        "file": "skills/wechat-article-formatter/convert.py",
+        "line": 389
+      },
+      {
+        "rule_id": "regex_py_open",
+        "severity": "low",
+        "category": "file_ops",
+        "file": "skills/wechat-article-formatter/convert.py",
+        "line": 462
+      },
+      {
+        "rule_id": "regex_shell_backtick_exec",
+        "severity": "high",
+        "category": "dangerous_calls",
+        "file": "skills/wechat-article-formatter/QUICKSTART.md",
+        "line": 57
+      },
+      {
+        "rule_id": "regex_shell_backtick_exec",
+        "severity": "high",
+        "category": "dangerous_calls",
+        "file": "skills/wechat-article-formatter/SKILL.md",
+        "line": 90
+      }
+    ],
+    "total_files_scanned": 68
+  },
+  "verification_level": "full_pipeline",
+  "agent_audit": {
+    "agents_completed": 5,
+    "agents_required": 5,
+    "pipeline_run_at": "2026-03-04T22:30:47Z",
+    "agent_a": {
+      "signed": true,
+      "signed_at": "2026-03-04T22:30:47Z",
+      "comment": "Docs quality 10/10. README present. 12 features, 4 permissions claimed.",
+      "doc_quality_score": 10,
+      "claimed_permissions": [
+        "network access",
+        "system command execution",
+        "file system access",
+        "environment/secret access"
+      ]
+    },
+    "agent_b": {
+      "signed": true,
+      "signed_at": "2026-03-04T22:30:47Z",
+      "comment": "35 files analyzed. Found: 14 network, 68 file, 7 env, 7 system calls. Primary: python.",
+      "files_analyzed": 35,
+      "capabilities_found": [
+        "imports external dependencies",
+        "performs network operations",
+        "reads/writes files",
+        "reads environment values",
+        "executes system commands"
+      ]
+    },
+    "agent_c_star": {
+      "signed": true,
+      "signed_at": "2026-03-04T22:30:47Z",
+      "comment": "235 findings: 0 critical, 43 high, 25 medium, 167 low. Obfuscation detected!. No injection.",
+      "total_findings": 235,
+      "severity_counts": {
+        "critical": 0,
+        "high": 43,
+        "medium": 25,
+        "low": 167,
+        "info": 0
+      }
+    },
+    "agent_d": {
+      "signed": true,
+      "signed_at": "2026-03-04T22:30:47Z",
+      "comment": "Score 60. 0 mismatches. Risk: medium. Safety overrides: none triggered.",
+      "score": 60,
+      "mismatches": 0,
+      "safety_overrides_applied": false
+    },
+    "agent_e": {
+      "signed": true,
+      "signed_at": "2026-03-04T22:30:47Z",
+      "comment": "Rejected. Confidence 60%. No overrides.",
+      "approved": false,
+      "confidence": 60,
+      "override_reason": null
+    },
+    "manager_summary": "5/5 agents completed. Score: 60/100, Risk: medium. 0 mismatches, 235 scanner findings. Rejected at 60% confidence. No safety overrides.",
+    "auto_clear": {
+      "applied": true,
+      "reason": "Auto-clear Cat 1: clean profile (0 inj, 0 obf_hr, score=60)",
+      "original_status": "manual_review",
+      "original_score": 60
+    }
+  }
 }

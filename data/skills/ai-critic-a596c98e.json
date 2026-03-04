@@ -7,19 +7,266 @@
   "skill_type": "agent_skill",
   "owner": "in-the-loop-labs",
   "stars": 0,
-  "primary_language": "unknown",
+  "primary_language": "javascript",
   "tags": [
     "agent-skills",
     "installs:10",
     "data",
-    "data-ai"
+    "data-ai",
+    "status-pass"
   ],
-  "verification_status": "unverified",
-  "overall_score": 0,
-  "risk_level": "info",
-  "verified_commit": null,
+  "verification_status": "pass",
+  "overall_score": 60,
+  "risk_level": "medium",
+  "verified_commit": "c761b0678e280d7a3437b0442a134a8ee1b1ce60",
   "scan_summary": null,
   "repo_status": "available",
   "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
-  "repo_check_error": null
+  "repo_check_error": null,
+  "scan_date": "2026-03-04T22:27:37Z",
+  "findings_summary": {
+    "scanner_findings": 715,
+    "dangerous_calls": 86,
+    "network_ops": 136,
+    "file_ops": 202,
+    "env_access": 259,
+    "obfuscation": 13,
+    "injection_patterns": 0,
+    "mismatches": 0,
+    "undocumented_capabilities": 0,
+    "supervisor_approved": false,
+    "supervisor_confidence": 60
+  },
+  "scan_report": {
+    "total_findings": 715,
+    "injection_patterns_count": 0,
+    "obfuscation_count": 13,
+    "obfuscation_high_risk_count": 0,
+    "dangerous_calls_count": 86,
+    "severity_counts": {
+      "critical": 0,
+      "high": 118,
+      "medium": 395,
+      "low": 202,
+      "info": 0
+    },
+    "category_counts": {
+      "network_ops": 136,
+      "env_access": 259,
+      "dangerous_calls": 86,
+      "suspicious_urls": 19,
+      "file_ops": 202,
+      "obfuscation": 13
+    },
+    "top_findings": [
+      {
+        "rule_id": "regex_js_fetch",
+        "severity": "medium",
+        "category": "network_ops",
+        "file": "CHANGELOG.md",
+        "line": 267
+      },
+      {
+        "rule_id": "regex_js_process_env",
+        "severity": "medium",
+        "category": "env_access",
+        "file": "playwright.config.js",
+        "line": 6
+      },
+      {
+        "rule_id": "regex_js_process_env",
+        "severity": "medium",
+        "category": "env_access",
+        "file": "playwright.config.js",
+        "line": 7
+      },
+      {
+        "rule_id": "regex_js_process_env",
+        "severity": "medium",
+        "category": "env_access",
+        "file": "playwright.config.js",
+        "line": 9
+      },
+      {
+        "rule_id": "regex_js_process_env",
+        "severity": "medium",
+        "category": "env_access",
+        "file": "playwright.config.js",
+        "line": 12
+      },
+      {
+        "rule_id": "regex_shell_backtick_exec",
+        "severity": "high",
+        "category": "dangerous_calls",
+        "file": "README.md",
+        "line": 644
+      },
+      {
+        "rule_id": "regex_localhost_non_std",
+        "severity": "high",
+        "category": "suspicious_urls",
+        "file": "README.md",
+        "line": 689
+      },
+      {
+        "rule_id": "regex_localhost_non_std",
+        "severity": "high",
+        "category": "suspicious_urls",
+        "file": "README.md",
+        "line": 721
+      },
+      {
+        "rule_id": "regex_localhost_non_std",
+        "severity": "high",
+        "category": "suspicious_urls",
+        "file": "README.md",
+        "line": 739
+      },
+      {
+        "rule_id": "regex_js_require_child",
+        "severity": "high",
+        "category": "dangerous_calls",
+        "file": "bin/pair-review.js",
+        "line": 5
+      },
+      {
+        "rule_id": "regex_py_open",
+        "severity": "low",
+        "category": "file_ops",
+        "file": "plans/chat-about-lines.md",
+        "line": 11
+      },
+      {
+        "rule_id": "regex_py_open",
+        "severity": "low",
+        "category": "file_ops",
+        "file": "plans/chat-about-lines.md",
+        "line": 17
+      },
+      {
+        "rule_id": "regex_py_open",
+        "severity": "low",
+        "category": "file_ops",
+        "file": "plans/chat-about-lines.md",
+        "line": 111
+      },
+      {
+        "rule_id": "regex_py_open",
+        "severity": "low",
+        "category": "file_ops",
+        "file": "plans/chat-about-lines.md",
+        "line": 136
+      },
+      {
+        "rule_id": "regex_py_open",
+        "severity": "low",
+        "category": "file_ops",
+        "file": "plans/chat-about-lines.md",
+        "line": 185
+      },
+      {
+        "rule_id": "regex_py_open",
+        "severity": "low",
+        "category": "file_ops",
+        "file": "plans/chat-about-lines.md",
+        "line": 226
+      },
+      {
+        "rule_id": "regex_py_open",
+        "severity": "low",
+        "category": "file_ops",
+        "file": "plans/chat-about-lines.md",
+        "line": 315
+      },
+      {
+        "rule_id": "regex_py_open",
+        "severity": "low",
+        "category": "file_ops",
+        "file": "plans/chat-about-lines.md",
+        "line": 316
+      },
+      {
+        "rule_id": "regex_py_open",
+        "severity": "low",
+        "category": "file_ops",
+        "file": "plans/chat-about-lines.md",
+        "line": 317
+      },
+      {
+        "rule_id": "regex_js_require_child",
+        "severity": "high",
+        "category": "dangerous_calls",
+        "file": "plans/claude-code-chat-bridge.md",
+        "line": 79
+      }
+    ],
+    "total_files_scanned": 314
+  },
+  "verification_level": "full_pipeline",
+  "agent_audit": {
+    "agents_completed": 5,
+    "agents_required": 5,
+    "pipeline_run_at": "2026-03-04T22:27:37Z",
+    "agent_a": {
+      "signed": true,
+      "signed_at": "2026-03-04T22:27:37Z",
+      "comment": "Docs quality 10/10. README present. 12 features, 4 permissions claimed.",
+      "doc_quality_score": 10,
+      "claimed_permissions": [
+        "network access",
+        "system command execution",
+        "file system access",
+        "environment/secret access"
+      ]
+    },
+    "agent_b": {
+      "signed": true,
+      "signed_at": "2026-03-04T22:27:37Z",
+      "comment": "254 files analyzed. Found: 83 network, 62 file, 120 env, 26 system calls. Primary: javascript.",
+      "files_analyzed": 254,
+      "capabilities_found": [
+        "imports external dependencies",
+        "performs network operations",
+        "reads/writes files",
+        "reads environment values",
+        "executes system commands"
+      ]
+    },
+    "agent_c_star": {
+      "signed": true,
+      "signed_at": "2026-03-04T22:27:37Z",
+      "comment": "715 findings: 0 critical, 118 high, 395 medium, 202 low. Obfuscation detected!. No injection.",
+      "total_findings": 715,
+      "severity_counts": {
+        "critical": 0,
+        "high": 118,
+        "medium": 395,
+        "low": 202,
+        "info": 0
+      }
+    },
+    "agent_d": {
+      "signed": true,
+      "signed_at": "2026-03-04T22:27:37Z",
+      "comment": "Score 60. 0 mismatches. Risk: medium. Safety overrides: none triggered.",
+      "score": 60,
+      "mismatches": 0,
+      "safety_overrides_applied": false
+    },
+    "agent_e": {
+      "signed": true,
+      "signed_at": "2026-03-04T22:27:37Z",
+      "comment": "Rejected. Confidence 60%. No overrides.",
+      "approved": false,
+      "confidence": 60,
+      "override_reason": null
+    },
+    "manager_summary": "5/5 agents completed. Score: 60/100, Risk: medium. 0 mismatches, 715 scanner findings. Rejected at 60% confidence. No safety overrides.",
+    "auto_clear": {
+      "applied": true,
+      "reason": "Auto-clear Cat 1: clean profile (0 inj, 0 obf_hr, score=60)",
+      "original_status": "manual_review",
+      "original_score": 60
+    }
+  }
 }

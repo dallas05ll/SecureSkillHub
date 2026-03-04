@@ -13,14 +13,244 @@
     "installs:1390",
     "dev",
     "prod",
-    "prod-comm"
+    "prod-comm",
+    "status-pass"
   ],
-  "verification_status": "unverified",
-  "overall_score": 0,
-  "risk_level": "info",
-  "verified_commit": null,
+  "verification_status": "pass",
+  "overall_score": 50,
+  "risk_level": "medium",
+  "verified_commit": "23d67af105b14cccdea54ecbd1694ec0eaa37dc4",
   "scan_summary": null,
   "repo_status": "available",
   "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
-  "repo_check_error": null
+  "repo_check_error": null,
+  "scan_date": "2026-03-04T22:34:05Z",
+  "findings_summary": {
+    "scanner_findings": 18,
+    "dangerous_calls": 13,
+    "network_ops": 2,
+    "file_ops": 0,
+    "env_access": 2,
+    "obfuscation": 1,
+    "injection_patterns": 0,
+    "mismatches": 0,
+    "undocumented_capabilities": 0,
+    "supervisor_approved": false,
+    "supervisor_confidence": 90
+  },
+  "scan_report": {
+    "total_findings": 18,
+    "injection_patterns_count": 0,
+    "obfuscation_count": 1,
+    "obfuscation_high_risk_count": 1,
+    "dangerous_calls_count": 13,
+    "severity_counts": {
+      "critical": 0,
+      "high": 14,
+      "medium": 4,
+      "low": 0,
+      "info": 0
+    },
+    "category_counts": {
+      "env_access": 2,
+      "network_ops": 2,
+      "dangerous_calls": 13,
+      "obfuscation": 1
+    },
+    "top_findings": [
+      {
+        "rule_id": "regex_generic_password",
+        "severity": "medium",
+        "category": "env_access",
+        "file": "GentlemanClaude/skills/django-drf/SKILL.md",
+        "line": 170
+      },
+      {
+        "rule_id": "regex_js_fetch",
+        "severity": "medium",
+        "category": "network_ops",
+        "file": "GentlemanClaude/skills/zustand-5/SKILL.md",
+        "line": 113
+      },
+      {
+        "rule_id": "regex_shell_backtick_exec",
+        "severity": "high",
+        "category": "dangerous_calls",
+        "file": "GentlemanZsh/.p10k.zsh",
+        "line": 8
+      },
+      {
+        "rule_id": "regex_shell_backtick_exec",
+        "severity": "high",
+        "category": "dangerous_calls",
+        "file": "GentlemanZsh/.p10k.zsh",
+        "line": 476
+      },
+      {
+        "rule_id": "regex_shell_backtick_exec",
+        "severity": "high",
+        "category": "dangerous_calls",
+        "file": "GentlemanZsh/.p10k.zsh",
+        "line": 859
+      },
+      {
+        "rule_id": "regex_shell_backtick_exec",
+        "severity": "high",
+        "category": "dangerous_calls",
+        "file": "GentlemanZsh/.p10k.zsh",
+        "line": 1101
+      },
+      {
+        "rule_id": "regex_unicode_escape_seq",
+        "severity": "high",
+        "category": "obfuscation",
+        "file": "GentlemanZsh/.p10k.zsh",
+        "line": 1600
+      },
+      {
+        "rule_id": "regex_shell_backtick_exec",
+        "severity": "high",
+        "category": "dangerous_calls",
+        "file": "docs/manual-installation.md",
+        "line": 161
+      },
+      {
+        "rule_id": "regex_shell_backtick_exec",
+        "severity": "high",
+        "category": "dangerous_calls",
+        "file": "docs/manual-installation.md",
+        "line": 171
+      },
+      {
+        "rule_id": "regex_shell_backtick_exec",
+        "severity": "high",
+        "category": "dangerous_calls",
+        "file": "docs/manual-installation.md",
+        "line": 181
+      },
+      {
+        "rule_id": "regex_shell_backtick_exec",
+        "severity": "high",
+        "category": "dangerous_calls",
+        "file": "docs/manual-installation.md",
+        "line": 380
+      },
+      {
+        "rule_id": "regex_generic_password",
+        "severity": "medium",
+        "category": "env_access",
+        "file": "GentlemanOpenCode/skill/django-drf/SKILL.md",
+        "line": 170
+      },
+      {
+        "rule_id": "regex_js_fetch",
+        "severity": "medium",
+        "category": "network_ops",
+        "file": "GentlemanOpenCode/skill/zustand-5/SKILL.md",
+        "line": 113
+      },
+      {
+        "rule_id": "regex_shell_backtick_exec",
+        "severity": "high",
+        "category": "dangerous_calls",
+        "file": "skills/setup.sh",
+        "line": 82
+      },
+      {
+        "rule_id": "regex_shell_backtick_exec",
+        "severity": "high",
+        "category": "dangerous_calls",
+        "file": "skills/setup.sh",
+        "line": 104
+      },
+      {
+        "rule_id": "regex_shell_backtick_exec",
+        "severity": "high",
+        "category": "dangerous_calls",
+        "file": "skills/setup.sh",
+        "line": 128
+      },
+      {
+        "rule_id": "regex_shell_backtick_exec",
+        "severity": "high",
+        "category": "dangerous_calls",
+        "file": "skills/gentleman-e2e/SKILL.md",
+        "line": 29
+      },
+      {
+        "rule_id": "regex_shell_backtick_exec",
+        "severity": "high",
+        "category": "dangerous_calls",
+        "file": "skills/gentleman-e2e/SKILL.md",
+        "line": 199
+      }
+    ],
+    "total_files_scanned": 89
+  },
+  "verification_level": "full_pipeline",
+  "agent_audit": {
+    "agents_completed": 5,
+    "agents_required": 5,
+    "pipeline_run_at": "2026-03-04T22:34:05Z",
+    "agent_a": {
+      "signed": true,
+      "signed_at": "2026-03-04T22:34:05Z",
+      "comment": "Docs quality 10/10. README present. 12 features, 4 permissions claimed.",
+      "doc_quality_score": 10,
+      "claimed_permissions": [
+        "network access",
+        "system command execution",
+        "file system access",
+        "environment/secret access"
+      ]
+    },
+    "agent_b": {
+      "signed": true,
+      "signed_at": "2026-03-04T22:34:05Z",
+      "comment": "120 files analyzed. Found: 2 network, 3 file, 2 env, 0 system calls. Primary: unknown.",
+      "files_analyzed": 120,
+      "capabilities_found": [
+        "imports external dependencies",
+        "performs network operations",
+        "reads/writes files",
+        "reads environment values"
+      ]
+    },
+    "agent_c_star": {
+      "signed": true,
+      "signed_at": "2026-03-04T22:34:05Z",
+      "comment": "18 findings: 0 critical, 14 high, 4 medium, 0 low. Obfuscation detected!. No injection.",
+      "total_findings": 18,
+      "severity_counts": {
+        "critical": 0,
+        "high": 14,
+        "medium": 4,
+        "low": 0,
+        "info": 0
+      }
+    },
+    "agent_d": {
+      "signed": true,
+      "signed_at": "2026-03-04T22:34:05Z",
+      "comment": "Score 15. 0 mismatches. Risk: critical. Safety overrides: applied.",
+      "score": 15,
+      "mismatches": 0,
+      "safety_overrides_applied": true
+    },
+    "agent_e": {
+      "signed": true,
+      "signed_at": "2026-03-04T22:34:05Z",
+      "comment": "Rejected. Confidence 90%. Deterministic override: high-risk obfuscation detected.",
+      "approved": false,
+      "confidence": 90,
+      "override_reason": "Deterministic override: high-risk obfuscation detected."
+    },
+    "manager_summary": "5/5 agents completed. Score: 15/100, Risk: critical. 0 mismatches, 18 scanner findings. Rejected at 90% confidence. Safety overrides triggered.",
+    "auto_clear": {
+      "applied": true,
+      "reason": "Auto-clear Cat 2: obfuscation-only (1 obf_hr, 0 dangerous, 0 inj, 89 files)",
+      "original_status": "fail",
+      "original_score": 15
+    }
+  }
 }

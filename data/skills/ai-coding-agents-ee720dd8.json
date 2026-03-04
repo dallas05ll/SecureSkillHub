@@ -7,20 +7,267 @@
   "skill_type": "agent_skill",
   "owner": "xiaolai",
   "stars": 0,
-  "primary_language": "unknown",
+  "primary_language": "typescript",
   "tags": [
     "agent-skills",
     "installs:91",
     "data",
     "data-ai",
-    "prod"
+    "prod",
+    "status-pass"
   ],
-  "verification_status": "unverified",
-  "overall_score": 0,
-  "risk_level": "info",
-  "verified_commit": null,
+  "verification_status": "pass",
+  "overall_score": 50,
+  "risk_level": "medium",
+  "verified_commit": "2528dc3ebcc4359da70a15a3a3736c87231e6a71",
   "scan_summary": null,
   "repo_status": "available",
   "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
-  "repo_check_error": null
+  "repo_check_error": null,
+  "scan_date": "2026-03-04T22:26:45Z",
+  "findings_summary": {
+    "scanner_findings": 192,
+    "dangerous_calls": 65,
+    "network_ops": 2,
+    "file_ops": 70,
+    "env_access": 10,
+    "obfuscation": 25,
+    "injection_patterns": 1,
+    "mismatches": 0,
+    "undocumented_capabilities": 0,
+    "supervisor_approved": false,
+    "supervisor_confidence": 95
+  },
+  "scan_report": {
+    "total_findings": 192,
+    "injection_patterns_count": 1,
+    "obfuscation_count": 25,
+    "obfuscation_high_risk_count": 3,
+    "dangerous_calls_count": 65,
+    "severity_counts": {
+      "critical": 1,
+      "high": 109,
+      "medium": 12,
+      "low": 70,
+      "info": 0
+    },
+    "category_counts": {
+      "env_access": 10,
+      "file_ops": 70,
+      "suspicious_urls": 19,
+      "obfuscation": 25,
+      "dangerous_calls": 65,
+      "network_ops": 2,
+      "injection_patterns": 1
+    },
+    "top_findings": [
+      {
+        "rule_id": "regex_js_process_env",
+        "severity": "medium",
+        "category": "env_access",
+        "file": "vite.config.ts",
+        "line": 7
+      },
+      {
+        "rule_id": "regex_py_open",
+        "severity": "low",
+        "category": "file_ops",
+        "file": "website/guide/shortcuts.md",
+        "line": 264
+      },
+      {
+        "rule_id": "regex_localhost_non_std",
+        "severity": "high",
+        "category": "suspicious_urls",
+        "file": "website/guide/ai-providers.md",
+        "line": 71
+      },
+      {
+        "rule_id": "regex_localhost_non_std",
+        "severity": "high",
+        "category": "suspicious_urls",
+        "file": "website/guide/ai-providers.md",
+        "line": 120
+      },
+      {
+        "rule_id": "regex_js_btoa",
+        "severity": "high",
+        "category": "obfuscation",
+        "file": "dev-docs/audit/SUMMARY.md",
+        "line": 47
+      },
+      {
+        "rule_id": "regex_py_exec",
+        "severity": "high",
+        "category": "dangerous_calls",
+        "file": "scripts/check-selection-styles.mjs",
+        "line": 32
+      },
+      {
+        "rule_id": "regex_py_exec",
+        "severity": "high",
+        "category": "dangerous_calls",
+        "file": "scripts/check-selection-styles.mjs",
+        "line": 38
+      },
+      {
+        "rule_id": "regex_py_exec",
+        "severity": "high",
+        "category": "dangerous_calls",
+        "file": "scripts/check-design-tokens.mjs",
+        "line": 61
+      },
+      {
+        "rule_id": "regex_py_exec",
+        "severity": "high",
+        "category": "dangerous_calls",
+        "file": "scripts/extract-menu-ids.ts",
+        "line": 65
+      },
+      {
+        "rule_id": "regex_js_fs_write",
+        "severity": "low",
+        "category": "file_ops",
+        "file": "scripts/extract-menu-ids.ts",
+        "line": 132
+      },
+      {
+        "rule_id": "regex_js_fs_read",
+        "severity": "low",
+        "category": "file_ops",
+        "file": "scripts/extract-menu-ids.ts",
+        "line": 61
+      },
+      {
+        "rule_id": "regex_localhost_non_std",
+        "severity": "high",
+        "category": "suspicious_urls",
+        "file": "src-tauri/tauri.conf.json",
+        "line": 8
+      },
+      {
+        "rule_id": "regex_py_exec",
+        "severity": "high",
+        "category": "dangerous_calls",
+        "file": "vmark-mcp-server/__tests__/mocks/mockBridge.ts",
+        "line": 453
+      },
+      {
+        "rule_id": "regex_js_process_env",
+        "severity": "medium",
+        "category": "env_access",
+        "file": "vmark-mcp-server/src/cli.ts",
+        "line": 117
+      },
+      {
+        "rule_id": "regex_js_process_env",
+        "severity": "medium",
+        "category": "env_access",
+        "file": "vmark-mcp-server/src/cli.ts",
+        "line": 143
+      },
+      {
+        "rule_id": "regex_js_process_env",
+        "severity": "medium",
+        "category": "env_access",
+        "file": "vmark-mcp-server/src/cli.ts",
+        "line": 144
+      },
+      {
+        "rule_id": "regex_js_process_env",
+        "severity": "medium",
+        "category": "env_access",
+        "file": "vmark-mcp-server/src/cli.ts",
+        "line": 183
+      },
+      {
+        "rule_id": "regex_js_process_env",
+        "severity": "medium",
+        "category": "env_access",
+        "file": "vmark-mcp-server/src/cli.ts",
+        "line": 228
+      },
+      {
+        "rule_id": "regex_js_process_env",
+        "severity": "medium",
+        "category": "env_access",
+        "file": "vmark-mcp-server/src/cli.ts",
+        "line": 231
+      },
+      {
+        "rule_id": "regex_js_process_env",
+        "severity": "medium",
+        "category": "env_access",
+        "file": "vmark-mcp-server/src/cli.ts",
+        "line": 238
+      }
+    ],
+    "total_files_scanned": 1443
+  },
+  "verification_level": "full_pipeline",
+  "agent_audit": {
+    "agents_completed": 5,
+    "agents_required": 5,
+    "pipeline_run_at": "2026-03-04T22:26:45Z",
+    "agent_a": {
+      "signed": true,
+      "signed_at": "2026-03-04T22:26:45Z",
+      "comment": "Docs quality 9/10. README present. 12 features, 4 permissions claimed.",
+      "doc_quality_score": 9,
+      "claimed_permissions": [
+        "network access",
+        "system command execution",
+        "file system access",
+        "environment/secret access"
+      ]
+    },
+    "agent_b": {
+      "signed": true,
+      "signed_at": "2026-03-04T22:26:45Z",
+      "comment": "1425 files analyzed. Found: 1 network, 12 file, 0 env, 24 system calls. Primary: typescript.",
+      "files_analyzed": 1425,
+      "capabilities_found": [
+        "imports external dependencies",
+        "performs network operations",
+        "reads/writes files",
+        "executes system commands"
+      ]
+    },
+    "agent_c_star": {
+      "signed": true,
+      "signed_at": "2026-03-04T22:26:45Z",
+      "comment": "192 findings: 1 critical, 109 high, 12 medium, 70 low. Obfuscation detected!. Injection patterns found!.",
+      "total_findings": 192,
+      "severity_counts": {
+        "critical": 1,
+        "high": 109,
+        "medium": 12,
+        "low": 70,
+        "info": 0
+      }
+    },
+    "agent_d": {
+      "signed": true,
+      "signed_at": "2026-03-04T22:26:45Z",
+      "comment": "Score 10. 0 mismatches. Risk: critical. Safety overrides: applied.",
+      "score": 10,
+      "mismatches": 0,
+      "safety_overrides_applied": true
+    },
+    "agent_e": {
+      "signed": true,
+      "signed_at": "2026-03-04T22:26:45Z",
+      "comment": "Rejected. Confidence 95%. Deterministic override: injection patterns detected.",
+      "approved": false,
+      "confidence": 95,
+      "override_reason": "Deterministic override: injection patterns detected."
+    },
+    "manager_summary": "5/5 agents completed. Score: 10/100, Risk: critical. 0 mismatches, 192 scanner findings. Rejected at 95% confidence. Safety overrides triggered.",
+    "auto_clear": {
+      "applied": true,
+      "reason": "Auto-clear Cat 11: incidental (1 inj in 192 findings)",
+      "original_status": "fail",
+      "original_score": 10
+    }
+  }
 }

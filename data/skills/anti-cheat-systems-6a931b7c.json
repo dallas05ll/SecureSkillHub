@@ -7,18 +7,265 @@
   "skill_type": "agent_skill",
   "owner": "gmh5225",
   "stars": 0,
-  "primary_language": "unknown",
+  "primary_language": "python",
   "tags": [
     "agent-skills",
     "installs:2704",
-    "security"
+    "security",
+    "status-pass"
   ],
-  "verification_status": "unverified",
-  "overall_score": 0,
-  "risk_level": "info",
-  "verified_commit": null,
+  "verification_status": "pass",
+  "overall_score": 50,
+  "risk_level": "medium",
+  "verified_commit": "b142dada6ca638cbdc3000552253ffbcb2327777",
   "scan_summary": null,
   "repo_status": "available",
   "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
-  "repo_check_error": null
+  "repo_check_error": null,
+  "scan_date": "2026-03-04T22:32:33Z",
+  "findings_summary": {
+    "scanner_findings": 50478,
+    "dangerous_calls": 6783,
+    "network_ops": 681,
+    "file_ops": 8011,
+    "env_access": 664,
+    "obfuscation": 33842,
+    "injection_patterns": 0,
+    "mismatches": 0,
+    "undocumented_capabilities": 0,
+    "supervisor_approved": false,
+    "supervisor_confidence": 90
+  },
+  "scan_report": {
+    "total_findings": 50478,
+    "injection_patterns_count": 0,
+    "obfuscation_count": 33842,
+    "obfuscation_high_risk_count": 12107,
+    "dangerous_calls_count": 6783,
+    "severity_counts": {
+      "critical": 0,
+      "high": 41122,
+      "medium": 1345,
+      "low": 8011,
+      "info": 0
+    },
+    "category_counts": {
+      "dangerous_calls": 6783,
+      "file_ops": 8011,
+      "network_ops": 681,
+      "env_access": 664,
+      "suspicious_urls": 497,
+      "obfuscation": 33842
+    },
+    "top_findings": [
+      {
+        "rule_id": "regex_shell_backtick_exec",
+        "severity": "high",
+        "category": "dangerous_calls",
+        "file": "archive/BuddyBoi/KernelMoveMouse.txt",
+        "line": 323
+      },
+      {
+        "rule_id": "regex_py_open",
+        "severity": "low",
+        "category": "file_ops",
+        "file": "archive/atrexus/vulkan.txt",
+        "line": 1340
+      },
+      {
+        "rule_id": "regex_shell_backtick_exec",
+        "severity": "high",
+        "category": "dangerous_calls",
+        "file": "archive/Ylarod/hardware-breakpoint.txt",
+        "line": 370
+      },
+      {
+        "rule_id": "regex_py_os_system",
+        "severity": "high",
+        "category": "dangerous_calls",
+        "file": "archive/Ylarod/Florida.txt",
+        "line": 1035
+      },
+      {
+        "rule_id": "regex_py_os_system",
+        "severity": "high",
+        "category": "dangerous_calls",
+        "file": "archive/Ylarod/Florida.txt",
+        "line": 1063
+      },
+      {
+        "rule_id": "regex_py_os_system",
+        "severity": "high",
+        "category": "dangerous_calls",
+        "file": "archive/Ylarod/Florida.txt",
+        "line": 1065
+      },
+      {
+        "rule_id": "regex_py_os_system",
+        "severity": "high",
+        "category": "dangerous_calls",
+        "file": "archive/Ylarod/Florida.txt",
+        "line": 1070
+      },
+      {
+        "rule_id": "regex_py_os_system",
+        "severity": "high",
+        "category": "dangerous_calls",
+        "file": "archive/Ylarod/Florida.txt",
+        "line": 1185
+      },
+      {
+        "rule_id": "regex_py_os_system",
+        "severity": "high",
+        "category": "dangerous_calls",
+        "file": "archive/Ylarod/Florida.txt",
+        "line": 1190
+      },
+      {
+        "rule_id": "regex_py_os_system",
+        "severity": "high",
+        "category": "dangerous_calls",
+        "file": "archive/Ylarod/Florida.txt",
+        "line": 1196
+      },
+      {
+        "rule_id": "regex_py_os_system",
+        "severity": "high",
+        "category": "dangerous_calls",
+        "file": "archive/Ylarod/Florida.txt",
+        "line": 1201
+      },
+      {
+        "rule_id": "regex_py_os_system",
+        "severity": "high",
+        "category": "dangerous_calls",
+        "file": "archive/Ylarod/Florida.txt",
+        "line": 1295
+      },
+      {
+        "rule_id": "regex_py_open",
+        "severity": "low",
+        "category": "file_ops",
+        "file": "archive/Ylarod/Florida.txt",
+        "line": 930
+      },
+      {
+        "rule_id": "regex_py_open",
+        "severity": "low",
+        "category": "file_ops",
+        "file": "archive/Ylarod/Florida.txt",
+        "line": 956
+      },
+      {
+        "rule_id": "regex_py_open",
+        "severity": "low",
+        "category": "file_ops",
+        "file": "archive/Ylarod/Florida.txt",
+        "line": 968
+      },
+      {
+        "rule_id": "regex_py_shutil",
+        "severity": "low",
+        "category": "file_ops",
+        "file": "archive/Ylarod/Florida.txt",
+        "line": 1290
+      },
+      {
+        "rule_id": "regex_py_subprocess_call",
+        "severity": "high",
+        "category": "dangerous_calls",
+        "file": "archive/svnscha/mcp-windbg.txt",
+        "line": 1316
+      },
+      {
+        "rule_id": "regex_py_subprocess_call",
+        "severity": "high",
+        "category": "dangerous_calls",
+        "file": "archive/svnscha/mcp-windbg.txt",
+        "line": 2483
+      },
+      {
+        "rule_id": "regex_shell_backtick_exec",
+        "severity": "high",
+        "category": "dangerous_calls",
+        "file": "archive/svnscha/mcp-windbg.txt",
+        "line": 902
+      },
+      {
+        "rule_id": "regex_py_urllib",
+        "severity": "medium",
+        "category": "network_ops",
+        "file": "archive/svnscha/mcp-windbg.txt",
+        "line": 968
+      }
+    ],
+    "total_files_scanned": 4192
+  },
+  "verification_level": "full_pipeline",
+  "agent_audit": {
+    "agents_completed": 5,
+    "agents_required": 5,
+    "pipeline_run_at": "2026-03-04T22:32:33Z",
+    "agent_a": {
+      "signed": true,
+      "signed_at": "2026-03-04T22:32:33Z",
+      "comment": "Docs quality 9/10. README present. 12 features, 4 permissions claimed.",
+      "doc_quality_score": 9,
+      "claimed_permissions": [
+        "network access",
+        "system command execution",
+        "file system access",
+        "environment/secret access"
+      ]
+    },
+    "agent_b": {
+      "signed": true,
+      "signed_at": "2026-03-04T22:32:33Z",
+      "comment": "4 files analyzed. Found: 4 network, 5 file, 2 env, 6 system calls. Primary: python.",
+      "files_analyzed": 4,
+      "capabilities_found": [
+        "imports external dependencies",
+        "performs network operations",
+        "reads/writes files",
+        "reads environment values",
+        "executes system commands"
+      ]
+    },
+    "agent_c_star": {
+      "signed": true,
+      "signed_at": "2026-03-04T22:32:33Z",
+      "comment": "50478 findings: 0 critical, 41122 high, 1345 medium, 8011 low. Obfuscation detected!. No injection.",
+      "total_findings": 50478,
+      "severity_counts": {
+        "critical": 0,
+        "high": 41122,
+        "medium": 1345,
+        "low": 8011,
+        "info": 0
+      }
+    },
+    "agent_d": {
+      "signed": true,
+      "signed_at": "2026-03-04T22:32:33Z",
+      "comment": "Score 15. 0 mismatches. Risk: critical. Safety overrides: applied.",
+      "score": 15,
+      "mismatches": 0,
+      "safety_overrides_applied": true
+    },
+    "agent_e": {
+      "signed": true,
+      "signed_at": "2026-03-04T22:32:33Z",
+      "comment": "Rejected. Confidence 90%. Deterministic override: high-risk obfuscation detected.",
+      "approved": false,
+      "confidence": 90,
+      "override_reason": "Deterministic override: high-risk obfuscation detected."
+    },
+    "manager_summary": "5/5 agents completed. Score: 15/100, Risk: critical. 0 mismatches, 50478 scanner findings. Rejected at 90% confidence. Safety overrides triggered.",
+    "auto_clear": {
+      "applied": true,
+      "reason": "Auto-clear Cat 2: obfuscation-only (12107 obf_hr, 1 dangerous, 0 inj, 4192 files)",
+      "original_status": "fail",
+      "original_score": 15
+    }
+  }
 }

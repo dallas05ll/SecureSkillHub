@@ -11,14 +11,260 @@
   "tags": [
     "agent-skills",
     "installs:23180",
-    "prod"
+    "prod",
+    "status-pass"
   ],
-  "verification_status": "unverified",
-  "overall_score": 0,
-  "risk_level": "info",
-  "verified_commit": null,
+  "verification_status": "pass",
+  "overall_score": 55,
+  "risk_level": "medium",
+  "verified_commit": "2f22928c39cdc548754fbf2f2bb76b2c00103f72",
   "scan_summary": null,
   "repo_status": "available",
   "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
-  "repo_check_error": null
+  "repo_check_error": null,
+  "scan_date": "2026-03-04T22:28:45Z",
+  "findings_summary": {
+    "scanner_findings": 80,
+    "dangerous_calls": 41,
+    "network_ops": 4,
+    "file_ops": 28,
+    "env_access": 1,
+    "obfuscation": 2,
+    "injection_patterns": 0,
+    "mismatches": 0,
+    "undocumented_capabilities": 0,
+    "supervisor_approved": false,
+    "supervisor_confidence": 55
+  },
+  "scan_report": {
+    "total_findings": 80,
+    "injection_patterns_count": 0,
+    "obfuscation_count": 2,
+    "obfuscation_high_risk_count": 0,
+    "dangerous_calls_count": 41,
+    "severity_counts": {
+      "critical": 0,
+      "high": 47,
+      "medium": 5,
+      "low": 28,
+      "info": 0
+    },
+    "category_counts": {
+      "dangerous_calls": 41,
+      "network_ops": 4,
+      "file_ops": 28,
+      "obfuscation": 2,
+      "env_access": 1,
+      "suspicious_urls": 4
+    },
+    "top_findings": [
+      {
+        "rule_id": "regex_shell_backtick_exec",
+        "severity": "high",
+        "category": "dangerous_calls",
+        "file": "eng/pipelines/ci-official-release.yml",
+        "line": 124
+      },
+      {
+        "rule_id": "regex_shell_backtick_exec",
+        "severity": "high",
+        "category": "dangerous_calls",
+        "file": "eng/pipelines/ci-official-release.yml",
+        "line": 211
+      },
+      {
+        "rule_id": "regex_shell_backtick_exec",
+        "severity": "high",
+        "category": "dangerous_calls",
+        "file": "eng/pipelines/maui-release-internal.yml",
+        "line": 124
+      },
+      {
+        "rule_id": "regex_shell_backtick_exec",
+        "severity": "high",
+        "category": "dangerous_calls",
+        "file": "eng/pipelines/maui-release-internal.yml",
+        "line": 211
+      },
+      {
+        "rule_id": "regex_shell_backtick_exec",
+        "severity": "high",
+        "category": "dangerous_calls",
+        "file": "eng/common/template-guidance.md",
+        "line": 23
+      },
+      {
+        "rule_id": "regex_shell_backtick_exec",
+        "severity": "high",
+        "category": "dangerous_calls",
+        "file": "eng/common/template-guidance.md",
+        "line": 26
+      },
+      {
+        "rule_id": "regex_shell_backtick_exec",
+        "severity": "high",
+        "category": "dangerous_calls",
+        "file": "eng/common/tools.sh",
+        "line": 253
+      },
+      {
+        "rule_id": "regex_shell_backtick_exec",
+        "severity": "high",
+        "category": "dangerous_calls",
+        "file": "eng/common/tools.sh",
+        "line": 435
+      },
+      {
+        "rule_id": "regex_py_subprocess_call",
+        "severity": "high",
+        "category": "dangerous_calls",
+        "file": "eng/common/cross/install-debs.py",
+        "line": 236
+      },
+      {
+        "rule_id": "regex_py_subprocess_call",
+        "severity": "high",
+        "category": "dangerous_calls",
+        "file": "eng/common/cross/install-debs.py",
+        "line": 250
+      },
+      {
+        "rule_id": "regex_py_aiohttp",
+        "severity": "medium",
+        "category": "network_ops",
+        "file": "eng/common/cross/install-debs.py",
+        "line": 48
+      },
+      {
+        "rule_id": "regex_py_aiohttp",
+        "severity": "medium",
+        "category": "network_ops",
+        "file": "eng/common/cross/install-debs.py",
+        "line": 63
+      },
+      {
+        "rule_id": "regex_py_open",
+        "severity": "low",
+        "category": "file_ops",
+        "file": "eng/common/cross/install-debs.py",
+        "line": 26
+      },
+      {
+        "rule_id": "regex_py_open",
+        "severity": "low",
+        "category": "file_ops",
+        "file": "eng/common/cross/install-debs.py",
+        "line": 261
+      },
+      {
+        "rule_id": "regex_py_open",
+        "severity": "low",
+        "category": "file_ops",
+        "file": "eng/common/cross/install-debs.py",
+        "line": 270
+      },
+      {
+        "rule_id": "regex_py_shutil",
+        "severity": "low",
+        "category": "file_ops",
+        "file": "eng/common/cross/install-debs.py",
+        "line": 288
+      },
+      {
+        "rule_id": "regex_py_shutil",
+        "severity": "low",
+        "category": "file_ops",
+        "file": "eng/common/cross/install-debs.py",
+        "line": 290
+      },
+      {
+        "rule_id": "regex_py_shutil",
+        "severity": "low",
+        "category": "file_ops",
+        "file": "eng/common/cross/install-debs.py",
+        "line": 292
+      },
+      {
+        "rule_id": "regex_py_os_remove",
+        "severity": "low",
+        "category": "file_ops",
+        "file": "eng/common/cross/install-debs.py",
+        "line": 44
+      },
+      {
+        "rule_id": "regex_py_os_remove",
+        "severity": "low",
+        "category": "file_ops",
+        "file": "eng/common/cross/install-debs.py",
+        "line": 233
+      }
+    ],
+    "total_files_scanned": 508
+  },
+  "verification_level": "full_pipeline",
+  "agent_audit": {
+    "agents_completed": 5,
+    "agents_required": 5,
+    "pipeline_run_at": "2026-03-04T22:28:45Z",
+    "agent_a": {
+      "signed": true,
+      "signed_at": "2026-03-04T22:28:45Z",
+      "comment": "Docs quality 9/10. README present. 12 features, 4 permissions claimed.",
+      "doc_quality_score": 9,
+      "claimed_permissions": [
+        "network access",
+        "system command execution",
+        "file system access",
+        "environment/secret access"
+      ]
+    },
+    "agent_b": {
+      "signed": true,
+      "signed_at": "2026-03-04T22:28:45Z",
+      "comment": "283 files analyzed. Found: 2 network, 4 file, 0 env, 4 system calls. Primary: unknown.",
+      "files_analyzed": 283,
+      "capabilities_found": [
+        "imports external dependencies",
+        "performs network operations",
+        "reads/writes files",
+        "executes system commands"
+      ]
+    },
+    "agent_c_star": {
+      "signed": true,
+      "signed_at": "2026-03-04T22:28:45Z",
+      "comment": "80 findings: 0 critical, 47 high, 5 medium, 28 low. Obfuscation detected!. No injection.",
+      "total_findings": 80,
+      "severity_counts": {
+        "critical": 0,
+        "high": 47,
+        "medium": 5,
+        "low": 28,
+        "info": 0
+      }
+    },
+    "agent_d": {
+      "signed": true,
+      "signed_at": "2026-03-04T22:28:45Z",
+      "comment": "Score 55. 0 mismatches. Risk: medium. Safety overrides: none triggered.",
+      "score": 55,
+      "mismatches": 0,
+      "safety_overrides_applied": false
+    },
+    "agent_e": {
+      "signed": true,
+      "signed_at": "2026-03-04T22:28:45Z",
+      "comment": "Rejected. Confidence 55%. No overrides.",
+      "approved": false,
+      "confidence": 55,
+      "override_reason": null
+    },
+    "manager_summary": "5/5 agents completed. Score: 55/100, Risk: medium. 0 mismatches, 80 scanner findings. Rejected at 55% confidence. No safety overrides.",
+    "auto_clear": {
+      "applied": true,
+      "reason": "Auto-clear Cat 1: clean profile (0 inj, 0 obf_hr, score=55)",
+      "original_status": "manual_review",
+      "original_score": 55
+    }
+  }
 }

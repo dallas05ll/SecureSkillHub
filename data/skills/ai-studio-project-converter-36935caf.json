@@ -7,7 +7,7 @@
   "skill_type": "agent_skill",
   "owner": "lintendo",
   "stars": 0,
-  "primary_language": "unknown",
+  "primary_language": "typescript",
   "tags": [
     "agent-skills",
     "installs:19",
@@ -16,14 +16,261 @@
     "dev-web-frontend",
     "dev-web-frontend-react",
     "util",
-    "util-map"
+    "util-map",
+    "status-pass"
   ],
-  "verification_status": "unverified",
-  "overall_score": 0,
-  "risk_level": "info",
-  "verified_commit": null,
+  "verification_status": "pass",
+  "overall_score": 60,
+  "risk_level": "medium",
+  "verified_commit": "f7e63f2e674be57147e8f0c8e8e52d2c0fdcdb91",
   "scan_summary": null,
   "repo_status": "available",
   "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
-  "repo_check_error": null
+  "repo_check_error": null,
+  "scan_date": "2026-03-04T22:34:43Z",
+  "findings_summary": {
+    "scanner_findings": 309,
+    "dangerous_calls": 26,
+    "network_ops": 33,
+    "file_ops": 204,
+    "env_access": 11,
+    "obfuscation": 26,
+    "injection_patterns": 0,
+    "mismatches": 0,
+    "undocumented_capabilities": 0,
+    "supervisor_approved": false,
+    "supervisor_confidence": 60
+  },
+  "scan_report": {
+    "total_findings": 309,
+    "injection_patterns_count": 0,
+    "obfuscation_count": 26,
+    "obfuscation_high_risk_count": 0,
+    "dangerous_calls_count": 26,
+    "severity_counts": {
+      "critical": 0,
+      "high": 61,
+      "medium": 44,
+      "low": 204,
+      "info": 0
+    },
+    "category_counts": {
+      "suspicious_urls": 9,
+      "dangerous_calls": 26,
+      "file_ops": 204,
+      "env_access": 11,
+      "obfuscation": 26,
+      "network_ops": 33
+    },
+    "top_findings": [
+      {
+        "rule_id": "regex_localhost_non_std",
+        "severity": "high",
+        "category": "suspicious_urls",
+        "file": "README.md",
+        "line": 81
+      },
+      {
+        "rule_id": "regex_py_exec",
+        "severity": "high",
+        "category": "dangerous_calls",
+        "file": "vite.config.ts",
+        "line": 467
+      },
+      {
+        "rule_id": "regex_js_fs_write",
+        "severity": "low",
+        "category": "file_ops",
+        "file": "vite.config.ts",
+        "line": 211
+      },
+      {
+        "rule_id": "regex_js_fs_write",
+        "severity": "low",
+        "category": "file_ops",
+        "file": "vite.config.ts",
+        "line": 939
+      },
+      {
+        "rule_id": "regex_js_fs_write",
+        "severity": "low",
+        "category": "file_ops",
+        "file": "vite.config.ts",
+        "line": 1078
+      },
+      {
+        "rule_id": "regex_js_fs_write",
+        "severity": "low",
+        "category": "file_ops",
+        "file": "vite.config.ts",
+        "line": 1211
+      },
+      {
+        "rule_id": "regex_js_fs_read",
+        "severity": "low",
+        "category": "file_ops",
+        "file": "vite.config.ts",
+        "line": 81
+      },
+      {
+        "rule_id": "regex_js_fs_read",
+        "severity": "low",
+        "category": "file_ops",
+        "file": "vite.config.ts",
+        "line": 196
+      },
+      {
+        "rule_id": "regex_js_fs_read",
+        "severity": "low",
+        "category": "file_ops",
+        "file": "vite.config.ts",
+        "line": 248
+      },
+      {
+        "rule_id": "regex_js_fs_read",
+        "severity": "low",
+        "category": "file_ops",
+        "file": "vite.config.ts",
+        "line": 290
+      },
+      {
+        "rule_id": "regex_js_fs_read",
+        "severity": "low",
+        "category": "file_ops",
+        "file": "vite.config.ts",
+        "line": 303
+      },
+      {
+        "rule_id": "regex_js_fs_read",
+        "severity": "low",
+        "category": "file_ops",
+        "file": "vite.config.ts",
+        "line": 327
+      },
+      {
+        "rule_id": "regex_js_fs_read",
+        "severity": "low",
+        "category": "file_ops",
+        "file": "vite.config.ts",
+        "line": 346
+      },
+      {
+        "rule_id": "regex_js_fs_read",
+        "severity": "low",
+        "category": "file_ops",
+        "file": "vite.config.ts",
+        "line": 363
+      },
+      {
+        "rule_id": "regex_js_fs_read",
+        "severity": "low",
+        "category": "file_ops",
+        "file": "vite.config.ts",
+        "line": 373
+      },
+      {
+        "rule_id": "regex_js_fs_read",
+        "severity": "low",
+        "category": "file_ops",
+        "file": "vite.config.ts",
+        "line": 384
+      },
+      {
+        "rule_id": "regex_js_fs_read",
+        "severity": "low",
+        "category": "file_ops",
+        "file": "vite.config.ts",
+        "line": 409
+      },
+      {
+        "rule_id": "regex_js_fs_read",
+        "severity": "low",
+        "category": "file_ops",
+        "file": "vite.config.ts",
+        "line": 456
+      },
+      {
+        "rule_id": "regex_js_fs_read",
+        "severity": "low",
+        "category": "file_ops",
+        "file": "vite.config.ts",
+        "line": 512
+      },
+      {
+        "rule_id": "regex_js_fs_read",
+        "severity": "low",
+        "category": "file_ops",
+        "file": "vite.config.ts",
+        "line": 718
+      }
+    ],
+    "total_files_scanned": 143
+  },
+  "verification_level": "full_pipeline",
+  "agent_audit": {
+    "agents_completed": 5,
+    "agents_required": 5,
+    "pipeline_run_at": "2026-03-04T22:34:43Z",
+    "agent_a": {
+      "signed": true,
+      "signed_at": "2026-03-04T22:34:43Z",
+      "comment": "Docs quality 10/10. README present. 12 features, 4 permissions claimed.",
+      "doc_quality_score": 10,
+      "claimed_permissions": [
+        "network access",
+        "system command execution",
+        "file system access",
+        "environment/secret access"
+      ]
+    },
+    "agent_b": {
+      "signed": true,
+      "signed_at": "2026-03-04T22:34:43Z",
+      "comment": "96 files analyzed. Found: 51 network, 13 file, 9 env, 19 system calls. Primary: typescript.",
+      "files_analyzed": 96,
+      "capabilities_found": [
+        "imports external dependencies",
+        "performs network operations",
+        "reads/writes files",
+        "reads environment values",
+        "executes system commands"
+      ]
+    },
+    "agent_c_star": {
+      "signed": true,
+      "signed_at": "2026-03-04T22:34:43Z",
+      "comment": "309 findings: 0 critical, 61 high, 44 medium, 204 low. Obfuscation detected!. No injection.",
+      "total_findings": 309,
+      "severity_counts": {
+        "critical": 0,
+        "high": 61,
+        "medium": 44,
+        "low": 204,
+        "info": 0
+      }
+    },
+    "agent_d": {
+      "signed": true,
+      "signed_at": "2026-03-04T22:34:43Z",
+      "comment": "Score 60. 0 mismatches. Risk: medium. Safety overrides: none triggered.",
+      "score": 60,
+      "mismatches": 0,
+      "safety_overrides_applied": false
+    },
+    "agent_e": {
+      "signed": true,
+      "signed_at": "2026-03-04T22:34:43Z",
+      "comment": "Rejected. Confidence 60%. No overrides.",
+      "approved": false,
+      "confidence": 60,
+      "override_reason": null
+    },
+    "manager_summary": "5/5 agents completed. Score: 60/100, Risk: medium. 0 mismatches, 309 scanner findings. Rejected at 60% confidence. No safety overrides.",
+    "auto_clear": {
+      "applied": true,
+      "reason": "Auto-clear Cat 1: clean profile (0 inj, 0 obf_hr, score=60)",
+      "original_status": "manual_review",
+      "original_score": 60
+    }
+  }
 }
