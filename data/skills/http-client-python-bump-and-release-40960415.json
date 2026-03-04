@@ -1,0 +1,24 @@
+{
+  "id": "http-client-python-bump-and-release-40960415",
+  "name": "http-client-python-bump-and-release",
+  "description": "Create a PR to bump TypeSpec/Azure Tools dependencies, update peer dependencies, or release a new version of the http-client-python package.",
+  "repo_url": "https://github.com/microsoft/typespec",
+  "source_hub": "skillsmp",
+  "skill_type": "agent_skill",
+  "owner": "microsoft",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "agent-skills",
+    "dev-devops",
+    "installs:5592"
+  ],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null,
+  "repo_status": "available",
+  "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
+  "repo_check_error": null
+}

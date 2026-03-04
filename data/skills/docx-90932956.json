@@ -1,0 +1,24 @@
+{
+  "id": "docx-90932956",
+  "name": "docx",
+  "description": "Comprehensive document creation, editing, and analysis with support for tracked changes, comments, formatting preservation, and text extraction. When Claude needs to work with professional documents (.docx files) for: (1) Creating new documents, (2) Modifying or editing content, (3) Working with tracked changes, (4) Adding comments, or any other document tasks",
+  "repo_url": "https://github.com/tfriedel/claude-office-skills",
+  "source_hub": "skillsmp",
+  "skill_type": "agent_skill",
+  "owner": "tfriedel",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "agent-skills",
+    "utilities",
+    "installs:267"
+  ],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null,
+  "repo_status": "available",
+  "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
+  "repo_check_error": null
+}

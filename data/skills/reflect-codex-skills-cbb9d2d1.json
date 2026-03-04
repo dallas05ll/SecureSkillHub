@@ -1,0 +1,24 @@
+{
+  "id": "reflect-codex-skills-cbb9d2d1",
+  "name": "reflect-codex-skills",
+  "description": "Generate reflections for past Codex session histories using the Reflection CLI. Use when asked to summarize or reflect on previous Codex conversations, list projects/sessions, filter by date or session id, or refresh cached reflections from ~/.codex/sessions.",
+  "repo_url": "https://github.com/olliepro/codex-reflect-skill",
+  "source_hub": "skillsmp",
+  "skill_type": "agent_skill",
+  "owner": "olliepro",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "agent-skills",
+    "utilities",
+    "installs:16"
+  ],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null,
+  "repo_status": "available",
+  "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
+  "repo_check_error": null
+}

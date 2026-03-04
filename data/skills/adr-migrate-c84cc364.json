@@ -1,0 +1,24 @@
+{
+  "id": "adr-migrate-c84cc364",
+  "name": "adr-migrate",
+  "description": "Migrate existing ADRs to YAML frontmatter format. Scans docs/decisions/ for ADRs without frontmatter, infers status from body text, shows dry-run for approval. Trigger: /adr-migrate",
+  "repo_url": "https://github.com/berlysia/dotfiles",
+  "source_hub": "skillsmp",
+  "skill_type": "agent_skill",
+  "owner": "berlysia",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "agent-skills",
+    "utilities",
+    "installs:9"
+  ],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null,
+  "repo_status": "available",
+  "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
+  "repo_check_error": null
+}

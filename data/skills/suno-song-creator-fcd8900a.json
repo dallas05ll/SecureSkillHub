@@ -1,0 +1,24 @@
+{
+  "id": "suno-song-creator-fcd8900a",
+  "name": "suno-song-creator",
+  "description": "This skill should be used when the user asks to \"create a Suno prompt\", \"write a Suno song\", \"generate music with Suno\", \"help me with Suno\", \"make a song prompt\", \"create lyrics for Suno\", \"build a music prompt\", or mentions Suno AI music generation. Provides comprehensive guidance for creating professional Suno prompts using advanced prompting strategies, structured formatting within 1000 character limit (NO blank lines between sections), parameter optimization, genre-specific techniques, i...",
+  "repo_url": "https://github.com/nwp/suno-song-creator-plugin",
+  "source_hub": "skillsmp",
+  "skill_type": "agent_skill",
+  "owner": "nwp",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "agent-skills",
+    "utilities",
+    "installs:13"
+  ],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null,
+  "repo_status": "available",
+  "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
+  "repo_check_error": null
+}

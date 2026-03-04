@@ -41,6 +41,18 @@ _SCANNABLE_EXTENSIONS: frozenset[str] = frozenset({
 # Maximum file size we will read (2 MB) to avoid memory issues
 _MAX_FILE_BYTES: int = 2 * 1024 * 1024
 
+# Cat 3: Test directory names — injection patterns in test fixtures are
+# security test payloads, not attacks. (compliant-llm 153 inj FP evidence).
+_TEST_DIR_NAMES: frozenset[str] = frozenset({
+    "tests", "test", "fixtures", "spec", "__tests__",
+    "test_data", "testdata", "testing",
+})
+
+
+def _is_test_path(rel_path: Path) -> bool:
+    """Return True if path is inside a test/fixture directory."""
+    return any(part in _TEST_DIR_NAMES for part in rel_path.parts)
+
 # Mapping from pattern group names to ScannerOutput count field names
 _CATEGORY_TO_COUNT_FIELD: dict[str, str] = {
     "dangerous_calls": "dangerous_calls_count",
@@ -289,6 +301,25 @@ class StaticScanner:
                 # contain base64, unicode escapes, etc. that aren't obfuscation.
                 if category == "obfuscation" and file_path.suffix.lower() in (".json",):
                     continue
+                # Cat 8: Skip obfuscation on minified JS — String.fromCharCode,
+                # hex escapes in minified code are normal, not malicious obfuscation.
+                # Evidence: 287 pass skills have obfuscation > 0, primarily from minified JS.
+                if category == "obfuscation" and (
+                    file_path.name.endswith(".min.js")
+                    or file_path.name.endswith(".min.cjs")
+                    or file_path.name.endswith(".min.mjs")
+                    or file_path.name in {"bundle.js", "bundle.cjs", "bundle.mjs"}
+                ):
+                    continue
+                # Skip injection pattern checks on .md/.rst/.txt docs — security
+                # docs, READMEs, and changelogs mention attack patterns as examples,
+                # not as actual injection vectors. (claude-skills, awesome-hacking FP 2026-03-03).
+                if category == "injection_patterns" and file_path.suffix.lower() in (".md", ".rst", ".txt"):
+                    continue
+                # Cat 3: Skip injection in test directories — security test libraries
+                # store attack payloads as test fixtures. (compliant-llm 153 inj FP).
+                if category == "injection_patterns" and _is_test_path(rel_path):
+                    continue
                 for entry in patterns:
                     for match in entry.pattern.finditer(content):
                         line_number = content[:match.start()].count("\n") + 1
@@ -313,11 +344,17 @@ class StaticScanner:
     def _iter_files(self):
         """Yield all scannable file paths under the target directory."""
         for root, dirs, files in os.walk(self._target_dir):
-            # Skip hidden directories and common non-code directories
+            # Skip hidden directories and common non-code directories.
+            # Vendor dirs (Cat 4) contain third-party code — not the
+            # author's responsibility and generate thousands of FPs.
             dirs[:] = [
                 d for d in dirs
                 if not d.startswith(".")
-                and d not in {"node_modules", "__pycache__", "venv", ".venv", "dist", "build"}
+                and d not in {
+                    "node_modules", "__pycache__", "venv", ".venv",
+                    "dist", "build",
+                    "vendor",       # Cat 4: Go vendor, Ruby gems
+                }
             ]
             for filename in files:
                 fp = Path(root) / filename

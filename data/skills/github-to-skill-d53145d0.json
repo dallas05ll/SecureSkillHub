@@ -1,0 +1,24 @@
+{
+  "id": "github-to-skill-d53145d0",
+  "name": "github-to-skill",
+  "description": "Search GitHub repositories and generate Claude Skills from them. Use this skill when users want to create a new skill based on an existing GitHub repository, need to find high-quality libraries for skill development, or want to transform a GitHub project into a reusable Claude capability. Supports repository search, quality filtering, and skill template generation.",
+  "repo_url": "https://github.com/adongwanai/adong-skills",
+  "source_hub": "skillsmp",
+  "skill_type": "agent_skill",
+  "owner": "adongwanai",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "agent-skills",
+    "utilities",
+    "installs:11"
+  ],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null,
+  "repo_status": "available",
+  "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
+  "repo_check_error": null
+}

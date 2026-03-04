@@ -1,0 +1,24 @@
+{
+  "id": "query-builder-cc822a46",
+  "name": "query-builder",
+  "description": "Convert natural language questions into SQL queries. Activates when users ask data questions in plain English like \"show me users who signed up last week\" or \"find orders over $100\".",
+  "repo_url": "https://github.com/clidey/whodb",
+  "source_hub": "skillsmp",
+  "skill_type": "agent_skill",
+  "owner": "clidey",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "agent-skills",
+    "data-db",
+    "installs:4585"
+  ],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null,
+  "repo_status": "available",
+  "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
+  "repo_check_error": null
+}

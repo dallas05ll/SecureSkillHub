@@ -1,18 +1,10 @@
 {
   "tag_path": "data-db-vector",
   "label": "General Vector DB Package",
-  "description": "Top 10 verified vector db skills, auto-curated by GitHub stars and security score.",
+  "description": "Top 2 verified vector db skills, auto-curated by GitHub stars and security score.",
   "skill_ids": [
     "skill-seekers-doc-converter-dcbed0f4",
-    "vectorcode-17b77894",
-    "memsearch-02067fa8",
-    "agentchat-1cdba4ea",
-    "solon-ai-6211b59e",
-    "rust-docs-mcp-server-79e4e38a",
-    "mcp-server-milvus-8e15b5bd",
-    "mcp-server-weaviate-f4747e86",
-    "mcp-pinecone-6a2e34b9",
-    "vectorize-badcde77"
+    "mcp-server-milvus-8e15b5bd"
   ],
   "skills": [
     {
@@ -21,77 +13,12 @@
       "description": "Universal data layer for AI systems that converts documentation websites, GitHub repositories, PDFs, and local codebases into structured knowledge assets for Claude, Gemini, OpenAI, RAG pipelines (Lan",
       "repo_url": "https://github.com/yusufkaraaslan/Skill_Seekers",
       "stars": 9849,
-      "overall_score": 82,
+      "overall_score": 100,
       "verification_status": "pass",
-      "risk_level": "low",
+      "risk_level": "medium",
       "primary_language": "Python",
       "install_url": "https://github.com/yusufkaraaslan/Skill_Seekers",
       "skill_type": "agent_skill"
-    },
-    {
-      "id": "vectorcode-17b77894",
-      "name": "VectorCode",
-      "description": "A code repository indexing tool to supercharge your LLM experience.",
-      "repo_url": "https://github.com/Davidyz/VectorCode",
-      "stars": 808,
-      "overall_score": 85,
-      "verification_status": "pass",
-      "risk_level": "info",
-      "primary_language": "unknown",
-      "install_url": "https://github.com/Davidyz/VectorCode",
-      "skill_type": "unknown"
-    },
-    {
-      "id": "memsearch-02067fa8",
-      "name": "memsearch",
-      "description": "A Markdown-first semantic memory library for AI agents backed by Milvus/Zilliz vector search. Ships a Claude Code plugin with hooks for automatic session memory capture and a memory-recall SKILL.md. P",
-      "repo_url": "https://github.com/zilliztech/memsearch",
-      "stars": 607,
-      "overall_score": 80,
-      "verification_status": "pass",
-      "risk_level": "low",
-      "primary_language": "Python",
-      "install_url": "https://github.com/zilliztech/memsearch",
-      "skill_type": "agent_skill"
-    },
-    {
-      "id": "agentchat-1cdba4ea",
-      "name": "AgentChat",
-      "description": "AgentChat \u662f\u4e00\u4e2a\u4e0eAgent\u4ea4\u6d41\u7684\u5e73\u53f0\uff0c\u5305\u542b\u9ed8\u8ba4Agent\uff0c\u5e76\u652f\u6301\u81ea\u5b9a\u4e49Agent\uff0c\u53ef\u4ee5\u5b9e\u73b0\u591a\u8f6e\u95ee\u7b54\u4f7fAgent\u5e2e\u52a9\u7528\u6237\u60f3\u5b9e\u73b0\u7684\u529f\u80fd\u3002\u8be5\u9879\u76ee\u6280\u672f\u6808\u5305\u62ecLLM\u3001LangChain\u3001Function call\u3001ReAct\u3001MCP\u3001Milvus\u3001ElasticSearch\u3001RAG\u3001FastAPI",
-      "repo_url": "https://github.com/Shy2593666979/AgentChat",
-      "stars": 363,
-      "overall_score": 85,
-      "verification_status": "pass",
-      "risk_level": "info",
-      "primary_language": "unknown",
-      "install_url": "https://github.com/Shy2593666979/AgentChat",
-      "skill_type": "unknown"
-    },
-    {
-      "id": "solon-ai-6211b59e",
-      "name": "solon-ai",
-      "description": "Java AI (agent) full scenario application development framework (LLM, Function Call, RAG, Embedding, Reranking, Flow, MCP Server, Mcp Client). Compatible with java8 ~ java24.",
-      "repo_url": "https://github.com/opensolon/solon-ai",
-      "stars": 305,
-      "overall_score": 85,
-      "verification_status": "pass",
-      "risk_level": "info",
-      "primary_language": "unknown",
-      "install_url": "https://github.com/opensolon/solon-ai",
-      "skill_type": "unknown"
-    },
-    {
-      "id": "rust-docs-mcp-server-79e4e38a",
-      "name": "rust-docs-mcp-server",
-      "description": "\ud83e\udd80 Prevents outdated Rust code suggestions from AI assistants. This MCP server fetches current crate docs, uses embeddings/LLMs, and provides accurate context via a tool call.",
-      "repo_url": "https://github.com/Govcraft/rust-docs-mcp-server",
-      "stars": 256,
-      "overall_score": 85,
-      "verification_status": "pass",
-      "risk_level": "info",
-      "primary_language": "unknown",
-      "install_url": "https://github.com/Govcraft/rust-docs-mcp-server",
-      "skill_type": "unknown"
     },
     {
       "id": "mcp-server-milvus-8e15b5bd",
@@ -100,56 +27,17 @@
       "repo_url": "https://github.com/zilliztech/mcp-server-milvus",
       "stars": 215,
       "overall_score": 100,
-      "verification_status": "manual_review",
+      "verification_status": "pass",
       "risk_level": "high",
       "primary_language": "unknown",
       "install_url": "https://github.com/zilliztech/mcp-server-milvus",
       "skill_type": "unknown"
-    },
-    {
-      "id": "mcp-server-weaviate-f4747e86",
-      "name": "mcp-server-weaviate",
-      "description": "MCP (Model Context Protocol) server for Weaviate",
-      "repo_url": "https://github.com/weaviate/mcp-server-weaviate",
-      "stars": 160,
-      "overall_score": 85,
-      "verification_status": "pass",
-      "risk_level": "info",
-      "primary_language": "unknown",
-      "install_url": "https://github.com/weaviate/mcp-server-weaviate",
-      "skill_type": "unknown"
-    },
-    {
-      "id": "mcp-pinecone-6a2e34b9",
-      "name": "mcp-pinecone",
-      "description": "Model Context Protocol server to allow for reading and writing from Pinecone. Rudimentary RAG",
-      "repo_url": "https://github.com/sirmews/mcp-pinecone",
-      "stars": 148,
-      "overall_score": 85,
-      "verification_status": "pass",
-      "risk_level": "info",
-      "primary_language": "unknown",
-      "install_url": "https://github.com/sirmews/mcp-pinecone",
-      "skill_type": "unknown"
-    },
-    {
-      "id": "vectorize-badcde77",
-      "name": "Vectorize",
-      "description": "Vectorize MCP server for advanced retrieval, Private Deep Research, Anything-to-Markdown file extraction and text chunking.",
-      "repo_url": "https://github.com/vectorize-io/vectorize-mcp-server",
-      "stars": 102,
-      "overall_score": 85,
-      "verification_status": "pass",
-      "risk_level": "info",
-      "primary_language": "unknown",
-      "install_url": "https://github.com/vectorize-io/vectorize-mcp-server",
-      "skill_type": "unknown"
     }
   ],
-  "total_skills": 10,
-  "total_candidates": 19,
-  "avg_score": 85.7,
-  "min_score": 80,
+  "total_skills": 2,
+  "total_candidates": 2,
+  "avg_score": 100.0,
+  "min_score": 100,
   "top_stars": 9849,
-  "generated_at": "2026-02-28T03:46:45Z"
+  "generated_at": "2026-03-02T22:27:24Z"
 }

@@ -1,0 +1,24 @@
+{
+  "id": "release-52cdbc52",
+  "name": "release",
+  "description": "Run the full release workflow for MemoryLane — bump version, update release notes, commit, tag, push, build, and create a GitHub release. Use when the user asks to release, ship, publish, bump version, or cut a new version.",
+  "repo_url": "https://github.com/deusxmachina-dev/memorylane",
+  "source_hub": "skillsmp",
+  "skill_type": "agent_skill",
+  "owner": "deusxmachina-dev",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "agent-skills",
+    "dev-git",
+    "installs:43"
+  ],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null,
+  "repo_status": "available",
+  "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
+  "repo_check_error": null
+}

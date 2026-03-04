@@ -1,0 +1,24 @@
+{
+  "id": "e2e-testing-61498d56",
+  "name": "e2e-testing",
+  "description": "End-to-end testing patterns with Playwright for full-stack Python/React applications. Use when writing E2E tests for complete user workflows (login, CRUD, navigation), critical path regression tests, or cross-browser validation. Covers test structure, page object model, selector strategy (data-testid > role > label), wait strategies, auth state reuse, test data management, and CI integration. Does NOT cover unit tests or component tests (use pytest-patterns or react-testing-patterns).",
+  "repo_url": "https://github.com/hieutrtr/ai1-skills",
+  "source_hub": "skillsmp",
+  "skill_type": "agent_skill",
+  "owner": "hieutrtr",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "agent-skills",
+    "dev-web-frontend",
+    "installs:1360"
+  ],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null,
+  "repo_status": "available",
+  "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
+  "repo_check_error": null
+}

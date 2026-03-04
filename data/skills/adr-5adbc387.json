@@ -1,0 +1,24 @@
+{
+  "id": "adr-5adbc387",
+  "name": "adr",
+  "description": "Document architectural decisions in standardized ADR format. This skill should be used when making significant technical decisions, choosing between approaches, establishing patterns, or when other skills (create-plan, implement-plan, brainstorm) identify decisions that need documentation. Triggers on \"document decision\", \"create ADR\", \"architectural decision\", or automatically when invoked by other skills during planning and implementation.",
+  "repo_url": "https://github.com/mhylle/claude-skills-collection",
+  "source_hub": "skillsmp",
+  "skill_type": "agent_skill",
+  "owner": "mhylle",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "agent-skills",
+    "utilities",
+    "installs:9"
+  ],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null,
+  "repo_status": "available",
+  "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
+  "repo_check_error": null
+}

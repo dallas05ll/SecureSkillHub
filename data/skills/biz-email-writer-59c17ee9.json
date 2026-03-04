@@ -1,0 +1,24 @@
+{
+  "id": "biz-email-writer-59c17ee9",
+  "name": "biz-email-writer",
+  "description": "**비즈니스 이메일/공문 작성기**: 한국어 비즈니스 이메일의 격식 수준 자동 조절, 제목 구조화, 한영 이메일 작성을 지원합니다. 업무 요청, 회신, 감사, 미팅 요청, 공지, 거절 등 다양한 유형을 지원합니다.\\n  - MANDATORY TRIGGERS: 이메일, 메일, email, 비즈니스 메일, 업무 메일, 공문, 회신, 답장, 메일 작성, 영문 이메일, 메일 쓰기",
+  "repo_url": "https://github.com/modu-ai/smart-cowork-life",
+  "source_hub": "skillsmp",
+  "skill_type": "agent_skill",
+  "owner": "modu-ai",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "agent-skills",
+    "utilities",
+    "installs:28"
+  ],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null,
+  "repo_status": "available",
+  "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
+  "repo_check_error": null
+}

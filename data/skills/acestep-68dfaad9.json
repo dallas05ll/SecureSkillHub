@@ -1,0 +1,24 @@
+{
+  "id": "acestep-68dfaad9",
+  "name": "acestep",
+  "description": "Use ACE-Step API to generate music, edit songs, and remix music. Supports text-to-music, lyrics generation, audio continuation, and audio repainting. Use this skill when users mention generating music, creating songs, music production, remix, or audio continuation.",
+  "repo_url": "https://github.com/ace-step/ace-step-1.5",
+  "source_hub": "skillsmp",
+  "skill_type": "agent_skill",
+  "owner": "ace-step",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "agent-skills",
+    "dev-web-frontend",
+    "installs:5784"
+  ],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null,
+  "repo_status": "available",
+  "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
+  "repo_check_error": null
+}

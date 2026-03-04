@@ -1,0 +1,24 @@
+{
+  "id": "api-graphql-adac7912",
+  "name": "api-graphql",
+  "description": "Work with Shopify GraphQL APIs including Admin API and Storefront API. Use this skill for querying and mutating Shopify data, managing products, orders, customers, handling pagination, working with metafields, and understanding rate limits. Covers authentication, queries, mutations, and webhooks.",
+  "repo_url": "https://github.com/dragnoir/shopify-agent-skills",
+  "source_hub": "skillsmp",
+  "skill_type": "agent_skill",
+  "owner": "dragnoir",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "agent-skills",
+    "dev-web-backend",
+    "installs:9"
+  ],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null,
+  "repo_status": "available",
+  "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
+  "repo_check_error": null
+}

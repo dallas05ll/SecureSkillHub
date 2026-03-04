@@ -1,0 +1,24 @@
+{
+  "id": "prove-prove-it-d9bf7390",
+  "name": "prove-prove-it",
+  "description": "End-to-end test of a reviewer prompt through the real dispatcher pipeline. Builds a temp project with prove_it installed via the local shim, simulates multi-turn hook dispatches, and verifies the reviewer fires and produces correct verdicts. Use when you want to prove a reviewer actually works before shipping it.",
+  "repo_url": "https://github.com/searlsco/prove_it",
+  "source_hub": "skillsmp",
+  "skill_type": "agent_skill",
+  "owner": "searlsco",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "agent-skills",
+    "dev-devops",
+    "installs:130"
+  ],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null,
+  "repo_status": "available",
+  "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
+  "repo_check_error": null
+}

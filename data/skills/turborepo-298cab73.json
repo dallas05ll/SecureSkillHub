@@ -7,7 +7,10 @@
   "owner": "vercel",
   "stars": 7500,
   "primary_language": "unknown",
-  "tags": [],
+  "tags": [
+    "dev-devops",
+    "dev"
+  ],
   "verification_status": "pass",
   "overall_score": 100,
   "risk_level": "medium",
@@ -98,5 +101,6 @@
       "override_reason": "Deterministic override: high-risk obfuscation detected."
     },
     "manager_summary": "5/5 agents completed. Score: 15/100, Risk: critical. 0 mismatches, 577 scanner findings. Rejected at 90% confidence. Safety overrides triggered."
-  }
+  },
+  "skill_type": "agent_skill"
 }

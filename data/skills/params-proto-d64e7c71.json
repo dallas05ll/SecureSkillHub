@@ -1,0 +1,24 @@
+{
+  "id": "params-proto-d64e7c71",
+  "name": "params-proto",
+  "description": "Declarative hyperparameter management for ML/AI experiments. Use when Claude needs to:\n(1) Create CLI applications with type-hinted parameters and auto-generated help\n(2) Configure ML training scripts with @proto.cli, @proto.prefix, or @proto decorators\n(3) Set up multi-namespace configurations with namespaced CLI arguments\n(4) Read configuration from environment variables using EnvVar\n(5) Create hyperparameter sweeps using piter or Sweep\n(6) Work with Union types for subcommand-like CLI patt...",
+  "repo_url": "https://github.com/geyang/params-proto",
+  "source_hub": "skillsmp",
+  "skill_type": "agent_skill",
+  "owner": "geyang",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "agent-skills",
+    "data-ai",
+    "installs:19"
+  ],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null,
+  "repo_status": "available",
+  "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
+  "repo_check_error": null
+}

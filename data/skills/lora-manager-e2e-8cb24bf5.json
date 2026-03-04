@@ -1,0 +1,24 @@
+{
+  "id": "lora-manager-e2e-8cb24bf5",
+  "name": "lora-manager-e2e",
+  "description": "End-to-end testing and validation for LoRa Manager features. Use when performing automated E2E validation of LoRa Manager standalone mode, including starting/restarting the server, using Chrome DevTools MCP to interact with the web UI at http://127.0.0.1:8188/loras, and verifying frontend-to-backend functionality. Covers workflow validation, UI interaction testing, and integration testing between the standalone Python backend and the browser frontend.",
+  "repo_url": "https://github.com/willmiao/comfyui-lora-manager",
+  "source_hub": "skillsmp",
+  "skill_type": "agent_skill",
+  "owner": "willmiao",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "agent-skills",
+    "dev-web-frontend",
+    "installs:963"
+  ],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null,
+  "repo_status": "available",
+  "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
+  "repo_check_error": null
+}

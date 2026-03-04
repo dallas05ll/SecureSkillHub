@@ -1,0 +1,24 @@
+{
+  "id": "app-template-ff9da083",
+  "name": "app-template",
+  "description": "Deploy applications using bjw-s/app-template Helm chart - a flexible chart for helmifying container images without dedicated charts.\n\nUse when: (1) Deploying container images that lack official Helm charts, (2) Creating HelmRelease manifests for Flux GitOps,\n(3) Configuring multi-container pods with sidecars, (4) Setting up persistent storage, ingress, services for custom applications,\n(5) Questions about app-template values structure or patterns, (6) Deploying any custom container to Kuberne...",
+  "repo_url": "https://github.com/ionfury/homelab",
+  "source_hub": "skillsmp",
+  "skill_type": "agent_skill",
+  "owner": "ionfury",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "agent-skills",
+    "dev-devops",
+    "installs:22"
+  ],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null,
+  "repo_status": "available",
+  "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
+  "repo_check_error": null
+}

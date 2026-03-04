@@ -5,13 +5,12 @@
   "repo_url": "https://github.com/n8n-io/n8n",
   "source_hub": "github_search",
   "stars": 176312,
-  "verification_status": "manual_review",
+  "verification_status": "pass",
   "overall_score": 70,
   "risk_level": "medium",
   "description": "Fair-code workflow automation platform with native AI capabilities, 400+ integrations, visual builder, self-hostable. Includes MCP client and server nodes.",
   "primary_language": "TypeScript",
   "tags": [
-    "status-fail",
     "data-ai",
     "dev",
     "integ",
@@ -37,6 +36,14 @@
     "previous_score": 10
   },
   "trust_level": "low",
+  "verification_date": "2026-03-02T00:00:00Z",
+  "verification_summary": {
+    "pm_override": {
+      "reason": "PM override: 49 injection findings confirmed FP by SecM \u2014 n8n Guardrails node contains jailbreak DETECTION code, not attacks. 16 obfuscation findings are String.fromCharCode in spreadsheet encoding + i18n locale fixtures.",
+      "date": "2026-03-02",
+      "authorized_by": "PM"
+    }
+  },
   "scan_date": "2026-02-28T23:52:16Z",
   "verified_commit": "e01ce10f206cdbbfce531d34ab83b06dc26cac68",
   "verification_level": "full_pipeline",

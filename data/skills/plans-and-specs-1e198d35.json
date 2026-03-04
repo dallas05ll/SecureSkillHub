@@ -1,0 +1,24 @@
+{
+  "id": "plans-and-specs-1e198d35",
+  "name": "plans-and-specs",
+  "description": "This SKILL provides detailed instructions on how to use the planning plugin tools. MUST be loaded when:\n\nSituations:\n- User asks to create a plan, roadmap, or break down work into steps\n- User mentions specs, requirements, or standards that need to be documented\n- User references an existing plan that needs to be read or updated\n- User asks to mark work as complete or done\n- User wants to link requirements to a plan\n- User references a task that matches <available_plans>",
+  "repo_url": "https://github.com/igorwarzocha/opencode-planning-toolkit",
+  "source_hub": "skillsmp",
+  "skill_type": "agent_skill",
+  "owner": "igorwarzocha",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "agent-skills",
+    "utilities",
+    "installs:54"
+  ],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null,
+  "repo_status": "available",
+  "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
+  "repo_check_error": null
+}

@@ -1,0 +1,24 @@
+{
+  "id": "brainstorming-a9c6da01",
+  "name": "brainstorming",
+  "description": "Technical design collaboration through natural dialogue. Adapts to expertise level and problem complexity through understanding, exploration, and validation stages. Use when user asks to brainstorm ideas for new features or systems requiring architectural decisions before implementation begins.",
+  "repo_url": "https://github.com/axivo/claude",
+  "source_hub": "skillsmp",
+  "skill_type": "agent_skill",
+  "owner": "axivo",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "agent-skills",
+    "utilities",
+    "installs:53"
+  ],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null,
+  "repo_status": "available",
+  "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
+  "repo_check_error": null
+}

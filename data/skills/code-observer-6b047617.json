@@ -1,0 +1,24 @@
+{
+  "id": "code-observer-6b047617",
+  "name": "code-observer",
+  "description": "Code debugging assistant, helps you see how code runs. When you say \"I want to see why this function is so slow\", \"code errors during execution, don't know where the problem is\", \"business logic too complex, can't clarify execution order\", I'll help trace code execution paths, find slow points, locate error causes. When discovering skill optimization points, will ask whether to invoke skill-evolution-driver for optimization",
+  "repo_url": "https://github.com/ewanyuan/cox-coding",
+  "source_hub": "skillsmp",
+  "skill_type": "agent_skill",
+  "owner": "ewanyuan",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "agent-skills",
+    "utilities",
+    "installs:42"
+  ],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null,
+  "repo_status": "available",
+  "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
+  "repo_check_error": null
+}

@@ -1,0 +1,24 @@
+{
+  "id": "basilica-localnet-debug-e001c89d",
+  "name": "basilica-localnet-debug",
+  "description": "Debug Basilica localnet services using existing scripts and Docker Compose commands",
+  "repo_url": "https://github.com/one-covenant/basilica",
+  "source_hub": "skillsmp",
+  "skill_type": "agent_skill",
+  "owner": "one-covenant",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "agent-skills",
+    "dev-devops",
+    "installs:35"
+  ],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null,
+  "repo_status": "available",
+  "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
+  "repo_check_error": null
+}

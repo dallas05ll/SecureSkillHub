@@ -11,7 +11,7 @@
     "repo_unavailable",
     "data-db"
   ],
-  "verification_status": "manual_review",
+  "verification_status": "unverified",
   "overall_score": 0,
   "risk_level": "high",
   "verified_commit": "",
@@ -22,5 +22,6 @@
     "supervisor_approved": false,
     "supervisor_confidence": 0
   },
-  "repo_status": "unavailable"
+  "repo_status": "unavailable",
+  "skill_type": "mcp_server"
 }

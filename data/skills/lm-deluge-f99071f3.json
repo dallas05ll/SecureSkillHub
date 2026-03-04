@@ -1,0 +1,24 @@
+{
+  "id": "lm-deluge-f99071f3",
+  "name": "lm-deluge",
+  "description": "Python library for LLM API requests with unified interface across providers (OpenAI, Anthropic, Google, etc.). Use when writing code that calls LLMs, creates tools/agents, batch processes prompts, or needs rate limiting. Triggers on lm-deluge, lm_deluge, LLMClient, or multi-provider LLM code tasks.",
+  "repo_url": "https://github.com/taylorai/lm-deluge",
+  "source_hub": "skillsmp",
+  "skill_type": "agent_skill",
+  "owner": "taylorai",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "agent-skills",
+    "data-ai",
+    "installs:44"
+  ],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null,
+  "repo_status": "available",
+  "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
+  "repo_check_error": null
+}

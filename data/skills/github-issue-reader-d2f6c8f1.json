@@ -1,0 +1,24 @@
+{
+  "id": "github-issue-reader-d2f6c8f1",
+  "name": "github-issue-reader",
+  "description": "Load comprehensive GitHub issue information including title, description, comments, labels, assignees, milestones, and related items (linked PRs and cross-references). This skill should be used when planning to fix an issue, when detailed issue context is needed for implementation work, or when a plan command needs to understand the full scope of an issue.",
+  "repo_url": "https://github.com/jumppad-labs/jumppad",
+  "source_hub": "skillsmp",
+  "skill_type": "agent_skill",
+  "owner": "jumppad-labs",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "agent-skills",
+    "utilities",
+    "installs:261"
+  ],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null,
+  "repo_status": "available",
+  "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
+  "repo_check_error": null
+}

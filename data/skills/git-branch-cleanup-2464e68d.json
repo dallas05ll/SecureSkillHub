@@ -1,0 +1,24 @@
+{
+  "id": "git-branch-cleanup-2464e68d",
+  "name": "git-branch-cleanup",
+  "description": "Analyzes and safely cleans up local Git branches. Categorizes branches by merge status,\nstaleness, and remote tracking. Provides interactive selection with safety guards.\nUse when the user wants to clean up branches, delete old branches, organize Git branches,\nor asks about which branches can be safely deleted.",
+  "repo_url": "https://github.com/gotalab/skillport",
+  "source_hub": "skillsmp",
+  "skill_type": "agent_skill",
+  "owner": "gotalab",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "agent-skills",
+    "dev-git",
+    "installs:316"
+  ],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null,
+  "repo_status": "available",
+  "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
+  "repo_check_error": null
+}

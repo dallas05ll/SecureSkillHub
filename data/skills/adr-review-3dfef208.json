@@ -1,0 +1,24 @@
+{
+  "id": "adr-review-3dfef208",
+  "name": "adr-review",
+  "description": "Multi-agent debate orchestration for Architecture Decision Records. Automatically triggers on ADR create/edit/delete. Coordinates architect, critic, independent-thinker, security, analyst, and high-level-advisor agents in structured debate rounds until consensus.",
+  "repo_url": "https://github.com/rjmurillo/ai-agents",
+  "source_hub": "skillsmp",
+  "skill_type": "agent_skill",
+  "owner": "rjmurillo",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "agent-skills",
+    "security",
+    "installs:14"
+  ],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null,
+  "repo_status": "available",
+  "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
+  "repo_check_error": null
+}

@@ -1,0 +1,24 @@
+{
+  "id": "claude-agent-sdk-cf6cba14",
+  "name": "claude-agent-sdk",
+  "description": "This skill should be used when developing applications with the Claude Agent SDK, answering questions about SDK features and APIs, implementing SDK patterns, or troubleshooting SDK integration. Covers Python and TypeScript APIs, core features, advanced features, and integrations.",
+  "repo_url": "https://github.com/emdashcodes/claude-code-plugins",
+  "source_hub": "skillsmp",
+  "skill_type": "agent_skill",
+  "owner": "emdashcodes",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "agent-skills",
+    "utilities",
+    "installs:11"
+  ],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null,
+  "repo_status": "available",
+  "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
+  "repo_check_error": null
+}

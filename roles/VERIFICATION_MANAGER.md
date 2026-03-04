@@ -54,7 +54,33 @@ python3 scripts/verify/run_verify_sample.py \
 python3 scripts/verify/batch_verify_agent_skills.py
 ```
 
-### 2. Pre-Flight Checks
+### 2. Read Memory Before Every Run (MANDATORY)
+
+**Before executing ANY verification batch, read `memory/verification-manager.md` first.** This file contains learnings from previous PM and SecM reviews — FP patterns, scoring bug evidence, trusted orgs, scanner exclusions, and operational notes written by Opus after reviewing your previous runs.
+
+**Why this matters:** You (Sonnet) run the pipeline. PM and SecM (Opus) review your results and discover false positive patterns. They write those patterns to your memory file. If you read this memory before running, you benefit from Opus-level analysis at Sonnet cost. This is the self-evolving feedback loop.
+
+**What to look for in memory:**
+1. **Known FP Categories** — Patterns that produce false positives. When you see these in results, flag them in the run report so PM can fast-track overrides.
+2. **Scoring Formula Bugs** — Known mathematical traps in the scoring formula. Note these in the run report summary.
+3. **PM-Verified Orgs** — Organizations PM has internet-verified as legitimate. Skills from these orgs are low-risk.
+4. **Scanner Exclusion Requests** — Paths/patterns that should be excluded from scanning. If these aren't yet implemented in code, note them in the run report.
+5. **Operational Notes** — CLI argument formats, common errors, workarounds.
+
+**How to apply memory in your run reports:**
+
+After each batch, include a "Memory-Informed Notes" section:
+```
+Memory-Informed Notes:
+- [X] skills from PM-verified orgs: [list org names]
+- [X] skills likely affected by scoring formula bug (≥40 findings + ≥1 B-miss)
+- [X] skills with known FP patterns: [list pattern categories]
+- Recommendation: PM can fast-track [X] overrides based on known patterns
+```
+
+This helps PM review 10x faster — instead of investigating each fail individually, PM can batch-override known-pattern FPs using your memory-informed notes.
+
+### 3. Pre-Flight Checks
 
 Before executing ANY verification batch, validate:
 
@@ -85,7 +111,7 @@ python3 scripts/review/health_check.py
 - [ ] Sufficient disk space for clones (`--depth 1` but can still be large)
 - [ ] Temp directory (`tmp_*/`) is clean from previous runs
 
-### 3. Parallel Execution Management
+### 4. Parallel Execution Management
 
 Maximize throughput by tuning concurrency parameters:
 
@@ -100,7 +126,92 @@ Maximize throughput by tuning concurrency parameters:
 - Each group clones repos independently using `--depth 1`. With `--group-count 5`, that's up to 5 concurrent `git clone` operations.
 - Monitor for GitHub rate limiting on large batches (>100 skills). If clone failure rate exceeds 10%, reduce `--group-count` and add delay.
 
-### 4. Run Report Production
+### Performance Baselines
+
+| Batch Size | Group Count | Expected Duration | Disk Estimate |
+|------------|-------------|-------------------|---------------|
+| 10 skills | 2 | 2-5 minutes | ~500MB temp |
+| 50 skills | 5 | 10-25 minutes | ~2.5GB temp |
+| 100 skills | 10 | 20-45 minutes | ~5GB temp |
+| 200 skills | 10 | 40-90 minutes | ~10GB temp |
+
+**Factors affecting throughput:**
+- **Repo size:** Large repos (10K+ files) take longer to clone and scan. Monorepos can take 5x longer per skill.
+- **GitHub rate limiting:** Burst of >50 concurrent clones may trigger rate limits. Reduce `--group-count` if clone failures spike.
+- **Disk I/O:** SSD vs HDD makes 2-3x difference. Check `/tmp` is on fast storage.
+- **Semgrep warm-up:** First scan in a batch is slower (semgrep rule compilation). Subsequent scans reuse cached rules.
+
+**Diagnosing slowness:**
+```bash
+# Check if git clones are hanging
+ps aux | grep 'git clone' | grep -v grep
+
+# Check disk space
+df -h /tmp
+
+# Check how many scan reports have been written (progress indicator)
+ls data/scan-reports/ | wc -l
+```
+
+### Runtime Monitoring
+
+**5 monitoring commands (run during a verification batch):**
+
+```bash
+# 1. Tail the latest verification run log
+tail -f data/skill-manager-log.json | python3 -c "
+import sys, json
+for line in sys.stdin:
+    try:
+        entry = json.loads(line.strip().rstrip(','))
+        if entry.get('check_type') == 'verification_run':
+            print(f'{entry[\"timestamp\"][:16]} processed={len(entry.get(\"findings\",{}).get(\"processed\",[]))}')
+    except: pass
+"
+
+# 2. Count completed scan reports (progress)
+echo "Completed: $(ls -d data/scan-reports/*/summary.json 2>/dev/null | wc -l) skills"
+
+# 3. Check for stuck git clone processes
+ps aux | grep 'git clone' | grep -v grep | awk '{print $11, $12}' | head -5
+
+# 4. Check /tmp disk usage from clone operations
+du -sh /tmp/tmp_* 2>/dev/null || echo "No temp clone dirs found"
+
+# 5. Show last 3 processed skills
+ls -t data/scan-reports/*/summary.json 2>/dev/null | head -3 | while read f; do
+  skill=$(basename $(dirname "$f"))
+  status=$(python3 -c "import json; print(json.load(open('$f')).get('verification_status','?'))" 2>/dev/null)
+  echo "$skill → $status"
+done
+```
+
+**Trouble signs:**
+- No new scan reports for >5 minutes → batch may be stuck on a large repo or hung clone
+- `/tmp` filling up → large repos not being cleaned up (check context managers)
+- Old `git clone` processes (>10 min) → kill and retry: `kill <pid>`
+
+**Stuck-run recovery:**
+```bash
+# Kill all git processes from this run
+pkill -f 'git clone.*--depth 1'
+
+# Clean temp directories
+rm -rf /tmp/tmp_verify_* 2>/dev/null
+
+# Extract what was already processed and retry the rest
+python3 -c "
+import json, pathlib
+report_dir = pathlib.Path('data/verification-runs')
+latest = max(report_dir.glob('*.json'), key=lambda f: f.stat().st_mtime)
+report = json.loads(latest.read_text())
+done = {p['skill_id'] for p in report.get('processed', [])}
+print(f'Already processed: {len(done)} skills')
+# Compare against original target list to find remaining
+"
+```
+
+### 5. Run Report Production
 
 Every verification run produces these artifacts:
 
@@ -114,7 +225,7 @@ Every verification run produces these artifacts:
 **Run report naming convention:** `{ISO-timestamp}_strict5_limit{N}.json`
 Example: `20260301T070000Z_strict5_limit50.json`
 
-### 5. Error Handling and Recovery
+### 6. Error Handling and Recovery
 
 | Error Type | Detection | Response |
 |------------|-----------|----------|
@@ -138,7 +249,7 @@ print(','.join(retry))
 python3 scripts/verify/run_verify_strict_5agent.py --skill-ids <retry_ids>
 ```
 
-### 6. Re-Verification
+### 7. Re-Verification
 
 Handle re-verification requests for:
 
@@ -244,15 +355,24 @@ Skill repo cloned (--depth 1)
 
 ### Receiving a Verification Request (from SM via PM)
 
+**RULE: VM NEVER runs verification without an SM-produced Verification Request.** No `--limit N` without explicit skill_ids from SM. No `--only-unverified` without SM's tier-aware selection. If PM sends a request without SM selection, VM asks PM to get SM's selection first.
+
 **SM provides:**
 ```
-Verification request:
-  skill_ids: [list] or --only-unverified
+SM Verification Request:
+  skill_ids: [explicit list from verify-queue]  ← REQUIRED, not --only-unverified
   verification_level: full_pipeline | scanner_only | metadata_only
   limit: N
-  priority_reason: "Tier 1 unverified" | "re-verify after update" | etc.
+  tier_breakdown: {tier_3: 80, tier_4: 20}
+  priority_reason: "Tier 3 (10-99★) sorted by stars desc"
   group_count: N (suggested, VM can adjust)
 ```
+
+**VM validation before executing:**
+- [ ] skill_ids is an explicit list (not just `--only-unverified`)
+- [ ] tier_breakdown shows no 0-star skills mixed with higher-tier availability
+- [ ] All skill_ids exist in `data/skills/`
+- [ ] No `repo_unavailable` skills in the list (unless flagged as intentional re-check)
 
 **VM responds after execution:**
 ```
@@ -269,19 +389,32 @@ Verification complete.
 
 After every verification run:
 
-1. VM writes the run report to `data/verification-runs/`
-2. VM logs to `data/skill-manager-log.json` (type: `verification_run`)
-3. VM notifies SM with the report path and summary
-4. SM runs `python3 scripts/review/skills_manager_review.py --run-report <path>`
-5. SM-A reviews verification quality, SM-B reviews data integrity
-6. SM reconciles and escalates `manual_review` / disagreements to PM
-7. PM makes final decisions on escalated skills
-8. **PM instructs WS3 to rebuild** — `build_json` + `build_html` + `build_indexes`
-9. **PM instructs DeployM to commit + deploy** — site reflects new data
+1. VM reads `memory/verification-manager.md` (pre-flight, already done in step 2)
+2. VM writes the run report to `data/verification-runs/` with "Memory-Informed Notes"
+3. VM logs to `data/skill-manager-log.json` (type: `verification_run`)
+4. VM notifies SM with the report path and summary
+5. SM runs `python3 scripts/review/skills_manager_review.py --run-report <path>`
+6. SM-A reviews verification quality, SM-B reviews data integrity
+7. SM reconciles and escalates `manual_review` / disagreements to PM
+8. PM makes final decisions on escalated skills
+9. **PM + SecM write learnings to `memory/verification-manager.md`** (MANDATORY learn-write-back)
+10. **PM instructs WS3 to rebuild** — `build_json` + `build_html` + `build_indexes`
+11. **PM instructs DeployM to commit + deploy** — site reflects new data
 
-**Critical:** Steps 8-9 must happen after EVERY verification batch AND after PM manual review decisions. Without rebuild, the site shows stale data.
+**Critical:** Step 9 (learn-write-back) must happen after EVERY PM review. This is how Opus knowledge flows to Sonnet. Steps 10-11 must happen to update the site.
 
 **VM never reviews its own output.** This is a critical security property — no single role can both execute and approve verification.
+
+### Pattern Change → DocM Notification
+
+When VM implements a pattern fix (on PM instruction, typically from SecM audit):
+
+1. VM modifies `src/scanner/regex_patterns.py` or `src/scanner/semgrep_rules/*.yaml`
+2. VM runs `python3 scripts/secm/secm_pattern_test.py` to verify no regressions
+3. VM notifies DocM: "Pattern `{pattern_name}` changed — update docs"
+4. DocM updates relevant docs (verification-architecture.md, SecM known FP table, etc.)
+
+This is a **pre-approved direct handoff** — no PM intermediation needed since PM already approved the pattern fix.
 
 ### Re-Verification Flow
 
@@ -345,7 +478,7 @@ PM says: "Re-verify skill X — new repo activity detected"
 | **Skills Manager** | SM selects what to verify (priority tiers). VM executes. SM reviews results (SM-A/SM-B). Tightest coupling in the system. |
 | **Security Manager** | SecM audits pattern accuracy; VM implements pattern fixes on PM instruction. SecM never modifies scanner code directly. |
 | **Deploy Manager** | After verification + SM review + rebuild, DeployM commits and deploys. |
-| **Documentation Manager** | DocM keeps verification docs aligned with VM's actual pipeline behavior. |
+| **Documentation Manager** | **Direct handoff (pre-approved):** After pattern changes, VM notifies DocM to update pattern documentation. DocM keeps verification docs aligned with actual pipeline behavior. |
 | **Agent Experience Manager** | AXM consumes verification results for the agent-facing catalog. |
 
 ### The Three-Party Verification System
@@ -447,3 +580,32 @@ python3 scripts/verify/run_verify_strict_5agent.py --skill-ids <retry_ids>
 # === Coverage Check ===
 python3 scripts/build/build_indexes.py --only verify-queue --only by-status
 ```
+
+---
+
+## Memory Protocol (MANDATORY)
+
+VM uses the Memory Manager (MemM) for all memory operations.
+
+### Before Starting Work
+1. Load: `memory/structured/vm-corrections.json`
+2. Filter by task-relevant tags (e.g., `python`, `mcp`, `scoring`)
+3. Also load `trusted_orgs` list and `pipeline_safety_rules`
+4. If file fails validation → STOP, alert PM
+
+### After Learning Something New
+1. Write correction to `memory/structured/vm-corrections.json` using schema
+2. Required fields: `id`, `date`, `source`, `type`, `tags`, `applies_to`, `rule`, `status`
+3. MemM-VM audits the write
+4. If pattern affects SecM → MemM flags for cross-role propagation
+
+### Self-Evolve Trigger
+After completing a verification batch:
+1. Signal MemM: "evolve check needed for VM corrections"
+2. MemM-VM consolidates repeated FP patterns into general rules
+3. MemM-VM archives bug fixes for patched code
+
+### Key Memory Rules
+- Never revert the 6 established scanner pattern fixes (vm-c-007)
+- Always check trusted_orgs before flagging known-good organizations
+- Pipeline safety rules are non-negotiable — they are loaded from memory, not hardcoded assumptions

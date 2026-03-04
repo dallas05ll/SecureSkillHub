@@ -11,7 +11,6 @@
   "description": "MCP server providing Figma layout/design data to AI coding agents. Fetches, simplifies, and serves Figma file metadata via stdio or HTTP.",
   "primary_language": "TypeScript",
   "tags": [
-    "status-manual_review",
     "data",
     "data-ai",
     "data-ai-nlp",

@@ -14,7 +14,7 @@
     "data-db",
     "util"
   ],
-  "verification_status": "pass",
+  "verification_status": "unverified",
   "overall_score": 85,
   "risk_level": "info",
   "verified_commit": "e0d8c1a1b0b7e3b475ef48189dbaeb194095b7f1",
@@ -25,5 +25,13 @@
     "category_counts": {}
   },
   "scan_date": "2026-02-28T04:14:41Z",
-  "verification_level": "scanner_only"
+  "status_cleared": {
+    "date": "2026-03-02T20:40:18.531782+00:00",
+    "previous_status": "pass",
+    "previous_score": 85,
+    "previous_risk": "info",
+    "verification_level": "scanner_only",
+    "reason": "SM cleanup: only full_pipeline pass is real pass. Needs re-verification."
+  },
+  "skill_type": "mcp_server"
 }

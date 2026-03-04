@@ -1,0 +1,24 @@
+{
+  "id": "cuopt-debugging-02683e5c",
+  "name": "cuopt-debugging",
+  "description": "Troubleshoot cuOpt problems including errors, wrong results, infeasible solutions, performance issues, and status codes. Use when the user says something isn't working, gets unexpected results, or needs help diagnosing issues.",
+  "repo_url": "https://github.com/nvidia/cuopt",
+  "source_hub": "skillsmp",
+  "skill_type": "agent_skill",
+  "owner": "nvidia",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "agent-skills",
+    "utilities",
+    "installs:711"
+  ],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null,
+  "repo_status": "available",
+  "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
+  "repo_check_error": null
+}

@@ -1,0 +1,24 @@
+{
+  "id": "context-management-2826b877",
+  "name": "context-management",
+  "description": "在多轮对话和多 Agent 协作场景下，帮助模型管理指令、项目状态和长上下文。通过外部文档与会话笔记实现可控的“记忆”、指令冲突检测和高质量交接。适用于任务跨多次调用、跨 Agent、需要稳定行为规范时使用。",
+  "repo_url": "https://github.com/no-trade-no-life/yuan",
+  "source_hub": "skillsmp",
+  "skill_type": "agent_skill",
+  "owner": "no-trade-no-life",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "agent-skills",
+    "utilities",
+    "installs:349"
+  ],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null,
+  "repo_status": "available",
+  "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
+  "repo_check_error": null
+}

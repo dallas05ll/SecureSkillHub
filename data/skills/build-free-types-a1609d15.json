@@ -1,0 +1,24 @@
+{
+  "id": "build-free-types-a1609d15",
+  "name": "build-free-types",
+  "description": "This skill should be used when the user asks to \"set up types without a build step\", \"use vanilla JS with types\", \"configure erasable syntax\", or mentions \"JSDoc type checking\". It provides instructions for modern type safety using JSDoc in browsers and native TypeScript execution in Node.js.",
+  "repo_url": "https://github.com/paulirish/dotfiles",
+  "source_hub": "skillsmp",
+  "skill_type": "agent_skill",
+  "owner": "paulirish",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "agent-skills",
+    "dev-web-backend",
+    "installs:4308"
+  ],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null,
+  "repo_status": "available",
+  "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
+  "repo_check_error": null
+}

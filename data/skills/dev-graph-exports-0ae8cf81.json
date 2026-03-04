@@ -1,0 +1,24 @@
+{
+  "id": "dev-graph-exports-0ae8cf81",
+  "name": "dev-graph-exports",
+  "description": "Export Dev Graph UI assets and dashboard data. Use when the user asks for structure SVG exports, timeline SVG/MP4 exports, per-commit SVGs, sprint-linked visuals, or dashboard/analytics JSON from the Dev Graph API.",
+  "repo_url": "https://github.com/rm2thaddeus/pixel_detective",
+  "source_hub": "skillsmp",
+  "skill_type": "agent_skill",
+  "owner": "rm2thaddeus",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "agent-skills",
+    "dev-git",
+    "installs:15"
+  ],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null,
+  "repo_status": "available",
+  "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
+  "repo_check_error": null
+}

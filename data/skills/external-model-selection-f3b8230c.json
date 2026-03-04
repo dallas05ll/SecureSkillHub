@@ -1,0 +1,24 @@
+{
+  "id": "external-model-selection-f3b8230c",
+  "name": "external-model-selection",
+  "description": "Choose optimal external AI models for code analysis, bug investigation, and architectural decisions. Use when consulting multiple LLMs via claudish, comparing model perspectives, or investigating complex Go/LSP/transpiler issues. Provides empirically validated model rankings (91/100 for MiniMax M2, 83/100 for Grok Code Fast) and proven consultation strategies based on real-world testing.",
+  "repo_url": "https://github.com/madappgang/dingo",
+  "source_hub": "skillsmp",
+  "skill_type": "agent_skill",
+  "owner": "madappgang",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "agent-skills",
+    "dev-testing",
+    "installs:1436"
+  ],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null,
+  "repo_status": "available",
+  "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
+  "repo_check_error": null
+}

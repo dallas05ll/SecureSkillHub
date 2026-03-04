@@ -1,0 +1,24 @@
+{
+  "id": "create-custom-dagster-component-5b6eb3d0",
+  "name": "create-custom-dagster-component",
+  "description": "Create a custom Dagster Component with demo mode support, realistic asset structure, and optional custom scaffolder using the dg CLI. Use this skill if there is no Component included in an existing integration or if Dagster does not have the integration.",
+  "repo_url": "https://github.com/c00ldudenoonan/economic-data-project",
+  "source_hub": "skillsmp",
+  "skill_type": "agent_skill",
+  "owner": "c00ldudenoonan",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "agent-skills",
+    "dev-web-frontend",
+    "installs:37"
+  ],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null,
+  "repo_status": "available",
+  "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
+  "repo_check_error": null
+}

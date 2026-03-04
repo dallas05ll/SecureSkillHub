@@ -1,0 +1,24 @@
+{
+  "id": "remote-task-b739a31b",
+  "name": "remote-task",
+  "description": "Launch a Claude task on a remote kube-coder workspace, check task status, or attach to a running session. Use when the user wants to send work to a remote workspace pod.",
+  "repo_url": "https://github.com/imran31415/kube-coder",
+  "source_hub": "skillsmp",
+  "skill_type": "agent_skill",
+  "owner": "imran31415",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "agent-skills",
+    "utilities",
+    "installs:144"
+  ],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null,
+  "repo_status": "available",
+  "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
+  "repo_check_error": null
+}

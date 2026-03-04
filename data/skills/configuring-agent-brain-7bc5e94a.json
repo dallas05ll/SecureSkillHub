@@ -1,0 +1,24 @@
+{
+  "id": "configuring-agent-brain-7bc5e94a",
+  "name": "configuring-agent-brain",
+  "description": "Installation and configuration skill for Agent Brain document search system.\nUse when asked to \"install agent brain\", \"setup agent brain\", \"configure agent brain\",\n\"setting up document search\", \"installing agent-brain packages\", \"configuring API keys\",\n\"initializing project for search\", \"troubleshooting agent brain\", \"pip install agent-brain\",\n\"agent brain not working\", \"agent brain setup error\", \"configure embeddings provider\",\n\"setup ollama for agent brain\", or \"agent brain environment vari...",
+  "repo_url": "https://github.com/spillwavesolutions/agent-brain",
+  "source_hub": "skillsmp",
+  "skill_type": "agent_skill",
+  "owner": "spillwavesolutions",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "agent-skills",
+    "utilities",
+    "installs:37"
+  ],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null,
+  "repo_status": "available",
+  "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
+  "repo_check_error": null
+}

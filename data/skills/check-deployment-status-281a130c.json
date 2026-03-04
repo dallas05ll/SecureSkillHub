@@ -1,0 +1,24 @@
+{
+  "id": "check-deployment-status-281a130c",
+  "name": "check-deployment-status",
+  "description": "Check the health and sync status of all ArgoCD applications across clusters. Identifies out-of-sync, degraded, or unhealthy deployments and provides actionable remediation steps. Use when monitoring deployments, troubleshooting sync failures, or verifying environment health after a release.",
+  "repo_url": "https://github.com/cnoe-io/ai-platform-engineering",
+  "source_hub": "skillsmp",
+  "skill_type": "agent_skill",
+  "owner": "cnoe-io",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "agent-skills",
+    "dev-devops",
+    "installs:308"
+  ],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null,
+  "repo_status": "available",
+  "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
+  "repo_check_error": null
+}

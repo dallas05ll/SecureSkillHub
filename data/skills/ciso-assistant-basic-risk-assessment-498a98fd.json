@@ -1,0 +1,24 @@
+{
+  "id": "ciso-assistant-basic-risk-assessment-498a98fd",
+  "name": "ciso-assistant-basic-risk-assessment",
+  "description": "Guide users through a basic risk assessment workflow in CISO Assistant, from asset identification to scenario creation. Use when:\n(1) User wants to start a risk assessment from scratch\n(2) User mentions \"risk assessment\", \"identify risks\", \"threat scenarios\", or \"risk register\"\n(3) User asks about qualitative vs quantitative risk approaches\n(4) User needs help identifying assets, threats, or creating risk scenarios\n\nCovers: risk approach selection (qualitative/quantitative), organizational co...",
+  "repo_url": "https://github.com/intuitem/ciso-assistant-community",
+  "source_hub": "skillsmp",
+  "skill_type": "agent_skill",
+  "owner": "intuitem",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "agent-skills",
+    "utilities",
+    "installs:3590"
+  ],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null,
+  "repo_status": "available",
+  "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
+  "repo_check_error": null
+}

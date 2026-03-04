@@ -1,0 +1,24 @@
+{
+  "id": "product-copy-assistant-894ee71b",
+  "name": "product-copy-assistant",
+  "description": "Write clear, concise, accessible product copy for interfaces, docs, and system messages. Use when engineers or designers need help with UI copy, error messages, tooltips, onboarding flows, empty states, confirmation dialogs, success/warning messages, or any user-facing text. Triggers on requests like \"write copy for,\" \"help me phrase,\" \"error message for,\" \"what should this button say,\" or reviews of existing product copy.",
+  "repo_url": "https://github.com/portabletext/editor",
+  "source_hub": "skillsmp",
+  "skill_type": "agent_skill",
+  "owner": "portabletext",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "agent-skills",
+    "utilities",
+    "installs:157"
+  ],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null,
+  "repo_status": "available",
+  "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
+  "repo_check_error": null
+}

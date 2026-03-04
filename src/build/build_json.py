@@ -43,16 +43,9 @@ TAG_ALIASES: dict[str, str] = {
     "prod-notes":        "productivity-notes",
     "prod-calendar":     "productivity-calendar",
     "prod-pm":           "productivity-pm",
-    "prod-aso":          "productivity",
-    "prod-automation":   "productivity",
-    "prod-backend":      "productivity",
-    "prod-finance":      "productivity",
     "prod-kanban":       "productivity-pm",
-    "prod-marketplace":  "productivity",
-    "prod-memory":       "productivity",
-    "prod-microservice": "productivity",
-    "prod-mobile":       "productivity",
-    "prod-tax":          "productivity",
+    # prod-aso, prod-automation, prod-backend, prod-finance, prod-marketplace,
+    # prod-memory, prod-microservice, prod-mobile, prod-tax removed — 0 usage
     # ── Integrations ───────────────────────────────────────────────
     "integ":             "integrations",
     "integ-cloud":       "integrations-cloud",
@@ -62,7 +55,7 @@ TAG_ALIASES: dict[str, str] = {
     "integ-crm":         "integrations-crm",
     "integ-payment":     "integrations-payment",
     "integ-social":      "integrations-social",
-    "integ-vscode":      "integrations",
+    # integ-vscode removed — 0 usage
     # ── Security ───────────────────────────────────────────────────
     "sec":               "security",
     "sec-auth":          "security-auth",
@@ -70,7 +63,7 @@ TAG_ALIASES: dict[str, str] = {
     "sec-scan":          "security-scanning",
     "sec-scanning":      "security-scanning",
     "sec-pentest":       "security-scanning",
-    "sec-education":     "security",
+    # sec-education removed — 0 usage
     # ── Utilities ──────────────────────────────────────────────────
     "util":              "utilities",
     "util-file":         "utilities-file",
@@ -82,9 +75,7 @@ TAG_ALIASES: dict[str, str] = {
     "util-monitor":      "utilities-monitor",
     "util-automation":   "utilities-system",
     "util-config":       "utilities-system",
-    "util-llm":          "utilities",
-    "util-memory":       "utilities",
-    "util-productivity": "utilities",
+    # util-llm, util-memory, util-productivity removed — 0 usage
     # ── Status ────────────────────────────────────────────────────
     "clone_failure":     "repo_unavailable",
     "repo_unavailable":  "repo_unavailable",
@@ -98,6 +89,14 @@ TAG_ALIASES: dict[str, str] = {
     "data-db-vector":    "data-db-vector",
     "data-ml":           "data-ml",
     "data-analysis":     "data-analysis",
+    "data-finance":      "data-finance",     # Finance & Trading (new 2026-03-03)
+    "data-rag":          "data-rag",         # RAG & Retrieval (new 2026-03-03)
+    # ── Data-finance aliases ────────────────────────────────────────
+    "finance":           "data-finance",
+    "trading":           "data-finance",
+    # ── Data-rag aliases ────────────────────────────────────────────
+    "rag":               "data-rag",
+    "retrieval":         "data-rag",
     # ── Dev (miscellaneous abbreviated dev tags) ───────────────────
     "dev-testing":       "dev-testing",
     "dev-git":           "dev-git",
@@ -108,7 +107,9 @@ TAG_ALIASES: dict[str, str] = {
     "dev-desktop":       "dev-desktop",
     "dev-desktop-electron": "dev-desktop-electron",
     "dev-desktop-tauri": "dev-desktop-tauri",
-    "dev-web-frontend-angular": "dev-web-frontend-angular",
+    "dev-web-frontend-angular":  "dev-web-frontend-angular",
+    "dev-web-frontend-svelte":   "dev-web-frontend-svelte",   # added 2026-03-03
+    "dev-web-backend-rust":      "dev-web-backend-rust",      # added 2026-03-03
     "dev-web-fullstack-nuxt": "dev-web-fullstack-nuxt",
     "dev-automation":    "dev",
     "dev-backend":       "dev-web-backend",
@@ -117,10 +118,12 @@ TAG_ALIASES: dict[str, str] = {
     "dev-environment":   "dev",
     "dev-framework":     "dev",
     "dev-frontend":      "dev-web-frontend",
-    "dev-gamedev":       "dev",
+    "dev-gamedev":       "dev-gamedev",      # now maps to its own node (new 2026-03-03)
+    "gamedev":           "dev-gamedev",
+    "game":              "dev-gamedev",
     "dev-infra":         "dev-devops",
     "dev-ios":           "dev-mobile",
-    "dev-japan":         "dev",
+    # dev-japan removed — 0 usage
     "dev-marketplace":   "dev",
     "dev-mcp":           "dev",
     "dev-multi-agent":   "dev-agents",
@@ -132,11 +135,28 @@ TAG_ALIASES: dict[str, str] = {
     "dev-tools":         "dev",
     "dev-unity":         "dev",
     "dev-workflow":      "dev",
+    # ── Security (compliance) ───────────────────────────────────────
+    "security-compliance": "security-compliance",  # Compliance & Legal (new 2026-03-03)
+    "compliance":          "security-compliance",
+    "legal":               "security-compliance",
     # ── Integrations (platform-specific) ───────────────────────────
-    "integrations-github": "integrations-github",
-    "integrations-slack":  "integrations-slack",
-    "integrations-notion": "integrations-notion",
-    "integrations-jira":   "integrations-jira",
+    "integrations-github":     "integrations-github",
+    "integrations-slack":      "integrations-slack",
+    "integrations-notion":     "integrations-notion",
+    "integrations-jira":       "integrations-jira",
+    "integrations-messaging":  "integrations-messaging",  # Messaging & Chat (new 2026-03-03)
+    "integrations-google":     "integrations-google",     # Google Workspace (new 2026-03-03)
+    # ── Integrations aliases ─────────────────────────────────────────
+    "messaging":               "integrations-messaging",
+    "chat":                    "integrations-messaging",
+    # ── Data-AI (sub-tags) ───────────────────────────────────────────
+    "data-ai-rag":             "data-ai-rag",     # RAG & Retrieval (new 2026-03-03)
+    "data-ai-agents":          "data-ai-agents",  # Agent Frameworks (new 2026-03-03)
+    # ── Data-AI aliases ──────────────────────────────────────────────
+    "ai-rag":                  "data-ai-rag",
+    "vector-search":           "data-ai-rag",
+    "ai-agents":               "data-ai-agents",
+    "agent-framework":         "data-ai-agents",
     # ── Productivity (platform-specific) ───────────────────────────
     "productivity-email":  "productivity-email",
     # ── Security (secrets management) ──────────────────────────────
@@ -721,7 +741,16 @@ def build_packages(skills: list[dict[str, Any]], tag_tree: dict[str, Any]) -> in
         logger.warning("Packages directory not found: %s", PACKAGES_DIR)
         return 0
 
+    # Clean output directory to remove stale packages from previous builds.
+    if API_PACKAGES_DIR.is_dir():
+        import shutil
+        shutil.rmtree(API_PACKAGES_DIR)
     API_PACKAGES_DIR.mkdir(parents=True, exist_ok=True)
+
+    # Build a lookup for skill-level quality filtering in source packages.
+    _skills_by_id: dict[str, dict[str, Any]] = {
+        s.get("id", ""): s for s in skills if s.get("id")
+    }
 
     package_files = sorted(PACKAGES_DIR.glob("*.json"))
     count = 0
@@ -768,13 +797,46 @@ def build_packages(skills: list[dict[str, Any]], tag_tree: dict[str, Any]) -> in
 
             validated = SkillPackage.model_validate(raw)
             output = validated.model_dump(mode="json")
-            if isinstance(raw, dict):
-                output.update({
-                    "skills": raw.get("skills", []),
-                    "total_candidates": raw.get("total_candidates", output.get("total_skills", 0)),
-                    "top_stars": raw.get("top_stars", 0),
-                    "selection_mode": raw.get("selection_mode", "verified_only"),
-                })
+
+            # Re-validate individual skills: remove stale, unavailable, and
+            # low-quality entries using current skill data.
+            _BAD_TAGS = {"repo_unavailable", "clone_failure"}
+            _GOOD_STATUSES = {"pass", "manual_review"}
+            raw_skills = raw.get("skills", []) if isinstance(raw, dict) else []
+            raw_ids = raw.get("skill_ids", []) if isinstance(raw, dict) else []
+            clean_skills = []
+            clean_ids = []
+            for sid in raw_ids:
+                current = _skills_by_id.get(sid)
+                if not current:
+                    continue  # stale ID
+                if _BAD_TAGS & set(current.get("tags", [])):
+                    continue  # repo unavailable
+                if _normalize_verification_status(current.get("verification_status")) not in _GOOD_STATUSES:
+                    continue
+                if int(current.get("overall_score", 0) or 0) < 50:
+                    continue
+                clean_ids.append(sid)
+                # Prefer the matching embedded skill object if present
+                embedded = next((s for s in raw_skills if s.get("id") == sid), None)
+                clean_skills.append(embedded if embedded else current)
+
+            # Skip empty packages after filtering.
+            if not clean_ids:
+                continue
+
+            avg_score = round(
+                sum(float(s.get("overall_score", 0) or 0) for s in clean_skills) / len(clean_skills), 1
+            ) if clean_skills else 0.0
+            output.update({
+                "skill_ids": clean_ids,
+                "skills": clean_skills,
+                "total_skills": len(clean_ids),
+                "total_candidates": raw.get("total_candidates", len(clean_ids)) if isinstance(raw, dict) else len(clean_ids),
+                "top_stars": int(clean_skills[0].get("stars", 0) or 0) if clean_skills else 0,
+                "avg_score": avg_score,
+                "selection_mode": raw.get("selection_mode", "verified_only") if isinstance(raw, dict) else "verified_only",
+            })
             _write_json(API_PACKAGES_DIR / pkg_file.name, output)
             package_manifest[pkg_file.stem] = _manifest_row(output)
             count += 1
@@ -826,13 +888,16 @@ def build_packages(skills: list[dict[str, Any]], tag_tree: dict[str, Any]) -> in
             # - verification_status must be "pass" or "manual_review"
             # - risk_level must not be "critical"
             # - overall_score must be >= 50
+            # - must not be repo_unavailable or clone_failure
             _CURATED_STATUSES = {"pass", "manual_review"}
+            _EXCLUDE_TAGS = {"repo_unavailable", "clone_failure"}
             qualified = [
                 s for s in candidates
                 if (
                     _normalize_verification_status(s.get("verification_status")) in _CURATED_STATUSES
                     and str(s.get("risk_level", "info")).lower() != "critical"
                     and int(s.get("overall_score", 0) or 0) >= 50
+                    and not (_EXCLUDE_TAGS & set(s.get("tags", [])))
                 )
             ]
 

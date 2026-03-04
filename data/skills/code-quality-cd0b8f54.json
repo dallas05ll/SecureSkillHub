@@ -1,0 +1,24 @@
+{
+  "id": "code-quality-cd0b8f54",
+  "name": "code-quality",
+  "description": "Code quality guidelines including naming, structure, and maintainability. This skill should be used when writing or reviewing code to ensure it meets quality standards. Use proactively when discussing naming conventions, code smells, readability, Sandi Metz rules, method length, class size, comments, refactoring for clarity, or maintainability concerns. (user)",
+  "repo_url": "https://github.com/booch/config_files",
+  "source_hub": "skillsmp",
+  "skill_type": "agent_skill",
+  "owner": "booch",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "agent-skills",
+    "utilities",
+    "installs:17"
+  ],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null,
+  "repo_status": "available",
+  "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
+  "repo_check_error": null
+}

@@ -1,0 +1,24 @@
+{
+  "id": "ask-user-question-30bae842",
+  "name": "ask-user-question",
+  "description": "Ask users questions via the UI. Use when you need clarification, user preferences, or confirmation before proceeding. The user CANNOT see CLI output - this tool is the ONLY way to communicate with them.",
+  "repo_url": "https://github.com/memtensor/memos",
+  "source_hub": "skillsmp",
+  "skill_type": "agent_skill",
+  "owner": "memtensor",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "agent-skills",
+    "utilities",
+    "installs:5610"
+  ],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null,
+  "repo_status": "available",
+  "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
+  "repo_check_error": null
+}

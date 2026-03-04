@@ -1,0 +1,24 @@
+{
+  "id": "codemie-pr-36238275",
+  "name": "codemie-pr",
+  "description": "Manages git commits, pushes, and GitHub PR creation following conventional commits. Use when user says \"commit changes\", \"push changes\", \"create PR\", \"make a pull request\", or similar git workflow requests. Understands current branch state and avoids duplicate PRs.",
+  "repo_url": "https://github.com/codemie-ai/codemie-code",
+  "source_hub": "skillsmp",
+  "skill_type": "agent_skill",
+  "owner": "codemie-ai",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "agent-skills",
+    "dev-git",
+    "installs:128"
+  ],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null,
+  "repo_status": "available",
+  "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
+  "repo_check_error": null
+}

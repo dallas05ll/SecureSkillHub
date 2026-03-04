@@ -8,18 +8,19 @@
   "stars": 0,
   "primary_language": "unknown",
   "tags": [
-    "repo_unavailable",
     "data-ai",
     "data-ai-nlp",
     "data-ai-vision",
     "dev",
     "integ",
+    "integrations-messaging",
     "prod",
     "prod-docs",
     "prod-pm",
+    "repo_unavailable",
     "util"
   ],
-  "verification_status": "manual_review",
+  "verification_status": "unverified",
   "overall_score": 0,
   "risk_level": "high",
   "verified_commit": "",
@@ -30,5 +31,6 @@
     "supervisor_approved": false,
     "supervisor_confidence": 0
   },
-  "repo_status": "unavailable"
+  "repo_status": "unavailable",
+  "skill_type": "mcp_server"
 }

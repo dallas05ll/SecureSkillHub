@@ -6,14 +6,14 @@
   "source_hub": "mcp_so",
   "owner": "Skate-Org",
   "stars": 1,
-  "primary_language": "unknown",
+  "primary_language": "typescript",
   "tags": [
     "dev",
-    "sec-crypto"
+    "data-finance"
   ],
   "verification_status": "pass",
-  "overall_score": 85,
-  "risk_level": "info",
+  "overall_score": 91,
+  "risk_level": "medium",
   "verified_commit": "84a5bf090c47124a7f32e6237eef5c5e3c83317a",
   "scan_summary": {
     "total_findings": 0,
@@ -21,6 +21,82 @@
     "severity_counts": {},
     "category_counts": {}
   },
-  "scan_date": "2026-02-28T04:14:40Z",
-  "verification_level": "scanner_only"
+  "scan_date": "2026-03-03T21:01:45Z",
+  "verification_level": "full_pipeline",
+  "status_cleared": {
+    "date": "2026-03-02T20:40:18.531782+00:00",
+    "previous_status": "pass",
+    "previous_score": 85,
+    "previous_risk": "info",
+    "verification_level": "scanner_only",
+    "reason": "SM cleanup: only full_pipeline pass is real pass. Needs re-verification."
+  },
+  "findings_summary": {
+    "scanner_findings": 9,
+    "dangerous_calls": 0,
+    "network_ops": 0,
+    "file_ops": 0,
+    "env_access": 9,
+    "obfuscation": 0,
+    "injection_patterns": 0,
+    "mismatches": 0,
+    "undocumented_capabilities": 0,
+    "supervisor_approved": true,
+    "supervisor_confidence": 91
+  },
+  "agent_audit": {
+    "agents_completed": 5,
+    "agents_required": 5,
+    "pipeline_run_at": "2026-03-03T21:01:45Z",
+    "agent_a": {
+      "signed": true,
+      "signed_at": "2026-03-03T21:01:45Z",
+      "comment": "Docs quality 7/10. README present. 7 features, 1 permissions claimed.",
+      "doc_quality_score": 7,
+      "claimed_permissions": [
+        "environment/secret access"
+      ]
+    },
+    "agent_b": {
+      "signed": true,
+      "signed_at": "2026-03-03T21:01:45Z",
+      "comment": "13 files analyzed. Found: 0 network, 0 file, 9 env, 0 system calls. Primary: typescript.",
+      "files_analyzed": 13,
+      "capabilities_found": [
+        "imports external dependencies",
+        "reads environment values"
+      ]
+    },
+    "agent_c_star": {
+      "signed": true,
+      "signed_at": "2026-03-03T21:01:45Z",
+      "comment": "9 findings: 0 critical, 0 high, 9 medium, 0 low. No obfuscation. No injection.",
+      "total_findings": 9,
+      "severity_counts": {
+        "critical": 0,
+        "high": 0,
+        "medium": 9,
+        "low": 0,
+        "info": 0
+      }
+    },
+    "agent_d": {
+      "signed": true,
+      "signed_at": "2026-03-03T21:01:45Z",
+      "comment": "Score 91. 0 mismatches. Risk: medium. Safety overrides: none triggered.",
+      "score": 91,
+      "mismatches": 0,
+      "safety_overrides_applied": false
+    },
+    "agent_e": {
+      "signed": true,
+      "signed_at": "2026-03-03T21:01:45Z",
+      "comment": "Approved. Confidence 91%. No overrides.",
+      "approved": true,
+      "confidence": 91,
+      "override_reason": null
+    },
+    "manager_summary": "5/5 agents completed. Score: 91/100, Risk: medium. 0 mismatches, 9 scanner findings. Approved at 91% confidence. No safety overrides."
+  },
+  "skill_type": "mcp_server"
 }

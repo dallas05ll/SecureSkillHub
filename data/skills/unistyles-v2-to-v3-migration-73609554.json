@@ -1,0 +1,24 @@
+{
+  "id": "unistyles-v2-to-v3-migration-73609554",
+  "name": "unistyles-v2-to-v3-migration",
+  "description": "Migrate react-native-unistyles from v2 to v3. Triggers on: \"migrate unistyles\", \"upgrade unistyles\", \"v2 to v3\", \"unistyles migration\", \"update unistyles\", \"convert unistyles v2\". Covers all API changes including StyleSheet.create, useStyles removal, theme configuration, variants, withUnistyles, Babel plugin setup, style spreading fixes, and third-party component wrapping.",
+  "repo_url": "https://github.com/jpudysz/react-native-unistyles",
+  "source_hub": "skillsmp",
+  "skill_type": "agent_skill",
+  "owner": "jpudysz",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "agent-skills",
+    "dev-web-frontend",
+    "installs:2774"
+  ],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null,
+  "repo_status": "available",
+  "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
+  "repo_check_error": null
+}

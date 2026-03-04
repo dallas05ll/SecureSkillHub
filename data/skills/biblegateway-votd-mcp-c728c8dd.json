@@ -9,10 +9,9 @@
   "primary_language": "unknown",
   "tags": [
     "repo_unavailable",
-    "status-manual_review",
     "integ"
   ],
-  "verification_status": "manual_review",
+  "verification_status": "unverified",
   "overall_score": 0,
   "risk_level": "high",
   "verified_commit": "",
@@ -25,5 +24,6 @@
     "error": "clone failed: Cloning into '/var/folders/pq/bb71gjzd01d29nnmqrhqr2rc0000gn/T/strict5_biblegateway-votd-mcp-c7_dpn_vtt2/repo'...\nfatal: could not read Username for 'https://github.com': Device not configured",
     "supervisor_approved": false,
     "supervisor_confidence": 0
-  }
+  },
+  "skill_type": "mcp_server"
 }

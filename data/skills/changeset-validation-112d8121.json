@@ -1,0 +1,24 @@
+{
+  "id": "changeset-validation-112d8121",
+  "name": "changeset-validation",
+  "description": "Validate changesets in openai-agents-js using LLM judgment against git diffs (including uncommitted local changes). Use when packages/ or .changeset/ are modified, or when verifying PR changeset compliance and bump level.",
+  "repo_url": "https://github.com/openai/openai-agents-js",
+  "source_hub": "skillsmp",
+  "skill_type": "agent_skill",
+  "owner": "openai",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "agent-skills",
+    "data-ai",
+    "installs:2295"
+  ],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null,
+  "repo_status": "available",
+  "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
+  "repo_check_error": null
+}

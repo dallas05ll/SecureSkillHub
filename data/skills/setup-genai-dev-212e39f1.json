@@ -1,0 +1,24 @@
+{
+  "id": "setup-genai-dev-212e39f1",
+  "name": "setup-genai-dev",
+  "description": "Set up the GenAI Engine development environment. Use when starting work on the project for the first time, or when environment needs to be reset. Handles Poetry, PostgreSQL, migrations, and environment variables.",
+  "repo_url": "https://github.com/arthur-ai/arthur-engine",
+  "source_hub": "skillsmp",
+  "skill_type": "agent_skill",
+  "owner": "arthur-ai",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "agent-skills",
+    "data-db",
+    "installs:67"
+  ],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null,
+  "repo_status": "available",
+  "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
+  "repo_check_error": null
+}

@@ -1,0 +1,24 @@
+{
+  "id": "ios-repository-pattern-78cb53c1",
+  "name": "ios-repository-pattern",
+  "description": "iOS Repository 패턴 정의. Protocol + Impl 구조 및 API enum + RequestType 확장 패턴으로 네트워크 레이어를 구현합니다. async/await와 Result 타입을 사용하며, 다른 iOS 프로젝트에서도 재사용 가능합니다.",
+  "repo_url": "https://github.com/3dollar-in-my-pocket/3dollars-in-my-pocket-ios",
+  "source_hub": "skillsmp",
+  "skill_type": "agent_skill",
+  "owner": "3dollar-in-my-pocket",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "agent-skills",
+    "dev-mobile",
+    "installs:218"
+  ],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null,
+  "repo_status": "available",
+  "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
+  "repo_check_error": null
+}

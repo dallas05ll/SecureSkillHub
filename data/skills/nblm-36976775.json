@@ -8,11 +8,11 @@
   "stars": 6200,
   "primary_language": "python",
   "tags": [
-    "status-fail"
+    "data-ai"
   ],
-  "verification_status": "fail",
-  "overall_score": 0,
-  "risk_level": "high",
+  "verification_status": "pass",
+  "overall_score": 60,
+  "risk_level": "medium",
   "verified_commit": "6d989d4b17be50fb3f0fb744d26032173fc01a2d",
   "scan_summary": {
     "total_findings": 0,
@@ -94,5 +94,12 @@
       "override_reason": null
     },
     "manager_summary": "5/5 agents completed. Score: 0/100, Risk: high. 0 mismatches, 144 scanner findings. Rejected at 50% confidence. No safety overrides."
-  }
+  },
+  "pm_override": {
+    "action": "manual_review_to_pass",
+    "reason": "PM batch review: 0 injection, 0 critical findings. Previously overridden from fail\u2192MR due to scoring bug. Same bug applies \u2014 no security threat detected.",
+    "override_by": "PM batch review 20260303",
+    "date": "2026-03-03"
+  },
+  "skill_type": "agent_skill"
 }

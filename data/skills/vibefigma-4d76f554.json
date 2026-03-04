@@ -1,0 +1,24 @@
+{
+  "id": "vibefigma-4d76f554",
+  "name": "vibefigma",
+  "description": "Convert Figma designs to production-ready React components with Tailwind CSS. Use when user provides a Figma URL, asks to convert Figma designs to React/code, wants to extract components from Figma, or mentions \"vibefigma\". Requires a Figma access token (via --token flag, FIGMA_TOKEN env var, or .env file).",
+  "repo_url": "https://github.com/vibeflowing-inc/vibe_figma",
+  "source_hub": "skillsmp",
+  "skill_type": "agent_skill",
+  "owner": "vibeflowing-inc",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "agent-skills",
+    "dev-web-frontend",
+    "installs:415"
+  ],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null,
+  "repo_status": "available",
+  "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
+  "repo_check_error": null
+}

@@ -1,0 +1,24 @@
+{
+  "id": "bruges-5d2e4aae",
+  "name": "bruges",
+  "description": "Geophysical equations and rock physics calculations for seismic analysis.\nUse when Claude needs to: (1) Calculate AVO responses (Zoeppritz, Shuey, Aki-Richards),\n(2) Perform Gassmann fluid substitution, (3) Generate seismic wavelets (Ricker, Ormsby),\n(4) Compute reflectivity and synthetic seismograms, (5) Calculate elastic moduli from\nvelocities, (6) Apply Gardner/Castagna empirical relations, (7) Model rock physics effects.",
+  "repo_url": "https://github.com/steadfastasart/geoscience-skills",
+  "source_hub": "skillsmp",
+  "skill_type": "agent_skill",
+  "owner": "steadfastasart",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "agent-skills",
+    "utilities",
+    "installs:10"
+  ],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null,
+  "repo_status": "available",
+  "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
+  "repo_check_error": null
+}

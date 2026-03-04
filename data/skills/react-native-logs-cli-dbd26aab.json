@@ -1,0 +1,24 @@
+{
+  "id": "react-native-logs-cli-dbd26aab",
+  "name": "react-native-logs-cli",
+  "description": "Use rn-logs to read React Native Metro logs via CDP without MCP overhead. Default output is plain text and safe for non-interactive agent runs.",
+  "repo_url": "https://github.com/okwasniewski/react-native-logs-cli",
+  "source_hub": "skillsmp",
+  "skill_type": "agent_skill",
+  "owner": "okwasniewski",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "agent-skills",
+    "dev-web-frontend",
+    "installs:52"
+  ],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null,
+  "repo_status": "available",
+  "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
+  "repo_check_error": null
+}

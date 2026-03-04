@@ -1,0 +1,24 @@
+{
+  "id": "sitepanda-7139c38a",
+  "name": "sitepanda",
+  "description": "Scrape websites with a headless browser and extract main readable content as Markdown. Use this skill when the user asks to retrieve, analyze, or summarize content from a URL or website.",
+  "repo_url": "https://github.com/hokupod/sitepanda",
+  "source_hub": "skillsmp",
+  "skill_type": "agent_skill",
+  "owner": "hokupod",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "agent-skills",
+    "utilities",
+    "installs:10"
+  ],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null,
+  "repo_status": "available",
+  "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
+  "repo_check_error": null
+}

@@ -1,0 +1,24 @@
+{
+  "id": "pragmatic-clean-code-reviewer-3de46c06",
+  "name": "pragmatic-clean-code-reviewer",
+  "description": "Strict code review following Clean Code, Clean Architecture, and The Pragmatic Programmer principles. Use when: (1) reviewing code or pull requests, (2) detecting code smells or quality issues, (3) auditing architecture decisions, (4) preparing code for merge, (5) refactoring existing code, or (6) checking adherence to SOLID, DRY, YAGNI, KISS principles. Features a 3+4+2 questionnaire system to calibrate strictness from L1 (lab) to L5 (critical). Also triggers on: \"is this code good?\", \"check...",
+  "repo_url": "https://github.com/zhen-bo/pragmatic-clean-code-reviewer",
+  "source_hub": "skillsmp",
+  "skill_type": "agent_skill",
+  "owner": "zhen-bo",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "agent-skills",
+    "utilities",
+    "installs:57"
+  ],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null,
+  "repo_status": "available",
+  "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
+  "repo_check_error": null
+}

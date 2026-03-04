@@ -1,0 +1,24 @@
+{
+  "id": "claude-code-history-files-finder-5395fd51",
+  "name": "claude-code-history-files-finder",
+  "description": "Finds and recovers content from Claude Code session history files. This skill should be used when searching for deleted files, tracking changes across sessions, analyzing conversation history, or recovering code from previous Claude interactions. Triggers include mentions of \"session history\", \"recover deleted\", \"find in history\", \"previous conversation\", or \".claude/projects\".",
+  "repo_url": "https://github.com/daymade/claude-code-skills",
+  "source_hub": "skillsmp",
+  "skill_type": "agent_skill",
+  "owner": "daymade",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "agent-skills",
+    "utilities",
+    "installs:587"
+  ],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null,
+  "repo_status": "available",
+  "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
+  "repo_check_error": null
+}

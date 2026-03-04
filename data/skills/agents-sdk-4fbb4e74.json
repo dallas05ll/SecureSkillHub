@@ -1,0 +1,24 @@
+{
+  "id": "agents-sdk-4fbb4e74",
+  "name": "agents-sdk",
+  "description": "Build AI agents on Cloudflare Workers using the Agents SDK. Load when creating stateful agents, durable workflows, real-time WebSocket apps, scheduled tasks, MCP servers, or chat applications. Covers Agent class, state management, callable RPC, Workflows integration, and React hooks.",
+  "repo_url": "https://github.com/cloudflare/cloudflare-docs",
+  "source_hub": "skillsmp",
+  "skill_type": "agent_skill",
+  "owner": "cloudflare",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "agent-skills",
+    "dev-web-frontend",
+    "installs:4400"
+  ],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null,
+  "repo_status": "available",
+  "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
+  "repo_check_error": null
+}

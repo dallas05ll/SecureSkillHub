@@ -1,0 +1,24 @@
+{
+  "id": "add-example-doc-model-env-6e126f96",
+  "name": "add-example-doc-model-env",
+  "description": "Adds example documentation for a new model or environment in RLinf (RST pages in the docs gallery for both English and Chinese). Use when adding a new embodied or reasoning example, or new benchmark (e.g. LIBERO, ManiSkill).",
+  "repo_url": "https://github.com/rlinf/rlinf",
+  "source_hub": "skillsmp",
+  "skill_type": "agent_skill",
+  "owner": "rlinf",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "agent-skills",
+    "utilities",
+    "installs:2489"
+  ],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null,
+  "repo_status": "available",
+  "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
+  "repo_check_error": null
+}

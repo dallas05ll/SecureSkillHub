@@ -8,10 +8,9 @@
   "stars": 3800,
   "primary_language": "unknown",
   "tags": [
-    "dev-git",
-    "status-fail"
+    "dev-git"
   ],
-  "verification_status": "manual_review",
+  "verification_status": "pass",
   "overall_score": 70,
   "risk_level": "medium",
   "verified_commit": "4488150e942c231c148e9648b3eda147d5237279",
@@ -101,5 +100,12 @@
       "override_reason": "Deterministic override: injection patterns detected."
     },
     "manager_summary": "5/5 agents completed. Score: 0/100, Risk: critical. 0 mismatches, 388 scanner findings. Rejected at 95% confidence. Safety overrides triggered."
-  }
+  },
+  "pm_override": {
+    "action": "manual_review_to_pass",
+    "reason": "PM internet-verified: GitHub official awesome-copilot repo. All 19 injection findings are FPs from .agent.md persona files ('You are now X' is standard agent syntax) and safety best-practices docs ('ignore previous' as example of what to detect).",
+    "override_by": "PM internet verification 20260303",
+    "date": "2026-03-03"
+  },
+  "skill_type": "agent_skill"
 }

@@ -1,0 +1,24 @@
+{
+  "id": "cicd-diagnostics-c094a7b4",
+  "name": "cicd-diagnostics",
+  "description": "Diagnoses DotCMS GitHub Actions failures (PR builds, merge queue, nightly, trunk). Analyzes failed tests, root causes, compares runs. Use for \"fails in GitHub\", \"merge queue failure\", \"PR build failed\", \"nightly build issue\".",
+  "repo_url": "https://github.com/dotcms/core",
+  "source_hub": "skillsmp",
+  "skill_type": "agent_skill",
+  "owner": "dotcms",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "agent-skills",
+    "dev-devops",
+    "installs:936"
+  ],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null,
+  "repo_status": "available",
+  "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
+  "repo_check_error": null
+}

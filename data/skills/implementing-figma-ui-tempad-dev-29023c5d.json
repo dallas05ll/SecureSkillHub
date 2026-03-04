@@ -1,0 +1,24 @@
+{
+  "id": "implementing-figma-ui-tempad-dev-29023c5d",
+  "name": "implementing-figma-ui-tempad-dev",
+  "description": "Implement integration-ready UI code from a Figma selection or a provided nodeId using TemPad Dev MCP as the only source of design evidence (code snapshot, structure, assets, tokens, codegen config). Detect the target repo stack and conventions first, then translate TemPad Dev’s Tailwind-like JSX/Vue IR into project-native code without adding new dependencies. Never guess key styles or measurements. If required evidence is missing/contradictory or assets cannot be handled under repo policy, st...",
+  "repo_url": "https://github.com/ecomfe/tempad-dev",
+  "source_hub": "skillsmp",
+  "skill_type": "agent_skill",
+  "owner": "ecomfe",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "agent-skills",
+    "dev-web-frontend",
+    "installs:428"
+  ],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null,
+  "repo_status": "available",
+  "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
+  "repo_check_error": null
+}

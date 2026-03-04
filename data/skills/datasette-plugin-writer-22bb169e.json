@@ -1,0 +1,24 @@
+{
+  "id": "datasette-plugin-writer-22bb169e",
+  "name": "datasette-plugin-writer",
+  "description": "Guide for writing Datasette plugins. This skill should be used when users want to create or develop plugins for Datasette, including information about plugin hooks, the cookiecutter template, database APIs, request/response handling, and plugin configuration.",
+  "repo_url": "https://github.com/simonw/research",
+  "source_hub": "skillsmp",
+  "skill_type": "agent_skill",
+  "owner": "simonw",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "agent-skills",
+    "data-db",
+    "installs:328"
+  ],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null,
+  "repo_status": "available",
+  "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
+  "repo_check_error": null
+}

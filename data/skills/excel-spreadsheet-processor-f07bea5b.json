@@ -30,7 +30,7 @@
   ],
   "version": "1.0.0",
   "requires_code_execution": true,
-  "verification_status": "pass",
+  "verification_status": "unverified",
   "overall_score": 90,
   "risk_level": "low",
   "verified_commit": null,
@@ -49,5 +49,12 @@
   "repo_status": "unavailable",
   "repo_check_date": "2026-02-28T20:51:40.508877+00:00",
   "repo_check_error": "fatal: repository 'https://github.com/anthropics/skills/tree/main/document-skills/xlsx/' not found",
-  "verification_level": "scanner_only"
+  "status_cleared": {
+    "date": "2026-03-02T20:40:18.531782+00:00",
+    "previous_status": "pass",
+    "previous_score": 90,
+    "previous_risk": "low",
+    "verification_level": "scanner_only",
+    "reason": "SM cleanup: only full_pipeline pass is real pass. Needs re-verification."
+  }
 }

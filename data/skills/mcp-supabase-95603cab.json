@@ -10,8 +10,7 @@
   "tags": [
     "data-ai",
     "data-db",
-    "integ",
-    "status-fail"
+    "integ"
   ],
   "verification_status": "pass",
   "overall_score": 85,
@@ -97,5 +96,6 @@
       "override_reason": "Deterministic override: high-risk obfuscation detected."
     },
     "manager_summary": "5/5 agents completed. Score: 15/100, Risk: critical. 0 mismatches, 32 scanner findings. Rejected at 90% confidence. Safety overrides triggered."
-  }
+  },
+  "skill_type": "mcp_server"
 }

@@ -1,0 +1,24 @@
+{
+  "id": "authoritative-data-harvester-cb3cf4ca",
+  "name": "authoritative-data-harvester",
+  "description": "自动定位并获取权威公开数据（优先API/官方批量下载），输出可复现抓取与清洗方案。Invoke when用户需要权威数据、官方统计、API下载或数据源爬取。",
+  "repo_url": "https://github.com/yushui2022/liuhuan-mathmodel-skills",
+  "source_hub": "skillsmp",
+  "skill_type": "agent_skill",
+  "owner": "yushui2022",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "agent-skills",
+    "utilities",
+    "installs:22"
+  ],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null,
+  "repo_status": "available",
+  "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
+  "repo_check_error": null
+}

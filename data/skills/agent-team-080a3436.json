@@ -1,0 +1,24 @@
+{
+  "id": "agent-team-080a3436",
+  "name": "agent-team",
+  "description": "Launch and coordinate Claude Code agent teams for complex tasks. Use when the user wants to parallelize work across multiple agents, needs a team for review, debugging, design, or feature development, or asks to \"create a team\" or \"spawn agents.\" Keywords: agent team, team, spawn, teammates, parallel agents, coordinate, collaborate, multi-agent",
+  "repo_url": "https://github.com/wcygan/dotfiles",
+  "source_hub": "skillsmp",
+  "skill_type": "agent_skill",
+  "owner": "wcygan",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "agent-skills",
+    "utilities",
+    "installs:186"
+  ],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null,
+  "repo_status": "available",
+  "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
+  "repo_check_error": null
+}

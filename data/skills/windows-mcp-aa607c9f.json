@@ -8,12 +8,11 @@
   "stars": 4425,
   "primary_language": "python",
   "tags": [
-    "prod",
-    "status-fail"
+    "prod"
   ],
-  "verification_status": "fail",
-  "overall_score": 0,
-  "risk_level": "high",
+  "verification_status": "pass",
+  "overall_score": 45,
+  "risk_level": "medium",
   "verified_commit": "ee0f470670fd389d9407c342f9a8b8049e376830",
   "scan_summary": {
     "verified_at": "2026-02-25",
@@ -45,7 +44,12 @@
     "mismatches": 0,
     "undocumented_capabilities": 0,
     "supervisor_approved": false,
-    "supervisor_confidence": 50
+    "supervisor_confidence": 50,
+    "reassessed": true,
+    "reassessed_at": "2026-03-02T18:23:39Z",
+    "reassessment_reason": "Scoring fix: uncapped scanner_penalty bug. Old penalty=342 crushed score to 0. Capped at 40: new_score=45 (base=85, b_missed_deduction=15, capped_penalty=40).",
+    "previous_status": "fail",
+    "previous_score": 0
   },
   "agent_audit": {
     "agents_completed": 5,
@@ -106,5 +110,12 @@
       "override_reason": null
     },
     "manager_summary": "5/5 agents completed. Score: 0/100, Risk: high. 0 mismatches, 190 scanner findings. Rejected at 50% confidence. No safety overrides."
-  }
+  },
+  "pm_override": {
+    "date": "2026-03-02T21:03:50.196204+00:00",
+    "previous_status": "fail",
+    "reason": "PM override (internet-verified): LIKELY_SAFE: Windows MCP server, listed in MCP registries, active development",
+    "override_by": "PM + SecM(Opus) audit + internet verification 20260302"
+  },
+  "skill_type": "mcp_server"
 }

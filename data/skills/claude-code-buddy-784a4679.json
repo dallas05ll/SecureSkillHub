@@ -14,18 +14,26 @@
     "dev",
     "prod",
     "prod-notes",
-    "prod-pm"
+    "prod-pm",
+    "repo_unavailable"
   ],
-  "verification_status": "pass",
-  "overall_score": 72,
-  "risk_level": "low",
+  "verification_status": "unverified",
+  "overall_score": null,
+  "risk_level": null,
   "verified_commit": null,
   "scan_summary": null,
   "last_updated": "2026-02-25T15:46:29Z",
-  "findings_summary": {
-    "notes": "MIT licensed, TypeScript, npm package available. Active maintenance. Clear functionality."
-  },
   "trust_level": "low",
-  "scan_date": "2026-02-26T02:11:57Z",
-  "verification_level": "scanner_only"
+  "scan_date": null,
+  "repo_status": "unavailable",
+  "repo_check_date": "2026-03-03T22:14:00Z",
+  "verification_level": null,
+  "status_cleared": {
+    "date": "2026-03-02T20:40:18.531782+00:00",
+    "previous_status": "pass",
+    "previous_score": 72,
+    "previous_risk": "low",
+    "verification_level": "scanner_only",
+    "reason": "SM cleanup: only full_pipeline pass is real pass. Needs re-verification."
+  }
 }

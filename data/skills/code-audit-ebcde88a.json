@@ -1,0 +1,24 @@
+{
+  "id": "code-audit-ebcde88a",
+  "name": "code-audit",
+  "description": "Professional code security audit skill covering 55+ vulnerability types.\nEnhanced with WooYun 88,636 real-world vulnerability cases (2010-2016).\nThis skill should be used when performing security audits, vulnerability scanning,\npenetration testing preparation, or code review for security issues.\nSupports 9 languages: Java, Python, Go, PHP, JavaScript/Node.js, C/C++, .NET/C#, Ruby, Rust.\nIncludes 143 mandatory detection items across all languages with language-specific checklists.\nCovers SQL i...",
+  "repo_url": "https://github.com/3stonebrother/code-audit",
+  "source_hub": "skillsmp",
+  "skill_type": "agent_skill",
+  "owner": "3stonebrother",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "agent-skills",
+    "dev-web-backend",
+    "installs:90"
+  ],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null,
+  "repo_status": "available",
+  "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
+  "repo_check_error": null
+}

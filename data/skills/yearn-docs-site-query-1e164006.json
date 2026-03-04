@@ -1,0 +1,24 @@
+{
+  "id": "yearn-docs-site-query-1e164006",
+  "name": "yearn-docs-site-query",
+  "description": "Query and cite Yearn documentation via the hosted docs site's AI exports (llms.txt, /ai/manifest.json, /ai/docs.jsonl, and optional /ai/raw/). Use when answering questions from docs.yearn.fi (or a Vercel preview) without cloning the repo, and when you need reliable retrieval + citations from the published docs.",
+  "repo_url": "https://github.com/yearn/yearn-devdocs",
+  "source_hub": "skillsmp",
+  "skill_type": "agent_skill",
+  "owner": "yearn",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "agent-skills",
+    "utilities",
+    "installs:88"
+  ],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null,
+  "repo_status": "available",
+  "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
+  "repo_check_error": null
+}

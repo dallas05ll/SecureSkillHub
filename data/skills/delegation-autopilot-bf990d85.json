@@ -1,0 +1,24 @@
+{
+  "id": "delegation-autopilot-bf990d85",
+  "name": "delegation-autopilot",
+  "description": "In Codex interactive mode, call delegate_autopilot automatically for multi-step or cross-cutting requests (including research-only), otherwise work normally.",
+  "repo_url": "https://github.com/leonardsellem/codex-specialized-subagents",
+  "source_hub": "skillsmp",
+  "skill_type": "agent_skill",
+  "owner": "leonardsellem",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "agent-skills",
+    "utilities",
+    "installs:45"
+  ],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null,
+  "repo_status": "available",
+  "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
+  "repo_check_error": null
+}

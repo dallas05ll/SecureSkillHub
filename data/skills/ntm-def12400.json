@@ -1,0 +1,24 @@
+{
+  "id": "ntm-def12400",
+  "name": "ntm",
+  "description": "Named Tmux Manager - Multi-agent orchestration for Claude Code, Codex, and Gemini in tiled tmux panes. Visual dashboards, command palette, context rotation, robot mode API, work assignment, safety system. Go CLI.",
+  "repo_url": "https://github.com/dicklesworthstone/ntm",
+  "source_hub": "skillsmp",
+  "skill_type": "agent_skill",
+  "owner": "dicklesworthstone",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "agent-skills",
+    "utilities",
+    "installs:147"
+  ],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null,
+  "repo_status": "available",
+  "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
+  "repo_check_error": null
+}

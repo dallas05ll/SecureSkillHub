@@ -1,0 +1,24 @@
+{
+  "id": "claude-a11y-audit-1895f968",
+  "name": "claude-a11y-audit",
+  "description": "Use when reviewing UI diffs, accessibility audits, or flaky UI tests to catch a11y regressions, semantic issues, keyboard/focus problems, and to recommend minimal fixes plus role-based test selectors.",
+  "repo_url": "https://github.com/switchbacktech/compass",
+  "source_hub": "skillsmp",
+  "skill_type": "agent_skill",
+  "owner": "switchbacktech",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "agent-skills",
+    "utilities",
+    "installs:211"
+  ],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null,
+  "repo_status": "available",
+  "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
+  "repo_check_error": null
+}

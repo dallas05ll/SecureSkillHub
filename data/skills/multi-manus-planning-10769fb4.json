@@ -1,0 +1,24 @@
+{
+  "id": "multi-manus-planning-10769fb4",
+  "name": "multi-manus-planning",
+  "description": "Multi-project Manus-style planning with coordinator pattern. Supports project switching, separate planning/source paths, and cross-machine sync via git. Creates task_plan.md, findings.md, and progress.md.",
+  "repo_url": "https://github.com/kmichels/multi-manus-planning",
+  "source_hub": "skillsmp",
+  "skill_type": "agent_skill",
+  "owner": "kmichels",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "agent-skills",
+    "dev-git",
+    "installs:14"
+  ],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null,
+  "repo_status": "available",
+  "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
+  "repo_check_error": null
+}

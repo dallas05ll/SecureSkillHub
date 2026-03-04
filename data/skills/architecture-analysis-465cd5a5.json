@@ -1,0 +1,24 @@
+{
+  "id": "architecture-analysis-465cd5a5",
+  "name": "architecture-analysis",
+  "description": "Architectural dependency analysis and impact assessment. Use for: (1) Blast radius - who depends on a service, what breaks if I change it; (2) Dependency tree - what does a service depend on (ancestors/upstream); (3) Root cause analysis - find shared dependencies when multiple services fail; (4) Architecture metrics - coupling (density), depth (diameter), connectivity; (5) Domain discovery - identify module boundaries via cut vertices; (6) Hot services - critical infrastructure with many depe...",
+  "repo_url": "https://github.com/front-depiction/claude-setup",
+  "source_hub": "skillsmp",
+  "skill_type": "agent_skill",
+  "owner": "front-depiction",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "agent-skills",
+    "dev-devops",
+    "installs:14"
+  ],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null,
+  "repo_status": "available",
+  "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
+  "repo_check_error": null
+}

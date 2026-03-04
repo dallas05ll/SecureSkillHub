@@ -1,0 +1,24 @@
+{
+  "id": "superplane-cli-c7891080",
+  "name": "superplane-cli",
+  "description": "Use when working with the SuperPlane CLI to discover available integrations, components, and triggers, and to build or troubleshoot canvases that connect trigger->component flows. Covers list/get command usage, interpreting configuration schemas, wiring channels between nodes, and resolving integration binding issues such as \"integration is required\".",
+  "repo_url": "https://github.com/superplanehq/superplane",
+  "source_hub": "skillsmp",
+  "skill_type": "agent_skill",
+  "owner": "superplanehq",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "agent-skills",
+    "dev-web-frontend",
+    "installs:653"
+  ],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null,
+  "repo_status": "available",
+  "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
+  "repo_check_error": null
+}

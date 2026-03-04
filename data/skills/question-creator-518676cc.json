@@ -1,0 +1,24 @@
+{
+  "id": "question-creator-518676cc",
+  "name": "question-creator",
+  "description": "创建符合 CAC 评测系统规范的标准化测试题目。当用户需要添加新题目、创建测试题、或提到\"创建题目\"、\"新建题目\"、\"添加题目\"、\"add question\"、\"create question\"时使用此 Skill。支持代码、数理、逻辑、综合四类题库。",
+  "repo_url": "https://github.com/t-auto/cac-final-test",
+  "source_hub": "skillsmp",
+  "skill_type": "agent_skill",
+  "owner": "t-auto",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "agent-skills",
+    "utilities",
+    "installs:21"
+  ],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null,
+  "repo_status": "available",
+  "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
+  "repo_check_error": null
+}

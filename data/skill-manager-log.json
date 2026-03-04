@@ -1822,12 +1822,2187 @@
         "total_false_positives": 0,
         "overrides_only": true
       }
+    },
+    {
+      "timestamp": "2026-03-02T13:32:44.032765+00:00",
+      "check_type": "health_check",
+      "findings": {
+        "total_skills": 6307,
+        "verified": 4691,
+        "unverified": 1330,
+        "full_pipeline": 223,
+        "scanner_only": 4167,
+        "metadata_only": 361,
+        "with_agent_audit": 223,
+        "status_breakdown": {
+          "pass": 4691,
+          "unverified": 1330,
+          "manual_review": 232,
+          "fail": 54
+        },
+        "star_tiers": {
+          "1000+": 149,
+          "100-999": 388,
+          "10-99": 1203,
+          "1-9": 1880,
+          "0": 2687
+        },
+        "issues": [
+          "946 verified skills with null verified_commit"
+        ]
+      },
+      "recommendations": [
+        "Crawl pending hubs: skills_sh, skillsmp",
+        "Verify more skills: 1,330 unverified (only 3% verified)",
+        "Investigate 946 verified skills with null verified_commit"
+      ],
+      "changes_since_last": {
+        "new_skills": 6307,
+        "newly_verified": 4691,
+        "status_changes": [
+          "+6307 new skills added",
+          "+4691 newly verified",
+          "+1330 unverified delta"
+        ]
+      }
+    },
+    {
+      "timestamp": "2026-03-02T14:49:14.174880+00:00",
+      "check_type": "verification_run",
+      "findings": {
+        "selected_count": 50,
+        "processed_count": 50,
+        "status_counts": {
+          "manual_review": 50
+        },
+        "stage_failures": {
+          "clone": 50
+        },
+        "remaining_unverified": 0,
+        "run_report": "/Users/liendallas/Desktop/Projects/SecureSkillHub/data/verification-runs/20260302T144914Z_strict5_limit50.json"
+      }
+    },
+    {
+      "type": "secm_fp_audit",
+      "timestamp": "2026-03-02T18:24:48Z",
+      "triggered_by": "PM authorization — uncapped scanner_penalty bug fix",
+      "summary": {
+        "total_reassessed": 11,
+        "score_changes": 11,
+        "status_upgrades": 1,
+        "method": "Custom corrective script (batch_reassess.py cannot handle because scorer.overall_score was already post-penalty crushed). Reconstructed base from formula: 100 - 10*M - 5*U - 15*B, then applied capped penalty (min(40, raw)).",
+        "bug_description": "Old pipeline had no cap on scanner_penalty. Large codebases with many low/medium findings scored 0 despite no injection or obfuscation."
+      },
+      "results": [
+        {
+          "id": "remembering-conversations-acd92983",
+          "stars": 5500,
+          "old_score": 0,
+          "new_score": 60,
+          "old_status": "fail",
+          "new_status": "manual_review",
+          "old_penalty": 119,
+          "capped_penalty": 40
+        },
+        {
+          "id": "claude-context-92028691",
+          "stars": 5443,
+          "old_score": 0,
+          "new_score": 45,
+          "old_status": "fail",
+          "new_status": "fail",
+          "old_penalty": 122,
+          "capped_penalty": 40
+        },
+        {
+          "id": "nestjs-best-practices-20b79c91",
+          "stars": 5200,
+          "old_score": 14,
+          "new_score": 30,
+          "old_status": "fail",
+          "new_status": "fail",
+          "old_penalty": 56,
+          "capped_penalty": 40
+        },
+        {
+          "id": "windows-mcp-aa607c9f",
+          "stars": 4425,
+          "old_score": 0,
+          "new_score": 45,
+          "old_status": "fail",
+          "new_status": "fail",
+          "old_penalty": 342,
+          "capped_penalty": 40
+        },
+        {
+          "id": "agentation-ede2fa7e",
+          "stars": 4200,
+          "old_score": 0,
+          "new_score": 45,
+          "old_status": "fail",
+          "new_status": "fail",
+          "old_penalty": 105,
+          "capped_penalty": 40
+        },
+        {
+          "id": "mobile-mcp-45aa5582",
+          "stars": 3550,
+          "old_score": 20,
+          "new_score": 30,
+          "old_status": "fail",
+          "new_status": "fail",
+          "old_penalty": 50,
+          "capped_penalty": 40
+        },
+        {
+          "id": "fastmcp-b8853d85",
+          "stars": 2959,
+          "old_score": 0,
+          "new_score": 45,
+          "old_status": "fail",
+          "new_status": "fail",
+          "old_penalty": 386,
+          "capped_penalty": 40
+        },
+        {
+          "id": "buildwithclaude-2b3d5f24",
+          "stars": 2492,
+          "old_score": 0,
+          "new_score": 45,
+          "old_status": "fail",
+          "new_status": "fail",
+          "old_penalty": 565,
+          "capped_penalty": 40
+        },
+        {
+          "id": "peekaboo-7a0ef95f",
+          "stars": 2383,
+          "old_score": 0,
+          "new_score": 45,
+          "old_status": "fail",
+          "new_status": "fail",
+          "old_penalty": 110,
+          "capped_penalty": 40
+        },
+        {
+          "id": "dbhub-3f995b9f",
+          "stars": 2177,
+          "old_score": 0,
+          "new_score": 30,
+          "old_status": "fail",
+          "new_status": "fail",
+          "old_penalty": 279,
+          "capped_penalty": 40
+        },
+        {
+          "id": "papersgpt-for-zotero-796c9dfd",
+          "stars": 2130,
+          "old_score": 26,
+          "new_score": 45,
+          "old_status": "fail",
+          "new_status": "fail",
+          "old_penalty": 59,
+          "capped_penalty": 40
+        }
+      ]
+    },
+    {
+      "timestamp": "2026-03-03T03:24:16.970877+00:00",
+      "check_type": "verification_run",
+      "findings": {
+        "selected_count": 50,
+        "processed_count": 50,
+        "status_counts": {
+          "manual_review": 12,
+          "fail": 27,
+          "pass": 11
+        },
+        "stage_failures": {},
+        "remaining_unverified": 4418,
+        "run_report": "/Users/liendallas/Desktop/Projects/SecureSkillHub/data/verification-runs/20260303T032416Z_strict5_limit50.json"
+      }
+    },
+    {
+      "timestamp": "2026-03-03T03:39:55.001754+00:00",
+      "check_type": "verification_run",
+      "findings": {
+        "selected_count": 50,
+        "processed_count": 50,
+        "status_counts": {
+          "pass": 16,
+          "manual_review": 18,
+          "fail": 16
+        },
+        "stage_failures": {},
+        "remaining_unverified": 4368,
+        "run_report": "/Users/liendallas/Desktop/Projects/SecureSkillHub/data/verification-runs/20260303T033954Z_strict5_limit50.json"
+      }
+    },
+    {
+      "timestamp": "2026-03-03T03:50:26.378336+00:00",
+      "check_type": "verification_run",
+      "findings": {
+        "selected_count": 59,
+        "processed_count": 59,
+        "status_counts": {
+          "pass": 23,
+          "fail": 17,
+          "manual_review": 19
+        },
+        "stage_failures": {},
+        "remaining_unverified": 4309,
+        "run_report": "/Users/liendallas/Desktop/Projects/SecureSkillHub/data/verification-runs/20260303T035025Z_strict5_limit50.json"
+      }
+    },
+    {
+      "timestamp": "2026-03-03T03:55:53.586645+00:00",
+      "check_type": "verification_run",
+      "findings": {
+        "selected_count": 69,
+        "processed_count": 69,
+        "status_counts": {
+          "manual_review": 23,
+          "pass": 20,
+          "fail": 26
+        },
+        "stage_failures": {},
+        "remaining_unverified": 4255,
+        "run_report": "/Users/liendallas/Desktop/Projects/SecureSkillHub/data/verification-runs/20260303T035553Z_strict5_limit50.json"
+      }
+    },
+    {
+      "timestamp": "2026-03-03T05:16:10.609198+00:00",
+      "check_type": "verification_run",
+      "findings": {
+        "selected_count": 30,
+        "processed_count": 30,
+        "status_counts": {
+          "pass": 10,
+          "fail": 11,
+          "manual_review": 9
+        },
+        "stage_failures": {},
+        "remaining_unverified": 4270,
+        "run_report": "/Users/liendallas/Desktop/Projects/SecureSkillHub/data/verification-runs/20260303T051610Z_strict5_limit50.json"
+      }
+    },
+    {
+      "timestamp": "2026-03-03T05:19:17.358958+00:00",
+      "check_type": "verification_run",
+      "findings": {
+        "selected_count": 30,
+        "processed_count": 30,
+        "status_counts": {
+          "pass": 15,
+          "fail": 10,
+          "manual_review": 5
+        },
+        "stage_failures": {},
+        "remaining_unverified": 4240,
+        "run_report": "/Users/liendallas/Desktop/Projects/SecureSkillHub/data/verification-runs/20260303T051917Z_strict5_limit50.json"
+      }
+    },
+    {
+      "timestamp": "2026-03-03T05:22:25.805707+00:00",
+      "check_type": "verification_run",
+      "findings": {
+        "selected_count": 30,
+        "processed_count": 30,
+        "status_counts": {
+          "manual_review": 7,
+          "pass": 16,
+          "fail": 7
+        },
+        "stage_failures": {},
+        "remaining_unverified": 4210,
+        "run_report": "/Users/liendallas/Desktop/Projects/SecureSkillHub/data/verification-runs/20260303T052225Z_strict5_limit30.json"
+      }
+    },
+    {
+      "timestamp": "2026-03-03T05:23:48.875158+00:00",
+      "check_type": "verification_run",
+      "findings": {
+        "selected_count": 25,
+        "processed_count": 25,
+        "status_counts": {
+          "pass": 11,
+          "manual_review": 7,
+          "fail": 7
+        },
+        "stage_failures": {},
+        "remaining_unverified": 4185,
+        "run_report": "/Users/liendallas/Desktop/Projects/SecureSkillHub/data/verification-runs/20260303T052348Z_strict5_limit25.json"
+      }
+    },
+    {
+      "timestamp": "2026-03-03T14:50:50.000555+00:00",
+      "check_type": "verification_run",
+      "findings": {
+        "selected_count": 100,
+        "processed_count": 100,
+        "status_counts": {
+          "pass": 44,
+          "manual_review": 31,
+          "fail": 25
+        },
+        "stage_failures": {},
+        "remaining_unverified": 4085,
+        "run_report": "/Users/liendallas/Desktop/Projects/SecureSkillHub/data/verification-runs/20260303T145049Z_strict5_limit100.json"
+      }
+    },
+    {
+      "timestamp": "2026-03-03T14:51:27.256076+00:00",
+      "check_type": "verification_run",
+      "findings": {
+        "selected_count": 100,
+        "processed_count": 100,
+        "status_counts": {
+          "pass": 44,
+          "manual_review": 31,
+          "fail": 25
+        },
+        "stage_failures": {},
+        "remaining_unverified": 4070,
+        "run_report": "/Users/liendallas/Desktop/Projects/SecureSkillHub/data/verification-runs/20260303T145127Z_strict5_limit100.json"
+      }
+    },
+    {
+      "timestamp": "2026-03-03T14:55:50.545111+00:00",
+      "check_type": "verification_run",
+      "findings": {
+        "selected_count": 100,
+        "processed_count": 100,
+        "status_counts": {
+          "manual_review": 35,
+          "fail": 19,
+          "pass": 44,
+          "skip": 2
+        },
+        "stage_failures": {
+          "clone_network": 2
+        },
+        "remaining_unverified": 3987,
+        "run_report": "/Users/liendallas/Desktop/Projects/SecureSkillHub/data/verification-runs/20260303T145550Z_strict5_limit100.json"
+      }
+    },
+    {
+      "timestamp": "2026-03-03T14:58:14.209824+00:00",
+      "check_type": "verification_run",
+      "findings": {
+        "selected_count": 100,
+        "processed_count": 100,
+        "status_counts": {
+          "pass": 46,
+          "manual_review": 30,
+          "fail": 24
+        },
+        "stage_failures": {},
+        "remaining_unverified": 3887,
+        "run_report": "/Users/liendallas/Desktop/Projects/SecureSkillHub/data/verification-runs/20260303T145814Z_strict5_limit100.json"
+      }
+    },
+    {
+      "timestamp": "2026-03-03T15:00:30.431088+00:00",
+      "check_type": "verification_run",
+      "findings": {
+        "selected_count": 100,
+        "processed_count": 100,
+        "status_counts": {
+          "pass": 57,
+          "manual_review": 29,
+          "fail": 14
+        },
+        "stage_failures": {},
+        "remaining_unverified": 3787,
+        "run_report": "/Users/liendallas/Desktop/Projects/SecureSkillHub/data/verification-runs/20260303T150030Z_strict5_limit100.json"
+      }
+    },
+    {
+      "timestamp": "2026-03-03T15:02:59.668755+00:00",
+      "check_type": "verification_run",
+      "findings": {
+        "selected_count": 100,
+        "processed_count": 100,
+        "status_counts": {
+          "manual_review": 45,
+          "pass": 43,
+          "fail": 12
+        },
+        "stage_failures": {},
+        "remaining_unverified": 3687,
+        "run_report": "/Users/liendallas/Desktop/Projects/SecureSkillHub/data/verification-runs/20260303T150259Z_strict5_limit100.json"
+      }
+    },
+    {
+      "timestamp": "2026-03-03T15:50:23.690334+00:00",
+      "check_type": "verification_run",
+      "findings": {
+        "selected_count": 50,
+        "processed_count": 50,
+        "status_counts": {
+          "pass": 33,
+          "manual_review": 11,
+          "skip": 2,
+          "fail": 4
+        },
+        "stage_failures": {
+          "clone_network": 2
+        },
+        "remaining_unverified": 3639,
+        "run_report": "/Users/liendallas/Desktop/Projects/SecureSkillHub/data/verification-runs/20260303T155023Z_strict5_limit50.json"
+      }
+    },
+    {
+      "timestamp": "2026-03-03T15:51:06.183839+00:00",
+      "check_type": "verification_run",
+      "findings": {
+        "selected_count": 49,
+        "processed_count": 49,
+        "status_counts": {
+          "manual_review": 16,
+          "pass": 25,
+          "fail": 8
+        },
+        "stage_failures": {},
+        "remaining_unverified": 3590,
+        "run_report": "/Users/liendallas/Desktop/Projects/SecureSkillHub/data/verification-runs/20260303T155105Z_strict5_limit50.json"
+      }
+    },
+    {
+      "timestamp": "2026-03-03T16:05:42.925242+00:00",
+      "check_type": "verification_run",
+      "findings": {
+        "selected_count": 20,
+        "processed_count": 20,
+        "status_counts": {
+          "skip": 2,
+          "pass": 14,
+          "manual_review": 3,
+          "fail": 1
+        },
+        "stage_failures": {
+          "clone_network": 2
+        },
+        "remaining_unverified": 3572,
+        "run_report": "/Users/liendallas/Desktop/Projects/SecureSkillHub/data/verification-runs/20260303T160542Z_strict5_limit20.json"
+      }
+    },
+    {
+      "timestamp": "2026-03-03T16:18:31.506467+00:00",
+      "check_type": "verification_run",
+      "findings": {
+        "selected_count": 49,
+        "processed_count": 49,
+        "status_counts": {
+          "skip": 2,
+          "pass": 34,
+          "manual_review": 12,
+          "fail": 1
+        },
+        "stage_failures": {
+          "clone_network": 2
+        },
+        "remaining_unverified": 3641,
+        "run_report": "/Users/liendallas/Desktop/Projects/SecureSkillHub/data/verification-runs/20260303T161830Z_strict5_limit50.json"
+      }
+    },
+    {
+      "timestamp": "2026-03-03T16:19:16.492409+00:00",
+      "check_type": "verification_run",
+      "findings": {
+        "selected_count": 50,
+        "processed_count": 50,
+        "status_counts": {
+          "pass": 35,
+          "manual_review": 13,
+          "fail": 2
+        },
+        "stage_failures": {},
+        "remaining_unverified": 3591,
+        "run_report": "/Users/liendallas/Desktop/Projects/SecureSkillHub/data/verification-runs/20260303T161916Z_strict5_limit50.json"
+      }
+    },
+    {
+      "timestamp": "2026-03-03T16:53:28.062296+00:00",
+      "check_type": "health_check",
+      "findings": {
+        "total_skills": 6299,
+        "verified": 1147,
+        "unverified": 5144,
+        "full_pipeline": 1155,
+        "scanner_only": 3295,
+        "metadata_only": 301,
+        "with_agent_audit": 1155,
+        "status_breakdown": {
+          "unverified": 5144,
+          "pass": 1147,
+          "manual_review": 8
+        },
+        "star_tiers": {
+          "1000+": 144,
+          "100-999": 387,
+          "10-99": 1203,
+          "1-9": 1880,
+          "0": 2685
+        },
+        "issues": []
+      },
+      "recommendations": [
+        "Crawl pending hubs: skills_sh, skillsmp",
+        "Verify more skills: 5,144 unverified (only 18% verified)"
+      ],
+      "changes_since_last": {
+        "new_skills": 6299,
+        "newly_verified": 1147,
+        "status_changes": [
+          "+6299 new skills added",
+          "+1147 newly verified",
+          "+5144 unverified delta"
+        ]
+      }
+    },
+    {
+      "timestamp": "2026-03-03T16:57:58.836372+00:00",
+      "check_type": "verification_run",
+      "findings": {
+        "selected_count": 20,
+        "processed_count": 20,
+        "status_counts": {
+          "skip": 2,
+          "manual_review": 3,
+          "pass": 14,
+          "fail": 1
+        },
+        "stage_failures": {
+          "clone_network": 2
+        },
+        "remaining_unverified": 3573,
+        "run_report": "/Users/liendallas/Desktop/Projects/SecureSkillHub/data/verification-runs/20260303T165758Z_strict5_limit50.json"
+      }
+    },
+    {
+      "timestamp": "2026-03-03T17:16:42.849673+00:00",
+      "check_type": "verification_run",
+      "findings": {
+        "selected_count": 99,
+        "processed_count": 99,
+        "status_counts": {
+          "pass": 96,
+          "skip": 2,
+          "fail": 1
+        },
+        "stage_failures": {
+          "clone_network": 2
+        },
+        "remaining_unverified": 3476,
+        "run_report": "/Users/liendallas/Desktop/Projects/SecureSkillHub/data/verification-runs/20260303T171642Z_strict5_limit50.json"
+      }
+    },
+    {
+      "timestamp": "2026-03-03T17:30:47.583356+00:00",
+      "check_type": "verification_run",
+      "findings": {
+        "selected_count": 50,
+        "processed_count": 50,
+        "status_counts": {
+          "pass": 49,
+          "fail": 1
+        },
+        "stage_failures": {},
+        "remaining_unverified": 3385,
+        "run_report": "/Users/liendallas/Desktop/Projects/SecureSkillHub/data/verification-runs/20260303T173047Z_strict5_limit50.json"
+      }
+    },
+    {
+      "timestamp": "2026-03-03T17:33:00.098969+00:00",
+      "check_type": "verification_run",
+      "findings": {
+        "selected_count": 50,
+        "processed_count": 50,
+        "status_counts": {
+          "pass": 47,
+          "fail": 2,
+          "skip": 1
+        },
+        "stage_failures": {
+          "clone_network": 1
+        },
+        "remaining_unverified": 3376,
+        "run_report": "/Users/liendallas/Desktop/Projects/SecureSkillHub/data/verification-runs/20260303T173259Z_strict5_limit50.json"
+      }
+    },
+    {
+      "timestamp": "2026-03-03T17:34:05.047119+00:00",
+      "check_type": "verification_run",
+      "findings": {
+        "selected_count": 50,
+        "processed_count": 50,
+        "status_counts": {
+          "pass": 47,
+          "fail": 3
+        },
+        "stage_failures": {},
+        "remaining_unverified": 3290,
+        "run_report": "/Users/liendallas/Desktop/Projects/SecureSkillHub/data/verification-runs/20260303T173404Z_strict5_limit50.json"
+      }
+    },
+    {
+      "timestamp": "2026-03-03T17:34:09.323737+00:00",
+      "check_type": "verification_run",
+      "findings": {
+        "selected_count": 50,
+        "processed_count": 50,
+        "status_counts": {
+          "pass": 49,
+          "fail": 1
+        },
+        "stage_failures": {},
+        "remaining_unverified": 3276,
+        "run_report": "/Users/liendallas/Desktop/Projects/SecureSkillHub/data/verification-runs/20260303T173409Z_strict5_limit50.json"
+      }
+    },
+    {
+      "timestamp": "2026-03-03T17:35:04.821726+00:00",
+      "check_type": "verification_run",
+      "findings": {
+        "selected_count": 50,
+        "processed_count": 50,
+        "status_counts": {
+          "pass": 50
+        },
+        "stage_failures": {},
+        "remaining_unverified": 3182,
+        "run_report": "/Users/liendallas/Desktop/Projects/SecureSkillHub/data/verification-runs/20260303T173504Z_strict5_limit50.json"
+      }
+    },
+    {
+      "timestamp": "2026-03-03T17:35:07.930406+00:00",
+      "check_type": "verification_run",
+      "findings": {
+        "selected_count": 50,
+        "processed_count": 50,
+        "status_counts": {
+          "pass": 49,
+          "fail": 1
+        },
+        "stage_failures": {},
+        "remaining_unverified": 3176,
+        "run_report": "/Users/liendallas/Desktop/Projects/SecureSkillHub/data/verification-runs/20260303T173507Z_strict5_limit50.json"
+      }
+    },
+    {
+      "timestamp": "2026-03-03T17:35:53.469322+00:00",
+      "check_type": "verification_run",
+      "findings": {
+        "selected_count": 50,
+        "processed_count": 50,
+        "status_counts": {
+          "skip": 1,
+          "pass": 49
+        },
+        "stage_failures": {
+          "clone_network": 1
+        },
+        "remaining_unverified": 3101,
+        "run_report": "/Users/liendallas/Desktop/Projects/SecureSkillHub/data/verification-runs/20260303T173553Z_strict5_limit50.json"
+      }
+    },
+    {
+      "timestamp": "2026-03-03T17:36:55.795281+00:00",
+      "check_type": "verification_run",
+      "findings": {
+        "selected_count": 50,
+        "processed_count": 50,
+        "status_counts": {
+          "pass": 48,
+          "fail": 1,
+          "skip": 1
+        },
+        "stage_failures": {
+          "clone_network": 1
+        },
+        "remaining_unverified": 3078,
+        "run_report": "/Users/liendallas/Desktop/Projects/SecureSkillHub/data/verification-runs/20260303T173655Z_strict5_limit50.json"
+      }
+    },
+    {
+      "timestamp": "2026-03-03T17:37:36.287980+00:00",
+      "check_type": "verification_run",
+      "findings": {
+        "selected_count": 31,
+        "processed_count": 31,
+        "status_counts": {
+          "pass": 30,
+          "fail": 1
+        },
+        "stage_failures": {},
+        "remaining_unverified": 3020,
+        "run_report": "/Users/liendallas/Desktop/Projects/SecureSkillHub/data/verification-runs/20260303T173736Z_strict5_limit50.json"
+      }
+    },
+    {
+      "timestamp": "2026-03-03T17:37:40.122287+00:00",
+      "check_type": "verification_run",
+      "findings": {
+        "selected_count": 32,
+        "processed_count": 32,
+        "status_counts": {
+          "pass": 31,
+          "fail": 1
+        },
+        "stage_failures": {},
+        "remaining_unverified": 3015,
+        "run_report": "/Users/liendallas/Desktop/Projects/SecureSkillHub/data/verification-runs/20260303T173739Z_strict5_limit50.json"
+      }
+    },
+    {
+      "timestamp": "2026-03-03T17:42:30.364655+00:00",
+      "check_type": "verification_run",
+      "findings": {
+        "selected_count": 3,
+        "processed_count": 3,
+        "status_counts": {
+          "skip": 2,
+          "fail": 1
+        },
+        "stage_failures": {
+          "clone_network": 2
+        },
+        "remaining_unverified": 3014,
+        "run_report": "/Users/liendallas/Desktop/Projects/SecureSkillHub/data/verification-runs/20260303T174230Z_strict5_limit10.json"
+      }
+    },
+    {
+      "timestamp": "2026-03-03T17:45:45.497267+00:00",
+      "check_type": "verification_run",
+      "findings": {
+        "selected_count": 50,
+        "processed_count": 50,
+        "status_counts": {
+          "pass": 49,
+          "fail": 1
+        },
+        "stage_failures": {},
+        "remaining_unverified": 2950,
+        "run_report": "/Users/liendallas/Desktop/Projects/SecureSkillHub/data/verification-runs/20260303T174545Z_strict5_limit50.json"
+      }
+    },
+    {
+      "timestamp": "2026-03-03T17:46:00.163305+00:00",
+      "check_type": "verification_run",
+      "findings": {
+        "selected_count": 50,
+        "processed_count": 50,
+        "status_counts": {
+          "pass": 50
+        },
+        "stage_failures": {},
+        "remaining_unverified": 2914,
+        "run_report": "/Users/liendallas/Desktop/Projects/SecureSkillHub/data/verification-runs/20260303T174559Z_strict5_limit50.json"
+      }
+    },
+    {
+      "timestamp": "2026-03-03T17:48:36.723363+00:00",
+      "check_type": "verification_run",
+      "findings": {
+        "selected_count": 50,
+        "processed_count": 50,
+        "status_counts": {
+          "pass": 49,
+          "fail": 1
+        },
+        "stage_failures": {},
+        "remaining_unverified": 2824,
+        "run_report": "/Users/liendallas/Desktop/Projects/SecureSkillHub/data/verification-runs/20260303T174836Z_strict5_limit50.json"
+      }
+    },
+    {
+      "timestamp": "2026-03-03T17:48:40.185372+00:00",
+      "check_type": "verification_run",
+      "findings": {
+        "selected_count": 50,
+        "processed_count": 50,
+        "status_counts": {
+          "pass": 50
+        },
+        "stage_failures": {},
+        "remaining_unverified": 2814,
+        "run_report": "/Users/liendallas/Desktop/Projects/SecureSkillHub/data/verification-runs/20260303T174839Z_strict5_limit50.json"
+      }
+    },
+    {
+      "timestamp": "2026-03-03T17:49:43.523309+00:00",
+      "check_type": "verification_run",
+      "findings": {
+        "selected_count": 50,
+        "processed_count": 50,
+        "status_counts": {
+          "pass": 50
+        },
+        "stage_failures": {},
+        "remaining_unverified": 2719,
+        "run_report": "/Users/liendallas/Desktop/Projects/SecureSkillHub/data/verification-runs/20260303T174943Z_strict5_limit50.json"
+      }
+    },
+    {
+      "timestamp": "2026-03-03T17:49:49.316802+00:00",
+      "check_type": "verification_run",
+      "findings": {
+        "selected_count": 50,
+        "processed_count": 50,
+        "status_counts": {
+          "pass": 50
+        },
+        "stage_failures": {},
+        "remaining_unverified": 2714,
+        "run_report": "/Users/liendallas/Desktop/Projects/SecureSkillHub/data/verification-runs/20260303T174949Z_strict5_limit50.json"
+      }
+    },
+    {
+      "timestamp": "2026-03-03T17:51:02.370538+00:00",
+      "check_type": "verification_run",
+      "findings": {
+        "selected_count": 50,
+        "processed_count": 50,
+        "status_counts": {
+          "pass": 50
+        },
+        "stage_failures": {},
+        "remaining_unverified": 2616,
+        "run_report": "/Users/liendallas/Desktop/Projects/SecureSkillHub/data/verification-runs/20260303T175102Z_strict5_limit50.json"
+      }
+    },
+    {
+      "timestamp": "2026-03-03T17:51:45.615570+00:00",
+      "check_type": "verification_run",
+      "findings": {
+        "selected_count": 50,
+        "processed_count": 50,
+        "status_counts": {
+          "pass": 49,
+          "skip": 1
+        },
+        "stage_failures": {
+          "clone_network": 1
+        },
+        "remaining_unverified": 2615,
+        "run_report": "/Users/liendallas/Desktop/Projects/SecureSkillHub/data/verification-runs/20260303T175145Z_strict5_limit50.json"
+      }
+    },
+    {
+      "timestamp": "2026-03-03T17:52:31.233081+00:00",
+      "check_type": "verification_run",
+      "findings": {
+        "selected_count": 49,
+        "processed_count": 49,
+        "status_counts": {
+          "pass": 48,
+          "fail": 1
+        },
+        "stage_failures": {},
+        "remaining_unverified": 2566,
+        "run_report": "/Users/liendallas/Desktop/Projects/SecureSkillHub/data/verification-runs/20260303T175231Z_strict5_limit50.json"
+      }
+    },
+    {
+      "timestamp": "2026-03-03T17:54:00.623307+00:00",
+      "check_type": "verification_run",
+      "findings": {
+        "selected_count": 50,
+        "processed_count": 50,
+        "status_counts": {
+          "pass": 49,
+          "fail": 1
+        },
+        "stage_failures": {},
+        "remaining_unverified": 2516,
+        "run_report": "/Users/liendallas/Desktop/Projects/SecureSkillHub/data/verification-runs/20260303T175359Z_strict5_limit50.json"
+      }
+    },
+    {
+      "timestamp": "2026-03-03T17:54:46.402067+00:00",
+      "check_type": "verification_run",
+      "findings": {
+        "selected_count": 50,
+        "processed_count": 50,
+        "status_counts": {
+          "pass": 49,
+          "fail": 1
+        },
+        "stage_failures": {},
+        "remaining_unverified": 2466,
+        "run_report": "/Users/liendallas/Desktop/Projects/SecureSkillHub/data/verification-runs/20260303T175446Z_strict5_limit50.json"
+      }
+    },
+    {
+      "timestamp": "2026-03-03T17:55:20.682906+00:00",
+      "check_type": "verification_run",
+      "findings": {
+        "selected_count": 50,
+        "processed_count": 50,
+        "status_counts": {
+          "pass": 48,
+          "fail": 2
+        },
+        "stage_failures": {},
+        "remaining_unverified": 2416,
+        "run_report": "/Users/liendallas/Desktop/Projects/SecureSkillHub/data/verification-runs/20260303T175520Z_strict5_limit50.json"
+      }
+    },
+    {
+      "timestamp": "2026-03-03T17:55:47.607509+00:00",
+      "check_type": "verification_run",
+      "findings": {
+        "selected_count": 50,
+        "processed_count": 50,
+        "status_counts": {
+          "pass": 49,
+          "fail": 1
+        },
+        "stage_failures": {},
+        "remaining_unverified": 2366,
+        "run_report": "/Users/liendallas/Desktop/Projects/SecureSkillHub/data/verification-runs/20260303T175547Z_strict5_limit50.json"
+      }
+    },
+    {
+      "timestamp": "2026-03-03T17:56:15.598595+00:00",
+      "check_type": "verification_run",
+      "findings": {
+        "selected_count": 50,
+        "processed_count": 50,
+        "status_counts": {
+          "pass": 49,
+          "fail": 1
+        },
+        "stage_failures": {},
+        "remaining_unverified": 2316,
+        "run_report": "/Users/liendallas/Desktop/Projects/SecureSkillHub/data/verification-runs/20260303T175615Z_strict5_limit50.json"
+      }
+    },
+    {
+      "timestamp": "2026-03-03T17:57:09.812409+00:00",
+      "check_type": "verification_run",
+      "findings": {
+        "selected_count": 50,
+        "processed_count": 50,
+        "status_counts": {
+          "pass": 49,
+          "fail": 1
+        },
+        "stage_failures": {},
+        "remaining_unverified": 2150,
+        "run_report": "/Users/liendallas/Desktop/Projects/SecureSkillHub/data/verification-runs/20260303T175709Z_strict5_limit50.json"
+      }
+    },
+    {
+      "timestamp": "2026-03-03T17:57:14.285910+00:00",
+      "check_type": "verification_run",
+      "findings": {
+        "selected_count": 50,
+        "processed_count": 50,
+        "status_counts": {
+          "pass": 49,
+          "fail": 1
+        },
+        "stage_failures": {},
+        "remaining_unverified": 2124,
+        "run_report": "/Users/liendallas/Desktop/Projects/SecureSkillHub/data/verification-runs/20260303T175714Z_strict5_limit50.json"
+      }
+    },
+    {
+      "timestamp": "2026-03-03T17:57:31.524930+00:00",
+      "check_type": "verification_run",
+      "findings": {
+        "selected_count": 50,
+        "processed_count": 50,
+        "status_counts": {
+          "pass": 50
+        },
+        "stage_failures": {},
+        "remaining_unverified": 2116,
+        "run_report": "/Users/liendallas/Desktop/Projects/SecureSkillHub/data/verification-runs/20260303T175731Z_strict5_limit50.json"
+      }
+    },
+    {
+      "timestamp": "2026-03-03T19:48:42.837954+00:00",
+      "check_type": "verification_run",
+      "findings": {
+        "selected_count": 50,
+        "processed_count": 50,
+        "status_counts": {
+          "skip": 28,
+          "pass": 22
+        },
+        "stage_failures": {
+          "clone_network": 28
+        },
+        "remaining_unverified": 2086,
+        "run_report": "/Users/liendallas/Desktop/Projects/SecureSkillHub/data/verification-runs/20260303T194842Z_strict5_limit50.json"
+      }
+    },
+    {
+      "timestamp": "2026-03-03T19:52:01.386901+00:00",
+      "check_type": "verification_run",
+      "findings": {
+        "selected_count": 50,
+        "processed_count": 50,
+        "status_counts": {
+          "pass": 47,
+          "fail": 2,
+          "skip": 1
+        },
+        "stage_failures": {
+          "clone_network": 1
+        },
+        "remaining_unverified": 2048,
+        "run_report": "/Users/liendallas/Desktop/Projects/SecureSkillHub/data/verification-runs/20260303T195201Z_strict5_limit50.json"
+      }
+    },
+    {
+      "timestamp": "2026-03-03T19:52:02.131292+00:00",
+      "check_type": "verification_run",
+      "findings": {
+        "selected_count": 50,
+        "processed_count": 50,
+        "status_counts": {
+          "pass": 47,
+          "fail": 2,
+          "skip": 1
+        },
+        "stage_failures": {
+          "clone_network": 1
+        },
+        "remaining_unverified": 2048,
+        "run_report": "/Users/liendallas/Desktop/Projects/SecureSkillHub/data/verification-runs/20260303T195201Z_strict5_limit50.json"
+      }
+    },
+    {
+      "timestamp": "2026-03-03T19:52:02.757484+00:00",
+      "check_type": "verification_run",
+      "findings": {
+        "selected_count": 50,
+        "processed_count": 50,
+        "status_counts": {
+          "pass": 47,
+          "fail": 2,
+          "skip": 1
+        },
+        "stage_failures": {
+          "clone_network": 1
+        },
+        "remaining_unverified": 2048,
+        "run_report": "/Users/liendallas/Desktop/Projects/SecureSkillHub/data/verification-runs/20260303T195202Z_strict5_limit50.json"
+      }
+    },
+    {
+      "timestamp": "2026-03-03T19:52:03.383719+00:00",
+      "check_type": "verification_run",
+      "findings": {
+        "selected_count": 50,
+        "processed_count": 50,
+        "status_counts": {
+          "pass": 47,
+          "fail": 2,
+          "skip": 1
+        },
+        "stage_failures": {
+          "clone_network": 1
+        },
+        "remaining_unverified": 2048,
+        "run_report": "/Users/liendallas/Desktop/Projects/SecureSkillHub/data/verification-runs/20260303T195203Z_strict5_limit50.json"
+      }
+    },
+    {
+      "timestamp": "2026-03-03T19:56:59.920559+00:00",
+      "check_type": "verification_run",
+      "findings": {
+        "selected_count": 50,
+        "processed_count": 50,
+        "status_counts": {
+          "pass": 49,
+          "skip": 1
+        },
+        "stage_failures": {
+          "clone_network": 1
+        },
+        "remaining_unverified": 1999,
+        "run_report": "/Users/liendallas/Desktop/Projects/SecureSkillHub/data/verification-runs/20260303T195659Z_strict5_limit50.json"
+      }
+    },
+    {
+      "timestamp": "2026-03-03T20:00:50.499090+00:00",
+      "check_type": "verification_run",
+      "findings": {
+        "selected_count": 50,
+        "processed_count": 50,
+        "status_counts": {
+          "pass": 49,
+          "skip": 1
+        },
+        "stage_failures": {
+          "clone_network": 1
+        },
+        "remaining_unverified": 1950,
+        "run_report": "/Users/liendallas/Desktop/Projects/SecureSkillHub/data/verification-runs/20260303T200050Z_strict5_limit50.json"
+      }
+    },
+    {
+      "timestamp": "2026-03-03T20:00:50.907195+00:00",
+      "check_type": "verification_run",
+      "findings": {
+        "selected_count": 50,
+        "processed_count": 50,
+        "status_counts": {
+          "pass": 49,
+          "skip": 1
+        },
+        "stage_failures": {
+          "clone_network": 1
+        },
+        "remaining_unverified": 1950,
+        "run_report": "/Users/liendallas/Desktop/Projects/SecureSkillHub/data/verification-runs/20260303T200050Z_strict5_limit50.json"
+      }
+    },
+    {
+      "timestamp": "2026-03-03T20:00:52.197413+00:00",
+      "check_type": "verification_run",
+      "findings": {
+        "selected_count": 50,
+        "processed_count": 50,
+        "status_counts": {
+          "pass": 49,
+          "skip": 1
+        },
+        "stage_failures": {
+          "clone_network": 1
+        },
+        "remaining_unverified": 1950,
+        "run_report": "/Users/liendallas/Desktop/Projects/SecureSkillHub/data/verification-runs/20260303T200051Z_strict5_limit50.json"
+      }
+    },
+    {
+      "timestamp": "2026-03-03T20:00:52.977491+00:00",
+      "check_type": "verification_run",
+      "findings": {
+        "selected_count": 50,
+        "processed_count": 50,
+        "status_counts": {
+          "pass": 49,
+          "skip": 1
+        },
+        "stage_failures": {
+          "clone_network": 1
+        },
+        "remaining_unverified": 1950,
+        "run_report": "/Users/liendallas/Desktop/Projects/SecureSkillHub/data/verification-runs/20260303T200052Z_strict5_limit50.json"
+      }
+    },
+    {
+      "timestamp": "2026-03-03T20:04:41.671761+00:00",
+      "check_type": "verification_run",
+      "findings": {
+        "selected_count": 50,
+        "processed_count": 50,
+        "status_counts": {
+          "pass": 49,
+          "skip": 1
+        },
+        "stage_failures": {
+          "clone_network": 1
+        },
+        "remaining_unverified": 1901,
+        "run_report": "/Users/liendallas/Desktop/Projects/SecureSkillHub/data/verification-runs/20260303T200441Z_strict5_limit50.json"
+      }
+    },
+    {
+      "timestamp": "2026-03-03T20:04:42.380514+00:00",
+      "check_type": "verification_run",
+      "findings": {
+        "selected_count": 50,
+        "processed_count": 50,
+        "status_counts": {
+          "pass": 49,
+          "skip": 1
+        },
+        "stage_failures": {
+          "clone_network": 1
+        },
+        "remaining_unverified": 1901,
+        "run_report": "/Users/liendallas/Desktop/Projects/SecureSkillHub/data/verification-runs/20260303T200442Z_strict5_limit50.json"
+      }
+    },
+    {
+      "timestamp": "2026-03-03T20:04:43.185360+00:00",
+      "check_type": "verification_run",
+      "findings": {
+        "selected_count": 50,
+        "processed_count": 50,
+        "status_counts": {
+          "pass": 49,
+          "skip": 1
+        },
+        "stage_failures": {
+          "clone_network": 1
+        },
+        "remaining_unverified": 1901,
+        "run_report": "/Users/liendallas/Desktop/Projects/SecureSkillHub/data/verification-runs/20260303T200442Z_strict5_limit50.json"
+      }
+    },
+    {
+      "timestamp": "2026-03-03T20:04:43.920438+00:00",
+      "check_type": "verification_run",
+      "findings": {
+        "selected_count": 50,
+        "processed_count": 50,
+        "status_counts": {
+          "pass": 49,
+          "skip": 1
+        },
+        "stage_failures": {
+          "clone_network": 1
+        },
+        "remaining_unverified": 1901,
+        "run_report": "/Users/liendallas/Desktop/Projects/SecureSkillHub/data/verification-runs/20260303T200443Z_strict5_limit50.json"
+      }
+    },
+    {
+      "timestamp": "2026-03-03T20:08:33.965729+00:00",
+      "check_type": "verification_run",
+      "findings": {
+        "selected_count": 50,
+        "processed_count": 50,
+        "status_counts": {
+          "pass": 48,
+          "fail": 1,
+          "skip": 1
+        },
+        "stage_failures": {
+          "clone_network": 1
+        },
+        "remaining_unverified": 1852,
+        "run_report": "/Users/liendallas/Desktop/Projects/SecureSkillHub/data/verification-runs/20260303T200833Z_strict5_limit50.json"
+      }
+    },
+    {
+      "timestamp": "2026-03-03T20:08:34.223676+00:00",
+      "check_type": "verification_run",
+      "findings": {
+        "selected_count": 50,
+        "processed_count": 50,
+        "status_counts": {
+          "pass": 48,
+          "fail": 1,
+          "skip": 1
+        },
+        "stage_failures": {
+          "clone_network": 1
+        },
+        "remaining_unverified": 1852,
+        "run_report": "/Users/liendallas/Desktop/Projects/SecureSkillHub/data/verification-runs/20260303T200834Z_strict5_limit50.json"
+      }
+    },
+    {
+      "timestamp": "2026-03-03T20:08:35.293642+00:00",
+      "check_type": "verification_run",
+      "findings": {
+        "selected_count": 50,
+        "processed_count": 50,
+        "status_counts": {
+          "pass": 48,
+          "fail": 1,
+          "skip": 1
+        },
+        "stage_failures": {
+          "clone_network": 1
+        },
+        "remaining_unverified": 1852,
+        "run_report": "/Users/liendallas/Desktop/Projects/SecureSkillHub/data/verification-runs/20260303T200835Z_strict5_limit50.json"
+      }
+    },
+    {
+      "timestamp": "2026-03-03T20:08:35.922600+00:00",
+      "check_type": "verification_run",
+      "findings": {
+        "selected_count": 50,
+        "processed_count": 50,
+        "status_counts": {
+          "pass": 48,
+          "fail": 1,
+          "skip": 1
+        },
+        "stage_failures": {
+          "clone_network": 1
+        },
+        "remaining_unverified": 1852,
+        "run_report": "/Users/liendallas/Desktop/Projects/SecureSkillHub/data/verification-runs/20260303T200835Z_strict5_limit50.json"
+      }
+    },
+    {
+      "timestamp": "2026-03-03T20:13:00.487735+00:00",
+      "check_type": "verification_run",
+      "findings": {
+        "selected_count": 50,
+        "processed_count": 50,
+        "status_counts": {
+          "pass": 48,
+          "fail": 1,
+          "skip": 1
+        },
+        "stage_failures": {
+          "clone_network": 1
+        },
+        "remaining_unverified": 1803,
+        "run_report": "/Users/liendallas/Desktop/Projects/SecureSkillHub/data/verification-runs/20260303T201300Z_strict5_limit50.json"
+      }
+    },
+    {
+      "timestamp": "2026-03-03T20:13:00.607615+00:00",
+      "check_type": "verification_run",
+      "findings": {
+        "selected_count": 50,
+        "processed_count": 50,
+        "status_counts": {
+          "pass": 48,
+          "fail": 1,
+          "skip": 1
+        },
+        "stage_failures": {
+          "clone_network": 1
+        },
+        "remaining_unverified": 1803,
+        "run_report": "/Users/liendallas/Desktop/Projects/SecureSkillHub/data/verification-runs/20260303T201300Z_strict5_limit50.json"
+      }
+    },
+    {
+      "timestamp": "2026-03-03T20:17:15.405458+00:00",
+      "check_type": "verification_run",
+      "findings": {
+        "selected_count": 50,
+        "processed_count": 50,
+        "status_counts": {
+          "pass": 49,
+          "skip": 1
+        },
+        "stage_failures": {
+          "clone_network": 1
+        },
+        "remaining_unverified": 1754,
+        "run_report": "/Users/liendallas/Desktop/Projects/SecureSkillHub/data/verification-runs/20260303T201715Z_strict5_limit50.json"
+      }
+    },
+    {
+      "timestamp": "2026-03-03T20:21:07.762689+00:00",
+      "check_type": "verification_run",
+      "findings": {
+        "selected_count": 50,
+        "processed_count": 50,
+        "status_counts": {
+          "pass": 46,
+          "fail": 3,
+          "skip": 1
+        },
+        "stage_failures": {
+          "clone_network": 1
+        },
+        "remaining_unverified": 1705,
+        "run_report": "/Users/liendallas/Desktop/Projects/SecureSkillHub/data/verification-runs/20260303T202107Z_strict5_limit50.json"
+      }
+    },
+    {
+      "timestamp": "2026-03-03T20:21:09.717867+00:00",
+      "check_type": "verification_run",
+      "findings": {
+        "selected_count": 50,
+        "processed_count": 50,
+        "status_counts": {
+          "pass": 46,
+          "fail": 3,
+          "skip": 1
+        },
+        "stage_failures": {
+          "clone_network": 1
+        },
+        "remaining_unverified": 1705,
+        "run_report": "/Users/liendallas/Desktop/Projects/SecureSkillHub/data/verification-runs/20260303T202109Z_strict5_limit50.json"
+      }
+    },
+    {
+      "timestamp": "2026-03-03T20:21:09.901761+00:00",
+      "check_type": "verification_run",
+      "findings": {
+        "selected_count": 50,
+        "processed_count": 50,
+        "status_counts": {
+          "pass": 46,
+          "fail": 3,
+          "skip": 1
+        },
+        "stage_failures": {
+          "clone_network": 1
+        },
+        "remaining_unverified": 1705,
+        "run_report": "/Users/liendallas/Desktop/Projects/SecureSkillHub/data/verification-runs/20260303T202109Z_strict5_limit50.json"
+      }
+    },
+    {
+      "timestamp": "2026-03-03T20:25:38.620731+00:00",
+      "check_type": "verification_run",
+      "findings": {
+        "selected_count": 50,
+        "processed_count": 50,
+        "status_counts": {
+          "pass": 47,
+          "fail": 2,
+          "skip": 1
+        },
+        "stage_failures": {
+          "clone_network": 1
+        },
+        "remaining_unverified": 1656,
+        "run_report": "/Users/liendallas/Desktop/Projects/SecureSkillHub/data/verification-runs/20260303T202538Z_strict5_limit50.json"
+      }
+    },
+    {
+      "timestamp": "2026-03-03T20:25:39.199018+00:00",
+      "check_type": "verification_run",
+      "findings": {
+        "selected_count": 50,
+        "processed_count": 50,
+        "status_counts": {
+          "pass": 47,
+          "fail": 2,
+          "skip": 1
+        },
+        "stage_failures": {
+          "clone_network": 1
+        },
+        "remaining_unverified": 1656,
+        "run_report": "/Users/liendallas/Desktop/Projects/SecureSkillHub/data/verification-runs/20260303T202538Z_strict5_limit50.json"
+      }
+    },
+    {
+      "timestamp": "2026-03-03T20:25:46.769252+00:00",
+      "check_type": "verification_run",
+      "findings": {
+        "selected_count": 50,
+        "processed_count": 50,
+        "status_counts": {
+          "pass": 47,
+          "fail": 2,
+          "skip": 1
+        },
+        "stage_failures": {
+          "clone_network": 1
+        },
+        "remaining_unverified": 1656,
+        "run_report": "/Users/liendallas/Desktop/Projects/SecureSkillHub/data/verification-runs/20260303T202546Z_strict5_limit50.json"
+      }
+    },
+    {
+      "timestamp": "2026-03-03T20:30:21.879751+00:00",
+      "check_type": "verification_run",
+      "findings": {
+        "selected_count": 50,
+        "processed_count": 50,
+        "status_counts": {
+          "pass": 48,
+          "fail": 1,
+          "skip": 1
+        },
+        "stage_failures": {
+          "clone_network": 1
+        },
+        "remaining_unverified": 1607,
+        "run_report": "/Users/liendallas/Desktop/Projects/SecureSkillHub/data/verification-runs/20260303T203021Z_strict5_limit50.json"
+      }
+    },
+    {
+      "timestamp": "2026-03-03T20:34:44.049258+00:00",
+      "check_type": "verification_run",
+      "findings": {
+        "selected_count": 50,
+        "processed_count": 50,
+        "status_counts": {
+          "pass": 48,
+          "fail": 1,
+          "skip": 1
+        },
+        "stage_failures": {
+          "clone_network": 1
+        },
+        "remaining_unverified": 1558,
+        "run_report": "/Users/liendallas/Desktop/Projects/SecureSkillHub/data/verification-runs/20260303T203443Z_strict5_limit50.json"
+      }
+    },
+    {
+      "timestamp": "2026-03-03T20:38:59.706758+00:00",
+      "check_type": "verification_run",
+      "findings": {
+        "selected_count": 50,
+        "processed_count": 50,
+        "status_counts": {
+          "pass": 49,
+          "skip": 1
+        },
+        "stage_failures": {
+          "clone_network": 1
+        },
+        "remaining_unverified": 1509,
+        "run_report": "/Users/liendallas/Desktop/Projects/SecureSkillHub/data/verification-runs/20260303T203859Z_strict5_limit50.json"
+      }
+    },
+    {
+      "timestamp": "2026-03-03T20:38:59.723487+00:00",
+      "check_type": "verification_run",
+      "findings": {
+        "selected_count": 50,
+        "processed_count": 50,
+        "status_counts": {
+          "pass": 49,
+          "skip": 1
+        },
+        "stage_failures": {
+          "clone_network": 1
+        },
+        "remaining_unverified": 1509,
+        "run_report": "/Users/liendallas/Desktop/Projects/SecureSkillHub/data/verification-runs/20260303T203859Z_strict5_limit50.json"
+      }
+    },
+    {
+      "timestamp": "2026-03-03T20:42:51.345894+00:00",
+      "check_type": "verification_run",
+      "findings": {
+        "selected_count": 50,
+        "processed_count": 50,
+        "status_counts": {
+          "pass": 48,
+          "skip": 2
+        },
+        "stage_failures": {
+          "clone_network": 2
+        },
+        "remaining_unverified": 1461,
+        "run_report": "/Users/liendallas/Desktop/Projects/SecureSkillHub/data/verification-runs/20260303T204251Z_strict5_limit50.json"
+      }
+    },
+    {
+      "timestamp": "2026-03-03T20:42:52.083520+00:00",
+      "check_type": "verification_run",
+      "findings": {
+        "selected_count": 50,
+        "processed_count": 50,
+        "status_counts": {
+          "pass": 48,
+          "skip": 2
+        },
+        "stage_failures": {
+          "clone_network": 2
+        },
+        "remaining_unverified": 1461,
+        "run_report": "/Users/liendallas/Desktop/Projects/SecureSkillHub/data/verification-runs/20260303T204251Z_strict5_limit50.json"
+      }
+    },
+    {
+      "timestamp": "2026-03-03T20:42:52.814658+00:00",
+      "check_type": "verification_run",
+      "findings": {
+        "selected_count": 50,
+        "processed_count": 50,
+        "status_counts": {
+          "pass": 48,
+          "skip": 2
+        },
+        "stage_failures": {
+          "clone_network": 2
+        },
+        "remaining_unverified": 1461,
+        "run_report": "/Users/liendallas/Desktop/Projects/SecureSkillHub/data/verification-runs/20260303T204252Z_strict5_limit50.json"
+      }
+    },
+    {
+      "timestamp": "2026-03-03T20:42:53.384409+00:00",
+      "check_type": "verification_run",
+      "findings": {
+        "selected_count": 50,
+        "processed_count": 50,
+        "status_counts": {
+          "pass": 48,
+          "skip": 2
+        },
+        "stage_failures": {
+          "clone_network": 2
+        },
+        "remaining_unverified": 1461,
+        "run_report": "/Users/liendallas/Desktop/Projects/SecureSkillHub/data/verification-runs/20260303T204253Z_strict5_limit50.json"
+      }
+    },
+    {
+      "timestamp": "2026-03-03T20:46:42.989925+00:00",
+      "check_type": "verification_run",
+      "findings": {
+        "selected_count": 50,
+        "processed_count": 50,
+        "status_counts": {
+          "skip": 2,
+          "pass": 47,
+          "fail": 1
+        },
+        "stage_failures": {
+          "clone_network": 2
+        },
+        "remaining_unverified": 1413,
+        "run_report": "/Users/liendallas/Desktop/Projects/SecureSkillHub/data/verification-runs/20260303T204642Z_strict5_limit50.json"
+      }
+    },
+    {
+      "timestamp": "2026-03-03T20:46:43.986020+00:00",
+      "check_type": "verification_run",
+      "findings": {
+        "selected_count": 50,
+        "processed_count": 50,
+        "status_counts": {
+          "skip": 2,
+          "pass": 47,
+          "fail": 1
+        },
+        "stage_failures": {
+          "clone_network": 2
+        },
+        "remaining_unverified": 1413,
+        "run_report": "/Users/liendallas/Desktop/Projects/SecureSkillHub/data/verification-runs/20260303T204643Z_strict5_limit50.json"
+      }
+    },
+    {
+      "timestamp": "2026-03-03T20:46:44.801827+00:00",
+      "check_type": "verification_run",
+      "findings": {
+        "selected_count": 50,
+        "processed_count": 50,
+        "status_counts": {
+          "skip": 2,
+          "pass": 47,
+          "fail": 1
+        },
+        "stage_failures": {
+          "clone_network": 2
+        },
+        "remaining_unverified": 1413,
+        "run_report": "/Users/liendallas/Desktop/Projects/SecureSkillHub/data/verification-runs/20260303T204644Z_strict5_limit50.json"
+      }
+    },
+    {
+      "timestamp": "2026-03-03T20:51:02.668273+00:00",
+      "check_type": "verification_run",
+      "findings": {
+        "selected_count": 50,
+        "processed_count": 50,
+        "status_counts": {
+          "pass": 48,
+          "skip": 2
+        },
+        "stage_failures": {
+          "clone_network": 2
+        },
+        "remaining_unverified": 1365,
+        "run_report": "/Users/liendallas/Desktop/Projects/SecureSkillHub/data/verification-runs/20260303T205102Z_strict5_limit50.json"
+      }
+    },
+    {
+      "timestamp": "2026-03-03T20:51:03.070991+00:00",
+      "check_type": "verification_run",
+      "findings": {
+        "selected_count": 50,
+        "processed_count": 50,
+        "status_counts": {
+          "skip": 2,
+          "pass": 48
+        },
+        "stage_failures": {
+          "clone_network": 2
+        },
+        "remaining_unverified": 1365,
+        "run_report": "/Users/liendallas/Desktop/Projects/SecureSkillHub/data/verification-runs/20260303T205102Z_strict5_limit50.json"
+      }
+    },
+    {
+      "timestamp": "2026-03-03T20:51:03.268230+00:00",
+      "check_type": "verification_run",
+      "findings": {
+        "selected_count": 50,
+        "processed_count": 50,
+        "status_counts": {
+          "pass": 48,
+          "skip": 2
+        },
+        "stage_failures": {
+          "clone_network": 2
+        },
+        "remaining_unverified": 1365,
+        "run_report": "/Users/liendallas/Desktop/Projects/SecureSkillHub/data/verification-runs/20260303T205103Z_strict5_limit50.json"
+      }
+    },
+    {
+      "timestamp": "2026-03-03T20:51:03.325493+00:00",
+      "check_type": "verification_run",
+      "findings": {
+        "selected_count": 50,
+        "processed_count": 50,
+        "status_counts": {
+          "skip": 2,
+          "pass": 48
+        },
+        "stage_failures": {
+          "clone_network": 2
+        },
+        "remaining_unverified": 1365,
+        "run_report": "/Users/liendallas/Desktop/Projects/SecureSkillHub/data/verification-runs/20260303T205103Z_strict5_limit50.json"
+      }
+    },
+    {
+      "timestamp": "2026-03-03T20:55:07.761228+00:00",
+      "check_type": "verification_run",
+      "findings": {
+        "selected_count": 50,
+        "processed_count": 50,
+        "status_counts": {
+          "skip": 2,
+          "pass": 46,
+          "fail": 2
+        },
+        "stage_failures": {
+          "clone_network": 2
+        },
+        "remaining_unverified": 1317,
+        "run_report": "/Users/liendallas/Desktop/Projects/SecureSkillHub/data/verification-runs/20260303T205507Z_strict5_limit50.json"
+      }
+    },
+    {
+      "timestamp": "2026-03-03T20:55:08.773169+00:00",
+      "check_type": "verification_run",
+      "findings": {
+        "selected_count": 50,
+        "processed_count": 50,
+        "status_counts": {
+          "skip": 2,
+          "pass": 46,
+          "fail": 2
+        },
+        "stage_failures": {
+          "clone_network": 2
+        },
+        "remaining_unverified": 1317,
+        "run_report": "/Users/liendallas/Desktop/Projects/SecureSkillHub/data/verification-runs/20260303T205508Z_strict5_limit50.json"
+      }
+    },
+    {
+      "timestamp": "2026-03-03T20:55:10.177125+00:00",
+      "check_type": "verification_run",
+      "findings": {
+        "selected_count": 50,
+        "processed_count": 50,
+        "status_counts": {
+          "skip": 2,
+          "pass": 46,
+          "fail": 2
+        },
+        "stage_failures": {
+          "clone_network": 2
+        },
+        "remaining_unverified": 1317,
+        "run_report": "/Users/liendallas/Desktop/Projects/SecureSkillHub/data/verification-runs/20260303T205509Z_strict5_limit50.json"
+      }
+    },
+    {
+      "timestamp": "2026-03-03T20:55:11.420639+00:00",
+      "check_type": "verification_run",
+      "findings": {
+        "selected_count": 50,
+        "processed_count": 50,
+        "status_counts": {
+          "skip": 2,
+          "pass": 46,
+          "fail": 2
+        },
+        "stage_failures": {
+          "clone_network": 2
+        },
+        "remaining_unverified": 1317,
+        "run_report": "/Users/liendallas/Desktop/Projects/SecureSkillHub/data/verification-runs/20260303T205511Z_strict5_limit50.json"
+      }
+    },
+    {
+      "timestamp": "2026-03-03T20:59:43.371681+00:00",
+      "check_type": "verification_run",
+      "findings": {
+        "selected_count": 50,
+        "processed_count": 50,
+        "status_counts": {
+          "skip": 2,
+          "pass": 46,
+          "fail": 2
+        },
+        "stage_failures": {
+          "clone_network": 2
+        },
+        "remaining_unverified": 1269,
+        "run_report": "/Users/liendallas/Desktop/Projects/SecureSkillHub/data/verification-runs/20260303T205942Z_strict5_limit50.json"
+      }
+    },
+    {
+      "timestamp": "2026-03-03T20:59:44.630561+00:00",
+      "check_type": "verification_run",
+      "findings": {
+        "selected_count": 50,
+        "processed_count": 50,
+        "status_counts": {
+          "skip": 2,
+          "pass": 46,
+          "fail": 2
+        },
+        "stage_failures": {
+          "clone_network": 2
+        },
+        "remaining_unverified": 1269,
+        "run_report": "/Users/liendallas/Desktop/Projects/SecureSkillHub/data/verification-runs/20260303T205944Z_strict5_limit50.json"
+      }
+    },
+    {
+      "timestamp": "2026-03-03T21:04:08.395219+00:00",
+      "check_type": "verification_run",
+      "findings": {
+        "selected_count": 50,
+        "processed_count": 50,
+        "status_counts": {
+          "skip": 2,
+          "pass": 47,
+          "fail": 1
+        },
+        "stage_failures": {
+          "clone_network": 2
+        },
+        "remaining_unverified": 1221,
+        "run_report": "/Users/liendallas/Desktop/Projects/SecureSkillHub/data/verification-runs/20260303T210407Z_strict5_limit50.json"
+      }
+    },
+    {
+      "timestamp": "2026-03-03T22:05:54.368814+00:00",
+      "check_type": "verification_run",
+      "findings": {
+        "selected_count": 50,
+        "processed_count": 50,
+        "status_counts": {
+          "skip": 2,
+          "pass": 47,
+          "fail": 1
+        },
+        "stage_failures": {
+          "clone_network": 2
+        },
+        "remaining_unverified": 1173,
+        "run_report": "/Users/liendallas/Desktop/Projects/SecureSkillHub/data/verification-runs/20260303T220554Z_strict5_limit50.json"
+      }
+    },
+    {
+      "timestamp": "2026-03-03T22:10:11.356151+00:00",
+      "check_type": "verification_run",
+      "findings": {
+        "selected_count": 50,
+        "processed_count": 50,
+        "status_counts": {
+          "skip": 2,
+          "pass": 48
+        },
+        "stage_failures": {
+          "clone_network": 2
+        },
+        "remaining_unverified": 1125,
+        "run_report": "/Users/liendallas/Desktop/Projects/SecureSkillHub/data/verification-runs/20260303T221011Z_strict5_limit50.json"
+      }
+    },
+    {
+      "timestamp": "2026-03-03T22:13:45.843628+00:00",
+      "check_type": "verification_run",
+      "findings": {
+        "selected_count": 11,
+        "processed_count": 11,
+        "status_counts": {
+          "skip": 11
+        },
+        "stage_failures": {
+          "clone_network": 11
+        },
+        "remaining_unverified": 1125,
+        "run_report": "/Users/liendallas/Desktop/Projects/SecureSkillHub/data/verification-runs/20260303T221345Z_strict5_limit50.json"
+      }
+    },
+    {
+      "timestamp": "2026-03-04T02:38:36.175786+00:00",
+      "check_type": "health_check",
+      "findings": {
+        "total_skills": 6298,
+        "verified": 3619,
+        "unverified": 2679,
+        "full_pipeline": 3619,
+        "scanner_only": 1145,
+        "metadata_only": 13,
+        "with_agent_audit": 3619,
+        "status_breakdown": {
+          "pass": 3619,
+          "unverified": 2679
+        },
+        "star_tiers": {
+          "1000+": 144,
+          "100-999": 387,
+          "10-99": 1202,
+          "1-9": 1880,
+          "0": 2685
+        },
+        "issues": []
+      },
+      "recommendations": [
+        "Crawl pending hubs: skills_sh, skillsmp"
+      ],
+      "changes_since_last": {
+        "new_skills": 6298,
+        "newly_verified": 3619,
+        "status_changes": [
+          "+6298 new skills added",
+          "+3619 newly verified",
+          "+2679 unverified delta"
+        ]
+      }
+    },
+    {
+      "timestamp": "2026-03-04T03:32:20.102995+00:00",
+      "check_type": "verification_run",
+      "findings": {
+        "selected_count": 1,
+        "processed_count": 1,
+        "status_counts": {
+          "skip": 1
+        },
+        "stage_failures": {
+          "clone_network": 1
+        },
+        "remaining_unverified": 1124,
+        "run_report": "/Users/liendallas/Desktop/Projects/SecureSkillHub/data/verification-runs/20260304T033219Z_strict5_limit1.json"
+      }
+    },
+    {
+      "timestamp": "2026-03-04T03:35:31.561523+00:00",
+      "check_type": "verification_run",
+      "findings": {
+        "selected_count": 1,
+        "processed_count": 1,
+        "status_counts": {
+          "skip": 1
+        },
+        "stage_failures": {
+          "clone_network": 1
+        },
+        "remaining_unverified": 1124,
+        "run_report": "/Users/liendallas/Desktop/Projects/SecureSkillHub/data/verification-runs/20260304T033531Z_strict5_limit1.json"
+      }
+    },
+    {
+      "timestamp": "2026-03-04T03:37:24.371717+00:00",
+      "check_type": "pm_review",
+      "findings": {
+        "type": "bulk_retroactive_log",
+        "session": "2026-03-03",
+        "total_overrides": 600,
+        "breakdown": {
+          "fail_to_pass": 195,
+          "zero_injection_fp": 29,
+          "mr_to_pass": 326,
+          "string_override": 15,
+          "other": 34,
+          "scoring_bug_fp": 1
+        },
+        "note": "Retroactive summary log of all PM override decisions from 2026-03-03 sessions. Individual override rationale stored in each skill file pm_override field (dict format).",
+        "outcome": "All 66 fails cleared (64→pass, 1→MR, 1 duplicate deleted). All 110 MR cleared (98→pass, 12→unverified for re-run). Collection: 0 fail, 7 MR, 553+ pass."
+      }
+    },
+    {
+      "timestamp": "2026-03-04T03:37:34.559543+00:00",
+      "check_type": "health_check",
+      "findings": {
+        "total_skills": 6298,
+        "verified": 3620,
+        "unverified": 2678,
+        "full_pipeline": 3619,
+        "scanner_only": 1145,
+        "metadata_only": 14,
+        "with_agent_audit": 3619,
+        "status_breakdown": {
+          "pass": 3620,
+          "unverified": 2678
+        },
+        "star_tiers": {
+          "1000+": 144,
+          "100-999": 387,
+          "10-99": 1202,
+          "1-9": 1880,
+          "0": 2685
+        },
+        "issues": [
+          "1 verified skills with null verified_commit"
+        ]
+      },
+      "recommendations": [
+        "Crawl pending hubs: skills_sh, skillsmp",
+        "Investigate 1 verified skills with null verified_commit"
+      ],
+      "changes_since_last": {
+        "new_skills": 6298,
+        "newly_verified": 3620,
+        "status_changes": [
+          "+6298 new skills added",
+          "+3620 newly verified",
+          "+2678 unverified delta"
+        ]
+      }
+    },
+    {
+      "timestamp": "2026-03-04T03:37:38.741300+00:00",
+      "check_type": "health_check",
+      "findings": {
+        "total_skills": 6298,
+        "verified": 3620,
+        "unverified": 2678,
+        "full_pipeline": 3619,
+        "scanner_only": 1145,
+        "metadata_only": 14,
+        "with_agent_audit": 3619,
+        "status_breakdown": {
+          "pass": 3620,
+          "unverified": 2678
+        },
+        "star_tiers": {
+          "1000+": 144,
+          "100-999": 387,
+          "10-99": 1202,
+          "1-9": 1880,
+          "0": 2685
+        },
+        "issues": [
+          "1 verified skills with null verified_commit"
+        ]
+      },
+      "recommendations": [
+        "Crawl pending hubs: skills_sh, skillsmp",
+        "Investigate 1 verified skills with null verified_commit"
+      ],
+      "changes_since_last": {
+        "new_skills": 0,
+        "newly_verified": 0,
+        "status_changes": [
+          "No changes since last check"
+        ]
+      }
+    },
+    {
+      "type": "retag_integ_bulk",
+      "timestamp": "2026-03-04T05:04:29.332056+00:00",
+      "mode": "EXECUTE",
+      "candidates": 2362,
+      "updated": 89,
+      "dry_run_projected": 89,
+      "tag_counts": {
+        "integrations-messaging": 25,
+        "integrations-google": 22,
+        "integrations-github": 17,
+        "integrations-social": 7,
+        "integrations-payment": 6,
+        "integrations-jira": 5,
+        "productivity-email": 4,
+        "data-db": 3
+      }
+    },
+    {
+      "type": "retag_data_ai_bulk",
+      "timestamp": "2026-03-04T05:05:34.268503+00:00",
+      "mode": "EXECUTE",
+      "updated": 46,
+      "tag_counts": {
+        "data-ai-rag": 42,
+        "data-ai-agents": 5
+      }
+    },
+    {
+      "timestamp": "2026-03-04T05:19:48.251193+00:00",
+      "check_type": "health_check",
+      "findings": {
+        "total_skills": 6298,
+        "verified": 3620,
+        "unverified": 2678,
+        "full_pipeline": 3619,
+        "scanner_only": 0,
+        "metadata_only": 1,
+        "with_agent_audit": 3619,
+        "status_breakdown": {
+          "pass": 3620,
+          "unverified": 2678
+        },
+        "star_tiers": {
+          "1000+": 144,
+          "100-999": 387,
+          "10-99": 1202,
+          "1-9": 1880,
+          "0": 2685
+        },
+        "issues": [
+          "1 verified skills with null verified_commit"
+        ]
+      },
+      "recommendations": [
+        "Crawl pending hubs: skills_sh, skillsmp",
+        "Investigate 1 verified skills with null verified_commit"
+      ],
+      "changes_since_last": {
+        "new_skills": 6298,
+        "newly_verified": 3620,
+        "status_changes": [
+          "+6298 new skills added",
+          "+3620 newly verified",
+          "+2678 unverified delta"
+        ]
+      }
+    },
+    {
+      "timestamp": "2026-03-04T15:06:04.498446+00:00",
+      "check_type": "crawl_run",
+      "findings": {
+        "source": "skillsmp",
+        "crawler": "src/crawler/skillsmp.py",
+        "method": "AmazingAng/skilldb GitHub mirror",
+        "total_in_batch": 5000,
+        "overlap_with_existing": 199,
+        "net_new_written": 4801,
+        "skill_type": "agent_skill",
+        "stars_zeroed": true,
+        "stars_note": "Install counts stored in tags as installs:N, stars=0 until enriched",
+        "reachability_checked": false,
+        "reachability_note": "Skipped - to be checked in next reachability batch"
+      }
+    },
+    {
+      "timestamp": "2026-03-04T15:11:50.736355+00:00",
+      "check_type": "crawl_reachability",
+      "findings": {
+        "source": "skillsmp",
+        "total_checked": 4801,
+        "reachable": 4783,
+        "unavailable": 18,
+        "unavailable_rate": "0.4%",
+        "errors": 0
+      }
     }
   ],
-  "last_check": "2026-03-01T07:18:28.830118+00:00",
+  "last_check": "2026-03-04T05:19:48.251193+00:00",
   "summary": {
-    "total_checks": 12,
-    "issues_found_lifetime": 12,
-    "last_healthy": null
+    "total_checks": 18,
+    "issues_found_lifetime": 16,
+    "last_healthy": "2026-03-04T02:38:36.175786+00:00"
   }
 }

@@ -1,0 +1,24 @@
+{
+  "id": "analyze-ab4d4b4f",
+  "name": "analyze",
+  "description": "Analyze completed development work to identify automation and systematization opportunities. Use after finishing features, fixing bugs, or completing code reviews. Triggers on \"analyze for automation\", \"what can we automate\", \"compound opportunities\", \"systematize\".",
+  "repo_url": "https://github.com/aviflombaum/claude-code-in-avinyc",
+  "source_hub": "skillsmp",
+  "skill_type": "agent_skill",
+  "owner": "aviflombaum",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "agent-skills",
+    "utilities",
+    "installs:31"
+  ],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null,
+  "repo_status": "available",
+  "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
+  "repo_check_error": null
+}

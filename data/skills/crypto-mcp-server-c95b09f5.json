@@ -9,7 +9,7 @@
   "primary_language": "unknown",
   "tags": [
     "repo_unavailable",
-    "sec-crypto"
+    "data-finance"
   ],
   "verification_status": "unverified",
   "overall_score": 0,
@@ -18,5 +18,6 @@
   "scan_summary": null,
   "repo_status": "unavailable",
   "repo_check_date": "2026-02-28T20:51:33.368943+00:00",
-  "repo_check_error": "fatal: could not read Username for 'https://github.com': Device not configured"
+  "repo_check_error": "fatal: could not read Username for 'https://github.com': Device not configured",
+  "skill_type": "mcp_server"
 }

@@ -1,0 +1,24 @@
+{
+  "id": "ai-content-publisher-c717bcb7",
+  "name": "ai-content-publisher",
+  "description": "自动生成高质量AI内容并发布到微信公众号。根据时间段智能选择内容类型（早8点=新工具介绍、午12点=实战教程、晚6点=行业动态），过滤无用信息（融资/市值等），生成吸引人且符合实际的标题。目标读者：AI开发者、AI产品经理、AI创业者。每次生成1篇高质量文章。当用户说\"生成AI文章\"、\"写今天的公众号内容\"、\"AI内容自动发布\"时使用。复用 wechat-tech-writer、wechat-article-formatter、wechat-draft-publisher skills。",
+  "repo_url": "https://github.com/solar-luna/fully-automatic-article-generation-skill",
+  "source_hub": "skillsmp",
+  "skill_type": "agent_skill",
+  "owner": "solar-luna",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "agent-skills",
+    "utilities",
+    "installs:15"
+  ],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null,
+  "repo_status": "available",
+  "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
+  "repo_check_error": null
+}

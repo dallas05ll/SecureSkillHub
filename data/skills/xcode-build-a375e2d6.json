@@ -1,0 +1,24 @@
+{
+  "id": "xcode-build-a375e2d6",
+  "name": "xcode-build",
+  "description": "Build and run iOS/macOS apps using xcodebuild and xcrun simctl directly. Use when building Xcode projects, running iOS simulators, managing devices, compiling Swift code, running UI tests, or automating iOS app interactions. Replaces XcodeBuildMCP with native CLI tools.",
+  "repo_url": "https://github.com/pzep1/xcode-build-skill",
+  "source_hub": "skillsmp",
+  "skill_type": "agent_skill",
+  "owner": "pzep1",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "agent-skills",
+    "dev-mobile",
+    "installs:118"
+  ],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null,
+  "repo_status": "available",
+  "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
+  "repo_check_error": null
+}

@@ -17,15 +17,90 @@
     "sec"
   ],
   "verification_status": "pass",
-  "overall_score": 90,
-  "risk_level": "low",
-  "verified_commit": null,
+  "overall_score": 83,
+  "risk_level": "medium",
+  "verified_commit": "97b0d388f24ccb500fd06ddd01116e427c5aa65f",
   "scan_summary": "Official skills from Posit (a well-known enterprise open-source company behind RStudio). MIT licensed. Skills are SKILL.md files with clean metadata. Includes a Python utility (count-skill-tokens.py) for tooling only. PR automation skill (pr-create) interfaces with GitHub Actions and CI \u2014 legitimate use. .claude-plugin marketplace format properly used. Contributes to open-source release workflows (changelog, blog posts).",
   "findings_summary": {
-    "notes": "High-quality, professionally maintained skills from a trusted open-source organization. Clean SKILL.md structure with good documentation. The pr-create skill monitors GitHub CI and debugs failures \u2014 this is expected behavior for a PR automation skill, not a concern. Well-organized domain structure (posit-dev, r-lib, shiny, quarto, brand-yml, open-source). No security concerns."
+    "scanner_findings": 4,
+    "dangerous_calls": 0,
+    "network_ops": 0,
+    "file_ops": 3,
+    "env_access": 1,
+    "obfuscation": 0,
+    "injection_patterns": 0,
+    "mismatches": 0,
+    "undocumented_capabilities": 0,
+    "supervisor_approved": true,
+    "supervisor_confidence": 83
   },
   "last_updated": "2026-02-25T13:35:36Z",
   "trust_level": "low",
-  "scan_date": "2026-02-26T02:38:08Z",
-  "verification_level": "scanner_only"
+  "scan_date": "2026-03-03T14:48:47Z",
+  "verification_level": "full_pipeline",
+  "status_cleared": {
+    "date": "2026-03-02T20:40:18.531782+00:00",
+    "previous_status": "pass",
+    "previous_score": 90,
+    "previous_risk": "low",
+    "verification_level": "scanner_only",
+    "reason": "SM cleanup: only full_pipeline pass is real pass. Needs re-verification."
+  },
+  "agent_audit": {
+    "agents_completed": 5,
+    "agents_required": 5,
+    "pipeline_run_at": "2026-03-03T14:48:47Z",
+    "agent_a": {
+      "signed": true,
+      "signed_at": "2026-03-03T14:48:47Z",
+      "comment": "Docs quality 10/10. README present. 12 features, 4 permissions claimed.",
+      "doc_quality_score": 10,
+      "claimed_permissions": [
+        "network access",
+        "system command execution",
+        "file system access",
+        "environment/secret access"
+      ]
+    },
+    "agent_b": {
+      "signed": true,
+      "signed_at": "2026-03-03T14:48:47Z",
+      "comment": "1 files analyzed. Found: 0 network, 1 file, 0 env, 0 system calls. Primary: python.",
+      "files_analyzed": 1,
+      "capabilities_found": [
+        "imports external dependencies",
+        "reads/writes files"
+      ]
+    },
+    "agent_c_star": {
+      "signed": true,
+      "signed_at": "2026-03-03T14:48:47Z",
+      "comment": "4 findings: 0 critical, 0 high, 1 medium, 3 low. No obfuscation. No injection.",
+      "total_findings": 4,
+      "severity_counts": {
+        "critical": 0,
+        "high": 0,
+        "medium": 1,
+        "low": 3,
+        "info": 0
+      }
+    },
+    "agent_d": {
+      "signed": true,
+      "signed_at": "2026-03-03T14:48:47Z",
+      "comment": "Score 83. 0 mismatches. Risk: medium. Safety overrides: none triggered.",
+      "score": 83,
+      "mismatches": 0,
+      "safety_overrides_applied": false
+    },
+    "agent_e": {
+      "signed": true,
+      "signed_at": "2026-03-03T14:48:47Z",
+      "comment": "Approved. Confidence 83%. No overrides.",
+      "approved": true,
+      "confidence": 83,
+      "override_reason": null
+    },
+    "manager_summary": "5/5 agents completed. Score: 83/100, Risk: medium. 0 mismatches, 4 scanner findings. Approved at 83% confidence. No safety overrides."
+  }
 }

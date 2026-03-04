@@ -1,0 +1,24 @@
+{
+  "id": "agent-browser-76c1879e",
+  "name": "agent-browser",
+  "description": "Headless browser automation CLI for AI agents. Use for web scraping, testing, form filling,\nscreenshots, and any browser interaction. Triggers: \"browse\", \"open website\", \"click button\",\n\"fill form\", \"screenshot\", \"scrape\", \"test login flow\", \"automate browser\", \"web automation\".",
+  "repo_url": "https://github.com/kivo360/omoios",
+  "source_hub": "skillsmp",
+  "skill_type": "agent_skill",
+  "owner": "kivo360",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "agent-skills",
+    "dev-testing",
+    "installs:16"
+  ],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null,
+  "repo_status": "available",
+  "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
+  "repo_check_error": null
+}

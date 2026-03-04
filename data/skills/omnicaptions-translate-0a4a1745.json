@@ -1,0 +1,24 @@
+{
+  "id": "omnicaptions-translate-0a4a1745",
+  "name": "omnicaptions-translate",
+  "description": "Use when translating captions/captions to another language. Supports bilingual output and context-aware translation. Default uses Claude native, Gemini API optional.",
+  "repo_url": "https://github.com/lattifai/omni-captions-skills",
+  "source_hub": "skillsmp",
+  "skill_type": "agent_skill",
+  "owner": "lattifai",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "agent-skills",
+    "utilities",
+    "installs:88"
+  ],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null,
+  "repo_status": "available",
+  "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
+  "repo_check_error": null
+}

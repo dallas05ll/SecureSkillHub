@@ -1,0 +1,24 @@
+{
+  "id": "batch-notification-e5ad02a2",
+  "name": "batch-notification",
+  "description": "Send IM messages to users in batch. Used for notifying specific user groups, sending after table filtering, all-staff notifications, etc. Use this Skill when administrators request batch notifications, mass messaging, or notifications after table filtering. Trigger words: notify/send/mass + users/batch/table.",
+  "repo_url": "https://github.com/harryoung/efka",
+  "source_hub": "skillsmp",
+  "skill_type": "agent_skill",
+  "owner": "harryoung",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "agent-skills",
+    "utilities",
+    "installs:92"
+  ],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null,
+  "repo_status": "available",
+  "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
+  "repo_check_error": null
+}

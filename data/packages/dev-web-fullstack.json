@@ -1,14 +1,9 @@
 {
   "tag_path": "dev-web-fullstack",
   "label": "General Fullstack Package",
-  "description": "Top 6 verified fullstack skills, auto-curated by GitHub stars and security score.",
+  "description": "Top 1 verified fullstack skills, auto-curated by GitHub stars and security score.",
   "skill_ids": [
-    "pinme-3dccfc8d",
-    "mcp-adapter-14432921",
-    "claudepro-directory-cc5ab517",
-    "web-asset-generator-6888dce7",
-    "chat-nextjs-mcp-client-2b457ba2",
-    "nextjs-seo-audit-01c164a9"
+    "pinme-3dccfc8d"
   ],
   "skills": [
     {
@@ -17,83 +12,18 @@
       "description": "Zero-config frontend deployment tool that publishes static sites as verifiable content via IPFS/decentralized storage with a single command. Supports Claude Code Skills natively. Handles Vite/React/Vu",
       "repo_url": "https://github.com/glitternetwork/pinme",
       "stars": 2796,
-      "overall_score": 72,
+      "overall_score": 62,
       "verification_status": "pass",
-      "risk_level": "low",
+      "risk_level": "medium",
       "primary_language": "TypeScript",
       "install_url": "https://github.com/glitternetwork/pinme",
       "skill_type": "agent_skill"
-    },
-    {
-      "id": "mcp-adapter-14432921",
-      "name": "mcp-adapter",
-      "description": "Easily spin up an MCP Server on Next.js, Nuxt.js, Svelte.js, and more",
-      "repo_url": "https://github.com/vercel/mcp-adapter",
-      "stars": 566,
-      "overall_score": 85,
-      "verification_status": "pass",
-      "risk_level": "info",
-      "primary_language": "unknown",
-      "install_url": "https://github.com/vercel/mcp-adapter",
-      "skill_type": "unknown"
-    },
-    {
-      "id": "claudepro-directory-cc5ab517",
-      "name": "claudepro-directory",
-      "description": "Searchable web directory of 262+ pre-built Claude AI configurations including MCP servers, custom rules, agents, and automation hooks. Hosted at claudepro.directory. Built with Next.js and TypeScript ",
-      "repo_url": "https://github.com/JSONbored/claudepro-directory",
-      "stars": 188,
-      "overall_score": 72,
-      "verification_status": "pass",
-      "risk_level": "low",
-      "primary_language": "TypeScript",
-      "install_url": "https://github.com/JSONbored/claudepro-directory",
-      "skill_type": "agent_skill"
-    },
-    {
-      "id": "web-asset-generator-6888dce7",
-      "name": "Web Asset Generator",
-      "description": "Claude Code skill for generating favicons, app icons (PWA), and social media Open Graph images from logos, text, or emojis. Auto-detects frameworks (Next.js, Astro, etc.) and integrates generated asse",
-      "repo_url": "https://github.com/alonw0/web-asset-generator",
-      "stars": 187,
-      "overall_score": 83,
-      "verification_status": "pass",
-      "risk_level": "low",
-      "primary_language": "Python",
-      "install_url": "https://github.com/alonw0/web-asset-generator",
-      "skill_type": "agent_skill"
-    },
-    {
-      "id": "chat-nextjs-mcp-client-2b457ba2",
-      "name": "chat-nextjs-mcp-client",
-      "description": "\u26a1 Chat MCP Client for Remote hosted MCP Servers (with Composio) and locally hosted MCP servers. \ud83d\udce1",
-      "repo_url": "https://github.com/shricodev/chat-nextjs-mcp-client",
-      "stars": 34,
-      "overall_score": 85,
-      "verification_status": "pass",
-      "risk_level": "info",
-      "primary_language": "unknown",
-      "install_url": "https://github.com/shricodev/chat-nextjs-mcp-client",
-      "skill_type": "unknown"
-    },
-    {
-      "id": "nextjs-seo-audit-01c164a9",
-      "name": "nextjs-seo-audit",
-      "description": "AI Agent Skills for SEO auditing , 11 SKILL.md files that teach Cursor, Claude Code, Copilot & more to perform comprehensive SEO audits. Zero dependencies.",
-      "repo_url": "https://github.com/thisisAhsanIqbal/nextjs-seo-audit",
-      "stars": 1,
-      "overall_score": 78,
-      "verification_status": "pass",
-      "risk_level": "medium",
-      "primary_language": "markdown",
-      "install_url": "https://github.com/thisisAhsanIqbal/nextjs-seo-audit",
-      "skill_type": "agent_skill"
     }
   ],
-  "total_skills": 6,
-  "total_candidates": 6,
-  "avg_score": 79.2,
-  "min_score": 72,
+  "total_skills": 1,
+  "total_candidates": 1,
+  "avg_score": 62.0,
+  "min_score": 62,
   "top_stars": 2796,
-  "generated_at": "2026-02-28T03:46:45Z"
+  "generated_at": "2026-03-02T22:27:24Z"
 }

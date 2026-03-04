@@ -11,7 +11,6 @@
     "repo_unavailable",
     "integ",
     "integ-social",
-    "sec-crypto",
     "util-file",
     "util-media",
     "util-search"
@@ -23,5 +22,6 @@
   "scan_summary": null,
   "repo_status": "unavailable",
   "repo_check_date": "2026-02-28T20:53:03.884140+00:00",
-  "repo_check_error": "fatal: could not read Username for 'https://github.com': Device not configured"
+  "repo_check_error": "fatal: could not read Username for 'https://github.com': Device not configured",
+  "skill_type": "mcp_server"
 }

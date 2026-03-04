@@ -1,0 +1,24 @@
+{
+  "id": "yapi-23c443e7",
+  "name": "yapi",
+  "description": "Query and sync YApi interface documentation. Use when user mentions \"yapi 接口文档\", YAPI docs, asks for request/response details, or needs docs sync. Also triggers when user pastes a YApi URL that matches the configured base_url.",
+  "repo_url": "https://github.com/leeguooooo/cross-request-master",
+  "source_hub": "skillsmp",
+  "skill_type": "agent_skill",
+  "owner": "leeguooooo",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "agent-skills",
+    "utilities",
+    "installs:139"
+  ],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null,
+  "repo_status": "available",
+  "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
+  "repo_check_error": null
+}

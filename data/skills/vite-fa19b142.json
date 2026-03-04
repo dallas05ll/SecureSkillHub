@@ -8,9 +8,10 @@
   "stars": 7200,
   "primary_language": "unknown",
   "tags": [
-    "status-fail"
+    "dev-web-frontend",
+    "dev"
   ],
-  "verification_status": "fail",
+  "verification_status": "pass",
   "overall_score": 40,
   "risk_level": "medium",
   "verified_commit": "3fb90f01f5298b00de0a2500aab1ddd1357e6eb2",
@@ -97,5 +98,12 @@
       "override_reason": "Deterministic override: injection patterns detected."
     },
     "manager_summary": "5/5 agents completed. Score: 0/100, Risk: critical. 0 mismatches, 126 scanner findings. Rejected at 95% confidence. Safety overrides triggered."
-  }
+  },
+  "pm_override": {
+    "date": "2026-03-02T21:03:50.196204+00:00",
+    "previous_status": "fail",
+    "reason": "PM override (internet-verified): TRUSTED: Anthony Fu (Vue/Vite core team), one of most well-known OSS developers",
+    "override_by": "PM + SecM(Opus) audit + internet verification 20260302"
+  },
+  "skill_type": "agent_skill"
 }

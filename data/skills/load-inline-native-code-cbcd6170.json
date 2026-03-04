@@ -1,0 +1,24 @@
+{
+  "id": "load-inline-native-code-cbcd6170",
+  "name": "load-inline-native-code",
+  "description": "Helps write CUDA and HIP kernels using torch.utils.cpp_extension.load_inline(). Use when users want to write native GPU code (CUDA/HIP) inside a Python submission file.",
+  "repo_url": "https://github.com/gpu-mode/popcorn-cli",
+  "source_hub": "skillsmp",
+  "skill_type": "agent_skill",
+  "owner": "gpu-mode",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "agent-skills",
+    "utilities",
+    "installs:96"
+  ],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null,
+  "repo_status": "available",
+  "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
+  "repo_check_error": null
+}

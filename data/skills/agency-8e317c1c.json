@@ -1,0 +1,24 @@
+{
+  "id": "agency-8e317c1c",
+  "name": "agency",
+  "description": "Use Agency CLI to run parallel AI coding tasks in isolated Git worktrees. Invoke when user mentions \"agency\", \"ag\", parallel tasks, worktrees, or wants to run multiple coding agents simultaneously.",
+  "repo_url": "https://github.com/tobias-walle/agency",
+  "source_hub": "skillsmp",
+  "skill_type": "agent_skill",
+  "owner": "tobias-walle",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "agent-skills",
+    "utilities",
+    "installs:18"
+  ],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null,
+  "repo_status": "available",
+  "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
+  "repo_check_error": null
+}

@@ -1,0 +1,24 @@
+{
+  "id": "add-remote-skill-b97af2c9",
+  "name": "add-remote-skill",
+  "description": "This skill should be used when the user wants to add one or more skills from GitHub repositories to the kilo-marketplace. It handles parsing GitHub URLs, cloning skill directories, and updating SKILL.md frontmatter with source metadata.",
+  "repo_url": "https://github.com/kilo-org/kilo-marketplace",
+  "source_hub": "skillsmp",
+  "skill_type": "agent_skill",
+  "owner": "kilo-org",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "agent-skills",
+    "utilities",
+    "installs:32"
+  ],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null,
+  "repo_status": "available",
+  "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
+  "repo_check_error": null
+}

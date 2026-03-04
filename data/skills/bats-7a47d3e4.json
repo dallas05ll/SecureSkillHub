@@ -1,0 +1,24 @@
+{
+  "id": "bats-7a47d3e4",
+  "name": "bats",
+  "description": "Bash Automated Testing System (BATS) for TDD-style testing of shell scripts. Use when: (1) Writing unit or integration tests for Bash scripts, (2) Testing CLI tools or shell functions, (3) Setting up test infrastructure with setup/teardown hooks, (4) Mocking external commands (curl, git, docker), (5) Generating JUnit reports for CI/CD, (6) Debugging test failures or flaky tests, (7) Implementing test-driven development for shell scripts.",
+  "repo_url": "https://github.com/oleksandrkucherenko/e-bash",
+  "source_hub": "skillsmp",
+  "skill_type": "agent_skill",
+  "owner": "oleksandrkucherenko",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "agent-skills",
+    "dev-devops",
+    "installs:16"
+  ],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null,
+  "repo_status": "available",
+  "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
+  "repo_check_error": null
+}

@@ -1,14 +1,13 @@
 {
   "id": "crawlbase-mcp-6a88a5bf",
   "name": "crawlbase-mcp",
-  "description": "Crawlbase Web MCP Server (Model Context Protocol) connects AI agents and large language models (LLMs) with real-time web data. Built on Crawlbase’s proven web scraping and crawling infrastructure, it handles JavaScript rendering, anti-bot protection, and web data extraction at scale — powering Claude, Cursor, and Windsurf. It delivers a reliable, production-ready pipeline of live, structured data for AI workflows and intelligent applications.",
+  "description": "Crawlbase Web MCP Server (Model Context Protocol) connects AI agents and large language models (LLMs) with real-time web data. Built on Crawlbase\u2019s proven web scraping and crawling infrastructure, it handles JavaScript rendering, anti-bot protection, and web data extraction at scale \u2014 powering Claude, Cursor, and Windsurf. It delivers a reliable, production-ready pipeline of live, structured data for AI workflows and intelligent applications.",
   "repo_url": "https://github.com/crawlbase/crawlbase-mcp",
   "source_hub": "mcp_so",
   "owner": "crawlbase",
   "stars": 49,
   "primary_language": "javascript",
   "tags": [
-    "status-fail",
     "data",
     "data-ai",
     "data-ai-nlp",
@@ -121,5 +120,6 @@
       "override_reason": null
     },
     "manager_summary": "5/5 agents completed. Score: 100/100, Risk: high. 0 mismatches, 7 scanner findings. Rejected at 95% confidence. No safety overrides.\n[2026-03-01T06:14:16Z] PM review: fail. PM final decision: fail due to high-risk scanner findings."
-  }
+  },
+  "skill_type": "mcp_server"
 }

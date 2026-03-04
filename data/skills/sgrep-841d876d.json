@@ -1,0 +1,24 @@
+{
+  "id": "sgrep-841d876d",
+  "name": "sgrep",
+  "description": "Use sgrep for semantic code search. Use when you need to find code by meaning rather than exact text matching. Perfect for finding concepts like \"authentication logic\", \"error handling patterns\", or \"database connection pooling\".",
+  "repo_url": "https://github.com/rika-labs/sgrep",
+  "source_hub": "skillsmp",
+  "skill_type": "agent_skill",
+  "owner": "rika-labs",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "agent-skills",
+    "data-db",
+    "installs:38"
+  ],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null,
+  "repo_status": "available",
+  "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
+  "repo_check_error": null
+}

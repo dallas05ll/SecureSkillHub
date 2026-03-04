@@ -1,0 +1,24 @@
+{
+  "id": "build-5ac2c830",
+  "name": "build",
+  "description": "Build Canvas Android apps (Student, Teacher, Parent) using Gradle. Use when user mentions building, compiling, assembling, or making the app. Provides commands for dev, qa, and prod build variants.",
+  "repo_url": "https://github.com/instructure/canvas-android",
+  "source_hub": "skillsmp",
+  "skill_type": "agent_skill",
+  "owner": "instructure",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "agent-skills",
+    "dev-mobile",
+    "installs:149"
+  ],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null,
+  "repo_status": "available",
+  "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
+  "repo_check_error": null
+}

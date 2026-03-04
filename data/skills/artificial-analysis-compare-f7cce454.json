@@ -1,0 +1,24 @@
+{
+  "id": "artificial-analysis-compare-f7cce454",
+  "name": "artificial-analysis-compare",
+  "description": "Compare LLM models using the Artificial Analysis API. This skill should be used when the user asks to compare AI models, benchmark LLMs, evaluate model performance, compare pricing between models, or find the best model for a specific use case (coding, math, speed, cost). Triggers on requests like \"compare GPT-5 and Claude\", \"which model is fastest\", \"cheapest model for coding\", \"benchmark comparison\", \"model performance analysis\", or \"artificial analysis\". (user)",
+  "repo_url": "https://github.com/alexfazio/artificial-analysis-compare",
+  "source_hub": "skillsmp",
+  "skill_type": "agent_skill",
+  "owner": "alexfazio",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "agent-skills",
+    "data-ai",
+    "installs:9"
+  ],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null,
+  "repo_status": "available",
+  "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
+  "repo_check_error": null
+}

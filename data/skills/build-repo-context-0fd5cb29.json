@@ -1,0 +1,24 @@
+{
+  "id": "build-repo-context-0fd5cb29",
+  "name": "build-repo-context",
+  "description": "Crawl repository PRs, issues, and review comments to distill institutional knowledge into a shared knowledge base. Run periodically by \"context agents\" to maintain agent_artefacts/repo_context/REPO_CONTEXT.md.",
+  "repo_url": "https://github.com/ukgovernmentbeis/inspect_evals",
+  "source_hub": "skillsmp",
+  "skill_type": "agent_skill",
+  "owner": "ukgovernmentbeis",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "agent-skills",
+    "utilities",
+    "installs:374"
+  ],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null,
+  "repo_status": "available",
+  "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
+  "repo_check_error": null
+}

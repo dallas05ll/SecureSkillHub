@@ -1,0 +1,24 @@
+{
+  "id": "api-proxy-8a8835d9",
+  "name": "api-proxy",
+  "description": "Routes API requests through the user's residential proxy to bypass cloud IP blocks. TWO use cases - (1) Runtime fallback when direct curl/fetch fails with 403/blocked errors, use fetch.py for quick retry. (2) Template for building new skills that need proxy routing, copy proxy_helper.py into the new skill.",
+  "repo_url": "https://github.com/abra5umente/api-proxy",
+  "source_hub": "skillsmp",
+  "skill_type": "agent_skill",
+  "owner": "abra5umente",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "agent-skills",
+    "utilities",
+    "installs:16"
+  ],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null,
+  "repo_status": "available",
+  "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
+  "repo_check_error": null
+}

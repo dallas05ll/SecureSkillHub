@@ -1,0 +1,24 @@
+{
+  "id": "electron-debug-da8e9663",
+  "name": "electron-debug",
+  "description": "通过 CDP（Chrome DevTools Protocol）将 Playwright 连接到 LiveAutoRecord 的 Electron 应用， 实现抓取 console 日志、注入 JS 执行、截图、DOM 交互等自动化调试能力。 适用场景：调试 Electron 渲染进程问题、捕获 console 输出、自动截图、 测试运行中 Electron 窗口的 UI 行为，或任何需要对 Electron 窗口进行浏览器自动化的任务。",
+  "repo_url": "https://github.com/whiteminds/liveautorecord",
+  "source_hub": "skillsmp",
+  "skill_type": "agent_skill",
+  "owner": "whiteminds",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "agent-skills",
+    "dev-testing",
+    "installs:897"
+  ],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null,
+  "repo_status": "available",
+  "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
+  "repo_check_error": null
+}

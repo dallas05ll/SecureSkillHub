@@ -1,0 +1,24 @@
+{
+  "id": "kube-audit-kit-3b926b10",
+  "name": "kube-audit-kit",
+  "description": "Performs read-only Kubernetes security audits by exporting resources, sanitizing metadata, grouping applications by topology, and generating PSS/NSA-compliant audit reports. Use when the user requests auditing Kubernetes clusters, Namespaces, security reviews, or configuration analysis.",
+  "repo_url": "https://github.com/crazygit/kube-audit-kit",
+  "source_hub": "skillsmp",
+  "skill_type": "agent_skill",
+  "owner": "crazygit",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "agent-skills",
+    "dev-devops",
+    "installs:27"
+  ],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null,
+  "repo_status": "available",
+  "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
+  "repo_check_error": null
+}

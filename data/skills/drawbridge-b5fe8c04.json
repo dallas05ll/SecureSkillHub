@@ -1,0 +1,24 @@
+{
+  "id": "drawbridge-b5fe8c04",
+  "name": "drawbridge",
+  "description": "Generate Excalidraw diagrams with a hand-drawn aesthetic using Drawbridge.\nUse when user asks for: flowcharts, dependency diagrams, project visualization,\ntask maps, or \"make a diagram of this\". Pushes elements to a live Excalidraw\ncanvas via HTTP API, or renders to PNG/SVG.",
+  "repo_url": "https://github.com/alexknowshtml/drawbridge",
+  "source_hub": "skillsmp",
+  "skill_type": "agent_skill",
+  "owner": "alexknowshtml",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "agent-skills",
+    "utilities",
+    "installs:53"
+  ],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null,
+  "repo_status": "available",
+  "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
+  "repo_check_error": null
+}

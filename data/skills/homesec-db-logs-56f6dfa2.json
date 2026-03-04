@@ -1,0 +1,24 @@
+{
+  "id": "homesec-db-logs-56f6dfa2",
+  "name": "homesec-db-logs",
+  "description": "Query the HomeSec Postgres logs table to inspect recent runtime issues, counts by level/logger, and recurring error messages. Use when asked to check database logs in the telemetry DB, scan the last N hours for errors, or summarize log patterns. Enforce read-only access (SELECT only) and redact secrets.",
+  "repo_url": "https://github.com/lan17/homesec",
+  "source_hub": "skillsmp",
+  "skill_type": "agent_skill",
+  "owner": "lan17",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "agent-skills",
+    "data-db",
+    "installs:24"
+  ],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null,
+  "repo_status": "available",
+  "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
+  "repo_check_error": null
+}

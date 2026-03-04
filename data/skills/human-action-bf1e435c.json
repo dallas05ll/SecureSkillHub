@@ -1,0 +1,24 @@
+{
+  "id": "human-action-bf1e435c",
+  "name": "human-action",
+  "description": "Request human intervention for GUI operations, manual testing, or tasks requiring physical interaction. Use when you need the user to interact with applications like Xcode, perform manual testing, access authenticated systems, or complete multi-step IDE workflows.",
+  "repo_url": "https://github.com/macintacos/dotfiles",
+  "source_hub": "skillsmp",
+  "skill_type": "agent_skill",
+  "owner": "macintacos",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "agent-skills",
+    "dev-testing",
+    "installs:12"
+  ],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null,
+  "repo_status": "available",
+  "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
+  "repo_check_error": null
+}

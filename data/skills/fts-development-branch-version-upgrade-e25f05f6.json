@@ -1,0 +1,24 @@
+{
+  "id": "fts-development-branch-version-upgrade-e25f05f6",
+  "name": "fts-development-branch-version-upgrade",
+  "description": "Automates Fine-Tuning Scheduler development branch version upgrade process including basic metadata oriented code changes, documentation updates, environment setup, testing, and coverage collection. Use when starting development on a new FTS minor release (e.g., 2.10.0 -> 2.11.0).",
+  "repo_url": "https://github.com/speediedan/finetuning-scheduler",
+  "source_hub": "skillsmp",
+  "skill_type": "agent_skill",
+  "owner": "speediedan",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "agent-skills",
+    "dev-testing",
+    "installs:70"
+  ],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null,
+  "repo_status": "available",
+  "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
+  "repo_check_error": null
+}

@@ -1,0 +1,24 @@
+{
+  "id": "mag-messages-29fe6ca9",
+  "name": "mag-messages",
+  "description": "Manage Apple Messages via the Mac Agent Gateway HTTP API. Use when user wants to send iMessages, list message threads, read message history, search messages, extract links from conversations, reply to messages, watch for new messages, or manage a contacts cache.",
+  "repo_url": "https://github.com/ericblue/mac-agent-gateway",
+  "source_hub": "skillsmp",
+  "skill_type": "agent_skill",
+  "owner": "ericblue",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "agent-skills",
+    "utilities",
+    "installs:49"
+  ],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null,
+  "repo_status": "available",
+  "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
+  "repo_check_error": null
+}

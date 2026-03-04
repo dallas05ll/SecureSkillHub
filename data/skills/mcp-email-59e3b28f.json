@@ -8,10 +8,11 @@
   "stars": 0,
   "primary_language": "unknown",
   "tags": [
-    "repo_unavailable",
     "data-ai",
     "integ",
     "prod-comm",
+    "productivity-email",
+    "repo_unavailable",
     "util-search"
   ],
   "verification_status": "unverified",
@@ -21,5 +22,6 @@
   "scan_summary": null,
   "repo_status": "unavailable",
   "repo_check_date": "2026-02-28T20:52:06.446198+00:00",
-  "repo_check_error": "fatal: could not read Username for 'https://github.com': Device not configured"
+  "repo_check_error": "fatal: could not read Username for 'https://github.com': Device not configured",
+  "skill_type": "mcp_server"
 }

@@ -1,0 +1,24 @@
+{
+  "id": "vizdantic-runner-b083e1bc",
+  "name": "vizdantic-runner",
+  "description": "Run Vizdantic visualization workflows in this repo: load user datasets (CSV/Parquet/JSON/Excel), draft and validate Vizdantic specs, and render Plotly charts. Use when the user asks to visualize data, generate charts from a file/DataFrame, or execute Python to validate/render Vizdantic schema outputs.",
+  "repo_url": "https://github.com/ivogarais/vizdantic",
+  "source_hub": "skillsmp",
+  "skill_type": "agent_skill",
+  "owner": "ivogarais",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "agent-skills",
+    "utilities",
+    "installs:13"
+  ],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null,
+  "repo_status": "available",
+  "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
+  "repo_check_error": null
+}

@@ -1,0 +1,24 @@
+{
+  "id": "db-migrate-908f9d25",
+  "name": "db-migrate",
+  "description": "Create database migrations using Drizzle Kit. Use when adding/modifying tables, columns, or indexes. Ensures schema.ts and migrations stay in sync.",
+  "repo_url": "https://github.com/getsentry/abacus",
+  "source_hub": "skillsmp",
+  "skill_type": "agent_skill",
+  "owner": "getsentry",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "agent-skills",
+    "data-db",
+    "installs:66"
+  ],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null,
+  "repo_status": "available",
+  "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
+  "repo_check_error": null
+}

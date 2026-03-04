@@ -1,0 +1,24 @@
+{
+  "id": "entra-id-aspire-authentication-c2e78ceb",
+  "name": "entra-id-aspire-authentication",
+  "description": "Guide for adding Microsoft Entra ID (Azure AD) authentication to .NET Aspire applications.\nUse this when asked to add authentication, Entra ID, Azure AD, OIDC, or identity to an Aspire app,\nor when working with Microsoft.Identity.Web in Aspire projects.",
+  "repo_url": "https://github.com/azuread/microsoft-identity-web",
+  "source_hub": "skillsmp",
+  "skill_type": "agent_skill",
+  "owner": "azuread",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "agent-skills",
+    "dev-devops",
+    "installs:767"
+  ],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null,
+  "repo_status": "available",
+  "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
+  "repo_check_error": null
+}

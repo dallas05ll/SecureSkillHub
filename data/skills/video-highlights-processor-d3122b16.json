@@ -1,0 +1,24 @@
+{
+  "id": "video-highlights-processor-d3122b16",
+  "name": "video-highlights-processor",
+  "description": "Processes videos to identify engaging moments, generate transcripts, and create highlight clips with artistic titles and custom cover images. Use when user needs to: extract highlights from long videos or livestreams, clip or cut best moments from videos, process Bilibili/YouTube URLs or local video files, generate transcripts via Whisper, analyze content for engaging moments, create short-form clips with styled titles and covers, adjust cover text position and colors, or find and export memo...",
+  "repo_url": "https://github.com/linzzzzzz/openclip",
+  "source_hub": "skillsmp",
+  "skill_type": "agent_skill",
+  "owner": "linzzzzzz",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "agent-skills",
+    "utilities",
+    "installs:16"
+  ],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null,
+  "repo_status": "available",
+  "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
+  "repo_check_error": null
+}

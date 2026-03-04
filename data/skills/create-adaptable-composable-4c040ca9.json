@@ -1,0 +1,24 @@
+{
+  "id": "create-adaptable-composable-4c040ca9",
+  "name": "create-adaptable-composable",
+  "description": "Create a library-grade Vue composable that accepts maybe-reactive inputs (MaybeRef / MaybeRefOrGetter) so callers can pass a plain value, ref, or getter. Normalize inputs with toValue()/toRef() inside reactive effects (watch/watchEffect) to keep behavior predictable and reactive. Use this skill when user asks for creating adaptable or reusable composables.",
+  "repo_url": "https://github.com/zuiaizengdada/uniapp_vue3_vite_pinia_template",
+  "source_hub": "skillsmp",
+  "skill_type": "agent_skill",
+  "owner": "zuiaizengdada",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "agent-skills",
+    "dev-web-frontend",
+    "installs:9"
+  ],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null,
+  "repo_status": "available",
+  "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
+  "repo_check_error": null
+}

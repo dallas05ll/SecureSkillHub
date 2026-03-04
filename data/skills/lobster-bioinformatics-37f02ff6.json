@@ -1,0 +1,24 @@
+{
+  "id": "lobster-bioinformatics-37f02ff6",
+  "name": "lobster-bioinformatics",
+  "description": "Run bioinformatics analyses using Lobster AI - single-cell RNA-seq, bulk RNA-seq, literature mining, dataset discovery, quality control, and visualization. Use when analyzing genomics data, searching for papers/datasets, or working with H5AD, CSV, GEO/SRA accessions, or biological data. Requires lobster-ai package installed.",
+  "repo_url": "https://github.com/the-omics-os/lobster-local",
+  "source_hub": "skillsmp",
+  "skill_type": "agent_skill",
+  "owner": "the-omics-os",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "agent-skills",
+    "utilities",
+    "installs:45"
+  ],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null,
+  "repo_status": "available",
+  "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
+  "repo_check_error": null
+}

@@ -1,0 +1,24 @@
+{
+  "id": "backend-dev-1b7f27c9",
+  "name": "backend-dev",
+  "description": "Backend development skill for Resume Matcher. Handles FastAPI endpoints, Pydantic schemas, TinyDB operations, LiteLLM integration, and Python service logic. Use when creating or modifying backend code.",
+  "repo_url": "https://github.com/srbhr/resume-matcher",
+  "source_hub": "skillsmp",
+  "skill_type": "agent_skill",
+  "owner": "srbhr",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "agent-skills",
+    "dev-web-backend",
+    "installs:25975"
+  ],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null,
+  "repo_status": "available",
+  "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
+  "repo_check_error": null
+}

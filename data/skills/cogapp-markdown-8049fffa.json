@@ -1,0 +1,24 @@
+{
+  "id": "cogapp-markdown-8049fffa",
+  "name": "cogapp-markdown",
+  "description": "Use cogapp to auto-generate sections of markdown documentation by embedding Python code that produces content. Use when a project needs to keep documentation in sync with code, such as embedding CLI --help output in README files, generating tables, or any content that should be derived from the code itself rather than manually maintained.",
+  "repo_url": "https://github.com/simonw/skills",
+  "source_hub": "skillsmp",
+  "skill_type": "agent_skill",
+  "owner": "simonw",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "agent-skills",
+    "data-ai",
+    "installs:38"
+  ],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null,
+  "repo_status": "available",
+  "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
+  "repo_check_error": null
+}

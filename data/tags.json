@@ -101,6 +101,13 @@
             {"id": "dev-desktop-electron", "label": "Electron", "description": "Electron development", "skill_count": 0, "children": []},
             {"id": "dev-desktop-tauri", "label": "Tauri", "description": "Tauri development", "skill_count": 0, "children": []}
           ]
+        },
+        {
+          "id": "dev-gamedev",
+          "label": "Game Development",
+          "description": "Game engines, SDKs, and game development tooling",
+          "skill_count": 0,
+          "children": []
         }
       ]
     },
@@ -118,7 +125,9 @@
           "children": [
             {"id": "data-ai-nlp", "label": "NLP & Text", "description": "Natural language processing and text analysis", "skill_count": 0, "children": []},
             {"id": "data-ai-vision", "label": "Vision", "description": "Computer vision and image processing", "skill_count": 0, "children": []},
-            {"id": "data-ai-audio", "label": "Audio", "description": "Speech, music, and audio processing", "skill_count": 0, "children": []}
+            {"id": "data-ai-audio", "label": "Audio", "description": "Speech, music, and audio processing", "skill_count": 0, "children": []},
+            {"id": "data-ai-rag", "label": "RAG & Retrieval", "description": "Retrieval-augmented generation, vector search, and knowledge retrieval", "skill_count": 0, "children": []},
+            {"id": "data-ai-agents", "label": "Agent Frameworks", "description": "AI agent orchestration, multi-agent systems, and agent toolkits", "skill_count": 0, "children": []}
           ]
         },
         {
@@ -142,6 +151,20 @@
           "id": "data-analysis",
           "label": "Data Analysis",
           "description": "Data processing and visualization",
+          "skill_count": 0,
+          "children": []
+        },
+        {
+          "id": "data-finance",
+          "label": "Finance & Trading",
+          "description": "Financial data, trading APIs, market data, and crypto exchange integrations",
+          "skill_count": 0,
+          "children": []
+        },
+        {
+          "id": "data-rag",
+          "label": "RAG & Retrieval",
+          "description": "Retrieval-augmented generation, vector search, and knowledge retrieval pipelines",
           "skill_count": 0,
           "children": []
         }
@@ -184,7 +207,9 @@
         {"id": "integrations-github", "label": "GitHub", "description": "GitHub integration tools", "skill_count": 0, "children": []},
         {"id": "integrations-slack", "label": "Slack", "description": "Slack integration tools", "skill_count": 0, "children": []},
         {"id": "integrations-notion", "label": "Notion", "description": "Notion integration tools", "skill_count": 0, "children": []},
-        {"id": "integrations-jira", "label": "Jira", "description": "Jira integration tools", "skill_count": 0, "children": []}
+        {"id": "integrations-jira", "label": "Jira", "description": "Jira integration tools", "skill_count": 0, "children": []},
+        {"id": "integrations-messaging", "label": "Messaging & Chat", "description": "Messaging platforms and chat integrations (Slack, Discord, Telegram, Teams, etc.)", "skill_count": 0, "children": []},
+        {"id": "integrations-google", "label": "Google", "description": "Google Workspace integrations (Drive, Docs, Sheets, Calendar)", "skill_count": 0, "children": []}
       ]
     },
     {
@@ -196,7 +221,8 @@
         {"id": "security-scanning", "label": "Scanning", "description": "Vulnerability scanning tools", "skill_count": 0, "children": []},
         {"id": "security-auth", "label": "Authentication", "description": "Auth and identity tools", "skill_count": 0, "children": []},
         {"id": "security-secrets", "label": "Secrets Management", "description": "Secret and credential management", "skill_count": 0, "children": []},
-        {"id": "security-crypto", "label": "Crypto & Web3", "description": "Blockchain, cryptocurrency, and Web3 tools", "skill_count": 0, "children": []}
+        {"id": "security-crypto", "label": "Crypto & Web3", "description": "Blockchain, cryptocurrency, and Web3 tools", "skill_count": 0, "children": []},
+        {"id": "security-compliance", "label": "Compliance & Legal", "description": "Regulatory compliance, legal tech, audit, and governance tools", "skill_count": 0, "children": []}
       ]
     },
     {

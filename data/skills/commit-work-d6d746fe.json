@@ -1,0 +1,24 @@
+{
+  "id": "commit-work-d6d746fe",
+  "name": "commit-work",
+  "description": "Create high-quality git commits: review/stage intended changes, split into logical commits, and write clear commit messages (including Conventional Commits). Use when the user asks to commit, craft a commit message, stage changes, or split work into multiple commits.",
+  "repo_url": "https://github.com/fellipeutaka/kanpeki",
+  "source_hub": "skillsmp",
+  "skill_type": "agent_skill",
+  "owner": "fellipeutaka",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "agent-skills",
+    "dev-git",
+    "installs:28"
+  ],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null,
+  "repo_status": "available",
+  "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
+  "repo_check_error": null
+}

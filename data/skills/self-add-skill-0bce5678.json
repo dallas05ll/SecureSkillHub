@@ -1,0 +1,24 @@
+{
+  "id": "self-add-skill-0bce5678",
+  "name": "self-add-skill",
+  "description": "home-manager 管理環境で新しいスキルを追加するためのガイド。ユーザーが新しい▽ゆースキルを作成したいとき、~/.claude/skills や ~/.codex/skills に直接作成する代わりに、dotfiles リポジトリ内の modules/home/ai/skills/ に作成し、home-manager switch で適用する必要がある環境、つまりユーザー単位向け。dotfiles でない場合、基本的にプロジェクト単位で追加するため、このスキルは使用しない。",
+  "repo_url": "https://github.com/ojii3/dotfiles",
+  "source_hub": "skillsmp",
+  "skill_type": "agent_skill",
+  "owner": "ojii3",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "agent-skills",
+    "utilities",
+    "installs:13"
+  ],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null,
+  "repo_status": "available",
+  "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
+  "repo_check_error": null
+}

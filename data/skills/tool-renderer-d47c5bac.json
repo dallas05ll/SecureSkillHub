@@ -1,0 +1,24 @@
+{
+  "id": "tool-renderer-d47c5bac",
+  "name": "tool-renderer",
+  "description": "Implement specialized rendering for Claude Code tools. Use when adding a new tool type (WebSearch, WebFetch, etc.) to the transcript viewer, or when asked to implement tool rendering.",
+  "repo_url": "https://github.com/daaain/claude-code-log",
+  "source_hub": "skillsmp",
+  "skill_type": "agent_skill",
+  "owner": "daaain",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "agent-skills",
+    "utilities",
+    "installs:734"
+  ],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null,
+  "repo_status": "available",
+  "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
+  "repo_check_error": null
+}

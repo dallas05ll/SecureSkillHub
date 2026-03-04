@@ -12,7 +12,6 @@
     "data-ai",
     "data-ai-nlp",
     "dev",
-    "sec-crypto",
     "util",
     "util-map",
     "util-monitor"
@@ -24,5 +23,6 @@
   "scan_summary": null,
   "repo_status": "unavailable",
   "repo_check_date": "2026-02-28T20:53:02.832787+00:00",
-  "repo_check_error": "fatal: could not read Username for 'https://github.com': Device not configured"
+  "repo_check_error": "fatal: could not read Username for 'https://github.com': Device not configured",
+  "skill_type": "mcp_server"
 }

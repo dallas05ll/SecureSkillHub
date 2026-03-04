@@ -8,10 +8,11 @@
   "stars": 0,
   "primary_language": "unknown",
   "tags": [
-    "repo_unavailable",
-    "integ"
+    "integ",
+    "integrations-github",
+    "repo_unavailable"
   ],
-  "verification_status": "pass",
+  "verification_status": "unverified",
   "overall_score": 95,
   "risk_level": "info",
   "verified_commit": null,
@@ -20,5 +21,13 @@
   "repo_status": "unavailable",
   "repo_check_date": "2026-02-28T20:51:45.748151+00:00",
   "repo_check_error": "fatal: could not read Username for 'https://github.com': Device not configured",
-  "verification_level": "scanner_only"
+  "status_cleared": {
+    "date": "2026-03-02T20:40:18.531782+00:00",
+    "previous_status": "pass",
+    "previous_score": 95,
+    "previous_risk": "info",
+    "verification_level": "scanner_only",
+    "reason": "SM cleanup: only full_pipeline pass is real pass. Needs re-verification."
+  },
+  "skill_type": "mcp_server"
 }

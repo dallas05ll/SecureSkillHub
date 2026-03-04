@@ -6,14 +6,14 @@
   "source_hub": "mcp_so",
   "owner": "jhacksman",
   "stars": 126,
-  "primary_language": "unknown",
+  "primary_language": "python",
   "tags": [
     "data-ai-vision",
     "util-file"
   ],
   "verification_status": "pass",
-  "overall_score": 85,
-  "risk_level": "info",
+  "overall_score": 45,
+  "risk_level": "medium",
   "verified_commit": "6948c2dc5a385adc987bc3ff75ba435d26f48ba3",
   "scan_summary": {
     "total_findings": 0,
@@ -21,6 +21,94 @@
     "severity_counts": {},
     "category_counts": {}
   },
-  "scan_date": "2026-02-27T06:40:44Z",
-  "verification_level": "scanner_only"
+  "scan_date": "2026-03-03T05:23:12Z",
+  "verification_level": "full_pipeline",
+  "status_cleared": {
+    "date": "2026-03-02T20:40:18.531782+00:00",
+    "previous_status": "pass",
+    "previous_score": 85,
+    "previous_risk": "info",
+    "verification_level": "scanner_only",
+    "reason": "SM cleanup: only full_pipeline pass is real pass. Needs re-verification."
+  },
+  "findings_summary": {
+    "scanner_findings": 436,
+    "dangerous_calls": 12,
+    "network_ops": 10,
+    "file_ops": 364,
+    "env_access": 39,
+    "obfuscation": 8,
+    "injection_patterns": 0,
+    "mismatches": 0,
+    "undocumented_capabilities": 0,
+    "supervisor_approved": false,
+    "supervisor_confidence": 50
+  },
+  "agent_audit": {
+    "agents_completed": 5,
+    "agents_required": 5,
+    "pipeline_run_at": "2026-03-03T05:23:12Z",
+    "agent_a": {
+      "signed": true,
+      "signed_at": "2026-03-03T05:23:12Z",
+      "comment": "Docs quality 9/10. README present. 12 features, 4 permissions claimed.",
+      "doc_quality_score": 9,
+      "claimed_permissions": [
+        "network access",
+        "system command execution",
+        "file system access",
+        "environment/secret access"
+      ]
+    },
+    "agent_b": {
+      "signed": true,
+      "signed_at": "2026-03-03T05:23:12Z",
+      "comment": "52 files analyzed. Found: 19 network, 69 file, 11 env, 13 system calls. Primary: python.",
+      "files_analyzed": 52,
+      "capabilities_found": [
+        "imports external dependencies",
+        "performs network operations",
+        "reads/writes files",
+        "reads environment values",
+        "executes system commands"
+      ]
+    },
+    "agent_c_star": {
+      "signed": true,
+      "signed_at": "2026-03-03T05:23:12Z",
+      "comment": "436 findings: 0 critical, 23 high, 49 medium, 364 low. Obfuscation detected!. No injection.",
+      "total_findings": 436,
+      "severity_counts": {
+        "critical": 0,
+        "high": 23,
+        "medium": 49,
+        "low": 364,
+        "info": 0
+      }
+    },
+    "agent_d": {
+      "signed": true,
+      "signed_at": "2026-03-03T05:23:12Z",
+      "comment": "Score 45. 0 mismatches. Risk: medium. Safety overrides: none triggered.",
+      "score": 45,
+      "mismatches": 0,
+      "safety_overrides_applied": false
+    },
+    "agent_e": {
+      "signed": true,
+      "signed_at": "2026-03-03T05:23:12Z",
+      "comment": "Rejected. Confidence 50%. No overrides.",
+      "approved": false,
+      "confidence": 50,
+      "override_reason": null
+    },
+    "manager_summary": "5/5 agents completed. Score: 45/100, Risk: medium. 0 mismatches, 436 scanner findings. Rejected at 50% confidence. No safety overrides."
+  },
+  "pm_override": {
+    "action": "fail_to_pass",
+    "reason": "PM override: score 45 with low-risk obfuscation (minified JS/vendored), 0 injection, 0 critical. Known scoring bug pattern.",
+    "override_by": "PM",
+    "date": "2026-03-03T05:28:08.397144+00:00"
+  },
+  "skill_type": "mcp_server"
 }

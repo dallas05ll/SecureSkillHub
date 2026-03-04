@@ -1,0 +1,24 @@
+{
+  "id": "gcell-causal-6959d5f6",
+  "name": "gcell-causal",
+  "description": "Causal network analysis using gcell. Use this skill when users ask about:\n- Inferring causal relationships from expression data\n- LiNGAM causal discovery algorithm\n- Regulatory network construction\n- Visualizing causal/regulatory networks\nTriggers: causal network, LiNGAM, causal inference, regulatory network, causal discovery, gene regulatory network",
+  "repo_url": "https://github.com/get-foundation/gcell",
+  "source_hub": "skillsmp",
+  "skill_type": "agent_skill",
+  "owner": "get-foundation",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "agent-skills",
+    "utilities",
+    "installs:12"
+  ],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null,
+  "repo_status": "available",
+  "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
+  "repo_check_error": null
+}

@@ -1,0 +1,24 @@
+{
+  "id": "gpt-researcher-aac087c1",
+  "name": "gpt-researcher",
+  "description": "GPT Researcher is an autonomous deep research agent that conducts web and local research, producing detailed reports with citations. Use this skill when helping developers understand, extend, debug, or integrate with GPT Researcher - including adding features, understanding the architecture, working with the API, customizing research workflows, adding new retrievers, integrating MCP data sources, or troubleshooting research pipelines.",
+  "repo_url": "https://github.com/assafelovic/gpt-researcher",
+  "source_hub": "skillsmp",
+  "skill_type": "agent_skill",
+  "owner": "assafelovic",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "agent-skills",
+    "data-ai",
+    "installs:25341"
+  ],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null,
+  "repo_status": "available",
+  "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
+  "repo_check_error": null
+}

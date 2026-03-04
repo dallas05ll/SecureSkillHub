@@ -1,0 +1,24 @@
+{
+  "id": "chinese-copyright-application-8e7b9b59",
+  "name": "chinese-copyright-application",
+  "description": "用于生成中国软件著作权申请材料的完整工具包。支持从项目代码、文档等自动提取信息，生成软件著作权登记申请表、源代码文档（前后各30页）、用户手册和设计说明书，并自动转换为PDF文件。适用于微信小程序、Web应用、移动App、桌面应用等各类软件项目。当用户需要申请中国软件著作权时使用此skill。",
+  "repo_url": "https://github.com/na57/chinese-copyright-application-skill",
+  "source_hub": "skillsmp",
+  "skill_type": "agent_skill",
+  "owner": "na57",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "agent-skills",
+    "utilities",
+    "installs:19"
+  ],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null,
+  "repo_status": "available",
+  "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
+  "repo_check_error": null
+}

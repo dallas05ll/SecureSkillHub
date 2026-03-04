@@ -1,0 +1,24 @@
+{
+  "id": "discourse-upcoming-changes-e7563f18",
+  "name": "discourse-upcoming-changes",
+  "description": "Use when adding a new upcoming change feature flag to Discourse - handles site settings, translations, images, and code access patterns",
+  "repo_url": "https://github.com/discourse/discourse",
+  "source_hub": "skillsmp",
+  "skill_type": "agent_skill",
+  "owner": "discourse",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "agent-skills",
+    "utilities",
+    "installs:46359"
+  ],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null,
+  "repo_status": "available",
+  "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
+  "repo_check_error": null
+}

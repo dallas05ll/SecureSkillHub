@@ -1,0 +1,24 @@
+{
+  "id": "architecture-7f67ecd9",
+  "name": "architecture",
+  "description": "Use when documenting architecture, understanding system structure, creating diagrams, or analyzing component relationships. Focuses on interfaces and high-level design. Triggers on: 'use architecture mode', 'architecture', 'system design', 'how is this structured', 'document the system', 'create a diagram', 'high-level overview'. Read-only mode.",
+  "repo_url": "https://github.com/mcouthon/agents",
+  "source_hub": "skillsmp",
+  "skill_type": "agent_skill",
+  "owner": "mcouthon",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "agent-skills",
+    "dev-web-frontend",
+    "installs:26"
+  ],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null,
+  "repo_status": "available",
+  "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
+  "repo_check_error": null
+}

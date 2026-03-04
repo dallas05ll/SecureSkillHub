@@ -1,0 +1,24 @@
+{
+  "id": "aidoc-a4b7b1c0",
+  "name": "aidoc",
+  "description": "记录 AI 对话产出的知识到 aidoc 仓库。当用户说\"记录到 aidoc\"、\"存到 aidoc\"、\"保存这个知识点\"时使用此 skill。",
+  "repo_url": "https://github.com/amosbird/serverconfig",
+  "source_hub": "skillsmp",
+  "skill_type": "agent_skill",
+  "owner": "amosbird",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "agent-skills",
+    "utilities",
+    "installs:53"
+  ],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null,
+  "repo_status": "available",
+  "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
+  "repo_check_error": null
+}

@@ -1,0 +1,24 @@
+{
+  "id": "analyze-wast-cade71b7",
+  "name": "analyze-wast",
+  "description": "Analyze WebAssembly test (WAST) files to debug compilation issues and create regression tests. Use when the user asks to debug or analyze WAST test failures, investigate compilation bugs in wasmoon, or when encountering test failures in spec/*.wast files. Triggers include \"analyze wast\", \"debug wast\", \"wast bug\", or references to specific .wast test files.",
+  "repo_url": "https://github.com/milky2018/wasmoon",
+  "source_hub": "skillsmp",
+  "skill_type": "agent_skill",
+  "owner": "milky2018",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "agent-skills",
+    "utilities",
+    "installs:22"
+  ],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null,
+  "repo_status": "available",
+  "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
+  "repo_check_error": null
+}

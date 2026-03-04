@@ -1,29 +1,43 @@
 {
   "tag_path": "dev-mobile",
   "label": "General Mobile Application Package",
-  "description": "Top 1 verified mobile application skills, auto-curated by GitHub stars and security score.",
+  "description": "Top 2 verified mobile application skills, auto-curated by GitHub stars and security score.",
   "skill_ids": [
-    "jadx-ai-mcp-5c5bc36b"
+    "flutter-animations-dc2bfbce",
+    "react-native-best-practices-1970bd18"
   ],
   "skills": [
     {
-      "id": "jadx-ai-mcp-5c5bc36b",
-      "name": "jadx-ai-mcp",
-      "description": "JADX plugin integrating an MCP server to enable LLMs like Claude to analyze Android APKs, uncover vulnerabilities, and perform reverse engineering through the Model Context Protocol.",
-      "repo_url": "https://github.com/zinja-coder/jadx-ai-mcp",
-      "stars": 1290,
-      "overall_score": 78,
-      "verification_status": "verified",
+      "id": "flutter-animations-dc2bfbce",
+      "name": "Flutter Animations",
+      "description": "Agent skill: flutter-animations from madteacher/mad-agents-skills",
+      "repo_url": "https://github.com/madteacher/mad-agents-skills",
+      "stars": 8100,
+      "overall_score": 70,
+      "verification_status": "pass",
       "risk_level": "low",
-      "primary_language": "Java",
-      "install_url": "https://github.com/zinja-coder/jadx-ai-mcp",
+      "primary_language": "unknown",
+      "install_url": "https://github.com/madteacher/mad-agents-skills",
+      "skill_type": "unknown"
+    },
+    {
+      "id": "react-native-best-practices-1970bd18",
+      "name": "React Native Best Practices",
+      "description": "Agent skill: react-native-best-practices from callstackincubator/agent-skills",
+      "repo_url": "https://github.com/callstackincubator/agent-skills",
+      "stars": 6500,
+      "overall_score": 84,
+      "verification_status": "pass",
+      "risk_level": "medium",
+      "primary_language": "unknown",
+      "install_url": "https://github.com/callstackincubator/agent-skills",
       "skill_type": "unknown"
     }
   ],
-  "total_skills": 1,
-  "total_candidates": 1,
-  "avg_score": 78.0,
-  "min_score": 78,
-  "top_stars": 1290,
-  "generated_at": "2026-02-26T00:40:21Z"
+  "total_skills": 2,
+  "total_candidates": 2,
+  "avg_score": 77.0,
+  "min_score": 70,
+  "top_stars": 8100,
+  "generated_at": "2026-03-02T22:27:24Z"
 }

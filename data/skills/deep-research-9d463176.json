@@ -1,0 +1,24 @@
+{
+  "id": "deep-research-9d463176",
+  "name": "deep-research",
+  "description": "深度调研方法论（8步法）：将模糊主题转化为高质量调研报告。\n自动执行问题拆解、资料分层、事实抽取、框架对比、推导验证，输出可交付的结构化报告。\n触发词：\n- \"深度调研\"、\"深度研究\"、\"深入分析\"\n- \"帮我调研\"、\"调研一下\"、\"研究一下\"\n- \"对比分析\"、\"概念对比\"、\"技术对比\"\n- \"写调研报告\"、\"出调研报告\"\n注意：如果用户需要的是可视化图谱而非报告，请使用 research-to-diagram skill。",
+  "repo_url": "https://github.com/wshuyi/deep-research",
+  "source_hub": "skillsmp",
+  "skill_type": "agent_skill",
+  "owner": "wshuyi",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "agent-skills",
+    "utilities",
+    "installs:236"
+  ],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null,
+  "repo_status": "available",
+  "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
+  "repo_check_error": null
+}

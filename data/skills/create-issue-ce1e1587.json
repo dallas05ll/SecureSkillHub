@@ -1,0 +1,24 @@
+{
+  "id": "create-issue-ce1e1587",
+  "name": "create-issue",
+  "description": "Draft GitHub issues for the Gumroad codebase. Outputs to an unstaged markdown file in the repo root. Never creates issues on GitHub. Triggers on: \"create issue\", \"write issue\", \"draft issue\", \"write a bug report\", \"file an issue\", \"create a ticket\", or when the user describes a problem or feature they want to turn into a GitHub issue.",
+  "repo_url": "https://github.com/antiwork/gumroad",
+  "source_hub": "skillsmp",
+  "skill_type": "agent_skill",
+  "owner": "antiwork",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "agent-skills",
+    "utilities",
+    "installs:8427"
+  ],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null,
+  "repo_status": "available",
+  "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
+  "repo_check_error": null
+}

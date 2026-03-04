@@ -1,0 +1,24 @@
+{
+  "id": "cmux-fa7bcabb",
+  "name": "cmux",
+  "description": "End-user control of cmux topology and routing (windows, workspaces, panes/surfaces, focus, moves, reorder, identify, trigger flash). Use when automation needs deterministic placement and navigation in a multi-pane cmux layout.",
+  "repo_url": "https://github.com/manaflow-ai/cmux",
+  "source_hub": "skillsmp",
+  "skill_type": "agent_skill",
+  "owner": "manaflow-ai",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "agent-skills",
+    "utilities",
+    "installs:12"
+  ],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null,
+  "repo_status": "available",
+  "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
+  "repo_check_error": null
+}

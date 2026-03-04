@@ -1,0 +1,24 @@
+{
+  "id": "foundry-agent-chat-b23e5765",
+  "name": "foundry-agent-chat",
+  "description": "Create an ad-hoc Microsoft Foundry agent for a specific purpose using the new v2 Responses API.\nBuild a custom prompt agent with optional tools, run a conversation, and clean up.\nUse when the user says: \"create a foundry agent\", \"make an agent for\", \"foundry agent\",\n\"build an ai agent\", \"create an assistant\", \"spin up an agent\", \"agent for this task\"",
+  "repo_url": "https://github.com/aymenfurter/octoclaw",
+  "source_hub": "skillsmp",
+  "skill_type": "agent_skill",
+  "owner": "aymenfurter",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "agent-skills",
+    "data-ai",
+    "installs:12"
+  ],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null,
+  "repo_status": "available",
+  "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
+  "repo_check_error": null
+}

@@ -1,0 +1,24 @@
+{
+  "id": "neohaskell-feature-pipeline-6c7d9b20",
+  "name": "neohaskell-feature-pipeline",
+  "description": "17-phase feature implementation pipeline for NeoHaskell. Orchestrated by Atlas. \nUse when implementing new features, types, or modules for the NeoHaskell project \nfollowing the full development lifecycle: ADR drafting, security review (OWASP/NIST/EU), \nperformance review (50k req/s target), DevEx lead review, architecture design, test-first \ndevelopment, implementation, build/test loops, review cycles, PR creation, bot review, \nand merge. Coordinates the neohaskell-devex-lead, neohaskell-secu...",
+  "repo_url": "https://github.com/neohaskell/neohaskell",
+  "source_hub": "skillsmp",
+  "skill_type": "agent_skill",
+  "owner": "neohaskell",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "agent-skills",
+    "dev-devops",
+    "installs:343"
+  ],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null,
+  "repo_status": "available",
+  "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
+  "repo_check_error": null
+}

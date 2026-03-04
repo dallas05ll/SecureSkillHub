@@ -1,0 +1,24 @@
+{
+  "id": "dhi-python-5cecd438",
+  "name": "dhi-python",
+  "description": "Ultra-fast data validation library for Python (520x faster than Pydantic). Use when building validated data models, API request/response schemas, or configuration objects. Provides Pydantic v2-compatible BaseModel API with Zig-powered native validation.",
+  "repo_url": "https://github.com/justrach/dhi",
+  "source_hub": "skillsmp",
+  "skill_type": "agent_skill",
+  "owner": "justrach",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "agent-skills",
+    "utilities",
+    "installs:34"
+  ],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null,
+  "repo_status": "available",
+  "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
+  "repo_check_error": null
+}

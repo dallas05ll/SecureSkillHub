@@ -1,0 +1,24 @@
+{
+  "id": "shortcuts-generator-35570f9e",
+  "name": "shortcuts-generator",
+  "description": "Generate macOS/iOS Shortcuts by creating plist files. Use when asked to create shortcuts, automate workflows, build .shortcut files, or generate Shortcuts plists. Covers 1,155 actions (427 WF*Actions + 728 AppIntents), variable references, and control flow.",
+  "repo_url": "https://github.com/drewocarr/generate-shortcuts-skill",
+  "source_hub": "skillsmp",
+  "skill_type": "agent_skill",
+  "owner": "drewocarr",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "agent-skills",
+    "dev-mobile",
+    "installs:146"
+  ],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null,
+  "repo_status": "available",
+  "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
+  "repo_check_error": null
+}

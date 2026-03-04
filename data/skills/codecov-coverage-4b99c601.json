@@ -1,0 +1,24 @@
+{
+  "id": "codecov-coverage-4b99c601",
+  "name": "codecov-coverage",
+  "description": "Fetch and analyze code coverage from Codecov API for the linkml project. Use when checking coverage before making a PR, analyzing coverage changes, or finding low-coverage files.",
+  "repo_url": "https://github.com/linkml/linkml",
+  "source_hub": "skillsmp",
+  "skill_type": "agent_skill",
+  "owner": "linkml",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "agent-skills",
+    "dev-testing",
+    "installs:464"
+  ],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null,
+  "repo_status": "available",
+  "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
+  "repo_check_error": null
+}

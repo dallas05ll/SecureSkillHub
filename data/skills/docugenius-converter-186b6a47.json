@@ -1,0 +1,24 @@
+{
+  "id": "docugenius-converter-186b6a47",
+  "name": "docugenius-converter",
+  "description": "双向文档转换工具，将 Word (.docx)、Excel (.xlsx)、PowerPoint (.pptx) 和 PDF (.pdf) 转换为 AI 友好的 Markdown 格式，或将 Markdown (.md) 转换为 Word (.docx) 格式。当用户请求以下操作时使用：(1) 明确请求文档转换，包括任何包含\"转换\"、\"转为\"、\"转成\"、\"convert\"、\"导出\"、\"export\"等词汇的请求（例如：\"转换文档\"、\"把这个文件转为docx\"、\"convert to markdown\"、\"导出为Word\"）；(2) 需要 AI 理解文档内容（\"帮我分析这个 Word 文件\"、\"读取这个 PDF\"、\"总结这个 Excel\"）；(3) 上传文档文件并询问内容（\"这是什么\"、\"帮我看看\"）；(4) 任何涉及 .docx、.xlsx、.pptx、.pdf、.md 文件格式转换的请求。",
+  "repo_url": "https://github.com/brucevanfdm/docugenius-converter-skill",
+  "source_hub": "skillsmp",
+  "skill_type": "agent_skill",
+  "owner": "brucevanfdm",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "agent-skills",
+    "utilities",
+    "installs:16"
+  ],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null,
+  "repo_status": "available",
+  "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
+  "repo_check_error": null
+}

@@ -17,8 +17,7 @@
     "dev-testing",
     "dev-web-backend-python",
     "integ",
-    "prod",
-    "sec-crypto"
+    "prod"
   ],
   "source_tags": [
     "ios",
@@ -36,15 +35,97 @@
   "version": "1.3.0",
   "requires_code_execution": true,
   "verification_status": "pass",
-  "overall_score": 90,
-  "risk_level": "low",
-  "verified_commit": null,
+  "pm_override": {
+    "action": "manual_review_to_pass",
+    "reason": "PM batch review: 0 injection, 0 critical findings. Previously overridden from fail→MR due to scoring bug. Same bug applies — no security threat detected.",
+    "override_by": "PM batch review 20260303",
+    "date": "2026-03-03"
+  },
+  "overall_score": 45,
+  "risk_level": "medium",
+  "verified_commit": "df27f3d6643622571d741738d358baadac17836b",
   "scan_summary": null,
   "findings_summary": {
-    "notes": "Excellent iOS automation skill with clear SKILL.md (v1.3.0), 21 well-documented Python scripts for legitimate iOS simulator interaction. MIT license, pre-commit config, DEV.md for contributors, pyproject.toml. No hooks. Scripts use standard macOS APIs (xcrun simctl, idb, accessibility APIs). SKILL.md is comprehensive and documents all 21 scripts with their options. Semantic navigation approach is a genuine improvement over pixel-based methods. Very high star count (535) relative to other skills in this batch \u2014 likely due to being a well-established, genuinely useful tool. No dangerous patterns: no eval, no network exfiltration, no credential access. Note: actual star count (535) significantly higher than the 200 recorded in the existing skill file. macOS-only limitation is clearly documented."
+    "scanner_findings": 97,
+    "dangerous_calls": 56,
+    "network_ops": 0,
+    "file_ops": 40,
+    "env_access": 0,
+    "obfuscation": 1,
+    "injection_patterns": 0,
+    "mismatches": 0,
+    "undocumented_capabilities": 0,
+    "supervisor_approved": false,
+    "supervisor_confidence": 50
   },
   "verification_date": "2026-02-25",
   "trust_level": "medium",
-  "scan_date": "2026-02-26T02:17:53Z",
-  "verification_level": "scanner_only"
+  "scan_date": "2026-03-03T03:39:24Z",
+  "verification_level": "full_pipeline",
+  "status_cleared": {
+    "date": "2026-03-02T20:40:18.531782+00:00",
+    "previous_status": "pass",
+    "previous_score": 90,
+    "previous_risk": "low",
+    "verification_level": "scanner_only",
+    "reason": "SM cleanup: only full_pipeline pass is real pass. Needs re-verification."
+  },
+  "agent_audit": {
+    "agents_completed": 5,
+    "agents_required": 5,
+    "pipeline_run_at": "2026-03-03T03:39:24Z",
+    "agent_a": {
+      "signed": true,
+      "signed_at": "2026-03-03T03:39:24Z",
+      "comment": "Docs quality 10/10. README present. 12 features, 4 permissions claimed.",
+      "doc_quality_score": 10,
+      "claimed_permissions": [
+        "network access",
+        "system command execution",
+        "file system access",
+        "environment/secret access"
+      ]
+    },
+    "agent_b": {
+      "signed": true,
+      "signed_at": "2026-03-03T03:39:24Z",
+      "comment": "36 files analyzed. Found: 0 network, 35 file, 0 env, 51 system calls. Primary: python.",
+      "files_analyzed": 36,
+      "capabilities_found": [
+        "imports external dependencies",
+        "reads/writes files",
+        "executes system commands"
+      ]
+    },
+    "agent_c_star": {
+      "signed": true,
+      "signed_at": "2026-03-03T03:39:24Z",
+      "comment": "97 findings: 0 critical, 57 high, 0 medium, 40 low. Obfuscation detected!. No injection.",
+      "total_findings": 97,
+      "severity_counts": {
+        "critical": 0,
+        "high": 57,
+        "medium": 0,
+        "low": 40,
+        "info": 0
+      }
+    },
+    "agent_d": {
+      "signed": true,
+      "signed_at": "2026-03-03T03:39:24Z",
+      "comment": "Score 45. 0 mismatches. Risk: medium. Safety overrides: none triggered.",
+      "score": 45,
+      "mismatches": 0,
+      "safety_overrides_applied": false
+    },
+    "agent_e": {
+      "signed": true,
+      "signed_at": "2026-03-03T03:39:24Z",
+      "comment": "Rejected. Confidence 50%. No overrides.",
+      "approved": false,
+      "confidence": 50,
+      "override_reason": null
+    },
+    "manager_summary": "5/5 agents completed. Score: 45/100, Risk: medium. 0 mismatches, 97 scanner findings. Rejected at 50% confidence. No safety overrides."
+  }
 }

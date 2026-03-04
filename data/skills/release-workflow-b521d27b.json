@@ -1,0 +1,24 @@
+{
+  "id": "release-workflow-b521d27b",
+  "name": "release-workflow",
+  "description": "Use when preparing or executing a release of peek-stash-browser. Covers the full release lifecycle from validation through Docker image publishing.",
+  "repo_url": "https://github.com/carrotwaxr/peek-stash-browser",
+  "source_hub": "skillsmp",
+  "skill_type": "agent_skill",
+  "owner": "carrotwaxr",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "agent-skills",
+    "dev-devops",
+    "installs:25"
+  ],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null,
+  "repo_status": "available",
+  "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
+  "repo_check_error": null
+}

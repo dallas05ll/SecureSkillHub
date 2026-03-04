@@ -1,0 +1,24 @@
+{
+  "id": "commiter-760f1357",
+  "name": "commiter",
+  "description": "Create git commits with emoji prefixes and conventional commit messages. Use when the user wants to commit changes, push code, or asks to use \"just pm\" command.",
+  "repo_url": "https://github.com/databricks-solutions/apx",
+  "source_hub": "skillsmp",
+  "skill_type": "agent_skill",
+  "owner": "databricks-solutions",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "agent-skills",
+    "dev-git",
+    "installs:42"
+  ],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null,
+  "repo_status": "available",
+  "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
+  "repo_check_error": null
+}

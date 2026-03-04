@@ -1,0 +1,24 @@
+{
+  "id": "langchain-langgraph-coding-assistant-4036cc5c",
+  "name": "langchain-langgraph-coding-assistant",
+  "description": "当用户需要编写LangChain或LangGraph相关代码时，提供基于示例代码的编码辅助，包括RAG、Agent、工作流、工具定义、中间件等多种功能模块的实现指导。",
+  "repo_url": "https://github.com/5zjk5/prompt-engineering",
+  "source_hub": "skillsmp",
+  "skill_type": "agent_skill",
+  "owner": "5zjk5",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "agent-skills",
+    "data-ai",
+    "installs:116"
+  ],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null,
+  "repo_status": "available",
+  "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
+  "repo_check_error": null
+}

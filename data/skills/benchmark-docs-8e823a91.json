@@ -1,0 +1,24 @@
+{
+  "id": "benchmark-docs-8e823a91",
+  "name": "benchmark-docs",
+  "description": "Manages benchmark documentation across multiple platforms. Use when updating benchmark results, adding performance data, or documenting jq comparison benchmarks. Triggers on terms like \"benchmark\", \"performance\", \"jq comparison\", \"benchmark results\", \"update benchmarks\".",
+  "repo_url": "https://github.com/rust-works/succinctly",
+  "source_hub": "skillsmp",
+  "skill_type": "agent_skill",
+  "owner": "rust-works",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "agent-skills",
+    "utilities",
+    "installs:44"
+  ],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null,
+  "repo_status": "available",
+  "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
+  "repo_check_error": null
+}

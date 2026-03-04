@@ -1,0 +1,24 @@
+{
+  "id": "create-element-2ecd6086",
+  "name": "create-element",
+  "description": "Create new UI elements for tryelements.dev registry. Use when: (1) Adding new UI components (buttons, inputs, cards), (2) Building integration components (Clerk, Stripe, Uploadthing), (3) Creating theme-related elements, (4) Any shadcn-style registry component. IMPORTANT: For logo components with variants (icon/wordmark/logo + dark/light), use the logo-with-variants skill instead. This skill includes scaffolding, registry schema, and component patterns. ALWAYS use Context7 MCP to fetch latest...",
+  "repo_url": "https://github.com/crafter-station/elements",
+  "source_hub": "skillsmp",
+  "skill_type": "agent_skill",
+  "owner": "crafter-station",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "agent-skills",
+    "dev-web-frontend",
+    "installs:389"
+  ],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null,
+  "repo_status": "available",
+  "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
+  "repo_check_error": null
+}

@@ -1,0 +1,24 @@
+{
+  "id": "architecture-design-4e3ea265",
+  "name": "architecture-design",
+  "description": "Use ONLY when creating NEW registrable components in ML projects that require Factory/Registry patterns.\n\n✅ USE when:\n- Creating a new Dataset class (needs @register_dataset)\n- Creating a new Model class (needs @register_model)\n- Creating a new module directory with __init__.py factory\n- Initializing a new ML project structure from scratch\n- Adding new component types (Augmentation, CollateFunction, Metrics)\n\n❌ DO NOT USE when:\n- Modifying existing functions or methods\n- Fixing bugs in existi...",
+  "repo_url": "https://github.com/galaxy-dawn/claude-scholar",
+  "source_hub": "skillsmp",
+  "skill_type": "agent_skill",
+  "owner": "galaxy-dawn",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "agent-skills",
+    "dev-web-frontend",
+    "installs:413"
+  ],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null,
+  "repo_status": "available",
+  "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
+  "repo_check_error": null
+}

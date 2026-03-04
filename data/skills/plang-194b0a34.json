@@ -1,0 +1,24 @@
+{
+  "id": "plang-194b0a34",
+  "name": "plang",
+  "description": "Expert guidance for Plang programming language (plang.is). Use when the user asks about Plang syntax, wants to generate Plang code, needs help debugging Plang goals, wants to understand Plang patterns, or is working on Plang projects. Plang is a natural language pseudo-code language with goal-based architecture using SQLite databases.",
+  "repo_url": "https://github.com/planghq/plang",
+  "source_hub": "skillsmp",
+  "skill_type": "agent_skill",
+  "owner": "planghq",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "agent-skills",
+    "data-db",
+    "installs:62"
+  ],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null,
+  "repo_status": "available",
+  "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
+  "repo_check_error": null
+}

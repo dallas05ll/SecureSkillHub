@@ -1,0 +1,24 @@
+{
+  "id": "golden-test-reviewer-9d0adeec",
+  "name": "golden-test-reviewer",
+  "description": "This skill should be used when the user asks to \"review golden test\", \"evaluate testcase\", \"check testdata quality\", \"review test coverage\", \"review PR\", \"review branch\", \"code review\", or wants to validate golden test cases in packages/cli/src/gen-orchestrator/testdata/. When triggered by general code review requests (PR/branch review), this skill handles the golden test portion of the review. Provides systematic evaluation workflow for gqlkit golden test cases.",
+  "repo_url": "https://github.com/izumin5210/gqlkit",
+  "source_hub": "skillsmp",
+  "skill_type": "agent_skill",
+  "owner": "izumin5210",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "agent-skills",
+    "dev-testing",
+    "installs:27"
+  ],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null,
+  "repo_status": "available",
+  "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
+  "repo_check_error": null
+}

@@ -1,0 +1,24 @@
+{
+  "id": "mcp-local-rag-44077917",
+  "name": "mcp-local-rag",
+  "description": "Provides score interpretation (< 0.3 good, > 0.5 skip), query optimization, and source naming for query_documents, ingest_file, ingest_data tools. Use this skill when working with RAG, searching documents, ingesting files, saving web content, or handling PDF, HTML, DOCX, TXT, Markdown.",
+  "repo_url": "https://github.com/shinpr/mcp-local-rag",
+  "source_hub": "skillsmp",
+  "skill_type": "agent_skill",
+  "owner": "shinpr",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "agent-skills",
+    "dev-web-frontend",
+    "installs:112"
+  ],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null,
+  "repo_status": "available",
+  "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
+  "repo_check_error": null
+}

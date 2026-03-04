@@ -13,19 +13,92 @@
     "data-ai",
     "dev",
     "integ",
+    "integrations-github",
     "prod"
   ],
   "verification_status": "pass",
-  "overall_score": 72,
-  "risk_level": "low",
-  "verified_commit": null,
+  "overall_score": 81,
+  "risk_level": "medium",
+  "verified_commit": "000f5fe444520ff69dde868ff610449c587161de",
   "scan_summary": null,
   "last_updated": "2026-02-14T13:43:40Z",
   "findings_summary": {
-    "notes": "Well-structured individual developer project for Claude Code configuration. MIT licensed with active maintenance (updated Feb 2026, 186 forks). Provides Claude Code plugin marketplace integration, npx skills installer, LiteLLM proxy setup for multi-model support, and various specialized skills (codex, kiro, youtube transcribe, etc). Supports Copilot, Codex, and other AI coding tools. No SECURITY.md. Primary consideration is that these settings modify Claude's behavior and permissions - users should review CLAUDE.md and settings.json before applying. Individual developer (not org-backed), but widely adopted community resource with clear documentation."
+    "scanner_findings": 3,
+    "dangerous_calls": 0,
+    "network_ops": 2,
+    "file_ops": 0,
+    "env_access": 0,
+    "obfuscation": 0,
+    "injection_patterns": 0,
+    "mismatches": 0,
+    "undocumented_capabilities": 0,
+    "supervisor_approved": true,
+    "supervisor_confidence": 81
   },
   "duplicate_of": "claude-code-settings-89738951",
   "trust_level": "low",
-  "scan_date": "2026-02-25T23:13:52Z",
-  "verification_level": "scanner_only"
+  "scan_date": "2026-03-03T14:50:48Z",
+  "verification_level": "full_pipeline",
+  "status_cleared": {
+    "date": "2026-03-02T20:40:18.531782+00:00",
+    "previous_status": "pass",
+    "previous_score": 72,
+    "previous_risk": "low",
+    "verification_level": "scanner_only",
+    "reason": "SM cleanup: only full_pipeline pass is real pass. Needs re-verification."
+  },
+  "agent_audit": {
+    "agents_completed": 5,
+    "agents_required": 5,
+    "pipeline_run_at": "2026-03-03T14:50:48Z",
+    "agent_a": {
+      "signed": true,
+      "signed_at": "2026-03-03T14:50:48Z",
+      "comment": "Docs quality 10/10. README present. 12 features, 4 permissions claimed.",
+      "doc_quality_score": 10,
+      "claimed_permissions": [
+        "network access",
+        "system command execution",
+        "file system access",
+        "environment/secret access"
+      ]
+    },
+    "agent_b": {
+      "signed": true,
+      "signed_at": "2026-03-03T14:50:48Z",
+      "comment": "7 files analyzed. Found: 0 network, 0 file, 0 env, 0 system calls. Primary: unknown.",
+      "files_analyzed": 7,
+      "capabilities_found": []
+    },
+    "agent_c_star": {
+      "signed": true,
+      "signed_at": "2026-03-03T14:50:48Z",
+      "comment": "3 findings: 0 critical, 1 high, 2 medium, 0 low. No obfuscation. No injection.",
+      "total_findings": 3,
+      "severity_counts": {
+        "critical": 0,
+        "high": 1,
+        "medium": 2,
+        "low": 0,
+        "info": 0
+      }
+    },
+    "agent_d": {
+      "signed": true,
+      "signed_at": "2026-03-03T14:50:48Z",
+      "comment": "Score 81. 0 mismatches. Risk: medium. Safety overrides: none triggered.",
+      "score": 81,
+      "mismatches": 0,
+      "safety_overrides_applied": false
+    },
+    "agent_e": {
+      "signed": true,
+      "signed_at": "2026-03-03T14:50:48Z",
+      "comment": "Approved. Confidence 81%. No overrides.",
+      "approved": true,
+      "confidence": 81,
+      "override_reason": null
+    },
+    "manager_summary": "5/5 agents completed. Score: 81/100, Risk: medium. 0 mismatches, 3 scanner findings. Approved at 81% confidence. No safety overrides."
+  }
 }

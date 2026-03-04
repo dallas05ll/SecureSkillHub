@@ -1,0 +1,24 @@
+{
+  "id": "enferno-dev-ccd7c9ab",
+  "name": "enferno-dev",
+  "description": "Development skill for Enferno Flask framework. Use when implementing features, fixing bugs, or writing code for Enferno-based applications. This includes creating models, API endpoints, Vue.js frontend components, database operations, or any development task within the Enferno ecosystem. Triggers: creating blueprints, adding models, building APIs, Vue/Vuetify components, Celery tasks, database migrations.",
+  "repo_url": "https://github.com/level09/enferno",
+  "source_hub": "skillsmp",
+  "skill_type": "agent_skill",
+  "owner": "level09",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "agent-skills",
+    "dev-web-frontend",
+    "installs:566"
+  ],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null,
+  "repo_status": "available",
+  "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
+  "repo_check_error": null
+}

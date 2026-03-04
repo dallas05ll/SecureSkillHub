@@ -5,12 +5,13 @@ export function getInstallCommand(skill: {
   install_url?: string;
   name: string;
 }): string {
+  const lang = (skill.primary_language || "").toLowerCase();
   if (skill.skill_type === "mcp_server") {
-    if (["TypeScript", "JavaScript"].includes(skill.primary_language)) {
-      return `npx -y ${skill.name}`;
+    if (["typescript", "javascript"].includes(lang)) {
+      return `npx -y "${skill.name}"`;
     }
-    if (skill.primary_language === "Python") {
-      return `uvx ${skill.name}`;
+    if (lang === "python") {
+      return `uvx "${skill.name}"`;
     }
   }
   return `git clone ${skill.repo_url}`;

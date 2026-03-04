@@ -1,0 +1,24 @@
+{
+  "id": "implement-dplyr-verb-cf77a2f8",
+  "name": "implement-dplyr-verb",
+  "description": "Guide for implementing dplyr verbs (filter, mutate, select, etc.) for custom backends. Use when building dplyr-compatible table classes like database connections (dbplyr), data.table wrappers (dtplyr), Arrow tables, Spark DataFrames, or GPU tables. Covers S3 method dispatch, rlang expression parsing, NAMESPACE exports, Rcpp integration, and testing patterns.",
+  "repo_url": "https://github.com/bbtheo/cuplyr",
+  "source_hub": "skillsmp",
+  "skill_type": "agent_skill",
+  "owner": "bbtheo",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "agent-skills",
+    "data-db",
+    "installs:29"
+  ],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null,
+  "repo_status": "available",
+  "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
+  "repo_check_error": null
+}

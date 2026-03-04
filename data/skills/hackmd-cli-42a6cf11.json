@@ -1,0 +1,24 @@
+{
+  "id": "hackmd-cli-42a6cf11",
+  "name": "hackmd-cli",
+  "description": "HackMD command-line interface for managing notes and team notes. Use this skill when users want to create, read, update, delete, or export HackMD notes via CLI, manage team notes, list teams, view browsing history, or automate HackMD workflows. Triggers on mentions of hackmd-cli, HackMD CLI, or requests to interact with HackMD notes programmatically.",
+  "repo_url": "https://github.com/hackmdio/hackmd-cli",
+  "source_hub": "skillsmp",
+  "skill_type": "agent_skill",
+  "owner": "hackmdio",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "agent-skills",
+    "utilities",
+    "installs:125"
+  ],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null,
+  "repo_status": "available",
+  "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
+  "repo_check_error": null
+}

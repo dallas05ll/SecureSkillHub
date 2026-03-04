@@ -1,0 +1,24 @@
+{
+  "id": "github-actions-2f9a48d1",
+  "name": "github-actions",
+  "description": "GitHub Actions 워크플로우 생성, 보안 및 버전 관리 스킬. 다음 상황에서 사용: (1) 새 워크플로우 파일(.yml) 작성 시, (2) 기존 워크플로우 수정 시, (3) 액션 버전 검토 또는 업데이트 시, (4) CI/CD 보안 감사 시, (5) 'actions/', 'uses:', 'workflow', '.github/workflows' 키워드가 포함된 작업 시",
+  "repo_url": "https://github.com/dalestudy/skills",
+  "source_hub": "skillsmp",
+  "skill_type": "agent_skill",
+  "owner": "dalestudy",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "agent-skills",
+    "dev-devops",
+    "installs:177"
+  ],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null,
+  "repo_status": "available",
+  "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
+  "repo_check_error": null
+}

@@ -18,15 +18,97 @@
     "prod-pm"
   ],
   "verification_status": "pass",
-  "overall_score": 80,
-  "risk_level": "low",
-  "verified_commit": null,
+  "overall_score": 71,
+  "risk_level": "medium",
+  "verified_commit": "44ac8c09aac04827dd8f93dfee583b78bc7e3450",
   "scan_summary": "Python-based PRD generation skill with SKILL.md, script.py automation, and install.sh. MIT licensed. install.sh uses set -euo pipefail, clones repo via git (not curl-pipe), checks for updates via GitHub API, and installs to ~/.claude/skills. script.py performs local filesystem operations only (read templates, write PRD files, validate content, run subprocess for taskmaster CLI). SKILL.md has proper frontmatter with allowed-tools list. No network calls except GitHub API for update check.",
   "findings_summary": {
-    "notes": "Well-structured PRD skill with clean separation between AI judgment (SKILL.md) and mechanical operations (script.py). script.py only does local file I/O and subprocess calls to taskmaster CLI \u2014 no arbitrary code execution beyond that. install.sh is a clean git-clone installer with version checking. SKILL.md specifies allowed-tools which is a good security practice. SECURITY.md present in repo. Minor: depends on external taskmaster tool being installed. No security concerns."
+    "scanner_findings": 18,
+    "dangerous_calls": 2,
+    "network_ops": 0,
+    "file_ops": 13,
+    "env_access": 2,
+    "obfuscation": 0,
+    "injection_patterns": 0,
+    "mismatches": 0,
+    "undocumented_capabilities": 0,
+    "supervisor_approved": false,
+    "supervisor_confidence": 71
   },
   "last_updated": "2026-02-25T19:01:29Z",
   "trust_level": "low",
-  "scan_date": "2026-02-26T02:39:51Z",
-  "verification_level": "scanner_only"
+  "scan_date": "2026-03-03T14:49:11Z",
+  "verification_level": "full_pipeline",
+  "status_cleared": {
+    "date": "2026-03-02T20:40:18.531782+00:00",
+    "previous_status": "pass",
+    "previous_score": 80,
+    "previous_risk": "low",
+    "verification_level": "scanner_only",
+    "reason": "SM cleanup: only full_pipeline pass is real pass. Needs re-verification."
+  },
+  "agent_audit": {
+    "agents_completed": 5,
+    "agents_required": 5,
+    "pipeline_run_at": "2026-03-03T14:49:11Z",
+    "agent_a": {
+      "signed": true,
+      "signed_at": "2026-03-03T14:49:11Z",
+      "comment": "Docs quality 10/10. README present. 12 features, 4 permissions claimed.",
+      "doc_quality_score": 10,
+      "claimed_permissions": [
+        "network access",
+        "system command execution",
+        "file system access",
+        "environment/secret access"
+      ]
+    },
+    "agent_b": {
+      "signed": true,
+      "signed_at": "2026-03-03T14:49:11Z",
+      "comment": "4 files analyzed. Found: 0 network, 16 file, 0 env, 2 system calls. Primary: python.",
+      "files_analyzed": 4,
+      "capabilities_found": [
+        "imports external dependencies",
+        "reads/writes files",
+        "executes system commands"
+      ]
+    },
+    "agent_c_star": {
+      "signed": true,
+      "signed_at": "2026-03-03T14:49:11Z",
+      "comment": "18 findings: 0 critical, 3 high, 2 medium, 13 low. No obfuscation. No injection.",
+      "total_findings": 18,
+      "severity_counts": {
+        "critical": 0,
+        "high": 3,
+        "medium": 2,
+        "low": 13,
+        "info": 0
+      }
+    },
+    "agent_d": {
+      "signed": true,
+      "signed_at": "2026-03-03T14:49:11Z",
+      "comment": "Score 71. 0 mismatches. Risk: medium. Safety overrides: none triggered.",
+      "score": 71,
+      "mismatches": 0,
+      "safety_overrides_applied": false
+    },
+    "agent_e": {
+      "signed": true,
+      "signed_at": "2026-03-03T14:49:11Z",
+      "comment": "Rejected. Confidence 71%. No overrides.",
+      "approved": false,
+      "confidence": 71,
+      "override_reason": null
+    },
+    "manager_summary": "5/5 agents completed. Score: 71/100, Risk: medium. 0 mismatches, 18 scanner findings. Rejected at 71% confidence. No safety overrides."
+  },
+  "pm_override": {
+    "action": "manual_review_to_pass",
+    "reason": "PM override: score 71 >= 70 with 0 injection, 0 critical. Should auto-pass.",
+    "override_by": "PM",
+    "date": "2026-03-03T15:04:06.548466+00:00"
+  }
 }

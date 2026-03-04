@@ -1,0 +1,24 @@
+{
+  "id": "bkend-auth-397dc273",
+  "name": "bkend-auth",
+  "description": "bkend.ai authentication and security expert skill.\nCovers email signup/login, social login (Google, GitHub), magic link,\nJWT tokens (Access 1h, Refresh 30d), session management, RBAC (admin/user/self/guest),\nRLS policies, password management, and account lifecycle.\n\nTriggers: signup, login, JWT, session, social login, RBAC, RLS, password, token,\n회원가입, 로그인, 토큰, 세션, 권한, 보안정책, 비밀번호,\nログイン, 認証, セッション, 権限, パスワード,\n登录, 认证, 会话, 权限, 密码,\nregistro, inicio de sesion, permisos, contrasena,\ninscription, con...",
+  "repo_url": "https://github.com/popup-studio-ai/bkit-gemini",
+  "source_hub": "skillsmp",
+  "skill_type": "agent_skill",
+  "owner": "popup-studio-ai",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "agent-skills",
+    "security",
+    "installs:23"
+  ],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null,
+  "repo_status": "available",
+  "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
+  "repo_check_error": null
+}

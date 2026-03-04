@@ -9,12 +9,11 @@
   "primary_language": "typescript",
   "tags": [
     "integ",
-    "util",
-    "status-fail"
+    "util"
   ],
-  "verification_status": "fail",
-  "overall_score": 0,
-  "risk_level": "high",
+  "verification_status": "pass",
+  "overall_score": 45,
+  "risk_level": "medium",
   "verified_commit": "12524581c777ccfd9d72d00b7230838f0af3800d",
   "scan_summary": null,
   "scan_date": "2026-03-01T07:22:00Z",
@@ -30,7 +29,12 @@
     "mismatches": 0,
     "undocumented_capabilities": 0,
     "supervisor_approved": false,
-    "supervisor_confidence": 50
+    "supervisor_confidence": 50,
+    "reassessed": true,
+    "reassessed_at": "2026-03-02T18:23:39Z",
+    "reassessment_reason": "Scoring fix: uncapped scanner_penalty bug. Old penalty=386 crushed score to 0. Capped at 40: new_score=45 (base=85, b_missed_deduction=15, capped_penalty=40).",
+    "previous_status": "fail",
+    "previous_score": 0
   },
   "agent_audit": {
     "agents_completed": 5,
@@ -90,5 +94,12 @@
       "override_reason": null
     },
     "manager_summary": "5/5 agents completed. Score: 0/100, Risk: high. 0 mismatches, 290 scanner findings. Rejected at 50% confidence. No safety overrides."
-  }
+  },
+  "pm_override": {
+    "date": "2026-03-02T21:03:50.196204+00:00",
+    "previous_status": "fail",
+    "reason": "PM override (internet-verified): TRUSTED: punkpeye/fastmcp, THE TypeScript MCP framework, stars match (~2.9K)",
+    "override_by": "PM + SecM(Opus) audit + internet verification 20260302"
+  },
+  "skill_type": "mcp_server"
 }

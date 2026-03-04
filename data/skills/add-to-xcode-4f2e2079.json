@@ -1,0 +1,24 @@
+{
+  "id": "add-to-xcode-4f2e2079",
+  "name": "add-to-xcode",
+  "description": "REQUIRED: After creating ANY .swift, .m, .mm, .c, .cpp, or .h file in a directory containing a .xcodeproj, you MUST run add_to_xcode.rb to register it with the project. Without this step, the file will NOT appear in Xcode and will NOT compile.",
+  "repo_url": "https://github.com/michaelboeding/skills",
+  "source_hub": "skillsmp",
+  "skill_type": "agent_skill",
+  "owner": "michaelboeding",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "agent-skills",
+    "dev-mobile",
+    "installs:9"
+  ],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null,
+  "repo_status": "available",
+  "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
+  "repo_check_error": null
+}

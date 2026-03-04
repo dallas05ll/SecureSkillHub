@@ -1,0 +1,24 @@
+{
+  "id": "gepa-demo-eb8cbfc2",
+  "name": "gepa-demo",
+  "description": "Guide users who want to optimize their LLM prompts. We will interact with them, understanding their datasets and grader requirements, and finally writing DSPy code to optimize their prompt (using a custom implementation of the GEPA algorithm).",
+  "repo_url": "https://github.com/raveeshbhalla/dspy-gepa-logger",
+  "source_hub": "skillsmp",
+  "skill_type": "agent_skill",
+  "owner": "raveeshbhalla",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "agent-skills",
+    "data-ai",
+    "installs:46"
+  ],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null,
+  "repo_status": "available",
+  "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
+  "repo_check_error": null
+}

@@ -1,0 +1,24 @@
+{
+  "id": "agent-orchestrator-manager-9fd69815",
+  "name": "agent-orchestrator-manager",
+  "description": "Orchestrates multi-agent workflows by delegating ALL tasks to spawned subagents via /spawn command. Parallelizes independent work, supervises execution, tracks progress in UUID-based output directories, and generates summary reports. Never executes tasks directly. Triggers on keywords: orchestrate, manage agents, spawn agents, parallel tasks, coordinate agents, multi-agent, orc, delegate tasks",
+  "repo_url": "https://github.com/waterplanai/agentic-config",
+  "source_hub": "skillsmp",
+  "skill_type": "agent_skill",
+  "owner": "waterplanai",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "agent-skills",
+    "utilities",
+    "installs:23"
+  ],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null,
+  "repo_status": "available",
+  "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
+  "repo_check_error": null
+}

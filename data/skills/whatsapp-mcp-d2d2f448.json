@@ -8,11 +8,12 @@
   "stars": 0,
   "primary_language": "unknown",
   "tags": [
-    "repo_unavailable",
     "integ",
+    "integrations-messaging",
+    "repo_unavailable",
     "util"
   ],
-  "verification_status": "manual_review",
+  "verification_status": "unverified",
   "overall_score": 52,
   "risk_level": "high",
   "verified_commit": null,
@@ -20,5 +21,6 @@
   "scan_date": "2026-02-26T03:00:51Z",
   "repo_status": "unavailable",
   "repo_check_date": "2026-02-28T20:53:08.959923+00:00",
-  "repo_check_error": "fatal: could not read Username for 'https://github.com': Device not configured"
+  "repo_check_error": "fatal: could not read Username for 'https://github.com': Device not configured",
+  "skill_type": "mcp_server"
 }

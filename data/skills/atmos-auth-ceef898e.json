@@ -1,0 +1,24 @@
+{
+  "id": "atmos-auth-ceef898e",
+  "name": "atmos-auth",
+  "description": "Use when authenticating with AWS via Atmos. Covers ATMOS_PROFILE setup, SSO login, and how Atmos automatically assumes the correct identity per stack. Use for authentication setup, SSO login issues, and permission errors.",
+  "repo_url": "https://github.com/cloudposse/docs",
+  "source_hub": "skillsmp",
+  "skill_type": "agent_skill",
+  "owner": "cloudposse",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "agent-skills",
+    "dev-devops",
+    "installs:93"
+  ],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null,
+  "repo_status": "available",
+  "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
+  "repo_check_error": null
+}

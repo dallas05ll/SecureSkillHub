@@ -1,0 +1,24 @@
+{
+  "id": "coverage-4c478857",
+  "name": "coverage",
+  "description": "Run test coverage analysis, identify missed and partial lines, and write tests to improve coverage. Use this when the user asks to check coverage, improve coverage, or write tests for uncovered code. This skill detects both completely missed lines and partially covered lines (executed but missing branch coverage) to match Codecov analysis.",
+  "repo_url": "https://github.com/talmolab/sleap-io",
+  "source_hub": "skillsmp",
+  "skill_type": "agent_skill",
+  "owner": "talmolab",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "agent-skills",
+    "dev-testing",
+    "installs:21"
+  ],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null,
+  "repo_status": "available",
+  "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
+  "repo_check_error": null
+}

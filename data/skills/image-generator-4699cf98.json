@@ -1,0 +1,24 @@
+{
+  "id": "image-generator-4699cf98",
+  "name": "image-generator",
+  "description": "Generate and edit images using Gemini's Nano Banana Pro model (gemini-3-pro-image-preview). Use this skill when the user asks you to generate images, create visuals, edit photos, create logos, generate product mockups, or perform any image generation/editing task.",
+  "repo_url": "https://github.com/dair-ai/dair-academy-plugins",
+  "source_hub": "skillsmp",
+  "skill_type": "agent_skill",
+  "owner": "dair-ai",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "agent-skills",
+    "utilities",
+    "installs:75"
+  ],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null,
+  "repo_status": "available",
+  "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
+  "repo_check_error": null
+}

@@ -1,0 +1,24 @@
+{
+  "id": "simpleaible-c1219557",
+  "name": "simpleaible",
+  "description": "Use the SimpleAIBLE MCP server to scan, connect, and interact with Bluetooth devices. This skill provides guidance on the recommended flow (scan -> connect -> services -> read/notify) and handles platform-specific differences like UUIDs on macOS vs MAC addresses on Linux. Use when the user wants to interact with BLE hardware or debug Bluetooth connections.",
+  "repo_url": "https://github.com/simpleble/simpleble",
+  "source_hub": "skillsmp",
+  "skill_type": "agent_skill",
+  "owner": "simpleble",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "agent-skills",
+    "utilities",
+    "installs:1031"
+  ],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null,
+  "repo_status": "available",
+  "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
+  "repo_check_error": null
+}

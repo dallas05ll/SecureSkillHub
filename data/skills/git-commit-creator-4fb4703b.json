@@ -1,0 +1,24 @@
+{
+  "id": "git-commit-creator-4fb4703b",
+  "name": "git-commit-creator",
+  "description": "Creates properly formatted Git commits following conventional commit standards for the MCPSpy project. Use when asked to commit changes, stage files, or manage git workflows. Has access to git status, diff, checkout, add, and commit commands.",
+  "repo_url": "https://github.com/alex-ilgayev/mcpspy",
+  "source_hub": "skillsmp",
+  "skill_type": "agent_skill",
+  "owner": "alex-ilgayev",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "agent-skills",
+    "dev-git",
+    "installs:497"
+  ],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null,
+  "repo_status": "available",
+  "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
+  "repo_check_error": null
+}

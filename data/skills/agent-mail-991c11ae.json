@@ -1,0 +1,24 @@
+{
+  "id": "agent-mail-991c11ae",
+  "name": "agent-mail",
+  "description": "Coordinate with other AI agents via project-local Maildir messaging. Use when operating in tandem mode with Claude, Gemini, or other agents. Enables claiming tasks, reporting completion, handling blocks, and synchronizing work across terminals.",
+  "repo_url": "https://github.com/leegonzales/aiskills",
+  "source_hub": "skillsmp",
+  "skill_type": "agent_skill",
+  "owner": "leegonzales",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "agent-skills",
+    "utilities",
+    "installs:19"
+  ],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null,
+  "repo_status": "available",
+  "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
+  "repo_check_error": null
+}

@@ -1,0 +1,24 @@
+{
+  "id": "create-tooluniverse-skill-92533b34",
+  "name": "create-tooluniverse-skill",
+  "description": "Create high-quality ToolUniverse skills following test-driven, implementation-agnostic methodology. Integrates tools from ToolUniverse's 1,264+ tool library, creates missing tools when needed using devtu-create-tool, tests thoroughly, and produces skills with Python SDK + MCP support. Use when asked to create new ToolUniverse skills, build research workflows, or develop domain-specific analysis capabilities for biology, chemistry, or medicine.",
+  "repo_url": "https://github.com/mims-harvard/tooluniverse",
+  "source_hub": "skillsmp",
+  "skill_type": "agent_skill",
+  "owner": "mims-harvard",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "agent-skills",
+    "utilities",
+    "installs:978"
+  ],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null,
+  "repo_status": "available",
+  "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
+  "repo_check_error": null
+}

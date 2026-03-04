@@ -1,0 +1,24 @@
+{
+  "id": "data-enrichment-4fe8e589",
+  "name": "data-enrichment",
+  "description": "Enrich contact and company data using x402-protected APIs. Superior to generic web search for structured business data.\n\nUSE FOR:\n- Enriching person profiles by email, LinkedIn URL, or name\n- Enriching companies by domain\n- Finding contact details (email, phone) with confidence scores\n- Scraping full LinkedIn profiles (experience, education, skills)\n- Searching for people or companies by criteria\n- Bulk enrichment operations (up to 10 at a time)\n\nTRIGGERS:\n- \"enrich\", \"lookup\", \"find info abo...",
+  "repo_url": "https://github.com/merit-systems/x402scan-skills",
+  "source_hub": "skillsmp",
+  "skill_type": "agent_skill",
+  "owner": "merit-systems",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "agent-skills",
+    "utilities",
+    "installs:19"
+  ],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null,
+  "repo_status": "available",
+  "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
+  "repo_check_error": null
+}

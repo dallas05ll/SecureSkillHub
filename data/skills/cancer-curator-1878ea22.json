@@ -1,0 +1,24 @@
+{
+  "id": "cancer-curator-1878ea22",
+  "name": "cancer-curator",
+  "description": "Skill for curating cancer and neoplastic disease entries in the dismech knowledge base. Use this skill when creating or enhancing cancer entries, adding oncogene/tumor suppressor pathophysiology, curating histopathology findings, adding targeted therapy information, and linking genetic drivers to treatment responses. Covers fusion genes, two-hit hypothesis, oncogene addiction, and precision oncology concepts.",
+  "repo_url": "https://github.com/monarch-initiative/dismech",
+  "source_hub": "skillsmp",
+  "skill_type": "agent_skill",
+  "owner": "monarch-initiative",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "agent-skills",
+    "utilities",
+    "installs:10"
+  ],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null,
+  "repo_status": "available",
+  "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
+  "repo_check_error": null
+}

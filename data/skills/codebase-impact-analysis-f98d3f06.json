@@ -1,0 +1,24 @@
+{
+  "id": "codebase-impact-analysis-f98d3f06",
+  "name": "codebase-impact-analysis",
+  "description": "Analyze a Go codebase to determine if it is impacted by a specific CVE using multiple verification methods and assign a risk level",
+  "repo_url": "https://github.com/openshift-eng/ai-helpers",
+  "source_hub": "skillsmp",
+  "skill_type": "agent_skill",
+  "owner": "openshift-eng",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "agent-skills",
+    "utilities",
+    "installs:39"
+  ],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null,
+  "repo_status": "available",
+  "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
+  "repo_check_error": null
+}

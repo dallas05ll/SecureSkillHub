@@ -1,0 +1,24 @@
+{
+  "id": "build-dmg-c644dcaf",
+  "name": "build-dmg",
+  "description": "Build and package TransFlow.app into a DMG installer using create-dmg. Use when the user asks to build DMG, package the app, create an installer, or distribute the application.",
+  "repo_url": "https://github.com/cyronlee/transflow",
+  "source_hub": "skillsmp",
+  "skill_type": "agent_skill",
+  "owner": "cyronlee",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "agent-skills",
+    "utilities",
+    "installs:50"
+  ],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null,
+  "repo_status": "available",
+  "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
+  "repo_check_error": null
+}

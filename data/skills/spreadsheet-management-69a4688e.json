@@ -1,0 +1,24 @@
+{
+  "id": "spreadsheet-management-69a4688e",
+  "name": "spreadsheet-management",
+  "description": "This skill should be used when the user asks about Google Sheets, spreadsheets, cells, rows, columns, charts, or data tables. Activates for reading, writing, formatting, or analyzing spreadsheet data.",
+  "repo_url": "https://github.com/freema/mcp-gsheets",
+  "source_hub": "skillsmp",
+  "skill_type": "agent_skill",
+  "owner": "freema",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "agent-skills",
+    "utilities",
+    "installs:48"
+  ],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null,
+  "repo_status": "available",
+  "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
+  "repo_check_error": null
+}

@@ -19,14 +19,14 @@ How skills are discovered and collected from external hubs.
 
 | Hub | Crawler File | Runner | Status | Collected | Trust |
 |-----|-------------|--------|--------|-----------|-------|
-| mcp.so | `src/crawler/mcp_so.py` | `scripts/crawl/run_crawl.py` | Done | 5,421 | LOW — unvetted directory |
-| Glama.ai | `src/crawler/glama.py` | `scripts/crawl/run_crawl.py` | Done | 51 | MEDIUM — curated |
-| GitHub Search | `scripts/crawl/crawl_agent_skills.py` | Direct CLI | Done | 499 | MEDIUM — GitHub topics/code search |
-| ClaudeSkills.info | `src/crawler/claudeskills.py` | None (import only) | Partial | 76 | MEDIUM — curated |
-| Skills.sh | `src/crawler/skills_sh.py` | None | Pending | 0 | MEDIUM — Snyk scanning |
-| SkillsMP | `src/crawler/skillsmp.py` | None | Pending | 0 | LOW — 96K+ unvetted aggregator |
+| mcp.so | `src/crawler/mcp_so.py` | `scripts/crawl/run_crawl.py` | Done | 5,616 | LOW — unvetted directory |
+| Glama.ai | `src/crawler/glama.py` | `scripts/crawl/run_crawl.py` | Done | 50 | MEDIUM — curated |
+| GitHub Search | `scripts/crawl/crawl_agent_skills.py` | Direct CLI | Done | 515 | MEDIUM — GitHub topics/code search |
+| ClaudeSkills.info | `src/crawler/claudeskills.py` | None (import only) | Partial | 73 | MEDIUM — curated |
+| Skills.sh | `src/crawler/skills_sh.py` | None | Done | 44 | MEDIUM — Snyk scanning |
+| SkillsMP | `src/crawler/skillsmp.py` | `scripts/crawl/run_crawl.py` | Done | 4,801 | LOW — GitHub mirror aggregator |
 
-**Total skills collected:** 6,047
+**Total skills collected:** 11,099 (5,692 MCP servers + 5,407 agent skills)
 
 ---
 
@@ -73,9 +73,20 @@ scripts/crawl/import_agent_skills.py
   → writes to data/skills/ with skill_type="agent_skill"
 ```
 
-### Path 4: Not Yet Run
+### Path 4: SkillsMP (Agent Skills)
 
-`src/crawler/skills_sh.py` and `src/crawler/skillsmp.py` exist as crawler classes but have no runner script. They would need to be added to `scripts/crawl/run_crawl.py` or get their own runner.
+```
+src/crawler/skillsmp.py
+  → reads from AmazingAng/skilldb GitHub mirror (bypasses Cloudflare protection on skillsmp.com)
+  → produces skill_type="agent_skill" (NOT mcp_server)
+  → ✅ DEDUP CHECK: skips repos already in data/skills/
+  → ✅ REACHABILITY CHECK: filters out unreachable repos before writing
+  → writes only reachable new skills to data/skills/
+  → stars default to 0 (enrich_stars.py fills them in afterward)
+  → logs results to skills manager (data/skill-manager-log.json)
+```
+
+**Note:** skillsmp is integrated into `scripts/crawl/run_crawl.py`. The GitHub mirror approach is required because skillsmp.com blocks automated access with Cloudflare. Collected skills have `skill_type: "agent_skill"` and need star enrichment after crawl.
 
 ---
 
@@ -115,12 +126,13 @@ python3 scripts/crawl/check_reachability.py --only-untagged   # Check new skills
 python3 scripts/crawl/check_reachability.py --recheck         # Re-test unavailable repos (recovery)
 ```
 
-### Stats (as of 2026-02-28)
+### Stats (as of 2026-03-04)
 
-- **1,556 / 6,307** skills have unreachable repos (24.7%)
-- Tagged with `repo_unavailable` in their skill JSON
+- **11,099 total** skills in the collection (5,692 MCP servers + 5,407 agent skills)
+- Unreachable repos tagged with `repo_unavailable` in their skill JSON
 - Visible on frontend with red "Unavailable" badge
 - Filterable via "Hide unavailable" toggle
+- Run `python3 scripts/crawl/check_reachability.py --report` for current unreachable counts
 
 ---
 
@@ -208,7 +220,7 @@ python3 scripts/crawl/crawl_state.py add-hub new_hub --url https://example.com -
 ## Commands
 
 ```bash
-# Run active crawlers (Glama + mcp.so)
+# Run active crawlers (Glama + mcp.so + skillsmp)
 python3 scripts/crawl/run_crawl.py --max-pages 10
 
 # Process discovered batches into data/skills/
@@ -232,32 +244,35 @@ python3 scripts/crawl/crawl_state.py show
 ## Data Flow
 
 ```
-                    ┌──────────────┐
-                    │ run_crawl.py │
-                    │ (Glama+mcp.so)│
-                    └──────┬───────┘
-                           │ batch JSON
-                           ▼
-              ┌──────────────────────┐
-              │ data/discovered/     │
-              │ batch-*.json         │
-              └──────────┬───────────┘
-                         │
-                         ▼
-              ┌──────────────────────┐
-              │process_discovered.py │──────────────┐
-              │ (merge + dedup)      │              │
-              └──────────┬───────────┘              │
-                         │                          │
-                         ▼                          │
-              ┌──────────────────────┐              │
-              │ data/skills/*.json   │◄─────────────┤
-              │ (source of truth)    │              │
-              └──────────────────────┘              │
-                         ▲                          │
-                         │ direct write             │
-              ┌──────────┴───────────┐   ┌─────────┴──────────┐
-              │crawl_agent_skills.py │   │import_agent_skills.py │
-              │ (GitHub search)      │   │ (ClaudeSkills dump)  │
-              └──────────────────────┘   └──────────────────────┘
+                    ┌────────────────────────────┐
+                    │        run_crawl.py         │
+                    │ (Glama + mcp.so + skillsmp) │
+                    └──────────────┬─────────────┘
+                                   │ batch JSON
+                                   ▼
+                      ┌──────────────────────┐
+                      │ data/discovered/     │
+                      │ batch-*.json         │
+                      └──────────┬───────────┘
+                                 │
+                                 ▼
+                      ┌──────────────────────┐
+                      │process_discovered.py │──────────────┐
+                      │ (merge + dedup)      │              │
+                      └──────────┬───────────┘              │
+                                 │                          │
+                                 ▼                          │
+                      ┌──────────────────────┐              │
+                      │ data/skills/*.json   │◄─────────────┤
+                      │ (source of truth)    │              │
+                      └──────────────────────┘              │
+                                 ▲                          │
+                                 │ direct write             │
+              ┌──────────────────┴───────┐   ┌─────────────┴──────────┐
+              │  crawl_agent_skills.py   │   │  import_agent_skills.py │
+              │  (GitHub search)         │   │  (ClaudeSkills dump)    │
+              └──────────────────────────┘   └─────────────────────────┘
+
+Note: skillsmp.py (via run_crawl.py) uses the AmazingAng/skilldb GitHub mirror to
+bypass Cloudflare. It produces skill_type="agent_skill" entries with stars=0.
 ```

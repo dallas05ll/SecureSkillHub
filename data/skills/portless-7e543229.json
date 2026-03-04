@@ -1,0 +1,24 @@
+{
+  "id": "portless-7e543229",
+  "name": "portless",
+  "description": "Set up and use portless for named local dev server URLs (e.g. http://myapp.localhost instead of http://localhost:3000). Use when integrating portless into a project, configuring dev server names, setting up the local proxy, working with .localhost domains, or troubleshooting port/proxy issues.",
+  "repo_url": "https://github.com/vercel-labs/portless",
+  "source_hub": "skillsmp",
+  "skill_type": "agent_skill",
+  "owner": "vercel-labs",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "agent-skills",
+    "utilities",
+    "installs:971"
+  ],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null,
+  "repo_status": "available",
+  "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
+  "repo_check_error": null
+}

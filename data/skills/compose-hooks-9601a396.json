@@ -1,0 +1,24 @@
+{
+  "id": "compose-hooks-9601a396",
+  "name": "compose-hooks",
+  "description": "ComposeHooks 项目使用指南 - 为 Jetpack Compose/Compose Multiplatform 提供 React Hooks 风格的状态管理和副作用处理。\n使用此技能当需要：(1) 在 Compose 中管理组件状态 (useState, useGetState, useReducer)，\n(2) 处理副作用和生命周期 (useEffect, useMount, useUnmount)，\n(3) 管理网络请求 (useRequest)，(4) 使用防抖/节流 (useDebounce, useThrottle)，\n(5) 管理列表/Map状态 (useList, useMap)，(6) 使用定时器 (useInterval, useTimeoutFn/useTimeoutPoll/useCountdown)，\n(7) 全局状态管理 (useSelector, useDispatch)，(8) 使用无头表格 (useTable/useTableRequest)。\n关键词: Compose, Hooks, 状态管理, useRequest, useRedu...",
+  "repo_url": "https://github.com/junerver/composehooks",
+  "source_hub": "skillsmp",
+  "skill_type": "agent_skill",
+  "owner": "junerver",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "agent-skills",
+    "dev-web-frontend",
+    "installs:99"
+  ],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null,
+  "repo_status": "available",
+  "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
+  "repo_check_error": null
+}

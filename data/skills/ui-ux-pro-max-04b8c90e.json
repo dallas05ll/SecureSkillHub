@@ -7,7 +7,9 @@
   "owner": "nextlevelbuilder",
   "stars": 41400,
   "primary_language": "unknown",
-  "tags": [],
+  "tags": [
+    "dev-web-frontend"
+  ],
   "verification_status": "pass",
   "overall_score": 100,
   "risk_level": "medium",
@@ -90,5 +92,6 @@
       "override_reason": null
     },
     "manager_summary": "5/5 agents completed. Score: 100/100, Risk: medium. 0 mismatches, 11 scanner findings. Approved at 95% confidence. No safety overrides."
-  }
+  },
+  "skill_type": "agent_skill"
 }

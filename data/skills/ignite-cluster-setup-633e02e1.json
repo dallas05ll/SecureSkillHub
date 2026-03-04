@@ -1,0 +1,24 @@
+{
+  "id": "ignite-cluster-setup-633e02e1",
+  "name": "ignite-cluster-setup",
+  "description": "Set up and manage a local Apache Ignite 3 cluster using just commands. Use when asked to setup cluster, start nodes, rebuild, initialize cluster, or check status.",
+  "repo_url": "https://github.com/apache/ignite-3",
+  "source_hub": "skillsmp",
+  "skill_type": "agent_skill",
+  "owner": "apache",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "agent-skills",
+    "utilities",
+    "installs:307"
+  ],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null,
+  "repo_status": "available",
+  "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
+  "repo_check_error": null
+}

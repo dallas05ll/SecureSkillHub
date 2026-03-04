@@ -1,0 +1,24 @@
+{
+  "id": "agent-repo-init-9f153b45",
+  "name": "agent-repo-init",
+  "description": "One-click initialization of a multi-agent repository from the Antigravity template. Use this skill when users want to scaffold a new project quickly (`quick` mode) or with runtime defaults (`full` mode) including LLM provider profile, MCP toggle, swarm preference context, sandbox type, and optional git init.",
+  "repo_url": "https://github.com/study8677/antigravity-workspace-template",
+  "source_hub": "skillsmp",
+  "skill_type": "agent_skill",
+  "owner": "study8677",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "agent-skills",
+    "data-ai",
+    "installs:887"
+  ],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null,
+  "repo_status": "available",
+  "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
+  "repo_check_error": null
+}

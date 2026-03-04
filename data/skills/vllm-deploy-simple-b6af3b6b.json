@@ -1,0 +1,24 @@
+{
+  "id": "vllm-deploy-simple-b6af3b6b",
+  "name": "vllm-deploy-simple",
+  "description": "Quick install and deploy vLLM on a GPU server, start serving with a simple LLM, and test OpenAI API.",
+  "repo_url": "https://github.com/vllm-project/vllm-skills",
+  "source_hub": "skillsmp",
+  "skill_type": "agent_skill",
+  "owner": "vllm-project",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "agent-skills",
+    "dev-devops",
+    "installs:32"
+  ],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null,
+  "repo_status": "available",
+  "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
+  "repo_check_error": null
+}

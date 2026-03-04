@@ -1,0 +1,24 @@
+{
+  "id": "agent-generator-1db51efb",
+  "name": "agent-generator",
+  "description": "YOU MUST USE THIS SKILL when the user wants to create an AI agent workflow. Activate for requests like: 'create an agent', 'build an AI agent', 'make a chat agent', 'agent that can...', 'AI that does...', 'conversational workflow'. This skill creates workflows with AI agents that can use tools, have conversations, and perform complex multi-step reasoning.",
+  "repo_url": "https://github.com/kenkaiii/b0t",
+  "source_hub": "skillsmp",
+  "skill_type": "agent_skill",
+  "owner": "kenkaiii",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "agent-skills",
+    "data-ai",
+    "installs:26"
+  ],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null,
+  "repo_status": "available",
+  "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
+  "repo_check_error": null
+}

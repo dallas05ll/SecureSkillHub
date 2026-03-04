@@ -1,0 +1,24 @@
+{
+  "id": "playwright-debug-6139bea1",
+  "name": "playwright-debug",
+  "description": "This skill should be used when the user asks to \"debug the electron app\", \"connect playwright to VoiceTree\", \"take screenshots of the running app\", \"interact with the live UI\", \"inspect the running application\", or \"test UI elements live\". Provides step-by-step instructions for connecting Playwright MCP to a running Electron app for live debugging and automation.",
+  "repo_url": "https://github.com/voicetreelab/voicetree",
+  "source_hub": "skillsmp",
+  "skill_type": "agent_skill",
+  "owner": "voicetreelab",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "agent-skills",
+    "dev-testing",
+    "installs:643"
+  ],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null,
+  "repo_status": "available",
+  "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
+  "repo_check_error": null
+}

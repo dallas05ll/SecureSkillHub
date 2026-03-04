@@ -1,0 +1,24 @@
+{
+  "id": "ripgrep-26f3e99a",
+  "name": "ripgrep",
+  "description": "Use when searching text in files, codebases, books, or documents. Use when finding files by pattern, searching large files that are too big to read fully, extracting specific content from many files, or when grep/find is too slow. Triggers on \"search for\", \"find occurrences\", \"look for pattern\", \"search in files\".",
+  "repo_url": "https://github.com/ratacat/claude-skills",
+  "source_hub": "skillsmp",
+  "skill_type": "agent_skill",
+  "owner": "ratacat",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "agent-skills",
+    "utilities",
+    "installs:47"
+  ],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null,
+  "repo_status": "available",
+  "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
+  "repo_check_error": null
+}

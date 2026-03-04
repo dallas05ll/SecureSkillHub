@@ -1,0 +1,24 @@
+{
+  "id": "azure-adr-a0251013",
+  "name": "azure-adr",
+  "description": "Creates Azure Architecture Decision Records (ADRs) with WAF mapping, alternatives, consequences, and implementation guidance; use for architecture decision documentation requests.",
+  "repo_url": "https://github.com/jonathan-vella/azure-agentic-infraops",
+  "source_hub": "skillsmp",
+  "skill_type": "agent_skill",
+  "owner": "jonathan-vella",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "agent-skills",
+    "dev-devops",
+    "installs:84"
+  ],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null,
+  "repo_status": "available",
+  "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
+  "repo_check_error": null
+}

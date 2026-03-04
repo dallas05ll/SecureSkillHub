@@ -1,0 +1,24 @@
+{
+  "id": "pkm-vault-master-694580e9",
+  "name": "pkm-vault-master",
+  "description": "This skill should be used when organizing and structuring Personal Knowledge Management (PKM) vaults, particularly Obsidian vaults using the Linking Your Thinking (LYT) methodology. Use this skill when the user asks to analyze notes, create MOCs (Maps of Content), find related notes, organize folders, generate Index.md files, or improve vault structure. This skill provides Python scripts for vault analysis, link finding, and MOC generation, along with LYT methodology references and templates.",
+  "repo_url": "https://github.com/oalanicolas/ia",
+  "source_hub": "skillsmp",
+  "skill_type": "agent_skill",
+  "owner": "oalanicolas",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "agent-skills",
+    "utilities",
+    "installs:32"
+  ],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null,
+  "repo_status": "available",
+  "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
+  "repo_check_error": null
+}

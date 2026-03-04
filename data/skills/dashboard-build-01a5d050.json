@@ -1,0 +1,24 @@
+{
+  "id": "dashboard-build-01a5d050",
+  "name": "dashboard-build",
+  "description": "A skill that should be invoked whenever a user wants to build a Dashboard or simple app. This skill is Phase 2 of an e2e process that covers the actual build and testing. For Phase 1 (requirements, layout design, visualization selection), use the dashboard-design skill.",
+  "repo_url": "https://github.com/mckinsey/vizro",
+  "source_hub": "skillsmp",
+  "skill_type": "agent_skill",
+  "owner": "mckinsey",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "agent-skills",
+    "dev-testing",
+    "installs:3577"
+  ],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null,
+  "repo_status": "available",
+  "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
+  "repo_check_error": null
+}

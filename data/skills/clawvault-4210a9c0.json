@@ -1,0 +1,24 @@
+{
+  "id": "clawvault-4210a9c0",
+  "name": "clawvault",
+  "description": "Agent memory system with memory graph, context profiles, checkpoint/recover, structured storage, semantic search, and observational memory. Use when: storing/searching memories, preventing context death, graph-aware context retrieval, repairing broken sessions. Don't use when: general file I/O.",
+  "repo_url": "https://github.com/versatly/clawvault",
+  "source_hub": "skillsmp",
+  "skill_type": "agent_skill",
+  "owner": "versatly",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "agent-skills",
+    "utilities",
+    "installs:251"
+  ],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null,
+  "repo_status": "available",
+  "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
+  "repo_check_error": null
+}

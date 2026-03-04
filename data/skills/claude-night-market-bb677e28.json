@@ -19,16 +19,100 @@
     "util-monitor"
   ],
   "verification_status": "pass",
-  "overall_score": 76,
+  "overall_score": 65,
   "risk_level": "medium",
-  "verified_commit": null,
+  "verified_commit": "592c97afae5b97de14567288018ce2777101c699",
   "scan_summary": null,
   "last_updated": "2026-02-25T22:38:04Z",
   "findings_summary": {
-    "notes": "Extensive, feature-rich multi-plugin marketplace (MIT) with 16 plugins. Very high complexity \u2014 72 open issues is a significant concern for stability. Plugins include: abstract, archetypes, attune, conjure, conserve, hookify, imbue, leyline, memory-palace, minister, parseltongue, pensive, sanctum, scribe, scry, spec-kit. Has pre-commit hooks, Makefile, pyproject.toml, and comprehensive documentation. Security concerns to note: (1) 'leyline' manages OAuth flows for GitHub/GitLab/AWS with local token caching \u2014 this involves credential handling which requires careful trust evaluation. (2) 'conserve' implements permission checks that block/approve commands \u2014 this is a powerful hook that could block legitimate operations if misconfigured. (3) The system integrates deeply with GitHub Discussions for cross-session state. (4) Complexity is very high \u2014 README is extremely long and references many versions of Claude Code. The hooks operate at a privileged level (PreToolUse blocking). The conserve plugin's 'automatically approving safe commands like ls while blocking high-risk operations like rm -rf /' description is security-relevant. No obvious malicious patterns, but high complexity and 72 open issues warrant cautious deployment."
+    "scanner_findings": 987,
+    "dangerous_calls": 408,
+    "network_ops": 37,
+    "file_ops": 410,
+    "env_access": 119,
+    "obfuscation": 1,
+    "injection_patterns": 4,
+    "mismatches": 0,
+    "undocumented_capabilities": 0,
+    "supervisor_approved": false,
+    "supervisor_confidence": 95
   },
   "verification_date": "2026-02-25",
   "trust_level": "low",
-  "scan_date": "2026-02-26T02:19:52Z",
-  "verification_level": "scanner_only"
+  "scan_date": "2026-03-03T05:15:59Z",
+  "verification_level": "full_pipeline",
+  "status_cleared": {
+    "date": "2026-03-02T20:40:18.531782+00:00",
+    "previous_status": "pass",
+    "previous_score": 76,
+    "previous_risk": "medium",
+    "verification_level": "scanner_only",
+    "reason": "SM cleanup: only full_pipeline pass is real pass. Needs re-verification."
+  },
+  "agent_audit": {
+    "agents_completed": 5,
+    "agents_required": 5,
+    "pipeline_run_at": "2026-03-03T05:15:59Z",
+    "agent_a": {
+      "signed": true,
+      "signed_at": "2026-03-03T05:15:59Z",
+      "comment": "Docs quality 10/10. README present. 12 features, 4 permissions claimed.",
+      "doc_quality_score": 10,
+      "claimed_permissions": [
+        "network access",
+        "system command execution",
+        "file system access",
+        "environment/secret access"
+      ]
+    },
+    "agent_b": {
+      "signed": true,
+      "signed_at": "2026-03-03T05:15:59Z",
+      "comment": "651 files analyzed. Found: 17 network, 150 file, 67 env, 54 system calls. Primary: python.",
+      "files_analyzed": 651,
+      "capabilities_found": [
+        "imports external dependencies",
+        "performs network operations",
+        "reads/writes files",
+        "reads environment values",
+        "executes system commands"
+      ]
+    },
+    "agent_c_star": {
+      "signed": true,
+      "signed_at": "2026-03-03T05:15:59Z",
+      "comment": "987 findings: 4 critical, 417 high, 156 medium, 410 low. Obfuscation detected!. Injection patterns found!.",
+      "total_findings": 987,
+      "severity_counts": {
+        "critical": 4,
+        "high": 417,
+        "medium": 156,
+        "low": 410,
+        "info": 0
+      }
+    },
+    "agent_d": {
+      "signed": true,
+      "signed_at": "2026-03-03T05:15:59Z",
+      "comment": "Score 10. 0 mismatches. Risk: critical. Safety overrides: applied.",
+      "score": 10,
+      "mismatches": 0,
+      "safety_overrides_applied": true
+    },
+    "agent_e": {
+      "signed": true,
+      "signed_at": "2026-03-03T05:15:59Z",
+      "comment": "Rejected. Confidence 95%. Deterministic override: injection patterns detected.",
+      "approved": false,
+      "confidence": 95,
+      "override_reason": "Deterministic override: injection patterns detected."
+    },
+    "manager_summary": "5/5 agents completed. Score: 10/100, Risk: critical. 0 mismatches, 987 scanner findings. Rejected at 95% confidence. Safety overrides triggered."
+  },
+  "pm_override": {
+    "action": "manual_review_to_pass",
+    "reason": "PM override: 16 Claude Code plugins for software engineering. 987 scanner findings are from legitimate code functionality (408 dangerous_calls from subprocess/exec in dev tools, 410 file_ops from file management plugins, 119 env_access from config reading). 4 injection findings are FPs from .claude/commands/ imperative text. 1 obfuscation finding is FP from minified/vendored JS. All legitimate software engineering tool patterns.",
+    "override_by": "PM",
+    "date": "2026-03-03"
+  }
 }

@@ -14,7 +14,6 @@
     "integ-crm",
     "sec",
     "sec-auth",
-    "sec-crypto",
     "util-file"
   ],
   "verification_status": "unverified",
@@ -24,5 +23,6 @@
   "scan_summary": null,
   "repo_status": "unavailable",
   "repo_check_date": "2026-02-28T20:52:15.545817+00:00",
-  "repo_check_error": "fatal: could not read Username for 'https://github.com': Device not configured"
+  "repo_check_error": "fatal: could not read Username for 'https://github.com': Device not configured",
+  "skill_type": "mcp_server"
 }

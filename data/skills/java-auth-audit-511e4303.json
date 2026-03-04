@@ -1,0 +1,24 @@
+{
+  "id": "java-auth-audit-511e4303",
+  "name": "java-auth-audit",
+  "description": "Java Web 源码鉴权机制审计工具。从源码中识别所有鉴权实现并分析安全风险。适用于：(1) 识别鉴权框架和实现方式，(2) 发现鉴权绕过漏洞，(3) 分析越权访问风险，(4) 审计权限校验逻辑。支持 Shiro、Spring Security、JWT、Filter/Interceptor、自定义鉴权等。**支持反编译 .class/.jar 文件提取鉴权逻辑**。结合 java-route-mapper 使用可实现完整的路由+鉴权审计。",
+  "repo_url": "https://github.com/ruoji6/java-audit-skills",
+  "source_hub": "skillsmp",
+  "skill_type": "agent_skill",
+  "owner": "ruoji6",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "agent-skills",
+    "dev-web-backend",
+    "installs:81"
+  ],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null,
+  "repo_status": "available",
+  "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
+  "repo_check_error": null
+}

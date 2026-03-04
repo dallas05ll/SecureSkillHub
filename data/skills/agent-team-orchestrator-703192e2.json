@@ -1,0 +1,24 @@
+{
+  "id": "agent-team-orchestrator-703192e2",
+  "name": "agent-team-orchestrator",
+  "description": "Agent Teams 智能编排决策引擎。自动分析任务复杂度，判断使用 Subagent 还是 Agent Teams。\n\n触发场景：\n(1) 任务涉及多角度并行分析（如代码审查、竞争假说调试）\n(2) 需要成员之间互相通信、质疑、协作\n(3) 跨层开发（前端/后端/测试各自负责）\n(4) 用户明确要求\"创建团队\"、\"用 agent teams\"\n(5) 任务描述包含\"并行\"、\"同时\"、\"多人\"、\"协作\"等关键词\n(6) 使用 /team 命令",
+  "repo_url": "https://github.com/nanmicoder/claude-code-skills",
+  "source_hub": "skillsmp",
+  "skill_type": "agent_skill",
+  "owner": "nanmicoder",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "agent-skills",
+    "utilities",
+    "installs:34"
+  ],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null,
+  "repo_status": "available",
+  "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
+  "repo_check_error": null
+}

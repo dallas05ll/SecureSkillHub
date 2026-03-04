@@ -1,0 +1,24 @@
+{
+  "id": "kata-add-issue-55c2a829",
+  "name": "kata-add-issue",
+  "description": "Capture an idea, task, or issue that surfaces during a Kata session as a structured issue for later work. This skill creates markdown issue files in the .planning/issues/open directory with relevant metadata and content extracted from the conversation. Triggers include \"add issue\", \"capture issue\", \"new issue\", \"create issue\", \"log issue\", \"file issue\", \"add todo\" (deprecated), \"capture todo\" (deprecated), \"new todo\" (deprecated).",
+  "repo_url": "https://github.com/gannonh/kata-orchestrator",
+  "source_hub": "skillsmp",
+  "skill_type": "agent_skill",
+  "owner": "gannonh",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "agent-skills",
+    "utilities",
+    "installs:81"
+  ],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null,
+  "repo_status": "available",
+  "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
+  "repo_check_error": null
+}

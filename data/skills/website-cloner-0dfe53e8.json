@@ -1,0 +1,24 @@
+{
+  "id": "website-cloner-0dfe53e8",
+  "name": "website-cloner",
+  "description": "Agentic workflow for cloning websites with pixel-perfect fidelity using specialized sub-agents. Use when the user wants to clone/copy/replicate a website, create a landing page based on an existing site, or needs to extract and recreate a website's design. Includes orchestration via slash command, four specialized sub-agents (screenshotter, extractor, cloner, qa-reviewer), and outputs React components with Tailwind CSS and motion animations.",
+  "repo_url": "https://github.com/horuz-ai/claude-plugins",
+  "source_hub": "skillsmp",
+  "skill_type": "agent_skill",
+  "owner": "horuz-ai",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "agent-skills",
+    "dev-web-frontend",
+    "installs:38"
+  ],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null,
+  "repo_status": "available",
+  "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
+  "repo_check_error": null
+}

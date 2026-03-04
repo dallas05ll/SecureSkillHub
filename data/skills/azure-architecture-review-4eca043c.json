@@ -1,0 +1,24 @@
+{
+  "id": "azure-architecture-review-4eca043c",
+  "name": "azure-architecture-review",
+  "description": "Review Terraform Azure code against Microsoft Cloud Adoption Framework (CAF) and Azure Well-Architected Framework (WAF). Use this skill when reviewing Terraform configurations, validating code against Microsoft frameworks, checking infrastructure-as-code compliance, or performing architecture reviews of .tf files before deployment.",
+  "repo_url": "https://github.com/thomast1906/github-copilot-skills-terraform",
+  "source_hub": "skillsmp",
+  "skill_type": "agent_skill",
+  "owner": "thomast1906",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "agent-skills",
+    "dev-devops",
+    "installs:10"
+  ],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null,
+  "repo_status": "available",
+  "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
+  "repo_check_error": null
+}

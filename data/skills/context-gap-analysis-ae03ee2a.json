@@ -1,0 +1,24 @@
+{
+  "id": "context-gap-analysis-ae03ee2a",
+  "name": "context-gap-analysis",
+  "description": "Enumerate required context, check what exists, and find the simplest path forward before any task. Prevents hallucinations by forcing the agent to verify assumptions before acting.",
+  "repo_url": "https://github.com/jacob-dietle/gtm-context-os-quickstart",
+  "source_hub": "skillsmp",
+  "skill_type": "agent_skill",
+  "owner": "jacob-dietle",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "agent-skills",
+    "utilities",
+    "installs:42"
+  ],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null,
+  "repo_status": "available",
+  "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
+  "repo_check_error": null
+}

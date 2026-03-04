@@ -1,0 +1,24 @@
+{
+  "id": "logchef-b77607f2",
+  "name": "logchef",
+  "description": "Query and analyze LogChef logs from the terminal using the LogChef CLI. Use for incident triage, debugging errors, exploring LogChefQL filters, running ClickHouse SQL, and executing saved collections.",
+  "repo_url": "https://github.com/mr-karan/logchef",
+  "source_hub": "skillsmp",
+  "skill_type": "agent_skill",
+  "owner": "mr-karan",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "agent-skills",
+    "data-db",
+    "installs:717"
+  ],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null,
+  "repo_status": "available",
+  "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
+  "repo_check_error": null
+}

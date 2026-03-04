@@ -1,0 +1,24 @@
+{
+  "id": "architecture-auditor-66ea776f",
+  "name": "architecture-auditor",
+  "description": "Architecture audit and analysis specialist for Modular Monoliths. **ALWAYS use when reviewing codebase architecture, evaluating bounded contexts, assessing shared kernel size, detecting \"Core Obesity Syndrome\", or comparing implementation against ADR-0001 and anti-patterns guide.** Use proactively when user asks about context isolation, cross-context coupling, or shared kernel growth. Examples - \"audit contexts structure\", \"check shared kernel size\", \"find cross-context imports\", \"detect base...",
+  "repo_url": "https://github.com/marcioaltoe/claude-craftkit",
+  "source_hub": "skillsmp",
+  "skill_type": "agent_skill",
+  "owner": "marcioaltoe",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "agent-skills",
+    "utilities",
+    "installs:11"
+  ],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null,
+  "repo_status": "available",
+  "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
+  "repo_check_error": null
+}

@@ -7,7 +7,10 @@
   "owner": "waynesutton",
   "stars": 3900,
   "primary_language": "unknown",
-  "tags": [],
+  "tags": [
+    "data-db",
+    "dev-web-backend"
+  ],
   "verification_status": "pass",
   "overall_score": 54,
   "risk_level": "medium",
@@ -85,8 +88,9 @@
   "pm_review": {
     "decision": "pass",
     "previous_status": "manual_review",
-    "reason": "Score 54. 16 findings (all medium, 0 critical/high). Convex backend skills — network ops (9) and env access (7) expected for cloud backend platform. No injection, no obfuscation, 0 mismatches.",
+    "reason": "Score 54. 16 findings (all medium, 0 critical/high). Convex backend skills \u2014 network ops (9) and env access (7) expected for cloud backend platform. No injection, no obfuscation, 0 mismatches.",
     "reviewer": "pm_dual_agent",
     "reviewed_at": "2026-03-01T07:38:01.397802Z"
-  }
+  },
+  "skill_type": "agent_skill"
 }

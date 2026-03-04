@@ -9,14 +9,21 @@
   "primary_language": "python",
   "tags": [
     "data-ai",
-    "integ",
-    "status-fail"
+    "integ"
   ],
-  "verification_status": "manual_review",
+  "verification_status": "pass",
   "overall_score": 70,
-  "risk_level": "medium",
+  "risk_level": "low",
   "verified_commit": "92fce2b7eaa6b291c4520a3468b23d498b72d050",
   "scan_summary": "Well-maintained YC-backed organization repository with 5,645 stars, 537 forks, and active daily commits. Apache 2.0 licensed, includes CONTRIBUTING.md, CLA requirement, and CI/CD workflows. No SECURITY.md found but overall posture is strong.",
+  "verification_date": "2026-03-02T00:00:00Z",
+  "verification_summary": {
+    "pm_override": {
+      "reason": "PM override: 3 injection findings confirmed FP by SecM \u2014 shields.io badge data: URI, test file override_role, Supabase String.fromCharCode. YC X25 company.",
+      "date": "2026-03-02",
+      "authorized_by": "PM"
+    }
+  },
   "scan_date": "2026-03-01T07:22:42Z",
   "verification_level": "full_pipeline",
   "findings_summary": {
@@ -97,5 +104,6 @@
       "override_reason": "Deterministic override: injection patterns detected."
     },
     "manager_summary": "5/5 agents completed. Score: 0/100, Risk: critical. 0 mismatches, 1669 scanner findings. Rejected at 95% confidence. Safety overrides triggered."
-  }
+  },
+  "skill_type": "mcp_server"
 }

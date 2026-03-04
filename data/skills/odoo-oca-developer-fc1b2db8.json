@@ -1,0 +1,24 @@
+{
+  "id": "odoo-oca-developer-fc1b2db8",
+  "name": "odoo-oca-developer",
+  "description": "Expert guidance for developing, migrating, and maintaining Odoo modules (versions 14.0-19.0) following OCA conventions. Use when working with Odoo modules to create new modules from OCA template, migrate modules between versions using OpenUpgrade, extend core Odoo modules, ensure OCA compliance, and structure module files correctly. Includes OCA coding standards, module structure templates, OpenUpgrade migration patterns, and validation tools.",
+  "repo_url": "https://github.com/miquelalzanillas/odoo-oca-convention-skill",
+  "source_hub": "skillsmp",
+  "skill_type": "agent_skill",
+  "owner": "miquelalzanillas",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "agent-skills",
+    "utilities",
+    "installs:41"
+  ],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null,
+  "repo_status": "available",
+  "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
+  "repo_check_error": null
+}

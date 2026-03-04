@@ -10,6 +10,24 @@ How the site gets deployed to production.
 
 ---
 
+## Role Responsibilities in Deployment
+
+The project has 9 agent roles. The roles involved in deployment are:
+
+| Role | Deployment Responsibility |
+|------|--------------------------|
+| **Project Manager (PM)** | Approves release, instructs DeployM to commit and push |
+| **Deploy Manager (DeployM)** | Executes git ops: `git add`, `git commit`, `git push`. Handles rollback. |
+| **Skills Manager (SM)** | Supervises crawl + verification quality before release |
+| **Verification Manager (VM)** | Runs 5-agent pipeline, hands verified results to SM |
+| **Build (WS3)** | Runs `build_json` + `build_html` + `build_indexes` on PM instruction |
+| **Documentation Manager (DocM)** | Ensures doc-code alignment before deploy |
+| **Frontend Manager (FrontendM)** | Signs off on site rendering before deploy |
+
+**Deployment is always PM-instructed → DeployM-executed.** No role self-deploys.
+
+---
+
 ## CI/CD Pipeline
 
 **File:** `.github/workflows/deploy.yml`

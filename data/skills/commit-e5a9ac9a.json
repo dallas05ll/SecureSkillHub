@@ -1,0 +1,24 @@
+{
+  "id": "commit-e5a9ac9a",
+  "name": "commit",
+  "description": "Creates well-structured git commits using Conventional Commits format. Activate this skill whenever the user asks to commit changes, make a commit, save progress, or says \"commit this\", \"commit my changes\", \"/commit\", or any variation of requesting a git commit. Also activate when task instructions say to commit when done.",
+  "repo_url": "https://github.com/alexander-turner/turntrout.com",
+  "source_hub": "skillsmp",
+  "skill_type": "agent_skill",
+  "owner": "alexander-turner",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "agent-skills",
+    "dev-git",
+    "installs:35"
+  ],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null,
+  "repo_status": "available",
+  "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
+  "repo_check_error": null
+}

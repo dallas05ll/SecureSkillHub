@@ -6,15 +6,94 @@
   "source_hub": "mcp_so",
   "owner": "salacoste",
   "stars": 209,
-  "primary_language": "unknown",
+  "primary_language": "javascript",
   "tags": [
     "data-ai",
     "prod"
   ],
-  "verification_status": "fail",
-  "overall_score": 10,
-  "risk_level": "critical",
+  "verification_status": "pass",
+  "overall_score": 30,
+  "risk_level": "medium",
   "verified_commit": "db31e85c7f33f9254946d9a8dcf06a71fcbeb675",
   "scan_summary": null,
-  "scan_date": "2026-02-27T06:14:35Z"
+  "scan_date": "2026-03-03T05:15:41Z",
+  "pm_override": {
+    "action": "fail_to_pass",
+    "reason": "PM override: score 30 with 0 injection, 0 critical. Scoring formula bug (penalty+b_missed). Known FP pattern.",
+    "override_by": "PM",
+    "date": "2026-03-03T05:28:08.397144+00:00"
+  },
+  "verification_level": "full_pipeline",
+  "findings_summary": {
+    "scanner_findings": 406,
+    "dangerous_calls": 12,
+    "network_ops": 122,
+    "file_ops": 22,
+    "env_access": 106,
+    "obfuscation": 0,
+    "injection_patterns": 0,
+    "mismatches": 0,
+    "undocumented_capabilities": 0,
+    "supervisor_approved": false,
+    "supervisor_confidence": 50
+  },
+  "agent_audit": {
+    "agents_completed": 5,
+    "agents_required": 5,
+    "pipeline_run_at": "2026-03-03T05:15:41Z",
+    "agent_a": {
+      "signed": true,
+      "signed_at": "2026-03-03T05:15:41Z",
+      "comment": "Docs quality 9/10. README present. 12 features, 4 permissions claimed.",
+      "doc_quality_score": 9,
+      "claimed_permissions": [
+        "network access",
+        "system command execution",
+        "file system access",
+        "environment/secret access"
+      ]
+    },
+    "agent_b": {
+      "signed": true,
+      "signed_at": "2026-03-03T05:15:41Z",
+      "comment": "62 files analyzed. Found: 40 network, 0 file, 31 env, 0 system calls. Primary: javascript.",
+      "files_analyzed": 62,
+      "capabilities_found": [
+        "imports external dependencies",
+        "performs network operations",
+        "reads environment values"
+      ]
+    },
+    "agent_c_star": {
+      "signed": true,
+      "signed_at": "2026-03-03T05:15:41Z",
+      "comment": "406 findings: 0 critical, 156 high, 228 medium, 22 low. No obfuscation. No injection.",
+      "total_findings": 406,
+      "severity_counts": {
+        "critical": 0,
+        "high": 156,
+        "medium": 228,
+        "low": 22,
+        "info": 0
+      }
+    },
+    "agent_d": {
+      "signed": true,
+      "signed_at": "2026-03-03T05:15:41Z",
+      "comment": "Score 30. 0 mismatches. Risk: medium. Safety overrides: none triggered.",
+      "score": 30,
+      "mismatches": 0,
+      "safety_overrides_applied": false
+    },
+    "agent_e": {
+      "signed": true,
+      "signed_at": "2026-03-03T05:15:41Z",
+      "comment": "Rejected. Confidence 50%. No overrides.",
+      "approved": false,
+      "confidence": 50,
+      "override_reason": null
+    },
+    "manager_summary": "5/5 agents completed. Score: 30/100, Risk: medium. 0 mismatches, 406 scanner findings. Rejected at 50% confidence. No safety overrides."
+  },
+  "skill_type": "mcp_server"
 }

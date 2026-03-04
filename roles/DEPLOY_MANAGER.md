@@ -61,6 +61,40 @@ curl -s http://localhost:8000/.well-known/agent.json | python3 -m json.tool
 kill %1
 ```
 
+### Cloudflare Worker API Deployment
+
+The API backend (`api/`) deploys separately from the static site. It is a Cloudflare Worker managed via Wrangler.
+
+**Deploy commands:**
+```bash
+# Deploy API worker (requires PM approval)
+cd api && npx wrangler deploy
+
+# Check deployed worker status
+cd api && npx wrangler tail  # Live log streaming
+
+# Rollback to previous worker version
+cd api && npx wrangler rollback
+```
+
+**API deploy checklist:**
+- [ ] `cd api && npx tsc --noEmit` passes (no TypeScript errors)
+- [ ] `cd api && npx wrangler dev` works locally (test endpoints)
+- [ ] D1 database migrations applied if schema changed
+- [ ] Environment secrets are current (`wrangler secret list`)
+- [ ] API deploy is separate from site deploy — do NOT bundle them
+
+**Secrets management:**
+```bash
+# List current secrets
+cd api && npx wrangler secret list
+
+# Set a secret (interactive prompt)
+cd api && npx wrangler secret put GITHUB_CLIENT_SECRET
+```
+
+**Important:** API deploy requires PM approval because it affects the live authentication and package management system. Site deploys (GitHub Pages) are lower risk since they are static files.
+
 ### 4. Rollback Procedures
 
 ```bash
@@ -75,6 +109,59 @@ gh workflow run deploy.yml
 ```
 
 **Rule:** Never force-push without PM approval. Always prefer `git revert` over `git reset --hard`.
+
+### CI Failure Recovery
+
+When the GitHub Actions deploy pipeline fails:
+
+**Step 1: Diagnose**
+```bash
+# Check the latest run
+gh run list --limit 3
+gh run view <run-id> --log-failed
+```
+
+**Step 2: Recover based on failure type**
+
+| Failure Type | Symptom | Recovery |
+|--------------|---------|----------|
+| `pip install` failure | Requirements install fails | Check `requirements.txt` for bad version pins, fix and re-push |
+| `build_json` failure | Python error in JSON generation | Fix data issue in `data/skills/` or `src/build/build_json.py`, re-push |
+| `build_html` failure | HTML template or meta injection error | Fix in `src/build/build_html.py`, re-push |
+| `build_indexes` failure | Index generation error | Fix in `scripts/build/build_indexes.py`, re-push |
+| Pages timeout | Deploy step hangs >10 min | Cancel run (`gh run cancel <id>`), wait 5 min, re-trigger |
+| Pages 403 | Permissions or Pages config issue | Check repo Settings → Pages. Verify source is `main` / `site/` dir |
+
+**Step 3: Verify recovery**
+```bash
+gh run watch <new-run-id>  # Wait for green
+curl -sf https://dallas05ll.github.io/SecureSkillHub/api/stats.json | python3 -m json.tool > /dev/null && echo "Site live" || echo "Site down"
+```
+
+**Escalation rule:** 3 consecutive CI failures → escalate to PM immediately. Do not keep retrying blindly.
+
+### Deploy Cadence Guidance
+
+| Trigger | Frequency | Notes |
+|---------|-----------|-------|
+| After verification batch + PM approval | Per batch (1-3x per session) | Most common deploy trigger |
+| After PM manual review decisions | Per review session | Rebuild required before deploy |
+| After doc-only fixes | As needed (DocM direct path) | Low risk, no rebuild needed |
+| After crawler batch | After SM + PM approval | New skills need full rebuild |
+| After security pattern fix | After VM implements + tests pass | Rebuild + deploy |
+| After frontend bug fix | After FrontendM fix + visual QA | Rebuild + deploy |
+
+**Max deploy frequency:** No more than once per hour to avoid GitHub Pages queue conflicts. Multiple changes within an hour should be batched into a single deploy.
+
+### Model Routing
+
+| Task | Model | Why |
+|------|-------|-----|
+| Review changes before commit (diff analysis) | `sonnet` | Structured comparison, moderate complexity |
+| CI failure diagnosis | `sonnet` | Read logs, identify root cause |
+| Commit management (staging, message writing) | `haiku` | Simple operations, templated messages |
+| Deploy status checks | `haiku` | Simple lookups, pass/fail |
+| Rollback decisions (which commit to revert to) | `opus` | Needs understanding of change history and dependencies |
 
 ### 5. Deploy Tracking
 
@@ -109,9 +196,11 @@ git log HEAD..origin/main --oneline   # On remote, not local
 | Role | Relationship |
 |------|-------------|
 | **Project Manager** | PM decides WHEN to commit/deploy. DeployM executes. PM approves rollbacks. |
-| **Documentation Manager** | DocM may request deploys after doc updates. Route through PM. |
+| **Verification Manager** | After VM implements pattern fixes and tests pass, SM/PM route rebuild + deploy request to DeployM. VM does not contact DeployM directly. |
+| **Documentation Manager** | **Direct handoff (pre-approved):** DocM requests doc-only deploys. DeployM verifies diff is doc-only before committing. |
 | **Skills Manager** | After verification runs, SM requests rebuild + deploy. Route through PM. |
-| **Agent Experience Manager** | AXM tests deployed site. Reports findings to DeployM + PM. |
+| **Agent Experience Manager** | **Direct handoff (pre-approved):** DeployM triggers AXM for post-deploy agent endpoint QA. AXM reports pass/fail. |
+| **Frontend Manager** | **Direct handoff (pre-approved):** DeployM triggers FrontendM for post-deploy visual QA. FrontendM reports pass/fail. |
 
 **Chain of command for deploys:**
 ```
@@ -119,11 +208,32 @@ PM decides "deploy now"
   → DeployM reviews changes
   → DeployM commits + pushes
   → GitHub Actions builds + deploys
-  → AXM tests live site
-  → AXM reports to PM
-  → PM confirms success or requests rollback
+  → DeployM triggers post-deploy QA (pre-approved):
+    → AXM tests agent endpoints (entry.md, API, packages)
+    → FrontendM tests human UI (cards, badges, filters, modal)
+  → QA results reported to PM
+    ├── Both pass → PM confirms success
+    └── Either fails → PM decides: fix-forward or rollback
   → DeployM executes rollback if needed
 ```
+
+### Doc-Only Direct Commit Path (Pre-Approved)
+
+DocM may request a direct deploy for documentation-only changes without PM intermediation:
+
+**Conditions (all must be true):**
+1. Changes are exclusively in `.md` files
+2. No changes to code (`.py`, `.ts`, `.js`), data (`.json`), or config files
+3. DocM confirms the fix is doc-code alignment (not new content)
+
+**DeployM verification:**
+```bash
+# Verify changes are doc-only before committing
+git diff --name-only | grep -v '\.md$'
+# If this returns any output → NOT doc-only → require PM approval
+```
+
+**If not doc-only:** Route back to PM for approval.
 
 ---
 
@@ -163,3 +273,24 @@ git push origin main
 .venv/bin/python -m src.build.build_html
 python3 scripts/build/build_indexes.py
 ```
+
+---
+
+## Memory Protocol (MANDATORY)
+
+DeployM uses the Memory Manager (MemM) for all memory operations.
+
+### Before Starting Work
+1. Load: `memory/structured/dplm-history.json`
+2. Filter by task-relevant tags (e.g., `deploy`, `rollback`, `ci-cd`)
+3. If file fails validation → STOP, alert PM
+
+### After Learning Something New
+1. Write lesson to `memory/structured/dplm-history.json` using schema
+2. Required fields: `id`, `date`, `source`, `type`, `tags`, `applies_to`, `rule`, `status`
+3. MemM-DplM audits the write
+
+### Self-Evolve Trigger
+After completing a deploy or rollback:
+1. Signal MemM: "evolve check needed for DeployM history"
+2. MemM-DplM archives resolved deploy issues

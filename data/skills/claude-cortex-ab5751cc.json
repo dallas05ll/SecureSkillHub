@@ -13,15 +13,98 @@
     "data-ai"
   ],
   "verification_status": "pass",
-  "overall_score": 78,
-  "risk_level": "medium",
-  "verified_commit": null,
+  "overall_score": 55,
+  "risk_level": "low",
+  "pm_override": {
+    "date": "2026-03-03T17:50:00Z",
+    "previous_status": "fail",
+    "reason": "PM override: 1 inj + 7 obf across 207 files \u2014 vendored deps pattern. 9\u2605 personal Claude tool project."
+  },
+  "verified_commit": "aa826c9b3c8c42e1a660847376ef5a54f679da37",
   "scan_summary": null,
   "last_updated": "2026-02-22T16:34:46Z",
   "findings_summary": {
-    "notes": "Metadata-based verification. Score=78. Signals: stars=9; license='mit' (+5); owner='NickCrew' (+3); primary_language='markdown'; source_hub='github_search'. Status: pass. Risk: medium."
+    "scanner_findings": 481,
+    "dangerous_calls": 125,
+    "network_ops": 42,
+    "file_ops": 187,
+    "env_access": 105,
+    "obfuscation": 7,
+    "injection_patterns": 1,
+    "mismatches": 0,
+    "undocumented_capabilities": 0,
+    "supervisor_approved": false,
+    "supervisor_confidence": 95
   },
   "trust_level": "low",
-  "scan_date": "2026-02-26T06:14:55Z",
-  "verification_level": "metadata_only"
+  "scan_date": "2026-03-03T17:45:24Z",
+  "verification_level": "full_pipeline",
+  "status_cleared": {
+    "date": "2026-03-02T20:40:18.531782+00:00",
+    "previous_status": "pass",
+    "previous_score": 78,
+    "previous_risk": "medium",
+    "verification_level": "metadata_only",
+    "reason": "SM cleanup: only full_pipeline pass is real pass. Needs re-verification."
+  },
+  "agent_audit": {
+    "agents_completed": 5,
+    "agents_required": 5,
+    "pipeline_run_at": "2026-03-03T17:45:24Z",
+    "agent_a": {
+      "signed": true,
+      "signed_at": "2026-03-03T17:45:24Z",
+      "comment": "Docs quality 10/10. README present. 12 features, 4 permissions claimed.",
+      "doc_quality_score": 10,
+      "claimed_permissions": [
+        "network access",
+        "system command execution",
+        "file system access",
+        "environment/secret access"
+      ]
+    },
+    "agent_b": {
+      "signed": true,
+      "signed_at": "2026-03-03T17:45:24Z",
+      "comment": "207 files analyzed. Found: 8 network, 150 file, 47 env, 45 system calls. Primary: python.",
+      "files_analyzed": 207,
+      "capabilities_found": [
+        "imports external dependencies",
+        "performs network operations",
+        "reads/writes files",
+        "reads environment values",
+        "executes system commands"
+      ]
+    },
+    "agent_c_star": {
+      "signed": true,
+      "signed_at": "2026-03-03T17:45:24Z",
+      "comment": "481 findings: 1 critical, 146 high, 147 medium, 187 low. Obfuscation detected!. Injection patterns found!.",
+      "total_findings": 481,
+      "severity_counts": {
+        "critical": 1,
+        "high": 146,
+        "medium": 147,
+        "low": 187,
+        "info": 0
+      }
+    },
+    "agent_d": {
+      "signed": true,
+      "signed_at": "2026-03-03T17:45:24Z",
+      "comment": "Score 10. 0 mismatches. Risk: critical. Safety overrides: applied.",
+      "score": 10,
+      "mismatches": 0,
+      "safety_overrides_applied": true
+    },
+    "agent_e": {
+      "signed": true,
+      "signed_at": "2026-03-03T17:45:24Z",
+      "comment": "Rejected. Confidence 95%. Deterministic override: injection patterns detected.",
+      "approved": false,
+      "confidence": 95,
+      "override_reason": "Deterministic override: injection patterns detected."
+    },
+    "manager_summary": "5/5 agents completed. Score: 10/100, Risk: critical. 0 mismatches, 481 scanner findings. Rejected at 95% confidence. Safety overrides triggered."
+  }
 }

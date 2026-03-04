@@ -17,13 +17,93 @@
   "verification_status": "pass",
   "overall_score": 78,
   "risk_level": "medium",
-  "verified_commit": null,
+  "verified_commit": "af4d25dd073e6fae33bc728dd34f8ec70dbd56e6",
   "scan_summary": null,
   "last_updated": "2026-02-25T14:24:11Z",
   "findings_summary": {
-    "notes": "Metadata-based verification. Score=78. Signals: stars=5; license='mit' (+5); owner='netresearch' (+3); primary_language='markdown'; source_hub='github_search'. Status: pass. Risk: medium."
+    "scanner_findings": 12,
+    "dangerous_calls": 11,
+    "network_ops": 0,
+    "file_ops": 1,
+    "env_access": 0,
+    "obfuscation": 0,
+    "injection_patterns": 0,
+    "mismatches": 0,
+    "undocumented_capabilities": 0,
+    "supervisor_approved": false,
+    "supervisor_confidence": 78
   },
   "trust_level": "low",
-  "scan_date": "2026-02-26T06:14:56Z",
-  "verification_level": "metadata_only"
+  "scan_date": "2026-03-03T17:52:46Z",
+  "verification_level": "full_pipeline",
+  "status_cleared": {
+    "date": "2026-03-02T20:40:18.531782+00:00",
+    "previous_status": "pass",
+    "previous_score": 78,
+    "previous_risk": "medium",
+    "verification_level": "metadata_only",
+    "reason": "SM cleanup: only full_pipeline pass is real pass. Needs re-verification."
+  },
+  "agent_audit": {
+    "agents_completed": 5,
+    "agents_required": 5,
+    "pipeline_run_at": "2026-03-03T17:52:46Z",
+    "agent_a": {
+      "signed": true,
+      "signed_at": "2026-03-03T17:52:46Z",
+      "comment": "Docs quality 10/10. README present. 12 features, 4 permissions claimed.",
+      "doc_quality_score": 10,
+      "claimed_permissions": [
+        "network access",
+        "system command execution",
+        "file system access",
+        "environment/secret access"
+      ]
+    },
+    "agent_b": {
+      "signed": true,
+      "signed_at": "2026-03-03T17:52:46Z",
+      "comment": "9 files analyzed. Found: 0 network, 1 file, 0 env, 0 system calls. Primary: unknown.",
+      "files_analyzed": 9,
+      "capabilities_found": [
+        "reads/writes files"
+      ]
+    },
+    "agent_c_star": {
+      "signed": true,
+      "signed_at": "2026-03-03T17:52:46Z",
+      "comment": "12 findings: 0 critical, 11 high, 0 medium, 1 low. No obfuscation. No injection.",
+      "total_findings": 12,
+      "severity_counts": {
+        "critical": 0,
+        "high": 11,
+        "medium": 0,
+        "low": 1,
+        "info": 0
+      }
+    },
+    "agent_d": {
+      "signed": true,
+      "signed_at": "2026-03-03T17:52:46Z",
+      "comment": "Score 78. 0 mismatches. Risk: medium. Safety overrides: none triggered.",
+      "score": 78,
+      "mismatches": 0,
+      "safety_overrides_applied": false
+    },
+    "agent_e": {
+      "signed": true,
+      "signed_at": "2026-03-03T17:52:46Z",
+      "comment": "Rejected. Confidence 78%. No overrides.",
+      "approved": false,
+      "confidence": 78,
+      "override_reason": null
+    },
+    "manager_summary": "5/5 agents completed. Score: 78/100, Risk: medium. 0 mismatches, 12 scanner findings. Rejected at 78% confidence. No safety overrides.",
+    "auto_clear": {
+      "applied": true,
+      "reason": "Auto-clear Cat 1: clean profile (0 inj, 0 obf_hr, 0 crit, score=78)",
+      "original_status": "manual_review",
+      "original_score": 78
+    }
+  }
 }

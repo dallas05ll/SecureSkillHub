@@ -1,0 +1,24 @@
+{
+  "id": "gemini-b0849919",
+  "name": "gemini",
+  "description": "Interact with Google's Gemini model via CLI. Use when needing a second opinion from another LLM, cross-validation, or leveraging Gemini's Google Search grounding. Supports multi-turn conversations with session management.",
+  "repo_url": "https://github.com/junoh-moon/skills",
+  "source_hub": "skillsmp",
+  "skill_type": "agent_skill",
+  "owner": "junoh-moon",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "agent-skills",
+    "data-ai",
+    "installs:21"
+  ],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null,
+  "repo_status": "available",
+  "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
+  "repo_check_error": null
+}

@@ -1,0 +1,24 @@
+{
+  "id": "clarify-5ec36a36",
+  "name": "clarify",
+  "description": "Unified requirement clarification to prevent downstream implementation churn by resolving ambiguity early. Default: research-first with autonomous decision-making and persistent questioning. --light: direct iterative Q&A. Triggers: \\\"cwf:clarify\\\", \\\"clarify this\\\", \\\"refine requirements\\\"",
+  "repo_url": "https://github.com/corca-ai/claude-plugins",
+  "source_hub": "skillsmp",
+  "skill_type": "agent_skill",
+  "owner": "corca-ai",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "agent-skills",
+    "utilities",
+    "installs:66"
+  ],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null,
+  "repo_status": "available",
+  "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
+  "repo_check_error": null
+}

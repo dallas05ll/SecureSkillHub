@@ -1,0 +1,24 @@
+{
+  "id": "claude-historian-93efe134",
+  "name": "claude-historian",
+  "description": "Find past solutions before starting work - search errors you've fixed, files you've changed, similar questions you've asked, tool workflows that succeeded. Reduces web research and prevents redundant work.",
+  "repo_url": "https://github.com/vvkmnn/claude-historian-mcp",
+  "source_hub": "skillsmp",
+  "skill_type": "agent_skill",
+  "owner": "vvkmnn",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "agent-skills",
+    "utilities",
+    "installs:221"
+  ],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null,
+  "repo_status": "available",
+  "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
+  "repo_check_error": null
+}

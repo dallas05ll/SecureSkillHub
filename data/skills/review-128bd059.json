@@ -1,0 +1,24 @@
+{
+  "id": "review-128bd059",
+  "name": "review",
+  "description": "Review code for common issues. Use when reviewing PRs, suggesting code changes, or when user asks to review code.",
+  "repo_url": "https://github.com/temporalio/temporal",
+  "source_hub": "skillsmp",
+  "skill_type": "agent_skill",
+  "owner": "temporalio",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "agent-skills",
+    "utilities",
+    "installs:18381"
+  ],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null,
+  "repo_status": "available",
+  "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
+  "repo_check_error": null
+}

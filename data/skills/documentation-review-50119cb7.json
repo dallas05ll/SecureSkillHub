@@ -1,0 +1,24 @@
+{
+  "id": "documentation-review-50119cb7",
+  "name": "documentation-review",
+  "description": "Automatically detect and fix documentation inconsistencies, outdated examples, and missing @file headers in the u-he-preset-randomizer project. Triggers when documentation appears outdated or when making significant code changes that affect public APIs.",
+  "repo_url": "https://github.com/fannon/u-he-preset-randomizer",
+  "source_hub": "skillsmp",
+  "skill_type": "agent_skill",
+  "owner": "fannon",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "agent-skills",
+    "utilities",
+    "installs:23"
+  ],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null,
+  "repo_status": "available",
+  "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
+  "repo_check_error": null
+}

@@ -8,7 +8,6 @@
   "stars": 54,
   "primary_language": "javascript",
   "tags": [
-    "status-fail",
     "data-ai",
     "data-ai-vision",
     "util-file",
@@ -120,5 +119,6 @@
       "override_reason": null
     },
     "manager_summary": "5/5 agents completed. Score: 85/100, Risk: high. 0 mismatches, 70 scanner findings. Rejected at 85% confidence. No safety overrides.\n[2026-03-01T06:14:16Z] PM review: fail. PM final decision: fail due to high-risk scanner findings."
-  }
+  },
+  "skill_type": "mcp_server"
 }

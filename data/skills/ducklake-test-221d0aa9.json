@@ -1,0 +1,24 @@
+{
+  "id": "ducklake-test-221d0aa9",
+  "name": "ducklake-test",
+  "description": "Start duckgres with DuckLake (S3-backed storage with PostgreSQL metadata) for local testing. Use when testing duckgres against DuckLake or reproducing Fivetran sync issues.",
+  "repo_url": "https://github.com/posthog/duckgres",
+  "source_hub": "skillsmp",
+  "skill_type": "agent_skill",
+  "owner": "posthog",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "agent-skills",
+    "data-db",
+    "installs:33"
+  ],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null,
+  "repo_status": "available",
+  "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
+  "repo_check_error": null
+}

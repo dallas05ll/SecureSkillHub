@@ -1,0 +1,24 @@
+{
+  "id": "axiom-apl-ac75faf2",
+  "name": "axiom-apl",
+  "description": "APL query language reference for Axiom. Provides operators, functions, patterns, and CLI usage. Auto-invoked by specialized Axiom skills when writing or debugging APL queries.",
+  "repo_url": "https://github.com/axiomhq/cli",
+  "source_hub": "skillsmp",
+  "skill_type": "agent_skill",
+  "owner": "axiomhq",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "agent-skills",
+    "utilities",
+    "installs:54"
+  ],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null,
+  "repo_status": "available",
+  "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
+  "repo_check_error": null
+}

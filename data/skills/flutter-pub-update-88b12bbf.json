@@ -1,0 +1,24 @@
+{
+  "id": "flutter-pub-update-88b12bbf",
+  "name": "flutter-pub-update",
+  "description": "Flutterプロジェクトのpubspec.yamlパッケージを更新するスキル。一括更新または指定パッケージ更新に対応。メジャーバージョン更新時は確認を挟み、更新前にpub.dev/GitHubでchangelogを確認して変更内容を報告する。$ARGUMENTSにパッケージ名を指定するか、--allで全パッケージ更新。",
+  "repo_url": "https://github.com/bannzai/pilll",
+  "source_hub": "skillsmp",
+  "skill_type": "agent_skill",
+  "owner": "bannzai",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "agent-skills",
+    "dev-mobile",
+    "installs:311"
+  ],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null,
+  "repo_status": "available",
+  "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
+  "repo_check_error": null
+}

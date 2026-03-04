@@ -8,20 +8,27 @@
   "stars": 86100,
   "primary_language": "typescript",
   "tags": [
-    "status-fail",
     "data-ai",
     "integ-cloud",
     "integ-cloud-azure"
   ],
-  "verification_status": "manual_review",
+  "verification_status": "pass",
   "overall_score": 55,
-  "risk_level": "medium",
+  "risk_level": "low",
   "verified_commit": "8a460124cfbf68a7a9c74ca3b393595ab6a14d29",
   "scan_summary": {
     "total_findings": 0,
     "files_scanned": 675,
     "severity_counts": {},
     "category_counts": {}
+  },
+  "verification_date": "2026-03-02T00:00:00Z",
+  "verification_summary": {
+    "pm_override": {
+      "reason": "PM override: 6 jailbreak findings confirmed FP by SecM \u2014 Azure AI Gateway security policy documentation discusses jailbreak PREVENTION, not attacks. Microsoft project.",
+      "date": "2026-03-02",
+      "authorized_by": "PM"
+    }
   },
   "scan_date": "2026-02-28T23:52:16Z",
   "findings_summary": {
@@ -102,5 +109,6 @@
       "override_reason": "Deterministic override: injection patterns detected."
     },
     "manager_summary": "5/5 agents completed. Score: 10/100, Risk: critical. 0 mismatches, 352 scanner findings. Rejected at 95% confidence. Safety overrides triggered."
-  }
+  },
+  "skill_type": "agent_skill"
 }

@@ -13,7 +13,7 @@
     "repo_unavailable",
     "prod"
   ],
-  "verification_status": "pass",
+  "verification_status": "unverified",
   "overall_score": 78,
   "risk_level": "medium",
   "verified_commit": null,
@@ -25,7 +25,14 @@
   "trust_level": "low",
   "scan_date": "2026-02-26T06:14:56Z",
   "repo_status": "unavailable",
-  "repo_check_date": "2026-02-28T20:52:58.279015+00:00",
+  "repo_check_date": "2026-03-03T22:14:00Z",
   "repo_check_error": "fatal: could not read Username for 'https://github.com': Device not configured",
-  "verification_level": "metadata_only"
+  "status_cleared": {
+    "date": "2026-03-02T20:40:18.531782+00:00",
+    "previous_status": "pass",
+    "previous_score": 78,
+    "previous_risk": "medium",
+    "verification_level": "metadata_only",
+    "reason": "SM cleanup: only full_pipeline pass is real pass. Needs re-verification."
+  }
 }

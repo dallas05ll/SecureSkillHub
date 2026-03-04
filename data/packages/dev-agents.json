@@ -1,0 +1,113 @@
+{
+  "tag_path": "dev-agents",
+  "label": "General AI Agents & Multi-Agent Package",
+  "description": "Top 7 verified ai agents & multi-agent skills, auto-curated by GitHub stars and security score.",
+  "skill_ids": [
+    "1Panel-dev--MaxKB",
+    "muratcankoylan--Agent-Skills-for-Context-Engineering",
+    "skill-seekers-doc-converter-dcbed0f4",
+    "lamda-1ac696c7",
+    "continuous-claude-v3-67454ffb",
+    "end-to-end-agentic-ai-automation-lab-af5fa77e",
+    "pydantic-ai-skills-256aa892"
+  ],
+  "skills": [
+    {
+      "id": "1Panel-dev--MaxKB",
+      "name": "MaxKB",
+      "description": "Open-source platform for building enterprise-grade AI agents with RAG pipelines, agentic workflows, and MCP tool-use capabilities.",
+      "repo_url": "https://github.com/1Panel-dev/MaxKB",
+      "stars": 20166,
+      "overall_score": 100,
+      "verification_status": "pass",
+      "risk_level": "medium",
+      "primary_language": "Python",
+      "install_url": "https://github.com/1Panel-dev/MaxKB",
+      "skill_type": "mcp_server"
+    },
+    {
+      "id": "muratcankoylan--Agent-Skills-for-Context-Engineering",
+      "name": "Context Engineering",
+      "description": "Comprehensive collection of Agent Skills for context engineering, multi-agent architectures, and production agent systems.",
+      "repo_url": "https://github.com/muratcankoylan/Agent-Skills-for-Context-Engineering",
+      "stars": 10475,
+      "overall_score": 85,
+      "verification_status": "pass",
+      "risk_level": "medium",
+      "primary_language": "Python",
+      "install_url": "https://github.com/muratcankoylan/Agent-Skills-for-Context-Engineering",
+      "skill_type": "mcp_server"
+    },
+    {
+      "id": "skill-seekers-doc-converter-dcbed0f4",
+      "name": "Skill Seekers (Doc Converter)",
+      "description": "Universal data layer for AI systems that converts documentation websites, GitHub repositories, PDFs, and local codebases into structured knowledge assets for Claude, Gemini, OpenAI, RAG pipelines (Lan",
+      "repo_url": "https://github.com/yusufkaraaslan/Skill_Seekers",
+      "stars": 9849,
+      "overall_score": 100,
+      "verification_status": "pass",
+      "risk_level": "medium",
+      "primary_language": "Python",
+      "install_url": "https://github.com/yusufkaraaslan/Skill_Seekers",
+      "skill_type": "agent_skill"
+    },
+    {
+      "id": "lamda-1ac696c7",
+      "name": "lamda",
+      "description": "The most powerful Android RPA agent framework, next generation of mobile automation robots.",
+      "repo_url": "https://github.com/firerpa/lamda",
+      "stars": 7622,
+      "overall_score": 85,
+      "verification_status": "pass",
+      "risk_level": "high",
+      "primary_language": "python",
+      "install_url": "https://github.com/firerpa/lamda",
+      "skill_type": "unknown"
+    },
+    {
+      "id": "continuous-claude-v3-67454ffb",
+      "name": "Continuous-Claude-v3",
+      "description": "Persistent multi-agent development system for Claude Code featuring 109 skills, 32 specialized agents, and 30 lifecycle hooks. Maintains context across sessions via YAML handoffs and ledgers, provides",
+      "repo_url": "https://github.com/parcadei/Continuous-Claude-v3",
+      "stars": 3563,
+      "overall_score": 85,
+      "verification_status": "pass",
+      "risk_level": "medium",
+      "primary_language": "python",
+      "install_url": "https://github.com/parcadei/Continuous-Claude-v3",
+      "skill_type": "agent_skill"
+    },
+    {
+      "id": "end-to-end-agentic-ai-automation-lab-af5fa77e",
+      "name": "End-to-End-Agentic-Ai-Automation-Lab",
+      "description": "This repository contains hands-on projects, code examples, and deployment workflows. Explore multi-agent systems, LangChain, LangGraph, CrewAI, RAG, automation with n8n, and scalable agent deployment ",
+      "repo_url": "https://github.com/MDalamin5/End-to-End-Agentic-Ai-Automation-Lab",
+      "stars": 48,
+      "overall_score": 85,
+      "verification_status": "manual_review",
+      "risk_level": "high",
+      "primary_language": "unknown",
+      "install_url": "https://github.com/MDalamin5/End-to-End-Agentic-Ai-Automation-Lab",
+      "skill_type": "unknown"
+    },
+    {
+      "id": "pydantic-ai-skills-256aa892",
+      "name": "pydantic-ai-skills",
+      "description": "Production-ready Claude Code skills for building AI agents with Pydantic AI. Includes dependency injection, tools, validators, streaming, multi-agent orchestration, and evaluation framework patterns.",
+      "repo_url": "https://github.com/Fuenfgeld/pydantic-ai-skills",
+      "stars": 4,
+      "overall_score": 58,
+      "verification_status": "manual_review",
+      "risk_level": "high",
+      "primary_language": "markdown",
+      "install_url": "https://github.com/Fuenfgeld/pydantic-ai-skills",
+      "skill_type": "agent_skill"
+    }
+  ],
+  "total_skills": 7,
+  "total_candidates": 7,
+  "avg_score": 85.4,
+  "min_score": 58,
+  "top_stars": 20166,
+  "generated_at": "2026-03-02T22:27:24Z"
+}

@@ -1,0 +1,24 @@
+{
+  "id": "multi-model-review-e2b70683",
+  "name": "multi-model-review",
+  "description": "Reviews PRs or code changes using multiple AI models, synthesizes findings, and interactively applies fixes. Uses GPT 5.2, Gemini 3 Pro, and Opus 4.5 for diverse perspectives.",
+  "repo_url": "https://github.com/lossyrob/phased-agent-workflow",
+  "source_hub": "skillsmp",
+  "skill_type": "agent_skill",
+  "owner": "lossyrob",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "agent-skills",
+    "data-ai",
+    "installs:18"
+  ],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null,
+  "repo_status": "available",
+  "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
+  "repo_check_error": null
+}

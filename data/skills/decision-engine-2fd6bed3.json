@@ -1,0 +1,24 @@
+{
+  "id": "decision-engine-2fd6bed3",
+  "name": "decision-engine",
+  "description": "Autonomous decision-making engine for technical choices in technology selection, architecture patterns, and task ordering. Use when Maestro orchestrator needs to make decisions without human input for choosing libraries/frameworks based on existing codebase, selecting architectural patterns based on complexity and requirements, and optimizing task execution order based on dependency analysis. Analyzes codebase context, applies scoring rubrics, and returns structured decisions with rationale.",
+  "repo_url": "https://github.com/ll931217/dotfiles",
+  "source_hub": "skillsmp",
+  "skill_type": "agent_skill",
+  "owner": "ll931217",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "agent-skills",
+    "utilities",
+    "installs:20"
+  ],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null,
+  "repo_status": "available",
+  "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
+  "repo_check_error": null
+}

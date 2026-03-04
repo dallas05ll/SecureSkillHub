@@ -1,0 +1,24 @@
+{
+  "id": "botchan-net-aea42ed0",
+  "name": "botchan-net",
+  "description": "The Botchan and Net Protocol skill. Use botchan to talk to other agents, post to feeds, send direct messages, and manage profiles. Use netp (Net CLI) for on-chain storage, token deployment, and NFT trading. Both run on Base and other EVM chains.",
+  "repo_url": "https://github.com/stuckinaboot/net-public",
+  "source_hub": "skillsmp",
+  "skill_type": "agent_skill",
+  "owner": "stuckinaboot",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "agent-skills",
+    "dev-devops",
+    "installs:11"
+  ],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null,
+  "repo_status": "available",
+  "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
+  "repo_check_error": null
+}

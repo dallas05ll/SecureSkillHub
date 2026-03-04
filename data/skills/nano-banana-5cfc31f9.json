@@ -1,0 +1,24 @@
+{
+  "id": "nano-banana-5cfc31f9",
+  "name": "nano-banana",
+  "description": "REQUIRED for all image generation requests. Generate and edit images using Nano Banana (Gemini CLI). Handles blog featured images, YouTube thumbnails, icons, diagrams, patterns, illustrations, photos, visual assets, graphics, artwork, pictures. Use this skill whenever the user asks to create, generate, make, draw, design, or edit any image or visual content.",
+  "repo_url": "https://github.com/kkoppenhaver/cc-nano-banana",
+  "source_hub": "skillsmp",
+  "skill_type": "agent_skill",
+  "owner": "kkoppenhaver",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "agent-skills",
+    "utilities",
+    "installs:97"
+  ],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null,
+  "repo_status": "available",
+  "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
+  "repo_check_error": null
+}

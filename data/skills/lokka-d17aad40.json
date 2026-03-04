@@ -8,7 +8,6 @@
   "stars": 220,
   "primary_language": "unknown",
   "tags": [
-    "status-manual_review",
     "integ"
   ],
   "verification_status": "pass",
@@ -93,5 +92,6 @@
       "override_reason": null
     },
     "manager_summary": "5/5 agents completed. Score: 100/100, Risk: high. 0 mismatches, 25 scanner findings. Rejected at 95% confidence. No safety overrides."
-  }
+  },
+  "skill_type": "mcp_server"
 }

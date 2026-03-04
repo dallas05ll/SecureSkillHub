@@ -1,0 +1,24 @@
+{
+  "id": "vlmrun-cli-skill-650f60a0",
+  "name": "vlmrun-cli-skill",
+  "description": "Use the VLM Run CLI (`vlmrun`) to interact with Orion visual AI agent. Process images, videos, and documents with natural language. Triggers: image understanding/generation, object detection, OCR, video summarization, document extraction, image generation, visual AI chat, 'generate an image/video', 'analyze this image/video', 'extract text from', 'summarize this video', 'process this PDF'.",
+  "repo_url": "https://github.com/vlm-run/skills",
+  "source_hub": "skillsmp",
+  "skill_type": "agent_skill",
+  "owner": "vlm-run",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "agent-skills",
+    "data-ai",
+    "installs:20"
+  ],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null,
+  "repo_status": "available",
+  "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
+  "repo_check_error": null
+}

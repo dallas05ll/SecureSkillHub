@@ -1,0 +1,24 @@
+{
+  "id": "pretty-mermaid-d8316078",
+  "name": "pretty-mermaid",
+  "description": "Render beautiful Mermaid diagrams as SVG or ASCII art using the beautiful-mermaid library.\nSupports 15+ themes, 5 diagram types (flowchart, sequence, state, class, ER), and ultra-fast rendering.\n\nUse this skill when:\n1. User asks to \"render a mermaid diagram\" or provides .mmd files\n2. User requests \"create a flowchart/sequence diagram/state diagram\"\n3. User wants to \"apply a theme\" or \"beautify a diagram\"\n4. User needs to \"batch process multiple diagrams\"\n5. User mentions \"ASCII diagram\" or \"...",
+  "repo_url": "https://github.com/imxv/pretty-mermaid-skills",
+  "source_hub": "skillsmp",
+  "skill_type": "agent_skill",
+  "owner": "imxv",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "agent-skills",
+    "utilities",
+    "installs:471"
+  ],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null,
+  "repo_status": "available",
+  "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
+  "repo_check_error": null
+}

@@ -8,10 +8,9 @@
   "stars": 5100,
   "primary_language": "typescript",
   "tags": [
-    "dev-web-frontend-react",
-    "status-fail"
+    "dev-web-frontend-react"
   ],
-  "verification_status": "manual_review",
+  "verification_status": "pass",
   "overall_score": 70,
   "risk_level": "medium",
   "verified_commit": "97b21f18ee4c5b530d683ae6626548081a4aad76",
@@ -100,5 +99,12 @@
       "override_reason": "Deterministic override: high-risk obfuscation detected."
     },
     "manager_summary": "5/5 agents completed. Score: 8/100, Risk: critical. 0 mismatches, 88 scanner findings. Rejected at 90% confidence. Safety overrides triggered."
-  }
+  },
+  "pm_override": {
+    "action": "manual_review_to_pass",
+    "reason": "PM internet-verified: millionco/react-doctor (5,100\u2605) is React code analysis tool used across Cursor, Claude Code, Gemini CLI. Obfuscation FP from security pattern definitions in linting rules.",
+    "override_by": "PM internet verification 20260303",
+    "date": "2026-03-03"
+  },
+  "skill_type": "agent_skill"
 }

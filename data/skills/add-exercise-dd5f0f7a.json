@@ -1,0 +1,24 @@
+{
+  "id": "add-exercise-dd5f0f7a",
+  "name": "add-exercise",
+  "description": "Add an interactive exercise with solution to an existing lesson. Creates properly formatted exercise and solution admonition blocks. Use when a lesson needs hands-on practice.",
+  "repo_url": "https://github.com/nextflow-io/training",
+  "source_hub": "skillsmp",
+  "skill_type": "agent_skill",
+  "owner": "nextflow-io",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "agent-skills",
+    "utilities",
+    "installs:225"
+  ],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null,
+  "repo_status": "available",
+  "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
+  "repo_check_error": null
+}

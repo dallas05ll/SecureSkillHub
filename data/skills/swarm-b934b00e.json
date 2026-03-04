@@ -1,0 +1,24 @@
+{
+  "id": "swarm-b934b00e",
+  "name": "swarm",
+  "description": "Autonomous multi-agent workflow system for complex coding tasks. Use when the user requests non-trivial changes that would benefit from autonomous execution with built-in review gates. Ideal for refactoring modules, adding major features, migrating codebases, adding comprehensive test coverage, or any multi-step development task that can run autonomously. NOT for simple fixes, typos, or single-file changes.",
+  "repo_url": "https://github.com/nbashaw/swarm",
+  "source_hub": "skillsmp",
+  "skill_type": "agent_skill",
+  "owner": "nbashaw",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "agent-skills",
+    "dev-testing",
+    "installs:42"
+  ],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null,
+  "repo_status": "available",
+  "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
+  "repo_check_error": null
+}

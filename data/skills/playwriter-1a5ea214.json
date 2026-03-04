@@ -1,0 +1,24 @@
+{
+  "id": "playwriter-1a5ea214",
+  "name": "playwriter",
+  "description": "Control the user own Chrome browser via Playwriter extension with Playwright code snippets in a stateful local js sandbox via playwriter cli. Automate web interactions, take screenshots, inspect accessibility trees, debug & profile web applications. Run `playwriter skill` command to read the complete up to date skill",
+  "repo_url": "https://github.com/remorses/playwriter",
+  "source_hub": "skillsmp",
+  "skill_type": "agent_skill",
+  "owner": "remorses",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "agent-skills",
+    "dev-testing",
+    "installs:2847"
+  ],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null,
+  "repo_status": "available",
+  "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
+  "repo_check_error": null
+}

@@ -1,0 +1,24 @@
+{
+  "id": "agent-deck-7a56c439",
+  "name": "agent-deck",
+  "description": "Управление сессиями AI агентов через agent-deck CLI.\nТриггеры (RU): \"запусти агента\", \"запусти саб-агента\", \"создай сессию\",\n\"проверь сессию\", \"проверь статус\", \"покажи вывод агента\", \"что агент ответил\".\nTriggers (EN): \"launch sub-agent\", \"create sub-agent\", \"start session\",\n\"check session\", \"show agent output\".",
+  "repo_url": "https://github.com/artwist-polyakov/polyakov-claude-skills",
+  "source_hub": "skillsmp",
+  "skill_type": "agent_skill",
+  "owner": "artwist-polyakov",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "agent-skills",
+    "utilities",
+    "installs:35"
+  ],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null,
+  "repo_status": "available",
+  "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
+  "repo_check_error": null
+}

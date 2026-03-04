@@ -1,0 +1,24 @@
+{
+  "id": "resume-builder-4ef5b990",
+  "name": "resume-builder",
+  "description": "Generate professional resumes that conform to the Reactive Resume schema. Use when the user wants to create, build, or generate a resume through conversational AI, or asks about resume structure, sections, or content. This skill guides the agent to ask clarifying questions, avoid hallucination, and produce valid JSON output for https://rxresu.me.",
+  "repo_url": "https://github.com/amruthpillai/reactive-resume",
+  "source_hub": "skillsmp",
+  "skill_type": "agent_skill",
+  "owner": "amruthpillai",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "agent-skills",
+    "utilities",
+    "installs:35275"
+  ],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null,
+  "repo_status": "available",
+  "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
+  "repo_check_error": null
+}

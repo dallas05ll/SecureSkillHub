@@ -1,0 +1,24 @@
+{
+  "id": "harness-step-schema-db10fdba",
+  "name": "harness-step-schema",
+  "description": "Creates or updates pipeline step schemas in the harness-schema repository.\n\nALWAYS use this skill when user mentions ANY of these:\n- Step operations: \"create step\", \"add step\", \"new step\", \"update step\", \"modify step\", \"edit step\", \"implement step\", \"define step\", \"build step\"\n- Schema files: \"step-info.yaml\", \"step-node.yaml\", \"StepInfo\", \"StepNode\", \"step schema\", \"step definition\", \"step spec\"\n- Stage availability: \"add to stage\", \"enable in stage\", \"available in stage\", \"register step\", \"...",
+  "repo_url": "https://github.com/harness/harness-schema",
+  "source_hub": "skillsmp",
+  "skill_type": "agent_skill",
+  "owner": "harness",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "agent-skills",
+    "dev-devops",
+    "installs:13"
+  ],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null,
+  "repo_status": "available",
+  "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
+  "repo_check_error": null
+}

@@ -1,0 +1,24 @@
+{
+  "id": "openspec-proposal-creation-8ebef5d6",
+  "name": "openspec-proposal-creation",
+  "description": "Creates structured change proposals with specification deltas for new features, breaking changes, or architecture updates. Use when planning features, creating proposals, speccing changes, introducing new capabilities, or starting development workflows. Triggers include \"openspec proposal\", \"create proposal\", \"plan change\", \"spec feature\", \"new capability\", \"add feature planning\", \"design spec\".",
+  "repo_url": "https://github.com/forztf/open-skilled-sdd",
+  "source_hub": "skillsmp",
+  "skill_type": "agent_skill",
+  "owner": "forztf",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "agent-skills",
+    "utilities",
+    "installs:59"
+  ],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null,
+  "repo_status": "available",
+  "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
+  "repo_check_error": null
+}

@@ -54,12 +54,17 @@ site/api/
 │   ├── index.json             — Full skill listing
 │   ├── by-tag/{tag-id}.json   — Skills filtered by tag
 │   └── by-tier/{tier}.json    — Skills filtered by star tier
-├── stats.json                 — Hub-wide statistics
+├── stats.json                 — Hub-wide statistics (see note below)
 ├── tags.json                  — Tag hierarchy
 └── packages/
     ├── index.json             — Package listing
     └── {package-id}.json      — Individual packages
 ```
+
+**`stats.json` includes:**
+- `skill_types` — breakdown by `skill_type` field: `{ "mcp_server": N, "agent_skill": N }`
+- `verification_tiers` — counts per `verification_level`: `full_pipeline`, `scanner_only`, `metadata_only`, `api_verified`, `unverified`
+- Standard fields: total_skills, verified_skills, failed_skills, pending_skills, per-source counts, avg_score
 
 `scripts/build/build_indexes.py` outputs:
 

@@ -1,0 +1,24 @@
+{
+  "id": "agents-md-generator-b7826cd2",
+  "name": "agents-md-generator",
+  "description": "Generate hierarchical AGENTS.md structures for codebases. Use when user asks to create AGENTS.md files, analyze codebase for AI agent documentation, set up AI-friendly project documentation, or generate context files for AI coding assistants. Triggers on \"create AGENTS.md\", \"generate agents\", \"analyze codebase for AI\", \"AI documentation setup\", \"hierarchical agents\".",
+  "repo_url": "https://github.com/julianromli/ai-skills",
+  "source_hub": "skillsmp",
+  "skill_type": "agent_skill",
+  "owner": "julianromli",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "agent-skills",
+    "data-ai",
+    "installs:136"
+  ],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null,
+  "repo_status": "available",
+  "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
+  "repo_check_error": null
+}

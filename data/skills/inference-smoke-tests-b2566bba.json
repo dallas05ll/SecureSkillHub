@@ -1,0 +1,24 @@
+{
+  "id": "inference-smoke-tests-b2566bba",
+  "name": "inference-smoke-tests",
+  "description": "Run repeatable inference smoke tests using geppetto/pinocchio example binaries (single-pass, streaming, tool-loop, OpenAI Responses thinking) including tmux-driven TUI tests. Use when refactors touch InferenceState/Session/EngineBuilder, tool calling loop, event sinks, provider request formatting, or when you need a quick 'does inference still work?' checklist.",
+  "repo_url": "https://github.com/go-go-golems/geppetto",
+  "source_hub": "skillsmp",
+  "skill_type": "agent_skill",
+  "owner": "go-go-golems",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "agent-skills",
+    "data-ai",
+    "installs:83"
+  ],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null,
+  "repo_status": "available",
+  "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
+  "repo_check_error": null
+}

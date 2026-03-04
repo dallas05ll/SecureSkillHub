@@ -1,0 +1,24 @@
+{
+  "id": "home-assistant-b87e542f",
+  "name": "home-assistant",
+  "description": "Use this if the user wants to connect to Home Assistant or leverage Home Assistant in any shape or form inside their project. Guide users integrating Home Assistant into projects for home automation control or data ingestion. Collects and validates connection credentials (URL and Long-Lived Access Token), provides API reference documentation for Python and Node.js implementations, and helps integrate Home Assistant APIs into user projects.",
+  "repo_url": "https://github.com/balloob/llm-skills",
+  "source_hub": "skillsmp",
+  "skill_type": "agent_skill",
+  "owner": "balloob",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "agent-skills",
+    "dev-web-backend",
+    "installs:56"
+  ],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null,
+  "repo_status": "available",
+  "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
+  "repo_check_error": null
+}

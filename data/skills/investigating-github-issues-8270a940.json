@@ -1,0 +1,24 @@
+{
+  "id": "investigating-github-issues-8270a940",
+  "name": "investigating-github-issues",
+  "description": "Investigates and analyzes GitHub issues for Shopify/shopify-app-js. Fetches issue details via gh CLI, searches for duplicates, examines the codebase for relevant context, applies version-based maintenance policy classification, and produces a structured investigation report. Use when a GitHub issue URL is provided, when asked to analyze or triage an issue, or when understanding issue context before starting work.",
+  "repo_url": "https://github.com/shopify/shopify-app-js",
+  "source_hub": "skillsmp",
+  "skill_type": "agent_skill",
+  "owner": "shopify",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "agent-skills",
+    "utilities",
+    "installs:496"
+  ],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null,
+  "repo_status": "available",
+  "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
+  "repo_check_error": null
+}

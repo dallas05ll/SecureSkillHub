@@ -1,0 +1,24 @@
+{
+  "id": "excalidraw-e66db273",
+  "name": "excalidraw",
+  "description": "Generate hand-drawn Excalidraw-style diagrams from text prompts. Triggers on requests for diagrams, flowcharts, architecture sketches, system designs, hand-drawn visuals, or when the user says /excalidraw.",
+  "repo_url": "https://github.com/aref-vc/excalidraw-skill",
+  "source_hub": "skillsmp",
+  "skill_type": "agent_skill",
+  "owner": "aref-vc",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "agent-skills",
+    "utilities",
+    "installs:17"
+  ],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null,
+  "repo_status": "available",
+  "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
+  "repo_check_error": null
+}

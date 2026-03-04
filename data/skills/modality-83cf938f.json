@@ -1,0 +1,24 @@
+{
+  "id": "modality-83cf938f",
+  "name": "modality",
+  "description": "Create, sign, and verify Modality contracts for trustless agent cooperation. Use when an agent needs to establish a binding agreement with another agent, delegate a task with enforceable terms, verify a contract's protections, or participate in a multi-party contract. Handles escrow, task delegation, data exchange, multisig, and custom contract patterns.",
+  "repo_url": "https://github.com/modality-org/modality",
+  "source_hub": "skillsmp",
+  "skill_type": "agent_skill",
+  "owner": "modality-org",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "agent-skills",
+    "utilities",
+    "installs:18"
+  ],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null,
+  "repo_status": "available",
+  "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
+  "repo_check_error": null
+}

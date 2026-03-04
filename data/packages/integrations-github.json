@@ -1,0 +1,43 @@
+{
+  "tag_path": "integrations-github",
+  "label": "General GitHub Package",
+  "description": "Top 2 verified github skills, auto-curated by GitHub stars and security score.",
+  "skill_ids": [
+    "mcp-kubernetes-e0007ac5",
+    "agent-skills-48c9ecce"
+  ],
+  "skills": [
+    {
+      "id": "mcp-kubernetes-e0007ac5",
+      "name": "mcp-kubernetes",
+      "description": "A Model Context Protocol (MCP) server that enables AI assistants to interact with Kubernetes clusters. It serves as a bridge between AI tools (like Claude, Cursor, and GitHub Copilot) and Kubernetes",
+      "repo_url": "https://github.com/Azure/mcp-kubernetes",
+      "stars": 51,
+      "overall_score": 70,
+      "verification_status": "manual_review",
+      "risk_level": "medium",
+      "primary_language": "go",
+      "install_url": "https://github.com/Azure/mcp-kubernetes",
+      "skill_type": "unknown"
+    },
+    {
+      "id": "agent-skills-48c9ecce",
+      "name": "agent-skills",
+      "description": "\ud83d\udd27 Enhance AI coding assistants with portable skills, ensuring compatibility with Claude Code, GitHub Copilot, and more for seamless development.",
+      "repo_url": "https://github.com/arshia2114/agent-skills",
+      "stars": 0,
+      "overall_score": 68,
+      "verification_status": "manual_review",
+      "risk_level": "medium",
+      "primary_language": "markdown",
+      "install_url": "https://github.com/arshia2114/agent-skills",
+      "skill_type": "agent_skill"
+    }
+  ],
+  "total_skills": 2,
+  "total_candidates": 2,
+  "avg_score": 69.0,
+  "min_score": 68,
+  "top_stars": 51,
+  "generated_at": "2026-03-02T22:27:24Z"
+}

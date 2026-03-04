@@ -1,0 +1,24 @@
+{
+  "id": "gc-safe-coding-540b0bcc",
+  "name": "gc-safe-coding",
+  "description": "Rules for writing and reviewing GC-safe C++ code in the Hermes VM runtime. Use when writing, modifying, or reviewing C++ runtime VM code that uses internal Hermes VM APIs (as opposed to code using JSI). This includes working with GC-managed types (HermesValue, Handle, PinnedValue, JSObject, StringPrimitive, etc.), Locals, GCScope, PseudoHandle, CallResult, or any function with _RJS suffix. Typically in lib/VM/, include/hermes/VM/, or API/hermes/.",
+  "repo_url": "https://github.com/facebook/hermes",
+  "source_hub": "skillsmp",
+  "skill_type": "agent_skill",
+  "owner": "facebook",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "agent-skills",
+    "utilities",
+    "installs:10798"
+  ],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null,
+  "repo_status": "available",
+  "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
+  "repo_check_error": null
+}

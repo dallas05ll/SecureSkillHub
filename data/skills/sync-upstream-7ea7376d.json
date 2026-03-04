@@ -1,0 +1,24 @@
+{
+  "id": "sync-upstream-7ea7376d",
+  "name": "sync-upstream",
+  "description": "Sync Chinese translation repository with upstream rust-lang/nomicon. Use when user wants to check for upstream changes, sync translations, update from upstream, or asks about differences between local translation and upstream English version. Triggers on requests like \"sync upstream\", \"check upstream changes\", \"update from nomicon\", or \"sync translation\".",
+  "repo_url": "https://github.com/rust-lang-cn/nomicon-zh-hans",
+  "source_hub": "skillsmp",
+  "skill_type": "agent_skill",
+  "owner": "rust-lang-cn",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "agent-skills",
+    "utilities",
+    "installs:695"
+  ],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null,
+  "repo_status": "available",
+  "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
+  "repo_check_error": null
+}

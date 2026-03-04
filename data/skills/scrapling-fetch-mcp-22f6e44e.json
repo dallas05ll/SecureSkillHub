@@ -8,7 +8,6 @@
   "stars": 60,
   "primary_language": "python",
   "tags": [
-    "status-pass",
     "data-ai",
     "data-ai-nlp",
     "dev-web",
@@ -95,5 +94,6 @@
       "override_reason": null
     },
     "manager_summary": "5/5 agents completed. Score: 90/100, Risk: medium. 1 mismatches, 1 scanner findings. Approved at 90% confidence. No safety overrides."
-  }
+  },
+  "skill_type": "mcp_server"
 }

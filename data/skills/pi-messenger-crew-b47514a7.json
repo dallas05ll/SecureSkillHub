@@ -1,0 +1,24 @@
+{
+  "id": "pi-messenger-crew-b47514a7",
+  "name": "pi-messenger-crew",
+  "description": "Use pi-messenger for multi-agent coordination and Crew task orchestration. Covers joining the mesh, planning from PRDs, working on tasks, file reservations, and agent messaging. Load this skill when using pi_messenger or building with Crew.",
+  "repo_url": "https://github.com/nicobailon/pi-messenger",
+  "source_hub": "skillsmp",
+  "skill_type": "agent_skill",
+  "owner": "nicobailon",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "agent-skills",
+    "utilities",
+    "installs:182"
+  ],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null,
+  "repo_status": "available",
+  "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
+  "repo_check_error": null
+}

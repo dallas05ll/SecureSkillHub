@@ -1,0 +1,24 @@
+{
+  "id": "code-review-a8940ec1",
+  "name": "code-review",
+  "description": "基于 grep 文本搜索和文件读写的代码安全审计技能。通过正则表达式模式匹配在项目源码中 定位危险函数调用、敏感数据流和已知漏洞模式，覆盖 30+ CWE 漏洞类型， 支持 Java、Golang、PHP、Python、C/C++、JavaScript 等多种语言的安全审计。",
+  "repo_url": "https://github.com/yaklang/yaklang",
+  "source_hub": "skillsmp",
+  "skill_type": "agent_skill",
+  "owner": "yaklang",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "agent-skills",
+    "utilities",
+    "installs:533"
+  ],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null,
+  "repo_status": "available",
+  "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
+  "repo_check_error": null
+}

@@ -1,0 +1,24 @@
+{
+  "id": "behavior-log-de6bdec8",
+  "name": "behavior-log",
+  "description": "Insert or read behavior log rows in the local database (behavior_logs). Use when recording a good/bad behavior entry, attaching a Pavlok API response JSON, adding a coach comment, or fetching recent logs via scripts/behavior_log.py.",
+  "repo_url": "https://github.com/motoya0118/pavlok_cli_agent",
+  "source_hub": "skillsmp",
+  "skill_type": "agent_skill",
+  "owner": "motoya0118",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "agent-skills",
+    "data-db",
+    "installs:70"
+  ],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null,
+  "repo_status": "available",
+  "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
+  "repo_check_error": null
+}

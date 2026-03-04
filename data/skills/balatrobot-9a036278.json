@@ -1,0 +1,24 @@
+{
+  "id": "balatrobot-9a036278",
+  "name": "balatrobot",
+  "description": "Run and debug BalatroBot locally. Use when you need to start Balatro with the BalatroBot Lua mod, manually test or reproduce issues via the JSON-RPC HTTP API, inspect the newest session logs under logs/, and capture screenshots into logs/<session>/artifacts/ using only the balatrobot CLI (no curl, no uvx).",
+  "repo_url": "https://github.com/coder/balatrobot",
+  "source_hub": "skillsmp",
+  "skill_type": "agent_skill",
+  "owner": "coder",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "agent-skills",
+    "utilities",
+    "installs:45"
+  ],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null,
+  "repo_status": "available",
+  "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
+  "repo_check_error": null
+}

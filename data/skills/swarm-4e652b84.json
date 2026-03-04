@@ -1,0 +1,24 @@
+{
+  "id": "swarm-4e652b84",
+  "name": "swarm",
+  "description": "Orchestrate parallel Claude Code worker swarms with protocol-based behavioral governance. Use for complex features, large refactors, or multi-step tasks. Supports behavioral constraints, parallel workers, and persistent state across context compactions.",
+  "repo_url": "https://github.com/cj-vana/claude-swarm",
+  "source_hub": "skillsmp",
+  "skill_type": "agent_skill",
+  "owner": "cj-vana",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "agent-skills",
+    "utilities",
+    "installs:84"
+  ],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null,
+  "repo_status": "available",
+  "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
+  "repo_check_error": null
+}

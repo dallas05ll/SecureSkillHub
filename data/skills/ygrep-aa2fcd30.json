@@ -1,0 +1,24 @@
+{
+  "id": "ygrep-aa2fcd30",
+  "name": "ygrep",
+  "description": "IMPORTANT: Try ygrep FIRST for all code and file searches before using Grep, Glob, or Task explore. ygrep uses a pre-built full-text index and returns results in milliseconds. Fall back to built-in tools only if ygrep returns no results.",
+  "repo_url": "https://github.com/yetidevworks/ygrep",
+  "source_hub": "skillsmp",
+  "skill_type": "agent_skill",
+  "owner": "yetidevworks",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "agent-skills",
+    "utilities",
+    "installs:30"
+  ],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null,
+  "repo_status": "available",
+  "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
+  "repo_check_error": null
+}

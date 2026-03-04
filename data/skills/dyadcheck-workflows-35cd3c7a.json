@@ -1,0 +1,24 @@
+{
+  "id": "dyadcheck-workflows-35cd3c7a",
+  "name": "dyadcheck-workflows",
+  "description": "Check GitHub Actions workflow runs from the past day, identify severe or consistent failures, and file an issue if actionable problems are found.",
+  "repo_url": "https://github.com/dyad-sh/dyad",
+  "source_hub": "skillsmp",
+  "skill_type": "agent_skill",
+  "owner": "dyad-sh",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "agent-skills",
+    "dev-devops",
+    "installs:19631"
+  ],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null,
+  "repo_status": "available",
+  "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
+  "repo_check_error": null
+}

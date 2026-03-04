@@ -1,0 +1,24 @@
+{
+  "id": "reviewing-changes-4f77f740",
+  "name": "reviewing-changes",
+  "description": "Guides Android code reviews with type-specific checklists and MVVM/Compose pattern validation. Use when reviewing Android PRs, pull requests, diffs, or local changes involving Kotlin, ViewModel, Composable, Repository, or Gradle files. Triggered by \"review PR\", \"review changes\", \"check this code\", \"Android review\", or code review requests mentioning bitwarden/android. Loads specialized checklists for feature additions, bug fixes, UI refinements, refactoring, dependency updates, and infrastruc...",
+  "repo_url": "https://github.com/bitwarden/android",
+  "source_hub": "skillsmp",
+  "skill_type": "agent_skill",
+  "owner": "bitwarden",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "agent-skills",
+    "dev-mobile",
+    "installs:8443"
+  ],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null,
+  "repo_status": "available",
+  "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
+  "repo_check_error": null
+}

@@ -1,0 +1,24 @@
+{
+  "id": "agentic-mcp-71e74c58",
+  "name": "agentic-mcp",
+  "description": "Agentic MCP - Three-layer progressive disclosure for MCP servers with Socket daemon. Use when the user needs to interact with MCP servers, query available tools, call MCP tools, or manage the MCP daemon process. Provides socket-based communication for efficient server interaction with three-layer progressive disclosure API.",
+  "repo_url": "https://github.com/cablate/agentic-mcp-skill",
+  "source_hub": "skillsmp",
+  "skill_type": "agent_skill",
+  "owner": "cablate",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "agent-skills",
+    "utilities",
+    "installs:17"
+  ],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null,
+  "repo_status": "available",
+  "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
+  "repo_check_error": null
+}

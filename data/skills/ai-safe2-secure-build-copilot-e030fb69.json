@@ -1,0 +1,24 @@
+{
+  "id": "ai-safe2-secure-build-copilot-e030fb69",
+  "name": "ai-safe2-secure-build-copilot",
+  "description": "Apply the AI SAFE² framework (Sanitize & Isolate · Audit & Inventory · Fail-Safe & Recovery · Engage & Monitor · Evolve & Educate) to design, implement, and audit secure, compliant, and reliable AI systems, agentic workflows, and application code. Validates against the official v2.1 control taxonomy (128 controls) and provides before/after security analysis with measurable GRC value. Use this skill whenever building, refactoring, reviewing, or deploying AI agents, automations, RAG systems, or...",
+  "repo_url": "https://github.com/cyberstrategyinstitute/ai-safe2-framework",
+  "source_hub": "skillsmp",
+  "skill_type": "agent_skill",
+  "owner": "cyberstrategyinstitute",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "agent-skills",
+    "data-ai",
+    "installs:22"
+  ],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null,
+  "repo_status": "available",
+  "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
+  "repo_check_error": null
+}

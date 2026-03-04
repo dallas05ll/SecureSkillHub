@@ -1,0 +1,24 @@
+{
+  "id": "agent-init-d6248b6d",
+  "name": "agent-init",
+  "description": "Initialize or improve AGENTS.md files that define how coding agents operate in a repo. Use when asked to set up or replace an agent init command (Codex, Claude), standardize multi-agent behavior, or audit an existing AGENTS.md for clarity, commands, boundaries, and repo-specific context. For Claude Code, also create CLAUDE.md as a symlink to AGENTS.md.",
+  "repo_url": "https://github.com/dyxushuai/agent-skills",
+  "source_hub": "skillsmp",
+  "skill_type": "agent_skill",
+  "owner": "dyxushuai",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "agent-skills",
+    "utilities",
+    "installs:12"
+  ],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null,
+  "repo_status": "available",
+  "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
+  "repo_check_error": null
+}

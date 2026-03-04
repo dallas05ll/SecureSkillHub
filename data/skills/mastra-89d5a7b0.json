@@ -95,5 +95,6 @@
     "reason": "Score 76. All 6 findings are false positives on Markdown code examples (localhost:4111 dev server refs, process.env in tutorial text). Pure documentation repo with ZERO executable code. Agent B 0-file analysis is correct (no code to analyze). 4,500 stars, official mastra-ai org, Apache-2.0, actively maintained.",
     "reviewer": "pm_dual_agent",
     "reviewed_at": "2026-03-01T07:38:01.397802Z"
-  }
+  },
+  "skill_type": "agent_skill"
 }

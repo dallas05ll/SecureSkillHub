@@ -1,0 +1,24 @@
+{
+  "id": "npm-publisher-17d432bb",
+  "name": "npm-publisher",
+  "description": "This skill must be loaded via the skill tool when the user mentions anything related to publishing or release an npm package. It contains essential knowledge about the complete release workflow. Things a user might say are Publish the npm package,Release a new version,Deploy to npm,Create a new release,Bump the version and publish",
+  "repo_url": "https://github.com/klaudworks/universal-skills",
+  "source_hub": "skillsmp",
+  "skill_type": "agent_skill",
+  "owner": "klaudworks",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "agent-skills",
+    "dev-devops",
+    "installs:165"
+  ],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null,
+  "repo_status": "available",
+  "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
+  "repo_check_error": null
+}

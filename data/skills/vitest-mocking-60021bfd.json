@@ -1,0 +1,24 @@
+{
+  "id": "vitest-mocking-60021bfd",
+  "name": "vitest-mocking",
+  "description": "Vitest mocking patterns and test double strategies. Use when writing tests that need mocks, spies, stubs, or fakes. Triggers include: mocking modules, stubbing globals (fetch, Date, timers), testing composables, mocking imports (default/named), creating test doubles, replacing dependencies, verifying mock calls, cleaning up mocks, or any question about \"how do I mock X in Vitest\". Also use when reviewing tests for proper mocking practices.",
+  "repo_url": "https://github.com/alexanderop/workouttracker",
+  "source_hub": "skillsmp",
+  "skill_type": "agent_skill",
+  "owner": "alexanderop",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "agent-skills",
+    "dev-testing",
+    "installs:11"
+  ],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null,
+  "repo_status": "available",
+  "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
+  "repo_check_error": null
+}

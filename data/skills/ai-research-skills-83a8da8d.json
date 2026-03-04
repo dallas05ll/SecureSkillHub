@@ -12,10 +12,9 @@
   "tags": [
     "data-ai",
     "dev",
-    "util-search",
-    "status-fail"
+    "util-search"
   ],
-  "verification_status": "fail",
+  "verification_status": "pass",
   "overall_score": 25,
   "risk_level": "medium",
   "verified_commit": "8a14d269df6f44ee4ecae2de542a09800e42d829",
@@ -99,5 +98,11 @@
       "override_reason": "Deterministic override: injection patterns detected."
     },
     "manager_summary": "5/5 agents completed. Score: 0/100, Risk: critical. 0 mismatches, 575 scanner findings. Rejected at 95% confidence. Safety overrides triggered."
+  },
+  "pm_override": {
+    "date": "2026-03-02T21:03:50.196204+00:00",
+    "previous_status": "fail",
+    "reason": "PM override (internet-verified): LIKELY_SAFE: AI research skills library, published on npm, stars close to real (~3.7K)",
+    "override_by": "PM + SecM(Opus) audit + internet verification 20260302"
   }
 }

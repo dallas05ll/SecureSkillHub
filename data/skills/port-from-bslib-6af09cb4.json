@@ -1,0 +1,24 @@
+{
+  "id": "port-from-bslib-6af09cb4",
+  "name": "port-from-bslib",
+  "description": "Comprehensive guide for porting UI components from R's bslib package to py-shiny. Use this skill when: (1) User asks to \"port this feature\" or \"port a component\" and mentions bslib or links to a bslib PR (e.g., github.com/rstudio/bslib/pull/...), (2) Porting a new component from bslib to py-shiny, (3) Adding a new input, output, or UI component that exists in bslib, (4) Implementing feature parity with bslib, (5) Working on bslib-related features or components. Covers the complete workflow in...",
+  "repo_url": "https://github.com/posit-dev/py-shiny",
+  "source_hub": "skillsmp",
+  "skill_type": "agent_skill",
+  "owner": "posit-dev",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "agent-skills",
+    "dev-web-frontend",
+    "installs:1686"
+  ],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null,
+  "repo_status": "available",
+  "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
+  "repo_check_error": null
+}

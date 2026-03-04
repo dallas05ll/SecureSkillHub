@@ -1,0 +1,24 @@
+{
+  "id": "savecontext-cli-6dbd1379",
+  "name": "savecontext-cli",
+  "description": "Persistent memory for AI coding agents via CLI. USE WHEN user says \"save context\", \"remember this\", \"checkpoint\", \"resume session\", \"prepare for compaction\", \"wrap up\", OR when starting work on a project that may span sessions.",
+  "repo_url": "https://github.com/greenfieldlabs-inc/savecontext",
+  "source_hub": "skillsmp",
+  "skill_type": "agent_skill",
+  "owner": "greenfieldlabs-inc",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "agent-skills",
+    "utilities",
+    "installs:14"
+  ],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null,
+  "repo_status": "available",
+  "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
+  "repo_check_error": null
+}

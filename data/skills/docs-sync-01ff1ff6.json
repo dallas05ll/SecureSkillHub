@@ -1,0 +1,24 @@
+{
+  "id": "docs-sync-01ff1ff6",
+  "name": "docs-sync",
+  "description": "gwmプロジェクトのドキュメント整合性チェックスキル。\nソースコード（CLI定義 args.rs、設定型定義 types.rs）とドキュメント\n（help.rs、README.md、README_JA.md）間のドリフトを検出し修正提案を行う。\n以下の場合に使用する:\n- 「ドキュメントを確認して」「ヘルプテキストを確認して」と依頼された場合\n- CLI引数や設定項目を変更した後のドキュメント更新確認\n- リリース前のドキュメント整合性チェック\n- 「READMEを更新して」「docs-sync」と依頼された場合",
+  "repo_url": "https://github.com/shutootaki/gwm",
+  "source_hub": "skillsmp",
+  "skill_type": "agent_skill",
+  "owner": "shutootaki",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "agent-skills",
+    "utilities",
+    "installs:14"
+  ],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null,
+  "repo_status": "available",
+  "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
+  "repo_check_error": null
+}

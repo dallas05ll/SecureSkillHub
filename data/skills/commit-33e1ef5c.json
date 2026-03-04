@@ -1,0 +1,24 @@
+{
+  "id": "commit-33e1ef5c",
+  "name": "commit",
+  "description": "Plan logical commit units from staged changes only, suggest commit titles, return the plan only, and create commits only after user approval (e.g. \\\"ok\\\", \\\"please commit\\\"). Use when the user asks to commit changes, plan/split commits, create logical commits, or use a refs footer (e.g. refs: SKY-123, #42).",
+  "repo_url": "https://github.com/oursky/skytest-agent",
+  "source_hub": "skillsmp",
+  "skill_type": "agent_skill",
+  "owner": "oursky",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "agent-skills",
+    "dev-git",
+    "installs:15"
+  ],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null,
+  "repo_status": "available",
+  "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
+  "repo_check_error": null
+}

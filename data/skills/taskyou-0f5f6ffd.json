@@ -1,0 +1,24 @@
+{
+  "id": "taskyou-0f5f6ffd",
+  "name": "taskyou",
+  "description": "Install and manage TaskYou — a personal task management system with Kanban board, background AI execution, and git worktree isolation. Guides installation if not present, then orchestrates tasks via CLI.",
+  "repo_url": "https://github.com/bborn/taskyou",
+  "source_hub": "skillsmp",
+  "skill_type": "agent_skill",
+  "owner": "bborn",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "agent-skills",
+    "utilities",
+    "installs:39"
+  ],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null,
+  "repo_status": "available",
+  "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
+  "repo_check_error": null
+}

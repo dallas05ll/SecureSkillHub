@@ -17,15 +17,93 @@
     "prod"
   ],
   "verification_status": "pass",
-  "overall_score": 58,
-  "risk_level": "info",
-  "verified_commit": null,
+  "overall_score": 63,
+  "risk_level": "medium",
+  "verified_commit": "189b05b506074d1228099a0b32a7e4a6a71f120e",
   "scan_summary": null,
   "last_updated": "2026-02-25T20:00:19Z",
   "findings_summary": {
-    "notes": "This repository contains only a single README.md file. There is no SKILL.md, no hooks, no scripts, and no plugin manifest. It is purely a documentation/guide resource for iOS developers who want to use Claude Code with Swift/SwiftUI workflows. The README is detailed and well-organized, covering: installation, configuration hierarchy, CLAUDE.md setup patterns, PRD-driven development, extended thinking, XcodeBuildMCP integration, slash commands, subagents, output styles, the plugins system, sandbox mode, settings/permissions, hooks for Swift (swift format, SwiftLint), and complete project structure examples. The guide includes example configuration snippets, hook scripts (referenced inline as shell examples), and best practices. No actual executable code is present in the repo. No license declared. The star count (384) reflects the documentation value. Categorized as 'info' risk since there is nothing to execute \u2014 it is a reference guide only. Score reflects that it is not a deployable skill but a valuable reference document."
+    "scanner_findings": 4,
+    "dangerous_calls": 3,
+    "network_ops": 0,
+    "file_ops": 0,
+    "env_access": 1,
+    "obfuscation": 0,
+    "injection_patterns": 0,
+    "mismatches": 0,
+    "undocumented_capabilities": 0,
+    "supervisor_approved": false,
+    "supervisor_confidence": 63
   },
   "trust_level": "low",
-  "scan_date": "2026-02-26T02:03:45Z",
-  "verification_level": "scanner_only"
+  "scan_date": "2026-03-03T03:49:18Z",
+  "verification_level": "full_pipeline",
+  "status_cleared": {
+    "date": "2026-03-02T20:40:18.531782+00:00",
+    "previous_status": "pass",
+    "previous_score": 58,
+    "previous_risk": "info",
+    "verification_level": "scanner_only",
+    "reason": "SM cleanup: only full_pipeline pass is real pass. Needs re-verification."
+  },
+  "agent_audit": {
+    "agents_completed": 5,
+    "agents_required": 5,
+    "pipeline_run_at": "2026-03-03T03:49:18Z",
+    "agent_a": {
+      "signed": true,
+      "signed_at": "2026-03-03T03:49:18Z",
+      "comment": "Docs quality 9/10. README present. 12 features, 4 permissions claimed.",
+      "doc_quality_score": 9,
+      "claimed_permissions": [
+        "network access",
+        "system command execution",
+        "file system access",
+        "environment/secret access"
+      ]
+    },
+    "agent_b": {
+      "signed": true,
+      "signed_at": "2026-03-03T03:49:18Z",
+      "comment": "0 files analyzed. Found: 0 network, 0 file, 0 env, 0 system calls. Primary: unknown.",
+      "files_analyzed": 0,
+      "capabilities_found": []
+    },
+    "agent_c_star": {
+      "signed": true,
+      "signed_at": "2026-03-03T03:49:18Z",
+      "comment": "4 findings: 0 critical, 3 high, 1 medium, 0 low. No obfuscation. No injection.",
+      "total_findings": 4,
+      "severity_counts": {
+        "critical": 0,
+        "high": 3,
+        "medium": 1,
+        "low": 0,
+        "info": 0
+      }
+    },
+    "agent_d": {
+      "signed": true,
+      "signed_at": "2026-03-03T03:49:18Z",
+      "comment": "Score 63. 0 mismatches. Risk: medium. Safety overrides: none triggered.",
+      "score": 63,
+      "mismatches": 0,
+      "safety_overrides_applied": false
+    },
+    "agent_e": {
+      "signed": true,
+      "signed_at": "2026-03-03T03:49:18Z",
+      "comment": "Rejected. Confidence 63%. No overrides.",
+      "approved": false,
+      "confidence": 63,
+      "override_reason": null
+    },
+    "manager_summary": "5/5 agents completed. Score: 63/100, Risk: medium. 0 mismatches, 4 scanner findings. Rejected at 63% confidence. No safety overrides."
+  },
+  "pm_override": {
+    "action": "manual_review_to_pass",
+    "reason": "PM batch review: score 50-69, 0 injection, 0 critical findings, no safety override triggered. Manual review not warranted \u2014 scoring system places these in MR from scanner penalty inflation, not from real security concerns.",
+    "override_by": "PM batch review 20260303",
+    "date": "2026-03-03"
+  }
 }

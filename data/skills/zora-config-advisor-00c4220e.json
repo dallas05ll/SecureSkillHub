@@ -1,0 +1,24 @@
+{
+  "id": "zora-config-advisor-00c4220e",
+  "name": "zora-config-advisor",
+  "description": "Guide users through configuring Zora agent setup by interviewing them about their workflow, then generating tailored config.toml and policy.toml files. Use when: (1) setting up Zora for a new workflow, (2) tuning security policy for a specific task, (3) choosing providers, MCP servers, or skills for a use case, (4) reviewing or tightening an existing Zora config. Triggers on \\\"configure Zora\\\", \\\"Zora setup\\\", \\\"policy for\\\", \\\"config for\\\", \\\"zora init help\\\", \\\"what permissions\\\", \\\"which M...",
+  "repo_url": "https://github.com/ryaker/zora",
+  "source_hub": "skillsmp",
+  "skill_type": "agent_skill",
+  "owner": "ryaker",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "agent-skills",
+    "security",
+    "installs:12"
+  ],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null,
+  "repo_status": "available",
+  "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
+  "repo_check_error": null
+}

@@ -1,0 +1,24 @@
+{
+  "id": "agent-slack-e56188e6",
+  "name": "agent-slack",
+  "description": "Slack automation CLI for AI agents. Use when:\n- Reading a Slack message or thread (given a URL or channel+ts)\n- Browsing recent channel messages / channel history\n- Downloading Slack attachments (snippets, images, files) to local paths\n- Searching Slack messages or files\n- Sending, editing, or deleting a message; adding/removing reactions\n- Fetching a Slack canvas as markdown\n- Looking up Slack users\nTriggers: \"slack message\", \"slack thread\", \"slack URL\", \"slack link\", \"read slack\", \"reply on...",
+  "repo_url": "https://github.com/stablyai/agent-slack",
+  "source_hub": "skillsmp",
+  "skill_type": "agent_skill",
+  "owner": "stablyai",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "agent-skills",
+    "utilities",
+    "installs:274"
+  ],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null,
+  "repo_status": "available",
+  "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
+  "repo_check_error": null
+}

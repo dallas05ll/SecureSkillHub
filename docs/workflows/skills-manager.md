@@ -26,7 +26,7 @@ Read these files for a complete picture of the collection:
 | Verify queue (agents) | `site/api/indexes/verify-queue.json` | Same data, agent-accessible API path, built by `scripts/build/build_indexes.py` |
 | Package index | `data/packages/index.json` | Auto-curated packages, tag coverage, avg scores |
 | Tag hierarchy | `data/tags.json` | 4-layer taxonomy, all valid tag IDs |
-| Individual skills | `data/skills/*.json` | Full skill records (6,307 files) |
+| Individual skills | `data/skills/*.json` | Full skill records (11,099 files: 5,692 MCP servers + 5,407 agent skills) |
 | Reachability log | `data/reachability-check.json` | Batch reachability scan results with timestamps |
 | Skill manager log | `data/skill-manager-log.json` | Unified log: crawl, reachability, verification, health checks |
 
@@ -63,6 +63,20 @@ Run `python3 scripts/review/health_check.py` for an automated dashboard, or chec
 
 - Are there top-level tags with no packages? → Run `python3 scripts/build/build_packages.py`
 - Do packages have enough high-quality skills (score ≥ 70, verified)?
+
+### 6. Skill Type Balance
+
+The collection has two `skill_type` values:
+
+| Type | Source | Count | Notes |
+|------|--------|-------|-------|
+| `mcp_server` | mcp.so, Glama, GitHub Search | ~5,692 | MCP protocol servers |
+| `agent_skill` | skillsmp, ClaudeSkills, GitHub Search | ~5,407 | Agent instruction sets, skills, plugins |
+
+**Key differences for SM:**
+- `agent_skill` entries from skillsmp arrive with `stars: 0` — always run `enrich_stars.py --skip-existing` after a skillsmp crawl to fill in real star counts before prioritizing for verification.
+- `agent_skill` repos are typically smaller and have no `install_command`. Use `metadata_only` verification (not full clone) for bulk triage.
+- Check for type skew: if one type dominates `unverified` pool, it may indicate a crawl burst that needs enrichment before queuing.
 
 ---
 
@@ -111,6 +125,8 @@ Skills are prioritized by GitHub stars (highest first). Use `data/verify-queue.j
 | Tier 5 | 0 | Lowest | Low priority — no community signal |
 
 **Guidance:** Always verify Tier 1 first, then Tier 2. Scanner-only works on any tier (any skill with a GitHub URL). Metadata-only is useful for quick triage of large backlogs.
+
+**skillsmp skills specifically:** Use `metadata_only` verification for the bulk of skillsmp-sourced agent skills (4,801 collected). They do not have install commands and full clone adds cost without proportional signal. Escalate to `full_pipeline` only for skills with stars ≥ 100 after enrichment.
 
 ---
 

@@ -1,0 +1,29 @@
+{
+  "tag_path": "dev-mobile-react-native",
+  "label": "General React Native Package",
+  "description": "Top 1 verified react native skills, auto-curated by GitHub stars and security score.",
+  "skill_ids": [
+    "react-native-best-practices-1970bd18"
+  ],
+  "skills": [
+    {
+      "id": "react-native-best-practices-1970bd18",
+      "name": "React Native Best Practices",
+      "description": "Agent skill: react-native-best-practices from callstackincubator/agent-skills",
+      "repo_url": "https://github.com/callstackincubator/agent-skills",
+      "stars": 6500,
+      "overall_score": 84,
+      "verification_status": "pass",
+      "risk_level": "medium",
+      "primary_language": "unknown",
+      "install_url": "https://github.com/callstackincubator/agent-skills",
+      "skill_type": "unknown"
+    }
+  ],
+  "total_skills": 1,
+  "total_candidates": 1,
+  "avg_score": 84.0,
+  "min_score": 84,
+  "top_stars": 6500,
+  "generated_at": "2026-03-02T22:27:24Z"
+}

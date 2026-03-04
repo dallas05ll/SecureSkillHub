@@ -82,7 +82,7 @@ Skills filtered by a specific tag, sorted by stars. Faster than loading the full
   "skills": [ ... ] }
 ```
 
-**Tag discovery**: The tag tree (`api/tags.json`) has 55 official hierarchical nodes. However, 345 by-tag files exist including informal source tags (e.g., `accessibility`, `agent-orchestration`). You can request any by-tag file directly if you know the tag name -- not all appear in the tree.
+**Tag discovery**: The tag tree (`api/tags.json`) has 71 official hierarchical nodes. However, 388 by-tag files exist including informal source tags (e.g., `accessibility`, `agent-orchestration`). You can request any by-tag file directly if you know the tag name -- not all appear in the tree.
 
 An additional meta-index is available at `api/skills/by-tag/index.json` with three views:
 - `tags`: per-tag statistics (total, verified, top_stars)
@@ -172,19 +172,20 @@ Skills grouped by verification status. Structure:
 ```
 { "generated_at": "<ISO-8601>",
   "total_skills": N,
-  "statuses": {
-    "pass": { "count": N, "ids": [...] },
-    "fail": { "count": N, "ids": [...] },
-    "manual_review": { "count": N, "ids": [...] },
-    "unverified": { "count": N, "ids": [...] },
-    "updated_unverified": { "count": N, "ids": [...] }
-  }
+  "counts": { "pass": N, "fail": N, "manual_review": N, "unverified": N, "updated_unverified": N },
+  "pass": ["skill-id-1", "skill-id-2", ...],
+  "fail": [...],
+  "manual_review": [...],
+  "unverified": [...],
+  "updated_unverified": [...]
 }
 ```
 
+Status arrays are top-level keys (not nested). Use `data.pass` for the ID list and `data.counts.pass` for the count.
+
 #### GET api/indexes/by-risk.json
 
-Skills grouped by risk level. Same structure as by-status but keyed by risk levels (`info`, `low`, `medium`, `high`, `critical`).
+Skills grouped by risk level. Same flat structure as by-status, with top-level keys for each risk level (`info`, `low`, `medium`, `high`, `critical`) and a `counts` dict.
 
 #### GET api/indexes/verify-queue.json
 
@@ -317,13 +318,13 @@ Users can create personalized skill packages tied to their GitHub account. Resol
 }
 ```
 
-4. To get the resolved skill list: `GET .../v1/agent/profile/{handle}/resolve?package=My+Stack`
+4. Each package lists `tags` and `pinned_skills` — use these to query `api/skills/by-tag/{tag}.json` for the full skill list.
 
 ### Installing a user's usual stack
 
 If the user says "install my usual stack" or "set up my tools":
-1. Resolve their default package via the agent API.
-2. Each resolved skill includes an `install_url` field — use it directly.
+1. Look up their profile packages and resolve skills via the by-tag and detail endpoints.
+2. Each skill has a `repo_url` field — for MCP servers, generate install commands based on `primary_language` (TypeScript/JavaScript → `npx`, Python → `uvx`, other → `git clone`).
 3. Prefer skills with `verification_status: "pass"` and warn about unverified ones.
 4. The user can also install via CLI: `npx secureskillhub install`
 

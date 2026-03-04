@@ -1,0 +1,24 @@
+{
+  "id": "doc-check-04d98280",
+  "name": "doc-check",
+  "description": "コード変更に影響を受ける md ドキュメントを検出し、ユーザー承認後に更新する。 md ファイルの YAML frontmatter に宣言された depends-on（ファイルパス・glob）と 本文中の Markdown リンクから依存グラフを構築し、git diff との突合で影響範囲を特定する。 /doc-check で起動、またはコード変更を含むタスク完了時に実行を検討する。",
+  "repo_url": "https://github.com/neko-neko/dotfiles",
+  "source_hub": "skillsmp",
+  "skill_type": "agent_skill",
+  "owner": "neko-neko",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "agent-skills",
+    "dev-git",
+    "installs:10"
+  ],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null,
+  "repo_status": "available",
+  "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
+  "repo_check_error": null
+}

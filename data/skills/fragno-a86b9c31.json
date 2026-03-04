@@ -1,0 +1,24 @@
+{
+  "id": "fragno-a86b9c31",
+  "name": "fragno",
+  "description": "Integrate existing Fragno fragments into applications: install fragment packages, configure server instances (and database adapters if required), mount server handlers for each framework, create client-side integrations, and use hooks/composables. Use when asked to wire a fragment into the user's application.",
+  "repo_url": "https://github.com/rejot-dev/fragno",
+  "source_hub": "skillsmp",
+  "skill_type": "agent_skill",
+  "owner": "rejot-dev",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "agent-skills",
+    "data-db",
+    "installs:38"
+  ],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null,
+  "repo_status": "available",
+  "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
+  "repo_check_error": null
+}

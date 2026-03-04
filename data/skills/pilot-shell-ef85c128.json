@@ -17,17 +17,96 @@
     "utilities-system"
   ],
   "verification_status": "pass",
-  "overall_score": 58,
-  "risk_level": "medium",
-  "verified_commit": null,
+  "pm_override": "PM override: SecM audit: bundled JS obfuscation likely FP, needs human review of .cjs bundle",
+  "overall_score": 15,
+  "risk_level": "critical",
+  "verified_commit": "cd5d45a026371c5272ff92e3bb022883d4b2d945",
   "scan_summary": null,
   "last_updated": "2026-02-25T15:42:21Z",
   "findings_summary": {
-    "notes": "Individual developer repo with a proprietary/non-OSI license (custom 'All rights reserved' agreement, not an open source license). No SECURITY.md. Installation via curl-pipe-bash which is a significant security risk requiring trust in the author. Installs Claude Code hooks, MCP servers, and shell integrations that modify the development environment broadly. Actively maintained (recent Feb 2026 commits, 0 open issues). High stars (1441) indicate popularity. Risk stems from: (1) curl-pipe-bash installation vector, (2) proprietary license restricting inspection/auditing rights, (3) broad environment modification scope."
+    "scanner_findings": 699,
+    "dangerous_calls": 161,
+    "network_ops": 90,
+    "file_ops": 227,
+    "env_access": 142,
+    "obfuscation": 43,
+    "injection_patterns": 0,
+    "mismatches": 0,
+    "undocumented_capabilities": 0,
+    "supervisor_approved": false,
+    "supervisor_confidence": 90
   },
   "has_security_md": false,
   "org_owned": false,
   "trust_level": "low",
-  "scan_date": "2026-02-25T23:07:47Z",
-  "verification_level": "scanner_only"
+  "scan_date": "2026-03-03T03:23:09Z",
+  "verification_level": "full_pipeline",
+  "status_cleared": {
+    "date": "2026-03-02T20:40:18.531782+00:00",
+    "previous_status": "pass",
+    "previous_score": 58,
+    "previous_risk": "medium",
+    "verification_level": "scanner_only",
+    "reason": "SM cleanup: only full_pipeline pass is real pass. Needs re-verification."
+  },
+  "agent_audit": {
+    "agents_completed": 5,
+    "agents_required": 5,
+    "pipeline_run_at": "2026-03-03T03:23:09Z",
+    "agent_a": {
+      "signed": true,
+      "signed_at": "2026-03-03T03:23:09Z",
+      "comment": "Docs quality 9/10. README present. 12 features, 4 permissions claimed.",
+      "doc_quality_score": 9,
+      "claimed_permissions": [
+        "network access",
+        "system command execution",
+        "file system access",
+        "environment/secret access"
+      ]
+    },
+    "agent_b": {
+      "signed": true,
+      "signed_at": "2026-03-03T03:23:09Z",
+      "comment": "678 files analyzed. Found: 73 network, 10 file, 32 env, 12 system calls. Primary: typescript.",
+      "files_analyzed": 678,
+      "capabilities_found": [
+        "imports external dependencies",
+        "performs network operations",
+        "reads/writes files",
+        "reads environment values",
+        "executes system commands"
+      ]
+    },
+    "agent_c_star": {
+      "signed": true,
+      "signed_at": "2026-03-03T03:23:09Z",
+      "comment": "699 findings: 0 critical, 240 high, 232 medium, 227 low. Obfuscation detected!. No injection.",
+      "total_findings": 699,
+      "severity_counts": {
+        "critical": 0,
+        "high": 240,
+        "medium": 232,
+        "low": 227,
+        "info": 0
+      }
+    },
+    "agent_d": {
+      "signed": true,
+      "signed_at": "2026-03-03T03:23:09Z",
+      "comment": "Score 15. 0 mismatches. Risk: critical. Safety overrides: applied.",
+      "score": 15,
+      "mismatches": 0,
+      "safety_overrides_applied": true
+    },
+    "agent_e": {
+      "signed": true,
+      "signed_at": "2026-03-03T03:23:09Z",
+      "comment": "Rejected. Confidence 90%. Deterministic override: high-risk obfuscation detected.",
+      "approved": false,
+      "confidence": 90,
+      "override_reason": "Deterministic override: high-risk obfuscation detected."
+    },
+    "manager_summary": "5/5 agents completed. Score: 15/100, Risk: critical. 0 mismatches, 699 scanner findings. Rejected at 90% confidence. Safety overrides triggered."
+  }
 }

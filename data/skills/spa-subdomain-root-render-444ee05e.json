@@ -1,0 +1,24 @@
+{
+  "id": "spa-subdomain-root-render-444ee05e",
+  "name": "spa-subdomain-root-render",
+  "description": "Render a page component directly at subdomain root (/) without URL redirect in React Router SPAs.\nUse when: (1) Subdomain should show content at / instead of redirecting to /profile/id or similar,\n(2) User sees blank page because component relies on useParams() but there's no route param at /,\n(3) Want username.domain.com/ to feel like a personal website without /profile/xyz in the URL.\nPattern involves edge-injected global data + component fallback to that data when route params missing.",
+  "repo_url": "https://github.com/divinevideo/divine-web",
+  "source_hub": "skillsmp",
+  "skill_type": "agent_skill",
+  "owner": "divinevideo",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "agent-skills",
+    "dev-web-frontend",
+    "installs:34"
+  ],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null,
+  "repo_status": "available",
+  "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
+  "repo_check_error": null
+}

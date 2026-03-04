@@ -1,0 +1,24 @@
+{
+  "id": "code-simplifier-faeea1cb",
+  "name": "code-simplifier",
+  "description": "Use this agent when code has been written or modified and needs to be simplified for clarity, consistency, and maintainability while preserving all functionality. This agent should be triggered automatically after completing a coding task or writing a logical chunk of code. It simplifies code by following project best practices while retaining all functionality. The agent focuses only on recently modified code unless instructed otherwise.\n\nExamples:\n\n<example>\nContext: The assistant has just ...",
+  "repo_url": "https://github.com/ngx-vest-forms/ngx-vest-forms",
+  "source_hub": "skillsmp",
+  "skill_type": "agent_skill",
+  "owner": "ngx-vest-forms",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "agent-skills",
+    "utilities",
+    "installs:57"
+  ],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null,
+  "repo_status": "available",
+  "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
+  "repo_check_error": null
+}

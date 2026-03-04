@@ -1,0 +1,24 @@
+{
+  "id": "ralph-tui-prd-078e3057",
+  "name": "ralph-tui-prd",
+  "description": "Generate a Product Requirements Document (PRD) for ralph-tui task orchestration. Creates PRDs with user stories that can be converted to beads issues or prd.json for automated execution. Triggers on: create a prd, write prd for, plan this feature, requirements for, spec out.",
+  "repo_url": "https://github.com/subsy/ralph-tui",
+  "source_hub": "skillsmp",
+  "skill_type": "agent_skill",
+  "owner": "subsy",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "agent-skills",
+    "utilities",
+    "installs:4869"
+  ],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null,
+  "repo_status": "available",
+  "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
+  "repo_check_error": null
+}

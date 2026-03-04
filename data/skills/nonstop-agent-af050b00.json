@@ -1,0 +1,24 @@
+{
+  "id": "nonstop-agent-af050b00",
+  "name": "nonstop-agent",
+  "description": "Creates long-running autonomous agents. Use when the user asks for \"롱 러닝 에이전트 만들어줘\", \"자율 에이전트 생성\", \"autonomous agent\", \"long-running agent\", \"nonstop agent\", or \"24/7 agent\". Collects requirements through AskUserQuestion and generates agent structure following Anthropic best practices.",
+  "repo_url": "https://github.com/seolcoding/nonstop-agent",
+  "source_hub": "skillsmp",
+  "skill_type": "agent_skill",
+  "owner": "seolcoding",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "agent-skills",
+    "utilities",
+    "installs:11"
+  ],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null,
+  "repo_status": "available",
+  "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
+  "repo_check_error": null
+}

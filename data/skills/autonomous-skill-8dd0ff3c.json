@@ -1,0 +1,24 @@
+{
+  "id": "autonomous-skill-8dd0ff3c",
+  "name": "autonomous-skill",
+  "description": "Use when user wants to execute long-running tasks. Trigger phrases: \"autonomous\", \"自主執行\", \"long-running task\".",
+  "repo_url": "https://github.com/hansai-art/hans-sleep-yolo-mode",
+  "source_hub": "skillsmp",
+  "skill_type": "agent_skill",
+  "owner": "hansai-art",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "agent-skills",
+    "utilities",
+    "installs:14"
+  ],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null,
+  "repo_status": "available",
+  "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
+  "repo_check_error": null
+}

@@ -1,0 +1,24 @@
+{
+  "id": "ispc-builtins-3e899363",
+  "name": "ispc-builtins",
+  "description": "Best practices for creating and modifying ISPC builtin files. Use when adding target-specific optimizations, implementing new builtin functions, or working with the hierarchical target system.",
+  "repo_url": "https://github.com/ispc/ispc",
+  "source_hub": "skillsmp",
+  "skill_type": "agent_skill",
+  "owner": "ispc",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "agent-skills",
+    "utilities",
+    "installs:2843"
+  ],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null,
+  "repo_status": "available",
+  "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
+  "repo_check_error": null
+}

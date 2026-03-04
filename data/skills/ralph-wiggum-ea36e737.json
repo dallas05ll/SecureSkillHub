@@ -1,0 +1,24 @@
+{
+  "id": "ralph-wiggum-ea36e737",
+  "name": "ralph-wiggum",
+  "description": "Implements the Ralph Wiggum autonomous iteration technique with deliberate context management. Use when building greenfield projects, iterating on well-defined tasks, or when continuous autonomous development is needed. Manages context like memory - tracks allocations, prevents redlining, and knows when to start fresh.",
+  "repo_url": "https://github.com/agrimsingh/ralph-wiggum-cursor",
+  "source_hub": "skillsmp",
+  "skill_type": "agent_skill",
+  "owner": "agrimsingh",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "agent-skills",
+    "utilities",
+    "installs:379"
+  ],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null,
+  "repo_status": "available",
+  "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
+  "repo_check_error": null
+}

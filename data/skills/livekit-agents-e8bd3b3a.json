@@ -1,0 +1,24 @@
+{
+  "id": "livekit-agents-e8bd3b3a",
+  "name": "livekit-agents",
+  "description": "Build voice AI agents with LiveKit Cloud and the Agents SDK. Use when the user asks to \"build a voice agent\", \"create a LiveKit agent\", \"add voice AI\", \"implement handoffs\", \"structure agent workflows\", or is working with LiveKit Agents SDK. Provides opinionated guidance for the recommended path: LiveKit Cloud + LiveKit Inference. REQUIRES writing tests for all implementations.",
+  "repo_url": "https://github.com/livekit/agent-skills",
+  "source_hub": "skillsmp",
+  "skill_type": "agent_skill",
+  "owner": "livekit",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "agent-skills",
+    "utilities",
+    "installs:44"
+  ],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null,
+  "repo_status": "available",
+  "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
+  "repo_check_error": null
+}

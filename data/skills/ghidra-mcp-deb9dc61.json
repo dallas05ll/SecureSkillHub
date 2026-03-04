@@ -1,0 +1,24 @@
+{
+  "id": "ghidra-mcp-deb9dc61",
+  "name": "ghidra-mcp",
+  "description": "Reverse engineering with Ghidra via MCP. Use when analyzing binaries, decompiling code, managing functions/symbols/data types, or performing any Ghidra-related reverse engineering task.",
+  "repo_url": "https://github.com/themixednuts/ghidramcp",
+  "source_hub": "skillsmp",
+  "skill_type": "agent_skill",
+  "owner": "themixednuts",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "agent-skills",
+    "utilities",
+    "installs:39"
+  ],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null,
+  "repo_status": "available",
+  "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
+  "repo_check_error": null
+}

@@ -1,0 +1,24 @@
+{
+  "id": "bdd-test-runner-f3ea7b75",
+  "name": "bdd-test-runner",
+  "description": "Executes BDD-compliant GIVEN-WHEN-THEN tests with vanilla JUnit5, validates test naming compliance, analyzes coverage, and ensures tests follow project testing standards. Use when running tests, validating test patterns, checking coverage, or when user mentions \"run tests\", \"BDD\", \"GIVEN-WHEN-THEN\", \"test coverage\", or \"validate tests\".",
+  "repo_url": "https://github.com/rsicarelli/fakt",
+  "source_hub": "skillsmp",
+  "skill_type": "agent_skill",
+  "owner": "rsicarelli",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "agent-skills",
+    "dev-testing",
+    "installs:17"
+  ],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null,
+  "repo_status": "available",
+  "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
+  "repo_check_error": null
+}

@@ -1,0 +1,24 @@
+{
+  "id": "markdown-to-docx-456e79b5",
+  "name": "markdown-to-docx",
+  "description": "Converts Markdown files (.md, .markdown) to DOCX using the markdown-docx npm package. Supports single and batch conversions, automatically generates output filenames, and creates Microsoft Word documents from Markdown content.",
+  "repo_url": "https://github.com/vace/markdown-docx",
+  "source_hub": "skillsmp",
+  "skill_type": "agent_skill",
+  "owner": "vace",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "agent-skills",
+    "utilities",
+    "installs:252"
+  ],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null,
+  "repo_status": "available",
+  "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
+  "repo_check_error": null
+}

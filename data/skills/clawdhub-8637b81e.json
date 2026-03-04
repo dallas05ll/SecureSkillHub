@@ -1,0 +1,24 @@
+{
+  "id": "clawdhub-8637b81e",
+  "name": "clawdhub",
+  "description": "Use the ClawdHub CLI to search, install, update, and publish agent skills from clawdhub.com. Use when you need to fetch new skills on the fly, sync installed skills to latest or a specific version, or publish new/updated skill folders with the npm-installed clawdhub CLI.",
+  "repo_url": "https://github.com/yesongyun/openclaw-cn",
+  "source_hub": "skillsmp",
+  "skill_type": "agent_skill",
+  "owner": "yesongyun",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "agent-skills",
+    "utilities",
+    "installs:17"
+  ],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null,
+  "repo_status": "available",
+  "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
+  "repo_check_error": null
+}

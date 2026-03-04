@@ -1,0 +1,24 @@
+{
+  "id": "yara-skill-57db409c",
+  "name": "yara-skill",
+  "description": "Expert YARA rule authoring, review, and optimization. Use when writing new YARA rules, reviewing existing rules for quality issues, optimizing rule performance, or converting detection logic to YARA syntax. Covers rule naming conventions, string selection, condition optimization, performance tuning, and automated quality checks based on yaraQA.",
+  "repo_url": "https://github.com/yarahq/yara-rule-skill",
+  "source_hub": "skillsmp",
+  "skill_type": "agent_skill",
+  "owner": "yarahq",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "agent-skills",
+    "utilities",
+    "installs:23"
+  ],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null,
+  "repo_status": "available",
+  "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
+  "repo_check_error": null
+}

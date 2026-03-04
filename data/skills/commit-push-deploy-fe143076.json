@@ -1,0 +1,24 @@
+{
+  "id": "commit-push-deploy-fe143076",
+  "name": "commit-push-deploy",
+  "description": "Commits code changes, pushes to remote, and deploys to production. Use when the user wants to commit, push, and deploy their changes in one workflow.",
+  "repo_url": "https://github.com/helblazer811/diffusion-explorer",
+  "source_hub": "skillsmp",
+  "skill_type": "agent_skill",
+  "owner": "helblazer811",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "agent-skills",
+    "dev-devops",
+    "installs:1064"
+  ],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null,
+  "repo_status": "available",
+  "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
+  "repo_check_error": null
+}

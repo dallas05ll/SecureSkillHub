@@ -1,0 +1,24 @@
+{
+  "id": "council-gate-47382907",
+  "name": "council-gate",
+  "description": "Quality gate using LLM Council multi-model consensus for CI/CD pipelines.\nUse for automated approval workflows and pipeline quality checks.\nKeywords: gate, CI, CD, pipeline, automated approval, quality gate, GitHub Actions",
+  "repo_url": "https://github.com/amiable-dev/llm-council",
+  "source_hub": "skillsmp",
+  "skill_type": "agent_skill",
+  "owner": "amiable-dev",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "agent-skills",
+    "dev-devops",
+    "installs:10"
+  ],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null,
+  "repo_status": "available",
+  "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
+  "repo_check_error": null
+}

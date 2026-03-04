@@ -1,0 +1,24 @@
+{
+  "id": "autoship-8289205e",
+  "name": "autoship",
+  "description": "CLI tool for automated changeset-based releases with AI-generated descriptions. Use when the user needs to release a package, create changesets, bump versions, or automate npm publishing workflows. Triggers include requests to \"release a package\", \"create a changeset\", \"publish to npm\", \"bump the version\", \"automate releases\", or any task involving version management and package publishing for repositories using the changesets workflow.",
+  "repo_url": "https://github.com/vercel-labs/autoship",
+  "source_hub": "skillsmp",
+  "skill_type": "agent_skill",
+  "owner": "vercel-labs",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "agent-skills",
+    "utilities",
+    "installs:144"
+  ],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null,
+  "repo_status": "available",
+  "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
+  "repo_check_error": null
+}

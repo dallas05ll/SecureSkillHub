@@ -1,0 +1,24 @@
+{
+  "id": "x-bookmarks-158458f4",
+  "name": "x-bookmarks",
+  "description": "Fetch, summarize, and manage X/Twitter bookmarks via bird CLI or X API v2. Use when: (1) user says \"check my bookmarks\", \"what did I bookmark\", \"bookmark digest\", \"summarize my bookmarks\", \"x bookmarks\", \"twitter bookmarks\", (2) user wants a periodic digest of saved tweets, (3) user wants to categorize, search, or analyze their bookmarks, (4) scheduled bookmark digests via cron. Auth: bird CLI with browser cookies, OR X API v2 with OAuth 2.0 tokens.",
+  "repo_url": "https://github.com/sharbelxyz/x-bookmarks",
+  "source_hub": "skillsmp",
+  "skill_type": "agent_skill",
+  "owner": "sharbelxyz",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "agent-skills",
+    "security",
+    "installs:196"
+  ],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null,
+  "repo_status": "available",
+  "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
+  "repo_check_error": null
+}

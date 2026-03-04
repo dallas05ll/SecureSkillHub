@@ -1,0 +1,24 @@
+{
+  "id": "data-layer-d1762004",
+  "name": "data-layer",
+  "description": "This skill provides patterns for working with the data-layer module. Use when creating/editing files in src/data-layer/, src/lib/data/, or adding new data sources.",
+  "repo_url": "https://github.com/ethereum/ethereum-org-website",
+  "source_hub": "skillsmp",
+  "skill_type": "agent_skill",
+  "owner": "ethereum",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "agent-skills",
+    "utilities",
+    "installs:5857"
+  ],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null,
+  "repo_status": "available",
+  "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
+  "repo_check_error": null
+}

@@ -1,0 +1,24 @@
+{
+  "id": "check-library-f06199a5",
+  "name": "check-library",
+  "description": "ライブラリの情報を確認するためのスキル。Next.js、shadcn、その他のライブラリについて、適切なMCPサーバーを使用して最新のドキュメントと使用方法を取得します。",
+  "repo_url": "https://github.com/getty104/claude-code-marketplace",
+  "source_hub": "skillsmp",
+  "skill_type": "agent_skill",
+  "owner": "getty104",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "agent-skills",
+    "dev-web-frontend",
+    "installs:10"
+  ],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null,
+  "repo_status": "available",
+  "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
+  "repo_check_error": null
+}

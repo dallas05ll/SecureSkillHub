@@ -1,0 +1,24 @@
+{
+  "id": "sdd-6b4a20ad",
+  "name": "sdd",
+  "description": "This skill should be used when users want guidance on Spec-Driven Development methodology using GitHub's Spec-Kit. Guide users through executable specification workflows for both new projects (greenfield) and existing codebases (brownfield). After any SDD command generates artifacts, automatically provide structured 10-point summaries with feature status tracking, enabling natural language feature management and keeping users engaged throughout the process.",
+  "repo_url": "https://github.com/spillwavesolutions/sdd-skill",
+  "source_hub": "skillsmp",
+  "skill_type": "agent_skill",
+  "owner": "spillwavesolutions",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "agent-skills",
+    "utilities",
+    "installs:23"
+  ],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null,
+  "repo_status": "available",
+  "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
+  "repo_check_error": null
+}

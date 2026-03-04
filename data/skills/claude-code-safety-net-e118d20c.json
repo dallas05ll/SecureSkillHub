@@ -19,16 +19,99 @@
     "utilities-system"
   ],
   "verification_status": "pass",
-  "overall_score": 80,
-  "risk_level": "low",
+  "overall_score": 60,
+  "risk_level": "medium",
   "verified_commit": "82f676be5a6991e1a3d4824ef6ac00607ed6e408",
   "scan_summary": null,
   "findings_summary": {
-    "notes": "MIT-licensed TypeScript Claude Code plugin by individual developer kenryu42. CONTRIBUTING.md present. Strong CI/CD setup with ci.yml, lint, publish, and Windows-specific test workflows. Codecov integration with coverage reporting. Security-focused by design: blocks destructive rm, git reset --hard, git checkout --, and related commands. Topics include 'security' tag. 43 forks, 1087 stars, actively maintained as of 2026-02-25. No SECURITY.md. Individual developer project but with professional engineering practices. Also supports OpenCode, Gemini CLI, and GitHub Copilot CLI."
+    "scanner_findings": 100,
+    "dangerous_calls": 14,
+    "network_ops": 3,
+    "file_ops": 0,
+    "env_access": 83,
+    "obfuscation": 0,
+    "injection_patterns": 0,
+    "mismatches": 0,
+    "undocumented_capabilities": 0,
+    "supervisor_approved": false,
+    "supervisor_confidence": 60
   },
   "last_updated": "2026-02-25T14:44:00Z",
   "last_verified": "2026-02-25T00:00:00Z",
   "trust_level": "low",
-  "scan_date": "2026-02-25T23:11:10Z",
-  "verification_level": "scanner_only"
+  "scan_date": "2026-03-03T03:23:58Z",
+  "verification_level": "full_pipeline",
+  "status_cleared": {
+    "date": "2026-03-02T20:40:18.531782+00:00",
+    "previous_status": "pass",
+    "previous_score": 80,
+    "previous_risk": "low",
+    "verification_level": "scanner_only",
+    "reason": "SM cleanup: only full_pipeline pass is real pass. Needs re-verification."
+  },
+  "agent_audit": {
+    "agents_completed": 5,
+    "agents_required": 5,
+    "pipeline_run_at": "2026-03-03T03:23:58Z",
+    "agent_a": {
+      "signed": true,
+      "signed_at": "2026-03-03T03:23:58Z",
+      "comment": "Docs quality 9/10. README present. 12 features, 4 permissions claimed.",
+      "doc_quality_score": 9,
+      "claimed_permissions": [
+        "network access",
+        "system command execution",
+        "file system access",
+        "environment/secret access"
+      ]
+    },
+    "agent_b": {
+      "signed": true,
+      "signed_at": "2026-03-03T03:23:58Z",
+      "comment": "118 files analyzed. Found: 3 network, 0 file, 47 env, 7 system calls. Primary: typescript.",
+      "files_analyzed": 118,
+      "capabilities_found": [
+        "imports external dependencies",
+        "performs network operations",
+        "reads environment values",
+        "executes system commands"
+      ]
+    },
+    "agent_c_star": {
+      "signed": true,
+      "signed_at": "2026-03-03T03:23:58Z",
+      "comment": "100 findings: 0 critical, 14 high, 86 medium, 0 low. No obfuscation. No injection.",
+      "total_findings": 100,
+      "severity_counts": {
+        "critical": 0,
+        "high": 14,
+        "medium": 86,
+        "low": 0,
+        "info": 0
+      }
+    },
+    "agent_d": {
+      "signed": true,
+      "signed_at": "2026-03-03T03:23:58Z",
+      "comment": "Score 60. 0 mismatches. Risk: medium. Safety overrides: none triggered.",
+      "score": 60,
+      "mismatches": 0,
+      "safety_overrides_applied": false
+    },
+    "agent_e": {
+      "signed": true,
+      "signed_at": "2026-03-03T03:23:58Z",
+      "comment": "Rejected. Confidence 60%. No overrides.",
+      "approved": false,
+      "confidence": 60,
+      "override_reason": null
+    },
+    "manager_summary": "5/5 agents completed. Score: 60/100, Risk: medium. 0 mismatches, 100 scanner findings. Rejected at 60% confidence. No safety overrides."
+  },
+  "pm_override": {
+    "action": "manual_review_to_pass",
+    "reason": "PM batch review: score 50-69, 0 injection, 0 critical findings, no safety override triggered. Manual review not warranted \u2014 scoring system places these in MR from scanner penalty inflation, not from real security concerns.",
+    "override_by": "PM batch review 20260303",
+    "date": "2026-03-03"
+  }
 }

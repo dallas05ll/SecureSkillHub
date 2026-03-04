@@ -1,0 +1,24 @@
+{
+  "id": "intent-layer-2ec98686",
+  "name": "intent-layer",
+  "description": "Set up hierarchical Intent Layer (AGENTS.md files) for codebases. Use when initializing a new project, adding context infrastructure to an existing repo, user asks to set up AGENTS.md, add intent layer, make agents understand the codebase, or scaffolding AI-friendly project documentation.",
+  "repo_url": "https://github.com/crafter-station/skills",
+  "source_hub": "skillsmp",
+  "skill_type": "agent_skill",
+  "owner": "crafter-station",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "agent-skills",
+    "dev-devops",
+    "installs:126"
+  ],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null,
+  "repo_status": "available",
+  "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
+  "repo_check_error": null
+}

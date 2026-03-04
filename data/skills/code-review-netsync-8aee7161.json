@@ -1,0 +1,24 @@
+{
+  "id": "code-review-netsync-8aee7161",
+  "name": "code-review-netsync",
+  "description": "Code review skill for the STYLY-NetSync repository (Unity multiplayer framework for LBE XR). Reviews git diff changes against project-specific rules covering Unity C#, Python server, ZeroMQ networking, and binary protocol conventions. Use this skill when the user asks to review code, check changes, do a code review, run /code-review-netsync, or wants feedback on their modifications before committing or merging.",
+  "repo_url": "https://github.com/styly-dev/styly-netsync",
+  "source_hub": "skillsmp",
+  "skill_type": "agent_skill",
+  "owner": "styly-dev",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "agent-skills",
+    "dev-git",
+    "installs:29"
+  ],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null,
+  "repo_status": "available",
+  "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
+  "repo_check_error": null
+}

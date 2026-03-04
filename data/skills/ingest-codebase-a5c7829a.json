@@ -1,0 +1,24 @@
+{
+  "id": "ingest-codebase-a5c7829a",
+  "name": "ingest-codebase",
+  "description": "Guide the creation of a high-quality mental model for a codebase. Use when starting a new mental model, when the model feels incomplete or unclear, or when onboarding to understand a system's architecture. Produces domains, capabilities, aspects, and architectural decisions.",
+  "repo_url": "https://github.com/michaelliv/psst",
+  "source_hub": "skillsmp",
+  "skill_type": "agent_skill",
+  "owner": "michaelliv",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "agent-skills",
+    "utilities",
+    "installs:71"
+  ],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null,
+  "repo_status": "available",
+  "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
+  "repo_check_error": null
+}

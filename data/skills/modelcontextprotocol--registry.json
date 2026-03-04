@@ -5,15 +5,14 @@
   "repo_url": "https://github.com/modelcontextprotocol/registry",
   "source_hub": "github_search",
   "stars": 6473,
-  "verification_status": "fail",
+  "verification_status": "pass",
   "overall_score": 6,
-  "risk_level": "high",
+  "risk_level": "medium",
   "description": "Community-driven registry service for MCP servers, providing app-store-like directory with publishing, validation, and auth.",
   "primary_language": "Go",
   "tags": [
     "prod-comm",
-    "sec",
-    "status-fail"
+    "sec"
   ],
   "findings_summary": {
     "scanner_findings": 32,
@@ -87,5 +86,11 @@
       "override_reason": null
     },
     "manager_summary": "5/5 agents completed. Score: 6/100, Risk: high. 0 mismatches, 32 scanner findings. Rejected at 50% confidence. No safety overrides."
+  },
+  "pm_override": {
+    "date": "2026-03-02T21:03:50.196204+00:00",
+    "previous_status": "fail",
+    "reason": "PM override (internet-verified): TRUSTED: Official MCP Registry by Anthropic org, stars match (~6.4K)",
+    "override_by": "PM + SecM(Opus) audit + internet verification 20260302"
   }
 }

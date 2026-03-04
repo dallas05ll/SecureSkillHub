@@ -1,0 +1,24 @@
+{
+  "id": "zero-skills-5735e8cd",
+  "name": "zero-skills",
+  "description": "Comprehensive knowledge base for go-zero microservices framework.\n\n**Use this skill when:**\n- Building REST APIs with go-zero (Handler → Logic → Model architecture)\n- Creating RPC services with service discovery and load balancing\n- Implementing database operations with sqlx, MongoDB, or Redis caching\n- Adding resilience patterns (circuit breaker, rate limiting, load shedding)\n- Troubleshooting go-zero issues or understanding framework conventions\n- Generating production-ready microservices c...",
+  "repo_url": "https://github.com/zeromicro/zero-skills",
+  "source_hub": "skillsmp",
+  "skill_type": "agent_skill",
+  "owner": "zeromicro",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "agent-skills",
+    "data-db",
+    "installs:41"
+  ],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null,
+  "repo_status": "available",
+  "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
+  "repo_check_error": null
+}

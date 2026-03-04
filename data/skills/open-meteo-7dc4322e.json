@@ -1,0 +1,24 @@
+{
+  "id": "open-meteo-7dc4322e",
+  "name": "open-meteo",
+  "description": "Integrate Open-Meteo's comprehensive suite of weather APIs: Forecast, Historical, Air Quality, Geocoding, Marine, Flood, Elevation, Climate, Seasonal, and Ensemble models. Enables query design, variable selection, timezone/timeformat/units, multi-location batching, and robust error handling. Keywords: Open-Meteo, Forecast, Historical, Air Quality, Geocoding, Marine, Flood, Elevation, Climate, Seasonal, Ensemble, API, weather, MCP.",
+  "repo_url": "https://github.com/cmer81/open-meteo-mcp",
+  "source_hub": "skillsmp",
+  "skill_type": "agent_skill",
+  "owner": "cmer81",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "agent-skills",
+    "utilities",
+    "installs:25"
+  ],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null,
+  "repo_status": "available",
+  "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
+  "repo_check_error": null
+}

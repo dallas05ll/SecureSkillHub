@@ -1,0 +1,24 @@
+{
+  "id": "wg-2f8aa897",
+  "name": "wg",
+  "description": "Use this skill for task coordination with workgraph (wg). Triggers include \"workgraph\", \"wg\", task graphs, multi-step projects, tracking dependencies, coordinating agents, or when you see a .workgraph directory.",
+  "repo_url": "https://github.com/graphwork/workgraph",
+  "source_hub": "skillsmp",
+  "skill_type": "agent_skill",
+  "owner": "graphwork",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "agent-skills",
+    "utilities",
+    "installs:20"
+  ],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null,
+  "repo_status": "available",
+  "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
+  "repo_check_error": null
+}

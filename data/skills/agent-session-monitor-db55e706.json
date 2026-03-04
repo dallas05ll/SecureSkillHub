@@ -1,0 +1,24 @@
+{
+  "id": "agent-session-monitor-db55e706",
+  "name": "agent-session-monitor",
+  "description": "Real-time agent conversation monitoring - monitors Higress access logs, aggregates conversations by session, tracks token usage. Supports web interface for viewing complete conversation history and costs. Use when users ask about current session token consumption, conversation history, or cost statistics.",
+  "repo_url": "https://github.com/alibaba/higress",
+  "source_hub": "skillsmp",
+  "skill_type": "agent_skill",
+  "owner": "alibaba",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "agent-skills",
+    "utilities",
+    "installs:7547"
+  ],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null,
+  "repo_status": "available",
+  "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
+  "repo_check_error": null
+}

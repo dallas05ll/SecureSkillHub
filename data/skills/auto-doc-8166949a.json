@@ -1,0 +1,24 @@
+{
+  "id": "auto-doc-8166949a",
+  "name": "auto-doc",
+  "description": "Automatic codebase documentation maintenance system. Use this skill ALWAYS when making ANY code changes including creating, modifying, deleting, or moving files. Enforces three-tier documentation (root ARCHITECTURE.md, folder INDEX.md, file header comments) that must be updated after every code change to keep documentation synchronized with codebase.",
+  "repo_url": "https://github.com/cl-victor1/claude-code-skills",
+  "source_hub": "skillsmp",
+  "skill_type": "agent_skill",
+  "owner": "cl-victor1",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "agent-skills",
+    "utilities",
+    "installs:9"
+  ],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null,
+  "repo_status": "available",
+  "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
+  "repo_check_error": null
+}

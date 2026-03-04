@@ -1,0 +1,24 @@
+{
+  "id": "flutter-dart-dependency-upgrade-0b82723b",
+  "name": "flutter-dart-dependency-upgrade",
+  "description": "Perform a controlled, maintenance-only upgrade of Flutter and Dart dependencies in a monorepo, including regeneration of code and localizations and reconciliation of iOS/macOS CocoaPods (notably Firebase SDK versions). Intended for manual or scheduled dependency hygiene tasks, not for routine feature development.",
+  "repo_url": "https://github.com/sharezoneapp/sharezone-app",
+  "source_hub": "skillsmp",
+  "skill_type": "agent_skill",
+  "owner": "sharezoneapp",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "agent-skills",
+    "dev-web-fullstack",
+    "installs:308"
+  ],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null,
+  "repo_status": "available",
+  "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
+  "repo_check_error": null
+}

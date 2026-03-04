@@ -1,0 +1,24 @@
+{
+  "id": "calling-1c-rest-api-via-curl-4ba6230e",
+  "name": "calling-1c-rest-api-via-curl",
+  "description": "Access a 1C:Enterprise database through the 1C MCP Toolkit REST API using curl. Provides 8 endpoints under /api/ for querying data (execute_query), exploring metadata (get_metadata), reading event logs (get_event_log), checking access rights (get_access_rights), finding object references (find_references_to_object), navigating objects by link (get_object_by_link, get_link_of_object), and executing 1C code (execute_code). Use when the agent needs to interact with a 1C database via HTTP but doe...",
+  "repo_url": "https://github.com/roctup/1c-mcp-toolkit",
+  "source_hub": "skillsmp",
+  "skill_type": "agent_skill",
+  "owner": "roctup",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "agent-skills",
+    "dev-web-backend",
+    "installs:38"
+  ],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null,
+  "repo_status": "available",
+  "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
+  "repo_check_error": null
+}

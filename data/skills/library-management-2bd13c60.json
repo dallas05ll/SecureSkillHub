@@ -1,0 +1,24 @@
+{
+  "id": "library-management-2bd13c60",
+  "name": "library-management",
+  "description": "Manage the Sandboxed.sh library (skills, agents, commands, tools, rules, MCPs) via Library API tools. Trigger terms: library, skill, agent, command, tool, rule, MCP, save skill, create skill.",
+  "repo_url": "https://github.com/th0rgal/sandboxed.sh",
+  "source_hub": "skillsmp",
+  "skill_type": "agent_skill",
+  "owner": "th0rgal",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "agent-skills",
+    "utilities",
+    "installs:233"
+  ],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null,
+  "repo_status": "available",
+  "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
+  "repo_check_error": null
+}

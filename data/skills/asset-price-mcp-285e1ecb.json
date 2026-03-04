@@ -9,12 +9,11 @@
   "primary_language": "unknown",
   "tags": [
     "repo_unavailable",
-    "status-manual_review",
     "data",
     "data-ai",
-    "sec-crypto"
+    "data-finance"
   ],
-  "verification_status": "manual_review",
+  "verification_status": "unverified",
   "overall_score": 0,
   "risk_level": "high",
   "verified_commit": "",
@@ -27,5 +26,6 @@
     "error": "clone failed: Cloning into '/var/folders/pq/bb71gjzd01d29nnmqrhqr2rc0000gn/T/strict5_asset-price-mcp-285e1ecb_f1fkwl0w/repo'...\nfatal: unable to access 'https://github.com/mk965/Asset Price MCP/': URL rejected: Malformed input to a URL function",
     "supervisor_approved": false,
     "supervisor_confidence": 0
-  }
+  },
+  "skill_type": "mcp_server"
 }

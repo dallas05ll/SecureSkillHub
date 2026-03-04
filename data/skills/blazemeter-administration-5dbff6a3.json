@@ -1,0 +1,24 @@
+{
+  "id": "blazemeter-administration-5dbff6a3",
+  "name": "blazemeter-administration",
+  "description": "Comprehensive guide for BlazeMeter Administration, including workspaces, projects, security, alerts, and team management. Use when working with administration for (1) Managing workspaces and projects, (2) Configuring security settings (SAML SSO, 2FA, API keys), (3) Creating workspace alerts, (4) Managing private locations across workspaces, (5) Creating APM credentials, (6) Managing API Monitoring teams, (7) Configuring AI consent, or any other administration tasks.",
+  "repo_url": "https://github.com/blazemeter/bzm-mcp",
+  "source_hub": "skillsmp",
+  "skill_type": "agent_skill",
+  "owner": "blazemeter",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "agent-skills",
+    "security",
+    "installs:24"
+  ],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null,
+  "repo_status": "available",
+  "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
+  "repo_check_error": null
+}

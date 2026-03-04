@@ -8,11 +8,12 @@
   "stars": 0,
   "primary_language": "unknown",
   "tags": [
-    "repo_unavailable",
     "data",
     "data-ai",
+    "data-ai-rag",
     "data-db",
     "integ",
+    "repo_unavailable",
     "util-search"
   ],
   "verification_status": "unverified",
@@ -22,5 +23,6 @@
   "scan_summary": null,
   "repo_status": "unavailable",
   "repo_check_date": "2026-02-28T20:53:10.905911+00:00",
-  "repo_check_error": "fatal: unable to access 'https://github.com/Matt Gibson/xtended/': URL rejected: Malformed input to a URL function"
+  "repo_check_error": "fatal: unable to access 'https://github.com/Matt Gibson/xtended/': URL rejected: Malformed input to a URL function",
+  "skill_type": "mcp_server"
 }

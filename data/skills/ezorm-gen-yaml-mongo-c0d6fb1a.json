@@ -1,0 +1,24 @@
+{
+  "id": "ezorm-gen-yaml-mongo-c0d6fb1a",
+  "name": "ezorm-gen-yaml-mongo",
+  "description": "Generate Go code from ezorm YAML (mongo). Use when asked to produce Go output from mongo YAML schemas; provide the exact ezorm CLI command(s).",
+  "repo_url": "https://github.com/ezbuy/ezorm",
+  "source_hub": "skillsmp",
+  "skill_type": "agent_skill",
+  "owner": "ezbuy",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "agent-skills",
+    "utilities",
+    "installs:50"
+  ],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null,
+  "repo_status": "available",
+  "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
+  "repo_check_error": null
+}

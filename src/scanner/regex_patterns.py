@@ -136,8 +136,14 @@ OBFUSCATION_HIGH_RISK: list[PatternEntry] = [
     _compile("py_rot13",           r"""codecs\s*\.\s*decode\s*\(.*['\"]rot.?13['"]""", re.IGNORECASE),
     _compile("py_marshal_loads",   r"\bmarshal\s*\.\s*loads\s*\("),
     _compile("py_chr_concat",      r"\bchr\s*\(\s*\d+\s*\)\s*\+\s*chr\s*\("),
-    _compile("js_string_fromCharCode", r"\bString\s*\.\s*fromCharCode\s*\("),
-    _compile("hex_escape_seq",     r"(?:\\x[0-9a-fA-F]{2}){4,}"),
+    # Require numeric literal args — String.fromCharCode(72,101,...) is obfuscation,
+    # but String.fromCharCode(variable) is legitimate. Prevents FP on bundled JS,
+    # MongoDB Atlas TS source, etc. (atlas-mcp-server FP 2026-03-03).
+    _compile("js_string_fromCharCode", r"\bString\s*\.\s*fromCharCode\s*\(\s*\d+\s*,\s*\d+"),
+    # Raised threshold from 4 to 8 consecutive hex escapes to reduce FP on
+    # binary test data (audio headers, crypto vectors). 8+ consecutive hex escapes
+    # strongly signals obfuscation. (minimax FP 2026-03-03).
+    _compile("hex_escape_seq",     r"(?:\\x[0-9a-fA-F]{2}){8,}"),
     _compile("unicode_escape_seq", r"(?:\\u[0-9a-fA-F]{4}){3,}"),
 ]
 
@@ -152,7 +158,9 @@ OBFUSCATION_LOW_RISK: list[PatternEntry] = [
     _compile("js_buffer_from",     r"\bBuffer\s*\.\s*from\s*\(.*['\"](?:base64|hex)['\"]"),
     _compile("js_unescape",        r"\bunescape\s*\("),
     _compile("js_decodeURI",       r"\bdecodeURIComponent\s*\("),
-    _compile("long_base64_literal", r"""['"][A-Za-z0-9+/=]{60,}['"]"""),
+    # Require at least one alphanumeric char — excludes "======" separator strings.
+    # (pilot-shell FP 2026-03-03).
+    _compile("long_base64_literal", r"""['"][A-Za-z0-9+/][A-Za-z0-9+/=]{59,}['"]"""),
 ]
 
 # Combined list for backward compatibility (scanner iterates this)
@@ -166,13 +174,18 @@ INJECTION_PATTERNS: list[PatternEntry] = [
     _compile("system_override",    r"\bSYSTEM\s*:\s*(?:ignore|override|forget|disregard)", re.IGNORECASE),
     _compile("ignore_previous",    r"IGNORE\s+(ALL\s+)?PREVIOUS\s+(INSTRUCTIONS?|PROMPTS?)", re.IGNORECASE),
     _compile("forget_instructions", r"FORGET\s+(YOUR\s+)?(INSTRUCTIONS?|RULES?|GUIDELINES?)", re.IGNORECASE),
-    _compile("you_are_now",        r"YOU\s+ARE\s+NOW\b", re.IGNORECASE),
+    # Require jailbreak role-assignment context — "you are now DAN/unrestricted/etc."
+    # Prevents FP on UI copy like "You are now logged in" (openops FP 2026-03-03).
+    _compile("you_are_now",        r"YOU\s+ARE\s+NOW\s+(?:a\s+)?(?:DAN|unrestricted|unfiltered|jailbroken|an?\s+AI\s+without)", re.IGNORECASE),
     _compile("act_as",             r"\bACT\s+AS\s+(?:a\s+)?(?:DAN|unrestricted|unfiltered|jailbroken)", re.IGNORECASE),
     _compile("pretend_to_be",      r"\bPRETEND\s+(?:TO\s+BE|YOU\s+ARE)\s+(?:a\s+)?(?:DAN|unrestricted|unfiltered|jailbroken)", re.IGNORECASE),
     _compile("disregard",          r"\bDISREGARD\s+(ALL\s+)?(PREVIOUS|PRIOR|ABOVE)\b", re.IGNORECASE),
     _compile("new_instructions",   r"\bNEW\s+INSTRUCTIONS?\s*:", re.IGNORECASE),
     _compile("override_role",      r"\bOVERRIDE\s+(ROLE|MODE|SYSTEM)\b", re.IGNORECASE),
-    _compile("jailbreak",          r"\b(JAILBREAK|DAN\s+MODE)\b", re.IGNORECASE),
+    # Require imperative/instructional context — matches "enable JAILBREAK mode" or
+    # "activate DAN MODE" but not "detect JAILBREAK patterns" or "scan for JAILBREAK".
+    # Prevents FP on security scanner source code (agentic-radar FP 2026-03-03).
+    _compile("jailbreak",          r"(?:enable|activate|enter|start|use|switch\s+to|engage)\s+(?:JAILBREAK|DAN\s+MODE)\b", re.IGNORECASE),
     _compile("do_anything_now",    r"\bDO\s+ANYTHING\s+NOW\b", re.IGNORECASE),
     _compile("ignore_safety",      r"\bIGNORE\s+(SAFETY|RESTRICTIONS?|FILTERS?|GUARDRAILS?)\b", re.IGNORECASE),
     _compile("roleplay_escape",    r"\b(END|EXIT|LEAVE)\s+(ROLEPLAY|CHARACTER|SIMULATION)\b", re.IGNORECASE),

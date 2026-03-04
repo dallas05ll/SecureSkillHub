@@ -1,0 +1,24 @@
+{
+  "id": "mbt-wasip1-tools-c9c6305d",
+  "name": "mbt-wasip1-tools",
+  "description": "Build small MoonBit WASIp1 CLI tools using the peter-jerry-ye/wasi library, focused on simple read/write tasks (echo, cat, wc, simple file ops). Use when creating or updating CLI examples, scripts, or skills for this repo.",
+  "repo_url": "https://github.com/moonbit-community/wasip1",
+  "source_hub": "skillsmp",
+  "skill_type": "agent_skill",
+  "owner": "moonbit-community",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "agent-skills",
+    "utilities",
+    "installs:11"
+  ],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null,
+  "repo_status": "available",
+  "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
+  "repo_check_error": null
+}

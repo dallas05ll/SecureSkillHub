@@ -1,0 +1,24 @@
+{
+  "id": "electron-chromium-upgrade-1a936deb",
+  "name": "electron-chromium-upgrade",
+  "description": "Guide for performing Chromium version upgrades in the Electron project. Use when working on the roller/chromium/main branch to fix patch conflicts during `e sync --3`. Covers the patch application workflow, conflict resolution, analyzing upstream Chromium changes, and proper commit formatting for patch fixes.",
+  "repo_url": "https://github.com/electron/electron",
+  "source_hub": "skillsmp",
+  "skill_type": "agent_skill",
+  "owner": "electron",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "agent-skills",
+    "dev-git",
+    "installs:120137"
+  ],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null,
+  "repo_status": "available",
+  "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
+  "repo_check_error": null
+}

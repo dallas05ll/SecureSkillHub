@@ -1,0 +1,24 @@
+{
+  "id": "marathon-ralph-dc1435e6",
+  "name": "marathon-ralph",
+  "description": "Autonomous long-running development from specifications. Use when user wants to build an application from a spec file, run continuous development, or automate feature implementation. Triggers on phrases like \"marathon this\", \"build from spec\", \"autonomous development\", \"keep coding until done\".",
+  "repo_url": "https://github.com/gruckion/marathon-ralph",
+  "source_hub": "skillsmp",
+  "skill_type": "agent_skill",
+  "owner": "gruckion",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "agent-skills",
+    "dev-testing",
+    "installs:13"
+  ],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null,
+  "repo_status": "available",
+  "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
+  "repo_check_error": null
+}

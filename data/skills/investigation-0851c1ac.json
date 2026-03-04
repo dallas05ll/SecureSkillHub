@@ -1,0 +1,24 @@
+{
+  "id": "investigation-0851c1ac",
+  "name": "investigation",
+  "description": "Scaffolds a structured investigation in scratch/ for empirical research and documentation. Use when the user says \"start an investigation\" or wants to: trace code paths or data flow (\"trace from X to Y\", \"what touches X\", \"follow the wiring\"), document system architecture comprehensively (\"document how the system works\", \"archeology\"), investigate bugs (\"figure out why X happens\"), explore technical feasibility (\"can we do X?\"), or explore design options (\"explore the API\", \"gather context\", ...",
+  "repo_url": "https://github.com/talmolab/sleap",
+  "source_hub": "skillsmp",
+  "skill_type": "agent_skill",
+  "owner": "talmolab",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "agent-skills",
+    "utilities",
+    "installs:555"
+  ],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null,
+  "repo_status": "available",
+  "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
+  "repo_check_error": null
+}

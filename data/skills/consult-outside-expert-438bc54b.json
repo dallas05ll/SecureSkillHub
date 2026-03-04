@@ -1,0 +1,24 @@
+{
+  "id": "consult-outside-expert-438bc54b",
+  "name": "consult-outside-expert",
+  "description": "Get a second opinion via Codex MCP. Use for stress-testing ideas, getting fresh perspective,\nsteelmanning arguments, or iteratively refining work through expert back-and-forth.\nInvoke for ANY request involving external review, feedback, or consultation.",
+  "repo_url": "https://github.com/basecamp/skills",
+  "source_hub": "skillsmp",
+  "skill_type": "agent_skill",
+  "owner": "basecamp",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "agent-skills",
+    "dev-testing",
+    "installs:30"
+  ],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null,
+  "repo_status": "available",
+  "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
+  "repo_check_error": null
+}

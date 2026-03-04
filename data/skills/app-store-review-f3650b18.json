@@ -1,0 +1,24 @@
+{
+  "id": "app-store-review-f3650b18",
+  "name": "app-store-review",
+  "description": "Evaluates code against Apple's App Store Review Guidelines. Use this skill when reviewing iOS, macOS, tvOS, watchOS, or visionOS app code (Swift, Objective-C, React Native, or Expo) to identify potential App Store rejection issues before submission. Triggers on tasks involving app review preparation, compliance checking, or App Store submission readiness.",
+  "repo_url": "https://github.com/safaiyeh/app-store-review-skill",
+  "source_hub": "skillsmp",
+  "skill_type": "agent_skill",
+  "owner": "safaiyeh",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "agent-skills",
+    "dev-web-frontend",
+    "installs:31"
+  ],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null,
+  "repo_status": "available",
+  "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
+  "repo_check_error": null
+}

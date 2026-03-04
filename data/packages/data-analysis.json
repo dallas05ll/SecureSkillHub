@@ -1,0 +1,71 @@
+{
+  "tag_path": "data-analysis",
+  "label": "General Data Analysis Package",
+  "description": "Top 4 verified data analysis skills, auto-curated by GitHub stars and security score.",
+  "skill_ids": [
+    "scientific-thinking-analysis-be07c652",
+    "mcp-echarts-6aa7cc1c",
+    "matlab-mcp-server-5862a207",
+    "raffle-winner-picker-ca6de31f"
+  ],
+  "skills": [
+    {
+      "id": "scientific-thinking-analysis-be07c652",
+      "name": "Scientific Thinking & Analysis",
+      "description": "A comprehensive collection of 147+ ready-to-use scientific and research skills for AI agents (Claude Code, Cursor, Codex). Covers biology, chemistry, medicine, bioinformatics, drug discovery, proteomi",
+      "repo_url": "https://github.com/K-Dense-AI/claude-scientific-skills",
+      "stars": 9302,
+      "overall_score": 85,
+      "verification_status": "pass",
+      "risk_level": "high",
+      "primary_language": "python",
+      "install_url": "https://github.com/K-Dense-AI/claude-scientific-skills",
+      "skill_type": "agent_skill"
+    },
+    {
+      "id": "mcp-echarts-6aa7cc1c",
+      "name": "mcp-echarts",
+      "description": "Generate  Apache ECharts diagram and chart with AI MCP dynamically. Using for chart generation and data analysis.\n\n\u2728 Features\n\n- Fully support all features and syntax of ECharts, include data, style, ",
+      "repo_url": "https://github.com/hustcc/mcp-echarts",
+      "stars": 209,
+      "overall_score": 50,
+      "verification_status": "manual_review",
+      "risk_level": "medium",
+      "primary_language": "unknown",
+      "install_url": "https://github.com/hustcc/mcp-echarts",
+      "skill_type": "unknown"
+    },
+    {
+      "id": "matlab-mcp-server-5862a207",
+      "name": "matlab-mcp-server",
+      "description": "The MATLAB MCP server provides AI users with powerful scientific computing and data analysis capabilities. It allows users to execute MATLAB code directly in conversations, generate MATLAB scripts fro",
+      "repo_url": "https://github.com/WilliamCloudQi/matlab-mcp-server",
+      "stars": 53,
+      "overall_score": 85,
+      "verification_status": "pass",
+      "risk_level": "medium",
+      "primary_language": "typescript",
+      "install_url": "https://github.com/WilliamCloudQi/matlab-mcp-server",
+      "skill_type": "unknown"
+    },
+    {
+      "id": "raffle-winner-picker-ca6de31f",
+      "name": "Raffle Winner Picker",
+      "description": "Randomly selects winners from lists, spreadsheets, or Google Sheets for giveaways and contests",
+      "repo_url": "https://github.com/ComposioHQ/awesome-claude-skills/tree/master/raffle-winner-picker",
+      "stars": 0,
+      "overall_score": 68,
+      "verification_status": "manual_review",
+      "risk_level": "medium",
+      "primary_language": "markdown",
+      "install_url": "https://github.com/ComposioHQ/awesome-claude-skills/tree/master/raffle-winner-picker",
+      "skill_type": "agent_skill"
+    }
+  ],
+  "total_skills": 4,
+  "total_candidates": 4,
+  "avg_score": 72.0,
+  "min_score": 50,
+  "top_stars": 9302,
+  "generated_at": "2026-03-02T22:27:24Z"
+}

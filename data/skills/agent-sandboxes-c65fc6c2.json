@@ -1,0 +1,24 @@
+{
+  "id": "agent-sandboxes-c65fc6c2",
+  "name": "agent-sandboxes",
+  "description": "Advanced E2B sandbox operations via CLI (sbx). Use for full-stack app development in sandboxes, browser automation/UI testing, multi-agent parallel execution, hosting web apps with public URLs, and complex workflows (plan → build → host → test). Prefer over e2b-sandbox when needing CLI-based operations, browser validation, or full-stack workflows. Keywords: sandbox cli, e2b advanced, browser testing, host frontend, full-stack sandbox, sbx command, parallel agents, UI validation.",
+  "repo_url": "https://github.com/spec-board/spec-board",
+  "source_hub": "skillsmp",
+  "skill_type": "agent_skill",
+  "owner": "spec-board",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "agent-skills",
+    "dev-web-frontend",
+    "installs:9"
+  ],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null,
+  "repo_status": "available",
+  "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
+  "repo_check_error": null
+}

@@ -1,0 +1,24 @@
+{
+  "id": "remote-training-2d6aeab6",
+  "name": "remote-training",
+  "description": "Manages remote training infrastructure on Nebius VMs. Use for building/pushing Docker images, starting/stopping VM machines (train, train2, train3), running training jobs, dataset generation, and starting inference servers.",
+  "repo_url": "https://github.com/positronic-robotics/positronic",
+  "source_hub": "skillsmp",
+  "skill_type": "agent_skill",
+  "owner": "positronic-robotics",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "agent-skills",
+    "dev-devops",
+    "installs:60"
+  ],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null,
+  "repo_status": "available",
+  "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
+  "repo_check_error": null
+}

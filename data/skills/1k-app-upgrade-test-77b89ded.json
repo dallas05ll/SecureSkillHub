@@ -1,0 +1,24 @@
+{
+  "id": "1k-app-upgrade-test-77b89ded",
+  "name": "1k-app-upgrade-test",
+  "description": "Create test versions to verify app auto-update functionality and version migration.",
+  "repo_url": "https://github.com/onekeyhq/app-monorepo",
+  "source_hub": "skillsmp",
+  "skill_type": "agent_skill",
+  "owner": "onekeyhq",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "agent-skills",
+    "dev-web-fullstack",
+    "installs:2301"
+  ],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null,
+  "repo_status": "available",
+  "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
+  "repo_check_error": null
+}

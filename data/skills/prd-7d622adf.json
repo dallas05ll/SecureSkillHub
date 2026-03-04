@@ -1,0 +1,24 @@
+{
+  "id": "prd-7d622adf",
+  "name": "prd",
+  "description": "Generate Product Requirements Documents (PRDs) in Markdown format. Use when users want to create a PRD, spec out a feature, document requirements, or plan new functionality. Triggers on requests like \"create a PRD\", \"write requirements for\", \"spec out this feature\", or \"document this feature idea\".",
+  "repo_url": "https://github.com/adawalli/nexus",
+  "source_hub": "skillsmp",
+  "skill_type": "agent_skill",
+  "owner": "adawalli",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "agent-skills",
+    "utilities",
+    "installs:19"
+  ],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null,
+  "repo_status": "available",
+  "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
+  "repo_check_error": null
+}

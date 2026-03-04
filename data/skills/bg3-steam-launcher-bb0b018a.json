@@ -1,0 +1,24 @@
+{
+  "id": "bg3-steam-launcher-bb0b018a",
+  "name": "bg3-steam-launcher",
+  "description": "Launch Baldur's Gate 3 through Steam on macOS and load saved games using macos-automator and peekaboo MCP servers.\nDesigned for testing bg3se-macos (Script Extender) development.\nUse when: (1) launching BG3 from Steam, (2) loading a BG3 saved game, (3) testing SE mod injection,\n(4) user asks to \"start BG3\", \"load my BG3 save\", \"play Baldur's Gate\", \"test the script extender\".\nRequires macos-automator and peekaboo MCP servers installed with accessibility permissions.",
+  "repo_url": "https://github.com/tdimino/bg3se-macos",
+  "source_hub": "skillsmp",
+  "skill_type": "agent_skill",
+  "owner": "tdimino",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "agent-skills",
+    "dev-testing",
+    "installs:24"
+  ],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null,
+  "repo_status": "available",
+  "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
+  "repo_check_error": null
+}

@@ -9,13 +9,12 @@
   "primary_language": "unknown",
   "tags": [
     "repo_unavailable",
-    "status-manual_review",
     "data-ai",
     "dev-desktop",
     "dev-web-frontend-angular",
     "util"
   ],
-  "verification_status": "manual_review",
+  "verification_status": "unverified",
   "overall_score": 0,
   "risk_level": "high",
   "verified_commit": "",
@@ -28,5 +27,6 @@
     "error": "clone failed: Cloning into '/var/folders/pq/bb71gjzd01d29nnmqrhqr2rc0000gn/T/strict5_benbox-2b4a7e7b_brhhw7px/repo'...\nfatal: could not read Username for 'https://github.com': Device not configured",
     "supervisor_approved": false,
     "supervisor_confidence": 0
-  }
+  },
+  "skill_type": "mcp_server"
 }

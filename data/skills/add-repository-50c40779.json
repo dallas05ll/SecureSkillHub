@@ -1,0 +1,24 @@
+{
+  "id": "add-repository-50c40779",
+  "name": "add-repository",
+  "description": "Add a new Git repository to the message registry for automatic message type loading. Use when the user wants to support message types from a new ROS2 repository, or when adding support for a new message package.",
+  "repo_url": "https://github.com/robotis-git/zenoh_ros2_sdk",
+  "source_hub": "skillsmp",
+  "skill_type": "agent_skill",
+  "owner": "robotis-git",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "agent-skills",
+    "utilities",
+    "installs:10"
+  ],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null,
+  "repo_status": "available",
+  "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
+  "repo_check_error": null
+}

@@ -1,0 +1,24 @@
+{
+  "id": "civ-grounded-development-fd8d1bd6",
+  "name": "civ-grounded-development",
+  "description": "Systematic grounding workflow for this civ-game repository. Use when handling any feature, bugfix, refactor, balancing change, UI update, or architecture adjustment in this repo. Force a \"read-first, understand-first\" process covering project architecture, gameplay logic, economic mechanisms, and numeric systems before implementation. Reuse existing systems by default; if a new subsystem is truly unavoidable, notify the user first and wait for confirmation.",
+  "repo_url": "https://github.com/hkingauditore/civ-game",
+  "source_hub": "skillsmp",
+  "skill_type": "agent_skill",
+  "owner": "hkingauditore",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "agent-skills",
+    "utilities",
+    "installs:13"
+  ],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null,
+  "repo_status": "available",
+  "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
+  "repo_check_error": null
+}

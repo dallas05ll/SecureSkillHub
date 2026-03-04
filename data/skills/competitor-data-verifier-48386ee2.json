@@ -1,0 +1,24 @@
+{
+  "id": "competitor-data-verifier-48386ee2",
+  "name": "competitor-data-verifier",
+  "description": "Verify and update competitor product data by scraping competitor websites using WebFetch/WebSearch. Use when the user asks to verify, check, or update competitor information in competitorData files (like amplitude.tsx, mixpanel.tsx), or when they want to ensure competitor feature data is accurate and current. This skill systematically checks product features, pricing, platform details, and generates update recommendations with source URLs for verification.",
+  "repo_url": "https://github.com/posthog/posthog.com",
+  "source_hub": "skillsmp",
+  "skill_type": "agent_skill",
+  "owner": "posthog",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "agent-skills",
+    "utilities",
+    "installs:934"
+  ],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null,
+  "repo_status": "available",
+  "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
+  "repo_check_error": null
+}

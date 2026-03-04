@@ -1,0 +1,24 @@
+{
+  "id": "codestyle-a60c2bf2",
+  "name": "codestyle",
+  "description": "Check code style compliance. Use when asked to validate code style, check naming conventions, review comments quality, or ensure file naming follows conventions. Works on whole codebase or specific changes (branch, PR, uncommitted).",
+  "repo_url": "https://github.com/vasylenko/claude-desktop-extension-bear-notes",
+  "source_hub": "skillsmp",
+  "skill_type": "agent_skill",
+  "owner": "vasylenko",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "agent-skills",
+    "dev-git",
+    "installs:86"
+  ],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null,
+  "repo_status": "available",
+  "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
+  "repo_check_error": null
+}

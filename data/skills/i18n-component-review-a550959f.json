@@ -1,0 +1,24 @@
+{
+  "id": "i18n-component-review-a550959f",
+  "name": "i18n-component-review",
+  "description": "Review Svelte components and pages for i18n compliance. Ensures user-facing strings use translation keys via $_() or T component, keys exist in en.json, and keys are translated in all 15 locale files. Use when reviewing components for i18n, adding new UI strings, or when the user asks to check or fix i18n.",
+  "repo_url": "https://github.com/betterseqta/desqta",
+  "source_hub": "skillsmp",
+  "skill_type": "agent_skill",
+  "owner": "betterseqta",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "agent-skills",
+    "dev-web-frontend",
+    "installs:14"
+  ],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null,
+  "repo_status": "available",
+  "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
+  "repo_check_error": null
+}

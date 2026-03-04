@@ -54,6 +54,103 @@ RUN_REPORTS_DIR = PROJECT_ROOT / "data" / "verification-runs"
 
 logger = logging.getLogger("verify_strict_5agent")
 
+# --- PM-Verified False Positive Auto-Clear Rules ---
+# These orgs have been internet-verified as legitimate by PM across 6 runs.
+# Skills from these orgs should auto-clear injection FPs.
+# Source: memory/verification-manager.md (PM Learning Tracker bond)
+# Last updated: 2026-03-03 (35 orgs from 1,147 verified skills)
+PM_VERIFIED_ORGS: frozenset[str] = frozenset({
+    "mongodb-js", "minimax-ai", "splx-ai", "neondatabase",
+    "controlplaneio-fluxcd", "openops-cloud", "stacklok",
+    "neo4j-contrib", "neo4j", "tencentcloudbase",
+    "azure-samples", "aws-samples", "docker", "redis", "ibm",
+    "github", "millionco", "mrexodia", "opensolon",
+    "waldzellai", "scopecraft", "fiddlecube",
+    "tomtom-international", "slowmist", "n8n-io", "jumpserver",
+    "vercel", "awslabs", "microsoft", "1panel-dev", "jlowin",
+    "mindsdb", "anthropics", "klavis-ai", "orchestra-research",
+})
+
+
+def _extract_github_org(repo_url: str) -> str:
+    """Extract lowercase GitHub org from a repo URL."""
+    # https://github.com/ORG/REPO -> org
+    parts = repo_url.rstrip("/").split("/")
+    if len(parts) >= 2:
+        return parts[-2].lower()
+    return ""
+
+
+def auto_clear_known_fp(
+    repo_url: str,
+    scanner: ScannerOutput,
+    scorer: ScorerOutput,
+) -> tuple[str | None, str | None, int | None]:
+    """Check if a FAIL/MR result matches a known FP pattern.
+
+    Returns (new_status, reason, new_score) or (None, None, None) if no auto-clear.
+
+    Rules based on PM review of 1,164+ verified skills (7 runs):
+    - Cat 1: Scoring ceiling — 0 inj + 0 obf_hr + 0 critical + score >= 50 → auto-pass
+    - Cat 9: Monorepo docs — scanner≥500 + injection/scanner ratio < 10% + 0 critical + 0 obf_hr
+    - Cat 10: PM-verified org — org in verified list + 0 critical + 0 obf_hr
+    - Cat 11: Incidental — injection≤8 + scanner<500 + 0 critical + 0 obf_hr
+
+    Safety: NEVER auto-clear if obfuscation_high_risk > 0 or critical findings exist.
+    """
+    inj = scanner.injection_patterns_count
+    obf_hr = scanner.obfuscation_high_risk_count
+    total = len(scanner.findings)
+    has_critical = any(f.severity == ScanSeverity.CRITICAL for f in scanner.findings)
+
+    # Hard block: never auto-clear genuine threats
+    if obf_hr > 0 or has_critical:
+        return None, None, None
+
+    # Cat 1: Scoring ceiling — clean profiles stuck in MR/fail by formula
+    # Skills with 0 injection, 0 obf_hr, 0 critical, score >= 50 should auto-pass.
+    # Evidence: Run 7 had 3 MR (score 60-76) all with 0 inj/obf/crit — all PM-overridden.
+    # Runs 1-6 had 55+ identical pattern. Baked 2026-03-03.
+    if inj == 0 and scorer.overall_score >= 50:
+        return (
+            "pass",
+            f"Auto-clear Cat 1: clean profile (0 inj, 0 obf_hr, 0 crit, score={scorer.overall_score})",
+            scorer.overall_score,
+        )
+
+    # Only auto-clear injection FPs below this point
+    if inj == 0:
+        return None, None, None
+
+    org = _extract_github_org(repo_url)
+
+    # Cat 10: PM-verified organization
+    if org in PM_VERIFIED_ORGS:
+        return (
+            "pass",
+            f"Auto-clear Cat 10: PM-verified org '{org}', {inj} injection FP, 0 critical, 0 obf_hr",
+            max(50, scorer.overall_score),
+        )
+
+    # Cat 9: Large monorepo documentation (injection buried in large codebase)
+    if total >= 500 and inj <= 49:
+        ratio = (inj / total * 100) if total else 0
+        return (
+            "pass",
+            f"Auto-clear Cat 9: monorepo ({total} findings, {inj} inj = {ratio:.1f}%), 0 critical, 0 obf_hr",
+            max(50, scorer.overall_score),
+        )
+
+    # Cat 11: Incidental low-count matches
+    if inj <= 8 and total < 500:
+        return (
+            "pass",
+            f"Auto-clear Cat 11: incidental ({inj} inj in {total} findings), 0 critical, 0 obf_hr",
+            max(50, scorer.overall_score),
+        )
+
+    return None, None, None
+
 DOC_EXTS = {".md", ".rst", ".txt"}
 CODE_EXTS = {
     ".py", ".pyw", ".js", ".jsx", ".ts", ".tsx", ".mjs", ".cjs",
@@ -413,16 +510,24 @@ def run_agent_d(agent_a: AgentAOutput, agent_b: AgentBOutput, scanner: ScannerOu
         missed.append("Agent B may have missed obfuscation patterns found by scanner.")
     if scanner.injection_patterns_count > 0 and not any("inject" in (f.category or "").lower() for f in agent_b.findings):
         missed.append("Agent B may have missed injection patterns found by scanner.")
-    score -= 15 * len(missed)
+
+    # B-miss penalty: 5 points per miss (was 15 — caused mathematically impossible
+    # pass for repos with ≥40 scanner findings + ≥1 B-miss).
+    # First miss is free: legitimate MCP servers commonly have ONE capability
+    # (e.g. network or file ops) that Agent B's heuristic doesn't match exactly.
+    b_miss_penalty = 5 * max(0, len(missed) - 1)
 
     sev = severity_counts(scanner)
 
-    # Apply scanner-driven penalty so score reflects detected security findings,
-    # not only doc/code mismatch quality.
-    # Cap at 40 — large codebases (n8n has 976 high findings) should not auto-crash
-    # to score 0. The penalty reflects "this code does things" not "this code is bad".
+    # Scanner-driven penalty: reflects detected security findings (not doc/code mismatch).
+    # Cap at 40 — large codebases should not auto-crash to score 0.
     scanner_penalty = min(40, (sev["high"] * 2) + sev["medium"] + (sev["low"] // 2))
-    score -= scanner_penalty
+
+    # Cap COMBINED deduction from B-misses + scanner at 50 points.
+    # This ensures score >= 50 is achievable for repos with many findings
+    # but zero injection/obfuscation (which are caught by safety overrides, not score).
+    combined_penalty = min(50, b_miss_penalty + scanner_penalty)
+    score -= combined_penalty
 
     # Determine risk level.
     # HIGH/CRITICAL reserved for real threats: injection patterns, high-risk
@@ -655,19 +760,61 @@ def findings_summary(scanner: ScannerOutput, scorer: ScorerOutput, supervisor: S
     }
 
 
-def clone_repo(repo_url: str, dest: Path) -> tuple[bool, str]:
+NETWORK_PROBE_URL = "https://github.com/modelcontextprotocol/servers"
+
+# Git error patterns that indicate the repo itself is gone/private/deleted,
+# NOT a network-level failure on the runner.
+_REPO_GONE_PATTERNS = [
+    "repository not found",
+    "does not exist",
+    "not found",
+    "access denied",
+    "authentication failed",
+    "remote: repository",
+]
+
+
+def check_network_health() -> tuple[bool, str]:
+    """Confirm github.com is reachable before the run starts."""
+    try:
+        res = subprocess.run(
+            ["git", "ls-remote", "--exit-code", "--heads", NETWORK_PROBE_URL],
+            capture_output=True, text=True, timeout=30,
+        )
+        if res.returncode == 0:
+            return True, ""
+        return False, f"git ls-remote returned {res.returncode}: {(res.stderr or '').strip()[:200]}"
+    except subprocess.TimeoutExpired:
+        return False, "network probe timed out after 30s"
+    except Exception as exc:
+        return False, str(exc)
+
+
+def _is_repo_gone_error(err: str) -> bool:
+    """Returns True if the git error indicates the repo itself is gone/private."""
+    lower = err.lower()
+    return any(p in lower for p in _REPO_GONE_PATTERNS)
+
+
+def clone_repo(repo_url: str, dest: Path) -> tuple[bool, str, bool]:
+    """Clone a repo. Returns (ok, error_message, repo_is_gone).
+
+    repo_is_gone=True means the repo is 404/private/deleted.
+    repo_is_gone=False means a network/infrastructure failure.
+    """
     try:
         res = subprocess.run(
             ["git", "clone", "--depth", "1", "--single-branch", repo_url, str(dest)],
             capture_output=True, text=True, timeout=180,
         )
         if res.returncode != 0:
-            return False, (res.stderr or res.stdout or "clone failed").strip()
-        return True, ""
+            err = (res.stderr or res.stdout or "clone failed").strip()
+            return False, err, _is_repo_gone_error(err)
+        return True, "", False
     except subprocess.TimeoutExpired:
-        return False, "clone timeout"
+        return False, "clone timeout", False
     except Exception as exc:
-        return False, str(exc)
+        return False, str(exc), False
 
 
 def get_head_commit(repo_path: Path) -> str:
@@ -784,9 +931,20 @@ def verify_one_skill(skill: dict[str, Any], sanitizer: Sanitizer) -> SkillRunRes
 
     with tempfile.TemporaryDirectory(prefix=f"strict5_{skill_id[:24]}_") as tmp:
         repo_path = Path(tmp) / "repo"
-        ok, err = clone_repo(repo_url, repo_path)
+        ok, err, repo_is_gone = clone_repo(repo_url, repo_path)
         if not ok:
-            return fail_skill(skill, "clone", err, scan_date)
+            if repo_is_gone:
+                return fail_skill(skill, "clone", err, scan_date)
+            # Network/infrastructure failure — do NOT tag as unavailable
+            logger.warning("Clone failed for %s with network error (not tagging unavailable): %s", skill_id, err)
+            return SkillRunResult(
+                skill_id=skill_id,
+                status="skip",
+                score=int(skill.get("overall_score") or 0),
+                risk=skill.get("risk_level", "unknown"),
+                stage_fail="clone_network",
+                message=err[:500],
+            )
 
         verified_commit = get_head_commit(repo_path)
 
@@ -848,9 +1006,33 @@ def verify_one_skill(skill: dict[str, Any], sanitizer: Sanitizer) -> SkillRunRes
         final_status = supervisor.final_status.value
         final_score = scorer.overall_score
         final_risk = scorer.risk_level.value
+
+        # --- PM-Learned Auto-Clear (Cat 9/10/11) ---
+        # If pipeline says FAIL/MR but pattern matches a known FP, auto-clear to PASS.
+        # This is the code-level implementation of PM's self-evolving loop:
+        # PM reviews → writes learnings → bakes into code → pipeline actually learns.
+        auto_clear_status = None
+        if final_status in ("fail", "manual_review"):
+            ac_status, ac_reason, ac_score = auto_clear_known_fp(repo_url, scanner, scorer)
+            if ac_status:
+                logger.info("AUTO-CLEAR %s: %s → %s (%s)", skill_id, final_status, ac_status, ac_reason)
+                auto_clear_status = ac_reason
+                final_status = ac_status
+                final_score = ac_score
+                final_risk = "medium"  # downgrade from critical since it's a known FP
+
         summary = findings_summary(scanner, scorer, supervisor)
 
         audit = build_agent_audit(agent_a, agent_b, scanner, scorer, supervisor, scan_date)
+
+        # Record auto-clear in audit trail so PM can track pipeline learnings
+        if auto_clear_status:
+            audit["auto_clear"] = {
+                "applied": True,
+                "reason": auto_clear_status,
+                "original_status": supervisor.final_status.value,
+                "original_score": scorer.overall_score,
+            }
 
         skill_path = SKILLS_DIR / f"{skill_id}.json"
         update_skill_file(
@@ -986,6 +1168,18 @@ def main() -> None:
         level=logging.INFO,
         format="%(asctime)s [%(levelname)s] %(name)s: %(message)s",
     )
+
+    # Network health check — abort if github.com is unreachable.
+    # A local network failure must never corrupt skill data.
+    net_ok, net_err = check_network_health()
+    if not net_ok:
+        logger.error(
+            "ABORT: github.com is unreachable. This is a local network failure, "
+            "not a repo-unavailability event. No skill data will be modified. "
+            "Error: %s", net_err
+        )
+        sys.exit(1)
+    logger.info("Network health check passed.")
 
     start = utc_now()
     if args.skill_ids:

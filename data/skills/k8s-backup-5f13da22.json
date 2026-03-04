@@ -1,0 +1,24 @@
+{
+  "id": "k8s-backup-5f13da22",
+  "name": "k8s-backup",
+  "description": "Kubernetes backup and restore with Velero. Use when creating backups, restoring applications, managing disaster recovery, or migrating workloads between clusters.",
+  "repo_url": "https://github.com/rohitg00/kubectl-mcp-server",
+  "source_hub": "skillsmp",
+  "skill_type": "agent_skill",
+  "owner": "rohitg00",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "agent-skills",
+    "dev-devops",
+    "installs:821"
+  ],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null,
+  "repo_status": "available",
+  "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
+  "repo_check_error": null
+}

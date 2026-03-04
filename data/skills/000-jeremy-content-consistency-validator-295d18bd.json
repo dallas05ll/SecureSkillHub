@@ -1,0 +1,24 @@
+{
+  "id": "000-jeremy-content-consistency-validator-295d18bd",
+  "name": "000-jeremy-content-consistency-validator",
+  "description": "Validates messaging consistency across website, GitHub repositories, and local documentation. Generates comprehensive read-only discrepancy reports showing where messaging conflicts or inconsistencies exist. Activates when user mentions \"consistency check\", \"validate documentation\", \"check for mixed messaging\", \"audit content consistency\", or before updating internal paperwork.",
+  "repo_url": "https://github.com/jeremylongshore/claude-code-plugins-plus-skills",
+  "source_hub": "skillsmp",
+  "skill_type": "agent_skill",
+  "owner": "jeremylongshore",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "agent-skills",
+    "utilities",
+    "installs:1381"
+  ],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null,
+  "repo_status": "available",
+  "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
+  "repo_check_error": null
+}

@@ -1,0 +1,24 @@
+{
+  "id": "content-extract-de738cf3",
+  "name": "content-extract",
+  "description": "Robust URL-to-Markdown extraction for OpenClaw workflows. Use when the user wants to \"extract/summarize/convert a webpage to markdown\" (especially WeChat mp.weixin.qq.com) and web_fetch/browser is blocked or messy. Uses a cheap probe via web_fetch first, then falls back to the official MinerU API (via the local mineru-extract skill) and returns a traceable result contract with source links.",
+  "repo_url": "https://github.com/blessonism/openclaw-search-skills",
+  "source_hub": "skillsmp",
+  "skill_type": "agent_skill",
+  "owner": "blessonism",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "agent-skills",
+    "utilities",
+    "installs:38"
+  ],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null,
+  "repo_status": "available",
+  "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
+  "repo_check_error": null
+}

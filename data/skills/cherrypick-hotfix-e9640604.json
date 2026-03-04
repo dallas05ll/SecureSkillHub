@@ -1,0 +1,24 @@
+{
+  "id": "cherrypick-hotfix-e9640604",
+  "name": "cherrypick-hotfix",
+  "description": "Cherry-pick hotfix commits from production to develop. Use when a hotfix was pushed directly to production and needs to be backported to develop branch.",
+  "repo_url": "https://github.com/eduhub-org/eduhub",
+  "source_hub": "skillsmp",
+  "skill_type": "agent_skill",
+  "owner": "eduhub-org",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "agent-skills",
+    "dev-git",
+    "installs:12"
+  ],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null,
+  "repo_status": "available",
+  "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
+  "repo_check_error": null
+}

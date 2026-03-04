@@ -1,0 +1,24 @@
+{
+  "id": "github-assistant-9c13c251",
+  "name": "github-assistant",
+  "description": "GitHub workflow automation using `gh` CLI. Use when creating PRs, reviewing code, managing issues, auto-replying to fixed issues, adding comments, assigning users, managing labels, merging PRs, or checking CI status. Includes auto-reply script and Vietnamese templates.",
+  "repo_url": "https://github.com/khaphanspace/gonhanh.org",
+  "source_hub": "skillsmp",
+  "skill_type": "agent_skill",
+  "owner": "khaphanspace",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "agent-skills",
+    "utilities",
+    "installs:590"
+  ],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null,
+  "repo_status": "available",
+  "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
+  "repo_check_error": null
+}

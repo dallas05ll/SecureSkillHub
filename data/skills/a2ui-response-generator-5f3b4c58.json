@@ -1,0 +1,24 @@
+{
+  "id": "a2ui-response-generator-5f3b4c58",
+  "name": "a2ui-response-generator",
+  "description": "A skill that can retrieve A2UI UI JSON schematics and UI templates that best show the response. This skill is essential and must be used before generating A2UI (Agent to UI) JSON responses.",
+  "repo_url": "https://github.com/agentscope-ai/agentscope",
+  "source_hub": "skillsmp",
+  "skill_type": "agent_skill",
+  "owner": "agentscope-ai",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "agent-skills",
+    "utilities",
+    "installs:16378"
+  ],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null,
+  "repo_status": "available",
+  "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
+  "repo_check_error": null
+}

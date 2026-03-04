@@ -1,0 +1,24 @@
+{
+  "id": "anofox-forecast-0ab7f065",
+  "name": "anofox-forecast",
+  "description": "Comprehensive reference for the Anofox Forecast DuckDB extension (v0.4.5). Use when working with ts_* or anofox_fcst_ts_* functions, time series forecasting in DuckDB, or the anofox_forecast extension. Provides API signatures, model selection, common workflows, and critical gotchas.",
+  "repo_url": "https://github.com/datazoode/anofox-forecast",
+  "source_hub": "skillsmp",
+  "skill_type": "agent_skill",
+  "owner": "datazoode",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "agent-skills",
+    "utilities",
+    "installs:26"
+  ],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null,
+  "repo_status": "available",
+  "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
+  "repo_check_error": null
+}

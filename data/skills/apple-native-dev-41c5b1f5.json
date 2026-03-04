@@ -1,0 +1,24 @@
+{
+  "id": "apple-native-dev-41c5b1f5",
+  "name": "apple-native-dev",
+  "description": "Build, sign, and deploy iOS/macOS apps using Zed Editor and CLI-only workflows without Xcode UI.\nUse when: (1) Setting up a new iOS/macOS project with XcodeGen, (2) Configuring secure credential\nmanagement via xcconfig files, (3) Setting up Zed Editor with Swift LSP, (4) Building/deploying\nto physical devices via CLI, (5) Creating CI/CD pipelines for Apple apps, (6) Troubleshooting\nCLI build issues. Covers XcodeGen, xcode-build-server, justfile commands, devicectl, and\nGitHub Actions scaffold...",
+  "repo_url": "https://github.com/blacktop/dotfiles",
+  "source_hub": "skillsmp",
+  "skill_type": "agent_skill",
+  "owner": "blacktop",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "agent-skills",
+    "dev-devops",
+    "installs:14"
+  ],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null,
+  "repo_status": "available",
+  "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
+  "repo_check_error": null
+}

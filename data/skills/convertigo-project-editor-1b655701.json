@@ -1,0 +1,24 @@
+{
+  "id": "convertigo-project-editor-1b655701",
+  "name": "convertigo-project-editor",
+  "description": "Edit and maintain Convertigo projects (C8Oforms) via YAML in _c8oProject (sequences, connectors, mobile pages/components, shared actions/components, and project metadata). Use when asked to change Convertigo YAML descriptors, sequence steps or SmartTypes, mobile UI definitions, or to validate/reload a project after YAML edits.",
+  "repo_url": "https://github.com/convertigo/c8oforms",
+  "source_hub": "skillsmp",
+  "skill_type": "agent_skill",
+  "owner": "convertigo",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "agent-skills",
+    "dev-mobile",
+    "installs:18"
+  ],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null,
+  "repo_status": "available",
+  "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
+  "repo_check_error": null
+}

@@ -13,15 +13,95 @@
     "data-ai"
   ],
   "verification_status": "pass",
-  "overall_score": 83,
-  "risk_level": "low",
-  "verified_commit": null,
+  "overall_score": 15,
+  "risk_level": "critical",
+  "verified_commit": "7790d21562f4a9011d3488816d3c3f352af29ffe",
   "scan_summary": null,
   "last_updated": "2026-01-10T00:08:17Z",
-  "findings_summary": {
-    "notes": "Metadata-based verification. Score=83. Signals: stars=28 (>=10, +5); license='mit' (+5); owner='MissingPackage' (+3); primary_language='markdown'; source_hub='github_search'. Status: pass. Risk: low."
-  },
   "trust_level": "low",
-  "scan_date": "2026-02-26T06:14:56Z",
-  "verification_level": "metadata_only"
+  "scan_date": "2026-03-03T16:15:24Z",
+  "verification_level": "full_pipeline",
+  "status_cleared": {
+    "date": "2026-03-02T20:40:18.531782+00:00",
+    "previous_status": "pass",
+    "previous_score": 83,
+    "previous_risk": "low",
+    "verification_level": "metadata_only",
+    "reason": "SM cleanup: only full_pipeline pass is real pass. Needs re-verification."
+  },
+  "findings_summary": {
+    "scanner_findings": 34,
+    "dangerous_calls": 0,
+    "network_ops": 0,
+    "file_ops": 30,
+    "env_access": 2,
+    "obfuscation": 2,
+    "injection_patterns": 0,
+    "mismatches": 0,
+    "undocumented_capabilities": 0,
+    "supervisor_approved": false,
+    "supervisor_confidence": 90
+  },
+  "agent_audit": {
+    "agents_completed": 5,
+    "agents_required": 5,
+    "pipeline_run_at": "2026-03-03T16:15:24Z",
+    "agent_a": {
+      "signed": true,
+      "signed_at": "2026-03-03T16:15:24Z",
+      "comment": "Docs quality 9/10. README present. 12 features, 4 permissions claimed.",
+      "doc_quality_score": 9,
+      "claimed_permissions": [
+        "network access",
+        "system command execution",
+        "file system access",
+        "environment/secret access"
+      ]
+    },
+    "agent_b": {
+      "signed": true,
+      "signed_at": "2026-03-03T16:15:24Z",
+      "comment": "14 files analyzed. Found: 0 network, 0 file, 2 env, 0 system calls. Primary: javascript.",
+      "files_analyzed": 14,
+      "capabilities_found": [
+        "reads environment values"
+      ]
+    },
+    "agent_c_star": {
+      "signed": true,
+      "signed_at": "2026-03-03T16:15:24Z",
+      "comment": "34 findings: 0 critical, 2 high, 2 medium, 30 low. Obfuscation detected!. No injection.",
+      "total_findings": 34,
+      "severity_counts": {
+        "critical": 0,
+        "high": 2,
+        "medium": 2,
+        "low": 30,
+        "info": 0
+      }
+    },
+    "agent_d": {
+      "signed": true,
+      "signed_at": "2026-03-03T16:15:24Z",
+      "comment": "Score 15. 0 mismatches. Risk: critical. Safety overrides: applied.",
+      "score": 15,
+      "mismatches": 0,
+      "safety_overrides_applied": true
+    },
+    "agent_e": {
+      "signed": true,
+      "signed_at": "2026-03-03T16:15:24Z",
+      "comment": "Rejected. Confidence 90%. Deterministic override: high-risk obfuscation detected.",
+      "approved": false,
+      "confidence": 90,
+      "override_reason": "Deterministic override: high-risk obfuscation detected."
+    },
+    "manager_summary": "5/5 agents completed. Score: 15/100, Risk: critical. 0 mismatches, 34 scanner findings. Rejected at 90% confidence. Safety overrides triggered."
+  },
+  "pm_override": {
+    "action": "fail_to_pass",
+    "reason": "OBFUSCATION FP (Category 8): Minified JS + shell hex escapes in Claude Code plugin. SecM investigation confirms 0 malicious patterns. Known FP pattern.",
+    "override_by": "PM",
+    "override_date": "2026-03-03T16:20:40Z"
+  }
 }

@@ -1,0 +1,24 @@
+{
+  "id": "git-commit-formatter-79009a62",
+  "name": "git-commit-formatter",
+  "description": "Formats git commit messages according to Conventional Commits specification. Use this when the user asks to commit changes or write a commit message.",
+  "repo_url": "https://github.com/projectnewm/newm-server",
+  "source_hub": "skillsmp",
+  "skill_type": "agent_skill",
+  "owner": "projectnewm",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "agent-skills",
+    "dev-git",
+    "installs:16"
+  ],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null,
+  "repo_status": "available",
+  "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
+  "repo_check_error": null
+}

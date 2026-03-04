@@ -1,0 +1,24 @@
+{
+  "id": "adb-android-control-b3d750ac",
+  "name": "adb-android-control",
+  "description": "Comprehensive Android device control via ADB (Android Debug Bridge). Use when user asks about: Android device management, app installation/uninstallation, APK operations, package management, file transfer (push/pull), screenshots, screen recording, input simulation (tap/swipe/text/keyevents), shell commands, logcat viewing, device info (battery/memory/storage), automation scripts, wireless ADB connection, scrcpy mirroring. Keywords: adb, android, phone, tablet, device, apk, install app, unins...",
+  "repo_url": "https://github.com/hah23255/adb-android-control",
+  "source_hub": "skillsmp",
+  "skill_type": "agent_skill",
+  "owner": "hah23255",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "agent-skills",
+    "dev-mobile",
+    "installs:74"
+  ],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null,
+  "repo_status": "available",
+  "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
+  "repo_check_error": null
+}

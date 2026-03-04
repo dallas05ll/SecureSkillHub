@@ -1,0 +1,24 @@
+{
+  "id": "pltr-cli-c4452064",
+  "name": "pltr-cli",
+  "description": "Helps you work with Palantir Foundry using the pltr CLI. Use this when you need to query datasets, manage orchestration builds, work with ontologies, run SQL queries, manage folders/spaces/projects, copy datasets, or perform admin operations in Foundry. Triggers: Foundry, pltr, dataset, SQL query, ontology, build, schedule, RID.",
+  "repo_url": "https://github.com/anjor/pltr-cli",
+  "source_hub": "skillsmp",
+  "skill_type": "agent_skill",
+  "owner": "anjor",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "agent-skills",
+    "data-db",
+    "installs:15"
+  ],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null,
+  "repo_status": "available",
+  "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
+  "repo_check_error": null
+}

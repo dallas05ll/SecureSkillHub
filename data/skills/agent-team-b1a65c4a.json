@@ -1,0 +1,24 @@
+{
+  "id": "agent-team-b1a65c4a",
+  "name": "agent-team",
+  "description": "统一管理多智能体角色的团队协作框架，支持智能体动态组合、灵活协作和扩展新角色。智能体本质上是\"角色定义\"，可以根据任务需求灵活组建团队，实现从会议决策到系统构建的完整能力。智能体角色明确分工：有干活的、有指挥的、有挑毛病的，能实时看到沟通过程，共享数据库记忆，确保上下文一致。",
+  "repo_url": "https://github.com/anbeime/skill",
+  "source_hub": "skillsmp",
+  "skill_type": "agent_skill",
+  "owner": "anbeime",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "agent-skills",
+    "utilities",
+    "installs:14"
+  ],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null,
+  "repo_status": "available",
+  "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
+  "repo_check_error": null
+}

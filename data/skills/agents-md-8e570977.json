@@ -1,0 +1,24 @@
+{
+  "id": "agents-md-8e570977",
+  "name": "agents-md",
+  "description": "This skill should be used when the user asks to \"create AGENTS.md\", \"update AGENTS.md\", \"maintain agent docs\", \"set up CLAUDE.md\", or needs to keep agent instructions concise. Guides discovery of local skills and enforces minimal documentation style.",
+  "repo_url": "https://github.com/getsentry/skills",
+  "source_hub": "skillsmp",
+  "skill_type": "agent_skill",
+  "owner": "getsentry",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "agent-skills",
+    "utilities",
+    "installs:267"
+  ],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null,
+  "repo_status": "available",
+  "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
+  "repo_check_error": null
+}

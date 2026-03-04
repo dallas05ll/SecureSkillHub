@@ -29,6 +29,8 @@ Fetches GitHub star counts for all skills with `repo_url` pointing to github.com
 - 10-99: Tier 3
 - 0-9: Tier 4
 
+**skillsmp skills:** All 4,801 skills from the skillsmp crawler arrive with `stars: 0` because the GitHub mirror does not include star data. Always run `enrich_stars.py --skip-existing` after a skillsmp crawl to populate real star counts before running verification priority queues.
+
 ---
 
 ## Auto-Tagging
@@ -48,6 +50,7 @@ Assigns tags from the 4-layer tag hierarchy (`data/tags.json`) based on keyword 
 **Important:**
 - Auto-tagging **overwrites existing tags**. If a skill has manually curated tags, they will be replaced.
 - `scripts/enrich/auto_tag.py` uses a relative path (`Path("data/skills")`) — **must be run from the project root directory**.
+- The `installs:N` tag format (e.g., `installs:1000`) encodes install count as a tag for skills sourced from platforms that track installs (such as skillsmp). These are preserved through auto-tagging and displayed as a metadata signal separate from GitHub stars. Do not remove or rename `installs:*` tags — they are used by the build pipeline for display and sorting.
 
 ---
 

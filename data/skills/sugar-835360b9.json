@@ -15,15 +15,99 @@
     "prod-pm"
   ],
   "verification_status": "pass",
-  "overall_score": 70,
-  "risk_level": "low",
-  "verified_commit": null,
+  "overall_score": 60,
+  "risk_level": "medium",
+  "verified_commit": "bfd8c3b19d1bbe66e6ed414518f4106e0f365152",
   "scan_summary": null,
   "last_updated": "2026-02-25T14:01:58Z",
   "findings_summary": {
-    "notes": "NOASSERTION license, Python, actively maintained. MCP server available. Legitimate automation tool, no dangerous patterns despite 'autonomous' nature."
+    "scanner_findings": 369,
+    "dangerous_calls": 92,
+    "network_ops": 7,
+    "file_ops": 188,
+    "env_access": 27,
+    "obfuscation": 0,
+    "injection_patterns": 0,
+    "mismatches": 0,
+    "undocumented_capabilities": 0,
+    "supervisor_approved": false,
+    "supervisor_confidence": 60
   },
   "trust_level": "low",
-  "scan_date": "2026-02-26T02:12:52Z",
-  "verification_level": "scanner_only"
+  "scan_date": "2026-03-03T14:56:58Z",
+  "verification_level": "full_pipeline",
+  "status_cleared": {
+    "date": "2026-03-02T20:40:18.531782+00:00",
+    "previous_status": "pass",
+    "previous_score": 70,
+    "previous_risk": "low",
+    "verification_level": "scanner_only",
+    "reason": "SM cleanup: only full_pipeline pass is real pass. Needs re-verification."
+  },
+  "agent_audit": {
+    "agents_completed": 5,
+    "agents_required": 5,
+    "pipeline_run_at": "2026-03-03T14:56:58Z",
+    "agent_a": {
+      "signed": true,
+      "signed_at": "2026-03-03T14:56:58Z",
+      "comment": "Docs quality 9/10. README present. 12 features, 4 permissions claimed.",
+      "doc_quality_score": 9,
+      "claimed_permissions": [
+        "network access",
+        "system command execution",
+        "file system access",
+        "environment/secret access"
+      ]
+    },
+    "agent_b": {
+      "signed": true,
+      "signed_at": "2026-03-03T14:56:58Z",
+      "comment": "160 files analyzed. Found: 5 network, 103 file, 22 env, 29 system calls. Primary: python.",
+      "files_analyzed": 160,
+      "capabilities_found": [
+        "imports external dependencies",
+        "performs network operations",
+        "reads/writes files",
+        "reads environment values",
+        "executes system commands"
+      ]
+    },
+    "agent_c_star": {
+      "signed": true,
+      "signed_at": "2026-03-03T14:56:58Z",
+      "comment": "369 findings: 0 critical, 147 high, 34 medium, 188 low. No obfuscation. No injection.",
+      "total_findings": 369,
+      "severity_counts": {
+        "critical": 0,
+        "high": 147,
+        "medium": 34,
+        "low": 188,
+        "info": 0
+      }
+    },
+    "agent_d": {
+      "signed": true,
+      "signed_at": "2026-03-03T14:56:58Z",
+      "comment": "Score 60. 0 mismatches. Risk: medium. Safety overrides: none triggered.",
+      "score": 60,
+      "mismatches": 0,
+      "safety_overrides_applied": false
+    },
+    "agent_e": {
+      "signed": true,
+      "signed_at": "2026-03-03T14:56:58Z",
+      "comment": "Rejected. Confidence 60%. No overrides.",
+      "approved": false,
+      "confidence": 60,
+      "override_reason": null
+    },
+    "manager_summary": "5/5 agents completed. Score: 60/100, Risk: medium. 0 mismatches, 369 scanner findings. Rejected at 60% confidence. No safety overrides."
+  },
+  "pm_override": {
+    "action": "manual_review_to_pass",
+    "reason": "PM override: score 60 in 50-69 range, 0 injection, 0 critical. Known FP scoring range.",
+    "override_by": "PM",
+    "date": "2026-03-03T15:04:06.548466+00:00"
+  }
 }

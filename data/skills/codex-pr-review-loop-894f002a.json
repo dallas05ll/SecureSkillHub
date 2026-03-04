@@ -1,0 +1,24 @@
+{
+  "id": "codex-pr-review-loop-894f002a",
+  "name": "codex-pr-review-loop",
+  "description": "Automate the post-PR review loop: after a PR is submitted, poll GitHub review threads every 5 minutes, wait for new updates, fix issues from updated review threads, commit and push, then begin the waiting loop again, reply with @codex review as a separate PR issue comment, and continue until a Codex review comment states 'Didn't find any major issues', then merge to remote main and pull locally. Use when asked to manage the ongoing review/iteration cycle for a PR.",
+  "repo_url": "https://github.com/victorgpt/my_coding_agent_share",
+  "source_hub": "skillsmp",
+  "skill_type": "agent_skill",
+  "owner": "victorgpt",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "agent-skills",
+    "dev-git",
+    "installs:11"
+  ],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null,
+  "repo_status": "available",
+  "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
+  "repo_check_error": null
+}

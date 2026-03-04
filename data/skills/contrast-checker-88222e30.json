@@ -1,0 +1,24 @@
+{
+  "id": "contrast-checker-88222e30",
+  "name": "contrast-checker",
+  "description": "Color contrast analyzer for WCAG compliance. Use when analyzing color contrast in code files, when user mentions WCAG compliance, color accessibility, contrast ratios, or when discussing colors in UI components. Calculates contrast ratios, identifies violations, and suggests accessible color alternatives that preserve design themes.",
+  "repo_url": "https://github.com/accesslint/claude-marketplace",
+  "source_hub": "skillsmp",
+  "skill_type": "agent_skill",
+  "owner": "accesslint",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "agent-skills",
+    "utilities",
+    "installs:9"
+  ],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null,
+  "repo_status": "available",
+  "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
+  "repo_check_error": null
+}

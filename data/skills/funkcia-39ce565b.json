@@ -1,0 +1,24 @@
+{
+  "id": "funkcia-39ce565b",
+  "name": "funkcia",
+  "description": "Adopt Funkcia in TypeScript codebases using Option, Result, OptionAsync, ResultAsync, and module utilities such as Brand, SafeJSON, SafeURI, SafeURL, and TaggedError patterns. Use when migrating from null/throw/promise-rejection flows, designing typed error boundaries, or implementing domain-safe parsing and validation.",
+  "repo_url": "https://github.com/lukemorales/funkcia",
+  "source_hub": "skillsmp",
+  "skill_type": "agent_skill",
+  "owner": "lukemorales",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "agent-skills",
+    "utilities",
+    "installs:17"
+  ],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null,
+  "repo_status": "available",
+  "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
+  "repo_check_error": null
+}

@@ -1,0 +1,24 @@
+{
+  "id": "payment-7d164799",
+  "name": "payment",
+  "description": "Request and receive payments. Use this skill when you need to request payment from another party. It will generate a payment link that you can send out. Through the payment link, you can also monitor the status of the payment.",
+  "repo_url": "https://github.com/second-state/payment-skill",
+  "source_hub": "skillsmp",
+  "skill_type": "agent_skill",
+  "owner": "second-state",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "agent-skills",
+    "utilities",
+    "installs:125"
+  ],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null,
+  "repo_status": "available",
+  "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
+  "repo_check_error": null
+}

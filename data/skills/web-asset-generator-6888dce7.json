@@ -35,15 +35,90 @@
   "version": "1.0.0",
   "requires_code_execution": true,
   "verification_status": "pass",
-  "overall_score": 83,
+  "overall_score": 97,
   "risk_level": "low",
-  "verified_commit": null,
+  "verified_commit": "c6d56dc54ab86eae4eeb1393d9c8cdc71ae8d1a8",
   "scan_summary": "Python-based image generation skill using Pillow and optional pilmoji. MIT licensed. Scripts include generate_favicons.py, generate_og_images.py, check_dependencies.py, emoji_utils.py, and lib/validators.py. All scripts perform local file I/O only \u2014 no network calls or external API usage. Dependencies: Pillow (required), pilmoji and emoji<2.0.0 (optional for emoji support). .claude-plugin marketplace format used. SKILL.md and CLAUDE.md present.",
   "findings_summary": {
-    "notes": "Well-crafted utility skill for web asset generation. All Python scripts operate on local files using standard image processing libraries. No network calls in scripts. Dependency pinning uses >= version specifiers (not pinned) but for an image processing tool this is acceptable. Star count discrepancy (120 stored vs 187 live) suggests rapid growth. Clean code structure with validators library. No security concerns."
+    "scanner_findings": 6,
+    "dangerous_calls": 0,
+    "network_ops": 0,
+    "file_ops": 6,
+    "env_access": 0,
+    "obfuscation": 0,
+    "injection_patterns": 0,
+    "mismatches": 0,
+    "undocumented_capabilities": 0,
+    "supervisor_approved": true,
+    "supervisor_confidence": 95
   },
   "scan_summary_note": "pip install Pillow required; optional pilmoji for emoji rendering",
   "trust_level": "medium",
-  "scan_date": "2026-02-26T02:38:10Z",
-  "verification_level": "scanner_only"
+  "scan_date": "2026-03-03T05:15:47Z",
+  "verification_level": "full_pipeline",
+  "status_cleared": {
+    "date": "2026-03-02T20:40:18.531782+00:00",
+    "previous_status": "pass",
+    "previous_score": 83,
+    "previous_risk": "low",
+    "verification_level": "scanner_only",
+    "reason": "SM cleanup: only full_pipeline pass is real pass. Needs re-verification."
+  },
+  "agent_audit": {
+    "agents_completed": 5,
+    "agents_required": 5,
+    "pipeline_run_at": "2026-03-03T05:15:47Z",
+    "agent_a": {
+      "signed": true,
+      "signed_at": "2026-03-03T05:15:47Z",
+      "comment": "Docs quality 10/10. README present. 12 features, 4 permissions claimed.",
+      "doc_quality_score": 10,
+      "claimed_permissions": [
+        "network access",
+        "system command execution",
+        "file system access",
+        "environment/secret access"
+      ]
+    },
+    "agent_b": {
+      "signed": true,
+      "signed_at": "2026-03-03T05:15:47Z",
+      "comment": "6 files analyzed. Found: 0 network, 5 file, 0 env, 0 system calls. Primary: python.",
+      "files_analyzed": 6,
+      "capabilities_found": [
+        "imports external dependencies",
+        "reads/writes files"
+      ]
+    },
+    "agent_c_star": {
+      "signed": true,
+      "signed_at": "2026-03-03T05:15:47Z",
+      "comment": "6 findings: 0 critical, 0 high, 0 medium, 6 low. No obfuscation. No injection.",
+      "total_findings": 6,
+      "severity_counts": {
+        "critical": 0,
+        "high": 0,
+        "medium": 0,
+        "low": 6,
+        "info": 0
+      }
+    },
+    "agent_d": {
+      "signed": true,
+      "signed_at": "2026-03-03T05:15:47Z",
+      "comment": "Score 97. 0 mismatches. Risk: low. Safety overrides: none triggered.",
+      "score": 97,
+      "mismatches": 0,
+      "safety_overrides_applied": false
+    },
+    "agent_e": {
+      "signed": true,
+      "signed_at": "2026-03-03T05:15:47Z",
+      "comment": "Approved. Confidence 95%. No overrides.",
+      "approved": true,
+      "confidence": 95,
+      "override_reason": null
+    },
+    "manager_summary": "5/5 agents completed. Score: 97/100, Risk: low. 0 mismatches, 6 scanner findings. Approved at 95% confidence. No safety overrides."
+  }
 }

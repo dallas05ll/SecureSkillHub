@@ -1,0 +1,24 @@
+{
+  "id": "ha-sync-1c7f4478",
+  "name": "ha-sync",
+  "description": "Sync zen-ui plugin to local Home Assistant. Use when user asks to sync, deploy, or push to HA.",
+  "repo_url": "https://github.com/shashanktomar/zen-ui",
+  "source_hub": "skillsmp",
+  "skill_type": "agent_skill",
+  "owner": "shashanktomar",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "agent-skills",
+    "dev-devops",
+    "installs:12"
+  ],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null,
+  "repo_status": "available",
+  "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
+  "repo_check_error": null
+}

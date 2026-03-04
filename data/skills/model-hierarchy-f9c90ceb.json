@@ -1,0 +1,24 @@
+{
+  "id": "model-hierarchy-f9c90ceb",
+  "name": "model-hierarchy",
+  "description": "Cost-optimize AI agent operations by routing tasks to appropriate models based on complexity. Use this skill when: (1) deciding which model to use for a task, (2) spawning sub-agents, (3) considering cost efficiency, (4) the current model feels like overkill for the task. Triggers: \"model routing\", \"cost optimization\", \"which model\", \"too expensive\", \"spawn agent\".",
+  "repo_url": "https://github.com/zscole/model-hierarchy-skill",
+  "source_hub": "skillsmp",
+  "skill_type": "agent_skill",
+  "owner": "zscole",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "agent-skills",
+    "data-ai",
+    "installs:316"
+  ],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null,
+  "repo_status": "available",
+  "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
+  "repo_check_error": null
+}

@@ -1,0 +1,24 @@
+{
+  "id": "modern-cpp-refactor-81bafe8f",
+  "name": "modern-cpp-refactor",
+  "description": "Modern C++ refactoring intelligence. Scans and modernizes legacy C/C++98/11 code to C++17/20 standards. Detects: raw pointers, manual memory, C-style arrays, old containers, manual loops. Replaces with: smart pointers, RAII, std::array/vector, ranges, std::format, structured bindings, auto, constexpr, concepts, std::optional, std::variant. Actions: scan, analyze, refactor, modernize, upgrade, review, check C++ code. Patterns: memory leaks, null checks, iterator loops, string formatting, error...",
+  "repo_url": "https://github.com/mq-b/lab2qrcode",
+  "source_hub": "skillsmp",
+  "skill_type": "agent_skill",
+  "owner": "mq-b",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "agent-skills",
+    "utilities",
+    "installs:15"
+  ],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null,
+  "repo_status": "available",
+  "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
+  "repo_check_error": null
+}

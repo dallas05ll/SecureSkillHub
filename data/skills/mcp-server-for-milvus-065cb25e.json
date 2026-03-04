@@ -8,13 +8,14 @@
   "stars": 0,
   "primary_language": "unknown",
   "tags": [
-    "repo_unavailable",
     "data",
     "data-ai",
     "data-ai-nlp",
+    "data-ai-rag",
     "data-db",
     "data-db-vector",
     "integ",
+    "repo_unavailable",
     "util",
     "util-search"
   ],
@@ -25,5 +26,6 @@
   "scan_summary": null,
   "repo_status": "unavailable",
   "repo_check_date": "2026-02-28T20:52:20.048487+00:00",
-  "repo_check_error": "fatal: unable to access 'https://github.com/zilliztech/MCP Server for Milvus/': URL rejected: Malformed input to a URL function"
+  "repo_check_error": "fatal: unable to access 'https://github.com/zilliztech/MCP Server for Milvus/': URL rejected: Malformed input to a URL function",
+  "skill_type": "mcp_server"
 }

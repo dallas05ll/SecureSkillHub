@@ -1,0 +1,24 @@
+{
+  "id": "optimizer-7bb605bc",
+  "name": "optimizer",
+  "description": "Analyzes and automatically optimizes an existing Agent's code by applying patches to improve performance, quality, security, and functionality.",
+  "repo_url": "https://github.com/inclusionai/aworld",
+  "source_hub": "skillsmp",
+  "skill_type": "agent_skill",
+  "owner": "inclusionai",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "agent-skills",
+    "security",
+    "installs:1127"
+  ],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null,
+  "repo_status": "available",
+  "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
+  "repo_check_error": null
+}

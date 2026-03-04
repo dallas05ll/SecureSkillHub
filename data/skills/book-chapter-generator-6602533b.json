@@ -1,0 +1,24 @@
+{
+  "id": "book-chapter-generator-6602533b",
+  "name": "book-chapter-generator",
+  "description": "This skill generates a structured chapter outline for intelligent textbooks by analyzing course descriptions, learning graphs, and concept dependencies. Use this skill after the learning graph has been created and before generating chapter content, to design an optimal chapter structure that respects concept dependencies and distributes content evenly across all of the chapter in a book.",
+  "repo_url": "https://github.com/dmccreary/claude-skills",
+  "source_hub": "skillsmp",
+  "skill_type": "agent_skill",
+  "owner": "dmccreary",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "agent-skills",
+    "utilities",
+    "installs:48"
+  ],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null,
+  "repo_status": "available",
+  "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
+  "repo_check_error": null
+}

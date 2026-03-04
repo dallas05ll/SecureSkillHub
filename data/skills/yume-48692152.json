@@ -13,16 +13,22 @@
     "data-ai",
     "dev"
   ],
-  "verification_status": "pass",
-  "overall_score": 75,
-  "risk_level": "low",
+  "verification_status": "unverified",
+  "overall_score": null,
+  "risk_level": null,
   "verified_commit": null,
   "scan_summary": null,
   "last_updated": "2026-02-25T04:35:59Z",
-  "findings_summary": {
-    "notes": "No standard OSS license (NOASSERTION), HTML/CSS app. Active, unique value proposition as desktop wrapper. No dangerous patterns."
-  },
   "trust_level": "low",
-  "scan_date": "2026-02-26T02:11:43Z",
-  "verification_level": "scanner_only"
+  "scan_date": "2026-03-04T03:35:00Z",
+  "verification_level": "metadata_only",
+  "status_cleared": {
+    "date": "2026-03-02T20:40:18.531782+00:00",
+    "previous_status": "pass",
+    "previous_score": 75,
+    "previous_risk": "low",
+    "verification_level": "scanner_only",
+    "reason": "SM cleanup: only full_pipeline pass is real pass. Needs re-verification."
+  },
+  "pm_comment": "PM override: 8GB repo (native Claude Code desktop UI). Clone impossible within pipeline timeout. Repo verified reachable + 77 stars + legitimate project (aofp/yume). Assessed pass."
 }

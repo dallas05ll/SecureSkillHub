@@ -1,0 +1,24 @@
+{
+  "id": "9to5-1fbe9de3",
+  "name": "9to5",
+  "description": "Automated agents for Claude Code. Use when the user wants to create agents, manage recurring AI agent runs, view run history, check their inbox, start/stop the background daemon, trigger agents via webhooks, or use the 9to5 TUI dashboard. Keywords: agents, schedule, cron, automation, recurring tasks, daemon, background jobs, webhook, trigger, CI, GitHub Actions.",
+  "repo_url": "https://github.com/michaelliv/9to5",
+  "source_hub": "skillsmp",
+  "skill_type": "agent_skill",
+  "owner": "michaelliv",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "agent-skills",
+    "dev-devops",
+    "installs:14"
+  ],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null,
+  "repo_status": "available",
+  "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
+  "repo_check_error": null
+}

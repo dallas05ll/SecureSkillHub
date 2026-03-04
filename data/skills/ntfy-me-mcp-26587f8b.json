@@ -8,11 +8,9 @@
   "stars": 53,
   "primary_language": "typescript",
   "tags": [
-    "status-pass",
     "data-ai",
     "dev-devops-docker",
     "sec",
-    "sec-crypto",
     "util-search"
   ],
   "verification_status": "pass",
@@ -97,5 +95,6 @@
       "override_reason": null
     },
     "manager_summary": "5/5 agents completed. Score: 85/100, Risk: medium. 0 mismatches, 8 scanner findings. Approved at 85% confidence. No safety overrides."
-  }
+  },
+  "skill_type": "mcp_server"
 }

@@ -1,0 +1,24 @@
+{
+  "id": "querying-positron-52f5a897",
+  "name": "querying-positron",
+  "description": "Transforms natural language input into valid MongoDB queries for interrogating Positron's database, issues them to our Mongo cluster, retrieves and optionally analyzes or transforms the results. Use when the user wants to know about Positron's actual data about articles, authors, channels, verticals etc.",
+  "repo_url": "https://github.com/artsy/positron",
+  "source_hub": "skillsmp",
+  "skill_type": "agent_skill",
+  "owner": "artsy",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "agent-skills",
+    "data-db",
+    "installs:85"
+  ],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null,
+  "repo_status": "available",
+  "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
+  "repo_check_error": null
+}

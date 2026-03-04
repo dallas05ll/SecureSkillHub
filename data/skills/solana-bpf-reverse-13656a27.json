@@ -1,0 +1,24 @@
+{
+  "id": "solana-bpf-reverse-13656a27",
+  "name": "solana-bpf-reverse",
+  "description": "Reverse engineer any Solana BPF program (.so file) to understand its logic and restore readable source code. Use when analyzing compiled Solana programs, decompiling .so files, understanding unknown on-chain programs, extracting program logic, or when the user mentions BPF bytecode, reverse engineering, decompilation, or program analysis.",
+  "repo_url": "https://github.com/vnxfsc/solana-bpf-reverse",
+  "source_hub": "skillsmp",
+  "skill_type": "agent_skill",
+  "owner": "vnxfsc",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "agent-skills",
+    "utilities",
+    "installs:13"
+  ],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null,
+  "repo_status": "available",
+  "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
+  "repo_check_error": null
+}

@@ -1,0 +1,24 @@
+{
+  "id": "issue-resolver-43dcf9b2",
+  "name": "issue-resolver",
+  "description": "不具合報告（GitHub Issue、フォーラム投稿、社内報告）を起点に、調査・再現・修正・検証・記録までを一貫実行するスキル。症状の切り分け、原因仮説の整理、最小再現、修正実装、ExecPlan作成、PR下書き、ナレッジ追記が必要なときに使う。",
+  "repo_url": "https://github.com/modxcms-jp/evolution-jp",
+  "source_hub": "skillsmp",
+  "skill_type": "agent_skill",
+  "owner": "modxcms-jp",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "agent-skills",
+    "utilities",
+    "installs:33"
+  ],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null,
+  "repo_status": "available",
+  "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
+  "repo_check_error": null
+}

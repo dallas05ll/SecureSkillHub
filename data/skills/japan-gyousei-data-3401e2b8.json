@@ -1,0 +1,24 @@
+{
+  "id": "japan-gyousei-data-3401e2b8",
+  "name": "japan-gyousei-data",
+  "description": "日本の行政オープンデータにアクセスする。不動産取引価格（国交省）、官公需・入札情報、e-Stat政府統計の3つのデータソースを検索・取得できる。「不動産価格を調べて」「入札情報を検索」「政府統計を取得」「官公需で○○を探して」「地価を調べて」「統計データ」などで使用。MCP server (mcp.n-3.ai) 経由でリアルタイムにデータ取得する。",
+  "repo_url": "https://github.com/naoterumaker/japan-gyousei-data",
+  "source_hub": "skillsmp",
+  "skill_type": "agent_skill",
+  "owner": "naoterumaker",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "agent-skills",
+    "utilities",
+    "installs:44"
+  ],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null,
+  "repo_status": "available",
+  "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
+  "repo_check_error": null
+}

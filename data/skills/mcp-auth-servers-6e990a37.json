@@ -1,14 +1,13 @@
 {
   "id": "mcp-auth-servers-6e990a37",
   "name": "mcp-auth-servers",
-  "description": "🔒 Reference MCP servers that demo how authentication works with the current Model Context Protocol spec.",
+  "description": "\ud83d\udd12 Reference MCP servers that demo how authentication works with the current Model Context Protocol spec.",
   "repo_url": "https://github.com/Azure-Samples/mcp-auth-servers",
   "source_hub": "mcp_so",
   "owner": "Azure-Samples",
   "stars": 48,
   "primary_language": "typescript",
   "tags": [
-    "status-fail",
     "data-ai",
     "data-ai-nlp",
     "sec",
@@ -119,5 +118,6 @@
       "override_reason": null
     },
     "manager_summary": "5/5 agents completed. Score: 100/100, Risk: high. 0 mismatches, 32 scanner findings. Rejected at 95% confidence. No safety overrides.\n[2026-03-01T06:14:16Z] PM review: fail. PM final decision: fail due to high-risk scanner findings."
-  }
+  },
+  "skill_type": "mcp_server"
 }

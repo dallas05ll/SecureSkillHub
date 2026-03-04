@@ -1,0 +1,24 @@
+{
+  "id": "carrier-integration-29dbb4bb",
+  "name": "carrier-integration",
+  "description": "Builds Karrio shipping carrier integrations from scratch. Covers scaffolding, schema generation, provider implementation (rating, shipping, tracking, pickup, manifest, document upload, address validation), and testing. Triggers on requests to add a new carrier, implement shipping features, build carrier connectors, or integrate carrier APIs with Karrio.",
+  "repo_url": "https://github.com/karrioapi/karrio",
+  "source_hub": "skillsmp",
+  "skill_type": "agent_skill",
+  "owner": "karrioapi",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "agent-skills",
+    "dev-testing",
+    "installs:690"
+  ],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null,
+  "repo_status": "available",
+  "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
+  "repo_check_error": null
+}

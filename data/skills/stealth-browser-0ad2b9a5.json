@@ -1,0 +1,24 @@
+{
+  "id": "stealth-browser-0ad2b9a5",
+  "name": "stealth-browser",
+  "description": "Invisible Chrome automation for web scraping via CDP. Use when WebFetch fails or gets blocked (403, 429, Cloudflare, bot protection, JS-rendered pages). Launches your real Chrome install completely hidden, sends commands via Chrome DevTools Protocol. Sites see a normal browser with real extensions - no detectable automation. Learns which domains block and skips straight to stealth on future requests. Also handles form filling, clicking, screenshots, and scraping dynamic content.",
+  "repo_url": "https://github.com/changeflowhq/skills",
+  "source_hub": "skillsmp",
+  "skill_type": "agent_skill",
+  "owner": "changeflowhq",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "agent-skills",
+    "utilities",
+    "installs:12"
+  ],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null,
+  "repo_status": "available",
+  "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
+  "repo_check_error": null
+}

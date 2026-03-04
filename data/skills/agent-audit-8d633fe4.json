@@ -1,0 +1,24 @@
+{
+  "id": "agent-audit-8d633fe4",
+  "name": "agent-audit",
+  "description": "When reviewing, optimizing, or inheriting an LLM agent, systematically identify\nwhat's actually load-bearing vs. cruft. Instruments usage, ablates components,\nand strips the agent to minimum viable form. Answers: \"What can we remove\nwithout degrading quality?\" The goal is the leanest agent that still works.",
+  "repo_url": "https://github.com/elliotjlt/claude-skill-potions",
+  "source_hub": "skillsmp",
+  "skill_type": "agent_skill",
+  "owner": "elliotjlt",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "agent-skills",
+    "data-ai",
+    "installs:47"
+  ],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null,
+  "repo_status": "available",
+  "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
+  "repo_check_error": null
+}

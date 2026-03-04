@@ -1,0 +1,24 @@
+{
+  "id": "chaingraph-concepts-8bbb3269",
+  "name": "chaingraph-concepts",
+  "description": "Core ChainGraph domain concepts - flows, nodes, ports, edges, and execution. Use for ANY ChainGraph development to understand the fundamental abstractions. Explains what flows are, how nodes process data, port types (9 types), edge data transfer, and execution lifecycle. 19 FlowEventTypes, 21 ExecutionEventEnums. Triggers: chaingraph, flow, node, port, edge, execution, what is, how does, concept, architecture, event types.",
+  "repo_url": "https://github.com/chaingraphlabs/chaingraph",
+  "source_hub": "skillsmp",
+  "skill_type": "agent_skill",
+  "owner": "chaingraphlabs",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "agent-skills",
+    "utilities",
+    "installs:14"
+  ],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null,
+  "repo_status": "available",
+  "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
+  "repo_check_error": null
+}

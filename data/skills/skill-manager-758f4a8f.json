@@ -1,0 +1,24 @@
+{
+  "id": "skill-manager-758f4a8f",
+  "name": "skill-manager",
+  "description": "A Claude Code skill that allows you to search, browse, and install skills from a database of 31,767+ community skills with intelligent folder-level downloads. Supports SVN export, Git sparse checkout, and HTTP fallback methods for complete skill folder installation.",
+  "repo_url": "https://github.com/buzhangsan/skill-manager",
+  "source_hub": "skillsmp",
+  "skill_type": "agent_skill",
+  "owner": "buzhangsan",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "agent-skills",
+    "data-db",
+    "installs:220"
+  ],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null,
+  "repo_status": "available",
+  "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
+  "repo_check_error": null
+}

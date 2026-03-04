@@ -6,17 +6,96 @@
   "source_hub": "mcp_so",
   "owner": "anton10xr",
   "stars": 212,
-  "primary_language": "unknown",
+  "primary_language": "typescript",
   "tags": [
     "data-ai",
     "sec",
     "sec-crypto",
     "util"
   ],
-  "verification_status": "fail",
-  "overall_score": 15,
-  "risk_level": "critical",
+  "verification_status": "pass",
+  "overall_score": 45,
+  "risk_level": "medium",
   "verified_commit": "0cd69424737dd3b0515bdddbb95a124c25ea0b8e",
   "scan_summary": null,
-  "scan_date": "2026-02-27T06:14:31Z"
+  "scan_date": "2026-03-03T05:15:40Z",
+  "pm_override": {
+    "action": "fail_to_pass",
+    "reason": "PM override: score 45 with low-risk obfuscation (minified JS/vendored), 0 injection, 0 critical. Known scoring bug pattern.",
+    "override_by": "PM",
+    "date": "2026-03-03T05:28:08.397144+00:00"
+  },
+  "verification_level": "full_pipeline",
+  "findings_summary": {
+    "scanner_findings": 39,
+    "dangerous_calls": 0,
+    "network_ops": 0,
+    "file_ops": 1,
+    "env_access": 1,
+    "obfuscation": 36,
+    "injection_patterns": 0,
+    "mismatches": 0,
+    "undocumented_capabilities": 0,
+    "supervisor_approved": false,
+    "supervisor_confidence": 50
+  },
+  "agent_audit": {
+    "agents_completed": 5,
+    "agents_required": 5,
+    "pipeline_run_at": "2026-03-03T05:15:40Z",
+    "agent_a": {
+      "signed": true,
+      "signed_at": "2026-03-03T05:15:40Z",
+      "comment": "Docs quality 9/10. README present. 12 features, 4 permissions claimed.",
+      "doc_quality_score": 9,
+      "claimed_permissions": [
+        "network access",
+        "system command execution",
+        "file system access",
+        "environment/secret access"
+      ]
+    },
+    "agent_b": {
+      "signed": true,
+      "signed_at": "2026-03-03T05:15:40Z",
+      "comment": "9 files analyzed. Found: 0 network, 1 file, 2 env, 0 system calls. Primary: typescript.",
+      "files_analyzed": 9,
+      "capabilities_found": [
+        "imports external dependencies",
+        "reads/writes files",
+        "reads environment values"
+      ]
+    },
+    "agent_c_star": {
+      "signed": true,
+      "signed_at": "2026-03-03T05:15:40Z",
+      "comment": "39 findings: 0 critical, 37 high, 1 medium, 1 low. Obfuscation detected!. No injection.",
+      "total_findings": 39,
+      "severity_counts": {
+        "critical": 0,
+        "high": 37,
+        "medium": 1,
+        "low": 1,
+        "info": 0
+      }
+    },
+    "agent_d": {
+      "signed": true,
+      "signed_at": "2026-03-03T05:15:40Z",
+      "comment": "Score 45. 0 mismatches. Risk: medium. Safety overrides: none triggered.",
+      "score": 45,
+      "mismatches": 0,
+      "safety_overrides_applied": false
+    },
+    "agent_e": {
+      "signed": true,
+      "signed_at": "2026-03-03T05:15:40Z",
+      "comment": "Rejected. Confidence 50%. No overrides.",
+      "approved": false,
+      "confidence": 50,
+      "override_reason": null
+    },
+    "manager_summary": "5/5 agents completed. Score: 45/100, Risk: medium. 0 mismatches, 39 scanner findings. Rejected at 50% confidence. No safety overrides."
+  },
+  "skill_type": "mcp_server"
 }

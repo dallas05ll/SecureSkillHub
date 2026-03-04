@@ -1,0 +1,24 @@
+{
+  "id": "plan-da648110",
+  "name": "plan",
+  "description": "Generate a plan for how an agent should accomplish a complex coding task. Use when a user asks for a plan, and optionally when they want to save, find, read, update, or delete plan files in $CODEX_HOME/plans (default ~/.codex/plans).",
+  "repo_url": "https://github.com/estelyang/qcircuitbench",
+  "source_hub": "skillsmp",
+  "skill_type": "agent_skill",
+  "owner": "estelyang",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "agent-skills",
+    "utilities",
+    "installs:18"
+  ],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null,
+  "repo_status": "available",
+  "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
+  "repo_check_error": null
+}

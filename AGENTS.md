@@ -89,6 +89,29 @@ These roles oversee multiple workstreams but do not own exclusive file sets. The
   - Reads from: WS2 (scan reports, regex_patterns.py), SM (skill data, skill-manager-log.json)
   - Writes to: `data/secm-audit-log.json`, `data/skill-manager-log.json` (secm_fp_audit / secm_pattern_audit entries)
   - Invoked by PM only. Not in the normal verification chain.
+- **Memory Manager (MemM)** — Cross-role memory infrastructure, health auditor, 9 sub-agents. See `roles/MEMORY_MANAGER.md`.
+  - Owns: `memory/structured/*.json` (all 9 structured memory files)
+  - Reads from: all role memory files (unique cross-role visibility)
+  - Writes to: `memory/structured/*.json` (maintenance: consolidation, archival, schema migration)
+  - 4 Protocols: LOAD (before work), WRITE (after learning), EVOLVE (consolidation), HEALTH (integrity audit)
+  - Sub-agents: MemM-PM, MemM-VM, MemM-SecM, MemM-SM, MemM-AXM, MemM-DocM, MemM-DplM, MemM-FrtM, MemM-Self
+  - Reports to PM only. Does not decide corrections (PM + SecM do that).
+
+### Pre-Approved Direct Handoffs
+
+These routine operations are pre-approved by PM and do not require PM intermediation each time:
+
+| From | To | Trigger | Scope |
+|------|----|---------|-------|
+| SM → AXM | After verification batch completes | "Rebuild packages" — AXM runs `build_packages.py` |
+| DocM → DeployM | After doc-only fixes complete | Doc-only commits (no code/data changes). DeployM reviews diff is doc-only before committing |
+| VM → DocM | After pattern fix implementation | "Pattern X changed — update pattern docs" notification |
+| DeployM → FrontendM | After every deploy to production | "Verify human UI" — FrontendM runs visual QA |
+| DeployM → AXM | After every deploy to production | "Verify agent endpoints" — AXM tests entry.md + API |
+| Any Role → MemM | After writing to own memory | "Audit my write" — MemM sub-agent validates schema + checks contradictions |
+| MemM → PM | After HEALTH or EVOLVE protocol | "Health report" / "Cross-role flag" — PM reviews and resolves |
+
+**Rule:** Any handoff that changes verification status, scores, or makes pass/fail decisions still requires PM approval.
 
 ## 4) Non-Negotiable Consistency Rules
 

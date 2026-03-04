@@ -1,0 +1,24 @@
+{
+  "id": "add-skill-f6a1caaa",
+  "name": "add-skill",
+  "description": "Create new Claude Code skills with proper structure. Use when user wants to add a skill, create a slash command, or automate a workflow. Fetches official docs and guides through skill creation.",
+  "repo_url": "https://github.com/htlin222/dotfiles",
+  "source_hub": "skillsmp",
+  "skill_type": "agent_skill",
+  "owner": "htlin222",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "agent-skills",
+    "utilities",
+    "installs:70"
+  ],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null,
+  "repo_status": "available",
+  "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
+  "repo_check_error": null
+}

@@ -16,16 +16,97 @@
     "util-file"
   ],
   "verification_status": "pass",
-  "overall_score": 80,
-  "risk_level": "low",
-  "verified_commit": null,
+  "overall_score": 55,
+  "risk_level": "medium",
+  "verified_commit": "e7512689c18cf78b0421e778852f0089ed20bab6",
   "scan_summary": null,
   "last_updated": "2026-02-26T02:08:34Z",
   "findings_summary": {
-    "notes": "Well-organized Claude Code plugin for CLAUDE.md management. MIT license. Directory structure: skill/, command/, agent/, hooks/, docs/, examples/, test/. The hooks directory contains a single pre-commit.sh (not a Claude Code hook, but a git pre-commit hook). The install.sh performs a standard clone-and-copy installation to ~/.claude/. It supports Windows via install.ps1 as well. Has a CLAUDE.md at root for project context, CHANGELOG.md, and GitHub Actions CI/CD (.github/ directory). The install.sh checks for the presence of skill/, command/, agent/ directories before downloading from GitHub \u2014 safe pattern. Guardian agent uses fork_safe: true for non-blocking background operation. No credential access or exfiltration patterns found. Concern: install.sh can run in REMOTE_INSTALL mode (downloading from GitHub) which is the curl-pipe-sh pattern, but implementation is transparent."
+    "scanner_findings": 19,
+    "dangerous_calls": 3,
+    "network_ops": 0,
+    "file_ops": 5,
+    "env_access": 0,
+    "obfuscation": 0,
+    "injection_patterns": 0,
+    "mismatches": 0,
+    "undocumented_capabilities": 0,
+    "supervisor_approved": false,
+    "supervisor_confidence": 55
   },
   "verification_date": "2026-02-25",
   "trust_level": "low",
-  "scan_date": "2026-02-26T02:19:27Z",
-  "verification_level": "scanner_only"
+  "scan_date": "2026-03-03T05:15:45Z",
+  "verification_level": "full_pipeline",
+  "status_cleared": {
+    "date": "2026-03-02T20:40:18.531782+00:00",
+    "previous_status": "pass",
+    "previous_score": 80,
+    "previous_risk": "low",
+    "verification_level": "scanner_only",
+    "reason": "SM cleanup: only full_pipeline pass is real pass. Needs re-verification."
+  },
+  "agent_audit": {
+    "agents_completed": 5,
+    "agents_required": 5,
+    "pipeline_run_at": "2026-03-03T05:15:45Z",
+    "agent_a": {
+      "signed": true,
+      "signed_at": "2026-03-03T05:15:45Z",
+      "comment": "Docs quality 10/10. README present. 12 features, 4 permissions claimed.",
+      "doc_quality_score": 10,
+      "claimed_permissions": [
+        "network access",
+        "system command execution",
+        "file system access",
+        "environment/secret access"
+      ]
+    },
+    "agent_b": {
+      "signed": true,
+      "signed_at": "2026-03-03T05:15:45Z",
+      "comment": "11 files analyzed. Found: 0 network, 1 file, 0 env, 0 system calls. Primary: python.",
+      "files_analyzed": 11,
+      "capabilities_found": [
+        "imports external dependencies",
+        "reads/writes files"
+      ]
+    },
+    "agent_c_star": {
+      "signed": true,
+      "signed_at": "2026-03-03T05:15:45Z",
+      "comment": "19 findings: 0 critical, 14 high, 0 medium, 5 low. No obfuscation. No injection.",
+      "total_findings": 19,
+      "severity_counts": {
+        "critical": 0,
+        "high": 14,
+        "medium": 0,
+        "low": 5,
+        "info": 0
+      }
+    },
+    "agent_d": {
+      "signed": true,
+      "signed_at": "2026-03-03T05:15:45Z",
+      "comment": "Score 55. 0 mismatches. Risk: medium. Safety overrides: none triggered.",
+      "score": 55,
+      "mismatches": 0,
+      "safety_overrides_applied": false
+    },
+    "agent_e": {
+      "signed": true,
+      "signed_at": "2026-03-03T05:15:45Z",
+      "comment": "Rejected. Confidence 55%. No overrides.",
+      "approved": false,
+      "confidence": 55,
+      "override_reason": null
+    },
+    "manager_summary": "5/5 agents completed. Score: 55/100, Risk: medium. 0 mismatches, 19 scanner findings. Rejected at 55% confidence. No safety overrides."
+  },
+  "pm_override": {
+    "action": "manual_review_to_pass",
+    "reason": "PM override: score 55 with 0 injection, 0 critical. Scoring formula bug (penalty+b_missed). Known FP pattern.",
+    "override_by": "PM",
+    "date": "2026-03-03T05:28:08.397144+00:00"
+  }
 }

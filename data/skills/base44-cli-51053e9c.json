@@ -1,0 +1,24 @@
+{
+  "id": "base44-cli-51053e9c",
+  "name": "base44-cli",
+  "description": "The base44 CLI is used for EVERYTHING related to base44 projects: resource configuration (entities, backend functions, ai agents), initialization and actions (resource creation, deployment). This skill is the place for learning about how to configure resources. When you plan or implement a feature, you must learn this skill",
+  "repo_url": "https://github.com/base44/skills",
+  "source_hub": "skillsmp",
+  "skill_type": "agent_skill",
+  "owner": "base44",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "agent-skills",
+    "dev-web-backend",
+    "installs:494"
+  ],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null,
+  "repo_status": "available",
+  "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
+  "repo_check_error": null
+}

@@ -12,7 +12,7 @@
     "integ",
     "prod-pm"
   ],
-  "verification_status": "pass",
+  "verification_status": "unverified",
   "overall_score": 85,
   "risk_level": "info",
   "verified_commit": "c9210bfa7956add66e33a6ae80c22aa6ff7d7df5",
@@ -23,5 +23,13 @@
     "category_counts": {}
   },
   "scan_date": "2026-02-28T04:42:59Z",
-  "verification_level": "scanner_only"
+  "status_cleared": {
+    "date": "2026-03-02T20:40:18.531782+00:00",
+    "previous_status": "pass",
+    "previous_score": 85,
+    "previous_risk": "info",
+    "verification_level": "scanner_only",
+    "reason": "SM cleanup: only full_pipeline pass is real pass. Needs re-verification."
+  },
+  "skill_type": "mcp_server"
 }

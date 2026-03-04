@@ -1,0 +1,24 @@
+{
+  "id": "apple-calendar-edbc0bbe",
+  "name": "apple-calendar",
+  "description": "Query and manage Apple Calendar on macOS via `icalBuddy` (read) and AppleScript (`osascript`) for event creation. Use when users ask about upcoming events or adding calendar events.",
+  "repo_url": "https://github.com/microclaw/microclaw",
+  "source_hub": "skillsmp",
+  "skill_type": "agent_skill",
+  "owner": "microclaw",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "agent-skills",
+    "utilities",
+    "installs:186"
+  ],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null,
+  "repo_status": "available",
+  "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
+  "repo_check_error": null
+}

@@ -1,0 +1,24 @@
+{
+  "id": "codebase-architecture-analysis-935225cd",
+  "name": "codebase-architecture-analysis",
+  "description": "Analyze a GitHub codebase to create comprehensive architecture documentation including ASCII diagrams, component relationships, data flow, hosting infrastructure, and file structure assessment.",
+  "repo_url": "https://github.com/thomasgauvin/claude-agent-sdk-in-cloudflare-containers",
+  "source_hub": "skillsmp",
+  "skill_type": "agent_skill",
+  "owner": "thomasgauvin",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "agent-skills",
+    "dev-web-frontend",
+    "installs:42"
+  ],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null,
+  "repo_status": "available",
+  "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
+  "repo_check_error": null
+}

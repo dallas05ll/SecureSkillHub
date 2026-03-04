@@ -6,15 +6,92 @@
   "source_hub": "mcp_so",
   "owner": "furey",
   "stars": 199,
-  "primary_language": "unknown",
+  "primary_language": "javascript",
   "tags": [
     "data",
     "data-db"
   ],
-  "verification_status": "fail",
-  "overall_score": 10,
-  "risk_level": "critical",
+  "verification_status": "pass",
+  "overall_score": 73,
+  "risk_level": "medium",
   "verified_commit": "9cce4b83bf9ed4bbde29079b88d61344c3277eff",
   "scan_summary": null,
-  "scan_date": "2026-02-27T06:14:43Z"
+  "scan_date": "2026-03-03T05:15:46Z",
+  "pm_override": {
+    "action": "manual_review_to_pass",
+    "reason": "PM override: score 73 with 0 injection, 0 critical. Scoring formula bug (penalty+b_missed). Known FP pattern.",
+    "override_by": "PM",
+    "date": "2026-03-03T05:28:08.397144+00:00"
+  },
+  "verification_level": "full_pipeline",
+  "findings_summary": {
+    "scanner_findings": 16,
+    "dangerous_calls": 0,
+    "network_ops": 0,
+    "file_ops": 0,
+    "env_access": 15,
+    "obfuscation": 0,
+    "injection_patterns": 0,
+    "mismatches": 1,
+    "undocumented_capabilities": 1,
+    "supervisor_approved": false,
+    "supervisor_confidence": 73
+  },
+  "agent_audit": {
+    "agents_completed": 5,
+    "agents_required": 5,
+    "pipeline_run_at": "2026-03-03T05:15:46Z",
+    "agent_a": {
+      "signed": true,
+      "signed_at": "2026-03-03T05:15:46Z",
+      "comment": "Docs quality 9/10. README present. 12 features, 3 permissions claimed.",
+      "doc_quality_score": 9,
+      "claimed_permissions": [
+        "network access",
+        "system command execution",
+        "file system access"
+      ]
+    },
+    "agent_b": {
+      "signed": true,
+      "signed_at": "2026-03-03T05:15:46Z",
+      "comment": "5 files analyzed. Found: 0 network, 0 file, 5 env, 0 system calls. Primary: javascript.",
+      "files_analyzed": 5,
+      "capabilities_found": [
+        "imports external dependencies",
+        "reads environment values"
+      ]
+    },
+    "agent_c_star": {
+      "signed": true,
+      "signed_at": "2026-03-03T05:15:46Z",
+      "comment": "16 findings: 0 critical, 1 high, 15 medium, 0 low. No obfuscation. No injection.",
+      "total_findings": 16,
+      "severity_counts": {
+        "critical": 0,
+        "high": 1,
+        "medium": 15,
+        "low": 0,
+        "info": 0
+      }
+    },
+    "agent_d": {
+      "signed": true,
+      "signed_at": "2026-03-03T05:15:46Z",
+      "comment": "Score 73. 1 mismatches. Risk: medium. Safety overrides: none triggered.",
+      "score": 73,
+      "mismatches": 1,
+      "safety_overrides_applied": false
+    },
+    "agent_e": {
+      "signed": true,
+      "signed_at": "2026-03-03T05:15:46Z",
+      "comment": "Rejected. Confidence 73%. No overrides.",
+      "approved": false,
+      "confidence": 73,
+      "override_reason": null
+    },
+    "manager_summary": "5/5 agents completed. Score: 73/100, Risk: medium. 1 mismatches, 16 scanner findings. Rejected at 73% confidence. No safety overrides."
+  },
+  "skill_type": "mcp_server"
 }

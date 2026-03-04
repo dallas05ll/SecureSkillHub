@@ -1,0 +1,24 @@
+{
+  "id": "audio-to-srt-converter-4261c9d4",
+  "name": "audio-to-srt-converter",
+  "description": "This skill should be used when the user asks to \"convert audio to srt\", \"generate subtitles from audio\", \"create srt from mp3/wav/m4a/flac\", \"transcribe audio to subtitles\", or needs to generate SRT subtitle files from audio files (MP3, WAV, M4A, FLAC, etc.) with customizable character limits and timeline adjustments.",
+  "repo_url": "https://github.com/dean9703111/ai-agent-skill-for-video-workflow",
+  "source_hub": "skillsmp",
+  "skill_type": "agent_skill",
+  "owner": "dean9703111",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "agent-skills",
+    "utilities",
+    "installs:73"
+  ],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null,
+  "repo_status": "available",
+  "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
+  "repo_check_error": null
+}

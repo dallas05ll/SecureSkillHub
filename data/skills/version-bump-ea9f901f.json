@@ -1,0 +1,24 @@
+{
+  "id": "version-bump-ea9f901f",
+  "name": "version-bump",
+  "description": "Cargo.tomlのバージョンをセマンティックバージョニングに従ってバンプアップし、git tagを作成する。前回のgit tagからの差分を分析してバージョン種別（major/minor/patch）を自動判定する。「バージョンを上げて」「リリースして」「version bump」「バージョンアップ」などのリクエストで起動。",
+  "repo_url": "https://github.com/skanehira/version-lsp",
+  "source_hub": "skillsmp",
+  "skill_type": "agent_skill",
+  "owner": "skanehira",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "agent-skills",
+    "utilities",
+    "installs:54"
+  ],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null,
+  "repo_status": "available",
+  "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
+  "repo_check_error": null
+}

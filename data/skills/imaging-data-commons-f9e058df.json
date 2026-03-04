@@ -1,0 +1,24 @@
+{
+  "id": "imaging-data-commons-f9e058df",
+  "name": "imaging-data-commons",
+  "description": "Query and download public cancer imaging data from NCI Imaging Data Commons using idc-index. Use for accessing large-scale radiology (CT, MR, PET) and pathology datasets for AI training or research. No authentication required. Query by metadata, visualize in browser, check licenses.",
+  "repo_url": "https://github.com/imagingdatacommons/idc-claude-skill",
+  "source_hub": "skillsmp",
+  "skill_type": "agent_skill",
+  "owner": "imagingdatacommons",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "agent-skills",
+    "security",
+    "installs:16"
+  ],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null,
+  "repo_status": "available",
+  "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
+  "repo_check_error": null
+}

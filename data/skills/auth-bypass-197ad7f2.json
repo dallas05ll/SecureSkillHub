@@ -1,0 +1,24 @@
+{
+  "id": "auth-bypass-197ad7f2",
+  "name": "auth-bypass",
+  "description": "认证绕过漏洞检测与利用。当目标存在登录功能、权限控制、JWT/Session 认证时使用。包括 IDOR、越权访问等。",
+  "repo_url": "https://github.com/yhy0/chying-agent",
+  "source_hub": "skillsmp",
+  "skill_type": "agent_skill",
+  "owner": "yhy0",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "agent-skills",
+    "security",
+    "installs:352"
+  ],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null,
+  "repo_status": "available",
+  "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
+  "repo_check_error": null
+}

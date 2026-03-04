@@ -1,0 +1,24 @@
+{
+  "id": "e2e-6f73c0a7",
+  "name": "e2e",
+  "description": "Add E2E tests for new coins or update existing Playwright tests for ledger-live-desktop. Use when the user wants to add send/receive e2e tests for a new cryptocurrency, update test configurations, or work with Speculos device simulator.",
+  "repo_url": "https://github.com/ledgerhq/ledger-live",
+  "source_hub": "skillsmp",
+  "skill_type": "agent_skill",
+  "owner": "ledgerhq",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "agent-skills",
+    "dev-testing",
+    "installs:566"
+  ],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null,
+  "repo_status": "available",
+  "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
+  "repo_check_error": null
+}

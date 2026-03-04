@@ -1,0 +1,24 @@
+{
+  "id": "automating-browser-16209926",
+  "name": "automating-browser",
+  "description": "Controls Chrome browser: takes screenshots, clicks buttons, fills forms, downloads images, inspects pages, captures network requests, checks console errors, debugs API issues. Use when: 'screenshot', 'click', 'fill form', 'download image', 'check browser', 'look at screen', 'capture page', 'check for errors', 'debug network', 'API failing', 'console errors'. Provides MCP tool discovery for 70 tabz_* browser automation tools.",
+  "repo_url": "https://github.com/ggprompts/tabzchrome",
+  "source_hub": "skillsmp",
+  "skill_type": "agent_skill",
+  "owner": "ggprompts",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "agent-skills",
+    "utilities",
+    "installs:126"
+  ],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null,
+  "repo_status": "available",
+  "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
+  "repo_check_error": null
+}

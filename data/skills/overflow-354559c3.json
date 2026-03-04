@@ -1,0 +1,24 @@
+{
+  "id": "overflow-354559c3",
+  "name": "overflow",
+  "description": "Write technical Q&A responses as markdown files to Claude Overflow. Use for programming questions, code explanations, debugging help, API usage. The response becomes a permanent archived answer viewable in a web UI.",
+  "repo_url": "https://github.com/poliha/claude-overflow",
+  "source_hub": "skillsmp",
+  "skill_type": "agent_skill",
+  "owner": "poliha",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "agent-skills",
+    "utilities",
+    "installs:10"
+  ],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null,
+  "repo_status": "available",
+  "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
+  "repo_check_error": null
+}

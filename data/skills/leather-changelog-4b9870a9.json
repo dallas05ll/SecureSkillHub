@@ -1,0 +1,24 @@
+{
+  "id": "leather-changelog-4b9870a9",
+  "name": "leather-changelog",
+  "description": "Generate product changelog entries, X/Twitter posts, and Slack announcements for Leather wallet releases. Use when creating release communications including changelog entries for app.leather.io/changelog, announcement tweets (single or threads), and community Slack posts. Inputs may include verbal feature descriptions, Linear projects, or GitHub PRs.",
+  "repo_url": "https://github.com/leather-io/mono",
+  "source_hub": "skillsmp",
+  "skill_type": "agent_skill",
+  "owner": "leather-io",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "agent-skills",
+    "utilities",
+    "installs:25"
+  ],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null,
+  "repo_status": "available",
+  "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
+  "repo_check_error": null
+}

@@ -12,7 +12,7 @@
     "prod-comm",
     "productivity-email"
   ],
-  "verification_status": "pass",
+  "verification_status": "unverified",
   "overall_score": 85,
   "risk_level": "info",
   "verified_commit": "a698d7019fa9afdc3bf6b30ca6289bf7179a2e76",
@@ -23,5 +23,13 @@
     "category_counts": {}
   },
   "scan_date": "2026-02-28T04:14:40Z",
-  "verification_level": "scanner_only"
+  "status_cleared": {
+    "date": "2026-03-02T20:40:18.531782+00:00",
+    "previous_status": "pass",
+    "previous_score": 85,
+    "previous_risk": "info",
+    "verification_level": "scanner_only",
+    "reason": "SM cleanup: only full_pipeline pass is real pass. Needs re-verification."
+  },
+  "skill_type": "mcp_server"
 }

@@ -1,0 +1,24 @@
+{
+  "id": "translate-pdf-f532049e",
+  "name": "translate-pdf",
+  "description": "Translate PDF documents to any language while preserving original structure, layout, and styling (colors, backgrounds, positions).\nUse when user wants to: (1) translate a PDF to another language, (2) convert PDF from one language to another, (3) create translated version of PDF document.\nTriggers: \"translate PDF\", \"PDF翻译\", \"把PDF翻译成\", \"translate this PDF to Chinese/English/Japanese\", \"翻译成中文/英文\"",
+  "repo_url": "https://github.com/wshuyi/translate-pdf-skill",
+  "source_hub": "skillsmp",
+  "skill_type": "agent_skill",
+  "owner": "wshuyi",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "agent-skills",
+    "utilities",
+    "installs:52"
+  ],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null,
+  "repo_status": "available",
+  "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
+  "repo_check_error": null
+}

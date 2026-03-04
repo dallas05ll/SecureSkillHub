@@ -1,0 +1,24 @@
+{
+  "id": "investigating-kilroy-runs-01dc417d",
+  "name": "investigating-kilroy-runs",
+  "description": "To diagnose active, stuck, or failed Kilroy Attractor runs, inspect run artifacts (`manifest.json`, `live.json`, `checkpoint.json`, `final.json`, `progress.ndjson`), resolve run IDs/log roots, identify model/provider routing, and isolate failure causes. Includes CXDB operations for launching/probing CXDB, opening the CXDB UI, and querying run context turns. This skill is useful when investigating run status, debugging retries/failures, explaining model usage, or inspecting CXDB-backed event h...",
+  "repo_url": "https://github.com/danshapiro/kilroy",
+  "source_hub": "skillsmp",
+  "skill_type": "agent_skill",
+  "owner": "danshapiro",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "agent-skills",
+    "utilities",
+    "installs:86"
+  ],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null,
+  "repo_status": "available",
+  "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
+  "repo_check_error": null
+}

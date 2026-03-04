@@ -1,0 +1,24 @@
+{
+  "id": "prd-doc-writer-da27d7a1",
+  "name": "prd-doc-writer",
+  "description": "Write and iteratively refine PRD/需求文档 with a story-driven structure and strict staged confirmations (journey map alignment, per-story single-point confirmation, final generation gate). Use when the user asks to 梳理/撰写/完善 PRD、需求文档、用户故事、验收标准，并希望用 ASCII 线框图与 Mermaid（流程图/状态图/时序图）来减少歧义、共同完成文档。",
+  "repo_url": "https://github.com/yunshu0909/yunshu_skillshub",
+  "source_hub": "skillsmp",
+  "skill_type": "agent_skill",
+  "owner": "yunshu0909",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "agent-skills",
+    "utilities",
+    "installs:182"
+  ],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null,
+  "repo_status": "available",
+  "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
+  "repo_check_error": null
+}

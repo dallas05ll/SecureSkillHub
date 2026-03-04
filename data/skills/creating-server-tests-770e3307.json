@@ -1,0 +1,24 @@
+{
+  "id": "creating-server-tests-770e3307",
+  "name": "creating-server-tests",
+  "description": "moorestech_serverのNUnitテストを作成するスキル。テストの雛形生成、初期化パターン、命名規約、 テスト用IDの使い方を含む。 Use when: (1) moorestech_serverに新しいテストクラスを追加する時 (2) 「テストを書いて」「テストを作成して」とサーバー側のテスト作成を依頼された時 (3) 既存機能のテストカバレッジを追加する時 (4) CombinedTest/UnitTest/PacketTestのいずれかを作成する時",
+  "repo_url": "https://github.com/moorestech/moorestech",
+  "source_hub": "skillsmp",
+  "skill_type": "agent_skill",
+  "owner": "moorestech",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "agent-skills",
+    "utilities",
+    "installs:61"
+  ],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null,
+  "repo_status": "available",
+  "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
+  "repo_check_error": null
+}

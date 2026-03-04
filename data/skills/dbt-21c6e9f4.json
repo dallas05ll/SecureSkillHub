@@ -1,0 +1,24 @@
+{
+  "id": "dbt-21c6e9f4",
+  "name": "dbt",
+  "description": "Use when building dbt models, adding tests, or designing data models. Covers dimensional modeling, model organization (staging/intermediate/marts), testing patterns, and warehouse-specific configurations.",
+  "repo_url": "https://github.com/bbrewington/software-data-and-ai-tools",
+  "source_hub": "skillsmp",
+  "skill_type": "agent_skill",
+  "owner": "bbrewington",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "agent-skills",
+    "dev-testing",
+    "installs:23"
+  ],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null,
+  "repo_status": "available",
+  "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
+  "repo_check_error": null
+}

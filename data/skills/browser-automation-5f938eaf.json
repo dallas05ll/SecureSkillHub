@@ -1,0 +1,24 @@
+{
+  "id": "browser-automation-5f938eaf",
+  "name": "browser-automation",
+  "description": "Gull runtime usage guide for browser automation sandboxes. Covers the agent-browser CLI passthrough model, snapshot-based element referencing, single vs batch execution strategies, artifact handling, and browser state persistence. Use this when working inside a Gull container to understand command syntax, critical rules for reliable automation, and common patterns for navigation, form filling, data extraction, and screenshot capture.",
+  "repo_url": "https://github.com/astrbotdevs/shipyard-neo",
+  "source_hub": "skillsmp",
+  "skill_type": "agent_skill",
+  "owner": "astrbotdevs",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "agent-skills",
+    "utilities",
+    "installs:13"
+  ],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null,
+  "repo_status": "available",
+  "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
+  "repo_check_error": null
+}

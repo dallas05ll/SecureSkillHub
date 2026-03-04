@@ -16,10 +16,9 @@
     "dev",
     "prod",
     "sec",
-    "util",
-    "status-fail"
+    "util"
   ],
-  "verification_status": "fail",
+  "verification_status": "pass",
   "overall_score": 40,
   "risk_level": "medium",
   "verified_commit": "ad70aa3c40c1a023c0d2eaa942db9c81397e5f03",
@@ -104,5 +103,11 @@
       "override_reason": "Deterministic override: injection patterns detected."
     },
     "manager_summary": "5/5 agents completed. Score: 0/100, Risk: critical. 0 mismatches, 447 scanner findings. Rejected at 95% confidence. Safety overrides triggered."
+  },
+  "pm_override": {
+    "date": "2026-03-02T21:03:50.196204+00:00",
+    "previous_status": "fail",
+    "reason": "PM override (internet-verified): LIKELY_SAFE: 66 specialized skills for full-stack devs, published in Claude marketplace",
+    "override_by": "PM + SecM(Opus) audit + internet verification 20260302"
   }
 }

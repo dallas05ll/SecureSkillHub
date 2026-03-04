@@ -1,0 +1,24 @@
+{
+  "id": "audit-website-06828d87",
+  "name": "audit-website",
+  "description": "Audit websites for SEO, technical, content, and security issues using squirrelscan CLI. Returns LLM-optimized reports with health scores, broken links, meta tag analysis, and actionable recommendations. Use when analyzing websites, debugging SEO issues, or checking site health.",
+  "repo_url": "https://github.com/nakafaai/nakafa.com",
+  "source_hub": "skillsmp",
+  "skill_type": "agent_skill",
+  "owner": "nakafaai",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "agent-skills",
+    "data-ai",
+    "installs:73"
+  ],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null,
+  "repo_status": "available",
+  "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
+  "repo_check_error": null
+}

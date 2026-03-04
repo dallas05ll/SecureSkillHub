@@ -1,0 +1,24 @@
+{
+  "id": "git-safety-b8b2306a",
+  "name": "git-safety",
+  "description": "Git safety rules. INVOKE WHEN: git push, force push, git reset, git clean, destructive git, push force, reset hard. NEVER force push or do destructive git operations.",
+  "repo_url": "https://github.com/tamagui/tamagui",
+  "source_hub": "skillsmp",
+  "skill_type": "agent_skill",
+  "owner": "tamagui",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "agent-skills",
+    "dev-git",
+    "installs:13719"
+  ],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null,
+  "repo_status": "available",
+  "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
+  "repo_check_error": null
+}

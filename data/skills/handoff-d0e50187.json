@@ -1,0 +1,24 @@
+{
+  "id": "handoff-d0e50187",
+  "name": "handoff",
+  "description": "Manages context transfer between AI coding sessions. Activates when HANDOFF.md exists, when user mentions handoff/resume, or when ending significant work.",
+  "repo_url": "https://github.com/willseltzer/claude-handoff",
+  "source_hub": "skillsmp",
+  "skill_type": "agent_skill",
+  "owner": "willseltzer",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "agent-skills",
+    "utilities",
+    "installs:17"
+  ],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null,
+  "repo_status": "available",
+  "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
+  "repo_check_error": null
+}

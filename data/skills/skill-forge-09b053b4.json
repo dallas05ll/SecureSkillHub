@@ -1,0 +1,24 @@
+{
+  "id": "skill-forge-09b053b4",
+  "name": "skill-forge",
+  "description": "Automated skill creation workshop with intelligent source detection, smart path management, and end-to-end workflow automation. This skill should be used when users want to create a new skill or convert external resources (GitHub repositories, online documentation, or local directories) into a skill. Automatically fetches, organizes, and packages skills with proactive cleanup management.",
+  "repo_url": "https://github.com/williamsaysx/skill-forge",
+  "source_hub": "skillsmp",
+  "skill_type": "agent_skill",
+  "owner": "williamsaysx",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "agent-skills",
+    "utilities",
+    "installs:37"
+  ],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null,
+  "repo_status": "available",
+  "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
+  "repo_check_error": null
+}

@@ -1,0 +1,24 @@
+{
+  "id": "changelog-management-5b89e00b",
+  "name": "changelog-management",
+  "description": "Generates changelogs for products from conventional commit history. Use when preparing a release, updating release documentation, or previewing unreleased changes before creating a release branch.",
+  "repo_url": "https://github.com/umbraco/umbraco.ai",
+  "source_hub": "skillsmp",
+  "skill_type": "agent_skill",
+  "owner": "umbraco",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "agent-skills",
+    "dev-git",
+    "installs:14"
+  ],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null,
+  "repo_status": "available",
+  "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
+  "repo_check_error": null
+}

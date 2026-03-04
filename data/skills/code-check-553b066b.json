@@ -1,0 +1,24 @@
+{
+  "id": "code-check-553b066b",
+  "name": "code-check",
+  "description": "Validate and lint code after changes. Use after editing Rust/TypeScript files, when user mentions compilation errors, type checking, linting, clippy warnings, or before commits/PRs. Ensures all code passes checks and has zero warnings.",
+  "repo_url": "https://github.com/edgeandnode/amp",
+  "source_hub": "skillsmp",
+  "skill_type": "agent_skill",
+  "owner": "edgeandnode",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "agent-skills",
+    "dev-git",
+    "installs:27"
+  ],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null,
+  "repo_status": "available",
+  "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
+  "repo_check_error": null
+}

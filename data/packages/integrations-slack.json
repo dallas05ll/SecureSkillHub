@@ -1,0 +1,29 @@
+{
+  "tag_path": "integrations-slack",
+  "label": "General Slack Package",
+  "description": "Top 1 verified slack skills, auto-curated by GitHub stars and security score.",
+  "skill_ids": [
+    "qwibitai--nanoclaw"
+  ],
+  "skills": [
+    {
+      "id": "qwibitai--nanoclaw",
+      "name": "nanoclaw",
+      "description": "Lightweight AI assistant running Claude agents in isolated containers. Supports WhatsApp, Telegram, Discord, Slack, and agent swarms.",
+      "repo_url": "https://github.com/qwibitai/nanoclaw",
+      "stars": 14543,
+      "overall_score": 100,
+      "verification_status": "pass",
+      "risk_level": "high",
+      "primary_language": "TypeScript",
+      "install_url": "https://github.com/qwibitai/nanoclaw",
+      "skill_type": "mcp_server"
+    }
+  ],
+  "total_skills": 1,
+  "total_candidates": 1,
+  "avg_score": 100.0,
+  "min_score": 100,
+  "top_stars": 14543,
+  "generated_at": "2026-03-02T22:27:24Z"
+}

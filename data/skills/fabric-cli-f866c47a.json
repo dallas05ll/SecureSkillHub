@@ -1,0 +1,24 @@
+{
+  "id": "fabric-cli-f866c47a",
+  "name": "fabric-cli",
+  "description": "Use Microsoft Fabric CLI (fab) to manage workspaces, semantic models, reports, notebooks, lakehouses, and other Fabric resources via file-system metaphor and commands. Use when deploying Fabric items, running jobs, querying data, managing OneLake files, or automating Fabric operations. Invoke this skill automatically whenever a user mentions the Fabric CLI, fab, or Fabric.",
+  "repo_url": "https://github.com/data-goblin/fabric-cli-plugin",
+  "source_hub": "skillsmp",
+  "skill_type": "agent_skill",
+  "owner": "data-goblin",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "agent-skills",
+    "utilities",
+    "installs:18"
+  ],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null,
+  "repo_status": "available",
+  "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
+  "repo_check_error": null
+}

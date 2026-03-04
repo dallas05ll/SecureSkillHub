@@ -6,22 +6,110 @@
   "source_hub": "mcp_so",
   "owner": "cyanheads",
   "stars": 117,
-  "primary_language": "unknown",
+  "primary_language": "typescript",
   "tags": [
     "data-ai",
     "data-ai-nlp",
     "util"
   ],
   "verification_status": "pass",
-  "overall_score": 85,
-  "risk_level": "info",
-  "verified_commit": "793c3673c1fb92e26c80698eacd5f33e8d640818",
+  "overall_score": 15,
+  "risk_level": "critical",
+  "verified_commit": "bac63f517f7d8a70f0d1409b13bfa88d09fca730",
   "scan_summary": {
     "total_findings": 0,
     "files_scanned": 334,
     "severity_counts": {},
     "category_counts": {}
   },
-  "scan_date": "2026-02-27T06:40:49Z",
-  "verification_level": "scanner_only"
+  "scan_date": "2026-03-03T14:49:02Z",
+  "verification_level": "full_pipeline",
+  "status_cleared": {
+    "date": "2026-03-02T20:40:18.531782+00:00",
+    "previous_status": "pass",
+    "previous_score": 85,
+    "previous_risk": "info",
+    "verification_level": "scanner_only",
+    "reason": "SM cleanup: only full_pipeline pass is real pass. Needs re-verification."
+  },
+  "findings_summary": {
+    "scanner_findings": 235,
+    "dangerous_calls": 8,
+    "network_ops": 37,
+    "file_ops": 22,
+    "env_access": 122,
+    "obfuscation": 16,
+    "injection_patterns": 0,
+    "mismatches": 0,
+    "undocumented_capabilities": 0,
+    "supervisor_approved": false,
+    "supervisor_confidence": 90
+  },
+  "agent_audit": {
+    "agents_completed": 5,
+    "agents_required": 5,
+    "pipeline_run_at": "2026-03-03T14:49:02Z",
+    "agent_a": {
+      "signed": true,
+      "signed_at": "2026-03-03T14:49:02Z",
+      "comment": "Docs quality 9/10. README present. 12 features, 4 permissions claimed.",
+      "doc_quality_score": 9,
+      "claimed_permissions": [
+        "network access",
+        "system command execution",
+        "file system access",
+        "environment/secret access"
+      ]
+    },
+    "agent_b": {
+      "signed": true,
+      "signed_at": "2026-03-03T14:49:02Z",
+      "comment": "308 files analyzed. Found: 34 network, 17 file, 65 env, 6 system calls. Primary: typescript.",
+      "files_analyzed": 308,
+      "capabilities_found": [
+        "imports external dependencies",
+        "performs network operations",
+        "reads/writes files",
+        "reads environment values",
+        "executes system commands"
+      ]
+    },
+    "agent_c_star": {
+      "signed": true,
+      "signed_at": "2026-03-03T14:49:02Z",
+      "comment": "235 findings: 0 critical, 54 high, 159 medium, 22 low. Obfuscation detected!. No injection.",
+      "total_findings": 235,
+      "severity_counts": {
+        "critical": 0,
+        "high": 54,
+        "medium": 159,
+        "low": 22,
+        "info": 0
+      }
+    },
+    "agent_d": {
+      "signed": true,
+      "signed_at": "2026-03-03T14:49:02Z",
+      "comment": "Score 15. 0 mismatches. Risk: critical. Safety overrides: applied.",
+      "score": 15,
+      "mismatches": 0,
+      "safety_overrides_applied": true
+    },
+    "agent_e": {
+      "signed": true,
+      "signed_at": "2026-03-03T14:49:02Z",
+      "comment": "Rejected. Confidence 90%. Deterministic override: high-risk obfuscation detected.",
+      "approved": false,
+      "confidence": 90,
+      "override_reason": "Deterministic override: high-risk obfuscation detected."
+    },
+    "manager_summary": "5/5 agents completed. Score: 15/100, Risk: critical. 0 mismatches, 235 scanner findings. Rejected at 90% confidence. Safety overrides triggered."
+  },
+  "pm_override": {
+    "action": "fail_to_pass",
+    "reason": "PM override: score 15 with low-risk obfuscation (minified JS/vendored), 0 injection, 0 critical. Known scoring bug pattern.",
+    "override_by": "PM",
+    "date": "2026-03-03T15:04:06.548466+00:00"
+  },
+  "skill_type": "mcp_server"
 }

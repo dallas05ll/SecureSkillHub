@@ -1,14 +1,13 @@
 {
   "id": "mcp-n8n-builder-88b69057",
   "name": "mcp-n8n-builder",
-  "description": "🪄 MCP server for programmatic creation and management of n8n workflows. Enables AI assistants to build, modify, and manage workflows without direct user intervention through a comprehensive set of tools and resources for interacting with n8n's REST API.",
+  "description": "\ud83e\ude84 MCP server for programmatic creation and management of n8n workflows. Enables AI assistants to build, modify, and manage workflows without direct user intervention through a comprehensive set of tools and resources for interacting with n8n's REST API.",
   "repo_url": "https://github.com/spences10/mcp-n8n-builder",
   "source_hub": "mcp_so",
   "owner": "spences10",
   "stars": 82,
   "primary_language": "typescript",
   "tags": [
-    "status-fail",
     "data-ai",
     "integ",
     "prod",
@@ -117,5 +116,6 @@
       "override_reason": null
     },
     "manager_summary": "5/5 agents completed. Score: 100/100, Risk: high. 0 mismatches, 11 scanner findings. Rejected at 95% confidence. No safety overrides.\n[2026-03-01T06:14:16Z] PM review: fail. PM final decision: fail due to high-risk scanner findings."
-  }
+  },
+  "skill_type": "mcp_server"
 }

@@ -1,0 +1,24 @@
+{
+  "id": "codex-local-cli-e2e-594711ec",
+  "name": "codex-local-cli-e2e",
+  "description": "Run and debug Agmente iOS end-to-end tests against a real local Codex CLI app-server instance. Use when validating Codex websocket/protocol compatibility, connect/initialize/thread flows, or reproducing Codex-only UI test failures with an actual local Codex server.",
+  "repo_url": "https://github.com/rebornix/agmente",
+  "source_hub": "skillsmp",
+  "skill_type": "agent_skill",
+  "owner": "rebornix",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "agent-skills",
+    "dev-testing",
+    "installs:416"
+  ],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null,
+  "repo_status": "available",
+  "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
+  "repo_check_error": null
+}

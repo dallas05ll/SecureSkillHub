@@ -1,0 +1,24 @@
+{
+  "id": "react-devtools-92a7b475",
+  "name": "react-devtools",
+  "description": "React DevTools CLI for AI agents. Use when the user asks you to debug a React or React Native app at runtime, inspect component props/state/hooks, diagnose render performance, profile re-renders, find slow components, or understand why something re-renders. Triggers include \"why does this re-render\", \"inspect the component\", \"what props does X have\", \"profile the app\", \"find slow components\", \"debug the UI\", \"check component state\", \"the app feels slow\", or any React runtime debugging task.",
+  "repo_url": "https://github.com/piotrski/agent-react-devtools",
+  "source_hub": "skillsmp",
+  "skill_type": "agent_skill",
+  "owner": "piotrski",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "agent-skills",
+    "dev-web-frontend",
+    "installs:31"
+  ],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null,
+  "repo_status": "available",
+  "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
+  "repo_check_error": null
+}

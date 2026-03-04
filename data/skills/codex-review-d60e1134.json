@@ -1,0 +1,24 @@
+{
+  "id": "codex-review-d60e1134",
+  "name": "codex-review",
+  "description": "Professional code review skill for Claude Code. Automatically collects file changes and task status. Triggers when working directory has uncommitted changes, or reviews latest commit when clean. Triggers: code review, review, 代码审核, 代码审查, 检查代码",
+  "repo_url": "https://github.com/benedictking/codex-review",
+  "source_hub": "skillsmp",
+  "skill_type": "agent_skill",
+  "owner": "benedictking",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "agent-skills",
+    "dev-git",
+    "installs:232"
+  ],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null,
+  "repo_status": "available",
+  "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
+  "repo_check_error": null
+}

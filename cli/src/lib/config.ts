@@ -63,6 +63,6 @@ export function getApiUrl(): string {
 
 export function getSiteUrl(): string {
   return (
-    process.env.SECURESKILLHUB_SITE_URL ?? "https://secureskillhub.github.io"
+    process.env.SECURESKILLHUB_SITE_URL ?? "https://dallas05ll.github.io/SecureSkillHub"
   );
 }

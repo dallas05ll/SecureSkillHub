@@ -1,0 +1,24 @@
+{
+  "id": "docstring-2cc79ebd",
+  "name": "docstring",
+  "description": "Write docstrings for TorchRec functions and methods following PyTorch conventions. Use when writing or updating docstrings in TorchRec code.",
+  "repo_url": "https://github.com/meta-pytorch/torchrec",
+  "source_hub": "skillsmp",
+  "skill_type": "agent_skill",
+  "owner": "meta-pytorch",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "agent-skills",
+    "utilities",
+    "installs:2470"
+  ],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null,
+  "repo_status": "available",
+  "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
+  "repo_check_error": null
+}

@@ -14,15 +14,96 @@
     "dev"
   ],
   "verification_status": "pass",
-  "overall_score": 78,
+  "overall_score": 69,
   "risk_level": "medium",
-  "verified_commit": null,
+  "verified_commit": "ed7f5dbce5a741d3e0438d5eba2c95c86b4cc4dd",
   "scan_summary": null,
   "last_updated": "2026-02-25T08:46:36Z",
   "findings_summary": {
-    "notes": "Metadata-based verification. Score=78. Signals: stars=9; license='apache-2.0' (+5); owner='OutlineDriven' (+3); primary_language='markdown'; source_hub='github_search'. Status: pass. Risk: medium."
+    "scanner_findings": 14,
+    "dangerous_calls": 9,
+    "network_ops": 1,
+    "file_ops": 3,
+    "env_access": 1,
+    "obfuscation": 0,
+    "injection_patterns": 0,
+    "mismatches": 0,
+    "undocumented_capabilities": 0,
+    "supervisor_approved": false,
+    "supervisor_confidence": 69
   },
   "trust_level": "low",
-  "scan_date": "2026-02-26T06:14:56Z",
-  "verification_level": "metadata_only"
+  "scan_date": "2026-03-03T17:45:31Z",
+  "verification_level": "full_pipeline",
+  "status_cleared": {
+    "date": "2026-03-02T20:40:18.531782+00:00",
+    "previous_status": "pass",
+    "previous_score": 78,
+    "previous_risk": "medium",
+    "verification_level": "metadata_only",
+    "reason": "SM cleanup: only full_pipeline pass is real pass. Needs re-verification."
+  },
+  "agent_audit": {
+    "agents_completed": 5,
+    "agents_required": 5,
+    "pipeline_run_at": "2026-03-03T17:45:31Z",
+    "agent_a": {
+      "signed": true,
+      "signed_at": "2026-03-03T17:45:31Z",
+      "comment": "Docs quality 10/10. README present. 12 features, 4 permissions claimed.",
+      "doc_quality_score": 10,
+      "claimed_permissions": [
+        "network access",
+        "system command execution",
+        "file system access",
+        "environment/secret access"
+      ]
+    },
+    "agent_b": {
+      "signed": true,
+      "signed_at": "2026-03-03T17:45:31Z",
+      "comment": "7 files analyzed. Found: 0 network, 0 file, 0 env, 4 system calls. Primary: unknown.",
+      "files_analyzed": 7,
+      "capabilities_found": [
+        "imports external dependencies",
+        "executes system commands"
+      ]
+    },
+    "agent_c_star": {
+      "signed": true,
+      "signed_at": "2026-03-03T17:45:31Z",
+      "comment": "14 findings: 0 critical, 9 high, 2 medium, 3 low. No obfuscation. No injection.",
+      "total_findings": 14,
+      "severity_counts": {
+        "critical": 0,
+        "high": 9,
+        "medium": 2,
+        "low": 3,
+        "info": 0
+      }
+    },
+    "agent_d": {
+      "signed": true,
+      "signed_at": "2026-03-03T17:45:31Z",
+      "comment": "Score 69. 0 mismatches. Risk: medium. Safety overrides: none triggered.",
+      "score": 69,
+      "mismatches": 0,
+      "safety_overrides_applied": false
+    },
+    "agent_e": {
+      "signed": true,
+      "signed_at": "2026-03-03T17:45:31Z",
+      "comment": "Rejected. Confidence 69%. No overrides.",
+      "approved": false,
+      "confidence": 69,
+      "override_reason": null
+    },
+    "manager_summary": "5/5 agents completed. Score: 69/100, Risk: medium. 0 mismatches, 14 scanner findings. Rejected at 69% confidence. No safety overrides.",
+    "auto_clear": {
+      "applied": true,
+      "reason": "Auto-clear Cat 1: clean profile (0 inj, 0 obf_hr, 0 crit, score=69)",
+      "original_status": "manual_review",
+      "original_score": 69
+    }
+  }
 }

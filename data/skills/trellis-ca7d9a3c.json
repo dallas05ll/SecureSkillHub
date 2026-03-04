@@ -1,0 +1,24 @@
+{
+  "id": "trellis-ca7d9a3c",
+  "name": "trellis",
+  "description": "Control the Trellis development environment - check service status, view logs, restart services, run workflows, and switch worktrees",
+  "repo_url": "https://github.com/wingedpig/trellis",
+  "source_hub": "skillsmp",
+  "skill_type": "agent_skill",
+  "owner": "wingedpig",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "agent-skills",
+    "utilities",
+    "installs:11"
+  ],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null,
+  "repo_status": "available",
+  "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
+  "repo_check_error": null
+}

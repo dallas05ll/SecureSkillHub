@@ -1,0 +1,24 @@
+{
+  "id": "ai-summary-comment-5fcb40f6",
+  "name": "ai-summary-comment",
+  "description": "Posts or updates automated progress comments on GitHub PRs. Use after completing any PR agent phase (pre-flight, tests, gate, fix, report). Triggers on 'post comment to PR', 'update PR progress', 'comment on PR with results', 'post pre-flight comment'. Creates single aggregated review comment with collapsible sections per commit.",
+  "repo_url": "https://github.com/dotnet/maui",
+  "source_hub": "skillsmp",
+  "skill_type": "agent_skill",
+  "owner": "dotnet",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "agent-skills",
+    "dev-git",
+    "installs:23180"
+  ],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null,
+  "repo_status": "available",
+  "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
+  "repo_check_error": null
+}

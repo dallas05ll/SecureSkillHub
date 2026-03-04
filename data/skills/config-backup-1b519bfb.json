@@ -1,0 +1,24 @@
+{
+  "id": "config-backup-1b519bfb",
+  "name": "config-backup",
+  "description": "Backup network device configurations with group/role/site filtering. Use when user asks to \"backup config\", \"save configuration\", \"export configs\", or needs to persist device configurations.",
+  "repo_url": "https://github.com/yhvh-chen/olav",
+  "source_hub": "skillsmp",
+  "skill_type": "agent_skill",
+  "owner": "yhvh-chen",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "agent-skills",
+    "utilities",
+    "installs:11"
+  ],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null,
+  "repo_status": "available",
+  "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
+  "repo_check_error": null
+}

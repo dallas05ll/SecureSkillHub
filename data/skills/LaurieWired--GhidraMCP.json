@@ -11,7 +11,6 @@
   "description": "MCP Server for Ghidra enabling LLMs to autonomously reverse engineer binaries via decompilation, renaming, and analysis tools.",
   "primary_language": "Java",
   "tags": [
-    "status-manual_review",
     "data-ai",
     "util"
   ],

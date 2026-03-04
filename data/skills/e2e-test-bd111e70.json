@@ -1,0 +1,24 @@
+{
+  "id": "e2e-test-bd111e70",
+  "name": "e2e-test",
+  "description": "Run end-to-end tests that validate Vorpal services and client builds. Use when testing the full system (services + build pipeline), validating changes work end-to-end, or verifying services and clients communicate correctly.",
+  "repo_url": "https://github.com/alt-f4-llc/vorpal",
+  "source_hub": "skillsmp",
+  "skill_type": "agent_skill",
+  "owner": "alt-f4-llc",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "agent-skills",
+    "dev-devops",
+    "installs:109"
+  ],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null,
+  "repo_status": "available",
+  "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
+  "repo_check_error": null
+}

@@ -1,0 +1,24 @@
+{
+  "id": "tushare-plugin-builder-481423f1",
+  "name": "tushare-plugin-builder",
+  "description": "This skill should be used when the user provides a Tushare API document URL and asks to generate a full plugin in this codebase, including extractor, schema, config, query service, and agent/MCP/http usage with testable curl examples.",
+  "repo_url": "https://github.com/yourdaylight/stock_datasource",
+  "source_hub": "skillsmp",
+  "skill_type": "agent_skill",
+  "owner": "yourdaylight",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "agent-skills",
+    "utilities",
+    "installs:23"
+  ],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null,
+  "repo_status": "available",
+  "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
+  "repo_check_error": null
+}

@@ -1,0 +1,24 @@
+{
+  "id": "custom-fields-development-3d7f9c62",
+  "name": "custom-fields-development",
+  "description": "Adds dynamic custom fields to Eloquent models without migrations using Filament integration. Use when adding the UsesCustomFields trait to models, integrating custom fields in Filament forms/tables/infolists, configuring field types, working with field validation, or managing feature flags for conditional visibility, encryption, and multi-tenancy.",
+  "repo_url": "https://github.com/relaticle/custom-fields",
+  "source_hub": "skillsmp",
+  "skill_type": "agent_skill",
+  "owner": "relaticle",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "agent-skills",
+    "utilities",
+    "installs:151"
+  ],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null,
+  "repo_status": "available",
+  "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
+  "repo_check_error": null
+}

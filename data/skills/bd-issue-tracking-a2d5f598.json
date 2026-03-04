@@ -1,0 +1,24 @@
+{
+  "id": "bd-issue-tracking-a2d5f598",
+  "name": "bd-issue-tracking",
+  "description": "Track complex, multi-session work with dependency graphs using bd (beads) issue tracker. Use when work spans multiple sessions, has complex dependencies, or requires persistent context across compaction cycles. For simple single-session linear tasks, TodoWrite remains appropriate.",
+  "repo_url": "https://github.com/open-constructs/cdk-terrain",
+  "source_hub": "skillsmp",
+  "skill_type": "agent_skill",
+  "owner": "open-constructs",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "agent-skills",
+    "utilities",
+    "installs:95"
+  ],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null,
+  "repo_status": "available",
+  "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
+  "repo_check_error": null
+}

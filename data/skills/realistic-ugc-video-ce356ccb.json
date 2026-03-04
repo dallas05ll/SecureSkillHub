@@ -1,0 +1,24 @@
+{
+  "id": "realistic-ugc-video-ce356ccb",
+  "name": "realistic-ugc-video",
+  "description": "Create realistic long-form AI talking head/UGC videos that don't look AI-generated. Use when user wants to make \"realistic AI video\", \"UGC video\", \"talking head video\", \"AI spokesperson\", \"AI ad content\", \"video that looks real\", \"human-looking AI video\". Orchestrates Nano Banana for base images and Kling AI for video generation with natural pacing.",
+  "repo_url": "https://github.com/dennisonbertram/claude-media-skills",
+  "source_hub": "skillsmp",
+  "skill_type": "agent_skill",
+  "owner": "dennisonbertram",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "agent-skills",
+    "utilities",
+    "installs:22"
+  ],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null,
+  "repo_status": "available",
+  "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
+  "repo_check_error": null
+}

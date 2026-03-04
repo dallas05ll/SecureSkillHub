@@ -6,13 +6,13 @@
   "source_hub": "mcp_so",
   "owner": "weekend-project-space",
   "stars": 5,
-  "primary_language": "unknown",
+  "primary_language": "python",
   "tags": [
     "integ"
   ],
   "verification_status": "pass",
-  "overall_score": 85,
-  "risk_level": "info",
+  "overall_score": 89,
+  "risk_level": "medium",
   "verified_commit": "2d671cb4c868119917616a411f31f36bf12ce041",
   "scan_summary": {
     "total_findings": 0,
@@ -20,6 +20,85 @@
     "severity_counts": {},
     "category_counts": {}
   },
-  "scan_date": "2026-02-28T03:54:02Z",
-  "verification_level": "scanner_only"
+  "scan_date": "2026-03-03T17:52:44Z",
+  "verification_level": "full_pipeline",
+  "status_cleared": {
+    "date": "2026-03-02T20:40:18.531782+00:00",
+    "previous_status": "pass",
+    "previous_score": 85,
+    "previous_risk": "info",
+    "verification_level": "scanner_only",
+    "reason": "SM cleanup: only full_pipeline pass is real pass. Needs re-verification."
+  },
+  "findings_summary": {
+    "scanner_findings": 9,
+    "dangerous_calls": 0,
+    "network_ops": 1,
+    "file_ops": 0,
+    "env_access": 6,
+    "obfuscation": 0,
+    "injection_patterns": 0,
+    "mismatches": 0,
+    "undocumented_capabilities": 0,
+    "supervisor_approved": true,
+    "supervisor_confidence": 89
+  },
+  "agent_audit": {
+    "agents_completed": 5,
+    "agents_required": 5,
+    "pipeline_run_at": "2026-03-03T17:52:44Z",
+    "agent_a": {
+      "signed": true,
+      "signed_at": "2026-03-03T17:52:44Z",
+      "comment": "Docs quality 8/10. README present. 12 features, 3 permissions claimed.",
+      "doc_quality_score": 8,
+      "claimed_permissions": [
+        "network access",
+        "file system access",
+        "environment/secret access"
+      ]
+    },
+    "agent_b": {
+      "signed": true,
+      "signed_at": "2026-03-03T17:52:44Z",
+      "comment": "3 files analyzed. Found: 1 network, 0 file, 4 env, 0 system calls. Primary: python.",
+      "files_analyzed": 3,
+      "capabilities_found": [
+        "imports external dependencies",
+        "performs network operations",
+        "reads environment values"
+      ]
+    },
+    "agent_c_star": {
+      "signed": true,
+      "signed_at": "2026-03-03T17:52:44Z",
+      "comment": "9 findings: 0 critical, 2 high, 7 medium, 0 low. No obfuscation. No injection.",
+      "total_findings": 9,
+      "severity_counts": {
+        "critical": 0,
+        "high": 2,
+        "medium": 7,
+        "low": 0,
+        "info": 0
+      }
+    },
+    "agent_d": {
+      "signed": true,
+      "signed_at": "2026-03-03T17:52:44Z",
+      "comment": "Score 89. 0 mismatches. Risk: medium. Safety overrides: none triggered.",
+      "score": 89,
+      "mismatches": 0,
+      "safety_overrides_applied": false
+    },
+    "agent_e": {
+      "signed": true,
+      "signed_at": "2026-03-03T17:52:44Z",
+      "comment": "Approved. Confidence 89%. No overrides.",
+      "approved": true,
+      "confidence": 89,
+      "override_reason": null
+    },
+    "manager_summary": "5/5 agents completed. Score: 89/100, Risk: medium. 0 mismatches, 9 scanner findings. Approved at 89% confidence. No safety overrides."
+  },
+  "skill_type": "mcp_server"
 }

@@ -1,7 +1,7 @@
 {
   "id": "likec4-2a279f32",
   "name": "LikeC4",
-  "description": "LikeC4 MCP Server provides knowledge of your LikeC4 model to LLMs.\nThis enables you to query your model in natural language:\n- “Lookup LikeC4 model and list all incoming relationships of the backend api”\n- “What elements from the inside of the ‘Backend’ have relations with the legacy database”\n- “List all elements tagged ‘legacy’ from team1 project”\n- “What technologies are used for ui (consider all elements with browser shape)“",
+  "description": "LikeC4 MCP Server provides knowledge of your LikeC4 model to LLMs.\nThis enables you to query your model in natural language:\n- \u201cLookup LikeC4 model and list all incoming relationships of the backend api\u201d\n- \u201cWhat elements from the inside of the \u2018Backend\u2019 have relations with the legacy database\u201d\n- \u201cList all elements tagged \u2018legacy\u2019 from team1 project\u201d\n- \u201cWhat technologies are used for ui (consider all elements with browser shape)\u201c",
   "repo_url": "https://github.com/LikeC4/LikeC4",
   "source_hub": "mcp_so",
   "owner": "LikeC4",
@@ -14,8 +14,7 @@
     "data-db",
     "dev-web",
     "integ",
-    "util-search",
-    "status-fail"
+    "util-search"
   ],
   "verification_status": "pass",
   "overall_score": 85,
@@ -102,5 +101,6 @@
       "override_reason": "Deterministic override: high-risk obfuscation detected."
     },
     "manager_summary": "5/5 agents completed. Score: 0/100, Risk: critical. 0 mismatches, 84 scanner findings. Rejected at 90% confidence. Safety overrides triggered."
-  }
+  },
+  "skill_type": "mcp_server"
 }

@@ -1,0 +1,24 @@
+{
+  "id": "inappkit-integration-3861b511",
+  "name": "inappkit-integration",
+  "description": "Integrate InAppKit for in-app purchases in iOS/macOS SwiftUI apps. Provides subscription management,\npaywall UI, and purchase gating. Use when: (1) Adding in-app purchases to a SwiftUI app,\n(2) Creating subscription tiers (monthly/yearly/lifetime), (3) Gating features behind purchases,\n(4) Building custom paywall UI, (5) User asks about InAppKit integration or subscription setup.",
+  "repo_url": "https://github.com/tddworks/inappkit",
+  "source_hub": "skillsmp",
+  "skill_type": "agent_skill",
+  "owner": "tddworks",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "agent-skills",
+    "dev-mobile",
+    "installs:46"
+  ],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null,
+  "repo_status": "available",
+  "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
+  "repo_check_error": null
+}

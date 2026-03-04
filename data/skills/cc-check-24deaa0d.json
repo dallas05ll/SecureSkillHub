@@ -1,0 +1,24 @@
+{
+  "id": "cc-check-24deaa0d",
+  "name": "cc-check",
+  "description": "Runs systematic tests on Claude Code customizations. Use when testing skills, checking if customizations work, verifying agents, validating hooks, running functional tests, or when asked \"does this work\", \"try this skill\", or \"verify this works\". Executes sample queries, validates responses, generates test reports, and identifies edge cases.",
+  "repo_url": "https://github.com/philoserf/claude-code-setup",
+  "source_hub": "skillsmp",
+  "skill_type": "agent_skill",
+  "owner": "philoserf",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "agent-skills",
+    "dev-testing",
+    "installs:9"
+  ],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null,
+  "repo_status": "available",
+  "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
+  "repo_check_error": null
+}

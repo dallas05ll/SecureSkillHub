@@ -1,0 +1,24 @@
+{
+  "id": "code-quality-gate-e16a8d1c",
+  "name": "code-quality-gate",
+  "description": "Automated code quality checks before commits. Use before committing code, when finishing a feature, or when user mentions \"ready to commit\" or \"quality check\".",
+  "repo_url": "https://github.com/afaneor/fastapi-docker-boilerplate",
+  "source_hub": "skillsmp",
+  "skill_type": "agent_skill",
+  "owner": "afaneor",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "agent-skills",
+    "dev-web-backend",
+    "installs:75"
+  ],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null,
+  "repo_status": "available",
+  "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
+  "repo_check_error": null
+}

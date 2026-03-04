@@ -1,0 +1,24 @@
+{
+  "id": "formatting-build-output-b52e5d6f",
+  "name": "formatting-build-output",
+  "description": "Formats xcodebuild and swift build output through xcsift into structured TOON format optimized for LLM consumption. Activates when running swift build, swift test, xcodebuild build, or xcodebuild test commands.",
+  "repo_url": "https://github.com/ldomaradzki/xcsift",
+  "source_hub": "skillsmp",
+  "skill_type": "agent_skill",
+  "owner": "ldomaradzki",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "agent-skills",
+    "data-ai",
+    "installs:324"
+  ],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null,
+  "repo_status": "available",
+  "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
+  "repo_check_error": null
+}

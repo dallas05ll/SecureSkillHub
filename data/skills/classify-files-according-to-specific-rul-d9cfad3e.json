@@ -1,0 +1,24 @@
+{
+  "id": "classify-files-according-to-specific-rul-d9cfad3e",
+  "name": "classify-files-according-to-specific-rules",
+  "description": "Invoke this skill BEFORE implementing any text/document classification task to learn the correct llama_cloud_services API usage. Required reading before writing classification code.\" Requires the llama_cloud_services package and LLAMA_CLOUD_API_KEY as an environment variable.",
+  "repo_url": "https://github.com/run-llama/vibe-llama",
+  "source_hub": "skillsmp",
+  "skill_type": "agent_skill",
+  "owner": "run-llama",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "agent-skills",
+    "data-ai",
+    "installs:175"
+  ],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null,
+  "repo_status": "available",
+  "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
+  "repo_check_error": null
+}

@@ -1,0 +1,24 @@
+{
+  "id": "react-render-types-composition-744ccee5",
+  "name": "react-render-types-composition",
+  "description": "Composition patterns for building React components with @renders type annotations from eslint-plugin-react-render-types. Use when: (1) writing React components that need @renders JSDoc annotations, (2) building a design system with enforced component composition (e.g., Menu only accepts MenuItem), (3) deciding which @renders modifier to use (required, optional, many, unchecked), (4) creating wrapper or transparent components, (5) annotating slot props like children/header/footer, (6) using re...",
+  "repo_url": "https://github.com/horusgoul/eslint-plugin-react-render-types",
+  "source_hub": "skillsmp",
+  "skill_type": "agent_skill",
+  "owner": "horusgoul",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "agent-skills",
+    "dev-web-frontend",
+    "installs:94"
+  ],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null,
+  "repo_status": "available",
+  "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
+  "repo_check_error": null
+}

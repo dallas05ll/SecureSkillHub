@@ -1,0 +1,24 @@
+{
+  "id": "logging-observability-7de21044",
+  "name": "logging-observability",
+  "description": "Review code for correct logging and error handling patterns. Use when reviewing code that handles errors, uses logging functions, or captures exceptions. Enforces the error hierarchy where 4xx errors are never logged to Sentry and 5xx errors always are. Trigger phrases include \"review logging\", \"check error handling\", \"audit observability\", or verify correct use of logIssue vs logError.",
+  "repo_url": "https://github.com/getsentry/sentry-mcp",
+  "source_hub": "skillsmp",
+  "skill_type": "agent_skill",
+  "owner": "getsentry",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "agent-skills",
+    "utilities",
+    "installs:557"
+  ],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null,
+  "repo_status": "available",
+  "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
+  "repo_check_error": null
+}

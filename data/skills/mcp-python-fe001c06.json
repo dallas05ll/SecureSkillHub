@@ -1,0 +1,24 @@
+{
+  "id": "mcp-python-fe001c06",
+  "name": "mcp-python",
+  "description": "Create and extend MCP (Model Context Protocol) servers in Python using FastMCP and the official SDK. Covers tools, resources, prompts, STDIO vs HTTP transports, logging rules for STDIO, and production best practices. Use when building or modifying MCP servers in Python, adding tools/resources/prompts, debugging MCP servers, or choosing transport and client config.",
+  "repo_url": "https://github.com/antoinebou12/uml-mcp",
+  "source_hub": "skillsmp",
+  "skill_type": "agent_skill",
+  "owner": "antoinebou12",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "agent-skills",
+    "utilities",
+    "installs:69"
+  ],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null,
+  "repo_status": "available",
+  "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
+  "repo_check_error": null
+}

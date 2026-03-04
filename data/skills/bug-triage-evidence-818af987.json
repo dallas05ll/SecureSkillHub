@@ -1,0 +1,24 @@
+{
+  "id": "bug-triage-evidence-818af987",
+  "name": "bug-triage-evidence",
+  "description": "Triage bugs and package reproducible evidence cleanly (.dev artifacts, chapter figures, and README updates). Use when fixing a bug or mismatch vs expected results.",
+  "repo_url": "https://github.com/ipnl-polyu/ipin-examples",
+  "source_hub": "skillsmp",
+  "skill_type": "agent_skill",
+  "owner": "ipnl-polyu",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "agent-skills",
+    "utilities",
+    "installs:17"
+  ],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null,
+  "repo_status": "available",
+  "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
+  "repo_check_error": null
+}

@@ -6,16 +6,94 @@
   "source_hub": "mcp_so",
   "owner": "hustcc",
   "stars": 209,
-  "primary_language": "unknown",
+  "primary_language": "typescript",
   "tags": [
     "data",
     "data-ai",
     "data-analysis"
   ],
-  "verification_status": "fail",
-  "overall_score": 10,
-  "risk_level": "critical",
+  "verification_status": "pass",
+  "overall_score": 34,
+  "risk_level": "medium",
   "verified_commit": "5a4c1ccf6597e06d761bca594bd3258f6508319f",
   "scan_summary": null,
-  "scan_date": "2026-02-27T06:14:34Z"
+  "scan_date": "2026-03-03T05:15:41Z",
+  "pm_override": {
+    "action": "fail_to_pass",
+    "reason": "PM override: score 34 with low-risk obfuscation (minified JS/vendored), 0 injection, 0 critical. Known scoring bug pattern.",
+    "override_by": "PM",
+    "date": "2026-03-03T05:28:08.397144+00:00"
+  },
+  "verification_level": "full_pipeline",
+  "findings_summary": {
+    "scanner_findings": 37,
+    "dangerous_calls": 0,
+    "network_ops": 0,
+    "file_ops": 11,
+    "env_access": 21,
+    "obfuscation": 3,
+    "injection_patterns": 0,
+    "mismatches": 0,
+    "undocumented_capabilities": 0,
+    "supervisor_approved": false,
+    "supervisor_confidence": 50
+  },
+  "agent_audit": {
+    "agents_completed": 5,
+    "agents_required": 5,
+    "pipeline_run_at": "2026-03-03T05:15:41Z",
+    "agent_a": {
+      "signed": true,
+      "signed_at": "2026-03-03T05:15:41Z",
+      "comment": "Docs quality 9/10. README present. 12 features, 4 permissions claimed.",
+      "doc_quality_score": 9,
+      "claimed_permissions": [
+        "network access",
+        "system command execution",
+        "file system access",
+        "environment/secret access"
+      ]
+    },
+    "agent_b": {
+      "signed": true,
+      "signed_at": "2026-03-03T05:15:41Z",
+      "comment": "75 files analyzed. Found: 0 network, 0 file, 17 env, 0 system calls. Primary: typescript.",
+      "files_analyzed": 75,
+      "capabilities_found": [
+        "imports external dependencies",
+        "reads environment values"
+      ]
+    },
+    "agent_c_star": {
+      "signed": true,
+      "signed_at": "2026-03-03T05:15:41Z",
+      "comment": "37 findings: 0 critical, 5 high, 21 medium, 11 low. Obfuscation detected!. No injection.",
+      "total_findings": 37,
+      "severity_counts": {
+        "critical": 0,
+        "high": 5,
+        "medium": 21,
+        "low": 11,
+        "info": 0
+      }
+    },
+    "agent_d": {
+      "signed": true,
+      "signed_at": "2026-03-03T05:15:41Z",
+      "comment": "Score 34. 0 mismatches. Risk: medium. Safety overrides: none triggered.",
+      "score": 34,
+      "mismatches": 0,
+      "safety_overrides_applied": false
+    },
+    "agent_e": {
+      "signed": true,
+      "signed_at": "2026-03-03T05:15:41Z",
+      "comment": "Rejected. Confidence 50%. No overrides.",
+      "approved": false,
+      "confidence": 50,
+      "override_reason": null
+    },
+    "manager_summary": "5/5 agents completed. Score: 34/100, Risk: medium. 0 mismatches, 37 scanner findings. Rejected at 50% confidence. No safety overrides."
+  },
+  "skill_type": "mcp_server"
 }

@@ -1,0 +1,24 @@
+{
+  "id": "add-provider-4e28c6d2",
+  "name": "add-provider",
+  "description": "Guide for adding new AI providers to ClaudeBar using TDD patterns. Use this skill when:\n(1) Adding a new AI assistant provider (like Antigravity, Cursor, etc.)\n(2) Creating a usage probe for a CLI tool or local API\n(3) Following TDD to implement provider integration\n(4) User asks \"how do I add a new provider\" or \"create a provider for X\"",
+  "repo_url": "https://github.com/tddworks/claudebar",
+  "source_hub": "skillsmp",
+  "skill_type": "agent_skill",
+  "owner": "tddworks",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "agent-skills",
+    "data-ai",
+    "installs:626"
+  ],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null,
+  "repo_status": "available",
+  "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
+  "repo_check_error": null
+}

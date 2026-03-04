@@ -1,0 +1,24 @@
+{
+  "id": "postgres-daily-check-9b0e48f8",
+  "name": "postgres-daily-check",
+  "description": "This skill is designed to perform comprehensive daily health checks on a PostgreSQL database.\nIt leverages a suite of specialized SQL queries and analysis logic to provide insights into\ndatabase availability, performance, activity, maintenance, storage, replication, and archiving status.\nThe skill aims to identify potential issues such as blocking locks, long-running queries,\ntransaction ID wraparound risks, bloat in tables and indexes, connection bottlenecks,\nand archiving failures.",
+  "repo_url": "https://github.com/digoal/postgres_skill",
+  "source_hub": "skillsmp",
+  "skill_type": "agent_skill",
+  "owner": "digoal",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "agent-skills",
+    "data-db",
+    "installs:17"
+  ],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null,
+  "repo_status": "available",
+  "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
+  "repo_check_error": null
+}

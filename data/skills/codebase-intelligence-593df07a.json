@@ -1,0 +1,24 @@
+{
+  "id": "codebase-intelligence-593df07a",
+  "name": "codebase-intelligence",
+  "description": "Search, analyze, and query your codebase using semantic vector search, impact analysis, and direct SQL queries against the Oak CI database. Use when finding semantically related code, analyzing code change impacts before refactoring, discovering component relationships, recalling what was discussed or decided in previous sessions, looking up past conversations or outcomes, querying session history, checking activity logs, browsing memories, running SQL against activities.db, or exploring patt...",
+  "repo_url": "https://github.com/sirkirby/unifi-network-mcp",
+  "source_hub": "skillsmp",
+  "skill_type": "agent_skill",
+  "owner": "sirkirby",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "agent-skills",
+    "dev-web-frontend",
+    "installs:162"
+  ],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null,
+  "repo_status": "available",
+  "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
+  "repo_check_error": null
+}

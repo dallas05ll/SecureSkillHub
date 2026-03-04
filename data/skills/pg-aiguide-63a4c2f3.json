@@ -8,12 +8,13 @@
   "stars": 0,
   "primary_language": "unknown",
   "tags": [
-    "repo_unavailable",
     "data-ai",
+    "data-ai-rag",
     "data-db",
     "dev",
     "prod",
     "prod-docs",
+    "repo_unavailable",
     "util",
     "util-search"
   ],
@@ -24,5 +25,6 @@
   "scan_summary": null,
   "repo_status": "unavailable",
   "repo_check_date": "2026-02-28T20:52:42.955619+00:00",
-  "repo_check_error": "fatal: unable to access 'https://github.com/Tiger Data/pg-aiguide/': URL rejected: Malformed input to a URL function"
+  "repo_check_error": "fatal: unable to access 'https://github.com/Tiger Data/pg-aiguide/': URL rejected: Malformed input to a URL function",
+  "skill_type": "mcp_server"
 }

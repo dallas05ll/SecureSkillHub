@@ -12,8 +12,8 @@
     "data-ai-nlp"
   ],
   "verification_status": "pass",
-  "overall_score": 85,
-  "risk_level": "info",
+  "overall_score": 63,
+  "risk_level": "medium",
   "verified_commit": "4f9a7ada6e58d95035eceb2a735c07998d200034",
   "scan_summary": {
     "total_findings": 0,
@@ -21,6 +21,90 @@
     "severity_counts": {},
     "category_counts": {}
   },
-  "scan_date": "2026-02-28T04:04:51Z",
-  "verification_level": "scanner_only"
+  "scan_date": "2026-03-03T17:57:03Z",
+  "verification_level": "full_pipeline",
+  "status_cleared": {
+    "date": "2026-03-02T20:40:18.531782+00:00",
+    "previous_status": "pass",
+    "previous_score": 85,
+    "previous_risk": "info",
+    "verification_level": "scanner_only",
+    "reason": "SM cleanup: only full_pipeline pass is real pass. Needs re-verification."
+  },
+  "findings_summary": {
+    "scanner_findings": 21,
+    "dangerous_calls": 0,
+    "network_ops": 0,
+    "file_ops": 10,
+    "env_access": 10,
+    "obfuscation": 0,
+    "injection_patterns": 0,
+    "mismatches": 2,
+    "undocumented_capabilities": 2,
+    "supervisor_approved": false,
+    "supervisor_confidence": 63
+  },
+  "agent_audit": {
+    "agents_completed": 5,
+    "agents_required": 5,
+    "pipeline_run_at": "2026-03-03T17:57:03Z",
+    "agent_a": {
+      "signed": true,
+      "signed_at": "2026-03-03T17:57:03Z",
+      "comment": "Docs quality 9/10. README present. 12 features, 2 permissions claimed.",
+      "doc_quality_score": 9,
+      "claimed_permissions": [
+        "network access",
+        "system command execution"
+      ]
+    },
+    "agent_b": {
+      "signed": true,
+      "signed_at": "2026-03-03T17:57:03Z",
+      "comment": "3 files analyzed. Found: 0 network, 3 file, 8 env, 0 system calls. Primary: unknown.",
+      "files_analyzed": 3,
+      "capabilities_found": [
+        "imports external dependencies",
+        "reads/writes files",
+        "reads environment values"
+      ]
+    },
+    "agent_c_star": {
+      "signed": true,
+      "signed_at": "2026-03-03T17:57:03Z",
+      "comment": "21 findings: 0 critical, 1 high, 10 medium, 10 low. No obfuscation. No injection.",
+      "total_findings": 21,
+      "severity_counts": {
+        "critical": 0,
+        "high": 1,
+        "medium": 10,
+        "low": 10,
+        "info": 0
+      }
+    },
+    "agent_d": {
+      "signed": true,
+      "signed_at": "2026-03-03T17:57:03Z",
+      "comment": "Score 63. 2 mismatches. Risk: medium. Safety overrides: none triggered.",
+      "score": 63,
+      "mismatches": 2,
+      "safety_overrides_applied": false
+    },
+    "agent_e": {
+      "signed": true,
+      "signed_at": "2026-03-03T17:57:03Z",
+      "comment": "Rejected. Confidence 63%. No overrides.",
+      "approved": false,
+      "confidence": 63,
+      "override_reason": null
+    },
+    "manager_summary": "5/5 agents completed. Score: 63/100, Risk: medium. 2 mismatches, 21 scanner findings. Rejected at 63% confidence. No safety overrides.",
+    "auto_clear": {
+      "applied": true,
+      "reason": "Auto-clear Cat 1: clean profile (0 inj, 0 obf_hr, 0 crit, score=63)",
+      "original_status": "manual_review",
+      "original_score": 63
+    }
+  },
+  "skill_type": "mcp_server"
 }

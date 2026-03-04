@@ -1,0 +1,24 @@
+{
+  "id": "commit-message-790d0f8c",
+  "name": "commit-message",
+  "description": "Automatically generates, formats, organizes, and improves git commit messages by analyzing your staged changes using AI. Use this skill when you want to create, write, review, or refine commit messages - whether you need to save time, maintain consistent formatting, or better describe your code changes.",
+  "repo_url": "https://github.com/appleboy/codegpt",
+  "source_hub": "skillsmp",
+  "skill_type": "agent_skill",
+  "owner": "appleboy",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "agent-skills",
+    "dev-git",
+    "installs:1498"
+  ],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null,
+  "repo_status": "available",
+  "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
+  "repo_check_error": null
+}

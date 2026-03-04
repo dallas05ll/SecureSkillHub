@@ -1,0 +1,24 @@
+{
+  "id": "hooks-management-310ce831",
+  "name": "hooks-management",
+  "description": "Manage hooks and automation for coding agents (Claude Code, Codex CLI). Use when users want to add, list, remove, update, or validate hooks. Triggers on requests like \"add a hook\", \"create a hook that...\", \"list my hooks\", \"remove the hook\", \"validate hooks\", or any mention of automating agent behavior with shell commands.",
+  "repo_url": "https://github.com/codealive-ai/agents-reflection-skills",
+  "source_hub": "skillsmp",
+  "skill_type": "agent_skill",
+  "owner": "codealive-ai",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "agent-skills",
+    "utilities",
+    "installs:29"
+  ],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null,
+  "repo_status": "available",
+  "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
+  "repo_check_error": null
+}

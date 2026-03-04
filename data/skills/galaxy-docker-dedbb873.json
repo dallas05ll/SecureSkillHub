@@ -1,0 +1,24 @@
+{
+  "id": "galaxy-docker-dedbb873",
+  "name": "galaxy-docker",
+  "description": "Maintain and upgrade the bgruening/docker-galaxy project: bump Galaxy/Ubuntu versions, update Ansible roles and scheduler support, adjust startup/CI/tests, and manage CVMFS.",
+  "repo_url": "https://github.com/bgruening/docker-galaxy",
+  "source_hub": "skillsmp",
+  "skill_type": "agent_skill",
+  "owner": "bgruening",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "agent-skills",
+    "dev-devops",
+    "installs:236"
+  ],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null,
+  "repo_status": "available",
+  "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
+  "repo_check_error": null
+}

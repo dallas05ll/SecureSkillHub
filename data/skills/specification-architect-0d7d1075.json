@@ -1,0 +1,24 @@
+{
+  "id": "specification-architect-0d7d1075",
+  "name": "specification-architect",
+  "description": "A rigorous, traceability-first system that generates five interconnected architectural documents (blueprint.md, requirements.md, design.md, tasks.md, and validation.md) with complete requirements-to-implementation traceability. Use this skill when users need to architect systems, create technical specifications, or develop structured project documentation with guaranteed traceability.",
+  "repo_url": "https://github.com/adrianpuiu/specification-document-generator",
+  "source_hub": "skillsmp",
+  "skill_type": "agent_skill",
+  "owner": "adrianpuiu",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "agent-skills",
+    "utilities",
+    "installs:32"
+  ],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null,
+  "repo_status": "available",
+  "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
+  "repo_check_error": null
+}

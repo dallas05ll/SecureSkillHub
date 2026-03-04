@@ -1,0 +1,24 @@
+{
+  "id": "launch-codex-unpacked-6b21a9bc",
+  "name": "launch-codex-unpacked",
+  "description": "Launch unpacked Codex Desktop builds with debug ports and optional SSH host autostart using launch_codex_unpacked.sh. Use when asked to run Codex from extracted app.asar, enable inspect/remote-debugging, select an SSH host on startup, or keep temporary unpacked artifacts for investigation.",
+  "repo_url": "https://github.com/friuns2/codex-web-ui",
+  "source_hub": "skillsmp",
+  "skill_type": "agent_skill",
+  "owner": "friuns2",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "agent-skills",
+    "utilities",
+    "installs:33"
+  ],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null,
+  "repo_status": "available",
+  "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
+  "repo_check_error": null
+}

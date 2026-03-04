@@ -9,17 +9,95 @@
   "stars": 4,
   "license": "",
   "primary_language": "markdown",
-  "tags": [],
+  "tags": [
+    "util",
+    "data-ai"
+  ],
   "verification_status": "pass",
-  "overall_score": 73,
-  "risk_level": "medium",
-  "verified_commit": null,
+  "overall_score": 86,
+  "risk_level": "low",
+  "verified_commit": "343590adf144c8aa2fefcf8b2dd5c33f0fcda4ca",
   "scan_summary": null,
   "last_updated": "2026-02-18T12:41:45Z",
   "findings_summary": {
-    "notes": "Metadata-based verification. Score=73. Signals: stars=4; no license detected; owner='limit881010' (+3); primary_language='markdown'; source_hub='github_search'. Status: pass. Risk: medium."
+    "scanner_findings": 29,
+    "dangerous_calls": 0,
+    "network_ops": 0,
+    "file_ops": 29,
+    "env_access": 0,
+    "obfuscation": 0,
+    "injection_patterns": 0,
+    "mismatches": 0,
+    "undocumented_capabilities": 0,
+    "supervisor_approved": true,
+    "supervisor_confidence": 86
   },
   "trust_level": "low",
-  "scan_date": "2026-02-26T06:14:56Z",
-  "verification_level": "metadata_only"
+  "scan_date": "2026-03-03T17:56:07Z",
+  "verification_level": "full_pipeline",
+  "status_cleared": {
+    "date": "2026-03-02T20:40:18.531782+00:00",
+    "previous_status": "pass",
+    "previous_score": 73,
+    "previous_risk": "medium",
+    "verification_level": "metadata_only",
+    "reason": "SM cleanup: only full_pipeline pass is real pass. Needs re-verification."
+  },
+  "agent_audit": {
+    "agents_completed": 5,
+    "agents_required": 5,
+    "pipeline_run_at": "2026-03-03T17:56:07Z",
+    "agent_a": {
+      "signed": true,
+      "signed_at": "2026-03-03T17:56:07Z",
+      "comment": "Docs quality 10/10. README present. 12 features, 4 permissions claimed.",
+      "doc_quality_score": 10,
+      "claimed_permissions": [
+        "network access",
+        "system command execution",
+        "file system access",
+        "environment/secret access"
+      ]
+    },
+    "agent_b": {
+      "signed": true,
+      "signed_at": "2026-03-03T17:56:07Z",
+      "comment": "15 files analyzed. Found: 0 network, 14 file, 0 env, 0 system calls. Primary: python.",
+      "files_analyzed": 15,
+      "capabilities_found": [
+        "imports external dependencies",
+        "reads/writes files"
+      ]
+    },
+    "agent_c_star": {
+      "signed": true,
+      "signed_at": "2026-03-03T17:56:07Z",
+      "comment": "29 findings: 0 critical, 0 high, 0 medium, 29 low. No obfuscation. No injection.",
+      "total_findings": 29,
+      "severity_counts": {
+        "critical": 0,
+        "high": 0,
+        "medium": 0,
+        "low": 29,
+        "info": 0
+      }
+    },
+    "agent_d": {
+      "signed": true,
+      "signed_at": "2026-03-03T17:56:07Z",
+      "comment": "Score 86. 0 mismatches. Risk: low. Safety overrides: none triggered.",
+      "score": 86,
+      "mismatches": 0,
+      "safety_overrides_applied": false
+    },
+    "agent_e": {
+      "signed": true,
+      "signed_at": "2026-03-03T17:56:07Z",
+      "comment": "Approved. Confidence 86%. No overrides.",
+      "approved": true,
+      "confidence": 86,
+      "override_reason": null
+    },
+    "manager_summary": "5/5 agents completed. Score: 86/100, Risk: low. 0 mismatches, 29 scanner findings. Approved at 86% confidence. No safety overrides."
+  }
 }

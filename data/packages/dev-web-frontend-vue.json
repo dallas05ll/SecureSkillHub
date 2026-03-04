@@ -1,11 +1,9 @@
 {
   "tag_path": "dev-web-frontend-vue",
   "label": "General Vue Package",
-  "description": "Top 4 verified vue skills, auto-curated by GitHub stars and security score.",
+  "description": "Top 2 verified vue skills, auto-curated by GitHub stars and security score.",
   "skill_ids": [
     "pinme-3dccfc8d",
-    "mcp-adapter-14432921",
-    "mcp-with-nuxt-vercel-5e866561",
     "lb-motion-skill-c48be8e3"
   ],
   "skills": [
@@ -15,38 +13,12 @@
       "description": "Zero-config frontend deployment tool that publishes static sites as verifiable content via IPFS/decentralized storage with a single command. Supports Claude Code Skills natively. Handles Vite/React/Vu",
       "repo_url": "https://github.com/glitternetwork/pinme",
       "stars": 2796,
-      "overall_score": 72,
+      "overall_score": 62,
       "verification_status": "pass",
-      "risk_level": "low",
+      "risk_level": "medium",
       "primary_language": "TypeScript",
       "install_url": "https://github.com/glitternetwork/pinme",
       "skill_type": "agent_skill"
-    },
-    {
-      "id": "mcp-adapter-14432921",
-      "name": "mcp-adapter",
-      "description": "Easily spin up an MCP Server on Next.js, Nuxt.js, Svelte.js, and more",
-      "repo_url": "https://github.com/vercel/mcp-adapter",
-      "stars": 566,
-      "overall_score": 85,
-      "verification_status": "pass",
-      "risk_level": "info",
-      "primary_language": "unknown",
-      "install_url": "https://github.com/vercel/mcp-adapter",
-      "skill_type": "unknown"
-    },
-    {
-      "id": "mcp-with-nuxt-vercel-5e866561",
-      "name": "mcp-with-nuxt-vercel",
-      "description": "Example of creating a MCP server with Nuxt & Vercel.",
-      "repo_url": "https://github.com/atinux/mcp-with-nuxt-vercel",
-      "stars": 17,
-      "overall_score": 85,
-      "verification_status": "pass",
-      "risk_level": "info",
-      "primary_language": "unknown",
-      "install_url": "https://github.com/atinux/mcp-with-nuxt-vercel",
-      "skill_type": "unknown"
     },
     {
       "id": "lb-motion-skill-c48be8e3",
@@ -62,10 +34,10 @@
       "skill_type": "agent_skill"
     }
   ],
-  "total_skills": 4,
-  "total_candidates": 4,
-  "avg_score": 76.2,
-  "min_score": 63,
+  "total_skills": 2,
+  "total_candidates": 2,
+  "avg_score": 62.5,
+  "min_score": 62,
   "top_stars": 2796,
-  "generated_at": "2026-02-28T03:46:45Z"
+  "generated_at": "2026-03-02T22:27:24Z"
 }

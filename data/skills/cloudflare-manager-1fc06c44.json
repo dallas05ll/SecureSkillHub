@@ -1,0 +1,24 @@
+{
+  "id": "cloudflare-manager-1fc06c44",
+  "name": "cloudflare-manager",
+  "description": "Comprehensive Cloudflare account management for deploying Workers, KV Storage, R2, Pages, DNS, and Routes. Use when deploying cloudflare services, managing worker containers, configuring KV/R2 storage, or setting up DNS/routing. Requires CLOUDFLARE_API_KEY in .env and Bun runtime with dependencies installed.",
+  "repo_url": "https://github.com/qdhenry/claude-command-suite",
+  "source_hub": "skillsmp",
+  "skill_type": "agent_skill",
+  "owner": "qdhenry",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "agent-skills",
+    "utilities",
+    "installs:940"
+  ],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null,
+  "repo_status": "available",
+  "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
+  "repo_check_error": null
+}

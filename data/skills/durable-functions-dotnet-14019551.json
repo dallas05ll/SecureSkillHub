@@ -1,0 +1,24 @@
+{
+  "id": "durable-functions-dotnet-14019551",
+  "name": "durable-functions-dotnet",
+  "description": "Build durable, fault-tolerant workflows using Azure Durable Functions with .NET isolated worker and Durable Task Scheduler backend. Use when creating serverless orchestrations, activities, entities, or implementing patterns like function chaining, fan-out/fan-in, async HTTP APIs, human interaction, monitoring, or stateful aggregators. Applies to Azure Functions apps requiring durable execution, state persistence, or distributed coordination with built-in HTTP management APIs and Azure integra...",
+  "repo_url": "https://github.com/azure-samples/durable-task-scheduler",
+  "source_hub": "skillsmp",
+  "skill_type": "agent_skill",
+  "owner": "azure-samples",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "agent-skills",
+    "dev-web-backend",
+    "installs:48"
+  ],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null,
+  "repo_status": "available",
+  "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
+  "repo_check_error": null
+}

@@ -1,0 +1,24 @@
+{
+  "id": "deploy-testflight-e83d7ae5",
+  "name": "deploy-testflight",
+  "description": "Create and push SNUTT iOS TestFlight deployment tags for dev/prod using a version and a short slug; if the slug is omitted, derive one from the most recent commits. Use when a user asks to deploy to TestFlight, tag a TestFlight release, or push TestFlight tags for SNUTT iOS.",
+  "repo_url": "https://github.com/wafflestudio/snutt-ios",
+  "source_hub": "skillsmp",
+  "skill_type": "agent_skill",
+  "owner": "wafflestudio",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "agent-skills",
+    "dev-devops",
+    "installs:26"
+  ],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null,
+  "repo_status": "available",
+  "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
+  "repo_check_error": null
+}

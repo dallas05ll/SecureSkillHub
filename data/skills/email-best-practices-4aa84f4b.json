@@ -1,0 +1,24 @@
+{
+  "id": "email-best-practices-4aa84f4b",
+  "name": "email-best-practices",
+  "description": "Use when building email features, emails going to spam, high bounce rates, setting up SPF/DKIM/DMARC authentication, implementing email capture, ensuring compliance (CAN-SPAM, GDPR, CASL), handling webhooks, retry logic, or deciding transactional vs marketing.",
+  "repo_url": "https://github.com/resend/email-best-practices",
+  "source_hub": "skillsmp",
+  "skill_type": "agent_skill",
+  "owner": "resend",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "agent-skills",
+    "security",
+    "installs:2370"
+  ],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null,
+  "repo_status": "available",
+  "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
+  "repo_check_error": null
+}

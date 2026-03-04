@@ -1,0 +1,24 @@
+{
+  "id": "tidy-deprecate-function-0fde13e6",
+  "name": "tidy-deprecate-function",
+  "description": "Guide for deprecating R functions/arguments. Use when a user asks to deprecate a function or parameter, including adding lifecycle warnings, updating documentation, adding NEWS entries, and updating tests.",
+  "repo_url": "https://github.com/tidyverse/dplyr",
+  "source_hub": "skillsmp",
+  "skill_type": "agent_skill",
+  "owner": "tidyverse",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "agent-skills",
+    "utilities",
+    "installs:4996"
+  ],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null,
+  "repo_status": "available",
+  "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
+  "repo_check_error": null
+}

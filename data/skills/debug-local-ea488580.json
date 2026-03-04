@@ -1,0 +1,24 @@
+{
+  "id": "debug-local-ea488580",
+  "name": "debug-local",
+  "description": "Debug the Lightdash app using PM2 logs, Spotlight traces, and browser automation. Use when investigating issues, tracking down bugs, understanding request flow, or correlating frontend actions with backend behavior.",
+  "repo_url": "https://github.com/lightdash/lightdash",
+  "source_hub": "skillsmp",
+  "skill_type": "agent_skill",
+  "owner": "lightdash",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "agent-skills",
+    "dev-web-frontend",
+    "installs:5551"
+  ],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null,
+  "repo_status": "available",
+  "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
+  "repo_check_error": null
+}

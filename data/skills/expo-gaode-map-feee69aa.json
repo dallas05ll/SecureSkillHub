@@ -1,0 +1,24 @@
+{
+  "id": "expo-gaode-map-feee69aa",
+  "name": "expo-gaode-map",
+  "description": "Expo 高德地图核心能力：原生 MapView 渲染（标准/卫星/夜间/导航），手势与相机控制；定位服务（单次/连续/后台定位，蓝点样式与跟随）；覆盖物绘制（Marker/Polyline/Polygon/Circle/HeatMap/MultiPoint/Cluster，C++ 引擎驱动的高性能聚合）；离线地图下载与管理；类型安全的 TS API 与原生几何计算（距离、最近点吸附、轨迹抽稀、点在多边形内、路径长度）；支持 Config Plugin 自动配置与 initSDK(webKey/iosKey/androidKey) 初始化；适配 iOS/Android，隐私合规与权限处理已内置。",
+  "repo_url": "https://github.com/tomwq/expo-gaode-map",
+  "source_hub": "skillsmp",
+  "skill_type": "agent_skill",
+  "owner": "tomwq",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "agent-skills",
+    "dev-mobile",
+    "installs:53"
+  ],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null,
+  "repo_status": "available",
+  "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
+  "repo_check_error": null
+}

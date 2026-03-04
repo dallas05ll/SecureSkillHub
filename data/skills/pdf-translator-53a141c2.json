@@ -1,0 +1,24 @@
+{
+  "id": "pdf-translator-53a141c2",
+  "name": "pdf-translator",
+  "description": "Extract text from PDF files, translate it to a target language, and save the result as a Markdown file. Use this skill when the user wants to translate a PDF document.",
+  "repo_url": "https://github.com/forceinjection/ai-fundermentals",
+  "source_hub": "skillsmp",
+  "skill_type": "agent_skill",
+  "owner": "forceinjection",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "agent-skills",
+    "utilities",
+    "installs:770"
+  ],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null,
+  "repo_status": "available",
+  "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
+  "repo_check_error": null
+}

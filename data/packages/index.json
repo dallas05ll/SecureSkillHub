@@ -1,364 +1,266 @@
 {
-  "generated_at": "2026-02-28T03:46:45Z",
-  "total_packages": 51,
+  "generated_at": "2026-03-02T22:27:24Z",
+  "total_packages": 37,
   "top_n": 10,
   "packages": {
     "data": {
       "label": "General Data & AI Package",
       "total_skills": 10,
-      "total_candidates": 1284,
-      "avg_score": 83.7,
-      "top_stars": 176309
+      "total_candidates": 176,
+      "avg_score": 80.5,
+      "top_stars": 176312
     },
     "data-ai": {
       "label": "General AI & LLM Tools Package",
       "total_skills": 10,
-      "total_candidates": 1232,
-      "avg_score": 83.7,
-      "top_stars": 176309
+      "total_candidates": 172,
+      "avg_score": 80.5,
+      "top_stars": 176312
     },
     "data-ai-audio": {
       "label": "General Audio Package",
-      "total_skills": 10,
-      "total_candidates": 30,
-      "avg_score": 82.5,
-      "top_stars": 1274
+      "total_skills": 6,
+      "total_candidates": 6,
+      "avg_score": 80.7,
+      "top_stars": 926
     },
     "data-ai-nlp": {
       "label": "General NLP & Text Package",
       "total_skills": 10,
-      "total_candidates": 466,
-      "avg_score": 86.6,
-      "top_stars": 46877
+      "total_candidates": 63,
+      "avg_score": 88.0,
+      "top_stars": 46887
     },
     "data-ai-vision": {
       "label": "General Vision Package",
-      "total_skills": 10,
-      "total_candidates": 67,
-      "avg_score": 81.2,
+      "total_skills": 8,
+      "total_candidates": 8,
+      "avg_score": 73.0,
       "top_stars": 27675
+    },
+    "data-analysis": {
+      "label": "General Data Analysis Package",
+      "total_skills": 4,
+      "total_candidates": 4,
+      "avg_score": 72.0,
+      "top_stars": 9302
     },
     "data-db": {
       "label": "General Databases Package",
       "total_skills": 10,
-      "total_candidates": 101,
-      "avg_score": 83.1,
+      "total_candidates": 16,
+      "avg_score": 81.1,
       "top_stars": 38581
-    },
-    "data-db-graph": {
-      "label": "General Graph DB Package",
-      "total_skills": 5,
-      "total_candidates": 5,
-      "avg_score": 81.8,
-      "top_stars": 908
     },
     "data-db-vector": {
       "label": "General Vector DB Package",
-      "total_skills": 10,
-      "total_candidates": 19,
-      "avg_score": 85.7,
+      "total_skills": 2,
+      "total_candidates": 2,
+      "avg_score": 100.0,
       "top_stars": 9849
     },
     "dev": {
       "label": "General Software Development Package",
       "total_skills": 10,
-      "total_candidates": 667,
-      "avg_score": 84.7,
-      "top_stars": 176309
+      "total_candidates": 99,
+      "avg_score": 85.0,
+      "top_stars": 176312
+    },
+    "dev-agents": {
+      "label": "General AI Agents & Multi-Agent Package",
+      "total_skills": 7,
+      "total_candidates": 7,
+      "avg_score": 85.4,
+      "top_stars": 20166
+    },
+    "dev-desktop": {
+      "label": "General Desktop Application Package",
+      "total_skills": 1,
+      "total_candidates": 1,
+      "avg_score": 50.0,
+      "top_stars": 245
     },
     "dev-devops": {
       "label": "General DevOps & Infrastructure Package",
       "total_skills": 10,
-      "total_candidates": 49,
-      "avg_score": 80.1,
+      "total_candidates": 16,
+      "avg_score": 82.2,
       "top_stars": 29936
     },
     "dev-devops-ci": {
       "label": "General CI/CD Package",
-      "total_skills": 10,
-      "total_candidates": 16,
-      "avg_score": 82.0,
+      "total_skills": 6,
+      "total_candidates": 6,
+      "avg_score": 91.2,
       "top_stars": 27239
     },
     "dev-devops-docker": {
       "label": "General Docker Package",
-      "total_skills": 10,
-      "total_candidates": 23,
-      "avg_score": 80.8,
-      "top_stars": 14536
+      "total_skills": 8,
+      "total_candidates": 8,
+      "avg_score": 82.5,
+      "top_stars": 14543
     },
     "dev-devops-k8s": {
       "label": "General Kubernetes Package",
-      "total_skills": 10,
-      "total_candidates": 11,
-      "avg_score": 83.5,
+      "total_skills": 2,
+      "total_candidates": 2,
+      "avg_score": 77.5,
       "top_stars": 29936
     },
     "dev-git": {
       "label": "General Git & Version Control Package",
-      "total_skills": 10,
-      "total_candidates": 11,
-      "avg_score": 83.7,
+      "total_skills": 4,
+      "total_candidates": 4,
+      "avg_score": 80.8,
       "top_stars": 7649
+    },
+    "dev-mobile": {
+      "label": "General Mobile Application Package",
+      "total_skills": 2,
+      "total_candidates": 2,
+      "avg_score": 77.0,
+      "top_stars": 8100
+    },
+    "dev-mobile-flutter": {
+      "label": "General Flutter Package",
+      "total_skills": 1,
+      "total_candidates": 1,
+      "avg_score": 70.0,
+      "top_stars": 8100
+    },
+    "dev-mobile-react-native": {
+      "label": "General React Native Package",
+      "total_skills": 1,
+      "total_candidates": 1,
+      "avg_score": 84.0,
+      "top_stars": 6500
     },
     "dev-testing": {
       "label": "General Testing & QA Package",
       "total_skills": 10,
-      "total_candidates": 85,
-      "avg_score": 74.8,
+      "total_candidates": 10,
+      "avg_score": 72.4,
       "top_stars": 61708
     },
     "dev-web": {
       "label": "General Web Application Package",
       "total_skills": 10,
-      "total_candidates": 174,
-      "avg_score": 85.1,
-      "top_stars": 29936
+      "total_candidates": 33,
+      "avg_score": 88.0,
+      "top_stars": 175300
     },
     "dev-web-backend": {
       "label": "General Backend Package",
       "total_skills": 10,
-      "total_candidates": 110,
-      "avg_score": 85.1,
+      "total_candidates": 12,
+      "avg_score": 91.0,
       "top_stars": 23139
     },
     "dev-web-backend-go": {
       "label": "General Go Package",
-      "total_skills": 10,
-      "total_candidates": 10,
-      "avg_score": 86.4,
+      "total_skills": 1,
+      "total_candidates": 1,
+      "avg_score": 85.0,
       "top_stars": 8218
     },
     "dev-web-backend-node": {
       "label": "General Node.js Package",
-      "total_skills": 10,
-      "total_candidates": 29,
-      "avg_score": 79.5,
+      "total_skills": 6,
+      "total_candidates": 6,
+      "avg_score": 79.7,
       "top_stars": 8795
     },
     "dev-web-backend-python": {
       "label": "General Python Package",
-      "total_skills": 10,
-      "total_candidates": 56,
-      "avg_score": 83.3,
+      "total_skills": 6,
+      "total_candidates": 6,
+      "avg_score": 95.0,
       "top_stars": 23139
-    },
-    "dev-web-backend-rust": {
-      "label": "General Rust Package",
-      "total_skills": 10,
-      "total_candidates": 18,
-      "avg_score": 83.1,
-      "top_stars": 994
     },
     "dev-web-frontend": {
       "label": "General Frontend Package",
-      "total_skills": 10,
-      "total_candidates": 18,
-      "avg_score": 82.0,
-      "top_stars": 8795
+      "total_skills": 8,
+      "total_candidates": 8,
+      "avg_score": 79.2,
+      "top_stars": 175300
     },
     "dev-web-frontend-react": {
       "label": "General React Package",
-      "total_skills": 10,
-      "total_candidates": 17,
-      "avg_score": 82.0,
-      "top_stars": 8795
-    },
-    "dev-web-frontend-svelte": {
-      "label": "General Svelte Package",
-      "total_skills": 1,
-      "total_candidates": 1,
-      "avg_score": 85.0,
-      "top_stars": 566
+      "total_skills": 8,
+      "total_candidates": 8,
+      "avg_score": 79.2,
+      "top_stars": 175300
     },
     "dev-web-frontend-vue": {
       "label": "General Vue Package",
-      "total_skills": 4,
-      "total_candidates": 4,
-      "avg_score": 76.2,
+      "total_skills": 2,
+      "total_candidates": 2,
+      "avg_score": 62.5,
       "top_stars": 2796
     },
     "dev-web-fullstack": {
       "label": "General Fullstack Package",
-      "total_skills": 6,
-      "total_candidates": 6,
-      "avg_score": 79.2,
+      "total_skills": 1,
+      "total_candidates": 1,
+      "avg_score": 62.0,
       "top_stars": 2796
     },
     "dev-web-fullstack-nextjs": {
       "label": "General Next.js Package",
-      "total_skills": 6,
-      "total_candidates": 6,
-      "avg_score": 79.2,
+      "total_skills": 1,
+      "total_candidates": 1,
+      "avg_score": 62.0,
       "top_stars": 2796
     },
     "integrations": {
       "label": "General Integrations & APIs Package",
-      "total_skills": 10,
-      "total_candidates": 641,
-      "avg_score": 89.4,
-      "top_stars": 176309
-    },
-    "integrations-cloud": {
-      "label": "General Cloud Services Package",
-      "total_skills": 10,
-      "total_candidates": 81,
-      "avg_score": 82.6,
-      "top_stars": 176309
-    },
-    "integrations-cloud-aws": {
-      "label": "General AWS Package",
-      "total_skills": 10,
-      "total_candidates": 25,
-      "avg_score": 84.3,
-      "top_stars": 8246
-    },
-    "integrations-cloud-azure": {
-      "label": "General Azure Package",
-      "total_skills": 10,
-      "total_candidates": 19,
-      "avg_score": 83.3,
-      "top_stars": 1466
-    },
-    "integrations-cloud-gcp": {
-      "label": "General GCP Package",
-      "total_skills": 7,
-      "total_candidates": 7,
-      "avg_score": 85.6,
-      "top_stars": 1466
-    },
-    "integrations-crm": {
-      "label": "General CRM Package",
-      "total_skills": 6,
-      "total_candidates": 6,
-      "avg_score": 84.7,
-      "top_stars": 116
-    },
-    "integrations-payment": {
-      "label": "General Payments Package",
       "total_skills": 3,
       "total_candidates": 3,
-      "avg_score": 77.0,
-      "top_stars": 99
-    },
-    "integrations-social": {
-      "label": "General Social Media Package",
-      "total_skills": 10,
-      "total_candidates": 26,
-      "avg_score": 84.3,
-      "top_stars": 495
-    },
-    "productivity": {
-      "label": "General Productivity & Office Package",
-      "total_skills": 10,
-      "total_candidates": 481,
-      "avg_score": 82.5,
-      "top_stars": 176309
-    },
-    "productivity-calendar": {
-      "label": "General Calendar Package",
-      "total_skills": 10,
-      "total_candidates": 17,
-      "avg_score": 82.7,
-      "top_stars": 14536
-    },
-    "productivity-comm": {
-      "label": "General Communication Package",
-      "total_skills": 10,
-      "total_candidates": 102,
-      "avg_score": 76.7,
+      "avg_score": 79.3,
       "top_stars": 14543
     },
-    "productivity-docs": {
-      "label": "General Documents Package",
-      "total_skills": 10,
-      "total_candidates": 118,
-      "avg_score": 78.4,
-      "top_stars": 46887
+    "integrations-github": {
+      "label": "General GitHub Package",
+      "total_skills": 2,
+      "total_candidates": 2,
+      "avg_score": 69.0,
+      "top_stars": 51
     },
-    "productivity-notes": {
-      "label": "General Notes Package",
-      "total_skills": 10,
-      "total_candidates": 69,
-      "avg_score": 74.9,
-      "top_stars": 30916
-    },
-    "productivity-pm": {
-      "label": "General Project Management Package",
-      "total_skills": 10,
-      "total_candidates": 66,
-      "avg_score": 81.5,
-      "top_stars": 14540
+    "integrations-slack": {
+      "label": "General Slack Package",
+      "total_skills": 1,
+      "total_candidates": 1,
+      "avg_score": 100.0,
+      "top_stars": 14543
     },
     "security": {
       "label": "General Security & Compliance Package",
-      "total_skills": 10,
-      "total_candidates": 146,
-      "avg_score": 80.8,
-      "top_stars": 14536
+      "total_skills": 1,
+      "total_candidates": 1,
+      "avg_score": 63.0,
+      "top_stars": 0
     },
-    "security-auth": {
-      "label": "General Authentication Package",
-      "total_skills": 10,
-      "total_candidates": 28,
-      "avg_score": 82.6,
-      "top_stars": 11590
-    },
-    "security-crypto": {
-      "label": "General Crypto & Web3 Package",
-      "total_skills": 10,
-      "total_candidates": 45,
-      "avg_score": 77.3,
-      "top_stars": 3563
-    },
-    "security-scanning": {
-      "label": "General Scanning Package",
-      "total_skills": 10,
-      "total_candidates": 39,
-      "avg_score": 81.1,
-      "top_stars": 7093
+    "security-secrets": {
+      "label": "General Secrets Management Package",
+      "total_skills": 1,
+      "total_candidates": 1,
+      "avg_score": 63.0,
+      "top_stars": 0
     },
     "utilities": {
       "label": "General Utilities Package",
-      "total_skills": 10,
-      "total_candidates": 844,
-      "avg_score": 83.4,
-      "top_stars": 34263
+      "total_skills": 2,
+      "total_candidates": 2,
+      "avg_score": 77.5,
+      "top_stars": 52
     },
-    "utilities-browser": {
-      "label": "General Browser Package",
-      "total_skills": 10,
-      "total_candidates": 15,
-      "avg_score": 86.5,
-      "top_stars": 216
-    },
-    "utilities-file": {
-      "label": "General File Management Package",
-      "total_skills": 10,
-      "total_candidates": 125,
-      "avg_score": 73.0,
-      "top_stars": 14540
-    },
-    "utilities-media": {
-      "label": "General Media Package",
-      "total_skills": 10,
-      "total_candidates": 60,
-      "avg_score": 79.0,
-      "top_stars": 5535
-    },
-    "utilities-monitor": {
-      "label": "General Monitoring Package",
-      "total_skills": 10,
-      "total_candidates": 35,
-      "avg_score": 83.5,
-      "top_stars": 7093
-    },
-    "utilities-search": {
-      "label": "General Search Package",
-      "total_skills": 10,
-      "total_candidates": 230,
-      "avg_score": 79.7,
-      "top_stars": 29936
+    "utilities-system": {
+      "label": "General System Package",
+      "total_skills": 2,
+      "total_candidates": 2,
+      "avg_score": 77.5,
+      "top_stars": 52
     }
   }
 }

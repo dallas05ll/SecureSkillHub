@@ -1,0 +1,24 @@
+{
+  "id": "self-config-932cb72d",
+  "name": "self-config",
+  "description": "Self-administration and configuration of Luna AI. Manage config files, restart service, troubleshoot issues. Activate ONLY when user explicitly requests configuration changes or system administration tasks.",
+  "repo_url": "https://github.com/digit1024/lunaai",
+  "source_hub": "skillsmp",
+  "skill_type": "agent_skill",
+  "owner": "digit1024",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "agent-skills",
+    "utilities",
+    "installs:12"
+  ],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null,
+  "repo_status": "available",
+  "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
+  "repo_check_error": null
+}

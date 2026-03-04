@@ -1,0 +1,24 @@
+{
+  "id": "te-config-8455d330",
+  "name": "te-config",
+  "description": "Use this skill when users ask \"add MCP server\", \"remove MCP\", \"configure tool executor\", \"add new tool\", \"environment variables for tool executor\", \"regenerate registry\", or need to modify which MCP servers are available in the sandbox.",
+  "repo_url": "https://github.com/elb-pr/claudikins-tool-executor",
+  "source_hub": "skillsmp",
+  "skill_type": "agent_skill",
+  "owner": "elb-pr",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "agent-skills",
+    "utilities",
+    "installs:54"
+  ],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null,
+  "repo_status": "available",
+  "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
+  "repo_check_error": null
+}

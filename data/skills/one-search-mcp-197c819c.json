@@ -1,17 +1,16 @@
 {
   "id": "one-search-mcp-197c819c",
   "name": "one-search-mcp",
-  "description": "🚀 OneSearch MCP Server: Web Search & Scraper & Extract, Support Firecrawl, SearXNG, Tavily, DuckDuckGo, Bing, etc.",
+  "description": "\ud83d\ude80 OneSearch MCP Server: Web Search & Scraper & Extract, Support Firecrawl, SearXNG, Tavily, DuckDuckGo, Bing, etc.",
   "repo_url": "https://github.com/yokingma/one-search-mcp",
   "source_hub": "mcp_so",
   "owner": "yokingma",
   "stars": 76,
   "primary_language": "typescript",
   "tags": [
-    "status-fail",
     "util-search"
   ],
-  "verification_status": "manual_review",
+  "verification_status": "pass",
   "overall_score": 70,
   "risk_level": "medium",
   "verified_commit": "a382cf84afd97f428e2d6b86a9536610d0546144",
@@ -100,5 +99,12 @@
       "override_reason": "Deterministic override: injection patterns detected."
     },
     "manager_summary": "5/5 agents completed. Score: 10/100, Risk: critical. 0 mismatches, 25 scanner findings. Rejected at 95% confidence. Safety overrides triggered."
-  }
+  },
+  "pm_override": {
+    "action": "manual_review_to_pass",
+    "reason": "PM+SecM: yokingma/one-search-mcp is clean 28-file TypeScript search server. Single injection finding from test fixture. Already SecM-audited.",
+    "override_by": "PM+SecM 20260303",
+    "date": "2026-03-03"
+  },
+  "skill_type": "mcp_server"
 }

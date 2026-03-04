@@ -1,0 +1,24 @@
+{
+  "id": "code-analysis-b3e7ed3a",
+  "name": "code-analysis",
+  "description": "Code review and debugging assistant. Identifies bugs, performance issues, security vulnerabilities, and suggests optimizations.",
+  "repo_url": "https://github.com/baidu-baige/loongflow",
+  "source_hub": "skillsmp",
+  "skill_type": "agent_skill",
+  "owner": "baidu-baige",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "agent-skills",
+    "security",
+    "installs:334"
+  ],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null,
+  "repo_status": "available",
+  "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
+  "repo_check_error": null
+}

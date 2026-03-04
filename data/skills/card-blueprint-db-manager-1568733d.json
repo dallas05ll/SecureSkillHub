@@ -1,0 +1,24 @@
+{
+  "id": "card-blueprint-db-manager-1568733d",
+  "name": "card-blueprint-db-manager",
+  "description": "This skill should be used when you need to create filtered subsets of the card_blueprint_database.json file to resolve slug collisions during card mapping. It provides jq commands to filter by side (LIGHT/DARK) and exclude defensive shields, creating temporary filtered JSON files for use with cube-builder.",
+  "repo_url": "https://github.com/playerscommittee/gemp-swccg-public",
+  "source_hub": "skillsmp",
+  "skill_type": "agent_skill",
+  "owner": "playerscommittee",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "agent-skills",
+    "utilities",
+    "installs:30"
+  ],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null,
+  "repo_status": "available",
+  "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
+  "repo_check_error": null
+}

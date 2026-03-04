@@ -1,0 +1,24 @@
+{
+  "id": "skill-issue-1fbae1a7",
+  "name": "skill-issue",
+  "description": "Audit and review all installed agent skills. Run on-demand or via cron to get a health report: skill inventory, usage tracking, version checks, dependency health, and actionable recommendations (keep, update, review, remove). Use when asked to review skills, check for skill updates, find unused skills, or audit the skill ecosystem.",
+  "repo_url": "https://github.com/krispuckett/skill-issue",
+  "source_hub": "skillsmp",
+  "skill_type": "agent_skill",
+  "owner": "krispuckett",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "agent-skills",
+    "utilities",
+    "installs:20"
+  ],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null,
+  "repo_status": "available",
+  "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
+  "repo_check_error": null
+}

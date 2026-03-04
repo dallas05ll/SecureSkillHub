@@ -1,0 +1,24 @@
+{
+  "id": "actions-db6b47a7",
+  "name": "actions",
+  "description": "GitHub Actions workflow management using GitHub CLI. Trigger when user wants to check CI status (\"check CI\", \"is the build passing\"), view workflow runs (\"show recent runs\", \"view action logs\"), watch running workflows (\"watch CI\"), or rerun failed workflows (\"rerun the build\").",
+  "repo_url": "https://github.com/robbyt/claude-skills",
+  "source_hub": "skillsmp",
+  "skill_type": "agent_skill",
+  "owner": "robbyt",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "agent-skills",
+    "dev-devops",
+    "installs:40"
+  ],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null,
+  "repo_status": "available",
+  "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
+  "repo_check_error": null
+}

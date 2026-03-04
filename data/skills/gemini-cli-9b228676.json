@@ -1,0 +1,24 @@
+{
+  "id": "gemini-cli-9b228676",
+  "name": "gemini-cli",
+  "description": "Wield Google's Gemini CLI as a powerful auxiliary tool for code generation, review, analysis, and web research. Use when tasks benefit from a second AI perspective, current web information via Google Search, codebase architecture analysis, or parallel code generation. Also use when user explicitly requests Gemini operations.",
+  "repo_url": "https://github.com/forayconsulting/gemini_cli_skill",
+  "source_hub": "skillsmp",
+  "skill_type": "agent_skill",
+  "owner": "forayconsulting",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "agent-skills",
+    "utilities",
+    "installs:157"
+  ],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null,
+  "repo_status": "available",
+  "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
+  "repo_check_error": null
+}

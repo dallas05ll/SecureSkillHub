@@ -75,34 +75,61 @@ class VerificationPipeline:
     # ------------------------------------------------------------------
 
     @staticmethod
-    def clone_repo(repo_url: str) -> str:
+    def clone_repo(repo_url: str) -> "CloneContext":
         """Clone a git repository into a temporary directory.
 
-        Returns the path to the cloned directory.
+        Returns a CloneContext that MUST be used as a context manager::
+
+            with VerificationPipeline.clone_repo(url) as repo_path:
+                # use repo_path ...
+            # temp directory is automatically deleted here
+
+        The cloned repo is cleaned up when the context manager exits,
+        regardless of success, failure, or exceptions.
         """
-        tmp_dir = tempfile.mkdtemp(prefix="secureskillhub_")
-        clone_target = str(Path(tmp_dir) / "repo")
+        return CloneContext(repo_url)
+
+
+class CloneContext:
+    """Context manager that clones a repo and guarantees cleanup on exit."""
+
+    def __init__(self, repo_url: str) -> None:
+        self._repo_url = repo_url
+        self._tmp_dir: str | None = None
+
+    def __enter__(self) -> str:
+        self._tmp_dir = tempfile.mkdtemp(prefix="secureskillhub_")
+        clone_target = str(Path(self._tmp_dir) / "repo")
 
         try:
             subprocess.run(
-                ["git", "clone", "--depth", "1", "--single-branch", repo_url, clone_target],
+                ["git", "clone", "--depth", "1", "--single-branch",
+                 self._repo_url, clone_target],
                 capture_output=True,
                 text=True,
                 timeout=_CLONE_TIMEOUT,
                 check=True,
             )
         except subprocess.CalledProcessError as exc:
-            shutil.rmtree(tmp_dir, ignore_errors=True)
+            shutil.rmtree(self._tmp_dir, ignore_errors=True)
+            self._tmp_dir = None
             raise RuntimeError(
-                f"Git clone failed for {repo_url}: {exc.stderr.strip()}"
+                f"Git clone failed for {self._repo_url}: {exc.stderr.strip()}"
             ) from exc
         except subprocess.TimeoutExpired:
-            shutil.rmtree(tmp_dir, ignore_errors=True)
+            shutil.rmtree(self._tmp_dir, ignore_errors=True)
+            self._tmp_dir = None
             raise RuntimeError(
-                f"Git clone timed out after {_CLONE_TIMEOUT}s for {repo_url}"
+                f"Git clone timed out after {_CLONE_TIMEOUT}s for {self._repo_url}"
             )
 
         return clone_target
+
+    def __exit__(self, exc_type, exc_val, exc_tb) -> None:
+        if self._tmp_dir:
+            shutil.rmtree(self._tmp_dir, ignore_errors=True)
+            self._tmp_dir = None
+        return None  # don't suppress exceptions
 
     @staticmethod
     def get_head_commit(repo_path: str) -> str:

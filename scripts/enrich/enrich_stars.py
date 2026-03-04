@@ -85,10 +85,17 @@ def main(batch_size: int = 50, skip_existing: bool = False) -> None:
     logger.info("Loaded %d skill files", len(skills))
 
     # Filter to skills needing star enrichment
+    skipped_unavailable = 0
     to_enrich = []
     for filepath, data in skills:
         repo_url = data.get("repo_url", "")
         current_stars = data.get("stars", 0)
+        tags = data.get("tags", [])
+
+        # Skip repos marked as unavailable — no point hitting GitHub API for dead repos
+        if "repo_unavailable" in tags:
+            skipped_unavailable += 1
+            continue
 
         if skip_existing and current_stars > 0:
             continue
@@ -97,6 +104,8 @@ def main(batch_size: int = 50, skip_existing: bool = False) -> None:
         if parsed:
             owner, repo = parsed
             to_enrich.append((filepath, data, owner, repo))
+
+    logger.info("Skipped %d skills with repo_unavailable tag", skipped_unavailable)
 
     logger.info("%d skills have GitHub URLs needing star enrichment", len(to_enrich))
 

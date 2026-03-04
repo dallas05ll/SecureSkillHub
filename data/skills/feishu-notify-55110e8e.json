@@ -1,0 +1,24 @@
+{
+  "id": "feishu-notify-55110e8e",
+  "name": "feishu-notify",
+  "description": "通过本仓库脚本发送飞书通知（title/markdown 或卡片），支持 webhook 或个人通知；当用户要求发送/补发飞书通知、预览通知卡片或需要生成通知命令时使用。",
+  "repo_url": "https://github.com/cosven/db-testing",
+  "source_hub": "skillsmp",
+  "skill_type": "agent_skill",
+  "owner": "cosven",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "agent-skills",
+    "dev-testing",
+    "installs:10"
+  ],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null,
+  "repo_status": "available",
+  "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
+  "repo_check_error": null
+}

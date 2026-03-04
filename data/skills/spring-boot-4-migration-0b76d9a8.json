@@ -1,0 +1,24 @@
+{
+  "id": "spring-boot-4-migration-0b76d9a8",
+  "name": "spring-boot-4-migration",
+  "description": "Migrate Spring Boot 3.x → 4.x and stay current across 4.x minor versions. Covers build/starter changes, Jackson 3, Spring Security 7, Spring Framework 7, observability (OpenTelemetry/Micrometer), property and package relocations, testing (JUnit 6, Testcontainers 2, MockitoBean), HTTP clients, resilience, AOT/native, and API versioning. Supports all-at-once and gradual upgrade strategies with compatibility bridges. Java and Kotlin; Maven and Gradle. Trigger on: \"upgrade to Spring Boot 4\", \"mig...",
+  "repo_url": "https://github.com/adityamparikh/spring-boot-4-migration-skill",
+  "source_hub": "skillsmp",
+  "skill_type": "agent_skill",
+  "owner": "adityamparikh",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "agent-skills",
+    "dev-web-backend",
+    "installs:23"
+  ],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null,
+  "repo_status": "available",
+  "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
+  "repo_check_error": null
+}

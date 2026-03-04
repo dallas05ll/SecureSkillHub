@@ -1,0 +1,24 @@
+{
+  "id": "agent-48dfefe8",
+  "name": "agent",
+  "description": "Use for PR/code reviews and any task that benefits from a dedicated tmux sub-agent with per-task git worktrees; default path for reviewing diffs (read diff → summarize → run checks/tests) with automated monitoring.",
+  "repo_url": "https://github.com/gakonst/dotfiles",
+  "source_hub": "skillsmp",
+  "skill_type": "agent_skill",
+  "owner": "gakonst",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "agent-skills",
+    "utilities",
+    "installs:15"
+  ],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null,
+  "repo_status": "available",
+  "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
+  "repo_check_error": null
+}

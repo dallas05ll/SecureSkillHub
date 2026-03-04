@@ -1,0 +1,24 @@
+{
+  "id": "tobari-coverage-improver-f9ca4645",
+  "name": "tobari-coverage-improver",
+  "description": "Analyze test coverage data from tobari.toon and help improve test coverage incrementally. Use when the user has run go test with tobari enabled (e.g., `GOFLAGS=\"$(tobari flags)\" go test ./...`) and wants to improve test coverage or increase code coverage percentage. Triggers on phrases like \"improve coverage\", \"increase coverage\", \"coverage improvement\", or \"add more tests\".",
+  "repo_url": "https://github.com/goccy/tobari",
+  "source_hub": "skillsmp",
+  "skill_type": "agent_skill",
+  "owner": "goccy",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "agent-skills",
+    "dev-testing",
+    "installs:40"
+  ],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null,
+  "repo_status": "available",
+  "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
+  "repo_check_error": null
+}

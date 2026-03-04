@@ -1,0 +1,24 @@
+{
+  "id": "agent-file-specs-aef8d06e",
+  "name": "agent-file-specs",
+  "description": "Contains the complete specifications for AI coding assistant customization files including agents, skills, prompts, and instructions. Works with GitHub Copilot, Claude Code, Codex, OpenCode, and other providers. Use this skill when you need to reference the correct file format, required fields, supported attributes, file locations, or VS Code settings for any customization file. Follows the Agent Skills open standard (agentskills.io).",
+  "repo_url": "https://github.com/jburlison/metaprompts",
+  "source_hub": "skillsmp",
+  "skill_type": "agent_skill",
+  "owner": "jburlison",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "agent-skills",
+    "utilities",
+    "installs:47"
+  ],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null,
+  "repo_status": "available",
+  "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
+  "repo_check_error": null
+}

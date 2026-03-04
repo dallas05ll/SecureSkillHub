@@ -1,0 +1,24 @@
+{
+  "id": "opensrc-93658578",
+  "name": "opensrc",
+  "description": "Fetch source code for npm, PyPI, or crates.io packages and GitHub/GitLab repos to provide AI agents with implementation context beyond types and docs. Use when needing to understand how a library works internally, debug dependency issues, or explore package implementations.",
+  "repo_url": "https://github.com/deadlock-mod-manager/deadlock-mod-manager",
+  "source_hub": "skillsmp",
+  "skill_type": "agent_skill",
+  "owner": "deadlock-mod-manager",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "agent-skills",
+    "utilities",
+    "installs:182"
+  ],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null,
+  "repo_status": "available",
+  "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
+  "repo_check_error": null
+}

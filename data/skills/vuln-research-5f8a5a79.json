@@ -1,0 +1,24 @@
+{
+  "id": "vuln-research-5f8a5a79",
+  "name": "vuln-research",
+  "description": "安全研究元思考方法论 - 从先知社区5600+篇安全文档中提炼的漏洞挖掘方法论框架。\n\nUse this skill when:\n- 进行漏洞挖掘和安全研究时，需要系统化的思考框架\n- 分析特定类型漏洞（Web注入、反序列化、二进制、域渗透等）的攻击路径\n- 需要了解绕过防护措施（WAF、EDR、沙箱）的思维模式\n- 进行代码审计需要Source-Sink分析方法论\n- 红队攻防需要完整攻击链规划\n- CTF竞赛需要快速解题思路\n- 逆向分析恶意软件需要方法论指导\n\nTriggers: 漏洞挖掘、安全研究、渗透测试、代码审计、红队攻防、CTF、逆向分析、\nWAF绕过、免杀、提权、横向移动、域渗透、反序列化、二进制安全、Fuzzing",
+  "repo_url": "https://github.com/tanweai/xianzhi-research",
+  "source_hub": "skillsmp",
+  "skill_type": "agent_skill",
+  "owner": "tanweai",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "agent-skills",
+    "utilities",
+    "installs:101"
+  ],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null,
+  "repo_status": "available",
+  "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
+  "repo_check_error": null
+}

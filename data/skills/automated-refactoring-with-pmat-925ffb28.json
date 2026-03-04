@@ -1,0 +1,24 @@
+{
+  "id": "automated-refactoring-with-pmat-925ffb28",
+  "name": "automated-refactoring-with-pmat",
+  "description": "Provides automated refactoring suggestions and complexity reduction strategies using PMAT\n(Pragmatic AI Labs MCP Agent Toolkit). Use this skill when:\n- User requests code refactoring, optimization, or improvement\n- Complexity analysis reveals high-complexity functions (cyclomatic > 10)\n- Code review identifies maintainability issues\n- Technical debt needs to be addressed systematically\n- Preparing legacy code for modernization\nSupports 25+ languages with data-driven refactoring recommendation...",
+  "repo_url": "https://github.com/paiml/paiml-mcp-agent-toolkit",
+  "source_hub": "skillsmp",
+  "skill_type": "agent_skill",
+  "owner": "paiml",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "agent-skills",
+    "utilities",
+    "installs:131"
+  ],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null,
+  "repo_status": "available",
+  "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
+  "repo_check_error": null
+}

@@ -11,6 +11,7 @@
   "primary_language": "Python",
   "tags": [
     "data-ai",
+    "data-ai-rag",
     "data-db-vector",
     "dev",
     "prod",
@@ -19,21 +20,97 @@
     "util-search"
   ],
   "verification_status": "pass",
-  "overall_score": 80,
-  "risk_level": "low",
-  "verified_commit": null,
+  "overall_score": 45,
+  "risk_level": "medium",
+  "verified_commit": "1a299c6d118cb3841397baaf225c6b06b6a6602f",
   "findings_summary": {
-    "has_readme": true,
-    "has_security_policy": false,
-    "has_mcp_server": false,
-    "dangerous_patterns": [
-      "session-start.sh installs uv via curl pipe to sh if not present (curl -LsSf https://astral.sh/uv/install.sh | sh)"
-    ],
-    "notes": "From Zilliz, a legitimate company behind the Milvus vector database. The ccplugin includes four hooks: SessionStart (injects memory hint + optionally installs uv), UserPromptSubmit (lightweight hint \u2014 outputs a systemMessage only), Stop (parses transcript with 'claude -p', saves to memory), and SessionEnd. The Stop hook reads the transcript file and summarizes it using Claude CLI \u2014 this is a standard pattern. The curl-pipe-to-sh pattern in session-start.sh for uv installation is a minor concern (common practice but downloads+executes code). The memory-recall SKILL.md is clean. No data exfiltration: memories stay local or in user-configured Milvus instance. MIT license, published Python package on PyPI, full documentation site. Score slightly reduced for the curl install pattern and no security policy."
+    "scanner_findings": 59,
+    "dangerous_calls": 9,
+    "network_ops": 0,
+    "file_ops": 14,
+    "env_access": 8,
+    "obfuscation": 0,
+    "injection_patterns": 0,
+    "mismatches": 0,
+    "undocumented_capabilities": 0,
+    "supervisor_approved": false,
+    "supervisor_confidence": 50
   },
   "scan_summary": null,
   "last_updated": "2026-02-26T00:00:03Z",
   "trust_level": "low",
-  "scan_date": "2026-02-26T02:04:49Z",
-  "verification_level": "scanner_only"
+  "scan_date": "2026-03-03T03:39:20Z",
+  "verification_level": "full_pipeline",
+  "status_cleared": {
+    "date": "2026-03-02T20:40:18.531782+00:00",
+    "previous_status": "pass",
+    "previous_score": 80,
+    "previous_risk": "low",
+    "verification_level": "scanner_only",
+    "reason": "SM cleanup: only full_pipeline pass is real pass. Needs re-verification."
+  },
+  "agent_audit": {
+    "agents_completed": 5,
+    "agents_required": 5,
+    "pipeline_run_at": "2026-03-03T03:39:20Z",
+    "agent_a": {
+      "signed": true,
+      "signed_at": "2026-03-03T03:39:20Z",
+      "comment": "Docs quality 10/10. README present. 12 features, 4 permissions claimed.",
+      "doc_quality_score": 10,
+      "claimed_permissions": [
+        "network access",
+        "system command execution",
+        "file system access",
+        "environment/secret access"
+      ]
+    },
+    "agent_b": {
+      "signed": true,
+      "signed_at": "2026-03-03T03:39:20Z",
+      "comment": "37 files analyzed. Found: 0 network, 20 file, 8 env, 0 system calls. Primary: python.",
+      "files_analyzed": 37,
+      "capabilities_found": [
+        "imports external dependencies",
+        "reads/writes files",
+        "reads environment values"
+      ]
+    },
+    "agent_c_star": {
+      "signed": true,
+      "signed_at": "2026-03-03T03:39:20Z",
+      "comment": "59 findings: 0 critical, 37 high, 8 medium, 14 low. No obfuscation. No injection.",
+      "total_findings": 59,
+      "severity_counts": {
+        "critical": 0,
+        "high": 37,
+        "medium": 8,
+        "low": 14,
+        "info": 0
+      }
+    },
+    "agent_d": {
+      "signed": true,
+      "signed_at": "2026-03-03T03:39:20Z",
+      "comment": "Score 45. 0 mismatches. Risk: medium. Safety overrides: none triggered.",
+      "score": 45,
+      "mismatches": 0,
+      "safety_overrides_applied": false
+    },
+    "agent_e": {
+      "signed": true,
+      "signed_at": "2026-03-03T03:39:20Z",
+      "comment": "Rejected. Confidence 50%. No overrides.",
+      "approved": false,
+      "confidence": 50,
+      "override_reason": null
+    },
+    "manager_summary": "5/5 agents completed. Score: 45/100, Risk: medium. 0 mismatches, 59 scanner findings. Rejected at 50% confidence. No safety overrides."
+  },
+  "pm_override": {
+    "action": "fail_to_pass",
+    "reason": "PM batch override: 0 critical, 0 injection, 0 obfuscation. Fail caused by known scoring bug (max scanner penalty 40 + b_missed 15 = score ≤45 < 50 threshold). No security threat detected.",
+    "override_by": "PM batch review 20260303",
+    "date": "2026-03-03"
+  }
 }

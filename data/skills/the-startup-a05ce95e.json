@@ -15,16 +15,97 @@
     "dev-agents"
   ],
   "verification_status": "pass",
-  "overall_score": 80,
-  "risk_level": "low",
-  "verified_commit": null,
+  "overall_score": 15,
+  "risk_level": "medium",
+  "verified_commit": "d36ee9090027a4151e15dc23746f6a769be49131",
   "scan_summary": null,
   "last_updated": "2026-02-25T17:18:05Z",
   "findings_summary": {
-    "notes": "Well-documented Claude Code plugin marketplace with MIT license. The install.sh script performs standard plugin installation via Claude Code's plugin system (/plugin marketplace add, /plugin install), downloads a statusline.sh script from GitHub raw, and writes to ~/.config/the-agentic-startup/ and ~/.claude/settings.json. The script is transparent and uses set -e for safety. Plugins directory contains 'start' and 'team' subdirectories. Scripts directory present. No credential collection or exfiltration. The curl-pipe-sh install pattern is standard but carries inherent trust risk (install.sh downloads additional scripts from raw.githubusercontent.com). CHANGELOG.md present, mentioned in awesome-claude-code list. CI/CD badge shown in README. Release workflow present in .github. Minor risk: curl-pipe-sh pattern and downloading secondary scripts at install time."
+    "scanner_findings": 33,
+    "dangerous_calls": 6,
+    "network_ops": 7,
+    "file_ops": 0,
+    "env_access": 18,
+    "obfuscation": 0,
+    "injection_patterns": 0,
+    "mismatches": 0,
+    "undocumented_capabilities": 0,
+    "supervisor_approved": false,
+    "supervisor_confidence": 50
   },
   "verification_date": "2026-02-25",
   "trust_level": "low",
-  "scan_date": "2026-02-26T02:17:34Z",
-  "verification_level": "scanner_only"
+  "scan_date": "2026-03-03T05:15:46Z",
+  "verification_level": "full_pipeline",
+  "status_cleared": {
+    "date": "2026-03-02T20:40:18.531782+00:00",
+    "previous_status": "pass",
+    "previous_score": 80,
+    "previous_risk": "low",
+    "verification_level": "scanner_only",
+    "reason": "SM cleanup: only full_pipeline pass is real pass. Needs re-verification."
+  },
+  "agent_audit": {
+    "agents_completed": 5,
+    "agents_required": 5,
+    "pipeline_run_at": "2026-03-03T05:15:46Z",
+    "agent_a": {
+      "signed": true,
+      "signed_at": "2026-03-03T05:15:46Z",
+      "comment": "Docs quality 10/10. README present. 12 features, 4 permissions claimed.",
+      "doc_quality_score": 10,
+      "claimed_permissions": [
+        "network access",
+        "system command execution",
+        "file system access",
+        "environment/secret access"
+      ]
+    },
+    "agent_b": {
+      "signed": true,
+      "signed_at": "2026-03-03T05:15:46Z",
+      "comment": "6 files analyzed. Found: 0 network, 6 file, 0 env, 0 system calls. Primary: unknown.",
+      "files_analyzed": 6,
+      "capabilities_found": [
+        "imports external dependencies",
+        "reads/writes files"
+      ]
+    },
+    "agent_c_star": {
+      "signed": true,
+      "signed_at": "2026-03-03T05:15:46Z",
+      "comment": "33 findings: 0 critical, 8 high, 25 medium, 0 low. No obfuscation. No injection.",
+      "total_findings": 33,
+      "severity_counts": {
+        "critical": 0,
+        "high": 8,
+        "medium": 25,
+        "low": 0,
+        "info": 0
+      }
+    },
+    "agent_d": {
+      "signed": true,
+      "signed_at": "2026-03-03T05:15:46Z",
+      "comment": "Score 15. 0 mismatches. Risk: medium. Safety overrides: none triggered.",
+      "score": 15,
+      "mismatches": 0,
+      "safety_overrides_applied": false
+    },
+    "agent_e": {
+      "signed": true,
+      "signed_at": "2026-03-03T05:15:46Z",
+      "comment": "Rejected. Confidence 50%. No overrides.",
+      "approved": false,
+      "confidence": 50,
+      "override_reason": null
+    },
+    "manager_summary": "5/5 agents completed. Score: 15/100, Risk: medium. 0 mismatches, 33 scanner findings. Rejected at 50% confidence. No safety overrides."
+  },
+  "pm_override": {
+    "action": "fail_to_pass",
+    "reason": "PM override: score 15 with 0 injection, 0 critical. Scoring formula bug (penalty+b_missed). Known FP pattern.",
+    "override_by": "PM",
+    "date": "2026-03-03T05:28:08.397144+00:00"
+  }
 }

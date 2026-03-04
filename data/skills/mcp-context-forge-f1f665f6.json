@@ -14,10 +14,9 @@
     "integ",
     "sec",
     "util",
-    "util-monitor",
-    "status-fail"
+    "util-monitor"
   ],
-  "verification_status": "manual_review",
+  "verification_status": "pass",
   "overall_score": 70,
   "risk_level": "medium",
   "verified_commit": "1709d3a5c5bbd18fec19c8bac471ed9ab64e589d",
@@ -102,5 +101,12 @@
       "override_reason": "Deterministic override: injection patterns detected."
     },
     "manager_summary": "5/5 agents completed. Score: 0/100, Risk: critical. 0 mismatches, 4069 scanner findings. Rejected at 95% confidence. Safety overrides triggered."
-  }
+  },
+  "pm_override": {
+    "action": "manual_review_to_pass",
+    "reason": "PM internet-verified: IBM official mcp-context-forge security gateway. All injection findings from LLMGuard test payloads and exfiltration detector plugins that decode base64 to inspect it. Project runs 40+ security scans in CI (Semgrep, CodeQL, Gitleaks, Trivy).",
+    "override_by": "PM internet verification 20260303",
+    "date": "2026-03-03"
+  },
+  "skill_type": "mcp_server"
 }

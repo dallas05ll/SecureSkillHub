@@ -1,0 +1,24 @@
+{
+  "id": "drafting-til-b6549337",
+  "name": "drafting-til",
+  "description": "Drafts a TIL blog post in the user's voice and creates it in Notion with Status=\"Claude Draft\". Contains voice guide for matching the user's writing style. Use when user approves a TIL topic and wants a draft created.",
+  "repo_url": "https://github.com/ooloth/dotfiles",
+  "source_hub": "skillsmp",
+  "skill_type": "agent_skill",
+  "owner": "ooloth",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "agent-skills",
+    "utilities",
+    "installs:20"
+  ],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null,
+  "repo_status": "available",
+  "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
+  "repo_check_error": null
+}

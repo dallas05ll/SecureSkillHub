@@ -1,0 +1,24 @@
+{
+  "id": "fix-ci-0ec8ebf4",
+  "name": "fix-ci",
+  "description": "Fix CI pipeline failures. Use when the user says \"fix CI\", \"pipeline is failing\", \"CI is red\", \"build failed\", or needs to resolve test/lint/type-check failures in CI.",
+  "repo_url": "https://github.com/bellini666/dotfiles",
+  "source_hub": "skillsmp",
+  "skill_type": "agent_skill",
+  "owner": "bellini666",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "agent-skills",
+    "dev-devops",
+    "installs:17"
+  ],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null,
+  "repo_status": "available",
+  "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
+  "repo_check_error": null
+}

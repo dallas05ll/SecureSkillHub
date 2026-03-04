@@ -37,6 +37,8 @@ SKILLS_DIR = PROJECT_ROOT / "data" / "skills"
 SOURCE_PRIORITY = {
     "glama": 10,     # Rich descriptions, license info
     "mcp_so": 5,     # Good volume but sparser data
+    "skillsmp": 3,   # Claude Code skills via skilldb mirror, install-count proxy
+    "skills_sh": 3,  # skills.sh directory
 }
 
 
@@ -129,12 +131,19 @@ def skill_to_json(skill: dict) -> dict:
     if not tags:
         tags = skill.get("tags", [])
 
+    # Determine skill_type (default mcp_server for backwards compat)
+    skill_type = skill.get("skill_type", "mcp_server")
+    # Handle enum values from Pydantic
+    if hasattr(skill_type, "value"):
+        skill_type = skill_type.value
+
     return {
         "id": skill_id,
         "name": name,
         "description": skill.get("description", ""),
         "repo_url": repo_url,
         "source_hub": source,
+        "skill_type": skill_type,
         "owner": owner,
         "stars": skill.get("stars", 0),
         "primary_language": "unknown",
@@ -224,7 +233,7 @@ def main(limit: int = 0, merge: bool = False, skip_reachability: bool = False) -
             # Preserve enrichment fields from existing data
             for key in ("stars", "verification_status", "overall_score",
                         "risk_level", "verified_commit", "scan_summary",
-                        "scan_date", "tags"):
+                        "scan_date", "tags", "skill_type", "verification_level"):
                 if old.get(key) and (not output.get(key) or output[key] in (0, "unverified", "info", None, [])):
                     output[key] = old[key]
             merged += 1
@@ -244,13 +253,18 @@ def main(limit: int = 0, merge: bool = False, skip_reachability: bool = False) -
     from datetime import datetime, timezone
     now = datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
 
-    # Count verification statuses
+    # Count verification statuses, types, tiers from ALL skills on disk
+    total_on_disk = 0
     verified = 0
     failed = 0
     pending = 0
     sources: dict[str, int] = {}
+    skill_types: dict[str, int] = {}
+    verification_tiers: dict[str, int] = {}
+    has_scan = 0
     for f in SKILLS_DIR.glob("*.json"):
         data = json.loads(f.read_text())
+        total_on_disk += 1
         status = data.get("verification_status", "unverified")
         if status == "pass":
             verified += 1
@@ -260,16 +274,25 @@ def main(limit: int = 0, merge: bool = False, skip_reachability: bool = False) -
             pending += 1
         src = data.get("source_hub", "unknown")
         sources[src] = sources.get(src, 0) + 1
+        st = data.get("skill_type", "mcp_server")
+        skill_types[st] = skill_types.get(st, 0) + 1
+        vl = data.get("verification_level", "")
+        if vl:
+            verification_tiers[vl] = verification_tiers.get(vl, 0) + 1
+        if data.get("scan_report") or data.get("findings_summary"):
+            has_scan += 1
 
     stats = {
-        "total_skills": written,
+        "total_skills": total_on_disk,
         "verified_skills": verified,
         "failed_skills": failed,
         "pending_review": pending,
-        "total_scans_run": verified + failed + pending,
+        "total_scans_run": has_scan,
         "last_crawl": now,
         "last_build": now,
         "sources": sources,
+        "skill_types": skill_types,
+        "verification_tiers": verification_tiers,
     }
     stats_file.write_text(json.dumps(stats, indent=2), encoding="utf-8")
     logger.info("Updated stats.json: %s", json.dumps(sources))

@@ -1,0 +1,24 @@
+{
+  "id": "xr-compose-tool-c81cf5d8",
+  "name": "xr-compose-tool",
+  "description": "Tooling for xr-compose-based XRd labs in this repo. Use when asked to launch/stop/restart labs, run commands/logs, manage containers via the just wrapper, or work with docker-compose.xr.yml topology files and xr-compose templates.",
+  "repo_url": "https://github.com/ios-xr/xrd-tools",
+  "source_hub": "skillsmp",
+  "skill_type": "agent_skill",
+  "owner": "ios-xr",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "agent-skills",
+    "dev-devops",
+    "installs:33"
+  ],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null,
+  "repo_status": "available",
+  "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
+  "repo_check_error": null
+}

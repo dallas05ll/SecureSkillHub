@@ -1,0 +1,24 @@
+{
+  "id": "compact-commits-c1078f0d",
+  "name": "compact-commits",
+  "description": "Compact all commits in a GitHub PR into a single commit with comprehensive message and DCO sign-off. Use when user wants to squash PR commits, clean up commit history, or prepare PR for merge.",
+  "repo_url": "https://github.com/yanmxa/cc-plugins",
+  "source_hub": "skillsmp",
+  "skill_type": "agent_skill",
+  "owner": "yanmxa",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "agent-skills",
+    "dev-git",
+    "installs:11"
+  ],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null,
+  "repo_status": "available",
+  "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
+  "repo_check_error": null
+}

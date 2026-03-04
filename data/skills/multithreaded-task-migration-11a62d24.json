@@ -1,0 +1,24 @@
+{
+  "id": "multithreaded-task-migration-11a62d24",
+  "name": "multithreaded-task-migration",
+  "description": "Guide for migrating MSBuild tasks to the multithreaded mode support. Use this when asked to convert tasks to thread-safe versions, implement IMultiThreadableTask, or add TaskEnvironment support to tasks.",
+  "repo_url": "https://github.com/dotnet/msbuild",
+  "source_hub": "skillsmp",
+  "skill_type": "agent_skill",
+  "owner": "dotnet",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "agent-skills",
+    "utilities",
+    "installs:5485"
+  ],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null,
+  "repo_status": "available",
+  "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
+  "repo_check_error": null
+}

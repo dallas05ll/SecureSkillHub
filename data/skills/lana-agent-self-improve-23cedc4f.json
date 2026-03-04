@@ -1,0 +1,24 @@
+{
+  "id": "lana-agent-self-improve-23cedc4f",
+  "name": "lana-agent-self-improve",
+  "description": "Post-session retrospective that reflects on agent instruction files used during the session and makes targeted improvements. Run manually after completing real work.",
+  "repo_url": "https://github.com/galoymoney/lana-bank",
+  "source_hub": "skillsmp",
+  "skill_type": "agent_skill",
+  "owner": "galoymoney",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "agent-skills",
+    "utilities",
+    "installs:42"
+  ],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null,
+  "repo_status": "available",
+  "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
+  "repo_check_error": null
+}

@@ -1,0 +1,24 @@
+{
+  "id": "chart-visualization-18a57b7e",
+  "name": "chart-visualization",
+  "description": "Recommend and generate appropriate data visualizations using GPT-Vis syntax. Supports 20 chart types including statistical charts (line, column, bar, pie, area, scatter, dual-axes, histogram, boxplot, radar, funnel, waterfall, liquid, word-cloud, violin, venn, treemap), flow charts (sankey), and data display (table, summary). Provides workflow from intent recognition to chart selection, syntax generation, and code generation for HTML, React, or Vue.",
+  "repo_url": "https://github.com/antvis/gpt-vis",
+  "source_hub": "skillsmp",
+  "skill_type": "agent_skill",
+  "owner": "antvis",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "agent-skills",
+    "dev-web-frontend",
+    "installs:654"
+  ],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null,
+  "repo_status": "available",
+  "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
+  "repo_check_error": null
+}

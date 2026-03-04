@@ -1,0 +1,24 @@
+{
+  "id": "brand-guidelines-1926af56",
+  "name": "brand-guidelines",
+  "description": "Use when users want to define, codify, or update their brand identity and connect it to design systems. Produces a self-contained user-level skill at ~/.claude/skills/{brand-slug}/SKILL.md that enforces brand guidelines whenever visual assets or written content are created.",
+  "repo_url": "https://github.com/kenneth-liao/ai-launchpad-marketplace",
+  "source_hub": "skillsmp",
+  "skill_type": "agent_skill",
+  "owner": "kenneth-liao",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "agent-skills",
+    "utilities",
+    "installs:90"
+  ],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null,
+  "repo_status": "available",
+  "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
+  "repo_check_error": null
+}

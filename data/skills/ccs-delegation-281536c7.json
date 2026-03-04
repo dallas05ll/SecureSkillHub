@@ -1,0 +1,24 @@
+{
+  "id": "ccs-delegation-281536c7",
+  "name": "ccs-delegation",
+  "description": "Auto-activate CCS CLI delegation for deterministic tasks. Parses user input, auto-selects optimal profile (glm/kimi/custom) from ~/.ccs/config.json, enhances prompts with context, executes via `ccs {profile} -p \"task\"` or `ccs {profile}:continue`, and reports results. Triggers on \"use ccs [task]\" patterns, typo/test/refactor keywords. Excludes complex architecture, security-critical code, performance optimization, breaking changes.",
+  "repo_url": "https://github.com/jellydn/my-ai-tools",
+  "source_hub": "skillsmp",
+  "skill_type": "agent_skill",
+  "owner": "jellydn",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "agent-skills",
+    "security",
+    "installs:30"
+  ],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null,
+  "repo_status": "available",
+  "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
+  "repo_check_error": null
+}

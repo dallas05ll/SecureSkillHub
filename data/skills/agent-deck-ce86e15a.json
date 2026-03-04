@@ -1,0 +1,24 @@
+{
+  "id": "agent-deck-ce86e15a",
+  "name": "agent-deck",
+  "description": "Terminal session manager for AI coding agents. Use when user mentions \"agent-deck\", \"session\", \"sub-agent\", \"MCP attach\", \"git worktree\", or needs to (1) create/start/stop/restart/fork sessions, (2) attach/detach MCPs, (3) manage groups/profiles, (4) get session output, (5) configure agent-deck, (6) troubleshoot issues, (7) launch sub-agents, or (8) create/manage worktree sessions. Covers CLI commands, TUI shortcuts, config.toml options, and automation.",
+  "repo_url": "https://github.com/asheshgoplani/agent-deck",
+  "source_hub": "skillsmp",
+  "skill_type": "agent_skill",
+  "owner": "asheshgoplani",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "agent-skills",
+    "utilities",
+    "installs:886"
+  ],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null,
+  "repo_status": "available",
+  "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
+  "repo_check_error": null
+}

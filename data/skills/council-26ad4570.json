@@ -1,0 +1,24 @@
+{
+  "id": "council-26ad4570",
+  "name": "council",
+  "description": "Multi-model consensus council. Spawns parallel judges with configurable perspectives. Modes: validate, brainstorm, research. Triggers: \"council\", \"get consensus\", \"multi-model review\", \"multi-perspective review\", \"council validate\", \"council brainstorm\", \"council research\".",
+  "repo_url": "https://github.com/boshu2/agentops",
+  "source_hub": "skillsmp",
+  "skill_type": "agent_skill",
+  "owner": "boshu2",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "agent-skills",
+    "utilities",
+    "installs:1308"
+  ],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null,
+  "repo_status": "available",
+  "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
+  "repo_check_error": null
+}

@@ -1,0 +1,24 @@
+{
+  "id": "pr-walkthrough-afa904d1",
+  "name": "pr-walkthrough",
+  "description": "Create a narrated video walkthrough of a pull request with code slides and audio narration. Use when asked to create a PR walkthrough, PR video, or walkthrough video.",
+  "repo_url": "https://github.com/tldraw/tldraw",
+  "source_hub": "skillsmp",
+  "skill_type": "agent_skill",
+  "owner": "tldraw",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "agent-skills",
+    "dev-git",
+    "installs:45240"
+  ],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null,
+  "repo_status": "available",
+  "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
+  "repo_check_error": null
+}

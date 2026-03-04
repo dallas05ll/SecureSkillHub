@@ -1,0 +1,24 @@
+{
+  "id": "spawning-plan-6758637e",
+  "name": "spawning-plan",
+  "description": "Spawning Plan. Use when user wants to spawn agents, create a team, or coordinate multiple agents. Automatically gathers context, asks team topology questions, outputs clean TEAM PLAN markdown, and gets user approval. 3 steps: context gathering → questions → present plan. **CRITICAL**: MUST NOT SPAWN AGENTS SKIPPING THIS SKILL, USE ALWAYS.",
+  "repo_url": "https://github.com/octaviusp/spawning-plan-skill",
+  "source_hub": "skillsmp",
+  "skill_type": "agent_skill",
+  "owner": "octaviusp",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "agent-skills",
+    "utilities",
+    "installs:29"
+  ],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null,
+  "repo_status": "available",
+  "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
+  "repo_check_error": null
+}

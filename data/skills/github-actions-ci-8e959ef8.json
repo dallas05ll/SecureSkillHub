@@ -1,0 +1,24 @@
+{
+  "id": "github-actions-ci-8e959ef8",
+  "name": "github-actions-ci",
+  "description": "Check GitHub Actions CI status after pushing changes. Triggers after `git push` in projects with a `.github/workflows` directory. For Xcode Cloud builds (iOS/macOS projects without .github/workflows), use the xcode-cloud-ci skill instead.",
+  "repo_url": "https://github.com/dbmrq/dotfiles",
+  "source_hub": "skillsmp",
+  "skill_type": "agent_skill",
+  "owner": "dbmrq",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "agent-skills",
+    "dev-devops",
+    "installs:75"
+  ],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null,
+  "repo_status": "available",
+  "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
+  "repo_check_error": null
+}

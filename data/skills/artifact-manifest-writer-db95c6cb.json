@@ -1,0 +1,24 @@
+{
+  "id": "artifact-manifest-writer-db95c6cb",
+  "name": "artifact-manifest-writer",
+  "description": "将一次执行的改动/命令/验证/产物整理成结构化 `manifest_<topic>.json`，并落盘到 `<MM_DD>/codex/artifact/`，用于证据链与可追溯交付。适用于“写manifest/记录证据链/把今天做了什么落成json/生成artifact清单”等请求。",
+  "repo_url": "https://github.com/phmbench/phm-vibench",
+  "source_hub": "skillsmp",
+  "skill_type": "agent_skill",
+  "owner": "phmbench",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "agent-skills",
+    "utilities",
+    "installs:9"
+  ],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null,
+  "repo_status": "available",
+  "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
+  "repo_check_error": null
+}

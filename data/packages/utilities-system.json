@@ -1,0 +1,43 @@
+{
+  "tag_path": "utilities-system",
+  "label": "General System Package",
+  "description": "Top 2 verified system skills, auto-curated by GitHub stars and security score.",
+  "skill_ids": [
+    "scheduler-mcp-31b5a8af",
+    "openai-codex-mcp-3a586a3a"
+  ],
+  "skills": [
+    {
+      "id": "scheduler-mcp-31b5a8af",
+      "name": "scheduler-mcp",
+      "description": "MCP Scheduler is a task automation server that lets you schedule shell commands, API calls, AI tasks, and desktop notifications using cron expressions. Built with Model Context Protocol for seamless i",
+      "repo_url": "https://github.com/PhialsBasement/scheduler-mcp",
+      "stars": 52,
+      "overall_score": 85,
+      "verification_status": "pass",
+      "risk_level": "medium",
+      "primary_language": "python",
+      "install_url": "https://github.com/PhialsBasement/scheduler-mcp",
+      "skill_type": "unknown"
+    },
+    {
+      "id": "openai-codex-mcp-3a586a3a",
+      "name": "openai-codex-mcp",
+      "description": "An MCP server to communicated with, use, and wrap the API for the OpenAI Codex CLI tool.",
+      "repo_url": "https://github.com/agency-ai-solutions/openai-codex-mcp",
+      "stars": 48,
+      "overall_score": 70,
+      "verification_status": "manual_review",
+      "risk_level": "high",
+      "primary_language": "unknown",
+      "install_url": "https://github.com/agency-ai-solutions/openai-codex-mcp",
+      "skill_type": "unknown"
+    }
+  ],
+  "total_skills": 2,
+  "total_candidates": 2,
+  "avg_score": 77.5,
+  "min_score": 70,
+  "top_stars": 52,
+  "generated_at": "2026-03-02T22:27:24Z"
+}

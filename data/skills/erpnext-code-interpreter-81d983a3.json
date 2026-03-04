@@ -1,0 +1,24 @@
+{
+  "id": "erpnext-code-interpreter-81d983a3",
+  "name": "erpnext-code-interpreter",
+  "description": "Intelligent agent for interpreting vague ERPNext development requests and producing concrete technical specifications. Use when receiving unclear requirements like 'make invoice auto-calculate', 'add approval workflow', 'sync with external system'. Triggers: user gives vague requirement, need to clarify scope, translate business need to technical spec, determine which ERPNext mechanisms to use, create implementation plan.",
+  "repo_url": "https://github.com/openaec-foundation/erpnext_anthropic_claude_development_skill_package",
+  "source_hub": "skillsmp",
+  "skill_type": "agent_skill",
+  "owner": "openaec-foundation",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "agent-skills",
+    "utilities",
+    "installs:21"
+  ],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null,
+  "repo_status": "available",
+  "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
+  "repo_check_error": null
+}

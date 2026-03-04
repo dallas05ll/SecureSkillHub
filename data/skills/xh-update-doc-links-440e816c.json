@@ -1,0 +1,24 @@
+{
+  "id": "xh-update-doc-links-440e816c",
+  "name": "xh-update-doc-links",
+  "description": "Pre-commit documentation consistency check. Ensures docs/README.md index and docs/planning/docs-roadmap.md stay in sync with documentation files on disk, validates inter-doc links, and enhances cross-references when new docs are added. Invoke after editing READMEs or concept docs, before committing.",
+  "repo_url": "https://github.com/xh/hoist-react",
+  "source_hub": "skillsmp",
+  "skill_type": "agent_skill",
+  "owner": "xh",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "agent-skills",
+    "dev-web-frontend",
+    "installs:30"
+  ],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null,
+  "repo_status": "available",
+  "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
+  "repo_check_error": null
+}

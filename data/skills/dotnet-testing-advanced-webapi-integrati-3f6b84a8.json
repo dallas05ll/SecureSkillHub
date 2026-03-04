@@ -1,0 +1,24 @@
+{
+  "id": "dotnet-testing-advanced-webapi-integrati-3f6b84a8",
+  "name": "dotnet-testing-advanced-webapi-integration-testing",
+  "description": "ASP.NET Core WebApi 整合測試完整指南。當需要對 WebApi 端點進行整合測試或驗證 ProblemDetails 錯誤格式時使用。涵蓋 WebApplicationFactory、IExceptionHandler、Testcontainers 多容器編排、Flurl URL 建構與 AwesomeAssertions HTTP 驗證。\nKeywords: webapi integration testing, WebApplicationFactory, asp.net core integration test, webapi 整合測試, IExceptionHandler, ProblemDetails, ValidationProblemDetails, AwesomeAssertions, Flurl, Respawn, Be201Created, Be400BadRequest, 多容器測試, Collection Fixture, 全域例外處理",
+  "repo_url": "https://github.com/kevintsengtw/dotnet-testing-agent-skills",
+  "source_hub": "skillsmp",
+  "skill_type": "agent_skill",
+  "owner": "kevintsengtw",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "agent-skills",
+    "dev-testing",
+    "installs:29"
+  ],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null,
+  "repo_status": "available",
+  "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
+  "repo_check_error": null
+}

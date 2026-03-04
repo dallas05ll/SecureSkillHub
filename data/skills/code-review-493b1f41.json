@@ -1,0 +1,24 @@
+{
+  "id": "code-review-493b1f41",
+  "name": "code-review",
+  "description": "Perform comprehensive code reviews covering bugs, style, performance, security, and best practices. Use this skill when the user mentions: review my code, check this code, code review, find bugs, improve code, refactor suggestions, security audit, performance optimization, code quality, static analysis.",
+  "repo_url": "https://github.com/karmaloopai/jiva",
+  "source_hub": "skillsmp",
+  "skill_type": "agent_skill",
+  "owner": "karmaloopai",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "agent-skills",
+    "security",
+    "installs:19"
+  ],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null,
+  "repo_status": "available",
+  "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
+  "repo_check_error": null
+}

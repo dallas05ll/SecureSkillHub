@@ -19,20 +19,100 @@
     "util"
   ],
   "verification_status": "pass",
-  "overall_score": 82,
-  "risk_level": "low",
-  "verified_commit": null,
+  "overall_score": 45,
+  "risk_level": "medium",
+  "verified_commit": "3a7329fc8f58845af548e61760ba08505811636d",
   "scan_summary": null,
   "last_updated": "2026-02-24T16:46:18Z",
   "findings_summary": {
-    "has_readme": true,
-    "has_security_policy": false,
-    "has_mcp_server": false,
-    "dangerous_patterns": [],
-    "notes": "Well-maintained individual developer project with strong community adoption. 3738 stars, 225 forks, 30 contributors, active CI with GitHub Actions. MIT licensed. Version 0.4.9 with changelog and full documentation site. Contains CONTRIBUTING.md, QUICKSTART.md, and skills documentation. No SECURITY.md present. Primary language confirmed as Python with markdown skills. Uses Claude Code plugin marketplace (.claude-plugin/marketplace.json). No dangerous patterns detected - skills are markdown prompt files, workflow commands are standard slash commands. Requires Atlassian MCP server for workflow features (optional). Strong commit signing policy (web_commit_signoff_required: true). Minor deductions for missing security policy and solo ownership."
+    "scanner_findings": 285,
+    "dangerous_calls": 27,
+    "network_ops": 75,
+    "file_ops": 105,
+    "env_access": 54,
+    "obfuscation": 16,
+    "injection_patterns": 0,
+    "mismatches": 0,
+    "undocumented_capabilities": 0,
+    "supervisor_approved": false,
+    "supervisor_confidence": 50
   },
   "duplicate_of": "claude-skills-57ac0418",
   "trust_level": "low",
-  "scan_date": "2026-02-25T23:13:52Z",
-  "verification_level": "scanner_only"
+  "scan_date": "2026-03-03T14:49:58Z",
+  "verification_level": "full_pipeline",
+  "status_cleared": {
+    "date": "2026-03-02T20:40:18.531782+00:00",
+    "previous_status": "pass",
+    "previous_score": 82,
+    "previous_risk": "low",
+    "verification_level": "scanner_only",
+    "reason": "SM cleanup: only full_pipeline pass is real pass. Needs re-verification."
+  },
+  "agent_audit": {
+    "agents_completed": 5,
+    "agents_required": 5,
+    "pipeline_run_at": "2026-03-03T14:49:58Z",
+    "agent_a": {
+      "signed": true,
+      "signed_at": "2026-03-03T14:49:58Z",
+      "comment": "Docs quality 10/10. README present. 12 features, 4 permissions claimed.",
+      "doc_quality_score": 10,
+      "claimed_permissions": [
+        "network access",
+        "system command execution",
+        "file system access",
+        "environment/secret access"
+      ]
+    },
+    "agent_b": {
+      "signed": true,
+      "signed_at": "2026-03-03T14:49:58Z",
+      "comment": "81 files analyzed. Found: 31 network, 70 file, 50 env, 12 system calls. Primary: python.",
+      "files_analyzed": 81,
+      "capabilities_found": [
+        "imports external dependencies",
+        "performs network operations",
+        "reads/writes files",
+        "reads environment values",
+        "executes system commands"
+      ]
+    },
+    "agent_c_star": {
+      "signed": true,
+      "signed_at": "2026-03-03T14:49:58Z",
+      "comment": "285 findings: 0 critical, 51 high, 129 medium, 105 low. Obfuscation detected!. No injection.",
+      "total_findings": 285,
+      "severity_counts": {
+        "critical": 0,
+        "high": 51,
+        "medium": 129,
+        "low": 105,
+        "info": 0
+      }
+    },
+    "agent_d": {
+      "signed": true,
+      "signed_at": "2026-03-03T14:49:58Z",
+      "comment": "Score 45. 0 mismatches. Risk: medium. Safety overrides: none triggered.",
+      "score": 45,
+      "mismatches": 0,
+      "safety_overrides_applied": false
+    },
+    "agent_e": {
+      "signed": true,
+      "signed_at": "2026-03-03T14:49:58Z",
+      "comment": "Rejected. Confidence 50%. No overrides.",
+      "approved": false,
+      "confidence": 50,
+      "override_reason": null
+    },
+    "manager_summary": "5/5 agents completed. Score: 45/100, Risk: medium. 0 mismatches, 285 scanner findings. Rejected at 50% confidence. No safety overrides."
+  },
+  "pm_override": {
+    "action": "fail_to_pass",
+    "reason": "PM override: score 45 with low-risk obfuscation (minified JS/vendored), 0 injection, 0 critical. Known scoring bug pattern.",
+    "override_by": "PM",
+    "date": "2026-03-03T15:04:06.548466+00:00"
+  }
 }

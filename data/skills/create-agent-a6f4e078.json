@@ -1,0 +1,24 @@
+{
+  "id": "create-agent-a6f4e078",
+  "name": "create-agent",
+  "description": "Create new agents for the code-forge application. Agents are stored as .md files in the <cwd>/.forge/agents directory with YAML frontmatter (id, title, description, reasoning, tools, user_prompt) and markdown body containing agent instructions. Use when users need to add new agents, modify existing agents, or understand the agent file structure.",
+  "repo_url": "https://github.com/antinomyhq/forge",
+  "source_hub": "skillsmp",
+  "skill_type": "agent_skill",
+  "owner": "antinomyhq",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "agent-skills",
+    "utilities",
+    "installs:4556"
+  ],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null,
+  "repo_status": "available",
+  "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
+  "repo_check_error": null
+}

@@ -1,0 +1,24 @@
+{
+  "id": "anti-human-bottleneck-b3fe978d",
+  "name": "anti-human-bottleneck",
+  "description": "Load this skill BEFORE asking the user any question, requesting confirmation, seeking approval, asking what to do next, or stopping to wait for human input. Also load when you are unsure how to proceed, need to verify your work, or are about to present options to the user. This skill helps you resolve the situation autonomously and only involve the human when truly necessary, with minimal cognitive load.",
+  "repo_url": "https://github.com/nyosegawa/skills",
+  "source_hub": "skillsmp",
+  "skill_type": "agent_skill",
+  "owner": "nyosegawa",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "agent-skills",
+    "utilities",
+    "installs:16"
+  ],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null,
+  "repo_status": "available",
+  "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
+  "repo_check_error": null
+}

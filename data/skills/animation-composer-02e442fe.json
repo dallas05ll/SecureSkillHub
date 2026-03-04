@@ -1,0 +1,24 @@
+{
+  "id": "animation-composer-02e442fe",
+  "name": "animation-composer",
+  "description": "Scene composition and orchestration skill for creating complex multi-part animations.\n\n**Triggers when:**\n- User wants to compose multi-element scenes\n- Request involves combining multiple visual elements\n- Scene requires act-based structure or transitions\n- User mentions \"scene\", \"compose\", \"combine\", \"orchestrate\"\n\n**Capabilities:**\n- Scene graph construction with acts and transitions\n- Multi-object coordination and timing\n- Camera movements and focus control\n- Layered animation sequences",
+  "repo_url": "https://github.com/rohitg00/manim-video-generator",
+  "source_hub": "skillsmp",
+  "skill_type": "agent_skill",
+  "owner": "rohitg00",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "agent-skills",
+    "utilities",
+    "installs:205"
+  ],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null,
+  "repo_status": "available",
+  "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
+  "repo_check_error": null
+}

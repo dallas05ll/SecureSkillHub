@@ -1,0 +1,24 @@
+{
+  "id": "hls-troubleshooting-efd3ed9e",
+  "name": "hls-troubleshooting",
+  "description": "This skill should be used when the user mentions \"HLS not working\", \"haskell-language-server issues\", \"Haskell LSP problems\", \"no completions in Haskell\", \"HLS diagnostics not showing\", \"troubleshoot HLS\", \"Haskell code analysis not working\", or asks why HLS features aren't available in Claude Code.",
+  "repo_url": "https://github.com/m4dc4p/claude-hls",
+  "source_hub": "skillsmp",
+  "skill_type": "agent_skill",
+  "owner": "m4dc4p",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "agent-skills",
+    "utilities",
+    "installs:20"
+  ],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null,
+  "repo_status": "available",
+  "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
+  "repo_check_error": null
+}

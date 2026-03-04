@@ -1,0 +1,24 @@
+{
+  "id": "l4-293627ab",
+  "name": "l4",
+  "description": "Write legal and regulatory rules as executable, type-checked code in L4, a functional programming language for computational law. Use when formalizing contracts, legislation, regulations, policies, or compliance logic into computable form. Triggered when users need to encode legal rules, validate formalized law, generate web apps from legal logic, or translate natural language legal text into formal specifications. The skill covers L4 syntax, type system, pattern matching, validation with jl4...",
+  "repo_url": "https://github.com/smucclaw/l4-ide",
+  "source_hub": "skillsmp",
+  "skill_type": "agent_skill",
+  "owner": "smucclaw",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "agent-skills",
+    "utilities",
+    "installs:24"
+  ],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null,
+  "repo_status": "available",
+  "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
+  "repo_check_error": null
+}

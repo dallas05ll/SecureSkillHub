@@ -1,0 +1,24 @@
+{
+  "id": "media-downloader-8f30a17e",
+  "name": "media-downloader",
+  "description": "智能媒体下载器。根据用户描述自动搜索和下载图片、视频片段，支持视频自动剪辑。\nSmart media downloader. Automatically search and download images/video clips based on user description, with auto-trimming support.\n触发方式 Triggers: \"下载图片\", \"找视频\", \"download media\", \"download images\", \"find video\", \"/media\"",
+  "repo_url": "https://github.com/yizhiyanhua-ai/media-downloader",
+  "source_hub": "skillsmp",
+  "skill_type": "agent_skill",
+  "owner": "yizhiyanhua-ai",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "agent-skills",
+    "utilities",
+    "installs:321"
+  ],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null,
+  "repo_status": "available",
+  "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
+  "repo_check_error": null
+}

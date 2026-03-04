@@ -1,0 +1,24 @@
+{
+  "id": "git-worktree-setup-656513e9",
+  "name": "git-worktree-setup",
+  "description": "Automate git worktree creation and copy private files (not tracked in git) to new workdirs. Use when creating a new git worktree for this Flutter project that requires untracked private files like secrets.dart, Firebase configs, etc.",
+  "repo_url": "https://github.com/k8zdev/k8z",
+  "source_hub": "skillsmp",
+  "skill_type": "agent_skill",
+  "owner": "k8zdev",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "agent-skills",
+    "data-db",
+    "installs:154"
+  ],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null,
+  "repo_status": "available",
+  "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
+  "repo_check_error": null
+}

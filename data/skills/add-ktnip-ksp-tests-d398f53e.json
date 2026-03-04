@@ -1,0 +1,24 @@
+{
+  "id": "add-ktnip-ksp-tests-d398f53e",
+  "name": "add-ktnip-ksp-tests",
+  "description": "[Library contributor] Adds tests for the ktnip KSP processor. Use when adding tests for a new collector, testing processor behavior with new annotations, or verifying KSP code generation for the telegram-bot library.",
+  "repo_url": "https://github.com/vendelieu/telegram-bot",
+  "source_hub": "skillsmp",
+  "skill_type": "agent_skill",
+  "owner": "vendelieu",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "agent-skills",
+    "dev-testing",
+    "installs:242"
+  ],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null,
+  "repo_status": "available",
+  "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
+  "repo_check_error": null
+}

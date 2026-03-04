@@ -1,0 +1,24 @@
+{
+  "id": "agent-skill-creator-46ac065d",
+  "name": "agent-skill-creator",
+  "description": "This enhanced skill should be used when the user asks to create an agent, automate a repetitive workflow, create a custom skill, or needs advanced agent creation capabilities. Activates with phrases like every day, daily I have to, I need to repeat, create agent for, automate workflow, create skill for, need to automate, turn process into agent. Supports single agents, multi-agent suites, transcript processing, template-based creation, and interactive configuration. Claude will use the enhanc...",
+  "repo_url": "https://github.com/francyjglisboa/agent-skill-creator",
+  "source_hub": "skillsmp",
+  "skill_type": "agent_skill",
+  "owner": "francyjglisboa",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "agent-skills",
+    "utilities",
+    "installs:269"
+  ],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null,
+  "repo_status": "available",
+  "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
+  "repo_check_error": null
+}

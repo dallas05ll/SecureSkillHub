@@ -1,0 +1,24 @@
+{
+  "id": "artifact-proof-1edf57a3",
+  "name": "artifact-proof",
+  "description": "Accumulate evidence (screenshots, videos, logs) under .artifacts/<feature=branch_name>/ for visual regression and PR documentation workflow. [MANDATORY] Before saying \"implementation complete\", you MUST use this skill to collect evidence and present a report with proof. Completion reports without evidence are PROHIBITED.",
+  "repo_url": "https://github.com/kazuph/reviw",
+  "source_hub": "skillsmp",
+  "skill_type": "agent_skill",
+  "owner": "kazuph",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "agent-skills",
+    "utilities",
+    "installs:16"
+  ],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null,
+  "repo_status": "available",
+  "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
+  "repo_check_error": null
+}

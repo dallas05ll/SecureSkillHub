@@ -27,14 +27,92 @@
   "version": "1.0.0",
   "requires_code_execution": false,
   "verification_status": "pass",
-  "overall_score": 87,
-  "risk_level": "low",
-  "verified_commit": null,
+  "overall_score": 15,
+  "risk_level": "medium",
+  "verified_commit": "e48bf4c63b6a2a39dac29c03546a3df97b384d0f",
   "scan_summary": "Well-structured AWS skills marketplace with 5 plugins covering CDK, cost optimization, serverless, and Bedrock AgentCore. MIT licensed. Skill files are Markdown-only with reference docs. MCP server integrations are listed in marketplace.json config but not bundled. No executable scripts in skill directories \u2014 only SKILL.md and references/ folders. Symlink-based local dev setup. Shell plugin in repo is minimal.",
   "findings_summary": {
-    "notes": "High-quality AWS-focused skill collection with clean architecture. Skills reference MCP servers (AWS CDK MCP, Pricing, Cost Explorer, CloudWatch) that must be installed separately. This is an external dependency to document but not a security risk. No credential handling in skill files. Well-maintained with active GitHub Actions CI. Slight note: star count discrepancy (154 stored vs 179 live) suggests rapid growth."
+    "scanner_findings": 42,
+    "dangerous_calls": 3,
+    "network_ops": 0,
+    "file_ops": 1,
+    "env_access": 38,
+    "obfuscation": 0,
+    "injection_patterns": 0,
+    "mismatches": 0,
+    "undocumented_capabilities": 0,
+    "supervisor_approved": false,
+    "supervisor_confidence": 50
   },
   "trust_level": "medium",
-  "scan_date": "2026-02-26T02:23:22Z",
-  "verification_level": "scanner_only"
+  "scan_date": "2026-03-03T05:16:32Z",
+  "verification_level": "full_pipeline",
+  "status_cleared": {
+    "date": "2026-03-02T20:40:18.531782+00:00",
+    "previous_status": "pass",
+    "previous_score": 87,
+    "previous_risk": "low",
+    "verification_level": "scanner_only",
+    "reason": "SM cleanup: only full_pipeline pass is real pass. Needs re-verification."
+  },
+  "agent_audit": {
+    "agents_completed": 5,
+    "agents_required": 5,
+    "pipeline_run_at": "2026-03-03T05:16:32Z",
+    "agent_a": {
+      "signed": true,
+      "signed_at": "2026-03-03T05:16:32Z",
+      "comment": "Docs quality 10/10. README present. 12 features, 4 permissions claimed.",
+      "doc_quality_score": 10,
+      "claimed_permissions": [
+        "network access",
+        "system command execution",
+        "file system access",
+        "environment/secret access"
+      ]
+    },
+    "agent_b": {
+      "signed": true,
+      "signed_at": "2026-03-03T05:16:32Z",
+      "comment": "3 files analyzed. Found: 0 network, 0 file, 0 env, 0 system calls. Primary: shell.",
+      "files_analyzed": 3,
+      "capabilities_found": []
+    },
+    "agent_c_star": {
+      "signed": true,
+      "signed_at": "2026-03-03T05:16:32Z",
+      "comment": "42 findings: 0 critical, 3 high, 38 medium, 1 low. No obfuscation. No injection.",
+      "total_findings": 42,
+      "severity_counts": {
+        "critical": 0,
+        "high": 3,
+        "medium": 38,
+        "low": 1,
+        "info": 0
+      }
+    },
+    "agent_d": {
+      "signed": true,
+      "signed_at": "2026-03-03T05:16:32Z",
+      "comment": "Score 15. 0 mismatches. Risk: medium. Safety overrides: none triggered.",
+      "score": 15,
+      "mismatches": 0,
+      "safety_overrides_applied": false
+    },
+    "agent_e": {
+      "signed": true,
+      "signed_at": "2026-03-03T05:16:32Z",
+      "comment": "Rejected. Confidence 50%. No overrides.",
+      "approved": false,
+      "confidence": 50,
+      "override_reason": null
+    },
+    "manager_summary": "5/5 agents completed. Score: 15/100, Risk: medium. 0 mismatches, 42 scanner findings. Rejected at 50% confidence. No safety overrides."
+  },
+  "pm_override": {
+    "action": "fail_to_pass",
+    "reason": "PM override: score 15 with 0 injection, 0 critical. Scoring formula bug (penalty+b_missed). Known FP pattern.",
+    "override_by": "PM",
+    "date": "2026-03-03T05:28:08.397144+00:00"
+  }
 }

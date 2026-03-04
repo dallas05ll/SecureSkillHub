@@ -9,12 +9,11 @@
   "primary_language": "unknown",
   "tags": [
     "repo_unavailable",
-    "status-manual_review",
     "data-ai-nlp",
     "prod-calendar",
     "util-search"
   ],
-  "verification_status": "manual_review",
+  "verification_status": "unverified",
   "overall_score": 0,
   "risk_level": "high",
   "verified_commit": "",
@@ -27,5 +26,6 @@
     "error": "clone failed: Cloning into '/var/folders/pq/bb71gjzd01d29nnmqrhqr2rc0000gn/T/strict5_avolal-flight-search-and_qexakn68/repo'...\nfatal: unable to access 'https://github.com/Miguel Dom\u00ednguez/avolal---flight-search-and-booking/': URL rejected: Malformed input to a URL function",
     "supervisor_approved": false,
     "supervisor_confidence": 0
-  }
+  },
+  "skill_type": "mcp_server"
 }
