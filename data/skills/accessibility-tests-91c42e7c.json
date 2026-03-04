@@ -10,9 +10,14 @@
   "primary_language": "typescript",
   "tags": [
     "agent-skills",
-    "dev-devops",
     "installs:59",
-    "status-pass"
+    "status-pass",
+    "dev",
+    "dev-devops",
+    "dev-devops-ci",
+    "dev-testing",
+    "sec",
+    "security-compliance"
   ],
   "verification_status": "pass",
   "pm_override": true,

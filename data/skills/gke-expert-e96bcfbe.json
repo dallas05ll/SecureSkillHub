@@ -10,8 +10,18 @@
   "primary_language": "unknown",
   "tags": [
     "agent-skills",
+    "installs:17",
+    "dev",
     "dev-devops",
-    "installs:17"
+    "dev-devops-docker",
+    "dev-devops-k8s",
+    "integ",
+    "integ-cloud",
+    "integ-cloud-gcp",
+    "sec",
+    "sec-auth",
+    "util",
+    "util-monitor"
   ],
   "verification_status": "unverified",
   "overall_score": 0,

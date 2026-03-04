@@ -1,7 +1,7 @@
 {
   "id": "tesouro-direto-mcp-bbd7b2af",
   "name": "tesouro-direto-mcp",
-  "description": "\ud83d\udde3\ufe0f Query Brazilian treasury bond data with natural language",
+  "description": "🗣️ Query Brazilian treasury bond data with natural language",
   "repo_url": "https://github.com/AtilioA/tesouro-direto-mcp",
   "source_hub": "mcp_so",
   "owner": "AtilioA",
@@ -9,6 +9,7 @@
   "primary_language": "typescript",
   "tags": [
     "data",
+    "data-ai",
     "data-ai-nlp"
   ],
   "verification_status": "pass",

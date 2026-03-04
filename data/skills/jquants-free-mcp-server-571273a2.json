@@ -1,14 +1,15 @@
 {
   "id": "jquants-free-mcp-server-571273a2",
   "name": "jquants-free-mcp-server",
-  "description": "J-Quants API\u306e\u7121\u511f\u7248\u3067\u5229\u7528\u53ef\u80fd\u306a\u6a5f\u80fd\u306eMCP\u30b5\u30fc\u30d0\u30fc",
+  "description": "J-Quants APIの無償版で利用可能な機能のMCPサーバー",
   "repo_url": "https://github.com/cygkichi/jquants-free-mcp-server",
   "source_hub": "mcp_so",
   "owner": "cygkichi",
   "stars": 0,
   "primary_language": "unknown",
   "tags": [
-    "integ"
+    "integ",
+    "util"
   ],
   "verification_status": "unverified",
   "overall_score": 85,

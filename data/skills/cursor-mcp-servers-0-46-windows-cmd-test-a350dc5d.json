@@ -1,14 +1,14 @@
 {
   "id": "cursor-mcp-servers-0-46-windows-cmd-test-a350dc5d",
   "name": "cursor-mcp-Servers-0.46-windows-cmd-test",
-  "description": "\u6d4b\u8bd5\u4ed3\u5e93 - Windows CMD \u6d4b\u8bd5\u670d\u52a1\u5668",
+  "description": "测试仓库 - Windows CMD 测试服务器",
   "repo_url": "https://github.com/Zanedname/cursor-mcp-Servers-0.46-windows-cmd-test",
   "source_hub": "mcp_so",
   "owner": "Zanedname",
   "stars": 5,
   "primary_language": "unknown",
   "tags": [
-    "dev-testing"
+    "integ"
   ],
   "verification_status": "pass",
   "overall_score": 100,

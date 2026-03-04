@@ -1,16 +1,20 @@
 {
   "id": "jotdown-77d86fdd",
   "name": "JotDown",
-  "description": "An MCP Server in Rust for creating Notion pages & mdBooks with LLMs \ud83e\udd80",
+  "description": "An MCP Server in Rust for creating Notion pages & mdBooks with LLMs 🦀",
   "repo_url": "https://github.com/Harry-027/JotDown",
   "source_hub": "mcp_so",
   "owner": "Harry-027",
   "stars": 21,
   "primary_language": "rust",
   "tags": [
-    "data-ai",
+    "dev",
+    "dev-web",
+    "dev-web-backend",
     "dev-web-backend-rust",
+    "integ",
     "integrations-notion",
+    "prod",
     "prod-docs"
   ],
   "verification_status": "pass",

@@ -1,16 +1,19 @@
 {
   "id": "mcp2brave-32b511bf",
   "name": "mcp2brave",
-  "description": "\u4e00\u4e2aMCP\u670d\u52a1\u5668\uff0c\u57fa\u4e8eBrave API\u8ba9\u4f60\u7684Claude Cline\u4ee5\u53caLangchain\u5b9e\u73b0\u7f51\u7edc\u641c\u7d22\u529f\u80fd\u3002An MCP server that use Brave API allows your Claude Cline and Langchain to implement network search functions.",
+  "description": "一个MCP服务器，基于Brave API让你的Claude Cline以及Langchain实现网络搜索功能。An MCP server that use Brave API allows your Claude Cline and Langchain to implement network search functions.",
   "repo_url": "https://github.com/mcp2everything/mcp2brave",
   "source_hub": "mcp_so",
   "owner": "mcp2everything",
   "stars": 2,
   "primary_language": "python",
   "tags": [
+    "data",
     "data-ai",
+    "dev",
     "dev-agents",
     "integ",
+    "util",
     "util-search"
   ],
   "verification_status": "pass",

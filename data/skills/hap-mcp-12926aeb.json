@@ -1,16 +1,13 @@
 {
   "id": "hap-mcp-12926aeb",
   "name": "hap-mcp",
-  "description": "HAP (Super Application Platform) is developed by Mingdao\uff08 https://www.mingdao.com \uff09The launched APaaS platform helps you build enterprise level applications quickly without coding. This is HAP's MCP (Model Context Protocol) server, used for seamless integration of AI. It enables every zero code application built through HAP to quickly become a tool for agents.",
+  "description": "HAP (Super Application Platform) is developed by Mingdao（ https://www.mingdao.com ）The launched APaaS platform helps you build enterprise level applications quickly without coding. This is HAP's MCP (Model Context Protocol) server, used for seamless integration of AI. It enables every zero code application built through HAP to quickly become a tool for agents.",
   "repo_url": "https://github.com/mingdaocloud/hap-mcp",
   "source_hub": "mcp_so",
   "owner": "mingdaocloud",
   "stars": 0,
   "primary_language": "unknown",
   "tags": [
-    "data-ai",
-    "data-ai-nlp",
-    "dev",
     "integ",
     "util"
   ],

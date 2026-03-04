@@ -1,7 +1,7 @@
 {
   "id": "suppr-mcp-763c46be",
   "name": "suppr-mcp",
-  "description": "\ud83d\ude80 Suppr MCP - \u8ba9\u5b66\u672f\u7ffb\u8bd1\u66f4\u667a\u80fd \uff08https://suppr.wilddata.cn/\uff09\r\n\r\n\u6253\u7834\u8bed\u8a00\u58c1\u5792\uff0c\u52a0\u901f\u79d1\u7814\u8fdb\u7a0b\uff01Suppr\u63d0\u4f9b\u4e1a\u754c\u9886\u5148\u7684AI\u6587\u6863\u7ffb\u8bd1\u670d\u52a1\uff0c\u7279\u522b\u9488\u5bf9\u5b66\u672f\u8bba\u6587\u4f18\u5316\uff0c\u5b8c\u7f8e\u5904\u7406\u590d\u6742\u7684\u6570\u5b66\u516c\u5f0f\u548c\u4e13\u4e1a\u672f\u8bed\u3002\u652f\u6301PDF\u3001Word\u3001PPT\u3001excel\u3001epub\u3001HTML\u7b497\u79cd\u6587\u6863\u683c\u5f0f\uff0c\u8986\u76d611\u79cd\u4e3b\u6d41\u8bed\u8a00\u4e92\u8bd1\u3002\r\n\r\n\u5185\u7f6ePubMed\u667a\u80fd\u641c\u7d22\u5f15\u64ce\uff0c\u8ba9\u6587\u732e\u68c0\u7d22\u66f4\u7cbe\u51c6\u9ad8\u6548\u3002\u65e0\u8bba\u662f\u7ffb\u8bd1\u5916\u6587\u8bba\u6587\u8fd8\u662f\u641c\u7d22\u524d\u6cbf\u7814\u7a76\uff0cSuppr\u90fd\u662f\u79d1\u7814\u5de5\u4f5c\u8005\u7684\u5f97\u529b\u52a9\u624b\u3002\r\n\r\n\ud83c\udfaf \u6838\u5fc3\u4eae\u70b9\uff1a\r\n\u2022 \u6570\u5b66\u516c\u5f0f\u667a\u80fd\u7ffb\u8bd1\u4f18\u5316\r\n\u2022 \u652f\u63017\u79cd\u6587\u6863\u683c\u5f0f\u300111\u79cd\u8bed\u8a00\r\n\u2022 AI\u9a71\u52a8\u7684\u5b66\u672f\u6587\u732e\u641c\u7d22\r\n\u2022 \u5f02\u6b65\u4efb\u52a1\u5904\u7406\uff0c\u9ad8\u6548\u6279\u91cf\u7ffb\u8bd1\r\n\u2022 \u5b8c\u6574\u7684\u7ffb\u8bd1\u5386\u53f2\u7ba1\u7406\r\n\r\n\u7531 WildData \u56e2\u961f\u7cbe\u5fc3\u6253\u9020\uff0c\u503c\u5f97\u4fe1\u8d56\u7684\u5b66\u672f\u670d\u52a1\u5e73\u53f0\u3002",
+  "description": "🚀 Suppr MCP - 让学术翻译更智能 （https://suppr.wilddata.cn/）\r\n\r\n打破语言壁垒，加速科研进程！Suppr提供业界领先的AI文档翻译服务，特别针对学术论文优化，完美处理复杂的数学公式和专业术语。支持PDF、Word、PPT、excel、epub、HTML等7种文档格式，覆盖11种主流语言互译。\r\n\r\n内置PubMed智能搜索引擎，让文献检索更精准高效。无论是翻译外文论文还是搜索前沿研究，Suppr都是科研工作者的得力助手。\r\n\r\n🎯 核心亮点：\r\n• 数学公式智能翻译优化\r\n• 支持7种文档格式、11种语言\r\n• AI驱动的学术文献搜索\r\n• 异步任务处理，高效批量翻译\r\n• 完整的翻译历史管理\r\n\r\n由 WildData 团队精心打造，值得信赖的学术服务平台。",
   "repo_url": "https://github.com/WildDataX/suppr-mcp",
   "source_hub": "mcp_so",
   "owner": "WildDataX",
@@ -10,7 +10,11 @@
   "tags": [
     "data",
     "data-ai",
-    "dev-web"
+    "integ",
+    "prod",
+    "prod-docs",
+    "util",
+    "util-search"
   ],
   "verification_status": "pass",
   "overall_score": 95,

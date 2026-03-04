@@ -10,15 +10,95 @@
   "primary_language": "unknown",
   "tags": [
     "agent-skills",
-    "utilities",
-    "installs:774"
+    "installs:774",
+    "sec",
+    "sec-crypto",
+    "status-fail"
   ],
-  "verification_status": "unverified",
-  "overall_score": 0,
-  "risk_level": "info",
-  "verified_commit": null,
+  "verification_status": "pass",
+  "overall_score": 15,
+  "risk_level": "critical",
+  "verified_commit": "d5ad898710e4d8b6f3aad90954fe1550fa19391b",
   "scan_summary": null,
   "repo_status": "available",
   "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
-  "repo_check_error": null
+  "repo_check_error": null,
+  "scan_date": "2026-03-04T19:53:39Z",
+  "findings_summary": {
+    "scanner_findings": 1187,
+    "dangerous_calls": 28,
+    "network_ops": 57,
+    "file_ops": 133,
+    "env_access": 770,
+    "obfuscation": 169,
+    "injection_patterns": 0,
+    "mismatches": 0,
+    "undocumented_capabilities": 0,
+    "supervisor_approved": false,
+    "supervisor_confidence": 90
+  },
+  "verification_level": "full_pipeline",
+  "agent_audit": {
+    "agents_completed": 5,
+    "agents_required": 5,
+    "pipeline_run_at": "2026-03-04T19:53:39Z",
+    "agent_a": {
+      "signed": true,
+      "signed_at": "2026-03-04T19:53:39Z",
+      "comment": "Docs quality 9/10. README present. 12 features, 4 permissions claimed.",
+      "doc_quality_score": 9,
+      "claimed_permissions": [
+        "network access",
+        "system command execution",
+        "file system access",
+        "environment/secret access"
+      ]
+    },
+    "agent_b": {
+      "signed": true,
+      "signed_at": "2026-03-04T19:53:39Z",
+      "comment": "3072 files analyzed. Found: 1 network, 6 file, 2 env, 5 system calls. Primary: unknown.",
+      "files_analyzed": 3072,
+      "capabilities_found": [
+        "imports external dependencies",
+        "performs network operations",
+        "reads/writes files",
+        "reads environment values",
+        "executes system commands"
+      ]
+    },
+    "agent_c_star": {
+      "signed": true,
+      "signed_at": "2026-03-04T19:53:39Z",
+      "comment": "1187 findings: 0 critical, 227 high, 827 medium, 133 low. Obfuscation detected!. No injection.",
+      "total_findings": 1187,
+      "severity_counts": {
+        "critical": 0,
+        "high": 227,
+        "medium": 827,
+        "low": 133,
+        "info": 0
+      }
+    },
+    "agent_d": {
+      "signed": true,
+      "signed_at": "2026-03-04T19:53:39Z",
+      "comment": "Score 15. 0 mismatches. Risk: critical. Safety overrides: applied.",
+      "score": 15,
+      "mismatches": 0,
+      "safety_overrides_applied": true
+    },
+    "agent_e": {
+      "signed": true,
+      "signed_at": "2026-03-04T19:53:39Z",
+      "comment": "Rejected. Confidence 90%. Deterministic override: high-risk obfuscation detected.",
+      "approved": false,
+      "confidence": 90,
+      "override_reason": "Deterministic override: high-risk obfuscation detected."
+    },
+    "manager_summary": "5/5 agents completed. Score: 15/100, Risk: critical. 0 mismatches, 1187 scanner findings. Rejected at 90% confidence. Safety overrides triggered."
+  },
+  "pm_override": true,
+  "pm_override_reason": "FP: tradingstrategy-ai/web3-ethereum-defi — structural large-repo FP, 0 injection",
+  "pm_override_date": "2026-03-04T20:04:33.612160+00:00"
 }

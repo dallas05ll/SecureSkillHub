@@ -1,13 +1,14 @@
 {
   "id": "hello-mcp-server-current-time-4d0cfb36",
   "name": "hello-mcp-server-current-time",
-  "description": "\u57fa\u4e8espring-ai-starter-mcp-server\u7684\u81ea\u5b9a\u4e49mcp server\u7b80\u5355\u793a\u4f8b\uff0c\u83b7\u53d6\u5f53\u524d\u65f6\u95f4\uff0c",
+  "description": "基于spring-ai-starter-mcp-server的自定义mcp server简单示例，获取当前时间，",
   "repo_url": "https://github.com/devotion-coding/hello-mcp-server-current-time",
   "source_hub": "mcp_so",
   "owner": "devotion-coding",
   "stars": 0,
   "primary_language": "unknown",
   "tags": [
+    "data",
     "data-ai"
   ],
   "verification_status": "unverified",

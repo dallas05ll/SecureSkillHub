@@ -1,7 +1,7 @@
 {
   "id": "claude-code-frontend-dev-d6fc9f47",
   "name": "claude-code-frontend-dev",
-  "description": "\ud83d\ude80 First multimodal AI-powered visual testing plugin for Claude Code. AI that can SEE your UI! 10x faster frontend development with closed-loop testing, browser automation, and Claude 4.5 Sonnet vision.",
+  "description": "🚀 First multimodal AI-powered visual testing plugin for Claude Code. AI that can SEE your UI! 10x faster frontend development with closed-loop testing, browser automation, and Claude 4.5 Sonnet vision.",
   "repo_url": "https://github.com/hemangjoshi37a/claude-code-frontend-dev",
   "source_hub": "github_search",
   "skill_type": "agent_skill",
@@ -10,13 +10,11 @@
   "license": "",
   "primary_language": "markdown",
   "tags": [
-    "data-ai",
-    "data-ai-vision",
     "dev",
     "dev-testing",
     "dev-web",
-    "prod",
-    "util-search"
+    "dev-web-frontend",
+    "prod"
   ],
   "verification_status": "pass",
   "overall_score": 60,

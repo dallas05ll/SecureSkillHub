@@ -1,7 +1,7 @@
 {
   "id": "redux-saga-testing-6010a645",
   "name": "redux-saga-testing",
-  "description": "AI agent skill for testing Redux Sagas by Anivar Aravind \u2014 expectSaga, testSaga, providers, Jest/Vitest.",
+  "description": "AI agent skill for testing Redux Sagas by Anivar Aravind — expectSaga, testSaga, providers, Jest/Vitest.",
   "repo_url": "https://github.com/anivar/redux-saga-testing",
   "source_hub": "github_search",
   "skill_type": "agent_skill",
@@ -10,7 +10,9 @@
   "license": "mit",
   "primary_language": "markdown",
   "tags": [
+    "data",
     "data-ai",
+    "dev",
     "dev-testing"
   ],
   "verification_status": "pass",

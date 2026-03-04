@@ -1,7 +1,7 @@
 {
   "id": "spotify-mcp-server-613a37c3",
   "name": "spotify-mcp-server",
-  "description": "A Model Context Protocol (MCP) server that connects AI assistants to the Spotify Web API. Enables natural language access to Spotify playback, search, playlists, and user profile data \u2014 ideal for building LLM-integrated music assistants.",
+  "description": "A Model Context Protocol (MCP) server that connects AI assistants to the Spotify Web API. Enables natural language access to Spotify playback, search, playlists, and user profile data — ideal for building LLM-integrated music assistants.",
   "repo_url": "https://github.com/Carrieukie/spotify-mcp-server",
   "source_hub": "mcp_so",
   "owner": "Carrieukie",
@@ -13,7 +13,7 @@
     "data-ai-audio",
     "data-ai-nlp",
     "integ",
-    "util-file",
+    "util",
     "util-search"
   ],
   "verification_status": "pass",

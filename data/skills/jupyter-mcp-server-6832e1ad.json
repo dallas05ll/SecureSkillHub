@@ -1,15 +1,14 @@
 {
   "id": "jupyter-mcp-server-6832e1ad",
   "name": "jupyter-mcp-server",
-  "description": "\ud83e\ude90 \u2728 Model Context Protocol (MCP) Server for Jupyter.",
+  "description": "🪐 ✨ Model Context Protocol (MCP) Server for Jupyter.",
   "repo_url": "https://github.com/datalayer/jupyter-mcp-server",
   "source_hub": "mcp_so",
   "owner": "datalayer",
   "stars": 908,
   "primary_language": "python",
   "tags": [
-    "data-ai",
-    "data-ai-nlp",
+    "data",
     "data-analysis"
   ],
   "verification_status": "pass",
@@ -57,7 +56,7 @@
   },
   "pm_override": {
     "action": "manual_review_to_pass",
-    "reason": "PM batch review: score 50-69, 0 injection, 0 critical findings, no safety override triggered. Manual review not warranted \u2014 scoring system places these in MR from scanner penalty inflation, not from real security concerns.",
+    "reason": "PM batch review: score 50-69, 0 injection, 0 critical findings, no safety override triggered. Manual review not warranted — scoring system places these in MR from scanner penalty inflation, not from real security concerns.",
     "override_by": "PM batch review 20260303",
     "date": "2026-03-03"
   },

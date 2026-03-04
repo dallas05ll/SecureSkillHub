@@ -1,7 +1,7 @@
 {
   "id": "injury-report-monitor-9f2d2dfc",
   "name": "injury-report-monitor",
-  "description": "Real-time injury report monitoring skill for Claude Code \u2014 alerts, impact analysis",
+  "description": "Real-time injury report monitoring skill for Claude Code — alerts, impact analysis",
   "repo_url": "https://github.com/buildkit-ai/injury-report-monitor",
   "source_hub": "github_search",
   "skill_type": "agent_skill",
@@ -10,8 +10,7 @@
   "license": "mit",
   "primary_language": "markdown",
   "tags": [
-    "data-ai",
-    "dev",
+    "util",
     "util-monitor"
   ],
   "verification_status": "pass",

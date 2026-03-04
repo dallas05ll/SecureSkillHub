@@ -12,14 +12,11 @@
   "primary_language": "TypeScript",
   "tags": [
     "data",
-    "data-ai",
-    "data-ai-vision",
     "data-db",
     "dev",
-    "dev-git",
-    "dev-web-backend-rust",
-    "prod-notes",
-    "util-file"
+    "dev-web",
+    "dev-web-backend",
+    "dev-web-backend-rust"
   ],
   "verification_status": "pass",
   "pm_override": "Score 79, 0 injection/obfuscation, Rust-core memory tool, clean profile",

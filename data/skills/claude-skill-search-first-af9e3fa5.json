@@ -1,7 +1,7 @@
 {
   "id": "claude-skill-search-first-af9e3fa5",
   "name": "claude-skill-search-first",
-  "description": "Agent Skill: Research-before-coding workflow \u2014 search for existing tools before writing custom code",
+  "description": "Agent Skill: Research-before-coding workflow — search for existing tools before writing custom code",
   "repo_url": "https://github.com/shimo4228/claude-skill-search-first",
   "source_hub": "github_search",
   "skill_type": "agent_skill",
@@ -10,8 +10,6 @@
   "license": "mit",
   "primary_language": "markdown",
   "tags": [
-    "data-ai",
-    "dev",
     "prod",
     "util",
     "util-search"

@@ -11,12 +11,8 @@
   "description": "Claude Code skill implementing Manus-style persistent markdown planning with task_plan.md, findings.md, and progress.md.",
   "primary_language": "Python",
   "tags": [
-    "data-ai",
-    "dev",
-    "prod-docs",
-    "prod-pm",
-    "util-file",
-    "util-search"
+    "prod",
+    "prod-docs"
   ],
   "findings_summary": {
     "scanner_findings": 13,

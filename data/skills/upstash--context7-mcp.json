@@ -11,10 +11,8 @@
   "description": "MCP server providing up-to-date library documentation and code examples to LLMs via Context7 API, supporting stdio and HTTP transports.",
   "primary_language": "TypeScript",
   "tags": [
-    "data-ai",
-    "data-ai-nlp",
-    "dev",
     "integ",
+    "prod",
     "prod-docs"
   ],
   "findings_summary": {

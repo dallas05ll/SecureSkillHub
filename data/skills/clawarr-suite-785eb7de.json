@@ -1,7 +1,7 @@
 {
   "id": "clawarr-suite-785eb7de",
   "name": "clawarr-suite",
-  "description": "\ud83c\udfac Unified deep-integration control for self-hosted media stacks (Sonarr, Radarr, Prowlarr, Plex, Tautulli, and 10+ more). An OpenClaw agent skill.",
+  "description": "🎬 Unified deep-integration control for self-hosted media stacks (Sonarr, Radarr, Prowlarr, Plex, Tautulli, and 10+ more). An OpenClaw agent skill.",
   "repo_url": "https://github.com/omiron33/clawarr-suite",
   "source_hub": "github_search",
   "skill_type": "agent_skill",
@@ -11,6 +11,7 @@
   "primary_language": "markdown",
   "tags": [
     "integ",
+    "util",
     "util-media"
   ],
   "verification_status": "pass",

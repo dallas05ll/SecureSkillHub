@@ -1,18 +1,19 @@
 {
   "id": "terminal-mcp-8035eb19",
   "name": "terminal-mcp",
-  "description": "The native MCP server for Unix PTY control gives AI models authentic, low-latency terminal access by spawning true pseudo-terminals\u2014not brittle AppleScript hacks\u2014so you can open persistent Bash, Python, or SSH sessions, run commands like \u201cssh prod.server,\u201d and stream only fresh output thanks to smart buffering. Built on Tokio for fully asynchronous, non-blocking I/O, the service supports multi-session workflows, letting developers switch between concurrent prod-debug shells without interrupti...",
+  "description": "The native MCP server for Unix PTY control gives AI models authentic, low-latency terminal access by spawning true pseudo-terminals—not brittle AppleScript hacks—so you can open persistent Bash, Python, or SSH sessions, run commands like “ssh prod.server,” and stream only fresh output thanks to smart buffering. Built on Tokio for fully asynchronous, non-blocking I/O, the service supports multi-session workflows, letting developers switch between concurrent prod-debug shells without interrupti...",
   "repo_url": "https://github.com/ianks/terminal-mcp",
   "source_hub": "mcp_so",
   "owner": "ianks",
   "stars": 9,
   "primary_language": "rust",
   "tags": [
-    "data-ai",
     "dev",
+    "dev-web",
+    "dev-web-backend",
     "dev-web-backend-python",
-    "prod",
-    "sec",
+    "dev-web-backend-rust",
+    "util",
     "util-media"
   ],
   "verification_status": "pass",

@@ -1,7 +1,7 @@
 {
   "id": "textin-mcp-464a719e",
   "name": "TextIn MCP",
-  "description": "TextIn.com \u5b98\u65b9OCR MCP Server\uff0c\n\u652f\u6301\u5feb\u901f\u8bc6\u522b\u6587\u6863\u4e2d\u7684ocr\u6587\u5b57\uff0c\u8f6c\u6362\u6587\u6863\u4e3amarkdown\uff0c\u667a\u80fd\u8bc6\u522b\u6587\u6863\u4e2d\u7684\u5173\u952e\u4fe1\u606f\u3002",
+  "description": "TextIn.com 官方OCR MCP Server，\n支持快速识别文档中的ocr文字，转换文档为markdown，智能识别文档中的关键信息。",
   "repo_url": "https://github.com/intsig-textin/TextIn MCP",
   "source_hub": "mcp_so",
   "owner": "intsig-textin",
@@ -9,9 +9,11 @@
   "primary_language": "unknown",
   "tags": [
     "repo_unavailable",
-    "data-ai-nlp",
-    "data-ai-vision",
-    "prod-docs"
+    "data",
+    "data-ai",
+    "prod",
+    "prod-docs",
+    "util"
   ],
   "verification_status": "unverified",
   "overall_score": 0,

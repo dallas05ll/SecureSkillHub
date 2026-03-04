@@ -1,15 +1,15 @@
 {
   "id": "mcp-waifu-queue-f508406d",
   "name": "mcp-waifu-queue",
-  "description": "MCP server for conversational AI using an LLM for text generation. \ud83d\udde3\ufe0f Utilizes a Redis queue for asynchronous request processing and handling concurrent users. \u2699\ufe0f Built with the FastMCP library for simplified server setup and management. \u26a1 Offers an MCP tool to enqueue generation jobs and an MCP resource to track job status. \ud83d\udc4d\ud83d\udcca",
+  "description": "MCP server for conversational AI using an LLM for text generation. 🗣️ Utilizes a Redis queue for asynchronous request processing and handling concurrent users. ⚙️ Built with the FastMCP library for simplified server setup and management. ⚡ Offers an MCP tool to enqueue generation jobs and an MCP resource to track job status. 👍📊",
   "repo_url": "https://github.com/waifuai/mcp-waifu-queue",
   "source_hub": "mcp_so",
   "owner": "waifuai",
   "stars": 1,
   "primary_language": "python",
   "tags": [
+    "data",
     "data-ai",
-    "data-ai-nlp",
     "data-db",
     "util"
   ],

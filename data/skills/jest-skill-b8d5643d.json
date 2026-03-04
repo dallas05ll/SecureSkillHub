@@ -1,7 +1,7 @@
 {
   "id": "jest-skill-b8d5643d",
   "name": "jest-skill",
-  "description": "AI agent skill for Jest best practices by Anivar Aravind \u2014 28 rules, 9 references. Mock design, async testing, matchers, timers, snapshots, module mocking, CI optimization. jest ^29/^30.",
+  "description": "AI agent skill for Jest best practices by Anivar Aravind — 28 rules, 9 references. Mock design, async testing, matchers, timers, snapshots, module mocking, CI optimization. jest ^29/^30.",
   "repo_url": "https://github.com/anivar/jest-skill",
   "source_hub": "github_search",
   "skill_type": "agent_skill",
@@ -10,7 +10,9 @@
   "license": "mit",
   "primary_language": "markdown",
   "tags": [
+    "data",
     "data-ai",
+    "dev",
     "dev-testing"
   ],
   "verification_status": "pass",

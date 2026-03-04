@@ -1,15 +1,13 @@
 {
   "id": "mcp-newsnow-08a056f7",
   "name": "mcp_newsnow",
-  "description": "\u4e00\u4e2a\u57fa\u4e8e Model Context Protocol (MCP) \u7684\u65b0\u95fb\u805a\u5408\u670d\u52a1\u5668\uff0c\u901a\u8fc7 Newsnow API \u63d0\u4f9b\u591a\u5e73\u53f0\u70ed\u70b9\u65b0\u95fb\u548c\u8d8b\u52bf\u8bdd\u9898\u3002",
+  "description": "一个基于 Model Context Protocol (MCP) 的新闻聚合服务器，通过 Newsnow API 提供多平台热点新闻和趋势话题。",
   "repo_url": "https://github.com/sligter/mcp_newsnow",
   "source_hub": "mcp_so",
   "owner": "sligter",
   "stars": 67,
   "primary_language": "python",
   "tags": [
-    "data-ai",
-    "data-ai-nlp",
     "integ"
   ],
   "verification_status": "pass",

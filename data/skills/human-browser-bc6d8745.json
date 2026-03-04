@@ -1,7 +1,7 @@
 {
   "id": "human-browser-bc6d8745",
   "name": "human-browser",
-  "description": "Human Browser \u2014 Stealth Playwright browser with residential proxy for AI agents. Bypasses Cloudflare, DataDome, PerimeterX. From $13.99/mo.",
+  "description": "Human Browser — Stealth Playwright browser with residential proxy for AI agents. Bypasses Cloudflare, DataDome, PerimeterX. From $13.99/mo.",
   "repo_url": "https://github.com/al1enjesus/human-browser",
   "source_hub": "github_search",
   "skill_type": "agent_skill",
@@ -10,12 +10,9 @@
   "license": "",
   "primary_language": "markdown",
   "tags": [
-    "data",
-    "data-ai",
+    "dev",
     "dev-testing",
-    "dev-web",
-    "integ-cloud",
-    "util-search"
+    "dev-web"
   ],
   "verification_status": "pass",
   "overall_score": 55,

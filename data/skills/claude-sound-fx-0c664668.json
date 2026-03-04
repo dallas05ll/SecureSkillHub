@@ -1,7 +1,7 @@
 {
   "id": "claude-sound-fx-0c664668",
   "name": "claude-sound-fx",
-  "description": "Themed sound effects for Claude Code / Open Code \u2014 JARVIS, GLaDOS, Pikachu, and 9 more themes for your terminal",
+  "description": "Themed sound effects for Claude Code / Open Code — JARVIS, GLaDOS, Pikachu, and 9 more themes for your terminal",
   "repo_url": "https://github.com/6m1w/claude-sound-fx",
   "source_hub": "github_search",
   "skill_type": "agent_skill",
@@ -10,9 +10,9 @@
   "license": "",
   "primary_language": "markdown",
   "tags": [
+    "data",
     "data-ai",
-    "data-ai-audio",
-    "dev"
+    "data-ai-audio"
   ],
   "verification_status": "pass",
   "overall_score": 74,

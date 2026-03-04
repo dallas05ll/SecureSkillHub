@@ -8,11 +8,7 @@
   "stars": 4449,
   "primary_language": "typescript",
   "tags": [
-    "data-ai",
-    "data-ai-nlp",
-    "dev",
-    "integ",
-    "util"
+    "integ"
   ],
   "verification_status": "pass",
   "overall_score": 0,
@@ -111,7 +107,7 @@
   "pm_review": {
     "decision": "pass",
     "previous_status": "fail",
-    "reason": "Two false positive safety overrides: (1) regex_markdown_injection matched a shields.io badge logo=data:image/svg URL in README \u2014 not injection. (2) regex_js_buffer_from matched Buffer.from(config).toString(base64) in release.sh encoding a Cursor IDE install link \u2014 not obfuscation. 4,449 real stars, MIT licensed, actively maintained by cameroncooke, 955 commits, 0 mismatches, 0 undocumented capabilities. Clear pass.",
+    "reason": "Two false positive safety overrides: (1) regex_markdown_injection matched a shields.io badge logo=data:image/svg URL in README — not injection. (2) regex_js_buffer_from matched Buffer.from(config).toString(base64) in release.sh encoding a Cursor IDE install link — not obfuscation. 4,449 real stars, MIT licensed, actively maintained by cameroncooke, 955 commits, 0 mismatches, 0 undocumented capabilities. Clear pass.",
     "reviewer": "pm_dual_agent",
     "reviewed_at": "2026-03-01T07:49:42.288194+00:00Z",
     "false_positives": [

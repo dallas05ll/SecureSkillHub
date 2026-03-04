@@ -1,15 +1,14 @@
 {
   "id": "bilibii-mcp-server-aa977c9a",
   "name": "bilibii-mcp-server",
-  "description": "\u8fd9\u662f\u4e00\u4e2a\u57fa\u4e8eModel Context Protocol (MCP)\u7684\u670d\u52a1\uff0c\u7528\u4e8e\u67e5\u8be2B\u7ad9\u7528\u6237\u7684\u7c89\u4e1d\u6570\u91cf\u3002\u901a\u8fc7\u63d0\u4f9bB\u7ad9\u7528\u6237ID\uff0c\u53ef\u4ee5\u83b7\u53d6\u8be5\u7528\u6237\u7684\u7c89\u4e1d\u6570\u3002",
+  "description": "这是一个基于Model Context Protocol (MCP)的服务，用于查询B站用户的粉丝数量。通过提供B站用户ID，可以获取该用户的粉丝数。",
   "repo_url": "https://github.com/HEXING19/bilibii-mcp-server",
   "source_hub": "mcp_so",
   "owner": "HEXING19",
   "stars": 0,
   "primary_language": "unknown",
   "tags": [
-    "data-ai",
-    "data-ai-nlp"
+    "integ"
   ],
   "verification_status": "unverified",
   "overall_score": 85,

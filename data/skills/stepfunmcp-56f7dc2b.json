@@ -1,14 +1,15 @@
 {
   "id": "stepfunmcp-56f7dc2b",
   "name": "StepFunMCP",
-  "description": "\u57fa\u4e8e\u9636\u8dc3\u661f\u8fb0API\u7684MCP server",
+  "description": "基于阶跃星辰API的MCP server",
   "repo_url": "https://github.com/weidafeng/StepFunMCP",
   "source_hub": "mcp_so",
   "owner": "weidafeng",
   "stars": 1,
   "primary_language": "python",
   "tags": [
-    "integ"
+    "integ",
+    "util"
   ],
   "verification_status": "pass",
   "overall_score": 63,

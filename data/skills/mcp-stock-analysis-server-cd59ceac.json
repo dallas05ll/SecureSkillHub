@@ -1,15 +1,15 @@
 {
   "id": "mcp-stock-analysis-server-cd59ceac",
   "name": "mcp-stock-analysis-server",
-  "description": "\u591a\u6307\u6807\u4e0b\u7ed3\u5408\u6700\u65b0\u65b0\u95fb\u667a\u80fd\u8bca\u65ad\u80a1\u7968\u7684mcp",
+  "description": "多指标下结合最新新闻智能诊断股票的mcp",
   "repo_url": "https://github.com/omlovelife/mcp-stock-analysis-server",
   "source_hub": "mcp_so",
   "owner": "omlovelife",
   "stars": 2,
   "primary_language": "typescript",
   "tags": [
-    "integ",
-    "util"
+    "data",
+    "data-finance"
   ],
   "verification_status": "pass",
   "overall_score": 60,

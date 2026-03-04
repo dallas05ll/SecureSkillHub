@@ -1,0 +1,23 @@
+{
+  "started_at": "2026-03-04T16:06:27Z",
+  "finished_at": "2026-03-04T16:07:22Z",
+  "skill_type": "all",
+  "selected_ids": [
+    "unity-mcp-e1b80ade",
+    "firecrawl-mcp-server-467f3250",
+    "container-use-bc7daff5",
+    "snyk-0a9b70bc"
+  ],
+  "selected_count": 4,
+  "group_count": 5,
+  "processed_count": 4,
+  "status_counts": {
+    "pass": 4
+  },
+  "stage_failures": {},
+  "retry_ids": [],
+  "remaining_unverified": 5893,
+  "only_unverified": true,
+  "source": "*",
+  "include_repo_unavailable": false
+}

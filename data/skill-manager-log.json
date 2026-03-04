@@ -4047,12 +4047,88 @@
         "remaining_unverified": 4616,
         "run_report": "/Users/liendallas/Desktop/Projects/SecureSkillHub/data/verification-runs/20260304T181359Z_strict5_limit100.json"
       }
+    },
+    {
+      "type": "sm_evolve",
+      "timestamp": "2026-03-04T18:31:42.172865+00:00",
+      "summary": {
+        "total_skills": 11098,
+        "unique_tags": 77,
+        "recommendations_count": 2,
+        "fp_patterns_learned": 585
+      }
+    },
+    {
+      "timestamp": "2026-03-04T19:52:13.644107+00:00",
+      "check_type": "health_check",
+      "findings": {
+        "total_skills": 11098,
+        "verified": 3807,
+        "unverified": 7282,
+        "full_pipeline": 3816,
+        "scanner_only": 0,
+        "metadata_only": 1,
+        "with_agent_audit": 3816,
+        "status_breakdown": {
+          "unverified": 7282,
+          "pass": 3807,
+          "fail": 9
+        },
+        "star_tiers": {
+          "1000+": 147,
+          "100-999": 387,
+          "10-99": 1205,
+          "1-9": 1887,
+          "0": 7472
+        },
+        "issues": []
+      },
+      "recommendations": [
+        "Crawl pending hubs: skills_sh"
+      ],
+      "changes_since_last": {
+        "new_skills": 11098,
+        "newly_verified": 3807,
+        "status_changes": [
+          "+11098 new skills added",
+          "+3807 newly verified",
+          "+7282 unverified delta"
+        ]
+      }
+    },
+    {
+      "timestamp": "2026-03-04T20:02:44.708206+00:00",
+      "check_type": "verification_run",
+      "findings": {
+        "selected_count": 100,
+        "processed_count": 100,
+        "status_counts": {
+          "pass": 90,
+          "fail": 9,
+          "skip": 1
+        },
+        "stage_failures": {
+          "clone_network": 1
+        },
+        "remaining_unverified": 5610,
+        "run_report": "/Users/liendallas/Desktop/Projects/SecureSkillHub/data/verification-runs/20260304T200243Z_strict5_limit100.json"
+      }
+    },
+    {
+      "type": "sm_evolve",
+      "timestamp": "2026-03-04T20:08:12.947358+00:00",
+      "summary": {
+        "total_skills": 11098,
+        "unique_tags": 77,
+        "recommendations_count": 2,
+        "fp_patterns_learned": 594
+      }
     }
   ],
-  "last_check": "2026-03-04T05:19:48.251193+00:00",
+  "last_check": "2026-03-04T19:52:13.644107+00:00",
   "summary": {
-    "total_checks": 18,
+    "total_checks": 19,
     "issues_found_lifetime": 16,
-    "last_healthy": "2026-03-04T02:38:36.175786+00:00"
+    "last_healthy": "2026-03-04T19:52:13.644107+00:00"
   }
 }

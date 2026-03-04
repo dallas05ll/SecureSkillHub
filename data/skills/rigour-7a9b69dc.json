@@ -1,20 +1,20 @@
 {
   "id": "rigour-7a9b69dc",
   "name": "rigour",
-  "description": "Deterministic quality gates for AI coding agents. Rigour runs 23 automated checks on every file AI writes \u2014 structural analysis, security scanning, AI-drift detection, and agent governance. \r\n\r\nWorks as an MCP server for Claude Desktop, Cursor, and Cline. Supports TypeScript, JavaScript, Python, Go, Ruby, and C#. Forces AI agents to write production-grade code with PASS/FAIL enforcement.",
+  "description": "Deterministic quality gates for AI coding agents. Rigour runs 23 automated checks on every file AI writes — structural analysis, security scanning, AI-drift detection, and agent governance. \r\n\r\nWorks as an MCP server for Claude Desktop, Cursor, and Cline. Supports TypeScript, JavaScript, Python, Go, Ruby, and C#. Forces AI agents to write production-grade code with PASS/FAIL enforcement.",
   "repo_url": "https://github.com/rigour-labs/rigour",
   "source_hub": "mcp_so",
   "owner": "rigour-labs",
   "stars": 16,
   "primary_language": "typescript",
   "tags": [
-    "data-ai",
     "dev",
+    "dev-web",
+    "dev-web-backend",
     "dev-web-backend-python",
     "prod",
     "sec",
-    "sec-scan",
-    "util-file"
+    "sec-scan"
   ],
   "verification_status": "pass",
   "overall_score": 15,
@@ -112,7 +112,7 @@
   "pm_override": {
     "date": "2026-03-03T17:38:00Z",
     "previous_status": "fail",
-    "reason": "PM override: Rigour \u2014 deterministic quality gates tool for AI coding agents. 0 injection, 0 critical. 6 obfuscation across 217 files (0.03 per file) are from vendored dependencies. High scanner count (498) is expected for a quality-gate tool that scans TypeScript/JS/Python/Go/Ruby/C#. Obfuscation safety override was a FP."
+    "reason": "PM override: Rigour — deterministic quality gates tool for AI coding agents. 0 injection, 0 critical. 6 obfuscation across 217 files (0.03 per file) are from vendored dependencies. High scanner count (498) is expected for a quality-gate tool that scans TypeScript/JS/Python/Go/Ruby/C#. Obfuscation safety override was a FP."
   },
   "skill_type": "mcp_server"
 }

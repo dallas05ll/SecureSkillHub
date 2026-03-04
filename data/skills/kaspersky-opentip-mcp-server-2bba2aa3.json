@@ -8,8 +8,6 @@
   "stars": 21,
   "primary_language": "python",
   "tags": [
-    "data-ai",
-    "data-ai-nlp",
     "integ"
   ],
   "verification_status": "pass",
@@ -33,7 +31,7 @@
       "Official Kaspersky Lab repo, Apache-2.0",
       "Undocumented analyze_file tool reads arbitrary local files",
       "File contents uploaded to Kaspersky servers (opentip.kaspersky.com)",
-      "No path validation on file read \u2014 recommend sandboxing"
+      "No path validation on file read — recommend sandboxing"
     ]
   },
   "scan_date": "2026-03-03T17:13:37Z",

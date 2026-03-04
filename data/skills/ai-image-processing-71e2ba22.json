@@ -1,7 +1,7 @@
 {
   "id": "ai-image-processing-71e2ba22",
   "name": "ai-image-processing",
-  "description": "A Model Context Protocol (MCP) server built for Nero AI, offering seamless access to a full suite of AI-powered image processing tools \u2014 including high-fidelity upscaling, photo restoration, noise reduction, background removal, colorization, and intelligent compression. Ideal for enhancing old or low-resolution images, streamlining creative workflows, and powering modern image editing pipelines with fast, reliable, and high-quality results.",
+  "description": "A Model Context Protocol (MCP) server built for Nero AI, offering seamless access to a full suite of AI-powered image processing tools — including high-fidelity upscaling, photo restoration, noise reduction, background removal, colorization, and intelligent compression. Ideal for enhancing old or low-resolution images, streamlining creative workflows, and powering modern image editing pipelines with fast, reliable, and high-quality results.",
   "repo_url": "https://github.com/modelcontextprotocol/ai-image-processing",
   "source_hub": "mcp_so",
   "owner": "modelcontextprotocol",
@@ -9,11 +9,9 @@
   "primary_language": "unknown",
   "tags": [
     "repo_unavailable",
+    "data",
     "data-ai",
-    "data-ai-nlp",
     "data-ai-vision",
-    "dev-devops-ci",
-    "prod",
     "util",
     "util-media"
   ],

@@ -1,7 +1,7 @@
 {
   "id": "claude-cli-ux-skill-348d4510",
   "name": "claude-cli-ux-skill",
-  "description": "\ud83d\udd2c Expert UX testing skill for CLIs and developer tools. Automatically evaluates command-line interfaces for usability, accessibility, and developer experience in Claude Code.",
+  "description": "🔬 Expert UX testing skill for CLIs and developer tools. Automatically evaluates command-line interfaces for usability, accessibility, and developer experience in Claude Code.",
   "repo_url": "https://github.com/ali5ter/claude-cli-ux-skill",
   "source_hub": "github_search",
   "skill_type": "agent_skill",
@@ -10,11 +10,9 @@
   "license": "mit",
   "primary_language": "markdown",
   "tags": [
-    "data-ai",
     "dev",
     "dev-testing",
-    "prod",
-    "util"
+    "prod"
   ],
   "verification_status": "pass",
   "overall_score": 98,

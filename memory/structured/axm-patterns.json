@@ -1,0 +1,18 @@
+{
+  "schema_version": "1.0",
+  "role": "agent_experience_manager",
+  "entries": [
+    {
+      "id": "axm-p-001",
+      "title": "Package build process",
+      "category": "packages",
+      "description": "scripts/build/build_packages.py generates data/packages/*.json from skill collection. AXM owns WS6."
+    },
+    {
+      "id": "axm-p-002",
+      "title": "Agent entry point",
+      "category": "agent_ux",
+      "description": "site/entry.md is the machine-readable discovery entry. Agents read this, humans read index.html."
+    }
+  ]
+}

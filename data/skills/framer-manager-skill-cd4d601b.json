@@ -1,7 +1,7 @@
 {
   "id": "framer-manager-skill-cd4d601b",
   "name": "framer-manager-skill",
-  "description": "OpenClaw skill for managing Framer sites via Server API \u2014 CMS, content publishing, SEO, redirects, deployments, and asset uploads.",
+  "description": "OpenClaw skill for managing Framer sites via Server API — CMS, content publishing, SEO, redirects, deployments, and asset uploads.",
   "repo_url": "https://github.com/watchdealer-pavel/framer-manager-skill",
   "source_hub": "github_search",
   "skill_type": "agent_skill",
@@ -10,8 +10,7 @@
   "license": "mit",
   "primary_language": "markdown",
   "tags": [
-    "integ",
-    "util-file"
+    "integ"
   ],
   "verification_status": "pass",
   "overall_score": 94,

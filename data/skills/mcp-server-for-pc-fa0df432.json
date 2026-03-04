@@ -1,15 +1,14 @@
 {
   "id": "mcp-server-for-pc-fa0df432",
   "name": "mcp-server-for-pc",
-  "description": "\u9488\u5bf9\u64cd\u4f5c\u4e2a\u4eba\u7535\u8111\u7684mcp\u670d\u52a1\u5668\uff0c\u8be5\u9879\u76ee\u5f53\u524d\u4e3b\u8981\u9488\u5bf9smart-pet-with-mcp\u9879\u76ee\u7684\u642d\u914d\u6f14\u793a\u7528",
+  "description": "针对操作个人电脑的mcp服务器，该项目当前主要针对smart-pet-with-mcp项目的搭配演示用",
   "repo_url": "https://github.com/shijianzhong/mcp-server-for-pc",
   "source_hub": "mcp_so",
   "owner": "shijianzhong",
   "stars": 6,
   "primary_language": "unknown",
   "tags": [
-    "integ",
-    "util"
+    "integ"
   ],
   "verification_status": "pass",
   "overall_score": 92,

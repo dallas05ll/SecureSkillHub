@@ -11,19 +11,18 @@
   "license": "MIT",
   "primary_language": "Shell",
   "tags": [
+    "data",
     "data-ai",
     "data-ai-vision",
-    "dev",
+    "integ",
     "integ-social",
-    "integrations-github",
-    "prod",
-    "util-media"
+    "integrations-github"
   ],
   "verification_status": "pass",
   "overall_score": 56,
   "risk_level": "medium",
   "verified_commit": "ee959429e67be8a9deeca15f8af0983f7de636c6",
-  "scan_summary": "Configuration and skills repository primarily for OpenAI Codex CLI but includes Claude-compatible skills. MIT licensed. Skills use SKILL.md format with references/. Contains LiteLLM config (litellm_config.yaml) which includes model routing configuration. Policy files (.codexpolicy) define allowed operations. No hardcoded credentials \u2014 uses environment variables. Some skills include YouTube API and image generation capabilities.",
+  "scan_summary": "Configuration and skills repository primarily for OpenAI Codex CLI but includes Claude-compatible skills. MIT licensed. Skills use SKILL.md format with references/. Contains LiteLLM config (litellm_config.yaml) which includes model routing configuration. Policy files (.codexpolicy) define allowed operations. No hardcoded credentials — uses environment variables. Some skills include YouTube API and image generation capabilities.",
   "findings_summary": {
     "scanner_findings": 20,
     "dangerous_calls": 7,

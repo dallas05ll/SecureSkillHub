@@ -1,0 +1,44 @@
+{
+  "started_at": "2026-03-03T22:10:44Z",
+  "finished_at": "2026-03-03T22:13:45Z",
+  "skill_type": "all",
+  "selected_ids": [
+    "yume-48692152",
+    "claude-code-buddy-784a4679",
+    "claude-session-index-30dc4b63",
+    "systematic-debug-e923561c",
+    "submit-changes-9fba259f",
+    "security-expert-hardening-94171d5c",
+    "resume-assistant-skill-cb8f3f68",
+    "enhance-existing-features-609f2d7e",
+    "edge-case-test-fixer-8db03044",
+    "develop-new-features-7f77aa1c",
+    "app-log-issue-analysis-cbfb55d7"
+  ],
+  "selected_count": 11,
+  "group_count": 5,
+  "processed_count": 11,
+  "status_counts": {
+    "skip": 11
+  },
+  "stage_failures": {
+    "clone_network": 11
+  },
+  "retry_ids": [
+    "submit-changes-9fba259f",
+    "develop-new-features-7f77aa1c",
+    "claude-session-index-30dc4b63",
+    "enhance-existing-features-609f2d7e",
+    "claude-code-buddy-784a4679",
+    "resume-assistant-skill-cb8f3f68",
+    "systematic-debug-e923561c",
+    "edge-case-test-fixer-8db03044",
+    "yume-48692152",
+    "security-expert-hardening-94171d5c",
+    "app-log-issue-analysis-cbfb55d7"
+  ],
+  "remaining_unverified": 1125,
+  "only_unverified": true,
+  "source": "*",
+  "include_repo_unavailable": false
+}

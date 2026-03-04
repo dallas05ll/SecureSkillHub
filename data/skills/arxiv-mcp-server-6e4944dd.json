@@ -8,9 +8,8 @@
   "stars": 2222,
   "primary_language": "python",
   "tags": [
-    "data-ai",
-    "data-ai-nlp",
-    "util-search"
+    "integ",
+    "util"
   ],
   "verification_status": "pass",
   "overall_score": 79,
@@ -92,7 +91,7 @@
   "pm_review": {
     "decision": "pass",
     "previous_status": "manual_review",
-    "reason": "Score 79. Only 11 findings (0 critical, 0 high, 1 medium, 10 low). ArXiv paper search MCP \u2014 file ops expected for paper downloads. No dangerous patterns. Active repo by blazickjp.",
+    "reason": "Score 79. Only 11 findings (0 critical, 0 high, 1 medium, 10 low). ArXiv paper search MCP — file ops expected for paper downloads. No dangerous patterns. Active repo by blazickjp.",
     "reviewer": "pm_dual_agent",
     "reviewed_at": "2026-03-01T07:38:01.397802Z"
   },

@@ -1,7 +1,7 @@
 {
   "id": "agent-skill-clalit-pharm-search-29be6a88",
   "name": "agent-skill-clalit-pharm-search",
-  "description": "Claude Code agent skill: search medications & check real-time stock at Clalit (\u05db\u05dc\u05dc\u05d9\u05ea) pharmacies in Israel",
+  "description": "Claude Code agent skill: search medications & check real-time stock at Clalit (כללית) pharmacies in Israel",
   "repo_url": "https://github.com/tomron/agent-skill-clalit-pharm-search",
   "source_hub": "github_search",
   "skill_type": "agent_skill",
@@ -10,8 +10,9 @@
   "license": "",
   "primary_language": "markdown",
   "tags": [
-    "data-ai",
-    "dev",
+    "data",
+    "data-finance",
+    "util",
     "util-search"
   ],
   "verification_status": "pass",

@@ -1,7 +1,7 @@
 {
   "id": "chromadb-fastapi-mcp-38255774",
   "name": "chromadb-fastapi-mcp",
-  "description": "chromadb \u3092 fastapi \u5316\u3057 fastapi-mcp \u3067 mcp server \u3068\u3057\u3066\u5229\u7528",
+  "description": "chromadb を fastapi 化し fastapi-mcp で mcp server として利用",
   "repo_url": "https://github.com/osushinekotan/chromadb-fastapi-mcp",
   "source_hub": "mcp_so",
   "owner": "osushinekotan",
@@ -9,9 +9,13 @@
   "primary_language": "unknown",
   "tags": [
     "repo_unavailable",
+    "data",
+    "data-db",
     "data-db-vector",
-    "dev-web-backend-python",
-    "integ"
+    "dev",
+    "dev-web",
+    "dev-web-backend",
+    "dev-web-backend-python"
   ],
   "verification_status": "unverified",
   "overall_score": 0,

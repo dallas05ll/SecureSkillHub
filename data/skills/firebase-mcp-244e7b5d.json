@@ -1,15 +1,14 @@
 {
   "id": "firebase-mcp-244e7b5d",
   "name": "firebase-mcp",
-  "description": "\ud83d\udd25 Model Context Protocol (MCP) server for Firebase.",
+  "description": "🔥 Model Context Protocol (MCP) server for Firebase.",
   "repo_url": "https://github.com/gannonh/firebase-mcp",
   "source_hub": "mcp_so",
   "owner": "gannonh",
   "stars": 239,
   "primary_language": "typescript",
   "tags": [
-    "data-ai",
-    "data-ai-nlp",
+    "data",
     "data-db"
   ],
   "verification_status": "pass",
@@ -20,7 +19,7 @@
   "scan_date": "2026-03-03T03:55:37Z",
   "pm_override": {
     "action": "fail_to_pass",
-    "reason": "PM batch override: 0 critical, 0 injection, 0 obfuscation. Fail caused by known scoring bug (max scanner penalty 40 + b_missed 15 = score \u226445 < 50 threshold). No security threat detected.",
+    "reason": "PM batch override: 0 critical, 0 injection, 0 obfuscation. Fail caused by known scoring bug (max scanner penalty 40 + b_missed 15 = score ≤45 < 50 threshold). No security threat detected.",
     "override_by": "PM batch review 20260303",
     "date": "2026-03-03"
   },

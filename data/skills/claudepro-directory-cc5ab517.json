@@ -1,7 +1,7 @@
 {
   "id": "claudepro-directory-cc5ab517",
   "name": "claudepro-directory",
-  "description": "Searchable web directory of 262+ pre-built Claude AI configurations including MCP servers, custom rules, agents, and automation hooks. Hosted at claudepro.directory. Built with Next.js and TypeScript as a monorepo (Turborepo/pnpm workspace). Not a traditional installable skill \u2014 it is a web application/directory.",
+  "description": "Searchable web directory of 262+ pre-built Claude AI configurations including MCP servers, custom rules, agents, and automation hooks. Hosted at claudepro.directory. Built with Next.js and TypeScript as a monorepo (Turborepo/pnpm workspace). Not a traditional installable skill — it is a web application/directory.",
   "repo_url": "https://github.com/JSONbored/claudepro-directory",
   "source_hub": "github_search",
   "skill_type": "agent_skill",
@@ -10,13 +10,13 @@
   "license": "mit",
   "primary_language": "TypeScript",
   "tags": [
-    "data-ai",
+    "dev",
     "dev-web",
-    "dev-web-backend-node",
+    "dev-web-frontend",
     "dev-web-frontend-react",
+    "dev-web-fullstack",
     "dev-web-fullstack-nextjs",
-    "prod",
-    "util-search"
+    "prod"
   ],
   "verification_status": "pass",
   "overall_score": 30,

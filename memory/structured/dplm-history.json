@@ -1,0 +1,12 @@
+{
+  "schema_version": "1.0",
+  "role": "deploy_manager",
+  "entries": [
+    {
+      "id": "dplm-h-001",
+      "title": "Deploy protocol",
+      "category": "workflow",
+      "description": "PM instructs DeployM. DeployM commits + pushes. GitHub Pages auto-deploys from main. Never force-push."
+    }
+  ]
+}

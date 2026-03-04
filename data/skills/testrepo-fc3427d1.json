@@ -1,14 +1,15 @@
 {
   "id": "testrepo-fc3427d1",
   "name": "testRepo",
-  "description": "\u8fd9\u662f\u4e00\u4e2a\u6d4b\u8bd5mcp server\u7684\u4ed3\u5e93",
+  "description": "这是一个测试mcp server的仓库",
   "repo_url": "https://github.com/myzhibie/testRepo",
   "source_hub": "mcp_so",
   "owner": "myzhibie",
   "stars": 0,
   "primary_language": "unknown",
   "tags": [
-    "dev-testing"
+    "integ",
+    "util"
   ],
   "verification_status": "unverified",
   "overall_score": 85,

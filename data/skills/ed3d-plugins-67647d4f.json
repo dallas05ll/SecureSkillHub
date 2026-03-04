@@ -11,17 +11,15 @@
   "license": "",
   "primary_language": "Python",
   "tags": [
-    "data-ai",
     "dev",
     "dev-testing",
-    "prod",
-    "util-search"
+    "prod"
   ],
   "verification_status": "pass",
   "overall_score": 0,
   "risk_level": "medium",
   "verified_commit": "06735669bc843981c89fc83cf922436a23697745",
-  "scan_summary": "Well-designed multi-plugin collection with RPI workflow, agent definitions, and hooks. Hook scripts (hook-reminder.sh) emit JSON-formatted context injection for Claude \u2014 benign shell script using cat heredoc. hooks.json defines Claude Code hook configuration. No license file found. Plugin system uses .claude-plugin marketplace.json format. Derived partially from obra/superpowers (credited). Python used in Playwright plugin for automation.",
+  "scan_summary": "Well-designed multi-plugin collection with RPI workflow, agent definitions, and hooks. Hook scripts (hook-reminder.sh) emit JSON-formatted context injection for Claude — benign shell script using cat heredoc. hooks.json defines Claude Code hook configuration. No license file found. Plugin system uses .claude-plugin marketplace.json format. Derived partially from obra/superpowers (credited). Python used in Playwright plugin for automation.",
   "findings_summary": {
     "scanner_findings": 37,
     "dangerous_calls": 17,

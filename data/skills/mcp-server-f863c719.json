@@ -1,14 +1,15 @@
 {
   "id": "mcp-server-f863c719",
   "name": "mcp-server",
-  "description": "MCP server for Zeplin - used for screen and component code generation \ud83d\udcbb",
+  "description": "MCP server for Zeplin - used for screen and component code generation 💻",
   "repo_url": "https://github.com/zeplin/mcp-server",
   "source_hub": "mcp_so",
   "owner": "zeplin",
   "stars": 9,
   "primary_language": "typescript",
   "tags": [
-    "dev"
+    "integ",
+    "util"
   ],
   "verification_status": "pass",
   "overall_score": 96,

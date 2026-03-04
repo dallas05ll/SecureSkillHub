@@ -1,15 +1,15 @@
 {
   "id": "mcpixir-e4211cf5",
   "name": "mcpixir",
-  "description": "\ud83c\udf10 Mcpixir is the open source way to connect any LLM to any MCP server and build custom agents that have tool access, without using closed source or application clients.",
+  "description": "🌐 Mcpixir is the open source way to connect any LLM to any MCP server and build custom agents that have tool access, without using closed source or application clients.",
   "repo_url": "https://github.com/ramonlimaramos/mcpixir",
   "source_hub": "mcp_so",
   "owner": "ramonlimaramos",
   "stars": 7,
   "primary_language": "shell",
   "tags": [
+    "data",
     "data-ai",
-    "integ",
     "util"
   ],
   "verification_status": "pass",

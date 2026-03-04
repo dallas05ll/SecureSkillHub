@@ -1,7 +1,7 @@
 {
   "id": "the-drive-ai-bf53d22c",
   "name": "the-drive-ai",
-  "description": "Interact with The Drive AI files directly from AI assistants like ChatGPT or Claude using the Model Context Protocol (MCP).\r\n\r\nFeatures\r\n\u2022 Browse and search through your The Drive AI files and folders.\r\n\u2022 Create, rename, move, and share files and folders in The Drive AI workspace from ChatGPT, Claude, and other AI assistants\r\n\u2022 Save files created by your AI assistant back to The Drive AI workspace. The Drive AI automatically organizes them for you!\r\n\u2022 Seamless integration with ChatGPT, Claude...",
+  "description": "Interact with The Drive AI files directly from AI assistants like ChatGPT or Claude using the Model Context Protocol (MCP).\r\n\r\nFeatures\r\n• Browse and search through your The Drive AI files and folders.\r\n• Create, rename, move, and share files and folders in The Drive AI workspace from ChatGPT, Claude, and other AI assistants\r\n• Save files created by your AI assistant back to The Drive AI workspace. The Drive AI automatically organizes them for you!\r\n• Seamless integration with ChatGPT, Claude...",
   "repo_url": "https://github.com/The Drive AI/the-drive-ai",
   "source_hub": "mcp_so",
   "owner": "The Drive AI",
@@ -9,12 +9,11 @@
   "primary_language": "unknown",
   "tags": [
     "repo_unavailable",
+    "data",
     "data-ai",
-    "data-ai-nlp",
     "integ",
     "prod",
-    "prod-comm",
-    "util-file",
+    "util",
     "util-search"
   ],
   "verification_status": "unverified",

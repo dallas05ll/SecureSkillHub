@@ -1,14 +1,15 @@
 {
   "id": "siliconflow-flux-mcp-server-c42c6f9c",
   "name": "siliconflow-flux-mcp-server",
-  "description": "\u57fa\u4e8e\u7845\u57fa\u6d41\u52a8\u7aef\u53e3\u7684AI\u751f\u56feMCP",
+  "description": "基于硅基流动端口的AI生图MCP",
   "repo_url": "https://github.com/lioensky/siliconflow-flux-mcp-server",
   "source_hub": "mcp_so",
   "owner": "lioensky",
   "stars": 18,
   "primary_language": "unknown",
   "tags": [
-    "data-ai"
+    "integ",
+    "util"
   ],
   "verification_status": "pass",
   "overall_score": 98,

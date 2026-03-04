@@ -8,7 +8,6 @@
   "stars": 5645,
   "primary_language": "python",
   "tags": [
-    "data-ai",
     "integ"
   ],
   "verification_status": "pass",
@@ -19,7 +18,7 @@
   "verification_date": "2026-03-02T00:00:00Z",
   "verification_summary": {
     "pm_override": {
-      "reason": "PM override: 3 injection findings confirmed FP by SecM \u2014 shields.io badge data: URI, test file override_role, Supabase String.fromCharCode. YC X25 company.",
+      "reason": "PM override: 3 injection findings confirmed FP by SecM — shields.io badge data: URI, test file override_role, Supabase String.fromCharCode. YC X25 company.",
       "date": "2026-03-02",
       "authorized_by": "PM"
     }

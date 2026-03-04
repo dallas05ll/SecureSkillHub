@@ -1,7 +1,7 @@
 {
   "id": "terraform-mcp-server-by-binadox-c98fd28b",
   "name": "terraform-mcp-server-by-binadox",
-  "description": "MCP server for Terraform \u2014 automatically validates, secures, and estimates cloud costs for Terraform configurations. The Binadox solution integrates with any Model Context Protocol (MCP) client (e.g. Claude Desktop or other MCP-compatible AI assistants).",
+  "description": "MCP server for Terraform — automatically validates, secures, and estimates cloud costs for Terraform configurations. The Binadox solution integrates with any Model Context Protocol (MCP) client (e.g. Claude Desktop or other MCP-compatible AI assistants).",
   "repo_url": "https://github.com/binadox-public/terraform-mcp-server-by-binadox",
   "source_hub": "mcp_so",
   "owner": "binadox-public",
@@ -9,8 +9,9 @@
   "primary_language": "unknown",
   "tags": [
     "repo_unavailable",
-    "data-ai",
-    "data-ai-nlp",
+    "dev",
+    "dev-devops",
+    "integ",
     "integ-cloud",
     "prod"
   ],

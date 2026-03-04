@@ -1,17 +1,16 @@
 {
   "id": "engine-openapi-mcp-01ff67fa",
   "name": "engine-openapi-mcp",
-  "description": "\u63d0\u4f9b\u4e86\u4e00\u7cfb\u5217\u7528\u4e8e\u795e\u5c9b\u5f15\u64ce\u7684 OpenAPI MCP (Model Context Protocol) \u5de5\u5177\uff0c\u5e2e\u52a9 AI \u66f4\u9ad8\u6548\u5730\u8c03\u7528\u5f15\u64ce\u63a5\u53e3\u3002",
-  "repo_url": "https://github.com/\u795e\u5c9b\u5b9e\u9a8c\u5ba4/engine-openapi-mcp",
+  "description": "提供了一系列用于神岛引擎的 OpenAPI MCP (Model Context Protocol) 工具，帮助 AI 更高效地调用引擎接口。",
+  "repo_url": "https://github.com/神岛实验室/engine-openapi-mcp",
   "source_hub": "mcp_so",
-  "owner": "\u795e\u5c9b\u5b9e\u9a8c\u5ba4",
+  "owner": "神岛实验室",
   "stars": 0,
   "primary_language": "unknown",
   "tags": [
     "repo_unavailable",
-    "data-ai",
-    "data-ai-nlp",
-    "integ"
+    "integ",
+    "util"
   ],
   "verification_status": "unverified",
   "overall_score": 0,
@@ -20,6 +19,6 @@
   "scan_summary": null,
   "repo_status": "unavailable",
   "repo_check_date": "2026-02-28T20:51:39.386588+00:00",
-  "repo_check_error": "remote: Repository not found.\nfatal: repository 'https://github.com/\u795e\u5c9b\u5b9e\u9a8c\u5ba4/engine-openapi-mcp/' not found",
+  "repo_check_error": "remote: Repository not found.\nfatal: repository 'https://github.com/神岛实验室/engine-openapi-mcp/' not found",
   "skill_type": "mcp_server"
 }

@@ -1,14 +1,15 @@
 {
   "id": "cline-mcp-server-test-d5067705",
   "name": "cline-mcp-server-test",
-  "description": "Cline\u3068MCP Server\u306e\u63a5\u7d9a\u3092\u30c6\u30b9\u30c8\u3059\u308b\u305f\u3081\u306e\u30ea\u30dd\u30b8\u30c8\u30ea\u3067\u3059\u3002",
+  "description": "ClineとMCP Serverの接続をテストするためのリポジトリです。",
   "repo_url": "https://github.com/suzukalight/cline-mcp-server-test",
   "source_hub": "mcp_so",
   "owner": "suzukalight",
   "stars": 0,
   "primary_language": "unknown",
   "tags": [
-    "dev-testing"
+    "integ",
+    "util"
   ],
   "verification_status": "unverified",
   "overall_score": 85,

@@ -1,13 +1,14 @@
 {
   "id": "jewei-mysql-mcp-server-85ae9064",
   "name": "jewei-mysql-mcp-server",
-  "description": "# MySQL MCP Server\r\n\r\n\u8fd9\u662f\u4e00\u4e2aMySQL\u6570\u636e\u5e93\u67e5\u8be2\u670d\u52a1\u5668\uff0c\u63d0\u4f9b\u4e86\u4ee5\u4e0b\u529f\u80fd\uff1a\r\n\r\n- \u6267\u884cSQL\u67e5\u8be2\uff08\u4ec5\u652f\u6301SELECT\u8bed\u53e5\uff09\r\n- \u83b7\u53d6\u8868\u7ed3\u6784\u4fe1\u606f\r\n- \u5217\u51fa\u6570\u636e\u5e93\u4e2d\u7684\u6240\u6709\u8868",
+  "description": "# MySQL MCP Server\r\n\r\n这是一个MySQL数据库查询服务器，提供了以下功能：\r\n\r\n- 执行SQL查询（仅支持SELECT语句）\r\n- 获取表结构信息\r\n- 列出数据库中的所有表",
   "repo_url": "https://github.com/jeweis/jewei-mysql-mcp-server",
   "source_hub": "mcp_so",
   "owner": "jeweis",
   "stars": 1,
   "primary_language": "python",
   "tags": [
+    "data",
     "data-db"
   ],
   "verification_status": "pass",

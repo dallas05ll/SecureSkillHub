@@ -1,13 +1,15 @@
 {
   "id": "mcpdocserver-592c811d",
   "name": "McpDocServer",
-  "description": "\u4e00\u4e2a\u57fa\u4e8eMCP\u534f\u8bae\u7684\u5f00\u53d1\u6587\u6863\u670d\u52a1\u5668\uff0c\u4e13\u4e3a\u5404\u7c7b\u5f00\u53d1\u6846\u67b6\u6587\u6863\u8bbe\u8ba1",
+  "description": "一个基于MCP协议的开发文档服务器，专为各类开发框架文档设计",
   "repo_url": "https://github.com/ruan11223344/McpDocServer",
   "source_hub": "mcp_so",
   "owner": "ruan11223344",
   "stars": 49,
   "primary_language": "javascript",
   "tags": [
+    "integ",
+    "prod",
     "prod-docs"
   ],
   "verification_status": "pass",

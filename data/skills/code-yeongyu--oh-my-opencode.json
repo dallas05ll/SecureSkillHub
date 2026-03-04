@@ -11,9 +11,8 @@
   "description": "AI agent harness/plugin for OpenCode with multi-model orchestration, parallel background agents, LSP/AST tools, and built-in MCP servers.",
   "primary_language": "TypeScript",
   "tags": [
-    "data-ai",
-    "dev",
-    "util"
+    "data",
+    "data-ai"
   ],
   "findings_summary": {
     "scanner_findings": 679,

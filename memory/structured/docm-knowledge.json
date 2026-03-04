@@ -1,0 +1,18 @@
+{
+  "schema_version": "1.0",
+  "role": "documentation_manager",
+  "entries": [
+    {
+      "id": "docm-k-001",
+      "title": "Doc-drift detection flow",
+      "category": "workflow",
+      "description": "PM detects doc drift, DocM fixes. PM→DocM→DeployM flow for doc-code alignment."
+    },
+    {
+      "id": "docm-k-002",
+      "title": "File registry",
+      "category": "infrastructure",
+      "description": "DocM maintains file registry via src/docm_registry.py. Persistent cross-session file tracking."
+    }
+  ]
+}

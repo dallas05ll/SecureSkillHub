@@ -1,15 +1,14 @@
 {
   "id": "wxauto-mcp-060fe006",
   "name": "wxauto-mcp",
-  "description": "\u81ea\u52a8\u5316\u5fae\u4fe1\u64cd\u4f5c\u7684mcp server",
+  "description": "自动化微信操作的mcp server",
   "repo_url": "https://github.com/barantt/wxauto-mcp",
   "source_hub": "mcp_so",
   "owner": "barantt",
   "stars": 35,
   "primary_language": "unknown",
   "tags": [
-    "integ",
-    "util"
+    "prod"
   ],
   "verification_status": "pass",
   "overall_score": 100,

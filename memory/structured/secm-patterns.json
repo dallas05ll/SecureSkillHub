@@ -1,0 +1,78 @@
+{
+  "schema_version": "1.0",
+  "role": "security_manager",
+  "entries": [
+    {
+      "id": "secm-p-001",
+      "title": "Scanner FP category: test files",
+      "category": "false_positive",
+      "description": "Security test files (tests/, __tests__/) contain attack payloads as fixtures. Scanner correctly finds patterns but they're in test context."
+    },
+    {
+      "id": "secm-p-002",
+      "title": "Scanner FP category: minified JS",
+      "category": "false_positive",
+      "description": "String.fromCharCode in minified/bundled JS, hex_escape in vendor files. All false positives for obfuscation."
+    },
+    {
+      "id": "secm-p-003",
+      "title": "Scanner FP category: shields.io badges",
+      "category": "false_positive",
+      "description": "data:image/svg+xml;base64 in README badge URLs triggers markdown_injection. Fixed with URL-start-only matching."
+    },
+    {
+      "id": "secm-p-004",
+      "title": "Scanner FP category: security detectors",
+      "category": "false_positive",
+      "description": "Security scanners/judges contain injection vocabulary they detect. Cat 9 skip rule added."
+    },
+    {
+      "id": "secm-p-005",
+      "title": "Scanner FP category: CJK unicode",
+      "category": "false_positive",
+      "description": "Chinese/Japanese/Korean text uses unicode escape sequences. Threshold raised from 3 to 6 consecutive escapes."
+    },
+    {
+      "id": "secm-p-006",
+      "title": "Scanner FP category: webpack chunks",
+      "category": "false_positive",
+      "description": "Bundled frontend assets (mermaid, KaTeX) contain hex_escape and fromCharCode. Cat 10 skip for chunk- files."
+    },
+    {
+      "id": "secm-p-007",
+      "title": "Scanner FP category: protobuf",
+      "category": "false_positive",
+      "description": "Protobuf generated _pb2.py files contain binary descriptors that trigger obfuscation. Skip rule added."
+    },
+    {
+      "id": "secm-p-008",
+      "title": "Scanner FP category: .claude/commands",
+      "category": "false_positive",
+      "description": ".claude/commands/*.md imperative text triggers injection scanner. New FP pattern discovered Run 2."
+    },
+    {
+      "id": "secm-p-009",
+      "title": "Structural FP: full-repo skills",
+      "category": "root_cause",
+      "description": "SkillsMP skills link to full project repos (jetbrains/intellij-community 182K files). Scanner scans entire codebase. Not a pattern issue — structural input issue."
+    },
+    {
+      "id": "secm-p-010",
+      "title": "Company policy: no false detections",
+      "category": "policy",
+      "description": "False detections are NOT allowed. Scanner regex patterns must be tested with both real attacks AND common legitimate patterns before deployment."
+    },
+    {
+      "id": "secm-p-011",
+      "title": "Override_role context requirement",
+      "category": "scanner_fix",
+      "description": "Pattern requires instruction verb prefix (you must, please, now) before OVERRIDE ROLE/MODE/SYSTEM."
+    },
+    {
+      "id": "secm-p-012",
+      "title": "Roleplay_escape trailing requirement",
+      "category": "scanner_fix",
+      "description": "Pattern requires MODE/NOW/IMMEDIATELY after EXIT/END/LEAVE ROLEPLAY/CHARACTER."
+    }
+  ]
+}

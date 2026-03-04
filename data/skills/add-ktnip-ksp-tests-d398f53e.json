@@ -10,9 +10,14 @@
   "primary_language": "kotlin",
   "tags": [
     "agent-skills",
-    "dev-testing",
     "installs:242",
-    "status-pass"
+    "status-pass",
+    "dev",
+    "dev-testing",
+    "integ",
+    "integrations-messaging",
+    "prod",
+    "prod-comm"
   ],
   "verification_status": "pass",
   "overall_score": 98,

@@ -1,7 +1,7 @@
 {
   "id": "indic-voice-pipeline-91204db4",
   "name": "indic-voice-pipeline",
-  "description": "HumanCTO's Indic Voice Pipeline \u2014 Download, transcribe, and translate audio/video in 12 Indian languages. 100% local, no API keys. Claude Code skills powered by OpenAI Whisper + vasista22 + AI4Bharat IndicWhisper fine-tuned models.",
+  "description": "HumanCTO's Indic Voice Pipeline — Download, transcribe, and translate audio/video in 12 Indian languages. 100% local, no API keys. Claude Code skills powered by OpenAI Whisper + vasista22 + AI4Bharat IndicWhisper fine-tuned models.",
   "repo_url": "https://github.com/humancto/indic-voice-pipeline",
   "source_hub": "github_search",
   "skill_type": "agent_skill",
@@ -10,13 +10,14 @@
   "license": "mit",
   "primary_language": "markdown",
   "tags": [
+    "data",
     "data-ai",
     "data-ai-audio",
     "data-ai-nlp",
     "dev",
-    "dev-devops-ci",
+    "dev-devops",
     "integ",
-    "util-file",
+    "util",
     "util-media"
   ],
   "verification_status": "pass",

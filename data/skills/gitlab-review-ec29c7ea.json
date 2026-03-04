@@ -1,14 +1,15 @@
 {
   "id": "gitlab-review-ec29c7ea",
   "name": "gitlab_review",
-  "description": "gitlab\u3067\u30ec\u30d3\u30e5\u30fc\u7528\u306eMCP Server",
+  "description": "gitlabでレビュー用のMCP Server",
   "repo_url": "https://github.com/Photosynth-inc/gitlab_review",
   "source_hub": "mcp_so",
   "owner": "Photosynth-inc",
   "stars": 3,
   "primary_language": "typescript",
   "tags": [
-    "dev-git"
+    "integ",
+    "util"
   ],
   "verification_status": "pass",
   "overall_score": 95,

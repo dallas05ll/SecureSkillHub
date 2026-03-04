@@ -1,7 +1,7 @@
 {
   "id": "hyperexecute-mcp-server-7c2174ad",
   "name": "hyperexecute-mcp-server",
-  "description": "HyperExecute MCP Server is LambdaTest\u2019s AI-native test orchestration platform that simplifies and accelerates automated testing. Unlike traditional AI systems limited to conversation, HyperExecute MCP leverages the Model Context Protocol (MCP) to seamlessly connect AI assistants with your testing environment\u2014reducing setup time from weeks to minutes. With HyperExecute MCP Server, you can analyze code, generate test commands, auto-create configuration files, and gain real-time execution insigh...",
+  "description": "HyperExecute MCP Server is LambdaTest’s AI-native test orchestration platform that simplifies and accelerates automated testing. Unlike traditional AI systems limited to conversation, HyperExecute MCP leverages the Model Context Protocol (MCP) to seamlessly connect AI assistants with your testing environment—reducing setup time from weeks to minutes. With HyperExecute MCP Server, you can analyze code, generate test commands, auto-create configuration files, and gain real-time execution insigh...",
   "repo_url": "https://github.com/LambdaTest/hyperexecute-mcp-server",
   "source_hub": "mcp_so",
   "owner": "LambdaTest",
@@ -9,15 +9,9 @@
   "primary_language": "unknown",
   "tags": [
     "repo_unavailable",
-    "data-ai",
-    "data-ai-nlp",
     "dev",
     "dev-testing",
-    "integ",
-    "integ-cloud",
-    "integ-cloud-aws",
-    "prod",
-    "util-file"
+    "prod"
   ],
   "verification_status": "unverified",
   "overall_score": 0,

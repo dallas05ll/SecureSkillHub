@@ -1,15 +1,15 @@
 {
   "id": "databutton-mcp-server-4320e83f",
   "name": "Databutton MCP Server",
-  "description": "An MCP server for doing doing initial app planning and creating a good starting point in Databutton \u2013 it starts a new app and generates the initial MVP tasks",
+  "description": "An MCP server for doing doing initial app planning and creating a good starting point in Databutton – it starts a new app and generates the initial MVP tasks",
   "repo_url": "https://github.com/databutton/databutton-mcp",
   "source_hub": "glama",
   "owner": "databutton",
   "stars": 27,
   "primary_language": "typescript",
   "tags": [
-    "data",
-    "prod-pm"
+    "integ",
+    "util"
   ],
   "verification_status": "pass",
   "overall_score": 98,

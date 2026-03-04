@@ -11,10 +11,10 @@
   "license": "MIT",
   "primary_language": "Markdown",
   "tags": [
+    "repo_unavailable",
+    "integ",
     "integ-social",
-    "prod",
-    "util-media",
-    "repo_unavailable"
+    "prod"
   ],
   "source_tags": [
     "productivity",
@@ -56,7 +56,7 @@
   "repo_check_error": "fatal: could not read Username for 'https://github.com': Device not configured",
   "pm_override": {
     "action": "fail_to_pass",
-    "reason": "PM batch override: 0 critical, 0 injection, 0 obfuscation. Fail caused by known scoring bug (max scanner penalty 40 + b_missed 15 = score \u226445 < 50 threshold). No security threat detected.",
+    "reason": "PM batch override: 0 critical, 0 injection, 0 obfuscation. Fail caused by known scoring bug (max scanner penalty 40 + b_missed 15 = score ≤45 < 50 threshold). No security threat detected.",
     "override_by": "PM batch review 20260303",
     "date": "2026-03-03"
   },

@@ -1,7 +1,7 @@
 {
   "id": "teckel-ethereum-toolkit-7759a1db",
   "name": "teckel-ethereum-toolkit",
-  "description": "This MCP server provides access to a subset of the teckel web3 Ethereum JSON-RPC services\u2014namely those that require read only access to the blockchain (Mainnet and Sepolia).\r\n\r\nThe main purpose of the ethereum toolkit is to give LLM/AI/Agents real-time access to Ethereum blockchain basic information. Once connected to an LLM via your MCP-client-of-choice, the LLM can use the suite of tools in the toolkit to provide answers to prompts such as:\r\n\r\n\u201cWhat is the current Ethereum price in USD on t...",
+  "description": "This MCP server provides access to a subset of the teckel web3 Ethereum JSON-RPC services—namely those that require read only access to the blockchain (Mainnet and Sepolia).\r\n\r\nThe main purpose of the ethereum toolkit is to give LLM/AI/Agents real-time access to Ethereum blockchain basic information. Once connected to an LLM via your MCP-client-of-choice, the LLM can use the suite of tools in the toolkit to provide answers to prompts such as:\r\n\r\n“What is the current Ethereum price in USD on t...",
   "repo_url": "https://github.com/teckel-mcp-servers/teckel-ethereum-toolkit",
   "source_hub": "mcp_so",
   "owner": "teckel-mcp-servers",
@@ -9,8 +9,9 @@
   "primary_language": "unknown",
   "tags": [
     "repo_unavailable",
+    "data",
     "data-ai",
-    "integ",
+    "sec",
     "sec-crypto",
     "util"
   ],

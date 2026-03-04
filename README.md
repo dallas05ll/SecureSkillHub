@@ -9,9 +9,9 @@ SecureSkillHub is a curated catalog of Claude Code skills and MCP servers with s
 | Metric | Count |
 |--------|-------|
 | Total skills | 11,098 |
-| MCP servers | 6,221 |
-| Agent skills | 4,877 |
-| Verified (full pipeline) | 3,618 |
+| MCP servers | 6,415 |
+| Agent skills | 4,683 |
+| Verified (full pipeline) | 3,906 |
 | Sources crawled | 6 |
 
 ### Key Features

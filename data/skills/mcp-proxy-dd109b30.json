@@ -1,7 +1,7 @@
 {
   "id": "mcp-proxy-dd109b30",
   "name": "mcp-proxy",
-  "description": "MCP-Proxy \u662f\u4e00\u4e2a MCP\uff08Model Context Protocol\uff09\u4ee3\u7406\u670d\u52a1\u5668\u548c\u5ba2\u6237\u7aef\u5de5\u5177\u96c6\u7684\u5b9e\u73b0\uff0c\u65e8\u5728\u7b80\u5316\u4e0e MCP \u670d\u52a1\u5668\u7684\u4ea4\u4e92\uff0c\u5e76\u63d0\u4f9b\u4e00\u79cd\u7edf\u4e00\u7684\u65b9\u5f0f\u6765\u8bbf\u95ee\u591a\u4e2a MCP \u670d\u52a1\u5668\u7684\u4ee3\u7406\u6f14\u793a\u9879\u76ee",
+  "description": "MCP-Proxy 是一个 MCP（Model Context Protocol）代理服务器和客户端工具集的实现，旨在简化与 MCP 服务器的交互，并提供一种统一的方式来访问多个 MCP 服务器的代理演示项目",
   "repo_url": "https://github.com/loocor/mcp-proxy",
   "source_hub": "mcp_so",
   "owner": "loocor",
@@ -9,8 +9,8 @@
   "primary_language": "unknown",
   "tags": [
     "repo_unavailable",
-    "data-ai",
-    "data-ai-nlp"
+    "integ",
+    "util"
   ],
   "verification_status": "unverified",
   "overall_score": 0,

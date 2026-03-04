@@ -1,7 +1,7 @@
 {
   "id": "claude-code-buddy-784a4679",
   "name": "claude-code-buddy",
-  "description": "MeMesh Plugin \u2014 productivity plugin for Claude Code providing memory, smart task analysis, and workflow automation.",
+  "description": "MeMesh Plugin — productivity plugin for Claude Code providing memory, smart task analysis, and workflow automation.",
   "repo_url": "https://github.com/PCIRCLE-AI/claude-code-buddy",
   "source_hub": "github_search",
   "skill_type": "agent_skill",
@@ -10,12 +10,8 @@
   "license": "mit",
   "primary_language": "TypeScript",
   "tags": [
-    "data-ai",
-    "dev",
-    "prod",
-    "prod-notes",
-    "prod-pm",
-    "repo_unavailable"
+    "repo_unavailable",
+    "prod"
   ],
   "verification_status": "unverified",
   "overall_score": null,

@@ -8,10 +8,13 @@
   "stars": 379,
   "primary_language": "shell",
   "tags": [
+    "data",
     "data-ai",
+    "dev",
+    "dev-devops",
     "dev-devops-docker",
-    "prod-docs",
-    "util"
+    "prod",
+    "prod-docs"
   ],
   "verification_status": "pass",
   "overall_score": 15,
@@ -105,7 +108,7 @@
   },
   "pm_override": {
     "action": "fail_to_pass",
-    "reason": "PM batch override: 0 critical, 0 injection, 0 obfuscation. Fail caused by known scoring bug (max scanner penalty 40 + b_missed 15 = score \u226445 < 50 threshold). No security threat detected.",
+    "reason": "PM batch override: 0 critical, 0 injection, 0 obfuscation. Fail caused by known scoring bug (max scanner penalty 40 + b_missed 15 = score ≤45 < 50 threshold). No security threat detected.",
     "override_by": "PM batch review 20260303",
     "date": "2026-03-03"
   },

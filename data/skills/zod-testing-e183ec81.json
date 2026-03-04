@@ -1,7 +1,7 @@
 {
   "id": "zod-testing-e183ec81",
   "name": "zod-testing",
-  "description": "AI agent skill for testing Zod schemas by Anivar Aravind \u2014 Jest/Vitest patterns, mock data, property-based testing.",
+  "description": "AI agent skill for testing Zod schemas by Anivar Aravind — Jest/Vitest patterns, mock data, property-based testing.",
   "repo_url": "https://github.com/anivar/zod-testing",
   "source_hub": "github_search",
   "skill_type": "agent_skill",
@@ -12,6 +12,7 @@
   "tags": [
     "data",
     "data-ai",
+    "dev",
     "dev-testing"
   ],
   "verification_status": "pass",

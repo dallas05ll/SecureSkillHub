@@ -1,7 +1,7 @@
 {
   "id": "undersheet-1794d393",
   "name": "undersheet",
-  "description": "Persistent thread memory for OpenClaw agents \u2014 Moltbook, HN, Reddit and more. Zero dependencies, pure Python.",
+  "description": "Persistent thread memory for OpenClaw agents — Moltbook, HN, Reddit and more. Zero dependencies, pure Python.",
   "repo_url": "https://github.com/ubgb/undersheet",
   "source_hub": "github_search",
   "skill_type": "agent_skill",
@@ -10,8 +10,10 @@
   "license": "mit",
   "primary_language": "markdown",
   "tags": [
-    "dev-web-backend-python",
-    "prod-notes"
+    "dev",
+    "dev-web",
+    "dev-web-backend",
+    "dev-web-backend-python"
   ],
   "verification_status": "pass",
   "overall_score": 55,

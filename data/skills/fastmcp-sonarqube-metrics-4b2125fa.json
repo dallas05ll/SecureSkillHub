@@ -1,15 +1,16 @@
 {
   "id": "fastmcp-sonarqube-metrics-4b2125fa",
   "name": "fastmcp-sonarqube-metrics",
-  "description": "Chat with your SonarQube data: explore metrics, compare trends, and track issues\u2014effortlessly.",
+  "description": "Chat with your SonarQube data: explore metrics, compare trends, and track issues—effortlessly.",
   "repo_url": "https://github.com/ArchAI-Labs/fastmcp-sonarqube-metrics",
   "source_hub": "mcp_so",
   "owner": "ArchAI-Labs",
   "stars": 12,
   "primary_language": "python",
   "tags": [
-    "data",
+    "prod",
     "prod-comm",
+    "util",
     "util-monitor"
   ],
   "verification_status": "pass",

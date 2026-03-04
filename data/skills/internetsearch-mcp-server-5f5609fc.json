@@ -1,13 +1,15 @@
 {
   "id": "internetsearch-mcp-server-5f5609fc",
   "name": "Internetsearch-mcp-server",
-  "description": "\u4e00\u4e2a\u7528\u4e8e\u8054\u7f51\u641c\u7d22\u7684MCP\u670d\u52a1\u5668",
+  "description": "一个用于联网搜索的MCP服务器",
   "repo_url": "https://github.com/mingdedi/Internetsearch-mcp-server",
   "source_hub": "mcp_so",
   "owner": "mingdedi",
   "stars": 0,
   "primary_language": "unknown",
   "tags": [
+    "integ",
+    "util",
     "util-search"
   ],
   "verification_status": "unverified",

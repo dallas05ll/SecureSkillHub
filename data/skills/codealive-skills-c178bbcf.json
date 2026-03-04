@@ -1,7 +1,7 @@
 {
   "id": "codealive-skills-c178bbcf",
   "name": "codealive-skills",
-  "description": "Agent skills for CodeAlive \u2014 semantic code search and AI-powered codebase answers. Works with Claude Code, Codex, Antigravity, Cursor, OpenCode, Copilot, Windsurf, Gemini CLI, and other SKILL.md-compatible agents.",
+  "description": "Agent skills for CodeAlive — semantic code search and AI-powered codebase answers. Works with Claude Code, Codex, Antigravity, Cursor, OpenCode, Copilot, Windsurf, Gemini CLI, and other SKILL.md-compatible agents.",
   "repo_url": "https://github.com/CodeAlive-AI/codealive-skills",
   "source_hub": "github_search",
   "skill_type": "agent_skill",
@@ -10,8 +10,9 @@
   "license": "mit",
   "primary_language": "markdown",
   "tags": [
+    "data",
     "data-ai",
-    "dev",
+    "util",
     "util-search"
   ],
   "verification_status": "pass",

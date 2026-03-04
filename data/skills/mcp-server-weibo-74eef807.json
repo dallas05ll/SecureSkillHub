@@ -1,15 +1,16 @@
 {
   "id": "mcp-server-weibo-74eef807",
   "name": "mcp-server-weibo",
-  "description": "Model Context Protocol\u670d\u52a1\u5668\uff0c\u7528\u4e8e\u6293\u53d6\u5fae\u535a\u7528\u6237\u4fe1\u606f\u3001\u52a8\u6001\u548c\u641c\u7d22\u529f\u80fd",
+  "description": "Model Context Protocol服务器，用于抓取微博用户信息、动态和搜索功能",
   "repo_url": "https://github.com/Selenium39/mcp-server-weibo",
   "source_hub": "mcp_so",
   "owner": "Selenium39",
   "stars": 30,
   "primary_language": "typescript",
   "tags": [
-    "data-ai",
-    "data-ai-nlp"
+    "integ",
+    "util",
+    "util-search"
   ],
   "verification_status": "pass",
   "overall_score": 94,

@@ -1,15 +1,16 @@
 {
   "id": "solon-223cc44c",
   "name": "solon",
-  "description": "\ud83d\udd25 Java enterprise application development framework for full scenario: Restrained, Efficient, Open, Ecologicalll!!! 700% higher concurrency 50% memory savings Startup is 10 times faster. Packing 90% smaller; Compatible with java8 ~ java24. (Replaceable spring)",
+  "description": "🔥 Java enterprise application development framework for full scenario: Restrained, Efficient, Open, Ecologicalll!!! 700% higher concurrency 50% memory savings Startup is 10 times faster. Packing 90% smaller; Compatible with java8 ~ java24. (Replaceable spring)",
   "repo_url": "https://github.com/opensolon/solon",
   "source_hub": "mcp_so",
   "owner": "opensolon",
   "stars": 2705,
   "primary_language": "java",
   "tags": [
-    "data-ai",
-    "prod-notes"
+    "dev",
+    "dev-web",
+    "dev-web-backend"
   ],
   "verification_status": "pass",
   "overall_score": 55,
@@ -97,7 +98,7 @@
   },
   "pm_override": {
     "action": "manual_review_to_pass",
-    "reason": "PM internet-verified: opensolon/solon is established Java framework (2,705\u2605). All findings from vendored jQuery in test resources \u2014 same markdown_injection FP class as XcodeBuildMCP.",
+    "reason": "PM internet-verified: opensolon/solon is established Java framework (2,705★). All findings from vendored jQuery in test resources — same markdown_injection FP class as XcodeBuildMCP.",
     "override_by": "PM internet verification 20260303",
     "date": "2026-03-03"
   },

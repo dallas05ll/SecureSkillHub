@@ -11,9 +11,6 @@
   "description": "Fair-code workflow automation platform with native AI capabilities, 400+ integrations, visual builder, self-hostable. Includes MCP client and server nodes.",
   "primary_language": "TypeScript",
   "tags": [
-    "data-ai",
-    "dev",
-    "integ",
     "prod"
   ],
   "findings_summary": {
@@ -39,7 +36,7 @@
   "verification_date": "2026-03-02T00:00:00Z",
   "verification_summary": {
     "pm_override": {
-      "reason": "PM override: 49 injection findings confirmed FP by SecM \u2014 n8n Guardrails node contains jailbreak DETECTION code, not attacks. 16 obfuscation findings are String.fromCharCode in spreadsheet encoding + i18n locale fixtures.",
+      "reason": "PM override: 49 injection findings confirmed FP by SecM — n8n Guardrails node contains jailbreak DETECTION code, not attacks. 16 obfuscation findings are String.fromCharCode in spreadsheet encoding + i18n locale fixtures.",
       "date": "2026-03-02",
       "authorized_by": "PM"
     }

@@ -8,8 +8,6 @@
   "stars": 20,
   "primary_language": "python",
   "tags": [
-    "data-ai",
-    "dev",
     "util"
   ],
   "verification_status": "pass",
@@ -108,7 +106,7 @@
   "pm_override": {
     "date": "2026-03-03T17:38:00Z",
     "previous_status": "fail",
-    "reason": "PM override: Vibe-check-mcp is an anti-pattern detection/security tool for AI coders. 1 injection finding across 302 files in a security-focused tool is consistent with test fixtures or defensive detection code (known FP pattern from Verification Run 2 \u2014 security testing libraries contain attack payloads as fixtures). 3 obfuscation across 302 files is negligible (0.01 per file). Tool purpose is security enforcement, not exploitation. Low real risk despite injection finding."
+    "reason": "PM override: Vibe-check-mcp is an anti-pattern detection/security tool for AI coders. 1 injection finding across 302 files in a security-focused tool is consistent with test fixtures or defensive detection code (known FP pattern from Verification Run 2 — security testing libraries contain attack payloads as fixtures). 3 obfuscation across 302 files is negligible (0.01 per file). Tool purpose is security enforcement, not exploitation. Low real risk despite injection finding."
   },
   "skill_type": "mcp_server"
 }

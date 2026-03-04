@@ -1,15 +1,16 @@
 {
   "id": "mcp-server-sql-19796e9c",
   "name": "mcp-server-sql",
-  "description": "\u8fd9\u662f\u4e00\u4e2a\u57fa\u4e8eSpring Boot\u7684SQL\u670d\u52a1\u5e94\u7528\uff0c\u7528\u4e8e\u6267\u884cSQL\u67e5\u8be2\u5e76\u5c06\u7ed3\u679c\u5199\u5165\u6587\u4ef6\u3002\u8be5\u670d\u52a1\u4f5c\u4e3aSpring AI MCP\uff08Model, Chat, Prompt\uff09\u6846\u67b6\u7684\u4e00\u90e8\u5206\uff0c\u63d0\u4f9b\u4e86SQL\u67e5\u8be2\u548c\u66f4\u65b0\u64cd\u4f5c\u7684\u529f\u80fd\u3002",
+  "description": "这是一个基于Spring Boot的SQL服务应用，用于执行SQL查询并将结果写入文件。该服务作为Spring AI MCP（Model, Chat, Prompt）框架的一部分，提供了SQL查询和更新操作的功能。",
   "repo_url": "https://github.com/cherry-SC/mcp-server-sql",
   "source_hub": "mcp_so",
   "owner": "cherry-SC",
   "stars": 2,
   "primary_language": "java",
   "tags": [
-    "data-ai",
+    "data",
     "data-db",
+    "prod",
     "prod-comm"
   ],
   "verification_status": "pass",

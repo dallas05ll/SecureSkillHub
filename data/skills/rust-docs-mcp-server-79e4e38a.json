@@ -1,21 +1,18 @@
 {
   "id": "rust-docs-mcp-server-79e4e38a",
   "name": "rust-docs-mcp-server",
-  "description": "\ud83e\udd80 Prevents outdated Rust code suggestions from AI assistants. This MCP server fetches current crate docs, uses embeddings/LLMs, and provides accurate context via a tool call.",
+  "description": "🦀 Prevents outdated Rust code suggestions from AI assistants. This MCP server fetches current crate docs, uses embeddings/LLMs, and provides accurate context via a tool call.",
   "repo_url": "https://github.com/Govcraft/rust-docs-mcp-server",
   "source_hub": "mcp_so",
   "owner": "Govcraft",
   "stars": 256,
   "primary_language": "rust",
   "tags": [
-    "data-ai",
-    "data-ai-nlp",
-    "data-db-vector",
     "dev",
+    "dev-web",
+    "dev-web-backend",
     "dev-web-backend-rust",
-    "prod-docs",
-    "util",
-    "util-search"
+    "util"
   ],
   "verification_status": "pass",
   "overall_score": 100,

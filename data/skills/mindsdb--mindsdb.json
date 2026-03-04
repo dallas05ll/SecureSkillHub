@@ -11,10 +11,8 @@
   "description": "Federated Query Engine for AI with a built-in MCP Server that connects databases, data warehouses, and SaaS apps for unified data access.",
   "primary_language": "Python",
   "tags": [
-    "data",
-    "data-ai",
-    "data-db",
-    "integ"
+    "integ",
+    "util"
   ],
   "findings_summary": {
     "scanner_findings": 1180,

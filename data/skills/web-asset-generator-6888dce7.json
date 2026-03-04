@@ -11,13 +11,15 @@
   "license": "MIT",
   "primary_language": "Python",
   "tags": [
-    "data-ai",
-    "data-ai-nlp",
-    "data-ai-vision",
     "dev",
+    "dev-web",
+    "dev-web-frontend",
     "dev-web-frontend-react",
+    "dev-web-fullstack",
     "dev-web-fullstack-nextjs",
+    "integ",
     "integ-social",
+    "util",
     "util-media"
   ],
   "source_tags": [
@@ -38,7 +40,7 @@
   "overall_score": 97,
   "risk_level": "low",
   "verified_commit": "c6d56dc54ab86eae4eeb1393d9c8cdc71ae8d1a8",
-  "scan_summary": "Python-based image generation skill using Pillow and optional pilmoji. MIT licensed. Scripts include generate_favicons.py, generate_og_images.py, check_dependencies.py, emoji_utils.py, and lib/validators.py. All scripts perform local file I/O only \u2014 no network calls or external API usage. Dependencies: Pillow (required), pilmoji and emoji<2.0.0 (optional for emoji support). .claude-plugin marketplace format used. SKILL.md and CLAUDE.md present.",
+  "scan_summary": "Python-based image generation skill using Pillow and optional pilmoji. MIT licensed. Scripts include generate_favicons.py, generate_og_images.py, check_dependencies.py, emoji_utils.py, and lib/validators.py. All scripts perform local file I/O only — no network calls or external API usage. Dependencies: Pillow (required), pilmoji and emoji<2.0.0 (optional for emoji support). .claude-plugin marketplace format used. SKILL.md and CLAUDE.md present.",
   "findings_summary": {
     "scanner_findings": 6,
     "dangerous_calls": 0,

@@ -10,9 +10,14 @@
   "primary_language": "python",
   "tags": [
     "agent-skills",
-    "security",
     "installs:25",
-    "status-pass"
+    "status-pass",
+    "integ",
+    "integrations-slack",
+    "prod",
+    "prod-comm",
+    "sec",
+    "sec-auth"
   ],
   "verification_status": "pass",
   "overall_score": 60,

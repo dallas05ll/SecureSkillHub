@@ -1,7 +1,7 @@
 {
   "id": "unhcr-data-portal-631908f0",
   "name": "unhcr-data-portal",
-  "description": "A custom-built MCP (Model Context Protocol) server designed to streamline data access from data.unhcr.org. This server efficiently pulls structured humanitarian data from UNHCR\u2019s public platform, enabling real-time integration with local systems, dashboards, and analytics pipelines. Hosted securely on mscp.so, it ensures reliable performance, optimized data throughput, and easy scalability for humanitarian applications.\n\nKey Features:\n\nAutomated data extraction from UNHCR's open datasets\n\nCus...",
+  "description": "A custom-built MCP (Model Context Protocol) server designed to streamline data access from data.unhcr.org. This server efficiently pulls structured humanitarian data from UNHCR’s public platform, enabling real-time integration with local systems, dashboards, and analytics pipelines. Hosted securely on mscp.so, it ensures reliable performance, optimized data throughput, and easy scalability for humanitarian applications.\n\nKey Features:\n\nAutomated data extraction from UNHCR's open datasets\n\nCus...",
   "repo_url": "https://github.com/Shahzad ASGHAR/unhcr-data-portal",
   "source_hub": "mcp_so",
   "owner": "Shahzad ASGHAR",
@@ -9,12 +9,9 @@
   "primary_language": "unknown",
   "tags": [
     "repo_unavailable",
-    "data",
-    "data-ai",
-    "data-ai-nlp",
-    "dev-devops-ci",
     "integ",
     "prod",
+    "util",
     "util-media"
   ],
   "verification_status": "unverified",

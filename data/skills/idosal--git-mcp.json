@@ -11,10 +11,8 @@
   "description": "Free, open-source remote MCP server that transforms any GitHub project into a documentation hub for AI tools.",
   "primary_language": "TypeScript",
   "tags": [
-    "data-ai",
-    "dev-git",
-    "prod-docs",
-    "util"
+    "prod",
+    "prod-docs"
   ],
   "findings_summary": {
     "scanner_findings": 58,

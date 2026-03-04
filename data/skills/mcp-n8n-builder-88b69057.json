@@ -1,17 +1,17 @@
 {
   "id": "mcp-n8n-builder-88b69057",
   "name": "mcp-n8n-builder",
-  "description": "\ud83e\ude84 MCP server for programmatic creation and management of n8n workflows. Enables AI assistants to build, modify, and manage workflows without direct user intervention through a comprehensive set of tools and resources for interacting with n8n's REST API.",
+  "description": "🪄 MCP server for programmatic creation and management of n8n workflows. Enables AI assistants to build, modify, and manage workflows without direct user intervention through a comprehensive set of tools and resources for interacting with n8n's REST API.",
   "repo_url": "https://github.com/spences10/mcp-n8n-builder",
   "source_hub": "mcp_so",
   "owner": "spences10",
   "stars": 82,
   "primary_language": "typescript",
   "tags": [
-    "data-ai",
-    "integ",
-    "prod",
-    "util"
+    "dev",
+    "dev-web",
+    "dev-web-backend",
+    "integ"
   ],
   "verification_status": "pass",
   "overall_score": 100,

@@ -11,6 +11,9 @@
   "description": "Open-source Terraform fork for declarative cloud infrastructure management, backed by CNCF.",
   "primary_language": "Go",
   "tags": [
+    "dev",
+    "dev-devops",
+    "integ",
     "integ-cloud"
   ],
   "findings_summary": {

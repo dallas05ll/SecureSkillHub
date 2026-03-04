@@ -1,15 +1,14 @@
 {
   "id": "mcp-code-search-server-b42d624d",
   "name": "mcp-code-search-server",
-  "description": "\u4e00\u4e2aMCP Server\uff0c\u5e2e\u52a9LLM\u67e5\u627e\u76f8\u5173\u4ee3\u7801\u5728\u6587\u4ef6\u4e2d\u7684\u4f4d\u7f6e\uff0c\u652f\u6301\u8fd4\u56de\u5b8c\u6574\u7684\u51fd\u6570\u5b9a\u4e49\u3002",
+  "description": "一个MCP Server，帮助LLM查找相关代码在文件中的位置，支持返回完整的函数定义。",
   "repo_url": "https://github.com/fx-an/mcp-code-search-server",
   "source_hub": "mcp_so",
   "owner": "fx-an",
   "stars": 0,
   "primary_language": "unknown",
   "tags": [
-    "data-ai",
-    "dev",
+    "util",
     "util-search"
   ],
   "verification_status": "unverified",

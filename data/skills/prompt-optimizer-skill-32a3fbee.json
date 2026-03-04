@@ -1,7 +1,7 @@
 {
   "id": "prompt-optimizer-skill-32a3fbee",
   "name": "prompt-optimizer-skill",
-  "description": "\u4e00\u4e2a\u57fa\u4e8e Project Context \u8fdb\u884c Prompt\u4f18\u5316 \u7684 Claude Code SKILL\uff0c\u5e76\u914d\u7f6e\u6709\u754c\u9762\u8fdb\u884c\u8fed\u4ee3\u4f18\u5316\uff1bAdvanced Claude Code skill for systematic prompt engineering. Optimizes prompts using project context, adversarial testing, and iterative evaluation. Built with Wails & Go.",
+  "description": "一个基于 Project Context 进行 Prompt优化 的 Claude Code SKILL，并配置有界面进行迭代优化；Advanced Claude Code skill for systematic prompt engineering. Optimizes prompts using project context, adversarial testing, and iterative evaluation. Built with Wails & Go.",
   "repo_url": "https://github.com/geq1fan/prompt-optimizer-skill",
   "source_hub": "github_search",
   "skill_type": "agent_skill",
@@ -10,8 +10,8 @@
   "license": "mit",
   "primary_language": "markdown",
   "tags": [
+    "data",
     "data-ai",
-    "data-ai-nlp",
     "dev",
     "dev-testing"
   ],

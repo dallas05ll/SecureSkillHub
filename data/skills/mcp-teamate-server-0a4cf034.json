@@ -1,15 +1,14 @@
 {
   "id": "mcp-teamate-server-0a4cf034",
   "name": "mcp-teamate-server",
-  "description": "Teamate MCP \u670d\u52a1\u5668\u7aef",
+  "description": "Teamate MCP 服务器端",
   "repo_url": "https://github.com/aokihu/mcp-teamate-server",
   "source_hub": "mcp_so",
   "owner": "aokihu",
   "stars": 1,
   "primary_language": "typescript",
   "tags": [
-    "integ",
-    "util"
+    "integ"
   ],
   "verification_status": "pass",
   "overall_score": 90,

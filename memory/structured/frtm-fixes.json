@@ -1,0 +1,18 @@
+{
+  "schema_version": "1.0",
+  "role": "frontend_manager",
+  "entries": [
+    {
+      "id": "frtm-f-001",
+      "title": "3-tier verification badges",
+      "category": "ui",
+      "description": "full_pipeline (green shield), scanner_only (blue scanner), metadata_only (gray info). CSS classes: .badge-verified, .badge-scanned, .badge-metadata."
+    },
+    {
+      "id": "frtm-f-002",
+      "title": "Status toggle filters",
+      "category": "ui",
+      "description": "Frontend filters by verification status. Toggle buttons for pass/fail/manual_review/unverified."
+    }
+  ]
+}

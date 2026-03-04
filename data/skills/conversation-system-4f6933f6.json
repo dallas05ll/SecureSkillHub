@@ -1,15 +1,13 @@
 {
   "id": "conversation-system-4f6933f6",
   "name": "conversation-system",
-  "description": "\ud83e\udde0 Automated AI conversation recording and knowledge management system with MCP integration for Claude Desktop, VSCode, and Cursor",
+  "description": "🧠 Automated AI conversation recording and knowledge management system with MCP integration for Claude Desktop, VSCode, and Cursor",
   "repo_url": "https://github.com/okamyuji/conversation-system",
   "source_hub": "mcp_so",
   "owner": "okamyuji",
   "stars": 2,
   "primary_language": "shell",
   "tags": [
-    "data-ai",
-    "dev",
     "integ",
     "prod"
   ],

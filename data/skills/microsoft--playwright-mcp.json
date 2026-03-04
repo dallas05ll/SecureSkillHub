@@ -11,12 +11,10 @@
   "description": "MCP server providing browser automation via Playwright accessibility snapshots, enabling LLMs to interact with web pages without screenshots.",
   "primary_language": "TypeScript",
   "tags": [
-    "data-ai",
-    "data-ai-vision",
+    "dev",
     "dev-testing",
     "dev-web",
-    "prod",
-    "util-search"
+    "prod"
   ],
   "findings_summary": {
     "scanner_findings": 47,

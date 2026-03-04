@@ -1,7 +1,7 @@
 {
   "id": "open-meteo-mcp-server-5e4483ac",
   "name": "open-meteo-mcp-server",
-  "description": "Open-Meteo MCP Server - A comprehensive Model Context Protocol server that provides AI models with complete access to Open-Meteo's free weather API. Get real-time weather forecasts, historical climate data, air quality information, marine conditions, and seasonal projections through a simple MCP interface.\nSupports all major weather models (ECMWF, GFS, ICON, JMA, M\u00e9t\u00e9o-France) with data covering temperature, precipitation, wind, humidity, UV index, and specialized datasets for research and pr...",
+  "description": "Open-Meteo MCP Server - A comprehensive Model Context Protocol server that provides AI models with complete access to Open-Meteo's free weather API. Get real-time weather forecasts, historical climate data, air quality information, marine conditions, and seasonal projections through a simple MCP interface.\nSupports all major weather models (ECMWF, GFS, ICON, JMA, Météo-France) with data covering temperature, precipitation, wind, humidity, UV index, and specialized datasets for research and pr...",
   "repo_url": "https://github.com/cmer81/open-meteo-mcp-server",
   "source_hub": "mcp_so",
   "owner": "cmer81",
@@ -9,10 +9,8 @@
   "primary_language": "unknown",
   "tags": [
     "repo_unavailable",
-    "data",
-    "data-ai",
-    "data-ai-nlp",
     "integ",
+    "util",
     "util-search"
   ],
   "verification_status": "unverified",

@@ -12,10 +12,10 @@
   "primary_language": "Python",
   "tags": [
     "repo_unavailable",
+    "data",
     "data-ai",
-    "data-ai-nlp",
+    "prod",
     "prod-docs",
-    "sec-auth",
     "util"
   ],
   "source_tags": [
@@ -39,7 +39,7 @@
     "has_security_policy": false,
     "has_mcp_server": false,
     "dangerous_patterns": [],
-    "notes": "Official Anthropic skill from anthropics/skills repository. Source-available (not open source) \u2014 production document skill powering Claude's PDF file capabilities. Verified at skills/pdf/ in the repo tree."
+    "notes": "Official Anthropic skill from anthropics/skills repository. Source-available (not open source) — production document skill powering Claude's PDF file capabilities. Verified at skills/pdf/ in the repo tree."
   },
   "parent_repo_stars": 75705,
   "is_monorepo_child": true,

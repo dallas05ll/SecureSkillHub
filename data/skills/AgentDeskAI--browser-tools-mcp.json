@@ -11,12 +11,10 @@
   "description": "MCP server + Chrome extension for browser monitoring: console logs, network traffic, screenshots, and Lighthouse audits.",
   "primary_language": "JavaScript",
   "tags": [
-    "data-ai-vision",
+    "dev",
     "dev-web",
-    "sec-scan",
     "util",
-    "util-monitor",
-    "util-search"
+    "util-monitor"
   ],
   "findings_summary": {
     "scanner_findings": 52,

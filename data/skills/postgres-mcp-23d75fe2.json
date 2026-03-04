@@ -8,7 +8,7 @@
   "stars": 2188,
   "primary_language": "python",
   "tags": [
-    "data-ai",
+    "data",
     "data-db"
   ],
   "verification_status": "pass",
@@ -92,7 +92,7 @@
   "pm_review": {
     "decision": "pass",
     "previous_status": "manual_review",
-    "reason": "Score 91. Only 10 findings (0 critical, 2 high, 3 medium, 5 low). Database MCP \u2014 file/env access expected for Postgres operations. No obfuscation, no injection. Active repo by crystaldba org. Clear pass.",
+    "reason": "Score 91. Only 10 findings (0 critical, 2 high, 3 medium, 5 low). Database MCP — file/env access expected for Postgres operations. No obfuscation, no injection. Active repo by crystaldba org. Clear pass.",
     "reviewer": "pm_dual_agent",
     "reviewed_at": "2026-03-01T07:38:01.397802Z"
   },

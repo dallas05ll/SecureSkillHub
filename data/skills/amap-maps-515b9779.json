@@ -1,7 +1,7 @@
 {
   "id": "amap-maps-515b9779",
   "name": "amap-maps",
-  "description": "\u9ad8\u5fb7\u5730\u56fe\u5b98\u65b9 MCP Server",
+  "description": "高德地图官方 MCP Server",
   "repo_url": "https://github.com/amap/amap-maps",
   "source_hub": "mcp_so",
   "owner": "amap",
@@ -9,6 +9,7 @@
   "primary_language": "unknown",
   "tags": [
     "repo_unavailable",
+    "util",
     "util-map"
   ],
   "verification_status": "unverified",

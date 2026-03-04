@@ -10,8 +10,6 @@
   "license": "other",
   "primary_language": "markdown",
   "tags": [
-    "data-ai",
-    "dev",
     "prod"
   ],
   "verification_status": "pass",
@@ -107,6 +105,6 @@
   "pm_override": {
     "date": "2026-03-03T17:56:00Z",
     "previous_status": "fail",
-    "reason": "PM override: 1 inj + 3 obf across 403 files \u2014 large codebase vendored deps pattern."
+    "reason": "PM override: 1 inj + 3 obf across 403 files — large codebase vendored deps pattern."
   }
 }

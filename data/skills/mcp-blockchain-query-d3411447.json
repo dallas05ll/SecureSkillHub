@@ -1,17 +1,15 @@
 {
   "id": "mcp-blockchain-query-d3411447",
   "name": "mcp-blockchain-query",
-  "description": "\ud83e\udd16 MCP server for querying BTC data via Blockchain.com APIs",
+  "description": "🤖 MCP server for querying BTC data via Blockchain.com APIs",
   "repo_url": "https://github.com/pavel-bc/mcp-blockchain-query",
   "source_hub": "mcp_so",
   "owner": "pavel-bc",
   "stars": 1,
   "primary_language": "python",
   "tags": [
-    "data",
-    "data-ai",
-    "integ",
-    "data-finance"
+    "sec",
+    "sec-crypto"
   ],
   "verification_status": "pass",
   "overall_score": 99,

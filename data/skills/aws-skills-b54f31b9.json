@@ -11,8 +11,11 @@
   "license": "MIT",
   "primary_language": "Shell",
   "tags": [
+    "data",
     "data-ai",
     "dev",
+    "dev-devops",
+    "integ",
     "integ-cloud",
     "integ-cloud-aws"
   ],
@@ -30,7 +33,7 @@
   "overall_score": 15,
   "risk_level": "medium",
   "verified_commit": "e48bf4c63b6a2a39dac29c03546a3df97b384d0f",
-  "scan_summary": "Well-structured AWS skills marketplace with 5 plugins covering CDK, cost optimization, serverless, and Bedrock AgentCore. MIT licensed. Skill files are Markdown-only with reference docs. MCP server integrations are listed in marketplace.json config but not bundled. No executable scripts in skill directories \u2014 only SKILL.md and references/ folders. Symlink-based local dev setup. Shell plugin in repo is minimal.",
+  "scan_summary": "Well-structured AWS skills marketplace with 5 plugins covering CDK, cost optimization, serverless, and Bedrock AgentCore. MIT licensed. Skill files are Markdown-only with reference docs. MCP server integrations are listed in marketplace.json config but not bundled. No executable scripts in skill directories — only SKILL.md and references/ folders. Symlink-based local dev setup. Shell plugin in repo is minimal.",
   "findings_summary": {
     "scanner_findings": 42,
     "dangerous_calls": 3,

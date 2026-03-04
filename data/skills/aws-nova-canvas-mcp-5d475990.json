@@ -1,15 +1,14 @@
 {
   "id": "aws-nova-canvas-mcp-5d475990",
   "name": "aws-nova-canvas-mcp",
-  "description": "MCP server for generating and editing images using AWS Bedrock\u2019s Nova Canvas model",
+  "description": "MCP server for generating and editing images using AWS Bedrock’s Nova Canvas model",
   "repo_url": "https://github.com/yunwoong7/aws-nova-canvas-mcp",
   "source_hub": "mcp_so",
   "owner": "yunwoong7",
   "stars": 4,
   "primary_language": "python",
   "tags": [
-    "data-ai",
-    "data-ai-vision",
+    "integ",
     "integ-cloud",
     "integ-cloud-aws"
   ],

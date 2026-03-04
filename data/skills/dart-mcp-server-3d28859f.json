@@ -1,14 +1,15 @@
 {
   "id": "dart-mcp-server-3d28859f",
   "name": "DART-mcp-server",
-  "description": "\ud55c\uad6d\uc758 \uc804\uc790\uacf5\uc2dc\uc2dc\uc2a4\ud15c API\ub97c \ud65c\uc6a9\ud558\ub294 mcp \uc11c\ubc84",
+  "description": "한국의 전자공시시스템 API를 활용하는 mcp 서버",
   "repo_url": "https://github.com/snaiws/DART-mcp-server",
   "source_hub": "mcp_so",
   "owner": "snaiws",
   "stars": 7,
   "primary_language": "python",
   "tags": [
-    "integ"
+    "integ",
+    "util"
   ],
   "verification_status": "pass",
   "overall_score": 60,

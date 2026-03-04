@@ -1,15 +1,15 @@
 {
   "id": "docs-68bdfaac",
   "name": "docs",
-  "description": "\ud83d\udd10 Plug-and-play auth for MCP servers.",
+  "description": "🔐 Plug-and-play auth for MCP servers.",
   "repo_url": "https://github.com/mcp-auth/docs",
   "source_hub": "mcp_so",
   "owner": "mcp-auth",
   "stars": 4,
   "primary_language": "unknown",
   "tags": [
-    "prod-docs",
-    "sec"
+    "integ",
+    "util"
   ],
   "verification_status": "pass",
   "overall_score": 88,

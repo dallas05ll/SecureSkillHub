@@ -1,13 +1,14 @@
 {
   "id": "craftgate-mcp-server-b00a5543",
   "name": "craftgate_mcp_server",
-  "description": "Bu MCP sunucu projesinde, Craftgate\u2019in \u00f6deme listeleme arac\u0131 entegre edilmi\u015ftir. Bu ara\u00e7 sayesinde \u00f6demeler sorgulanabilir ve \u00f6demeler hakk\u0131nda LLM (Large Language Model) deste\u011fiyle analiz yap\u0131labilir.",
+  "description": "Bu MCP sunucu projesinde, Craftgate’in ödeme listeleme aracı entegre edilmiştir. Bu araç sayesinde ödemeler sorgulanabilir ve ödemeler hakkında LLM (Large Language Model) desteğiyle analiz yapılabilir.",
   "repo_url": "https://github.com/semihshn/craftgate_mcp_server",
   "source_hub": "mcp_so",
   "owner": "semihshn",
   "stars": 1,
   "primary_language": "java",
   "tags": [
+    "data",
     "data-ai"
   ],
   "verification_status": "pass",

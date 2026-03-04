@@ -1,15 +1,13 @@
 {
   "id": "db-timetable-mcp-f8b275c4",
   "name": "db-timetable-mcp",
-  "description": "Ein Model Context Protocol (MCP) Server f\u00fcr die Deutsche Bahn Timetable API",
+  "description": "Ein Model Context Protocol (MCP) Server für die Deutsche Bahn Timetable API",
   "repo_url": "https://github.com/jorekai/db-timetable-mcp",
   "source_hub": "mcp_so",
   "owner": "jorekai",
   "stars": 13,
   "primary_language": "typescript",
   "tags": [
-    "data-ai",
-    "data-ai-nlp",
     "integ"
   ],
   "verification_status": "pass",

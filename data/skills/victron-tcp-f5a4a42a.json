@@ -1,19 +1,15 @@
 {
   "id": "victron-tcp-f5a4a42a",
   "name": "victron-tcp",
-  "description": "An MCP (Model Context Protocol) server that connects to Victron Energy GX devices via Modbus TCP or MQTT on your local network. Get direct, low-latency access to real-time solar, battery, grid, and inverter data \u2014 no cloud required.\r\n\r\nBuilt from the official CCGX Modbus TCP register list (Rev 50, 900+ registers across 33 device categories).\r\n\r\nFeatures\r\n30 specialized tools for reading Victron device data\r\nDual transport \u2014 Modbus TCP (port 502) or MQTT (port 1883)\r\n900+ registers across 33 d...",
+  "description": "An MCP (Model Context Protocol) server that connects to Victron Energy GX devices via Modbus TCP or MQTT on your local network. Get direct, low-latency access to real-time solar, battery, grid, and inverter data — no cloud required.\r\n\r\nBuilt from the official CCGX Modbus TCP register list (Rev 50, 900+ registers across 33 device categories).\r\n\r\nFeatures\r\n30 specialized tools for reading Victron device data\r\nDual transport — Modbus TCP (port 502) or MQTT (port 1883)\r\n900+ registers across 33 d...",
   "repo_url": "https://github.com/lubosstrejcek/victron-tcp",
   "source_hub": "mcp_so",
   "owner": "lubosstrejcek",
   "stars": 0,
   "primary_language": "unknown",
   "tags": [
-    "data",
-    "data-ai",
-    "data-ai-nlp",
     "integ",
-    "integ-cloud",
-    "util"
+    "integ-cloud"
   ],
   "verification_status": "unverified",
   "overall_score": 85,

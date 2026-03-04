@@ -1,7 +1,7 @@
 {
   "id": "squad-ai-93d5804d",
   "name": "squad-ai",
-  "description": "A Model Context Protocol (MCP) server that connects Squad, the AI\u2011powered product\u2011discovery and strategy platform to any MCP\u2011aware large\u2011language\u2011model (LLM) application. It exposes a rich tool\u2011kit for creating, querying and updating product\u2011strategy artefacts (opportunities, solutions, outcomes, requirements, knowledge, workspaces and feedback) directly from your favourite AI product co\u2011pilot.",
+  "description": "A Model Context Protocol (MCP) server that connects Squad, the AI‑powered product‑discovery and strategy platform to any MCP‑aware large‑language‑model (LLM) application. It exposes a rich tool‑kit for creating, querying and updating product‑strategy artefacts (opportunities, solutions, outcomes, requirements, knowledge, workspaces and feedback) directly from your favourite AI product co‑pilot.",
   "repo_url": "https://github.com/Squad AI/squad-ai",
   "source_hub": "mcp_so",
   "owner": "Squad AI",
@@ -9,9 +9,8 @@
   "primary_language": "unknown",
   "tags": [
     "repo_unavailable",
+    "data",
     "data-ai",
-    "data-ai-nlp",
-    "integ",
     "util"
   ],
   "verification_status": "unverified",

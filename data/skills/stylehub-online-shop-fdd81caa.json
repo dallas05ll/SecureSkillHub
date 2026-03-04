@@ -8,12 +8,15 @@
   "stars": 0,
   "primary_language": "unknown",
   "tags": [
+    "dev",
+    "dev-devops",
     "dev-devops-ci",
     "dev-devops-docker",
     "dev-devops-k8s",
     "dev-web",
-    "integ-cloud-aws",
-    "util"
+    "integ",
+    "integ-cloud",
+    "integ-cloud-aws"
   ],
   "verification_status": "unverified",
   "overall_score": 85,

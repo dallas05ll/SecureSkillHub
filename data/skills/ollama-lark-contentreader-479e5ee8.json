@@ -1,15 +1,15 @@
 {
   "id": "ollama-lark-contentreader-479e5ee8",
   "name": "ollama-lark-contentreader",
-  "description": "\u8bfb\u53d6\u98de\u4e66/Lark\u6587\u6863 mcp server",
+  "description": "读取飞书/Lark文档 mcp server",
   "repo_url": "https://github.com/baizhi958216/ollama-lark-contentreader",
   "source_hub": "mcp_so",
   "owner": "baizhi958216",
   "stars": 2,
   "primary_language": "typescript",
   "tags": [
-    "integ",
-    "util"
+    "prod",
+    "prod-docs"
   ],
   "verification_status": "pass",
   "overall_score": 95,

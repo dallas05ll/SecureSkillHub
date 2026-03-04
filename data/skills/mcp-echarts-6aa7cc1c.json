@@ -1,7 +1,7 @@
 {
   "id": "mcp-echarts-6aa7cc1c",
   "name": "mcp-echarts",
-  "description": "Generate  Apache ECharts diagram and chart with AI MCP dynamically. Using for chart generation and data analysis.\n\n\u2728 Features\n\n- Fully support all features and syntax of ECharts, include data, style, theme and so on.\n- Support exporting to png, svg, and option formats, with validation for ECharts to facilitate the model's multi-round output of correct syntax and graphics.\n- Lightweight, we can install it with zero dependence.\n- Extremely secure, fully generated locally, without relying on any...",
+  "description": "Generate  Apache ECharts diagram and chart with AI MCP dynamically. Using for chart generation and data analysis.\n\n✨ Features\n\n- Fully support all features and syntax of ECharts, include data, style, theme and so on.\n- Support exporting to png, svg, and option formats, with validation for ECharts to facilitate the model's multi-round output of correct syntax and graphics.\n- Lightweight, we can install it with zero dependence.\n- Extremely secure, fully generated locally, without relying on any...",
   "repo_url": "https://github.com/hustcc/mcp-echarts",
   "source_hub": "mcp_so",
   "owner": "hustcc",
@@ -9,7 +9,6 @@
   "primary_language": "typescript",
   "tags": [
     "data",
-    "data-ai",
     "data-analysis"
   ],
   "verification_status": "pass",

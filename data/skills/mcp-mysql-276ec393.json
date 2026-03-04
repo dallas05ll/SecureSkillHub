@@ -1,13 +1,14 @@
 {
   "id": "mcp-mysql-276ec393",
   "name": "mcp-mysql",
-  "description": "MCP Server para conexi\u00f3n MySQL con t\u00fanel SSH",
+  "description": "MCP Server para conexión MySQL con túnel SSH",
   "repo_url": "https://github.com/Carlosfpc/mcp-mysql",
   "source_hub": "mcp_so",
   "owner": "Carlosfpc",
   "stars": 1,
   "primary_language": "unknown",
   "tags": [
+    "data",
     "data-db"
   ],
   "verification_status": "pass",

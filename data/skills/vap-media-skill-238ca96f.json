@@ -1,7 +1,7 @@
 {
   "id": "vap-media-skill-238ca96f",
   "name": "vap-media-skill",
-  "description": "\ud83c\udfa8 Generate AI-powered images, videos, and music effortlessly with VAP Media Skill for Claude Code and Codex CLI. Enjoy free daily access or full features.",
+  "description": "🎨 Generate AI-powered images, videos, and music effortlessly with VAP Media Skill for Claude Code and Codex CLI. Enjoy free daily access or full features.",
   "repo_url": "https://github.com/RenSeiji27/vap-media-skill",
   "source_hub": "github_search",
   "skill_type": "agent_skill",
@@ -10,10 +10,10 @@
   "license": "mit",
   "primary_language": "markdown",
   "tags": [
+    "data",
     "data-ai",
     "data-ai-audio",
-    "data-ai-vision",
-    "dev",
+    "util",
     "util-media"
   ],
   "verification_status": "pass",

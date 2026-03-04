@@ -1,13 +1,16 @@
 {
   "id": "typescript-analyzer-mcp-b5a2fda7",
   "name": "typescript-analyzer-mcp",
-  "description": "Analyze and fix any types in TypeScript with an intelligent MCP server \u2013 fast, extensible, and React-aware.",
+  "description": "Analyze and fix any types in TypeScript with an intelligent MCP server – fast, extensible, and React-aware.",
   "repo_url": "https://github.com/davidleathers113/typescript-analyzer-mcp",
   "source_hub": "mcp_so",
   "owner": "davidleathers113",
   "stars": 2,
   "primary_language": "unknown",
   "tags": [
+    "dev",
+    "dev-web",
+    "dev-web-frontend",
     "dev-web-frontend-react"
   ],
   "verification_status": "pass",

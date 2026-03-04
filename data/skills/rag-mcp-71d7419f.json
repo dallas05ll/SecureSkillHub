@@ -1,7 +1,7 @@
 {
   "id": "rag-mcp-71d7419f",
   "name": "RAG_MCP",
-  "description": "A RAG-ready MCP server for semantic PDF search with OCR, FAISS, and transformers\u2014plug into any MCP client and retrieve intelligent answers within your MCP client.",
+  "description": "A RAG-ready MCP server for semantic PDF search with OCR, FAISS, and transformers—plug into any MCP client and retrieve intelligent answers within your MCP client.",
   "repo_url": "https://github.com/mytechnotalent/RAG_MCP",
   "source_hub": "mcp_so",
   "owner": "mytechnotalent",
@@ -9,8 +9,11 @@
   "primary_language": "unknown",
   "tags": [
     "repo_unavailable",
+    "data",
     "data-ai",
+    "data-ai-rag",
     "data-ai-vision",
+    "util",
     "util-search"
   ],
   "verification_status": "unverified",

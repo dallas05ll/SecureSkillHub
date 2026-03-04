@@ -1,14 +1,15 @@
 {
   "id": "java-mcp-server-487f52b9",
   "name": "java-mcp-server",
-  "description": "\u4e00\u4e2a\u57fa\u4e8e\u5b98\u7f51MCP-JAVA-SDK\u5f00\u53d1\u7684\u4e00\u4e2aDEMO\u6848\u4f8b",
+  "description": "一个基于官网MCP-JAVA-SDK开发的一个DEMO案例",
   "repo_url": "https://github.com/kobeyk/java-mcp-server",
   "source_hub": "mcp_so",
   "owner": "kobeyk",
   "stars": 2,
   "primary_language": "unknown",
   "tags": [
-    "dev"
+    "integ",
+    "util"
   ],
   "verification_status": "pass",
   "overall_score": 100,

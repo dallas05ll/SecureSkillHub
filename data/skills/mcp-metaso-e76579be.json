@@ -1,14 +1,16 @@
 {
   "id": "mcp-metaso-e76579be",
   "name": "mcp-metaso",
-  "description": "\u79d8\u5854\u641c\u7d22api\u7684\u975e\u5b98\u65b9mcp\u5c01\u88c5",
+  "description": "秘塔搜索api的非官方mcp封装",
   "repo_url": "https://github.com/HundunOnline/mcp-metaso",
   "source_hub": "mcp_so",
   "owner": "HundunOnline",
   "stars": 13,
   "primary_language": "python",
   "tags": [
-    "integ"
+    "integ",
+    "util",
+    "util-search"
   ],
   "verification_status": "pass",
   "overall_score": 92,

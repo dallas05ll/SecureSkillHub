@@ -1,16 +1,17 @@
 {
   "id": "mcp-use-44047f88",
   "name": "mcp-use",
-  "description": "\ud83d\ude80 mcp-use is a TypeScript library that makes it easy to connect LangChain.js-compatible LLMs with MCP servers. Build powerful, flexible AI agents with dynamic tool access and multi-server support.",
+  "description": "🚀 mcp-use is a TypeScript library that makes it easy to connect LangChain.js-compatible LLMs with MCP servers. Build powerful, flexible AI agents with dynamic tool access and multi-server support.",
   "repo_url": "https://github.com/zandko/mcp-use",
   "source_hub": "mcp_so",
   "owner": "zandko",
   "stars": 169,
   "primary_language": "typescript",
   "tags": [
+    "data",
     "data-ai",
+    "dev",
     "dev-agents",
-    "integ",
     "util"
   ],
   "verification_status": "pass",

@@ -11,12 +11,10 @@
   "license": "MIT",
   "primary_language": "Python",
   "tags": [
-    "data-ai",
     "dev",
     "dev-testing",
     "integ",
-    "prod",
-    "util-file"
+    "prod"
   ],
   "source_tags": [
     "security",
@@ -35,7 +33,7 @@
   "overall_score": 76,
   "risk_level": "medium",
   "verified_commit": "50fd4af4d8bd60cfc48fd84eda1720fbd718857d",
-  "scan_summary": "Security-focused skill that wraps the ffuf web fuzzer tool. Contains SKILL.md with expert ffuf guidance, ffuf_helper.py for result analysis, and wordlist resources. Python helper only reads local JSON files \u2014 no network calls in the script itself. Requires ffuf binary installed externally. MIT licensed. README includes ethics/safety warnings. No LICENSE file in repo (MIT referenced in README only).",
+  "scan_summary": "Security-focused skill that wraps the ffuf web fuzzer tool. Contains SKILL.md with expert ffuf guidance, ffuf_helper.py for result analysis, and wordlist resources. Python helper only reads local JSON files — no network calls in the script itself. Requires ffuf binary installed externally. MIT licensed. README includes ethics/safety warnings. No LICENSE file in repo (MIT referenced in README only).",
   "findings_summary": {
     "scanner_findings": 7,
     "dangerous_calls": 1,

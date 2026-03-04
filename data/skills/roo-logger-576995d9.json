@@ -1,14 +1,15 @@
 {
   "id": "roo-logger-576995d9",
   "name": "roo-logger",
-  "description": "Roo Code/Cline\u306b\u30a2\u30af\u30c6\u30a3\u30d3\u30c6\u30a3\u3092\u8a18\u9332\u3055\u305b\u308bmcp-server",
+  "description": "Roo Code/Clineにアクティビティを記録させるmcp-server",
   "repo_url": "https://github.com/annenpolka/roo-logger",
   "source_hub": "mcp_so",
   "owner": "annenpolka",
   "stars": 24,
   "primary_language": "typescript",
   "tags": [
-    "dev"
+    "integ",
+    "util"
   ],
   "verification_status": "pass",
   "overall_score": 86,

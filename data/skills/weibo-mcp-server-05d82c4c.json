@@ -1,7 +1,7 @@
 {
   "id": "weibo-mcp-server-05d82c4c",
   "name": "weibo-mcp-server",
-  "description": "\u4e00\u4e2a\u83b7\u53d6\u524dN\u5fae\u535a\u70ed\u641c\u7684MCP\u670d\u52a1\uff0c\u652f\u6301stdio\u548csse\u6a21\u5f0f\u8c03\u7528\u3002",
+  "description": "一个获取前N微博热搜的MCP服务，支持stdio和sse模式调用。",
   "repo_url": "https://github.com/bossdong955/weibo-mcp-server",
   "source_hub": "mcp_so",
   "owner": "bossdong955",
@@ -9,8 +9,7 @@
   "primary_language": "unknown",
   "tags": [
     "repo_unavailable",
-    "integ",
-    "util"
+    "integ"
   ],
   "verification_status": "unverified",
   "overall_score": 0,

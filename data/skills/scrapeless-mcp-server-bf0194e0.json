@@ -1,7 +1,7 @@
 {
   "id": "scrapeless-mcp-server-bf0194e0",
   "name": "scrapeless-mcp-server",
-  "description": "Scrapeless MCP Server lets LLMs and AI tools like ChatGPT and Cursor access real-time web data via Google services, browser automation, and scraping\u2014no blocks, just seamless context.",
+  "description": "Scrapeless MCP Server lets LLMs and AI tools like ChatGPT and Cursor access real-time web data via Google services, browser automation, and scraping—no blocks, just seamless context.",
   "repo_url": "https://github.com/ScrapelessAI/scrapeless-mcp-server",
   "source_hub": "mcp_so",
   "owner": "ScrapelessAI",
@@ -9,13 +9,9 @@
   "primary_language": "unknown",
   "tags": [
     "repo_unavailable",
-    "data",
-    "data-ai",
-    "data-ai-nlp",
+    "dev",
     "dev-web",
-    "integ",
     "prod",
-    "prod-comm",
     "util",
     "util-search"
   ],

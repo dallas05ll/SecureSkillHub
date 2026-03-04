@@ -8,6 +8,9 @@
   "stars": 5100,
   "primary_language": "typescript",
   "tags": [
+    "dev",
+    "dev-web",
+    "dev-web-frontend",
     "dev-web-frontend-react"
   ],
   "verification_status": "pass",
@@ -102,7 +105,7 @@
   },
   "pm_override": {
     "action": "manual_review_to_pass",
-    "reason": "PM internet-verified: millionco/react-doctor (5,100\u2605) is React code analysis tool used across Cursor, Claude Code, Gemini CLI. Obfuscation FP from security pattern definitions in linting rules.",
+    "reason": "PM internet-verified: millionco/react-doctor (5,100★) is React code analysis tool used across Cursor, Claude Code, Gemini CLI. Obfuscation FP from security pattern definitions in linting rules.",
     "override_by": "PM internet verification 20260303",
     "date": "2026-03-03"
   },

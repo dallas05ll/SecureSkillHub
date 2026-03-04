@@ -10,9 +10,12 @@
   "primary_language": "shell",
   "tags": [
     "agent-skills",
-    "dev-devops",
     "installs:40",
-    "status-pass"
+    "status-pass",
+    "dev",
+    "dev-devops",
+    "dev-devops-ci",
+    "prod"
   ],
   "verification_status": "pass",
   "overall_score": 70,

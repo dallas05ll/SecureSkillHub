@@ -1,16 +1,18 @@
 {
   "id": "golf-fb000db4",
   "name": "golf",
-  "description": "Production-Ready MCP Server Framework \u2022 Build, deploy & scale secure AI agent infrastructure \u2022 Includes Auth, Observability, Debugger, Telemetry & Runtime \u2022 Run real-world MCPs powering AI Agents",
+  "description": "Production-Ready MCP Server Framework • Build, deploy & scale secure AI agent infrastructure • Includes Auth, Observability, Debugger, Telemetry & Runtime • Run real-world MCPs powering AI Agents",
   "repo_url": "https://github.com/golf-mcp/golf",
   "source_hub": "mcp_so",
   "owner": "golf-mcp",
   "stars": 811,
   "primary_language": "python",
   "tags": [
+    "data",
     "data-ai",
     "dev",
-    "sec",
+    "dev-devops",
+    "util",
     "util-monitor"
   ],
   "verification_status": "pass",
@@ -107,7 +109,7 @@
   },
   "pm_override": {
     "action": "fail_to_pass",
-    "reason": "PM batch override: 0 critical, 0 injection, 0 obfuscation. Fail caused by known scoring bug (max scanner penalty 40 + b_missed 15 = score \u226445 < 50 threshold). No security threat detected.",
+    "reason": "PM batch override: 0 critical, 0 injection, 0 obfuscation. Fail caused by known scoring bug (max scanner penalty 40 + b_missed 15 = score ≤45 < 50 threshold). No security threat detected.",
     "override_by": "PM batch review 20260303",
     "date": "2026-03-03"
   },

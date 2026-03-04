@@ -1,7 +1,7 @@
 {
   "id": "spec-workflow-mcp-a9373528",
   "name": "spec-workflow-mcp",
-  "description": "Guide AI to systematically complete software development through a structured **Requirements \u2192 Design \u2192 Tasks** workflow, ensuring code implementation stays aligned with business needs.",
+  "description": "Guide AI to systematically complete software development through a structured **Requirements → Design → Tasks** workflow, ensuring code implementation stays aligned with business needs.",
   "repo_url": "https://github.com/kingkongshot/spec-workflow-mcp",
   "source_hub": "mcp_so",
   "owner": "kingkongshot",
@@ -9,10 +9,7 @@
   "primary_language": "unknown",
   "tags": [
     "repo_unavailable",
-    "data-ai",
-    "dev",
-    "prod",
-    "prod-pm"
+    "prod"
   ],
   "verification_status": "unverified",
   "overall_score": 0,

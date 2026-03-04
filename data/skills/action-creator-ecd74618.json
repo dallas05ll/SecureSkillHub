@@ -10,9 +10,12 @@
   "primary_language": "typescript",
   "tags": [
     "agent-skills",
-    "utilities",
     "installs:1453",
-    "status-pass"
+    "status-pass",
+    "integ",
+    "integ-payment",
+    "prod",
+    "prod-comm"
   ],
   "verification_status": "pass",
   "overall_score": 60,

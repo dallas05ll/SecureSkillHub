@@ -7,18 +7,103 @@
   "skill_type": "agent_skill",
   "owner": "saleor",
   "stars": 0,
-  "primary_language": "unknown",
+  "primary_language": "typescript",
   "tags": [
     "agent-skills",
+    "installs:25",
+    "dev",
+    "dev-devops",
+    "dev-web",
     "dev-web-backend",
-    "installs:25"
+    "integ",
+    "status-pass"
   ],
-  "verification_status": "unverified",
-  "overall_score": 0,
-  "risk_level": "info",
-  "verified_commit": null,
+  "verification_status": "pass",
+  "overall_score": 60,
+  "risk_level": "medium",
+  "verified_commit": "c7bc609bbcc502caffb8030debf6f061a2214dba",
   "scan_summary": null,
   "repo_status": "available",
   "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
-  "repo_check_error": null
+  "repo_check_error": null,
+  "scan_date": "2026-03-04T19:56:46Z",
+  "findings_summary": {
+    "scanner_findings": 71,
+    "dangerous_calls": 4,
+    "network_ops": 3,
+    "file_ops": 47,
+    "env_access": 15,
+    "obfuscation": 0,
+    "injection_patterns": 0,
+    "mismatches": 0,
+    "undocumented_capabilities": 0,
+    "supervisor_approved": false,
+    "supervisor_confidence": 60
+  },
+  "verification_level": "full_pipeline",
+  "agent_audit": {
+    "agents_completed": 5,
+    "agents_required": 5,
+    "pipeline_run_at": "2026-03-04T19:56:46Z",
+    "agent_a": {
+      "signed": true,
+      "signed_at": "2026-03-04T19:56:46Z",
+      "comment": "Docs quality 10/10. README present. 12 features, 4 permissions claimed.",
+      "doc_quality_score": 10,
+      "claimed_permissions": [
+        "network access",
+        "system command execution",
+        "file system access",
+        "environment/secret access"
+      ]
+    },
+    "agent_b": {
+      "signed": true,
+      "signed_at": "2026-03-04T19:56:46Z",
+      "comment": "304 files analyzed. Found: 2 network, 24 file, 19 env, 0 system calls. Primary: typescript.",
+      "files_analyzed": 304,
+      "capabilities_found": [
+        "imports external dependencies",
+        "performs network operations",
+        "reads/writes files",
+        "reads environment values"
+      ]
+    },
+    "agent_c_star": {
+      "signed": true,
+      "signed_at": "2026-03-04T19:56:46Z",
+      "comment": "71 findings: 0 critical, 6 high, 18 medium, 47 low. No obfuscation. No injection.",
+      "total_findings": 71,
+      "severity_counts": {
+        "critical": 0,
+        "high": 6,
+        "medium": 18,
+        "low": 47,
+        "info": 0
+      }
+    },
+    "agent_d": {
+      "signed": true,
+      "signed_at": "2026-03-04T19:56:46Z",
+      "comment": "Score 60. 0 mismatches. Risk: medium. Safety overrides: none triggered.",
+      "score": 60,
+      "mismatches": 0,
+      "safety_overrides_applied": false
+    },
+    "agent_e": {
+      "signed": true,
+      "signed_at": "2026-03-04T19:56:46Z",
+      "comment": "Rejected. Confidence 60%. No overrides.",
+      "approved": false,
+      "confidence": 60,
+      "override_reason": null
+    },
+    "manager_summary": "5/5 agents completed. Score: 60/100, Risk: medium. 0 mismatches, 71 scanner findings. Rejected at 60% confidence. No safety overrides.",
+    "auto_clear": {
+      "applied": true,
+      "reason": "Auto-clear Cat 1: clean profile (0 inj, 0 obf_hr, 0 crit, score=60)",
+      "original_status": "manual_review",
+      "original_score": 60
+    }
+  }
 }

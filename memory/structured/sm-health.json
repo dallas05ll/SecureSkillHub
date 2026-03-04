@@ -1,0 +1,209 @@
+{
+  "schema_version": "1.0",
+  "role": "skills_manager",
+  "entries": [
+    {
+      "id": "sm-h-001",
+      "title": "Collection state snapshot",
+      "updated": "2026-03-04T20:08:12.947358+00:00",
+      "data": {
+        "total_skills": 11098,
+        "unique_tags": 77,
+        "avg_tags_per_skill": 2.8,
+        "status_distribution": {
+          "unverified": 7183,
+          "pass": 3906,
+          "fail": 9
+        },
+        "source_diversity": {
+          "mcp_so": 74,
+          "skillsmp": 77,
+          "github_search": 65,
+          "skills_sh": 24,
+          "claude_skills_hub": 44,
+          "glama": 29
+        }
+      }
+    },
+    {
+      "id": "sm-h-002",
+      "title": "Top 20 tags by skill count",
+      "updated": "2026-03-04T20:08:12.947358+00:00",
+      "data": {
+        "integ": 4456,
+        "util": 4141,
+        "dev": 2939,
+        "data": 2259,
+        "prod": 2117,
+        "data-ai": 1889,
+        "dev-web": 1594,
+        "dev-web-backend": 903,
+        "utilities": 877,
+        "prod-docs": 783,
+        "util-search": 624,
+        "sec": 623,
+        "dev-web-frontend": 482,
+        "dev-testing": 467,
+        "dev-devops": 454,
+        "data-db": 405,
+        "prod-comm": 404,
+        "dev-web-backend-python": 367,
+        "integ-cloud": 277,
+        "dev-web-frontend-react": 272
+      }
+    },
+    {
+      "id": "sm-h-003",
+      "title": "Verification quality metrics",
+      "updated": "2026-03-04T20:08:12.947358+00:00",
+      "data": {
+        "total_verified": 0,
+        "avg_score": 0.0,
+        "score_distribution": {},
+        "pm_overrides": 637
+      }
+    },
+    {
+      "id": "sm-h-004",
+      "title": "False positive patterns from verification",
+      "updated": "2026-03-04T20:08:12.947358+00:00",
+      "data": {
+        "total_fps": 594,
+        "top_categories": {
+          "unknown": 600,
+          "FP": 37
+        },
+        "sample_patterns": [
+          {
+            "skill": "1password",
+            "org": "elizaos",
+            "reason": "FP: 8x markdown_injection in sweagent browser/viewer tools constructing data: URIs + protobuf binary",
+            "score": null
+          },
+          {
+            "skill": "1password",
+            "org": "ethanalgox",
+            "reason": "FP: all injection hits in test files and nostr bus protocol",
+            "score": null
+          },
+          {
+            "skill": "1password",
+            "org": "liteclaw",
+            "reason": "FP: single regex_markdown_injection in markdown.test.ts",
+            "score": null
+          },
+          {
+            "skill": "1password",
+            "org": "go-mizu",
+            "reason": "FP: 14x unicode_escape_seq/fromCharCode in minified frontend bundles (KaTeX, mermaid, DataTables)",
+            "score": null
+          },
+          {
+            "skill": "1password",
+            "org": "malue-ai",
+            "reason": "FP: 27x unicode_escape_seq = Chinese text labels in eval script",
+            "score": null
+          },
+          {
+            "skill": "2000s-visualization-expert",
+            "org": "curiositech",
+            "reason": "FP: regex_override_role in JSON design catalog",
+            "score": null
+          },
+          {
+            "skill": "2d-games",
+            "org": "davila7",
+            "reason": "FP: regex_ignore_previous in SemanticValidator detection logic",
+            "score": null
+          },
+          {
+            "skill": "browser-tools-mcp",
+            "org": "agentdeskai",
+            "reason": "",
+            "score": null
+          },
+          {
+            "skill": "a11y-ally",
+            "org": "proffesor-for-testing",
+            "reason": "FP: obfuscation in QA automation framework (base64 for screenshots)",
+            "score": null
+          },
+          {
+            "skill": "aav-vector-design-agent",
+            "org": "mdbabumiamssm",
+            "reason": "FP: all injection/obf in vendored External_Collections (langchain, semantic-kernel)",
+            "score": null
+          }
+        ]
+      }
+    },
+    {
+      "id": "sm-h-005",
+      "title": "Current recommendations",
+      "updated": "2026-03-04T20:08:12.947358+00:00",
+      "data": [
+        "TAG_DEPTH: 8857/11098 skills have shallow tags (depth 0-1). Run auto_tag enrichment.",
+        "VERIFY_COVERAGE: 7183/11098 skills still unverified. Run next batch."
+      ]
+    }
+  ],
+  "evolve_history": [
+    {
+      "id": "sm-evolve-2026-03-04T183142",
+      "timestamp": "2026-03-04T18:31:42.172865+00:00",
+      "tag_analysis": {
+        "total_skills": 11098,
+        "unique_tags": 77,
+        "avg_tags_per_skill": 2.8,
+        "coverage_gaps": []
+      },
+      "quality_analysis": {
+        "status_distribution": {
+          "unverified": 7282,
+          "pass": 3807,
+          "fail": 9
+        },
+        "avg_score": 0.0,
+        "pm_overrides": 628,
+        "override_categories": {
+          "unknown": 600,
+          "FP": 28
+        }
+      },
+      "fp_pattern_count": 585,
+      "recommendations": [
+        "TAG_DEPTH: 8857/11098 skills have shallow tags (depth 0-1). Run auto_tag enrichment.",
+        "VERIFY_COVERAGE: 7282/11098 skills still unverified. Run next batch."
+      ]
+    },
+    {
+      "id": "sm-evolve-2026-03-04T200812",
+      "timestamp": "2026-03-04T20:08:12.947358+00:00",
+      "tag_analysis": {
+        "total_skills": 11098,
+        "unique_tags": 77,
+        "avg_tags_per_skill": 2.8,
+        "coverage_gaps": []
+      },
+      "quality_analysis": {
+        "status_distribution": {
+          "unverified": 7183,
+          "pass": 3906,
+          "fail": 9
+        },
+        "avg_score": 0.0,
+        "pm_overrides": 637,
+        "override_categories": {
+          "unknown": 600,
+          "FP": 37
+        }
+      },
+      "fp_pattern_count": 594,
+      "recommendations": [
+        "TAG_DEPTH: 8857/11098 skills have shallow tags (depth 0-1). Run auto_tag enrichment.",
+        "VERIFY_COVERAGE: 7183/11098 skills still unverified. Run next batch."
+      ]
+    }
+  ],
+  "last_evolve": "2026-03-04T20:08:12.947358+00:00"
+}

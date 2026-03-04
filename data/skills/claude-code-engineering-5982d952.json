@@ -1,7 +1,7 @@
 {
   "id": "claude-code-engineering-5982d952",
   "name": "claude-code-engineering",
-  "description": "This repository demonstrates how to use Claude Code to do real engineering work, not just writing code.  \u672c\u9879\u76ee\u662f\u6781\u5ba2\u65f6\u95f4\u4e13\u680f \u300aClaude Code \u5de5\u7a0b\u5316\u5b9e\u6218\u300b \u7684\u5b98\u65b9\u914d\u5957\u793a\u4f8b\u4ed3\u5e93\uff0c\u76ee\u6807\u5f88\u660e\u786e\uff1a \ud83d\udc49 \u628a Claude Code \u4ece\u201c\u5bf9\u8bdd\u5f0f\u7f16\u7801\u5de5\u5177\u201d\uff0c\u53d8\u6210 \u53ef\u8bbe\u8ba1\u3001\u53ef\u590d\u7528\u3001\u53ef\u6cbb\u7406\u7684\u5de5\u7a0b\u7cfb\u7edf\u3002",
+  "description": "This repository demonstrates how to use Claude Code to do real engineering work, not just writing code.  本项目是极客时间专栏 《Claude Code 工程化实战》 的官方配套示例仓库，目标很明确： 👉 把 Claude Code 从“对话式编码工具”，变成 可设计、可复用、可治理的工程系统。",
   "repo_url": "https://github.com/huangjia2019/claude-code-engineering",
   "source_hub": "github_search",
   "skill_type": "agent_skill",
@@ -10,8 +10,7 @@
   "license": "",
   "primary_language": "markdown",
   "tags": [
-    "data-ai",
-    "dev"
+    "util"
   ],
   "verification_status": "pass",
   "overall_score": 45,

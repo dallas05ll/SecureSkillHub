@@ -1,16 +1,17 @@
 {
   "id": "cloudbase-ai-toolkit-dcb36dfe",
   "name": "cloudbase-ai-toolkit",
-  "description": "\u4e3a\u5fae\u4fe1\u5c0f\u7a0b\u5e8f\u548c\u5168\u6808\u5e94\u7528\u63d0\u4f9b\u4e00\u7ad9\u5f0f\u540e\u7aef\u670d\u52a1 One-stop backend services for WeChat Mini-Programs and full-stack apps",
+  "description": "为微信小程序和全栈应用提供一站式后端服务 One-stop backend services for WeChat Mini-Programs and full-stack apps",
   "repo_url": "https://github.com/TencentCloudBase/cloudbase-ai-toolkit",
   "source_hub": "mcp_so",
   "owner": "TencentCloudBase",
   "stars": 960,
   "primary_language": "typescript",
   "tags": [
-    "data-ai",
-    "integ-cloud",
-    "prod-comm",
+    "dev",
+    "dev-web",
+    "dev-web-backend",
+    "dev-web-fullstack",
     "util"
   ],
   "verification_status": "pass",

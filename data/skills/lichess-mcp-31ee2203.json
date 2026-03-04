@@ -1,13 +1,14 @@
 {
   "id": "lichess-mcp-31ee2203",
   "name": "lichess-mcp",
-  "description": "A Model Context Protocol (MCP) server that enables Claude Desktop to interact with Lichess chess platform through natural language. Play games, analyze positions, manage your account, and participate in tournaments\u2014all by simply talking to Claude.",
+  "description": "A Model Context Protocol (MCP) server that enables Claude Desktop to interact with Lichess chess platform through natural language. Play games, analyze positions, manage your account, and participate in tournaments—all by simply talking to Claude.",
   "repo_url": "https://github.com/karayaman/lichess-mcp",
   "source_hub": "mcp_so",
   "owner": "karayaman",
   "stars": 12,
   "primary_language": "unknown",
   "tags": [
+    "data",
     "data-ai",
     "data-ai-nlp"
   ],

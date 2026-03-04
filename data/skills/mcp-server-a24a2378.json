@@ -1,15 +1,14 @@
 {
   "id": "mcp-server-a24a2378",
   "name": "mcp-server",
-  "description": "\u57fa\u4e8eMCP\u534f\u8bae\u7684\u4f01\u4e1a\u5927\u6570\u636e\u670d\u52a1\uff0c\u63d0\u4f9b\u5168\u9762\u7684\u4f01\u4e1a\u5de5\u5546\u4fe1\u606f\u67e5\u8be2\u548c\u5206\u6790\u80fd\u529b",
+  "description": "基于MCP协议的企业大数据服务，提供全面的企业工商信息查询和分析能力",
   "repo_url": "https://github.com/handaas/mcp-server",
   "source_hub": "mcp_so",
   "owner": "handaas",
   "stars": 8,
   "primary_language": "unknown",
   "tags": [
-    "integ",
-    "util"
+    "integ"
   ],
   "verification_status": "pass",
   "overall_score": 100,

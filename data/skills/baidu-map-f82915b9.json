@@ -1,7 +1,7 @@
 {
   "id": "baidu-map-f82915b9",
   "name": "baidu-map",
-  "description": "\u767e\u5ea6\u5730\u56fe\u6838\u5fc3API\u73b0\u5df2\u5168\u9762\u517c\u5bb9MCP\u534f\u8bae\uff0c\u662f\u56fd\u5185\u9996\u5bb6\u517c\u5bb9MCP\u534f\u8bae\u7684\u5730\u56fe\u670d\u52a1\u5546\u3002",
+  "description": "百度地图核心API现已全面兼容MCP协议，是国内首家兼容MCP协议的地图服务商。",
   "repo_url": "https://github.com/baidu-maps/baidu-map",
   "source_hub": "mcp_so",
   "owner": "baidu-maps",
@@ -9,8 +9,7 @@
   "primary_language": "unknown",
   "tags": [
     "repo_unavailable",
-    "data-ai",
-    "integ",
+    "util",
     "util-map"
   ],
   "verification_status": "unverified",

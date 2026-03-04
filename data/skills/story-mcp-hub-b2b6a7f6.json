@@ -8,8 +8,7 @@
   "stars": 17,
   "primary_language": "python",
   "tags": [
-    "dev",
-    "sec-scan"
+    "dev"
   ],
   "verification_status": "pass",
   "overall_score": 15,
@@ -106,7 +105,7 @@
   "pm_override": {
     "date": "2026-03-03T17:38:00Z",
     "previous_status": "fail",
-    "reason": "PM override: Story Protocol MCP Hub (piplabs \u2014 known blockchain company). 0 injection, 0 critical. 82 obfuscation hits across 31 files are from compiled/bundled Story Protocol SDK code. Blockchain SDKs routinely contain hex encoding, byte manipulation, and compiled artifacts that trigger obfuscation patterns. Not a real threat."
+    "reason": "PM override: Story Protocol MCP Hub (piplabs — known blockchain company). 0 injection, 0 critical. 82 obfuscation hits across 31 files are from compiled/bundled Story Protocol SDK code. Blockchain SDKs routinely contain hex encoding, byte manipulation, and compiled artifacts that trigger obfuscation patterns. Not a real threat."
   },
   "skill_type": "mcp_server"
 }

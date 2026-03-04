@@ -1,15 +1,17 @@
 {
   "id": "tmap-mcp-a3219311",
   "name": "tmap_mcp",
-  "description": "tmap rest api \uae30\ubc18 mcp server \uad6c\ucd95",
+  "description": "tmap rest api 기반 mcp server 구축",
   "repo_url": "https://github.com/bm1120/tmap_mcp",
   "source_hub": "mcp_so",
   "owner": "bm1120",
   "stars": 1,
   "primary_language": "python",
   "tags": [
-    "integ",
-    "util-map"
+    "dev",
+    "dev-web",
+    "dev-web-backend",
+    "integ"
   ],
   "verification_status": "pass",
   "overall_score": 55,

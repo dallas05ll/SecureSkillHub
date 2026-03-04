@@ -1,15 +1,13 @@
 {
   "id": "redshift-utils-mcp-c2556692",
   "name": "redshift-utils-mcp",
-  "description": "\ud83e\udd16 Enable AI assistants (Claude, Cursor) to monitor, diagnose, and query Amazon Redshift using this MCP server and the AWS Data API.",
+  "description": "🤖 Enable AI assistants (Claude, Cursor) to monitor, diagnose, and query Amazon Redshift using this MCP server and the AWS Data API.",
   "repo_url": "https://github.com/vinodismyname/redshift-utils-mcp",
   "source_hub": "mcp_so",
   "owner": "vinodismyname",
   "stars": 5,
   "primary_language": "python",
   "tags": [
-    "data",
-    "data-ai",
     "integ",
     "integ-cloud",
     "integ-cloud-aws",

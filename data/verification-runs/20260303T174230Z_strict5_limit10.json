@@ -1,0 +1,28 @@
+{
+  "started_at": "2026-03-03T17:39:29Z",
+  "finished_at": "2026-03-03T17:42:30Z",
+  "skill_type": "all",
+  "selected_ids": [
+    "yume-48692152",
+    "claude-session-index-30dc4b63",
+    "the-librarian-c09073cc"
+  ],
+  "selected_count": 3,
+  "group_count": 5,
+  "processed_count": 3,
+  "status_counts": {
+    "skip": 2,
+    "fail": 1
+  },
+  "stage_failures": {
+    "clone_network": 2
+  },
+  "retry_ids": [
+    "claude-session-index-30dc4b63",
+    "yume-48692152"
+  ],
+  "remaining_unverified": 3014,
+  "only_unverified": true,
+  "source": "*",
+  "include_repo_unavailable": false
+}

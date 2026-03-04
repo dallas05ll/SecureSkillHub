@@ -1,7 +1,7 @@
 {
   "id": "google-drive-mcp-server-7aed152d",
   "name": "google-drive-mcp-server",
-  "description": "google drive mcp \uc11c\ubc84\ub97c \ub9cc\ub4e4\uc5b4\ubcf4\uc790 \uc77c\ub2e8 sheet\ubd80\ud130",
+  "description": "google drive mcp 서버를 만들어보자 일단 sheet부터",
   "repo_url": "https://github.com/seeun0210/google-drive-mcp-server",
   "source_hub": "mcp_so",
   "owner": "seeun0210",
@@ -9,8 +9,7 @@
   "primary_language": "unknown",
   "tags": [
     "integ",
-    "integrations-google",
-    "util"
+    "integrations-google"
   ],
   "verification_status": "unverified",
   "overall_score": 85,

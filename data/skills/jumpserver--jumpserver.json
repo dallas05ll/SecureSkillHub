@@ -11,9 +11,10 @@
   "description": "Open-source Privileged Access Management (PAM) platform providing secure access to SSH, RDP, K8s, DB and RemoteApp endpoints via web browser.",
   "primary_language": "Python",
   "tags": [
+    "dev",
+    "dev-devops",
     "dev-devops-k8s",
-    "dev-web",
-    "util-search"
+    "dev-web"
   ],
   "findings_summary": {
     "scanner_findings": 766,

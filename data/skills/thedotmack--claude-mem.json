@@ -11,10 +11,6 @@
   "description": "Persistent memory compression system for Claude Code that captures tool usage, generates summaries, and injects context via lifecycle hooks.",
   "primary_language": "TypeScript",
   "tags": [
-    "data-ai",
-    "data-ai-nlp",
-    "dev",
-    "prod-notes",
     "util"
   ],
   "findings_summary": {

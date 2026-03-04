@@ -11,8 +11,8 @@
   "description": "Community-driven registry service for MCP servers, providing app-store-like directory with publishing, validation, and auth.",
   "primary_language": "Go",
   "tags": [
-    "prod-comm",
-    "sec"
+    "integ",
+    "util"
   ],
   "findings_summary": {
     "scanner_findings": 32,

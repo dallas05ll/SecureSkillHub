@@ -1,13 +1,14 @@
 {
   "id": "africastalking-airtime-mcp-cd663949",
   "name": "africastalking-airtime-mcp",
-  "description": "An MCP server for interacting with the Africa\u2019s Talking Airtime service. It allows clients to topup airtime to a mobile number(s).",
+  "description": "An MCP server for interacting with the Africa’s Talking Airtime service. It allows clients to topup airtime to a mobile number(s).",
   "repo_url": "https://github.com/nasoma/africastalking-airtime-mcp",
   "source_hub": "mcp_so",
   "owner": "nasoma",
   "stars": 1,
   "primary_language": "unknown",
   "tags": [
+    "data",
     "data-ai"
   ],
   "verification_status": "pass",

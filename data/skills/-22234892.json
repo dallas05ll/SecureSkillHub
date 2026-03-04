@@ -1,14 +1,15 @@
 {
   "id": "-22234892",
-  "name": "\u58a8\u95ee\u521b\u4f5c\u52a9\u624b",
-  "description": "\u58a8\u95ee\u662f\u96c6\u8bb0\u5f55\u3001\u521b\u4f5c\u548c\u5206\u4eab\u4e8e\u4e00\u4f53\u7684\u667a\u80fd\u7b14\u8bb0\u5de5\u5177\u548c\u5185\u5bb9\u793e\u533a\uff0c\u8ba9\u6709\u4ef7\u503c\u7684\u5185\u5bb9\uff0c\u5728\u4eba\u4e0e\u4eba\u4e4b\u95f4\u6d41\u52a8\u3002\n\n\u58a8\u95ee MCP Server \u63d0\u4f9b\u4e86\u7b14\u8bb0\u521b\u5efa\u3001\u7f16\u8f91\u3001\u6743\u9650\u8bbe\u7f6e(\u516c\u5f00/\u79c1\u6709)\u3001\u6587\u4ef6\u4e0a\u4f20\u7b49\u80fd\u529b\u3002\u901a\u8fc7\u4e0e\u58a8\u95ee MCP Server\u7684\u7ed3\u5408\uff0c\u7528\u6237\u53ef\u4ee5\u5728\u6240\u6709\u652f\u6301 Streamable HTTP \u7684 MCP Host (Cursor\u3001Trae\u7b49)\u4e2d\uff0c\u901a\u8fc7\u81ea\u7136\u8bed\u8a00\u5b8c\u6210\u7b14\u8bb0\u7684\u7f16\u5199\u3001\u6da6\u8272\u3001\u7ea0\u9519\u5e76\u76f4\u63a5\u4fdd\u5b58\u81f3\u58a8\u95ee\u7b14\u8bb0\u5de5\u5177\u4e4b\u4e2d\u3002",
-  "repo_url": "https://github.com/we-mowen/\u58a8\u95ee\u521b\u4f5c\u52a9\u624b",
+  "name": "墨问创作助手",
+  "description": "墨问是集记录、创作和分享于一体的智能笔记工具和内容社区，让有价值的内容，在人与人之间流动。\n\n墨问 MCP Server 提供了笔记创建、编辑、权限设置(公开/私有)、文件上传等能力。通过与墨问 MCP Server的结合，用户可以在所有支持 Streamable HTTP 的 MCP Host (Cursor、Trae等)中，通过自然语言完成笔记的编写、润色、纠错并直接保存至墨问笔记工具之中。",
+  "repo_url": "https://github.com/we-mowen/墨问创作助手",
   "source_hub": "mcp_so",
   "owner": "we-mowen",
   "stars": 0,
   "primary_language": "unknown",
   "tags": [
     "repo_unavailable",
+    "util",
     "util-media"
   ],
   "verification_status": "unverified",
@@ -18,7 +19,7 @@
   "scan_summary": null,
   "scan_date": "2026-02-28T20:27:23Z",
   "findings_summary": {
-    "error": "clone failed: Cloning into '/var/folders/pq/bb71gjzd01d29nnmqrhqr2rc0000gn/T/strict5_-22234892__s8929xi/repo'...\nremote: Repository not found.\nfatal: repository 'https://github.com/we-mowen/\u58a8\u95ee\u521b\u4f5c\u52a9\u624b/' not found",
+    "error": "clone failed: Cloning into '/var/folders/pq/bb71gjzd01d29nnmqrhqr2rc0000gn/T/strict5_-22234892__s8929xi/repo'...\nremote: Repository not found.\nfatal: repository 'https://github.com/we-mowen/墨问创作助手/' not found",
     "supervisor_approved": false,
     "supervisor_confidence": 0
   },

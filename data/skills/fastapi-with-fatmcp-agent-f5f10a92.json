@@ -1,14 +1,18 @@
 {
   "id": "fastapi-with-fatmcp-agent-f5f10a92",
   "name": "fastapi-with-fatmcp-agent",
-  "description": "A modular application API interface based on FastMCP, integrating a demo of the MCP server, FastAPI interface and LLM Agent processing capabilities | \u4e00\u4e2a\u57fa\u4e8eFastMCP\u7684\u6a21\u5757\u5316\u5e94\u7528\uff0c\u96c6\u6210\u4e86MCP\u670d\u52a1\u5668\u3001FastAPI\u63a5\u53e3\u548cLLM Agent \u5904\u7406\u80fd\u529b\u7684 demo",
+  "description": "A modular application API interface based on FastMCP, integrating a demo of the MCP server, FastAPI interface and LLM Agent processing capabilities | 一个基于FastMCP的模块化应用，集成了MCP服务器、FastAPI接口和LLM Agent 处理能力的 demo",
   "repo_url": "https://github.com/ZhouhaoJiang/fastapi-with-fatmcp-agent",
   "source_hub": "mcp_so",
   "owner": "ZhouhaoJiang",
   "stars": 10,
   "primary_language": "python",
   "tags": [
+    "data",
     "data-ai",
+    "dev",
+    "dev-web",
+    "dev-web-backend",
     "dev-web-backend-python",
     "integ"
   ],

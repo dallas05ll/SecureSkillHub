@@ -1,7 +1,7 @@
 {
   "id": "cc-spec-driven-813192c3",
   "name": "cc-spec-driven",
-  "description": "A Claude Code plugin for managing requirement documents, tracking changes, and outputting specs \u2014 enabling downstream tools to generate code based on high-quality specs and complete E2E testing.",
+  "description": "A Claude Code plugin for managing requirement documents, tracking changes, and outputting specs — enabling downstream tools to generate code based on high-quality specs and complete E2E testing.",
   "repo_url": "https://github.com/mkhrdev/cc-spec-driven",
   "source_hub": "github_search",
   "skill_type": "agent_skill",
@@ -10,12 +10,10 @@
   "license": "",
   "primary_language": "markdown",
   "tags": [
-    "data-ai",
     "dev",
     "dev-testing",
-    "prod-docs",
-    "util",
-    "util-media"
+    "prod",
+    "prod-docs"
   ],
   "verification_status": "pass",
   "overall_score": 100,

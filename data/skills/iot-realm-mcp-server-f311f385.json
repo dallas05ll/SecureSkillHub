@@ -1,7 +1,7 @@
 {
   "id": "iot-realm-mcp-server-f311f385",
   "name": "iot-realm-mcp-server",
-  "description": "\ud83c\udf10\ud83d\udd0c An MCP server that exposes real-time sensor data from IoT Realm devices\u2014such as ESP32-based DHT11 clients\u2014to LLMs via the Model Context Protocol. This enables AI agents to access, analyze, and act upon live environmental data.",
+  "description": "🌐🔌 An MCP server that exposes real-time sensor data from IoT Realm devices—such as ESP32-based DHT11 clients—to LLMs via the Model Context Protocol. This enables AI agents to access, analyze, and act upon live environmental data.",
   "repo_url": "https://github.com/PerikiyoXD/iot-realm-mcp-server",
   "source_hub": "mcp_so",
   "owner": "PerikiyoXD",
@@ -9,9 +9,8 @@
   "primary_language": "unknown",
   "tags": [
     "repo_unavailable",
-    "data",
-    "data-ai",
-    "data-ai-nlp"
+    "integ",
+    "util"
   ],
   "verification_status": "unverified",
   "overall_score": 0,

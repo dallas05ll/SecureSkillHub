@@ -8,9 +8,7 @@
   "stars": 10,
   "primary_language": "python",
   "tags": [
-    "data-ai",
-    "integ",
-    "prod-notes"
+    "integ"
   ],
   "verification_status": "pass",
   "overall_score": 15,
@@ -108,7 +106,7 @@
   "pm_override": {
     "date": "2026-03-03T17:38:00Z",
     "previous_status": "fail",
-    "reason": "PM override: Simplenote MCP server. 0 injection, 0 critical. Only 1 obfuscation finding across 210 files triggered the high-risk obfuscation safety override \u2014 this is a clear FP. A single obf hit in a 210-file Python codebase is noise, not a threat. Scanner penalty from 383 findings (mostly file_ops 178 + env_access 135) crushed score."
+    "reason": "PM override: Simplenote MCP server. 0 injection, 0 critical. Only 1 obfuscation finding across 210 files triggered the high-risk obfuscation safety override — this is a clear FP. A single obf hit in a 210-file Python codebase is noise, not a threat. Scanner penalty from 383 findings (mostly file_ops 178 + env_access 135) crushed score."
   },
   "skill_type": "mcp_server"
 }

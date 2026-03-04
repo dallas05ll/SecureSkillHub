@@ -1,7 +1,7 @@
 {
   "id": "sdd-1dcc28fa",
   "name": "sdd",
-  "description": "Spec-driven development (SDD) plugin for Claude Code \u2014 a collection of specialized AI agents, phased implementation plans, and verified code generation for full-stack teams",
+  "description": "Spec-driven development (SDD) plugin for Claude Code — a collection of specialized AI agents, phased implementation plans, and verified code generation for full-stack teams",
   "repo_url": "https://github.com/LiorCohen/sdd",
   "source_hub": "github_search",
   "skill_type": "agent_skill",
@@ -10,8 +10,9 @@
   "license": "",
   "primary_language": "markdown",
   "tags": [
-    "data-ai",
-    "dev"
+    "dev",
+    "dev-web",
+    "dev-web-fullstack"
   ],
   "verification_status": "pass",
   "overall_score": 60,

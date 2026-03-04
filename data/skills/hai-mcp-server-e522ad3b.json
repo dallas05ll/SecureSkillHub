@@ -1,7 +1,7 @@
 {
   "id": "hai-mcp-server-e522ad3b",
   "name": "hai-mcp-server",
-  "description": "\u817e\u8baf\u4e91HAI Model Context Protocol (MCP)\u670d\u52a1\u5668",
+  "description": "腾讯云HAI Model Context Protocol (MCP)服务器",
   "repo_url": "https://github.com/avacx/hai-mcp-server",
   "source_hub": "mcp_so",
   "owner": "avacx",
@@ -9,8 +9,9 @@
   "primary_language": "unknown",
   "tags": [
     "repo_unavailable",
+    "data",
     "data-ai",
-    "data-ai-nlp"
+    "integ"
   ],
   "verification_status": "unverified",
   "overall_score": 0,

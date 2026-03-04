@@ -1,0 +1,47 @@
+{
+  "started_at": "2026-03-03T16:54:56Z",
+  "finished_at": "2026-03-03T16:57:58Z",
+  "skill_type": "all",
+  "selected_ids": [
+    "yume-48692152",
+    "claude-code-buddy-784a4679",
+    "harmonyos-mcp-server-4c6b5448",
+    "chatgpt-x-deepseek-x-grok-x-claude-x-per-47fe199e",
+    "cortex-777cbcd6",
+    "edubase-mcp-server-90d973d3",
+    "jira-context-mcp-ebe9f8d0",
+    "k6-mcp-server-9760675d",
+    "mcp-file-preview-e081c2b6",
+    "mcp-github-mapper-df2f4fd5",
+    "mcp-multiserver-interoperable-agent2agen-89276a74",
+    "mcp-postgres-full-access-72cce0d7",
+    "mcp-server-python-58cde7ef",
+    "mcp-task-orchestrator-9dbecbc0",
+    "mcp-template-dotnet-f28bde4c",
+    "mind-cloning-engineering-3296a9a3",
+    "mssqlclient-mcp-server-a2f78857",
+    "n8n-ai-agent-dvm-mcp-client-dd5a5d69",
+    "readwise-mcp-344464a0",
+    "roo-logger-576995d9"
+  ],
+  "selected_count": 20,
+  "group_count": 5,
+  "processed_count": 20,
+  "status_counts": {
+    "skip": 2,
+    "manual_review": 3,
+    "pass": 14,
+    "fail": 1
+  },
+  "stage_failures": {
+    "clone_network": 2
+  },
+  "retry_ids": [
+    "claude-code-buddy-784a4679",
+    "yume-48692152"
+  ],
+  "remaining_unverified": 3573,
+  "only_unverified": true,
+  "source": "*",
+  "include_repo_unavailable": false
+}

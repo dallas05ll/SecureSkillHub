@@ -1,15 +1,15 @@
 {
   "id": "agentsyun-3df27bd5",
-  "name": "agentsyun\u4f18\u60e0\u5238",
-  "description": "Agentsyun\u4f18\u60e0\u5238MCP\u670d\u52a1\uff0c\u63d0\u4f9b\u591a\u54c1\u7c7b\u4f18\u60e0\u5238\u67e5\u8be2\u3001\u7b5b\u9009\u548c\u63a8\u5e7f\u94fe\u63a5\u751f\u6210\u529f\u80fd\uff0c\u652f\u6301\u5916\u5356\u3001\u7f8e\u98df\u3001\u4f11\u95f2\u5a31\u4e50\u3001\u9152\u5e97\u6c11\u5bbf\u3001\u95e8\u7968\u5ea6\u5047\u3001\u533b\u836f\u7b49\u591a\u4e2a\u7c7b\u76ee\u3002",
-  "repo_url": "https://github.com/Agentsyun/agentsyun\u4f18\u60e0\u5238",
+  "name": "agentsyun优惠券",
+  "description": "Agentsyun优惠券MCP服务，提供多品类优惠券查询、筛选和推广链接生成功能，支持外卖、美食、休闲娱乐、酒店民宿、门票度假、医药等多个类目。",
+  "repo_url": "https://github.com/Agentsyun/agentsyun优惠券",
   "source_hub": "mcp_so",
   "owner": "Agentsyun",
   "stars": 0,
   "primary_language": "unknown",
   "tags": [
     "repo_unavailable",
-    "util"
+    "integ"
   ],
   "verification_status": "unverified",
   "overall_score": 0,
@@ -18,7 +18,7 @@
   "scan_summary": null,
   "scan_date": "2026-02-28T20:27:24Z",
   "findings_summary": {
-    "error": "clone failed: Cloning into '/var/folders/pq/bb71gjzd01d29nnmqrhqr2rc0000gn/T/strict5_agentsyun-3df27bd5_n768n7t3/repo'...\nremote: Repository not found.\nfatal: repository 'https://github.com/Agentsyun/agentsyun\u4f18\u60e0\u5238/' not found",
+    "error": "clone failed: Cloning into '/var/folders/pq/bb71gjzd01d29nnmqrhqr2rc0000gn/T/strict5_agentsyun-3df27bd5_n768n7t3/repo'...\nremote: Repository not found.\nfatal: repository 'https://github.com/Agentsyun/agentsyun优惠券/' not found",
     "supervisor_approved": false,
     "supervisor_confidence": 0
   },

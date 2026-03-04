@@ -1,7 +1,7 @@
 {
   "id": "the-graph-token-api-mcp-5a2211a6",
   "name": "the-graph-token-api-mcp",
-  "description": "Official MCP server that turns The Graph\u2019s Token API into a plug-and-play web3 data tool. Exposes ERC-20 & NFT metadata, balances, transfers, top-holder stats, prices, and more, allowing LLMs to run SQL queries on structured and indexed blockchain data.",
+  "description": "Official MCP server that turns The Graph’s Token API into a plug-and-play web3 data tool. Exposes ERC-20 & NFT metadata, balances, transfers, top-holder stats, prices, and more, allowing LLMs to run SQL queries on structured and indexed blockchain data.",
   "repo_url": "https://github.com/The Graph/the-graph-token-api-mcp",
   "source_hub": "mcp_so",
   "owner": "The Graph",
@@ -10,12 +10,12 @@
   "tags": [
     "repo_unavailable",
     "data",
-    "data-ai",
     "data-db",
     "integ",
+    "sec",
+    "sec-crypto",
     "util",
-    "util-search",
-    "data-finance"
+    "util-search"
   ],
   "verification_status": "unverified",
   "overall_score": 0,

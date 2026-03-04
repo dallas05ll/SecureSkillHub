@@ -1,14 +1,15 @@
 {
   "id": "springboot-mcpserver-junit-05f8c0c5",
   "name": "springboot-MCPserver-JUnit",
-  "description": "A template idea project by springboot\u3001mcp (server)\u3001junit\uff0cincluding junit test methods.",
+  "description": "A template idea project by springboot、mcp (server)、junit，including junit test methods.",
   "repo_url": "https://github.com/dreamcenter/springboot-MCPserver-JUnit",
   "source_hub": "mcp_so",
   "owner": "dreamcenter",
   "stars": 13,
   "primary_language": "java",
   "tags": [
-    "dev-testing"
+    "integ",
+    "util"
   ],
   "verification_status": "pass",
   "overall_score": 100,

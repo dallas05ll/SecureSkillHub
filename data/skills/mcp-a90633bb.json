@@ -1,15 +1,16 @@
 {
   "id": "mcp-a90633bb",
   "name": "mcp",
-  "description": "Appwrite\u2019s MCP server. Operating your backend has never been easier.",
+  "description": "Appwrite’s MCP server. Operating your backend has never been easier.",
   "repo_url": "https://github.com/appwrite/mcp",
   "source_hub": "mcp_so",
   "owner": "appwrite",
   "stars": 61,
   "primary_language": "python",
   "tags": [
-    "integ",
-    "util"
+    "dev",
+    "dev-web",
+    "dev-web-backend"
   ],
   "verification_status": "pass",
   "overall_score": 94,

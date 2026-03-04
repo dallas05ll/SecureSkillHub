@@ -1,17 +1,16 @@
 {
   "id": "pega-dx-mcp-91b994eb",
   "name": "pega-dx-mcp",
-  "description": "This MCP Server transforms Pega Infinity\u2122 interactions into intuitive, conversational experiences through the Model Context Protocol. By bridging Pega DX APIs with natural language interfaces, it enables GenAI Agents, IDEs, and other MCP-enabled tools to interact with Pega Infinity\u2122 applications using simple, human-readable commands.",
+  "description": "This MCP Server transforms Pega Infinity™ interactions into intuitive, conversational experiences through the Model Context Protocol. By bridging Pega DX APIs with natural language interfaces, it enables GenAI Agents, IDEs, and other MCP-enabled tools to interact with Pega Infinity™ applications using simple, human-readable commands.",
   "repo_url": "https://github.com/MarcoLooy/pega-dx-mcp",
   "source_hub": "mcp_so",
   "owner": "MarcoLooy",
   "stars": 3,
   "primary_language": "javascript",
   "tags": [
+    "data",
     "data-ai",
-    "data-ai-nlp",
-    "integ",
-    "util"
+    "data-ai-nlp"
   ],
   "verification_status": "pass",
   "overall_score": 55,

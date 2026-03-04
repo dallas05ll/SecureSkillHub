@@ -11,11 +11,14 @@
   "description": "Expose FastAPI endpoints as MCP tools with built-in OAuth auth, ASGI transport, schema preservation, and flexible deployment.",
   "primary_language": "Python",
   "tags": [
+    "dev",
+    "dev-devops",
+    "dev-web",
+    "dev-web-backend",
     "dev-web-backend-python",
     "integ",
     "sec",
-    "sec-auth",
-    "util"
+    "sec-auth"
   ],
   "findings_summary": {
     "scanner_findings": 28,

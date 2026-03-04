@@ -1,7 +1,7 @@
 {
   "id": "awesome-well-structure-d8e6367f",
   "name": "awesome-well-structure",
-  "description": "\u8fd9\u662f\u4e00\u4e2a\u57fa\u4e8e MCP (Model Context Protocol) \u534f\u8bae\u7684\u4e95\u8eab\u793a\u610f\u56fe\u751f\u6210\u5de5\u5177\uff0c\u53ef\u4ee5\u6839\u636e\u4e95\u6570\u636e\u81ea\u52a8\u751f\u6210\u4e95\u8eab\u7ed3\u6784\u56fe\u3002\u7531\u897f\u5357\u77f3\u6cb9\u5927\u5b66\u94bb\u4e95\u6240\uff0c\u4f55\u4e16\u660e\u2014\u2014\u6c64\u660e\u5b9e\u9a8c\u5ba4\u56e2\u4f53\u63d0\u4f9b\u6280\u672f\u652f\u6301\u3002\r\n\r\nThis service, powered by the Model Context Protocol (MCP), automatically generates borehole structure diagrams from well data. It is technically supported by the He Shiming and Tang Ming research group at the Drilling Research Institute of Southwest Petroleum University.\r\n\r\n\u95ee\u9898\u53cd\u9988\uff1a1873475824@qq.com\uff08\u9648\u6625\u94b1\uff09",
+  "description": "这是一个基于 MCP (Model Context Protocol) 协议的井身示意图生成工具，可以根据井数据自动生成井身结构图。由西南石油大学钻井所，何世明——汤明实验室团体提供技术支持。\r\n\r\nThis service, powered by the Model Context Protocol (MCP), automatically generates borehole structure diagrams from well data. It is technically supported by the He Shiming and Tang Ming research group at the Drilling Research Institute of Southwest Petroleum University.\r\n\r\n问题反馈：1873475824@qq.com（陈春钱）",
   "repo_url": "https://github.com/elf004-star/awesome-well-structure",
   "source_hub": "mcp_so",
   "owner": "elf004-star",
@@ -9,11 +9,7 @@
   "primary_language": "unknown",
   "tags": [
     "repo_unavailable",
-    "data",
-    "data-ai",
-    "data-ai-nlp",
-    "prod",
-    "util-search"
+    "prod"
   ],
   "verification_status": "unverified",
   "overall_score": 0,

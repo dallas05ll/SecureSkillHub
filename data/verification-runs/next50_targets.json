@@ -1,0 +1,417 @@
+{
+  "target_ids": [
+    "brightdata-mcp-38a0fdba",
+    "brightdata-mcp-96eccf50",
+    "mcp-directory-4366e9ee",
+    "claude-skills-ae7e84f7",
+    "arscontexta-76423d78",
+    "vibe-coding-prompt-template-16454732",
+    "playwright-browser-automation-b23a4021",
+    "office-word-mcp-server-2b945011",
+    "anyquery-887a1dbd",
+    "toolhive-0a964deb",
+    "toolhive-b1a43ea8",
+    "mcp-scan-97994414",
+    "pg-aiguide-fafd8f1c",
+    "google-workspace-mcp-0afbbdc6",
+    "mcptools-4e29f4f0",
+    "ops-3166cb60",
+    "mcp-language-server-2345cb2d",
+    "pilot-shell-ef85c128",
+    "unreal-mcp-62dc0b06",
+    "slack-mcp-server-487ce5b7",
+    "google-analytics-mcp-server-84e30b6f",
+    "mcp-server-kubernetes-740d17af",
+    "mcp-obsidian-03666543",
+    "awesome-hacking-lists-d9a5d7a6",
+    "jadx-ai-mcp-5c5bc36b",
+    "minimax-mcp-server-09a1082f",
+    "damn-vulnerable-mcp-server-7a371454",
+    "web-qa-agent-4c0bd62a",
+    "web-agent-qa-c07eea79",
+    "claude-code-settings-89738951",
+    "mcp-server-mysql-daebc53f",
+    "terraform-skill-b2b81537",
+    "awesome-claude-plugins-5322a2b7",
+    "npcpy-d925d302",
+    "azure-mcp-184c5851",
+    "kubernetes-mcp-server-083ef26a",
+    "mcp-golang-29dfa9fc",
+    "imcp-554e254a",
+    "claude-code-safety-net-e118d20c",
+    "mcp-server-chatsum-ae962098",
+    "mcp-server-chatsum-24cbd4a1",
+    "ros-mcp-server-cdd227a3",
+    "aws-agent-skills-5a2c4082",
+    "openops-6578e739",
+    "cloudbase-ai-toolkit-dcb36dfe",
+    "mcp-jetbrains-6f0177e4",
+    "awesome-llm-skills-170e8e95",
+    "pixelle-mcp-7d0abdc3",
+    "atlas-mcp-server-73c5cabf",
+    "agentic-radar-b86020f9"
+  ],
+  "target_details": [
+    {
+      "id": "brightdata-mcp-38a0fdba",
+      "name": "brightdata-mcp",
+      "stars": 2060,
+      "verification_level": "scanner_only",
+      "repo_url": "https://github.com/luminati-io/brightdata-mcp"
+    },
+    {
+      "id": "brightdata-mcp-96eccf50",
+      "name": "brightdata-mcp",
+      "stars": 2060,
+      "verification_level": "scanner_only",
+      "repo_url": "https://github.com/brightdata-com/brightdata-mcp"
+    },
+    {
+      "id": "mcp-directory-4366e9ee",
+      "name": "mcp-directory",
+      "stars": 1969,
+      "verification_level": "scanner_only",
+      "repo_url": "https://github.com/chatmcp/mcp-directory"
+    },
+    {
+      "id": "claude-skills-ae7e84f7",
+      "name": "claude-skills",
+      "stars": 1968,
+      "verification_level": "scanner_only",
+      "repo_url": "https://github.com/alirezarezvani/claude-skills"
+    },
+    {
+      "id": "arscontexta-76423d78",
+      "name": "arscontexta",
+      "stars": 1879,
+      "verification_level": "scanner_only",
+      "repo_url": "https://github.com/agenticnotetaking/arscontexta"
+    },
+    {
+      "id": "vibe-coding-prompt-template-16454732",
+      "name": "vibe-coding-prompt-template",
+      "stars": 1848,
+      "verification_level": "scanner_only",
+      "repo_url": "https://github.com/KhazP/vibe-coding-prompt-template"
+    },
+    {
+      "id": "playwright-browser-automation-b23a4021",
+      "name": "Playwright Browser Automation",
+      "stars": 1791,
+      "verification_level": "metadata_only",
+      "repo_url": "https://github.com/lackeyjb/playwright-skill"
+    },
+    {
+      "id": "office-word-mcp-server-2b945011",
+      "name": "Office-Word-MCP-Server",
+      "stars": 1634,
+      "verification_level": "scanner_only",
+      "repo_url": "https://github.com/GongRzhe/Office-Word-MCP-Server"
+    },
+    {
+      "id": "anyquery-887a1dbd",
+      "name": "anyquery",
+      "stars": 1626,
+      "verification_level": "scanner_only",
+      "repo_url": "https://github.com/julien040/anyquery"
+    },
+    {
+      "id": "toolhive-0a964deb",
+      "name": "toolhive",
+      "stars": 1618,
+      "verification_level": "scanner_only",
+      "repo_url": "https://github.com/stacklok/toolhive"
+    },
+    {
+      "id": "toolhive-b1a43ea8",
+      "name": "toolhive",
+      "stars": 1618,
+      "verification_level": "scanner_only",
+      "repo_url": "https://github.com/StacklokLabs/toolhive"
+    },
+    {
+      "id": "mcp-scan-97994414",
+      "name": "mcp-scan",
+      "stars": 1585,
+      "verification_level": "scanner_only",
+      "repo_url": "https://github.com/invariantlabs-ai/mcp-scan"
+    },
+    {
+      "id": "pg-aiguide-fafd8f1c",
+      "name": "pg-aiguide",
+      "stars": 1563,
+      "verification_level": "scanner_only",
+      "repo_url": "https://github.com/timescale/pg-aiguide"
+    },
+    {
+      "id": "google-workspace-mcp-0afbbdc6",
+      "name": "google_workspace_mcp",
+      "stars": 1535,
+      "verification_level": "scanner_only",
+      "repo_url": "https://github.com/taylorwilsdon/google_workspace_mcp"
+    },
+    {
+      "id": "mcptools-4e29f4f0",
+      "name": "mcptools",
+      "stars": 1493,
+      "verification_level": "scanner_only",
+      "repo_url": "https://github.com/f/mcptools"
+    },
+    {
+      "id": "ops-3166cb60",
+      "name": "ops",
+      "stars": 1466,
+      "verification_level": "scanner_only",
+      "repo_url": "https://github.com/nanovms/ops"
+    },
+    {
+      "id": "mcp-language-server-2345cb2d",
+      "name": "mcp-language-server",
+      "stars": 1454,
+      "verification_level": "scanner_only",
+      "repo_url": "https://github.com/isaacphi/mcp-language-server"
+    },
+    {
+      "id": "pilot-shell-ef85c128",
+      "name": "pilot-shell",
+      "stars": 1441,
+      "verification_level": "scanner_only",
+      "repo_url": "https://github.com/maxritter/pilot-shell"
+    },
+    {
+      "id": "unreal-mcp-62dc0b06",
+      "name": "unreal-mcp",
+      "stars": 1440,
+      "verification_level": "scanner_only",
+      "repo_url": "https://github.com/chongdashu/unreal-mcp"
+    },
+    {
+      "id": "slack-mcp-server-487ce5b7",
+      "name": "slack-mcp-server",
+      "stars": 1392,
+      "verification_level": "scanner_only",
+      "repo_url": "https://github.com/korotovsky/slack-mcp-server"
+    },
+    {
+      "id": "google-analytics-mcp-server-84e30b6f",
+      "name": "Google Analytics MCP Server",
+      "stars": 1346,
+      "verification_level": "scanner_only",
+      "repo_url": "https://github.com/googleanalytics/google-analytics-mcp"
+    },
+    {
+      "id": "mcp-server-kubernetes-740d17af",
+      "name": "mcp-server-kubernetes",
+      "stars": 1323,
+      "verification_level": "scanner_only",
+      "repo_url": "https://github.com/Flux159/mcp-server-kubernetes"
+    },
+    {
+      "id": "mcp-obsidian-03666543",
+      "name": "mcp-obsidian",
+      "stars": 1310,
+      "verification_level": "scanner_only",
+      "repo_url": "https://github.com/smithery-ai/mcp-obsidian"
+    },
+    {
+      "id": "awesome-hacking-lists-d9a5d7a6",
+      "name": "awesome-hacking-lists",
+      "stars": 1292,
+      "verification_level": "scanner_only",
+      "repo_url": "https://github.com/taielab/awesome-hacking-lists"
+    },
+    {
+      "id": "jadx-ai-mcp-5c5bc36b",
+      "name": "jadx-ai-mcp",
+      "stars": 1290,
+      "verification_level": "scanner_only",
+      "repo_url": "https://github.com/zinja-coder/jadx-ai-mcp"
+    },
+    {
+      "id": "minimax-mcp-server-09a1082f",
+      "name": "MiniMax MCP Server",
+      "stars": 1274,
+      "verification_level": "scanner_only",
+      "repo_url": "https://github.com/MiniMax-AI/MiniMax-MCP"
+    },
+    {
+      "id": "damn-vulnerable-mcp-server-7a371454",
+      "name": "damn-vulnerable-MCP-server",
+      "stars": 1258,
+      "verification_level": "scanner_only",
+      "repo_url": "https://github.com/harishsg993010/damn-vulnerable-MCP-server"
+    },
+    {
+      "id": "web-qa-agent-4c0bd62a",
+      "name": "web-qa-agent",
+      "stars": 1235,
+      "verification_level": "scanner_only",
+      "repo_url": "https://github.com/Operative-Sh/web-qa-agent"
+    },
+    {
+      "id": "web-agent-qa-c07eea79",
+      "name": "web-agent-qa",
+      "stars": 1235,
+      "verification_level": "scanner_only",
+      "repo_url": "https://github.com/Operative-Sh/web-agent-qa"
+    },
+    {
+      "id": "claude-code-settings-89738951",
+      "name": "claude-code-settings",
+      "stars": 1232,
+      "verification_level": "scanner_only",
+      "repo_url": "https://github.com/feiskyer/claude-code-settings"
+    },
+    {
+      "id": "mcp-server-mysql-daebc53f",
+      "name": "mcp-server-mysql",
+      "stars": 1230,
+      "verification_level": "scanner_only",
+      "repo_url": "https://github.com/benborla/mcp-server-mysql"
+    },
+    {
+      "id": "terraform-skill-b2b81537",
+      "name": "terraform-skill",
+      "stars": 1225,
+      "verification_level": "scanner_only",
+      "repo_url": "https://github.com/antonbabenko/terraform-skill"
+    },
+    {
+      "id": "awesome-claude-plugins-5322a2b7",
+      "name": "awesome-claude-plugins",
+      "stars": 1210,
+      "verification_level": "scanner_only",
+      "repo_url": "https://github.com/ComposioHQ/awesome-claude-plugins"
+    },
+    {
+      "id": "npcpy-d925d302",
+      "name": "npcpy",
+      "stars": 1210,
+      "verification_level": "scanner_only",
+      "repo_url": "https://github.com/cagostino/npcpy"
+    },
+    {
+      "id": "azure-mcp-184c5851",
+      "name": "azure-mcp",
+      "stars": 1204,
+      "verification_level": "scanner_only",
+      "repo_url": "https://github.com/Azure/azure-mcp"
+    },
+    {
+      "id": "kubernetes-mcp-server-083ef26a",
+      "name": "kubernetes-mcp-server",
+      "stars": 1202,
+      "verification_level": "scanner_only",
+      "repo_url": "https://github.com/manusa/kubernetes-mcp-server"
+    },
+    {
+      "id": "mcp-golang-29dfa9fc",
+      "name": "mcp-golang",
+      "stars": 1196,
+      "verification_level": "scanner_only",
+      "repo_url": "https://github.com/metoro-io/mcp-golang"
+    },
+    {
+      "id": "imcp-554e254a",
+      "name": "iMCP",
+      "stars": 1170,
+      "verification_level": "scanner_only",
+      "repo_url": "https://github.com/loopwork-ai/iMCP"
+    },
+    {
+      "id": "claude-code-safety-net-e118d20c",
+      "name": "claude-code-safety-net",
+      "stars": 1087,
+      "verification_level": "scanner_only",
+      "repo_url": "https://github.com/kenryu42/claude-code-safety-net"
+    },
+    {
+      "id": "mcp-server-chatsum-ae962098",
+      "name": "mcp-server-chatsum",
+      "stars": 1032,
+      "verification_level": "scanner_only",
+      "repo_url": "https://github.com/chatmcp/mcp-server-chatsum"
+    },
+    {
+      "id": "mcp-server-chatsum-24cbd4a1",
+      "name": "mcp-server-chatsum",
+      "stars": 1032,
+      "verification_level": "scanner_only",
+      "repo_url": "https://github.com/mcpso/mcp-server-chatsum"
+    },
+    {
+      "id": "ros-mcp-server-cdd227a3",
+      "name": "ros_mcp_server",
+      "stars": 1031,
+      "verification_level": "scanner_only",
+      "repo_url": "https://github.com/lpigeon/ros_mcp_server"
+    },
+    {
+      "id": "aws-agent-skills-5a2c4082",
+      "name": "aws-agent-skills",
+      "stars": 1001,
+      "verification_level": "scanner_only",
+      "repo_url": "https://github.com/itsmostafa/aws-agent-skills"
+    },
+    {
+      "id": "openops-6578e739",
+      "name": "openops",
+      "stars": 994,
+      "verification_level": "scanner_rescored",
+      "repo_url": "https://github.com/openops-cloud/openops"
+    },
+    {
+      "id": "cloudbase-ai-toolkit-dcb36dfe",
+      "name": "cloudbase-ai-toolkit",
+      "stars": 960,
+      "verification_level": "scanner_rescored",
+      "repo_url": "https://github.com/TencentCloudBase/cloudbase-ai-toolkit"
+    },
+    {
+      "id": "mcp-jetbrains-6f0177e4",
+      "name": "mcp-jetbrains",
+      "stars": 943,
+      "verification_level": "scanner_rescored",
+      "repo_url": "https://github.com/JetBrains/mcp-jetbrains"
+    },
+    {
+      "id": "awesome-llm-skills-170e8e95",
+      "name": "awesome-llm-skills",
+      "stars": 934,
+      "verification_level": "scanner_only",
+      "repo_url": "https://github.com/Prat011/awesome-llm-skills"
+    },
+    {
+      "id": "pixelle-mcp-7d0abdc3",
+      "name": "pixelle-mcp",
+      "stars": 926,
+      "verification_level": "scanner_rescored",
+      "repo_url": "https://github.com/AIDC-AI/pixelle-mcp"
+    },
+    {
+      "id": "atlas-mcp-server-73c5cabf",
+      "name": "atlas-mcp-server",
+      "stars": 924,
+      "verification_level": "scanner_rescored",
+      "repo_url": "https://github.com/mongodb-labs/atlas-mcp-server"
+    },
+    {
+      "id": "agentic-radar-b86020f9",
+      "name": "agentic-radar",
+      "stars": 915,
+      "verification_level": "scanner_rescored",
+      "repo_url": "https://github.com/splx-ai/agentic-radar"
+    }
+  ],
+  "selection_criteria": "Top 50 by stars, excluding full_pipeline, repo_unavailable, non-GitHub",
+  "star_range": {
+    "min": 915,
+    "max": 2060
+  },
+  "level_breakdown": {
+    "scanner_only": 43,
+    "metadata_only": 1,
+    "scanner_rescored": 6
+  },
+  "count": 50
+}

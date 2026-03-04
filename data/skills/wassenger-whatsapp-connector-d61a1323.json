@@ -1,7 +1,7 @@
 {
   "id": "wassenger-whatsapp-connector-d61a1323",
   "name": "wassenger-whatsapp-connector",
-  "description": "\ud83d\ude80 Supercharge your WhatsApp automation driven by AI! Send messages, summarize conversations, and manage chats using natural language from your favorite AI assistant like ChatGPT, Claude, or custom AI agents.\n\n\u2728 Easily integrate Wassenger WhatsApp API with any MCP-powered AI client including ChatGPT, VS Code Copilot, Claude Desktop, Cursor, Windsurf and many more!\n\n\ud83d\udcac Transform how you communicate - automate responses, analyze chat patterns, and manage customer conversations at scale, manage Wh...",
+  "description": "🚀 Supercharge your WhatsApp automation driven by AI! Send messages, summarize conversations, and manage chats using natural language from your favorite AI assistant like ChatGPT, Claude, or custom AI agents.\n\n✨ Easily integrate Wassenger WhatsApp API with any MCP-powered AI client including ChatGPT, VS Code Copilot, Claude Desktop, Cursor, Windsurf and many more!\n\n💬 Transform how you communicate - automate responses, analyze chat patterns, and manage customer conversations at scale, manage Wh...",
   "repo_url": "https://github.com/Wassenger/wassenger-whatsapp-connector",
   "source_hub": "mcp_so",
   "owner": "Wassenger",
@@ -9,11 +9,11 @@
   "primary_language": "unknown",
   "tags": [
     "repo_unavailable",
+    "data",
     "data-ai",
     "data-ai-nlp",
-    "dev",
     "integ",
-    "integ-crm",
+    "integrations-messaging",
     "prod",
     "prod-comm"
   ],

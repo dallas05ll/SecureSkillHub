@@ -10,9 +10,12 @@
   "primary_language": "python",
   "tags": [
     "agent-skills",
-    "dev-git",
     "installs:24211",
-    "status-pass"
+    "status-pass",
+    "dev",
+    "dev-git",
+    "integ",
+    "integrations-github"
   ],
   "verification_status": "pass",
   "overall_score": 10,

@@ -1,16 +1,15 @@
 {
   "id": "mcp-perplexity-search-3315aae3",
   "name": "mcp-perplexity-search",
-  "description": "\ud83d\udd0e A Model Context Protocol (MCP) server for integrating Perplexity's AI API with LLMs.",
+  "description": "🔎 A Model Context Protocol (MCP) server for integrating Perplexity's AI API with LLMs.",
   "repo_url": "https://github.com/spences10/mcp-perplexity-search",
   "source_hub": "mcp_so",
   "owner": "spences10",
   "stars": 8,
   "primary_language": "unknown",
   "tags": [
-    "data-ai",
-    "data-ai-nlp",
     "integ",
+    "util",
     "util-search"
   ],
   "verification_status": "pass",

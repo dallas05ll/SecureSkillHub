@@ -1,17 +1,17 @@
 {
   "id": "cortex-777cbcd6",
   "name": "cortex",
-  "description": "A declarative platform for building Model Context Protocol (MCP) servers in Golang\u2014exposing tools, resources & prompts in a clean, structured way",
+  "description": "A declarative platform for building Model Context Protocol (MCP) servers in Golang—exposing tools, resources & prompts in a clean, structured way",
   "repo_url": "https://github.com/FreePeak/cortex",
   "source_hub": "mcp_so",
   "owner": "FreePeak",
   "stars": 24,
   "primary_language": "go",
   "tags": [
-    "data-ai",
-    "data-ai-nlp",
-    "dev-web-backend-go",
-    "util"
+    "dev",
+    "dev-web",
+    "dev-web-backend",
+    "dev-web-backend-go"
   ],
   "verification_status": "pass",
   "overall_score": 87,

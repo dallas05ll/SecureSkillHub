@@ -1,15 +1,15 @@
 {
   "id": "mcp-server-searxng-ea996c78",
   "name": "mcp_server_searXNG",
-  "description": "\u57fa\u4e8eMCP\u6280\u672f\uff0c\u4f7f\u7528searXNG\u7684\u7f51\u7edc\u641c\u7d22\u5de5\u5177",
+  "description": "基于MCP技术，使用searXNG的网络搜索工具",
   "repo_url": "https://github.com/panxingfeng/mcp_server_searXNG",
   "source_hub": "mcp_so",
   "owner": "panxingfeng",
   "stars": 1,
   "primary_language": "python",
   "tags": [
-    "integ",
-    "util"
+    "util",
+    "util-search"
   ],
   "verification_status": "pass",
   "overall_score": 97,

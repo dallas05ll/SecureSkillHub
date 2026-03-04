@@ -1,19 +1,18 @@
 {
   "id": "xtended-3d179479",
   "name": "xtended",
-  "description": "Co-create schemas with your AI \u2014 typed fields, relationships, SQL-like constraints. Turn unstructured content into a curated database built for insights.\r\n\r\nPlatform integrations such as PostHog and Microsoft built-in and expanding. Any HTTP API via OpenAPI import. One MCP connection gives your agent full CRUD, semantic search, and a structured knowledge base that grows correctly over time.",
+  "description": "Co-create schemas with your AI — typed fields, relationships, SQL-like constraints. Turn unstructured content into a curated database built for insights.\r\n\r\nPlatform integrations such as PostHog and Microsoft built-in and expanding. Any HTTP API via OpenAPI import. One MCP connection gives your agent full CRUD, semantic search, and a structured knowledge base that grows correctly over time.",
   "repo_url": "https://github.com/Matt Gibson/xtended",
   "source_hub": "mcp_so",
   "owner": "Matt Gibson",
   "stars": 0,
   "primary_language": "unknown",
   "tags": [
+    "repo_unavailable",
     "data",
-    "data-ai",
-    "data-ai-rag",
     "data-db",
     "integ",
-    "repo_unavailable",
+    "util",
     "util-search"
   ],
   "verification_status": "unverified",

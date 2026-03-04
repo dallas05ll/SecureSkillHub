@@ -1,7 +1,7 @@
 {
   "id": "searchcraft-mcp-server-d0c92ac9",
   "name": "searchcraft-mcp-server",
-  "description": "An MCP Server powered by Searchcraft \u2013 the developer-first vertical search engine.",
+  "description": "An MCP Server powered by Searchcraft – the developer-first vertical search engine.",
   "repo_url": "https://github.com/searchcraft-inc/searchcraft-mcp-server",
   "source_hub": "mcp_so",
   "owner": "searchcraft-inc",
@@ -9,6 +9,7 @@
   "primary_language": "typescript",
   "tags": [
     "dev",
+    "util",
     "util-search"
   ],
   "verification_status": "pass",

@@ -1,7 +1,7 @@
 {
   "id": "testdino-mcp-ab88c721",
   "name": "testdino-mcp",
-  "description": "TestDino MCP is a Model Context Protocol server that lets AI agents work directly with your Playwright test data, without leaving your editor or opening a browser.\r\n\r\nOnce connected, your AI assistant can browse TestDino runs, inspect failing tests, and manage manual cases using plain language. Ask it to \u201cshow the last 5 failed runs in production,\u201d \u201cdebug the checkout flow test,\u201d or \u201clist all critical manual test cases in project X,\u201d and it will call the right tools behind the scenes.\r\n\r\nThe ...",
+  "description": "TestDino MCP is a Model Context Protocol server that lets AI agents work directly with your Playwright test data, without leaving your editor or opening a browser.\r\n\r\nOnce connected, your AI assistant can browse TestDino runs, inspect failing tests, and manage manual cases using plain language. Ask it to “show the last 5 failed runs in production,” “debug the checkout flow test,” or “list all critical manual test cases in project X,” and it will call the right tools behind the scenes.\r\n\r\nThe ...",
   "repo_url": "https://github.com/testdino-hq/testdino-mcp",
   "source_hub": "mcp_so",
   "owner": "testdino-hq",
@@ -10,14 +10,9 @@
   "tags": [
     "data",
     "data-ai",
-    "data-ai-nlp",
     "dev",
     "dev-testing",
-    "dev-web",
-    "integ",
-    "integrations-payment",
-    "util",
-    "util-search"
+    "dev-web"
   ],
   "verification_status": "pass",
   "overall_score": 98,

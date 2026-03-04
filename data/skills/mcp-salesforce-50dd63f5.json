@@ -1,15 +1,13 @@
 {
   "id": "mcp-salesforce-50dd63f5",
   "name": "mcp-salesforce",
-  "description": "\ud83d\ude80 Complete MCP (Model Context Protocol) server for Salesforce integration with Claude Desktop. Provides seamless OAuth authentication, universal CRUD operations on any Salesforce object.",
+  "description": "🚀 Complete MCP (Model Context Protocol) server for Salesforce integration with Claude Desktop. Provides seamless OAuth authentication, universal CRUD operations on any Salesforce object.",
   "repo_url": "https://github.com/AiondaDotCom/mcp-salesforce",
   "source_hub": "mcp_so",
   "owner": "AiondaDotCom",
   "stars": 12,
   "primary_language": "javascript",
   "tags": [
-    "data-ai",
-    "data-ai-nlp",
     "integ",
     "integ-crm",
     "sec",

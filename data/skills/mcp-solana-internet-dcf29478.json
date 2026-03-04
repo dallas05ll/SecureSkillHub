@@ -1,18 +1,20 @@
 {
   "id": "mcp-solana-internet-dcf29478",
   "name": "mcp-solana-internet",
-  "description": "Solana-based micropayment server using MCP. \ud83d\udcb0 Facilitates direct SOL transfers for resource access control via a Flask API. \ud83d\udd11 Returns solana-action: URIs for unsigned transactions, validated on-chain. \u2705 Includes robust transaction checks, resource pricing, and basic access management. \ud83e\uddea",
+  "description": "Solana-based micropayment server using MCP. 💰 Facilitates direct SOL transfers for resource access control via a Flask API. 🔑 Returns solana-action: URIs for unsigned transactions, validated on-chain. ✅ Includes robust transaction checks, resource pricing, and basic access management. 🧪",
   "repo_url": "https://github.com/waifuai/mcp-solana-internet",
   "source_hub": "mcp_so",
   "owner": "waifuai",
   "stars": 1,
   "primary_language": "python",
   "tags": [
-    "data-ai",
+    "dev",
+    "dev-web",
+    "dev-web-backend",
     "dev-web-backend-python",
     "integ",
-    "integ-payment",
-    "data-finance"
+    "sec",
+    "sec-crypto"
   ],
   "verification_status": "pass",
   "overall_score": 76,

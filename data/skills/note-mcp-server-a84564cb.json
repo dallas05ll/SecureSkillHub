@@ -1,7 +1,7 @@
 {
   "id": "note-mcp-server-a84564cb",
   "name": "note-mcp-server",
-  "description": "note.com API \u3092\u5229\u7528\u3059\u308bModel Context Protocol (MCP) \u30b5\u30fc\u30d0\u30fc",
+  "description": "note.com API を利用するModel Context Protocol (MCP) サーバー",
   "repo_url": "https://github.com/shimayuz/note-mcp-server",
   "source_hub": "mcp_so",
   "owner": "shimayuz",
@@ -9,10 +9,7 @@
   "primary_language": "unknown",
   "tags": [
     "repo_unavailable",
-    "data-ai",
-    "data-ai-nlp",
-    "integ",
-    "prod-notes"
+    "integ"
   ],
   "verification_status": "unverified",
   "overall_score": 0,

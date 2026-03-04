@@ -1,14 +1,15 @@
 {
   "id": "nacos-mcp-router-96d81b3d",
   "name": "nacos-mcp-router",
-  "description": "Nacos MCP Router\u662f\u4e00\u4e2a\u57fa\u4e8eMCP\u5b98\u65b9\u6807\u51c6SDK\u5b9e\u73b0\u7684\u7684MCP Server\u3002\u5b83\u63d0\u4f9b\u4e86\u4e00\u7ec4\u5de5\u5177\uff0c\u63d0\u4f9bMCP Server\u63a8\u8350\u3001\u5206\u53d1\u3001\u5b89\u88c5\u53ca\u4ee3\u7406\u5176\u4ed6MCP Server\u7684\u529f\u80fd\uff0c\u5e2e\u52a9\u7528\u6237\u66f4\u65b9\u4fbf\u7684\u4f7f\u7528MCP Server\u670d\u52a1\u3002",
+  "description": "Nacos MCP Router是一个基于MCP官方标准SDK实现的的MCP Server。它提供了一组工具，提供MCP Server推荐、分发、安装及代理其他MCP Server的功能，帮助用户更方便的使用MCP Server服务。",
   "repo_url": "https://github.com/nacos-group/nacos-mcp-router",
   "source_hub": "mcp_so",
   "owner": "nacos-group",
   "stars": 170,
   "primary_language": "typescript",
   "tags": [
-    "dev"
+    "integ",
+    "util"
   ],
   "verification_status": "pass",
   "overall_score": 30,

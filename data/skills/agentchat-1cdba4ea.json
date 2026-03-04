@@ -1,22 +1,25 @@
 {
   "id": "agentchat-1cdba4ea",
   "name": "AgentChat",
-  "description": "AgentChat \u662f\u4e00\u4e2a\u4e0eAgent\u4ea4\u6d41\u7684\u5e73\u53f0\uff0c\u5305\u542b\u9ed8\u8ba4Agent\uff0c\u5e76\u652f\u6301\u81ea\u5b9a\u4e49Agent\uff0c\u53ef\u4ee5\u5b9e\u73b0\u591a\u8f6e\u95ee\u7b54\u4f7fAgent\u5e2e\u52a9\u7528\u6237\u60f3\u5b9e\u73b0\u7684\u529f\u80fd\u3002\u8be5\u9879\u76ee\u6280\u672f\u6808\u5305\u62ecLLM\u3001LangChain\u3001Function call\u3001ReAct\u3001MCP\u3001Milvus\u3001ElasticSearch\u3001RAG\u3001FastAPI",
+  "description": "AgentChat 是一个与Agent交流的平台，包含默认Agent，并支持自定义Agent，可以实现多轮问答使Agent帮助用户想实现的功能。该项目技术栈包括LLM、LangChain、Function call、ReAct、MCP、Milvus、ElasticSearch、RAG、FastAPI",
   "repo_url": "https://github.com/Shy2593666979/AgentChat",
   "source_hub": "mcp_so",
   "owner": "Shy2593666979",
   "stars": 363,
   "primary_language": "python",
   "tags": [
+    "data",
     "data-ai",
     "data-ai-rag",
+    "data-db",
     "data-db-vector",
+    "dev",
     "dev-agents",
+    "dev-web",
+    "dev-web-backend",
     "dev-web-backend-python",
-    "dev-web-frontend-react",
-    "integ",
-    "prod-comm",
-    "util-search"
+    "dev-web-frontend",
+    "dev-web-frontend-react"
   ],
   "verification_status": "pass",
   "overall_score": 45,
@@ -113,7 +116,7 @@
   },
   "pm_override": {
     "action": "fail_to_pass",
-    "reason": "PM batch override: 0 critical, 0 injection, 0 obfuscation. Fail caused by known scoring bug (max scanner penalty 40 + b_missed 15 = score \u226445 < 50 threshold). No security threat detected.",
+    "reason": "PM batch override: 0 critical, 0 injection, 0 obfuscation. Fail caused by known scoring bug (max scanner penalty 40 + b_missed 15 = score ≤45 < 50 threshold). No security threat detected.",
     "override_by": "PM batch review 20260303",
     "date": "2026-03-03"
   },

@@ -1,14 +1,15 @@
 {
   "id": "test-neon-mcp-server-waku-51af1223",
   "name": "test-neon-mcp-server-waku",
-  "description": "RSC Demo using Neon's MCP Server and Waku \u26e9\ufe0f",
+  "description": "RSC Demo using Neon's MCP Server and Waku ⛩️",
   "repo_url": "https://github.com/PaulieScanlon/test-neon-mcp-server-waku",
   "source_hub": "mcp_so",
   "owner": "PaulieScanlon",
   "stars": 1,
   "primary_language": "typescript",
   "tags": [
-    "dev-testing"
+    "integ",
+    "util"
   ],
   "verification_status": "pass",
   "overall_score": 98,

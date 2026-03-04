@@ -1,13 +1,15 @@
 {
   "id": "translate-server-6d68074b",
   "name": "translate-server",
-  "description": "\u4e00\u4e2a\u7b80\u5355\u7684\u7ffb\u8bd1MCP Server\uff0c\u53ef\u4ee5\u5b9e\u73b0\u5355\u6587\u4ef6\u6216\u8005\u76ee\u5f55\u7ffb\u8bd1\u80fd\u529b\uff0c\u4ec5\u652f\u6301JSON\u6570\u636e(JSON\uff0cJS\uff0cTS\u683c\u5f0f)\uff0c\u6839\u636e\u6587\u4ef6\u540d\u79f0\u81ea\u52a8\u622a\u53d6\u7ffb\u8bd1\u7684\u76ee\u6807\u8bed\u8a00\uff0c\u5b8c\u6210\u81ea\u52a8\u5316\u5904\u7406\u3002",
+  "description": "一个简单的翻译MCP Server，可以实现单文件或者目录翻译能力，仅支持JSON数据(JSON，JS，TS格式)，根据文件名称自动截取翻译的目标语言，完成自动化处理。",
   "repo_url": "https://github.com/vlinr/translate-server",
   "source_hub": "mcp_so",
   "owner": "vlinr",
   "stars": 1,
   "primary_language": "typescript",
   "tags": [
+    "data",
+    "data-ai",
     "data-ai-nlp"
   ],
   "verification_status": "pass",

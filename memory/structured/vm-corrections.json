@@ -1,0 +1,142 @@
+{
+  "schema_version": "1.0",
+  "role": "verification_manager",
+  "entries": [
+    {
+      "id": "vm-c-001",
+      "title": "Scanner-only scoring bug",
+      "category": "scoring",
+      "status": "fixed",
+      "description": "severity_counts/category_counts not in ScannerOutput model. Fixed: computed from findings list via compute_scan_stats().",
+      "date_fixed": "2026-02-28"
+    },
+    {
+      "id": "vm-c-002",
+      "title": "Scanner crash bypass",
+      "category": "safety",
+      "status": "fixed",
+      "description": "Pipeline scanner failure now sets injection_patterns_count=1 (fail-safe instead of silent pass).",
+      "date_fixed": "2026-02-28"
+    },
+    {
+      "id": "vm-c-003",
+      "title": "D1 risk floor",
+      "category": "scoring",
+      "status": "fixed",
+      "description": "Risk upgrade on critical findings now covers LOW/MEDIUM, not just INFO.",
+      "date_fixed": "2026-02-28"
+    },
+    {
+      "id": "vm-c-004",
+      "title": "dangerous_calls → MEDIUM risk",
+      "category": "scoring",
+      "status": "fixed",
+      "description": "dangerous_calls findings no longer set risk=HIGH. CRITICAL only from injection/obfuscation. Removed 50% false fail rate.",
+      "date_fixed": "2026-03-01"
+    },
+    {
+      "id": "vm-c-005",
+      "title": "Scanner penalty cap at 40",
+      "category": "scoring",
+      "status": "fixed",
+      "description": "Scanner penalty capped at 40 points. Previously uncapped, large repos could get penalty of 1952+ crushing score to 0.",
+      "date_fixed": "2026-03-01"
+    },
+    {
+      "id": "vm-c-006",
+      "title": "markdown_injection false positive",
+      "category": "scanner",
+      "status": "fixed",
+      "description": "Pattern matched data: ANYWHERE in URL. Fixed: only matches when protocol is at URL start. Shields.io badges were triggering.",
+      "date_fixed": "2026-03-01"
+    },
+    {
+      "id": "vm-c-007",
+      "title": "Obfuscation split HIGH_RISK/LOW_RISK",
+      "category": "scanner",
+      "status": "implemented",
+      "description": "Only high-risk patterns (rot13, marshal, chr concat) trigger safety override. Low-risk (hex_escape, base64 in tests) don't block pass.",
+      "date_fixed": "2026-02-28"
+    },
+    {
+      "id": "vm-c-008",
+      "title": "hidden_instruction narrowed",
+      "category": "scanner",
+      "status": "fixed",
+      "description": "Requires specific injection keywords (SYSTEM:, IGNORE, OVERRIDE, INSTRUCTION:).",
+      "date_fixed": "2026-02-28"
+    },
+    {
+      "id": "vm-c-009",
+      "title": "system_override narrowed",
+      "category": "scanner",
+      "status": "fixed",
+      "description": "Requires ignore|override|forget|disregard after SYSTEM:.",
+      "date_fixed": "2026-02-28"
+    },
+    {
+      "id": "vm-c-010",
+      "title": "jailbreak pattern narrowed",
+      "category": "scanner",
+      "status": "fixed",
+      "description": "Only JAILBREAK and DAN MODE. Removed DEVELOPER MODE (too broad).",
+      "date_fixed": "2026-02-28"
+    },
+    {
+      "id": "vm-c-011",
+      "title": "act_as/pretend_to_be context requirement",
+      "category": "scanner",
+      "status": "fixed",
+      "description": "Requires jailbreak context words (DAN, unrestricted, etc.).",
+      "date_fixed": "2026-02-28"
+    },
+    {
+      "id": "vm-c-012",
+      "title": "JSON files excluded from obfuscation",
+      "category": "scanner",
+      "status": "fixed",
+      "description": "JSON files are data, not code — exclude from obfuscation scanning.",
+      "date_fixed": "2026-02-28"
+    },
+    {
+      "id": "vm-c-013",
+      "title": "Clone cleanup context managers",
+      "category": "safety",
+      "status": "fixed",
+      "description": "All clone operations use context managers (TemporaryDirectory or CloneContext). No orphan clones.",
+      "date_fixed": "2026-03-02"
+    },
+    {
+      "id": "vm-c-014",
+      "title": "skill_id regex validation",
+      "category": "safety",
+      "status": "implemented",
+      "description": "skill_id validated with ^[a-zA-Z0-9_-]+$ in both verify_one_skill() and fail_skill().",
+      "date_fixed": "2026-03-02"
+    },
+    {
+      "id": "vm-c-015",
+      "title": "Scanner FP fixes batch 1",
+      "category": "scanner",
+      "status": "superseded_by_vm-c-017",
+      "description": "Superseded by vm-c-017 which consolidates all Run 3 scanner fixes.",
+      "date_fixed": "2026-03-03"
+    },
+    {
+      "id": "vm-c-016",
+      "title": "Scanner FP fixes batch 2",
+      "category": "scanner",
+      "status": "superseded_by_vm-c-017",
+      "description": "Superseded by vm-c-017 which consolidates all Run 3 scanner fixes.",
+      "date_fixed": "2026-03-03"
+    },
+    {
+      "id": "vm-c-017",
+      "title": "Run 3 consolidated scanner fixes",
+      "category": "scanner",
+      "status": "fixed",
+      "description": "7 fixes: unicode_escape_seq threshold 3→6, override_role context, roleplay_escape trailing, Cat 9 security detector skip, Cat 10 webpack chunk skip, protobuf _pb2.py skip, 4 new PM_VERIFIED_ORGS.",
+      "date_fixed": "2026-03-04"
+    }
+  ]
+}
