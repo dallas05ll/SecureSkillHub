@@ -73,6 +73,40 @@
       "title": "Roleplay_escape trailing requirement",
       "category": "scanner_fix",
       "description": "Pattern requires MODE/NOW/IMMEDIATELY after EXIT/END/LEAVE ROLEPLAY/CHARACTER."
+    },
+    {
+      "id": "secm-p-013",
+      "title": "Bug: empty scan_report with findings in agent_audit",
+      "category": "pipeline_bug",
+      "description": "Scanner produces findings (in agent_c_star audit) but scan_report field is empty {}. Auto-clear cannot inspect findings. Affects 637 skills. Fix: ensure pipeline.py writes scan_report from scanner output.",
+      "priority": "P0",
+      "action": "Fix pipeline.py to always write scan_report from scanner results",
+      "discovered": "2026-03-04T20:17:33.523325+00:00"
+    },
+    {
+      "id": "secm-p-014",
+      "title": "Scanner FP: Python data-URI f-strings",
+      "category": "false_positive",
+      "description": "f'![{alt}](data:{mime};base64,{data})' triggers regex_markdown_injection. Legitimate image embedding for PDF/API. Affects 2 overrides.",
+      "priority": "P1",
+      "action": "Exclude data: in f-string interpolation from markdown_injection pattern",
+      "discovered": "2026-03-04T20:17:33.523325+00:00"
+    }
+  ],
+  "last_evolve": "2026-03-04T20:17:33.523325+00:00",
+  "evolve_history": [
+    {
+      "timestamp": "2026-03-04T20:17:33.523325+00:00",
+      "total_overrides": 637,
+      "by_type": {
+        "other": 607,
+        "injection_fp": 14,
+        "obfuscation_fp": 9,
+        "structural_large_repo": 5,
+        "data_uri_base64": 2
+      },
+      "proposals_generated": 2,
+      "new_entries_added": 2
     }
   ]
 }

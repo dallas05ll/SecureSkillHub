@@ -234,6 +234,53 @@ def write_sm_memory(memory: dict):
     SM_MEMORY_FILE.write_text(json.dumps(memory, indent=2, ensure_ascii=False))
 
 
+def load_prior_learnings(memory: dict) -> dict:
+    """Read SM's own memory to apply prior learnings."""
+    prior = {
+        "last_evolve": memory.get("last_evolve"),
+        "evolve_count": len(memory.get("evolve_history", [])),
+        "prior_recommendations": [],
+        "prior_fp_count": 0,
+        "prior_coverage_gaps": [],
+    }
+
+    # Extract from latest evolve entry
+    history = memory.get("evolve_history", [])
+    if history:
+        latest = history[-1]
+        prior["prior_recommendations"] = latest.get("recommendations", [])
+        prior["prior_fp_count"] = latest.get("fp_pattern_count", 0)
+        gaps = latest.get("tag_analysis", {}).get("coverage_gaps", [])
+        prior["prior_coverage_gaps"] = [g["category"] for g in gaps]
+
+    return prior
+
+
+def compare_with_prior(prior: dict, current_recs: list[str], current_fp_count: int) -> list[str]:
+    """Compare current state with prior learnings to measure progress."""
+    deltas = []
+
+    if prior["evolve_count"] > 0:
+        # FP trend
+        fp_delta = current_fp_count - prior["prior_fp_count"]
+        if fp_delta > 0:
+            deltas.append(f"TREND: FP count increased by {fp_delta} since last evolve")
+        elif fp_delta < 0:
+            deltas.append(f"TREND: FP count decreased by {abs(fp_delta)} since last evolve — scanner improving")
+
+        # Resolved recommendations
+        resolved = [r for r in prior["prior_recommendations"] if r not in current_recs]
+        if resolved:
+            deltas.append(f"RESOLVED: {len(resolved)} prior recommendations no longer apply")
+
+        # Persistent issues
+        persistent = [r for r in prior["prior_recommendations"] if r in current_recs]
+        if persistent:
+            deltas.append(f"PERSISTENT: {len(persistent)} recommendations still unresolved")
+
+    return deltas
+
+
 def evolve(report_only: bool = False, run_path: str | None = None):
     """Run the full SM evolve cycle."""
     now = datetime.now(timezone.utc).isoformat()
@@ -241,7 +288,21 @@ def evolve(report_only: bool = False, run_path: str | None = None):
     print("SM Self-Evolve Cycle")
     print("=" * 60)
 
-    # Load skills
+    # Step 1: READ prior learnings (read-before-write)
+    memory = load_sm_memory()
+    prior = load_prior_learnings(memory)
+    if prior["evolve_count"] > 0:
+        print(f"\n--- Prior Learnings (evolve #{prior['evolve_count']}) ---")
+        print(f"Last evolve: {prior['last_evolve']}")
+        print(f"Prior FP count: {prior['prior_fp_count']}")
+        if prior["prior_coverage_gaps"]:
+            print(f"Prior coverage gaps: {prior['prior_coverage_gaps']}")
+        if prior["prior_recommendations"]:
+            print(f"Prior recs ({len(prior['prior_recommendations'])}): {prior['prior_recommendations'][:3]}")
+    else:
+        print("\n[First evolve — no prior learnings]")
+
+    # Step 2: Load and analyze current state
     skills = load_all_skills()
     print(f"\nLoaded {len(skills)} skills")
 
@@ -269,12 +330,37 @@ def evolve(report_only: bool = False, run_path: str | None = None):
     for r in recommendations:
         print(f"  • {r}")
 
+    # Step 3: Compare with prior learnings (self-evolve awareness)
+    deltas = compare_with_prior(prior, recommendations, len(fp_patterns))
+    if deltas:
+        print(f"\n--- Evolution Deltas ---")
+        for d in deltas:
+            print(f"  Δ {d}")
+
+    # Step 4: SecM handoff — flag new FP patterns for security review
+    secm_memory_file = PROJECT_ROOT / "memory" / "structured" / "secm-patterns.json"
+    new_fp_for_secm = []
+    if secm_memory_file.exists():
+        try:
+            secm = json.load(open(secm_memory_file))
+            known_descs = {e.get("description", "")[:50] for e in secm.get("entries", [])}
+            for fp in fp_patterns:
+                reason_prefix = fp.get("reason", "")[:50]
+                if reason_prefix not in known_descs:
+                    new_fp_for_secm.append(fp)
+        except Exception:
+            pass
+    if new_fp_for_secm:
+        print(f"\n--- SecM Handoff ---")
+        print(f"  {len(new_fp_for_secm)} new FP patterns not yet in SecM memory:")
+        for fp in new_fp_for_secm[:5]:
+            print(f"    → {fp.get('reason', '?')[:80]}")
+
     if report_only:
         print("\n[Report only mode — no memory written]")
         return
 
-    # Write to SM memory
-    memory = load_sm_memory()
+    # Write to SM memory (already loaded above for read-before-write)
 
     evolve_entry = {
         "id": f"sm-evolve-{now[:19].replace(':', '')}",
@@ -293,6 +379,8 @@ def evolve(report_only: bool = False, run_path: str | None = None):
         },
         "fp_pattern_count": len(fp_patterns),
         "recommendations": recommendations,
+        "evolution_deltas": deltas,
+        "secm_handoff_count": len(new_fp_for_secm),
     }
 
     memory["evolve_history"].append(evolve_entry)

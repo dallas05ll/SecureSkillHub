@@ -4123,6 +4123,26 @@
         "recommendations_count": 2,
         "fp_patterns_learned": 594
       }
+    },
+    {
+      "type": "sm_evolve",
+      "timestamp": "2026-03-04T20:17:28.673259+00:00",
+      "summary": {
+        "total_skills": 11098,
+        "unique_tags": 77,
+        "recommendations_count": 2,
+        "fp_patterns_learned": 594
+      }
+    },
+    {
+      "type": "secm_evolve",
+      "timestamp": "2026-03-04T20:17:33.523325+00:00",
+      "summary": {
+        "total_overrides_analyzed": 637,
+        "proposals_generated": 2,
+        "new_patterns_learned": 2,
+        "empty_scan_report_bug": 637
+      }
     }
   ],
   "last_check": "2026-03-04T19:52:13.644107+00:00",
