@@ -7,21 +7,272 @@
   "skill_type": "agent_skill",
   "owner": "termix-official",
   "stars": 0,
-  "primary_language": "unknown",
+  "primary_language": "typescript",
   "tags": [
     "agent-skills",
     "installs:236",
     "data",
     "data-ai",
     "sec",
-    "sec-auth"
+    "sec-auth",
+    "status-fail"
   ],
-  "verification_status": "unverified",
-  "overall_score": 0,
-  "risk_level": "info",
-  "verified_commit": null,
+  "verification_status": "pass",
+  "overall_score": 10,
+  "risk_level": "critical",
+  "verified_commit": "3eedead94966bc6fada5bc66fad49f9b09ad2d02",
   "scan_summary": null,
   "repo_status": "available",
   "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
-  "repo_check_error": null
+  "repo_check_error": null,
+  "scan_date": "2026-03-04T21:43:50Z",
+  "findings_summary": {
+    "scanner_findings": 5356,
+    "dangerous_calls": 162,
+    "network_ops": 171,
+    "file_ops": 1922,
+    "env_access": 2528,
+    "obfuscation": 103,
+    "injection_patterns": 13,
+    "mismatches": 0,
+    "undocumented_capabilities": 0,
+    "supervisor_approved": false,
+    "supervisor_confidence": 95
+  },
+  "scan_report": {
+    "total_findings": 5356,
+    "injection_patterns_count": 13,
+    "obfuscation_count": 103,
+    "obfuscation_high_risk_count": 3,
+    "dangerous_calls_count": 162,
+    "severity_counts": {
+      "critical": 13,
+      "high": 722,
+      "medium": 2699,
+      "low": 1922,
+      "info": 0
+    },
+    "category_counts": {
+      "env_access": 2528,
+      "dangerous_calls": 162,
+      "file_ops": 1922,
+      "obfuscation": 103,
+      "network_ops": 171,
+      "injection_patterns": 13,
+      "suspicious_urls": 457
+    },
+    "top_findings": [
+      {
+        "rule_id": "regex_js_process_env",
+        "severity": "medium",
+        "category": "env_access",
+        "file": "cryptoclaw.mjs",
+        "line": 6
+      },
+      {
+        "rule_id": "regex_js_process_env",
+        "severity": "medium",
+        "category": "env_access",
+        "file": "vitest.e2e.config.ts",
+        "line": 4
+      },
+      {
+        "rule_id": "regex_py_exec",
+        "severity": "high",
+        "category": "dangerous_calls",
+        "file": "CHANGELOG.md",
+        "line": 1316
+      },
+      {
+        "rule_id": "regex_js_fs_read",
+        "severity": "low",
+        "category": "file_ops",
+        "file": "install.sh",
+        "line": 952
+      },
+      {
+        "rule_id": "regex_js_process_env",
+        "severity": "medium",
+        "category": "env_access",
+        "file": "vitest.config.ts",
+        "line": 7
+      },
+      {
+        "rule_id": "regex_js_process_env",
+        "severity": "medium",
+        "category": "env_access",
+        "file": "ui/vite.config.ts",
+        "line": 22
+      },
+      {
+        "rule_id": "regex_js_atob",
+        "severity": "high",
+        "category": "obfuscation",
+        "file": "ui/src/ui/device-identity.ts",
+        "line": 30
+      },
+      {
+        "rule_id": "regex_js_btoa",
+        "severity": "high",
+        "category": "obfuscation",
+        "file": "ui/src/ui/device-identity.ts",
+        "line": 24
+      },
+      {
+        "rule_id": "regex_js_fetch",
+        "severity": "medium",
+        "category": "network_ops",
+        "file": "ui/src/ui/app-chat.ts",
+        "line": 253
+      },
+      {
+        "rule_id": "regex_markdown_injection",
+        "severity": "critical",
+        "category": "injection_patterns",
+        "file": "ui/src/ui/markdown.test.ts",
+        "line": 15
+      },
+      {
+        "rule_id": "regex_js_fetch",
+        "severity": "medium",
+        "category": "network_ops",
+        "file": "ui/src/ui/app-channels.ts",
+        "line": 132
+      },
+      {
+        "rule_id": "regex_js_fetch",
+        "severity": "medium",
+        "category": "network_ops",
+        "file": "ui/src/ui/app-channels.ts",
+        "line": 202
+      },
+      {
+        "rule_id": "regex_py_exec",
+        "severity": "high",
+        "category": "dangerous_calls",
+        "file": "ui/src/ui/usage-helpers.ts",
+        "line": 297
+      },
+      {
+        "rule_id": "regex_js_websocket",
+        "severity": "medium",
+        "category": "network_ops",
+        "file": "ui/src/ui/gateway.ts",
+        "line": 97
+      },
+      {
+        "rule_id": "regex_py_open",
+        "severity": "low",
+        "category": "file_ops",
+        "file": "ui/src/ui/chat/grouped-render.ts",
+        "line": 226
+      },
+      {
+        "rule_id": "regex_py_exec",
+        "severity": "high",
+        "category": "dangerous_calls",
+        "file": "ui/src/ui/controllers/chat.ts",
+        "line": 54
+      },
+      {
+        "rule_id": "regex_py_exec",
+        "severity": "high",
+        "category": "dangerous_calls",
+        "file": "ui/src/ui/views/usage.ts",
+        "line": 2478
+      },
+      {
+        "rule_id": "regex_raw_ip_url",
+        "severity": "high",
+        "category": "suspicious_urls",
+        "file": "ui/src/ui/views/overview.ts",
+        "line": 94
+      },
+      {
+        "rule_id": "regex_py_exec",
+        "severity": "high",
+        "category": "dangerous_calls",
+        "file": "ui/src/ui/views/agents.ts",
+        "line": 242
+      },
+      {
+        "rule_id": "regex_js_fs_unlink",
+        "severity": "low",
+        "category": "file_ops",
+        "file": "test/test-env.ts",
+        "line": 136
+      }
+    ],
+    "total_files_scanned": 3652
+  },
+  "verification_level": "full_pipeline",
+  "agent_audit": {
+    "agents_completed": 5,
+    "agents_required": 5,
+    "pipeline_run_at": "2026-03-04T21:43:50Z",
+    "agent_a": {
+      "signed": true,
+      "signed_at": "2026-03-04T21:43:50Z",
+      "comment": "Docs quality 10/10. README present. 12 features, 4 permissions claimed.",
+      "doc_quality_score": 10,
+      "claimed_permissions": [
+        "network access",
+        "system command execution",
+        "file system access",
+        "environment/secret access"
+      ]
+    },
+    "agent_b": {
+      "signed": true,
+      "signed_at": "2026-03-04T21:43:50Z",
+      "comment": "3183 files analyzed. Found: 48 network, 54 file, 120 env, 13 system calls. Primary: typescript.",
+      "files_analyzed": 3183,
+      "capabilities_found": [
+        "imports external dependencies",
+        "performs network operations",
+        "reads/writes files",
+        "reads environment values",
+        "executes system commands"
+      ]
+    },
+    "agent_c_star": {
+      "signed": true,
+      "signed_at": "2026-03-04T21:43:50Z",
+      "comment": "5356 findings: 13 critical, 722 high, 2699 medium, 1922 low. Obfuscation detected!. Injection patterns found!.",
+      "total_findings": 5356,
+      "severity_counts": {
+        "critical": 13,
+        "high": 722,
+        "medium": 2699,
+        "low": 1922,
+        "info": 0
+      }
+    },
+    "agent_d": {
+      "signed": true,
+      "signed_at": "2026-03-04T21:43:50Z",
+      "comment": "Score 10. 0 mismatches. Risk: critical. Safety overrides: applied.",
+      "score": 10,
+      "mismatches": 0,
+      "safety_overrides_applied": true
+    },
+    "agent_e": {
+      "signed": true,
+      "signed_at": "2026-03-04T21:43:50Z",
+      "comment": "Rejected. Confidence 95%. Deterministic override: injection patterns detected.",
+      "approved": false,
+      "confidence": 95,
+      "override_reason": "Deterministic override: injection patterns detected."
+    },
+    "manager_summary": "5/5 agents completed. Score: 10/100, Risk: critical. 0 mismatches, 5356 scanner findings. Rejected at 95% confidence. Safety overrides triggered."
+  },
+  "status_cleared": true,
+  "pm_override": {
+    "original_status": "fail",
+    "override_to": "pass",
+    "reason": "Full-repo scan (cryptoclaw, 3652 files), 13 inj all in test file markdown.test.ts",
+    "override_type": "structural_large_repo",
+    "overridden_at": "2026-03-04T21:49:02.013312+00:00",
+    "overridden_by": "pm"
+  }
 }

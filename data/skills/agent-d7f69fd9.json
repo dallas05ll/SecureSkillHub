@@ -7,21 +7,267 @@
   "skill_type": "agent_skill",
   "owner": "treasure-data",
   "stars": 0,
-  "primary_language": "unknown",
+  "primary_language": "javascript",
   "tags": [
     "agent-skills",
     "installs:10",
     "data",
     "data-ai",
     "prod",
-    "prod-docs"
+    "prod-docs",
+    "status-pass"
   ],
-  "verification_status": "unverified",
-  "overall_score": 0,
-  "risk_level": "info",
-  "verified_commit": null,
+  "verification_status": "pass",
+  "overall_score": 60,
+  "risk_level": "medium",
+  "verified_commit": "1643fb37bd5e903fe763f1c3f6d422dfa40b1e8c",
   "scan_summary": null,
   "repo_status": "available",
   "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
-  "repo_check_error": null
+  "repo_check_error": null,
+  "scan_date": "2026-03-04T21:42:08Z",
+  "findings_summary": {
+    "scanner_findings": 120,
+    "dangerous_calls": 38,
+    "network_ops": 4,
+    "file_ops": 33,
+    "env_access": 40,
+    "obfuscation": 0,
+    "injection_patterns": 0,
+    "mismatches": 0,
+    "undocumented_capabilities": 0,
+    "supervisor_approved": false,
+    "supervisor_confidence": 60
+  },
+  "scan_report": {
+    "total_findings": 120,
+    "injection_patterns_count": 0,
+    "obfuscation_count": 0,
+    "obfuscation_high_risk_count": 0,
+    "dangerous_calls_count": 38,
+    "severity_counts": {
+      "critical": 0,
+      "high": 43,
+      "medium": 44,
+      "low": 33,
+      "info": 0
+    },
+    "category_counts": {
+      "file_ops": 33,
+      "dangerous_calls": 38,
+      "network_ops": 4,
+      "env_access": 40,
+      "suspicious_urls": 5
+    },
+    "top_findings": [
+      {
+        "rule_id": "regex_py_open",
+        "severity": "low",
+        "category": "file_ops",
+        "file": "CLAUDE.md",
+        "line": 110
+      },
+      {
+        "rule_id": "regex_py_subprocess_call",
+        "severity": "high",
+        "category": "dangerous_calls",
+        "file": "workflow-skills/dbt/SKILL.md",
+        "line": 157
+      },
+      {
+        "rule_id": "regex_shell_backtick_exec",
+        "severity": "high",
+        "category": "dangerous_calls",
+        "file": "workflow-skills/workflow-management/SKILL.md",
+        "line": 67
+      },
+      {
+        "rule_id": "regex_shell_backtick_exec",
+        "severity": "high",
+        "category": "dangerous_calls",
+        "file": "tdx-skills/engage/SKILL.md",
+        "line": 10
+      },
+      {
+        "rule_id": "regex_shell_backtick_exec",
+        "severity": "high",
+        "category": "dangerous_calls",
+        "file": "tdx-skills/engage/SKILL.md",
+        "line": 93
+      },
+      {
+        "rule_id": "regex_shell_backtick_exec",
+        "severity": "high",
+        "category": "dangerous_calls",
+        "file": "email-campaign-skills/email-campaign/references/engage-integration.md",
+        "line": 20
+      },
+      {
+        "rule_id": "regex_shell_backtick_exec",
+        "severity": "high",
+        "category": "dangerous_calls",
+        "file": "realtime-skills/rt-setup-personalization/SKILL.md",
+        "line": 182
+      },
+      {
+        "rule_id": "regex_shell_backtick_exec",
+        "severity": "high",
+        "category": "dangerous_calls",
+        "file": "realtime-skills/rt-setup-personalization/SKILL.md",
+        "line": 253
+      },
+      {
+        "rule_id": "regex_shell_backtick_exec",
+        "severity": "high",
+        "category": "dangerous_calls",
+        "file": "realtime-skills/rt-setup-personalization/steps/08-09-personalization.md",
+        "line": 102
+      },
+      {
+        "rule_id": "regex_shell_backtick_exec",
+        "severity": "high",
+        "category": "dangerous_calls",
+        "file": "realtime-skills/rt-setup-personalization/steps/01-02-validate-discovery.md",
+        "line": 46
+      },
+      {
+        "rule_id": "regex_shell_backtick_exec",
+        "severity": "high",
+        "category": "dangerous_calls",
+        "file": "realtime-skills/rt-setup-personalization/steps/07-rt-config.md",
+        "line": 20
+      },
+      {
+        "rule_id": "regex_shell_backtick_exec",
+        "severity": "high",
+        "category": "dangerous_calls",
+        "file": "realtime-skills/rt-setup-personalization/steps/07-rt-config.md",
+        "line": 127
+      },
+      {
+        "rule_id": "regex_shell_backtick_exec",
+        "severity": "high",
+        "category": "dangerous_calls",
+        "file": "realtime-skills/rt-personalization-validation/SKILL.md",
+        "line": 255
+      },
+      {
+        "rule_id": "regex_shell_backtick_exec",
+        "severity": "high",
+        "category": "dangerous_calls",
+        "file": "realtime-skills/rt-personalization-validation/SKILL.md",
+        "line": 315
+      },
+      {
+        "rule_id": "regex_shell_backtick_exec",
+        "severity": "high",
+        "category": "dangerous_calls",
+        "file": "realtime-skills/rt-personalization-validation/SKILL.md",
+        "line": 324
+      },
+      {
+        "rule_id": "regex_shell_backtick_exec",
+        "severity": "high",
+        "category": "dangerous_calls",
+        "file": "realtime-skills/rt-personalization/SKILL.md",
+        "line": 42
+      },
+      {
+        "rule_id": "regex_shell_backtick_exec",
+        "severity": "high",
+        "category": "dangerous_calls",
+        "file": "realtime-skills/rt-personalization/SKILL.md",
+        "line": 86
+      },
+      {
+        "rule_id": "regex_shell_backtick_exec",
+        "severity": "high",
+        "category": "dangerous_calls",
+        "file": "realtime-skills/rt-personalization/SKILL.md",
+        "line": 181
+      },
+      {
+        "rule_id": "regex_shell_backtick_exec",
+        "severity": "high",
+        "category": "dangerous_calls",
+        "file": "realtime-skills/rt-personalization/SKILL.md",
+        "line": 210
+      },
+      {
+        "rule_id": "regex_shell_backtick_exec",
+        "severity": "high",
+        "category": "dangerous_calls",
+        "file": "realtime-skills/rt-personalization/SKILL.md",
+        "line": 237
+      }
+    ],
+    "total_files_scanned": 142
+  },
+  "verification_level": "full_pipeline",
+  "agent_audit": {
+    "agents_completed": 5,
+    "agents_required": 5,
+    "pipeline_run_at": "2026-03-04T21:42:08Z",
+    "agent_a": {
+      "signed": true,
+      "signed_at": "2026-03-04T21:42:08Z",
+      "comment": "Docs quality 10/10. README present. 12 features, 4 permissions claimed.",
+      "doc_quality_score": 10,
+      "claimed_permissions": [
+        "network access",
+        "system command execution",
+        "file system access",
+        "environment/secret access"
+      ]
+    },
+    "agent_b": {
+      "signed": true,
+      "signed_at": "2026-03-04T21:42:08Z",
+      "comment": "46 files analyzed. Found: 1 network, 26 file, 34 env, 6 system calls. Primary: javascript.",
+      "files_analyzed": 46,
+      "capabilities_found": [
+        "imports external dependencies",
+        "performs network operations",
+        "reads/writes files",
+        "reads environment values",
+        "executes system commands"
+      ]
+    },
+    "agent_c_star": {
+      "signed": true,
+      "signed_at": "2026-03-04T21:42:08Z",
+      "comment": "120 findings: 0 critical, 43 high, 44 medium, 33 low. No obfuscation. No injection.",
+      "total_findings": 120,
+      "severity_counts": {
+        "critical": 0,
+        "high": 43,
+        "medium": 44,
+        "low": 33,
+        "info": 0
+      }
+    },
+    "agent_d": {
+      "signed": true,
+      "signed_at": "2026-03-04T21:42:08Z",
+      "comment": "Score 60. 0 mismatches. Risk: medium. Safety overrides: none triggered.",
+      "score": 60,
+      "mismatches": 0,
+      "safety_overrides_applied": false
+    },
+    "agent_e": {
+      "signed": true,
+      "signed_at": "2026-03-04T21:42:08Z",
+      "comment": "Rejected. Confidence 60%. No overrides.",
+      "approved": false,
+      "confidence": 60,
+      "override_reason": null
+    },
+    "manager_summary": "5/5 agents completed. Score: 60/100, Risk: medium. 0 mismatches, 120 scanner findings. Rejected at 60% confidence. No safety overrides.",
+    "auto_clear": {
+      "applied": true,
+      "reason": "Auto-clear Cat 1: clean profile (0 inj, 0 obf_hr, 0 crit, score=60)",
+      "original_status": "manual_review",
+      "original_score": 60
+    }
+  }
 }

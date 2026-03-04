@@ -7,7 +7,7 @@
   "skill_type": "agent_skill",
   "owner": "chachamaru127",
   "stars": 0,
-  "primary_language": "unknown",
+  "primary_language": "typescript",
   "tags": [
     "agent-skills",
     "installs:180",
@@ -18,14 +18,260 @@
     "dev-web",
     "prod",
     "util",
-    "util-search"
+    "util-search",
+    "status-pass"
   ],
-  "verification_status": "unverified",
-  "overall_score": 0,
-  "risk_level": "info",
-  "verified_commit": null,
+  "verification_status": "pass",
+  "overall_score": 60,
+  "risk_level": "medium",
+  "verified_commit": "0e0d0c445db078680007bcef3d8db3d4ea8c32d8",
   "scan_summary": null,
   "repo_status": "available",
   "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
-  "repo_check_error": null
+  "repo_check_error": null,
+  "scan_date": "2026-03-04T21:41:26Z",
+  "findings_summary": {
+    "scanner_findings": 383,
+    "dangerous_calls": 77,
+    "network_ops": 2,
+    "file_ops": 246,
+    "env_access": 39,
+    "obfuscation": 0,
+    "injection_patterns": 0,
+    "mismatches": 0,
+    "undocumented_capabilities": 0,
+    "supervisor_approved": false,
+    "supervisor_confidence": 60
+  },
+  "scan_report": {
+    "total_findings": 383,
+    "injection_patterns_count": 0,
+    "obfuscation_count": 0,
+    "obfuscation_high_risk_count": 0,
+    "dangerous_calls_count": 77,
+    "severity_counts": {
+      "critical": 0,
+      "high": 96,
+      "medium": 41,
+      "low": 246,
+      "info": 0
+    },
+    "category_counts": {
+      "dangerous_calls": 77,
+      "env_access": 39,
+      "file_ops": 246,
+      "suspicious_urls": 19,
+      "network_ops": 2
+    },
+    "top_findings": [
+      {
+        "rule_id": "regex_py_exec",
+        "severity": "high",
+        "category": "dangerous_calls",
+        "file": "CHANGELOG.md",
+        "line": 649
+      },
+      {
+        "rule_id": "regex_shell_backtick_exec",
+        "severity": "high",
+        "category": "dangerous_calls",
+        "file": "CHANGELOG.md",
+        "line": 92
+      },
+      {
+        "rule_id": "regex_js_process_env",
+        "severity": "medium",
+        "category": "env_access",
+        "file": "core/src/guardrails/pre-tool.ts",
+        "line": 37
+      },
+      {
+        "rule_id": "regex_js_process_env",
+        "severity": "medium",
+        "category": "env_access",
+        "file": "core/src/guardrails/pre-tool.ts",
+        "line": 38
+      },
+      {
+        "rule_id": "regex_js_process_env",
+        "severity": "medium",
+        "category": "env_access",
+        "file": "core/src/guardrails/pre-tool.ts",
+        "line": 43
+      },
+      {
+        "rule_id": "regex_js_process_env",
+        "severity": "medium",
+        "category": "env_access",
+        "file": "core/src/guardrails/pre-tool.ts",
+        "line": 44
+      },
+      {
+        "rule_id": "regex_js_process_env",
+        "severity": "medium",
+        "category": "env_access",
+        "file": "core/src/guardrails/pre-tool.ts",
+        "line": 45
+      },
+      {
+        "rule_id": "regex_js_process_env",
+        "severity": "medium",
+        "category": "env_access",
+        "file": "core/src/guardrails/pre-tool.ts",
+        "line": 48
+      },
+      {
+        "rule_id": "regex_py_exec",
+        "severity": "high",
+        "category": "dangerous_calls",
+        "file": "core/src/guardrails/tampering.ts",
+        "line": 171
+      },
+      {
+        "rule_id": "regex_py_eval",
+        "severity": "high",
+        "category": "dangerous_calls",
+        "file": "core/src/guardrails/post-tool.ts",
+        "line": 46
+      },
+      {
+        "rule_id": "regex_py_exec",
+        "severity": "high",
+        "category": "dangerous_calls",
+        "file": "core/src/guardrails/post-tool.ts",
+        "line": 50
+      },
+      {
+        "rule_id": "regex_js_process_env",
+        "severity": "medium",
+        "category": "env_access",
+        "file": "core/src/guardrails/__tests__/integration.test.ts",
+        "line": 44
+      },
+      {
+        "rule_id": "regex_js_process_env",
+        "severity": "medium",
+        "category": "env_access",
+        "file": "core/src/guardrails/__tests__/integration.test.ts",
+        "line": 45
+      },
+      {
+        "rule_id": "regex_js_process_env",
+        "severity": "medium",
+        "category": "env_access",
+        "file": "core/src/guardrails/__tests__/integration.test.ts",
+        "line": 46
+      },
+      {
+        "rule_id": "regex_js_process_env",
+        "severity": "medium",
+        "category": "env_access",
+        "file": "core/src/guardrails/__tests__/integration.test.ts",
+        "line": 47
+      },
+      {
+        "rule_id": "regex_js_process_env",
+        "severity": "medium",
+        "category": "env_access",
+        "file": "core/src/guardrails/__tests__/integration.test.ts",
+        "line": 160
+      },
+      {
+        "rule_id": "regex_js_process_env",
+        "severity": "medium",
+        "category": "env_access",
+        "file": "core/src/guardrails/__tests__/integration.test.ts",
+        "line": 169
+      },
+      {
+        "rule_id": "regex_js_process_env",
+        "severity": "medium",
+        "category": "env_access",
+        "file": "core/src/guardrails/__tests__/integration.test.ts",
+        "line": 177
+      },
+      {
+        "rule_id": "regex_js_process_env",
+        "severity": "medium",
+        "category": "env_access",
+        "file": "core/src/guardrails/__tests__/integration.test.ts",
+        "line": 206
+      },
+      {
+        "rule_id": "regex_js_process_env",
+        "severity": "medium",
+        "category": "env_access",
+        "file": "core/src/guardrails/__tests__/integration.test.ts",
+        "line": 220
+      }
+    ],
+    "total_files_scanned": 670
+  },
+  "verification_level": "full_pipeline",
+  "agent_audit": {
+    "agents_completed": 5,
+    "agents_required": 5,
+    "pipeline_run_at": "2026-03-04T21:41:26Z",
+    "agent_a": {
+      "signed": true,
+      "signed_at": "2026-03-04T21:41:26Z",
+      "comment": "Docs quality 10/10. README present. 12 features, 4 permissions claimed.",
+      "doc_quality_score": 10,
+      "claimed_permissions": [
+        "network access",
+        "system command execution",
+        "file system access",
+        "environment/secret access"
+      ]
+    },
+    "agent_b": {
+      "signed": true,
+      "signed_at": "2026-03-04T21:41:26Z",
+      "comment": "435 files analyzed. Found: 2 network, 45 file, 27 env, 9 system calls. Primary: typescript.",
+      "files_analyzed": 435,
+      "capabilities_found": [
+        "imports external dependencies",
+        "performs network operations",
+        "reads/writes files",
+        "reads environment values",
+        "executes system commands"
+      ]
+    },
+    "agent_c_star": {
+      "signed": true,
+      "signed_at": "2026-03-04T21:41:26Z",
+      "comment": "383 findings: 0 critical, 96 high, 41 medium, 246 low. No obfuscation. No injection.",
+      "total_findings": 383,
+      "severity_counts": {
+        "critical": 0,
+        "high": 96,
+        "medium": 41,
+        "low": 246,
+        "info": 0
+      }
+    },
+    "agent_d": {
+      "signed": true,
+      "signed_at": "2026-03-04T21:41:26Z",
+      "comment": "Score 60. 0 mismatches. Risk: medium. Safety overrides: none triggered.",
+      "score": 60,
+      "mismatches": 0,
+      "safety_overrides_applied": false
+    },
+    "agent_e": {
+      "signed": true,
+      "signed_at": "2026-03-04T21:41:26Z",
+      "comment": "Rejected. Confidence 60%. No overrides.",
+      "approved": false,
+      "confidence": 60,
+      "override_reason": null
+    },
+    "manager_summary": "5/5 agents completed. Score: 60/100, Risk: medium. 0 mismatches, 383 scanner findings. Rejected at 60% confidence. No safety overrides.",
+    "auto_clear": {
+      "applied": true,
+      "reason": "Auto-clear Cat 1: clean profile (0 inj, 0 obf_hr, 0 crit, score=60)",
+      "original_status": "manual_review",
+      "original_score": 60
+    }
+  }
 }

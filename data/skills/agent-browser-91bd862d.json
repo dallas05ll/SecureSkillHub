@@ -7,21 +7,271 @@
   "skill_type": "agent_skill",
   "owner": "ninehills",
   "stars": 0,
-  "primary_language": "unknown",
+  "primary_language": "python",
   "tags": [
     "agent-skills",
     "installs:159",
     "dev",
     "dev-testing",
     "dev-web",
-    "prod"
+    "prod",
+    "status-fail"
   ],
-  "verification_status": "unverified",
-  "overall_score": 0,
-  "risk_level": "info",
-  "verified_commit": null,
+  "verification_status": "pass",
+  "overall_score": 15,
+  "risk_level": "critical",
+  "verified_commit": "b671df688eb8f3c825ecb802d1714e6c5f34dfe5",
   "scan_summary": null,
   "repo_status": "available",
   "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
-  "repo_check_error": null
+  "repo_check_error": null,
+  "scan_date": "2026-03-04T21:40:59Z",
+  "findings_summary": {
+    "scanner_findings": 68,
+    "dangerous_calls": 19,
+    "network_ops": 11,
+    "file_ops": 6,
+    "env_access": 6,
+    "obfuscation": 2,
+    "injection_patterns": 0,
+    "mismatches": 0,
+    "undocumented_capabilities": 0,
+    "supervisor_approved": false,
+    "supervisor_confidence": 90
+  },
+  "scan_report": {
+    "total_findings": 68,
+    "injection_patterns_count": 0,
+    "obfuscation_count": 2,
+    "obfuscation_high_risk_count": 2,
+    "dangerous_calls_count": 19,
+    "severity_counts": {
+      "critical": 0,
+      "high": 45,
+      "medium": 17,
+      "low": 6,
+      "info": 0
+    },
+    "category_counts": {
+      "file_ops": 6,
+      "dangerous_calls": 19,
+      "env_access": 6,
+      "obfuscation": 2,
+      "suspicious_urls": 24,
+      "network_ops": 11
+    },
+    "top_findings": [
+      {
+        "rule_id": "regex_py_open",
+        "severity": "low",
+        "category": "file_ops",
+        "file": "skills/ui-ux-pro-max/scripts/core.py",
+        "line": 154
+      },
+      {
+        "rule_id": "regex_shell_backtick_exec",
+        "severity": "high",
+        "category": "dangerous_calls",
+        "file": "skills/selfie/SKILL.md",
+        "line": 115
+      },
+      {
+        "rule_id": "regex_shell_backtick_exec",
+        "severity": "high",
+        "category": "dangerous_calls",
+        "file": "skills/video-reader/SKILL.md",
+        "line": 36
+      },
+      {
+        "rule_id": "regex_shell_backtick_exec",
+        "severity": "high",
+        "category": "dangerous_calls",
+        "file": "skills/video-reader/SKILL.md",
+        "line": 52
+      },
+      {
+        "rule_id": "regex_shell_backtick_exec",
+        "severity": "high",
+        "category": "dangerous_calls",
+        "file": "skills/video-reader/SKILL.md",
+        "line": 63
+      },
+      {
+        "rule_id": "regex_py_subprocess_call",
+        "severity": "high",
+        "category": "dangerous_calls",
+        "file": "skills/screenshot/scripts/take_screenshot.py",
+        "line": 110
+      },
+      {
+        "rule_id": "regex_py_subprocess_call",
+        "severity": "high",
+        "category": "dangerous_calls",
+        "file": "skills/screenshot/scripts/take_screenshot.py",
+        "line": 193
+      },
+      {
+        "rule_id": "regex_py_subprocess_call",
+        "severity": "high",
+        "category": "dangerous_calls",
+        "file": "skills/screenshot/scripts/take_screenshot.py",
+        "line": 207
+      },
+      {
+        "rule_id": "regex_py_subprocess_call",
+        "severity": "high",
+        "category": "dangerous_calls",
+        "file": "skills/screenshot/scripts/take_screenshot.py",
+        "line": 237
+      },
+      {
+        "rule_id": "regex_py_subprocess_call",
+        "severity": "high",
+        "category": "dangerous_calls",
+        "file": "skills/screenshot/scripts/take_screenshot.py",
+        "line": 247
+      },
+      {
+        "rule_id": "regex_py_subprocess_call",
+        "severity": "high",
+        "category": "dangerous_calls",
+        "file": "skills/screenshot/scripts/take_screenshot.py",
+        "line": 401
+      },
+      {
+        "rule_id": "regex_py_os_environ",
+        "severity": "medium",
+        "category": "env_access",
+        "file": "skills/screenshot/scripts/take_screenshot.py",
+        "line": 47
+      },
+      {
+        "rule_id": "regex_py_os_environ",
+        "severity": "medium",
+        "category": "env_access",
+        "file": "skills/screenshot/scripts/take_screenshot.py",
+        "line": 63
+      },
+      {
+        "rule_id": "regex_py_os_environ",
+        "severity": "medium",
+        "category": "env_access",
+        "file": "skills/screenshot/scripts/take_screenshot.py",
+        "line": 83
+      },
+      {
+        "rule_id": "regex_py_os_environ",
+        "severity": "medium",
+        "category": "env_access",
+        "file": "skills/screenshot/scripts/take_screenshot.py",
+        "line": 89
+      },
+      {
+        "rule_id": "regex_py_os_environ",
+        "severity": "medium",
+        "category": "env_access",
+        "file": "skills/screenshot/scripts/take_screenshot.py",
+        "line": 231
+      },
+      {
+        "rule_id": "regex_hex_escape_seq",
+        "severity": "high",
+        "category": "obfuscation",
+        "file": "skills/screenshot/scripts/take_screenshot.py",
+        "line": 26
+      },
+      {
+        "rule_id": "regex_hex_escape_seq",
+        "severity": "high",
+        "category": "obfuscation",
+        "file": "skills/screenshot/scripts/take_screenshot.py",
+        "line": 27
+      },
+      {
+        "rule_id": "regex_localhost_non_std",
+        "severity": "high",
+        "category": "suspicious_urls",
+        "file": "skills/discord/SKILL.md",
+        "line": 22
+      },
+      {
+        "rule_id": "regex_localhost_non_std",
+        "severity": "high",
+        "category": "suspicious_urls",
+        "file": "skills/discord/SKILL.md",
+        "line": 38
+      }
+    ],
+    "total_files_scanned": 153
+  },
+  "verification_level": "full_pipeline",
+  "agent_audit": {
+    "agents_completed": 5,
+    "agents_required": 5,
+    "pipeline_run_at": "2026-03-04T21:40:59Z",
+    "agent_a": {
+      "signed": true,
+      "signed_at": "2026-03-04T21:40:59Z",
+      "comment": "Docs quality 10/10. README present. 12 features, 4 permissions claimed.",
+      "doc_quality_score": 10,
+      "claimed_permissions": [
+        "network access",
+        "system command execution",
+        "file system access",
+        "environment/secret access"
+      ]
+    },
+    "agent_b": {
+      "signed": true,
+      "signed_at": "2026-03-04T21:40:59Z",
+      "comment": "28 files analyzed. Found: 8 network, 2 file, 6 env, 6 system calls. Primary: python.",
+      "files_analyzed": 28,
+      "capabilities_found": [
+        "imports external dependencies",
+        "performs network operations",
+        "reads/writes files",
+        "reads environment values",
+        "executes system commands"
+      ]
+    },
+    "agent_c_star": {
+      "signed": true,
+      "signed_at": "2026-03-04T21:40:59Z",
+      "comment": "68 findings: 0 critical, 45 high, 17 medium, 6 low. Obfuscation detected!. No injection.",
+      "total_findings": 68,
+      "severity_counts": {
+        "critical": 0,
+        "high": 45,
+        "medium": 17,
+        "low": 6,
+        "info": 0
+      }
+    },
+    "agent_d": {
+      "signed": true,
+      "signed_at": "2026-03-04T21:40:59Z",
+      "comment": "Score 15. 0 mismatches. Risk: critical. Safety overrides: applied.",
+      "score": 15,
+      "mismatches": 0,
+      "safety_overrides_applied": true
+    },
+    "agent_e": {
+      "signed": true,
+      "signed_at": "2026-03-04T21:40:59Z",
+      "comment": "Rejected. Confidence 90%. Deterministic override: high-risk obfuscation detected.",
+      "approved": false,
+      "confidence": 90,
+      "override_reason": "Deterministic override: high-risk obfuscation detected."
+    },
+    "manager_summary": "5/5 agents completed. Score: 15/100, Risk: critical. 0 mismatches, 68 scanner findings. Rejected at 90% confidence. Safety overrides triggered."
+  },
+  "status_cleared": true,
+  "pm_override": {
+    "original_status": "fail",
+    "override_to": "pass",
+    "reason": "hex_escape FP in Python code, 0 inj",
+    "override_type": "obfuscation_fp",
+    "overridden_at": "2026-03-04T21:49:02.013312+00:00",
+    "overridden_by": "pm"
+  }
 }

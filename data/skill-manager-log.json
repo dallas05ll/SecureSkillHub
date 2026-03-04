@@ -4157,12 +4157,88 @@
         "remaining_unverified": 5609,
         "run_report": "/Users/liendallas/Desktop/Projects/SecureSkillHub/data/verification-runs/20260304T202401Z_strict5_limit1.json"
       }
+    },
+    {
+      "timestamp": "2026-03-04T21:39:33.645321+00:00",
+      "check_type": "health_check",
+      "findings": {
+        "total_skills": 11098,
+        "verified": 3907,
+        "unverified": 7182,
+        "full_pipeline": 3916,
+        "scanner_only": 0,
+        "metadata_only": 1,
+        "with_agent_audit": 3916,
+        "status_breakdown": {
+          "unverified": 7182,
+          "pass": 3907,
+          "fail": 9
+        },
+        "star_tiers": {
+          "1000+": 147,
+          "100-999": 387,
+          "10-99": 1205,
+          "1-9": 1887,
+          "0": 7472
+        },
+        "issues": []
+      },
+      "recommendations": [
+        "Crawl pending hubs: skills_sh"
+      ],
+      "changes_since_last": {
+        "new_skills": 11098,
+        "newly_verified": 3907,
+        "status_changes": [
+          "+11098 new skills added",
+          "+3907 newly verified",
+          "+7182 unverified delta"
+        ]
+      }
+    },
+    {
+      "timestamp": "2026-03-04T21:47:32.919869+00:00",
+      "check_type": "verification_run",
+      "findings": {
+        "selected_count": 100,
+        "processed_count": 100,
+        "status_counts": {
+          "pass": 86,
+          "fail": 10,
+          "skip": 4
+        },
+        "stage_failures": {
+          "clone_network": 4
+        },
+        "remaining_unverified": 5513,
+        "run_report": "/Users/liendallas/Desktop/Projects/SecureSkillHub/data/verification-runs/20260304T214732Z_strict5_limit100.json"
+      }
+    },
+    {
+      "type": "sm_evolve",
+      "timestamp": "2026-03-04T21:49:16.147175+00:00",
+      "summary": {
+        "total_skills": 11098,
+        "unique_tags": 77,
+        "recommendations_count": 2,
+        "fp_patterns_learned": 603
+      }
+    },
+    {
+      "type": "secm_evolve",
+      "timestamp": "2026-03-04T21:49:16.883334+00:00",
+      "summary": {
+        "total_overrides_analyzed": 647,
+        "proposals_generated": 0,
+        "new_patterns_learned": 0,
+        "empty_scan_report_bug": 637
+      }
     }
   ],
-  "last_check": "2026-03-04T19:52:13.644107+00:00",
+  "last_check": "2026-03-04T21:39:33.645321+00:00",
   "summary": {
-    "total_checks": 19,
+    "total_checks": 20,
     "issues_found_lifetime": 16,
-    "last_healthy": "2026-03-04T19:52:13.644107+00:00"
+    "last_healthy": "2026-03-04T21:39:33.645321+00:00"
   }
 }

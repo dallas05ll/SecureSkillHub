@@ -7,21 +7,267 @@
   "skill_type": "agent_skill",
   "owner": "malhashemi",
   "stars": 0,
-  "primary_language": "unknown",
+  "primary_language": "python",
   "tags": [
     "agent-skills",
     "installs:18",
     "dev",
     "dev-agents",
     "sec",
-    "security-compliance"
+    "security-compliance",
+    "status-pass"
   ],
-  "verification_status": "unverified",
-  "overall_score": 0,
-  "risk_level": "info",
-  "verified_commit": null,
+  "verification_status": "pass",
+  "overall_score": 55,
+  "risk_level": "medium",
+  "verified_commit": "e29db156be6bf831b31ff16e4f7e3c575152e7c2",
   "scan_summary": null,
   "repo_status": "available",
   "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
-  "repo_check_error": null
+  "repo_check_error": null,
+  "scan_date": "2026-03-04T21:42:00Z",
+  "findings_summary": {
+    "scanner_findings": 215,
+    "dangerous_calls": 63,
+    "network_ops": 1,
+    "file_ops": 137,
+    "env_access": 12,
+    "obfuscation": 1,
+    "injection_patterns": 0,
+    "mismatches": 0,
+    "undocumented_capabilities": 0,
+    "supervisor_approved": false,
+    "supervisor_confidence": 55
+  },
+  "scan_report": {
+    "total_findings": 215,
+    "injection_patterns_count": 0,
+    "obfuscation_count": 1,
+    "obfuscation_high_risk_count": 0,
+    "dangerous_calls_count": 63,
+    "severity_counts": {
+      "critical": 0,
+      "high": 65,
+      "medium": 13,
+      "low": 137,
+      "info": 0
+    },
+    "category_counts": {
+      "dangerous_calls": 63,
+      "file_ops": 137,
+      "env_access": 12,
+      "obfuscation": 1,
+      "suspicious_urls": 1,
+      "network_ops": 1
+    },
+    "top_findings": [
+      {
+        "rule_id": "regex_shell_backtick_exec",
+        "severity": "high",
+        "category": "dangerous_calls",
+        "file": "README.md",
+        "line": 27
+      },
+      {
+        "rule_id": "regex_py_open",
+        "severity": "low",
+        "category": "file_ops",
+        "file": "dot_config/theme-system/scripts/validate_theme.py",
+        "line": 18
+      },
+      {
+        "rule_id": "regex_py_subprocess_call",
+        "severity": "high",
+        "category": "dangerous_calls",
+        "file": "dot_config/theme-system/scripts/executable_validate-apps.py",
+        "line": 25
+      },
+      {
+        "rule_id": "regex_py_open",
+        "severity": "low",
+        "category": "file_ops",
+        "file": "dot_config/theme-system/scripts/executable_validate-apps.py",
+        "line": 165
+      },
+      {
+        "rule_id": "regex_py_os_environ",
+        "severity": "medium",
+        "category": "env_access",
+        "file": "dot_config/theme-system/scripts/executable_validate-apps.py",
+        "line": 35
+      },
+      {
+        "rule_id": "regex_py_subprocess_call",
+        "severity": "high",
+        "category": "dangerous_calls",
+        "file": "dot_config/theme-system/scripts/executable_wallpaper-manager.py",
+        "line": 27
+      },
+      {
+        "rule_id": "regex_py_subprocess_call",
+        "severity": "high",
+        "category": "dangerous_calls",
+        "file": "dot_config/theme-system/scripts/executable_wallpaper-manager.py",
+        "line": 71
+      },
+      {
+        "rule_id": "regex_py_subprocess_call",
+        "severity": "high",
+        "category": "dangerous_calls",
+        "file": "dot_config/theme-system/scripts/executable_wallpaper-manager.py",
+        "line": 73
+      },
+      {
+        "rule_id": "regex_py_subprocess_call",
+        "severity": "high",
+        "category": "dangerous_calls",
+        "file": "dot_config/theme-system/scripts/executable_wallpaper-manager.py",
+        "line": 74
+      },
+      {
+        "rule_id": "regex_py_subprocess_call",
+        "severity": "high",
+        "category": "dangerous_calls",
+        "file": "dot_config/theme-system/scripts/executable_wallpaper-manager.py",
+        "line": 127
+      },
+      {
+        "rule_id": "regex_py_open",
+        "severity": "low",
+        "category": "file_ops",
+        "file": "dot_config/theme-system/scripts/executable_wallpaper-manager.py",
+        "line": 51
+      },
+      {
+        "rule_id": "regex_py_open",
+        "severity": "low",
+        "category": "file_ops",
+        "file": "dot_config/theme-system/scripts/executable_wallpaper-manager.py",
+        "line": 57
+      },
+      {
+        "rule_id": "regex_py_os_environ",
+        "severity": "medium",
+        "category": "env_access",
+        "file": "dot_config/theme-system/scripts/executable_wallpaper-manager.py",
+        "line": 37
+      },
+      {
+        "rule_id": "regex_py_subprocess_call",
+        "severity": "high",
+        "category": "dangerous_calls",
+        "file": "dot_config/theme-system/scripts/executable_theme-manager.py",
+        "line": 49
+      },
+      {
+        "rule_id": "regex_py_subprocess_call",
+        "severity": "high",
+        "category": "dangerous_calls",
+        "file": "dot_config/theme-system/scripts/executable_theme-manager.py",
+        "line": 189
+      },
+      {
+        "rule_id": "regex_py_subprocess_call",
+        "severity": "high",
+        "category": "dangerous_calls",
+        "file": "dot_config/theme-system/scripts/executable_theme-manager.py",
+        "line": 198
+      },
+      {
+        "rule_id": "regex_py_open",
+        "severity": "low",
+        "category": "file_ops",
+        "file": "dot_config/theme-system/scripts/executable_theme-manager.py",
+        "line": 108
+      },
+      {
+        "rule_id": "regex_py_open",
+        "severity": "low",
+        "category": "file_ops",
+        "file": "dot_config/theme-system/scripts/executable_theme-manager.py",
+        "line": 119
+      },
+      {
+        "rule_id": "regex_py_open",
+        "severity": "low",
+        "category": "file_ops",
+        "file": "dot_config/theme-system/scripts/executable_theme-manager.py",
+        "line": 125
+      },
+      {
+        "rule_id": "regex_py_open",
+        "severity": "low",
+        "category": "file_ops",
+        "file": "dot_config/theme-system/scripts/executable_theme-manager.py",
+        "line": 132
+      }
+    ],
+    "total_files_scanned": 275
+  },
+  "verification_level": "full_pipeline",
+  "agent_audit": {
+    "agents_completed": 5,
+    "agents_required": 5,
+    "pipeline_run_at": "2026-03-04T21:42:00Z",
+    "agent_a": {
+      "signed": true,
+      "signed_at": "2026-03-04T21:42:00Z",
+      "comment": "Docs quality 10/10. README present. 12 features, 4 permissions claimed.",
+      "doc_quality_score": 10,
+      "claimed_permissions": [
+        "network access",
+        "system command execution",
+        "file system access",
+        "environment/secret access"
+      ]
+    },
+    "agent_b": {
+      "signed": true,
+      "signed_at": "2026-03-04T21:42:00Z",
+      "comment": "216 files analyzed. Found: 0 network, 105 file, 13 env, 47 system calls. Primary: python.",
+      "files_analyzed": 216,
+      "capabilities_found": [
+        "imports external dependencies",
+        "reads/writes files",
+        "reads environment values",
+        "executes system commands"
+      ]
+    },
+    "agent_c_star": {
+      "signed": true,
+      "signed_at": "2026-03-04T21:42:00Z",
+      "comment": "215 findings: 0 critical, 65 high, 13 medium, 137 low. Obfuscation detected!. No injection.",
+      "total_findings": 215,
+      "severity_counts": {
+        "critical": 0,
+        "high": 65,
+        "medium": 13,
+        "low": 137,
+        "info": 0
+      }
+    },
+    "agent_d": {
+      "signed": true,
+      "signed_at": "2026-03-04T21:42:00Z",
+      "comment": "Score 55. 0 mismatches. Risk: medium. Safety overrides: none triggered.",
+      "score": 55,
+      "mismatches": 0,
+      "safety_overrides_applied": false
+    },
+    "agent_e": {
+      "signed": true,
+      "signed_at": "2026-03-04T21:42:00Z",
+      "comment": "Rejected. Confidence 55%. No overrides.",
+      "approved": false,
+      "confidence": 55,
+      "override_reason": null
+    },
+    "manager_summary": "5/5 agents completed. Score: 55/100, Risk: medium. 0 mismatches, 215 scanner findings. Rejected at 55% confidence. No safety overrides.",
+    "auto_clear": {
+      "applied": true,
+      "reason": "Auto-clear Cat 1: clean profile (0 inj, 0 obf_hr, 0 crit, score=55)",
+      "original_status": "manual_review",
+      "original_score": 55
+    }
+  }
 }

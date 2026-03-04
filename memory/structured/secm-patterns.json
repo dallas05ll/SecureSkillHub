@@ -93,7 +93,7 @@
       "discovered": "2026-03-04T20:17:33.523325+00:00"
     }
   ],
-  "last_evolve": "2026-03-04T20:17:33.523325+00:00",
+  "last_evolve": "2026-03-04T21:49:16.883334+00:00",
   "evolve_history": [
     {
       "timestamp": "2026-03-04T20:17:33.523325+00:00",
@@ -107,6 +107,19 @@
       },
       "proposals_generated": 2,
       "new_entries_added": 2
+    },
+    {
+      "timestamp": "2026-03-04T21:49:16.883334+00:00",
+      "total_overrides": 647,
+      "by_type": {
+        "other": 617,
+        "injection_fp": 14,
+        "obfuscation_fp": 9,
+        "structural_large_repo": 5,
+        "data_uri_base64": 2
+      },
+      "proposals_generated": 0,
+      "new_entries_added": 0
     }
   ]
 }

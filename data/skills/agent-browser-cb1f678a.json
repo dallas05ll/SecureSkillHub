@@ -14,14 +14,259 @@
     "dev",
     "dev-testing",
     "dev-web",
-    "prod"
+    "prod",
+    "status-pass"
   ],
-  "verification_status": "unverified",
-  "overall_score": 0,
-  "risk_level": "info",
-  "verified_commit": null,
+  "verification_status": "pass",
+  "overall_score": 50,
+  "risk_level": "medium",
+  "verified_commit": "cbfb71e7d1fb37768463932da227c8895fa21bc5",
   "scan_summary": null,
   "repo_status": "available",
   "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
-  "repo_check_error": null
+  "repo_check_error": null,
+  "scan_date": "2026-03-04T21:41:25Z",
+  "findings_summary": {
+    "scanner_findings": 189,
+    "dangerous_calls": 70,
+    "network_ops": 11,
+    "file_ops": 23,
+    "env_access": 40,
+    "obfuscation": 1,
+    "injection_patterns": 0,
+    "mismatches": 0,
+    "undocumented_capabilities": 0,
+    "supervisor_approved": false,
+    "supervisor_confidence": 50
+  },
+  "scan_report": {
+    "total_findings": 189,
+    "injection_patterns_count": 0,
+    "obfuscation_count": 1,
+    "obfuscation_high_risk_count": 0,
+    "dangerous_calls_count": 70,
+    "severity_counts": {
+      "critical": 0,
+      "high": 115,
+      "medium": 51,
+      "low": 23,
+      "info": 0
+    },
+    "category_counts": {
+      "suspicious_urls": 44,
+      "dangerous_calls": 70,
+      "env_access": 40,
+      "file_ops": 23,
+      "network_ops": 11,
+      "obfuscation": 1
+    },
+    "top_findings": [
+      {
+        "rule_id": "regex_localhost_non_std",
+        "severity": "high",
+        "category": "suspicious_urls",
+        "file": "vim/pack/webdav/start/vim-webdav/doc/webdav.txt",
+        "line": 75
+      },
+      {
+        "rule_id": "regex_localhost_non_std",
+        "severity": "high",
+        "category": "suspicious_urls",
+        "file": "vim/pack/webdav/start/vim-webdav/doc/webdav.txt",
+        "line": 388
+      },
+      {
+        "rule_id": "regex_localhost_non_std",
+        "severity": "high",
+        "category": "suspicious_urls",
+        "file": "prompts/skills/claude-guide/SKILL.md",
+        "line": 381
+      },
+      {
+        "rule_id": "regex_localhost_non_std",
+        "severity": "high",
+        "category": "suspicious_urls",
+        "file": "prompts/skills/claude-guide/SKILL.md",
+        "line": 386
+      },
+      {
+        "rule_id": "regex_localhost_non_std",
+        "severity": "high",
+        "category": "suspicious_urls",
+        "file": "prompts/skills/claude-guide/SKILL.md",
+        "line": 387
+      },
+      {
+        "rule_id": "regex_localhost_non_std",
+        "severity": "high",
+        "category": "suspicious_urls",
+        "file": "prompts/skills/claude-guide/templates/minimal.md",
+        "line": 26
+      },
+      {
+        "rule_id": "regex_localhost_non_std",
+        "severity": "high",
+        "category": "suspicious_urls",
+        "file": "prompts/skills/claude-guide/templates/api-server.md",
+        "line": 12
+      },
+      {
+        "rule_id": "regex_localhost_non_std",
+        "severity": "high",
+        "category": "suspicious_urls",
+        "file": "prompts/skills/claude-guide/templates/api-server.md",
+        "line": 36
+      },
+      {
+        "rule_id": "regex_localhost_non_std",
+        "severity": "high",
+        "category": "suspicious_urls",
+        "file": "prompts/skills/claude-guide/templates/api-server.md",
+        "line": 37
+      },
+      {
+        "rule_id": "regex_localhost_non_std",
+        "severity": "high",
+        "category": "suspicious_urls",
+        "file": "prompts/skills/claude-guide/templates/api-server.md",
+        "line": 38
+      },
+      {
+        "rule_id": "regex_localhost_non_std",
+        "severity": "high",
+        "category": "suspicious_urls",
+        "file": "prompts/skills/claude-guide/templates/api-server.md",
+        "line": 77
+      },
+      {
+        "rule_id": "regex_localhost_non_std",
+        "severity": "high",
+        "category": "suspicious_urls",
+        "file": "prompts/skills/claude-guide/templates/api-server.md",
+        "line": 127
+      },
+      {
+        "rule_id": "regex_localhost_non_std",
+        "severity": "high",
+        "category": "suspicious_urls",
+        "file": "prompts/skills/claude-guide/templates/web-app.md",
+        "line": 12
+      },
+      {
+        "rule_id": "regex_localhost_non_std",
+        "severity": "high",
+        "category": "suspicious_urls",
+        "file": "prompts/skills/claude-guide/templates/web-app.md",
+        "line": 33
+      },
+      {
+        "rule_id": "regex_localhost_non_std",
+        "severity": "high",
+        "category": "suspicious_urls",
+        "file": "prompts/skills/claude-guide/templates/web-app.md",
+        "line": 34
+      },
+      {
+        "rule_id": "regex_localhost_non_std",
+        "severity": "high",
+        "category": "suspicious_urls",
+        "file": "prompts/skills/claude-guide/templates/web-app.md",
+        "line": 35
+      },
+      {
+        "rule_id": "regex_localhost_non_std",
+        "severity": "high",
+        "category": "suspicious_urls",
+        "file": "prompts/skills/claude-guide/templates/web-app.md",
+        "line": 48
+      },
+      {
+        "rule_id": "regex_localhost_non_std",
+        "severity": "high",
+        "category": "suspicious_urls",
+        "file": "prompts/skills/claude-guide/templates/web-app.md",
+        "line": 53
+      },
+      {
+        "rule_id": "regex_localhost_non_std",
+        "severity": "high",
+        "category": "suspicious_urls",
+        "file": "prompts/skills/claude-guide/templates/monorepo.md",
+        "line": 55
+      },
+      {
+        "rule_id": "regex_localhost_non_std",
+        "severity": "high",
+        "category": "suspicious_urls",
+        "file": "prompts/skills/claude-guide/templates/monorepo.md",
+        "line": 56
+      }
+    ],
+    "total_files_scanned": 309
+  },
+  "verification_level": "full_pipeline",
+  "agent_audit": {
+    "agents_completed": 5,
+    "agents_required": 5,
+    "pipeline_run_at": "2026-03-04T21:41:25Z",
+    "agent_a": {
+      "signed": true,
+      "signed_at": "2026-03-04T21:41:25Z",
+      "comment": "Docs quality 10/10. README present. 12 features, 4 permissions claimed.",
+      "doc_quality_score": 10,
+      "claimed_permissions": [
+        "network access",
+        "system command execution",
+        "file system access",
+        "environment/secret access"
+      ]
+    },
+    "agent_b": {
+      "signed": true,
+      "signed_at": "2026-03-04T21:41:25Z",
+      "comment": "105 files analyzed. Found: 1 network, 11 file, 0 env, 0 system calls. Primary: unknown.",
+      "files_analyzed": 105,
+      "capabilities_found": [
+        "imports external dependencies",
+        "performs network operations",
+        "reads/writes files"
+      ]
+    },
+    "agent_c_star": {
+      "signed": true,
+      "signed_at": "2026-03-04T21:41:25Z",
+      "comment": "189 findings: 0 critical, 115 high, 51 medium, 23 low. Obfuscation detected!. No injection.",
+      "total_findings": 189,
+      "severity_counts": {
+        "critical": 0,
+        "high": 115,
+        "medium": 51,
+        "low": 23,
+        "info": 0
+      }
+    },
+    "agent_d": {
+      "signed": true,
+      "signed_at": "2026-03-04T21:41:25Z",
+      "comment": "Score 50. 0 mismatches. Risk: medium. Safety overrides: none triggered.",
+      "score": 50,
+      "mismatches": 0,
+      "safety_overrides_applied": false
+    },
+    "agent_e": {
+      "signed": true,
+      "signed_at": "2026-03-04T21:41:25Z",
+      "comment": "Rejected. Confidence 50%. No overrides.",
+      "approved": false,
+      "confidence": 50,
+      "override_reason": null
+    },
+    "manager_summary": "5/5 agents completed. Score: 50/100, Risk: medium. 0 mismatches, 189 scanner findings. Rejected at 50% confidence. No safety overrides.",
+    "auto_clear": {
+      "applied": true,
+      "reason": "Auto-clear Cat 1: clean profile (0 inj, 0 obf_hr, 0 crit, score=50)",
+      "original_status": "manual_review",
+      "original_score": 50
+    }
+  }
 }
