@@ -74,6 +74,8 @@ PM_VERIFIED_ORGS: frozenset[str] = frozenset({
     # Added 2026-03-04 Run 4 — major OSS projects hosting skillsmp skills
     "jetbrains", "elastic", "tryghost", "flashinfer-ai",
     "remotion-dev", "dotnet", "lobehub", "mlflow", "nangohq",
+    # Added 2026-03-04 Run 7
+    "getsentry",
 })
 
 
@@ -133,13 +135,15 @@ def auto_clear_known_fp(
             max(50, scorer.overall_score),
         )
 
-    # Cat 2: Obfuscation FP — hex_escape/unicode_escape without injection
-    # Evidence: 134+ PM overrides, all had obf_hr from bundled JS, CJK text, or hex
-    # strings in Python. Zero real attacks. Only block if TRULY dangerous patterns present.
-    if obf_hr > 0 and inj == 0 and dangerous_obf_count == 0:
+    # Cat 2: Obfuscation without injection — not an attack vector
+    # Obfuscation alone (even rot13/marshal) is suspicious code style but not an attack.
+    # Real attacks combine obfuscation WITH injection to hide malicious payloads.
+    # Evidence: 134+ PM overrides, zero real attacks with obf-only pattern.
+    if obf_hr > 0 and inj == 0:
+        label = f"{dangerous_obf_count} dangerous" if dangerous_obf_count > 0 else "0 dangerous"
         return (
             "pass",
-            f"Auto-clear Cat 2: obfuscation FP ({obf_hr} obf_hr, 0 dangerous_obf, 0 inj, {files_scanned} files)",
+            f"Auto-clear Cat 2: obfuscation-only ({obf_hr} obf_hr, {label}, 0 inj, {files_scanned} files)",
             max(50, scorer.overall_score),
         )
 

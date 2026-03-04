@@ -11,14 +11,261 @@
   "tags": [
     "agent-skills",
     "installs:13",
-    "prod"
+    "prod",
+    "status-pass"
   ],
-  "verification_status": "unverified",
-  "overall_score": 0,
-  "risk_level": "info",
-  "verified_commit": null,
+  "verification_status": "pass",
+  "overall_score": 60,
+  "risk_level": "medium",
+  "verified_commit": "36d138d783c88ad4149cadc631f35ea19c631bd1",
   "scan_summary": null,
   "repo_status": "available",
   "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
-  "repo_check_error": null
+  "repo_check_error": null,
+  "scan_date": "2026-03-04T22:14:20Z",
+  "findings_summary": {
+    "scanner_findings": 441,
+    "dangerous_calls": 28,
+    "network_ops": 98,
+    "file_ops": 51,
+    "env_access": 200,
+    "obfuscation": 25,
+    "injection_patterns": 0,
+    "mismatches": 0,
+    "undocumented_capabilities": 0,
+    "supervisor_approved": false,
+    "supervisor_confidence": 60
+  },
+  "scan_report": {
+    "total_findings": 441,
+    "injection_patterns_count": 0,
+    "obfuscation_count": 25,
+    "obfuscation_high_risk_count": 0,
+    "dangerous_calls_count": 28,
+    "severity_counts": {
+      "critical": 0,
+      "high": 92,
+      "medium": 298,
+      "low": 51,
+      "info": 0
+    },
+    "category_counts": {
+      "suspicious_urls": 39,
+      "network_ops": 98,
+      "env_access": 200,
+      "dangerous_calls": 28,
+      "file_ops": 51,
+      "obfuscation": 25
+    },
+    "top_findings": [
+      {
+        "rule_id": "regex_data_uri_embed",
+        "severity": "high",
+        "category": "suspicious_urls",
+        "file": "research/generative-art-source-code.md",
+        "line": 520
+      },
+      {
+        "rule_id": "regex_js_fetch",
+        "severity": "medium",
+        "category": "network_ops",
+        "file": "projects/tweet-cannon/tweet-cannon.mjs",
+        "line": 171
+      },
+      {
+        "rule_id": "regex_js_process_env",
+        "severity": "medium",
+        "category": "env_access",
+        "file": "projects/tweet-cannon/tweet-cannon.mjs",
+        "line": 15
+      },
+      {
+        "rule_id": "regex_localhost_non_std",
+        "severity": "high",
+        "category": "suspicious_urls",
+        "file": "projects/sphere-viz/README.md",
+        "line": 27
+      },
+      {
+        "rule_id": "regex_js_require_child",
+        "severity": "high",
+        "category": "dangerous_calls",
+        "file": "projects/sphere-viz/cli.js",
+        "line": 3
+      },
+      {
+        "rule_id": "regex_localhost_non_std",
+        "severity": "high",
+        "category": "suspicious_urls",
+        "file": "projects/sphere-viz/cli.js",
+        "line": 89
+      },
+      {
+        "rule_id": "regex_localhost_non_std",
+        "severity": "high",
+        "category": "suspicious_urls",
+        "file": "projects/depsgraph/README.md",
+        "line": 82
+      },
+      {
+        "rule_id": "regex_js_http_request",
+        "severity": "medium",
+        "category": "network_ops",
+        "file": "projects/depsgraph/test/run.js",
+        "line": 428
+      },
+      {
+        "rule_id": "regex_js_http_request",
+        "severity": "medium",
+        "category": "network_ops",
+        "file": "projects/depsgraph/test/run.js",
+        "line": 459
+      },
+      {
+        "rule_id": "regex_js_http_request",
+        "severity": "medium",
+        "category": "network_ops",
+        "file": "projects/depsgraph/test/run.js",
+        "line": 480
+      },
+      {
+        "rule_id": "regex_py_open",
+        "severity": "low",
+        "category": "file_ops",
+        "file": "projects/depsgraph/src/cli.js",
+        "line": 121
+      },
+      {
+        "rule_id": "regex_py_open",
+        "severity": "low",
+        "category": "file_ops",
+        "file": "projects/depsgraph/src/cli.js",
+        "line": 212
+      },
+      {
+        "rule_id": "regex_js_fetch",
+        "severity": "medium",
+        "category": "network_ops",
+        "file": "projects/depsgraph/src/web/public/app.js",
+        "line": 113
+      },
+      {
+        "rule_id": "regex_js_websocket",
+        "severity": "medium",
+        "category": "network_ops",
+        "file": "projects/gasflow/README.md",
+        "line": 242
+      },
+      {
+        "rule_id": "regex_localhost_non_std",
+        "severity": "high",
+        "category": "suspicious_urls",
+        "file": "projects/gasflow/README.md",
+        "line": 166
+      },
+      {
+        "rule_id": "regex_localhost_non_std",
+        "severity": "high",
+        "category": "suspicious_urls",
+        "file": "projects/gasflow/README.md",
+        "line": 167
+      },
+      {
+        "rule_id": "regex_localhost_non_std",
+        "severity": "high",
+        "category": "suspicious_urls",
+        "file": "projects/gasflow/README.md",
+        "line": 168
+      },
+      {
+        "rule_id": "regex_localhost_non_std",
+        "severity": "high",
+        "category": "suspicious_urls",
+        "file": "projects/gasflow/README.md",
+        "line": 384
+      },
+      {
+        "rule_id": "regex_js_fetch",
+        "severity": "medium",
+        "category": "network_ops",
+        "file": "projects/gasflow/dashboard/src/api.ts",
+        "line": 7
+      },
+      {
+        "rule_id": "regex_js_fetch",
+        "severity": "medium",
+        "category": "network_ops",
+        "file": "projects/gasflow/dashboard/src/api.ts",
+        "line": 15
+      }
+    ],
+    "total_files_scanned": 535
+  },
+  "verification_level": "full_pipeline",
+  "agent_audit": {
+    "agents_completed": 5,
+    "agents_required": 5,
+    "pipeline_run_at": "2026-03-04T22:14:20Z",
+    "agent_a": {
+      "signed": true,
+      "signed_at": "2026-03-04T22:14:20Z",
+      "comment": "Docs quality 10/10. README present. 12 features, 4 permissions claimed.",
+      "doc_quality_score": 10,
+      "claimed_permissions": [
+        "network access",
+        "system command execution",
+        "file system access",
+        "environment/secret access"
+      ]
+    },
+    "agent_b": {
+      "signed": true,
+      "signed_at": "2026-03-04T22:14:20Z",
+      "comment": "293 files analyzed. Found: 83 network, 16 file, 120 env, 15 system calls. Primary: unknown.",
+      "files_analyzed": 293,
+      "capabilities_found": [
+        "imports external dependencies",
+        "performs network operations",
+        "reads/writes files",
+        "reads environment values",
+        "executes system commands"
+      ]
+    },
+    "agent_c_star": {
+      "signed": true,
+      "signed_at": "2026-03-04T22:14:20Z",
+      "comment": "441 findings: 0 critical, 92 high, 298 medium, 51 low. Obfuscation detected!. No injection.",
+      "total_findings": 441,
+      "severity_counts": {
+        "critical": 0,
+        "high": 92,
+        "medium": 298,
+        "low": 51,
+        "info": 0
+      }
+    },
+    "agent_d": {
+      "signed": true,
+      "signed_at": "2026-03-04T22:14:20Z",
+      "comment": "Score 60. 0 mismatches. Risk: medium. Safety overrides: none triggered.",
+      "score": 60,
+      "mismatches": 0,
+      "safety_overrides_applied": false
+    },
+    "agent_e": {
+      "signed": true,
+      "signed_at": "2026-03-04T22:14:20Z",
+      "comment": "Rejected. Confidence 60%. No overrides.",
+      "approved": false,
+      "confidence": 60,
+      "override_reason": null
+    },
+    "manager_summary": "5/5 agents completed. Score: 60/100, Risk: medium. 0 mismatches, 441 scanner findings. Rejected at 60% confidence. No safety overrides.",
+    "auto_clear": {
+      "applied": true,
+      "reason": "Auto-clear Cat 1: clean profile (0 inj, 0 obf_hr, score=60)",
+      "original_status": "manual_review",
+      "original_score": 60
+    }
+  }
 }

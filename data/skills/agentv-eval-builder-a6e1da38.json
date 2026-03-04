@@ -7,21 +7,268 @@
   "skill_type": "agent_skill",
   "owner": "entityprocess",
   "stars": 0,
-  "primary_language": "unknown",
+  "primary_language": "typescript",
   "tags": [
     "agent-skills",
     "installs:10",
     "data",
     "data-ai",
     "dev",
-    "dev-testing"
+    "dev-testing",
+    "status-pass"
   ],
-  "verification_status": "unverified",
-  "overall_score": 0,
-  "risk_level": "info",
-  "verified_commit": null,
+  "verification_status": "pass",
+  "overall_score": 60,
+  "risk_level": "medium",
+  "verified_commit": "76132734ecd2014f14c898ecf1b1279b97cd5f7a",
   "scan_summary": null,
   "repo_status": "available",
   "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
-  "repo_check_error": null
+  "repo_check_error": null,
+  "scan_date": "2026-03-04T22:18:14Z",
+  "findings_summary": {
+    "scanner_findings": 283,
+    "dangerous_calls": 7,
+    "network_ops": 19,
+    "file_ops": 103,
+    "env_access": 102,
+    "obfuscation": 5,
+    "injection_patterns": 0,
+    "mismatches": 0,
+    "undocumented_capabilities": 0,
+    "supervisor_approved": false,
+    "supervisor_confidence": 60
+  },
+  "scan_report": {
+    "total_findings": 283,
+    "injection_patterns_count": 0,
+    "obfuscation_count": 5,
+    "obfuscation_high_risk_count": 0,
+    "dangerous_calls_count": 7,
+    "severity_counts": {
+      "critical": 0,
+      "high": 59,
+      "medium": 121,
+      "low": 103,
+      "info": 0
+    },
+    "category_counts": {
+      "suspicious_urls": 47,
+      "env_access": 102,
+      "obfuscation": 5,
+      "dangerous_calls": 7,
+      "file_ops": 103,
+      "network_ops": 19
+    },
+    "top_findings": [
+      {
+        "rule_id": "regex_localhost_non_std",
+        "severity": "high",
+        "category": "suspicious_urls",
+        "file": "plugins/agentv-claude-trace/README.md",
+        "line": 33
+      },
+      {
+        "rule_id": "regex_localhost_non_std",
+        "severity": "high",
+        "category": "suspicious_urls",
+        "file": "plugins/agentv-claude-trace/README.md",
+        "line": 77
+      },
+      {
+        "rule_id": "regex_js_process_env",
+        "severity": "medium",
+        "category": "env_access",
+        "file": "plugins/agentv-claude-trace/lib/otel.ts",
+        "line": 42
+      },
+      {
+        "rule_id": "regex_js_process_env",
+        "severity": "medium",
+        "category": "env_access",
+        "file": "plugins/agentv-claude-trace/lib/otel.ts",
+        "line": 43
+      },
+      {
+        "rule_id": "regex_js_process_env",
+        "severity": "medium",
+        "category": "env_access",
+        "file": "plugins/agentv-claude-trace/lib/otel.ts",
+        "line": 46
+      },
+      {
+        "rule_id": "regex_js_process_env",
+        "severity": "medium",
+        "category": "env_access",
+        "file": "plugins/agentv-claude-trace/lib/otel.ts",
+        "line": 48
+      },
+      {
+        "rule_id": "regex_js_process_env",
+        "severity": "medium",
+        "category": "env_access",
+        "file": "plugins/agentv-claude-trace/lib/otel.ts",
+        "line": 59
+      },
+      {
+        "rule_id": "regex_js_process_env",
+        "severity": "medium",
+        "category": "env_access",
+        "file": "plugins/agentv-claude-trace/lib/otel.ts",
+        "line": 62
+      },
+      {
+        "rule_id": "regex_js_process_env",
+        "severity": "medium",
+        "category": "env_access",
+        "file": "plugins/agentv-claude-trace/lib/otel.ts",
+        "line": 63
+      },
+      {
+        "rule_id": "regex_js_process_env",
+        "severity": "medium",
+        "category": "env_access",
+        "file": "plugins/agentv-claude-trace/lib/otel.ts",
+        "line": 66
+      },
+      {
+        "rule_id": "regex_js_process_env",
+        "severity": "medium",
+        "category": "env_access",
+        "file": "plugins/agentv-claude-trace/lib/otel.ts",
+        "line": 70
+      },
+      {
+        "rule_id": "regex_js_buffer_from",
+        "severity": "high",
+        "category": "obfuscation",
+        "file": "plugins/agentv-claude-trace/lib/otel.ts",
+        "line": 64
+      },
+      {
+        "rule_id": "regex_localhost_non_std",
+        "severity": "high",
+        "category": "suspicious_urls",
+        "file": "plugins/agentv-claude-trace/lib/otel.ts",
+        "line": 52
+      },
+      {
+        "rule_id": "regex_py_eval",
+        "severity": "high",
+        "category": "dangerous_calls",
+        "file": "docs/COMPARISON.md",
+        "line": 157
+      },
+      {
+        "rule_id": "regex_py_os_environ",
+        "severity": "medium",
+        "category": "env_access",
+        "file": "examples/features/local-cli/mock_cli.py",
+        "line": 30
+      },
+      {
+        "rule_id": "regex_raw_ip_url",
+        "severity": "high",
+        "category": "suspicious_urls",
+        "file": "examples/features/code-judge-with-llm-calls/README.md",
+        "line": 223
+      },
+      {
+        "rule_id": "regex_js_fs_read",
+        "severity": "low",
+        "category": "file_ops",
+        "file": "examples/features/composite/scripts/safety-gate-aggregator.js",
+        "line": 18
+      },
+      {
+        "rule_id": "regex_js_fs_read",
+        "severity": "low",
+        "category": "file_ops",
+        "file": "examples/features/document-extraction/scripts/aggregate_metrics.ts",
+        "line": 269
+      },
+      {
+        "rule_id": "regex_py_os_remove",
+        "severity": "low",
+        "category": "file_ops",
+        "file": "examples/features/rubric/evals/check_syntax.py",
+        "line": 69
+      },
+      {
+        "rule_id": "regex_py_os_path",
+        "severity": "low",
+        "category": "file_ops",
+        "file": "examples/features/rubric/evals/check_syntax.py",
+        "line": 68
+      }
+    ],
+    "total_files_scanned": 512
+  },
+  "verification_level": "full_pipeline",
+  "agent_audit": {
+    "agents_completed": 5,
+    "agents_required": 5,
+    "pipeline_run_at": "2026-03-04T22:18:14Z",
+    "agent_a": {
+      "signed": true,
+      "signed_at": "2026-03-04T22:18:14Z",
+      "comment": "Docs quality 10/10. README present. 12 features, 4 permissions claimed.",
+      "doc_quality_score": 10,
+      "claimed_permissions": [
+        "network access",
+        "system command execution",
+        "file system access",
+        "environment/secret access"
+      ]
+    },
+    "agent_b": {
+      "signed": true,
+      "signed_at": "2026-03-04T22:18:14Z",
+      "comment": "415 files analyzed. Found: 17 network, 54 file, 88 env, 4 system calls. Primary: typescript.",
+      "files_analyzed": 415,
+      "capabilities_found": [
+        "imports external dependencies",
+        "performs network operations",
+        "reads/writes files",
+        "reads environment values",
+        "executes system commands"
+      ]
+    },
+    "agent_c_star": {
+      "signed": true,
+      "signed_at": "2026-03-04T22:18:14Z",
+      "comment": "283 findings: 0 critical, 59 high, 121 medium, 103 low. Obfuscation detected!. No injection.",
+      "total_findings": 283,
+      "severity_counts": {
+        "critical": 0,
+        "high": 59,
+        "medium": 121,
+        "low": 103,
+        "info": 0
+      }
+    },
+    "agent_d": {
+      "signed": true,
+      "signed_at": "2026-03-04T22:18:14Z",
+      "comment": "Score 60. 0 mismatches. Risk: medium. Safety overrides: none triggered.",
+      "score": 60,
+      "mismatches": 0,
+      "safety_overrides_applied": false
+    },
+    "agent_e": {
+      "signed": true,
+      "signed_at": "2026-03-04T22:18:14Z",
+      "comment": "Rejected. Confidence 60%. No overrides.",
+      "approved": false,
+      "confidence": 60,
+      "override_reason": null
+    },
+    "manager_summary": "5/5 agents completed. Score: 60/100, Risk: medium. 0 mismatches, 283 scanner findings. Rejected at 60% confidence. No safety overrides.",
+    "auto_clear": {
+      "applied": true,
+      "reason": "Auto-clear Cat 1: clean profile (0 inj, 0 obf_hr, score=60)",
+      "original_status": "manual_review",
+      "original_score": 60
+    }
+  }
 }

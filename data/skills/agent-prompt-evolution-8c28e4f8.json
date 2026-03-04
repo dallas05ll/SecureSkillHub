@@ -7,19 +7,262 @@
   "skill_type": "agent_skill",
   "owner": "yaleh",
   "stars": 0,
-  "primary_language": "unknown",
+  "primary_language": "go",
   "tags": [
     "agent-skills",
     "installs:16",
     "data",
-    "data-ai"
+    "data-ai",
+    "status-pass"
   ],
-  "verification_status": "unverified",
-  "overall_score": 0,
-  "risk_level": "info",
-  "verified_commit": null,
+  "verification_status": "pass",
+  "overall_score": 60,
+  "risk_level": "medium",
+  "verified_commit": "70907c8d6bb911290adf77ababb4f337b06011c3",
   "scan_summary": null,
   "repo_status": "available",
   "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
-  "repo_check_error": null
+  "repo_check_error": null,
+  "scan_date": "2026-03-04T22:11:29Z",
+  "findings_summary": {
+    "scanner_findings": 308,
+    "dangerous_calls": 266,
+    "network_ops": 6,
+    "file_ops": 30,
+    "env_access": 0,
+    "obfuscation": 0,
+    "injection_patterns": 0,
+    "mismatches": 0,
+    "undocumented_capabilities": 0,
+    "supervisor_approved": false,
+    "supervisor_confidence": 60
+  },
+  "scan_report": {
+    "total_findings": 308,
+    "injection_patterns_count": 0,
+    "obfuscation_count": 0,
+    "obfuscation_high_risk_count": 0,
+    "dangerous_calls_count": 266,
+    "severity_counts": {
+      "critical": 0,
+      "high": 272,
+      "medium": 6,
+      "low": 30,
+      "info": 0
+    },
+    "category_counts": {
+      "dangerous_calls": 266,
+      "suspicious_urls": 6,
+      "file_ops": 30,
+      "network_ops": 6
+    },
+    "top_findings": [
+      {
+        "rule_id": "regex_shell_backtick_exec",
+        "severity": "high",
+        "category": "dangerous_calls",
+        "file": "CLAUDE.md",
+        "line": 148
+      },
+      {
+        "rule_id": "regex_localhost_non_std",
+        "severity": "high",
+        "category": "suspicious_urls",
+        "file": "capabilities/commands/meta-project-bootstrap.md",
+        "line": 779
+      },
+      {
+        "rule_id": "regex_shell_backtick_exec",
+        "severity": "high",
+        "category": "dangerous_calls",
+        "file": "plans/14-architecture-refactor/iteration-14-implementation-plan.md",
+        "line": 957
+      },
+      {
+        "rule_id": "regex_shell_backtick_exec",
+        "severity": "high",
+        "category": "dangerous_calls",
+        "file": "plans/14-architecture-refactor/iteration-14-implementation-plan.md",
+        "line": 1124
+      },
+      {
+        "rule_id": "regex_shell_backtick_exec",
+        "severity": "high",
+        "category": "dangerous_calls",
+        "file": "plans/14-architecture-refactor/MIGRATION.md",
+        "line": 221
+      },
+      {
+        "rule_id": "regex_shell_backtick_exec",
+        "severity": "high",
+        "category": "dangerous_calls",
+        "file": "plans/14-architecture-refactor/README.md",
+        "line": 195
+      },
+      {
+        "rule_id": "regex_shell_backtick_exec",
+        "severity": "high",
+        "category": "dangerous_calls",
+        "file": "plans/14-architecture-refactor/README.md",
+        "line": 283
+      },
+      {
+        "rule_id": "regex_shell_backtick_exec",
+        "severity": "high",
+        "category": "dangerous_calls",
+        "file": "plans/14-architecture-refactor/plan.md",
+        "line": 1535
+      },
+      {
+        "rule_id": "regex_shell_backtick_exec",
+        "severity": "high",
+        "category": "dangerous_calls",
+        "file": "plans/14-architecture-refactor/plan.md",
+        "line": 2104
+      },
+      {
+        "rule_id": "regex_shell_backtick_exec",
+        "severity": "high",
+        "category": "dangerous_calls",
+        "file": "plans/20-plugin-packaging/plan.md",
+        "line": 327
+      },
+      {
+        "rule_id": "regex_shell_backtick_exec",
+        "severity": "high",
+        "category": "dangerous_calls",
+        "file": "plans/20-plugin-packaging/plan.md",
+        "line": 1057
+      },
+      {
+        "rule_id": "regex_shell_backtick_exec",
+        "severity": "high",
+        "category": "dangerous_calls",
+        "file": "plans/20-plugin-packaging/plan.md",
+        "line": 1336
+      },
+      {
+        "rule_id": "regex_shell_backtick_exec",
+        "severity": "high",
+        "category": "dangerous_calls",
+        "file": "plans/08-mcp-integration/stage-8.10.md",
+        "line": 69
+      },
+      {
+        "rule_id": "regex_shell_backtick_exec",
+        "severity": "high",
+        "category": "dangerous_calls",
+        "file": "plans/08-mcp-integration/stage-8.10.md",
+        "line": 111
+      },
+      {
+        "rule_id": "regex_shell_backtick_exec",
+        "severity": "high",
+        "category": "dangerous_calls",
+        "file": "plans/08-mcp-integration/stage-8.10.md",
+        "line": 157
+      },
+      {
+        "rule_id": "regex_shell_backtick_exec",
+        "severity": "high",
+        "category": "dangerous_calls",
+        "file": "plans/08-mcp-integration/stage-8.10.md",
+        "line": 389
+      },
+      {
+        "rule_id": "regex_shell_backtick_exec",
+        "severity": "high",
+        "category": "dangerous_calls",
+        "file": "plans/08-mcp-integration/stage-8.10.md",
+        "line": 415
+      },
+      {
+        "rule_id": "regex_shell_backtick_exec",
+        "severity": "high",
+        "category": "dangerous_calls",
+        "file": "plans/08-mcp-integration/stage-8.11.md",
+        "line": 71
+      },
+      {
+        "rule_id": "regex_shell_backtick_exec",
+        "severity": "high",
+        "category": "dangerous_calls",
+        "file": "plans/08-mcp-integration/stage-8.11.md",
+        "line": 119
+      },
+      {
+        "rule_id": "regex_shell_backtick_exec",
+        "severity": "high",
+        "category": "dangerous_calls",
+        "file": "plans/08-mcp-integration/stage-8.11.md",
+        "line": 166
+      }
+    ],
+    "total_files_scanned": 866
+  },
+  "verification_level": "full_pipeline",
+  "agent_audit": {
+    "agents_completed": 5,
+    "agents_required": 5,
+    "pipeline_run_at": "2026-03-04T22:11:29Z",
+    "agent_a": {
+      "signed": true,
+      "signed_at": "2026-03-04T22:11:29Z",
+      "comment": "Docs quality 9/10. README present. 12 features, 4 permissions claimed.",
+      "doc_quality_score": 9,
+      "claimed_permissions": [
+        "network access",
+        "system command execution",
+        "file system access",
+        "environment/secret access"
+      ]
+    },
+    "agent_b": {
+      "signed": true,
+      "signed_at": "2026-03-04T22:11:29Z",
+      "comment": "362 files analyzed. Found: 0 network, 19 file, 0 env, 2 system calls. Primary: go.",
+      "files_analyzed": 362,
+      "capabilities_found": [
+        "imports external dependencies",
+        "reads/writes files",
+        "executes system commands"
+      ]
+    },
+    "agent_c_star": {
+      "signed": true,
+      "signed_at": "2026-03-04T22:11:29Z",
+      "comment": "308 findings: 0 critical, 272 high, 6 medium, 30 low. No obfuscation. No injection.",
+      "total_findings": 308,
+      "severity_counts": {
+        "critical": 0,
+        "high": 272,
+        "medium": 6,
+        "low": 30,
+        "info": 0
+      }
+    },
+    "agent_d": {
+      "signed": true,
+      "signed_at": "2026-03-04T22:11:29Z",
+      "comment": "Score 60. 0 mismatches. Risk: medium. Safety overrides: none triggered.",
+      "score": 60,
+      "mismatches": 0,
+      "safety_overrides_applied": false
+    },
+    "agent_e": {
+      "signed": true,
+      "signed_at": "2026-03-04T22:11:29Z",
+      "comment": "Rejected. Confidence 60%. No overrides.",
+      "approved": false,
+      "confidence": 60,
+      "override_reason": null
+    },
+    "manager_summary": "5/5 agents completed. Score: 60/100, Risk: medium. 0 mismatches, 308 scanner findings. Rejected at 60% confidence. No safety overrides.",
+    "auto_clear": {
+      "applied": true,
+      "reason": "Auto-clear Cat 1: clean profile (0 inj, 0 obf_hr, score=60)",
+      "original_status": "manual_review",
+      "original_score": 60
+    }
+  }
 }

@@ -7,19 +7,263 @@
   "skill_type": "agent_skill",
   "owner": "jochenyang",
   "stars": 0,
-  "primary_language": "unknown",
+  "primary_language": "shell",
   "tags": [
     "agent-skills",
     "installs:12",
     "dev",
-    "dev-agents"
+    "dev-agents",
+    "status-pass"
   ],
-  "verification_status": "unverified",
-  "overall_score": 0,
-  "risk_level": "info",
-  "verified_commit": null,
+  "verification_status": "pass",
+  "overall_score": 63,
+  "risk_level": "medium",
+  "verified_commit": "8ad62386b18bd9be2ce9727f89e4199e0ad4d77b",
   "scan_summary": null,
   "repo_status": "available",
   "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
-  "repo_check_error": null
+  "repo_check_error": null,
+  "scan_date": "2026-03-04T22:12:27Z",
+  "findings_summary": {
+    "scanner_findings": 29,
+    "dangerous_calls": 3,
+    "network_ops": 8,
+    "file_ops": 7,
+    "env_access": 7,
+    "obfuscation": 0,
+    "injection_patterns": 0,
+    "mismatches": 0,
+    "undocumented_capabilities": 0,
+    "supervisor_approved": false,
+    "supervisor_confidence": 63
+  },
+  "scan_report": {
+    "total_findings": 29,
+    "injection_patterns_count": 0,
+    "obfuscation_count": 0,
+    "obfuscation_high_risk_count": 0,
+    "dangerous_calls_count": 3,
+    "severity_counts": {
+      "critical": 0,
+      "high": 7,
+      "medium": 15,
+      "low": 7,
+      "info": 0
+    },
+    "category_counts": {
+      "suspicious_urls": 4,
+      "file_ops": 7,
+      "network_ops": 8,
+      "env_access": 7,
+      "dangerous_calls": 3
+    },
+    "top_findings": [
+      {
+        "rule_id": "regex_localhost_non_std",
+        "severity": "high",
+        "category": "suspicious_urls",
+        "file": "agents/devops-engineer.md",
+        "line": 77
+      },
+      {
+        "rule_id": "regex_py_open",
+        "severity": "low",
+        "category": "file_ops",
+        "file": "hooks/self-improvement.sh",
+        "line": 25
+      },
+      {
+        "rule_id": "regex_js_fetch",
+        "severity": "medium",
+        "category": "network_ops",
+        "file": "rules/coding-standards.md",
+        "line": 122
+      },
+      {
+        "rule_id": "regex_js_process_env",
+        "severity": "medium",
+        "category": "env_access",
+        "file": "rules/security.md",
+        "line": 28
+      },
+      {
+        "rule_id": "regex_py_open",
+        "severity": "low",
+        "category": "file_ops",
+        "file": "skills/ui-ux-pro-max/scripts/design_system.py",
+        "line": 42
+      },
+      {
+        "rule_id": "regex_py_open",
+        "severity": "low",
+        "category": "file_ops",
+        "file": "skills/ui-ux-pro-max/scripts/core.py",
+        "line": 165
+      },
+      {
+        "rule_id": "regex_js_process_env",
+        "severity": "medium",
+        "category": "env_access",
+        "file": "skills/developer/references/api-design.md",
+        "line": 250
+      },
+      {
+        "rule_id": "regex_js_process_env",
+        "severity": "medium",
+        "category": "env_access",
+        "file": "skills/developer/references/api-design.md",
+        "line": 257
+      },
+      {
+        "rule_id": "regex_js_fetch",
+        "severity": "medium",
+        "category": "network_ops",
+        "file": "skills/developer/guides/web-best-practices.md",
+        "line": 118
+      },
+      {
+        "rule_id": "regex_js_process_env",
+        "severity": "medium",
+        "category": "env_access",
+        "file": "skills/developer/guides/web-best-practices.md",
+        "line": 112
+      },
+      {
+        "rule_id": "regex_localhost_non_std",
+        "severity": "high",
+        "category": "suspicious_urls",
+        "file": "skills/developer/scripts/init-project.sh",
+        "line": 153
+      },
+      {
+        "rule_id": "regex_py_subprocess_call",
+        "severity": "high",
+        "category": "dangerous_calls",
+        "file": "skills/performance-optimizer/scripts/profile.py",
+        "line": 37
+      },
+      {
+        "rule_id": "regex_py_subprocess_call",
+        "severity": "high",
+        "category": "dangerous_calls",
+        "file": "skills/performance-optimizer/scripts/profile.py",
+        "line": 107
+      },
+      {
+        "rule_id": "regex_localhost_non_std",
+        "severity": "high",
+        "category": "suspicious_urls",
+        "file": "skills/threejs-builder/references/gltf-loading-guide.md",
+        "line": 499
+      },
+      {
+        "rule_id": "regex_js_fs_read",
+        "severity": "low",
+        "category": "file_ops",
+        "file": "skills/quality-assurance/references/owasp-top-10.md",
+        "line": 58
+      },
+      {
+        "rule_id": "regex_js_fs_read",
+        "severity": "low",
+        "category": "file_ops",
+        "file": "skills/quality-assurance/references/owasp-top-10.md",
+        "line": 59
+      },
+      {
+        "rule_id": "regex_js_fs_read",
+        "severity": "low",
+        "category": "file_ops",
+        "file": "skills/quality-assurance/references/owasp-top-10.md",
+        "line": 236
+      },
+      {
+        "rule_id": "regex_js_process_env",
+        "severity": "medium",
+        "category": "env_access",
+        "file": "skills/quality-assurance/references/owasp-top-10.md",
+        "line": 163
+      },
+      {
+        "rule_id": "regex_js_process_env",
+        "severity": "medium",
+        "category": "env_access",
+        "file": "skills/quality-assurance/references/owasp-top-10.md",
+        "line": 211
+      },
+      {
+        "rule_id": "regex_py_eval",
+        "severity": "high",
+        "category": "dangerous_calls",
+        "file": "skills/quality-assurance/workflows/security-audit.md",
+        "line": 127
+      }
+    ],
+    "total_files_scanned": 123
+  },
+  "verification_level": "full_pipeline",
+  "agent_audit": {
+    "agents_completed": 5,
+    "agents_required": 5,
+    "pipeline_run_at": "2026-03-04T22:12:27Z",
+    "agent_a": {
+      "signed": true,
+      "signed_at": "2026-03-04T22:12:27Z",
+      "comment": "Docs quality 10/10. README present. 12 features, 4 permissions claimed.",
+      "doc_quality_score": 10,
+      "claimed_permissions": [
+        "network access",
+        "system command execution",
+        "file system access",
+        "environment/secret access"
+      ]
+    },
+    "agent_b": {
+      "signed": true,
+      "signed_at": "2026-03-04T22:12:27Z",
+      "comment": "28 files analyzed. Found: 0 network, 10 file, 0 env, 2 system calls. Primary: shell.",
+      "files_analyzed": 28,
+      "capabilities_found": [
+        "imports external dependencies",
+        "reads/writes files",
+        "executes system commands"
+      ]
+    },
+    "agent_c_star": {
+      "signed": true,
+      "signed_at": "2026-03-04T22:12:27Z",
+      "comment": "29 findings: 0 critical, 7 high, 15 medium, 7 low. No obfuscation. No injection.",
+      "total_findings": 29,
+      "severity_counts": {
+        "critical": 0,
+        "high": 7,
+        "medium": 15,
+        "low": 7,
+        "info": 0
+      }
+    },
+    "agent_d": {
+      "signed": true,
+      "signed_at": "2026-03-04T22:12:27Z",
+      "comment": "Score 63. 0 mismatches. Risk: medium. Safety overrides: none triggered.",
+      "score": 63,
+      "mismatches": 0,
+      "safety_overrides_applied": false
+    },
+    "agent_e": {
+      "signed": true,
+      "signed_at": "2026-03-04T22:12:27Z",
+      "comment": "Rejected. Confidence 63%. No overrides.",
+      "approved": false,
+      "confidence": 63,
+      "override_reason": null
+    },
+    "manager_summary": "5/5 agents completed. Score: 63/100, Risk: medium. 0 mismatches, 29 scanner findings. Rejected at 63% confidence. No safety overrides.",
+    "auto_clear": {
+      "applied": true,
+      "reason": "Auto-clear Cat 1: clean profile (0 inj, 0 obf_hr, score=63)",
+      "original_status": "manual_review",
+      "original_score": 63
+    }
+  }
 }

@@ -7,21 +7,267 @@
   "skill_type": "agent_skill",
   "owner": "study8677",
   "stars": 0,
-  "primary_language": "unknown",
+  "primary_language": "python",
   "tags": [
     "agent-skills",
     "installs:887",
     "data",
     "data-ai",
     "dev",
-    "dev-agents"
+    "dev-agents",
+    "status-pass"
   ],
-  "verification_status": "unverified",
-  "overall_score": 0,
-  "risk_level": "info",
-  "verified_commit": null,
+  "verification_status": "pass",
+  "overall_score": 60,
+  "risk_level": "medium",
+  "verified_commit": "7eea6554c9d30eab96ec63d393db2139473a2e43",
   "scan_summary": null,
   "repo_status": "available",
   "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
-  "repo_check_error": null
+  "repo_check_error": null,
+  "scan_date": "2026-03-04T22:13:07Z",
+  "findings_summary": {
+    "scanner_findings": 59,
+    "dangerous_calls": 8,
+    "network_ops": 3,
+    "file_ops": 21,
+    "env_access": 15,
+    "obfuscation": 0,
+    "injection_patterns": 0,
+    "mismatches": 0,
+    "undocumented_capabilities": 0,
+    "supervisor_approved": false,
+    "supervisor_confidence": 60
+  },
+  "scan_report": {
+    "total_findings": 59,
+    "injection_patterns_count": 0,
+    "obfuscation_count": 0,
+    "obfuscation_high_risk_count": 0,
+    "dangerous_calls_count": 8,
+    "severity_counts": {
+      "critical": 0,
+      "high": 20,
+      "medium": 18,
+      "low": 21,
+      "info": 0
+    },
+    "category_counts": {
+      "suspicious_urls": 12,
+      "env_access": 15,
+      "dangerous_calls": 8,
+      "file_ops": 21,
+      "network_ops": 3
+    },
+    "top_findings": [
+      {
+        "rule_id": "regex_raw_ip_url",
+        "severity": "high",
+        "category": "suspicious_urls",
+        "file": "README.md",
+        "line": 152
+      },
+      {
+        "rule_id": "regex_raw_ip_url",
+        "severity": "high",
+        "category": "suspicious_urls",
+        "file": "README.md",
+        "line": 167
+      },
+      {
+        "rule_id": "regex_py_os_environ",
+        "severity": "medium",
+        "category": "env_access",
+        "file": "agent.py",
+        "line": 15
+      },
+      {
+        "rule_id": "regex_localhost_non_std",
+        "severity": "high",
+        "category": "suspicious_urls",
+        "file": "mcp_servers.json",
+        "line": 81
+      },
+      {
+        "rule_id": "regex_py_eval",
+        "severity": "high",
+        "category": "dangerous_calls",
+        "file": "artifacts/analysis/deep_analysis_antigravity_2025-12-24_es.md",
+        "line": 217
+      },
+      {
+        "rule_id": "regex_py_os_path",
+        "severity": "low",
+        "category": "file_ops",
+        "file": "tests/conftest.py",
+        "line": 11
+      },
+      {
+        "rule_id": "regex_py_subprocess_call",
+        "severity": "high",
+        "category": "dangerous_calls",
+        "file": "tests/test_agent_repo_init_skill.py",
+        "line": 146
+      },
+      {
+        "rule_id": "regex_py_open",
+        "severity": "low",
+        "category": "file_ops",
+        "file": "tests/test_local_sandbox.py",
+        "line": 54
+      },
+      {
+        "rule_id": "regex_py_os_remove",
+        "severity": "low",
+        "category": "file_ops",
+        "file": "tests/test_local_sandbox.py",
+        "line": 51
+      },
+      {
+        "rule_id": "regex_py_os_remove",
+        "severity": "low",
+        "category": "file_ops",
+        "file": "tests/test_local_sandbox.py",
+        "line": 63
+      },
+      {
+        "rule_id": "regex_py_os_path",
+        "severity": "low",
+        "category": "file_ops",
+        "file": "tests/test_local_sandbox.py",
+        "line": 50
+      },
+      {
+        "rule_id": "regex_py_os_path",
+        "severity": "low",
+        "category": "file_ops",
+        "file": "tests/test_local_sandbox.py",
+        "line": 60
+      },
+      {
+        "rule_id": "regex_py_os_path",
+        "severity": "low",
+        "category": "file_ops",
+        "file": "tests/test_local_sandbox.py",
+        "line": 62
+      },
+      {
+        "rule_id": "regex_py_open",
+        "severity": "low",
+        "category": "file_ops",
+        "file": "tests/test_memory.py",
+        "line": 72
+      },
+      {
+        "rule_id": "regex_py_open",
+        "severity": "low",
+        "category": "file_ops",
+        "file": "tests/test_mcp.py",
+        "line": 90
+      },
+      {
+        "rule_id": "regex_py_open",
+        "severity": "low",
+        "category": "file_ops",
+        "file": "tests/test_mcp.py",
+        "line": 98
+      },
+      {
+        "rule_id": "regex_py_os_remove",
+        "severity": "low",
+        "category": "file_ops",
+        "file": "tests/test_mcp.py",
+        "line": 370
+      },
+      {
+        "rule_id": "regex_py_tempfile",
+        "severity": "low",
+        "category": "file_ops",
+        "file": "tests/test_mcp.py",
+        "line": 359
+      },
+      {
+        "rule_id": "regex_localhost_non_std",
+        "severity": "high",
+        "category": "suspicious_urls",
+        "file": "tests/test_mcp.py",
+        "line": 56
+      },
+      {
+        "rule_id": "regex_localhost_non_std",
+        "severity": "high",
+        "category": "suspicious_urls",
+        "file": "tests/test_mcp.py",
+        "line": 61
+      }
+    ],
+    "total_files_scanned": 110
+  },
+  "verification_level": "full_pipeline",
+  "agent_audit": {
+    "agents_completed": 5,
+    "agents_required": 5,
+    "pipeline_run_at": "2026-03-04T22:13:07Z",
+    "agent_a": {
+      "signed": true,
+      "signed_at": "2026-03-04T22:13:07Z",
+      "comment": "Docs quality 10/10. README present. 12 features, 4 permissions claimed.",
+      "doc_quality_score": 10,
+      "claimed_permissions": [
+        "network access",
+        "system command execution",
+        "file system access",
+        "environment/secret access"
+      ]
+    },
+    "agent_b": {
+      "signed": true,
+      "signed_at": "2026-03-04T22:13:07Z",
+      "comment": "51 files analyzed. Found: 3 network, 36 file, 15 env, 6 system calls. Primary: python.",
+      "files_analyzed": 51,
+      "capabilities_found": [
+        "imports external dependencies",
+        "performs network operations",
+        "reads/writes files",
+        "reads environment values",
+        "executes system commands"
+      ]
+    },
+    "agent_c_star": {
+      "signed": true,
+      "signed_at": "2026-03-04T22:13:07Z",
+      "comment": "59 findings: 0 critical, 20 high, 18 medium, 21 low. No obfuscation. No injection.",
+      "total_findings": 59,
+      "severity_counts": {
+        "critical": 0,
+        "high": 20,
+        "medium": 18,
+        "low": 21,
+        "info": 0
+      }
+    },
+    "agent_d": {
+      "signed": true,
+      "signed_at": "2026-03-04T22:13:07Z",
+      "comment": "Score 60. 0 mismatches. Risk: medium. Safety overrides: none triggered.",
+      "score": 60,
+      "mismatches": 0,
+      "safety_overrides_applied": false
+    },
+    "agent_e": {
+      "signed": true,
+      "signed_at": "2026-03-04T22:13:07Z",
+      "comment": "Rejected. Confidence 60%. No overrides.",
+      "approved": false,
+      "confidence": 60,
+      "override_reason": null
+    },
+    "manager_summary": "5/5 agents completed. Score: 60/100, Risk: medium. 0 mismatches, 59 scanner findings. Rejected at 60% confidence. No safety overrides.",
+    "auto_clear": {
+      "applied": true,
+      "reason": "Auto-clear Cat 1: clean profile (0 inj, 0 obf_hr, score=60)",
+      "original_status": "manual_review",
+      "original_score": 60
+    }
+  }
 }

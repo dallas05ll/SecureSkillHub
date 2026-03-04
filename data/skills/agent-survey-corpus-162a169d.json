@@ -7,19 +7,247 @@
   "skill_type": "agent_skill",
   "owner": "willoscar",
   "stars": 0,
-  "primary_language": "unknown",
+  "primary_language": "python",
   "tags": [
     "agent-skills",
     "installs:209",
     "data",
-    "data-ai"
+    "data-ai",
+    "status-pass"
   ],
-  "verification_status": "unverified",
-  "overall_score": 0,
-  "risk_level": "info",
-  "verified_commit": null,
+  "verification_status": "pass",
+  "overall_score": 88,
+  "risk_level": "medium",
+  "verified_commit": "e3ac469b3d6de82905f63f7d5077cd2743216b7d",
   "scan_summary": null,
   "repo_status": "available",
   "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
-  "repo_check_error": null
+  "repo_check_error": null,
+  "scan_date": "2026-03-04T22:12:03Z",
+  "findings_summary": {
+    "scanner_findings": 19,
+    "dangerous_calls": 2,
+    "network_ops": 0,
+    "file_ops": 17,
+    "env_access": 0,
+    "obfuscation": 0,
+    "injection_patterns": 0,
+    "mismatches": 0,
+    "undocumented_capabilities": 0,
+    "supervisor_approved": true,
+    "supervisor_confidence": 88
+  },
+  "scan_report": {
+    "total_findings": 19,
+    "injection_patterns_count": 0,
+    "obfuscation_count": 0,
+    "obfuscation_high_risk_count": 0,
+    "dangerous_calls_count": 2,
+    "severity_counts": {
+      "critical": 0,
+      "high": 2,
+      "medium": 0,
+      "low": 17,
+      "info": 0
+    },
+    "category_counts": {
+      "file_ops": 17,
+      "dangerous_calls": 2
+    },
+    "top_findings": [
+      {
+        "rule_id": "regex_py_open",
+        "severity": "low",
+        "category": "file_ops",
+        "file": "tooling/common.py",
+        "line": 75
+      },
+      {
+        "rule_id": "regex_py_open",
+        "severity": "low",
+        "category": "file_ops",
+        "file": "tooling/common.py",
+        "line": 93
+      },
+      {
+        "rule_id": "regex_py_open",
+        "severity": "low",
+        "category": "file_ops",
+        "file": "tooling/common.py",
+        "line": 123
+      },
+      {
+        "rule_id": "regex_py_open",
+        "severity": "low",
+        "category": "file_ops",
+        "file": "tooling/common.py",
+        "line": 148
+      },
+      {
+        "rule_id": "regex_py_shutil",
+        "severity": "low",
+        "category": "file_ops",
+        "file": "tooling/common.py",
+        "line": 177
+      },
+      {
+        "rule_id": "regex_py_os_remove",
+        "severity": "low",
+        "category": "file_ops",
+        "file": "tooling/common.py",
+        "line": 38
+      },
+      {
+        "rule_id": "regex_py_os_remove",
+        "severity": "low",
+        "category": "file_ops",
+        "file": "tooling/common.py",
+        "line": 110
+      },
+      {
+        "rule_id": "regex_py_os_remove",
+        "severity": "low",
+        "category": "file_ops",
+        "file": "tooling/common.py",
+        "line": 141
+      },
+      {
+        "rule_id": "regex_py_tempfile",
+        "severity": "low",
+        "category": "file_ops",
+        "file": "tooling/common.py",
+        "line": 31
+      },
+      {
+        "rule_id": "regex_py_tempfile",
+        "severity": "low",
+        "category": "file_ops",
+        "file": "tooling/common.py",
+        "line": 100
+      },
+      {
+        "rule_id": "regex_py_tempfile",
+        "severity": "low",
+        "category": "file_ops",
+        "file": "tooling/common.py",
+        "line": 131
+      },
+      {
+        "rule_id": "regex_py_open",
+        "severity": "low",
+        "category": "file_ops",
+        "file": "tooling/quality_gate.py",
+        "line": 805
+      },
+      {
+        "rule_id": "regex_py_open",
+        "severity": "low",
+        "category": "file_ops",
+        "file": "tooling/quality_gate.py",
+        "line": 1441
+      },
+      {
+        "rule_id": "regex_py_open",
+        "severity": "low",
+        "category": "file_ops",
+        "file": "tooling/quality_gate.py",
+        "line": 4838
+      },
+      {
+        "rule_id": "regex_py_subprocess_call",
+        "severity": "high",
+        "category": "dangerous_calls",
+        "file": "tooling/executor.py",
+        "line": 153
+      },
+      {
+        "rule_id": "regex_py_subprocess_call",
+        "severity": "high",
+        "category": "dangerous_calls",
+        "file": "scripts/pipeline.py",
+        "line": 162
+      },
+      {
+        "rule_id": "regex_py_open",
+        "severity": "low",
+        "category": "file_ops",
+        "file": "scripts/validate_repo.py",
+        "line": 116
+      },
+      {
+        "rule_id": "regex_py_open",
+        "severity": "low",
+        "category": "file_ops",
+        "file": "scripts/validate_repo.py",
+        "line": 425
+      },
+      {
+        "rule_id": "regex_py_open",
+        "severity": "low",
+        "category": "file_ops",
+        "file": "scripts/generate_skill_graph.py",
+        "line": 235
+      }
+    ],
+    "total_files_scanned": 214
+  },
+  "verification_level": "full_pipeline",
+  "agent_audit": {
+    "agents_completed": 5,
+    "agents_required": 5,
+    "pipeline_run_at": "2026-03-04T22:12:03Z",
+    "agent_a": {
+      "signed": true,
+      "signed_at": "2026-03-04T22:12:03Z",
+      "comment": "Docs quality 9/10. README present. 12 features, 4 permissions claimed.",
+      "doc_quality_score": 9,
+      "claimed_permissions": [
+        "network access",
+        "system command execution",
+        "file system access",
+        "environment/secret access"
+      ]
+    },
+    "agent_b": {
+      "signed": true,
+      "signed_at": "2026-03-04T22:12:03Z",
+      "comment": "16 files analyzed. Found: 0 network, 41 file, 0 env, 2 system calls. Primary: python.",
+      "files_analyzed": 16,
+      "capabilities_found": [
+        "imports external dependencies",
+        "reads/writes files",
+        "executes system commands"
+      ]
+    },
+    "agent_c_star": {
+      "signed": true,
+      "signed_at": "2026-03-04T22:12:03Z",
+      "comment": "19 findings: 0 critical, 2 high, 0 medium, 17 low. No obfuscation. No injection.",
+      "total_findings": 19,
+      "severity_counts": {
+        "critical": 0,
+        "high": 2,
+        "medium": 0,
+        "low": 17,
+        "info": 0
+      }
+    },
+    "agent_d": {
+      "signed": true,
+      "signed_at": "2026-03-04T22:12:03Z",
+      "comment": "Score 88. 0 mismatches. Risk: medium. Safety overrides: none triggered.",
+      "score": 88,
+      "mismatches": 0,
+      "safety_overrides_applied": false
+    },
+    "agent_e": {
+      "signed": true,
+      "signed_at": "2026-03-04T22:12:03Z",
+      "comment": "Approved. Confidence 88%. No overrides.",
+      "approved": true,
+      "confidence": 88,
+      "override_reason": null
+    },
+    "manager_summary": "5/5 agents completed. Score: 88/100, Risk: medium. 0 mismatches, 19 scanner findings. Approved at 88% confidence. No safety overrides."
+  }
 }

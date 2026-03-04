@@ -7,18 +7,264 @@
   "skill_type": "agent_skill",
   "owner": "hoangnguyen0403",
   "stars": 0,
-  "primary_language": "unknown",
+  "primary_language": "typescript",
   "tags": [
     "agent-skills",
     "installs:229",
-    "prod"
+    "prod",
+    "status-pass"
   ],
-  "verification_status": "unverified",
-  "overall_score": 0,
-  "risk_level": "info",
-  "verified_commit": null,
+  "verification_status": "pass",
+  "overall_score": 60,
+  "risk_level": "medium",
+  "verified_commit": "56011700a05fc311eec92eeb05557be4a0702882",
   "scan_summary": null,
   "repo_status": "available",
   "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
-  "repo_check_error": null
+  "repo_check_error": null,
+  "scan_date": "2026-03-04T22:17:22Z",
+  "findings_summary": {
+    "scanner_findings": 150,
+    "dangerous_calls": 10,
+    "network_ops": 32,
+    "file_ops": 37,
+    "env_access": 70,
+    "obfuscation": 0,
+    "injection_patterns": 0,
+    "mismatches": 0,
+    "undocumented_capabilities": 0,
+    "supervisor_approved": false,
+    "supervisor_confidence": 60
+  },
+  "scan_report": {
+    "total_findings": 150,
+    "injection_patterns_count": 0,
+    "obfuscation_count": 0,
+    "obfuscation_high_risk_count": 0,
+    "dangerous_calls_count": 10,
+    "severity_counts": {
+      "critical": 0,
+      "high": 11,
+      "medium": 102,
+      "low": 37,
+      "info": 0
+    },
+    "category_counts": {
+      "env_access": 70,
+      "file_ops": 37,
+      "network_ops": 32,
+      "dangerous_calls": 10,
+      "suspicious_urls": 1
+    },
+    "top_findings": [
+      {
+        "rule_id": "regex_js_process_env",
+        "severity": "medium",
+        "category": "env_access",
+        "file": "server/src/main.ts",
+        "line": 15
+      },
+      {
+        "rule_id": "regex_js_process_env",
+        "severity": "medium",
+        "category": "env_access",
+        "file": "server/src/main.ts",
+        "line": 16
+      },
+      {
+        "rule_id": "regex_js_process_env",
+        "severity": "medium",
+        "category": "env_access",
+        "file": "server/src/main.ts",
+        "line": 44
+      },
+      {
+        "rule_id": "regex_js_process_env",
+        "severity": "medium",
+        "category": "env_access",
+        "file": "server/src/main.ts",
+        "line": 55
+      },
+      {
+        "rule_id": "regex_js_process_env",
+        "severity": "medium",
+        "category": "env_access",
+        "file": "server/src/core/core.module.ts",
+        "line": 13
+      },
+      {
+        "rule_id": "regex_js_process_env",
+        "severity": "medium",
+        "category": "env_access",
+        "file": "cli/vite.config.ts",
+        "line": 30
+      },
+      {
+        "rule_id": "regex_js_process_env",
+        "severity": "medium",
+        "category": "env_access",
+        "file": "cli/vite.config.ts",
+        "line": 31
+      },
+      {
+        "rule_id": "regex_js_dotenv_config",
+        "severity": "medium",
+        "category": "env_access",
+        "file": "cli/src/index.ts",
+        "line": 12
+      },
+      {
+        "rule_id": "regex_js_process_env",
+        "severity": "medium",
+        "category": "env_access",
+        "file": "cli/src/commands/upgrade.ts",
+        "line": 74
+      },
+      {
+        "rule_id": "regex_js_fs_read",
+        "severity": "low",
+        "category": "file_ops",
+        "file": "cli/src/services/SkillValidator.ts",
+        "line": 137
+      },
+      {
+        "rule_id": "regex_js_fetch",
+        "severity": "medium",
+        "category": "network_ops",
+        "file": "cli/src/services/FeedbackService.ts",
+        "line": 53
+      },
+      {
+        "rule_id": "regex_js_process_env",
+        "severity": "medium",
+        "category": "env_access",
+        "file": "cli/src/services/FeedbackService.ts",
+        "line": 38
+      },
+      {
+        "rule_id": "regex_js_process_env",
+        "severity": "medium",
+        "category": "env_access",
+        "file": "cli/src/services/GitService.ts",
+        "line": 37
+      },
+      {
+        "rule_id": "regex_js_process_env",
+        "severity": "medium",
+        "category": "env_access",
+        "file": "cli/src/services/GitService.ts",
+        "line": 41
+      },
+      {
+        "rule_id": "regex_js_process_env",
+        "severity": "medium",
+        "category": "env_access",
+        "file": "cli/src/services/GitService.ts",
+        "line": 50
+      },
+      {
+        "rule_id": "regex_js_process_env",
+        "severity": "medium",
+        "category": "env_access",
+        "file": "cli/src/services/GitService.ts",
+        "line": 62
+      },
+      {
+        "rule_id": "regex_js_process_env",
+        "severity": "medium",
+        "category": "env_access",
+        "file": "cli/src/services/GitService.ts",
+        "line": 85
+      },
+      {
+        "rule_id": "regex_js_process_env",
+        "severity": "medium",
+        "category": "env_access",
+        "file": "cli/src/services/SyncService.ts",
+        "line": 26
+      },
+      {
+        "rule_id": "regex_js_process_env",
+        "severity": "medium",
+        "category": "env_access",
+        "file": "cli/src/services/SyncService.ts",
+        "line": 433
+      },
+      {
+        "rule_id": "regex_py_exec",
+        "severity": "high",
+        "category": "dangerous_calls",
+        "file": "cli/src/services/DetectionService.ts",
+        "line": 218
+      }
+    ],
+    "total_files_scanned": 600
+  },
+  "verification_level": "full_pipeline",
+  "agent_audit": {
+    "agents_completed": 5,
+    "agents_required": 5,
+    "pipeline_run_at": "2026-03-04T22:17:22Z",
+    "agent_a": {
+      "signed": true,
+      "signed_at": "2026-03-04T22:17:22Z",
+      "comment": "Docs quality 10/10. README present. 12 features, 4 permissions claimed.",
+      "doc_quality_score": 10,
+      "claimed_permissions": [
+        "network access",
+        "system command execution",
+        "file system access",
+        "environment/secret access"
+      ]
+    },
+    "agent_b": {
+      "signed": true,
+      "signed_at": "2026-03-04T22:17:22Z",
+      "comment": "98 files analyzed. Found: 5 network, 38 file, 53 env, 4 system calls. Primary: typescript.",
+      "files_analyzed": 98,
+      "capabilities_found": [
+        "imports external dependencies",
+        "performs network operations",
+        "reads/writes files",
+        "reads environment values",
+        "executes system commands"
+      ]
+    },
+    "agent_c_star": {
+      "signed": true,
+      "signed_at": "2026-03-04T22:17:22Z",
+      "comment": "150 findings: 0 critical, 11 high, 102 medium, 37 low. No obfuscation. No injection.",
+      "total_findings": 150,
+      "severity_counts": {
+        "critical": 0,
+        "high": 11,
+        "medium": 102,
+        "low": 37,
+        "info": 0
+      }
+    },
+    "agent_d": {
+      "signed": true,
+      "signed_at": "2026-03-04T22:17:22Z",
+      "comment": "Score 60. 0 mismatches. Risk: medium. Safety overrides: none triggered.",
+      "score": 60,
+      "mismatches": 0,
+      "safety_overrides_applied": false
+    },
+    "agent_e": {
+      "signed": true,
+      "signed_at": "2026-03-04T22:17:22Z",
+      "comment": "Rejected. Confidence 60%. No overrides.",
+      "approved": false,
+      "confidence": 60,
+      "override_reason": null
+    },
+    "manager_summary": "5/5 agents completed. Score: 60/100, Risk: medium. 0 mismatches, 150 scanner findings. Rejected at 60% confidence. No safety overrides.",
+    "auto_clear": {
+      "applied": true,
+      "reason": "Auto-clear Cat 1: clean profile (0 inj, 0 obf_hr, score=60)",
+      "original_status": "manual_review",
+      "original_score": 60
+    }
+  }
 }

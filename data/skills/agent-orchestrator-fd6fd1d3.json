@@ -12,14 +12,258 @@
     "agent-skills",
     "installs:9",
     "dev",
-    "dev-agents"
+    "dev-agents",
+    "status-pass"
   ],
-  "verification_status": "unverified",
-  "overall_score": 0,
-  "risk_level": "info",
-  "verified_commit": null,
+  "verification_status": "pass",
+  "overall_score": 50,
+  "risk_level": "medium",
+  "verified_commit": "36498c11e5835c46890826723b6722d34e783534",
   "scan_summary": null,
   "repo_status": "available",
   "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
-  "repo_check_error": null
+  "repo_check_error": null,
+  "scan_date": "2026-03-04T22:11:22Z",
+  "findings_summary": {
+    "scanner_findings": 29,
+    "dangerous_calls": 19,
+    "network_ops": 2,
+    "file_ops": 1,
+    "env_access": 0,
+    "obfuscation": 6,
+    "injection_patterns": 0,
+    "mismatches": 0,
+    "undocumented_capabilities": 0,
+    "supervisor_approved": false,
+    "supervisor_confidence": 90
+  },
+  "scan_report": {
+    "total_findings": 29,
+    "injection_patterns_count": 0,
+    "obfuscation_count": 6,
+    "obfuscation_high_risk_count": 2,
+    "dangerous_calls_count": 19,
+    "severity_counts": {
+      "critical": 0,
+      "high": 26,
+      "medium": 2,
+      "low": 1,
+      "info": 0
+    },
+    "category_counts": {
+      "network_ops": 2,
+      "file_ops": 1,
+      "dangerous_calls": 19,
+      "obfuscation": 6,
+      "suspicious_urls": 1
+    },
+    "top_findings": [
+      {
+        "rule_id": "regex_js_fetch",
+        "severity": "medium",
+        "category": "network_ops",
+        "file": "lib/web-fetch-md/src/fetchmd.ts",
+        "line": 151
+      },
+      {
+        "rule_id": "regex_js_fs_write",
+        "severity": "low",
+        "category": "file_ops",
+        "file": "lib/web-fetch-md/src/fetchmd.ts",
+        "line": 379
+      },
+      {
+        "rule_id": "regex_py_exec",
+        "severity": "high",
+        "category": "dangerous_calls",
+        "file": "skills/web-fetch-to-markdown/scripts/fetchmd.js",
+        "line": 1654
+      },
+      {
+        "rule_id": "regex_py_exec",
+        "severity": "high",
+        "category": "dangerous_calls",
+        "file": "skills/web-fetch-to-markdown/scripts/fetchmd.js",
+        "line": 3789
+      },
+      {
+        "rule_id": "regex_py_exec",
+        "severity": "high",
+        "category": "dangerous_calls",
+        "file": "skills/web-fetch-to-markdown/scripts/fetchmd.js",
+        "line": 6272
+      },
+      {
+        "rule_id": "regex_py_exec",
+        "severity": "high",
+        "category": "dangerous_calls",
+        "file": "skills/web-fetch-to-markdown/scripts/fetchmd.js",
+        "line": 6293
+      },
+      {
+        "rule_id": "regex_py_exec",
+        "severity": "high",
+        "category": "dangerous_calls",
+        "file": "skills/web-fetch-to-markdown/scripts/fetchmd.js",
+        "line": 6337
+      },
+      {
+        "rule_id": "regex_py_exec",
+        "severity": "high",
+        "category": "dangerous_calls",
+        "file": "skills/web-fetch-to-markdown/scripts/fetchmd.js",
+        "line": 6757
+      },
+      {
+        "rule_id": "regex_py_exec",
+        "severity": "high",
+        "category": "dangerous_calls",
+        "file": "skills/web-fetch-to-markdown/scripts/fetchmd.js",
+        "line": 6761
+      },
+      {
+        "rule_id": "regex_py_exec",
+        "severity": "high",
+        "category": "dangerous_calls",
+        "file": "skills/web-fetch-to-markdown/scripts/fetchmd.js",
+        "line": 6769
+      },
+      {
+        "rule_id": "regex_py_exec",
+        "severity": "high",
+        "category": "dangerous_calls",
+        "file": "skills/web-fetch-to-markdown/scripts/fetchmd.js",
+        "line": 6779
+      },
+      {
+        "rule_id": "regex_py_exec",
+        "severity": "high",
+        "category": "dangerous_calls",
+        "file": "skills/web-fetch-to-markdown/scripts/fetchmd.js",
+        "line": 6786
+      },
+      {
+        "rule_id": "regex_py_exec",
+        "severity": "high",
+        "category": "dangerous_calls",
+        "file": "skills/web-fetch-to-markdown/scripts/fetchmd.js",
+        "line": 9111
+      },
+      {
+        "rule_id": "regex_py_exec",
+        "severity": "high",
+        "category": "dangerous_calls",
+        "file": "skills/web-fetch-to-markdown/scripts/fetchmd.js",
+        "line": 15556
+      },
+      {
+        "rule_id": "regex_py_exec",
+        "severity": "high",
+        "category": "dangerous_calls",
+        "file": "skills/web-fetch-to-markdown/scripts/fetchmd.js",
+        "line": 15639
+      },
+      {
+        "rule_id": "regex_py_exec",
+        "severity": "high",
+        "category": "dangerous_calls",
+        "file": "skills/web-fetch-to-markdown/scripts/fetchmd.js",
+        "line": 15654
+      },
+      {
+        "rule_id": "regex_py_exec",
+        "severity": "high",
+        "category": "dangerous_calls",
+        "file": "skills/web-fetch-to-markdown/scripts/fetchmd.js",
+        "line": 15683
+      },
+      {
+        "rule_id": "regex_py_exec",
+        "severity": "high",
+        "category": "dangerous_calls",
+        "file": "skills/web-fetch-to-markdown/scripts/fetchmd.js",
+        "line": 18570
+      },
+      {
+        "rule_id": "regex_py_exec",
+        "severity": "high",
+        "category": "dangerous_calls",
+        "file": "skills/web-fetch-to-markdown/scripts/fetchmd.js",
+        "line": 21060
+      },
+      {
+        "rule_id": "regex_py_exec",
+        "severity": "high",
+        "category": "dangerous_calls",
+        "file": "skills/web-fetch-to-markdown/scripts/fetchmd.js",
+        "line": 24297
+      }
+    ],
+    "total_files_scanned": 47
+  },
+  "verification_level": "full_pipeline",
+  "agent_audit": {
+    "agents_completed": 5,
+    "agents_required": 5,
+    "pipeline_run_at": "2026-03-04T22:11:22Z",
+    "agent_a": {
+      "signed": true,
+      "signed_at": "2026-03-04T22:11:22Z",
+      "comment": "Docs quality 10/10. README present. 12 features, 4 permissions claimed.",
+      "doc_quality_score": 10,
+      "claimed_permissions": [
+        "network access",
+        "system command execution",
+        "file system access",
+        "environment/secret access"
+      ]
+    },
+    "agent_b": {
+      "signed": true,
+      "signed_at": "2026-03-04T22:11:22Z",
+      "comment": "35 files analyzed. Found: 1 network, 8 file, 0 env, 0 system calls. Primary: unknown.",
+      "files_analyzed": 35,
+      "capabilities_found": [
+        "imports external dependencies",
+        "performs network operations",
+        "reads/writes files"
+      ]
+    },
+    "agent_c_star": {
+      "signed": true,
+      "signed_at": "2026-03-04T22:11:22Z",
+      "comment": "29 findings: 0 critical, 26 high, 2 medium, 1 low. Obfuscation detected!. No injection.",
+      "total_findings": 29,
+      "severity_counts": {
+        "critical": 0,
+        "high": 26,
+        "medium": 2,
+        "low": 1,
+        "info": 0
+      }
+    },
+    "agent_d": {
+      "signed": true,
+      "signed_at": "2026-03-04T22:11:22Z",
+      "comment": "Score 15. 0 mismatches. Risk: critical. Safety overrides: applied.",
+      "score": 15,
+      "mismatches": 0,
+      "safety_overrides_applied": true
+    },
+    "agent_e": {
+      "signed": true,
+      "signed_at": "2026-03-04T22:11:22Z",
+      "comment": "Rejected. Confidence 90%. Deterministic override: high-risk obfuscation detected.",
+      "approved": false,
+      "confidence": 90,
+      "override_reason": "Deterministic override: high-risk obfuscation detected."
+    },
+    "manager_summary": "5/5 agents completed. Score: 15/100, Risk: critical. 0 mismatches, 29 scanner findings. Rejected at 90% confidence. Safety overrides triggered.",
+    "auto_clear": {
+      "applied": true,
+      "reason": "Auto-clear Cat 2: obfuscation FP (2 obf_hr, 0 dangerous_obf, 0 inj, 47 files)",
+      "original_status": "fail",
+      "original_score": 15
+    }
+  }
 }

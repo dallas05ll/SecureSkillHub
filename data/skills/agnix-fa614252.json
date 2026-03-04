@@ -7,18 +7,264 @@
   "skill_type": "agent_skill",
   "owner": "avifenesh",
   "stars": 0,
-  "primary_language": "unknown",
+  "primary_language": "javascript",
   "tags": [
     "agent-skills",
     "installs:430",
-    "dev"
+    "dev",
+    "status-pass"
   ],
-  "verification_status": "unverified",
-  "overall_score": 0,
-  "risk_level": "info",
-  "verified_commit": null,
+  "verification_status": "pass",
+  "overall_score": 50,
+  "risk_level": "medium",
+  "verified_commit": "8dc2caef04034751532255be2f958871b2d4a0e1",
   "scan_summary": null,
   "repo_status": "available",
   "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
-  "repo_check_error": null
+  "repo_check_error": null,
+  "scan_date": "2026-03-04T22:17:41Z",
+  "findings_summary": {
+    "scanner_findings": 1686,
+    "dangerous_calls": 97,
+    "network_ops": 19,
+    "file_ops": 1335,
+    "env_access": 204,
+    "obfuscation": 9,
+    "injection_patterns": 0,
+    "mismatches": 0,
+    "undocumented_capabilities": 0,
+    "supervisor_approved": false,
+    "supervisor_confidence": 90
+  },
+  "scan_report": {
+    "total_findings": 1686,
+    "injection_patterns_count": 0,
+    "obfuscation_count": 9,
+    "obfuscation_high_risk_count": 1,
+    "dangerous_calls_count": 97,
+    "severity_counts": {
+      "critical": 0,
+      "high": 128,
+      "medium": 223,
+      "low": 1335,
+      "info": 0
+    },
+    "category_counts": {
+      "dangerous_calls": 97,
+      "network_ops": 19,
+      "file_ops": 1335,
+      "env_access": 204,
+      "obfuscation": 9,
+      "suspicious_urls": 22
+    },
+    "top_findings": [
+      {
+        "rule_id": "regex_shell_backtick_exec",
+        "severity": "high",
+        "category": "dangerous_calls",
+        "file": "CHANGELOG.md",
+        "line": 263
+      },
+      {
+        "rule_id": "regex_js_require_child",
+        "severity": "high",
+        "category": "dangerous_calls",
+        "file": "bin/dev-cli.js",
+        "line": 16
+      },
+      {
+        "rule_id": "regex_js_require_child",
+        "severity": "high",
+        "category": "dangerous_calls",
+        "file": "bin/cli.js",
+        "line": 11
+      },
+      {
+        "rule_id": "regex_js_require_child",
+        "severity": "high",
+        "category": "dangerous_calls",
+        "file": "bin/cli.js",
+        "line": 461
+      },
+      {
+        "rule_id": "regex_js_fetch",
+        "severity": "medium",
+        "category": "network_ops",
+        "file": "bin/cli.js",
+        "line": 516
+      },
+      {
+        "rule_id": "regex_js_http_request",
+        "severity": "medium",
+        "category": "network_ops",
+        "file": "bin/cli.js",
+        "line": 443
+      },
+      {
+        "rule_id": "regex_js_fs_write",
+        "severity": "low",
+        "category": "file_ops",
+        "file": "bin/cli.js",
+        "line": 383
+      },
+      {
+        "rule_id": "regex_js_fs_write",
+        "severity": "low",
+        "category": "file_ops",
+        "file": "bin/cli.js",
+        "line": 760
+      },
+      {
+        "rule_id": "regex_js_fs_write",
+        "severity": "low",
+        "category": "file_ops",
+        "file": "bin/cli.js",
+        "line": 1431
+      },
+      {
+        "rule_id": "regex_js_fs_write",
+        "severity": "low",
+        "category": "file_ops",
+        "file": "bin/cli.js",
+        "line": 1469
+      },
+      {
+        "rule_id": "regex_js_fs_write",
+        "severity": "low",
+        "category": "file_ops",
+        "file": "bin/cli.js",
+        "line": 1508
+      },
+      {
+        "rule_id": "regex_js_fs_write",
+        "severity": "low",
+        "category": "file_ops",
+        "file": "bin/cli.js",
+        "line": 1593
+      },
+      {
+        "rule_id": "regex_js_fs_write",
+        "severity": "low",
+        "category": "file_ops",
+        "file": "bin/cli.js",
+        "line": 1668
+      },
+      {
+        "rule_id": "regex_js_fs_write",
+        "severity": "low",
+        "category": "file_ops",
+        "file": "bin/cli.js",
+        "line": 1690
+      },
+      {
+        "rule_id": "regex_js_fs_write",
+        "severity": "low",
+        "category": "file_ops",
+        "file": "bin/cli.js",
+        "line": 1786
+      },
+      {
+        "rule_id": "regex_js_fs_write",
+        "severity": "low",
+        "category": "file_ops",
+        "file": "bin/cli.js",
+        "line": 1809
+      },
+      {
+        "rule_id": "regex_js_fs_write",
+        "severity": "low",
+        "category": "file_ops",
+        "file": "bin/cli.js",
+        "line": 1827
+      },
+      {
+        "rule_id": "regex_js_fs_write",
+        "severity": "low",
+        "category": "file_ops",
+        "file": "bin/cli.js",
+        "line": 1854
+      },
+      {
+        "rule_id": "regex_js_fs_read",
+        "severity": "low",
+        "category": "file_ops",
+        "file": "bin/cli.js",
+        "line": 68
+      },
+      {
+        "rule_id": "regex_js_fs_read",
+        "severity": "low",
+        "category": "file_ops",
+        "file": "bin/cli.js",
+        "line": 230
+      }
+    ],
+    "total_files_scanned": 331
+  },
+  "verification_level": "full_pipeline",
+  "agent_audit": {
+    "agents_completed": 5,
+    "agents_required": 5,
+    "pipeline_run_at": "2026-03-04T22:17:41Z",
+    "agent_a": {
+      "signed": true,
+      "signed_at": "2026-03-04T22:17:41Z",
+      "comment": "Docs quality 10/10. README present. 12 features, 4 permissions claimed.",
+      "doc_quality_score": 10,
+      "claimed_permissions": [
+        "network access",
+        "system command execution",
+        "file system access",
+        "environment/secret access"
+      ]
+    },
+    "agent_b": {
+      "signed": true,
+      "signed_at": "2026-03-04T22:17:41Z",
+      "comment": "246 files analyzed. Found: 3 network, 0 file, 120 env, 26 system calls. Primary: javascript.",
+      "files_analyzed": 246,
+      "capabilities_found": [
+        "imports external dependencies",
+        "performs network operations",
+        "reads environment values",
+        "executes system commands"
+      ]
+    },
+    "agent_c_star": {
+      "signed": true,
+      "signed_at": "2026-03-04T22:17:41Z",
+      "comment": "1686 findings: 0 critical, 128 high, 223 medium, 1335 low. Obfuscation detected!. No injection.",
+      "total_findings": 1686,
+      "severity_counts": {
+        "critical": 0,
+        "high": 128,
+        "medium": 223,
+        "low": 1335,
+        "info": 0
+      }
+    },
+    "agent_d": {
+      "signed": true,
+      "signed_at": "2026-03-04T22:17:41Z",
+      "comment": "Score 15. 0 mismatches. Risk: critical. Safety overrides: applied.",
+      "score": 15,
+      "mismatches": 0,
+      "safety_overrides_applied": true
+    },
+    "agent_e": {
+      "signed": true,
+      "signed_at": "2026-03-04T22:17:41Z",
+      "comment": "Rejected. Confidence 90%. Deterministic override: high-risk obfuscation detected.",
+      "approved": false,
+      "confidence": 90,
+      "override_reason": "Deterministic override: high-risk obfuscation detected."
+    },
+    "manager_summary": "5/5 agents completed. Score: 15/100, Risk: critical. 0 mismatches, 1686 scanner findings. Rejected at 90% confidence. Safety overrides triggered.",
+    "auto_clear": {
+      "applied": true,
+      "reason": "Auto-clear Cat 2: obfuscation FP (1 obf_hr, 0 dangerous_obf, 0 inj, 331 files)",
+      "original_status": "fail",
+      "original_score": 15
+    }
+  }
 }

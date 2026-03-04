@@ -7,7 +7,7 @@
   "skill_type": "agent_skill",
   "owner": "kriegcloud",
   "stars": 0,
-  "primary_language": "unknown",
+  "primary_language": "typescript",
   "tags": [
     "agent-skills",
     "installs:41",
@@ -16,14 +16,261 @@
     "dev-web-frontend",
     "dev-web-frontend-react",
     "dev-web-fullstack",
-    "dev-web-fullstack-nextjs"
+    "dev-web-fullstack-nextjs",
+    "status-pass"
   ],
-  "verification_status": "unverified",
-  "overall_score": 0,
-  "risk_level": "info",
-  "verified_commit": null,
+  "verification_status": "pass",
+  "overall_score": 60,
+  "risk_level": "medium",
+  "verified_commit": "fdeb1e6e0c3c61ba63c01f8abf6a0d84dfd22664",
   "scan_summary": null,
   "repo_status": "available",
   "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
-  "repo_check_error": null
+  "repo_check_error": null,
+  "scan_date": "2026-03-04T22:14:27Z",
+  "findings_summary": {
+    "scanner_findings": 367,
+    "dangerous_calls": 28,
+    "network_ops": 44,
+    "file_ops": 78,
+    "env_access": 80,
+    "obfuscation": 2,
+    "injection_patterns": 0,
+    "mismatches": 0,
+    "undocumented_capabilities": 0,
+    "supervisor_approved": false,
+    "supervisor_confidence": 60
+  },
+  "scan_report": {
+    "total_findings": 367,
+    "injection_patterns_count": 0,
+    "obfuscation_count": 2,
+    "obfuscation_high_risk_count": 0,
+    "dangerous_calls_count": 28,
+    "severity_counts": {
+      "critical": 0,
+      "high": 165,
+      "medium": 124,
+      "low": 78,
+      "info": 0
+    },
+    "category_counts": {
+      "suspicious_urls": 135,
+      "env_access": 80,
+      "obfuscation": 2,
+      "dangerous_calls": 28,
+      "file_ops": 78,
+      "network_ops": 44
+    },
+    "top_findings": [
+      {
+        "rule_id": "regex_localhost_non_std",
+        "severity": "high",
+        "category": "suspicious_urls",
+        "file": ".mcp.json",
+        "line": 5
+      },
+      {
+        "rule_id": "regex_js_process_env",
+        "severity": "medium",
+        "category": "env_access",
+        "file": "playwright.config.ts",
+        "line": 6
+      },
+      {
+        "rule_id": "regex_js_process_env",
+        "severity": "medium",
+        "category": "env_access",
+        "file": "playwright.config.ts",
+        "line": 7
+      },
+      {
+        "rule_id": "regex_js_process_env",
+        "severity": "medium",
+        "category": "env_access",
+        "file": "playwright.config.ts",
+        "line": 8
+      },
+      {
+        "rule_id": "regex_js_process_env",
+        "severity": "medium",
+        "category": "env_access",
+        "file": "playwright.config.ts",
+        "line": 9
+      },
+      {
+        "rule_id": "regex_js_process_env",
+        "severity": "medium",
+        "category": "env_access",
+        "file": "playwright.config.ts",
+        "line": 23
+      },
+      {
+        "rule_id": "regex_localhost_non_std",
+        "severity": "high",
+        "category": "suspicious_urls",
+        "file": "playwright.config.ts",
+        "line": 11
+      },
+      {
+        "rule_id": "regex_localhost_non_std",
+        "severity": "high",
+        "category": "suspicious_urls",
+        "file": "playwright.config.ts",
+        "line": 22
+      },
+      {
+        "rule_id": "regex_js_process_env",
+        "severity": "medium",
+        "category": "env_access",
+        "file": "vitest.setup.ts",
+        "line": 30
+      },
+      {
+        "rule_id": "regex_long_base64_literal",
+        "severity": "high",
+        "category": "obfuscation",
+        "file": "tooling/cli/src/commands/VersionSync/internal/services/CategorySelectionService.ts",
+        "line": 17
+      },
+      {
+        "rule_id": "regex_long_base64_literal",
+        "severity": "high",
+        "category": "obfuscation",
+        "file": "tooling/cli/src/commands/VersionSync/internal/services/ReportRendererService.ts",
+        "line": 23
+      },
+      {
+        "rule_id": "regex_py_exec",
+        "severity": "high",
+        "category": "dangerous_calls",
+        "file": "tooling/cli/src/commands/Lint/index.ts",
+        "line": 217
+      },
+      {
+        "rule_id": "regex_raw_ip_url",
+        "severity": "high",
+        "category": "suspicious_urls",
+        "file": "tooling/cli/src/commands/Graphiti/internal/ProxyConfig.ts",
+        "line": 164
+      },
+      {
+        "rule_id": "regex_js_process_env",
+        "severity": "medium",
+        "category": "env_access",
+        "file": "tooling/repo-utils/src/JSDoc/models/TSCategory.model.ts",
+        "line": 525
+      },
+      {
+        "rule_id": "regex_js_process_env",
+        "severity": "medium",
+        "category": "env_access",
+        "file": "tooling/repo-utils/src/JSDoc/models/TSCategory.model.ts",
+        "line": 705
+      },
+      {
+        "rule_id": "regex_js_process_env",
+        "severity": "medium",
+        "category": "env_access",
+        "file": "tooling/repo-utils/src/JSDoc/models/TSCategory.model.ts",
+        "line": 765
+      },
+      {
+        "rule_id": "regex_raw_ip_url",
+        "severity": "high",
+        "category": "suspicious_urls",
+        "file": "docker/grafana/otelcol-config.yaml",
+        "line": 11
+      },
+      {
+        "rule_id": "regex_raw_ip_url",
+        "severity": "high",
+        "category": "suspicious_urls",
+        "file": "docker/grafana/otelcol-config.yaml",
+        "line": 13
+      },
+      {
+        "rule_id": "regex_raw_ip_url",
+        "severity": "high",
+        "category": "suspicious_urls",
+        "file": "docker/grafana/otelcol-config.yaml",
+        "line": 15
+      },
+      {
+        "rule_id": "regex_raw_ip_url",
+        "severity": "high",
+        "category": "suspicious_urls",
+        "file": "docker/grafana/otelcol-config.yaml",
+        "line": 42
+      }
+    ],
+    "total_files_scanned": 1710
+  },
+  "verification_level": "full_pipeline",
+  "agent_audit": {
+    "agents_completed": 5,
+    "agents_required": 5,
+    "pipeline_run_at": "2026-03-04T22:14:27Z",
+    "agent_a": {
+      "signed": true,
+      "signed_at": "2026-03-04T22:14:27Z",
+      "comment": "Docs quality 9/10. README present. 12 features, 4 permissions claimed.",
+      "doc_quality_score": 9,
+      "claimed_permissions": [
+        "network access",
+        "system command execution",
+        "file system access",
+        "environment/secret access"
+      ]
+    },
+    "agent_b": {
+      "signed": true,
+      "signed_at": "2026-03-04T22:14:27Z",
+      "comment": "695 files analyzed. Found: 26 network, 33 file, 15 env, 11 system calls. Primary: typescript.",
+      "files_analyzed": 695,
+      "capabilities_found": [
+        "imports external dependencies",
+        "performs network operations",
+        "reads/writes files",
+        "reads environment values",
+        "executes system commands"
+      ]
+    },
+    "agent_c_star": {
+      "signed": true,
+      "signed_at": "2026-03-04T22:14:27Z",
+      "comment": "367 findings: 0 critical, 165 high, 124 medium, 78 low. Obfuscation detected!. No injection.",
+      "total_findings": 367,
+      "severity_counts": {
+        "critical": 0,
+        "high": 165,
+        "medium": 124,
+        "low": 78,
+        "info": 0
+      }
+    },
+    "agent_d": {
+      "signed": true,
+      "signed_at": "2026-03-04T22:14:27Z",
+      "comment": "Score 60. 0 mismatches. Risk: medium. Safety overrides: none triggered.",
+      "score": 60,
+      "mismatches": 0,
+      "safety_overrides_applied": false
+    },
+    "agent_e": {
+      "signed": true,
+      "signed_at": "2026-03-04T22:14:27Z",
+      "comment": "Rejected. Confidence 60%. No overrides.",
+      "approved": false,
+      "confidence": 60,
+      "override_reason": null
+    },
+    "manager_summary": "5/5 agents completed. Score: 60/100, Risk: medium. 0 mismatches, 367 scanner findings. Rejected at 60% confidence. No safety overrides.",
+    "auto_clear": {
+      "applied": true,
+      "reason": "Auto-clear Cat 1: clean profile (0 inj, 0 obf_hr, score=60)",
+      "original_status": "manual_review",
+      "original_score": 60
+    }
+  }
 }

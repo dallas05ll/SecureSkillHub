@@ -7,7 +7,7 @@
   "skill_type": "agent_skill",
   "owner": "okwinds",
   "stars": 0,
-  "primary_language": "unknown",
+  "primary_language": "python",
   "tags": [
     "agent-skills",
     "installs:25",
@@ -18,14 +18,261 @@
     "dev-testing",
     "util",
     "util-media",
-    "util-search"
+    "util-search",
+    "status-pass"
   ],
-  "verification_status": "unverified",
-  "overall_score": 0,
-  "risk_level": "info",
-  "verified_commit": null,
+  "verification_status": "pass",
+  "overall_score": 60,
+  "risk_level": "medium",
+  "verified_commit": "a8fcbfd67684cff9fe227a4c7c6251011f42f48b",
   "scan_summary": null,
   "repo_status": "available",
   "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
-  "repo_check_error": null
+  "repo_check_error": null,
+  "scan_date": "2026-03-04T22:17:11Z",
+  "findings_summary": {
+    "scanner_findings": 205,
+    "dangerous_calls": 70,
+    "network_ops": 2,
+    "file_ops": 112,
+    "env_access": 11,
+    "obfuscation": 1,
+    "injection_patterns": 0,
+    "mismatches": 0,
+    "undocumented_capabilities": 0,
+    "supervisor_approved": false,
+    "supervisor_confidence": 60
+  },
+  "scan_report": {
+    "total_findings": 205,
+    "injection_patterns_count": 0,
+    "obfuscation_count": 1,
+    "obfuscation_high_risk_count": 0,
+    "dangerous_calls_count": 70,
+    "severity_counts": {
+      "critical": 0,
+      "high": 80,
+      "medium": 13,
+      "low": 112,
+      "info": 0
+    },
+    "category_counts": {
+      "file_ops": 112,
+      "dangerous_calls": 70,
+      "env_access": 11,
+      "network_ops": 2,
+      "obfuscation": 1,
+      "suspicious_urls": 9
+    },
+    "top_findings": [
+      {
+        "rule_id": "regex_py_open",
+        "severity": "low",
+        "category": "file_ops",
+        "file": "agent/skills/pdf-offline/REFERENCE.md",
+        "line": 351
+      },
+      {
+        "rule_id": "regex_py_open",
+        "severity": "low",
+        "category": "file_ops",
+        "file": "agent/skills/pdf-offline/REFERENCE.md",
+        "line": 368
+      },
+      {
+        "rule_id": "regex_py_open",
+        "severity": "low",
+        "category": "file_ops",
+        "file": "agent/skills/pdf-offline/REFERENCE.md",
+        "line": 488
+      },
+      {
+        "rule_id": "regex_py_open",
+        "severity": "low",
+        "category": "file_ops",
+        "file": "agent/skills/pdf-offline/REFERENCE.md",
+        "line": 500
+      },
+      {
+        "rule_id": "regex_py_open",
+        "severity": "low",
+        "category": "file_ops",
+        "file": "agent/skills/pdf-offline/REFERENCE.md",
+        "line": 524
+      },
+      {
+        "rule_id": "regex_py_open",
+        "severity": "low",
+        "category": "file_ops",
+        "file": "agent/skills/pdf-offline/REFERENCE.md",
+        "line": 563
+      },
+      {
+        "rule_id": "regex_py_os_path",
+        "severity": "low",
+        "category": "file_ops",
+        "file": "agent/skills/pdf-offline/REFERENCE.md",
+        "line": 474
+      },
+      {
+        "rule_id": "regex_js_fs_write",
+        "severity": "low",
+        "category": "file_ops",
+        "file": "agent/skills/pdf-offline/REFERENCE.md",
+        "line": 76
+      },
+      {
+        "rule_id": "regex_js_fs_write",
+        "severity": "low",
+        "category": "file_ops",
+        "file": "agent/skills/pdf-offline/REFERENCE.md",
+        "line": 137
+      },
+      {
+        "rule_id": "regex_js_fs_write",
+        "severity": "low",
+        "category": "file_ops",
+        "file": "agent/skills/pdf-offline/REFERENCE.md",
+        "line": 166
+      },
+      {
+        "rule_id": "regex_js_fs_read",
+        "severity": "low",
+        "category": "file_ops",
+        "file": "agent/skills/pdf-offline/REFERENCE.md",
+        "line": 59
+      },
+      {
+        "rule_id": "regex_js_fs_read",
+        "severity": "low",
+        "category": "file_ops",
+        "file": "agent/skills/pdf-offline/REFERENCE.md",
+        "line": 151
+      },
+      {
+        "rule_id": "regex_js_fs_read",
+        "severity": "low",
+        "category": "file_ops",
+        "file": "agent/skills/pdf-offline/REFERENCE.md",
+        "line": 152
+      },
+      {
+        "rule_id": "regex_shell_backtick_exec",
+        "severity": "high",
+        "category": "dangerous_calls",
+        "file": "agent/skills/pdf-offline/README.md",
+        "line": 33
+      },
+      {
+        "rule_id": "regex_py_open",
+        "severity": "low",
+        "category": "file_ops",
+        "file": "agent/skills/pdf-offline/SKILL.md",
+        "line": 60
+      },
+      {
+        "rule_id": "regex_py_open",
+        "severity": "low",
+        "category": "file_ops",
+        "file": "agent/skills/pdf-offline/SKILL.md",
+        "line": 70
+      },
+      {
+        "rule_id": "regex_py_open",
+        "severity": "low",
+        "category": "file_ops",
+        "file": "agent/skills/pdf-offline/SKILL.md",
+        "line": 93
+      },
+      {
+        "rule_id": "regex_py_open",
+        "severity": "low",
+        "category": "file_ops",
+        "file": "agent/skills/pdf-offline/SKILL.md",
+        "line": 103
+      },
+      {
+        "rule_id": "regex_py_open",
+        "severity": "low",
+        "category": "file_ops",
+        "file": "agent/skills/pdf-offline/SKILL.md",
+        "line": 111
+      },
+      {
+        "rule_id": "regex_py_open",
+        "severity": "low",
+        "category": "file_ops",
+        "file": "agent/skills/pdf-offline/SKILL.md",
+        "line": 124
+      }
+    ],
+    "total_files_scanned": 226
+  },
+  "verification_level": "full_pipeline",
+  "agent_audit": {
+    "agents_completed": 5,
+    "agents_required": 5,
+    "pipeline_run_at": "2026-03-04T22:17:11Z",
+    "agent_a": {
+      "signed": true,
+      "signed_at": "2026-03-04T22:17:11Z",
+      "comment": "Docs quality 10/10. README present. 12 features, 4 permissions claimed.",
+      "doc_quality_score": 10,
+      "claimed_permissions": [
+        "network access",
+        "system command execution",
+        "file system access",
+        "environment/secret access"
+      ]
+    },
+    "agent_b": {
+      "signed": true,
+      "signed_at": "2026-03-04T22:17:11Z",
+      "comment": "79 files analyzed. Found: 38 network, 63 file, 8 env, 20 system calls. Primary: python.",
+      "files_analyzed": 79,
+      "capabilities_found": [
+        "imports external dependencies",
+        "performs network operations",
+        "reads/writes files",
+        "reads environment values",
+        "executes system commands"
+      ]
+    },
+    "agent_c_star": {
+      "signed": true,
+      "signed_at": "2026-03-04T22:17:11Z",
+      "comment": "205 findings: 0 critical, 80 high, 13 medium, 112 low. Obfuscation detected!. No injection.",
+      "total_findings": 205,
+      "severity_counts": {
+        "critical": 0,
+        "high": 80,
+        "medium": 13,
+        "low": 112,
+        "info": 0
+      }
+    },
+    "agent_d": {
+      "signed": true,
+      "signed_at": "2026-03-04T22:17:11Z",
+      "comment": "Score 60. 0 mismatches. Risk: medium. Safety overrides: none triggered.",
+      "score": 60,
+      "mismatches": 0,
+      "safety_overrides_applied": false
+    },
+    "agent_e": {
+      "signed": true,
+      "signed_at": "2026-03-04T22:17:11Z",
+      "comment": "Rejected. Confidence 60%. No overrides.",
+      "approved": false,
+      "confidence": 60,
+      "override_reason": null
+    },
+    "manager_summary": "5/5 agents completed. Score: 60/100, Risk: medium. 0 mismatches, 205 scanner findings. Rejected at 60% confidence. No safety overrides.",
+    "auto_clear": {
+      "applied": true,
+      "reason": "Auto-clear Cat 1: clean profile (0 inj, 0 obf_hr, score=60)",
+      "original_status": "manual_review",
+      "original_score": 60
+    }
+  }
 }

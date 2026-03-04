@@ -7,7 +7,7 @@
   "skill_type": "agent_skill",
   "owner": "goplussecurity",
   "stars": 0,
-  "primary_language": "unknown",
+  "primary_language": "typescript",
   "tags": [
     "agent-skills",
     "installs:168",
@@ -15,14 +15,262 @@
     "data-ai",
     "prod",
     "sec",
-    "sec-scan"
+    "sec-scan",
+    "status-pass"
   ],
-  "verification_status": "unverified",
-  "overall_score": 0,
-  "risk_level": "info",
-  "verified_commit": null,
+  "verification_status": "pass",
+  "overall_score": 50,
+  "risk_level": "medium",
+  "verified_commit": "42ad4f4e4113a8c0cedc76678dc03c9e1a4a2f65",
   "scan_summary": null,
   "repo_status": "available",
   "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
-  "repo_check_error": null
+  "repo_check_error": null,
+  "scan_date": "2026-03-04T22:16:35Z",
+  "findings_summary": {
+    "scanner_findings": 57,
+    "dangerous_calls": 19,
+    "network_ops": 7,
+    "file_ops": 9,
+    "env_access": 13,
+    "obfuscation": 3,
+    "injection_patterns": 1,
+    "mismatches": 0,
+    "undocumented_capabilities": 0,
+    "supervisor_approved": false,
+    "supervisor_confidence": 95
+  },
+  "scan_report": {
+    "total_findings": 57,
+    "injection_patterns_count": 1,
+    "obfuscation_count": 3,
+    "obfuscation_high_risk_count": 0,
+    "dangerous_calls_count": 19,
+    "severity_counts": {
+      "critical": 1,
+      "high": 27,
+      "medium": 20,
+      "low": 9,
+      "info": 0
+    },
+    "category_counts": {
+      "dangerous_calls": 19,
+      "env_access": 13,
+      "network_ops": 7,
+      "file_ops": 9,
+      "obfuscation": 3,
+      "injection_patterns": 1,
+      "suspicious_urls": 5
+    },
+    "top_findings": [
+      {
+        "rule_id": "regex_shell_backtick_exec",
+        "severity": "high",
+        "category": "dangerous_calls",
+        "file": "docs/SECURITY-POLICY.md",
+        "line": 132
+      },
+      {
+        "rule_id": "regex_js_process_env",
+        "severity": "medium",
+        "category": "env_access",
+        "file": "examples/vulnerable-skill/README.md",
+        "line": 19
+      },
+      {
+        "rule_id": "regex_py_eval",
+        "severity": "high",
+        "category": "dangerous_calls",
+        "file": "examples/vulnerable-skill/malicious-helper.js",
+        "line": 33
+      },
+      {
+        "rule_id": "regex_py_eval",
+        "severity": "high",
+        "category": "dangerous_calls",
+        "file": "examples/vulnerable-skill/malicious-helper.js",
+        "line": 85
+      },
+      {
+        "rule_id": "regex_py_exec",
+        "severity": "high",
+        "category": "dangerous_calls",
+        "file": "examples/vulnerable-skill/malicious-helper.js",
+        "line": 18
+      },
+      {
+        "rule_id": "regex_py_exec",
+        "severity": "high",
+        "category": "dangerous_calls",
+        "file": "examples/vulnerable-skill/malicious-helper.js",
+        "line": 24
+      },
+      {
+        "rule_id": "regex_js_require_child",
+        "severity": "high",
+        "category": "dangerous_calls",
+        "file": "examples/vulnerable-skill/malicious-helper.js",
+        "line": 13
+      },
+      {
+        "rule_id": "regex_js_fetch",
+        "severity": "medium",
+        "category": "network_ops",
+        "file": "examples/vulnerable-skill/malicious-helper.js",
+        "line": 23
+      },
+      {
+        "rule_id": "regex_js_fetch",
+        "severity": "medium",
+        "category": "network_ops",
+        "file": "examples/vulnerable-skill/malicious-helper.js",
+        "line": 32
+      },
+      {
+        "rule_id": "regex_js_fetch",
+        "severity": "medium",
+        "category": "network_ops",
+        "file": "examples/vulnerable-skill/malicious-helper.js",
+        "line": 70
+      },
+      {
+        "rule_id": "regex_js_fetch",
+        "severity": "medium",
+        "category": "network_ops",
+        "file": "examples/vulnerable-skill/malicious-helper.js",
+        "line": 77
+      },
+      {
+        "rule_id": "regex_js_http_request",
+        "severity": "medium",
+        "category": "network_ops",
+        "file": "examples/vulnerable-skill/malicious-helper.js",
+        "line": 58
+      },
+      {
+        "rule_id": "regex_js_fs_read",
+        "severity": "low",
+        "category": "file_ops",
+        "file": "examples/vulnerable-skill/malicious-helper.js",
+        "line": 42
+      },
+      {
+        "rule_id": "regex_js_fs_read",
+        "severity": "low",
+        "category": "file_ops",
+        "file": "examples/vulnerable-skill/malicious-helper.js",
+        "line": 45
+      },
+      {
+        "rule_id": "regex_js_process_env",
+        "severity": "medium",
+        "category": "env_access",
+        "file": "examples/vulnerable-skill/malicious-helper.js",
+        "line": 37
+      },
+      {
+        "rule_id": "regex_js_process_env",
+        "severity": "medium",
+        "category": "env_access",
+        "file": "examples/vulnerable-skill/malicious-helper.js",
+        "line": 38
+      },
+      {
+        "rule_id": "regex_js_process_env",
+        "severity": "medium",
+        "category": "env_access",
+        "file": "examples/vulnerable-skill/malicious-helper.js",
+        "line": 46
+      },
+      {
+        "rule_id": "regex_js_atob",
+        "severity": "high",
+        "category": "obfuscation",
+        "file": "examples/vulnerable-skill/malicious-helper.js",
+        "line": 84
+      },
+      {
+        "rule_id": "regex_long_base64_literal",
+        "severity": "high",
+        "category": "obfuscation",
+        "file": "examples/vulnerable-skill/malicious-helper.js",
+        "line": 50
+      },
+      {
+        "rule_id": "regex_ignore_previous",
+        "severity": "critical",
+        "category": "injection_patterns",
+        "file": "examples/vulnerable-skill/malicious-helper.js",
+        "line": 90
+      }
+    ],
+    "total_files_scanned": 73
+  },
+  "verification_level": "full_pipeline",
+  "agent_audit": {
+    "agents_completed": 5,
+    "agents_required": 5,
+    "pipeline_run_at": "2026-03-04T22:16:35Z",
+    "agent_a": {
+      "signed": true,
+      "signed_at": "2026-03-04T22:16:35Z",
+      "comment": "Docs quality 10/10. README present. 12 features, 4 permissions claimed.",
+      "doc_quality_score": 10,
+      "claimed_permissions": [
+        "network access",
+        "system command execution",
+        "file system access",
+        "environment/secret access"
+      ]
+    },
+    "agent_b": {
+      "signed": true,
+      "signed_at": "2026-03-04T22:16:35Z",
+      "comment": "57 files analyzed. Found: 4 network, 5 file, 11 env, 6 system calls. Primary: typescript.",
+      "files_analyzed": 57,
+      "capabilities_found": [
+        "imports external dependencies",
+        "performs network operations",
+        "reads/writes files",
+        "reads environment values",
+        "executes system commands"
+      ]
+    },
+    "agent_c_star": {
+      "signed": true,
+      "signed_at": "2026-03-04T22:16:35Z",
+      "comment": "57 findings: 1 critical, 27 high, 20 medium, 9 low. Obfuscation detected!. Injection patterns found!.",
+      "total_findings": 57,
+      "severity_counts": {
+        "critical": 1,
+        "high": 27,
+        "medium": 20,
+        "low": 9,
+        "info": 0
+      }
+    },
+    "agent_d": {
+      "signed": true,
+      "signed_at": "2026-03-04T22:16:35Z",
+      "comment": "Score 10. 0 mismatches. Risk: critical. Safety overrides: applied.",
+      "score": 10,
+      "mismatches": 0,
+      "safety_overrides_applied": true
+    },
+    "agent_e": {
+      "signed": true,
+      "signed_at": "2026-03-04T22:16:35Z",
+      "comment": "Rejected. Confidence 95%. Deterministic override: injection patterns detected.",
+      "approved": false,
+      "confidence": 95,
+      "override_reason": "Deterministic override: injection patterns detected."
+    },
+    "manager_summary": "5/5 agents completed. Score: 10/100, Risk: critical. 0 mismatches, 57 scanner findings. Rejected at 95% confidence. Safety overrides triggered.",
+    "auto_clear": {
+      "applied": true,
+      "reason": "Auto-clear Cat 11: incidental (1 inj in 57 findings)",
+      "original_status": "fail",
+      "original_score": 10
+    }
+  }
 }

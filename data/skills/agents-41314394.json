@@ -13,14 +13,235 @@
     "installs:9",
     "data",
     "data-ai",
-    "data-ai-audio"
+    "data-ai-audio",
+    "status-pass"
   ],
-  "verification_status": "unverified",
-  "overall_score": 0,
-  "risk_level": "info",
-  "verified_commit": null,
+  "verification_status": "pass",
+  "overall_score": 77,
+  "risk_level": "medium",
+  "verified_commit": "407571062cb0fc041fb86180d3eefa16cfe843a7",
   "scan_summary": null,
   "repo_status": "available",
   "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
-  "repo_check_error": null
+  "repo_check_error": null,
+  "scan_date": "2026-03-04T22:18:38Z",
+  "findings_summary": {
+    "scanner_findings": 17,
+    "dangerous_calls": 9,
+    "network_ops": 0,
+    "file_ops": 7,
+    "env_access": 0,
+    "obfuscation": 1,
+    "injection_patterns": 0,
+    "mismatches": 0,
+    "undocumented_capabilities": 0,
+    "supervisor_approved": false,
+    "supervisor_confidence": 77
+  },
+  "scan_report": {
+    "total_findings": 17,
+    "injection_patterns_count": 0,
+    "obfuscation_count": 1,
+    "obfuscation_high_risk_count": 0,
+    "dangerous_calls_count": 9,
+    "severity_counts": {
+      "critical": 0,
+      "high": 10,
+      "medium": 0,
+      "low": 7,
+      "info": 0
+    },
+    "category_counts": {
+      "file_ops": 7,
+      "dangerous_calls": 9,
+      "obfuscation": 1
+    },
+    "top_findings": [
+      {
+        "rule_id": "regex_py_open",
+        "severity": "low",
+        "category": "file_ops",
+        "file": "bin/pbzx.py",
+        "line": 28
+      },
+      {
+        "rule_id": "regex_py_open",
+        "severity": "low",
+        "category": "file_ops",
+        "file": "bin/pbzx.py",
+        "line": 38
+      },
+      {
+        "rule_id": "regex_py_open",
+        "severity": "low",
+        "category": "file_ops",
+        "file": "bin/pbzx.py",
+        "line": 55
+      },
+      {
+        "rule_id": "regex_py_open",
+        "severity": "low",
+        "category": "file_ops",
+        "file": "bin/pbzx.py",
+        "line": 62
+      },
+      {
+        "rule_id": "regex_shell_backtick_exec",
+        "severity": "high",
+        "category": "dangerous_calls",
+        "file": "bin/dotnet-install.sh",
+        "line": 387
+      },
+      {
+        "rule_id": "regex_shell_backtick_exec",
+        "severity": "high",
+        "category": "dangerous_calls",
+        "file": "bin/dotnet-install.sh",
+        "line": 410
+      },
+      {
+        "rule_id": "regex_shell_backtick_exec",
+        "severity": "high",
+        "category": "dangerous_calls",
+        "file": "bin/dotnet-install.sh",
+        "line": 650
+      },
+      {
+        "rule_id": "regex_shell_backtick_exec",
+        "severity": "high",
+        "category": "dangerous_calls",
+        "file": "bin/dotnet-install.sh",
+        "line": 656
+      },
+      {
+        "rule_id": "regex_shell_backtick_exec",
+        "severity": "high",
+        "category": "dangerous_calls",
+        "file": "bin/dotnet-install.sh",
+        "line": 674
+      },
+      {
+        "rule_id": "regex_shell_backtick_exec",
+        "severity": "high",
+        "category": "dangerous_calls",
+        "file": "bin/dotnet-install.sh",
+        "line": 1567
+      },
+      {
+        "rule_id": "regex_shell_backtick_exec",
+        "severity": "high",
+        "category": "dangerous_calls",
+        "file": "bin/dotnet-install.sh",
+        "line": 1600
+      },
+      {
+        "rule_id": "regex_shell_backtick_exec",
+        "severity": "high",
+        "category": "dangerous_calls",
+        "file": "bin/dotnet-install.sh",
+        "line": 1819
+      },
+      {
+        "rule_id": "regex_py_subprocess_call",
+        "severity": "high",
+        "category": "dangerous_calls",
+        "file": "Library/Application Support/Kaleidoscope/lldb_ksdiff.py",
+        "line": 517
+      },
+      {
+        "rule_id": "regex_py_open",
+        "severity": "low",
+        "category": "file_ops",
+        "file": "Library/Application Support/Kaleidoscope/lldb_ksdiff.py",
+        "line": 509
+      },
+      {
+        "rule_id": "regex_py_os_remove",
+        "severity": "low",
+        "category": "file_ops",
+        "file": "Library/Application Support/Kaleidoscope/lldb_ksdiff.py",
+        "line": 521
+      },
+      {
+        "rule_id": "regex_py_os_path",
+        "severity": "low",
+        "category": "file_ops",
+        "file": "Library/Application Support/Kaleidoscope/lldb_ksdiff.py",
+        "line": 507
+      },
+      {
+        "rule_id": "regex_py_base64_encode",
+        "severity": "high",
+        "category": "obfuscation",
+        "file": "Library/Application Support/Kaleidoscope/lldb_ksdiff.py",
+        "line": 503
+      }
+    ],
+    "total_files_scanned": 34
+  },
+  "verification_level": "full_pipeline",
+  "agent_audit": {
+    "agents_completed": 5,
+    "agents_required": 5,
+    "pipeline_run_at": "2026-03-04T22:18:38Z",
+    "agent_a": {
+      "signed": true,
+      "signed_at": "2026-03-04T22:18:38Z",
+      "comment": "Docs quality 9/10. README present. 12 features, 4 permissions claimed.",
+      "doc_quality_score": 9,
+      "claimed_permissions": [
+        "network access",
+        "system command execution",
+        "file system access",
+        "environment/secret access"
+      ]
+    },
+    "agent_b": {
+      "signed": true,
+      "signed_at": "2026-03-04T22:18:38Z",
+      "comment": "23 files analyzed. Found: 0 network, 7 file, 0 env, 1 system calls. Primary: unknown.",
+      "files_analyzed": 23,
+      "capabilities_found": [
+        "imports external dependencies",
+        "reads/writes files",
+        "executes system commands"
+      ]
+    },
+    "agent_c_star": {
+      "signed": true,
+      "signed_at": "2026-03-04T22:18:38Z",
+      "comment": "17 findings: 0 critical, 10 high, 0 medium, 7 low. Obfuscation detected!. No injection.",
+      "total_findings": 17,
+      "severity_counts": {
+        "critical": 0,
+        "high": 10,
+        "medium": 0,
+        "low": 7,
+        "info": 0
+      }
+    },
+    "agent_d": {
+      "signed": true,
+      "signed_at": "2026-03-04T22:18:38Z",
+      "comment": "Score 77. 0 mismatches. Risk: medium. Safety overrides: none triggered.",
+      "score": 77,
+      "mismatches": 0,
+      "safety_overrides_applied": false
+    },
+    "agent_e": {
+      "signed": true,
+      "signed_at": "2026-03-04T22:18:38Z",
+      "comment": "Rejected. Confidence 77%. No overrides.",
+      "approved": false,
+      "confidence": 77,
+      "override_reason": null
+    },
+    "manager_summary": "5/5 agents completed. Score: 77/100, Risk: medium. 0 mismatches, 17 scanner findings. Rejected at 77% confidence. No safety overrides.",
+    "auto_clear": {
+      "applied": true,
+      "reason": "Auto-clear Cat 1: clean profile (0 inj, 0 obf_hr, score=77)",
+      "original_status": "manual_review",
+      "original_score": 77
+    }
+  }
 }

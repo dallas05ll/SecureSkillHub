@@ -5,14 +5,14 @@
     {
       "id": "sm-h-001",
       "title": "Collection state snapshot",
-      "updated": "2026-03-04T22:01:45.768226+00:00",
+      "updated": "2026-03-04T22:21:37.105657+00:00",
       "data": {
         "total_skills": 11098,
         "unique_tags": 77,
         "avg_tags_per_skill": 2.8,
         "status_distribution": {
-          "unverified": 7086,
-          "pass": 4003,
+          "unverified": 6989,
+          "pass": 4100,
           "fail": 9
         },
         "source_diversity": {
@@ -28,7 +28,7 @@
     {
       "id": "sm-h-002",
       "title": "Top 20 tags by skill count",
-      "updated": "2026-03-04T22:01:45.768226+00:00",
+      "updated": "2026-03-04T22:21:37.105657+00:00",
       "data": {
         "integ": 4456,
         "util": 4141,
@@ -55,22 +55,22 @@
     {
       "id": "sm-h-003",
       "title": "Verification quality metrics",
-      "updated": "2026-03-04T22:01:45.768226+00:00",
+      "updated": "2026-03-04T22:21:37.105657+00:00",
       "data": {
         "total_verified": 0,
         "avg_score": 0.0,
         "score_distribution": {},
-        "pm_overrides": 647
+        "pm_overrides": 649
       }
     },
     {
       "id": "sm-h-004",
       "title": "False positive patterns from verification",
-      "updated": "2026-03-04T22:01:45.768226+00:00",
+      "updated": "2026-03-04T22:21:37.105657+00:00",
       "data": {
-        "total_fps": 603,
+        "total_fps": 605,
         "top_categories": {
-          "unknown": 610,
+          "unknown": 612,
           "FP": 37
         },
         "sample_patterns": [
@@ -140,10 +140,10 @@
     {
       "id": "sm-h-005",
       "title": "Current recommendations",
-      "updated": "2026-03-04T22:01:45.768226+00:00",
+      "updated": "2026-03-04T22:21:37.105657+00:00",
       "data": [
         "TAG_DEPTH: 8857/11098 skills have shallow tags (depth 0-1). Run auto_tag enrichment.",
-        "VERIFY_COVERAGE: 7086/11098 skills still unverified. Run next batch."
+        "VERIFY_COVERAGE: 6989/11098 skills still unverified. Run next batch."
       ]
     }
   ],
@@ -301,7 +301,41 @@
         "PERSISTENT: 2 recommendations still unresolved"
       ],
       "secm_handoff_count": 603
+    },
+    {
+      "id": "sm-evolve-2026-03-04T222137",
+      "timestamp": "2026-03-04T22:21:37.105657+00:00",
+      "tag_analysis": {
+        "total_skills": 11098,
+        "unique_tags": 77,
+        "avg_tags_per_skill": 2.8,
+        "coverage_gaps": []
+      },
+      "quality_analysis": {
+        "status_distribution": {
+          "unverified": 6989,
+          "pass": 4100,
+          "fail": 9
+        },
+        "avg_score": 0.0,
+        "pm_overrides": 649,
+        "override_categories": {
+          "unknown": 612,
+          "FP": 37
+        }
+      },
+      "fp_pattern_count": 605,
+      "recommendations": [
+        "TAG_DEPTH: 8857/11098 skills have shallow tags (depth 0-1). Run auto_tag enrichment.",
+        "VERIFY_COVERAGE: 6989/11098 skills still unverified. Run next batch."
+      ],
+      "evolution_deltas": [
+        "TREND: FP count increased by 2 since last evolve",
+        "RESOLVED: 1 prior recommendations no longer apply",
+        "PERSISTENT: 1 recommendations still unresolved"
+      ],
+      "secm_handoff_count": 605
     }
   ],
-  "last_evolve": "2026-03-04T22:01:45.768226+00:00"
+  "last_evolve": "2026-03-04T22:21:37.105657+00:00"
 }

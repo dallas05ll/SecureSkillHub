@@ -7,18 +7,265 @@
   "skill_type": "agent_skill",
   "owner": "smith-horn",
   "stars": 0,
-  "primary_language": "unknown",
+  "primary_language": "typescript",
   "tags": [
     "agent-skills",
     "installs:12",
-    "utilities"
+    "utilities",
+    "status-pass"
   ],
-  "verification_status": "unverified",
-  "overall_score": 0,
-  "risk_level": "info",
-  "verified_commit": null,
+  "verification_status": "pass",
+  "overall_score": 50,
+  "risk_level": "medium",
+  "verified_commit": "9e609432583b2d3c00c76b9322af77a3eaf41dfa",
   "scan_summary": null,
   "repo_status": "available",
   "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
-  "repo_check_error": null
+  "repo_check_error": null,
+  "scan_date": "2026-03-04T22:17:54Z",
+  "findings_summary": {
+    "scanner_findings": 1185,
+    "dangerous_calls": 181,
+    "network_ops": 123,
+    "file_ops": 341,
+    "env_access": 405,
+    "obfuscation": 35,
+    "injection_patterns": 0,
+    "mismatches": 0,
+    "undocumented_capabilities": 0,
+    "supervisor_approved": false,
+    "supervisor_confidence": 90
+  },
+  "scan_report": {
+    "total_findings": 1185,
+    "injection_patterns_count": 0,
+    "obfuscation_count": 35,
+    "obfuscation_high_risk_count": 2,
+    "dangerous_calls_count": 181,
+    "severity_counts": {
+      "critical": 0,
+      "high": 316,
+      "medium": 528,
+      "low": 341,
+      "info": 0
+    },
+    "category_counts": {
+      "dangerous_calls": 181,
+      "network_ops": 123,
+      "env_access": 405,
+      "suspicious_urls": 100,
+      "file_ops": 341,
+      "obfuscation": 35
+    },
+    "top_findings": [
+      {
+        "rule_id": "regex_py_eval",
+        "severity": "high",
+        "category": "dangerous_calls",
+        "file": "SECURITY.md",
+        "line": 86
+      },
+      {
+        "rule_id": "regex_js_fetch",
+        "severity": "medium",
+        "category": "network_ops",
+        "file": "tests/api/integration.test.ts",
+        "line": 28
+      },
+      {
+        "rule_id": "regex_js_fetch",
+        "severity": "medium",
+        "category": "network_ops",
+        "file": "tests/api/integration.test.ts",
+        "line": 108
+      },
+      {
+        "rule_id": "regex_js_fetch",
+        "severity": "medium",
+        "category": "network_ops",
+        "file": "tests/api/integration.test.ts",
+        "line": 407
+      },
+      {
+        "rule_id": "regex_js_fetch",
+        "severity": "medium",
+        "category": "network_ops",
+        "file": "tests/api/integration.test.ts",
+        "line": 426
+      },
+      {
+        "rule_id": "regex_js_process_env",
+        "severity": "medium",
+        "category": "env_access",
+        "file": "tests/api/integration.test.ts",
+        "line": 18
+      },
+      {
+        "rule_id": "regex_js_process_env",
+        "severity": "medium",
+        "category": "env_access",
+        "file": "tests/api/integration.test.ts",
+        "line": 20
+      },
+      {
+        "rule_id": "regex_js_process_env",
+        "severity": "medium",
+        "category": "env_access",
+        "file": "tests/api/integration.test.ts",
+        "line": 41
+      },
+      {
+        "rule_id": "regex_localhost_non_std",
+        "severity": "high",
+        "category": "suspicious_urls",
+        "file": "tests/api/integration.test.ts",
+        "line": 18
+      },
+      {
+        "rule_id": "regex_js_http_request",
+        "severity": "medium",
+        "category": "network_ops",
+        "file": "tests/performance/api-load-test.js",
+        "line": 128
+      },
+      {
+        "rule_id": "regex_js_http_request",
+        "severity": "medium",
+        "category": "network_ops",
+        "file": "tests/performance/api-load-test.js",
+        "line": 158
+      },
+      {
+        "rule_id": "regex_js_http_request",
+        "severity": "medium",
+        "category": "network_ops",
+        "file": "tests/performance/api-load-test.js",
+        "line": 320
+      },
+      {
+        "rule_id": "regex_localhost_non_std",
+        "severity": "high",
+        "category": "suspicious_urls",
+        "file": "tests/performance/api-load-test.js",
+        "line": 29
+      },
+      {
+        "rule_id": "regex_js_process_env",
+        "severity": "medium",
+        "category": "env_access",
+        "file": "tests/e2e/checkout-flow.spec.ts",
+        "line": 24
+      },
+      {
+        "rule_id": "regex_js_process_env",
+        "severity": "medium",
+        "category": "env_access",
+        "file": "tests/e2e/checkout-flow.spec.ts",
+        "line": 25
+      },
+      {
+        "rule_id": "regex_raw_ip_url",
+        "severity": "high",
+        "category": "suspicious_urls",
+        "file": "tests/e2e/checkout-flow.spec.ts",
+        "line": 24
+      },
+      {
+        "rule_id": "regex_js_fetch",
+        "severity": "medium",
+        "category": "network_ops",
+        "file": "tests/e2e/webhook-handling.spec.ts",
+        "line": 67
+      },
+      {
+        "rule_id": "regex_js_fetch",
+        "severity": "medium",
+        "category": "network_ops",
+        "file": "tests/e2e/webhook-handling.spec.ts",
+        "line": 91
+      },
+      {
+        "rule_id": "regex_js_fetch",
+        "severity": "medium",
+        "category": "network_ops",
+        "file": "tests/e2e/webhook-handling.spec.ts",
+        "line": 131
+      },
+      {
+        "rule_id": "regex_js_process_env",
+        "severity": "medium",
+        "category": "env_access",
+        "file": "tests/e2e/webhook-handling.spec.ts",
+        "line": 24
+      }
+    ],
+    "total_files_scanned": 1091
+  },
+  "verification_level": "full_pipeline",
+  "agent_audit": {
+    "agents_completed": 5,
+    "agents_required": 5,
+    "pipeline_run_at": "2026-03-04T22:17:54Z",
+    "agent_a": {
+      "signed": true,
+      "signed_at": "2026-03-04T22:17:54Z",
+      "comment": "Docs quality 10/10. README present. 12 features, 4 permissions claimed.",
+      "doc_quality_score": 10,
+      "claimed_permissions": [
+        "network access",
+        "system command execution",
+        "file system access",
+        "environment/secret access"
+      ]
+    },
+    "agent_b": {
+      "signed": true,
+      "signed_at": "2026-03-04T22:17:54Z",
+      "comment": "1043 files analyzed. Found: 29 network, 24 file, 120 env, 87 system calls. Primary: typescript.",
+      "files_analyzed": 1043,
+      "capabilities_found": [
+        "imports external dependencies",
+        "performs network operations",
+        "reads/writes files",
+        "reads environment values",
+        "executes system commands"
+      ]
+    },
+    "agent_c_star": {
+      "signed": true,
+      "signed_at": "2026-03-04T22:17:54Z",
+      "comment": "1185 findings: 0 critical, 316 high, 528 medium, 341 low. Obfuscation detected!. No injection.",
+      "total_findings": 1185,
+      "severity_counts": {
+        "critical": 0,
+        "high": 316,
+        "medium": 528,
+        "low": 341,
+        "info": 0
+      }
+    },
+    "agent_d": {
+      "signed": true,
+      "signed_at": "2026-03-04T22:17:54Z",
+      "comment": "Score 15. 0 mismatches. Risk: critical. Safety overrides: applied.",
+      "score": 15,
+      "mismatches": 0,
+      "safety_overrides_applied": true
+    },
+    "agent_e": {
+      "signed": true,
+      "signed_at": "2026-03-04T22:17:54Z",
+      "comment": "Rejected. Confidence 90%. Deterministic override: high-risk obfuscation detected.",
+      "approved": false,
+      "confidence": 90,
+      "override_reason": "Deterministic override: high-risk obfuscation detected."
+    },
+    "manager_summary": "5/5 agents completed. Score: 15/100, Risk: critical. 0 mismatches, 1185 scanner findings. Rejected at 90% confidence. Safety overrides triggered.",
+    "auto_clear": {
+      "applied": true,
+      "reason": "Auto-clear Cat 2: obfuscation FP (2 obf_hr, 0 dangerous_obf, 0 inj, 1091 files)",
+      "original_status": "fail",
+      "original_score": 15
+    }
+  }
 }

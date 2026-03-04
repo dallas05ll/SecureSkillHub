@@ -1,0 +1,20 @@
+{
+  "started_at": "2026-03-04T22:21:19Z",
+  "finished_at": "2026-03-04T22:21:24Z",
+  "skill_type": "all",
+  "selected_ids": [
+    "ai-2c99b731"
+  ],
+  "selected_count": 1,
+  "group_count": 5,
+  "processed_count": 1,
+  "status_counts": {
+    "pass": 1
+  },
+  "stage_failures": {},
+  "retry_ids": [],
+  "remaining_unverified": 5416,
+  "only_unverified": true,
+  "source": "*",
+  "include_repo_unavailable": false
+}

@@ -7,7 +7,7 @@
   "skill_type": "agent_skill",
   "owner": "agentuity",
   "stars": 0,
-  "primary_language": "unknown",
+  "primary_language": "typescript",
   "tags": [
     "agent-skills",
     "installs:18",
@@ -15,14 +15,262 @@
     "data-db",
     "dev",
     "dev-web",
-    "dev-web-backend"
+    "dev-web-backend",
+    "status-pass"
   ],
-  "verification_status": "unverified",
-  "overall_score": 0,
-  "risk_level": "info",
-  "verified_commit": null,
+  "verification_status": "pass",
+  "overall_score": 50,
+  "risk_level": "medium",
+  "verified_commit": "0fb779fbbfb24cf6cf35e1fa4b663eaf7ddb3816",
   "scan_summary": null,
   "repo_status": "available",
   "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
-  "repo_check_error": null
+  "repo_check_error": null,
+  "scan_date": "2026-03-04T22:13:50Z",
+  "findings_summary": {
+    "scanner_findings": 1471,
+    "dangerous_calls": 37,
+    "network_ops": 215,
+    "file_ops": 90,
+    "env_access": 699,
+    "obfuscation": 75,
+    "injection_patterns": 1,
+    "mismatches": 0,
+    "undocumented_capabilities": 0,
+    "supervisor_approved": false,
+    "supervisor_confidence": 95
+  },
+  "scan_report": {
+    "total_findings": 1471,
+    "injection_patterns_count": 1,
+    "obfuscation_count": 75,
+    "obfuscation_high_risk_count": 0,
+    "dangerous_calls_count": 37,
+    "severity_counts": {
+      "critical": 1,
+      "high": 466,
+      "medium": 914,
+      "low": 90,
+      "info": 0
+    },
+    "category_counts": {
+      "env_access": 699,
+      "suspicious_urls": 354,
+      "network_ops": 215,
+      "dangerous_calls": 37,
+      "file_ops": 90,
+      "injection_patterns": 1,
+      "obfuscation": 75
+    },
+    "top_findings": [
+      {
+        "rule_id": "regex_js_process_env",
+        "severity": "medium",
+        "category": "env_access",
+        "file": "playwright.frameworks.config.ts",
+        "line": 11
+      },
+      {
+        "rule_id": "regex_js_process_env",
+        "severity": "medium",
+        "category": "env_access",
+        "file": "playwright.frameworks.config.ts",
+        "line": 12
+      },
+      {
+        "rule_id": "regex_localhost_non_std",
+        "severity": "high",
+        "category": "suspicious_urls",
+        "file": "playwright.frameworks.config.ts",
+        "line": 25
+      },
+      {
+        "rule_id": "regex_localhost_non_std",
+        "severity": "high",
+        "category": "suspicious_urls",
+        "file": "playwright.frameworks.config.ts",
+        "line": 33
+      },
+      {
+        "rule_id": "regex_localhost_non_std",
+        "severity": "high",
+        "category": "suspicious_urls",
+        "file": "playwright.frameworks.config.ts",
+        "line": 41
+      },
+      {
+        "rule_id": "regex_js_process_env",
+        "severity": "medium",
+        "category": "env_access",
+        "file": "playwright.config.ts",
+        "line": 10
+      },
+      {
+        "rule_id": "regex_js_process_env",
+        "severity": "medium",
+        "category": "env_access",
+        "file": "playwright.config.ts",
+        "line": 11
+      },
+      {
+        "rule_id": "regex_js_process_env",
+        "severity": "medium",
+        "category": "env_access",
+        "file": "playwright.config.ts",
+        "line": 12
+      },
+      {
+        "rule_id": "regex_js_process_env",
+        "severity": "medium",
+        "category": "env_access",
+        "file": "playwright.config.ts",
+        "line": 31
+      },
+      {
+        "rule_id": "regex_localhost_non_std",
+        "severity": "high",
+        "category": "suspicious_urls",
+        "file": "playwright.config.ts",
+        "line": 15
+      },
+      {
+        "rule_id": "regex_localhost_non_std",
+        "severity": "high",
+        "category": "suspicious_urls",
+        "file": "playwright.config.ts",
+        "line": 30
+      },
+      {
+        "rule_id": "regex_js_fetch",
+        "severity": "medium",
+        "category": "network_ops",
+        "file": "docs/testing.md",
+        "line": 83
+      },
+      {
+        "rule_id": "regex_shell_backtick_exec",
+        "severity": "high",
+        "category": "dangerous_calls",
+        "file": "docs/webrtc-turn-configuration.md",
+        "line": 184
+      },
+      {
+        "rule_id": "regex_js_fetch",
+        "severity": "medium",
+        "category": "network_ops",
+        "file": "docs/webrtc-turn-configuration.md",
+        "line": 130
+      },
+      {
+        "rule_id": "regex_js_fetch",
+        "severity": "medium",
+        "category": "network_ops",
+        "file": "docs/webrtc-turn-configuration.md",
+        "line": 261
+      },
+      {
+        "rule_id": "regex_js_process_env",
+        "severity": "medium",
+        "category": "env_access",
+        "file": "docs/recipes/auth0.md",
+        "line": 193
+      },
+      {
+        "rule_id": "regex_js_process_env",
+        "severity": "medium",
+        "category": "env_access",
+        "file": "docs/recipes/auth0.md",
+        "line": 194
+      },
+      {
+        "rule_id": "regex_js_process_env",
+        "severity": "medium",
+        "category": "env_access",
+        "file": "docs/recipes/clerk.md",
+        "line": 153
+      },
+      {
+        "rule_id": "regex_js_process_env",
+        "severity": "medium",
+        "category": "env_access",
+        "file": "docs/recipes/drizzle-integration.md",
+        "line": 17
+      },
+      {
+        "rule_id": "regex_js_process_env",
+        "severity": "medium",
+        "category": "env_access",
+        "file": "docs/recipes/drizzle-integration.md",
+        "line": 98
+      }
+    ],
+    "total_files_scanned": 1974
+  },
+  "verification_level": "full_pipeline",
+  "agent_audit": {
+    "agents_completed": 5,
+    "agents_required": 5,
+    "pipeline_run_at": "2026-03-04T22:13:50Z",
+    "agent_a": {
+      "signed": true,
+      "signed_at": "2026-03-04T22:13:50Z",
+      "comment": "Docs quality 10/10. README present. 12 features, 4 permissions claimed.",
+      "doc_quality_score": 10,
+      "claimed_permissions": [
+        "network access",
+        "system command execution",
+        "file system access",
+        "environment/secret access"
+      ]
+    },
+    "agent_b": {
+      "signed": true,
+      "signed_at": "2026-03-04T22:13:50Z",
+      "comment": "1818 files analyzed. Found: 150 network, 20 file, 90 env, 4 system calls. Primary: typescript.",
+      "files_analyzed": 1818,
+      "capabilities_found": [
+        "imports external dependencies",
+        "performs network operations",
+        "reads/writes files",
+        "reads environment values",
+        "executes system commands"
+      ]
+    },
+    "agent_c_star": {
+      "signed": true,
+      "signed_at": "2026-03-04T22:13:50Z",
+      "comment": "1471 findings: 1 critical, 466 high, 914 medium, 90 low. Obfuscation detected!. Injection patterns found!.",
+      "total_findings": 1471,
+      "severity_counts": {
+        "critical": 1,
+        "high": 466,
+        "medium": 914,
+        "low": 90,
+        "info": 0
+      }
+    },
+    "agent_d": {
+      "signed": true,
+      "signed_at": "2026-03-04T22:13:50Z",
+      "comment": "Score 10. 0 mismatches. Risk: critical. Safety overrides: applied.",
+      "score": 10,
+      "mismatches": 0,
+      "safety_overrides_applied": true
+    },
+    "agent_e": {
+      "signed": true,
+      "signed_at": "2026-03-04T22:13:50Z",
+      "comment": "Rejected. Confidence 95%. Deterministic override: injection patterns detected.",
+      "approved": false,
+      "confidence": 95,
+      "override_reason": "Deterministic override: injection patterns detected."
+    },
+    "manager_summary": "5/5 agents completed. Score: 10/100, Risk: critical. 0 mismatches, 1471 scanner findings. Rejected at 95% confidence. Safety overrides triggered.",
+    "auto_clear": {
+      "applied": true,
+      "reason": "Auto-clear Cat 9: monorepo (1471 findings, 1 inj = 0.1%)",
+      "original_status": "fail",
+      "original_score": 10
+    }
+  }
 }
