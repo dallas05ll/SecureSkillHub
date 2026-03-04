@@ -69,6 +69,11 @@ PM_VERIFIED_ORGS: frozenset[str] = frozenset({
     "tomtom-international", "slowmist", "n8n-io", "jumpserver",
     "vercel", "awslabs", "microsoft", "1panel-dev", "jlowin",
     "mindsdb", "anthropics", "klavis-ai", "orchestra-research",
+    # Added 2026-03-04 Run 3 — internet-verified orgs
+    "elizaos", "netalertx", "inkeep", "zenobi-us",
+    # Added 2026-03-04 Run 4 — major OSS projects hosting skillsmp skills
+    "jetbrains", "elastic", "tryghost", "flashinfer-ai",
+    "remotion-dev", "dotnet", "lobehub", "mlflow", "nangohq",
 })
 
 

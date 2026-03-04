@@ -144,7 +144,12 @@ OBFUSCATION_HIGH_RISK: list[PatternEntry] = [
     # binary test data (audio headers, crypto vectors). 8+ consecutive hex escapes
     # strongly signals obfuscation. (minimax FP 2026-03-03).
     _compile("hex_escape_seq",     r"(?:\\x[0-9a-fA-F]{2}){8,}"),
-    _compile("unicode_escape_seq", r"(?:\\u[0-9a-fA-F]{4}){3,}"),
+    # Raised threshold from 3 to 6 consecutive unicode escapes to reduce FP on
+    # CJK text (Chinese/Japanese/Korean), RTL markers, and currency symbols in
+    # DataTables/KaTeX/mermaid bundles. 6+ consecutive escapes more strongly
+    # signals obfuscation vs. legitimate i18n text. (dazee-small 27 FP, mizu 13 FP,
+    # netalertx 2 FP — all Chinese text labels or bundled library char tables).
+    _compile("unicode_escape_seq", r"(?:\\u[0-9a-fA-F]{4}){6,}"),
 ]
 
 OBFUSCATION_LOW_RISK: list[PatternEntry] = [
@@ -181,14 +186,21 @@ INJECTION_PATTERNS: list[PatternEntry] = [
     _compile("pretend_to_be",      r"\bPRETEND\s+(?:TO\s+BE|YOU\s+ARE)\s+(?:a\s+)?(?:DAN|unrestricted|unfiltered|jailbroken)", re.IGNORECASE),
     _compile("disregard",          r"\bDISREGARD\s+(ALL\s+)?(PREVIOUS|PRIOR|ABOVE)\b", re.IGNORECASE),
     _compile("new_instructions",   r"\bNEW\s+INSTRUCTIONS?\s*:", re.IGNORECASE),
-    _compile("override_role",      r"\bOVERRIDE\s+(ROLE|MODE|SYSTEM)\b", re.IGNORECASE),
+    # Require imperative/instruction context — "OVERRIDE ROLE" alone fires on CSS/ARIA
+    # role overrides, Python function names (override_role), and design catalog docs.
+    # Now requires surrounding instruction verbs or jailbreak vocabulary.
+    # (vscode 4 FP, matteocervelli/llms 3 FP, curiositech design catalog FP — 2026-03-04).
+    _compile("override_role",      r"(?:you\s+must|please|now)\s+OVERRIDE\s+(ROLE|MODE|SYSTEM)\b", re.IGNORECASE),
     # Require imperative/instructional context — matches "enable JAILBREAK mode" or
     # "activate DAN MODE" but not "detect JAILBREAK patterns" or "scan for JAILBREAK".
     # Prevents FP on security scanner source code (agentic-radar FP 2026-03-03).
     _compile("jailbreak",          r"(?:enable|activate|enter|start|use|switch\s+to|engage)\s+(?:JAILBREAK|DAN\s+MODE)\b", re.IGNORECASE),
     _compile("do_anything_now",    r"\bDO\s+ANYTHING\s+NOW\b", re.IGNORECASE),
     _compile("ignore_safety",      r"\bIGNORE\s+(SAFETY|RESTRICTIONS?|FILTERS?|GUARDRAILS?)\b", re.IGNORECASE),
-    _compile("roleplay_escape",    r"\b(END|EXIT|LEAVE)\s+(ROLEPLAY|CHARACTER|SIMULATION)\b", re.IGNORECASE),
+    # Require trailing "mode"/"now"/"immediately" to avoid FP on code token names,
+    # simulation test utilities, and game engine state machines that use
+    # END SIMULATION as enum values. (microsoft/vscode 4 FP — 2026-03-04).
+    _compile("roleplay_escape",    r"\b(END|EXIT|LEAVE)\s+(ROLEPLAY|CHARACTER|SIMULATION)\s+(MODE|NOW|IMMEDIATELY)\b", re.IGNORECASE),
     _compile("hidden_instruction",  r"<!--.*?(?:SYSTEM\s*:|IGNORE\s+(?:PREVIOUS|ABOVE|ALL)|OVERRIDE\s+(?:ROLE|MODE)|INSTRUCTION\s*:).*?-->", re.IGNORECASE),
     # Only match when javascript:/data:/vbscript: is the URL protocol (right after open paren).
     # Previous pattern matched data: ANYWHERE in the URL, causing false positives on

@@ -7,18 +7,96 @@
   "skill_type": "agent_skill",
   "owner": "microsoft",
   "stars": 0,
-  "primary_language": "unknown",
+  "primary_language": "typescript",
   "tags": [
     "agent-skills",
     "utilities",
-    "installs:181759"
+    "installs:181759",
+    "status-pass"
   ],
-  "verification_status": "unverified",
-  "overall_score": 0,
-  "risk_level": "info",
-  "verified_commit": null,
+  "verification_status": "pass",
+  "pm_override": true,
+  "pm_override_reason": "FP: microsoft/vscode — regex_roleplay_escape on TS token files",
+  "overall_score": 10,
+  "risk_level": "critical",
+  "verified_commit": "e933711737d39d20f5dda4de4e15e83f9c56853d",
   "scan_summary": null,
   "repo_status": "available",
   "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
-  "repo_check_error": null
+  "repo_check_error": null,
+  "scan_date": "2026-03-04T16:08:10Z",
+  "findings_summary": {
+    "scanner_findings": 3215,
+    "dangerous_calls": 1097,
+    "network_ops": 194,
+    "file_ops": 1128,
+    "env_access": 526,
+    "obfuscation": 124,
+    "injection_patterns": 4,
+    "mismatches": 0,
+    "undocumented_capabilities": 0,
+    "supervisor_approved": false,
+    "supervisor_confidence": 95
+  },
+  "verification_level": "full_pipeline",
+  "agent_audit": {
+    "agents_completed": 5,
+    "agents_required": 5,
+    "pipeline_run_at": "2026-03-04T16:08:10Z",
+    "agent_a": {
+      "signed": true,
+      "signed_at": "2026-03-04T16:08:10Z",
+      "comment": "Docs quality 9/10. README present. 12 features, 4 permissions claimed.",
+      "doc_quality_score": 9,
+      "claimed_permissions": [
+        "network access",
+        "system command execution",
+        "file system access",
+        "environment/secret access"
+      ]
+    },
+    "agent_b": {
+      "signed": true,
+      "signed_at": "2026-03-04T16:08:10Z",
+      "comment": "7605 files analyzed. Found: 66 network, 45 file, 68 env, 28 system calls. Primary: typescript.",
+      "files_analyzed": 7605,
+      "capabilities_found": [
+        "imports external dependencies",
+        "performs network operations",
+        "reads/writes files",
+        "reads environment values",
+        "executes system commands"
+      ]
+    },
+    "agent_c_star": {
+      "signed": true,
+      "signed_at": "2026-03-04T16:08:10Z",
+      "comment": "3215 findings: 4 critical, 1363 high, 720 medium, 1128 low. Obfuscation detected!. Injection patterns found!.",
+      "total_findings": 3215,
+      "severity_counts": {
+        "critical": 4,
+        "high": 1363,
+        "medium": 720,
+        "low": 1128,
+        "info": 0
+      }
+    },
+    "agent_d": {
+      "signed": true,
+      "signed_at": "2026-03-04T16:08:10Z",
+      "comment": "Score 10. 0 mismatches. Risk: critical. Safety overrides: applied.",
+      "score": 10,
+      "mismatches": 0,
+      "safety_overrides_applied": true
+    },
+    "agent_e": {
+      "signed": true,
+      "signed_at": "2026-03-04T16:08:10Z",
+      "comment": "Rejected. Confidence 95%. Deterministic override: injection patterns detected.",
+      "approved": false,
+      "confidence": 95,
+      "override_reason": "Deterministic override: injection patterns detected."
+    },
+    "manager_summary": "5/5 agents completed. Score: 10/100, Risk: critical. 0 mismatches, 3215 scanner findings. Rejected at 95% confidence. Safety overrides triggered."
+  }
 }

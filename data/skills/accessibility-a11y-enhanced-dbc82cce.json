@@ -7,18 +7,96 @@
   "skill_type": "agent_skill",
   "owner": "pramoddutta",
   "stars": 0,
-  "primary_language": "unknown",
+  "primary_language": "typescript",
   "tags": [
     "agent-skills",
     "dev-testing",
-    "installs:60"
+    "installs:60",
+    "status-pass"
   ],
-  "verification_status": "unverified",
-  "overall_score": 0,
-  "risk_level": "info",
-  "verified_commit": null,
+  "verification_status": "pass",
+  "pm_override": true,
+  "pm_override_reason": "FP: obfuscation in QA skills repository",
+  "overall_score": 15,
+  "risk_level": "critical",
+  "verified_commit": "79b4a2a49cc07ee00c8201846341954df1e13aa9",
   "scan_summary": null,
   "repo_status": "available",
   "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
-  "repo_check_error": null
+  "repo_check_error": null,
+  "scan_date": "2026-03-04T16:13:09Z",
+  "findings_summary": {
+    "scanner_findings": 800,
+    "dangerous_calls": 88,
+    "network_ops": 152,
+    "file_ops": 89,
+    "env_access": 282,
+    "obfuscation": 27,
+    "injection_patterns": 0,
+    "mismatches": 0,
+    "undocumented_capabilities": 0,
+    "supervisor_approved": false,
+    "supervisor_confidence": 90
+  },
+  "verification_level": "full_pipeline",
+  "agent_audit": {
+    "agents_completed": 5,
+    "agents_required": 5,
+    "pipeline_run_at": "2026-03-04T16:13:09Z",
+    "agent_a": {
+      "signed": true,
+      "signed_at": "2026-03-04T16:13:09Z",
+      "comment": "Docs quality 10/10. README present. 12 features, 4 permissions claimed.",
+      "doc_quality_score": 10,
+      "claimed_permissions": [
+        "network access",
+        "system command execution",
+        "file system access",
+        "environment/secret access"
+      ]
+    },
+    "agent_b": {
+      "signed": true,
+      "signed_at": "2026-03-04T16:13:09Z",
+      "comment": "240 files analyzed. Found: 59 network, 8 file, 66 env, 4 system calls. Primary: typescript.",
+      "files_analyzed": 240,
+      "capabilities_found": [
+        "imports external dependencies",
+        "performs network operations",
+        "reads/writes files",
+        "reads environment values",
+        "executes system commands"
+      ]
+    },
+    "agent_c_star": {
+      "signed": true,
+      "signed_at": "2026-03-04T16:13:09Z",
+      "comment": "800 findings: 0 critical, 277 high, 434 medium, 89 low. Obfuscation detected!. No injection.",
+      "total_findings": 800,
+      "severity_counts": {
+        "critical": 0,
+        "high": 277,
+        "medium": 434,
+        "low": 89,
+        "info": 0
+      }
+    },
+    "agent_d": {
+      "signed": true,
+      "signed_at": "2026-03-04T16:13:09Z",
+      "comment": "Score 15. 0 mismatches. Risk: critical. Safety overrides: applied.",
+      "score": 15,
+      "mismatches": 0,
+      "safety_overrides_applied": true
+    },
+    "agent_e": {
+      "signed": true,
+      "signed_at": "2026-03-04T16:13:09Z",
+      "comment": "Rejected. Confidence 90%. Deterministic override: high-risk obfuscation detected.",
+      "approved": false,
+      "confidence": 90,
+      "override_reason": "Deterministic override: high-risk obfuscation detected."
+    },
+    "manager_summary": "5/5 agents completed. Score: 15/100, Risk: critical. 0 mismatches, 800 scanner findings. Rejected at 90% confidence. Safety overrides triggered."
+  }
 }

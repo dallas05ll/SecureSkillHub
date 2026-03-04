@@ -53,6 +53,24 @@ def _is_test_path(rel_path: Path) -> bool:
     """Return True if path is inside a test/fixture directory."""
     return any(part in _TEST_DIR_NAMES for part in rel_path.parts)
 
+
+# Cat 9: Security detector file patterns — files that implement injection
+# detection contain injection strings as their detection vocabulary. These are
+# defensive, not attacks. (sentinel-api-testing FP, specweave FP, WaldzellAI FP,
+# ScopeCraft FP, FiddleCube FP, davila7/claude-code-templates FP — 2026-03-04).
+import re as _re
+_SECURITY_DETECTOR_RE = _re.compile(
+    r"(?:security[_-]?(?:scanner|injection|agent|judge|checker|validator|filter|guard))"
+    r"|(?:(?:injection|prompt)[_-]?(?:detector|scanner|checker|filter|guard))"
+    r"|(?:semantic[_-]?validator)",
+    _re.IGNORECASE,
+)
+
+
+def _is_security_detector_file(rel_path: Path) -> bool:
+    """Return True if file appears to be a security detection/validation tool."""
+    return bool(_SECURITY_DETECTOR_RE.search(rel_path.stem))
+
 # Mapping from pattern group names to ScannerOutput count field names
 _CATEGORY_TO_COUNT_FIELD: dict[str, str] = {
     "dangerous_calls": "dangerous_calls_count",
@@ -299,7 +317,12 @@ class StaticScanner:
             for category, patterns in ALL_PATTERN_GROUPS.items():
                 # Skip obfuscation checks on JSON/data files — they inherently
                 # contain base64, unicode escapes, etc. that aren't obfuscation.
-                if category == "obfuscation" and file_path.suffix.lower() in (".json",):
+                # Also skip protobuf-generated files (*_pb2.py) which contain binary
+                # descriptor data as hex escapes. (elizaos/eliza FP 2026-03-04).
+                if category == "obfuscation" and (
+                    file_path.suffix.lower() in (".json",)
+                    or file_path.name.endswith("_pb2.py")
+                ):
                     continue
                 # Cat 8: Skip obfuscation on minified JS — String.fromCharCode,
                 # hex escapes in minified code are normal, not malicious obfuscation.
@@ -309,6 +332,11 @@ class StaticScanner:
                     or file_path.name.endswith(".min.cjs")
                     or file_path.name.endswith(".min.mjs")
                     or file_path.name in {"bundle.js", "bundle.cjs", "bundle.mjs"}
+                    # Cat 10: Skip obfuscation on webpack/vite chunk bundles and
+                    # hashed asset filenames — these are build artifacts, not source.
+                    # (mizu 13 FP in mermaid/KaTeX/CodeMirror bundles — 2026-03-04).
+                    or file_path.name.startswith("chunk-")
+                    or file_path.suffix == ".js" and "-" in file_path.stem and len(file_path.stem) > 20
                 ):
                     continue
                 # Skip injection pattern checks on .md/.rst/.txt docs — security
@@ -319,6 +347,11 @@ class StaticScanner:
                 # Cat 3: Skip injection in test directories — security test libraries
                 # store attack payloads as test fixtures. (compliant-llm 153 inj FP).
                 if category == "injection_patterns" and _is_test_path(rel_path):
+                    continue
+                # Cat 9: Skip injection in security detector files — files that
+                # detect injection inherently contain the attack strings as rules.
+                # (sentinel-api-testing, specweave, claude-code-templates FP 2026-03-04).
+                if category == "injection_patterns" and _is_security_detector_file(rel_path):
                     continue
                 for entry in patterns:
                     for match in entry.pattern.finditer(content):

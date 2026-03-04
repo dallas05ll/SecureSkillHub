@@ -11,14 +11,89 @@
   "tags": [
     "agent-skills",
     "utilities",
-    "installs:17"
+    "installs:17",
+    "status-fail"
   ],
-  "verification_status": "unverified",
-  "overall_score": 0,
-  "risk_level": "info",
-  "verified_commit": null,
+  "verification_status": "fail",
+  "overall_score": 15,
+  "risk_level": "critical",
+  "verified_commit": "927bb36465cc6c2b1d84e73129de17c2318d6dcf",
   "scan_summary": null,
   "repo_status": "available",
   "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
-  "repo_check_error": null
+  "repo_check_error": null,
+  "scan_date": "2026-03-04T16:06:28Z",
+  "findings_summary": {
+    "scanner_findings": 27399,
+    "dangerous_calls": 6929,
+    "network_ops": 5292,
+    "file_ops": 3091,
+    "env_access": 6901,
+    "obfuscation": 457,
+    "injection_patterns": 0,
+    "mismatches": 0,
+    "undocumented_capabilities": 0,
+    "supervisor_approved": false,
+    "supervisor_confidence": 90
+  },
+  "verification_level": "full_pipeline",
+  "agent_audit": {
+    "agents_completed": 5,
+    "agents_required": 5,
+    "pipeline_run_at": "2026-03-04T16:06:28Z",
+    "agent_a": {
+      "signed": true,
+      "signed_at": "2026-03-04T16:06:28Z",
+      "comment": "Docs quality 10/10. README present. 12 features, 3 permissions claimed.",
+      "doc_quality_score": 10,
+      "claimed_permissions": [
+        "network access",
+        "file system access",
+        "environment/secret access"
+      ]
+    },
+    "agent_b": {
+      "signed": true,
+      "signed_at": "2026-03-04T16:06:28Z",
+      "comment": "20 files analyzed. Found: 8 network, 26 file, 16 env, 3 system calls. Primary: unknown.",
+      "files_analyzed": 20,
+      "capabilities_found": [
+        "imports external dependencies",
+        "performs network operations",
+        "reads/writes files",
+        "reads environment values",
+        "executes system commands"
+      ]
+    },
+    "agent_c_star": {
+      "signed": true,
+      "signed_at": "2026-03-04T16:06:28Z",
+      "comment": "27399 findings: 0 critical, 12115 high, 12193 medium, 3091 low. Obfuscation detected!. No injection.",
+      "total_findings": 27399,
+      "severity_counts": {
+        "critical": 0,
+        "high": 12115,
+        "medium": 12193,
+        "low": 3091,
+        "info": 0
+      }
+    },
+    "agent_d": {
+      "signed": true,
+      "signed_at": "2026-03-04T16:06:28Z",
+      "comment": "Score 15. 0 mismatches. Risk: critical. Safety overrides: applied.",
+      "score": 15,
+      "mismatches": 0,
+      "safety_overrides_applied": true
+    },
+    "agent_e": {
+      "signed": true,
+      "signed_at": "2026-03-04T16:06:28Z",
+      "comment": "Rejected. Confidence 90%. Deterministic override: high-risk obfuscation detected.",
+      "approved": false,
+      "confidence": 90,
+      "override_reason": "Deterministic override: high-risk obfuscation detected."
+    },
+    "manager_summary": "5/5 agents completed. Score: 15/100, Risk: critical. 0 mismatches, 27399 scanner findings. Rejected at 90% confidence. Safety overrides triggered."
+  }
 }

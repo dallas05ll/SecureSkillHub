@@ -1,7 +1,7 @@
 {
   "id": "smb-sales-boost-skill-f40259d0",
   "name": "smb-sales-boost-skill",
-  "description": "Claude skill for B2B lead generation \u2014 search, filter & export newly registered US small to medium sized businesses via SMB Sales Boost API. Built for cold outreach, GTM, and sales prospecting agents.",
+  "description": "Claude skill for B2B lead generation — search, filter & export newly registered US small to medium sized businesses via SMB Sales Boost API. Built for cold outreach, GTM, and sales prospecting agents.",
   "repo_url": "https://github.com/Tomsonx232/smb-sales-boost-skill",
   "source_hub": "github_search",
   "skill_type": "agent_skill",
@@ -12,17 +12,87 @@
   "tags": [
     "data-ai",
     "integ",
-    "util-search"
+    "util-search",
+    "status-pass"
   ],
-  "verification_status": "unverified",
-  "overall_score": 68,
+  "verification_status": "pass",
+  "overall_score": 92,
   "risk_level": "medium",
-  "verified_commit": null,
+  "verified_commit": "1ba48c65dfcd05941c087b90916a40580f28500e",
   "scan_summary": null,
   "last_updated": "2026-02-21T20:00:50Z",
   "findings_summary": {
-    "notes": "Metadata-based verification. Score=68. Signals: stars=0 (-10); license='mit' (+5); owner='Tomsonx232' (+3); primary_language='markdown'; source_hub='github_search'. Status: manual_review. Risk: medium."
+    "scanner_findings": 9,
+    "dangerous_calls": 0,
+    "network_ops": 5,
+    "file_ops": 3,
+    "env_access": 0,
+    "obfuscation": 1,
+    "injection_patterns": 0,
+    "mismatches": 0,
+    "undocumented_capabilities": 0,
+    "supervisor_approved": true,
+    "supervisor_confidence": 92
   },
   "trust_level": "low",
-  "scan_date": "2026-02-26T06:14:56Z"
+  "scan_date": "2026-03-04T16:06:28Z",
+  "verification_level": "full_pipeline",
+  "agent_audit": {
+    "agents_completed": 5,
+    "agents_required": 5,
+    "pipeline_run_at": "2026-03-04T16:06:28Z",
+    "agent_a": {
+      "signed": true,
+      "signed_at": "2026-03-04T16:06:28Z",
+      "comment": "Docs quality 10/10. README present. 12 features, 4 permissions claimed.",
+      "doc_quality_score": 10,
+      "claimed_permissions": [
+        "network access",
+        "system command execution",
+        "file system access",
+        "environment/secret access"
+      ]
+    },
+    "agent_b": {
+      "signed": true,
+      "signed_at": "2026-03-04T16:06:28Z",
+      "comment": "2 files analyzed. Found: 4 network, 1 file, 0 env, 0 system calls. Primary: unknown.",
+      "files_analyzed": 2,
+      "capabilities_found": [
+        "imports external dependencies",
+        "performs network operations",
+        "reads/writes files"
+      ]
+    },
+    "agent_c_star": {
+      "signed": true,
+      "signed_at": "2026-03-04T16:06:28Z",
+      "comment": "9 findings: 0 critical, 1 high, 5 medium, 3 low. Obfuscation detected!. No injection.",
+      "total_findings": 9,
+      "severity_counts": {
+        "critical": 0,
+        "high": 1,
+        "medium": 5,
+        "low": 3,
+        "info": 0
+      }
+    },
+    "agent_d": {
+      "signed": true,
+      "signed_at": "2026-03-04T16:06:28Z",
+      "comment": "Score 92. 0 mismatches. Risk: medium. Safety overrides: none triggered.",
+      "score": 92,
+      "mismatches": 0,
+      "safety_overrides_applied": false
+    },
+    "agent_e": {
+      "signed": true,
+      "signed_at": "2026-03-04T16:06:28Z",
+      "comment": "Approved. Confidence 92%. No overrides.",
+      "approved": true,
+      "confidence": 92,
+      "override_reason": null
+    },
+    "manager_summary": "5/5 agents completed. Score: 92/100, Risk: medium. 0 mismatches, 9 scanner findings. Approved at 92% confidence. No safety overrides."
+  }
 }

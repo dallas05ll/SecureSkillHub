@@ -11,14 +11,92 @@
   "tags": [
     "agent-skills",
     "utilities",
-    "installs:35"
+    "installs:35",
+    "status-pass"
   ],
-  "verification_status": "unverified",
-  "overall_score": 0,
-  "risk_level": "info",
-  "verified_commit": null,
+  "verification_status": "pass",
+  "pm_override": true,
+  "pm_override_reason": "FP: regex_override_role in JSON design catalog",
+  "overall_score": 10,
+  "risk_level": "critical",
+  "verified_commit": "e0e552b3cb1add4b87e83d827795e186c08a180c",
   "scan_summary": null,
   "repo_status": "available",
   "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
-  "repo_check_error": null
+  "repo_check_error": null,
+  "scan_date": "2026-03-04T16:11:46Z",
+  "findings_summary": {
+    "scanner_findings": 1156,
+    "dangerous_calls": 143,
+    "network_ops": 246,
+    "file_ops": 450,
+    "env_access": 254,
+    "obfuscation": 7,
+    "injection_patterns": 1,
+    "mismatches": 0,
+    "undocumented_capabilities": 0,
+    "supervisor_approved": false,
+    "supervisor_confidence": 95
+  },
+  "verification_level": "full_pipeline",
+  "agent_audit": {
+    "agents_completed": 5,
+    "agents_required": 5,
+    "pipeline_run_at": "2026-03-04T16:11:46Z",
+    "agent_a": {
+      "signed": true,
+      "signed_at": "2026-03-04T16:11:46Z",
+      "comment": "Docs quality 10/10. README present. 12 features, 4 permissions claimed.",
+      "doc_quality_score": 10,
+      "claimed_permissions": [
+        "network access",
+        "system command execution",
+        "file system access",
+        "environment/secret access"
+      ]
+    },
+    "agent_b": {
+      "signed": true,
+      "signed_at": "2026-03-04T16:11:46Z",
+      "comment": "673 files analyzed. Found: 29 network, 55 file, 77 env, 26 system calls. Primary: unknown.",
+      "files_analyzed": 673,
+      "capabilities_found": [
+        "imports external dependencies",
+        "performs network operations",
+        "reads/writes files",
+        "reads environment values",
+        "executes system commands"
+      ]
+    },
+    "agent_c_star": {
+      "signed": true,
+      "signed_at": "2026-03-04T16:11:46Z",
+      "comment": "1156 findings: 1 critical, 205 high, 500 medium, 450 low. Obfuscation detected!. Injection patterns found!.",
+      "total_findings": 1156,
+      "severity_counts": {
+        "critical": 1,
+        "high": 205,
+        "medium": 500,
+        "low": 450,
+        "info": 0
+      }
+    },
+    "agent_d": {
+      "signed": true,
+      "signed_at": "2026-03-04T16:11:46Z",
+      "comment": "Score 10. 0 mismatches. Risk: critical. Safety overrides: applied.",
+      "score": 10,
+      "mismatches": 0,
+      "safety_overrides_applied": true
+    },
+    "agent_e": {
+      "signed": true,
+      "signed_at": "2026-03-04T16:11:46Z",
+      "comment": "Rejected. Confidence 95%. Deterministic override: injection patterns detected.",
+      "approved": false,
+      "confidence": 95,
+      "override_reason": "Deterministic override: injection patterns detected."
+    },
+    "manager_summary": "5/5 agents completed. Score: 10/100, Risk: critical. 0 mismatches, 1156 scanner findings. Rejected at 95% confidence. Safety overrides triggered."
+  }
 }
