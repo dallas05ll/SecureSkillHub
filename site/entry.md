@@ -54,7 +54,7 @@ For precise tag-based browsing:
 ```
 GET api/tags.json                      → Full tag navigation tree (~18KB)
 GET api/skills/by-tag/{tag_id}.json    → All skills for a tag (size varies)
-GET api/skills/by-tier/{tier}.json     → Skills by priority tier
+GET api/skills/by-tier/tier-{1-5}.json → Skills by priority tier (1=S, 2=A, 3=B, 4=C, 5=D+E)
 ```
 
 Note: by-tag and by-tier files can be large (100KB-4MB). Prefer Step 1-3 for most queries.
@@ -93,11 +93,11 @@ Agent → User:
 
 User: "Show me agent skills for coding"
 
-Agent: (fetches api/v2/meta/agent_skills_top.json — ~15KB, filters by tags)
+Agent: (fetches api/v2/meta/agent_skills_top.json — ~72KB, filters by tags)
 Agent → User:
   "Top coding agent skills by installs:
-   1. Code Review (97,732 installs, tier S)
-   2. TypeScript Patterns (45,210 installs, tier S)
+   1. extract-errors (243,058 installs, tier S)
+   2. Vercel React Best Practices (175,300 installs, tier S)
    Want details on any of these?"
 
 User: "Tell me more about skill X"
@@ -269,7 +269,8 @@ Users can create personalized skill packages tied to their GitHub account.
 
 ## Tips for Agents
 
-- **Start cheap**: packages (~5KB) → meta files (~15KB) → by-tag → full catalog. Never start with the full catalog.
+- **Start cheap**: packages (~5KB) → v2 search API → meta files (~70KB) → full catalog. Never start with the full catalog.
+- **Prefer v2 dynamic API** (`/v2/search`) for filtered queries — returns only what you need (~2-5KB).
 - Prefer `full_pipeline` skills with `overall_score >= 80`.
 - Always show `risk_level` and `findings_summary` when recommending.
 - Use `score_type` to understand what `score` means: `"stars"` for MCP, `"installs"` for agent skills.

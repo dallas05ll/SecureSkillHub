@@ -15,7 +15,11 @@ search.get("/", async (c) => {
   const tagsParam = c.req.query("tags");
   const tierParam = c.req.query("tier");
   const verifiedParam = c.req.query("verified") ?? "true";
-  const q = c.req.query("q")?.toLowerCase();
+  const rawQ = c.req.query("q");
+  if (rawQ && rawQ.length > 200) {
+    return c.json({ error: "Search query too long (max 200 chars)" }, 400);
+  }
+  const q = rawQ?.toLowerCase();
   const sort = c.req.query("sort") || "score";
   const limit = Math.min(Math.max(1, parseInt(c.req.query("limit") || "20", 10)), 50);
   const offset = Math.max(0, parseInt(c.req.query("offset") || "0", 10));
@@ -104,6 +108,7 @@ search.get("/", async (c) => {
       tags: entry.tags.filter((t) => t !== "repo_unavailable"),
       one_liner: (entry.description || "").slice(0, 150),
       install: `npx secureskillhub install ${entry.id}`,
+      commit: entry.verified_commit || "",
       report_url: `${c.env.STATIC_API_BASE}/api/skills/${entry.id}.json`,
     };
   });

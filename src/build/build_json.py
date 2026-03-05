@@ -740,6 +740,7 @@ def build_search_index(skills: list[dict[str, Any]]) -> list[dict[str, Any]]:
             "overall_score": skill.get("overall_score", 0),
             "verification_status": skill.get("verification_status", "unverified"),
             "skill_type": skill.get("skill_type", "mcp_server"),
+            "verified_commit": (skill.get("verified_commit") or "")[:7],
         }
         entries.append(entry)
 

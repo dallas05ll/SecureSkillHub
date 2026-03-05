@@ -3,7 +3,7 @@ import type { Env, Variables } from "../../lib/types.js";
 
 const skill = new Hono<{ Bindings: Env; Variables: Variables }>();
 
-const SKILL_ID_RE = /^[a-zA-Z0-9._-]+$/;
+const SKILL_ID_RE = /^[a-zA-Z0-9_-]+$/;
 
 skill.get("/:id", async (c) => {
   const id = c.req.param("id");

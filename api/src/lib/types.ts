@@ -139,6 +139,7 @@ export interface SearchIndexEntry {
   overall_score: number;
   verification_status: string;
   skill_type: string;
+  verified_commit: string;
 }
 
 /** Single result item returned by GET /v2/search */
@@ -153,6 +154,7 @@ export interface V2SearchResult {
   tags: string[];
   one_liner: string;
   install: string;
+  commit: string;
   report_url: string;
 }
 

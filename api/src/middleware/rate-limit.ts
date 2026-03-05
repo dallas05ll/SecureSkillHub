@@ -8,7 +8,7 @@ export async function rateLimitMiddleware(
 ): Promise<Response | void> {
   const ip =
     c.req.header("cf-connecting-ip") ||
-    c.req.header("x-forwarded-for") ||
+    c.req.header("x-forwarded-for")?.split(",")[0].trim() ||
     "unknown";
 
   const { allowed, remaining, reset } = await checkRateLimit(ip);
