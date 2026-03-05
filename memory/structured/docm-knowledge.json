@@ -12,21 +12,29 @@
       "id": "docm-k-002",
       "title": "File registry",
       "category": "infrastructure",
-      "description": "DocM maintains file registry via src/docm_registry.py. Persistent cross-session file tracking."
+      "description": "DocM maintains file registry via src/docm_registry.py. Persistent cross-session file tracking stored in ~/.claude/projects/.../memory/docm-file-registry.json. As of 2026-03-04: 98 files registered, 0 missing."
     },
     {
       "id": "docm-k-003",
       "title": "CLAUDE.md is auto-loaded — keep it canonical and current",
       "category": "critical",
-      "description": "CLAUDE.md is automatically loaded by Claude Code at session start. It is the single source of truth for agent rules, model routing, project structure, and build commands. When workflows or commands change, CLAUDE.md must be updated first. DocM is responsible for catching CLAUDE.md drift against code. Current gap: SM --type mcp|agent flag is not yet shown in the CLAUDE.md SM_TARGETS command example (added in sm_select_targets.py but CLAUDE.md shows only --limit --output-ids).",
+      "description": "CLAUDE.md is automatically loaded by Claude Code at session start. It is the single source of truth for agent rules, model routing, project structure, and build commands. When workflows or commands change, CLAUDE.md must be updated first. DocM is responsible for catching CLAUDE.md drift against code.",
       "date": "2026-03-05"
     },
     {
       "id": "docm-k-004",
-      "title": "SM --type flag: CLAUDE.md command example needs update",
+      "title": "SM --type flag: CLAUDE.md drift fixed 2026-03-04",
       "category": "doc-drift",
-      "description": "CLAUDE.md Build Commands shows: SM_TARGETS=$(python3 scripts/review/sm_select_targets.py --limit 100 --output-ids). This is incomplete — --type mcp|agent is now a supported and important flag. CLAUDE.md should show both the default form and the type-filtered form. DocM should update on next PM instruction.",
-      "date": "2026-03-05"
+      "status": "resolved",
+      "description": "CLAUDE.md Build Commands section updated to show all three SM_TARGETS forms: default (no type filter), --type mcp (MCP servers only), --type agent (agent skills only). Also added scripts/memory/ to CLAUDE.md Project Structure block. Drift was identified in docm-k-003/004 and resolved in this session.",
+      "date": "2026-03-04"
+    },
+    {
+      "id": "docm-k-005",
+      "title": "New scripts added 2026-03-04 — Global Quick Nav updated",
+      "category": "registry",
+      "description": "The following scripts were added to the project and registered in the DocM file registry and Global Quick Nav in roles/DOCUMENTATION_MANAGER.md: scripts/review/sm_select_targets.py, scripts/review/sm_evolve.py, scripts/review/tag_skillsmp.py, scripts/review/check_claude_trigger.py, scripts/review/check_git_trigger.py, scripts/memory/memm_health_check.py, scripts/enrich/retag_data_ai_bulk.py, scripts/enrich/retag_integ_bulk.py. All 9 memory/structured/*.json files also added to Quick Nav.",
+      "date": "2026-03-04"
     }
   ]
 }

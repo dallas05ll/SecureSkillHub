@@ -58,8 +58,9 @@ roles/                — agent role definition files (8 *_MANAGER.md files)
 scripts/crawl/        — crawl scripts (run_crawl, crawl_state, check_reachability, etc.)
 scripts/verify/       — verification scripts (run_verify_strict_5agent, run_verify_sample, etc.)
 scripts/build/        — build scripts (build_indexes, build_packages, build_priority, fix_data_quality)
-scripts/review/       — review scripts (skills_manager_review, health_check)
-scripts/enrich/       — enrichment scripts (enrich_stars, auto_tag)
+scripts/review/       — review scripts (skills_manager_review, health_check, sm_select_targets, sm_evolve)
+scripts/enrich/       — enrichment scripts (enrich_stars, auto_tag, retag_data_ai_bulk, retag_integ_bulk)
+scripts/memory/       — memory manager scripts (memm_health_check)
 scripts/secm/         — security manager scripts (secm_false_positive_audit, secm_pattern_test)
 data/skills/          — skill JSON files (source of truth)
 data/packages/        — source package definitions
@@ -127,6 +128,8 @@ python3 scripts/review/health_check.py                   # Skills manager dashbo
 python3 scripts/crawl/crawl_state.py show                # View crawl state for all hubs
 # Verification (MANDATORY flow: SM selects → VM executes)
 SM_TARGETS=$(python3 scripts/review/sm_select_targets.py --limit 100 --output-ids)
+SM_TARGETS=$(python3 scripts/review/sm_select_targets.py --limit 100 --type mcp --output-ids)   # MCP servers only
+SM_TARGETS=$(python3 scripts/review/sm_select_targets.py --limit 100 --type agent --output-ids) # Agent skills only
 .venv/bin/python scripts/verify/run_verify_strict_5agent.py --skill-ids "$SM_TARGETS"
 python3 scripts/build/build_indexes.py                   # Rebuild agent-access indexes (manifest, by-status, by-risk, verify-queue, lookup)
 ```

@@ -358,6 +358,315 @@ print(f'{pattern}: {fp}/{total} FP ({rate:.1f}%)')
 
 ---
 
+## Security Verification Reference
+
+> **This section is the definitive technical manual for how security verification works.**
+> All variable names, thresholds, and evaluation logic are taken directly from
+> `scripts/verify/run_verify_strict_5agent.py`. If this section and the code ever
+> conflict, the code wins and this section must be updated.
+
+### Threat Model
+
+A **real attack** against an MCP skill combines two ingredients:
+
+1. **Obfuscation** — hides the payload so reviewers (human or AI) cannot see it.
+2. **Injection** — delivers a malicious instruction to the consuming AI agent.
+
+Obfuscation without injection is suspicious coding style but has no delivery mechanism.
+Injection without dangerous obfuscation is visible to reviewers and overwhelmingly
+matches legitimate documentation (imperative instructions, tool descriptions).
+The auto-clear system is built on this principle.
+
+### Truly Dangerous Obfuscation (`TRULY_DANGEROUS_OBF`)
+
+Only three scanner `rule_id` values are considered genuinely dangerous obfuscation.
+All other obfuscation findings (hex escape sequences, unicode escapes, webpack chunks,
+protobuf binary descriptors) are scanner noise.
+
+```python
+# run_verify_strict_5agent.py line 118
+TRULY_DANGEROUS_OBF = {"regex_py_rot13", "regex_py_marshal_loads", "regex_py_chr_concat"}
+```
+
+| Rule ID | What It Detects | Why It Is Dangerous |
+|---------|----------------|---------------------|
+| `regex_py_rot13` | `codecs.decode(..., 'rot_13')` | Trivial string obfuscation used to hide payloads |
+| `regex_py_marshal_loads` | `marshal.loads(...)` | Deserializes arbitrary bytecode -- code execution vector |
+| `regex_py_chr_concat` | `chr(72)+chr(101)+...` concatenation | Hides strings character-by-character to evade pattern matching |
+
+`dangerous_obf_count` is computed at runtime by counting findings where
+`f.category == "obfuscation" and f.rule_id in TRULY_DANGEROUS_OBF`.
+
+### Hard-Block Rule
+
+Auto-clear is **blocked** when BOTH conditions are true simultaneously:
+
+```
+dangerous_obf_count > 0  AND  injection_patterns_count > 0
+```
+
+When blocked, `auto_clear_known_fp()` returns `(None, None, None)` -- the skill
+stays at whatever status the pipeline assigned (fail or manual_review) and escalates
+to PM for manual decision.
+
+**Rationale:** 600+ PM overrides confirmed zero real attacks with an obfuscation-only
+or injection-only pattern. The only credible threat signal is when both are present.
+
+### Auto-Clear Categories
+
+`auto_clear_known_fp()` (lines 93-197) checks categories in a fixed order. The first
+matching category wins and returns `(status="pass", reason, score=max(50, current))`.
+
+**Variables used by all categories:**
+
+| Variable | Source | Meaning |
+|----------|--------|---------|
+| `inj` | `scanner.injection_patterns_count` | Total injection pattern matches |
+| `obf_hr` | `scanner.obfuscation_high_risk_count` | Total high-risk obfuscation matches |
+| `total` | `len(scanner.findings)` | All scanner findings of any type |
+| `files_scanned` | `scanner.total_files_scanned` | Number of files the scanner analyzed |
+| `dangerous_obf_count` | Computed from findings | Count of findings with `rule_id in TRULY_DANGEROUS_OBF` |
+| `org` | Extracted from `repo_url` | Lowercase GitHub organization name |
+
+#### Evaluation Order (CRITICAL -- order matters)
+
+```
+1. Hard-block check   → dangerous_obf > 0 AND inj > 0 → STOP, no auto-clear
+2. Cat 1              → inj == 0 AND obf_hr == 0
+3. Cat 2              → obf_hr > 0 AND inj == 0
+4. Cat 3              → (dead code, subsumed by Cat 2)
+5. Cat 10             → org in PM_VERIFIED_ORGS
+6. Early exit         → if inj == 0: return None (no auto-clear needed)
+7. Cat 9              → total >= 500 AND inj <= 49
+8. Cat 11             → inj <= 8 AND total < 500
+9. Cat 12             → inj <= 49 AND dangerous_obf_count == 0
+10. No match          → return None → escalates to PM
+```
+
+#### Cat 1: Clean Profile
+
+```
+Condition:  inj == 0 AND obf_hr == 0
+Result:     pass, score = max(50, current_score)
+```
+
+Handles skills stuck in manual_review or fail purely due to scoring formula edge
+cases (e.g., B-miss penalties, scanner severity penalties) when the profile is
+genuinely clean -- zero injection, zero high-risk obfuscation.
+
+#### Cat 2: Obfuscation-Only (Zero Injection)
+
+```
+Condition:  obf_hr > 0 AND inj == 0
+Result:     pass, score = max(50, current_score)
+```
+
+Clears ALL obfuscation-only cases regardless of file count or dangerous obfuscation
+count. Even if `dangerous_obf_count > 0` (rot13, marshal, chr_concat present), the
+skill passes because without injection there is no delivery mechanism.
+
+**Critical nuance:** The hard-block fires before Cat 2, so if `dangerous_obf > 0 AND
+inj > 0`, Cat 2 is never reached. Cat 2 only sees cases where `inj == 0`.
+
+**Evidence:** 134+ PM overrides, all obfuscation-only, zero real attacks.
+
+#### Cat 3: Large-Repo Obfuscation (Dead Code)
+
+```
+Condition:  obf_hr > 0 AND inj == 0 AND files_scanned >= 200
+Result:     pass, score = max(50, current_score)
+```
+
+This category is **dead code**. Cat 2 (which has identical first two conditions but
+no `files_scanned` requirement) always fires first. Cat 3 can never be reached.
+Documented here so no one adds a `files_scanned` floor to Cat 2 thinking Cat 3
+handles large repos separately.
+
+#### Cat 10: PM-Verified Organization
+
+```
+Condition:  org in PM_VERIFIED_ORGS
+Result:     pass, score = max(50, current_score)
+```
+
+Passes skills from internet-verified major OSS and enterprise organizations regardless
+of injection or obfuscation counts. These are established organizations where security
+context is well-known. See the full org list below.
+
+#### Cat 9: Monorepo Injection Ratio
+
+```
+Condition:  total >= 500 AND inj <= 49
+Result:     pass, score = max(50, current_score)
+```
+
+Handles full-project repos (common with SkillsMP source) where the scanner analyzes
+the entire codebase. Injection patterns buried in a sea of 500+ total findings are
+scanner noise from documentation, not targeted attacks.
+
+**Note:** This is NOT the same as the scanner-level skip for security detector repos
+(secm-p-004). Different mechanism, different scope.
+
+#### Cat 11: Incidental Low-Count Injection
+
+```
+Condition:  inj <= 8 AND total < 500
+Result:     pass, score = max(50, current_score)
+```
+
+Handles small-to-medium repos where a small number of injection pattern matches
+appear. These are overwhelmingly legitimate imperative documentation (e.g.,
+`hidden_instruction` matching "you must respond in JSON format").
+
+#### Cat 12: Medium Injection Without Dangerous Obfuscation
+
+```
+Condition:  inj <= 49 AND dangerous_obf_count == 0
+Result:     pass, score = max(50, current_score)
+```
+
+The final catch-all. Medium injection counts (9-49) in repos with no truly dangerous
+obfuscation. Without dangerous obfuscation to hide payloads, injection matches are
+FPs from tool descriptions and documentation.
+
+**Gap:** Skills with `inj >= 50 AND dangerous_obf == 0` still reach PM review. This
+is the remaining edge case (e.g., supabase monorepo with 65 injection patterns was
+resolved by adding supabase to PM_VERIFIED_ORGS).
+
+### PM-Verified Organizations (`PM_VERIFIED_ORGS`)
+
+47 organizations as of 2026-03-04. Defined at `run_verify_strict_5agent.py` lines 62-81.
+Each was internet-verified by PM as a legitimate OSS or enterprise organization.
+
+```
+mongodb-js        minimax-ai        splx-ai           neondatabase
+controlplaneio-fluxcd  openops-cloud  stacklok       neo4j-contrib
+neo4j             tencentcloudbase  azure-samples     aws-samples
+docker            redis             ibm               github
+millionco         mrexodia          opensolon         waldzellai
+scopecraft        fiddlecube        tomtom-international  slowmist
+n8n-io            jumpserver        vercel            awslabs
+microsoft         1panel-dev        jlowin            mindsdb
+anthropics        klavis-ai         orchestra-research
+elizaos           netalertx         inkeep            zenobi-us
+jetbrains         elastic           tryghost          flashinfer-ai
+remotion-dev      dotnet            lobehub           mlflow
+nangohq           getsentry         supabase
+```
+
+**How orgs get added:** When a skill with `inj >= 50` and no auto-clear match reaches
+PM review, PM investigates the GitHub organization. If the org is a well-known
+legitimate entity, PM adds it to `PM_VERIFIED_ORGS` and the skill auto-clears on
+the next run via Cat 10.
+
+### Pass Threshold and Scoring
+
+#### Score Computation (Agent D)
+
+```
+Starting score:  100
+- Doc quality:   -(10 - doc_quality_score)  (0-10 deduction)
+- B-miss:        5 * max(0, len(missed) - 1)  (first miss is free)
+- Scanner:       min(40, high*2 + medium + low//2)
+- Combined cap:  min(50, b_miss + scanner)  (ensures score >= 50 is achievable)
+- Undocumented:  -5 per undocumented capability (network, system, file, env)
+```
+
+#### Pass Threshold
+
+```
+score >= 70  AND  risk != CRITICAL  →  PASS
+```
+
+Lowered from 80. Evidence: PM overrode 76 skills with scores 70-79, risk=MEDIUM,
+0 injection/obfuscation/critical findings. These are legitimate MCP servers whose
+documented capabilities (network, file, env) produce expected score deductions.
+
+#### Safety Overrides (Agent D, post-scoring)
+
+These fire after the score/status determination and can only make things worse:
+
+| Condition | Score Cap | Status | Risk |
+|-----------|-----------|--------|------|
+| `critical_findings > 0` | 40 | fail | HIGH (minimum) |
+| `obfuscation_high_risk_count > 0` | 15 | fail | CRITICAL |
+| `injection_patterns_count > 0` | 10 | fail | CRITICAL |
+
+#### Agent E Approval Thresholds
+
+Agent E (supervisor) applies its own gates after Agent D scoring:
+
+| Score Range | Agent E Decision |
+|-------------|-----------------|
+| `< 50` | `approved=False`, `status=fail` |
+| `50-79` | `approved=False`, `status=manual_review` |
+| `>= 80` | Preserves Agent D status |
+
+Agent E also enforces hard overrides for `obfuscation_high_risk_count > 0` and
+`injection_patterns_count > 0` (forced fail, approved=False).
+
+**Invariant:** `approved=True` requires `status == pass`. Agent E enforces this.
+
+#### Auto-Clear Application Point
+
+Auto-clear runs AFTER the full pipeline (A -> B -> C* -> D -> E). It inspects the
+final scanner and scorer outputs. If the pipeline assigned fail or manual_review but
+the findings match a known FP category, auto-clear overrides to pass with
+`score = max(50, current)` and `risk = "medium"`.
+
+The auto-clear reason is recorded in the skill's `agent_audit.auto_clear` field:
+```json
+{
+  "auto_clear": {
+    "applied": true,
+    "reason": "Auto-clear Cat 2: obfuscation-only (3 obf_hr, 0 dangerous, 0 inj, 42 files)",
+    "original_status": "fail",
+    "original_score": 10
+  }
+}
+```
+
+### Agent Skill Security Profile
+
+Agent skills (`skill_type: agent_skill`, typically from SkillsMP source) have a
+distinct security profile:
+
+- **Larger repos** -- agent skills often link to full project repositories (e.g.,
+  `jetbrains/intellij-community` with 182K files), not isolated MCP server repos.
+- **Bundled dependencies** -- repos include `node_modules`, vendor directories, and
+  compiled assets that inflate obfuscation hit counts with hex/unicode escapes.
+- **Install counts as priority** -- agent skills use install counts (stored in tags)
+  rather than GitHub stars as a quality signal.
+- **Instruction-based risk** -- the primary threat vector is prompt injection in
+  SKILL.md instruction files, not code execution.
+
+Cat 2 (obfuscation-only, 0 injection) handles these correctly. No special-case logic
+is needed. 128 S-tier agent skills verified, all passed cleanly.
+
+### False Positive History
+
+**The journey from 100% FP fail rate to 0%:**
+
+| Phase | Date | State | Key Fix |
+|-------|------|-------|---------|
+| Initial | 2026-02-28 | 100% of fails were FPs | Scanner scoring bug: `severity_counts`/`category_counts` not in ScannerOutput model |
+| Scoring fix | 2026-02-28 | ~60% FP rate | `compute_scan_stats()` added; scanner crash bypass fixed (fail-safe `injection_patterns_count=1`) |
+| Pattern tightening | 2026-03-01 | ~30% FP rate | 6 injection patterns tightened (hidden_instruction, system_override, jailbreak, act_as, you_are_now, markdown_injection) |
+| Skip rules | 2026-03-01 | ~15% FP rate | 3 scanner skip rules (minified JS, markdown/txt, test dirs) + vendor/ exclusion |
+| Scoring rebalance | 2026-03-02 | ~5% FP rate | B-miss 15->5 (first free), combined cap 50, dangerous_calls->MEDIUM, penalty cap 40, pass threshold 80->70 |
+| Auto-clear v1 | 2026-03-03 | ~1% FP rate | Cat 1/2/3/9/10/11 implemented; PM_VERIFIED_ORGS (35 orgs) |
+| Auto-clear v2 | 2026-03-04 | 0% FP fail rate | Cat 12 added, hard-block refined (TRULY_DANGEROUS_OBF), 47 orgs, empty scan_report bug fixed |
+| Current | 2026-03-04 | **3,619 verified, 0 fail, 0 MR** | 650+ PM overrides baked into auto-clear rules |
+
+**Total PM overrides analyzed:** 650+ across 11 batches. Breakdown: 195 fail-to-pass,
+326 MR-to-pass, 29 zero-injection FPs, 15 string overrides, remainder from auto-clear
+refinement. Every override was individually investigated by PM.
+
+**7 skills remain in permanent manual_review** (dual-use tools, not FPs):
+Viper C2, docker-expert, hacking-lists, DVWA, pilot-shell, claude-night-market, marketplace.
+
+---
+
 ## Owned Files
 
 | File/Path | Purpose |

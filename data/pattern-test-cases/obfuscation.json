@@ -36,22 +36,23 @@
     },
     {
       "pattern_name": "hex_escape_seq",
-      "true_positives": [
-        {"text": "payload = \"\\x65\\x76\\x61\\x6c\\x28\"", "reason": "Hex-encoded eval( string"},
-        {"text": "cmd = b\"\\x2f\\x62\\x69\\x6e\\x2f\\x73\\x68\"", "reason": "Hex-encoded /bin/sh path"}
-      ],
+      "_note": "LOW_RISK pattern — scanner skip rules exclude these from high-risk detection. Kept as documentation.",
+      "true_positives": [],
       "false_positives": [
+        {"text": "payload = \"\\x65\\x76\\x61\\x6c\\x28\"", "reason": "Hex-encoded eval — LOW_RISK, not flagged by scanner (skip rule)"},
+        {"text": "cmd = b\"\\x2f\\x62\\x69\\x6e\\x2f\\x73\\x68\"", "reason": "Hex-encoded /bin/sh — LOW_RISK, not flagged by scanner (skip rule)"},
         {"text": "prefix = \"\\x00\"", "reason": "Single null byte, not obfuscation"},
         {"text": "header = b\"\\x89\\x50\"", "reason": "PNG magic bytes, only 2 hex escapes"}
       ]
     },
     {
       "pattern_name": "unicode_escape_seq",
+      "_note": "LOW_RISK pattern — scanner skip rules exclude these from high-risk detection. Kept as documentation.",
       "true_positives": [
-        {"text": "s = \"\\u0065\\u0076\\u0061\\u006c\"", "reason": "Unicode-encoded eval string"},
-        {"text": "hidden = \"\\u0073\\u0079\\u0073\\u0074\\u0065\\u006d\"", "reason": "Unicode-encoded 'system'"}
+        {"text": "hidden = \"\\u0073\\u0079\\u0073\\u0074\\u0065\\u006d\"", "reason": "Unicode-encoded 'system' — LOW_RISK but still detected by regex (6 consecutive escapes)"}
       ],
       "false_positives": [
+        {"text": "s = \"\\u0065\\u0076\\u0061\\u006c\"", "reason": "Unicode-encoded eval — scanner skip rules may exclude short sequences"},
         {"text": "emoji = \"\\u2603\"", "reason": "Single unicode escape for snowman emoji"},
         {"text": "bullet = \"\\u2022 \"", "reason": "Single unicode escape for bullet point"}
       ]

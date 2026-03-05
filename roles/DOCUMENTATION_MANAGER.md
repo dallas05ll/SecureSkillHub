@@ -269,9 +269,18 @@ This is the authoritative map of every file in the project. Keep it current.
 | **`scripts/review/`** | | |
 | `scripts/review/skills_manager_review.py` | Dual-agent SM-A/SM-B review orchestrator | SM |
 | `scripts/review/health_check.py` | Skills manager dashboard + logging | SM |
+| `scripts/review/sm_select_targets.py` | SM target selection for VM — selects unverified skills by priority/type/strategy | SM |
+| `scripts/review/sm_evolve.py` | SM self-evolve loop — learns from verification runs, writes to SM structured memory | SM |
+| `scripts/review/tag_skillsmp.py` | Bulk tagger for skillsmp skills with only `agent-skills` tag (adds domain sub-tags) | SM/WS1 |
+| `scripts/review/check_claude_trigger.py` | Diagnostic: identifies skills tagged data-ai solely due to `claude` keyword match | SM |
+| `scripts/review/check_git_trigger.py` | Diagnostic: identifies skills tagged dev-git solely due to `git` in repo URL | SM |
+| **`scripts/memory/`** | | |
+| `scripts/memory/memm_health_check.py` | MemM HEALTH protocol — validates all structured memory files, checks for drift/rot/orphans | MemM |
 | **`scripts/enrich/`** | | |
 | `scripts/enrich/enrich_stars.py` | Enrich skills with current GitHub star counts | WS1/SM |
 | `scripts/enrich/auto_tag.py` | Auto-tag skills by content analysis | WS1/SM |
+| `scripts/enrich/retag_data_ai_bulk.py` | Bulk add data-ai-rag/data-ai-agents sub-tags to all data-ai skills | WS1/SM |
+| `scripts/enrich/retag_integ_bulk.py` | Bulk add integrations-* sub-tags to all integ/integrations skills | WS1/SM |
 | **`scripts/secm/`** | | |
 | `scripts/secm/secm_false_positive_audit.py` | SecM false positive investigation CLI | SecM |
 | `scripts/secm/secm_pattern_test.py` | SecM pattern regression test suite | SecM |
@@ -430,6 +439,20 @@ This is the authoritative map of every file in the project. Keep it current.
 | `data/pm-review-2026-02-28.md` | PM manual review decisions |
 | `data/secm-audit-log.json` | SecM audit trail (false positive / pattern audits) |
 | `data/pattern-test-cases/` | Test corpus for scanner pattern regression testing |
+
+### `memory/` — Structured Agent Memory (Layer 1)
+
+| Path | Brief | Owner |
+|------|-------|-------|
+| `memory/structured/vm-corrections.json` | VM structured memory: 16 scoring bugs, FP patterns, safety rules | VM |
+| `memory/structured/secm-patterns.json` | SecM structured memory: 12 FP categories, workflow rules, pattern guidance | SecM |
+| `memory/structured/sm-health.json` | SM structured memory: 9 catalog health rules (crawl, dedup, catalog state) | SM |
+| `memory/structured/pm-decisions.json` | PM structured memory: 5 architectural decisions (workflow, teaching protocol) | PM |
+| `memory/structured/axm-patterns.json` | AXM structured memory: 2 patterns (packages, agent entry) | AXM |
+| `memory/structured/docm-knowledge.json` | DocM structured memory: doc-drift rules, file registry knowledge | DocM |
+| `memory/structured/dplm-history.json` | DeployM structured memory: 1 deploy protocol rule | DeployM |
+| `memory/structured/frtm-fixes.json` | FrontendM structured memory: 2 rules (badges, toggles) | FrontendM |
+| `memory/structured/memm-meta.json` | MemM structured memory: 4 rules + metrics + migration record | MemM |
 
 ### `.github/` — CI/CD
 

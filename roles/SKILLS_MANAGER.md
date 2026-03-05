@@ -55,19 +55,26 @@ Monitor both crawl and verification pipelines via `data/skill-manager-log.json`:
 
 ### 4. Verification Priority Management
 
-Decide what gets verified next based on the star-tier system:
+Decide what gets verified next using the unified priority tier system. The tier system applies to both MCP servers (ranked by GitHub stars) and agent skills (ranked by install count).
 
-| Tier | Stars | Priority | Action |
-|------|-------|----------|--------|
-| Tier 1 | 1,000+ | Critical | Verify immediately |
-| Tier 2 | 100-999 | High | Verify next |
-| Tier 3 | 10-99 | Medium | Verify as bandwidth allows |
-| Tier 4 | 1-9 | Low | Batch verification |
-| Tier 5 | 0 | Lowest | Low priority |
+| Tier | Priority Score | Priority | Action |
+|------|---------------|----------|--------|
+| S | 10,000+ | Critical | Verify immediately — **100% COMPLETE (193/193)** |
+| A | 1,000-9,999 | High | Verify next — MCP 99%+, Agent 1% (4/394) |
+| B | 100-999 | Medium | Verify as bandwidth allows |
+| C | 10-99 | Low | Batch verification |
+| D | 1-9 | Lowest | After higher tiers |
+| E | 0 | Background | Only after all higher tiers done |
+
+**Priority score** = `max(stars, installs)` — unified ranking across both catalogs.
 
 ```bash
 # Check current priority queue
 python3 scripts/build/build_indexes.py --only verify-queue --only by-status
+
+# SM target selection (MANDATORY before any VM run)
+SM_TARGETS=$(python3 scripts/review/sm_select_targets.py --limit 100 --output-ids)
+.venv/bin/python scripts/verify/run_verify_strict_5agent.py --skill-ids "$SM_TARGETS"
 ```
 
 ### 5. Package Quality Oversight
@@ -112,6 +119,124 @@ for f in sorted(pathlib.Path('data/packages').glob('*.json')):
         print(f'WARNING: {f.stem} has {len(skills)} skills (out of 5-15 range)')
 "
 ```
+
+---
+
+## Collection Management
+
+SM manages a dual catalog of 11,098 skills across two distinct skill types. Each type has different metadata, priority signals, and coverage gaps.
+
+### Dual Catalog Architecture
+
+| Attribute | MCP Servers | Agent Skills |
+|-----------|------------|--------------|
+| **Total** | 6,297 | 4,801 |
+| **Priority signal** | GitHub stars | Install count |
+| **Tag identifier** | No `agent-skills` tag | Has `agent-skills` tag |
+| **Metadata fields** | `stars`, `license`, `forks`, `trust_level` | `installs` (extracted from tags) |
+| **Sources** | mcp.so, glama.ai, skills.sh, GitHub search | skillsmp (Claude Skills Marketplace) |
+| **Verification coverage** | ~58% (S-D tiers 99%+, E-tier 2.2%) | ~16% (S-tier 100%, A-tier 1%) |
+
+**Structural note:** Agent skills were imported from skillsmp with install counts originally hidden in tags as `installs:N` with `stars=0`. The `installs` field has been extracted to a proper top-level field. The `priority_score()` function in `sm_select_targets.py` normalizes both signals via `max(stars, installs)`.
+
+### Current Coverage State (as of 2026-03-05)
+
+| Tier | Score Range | MCP Coverage | Agent Coverage | Combined |
+|------|-----------|-------------|---------------|----------|
+| **S** | 10,000+ | 35/35 (100%) | 158/158 (100%) | **193/193 = 100% COMPLETE** |
+| **A** | 1,000-9,999 | 99%+ | 1% (4/394) | **#1 next priority** |
+| **B** | 100-999 | 99%+ | Low | In progress |
+| **C** | 10-99 | 99%+ | Low | In progress |
+| **D** | 1-9 | 99%+ | Low | In progress |
+| **E** | 0 | 2.2% | Low | Background |
+
+**Overall:** 4,475 pass / 0 fail / 0 manual_review / 6,623 unverified = **40.3% coverage**
+
+**Next priority:** Agent A-tier (10K-100K installs). Only 4 of 394 agent A-tier skills are verified. Use `--type agent` batches until 50%+ coverage is achieved.
+
+### Install Tier Distribution (Agent Skills)
+
+| Tier | Installs | Count | Status |
+|------|---------|-------|--------|
+| Mega | 100,000+ | 8 | Part of S-tier, 100% verified |
+| High | 10,000-99,999 | 158 | S-tier boundary, 100% verified |
+| Mid | 1,000-9,999 | 611 | A-tier, 1% verified |
+| Low | 100-999 | 1,791 | B-tier, mostly unverified |
+| Minimal | 0-99 | 2,233 | C-E tiers |
+
+### Target Selection Script (`scripts/review/sm_select_targets.py`)
+
+This is SM's primary tool for selecting verification targets. It replaces manual tier-based selection with automated, logged, reproducible target lists.
+
+**Capabilities:**
+
+| Flag | Purpose | Example |
+|------|---------|---------|
+| `--limit N` | Number of targets to select | `--limit 100` |
+| `--strategy stars` | Pure priority sort (stars for MCP, installs for agent) | Best for closing high-value gaps |
+| `--strategy balanced` | 60% priority + 25% category coverage + 15% type balance | Default; ensures diversity |
+| `--type mcp` | MCP servers only | Focus on MCP catalog |
+| `--type agent` | Agent skills only | Focus on agent catalog |
+| `--output-ids` | Comma-separated IDs (for piping to VM) | Required for VM handoff |
+| `--no-log` | Skip logging to `skill-manager-log.json` | Dry-run / debugging |
+
+**How `priority_score()` works:**
+```python
+def priority_score(skill: dict) -> int:
+    stars = int(skill.get("stars") or 0)
+    installs = int(skill.get("installs") or 0)
+    return max(stars, installs)
+```
+This treats stars and installs as equivalent usage signals. Top MCP: ~350K stars. Top agent: ~243K installs.
+
+**Balanced strategy allocation:**
+- 60% highest priority score (across all categories)
+- 25% category round-robin (dev, data, integ, util, security, prod)
+- 15% type balance (ensures MCP/agent mix if both present)
+
+**Display output:** When run without `--output-ids`, shows separate MCP and Agent tier breakdowns with per-type priority metrics (stars for MCP, installs for agent).
+
+**Standard usage:**
+```bash
+# Select 100 agent skills for verification (next priority)
+SM_TARGETS=$(python3 scripts/review/sm_select_targets.py --type agent --limit 100 --output-ids)
+.venv/bin/python scripts/verify/run_verify_strict_5agent.py --skill-ids "$SM_TARGETS"
+
+# Select 100 balanced (mixed MCP + agent)
+SM_TARGETS=$(python3 scripts/review/sm_select_targets.py --limit 100 --output-ids)
+
+# Preview selection without committing
+python3 scripts/review/sm_select_targets.py --limit 100 --no-log
+```
+
+### SM Workflow: Mandatory Three-Party Verification
+
+```
+PM triggers → SM selects targets → VM executes pipeline → SM reviews results → PM approves
+```
+
+**This flow is non-negotiable.** It is enforced in:
+- `CLAUDE.md` (project rules)
+- `roles/VERIFICATION_MANAGER.md` (VM refuses to run without SM IDs)
+- `scripts/verify/run_verify_strict_5agent.py` (requires `--skill-ids`)
+
+**Step-by-step:**
+
+1. **PM triggers:** "Run next verification batch"
+2. **SM selects:** `python3 scripts/review/sm_select_targets.py --limit 100 --output-ids` (logged to `skill-manager-log.json`)
+3. **VM executes:** `.venv/bin/python scripts/verify/run_verify_strict_5agent.py --skill-ids "$SM_TARGETS"`
+4. **VM reports:** Hands run report path to SM
+5. **SM reviews:** `python3 scripts/review/skills_manager_review.py --run-report <path>` (SM-A + SM-B)
+6. **SM escalates:** `manual_review` or disagreements go to PM
+7. **PM decides:** Final pass/fail/keep on escalated skills
+8. **PM rebuilds:** `build_json` + `build_html` + `build_indexes`
+9. **PM deploys:** Instructs DeployM to commit + deploy
+
+**Rules:**
+- SM MUST select before VM runs (VM cannot self-select with `--limit`)
+- VM MUST use `--skill-ids` from SM (never `--only-unverified` alone)
+- No single role can both execute and approve (three-party: VM runs, SM reviews, PM approves)
+- SM should remind PM if rebuild (step 8) has not happened after decisions are made
 
 ---
 
@@ -245,49 +370,34 @@ Without this step, the site shows stale data. SM should remind PM if rebuild has
 
 **SM is the ONLY role that selects verification targets.** PM triggers, but PM NEVER picks skill_ids directly. VM NEVER uses `--limit N` without SM's list.
 
+**Use `sm_select_targets.py` for all target selection** (see [Collection Management](#collection-management) for full script documentation).
+
 **When PM requests a verification batch, SM:**
 
-1. Reads the verify-queue: `python3 scripts/build/build_indexes.py --only verify-queue`
-2. Selects skills by tier priority (highest tier first, then by stars within tier):
-   - Tier 1 (1000+★) → verify ALL immediately
-   - Tier 2 (100-999★) → verify ALL next
-   - Tier 3 (10-99★) → verify by descending stars
-   - Tier 4 (1-9★) → batch after Tier 3 is done
-   - Tier 5 (0★) → LAST priority, only after Tiers 1-4 are complete
-3. Produces a Verification Request:
+1. Runs the target selection script with appropriate filters:
+   ```bash
+   # Default: balanced strategy, mixed MCP + agent
+   SM_TARGETS=$(python3 scripts/review/sm_select_targets.py --limit 100 --output-ids)
 
-```
-SM Verification Request:
-  skill_ids: [id1, id2, ..., idN]  ← EXPLICIT list, not --only-unverified
-  verification_level: full_pipeline
-  limit: N
-  tier_breakdown: {tier_3: 80, tier_4: 20}
-  priority_reason: "Tier 3 (10-99★) highest available, sorted by stars desc"
-  excluded: [ids skipped because repo_unavailable]
-```
+   # Agent-only (current priority: A-tier agent gap)
+   SM_TARGETS=$(python3 scripts/review/sm_select_targets.py --type agent --limit 100 --output-ids)
+
+   # MCP-only
+   SM_TARGETS=$(python3 scripts/review/sm_select_targets.py --type mcp --limit 100 --output-ids)
+
+   # Pure star/install sort (no category balancing)
+   SM_TARGETS=$(python3 scripts/review/sm_select_targets.py --strategy stars --limit 100 --output-ids)
+   ```
+2. Reviews the selection output (run without `--output-ids` first to preview tier breakdown)
+3. Hands the ID list to VM: `.venv/bin/python scripts/verify/run_verify_strict_5agent.py --skill-ids "$SM_TARGETS"`
 
 **Selection rules:**
-- NEVER include 0-star skills if ANY higher-tier skills remain unverified
-- NEVER use `--only-unverified` alone — always produce explicit skill_ids
-- ALWAYS sort by stars descending within each tier
-- ALWAYS exclude `repo_unavailable` skills unless PM specifically requests re-check
-- Include tier_breakdown so PM knows the quality of the batch
-
-**Quick selection script:**
-```bash
-python3 -c "
-import json
-q = json.load(open('site/api/indexes/verify-queue.json'))
-# Select from highest tier with available skills
-for tier in ['tier_1_1000plus', 'tier_2_100_999', 'tier_3_10_99', 'tier_4_1_9', 'tier_5_0']:
-    items = q.get(tier, [])
-    if items:
-        ids = [i['id'] for i in items[:100]]  # adjust limit
-        print(f'Selected {len(ids)} from {tier}')
-        print(','.join(ids))
-        break
-"
-```
+- NEVER include 0-score skills if ANY higher-tier skills remain unverified
+- NEVER use `--only-unverified` alone — always produce explicit skill_ids via `sm_select_targets.py`
+- Script automatically sorts by `priority_score()` descending within each tier
+- Script automatically excludes `repo_unavailable` and `clone_failure` skills
+- Script logs every selection to `data/skill-manager-log.json` (use `--no-log` for dry runs)
+- Use `--type agent` to close the A-tier agent gap (current #1 priority)
 
 VM executes using SM's exact skill_ids and returns the run report path to SM for review.
 
@@ -297,6 +407,7 @@ VM executes using SM's exact skill_ids and returns the run report path to SM for
 
 | File/Script | Purpose |
 |-------------|---------|
+| `scripts/review/sm_select_targets.py` | **Target selection for verification** (--type, --strategy, --output-ids) |
 | `scripts/review/skills_manager_review.py` | Dual-agent review orchestrator |
 | `scripts/review/health_check.py` | Collection health dashboard |
 | `scripts/build/fix_data_quality.py` | Data quality cleanup |
@@ -358,6 +469,11 @@ SM formally owns the WS1 crawl pipeline — selecting crawl targets, monitoring 
 ## Quick Reference Commands
 
 ```bash
+# Target selection (MANDATORY before VM runs)
+SM_TARGETS=$(python3 scripts/review/sm_select_targets.py --limit 100 --output-ids)
+SM_TARGETS=$(python3 scripts/review/sm_select_targets.py --type agent --limit 100 --output-ids)
+python3 scripts/review/sm_select_targets.py --limit 100 --no-log  # preview without logging
+
 # Health dashboard
 python3 scripts/review/health_check.py
 python3 scripts/review/health_check.py --history 5
