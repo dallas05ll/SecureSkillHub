@@ -50,6 +50,27 @@
       "category": "catalog",
       "description": "SM selection uses priority_score() = max(stars, installs). MCP skills prioritized by GitHub stars, agent skills by skillsmp install counts. Both signals indicate real usage. Extracted installs from tags into proper field for 4,801 agent skills.",
       "date": "2026-03-04"
+    },
+    {
+      "id": "pm-d-008",
+      "title": "SM --type filter: separate MCP vs agent catalog targeting",
+      "category": "workflow",
+      "description": "sm_select_targets.py --type mcp|agent allows SM to target one catalog exclusively. Required because agent skills use installs (not stars), have different tier thresholds, and have dramatically different coverage gaps. Without --type, mixed batches under-serve agent catalog. Use --type agent until agent A-tier reaches 50%+ coverage.",
+      "date": "2026-03-05"
+    },
+    {
+      "id": "pm-d-009",
+      "title": "S-tier 100% complete — first tier milestone",
+      "category": "milestone",
+      "description": "As of 2026-03-05, all S-tier skills are verified: 35 MCP (10K+ stars) + 158 agent (100K+ installs) = 193 total. This is the first tier to reach 100% coverage. Validates the agent-first verification strategy. Next target: A-tier agent skills (10K–100K installs, ~1% coverage, 4/394 verified).",
+      "date": "2026-03-05",
+      "data": {
+        "s_tier_mcp": 35,
+        "s_tier_agent": 158,
+        "s_tier_total": 193,
+        "s_tier_coverage_pct": 100.0,
+        "next_target": "A-tier agent (10K-100K installs), target 50%+"
+      }
     }
   ]
 }

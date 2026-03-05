@@ -7,19 +7,263 @@
   "skill_type": "agent_skill",
   "owner": "quickwit-oss",
   "stars": 0,
-  "primary_language": "unknown",
+  "primary_language": "rust",
   "tags": [
     "agent-skills",
     "installs:10907",
-    "dev"
+    "dev",
+    "status-pass"
   ],
-  "verification_status": "unverified",
-  "overall_score": 0,
-  "risk_level": "info",
-  "verified_commit": null,
+  "verification_status": "pass",
+  "overall_score": 55,
+  "risk_level": "medium",
+  "verified_commit": "0915a37b22c479a5874783fd70b5892d4ae38086",
   "scan_summary": null,
   "repo_status": "available",
   "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
   "repo_check_error": null,
-  "installs": 10907
+  "installs": 10907,
+  "scan_date": "2026-03-05T03:06:30Z",
+  "findings_summary": {
+    "scanner_findings": 156,
+    "dangerous_calls": 13,
+    "network_ops": 15,
+    "file_ops": 11,
+    "env_access": 2,
+    "obfuscation": 0,
+    "injection_patterns": 0,
+    "mismatches": 0,
+    "undocumented_capabilities": 0,
+    "supervisor_approved": false,
+    "supervisor_confidence": 55
+  },
+  "scan_report": {
+    "total_findings": 156,
+    "injection_patterns_count": 0,
+    "obfuscation_count": 0,
+    "obfuscation_high_risk_count": 0,
+    "dangerous_calls_count": 13,
+    "severity_counts": {
+      "critical": 0,
+      "high": 128,
+      "medium": 17,
+      "low": 11,
+      "info": 0
+    },
+    "category_counts": {
+      "dangerous_calls": 13,
+      "suspicious_urls": 115,
+      "file_ops": 11,
+      "env_access": 2,
+      "network_ops": 15
+    },
+    "top_findings": [
+      {
+        "rule_id": "regex_shell_backtick_exec",
+        "severity": "high",
+        "category": "dangerous_calls",
+        "file": "install.sh",
+        "line": 137
+      },
+      {
+        "rule_id": "regex_localhost_non_std",
+        "severity": "high",
+        "category": "suspicious_urls",
+        "file": "CONTRIBUTING.md",
+        "line": 62
+      },
+      {
+        "rule_id": "regex_localhost_non_std",
+        "severity": "high",
+        "category": "suspicious_urls",
+        "file": "CONTRIBUTING.md",
+        "line": 81
+      },
+      {
+        "rule_id": "regex_localhost_non_std",
+        "severity": "high",
+        "category": "suspicious_urls",
+        "file": "CONTRIBUTING.md",
+        "line": 85
+      },
+      {
+        "rule_id": "regex_localhost_non_std",
+        "severity": "high",
+        "category": "suspicious_urls",
+        "file": "docker-compose.yml",
+        "line": 45
+      },
+      {
+        "rule_id": "regex_localhost_non_std",
+        "severity": "high",
+        "category": "suspicious_urls",
+        "file": "config/quickwit.yaml",
+        "line": 39
+      },
+      {
+        "rule_id": "regex_py_open",
+        "severity": "low",
+        "category": "file_ops",
+        "file": "config/tutorials/stackoverflow/send_messages_to_pulsar.py",
+        "line": 7
+      },
+      {
+        "rule_id": "regex_raw_ip_url",
+        "severity": "high",
+        "category": "suspicious_urls",
+        "file": "config/tutorials/vector-otel-logs/vector.toml",
+        "line": 49
+      },
+      {
+        "rule_id": "regex_generic_api_key",
+        "severity": "medium",
+        "category": "env_access",
+        "file": "distribution/ecs/README.md",
+        "line": 133
+      },
+      {
+        "rule_id": "regex_raw_ip_url",
+        "severity": "high",
+        "category": "suspicious_urls",
+        "file": "docs/configuration/storage-config.md",
+        "line": 138
+      },
+      {
+        "rule_id": "regex_raw_ip_url",
+        "severity": "high",
+        "category": "suspicious_urls",
+        "file": "docs/configuration/storage-config.md",
+        "line": 149
+      },
+      {
+        "rule_id": "regex_raw_ip_url",
+        "severity": "high",
+        "category": "suspicious_urls",
+        "file": "docs/internals/template-index.md",
+        "line": 22
+      },
+      {
+        "rule_id": "regex_raw_ip_url",
+        "severity": "high",
+        "category": "suspicious_urls",
+        "file": "docs/internals/template-index.md",
+        "line": 25
+      },
+      {
+        "rule_id": "regex_localhost_non_std",
+        "severity": "high",
+        "category": "suspicious_urls",
+        "file": "docs/deployment/kubernetes/gke.md",
+        "line": 88
+      },
+      {
+        "rule_id": "regex_localhost_non_std",
+        "severity": "high",
+        "category": "suspicious_urls",
+        "file": "docs/deployment/kubernetes/glasskube.md",
+        "line": 41
+      },
+      {
+        "rule_id": "regex_raw_ip_url",
+        "severity": "high",
+        "category": "suspicious_urls",
+        "file": "docs/distributed-tracing/plug-quickwit-to-jaeger.md",
+        "line": 17
+      },
+      {
+        "rule_id": "regex_localhost_non_std",
+        "severity": "high",
+        "category": "suspicious_urls",
+        "file": "docs/distributed-tracing/plug-quickwit-to-jaeger.md",
+        "line": 60
+      },
+      {
+        "rule_id": "regex_py_requests",
+        "severity": "medium",
+        "category": "network_ops",
+        "file": "docs/distributed-tracing/send-traces/using-otel-sdk-python.md",
+        "line": 97
+      },
+      {
+        "rule_id": "regex_py_requests",
+        "severity": "medium",
+        "category": "network_ops",
+        "file": "docs/distributed-tracing/send-traces/using-otel-sdk-python.md",
+        "line": 168
+      },
+      {
+        "rule_id": "regex_js_fetch",
+        "severity": "medium",
+        "category": "network_ops",
+        "file": "docs/distributed-tracing/send-traces/using-otel-sdk-python.md",
+        "line": 91
+      }
+    ],
+    "total_files_scanned": 418
+  },
+  "verification_level": "full_pipeline",
+  "agent_audit": {
+    "agents_completed": 5,
+    "agents_required": 5,
+    "pipeline_run_at": "2026-03-05T03:06:30Z",
+    "agent_a": {
+      "signed": true,
+      "signed_at": "2026-03-05T03:06:30Z",
+      "comment": "Docs quality 9/10. README present. 12 features, 4 permissions claimed.",
+      "doc_quality_score": 9,
+      "claimed_permissions": [
+        "network access",
+        "system command execution",
+        "file system access",
+        "environment/secret access"
+      ]
+    },
+    "agent_b": {
+      "signed": true,
+      "signed_at": "2026-03-05T03:06:30Z",
+      "comment": "914 files analyzed. Found: 31 network, 59 file, 0 env, 0 system calls. Primary: rust.",
+      "files_analyzed": 914,
+      "capabilities_found": [
+        "imports external dependencies",
+        "performs network operations",
+        "reads/writes files"
+      ]
+    },
+    "agent_c_star": {
+      "signed": true,
+      "signed_at": "2026-03-05T03:06:30Z",
+      "comment": "156 findings: 0 critical, 128 high, 17 medium, 11 low. No obfuscation. No injection.",
+      "total_findings": 156,
+      "severity_counts": {
+        "critical": 0,
+        "high": 128,
+        "medium": 17,
+        "low": 11,
+        "info": 0
+      }
+    },
+    "agent_d": {
+      "signed": true,
+      "signed_at": "2026-03-05T03:06:30Z",
+      "comment": "Score 55. 0 mismatches. Risk: medium. Safety overrides: none triggered.",
+      "score": 55,
+      "mismatches": 0,
+      "safety_overrides_applied": false
+    },
+    "agent_e": {
+      "signed": true,
+      "signed_at": "2026-03-05T03:06:30Z",
+      "comment": "Rejected. Confidence 55%. No overrides.",
+      "approved": false,
+      "confidence": 55,
+      "override_reason": null
+    },
+    "manager_summary": "5/5 agents completed. Score: 55/100, Risk: medium. 0 mismatches, 156 scanner findings. Rejected at 55% confidence. No safety overrides.",
+    "auto_clear": {
+      "applied": true,
+      "reason": "Auto-clear Cat 1: clean profile (0 inj, 0 obf_hr, score=55)",
+      "original_status": "manual_review",
+      "original_score": 55
+    }
+  }
 }

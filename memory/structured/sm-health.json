@@ -5,15 +5,17 @@
     {
       "id": "sm-h-001",
       "title": "Collection state snapshot",
-      "updated": "2026-03-05T00:58:31.818814+00:00",
+      "updated": "2026-03-05T02:00:00.000000+00:00",
       "data": {
         "total_skills": 11098,
         "unique_tags": 77,
         "avg_tags_per_skill": 2.8,
         "status_distribution": {
-          "unverified": 6751,
-          "pass": 4347
+          "unverified": 6623,
+          "pass": 4475,
+          "fail": 0
         },
+        "coverage_pct": 40.3,
         "source_diversity": {
           "mcp_so": 74,
           "skillsmp": 77,
@@ -54,12 +56,13 @@
     {
       "id": "sm-h-003",
       "title": "Verification quality metrics",
-      "updated": "2026-03-05T00:58:31.818814+00:00",
+      "updated": "2026-03-05T02:00:00.000000+00:00",
       "data": {
-        "total_verified": 0,
+        "total_verified": 4475,
+        "total_fail": 0,
         "avg_score": 0.0,
         "score_distribution": {},
-        "pm_overrides": 650
+        "pm_overrides": 651
       }
     },
     {
@@ -139,10 +142,11 @@
     {
       "id": "sm-h-005",
       "title": "Current recommendations",
-      "updated": "2026-03-05T00:58:31.818814+00:00",
+      "updated": "2026-03-05T02:00:00.000000+00:00",
       "data": [
         "TAG_DEPTH: 8857/11098 skills have shallow tags (depth 0-1). Run auto_tag enrichment.",
-        "VERIFY_COVERAGE: 6751/11098 skills still unverified. Run next batch."
+        "VERIFY_COVERAGE: 6623/11098 skills still unverified (40.3% covered). Run next batch.",
+        "A_TIER_AGENT_GAP: Only ~1% agent A-tier verified (4/394). This is the #1 next coverage priority. Use --type agent --limit 100 batches."
       ]
     },
     {
@@ -165,6 +169,32 @@
       "category": "selection",
       "description": "sm_select_targets.py now supports --type mcp|agent flag for separate catalog selection. Batch 11 (first agent-only batch): 100 agent skills verified, 99 pass + 1 PM override (supabase monorepo). All S-tier installs selected correctly. Display now shows separate MCP/Agent tier breakdowns. Agent verification coverage: ~16% (up from 14%).",
       "date": "2026-03-05"
+    },
+    {
+      "id": "sm-h-009",
+      "title": "S-tier completion milestone",
+      "category": "milestone",
+      "description": "S-tier is 100% verified as of 2026-03-05. Total: 193/193 (35 MCP + 158 agent). All high-install agent skills (S-tier: 100K+ installs) and high-star MCP S-tier skills are fully covered. This is the first tier to reach 100% coverage. Next focus: A-tier.",
+      "date": "2026-03-05",
+      "data": {
+        "s_tier_total": 193,
+        "s_tier_mcp": 35,
+        "s_tier_agent": 158,
+        "s_tier_coverage_pct": 100.0
+      }
+    },
+    {
+      "id": "sm-h-010",
+      "title": "A-tier agent coverage gap — #1 next priority",
+      "category": "priority",
+      "description": "Agent A-tier (10K–100K installs) has only ~1% coverage: 4/394 verified. This is the largest high-value gap in the catalog. MCP A-tier coverage is significantly higher. SM should direct next batches at --type agent A-tier skills until meaningful coverage is achieved (target: 50%+). Use: SM_TARGETS=$(python3 scripts/review/sm_select_targets.py --type agent --limit 100 --output-ids)",
+      "date": "2026-03-05",
+      "data": {
+        "a_tier_agent_total": 394,
+        "a_tier_agent_verified": 4,
+        "a_tier_agent_coverage_pct": 1.0,
+        "next_action": "Run --type agent batches targeting A-tier until 50%+ coverage"
+      }
     }
   ],
   "evolve_history": [
@@ -489,7 +519,48 @@
       ],
       "secm_handoff_count": 606,
       "batch_note": "Batch 11 agent-only. S-tier installs. --type agent filter validated."
+    },
+    {
+      "id": "sm-evolve-2026-03-05T-pm-audit",
+      "timestamp": "2026-03-05T02:00:00.000000+00:00",
+      "tag_analysis": {
+        "total_skills": 11098,
+        "unique_tags": 77,
+        "avg_tags_per_skill": 2.8,
+        "coverage_gaps": []
+      },
+      "quality_analysis": {
+        "status_distribution": {
+          "unverified": 6623,
+          "pass": 4475,
+          "fail": 0
+        },
+        "coverage_pct": 40.3,
+        "avg_score": 0.0,
+        "pm_overrides": 651,
+        "override_categories": {
+          "unknown": 613,
+          "FP": 37
+        }
+      },
+      "fp_pattern_count": 606,
+      "recommendations": [
+        "TAG_DEPTH: 8857/11098 skills have shallow tags (depth 0-1). Run auto_tag enrichment.",
+        "VERIFY_COVERAGE: 6623/11098 skills still unverified (40.3% covered). Run next batch.",
+        "A_TIER_AGENT_GAP: Only ~1% agent A-tier verified (4/394). #1 next priority."
+      ],
+      "evolution_deltas": [
+        "MILESTONE: S-tier 100% complete — 193/193 verified (35 MCP + 158 agent)",
+        "GAP: Agent A-tier at ~1% (4/394) — #1 coverage priority identified by PM audit",
+        "FIX: sm-h-001 unverified corrected 6751→6623, pass corrected 4347→4475",
+        "FIX: sm-h-003 total_verified corrected from 0→4475 (was stale/broken)",
+        "NEW: sm-h-009 S-tier completion milestone recorded",
+        "NEW: sm-h-010 A-tier agent gap recorded as #1 next priority",
+        "PERSISTENT: tag depth recommendation still unresolved"
+      ],
+      "secm_handoff_count": 606,
+      "audit_note": "PM audit of SM memory — stale counts corrected, milestone + gap entries added"
     }
   ],
-  "last_evolve": "2026-03-05T01:30:00.000000+00:00"
+  "last_evolve": "2026-03-05T02:00:00.000000+00:00"
 }

@@ -7,6 +7,24 @@
       "title": "Deploy protocol",
       "category": "workflow",
       "description": "PM instructs DeployM. DeployM commits + pushes. GitHub Pages auto-deploys from main. Never force-push."
+    },
+    {
+      "id": "dplm-h-002",
+      "title": "Verification batch commit pattern",
+      "category": "commit_convention",
+      "description": "Verification batches follow a structured commit message format: feat(verify): Batch N — M pass, K fail, summary line. Body includes: skill type, pass/override breakdown, SM/SecM/MemM evolve cycle counts, and final collection state (X pass / Y fail / Z unverified / W% coverage). Multiple commits per session are normal — one per batch plus one for catalog/infrastructure changes.",
+      "date": "2026-03-05",
+      "examples": [
+        "70ab8adc: feat(catalog): dual catalog alignment — extract installs field, unified priority scoring",
+        "c7b2e22f: feat(verify): Batch 11 — 100 agent skills verified, SM --type filter, separate tier display"
+      ]
+    },
+    {
+      "id": "dplm-h-003",
+      "title": "Post-verification rebuild is mandatory before deploy",
+      "category": "workflow",
+      "description": "After any verification run, PM instructs WS3 to rebuild before DeployM commits. Required order: (1) run_verify_strict_5agent.py, (2) build_json + build_html + build_indexes, (3) DeployM commits all modified data/skills/*.json + site/api/* + data/stats.json together. Skipping rebuild means site shows stale data. This was a workflow gap identified 2026-03-01.",
+      "date": "2026-03-05"
     }
   ]
 }

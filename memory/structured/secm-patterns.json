@@ -22,9 +22,9 @@
     },
     {
       "id": "secm-p-004",
-      "title": "Scanner FP category: security detectors",
+      "title": "Scanner skip rule: security detectors / judge repos",
       "category": "false_positive",
-      "description": "Security scanners/judges contain injection vocabulary they detect. Cat 9 skip rule added."
+      "description": "Security scanners, judges, and classifiers contain injection vocabulary they detect (e.g., 'ignore previous instructions' in training data). These produce injection FP hits. NOT the same as Cat 9 auto-clear — this is a scanner-level skip for known classifier repos. Cat 9 auto-clear handles the broader monorepo case via inj-to-total ratio."
     },
     {
       "id": "secm-p-005",
@@ -52,9 +52,9 @@
     },
     {
       "id": "secm-p-009",
-      "title": "Structural FP: full-repo skills",
+      "title": "Structural FP: full-repo skills (SkillsMP)",
       "category": "root_cause",
-      "description": "SkillsMP skills link to full project repos (jetbrains/intellij-community 182K files). Scanner scans entire codebase. Not a pattern issue \u2014 structural input issue."
+      "description": "SkillsMP skills link to full project repos (e.g., jetbrains/intellij-community 182K files). Scanner scans entire codebase, not just the skill. Not a pattern accuracy issue — structural input issue. Handled by Cat 9 (monorepo ratio) and Cat 10 (PM-verified orgs) auto-clear."
     },
     {
       "id": "secm-p-010",
@@ -76,12 +76,13 @@
     },
     {
       "id": "secm-p-013",
-      "title": "Bug: empty scan_report with findings in agent_audit",
+      "title": "Bug FIXED: empty scan_report with findings in agent_audit",
       "category": "pipeline_bug",
-      "description": "Scanner produces findings (in agent_c_star audit) but scan_report field is empty {}. Auto-clear cannot inspect findings. Affects 637 skills. Fix: ensure pipeline.py writes scan_report from scanner output.",
+      "description": "RESOLVED. Scanner produced findings (in agent_c_star audit) but scan_report field was empty {}. Auto-clear could not inspect findings. Fixed in run_verify_strict_5agent.py: build_scan_report() added (line 809), called at line 1117, written at line 1142. Affected 637 skills in Batch 9 before fix.",
       "priority": "P0",
-      "action": "Fix pipeline.py to always write scan_report from scanner results",
-      "discovered": "2026-03-04T20:17:33.523325+00:00"
+      "status": "fixed",
+      "discovered": "2026-03-04T20:17:33.523325+00:00",
+      "fixed": "2026-03-04"
     },
     {
       "id": "secm-p-014",
@@ -94,39 +95,100 @@
     },
     {
       "id": "secm-p-015",
-      "title": "Auto-clear Cat 2+3: obfuscation FP resolution",
+      "title": "TRULY_DANGEROUS_OBF: the three real obfuscation threats",
       "category": "scanner_fix",
-      "description": "New auto-clear categories distinguish truly dangerous obfuscation (rot13, marshal_loads, chr_concat) from noise (hex_escape_seq, unicode_escape_seq). Cat 2 clears obf_hr with 0 inj + 0 dangerous. Cat 3 clears obf_hr in large repos (>=200 files). Eliminates 134+ PM overrides.",
-      "priority": "P0",
-      "discovered": "2026-03-04"
+      "description": "Only three obfuscation rule_ids are considered truly dangerous: regex_py_rot13, regex_py_marshal_loads, regex_py_chr_concat. All other obfuscation findings (hex_escape_seq, unicode_escape_seq, webpack chunks, protobuf) are scanner noise. This distinction drives the hard-block rule and Cat 2/3 auto-clear behavior.",
+      "code_ref": "run_verify_strict_5agent.py line 118: TRULY_DANGEROUS_OBF = {regex_py_rot13, regex_py_marshal_loads, regex_py_chr_concat}"
     },
     {
       "id": "secm-p-016",
-      "title": "Auto-clear Cat 12: injection-only without dangerous obf",
-      "category": "scanner_fix",
-      "description": "Skills with injection counts up to 49 but no dangerous obfuscation patterns (rot13/marshal/chr_concat) are auto-cleared. Eliminates remaining injection FP edge cases not covered by Cat 9/10/11.",
-      "priority": "P1",
-      "discovered": "2026-03-04"
+      "title": "Hard-block rule: BOTH dangerous_obf AND injection required",
+      "category": "auto_clear_rule",
+      "description": "Auto-clear is blocked ONLY when dangerous_obf_count > 0 AND injection_patterns_count > 0 simultaneously. Rationale: real attacks combine obfuscation (to hide payload) with injection (to deliver it). Obfuscation alone, or injection alone, is insufficient to be a real threat. This rule is evaluated BEFORE all category checks.",
+      "code_ref": "run_verify_strict_5agent.py line 126: if dangerous_obf_count > 0 and inj > 0: return None, None, None",
+      "evidence": "600+ PM overrides confirmed: zero real attacks with obf-only or inj-only pattern"
     },
     {
       "id": "secm-p-017",
-      "title": "Agent skills security profile differs from MCP",
-      "category": "catalog_security",
-      "description": "Agent skills (skillsmp source) are SKILL.md instruction files, not installable code. Their security profile is fundamentally different: they have text-based injection risk (prompt injection in instructions) but lower code-execution risk. Scanner findings on agent skills repos are often from the parent monorepo, not the skill itself.",
-      "discovered": "2026-03-04"
+      "title": "Auto-clear Cat 1: clean profile scoring ceiling",
+      "category": "auto_clear_rule",
+      "description": "Condition: inj == 0 AND obf_hr == 0. Result: pass, score = max(50, current_score). Handles skills stuck in MR/fail purely due to scoring formula edge cases with genuinely clean profiles. Evaluated first after hard-block check.",
+      "code_ref": "run_verify_strict_5agent.py line 132-138"
     },
     {
       "id": "secm-p-018",
-      "title": "Batch 11: Agent skill obfuscation profile — bundled deps inflate counts",
+      "title": "Auto-clear Cat 2: obfuscation-only (0 injection)",
+      "category": "auto_clear_rule",
+      "description": "Condition: obf_hr > 0 AND inj == 0. Result: pass. Handles ALL obf-only cases regardless of file count — including cases with dangerous obf patterns (rot13/marshal/chr_concat) because without injection there is no delivery mechanism. Note: Cat 3 in code (obf + large repo) is dead code — Cat 2 already covers it. Evidence: 134+ PM overrides, all obf-only, zero real attacks.",
+      "code_ref": "run_verify_strict_5agent.py line 140-150",
+      "important_nuance": "Cat 2 clears even dangerous_obf_count > 0 when inj == 0. Hard-block only fires when BOTH are present."
+    },
+    {
+      "id": "secm-p-019",
+      "title": "Auto-clear Cat 3: large-repo obfuscation (dead code — subsumed by Cat 2)",
+      "category": "auto_clear_rule",
+      "description": "Condition: obf_hr > 0 AND inj == 0 AND files_scanned >= 200. This is dead code — Cat 2 (obf_hr > 0 AND inj == 0) fires first and has no file-count requirement. Cat 3 can never be reached. Noted here so SecM does not add a files_scanned requirement to Cat 2 thinking Cat 3 handles large repos separately.",
+      "code_ref": "run_verify_strict_5agent.py line 152-158",
+      "status": "dead_code_do_not_rely_on"
+    },
+    {
+      "id": "secm-p-020",
+      "title": "Auto-clear Cat 10: PM-verified organizations",
+      "category": "auto_clear_rule",
+      "description": "Condition: GitHub org extracted from repo_url is in PM_VERIFIED_ORGS frozenset. Result: pass regardless of inj or obf counts. 47 orgs as of 2026-03-04. These are internet-verified major OSS/enterprise orgs where security context is established. Handles both injection AND obfuscation FPs for trusted sources.",
+      "code_ref": "run_verify_strict_5agent.py lines 62-81 (PM_VERIFIED_ORGS), line 160-166 (Cat 10 check)",
+      "current_orgs_count": 47,
+      "notable_orgs": ["mongodb-js", "aws-samples", "docker", "redis", "ibm", "github", "microsoft", "vercel", "supabase", "elastic", "jetbrains", "elizaos", "getsentry", "n8n-io"]
+    },
+    {
+      "id": "secm-p-021",
+      "title": "Auto-clear Cat 9: large monorepo injection ratio",
+      "category": "auto_clear_rule",
+      "description": "Condition: total_findings >= 500 AND inj <= 49 (injection ratio < 10% of all findings). Result: pass. Handles full-project repos (SkillsMP structural issue) where injection patterns are buried in a sea of other findings. Injection buried in large codebase is scanner noise, not a targeted attack.",
+      "code_ref": "run_verify_strict_5agent.py line 172-179",
+      "note": "This is NOT the same as the scanner-level skip for security detector repos (secm-p-004). Different mechanism, different scope."
+    },
+    {
+      "id": "secm-p-022",
+      "title": "Auto-clear Cat 11: incidental low-count injection",
+      "category": "auto_clear_rule",
+      "description": "Condition: inj <= 8 AND total_findings < 500. Result: pass. Handles skills where a small number of injection pattern matches appear in small-to-medium repos — not enough signal to indicate intentional malicious injection. Evidence: patterns like hidden_instruction match legitimate imperative documentation.",
+      "code_ref": "run_verify_strict_5agent.py line 181-187"
+    },
+    {
+      "id": "secm-p-023",
+      "title": "Auto-clear Cat 12: medium injection without dangerous obfuscation",
+      "category": "auto_clear_rule",
+      "description": "Condition: inj <= 49 AND dangerous_obf_count == 0. Result: pass. Handles medium injection counts (9-49) in repos with no truly dangerous obfuscation. Without dangerous obfuscation to hide payloads, injection pattern matches are FPs from legitimate documentation and tool descriptions.",
+      "code_ref": "run_verify_strict_5agent.py line 189-195",
+      "note": "This is the final catch-all before returning None (no auto-clear). Gaps where inj >= 50 AND dangerous_obf == 0 still reach PM review."
+    },
+    {
+      "id": "secm-p-024",
+      "title": "Auto-clear evaluation order (CRITICAL — order matters)",
+      "category": "auto_clear_rule",
+      "description": "Hard-block check first (dangerous_obf + inj both present). Then: Cat 1 (0 inj + 0 obf) → Cat 2 (obf-only) → Cat 3 (dead) → Cat 10 (PM org) → early exit if inj==0 → Cat 9 (monorepo ratio) → Cat 11 (low inj) → Cat 12 (medium inj, no dangerous obf). If none match, return None = no auto-clear, escalate to PM.",
+      "code_ref": "run_verify_strict_5agent.py lines 124-197"
+    },
+    {
+      "id": "secm-p-025",
+      "title": "Agent skills security profile: obf noise from bundled deps",
       "category": "catalog_security",
-      "description": "Agent skills tend to produce higher obfuscation finding counts than MCP server skills because their repos often include bundled dependencies (node_modules equivalents, compiled assets). Auto-clear Cat 1 (clean), Cat 2 (obf-only, 0 inj), and Cat 9 (monorepo) all triggered correctly in Batch 11. One real fail: supabase monorepo (65 inj across 6,578 files) — PM overrode and added supabase to PM_VERIFIED_ORGS. Pattern: large org monorepos with high file counts + high injection counts warrant PM review, not auto-clear.",
+      "description": "Agent skills (skillsmp source, skill_type=agent_skill) are SKILL.md instruction files. Their repos often include bundled dependencies producing high obfuscation hit counts. This is scanner noise, not a security signal. Primary risk is text-based prompt injection in the instruction content, not code execution. Cat 2 (obf-only, 0 inj) auto-clears these correctly. 128 S-tier agent skills verified, all passed cleanly.",
+      "discovered": "2026-03-04",
+      "outcome": "Cat 2 handles this. No special case needed."
+    },
+    {
+      "id": "secm-p-026",
+      "title": "Batch 11 supabase monorepo — PM override pattern for large org repos",
+      "category": "catalog_security",
+      "description": "Supabase monorepo: 65 injection patterns across 6,578 files. Cat 9 did not clear (65 > 49 inj threshold). PM investigated and added supabase to PM_VERIFIED_ORGS. Pattern: large established org monorepos with inj > 49 and files > 500 are the edge case that reaches PM review. These are not real threats — PM verifies org legitimacy and adds to Cat 10.",
       "discovered": "2026-03-04",
       "batch": "batch-11",
-      "source": "skillsmp",
-      "outcome": "supabase added to PM_VERIFIED_ORGS; auto-clear categories performing correctly"
+      "outcome": "supabase added to PM_VERIFIED_ORGS; gap: Cat 9 inj<=49 threshold may need raising for very large repos"
     }
   ],
-  "last_evolve": "2026-03-05T01:30:00.000000+00:00",
+  "last_evolve": "2026-03-04T00:00:00.000000+00:00",
   "evolve_history": [
     {
       "timestamp": "2026-03-04T20:17:33.523325+00:00",
@@ -241,6 +303,32 @@
       "pm_override_reason": "supabase monorepo 65 inj / 6578 files — org added to PM_VERIFIED_ORGS",
       "proposals_generated": 1,
       "new_entries_added": 1
+    },
+    {
+      "timestamp": "2026-03-04T00:00:00.000000+00:00",
+      "audit": "PM audit — full gap analysis against live code",
+      "total_entries_before": 18,
+      "total_entries_after": 26,
+      "changes": [
+        "secm-p-004: Corrected description to distinguish scanner-level skip from Cat 9 auto-clear (previously conflated)",
+        "secm-p-009: Updated to note Cat 9 and Cat 10 handle this structural issue",
+        "secm-p-013: Marked as FIXED with code references (build_scan_report at line 809, written at line 1142)",
+        "secm-p-015: Repurposed to document TRULY_DANGEROUS_OBF set (the 3 rule_ids) — previously scattered across entries",
+        "secm-p-016: Repurposed to document hard-block rule with exact code conditions",
+        "ADDED secm-p-017: Auto-clear Cat 1 (clean profile) — was undocumented",
+        "ADDED secm-p-018: Auto-clear Cat 2 (obf-only) with critical nuance: clears even dangerous obf when inj==0",
+        "ADDED secm-p-019: Auto-clear Cat 3 (dead code — subsumed by Cat 2) — documented to prevent regression",
+        "ADDED secm-p-020: Auto-clear Cat 10 (PM-verified orgs) — was completely undocumented, 47 orgs listed",
+        "ADDED secm-p-021: Auto-clear Cat 9 (monorepo ratio) — properly documented with correct condition (total>=500 AND inj<=49)",
+        "ADDED secm-p-022: Auto-clear Cat 11 (incidental low inj<=8) — was undocumented",
+        "ADDED secm-p-023: Auto-clear Cat 12 (medium inj<=49, no dangerous obf) — renamed from old secm-p-016 with accurate description",
+        "ADDED secm-p-024: Auto-clear evaluation ORDER — critical for correctness, was completely missing",
+        "ADDED secm-p-025: Agent skills security profile — merged secm-p-017+018 with 128 S-tier data point",
+        "ADDED secm-p-026: Supabase monorepo pattern — documents PM override trigger condition for future reference",
+        "REMOVED old secm-p-015 (Cat 2+3 combined entry with inaccurate critical check)",
+        "REMOVED old secm-p-016 (Cat 12 entry — content moved/improved to new secm-p-023)",
+        "REMOVED old secm-p-017/018 (agent skills entries — merged into secm-p-025/026)"
+      ]
     }
   ]
 }

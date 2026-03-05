@@ -5075,12 +5075,102 @@
         "remaining_unverified": 5078,
         "run_report": "/Users/liendallas/Desktop/Projects/SecureSkillHub/data/verification-runs/20260305T025802Z_strict5_limit50.json"
       }
+    },
+    {
+      "type": "sm_target_selection",
+      "timestamp": "2026-03-05T03:03:50.486547+00:00",
+      "strategy": "stars",
+      "skill_type_filter": "agent",
+      "selected_count": 28,
+      "total_unverified": 4009,
+      "priority_range": "10027-14268",
+      "selected_ids": [
+        "playwright-roll-b912c7fa",
+        "freshrss-git-0b81c2b3",
+        "git-safety-b8b2306a",
+        "trigger-dev-tasks-4953abb8",
+        "litestream-5a1debb7",
+        "pdf-processing-ffdebd71",
+        "upgrade-oxc-94dd997d",
+        "laravel-permission-development-7777cb6c",
+        "g2-legend-expert-a37f7246",
+        "build-with-agent-team-e4d0ac5c",
+        "rspack-perf-profiling-61f09c76",
+        "create-justification-5551bd93",
+        "code-review-eb823dae",
+        "angular-modernization-1da09c71",
+        "ccxt-dd05e8cf",
+        "json-render-core-0c8fcc9c",
+        "fix-clippy-c78f47a3",
+        "read-docs-3c7ba947",
+        "gc-safe-coding-540b0bcc",
+        "byethrow-19657938",
+        "prd-481d8956",
+        "redteam-plugin-development-072f64af",
+        "generate-component-documentation-40394cd6",
+        "changelog-94ed5fab",
+        "woocommerce-backend-dev-ff97e0ff",
+        "changelog-9e8f9474",
+        "data-fetching-b638b7e9",
+        "defuddle-19398a15"
+      ]
+    },
+    {
+      "timestamp": "2026-03-05T03:07:44.216204+00:00",
+      "check_type": "verification_run",
+      "findings": {
+        "selected_count": 28,
+        "processed_count": 28,
+        "status_counts": {
+          "pass": 28
+        },
+        "stage_failures": {},
+        "remaining_unverified": 5050,
+        "run_report": "/Users/liendallas/Desktop/Projects/SecureSkillHub/data/verification-runs/20260305T030743Z_strict5_limit50.json"
+      }
+    },
+    {
+      "timestamp": "2026-03-05T03:08:42.334922+00:00",
+      "check_type": "health_check",
+      "findings": {
+        "total_skills": 11098,
+        "verified": 4475,
+        "unverified": 6623,
+        "full_pipeline": 4475,
+        "scanner_only": 0,
+        "metadata_only": 1,
+        "with_agent_audit": 4475,
+        "status_breakdown": {
+          "unverified": 6623,
+          "pass": 4475
+        },
+        "star_tiers": {
+          "1000+": 147,
+          "100-999": 387,
+          "10-99": 1205,
+          "1-9": 1887,
+          "0": 7472
+        },
+        "issues": []
+      },
+      "recommendations": [
+        "Crawl pending hubs: skills_sh"
+      ],
+      "changes_since_last": {
+        "new_skills": 11098,
+        "newly_verified": 4475,
+        "status_changes": [
+          "+11098 new skills added",
+          "+4475 newly verified",
+          "+6623 unverified delta"
+        ]
+      }
     }
   ],
-  "last_check": "2026-03-05T01:13:59.545924+00:00",
+  "last_check": "2026-03-05T03:08:42.334922+00:00",
   "summary": {
-    "total_checks": 21,
+    "total_checks": 22,
     "issues_found_lifetime": 16,
-    "last_healthy": "2026-03-05T01:13:59.545924+00:00"
+    "last_healthy": "2026-03-05T03:08:42.334922+00:00"
   }
 }

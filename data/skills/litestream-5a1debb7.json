@@ -7,7 +7,7 @@
   "skill_type": "agent_skill",
   "owner": "benbjohnson",
   "stars": 0,
-  "primary_language": "unknown",
+  "primary_language": "go",
   "tags": [
     "agent-skills",
     "installs:13218",
@@ -18,15 +18,260 @@
     "dev-web-backend",
     "util",
     "util-file",
-    "util-monitor"
+    "util-monitor",
+    "status-pass"
   ],
-  "verification_status": "unverified",
-  "overall_score": 0,
-  "risk_level": "info",
-  "verified_commit": null,
+  "verification_status": "pass",
+  "overall_score": 72,
+  "risk_level": "medium",
+  "verified_commit": "f404f2ff1184b6b142d5869891af263b821c138f",
   "scan_summary": null,
   "repo_status": "available",
   "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
   "repo_check_error": null,
-  "installs": 13218
+  "installs": 13218,
+  "scan_date": "2026-03-05T03:03:51Z",
+  "findings_summary": {
+    "scanner_findings": 20,
+    "dangerous_calls": 3,
+    "network_ops": 0,
+    "file_ops": 6,
+    "env_access": 3,
+    "obfuscation": 0,
+    "injection_patterns": 0,
+    "mismatches": 0,
+    "undocumented_capabilities": 0,
+    "supervisor_approved": false,
+    "supervisor_confidence": 72
+  },
+  "scan_report": {
+    "total_findings": 20,
+    "injection_patterns_count": 0,
+    "obfuscation_count": 0,
+    "obfuscation_high_risk_count": 0,
+    "dangerous_calls_count": 3,
+    "severity_counts": {
+      "critical": 0,
+      "high": 11,
+      "medium": 3,
+      "low": 6,
+      "info": 0
+    },
+    "category_counts": {
+      "suspicious_urls": 8,
+      "dangerous_calls": 3,
+      "env_access": 3,
+      "file_ops": 6
+    },
+    "top_findings": [
+      {
+        "rule_id": "regex_raw_ip_url",
+        "severity": "high",
+        "category": "suspicious_urls",
+        "file": "cmd/litestream-test/S3-RETENTION-TESTING.md",
+        "line": 141
+      },
+      {
+        "rule_id": "regex_raw_ip_url",
+        "severity": "high",
+        "category": "suspicious_urls",
+        "file": "tests/integration/supabase-s3/docker-compose.yml",
+        "line": 73
+      },
+      {
+        "rule_id": "regex_localhost_non_std",
+        "severity": "high",
+        "category": "suspicious_urls",
+        "file": "tests/integration/supabase-s3/docker-compose.yml",
+        "line": 69
+      },
+      {
+        "rule_id": "regex_localhost_non_std",
+        "severity": "high",
+        "category": "suspicious_urls",
+        "file": "tests/integration/supabase-s3/test.sh",
+        "line": 6
+      },
+      {
+        "rule_id": "regex_localhost_non_std",
+        "severity": "high",
+        "category": "suspicious_urls",
+        "file": "tests/integration/supabase-s3/test.sh",
+        "line": 7
+      },
+      {
+        "rule_id": "regex_py_subprocess_call",
+        "severity": "high",
+        "category": "dangerous_calls",
+        "file": "etc/s3_mock.py",
+        "line": 32
+      },
+      {
+        "rule_id": "regex_py_os_environ",
+        "severity": "medium",
+        "category": "env_access",
+        "file": "etc/s3_mock.py",
+        "line": 14
+      },
+      {
+        "rule_id": "regex_raw_ip_url",
+        "severity": "high",
+        "category": "suspicious_urls",
+        "file": "etc/s3_mock.py",
+        "line": 18
+      },
+      {
+        "rule_id": "regex_localhost_non_std",
+        "severity": "high",
+        "category": "suspicious_urls",
+        "file": "etc/run-s3-docker-tests.sh",
+        "line": 34
+      },
+      {
+        "rule_id": "regex_localhost_non_std",
+        "severity": "high",
+        "category": "suspicious_urls",
+        "file": "etc/run-s3-docker-tests.sh",
+        "line": 48
+      },
+      {
+        "rule_id": "regex_py_os_environ",
+        "severity": "medium",
+        "category": "env_access",
+        "file": "docs/VFS.md",
+        "line": 152
+      },
+      {
+        "rule_id": "regex_shell_backtick_exec",
+        "severity": "high",
+        "category": "dangerous_calls",
+        "file": "scripts/README.md",
+        "line": 75
+      },
+      {
+        "rule_id": "regex_shell_backtick_exec",
+        "severity": "high",
+        "category": "dangerous_calls",
+        "file": "scripts/README.md",
+        "line": 97
+      },
+      {
+        "rule_id": "regex_py_open",
+        "severity": "low",
+        "category": "file_ops",
+        "file": "packages/python/setup.py",
+        "line": 8
+      },
+      {
+        "rule_id": "regex_py_os_environ",
+        "severity": "medium",
+        "category": "env_access",
+        "file": "packages/python/setup.py",
+        "line": 6
+      },
+      {
+        "rule_id": "regex_py_os_path",
+        "severity": "low",
+        "category": "file_ops",
+        "file": "packages/python/litestream_vfs/__init__.py",
+        "line": 20
+      },
+      {
+        "rule_id": "regex_py_os_path",
+        "severity": "low",
+        "category": "file_ops",
+        "file": "packages/python/litestream_vfs/__init__.py",
+        "line": 21
+      },
+      {
+        "rule_id": "regex_py_os_remove",
+        "severity": "low",
+        "category": "file_ops",
+        "file": "packages/python/scripts/rename_wheel.py",
+        "line": 30
+      },
+      {
+        "rule_id": "regex_py_os_path",
+        "severity": "low",
+        "category": "file_ops",
+        "file": "packages/python/scripts/rename_wheel.py",
+        "line": 17
+      },
+      {
+        "rule_id": "regex_py_os_path",
+        "severity": "low",
+        "category": "file_ops",
+        "file": "packages/python/scripts/rename_wheel.py",
+        "line": 29
+      }
+    ],
+    "total_files_scanned": 83
+  },
+  "verification_level": "full_pipeline",
+  "agent_audit": {
+    "agents_completed": 5,
+    "agents_required": 5,
+    "pipeline_run_at": "2026-03-05T03:03:51Z",
+    "agent_a": {
+      "signed": true,
+      "signed_at": "2026-03-05T03:03:51Z",
+      "comment": "Docs quality 10/10. README present. 12 features, 4 permissions claimed.",
+      "doc_quality_score": 10,
+      "claimed_permissions": [
+        "network access",
+        "system command execution",
+        "file system access",
+        "environment/secret access"
+      ]
+    },
+    "agent_b": {
+      "signed": true,
+      "signed_at": "2026-03-05T03:03:51Z",
+      "comment": "176 files analyzed. Found: 91 network, 1 file, 2 env, 1 system calls. Primary: go.",
+      "files_analyzed": 176,
+      "capabilities_found": [
+        "imports external dependencies",
+        "performs network operations",
+        "reads/writes files",
+        "reads environment values",
+        "executes system commands"
+      ]
+    },
+    "agent_c_star": {
+      "signed": true,
+      "signed_at": "2026-03-05T03:03:51Z",
+      "comment": "20 findings: 0 critical, 11 high, 3 medium, 6 low. No obfuscation. No injection.",
+      "total_findings": 20,
+      "severity_counts": {
+        "critical": 0,
+        "high": 11,
+        "medium": 3,
+        "low": 6,
+        "info": 0
+      }
+    },
+    "agent_d": {
+      "signed": true,
+      "signed_at": "2026-03-05T03:03:51Z",
+      "comment": "Score 72. 0 mismatches. Risk: medium. Safety overrides: none triggered.",
+      "score": 72,
+      "mismatches": 0,
+      "safety_overrides_applied": false
+    },
+    "agent_e": {
+      "signed": true,
+      "signed_at": "2026-03-05T03:03:51Z",
+      "comment": "Rejected. Confidence 72%. No overrides.",
+      "approved": false,
+      "confidence": 72,
+      "override_reason": null
+    },
+    "manager_summary": "5/5 agents completed. Score: 72/100, Risk: medium. 0 mismatches, 20 scanner findings. Rejected at 72% confidence. No safety overrides.",
+    "auto_clear": {
+      "applied": true,
+      "reason": "Auto-clear Cat 1: clean profile (0 inj, 0 obf_hr, score=72)",
+      "original_status": "manual_review",
+      "original_score": 72
+    }
+  }
 }

@@ -6,13 +6,27 @@
       "id": "axm-p-001",
       "title": "Package build process",
       "category": "packages",
-      "description": "scripts/build/build_packages.py generates data/packages/*.json from skill collection. AXM owns WS6."
+      "description": "scripts/build/build_packages.py generates data/packages/*.json from skill collection. AXM owns WS6. SM monitors quality read-only — AXM is the sole owner of package builds."
     },
     {
       "id": "axm-p-002",
       "title": "Agent entry point",
       "category": "agent_ux",
       "description": "site/entry.md is the machine-readable discovery entry. Agents read this, humans read index.html."
+    },
+    {
+      "id": "axm-p-003",
+      "title": "Agent skills: installs field is now a proper first-class field",
+      "category": "data",
+      "description": "4,801 agent skills from skillsmp had install counts stored as 'installs:N' tags. As of 2026-03-04, installs is extracted into a dedicated top-level field. Packages and priority scoring now use skill.installs directly. Agent S-tier: 100K+ installs. A-tier: 10K-100K. Do not parse installs from tags — read the installs field.",
+      "date": "2026-03-04"
+    },
+    {
+      "id": "axm-p-004",
+      "title": "Unified priority scoring for dual catalog",
+      "category": "packages",
+      "description": "priority_score() = max(stars, installs). MCP skills are ranked by GitHub stars, agent skills by install counts. Both are valid usage signals on different scales (top MCP: 350K stars; top agent: 243K installs). Packages built with this unified ranking surface high-value skills from both catalogs.",
+      "date": "2026-03-04"
     }
   ]
 }

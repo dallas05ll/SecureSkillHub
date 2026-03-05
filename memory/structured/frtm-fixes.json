@@ -13,6 +13,20 @@
       "title": "Status toggle filters",
       "category": "ui",
       "description": "Frontend filters by verification status. Toggle buttons for pass/fail/manual_review/unverified."
+    },
+    {
+      "id": "frtm-f-003",
+      "title": "Dual catalog display: MCP vs Agent skill types",
+      "category": "ui",
+      "description": "Collection is 11,098 skills across two types: mcp_server (6,297, have stars) and agent_skill (4,801, have installs). Frontend should display catalog type context. Agent skills show installs as the primary metric (not stars — stars will be 0 or absent). MCP skills show stars. The skill.skill_type field drives which metric to surface. Future: separate catalog tabs or filter by skill_type.",
+      "date": "2026-03-05"
+    },
+    {
+      "id": "frtm-f-004",
+      "title": "installs field: agent skill primary metric",
+      "category": "data",
+      "description": "Agent skills from skillsmp have skill.installs (integer, extracted from tags as of 2026-03-04). Stars will be 0 for agent skills. When rendering skill cards or detail views for agent_skill type, display skill.installs instead of skill.stars. Top agent skills: extract-errors (243K), 1password (206K), accessibility (181K). MCP skills: use skill.stars as usual.",
+      "date": "2026-03-05"
     }
   ]
 }

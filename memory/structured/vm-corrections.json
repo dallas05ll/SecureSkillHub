@@ -1,6 +1,13 @@
 {
   "schema_version": "1.0",
   "role": "verification_manager",
+  "evolve_history": [
+    {
+      "date": "2026-03-04",
+      "by": "PM Audit",
+      "changes": "Initial evolve_history added. Pruned 2 superseded entries (vm-c-015, vm-c-016). Updated vm-c-018 to reflect all 7 auto-clear categories. Added 3 new entries: vm-c-020 (agent skill verification patterns), vm-c-021 (unified priority system), vm-c-022 (SM --type filter)."
+    }
+  ],
   "entries": [
     {
       "id": "vm-c-001",
@@ -115,22 +122,6 @@
       "date_fixed": "2026-03-02"
     },
     {
-      "id": "vm-c-015",
-      "title": "Scanner FP fixes batch 1",
-      "category": "scanner",
-      "status": "superseded_by_vm-c-017",
-      "description": "Superseded by vm-c-017 which consolidates all Run 3 scanner fixes.",
-      "date_fixed": "2026-03-03"
-    },
-    {
-      "id": "vm-c-016",
-      "title": "Scanner FP fixes batch 2",
-      "category": "scanner",
-      "status": "superseded_by_vm-c-017",
-      "description": "Superseded by vm-c-017 which consolidates all Run 3 scanner fixes.",
-      "date_fixed": "2026-03-03"
-    },
-    {
       "id": "vm-c-017",
       "title": "Run 3 consolidated scanner fixes",
       "category": "scanner",
@@ -140,19 +131,43 @@
     },
     {
       "id": "vm-c-018",
-      "title": "Auto-clear hard-block on obf_hr caused 100% FP fail rate",
+      "title": "Auto-clear system: 7 categories + hard-block rule",
       "category": "auto_clear",
-      "status": "fixed",
-      "description": "auto_clear_known_fp() had unconditional hard-block: if obf_hr > 0 return None. This meant every skill with even 1 hex_escape or unicode_escape in bundled JS/CJK text was stuck at fail. Fix: distinguish truly dangerous obfuscation (rot13, marshal, chr_concat) from noise (hex/unicode escapes). Added Cat 2 (obf FP without dangerous patterns), Cat 3 (large-repo obf), Cat 12 (injection-only without dangerous obf). Only block auto-clear when BOTH dangerous_obf AND injection are present.",
-      "fix_date": "2026-03-04"
+      "status": "current",
+      "description": "auto_clear_known_fp() implements 7 categories based on PM review of 1,200+ verified skills. Hard-block ONLY when BOTH dangerous_obf (rot13/marshal/chr_concat) AND injection > 0 co-occur. Categories: Cat 1 (clean profile: 0 inj + 0 obf_hr + score>=50 \u2192 pass), Cat 2 (obf-only: obf_hr>0 but 0 inj, any obf type \u2192 pass; obfuscation alone is not an attack vector), Cat 3 (large-repo obf: obf_hr + files>=200 + 0 inj \u2192 pass), Cat 9 (monorepo docs: total>=500 + inj/total<10% \u2192 pass), Cat 10 (PM-verified org \u2192 pass; covers both inj and obf FPs), Cat 11 (incidental: inj<=8 + total<500 \u2192 pass), Cat 12 (injection-only FP: inj<=49 + 0 dangerous_obf \u2192 pass). Previously had unconditional hard-block on obf_hr>0 which caused 100% FP fail rate for bundled JS/CJK text repos.",
+      "date_updated": "2026-03-04"
     },
     {
       "id": "vm-c-019",
       "title": "Pass threshold lowered from 80 to 70",
       "category": "scoring",
-      "status": "fixed",
+      "status": "current",
       "description": "Pass required score >= 80, but legitimate MCP servers with documented capabilities (network, file, env access) scored 70-79 due to expected deductions. PM had overridden 76+ such skills. Threshold lowered to >= 70 for non-critical risk.",
       "fix_date": "2026-03-04"
+    },
+    {
+      "id": "vm-c-020",
+      "title": "Agent skill verification patterns differ from MCP servers",
+      "category": "workflow",
+      "status": "current",
+      "description": "Agent skills (tag: agent-skills) are typically larger repos with bundled dependencies. This causes higher obf_hr counts from minified/bundled JS in node_modules or dist/ directories. Expected behavior: Cat 2/Cat 3 auto-clear handles most agent skill obf FPs. Do NOT treat elevated obf_hr in agent skills as suspicious by default \u2014 bundled deps are normal. Priority signal for agent skills is installs count (not stars), since they come from skillsmp where stars=0. First agent-only batch (128/128 S-tier skills) all passed, confirming auto-clear handles agent skill noise.",
+      "date_added": "2026-03-04"
+    },
+    {
+      "id": "vm-c-021",
+      "title": "Unified priority system: max(stars, installs)",
+      "category": "workflow",
+      "status": "current",
+      "description": "SM uses priority_score() = max(stars, installs) to rank unverified skills. MCP servers use GitHub stars; agent skills use install counts from skillsmp (stars=0 for all agent skills). Top MCP: ~350K stars. Top agent: ~243K installs. Both are treated as equivalent usage signals. VM receives targets pre-sorted by this unified priority \u2014 no need to re-sort. Always use SM-selected --skill-ids, never --limit alone.",
+      "date_added": "2026-03-04"
+    },
+    {
+      "id": "vm-c-022",
+      "title": "SM --type filter produces catalog-specific target lists for VM",
+      "category": "workflow",
+      "status": "current",
+      "description": "SM supports --type mcp and --type agent flags in sm_select_targets.py. When PM wants a catalog-specific batch (e.g., agent-only run), SM passes --type agent and VM receives only agent skills in --skill-ids. VM must not assume target mix \u2014 a batch may be 100% agent skills or 100% MCP servers depending on SM selection. Supabase was added to PM_VERIFIED_ORGS (35+ orgs now), enabling Cat 10 auto-clear for all supabase/* repos.",
+      "date_added": "2026-03-04"
     }
   ]
 }
