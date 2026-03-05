@@ -6,6 +6,11 @@
       "date": "2026-03-04",
       "by": "PM Audit",
       "changes": "Initial evolve_history added. Pruned 2 superseded entries (vm-c-015, vm-c-016). Updated vm-c-018 to reflect all 7 auto-clear categories. Added 3 new entries: vm-c-020 (agent skill verification patterns), vm-c-021 (unified priority system), vm-c-022 (SM --type filter)."
+    },
+    {
+      "date": "2026-03-05",
+      "by": "PM Phase 1A rebuild",
+      "changes": "Added vm-c-023: VerifiedSkill schema bug (skill_type/installs missing). Also: unified priority scoring now in all build scripts, v2 meta files added."
     }
   ],
   "entries": [
@@ -168,6 +173,15 @@
       "status": "current",
       "description": "SM supports --type mcp and --type agent flags in sm_select_targets.py. When PM wants a catalog-specific batch (e.g., agent-only run), SM passes --type agent and VM receives only agent skills in --skill-ids. VM must not assume target mix \u2014 a batch may be 100% agent skills or 100% MCP servers depending on SM selection. Supabase was added to PM_VERIFIED_ORGS (35+ orgs now), enabling Cat 10 auto-clear for all supabase/* repos.",
       "date_added": "2026-03-04"
+    },
+    {
+      "id": "vm-c-023",
+      "title": "VerifiedSkill schema missing skill_type and installs fields",
+      "category": "schema",
+      "description": "CRITICAL: VerifiedSkill Pydantic model in schemas.py lacked skill_type and installs fields. Pydantic v2 extra=ignore caused model_dump() to strip these fields from validated skills. _normalize_skill_record() then defaulted skill_type to mcp_server. All agent skills were misclassified in build output. Fix: added skill_type: SkillType = SkillType.MCP_SERVER and installs: int = Field(default=0, ge=0) to VerifiedSkill. Counts corrected from 7027/4071 to 5692/5406.",
+      "date": "2026-03-05",
+      "severity": "critical",
+      "fixed": true
     }
   ]
 }

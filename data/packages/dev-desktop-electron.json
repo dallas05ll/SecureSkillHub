@@ -1,34 +1,16 @@
 {
-  "tag_path": "dev-desktop",
-  "label": "General Desktop Application Package",
-  "description": "Top 10 verified desktop application skills, auto-curated by GitHub stars and security score.",
+  "tag_path": "dev-desktop-electron",
+  "label": "General Electron Package",
+  "description": "Top 6 verified electron skills, auto-curated by GitHub stars and security score.",
   "skill_ids": [
-    "1password-21f2bd26",
     "electron-chromium-upgrade-1a936deb",
-    "debugging-output-and-previewing-html-usi-820d3f32",
-    "1password-05004d49",
     "daymon-94a20b85",
     "aicut-deploy-dba3ca34",
-    "1password-47e15d08",
     "chatgpt-x-deepseek-x-grok-x-claude-linux-98af04a2",
     "chatgpt-x-deepseek-x-grok-x-claude-x-per-47fe199e",
-    "mcp-desk-f439d7b7"
+    "mcp-client-7ex-1c80cb13"
   ],
   "skills": [
-    {
-      "id": "1password-21f2bd26",
-      "name": "1password",
-      "description": "Set up and use 1Password CLI (op). Use when installing the CLI, enabling desktop app integration, signing in (single or multi-account), or reading/injecting/running secrets via op.",
-      "repo_url": "https://github.com/openclaw/openclaw",
-      "stars": 0,
-      "installs": 206456,
-      "overall_score": 50,
-      "verification_status": "pass",
-      "risk_level": "medium",
-      "primary_language": "typescript",
-      "install_url": "https://github.com/openclaw/openclaw",
-      "skill_type": "agent_skill"
-    },
     {
       "id": "electron-chromium-upgrade-1a936deb",
       "name": "electron-chromium-upgrade",
@@ -41,34 +23,6 @@
       "risk_level": "medium",
       "primary_language": "unknown",
       "install_url": "https://github.com/electron/electron",
-      "skill_type": "agent_skill"
-    },
-    {
-      "id": "debugging-output-and-previewing-html-usi-820d3f32",
-      "name": "debugging-output-and-previewing-html-using-ray",
-      "description": "Use when user says \"send to Ray,\" \"show in Ray,\" \"debug in Ray,\" \"log to Ray,\" \"display in Ray,\" or wants to visualize data, debug output, or show diagrams in the Ray desktop application.",
-      "repo_url": "https://github.com/coollabsio/coolify",
-      "stars": 0,
-      "installs": 50768,
-      "overall_score": 50,
-      "verification_status": "pass",
-      "risk_level": "medium",
-      "primary_language": "unknown",
-      "install_url": "https://github.com/coollabsio/coolify",
-      "skill_type": "agent_skill"
-    },
-    {
-      "id": "1password-05004d49",
-      "name": "1password",
-      "description": "Set up and use 1Password CLI (op). Use when installing the CLI, enabling desktop app integration, signing in (single or multi-account), or reading/injecting/running secrets via op.",
-      "repo_url": "https://github.com/steipete/agent-scripts",
-      "stars": 0,
-      "installs": 1944,
-      "overall_score": 55,
-      "verification_status": "pass",
-      "risk_level": "medium",
-      "primary_language": "unknown",
-      "install_url": "https://github.com/steipete/agent-scripts",
       "skill_type": "agent_skill"
     },
     {
@@ -100,20 +54,6 @@
       "skill_type": "agent_skill"
     },
     {
-      "id": "1password-47e15d08",
-      "name": "1password",
-      "description": "Set up and use 1Password CLI (op). Use when installing the CLI, enabling desktop app integration, signing in (single or multi-account), or reading/injecting/running secrets via op.",
-      "repo_url": "https://github.com/seedprod/openclaw-prompts-and-skills",
-      "stars": 0,
-      "installs": 49,
-      "overall_score": 95,
-      "verification_status": "pass",
-      "risk_level": "medium",
-      "primary_language": "python",
-      "install_url": "https://github.com/seedprod/openclaw-prompts-and-skills",
-      "skill_type": "agent_skill"
-    },
-    {
       "id": "chatgpt-x-deepseek-x-grok-x-claude-linux-98af04a2",
       "name": "ChatGPT-x-DeepSeek-x-Grok-x-Claude-Linux-APP",
       "description": "Electron-based desktop applications for various AI chat platforms.",
@@ -142,24 +82,24 @@
       "skill_type": "mcp_server"
     },
     {
-      "id": "mcp-desk-f439d7b7",
-      "name": "mcp-desk",
-      "description": "A Desktop Application To Interact With Your MCP Servers",
-      "repo_url": "https://github.com/debsouryadatta/mcp-desk",
+      "id": "mcp-client-7ex-1c80cb13",
+      "name": "mcp_client_7ex",
+      "description": "mcp client example , electron react",
+      "repo_url": "https://github.com/kuc-arc-f/mcp_client_7ex",
       "stars": 1,
       "installs": 0,
-      "overall_score": 94,
+      "overall_score": 60,
       "verification_status": "pass",
       "risk_level": "medium",
       "primary_language": "typescript",
-      "install_url": "https://github.com/debsouryadatta/mcp-desk",
+      "install_url": "https://github.com/kuc-arc-f/mcp_client_7ex",
       "skill_type": "mcp_server"
     }
   ],
-  "total_skills": 10,
-  "total_candidates": 11,
-  "avg_score": 72.0,
-  "min_score": 50,
+  "total_skills": 6,
+  "total_candidates": 6,
+  "avg_score": 72.7,
+  "min_score": 60,
   "top_stars": 0,
   "generated_at": "2026-03-05T16:00:23Z"
 }

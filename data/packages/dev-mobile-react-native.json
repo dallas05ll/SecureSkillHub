@@ -1,29 +1,75 @@
 {
   "tag_path": "dev-mobile-react-native",
   "label": "General React Native Package",
-  "description": "Top 1 verified react native skills, auto-curated by GitHub stars and security score.",
+  "description": "Top 4 verified react native skills, auto-curated by GitHub stars and security score.",
   "skill_ids": [
-    "react-native-best-practices-1970bd18"
+    "heroui-native-c69a7c11",
+    "react-native-best-practices-1970bd18",
+    "skills-b1bc2b7d",
+    "add-screen-ea5bb08a"
   ],
   "skills": [
+    {
+      "id": "heroui-native-c69a7c11",
+      "name": "heroui-native",
+      "description": "HeroUI Native component library for React Native (Tailwind v4 via Uniwind). Use when working with HeroUI Native components, installing HeroUI Native, customizing themes, or accessing component documen",
+      "repo_url": "https://github.com/heroui-inc/heroui",
+      "stars": 0,
+      "installs": 28163,
+      "overall_score": 60,
+      "verification_status": "pass",
+      "risk_level": "medium",
+      "primary_language": "typescript",
+      "install_url": "https://github.com/heroui-inc/heroui",
+      "skill_type": "agent_skill"
+    },
     {
       "id": "react-native-best-practices-1970bd18",
       "name": "React Native Best Practices",
       "description": "Agent skill: react-native-best-practices from callstackincubator/agent-skills",
       "repo_url": "https://github.com/callstackincubator/agent-skills",
       "stars": 6500,
+      "installs": 0,
       "overall_score": 84,
       "verification_status": "pass",
       "risk_level": "medium",
       "primary_language": "unknown",
       "install_url": "https://github.com/callstackincubator/agent-skills",
-      "skill_type": "unknown"
+      "skill_type": "agent_skill"
+    },
+    {
+      "id": "skills-b1bc2b7d",
+      "name": "skills",
+      "description": "Production-ready Expo React Native mobile app skill with RevenueCat payments, AdMob, i18n, onboarding, and NativeTabs.",
+      "repo_url": "https://github.com/zaferayan/skills",
+      "stars": 99,
+      "installs": 0,
+      "overall_score": 100,
+      "verification_status": "pass",
+      "risk_level": "info",
+      "primary_language": "Markdown",
+      "install_url": "https://github.com/zaferayan/skills",
+      "skill_type": "agent_skill"
+    },
+    {
+      "id": "add-screen-ea5bb08a",
+      "name": "add-screen",
+      "description": "Guide for adding a new screen to the All About Olaf React Native app, including React Navigation setup, TypeScript types, component creation, and proper integration with the app's navigation system.",
+      "repo_url": "https://github.com/stodevx/aao-react-native",
+      "stars": 0,
+      "installs": 42,
+      "overall_score": 74,
+      "verification_status": "pass",
+      "risk_level": "medium",
+      "primary_language": "typescript",
+      "install_url": "https://github.com/stodevx/aao-react-native",
+      "skill_type": "agent_skill"
     }
   ],
-  "total_skills": 1,
-  "total_candidates": 1,
-  "avg_score": 84.0,
-  "min_score": 84,
-  "top_stars": 6500,
-  "generated_at": "2026-03-02T22:27:24Z"
+  "total_skills": 4,
+  "total_candidates": 4,
+  "avg_score": 79.5,
+  "min_score": 60,
+  "top_stars": 0,
+  "generated_at": "2026-03-05T16:00:23Z"
 }

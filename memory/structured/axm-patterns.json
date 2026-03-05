@@ -27,6 +27,45 @@
       "category": "packages",
       "description": "priority_score() = max(stars, installs). MCP skills are ranked by GitHub stars, agent skills by install counts. Both are valid usage signals on different scales (top MCP: 350K stars; top agent: 243K installs). Packages built with this unified ranking surface high-value skills from both catalogs.",
       "date": "2026-03-04"
+    },
+    {
+      "id": "axm-p-005",
+      "title": "Claude Code plugin ownership and build process",
+      "category": "agent_ux",
+      "description": "AXM owns .claude-plugin/ — the SecureSkillHub Claude Code plugin. Three skills: browse (embedded catalog map, no fetch for navigation), search (fetches search-index.json, flat array of 11,098 skills), install (fetches individual skill JSON with safety warnings). Build script: scripts/build/build_plugin_catalog.py — run after every build_json to keep browse.md catalog section current. The build script uses regex with lambda replacement to avoid backslash issues in re.sub. Markers: '## Full Catalog Map' ... '---\\n\\n## How to Help Users'. Stats as of 2026-03-04: 9,523 available skills, 4,473 verified (pass), 11,098 total files. search-index.json is a flat JSON array (no top-level keys). verification_status values: 'pass' or 'unverified' — there is NO 'scanned' status in search-index entries.",
+      "date": "2026-03-04"
+    },
+    {
+      "id": "axm-p-006",
+      "title": "v2 Meta Files: agent-first progressive disclosure API",
+      "category": "agent_ux",
+      "description": "Built api/v2/meta/ directory with 6 lightweight files for agent consumption. Top files (~70KB each, ~18K tokens) replace 4.5MB+ catalog dumps. Progressive disclosure flow: packages (5KB) → meta top-200 (70KB) → by-tag (varies) → full catalog (9MB). Entry.md restructured to guide agents cheapest-path-first. agent.json updated to v2.0 with quick_start/full_catalog endpoint groups.",
+      "date": "2026-03-05",
+      "data": {
+        "files": {
+          "agent_skills_top.json": "72KB, top 200 by installs",
+          "mcp_servers_top.json": "68KB, top 200 by stars",
+          "agent_skills.json": "1.5MB, all 5406 compact",
+          "mcp_servers.json": "2.4MB, all 5692 compact",
+          "categories.json": "9KB, tag tree summary",
+          "stats.json": "184B, quick counts"
+        },
+        "token_reduction": "61x (1.1M → 18K tokens for agent catalog browse)"
+      }
+    },
+    {
+      "id": "axm-p-007",
+      "title": "VerifiedSkill schema bug: skill_type and installs fields missing",
+      "category": "data",
+      "description": "CRITICAL BUG FIXED: src/sanitizer/schemas.py VerifiedSkill model lacked skill_type and installs fields. Pydantic v2 extra='ignore' default caused model_dump() to strip these fields. _normalize_skill_record() then defaulted skill_type to 'mcp_server'. Result: all agent skills were misclassified as MCP servers in build output. Tier-1 showed 0 agent skills instead of 677. Fix: added both fields to VerifiedSkill schema. skill_type counts corrected from 7027/4071 to 5692/5406.",
+      "date": "2026-03-05"
+    },
+    {
+      "id": "axm-p-008",
+      "title": "Unified priority scoring in build pipeline",
+      "category": "data",
+      "description": "build_json.py and build_priority.py now use _priority_score(skill) = max(stars, installs) for ALL sorting and tiering. Previously sorted by stars only, making agent skills invisible. Changes: index.json sorted by priority, by-tier uses priority thresholds, by-tag sorted by priority, search-index includes installs field, packages sorted by priority. build_packages.py also updated with unified scoring and fixed skill_type default from 'unknown' to 'mcp_server'.",
+      "date": "2026-03-05"
     }
   ]
 }

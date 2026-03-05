@@ -1,0 +1,60 @@
+{
+  "tag_path": "dev-web-frontend-angular",
+  "label": "General Angular Package",
+  "description": "Top 3 verified angular skills, auto-curated by GitHub stars and security score.",
+  "skill_ids": [
+    "angular-new-app-9e37438e",
+    "angular-modernization-1da09c71",
+    "adding-framework-support-cb46acaa"
+  ],
+  "skills": [
+    {
+      "id": "angular-new-app-9e37438e",
+      "name": "angular-new-app",
+      "description": "Creates a new Angular app using the Angular CLI. This skill should be used whenver a user wants to create a new Angular application and contains important guidelines for how to effectively create a mo",
+      "repo_url": "https://github.com/angular/angular",
+      "stars": 0,
+      "installs": 99859,
+      "overall_score": 50,
+      "verification_status": "pass",
+      "risk_level": "medium",
+      "primary_language": "typescript",
+      "install_url": "https://github.com/angular/angular",
+      "skill_type": "agent_skill"
+    },
+    {
+      "id": "angular-modernization-1da09c71",
+      "name": "angular-modernization",
+      "description": "Modernizes Angular code such as components and directives to follow best practices using both automatic CLI migrations and Bitwarden-specific patterns. YOU must use this skill when someone requests mo",
+      "repo_url": "https://github.com/bitwarden/clients",
+      "stars": 0,
+      "installs": 12156,
+      "overall_score": 50,
+      "verification_status": "pass",
+      "risk_level": "medium",
+      "primary_language": "typescript",
+      "install_url": "https://github.com/bitwarden/clients",
+      "skill_type": "agent_skill"
+    },
+    {
+      "id": "adding-framework-support-cb46acaa",
+      "name": "adding-framework-support",
+      "description": "Add a new framework integration to the PostHog wizard. Use when adding support for a new language or framework (e.g. Ruby on Rails, Go, Angular). Covers creating the agent config, detection logic, reg",
+      "repo_url": "https://github.com/posthog/wizard",
+      "stars": 0,
+      "installs": 85,
+      "overall_score": 60,
+      "verification_status": "pass",
+      "risk_level": "medium",
+      "primary_language": "typescript",
+      "install_url": "https://github.com/posthog/wizard",
+      "skill_type": "agent_skill"
+    }
+  ],
+  "total_skills": 3,
+  "total_candidates": 3,
+  "avg_score": 53.3,
+  "min_score": 50,
+  "top_stars": 0,
+  "generated_at": "2026-03-05T16:00:23Z"
+}

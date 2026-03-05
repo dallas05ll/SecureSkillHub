@@ -5,12 +5,20 @@
   "api_base": "site/api",
   "endpoints": {
     "entry": "site/entry.md",
-    "stats": "site/api/stats.json",
-    "skills_index": "site/api/skills/index.json",
-    "tags": "site/api/tags.json",
-    "search_index": "site/api/search-index.json",
-    "indexes": "site/api/indexes/manifest.json"
+    "quick_start": {
+      "stats": "site/api/v2/meta/stats.json",
+      "packages": "site/api/packages/index.json",
+      "categories": "site/api/v2/meta/categories.json",
+      "mcp_servers_top": "site/api/v2/meta/mcp_servers_top.json",
+      "agent_skills_top": "site/api/v2/meta/agent_skills_top.json"
+    },
+    "full_catalog": {
+      "skills_index": "site/api/skills/index.json",
+      "tags": "site/api/tags.json",
+      "search_index": "site/api/search-index.json",
+      "indexes": "site/api/indexes/manifest.json"
+    }
   },
-  "instructions": "Start by reading site/entry.md for the full agent discovery flow. Do NOT parse index.html — it is a human-facing frontend. All paths are relative to the repository/site root.",
-  "version": "1.2"
+  "instructions": "Start by reading site/entry.md for the progressive disclosure flow. For quick results, use packages/ first (~5KB each). Use v2/meta/ for catalog browsing (~70KB each). Avoid full catalog files (4-9MB) unless necessary. Do NOT parse index.html — it is a human-facing frontend. All paths are relative to the repository/site root.",
+  "version": "2.0"
 }

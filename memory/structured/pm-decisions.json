@@ -60,9 +60,9 @@
     },
     {
       "id": "pm-d-009",
-      "title": "S-tier 100% complete — first tier milestone",
+      "title": "S-tier 100% complete \u2014 first tier milestone",
       "category": "milestone",
-      "description": "As of 2026-03-05, all S-tier skills are verified: 35 MCP (10K+ stars) + 158 agent (100K+ installs) = 193 total. This is the first tier to reach 100% coverage. Validates the agent-first verification strategy. Next target: A-tier agent skills (10K–100K installs, ~1% coverage, 4/394 verified).",
+      "description": "As of 2026-03-05, all S-tier skills are verified: 35 MCP (10K+ stars) + 158 agent (100K+ installs) = 193 total. This is the first tier to reach 100% coverage. Validates the agent-first verification strategy. Next target: A-tier agent skills (10K\u2013100K installs, ~1% coverage, 4/394 verified).",
       "date": "2026-03-05",
       "data": {
         "s_tier_mcp": 35,
@@ -71,6 +71,13 @@
         "s_tier_coverage_pct": 100.0,
         "next_target": "A-tier agent (10K-100K installs), target 50%+"
       }
+    },
+    {
+      "id": "pm-d-010",
+      "title": "Phase 1A: Agent-first API reconstruction",
+      "category": "architecture",
+      "description": "Executed Phase 1A of the agent-first API reconstruction plan. Key changes: (1) Unified priority scoring max(stars, installs) in build_json.py + build_priority.py \u2014 agent skills now tier by installs, MCP by stars. (2) Fixed VerifiedSkill schema bug \u2014 skill_type and installs fields were missing, causing all agent skills to be misclassified as MCP servers. (3) Built api/v2/meta/ with 6 lightweight files (70KB vs 4.5MB \u2014 61x reduction). (4) Restructured entry.md for progressive disclosure (cheapest path first). (5) Updated agent.json to v2.0. Total token cost for agent catalog browse: 18K (was 1.1M).",
+      "date": "2026-03-05"
     }
   ]
 }

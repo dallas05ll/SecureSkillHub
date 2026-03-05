@@ -31,14 +31,19 @@ API_DIR = PROJECT_ROOT / "site" / "api"
 BY_TAG_DIR = API_DIR / "skills" / "by-tag"
 BY_TIER_DIR = API_DIR / "skills" / "by-tier"
 
-# Star tier definitions
+# Priority tier definitions — uses unified priority: max(stars, installs)
 TIERS = [
-    ("tier-1", 1000, float("inf"), "1000+ stars — verify immediately"),
-    ("tier-2", 100, 999, "100-999 stars — high priority"),
-    ("tier-3", 10, 99, "10-99 stars — medium priority"),
-    ("tier-4", 1, 9, "1-9 stars — standard priority"),
-    ("tier-5", 0, 0, "0 stars — low priority"),
+    ("tier-1", 1000, float("inf"), "1000+ priority — verify immediately"),
+    ("tier-2", 100, 999, "100-999 priority — high priority"),
+    ("tier-3", 10, 99, "10-99 priority — medium priority"),
+    ("tier-4", 1, 9, "1-9 priority — standard priority"),
+    ("tier-5", 0, 0, "0 priority — low priority"),
 ]
+
+
+def _priority_score(skill: dict) -> int:
+    """Unified priority: max(stars, installs). MCP uses stars, agents use installs."""
+    return max(int(skill.get("stars") or 0), int(skill.get("installs") or 0))
 
 
 def load_all_skills() -> list[dict]:
@@ -53,6 +58,20 @@ def load_all_skills() -> list[dict]:
     return skills
 
 
+def _parse_installs(skill: dict) -> int:
+    """Parse installs count from tags array (e.g. 'installs:97732')."""
+    installs = int(skill.get("installs") or 0)
+    if installs == 0:
+        for t in skill.get("tags", []):
+            if isinstance(t, str) and t.startswith("installs:"):
+                try:
+                    installs = int(t.split(":", 1)[1])
+                except ValueError:
+                    pass
+                break
+    return installs
+
+
 def skill_summary(skill: dict) -> dict:
     """Create a compact summary for index files."""
     return {
@@ -61,6 +80,7 @@ def skill_summary(skill: dict) -> dict:
         "description": skill.get("description", "")[:200],
         "repo_url": skill.get("repo_url", ""),
         "stars": skill.get("stars", 0),
+        "installs": _parse_installs(skill),
         "tags": skill.get("tags", []),
         "verification_status": skill.get("verification_status", "unverified"),
         "overall_score": skill.get("overall_score", 0),
@@ -71,15 +91,15 @@ def skill_summary(skill: dict) -> dict:
     }
 
 
-def get_tier(stars: int) -> str:
-    """Determine which star tier a skill belongs to."""
-    if stars >= 1000:
+def get_tier(priority: int) -> str:
+    """Determine which priority tier a skill belongs to."""
+    if priority >= 1000:
         return "tier-1"
-    if stars >= 100:
+    if priority >= 100:
         return "tier-2"
-    if stars >= 10:
+    if priority >= 10:
         return "tier-3"
-    if stars >= 1:
+    if priority >= 1:
         return "tier-4"
     return "tier-5"
 
@@ -92,8 +112,8 @@ def main() -> None:
     skills = load_all_skills()
     logger.info("Loaded %d skills", len(skills))
 
-    # Sort all skills by stars descending
-    skills.sort(key=lambda s: (-s.get("stars", 0), s.get("name", "")))
+    # Sort all skills by unified priority (max of stars, installs) descending
+    skills.sort(key=lambda s: (-_priority_score(s), s.get("name", "")))
 
     # === 1. Verification Queue ===
     unverified = [s for s in skills if s.get("verification_status") == "unverified"]
@@ -108,7 +128,7 @@ def main() -> None:
     # Tier breakdown in queue
     for tier_id, min_stars, max_stars, desc in TIERS:
         tier_skills = [s for s in unverified
-                       if min_stars <= s.get("stars", 0) <= max_stars]
+                       if min_stars <= _priority_score(s) <= max_stars]
         queue["tiers"][tier_id] = {
             "description": desc,
             "count": len(tier_skills),
@@ -160,10 +180,10 @@ def main() -> None:
 
     for tier_id, min_stars, max_stars, desc in TIERS:
         if max_stars == float("inf"):
-            tier_skills = [s for s in skills if s.get("stars", 0) >= min_stars]
+            tier_skills = [s for s in skills if _priority_score(s) >= min_stars]
         else:
             tier_skills = [s for s in skills
-                           if min_stars <= s.get("stars", 0) <= max_stars]
+                           if min_stars <= _priority_score(s) <= max_stars]
 
         tier_file = BY_TIER_DIR / f"{tier_id}.json"
         tier_data = {
@@ -181,11 +201,11 @@ def main() -> None:
     index_data = {
         "total": len(skills),
         "generated_at": datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
-        "sort": "stars_desc",
+        "sort": "priority_desc",
         "skills": [skill_summary(s) for s in skills],
     }
     index_file.write_text(json.dumps(index_data, indent=2))
-    logger.info("Updated main index: %d skills sorted by stars", len(skills))
+    logger.info("Updated main index: %d skills sorted by priority", len(skills))
 
     logger.info("=" * 60)
     logger.info("Done!")

@@ -12,18 +12,19 @@
       "description": "Easily spin up an MCP Server on Next.js, Nuxt.js, Svelte.js, and more",
       "repo_url": "https://github.com/vercel/mcp-adapter",
       "stars": 566,
-      "overall_score": 85,
+      "installs": 0,
+      "overall_score": 67,
       "verification_status": "pass",
-      "risk_level": "info",
-      "primary_language": "unknown",
+      "risk_level": "medium",
+      "primary_language": "typescript",
       "install_url": "https://github.com/vercel/mcp-adapter",
-      "skill_type": "unknown"
+      "skill_type": "mcp_server"
     }
   ],
   "total_skills": 1,
   "total_candidates": 1,
-  "avg_score": 85.0,
-  "min_score": 85,
+  "avg_score": 67.0,
+  "min_score": 67,
   "top_stars": 566,
-  "generated_at": "2026-02-28T03:46:45Z"
+  "generated_at": "2026-03-05T16:00:23Z"
 }

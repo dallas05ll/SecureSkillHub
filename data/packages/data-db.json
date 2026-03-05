@@ -3,30 +3,31 @@
   "label": "General Databases Package",
   "description": "Top 10 verified databases skills, auto-curated by GitHub stars and security score.",
   "skill_ids": [
-    "mindsdb--mindsdb",
+    "context7-docs-lookup-e3efeab3",
     "supabase-postgres-best-practices-593fe9e6",
+    "db-migrations-and-schema-changes-31a16b1b",
+    "litestream-5a1debb7",
     "skill-seekers-doc-converter-dcbed0f4",
+    "convex-d88ae04c",
     "likec4-2a279f32",
     "mcp-supabase-95603cab",
     "postgres-mcp-23d75fe2",
-    "firebase-mcp-244e7b5d",
-    "xiyan-mcp-server-82de6243",
-    "mcp-server-milvus-8e15b5bd",
-    "mongodb-lens-29f2a17f"
+    "agent-mail-5c9a3048"
   ],
   "skills": [
     {
-      "id": "mindsdb--mindsdb",
-      "name": "mindsdb",
-      "description": "Federated Query Engine for AI with a built-in MCP Server that connects databases, data warehouses, and SaaS apps for unified data access.",
-      "repo_url": "https://github.com/mindsdb/mindsdb",
-      "stars": 38581,
-      "overall_score": 100,
+      "id": "context7-docs-lookup-e3efeab3",
+      "name": "context7-docs-lookup",
+      "description": "Use Context7 to fetch up-to-date library documentation. Activates when the user asks about libraries, frameworks, API references, or needs code examples \u2014 especially for setup questions, code generati",
+      "repo_url": "https://github.com/upstash/context7",
+      "stars": 0,
+      "installs": 46024,
+      "overall_score": 60,
       "verification_status": "pass",
       "risk_level": "medium",
-      "primary_language": "Python",
-      "install_url": "https://github.com/mindsdb/mindsdb",
-      "skill_type": "mcp_server"
+      "primary_language": "typescript",
+      "install_url": "https://github.com/upstash/context7",
+      "skill_type": "agent_skill"
     },
     {
       "id": "supabase-postgres-best-practices-593fe9e6",
@@ -34,12 +35,41 @@
       "description": "Agent skill: supabase-postgres-best-practices from supabase/agent-skills",
       "repo_url": "https://github.com/supabase/agent-skills",
       "stars": 25500,
+      "installs": 0,
       "overall_score": 100,
       "verification_status": "pass",
       "risk_level": "info",
       "primary_language": "unknown",
       "install_url": "https://github.com/supabase/agent-skills",
-      "skill_type": "unknown"
+      "skill_type": "agent_skill"
+    },
+    {
+      "id": "db-migrations-and-schema-changes-31a16b1b",
+      "name": "db-migrations-and-schema-changes",
+      "description": "Workflows and commands for managing Alembic database migrations and schema changes in the letta-cloud core app, including using uv, just, LETTA_PG_URI, and switching between SQLite and Postgres.",
+      "repo_url": "https://github.com/letta-ai/letta",
+      "stars": 0,
+      "installs": 21149,
+      "overall_score": 60,
+      "verification_status": "pass",
+      "risk_level": "medium",
+      "primary_language": "python",
+      "install_url": "https://github.com/letta-ai/letta",
+      "skill_type": "agent_skill"
+    },
+    {
+      "id": "litestream-5a1debb7",
+      "name": "litestream",
+      "description": "Expert knowledge for contributing to Litestream, a standalone disaster recovery tool for SQLite. Provides architectural understanding, code patterns, critical rules, and debugging procedures for WAL m",
+      "repo_url": "https://github.com/benbjohnson/litestream",
+      "stars": 0,
+      "installs": 13218,
+      "overall_score": 72,
+      "verification_status": "pass",
+      "risk_level": "medium",
+      "primary_language": "go",
+      "install_url": "https://github.com/benbjohnson/litestream",
+      "skill_type": "agent_skill"
     },
     {
       "id": "skill-seekers-doc-converter-dcbed0f4",
@@ -47,6 +77,7 @@
       "description": "Universal data layer for AI systems that converts documentation websites, GitHub repositories, PDFs, and local codebases into structured knowledge assets for Claude, Gemini, OpenAI, RAG pipelines (Lan",
       "repo_url": "https://github.com/yusufkaraaslan/Skill_Seekers",
       "stars": 9849,
+      "installs": 0,
       "overall_score": 100,
       "verification_status": "pass",
       "risk_level": "medium",
@@ -55,17 +86,32 @@
       "skill_type": "agent_skill"
     },
     {
+      "id": "convex-d88ae04c",
+      "name": "Convex",
+      "description": "Agent skill: convex from waynesutton/convexskills",
+      "repo_url": "https://github.com/waynesutton/convexskills",
+      "stars": 3900,
+      "installs": 0,
+      "overall_score": 54,
+      "verification_status": "pass",
+      "risk_level": "medium",
+      "primary_language": "unknown",
+      "install_url": "https://github.com/waynesutton/convexskills",
+      "skill_type": "agent_skill"
+    },
+    {
       "id": "likec4-2a279f32",
       "name": "LikeC4",
       "description": "LikeC4 MCP Server provides knowledge of your LikeC4 model to LLMs.\nThis enables you to query your model in natural language:\n- \u201cLookup LikeC4 model and list all incoming relationships of the backend a",
       "repo_url": "https://github.com/LikeC4/LikeC4",
       "stars": 2781,
+      "installs": 0,
       "overall_score": 85,
       "verification_status": "pass",
       "risk_level": "medium",
       "primary_language": "typescript",
       "install_url": "https://github.com/LikeC4/LikeC4",
-      "skill_type": "unknown"
+      "skill_type": "mcp_server"
     },
     {
       "id": "mcp-supabase-95603cab",
@@ -73,12 +119,13 @@
       "description": "A collection of MCP servers that connect LLMs to Supabase",
       "repo_url": "https://github.com/supabase-community/mcp-supabase",
       "stars": 2486,
+      "installs": 0,
       "overall_score": 85,
       "verification_status": "pass",
       "risk_level": "medium",
       "primary_language": "typescript",
       "install_url": "https://github.com/supabase-community/mcp-supabase",
-      "skill_type": "unknown"
+      "skill_type": "mcp_server"
     },
     {
       "id": "postgres-mcp-23d75fe2",
@@ -86,70 +133,33 @@
       "description": "Postgres MCP Pro provides configurable read/write access and performance analysis for you and your AI agents.",
       "repo_url": "https://github.com/crystaldba/postgres-mcp",
       "stars": 2188,
+      "installs": 0,
       "overall_score": 91,
       "verification_status": "pass",
       "risk_level": "high",
       "primary_language": "python",
       "install_url": "https://github.com/crystaldba/postgres-mcp",
-      "skill_type": "unknown"
+      "skill_type": "mcp_server"
     },
     {
-      "id": "firebase-mcp-244e7b5d",
-      "name": "firebase-mcp",
-      "description": "\ud83d\udd25 Model Context Protocol (MCP) server for Firebase.",
-      "repo_url": "https://github.com/gannonh/firebase-mcp",
-      "stars": 239,
+      "id": "agent-mail-5c9a3048",
+      "name": "agent-mail",
+      "description": "MCP Agent Mail - Mail-like coordination layer for multi-agent workflows. Identities, inbox/outbox, file reservations, contact policies, threaded messaging, pre-commit guard, Human Overseer, static exp",
+      "repo_url": "https://github.com/dicklesworthstone/mcp_agent_mail",
+      "stars": 0,
+      "installs": 1695,
       "overall_score": 50,
-      "verification_status": "manual_review",
-      "risk_level": "medium",
-      "primary_language": "unknown",
-      "install_url": "https://github.com/gannonh/firebase-mcp",
-      "skill_type": "unknown"
-    },
-    {
-      "id": "xiyan-mcp-server-82de6243",
-      "name": "xiyan_mcp_server",
-      "description": "A Model Context Protocol (MCP) server that enables natural language queries to databases",
-      "repo_url": "https://github.com/XGenerationLab/xiyan_mcp_server",
-      "stars": 231,
-      "overall_score": 50,
-      "verification_status": "manual_review",
-      "risk_level": "medium",
-      "primary_language": "unknown",
-      "install_url": "https://github.com/XGenerationLab/xiyan_mcp_server",
-      "skill_type": "unknown"
-    },
-    {
-      "id": "mcp-server-milvus-8e15b5bd",
-      "name": "mcp-server-milvus",
-      "description": "Model Context Protocol Servers for Milvus",
-      "repo_url": "https://github.com/zilliztech/mcp-server-milvus",
-      "stars": 215,
-      "overall_score": 100,
       "verification_status": "pass",
-      "risk_level": "high",
-      "primary_language": "unknown",
-      "install_url": "https://github.com/zilliztech/mcp-server-milvus",
-      "skill_type": "unknown"
-    },
-    {
-      "id": "mongodb-lens-29f2a17f",
-      "name": "mongodb-lens",
-      "description": "\ud83c\udf43\ud83d\udd0e MongoDB Lens: Full Featured MCP Server for MongoDB Databases",
-      "repo_url": "https://github.com/furey/mongodb-lens",
-      "stars": 199,
-      "overall_score": 50,
-      "verification_status": "manual_review",
       "risk_level": "medium",
-      "primary_language": "unknown",
-      "install_url": "https://github.com/furey/mongodb-lens",
-      "skill_type": "unknown"
+      "primary_language": "python",
+      "install_url": "https://github.com/dicklesworthstone/mcp_agent_mail",
+      "skill_type": "agent_skill"
     }
   ],
   "total_skills": 10,
-  "total_candidates": 16,
-  "avg_score": 81.1,
+  "total_candidates": 164,
+  "avg_score": 75.7,
   "min_score": 50,
-  "top_stars": 38581,
-  "generated_at": "2026-03-02T22:27:24Z"
+  "top_stars": 0,
+  "generated_at": "2026-03-05T16:00:23Z"
 }

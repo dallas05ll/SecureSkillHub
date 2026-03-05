@@ -254,6 +254,8 @@ class VerifiedSkill(BaseModel):
     description: str = Field(default="", max_length=500)
     tags: list[str] = Field(default_factory=list)
     stars: int = Field(default=0, ge=0)
+    installs: int = Field(default=0, ge=0)
+    skill_type: SkillType = SkillType.MCP_SERVER
     owner: str = Field(default="", max_length=200)
     primary_language: str = Field(default="unknown", max_length=50)
     scan_date: str = Field(max_length=30)

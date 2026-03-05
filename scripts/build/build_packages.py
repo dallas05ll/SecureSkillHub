@@ -73,6 +73,25 @@ def load_all_skills() -> list[dict]:
     return skills
 
 
+def _parse_installs(skill: dict) -> int:
+    """Parse installs count from tags array (e.g. 'installs:97732')."""
+    installs = int(skill.get("installs") or 0)
+    if installs == 0:
+        for t in skill.get("tags", []):
+            if isinstance(t, str) and t.startswith("installs:"):
+                try:
+                    installs = int(t.split(":", 1)[1])
+                except ValueError:
+                    pass
+                break
+    return installs
+
+
+def _priority_score(skill: dict) -> int:
+    """Unified priority: max(stars, installs)."""
+    return max(int(skill.get("stars") or 0), _parse_installs(skill))
+
+
 def skill_entry(skill: dict) -> dict:
     """Create a package entry for a skill."""
     return {
@@ -81,12 +100,13 @@ def skill_entry(skill: dict) -> dict:
         "description": skill.get("description", "")[:200],
         "repo_url": skill.get("repo_url", ""),
         "stars": skill.get("stars", 0),
+        "installs": _parse_installs(skill),
         "overall_score": skill.get("overall_score", 0),
         "verification_status": skill.get("verification_status", "unverified"),
         "risk_level": skill.get("risk_level", "info"),
         "primary_language": skill.get("primary_language", "unknown"),
         "install_url": skill.get("install_url", skill.get("repo_url", "")),
-        "skill_type": skill.get("skill_type", skill.get("type", "unknown")),
+        "skill_type": skill.get("skill_type", "mcp_server"),
     }
 
 
@@ -139,7 +159,7 @@ def build_package_for_tag(
             and int(s.get("overall_score", 0) or 0) >= 50
         )
     ]
-    verified.sort(key=lambda s: (-s.get("stars", 0), s.get("name", "")))
+    verified.sort(key=lambda s: (-_priority_score(s), s.get("name", "")))
 
     top_skills = verified[:top_n]
 

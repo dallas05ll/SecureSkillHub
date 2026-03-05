@@ -5,11 +5,15 @@
     {
       "id": "sm-h-001",
       "title": "Collection state snapshot",
-      "updated": "2026-03-05T02:00:00.000000+00:00",
+      "updated": "2026-03-05T16:00:00.000000+00:00",
       "data": {
         "total_skills": 11098,
         "unique_tags": 77,
         "avg_tags_per_skill": 2.8,
+        "skill_types": {
+          "mcp_server": 5692,
+          "agent_skill": 5406
+        },
         "status_distribution": {
           "unverified": 6623,
           "pass": 4475,
@@ -23,7 +27,8 @@
           "skills_sh": 24,
           "claude_skills_hub": 44,
           "glama": 29
-        }
+        },
+        "note": "skill_type counts corrected from 7027/4071 to 5692/5406 after VerifiedSkill schema fix (skill_type field was missing, defaulted to mcp_server)"
       }
     },
     {
@@ -160,8 +165,8 @@
       "id": "sm-h-007",
       "title": "Dual catalog structure: MCP vs Agent skill gaps",
       "category": "catalog",
-      "description": "MCP skills: 6,297 (58% verified), have stars, license, forks, trust_level. Agent skills: 4,801 (14% verified), have installs but no stars/license/forks. Install tiers: 8 Mega (100K+), 158 High (10K-100K), 611 Mid (1K-10K), 1791 Low (100-1K). Agent verification gap is the #1 coverage priority.",
-      "date": "2026-03-04"
+      "description": "CORRECTED 2026-03-05: MCP servers: 5,692 (not 6,297 — schema was stripping skill_type). Agent skills: 5,406 (not 4,801). The VerifiedSkill Pydantic schema was missing skill_type and installs fields, causing model_dump() to drop them and default to mcp_server. Fixed by adding both fields to schema. Build pipeline now correctly classifies skills. Tier 1 now has 677 agent skills (was 0 before fix). Unified priority scoring: max(stars, installs) used everywhere.",
+      "date": "2026-03-05"
     },
     {
       "id": "sm-h-008",

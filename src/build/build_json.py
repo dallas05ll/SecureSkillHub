@@ -207,6 +207,7 @@ API_SKILLS_BY_TAG_DIR = API_SKILLS_DIR / "by-tag"
 API_SKILLS_BY_TIER_DIR = API_SKILLS_DIR / "by-tier"
 API_PACKAGES_DIR = SITE_API_DIR / "packages"
 API_SEARCH_INDEX = SITE_API_DIR / "search-index.json"
+API_V2_META_DIR = SITE_API_DIR / "v2" / "meta"
 
 
 # ---------------------------------------------------------------------------
@@ -275,6 +276,14 @@ def _normalize_skill_record(raw: dict[str, Any]) -> dict[str, Any]:
         TAG_ALIASES.get(t, t) for t in raw_tags
     ))
     normalized["stars"] = _safe_int(normalized.get("stars"), 0)
+    # Parse installs from tags (e.g. "installs:97732") into a proper field
+    installs = _safe_int(normalized.get("installs"), 0)
+    if installs == 0:
+        for t in raw_tags:
+            if isinstance(t, str) and t.startswith("installs:"):
+                installs = _safe_int(t.split(":", 1)[1], 0)
+                break
+    normalized["installs"] = installs
     normalized["owner"] = str(normalized.get("owner") or "")
     normalized["primary_language"] = str(normalized.get("primary_language") or "unknown")
     findings_summary = normalized.get("findings_summary")
@@ -469,6 +478,11 @@ def load_skills() -> list[dict[str, Any]]:
     return skills
 
 
+def _priority_score(skill: dict[str, Any]) -> int:
+    """Unified priority: max(stars, installs). MCP uses stars, agents use installs."""
+    return max(int(skill.get("stars") or 0), int(skill.get("installs") or 0))
+
+
 def build_skills_index(skills: list[dict[str, Any]]) -> list[dict[str, Any]]:
     """
     Generate the skills index (summarised view) and individual skill detail
@@ -495,6 +509,7 @@ def build_skills_index(skills: list[dict[str, Any]]) -> list[dict[str, Any]]:
             "verification_status": _normalize_verification_status(skill.get("verification_status", "unverified")),
             "tags": skill.get("tags", []),
             "stars": skill.get("stars", 0),
+            "installs": skill.get("installs", 0),
             "source_hub": skill.get("source_hub", ""),
             "skill_type": skill.get("skill_type", "mcp_server"),
             "owner": skill.get("owner", ""),
@@ -512,8 +527,8 @@ def build_skills_index(skills: list[dict[str, Any]]) -> list[dict[str, Any]]:
         detail_path = API_SKILLS_DIR / f"{skill['id']}.json"
         _write_json(detail_path, skill)
 
-    # Sort by stars descending for API consumers
-    index.sort(key=lambda s: s.get("stars", 0), reverse=True)
+    # Sort by unified priority (max of stars, installs) descending
+    index.sort(key=lambda s: _priority_score(s), reverse=True)
     _write_json(API_SKILLS_DIR / "index.json", index)
     logger.info(
         "  -> %s/index.json  (%d skills)",
@@ -541,8 +556,9 @@ def build_tag_and_tier_indexes(index: list[dict[str, Any]], tag_tree_data: dict[
     API_SKILLS_BY_TAG_DIR.mkdir(parents=True, exist_ok=True)
     API_SKILLS_BY_TIER_DIR.mkdir(parents=True, exist_ok=True)
 
-    # Keep a stable, star-sorted order across all derived indexes.
-    sorted_index = sorted(index, key=lambda s: s.get("stars", 0), reverse=True)
+    # Keep a stable, priority-sorted order across all derived indexes.
+    # Uses unified priority: max(stars, installs) so agent skills rank by installs.
+    sorted_index = sorted(index, key=lambda s: _priority_score(s), reverse=True)
 
     # -------- by-tag --------
     by_tag: dict[str, list[dict[str, Any]]] = {}
@@ -571,6 +587,7 @@ def build_tag_and_tier_indexes(index: list[dict[str, Any]], tag_tree_data: dict[
             "total": len(tag_skills),
             "verified": verified,
             "top_stars": tag_skills[0].get("stars", 0) if tag_skills else 0,
+            "top_priority": _priority_score(tag_skills[0]) if tag_skills else 0,
             "skills": tag_skills,
         }
         _write_json(API_SKILLS_BY_TAG_DIR / f"{tag}.json", payload)
@@ -594,8 +611,8 @@ def build_tag_and_tier_indexes(index: list[dict[str, Any]], tag_tree_data: dict[
 
     # Write canonical alias files (merging all abbreviated variants).
     for canonical, canon_skills in sorted(canonical_buckets.items()):
-        # Re-sort by stars descending to match the rest of the by-tag files.
-        canon_skills.sort(key=lambda s: s.get("stars", 0), reverse=True)
+        # Re-sort by unified priority descending to match the rest of the by-tag files.
+        canon_skills.sort(key=lambda s: _priority_score(s), reverse=True)
         verified = sum(
             1 for s in canon_skills
             if _normalize_verification_status(s.get("verification_status")) == "pass"
@@ -655,20 +672,22 @@ def build_tag_and_tier_indexes(index: list[dict[str, Any]], tag_tree_data: dict[
     _write_json(API_SKILLS_BY_TAG_DIR / "index.json", by_category_index)
 
     # -------- by-tier --------
+    # Uses unified priority: max(stars, installs) so agent skills rank correctly.
+    # MCP servers tier by stars, agent skills tier by installs — both use the same thresholds.
     tiers = [
-        ("tier-1", 1000, None, "1000+ stars — verify immediately"),
-        ("tier-2", 100, 999, "100-999 stars — high priority"),
-        ("tier-3", 10, 99, "10-99 stars — medium priority"),
-        ("tier-4", 1, 9, "1-9 stars — standard priority"),
-        ("tier-5", 0, 0, "0 stars — low priority"),
+        ("tier-1", 1000, None, "1000+ priority — verify immediately"),
+        ("tier-2", 100, 999, "100-999 priority — high priority"),
+        ("tier-3", 10, 99, "10-99 priority — medium priority"),
+        ("tier-4", 1, 9, "1-9 priority — standard priority"),
+        ("tier-5", 0, 0, "0 priority — low priority"),
     ]
 
     for tier_id, min_stars, max_stars, desc in tiers:
         if max_stars is None:
-            tier_skills = [s for s in sorted_index if s.get("stars", 0) >= min_stars]
+            tier_skills = [s for s in sorted_index if _priority_score(s) >= min_stars]
         else:
             tier_skills = [
-                s for s in sorted_index if min_stars <= s.get("stars", 0) <= max_stars
+                s for s in sorted_index if min_stars <= _priority_score(s) <= max_stars
             ]
         verified = sum(
             1 for s in tier_skills
@@ -715,6 +734,7 @@ def build_search_index(skills: list[dict[str, Any]]) -> list[dict[str, Any]]:
             "tags": skill.get("tags", []),
             "description": _truncate(skill.get("description", ""), 120),
             "stars": skill.get("stars", 0),
+            "installs": skill.get("installs", 0),
             "overall_score": skill.get("overall_score", 0),
             "verification_status": skill.get("verification_status", "unverified"),
             "skill_type": skill.get("skill_type", "mcp_server"),
@@ -956,6 +976,135 @@ def build_packages(skills: list[dict[str, Any]], tag_tree: dict[str, Any]) -> in
 
 
 # ---------------------------------------------------------------------------
+# v2 Meta Files — lightweight agent-first indexes
+# ---------------------------------------------------------------------------
+
+def build_v2_meta(skills: list[dict[str, Any]], tag_tree: dict[str, Any]) -> None:
+    """
+    Build lightweight v2 meta files for efficient agent consumption.
+
+    Generates:
+      - api/v2/meta/mcp_servers_top.json  (top 200 MCP servers by stars, ~15KB)
+      - api/v2/meta/agent_skills_top.json (top 200 agent skills by installs, ~15KB)
+      - api/v2/meta/mcp_servers.json      (all MCP servers, compact)
+      - api/v2/meta/agent_skills.json     (all agent skills, compact)
+      - api/v2/meta/categories.json       (tag tree summary with per-type counts)
+      - api/v2/meta/stats.json            (quick stats for agents)
+    """
+    logger.info("Building v2 meta files ...")
+    API_V2_META_DIR.mkdir(parents=True, exist_ok=True)
+
+    # Tier label from priority score
+    def _tier_label(score: int) -> str:
+        if score >= 10000: return "S"
+        if score >= 1000: return "A"
+        if score >= 100: return "B"
+        if score >= 10: return "C"
+        if score >= 1: return "D"
+        return "E"
+
+    # Compact item for meta files — 7 fields max
+    def _meta_item(skill: dict[str, Any]) -> dict[str, Any]:
+        score = _priority_score(skill)
+        is_agent = skill.get("skill_type") == "agent_skill"
+        # Filter out system/installs tags, keep only content tags
+        tags = [
+            t for t in (skill.get("tags") or [])
+            if isinstance(t, str)
+            and not t.startswith("installs:")
+            and t not in ("agent-skills", "mcp_server", "repo_unavailable", "clone_failure")
+        ]
+        return {
+            "id": skill["id"],
+            "name": skill.get("name", ""),
+            "score": score,
+            "score_type": "installs" if is_agent else "stars",
+            "tier": _tier_label(score),
+            "verified": _normalize_verification_status(skill.get("verification_status")) == "pass",
+            "tags": tags[:3],  # Max 3 tags to keep compact
+            "one_liner": _truncate(skill.get("description", ""), 80),
+        }
+
+    # Split by type
+    mcp_skills = [s for s in skills if s.get("skill_type") != "agent_skill"]
+    agent_skills = [s for s in skills if s.get("skill_type") == "agent_skill"]
+
+    # Sort each by their respective priority
+    mcp_skills.sort(key=lambda s: _priority_score(s), reverse=True)
+    agent_skills.sort(key=lambda s: _priority_score(s), reverse=True)
+
+    mcp_verified = sum(1 for s in mcp_skills if _normalize_verification_status(s.get("verification_status")) == "pass")
+    agent_verified = sum(1 for s in agent_skills if _normalize_verification_status(s.get("verification_status")) == "pass")
+
+    # Top 200 files (~15KB each)
+    for label, subset, verified_count in [
+        ("mcp_servers", mcp_skills, mcp_verified),
+        ("agent_skills", agent_skills, agent_verified),
+    ]:
+        top_items = [_meta_item(s) for s in subset[:200]]
+        top_payload = {
+            "generated": datetime.now(timezone.utc).isoformat(),
+            "total": len(subset),
+            "verified": verified_count,
+            "showing": len(top_items),
+            "sort": "priority_desc",
+            "items": top_items,
+        }
+        _write_json(API_V2_META_DIR / f"{label}_top.json", top_payload)
+        logger.info("  -> v2/meta/%s_top.json  (%d items)", label, len(top_items))
+
+        # Full catalog file (all items, still compact)
+        all_items = [_meta_item(s) for s in subset]
+        full_payload = {
+            "generated": datetime.now(timezone.utc).isoformat(),
+            "total": len(subset),
+            "verified": verified_count,
+            "sort": "priority_desc",
+            "items": all_items,
+        }
+        _write_json(API_V2_META_DIR / f"{label}.json", full_payload)
+        logger.info("  -> v2/meta/%s.json  (%d items)", label, len(all_items))
+
+    # Categories file — tag tree summary with per-type counts
+    categories = []
+    if tag_tree:
+        def _walk_categories(node: dict[str, Any], depth: int = 0) -> dict[str, Any]:
+            cat = {
+                "id": node.get("id", ""),
+                "label": node.get("label", ""),
+                "skill_count": node.get("skill_count", 0),
+            }
+            children = node.get("children", [])
+            if children and depth < 2:  # Only 2 levels deep for compact output
+                cat["children"] = [_walk_categories(c, depth + 1) for c in children]
+            elif children:
+                cat["child_count"] = len(children)
+            return cat
+
+        for top_cat in tag_tree.get("categories", []):
+            categories.append(_walk_categories(top_cat))
+
+    categories_payload = {
+        "generated": datetime.now(timezone.utc).isoformat(),
+        "total_categories": len(categories),
+        "mcp_servers": len(mcp_skills),
+        "agent_skills": len(agent_skills),
+        "categories": categories,
+    }
+    _write_json(API_V2_META_DIR / "categories.json", categories_payload)
+    logger.info("  -> v2/meta/categories.json  (%d categories)", len(categories))
+
+    # Quick stats for agents
+    stats_payload = {
+        "mcp_servers": {"total": len(mcp_skills), "verified": mcp_verified},
+        "agent_skills": {"total": len(agent_skills), "verified": agent_verified},
+        "last_build": datetime.now(timezone.utc).isoformat(),
+    }
+    _write_json(API_V2_META_DIR / "stats.json", stats_payload)
+    logger.info("  -> v2/meta/stats.json")
+
+
+# ---------------------------------------------------------------------------
 # Main orchestrator
 # ---------------------------------------------------------------------------
 
@@ -986,6 +1135,9 @@ def build_all() -> None:
 
     # 6. Build packages
     pkg_count = build_packages(skills, tags)
+
+    # 7. Build v2 meta files (lightweight agent-first indexes)
+    build_v2_meta(skills, tags)
 
     elapsed = datetime.now(timezone.utc) - started
     logger.info("=" * 60)
