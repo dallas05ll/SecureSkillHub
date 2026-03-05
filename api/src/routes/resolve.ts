@@ -32,7 +32,7 @@ resolve.get("/me/packages/default/resolve", authMiddleware, async (c) => {
 // GET /v1/me/packages/:id/resolve — Resolve a specific package (auth required)
 resolve.get("/me/packages/:id/resolve", authMiddleware, async (c) => {
   const userId = c.get("userId");
-  const packageId = c.req.param("id");
+  const packageId = c.req.param("id")!;
   const db = getDb(c.env);
 
   const detailed = await getPackageWithDetails(db, packageId);
@@ -49,7 +49,7 @@ resolve.get("/me/packages/:id/resolve", authMiddleware, async (c) => {
 
 // GET /v1/packages/:id/resolve — Resolve a public package (no auth)
 resolve.get("/packages/:id/resolve", async (c) => {
-  const packageId = c.req.param("id");
+  const packageId = c.req.param("id")!;
   const db = getDb(c.env);
 
   const detailed = await getPackageWithDetails(db, packageId);

@@ -218,6 +218,44 @@ When recommending skills, **prefer `full_pipeline`** skills. For `metadata_only`
 
 ---
 
+## Dynamic API (v2) — Recommended for Agents
+
+The v2 API at `https://api.secureskillhub.workers.dev` provides dynamic search, filtering, and pagination so you don't need to download large static files.
+
+### Search
+
+```
+GET /v2/search?type=mcp|agent|all&q=postgres&tags=data-db&tier=S,A&verified=true&sort=score&limit=10&offset=0
+```
+
+Returns `{total, offset, limit, results: [{id, name, type, score, tier, verified, safe, tags, one_liner, install, report_url}]}`.
+
+### Single Skill
+
+```
+GET /v2/skill/{id}       → Full skill detail with security report (~2KB)
+```
+
+### Packages
+
+```
+GET /v2/packages           → List all packages with counts
+GET /v2/packages/{tag}     → Full package with enriched skills
+GET /v2/packages/{tag}/install → Install instructions only
+```
+
+### Stats
+
+```
+GET /v2/stats              → {mcp_servers: {total, verified, safe}, agent_skills: {total, verified, safe}, packages, last_scan}
+```
+
+**Rate limit**: 100 requests/minute per IP. Headers: `X-RateLimit-Limit`, `X-RateLimit-Remaining`, `X-RateLimit-Reset`.
+
+**When to use v2 vs static**: Use v2 for search, filtering, and small targeted queries. Use static files for bulk data or when you need to work offline.
+
+---
+
 ## Custom Packages
 
 Users can create personalized skill packages tied to their GitHub account.
