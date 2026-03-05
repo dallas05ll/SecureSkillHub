@@ -11,14 +11,165 @@
   "tags": [
     "agent-skills",
     "installs:84",
-    "utilities"
+    "utilities",
+    "status-pass"
   ],
-  "verification_status": "unverified",
-  "overall_score": 0,
-  "risk_level": "info",
-  "verified_commit": null,
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "medium",
+  "verified_commit": "43167446d4d8582f7fb969be134c2ef8adeee21f",
   "scan_summary": null,
   "repo_status": "available",
   "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
-  "repo_check_error": null
+  "repo_check_error": null,
+  "scan_date": "2026-03-05T00:47:20Z",
+  "findings_summary": {
+    "scanner_findings": 8,
+    "dangerous_calls": 2,
+    "network_ops": 5,
+    "file_ops": 0,
+    "env_access": 1,
+    "obfuscation": 0,
+    "injection_patterns": 0,
+    "mismatches": 0,
+    "undocumented_capabilities": 0,
+    "supervisor_approved": true,
+    "supervisor_confidence": 85
+  },
+  "scan_report": {
+    "total_findings": 8,
+    "injection_patterns_count": 0,
+    "obfuscation_count": 0,
+    "obfuscation_high_risk_count": 0,
+    "dangerous_calls_count": 2,
+    "severity_counts": {
+      "critical": 0,
+      "high": 2,
+      "medium": 6,
+      "low": 0,
+      "info": 0
+    },
+    "category_counts": {
+      "dangerous_calls": 2,
+      "network_ops": 5,
+      "env_access": 1
+    },
+    "top_findings": [
+      {
+        "rule_id": "regex_shell_backtick_exec",
+        "severity": "high",
+        "category": "dangerous_calls",
+        "file": "claude/agents/commit-pusher.md",
+        "line": 121
+      },
+      {
+        "rule_id": "regex_js_fetch",
+        "severity": "medium",
+        "category": "network_ops",
+        "file": "claude/skills/implementation-developing/references/architecture-patterns.md",
+        "line": 30
+      },
+      {
+        "rule_id": "regex_js_fetch",
+        "severity": "medium",
+        "category": "network_ops",
+        "file": "claude/skills/implementation-developing/references/architecture-patterns.md",
+        "line": 62
+      },
+      {
+        "rule_id": "regex_js_fetch",
+        "severity": "medium",
+        "category": "network_ops",
+        "file": "claude/skills/implementation-developing/references/architecture-patterns.md",
+        "line": 161
+      },
+      {
+        "rule_id": "regex_js_fetch",
+        "severity": "medium",
+        "category": "network_ops",
+        "file": "claude/skills/implementation-developing/references/architecture-patterns.md",
+        "line": 368
+      },
+      {
+        "rule_id": "regex_js_fetch",
+        "severity": "medium",
+        "category": "network_ops",
+        "file": "claude/skills/implementation-developing/references/architecture-patterns.md",
+        "line": 390
+      },
+      {
+        "rule_id": "regex_py_eval",
+        "severity": "high",
+        "category": "dangerous_calls",
+        "file": "claude/skills/workflow-review/SKILL.md",
+        "line": 271
+      },
+      {
+        "rule_id": "regex_generic_password",
+        "severity": "medium",
+        "category": "env_access",
+        "file": "claude/skills/requirements-analyzing-requirements/references/design-template.md",
+        "line": 105
+      }
+    ],
+    "total_files_scanned": 72
+  },
+  "verification_level": "full_pipeline",
+  "agent_audit": {
+    "agents_completed": 5,
+    "agents_required": 5,
+    "pipeline_run_at": "2026-03-05T00:47:20Z",
+    "agent_a": {
+      "signed": true,
+      "signed_at": "2026-03-05T00:47:20Z",
+      "comment": "Docs quality 10/10. README present. 12 features, 4 permissions claimed.",
+      "doc_quality_score": 10,
+      "claimed_permissions": [
+        "network access",
+        "system command execution",
+        "file system access",
+        "environment/secret access"
+      ]
+    },
+    "agent_b": {
+      "signed": true,
+      "signed_at": "2026-03-05T00:47:20Z",
+      "comment": "98 files analyzed. Found: 0 network, 0 file, 3 env, 0 system calls. Primary: unknown.",
+      "files_analyzed": 98,
+      "capabilities_found": [
+        "imports external dependencies",
+        "reads environment values"
+      ]
+    },
+    "agent_c_star": {
+      "signed": true,
+      "signed_at": "2026-03-05T00:47:20Z",
+      "comment": "8 findings: 0 critical, 2 high, 6 medium, 0 low. No obfuscation. No injection.",
+      "total_findings": 8,
+      "severity_counts": {
+        "critical": 0,
+        "high": 2,
+        "medium": 6,
+        "low": 0,
+        "info": 0
+      }
+    },
+    "agent_d": {
+      "signed": true,
+      "signed_at": "2026-03-05T00:47:20Z",
+      "comment": "Score 85. 0 mismatches. Risk: medium. Safety overrides: none triggered.",
+      "score": 85,
+      "mismatches": 0,
+      "safety_overrides_applied": false
+    },
+    "agent_e": {
+      "signed": true,
+      "signed_at": "2026-03-05T00:47:20Z",
+      "comment": "Approved. Confidence 85%. No overrides.",
+      "approved": true,
+      "confidence": 85,
+      "override_reason": null
+    },
+    "manager_summary": "5/5 agents completed. Score: 85/100, Risk: medium. 0 mismatches, 8 scanner findings. Approved at 85% confidence. No safety overrides."
+  }
 }

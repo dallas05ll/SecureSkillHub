@@ -7,18 +7,265 @@
   "skill_type": "agent_skill",
   "owner": "reinamaccredy",
   "stars": 0,
-  "primary_language": "unknown",
+  "primary_language": "shell",
   "tags": [
     "agent-skills",
     "installs:23",
-    "utilities"
+    "utilities",
+    "status-pass"
   ],
-  "verification_status": "unverified",
-  "overall_score": 0,
-  "risk_level": "info",
-  "verified_commit": null,
+  "verification_status": "pass",
+  "overall_score": 50,
+  "risk_level": "medium",
+  "verified_commit": "a550c4e5003765f8fcab1dabc62a0813d662420d",
   "scan_summary": null,
   "repo_status": "available",
   "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
-  "repo_check_error": null
+  "repo_check_error": null,
+  "scan_date": "2026-03-05T00:46:35Z",
+  "findings_summary": {
+    "scanner_findings": 667,
+    "dangerous_calls": 24,
+    "network_ops": 20,
+    "file_ops": 22,
+    "env_access": 82,
+    "obfuscation": 504,
+    "injection_patterns": 0,
+    "mismatches": 0,
+    "undocumented_capabilities": 0,
+    "supervisor_approved": false,
+    "supervisor_confidence": 90
+  },
+  "scan_report": {
+    "total_findings": 667,
+    "injection_patterns_count": 0,
+    "obfuscation_count": 504,
+    "obfuscation_high_risk_count": 467,
+    "dangerous_calls_count": 24,
+    "severity_counts": {
+      "critical": 0,
+      "high": 543,
+      "medium": 102,
+      "low": 22,
+      "info": 0
+    },
+    "category_counts": {
+      "dangerous_calls": 24,
+      "obfuscation": 504,
+      "env_access": 82,
+      "suspicious_urls": 15,
+      "network_ops": 20,
+      "file_ops": 22
+    },
+    "top_findings": [
+      {
+        "rule_id": "regex_shell_backtick_exec",
+        "severity": "high",
+        "category": "dangerous_calls",
+        "file": "AGENTS.md",
+        "line": 21
+      },
+      {
+        "rule_id": "regex_shell_backtick_exec",
+        "severity": "high",
+        "category": "dangerous_calls",
+        "file": "CLAUDE.md",
+        "line": 24
+      },
+      {
+        "rule_id": "regex_py_exec",
+        "severity": "high",
+        "category": "dangerous_calls",
+        "file": "toolboxes/trace/trace.js",
+        "line": 2732
+      },
+      {
+        "rule_id": "regex_py_exec",
+        "severity": "high",
+        "category": "dangerous_calls",
+        "file": "toolboxes/trace/trace.js",
+        "line": 6260
+      },
+      {
+        "rule_id": "regex_py_exec",
+        "severity": "high",
+        "category": "dangerous_calls",
+        "file": "toolboxes/trace/trace.js",
+        "line": 6280
+      },
+      {
+        "rule_id": "regex_py_exec",
+        "severity": "high",
+        "category": "dangerous_calls",
+        "file": "toolboxes/trace/trace.js",
+        "line": 6311
+      },
+      {
+        "rule_id": "regex_py_exec",
+        "severity": "high",
+        "category": "dangerous_calls",
+        "file": "toolboxes/trace/trace.js",
+        "line": 6312
+      },
+      {
+        "rule_id": "regex_js_function_ctor",
+        "severity": "high",
+        "category": "dangerous_calls",
+        "file": "toolboxes/trace/trace.js",
+        "line": 2874
+      },
+      {
+        "rule_id": "regex_js_atob",
+        "severity": "high",
+        "category": "obfuscation",
+        "file": "toolboxes/trace/trace.js",
+        "line": 7201
+      },
+      {
+        "rule_id": "regex_js_atob",
+        "severity": "high",
+        "category": "obfuscation",
+        "file": "toolboxes/trace/trace.js",
+        "line": 8193
+      },
+      {
+        "rule_id": "regex_js_atob",
+        "severity": "high",
+        "category": "obfuscation",
+        "file": "toolboxes/trace/trace.js",
+        "line": 8250
+      },
+      {
+        "rule_id": "regex_js_atob",
+        "severity": "high",
+        "category": "obfuscation",
+        "file": "toolboxes/trace/trace.js",
+        "line": 11639
+      },
+      {
+        "rule_id": "regex_js_btoa",
+        "severity": "high",
+        "category": "obfuscation",
+        "file": "toolboxes/trace/trace.js",
+        "line": 7213
+      },
+      {
+        "rule_id": "regex_js_unescape",
+        "severity": "high",
+        "category": "obfuscation",
+        "file": "toolboxes/trace/trace.js",
+        "line": 3257
+      },
+      {
+        "rule_id": "regex_js_unescape",
+        "severity": "high",
+        "category": "obfuscation",
+        "file": "toolboxes/trace/trace.js",
+        "line": 3533
+      },
+      {
+        "rule_id": "regex_js_unescape",
+        "severity": "high",
+        "category": "obfuscation",
+        "file": "toolboxes/trace/trace.js",
+        "line": 3539
+      },
+      {
+        "rule_id": "regex_js_unescape",
+        "severity": "high",
+        "category": "obfuscation",
+        "file": "toolboxes/trace/trace.js",
+        "line": 3575
+      },
+      {
+        "rule_id": "regex_js_unescape",
+        "severity": "high",
+        "category": "obfuscation",
+        "file": "toolboxes/trace/trace.js",
+        "line": 3676
+      },
+      {
+        "rule_id": "regex_js_unescape",
+        "severity": "high",
+        "category": "obfuscation",
+        "file": "toolboxes/trace/trace.js",
+        "line": 3679
+      },
+      {
+        "rule_id": "regex_js_unescape",
+        "severity": "high",
+        "category": "obfuscation",
+        "file": "toolboxes/trace/trace.js",
+        "line": 3683
+      }
+    ],
+    "total_files_scanned": 209
+  },
+  "verification_level": "full_pipeline",
+  "agent_audit": {
+    "agents_completed": 5,
+    "agents_required": 5,
+    "pipeline_run_at": "2026-03-05T00:46:35Z",
+    "agent_a": {
+      "signed": true,
+      "signed_at": "2026-03-05T00:46:35Z",
+      "comment": "Docs quality 10/10. README present. 12 features, 4 permissions claimed.",
+      "doc_quality_score": 10,
+      "claimed_permissions": [
+        "network access",
+        "system command execution",
+        "file system access",
+        "environment/secret access"
+      ]
+    },
+    "agent_b": {
+      "signed": true,
+      "signed_at": "2026-03-05T00:46:35Z",
+      "comment": "45 files analyzed. Found: 5 network, 19 file, 17 env, 3 system calls. Primary: shell.",
+      "files_analyzed": 45,
+      "capabilities_found": [
+        "imports external dependencies",
+        "performs network operations",
+        "reads/writes files",
+        "reads environment values",
+        "executes system commands"
+      ]
+    },
+    "agent_c_star": {
+      "signed": true,
+      "signed_at": "2026-03-05T00:46:35Z",
+      "comment": "667 findings: 0 critical, 543 high, 102 medium, 22 low. Obfuscation detected!. No injection.",
+      "total_findings": 667,
+      "severity_counts": {
+        "critical": 0,
+        "high": 543,
+        "medium": 102,
+        "low": 22,
+        "info": 0
+      }
+    },
+    "agent_d": {
+      "signed": true,
+      "signed_at": "2026-03-05T00:46:35Z",
+      "comment": "Score 15. 0 mismatches. Risk: critical. Safety overrides: applied.",
+      "score": 15,
+      "mismatches": 0,
+      "safety_overrides_applied": true
+    },
+    "agent_e": {
+      "signed": true,
+      "signed_at": "2026-03-05T00:46:35Z",
+      "comment": "Rejected. Confidence 90%. Deterministic override: high-risk obfuscation detected.",
+      "approved": false,
+      "confidence": 90,
+      "override_reason": "Deterministic override: high-risk obfuscation detected."
+    },
+    "manager_summary": "5/5 agents completed. Score: 15/100, Risk: critical. 0 mismatches, 667 scanner findings. Rejected at 90% confidence. Safety overrides triggered.",
+    "auto_clear": {
+      "applied": true,
+      "reason": "Auto-clear Cat 2: obfuscation-only (467 obf_hr, 0 dangerous, 0 inj, 209 files)",
+      "original_status": "fail",
+      "original_score": 15
+    }
+  }
 }

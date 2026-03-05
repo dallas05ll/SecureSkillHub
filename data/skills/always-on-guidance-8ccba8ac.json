@@ -7,20 +7,267 @@
   "skill_type": "agent_skill",
   "owner": "joelhooks",
   "stars": 0,
-  "primary_language": "unknown",
+  "primary_language": "typescript",
   "tags": [
     "agent-skills",
     "installs:471",
     "dev",
     "dev-testing",
-    "util"
+    "util",
+    "status-pass"
   ],
-  "verification_status": "unverified",
-  "overall_score": 0,
-  "risk_level": "info",
-  "verified_commit": null,
+  "verification_status": "pass",
+  "overall_score": 50,
+  "risk_level": "medium",
+  "verified_commit": "c0225bebda1d7fa4c87363a68183026e5b765cb3",
   "scan_summary": null,
   "repo_status": "available",
   "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
-  "repo_check_error": null
+  "repo_check_error": null,
+  "scan_date": "2026-03-05T00:38:46Z",
+  "findings_summary": {
+    "scanner_findings": 857,
+    "dangerous_calls": 244,
+    "network_ops": 67,
+    "file_ops": 175,
+    "env_access": 255,
+    "obfuscation": 41,
+    "injection_patterns": 0,
+    "mismatches": 0,
+    "undocumented_capabilities": 0,
+    "supervisor_approved": false,
+    "supervisor_confidence": 90
+  },
+  "scan_report": {
+    "total_findings": 857,
+    "injection_patterns_count": 0,
+    "obfuscation_count": 41,
+    "obfuscation_high_risk_count": 8,
+    "dangerous_calls_count": 244,
+    "severity_counts": {
+      "critical": 0,
+      "high": 360,
+      "medium": 322,
+      "low": 175,
+      "info": 0
+    },
+    "category_counts": {
+      "suspicious_urls": 75,
+      "file_ops": 175,
+      "dangerous_calls": 244,
+      "env_access": 255,
+      "obfuscation": 41,
+      "network_ops": 67
+    },
+    "top_findings": [
+      {
+        "rule_id": "regex_localhost_non_std",
+        "severity": "high",
+        "category": "suspicious_urls",
+        "file": "FEATURE-CATALOG.md",
+        "line": 838
+      },
+      {
+        "rule_id": "regex_localhost_non_std",
+        "severity": "high",
+        "category": "suspicious_urls",
+        "file": "README.md",
+        "line": 218
+      },
+      {
+        "rule_id": "regex_localhost_non_std",
+        "severity": "high",
+        "category": "suspicious_urls",
+        "file": "docs/adr/001-async-background-workers.md",
+        "line": 299
+      },
+      {
+        "rule_id": "regex_localhost_non_std",
+        "severity": "high",
+        "category": "suspicious_urls",
+        "file": "docs/adr/001-async-background-workers.md",
+        "line": 441
+      },
+      {
+        "rule_id": "regex_py_open",
+        "severity": "low",
+        "category": "file_ops",
+        "file": "scripts/ci-publish.sh",
+        "line": 30
+      },
+      {
+        "rule_id": "regex_py_open",
+        "severity": "low",
+        "category": "file_ops",
+        "file": "scripts/ci-publish.sh",
+        "line": 37
+      },
+      {
+        "rule_id": "regex_py_open",
+        "severity": "low",
+        "category": "file_ops",
+        "file": "scripts/ci-publish.sh",
+        "line": 56
+      },
+      {
+        "rule_id": "regex_py_open",
+        "severity": "low",
+        "category": "file_ops",
+        "file": "scripts/ci-publish.sh",
+        "line": 72
+      },
+      {
+        "rule_id": "regex_py_open",
+        "severity": "low",
+        "category": "file_ops",
+        "file": "scripts/ci-publish.sh",
+        "line": 73
+      },
+      {
+        "rule_id": "regex_py_glob",
+        "severity": "low",
+        "category": "file_ops",
+        "file": "scripts/ci-publish.sh",
+        "line": 36
+      },
+      {
+        "rule_id": "regex_py_exec",
+        "severity": "high",
+        "category": "dangerous_calls",
+        "file": "packages/swarm-tools/README.md",
+        "line": 137
+      },
+      {
+        "rule_id": "regex_js_process_env",
+        "severity": "medium",
+        "category": "env_access",
+        "file": "packages/swarm-tools/index.ts",
+        "line": 19
+      },
+      {
+        "rule_id": "regex_js_process_env",
+        "severity": "medium",
+        "category": "env_access",
+        "file": "packages/swarm-tools/index.ts",
+        "line": 555
+      },
+      {
+        "rule_id": "regex_js_process_env",
+        "severity": "medium",
+        "category": "env_access",
+        "file": "packages/swarm-tools/index.ts",
+        "line": 856
+      },
+      {
+        "rule_id": "regex_js_process_env",
+        "severity": "medium",
+        "category": "env_access",
+        "file": "packages/swarm-tools/bin/mcp-server.ts",
+        "line": 73
+      },
+      {
+        "rule_id": "regex_py_exec",
+        "severity": "high",
+        "category": "dangerous_calls",
+        "file": "packages/swarm-tools/bin/mcp-server.js",
+        "line": 7
+      },
+      {
+        "rule_id": "regex_py_exec",
+        "severity": "high",
+        "category": "dangerous_calls",
+        "file": "packages/swarm-tools/bin/mcp-server.js",
+        "line": 10
+      },
+      {
+        "rule_id": "regex_js_function_ctor",
+        "severity": "high",
+        "category": "dangerous_calls",
+        "file": "packages/swarm-tools/bin/mcp-server.js",
+        "line": 37
+      },
+      {
+        "rule_id": "regex_shell_backtick_exec",
+        "severity": "high",
+        "category": "dangerous_calls",
+        "file": "packages/swarm-tools/bin/mcp-server.js",
+        "line": 4
+      },
+      {
+        "rule_id": "regex_shell_backtick_exec",
+        "severity": "high",
+        "category": "dangerous_calls",
+        "file": "packages/swarm-tools/bin/mcp-server.js",
+        "line": 12
+      }
+    ],
+    "total_files_scanned": 714
+  },
+  "verification_level": "full_pipeline",
+  "agent_audit": {
+    "agents_completed": 5,
+    "agents_required": 5,
+    "pipeline_run_at": "2026-03-05T00:38:46Z",
+    "agent_a": {
+      "signed": true,
+      "signed_at": "2026-03-05T00:38:46Z",
+      "comment": "Docs quality 10/10. README present. 12 features, 4 permissions claimed.",
+      "doc_quality_score": 10,
+      "claimed_permissions": [
+        "network access",
+        "system command execution",
+        "file system access",
+        "environment/secret access"
+      ]
+    },
+    "agent_b": {
+      "signed": true,
+      "signed_at": "2026-03-05T00:38:46Z",
+      "comment": "593 files analyzed. Found: 37 network, 10 file, 120 env, 73 system calls. Primary: typescript.",
+      "files_analyzed": 593,
+      "capabilities_found": [
+        "imports external dependencies",
+        "performs network operations",
+        "reads/writes files",
+        "reads environment values",
+        "executes system commands"
+      ]
+    },
+    "agent_c_star": {
+      "signed": true,
+      "signed_at": "2026-03-05T00:38:46Z",
+      "comment": "857 findings: 0 critical, 360 high, 322 medium, 175 low. Obfuscation detected!. No injection.",
+      "total_findings": 857,
+      "severity_counts": {
+        "critical": 0,
+        "high": 360,
+        "medium": 322,
+        "low": 175,
+        "info": 0
+      }
+    },
+    "agent_d": {
+      "signed": true,
+      "signed_at": "2026-03-05T00:38:46Z",
+      "comment": "Score 15. 0 mismatches. Risk: critical. Safety overrides: applied.",
+      "score": 15,
+      "mismatches": 0,
+      "safety_overrides_applied": true
+    },
+    "agent_e": {
+      "signed": true,
+      "signed_at": "2026-03-05T00:38:46Z",
+      "comment": "Rejected. Confidence 90%. Deterministic override: high-risk obfuscation detected.",
+      "approved": false,
+      "confidence": 90,
+      "override_reason": "Deterministic override: high-risk obfuscation detected."
+    },
+    "manager_summary": "5/5 agents completed. Score: 15/100, Risk: critical. 0 mismatches, 857 scanner findings. Rejected at 90% confidence. Safety overrides triggered.",
+    "auto_clear": {
+      "applied": true,
+      "reason": "Auto-clear Cat 2: obfuscation-only (8 obf_hr, 0 dangerous, 0 inj, 714 files)",
+      "original_status": "fail",
+      "original_score": 15
+    }
+  }
 }

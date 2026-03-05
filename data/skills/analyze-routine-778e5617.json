@@ -7,18 +7,217 @@
   "skill_type": "agent_skill",
   "owner": "ricardoquesada",
   "stars": 0,
-  "primary_language": "unknown",
+  "primary_language": "rust",
   "tags": [
     "agent-skills",
     "installs:23",
-    "utilities"
+    "utilities",
+    "status-pass"
   ],
-  "verification_status": "unverified",
-  "overall_score": 0,
-  "risk_level": "info",
-  "verified_commit": null,
+  "verification_status": "pass",
+  "overall_score": 78,
+  "risk_level": "medium",
+  "verified_commit": "ba622236246c33b5bff03d464b61bc6e1e64d88b",
   "scan_summary": null,
   "repo_status": "available",
   "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
-  "repo_check_error": null
+  "repo_check_error": null,
+  "scan_date": "2026-03-05T00:46:40Z",
+  "findings_summary": {
+    "scanner_findings": 14,
+    "dangerous_calls": 0,
+    "network_ops": 4,
+    "file_ops": 1,
+    "env_access": 0,
+    "obfuscation": 0,
+    "injection_patterns": 0,
+    "mismatches": 0,
+    "undocumented_capabilities": 0,
+    "supervisor_approved": false,
+    "supervisor_confidence": 78
+  },
+  "scan_report": {
+    "total_findings": 14,
+    "injection_patterns_count": 0,
+    "obfuscation_count": 0,
+    "obfuscation_high_risk_count": 0,
+    "dangerous_calls_count": 0,
+    "severity_counts": {
+      "critical": 0,
+      "high": 9,
+      "medium": 4,
+      "low": 1,
+      "info": 0
+    },
+    "category_counts": {
+      "file_ops": 1,
+      "network_ops": 4,
+      "suspicious_urls": 9
+    },
+    "top_findings": [
+      {
+        "rule_id": "regex_py_open",
+        "severity": "low",
+        "category": "file_ops",
+        "file": "CHANGELOG.md",
+        "line": 429
+      },
+      {
+        "rule_id": "regex_py_requests",
+        "severity": "medium",
+        "category": "network_ops",
+        "file": "tests/verify_mcp.py",
+        "line": 38
+      },
+      {
+        "rule_id": "regex_py_requests",
+        "severity": "medium",
+        "category": "network_ops",
+        "file": "tests/verify_mcp.py",
+        "line": 80
+      },
+      {
+        "rule_id": "regex_py_requests",
+        "severity": "medium",
+        "category": "network_ops",
+        "file": "tests/verify_mcp.py",
+        "line": 145
+      },
+      {
+        "rule_id": "regex_py_requests",
+        "severity": "medium",
+        "category": "network_ops",
+        "file": "tests/verify_mcp.py",
+        "line": 202
+      },
+      {
+        "rule_id": "regex_localhost_non_std",
+        "severity": "high",
+        "category": "suspicious_urls",
+        "file": "tests/verify_mcp.py",
+        "line": 7
+      },
+      {
+        "rule_id": "regex_raw_ip_url",
+        "severity": "high",
+        "category": "suspicious_urls",
+        "file": "docs/mcp.md",
+        "line": 25
+      },
+      {
+        "rule_id": "regex_raw_ip_url",
+        "severity": "high",
+        "category": "suspicious_urls",
+        "file": "docs/mcp.md",
+        "line": 47
+      },
+      {
+        "rule_id": "regex_raw_ip_url",
+        "severity": "high",
+        "category": "suspicious_urls",
+        "file": "docs/mcp.md",
+        "line": 60
+      },
+      {
+        "rule_id": "regex_raw_ip_url",
+        "severity": "high",
+        "category": "suspicious_urls",
+        "file": "docs/mcp.md",
+        "line": 70
+      },
+      {
+        "rule_id": "regex_raw_ip_url",
+        "severity": "high",
+        "category": "suspicious_urls",
+        "file": "docs/mcp.md",
+        "line": 82
+      },
+      {
+        "rule_id": "regex_raw_ip_url",
+        "severity": "high",
+        "category": "suspicious_urls",
+        "file": "docs/mcp.md",
+        "line": 106
+      },
+      {
+        "rule_id": "regex_localhost_non_std",
+        "severity": "high",
+        "category": "suspicious_urls",
+        "file": "docs/mcp.md",
+        "line": 91
+      },
+      {
+        "rule_id": "regex_localhost_non_std",
+        "severity": "high",
+        "category": "suspicious_urls",
+        "file": "docs/tutorial.md",
+        "line": 345
+      }
+    ],
+    "total_files_scanned": 40
+  },
+  "verification_level": "full_pipeline",
+  "agent_audit": {
+    "agents_completed": 5,
+    "agents_required": 5,
+    "pipeline_run_at": "2026-03-05T00:46:40Z",
+    "agent_a": {
+      "signed": true,
+      "signed_at": "2026-03-05T00:46:40Z",
+      "comment": "Docs quality 9/10. README present. 12 features, 4 permissions claimed.",
+      "doc_quality_score": 9,
+      "claimed_permissions": [
+        "network access",
+        "system command execution",
+        "file system access",
+        "environment/secret access"
+      ]
+    },
+    "agent_b": {
+      "signed": true,
+      "signed_at": "2026-03-05T00:46:40Z",
+      "comment": "124 files analyzed. Found: 4 network, 0 file, 0 env, 0 system calls. Primary: rust.",
+      "files_analyzed": 124,
+      "capabilities_found": [
+        "imports external dependencies",
+        "performs network operations"
+      ]
+    },
+    "agent_c_star": {
+      "signed": true,
+      "signed_at": "2026-03-05T00:46:40Z",
+      "comment": "14 findings: 0 critical, 9 high, 4 medium, 1 low. No obfuscation. No injection.",
+      "total_findings": 14,
+      "severity_counts": {
+        "critical": 0,
+        "high": 9,
+        "medium": 4,
+        "low": 1,
+        "info": 0
+      }
+    },
+    "agent_d": {
+      "signed": true,
+      "signed_at": "2026-03-05T00:46:40Z",
+      "comment": "Score 78. 0 mismatches. Risk: medium. Safety overrides: none triggered.",
+      "score": 78,
+      "mismatches": 0,
+      "safety_overrides_applied": false
+    },
+    "agent_e": {
+      "signed": true,
+      "signed_at": "2026-03-05T00:46:40Z",
+      "comment": "Rejected. Confidence 78%. No overrides.",
+      "approved": false,
+      "confidence": 78,
+      "override_reason": null
+    },
+    "manager_summary": "5/5 agents completed. Score: 78/100, Risk: medium. 0 mismatches, 14 scanner findings. Rejected at 78% confidence. No safety overrides.",
+    "auto_clear": {
+      "applied": true,
+      "reason": "Auto-clear Cat 1: clean profile (0 inj, 0 obf_hr, score=78)",
+      "original_status": "manual_review",
+      "original_score": 78
+    }
+  }
 }

@@ -7,18 +7,265 @@
   "skill_type": "agent_skill",
   "owner": "vinhnx",
   "stars": 0,
-  "primary_language": "unknown",
+  "primary_language": "rust",
   "tags": [
     "agent-skills",
     "installs:380",
-    "utilities"
+    "utilities",
+    "status-pass"
   ],
-  "verification_status": "unverified",
-  "overall_score": 0,
-  "risk_level": "info",
-  "verified_commit": null,
+  "verification_status": "pass",
+  "overall_score": 60,
+  "risk_level": "medium",
+  "verified_commit": "813bebf91841bc6e1f405f7dd5a3e0db07a7ca8e",
   "scan_summary": null,
   "repo_status": "available",
   "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
-  "repo_check_error": null
+  "repo_check_error": null,
+  "scan_date": "2026-03-05T00:45:21Z",
+  "findings_summary": {
+    "scanner_findings": 245,
+    "dangerous_calls": 54,
+    "network_ops": 6,
+    "file_ops": 66,
+    "env_access": 74,
+    "obfuscation": 2,
+    "injection_patterns": 0,
+    "mismatches": 0,
+    "undocumented_capabilities": 0,
+    "supervisor_approved": false,
+    "supervisor_confidence": 60
+  },
+  "scan_report": {
+    "total_findings": 245,
+    "injection_patterns_count": 0,
+    "obfuscation_count": 2,
+    "obfuscation_high_risk_count": 0,
+    "dangerous_calls_count": 54,
+    "severity_counts": {
+      "critical": 0,
+      "high": 99,
+      "medium": 80,
+      "low": 66,
+      "info": 0
+    },
+    "category_counts": {
+      "dangerous_calls": 54,
+      "file_ops": 66,
+      "env_access": 74,
+      "suspicious_urls": 43,
+      "network_ops": 6,
+      "obfuscation": 2
+    },
+    "top_findings": [
+      {
+        "rule_id": "regex_py_subprocess_call",
+        "severity": "high",
+        "category": "dangerous_calls",
+        "file": "evals/metrics.py",
+        "line": 52
+      },
+      {
+        "rule_id": "regex_py_compile",
+        "severity": "high",
+        "category": "dangerous_calls",
+        "file": "evals/metrics.py",
+        "line": 77
+      },
+      {
+        "rule_id": "regex_py_subprocess_call",
+        "severity": "high",
+        "category": "dangerous_calls",
+        "file": "evals/eval_engine.py",
+        "line": 42
+      },
+      {
+        "rule_id": "regex_py_open",
+        "severity": "low",
+        "category": "file_ops",
+        "file": "evals/eval_engine.py",
+        "line": 13
+      },
+      {
+        "rule_id": "regex_py_open",
+        "severity": "low",
+        "category": "file_ops",
+        "file": "evals/eval_engine.py",
+        "line": 114
+      },
+      {
+        "rule_id": "regex_py_open",
+        "severity": "low",
+        "category": "file_ops",
+        "file": "evals/eval_engine.py",
+        "line": 149
+      },
+      {
+        "rule_id": "regex_py_os_remove",
+        "severity": "low",
+        "category": "file_ops",
+        "file": "evals/eval_engine.py",
+        "line": 147
+      },
+      {
+        "rule_id": "regex_py_os_path",
+        "severity": "low",
+        "category": "file_ops",
+        "file": "evals/eval_engine.py",
+        "line": 11
+      },
+      {
+        "rule_id": "regex_py_os_path",
+        "severity": "low",
+        "category": "file_ops",
+        "file": "evals/eval_engine.py",
+        "line": 12
+      },
+      {
+        "rule_id": "regex_py_os_environ",
+        "severity": "medium",
+        "category": "env_access",
+        "file": "evals/eval_engine.py",
+        "line": 18
+      },
+      {
+        "rule_id": "regex_py_open",
+        "severity": "low",
+        "category": "file_ops",
+        "file": "vtcode-core/src/skills/assets/samples/skill-creator/scripts/package_skill.py",
+        "line": 170
+      },
+      {
+        "rule_id": "regex_py_shutil",
+        "severity": "low",
+        "category": "file_ops",
+        "file": "vtcode-core/src/skills/assets/samples/skill-installer/scripts/install-skill-from-github.py",
+        "line": 144
+      },
+      {
+        "rule_id": "regex_py_shutil",
+        "severity": "low",
+        "category": "file_ops",
+        "file": "vtcode-core/src/skills/assets/samples/skill-installer/scripts/install-skill-from-github.py",
+        "line": 150
+      },
+      {
+        "rule_id": "regex_py_shutil",
+        "severity": "low",
+        "category": "file_ops",
+        "file": "vtcode-core/src/skills/assets/samples/skill-installer/scripts/install-skill-from-github.py",
+        "line": 162
+      },
+      {
+        "rule_id": "regex_py_shutil",
+        "severity": "low",
+        "category": "file_ops",
+        "file": "vtcode-core/src/skills/assets/samples/skill-installer/scripts/install-skill-from-github.py",
+        "line": 166
+      },
+      {
+        "rule_id": "regex_py_shutil",
+        "severity": "low",
+        "category": "file_ops",
+        "file": "vtcode-core/src/skills/assets/samples/skill-installer/scripts/install-skill-from-github.py",
+        "line": 218
+      },
+      {
+        "rule_id": "regex_py_shutil",
+        "severity": "low",
+        "category": "file_ops",
+        "file": "vtcode-core/src/skills/assets/samples/skill-installer/scripts/install-skill-from-github.py",
+        "line": 226
+      },
+      {
+        "rule_id": "regex_py_shutil",
+        "severity": "low",
+        "category": "file_ops",
+        "file": "vtcode-core/src/skills/assets/samples/skill-installer/scripts/install-skill-from-github.py",
+        "line": 333
+      },
+      {
+        "rule_id": "regex_py_tempfile",
+        "severity": "low",
+        "category": "file_ops",
+        "file": "vtcode-core/src/skills/assets/samples/skill-installer/scripts/install-skill-from-github.py",
+        "line": 138
+      },
+      {
+        "rule_id": "regex_py_os_environ",
+        "severity": "medium",
+        "category": "env_access",
+        "file": "vtcode-core/src/skills/assets/samples/skill-installer/scripts/install-skill-from-github.py",
+        "line": 35
+      }
+    ],
+    "total_files_scanned": 459
+  },
+  "verification_level": "full_pipeline",
+  "agent_audit": {
+    "agents_completed": 5,
+    "agents_required": 5,
+    "pipeline_run_at": "2026-03-05T00:45:21Z",
+    "agent_a": {
+      "signed": true,
+      "signed_at": "2026-03-05T00:45:21Z",
+      "comment": "Docs quality 10/10. README present. 12 features, 4 permissions claimed.",
+      "doc_quality_score": 10,
+      "claimed_permissions": [
+        "network access",
+        "system command execution",
+        "file system access",
+        "environment/secret access"
+      ]
+    },
+    "agent_b": {
+      "signed": true,
+      "signed_at": "2026-03-05T00:45:21Z",
+      "comment": "1579 files analyzed. Found: 4 network, 84 file, 47 env, 12 system calls. Primary: rust.",
+      "files_analyzed": 1579,
+      "capabilities_found": [
+        "imports external dependencies",
+        "performs network operations",
+        "reads/writes files",
+        "reads environment values",
+        "executes system commands"
+      ]
+    },
+    "agent_c_star": {
+      "signed": true,
+      "signed_at": "2026-03-05T00:45:21Z",
+      "comment": "245 findings: 0 critical, 99 high, 80 medium, 66 low. Obfuscation detected!. No injection.",
+      "total_findings": 245,
+      "severity_counts": {
+        "critical": 0,
+        "high": 99,
+        "medium": 80,
+        "low": 66,
+        "info": 0
+      }
+    },
+    "agent_d": {
+      "signed": true,
+      "signed_at": "2026-03-05T00:45:21Z",
+      "comment": "Score 60. 0 mismatches. Risk: medium. Safety overrides: none triggered.",
+      "score": 60,
+      "mismatches": 0,
+      "safety_overrides_applied": false
+    },
+    "agent_e": {
+      "signed": true,
+      "signed_at": "2026-03-05T00:45:21Z",
+      "comment": "Rejected. Confidence 60%. No overrides.",
+      "approved": false,
+      "confidence": 60,
+      "override_reason": null
+    },
+    "manager_summary": "5/5 agents completed. Score: 60/100, Risk: medium. 0 mismatches, 245 scanner findings. Rejected at 60% confidence. No safety overrides.",
+    "auto_clear": {
+      "applied": true,
+      "reason": "Auto-clear Cat 1: clean profile (0 inj, 0 obf_hr, score=60)",
+      "original_status": "manual_review",
+      "original_score": 60
+    }
+  }
 }

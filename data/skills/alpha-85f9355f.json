@@ -7,19 +7,266 @@
   "skill_type": "agent_skill",
   "owner": "peiiii",
   "stars": 0,
-  "primary_language": "unknown",
+  "primary_language": "typescript",
   "tags": [
     "agent-skills",
     "installs:91",
     "dev",
-    "dev-testing"
+    "dev-testing",
+    "status-pass"
   ],
-  "verification_status": "unverified",
-  "overall_score": 0,
-  "risk_level": "info",
-  "verified_commit": null,
+  "verification_status": "pass",
+  "overall_score": 60,
+  "risk_level": "medium",
+  "verified_commit": "55a57fecc5282da893dc0a087728e3dfb9a706f5",
   "scan_summary": null,
   "repo_status": "available",
   "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
-  "repo_check_error": null
+  "repo_check_error": null,
+  "scan_date": "2026-03-05T00:38:38Z",
+  "findings_summary": {
+    "scanner_findings": 225,
+    "dangerous_calls": 29,
+    "network_ops": 24,
+    "file_ops": 82,
+    "env_access": 33,
+    "obfuscation": 30,
+    "injection_patterns": 0,
+    "mismatches": 0,
+    "undocumented_capabilities": 0,
+    "supervisor_approved": false,
+    "supervisor_confidence": 60
+  },
+  "scan_report": {
+    "total_findings": 225,
+    "injection_patterns_count": 0,
+    "obfuscation_count": 30,
+    "obfuscation_high_risk_count": 0,
+    "dangerous_calls_count": 29,
+    "severity_counts": {
+      "critical": 0,
+      "high": 86,
+      "medium": 57,
+      "low": 82,
+      "info": 0
+    },
+    "category_counts": {
+      "suspicious_urls": 27,
+      "file_ops": 82,
+      "network_ops": 24,
+      "dangerous_calls": 29,
+      "env_access": 33,
+      "obfuscation": 30
+    },
+    "top_findings": [
+      {
+        "rule_id": "regex_localhost_non_std",
+        "severity": "high",
+        "category": "suspicious_urls",
+        "file": "package.json",
+        "line": 16
+      },
+      {
+        "rule_id": "regex_localhost_non_std",
+        "severity": "high",
+        "category": "suspicious_urls",
+        "file": "package.json",
+        "line": 18
+      },
+      {
+        "rule_id": "regex_py_open",
+        "severity": "low",
+        "category": "file_ops",
+        "file": "docs/references/agent-skills/agent-skills-guide.md",
+        "line": 80
+      },
+      {
+        "rule_id": "regex_py_open",
+        "severity": "low",
+        "category": "file_ops",
+        "file": "docs/references/agent-skills/agent-skills-guide.md",
+        "line": 301
+      },
+      {
+        "rule_id": "regex_js_http_request",
+        "severity": "medium",
+        "category": "network_ops",
+        "file": "docs/logs/v0.7.1-skill-id/README.md",
+        "line": 17
+      },
+      {
+        "rule_id": "regex_shell_backtick_exec",
+        "severity": "high",
+        "category": "dangerous_calls",
+        "file": "docs/logs/v0.12.2-hub-skill-data/README.md",
+        "line": 44
+      },
+      {
+        "rule_id": "regex_shell_backtick_exec",
+        "severity": "high",
+        "category": "dangerous_calls",
+        "file": "docs/logs/v0.12.9-hub-core-default/README.md",
+        "line": 35
+      },
+      {
+        "rule_id": "regex_shell_backtick_exec",
+        "severity": "high",
+        "category": "dangerous_calls",
+        "file": "docs/logs/v0.12.9-hub-core-default/README.md",
+        "line": 62
+      },
+      {
+        "rule_id": "regex_raw_ip_url",
+        "severity": "high",
+        "category": "suspicious_urls",
+        "file": "docs/logs/v0.12.9-hub-core-default/README.md",
+        "line": 45
+      },
+      {
+        "rule_id": "regex_shell_backtick_exec",
+        "severity": "high",
+        "category": "dangerous_calls",
+        "file": "docs/logs/v0.12.8-hub-core-nav-copy/README.md",
+        "line": 40
+      },
+      {
+        "rule_id": "regex_shell_backtick_exec",
+        "severity": "high",
+        "category": "dangerous_calls",
+        "file": "docs/logs/v0.12.13-skild-skill-refresh/README.md",
+        "line": 40
+      },
+      {
+        "rule_id": "regex_raw_ip_url",
+        "severity": "high",
+        "category": "suspicious_urls",
+        "file": "docs/logs/v0.2.0-registry/2026-01-13-local-dev-stack-registry-console.md",
+        "line": 16
+      },
+      {
+        "rule_id": "regex_raw_ip_url",
+        "severity": "high",
+        "category": "suspicious_urls",
+        "file": "docs/logs/v0.2.0-registry/2026-01-13-local-dev-stack-registry-console.md",
+        "line": 20
+      },
+      {
+        "rule_id": "regex_localhost_non_std",
+        "severity": "high",
+        "category": "suspicious_urls",
+        "file": "docs/logs/v0.2.0-registry/2026-01-13-local-dev-stack-registry-console.md",
+        "line": 40
+      },
+      {
+        "rule_id": "regex_raw_ip_url",
+        "severity": "high",
+        "category": "suspicious_urls",
+        "file": "docs/logs/v0.2.0-registry/2026-01-13-console-mvp-implementation.md",
+        "line": 44
+      },
+      {
+        "rule_id": "regex_localhost_non_std",
+        "severity": "high",
+        "category": "suspicious_urls",
+        "file": "docs/logs/v0.2.0-registry/2026-01-13-console-mvp-implementation.md",
+        "line": 29
+      },
+      {
+        "rule_id": "regex_localhost_non_std",
+        "severity": "high",
+        "category": "suspicious_urls",
+        "file": "docs/logs/v0.2.0-registry/2026-01-13-console-mvp-implementation.md",
+        "line": 49
+      },
+      {
+        "rule_id": "regex_raw_ip_url",
+        "severity": "high",
+        "category": "suspicious_urls",
+        "file": "docs/logs/v0.2.0-registry/2026-01-12-registry-iteration1-mvp.md",
+        "line": 62
+      },
+      {
+        "rule_id": "regex_raw_ip_url",
+        "severity": "high",
+        "category": "suspicious_urls",
+        "file": "docs/logs/v0.2.0-registry/2026-01-12-registry-iteration1-mvp.md",
+        "line": 63
+      },
+      {
+        "rule_id": "regex_raw_ip_url",
+        "severity": "high",
+        "category": "suspicious_urls",
+        "file": "docs/logs/v0.2.0-registry/2026-01-12-registry-iteration1-mvp.md",
+        "line": 67
+      }
+    ],
+    "total_files_scanned": 359
+  },
+  "verification_level": "full_pipeline",
+  "agent_audit": {
+    "agents_completed": 5,
+    "agents_required": 5,
+    "pipeline_run_at": "2026-03-05T00:38:38Z",
+    "agent_a": {
+      "signed": true,
+      "signed_at": "2026-03-05T00:38:38Z",
+      "comment": "Docs quality 10/10. README present. 12 features, 4 permissions claimed.",
+      "doc_quality_score": 10,
+      "claimed_permissions": [
+        "network access",
+        "system command execution",
+        "file system access",
+        "environment/secret access"
+      ]
+    },
+    "agent_b": {
+      "signed": true,
+      "signed_at": "2026-03-05T00:38:38Z",
+      "comment": "164 files analyzed. Found: 22 network, 9 file, 37 env, 3 system calls. Primary: typescript.",
+      "files_analyzed": 164,
+      "capabilities_found": [
+        "imports external dependencies",
+        "performs network operations",
+        "reads/writes files",
+        "reads environment values",
+        "executes system commands"
+      ]
+    },
+    "agent_c_star": {
+      "signed": true,
+      "signed_at": "2026-03-05T00:38:38Z",
+      "comment": "225 findings: 0 critical, 86 high, 57 medium, 82 low. Obfuscation detected!. No injection.",
+      "total_findings": 225,
+      "severity_counts": {
+        "critical": 0,
+        "high": 86,
+        "medium": 57,
+        "low": 82,
+        "info": 0
+      }
+    },
+    "agent_d": {
+      "signed": true,
+      "signed_at": "2026-03-05T00:38:38Z",
+      "comment": "Score 60. 0 mismatches. Risk: medium. Safety overrides: none triggered.",
+      "score": 60,
+      "mismatches": 0,
+      "safety_overrides_applied": false
+    },
+    "agent_e": {
+      "signed": true,
+      "signed_at": "2026-03-05T00:38:38Z",
+      "comment": "Rejected. Confidence 60%. No overrides.",
+      "approved": false,
+      "confidence": 60,
+      "override_reason": null
+    },
+    "manager_summary": "5/5 agents completed. Score: 60/100, Risk: medium. 0 mismatches, 225 scanner findings. Rejected at 60% confidence. No safety overrides.",
+    "auto_clear": {
+      "applied": true,
+      "reason": "Auto-clear Cat 1: clean profile (0 inj, 0 obf_hr, score=60)",
+      "original_status": "manual_review",
+      "original_score": 60
+    }
+  }
 }

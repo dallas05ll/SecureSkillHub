@@ -7,18 +7,264 @@
   "skill_type": "agent_skill",
   "owner": "sovereign-labs",
   "stars": 0,
-  "primary_language": "unknown",
+  "primary_language": "rust",
   "tags": [
     "agent-skills",
     "installs:460",
-    "utilities"
+    "utilities",
+    "status-pass"
   ],
-  "verification_status": "unverified",
-  "overall_score": 0,
-  "risk_level": "info",
-  "verified_commit": null,
+  "verification_status": "pass",
+  "overall_score": 55,
+  "risk_level": "medium",
+  "verified_commit": "fd978b8d2b7a31679afd72b60eac281c4b499e51",
   "scan_summary": null,
   "repo_status": "available",
   "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
-  "repo_check_error": null
+  "repo_check_error": null,
+  "scan_date": "2026-03-05T00:45:37Z",
+  "findings_summary": {
+    "scanner_findings": 180,
+    "dangerous_calls": 3,
+    "network_ops": 9,
+    "file_ops": 6,
+    "env_access": 24,
+    "obfuscation": 77,
+    "injection_patterns": 0,
+    "mismatches": 0,
+    "undocumented_capabilities": 0,
+    "supervisor_approved": false,
+    "supervisor_confidence": 55
+  },
+  "scan_report": {
+    "total_findings": 180,
+    "injection_patterns_count": 0,
+    "obfuscation_count": 77,
+    "obfuscation_high_risk_count": 0,
+    "dangerous_calls_count": 3,
+    "severity_counts": {
+      "critical": 0,
+      "high": 141,
+      "medium": 33,
+      "low": 6,
+      "info": 0
+    },
+    "category_counts": {
+      "obfuscation": 77,
+      "suspicious_urls": 61,
+      "dangerous_calls": 3,
+      "env_access": 24,
+      "network_ops": 9,
+      "file_ops": 6
+    },
+    "top_findings": [
+      {
+        "rule_id": "regex_long_base64_literal",
+        "severity": "high",
+        "category": "obfuscation",
+        "file": "CHANGELOG.md",
+        "line": 150
+      },
+      {
+        "rule_id": "regex_long_base64_literal",
+        "severity": "high",
+        "category": "obfuscation",
+        "file": "CHANGELOG.md",
+        "line": 758
+      },
+      {
+        "rule_id": "regex_long_base64_literal",
+        "severity": "high",
+        "category": "obfuscation",
+        "file": "CHANGELOG.md",
+        "line": 791
+      },
+      {
+        "rule_id": "regex_raw_ip_url",
+        "severity": "high",
+        "category": "suspicious_urls",
+        "file": "CHANGELOG.md",
+        "line": 149
+      },
+      {
+        "rule_id": "regex_raw_ip_url",
+        "severity": "high",
+        "category": "suspicious_urls",
+        "file": "CHANGELOG.md",
+        "line": 688
+      },
+      {
+        "rule_id": "regex_localhost_non_std",
+        "severity": "high",
+        "category": "suspicious_urls",
+        "file": "CHANGELOG.md",
+        "line": 1370
+      },
+      {
+        "rule_id": "regex_localhost_non_std",
+        "severity": "high",
+        "category": "suspicious_urls",
+        "file": "CHANGELOG.md",
+        "line": 1374
+      },
+      {
+        "rule_id": "regex_long_base64_literal",
+        "severity": "high",
+        "category": "obfuscation",
+        "file": "constants.testing.toml",
+        "line": 214
+      },
+      {
+        "rule_id": "regex_long_base64_literal",
+        "severity": "high",
+        "category": "obfuscation",
+        "file": "crates/module-system/module-implementations/sov-evm/README.md",
+        "line": 21
+      },
+      {
+        "rule_id": "regex_long_base64_literal",
+        "severity": "high",
+        "category": "obfuscation",
+        "file": "crates/module-system/module-implementations/sov-evm/README.md",
+        "line": 33
+      },
+      {
+        "rule_id": "regex_long_base64_literal",
+        "severity": "high",
+        "category": "obfuscation",
+        "file": "crates/module-system/hyperlane/src/openapi-v3.yaml",
+        "line": 100
+      },
+      {
+        "rule_id": "regex_long_base64_literal",
+        "severity": "high",
+        "category": "obfuscation",
+        "file": "crates/module-system/hyperlane/src/warp/openapi-v3.yaml",
+        "line": 58
+      },
+      {
+        "rule_id": "regex_localhost_non_std",
+        "severity": "high",
+        "category": "suspicious_urls",
+        "file": "crates/module-system/sov-modules-api/src/rest/__private/openapi-templates/runtime-base.yaml",
+        "line": 10
+      },
+      {
+        "rule_id": "regex_long_base64_literal",
+        "severity": "high",
+        "category": "obfuscation",
+        "file": "crates/adapters/celestia/README.md",
+        "line": 151
+      },
+      {
+        "rule_id": "regex_long_base64_literal",
+        "severity": "high",
+        "category": "obfuscation",
+        "file": "crates/adapters/sp1/proptest-regressions/crypto.txt",
+        "line": 7
+      },
+      {
+        "rule_id": "regex_localhost_non_std",
+        "severity": "high",
+        "category": "suspicious_urls",
+        "file": "crates/full-node/sov-sequencer/README.md",
+        "line": 20
+      },
+      {
+        "rule_id": "regex_long_base64_literal",
+        "severity": "high",
+        "category": "obfuscation",
+        "file": "crates/full-node/sov-api-spec/openapi-v3.yaml",
+        "line": 1195
+      },
+      {
+        "rule_id": "regex_long_base64_literal",
+        "severity": "high",
+        "category": "obfuscation",
+        "file": "crates/full-node/sov-api-spec/openapi-v3.yaml",
+        "line": 1204
+      },
+      {
+        "rule_id": "regex_long_base64_literal",
+        "severity": "high",
+        "category": "obfuscation",
+        "file": "crates/full-node/sov-api-spec/openapi-v3.yaml",
+        "line": 1246
+      },
+      {
+        "rule_id": "regex_long_base64_literal",
+        "severity": "high",
+        "category": "obfuscation",
+        "file": "crates/full-node/sov-api-spec/openapi-v3.yaml",
+        "line": 1312
+      }
+    ],
+    "total_files_scanned": 572
+  },
+  "verification_level": "full_pipeline",
+  "agent_audit": {
+    "agents_completed": 5,
+    "agents_required": 5,
+    "pipeline_run_at": "2026-03-05T00:45:37Z",
+    "agent_a": {
+      "signed": true,
+      "signed_at": "2026-03-05T00:45:37Z",
+      "comment": "Docs quality 9/10. README present. 12 features, 4 permissions claimed.",
+      "doc_quality_score": 9,
+      "claimed_permissions": [
+        "network access",
+        "system command execution",
+        "file system access",
+        "environment/secret access"
+      ]
+    },
+    "agent_b": {
+      "signed": true,
+      "signed_at": "2026-03-05T00:45:37Z",
+      "comment": "1559 files analyzed. Found: 58 network, 8 file, 0 env, 10 system calls. Primary: rust.",
+      "files_analyzed": 1559,
+      "capabilities_found": [
+        "imports external dependencies",
+        "performs network operations",
+        "reads/writes files",
+        "executes system commands"
+      ]
+    },
+    "agent_c_star": {
+      "signed": true,
+      "signed_at": "2026-03-05T00:45:37Z",
+      "comment": "180 findings: 0 critical, 141 high, 33 medium, 6 low. Obfuscation detected!. No injection.",
+      "total_findings": 180,
+      "severity_counts": {
+        "critical": 0,
+        "high": 141,
+        "medium": 33,
+        "low": 6,
+        "info": 0
+      }
+    },
+    "agent_d": {
+      "signed": true,
+      "signed_at": "2026-03-05T00:45:37Z",
+      "comment": "Score 55. 0 mismatches. Risk: medium. Safety overrides: none triggered.",
+      "score": 55,
+      "mismatches": 0,
+      "safety_overrides_applied": false
+    },
+    "agent_e": {
+      "signed": true,
+      "signed_at": "2026-03-05T00:45:37Z",
+      "comment": "Rejected. Confidence 55%. No overrides.",
+      "approved": false,
+      "confidence": 55,
+      "override_reason": null
+    },
+    "manager_summary": "5/5 agents completed. Score: 55/100, Risk: medium. 0 mismatches, 180 scanner findings. Rejected at 55% confidence. No safety overrides.",
+    "auto_clear": {
+      "applied": true,
+      "reason": "Auto-clear Cat 1: clean profile (0 inj, 0 obf_hr, score=55)",
+      "original_status": "manual_review",
+      "original_score": 55
+    }
+  }
 }

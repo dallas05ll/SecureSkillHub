@@ -7,18 +7,265 @@
   "skill_type": "agent_skill",
   "owner": "onurkanbakirci",
   "stars": 0,
-  "primary_language": "unknown",
+  "primary_language": "python",
   "tags": [
     "agent-skills",
     "installs:11",
-    "utilities"
+    "utilities",
+    "status-pass"
   ],
-  "verification_status": "unverified",
-  "overall_score": 0,
-  "risk_level": "info",
-  "verified_commit": null,
+  "verification_status": "pass",
+  "overall_score": 60,
+  "risk_level": "medium",
+  "verified_commit": "e948def3796faf0e11ef3bc6f605b39d18fa4844",
   "scan_summary": null,
   "repo_status": "available",
   "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
-  "repo_check_error": null
+  "repo_check_error": null,
+  "scan_date": "2026-03-05T00:37:46Z",
+  "findings_summary": {
+    "scanner_findings": 238,
+    "dangerous_calls": 27,
+    "network_ops": 22,
+    "file_ops": 154,
+    "env_access": 15,
+    "obfuscation": 1,
+    "injection_patterns": 0,
+    "mismatches": 0,
+    "undocumented_capabilities": 0,
+    "supervisor_approved": false,
+    "supervisor_confidence": 60
+  },
+  "scan_report": {
+    "total_findings": 238,
+    "injection_patterns_count": 0,
+    "obfuscation_count": 1,
+    "obfuscation_high_risk_count": 0,
+    "dangerous_calls_count": 27,
+    "severity_counts": {
+      "critical": 0,
+      "high": 47,
+      "medium": 37,
+      "low": 154,
+      "info": 0
+    },
+    "category_counts": {
+      "network_ops": 22,
+      "file_ops": 154,
+      "suspicious_urls": 19,
+      "dangerous_calls": 27,
+      "env_access": 15,
+      "obfuscation": 1
+    },
+    "top_findings": [
+      {
+        "rule_id": "regex_js_fetch",
+        "severity": "medium",
+        "category": "network_ops",
+        "file": "app/page.tsx",
+        "line": 52
+      },
+      {
+        "rule_id": "regex_js_fetch",
+        "severity": "medium",
+        "category": "network_ops",
+        "file": "app/page.tsx",
+        "line": 100
+      },
+      {
+        "rule_id": "regex_py_open",
+        "severity": "low",
+        "category": "file_ops",
+        "file": "app/page.tsx",
+        "line": 532
+      },
+      {
+        "rule_id": "regex_js_fs_read",
+        "severity": "low",
+        "category": "file_ops",
+        "file": "app/api/recommend-skill/route.ts",
+        "line": 24
+      },
+      {
+        "rule_id": "regex_js_fs_read",
+        "severity": "low",
+        "category": "file_ops",
+        "file": "app/api/recommend-skill/route.ts",
+        "line": 34
+      },
+      {
+        "rule_id": "regex_js_fs_read",
+        "severity": "low",
+        "category": "file_ops",
+        "file": "app/api/download/[id]/route.ts",
+        "line": 25
+      },
+      {
+        "rule_id": "regex_js_fs_read",
+        "severity": "low",
+        "category": "file_ops",
+        "file": "app/api/skills/[id]/files/route.ts",
+        "line": 40
+      },
+      {
+        "rule_id": "regex_js_fs_read",
+        "severity": "low",
+        "category": "file_ops",
+        "file": "app/api/skills/[id]/files/route.ts",
+        "line": 61
+      },
+      {
+        "rule_id": "regex_js_fetch",
+        "severity": "medium",
+        "category": "network_ops",
+        "file": "app/skills/[id]/page.tsx",
+        "line": 47
+      },
+      {
+        "rule_id": "regex_js_fetch",
+        "severity": "medium",
+        "category": "network_ops",
+        "file": "app/skills/[id]/page.tsx",
+        "line": 67
+      },
+      {
+        "rule_id": "regex_py_open",
+        "severity": "low",
+        "category": "file_ops",
+        "file": "public/skills/b34fc506-ab64-4589-9ab9-610a0c346369/SKILL.md",
+        "line": 56
+      },
+      {
+        "rule_id": "regex_localhost_non_std",
+        "severity": "high",
+        "category": "suspicious_urls",
+        "file": "public/skills/34aa13a3-5268-4a05-ab39-73330438fc37/SKILL.md",
+        "line": 59
+      },
+      {
+        "rule_id": "regex_py_exec",
+        "severity": "high",
+        "category": "dangerous_calls",
+        "file": "public/skills/b4c5d6e7-f8a9-4b5c-8d9e-4f5a6b7c8d9e/render-graphs.js",
+        "line": 25
+      },
+      {
+        "rule_id": "regex_js_require_child",
+        "severity": "high",
+        "category": "dangerous_calls",
+        "file": "public/skills/b4c5d6e7-f8a9-4b5c-8d9e-4f5a6b7c8d9e/render-graphs.js",
+        "line": 18
+      },
+      {
+        "rule_id": "regex_js_fs_write",
+        "severity": "low",
+        "category": "file_ops",
+        "file": "public/skills/b4c5d6e7-f8a9-4b5c-8d9e-4f5a6b7c8d9e/render-graphs.js",
+        "line": 141
+      },
+      {
+        "rule_id": "regex_js_fs_write",
+        "severity": "low",
+        "category": "file_ops",
+        "file": "public/skills/b4c5d6e7-f8a9-4b5c-8d9e-4f5a6b7c8d9e/render-graphs.js",
+        "line": 146
+      },
+      {
+        "rule_id": "regex_js_fs_write",
+        "severity": "low",
+        "category": "file_ops",
+        "file": "public/skills/b4c5d6e7-f8a9-4b5c-8d9e-4f5a6b7c8d9e/render-graphs.js",
+        "line": 157
+      },
+      {
+        "rule_id": "regex_js_fs_read",
+        "severity": "low",
+        "category": "file_ops",
+        "file": "public/skills/b4c5d6e7-f8a9-4b5c-8d9e-4f5a6b7c8d9e/render-graphs.js",
+        "line": 120
+      },
+      {
+        "rule_id": "regex_js_fs_mkdir",
+        "severity": "low",
+        "category": "file_ops",
+        "file": "public/skills/b4c5d6e7-f8a9-4b5c-8d9e-4f5a6b7c8d9e/render-graphs.js",
+        "line": 132
+      },
+      {
+        "rule_id": "regex_py_open",
+        "severity": "low",
+        "category": "file_ops",
+        "file": "public/skills/b4c5d6e7-f8a9-4b5c-8d9e-4f5a6b7c8d9e/anthropic-best-practices.md",
+        "line": 40
+      }
+    ],
+    "total_files_scanned": 363
+  },
+  "verification_level": "full_pipeline",
+  "agent_audit": {
+    "agents_completed": 5,
+    "agents_required": 5,
+    "pipeline_run_at": "2026-03-05T00:37:46Z",
+    "agent_a": {
+      "signed": true,
+      "signed_at": "2026-03-05T00:37:46Z",
+      "comment": "Docs quality 10/10. README present. 12 features, 4 permissions claimed.",
+      "doc_quality_score": 10,
+      "claimed_permissions": [
+        "network access",
+        "system command execution",
+        "file system access",
+        "environment/secret access"
+      ]
+    },
+    "agent_b": {
+      "signed": true,
+      "signed_at": "2026-03-05T00:37:46Z",
+      "comment": "109 files analyzed. Found: 9 network, 47 file, 5 env, 23 system calls. Primary: python.",
+      "files_analyzed": 109,
+      "capabilities_found": [
+        "imports external dependencies",
+        "performs network operations",
+        "reads/writes files",
+        "reads environment values",
+        "executes system commands"
+      ]
+    },
+    "agent_c_star": {
+      "signed": true,
+      "signed_at": "2026-03-05T00:37:46Z",
+      "comment": "238 findings: 0 critical, 47 high, 37 medium, 154 low. Obfuscation detected!. No injection.",
+      "total_findings": 238,
+      "severity_counts": {
+        "critical": 0,
+        "high": 47,
+        "medium": 37,
+        "low": 154,
+        "info": 0
+      }
+    },
+    "agent_d": {
+      "signed": true,
+      "signed_at": "2026-03-05T00:37:46Z",
+      "comment": "Score 60. 0 mismatches. Risk: medium. Safety overrides: none triggered.",
+      "score": 60,
+      "mismatches": 0,
+      "safety_overrides_applied": false
+    },
+    "agent_e": {
+      "signed": true,
+      "signed_at": "2026-03-05T00:37:46Z",
+      "comment": "Rejected. Confidence 60%. No overrides.",
+      "approved": false,
+      "confidence": 60,
+      "override_reason": null
+    },
+    "manager_summary": "5/5 agents completed. Score: 60/100, Risk: medium. 0 mismatches, 238 scanner findings. Rejected at 60% confidence. No safety overrides.",
+    "auto_clear": {
+      "applied": true,
+      "reason": "Auto-clear Cat 1: clean profile (0 inj, 0 obf_hr, score=60)",
+      "original_status": "manual_review",
+      "original_score": 60
+    }
+  }
 }

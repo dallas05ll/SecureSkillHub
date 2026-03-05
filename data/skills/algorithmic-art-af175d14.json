@@ -7,18 +7,263 @@
   "skill_type": "agent_skill",
   "owner": "tanepiper",
   "stars": 0,
-  "primary_language": "unknown",
+  "primary_language": "typescript",
   "tags": [
     "agent-skills",
     "installs:24",
-    "utilities"
+    "utilities",
+    "status-pass"
   ],
-  "verification_status": "unverified",
-  "overall_score": 0,
-  "risk_level": "info",
-  "verified_commit": null,
+  "verification_status": "pass",
+  "overall_score": 60,
+  "risk_level": "medium",
+  "verified_commit": "71c2beb70f0880bdf7adf97c0cd7f19c5a015e75",
   "scan_summary": null,
   "repo_status": "available",
   "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
-  "repo_check_error": null
+  "repo_check_error": null,
+  "scan_date": "2026-03-05T00:37:53Z",
+  "findings_summary": {
+    "scanner_findings": 85,
+    "dangerous_calls": 64,
+    "network_ops": 2,
+    "file_ops": 5,
+    "env_access": 9,
+    "obfuscation": 0,
+    "injection_patterns": 0,
+    "mismatches": 0,
+    "undocumented_capabilities": 0,
+    "supervisor_approved": false,
+    "supervisor_confidence": 60
+  },
+  "scan_report": {
+    "total_findings": 85,
+    "injection_patterns_count": 0,
+    "obfuscation_count": 0,
+    "obfuscation_high_risk_count": 0,
+    "dangerous_calls_count": 64,
+    "severity_counts": {
+      "critical": 0,
+      "high": 69,
+      "medium": 11,
+      "low": 5,
+      "info": 0
+    },
+    "category_counts": {
+      "suspicious_urls": 5,
+      "file_ops": 5,
+      "dangerous_calls": 64,
+      "env_access": 9,
+      "network_ops": 2
+    },
+    "top_findings": [
+      {
+        "rule_id": "regex_localhost_non_std",
+        "severity": "high",
+        "category": "suspicious_urls",
+        "file": "README.md",
+        "line": 37
+      },
+      {
+        "rule_id": "regex_localhost_non_std",
+        "severity": "high",
+        "category": "suspicious_urls",
+        "file": "CONTRIBUTING.md",
+        "line": 40
+      },
+      {
+        "rule_id": "regex_localhost_non_std",
+        "severity": "high",
+        "category": "suspicious_urls",
+        "file": "AGENTS.md",
+        "line": 36
+      },
+      {
+        "rule_id": "regex_js_fs_read",
+        "severity": "low",
+        "category": "file_ops",
+        "file": "scripts/file-checker.ts",
+        "line": 159
+      },
+      {
+        "rule_id": "regex_shell_backtick_exec",
+        "severity": "high",
+        "category": "dangerous_calls",
+        "file": "packages/renderer/ARCHITECTURE.md",
+        "line": 224
+      },
+      {
+        "rule_id": "regex_shell_backtick_exec",
+        "severity": "high",
+        "category": "dangerous_calls",
+        "file": "packages/renderer/IMPROVEMENTS.md",
+        "line": 465
+      },
+      {
+        "rule_id": "regex_shell_backtick_exec",
+        "severity": "high",
+        "category": "dangerous_calls",
+        "file": "packages/renderer/threejs-lighting/src/types.ts",
+        "line": 34
+      },
+      {
+        "rule_id": "regex_shell_backtick_exec",
+        "severity": "high",
+        "category": "dangerous_calls",
+        "file": "packages/renderer/threejs-camera/CHANGELOG.md",
+        "line": 30
+      },
+      {
+        "rule_id": "regex_shell_backtick_exec",
+        "severity": "high",
+        "category": "dangerous_calls",
+        "file": "packages/renderer/threejs-camera/README.md",
+        "line": 44
+      },
+      {
+        "rule_id": "regex_shell_backtick_exec",
+        "severity": "high",
+        "category": "dangerous_calls",
+        "file": "packages/renderer/threejs-camera/AGENTS.md",
+        "line": 98
+      },
+      {
+        "rule_id": "regex_shell_backtick_exec",
+        "severity": "high",
+        "category": "dangerous_calls",
+        "file": "packages/renderer/threejs-camera/AGENTS.md",
+        "line": 293
+      },
+      {
+        "rule_id": "regex_shell_backtick_exec",
+        "severity": "high",
+        "category": "dangerous_calls",
+        "file": "packages/renderer/threejs-camera/src/CameraManager.ts",
+        "line": 82
+      },
+      {
+        "rule_id": "regex_shell_backtick_exec",
+        "severity": "high",
+        "category": "dangerous_calls",
+        "file": "packages/renderer/threejs/AGENTS.md",
+        "line": 511
+      },
+      {
+        "rule_id": "regex_shell_backtick_exec",
+        "severity": "high",
+        "category": "dangerous_calls",
+        "file": "packages/renderer/threejs/src/services/DI_CONTAINER.md",
+        "line": 306
+      },
+      {
+        "rule_id": "regex_shell_backtick_exec",
+        "severity": "high",
+        "category": "dangerous_calls",
+        "file": "packages/core/ARCHITECTURE.md",
+        "line": 160
+      },
+      {
+        "rule_id": "regex_shell_backtick_exec",
+        "severity": "high",
+        "category": "dangerous_calls",
+        "file": "packages/core/state/ARCHITECTURE.md",
+        "line": 60
+      },
+      {
+        "rule_id": "regex_shell_backtick_exec",
+        "severity": "high",
+        "category": "dangerous_calls",
+        "file": "packages/core/state/ARCHITECTURE.md",
+        "line": 77
+      },
+      {
+        "rule_id": "regex_shell_backtick_exec",
+        "severity": "high",
+        "category": "dangerous_calls",
+        "file": "packages/core/state/AGENTS.md",
+        "line": 404
+      },
+      {
+        "rule_id": "regex_shell_backtick_exec",
+        "severity": "high",
+        "category": "dangerous_calls",
+        "file": "packages/core/state/AGENTS.md",
+        "line": 434
+      },
+      {
+        "rule_id": "regex_shell_backtick_exec",
+        "severity": "high",
+        "category": "dangerous_calls",
+        "file": "packages/core/state/AGENTS.md",
+        "line": 465
+      }
+    ],
+    "total_files_scanned": 1613
+  },
+  "verification_level": "full_pipeline",
+  "agent_audit": {
+    "agents_completed": 5,
+    "agents_required": 5,
+    "pipeline_run_at": "2026-03-05T00:37:53Z",
+    "agent_a": {
+      "signed": true,
+      "signed_at": "2026-03-05T00:37:53Z",
+      "comment": "Docs quality 9/10. README present. 12 features, 4 permissions claimed.",
+      "doc_quality_score": 9,
+      "claimed_permissions": [
+        "network access",
+        "system command execution",
+        "file system access",
+        "environment/secret access"
+      ]
+    },
+    "agent_b": {
+      "signed": true,
+      "signed_at": "2026-03-05T00:37:53Z",
+      "comment": "1024 files analyzed. Found: 1 network, 2 file, 6 env, 0 system calls. Primary: typescript.",
+      "files_analyzed": 1024,
+      "capabilities_found": [
+        "imports external dependencies",
+        "performs network operations",
+        "reads/writes files",
+        "reads environment values"
+      ]
+    },
+    "agent_c_star": {
+      "signed": true,
+      "signed_at": "2026-03-05T00:37:53Z",
+      "comment": "85 findings: 0 critical, 69 high, 11 medium, 5 low. No obfuscation. No injection.",
+      "total_findings": 85,
+      "severity_counts": {
+        "critical": 0,
+        "high": 69,
+        "medium": 11,
+        "low": 5,
+        "info": 0
+      }
+    },
+    "agent_d": {
+      "signed": true,
+      "signed_at": "2026-03-05T00:37:53Z",
+      "comment": "Score 60. 0 mismatches. Risk: medium. Safety overrides: none triggered.",
+      "score": 60,
+      "mismatches": 0,
+      "safety_overrides_applied": false
+    },
+    "agent_e": {
+      "signed": true,
+      "signed_at": "2026-03-05T00:37:53Z",
+      "comment": "Rejected. Confidence 60%. No overrides.",
+      "approved": false,
+      "confidence": 60,
+      "override_reason": null
+    },
+    "manager_summary": "5/5 agents completed. Score: 60/100, Risk: medium. 0 mismatches, 85 scanner findings. Rejected at 60% confidence. No safety overrides.",
+    "auto_clear": {
+      "applied": true,
+      "reason": "Auto-clear Cat 1: clean profile (0 inj, 0 obf_hr, score=60)",
+      "original_status": "manual_review",
+      "original_score": 60
+    }
+  }
 }

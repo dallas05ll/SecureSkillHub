@@ -7,19 +7,264 @@
   "skill_type": "agent_skill",
   "owner": "rkiding",
   "stars": 0,
-  "primary_language": "unknown",
+  "primary_language": "python",
   "tags": [
     "agent-skills",
     "installs:20",
     "data",
-    "data-finance"
+    "data-finance",
+    "status-pass"
   ],
-  "verification_status": "unverified",
-  "overall_score": 0,
-  "risk_level": "info",
-  "verified_commit": null,
+  "verification_status": "pass",
+  "overall_score": 60,
+  "risk_level": "medium",
+  "verified_commit": "aa901f62053865b390a5086c5d2982fabb1a20aa",
   "scan_summary": null,
   "repo_status": "available",
   "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
-  "repo_check_error": null
+  "repo_check_error": null,
+  "scan_date": "2026-03-05T00:45:53Z",
+  "findings_summary": {
+    "scanner_findings": 239,
+    "dangerous_calls": 7,
+    "network_ops": 17,
+    "file_ops": 65,
+    "env_access": 150,
+    "obfuscation": 0,
+    "injection_patterns": 0,
+    "mismatches": 0,
+    "undocumented_capabilities": 0,
+    "supervisor_approved": false,
+    "supervisor_confidence": 60
+  },
+  "scan_report": {
+    "total_findings": 239,
+    "injection_patterns_count": 0,
+    "obfuscation_count": 0,
+    "obfuscation_high_risk_count": 0,
+    "dangerous_calls_count": 7,
+    "severity_counts": {
+      "critical": 0,
+      "high": 7,
+      "medium": 167,
+      "low": 65,
+      "info": 0
+    },
+    "category_counts": {
+      "file_ops": 65,
+      "network_ops": 17,
+      "env_access": 150,
+      "dangerous_calls": 7
+    },
+    "top_findings": [
+      {
+        "rule_id": "regex_py_os_path",
+        "severity": "low",
+        "category": "file_ops",
+        "file": "tests/alphaear-reporter/test_reporter.py",
+        "line": 6
+      },
+      {
+        "rule_id": "regex_py_os_path",
+        "severity": "low",
+        "category": "file_ops",
+        "file": "tests/alphaear-predictor/test_predictor.py",
+        "line": 6
+      },
+      {
+        "rule_id": "regex_py_os_path",
+        "severity": "low",
+        "category": "file_ops",
+        "file": "tests/alphaear-stock/test_stock.py",
+        "line": 6
+      },
+      {
+        "rule_id": "regex_py_os_path",
+        "severity": "low",
+        "category": "file_ops",
+        "file": "tests/alphaear-news/test_news.py",
+        "line": 6
+      },
+      {
+        "rule_id": "regex_py_os_path",
+        "severity": "low",
+        "category": "file_ops",
+        "file": "skills/alphaear-reporter/tests/test_reporter.py",
+        "line": 6
+      },
+      {
+        "rule_id": "regex_py_open",
+        "severity": "low",
+        "category": "file_ops",
+        "file": "skills/alphaear-reporter/scripts/visualizer.py",
+        "line": 453
+      },
+      {
+        "rule_id": "regex_py_os_remove",
+        "severity": "low",
+        "category": "file_ops",
+        "file": "skills/alphaear-reporter/scripts/visualizer.py",
+        "line": 451
+      },
+      {
+        "rule_id": "regex_py_os_remove",
+        "severity": "low",
+        "category": "file_ops",
+        "file": "skills/alphaear-reporter/scripts/visualizer.py",
+        "line": 466
+      },
+      {
+        "rule_id": "regex_py_requests",
+        "severity": "medium",
+        "category": "network_ops",
+        "file": "skills/alphaear-reporter/scripts/utils/content_extractor.py",
+        "line": 91
+      },
+      {
+        "rule_id": "regex_py_os_getenv",
+        "severity": "medium",
+        "category": "env_access",
+        "file": "skills/alphaear-reporter/scripts/utils/content_extractor.py",
+        "line": 79
+      },
+      {
+        "rule_id": "regex_py_requests",
+        "severity": "medium",
+        "category": "network_ops",
+        "file": "skills/alphaear-reporter/scripts/utils/news_tools.py",
+        "line": 61
+      },
+      {
+        "rule_id": "regex_py_requests",
+        "severity": "medium",
+        "category": "network_ops",
+        "file": "skills/alphaear-reporter/scripts/utils/news_tools.py",
+        "line": 191
+      },
+      {
+        "rule_id": "regex_py_requests",
+        "severity": "medium",
+        "category": "network_ops",
+        "file": "skills/alphaear-reporter/scripts/utils/search_tools.py",
+        "line": 102
+      },
+      {
+        "rule_id": "regex_py_os_getenv",
+        "severity": "medium",
+        "category": "env_access",
+        "file": "skills/alphaear-reporter/scripts/utils/search_tools.py",
+        "line": 20
+      },
+      {
+        "rule_id": "regex_py_os_getenv",
+        "severity": "medium",
+        "category": "env_access",
+        "file": "skills/alphaear-reporter/scripts/utils/search_tools.py",
+        "line": 37
+      },
+      {
+        "rule_id": "regex_py_os_getenv",
+        "severity": "medium",
+        "category": "env_access",
+        "file": "skills/alphaear-reporter/scripts/utils/search_tools.py",
+        "line": 163
+      },
+      {
+        "rule_id": "regex_py_os_getenv",
+        "severity": "medium",
+        "category": "env_access",
+        "file": "skills/alphaear-reporter/scripts/utils/search_tools.py",
+        "line": 566
+      },
+      {
+        "rule_id": "regex_py_os_getenv",
+        "severity": "medium",
+        "category": "env_access",
+        "file": "skills/alphaear-reporter/scripts/utils/search_tools.py",
+        "line": 567
+      },
+      {
+        "rule_id": "regex_py_os_getenv",
+        "severity": "medium",
+        "category": "env_access",
+        "file": "skills/alphaear-reporter/scripts/utils/search_tools.py",
+        "line": 568
+      },
+      {
+        "rule_id": "regex_py_os_getenv",
+        "severity": "medium",
+        "category": "env_access",
+        "file": "skills/alphaear-reporter/scripts/utils/hybrid_search.py",
+        "line": 34
+      }
+    ],
+    "total_files_scanned": 157
+  },
+  "verification_level": "full_pipeline",
+  "agent_audit": {
+    "agents_completed": 5,
+    "agents_required": 5,
+    "pipeline_run_at": "2026-03-05T00:45:53Z",
+    "agent_a": {
+      "signed": true,
+      "signed_at": "2026-03-05T00:45:53Z",
+      "comment": "Docs quality 10/10. README present. 12 features, 4 permissions claimed.",
+      "doc_quality_score": 10,
+      "claimed_permissions": [
+        "network access",
+        "system command execution",
+        "file system access",
+        "environment/secret access"
+      ]
+    },
+    "agent_b": {
+      "signed": true,
+      "signed_at": "2026-03-05T00:45:53Z",
+      "comment": "139 files analyzed. Found: 17 network, 12 file, 120 env, 6 system calls. Primary: python.",
+      "files_analyzed": 139,
+      "capabilities_found": [
+        "imports external dependencies",
+        "performs network operations",
+        "reads/writes files",
+        "reads environment values",
+        "executes system commands"
+      ]
+    },
+    "agent_c_star": {
+      "signed": true,
+      "signed_at": "2026-03-05T00:45:53Z",
+      "comment": "239 findings: 0 critical, 7 high, 167 medium, 65 low. No obfuscation. No injection.",
+      "total_findings": 239,
+      "severity_counts": {
+        "critical": 0,
+        "high": 7,
+        "medium": 167,
+        "low": 65,
+        "info": 0
+      }
+    },
+    "agent_d": {
+      "signed": true,
+      "signed_at": "2026-03-05T00:45:53Z",
+      "comment": "Score 60. 0 mismatches. Risk: medium. Safety overrides: none triggered.",
+      "score": 60,
+      "mismatches": 0,
+      "safety_overrides_applied": false
+    },
+    "agent_e": {
+      "signed": true,
+      "signed_at": "2026-03-05T00:45:53Z",
+      "comment": "Rejected. Confidence 60%. No overrides.",
+      "approved": false,
+      "confidence": 60,
+      "override_reason": null
+    },
+    "manager_summary": "5/5 agents completed. Score: 60/100, Risk: medium. 0 mismatches, 239 scanner findings. Rejected at 60% confidence. No safety overrides.",
+    "auto_clear": {
+      "applied": true,
+      "reason": "Auto-clear Cat 1: clean profile (0 inj, 0 obf_hr, score=60)",
+      "original_status": "manual_review",
+      "original_score": 60
+    }
+  }
 }

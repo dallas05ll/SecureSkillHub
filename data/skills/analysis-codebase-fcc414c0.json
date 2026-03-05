@@ -7,18 +7,260 @@
   "skill_type": "agent_skill",
   "owner": "deepeshbodh",
   "stars": 0,
-  "primary_language": "unknown",
+  "primary_language": "python",
   "tags": [
     "agent-skills",
     "installs:20",
-    "utilities"
+    "utilities",
+    "status-pass"
   ],
-  "verification_status": "unverified",
-  "overall_score": 0,
-  "risk_level": "info",
-  "verified_commit": null,
+  "verification_status": "pass",
+  "overall_score": 76,
+  "risk_level": "medium",
+  "verified_commit": "7d20f889363953ceec49d7fc54e9f92cbc6dcd5a",
   "scan_summary": null,
   "repo_status": "available",
   "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
-  "repo_check_error": null
+  "repo_check_error": null,
+  "scan_date": "2026-03-05T00:45:26Z",
+  "findings_summary": {
+    "scanner_findings": 20,
+    "dangerous_calls": 9,
+    "network_ops": 0,
+    "file_ops": 9,
+    "env_access": 2,
+    "obfuscation": 0,
+    "injection_patterns": 0,
+    "mismatches": 0,
+    "undocumented_capabilities": 0,
+    "supervisor_approved": false,
+    "supervisor_confidence": 76
+  },
+  "scan_report": {
+    "total_findings": 20,
+    "injection_patterns_count": 0,
+    "obfuscation_count": 0,
+    "obfuscation_high_risk_count": 0,
+    "dangerous_calls_count": 9,
+    "severity_counts": {
+      "critical": 0,
+      "high": 9,
+      "medium": 2,
+      "low": 9,
+      "info": 0
+    },
+    "category_counts": {
+      "file_ops": 9,
+      "dangerous_calls": 9,
+      "env_access": 2
+    },
+    "top_findings": [
+      {
+        "rule_id": "regex_py_pathlib_write",
+        "severity": "low",
+        "category": "file_ops",
+        "file": "humaninloop_brain/tests/test_cli/test_main_unit.py",
+        "line": 182
+      },
+      {
+        "rule_id": "regex_py_subprocess_call",
+        "severity": "high",
+        "category": "dangerous_calls",
+        "file": "humaninloop_brain/tests/test_cli/test_main.py",
+        "line": 19
+      },
+      {
+        "rule_id": "regex_py_os_remove",
+        "severity": "low",
+        "category": "file_ops",
+        "file": "humaninloop_brain/src/humaninloop_brain/passes/lifecycle.py",
+        "line": 473
+      },
+      {
+        "rule_id": "regex_py_tempfile",
+        "severity": "low",
+        "category": "file_ops",
+        "file": "humaninloop_brain/src/humaninloop_brain/passes/lifecycle.py",
+        "line": 457
+      },
+      {
+        "rule_id": "regex_shell_backtick_exec",
+        "severity": "high",
+        "category": "dangerous_calls",
+        "file": "plugins/humaninloop/commands/setup.md",
+        "line": 70
+      },
+      {
+        "rule_id": "regex_shell_backtick_exec",
+        "severity": "high",
+        "category": "dangerous_calls",
+        "file": "plugins/humaninloop/commands/plan.md",
+        "line": 178
+      },
+      {
+        "rule_id": "regex_shell_backtick_exec",
+        "severity": "high",
+        "category": "dangerous_calls",
+        "file": "plugins/humaninloop/commands/specify.md",
+        "line": 73
+      },
+      {
+        "rule_id": "regex_shell_backtick_exec",
+        "severity": "high",
+        "category": "dangerous_calls",
+        "file": "plugins/humaninloop/commands/techspec.md",
+        "line": 179
+      },
+      {
+        "rule_id": "regex_shell_backtick_exec",
+        "severity": "high",
+        "category": "dangerous_calls",
+        "file": "plugins/humaninloop/skills/using-git-worktrees/SKILL.md",
+        "line": 128
+      },
+      {
+        "rule_id": "regex_shell_backtick_exec",
+        "severity": "high",
+        "category": "dangerous_calls",
+        "file": "plugins/humaninloop/skills/syncing-claude-md/references/SYNC-PATTERNS.md",
+        "line": 175
+      },
+      {
+        "rule_id": "regex_shell_backtick_exec",
+        "severity": "high",
+        "category": "dangerous_calls",
+        "file": "plugins/humaninloop/skills/using-github-issues/references/gh-cli-commands.md",
+        "line": 143
+      },
+      {
+        "rule_id": "regex_py_os_environ",
+        "severity": "medium",
+        "category": "env_access",
+        "file": "plugins/humaninloop/skills/analysis-codebase/SKILL.md",
+        "line": 157
+      },
+      {
+        "rule_id": "regex_shell_backtick_exec",
+        "severity": "high",
+        "category": "dangerous_calls",
+        "file": "plugins/humaninloop/skills/testing-end-user/references/EVIDENCE-CAPTURE.md",
+        "line": 217
+      },
+      {
+        "rule_id": "regex_py_open",
+        "severity": "low",
+        "category": "file_ops",
+        "file": "plugins/humaninloop/skills/validation-plan-artifacts/scripts/check-artifacts.py",
+        "line": 82
+      },
+      {
+        "rule_id": "regex_py_os_path",
+        "severity": "low",
+        "category": "file_ops",
+        "file": "plugins/humaninloop/skills/validation-plan-artifacts/scripts/check-artifacts.py",
+        "line": 311
+      },
+      {
+        "rule_id": "regex_py_os_path",
+        "severity": "low",
+        "category": "file_ops",
+        "file": "plugins/humaninloop/skills/validation-plan-artifacts/scripts/check-artifacts.py",
+        "line": 381
+      },
+      {
+        "rule_id": "regex_generic_password",
+        "severity": "medium",
+        "category": "env_access",
+        "file": "plugins/humaninloop/skills/patterns-vertical-tdd/references/CYCLE-STRUCTURE.md",
+        "line": 378
+      },
+      {
+        "rule_id": "regex_py_open",
+        "severity": "low",
+        "category": "file_ops",
+        "file": "docs/agent-skills-documentation.md",
+        "line": 579
+      },
+      {
+        "rule_id": "regex_py_open",
+        "severity": "low",
+        "category": "file_ops",
+        "file": "docs/agent-skills-documentation.md",
+        "line": 583
+      },
+      {
+        "rule_id": "regex_py_open",
+        "severity": "low",
+        "category": "file_ops",
+        "file": "docs/agent-skills-documentation.md",
+        "line": 589
+      }
+    ],
+    "total_files_scanned": 227
+  },
+  "verification_level": "full_pipeline",
+  "agent_audit": {
+    "agents_completed": 5,
+    "agents_required": 5,
+    "pipeline_run_at": "2026-03-05T00:45:26Z",
+    "agent_a": {
+      "signed": true,
+      "signed_at": "2026-03-05T00:45:26Z",
+      "comment": "Docs quality 10/10. README present. 12 features, 4 permissions claimed.",
+      "doc_quality_score": 10,
+      "claimed_permissions": [
+        "network access",
+        "system command execution",
+        "file system access",
+        "environment/secret access"
+      ]
+    },
+    "agent_b": {
+      "signed": true,
+      "signed_at": "2026-03-05T00:45:26Z",
+      "comment": "84 files analyzed. Found: 0 network, 40 file, 0 env, 1 system calls. Primary: python.",
+      "files_analyzed": 84,
+      "capabilities_found": [
+        "imports external dependencies",
+        "reads/writes files",
+        "executes system commands"
+      ]
+    },
+    "agent_c_star": {
+      "signed": true,
+      "signed_at": "2026-03-05T00:45:26Z",
+      "comment": "20 findings: 0 critical, 9 high, 2 medium, 9 low. No obfuscation. No injection.",
+      "total_findings": 20,
+      "severity_counts": {
+        "critical": 0,
+        "high": 9,
+        "medium": 2,
+        "low": 9,
+        "info": 0
+      }
+    },
+    "agent_d": {
+      "signed": true,
+      "signed_at": "2026-03-05T00:45:26Z",
+      "comment": "Score 76. 0 mismatches. Risk: medium. Safety overrides: none triggered.",
+      "score": 76,
+      "mismatches": 0,
+      "safety_overrides_applied": false
+    },
+    "agent_e": {
+      "signed": true,
+      "signed_at": "2026-03-05T00:45:26Z",
+      "comment": "Rejected. Confidence 76%. No overrides.",
+      "approved": false,
+      "confidence": 76,
+      "override_reason": null
+    },
+    "manager_summary": "5/5 agents completed. Score: 76/100, Risk: medium. 0 mismatches, 20 scanner findings. Rejected at 76% confidence. No safety overrides.",
+    "auto_clear": {
+      "applied": true,
+      "reason": "Auto-clear Cat 1: clean profile (0 inj, 0 obf_hr, score=76)",
+      "original_status": "manual_review",
+      "original_score": 76
+    }
+  }
 }

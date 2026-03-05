@@ -6,15 +6,16 @@
   "source_hub": "mcp_so",
   "owner": "jikang-jeong",
   "stars": 0,
-  "primary_language": "unknown",
+  "primary_language": "python",
   "tags": [
     "integ",
     "integ-cloud",
-    "integ-cloud-aws"
+    "integ-cloud-aws",
+    "status-pass"
   ],
-  "verification_status": "unverified",
-  "overall_score": 85,
-  "risk_level": "info",
+  "verification_status": "pass",
+  "overall_score": 91,
+  "risk_level": "medium",
   "verified_commit": "cdcc4b32f97ee7872a391d504429e1c0d4fb472c",
   "scan_summary": {
     "total_findings": 0,
@@ -22,7 +23,7 @@
     "severity_counts": {},
     "category_counts": {}
   },
-  "scan_date": "2026-02-28T04:14:41Z",
+  "scan_date": "2026-03-05T00:47:50Z",
   "status_cleared": {
     "date": "2026-03-02T20:40:18.531782+00:00",
     "previous_status": "pass",
@@ -31,5 +32,159 @@
     "verification_level": "scanner_only",
     "reason": "SM cleanup: only full_pipeline pass is real pass. Needs re-verification."
   },
-  "skill_type": "mcp_server"
+  "skill_type": "mcp_server",
+  "findings_summary": {
+    "scanner_findings": 9,
+    "dangerous_calls": 0,
+    "network_ops": 1,
+    "file_ops": 0,
+    "env_access": 8,
+    "obfuscation": 0,
+    "injection_patterns": 0,
+    "mismatches": 0,
+    "undocumented_capabilities": 0,
+    "supervisor_approved": true,
+    "supervisor_confidence": 91
+  },
+  "scan_report": {
+    "total_findings": 9,
+    "injection_patterns_count": 0,
+    "obfuscation_count": 0,
+    "obfuscation_high_risk_count": 0,
+    "dangerous_calls_count": 0,
+    "severity_counts": {
+      "critical": 0,
+      "high": 0,
+      "medium": 9,
+      "low": 0,
+      "info": 0
+    },
+    "category_counts": {
+      "env_access": 8,
+      "network_ops": 1
+    },
+    "top_findings": [
+      {
+        "rule_id": "regex_py_os_getenv",
+        "severity": "medium",
+        "category": "env_access",
+        "file": "main.py",
+        "line": 144
+      },
+      {
+        "rule_id": "regex_py_dotenv_load",
+        "severity": "medium",
+        "category": "env_access",
+        "file": "main.py",
+        "line": 12
+      },
+      {
+        "rule_id": "regex_py_requests",
+        "severity": "medium",
+        "category": "network_ops",
+        "file": "mcp_server/web_wikipedia.py",
+        "line": 35
+      },
+      {
+        "rule_id": "regex_py_os_getenv",
+        "severity": "medium",
+        "category": "env_access",
+        "file": "mcp_server/mcp_server.py",
+        "line": 36
+      },
+      {
+        "rule_id": "regex_py_os_getenv",
+        "severity": "medium",
+        "category": "env_access",
+        "file": "mcp_server/mcp_server.py",
+        "line": 37
+      },
+      {
+        "rule_id": "regex_py_os_getenv",
+        "severity": "medium",
+        "category": "env_access",
+        "file": "mcp_server/mcp_server.py",
+        "line": 38
+      },
+      {
+        "rule_id": "regex_py_os_getenv",
+        "severity": "medium",
+        "category": "env_access",
+        "file": "mcp_server/mcp_server.py",
+        "line": 39
+      },
+      {
+        "rule_id": "regex_py_os_getenv",
+        "severity": "medium",
+        "category": "env_access",
+        "file": "mcp_server/mcp_server.py",
+        "line": 40
+      },
+      {
+        "rule_id": "regex_py_dotenv_load",
+        "severity": "medium",
+        "category": "env_access",
+        "file": "mcp_server/mcp_server.py",
+        "line": 32
+      }
+    ],
+    "total_files_scanned": 26
+  },
+  "verification_level": "full_pipeline",
+  "agent_audit": {
+    "agents_completed": 5,
+    "agents_required": 5,
+    "pipeline_run_at": "2026-03-05T00:47:50Z",
+    "agent_a": {
+      "signed": true,
+      "signed_at": "2026-03-05T00:47:50Z",
+      "comment": "Docs quality 8/10. README present. 11 features, 2 permissions claimed.",
+      "doc_quality_score": 8,
+      "claimed_permissions": [
+        "network access",
+        "environment/secret access"
+      ]
+    },
+    "agent_b": {
+      "signed": true,
+      "signed_at": "2026-03-05T00:47:50Z",
+      "comment": "22 files analyzed. Found: 1 network, 0 file, 6 env, 0 system calls. Primary: python.",
+      "files_analyzed": 22,
+      "capabilities_found": [
+        "imports external dependencies",
+        "performs network operations",
+        "reads environment values"
+      ]
+    },
+    "agent_c_star": {
+      "signed": true,
+      "signed_at": "2026-03-05T00:47:50Z",
+      "comment": "9 findings: 0 critical, 0 high, 9 medium, 0 low. No obfuscation. No injection.",
+      "total_findings": 9,
+      "severity_counts": {
+        "critical": 0,
+        "high": 0,
+        "medium": 9,
+        "low": 0,
+        "info": 0
+      }
+    },
+    "agent_d": {
+      "signed": true,
+      "signed_at": "2026-03-05T00:47:50Z",
+      "comment": "Score 91. 0 mismatches. Risk: medium. Safety overrides: none triggered.",
+      "score": 91,
+      "mismatches": 0,
+      "safety_overrides_applied": false
+    },
+    "agent_e": {
+      "signed": true,
+      "signed_at": "2026-03-05T00:47:50Z",
+      "comment": "Approved. Confidence 91%. No overrides.",
+      "approved": true,
+      "confidence": 91,
+      "override_reason": null
+    },
+    "manager_summary": "5/5 agents completed. Score: 91/100, Risk: medium. 0 mismatches, 9 scanner findings. Approved at 91% confidence. No safety overrides."
+  }
 }

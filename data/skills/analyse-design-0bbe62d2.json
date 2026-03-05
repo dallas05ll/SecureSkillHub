@@ -7,7 +7,7 @@
   "skill_type": "agent_skill",
   "owner": "sammcj",
   "stars": 0,
-  "primary_language": "unknown",
+  "primary_language": "python",
   "tags": [
     "agent-skills",
     "installs:90",
@@ -15,14 +15,261 @@
     "dev-web",
     "dev-web-frontend",
     "prod",
-    "prod-docs"
+    "prod-docs",
+    "status-pass"
   ],
-  "verification_status": "unverified",
-  "overall_score": 0,
-  "risk_level": "info",
-  "verified_commit": null,
+  "verification_status": "pass",
+  "overall_score": 60,
+  "risk_level": "medium",
+  "verified_commit": "c01356ec7b7a72530bf5e2dffb6584ec3adb56df",
   "scan_summary": null,
   "repo_status": "available",
   "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
-  "repo_check_error": null
+  "repo_check_error": null,
+  "scan_date": "2026-03-05T00:45:43Z",
+  "findings_summary": {
+    "scanner_findings": 70,
+    "dangerous_calls": 14,
+    "network_ops": 5,
+    "file_ops": 11,
+    "env_access": 26,
+    "obfuscation": 1,
+    "injection_patterns": 0,
+    "mismatches": 0,
+    "undocumented_capabilities": 0,
+    "supervisor_approved": false,
+    "supervisor_confidence": 60
+  },
+  "scan_report": {
+    "total_findings": 70,
+    "injection_patterns_count": 0,
+    "obfuscation_count": 1,
+    "obfuscation_high_risk_count": 0,
+    "dangerous_calls_count": 14,
+    "severity_counts": {
+      "critical": 0,
+      "high": 28,
+      "medium": 31,
+      "low": 11,
+      "info": 0
+    },
+    "category_counts": {
+      "dangerous_calls": 14,
+      "suspicious_urls": 13,
+      "env_access": 26,
+      "network_ops": 5,
+      "file_ops": 11,
+      "obfuscation": 1
+    },
+    "top_findings": [
+      {
+        "rule_id": "regex_shell_backtick_exec",
+        "severity": "high",
+        "category": "dangerous_calls",
+        "file": "Skills_disabled/create-mcp-app/SKILL.md",
+        "line": 50
+      },
+      {
+        "rule_id": "regex_localhost_non_std",
+        "severity": "high",
+        "category": "suspicious_urls",
+        "file": "Skills_disabled/create-mcp-app/SKILL.md",
+        "line": 331
+      },
+      {
+        "rule_id": "regex_localhost_non_std",
+        "severity": "high",
+        "category": "suspicious_urls",
+        "file": "Skills_disabled/create-mcp-app/SKILL.md",
+        "line": 332
+      },
+      {
+        "rule_id": "regex_localhost_non_std",
+        "severity": "high",
+        "category": "suspicious_urls",
+        "file": "Skills_disabled/create-mcp-app/SKILL.md",
+        "line": 335
+      },
+      {
+        "rule_id": "regex_py_os_environ",
+        "severity": "medium",
+        "category": "env_access",
+        "file": "Skills_disabled/home-assistant/scripts/ha_search_similar_entities.py",
+        "line": 31
+      },
+      {
+        "rule_id": "regex_py_os_environ",
+        "severity": "medium",
+        "category": "env_access",
+        "file": "Skills_disabled/home-assistant/scripts/ha_get_services.py",
+        "line": 30
+      },
+      {
+        "rule_id": "regex_py_os_environ",
+        "severity": "medium",
+        "category": "env_access",
+        "file": "Skills_disabled/home-assistant/scripts/ha_search_dashboards.py",
+        "line": 32
+      },
+      {
+        "rule_id": "regex_py_os_environ",
+        "severity": "medium",
+        "category": "env_access",
+        "file": "Skills_disabled/home-assistant/scripts/ha_search_dashboards.py",
+        "line": 73
+      },
+      {
+        "rule_id": "regex_py_os_environ",
+        "severity": "medium",
+        "category": "env_access",
+        "file": "Skills_disabled/home-assistant/scripts/ha_get_state.py",
+        "line": 28
+      },
+      {
+        "rule_id": "regex_py_os_environ",
+        "severity": "medium",
+        "category": "env_access",
+        "file": "Skills_disabled/home-assistant/scripts/ha_list_traces.py",
+        "line": 47
+      },
+      {
+        "rule_id": "regex_generic_api_key",
+        "severity": "medium",
+        "category": "env_access",
+        "file": "Skills_disabled/home-assistant/scripts/ha_list_traces.py",
+        "line": 65
+      },
+      {
+        "rule_id": "regex_py_os_environ",
+        "severity": "medium",
+        "category": "env_access",
+        "file": "Skills_disabled/home-assistant/scripts/ha_call_service.py",
+        "line": 28
+      },
+      {
+        "rule_id": "regex_py_os_environ",
+        "severity": "medium",
+        "category": "env_access",
+        "file": "Skills_disabled/home-assistant/scripts/ha_trace_summary.py",
+        "line": 30
+      },
+      {
+        "rule_id": "regex_generic_api_key",
+        "severity": "medium",
+        "category": "env_access",
+        "file": "Skills_disabled/home-assistant/scripts/ha_trace_summary.py",
+        "line": 48
+      },
+      {
+        "rule_id": "regex_py_os_environ",
+        "severity": "medium",
+        "category": "env_access",
+        "file": "Skills_disabled/home-assistant/scripts/ha_get_automations.py",
+        "line": 47
+      },
+      {
+        "rule_id": "regex_py_os_environ",
+        "severity": "medium",
+        "category": "env_access",
+        "file": "Skills_disabled/home-assistant/scripts/ha_get_config.py",
+        "line": 25
+      },
+      {
+        "rule_id": "regex_py_requests",
+        "severity": "medium",
+        "category": "network_ops",
+        "file": "Skills_disabled/home-assistant/scripts/ha_get_config_entries.py",
+        "line": 37
+      },
+      {
+        "rule_id": "regex_py_os_getenv",
+        "severity": "medium",
+        "category": "env_access",
+        "file": "Skills_disabled/home-assistant/scripts/ha_get_config_entries.py",
+        "line": 26
+      },
+      {
+        "rule_id": "regex_py_os_environ",
+        "severity": "medium",
+        "category": "env_access",
+        "file": "Skills_disabled/home-assistant/scripts/ha_get_trace.py",
+        "line": 61
+      },
+      {
+        "rule_id": "regex_generic_api_key",
+        "severity": "medium",
+        "category": "env_access",
+        "file": "Skills_disabled/home-assistant/scripts/ha_get_trace.py",
+        "line": 79
+      }
+    ],
+    "total_files_scanned": 109
+  },
+  "verification_level": "full_pipeline",
+  "agent_audit": {
+    "agents_completed": 5,
+    "agents_required": 5,
+    "pipeline_run_at": "2026-03-05T00:45:43Z",
+    "agent_a": {
+      "signed": true,
+      "signed_at": "2026-03-05T00:45:43Z",
+      "comment": "Docs quality 10/10. README present. 12 features, 4 permissions claimed.",
+      "doc_quality_score": 10,
+      "claimed_permissions": [
+        "network access",
+        "system command execution",
+        "file system access",
+        "environment/secret access"
+      ]
+    },
+    "agent_b": {
+      "signed": true,
+      "signed_at": "2026-03-05T00:45:43Z",
+      "comment": "29 files analyzed. Found: 22 network, 19 file, 18 env, 3 system calls. Primary: python.",
+      "files_analyzed": 29,
+      "capabilities_found": [
+        "imports external dependencies",
+        "performs network operations",
+        "reads/writes files",
+        "reads environment values",
+        "executes system commands"
+      ]
+    },
+    "agent_c_star": {
+      "signed": true,
+      "signed_at": "2026-03-05T00:45:43Z",
+      "comment": "70 findings: 0 critical, 28 high, 31 medium, 11 low. Obfuscation detected!. No injection.",
+      "total_findings": 70,
+      "severity_counts": {
+        "critical": 0,
+        "high": 28,
+        "medium": 31,
+        "low": 11,
+        "info": 0
+      }
+    },
+    "agent_d": {
+      "signed": true,
+      "signed_at": "2026-03-05T00:45:43Z",
+      "comment": "Score 60. 0 mismatches. Risk: medium. Safety overrides: none triggered.",
+      "score": 60,
+      "mismatches": 0,
+      "safety_overrides_applied": false
+    },
+    "agent_e": {
+      "signed": true,
+      "signed_at": "2026-03-05T00:45:43Z",
+      "comment": "Rejected. Confidence 60%. No overrides.",
+      "approved": false,
+      "confidence": 60,
+      "override_reason": null
+    },
+    "manager_summary": "5/5 agents completed. Score: 60/100, Risk: medium. 0 mismatches, 70 scanner findings. Rejected at 60% confidence. No safety overrides.",
+    "auto_clear": {
+      "applied": true,
+      "reason": "Auto-clear Cat 1: clean profile (0 inj, 0 obf_hr, score=60)",
+      "original_status": "manual_review",
+      "original_score": 60
+    }
+  }
 }

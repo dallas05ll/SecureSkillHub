@@ -7,19 +7,255 @@
   "skill_type": "agent_skill",
   "owner": "r3bl-org",
   "stars": 0,
-  "primary_language": "unknown",
+  "primary_language": "rust",
   "tags": [
     "agent-skills",
     "installs:458",
     "data",
-    "data-ai"
+    "data-ai",
+    "status-pass"
   ],
-  "verification_status": "unverified",
-  "overall_score": 0,
-  "risk_level": "info",
-  "verified_commit": null,
+  "verification_status": "pass",
+  "overall_score": 74,
+  "risk_level": "medium",
+  "verified_commit": "1625de4485da29ee2595cbb307a04b58afe5f87a",
   "scan_summary": null,
   "repo_status": "available",
   "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
-  "repo_check_error": null
+  "repo_check_error": null,
+  "scan_date": "2026-03-05T00:46:20Z",
+  "findings_summary": {
+    "scanner_findings": 19,
+    "dangerous_calls": 10,
+    "network_ops": 0,
+    "file_ops": 8,
+    "env_access": 0,
+    "obfuscation": 1,
+    "injection_patterns": 0,
+    "mismatches": 0,
+    "undocumented_capabilities": 0,
+    "supervisor_approved": false,
+    "supervisor_confidence": 74
+  },
+  "scan_report": {
+    "total_findings": 19,
+    "injection_patterns_count": 0,
+    "obfuscation_count": 1,
+    "obfuscation_high_risk_count": 0,
+    "dangerous_calls_count": 10,
+    "severity_counts": {
+      "critical": 0,
+      "high": 11,
+      "medium": 0,
+      "low": 8,
+      "info": 0
+    },
+    "category_counts": {
+      "obfuscation": 1,
+      "file_ops": 8,
+      "dangerous_calls": 10
+    },
+    "top_findings": [
+      {
+        "rule_id": "regex_js_btoa",
+        "severity": "high",
+        "category": "obfuscation",
+        "file": "tui/src/tui/md_parser/conformance_test_data/real_world_files/large_complex_document.md",
+        "line": 139
+      },
+      {
+        "rule_id": "regex_py_open",
+        "severity": "low",
+        "category": "file_ops",
+        "file": "docs/contributing_guides/STYLE_GUIDE.md",
+        "line": 111
+      },
+      {
+        "rule_id": "regex_shell_backtick_exec",
+        "severity": "high",
+        "category": "dangerous_calls",
+        "file": "task/fix-future-incompat-warnings-2.md",
+        "line": 47
+      },
+      {
+        "rule_id": "regex_shell_backtick_exec",
+        "severity": "high",
+        "category": "dangerous_calls",
+        "file": "task/fix-future-incompat-warnings-2.md",
+        "line": 69
+      },
+      {
+        "rule_id": "regex_shell_backtick_exec",
+        "severity": "high",
+        "category": "dangerous_calls",
+        "file": "task/fix-future-incompat-warnings-2.md",
+        "line": 103
+      },
+      {
+        "rule_id": "regex_shell_backtick_exec",
+        "severity": "high",
+        "category": "dangerous_calls",
+        "file": "task/fix-future-incompat-warnings-2.md",
+        "line": 113
+      },
+      {
+        "rule_id": "regex_shell_backtick_exec",
+        "severity": "high",
+        "category": "dangerous_calls",
+        "file": "task/fix-flaky-test-test_pty_mio_poller_thread_reuse.md",
+        "line": 214
+      },
+      {
+        "rule_id": "regex_py_open",
+        "severity": "low",
+        "category": "file_ops",
+        "file": "task/done/fix-rrt-restart.md",
+        "line": 92
+      },
+      {
+        "rule_id": "regex_shell_backtick_exec",
+        "severity": "high",
+        "category": "dangerous_calls",
+        "file": "task/done/task_refactor_nu.md",
+        "line": 56
+      },
+      {
+        "rule_id": "regex_shell_backtick_exec",
+        "severity": "high",
+        "category": "dangerous_calls",
+        "file": "task/pending/task_build_tools_infra_plan.md",
+        "line": 375
+      },
+      {
+        "rule_id": "regex_shell_backtick_exec",
+        "severity": "high",
+        "category": "dangerous_calls",
+        "file": "task/pending/task_render_path_2_add_ofs_buf.md",
+        "line": 666
+      },
+      {
+        "rule_id": "regex_shell_backtick_exec",
+        "severity": "high",
+        "category": "dangerous_calls",
+        "file": "task/pending/task_unify_cli_and_styled_text.md",
+        "line": 1192
+      },
+      {
+        "rule_id": "regex_shell_backtick_exec",
+        "severity": "high",
+        "category": "dangerous_calls",
+        "file": "task/pending/task_unify_cli_and_styled_text.md",
+        "line": 1231
+      },
+      {
+        "rule_id": "regex_py_open",
+        "severity": "low",
+        "category": "file_ops",
+        "file": "task/pending/fork-syntect-and-remove-bincode-dep.md",
+        "line": 219
+      },
+      {
+        "rule_id": "regex_py_open",
+        "severity": "low",
+        "category": "file_ops",
+        "file": "task/pending/fork-syntect-and-remove-bincode-dep.md",
+        "line": 227
+      },
+      {
+        "rule_id": "regex_py_open",
+        "severity": "low",
+        "category": "file_ops",
+        "file": "task/pending/fork-syntect-and-remove-bincode-dep.md",
+        "line": 266
+      },
+      {
+        "rule_id": "regex_py_open",
+        "severity": "low",
+        "category": "file_ops",
+        "file": "task/pending/fork-syntect-and-remove-bincode-dep.md",
+        "line": 275
+      },
+      {
+        "rule_id": "regex_py_open",
+        "severity": "low",
+        "category": "file_ops",
+        "file": "task/pending/rtfm-app-prd.md",
+        "line": 34
+      },
+      {
+        "rule_id": "regex_py_open",
+        "severity": "low",
+        "category": "file_ops",
+        "file": "task/pending/task_ofs_buf_1d_array.md",
+        "line": 914
+      }
+    ],
+    "total_files_scanned": 137
+  },
+  "verification_level": "full_pipeline",
+  "agent_audit": {
+    "agents_completed": 5,
+    "agents_required": 5,
+    "pipeline_run_at": "2026-03-05T00:46:20Z",
+    "agent_a": {
+      "signed": true,
+      "signed_at": "2026-03-05T00:46:20Z",
+      "comment": "Docs quality 9/10. README present. 12 features, 4 permissions claimed.",
+      "doc_quality_score": 9,
+      "claimed_permissions": [
+        "network access",
+        "system command execution",
+        "file system access",
+        "environment/secret access"
+      ]
+    },
+    "agent_b": {
+      "signed": true,
+      "signed_at": "2026-03-05T00:46:20Z",
+      "comment": "770 files analyzed. Found: 15 network, 7 file, 0 env, 8 system calls. Primary: rust.",
+      "files_analyzed": 770,
+      "capabilities_found": [
+        "imports external dependencies",
+        "performs network operations",
+        "reads/writes files",
+        "executes system commands"
+      ]
+    },
+    "agent_c_star": {
+      "signed": true,
+      "signed_at": "2026-03-05T00:46:20Z",
+      "comment": "19 findings: 0 critical, 11 high, 0 medium, 8 low. Obfuscation detected!. No injection.",
+      "total_findings": 19,
+      "severity_counts": {
+        "critical": 0,
+        "high": 11,
+        "medium": 0,
+        "low": 8,
+        "info": 0
+      }
+    },
+    "agent_d": {
+      "signed": true,
+      "signed_at": "2026-03-05T00:46:20Z",
+      "comment": "Score 74. 0 mismatches. Risk: medium. Safety overrides: none triggered.",
+      "score": 74,
+      "mismatches": 0,
+      "safety_overrides_applied": false
+    },
+    "agent_e": {
+      "signed": true,
+      "signed_at": "2026-03-05T00:46:20Z",
+      "comment": "Rejected. Confidence 74%. No overrides.",
+      "approved": false,
+      "confidence": 74,
+      "override_reason": null
+    },
+    "manager_summary": "5/5 agents completed. Score: 74/100, Risk: medium. 0 mismatches, 19 scanner findings. Rejected at 74% confidence. No safety overrides.",
+    "auto_clear": {
+      "applied": true,
+      "reason": "Auto-clear Cat 1: clean profile (0 inj, 0 obf_hr, score=74)",
+      "original_status": "manual_review",
+      "original_score": 74
+    }
+  }
 }
