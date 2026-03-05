@@ -1,7 +1,7 @@
 {
   "id": "crud-b9196c2f",
   "name": "crud",
-  "description": "创建或修改 CRUD 模块。当需要创建新的增删改查 API、修改现有路由模块、添加新字段、新增接口、或用户请求\"创建/修改 XX 管理\"时使用",
+  "description": "\u521b\u5efa\u6216\u4fee\u6539 CRUD \u6a21\u5757\u3002\u5f53\u9700\u8981\u521b\u5efa\u65b0\u7684\u589e\u5220\u6539\u67e5 API\u3001\u4fee\u6539\u73b0\u6709\u8def\u7531\u6a21\u5757\u3001\u6dfb\u52a0\u65b0\u5b57\u6bb5\u3001\u65b0\u589e\u63a5\u53e3\u3001\u6216\u7528\u6237\u8bf7\u6c42\"\u521b\u5efa/\u4fee\u6539 XX \u7ba1\u7406\"\u65f6\u4f7f\u7528",
   "repo_url": "https://github.com/zhe-qi/clhoria-template",
   "source_hub": "skillsmp",
   "skill_type": "agent_skill",
@@ -20,5 +20,6 @@
   "scan_summary": null,
   "repo_status": "available",
   "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
-  "repo_check_error": null
+  "repo_check_error": null,
+  "installs": 130
 }

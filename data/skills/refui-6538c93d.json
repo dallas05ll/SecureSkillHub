@@ -1,7 +1,7 @@
 {
   "id": "refui-6538c93d",
   "name": "refui",
-  "description": "Use when working with rEFui (refui) applications where you cannot rely on reading the library source. Covers the retained-mode + signals mental model, DOM/HTML/Reflow renderers, JSX setup (classic pragma vs automatic runtime), directives (on:/class:/style:/attr:/prop:/m: macros), HMR via refurbish/refui/hmr, debugging “UI not updating” issues, and migrating React/Vue/Solid/Svelte patterns to rEFui.",
+  "description": "Use when working with rEFui (refui) applications where you cannot rely on reading the library source. Covers the retained-mode + signals mental model, DOM/HTML/Reflow renderers, JSX setup (classic pragma vs automatic runtime), directives (on:/class:/style:/attr:/prop:/m: macros), HMR via refurbish/refui/hmr, debugging \u201cUI not updating\u201d issues, and migrating React/Vue/Solid/Svelte patterns to rEFui.",
   "repo_url": "https://github.com/sudomaker/refui",
   "source_hub": "skillsmp",
   "skill_type": "agent_skill",
@@ -26,5 +26,6 @@
   "scan_summary": null,
   "repo_status": "available",
   "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
-  "repo_check_error": null
+  "repo_check_error": null,
+  "installs": 83
 }

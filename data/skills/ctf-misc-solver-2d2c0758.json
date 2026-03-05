@@ -1,7 +1,7 @@
 {
   "id": "ctf-misc-solver-2d2c0758",
   "name": "ctf-misc-solver",
-  "description": "当用户正在进行 CTF 比赛或练习，遇到 Misc 类型题目时触发此 Skill。\n适用场景包括：\n- 用户上传或提及了音频文件（wav/mp3/flac）、图片文件（png/jpg/bmp/gif）、压缩包、pcap 流量包、内存镜像（raw/vmem/dmp）等\n- 用户描述了隐写、编码、套娃、文件分析、内存取证相关问题\n- 用户明确说\"CTF\"、\"Misc\"、\"隐写\"、\"找 flag\"、\"这是一道题\"、\"内存取证\"、\"Volatility\"等关键词\n- 用户提供了 base64/hex/binary 等编码字符串需要解码\n- 用户需要分析可疑文件、提取隐藏数据、还原协议内容、分析内存镜像",
+  "description": "\u5f53\u7528\u6237\u6b63\u5728\u8fdb\u884c CTF \u6bd4\u8d5b\u6216\u7ec3\u4e60\uff0c\u9047\u5230 Misc \u7c7b\u578b\u9898\u76ee\u65f6\u89e6\u53d1\u6b64 Skill\u3002\n\u9002\u7528\u573a\u666f\u5305\u62ec\uff1a\n- \u7528\u6237\u4e0a\u4f20\u6216\u63d0\u53ca\u4e86\u97f3\u9891\u6587\u4ef6\uff08wav/mp3/flac\uff09\u3001\u56fe\u7247\u6587\u4ef6\uff08png/jpg/bmp/gif\uff09\u3001\u538b\u7f29\u5305\u3001pcap \u6d41\u91cf\u5305\u3001\u5185\u5b58\u955c\u50cf\uff08raw/vmem/dmp\uff09\u7b49\n- \u7528\u6237\u63cf\u8ff0\u4e86\u9690\u5199\u3001\u7f16\u7801\u3001\u5957\u5a03\u3001\u6587\u4ef6\u5206\u6790\u3001\u5185\u5b58\u53d6\u8bc1\u76f8\u5173\u95ee\u9898\n- \u7528\u6237\u660e\u786e\u8bf4\"CTF\"\u3001\"Misc\"\u3001\"\u9690\u5199\"\u3001\"\u627e flag\"\u3001\"\u8fd9\u662f\u4e00\u9053\u9898\"\u3001\"\u5185\u5b58\u53d6\u8bc1\"\u3001\"Volatility\"\u7b49\u5173\u952e\u8bcd\n- \u7528\u6237\u63d0\u4f9b\u4e86 base64/hex/binary \u7b49\u7f16\u7801\u5b57\u7b26\u4e32\u9700\u8981\u89e3\u7801\n- \u7528\u6237\u9700\u8981\u5206\u6790\u53ef\u7591\u6587\u4ef6\u3001\u63d0\u53d6\u9690\u85cf\u6570\u636e\u3001\u8fd8\u539f\u534f\u8bae\u5185\u5bb9\u3001\u5206\u6790\u5185\u5b58\u955c\u50cf",
   "repo_url": "https://github.com/tokeii0/ctfskill",
   "source_hub": "skillsmp",
   "skill_type": "agent_skill",
@@ -21,5 +21,6 @@
   "scan_summary": null,
   "repo_status": "available",
   "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
-  "repo_check_error": null
+  "repo_check_error": null,
+  "installs": 14
 }

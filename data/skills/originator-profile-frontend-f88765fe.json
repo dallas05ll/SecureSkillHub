@@ -1,7 +1,7 @@
 {
   "id": "originator-profile-frontend-f88765fe",
   "name": "originator-profile-frontend",
-  "description": "フロントエンド開発支援（React コンポーネント、Tailwind CSS、アクセシビリティ、テスト）",
+  "description": "\u30d5\u30ed\u30f3\u30c8\u30a8\u30f3\u30c9\u958b\u767a\u652f\u63f4\uff08React \u30b3\u30f3\u30dd\u30fc\u30cd\u30f3\u30c8\u3001Tailwind CSS\u3001\u30a2\u30af\u30bb\u30b7\u30d3\u30ea\u30c6\u30a3\u3001\u30c6\u30b9\u30c8\uff09",
   "repo_url": "https://github.com/originator-profile/originator-profile",
   "source_hub": "skillsmp",
   "skill_type": "agent_skill",
@@ -23,5 +23,6 @@
   "scan_summary": null,
   "repo_status": "available",
   "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
-  "repo_check_error": null
+  "repo_check_error": null,
+  "installs": 10
 }

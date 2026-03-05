@@ -1,7 +1,7 @@
 {
   "id": "backend-file-analysis-3893419f",
   "name": "backend-file-analysis",
-  "description": "对后端源码文件生成严格遵循模板的分析文档。读源码→提取结构→按模板填充所有章节（职责/行为意图/行为/约束/输入输出/调用链/副作用/异常处理/PRD映射）。",
+  "description": "\u5bf9\u540e\u7aef\u6e90\u7801\u6587\u4ef6\u751f\u6210\u4e25\u683c\u9075\u5faa\u6a21\u677f\u7684\u5206\u6790\u6587\u6863\u3002\u8bfb\u6e90\u7801\u2192\u63d0\u53d6\u7ed3\u6784\u2192\u6309\u6a21\u677f\u586b\u5145\u6240\u6709\u7ae0\u8282\uff08\u804c\u8d23/\u884c\u4e3a\u610f\u56fe/\u884c\u4e3a/\u7ea6\u675f/\u8f93\u5165\u8f93\u51fa/\u8c03\u7528\u94fe/\u526f\u4f5c\u7528/\u5f02\u5e38\u5904\u7406/PRD\u6620\u5c04\uff09\u3002",
   "repo_url": "https://github.com/biantaishabi2/cli",
   "source_hub": "skillsmp",
   "skill_type": "agent_skill",
@@ -22,5 +22,6 @@
   "scan_summary": null,
   "repo_status": "available",
   "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
-  "repo_check_error": null
+  "repo_check_error": null,
+  "installs": 10
 }

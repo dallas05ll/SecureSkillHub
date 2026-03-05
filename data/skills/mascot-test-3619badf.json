@@ -1,7 +1,7 @@
 {
   "id": "mascot-test-3619badf",
   "name": "mascot-test",
-  "description": "マスコットの口パク・吹き出し・感情表現をテスト（TTS不要）",
+  "description": "\u30de\u30b9\u30b3\u30c3\u30c8\u306e\u53e3\u30d1\u30af\u30fb\u5439\u304d\u51fa\u3057\u30fb\u611f\u60c5\u8868\u73fe\u3092\u30c6\u30b9\u30c8\uff08TTS\u4e0d\u8981\uff09",
   "repo_url": "https://github.com/sawarae/utsutsu-code",
   "source_hub": "skillsmp",
   "skill_type": "agent_skill",
@@ -20,5 +20,6 @@
   "scan_summary": null,
   "repo_status": "available",
   "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
-  "repo_check_error": null
+  "repo_check_error": null,
+  "installs": 15
 }

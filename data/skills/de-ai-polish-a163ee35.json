@@ -1,7 +1,7 @@
 {
   "id": "de-ai-polish-a163ee35",
   "name": "de-ai-polish",
-  "description": "检测并去除文章中的AI化表述模式，用于写作润色、文本优化、去AI腔。",
+  "description": "\u68c0\u6d4b\u5e76\u53bb\u9664\u6587\u7ae0\u4e2d\u7684AI\u5316\u8868\u8ff0\u6a21\u5f0f\uff0c\u7528\u4e8e\u5199\u4f5c\u6da6\u8272\u3001\u6587\u672c\u4f18\u5316\u3001\u53bbAI\u8154\u3002",
   "repo_url": "https://github.com/cat-xierluo/legal-skills",
   "source_hub": "skillsmp",
   "skill_type": "agent_skill",
@@ -21,5 +21,6 @@
   "scan_summary": null,
   "repo_status": "available",
   "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
-  "repo_check_error": null
+  "repo_check_error": null,
+  "installs": 22
 }

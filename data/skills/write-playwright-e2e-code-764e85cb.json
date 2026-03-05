@@ -1,7 +1,7 @@
 {
   "id": "write-playwright-e2e-code-764e85cb",
   "name": "write-playwright-e2e-code",
-  "description": "Playwright E2E テストコードを生成。test.step で日本語ステップ名を使用し、コメント禁止。E2E テスト作成・Playwright コード生成時に使用。",
+  "description": "Playwright E2E \u30c6\u30b9\u30c8\u30b3\u30fc\u30c9\u3092\u751f\u6210\u3002test.step \u3067\u65e5\u672c\u8a9e\u30b9\u30c6\u30c3\u30d7\u540d\u3092\u4f7f\u7528\u3057\u3001\u30b3\u30e1\u30f3\u30c8\u7981\u6b62\u3002E2E \u30c6\u30b9\u30c8\u4f5c\u6210\u30fbPlaywright \u30b3\u30fc\u30c9\u751f\u6210\u6642\u306b\u4f7f\u7528\u3002",
   "repo_url": "https://github.com/voicevox/voicevox",
   "source_hub": "skillsmp",
   "skill_type": "agent_skill",
@@ -21,5 +21,6 @@
   "scan_summary": null,
   "repo_status": "available",
   "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
-  "repo_check_error": null
+  "repo_check_error": null,
+  "installs": 3015
 }

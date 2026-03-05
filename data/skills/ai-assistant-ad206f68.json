@@ -1,7 +1,7 @@
 {
   "id": "ai-assistant-ad206f68",
   "name": "ai-assistant",
-  "description": "AI 圖片生成、文件/簡報生成",
+  "description": "AI \u5716\u7247\u751f\u6210\u3001\u6587\u4ef6/\u7c21\u5831\u751f\u6210",
   "repo_url": "https://github.com/yazelin/ching-tech-os",
   "source_hub": "skillsmp",
   "skill_type": "agent_skill",
@@ -268,5 +268,6 @@
       "original_status": "manual_review",
       "original_score": 60
     }
-  }
+  },
+  "installs": 19
 }

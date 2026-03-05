@@ -54,7 +54,7 @@
       "id": "secm-p-009",
       "title": "Structural FP: full-repo skills",
       "category": "root_cause",
-      "description": "SkillsMP skills link to full project repos (jetbrains/intellij-community 182K files). Scanner scans entire codebase. Not a pattern issue — structural input issue."
+      "description": "SkillsMP skills link to full project repos (jetbrains/intellij-community 182K files). Scanner scans entire codebase. Not a pattern issue \u2014 structural input issue."
     },
     {
       "id": "secm-p-010",
@@ -106,6 +106,13 @@
       "category": "scanner_fix",
       "description": "Skills with injection counts up to 49 but no dangerous obfuscation patterns (rot13/marshal/chr_concat) are auto-cleared. Eliminates remaining injection FP edge cases not covered by Cat 9/10/11.",
       "priority": "P1",
+      "discovered": "2026-03-04"
+    },
+    {
+      "id": "secm-p-017",
+      "title": "Agent skills security profile differs from MCP",
+      "category": "catalog_security",
+      "description": "Agent skills (skillsmp source) are SKILL.md instruction files, not installable code. Their security profile is fundamentally different: they have text-based injection risk (prompt injection in instructions) but lower code-execution risk. Scanner findings on agent skills repos are often from the parent monorepo, not the skill itself.",
       "discovered": "2026-03-04"
     }
   ],

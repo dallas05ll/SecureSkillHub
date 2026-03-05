@@ -1,7 +1,7 @@
 {
   "id": "arrowhead-cli-agent-35817263",
   "name": "arrowhead-cli-agent",
-  "description": "Guide CLI-based agents through running Arrowhead the product—initializing vaults, keeping the daemon and embeddings healthy, executing search/graph/notes commands, and wiring MCP transports while respecting local vault conventions.",
+  "description": "Guide CLI-based agents through running Arrowhead the product\u2014initializing vaults, keeping the daemon and embeddings healthy, executing search/graph/notes commands, and wiring MCP transports while respecting local vault conventions.",
   "repo_url": "https://github.com/totocaster/arrowhead",
   "source_hub": "skillsmp",
   "skill_type": "agent_skill",
@@ -21,5 +21,6 @@
   "scan_summary": null,
   "repo_status": "available",
   "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
-  "repo_check_error": null
+  "repo_check_error": null,
+  "installs": 27
 }

@@ -1,7 +1,7 @@
 {
   "id": "academic-jupyter-2dc0d04a",
   "name": "academic-jupyter",
-  "description": "Manage Jupyter notebooks — create, execute cells, manage kernels via the container's Jupyter Server REST API.",
+  "description": "Manage Jupyter notebooks \u2014 create, execute cells, manage kernels via the container's Jupyter Server REST API.",
   "repo_url": "https://github.com/prismer-ai/prismer",
   "source_hub": "skillsmp",
   "skill_type": "agent_skill",
@@ -109,5 +109,6 @@
       "original_status": "manual_review",
       "original_score": 60
     }
-  }
+  },
+  "installs": 697
 }

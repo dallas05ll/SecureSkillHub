@@ -1,7 +1,7 @@
 {
   "id": "version-upgrade-2faf9870",
   "name": "version-upgrade",
-  "description": "升级项目版本号。当用户要求升级版本、更新版本号、发布新版本时使用此 skill。支持 major（主版本）、minor（次版本）、patch（补丁版本）三种升级方式。",
+  "description": "\u5347\u7ea7\u9879\u76ee\u7248\u672c\u53f7\u3002\u5f53\u7528\u6237\u8981\u6c42\u5347\u7ea7\u7248\u672c\u3001\u66f4\u65b0\u7248\u672c\u53f7\u3001\u53d1\u5e03\u65b0\u7248\u672c\u65f6\u4f7f\u7528\u6b64 skill\u3002\u652f\u6301 major\uff08\u4e3b\u7248\u672c\uff09\u3001minor\uff08\u6b21\u7248\u672c\uff09\u3001patch\uff08\u8865\u4e01\u7248\u672c\uff09\u4e09\u79cd\u5347\u7ea7\u65b9\u5f0f\u3002",
   "repo_url": "https://github.com/dreamhunter2333/cloudflare_temp_email",
   "source_hub": "skillsmp",
   "skill_type": "agent_skill",
@@ -20,5 +20,6 @@
   "scan_summary": null,
   "repo_status": "available",
   "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
-  "repo_check_error": null
+  "repo_check_error": null,
+  "installs": 6079
 }

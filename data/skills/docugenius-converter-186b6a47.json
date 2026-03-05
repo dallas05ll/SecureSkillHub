@@ -1,7 +1,7 @@
 {
   "id": "docugenius-converter-186b6a47",
   "name": "docugenius-converter",
-  "description": "双向文档转换工具，将 Word (.docx)、Excel (.xlsx)、PowerPoint (.pptx) 和 PDF (.pdf) 转换为 AI 友好的 Markdown 格式，或将 Markdown (.md) 转换为 Word (.docx) 格式。当用户请求以下操作时使用：(1) 明确请求文档转换，包括任何包含\"转换\"、\"转为\"、\"转成\"、\"convert\"、\"导出\"、\"export\"等词汇的请求（例如：\"转换文档\"、\"把这个文件转为docx\"、\"convert to markdown\"、\"导出为Word\"）；(2) 需要 AI 理解文档内容（\"帮我分析这个 Word 文件\"、\"读取这个 PDF\"、\"总结这个 Excel\"）；(3) 上传文档文件并询问内容（\"这是什么\"、\"帮我看看\"）；(4) 任何涉及 .docx、.xlsx、.pptx、.pdf、.md 文件格式转换的请求。",
+  "description": "\u53cc\u5411\u6587\u6863\u8f6c\u6362\u5de5\u5177\uff0c\u5c06 Word (.docx)\u3001Excel (.xlsx)\u3001PowerPoint (.pptx) \u548c PDF (.pdf) \u8f6c\u6362\u4e3a AI \u53cb\u597d\u7684 Markdown \u683c\u5f0f\uff0c\u6216\u5c06 Markdown (.md) \u8f6c\u6362\u4e3a Word (.docx) \u683c\u5f0f\u3002\u5f53\u7528\u6237\u8bf7\u6c42\u4ee5\u4e0b\u64cd\u4f5c\u65f6\u4f7f\u7528\uff1a(1) \u660e\u786e\u8bf7\u6c42\u6587\u6863\u8f6c\u6362\uff0c\u5305\u62ec\u4efb\u4f55\u5305\u542b\"\u8f6c\u6362\"\u3001\"\u8f6c\u4e3a\"\u3001\"\u8f6c\u6210\"\u3001\"convert\"\u3001\"\u5bfc\u51fa\"\u3001\"export\"\u7b49\u8bcd\u6c47\u7684\u8bf7\u6c42\uff08\u4f8b\u5982\uff1a\"\u8f6c\u6362\u6587\u6863\"\u3001\"\u628a\u8fd9\u4e2a\u6587\u4ef6\u8f6c\u4e3adocx\"\u3001\"convert to markdown\"\u3001\"\u5bfc\u51fa\u4e3aWord\"\uff09\uff1b(2) \u9700\u8981 AI \u7406\u89e3\u6587\u6863\u5185\u5bb9\uff08\"\u5e2e\u6211\u5206\u6790\u8fd9\u4e2a Word \u6587\u4ef6\"\u3001\"\u8bfb\u53d6\u8fd9\u4e2a PDF\"\u3001\"\u603b\u7ed3\u8fd9\u4e2a Excel\"\uff09\uff1b(3) \u4e0a\u4f20\u6587\u6863\u6587\u4ef6\u5e76\u8be2\u95ee\u5185\u5bb9\uff08\"\u8fd9\u662f\u4ec0\u4e48\"\u3001\"\u5e2e\u6211\u770b\u770b\"\uff09\uff1b(4) \u4efb\u4f55\u6d89\u53ca .docx\u3001.xlsx\u3001.pptx\u3001.pdf\u3001.md \u6587\u4ef6\u683c\u5f0f\u8f6c\u6362\u7684\u8bf7\u6c42\u3002",
   "repo_url": "https://github.com/brucevanfdm/docugenius-converter-skill",
   "source_hub": "skillsmp",
   "skill_type": "agent_skill",
@@ -22,5 +22,6 @@
   "scan_summary": null,
   "repo_status": "available",
   "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
-  "repo_check_error": null
+  "repo_check_error": null,
+  "installs": 16
 }

@@ -1,7 +1,7 @@
 {
   "id": "alova-api-module-0970476e",
   "name": "alova-api-module",
-  "description": "快速创建 Alova 请求模块和 Mock 数据",
+  "description": "\u5feb\u901f\u521b\u5efa Alova \u8bf7\u6c42\u6a21\u5757\u548c Mock \u6570\u636e",
   "repo_url": "https://github.com/wot-ui/wot-starter",
   "source_hub": "skillsmp",
   "skill_type": "agent_skill",
@@ -141,5 +141,6 @@
       "override_reason": null
     },
     "manager_summary": "5/5 agents completed. Score: 96/100, Risk: medium. 0 mismatches, 4 scanner findings. Approved at 95% confidence. No safety overrides."
-  }
+  },
+  "installs": 242
 }

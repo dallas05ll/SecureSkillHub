@@ -1,7 +1,7 @@
 {
   "id": "code-logic-cleaner-fb005afd",
   "name": "code-logic-cleaner",
-  "description": "专门用于代码重构与逻辑优化，在保持 UI 和交互逻辑不变的前提下，清理冗余代码并提升函数优雅度。",
+  "description": "\u4e13\u95e8\u7528\u4e8e\u4ee3\u7801\u91cd\u6784\u4e0e\u903b\u8f91\u4f18\u5316\uff0c\u5728\u4fdd\u6301 UI \u548c\u4ea4\u4e92\u903b\u8f91\u4e0d\u53d8\u7684\u524d\u63d0\u4e0b\uff0c\u6e05\u7406\u5197\u4f59\u4ee3\u7801\u5e76\u63d0\u5347\u51fd\u6570\u4f18\u96c5\u5ea6\u3002",
   "repo_url": "https://github.com/olcchi/olcchi.me",
   "source_hub": "skillsmp",
   "skill_type": "agent_skill",
@@ -20,5 +20,6 @@
   "scan_summary": null,
   "repo_status": "available",
   "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
-  "repo_check_error": null
+  "repo_check_error": null,
+  "installs": 64
 }

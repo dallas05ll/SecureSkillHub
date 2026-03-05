@@ -1,7 +1,7 @@
 {
   "id": "doc-mindmap-ae8362ff",
   "name": "doc-mindmap",
-  "description": "文档智能整理助手 - 批量转换办公文档为 Markdown，本地模型生成摘要，三维度软链接分类",
+  "description": "\u6587\u6863\u667a\u80fd\u6574\u7406\u52a9\u624b - \u6279\u91cf\u8f6c\u6362\u529e\u516c\u6587\u6863\u4e3a Markdown\uff0c\u672c\u5730\u6a21\u578b\u751f\u6210\u6458\u8981\uff0c\u4e09\u7ef4\u5ea6\u8f6f\u94fe\u63a5\u5206\u7c7b",
   "repo_url": "https://github.com/crazynomad/skills",
   "source_hub": "skillsmp",
   "skill_type": "agent_skill",
@@ -21,5 +21,6 @@
   "scan_summary": null,
   "repo_status": "available",
   "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
-  "repo_check_error": null
+  "repo_check_error": null,
+  "installs": 14
 }

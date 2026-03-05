@@ -1,7 +1,7 @@
 {
   "id": "construction-diary-creation-35f4878c",
   "name": "construction-diary-creation",
-  "description": "Extracts structured data from Finnish construction site daily diary audio recordings (Työmaapäiväkirja) and creates a formatted Word document with extracted fields. Use when the user needs to process construction site manager's audio diary recordings into standardized documentation.",
+  "description": "Extracts structured data from Finnish construction site daily diary audio recordings (Ty\u00f6maap\u00e4iv\u00e4kirja) and creates a formatted Word document with extracted fields. Use when the user needs to process construction site manager's audio diary recordings into standardized documentation.",
   "repo_url": "https://github.com/gaik-project/gaik-toolkit",
   "source_hub": "skillsmp",
   "skill_type": "agent_skill",
@@ -24,5 +24,6 @@
   "scan_summary": null,
   "repo_status": "available",
   "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
-  "repo_check_error": null
+  "repo_check_error": null,
+  "installs": 15
 }

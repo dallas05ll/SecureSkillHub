@@ -1,7 +1,7 @@
 {
   "id": "tool-dev-0be386b5",
   "name": "tool-dev",
-  "description": "专门用于开发 FastGPT 系统工具和工具集的技能，包含 Zod 类型安全验证、共享配置管理和完整测试工作流。适用于创建新的 FastGPT 工具、开发包含子工具的工具集、或实现带有正确配置和测试的 API 集成。",
+  "description": "\u4e13\u95e8\u7528\u4e8e\u5f00\u53d1 FastGPT \u7cfb\u7edf\u5de5\u5177\u548c\u5de5\u5177\u96c6\u7684\u6280\u80fd\uff0c\u5305\u542b Zod \u7c7b\u578b\u5b89\u5168\u9a8c\u8bc1\u3001\u5171\u4eab\u914d\u7f6e\u7ba1\u7406\u548c\u5b8c\u6574\u6d4b\u8bd5\u5de5\u4f5c\u6d41\u3002\u9002\u7528\u4e8e\u521b\u5efa\u65b0\u7684 FastGPT \u5de5\u5177\u3001\u5f00\u53d1\u5305\u542b\u5b50\u5de5\u5177\u7684\u5de5\u5177\u96c6\u3001\u6216\u5b9e\u73b0\u5e26\u6709\u6b63\u786e\u914d\u7f6e\u548c\u6d4b\u8bd5\u7684 API \u96c6\u6210\u3002",
   "repo_url": "https://github.com/labring/fastgpt-plugin",
   "source_hub": "skillsmp",
   "skill_type": "agent_skill",
@@ -21,5 +21,6 @@
   "scan_summary": null,
   "repo_status": "available",
   "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
-  "repo_check_error": null
+  "repo_check_error": null,
+  "installs": 37
 }

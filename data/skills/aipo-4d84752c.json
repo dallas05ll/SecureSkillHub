@@ -1,7 +1,7 @@
 {
   "id": "aipo-4d84752c",
   "name": "aipo",
-  "description": "AI Product Owner - GOALだけ伝えればAIが勝手に仕事を進める汎用問題解決システム",
+  "description": "AI Product Owner - GOAL\u3060\u3051\u4f1d\u3048\u308c\u3070AI\u304c\u52dd\u624b\u306b\u4ed5\u4e8b\u3092\u9032\u3081\u308b\u6c4e\u7528\u554f\u984c\u89e3\u6c7a\u30b7\u30b9\u30c6\u30e0",
   "repo_url": "https://github.com/miyatti777/aipo",
   "source_hub": "skillsmp",
   "skill_type": "agent_skill",
@@ -60,133 +60,133 @@
         "rule_id": "regex_localhost_non_std",
         "severity": "high",
         "category": "suspicious_urls",
-        "file": "skills/command-templates/system_building_templates/CMD_sys_03_API設計.md",
+        "file": "skills/command-templates/system_building_templates/CMD_sys_03_API\u8a2d\u8a08.md",
         "line": 115
       },
       {
         "rule_id": "regex_localhost_non_std",
         "severity": "high",
         "category": "suspicious_urls",
-        "file": "skills/command-templates/system_building_templates/CMD_sys_08_ドキュメント整備.md",
+        "file": "skills/command-templates/system_building_templates/CMD_sys_08_\u30c9\u30ad\u30e5\u30e1\u30f3\u30c8\u6574\u5099.md",
         "line": 212
       },
       {
         "rule_id": "regex_localhost_non_std",
         "severity": "high",
         "category": "suspicious_urls",
-        "file": "skills/command-templates/system_building_templates/CMD_sys_08_ドキュメント整備.md",
+        "file": "skills/command-templates/system_building_templates/CMD_sys_08_\u30c9\u30ad\u30e5\u30e1\u30f3\u30c8\u6574\u5099.md",
         "line": 273
       },
       {
         "rule_id": "regex_js_process_env",
         "severity": "medium",
         "category": "env_access",
-        "file": "skills/command-templates/system_building_templates/CMD_sys_06_テスト設計.md",
+        "file": "skills/command-templates/system_building_templates/CMD_sys_06_\u30c6\u30b9\u30c8\u8a2d\u8a08.md",
         "line": 442
       },
       {
         "rule_id": "regex_js_process_env",
         "severity": "medium",
         "category": "env_access",
-        "file": "skills/command-templates/system_building_templates/CMD_sys_06_テスト設計.md",
+        "file": "skills/command-templates/system_building_templates/CMD_sys_06_\u30c6\u30b9\u30c8\u8a2d\u8a08.md",
         "line": 443
       },
       {
         "rule_id": "regex_js_process_env",
         "severity": "medium",
         "category": "env_access",
-        "file": "skills/command-templates/system_building_templates/CMD_sys_06_テスト設計.md",
+        "file": "skills/command-templates/system_building_templates/CMD_sys_06_\u30c6\u30b9\u30c8\u8a2d\u8a08.md",
         "line": 444
       },
       {
         "rule_id": "regex_js_process_env",
         "severity": "medium",
         "category": "env_access",
-        "file": "skills/command-templates/system_building_templates/CMD_sys_06_テスト設計.md",
+        "file": "skills/command-templates/system_building_templates/CMD_sys_06_\u30c6\u30b9\u30c8\u8a2d\u8a08.md",
         "line": 459
       },
       {
         "rule_id": "regex_localhost_non_std",
         "severity": "high",
         "category": "suspicious_urls",
-        "file": "skills/command-templates/system_building_templates/CMD_sys_06_テスト設計.md",
+        "file": "skills/command-templates/system_building_templates/CMD_sys_06_\u30c6\u30b9\u30c8\u8a2d\u8a08.md",
         "line": 447
       },
       {
         "rule_id": "regex_localhost_non_std",
         "severity": "high",
         "category": "suspicious_urls",
-        "file": "skills/command-templates/system_building_templates/CMD_sys_06_テスト設計.md",
+        "file": "skills/command-templates/system_building_templates/CMD_sys_06_\u30c6\u30b9\u30c8\u8a2d\u8a08.md",
         "line": 458
       },
       {
         "rule_id": "regex_js_process_env",
         "severity": "medium",
         "category": "env_access",
-        "file": "skills/command-templates/system_building_templates/CMD_sys_07_デプロイ設計.md",
+        "file": "skills/command-templates/system_building_templates/CMD_sys_07_\u30c7\u30d7\u30ed\u30a4\u8a2d\u8a08.md",
         "line": 318
       },
       {
         "rule_id": "regex_js_process_env",
         "severity": "medium",
         "category": "env_access",
-        "file": "skills/command-templates/system_building_templates/CMD_sys_07_デプロイ設計.md",
+        "file": "skills/command-templates/system_building_templates/CMD_sys_07_\u30c7\u30d7\u30ed\u30a4\u8a2d\u8a08.md",
         "line": 320
       },
       {
         "rule_id": "regex_js_process_env",
         "severity": "medium",
         "category": "env_access",
-        "file": "skills/command-templates/system_building_templates/CMD_sys_07_デプロイ設計.md",
+        "file": "skills/command-templates/system_building_templates/CMD_sys_07_\u30c7\u30d7\u30ed\u30a4\u8a2d\u8a08.md",
         "line": 329
       },
       {
         "rule_id": "regex_js_process_env",
         "severity": "medium",
         "category": "env_access",
-        "file": "skills/command-templates/system_building_templates/CMD_sys_07_デプロイ設計.md",
+        "file": "skills/command-templates/system_building_templates/CMD_sys_07_\u30c7\u30d7\u30ed\u30a4\u8a2d\u8a08.md",
         "line": 330
       },
       {
         "rule_id": "regex_js_process_env",
         "severity": "medium",
         "category": "env_access",
-        "file": "skills/command-templates/system_building_templates/CMD_sys_07_デプロイ設計.md",
+        "file": "skills/command-templates/system_building_templates/CMD_sys_07_\u30c7\u30d7\u30ed\u30a4\u8a2d\u8a08.md",
         "line": 359
       },
       {
         "rule_id": "regex_js_process_env",
         "severity": "medium",
         "category": "env_access",
-        "file": "skills/command-templates/system_building_templates/CMD_sys_07_デプロイ設計.md",
+        "file": "skills/command-templates/system_building_templates/CMD_sys_07_\u30c7\u30d7\u30ed\u30a4\u8a2d\u8a08.md",
         "line": 372
       },
       {
         "rule_id": "regex_localhost_non_std",
         "severity": "high",
         "category": "suspicious_urls",
-        "file": "skills/command-templates/system_building_templates/CMD_sys_07_デプロイ設計.md",
+        "file": "skills/command-templates/system_building_templates/CMD_sys_07_\u30c7\u30d7\u30ed\u30a4\u8a2d\u8a08.md",
         "line": 235
       },
       {
         "rule_id": "regex_localhost_non_std",
         "severity": "high",
         "category": "suspicious_urls",
-        "file": "skills/command-templates/system_building_templates/CMD_sys_07_デプロイ設計.md",
+        "file": "skills/command-templates/system_building_templates/CMD_sys_07_\u30c7\u30d7\u30ed\u30a4\u8a2d\u8a08.md",
         "line": 245
       },
       {
         "rule_id": "regex_shell_backtick_exec",
         "severity": "high",
         "category": "dangerous_calls",
-        "file": "skills/command-templates/project_management_templates/CMD_prj_01_プロジェクト開始.md",
+        "file": "skills/command-templates/project_management_templates/CMD_prj_01_\u30d7\u30ed\u30b8\u30a7\u30af\u30c8\u958b\u59cb.md",
         "line": 28
       },
       {
         "rule_id": "regex_localhost_non_std",
         "severity": "high",
         "category": "suspicious_urls",
-        "file": "skills/command-templates/development_ax_templates/CMD_dv_12_コードレビューチェックリスト.md",
+        "file": "skills/command-templates/development_ax_templates/CMD_dv_12_\u30b3\u30fc\u30c9\u30ec\u30d3\u30e5\u30fc\u30c1\u30a7\u30c3\u30af\u30ea\u30b9\u30c8.md",
         "line": 437
       }
     ],
@@ -252,5 +252,6 @@
       "original_status": "manual_review",
       "original_score": 67
     }
-  }
+  },
+  "installs": 54
 }

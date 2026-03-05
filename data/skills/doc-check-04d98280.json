@@ -1,7 +1,7 @@
 {
   "id": "doc-check-04d98280",
   "name": "doc-check",
-  "description": "コード変更に影響を受ける md ドキュメントを検出し、ユーザー承認後に更新する。 md ファイルの YAML frontmatter に宣言された depends-on（ファイルパス・glob）と 本文中の Markdown リンクから依存グラフを構築し、git diff との突合で影響範囲を特定する。 /doc-check で起動、またはコード変更を含むタスク完了時に実行を検討する。",
+  "description": "\u30b3\u30fc\u30c9\u5909\u66f4\u306b\u5f71\u97ff\u3092\u53d7\u3051\u308b md \u30c9\u30ad\u30e5\u30e1\u30f3\u30c8\u3092\u691c\u51fa\u3057\u3001\u30e6\u30fc\u30b6\u30fc\u627f\u8a8d\u5f8c\u306b\u66f4\u65b0\u3059\u308b\u3002 md \u30d5\u30a1\u30a4\u30eb\u306e YAML frontmatter \u306b\u5ba3\u8a00\u3055\u308c\u305f depends-on\uff08\u30d5\u30a1\u30a4\u30eb\u30d1\u30b9\u30fbglob\uff09\u3068 \u672c\u6587\u4e2d\u306e Markdown \u30ea\u30f3\u30af\u304b\u3089\u4f9d\u5b58\u30b0\u30e9\u30d5\u3092\u69cb\u7bc9\u3057\u3001git diff \u3068\u306e\u7a81\u5408\u3067\u5f71\u97ff\u7bc4\u56f2\u3092\u7279\u5b9a\u3059\u308b\u3002 /doc-check \u3067\u8d77\u52d5\u3001\u307e\u305f\u306f\u30b3\u30fc\u30c9\u5909\u66f4\u3092\u542b\u3080\u30bf\u30b9\u30af\u5b8c\u4e86\u6642\u306b\u5b9f\u884c\u3092\u691c\u8a0e\u3059\u308b\u3002",
   "repo_url": "https://github.com/neko-neko/dotfiles",
   "source_hub": "skillsmp",
   "skill_type": "agent_skill",
@@ -23,5 +23,6 @@
   "scan_summary": null,
   "repo_status": "available",
   "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
-  "repo_check_error": null
+  "repo_check_error": null,
+  "installs": 10
 }

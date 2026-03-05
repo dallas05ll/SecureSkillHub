@@ -1,7 +1,7 @@
 {
   "id": "jar-audit-agent-53dad5b4",
   "name": "jar-audit-agent",
-  "description": "基于 jar-analyzer（SQLite + 内置 MCP）的证据驱动 Java 安全审计技能。核心目标：把“结论”变成“可复现证据 + 可度量覆盖率”。",
+  "description": "\u57fa\u4e8e jar-analyzer\uff08SQLite + \u5185\u7f6e MCP\uff09\u7684\u8bc1\u636e\u9a71\u52a8 Java \u5b89\u5168\u5ba1\u8ba1\u6280\u80fd\u3002\u6838\u5fc3\u76ee\u6807\uff1a\u628a\u201c\u7ed3\u8bba\u201d\u53d8\u6210\u201c\u53ef\u590d\u73b0\u8bc1\u636e + \u53ef\u5ea6\u91cf\u8986\u76d6\u7387\u201d\u3002",
   "repo_url": "https://github.com/jar-analyzer/jar-analyzer",
   "source_hub": "skillsmp",
   "skill_type": "agent_skill",
@@ -21,5 +21,6 @@
   "scan_summary": null,
   "repo_status": "available",
   "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
-  "repo_check_error": null
+  "repo_check_error": null,
+  "installs": 1929
 }

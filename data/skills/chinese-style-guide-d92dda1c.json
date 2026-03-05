@@ -1,7 +1,7 @@
 {
   "id": "chinese-style-guide-d92dda1c",
   "name": "chinese-style-guide",
-  "description": "This skill should be used when the user asks to \"写文档\", \"撰写文章\", \"写邮件\", \"编辑中文\", \"检查格式\", \"修正排版\", \"中英文混排\", \"格式化文档\", \"review 文档格式\", \"proofread\", or when the user is preparing to write or edit Chinese documents, emails, messages, or any formal Chinese text content. This skill provides formatting and typographical corrections based on the Chinese Style Guide, focusing on layout and formatting without altering the author's intended expression.",
+  "description": "This skill should be used when the user asks to \"\u5199\u6587\u6863\", \"\u64b0\u5199\u6587\u7ae0\", \"\u5199\u90ae\u4ef6\", \"\u7f16\u8f91\u4e2d\u6587\", \"\u68c0\u67e5\u683c\u5f0f\", \"\u4fee\u6b63\u6392\u7248\", \"\u4e2d\u82f1\u6587\u6df7\u6392\", \"\u683c\u5f0f\u5316\u6587\u6863\", \"review \u6587\u6863\u683c\u5f0f\", \"proofread\", or when the user is preparing to write or edit Chinese documents, emails, messages, or any formal Chinese text content. This skill provides formatting and typographical corrections based on the Chinese Style Guide, focusing on layout and formatting without altering the author's intended expression.",
   "repo_url": "https://github.com/rightcapitalhq/chinese-style-guide",
   "source_hub": "skillsmp",
   "skill_type": "agent_skill",
@@ -22,5 +22,6 @@
   "scan_summary": null,
   "repo_status": "available",
   "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
-  "repo_check_error": null
+  "repo_check_error": null,
+  "installs": 96
 }

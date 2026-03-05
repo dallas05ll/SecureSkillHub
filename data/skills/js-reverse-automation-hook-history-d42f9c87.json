@@ -1,7 +1,7 @@
 {
   "id": "js-reverse-automation-hook-history-d42f9c87",
   "name": "js-reverse-automation-hook-history",
-  "description": "重写 history.go/back 以避免网站反调试返回上一页或特定历史页面。仅在确认存在强制回退时启用。",
+  "description": "\u91cd\u5199 history.go/back \u4ee5\u907f\u514d\u7f51\u7ad9\u53cd\u8c03\u8bd5\u8fd4\u56de\u4e0a\u4e00\u9875\u6216\u7279\u5b9a\u5386\u53f2\u9875\u9762\u3002\u4ec5\u5728\u786e\u8ba4\u5b58\u5728\u5f3a\u5236\u56de\u9000\u65f6\u542f\u7528\u3002",
   "repo_url": "https://github.com/fausto-404/js-reverse-automation--skill",
   "source_hub": "skillsmp",
   "skill_type": "agent_skill",
@@ -20,5 +20,6 @@
   "scan_summary": null,
   "repo_status": "available",
   "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
-  "repo_check_error": null
+  "repo_check_error": null,
+  "installs": 22
 }

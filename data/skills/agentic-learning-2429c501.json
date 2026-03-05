@@ -1,7 +1,7 @@
 {
   "id": "agentic-learning-2429c501",
   "name": "agentic-learning",
-  "description": "Claude Code 자기주도 학습 스킬. \"/agentic-learning\", \"/learn\", \"학습\", \"스킬 배우기\" 요청에 사용. ai-native-camp/camp-1 기반의 인터랙티브 학습 프레임워크. PPTX 자동 생성 프로젝트를 통일 예시로 사용.",
+  "description": "Claude Code \uc790\uae30\uc8fc\ub3c4 \ud559\uc2b5 \uc2a4\ud0ac. \"/agentic-learning\", \"/learn\", \"\ud559\uc2b5\", \"\uc2a4\ud0ac \ubc30\uc6b0\uae30\" \uc694\uccad\uc5d0 \uc0ac\uc6a9. ai-native-camp/camp-1 \uae30\ubc18\uc758 \uc778\ud130\ub799\ud2f0\ube0c \ud559\uc2b5 \ud504\ub808\uc784\uc6cc\ud06c. PPTX \uc790\ub3d9 \uc0dd\uc131 \ud504\ub85c\uc81d\ud2b8\ub97c \ud1b5\uc77c \uc608\uc2dc\ub85c \uc0ac\uc6a9.",
   "repo_url": "https://github.com/hongsw/plugin-for-claude-research",
   "source_hub": "skillsmp",
   "skill_type": "agent_skill",
@@ -263,5 +263,6 @@
       "original_status": "manual_review",
       "original_score": 69
     }
-  }
+  },
+  "installs": 17
 }

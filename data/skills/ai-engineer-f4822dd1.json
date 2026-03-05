@@ -1,7 +1,7 @@
 {
   "id": "ai-engineer-f4822dd1",
   "name": "ai-engineer",
-  "description": "专注于 LLM 应用开发，涵盖 RAG 和 LangChain 架构。",
+  "description": "\u4e13\u6ce8\u4e8e LLM \u5e94\u7528\u5f00\u53d1\uff0c\u6db5\u76d6 RAG \u548c LangChain \u67b6\u6784\u3002",
   "repo_url": "https://github.com/boshi-xixixi/traeskill",
   "source_hub": "skillsmp",
   "skill_type": "agent_skill",
@@ -111,5 +111,6 @@
       "override_reason": null
     },
     "manager_summary": "5/5 agents completed. Score: 100/100, Risk: info. 0 mismatches, 0 scanner findings. Approved at 95% confidence. No safety overrides."
-  }
+  },
+  "installs": 59
 }

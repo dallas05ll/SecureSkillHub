@@ -1,7 +1,7 @@
 {
   "id": "create-profile-style-skill-781f4ca7",
   "name": "create-profile-style-skill",
-  "description": "【SKILL】分析当前剪辑逻辑与风格，总结并生成一个新的可复用 Skill 文件，存入剪辑技能库。",
+  "description": "\u3010SKILL\u3011\u5206\u6790\u5f53\u524d\u526a\u8f91\u903b\u8f91\u4e0e\u98ce\u683c\uff0c\u603b\u7ed3\u5e76\u751f\u6210\u4e00\u4e2a\u65b0\u7684\u53ef\u590d\u7528 Skill \u6587\u4ef6\uff0c\u5b58\u5165\u526a\u8f91\u6280\u80fd\u5e93\u3002",
   "repo_url": "https://github.com/fireredteam/firered-openstoryline",
   "source_hub": "skillsmp",
   "skill_type": "agent_skill",
@@ -20,5 +20,6 @@
   "scan_summary": null,
   "repo_status": "available",
   "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
-  "repo_check_error": null
+  "repo_check_error": null,
+  "installs": 393
 }

@@ -1,7 +1,7 @@
 {
   "id": "compose-hooks-9601a396",
   "name": "compose-hooks",
-  "description": "ComposeHooks 项目使用指南 - 为 Jetpack Compose/Compose Multiplatform 提供 React Hooks 风格的状态管理和副作用处理。\n使用此技能当需要：(1) 在 Compose 中管理组件状态 (useState, useGetState, useReducer)，\n(2) 处理副作用和生命周期 (useEffect, useMount, useUnmount)，\n(3) 管理网络请求 (useRequest)，(4) 使用防抖/节流 (useDebounce, useThrottle)，\n(5) 管理列表/Map状态 (useList, useMap)，(6) 使用定时器 (useInterval, useTimeoutFn/useTimeoutPoll/useCountdown)，\n(7) 全局状态管理 (useSelector, useDispatch)，(8) 使用无头表格 (useTable/useTableRequest)。\n关键词: Compose, Hooks, 状态管理, useRequest, useRedu...",
+  "description": "ComposeHooks \u9879\u76ee\u4f7f\u7528\u6307\u5357 - \u4e3a Jetpack Compose/Compose Multiplatform \u63d0\u4f9b React Hooks \u98ce\u683c\u7684\u72b6\u6001\u7ba1\u7406\u548c\u526f\u4f5c\u7528\u5904\u7406\u3002\n\u4f7f\u7528\u6b64\u6280\u80fd\u5f53\u9700\u8981\uff1a(1) \u5728 Compose \u4e2d\u7ba1\u7406\u7ec4\u4ef6\u72b6\u6001 (useState, useGetState, useReducer)\uff0c\n(2) \u5904\u7406\u526f\u4f5c\u7528\u548c\u751f\u547d\u5468\u671f (useEffect, useMount, useUnmount)\uff0c\n(3) \u7ba1\u7406\u7f51\u7edc\u8bf7\u6c42 (useRequest)\uff0c(4) \u4f7f\u7528\u9632\u6296/\u8282\u6d41 (useDebounce, useThrottle)\uff0c\n(5) \u7ba1\u7406\u5217\u8868/Map\u72b6\u6001 (useList, useMap)\uff0c(6) \u4f7f\u7528\u5b9a\u65f6\u5668 (useInterval, useTimeoutFn/useTimeoutPoll/useCountdown)\uff0c\n(7) \u5168\u5c40\u72b6\u6001\u7ba1\u7406 (useSelector, useDispatch)\uff0c(8) \u4f7f\u7528\u65e0\u5934\u8868\u683c (useTable/useTableRequest)\u3002\n\u5173\u952e\u8bcd: Compose, Hooks, \u72b6\u6001\u7ba1\u7406, useRequest, useRedu...",
   "repo_url": "https://github.com/junerver/composehooks",
   "source_hub": "skillsmp",
   "skill_type": "agent_skill",
@@ -25,5 +25,6 @@
   "scan_summary": null,
   "repo_status": "available",
   "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
-  "repo_check_error": null
+  "repo_check_error": null,
+  "installs": 99
 }

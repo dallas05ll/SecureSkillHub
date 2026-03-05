@@ -1,7 +1,7 @@
 {
   "id": "eptr2-api-discovery-d824cd9e",
   "name": "eptr2-api-discovery",
-  "description": "Discover and explore available eptr2 API endpoints for Turkish electricity market data. List all 213+ API calls, find endpoints by category (GÖP, GİP, DGP, Üretim, Tüketim), search for specific data types, and get parameter requirements. Use when asking what data is available, how to find endpoints, or exploring the API. Triggers on: available endpoints, API calls, list endpoints, what data, which API, how to find, hangi veri, mevcut servisler.",
+  "description": "Discover and explore available eptr2 API endpoints for Turkish electricity market data. List all 213+ API calls, find endpoints by category (G\u00d6P, G\u0130P, DGP, \u00dcretim, T\u00fcketim), search for specific data types, and get parameter requirements. Use when asking what data is available, how to find endpoints, or exploring the API. Triggers on: available endpoints, API calls, list endpoints, what data, which API, how to find, hangi veri, mevcut servisler.",
   "repo_url": "https://github.com/tideseed/eptr2",
   "source_hub": "skillsmp",
   "skill_type": "agent_skill",
@@ -22,5 +22,6 @@
   "scan_summary": null,
   "repo_status": "available",
   "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
-  "repo_check_error": null
+  "repo_check_error": null,
+  "installs": 17
 }

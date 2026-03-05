@@ -1,7 +1,7 @@
 {
   "id": "ai-development-c166a166",
   "name": "ai-development",
-  "description": "指导在 CodeSpirit 项目中集成 AI 功能的完整开发流程。包括 AI 表单填充、AI 长任务处理、LLM 集成和提示词工程。当用户需要添加 AI 功能、集成 LLM、或开发 AI 驱动的业务功能时使用。",
+  "description": "\u6307\u5bfc\u5728 CodeSpirit \u9879\u76ee\u4e2d\u96c6\u6210 AI \u529f\u80fd\u7684\u5b8c\u6574\u5f00\u53d1\u6d41\u7a0b\u3002\u5305\u62ec AI \u8868\u5355\u586b\u5145\u3001AI \u957f\u4efb\u52a1\u5904\u7406\u3001LLM \u96c6\u6210\u548c\u63d0\u793a\u8bcd\u5de5\u7a0b\u3002\u5f53\u7528\u6237\u9700\u8981\u6dfb\u52a0 AI \u529f\u80fd\u3001\u96c6\u6210 LLM\u3001\u6216\u5f00\u53d1 AI \u9a71\u52a8\u7684\u4e1a\u52a1\u529f\u80fd\u65f6\u4f7f\u7528\u3002",
   "repo_url": "https://github.com/xin-lai/codespirit",
   "source_hub": "skillsmp",
   "skill_type": "agent_skill",
@@ -126,14 +126,14 @@
         "rule_id": "regex_localhost_non_std",
         "severity": "high",
         "category": "suspicious_urls",
-        "file": "website/docs/配置示例.json",
+        "file": "website/docs/\u914d\u7f6e\u793a\u4f8b.json",
         "line": 47
       },
       {
         "rule_id": "regex_localhost_non_std",
         "severity": "high",
         "category": "suspicious_urls",
-        "file": "website/docs/配置示例.json",
+        "file": "website/docs/\u914d\u7f6e\u793a\u4f8b.json",
         "line": 48
       },
       {
@@ -268,5 +268,6 @@
       "original_status": "fail",
       "original_score": 15
     }
-  }
+  },
+  "installs": 54
 }

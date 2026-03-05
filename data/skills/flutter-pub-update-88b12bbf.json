@@ -1,7 +1,7 @@
 {
   "id": "flutter-pub-update-88b12bbf",
   "name": "flutter-pub-update",
-  "description": "Flutterプロジェクトのpubspec.yamlパッケージを更新するスキル。一括更新または指定パッケージ更新に対応。メジャーバージョン更新時は確認を挟み、更新前にpub.dev/GitHubでchangelogを確認して変更内容を報告する。$ARGUMENTSにパッケージ名を指定するか、--allで全パッケージ更新。",
+  "description": "Flutter\u30d7\u30ed\u30b8\u30a7\u30af\u30c8\u306epubspec.yaml\u30d1\u30c3\u30b1\u30fc\u30b8\u3092\u66f4\u65b0\u3059\u308b\u30b9\u30ad\u30eb\u3002\u4e00\u62ec\u66f4\u65b0\u307e\u305f\u306f\u6307\u5b9a\u30d1\u30c3\u30b1\u30fc\u30b8\u66f4\u65b0\u306b\u5bfe\u5fdc\u3002\u30e1\u30b8\u30e3\u30fc\u30d0\u30fc\u30b8\u30e7\u30f3\u66f4\u65b0\u6642\u306f\u78ba\u8a8d\u3092\u631f\u307f\u3001\u66f4\u65b0\u524d\u306bpub.dev/GitHub\u3067changelog\u3092\u78ba\u8a8d\u3057\u3066\u5909\u66f4\u5185\u5bb9\u3092\u5831\u544a\u3059\u308b\u3002$ARGUMENTS\u306b\u30d1\u30c3\u30b1\u30fc\u30b8\u540d\u3092\u6307\u5b9a\u3059\u308b\u304b\u3001--all\u3067\u5168\u30d1\u30c3\u30b1\u30fc\u30b8\u66f4\u65b0\u3002",
   "repo_url": "https://github.com/bannzai/pilll",
   "source_hub": "skillsmp",
   "skill_type": "agent_skill",
@@ -22,5 +22,6 @@
   "scan_summary": null,
   "repo_status": "available",
   "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
-  "repo_check_error": null
+  "repo_check_error": null,
+  "installs": 311
 }

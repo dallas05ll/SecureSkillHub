@@ -1,7 +1,7 @@
 {
   "id": "wecom-app-ops-5f928cb4",
   "name": "wecom-app-ops",
-  "description": "企业微信自建应用（wecom-app）运维与使用技能包。用于：定位并回发图片/语音/文件；使用 saved: 稳定路径做 OCR/MCP/二次处理；规范 target（wecom-app:user:xxx / user:xxx / 裸ID / @accountId）；排查发送失败；配置入站媒体保留策略与语音转码策略。",
+  "description": "\u4f01\u4e1a\u5fae\u4fe1\u81ea\u5efa\u5e94\u7528\uff08wecom-app\uff09\u8fd0\u7ef4\u4e0e\u4f7f\u7528\u6280\u80fd\u5305\u3002\u7528\u4e8e\uff1a\u5b9a\u4f4d\u5e76\u56de\u53d1\u56fe\u7247/\u8bed\u97f3/\u6587\u4ef6\uff1b\u4f7f\u7528 saved: \u7a33\u5b9a\u8def\u5f84\u505a OCR/MCP/\u4e8c\u6b21\u5904\u7406\uff1b\u89c4\u8303 target\uff08wecom-app:user:xxx / user:xxx / \u88f8ID / @accountId\uff09\uff1b\u6392\u67e5\u53d1\u9001\u5931\u8d25\uff1b\u914d\u7f6e\u5165\u7ad9\u5a92\u4f53\u4fdd\u7559\u7b56\u7565\u4e0e\u8bed\u97f3\u8f6c\u7801\u7b56\u7565\u3002",
   "repo_url": "https://github.com/bytepioneer-ai/openclaw-china",
   "source_hub": "skillsmp",
   "skill_type": "agent_skill",
@@ -22,5 +22,6 @@
   "scan_summary": null,
   "repo_status": "available",
   "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
-  "repo_check_error": null
+  "repo_check_error": null,
+  "installs": 712
 }

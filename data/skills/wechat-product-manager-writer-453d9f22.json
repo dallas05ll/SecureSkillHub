@@ -1,7 +1,7 @@
 {
   "id": "wechat-product-manager-writer-453d9f22",
   "name": "wechat-product-manager-writer",
-  "description": "从 AI 产品经理视角撰写微信公众号文章。涵盖 AI 产品拆解、场景解决方案、效率提升实战、产品方法论、行业观察。当用户说\"写一篇关于XXX的文章\"、\"分析一下XXX产品\"、\"聊聊XXX\"时使用。",
+  "description": "\u4ece AI \u4ea7\u54c1\u7ecf\u7406\u89c6\u89d2\u64b0\u5199\u5fae\u4fe1\u516c\u4f17\u53f7\u6587\u7ae0\u3002\u6db5\u76d6 AI \u4ea7\u54c1\u62c6\u89e3\u3001\u573a\u666f\u89e3\u51b3\u65b9\u6848\u3001\u6548\u7387\u63d0\u5347\u5b9e\u6218\u3001\u4ea7\u54c1\u65b9\u6cd5\u8bba\u3001\u884c\u4e1a\u89c2\u5bdf\u3002\u5f53\u7528\u6237\u8bf4\"\u5199\u4e00\u7bc7\u5173\u4e8eXXX\u7684\u6587\u7ae0\"\u3001\"\u5206\u6790\u4e00\u4e0bXXX\u4ea7\u54c1\"\u3001\"\u804a\u804aXXX\"\u65f6\u4f7f\u7528\u3002",
   "repo_url": "https://github.com/bnd-1/wechat_article_skills",
   "source_hub": "skillsmp",
   "skill_type": "agent_skill",
@@ -20,5 +20,6 @@
   "scan_summary": null,
   "repo_status": "available",
   "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
-  "repo_check_error": null
+  "repo_check_error": null,
+  "installs": 69
 }

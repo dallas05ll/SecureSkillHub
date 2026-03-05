@@ -1,7 +1,7 @@
 {
   "id": "codex-0f1cac51",
   "name": "codex",
-  "description": "Codex CLI（OpenAI）を使用してコードや相談・レビューを行う。\nトリガー: \"codex\", \"codexと相談\", \"codexに聞いて\"",
+  "description": "Codex CLI\uff08OpenAI\uff09\u3092\u4f7f\u7528\u3057\u3066\u30b3\u30fc\u30c9\u3084\u76f8\u8ac7\u30fb\u30ec\u30d3\u30e5\u30fc\u3092\u884c\u3046\u3002\n\u30c8\u30ea\u30ac\u30fc: \"codex\", \"codex\u3068\u76f8\u8ac7\", \"codex\u306b\u805e\u3044\u3066\"",
   "repo_url": "https://github.com/eetann/dotfiles",
   "source_hub": "skillsmp",
   "skill_type": "agent_skill",
@@ -21,5 +21,6 @@
   "scan_summary": null,
   "repo_status": "available",
   "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
-  "repo_check_error": null
+  "repo_check_error": null,
+  "installs": 13
 }

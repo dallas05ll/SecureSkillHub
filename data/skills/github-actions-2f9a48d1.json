@@ -1,7 +1,7 @@
 {
   "id": "github-actions-2f9a48d1",
   "name": "github-actions",
-  "description": "GitHub Actions 워크플로우 생성, 보안 및 버전 관리 스킬. 다음 상황에서 사용: (1) 새 워크플로우 파일(.yml) 작성 시, (2) 기존 워크플로우 수정 시, (3) 액션 버전 검토 또는 업데이트 시, (4) CI/CD 보안 감사 시, (5) 'actions/', 'uses:', 'workflow', '.github/workflows' 키워드가 포함된 작업 시",
+  "description": "GitHub Actions \uc6cc\ud06c\ud50c\ub85c\uc6b0 \uc0dd\uc131, \ubcf4\uc548 \ubc0f \ubc84\uc804 \uad00\ub9ac \uc2a4\ud0ac. \ub2e4\uc74c \uc0c1\ud669\uc5d0\uc11c \uc0ac\uc6a9: (1) \uc0c8 \uc6cc\ud06c\ud50c\ub85c\uc6b0 \ud30c\uc77c(.yml) \uc791\uc131 \uc2dc, (2) \uae30\uc874 \uc6cc\ud06c\ud50c\ub85c\uc6b0 \uc218\uc815 \uc2dc, (3) \uc561\uc158 \ubc84\uc804 \uac80\ud1a0 \ub610\ub294 \uc5c5\ub370\uc774\ud2b8 \uc2dc, (4) CI/CD \ubcf4\uc548 \uac10\uc0ac \uc2dc, (5) 'actions/', 'uses:', 'workflow', '.github/workflows' \ud0a4\uc6cc\ub4dc\uac00 \ud3ec\ud568\ub41c \uc791\uc5c5 \uc2dc",
   "repo_url": "https://github.com/dalestudy/skills",
   "source_hub": "skillsmp",
   "skill_type": "agent_skill",
@@ -23,5 +23,6 @@
   "scan_summary": null,
   "repo_status": "available",
   "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
-  "repo_check_error": null
+  "repo_check_error": null,
+  "installs": 177
 }

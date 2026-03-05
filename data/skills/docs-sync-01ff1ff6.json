@@ -1,7 +1,7 @@
 {
   "id": "docs-sync-01ff1ff6",
   "name": "docs-sync",
-  "description": "gwmプロジェクトのドキュメント整合性チェックスキル。\nソースコード（CLI定義 args.rs、設定型定義 types.rs）とドキュメント\n（help.rs、README.md、README_JA.md）間のドリフトを検出し修正提案を行う。\n以下の場合に使用する:\n- 「ドキュメントを確認して」「ヘルプテキストを確認して」と依頼された場合\n- CLI引数や設定項目を変更した後のドキュメント更新確認\n- リリース前のドキュメント整合性チェック\n- 「READMEを更新して」「docs-sync」と依頼された場合",
+  "description": "gwm\u30d7\u30ed\u30b8\u30a7\u30af\u30c8\u306e\u30c9\u30ad\u30e5\u30e1\u30f3\u30c8\u6574\u5408\u6027\u30c1\u30a7\u30c3\u30af\u30b9\u30ad\u30eb\u3002\n\u30bd\u30fc\u30b9\u30b3\u30fc\u30c9\uff08CLI\u5b9a\u7fa9 args.rs\u3001\u8a2d\u5b9a\u578b\u5b9a\u7fa9 types.rs\uff09\u3068\u30c9\u30ad\u30e5\u30e1\u30f3\u30c8\n\uff08help.rs\u3001README.md\u3001README_JA.md\uff09\u9593\u306e\u30c9\u30ea\u30d5\u30c8\u3092\u691c\u51fa\u3057\u4fee\u6b63\u63d0\u6848\u3092\u884c\u3046\u3002\n\u4ee5\u4e0b\u306e\u5834\u5408\u306b\u4f7f\u7528\u3059\u308b:\n- \u300c\u30c9\u30ad\u30e5\u30e1\u30f3\u30c8\u3092\u78ba\u8a8d\u3057\u3066\u300d\u300c\u30d8\u30eb\u30d7\u30c6\u30ad\u30b9\u30c8\u3092\u78ba\u8a8d\u3057\u3066\u300d\u3068\u4f9d\u983c\u3055\u308c\u305f\u5834\u5408\n- CLI\u5f15\u6570\u3084\u8a2d\u5b9a\u9805\u76ee\u3092\u5909\u66f4\u3057\u305f\u5f8c\u306e\u30c9\u30ad\u30e5\u30e1\u30f3\u30c8\u66f4\u65b0\u78ba\u8a8d\n- \u30ea\u30ea\u30fc\u30b9\u524d\u306e\u30c9\u30ad\u30e5\u30e1\u30f3\u30c8\u6574\u5408\u6027\u30c1\u30a7\u30c3\u30af\n- \u300cREADME\u3092\u66f4\u65b0\u3057\u3066\u300d\u300cdocs-sync\u300d\u3068\u4f9d\u983c\u3055\u308c\u305f\u5834\u5408",
   "repo_url": "https://github.com/shutootaki/gwm",
   "source_hub": "skillsmp",
   "skill_type": "agent_skill",
@@ -20,5 +20,6 @@
   "scan_summary": null,
   "repo_status": "available",
   "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
-  "repo_check_error": null
+  "repo_check_error": null,
+  "installs": 14
 }

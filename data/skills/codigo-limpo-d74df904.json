@@ -1,7 +1,7 @@
 {
   "id": "codigo-limpo-d74df904",
   "name": "codigo-limpo",
-  "description": "Princípios e padrões de código limpo para o projeto Konecty backend. Aplica KISS, YAGNI, DRY, SOLID, prefer-const, programação funcional, p-limit para concorrência e error handling centralizado. Use ao gerar ou revisar código Node.js/TypeScript backend.",
+  "description": "Princ\u00edpios e padr\u00f5es de c\u00f3digo limpo para o projeto Konecty backend. Aplica KISS, YAGNI, DRY, SOLID, prefer-const, programa\u00e7\u00e3o funcional, p-limit para concorr\u00eancia e error handling centralizado. Use ao gerar ou revisar c\u00f3digo Node.js/TypeScript backend.",
   "repo_url": "https://github.com/konecty/konecty",
   "source_hub": "skillsmp",
   "skill_type": "agent_skill",
@@ -23,5 +23,6 @@
   "scan_summary": null,
   "repo_status": "available",
   "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
-  "repo_check_error": null
+  "repo_check_error": null,
+  "installs": 19
 }

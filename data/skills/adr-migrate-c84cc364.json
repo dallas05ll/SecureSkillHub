@@ -98,6 +98,7 @@
     "manager_summary": "5/5 agents completed. Score: 10/100, Risk: critical. 0 mismatches, 165 scanner findings. Rejected at 95% confidence. Safety overrides triggered."
   },
   "pm_override": true,
-  "pm_override_reason": "FP: berlysia/dotfiles — anti-injection defense prompt in security hook",
-  "pm_override_date": "2026-03-04T20:08:05.904109+00:00"
+  "pm_override_reason": "FP: berlysia/dotfiles \u2014 anti-injection defense prompt in security hook",
+  "pm_override_date": "2026-03-04T20:08:05.904109+00:00",
+  "installs": 9
 }

@@ -1,7 +1,7 @@
 {
   "id": "demo-create-d69109d4",
   "name": "demo-create",
-  "description": "基于项目中 .vscode/south.code-snippets 定义的 CRUD 模板，快速生成后台管理系统的标准 CRUD 页面代码。该技能根据用户提供的业务模块信息（如模块名称、API路径、字段配置等），自动生成完整的页面文件（Page）、数据模型文件（Model）和 API 接口文件（Api），支持分页列表页面（demoPage）、独立操作页面（demoOptionPage）两种页面模式。",
+  "description": "\u57fa\u4e8e\u9879\u76ee\u4e2d .vscode/south.code-snippets \u5b9a\u4e49\u7684 CRUD \u6a21\u677f\uff0c\u5feb\u901f\u751f\u6210\u540e\u53f0\u7ba1\u7406\u7cfb\u7edf\u7684\u6807\u51c6 CRUD \u9875\u9762\u4ee3\u7801\u3002\u8be5\u6280\u80fd\u6839\u636e\u7528\u6237\u63d0\u4f9b\u7684\u4e1a\u52a1\u6a21\u5757\u4fe1\u606f\uff08\u5982\u6a21\u5757\u540d\u79f0\u3001API\u8def\u5f84\u3001\u5b57\u6bb5\u914d\u7f6e\u7b49\uff09\uff0c\u81ea\u52a8\u751f\u6210\u5b8c\u6574\u7684\u9875\u9762\u6587\u4ef6\uff08Page\uff09\u3001\u6570\u636e\u6a21\u578b\u6587\u4ef6\uff08Model\uff09\u548c API \u63a5\u53e3\u6587\u4ef6\uff08Api\uff09\uff0c\u652f\u6301\u5206\u9875\u5217\u8868\u9875\u9762\uff08demoPage\uff09\u3001\u72ec\u7acb\u64cd\u4f5c\u9875\u9762\uff08demoOptionPage\uff09\u4e24\u79cd\u9875\u9762\u6a21\u5f0f\u3002",
   "repo_url": "https://github.com/southliu/south-admin-react",
   "source_hub": "skillsmp",
   "skill_type": "agent_skill",
@@ -20,5 +20,6 @@
   "scan_summary": null,
   "repo_status": "available",
   "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
-  "repo_check_error": null
+  "repo_check_error": null,
+  "installs": 532
 }

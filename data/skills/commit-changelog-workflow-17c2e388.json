@@ -1,7 +1,7 @@
 {
   "id": "commit-changelog-workflow-17c2e388",
   "name": "commit-changelog-workflow",
-  "description": "Fix or rename files, write a Chinese changelog MD, commit in English, and optionally push. Use when fixing garbled filenames, documenting changes in Chinese, committing with English messages, or when the user asks for the project's commit flow or to \"写 skill 提交流程\".",
+  "description": "Fix or rename files, write a Chinese changelog MD, commit in English, and optionally push. Use when fixing garbled filenames, documenting changes in Chinese, committing with English messages, or when the user asks for the project's commit flow or to \"\u5199 skill \u63d0\u4ea4\u6d41\u7a0b\".",
   "repo_url": "https://github.com/xbotics-embodied-ai-club/xbotics-embodied-guide",
   "source_hub": "skillsmp",
   "skill_type": "agent_skill",
@@ -22,5 +22,6 @@
   "scan_summary": null,
   "repo_status": "available",
   "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
-  "repo_check_error": null
+  "repo_check_error": null,
+  "installs": 331
 }

@@ -1,7 +1,7 @@
 {
   "id": "github-explorer-b50f246f",
   "name": "github-explorer",
-  "description": "Deep-dive analysis of GitHub projects. Use when the user mentions a GitHub repo/project name and wants to understand it — triggered by phrases like \"帮我看看这个项目\", \"了解一下 XXX\", \"这个项目怎么样\", \"分析一下 repo\", or any request to explore/evaluate a GitHub project. Covers architecture, community health, competitive landscape, and cross-platform knowledge sources.",
+  "description": "Deep-dive analysis of GitHub projects. Use when the user mentions a GitHub repo/project name and wants to understand it \u2014 triggered by phrases like \"\u5e2e\u6211\u770b\u770b\u8fd9\u4e2a\u9879\u76ee\", \"\u4e86\u89e3\u4e00\u4e0b XXX\", \"\u8fd9\u4e2a\u9879\u76ee\u600e\u4e48\u6837\", \"\u5206\u6790\u4e00\u4e0b repo\", or any request to explore/evaluate a GitHub project. Covers architecture, community health, competitive landscape, and cross-platform knowledge sources.",
   "repo_url": "https://github.com/blessonism/github-explorer-skill",
   "source_hub": "skillsmp",
   "skill_type": "agent_skill",
@@ -20,5 +20,6 @@
   "scan_summary": null,
   "repo_status": "available",
   "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
-  "repo_check_error": null
+  "repo_check_error": null,
+  "installs": 31
 }

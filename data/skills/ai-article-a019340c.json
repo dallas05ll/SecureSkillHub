@@ -1,7 +1,7 @@
 {
   "id": "ai-article-a019340c",
   "name": "ai-article",
-  "description": "自动搜集AI领域热点或根据指定选题，按照二哥的写作风格完成AI技术类文章撰写。专注于AI Coding工具实测（Claude Code、Qoder、Cursor、TRAE等）、大模型工程化落地（SpringAI、LangChain、RAG等）、AI Agent和工作流编排、国产大模型评测（GLM、通义千问、DeepSeek、MiniMax、Kimi等）。触发关键词：写一篇AI文章、AI技术文章、大模型测评、AI工具实测、GLM、Claude Code、Qoder、Cursor、TRAE、SpringAI、RAG、Agent、工作流、国产大模型、搜集AI热点、AI选题等。",
+  "description": "\u81ea\u52a8\u641c\u96c6AI\u9886\u57df\u70ed\u70b9\u6216\u6839\u636e\u6307\u5b9a\u9009\u9898\uff0c\u6309\u7167\u4e8c\u54e5\u7684\u5199\u4f5c\u98ce\u683c\u5b8c\u6210AI\u6280\u672f\u7c7b\u6587\u7ae0\u64b0\u5199\u3002\u4e13\u6ce8\u4e8eAI Coding\u5de5\u5177\u5b9e\u6d4b\uff08Claude Code\u3001Qoder\u3001Cursor\u3001TRAE\u7b49\uff09\u3001\u5927\u6a21\u578b\u5de5\u7a0b\u5316\u843d\u5730\uff08SpringAI\u3001LangChain\u3001RAG\u7b49\uff09\u3001AI Agent\u548c\u5de5\u4f5c\u6d41\u7f16\u6392\u3001\u56fd\u4ea7\u5927\u6a21\u578b\u8bc4\u6d4b\uff08GLM\u3001\u901a\u4e49\u5343\u95ee\u3001DeepSeek\u3001MiniMax\u3001Kimi\u7b49\uff09\u3002\u89e6\u53d1\u5173\u952e\u8bcd\uff1a\u5199\u4e00\u7bc7AI\u6587\u7ae0\u3001AI\u6280\u672f\u6587\u7ae0\u3001\u5927\u6a21\u578b\u6d4b\u8bc4\u3001AI\u5de5\u5177\u5b9e\u6d4b\u3001GLM\u3001Claude Code\u3001Qoder\u3001Cursor\u3001TRAE\u3001SpringAI\u3001RAG\u3001Agent\u3001\u5de5\u4f5c\u6d41\u3001\u56fd\u4ea7\u5927\u6a21\u578b\u3001\u641c\u96c6AI\u70ed\u70b9\u3001AI\u9009\u9898\u7b49\u3002",
   "repo_url": "https://github.com/itwanger/tobebetterjavaer",
   "source_hub": "skillsmp",
   "skill_type": "agent_skill",
@@ -264,5 +264,6 @@
       "original_status": "fail",
       "original_score": 15
     }
-  }
+  },
+  "installs": 16679
 }

@@ -1,7 +1,7 @@
 {
   "id": "check-library-f06199a5",
   "name": "check-library",
-  "description": "ライブラリの情報を確認するためのスキル。Next.js、shadcn、その他のライブラリについて、適切なMCPサーバーを使用して最新のドキュメントと使用方法を取得します。",
+  "description": "\u30e9\u30a4\u30d6\u30e9\u30ea\u306e\u60c5\u5831\u3092\u78ba\u8a8d\u3059\u308b\u305f\u3081\u306e\u30b9\u30ad\u30eb\u3002Next.js\u3001shadcn\u3001\u305d\u306e\u4ed6\u306e\u30e9\u30a4\u30d6\u30e9\u30ea\u306b\u3064\u3044\u3066\u3001\u9069\u5207\u306aMCP\u30b5\u30fc\u30d0\u30fc\u3092\u4f7f\u7528\u3057\u3066\u6700\u65b0\u306e\u30c9\u30ad\u30e5\u30e1\u30f3\u30c8\u3068\u4f7f\u7528\u65b9\u6cd5\u3092\u53d6\u5f97\u3057\u307e\u3059\u3002",
   "repo_url": "https://github.com/getty104/claude-code-marketplace",
   "source_hub": "skillsmp",
   "skill_type": "agent_skill",
@@ -25,5 +25,6 @@
   "scan_summary": null,
   "repo_status": "available",
   "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
-  "repo_check_error": null
+  "repo_check_error": null,
+  "installs": 10
 }

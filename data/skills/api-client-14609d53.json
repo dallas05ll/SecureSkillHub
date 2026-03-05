@@ -1,7 +1,7 @@
 {
   "id": "api-client-14609d53",
   "name": "api-client",
-  "description": "Универсальный REST API клиент для MikoPBX с автоматической аутентификацией и выполнением запросов внутри Docker контейнеров. Использовать когда нужно тестировать API эндпоинты, выполнять CRUD операции (GET, POST, PATCH, DELETE) или отлаживать API ответы с конкретными параметрами.",
+  "description": "\u0423\u043d\u0438\u0432\u0435\u0440\u0441\u0430\u043b\u044c\u043d\u044b\u0439 REST API \u043a\u043b\u0438\u0435\u043d\u0442 \u0434\u043b\u044f MikoPBX \u0441 \u0430\u0432\u0442\u043e\u043c\u0430\u0442\u0438\u0447\u0435\u0441\u043a\u043e\u0439 \u0430\u0443\u0442\u0435\u043d\u0442\u0438\u0444\u0438\u043a\u0430\u0446\u0438\u0435\u0439 \u0438 \u0432\u044b\u043f\u043e\u043b\u043d\u0435\u043d\u0438\u0435\u043c \u0437\u0430\u043f\u0440\u043e\u0441\u043e\u0432 \u0432\u043d\u0443\u0442\u0440\u0438 Docker \u043a\u043e\u043d\u0442\u0435\u0439\u043d\u0435\u0440\u043e\u0432. \u0418\u0441\u043f\u043e\u043b\u044c\u0437\u043e\u0432\u0430\u0442\u044c \u043a\u043e\u0433\u0434\u0430 \u043d\u0443\u0436\u043d\u043e \u0442\u0435\u0441\u0442\u0438\u0440\u043e\u0432\u0430\u0442\u044c API \u044d\u043d\u0434\u043f\u043e\u0438\u043d\u0442\u044b, \u0432\u044b\u043f\u043e\u043b\u043d\u044f\u0442\u044c CRUD \u043e\u043f\u0435\u0440\u0430\u0446\u0438\u0438 (GET, POST, PATCH, DELETE) \u0438\u043b\u0438 \u043e\u0442\u043b\u0430\u0436\u0438\u0432\u0430\u0442\u044c API \u043e\u0442\u0432\u0435\u0442\u044b \u0441 \u043a\u043e\u043d\u043a\u0440\u0435\u0442\u043d\u044b\u043c\u0438 \u043f\u0430\u0440\u0430\u043c\u0435\u0442\u0440\u0430\u043c\u0438.",
   "repo_url": "https://github.com/mikopbx/core",
   "source_hub": "skillsmp",
   "skill_type": "agent_skill",
@@ -25,5 +25,6 @@
   "scan_summary": null,
   "repo_status": "available",
   "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
-  "repo_check_error": null
+  "repo_check_error": null,
+  "installs": 514
 }

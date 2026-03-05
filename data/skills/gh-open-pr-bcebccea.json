@@ -1,7 +1,7 @@
 {
   "id": "gh-open-pr-bcebccea",
   "name": "gh-open-pr",
-  "description": "gh CLI で PR を作成する手順。PR 作成/ドラフトPR/PR更新依頼のときに使う。",
+  "description": "gh CLI \u3067 PR \u3092\u4f5c\u6210\u3059\u308b\u624b\u9806\u3002PR \u4f5c\u6210/\u30c9\u30e9\u30d5\u30c8PR/PR\u66f4\u65b0\u4f9d\u983c\u306e\u3068\u304d\u306b\u4f7f\u3046\u3002",
   "repo_url": "https://github.com/daichan132/youtube-live-chat-fullscreen",
   "source_hub": "skillsmp",
   "skill_type": "agent_skill",
@@ -20,5 +20,6 @@
   "scan_summary": null,
   "repo_status": "available",
   "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
-  "repo_check_error": null
+  "repo_check_error": null,
+  "installs": 29
 }

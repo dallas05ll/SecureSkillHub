@@ -1,7 +1,7 @@
 {
   "id": "check-review-alignment-6ce58874",
   "name": "check-review-alignment",
-  "description": "当用户明确要求\"核查/优化综述 `{主题}_review.tex` 的正文引用\"或\"运行 check-review-alignment\"时使用。通过宿主 AI 的语义理解逐条核查引用是否与文献内容吻合，只在发现致命性引用错误时对\"包含引用的句子\"做最小化改写，并复用 `systematic-literature-review` 的渲染脚本输出 PDF/Word。核心原则：不为了改而改，无法确定是否为致命性错误时保留原样并在报告中警告。⚠️ 不适用：用户只是想生成系统综述正文（应使用 systematic-literature-review）；用户只是想新增/核对 BibTeX 条目（应使用专门的 bib 管理流程）。",
+  "description": "\u5f53\u7528\u6237\u660e\u786e\u8981\u6c42\"\u6838\u67e5/\u4f18\u5316\u7efc\u8ff0 `{\u4e3b\u9898}_review.tex` \u7684\u6b63\u6587\u5f15\u7528\"\u6216\"\u8fd0\u884c check-review-alignment\"\u65f6\u4f7f\u7528\u3002\u901a\u8fc7\u5bbf\u4e3b AI \u7684\u8bed\u4e49\u7406\u89e3\u9010\u6761\u6838\u67e5\u5f15\u7528\u662f\u5426\u4e0e\u6587\u732e\u5185\u5bb9\u543b\u5408\uff0c\u53ea\u5728\u53d1\u73b0\u81f4\u547d\u6027\u5f15\u7528\u9519\u8bef\u65f6\u5bf9\"\u5305\u542b\u5f15\u7528\u7684\u53e5\u5b50\"\u505a\u6700\u5c0f\u5316\u6539\u5199\uff0c\u5e76\u590d\u7528 `systematic-literature-review` \u7684\u6e32\u67d3\u811a\u672c\u8f93\u51fa PDF/Word\u3002\u6838\u5fc3\u539f\u5219\uff1a\u4e0d\u4e3a\u4e86\u6539\u800c\u6539\uff0c\u65e0\u6cd5\u786e\u5b9a\u662f\u5426\u4e3a\u81f4\u547d\u6027\u9519\u8bef\u65f6\u4fdd\u7559\u539f\u6837\u5e76\u5728\u62a5\u544a\u4e2d\u8b66\u544a\u3002\u26a0\ufe0f \u4e0d\u9002\u7528\uff1a\u7528\u6237\u53ea\u662f\u60f3\u751f\u6210\u7cfb\u7edf\u7efc\u8ff0\u6b63\u6587\uff08\u5e94\u4f7f\u7528 systematic-literature-review\uff09\uff1b\u7528\u6237\u53ea\u662f\u60f3\u65b0\u589e/\u6838\u5bf9 BibTeX \u6761\u76ee\uff08\u5e94\u4f7f\u7528\u4e13\u95e8\u7684 bib \u7ba1\u7406\u6d41\u7a0b\uff09\u3002",
   "repo_url": "https://github.com/huangwb8/chineseresearchlatex",
   "source_hub": "skillsmp",
   "skill_type": "agent_skill",
@@ -20,5 +20,6 @@
   "scan_summary": null,
   "repo_status": "available",
   "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
-  "repo_check_error": null
+  "repo_check_error": null,
+  "installs": 788
 }

@@ -1,7 +1,7 @@
 {
   "id": "advanced-video-downloader-20eceabc",
   "name": "advanced-video-downloader",
-  "description": "Download and transcribe videos from YouTube, Bilibili, TikTok and 1000+ platforms. Use when user requests video download, transcription (转录/字幕提取), or converting video to text/markdown. Supports quality selection, audio extraction, playlist downloads, cookie-based authentication, and AI-powered transcription via SiliconFlow API (免费转录).",
+  "description": "Download and transcribe videos from YouTube, Bilibili, TikTok and 1000+ platforms. Use when user requests video download, transcription (\u8f6c\u5f55/\u5b57\u5e55\u63d0\u53d6), or converting video to text/markdown. Supports quality selection, audio extraction, playlist downloads, cookie-based authentication, and AI-powered transcription via SiliconFlow API (\u514d\u8d39\u8f6c\u5f55).",
   "repo_url": "https://github.com/jst-well-dan/skill-box",
   "source_hub": "skillsmp",
   "skill_type": "agent_skill",
@@ -112,5 +112,6 @@
       "original_status": "manual_review",
       "original_score": 60
     }
-  }
+  },
+  "installs": 28
 }

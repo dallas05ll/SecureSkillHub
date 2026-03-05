@@ -1,7 +1,7 @@
 {
   "id": "agent-orchestrator-fd6fd1d3",
   "name": "agent-orchestrator",
-  "description": "Coordinate complex work using a phase-gated, multi-agent engineering loop (audit → design → implement → review → validate → deliver). Use when you need to split a task into subsystems, run dual independent audits, reconcile findings into a confirmed issue list, delegate fixes in clusters, enforce dual-review PASS gates, and drive an end-to-end delivery. Prefer discovering and invoking other specialized skills when they can execute part of the work faster or more reliably.",
+  "description": "Coordinate complex work using a phase-gated, multi-agent engineering loop (audit \u2192 design \u2192 implement \u2192 review \u2192 validate \u2192 deliver). Use when you need to split a task into subsystems, run dual independent audits, reconcile findings into a confirmed issue list, delegate fixes in clusters, enforce dual-review PASS gates, and drive an end-to-end delivery. Prefer discovering and invoking other specialized skills when they can execute part of the work faster or more reliably.",
   "repo_url": "https://github.com/mrclrchtr/skills",
   "source_hub": "skillsmp",
   "skill_type": "agent_skill",
@@ -265,5 +265,6 @@
       "original_status": "fail",
       "original_score": 15
     }
-  }
+  },
+  "installs": 9
 }

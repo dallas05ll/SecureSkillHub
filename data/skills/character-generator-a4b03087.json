@@ -1,7 +1,7 @@
 {
   "id": "character-generator-a4b03087",
   "name": "character-generator",
-  "description": "Crée des personnages D&D 5e. Génère caractéristiques (4d6kh3 ou répartition standard), applique modificateurs d'espèce, calcule bonus maîtrise, points de vie et or de départ. 9 espèces, 12 classes. Sauvegarde dans data/characters/.",
+  "description": "Cr\u00e9e des personnages D&D 5e. G\u00e9n\u00e8re caract\u00e9ristiques (4d6kh3 ou r\u00e9partition standard), applique modificateurs d'esp\u00e8ce, calcule bonus ma\u00eetrise, points de vie et or de d\u00e9part. 9 esp\u00e8ces, 12 classes. Sauvegarde dans data/characters/.",
   "repo_url": "https://github.com/nicmarti/skills-weaver",
   "source_hub": "skillsmp",
   "skill_type": "agent_skill",
@@ -20,5 +20,6 @@
   "scan_summary": null,
   "repo_status": "available",
   "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
-  "repo_check_error": null
+  "repo_check_error": null,
+  "installs": 14
 }

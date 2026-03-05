@@ -1,7 +1,7 @@
 {
   "id": "builder-workflow-c2dc2106",
   "name": "builder-workflow",
-  "description": "Phase-level implementation workflow for builder agents. Handles reading phase files, finding references, invoking domain skills, implementing all steps, and running verification (tests + typecheck). Preloaded into builder agents via skills: field — not user-invocable.",
+  "description": "Phase-level implementation workflow for builder agents. Handles reading phase files, finding references, invoking domain skills, implementing all steps, and running verification (tests + typecheck). Preloaded into builder agents via skills: field \u2014 not user-invocable.",
   "repo_url": "https://github.com/darraghh1/my-claude-setup",
   "source_hub": "skillsmp",
   "skill_type": "agent_skill",
@@ -20,5 +20,6 @@
   "scan_summary": null,
   "repo_status": "available",
   "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
-  "repo_check_error": null
+  "repo_check_error": null,
+  "installs": 9
 }

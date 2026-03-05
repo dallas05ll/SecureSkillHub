@@ -1,7 +1,7 @@
 {
   "id": "chinese-copyright-application-8e7b9b59",
   "name": "chinese-copyright-application",
-  "description": "用于生成中国软件著作权申请材料的完整工具包。支持从项目代码、文档等自动提取信息，生成软件著作权登记申请表、源代码文档（前后各30页）、用户手册和设计说明书，并自动转换为PDF文件。适用于微信小程序、Web应用、移动App、桌面应用等各类软件项目。当用户需要申请中国软件著作权时使用此skill。",
+  "description": "\u7528\u4e8e\u751f\u6210\u4e2d\u56fd\u8f6f\u4ef6\u8457\u4f5c\u6743\u7533\u8bf7\u6750\u6599\u7684\u5b8c\u6574\u5de5\u5177\u5305\u3002\u652f\u6301\u4ece\u9879\u76ee\u4ee3\u7801\u3001\u6587\u6863\u7b49\u81ea\u52a8\u63d0\u53d6\u4fe1\u606f\uff0c\u751f\u6210\u8f6f\u4ef6\u8457\u4f5c\u6743\u767b\u8bb0\u7533\u8bf7\u8868\u3001\u6e90\u4ee3\u7801\u6587\u6863\uff08\u524d\u540e\u540430\u9875\uff09\u3001\u7528\u6237\u624b\u518c\u548c\u8bbe\u8ba1\u8bf4\u660e\u4e66\uff0c\u5e76\u81ea\u52a8\u8f6c\u6362\u4e3aPDF\u6587\u4ef6\u3002\u9002\u7528\u4e8e\u5fae\u4fe1\u5c0f\u7a0b\u5e8f\u3001Web\u5e94\u7528\u3001\u79fb\u52a8App\u3001\u684c\u9762\u5e94\u7528\u7b49\u5404\u7c7b\u8f6f\u4ef6\u9879\u76ee\u3002\u5f53\u7528\u6237\u9700\u8981\u7533\u8bf7\u4e2d\u56fd\u8f6f\u4ef6\u8457\u4f5c\u6743\u65f6\u4f7f\u7528\u6b64skill\u3002",
   "repo_url": "https://github.com/na57/chinese-copyright-application-skill",
   "source_hub": "skillsmp",
   "skill_type": "agent_skill",
@@ -22,5 +22,6 @@
   "scan_summary": null,
   "repo_status": "available",
   "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
-  "repo_check_error": null
+  "repo_check_error": null,
+  "installs": 19
 }

@@ -1,7 +1,7 @@
 {
   "id": "codeup-a9b3a340",
   "name": "codeup",
-  "description": "阿里云云效 Codeup 代码仓库管理工具集。使用场景包括：(1) 代码仓库操作 - 分支管理、文件操作、代码对比、合并请求/MR管理 (2) 组织管理 - 部门管理、成员查询、角色管理 (3) 操作 codeup 仓库、分支、MR、合并请求 (4) 查询云效组织成员、部门列表",
+  "description": "\u963f\u91cc\u4e91\u4e91\u6548 Codeup \u4ee3\u7801\u4ed3\u5e93\u7ba1\u7406\u5de5\u5177\u96c6\u3002\u4f7f\u7528\u573a\u666f\u5305\u62ec\uff1a(1) \u4ee3\u7801\u4ed3\u5e93\u64cd\u4f5c - \u5206\u652f\u7ba1\u7406\u3001\u6587\u4ef6\u64cd\u4f5c\u3001\u4ee3\u7801\u5bf9\u6bd4\u3001\u5408\u5e76\u8bf7\u6c42/MR\u7ba1\u7406 (2) \u7ec4\u7ec7\u7ba1\u7406 - \u90e8\u95e8\u7ba1\u7406\u3001\u6210\u5458\u67e5\u8be2\u3001\u89d2\u8272\u7ba1\u7406 (3) \u64cd\u4f5c codeup \u4ed3\u5e93\u3001\u5206\u652f\u3001MR\u3001\u5408\u5e76\u8bf7\u6c42 (4) \u67e5\u8be2\u4e91\u6548\u7ec4\u7ec7\u6210\u5458\u3001\u90e8\u95e8\u5217\u8868",
   "repo_url": "https://github.com/abcfed/claude-marketplace",
   "source_hub": "skillsmp",
   "skill_type": "agent_skill",
@@ -20,5 +20,6 @@
   "scan_summary": null,
   "repo_status": "available",
   "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
-  "repo_check_error": null
+  "repo_check_error": null,
+  "installs": 34
 }

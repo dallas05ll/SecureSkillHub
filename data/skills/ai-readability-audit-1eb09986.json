@@ -1,7 +1,7 @@
 {
   "id": "ai-readability-audit-1eb09986",
   "name": "ai-readability-audit",
-  "description": "AI可读性审计工具，模拟AI爬虫视角评估网站对大语言模型的友好程度，分析结构化数据、语义HTML和Meta信息",
+  "description": "AI\u53ef\u8bfb\u6027\u5ba1\u8ba1\u5de5\u5177\uff0c\u6a21\u62dfAI\u722c\u866b\u89c6\u89d2\u8bc4\u4f30\u7f51\u7ad9\u5bf9\u5927\u8bed\u8a00\u6a21\u578b\u7684\u53cb\u597d\u7a0b\u5ea6\uff0c\u5206\u6790\u7ed3\u6784\u5316\u6570\u636e\u3001\u8bed\u4e49HTML\u548cMeta\u4fe1\u606f",
   "repo_url": "https://github.com/refly-ai/refly-skills",
   "source_hub": "skillsmp",
   "skill_type": "agent_skill",
@@ -262,5 +262,6 @@
       "original_status": "manual_review",
       "original_score": 55
     }
-  }
+  },
+  "installs": 159
 }

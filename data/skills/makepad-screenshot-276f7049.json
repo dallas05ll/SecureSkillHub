@@ -1,7 +1,7 @@
 {
   "id": "makepad-screenshot-276f7049",
   "name": "makepad-screenshot",
-  "description": "CRITICAL: Use for Makepad GUI screenshot debugging and visual inspection.\nTriggers on: /screenshot, 截图, 看看UI, 查看界面, capture makepad,\nrun and capture, 运行并截图, 看看效果, UI截图, 界面截图,\nscreenshot makepad, capture app, 截取应用, bring to front",
+  "description": "CRITICAL: Use for Makepad GUI screenshot debugging and visual inspection.\nTriggers on: /screenshot, \u622a\u56fe, \u770b\u770bUI, \u67e5\u770b\u754c\u9762, capture makepad,\nrun and capture, \u8fd0\u884c\u5e76\u622a\u56fe, \u770b\u770b\u6548\u679c, UI\u622a\u56fe, \u754c\u9762\u622a\u56fe,\nscreenshot makepad, capture app, \u622a\u53d6\u5e94\u7528, bring to front",
   "repo_url": "https://github.com/zhanghandong/makepad-component",
   "source_hub": "skillsmp",
   "skill_type": "agent_skill",
@@ -23,5 +23,6 @@
   "scan_summary": null,
   "repo_status": "available",
   "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
-  "repo_check_error": null
+  "repo_check_error": null,
+  "installs": 28
 }

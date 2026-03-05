@@ -1,7 +1,7 @@
 {
   "id": "openclaw-wiki-2b70c1a8",
   "name": "openclaw-wiki",
-  "description": "OpenClaw 官方文档知识库，一个多渠道 AI Agent 网关。当用户询问 OpenClaw 相关问题（如安装、配置、Gateway、WhatsApp/Telegram/Discord 等渠道连接、Sessions、Tools、Skills、Pi Agent、故障排查等）时使用此 skill。",
+  "description": "OpenClaw \u5b98\u65b9\u6587\u6863\u77e5\u8bc6\u5e93\uff0c\u4e00\u4e2a\u591a\u6e20\u9053 AI Agent \u7f51\u5173\u3002\u5f53\u7528\u6237\u8be2\u95ee OpenClaw \u76f8\u5173\u95ee\u9898\uff08\u5982\u5b89\u88c5\u3001\u914d\u7f6e\u3001Gateway\u3001WhatsApp/Telegram/Discord \u7b49\u6e20\u9053\u8fde\u63a5\u3001Sessions\u3001Tools\u3001Skills\u3001Pi Agent\u3001\u6545\u969c\u6392\u67e5\u7b49\uff09\u65f6\u4f7f\u7528\u6b64 skill\u3002",
   "repo_url": "https://github.com/chujianyun/skills",
   "source_hub": "skillsmp",
   "skill_type": "agent_skill",
@@ -26,5 +26,6 @@
   "scan_summary": null,
   "repo_status": "available",
   "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
-  "repo_check_error": null
+  "repo_check_error": null,
+  "installs": 261
 }

@@ -1,7 +1,7 @@
 {
   "id": "html-ppt-designer-f6b8b3fd",
   "name": "html-ppt-designer",
-  "description": "HTML PPT 精致演示文稿设计器 - 将用户内容转化为精致的HTML演示文稿页面，LLM 智能设计优先，支持多种视觉风格、动效设计、色彩认知系统。触发词：PPT、演示文稿、HTML幻灯片、slide、presentation、做PPT、制作演示。",
+  "description": "HTML PPT \u7cbe\u81f4\u6f14\u793a\u6587\u7a3f\u8bbe\u8ba1\u5668 - \u5c06\u7528\u6237\u5185\u5bb9\u8f6c\u5316\u4e3a\u7cbe\u81f4\u7684HTML\u6f14\u793a\u6587\u7a3f\u9875\u9762\uff0cLLM \u667a\u80fd\u8bbe\u8ba1\u4f18\u5148\uff0c\u652f\u6301\u591a\u79cd\u89c6\u89c9\u98ce\u683c\u3001\u52a8\u6548\u8bbe\u8ba1\u3001\u8272\u5f69\u8ba4\u77e5\u7cfb\u7edf\u3002\u89e6\u53d1\u8bcd\uff1aPPT\u3001\u6f14\u793a\u6587\u7a3f\u3001HTML\u5e7b\u706f\u7247\u3001slide\u3001presentation\u3001\u505aPPT\u3001\u5236\u4f5c\u6f14\u793a\u3002",
   "repo_url": "https://github.com/andyhuo520/html-ppt-designer",
   "source_hub": "skillsmp",
   "skill_type": "agent_skill",
@@ -23,5 +23,6 @@
   "scan_summary": null,
   "repo_status": "available",
   "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
-  "repo_check_error": null
+  "repo_check_error": null,
+  "installs": 52
 }

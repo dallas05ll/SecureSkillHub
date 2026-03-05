@@ -1,7 +1,7 @@
 {
   "id": "ai-2c99b731",
   "name": "ai",
-  "description": "AI/LLM 能力索引。Agent 开发、LLM 安全、RAG 系统。当用户提到 AI、LLM、Agent、RAG、Prompt 时路由到此。",
+  "description": "AI/LLM \u80fd\u529b\u7d22\u5f15\u3002Agent \u5f00\u53d1\u3001LLM \u5b89\u5168\u3001RAG \u7cfb\u7edf\u3002\u5f53\u7528\u6237\u63d0\u5230 AI\u3001LLM\u3001Agent\u3001RAG\u3001Prompt \u65f6\u8def\u7531\u5230\u6b64\u3002",
   "repo_url": "https://github.com/telagod/code-abyss",
   "source_hub": "skillsmp",
   "skill_type": "agent_skill",
@@ -268,5 +268,6 @@
       "original_status": "fail",
       "original_score": 15
     }
-  }
+  },
+  "installs": 72
 }

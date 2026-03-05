@@ -1,7 +1,7 @@
 {
   "id": "bkend-auth-385943b7",
   "name": "bkend-auth",
-  "description": "bkend.ai authentication and security expert skill.\nCovers email signup/login, social login (Google, GitHub), magic link,\nJWT tokens (Access 1h, Refresh 7d), session management, RBAC (admin/user/self/guest),\nRLS policies, password management, and account lifecycle.\n\nTriggers: signup, login, JWT, session, social login, RBAC, RLS, password, token,\n회원가입, 로그인, 토큰, 세션, 권한, 보안정책, 비밀번호,\nログイン, 認証, セッション, 権限, パスワード,\n登录, 认证, 会话, 权限, 密码,\nregistro, inicio de sesion, permisos, contrasena,\ninscription, conn...",
+  "description": "bkend.ai authentication and security expert skill.\nCovers email signup/login, social login (Google, GitHub), magic link,\nJWT tokens (Access 1h, Refresh 7d), session management, RBAC (admin/user/self/guest),\nRLS policies, password management, and account lifecycle.\n\nTriggers: signup, login, JWT, session, social login, RBAC, RLS, password, token,\n\ud68c\uc6d0\uac00\uc785, \ub85c\uadf8\uc778, \ud1a0\ud070, \uc138\uc158, \uad8c\ud55c, \ubcf4\uc548\uc815\ucc45, \ube44\ubc00\ubc88\ud638,\n\u30ed\u30b0\u30a4\u30f3, \u8a8d\u8a3c, \u30bb\u30c3\u30b7\u30e7\u30f3, \u6a29\u9650, \u30d1\u30b9\u30ef\u30fc\u30c9,\n\u767b\u5f55, \u8ba4\u8bc1, \u4f1a\u8bdd, \u6743\u9650, \u5bc6\u7801,\nregistro, inicio de sesion, permisos, contrasena,\ninscription, conn...",
   "repo_url": "https://github.com/popup-studio-ai/bkit-claude-code",
   "source_hub": "skillsmp",
   "skill_type": "agent_skill",
@@ -21,5 +21,6 @@
   "scan_summary": null,
   "repo_status": "available",
   "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
-  "repo_check_error": null
+  "repo_check_error": null,
+  "installs": 247
 }

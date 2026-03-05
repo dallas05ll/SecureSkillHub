@@ -50,9 +50,21 @@ def load_unverified() -> list[dict]:
     return candidates
 
 
+def priority_score(skill: dict) -> int:
+    """Unified priority score: stars for MCP, installs for agent skills.
+
+    Normalization: installs and stars are on different scales.
+    Top MCP: 350K stars. Top agent: 243K installs.
+    We treat them as equivalent signals — both indicate real usage.
+    """
+    stars = int(skill.get("stars") or 0)
+    installs = int(skill.get("installs") or 0)
+    return max(stars, installs)
+
+
 def strategy_stars(candidates: list[dict], limit: int) -> list[dict]:
-    """Pure star-based selection (current default)."""
-    candidates.sort(key=lambda d: (-int(d.get("stars") or 0), str(d.get("id", ""))))
+    """Pure priority-based selection (stars for MCP, installs for agent skills)."""
+    candidates.sort(key=lambda d: (-priority_score(d), str(d.get("id", ""))))
     return candidates[:limit]
 
 
@@ -79,9 +91,9 @@ def strategy_balanced(candidates: list[dict], limit: int) -> list[dict]:
             return True
         return False
 
-    # --- Tier 1: Highest stars ---
-    by_stars = sorted(candidates, key=lambda d: (-int(d.get("stars") or 0), str(d.get("id", ""))))
-    for s in by_stars:
+    # --- Tier 1: Highest priority (stars for MCP, installs for agent skills) ---
+    by_priority = sorted(candidates, key=lambda d: (-priority_score(d), str(d.get("id", ""))))
+    for s in by_priority:
         if len(selected) >= star_count:
             break
         add(s)
@@ -157,7 +169,7 @@ def log_selection(selected: list[dict], strategy: str, total_unverified: int):
         "strategy": strategy,
         "selected_count": len(selected),
         "total_unverified": total_unverified,
-        "star_range": f"{min(int(s.get('stars') or 0) for s in selected)}-{max(int(s.get('stars') or 0) for s in selected)}" if selected else "0-0",
+        "priority_range": f"{min(priority_score(s) for s in selected)}-{max(priority_score(s) for s in selected)}" if selected else "0-0",
         "selected_ids": [s.get("id", "") for s in selected],
     }
 
@@ -202,7 +214,7 @@ def main():
         print(f"{'='*80}")
 
         # Stats
-        stars = [int(s.get("stars") or 0) for s in selected]
+        stars = [priority_score(s) for s in selected]
         tags_counter = collections.Counter()
         types = collections.Counter()
         for s in selected:
@@ -215,13 +227,16 @@ def main():
                 if isinstance(t, str) and t in ("dev", "data", "integ", "util", "security", "prod"):
                     tags_counter[t] += 1
 
-        print(f"  Stars range: {min(stars)}-{max(stars)} (avg {sum(stars)/len(stars):.0f})")
+        print(f"  Priority range: {min(stars)}-{max(stars)} (avg {sum(stars)/len(stars):.0f})")
         print(f"  Types: {dict(types)}")
         print(f"  Domains: {dict(tags_counter.most_common())}")
-        print(f"\n  Top 10 by stars:")
-        selected_by_stars = sorted(selected, key=lambda d: -int(d.get("stars") or 0))
-        for s in selected_by_stars[:10]:
-            print(f"    {s.get('id',''):45s} ★{int(s.get('stars') or 0):>6,}  {s.get('name','')}")
+        print(f"\n  Top 10 by priority (★=stars, ↓=installs):")
+        selected_by_prio = sorted(selected, key=lambda d: -priority_score(d))
+        for s in selected_by_prio[:10]:
+            st = int(s.get('stars') or 0)
+            ins = int(s.get('installs') or 0)
+            indicator = f"★{st:>6,}" if st > 0 else f"↓{ins:>6,}"
+            print(f"    {s.get('id',''):45s} {indicator}  {s.get('name','')}")
         print(f"\n  IDs (for --skill-ids):")
         print(f"  {','.join(s.get('id','') for s in selected[:5])},...({len(selected)} total)")
 

@@ -1,7 +1,7 @@
 {
   "id": "doc-smith-0c8b077b",
   "name": "doc-smith",
-  "description": "从工作区数据源生成和更新全面的文档，包括代码仓库、文本文件和媒体资源。当用户请求以下操作时使用此技能：(1) 从代码或文件创建或生成文档，(2) 构建文档结构或文档详情，(3) 更新、修改或改进已有文档，(4) 重写文档的特定章节或段落，(5) 处理 changeset 文件或 PATCH 标记的修改请求。支持技术文档、用户指南、API 参考和一般文档需求的生成与维护。",
+  "description": "\u4ece\u5de5\u4f5c\u533a\u6570\u636e\u6e90\u751f\u6210\u548c\u66f4\u65b0\u5168\u9762\u7684\u6587\u6863\uff0c\u5305\u62ec\u4ee3\u7801\u4ed3\u5e93\u3001\u6587\u672c\u6587\u4ef6\u548c\u5a92\u4f53\u8d44\u6e90\u3002\u5f53\u7528\u6237\u8bf7\u6c42\u4ee5\u4e0b\u64cd\u4f5c\u65f6\u4f7f\u7528\u6b64\u6280\u80fd\uff1a(1) \u4ece\u4ee3\u7801\u6216\u6587\u4ef6\u521b\u5efa\u6216\u751f\u6210\u6587\u6863\uff0c(2) \u6784\u5efa\u6587\u6863\u7ed3\u6784\u6216\u6587\u6863\u8be6\u60c5\uff0c(3) \u66f4\u65b0\u3001\u4fee\u6539\u6216\u6539\u8fdb\u5df2\u6709\u6587\u6863\uff0c(4) \u91cd\u5199\u6587\u6863\u7684\u7279\u5b9a\u7ae0\u8282\u6216\u6bb5\u843d\uff0c(5) \u5904\u7406 changeset \u6587\u4ef6\u6216 PATCH \u6807\u8bb0\u7684\u4fee\u6539\u8bf7\u6c42\u3002\u652f\u6301\u6280\u672f\u6587\u6863\u3001\u7528\u6237\u6307\u5357\u3001API \u53c2\u8003\u548c\u4e00\u822c\u6587\u6863\u9700\u6c42\u7684\u751f\u6210\u4e0e\u7ef4\u62a4\u3002",
   "repo_url": "https://github.com/aigne-io/aigne-doc-smith",
   "source_hub": "skillsmp",
   "skill_type": "agent_skill",
@@ -20,5 +20,6 @@
   "scan_summary": null,
   "repo_status": "available",
   "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
-  "repo_check_error": null
+  "repo_check_error": null,
+  "installs": 155
 }

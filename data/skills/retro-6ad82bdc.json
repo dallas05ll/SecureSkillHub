@@ -1,7 +1,7 @@
 {
   "id": "retro-6ad82bdc",
   "name": "retro",
-  "description": "PRコメントやセッション発見を分析し、CLAUDE.md・skills・agents・memoryに学びを自動反映する振り返りスキル。セッション終了時やPRレビュー後に使う。",
+  "description": "PR\u30b3\u30e1\u30f3\u30c8\u3084\u30bb\u30c3\u30b7\u30e7\u30f3\u767a\u898b\u3092\u5206\u6790\u3057\u3001CLAUDE.md\u30fbskills\u30fbagents\u30fbmemory\u306b\u5b66\u3073\u3092\u81ea\u52d5\u53cd\u6620\u3059\u308b\u632f\u308a\u8fd4\u308a\u30b9\u30ad\u30eb\u3002\u30bb\u30c3\u30b7\u30e7\u30f3\u7d42\u4e86\u6642\u3084PR\u30ec\u30d3\u30e5\u30fc\u5f8c\u306b\u4f7f\u3046\u3002",
   "repo_url": "https://github.com/team-mirai-volunteer/action-board",
   "source_hub": "skillsmp",
   "skill_type": "agent_skill",
@@ -20,5 +20,6 @@
   "scan_summary": null,
   "repo_status": "available",
   "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
-  "repo_check_error": null
+  "repo_check_error": null,
+  "installs": 83
 }

@@ -1,7 +1,7 @@
 {
   "id": "a11y-ally-25506f04",
   "name": "a11y-ally",
-  "description": "Comprehensive WCAG accessibility auditing with multi-tool testing (axe-core + pa11y + Lighthouse), TRUE PARALLEL execution with Promise.allSettled, graceful degradation, retry with backoff, context-aware remediation, learning integration, and video accessibility. Uses 3-tier browser cascade: Vibium → agent-browser → Playwright+Stealth.",
+  "description": "Comprehensive WCAG accessibility auditing with multi-tool testing (axe-core + pa11y + Lighthouse), TRUE PARALLEL execution with Promise.allSettled, graceful degradation, retry with backoff, context-aware remediation, learning integration, and video accessibility. Uses 3-tier browser cascade: Vibium \u2192 agent-browser \u2192 Playwright+Stealth.",
   "repo_url": "https://github.com/proffesor-for-testing/agentic-qe",
   "source_hub": "skillsmp",
   "skill_type": "agent_skill",
@@ -103,5 +103,6 @@
       "override_reason": "Deterministic override: high-risk obfuscation detected."
     },
     "manager_summary": "5/5 agents completed. Score: 15/100, Risk: critical. 0 mismatches, 1690 scanner findings. Rejected at 90% confidence. Safety overrides triggered."
-  }
+  },
+  "installs": 192
 }

@@ -1,7 +1,7 @@
 {
   "id": "deep-research-9d463176",
   "name": "deep-research",
-  "description": "深度调研方法论（8步法）：将模糊主题转化为高质量调研报告。\n自动执行问题拆解、资料分层、事实抽取、框架对比、推导验证，输出可交付的结构化报告。\n触发词：\n- \"深度调研\"、\"深度研究\"、\"深入分析\"\n- \"帮我调研\"、\"调研一下\"、\"研究一下\"\n- \"对比分析\"、\"概念对比\"、\"技术对比\"\n- \"写调研报告\"、\"出调研报告\"\n注意：如果用户需要的是可视化图谱而非报告，请使用 research-to-diagram skill。",
+  "description": "\u6df1\u5ea6\u8c03\u7814\u65b9\u6cd5\u8bba\uff088\u6b65\u6cd5\uff09\uff1a\u5c06\u6a21\u7cca\u4e3b\u9898\u8f6c\u5316\u4e3a\u9ad8\u8d28\u91cf\u8c03\u7814\u62a5\u544a\u3002\n\u81ea\u52a8\u6267\u884c\u95ee\u9898\u62c6\u89e3\u3001\u8d44\u6599\u5206\u5c42\u3001\u4e8b\u5b9e\u62bd\u53d6\u3001\u6846\u67b6\u5bf9\u6bd4\u3001\u63a8\u5bfc\u9a8c\u8bc1\uff0c\u8f93\u51fa\u53ef\u4ea4\u4ed8\u7684\u7ed3\u6784\u5316\u62a5\u544a\u3002\n\u89e6\u53d1\u8bcd\uff1a\n- \"\u6df1\u5ea6\u8c03\u7814\"\u3001\"\u6df1\u5ea6\u7814\u7a76\"\u3001\"\u6df1\u5165\u5206\u6790\"\n- \"\u5e2e\u6211\u8c03\u7814\"\u3001\"\u8c03\u7814\u4e00\u4e0b\"\u3001\"\u7814\u7a76\u4e00\u4e0b\"\n- \"\u5bf9\u6bd4\u5206\u6790\"\u3001\"\u6982\u5ff5\u5bf9\u6bd4\"\u3001\"\u6280\u672f\u5bf9\u6bd4\"\n- \"\u5199\u8c03\u7814\u62a5\u544a\"\u3001\"\u51fa\u8c03\u7814\u62a5\u544a\"\n\u6ce8\u610f\uff1a\u5982\u679c\u7528\u6237\u9700\u8981\u7684\u662f\u53ef\u89c6\u5316\u56fe\u8c31\u800c\u975e\u62a5\u544a\uff0c\u8bf7\u4f7f\u7528 research-to-diagram skill\u3002",
   "repo_url": "https://github.com/wshuyi/deep-research",
   "source_hub": "skillsmp",
   "skill_type": "agent_skill",
@@ -20,5 +20,6 @@
   "scan_summary": null,
   "repo_status": "available",
   "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
-  "repo_check_error": null
+  "repo_check_error": null,
+  "installs": 236
 }

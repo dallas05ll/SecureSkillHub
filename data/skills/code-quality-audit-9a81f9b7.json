@@ -1,7 +1,7 @@
 {
   "id": "code-quality-audit-9a81f9b7",
   "name": "code-quality-audit",
-  "description": "Analisa padrões de qualidade de código e detecta code smells, complexidade elevada e duplicação.",
+  "description": "Analisa padr\u00f5es de qualidade de c\u00f3digo e detecta code smells, complexidade elevada e duplica\u00e7\u00e3o.",
   "repo_url": "https://github.com/glaucia86/repocheckai",
   "source_hub": "skillsmp",
   "skill_type": "agent_skill",
@@ -20,5 +20,6 @@
   "scan_summary": null,
   "repo_status": "available",
   "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
-  "repo_check_error": null
+  "repo_check_error": null,
+  "installs": 74
 }

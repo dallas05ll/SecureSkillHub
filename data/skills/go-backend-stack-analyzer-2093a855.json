@@ -1,7 +1,7 @@
 {
   "id": "go-backend-stack-analyzer-2093a855",
   "name": "go-backend-stack-analyzer",
-  "description": "分析 Go Web 后端仓库，识别技术栈/组件（Web框架、API、数据库、任务、消息队列、gRPC、可观测性等），并输出包含判定原因与关键代码行号的 JSON 概要；适用于需要快速判断一个 Go 服务用了哪些组件及依据在哪些文件时。",
+  "description": "\u5206\u6790 Go Web \u540e\u7aef\u4ed3\u5e93\uff0c\u8bc6\u522b\u6280\u672f\u6808/\u7ec4\u4ef6\uff08Web\u6846\u67b6\u3001API\u3001\u6570\u636e\u5e93\u3001\u4efb\u52a1\u3001\u6d88\u606f\u961f\u5217\u3001gRPC\u3001\u53ef\u89c2\u6d4b\u6027\u7b49\uff09\uff0c\u5e76\u8f93\u51fa\u5305\u542b\u5224\u5b9a\u539f\u56e0\u4e0e\u5173\u952e\u4ee3\u7801\u884c\u53f7\u7684 JSON \u6982\u8981\uff1b\u9002\u7528\u4e8e\u9700\u8981\u5feb\u901f\u5224\u65ad\u4e00\u4e2a Go \u670d\u52a1\u7528\u4e86\u54ea\u4e9b\u7ec4\u4ef6\u53ca\u4f9d\u636e\u5728\u54ea\u4e9b\u6587\u4ef6\u65f6\u3002",
   "repo_url": "https://github.com/weibaohui/opendeepwiki",
   "source_hub": "skillsmp",
   "skill_type": "agent_skill",
@@ -23,5 +23,6 @@
   "scan_summary": null,
   "repo_status": "available",
   "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
-  "repo_check_error": null
+  "repo_check_error": null,
+  "installs": 20
 }

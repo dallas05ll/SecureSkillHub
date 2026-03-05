@@ -1,7 +1,7 @@
 {
   "id": "iphoneclaw-dbbd791f",
   "name": "iphoneclaw",
-  "description": "Operate an iPhone through macOS iPhone Mirroring. Use when the user asks to perform tasks on their iPhone — opening apps, tapping buttons, typing text, scrolling, navigating UI, or automating multi-step phone workflows. Launches a background vision-model worker and supervises it via text-only API.",
+  "description": "Operate an iPhone through macOS iPhone Mirroring. Use when the user asks to perform tasks on their iPhone \u2014 opening apps, tapping buttons, typing text, scrolling, navigating UI, or automating multi-step phone workflows. Launches a background vision-model worker and supervises it via text-only API.",
   "repo_url": "https://github.com/noedgeai/iphoneclaw",
   "source_hub": "skillsmp",
   "skill_type": "agent_skill",
@@ -21,5 +21,6 @@
   "scan_summary": null,
   "repo_status": "available",
   "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
-  "repo_check_error": null
+  "repo_check_error": null,
+  "installs": 40
 }

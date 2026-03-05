@@ -1,7 +1,7 @@
 {
   "id": "worktree-task-e4b9c6ab",
   "name": "worktree-task",
-  "description": "使用 git worktree + 背景代理会话管理大型任务（默认启动 Claude Code；可用 --codex 快速切到 Codex CLI，或通过 --agent-cmd 指定任意命令）。适合用户希望在不阻塞当前会话的情况下执行大型或多步骤任务。",
+  "description": "\u4f7f\u7528 git worktree + \u80cc\u666f\u4ee3\u7406\u4f1a\u8bdd\u7ba1\u7406\u5927\u578b\u4efb\u52a1\uff08\u9ed8\u8ba4\u542f\u52a8 Claude Code\uff1b\u53ef\u7528 --codex \u5feb\u901f\u5207\u5230 Codex CLI\uff0c\u6216\u901a\u8fc7 --agent-cmd \u6307\u5b9a\u4efb\u610f\u547d\u4ee4\uff09\u3002\u9002\u5408\u7528\u6237\u5e0c\u671b\u5728\u4e0d\u963b\u585e\u5f53\u524d\u4f1a\u8bdd\u7684\u60c5\u51b5\u4e0b\u6267\u884c\u5927\u578b\u6216\u591a\u6b65\u9aa4\u4efb\u52a1\u3002",
   "repo_url": "https://github.com/ourines/worktree-task-plugin",
   "source_hub": "skillsmp",
   "skill_type": "agent_skill",
@@ -20,5 +20,6 @@
   "scan_summary": null,
   "repo_status": "available",
   "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
-  "repo_check_error": null
+  "repo_check_error": null,
+  "installs": 37
 }

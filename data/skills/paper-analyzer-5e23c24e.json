@@ -1,7 +1,7 @@
 {
   "id": "paper-analyzer-5e23c24e",
   "name": "paper-analyzer",
-  "description": "将学术论文转化为深度技术文章，支持多种写作风格选择。\n使用 MinerU Cloud API 高精度解析 PDF，自动提取图片、表格、公式。\n可选公式讲解、GitHub 代码分析，生成 Markdown 和 HTML 格式。",
+  "description": "\u5c06\u5b66\u672f\u8bba\u6587\u8f6c\u5316\u4e3a\u6df1\u5ea6\u6280\u672f\u6587\u7ae0\uff0c\u652f\u6301\u591a\u79cd\u5199\u4f5c\u98ce\u683c\u9009\u62e9\u3002\n\u4f7f\u7528 MinerU Cloud API \u9ad8\u7cbe\u5ea6\u89e3\u6790 PDF\uff0c\u81ea\u52a8\u63d0\u53d6\u56fe\u7247\u3001\u8868\u683c\u3001\u516c\u5f0f\u3002\n\u53ef\u9009\u516c\u5f0f\u8bb2\u89e3\u3001GitHub \u4ee3\u7801\u5206\u6790\uff0c\u751f\u6210 Markdown \u548c HTML \u683c\u5f0f\u3002",
   "repo_url": "https://github.com/zsyggg/paper-craft-skills",
   "source_hub": "skillsmp",
   "skill_type": "agent_skill",
@@ -25,5 +25,6 @@
   "scan_summary": null,
   "repo_status": "available",
   "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
-  "repo_check_error": null
+  "repo_check_error": null,
+  "installs": 21
 }

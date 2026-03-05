@@ -1,7 +1,7 @@
 {
   "id": "bcra-central-deudores-059f2017",
   "name": "bcra-central-deudores",
-  "description": "Query the BCRA (Banco Central de la República Argentina) Central de Deudores API to check the credit status of individuals or companies in Argentina's financial system. Use when the user asks to check someone's debt situation, credit report, financial standing, rejected checks, or credit history using a CUIT/CUIL/CDI number. Also use when the user mentions \"central de deudores\", \"situación crediticia\", \"deudas BCRA\", \"cheques rechazados\", \"historial crediticio\", \"informe crediticio\", or wants...",
+  "description": "Query the BCRA (Banco Central de la Rep\u00fablica Argentina) Central de Deudores API to check the credit status of individuals or companies in Argentina's financial system. Use when the user asks to check someone's debt situation, credit report, financial standing, rejected checks, or credit history using a CUIT/CUIL/CDI number. Also use when the user mentions \"central de deudores\", \"situaci\u00f3n crediticia\", \"deudas BCRA\", \"cheques rechazados\", \"historial crediticio\", \"informe crediticio\", or wants...",
   "repo_url": "https://github.com/ferminrp/agent-skills",
   "source_hub": "skillsmp",
   "skill_type": "agent_skill",
@@ -20,5 +20,6 @@
   "scan_summary": null,
   "repo_status": "available",
   "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
-  "repo_check_error": null
+  "repo_check_error": null,
+  "installs": 11
 }

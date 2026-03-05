@@ -43,6 +43,13 @@
       "category": "workflow_enforcement",
       "description": "VM must NEVER self-select verification targets. SM must select via sm_select_targets.py --output-ids, then VM receives --skill-ids. Prior batches 1-7 used VM load_candidates() (star-sorted, not random, but bypassed SM). Enforced 2026-03-04.",
       "date": "2026-03-04"
+    },
+    {
+      "id": "pm-d-007",
+      "title": "Unified priority: stars + installs for SM selection",
+      "category": "catalog",
+      "description": "SM selection uses priority_score() = max(stars, installs). MCP skills prioritized by GitHub stars, agent skills by skillsmp install counts. Both signals indicate real usage. Extracted installs from tags into proper field for 4,801 agent skills.",
+      "date": "2026-03-04"
     }
   ]
 }

@@ -1,7 +1,7 @@
 {
   "id": "ai-notes-f9d1226e",
   "name": "ai-notes",
-  "description": "Manage AI notes in ~/Compost/AI-Notes - read existing notes, list recent documents, and write new implementation plans (仕様書, 計画書, 設計書). Auto-triggers when reading from or writing to notes, specifications, or plans.",
+  "description": "Manage AI notes in ~/Compost/AI-Notes - read existing notes, list recent documents, and write new implementation plans (\u4ed5\u69d8\u66f8, \u8a08\u753b\u66f8, \u8a2d\u8a08\u66f8). Auto-triggers when reading from or writing to notes, specifications, or plans.",
   "repo_url": "https://github.com/lambdalisue/dotfiles",
   "source_hub": "skillsmp",
   "skill_type": "agent_skill",
@@ -144,5 +144,6 @@
       "override_reason": null
     },
     "manager_summary": "5/5 agents completed. Score: 94/100, Risk: medium. 0 mismatches, 4 scanner findings. Approved at 94% confidence. No safety overrides."
-  }
+  },
+  "installs": 41
 }

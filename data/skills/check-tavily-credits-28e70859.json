@@ -1,7 +1,7 @@
 {
   "id": "check-tavily-credits-28e70859",
   "name": "check-tavily-credits",
-  "description": "Tavily APIキーの残りクレジットを確認（.envから取得）。※アプリの利用統計は /check-app-stats を使用",
+  "description": "Tavily API\u30ad\u30fc\u306e\u6b8b\u308a\u30af\u30ec\u30b8\u30c3\u30c8\u3092\u78ba\u8a8d\uff08.env\u304b\u3089\u53d6\u5f97\uff09\u3002\u203b\u30a2\u30d7\u30ea\u306e\u5229\u7528\u7d71\u8a08\u306f /check-app-stats \u3092\u4f7f\u7528",
   "repo_url": "https://github.com/minorun365/my-claude-code-settings",
   "source_hub": "skillsmp",
   "skill_type": "agent_skill",
@@ -20,5 +20,6 @@
   "scan_summary": null,
   "repo_status": "available",
   "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
-  "repo_check_error": null
+  "repo_check_error": null,
+  "installs": 56
 }

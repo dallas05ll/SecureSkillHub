@@ -1,7 +1,7 @@
 {
   "id": "batch-research-3cb5d8eb",
   "name": "batch-research",
-  "description": "批量数据采集技能，负责分批并发调度 researcher agent 抓取所有数据源。",
+  "description": "\u6279\u91cf\u6570\u636e\u91c7\u96c6\u6280\u80fd\uff0c\u8d1f\u8d23\u5206\u6279\u5e76\u53d1\u8c03\u5ea6 researcher agent \u6293\u53d6\u6240\u6709\u6570\u636e\u6e90\u3002",
   "repo_url": "https://github.com/miantiao-me/aigc-weekly",
   "source_hub": "skillsmp",
   "skill_type": "agent_skill",
@@ -20,5 +20,6 @@
   "scan_summary": null,
   "repo_status": "available",
   "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
-  "repo_check_error": null
+  "repo_check_error": null,
+  "installs": 496
 }

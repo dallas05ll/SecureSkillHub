@@ -1,7 +1,7 @@
 {
   "id": "agentsbox-6a5aa6ab",
   "name": "agentsbox",
-  "description": "Discovers and executes MCP tools on-demand via agentsbox_* tools. Use when you need to find the right tool, when a user asks to use a tool you don’t have in context, or when troubleshooting MCP/tool availability.",
+  "description": "Discovers and executes MCP tools on-demand via agentsbox_* tools. Use when you need to find the right tool, when a user asks to use a tool you don\u2019t have in context, or when troubleshooting MCP/tool availability.",
   "repo_url": "https://github.com/dicklesworthstone/pi_agent_rust",
   "source_hub": "skillsmp",
   "skill_type": "agent_skill",
@@ -267,5 +267,6 @@
       "original_status": "manual_review",
       "original_score": 60
     }
-  }
+  },
+  "installs": 52
 }

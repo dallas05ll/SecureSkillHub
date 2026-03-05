@@ -1,7 +1,7 @@
 {
   "id": "creating-server-tests-770e3307",
   "name": "creating-server-tests",
-  "description": "moorestech_serverのNUnitテストを作成するスキル。テストの雛形生成、初期化パターン、命名規約、 テスト用IDの使い方を含む。 Use when: (1) moorestech_serverに新しいテストクラスを追加する時 (2) 「テストを書いて」「テストを作成して」とサーバー側のテスト作成を依頼された時 (3) 既存機能のテストカバレッジを追加する時 (4) CombinedTest/UnitTest/PacketTestのいずれかを作成する時",
+  "description": "moorestech_server\u306eNUnit\u30c6\u30b9\u30c8\u3092\u4f5c\u6210\u3059\u308b\u30b9\u30ad\u30eb\u3002\u30c6\u30b9\u30c8\u306e\u96db\u5f62\u751f\u6210\u3001\u521d\u671f\u5316\u30d1\u30bf\u30fc\u30f3\u3001\u547d\u540d\u898f\u7d04\u3001 \u30c6\u30b9\u30c8\u7528ID\u306e\u4f7f\u3044\u65b9\u3092\u542b\u3080\u3002 Use when: (1) moorestech_server\u306b\u65b0\u3057\u3044\u30c6\u30b9\u30c8\u30af\u30e9\u30b9\u3092\u8ffd\u52a0\u3059\u308b\u6642 (2) \u300c\u30c6\u30b9\u30c8\u3092\u66f8\u3044\u3066\u300d\u300c\u30c6\u30b9\u30c8\u3092\u4f5c\u6210\u3057\u3066\u300d\u3068\u30b5\u30fc\u30d0\u30fc\u5074\u306e\u30c6\u30b9\u30c8\u4f5c\u6210\u3092\u4f9d\u983c\u3055\u308c\u305f\u6642 (3) \u65e2\u5b58\u6a5f\u80fd\u306e\u30c6\u30b9\u30c8\u30ab\u30d0\u30ec\u30c3\u30b8\u3092\u8ffd\u52a0\u3059\u308b\u6642 (4) CombinedTest/UnitTest/PacketTest\u306e\u3044\u305a\u308c\u304b\u3092\u4f5c\u6210\u3059\u308b\u6642",
   "repo_url": "https://github.com/moorestech/moorestech",
   "source_hub": "skillsmp",
   "skill_type": "agent_skill",
@@ -20,5 +20,6 @@
   "scan_summary": null,
   "repo_status": "available",
   "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
-  "repo_check_error": null
+  "repo_check_error": null,
+  "installs": 61
 }

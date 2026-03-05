@@ -1,7 +1,7 @@
 {
   "id": "git-local-checkpoint-458aad05",
   "name": "git-local-checkpoint",
-  "description": "自动监控代码变更。当代码修改完成后，自动创建本地 Git 存档 (Commit)。分析历史风格生成 Commit Message。严禁推送。",
+  "description": "\u81ea\u52a8\u76d1\u63a7\u4ee3\u7801\u53d8\u66f4\u3002\u5f53\u4ee3\u7801\u4fee\u6539\u5b8c\u6210\u540e\uff0c\u81ea\u52a8\u521b\u5efa\u672c\u5730 Git \u5b58\u6863 (Commit)\u3002\u5206\u6790\u5386\u53f2\u98ce\u683c\u751f\u6210 Commit Message\u3002\u4e25\u7981\u63a8\u9001\u3002",
   "repo_url": "https://github.com/ryderwe/agent-skill-git-checkpoint",
   "source_hub": "skillsmp",
   "skill_type": "agent_skill",
@@ -21,5 +21,6 @@
   "scan_summary": null,
   "repo_status": "available",
   "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
-  "repo_check_error": null
+  "repo_check_error": null,
+  "installs": 13
 }

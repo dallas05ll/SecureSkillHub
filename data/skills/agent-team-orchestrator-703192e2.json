@@ -1,7 +1,7 @@
 {
   "id": "agent-team-orchestrator-703192e2",
   "name": "agent-team-orchestrator",
-  "description": "Agent Teams 智能编排决策引擎。自动分析任务复杂度，判断使用 Subagent 还是 Agent Teams。\n\n触发场景：\n(1) 任务涉及多角度并行分析（如代码审查、竞争假说调试）\n(2) 需要成员之间互相通信、质疑、协作\n(3) 跨层开发（前端/后端/测试各自负责）\n(4) 用户明确要求\"创建团队\"、\"用 agent teams\"\n(5) 任务描述包含\"并行\"、\"同时\"、\"多人\"、\"协作\"等关键词\n(6) 使用 /team 命令",
+  "description": "Agent Teams \u667a\u80fd\u7f16\u6392\u51b3\u7b56\u5f15\u64ce\u3002\u81ea\u52a8\u5206\u6790\u4efb\u52a1\u590d\u6742\u5ea6\uff0c\u5224\u65ad\u4f7f\u7528 Subagent \u8fd8\u662f Agent Teams\u3002\n\n\u89e6\u53d1\u573a\u666f\uff1a\n(1) \u4efb\u52a1\u6d89\u53ca\u591a\u89d2\u5ea6\u5e76\u884c\u5206\u6790\uff08\u5982\u4ee3\u7801\u5ba1\u67e5\u3001\u7ade\u4e89\u5047\u8bf4\u8c03\u8bd5\uff09\n(2) \u9700\u8981\u6210\u5458\u4e4b\u95f4\u4e92\u76f8\u901a\u4fe1\u3001\u8d28\u7591\u3001\u534f\u4f5c\n(3) \u8de8\u5c42\u5f00\u53d1\uff08\u524d\u7aef/\u540e\u7aef/\u6d4b\u8bd5\u5404\u81ea\u8d1f\u8d23\uff09\n(4) \u7528\u6237\u660e\u786e\u8981\u6c42\"\u521b\u5efa\u56e2\u961f\"\u3001\"\u7528 agent teams\"\n(5) \u4efb\u52a1\u63cf\u8ff0\u5305\u542b\"\u5e76\u884c\"\u3001\"\u540c\u65f6\"\u3001\"\u591a\u4eba\"\u3001\"\u534f\u4f5c\"\u7b49\u5173\u952e\u8bcd\n(6) \u4f7f\u7528 /team \u547d\u4ee4",
   "repo_url": "https://github.com/nanmicoder/claude-code-skills",
   "source_hub": "skillsmp",
   "skill_type": "agent_skill",
@@ -211,5 +211,6 @@
       "override_reason": null
     },
     "manager_summary": "5/5 agents completed. Score: 81/100, Risk: medium. 0 mismatches, 13 scanner findings. Approved at 81% confidence. No safety overrides."
-  }
+  },
+  "installs": 34
 }

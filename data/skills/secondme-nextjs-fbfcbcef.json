@@ -1,7 +1,7 @@
 {
   "id": "secondme-nextjs-fbfcbcef",
   "name": "secondme-nextjs",
-  "description": "基于配置和需求生成 Next.js 项目，支持 --quick 快速模式跳过 PRD 阶段",
+  "description": "\u57fa\u4e8e\u914d\u7f6e\u548c\u9700\u6c42\u751f\u6210 Next.js \u9879\u76ee\uff0c\u652f\u6301 --quick \u5feb\u901f\u6a21\u5f0f\u8df3\u8fc7 PRD \u9636\u6bb5",
   "repo_url": "https://github.com/mindverse/second-me-skills",
   "source_hub": "skillsmp",
   "skill_type": "agent_skill",
@@ -25,5 +25,6 @@
   "scan_summary": null,
   "repo_status": "available",
   "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
-  "repo_check_error": null
+  "repo_check_error": null,
+  "installs": 63
 }

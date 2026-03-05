@@ -1,7 +1,7 @@
 {
   "id": "gemini-openai-api-a0816fc0",
   "name": "gemini-openai-api",
-  "description": "Gemini 模型通过 OpenAI 兼容 API 接入指南。包含：(1) 辅助 API 配置（summary/correction/emotion/vision），(2) extra_body 格式用于控制 thinking，(3) 响应格式处理（markdown 代码块）。当需要将 Gemini 作为辅助模型接入、配置 thinking 参数、或处理 Gemini API 返回格式时使用。",
+  "description": "Gemini \u6a21\u578b\u901a\u8fc7 OpenAI \u517c\u5bb9 API \u63a5\u5165\u6307\u5357\u3002\u5305\u542b\uff1a(1) \u8f85\u52a9 API \u914d\u7f6e\uff08summary/correction/emotion/vision\uff09\uff0c(2) extra_body \u683c\u5f0f\u7528\u4e8e\u63a7\u5236 thinking\uff0c(3) \u54cd\u5e94\u683c\u5f0f\u5904\u7406\uff08markdown \u4ee3\u7801\u5757\uff09\u3002\u5f53\u9700\u8981\u5c06 Gemini \u4f5c\u4e3a\u8f85\u52a9\u6a21\u578b\u63a5\u5165\u3001\u914d\u7f6e thinking \u53c2\u6570\u3001\u6216\u5904\u7406 Gemini API \u8fd4\u56de\u683c\u5f0f\u65f6\u4f7f\u7528\u3002",
   "repo_url": "https://github.com/project-n-e-k-o/n.e.k.o",
   "source_hub": "skillsmp",
   "skill_type": "agent_skill",
@@ -24,5 +24,6 @@
   "scan_summary": null,
   "repo_status": "available",
   "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
-  "repo_check_error": null
+  "repo_check_error": null,
+  "installs": 657
 }

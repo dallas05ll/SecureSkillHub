@@ -1,7 +1,7 @@
 {
   "id": "label-27b9559b",
   "name": "label",
-  "description": "Auto-label frames with bounding boxes. Supports four modes — CUA+SAM (best accuracy, OpenAI CUA clicks + SAM segmentation), Gemini (native bbox detection), GPT vision (API fallback), or Codex vision subagents (no API keys). Parallel dispatch via git worktrees. Use after collecting frames.",
+  "description": "Auto-label frames with bounding boxes. Supports four modes \u2014 CUA+SAM (best accuracy, OpenAI CUA clicks + SAM segmentation), Gemini (native bbox detection), GPT vision (API fallback), or Codex vision subagents (no API keys). Parallel dispatch via git worktrees. Use after collecting frames.",
   "repo_url": "https://github.com/qtzx06/yolodex",
   "source_hub": "skillsmp",
   "skill_type": "agent_skill",
@@ -22,5 +22,6 @@
   "scan_summary": null,
   "repo_status": "available",
   "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
-  "repo_check_error": null
+  "repo_check_error": null,
+  "installs": 68
 }

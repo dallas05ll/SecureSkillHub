@@ -1,7 +1,7 @@
 {
   "id": "devbox-427add18",
   "name": "devbox",
-  "description": "devbox 開発環境管理ツールのリファレンス。Nix ベースの再現可能な開発環境、GitHub Actions での使用例を提供。",
+  "description": "devbox \u958b\u767a\u74b0\u5883\u7ba1\u7406\u30c4\u30fc\u30eb\u306e\u30ea\u30d5\u30a1\u30ec\u30f3\u30b9\u3002Nix \u30d9\u30fc\u30b9\u306e\u518d\u73fe\u53ef\u80fd\u306a\u958b\u767a\u74b0\u5883\u3001GitHub Actions \u3067\u306e\u4f7f\u7528\u4f8b\u3092\u63d0\u4f9b\u3002",
   "repo_url": "https://github.com/mizchi/chezmoi-dotfiles",
   "source_hub": "skillsmp",
   "skill_type": "agent_skill",
@@ -22,5 +22,6 @@
   "scan_summary": null,
   "repo_status": "available",
   "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
-  "repo_check_error": null
+  "repo_check_error": null,
+  "installs": 55
 }

@@ -1,7 +1,7 @@
 {
   "id": "prd-doc-writer-da27d7a1",
   "name": "prd-doc-writer",
-  "description": "Write and iteratively refine PRD/需求文档 with a story-driven structure and strict staged confirmations (journey map alignment, per-story single-point confirmation, final generation gate). Use when the user asks to 梳理/撰写/完善 PRD、需求文档、用户故事、验收标准，并希望用 ASCII 线框图与 Mermaid（流程图/状态图/时序图）来减少歧义、共同完成文档。",
+  "description": "Write and iteratively refine PRD/\u9700\u6c42\u6587\u6863 with a story-driven structure and strict staged confirmations (journey map alignment, per-story single-point confirmation, final generation gate). Use when the user asks to \u68b3\u7406/\u64b0\u5199/\u5b8c\u5584 PRD\u3001\u9700\u6c42\u6587\u6863\u3001\u7528\u6237\u6545\u4e8b\u3001\u9a8c\u6536\u6807\u51c6\uff0c\u5e76\u5e0c\u671b\u7528 ASCII \u7ebf\u6846\u56fe\u4e0e Mermaid\uff08\u6d41\u7a0b\u56fe/\u72b6\u6001\u56fe/\u65f6\u5e8f\u56fe\uff09\u6765\u51cf\u5c11\u6b67\u4e49\u3001\u5171\u540c\u5b8c\u6210\u6587\u6863\u3002",
   "repo_url": "https://github.com/yunshu0909/yunshu_skillshub",
   "source_hub": "skillsmp",
   "skill_type": "agent_skill",
@@ -21,5 +21,6 @@
   "scan_summary": null,
   "repo_status": "available",
   "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
-  "repo_check_error": null
+  "repo_check_error": null,
+  "installs": 182
 }

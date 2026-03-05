@@ -1,7 +1,7 @@
 {
   "id": "ai-content-publisher-c717bcb7",
   "name": "ai-content-publisher",
-  "description": "自动生成高质量AI内容并发布到微信公众号。根据时间段智能选择内容类型（早8点=新工具介绍、午12点=实战教程、晚6点=行业动态），过滤无用信息（融资/市值等），生成吸引人且符合实际的标题。目标读者：AI开发者、AI产品经理、AI创业者。每次生成1篇高质量文章。当用户说\"生成AI文章\"、\"写今天的公众号内容\"、\"AI内容自动发布\"时使用。复用 wechat-tech-writer、wechat-article-formatter、wechat-draft-publisher skills。",
+  "description": "\u81ea\u52a8\u751f\u6210\u9ad8\u8d28\u91cfAI\u5185\u5bb9\u5e76\u53d1\u5e03\u5230\u5fae\u4fe1\u516c\u4f17\u53f7\u3002\u6839\u636e\u65f6\u95f4\u6bb5\u667a\u80fd\u9009\u62e9\u5185\u5bb9\u7c7b\u578b\uff08\u65e98\u70b9=\u65b0\u5de5\u5177\u4ecb\u7ecd\u3001\u534812\u70b9=\u5b9e\u6218\u6559\u7a0b\u3001\u665a6\u70b9=\u884c\u4e1a\u52a8\u6001\uff09\uff0c\u8fc7\u6ee4\u65e0\u7528\u4fe1\u606f\uff08\u878d\u8d44/\u5e02\u503c\u7b49\uff09\uff0c\u751f\u6210\u5438\u5f15\u4eba\u4e14\u7b26\u5408\u5b9e\u9645\u7684\u6807\u9898\u3002\u76ee\u6807\u8bfb\u8005\uff1aAI\u5f00\u53d1\u8005\u3001AI\u4ea7\u54c1\u7ecf\u7406\u3001AI\u521b\u4e1a\u8005\u3002\u6bcf\u6b21\u751f\u62101\u7bc7\u9ad8\u8d28\u91cf\u6587\u7ae0\u3002\u5f53\u7528\u6237\u8bf4\"\u751f\u6210AI\u6587\u7ae0\"\u3001\"\u5199\u4eca\u5929\u7684\u516c\u4f17\u53f7\u5185\u5bb9\"\u3001\"AI\u5185\u5bb9\u81ea\u52a8\u53d1\u5e03\"\u65f6\u4f7f\u7528\u3002\u590d\u7528 wechat-tech-writer\u3001wechat-article-formatter\u3001wechat-draft-publisher skills\u3002",
   "repo_url": "https://github.com/solar-luna/fully-automatic-article-generation-skill",
   "source_hub": "skillsmp",
   "skill_type": "agent_skill",
@@ -269,5 +269,6 @@
       "original_status": "manual_review",
       "original_score": 60
     }
-  }
+  },
+  "installs": 15
 }

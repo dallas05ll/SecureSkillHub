@@ -1,7 +1,7 @@
 {
   "id": "agent-module-architecture-69645174",
   "name": "agent-module-architecture",
-  "description": "Agent 构建机模块架构指南（Go 语言），涵盖 Agent 启动流程、心跳机制、任务领取执行、升级更新、与 Dispatch 交互。当用户开发 Agent 功能、修改心跳逻辑、处理任务执行或实现 Agent 升级时使用。",
+  "description": "Agent \u6784\u5efa\u673a\u6a21\u5757\u67b6\u6784\u6307\u5357\uff08Go \u8bed\u8a00\uff09\uff0c\u6db5\u76d6 Agent \u542f\u52a8\u6d41\u7a0b\u3001\u5fc3\u8df3\u673a\u5236\u3001\u4efb\u52a1\u9886\u53d6\u6267\u884c\u3001\u5347\u7ea7\u66f4\u65b0\u3001\u4e0e Dispatch \u4ea4\u4e92\u3002\u5f53\u7528\u6237\u5f00\u53d1 Agent \u529f\u80fd\u3001\u4fee\u6539\u5fc3\u8df3\u903b\u8f91\u3001\u5904\u7406\u4efb\u52a1\u6267\u884c\u6216\u5b9e\u73b0 Agent \u5347\u7ea7\u65f6\u4f7f\u7528\u3002",
   "repo_url": "https://github.com/tencentblueking/bk-ci",
   "source_hub": "skillsmp",
   "skill_type": "agent_skill",
@@ -267,5 +267,6 @@
       "original_status": "manual_review",
       "original_score": 60
     }
-  }
+  },
+  "installs": 2496
 }

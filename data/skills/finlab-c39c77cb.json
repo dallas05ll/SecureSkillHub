@@ -1,7 +1,7 @@
 {
   "id": "finlab-c39c77cb",
   "name": "finlab",
-  "description": "Comprehensive guide for FinLab quantitative trading package for Taiwan stock market (台股). Use when working with trading strategies, backtesting, Taiwan stock data, FinLabDataFrame, factor analysis, stock selection, or when the user mentions FinLab, trading, 回測, 策略, 台股, quant trading, or stock market analysis. Includes data access, strategy development, backtesting workflows, and best practices.",
+  "description": "Comprehensive guide for FinLab quantitative trading package for Taiwan stock market (\u53f0\u80a1). Use when working with trading strategies, backtesting, Taiwan stock data, FinLabDataFrame, factor analysis, stock selection, or when the user mentions FinLab, trading, \u56de\u6e2c, \u7b56\u7565, \u53f0\u80a1, quant trading, or stock market analysis. Includes data access, strategy development, backtesting workflows, and best practices.",
   "repo_url": "https://github.com/koreal6803/finlab-ai",
   "source_hub": "skillsmp",
   "skill_type": "agent_skill",
@@ -21,5 +21,6 @@
   "scan_summary": null,
   "repo_status": "available",
   "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
-  "repo_check_error": null
+  "repo_check_error": null,
+  "installs": 279
 }

@@ -1,7 +1,7 @@
 {
   "id": "coderlm-8d17440a",
   "name": "coderlm",
-  "description": "Primary tool for all code navigation and reading in supported languages (Rust, Python, TypeScript, JavaScript, Go, Java, Scala, SQL). Use instead of Read, Grep, and Glob for finding symbols, reading function implementations, tracing callers, discovering tests, and understanding execution paths. Provides tree-sitter-backed indexing that returns exact source code — full function bodies, call sites with line numbers, test locations — without loading entire files into context. Use for: finding fu...",
+  "description": "Primary tool for all code navigation and reading in supported languages (Rust, Python, TypeScript, JavaScript, Go, Java, Scala, SQL). Use instead of Read, Grep, and Glob for finding symbols, reading function implementations, tracing callers, discovering tests, and understanding execution paths. Provides tree-sitter-backed indexing that returns exact source code \u2014 full function bodies, call sites with line numbers, test locations \u2014 without loading entire files into context. Use for: finding fu...",
   "repo_url": "https://github.com/jaredstewart/coderlm",
   "source_hub": "skillsmp",
   "skill_type": "agent_skill",
@@ -28,5 +28,6 @@
   "scan_summary": null,
   "repo_status": "available",
   "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
-  "repo_check_error": null
+  "repo_check_error": null,
+  "installs": 153
 }

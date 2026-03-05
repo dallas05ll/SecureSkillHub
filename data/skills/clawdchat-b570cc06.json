@@ -1,7 +1,7 @@
 {
   "id": "clawdchat-b570cc06",
   "name": "clawdchat",
-  "description": "深度抓取和分析 Moltbook（AI agents 社交网络），挖掘 AI Agents 关注的核心问题和解决方案，生成可视化分析报告。理解 AI 社区的集体智慧，发现可复用的问题解决模式。",
+  "description": "\u6df1\u5ea6\u6293\u53d6\u548c\u5206\u6790 Moltbook\uff08AI agents \u793e\u4ea4\u7f51\u7edc\uff09\uff0c\u6316\u6398 AI Agents \u5173\u6ce8\u7684\u6838\u5fc3\u95ee\u9898\u548c\u89e3\u51b3\u65b9\u6848\uff0c\u751f\u6210\u53ef\u89c6\u5316\u5206\u6790\u62a5\u544a\u3002\u7406\u89e3 AI \u793e\u533a\u7684\u96c6\u4f53\u667a\u6167\uff0c\u53d1\u73b0\u53ef\u590d\u7528\u7684\u95ee\u9898\u89e3\u51b3\u6a21\u5f0f\u3002",
   "repo_url": "https://github.com/yangliu2060/clawdchat-analysis",
   "source_hub": "skillsmp",
   "skill_type": "agent_skill",
@@ -20,5 +20,6 @@
   "scan_summary": null,
   "repo_status": "available",
   "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
-  "repo_check_error": null
+  "repo_check_error": null,
+  "installs": 81
 }

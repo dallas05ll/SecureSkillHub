@@ -1,7 +1,7 @@
 {
   "id": "maui-accessibility-96a4cc54",
   "name": "maui-accessibility",
-  "description": "Guide for making .NET MAUI apps accessible — screen reader support via SemanticProperties, heading levels, AutomationProperties visibility control, programmatic focus and announcements, and platform-specific gotchas for TalkBack, VoiceOver, and Narrator. USE FOR: \"add accessibility\", \"screen reader support\", \"SemanticProperties\", \"AutomationProperties\", \"TalkBack\", \"VoiceOver\", \"Narrator\", \"accessible MAUI\", \"heading levels\", \"semantic description\", \"announce to screen reader\", \"accessibility...",
+  "description": "Guide for making .NET MAUI apps accessible \u2014 screen reader support via SemanticProperties, heading levels, AutomationProperties visibility control, programmatic focus and announcements, and platform-specific gotchas for TalkBack, VoiceOver, and Narrator. USE FOR: \"add accessibility\", \"screen reader support\", \"SemanticProperties\", \"AutomationProperties\", \"TalkBack\", \"VoiceOver\", \"Narrator\", \"accessible MAUI\", \"heading levels\", \"semantic description\", \"announce to screen reader\", \"accessibility...",
   "repo_url": "https://github.com/davidortinau/maui-skills",
   "source_hub": "skillsmp",
   "skill_type": "agent_skill",
@@ -20,5 +20,6 @@
   "scan_summary": null,
   "repo_status": "available",
   "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
-  "repo_check_error": null
+  "repo_check_error": null,
+  "installs": 22
 }

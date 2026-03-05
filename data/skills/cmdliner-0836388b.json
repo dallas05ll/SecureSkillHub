@@ -1,7 +1,7 @@
 {
   "id": "cmdliner-0836388b",
   "name": "cmdliner",
-  "description": "Designing and implementing robust command-line interfaces using OCaml's cmdliner library, following Daniel Bünzli's design principles. Use when Claude needs to: (1) Design a new CLI or subcommand layout, (2) Implement cmdliner terms and combinators, (3) Enforce clear, predictable, orthogonal options, (4) Produce high-quality --help output and error messages, (5) Integrate cmdliner CLIs into dune-based OCaml projects.",
+  "description": "Designing and implementing robust command-line interfaces using OCaml's cmdliner library, following Daniel B\u00fcnzli's design principles. Use when Claude needs to: (1) Design a new CLI or subcommand layout, (2) Implement cmdliner terms and combinators, (3) Enforce clear, predictable, orthogonal options, (4) Produce high-quality --help output and error messages, (5) Integrate cmdliner CLIs into dune-based OCaml projects.",
   "repo_url": "https://github.com/aresbit/matebot",
   "source_hub": "skillsmp",
   "skill_type": "agent_skill",
@@ -21,5 +21,6 @@
   "scan_summary": null,
   "repo_status": "available",
   "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
-  "repo_check_error": null
+  "repo_check_error": null,
+  "installs": 38
 }

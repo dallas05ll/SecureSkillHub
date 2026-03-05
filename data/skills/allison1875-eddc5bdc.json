@@ -1,7 +1,7 @@
 {
   "id": "allison1875-eddc5bdc",
   "name": "allison1875",
-  "description": "Allison1875 是 Java AST 代码生成工具集。当用户需要\"创建 API 接口\"、\"生成实体/Mapper\"、\"条件查询数据库\"、\"多表关联查询\"时，根据场景选择对应的子技能：handler-transformer、persistence-generator、query-transformer、star-transformer。",
+  "description": "Allison1875 \u662f Java AST \u4ee3\u7801\u751f\u6210\u5de5\u5177\u96c6\u3002\u5f53\u7528\u6237\u9700\u8981\"\u521b\u5efa API \u63a5\u53e3\"\u3001\"\u751f\u6210\u5b9e\u4f53/Mapper\"\u3001\"\u6761\u4ef6\u67e5\u8be2\u6570\u636e\u5e93\"\u3001\"\u591a\u8868\u5173\u8054\u67e5\u8be2\"\u65f6\uff0c\u6839\u636e\u573a\u666f\u9009\u62e9\u5bf9\u5e94\u7684\u5b50\u6280\u80fd\uff1ahandler-transformer\u3001persistence-generator\u3001query-transformer\u3001star-transformer\u3002",
   "repo_url": "https://github.com/spldeolin/allison1875",
   "source_hub": "skillsmp",
   "skill_type": "agent_skill",
@@ -113,5 +113,6 @@
       "override_reason": null
     },
     "manager_summary": "5/5 agents completed. Score: 100/100, Risk: info. 0 mismatches, 0 scanner findings. Approved at 95% confidence. No safety overrides."
-  }
+  },
+  "installs": 17
 }

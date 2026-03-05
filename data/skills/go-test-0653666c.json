@@ -1,7 +1,7 @@
 {
   "id": "go-test-0653666c",
   "name": "go-test",
-  "description": "Go语言单元测试专家，帮助生成测试代码、运行测试、生成覆盖率报告，支持ARM64架构自适应",
+  "description": "Go\u8bed\u8a00\u5355\u5143\u6d4b\u8bd5\u4e13\u5bb6\uff0c\u5e2e\u52a9\u751f\u6210\u6d4b\u8bd5\u4ee3\u7801\u3001\u8fd0\u884c\u6d4b\u8bd5\u3001\u751f\u6210\u8986\u76d6\u7387\u62a5\u544a\uff0c\u652f\u6301ARM64\u67b6\u6784\u81ea\u9002\u5e94",
   "repo_url": "https://github.com/tencent/awesome-devbuddy",
   "source_hub": "skillsmp",
   "skill_type": "agent_skill",
@@ -20,5 +20,6 @@
   "scan_summary": null,
   "repo_status": "available",
   "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
-  "repo_check_error": null
+  "repo_check_error": null,
+  "installs": 10
 }

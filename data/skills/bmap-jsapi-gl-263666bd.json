@@ -1,7 +1,7 @@
 {
   "id": "bmap-jsapi-gl-263666bd",
   "name": "bmap-jsapi-gl",
-  "description": "百度地图 JSAPI WebGL (BMapGL) 开发指南。在编写、审查或调试使用百度地图 API的代码时应运用此技能。适用于涉及地图初始化、覆盖物渲染、图层管理、事件处理、控件交互或性能优化的任务。当用户提及 BMapGL、百度地图、jsapi-gl或相关地图开发需求时自动触发。",
+  "description": "\u767e\u5ea6\u5730\u56fe JSAPI WebGL (BMapGL) \u5f00\u53d1\u6307\u5357\u3002\u5728\u7f16\u5199\u3001\u5ba1\u67e5\u6216\u8c03\u8bd5\u4f7f\u7528\u767e\u5ea6\u5730\u56fe API\u7684\u4ee3\u7801\u65f6\u5e94\u8fd0\u7528\u6b64\u6280\u80fd\u3002\u9002\u7528\u4e8e\u6d89\u53ca\u5730\u56fe\u521d\u59cb\u5316\u3001\u8986\u76d6\u7269\u6e32\u67d3\u3001\u56fe\u5c42\u7ba1\u7406\u3001\u4e8b\u4ef6\u5904\u7406\u3001\u63a7\u4ef6\u4ea4\u4e92\u6216\u6027\u80fd\u4f18\u5316\u7684\u4efb\u52a1\u3002\u5f53\u7528\u6237\u63d0\u53ca BMapGL\u3001\u767e\u5ea6\u5730\u56fe\u3001jsapi-gl\u6216\u76f8\u5173\u5730\u56fe\u5f00\u53d1\u9700\u6c42\u65f6\u81ea\u52a8\u89e6\u53d1\u3002",
   "repo_url": "https://github.com/baidu-maps/jsapi-skills",
   "source_hub": "skillsmp",
   "skill_type": "agent_skill",
@@ -20,5 +20,6 @@
   "scan_summary": null,
   "repo_status": "available",
   "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
-  "repo_check_error": null
+  "repo_check_error": null,
+  "installs": 22
 }

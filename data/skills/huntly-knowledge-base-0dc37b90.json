@@ -1,7 +1,7 @@
 {
   "id": "huntly-knowledge-base-0dc37b90",
   "name": "huntly-knowledge-base",
-  "description": "This skill should be used when the user asks about their saved content, bookmarks, starred articles, highlights, reading history, tweets, or knowledge base in Huntly sqlite database. Triggers include \"我的收藏\", \"知识库\", \"我保存了什么\", \"my bookmarks\", \"my library\", \"what did I save\".",
+  "description": "This skill should be used when the user asks about their saved content, bookmarks, starred articles, highlights, reading history, tweets, or knowledge base in Huntly sqlite database. Triggers include \"\u6211\u7684\u6536\u85cf\", \"\u77e5\u8bc6\u5e93\", \"\u6211\u4fdd\u5b58\u4e86\u4ec0\u4e48\", \"my bookmarks\", \"my library\", \"what did I save\".",
   "repo_url": "https://github.com/lcomplete/huntly",
   "source_hub": "skillsmp",
   "skill_type": "agent_skill",
@@ -21,5 +21,6 @@
   "scan_summary": null,
   "repo_status": "available",
   "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
-  "repo_check_error": null
+  "repo_check_error": null,
+  "installs": 2291
 }

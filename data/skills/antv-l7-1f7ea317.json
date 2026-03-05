@@ -77,21 +77,21 @@
         "rule_id": "regex_js_fetch",
         "severity": "medium",
         "category": "network_ops",
-        "file": "legacy/dev-docs/使用方法.md",
+        "file": "legacy/dev-docs/\u4f7f\u7528\u65b9\u6cd5.md",
         "line": 35
       },
       {
         "rule_id": "regex_js_fetch",
         "severity": "medium",
         "category": "network_ops",
-        "file": "legacy/dev-docs/使用方法.md",
+        "file": "legacy/dev-docs/\u4f7f\u7528\u65b9\u6cd5.md",
         "line": 105
       },
       {
         "rule_id": "regex_js_fetch",
         "severity": "medium",
         "category": "network_ops",
-        "file": "legacy/dev-docs/使用方法.md",
+        "file": "legacy/dev-docs/\u4f7f\u7528\u65b9\u6cd5.md",
         "line": 160
       },
       {
@@ -268,5 +268,6 @@
       "original_status": "fail",
       "original_score": 15
     }
-  }
+  },
+  "installs": 3964
 }

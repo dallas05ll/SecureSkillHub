@@ -1,7 +1,7 @@
 {
   "id": "analyze-git-repo-b5732766",
   "name": "analyze-git-repo",
-  "description": "Analyze any Git repository in depth — understand architecture, debug across repo boundaries, review APIs, plan migrations, and evaluate libraries. Surfaces real function signatures, parameter types, return values, and source citations with exact file paths and line numbers. Eliminates hallucinated APIs by grounding agents in the actual codebase. Powered by Instagit. Triggers when: (1) querying or analyzing a remote Git repository, (2) understanding library APIs or architecture from source, (3...",
+  "description": "Analyze any Git repository in depth \u2014 understand architecture, debug across repo boundaries, review APIs, plan migrations, and evaluate libraries. Surfaces real function signatures, parameter types, return values, and source citations with exact file paths and line numbers. Eliminates hallucinated APIs by grounding agents in the actual codebase. Powered by Instagit. Triggers when: (1) querying or analyzing a remote Git repository, (2) understanding library APIs or architecture from source, (3...",
   "repo_url": "https://github.com/instalabsai/instagit",
   "source_hub": "skillsmp",
   "skill_type": "agent_skill",
@@ -157,5 +157,6 @@
       "override_reason": null
     },
     "manager_summary": "5/5 agents completed. Score: 94/100, Risk: medium. 0 mismatches, 6 scanner findings. Approved at 94% confidence. No safety overrides."
-  }
+  },
+  "installs": 15
 }

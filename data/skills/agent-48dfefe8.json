@@ -1,7 +1,7 @@
 {
   "id": "agent-48dfefe8",
   "name": "agent",
-  "description": "Use for PR/code reviews and any task that benefits from a dedicated tmux sub-agent with per-task git worktrees; default path for reviewing diffs (read diff → summarize → run checks/tests) with automated monitoring.",
+  "description": "Use for PR/code reviews and any task that benefits from a dedicated tmux sub-agent with per-task git worktrees; default path for reviewing diffs (read diff \u2192 summarize \u2192 run checks/tests) with automated monitoring.",
   "repo_url": "https://github.com/gakonst/dotfiles",
   "source_hub": "skillsmp",
   "skill_type": "agent_skill",
@@ -95,5 +95,6 @@
       "override_reason": null
     },
     "manager_summary": "5/5 agents completed. Score: 98/100, Risk: medium. 0 mismatches, 1 scanner findings. Approved at 95% confidence. No safety overrides."
-  }
+  },
+  "installs": 15
 }

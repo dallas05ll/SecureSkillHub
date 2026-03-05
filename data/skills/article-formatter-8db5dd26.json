@@ -1,7 +1,7 @@
 {
   "id": "article-formatter-8db5dd26",
   "name": "article-formatter",
-  "description": "为指定的 Markdown 文章添加完整的 frontmatter 头信息，包括 title、slug、category、readingTime 等字段。当用户需要格式化文章、添加文章头信息时使用此 Skill。",
+  "description": "\u4e3a\u6307\u5b9a\u7684 Markdown \u6587\u7ae0\u6dfb\u52a0\u5b8c\u6574\u7684 frontmatter \u5934\u4fe1\u606f\uff0c\u5305\u62ec title\u3001slug\u3001category\u3001readingTime \u7b49\u5b57\u6bb5\u3002\u5f53\u7528\u6237\u9700\u8981\u683c\u5f0f\u5316\u6587\u7ae0\u3001\u6dfb\u52a0\u6587\u7ae0\u5934\u4fe1\u606f\u65f6\u4f7f\u7528\u6b64 Skill\u3002",
   "repo_url": "https://github.com/flawlessv/spring-broken-ai-blog",
   "source_hub": "skillsmp",
   "skill_type": "agent_skill",
@@ -21,5 +21,6 @@
   "scan_summary": null,
   "repo_status": "available",
   "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
-  "repo_check_error": null
+  "repo_check_error": null,
+  "installs": 92
 }

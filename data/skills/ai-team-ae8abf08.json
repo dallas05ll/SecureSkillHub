@@ -1,7 +1,7 @@
 {
   "id": "ai-team-ae8abf08",
   "name": "ai-team",
-  "description": "AI 团队协作流水线。自动编排 Claude(Lead) + Codex(代码) + Gemini(UI) 多 Agent 协作。使用 /ai-team <任务描述> 启动团队协作。",
+  "description": "AI \u56e2\u961f\u534f\u4f5c\u6d41\u6c34\u7ebf\u3002\u81ea\u52a8\u7f16\u6392 Claude(Lead) + Codex(\u4ee3\u7801) + Gemini(UI) \u591a Agent \u534f\u4f5c\u3002\u4f7f\u7528 /ai-team <\u4efb\u52a1\u63cf\u8ff0> \u542f\u52a8\u56e2\u961f\u534f\u4f5c\u3002",
   "repo_url": "https://github.com/thendcn/ai-team-skills",
   "source_hub": "skillsmp",
   "skill_type": "agent_skill",
@@ -118,5 +118,6 @@
       "override_reason": null
     },
     "manager_summary": "5/5 agents completed. Score: 98/100, Risk: medium. 0 mismatches, 1 scanner findings. Approved at 95% confidence. No safety overrides."
-  }
+  },
+  "installs": 55
 }

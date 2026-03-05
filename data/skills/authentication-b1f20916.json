@@ -1,7 +1,7 @@
 {
   "id": "authentication-b1f20916",
   "name": "authentication",
-  "description": "Authentication patterns for The Boring JavaScript Stack — session-based auth with password, magic links, passkeys (WebAuthn), two-factor authentication (TOTP/email/backup codes), password reset, and OAuth. Use this skill when implementing or modifying any authentication flow in a Sails.js application.",
+  "description": "Authentication patterns for The Boring JavaScript Stack \u2014 session-based auth with password, magic links, passkeys (WebAuthn), two-factor authentication (TOTP/email/backup codes), password reset, and OAuth. Use this skill when implementing or modifying any authentication flow in a Sails.js application.",
   "repo_url": "https://github.com/sailscastshq/boring-stack",
   "source_hub": "skillsmp",
   "skill_type": "agent_skill",
@@ -22,5 +22,6 @@
   "scan_summary": null,
   "repo_status": "available",
   "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
-  "repo_check_error": null
+  "repo_check_error": null,
+  "installs": 482
 }

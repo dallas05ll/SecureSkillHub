@@ -1,7 +1,7 @@
 {
   "id": "auto-douyin-8199505e",
   "name": "auto-douyin",
-  "description": "抖音视频自动发布技能。当用户需要发布视频到抖音时使用这个技能。技能包含：获取登录Cookie、上传视频、设置标题话题、定时发布等功能。",
+  "description": "\u6296\u97f3\u89c6\u9891\u81ea\u52a8\u53d1\u5e03\u6280\u80fd\u3002\u5f53\u7528\u6237\u9700\u8981\u53d1\u5e03\u89c6\u9891\u5230\u6296\u97f3\u65f6\u4f7f\u7528\u8fd9\u4e2a\u6280\u80fd\u3002\u6280\u80fd\u5305\u542b\uff1a\u83b7\u53d6\u767b\u5f55Cookie\u3001\u4e0a\u4f20\u89c6\u9891\u3001\u8bbe\u7f6e\u6807\u9898\u8bdd\u9898\u3001\u5b9a\u65f6\u53d1\u5e03\u7b49\u529f\u80fd\u3002",
   "repo_url": "https://github.com/zrt-ai-lab/opencode-skills",
   "source_hub": "skillsmp",
   "skill_type": "agent_skill",
@@ -21,5 +21,6 @@
   "scan_summary": null,
   "repo_status": "available",
   "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
-  "repo_check_error": null
+  "repo_check_error": null,
+  "installs": 47
 }

@@ -1,7 +1,7 @@
 {
   "id": "claude-md-writer-06b2d5e9",
   "name": "claude-md-writer",
-  "description": "Escribe y mejora CLAUDE.md siguiendo best practices. Usa cuando el usuario diga \"crear CLAUDE.md\", \"mejorar CLAUDE.md\", \"actualizar CLAUDE.md\", \"revisar CLAUDE.md\", \"escribir instrucciones del proyecto\", \"agregar reglas al proyecto\", \"actualizar documentación\", \"optimizar documentación para Claude\", o configure un nuevo repo.",
+  "description": "Escribe y mejora CLAUDE.md siguiendo best practices. Usa cuando el usuario diga \"crear CLAUDE.md\", \"mejorar CLAUDE.md\", \"actualizar CLAUDE.md\", \"revisar CLAUDE.md\", \"escribir instrucciones del proyecto\", \"agregar reglas al proyecto\", \"actualizar documentaci\u00f3n\", \"optimizar documentaci\u00f3n para Claude\", o configure un nuevo repo.",
   "repo_url": "https://github.com/testacode/llm-toolkit",
   "source_hub": "skillsmp",
   "skill_type": "agent_skill",
@@ -21,5 +21,6 @@
   "scan_summary": null,
   "repo_status": "available",
   "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
-  "repo_check_error": null
+  "repo_check_error": null,
+  "installs": 26
 }

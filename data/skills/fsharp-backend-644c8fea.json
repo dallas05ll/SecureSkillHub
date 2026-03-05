@@ -1,7 +1,7 @@
 {
   "id": "fsharp-backend-644c8fea",
   "name": "fsharp-backend",
-  "description": "Implement F# backend using Giraffe + Fable.Remoting with proper separation: Validation → Domain (pure logic) → Persistence (I/O) → API.\nUse when implementing server-side logic, API endpoints, or business rules.\nEnsures validation at boundaries, pure domain functions, and proper error handling with Result types.\nCreates code in src/Server/ files: Validation.fs, Domain.fs, Persistence.fs, Api.fs.",
+  "description": "Implement F# backend using Giraffe + Fable.Remoting with proper separation: Validation \u2192 Domain (pure logic) \u2192 Persistence (I/O) \u2192 API.\nUse when implementing server-side logic, API endpoints, or business rules.\nEnsures validation at boundaries, pure domain functions, and proper error handling with Result types.\nCreates code in src/Server/ files: Validation.fs, Domain.fs, Persistence.fs, Api.fs.",
   "repo_url": "https://github.com/heimeshoff/fsharp-full-stack-blueprint",
   "source_hub": "skillsmp",
   "skill_type": "agent_skill",
@@ -23,5 +23,6 @@
   "scan_summary": null,
   "repo_status": "available",
   "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
-  "repo_check_error": null
+  "repo_check_error": null,
+  "installs": 13
 }

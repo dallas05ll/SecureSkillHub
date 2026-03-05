@@ -1,7 +1,7 @@
 {
   "id": "code-review-7489e5b9",
   "name": "code-review",
-  "description": "深度代码审查工具：分析 Git 变更，评估逻辑、代码规范、安全及需求一致性，支持CodeReview报告。",
+  "description": "\u6df1\u5ea6\u4ee3\u7801\u5ba1\u67e5\u5de5\u5177\uff1a\u5206\u6790 Git \u53d8\u66f4\uff0c\u8bc4\u4f30\u903b\u8f91\u3001\u4ee3\u7801\u89c4\u8303\u3001\u5b89\u5168\u53ca\u9700\u6c42\u4e00\u81f4\u6027\uff0c\u652f\u6301CodeReview\u62a5\u544a\u3002",
   "repo_url": "https://github.com/openidcsteam/backends",
   "source_hub": "skillsmp",
   "skill_type": "agent_skill",
@@ -21,5 +21,6 @@
   "scan_summary": null,
   "repo_status": "available",
   "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
-  "repo_check_error": null
+  "repo_check_error": null,
+  "installs": 10
 }

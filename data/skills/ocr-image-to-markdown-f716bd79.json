@@ -1,7 +1,7 @@
 {
   "id": "ocr-image-to-markdown-f716bd79",
   "name": "ocr-image-to-markdown",
-  "description": "鉴于本地 OCR 工具的缺失，本技能利用 Agent 的多模态能力来查看图像（PNG, JPG 等）并将内容（文本、表格、逻辑图）转录为格式化的 Markdown。",
+  "description": "\u9274\u4e8e\u672c\u5730 OCR \u5de5\u5177\u7684\u7f3a\u5931\uff0c\u672c\u6280\u80fd\u5229\u7528 Agent \u7684\u591a\u6a21\u6001\u80fd\u529b\u6765\u67e5\u770b\u56fe\u50cf\uff08PNG, JPG \u7b49\uff09\u5e76\u5c06\u5185\u5bb9\uff08\u6587\u672c\u3001\u8868\u683c\u3001\u903b\u8f91\u56fe\uff09\u8f6c\u5f55\u4e3a\u683c\u5f0f\u5316\u7684 Markdown\u3002",
   "repo_url": "https://github.com/hugohe3/ppt-master",
   "source_hub": "skillsmp",
   "skill_type": "agent_skill",
@@ -24,5 +24,6 @@
   "scan_summary": null,
   "repo_status": "available",
   "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
-  "repo_check_error": null
+  "repo_check_error": null,
+  "installs": 1727
 }

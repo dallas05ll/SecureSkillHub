@@ -1,7 +1,7 @@
 {
   "id": "ai-content-creator-20868eab",
   "name": "ai-content-creator",
-  "description": "AI 内容创作专家，生成高质量的 SEO 和 GEO 优化内容，支持多种内容类型和风格。",
+  "description": "AI \u5185\u5bb9\u521b\u4f5c\u4e13\u5bb6\uff0c\u751f\u6210\u9ad8\u8d28\u91cf\u7684 SEO \u548c GEO \u4f18\u5316\u5185\u5bb9\uff0c\u652f\u6301\u591a\u79cd\u5185\u5bb9\u7c7b\u578b\u548c\u98ce\u683c\u3002",
   "repo_url": "https://github.com/huifer/claude-code-seo",
   "source_hub": "skillsmp",
   "skill_type": "agent_skill",
@@ -154,5 +154,6 @@
       "override_reason": null
     },
     "manager_summary": "5/5 agents completed. Score: 90/100, Risk: medium. 0 mismatches, 6 scanner findings. Approved at 90% confidence. No safety overrides."
-  }
+  },
+  "installs": 94
 }

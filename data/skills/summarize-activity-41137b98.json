@@ -1,7 +1,7 @@
 {
   "id": "summarize-activity-41137b98",
   "name": "summarize-activity",
-  "description": "Summarize recent GitHub activity — discussions, PRs, issues, events, traffic — into an actionable report so you can stay on top of the project without reading everything.",
+  "description": "Summarize recent GitHub activity \u2014 discussions, PRs, issues, events, traffic \u2014 into an actionable report so you can stay on top of the project without reading everything.",
   "repo_url": "https://github.com/alpinejs/alpine",
   "source_hub": "skillsmp",
   "skill_type": "agent_skill",
@@ -22,5 +22,6 @@
   "scan_summary": null,
   "repo_status": "available",
   "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
-  "repo_check_error": null
+  "repo_check_error": null,
+  "installs": 31181
 }

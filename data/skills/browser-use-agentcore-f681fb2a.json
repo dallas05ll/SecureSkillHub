@@ -1,7 +1,7 @@
 {
   "id": "browser-use-agentcore-f681fb2a",
   "name": "browser-use-agentcore",
-  "description": "AWS AgentCore Browser skill for automated web testing and screenshot capture. Use this skill when the user asks to: - Test if a website works / 测试网站是否正常 - Take a screenshot of a webpage / 截取网页截图 - Check for JavaScript errors or console errors - Verify API health endpoints - Open a URL in a cloud browser - Debug website loading issues This skill uses AWS Bedrock AgentCore Browser (cloud-based, no local browser needed).",
+  "description": "AWS AgentCore Browser skill for automated web testing and screenshot capture. Use this skill when the user asks to: - Test if a website works / \u6d4b\u8bd5\u7f51\u7ad9\u662f\u5426\u6b63\u5e38 - Take a screenshot of a webpage / \u622a\u53d6\u7f51\u9875\u622a\u56fe - Check for JavaScript errors or console errors - Verify API health endpoints - Open a URL in a cloud browser - Debug website loading issues This skill uses AWS Bedrock AgentCore Browser (cloud-based, no local browser needed).",
   "repo_url": "https://github.com/tsaol/awesome-claude",
   "source_hub": "skillsmp",
   "skill_type": "agent_skill",
@@ -29,5 +29,6 @@
   "scan_summary": null,
   "repo_status": "available",
   "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
-  "repo_check_error": null
+  "repo_check_error": null,
+  "installs": 41
 }

@@ -1,7 +1,7 @@
 {
   "id": "cf-tunnel-b24ebd51",
   "name": "cf-tunnel",
-  "description": "Cloudflare Tunnel 一键管理工具，支持统一 Bun CLI（share + panel 合并）、端口自动避让、状态检查与自解释文档",
+  "description": "Cloudflare Tunnel \u4e00\u952e\u7ba1\u7406\u5de5\u5177\uff0c\u652f\u6301\u7edf\u4e00 Bun CLI\uff08share + panel \u5408\u5e76\uff09\u3001\u7aef\u53e3\u81ea\u52a8\u907f\u8ba9\u3001\u72b6\u6001\u68c0\u67e5\u4e0e\u81ea\u89e3\u91ca\u6587\u6863",
   "repo_url": "https://github.com/dwsy/agent",
   "source_hub": "skillsmp",
   "skill_type": "agent_skill",
@@ -23,5 +23,6 @@
   "scan_summary": null,
   "repo_status": "available",
   "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
-  "repo_check_error": null
+  "repo_check_error": null,
+  "installs": 21
 }

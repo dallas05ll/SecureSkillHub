@@ -1,7 +1,7 @@
 {
   "id": "auth-manager-54719209",
   "name": "auth-manager",
-  "description": "网页登录态管理。定期检查各平台 Playwright 登录状态，过期自动告警。支持动态添加/删除平台。",
+  "description": "\u7f51\u9875\u767b\u5f55\u6001\u7ba1\u7406\u3002\u5b9a\u671f\u68c0\u67e5\u5404\u5e73\u53f0 Playwright \u767b\u5f55\u72b6\u6001\uff0c\u8fc7\u671f\u81ea\u52a8\u544a\u8b66\u3002\u652f\u6301\u52a8\u6001\u6dfb\u52a0/\u5220\u9664\u5e73\u53f0\u3002",
   "repo_url": "https://github.com/aaaaqwq/agi-super-skills",
   "source_hub": "skillsmp",
   "skill_type": "agent_skill",
@@ -21,5 +21,6 @@
   "scan_summary": null,
   "repo_status": "available",
   "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
-  "repo_check_error": null
+  "repo_check_error": null,
+  "installs": 9
 }

@@ -1,7 +1,7 @@
 {
   "id": "creating-reanimated-animations-7018110b",
   "name": "creating-reanimated-animations",
-  "description": "Generate React Native Reanimated animation code for React Native apps. Use when user asks to create, implement, or add animations in React Native — including transitions, gestures, scroll-linked effects, layout animations, layout transitions, entering/exiting animations, CSS animations, CSS transitions, shared element transitions, color animations, parallax, fade, slide, scale, spring, timing, decay, keyframes, worklets, accordion, bottom sheet, flip card, collapsing header, or any motion eff...",
+  "description": "Generate React Native Reanimated animation code for React Native apps. Use when user asks to create, implement, or add animations in React Native \u2014 including transitions, gestures, scroll-linked effects, layout animations, layout transitions, entering/exiting animations, CSS animations, CSS transitions, shared element transitions, color animations, parallax, fade, slide, scale, spring, timing, decay, keyframes, worklets, accordion, bottom sheet, flip card, collapsing header, or any motion eff...",
   "repo_url": "https://github.com/estevg/skills",
   "source_hub": "skillsmp",
   "skill_type": "agent_skill",
@@ -26,5 +26,6 @@
   "scan_summary": null,
   "repo_status": "available",
   "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
-  "repo_check_error": null
+  "repo_check_error": null,
+  "installs": 43
 }

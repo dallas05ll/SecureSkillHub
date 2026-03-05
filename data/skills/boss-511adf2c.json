@@ -1,7 +1,7 @@
 {
   "id": "boss-511adf2c",
   "name": "boss",
-  "description": "BMAD 全自动项目编排 Skill。从需求到部署的完整研发流水线，编排多个专业 Agent（PM、架构师、UI 设计师、Tech Lead、Scrum Master、开发者、QA、DevOps）自动完成完整研发周期。当用户说 'boss mode'、'/boss'、'全自动开发'、'从需求到部署'、'帮我做一个'、'build this'、'ship it'、'全流程'、'自动化开发'、'一键开发'、'start a project'、'new feature' 时使用。适用于新项目搭建或现有代码库添加功能。",
+  "description": "BMAD \u5168\u81ea\u52a8\u9879\u76ee\u7f16\u6392 Skill\u3002\u4ece\u9700\u6c42\u5230\u90e8\u7f72\u7684\u5b8c\u6574\u7814\u53d1\u6d41\u6c34\u7ebf\uff0c\u7f16\u6392\u591a\u4e2a\u4e13\u4e1a Agent\uff08PM\u3001\u67b6\u6784\u5e08\u3001UI \u8bbe\u8ba1\u5e08\u3001Tech Lead\u3001Scrum Master\u3001\u5f00\u53d1\u8005\u3001QA\u3001DevOps\uff09\u81ea\u52a8\u5b8c\u6210\u5b8c\u6574\u7814\u53d1\u5468\u671f\u3002\u5f53\u7528\u6237\u8bf4 'boss mode'\u3001'/boss'\u3001'\u5168\u81ea\u52a8\u5f00\u53d1'\u3001'\u4ece\u9700\u6c42\u5230\u90e8\u7f72'\u3001'\u5e2e\u6211\u505a\u4e00\u4e2a'\u3001'build this'\u3001'ship it'\u3001'\u5168\u6d41\u7a0b'\u3001'\u81ea\u52a8\u5316\u5f00\u53d1'\u3001'\u4e00\u952e\u5f00\u53d1'\u3001'start a project'\u3001'new feature' \u65f6\u4f7f\u7528\u3002\u9002\u7528\u4e8e\u65b0\u9879\u76ee\u642d\u5efa\u6216\u73b0\u6709\u4ee3\u7801\u5e93\u6dfb\u52a0\u529f\u80fd\u3002",
   "repo_url": "https://github.com/echovic/boss-skill",
   "source_hub": "skillsmp",
   "skill_type": "agent_skill",
@@ -21,5 +21,6 @@
   "scan_summary": null,
   "repo_status": "available",
   "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
-  "repo_check_error": null
+  "repo_check_error": null,
+  "installs": 48
 }

@@ -1,7 +1,7 @@
 {
   "id": "java-auth-audit-511e4303",
   "name": "java-auth-audit",
-  "description": "Java Web 源码鉴权机制审计工具。从源码中识别所有鉴权实现并分析安全风险。适用于：(1) 识别鉴权框架和实现方式，(2) 发现鉴权绕过漏洞，(3) 分析越权访问风险，(4) 审计权限校验逻辑。支持 Shiro、Spring Security、JWT、Filter/Interceptor、自定义鉴权等。**支持反编译 .class/.jar 文件提取鉴权逻辑**。结合 java-route-mapper 使用可实现完整的路由+鉴权审计。",
+  "description": "Java Web \u6e90\u7801\u9274\u6743\u673a\u5236\u5ba1\u8ba1\u5de5\u5177\u3002\u4ece\u6e90\u7801\u4e2d\u8bc6\u522b\u6240\u6709\u9274\u6743\u5b9e\u73b0\u5e76\u5206\u6790\u5b89\u5168\u98ce\u9669\u3002\u9002\u7528\u4e8e\uff1a(1) \u8bc6\u522b\u9274\u6743\u6846\u67b6\u548c\u5b9e\u73b0\u65b9\u5f0f\uff0c(2) \u53d1\u73b0\u9274\u6743\u7ed5\u8fc7\u6f0f\u6d1e\uff0c(3) \u5206\u6790\u8d8a\u6743\u8bbf\u95ee\u98ce\u9669\uff0c(4) \u5ba1\u8ba1\u6743\u9650\u6821\u9a8c\u903b\u8f91\u3002\u652f\u6301 Shiro\u3001Spring Security\u3001JWT\u3001Filter/Interceptor\u3001\u81ea\u5b9a\u4e49\u9274\u6743\u7b49\u3002**\u652f\u6301\u53cd\u7f16\u8bd1 .class/.jar \u6587\u4ef6\u63d0\u53d6\u9274\u6743\u903b\u8f91**\u3002\u7ed3\u5408 java-route-mapper \u4f7f\u7528\u53ef\u5b9e\u73b0\u5b8c\u6574\u7684\u8def\u7531+\u9274\u6743\u5ba1\u8ba1\u3002",
   "repo_url": "https://github.com/ruoji6/java-audit-skills",
   "source_hub": "skillsmp",
   "skill_type": "agent_skill",
@@ -24,5 +24,6 @@
   "scan_summary": null,
   "repo_status": "available",
   "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
-  "repo_check_error": null
+  "repo_check_error": null,
+  "installs": 81
 }

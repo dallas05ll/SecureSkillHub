@@ -1,7 +1,7 @@
 {
   "id": "question-creator-518676cc",
   "name": "question-creator",
-  "description": "创建符合 CAC 评测系统规范的标准化测试题目。当用户需要添加新题目、创建测试题、或提到\"创建题目\"、\"新建题目\"、\"添加题目\"、\"add question\"、\"create question\"时使用此 Skill。支持代码、数理、逻辑、综合四类题库。",
+  "description": "\u521b\u5efa\u7b26\u5408 CAC \u8bc4\u6d4b\u7cfb\u7edf\u89c4\u8303\u7684\u6807\u51c6\u5316\u6d4b\u8bd5\u9898\u76ee\u3002\u5f53\u7528\u6237\u9700\u8981\u6dfb\u52a0\u65b0\u9898\u76ee\u3001\u521b\u5efa\u6d4b\u8bd5\u9898\u3001\u6216\u63d0\u5230\"\u521b\u5efa\u9898\u76ee\"\u3001\"\u65b0\u5efa\u9898\u76ee\"\u3001\"\u6dfb\u52a0\u9898\u76ee\"\u3001\"add question\"\u3001\"create question\"\u65f6\u4f7f\u7528\u6b64 Skill\u3002\u652f\u6301\u4ee3\u7801\u3001\u6570\u7406\u3001\u903b\u8f91\u3001\u7efc\u5408\u56db\u7c7b\u9898\u5e93\u3002",
   "repo_url": "https://github.com/t-auto/cac-final-test",
   "source_hub": "skillsmp",
   "skill_type": "agent_skill",
@@ -20,5 +20,6 @@
   "scan_summary": null,
   "repo_status": "available",
   "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
-  "repo_check_error": null
+  "repo_check_error": null,
+  "installs": 21
 }

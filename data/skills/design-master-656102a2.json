@@ -1,7 +1,7 @@
 {
   "id": "design-master-656102a2",
   "name": "design-master",
-  "description": "平面设计主控 - 自动生成平面设计提示词，支持海报、logo、插画等多种设计类型",
+  "description": "\u5e73\u9762\u8bbe\u8ba1\u4e3b\u63a7 - \u81ea\u52a8\u751f\u6210\u5e73\u9762\u8bbe\u8ba1\u63d0\u793a\u8bcd\uff0c\u652f\u6301\u6d77\u62a5\u3001logo\u3001\u63d2\u753b\u7b49\u591a\u79cd\u8bbe\u8ba1\u7c7b\u578b",
   "repo_url": "https://github.com/huangserva/skill-prompt-generator",
   "source_hub": "skillsmp",
   "skill_type": "agent_skill",
@@ -20,5 +20,6 @@
   "scan_summary": null,
   "repo_status": "available",
   "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
-  "repo_check_error": null
+  "repo_check_error": null,
+  "installs": 1035
 }

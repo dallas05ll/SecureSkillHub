@@ -1,7 +1,7 @@
 {
   "id": "board-resolutions-review-34b1e31e",
   "name": "board-resolutions-review",
-  "description": "Review board/stockholder resolutions for corporate authority, quorum, securities authorization, and execution. Triggers: (1) 'check resolutions' → checklist review, (2) 'advise' / 'review' → full consultation with playbook, (3) 'generate' / 'template' → Skala templates URL. Jurisdiction: Delaware, USA.",
+  "description": "Review board/stockholder resolutions for corporate authority, quorum, securities authorization, and execution. Triggers: (1) 'check resolutions' \u2192 checklist review, (2) 'advise' / 'review' \u2192 full consultation with playbook, (3) 'generate' / 'template' \u2192 Skala templates URL. Jurisdiction: Delaware, USA.",
   "repo_url": "https://github.com/skala-io/legal-skills",
   "source_hub": "skillsmp",
   "skill_type": "agent_skill",
@@ -135,5 +135,6 @@
       "override_reason": null
     },
     "manager_summary": "5/5 agents completed. Score: 97/100, Risk: medium. 0 mismatches, 3 scanner findings. Approved at 95% confidence. No safety overrides."
-  }
+  },
+  "installs": 9
 }

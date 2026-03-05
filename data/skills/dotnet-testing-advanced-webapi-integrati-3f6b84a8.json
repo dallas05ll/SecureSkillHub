@@ -1,7 +1,7 @@
 {
   "id": "dotnet-testing-advanced-webapi-integrati-3f6b84a8",
   "name": "dotnet-testing-advanced-webapi-integration-testing",
-  "description": "ASP.NET Core WebApi 整合測試完整指南。當需要對 WebApi 端點進行整合測試或驗證 ProblemDetails 錯誤格式時使用。涵蓋 WebApplicationFactory、IExceptionHandler、Testcontainers 多容器編排、Flurl URL 建構與 AwesomeAssertions HTTP 驗證。\nKeywords: webapi integration testing, WebApplicationFactory, asp.net core integration test, webapi 整合測試, IExceptionHandler, ProblemDetails, ValidationProblemDetails, AwesomeAssertions, Flurl, Respawn, Be201Created, Be400BadRequest, 多容器測試, Collection Fixture, 全域例外處理",
+  "description": "ASP.NET Core WebApi \u6574\u5408\u6e2c\u8a66\u5b8c\u6574\u6307\u5357\u3002\u7576\u9700\u8981\u5c0d WebApi \u7aef\u9ede\u9032\u884c\u6574\u5408\u6e2c\u8a66\u6216\u9a57\u8b49 ProblemDetails \u932f\u8aa4\u683c\u5f0f\u6642\u4f7f\u7528\u3002\u6db5\u84cb WebApplicationFactory\u3001IExceptionHandler\u3001Testcontainers \u591a\u5bb9\u5668\u7de8\u6392\u3001Flurl URL \u5efa\u69cb\u8207 AwesomeAssertions HTTP \u9a57\u8b49\u3002\nKeywords: webapi integration testing, WebApplicationFactory, asp.net core integration test, webapi \u6574\u5408\u6e2c\u8a66, IExceptionHandler, ProblemDetails, ValidationProblemDetails, AwesomeAssertions, Flurl, Respawn, Be201Created, Be400BadRequest, \u591a\u5bb9\u5668\u6e2c\u8a66, Collection Fixture, \u5168\u57df\u4f8b\u5916\u8655\u7406",
   "repo_url": "https://github.com/kevintsengtw/dotnet-testing-agent-skills",
   "source_hub": "skillsmp",
   "skill_type": "agent_skill",
@@ -22,5 +22,6 @@
   "scan_summary": null,
   "repo_status": "available",
   "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
-  "repo_check_error": null
+  "repo_check_error": null,
+  "installs": 29
 }

@@ -1,7 +1,7 @@
 {
   "id": "figma-use-7e8e6315",
   "name": "figma-use",
-  "description": "Control Figma via CLI — create shapes, frames, text, components, set styles, layout, variables, export images. Use when asked to create/modify Figma designs or automate design tasks.",
+  "description": "Control Figma via CLI \u2014 create shapes, frames, text, components, set styles, layout, variables, export images. Use when asked to create/modify Figma designs or automate design tasks.",
   "repo_url": "https://github.com/dannote/figma-use",
   "source_hub": "skillsmp",
   "skill_type": "agent_skill",
@@ -20,5 +20,6 @@
   "scan_summary": null,
   "repo_status": "available",
   "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
-  "repo_check_error": null
+  "repo_check_error": null,
+  "installs": 391
 }

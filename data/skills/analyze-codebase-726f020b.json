@@ -1,7 +1,7 @@
 {
   "id": "analyze-codebase-726f020b",
   "name": "analyze-codebase",
-  "description": "Use when asked to analyze, audit, or review an unfamiliar codebase — for onboarding, architecture review, tech debt assessment, security audit, or operational readiness evaluation",
+  "description": "Use when asked to analyze, audit, or review an unfamiliar codebase \u2014 for onboarding, architecture review, tech debt assessment, security audit, or operational readiness evaluation",
   "repo_url": "https://github.com/kaushikgopal/dotfiles",
   "source_hub": "skillsmp",
   "skill_type": "agent_skill",
@@ -140,5 +140,6 @@
       "override_reason": null
     },
     "manager_summary": "5/5 agents completed. Score: 92/100, Risk: medium. 0 mismatches, 4 scanner findings. Approved at 92% confidence. No safety overrides."
-  }
+  },
+  "installs": 63
 }

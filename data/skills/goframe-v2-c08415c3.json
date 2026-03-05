@@ -1,7 +1,7 @@
 {
   "id": "goframe-v2-c08415c3",
   "name": "goframe-v2",
-  "description": "GoFrame开发框架专属技能集。为Go语言开发者提供完整的框架使用指南，涵盖命令行管理、配置管理、日志组件、错误处理、数据校验、类型转换、缓存管理、模板引擎、数据库ORM、I18n国际化等核心组件的最佳实践。包含项目工程化结构规范、开发模式指引、常见问题解决方案以及丰富的实战代码示例。适用于构建RESTful API、gRPC微服务、Web应用等各类Go项目，帮助开发者快速掌握GoFrame框架特性，提升开发效率和代码质量。",
+  "description": "GoFrame\u5f00\u53d1\u6846\u67b6\u4e13\u5c5e\u6280\u80fd\u96c6\u3002\u4e3aGo\u8bed\u8a00\u5f00\u53d1\u8005\u63d0\u4f9b\u5b8c\u6574\u7684\u6846\u67b6\u4f7f\u7528\u6307\u5357\uff0c\u6db5\u76d6\u547d\u4ee4\u884c\u7ba1\u7406\u3001\u914d\u7f6e\u7ba1\u7406\u3001\u65e5\u5fd7\u7ec4\u4ef6\u3001\u9519\u8bef\u5904\u7406\u3001\u6570\u636e\u6821\u9a8c\u3001\u7c7b\u578b\u8f6c\u6362\u3001\u7f13\u5b58\u7ba1\u7406\u3001\u6a21\u677f\u5f15\u64ce\u3001\u6570\u636e\u5e93ORM\u3001I18n\u56fd\u9645\u5316\u7b49\u6838\u5fc3\u7ec4\u4ef6\u7684\u6700\u4f73\u5b9e\u8df5\u3002\u5305\u542b\u9879\u76ee\u5de5\u7a0b\u5316\u7ed3\u6784\u89c4\u8303\u3001\u5f00\u53d1\u6a21\u5f0f\u6307\u5f15\u3001\u5e38\u89c1\u95ee\u9898\u89e3\u51b3\u65b9\u6848\u4ee5\u53ca\u4e30\u5bcc\u7684\u5b9e\u6218\u4ee3\u7801\u793a\u4f8b\u3002\u9002\u7528\u4e8e\u6784\u5efaRESTful API\u3001gRPC\u5fae\u670d\u52a1\u3001Web\u5e94\u7528\u7b49\u5404\u7c7bGo\u9879\u76ee\uff0c\u5e2e\u52a9\u5f00\u53d1\u8005\u5feb\u901f\u638c\u63e1GoFrame\u6846\u67b6\u7279\u6027\uff0c\u63d0\u5347\u5f00\u53d1\u6548\u7387\u548c\u4ee3\u7801\u8d28\u91cf\u3002",
   "repo_url": "https://github.com/gogf/skills",
   "source_hub": "skillsmp",
   "skill_type": "agent_skill",
@@ -20,5 +20,6 @@
   "scan_summary": null,
   "repo_status": "available",
   "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
-  "repo_check_error": null
+  "repo_check_error": null,
+  "installs": 23
 }

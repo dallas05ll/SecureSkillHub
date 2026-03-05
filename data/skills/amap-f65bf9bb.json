@@ -1,7 +1,7 @@
 {
   "id": "amap-f65bf9bb",
   "name": "amap",
-  "description": "通过脚本直连高德 Web Service API 完成地理编码、逆地理编码、IP 定位、天气、路径规划、距离测量和 POI 查询。用户要求“高德/AMap 查询”“路线规划”“地理编码”“POI 搜索”或需要用命令行脚本调用高德 API 时使用。",
+  "description": "\u901a\u8fc7\u811a\u672c\u76f4\u8fde\u9ad8\u5fb7 Web Service API \u5b8c\u6210\u5730\u7406\u7f16\u7801\u3001\u9006\u5730\u7406\u7f16\u7801\u3001IP \u5b9a\u4f4d\u3001\u5929\u6c14\u3001\u8def\u5f84\u89c4\u5212\u3001\u8ddd\u79bb\u6d4b\u91cf\u548c POI \u67e5\u8be2\u3002\u7528\u6237\u8981\u6c42\u201c\u9ad8\u5fb7/AMap \u67e5\u8be2\u201d\u201c\u8def\u7ebf\u89c4\u5212\u201d\u201c\u5730\u7406\u7f16\u7801\u201d\u201cPOI \u641c\u7d22\u201d\u6216\u9700\u8981\u7528\u547d\u4ee4\u884c\u811a\u672c\u8c03\u7528\u9ad8\u5fb7 API \u65f6\u4f7f\u7528\u3002",
   "repo_url": "https://github.com/kaichen/amap-skill",
   "source_hub": "skillsmp",
   "skill_type": "agent_skill",
@@ -136,5 +136,6 @@
       "override_reason": null
     },
     "manager_summary": "5/5 agents completed. Score: 97/100, Risk: medium. 0 mismatches, 3 scanner findings. Approved at 95% confidence. No safety overrides."
-  }
+  },
+  "installs": 88
 }

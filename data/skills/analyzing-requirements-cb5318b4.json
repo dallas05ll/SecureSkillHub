@@ -1,7 +1,7 @@
 {
   "id": "analyzing-requirements-cb5318b4",
   "name": "analyzing-requirements",
-  "description": "ユーザー要件を分析し、システム設計ドキュメント(DESIGN.md)を生成します。ユーザー要件が曖昧または不明確な場合、システムアーキテクチャの設計が必要な場合、大規模な機能開発の設計仕様が必要な場合、技術的実現可能性の検証が必要な場合に使用します。不明点はAskUserQuestionツールで確認します。",
+  "description": "\u30e6\u30fc\u30b6\u30fc\u8981\u4ef6\u3092\u5206\u6790\u3057\u3001\u30b7\u30b9\u30c6\u30e0\u8a2d\u8a08\u30c9\u30ad\u30e5\u30e1\u30f3\u30c8(DESIGN.md)\u3092\u751f\u6210\u3057\u307e\u3059\u3002\u30e6\u30fc\u30b6\u30fc\u8981\u4ef6\u304c\u66d6\u6627\u307e\u305f\u306f\u4e0d\u660e\u78ba\u306a\u5834\u5408\u3001\u30b7\u30b9\u30c6\u30e0\u30a2\u30fc\u30ad\u30c6\u30af\u30c1\u30e3\u306e\u8a2d\u8a08\u304c\u5fc5\u8981\u306a\u5834\u5408\u3001\u5927\u898f\u6a21\u306a\u6a5f\u80fd\u958b\u767a\u306e\u8a2d\u8a08\u4ed5\u69d8\u304c\u5fc5\u8981\u306a\u5834\u5408\u3001\u6280\u8853\u7684\u5b9f\u73fe\u53ef\u80fd\u6027\u306e\u691c\u8a3c\u304c\u5fc5\u8981\u306a\u5834\u5408\u306b\u4f7f\u7528\u3057\u307e\u3059\u3002\u4e0d\u660e\u70b9\u306fAskUserQuestion\u30c4\u30fc\u30eb\u3067\u78ba\u8a8d\u3057\u307e\u3059\u3002",
   "repo_url": "https://github.com/skanehira/dotfiles",
   "source_hub": "skillsmp",
   "skill_type": "agent_skill",
@@ -171,5 +171,6 @@
       "override_reason": null
     },
     "manager_summary": "5/5 agents completed. Score: 85/100, Risk: medium. 0 mismatches, 8 scanner findings. Approved at 85% confidence. No safety overrides."
-  }
+  },
+  "installs": 84
 }

@@ -1,7 +1,7 @@
 {
   "id": "cursor-edit-f6f1c9de",
   "name": "cursor-edit",
-  "description": "Cursor CLI를 통해 실제 코드 수정 수행. 분석/계획 결과를 받아 cursor-agent에게 전달하여 코드 편집을 위임한다. 코드 수정, 리팩토링, 기능 추가, 버그 수정 등 실제 파일 변경이 필요할 때 사용.",
+  "description": "Cursor CLI\ub97c \ud1b5\ud574 \uc2e4\uc81c \ucf54\ub4dc \uc218\uc815 \uc218\ud589. \ubd84\uc11d/\uacc4\ud68d \uacb0\uacfc\ub97c \ubc1b\uc544 cursor-agent\uc5d0\uac8c \uc804\ub2ec\ud558\uc5ec \ucf54\ub4dc \ud3b8\uc9d1\uc744 \uc704\uc784\ud55c\ub2e4. \ucf54\ub4dc \uc218\uc815, \ub9ac\ud329\ud1a0\ub9c1, \uae30\ub2a5 \ucd94\uac00, \ubc84\uadf8 \uc218\uc815 \ub4f1 \uc2e4\uc81c \ud30c\uc77c \ubcc0\uacbd\uc774 \ud544\uc694\ud560 \ub54c \uc0ac\uc6a9.",
   "repo_url": "https://github.com/heishia/ppop-code",
   "source_hub": "skillsmp",
   "skill_type": "agent_skill",
@@ -20,5 +20,6 @@
   "scan_summary": null,
   "repo_status": "available",
   "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
-  "repo_check_error": null
+  "repo_check_error": null,
+  "installs": 10
 }

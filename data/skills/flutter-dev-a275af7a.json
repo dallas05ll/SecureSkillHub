@@ -1,7 +1,7 @@
 {
   "id": "flutter-dev-a275af7a",
   "name": "flutter-dev",
-  "description": "Скилл для разработки Flutter-приложений по стандартам компании Friflex. Используйте этот скилл при написании кода, создании новых фич, проведении ревью или настройке архитектуры проекта. Включает правила именования, структуру слоев (data/domain/presentation) и стандарты Git.",
+  "description": "\u0421\u043a\u0438\u043b\u043b \u0434\u043b\u044f \u0440\u0430\u0437\u0440\u0430\u0431\u043e\u0442\u043a\u0438 Flutter-\u043f\u0440\u0438\u043b\u043e\u0436\u0435\u043d\u0438\u0439 \u043f\u043e \u0441\u0442\u0430\u043d\u0434\u0430\u0440\u0442\u0430\u043c \u043a\u043e\u043c\u043f\u0430\u043d\u0438\u0438 Friflex. \u0418\u0441\u043f\u043e\u043b\u044c\u0437\u0443\u0439\u0442\u0435 \u044d\u0442\u043e\u0442 \u0441\u043a\u0438\u043b\u043b \u043f\u0440\u0438 \u043d\u0430\u043f\u0438\u0441\u0430\u043d\u0438\u0438 \u043a\u043e\u0434\u0430, \u0441\u043e\u0437\u0434\u0430\u043d\u0438\u0438 \u043d\u043e\u0432\u044b\u0445 \u0444\u0438\u0447, \u043f\u0440\u043e\u0432\u0435\u0434\u0435\u043d\u0438\u0438 \u0440\u0435\u0432\u044c\u044e \u0438\u043b\u0438 \u043d\u0430\u0441\u0442\u0440\u043e\u0439\u043a\u0435 \u0430\u0440\u0445\u0438\u0442\u0435\u043a\u0442\u0443\u0440\u044b \u043f\u0440\u043e\u0435\u043a\u0442\u0430. \u0412\u043a\u043b\u044e\u0447\u0430\u0435\u0442 \u043f\u0440\u0430\u0432\u0438\u043b\u0430 \u0438\u043c\u0435\u043d\u043e\u0432\u0430\u043d\u0438\u044f, \u0441\u0442\u0440\u0443\u043a\u0442\u0443\u0440\u0443 \u0441\u043b\u043e\u0435\u0432 (data/domain/presentation) \u0438 \u0441\u0442\u0430\u043d\u0434\u0430\u0440\u0442\u044b Git.",
   "repo_url": "https://github.com/smmarty/friflex_flutter_starter",
   "source_hub": "skillsmp",
   "skill_type": "agent_skill",
@@ -22,5 +22,6 @@
   "scan_summary": null,
   "repo_status": "available",
   "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
-  "repo_check_error": null
+  "repo_check_error": null,
+  "installs": 61
 }

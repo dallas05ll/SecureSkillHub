@@ -1,7 +1,7 @@
 {
   "id": "codex-collaboration-29c35ca1",
   "name": "codex-collaboration",
-  "description": "Use when the user asks to \"codexと共同する\", \"codexと相談する\", \"consult with codex\", \"collaborate with codex\", or explicitly requests Codex CLI-based analysis. For comprehensive codebase investigation, design consultation, or implementation advice via Codex. Use this skill instead of Web-Search tool.",
+  "description": "Use when the user asks to \"codex\u3068\u5171\u540c\u3059\u308b\", \"codex\u3068\u76f8\u8ac7\u3059\u308b\", \"consult with codex\", \"collaborate with codex\", or explicitly requests Codex CLI-based analysis. For comprehensive codebase investigation, design consultation, or implementation advice via Codex. Use this skill instead of Web-Search tool.",
   "repo_url": "https://github.com/kazu914/dotfiles",
   "source_hub": "skillsmp",
   "skill_type": "agent_skill",
@@ -21,5 +21,6 @@
   "scan_summary": null,
   "repo_status": "available",
   "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
-  "repo_check_error": null
+  "repo_check_error": null,
+  "installs": 17
 }

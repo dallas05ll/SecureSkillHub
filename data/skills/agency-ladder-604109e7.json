@@ -1,7 +1,7 @@
 {
   "id": "agency-ladder-604109e7",
   "name": "agency-ladder",
-  "description": "Plan the v1→v2→v3 agency progression for AI features. Walk through mapping how autonomy increases over time, define promotion criteria, and generate artifacts for stakeholder alignment. Based on CC/CD framework.",
+  "description": "Plan the v1\u2192v2\u2192v3 agency progression for AI features. Walk through mapping how autonomy increases over time, define promotion criteria, and generate artifacts for stakeholder alignment. Based on CC/CD framework.",
   "repo_url": "https://github.com/breethomas/pm-thought-partner",
   "source_hub": "skillsmp",
   "skill_type": "agent_skill",
@@ -90,5 +90,6 @@
       "override_reason": null
     },
     "manager_summary": "5/5 agents completed. Score: 92/100, Risk: medium. 0 mismatches, 3 scanner findings. Approved at 92% confidence. No safety overrides."
-  }
+  },
+  "installs": 11
 }

@@ -147,14 +147,14 @@
         "rule_id": "regex_js_fetch",
         "severity": "medium",
         "category": "network_ops",
-        "file": "vibeCoding/old version/codex/RIPER-10 Enhanced v5.1 (Linus Edition + 寸止协议).md",
+        "file": "vibeCoding/old version/codex/RIPER-10 Enhanced v5.1 (Linus Edition + \u5bf8\u6b62\u534f\u8bae).md",
         "line": 342
       },
       {
         "rule_id": "regex_js_fetch",
         "severity": "medium",
         "category": "network_ops",
-        "file": "vibeCoding/old version/codex/RIPER-10 Enhanced v5.1 (Linus Edition + 寸止协议).md",
+        "file": "vibeCoding/old version/codex/RIPER-10 Enhanced v5.1 (Linus Edition + \u5bf8\u6b62\u534f\u8bae).md",
         "line": 345
       },
       {
@@ -268,5 +268,6 @@
       "original_status": "manual_review",
       "original_score": 60
     }
-  }
+  },
+  "installs": 80
 }

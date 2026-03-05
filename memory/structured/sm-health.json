@@ -144,6 +144,20 @@
         "TAG_DEPTH: 8857/11098 skills have shallow tags (depth 0-1). Run auto_tag enrichment.",
         "VERIFY_COVERAGE: 6751/11098 skills still unverified. Run next batch."
       ]
+    },
+    {
+      "id": "sm-h-006",
+      "title": "Agent skill catalog aligned with MCP structure",
+      "category": "catalog",
+      "description": "4,801 agent skills had installs hidden in tags (installs:N) with stars=0. Extracted installs into proper field. SM selection now uses priority_score() = max(stars, installs) for unified MCP+agent ranking. High-install agents (243K extract-errors) now properly prioritized.",
+      "date": "2026-03-04"
+    },
+    {
+      "id": "sm-h-007",
+      "title": "Dual catalog structure: MCP vs Agent skill gaps",
+      "category": "catalog",
+      "description": "MCP skills: 6,297 (58% verified), have stars, license, forks, trust_level. Agent skills: 4,801 (14% verified), have installs but no stars/license/forks. Install tiers: 8 Mega (100K+), 158 High (10K-100K), 611 Mid (1K-10K), 1791 Low (100-1K). Agent verification gap is the #1 coverage priority.",
+      "date": "2026-03-04"
     }
   ],
   "evolve_history": [

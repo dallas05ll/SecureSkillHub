@@ -1,7 +1,7 @@
 {
   "id": "github-release-94868337",
   "name": "github-release",
-  "description": "发布 GitHub Release，从 CHANGELOG 生成发布公告并更新 Draft Release (project)",
+  "description": "\u53d1\u5e03 GitHub Release\uff0c\u4ece CHANGELOG \u751f\u6210\u53d1\u5e03\u516c\u544a\u5e76\u66f4\u65b0 Draft Release (project)",
   "repo_url": "https://github.com/benedictking/ccx",
   "source_hub": "skillsmp",
   "skill_type": "agent_skill",
@@ -20,5 +20,6 @@
   "scan_summary": null,
   "repo_status": "available",
   "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
-  "repo_check_error": null
+  "repo_check_error": null,
+  "installs": 34
 }

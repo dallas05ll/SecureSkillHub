@@ -26,11 +26,18 @@
       "category": "milestone",
       "description": "All 9 structured memory files created 2026-03-04. Previously described in MEMORY.md but never materialized.",
       "date": "2026-03-04"
+    },
+    {
+      "id": "memm-m-005",
+      "title": "Catalog alignment: installs field + unified priority",
+      "category": "schema_evolution",
+      "description": "New field 'installs' added to 4,801 agent skills. SM, SecM, PM memories updated with dual catalog knowledge. Total entries now across all roles.",
+      "date": "2026-03-04"
     }
   ],
   "metrics": {
     "layer1_files": 9,
-    "total_entries": 57,
+    "total_entries": 62,
     "last_audit": "2026-03-04",
     "roles_covered": [
       "vm",

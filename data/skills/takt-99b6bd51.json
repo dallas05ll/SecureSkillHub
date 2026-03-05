@@ -1,7 +1,7 @@
 {
   "id": "takt-99b6bd51",
   "name": "takt",
-  "description": "TAKT ピースエンジン。Agent Team を使ったマルチエージェントオーケストレーション。ピースYAMLワークフローに従ってマルチエージェントを実行する。",
+  "description": "TAKT \u30d4\u30fc\u30b9\u30a8\u30f3\u30b8\u30f3\u3002Agent Team \u3092\u4f7f\u3063\u305f\u30de\u30eb\u30c1\u30a8\u30fc\u30b8\u30a7\u30f3\u30c8\u30aa\u30fc\u30b1\u30b9\u30c8\u30ec\u30fc\u30b7\u30e7\u30f3\u3002\u30d4\u30fc\u30b9YAML\u30ef\u30fc\u30af\u30d5\u30ed\u30fc\u306b\u5f93\u3063\u3066\u30de\u30eb\u30c1\u30a8\u30fc\u30b8\u30a7\u30f3\u30c8\u3092\u5b9f\u884c\u3059\u308b\u3002",
   "repo_url": "https://github.com/nrslib/takt",
   "source_hub": "skillsmp",
   "skill_type": "agent_skill",
@@ -20,5 +20,6 @@
   "scan_summary": null,
   "repo_status": "available",
   "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
-  "repo_check_error": null
+  "repo_check_error": null,
+  "installs": 368
 }

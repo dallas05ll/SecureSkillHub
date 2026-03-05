@@ -1,7 +1,7 @@
 {
   "id": "tumiki-docs-update-guide-2fb49795",
   "name": "tumiki-docs-update-guide",
-  "description": "機能実装後のドキュメント（スキル、CLAUDE.md）更新を支援するガイド。\n変更検出、スキル更新のタイミング・手順、コード例の書き方を提供。\n「ドキュメント更新」「スキル更新」「CLAUDE.md修正」などのリクエスト時にトリガー。",
+  "description": "\u6a5f\u80fd\u5b9f\u88c5\u5f8c\u306e\u30c9\u30ad\u30e5\u30e1\u30f3\u30c8\uff08\u30b9\u30ad\u30eb\u3001CLAUDE.md\uff09\u66f4\u65b0\u3092\u652f\u63f4\u3059\u308b\u30ac\u30a4\u30c9\u3002\n\u5909\u66f4\u691c\u51fa\u3001\u30b9\u30ad\u30eb\u66f4\u65b0\u306e\u30bf\u30a4\u30df\u30f3\u30b0\u30fb\u624b\u9806\u3001\u30b3\u30fc\u30c9\u4f8b\u306e\u66f8\u304d\u65b9\u3092\u63d0\u4f9b\u3002\n\u300c\u30c9\u30ad\u30e5\u30e1\u30f3\u30c8\u66f4\u65b0\u300d\u300c\u30b9\u30ad\u30eb\u66f4\u65b0\u300d\u300cCLAUDE.md\u4fee\u6b63\u300d\u306a\u3069\u306e\u30ea\u30af\u30a8\u30b9\u30c8\u6642\u306b\u30c8\u30ea\u30ac\u30fc\u3002",
   "repo_url": "https://github.com/rayven122/tumiki",
   "source_hub": "skillsmp",
   "skill_type": "agent_skill",
@@ -20,5 +20,6 @@
   "scan_summary": null,
   "repo_status": "available",
   "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
-  "repo_check_error": null
+  "repo_check_error": null,
+  "installs": 10
 }

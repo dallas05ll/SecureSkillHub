@@ -1,7 +1,7 @@
 {
   "id": "build-737cb328",
   "name": "build",
-  "description": "Full build workflow — plan, build, test, validate. Manages tasks.json throughout every step. Use when user says 'build this', 'start building', 'implement this feature', or 'make this'. Not for single-file fixes — use /build-aos, /build-device, or /build-module directly.",
+  "description": "Full build workflow \u2014 plan, build, test, validate. Manages tasks.json throughout every step. Use when user says 'build this', 'start building', 'implement this feature', or 'make this'. Not for single-file fixes \u2014 use /build-aos, /build-device, or /build-module directly.",
   "repo_url": "https://github.com/arweaveoasis/wao",
   "source_hub": "skillsmp",
   "skill_type": "agent_skill",
@@ -20,5 +20,6 @@
   "scan_summary": null,
   "repo_status": "available",
   "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
-  "repo_check_error": null
+  "repo_check_error": null,
+  "installs": 31
 }

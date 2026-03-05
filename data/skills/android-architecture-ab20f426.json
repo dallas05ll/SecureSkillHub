@@ -67,14 +67,14 @@
         "rule_id": "regex_localhost_non_std",
         "severity": "high",
         "category": "suspicious_urls",
-        "file": "server/前端架构.md",
+        "file": "server/\u524d\u7aef\u67b6\u6784.md",
         "line": 26
       },
       {
         "rule_id": "regex_localhost_non_std",
         "severity": "high",
         "category": "suspicious_urls",
-        "file": "server/web/上手指南.md",
+        "file": "server/web/\u4e0a\u624b\u6307\u5357.md",
         "line": 26
       },
       {
@@ -214,5 +214,6 @@
       "original_status": "manual_review",
       "original_score": 78
     }
-  }
+  },
+  "installs": 55
 }

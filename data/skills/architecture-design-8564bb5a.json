@@ -1,7 +1,7 @@
 {
   "id": "architecture-design-8564bb5a",
   "name": "architecture-design",
-  "description": "アーキテクチャ設計書を作成するための詳細ガイドとテンプレート。アーキテクチャ設計時にのみ使用。",
+  "description": "\u30a2\u30fc\u30ad\u30c6\u30af\u30c1\u30e3\u8a2d\u8a08\u66f8\u3092\u4f5c\u6210\u3059\u308b\u305f\u3081\u306e\u8a73\u7d30\u30ac\u30a4\u30c9\u3068\u30c6\u30f3\u30d7\u30ec\u30fc\u30c8\u3002\u30a2\u30fc\u30ad\u30c6\u30af\u30c1\u30e3\u8a2d\u8a08\u6642\u306b\u306e\u307f\u4f7f\u7528\u3002",
   "repo_url": "https://github.com/generativeagents/claude-code-book-chapter8",
   "source_hub": "skillsmp",
   "skill_type": "agent_skill",
@@ -20,5 +20,6 @@
   "scan_summary": null,
   "repo_status": "available",
   "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
-  "repo_check_error": null
+  "repo_check_error": null,
+  "installs": 48
 }

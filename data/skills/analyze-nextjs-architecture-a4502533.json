@@ -1,7 +1,7 @@
 {
   "id": "analyze-nextjs-architecture-a4502533",
   "name": "analyze-nextjs-architecture",
-  "description": "Next.js 프로젝트의 아키텍처 건전성, 컴포넌트 패턴(서버/클라이언트), 그리고 보안 취약점을 분석합니다.",
+  "description": "Next.js \ud504\ub85c\uc81d\ud2b8\uc758 \uc544\ud0a4\ud14d\ucc98 \uac74\uc804\uc131, \ucef4\ud3ec\ub10c\ud2b8 \ud328\ud134(\uc11c\ubc84/\ud074\ub77c\uc774\uc5b8\ud2b8), \uadf8\ub9ac\uace0 \ubcf4\uc548 \ucde8\uc57d\uc810\uc744 \ubd84\uc11d\ud569\ub2c8\ub2e4.",
   "repo_url": "https://github.com/codefactory-co/golden-rabbit-antigravity-v1",
   "source_hub": "skillsmp",
   "skill_type": "agent_skill",
@@ -268,5 +268,6 @@
       "original_status": "manual_review",
       "original_score": 60
     }
-  }
+  },
+  "installs": 11
 }

@@ -1,7 +1,7 @@
 {
   "id": "factor-backtest-skill-6f8caf3a",
   "name": "factor-backtest-skill",
-  "description": "安全、高效地批量回测 8 个 Alpha 表达式，内置验证、熔断和异常处理机制。",
+  "description": "\u5b89\u5168\u3001\u9ad8\u6548\u5730\u6279\u91cf\u56de\u6d4b 8 \u4e2a Alpha \u8868\u8fbe\u5f0f\uff0c\u5185\u7f6e\u9a8c\u8bc1\u3001\u7194\u65ad\u548c\u5f02\u5e38\u5904\u7406\u673a\u5236\u3002",
   "repo_url": "https://github.com/grd-chang/worldquant-skill",
   "source_hub": "skillsmp",
   "skill_type": "agent_skill",
@@ -20,5 +20,6 @@
   "scan_summary": null,
   "repo_status": "available",
   "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
-  "repo_check_error": null
+  "repo_check_error": null,
+  "installs": 29
 }

@@ -1,7 +1,7 @@
 {
   "id": "openharmony-ui-reference-de13a860",
   "name": "openharmony-ui-reference",
-  "description": "用于使用 ArkTS 开发 OpenHarmony UI 时 - 查找布局、组件、状态管理、动画、导航,或处理缺少装饰器、状态不更新、渲染问题等错误",
+  "description": "\u7528\u4e8e\u4f7f\u7528 ArkTS \u5f00\u53d1 OpenHarmony UI \u65f6 - \u67e5\u627e\u5e03\u5c40\u3001\u7ec4\u4ef6\u3001\u72b6\u6001\u7ba1\u7406\u3001\u52a8\u753b\u3001\u5bfc\u822a,\u6216\u5904\u7406\u7f3a\u5c11\u88c5\u9970\u5668\u3001\u72b6\u6001\u4e0d\u66f4\u65b0\u3001\u6e32\u67d3\u95ee\u9898\u7b49\u9519\u8bef",
   "repo_url": "https://github.com/mengfei0053/skills",
   "source_hub": "skillsmp",
   "skill_type": "agent_skill",
@@ -20,5 +20,6 @@
   "scan_summary": null,
   "repo_status": "available",
   "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
-  "repo_check_error": null
+  "repo_check_error": null,
+  "installs": 14
 }

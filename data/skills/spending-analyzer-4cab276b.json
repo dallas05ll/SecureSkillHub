@@ -1,7 +1,7 @@
 {
   "id": "spending-analyzer-4cab276b",
   "name": "spending-analyzer",
-  "description": "THE ONLY SKILL for analyzing WHERE money goes. Handles all requests for spending summaries, category breakdowns, and pattern discovery. Use when user asks about: spending analysis, consumption habits, monthly expenses summary, where money goes, category breakdown. Triggers: 分析消费, 本月消费, 消费分析, 消费习惯, 钱花哪了, 钱都去哪了, 各类消费, 消费总结.",
+  "description": "THE ONLY SKILL for analyzing WHERE money goes. Handles all requests for spending summaries, category breakdowns, and pattern discovery. Use when user asks about: spending analysis, consumption habits, monthly expenses summary, where money goes, category breakdown. Triggers: \u5206\u6790\u6d88\u8d39, \u672c\u6708\u6d88\u8d39, \u6d88\u8d39\u5206\u6790, \u6d88\u8d39\u4e60\u60ef, \u94b1\u82b1\u54ea\u4e86, \u94b1\u90fd\u53bb\u54ea\u4e86, \u5404\u7c7b\u6d88\u8d39, \u6d88\u8d39\u603b\u7ed3.",
   "repo_url": "https://github.com/kylesean/augo",
   "source_hub": "skillsmp",
   "skill_type": "agent_skill",
@@ -20,5 +20,6 @@
   "scan_summary": null,
   "repo_status": "available",
   "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
-  "repo_check_error": null
+  "repo_check_error": null,
+  "installs": 32
 }

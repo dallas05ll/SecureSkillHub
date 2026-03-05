@@ -1,7 +1,7 @@
 {
   "id": "artifact-manifest-writer-db95c6cb",
   "name": "artifact-manifest-writer",
-  "description": "将一次执行的改动/命令/验证/产物整理成结构化 `manifest_<topic>.json`，并落盘到 `<MM_DD>/codex/artifact/`，用于证据链与可追溯交付。适用于“写manifest/记录证据链/把今天做了什么落成json/生成artifact清单”等请求。",
+  "description": "\u5c06\u4e00\u6b21\u6267\u884c\u7684\u6539\u52a8/\u547d\u4ee4/\u9a8c\u8bc1/\u4ea7\u7269\u6574\u7406\u6210\u7ed3\u6784\u5316 `manifest_<topic>.json`\uff0c\u5e76\u843d\u76d8\u5230 `<MM_DD>/codex/artifact/`\uff0c\u7528\u4e8e\u8bc1\u636e\u94fe\u4e0e\u53ef\u8ffd\u6eaf\u4ea4\u4ed8\u3002\u9002\u7528\u4e8e\u201c\u5199manifest/\u8bb0\u5f55\u8bc1\u636e\u94fe/\u628a\u4eca\u5929\u505a\u4e86\u4ec0\u4e48\u843d\u6210json/\u751f\u6210artifact\u6e05\u5355\u201d\u7b49\u8bf7\u6c42\u3002",
   "repo_url": "https://github.com/phmbench/phm-vibench",
   "source_hub": "skillsmp",
   "skill_type": "agent_skill",
@@ -20,5 +20,6 @@
   "scan_summary": null,
   "repo_status": "available",
   "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
-  "repo_check_error": null
+  "repo_check_error": null,
+  "installs": 9
 }

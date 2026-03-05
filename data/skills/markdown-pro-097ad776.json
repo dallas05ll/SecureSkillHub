@@ -1,7 +1,7 @@
 {
   "id": "markdown-pro-097ad776",
   "name": "markdown-pro",
-  "description": "세련된 README 파일, 변경 이력(changelog), 기여 가이드(contribution guide) 및 기술 문서를 작성하기 위한 전문가 수준의 Markdown 문서화 SKILL입니다. 사용 사례: (1) 배지와 섹션을 포함한 README 생성, (2) git 히스토리를 이용한 자동 변경 이력 생성, (3) 목차(table of contents) 생성, (4) 기여 가이드라인 작성, (5) 기술 문서 포맷팅, (6) 구문 강조(syntax highlighting)를 포함한 코드 문서화",
+  "description": "\uc138\ub828\ub41c README \ud30c\uc77c, \ubcc0\uacbd \uc774\ub825(changelog), \uae30\uc5ec \uac00\uc774\ub4dc(contribution guide) \ubc0f \uae30\uc220 \ubb38\uc11c\ub97c \uc791\uc131\ud558\uae30 \uc704\ud55c \uc804\ubb38\uac00 \uc218\uc900\uc758 Markdown \ubb38\uc11c\ud654 SKILL\uc785\ub2c8\ub2e4. \uc0ac\uc6a9 \uc0ac\ub840: (1) \ubc30\uc9c0\uc640 \uc139\uc158\uc744 \ud3ec\ud568\ud55c README \uc0dd\uc131, (2) git \ud788\uc2a4\ud1a0\ub9ac\ub97c \uc774\uc6a9\ud55c \uc790\ub3d9 \ubcc0\uacbd \uc774\ub825 \uc0dd\uc131, (3) \ubaa9\ucc28(table of contents) \uc0dd\uc131, (4) \uae30\uc5ec \uac00\uc774\ub4dc\ub77c\uc778 \uc791\uc131, (5) \uae30\uc220 \ubb38\uc11c \ud3ec\ub9f7\ud305, (6) \uad6c\ubb38 \uac15\uc870(syntax highlighting)\ub97c \ud3ec\ud568\ud55c \ucf54\ub4dc \ubb38\uc11c\ud654",
   "repo_url": "https://github.com/icartsh/icartsh_plugin",
   "source_hub": "skillsmp",
   "skill_type": "agent_skill",
@@ -21,5 +21,6 @@
   "scan_summary": null,
   "repo_status": "available",
   "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
-  "repo_check_error": null
+  "repo_check_error": null,
+  "installs": 11
 }

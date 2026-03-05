@@ -1,7 +1,7 @@
 {
   "id": "agentica-intro-ee677d41",
   "name": "agentica-intro",
-  "description": "Agentica 框架介绍。当用户询问 Agentica 的功能、如何创建 Agent、使用工具、配置模型或构建 AI 应用时使用此技能。",
+  "description": "Agentica \u6846\u67b6\u4ecb\u7ecd\u3002\u5f53\u7528\u6237\u8be2\u95ee Agentica \u7684\u529f\u80fd\u3001\u5982\u4f55\u521b\u5efa Agent\u3001\u4f7f\u7528\u5de5\u5177\u3001\u914d\u7f6e\u6a21\u578b\u6216\u6784\u5efa AI \u5e94\u7528\u65f6\u4f7f\u7528\u6b64\u6280\u80fd\u3002",
   "repo_url": "https://github.com/shibing624/agentica",
   "source_hub": "skillsmp",
   "skill_type": "agent_skill",
@@ -267,5 +267,6 @@
       "original_status": "fail",
       "original_score": 15
     }
-  }
+  },
+  "installs": 245
 }

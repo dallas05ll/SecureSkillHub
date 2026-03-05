@@ -1,7 +1,7 @@
 {
   "id": "aippt-7f863279",
   "name": "aippt",
-  "description": "AIPPT - 从文章生成精美 PPT 的完整工作流。文章内容 → ASCII PPT 框架 → AI 生图 → 完整 PPT。",
+  "description": "AIPPT - \u4ece\u6587\u7ae0\u751f\u6210\u7cbe\u7f8e PPT \u7684\u5b8c\u6574\u5de5\u4f5c\u6d41\u3002\u6587\u7ae0\u5185\u5bb9 \u2192 ASCII PPT \u6846\u67b6 \u2192 AI \u751f\u56fe \u2192 \u5b8c\u6574 PPT\u3002",
   "repo_url": "https://github.com/ceeon/aippt2",
   "source_hub": "skillsmp",
   "skill_type": "agent_skill",
@@ -117,5 +117,6 @@
       "override_reason": null
     },
     "manager_summary": "5/5 agents completed. Score: 98/100, Risk: medium. 0 mismatches, 1 scanner findings. Approved at 95% confidence. No safety overrides."
-  }
+  },
+  "installs": 76
 }

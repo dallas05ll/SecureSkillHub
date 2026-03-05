@@ -1,7 +1,7 @@
 {
   "id": "verify-composite-expansion-2e63c656",
   "name": "verify-composite-expansion",
-  "description": "Verify composite action expansion output by comparing CLI-generated mermaid charts with actual GitHub Actions logs. Use when testing or debugging the --expand-composite-actions feature against any GitHub Actions workflow run. Triggered by requests like \"composite展開を検証\", \"verify composite expansion\", or \"compare CLI output with logs\".",
+  "description": "Verify composite action expansion output by comparing CLI-generated mermaid charts with actual GitHub Actions logs. Use when testing or debugging the --expand-composite-actions feature against any GitHub Actions workflow run. Triggered by requests like \"composite\u5c55\u958b\u3092\u691c\u8a3c\", \"verify composite expansion\", or \"compare CLI output with logs\".",
   "repo_url": "https://github.com/kesin11/actions-timeline",
   "source_hub": "skillsmp",
   "skill_type": "agent_skill",
@@ -24,5 +24,6 @@
   "scan_summary": null,
   "repo_status": "available",
   "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
-  "repo_check_error": null
+  "repo_check_error": null,
+  "installs": 326
 }

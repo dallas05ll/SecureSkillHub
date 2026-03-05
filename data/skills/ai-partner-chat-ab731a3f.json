@@ -1,7 +1,7 @@
 {
   "id": "ai-partner-chat-ab731a3f",
   "name": "ai-partner-chat",
-  "description": "基于用户画像和向量化笔记提供个性化对话。当用户需要个性化交流、上下文感知的回应，或希望 AI 记住并引用其之前的想法和笔记时使用。",
+  "description": "\u57fa\u4e8e\u7528\u6237\u753b\u50cf\u548c\u5411\u91cf\u5316\u7b14\u8bb0\u63d0\u4f9b\u4e2a\u6027\u5316\u5bf9\u8bdd\u3002\u5f53\u7528\u6237\u9700\u8981\u4e2a\u6027\u5316\u4ea4\u6d41\u3001\u4e0a\u4e0b\u6587\u611f\u77e5\u7684\u56de\u5e94\uff0c\u6216\u5e0c\u671b AI \u8bb0\u4f4f\u5e76\u5f15\u7528\u5176\u4e4b\u524d\u7684\u60f3\u6cd5\u548c\u7b14\u8bb0\u65f6\u4f7f\u7528\u3002",
   "repo_url": "https://github.com/eze-is/ai-partner-chat",
   "source_hub": "skillsmp",
   "skill_type": "agent_skill",
@@ -120,5 +120,6 @@
       "override_reason": null
     },
     "manager_summary": "5/5 agents completed. Score: 100/100, Risk: low. 0 mismatches, 1 scanner findings. Approved at 95% confidence. No safety overrides."
-  }
+  },
+  "installs": 199
 }

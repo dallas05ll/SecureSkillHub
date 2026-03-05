@@ -1,7 +1,7 @@
 {
   "id": "alma-skill-sync-a3eea94e",
   "name": "alma-skill-sync",
-  "description": "用于同步 Alma 技能到斜杠命令（Prompts）列表。当用户新增技能、修改技能名称或需要清理无效的快捷指令时使用。",
+  "description": "\u7528\u4e8e\u540c\u6b65 Alma \u6280\u80fd\u5230\u659c\u6760\u547d\u4ee4\uff08Prompts\uff09\u5217\u8868\u3002\u5f53\u7528\u6237\u65b0\u589e\u6280\u80fd\u3001\u4fee\u6539\u6280\u80fd\u540d\u79f0\u6216\u9700\u8981\u6e05\u7406\u65e0\u6548\u7684\u5feb\u6377\u6307\u4ee4\u65f6\u4f7f\u7528\u3002",
   "repo_url": "https://github.com/ttmouse/skills",
   "source_hub": "skillsmp",
   "skill_type": "agent_skill",
@@ -267,5 +267,6 @@
       "original_status": "manual_review",
       "original_score": 60
     }
-  }
+  },
+  "installs": 35
 }

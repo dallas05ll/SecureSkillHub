@@ -1,7 +1,7 @@
 {
   "id": "check-app-stats-971d892b",
   "name": "check-app-stats",
-  "description": "このアプリの利用統計を確認（Cognitoユーザー数、AgentCore呼び出し回数、Bedrockコスト、Tavily API残量）",
+  "description": "\u3053\u306e\u30a2\u30d7\u30ea\u306e\u5229\u7528\u7d71\u8a08\u3092\u78ba\u8a8d\uff08Cognito\u30e6\u30fc\u30b6\u30fc\u6570\u3001AgentCore\u547c\u3073\u51fa\u3057\u56de\u6570\u3001Bedrock\u30b3\u30b9\u30c8\u3001Tavily API\u6b8b\u91cf\uff09",
   "repo_url": "https://github.com/minorun365/marp-agent",
   "source_hub": "skillsmp",
   "skill_type": "agent_skill",
@@ -20,5 +20,6 @@
   "scan_summary": null,
   "repo_status": "available",
   "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
-  "repo_check_error": null
+  "repo_check_error": null,
+  "installs": 54
 }

@@ -1,7 +1,7 @@
 {
   "id": "vtable-development-assistant-d2e394ef",
   "name": "vtable-development-assistant",
-  "description": "帮助用户使用 @visactor/vtable 进行高性能表格组件开发，涵盖 ListTable、PivotTable、PivotChart 三种表格类型、13 种单元格类型、样式主题、自定义渲染、事件系统和完整 API。",
+  "description": "\u5e2e\u52a9\u7528\u6237\u4f7f\u7528 @visactor/vtable \u8fdb\u884c\u9ad8\u6027\u80fd\u8868\u683c\u7ec4\u4ef6\u5f00\u53d1\uff0c\u6db5\u76d6 ListTable\u3001PivotTable\u3001PivotChart \u4e09\u79cd\u8868\u683c\u7c7b\u578b\u300113 \u79cd\u5355\u5143\u683c\u7c7b\u578b\u3001\u6837\u5f0f\u4e3b\u9898\u3001\u81ea\u5b9a\u4e49\u6e32\u67d3\u3001\u4e8b\u4ef6\u7cfb\u7edf\u548c\u5b8c\u6574 API\u3002",
   "repo_url": "https://github.com/visactor/vtable",
   "source_hub": "skillsmp",
   "skill_type": "agent_skill",
@@ -20,5 +20,6 @@
   "scan_summary": null,
   "repo_status": "available",
   "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
-  "repo_check_error": null
+  "repo_check_error": null,
+  "installs": 3425
 }

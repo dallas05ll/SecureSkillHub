@@ -1,7 +1,7 @@
 {
   "id": "document-illustrator-48d9cbf1",
   "name": "document-illustrator",
-  "description": "基于文档内容自动生成配图。AI 智能分析文档结构，归纳核心要点， 为每个主题生成符合特定风格的配图。支持封面图生成和自定义图片比例。 使用场景：当用户需要为文档、文章、笔记生成配图时。 关键词：配图、插图、illustration、generate images、document images",
+  "description": "\u57fa\u4e8e\u6587\u6863\u5185\u5bb9\u81ea\u52a8\u751f\u6210\u914d\u56fe\u3002AI \u667a\u80fd\u5206\u6790\u6587\u6863\u7ed3\u6784\uff0c\u5f52\u7eb3\u6838\u5fc3\u8981\u70b9\uff0c \u4e3a\u6bcf\u4e2a\u4e3b\u9898\u751f\u6210\u7b26\u5408\u7279\u5b9a\u98ce\u683c\u7684\u914d\u56fe\u3002\u652f\u6301\u5c01\u9762\u56fe\u751f\u6210\u548c\u81ea\u5b9a\u4e49\u56fe\u7247\u6bd4\u4f8b\u3002 \u4f7f\u7528\u573a\u666f\uff1a\u5f53\u7528\u6237\u9700\u8981\u4e3a\u6587\u6863\u3001\u6587\u7ae0\u3001\u7b14\u8bb0\u751f\u6210\u914d\u56fe\u65f6\u3002 \u5173\u952e\u8bcd\uff1a\u914d\u56fe\u3001\u63d2\u56fe\u3001illustration\u3001generate images\u3001document images",
   "repo_url": "https://github.com/op7418/document-illustrator-skill",
   "source_hub": "skillsmp",
   "skill_type": "agent_skill",
@@ -21,5 +21,6 @@
   "scan_summary": null,
   "repo_status": "available",
   "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
-  "repo_check_error": null
+  "repo_check_error": null,
+  "installs": 245
 }

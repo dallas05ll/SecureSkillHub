@@ -1,7 +1,7 @@
 {
   "id": "jianying-editor-c9153d2a",
   "name": "jianying-editor",
-  "description": "剪映 (JianYing) AI自动化剪辑的高级封装 API (JyWrapper)。提供开箱即用的 Python 接口，支持录屏、素材导入、字幕生成、Web 动效合成及项目导出。",
+  "description": "\u526a\u6620 (JianYing) AI\u81ea\u52a8\u5316\u526a\u8f91\u7684\u9ad8\u7ea7\u5c01\u88c5 API (JyWrapper)\u3002\u63d0\u4f9b\u5f00\u7bb1\u5373\u7528\u7684 Python \u63a5\u53e3\uff0c\u652f\u6301\u5f55\u5c4f\u3001\u7d20\u6750\u5bfc\u5165\u3001\u5b57\u5e55\u751f\u6210\u3001Web \u52a8\u6548\u5408\u6210\u53ca\u9879\u76ee\u5bfc\u51fa\u3002",
   "repo_url": "https://github.com/luoluoluo22/jianying-editor-skill",
   "source_hub": "skillsmp",
   "skill_type": "agent_skill",
@@ -24,5 +24,6 @@
   "scan_summary": null,
   "repo_status": "available",
   "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
-  "repo_check_error": null
+  "repo_check_error": null,
+  "installs": 243
 }

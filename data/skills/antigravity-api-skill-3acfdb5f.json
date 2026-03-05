@@ -1,7 +1,7 @@
 {
   "id": "antigravity-api-skill-3acfdb5f",
   "name": "antigravity-api-skill",
-  "description": "当用户需要使用 Antigravity 反代出来的 API (Gemini 3 Flash,Gemini 3 pro, banana生图, 视频分析理解) 时使用此技能。",
+  "description": "\u5f53\u7528\u6237\u9700\u8981\u4f7f\u7528 Antigravity \u53cd\u4ee3\u51fa\u6765\u7684 API (Gemini 3 Flash,Gemini 3 pro, banana\u751f\u56fe, \u89c6\u9891\u5206\u6790\u7406\u89e3) \u65f6\u4f7f\u7528\u6b64\u6280\u80fd\u3002",
   "repo_url": "https://github.com/luoluoluo22/antigravity-api-skill",
   "source_hub": "skillsmp",
   "skill_type": "agent_skill",
@@ -22,5 +22,6 @@
   "scan_summary": null,
   "repo_status": "available",
   "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
-  "repo_check_error": null
+  "repo_check_error": null,
+  "installs": 18
 }

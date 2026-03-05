@@ -1,7 +1,7 @@
 {
   "id": "artifact-builder-b9a2be06",
   "name": "artifact-builder",
-  "description": "动作型 Skill：通过 skill_exec 执行 actions/ 脚本，生成可审计产物。",
+  "description": "\u52a8\u4f5c\u578b Skill\uff1a\u901a\u8fc7 skill_exec \u6267\u884c actions/ \u811a\u672c\uff0c\u751f\u6210\u53ef\u5ba1\u8ba1\u4ea7\u7269\u3002",
   "repo_url": "https://github.com/okwinds/skills-runtime-sdk",
   "source_hub": "skillsmp",
   "skill_type": "agent_skill",
@@ -20,5 +20,6 @@
   "scan_summary": null,
   "repo_status": "available",
   "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
-  "repo_check_error": null
+  "repo_check_error": null,
+  "installs": 18
 }

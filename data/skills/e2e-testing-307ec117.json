@@ -1,7 +1,7 @@
 {
   "id": "e2e-testing-307ec117",
   "name": "e2e-testing",
-  "description": "AI-powered E2E testing for any app — Flutter, React Native, iOS, Android, Electron, Tauri, KMP, .NET MAUI. Test 8 platforms with natural language through MCP. No test code needed. Just describe what to test and the agent sees screenshots, taps elements, enters text, scrolls, and verifies UI state automatically.",
+  "description": "AI-powered E2E testing for any app \u2014 Flutter, React Native, iOS, Android, Electron, Tauri, KMP, .NET MAUI. Test 8 platforms with natural language through MCP. No test code needed. Just describe what to test and the agent sees screenshots, taps elements, enters text, scrolls, and verifies UI state automatically.",
   "repo_url": "https://github.com/ai-dashboad/flutter-skill",
   "source_hub": "skillsmp",
   "skill_type": "agent_skill",
@@ -34,5 +34,6 @@
   "scan_summary": null,
   "repo_status": "available",
   "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
-  "repo_check_error": null
+  "repo_check_error": null,
+  "installs": 13
 }

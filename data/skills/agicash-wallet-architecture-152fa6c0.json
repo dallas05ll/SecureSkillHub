@@ -1,7 +1,7 @@
 {
   "id": "agicash-wallet-architecture-152fa6c0",
   "name": "agicash-wallet-architecture",
-  "description": "Agicash wallet system architecture — components, their responsibilities, and interactions. Use when working on cross-component concerns like server routes, client-server communication, Open Secret integration, encryption/decryption flows, Supabase Realtime subscriptions, or when deciding where new functionality should live (server vs client). Also use when modifying Lightning Address routes, SSR behavior, or database access patterns.",
+  "description": "Agicash wallet system architecture \u2014 components, their responsibilities, and interactions. Use when working on cross-component concerns like server routes, client-server communication, Open Secret integration, encryption/decryption flows, Supabase Realtime subscriptions, or when deciding where new functionality should live (server vs client). Also use when modifying Lightning Address routes, SSR behavior, or database access patterns.",
   "repo_url": "https://github.com/makeprisms/agicash",
   "source_hub": "skillsmp",
   "skill_type": "agent_skill",
@@ -271,5 +271,6 @@
       "original_status": "manual_review",
       "original_score": 60
     }
-  }
+  },
+  "installs": 49
 }

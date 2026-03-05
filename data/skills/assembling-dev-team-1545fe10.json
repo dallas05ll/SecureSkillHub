@@ -1,7 +1,7 @@
 {
   "id": "assembling-dev-team-1545fe10",
   "name": "assembling-dev-team",
-  "description": "「開発チーム集合」「チームで実装」「チーム編成して」の言及時に使用。プランファイルに基づいて実装・リリース・レビュー・プラン更新の4担当をスポーンし、ステップごとに実装→レビュー→リリースのサイクルを回す。",
+  "description": "\u300c\u958b\u767a\u30c1\u30fc\u30e0\u96c6\u5408\u300d\u300c\u30c1\u30fc\u30e0\u3067\u5b9f\u88c5\u300d\u300c\u30c1\u30fc\u30e0\u7de8\u6210\u3057\u3066\u300d\u306e\u8a00\u53ca\u6642\u306b\u4f7f\u7528\u3002\u30d7\u30e9\u30f3\u30d5\u30a1\u30a4\u30eb\u306b\u57fa\u3065\u3044\u3066\u5b9f\u88c5\u30fb\u30ea\u30ea\u30fc\u30b9\u30fb\u30ec\u30d3\u30e5\u30fc\u30fb\u30d7\u30e9\u30f3\u66f4\u65b0\u306e4\u62c5\u5f53\u3092\u30b9\u30dd\u30fc\u30f3\u3057\u3001\u30b9\u30c6\u30c3\u30d7\u3054\u3068\u306b\u5b9f\u88c5\u2192\u30ec\u30d3\u30e5\u30fc\u2192\u30ea\u30ea\u30fc\u30b9\u306e\u30b5\u30a4\u30af\u30eb\u3092\u56de\u3059\u3002",
   "repo_url": "https://github.com/syou6162/claude-code-commands",
   "source_hub": "skillsmp",
   "skill_type": "agent_skill",
@@ -20,5 +20,6 @@
   "scan_summary": null,
   "repo_status": "available",
   "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
-  "repo_check_error": null
+  "repo_check_error": null,
+  "installs": 11
 }

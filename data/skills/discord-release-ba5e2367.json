@@ -1,7 +1,7 @@
 {
   "id": "discord-release-ba5e2367",
   "name": "discord-release",
-  "description": "X投稿ドラフトから Discord 向けメッセージを生成し webhook で投稿する。/release-xpost 完了後に実行。",
+  "description": "X\u6295\u7a3f\u30c9\u30e9\u30d5\u30c8\u304b\u3089 Discord \u5411\u3051\u30e1\u30c3\u30bb\u30fc\u30b8\u3092\u751f\u6210\u3057 webhook \u3067\u6295\u7a3f\u3059\u308b\u3002/release-xpost \u5b8c\u4e86\u5f8c\u306b\u5b9f\u884c\u3002",
   "repo_url": "https://github.com/receptron/mulmocast-app",
   "source_hub": "skillsmp",
   "skill_type": "agent_skill",
@@ -22,5 +22,6 @@
   "scan_summary": null,
   "repo_status": "available",
   "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
-  "repo_check_error": null
+  "repo_check_error": null,
+  "installs": 37
 }

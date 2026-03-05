@@ -1,7 +1,7 @@
 {
   "id": "shioaji-c04bd94d",
   "name": "shioaji",
-  "description": "Shioaji Taiwan financial trading API guide. Use when trading stocks/futures/options on Taiwan markets, subscribing to real-time market data, querying account info, or building automated trading systems.\nShioaji 台灣金融交易 API 指南。適用於：股票/期貨/選擇權交易、即時行情訂閱、帳務查詢、自動交易系統開發。",
+  "description": "Shioaji Taiwan financial trading API guide. Use when trading stocks/futures/options on Taiwan markets, subscribing to real-time market data, querying account info, or building automated trading systems.\nShioaji \u53f0\u7063\u91d1\u878d\u4ea4\u6613 API \u6307\u5357\u3002\u9069\u7528\u65bc\uff1a\u80a1\u7968/\u671f\u8ca8/\u9078\u64c7\u6b0a\u4ea4\u6613\u3001\u5373\u6642\u884c\u60c5\u8a02\u95b1\u3001\u5e33\u52d9\u67e5\u8a62\u3001\u81ea\u52d5\u4ea4\u6613\u7cfb\u7d71\u958b\u767c\u3002",
   "repo_url": "https://github.com/sinotrade/shioaji",
   "source_hub": "skillsmp",
   "skill_type": "agent_skill",
@@ -23,5 +23,6 @@
   "scan_summary": null,
   "repo_status": "available",
   "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
-  "repo_check_error": null
+  "repo_check_error": null,
+  "installs": 236
 }

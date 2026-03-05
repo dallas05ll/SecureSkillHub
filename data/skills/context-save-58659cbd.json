@@ -1,7 +1,7 @@
 {
   "id": "context-save-58659cbd",
   "name": "context-save",
-  "description": "当用户发送\"换窗口处理-\"时调用。总结当前窗口的上下文信息、已完成任务、未完成任务，保存到 docs/context-sessions/ 目录，便于新窗口恢复。",
+  "description": "\u5f53\u7528\u6237\u53d1\u9001\"\u6362\u7a97\u53e3\u5904\u7406-\"\u65f6\u8c03\u7528\u3002\u603b\u7ed3\u5f53\u524d\u7a97\u53e3\u7684\u4e0a\u4e0b\u6587\u4fe1\u606f\u3001\u5df2\u5b8c\u6210\u4efb\u52a1\u3001\u672a\u5b8c\u6210\u4efb\u52a1\uff0c\u4fdd\u5b58\u5230 docs/context-sessions/ \u76ee\u5f55\uff0c\u4fbf\u4e8e\u65b0\u7a97\u53e3\u6062\u590d\u3002",
   "repo_url": "https://github.com/claudate/claude-code-context-sync",
   "source_hub": "skillsmp",
   "skill_type": "agent_skill",
@@ -20,5 +20,6 @@
   "scan_summary": null,
   "repo_status": "available",
   "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
-  "repo_check_error": null
+  "repo_check_error": null,
+  "installs": 18
 }

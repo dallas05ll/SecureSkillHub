@@ -1,7 +1,7 @@
 {
   "id": "change-report-4444634a",
   "name": "change-report",
-  "description": "Git 변경 사항을 분석하고 코드베이스를 탐색하여 상세 변경 보고서를 생성합니다. Mermaid 다이어그램(기능→시퀀스, 리팩토링→플로우차트), file:line 코드 링크, before/after 비교, 영향 범위 분석, 테스트 커버리지를 포함합니다. 트리거: \"/change-report\", \"변경 보고서 작성해줘\", \"변경 사항 정리해줘\", \"이번 브랜치 작업 정리\", \"what changed\", \"summarize changes\" 요청 시 사용.",
+  "description": "Git \ubcc0\uacbd \uc0ac\ud56d\uc744 \ubd84\uc11d\ud558\uace0 \ucf54\ub4dc\ubca0\uc774\uc2a4\ub97c \ud0d0\uc0c9\ud558\uc5ec \uc0c1\uc138 \ubcc0\uacbd \ubcf4\uace0\uc11c\ub97c \uc0dd\uc131\ud569\ub2c8\ub2e4. Mermaid \ub2e4\uc774\uc5b4\uadf8\ub7a8(\uae30\ub2a5\u2192\uc2dc\ud000\uc2a4, \ub9ac\ud329\ud1a0\ub9c1\u2192\ud50c\ub85c\uc6b0\ucc28\ud2b8), file:line \ucf54\ub4dc \ub9c1\ud06c, before/after \ube44\uad50, \uc601\ud5a5 \ubc94\uc704 \ubd84\uc11d, \ud14c\uc2a4\ud2b8 \ucee4\ubc84\ub9ac\uc9c0\ub97c \ud3ec\ud568\ud569\ub2c8\ub2e4. \ud2b8\ub9ac\uac70: \"/change-report\", \"\ubcc0\uacbd \ubcf4\uace0\uc11c \uc791\uc131\ud574\uc918\", \"\ubcc0\uacbd \uc0ac\ud56d \uc815\ub9ac\ud574\uc918\", \"\uc774\ubc88 \ube0c\ub79c\uce58 \uc791\uc5c5 \uc815\ub9ac\", \"what changed\", \"summarize changes\" \uc694\uccad \uc2dc \uc0ac\uc6a9.",
   "repo_url": "https://github.com/woowacourse-teams/2025-moment",
   "source_hub": "skillsmp",
   "skill_type": "agent_skill",
@@ -22,5 +22,6 @@
   "scan_summary": null,
   "repo_status": "available",
   "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
-  "repo_check_error": null
+  "repo_check_error": null,
+  "installs": 10
 }

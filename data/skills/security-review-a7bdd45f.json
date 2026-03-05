@@ -1,7 +1,7 @@
 {
   "id": "security-review-a7bdd45f",
   "name": "security-review",
-  "description": "在添加身份验证、处理用户输入、使用机密信息、创建 API 端点或实现支付/敏感功能时使用此技能。提供全面的安全清单和模式。",
+  "description": "\u5728\u6dfb\u52a0\u8eab\u4efd\u9a8c\u8bc1\u3001\u5904\u7406\u7528\u6237\u8f93\u5165\u3001\u4f7f\u7528\u673a\u5bc6\u4fe1\u606f\u3001\u521b\u5efa API \u7aef\u70b9\u6216\u5b9e\u73b0\u652f\u4ed8/\u654f\u611f\u529f\u80fd\u65f6\u4f7f\u7528\u6b64\u6280\u80fd\u3002\u63d0\u4f9b\u5168\u9762\u7684\u5b89\u5168\u6e05\u5355\u548c\u6a21\u5f0f\u3002",
   "repo_url": "https://github.com/cfrs2005/claude-init",
   "source_hub": "skillsmp",
   "skill_type": "agent_skill",
@@ -21,5 +21,6 @@
   "scan_summary": null,
   "repo_status": "available",
   "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
-  "repo_check_error": null
+  "repo_check_error": null,
+  "installs": 1058
 }

@@ -1,7 +1,7 @@
 {
   "id": "remotion-video-95531006",
   "name": "remotion-video",
-  "description": "使用 Remotion 框架以编程方式创建视频。Remotion 让你用 React 组件定义视频内容，支持动画、字幕、音乐可视化等。\n触发词：\n- \"用代码做视频\"、\"编程视频\"、\"React 视频\"\n- \"Remotion\"、\"remotion\"\n- \"/remotion-video\"\n适用场景：\n- 程序化视频：(1) 批量生成 (2) 数据驱动（如年度总结）(3) 音乐可视化 (4) 自动字幕\n- 教程讲解视频：(5) 技术概念可视化（如 CNN、算法）(6) 分层递进讲解 (7) AI 配音教程\n- 3D 视频：(8) 产品展示/模型动画 (9) 卡通角色讲解 (10) 3D 数据可视化 (11) Logo 动画",
+  "description": "\u4f7f\u7528 Remotion \u6846\u67b6\u4ee5\u7f16\u7a0b\u65b9\u5f0f\u521b\u5efa\u89c6\u9891\u3002Remotion \u8ba9\u4f60\u7528 React \u7ec4\u4ef6\u5b9a\u4e49\u89c6\u9891\u5185\u5bb9\uff0c\u652f\u6301\u52a8\u753b\u3001\u5b57\u5e55\u3001\u97f3\u4e50\u53ef\u89c6\u5316\u7b49\u3002\n\u89e6\u53d1\u8bcd\uff1a\n- \"\u7528\u4ee3\u7801\u505a\u89c6\u9891\"\u3001\"\u7f16\u7a0b\u89c6\u9891\"\u3001\"React \u89c6\u9891\"\n- \"Remotion\"\u3001\"remotion\"\n- \"/remotion-video\"\n\u9002\u7528\u573a\u666f\uff1a\n- \u7a0b\u5e8f\u5316\u89c6\u9891\uff1a(1) \u6279\u91cf\u751f\u6210 (2) \u6570\u636e\u9a71\u52a8\uff08\u5982\u5e74\u5ea6\u603b\u7ed3\uff09(3) \u97f3\u4e50\u53ef\u89c6\u5316 (4) \u81ea\u52a8\u5b57\u5e55\n- \u6559\u7a0b\u8bb2\u89e3\u89c6\u9891\uff1a(5) \u6280\u672f\u6982\u5ff5\u53ef\u89c6\u5316\uff08\u5982 CNN\u3001\u7b97\u6cd5\uff09(6) \u5206\u5c42\u9012\u8fdb\u8bb2\u89e3 (7) AI \u914d\u97f3\u6559\u7a0b\n- 3D \u89c6\u9891\uff1a(8) \u4ea7\u54c1\u5c55\u793a/\u6a21\u578b\u52a8\u753b (9) \u5361\u901a\u89d2\u8272\u8bb2\u89e3 (10) 3D \u6570\u636e\u53ef\u89c6\u5316 (11) Logo \u52a8\u753b",
   "repo_url": "https://github.com/wshuyi/remotion-video-skill",
   "source_hub": "skillsmp",
   "skill_type": "agent_skill",
@@ -25,5 +25,6 @@
   "scan_summary": null,
   "repo_status": "available",
   "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
-  "repo_check_error": null
+  "repo_check_error": null,
+  "installs": 80
 }

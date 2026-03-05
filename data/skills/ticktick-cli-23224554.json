@@ -1,7 +1,7 @@
 {
   "id": "ticktick-cli-23224554",
   "name": "ticktick-cli",
-  "description": "使用 Python CLI 与 Dida365 Open API 交互以管理滴答清单任务/项目，适用于需要通过脚本或命令行调用滴答清单接口的场景（如项目/任务的查询、创建、更新、完成、删除）。",
+  "description": "\u4f7f\u7528 Python CLI \u4e0e Dida365 Open API \u4ea4\u4e92\u4ee5\u7ba1\u7406\u6ef4\u7b54\u6e05\u5355\u4efb\u52a1/\u9879\u76ee\uff0c\u9002\u7528\u4e8e\u9700\u8981\u901a\u8fc7\u811a\u672c\u6216\u547d\u4ee4\u884c\u8c03\u7528\u6ef4\u7b54\u6e05\u5355\u63a5\u53e3\u7684\u573a\u666f\uff08\u5982\u9879\u76ee/\u4efb\u52a1\u7684\u67e5\u8be2\u3001\u521b\u5efa\u3001\u66f4\u65b0\u3001\u5b8c\u6210\u3001\u5220\u9664\uff09\u3002",
   "repo_url": "https://github.com/dcjanus/prompts",
   "source_hub": "skillsmp",
   "skill_type": "agent_skill",
@@ -24,5 +24,6 @@
   "scan_summary": null,
   "repo_status": "available",
   "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
-  "repo_check_error": null
+  "repo_check_error": null,
+  "installs": 22
 }

@@ -1,7 +1,7 @@
 {
   "id": "podcastfy-clawdbot-b67d34c2",
   "name": "podcastfy-clawdbot",
-  "description": "Generate an AI podcast (MP3) from one or more URLs using the open-source Podcastfy project. Use when the user says “make a podcast from this URL/article/video/PDF”, “turn this webpage into a podcast”, or wants an MP3 conversation-style summary from links. Uses Gemini for transcript generation via GEMINI_API_KEY and Edge TTS for free voice.",
+  "description": "Generate an AI podcast (MP3) from one or more URLs using the open-source Podcastfy project. Use when the user says \u201cmake a podcast from this URL/article/video/PDF\u201d, \u201cturn this webpage into a podcast\u201d, or wants an MP3 conversation-style summary from links. Uses Gemini for transcript generation via GEMINI_API_KEY and Edge TTS for free voice.",
   "repo_url": "https://github.com/win4r/podcastfy-clawdbot-skill",
   "source_hub": "skillsmp",
   "skill_type": "agent_skill",
@@ -24,5 +24,6 @@
   "scan_summary": null,
   "repo_status": "available",
   "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
-  "repo_check_error": null
+  "repo_check_error": null,
+  "installs": 14
 }

@@ -1,7 +1,7 @@
 {
   "id": "improve-prompt-b88cc8e4",
   "name": "improve-prompt",
-  "description": "나노바나나 프롬프트의 정확성을 한글 번역본과 비교하여 검증하고,\nWebSearch로 팩트체크한 후 이슈별로 사용자 확인을 거쳐 수정합니다.\n사용: /improve-prompt week1/deep-dive-llms/tokenization",
+  "description": "\ub098\ub178\ubc14\ub098\ub098 \ud504\ub86c\ud504\ud2b8\uc758 \uc815\ud655\uc131\uc744 \ud55c\uae00 \ubc88\uc5ed\ubcf8\uacfc \ube44\uad50\ud558\uc5ec \uac80\uc99d\ud558\uace0,\nWebSearch\ub85c \ud329\ud2b8\uccb4\ud06c\ud55c \ud6c4 \uc774\uc288\ubcc4\ub85c \uc0ac\uc6a9\uc790 \ud655\uc778\uc744 \uac70\uccd0 \uc218\uc815\ud569\ub2c8\ub2e4.\n\uc0ac\uc6a9: /improve-prompt week1/deep-dive-llms/tokenization",
   "repo_url": "https://github.com/team-attention/stanford-cs146s-kr",
   "source_hub": "skillsmp",
   "skill_type": "agent_skill",
@@ -22,5 +22,6 @@
   "scan_summary": null,
   "repo_status": "available",
   "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
-  "repo_check_error": null
+  "repo_check_error": null,
+  "installs": 252
 }

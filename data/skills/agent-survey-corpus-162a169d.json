@@ -1,7 +1,7 @@
 {
   "id": "agent-survey-corpus-162a169d",
   "name": "agent-survey-corpus",
-  "description": "Download a small corpus of open-access arXiv survey/review PDFs about LLM agents and extract text for style learning.\n**Trigger**: agent survey corpus, ref corpus, download surveys, 学习综述写法, 下载 survey.\n**Use when**: you want to study how real agent surveys structure sections (6–8 H2), size subsections, and write evidence-backed comparisons.\n**Skip if**: you cannot download PDFs (no network) or you don't want local PDF files.\n**Network**: required.\n**Guardrail**: only download arXiv PDFs; store...",
+  "description": "Download a small corpus of open-access arXiv survey/review PDFs about LLM agents and extract text for style learning.\n**Trigger**: agent survey corpus, ref corpus, download surveys, \u5b66\u4e60\u7efc\u8ff0\u5199\u6cd5, \u4e0b\u8f7d survey.\n**Use when**: you want to study how real agent surveys structure sections (6\u20138 H2), size subsections, and write evidence-backed comparisons.\n**Skip if**: you cannot download PDFs (no network) or you don't want local PDF files.\n**Network**: required.\n**Guardrail**: only download arXiv PDFs; store...",
   "repo_url": "https://github.com/willoscar/research-units-pipeline-skills",
   "source_hub": "skillsmp",
   "skill_type": "agent_skill",
@@ -249,5 +249,6 @@
       "override_reason": null
     },
     "manager_summary": "5/5 agents completed. Score: 88/100, Risk: medium. 0 mismatches, 19 scanner findings. Approved at 88% confidence. No safety overrides."
-  }
+  },
+  "installs": 209
 }
