@@ -1,0 +1,16 @@
+{
+  "name": "SecureSkillHub",
+  "description": "Security-first directory of AI agent skills and MCP servers with multi-agent verification.",
+  "entry_point": "site/entry.md",
+  "api_base": "site/api",
+  "endpoints": {
+    "entry": "site/entry.md",
+    "stats": "site/api/stats.json",
+    "skills_index": "site/api/skills/index.json",
+    "tags": "site/api/tags.json",
+    "search_index": "site/api/search-index.json",
+    "indexes": "site/api/indexes/manifest.json"
+  },
+  "instructions": "Start by reading site/entry.md for the full agent discovery flow. Do NOT parse index.html — it is a human-facing frontend. All paths are relative to the repository/site root.",
+  "version": "1.2"
+}
