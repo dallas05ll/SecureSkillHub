@@ -234,7 +234,7 @@ User: "Show me database MCP servers"
 
 Agent: (fetches api/skills/by-tag/data-db.json)
 Agent -> User:
-  "Top database MCP servers (261 total, 21 verified):
+  "Top database MCP servers (405 total, 177 verified):
    1. mcp-supabase (Score: 87, 2486 stars, verified) -- Supabase integration
    2. postgres-mcp (Score: 78, 2188 stars, verified) -- PostgreSQL access
    3. dbhub (Score: 80, 2177 stars, verified) -- Universal database hub
@@ -341,4 +341,5 @@ If the user says "install my usual stack" or "set up my tools":
 - Use the `skill_type` field to filter between Agent Skills and MCP Servers.
 - Tag IDs follow a hierarchical pattern: `category-subcategory-specialization-stack` (e.g., `dev-web-frontend-react`).
 - Star count indicates community adoption — higher stars = more widely used = higher verification priority.
+- **Agent skills use installs as priority signal** — look for `installs:N` in the `tags` array (e.g., `"installs:97732"`). Higher installs = more widely used. MCP servers use `stars` instead.
 - If the user has a SecureSkillHub account, check their custom packages first before browsing the full catalog.

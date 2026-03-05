@@ -408,8 +408,8 @@ def build_stats(skills: list[dict[str, Any]]) -> dict[str, Any]:
         if status == "pass" and (level == "full_pipeline" or agents_completed >= 5):
             full_pipeline_verified += 1
 
-        # Count verification tiers for pass skills
-        if status == "pass" and level in verification_tiers:
+        # Count verification tiers for all assessed skills
+        if level in verification_tiers:
             verification_tiers[level] += 1
 
         st = str(skill.get("skill_type") or "mcp_server")
