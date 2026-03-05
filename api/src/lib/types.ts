@@ -125,3 +125,49 @@ export type Variables = {
   userId: string;
   user: User;
 };
+
+// ── v2 Types ──────────────────────────────────────────────────────────
+
+/** Shape of each entry in search-index.json */
+export interface SearchIndexEntry {
+  id: string;
+  name: string;
+  tags: string[];
+  description: string;
+  stars: number;
+  installs: number;
+  overall_score: number;
+  verification_status: string;
+  skill_type: string;
+}
+
+/** Single result item returned by GET /v2/search */
+export interface V2SearchResult {
+  id: string;
+  name: string;
+  type: string;
+  score: number;
+  tier: string;
+  verified: boolean;
+  safe: boolean;
+  tags: string[];
+  one_liner: string;
+  install: string;
+  report_url: string;
+}
+
+/** Response shape for GET /v2/search */
+export interface V2SearchResponse {
+  total: number;
+  offset: number;
+  limit: number;
+  results: V2SearchResult[];
+}
+
+/** Response shape for GET /v2/stats */
+export interface V2StatsResponse {
+  mcp_servers: { total: number; verified: number; safe: number };
+  agent_skills: { total: number; verified: number; safe: number };
+  packages: number;
+  last_scan: string;
+}

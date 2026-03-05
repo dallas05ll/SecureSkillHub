@@ -5,6 +5,11 @@ import auth from "./routes/auth.js";
 import packages from "./routes/packages.js";
 import resolve from "./routes/resolve.js";
 import agent from "./routes/agent.js";
+import v2Search from "./routes/v2/search.js";
+import v2Skill from "./routes/v2/skill.js";
+import v2Packages from "./routes/v2/packages.js";
+import v2Stats from "./routes/v2/stats.js";
+import { rateLimitMiddleware } from "./middleware/rate-limit.js";
 
 const app = new Hono<{ Bindings: Env; Variables: Variables }>();
 
@@ -51,7 +56,8 @@ app.notFound((c) => {
 app.get("/", (c) => {
   return c.json({
     name: "SecureSkillHub API",
-    version: c.env.API_VERSION || "v1",
+    version: c.env.API_VERSION || "v2",
+    versions: ["v1", "v2"],
     status: "ok",
   });
 });
@@ -74,5 +80,24 @@ app.route("/v1", resolve);
 
 // Agent routes: /v1/agent/*
 app.route("/v1/agent", agent);
+
+// ── v2 Routes ─────────────────────────────────────────────────────────
+
+// JSON content type for v2 responses
+app.use("/v2/*", async (c, next) => {
+  await next();
+  if (!c.res.headers.get("Content-Type")) {
+    c.res.headers.set("Content-Type", "application/json");
+  }
+});
+
+// Rate limiting: 100 req/min per IP
+app.use("/v2/*", rateLimitMiddleware);
+
+// v2 public endpoints (no auth required)
+app.route("/v2/search", v2Search);
+app.route("/v2/skill", v2Skill);
+app.route("/v2/packages", v2Packages);
+app.route("/v2/stats", v2Stats);
 
 export default app;

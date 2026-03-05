@@ -66,6 +66,13 @@
       "category": "data",
       "description": "build_json.py and build_priority.py now use _priority_score(skill) = max(stars, installs) for ALL sorting and tiering. Previously sorted by stars only, making agent skills invisible. Changes: index.json sorted by priority, by-tier uses priority thresholds, by-tag sorted by priority, search-index includes installs field, packages sorted by priority. build_packages.py also updated with unified scoring and fixed skill_type default from 'unknown' to 'mcp_server'.",
       "date": "2026-03-05"
+    },
+    {
+      "id": "axm-p-009",
+      "title": "CF Worker API v2: dynamic search, skill, packages, stats endpoints",
+      "category": "agent_ux",
+      "description": "Phase 2 of agent-first API reconstruction. Added 4 public v2 endpoint groups to the existing Hono CF Worker (api/src/routes/v2/). Architecture: in-memory cache of search-index.json (4.5MB) with 10-min stale-while-revalidate TTL. No new KV/D1/R2 bindings — fetches from STATIC_API_BASE with cf:{cacheTtl:300} edge caching. Rate limited at 100 req/min per IP via Workers Cache API. Endpoints: GET /v2/search (type/tags/tier/verified/q/sort/limit/offset), GET /v2/skill/:id (proxy), GET /v2/packages (list/detail/install), GET /v2/stats (with safe counts). All public, no auth. New files: lib/tier.ts, lib/search-cache.ts, lib/rate-limit.ts, middleware/rate-limit.ts, routes/v2/{search,skill,packages,stats}.ts. wrangler.toml API_VERSION bumped to v2.",
+      "date": "2026-03-05"
     }
   ]
 }
