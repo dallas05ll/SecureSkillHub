@@ -7,7 +7,7 @@
   "skill_type": "agent_skill",
   "owner": "heroui-inc",
   "stars": 0,
-  "primary_language": "unknown",
+  "primary_language": "typescript",
   "tags": [
     "agent-skills",
     "installs:28163",
@@ -18,15 +18,260 @@
     "dev-web-frontend",
     "dev-web-frontend-react",
     "prod",
-    "prod-docs"
+    "prod-docs",
+    "status-pass"
   ],
-  "verification_status": "unverified",
-  "overall_score": 0,
-  "risk_level": "info",
-  "verified_commit": null,
+  "verification_status": "pass",
+  "overall_score": 60,
+  "risk_level": "medium",
+  "verified_commit": "0d4671413ef7307965c388be04b8bfcc6aa76561",
   "scan_summary": null,
   "repo_status": "available",
   "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
   "repo_check_error": null,
-  "installs": 28163
+  "installs": 28163,
+  "scan_date": "2026-03-05T02:42:52Z",
+  "findings_summary": {
+    "scanner_findings": 109,
+    "dangerous_calls": 2,
+    "network_ops": 32,
+    "file_ops": 47,
+    "env_access": 25,
+    "obfuscation": 0,
+    "injection_patterns": 0,
+    "mismatches": 0,
+    "undocumented_capabilities": 0,
+    "supervisor_approved": false,
+    "supervisor_confidence": 60
+  },
+  "scan_report": {
+    "total_findings": 109,
+    "injection_patterns_count": 0,
+    "obfuscation_count": 0,
+    "obfuscation_high_risk_count": 0,
+    "dangerous_calls_count": 2,
+    "severity_counts": {
+      "critical": 0,
+      "high": 5,
+      "medium": 57,
+      "low": 47,
+      "info": 0
+    },
+    "category_counts": {
+      "file_ops": 47,
+      "dangerous_calls": 2,
+      "network_ops": 32,
+      "env_access": 25,
+      "suspicious_urls": 3
+    },
+    "top_findings": [
+      {
+        "rule_id": "regex_js_fs_mkdir",
+        "severity": "low",
+        "category": "file_ops",
+        "file": "packages/vitest/scripts/collect-json-outputs.ts",
+        "line": 12
+      },
+      {
+        "rule_id": "regex_js_fs_read",
+        "severity": "low",
+        "category": "file_ops",
+        "file": "packages/styles/rollup.config.mjs",
+        "line": 9
+      },
+      {
+        "rule_id": "regex_js_fs_read",
+        "severity": "low",
+        "category": "file_ops",
+        "file": "packages/styles/rollup.config.mjs",
+        "line": 12
+      },
+      {
+        "rule_id": "regex_js_fs_read",
+        "severity": "low",
+        "category": "file_ops",
+        "file": "packages/styles/scripts/copy-css.mjs",
+        "line": 33
+      },
+      {
+        "rule_id": "regex_js_fs_mkdir",
+        "severity": "low",
+        "category": "file_ops",
+        "file": "packages/styles/scripts/copy-css.mjs",
+        "line": 13
+      },
+      {
+        "rule_id": "regex_js_fs_mkdir",
+        "severity": "low",
+        "category": "file_ops",
+        "file": "packages/styles/scripts/copy-css.mjs",
+        "line": 29
+      },
+      {
+        "rule_id": "regex_py_exec",
+        "severity": "high",
+        "category": "dangerous_calls",
+        "file": "packages/styles/scripts/fix-css-attributes.js",
+        "line": 66
+      },
+      {
+        "rule_id": "regex_js_fs_write",
+        "severity": "low",
+        "category": "file_ops",
+        "file": "packages/styles/scripts/fix-css-attributes.js",
+        "line": 147
+      },
+      {
+        "rule_id": "regex_js_fs_read",
+        "severity": "low",
+        "category": "file_ops",
+        "file": "packages/styles/scripts/fix-css-attributes.js",
+        "line": 53
+      },
+      {
+        "rule_id": "regex_js_fs_read",
+        "severity": "low",
+        "category": "file_ops",
+        "file": "packages/styles/scripts/fix-css-attributes.js",
+        "line": 174
+      },
+      {
+        "rule_id": "regex_js_fs_write",
+        "severity": "low",
+        "category": "file_ops",
+        "file": "packages/styles/scripts/measure-bundle-size.mjs",
+        "line": 226
+      },
+      {
+        "rule_id": "regex_js_fs_read",
+        "severity": "low",
+        "category": "file_ops",
+        "file": "packages/styles/scripts/measure-bundle-size.mjs",
+        "line": 51
+      },
+      {
+        "rule_id": "regex_js_fs_read",
+        "severity": "low",
+        "category": "file_ops",
+        "file": "packages/styles/scripts/measure-bundle-size.mjs",
+        "line": 96
+      },
+      {
+        "rule_id": "regex_js_fs_read",
+        "severity": "low",
+        "category": "file_ops",
+        "file": "packages/react/rollup.config.mjs",
+        "line": 10
+      },
+      {
+        "rule_id": "regex_js_fs_read",
+        "severity": "low",
+        "category": "file_ops",
+        "file": "packages/react/rollup.config.mjs",
+        "line": 25
+      },
+      {
+        "rule_id": "regex_js_fs_read",
+        "severity": "low",
+        "category": "file_ops",
+        "file": "packages/react/scripts/generate-exports.mjs",
+        "line": 34
+      },
+      {
+        "rule_id": "regex_js_fs_write",
+        "severity": "low",
+        "category": "file_ops",
+        "file": "packages/react/scripts/build.mjs",
+        "line": 125
+      },
+      {
+        "rule_id": "regex_js_fs_write",
+        "severity": "low",
+        "category": "file_ops",
+        "file": "packages/react/scripts/build.mjs",
+        "line": 129
+      },
+      {
+        "rule_id": "regex_js_fs_read",
+        "severity": "low",
+        "category": "file_ops",
+        "file": "packages/react/scripts/build.mjs",
+        "line": 44
+      },
+      {
+        "rule_id": "regex_js_fs_read",
+        "severity": "low",
+        "category": "file_ops",
+        "file": "packages/react/scripts/build.mjs",
+        "line": 75
+      }
+    ],
+    "total_files_scanned": 1307
+  },
+  "verification_level": "full_pipeline",
+  "agent_audit": {
+    "agents_completed": 5,
+    "agents_required": 5,
+    "pipeline_run_at": "2026-03-05T02:42:52Z",
+    "agent_a": {
+      "signed": true,
+      "signed_at": "2026-03-05T02:42:52Z",
+      "comment": "Docs quality 10/10. README present. 12 features, 4 permissions claimed.",
+      "doc_quality_score": 10,
+      "claimed_permissions": [
+        "network access",
+        "system command execution",
+        "file system access",
+        "environment/secret access"
+      ]
+    },
+    "agent_b": {
+      "signed": true,
+      "signed_at": "2026-03-05T02:42:52Z",
+      "comment": "1295 files analyzed. Found: 10 network, 8 file, 14 env, 0 system calls. Primary: typescript.",
+      "files_analyzed": 1295,
+      "capabilities_found": [
+        "imports external dependencies",
+        "performs network operations",
+        "reads/writes files",
+        "reads environment values"
+      ]
+    },
+    "agent_c_star": {
+      "signed": true,
+      "signed_at": "2026-03-05T02:42:52Z",
+      "comment": "109 findings: 0 critical, 5 high, 57 medium, 47 low. No obfuscation. No injection.",
+      "total_findings": 109,
+      "severity_counts": {
+        "critical": 0,
+        "high": 5,
+        "medium": 57,
+        "low": 47,
+        "info": 0
+      }
+    },
+    "agent_d": {
+      "signed": true,
+      "signed_at": "2026-03-05T02:42:52Z",
+      "comment": "Score 60. 0 mismatches. Risk: medium. Safety overrides: none triggered.",
+      "score": 60,
+      "mismatches": 0,
+      "safety_overrides_applied": false
+    },
+    "agent_e": {
+      "signed": true,
+      "signed_at": "2026-03-05T02:42:52Z",
+      "comment": "Rejected. Confidence 60%. No overrides.",
+      "approved": false,
+      "confidence": 60,
+      "override_reason": null
+    },
+    "manager_summary": "5/5 agents completed. Score: 60/100, Risk: medium. 0 mismatches, 109 scanner findings. Rejected at 60% confidence. No safety overrides.",
+    "auto_clear": {
+      "applied": true,
+      "reason": "Auto-clear Cat 1: clean profile (0 inj, 0 obf_hr, score=60)",
+      "original_status": "manual_review",
+      "original_score": 60
+    }
+  }
 }

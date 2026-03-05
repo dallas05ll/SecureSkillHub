@@ -7,20 +7,267 @@
   "skill_type": "agent_skill",
   "owner": "supabase",
   "stars": 0,
-  "primary_language": "unknown",
+  "primary_language": "typescript",
   "tags": [
     "agent-skills",
     "installs:97732",
     "dev",
-    "dev-testing"
+    "dev-testing",
+    "status-fail"
   ],
-  "verification_status": "unverified",
-  "overall_score": 0,
-  "risk_level": "info",
-  "verified_commit": null,
+  "verification_status": "pass",
+  "overall_score": 10,
+  "risk_level": "critical",
+  "verified_commit": "aef1d70351311e500a4565f1d6dac7365aa4bb55",
   "scan_summary": null,
   "repo_status": "available",
   "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
   "repo_check_error": null,
-  "installs": 97732
+  "installs": 97732,
+  "scan_date": "2026-03-05T02:38:08Z",
+  "findings_summary": {
+    "scanner_findings": 1894,
+    "dangerous_calls": 34,
+    "network_ops": 182,
+    "file_ops": 203,
+    "env_access": 913,
+    "obfuscation": 294,
+    "injection_patterns": 65,
+    "mismatches": 0,
+    "undocumented_capabilities": 0,
+    "supervisor_approved": false,
+    "supervisor_confidence": 95
+  },
+  "scan_report": {
+    "total_findings": 1894,
+    "injection_patterns_count": 65,
+    "obfuscation_count": 294,
+    "obfuscation_high_risk_count": 2,
+    "dangerous_calls_count": 34,
+    "severity_counts": {
+      "critical": 65,
+      "high": 531,
+      "medium": 1095,
+      "low": 203,
+      "info": 0
+    },
+    "category_counts": {
+      "obfuscation": 294,
+      "suspicious_urls": 203,
+      "env_access": 913,
+      "network_ops": 182,
+      "file_ops": 203,
+      "dangerous_calls": 34,
+      "injection_patterns": 65
+    },
+    "top_findings": [
+      {
+        "rule_id": "regex_js_atob",
+        "severity": "high",
+        "category": "obfuscation",
+        "file": "pnpm-lock.yaml",
+        "line": 9372
+      },
+      {
+        "rule_id": "regex_localhost_non_std",
+        "severity": "high",
+        "category": "suspicious_urls",
+        "file": "DEVELOPERS.md",
+        "line": 89
+      },
+      {
+        "rule_id": "regex_localhost_non_std",
+        "severity": "high",
+        "category": "suspicious_urls",
+        "file": "DEVELOPERS.md",
+        "line": 90
+      },
+      {
+        "rule_id": "regex_localhost_non_std",
+        "severity": "high",
+        "category": "suspicious_urls",
+        "file": "DEVELOPERS.md",
+        "line": 91
+      },
+      {
+        "rule_id": "regex_localhost_non_std",
+        "severity": "high",
+        "category": "suspicious_urls",
+        "file": "DEVELOPERS.md",
+        "line": 156
+      },
+      {
+        "rule_id": "regex_js_process_env",
+        "severity": "medium",
+        "category": "env_access",
+        "file": "prettier.config.mjs",
+        "line": 20
+      },
+      {
+        "rule_id": "regex_localhost_non_std",
+        "severity": "high",
+        "category": "suspicious_urls",
+        "file": "package.json",
+        "line": 35
+      },
+      {
+        "rule_id": "regex_localhost_non_std",
+        "severity": "high",
+        "category": "suspicious_urls",
+        "file": "package.json",
+        "line": 36
+      },
+      {
+        "rule_id": "regex_js_process_env",
+        "severity": "medium",
+        "category": "env_access",
+        "file": "blocks/vue/registry/default/clients/nuxtjs/server/supabase/client.ts",
+        "line": 6
+      },
+      {
+        "rule_id": "regex_js_process_env",
+        "severity": "medium",
+        "category": "env_access",
+        "file": "blocks/vue/registry/default/clients/nuxtjs/server/supabase/client.ts",
+        "line": 7
+      },
+      {
+        "rule_id": "regex_js_process_env",
+        "severity": "medium",
+        "category": "env_access",
+        "file": "blocks/vue/registry/default/clients/nuxtjs/lib/supabase/client.ts",
+        "line": 5
+      },
+      {
+        "rule_id": "regex_js_process_env",
+        "severity": "medium",
+        "category": "env_access",
+        "file": "blocks/vue/registry/default/clients/nuxtjs/lib/supabase/client.ts",
+        "line": 6
+      },
+      {
+        "rule_id": "regex_js_process_env",
+        "severity": "medium",
+        "category": "env_access",
+        "file": "blocks/vue/registry/default/social-auth/nuxtjs/server/routes/auth/oauth.ts",
+        "line": 23
+      },
+      {
+        "rule_id": "regex_js_fetch",
+        "severity": "medium",
+        "category": "network_ops",
+        "file": "docker/docker-compose.yml",
+        "line": 22
+      },
+      {
+        "rule_id": "regex_raw_ip_url",
+        "severity": "high",
+        "category": "suspicious_urls",
+        "file": "docker/docker-compose.yml",
+        "line": 564
+      },
+      {
+        "rule_id": "regex_localhost_non_std",
+        "severity": "high",
+        "category": "suspicious_urls",
+        "file": "docker/docker-compose.yml",
+        "line": 112
+      },
+      {
+        "rule_id": "regex_localhost_non_std",
+        "severity": "high",
+        "category": "suspicious_urls",
+        "file": "docker/docker-compose.yml",
+        "line": 262
+      },
+      {
+        "rule_id": "regex_localhost_non_std",
+        "severity": "high",
+        "category": "suspicious_urls",
+        "file": "docker/docker-compose.yml",
+        "line": 427
+      },
+      {
+        "rule_id": "regex_js_fetch",
+        "severity": "medium",
+        "category": "network_ops",
+        "file": "docker/volumes/functions/main/index.ts",
+        "line": 85
+      },
+      {
+        "rule_id": "regex_localhost_non_std",
+        "severity": "high",
+        "category": "suspicious_urls",
+        "file": "supabase/config.toml",
+        "line": 53
+      }
+    ],
+    "total_files_scanned": 6578
+  },
+  "verification_level": "full_pipeline",
+  "agent_audit": {
+    "agents_completed": 5,
+    "agents_required": 5,
+    "pipeline_run_at": "2026-03-05T02:38:08Z",
+    "agent_a": {
+      "signed": true,
+      "signed_at": "2026-03-05T02:38:08Z",
+      "comment": "Docs quality 9/10. README present. 12 features, 4 permissions claimed.",
+      "doc_quality_score": 9,
+      "claimed_permissions": [
+        "network access",
+        "system command execution",
+        "file system access",
+        "environment/secret access"
+      ]
+    },
+    "agent_b": {
+      "signed": true,
+      "signed_at": "2026-03-05T02:38:08Z",
+      "comment": "6428 files analyzed. Found: 15 network, 3 file, 25 env, 0 system calls. Primary: typescript.",
+      "files_analyzed": 6428,
+      "capabilities_found": [
+        "imports external dependencies",
+        "performs network operations",
+        "reads/writes files",
+        "reads environment values"
+      ]
+    },
+    "agent_c_star": {
+      "signed": true,
+      "signed_at": "2026-03-05T02:38:08Z",
+      "comment": "1894 findings: 65 critical, 531 high, 1095 medium, 203 low. Obfuscation detected!. Injection patterns found!.",
+      "total_findings": 1894,
+      "severity_counts": {
+        "critical": 65,
+        "high": 531,
+        "medium": 1095,
+        "low": 203,
+        "info": 0
+      }
+    },
+    "agent_d": {
+      "signed": true,
+      "signed_at": "2026-03-05T02:38:08Z",
+      "comment": "Score 10. 0 mismatches. Risk: critical. Safety overrides: applied.",
+      "score": 10,
+      "mismatches": 0,
+      "safety_overrides_applied": true
+    },
+    "agent_e": {
+      "signed": true,
+      "signed_at": "2026-03-05T02:38:08Z",
+      "comment": "Rejected. Confidence 95%. Deterministic override: injection patterns detected.",
+      "approved": false,
+      "confidence": 95,
+      "override_reason": "Deterministic override: injection patterns detected."
+    },
+    "manager_summary": "5/5 agents completed. Score: 10/100, Risk: critical. 0 mismatches, 1894 scanner findings. Rejected at 95% confidence. Safety overrides triggered."
+  },
+  "verification_score": 50,
+  "pm_override": {
+    "action": "fail_to_pass",
+    "reason": "Supabase monorepo FP \u2014 65 inj in 6,578 files (<1%). No dangerous obf. PM-verified org.",
+    "batch": "batch_11_agent"
+  }
 }

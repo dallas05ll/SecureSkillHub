@@ -114,9 +114,19 @@
       "category": "catalog_security",
       "description": "Agent skills (skillsmp source) are SKILL.md instruction files, not installable code. Their security profile is fundamentally different: they have text-based injection risk (prompt injection in instructions) but lower code-execution risk. Scanner findings on agent skills repos are often from the parent monorepo, not the skill itself.",
       "discovered": "2026-03-04"
+    },
+    {
+      "id": "secm-p-018",
+      "title": "Batch 11: Agent skill obfuscation profile — bundled deps inflate counts",
+      "category": "catalog_security",
+      "description": "Agent skills tend to produce higher obfuscation finding counts than MCP server skills because their repos often include bundled dependencies (node_modules equivalents, compiled assets). Auto-clear Cat 1 (clean), Cat 2 (obf-only, 0 inj), and Cat 9 (monorepo) all triggered correctly in Batch 11. One real fail: supabase monorepo (65 inj across 6,578 files) — PM overrode and added supabase to PM_VERIFIED_ORGS. Pattern: large org monorepos with high file counts + high injection counts warrant PM review, not auto-clear.",
+      "discovered": "2026-03-04",
+      "batch": "batch-11",
+      "source": "skillsmp",
+      "outcome": "supabase added to PM_VERIFIED_ORGS; auto-clear categories performing correctly"
     }
   ],
-  "last_evolve": "2026-03-05T00:58:32.250065+00:00",
+  "last_evolve": "2026-03-05T01:30:00.000000+00:00",
   "evolve_history": [
     {
       "timestamp": "2026-03-04T20:17:33.523325+00:00",
@@ -208,6 +218,29 @@
       },
       "proposals_generated": 0,
       "new_entries_added": 0
+    },
+    {
+      "timestamp": "2026-03-05T01:30:00.000000+00:00",
+      "batch": "batch-11",
+      "source": "skillsmp",
+      "skills_verified": 100,
+      "total_overrides": 651,
+      "by_type": {
+        "other": 620,
+        "injection_fp": 14,
+        "obfuscation_fp": 9,
+        "structural_large_repo": 6,
+        "data_uri_base64": 2
+      },
+      "auto_clear_triggered": {
+        "cat1_clean": true,
+        "cat2_obf_only": true,
+        "cat9_monorepo": true
+      },
+      "pm_overrides": 1,
+      "pm_override_reason": "supabase monorepo 65 inj / 6578 files — org added to PM_VERIFIED_ORGS",
+      "proposals_generated": 1,
+      "new_entries_added": 1
     }
   ]
 }

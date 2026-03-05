@@ -14,15 +14,262 @@
     "dev",
     "dev-desktop",
     "dev-desktop-electron",
-    "prod"
+    "prod",
+    "status-pass"
   ],
-  "verification_status": "unverified",
-  "overall_score": 0,
-  "risk_level": "info",
-  "verified_commit": null,
+  "verification_status": "pass",
+  "overall_score": 60,
+  "risk_level": "medium",
+  "verified_commit": "d18b017cb05b1c5aec330603b6fcc9b016fa5cee",
   "scan_summary": null,
   "repo_status": "available",
   "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
   "repo_check_error": null,
-  "installs": 120137
+  "installs": 120137,
+  "scan_date": "2026-03-05T02:32:43Z",
+  "findings_summary": {
+    "scanner_findings": 1125,
+    "dangerous_calls": 77,
+    "network_ops": 162,
+    "file_ops": 609,
+    "env_access": 204,
+    "obfuscation": 19,
+    "injection_patterns": 0,
+    "mismatches": 0,
+    "undocumented_capabilities": 0,
+    "supervisor_approved": false,
+    "supervisor_confidence": 60
+  },
+  "scan_report": {
+    "total_findings": 1125,
+    "injection_patterns_count": 0,
+    "obfuscation_count": 19,
+    "obfuscation_high_risk_count": 0,
+    "dangerous_calls_count": 77,
+    "severity_counts": {
+      "critical": 0,
+      "high": 150,
+      "medium": 366,
+      "low": 609,
+      "info": 0
+    },
+    "category_counts": {
+      "dangerous_calls": 77,
+      "env_access": 204,
+      "network_ops": 162,
+      "file_ops": 609,
+      "suspicious_urls": 54,
+      "obfuscation": 19
+    },
+    "top_findings": [
+      {
+        "rule_id": "regex_shell_backtick_exec",
+        "severity": "high",
+        "category": "dangerous_calls",
+        "file": "patches/v8/README.md",
+        "line": 3
+      },
+      {
+        "rule_id": "regex_js_process_env",
+        "severity": "medium",
+        "category": "env_access",
+        "file": "default_app/main.ts",
+        "line": 25
+      },
+      {
+        "rule_id": "regex_js_fetch",
+        "severity": "medium",
+        "category": "network_ops",
+        "file": "default_app/preload.ts",
+        "line": 10
+      },
+      {
+        "rule_id": "regex_py_open",
+        "severity": "low",
+        "category": "file_ops",
+        "file": "spec/guest-window-manager-spec.ts",
+        "line": 45
+      },
+      {
+        "rule_id": "regex_py_open",
+        "severity": "low",
+        "category": "file_ops",
+        "file": "spec/guest-window-manager-spec.ts",
+        "line": 64
+      },
+      {
+        "rule_id": "regex_py_open",
+        "severity": "low",
+        "category": "file_ops",
+        "file": "spec/guest-window-manager-spec.ts",
+        "line": 81
+      },
+      {
+        "rule_id": "regex_py_open",
+        "severity": "low",
+        "category": "file_ops",
+        "file": "spec/guest-window-manager-spec.ts",
+        "line": 134
+      },
+      {
+        "rule_id": "regex_py_open",
+        "severity": "low",
+        "category": "file_ops",
+        "file": "spec/guest-window-manager-spec.ts",
+        "line": 183
+      },
+      {
+        "rule_id": "regex_py_open",
+        "severity": "low",
+        "category": "file_ops",
+        "file": "spec/guest-window-manager-spec.ts",
+        "line": 193
+      },
+      {
+        "rule_id": "regex_py_open",
+        "severity": "low",
+        "category": "file_ops",
+        "file": "spec/guest-window-manager-spec.ts",
+        "line": 203
+      },
+      {
+        "rule_id": "regex_py_open",
+        "severity": "low",
+        "category": "file_ops",
+        "file": "spec/guest-window-manager-spec.ts",
+        "line": 219
+      },
+      {
+        "rule_id": "regex_py_open",
+        "severity": "low",
+        "category": "file_ops",
+        "file": "spec/guest-window-manager-spec.ts",
+        "line": 237
+      },
+      {
+        "rule_id": "regex_py_open",
+        "severity": "low",
+        "category": "file_ops",
+        "file": "spec/guest-window-manager-spec.ts",
+        "line": 262
+      },
+      {
+        "rule_id": "regex_py_open",
+        "severity": "low",
+        "category": "file_ops",
+        "file": "spec/guest-window-manager-spec.ts",
+        "line": 270
+      },
+      {
+        "rule_id": "regex_py_open",
+        "severity": "low",
+        "category": "file_ops",
+        "file": "spec/guest-window-manager-spec.ts",
+        "line": 348
+      },
+      {
+        "rule_id": "regex_py_open",
+        "severity": "low",
+        "category": "file_ops",
+        "file": "spec/guest-window-manager-spec.ts",
+        "line": 368
+      },
+      {
+        "rule_id": "regex_py_open",
+        "severity": "low",
+        "category": "file_ops",
+        "file": "spec/guest-window-manager-spec.ts",
+        "line": 386
+      },
+      {
+        "rule_id": "regex_py_open",
+        "severity": "low",
+        "category": "file_ops",
+        "file": "spec/guest-window-manager-spec.ts",
+        "line": 393
+      },
+      {
+        "rule_id": "regex_py_open",
+        "severity": "low",
+        "category": "file_ops",
+        "file": "spec/guest-window-manager-spec.ts",
+        "line": 419
+      },
+      {
+        "rule_id": "regex_py_open",
+        "severity": "low",
+        "category": "file_ops",
+        "file": "spec/guest-window-manager-spec.ts",
+        "line": 440
+      }
+    ],
+    "total_files_scanned": 1122
+  },
+  "verification_level": "full_pipeline",
+  "agent_audit": {
+    "agents_completed": 5,
+    "agents_required": 5,
+    "pipeline_run_at": "2026-03-05T02:32:43Z",
+    "agent_a": {
+      "signed": true,
+      "signed_at": "2026-03-05T02:32:43Z",
+      "comment": "Docs quality 9/10. README present. 12 features, 4 permissions claimed.",
+      "doc_quality_score": 9,
+      "claimed_permissions": [
+        "network access",
+        "system command execution",
+        "file system access",
+        "environment/secret access"
+      ]
+    },
+    "agent_b": {
+      "signed": true,
+      "signed_at": "2026-03-05T02:32:43Z",
+      "comment": "1223 files analyzed. Found: 21 network, 56 file, 92 env, 16 system calls. Primary: unknown.",
+      "files_analyzed": 1223,
+      "capabilities_found": [
+        "imports external dependencies",
+        "performs network operations",
+        "reads/writes files",
+        "reads environment values",
+        "executes system commands"
+      ]
+    },
+    "agent_c_star": {
+      "signed": true,
+      "signed_at": "2026-03-05T02:32:43Z",
+      "comment": "1125 findings: 0 critical, 150 high, 366 medium, 609 low. Obfuscation detected!. No injection.",
+      "total_findings": 1125,
+      "severity_counts": {
+        "critical": 0,
+        "high": 150,
+        "medium": 366,
+        "low": 609,
+        "info": 0
+      }
+    },
+    "agent_d": {
+      "signed": true,
+      "signed_at": "2026-03-05T02:32:43Z",
+      "comment": "Score 60. 0 mismatches. Risk: medium. Safety overrides: none triggered.",
+      "score": 60,
+      "mismatches": 0,
+      "safety_overrides_applied": false
+    },
+    "agent_e": {
+      "signed": true,
+      "signed_at": "2026-03-05T02:32:43Z",
+      "comment": "Rejected. Confidence 60%. No overrides.",
+      "approved": false,
+      "confidence": 60,
+      "override_reason": null
+    },
+    "manager_summary": "5/5 agents completed. Score: 60/100, Risk: medium. 0 mismatches, 1125 scanner findings. Rejected at 60% confidence. No safety overrides.",
+    "auto_clear": {
+      "applied": true,
+      "reason": "Auto-clear Cat 1: clean profile (0 inj, 0 obf_hr, score=60)",
+      "original_status": "manual_review",
+      "original_score": 60
+    }
+  }
 }

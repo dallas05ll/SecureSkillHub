@@ -13,6 +13,8 @@ Usage:
     python3 scripts/review/sm_select_targets.py --limit 100 --output-ids
     python3 scripts/review/sm_select_targets.py --limit 100 --strategy stars
     python3 scripts/review/sm_select_targets.py --limit 100 --strategy balanced
+    python3 scripts/review/sm_select_targets.py --limit 100 --type agent   # Agent skills only
+    python3 scripts/review/sm_select_targets.py --limit 100 --type mcp     # MCP servers only
 
 Output: prints selected skill IDs (comma-separated with --output-ids,
         or detailed table without).
@@ -32,8 +34,17 @@ SKILLS_DIR = Path("data/skills")
 SM_LOG = Path("data/skill-manager-log.json")
 
 
-def load_unverified() -> list[dict]:
-    """Load all unverified skills with GitHub repos."""
+def is_agent_skill(skill: dict) -> bool:
+    """Check if a skill is an agent skill (vs MCP server)."""
+    return "agent-skills" in (skill.get("tags") or [])
+
+
+def load_unverified(skill_type: str | None = None) -> list[dict]:
+    """Load all unverified skills with GitHub repos.
+
+    Args:
+        skill_type: Filter by type — "agent" for agent skills, "mcp" for MCP servers, None for all.
+    """
     candidates = []
     for path in sorted(SKILLS_DIR.glob("*.json")):
         data = json.loads(path.read_text(encoding="utf-8"))
@@ -45,6 +56,11 @@ def load_unverified() -> list[dict]:
             continue
         tags = data.get("tags", [])
         if isinstance(tags, list) and ("repo_unavailable" in tags or "clone_failure" in tags):
+            continue
+        # Type filter
+        if skill_type == "agent" and not is_agent_skill(data):
+            continue
+        if skill_type == "mcp" and is_agent_skill(data):
             continue
         candidates.append(data)
     return candidates
@@ -159,7 +175,7 @@ def strategy_balanced(candidates: list[dict], limit: int) -> list[dict]:
     return selected[:limit]
 
 
-def log_selection(selected: list[dict], strategy: str, total_unverified: int):
+def log_selection(selected: list[dict], strategy: str, total_unverified: int, skill_type: str | None = None):
     """Log SM selection to skill-manager-log.json."""
     import datetime
 
@@ -167,6 +183,7 @@ def log_selection(selected: list[dict], strategy: str, total_unverified: int):
         "type": "sm_target_selection",
         "timestamp": datetime.datetime.now(datetime.timezone.utc).isoformat(),
         "strategy": strategy,
+        "skill_type_filter": skill_type or "all",
         "selected_count": len(selected),
         "total_unverified": total_unverified,
         "priority_range": f"{min(priority_score(s) for s in selected)}-{max(priority_score(s) for s in selected)}" if selected else "0-0",
@@ -192,11 +209,13 @@ def main():
                         help="Selection strategy: stars (pure star-sort) or balanced (category+type coverage)")
     parser.add_argument("--output-ids", action="store_true",
                         help="Output comma-separated IDs only (for piping to VM)")
+    parser.add_argument("--type", choices=["mcp", "agent"], default=None,
+                        help="Filter by skill type: mcp (MCP servers) or agent (agent skills)")
     parser.add_argument("--no-log", action="store_true",
                         help="Skip logging to skill-manager-log.json")
     args = parser.parse_args()
 
-    candidates = load_unverified()
+    candidates = load_unverified(skill_type=args.type)
 
     if args.strategy == "stars":
         selected = strategy_stars(candidates, args.limit)
@@ -204,22 +223,22 @@ def main():
         selected = strategy_balanced(candidates, args.limit)
 
     if not args.no_log:
-        log_selection(selected, args.strategy, len(candidates))
+        log_selection(selected, args.strategy, len(candidates), skill_type=args.type)
 
     if args.output_ids:
         print(",".join(s.get("id", "") for s in selected))
     else:
-        # Detailed table
-        print(f"SM Target Selection: {len(selected)}/{len(candidates)} unverified (strategy: {args.strategy})")
+        type_label = f", type: {args.type}" if args.type else ""
+        print(f"SM Target Selection: {len(selected)}/{len(candidates)} unverified (strategy: {args.strategy}{type_label})")
         print(f"{'='*80}")
 
         # Stats
-        stars = [priority_score(s) for s in selected]
+        prios = [priority_score(s) for s in selected]
         tags_counter = collections.Counter()
         types = collections.Counter()
         for s in selected:
             stags = s.get("tags", [])
-            if "agent-skills" in stags:
+            if is_agent_skill(s):
                 types["agent_skill"] += 1
             else:
                 types["mcp_server"] += 1
@@ -227,16 +246,44 @@ def main():
                 if isinstance(t, str) and t in ("dev", "data", "integ", "util", "security", "prod"):
                     tags_counter[t] += 1
 
-        print(f"  Priority range: {min(stars)}-{max(stars)} (avg {sum(stars)/len(stars):.0f})")
+        print(f"  Priority range: {min(prios)}-{max(prios)} (avg {sum(prios)/len(prios):.0f})")
         print(f"  Types: {dict(types)}")
         print(f"  Domains: {dict(tags_counter.most_common())}")
+
+        # --- Separate tier breakdowns ---
+        tier_labels = ["S (10K+)", "A (1K-10K)", "B (100-999)", "C (10-99)", "D (1-9)", "E (0)"]
+        tier_bounds = [(10000, None), (1000, 10000), (100, 1000), (10, 100), (1, 10), (0, 1)]
+
+        def get_tier(p):
+            for label, (lo, hi) in zip(tier_labels, tier_bounds):
+                if hi is None:
+                    if p >= lo:
+                        return label
+                elif lo <= p < hi:
+                    return label
+            return "E (0)"
+
+        mcp_sel = [s for s in selected if not is_agent_skill(s)]
+        agent_sel = [s for s in selected if is_agent_skill(s)]
+
+        for label, subset, metric in [("MCP Servers", mcp_sel, "stars"), ("Agent Skills", agent_sel, "installs")]:
+            if not subset:
+                continue
+            tier_counts = collections.Counter(get_tier(priority_score(s)) for s in subset)
+            print(f"\n  {label} ({len(subset)} selected, priority={metric}):")
+            for t in tier_labels:
+                c = tier_counts.get(t, 0)
+                if c > 0:
+                    print(f"    {t}: {c}")
+
         print(f"\n  Top 10 by priority (★=stars, ↓=installs):")
         selected_by_prio = sorted(selected, key=lambda d: -priority_score(d))
         for s in selected_by_prio[:10]:
             st = int(s.get('stars') or 0)
             ins = int(s.get('installs') or 0)
             indicator = f"★{st:>6,}" if st > 0 else f"↓{ins:>6,}"
-            print(f"    {s.get('id',''):45s} {indicator}  {s.get('name','')}")
+            typ = "[agent]" if is_agent_skill(s) else "[mcp]"
+            print(f"    {s.get('id',''):45s} {indicator}  {typ} {s.get('name','')}")
         print(f"\n  IDs (for --skill-ids):")
         print(f"  {','.join(s.get('id','') for s in selected[:5])},...({len(selected)} total)")
 

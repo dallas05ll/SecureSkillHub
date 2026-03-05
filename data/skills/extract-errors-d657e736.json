@@ -7,7 +7,7 @@
   "skill_type": "agent_skill",
   "owner": "facebook",
   "stars": 0,
-  "primary_language": "unknown",
+  "primary_language": "javascript",
   "tags": [
     "agent-skills",
     "installs:243058",
@@ -16,15 +16,260 @@
     "dev-web-frontend",
     "dev-web-frontend-react",
     "prod",
-    "prod-comm"
+    "prod-comm",
+    "status-pass"
   ],
-  "verification_status": "unverified",
-  "overall_score": 0,
-  "risk_level": "info",
-  "verified_commit": null,
+  "verification_status": "pass",
+  "overall_score": 50,
+  "risk_level": "medium",
+  "verified_commit": "93882bd40ee48dc6d072dfc0b6cc7801fac1be31",
   "scan_summary": null,
   "repo_status": "available",
   "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
   "repo_check_error": null,
-  "installs": 243058
+  "installs": 243058,
+  "scan_date": "2026-03-05T02:32:43Z",
+  "findings_summary": {
+    "scanner_findings": 915,
+    "dangerous_calls": 213,
+    "network_ops": 48,
+    "file_ops": 115,
+    "env_access": 386,
+    "obfuscation": 34,
+    "injection_patterns": 0,
+    "mismatches": 0,
+    "undocumented_capabilities": 0,
+    "supervisor_approved": false,
+    "supervisor_confidence": 90
+  },
+  "scan_report": {
+    "total_findings": 915,
+    "injection_patterns_count": 0,
+    "obfuscation_count": 34,
+    "obfuscation_high_risk_count": 4,
+    "dangerous_calls_count": 213,
+    "severity_counts": {
+      "critical": 0,
+      "high": 366,
+      "medium": 434,
+      "low": 115,
+      "info": 0
+    },
+    "category_counts": {
+      "network_ops": 48,
+      "dangerous_calls": 213,
+      "file_ops": 115,
+      "env_access": 386,
+      "suspicious_urls": 119,
+      "obfuscation": 34
+    },
+    "top_findings": [
+      {
+        "rule_id": "regex_js_fetch",
+        "severity": "medium",
+        "category": "network_ops",
+        "file": "CHANGELOG.md",
+        "line": 154
+      },
+      {
+        "rule_id": "regex_py_exec",
+        "severity": "high",
+        "category": "dangerous_calls",
+        "file": "scripts/bench/build.js",
+        "line": 18
+      },
+      {
+        "rule_id": "regex_js_require_child",
+        "severity": "high",
+        "category": "dangerous_calls",
+        "file": "scripts/bench/build.js",
+        "line": 7
+      },
+      {
+        "rule_id": "regex_py_open",
+        "severity": "low",
+        "category": "file_ops",
+        "file": "scripts/bench/build.js",
+        "line": 54
+      },
+      {
+        "rule_id": "regex_py_open",
+        "severity": "low",
+        "category": "file_ops",
+        "file": "scripts/bench/build.js",
+        "line": 78
+      },
+      {
+        "rule_id": "regex_js_require_child",
+        "severity": "high",
+        "category": "dangerous_calls",
+        "file": "scripts/bench/benchmark.js",
+        "line": 8
+      },
+      {
+        "rule_id": "regex_js_process_env",
+        "severity": "medium",
+        "category": "env_access",
+        "file": "scripts/bench/benchmark.js",
+        "line": 91
+      },
+      {
+        "rule_id": "regex_js_process_env",
+        "severity": "medium",
+        "category": "env_access",
+        "file": "scripts/bench/benchmark.js",
+        "line": 92
+      },
+      {
+        "rule_id": "regex_localhost_non_std",
+        "severity": "high",
+        "category": "suspicious_urls",
+        "file": "scripts/bench/benchmark.js",
+        "line": 20
+      },
+      {
+        "rule_id": "regex_js_fetch",
+        "severity": "medium",
+        "category": "network_ops",
+        "file": "scripts/bench/benchmarks/hacker-news/generate.js",
+        "line": 8
+      },
+      {
+        "rule_id": "regex_js_fetch",
+        "severity": "medium",
+        "category": "network_ops",
+        "file": "scripts/bench/benchmarks/hacker-news/generate.js",
+        "line": 15
+      },
+      {
+        "rule_id": "regex_js_process_env",
+        "severity": "medium",
+        "category": "env_access",
+        "file": "scripts/tasks/eslint.js",
+        "line": 15
+      },
+      {
+        "rule_id": "regex_py_exec",
+        "severity": "high",
+        "category": "dangerous_calls",
+        "file": "scripts/tasks/version-check.js",
+        "line": 14
+      },
+      {
+        "rule_id": "regex_js_fs_read",
+        "severity": "low",
+        "category": "file_ops",
+        "file": "scripts/tasks/version-check.js",
+        "line": 11
+      },
+      {
+        "rule_id": "regex_js_require_child",
+        "severity": "high",
+        "category": "dangerous_calls",
+        "file": "scripts/tasks/danger.js",
+        "line": 11
+      },
+      {
+        "rule_id": "regex_js_process_env",
+        "severity": "medium",
+        "category": "env_access",
+        "file": "scripts/tasks/danger.js",
+        "line": 21
+      },
+      {
+        "rule_id": "regex_js_process_env",
+        "severity": "medium",
+        "category": "env_access",
+        "file": "scripts/tasks/danger.js",
+        "line": 27
+      },
+      {
+        "rule_id": "regex_js_http_request",
+        "severity": "medium",
+        "category": "network_ops",
+        "file": "scripts/tasks/generate-changelog/data.js",
+        "line": 146
+      },
+      {
+        "rule_id": "regex_js_process_env",
+        "severity": "medium",
+        "category": "env_access",
+        "file": "scripts/tasks/generate-changelog/data.js",
+        "line": 131
+      },
+      {
+        "rule_id": "regex_js_fs_read",
+        "severity": "low",
+        "category": "file_ops",
+        "file": "scripts/tasks/generate-changelog/summaries.js",
+        "line": 33
+      }
+    ],
+    "total_files_scanned": 6364
+  },
+  "verification_level": "full_pipeline",
+  "agent_audit": {
+    "agents_completed": 5,
+    "agents_required": 5,
+    "pipeline_run_at": "2026-03-05T02:32:43Z",
+    "agent_a": {
+      "signed": true,
+      "signed_at": "2026-03-05T02:32:43Z",
+      "comment": "Docs quality 9/10. README present. 12 features, 4 permissions claimed.",
+      "doc_quality_score": 9,
+      "claimed_permissions": [
+        "network access",
+        "system command execution",
+        "file system access",
+        "environment/secret access"
+      ]
+    },
+    "agent_b": {
+      "signed": true,
+      "signed_at": "2026-03-05T02:32:43Z",
+      "comment": "4488 files analyzed. Found: 0 network, 0 file, 9 env, 2 system calls. Primary: javascript.",
+      "files_analyzed": 4488,
+      "capabilities_found": [
+        "imports external dependencies",
+        "reads environment values",
+        "executes system commands"
+      ]
+    },
+    "agent_c_star": {
+      "signed": true,
+      "signed_at": "2026-03-05T02:32:43Z",
+      "comment": "915 findings: 0 critical, 366 high, 434 medium, 115 low. Obfuscation detected!. No injection.",
+      "total_findings": 915,
+      "severity_counts": {
+        "critical": 0,
+        "high": 366,
+        "medium": 434,
+        "low": 115,
+        "info": 0
+      }
+    },
+    "agent_d": {
+      "signed": true,
+      "signed_at": "2026-03-05T02:32:43Z",
+      "comment": "Score 15. 0 mismatches. Risk: critical. Safety overrides: applied.",
+      "score": 15,
+      "mismatches": 0,
+      "safety_overrides_applied": true
+    },
+    "agent_e": {
+      "signed": true,
+      "signed_at": "2026-03-05T02:32:43Z",
+      "comment": "Rejected. Confidence 90%. Deterministic override: high-risk obfuscation detected.",
+      "approved": false,
+      "confidence": 90,
+      "override_reason": "Deterministic override: high-risk obfuscation detected."
+    },
+    "manager_summary": "5/5 agents completed. Score: 15/100, Risk: critical. 0 mismatches, 915 scanner findings. Rejected at 90% confidence. Safety overrides triggered.",
+    "auto_clear": {
+      "applied": true,
+      "reason": "Auto-clear Cat 2: obfuscation-only (4 obf_hr, 0 dangerous, 0 inj, 6364 files)",
+      "original_status": "fail",
+      "original_score": 15
+    }
+  }
 }

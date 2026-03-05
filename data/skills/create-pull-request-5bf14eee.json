@@ -7,7 +7,7 @@
   "skill_type": "agent_skill",
   "owner": "cline",
   "stars": 0,
-  "primary_language": "unknown",
+  "primary_language": "typescript",
   "tags": [
     "agent-skills",
     "installs:58099",
@@ -16,15 +16,262 @@
     "integ",
     "integrations-github",
     "util",
-    "utilities-system"
+    "utilities-system",
+    "status-pass"
   ],
-  "verification_status": "unverified",
-  "overall_score": 0,
-  "risk_level": "info",
-  "verified_commit": null,
+  "verification_status": "pass",
+  "overall_score": 60,
+  "risk_level": "medium",
+  "verified_commit": "2baf966db7dc46dc7932be64c91c5cf85aa58492",
   "scan_summary": null,
   "repo_status": "available",
   "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
   "repo_check_error": null,
-  "installs": 58099
+  "installs": 58099,
+  "scan_date": "2026-03-05T02:45:40Z",
+  "findings_summary": {
+    "scanner_findings": 1251,
+    "dangerous_calls": 75,
+    "network_ops": 93,
+    "file_ops": 586,
+    "env_access": 377,
+    "obfuscation": 19,
+    "injection_patterns": 0,
+    "mismatches": 0,
+    "undocumented_capabilities": 0,
+    "supervisor_approved": false,
+    "supervisor_confidence": 60
+  },
+  "scan_report": {
+    "total_findings": 1251,
+    "injection_patterns_count": 0,
+    "obfuscation_count": 19,
+    "obfuscation_high_risk_count": 0,
+    "dangerous_calls_count": 75,
+    "severity_counts": {
+      "critical": 0,
+      "high": 195,
+      "medium": 470,
+      "low": 586,
+      "info": 0
+    },
+    "category_counts": {
+      "env_access": 377,
+      "file_ops": 586,
+      "dangerous_calls": 75,
+      "network_ops": 93,
+      "suspicious_urls": 101,
+      "obfuscation": 19
+    },
+    "top_findings": [
+      {
+        "rule_id": "regex_js_process_env",
+        "severity": "medium",
+        "category": "env_access",
+        "file": "CHANGELOG.md",
+        "line": 1246
+      },
+      {
+        "rule_id": "regex_js_process_env",
+        "severity": "medium",
+        "category": "env_access",
+        "file": "esbuild.mjs",
+        "line": 9
+      },
+      {
+        "rule_id": "regex_js_process_env",
+        "severity": "medium",
+        "category": "env_access",
+        "file": "esbuild.mjs",
+        "line": 128
+      },
+      {
+        "rule_id": "regex_js_process_env",
+        "severity": "medium",
+        "category": "env_access",
+        "file": "esbuild.mjs",
+        "line": 133
+      },
+      {
+        "rule_id": "regex_js_process_env",
+        "severity": "medium",
+        "category": "env_access",
+        "file": "esbuild.mjs",
+        "line": 137
+      },
+      {
+        "rule_id": "regex_js_process_env",
+        "severity": "medium",
+        "category": "env_access",
+        "file": "esbuild.mjs",
+        "line": 138
+      },
+      {
+        "rule_id": "regex_js_process_env",
+        "severity": "medium",
+        "category": "env_access",
+        "file": "esbuild.mjs",
+        "line": 140
+      },
+      {
+        "rule_id": "regex_js_process_env",
+        "severity": "medium",
+        "category": "env_access",
+        "file": "esbuild.mjs",
+        "line": 141
+      },
+      {
+        "rule_id": "regex_js_process_env",
+        "severity": "medium",
+        "category": "env_access",
+        "file": "esbuild.mjs",
+        "line": 143
+      },
+      {
+        "rule_id": "regex_js_process_env",
+        "severity": "medium",
+        "category": "env_access",
+        "file": "esbuild.mjs",
+        "line": 144
+      },
+      {
+        "rule_id": "regex_js_process_env",
+        "severity": "medium",
+        "category": "env_access",
+        "file": "esbuild.mjs",
+        "line": 149
+      },
+      {
+        "rule_id": "regex_js_process_env",
+        "severity": "medium",
+        "category": "env_access",
+        "file": "esbuild.mjs",
+        "line": 150
+      },
+      {
+        "rule_id": "regex_js_process_env",
+        "severity": "medium",
+        "category": "env_access",
+        "file": "esbuild.mjs",
+        "line": 152
+      },
+      {
+        "rule_id": "regex_js_process_env",
+        "severity": "medium",
+        "category": "env_access",
+        "file": "esbuild.mjs",
+        "line": 153
+      },
+      {
+        "rule_id": "regex_js_process_env",
+        "severity": "medium",
+        "category": "env_access",
+        "file": "esbuild.mjs",
+        "line": 155
+      },
+      {
+        "rule_id": "regex_js_process_env",
+        "severity": "medium",
+        "category": "env_access",
+        "file": "esbuild.mjs",
+        "line": 156
+      },
+      {
+        "rule_id": "regex_js_process_env",
+        "severity": "medium",
+        "category": "env_access",
+        "file": "esbuild.mjs",
+        "line": 158
+      },
+      {
+        "rule_id": "regex_js_process_env",
+        "severity": "medium",
+        "category": "env_access",
+        "file": "esbuild.mjs",
+        "line": 159
+      },
+      {
+        "rule_id": "regex_js_process_env",
+        "severity": "medium",
+        "category": "env_access",
+        "file": "esbuild.mjs",
+        "line": 161
+      },
+      {
+        "rule_id": "regex_js_process_env",
+        "severity": "medium",
+        "category": "env_access",
+        "file": "esbuild.mjs",
+        "line": 162
+      }
+    ],
+    "total_files_scanned": 1551
+  },
+  "verification_level": "full_pipeline",
+  "agent_audit": {
+    "agents_completed": 5,
+    "agents_required": 5,
+    "pipeline_run_at": "2026-03-05T02:45:40Z",
+    "agent_a": {
+      "signed": true,
+      "signed_at": "2026-03-05T02:45:40Z",
+      "comment": "Docs quality 9/10. README present. 12 features, 4 permissions claimed.",
+      "doc_quality_score": 9,
+      "claimed_permissions": [
+        "network access",
+        "system command execution",
+        "file system access",
+        "environment/secret access"
+      ]
+    },
+    "agent_b": {
+      "signed": true,
+      "signed_at": "2026-03-05T02:45:40Z",
+      "comment": "1484 files analyzed. Found: 70 network, 83 file, 73 env, 15 system calls. Primary: typescript.",
+      "files_analyzed": 1484,
+      "capabilities_found": [
+        "imports external dependencies",
+        "performs network operations",
+        "reads/writes files",
+        "reads environment values",
+        "executes system commands"
+      ]
+    },
+    "agent_c_star": {
+      "signed": true,
+      "signed_at": "2026-03-05T02:45:40Z",
+      "comment": "1251 findings: 0 critical, 195 high, 470 medium, 586 low. Obfuscation detected!. No injection.",
+      "total_findings": 1251,
+      "severity_counts": {
+        "critical": 0,
+        "high": 195,
+        "medium": 470,
+        "low": 586,
+        "info": 0
+      }
+    },
+    "agent_d": {
+      "signed": true,
+      "signed_at": "2026-03-05T02:45:40Z",
+      "comment": "Score 60. 0 mismatches. Risk: medium. Safety overrides: none triggered.",
+      "score": 60,
+      "mismatches": 0,
+      "safety_overrides_applied": false
+    },
+    "agent_e": {
+      "signed": true,
+      "signed_at": "2026-03-05T02:45:40Z",
+      "comment": "Rejected. Confidence 60%. No overrides.",
+      "approved": false,
+      "confidence": 60,
+      "override_reason": null
+    },
+    "manager_summary": "5/5 agents completed. Score: 60/100, Risk: medium. 0 mismatches, 1251 scanner findings. Rejected at 60% confidence. No safety overrides.",
+    "auto_clear": {
+      "applied": true,
+      "reason": "Auto-clear Cat 1: clean profile (0 inj, 0 obf_hr, score=60)",
+      "original_status": "manual_review",
+      "original_score": 60
+    }
+  }
 }

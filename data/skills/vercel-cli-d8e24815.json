@@ -7,19 +7,266 @@
   "skill_type": "agent_skill",
   "owner": "vercel",
   "stars": 0,
-  "primary_language": "unknown",
+  "primary_language": "typescript",
   "tags": [
     "agent-skills",
     "installs:14840",
-    "dev-devops"
+    "dev-devops",
+    "status-pass"
   ],
-  "verification_status": "unverified",
-  "overall_score": 0,
-  "risk_level": "info",
-  "verified_commit": null,
+  "verification_status": "pass",
+  "overall_score": 60,
+  "risk_level": "medium",
+  "verified_commit": "7d66136c75cb62417294db64784bd40cdce97a87",
   "scan_summary": null,
   "repo_status": "available",
   "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
   "repo_check_error": null,
-  "installs": 14840
+  "installs": 14840,
+  "scan_date": "2026-03-05T02:53:41Z",
+  "findings_summary": {
+    "scanner_findings": 2721,
+    "dangerous_calls": 271,
+    "network_ops": 486,
+    "file_ops": 798,
+    "env_access": 969,
+    "obfuscation": 79,
+    "injection_patterns": 0,
+    "mismatches": 0,
+    "undocumented_capabilities": 0,
+    "supervisor_approved": false,
+    "supervisor_confidence": 60
+  },
+  "scan_report": {
+    "total_findings": 2721,
+    "injection_patterns_count": 0,
+    "obfuscation_count": 79,
+    "obfuscation_high_risk_count": 0,
+    "dangerous_calls_count": 271,
+    "severity_counts": {
+      "critical": 0,
+      "high": 468,
+      "medium": 1455,
+      "low": 798,
+      "info": 0
+    },
+    "category_counts": {
+      "dangerous_calls": 271,
+      "env_access": 969,
+      "file_ops": 798,
+      "network_ops": 486,
+      "obfuscation": 79,
+      "suspicious_urls": 118
+    },
+    "top_findings": [
+      {
+        "rule_id": "regex_js_require_child",
+        "severity": "high",
+        "category": "dangerous_calls",
+        "file": "test-cursor-detection.js",
+        "line": 1
+      },
+      {
+        "rule_id": "regex_js_process_env",
+        "severity": "medium",
+        "category": "env_access",
+        "file": "DEVELOPING_A_RUNTIME.md",
+        "line": 204
+      },
+      {
+        "rule_id": "regex_js_fs_read",
+        "severity": "low",
+        "category": "file_ops",
+        "file": "test/deprecated-dependencies.test.js",
+        "line": 88
+      },
+      {
+        "rule_id": "regex_js_fs_read",
+        "severity": "low",
+        "category": "file_ops",
+        "file": "test/lib/run-build-lambda.js",
+        "line": 15
+      },
+      {
+        "rule_id": "regex_js_fetch",
+        "severity": "medium",
+        "category": "network_ops",
+        "file": "test/lib/deployment/now-deploy.js",
+        "line": 324
+      },
+      {
+        "rule_id": "regex_js_process_env",
+        "severity": "medium",
+        "category": "env_access",
+        "file": "test/lib/deployment/now-deploy.js",
+        "line": 10
+      },
+      {
+        "rule_id": "regex_js_process_env",
+        "severity": "medium",
+        "category": "env_access",
+        "file": "test/lib/deployment/now-deploy.js",
+        "line": 42
+      },
+      {
+        "rule_id": "regex_js_process_env",
+        "severity": "medium",
+        "category": "env_access",
+        "file": "test/lib/deployment/now-deploy.js",
+        "line": 216
+      },
+      {
+        "rule_id": "regex_js_process_env",
+        "severity": "medium",
+        "category": "env_access",
+        "file": "test/lib/deployment/now-deploy.js",
+        "line": 245
+      },
+      {
+        "rule_id": "regex_js_process_env",
+        "severity": "medium",
+        "category": "env_access",
+        "file": "test/lib/deployment/now-deploy.js",
+        "line": 302
+      },
+      {
+        "rule_id": "regex_js_process_env",
+        "severity": "medium",
+        "category": "env_access",
+        "file": "test/lib/deployment/now-deploy.js",
+        "line": 307
+      },
+      {
+        "rule_id": "regex_py_eval",
+        "severity": "high",
+        "category": "dangerous_calls",
+        "file": "test/lib/deployment/test-deployment.js",
+        "line": 159
+      },
+      {
+        "rule_id": "regex_js_require_child",
+        "severity": "high",
+        "category": "dangerous_calls",
+        "file": "test/lib/deployment/test-deployment.js",
+        "line": 7
+      },
+      {
+        "rule_id": "regex_js_fetch",
+        "severity": "medium",
+        "category": "network_ops",
+        "file": "test/lib/deployment/test-deployment.js",
+        "line": 490
+      },
+      {
+        "rule_id": "regex_js_fetch",
+        "severity": "medium",
+        "category": "network_ops",
+        "file": "test/lib/deployment/test-deployment.js",
+        "line": 504
+      },
+      {
+        "rule_id": "regex_js_fs_write",
+        "severity": "low",
+        "category": "file_ops",
+        "file": "test/lib/deployment/test-deployment.js",
+        "line": 227
+      },
+      {
+        "rule_id": "regex_js_fs_write",
+        "severity": "low",
+        "category": "file_ops",
+        "file": "test/lib/deployment/test-deployment.js",
+        "line": 243
+      },
+      {
+        "rule_id": "regex_js_fs_read",
+        "severity": "low",
+        "category": "file_ops",
+        "file": "test/lib/deployment/test-deployment.js",
+        "line": 357
+      },
+      {
+        "rule_id": "regex_js_fs_read",
+        "severity": "low",
+        "category": "file_ops",
+        "file": "test/lib/deployment/test-deployment.js",
+        "line": 481
+      },
+      {
+        "rule_id": "regex_js_fs_unlink",
+        "severity": "low",
+        "category": "file_ops",
+        "file": "test/lib/deployment/test-deployment.js",
+        "line": 27
+      }
+    ],
+    "total_files_scanned": 8268
+  },
+  "verification_level": "full_pipeline",
+  "agent_audit": {
+    "agents_completed": 5,
+    "agents_required": 5,
+    "pipeline_run_at": "2026-03-05T02:53:41Z",
+    "agent_a": {
+      "signed": true,
+      "signed_at": "2026-03-05T02:53:41Z",
+      "comment": "Docs quality 10/10. README present. 12 features, 4 permissions claimed.",
+      "doc_quality_score": 10,
+      "claimed_permissions": [
+        "network access",
+        "system command execution",
+        "file system access",
+        "environment/secret access"
+      ]
+    },
+    "agent_b": {
+      "signed": true,
+      "signed_at": "2026-03-05T02:53:41Z",
+      "comment": "7781 files analyzed. Found: 12 network, 7 file, 17 env, 5 system calls. Primary: typescript.",
+      "files_analyzed": 7781,
+      "capabilities_found": [
+        "imports external dependencies",
+        "performs network operations",
+        "reads/writes files",
+        "reads environment values",
+        "executes system commands"
+      ]
+    },
+    "agent_c_star": {
+      "signed": true,
+      "signed_at": "2026-03-05T02:53:41Z",
+      "comment": "2721 findings: 0 critical, 468 high, 1455 medium, 798 low. Obfuscation detected!. No injection.",
+      "total_findings": 2721,
+      "severity_counts": {
+        "critical": 0,
+        "high": 468,
+        "medium": 1455,
+        "low": 798,
+        "info": 0
+      }
+    },
+    "agent_d": {
+      "signed": true,
+      "signed_at": "2026-03-05T02:53:41Z",
+      "comment": "Score 60. 0 mismatches. Risk: medium. Safety overrides: none triggered.",
+      "score": 60,
+      "mismatches": 0,
+      "safety_overrides_applied": false
+    },
+    "agent_e": {
+      "signed": true,
+      "signed_at": "2026-03-05T02:53:41Z",
+      "comment": "Rejected. Confidence 60%. No overrides.",
+      "approved": false,
+      "confidence": 60,
+      "override_reason": null
+    },
+    "manager_summary": "5/5 agents completed. Score: 60/100, Risk: medium. 0 mismatches, 2721 scanner findings. Rejected at 60% confidence. No safety overrides.",
+    "auto_clear": {
+      "applied": true,
+      "reason": "Auto-clear Cat 1: clean profile (0 inj, 0 obf_hr, score=60)",
+      "original_status": "manual_review",
+      "original_score": 60
+    }
+  }
 }

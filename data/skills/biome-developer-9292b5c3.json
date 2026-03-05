@@ -7,19 +7,264 @@
   "skill_type": "agent_skill",
   "owner": "biomejs",
   "stars": 0,
-  "primary_language": "unknown",
+  "primary_language": "rust",
   "tags": [
     "agent-skills",
     "installs:23632",
-    "dev"
+    "dev",
+    "status-pass"
   ],
-  "verification_status": "unverified",
-  "overall_score": 0,
-  "risk_level": "info",
-  "verified_commit": null,
+  "verification_status": "pass",
+  "overall_score": 50,
+  "risk_level": "medium",
+  "verified_commit": "306490604ee885fd2d21bcaef5f6b87da0f45dbf",
   "scan_summary": null,
   "repo_status": "available",
   "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
   "repo_check_error": null,
-  "installs": 23632
+  "installs": 23632,
+  "scan_date": "2026-03-05T02:50:21Z",
+  "findings_summary": {
+    "scanner_findings": 345,
+    "dangerous_calls": 87,
+    "network_ops": 43,
+    "file_ops": 50,
+    "env_access": 123,
+    "obfuscation": 38,
+    "injection_patterns": 0,
+    "mismatches": 0,
+    "undocumented_capabilities": 0,
+    "supervisor_approved": false,
+    "supervisor_confidence": 90
+  },
+  "scan_report": {
+    "total_findings": 345,
+    "injection_patterns_count": 0,
+    "obfuscation_count": 38,
+    "obfuscation_high_risk_count": 1,
+    "dangerous_calls_count": 87,
+    "severity_counts": {
+      "critical": 0,
+      "high": 129,
+      "medium": 166,
+      "low": 50,
+      "info": 0
+    },
+    "category_counts": {
+      "dangerous_calls": 87,
+      "network_ops": 43,
+      "env_access": 123,
+      "file_ops": 50,
+      "suspicious_urls": 4,
+      "obfuscation": 38
+    },
+    "top_findings": [
+      {
+        "rule_id": "regex_py_eval",
+        "severity": "high",
+        "category": "dangerous_calls",
+        "file": "CHANGELOG.md",
+        "line": 290
+      },
+      {
+        "rule_id": "regex_py_eval",
+        "severity": "high",
+        "category": "dangerous_calls",
+        "file": "CHANGELOG.md",
+        "line": 293
+      },
+      {
+        "rule_id": "regex_shell_backtick_exec",
+        "severity": "high",
+        "category": "dangerous_calls",
+        "file": "CHANGELOG.md",
+        "line": 286
+      },
+      {
+        "rule_id": "regex_shell_backtick_exec",
+        "severity": "high",
+        "category": "dangerous_calls",
+        "file": "CHANGELOG.md",
+        "line": 3886
+      },
+      {
+        "rule_id": "regex_shell_backtick_exec",
+        "severity": "high",
+        "category": "dangerous_calls",
+        "file": "CHANGELOG.md",
+        "line": 3915
+      },
+      {
+        "rule_id": "regex_shell_backtick_exec",
+        "severity": "high",
+        "category": "dangerous_calls",
+        "file": "CHANGELOG.md",
+        "line": 3927
+      },
+      {
+        "rule_id": "regex_shell_backtick_exec",
+        "severity": "high",
+        "category": "dangerous_calls",
+        "file": "CHANGELOG.md",
+        "line": 5287
+      },
+      {
+        "rule_id": "regex_shell_backtick_exec",
+        "severity": "high",
+        "category": "dangerous_calls",
+        "file": "CHANGELOG.md",
+        "line": 5291
+      },
+      {
+        "rule_id": "regex_shell_backtick_exec",
+        "severity": "high",
+        "category": "dangerous_calls",
+        "file": "CHANGELOG.md",
+        "line": 5299
+      },
+      {
+        "rule_id": "regex_js_fetch",
+        "severity": "medium",
+        "category": "network_ops",
+        "file": "CHANGELOG.md",
+        "line": 5963
+      },
+      {
+        "rule_id": "regex_js_process_env",
+        "severity": "medium",
+        "category": "env_access",
+        "file": "CHANGELOG.md",
+        "line": 1852
+      },
+      {
+        "rule_id": "regex_js_fs_mkdir",
+        "severity": "low",
+        "category": "file_ops",
+        "file": "benchmark/bench.js",
+        "line": 208
+      },
+      {
+        "rule_id": "regex_js_fs_unlink",
+        "severity": "low",
+        "category": "file_ops",
+        "file": "crates/biome_html_formatter/tests/specs/prettier/prepare_tests.js",
+        "line": 9
+      },
+      {
+        "rule_id": "regex_js_fs_write",
+        "severity": "low",
+        "category": "file_ops",
+        "file": "crates/biome_markdown_formatter/tests/specs/prettier/prepare_tests.js",
+        "line": 119
+      },
+      {
+        "rule_id": "regex_js_fs_write",
+        "severity": "low",
+        "category": "file_ops",
+        "file": "crates/biome_markdown_formatter/tests/specs/prettier/prepare_tests.js",
+        "line": 124
+      },
+      {
+        "rule_id": "regex_js_fs_write",
+        "severity": "low",
+        "category": "file_ops",
+        "file": "crates/biome_markdown_formatter/tests/specs/prettier/prepare_tests.js",
+        "line": 139
+      },
+      {
+        "rule_id": "regex_js_fs_read",
+        "severity": "low",
+        "category": "file_ops",
+        "file": "crates/biome_markdown_formatter/tests/specs/prettier/prepare_tests.js",
+        "line": 35
+      },
+      {
+        "rule_id": "regex_js_fs_read",
+        "severity": "low",
+        "category": "file_ops",
+        "file": "crates/biome_markdown_formatter/tests/specs/prettier/prepare_tests.js",
+        "line": 127
+      },
+      {
+        "rule_id": "regex_js_fs_mkdir",
+        "severity": "low",
+        "category": "file_ops",
+        "file": "crates/biome_markdown_formatter/tests/specs/prettier/prepare_tests.js",
+        "line": 73
+      },
+      {
+        "rule_id": "regex_js_fs_mkdir",
+        "severity": "low",
+        "category": "file_ops",
+        "file": "crates/biome_markdown_formatter/tests/specs/prettier/prepare_tests.js",
+        "line": 134
+      }
+    ],
+    "total_files_scanned": 6447
+  },
+  "verification_level": "full_pipeline",
+  "agent_audit": {
+    "agents_completed": 5,
+    "agents_required": 5,
+    "pipeline_run_at": "2026-03-05T02:50:21Z",
+    "agent_a": {
+      "signed": true,
+      "signed_at": "2026-03-05T02:50:21Z",
+      "comment": "Docs quality 9/10. README present. 12 features, 4 permissions claimed.",
+      "doc_quality_score": 9,
+      "claimed_permissions": [
+        "network access",
+        "system command execution",
+        "file system access",
+        "environment/secret access"
+      ]
+    },
+    "agent_b": {
+      "signed": true,
+      "signed_at": "2026-03-05T02:50:21Z",
+      "comment": "9274 files analyzed. Found: 23 network, 31 file, 0 env, 0 system calls. Primary: rust.",
+      "files_analyzed": 9274,
+      "capabilities_found": [
+        "imports external dependencies",
+        "performs network operations",
+        "reads/writes files"
+      ]
+    },
+    "agent_c_star": {
+      "signed": true,
+      "signed_at": "2026-03-05T02:50:21Z",
+      "comment": "345 findings: 0 critical, 129 high, 166 medium, 50 low. Obfuscation detected!. No injection.",
+      "total_findings": 345,
+      "severity_counts": {
+        "critical": 0,
+        "high": 129,
+        "medium": 166,
+        "low": 50,
+        "info": 0
+      }
+    },
+    "agent_d": {
+      "signed": true,
+      "signed_at": "2026-03-05T02:50:21Z",
+      "comment": "Score 15. 0 mismatches. Risk: critical. Safety overrides: applied.",
+      "score": 15,
+      "mismatches": 0,
+      "safety_overrides_applied": true
+    },
+    "agent_e": {
+      "signed": true,
+      "signed_at": "2026-03-05T02:50:21Z",
+      "comment": "Rejected. Confidence 90%. Deterministic override: high-risk obfuscation detected.",
+      "approved": false,
+      "confidence": 90,
+      "override_reason": "Deterministic override: high-risk obfuscation detected."
+    },
+    "manager_summary": "5/5 agents completed. Score: 15/100, Risk: critical. 0 mismatches, 345 scanner findings. Rejected at 90% confidence. Safety overrides triggered.",
+    "auto_clear": {
+      "applied": true,
+      "reason": "Auto-clear Cat 2: obfuscation-only (1 obf_hr, 0 dangerous, 0 inj, 6447 files)",
+      "original_status": "fail",
+      "original_score": 15
+    }
+  }
 }

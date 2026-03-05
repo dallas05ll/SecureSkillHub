@@ -7,22 +7,269 @@
   "skill_type": "agent_skill",
   "owner": "shubhamsaboo",
   "stars": 0,
-  "primary_language": "unknown",
+  "primary_language": "python",
   "tags": [
     "agent-skills",
     "installs:95770",
     "dev",
     "dev-git",
     "sec",
-    "sec-scan"
+    "sec-scan",
+    "status-pass"
   ],
-  "verification_status": "unverified",
-  "overall_score": 0,
-  "risk_level": "info",
-  "verified_commit": null,
+  "verification_status": "pass",
+  "overall_score": 60,
+  "risk_level": "medium",
+  "verified_commit": "a5f5bb0ed7c9161c6939af9699ff2d2314f120e0",
   "scan_summary": null,
   "repo_status": "available",
   "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
   "repo_check_error": null,
-  "installs": 95770
+  "installs": 95770,
+  "scan_date": "2026-03-05T02:33:10Z",
+  "findings_summary": {
+    "scanner_findings": 650,
+    "dangerous_calls": 12,
+    "network_ops": 59,
+    "file_ops": 257,
+    "env_access": 247,
+    "obfuscation": 11,
+    "injection_patterns": 0,
+    "mismatches": 0,
+    "undocumented_capabilities": 0,
+    "supervisor_approved": false,
+    "supervisor_confidence": 60
+  },
+  "scan_report": {
+    "total_findings": 650,
+    "injection_patterns_count": 0,
+    "obfuscation_count": 11,
+    "obfuscation_high_risk_count": 0,
+    "dangerous_calls_count": 12,
+    "severity_counts": {
+      "critical": 0,
+      "high": 87,
+      "medium": 306,
+      "low": 257,
+      "info": 0
+    },
+    "category_counts": {
+      "env_access": 247,
+      "network_ops": 59,
+      "file_ops": 257,
+      "suspicious_urls": 64,
+      "dangerous_calls": 12,
+      "obfuscation": 11
+    },
+    "top_findings": [
+      {
+        "rule_id": "regex_py_os_environ",
+        "severity": "medium",
+        "category": "env_access",
+        "file": "mcp_ai_agents/ai_travel_planner_mcp_agent_team/app.py",
+        "line": 69
+      },
+      {
+        "rule_id": "regex_py_os_environ",
+        "severity": "medium",
+        "category": "env_access",
+        "file": "mcp_ai_agents/github_mcp_agent/github_agent.py",
+        "line": 21
+      },
+      {
+        "rule_id": "regex_py_os_environ",
+        "severity": "medium",
+        "category": "env_access",
+        "file": "mcp_ai_agents/github_mcp_agent/github_agent.py",
+        "line": 26
+      },
+      {
+        "rule_id": "regex_py_os_environ",
+        "severity": "medium",
+        "category": "env_access",
+        "file": "mcp_ai_agents/github_mcp_agent/github_agent.py",
+        "line": 83
+      },
+      {
+        "rule_id": "regex_py_os_getenv",
+        "severity": "medium",
+        "category": "env_access",
+        "file": "mcp_ai_agents/github_mcp_agent/github_agent.py",
+        "line": 67
+      },
+      {
+        "rule_id": "regex_py_os_getenv",
+        "severity": "medium",
+        "category": "env_access",
+        "file": "mcp_ai_agents/github_mcp_agent/github_agent.py",
+        "line": 70
+      },
+      {
+        "rule_id": "regex_py_os_getenv",
+        "severity": "medium",
+        "category": "env_access",
+        "file": "mcp_ai_agents/github_mcp_agent/github_agent.py",
+        "line": 84
+      },
+      {
+        "rule_id": "regex_py_os_environ",
+        "severity": "medium",
+        "category": "env_access",
+        "file": "mcp_ai_agents/multi_mcp_agent/multi_mcp_agent.py",
+        "line": 51
+      },
+      {
+        "rule_id": "regex_py_os_getenv",
+        "severity": "medium",
+        "category": "env_access",
+        "file": "mcp_ai_agents/multi_mcp_agent/multi_mcp_agent.py",
+        "line": 14
+      },
+      {
+        "rule_id": "regex_py_os_getenv",
+        "severity": "medium",
+        "category": "env_access",
+        "file": "mcp_ai_agents/multi_mcp_agent/multi_mcp_agent.py",
+        "line": 15
+      },
+      {
+        "rule_id": "regex_py_os_getenv",
+        "severity": "medium",
+        "category": "env_access",
+        "file": "mcp_ai_agents/multi_mcp_agent/multi_mcp_agent.py",
+        "line": 16
+      },
+      {
+        "rule_id": "regex_py_dotenv_load",
+        "severity": "medium",
+        "category": "env_access",
+        "file": "mcp_ai_agents/multi_mcp_agent/multi_mcp_agent.py",
+        "line": 12
+      },
+      {
+        "rule_id": "regex_py_os_getenv",
+        "severity": "medium",
+        "category": "env_access",
+        "file": "mcp_ai_agents/notion_mcp_agent/notion_mcp_agent.py",
+        "line": 17
+      },
+      {
+        "rule_id": "regex_py_os_getenv",
+        "severity": "medium",
+        "category": "env_access",
+        "file": "mcp_ai_agents/notion_mcp_agent/notion_mcp_agent.py",
+        "line": 18
+      },
+      {
+        "rule_id": "regex_py_dotenv_load",
+        "severity": "medium",
+        "category": "env_access",
+        "file": "mcp_ai_agents/notion_mcp_agent/notion_mcp_agent.py",
+        "line": 15
+      },
+      {
+        "rule_id": "regex_py_os_getenv",
+        "severity": "medium",
+        "category": "env_access",
+        "file": "mcp_ai_agents/browser_mcp_agent/main.py",
+        "line": 91
+      },
+      {
+        "rule_id": "regex_py_requests",
+        "severity": "medium",
+        "category": "network_ops",
+        "file": "advanced_llm_apps/resume_job_matcher/app.py",
+        "line": 66
+      },
+      {
+        "rule_id": "regex_py_open",
+        "severity": "low",
+        "category": "file_ops",
+        "file": "advanced_llm_apps/resume_job_matcher/app.py",
+        "line": 23
+      },
+      {
+        "rule_id": "regex_localhost_non_std",
+        "severity": "high",
+        "category": "suspicious_urls",
+        "file": "advanced_llm_apps/resume_job_matcher/app.py",
+        "line": 67
+      },
+      {
+        "rule_id": "regex_py_os_environ",
+        "severity": "medium",
+        "category": "env_access",
+        "file": "advanced_llm_apps/cursor_ai_experiments/multi_agent_researcher.py",
+        "line": 123
+      }
+    ],
+    "total_files_scanned": 934
+  },
+  "verification_level": "full_pipeline",
+  "agent_audit": {
+    "agents_completed": 5,
+    "agents_required": 5,
+    "pipeline_run_at": "2026-03-05T02:33:10Z",
+    "agent_a": {
+      "signed": true,
+      "signed_at": "2026-03-05T02:33:10Z",
+      "comment": "Docs quality 10/10. README present. 12 features, 4 permissions claimed.",
+      "doc_quality_score": 10,
+      "claimed_permissions": [
+        "network access",
+        "system command execution",
+        "file system access",
+        "environment/secret access"
+      ]
+    },
+    "agent_b": {
+      "signed": true,
+      "signed_at": "2026-03-05T02:33:10Z",
+      "comment": "570 files analyzed. Found: 43 network, 29 file, 118 env, 7 system calls. Primary: python.",
+      "files_analyzed": 570,
+      "capabilities_found": [
+        "imports external dependencies",
+        "performs network operations",
+        "reads/writes files",
+        "reads environment values",
+        "executes system commands"
+      ]
+    },
+    "agent_c_star": {
+      "signed": true,
+      "signed_at": "2026-03-05T02:33:10Z",
+      "comment": "650 findings: 0 critical, 87 high, 306 medium, 257 low. Obfuscation detected!. No injection.",
+      "total_findings": 650,
+      "severity_counts": {
+        "critical": 0,
+        "high": 87,
+        "medium": 306,
+        "low": 257,
+        "info": 0
+      }
+    },
+    "agent_d": {
+      "signed": true,
+      "signed_at": "2026-03-05T02:33:10Z",
+      "comment": "Score 60. 0 mismatches. Risk: medium. Safety overrides: none triggered.",
+      "score": 60,
+      "mismatches": 0,
+      "safety_overrides_applied": false
+    },
+    "agent_e": {
+      "signed": true,
+      "signed_at": "2026-03-05T02:33:10Z",
+      "comment": "Rejected. Confidence 60%. No overrides.",
+      "approved": false,
+      "confidence": 60,
+      "override_reason": null
+    },
+    "manager_summary": "5/5 agents completed. Score: 60/100, Risk: medium. 0 mismatches, 650 scanner findings. Rejected at 60% confidence. No safety overrides.",
+    "auto_clear": {
+      "applied": true,
+      "reason": "Auto-clear Cat 1: clean profile (0 inj, 0 obf_hr, score=60)",
+      "original_status": "manual_review",
+      "original_score": 60
+    }
+  }
 }

@@ -1,9 +1,9 @@
 {
   "total_skills": 11098,
-  "verified_skills": 4347,
+  "verified_skills": 4447,
   "failed_skills": 0,
   "pending_review": 0,
-  "total_scans_run": 4347,
+  "total_scans_run": 4447,
   "last_crawl": "2026-03-04T14:40:00Z",
   "last_build": "2026-03-04T15:30:00Z",
   "sources": {
@@ -15,11 +15,11 @@
     "glama": 50
   },
   "skill_types": {
-    "mcp_server": 6899,
-    "agent_skill": 4199
+    "mcp_server": 6999,
+    "agent_skill": 4099
   },
   "verification_tiers": {
-    "full_pipeline": 4347,
+    "full_pipeline": 4447,
     "scanner_only": 0,
     "metadata_only": 0
   }

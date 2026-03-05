@@ -7,22 +7,269 @@
   "skill_type": "agent_skill",
   "owner": "roocodeinc",
   "stars": 0,
-  "primary_language": "unknown",
+  "primary_language": "typescript",
   "tags": [
     "agent-skills",
     "installs:22251",
     "dev",
     "dev-devops",
     "dev-web",
-    "dev-web-fullstack"
+    "dev-web-fullstack",
+    "status-pass"
   ],
-  "verification_status": "unverified",
-  "overall_score": 0,
-  "risk_level": "info",
-  "verified_commit": null,
+  "verification_status": "pass",
+  "overall_score": 50,
+  "risk_level": "medium",
+  "verified_commit": "52ce796e4272f3cf3f3ea4369d5e6a6bfc066396",
   "scan_summary": null,
   "repo_status": "available",
   "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
   "repo_check_error": null,
-  "installs": 22251
+  "installs": 22251,
+  "scan_date": "2026-03-05T02:55:11Z",
+  "findings_summary": {
+    "scanner_findings": 1537,
+    "dangerous_calls": 22,
+    "network_ops": 64,
+    "file_ops": 724,
+    "env_access": 364,
+    "obfuscation": 59,
+    "injection_patterns": 0,
+    "mismatches": 0,
+    "undocumented_capabilities": 0,
+    "supervisor_approved": false,
+    "supervisor_confidence": 90
+  },
+  "scan_report": {
+    "total_findings": 1537,
+    "injection_patterns_count": 0,
+    "obfuscation_count": 59,
+    "obfuscation_high_risk_count": 3,
+    "dangerous_calls_count": 22,
+    "severity_counts": {
+      "critical": 0,
+      "high": 385,
+      "medium": 428,
+      "low": 724,
+      "info": 0
+    },
+    "category_counts": {
+      "network_ops": 64,
+      "file_ops": 724,
+      "env_access": 364,
+      "suspicious_urls": 304,
+      "obfuscation": 59,
+      "dangerous_calls": 22
+    },
+    "top_findings": [
+      {
+        "rule_id": "regex_js_fetch",
+        "severity": "medium",
+        "category": "network_ops",
+        "file": "CHANGELOG.md",
+        "line": 181
+      },
+      {
+        "rule_id": "regex_py_open",
+        "severity": "low",
+        "category": "file_ops",
+        "file": "CHANGELOG.md",
+        "line": 72
+      },
+      {
+        "rule_id": "regex_py_open",
+        "severity": "low",
+        "category": "file_ops",
+        "file": "CHANGELOG.md",
+        "line": 1021
+      },
+      {
+        "rule_id": "regex_py_open",
+        "severity": "low",
+        "category": "file_ops",
+        "file": "CHANGELOG.md",
+        "line": 1198
+      },
+      {
+        "rule_id": "regex_js_fs_write",
+        "severity": "low",
+        "category": "file_ops",
+        "file": "webview-ui/vite.config.ts",
+        "line": 45
+      },
+      {
+        "rule_id": "regex_js_fs_read",
+        "severity": "low",
+        "category": "file_ops",
+        "file": "webview-ui/vite.config.ts",
+        "line": 58
+      },
+      {
+        "rule_id": "regex_js_fs_read",
+        "severity": "low",
+        "category": "file_ops",
+        "file": "webview-ui/vite.config.ts",
+        "line": 76
+      },
+      {
+        "rule_id": "regex_js_process_env",
+        "severity": "medium",
+        "category": "env_access",
+        "file": "webview-ui/vite.config.ts",
+        "line": 63
+      },
+      {
+        "rule_id": "regex_js_process_env",
+        "severity": "medium",
+        "category": "env_access",
+        "file": "webview-ui/vite.config.ts",
+        "line": 64
+      },
+      {
+        "rule_id": "regex_js_process_env",
+        "severity": "medium",
+        "category": "env_access",
+        "file": "webview-ui/vite.config.ts",
+        "line": 65
+      },
+      {
+        "rule_id": "regex_js_process_env",
+        "severity": "medium",
+        "category": "env_access",
+        "file": "webview-ui/vite.config.ts",
+        "line": 66
+      },
+      {
+        "rule_id": "regex_js_process_env",
+        "severity": "medium",
+        "category": "env_access",
+        "file": "webview-ui/vite.config.ts",
+        "line": 67
+      },
+      {
+        "rule_id": "regex_js_process_env",
+        "severity": "medium",
+        "category": "env_access",
+        "file": "webview-ui/vite.config.ts",
+        "line": 79
+      },
+      {
+        "rule_id": "regex_js_process_env",
+        "severity": "medium",
+        "category": "env_access",
+        "file": "webview-ui/vite.config.ts",
+        "line": 80
+      },
+      {
+        "rule_id": "regex_js_process_env",
+        "severity": "medium",
+        "category": "env_access",
+        "file": "webview-ui/vite.config.ts",
+        "line": 81
+      },
+      {
+        "rule_id": "regex_js_process_env",
+        "severity": "medium",
+        "category": "env_access",
+        "file": "webview-ui/vitest.setup.ts",
+        "line": 7
+      },
+      {
+        "rule_id": "regex_js_process_env",
+        "severity": "medium",
+        "category": "env_access",
+        "file": "webview-ui/vitest.setup.ts",
+        "line": 8
+      },
+      {
+        "rule_id": "regex_js_process_env",
+        "severity": "medium",
+        "category": "env_access",
+        "file": "webview-ui/src/App.tsx",
+        "line": 195
+      },
+      {
+        "rule_id": "regex_localhost_non_std",
+        "severity": "high",
+        "category": "suspicious_urls",
+        "file": "webview-ui/src/context/ExtensionStateContext.tsx",
+        "line": 251
+      },
+      {
+        "rule_id": "regex_js_decodeURI",
+        "severity": "high",
+        "category": "obfuscation",
+        "file": "webview-ui/src/utils/path-mentions.ts",
+        "line": 42
+      }
+    ],
+    "total_files_scanned": 2306
+  },
+  "verification_level": "full_pipeline",
+  "agent_audit": {
+    "agents_completed": 5,
+    "agents_required": 5,
+    "pipeline_run_at": "2026-03-05T02:55:11Z",
+    "agent_a": {
+      "signed": true,
+      "signed_at": "2026-03-05T02:55:11Z",
+      "comment": "Docs quality 9/10. README present. 12 features, 4 permissions claimed.",
+      "doc_quality_score": 9,
+      "claimed_permissions": [
+        "network access",
+        "system command execution",
+        "file system access",
+        "environment/secret access"
+      ]
+    },
+    "agent_b": {
+      "signed": true,
+      "signed_at": "2026-03-05T02:55:11Z",
+      "comment": "2231 files analyzed. Found: 32 network, 84 file, 106 env, 3 system calls. Primary: typescript.",
+      "files_analyzed": 2231,
+      "capabilities_found": [
+        "imports external dependencies",
+        "performs network operations",
+        "reads/writes files",
+        "reads environment values",
+        "executes system commands"
+      ]
+    },
+    "agent_c_star": {
+      "signed": true,
+      "signed_at": "2026-03-05T02:55:11Z",
+      "comment": "1537 findings: 0 critical, 385 high, 428 medium, 724 low. Obfuscation detected!. No injection.",
+      "total_findings": 1537,
+      "severity_counts": {
+        "critical": 0,
+        "high": 385,
+        "medium": 428,
+        "low": 724,
+        "info": 0
+      }
+    },
+    "agent_d": {
+      "signed": true,
+      "signed_at": "2026-03-05T02:55:11Z",
+      "comment": "Score 15. 0 mismatches. Risk: critical. Safety overrides: applied.",
+      "score": 15,
+      "mismatches": 0,
+      "safety_overrides_applied": true
+    },
+    "agent_e": {
+      "signed": true,
+      "signed_at": "2026-03-05T02:55:11Z",
+      "comment": "Rejected. Confidence 90%. Deterministic override: high-risk obfuscation detected.",
+      "approved": false,
+      "confidence": 90,
+      "override_reason": "Deterministic override: high-risk obfuscation detected."
+    },
+    "manager_summary": "5/5 agents completed. Score: 15/100, Risk: critical. 0 mismatches, 1537 scanner findings. Rejected at 90% confidence. Safety overrides triggered.",
+    "auto_clear": {
+      "applied": true,
+      "reason": "Auto-clear Cat 2: obfuscation-only (3 obf_hr, 0 dangerous, 0 inj, 2306 files)",
+      "original_status": "fail",
+      "original_score": 15
+    }
+  }
 }

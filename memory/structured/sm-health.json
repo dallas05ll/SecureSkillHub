@@ -158,6 +158,13 @@
       "category": "catalog",
       "description": "MCP skills: 6,297 (58% verified), have stars, license, forks, trust_level. Agent skills: 4,801 (14% verified), have installs but no stars/license/forks. Install tiers: 8 Mega (100K+), 158 High (10K-100K), 611 Mid (1K-10K), 1791 Low (100-1K). Agent verification gap is the #1 coverage priority.",
       "date": "2026-03-04"
+    },
+    {
+      "id": "sm-h-008",
+      "title": "SM --type filter: separate MCP/agent catalog selection",
+      "category": "selection",
+      "description": "sm_select_targets.py now supports --type mcp|agent flag for separate catalog selection. Batch 11 (first agent-only batch): 100 agent skills verified, 99 pass + 1 PM override (supabase monorepo). All S-tier installs selected correctly. Display now shows separate MCP/Agent tier breakdowns. Agent verification coverage: ~16% (up from 14%).",
+      "date": "2026-03-05"
     }
   ],
   "evolve_history": [
@@ -446,7 +453,43 @@
         "PERSISTENT: 1 recommendations still unresolved"
       ],
       "secm_handoff_count": 606
+    },
+    {
+      "id": "sm-evolve-2026-03-05T-batch11",
+      "timestamp": "2026-03-05T01:30:00.000000+00:00",
+      "tag_analysis": {
+        "total_skills": 11098,
+        "unique_tags": 77,
+        "avg_tags_per_skill": 2.8,
+        "coverage_gaps": []
+      },
+      "quality_analysis": {
+        "status_distribution": {
+          "unverified": 6651,
+          "pass": 4447
+        },
+        "avg_score": 0.0,
+        "pm_overrides": 651,
+        "override_categories": {
+          "unknown": 613,
+          "FP": 37
+        }
+      },
+      "fp_pattern_count": 606,
+      "recommendations": [
+        "TAG_DEPTH: 8857/11098 skills have shallow tags (depth 0-1). Run auto_tag enrichment.",
+        "VERIFY_COVERAGE: 6651/11098 skills still unverified. Run next batch.",
+        "AGENT_COVERAGE: ~16% agent skills verified. Continue --type agent batches to close gap."
+      ],
+      "evolution_deltas": [
+        "NEW: Batch 11 — first agent-only batch. 99 pass, 1 PM override (supabase monorepo).",
+        "NEW: SM --type mcp|agent filter operational. Display shows separate MCP/Agent tier breakdowns.",
+        "TREND: pass count +100 (4347→4447), unverified -100 (6751→6651)",
+        "PERSISTENT: tag depth and verify coverage still unresolved"
+      ],
+      "secm_handoff_count": 606,
+      "batch_note": "Batch 11 agent-only. S-tier installs. --type agent filter validated."
     }
   ],
-  "last_evolve": "2026-03-05T00:58:31.818814+00:00"
+  "last_evolve": "2026-03-05T01:30:00.000000+00:00"
 }

@@ -7,19 +7,266 @@
   "skill_type": "agent_skill",
   "owner": "google",
   "stars": 0,
-  "primary_language": "unknown",
+  "primary_language": "python",
   "tags": [
     "agent-skills",
     "installs:17798",
-    "utilities"
+    "utilities",
+    "status-pass"
   ],
-  "verification_status": "unverified",
-  "overall_score": 0,
-  "risk_level": "info",
-  "verified_commit": null,
+  "verification_status": "pass",
+  "overall_score": 50,
+  "risk_level": "medium",
+  "verified_commit": "36e76b98b31fe4a8e5a60d1b5704fcbdd38994c3",
   "scan_summary": null,
   "repo_status": "available",
   "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
   "repo_check_error": null,
-  "installs": 17798
+  "installs": 17798,
+  "scan_date": "2026-03-05T02:52:13Z",
+  "findings_summary": {
+    "scanner_findings": 965,
+    "dangerous_calls": 67,
+    "network_ops": 51,
+    "file_ops": 306,
+    "env_access": 361,
+    "obfuscation": 62,
+    "injection_patterns": 0,
+    "mismatches": 0,
+    "undocumented_capabilities": 0,
+    "supervisor_approved": false,
+    "supervisor_confidence": 90
+  },
+  "scan_report": {
+    "total_findings": 965,
+    "injection_patterns_count": 0,
+    "obfuscation_count": 62,
+    "obfuscation_high_risk_count": 2,
+    "dangerous_calls_count": 67,
+    "severity_counts": {
+      "critical": 0,
+      "high": 247,
+      "medium": 412,
+      "low": 306,
+      "info": 0
+    },
+    "category_counts": {
+      "dangerous_calls": 67,
+      "network_ops": 51,
+      "file_ops": 306,
+      "env_access": 361,
+      "obfuscation": 62,
+      "suspicious_urls": 118
+    },
+    "top_findings": [
+      {
+        "rule_id": "regex_py_eval",
+        "severity": "high",
+        "category": "dangerous_calls",
+        "file": "CHANGELOG.md",
+        "line": 913
+      },
+      {
+        "rule_id": "regex_py_subprocess_call",
+        "severity": "high",
+        "category": "dangerous_calls",
+        "file": "llms-full.txt",
+        "line": 1779
+      },
+      {
+        "rule_id": "regex_py___import__",
+        "severity": "high",
+        "category": "dangerous_calls",
+        "file": "llms-full.txt",
+        "line": 12906
+      },
+      {
+        "rule_id": "regex_shell_backtick_exec",
+        "severity": "high",
+        "category": "dangerous_calls",
+        "file": "llms-full.txt",
+        "line": 6311
+      },
+      {
+        "rule_id": "regex_shell_backtick_exec",
+        "severity": "high",
+        "category": "dangerous_calls",
+        "file": "llms-full.txt",
+        "line": 6386
+      },
+      {
+        "rule_id": "regex_shell_backtick_exec",
+        "severity": "high",
+        "category": "dangerous_calls",
+        "file": "llms-full.txt",
+        "line": 8973
+      },
+      {
+        "rule_id": "regex_shell_backtick_exec",
+        "severity": "high",
+        "category": "dangerous_calls",
+        "file": "llms-full.txt",
+        "line": 11265
+      },
+      {
+        "rule_id": "regex_shell_backtick_exec",
+        "severity": "high",
+        "category": "dangerous_calls",
+        "file": "llms-full.txt",
+        "line": 11978
+      },
+      {
+        "rule_id": "regex_shell_backtick_exec",
+        "severity": "high",
+        "category": "dangerous_calls",
+        "file": "llms-full.txt",
+        "line": 12802
+      },
+      {
+        "rule_id": "regex_js_fetch",
+        "severity": "medium",
+        "category": "network_ops",
+        "file": "llms-full.txt",
+        "line": 12520
+      },
+      {
+        "rule_id": "regex_js_websocket",
+        "severity": "medium",
+        "category": "network_ops",
+        "file": "llms-full.txt",
+        "line": 11709
+      },
+      {
+        "rule_id": "regex_py_open",
+        "severity": "low",
+        "category": "file_ops",
+        "file": "llms-full.txt",
+        "line": 5315
+      },
+      {
+        "rule_id": "regex_py_open",
+        "severity": "low",
+        "category": "file_ops",
+        "file": "llms-full.txt",
+        "line": 13860
+      },
+      {
+        "rule_id": "regex_py_os_path",
+        "severity": "low",
+        "category": "file_ops",
+        "file": "llms-full.txt",
+        "line": 6042
+      },
+      {
+        "rule_id": "regex_py_os_path",
+        "severity": "low",
+        "category": "file_ops",
+        "file": "llms-full.txt",
+        "line": 6474
+      },
+      {
+        "rule_id": "regex_py_os_path",
+        "severity": "low",
+        "category": "file_ops",
+        "file": "llms-full.txt",
+        "line": 11616
+      },
+      {
+        "rule_id": "regex_py_os_path",
+        "severity": "low",
+        "category": "file_ops",
+        "file": "llms-full.txt",
+        "line": 16526
+      },
+      {
+        "rule_id": "regex_py_os_path",
+        "severity": "low",
+        "category": "file_ops",
+        "file": "llms-full.txt",
+        "line": 16546
+      },
+      {
+        "rule_id": "regex_py_os_path",
+        "severity": "low",
+        "category": "file_ops",
+        "file": "llms-full.txt",
+        "line": 16944
+      },
+      {
+        "rule_id": "regex_py_os_environ",
+        "severity": "medium",
+        "category": "env_access",
+        "file": "llms-full.txt",
+        "line": 3981
+      }
+    ],
+    "total_files_scanned": 1403
+  },
+  "verification_level": "full_pipeline",
+  "agent_audit": {
+    "agents_completed": 5,
+    "agents_required": 5,
+    "pipeline_run_at": "2026-03-05T02:52:13Z",
+    "agent_a": {
+      "signed": true,
+      "signed_at": "2026-03-05T02:52:13Z",
+      "comment": "Docs quality 10/10. README present. 12 features, 4 permissions claimed.",
+      "doc_quality_score": 10,
+      "claimed_permissions": [
+        "network access",
+        "system command execution",
+        "file system access",
+        "environment/secret access"
+      ]
+    },
+    "agent_b": {
+      "signed": true,
+      "signed_at": "2026-03-05T02:52:13Z",
+      "comment": "1299 files analyzed. Found: 28 network, 50 file, 98 env, 9 system calls. Primary: python.",
+      "files_analyzed": 1299,
+      "capabilities_found": [
+        "imports external dependencies",
+        "performs network operations",
+        "reads/writes files",
+        "reads environment values",
+        "executes system commands"
+      ]
+    },
+    "agent_c_star": {
+      "signed": true,
+      "signed_at": "2026-03-05T02:52:13Z",
+      "comment": "965 findings: 0 critical, 247 high, 412 medium, 306 low. Obfuscation detected!. No injection.",
+      "total_findings": 965,
+      "severity_counts": {
+        "critical": 0,
+        "high": 247,
+        "medium": 412,
+        "low": 306,
+        "info": 0
+      }
+    },
+    "agent_d": {
+      "signed": true,
+      "signed_at": "2026-03-05T02:52:13Z",
+      "comment": "Score 15. 0 mismatches. Risk: critical. Safety overrides: applied.",
+      "score": 15,
+      "mismatches": 0,
+      "safety_overrides_applied": true
+    },
+    "agent_e": {
+      "signed": true,
+      "signed_at": "2026-03-05T02:52:13Z",
+      "comment": "Rejected. Confidence 90%. Deterministic override: high-risk obfuscation detected.",
+      "approved": false,
+      "confidence": 90,
+      "override_reason": "Deterministic override: high-risk obfuscation detected."
+    },
+    "manager_summary": "5/5 agents completed. Score: 15/100, Risk: critical. 0 mismatches, 965 scanner findings. Rejected at 90% confidence. Safety overrides triggered.",
+    "auto_clear": {
+      "applied": true,
+      "reason": "Auto-clear Cat 2: obfuscation-only (2 obf_hr, 0 dangerous, 0 inj, 1403 files)",
+      "original_status": "fail",
+      "original_score": 15
+    }
+  }
 }

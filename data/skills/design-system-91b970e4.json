@@ -7,20 +7,268 @@
   "skill_type": "agent_skill",
   "owner": "getsentry",
   "stars": 0,
-  "primary_language": "unknown",
+  "primary_language": "typescript",
   "tags": [
     "agent-skills",
     "installs:43162",
     "util",
-    "util-monitor"
+    "util-monitor",
+    "status-pass"
   ],
-  "verification_status": "unverified",
-  "overall_score": 0,
-  "risk_level": "info",
-  "verified_commit": null,
+  "verification_status": "pass",
+  "overall_score": 50,
+  "risk_level": "medium",
+  "verified_commit": "f6e5070eac1396b78f4b800e9c71f435dd580c20",
   "scan_summary": null,
   "repo_status": "available",
   "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
   "repo_check_error": null,
-  "installs": 43162
+  "installs": 43162,
+  "scan_date": "2026-03-05T02:46:40Z",
+  "findings_summary": {
+    "scanner_findings": 7680,
+    "dangerous_calls": 145,
+    "network_ops": 142,
+    "file_ops": 851,
+    "env_access": 811,
+    "obfuscation": 4263,
+    "injection_patterns": 769,
+    "mismatches": 0,
+    "undocumented_capabilities": 0,
+    "supervisor_approved": false,
+    "supervisor_confidence": 95
+  },
+  "scan_report": {
+    "total_findings": 7680,
+    "injection_patterns_count": 769,
+    "obfuscation_count": 4263,
+    "obfuscation_high_risk_count": 11,
+    "dangerous_calls_count": 145,
+    "severity_counts": {
+      "critical": 769,
+      "high": 5107,
+      "medium": 953,
+      "low": 851,
+      "info": 0
+    },
+    "category_counts": {
+      "env_access": 811,
+      "obfuscation": 4263,
+      "suspicious_urls": 699,
+      "file_ops": 851,
+      "dangerous_calls": 145,
+      "network_ops": 142,
+      "injection_patterns": 769
+    },
+    "top_findings": [
+      {
+        "rule_id": "regex_js_process_env",
+        "severity": "medium",
+        "category": "env_access",
+        "file": "eslint.config.ts",
+        "line": 66
+      },
+      {
+        "rule_id": "regex_js_process_env",
+        "severity": "medium",
+        "category": "env_access",
+        "file": "eslint.config.ts",
+        "line": 67
+      },
+      {
+        "rule_id": "regex_js_process_env",
+        "severity": "medium",
+        "category": "env_access",
+        "file": "eslint.config.ts",
+        "line": 68
+      },
+      {
+        "rule_id": "regex_js_process_env",
+        "severity": "medium",
+        "category": "env_access",
+        "file": "eslint.config.ts",
+        "line": 71
+      },
+      {
+        "rule_id": "regex_js_process_env",
+        "severity": "medium",
+        "category": "env_access",
+        "file": "eslint.config.ts",
+        "line": 72
+      },
+      {
+        "rule_id": "regex_long_base64_literal",
+        "severity": "high",
+        "category": "obfuscation",
+        "file": "eslint.config.ts",
+        "line": 148
+      },
+      {
+        "rule_id": "regex_long_base64_literal",
+        "severity": "high",
+        "category": "obfuscation",
+        "file": "eslint.config.ts",
+        "line": 153
+      },
+      {
+        "rule_id": "regex_long_base64_literal",
+        "severity": "high",
+        "category": "obfuscation",
+        "file": "eslint.config.ts",
+        "line": 158
+      },
+      {
+        "rule_id": "regex_long_base64_literal",
+        "severity": "high",
+        "category": "obfuscation",
+        "file": "eslint.config.ts",
+        "line": 911
+      },
+      {
+        "rule_id": "regex_long_base64_literal",
+        "severity": "high",
+        "category": "obfuscation",
+        "file": "eslint.config.ts",
+        "line": 912
+      },
+      {
+        "rule_id": "regex_long_base64_literal",
+        "severity": "high",
+        "category": "obfuscation",
+        "file": "eslint.config.ts",
+        "line": 913
+      },
+      {
+        "rule_id": "regex_localhost_non_std",
+        "severity": "high",
+        "category": "suspicious_urls",
+        "file": "package.json",
+        "line": 261
+      },
+      {
+        "rule_id": "regex_js_fs_read",
+        "severity": "low",
+        "category": "file_ops",
+        "file": "rspack.config.ts",
+        "line": 147
+      },
+      {
+        "rule_id": "regex_js_fs_read",
+        "severity": "low",
+        "category": "file_ops",
+        "file": "rspack.config.ts",
+        "line": 772
+      },
+      {
+        "rule_id": "regex_js_fs_read",
+        "severity": "low",
+        "category": "file_ops",
+        "file": "rspack.config.ts",
+        "line": 773
+      },
+      {
+        "rule_id": "regex_js_process_env",
+        "severity": "medium",
+        "category": "env_access",
+        "file": "rspack.config.ts",
+        "line": 216
+      },
+      {
+        "rule_id": "regex_js_process_env",
+        "severity": "medium",
+        "category": "env_access",
+        "file": "rspack.config.ts",
+        "line": 457
+      },
+      {
+        "rule_id": "regex_js_process_env",
+        "severity": "medium",
+        "category": "env_access",
+        "file": "rspack.config.ts",
+        "line": 458
+      },
+      {
+        "rule_id": "regex_js_process_env",
+        "severity": "medium",
+        "category": "env_access",
+        "file": "rspack.config.ts",
+        "line": 459
+      },
+      {
+        "rule_id": "regex_js_process_env",
+        "severity": "medium",
+        "category": "env_access",
+        "file": "rspack.config.ts",
+        "line": 460
+      }
+    ],
+    "total_files_scanned": 17267
+  },
+  "verification_level": "full_pipeline",
+  "agent_audit": {
+    "agents_completed": 5,
+    "agents_required": 5,
+    "pipeline_run_at": "2026-03-05T02:46:40Z",
+    "agent_a": {
+      "signed": true,
+      "signed_at": "2026-03-05T02:46:40Z",
+      "comment": "Docs quality 9/10. README present. 12 features, 4 permissions claimed.",
+      "doc_quality_score": 9,
+      "claimed_permissions": [
+        "network access",
+        "system command execution",
+        "file system access",
+        "environment/secret access"
+      ]
+    },
+    "agent_b": {
+      "signed": true,
+      "signed_at": "2026-03-05T02:46:40Z",
+      "comment": "17088 files analyzed. Found: 2 network, 19 file, 18 env, 1 system calls. Primary: typescript.",
+      "files_analyzed": 17088,
+      "capabilities_found": [
+        "imports external dependencies",
+        "performs network operations",
+        "reads/writes files",
+        "reads environment values",
+        "executes system commands"
+      ]
+    },
+    "agent_c_star": {
+      "signed": true,
+      "signed_at": "2026-03-05T02:46:40Z",
+      "comment": "7680 findings: 769 critical, 5107 high, 953 medium, 851 low. Obfuscation detected!. Injection patterns found!.",
+      "total_findings": 7680,
+      "severity_counts": {
+        "critical": 769,
+        "high": 5107,
+        "medium": 953,
+        "low": 851,
+        "info": 0
+      }
+    },
+    "agent_d": {
+      "signed": true,
+      "signed_at": "2026-03-05T02:46:40Z",
+      "comment": "Score 10. 0 mismatches. Risk: critical. Safety overrides: applied.",
+      "score": 10,
+      "mismatches": 0,
+      "safety_overrides_applied": true
+    },
+    "agent_e": {
+      "signed": true,
+      "signed_at": "2026-03-05T02:46:40Z",
+      "comment": "Rejected. Confidence 95%. Deterministic override: injection patterns detected.",
+      "approved": false,
+      "confidence": 95,
+      "override_reason": "Deterministic override: injection patterns detected."
+    },
+    "manager_summary": "5/5 agents completed. Score: 10/100, Risk: critical. 0 mismatches, 7680 scanner findings. Rejected at 95% confidence. Safety overrides triggered.",
+    "auto_clear": {
+      "applied": true,
+      "reason": "Auto-clear Cat 10: PM-verified org 'getsentry', 769 inj, 11 obf_hr",
+      "original_status": "fail",
+      "original_score": 10
+    }
+  }
 }

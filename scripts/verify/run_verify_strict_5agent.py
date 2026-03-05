@@ -76,6 +76,8 @@ PM_VERIFIED_ORGS: frozenset[str] = frozenset({
     "remotion-dev", "dotnet", "lobehub", "mlflow", "nangohq",
     # Added 2026-03-04 Run 7
     "getsentry",
+    # Added 2026-03-04 Batch 11 — major OSS orgs from agent skills
+    "supabase",
 })
 
 

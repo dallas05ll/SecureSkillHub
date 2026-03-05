@@ -7,20 +7,264 @@
   "skill_type": "agent_skill",
   "owner": "leonardomso",
   "stars": 0,
-  "primary_language": "unknown",
+  "primary_language": "javascript",
   "tags": [
     "agent-skills",
     "installs:66246",
     "prod",
-    "prod-docs"
+    "prod-docs",
+    "status-pass"
   ],
-  "verification_status": "unverified",
-  "overall_score": 0,
-  "risk_level": "info",
-  "verified_commit": null,
+  "verification_status": "pass",
+  "overall_score": 60,
+  "risk_level": "medium",
+  "verified_commit": "9e2b863fd36e642c36e1da6e9ed377c7f7bb17f1",
   "scan_summary": null,
   "repo_status": "available",
   "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
   "repo_check_error": null,
-  "installs": 66246
+  "installs": 66246,
+  "scan_date": "2026-03-05T02:34:59Z",
+  "findings_summary": {
+    "scanner_findings": 101,
+    "dangerous_calls": 47,
+    "network_ops": 31,
+    "file_ops": 0,
+    "env_access": 1,
+    "obfuscation": 19,
+    "injection_patterns": 0,
+    "mismatches": 0,
+    "undocumented_capabilities": 0,
+    "supervisor_approved": false,
+    "supervisor_confidence": 60
+  },
+  "scan_report": {
+    "total_findings": 101,
+    "injection_patterns_count": 0,
+    "obfuscation_count": 19,
+    "obfuscation_high_risk_count": 0,
+    "dangerous_calls_count": 47,
+    "severity_counts": {
+      "critical": 0,
+      "high": 69,
+      "medium": 32,
+      "low": 0,
+      "info": 0
+    },
+    "category_counts": {
+      "dangerous_calls": 47,
+      "obfuscation": 19,
+      "env_access": 1,
+      "suspicious_urls": 3,
+      "network_ops": 31
+    },
+    "top_findings": [
+      {
+        "rule_id": "regex_py_eval",
+        "severity": "high",
+        "category": "dangerous_calls",
+        "file": "tests/fundamentals/scope-and-closures/scope-and-closures.test.js",
+        "line": 662
+      },
+      {
+        "rule_id": "regex_py_eval",
+        "severity": "high",
+        "category": "dangerous_calls",
+        "file": "tests/fundamentals/scope-and-closures/scope-and-closures.test.js",
+        "line": 671
+      },
+      {
+        "rule_id": "regex_py_eval",
+        "severity": "high",
+        "category": "dangerous_calls",
+        "file": "tests/fundamentals/scope-and-closures/scope-and-closures.test.js",
+        "line": 682
+      },
+      {
+        "rule_id": "regex_py_eval",
+        "severity": "high",
+        "category": "dangerous_calls",
+        "file": "tests/fundamentals/scope-and-closures/scope-and-closures.test.js",
+        "line": 709
+      },
+      {
+        "rule_id": "regex_py_eval",
+        "severity": "high",
+        "category": "dangerous_calls",
+        "file": "tests/fundamentals/scope-and-closures/scope-and-closures.test.js",
+        "line": 752
+      },
+      {
+        "rule_id": "regex_py_eval",
+        "severity": "high",
+        "category": "dangerous_calls",
+        "file": "tests/fundamentals/primitives-objects/primitives-objects.test.js",
+        "line": 270
+      },
+      {
+        "rule_id": "regex_py_eval",
+        "severity": "high",
+        "category": "dangerous_calls",
+        "file": "tests/beyond/language-mechanics/temporal-dead-zone/temporal-dead-zone.test.js",
+        "line": 8
+      },
+      {
+        "rule_id": "regex_py_eval",
+        "severity": "high",
+        "category": "dangerous_calls",
+        "file": "tests/beyond/language-mechanics/temporal-dead-zone/temporal-dead-zone.test.js",
+        "line": 24
+      },
+      {
+        "rule_id": "regex_py_eval",
+        "severity": "high",
+        "category": "dangerous_calls",
+        "file": "tests/beyond/language-mechanics/temporal-dead-zone/temporal-dead-zone.test.js",
+        "line": 67
+      },
+      {
+        "rule_id": "regex_py_eval",
+        "severity": "high",
+        "category": "dangerous_calls",
+        "file": "tests/beyond/language-mechanics/temporal-dead-zone/temporal-dead-zone.test.js",
+        "line": 97
+      },
+      {
+        "rule_id": "regex_py_eval",
+        "severity": "high",
+        "category": "dangerous_calls",
+        "file": "tests/beyond/language-mechanics/temporal-dead-zone/temporal-dead-zone.test.js",
+        "line": 114
+      },
+      {
+        "rule_id": "regex_py_eval",
+        "severity": "high",
+        "category": "dangerous_calls",
+        "file": "tests/beyond/language-mechanics/temporal-dead-zone/temporal-dead-zone.test.js",
+        "line": 130
+      },
+      {
+        "rule_id": "regex_py_eval",
+        "severity": "high",
+        "category": "dangerous_calls",
+        "file": "tests/beyond/language-mechanics/temporal-dead-zone/temporal-dead-zone.test.js",
+        "line": 163
+      },
+      {
+        "rule_id": "regex_py_eval",
+        "severity": "high",
+        "category": "dangerous_calls",
+        "file": "tests/beyond/language-mechanics/temporal-dead-zone/temporal-dead-zone.test.js",
+        "line": 174
+      },
+      {
+        "rule_id": "regex_py_eval",
+        "severity": "high",
+        "category": "dangerous_calls",
+        "file": "tests/beyond/language-mechanics/temporal-dead-zone/temporal-dead-zone.test.js",
+        "line": 197
+      },
+      {
+        "rule_id": "regex_py_eval",
+        "severity": "high",
+        "category": "dangerous_calls",
+        "file": "tests/beyond/language-mechanics/temporal-dead-zone/temporal-dead-zone.test.js",
+        "line": 205
+      },
+      {
+        "rule_id": "regex_py_eval",
+        "severity": "high",
+        "category": "dangerous_calls",
+        "file": "tests/beyond/language-mechanics/temporal-dead-zone/temporal-dead-zone.test.js",
+        "line": 227
+      },
+      {
+        "rule_id": "regex_py_eval",
+        "severity": "high",
+        "category": "dangerous_calls",
+        "file": "tests/beyond/language-mechanics/temporal-dead-zone/temporal-dead-zone.test.js",
+        "line": 263
+      },
+      {
+        "rule_id": "regex_py_eval",
+        "severity": "high",
+        "category": "dangerous_calls",
+        "file": "tests/beyond/language-mechanics/temporal-dead-zone/temporal-dead-zone.test.js",
+        "line": 275
+      },
+      {
+        "rule_id": "regex_py_eval",
+        "severity": "high",
+        "category": "dangerous_calls",
+        "file": "tests/beyond/language-mechanics/temporal-dead-zone/temporal-dead-zone.test.js",
+        "line": 299
+      }
+    ],
+    "total_files_scanned": 78
+  },
+  "verification_level": "full_pipeline",
+  "agent_audit": {
+    "agents_completed": 5,
+    "agents_required": 5,
+    "pipeline_run_at": "2026-03-05T02:34:59Z",
+    "agent_a": {
+      "signed": true,
+      "signed_at": "2026-03-05T02:34:59Z",
+      "comment": "Docs quality 9/10. README present. 12 features, 4 permissions claimed.",
+      "doc_quality_score": 9,
+      "claimed_permissions": [
+        "network access",
+        "system command execution",
+        "file system access",
+        "environment/secret access"
+      ]
+    },
+    "agent_b": {
+      "signed": true,
+      "signed_at": "2026-03-05T02:34:59Z",
+      "comment": "72 files analyzed. Found: 8 network, 0 file, 1 env, 23 system calls. Primary: javascript.",
+      "files_analyzed": 72,
+      "capabilities_found": [
+        "performs network operations",
+        "reads environment values",
+        "executes system commands"
+      ]
+    },
+    "agent_c_star": {
+      "signed": true,
+      "signed_at": "2026-03-05T02:34:59Z",
+      "comment": "101 findings: 0 critical, 69 high, 32 medium, 0 low. Obfuscation detected!. No injection.",
+      "total_findings": 101,
+      "severity_counts": {
+        "critical": 0,
+        "high": 69,
+        "medium": 32,
+        "low": 0,
+        "info": 0
+      }
+    },
+    "agent_d": {
+      "signed": true,
+      "signed_at": "2026-03-05T02:34:59Z",
+      "comment": "Score 60. 0 mismatches. Risk: medium. Safety overrides: none triggered.",
+      "score": 60,
+      "mismatches": 0,
+      "safety_overrides_applied": false
+    },
+    "agent_e": {
+      "signed": true,
+      "signed_at": "2026-03-05T02:34:59Z",
+      "comment": "Rejected. Confidence 60%. No overrides.",
+      "approved": false,
+      "confidence": 60,
+      "override_reason": null
+    },
+    "manager_summary": "5/5 agents completed. Score: 60/100, Risk: medium. 0 mismatches, 101 scanner findings. Rejected at 60% confidence. No safety overrides.",
+    "auto_clear": {
+      "applied": true,
+      "reason": "Auto-clear Cat 1: clean profile (0 inj, 0 obf_hr, score=60)",
+      "original_status": "manual_review",
+      "original_score": 60
+    }
+  }
 }
