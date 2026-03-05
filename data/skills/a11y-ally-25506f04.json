@@ -1,7 +1,7 @@
 {
   "id": "a11y-ally-25506f04",
   "name": "a11y-ally",
-  "description": "Comprehensive WCAG accessibility auditing with multi-tool testing (axe-core + pa11y + Lighthouse), TRUE PARALLEL execution with Promise.allSettled, graceful degradation, retry with backoff, context-aware remediation, learning integration, and video accessibility. Uses 3-tier browser cascade: Vibium \u2192 agent-browser \u2192 Playwright+Stealth.",
+  "description": "Comprehensive WCAG accessibility auditing with multi-tool testing (axe-core + pa11y + Lighthouse), TRUE PARALLEL execution with Promise.allSettled, graceful degradation, retry with backoff, context-aware remediation, learning integration, and video accessibility. Uses 3-tier browser cascade: Vibium → agent-browser → Playwright+Stealth.",
   "repo_url": "https://github.com/proffesor-for-testing/agentic-qe",
   "source_hub": "skillsmp",
   "skill_type": "agent_skill",
@@ -40,7 +40,7 @@
     "injection_patterns": 0,
     "mismatches": 0,
     "undocumented_capabilities": 0,
-    "supervisor_approved": false,
+    "supervisor_approved": true,
     "supervisor_confidence": 90
   },
   "verification_level": "full_pipeline",

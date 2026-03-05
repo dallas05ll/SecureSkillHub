@@ -1,7 +1,7 @@
 {
   "id": "adhd-productivity-app-51900d7f",
   "name": "adhd-productivity-app",
-  "description": "ADHD kullan\u0131c\u0131lar\u0131 i\u00e7in keyboard-first, retro Notepad++ esteti\u011finde productivity super app geli\u015ftirme skill'i. Notes, Habits, Tasks, Journal mod\u00fclleri ve AI-powered haftal\u0131k analiz \u00f6zelli\u011fi i\u00e7erir. Bu skill'i kullan: (1) ADHD productivity app olu\u015ftururken, (2) Retro/Notepad++ tarz\u0131 UI yaparken, (3) Keyboard-first uygulamalar geli\u015ftirirken, (4) AI-powered self-improvement ara\u00e7lar\u0131 yaparken.",
+  "description": "ADHD kullanıcıları için keyboard-first, retro Notepad++ estetiğinde productivity super app geliştirme skill'i. Notes, Habits, Tasks, Journal modülleri ve AI-powered haftalık analiz özelliği içerir. Bu skill'i kullan: (1) ADHD productivity app oluştururken, (2) Retro/Notepad++ tarzı UI yaparken, (3) Keyboard-first uygulamalar geliştirirken, (4) AI-powered self-improvement araçları yaparken.",
   "repo_url": "https://github.com/samitugal/bytepad",
   "source_hub": "skillsmp",
   "skill_type": "agent_skill",
@@ -34,7 +34,7 @@
     "injection_patterns": 0,
     "mismatches": 0,
     "undocumented_capabilities": 0,
-    "supervisor_approved": false,
+    "supervisor_approved": true,
     "supervisor_confidence": 60
   },
   "verification_level": "full_pipeline",

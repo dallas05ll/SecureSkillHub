@@ -27,7 +27,8 @@
       "risk_level": "medium",
       "primary_language": "typescript",
       "install_url": "https://github.com/f/prompts.chat",
-      "skill_type": "agent_skill"
+      "skill_type": "agent_skill",
+      "verified_commit": "ec34d2e8fbea1e8c60647af873e4ec14034e9734"
     },
     {
       "id": "authoring-skills-5244e826",
@@ -41,7 +42,8 @@
       "risk_level": "medium",
       "primary_language": "javascript",
       "install_url": "https://github.com/vercel/next.js",
-      "skill_type": "agent_skill"
+      "skill_type": "agent_skill",
+      "verified_commit": "286a73f84a516b06df59c2e5524150c4ad5d47d6"
     },
     {
       "id": "azure-ai-4eff05a2",
@@ -55,7 +57,8 @@
       "risk_level": "low",
       "primary_language": "typescript",
       "install_url": "https://github.com/microsoft/github-copilot-for-azure",
-      "skill_type": "agent_skill"
+      "skill_type": "agent_skill",
+      "verified_commit": "8a460124cfbf68a7a9c74ca3b393595ab6a14d29"
     },
     {
       "id": "discourse-upcoming-changes-e7563f18",
@@ -69,7 +72,8 @@
       "risk_level": "medium",
       "primary_language": "ruby",
       "install_url": "https://github.com/discourse/discourse",
-      "skill_type": "agent_skill"
+      "skill_type": "agent_skill",
+      "verified_commit": "790dc4a5ed16a7ef146bfe2cd1d218239d007c58"
     },
     {
       "id": "context7-docs-lookup-e3efeab3",
@@ -83,7 +87,8 @@
       "risk_level": "medium",
       "primary_language": "typescript",
       "install_url": "https://github.com/upstash/context7",
-      "skill_type": "agent_skill"
+      "skill_type": "agent_skill",
+      "verified_commit": "a3c3bb44c630f03f8c739031674c1cf781852655"
     },
     {
       "id": "pr-walkthrough-afa904d1",
@@ -97,7 +102,8 @@
       "risk_level": "medium",
       "primary_language": "typescript",
       "install_url": "https://github.com/tldraw/tldraw",
-      "skill_type": "agent_skill"
+      "skill_type": "agent_skill",
+      "verified_commit": "6c9d28260f168277abf35d43175497dddc3dba07"
     },
     {
       "id": "linkai-agent-10e095bd",
@@ -111,7 +117,8 @@
       "risk_level": "medium",
       "primary_language": "python",
       "install_url": "https://github.com/zhayujie/chatgpt-on-wechat",
-      "skill_type": "agent_skill"
+      "skill_type": "agent_skill",
+      "verified_commit": "84c6f31c7613301e019afcb1cec8be01cf76513c"
     },
     {
       "id": "ccxt-csharp-88ce3fec",
@@ -125,7 +132,8 @@
       "risk_level": "medium",
       "primary_language": "typescript",
       "install_url": "https://github.com/ccxt/ccxt",
-      "skill_type": "agent_skill"
+      "skill_type": "agent_skill",
+      "verified_commit": "ff95cd2a813790719621a3d24e810ca95ae26f8b"
     },
     {
       "id": "desktop-release-e4cbd82d",
@@ -139,7 +147,8 @@
       "risk_level": "medium",
       "primary_language": "typescript",
       "install_url": "https://github.com/rssnext/folo",
-      "skill_type": "agent_skill"
+      "skill_type": "agent_skill",
+      "verified_commit": "49f69f4d194ef7acc71225eb7f0cccc772ecbeaf"
     },
     {
       "id": "code-yeongyu--oh-my-opencode",
@@ -153,7 +162,8 @@
       "risk_level": "medium",
       "primary_language": "TypeScript",
       "install_url": "https://github.com/code-yeongyu/oh-my-opencode",
-      "skill_type": "mcp_server"
+      "skill_type": "mcp_server",
+      "verified_commit": "acc21326c50da142c2b1843d8e8ac82f3aa4712d"
     }
   ],
   "total_skills": 10,
@@ -161,5 +171,5 @@
   "avg_score": 59.5,
   "min_score": 50,
   "top_stars": 0,
-  "generated_at": "2026-03-05T16:00:23Z"
+  "generated_at": "2026-03-05T16:07:36Z"
 }

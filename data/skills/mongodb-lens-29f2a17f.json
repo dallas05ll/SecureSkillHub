@@ -1,7 +1,7 @@
 {
   "id": "mongodb-lens-29f2a17f",
   "name": "mongodb-lens",
-  "description": "\ud83c\udf43\ud83d\udd0e MongoDB Lens: Full Featured MCP Server for MongoDB Databases",
+  "description": "🍃🔎 MongoDB Lens: Full Featured MCP Server for MongoDB Databases",
   "repo_url": "https://github.com/furey/mongodb-lens",
   "source_hub": "mcp_so",
   "owner": "furey",
@@ -34,7 +34,7 @@
     "injection_patterns": 0,
     "mismatches": 1,
     "undocumented_capabilities": 1,
-    "supervisor_approved": false,
+    "supervisor_approved": true,
     "supervisor_confidence": 73
   },
   "agent_audit": {

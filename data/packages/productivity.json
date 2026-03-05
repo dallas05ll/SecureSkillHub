@@ -27,7 +27,8 @@
       "risk_level": "medium",
       "primary_language": "typescript",
       "install_url": "https://github.com/ykhli/mcp-send-email",
-      "skill_type": "mcp_server"
+      "skill_type": "mcp_server",
+      "verified_commit": "ba86c397eea80d42d96f796f9750160c3ed8967e"
     },
     {
       "id": "mcp-email-server-6377b837",
@@ -41,7 +42,8 @@
       "risk_level": "medium",
       "primary_language": "python",
       "install_url": "https://github.com/ai-zerolab/mcp-email-server",
-      "skill_type": "mcp_server"
+      "skill_type": "mcp_server",
+      "verified_commit": "10fe24c956250996cf8e2a291d8ac4e28e4c3aa8"
     },
     {
       "id": "gmail-mcp-server-5e66d88c",
@@ -55,7 +57,8 @@
       "risk_level": "medium",
       "primary_language": "python",
       "install_url": "https://github.com/jasonsum/gmail-mcp-server",
-      "skill_type": "mcp_server"
+      "skill_type": "mcp_server",
+      "verified_commit": "da273b2e2e7324e9d875a312054fa440db29ddc9"
     },
     {
       "id": "mcp-headless-gmail-285546c5",
@@ -69,7 +72,8 @@
       "risk_level": "medium",
       "primary_language": "unknown",
       "install_url": "https://github.com/baryhuang/mcp-headless-gmail",
-      "skill_type": "mcp_server"
+      "skill_type": "mcp_server",
+      "verified_commit": "3c1dfc37fc88695eb901dfbbc3f4d6de3f967d15"
     },
     {
       "id": "protonmail-mcp-d17eecc6",
@@ -83,7 +87,8 @@
       "risk_level": "medium",
       "primary_language": "unknown",
       "install_url": "https://github.com/amotivv/protonmail-mcp",
-      "skill_type": "mcp_server"
+      "skill_type": "mcp_server",
+      "verified_commit": "fdca87e7a0615c21a2b7a4b411e39c93399ab7ec"
     },
     {
       "id": "google-workspace-mcp-server-142062cd",
@@ -97,7 +102,8 @@
       "risk_level": "medium",
       "primary_language": "unknown",
       "install_url": "https://github.com/epaproditus/google-workspace-mcp-server",
-      "skill_type": "mcp_server"
+      "skill_type": "mcp_server",
+      "verified_commit": "d98b9500ee1d51efbc0646702d8b5eda0454b622"
     },
     {
       "id": "mcp-google-workspace-94af143e",
@@ -111,7 +117,8 @@
       "risk_level": "medium",
       "primary_language": "typescript",
       "install_url": "https://github.com/j3k0/mcp-google-workspace",
-      "skill_type": "mcp_server"
+      "skill_type": "mcp_server",
+      "verified_commit": "7a18d6450df009c682ef5cac3e5207d4c8ff2136"
     },
     {
       "id": "gmail-mcp-server-558fbede",
@@ -125,7 +132,8 @@
       "risk_level": "medium",
       "primary_language": "python",
       "install_url": "https://github.com/Quantum-369/Gmail-mcp-server",
-      "skill_type": "mcp_server"
+      "skill_type": "mcp_server",
+      "verified_commit": "63cb7794b22aabbb50d0d5f2b180b0e72eef854d"
     },
     {
       "id": "gmail-mcp-15f87e05",
@@ -139,7 +147,8 @@
       "risk_level": "medium",
       "primary_language": "python",
       "install_url": "https://github.com/theposch/gmail-mcp",
-      "skill_type": "mcp_server"
+      "skill_type": "mcp_server",
+      "verified_commit": "f30affc296870dbcf57b368bf661d7cd13fe00a6"
     },
     {
       "id": "mcp-email-client-337991d9",
@@ -153,7 +162,8 @@
       "risk_level": "medium",
       "primary_language": "python",
       "install_url": "https://github.com/gamalan/mcp-email-client",
-      "skill_type": "mcp_server"
+      "skill_type": "mcp_server",
+      "verified_commit": "51e431a777cbc10ec8aecd9507d28e330e1d3247"
     }
   ],
   "total_skills": 10,
@@ -161,5 +171,5 @@
   "avg_score": 80.0,
   "min_score": 60,
   "top_stars": 450,
-  "generated_at": "2026-03-05T16:00:23Z"
+  "generated_at": "2026-03-05T16:07:36Z"
 }

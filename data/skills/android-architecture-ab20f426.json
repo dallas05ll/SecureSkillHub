@@ -34,7 +34,7 @@
     "injection_patterns": 0,
     "mismatches": 0,
     "undocumented_capabilities": 0,
-    "supervisor_approved": false,
+    "supervisor_approved": true,
     "supervisor_confidence": 78
   },
   "scan_report": {
@@ -67,14 +67,14 @@
         "rule_id": "regex_localhost_non_std",
         "severity": "high",
         "category": "suspicious_urls",
-        "file": "server/\u524d\u7aef\u67b6\u6784.md",
+        "file": "server/前端架构.md",
         "line": 26
       },
       {
         "rule_id": "regex_localhost_non_std",
         "severity": "high",
         "category": "suspicious_urls",
-        "file": "server/web/\u4e0a\u624b\u6307\u5357.md",
+        "file": "server/web/上手指南.md",
         "line": 26
       },
       {

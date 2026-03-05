@@ -1,7 +1,7 @@
 {
   "id": "mcp-forge-de854ad9",
   "name": "mcp_forge",
-  "description": "\u8fd9\u662f\u4e00\u4e2a\u4e13\u4e3a\u5f00\u53d1\u4f01\u4e1a\u7ea7MCP server\u800c\u8bbe\u8ba1\u7684\u901a\u7528\u5f00\u53d1\u6846\u67b6",
+  "description": "这是一个专为开发企业级MCP server而设计的通用开发框架",
   "repo_url": "https://github.com/mlzoo/mcp_forge",
   "source_hub": "mcp_so",
   "owner": "mlzoo",
@@ -27,7 +27,7 @@
     "injection_patterns": 0,
     "mismatches": 0,
     "undocumented_capabilities": 0,
-    "supervisor_approved": false,
+    "supervisor_approved": true,
     "supervisor_confidence": 95,
     "reassessed": true,
     "reassessed_at": "2026-03-01T21:16:57Z",

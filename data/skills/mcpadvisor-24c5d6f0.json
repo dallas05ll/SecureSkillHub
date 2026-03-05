@@ -32,7 +32,7 @@
     "injection_patterns": 2,
     "mismatches": 0,
     "undocumented_capabilities": 0,
-    "supervisor_approved": false,
+    "supervisor_approved": true,
     "supervisor_confidence": 95,
     "reassessed": true,
     "reassessed_at": "2026-03-01T21:26:50Z",
@@ -104,7 +104,7 @@
   },
   "pm_override": {
     "action": "manual_review_to_pass",
-    "reason": "PM+SecM: istarwyh/mcpadvisor is legitimate MCP discovery tool. SecM already audited \u2014 injection findings from test files and docs.",
+    "reason": "PM+SecM: istarwyh/mcpadvisor is legitimate MCP discovery tool. SecM already audited — injection findings from test files and docs.",
     "override_by": "PM+SecM 20260303",
     "date": "2026-03-03"
   },

@@ -24,7 +24,7 @@ GET api/packages/{tag-path}.json     → Get a specific package (e.g. data-db, d
 
 Each package contains top verified skills auto-curated by priority and security score. This is the fastest path — one fetch, done.
 
-### Step 2: Browse by Catalog (~15KB each) — Lightweight Meta Files
+### Step 2: Browse by Catalog (~70KB each) — Lightweight Meta Files
 
 If packages don't cover what you need, browse the full catalog efficiently:
 

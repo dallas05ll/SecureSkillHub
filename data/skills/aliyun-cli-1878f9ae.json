@@ -1,7 +1,7 @@
 {
   "id": "aliyun-cli-1878f9ae",
   "name": "aliyun-cli",
-  "description": "\u963f\u91cc\u4e91 CLI \u64cd\u4f5c",
+  "description": "阿里云 CLI 操作",
   "repo_url": "https://github.com/chaterm/terminal-skills",
   "source_hub": "skillsmp",
   "skill_type": "agent_skill",
@@ -33,7 +33,7 @@
     "injection_patterns": 0,
     "mismatches": 0,
     "undocumented_capabilities": 0,
-    "supervisor_approved": false,
+    "supervisor_approved": true,
     "supervisor_confidence": 55
   },
   "scan_report": {

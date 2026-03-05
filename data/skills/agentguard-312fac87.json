@@ -1,7 +1,7 @@
 {
   "id": "agentguard-312fac87",
   "name": "agentguard",
-  "description": "GoPlus AgentGuard \u2014 AI agent security guard. Automatically blocks dangerous commands, prevents data leaks, and protects secrets. Use when reviewing third-party code, auditing skills, checking for vulnerabilities, evaluating action safety, or viewing security logs.",
+  "description": "GoPlus AgentGuard — AI agent security guard. Automatically blocks dangerous commands, prevents data leaks, and protects secrets. Use when reviewing third-party code, auditing skills, checking for vulnerabilities, evaluating action safety, or viewing security logs.",
   "repo_url": "https://github.com/goplussecurity/agentguard",
   "source_hub": "skillsmp",
   "skill_type": "agent_skill",
@@ -37,7 +37,7 @@
     "injection_patterns": 1,
     "mismatches": 0,
     "undocumented_capabilities": 0,
-    "supervisor_approved": false,
+    "supervisor_approved": true,
     "supervisor_confidence": 95
   },
   "scan_report": {

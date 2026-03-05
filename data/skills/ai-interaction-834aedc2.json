@@ -1,7 +1,7 @@
 {
   "id": "ai-interaction-834aedc2",
   "name": "ai-interaction",
-  "description": "Continuous communication channel via MCP AI Interaction tool. Activate with 'kh\u1edfi \u0111\u1ed9ng ai_interaction'. Enables real-time Vietnamese conversation with action-first principle - execute first, explain minimally.",
+  "description": "Continuous communication channel via MCP AI Interaction tool. Activate with 'khởi động ai_interaction'. Enables real-time Vietnamese conversation with action-first principle - execute first, explain minimally.",
   "repo_url": "https://github.com/khaihuynhvn/mcp-server_ai-interaction",
   "source_hub": "skillsmp",
   "skill_type": "agent_skill",
@@ -35,7 +35,7 @@
     "injection_patterns": 0,
     "mismatches": 0,
     "undocumented_capabilities": 0,
-    "supervisor_approved": false,
+    "supervisor_approved": true,
     "supervisor_confidence": 55
   },
   "scan_report": {

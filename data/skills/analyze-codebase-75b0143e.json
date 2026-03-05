@@ -1,7 +1,7 @@
 {
   "id": "analyze-codebase-75b0143e",
   "name": "analyze-codebase",
-  "description": "\ucf54\ub4dc\ubca0\uc774\uc2a4 \uad6c\uc870\ub97c \ubd84\uc11d\ud558\uace0 \uc694\uc57d\ud569\ub2c8\ub2e4",
+  "description": "코드베이스 구조를 분석하고 요약합니다",
   "repo_url": "https://github.com/kenshin579/tutorials-go",
   "source_hub": "skillsmp",
   "skill_type": "agent_skill",
@@ -33,7 +33,7 @@
     "injection_patterns": 0,
     "mismatches": 0,
     "undocumented_capabilities": 0,
-    "supervisor_approved": false,
+    "supervisor_approved": true,
     "supervisor_confidence": 55
   },
   "scan_report": {

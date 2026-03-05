@@ -1,7 +1,7 @@
 {
   "id": "aidoc-a4b7b1c0",
   "name": "aidoc",
-  "description": "\u8bb0\u5f55 AI \u5bf9\u8bdd\u4ea7\u51fa\u7684\u77e5\u8bc6\u5230 aidoc \u4ed3\u5e93\u3002\u5f53\u7528\u6237\u8bf4\"\u8bb0\u5f55\u5230 aidoc\"\u3001\"\u5b58\u5230 aidoc\"\u3001\"\u4fdd\u5b58\u8fd9\u4e2a\u77e5\u8bc6\u70b9\"\u65f6\u4f7f\u7528\u6b64 skill\u3002",
+  "description": "记录 AI 对话产出的知识到 aidoc 仓库。当用户说\"记录到 aidoc\"、\"存到 aidoc\"、\"保存这个知识点\"时使用此 skill。",
   "repo_url": "https://github.com/amosbird/serverconfig",
   "source_hub": "skillsmp",
   "skill_type": "agent_skill",
@@ -34,7 +34,7 @@
     "injection_patterns": 0,
     "mismatches": 0,
     "undocumented_capabilities": 0,
-    "supervisor_approved": false,
+    "supervisor_approved": true,
     "supervisor_confidence": 77
   },
   "scan_report": {

@@ -27,7 +27,8 @@
       "risk_level": "medium",
       "primary_language": "typescript",
       "install_url": "https://github.com/f/prompts.chat",
-      "skill_type": "agent_skill"
+      "skill_type": "agent_skill",
+      "verified_commit": "ec34d2e8fbea1e8c60647af873e4ec14034e9734"
     },
     {
       "id": "discourse-upcoming-changes-e7563f18",
@@ -41,7 +42,8 @@
       "risk_level": "medium",
       "primary_language": "ruby",
       "install_url": "https://github.com/discourse/discourse",
-      "skill_type": "agent_skill"
+      "skill_type": "agent_skill",
+      "verified_commit": "790dc4a5ed16a7ef146bfe2cd1d218239d007c58"
     },
     {
       "id": "summarize-activity-41137b98",
@@ -55,7 +57,8 @@
       "risk_level": "medium",
       "primary_language": "javascript",
       "install_url": "https://github.com/alpinejs/alpine",
-      "skill_type": "agent_skill"
+      "skill_type": "agent_skill",
+      "verified_commit": "b35706824d891269de6fff706f66b90b55a1bf2c"
     },
     {
       "id": "github--github-mcp-server",
@@ -69,7 +72,8 @@
       "risk_level": "medium",
       "primary_language": "Go",
       "install_url": "https://github.com/github/github-mcp-server",
-      "skill_type": "mcp_server"
+      "skill_type": "mcp_server",
+      "verified_commit": "bf6467855c13d3b8f5cf72f8dfd9c86f8336b20b"
     },
     {
       "id": "summarize-activity-fdfe2fb6",
@@ -83,7 +87,8 @@
       "risk_level": "medium",
       "primary_language": "javascript",
       "install_url": "https://github.com/livewire/livewire",
-      "skill_type": "agent_skill"
+      "skill_type": "agent_skill",
+      "verified_commit": "93e972fa42c1b34fff1550093ab94f778d81ea5a"
     },
     {
       "id": "translation-4ef80979",
@@ -97,7 +102,8 @@
       "risk_level": "medium",
       "primary_language": "typescript",
       "install_url": "https://github.com/kilo-org/kilocode",
-      "skill_type": "agent_skill"
+      "skill_type": "agent_skill",
+      "verified_commit": "5a85a0d7c91a032ec69f1458ed2bd81ec68a4a7e"
     },
     {
       "id": "likec4-2a279f32",
@@ -111,7 +117,8 @@
       "risk_level": "medium",
       "primary_language": "typescript",
       "install_url": "https://github.com/LikeC4/LikeC4",
-      "skill_type": "mcp_server"
+      "skill_type": "mcp_server",
+      "verified_commit": "5993c843bbcb1adef29b2cc5c2ac14f2980f9285"
     },
     {
       "id": "mcp-server-chatsum-24cbd4a1",
@@ -125,7 +132,8 @@
       "risk_level": "medium",
       "primary_language": "typescript",
       "install_url": "https://github.com/mcpso/mcp-server-chatsum",
-      "skill_type": "mcp_server"
+      "skill_type": "mcp_server",
+      "verified_commit": "5bf9298aa095da8b4af277137f48cc468f736797"
     },
     {
       "id": "mcp-server-chatsum-ae962098",
@@ -139,7 +147,8 @@
       "risk_level": "medium",
       "primary_language": "typescript",
       "install_url": "https://github.com/chatmcp/mcp-server-chatsum",
-      "skill_type": "mcp_server"
+      "skill_type": "mcp_server",
+      "verified_commit": "5bf9298aa095da8b4af277137f48cc468f736797"
     },
     {
       "id": "ai-daily-digest-db0ebd65",
@@ -153,7 +162,8 @@
       "risk_level": "medium",
       "primary_language": "typescript",
       "install_url": "https://github.com/vigorx777/ai-daily-digest",
-      "skill_type": "agent_skill"
+      "skill_type": "agent_skill",
+      "verified_commit": "1f484a3f2f101cb0f1a94a35b1a1befe0f672b82"
     }
   ],
   "total_skills": 10,
@@ -161,5 +171,5 @@
   "avg_score": 73.8,
   "min_score": 50,
   "top_stars": 0,
-  "generated_at": "2026-03-05T16:00:23Z"
+  "generated_at": "2026-03-05T16:07:36Z"
 }

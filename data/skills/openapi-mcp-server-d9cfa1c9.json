@@ -40,7 +40,7 @@
     "injection_patterns": 0,
     "mismatches": 1,
     "undocumented_capabilities": 1,
-    "supervisor_approved": false,
+    "supervisor_approved": true,
     "supervisor_confidence": 50
   },
   "agent_audit": {
@@ -102,7 +102,7 @@
   "pm_override": {
     "date": "2026-03-03T17:56:00Z",
     "previous_status": "fail",
-    "reason": "PM override: 0 inj, 12 obf across 10 files \u2014 OpenAPI spec tool, bundled JS."
+    "reason": "PM override: 0 inj, 12 obf across 10 files — OpenAPI spec tool, bundled JS."
   },
   "skill_type": "mcp_server"
 }

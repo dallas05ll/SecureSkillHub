@@ -20,7 +20,8 @@
       "risk_level": "medium",
       "primary_language": "typescript",
       "install_url": "https://github.com/angular/angular",
-      "skill_type": "agent_skill"
+      "skill_type": "agent_skill",
+      "verified_commit": "a6941adce8d942ab1317b9572cb23ac2ace72173"
     },
     {
       "id": "angular-modernization-1da09c71",
@@ -34,7 +35,8 @@
       "risk_level": "medium",
       "primary_language": "typescript",
       "install_url": "https://github.com/bitwarden/clients",
-      "skill_type": "agent_skill"
+      "skill_type": "agent_skill",
+      "verified_commit": "944b3ffdc246afa6f4d145984a48f07727a74dd6"
     },
     {
       "id": "adding-framework-support-cb46acaa",
@@ -48,7 +50,8 @@
       "risk_level": "medium",
       "primary_language": "typescript",
       "install_url": "https://github.com/posthog/wizard",
-      "skill_type": "agent_skill"
+      "skill_type": "agent_skill",
+      "verified_commit": "7f8dcbad9f0e7daf7b5cb97461ff82a3c3067b8c"
     }
   ],
   "total_skills": 3,
@@ -56,5 +59,5 @@
   "avg_score": 53.3,
   "min_score": 50,
   "top_stars": 0,
-  "generated_at": "2026-03-05T16:00:23Z"
+  "generated_at": "2026-03-05T16:07:36Z"
 }

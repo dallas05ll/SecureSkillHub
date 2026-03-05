@@ -1,7 +1,7 @@
 {
   "id": "agentvibes-7d05a092",
   "name": "agentvibes",
-  "description": "\ud83c\udfa4 AgentVibes Voice Management - Manage your text-to-speech voices across multiple providers (Piper TTS, Piper, macOS Say). Switch voices, preview audio, manage providers, add custom voices, and control TTS output.",
+  "description": "🎤 AgentVibes Voice Management - Manage your text-to-speech voices across multiple providers (Piper TTS, Piper, macOS Say). Switch voices, preview audio, manage providers, add custom voices, and control TTS output.",
   "repo_url": "https://github.com/paulpreibisch/agentvibes",
   "source_hub": "skillsmp",
   "skill_type": "agent_skill",
@@ -35,7 +35,7 @@
     "injection_patterns": 0,
     "mismatches": 0,
     "undocumented_capabilities": 0,
-    "supervisor_approved": false,
+    "supervisor_approved": true,
     "supervisor_confidence": 60
   },
   "scan_report": {

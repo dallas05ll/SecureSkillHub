@@ -27,7 +27,8 @@
       "risk_level": "medium",
       "primary_language": "typescript",
       "install_url": "https://github.com/google-gemini/gemini-cli",
-      "skill_type": "agent_skill"
+      "skill_type": "agent_skill",
+      "verified_commit": "c5112cde46b1b0d8c7fccc78352d693ac832cf44"
     },
     {
       "id": "implementing-jsc-classes-cpp-d0790e55",
@@ -41,7 +42,8 @@
       "risk_level": "medium",
       "primary_language": "javascript",
       "install_url": "https://github.com/oven-sh/bun",
-      "skill_type": "agent_skill"
+      "skill_type": "agent_skill",
+      "verified_commit": "3832c8570a03d21d0806f9ecb101d759e829abcc"
     },
     {
       "id": "create-pull-request-5bf14eee",
@@ -55,7 +57,8 @@
       "risk_level": "medium",
       "primary_language": "typescript",
       "install_url": "https://github.com/cline/cline",
-      "skill_type": "agent_skill"
+      "skill_type": "agent_skill",
+      "verified_commit": "2baf966db7dc46dc7932be64c91c5cf85aa58492"
     },
     {
       "id": "read-arxiv-paper-2216d31b",
@@ -69,7 +72,8 @@
       "risk_level": "medium",
       "primary_language": "python",
       "install_url": "https://github.com/karpathy/nanochat",
-      "skill_type": "agent_skill"
+      "skill_type": "agent_skill",
+      "verified_commit": "1076f97059785ed6d763706bf2304ce7721ab75c"
     },
     {
       "id": "tidb-test-guidelines-0ae3ef66",
@@ -83,7 +87,8 @@
       "risk_level": "medium",
       "primary_language": "go",
       "install_url": "https://github.com/pingcap/tidb",
-      "skill_type": "agent_skill"
+      "skill_type": "agent_skill",
+      "verified_commit": "6d482284b2aa2582d9b8c4746e4ed10b15394ac8"
     },
     {
       "id": "resume-builder-4ef5b990",
@@ -97,7 +102,8 @@
       "risk_level": "medium",
       "primary_language": "typescript",
       "install_url": "https://github.com/amruthpillai/reactive-resume",
-      "skill_type": "agent_skill"
+      "skill_type": "agent_skill",
+      "verified_commit": "27edc963ce56cbf933ae1724e47fd431859109cb"
     },
     {
       "id": "backport-pr-assistant-9670a381",
@@ -111,7 +117,8 @@
       "risk_level": "medium",
       "primary_language": "go",
       "install_url": "https://github.com/cockroachdb/cockroach",
-      "skill_type": "agent_skill"
+      "skill_type": "agent_skill",
+      "verified_commit": "e588a07710e98b4efd6a01cbfe718b53b37b8bf2"
     },
     {
       "id": "clickhouse-migrations-9dde2af6",
@@ -125,7 +132,8 @@
       "risk_level": "medium",
       "primary_language": "python",
       "install_url": "https://github.com/posthog/posthog",
-      "skill_type": "agent_skill"
+      "skill_type": "agent_skill",
+      "verified_commit": "015d0bcaf3307c1dcd73c75ac406a8db1861cc0a"
     },
     {
       "id": "openspec-apply-change-cb42fe06",
@@ -139,7 +147,8 @@
       "risk_level": "medium",
       "primary_language": "java",
       "install_url": "https://github.com/alibaba/druid",
-      "skill_type": "agent_skill"
+      "skill_type": "agent_skill",
+      "verified_commit": "608b12b2a6497b5f467f59d6fea6dedb2811f1b1"
     },
     {
       "id": "verify-8fd6b4a3",
@@ -153,7 +162,8 @@
       "risk_level": "medium",
       "primary_language": "typescript",
       "install_url": "https://github.com/pubkey/rxdb",
-      "skill_type": "agent_skill"
+      "skill_type": "agent_skill",
+      "verified_commit": "68e2f51eab145b967b3150e5f40bf7553d703d85"
     }
   ],
   "total_skills": 10,
@@ -161,5 +171,5 @@
   "avg_score": 55.0,
   "min_score": 50,
   "top_stars": 0,
-  "generated_at": "2026-03-05T16:00:23Z"
+  "generated_at": "2026-03-05T16:07:36Z"
 }

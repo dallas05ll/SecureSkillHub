@@ -27,7 +27,8 @@
       "risk_level": "medium",
       "primary_language": "javascript",
       "install_url": "https://github.com/facebook/react",
-      "skill_type": "agent_skill"
+      "skill_type": "agent_skill",
+      "verified_commit": "93882bd40ee48dc6d072dfc0b6cc7801fac1be31"
     },
     {
       "id": "1password-21f2bd26",
@@ -41,7 +42,8 @@
       "risk_level": "medium",
       "primary_language": "typescript",
       "install_url": "https://github.com/openclaw/openclaw",
-      "skill_type": "agent_skill"
+      "skill_type": "agent_skill",
+      "verified_commit": "9c6847074d7758602a4bb491de62e24c2f063994"
     },
     {
       "id": "vercel-react-best-practices-56554634",
@@ -55,7 +57,8 @@
       "risk_level": "medium",
       "primary_language": "unknown",
       "install_url": "https://github.com/vercel-labs/agent-skills",
-      "skill_type": "agent_skill"
+      "skill_type": "agent_skill",
+      "verified_commit": "e23951b8cad2f4b1e7e176c5731127c1263fe86f"
     },
     {
       "id": "component-refactoring-ea710729",
@@ -69,7 +72,8 @@
       "risk_level": "medium",
       "primary_language": "typescript",
       "install_url": "https://github.com/langgenius/dify",
-      "skill_type": "agent_skill"
+      "skill_type": "agent_skill",
+      "verified_commit": "164ccb7c48f9482e227acc820bd731328fad8c9f"
     },
     {
       "id": "electron-chromium-upgrade-1a936deb",
@@ -83,7 +87,8 @@
       "risk_level": "medium",
       "primary_language": "unknown",
       "install_url": "https://github.com/electron/electron",
-      "skill_type": "agent_skill"
+      "skill_type": "agent_skill",
+      "verified_commit": "d18b017cb05b1c5aec330603b6fcc9b016fa5cee"
     },
     {
       "id": "remotion-best-practices-52f6dfff",
@@ -97,7 +102,8 @@
       "risk_level": "low",
       "primary_language": "typescript",
       "install_url": "https://github.com/remotion-dev/skills",
-      "skill_type": "agent_skill"
+      "skill_type": "agent_skill",
+      "verified_commit": "937ffb32b148fdceef4b4184f975a708aab8d560"
     },
     {
       "id": "frontend-design-b0f77b24",
@@ -111,7 +117,8 @@
       "risk_level": "high",
       "primary_language": "python",
       "install_url": "https://github.com/anthropics/skills",
-      "skill_type": "agent_skill"
+      "skill_type": "agent_skill",
+      "verified_commit": "3d59511518591fa82e6cfcf0438d68dd5dad3e76"
     },
     {
       "id": "bun-file-io-73b87698",
@@ -125,7 +132,8 @@
       "risk_level": "medium",
       "primary_language": "typescript",
       "install_url": "https://github.com/anomalyco/opencode",
-      "skill_type": "agent_skill"
+      "skill_type": "agent_skill",
+      "verified_commit": "324230806e99d4e5c9cc14fd66ddad0ba0c2b6e6"
     },
     {
       "id": "angular-new-app-9e37438e",
@@ -139,7 +147,8 @@
       "risk_level": "medium",
       "primary_language": "typescript",
       "install_url": "https://github.com/angular/angular",
-      "skill_type": "agent_skill"
+      "skill_type": "agent_skill",
+      "verified_commit": "a6941adce8d942ab1317b9572cb23ac2ace72173"
     },
     {
       "id": "aoti-debug-63f2cfca",
@@ -153,7 +162,8 @@
       "risk_level": "medium",
       "primary_language": "unknown",
       "install_url": "https://github.com/pytorch/pytorch",
-      "skill_type": "agent_skill"
+      "skill_type": "agent_skill",
+      "verified_commit": "9e34c7ae375f47f4414ca07f6753021eee2094f8"
     }
   ],
   "total_skills": 10,
@@ -161,5 +171,5 @@
   "avg_score": 60.0,
   "min_score": 50,
   "top_stars": 0,
-  "generated_at": "2026-03-05T16:00:23Z"
+  "generated_at": "2026-03-05T16:07:36Z"
 }

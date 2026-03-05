@@ -27,7 +27,8 @@
       "risk_level": "medium",
       "primary_language": "python",
       "install_url": "https://github.com/justinpbarnett/unity-mcp",
-      "skill_type": "mcp_server"
+      "skill_type": "mcp_server",
+      "verified_commit": "74f8606671fbcdbb2f3f29ab75762a3c56e2986e"
     },
     {
       "id": "ue5-mcp-d03093a2",
@@ -41,7 +42,8 @@
       "risk_level": "medium",
       "primary_language": "unknown",
       "install_url": "https://github.com/VedantRGosavi/UE5-MCP",
-      "skill_type": "mcp_server"
+      "skill_type": "mcp_server",
+      "verified_commit": "c284cecd5fbba58778a07c26e417df15f112ad50"
     },
     {
       "id": "unreal-analyzer-mcp-f7ec0266",
@@ -55,7 +57,8 @@
       "risk_level": "low",
       "primary_language": "typescript",
       "install_url": "https://github.com/ayeletstudioindia/unreal-analyzer-mcp",
-      "skill_type": "mcp_server"
+      "skill_type": "mcp_server",
+      "verified_commit": "985fc06a11530b64c60a67de70447a003fd62461"
     },
     {
       "id": "gdai-mcp-plugin-godot-5d5363be",
@@ -69,7 +72,8 @@
       "risk_level": "info",
       "primary_language": "unknown",
       "install_url": "https://github.com/3ddelano/gdai-mcp-plugin-godot",
-      "skill_type": "mcp_server"
+      "skill_type": "mcp_server",
+      "verified_commit": "b680ee07af73d00f6fbd83e4b55a4a9f6574cee2"
     },
     {
       "id": "unreal-mcp-e4dcedae",
@@ -83,7 +87,8 @@
       "risk_level": "medium",
       "primary_language": "python",
       "install_url": "https://github.com/runeape-sats/unreal-mcp",
-      "skill_type": "mcp_server"
+      "skill_type": "mcp_server",
+      "verified_commit": "4a7e1c15111e1e77c0ed5c315221f47f6f9a404b"
     },
     {
       "id": "unity-code-e3c4c529",
@@ -97,7 +102,8 @@
       "risk_level": "medium",
       "primary_language": "typescript",
       "install_url": "https://github.com/hackerzhuli/unity-code",
-      "skill_type": "mcp_server"
+      "skill_type": "mcp_server",
+      "verified_commit": "515f3ef62459e39ded927ba0485efcfc59f0d1e8"
     },
     {
       "id": "unity-mcp-template-c3fdb5d2",
@@ -111,7 +117,8 @@
       "risk_level": "info",
       "primary_language": "unknown",
       "install_url": "https://github.com/dunward/unity-mcp-template",
-      "skill_type": "mcp_server"
+      "skill_type": "mcp_server",
+      "verified_commit": "695f367a57ba3d1202e32c6916410ec4d4bbad64"
     },
     {
       "id": "mcp-server-unity-5c236630",
@@ -125,7 +132,8 @@
       "risk_level": "medium",
       "primary_language": "typescript",
       "install_url": "https://github.com/zabaglione/mcp-server-unity",
-      "skill_type": "mcp_server"
+      "skill_type": "mcp_server",
+      "verified_commit": "4765856b8cc43f6154995a7e39256cc513b64875"
     },
     {
       "id": "mcp-unreal-server-254cc5b3",
@@ -139,7 +147,8 @@
       "risk_level": "medium",
       "primary_language": "python",
       "install_url": "https://github.com/radial-hks/MCP-Unreal-Server",
-      "skill_type": "mcp_server"
+      "skill_type": "mcp_server",
+      "verified_commit": "6f31425c7fac23b7f1b0bdda9c3384427228c4fb"
     },
     {
       "id": "solana-game-skill-90ed06e2",
@@ -153,7 +162,8 @@
       "risk_level": "medium",
       "primary_language": "markdown",
       "install_url": "https://github.com/solanabr/solana-game-skill",
-      "skill_type": "agent_skill"
+      "skill_type": "agent_skill",
+      "verified_commit": "762b3b28e62b4c6cabc01ae179d316958a852a07"
     }
   ],
   "total_skills": 10,
@@ -161,5 +171,5 @@
   "avg_score": 83.8,
   "min_score": 60,
   "top_stars": 6547,
-  "generated_at": "2026-03-05T16:00:23Z"
+  "generated_at": "2026-03-05T16:07:36Z"
 }

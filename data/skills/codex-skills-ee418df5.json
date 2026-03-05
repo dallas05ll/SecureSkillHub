@@ -1,7 +1,7 @@
 {
   "id": "codex-skills-ee418df5",
   "name": "codex-skills",
-  "description": "\ud83d\udee0\ufe0f Discover and manage personal Codex CLI skills with ease, organizing them in a simple catalog for quick access and efficient use.",
+  "description": "🛠️ Discover and manage personal Codex CLI skills with ease, organizing them in a simple catalog for quick access and efficient use.",
   "repo_url": "https://github.com/lancenunes/codex-skills",
   "source_hub": "github_search",
   "skill_type": "agent_skill",
@@ -28,7 +28,7 @@
     "injection_patterns": 0,
     "mismatches": 0,
     "undocumented_capabilities": 0,
-    "supervisor_approved": false,
+    "supervisor_approved": true,
     "supervisor_confidence": 60
   },
   "trust_level": "low",

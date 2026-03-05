@@ -27,7 +27,8 @@
       "risk_level": "medium",
       "primary_language": "typescript",
       "install_url": "https://github.com/cline/cline",
-      "skill_type": "agent_skill"
+      "skill_type": "agent_skill",
+      "verified_commit": "2baf966db7dc46dc7932be64c91c5cf85aa58492"
     },
     {
       "id": "amiberry-jit-fix-f68b8dd2",
@@ -41,7 +42,8 @@
       "risk_level": "medium",
       "primary_language": "unknown",
       "install_url": "https://github.com/blitterstudio/amiberry",
-      "skill_type": "agent_skill"
+      "skill_type": "agent_skill",
+      "verified_commit": "facaaeb13d996e8fa4e5f391c767a07183ab19e3"
     },
     {
       "id": "analyze-issue-62016370",
@@ -55,7 +57,8 @@
       "risk_level": "medium",
       "primary_language": "go",
       "install_url": "https://github.com/gittower/git-flow-next",
-      "skill_type": "agent_skill"
+      "skill_type": "agent_skill",
+      "verified_commit": "c10617fc65b765c8589540d4bbd9faf5043ea44e"
     },
     {
       "id": "integrate-mcp-with-copilot-c28cbfc2",
@@ -69,7 +72,8 @@
       "risk_level": "medium",
       "primary_language": "python",
       "install_url": "https://github.com/skills/integrate-mcp-with-copilot",
-      "skill_type": "mcp_server"
+      "skill_type": "mcp_server",
+      "verified_commit": "206fbd0dd8a28d713a63291ef1ce225bd4d6bf5a"
     },
     {
       "id": "codex-settings-63a10681",
@@ -83,7 +87,8 @@
       "risk_level": "medium",
       "primary_language": "Shell",
       "install_url": "https://github.com/feiskyer/codex-settings",
-      "skill_type": "agent_skill"
+      "skill_type": "agent_skill",
+      "verified_commit": "ee959429e67be8a9deeca15f8af0983f7de636c6"
     },
     {
       "id": "accessing-github-6c6c5736",
@@ -97,7 +102,8 @@
       "risk_level": "info",
       "primary_language": "shell",
       "install_url": "https://github.com/fletchgqc/agentbox",
-      "skill_type": "agent_skill"
+      "skill_type": "agent_skill",
+      "verified_commit": "1a0c5989a60e17259545518de4dac2d8166c480f"
     },
     {
       "id": "mcp-kubernetes-e0007ac5",
@@ -111,7 +117,8 @@
       "risk_level": "medium",
       "primary_language": "go",
       "install_url": "https://github.com/Azure/mcp-kubernetes",
-      "skill_type": "mcp_server"
+      "skill_type": "mcp_server",
+      "verified_commit": "e981bc61c6f62be1bfb8d4b30ff5acc1b90329cb"
     },
     {
       "id": "agent-file-specs-aef8d06e",
@@ -125,7 +132,8 @@
       "risk_level": "info",
       "primary_language": "unknown",
       "install_url": "https://github.com/jburlison/metaprompts",
-      "skill_type": "agent_skill"
+      "skill_type": "agent_skill",
+      "verified_commit": "50c14388d4abf138a778cddf058ff5c32157763c"
     },
     {
       "id": "github-mcp-server-review-tools-34919a20",
@@ -139,7 +147,8 @@
       "risk_level": "medium",
       "primary_language": "typescript",
       "install_url": "https://github.com/wjessup/github-mcp-server-review-tools",
-      "skill_type": "mcp_server"
+      "skill_type": "mcp_server",
+      "verified_commit": "e9f75c01db460d98d6b3143a6bba0c002111680d"
     },
     {
       "id": "power-platform-skills-4b0838d0",
@@ -153,7 +162,8 @@
       "risk_level": "medium",
       "primary_language": "markdown",
       "install_url": "https://github.com/microsoft/power-platform-skills",
-      "skill_type": "agent_skill"
+      "skill_type": "agent_skill",
+      "verified_commit": "8ccaae854f5ffc36eae03b9b1524a3e12e63be78"
     }
   ],
   "total_skills": 10,
@@ -161,5 +171,5 @@
   "avg_score": 79.1,
   "min_score": 56,
   "top_stars": 0,
-  "generated_at": "2026-03-05T16:00:23Z"
+  "generated_at": "2026-03-05T16:07:36Z"
 }

@@ -1,7 +1,7 @@
 {
   "id": "java-mcp-demo-2c879958",
   "name": "java-mcp-demo",
-  "description": "Java \u5b9e\u73b0 MCP Server \u793a\u4f8b",
+  "description": "Java 实现 MCP Server 示例",
   "repo_url": "https://github.com/Lcry/java-mcp-demo",
   "source_hub": "mcp_so",
   "owner": "Lcry",
@@ -41,7 +41,7 @@
     "injection_patterns": 0,
     "mismatches": 0,
     "undocumented_capabilities": 0,
-    "supervisor_approved": false,
+    "supervisor_approved": true,
     "supervisor_confidence": 90
   },
   "agent_audit": {
@@ -100,7 +100,7 @@
   "pm_override": {
     "date": "2026-03-03T17:53:00Z",
     "previous_status": "fail",
-    "reason": "PM override: 0 inj, 2 obf across 8 files \u2014 small Java demo project. Obf from compiled bytecode."
+    "reason": "PM override: 0 inj, 2 obf across 8 files — small Java demo project. Obf from compiled bytecode."
   },
   "skill_type": "mcp_server"
 }

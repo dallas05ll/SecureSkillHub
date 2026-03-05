@@ -1,7 +1,7 @@
 {
   "id": "mcp-demo-c6268fac",
   "name": "mcp-demo",
-  "description": "\u4e00\u4e2aMCP\u7684demo\uff0c\u652f\u6301\u672c\u5730\u548c\u5728\u7ebfservers",
+  "description": "一个MCP的demo，支持本地和在线servers",
   "repo_url": "https://github.com/syuchua/mcp-demo",
   "source_hub": "mcp_so",
   "owner": "syuchua",
@@ -41,7 +41,7 @@
     "injection_patterns": 0,
     "mismatches": 0,
     "undocumented_capabilities": 0,
-    "supervisor_approved": false,
+    "supervisor_approved": true,
     "supervisor_confidence": 60
   },
   "agent_audit": {

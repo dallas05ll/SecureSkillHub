@@ -27,7 +27,8 @@
       "risk_level": "medium",
       "primary_language": "typescript",
       "install_url": "https://github.com/cherryhq/cherry-studio",
-      "skill_type": "agent_skill"
+      "skill_type": "agent_skill",
+      "verified_commit": "e0cda09697a46c3971b720fafeed14e3cbf80c8b"
     },
     {
       "id": "confidence-check-ddb363af",
@@ -41,7 +42,8 @@
       "risk_level": "medium",
       "primary_language": "python",
       "install_url": "https://github.com/superclaude-org/superclaude_framework",
-      "skill_type": "agent_skill"
+      "skill_type": "agent_skill",
+      "verified_commit": "b061b2f7b00ca33d66c10b666c15016873b2e094"
     },
     {
       "id": "accessibility-e0767046",
@@ -55,7 +57,8 @@
       "risk_level": "medium",
       "primary_language": "typescript",
       "install_url": "https://github.com/tech-leads-club/agent-skills",
-      "skill_type": "agent_skill"
+      "skill_type": "agent_skill",
+      "verified_commit": "d6663af5d3c6a93342f4aa2d34beee493853fcea"
     },
     {
       "id": "awesome-claude-code-plugins-c3feba0c",
@@ -69,7 +72,8 @@
       "risk_level": "medium",
       "primary_language": "Python",
       "install_url": "https://github.com/ccplugins/awesome-claude-code-plugins",
-      "skill_type": "agent_skill"
+      "skill_type": "agent_skill",
+      "verified_commit": "e5856f987d0f4e05078b1ba433b3995393119818"
     },
     {
       "id": "accessibility-wcag-26074a43",
@@ -83,7 +87,8 @@
       "risk_level": "medium",
       "primary_language": "javascript",
       "install_url": "https://github.com/rohitg00/awesome-claude-code-toolkit",
-      "skill_type": "agent_skill"
+      "skill_type": "agent_skill",
+      "verified_commit": "59009ad6be354bf9098624ed04819357864a5289"
     },
     {
       "id": "accessibility-planning-e4263585",
@@ -97,7 +102,8 @@
       "risk_level": "medium",
       "primary_language": "unknown",
       "install_url": "https://github.com/prorise-cool/claude-code-multi-agent",
-      "skill_type": "agent_skill"
+      "skill_type": "agent_skill",
+      "verified_commit": "0dc13057c17fb4591fdd5f02deb170ffacf981d2"
     },
     {
       "id": "android-design-guidelines-c11cb46a",
@@ -111,7 +117,8 @@
       "risk_level": "info",
       "primary_language": "unknown",
       "install_url": "https://github.com/ehmo/platform-design-skills",
-      "skill_type": "agent_skill"
+      "skill_type": "agent_skill",
+      "verified_commit": "baff03e456864470db3ba8acebc41a003cbfa541"
     },
     {
       "id": "accessibility-wcag-7db8d1e6",
@@ -125,7 +132,8 @@
       "risk_level": "medium",
       "primary_language": "python",
       "install_url": "https://github.com/korallis/droidz",
-      "skill_type": "agent_skill"
+      "skill_type": "agent_skill",
+      "verified_commit": "5ceec03434b92e14f6031ae3c92e45be6ac803d6"
     },
     {
       "id": "accountant-13521edc",
@@ -139,7 +147,8 @@
       "risk_level": "medium",
       "primary_language": "shell",
       "install_url": "https://github.com/olehsvyrydov/ai-development-team",
-      "skill_type": "agent_skill"
+      "skill_type": "agent_skill",
+      "verified_commit": "e0a0e608bb1a6198c2445875200e576df359fd76"
     },
     {
       "id": "accessibility-testing-8d46c57e",
@@ -153,7 +162,8 @@
       "risk_level": "medium",
       "primary_language": "python",
       "install_url": "https://github.com/vuralserhat86/antigravity-agentic-skills",
-      "skill_type": "agent_skill"
+      "skill_type": "agent_skill",
+      "verified_commit": "f033922af67487f7740d6597b8ce42e32e613670"
     }
   ],
   "total_skills": 10,
@@ -161,5 +171,5 @@
   "avg_score": 64.6,
   "min_score": 50,
   "top_stars": 0,
-  "generated_at": "2026-03-05T16:00:23Z"
+  "generated_at": "2026-03-05T16:07:36Z"
 }

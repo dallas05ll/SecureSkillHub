@@ -1,7 +1,7 @@
 {
   "id": "agent-prompt-evolution-8c28e4f8",
   "name": "agent-prompt-evolution",
-  "description": "Track and optimize agent specialization during methodology development. Use when agent specialization emerges (generic agents show >5x performance gap), multi-experiment comparison needed, or methodology transferability analysis required. Captures agent set evolution (A\u2099 tracking), meta-agent evolution (M\u2099 tracking), specialization decisions (when/why to create specialized agents), and reusability assessment (universal vs domain-specific vs task-specific). Enables systematic cross-experiment ...",
+  "description": "Track and optimize agent specialization during methodology development. Use when agent specialization emerges (generic agents show >5x performance gap), multi-experiment comparison needed, or methodology transferability analysis required. Captures agent set evolution (Aₙ tracking), meta-agent evolution (Mₙ tracking), specialization decisions (when/why to create specialized agents), and reusability assessment (universal vs domain-specific vs task-specific). Enables systematic cross-experiment ...",
   "repo_url": "https://github.com/yaleh/meta-cc",
   "source_hub": "skillsmp",
   "skill_type": "agent_skill",
@@ -34,7 +34,7 @@
     "injection_patterns": 0,
     "mismatches": 0,
     "undocumented_capabilities": 0,
-    "supervisor_approved": false,
+    "supervisor_approved": true,
     "supervisor_confidence": 60
   },
   "scan_report": {

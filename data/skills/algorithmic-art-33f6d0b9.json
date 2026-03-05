@@ -33,7 +33,7 @@
     "injection_patterns": 0,
     "mismatches": 0,
     "undocumented_capabilities": 0,
-    "supervisor_approved": false,
+    "supervisor_approved": true,
     "supervisor_confidence": 60
   },
   "scan_report": {
@@ -103,98 +103,98 @@
         "rule_id": "regex_py_subprocess_call",
         "severity": "high",
         "category": "dangerous_calls",
-        "file": "\u55ae\u6a21\u578b\u96d9\u8166/auto_loop_driver.py",
+        "file": "單模型雙腦/auto_loop_driver.py",
         "line": 92
       },
       {
         "rule_id": "regex_py_open",
         "severity": "low",
         "category": "file_ops",
-        "file": "\u55ae\u6a21\u578b\u96d9\u8166/auto_loop_driver.py",
+        "file": "單模型雙腦/auto_loop_driver.py",
         "line": 51
       },
       {
         "rule_id": "regex_py_open",
         "severity": "low",
         "category": "file_ops",
-        "file": "\u55ae\u6a21\u578b\u96d9\u8166/auto_loop_driver.py",
+        "file": "單模型雙腦/auto_loop_driver.py",
         "line": 59
       },
       {
         "rule_id": "regex_py_shutil",
         "severity": "low",
         "category": "file_ops",
-        "file": "\u55ae\u6a21\u578b\u96d9\u8166/auto_loop_driver.py",
+        "file": "單模型雙腦/auto_loop_driver.py",
         "line": 68
       },
       {
         "rule_id": "regex_py_os_remove",
         "severity": "low",
         "category": "file_ops",
-        "file": "\u55ae\u6a21\u578b\u96d9\u8166/auto_loop_driver.py",
+        "file": "單模型雙腦/auto_loop_driver.py",
         "line": 131
       },
       {
         "rule_id": "regex_py_os_path",
         "severity": "low",
         "category": "file_ops",
-        "file": "\u55ae\u6a21\u578b\u96d9\u8166/auto_loop_driver.py",
+        "file": "單模型雙腦/auto_loop_driver.py",
         "line": 16
       },
       {
         "rule_id": "regex_py_os_path",
         "severity": "low",
         "category": "file_ops",
-        "file": "\u55ae\u6a21\u578b\u96d9\u8166/auto_loop_driver.py",
+        "file": "單模型雙腦/auto_loop_driver.py",
         "line": 18
       },
       {
         "rule_id": "regex_py_os_path",
         "severity": "low",
         "category": "file_ops",
-        "file": "\u55ae\u6a21\u578b\u96d9\u8166/auto_loop_driver.py",
+        "file": "單模型雙腦/auto_loop_driver.py",
         "line": 19
       },
       {
         "rule_id": "regex_py_os_path",
         "severity": "low",
         "category": "file_ops",
-        "file": "\u55ae\u6a21\u578b\u96d9\u8166/auto_loop_driver.py",
+        "file": "單模型雙腦/auto_loop_driver.py",
         "line": 22
       },
       {
         "rule_id": "regex_py_os_path",
         "severity": "low",
         "category": "file_ops",
-        "file": "\u55ae\u6a21\u578b\u96d9\u8166/auto_loop_driver.py",
+        "file": "單模型雙腦/auto_loop_driver.py",
         "line": 23
       },
       {
         "rule_id": "regex_py_os_path",
         "severity": "low",
         "category": "file_ops",
-        "file": "\u55ae\u6a21\u578b\u96d9\u8166/auto_loop_driver.py",
+        "file": "單模型雙腦/auto_loop_driver.py",
         "line": 26
       },
       {
         "rule_id": "regex_py_os_path",
         "severity": "low",
         "category": "file_ops",
-        "file": "\u55ae\u6a21\u578b\u96d9\u8166/auto_loop_driver.py",
+        "file": "單模型雙腦/auto_loop_driver.py",
         "line": 42
       },
       {
         "rule_id": "regex_py_os_path",
         "severity": "low",
         "category": "file_ops",
-        "file": "\u55ae\u6a21\u578b\u96d9\u8166/auto_loop_driver.py",
+        "file": "單模型雙腦/auto_loop_driver.py",
         "line": 102
       },
       {
         "rule_id": "regex_py_os_path",
         "severity": "low",
         "category": "file_ops",
-        "file": "\u55ae\u6a21\u578b\u96d9\u8166/auto_loop_driver.py",
+        "file": "單模型雙腦/auto_loop_driver.py",
         "line": 103
       }
     ],

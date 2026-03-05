@@ -27,7 +27,8 @@
       "risk_level": "medium",
       "primary_language": "typescript",
       "install_url": "https://github.com/calcom/cal.com",
-      "skill_type": "agent_skill"
+      "skill_type": "agent_skill",
+      "verified_commit": "9a08d2e46c6d75b3f0db41e6099035cac3cb9f8f"
     },
     {
       "id": "jumpserver--jumpserver",
@@ -41,7 +42,8 @@
       "risk_level": "medium",
       "primary_language": "Python",
       "install_url": "https://github.com/jumpserver/jumpserver",
-      "skill_type": "mcp_server"
+      "skill_type": "mcp_server",
+      "verified_commit": "b71519cc449b270a6dee20278769be27a78725de"
     },
     {
       "id": "srs-support-7eaa676e",
@@ -55,7 +57,8 @@
       "risk_level": "medium",
       "primary_language": "unknown",
       "install_url": "https://github.com/ossrs/srs",
-      "skill_type": "agent_skill"
+      "skill_type": "agent_skill",
+      "verified_commit": "4c39d2b8e86cdd6f0e506322b5c20b07f8b3b286"
     },
     {
       "id": "OpenTofu--opentofu",
@@ -69,7 +72,8 @@
       "risk_level": "high",
       "primary_language": "Go",
       "install_url": "https://github.com/OpenTofu/opentofu",
-      "skill_type": "mcp_server"
+      "skill_type": "mcp_server",
+      "verified_commit": "f1c8e39b69c057d885d434a5920f9ea3e76da167"
     },
     {
       "id": "github--github-mcp-server",
@@ -83,7 +87,8 @@
       "risk_level": "medium",
       "primary_language": "Go",
       "install_url": "https://github.com/github/github-mcp-server",
-      "skill_type": "mcp_server"
+      "skill_type": "mcp_server",
+      "verified_commit": "bf6467855c13d3b8f5cf72f8dfd9c86f8336b20b"
     },
     {
       "id": "evals-context-dd2d7063",
@@ -97,7 +102,8 @@
       "risk_level": "medium",
       "primary_language": "typescript",
       "install_url": "https://github.com/roocodeinc/roo-code",
-      "skill_type": "agent_skill"
+      "skill_type": "agent_skill",
+      "verified_commit": "52ce796e4272f3cf3f3ea4369d5e6a6bfc066396"
     },
     {
       "id": "dyadcheck-workflows-35cd3c7a",
@@ -111,7 +117,8 @@
       "risk_level": "medium",
       "primary_language": "typescript",
       "install_url": "https://github.com/dyad-sh/dyad",
-      "skill_type": "agent_skill"
+      "skill_type": "agent_skill",
+      "verified_commit": "fd95897f9d9f323e5f3811fbabe975b7d887568e"
     },
     {
       "id": "aionui-webui-setup-c19a5811",
@@ -125,7 +132,8 @@
       "risk_level": "medium",
       "primary_language": "typescript",
       "install_url": "https://github.com/iofficeai/aionui",
-      "skill_type": "agent_skill"
+      "skill_type": "agent_skill",
+      "verified_commit": "97c915f9879b18eec31ba8f1a75258c1c5b797d7"
     },
     {
       "id": "vercel-cli-d8e24815",
@@ -139,7 +147,8 @@
       "risk_level": "medium",
       "primary_language": "typescript",
       "install_url": "https://github.com/vercel/vercel",
-      "skill_type": "agent_skill"
+      "skill_type": "agent_skill",
+      "verified_commit": "7d66136c75cb62417294db64784bd40cdce97a87"
     },
     {
       "id": "tadata-org--fastapi_mcp",
@@ -153,7 +162,8 @@
       "risk_level": "medium",
       "primary_language": "Python",
       "install_url": "https://github.com/tadata-org/fastapi_mcp",
-      "skill_type": "mcp_server"
+      "skill_type": "mcp_server",
+      "verified_commit": "e5cad13cabfc725bbcb047e526816d887d96da62"
     }
   ],
   "total_skills": 10,
@@ -161,5 +171,5 @@
   "avg_score": 64.5,
   "min_score": 50,
   "top_stars": 0,
-  "generated_at": "2026-03-05T16:00:23Z"
+  "generated_at": "2026-03-05T16:07:36Z"
 }

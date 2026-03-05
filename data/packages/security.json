@@ -27,7 +27,8 @@
       "risk_level": "medium",
       "primary_language": "typescript",
       "install_url": "https://github.com/openclaw/openclaw",
-      "skill_type": "agent_skill"
+      "skill_type": "agent_skill",
+      "verified_commit": "9c6847074d7758602a4bb491de62e24c2f063994"
     },
     {
       "id": "gh-create-pr-8e096837",
@@ -41,7 +42,8 @@
       "risk_level": "medium",
       "primary_language": "typescript",
       "install_url": "https://github.com/cherryhq/cherry-studio",
-      "skill_type": "agent_skill"
+      "skill_type": "agent_skill",
+      "verified_commit": "e0cda09697a46c3971b720fafeed14e3cbf80c8b"
     },
     {
       "id": "confidence-check-ddb363af",
@@ -55,7 +57,8 @@
       "risk_level": "medium",
       "primary_language": "python",
       "install_url": "https://github.com/superclaude-org/superclaude_framework",
-      "skill_type": "agent_skill"
+      "skill_type": "agent_skill",
+      "verified_commit": "b061b2f7b00ca33d66c10b666c15016873b2e094"
     },
     {
       "id": "angular-modernization-1da09c71",
@@ -69,7 +72,8 @@
       "risk_level": "medium",
       "primary_language": "typescript",
       "install_url": "https://github.com/bitwarden/clients",
-      "skill_type": "agent_skill"
+      "skill_type": "agent_skill",
+      "verified_commit": "944b3ffdc246afa6f4d145984a48f07727a74dd6"
     },
     {
       "id": "anti-cheat-systems-6a931b7c",
@@ -83,7 +87,8 @@
       "risk_level": "medium",
       "primary_language": "python",
       "install_url": "https://github.com/gmh5225/awesome-game-security",
-      "skill_type": "agent_skill"
+      "skill_type": "agent_skill",
+      "verified_commit": "b142dada6ca638cbdc3000552253ffbcb2327777"
     },
     {
       "id": "1password-05004d49",
@@ -97,7 +102,8 @@
       "risk_level": "medium",
       "primary_language": "unknown",
       "install_url": "https://github.com/steipete/agent-scripts",
-      "skill_type": "agent_skill"
+      "skill_type": "agent_skill",
+      "verified_commit": "4e28dd5bd7caa5ba142c20f80325ac63d42ecf0e"
     },
     {
       "id": "accessibility-e0767046",
@@ -111,7 +117,8 @@
       "risk_level": "medium",
       "primary_language": "typescript",
       "install_url": "https://github.com/tech-leads-club/agent-skills",
-      "skill_type": "agent_skill"
+      "skill_type": "agent_skill",
+      "verified_commit": "d6663af5d3c6a93342f4aa2d34beee493853fcea"
     },
     {
       "id": "awesome-claude-code-plugins-c3feba0c",
@@ -125,7 +132,8 @@
       "risk_level": "medium",
       "primary_language": "Python",
       "install_url": "https://github.com/ccplugins/awesome-claude-code-plugins",
-      "skill_type": "agent_skill"
+      "skill_type": "agent_skill",
+      "verified_commit": "e5856f987d0f4e05078b1ba433b3995393119818"
     },
     {
       "id": "accessibility-wcag-26074a43",
@@ -139,7 +147,8 @@
       "risk_level": "medium",
       "primary_language": "javascript",
       "install_url": "https://github.com/rohitg00/awesome-claude-code-toolkit",
-      "skill_type": "agent_skill"
+      "skill_type": "agent_skill",
+      "verified_commit": "59009ad6be354bf9098624ed04819357864a5289"
     },
     {
       "id": "accessibility-planning-e4263585",
@@ -153,7 +162,8 @@
       "risk_level": "medium",
       "primary_language": "unknown",
       "install_url": "https://github.com/prorise-cool/claude-code-multi-agent",
-      "skill_type": "agent_skill"
+      "skill_type": "agent_skill",
+      "verified_commit": "0dc13057c17fb4591fdd5f02deb170ffacf981d2"
     }
   ],
   "total_skills": 10,
@@ -161,5 +171,5 @@
   "avg_score": 57.6,
   "min_score": 50,
   "top_stars": 0,
-  "generated_at": "2026-03-05T16:00:23Z"
+  "generated_at": "2026-03-05T16:07:36Z"
 }

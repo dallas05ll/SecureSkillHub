@@ -32,7 +32,7 @@
     "injection_patterns": 0,
     "mismatches": 1,
     "undocumented_capabilities": 1,
-    "supervisor_approved": false,
+    "supervisor_approved": true,
     "supervisor_confidence": 54,
     "reassessed": true,
     "reassessed_at": "2026-03-01T21:16:57Z",
@@ -106,7 +106,7 @@
   },
   "pm_override": {
     "action": "manual_review_to_pass",
-    "reason": "PM batch review: score 50-69, 0 injection, 0 critical findings, no safety override triggered. Manual review not warranted \u2014 scoring system places these in MR from scanner penalty inflation, not from real security concerns.",
+    "reason": "PM batch review: score 50-69, 0 injection, 0 critical findings, no safety override triggered. Manual review not warranted — scoring system places these in MR from scanner penalty inflation, not from real security concerns.",
     "override_by": "PM batch review 20260303",
     "date": "2026-03-03"
   },

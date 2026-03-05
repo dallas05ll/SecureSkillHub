@@ -27,7 +27,8 @@
       "risk_level": "medium",
       "primary_language": "javascript",
       "install_url": "https://github.com/facebook/react",
-      "skill_type": "agent_skill"
+      "skill_type": "agent_skill",
+      "verified_commit": "93882bd40ee48dc6d072dfc0b6cc7801fac1be31"
     },
     {
       "id": "vercel-react-best-practices-56554634",
@@ -41,7 +42,8 @@
       "risk_level": "medium",
       "primary_language": "unknown",
       "install_url": "https://github.com/vercel-labs/agent-skills",
-      "skill_type": "agent_skill"
+      "skill_type": "agent_skill",
+      "verified_commit": "e23951b8cad2f4b1e7e176c5731127c1263fe86f"
     },
     {
       "id": "component-refactoring-ea710729",
@@ -55,7 +57,8 @@
       "risk_level": "medium",
       "primary_language": "typescript",
       "install_url": "https://github.com/langgenius/dify",
-      "skill_type": "agent_skill"
+      "skill_type": "agent_skill",
+      "verified_commit": "164ccb7c48f9482e227acc820bd731328fad8c9f"
     },
     {
       "id": "remotion-best-practices-52f6dfff",
@@ -69,7 +72,8 @@
       "risk_level": "low",
       "primary_language": "typescript",
       "install_url": "https://github.com/remotion-dev/skills",
-      "skill_type": "agent_skill"
+      "skill_type": "agent_skill",
+      "verified_commit": "937ffb32b148fdceef4b4184f975a708aab8d560"
     },
     {
       "id": "frontend-design-b0f77b24",
@@ -83,7 +87,8 @@
       "risk_level": "high",
       "primary_language": "python",
       "install_url": "https://github.com/anthropics/skills",
-      "skill_type": "agent_skill"
+      "skill_type": "agent_skill",
+      "verified_commit": "3d59511518591fa82e6cfcf0438d68dd5dad3e76"
     },
     {
       "id": "angular-new-app-9e37438e",
@@ -97,7 +102,8 @@
       "risk_level": "medium",
       "primary_language": "typescript",
       "install_url": "https://github.com/angular/angular",
-      "skill_type": "agent_skill"
+      "skill_type": "agent_skill",
+      "verified_commit": "a6941adce8d942ab1317b9572cb23ac2ace72173"
     },
     {
       "id": "context7-docs-lookup-e3efeab3",
@@ -111,7 +117,8 @@
       "risk_level": "medium",
       "primary_language": "typescript",
       "install_url": "https://github.com/upstash/context7",
-      "skill_type": "agent_skill"
+      "skill_type": "agent_skill",
+      "verified_commit": "a3c3bb44c630f03f8c739031674c1cf781852655"
     },
     {
       "id": "slidev-faab6e02",
@@ -125,7 +132,8 @@
       "risk_level": "medium",
       "primary_language": "typescript",
       "install_url": "https://github.com/slidevjs/slidev",
-      "skill_type": "agent_skill"
+      "skill_type": "agent_skill",
+      "verified_commit": "c8a7b7d639ff0a26cf3de036505668263ef5a3b0"
     },
     {
       "id": "ui-ux-pro-max-04b8c90e",
@@ -139,7 +147,8 @@
       "risk_level": "medium",
       "primary_language": "unknown",
       "install_url": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill",
-      "skill_type": "agent_skill"
+      "skill_type": "agent_skill",
+      "verified_commit": "d820991781d4bdb8e2b2ee40f12442a5002c2b97"
     },
     {
       "id": "heroui-native-c69a7c11",
@@ -153,7 +162,8 @@
       "risk_level": "medium",
       "primary_language": "typescript",
       "install_url": "https://github.com/heroui-inc/heroui",
-      "skill_type": "agent_skill"
+      "skill_type": "agent_skill",
+      "verified_commit": "0d4671413ef7307965c388be04b8bfcc6aa76561"
     }
   ],
   "total_skills": 10,
@@ -161,5 +171,5 @@
   "avg_score": 67.0,
   "min_score": 50,
   "top_stars": 0,
-  "generated_at": "2026-03-05T16:00:23Z"
+  "generated_at": "2026-03-05T16:07:36Z"
 }

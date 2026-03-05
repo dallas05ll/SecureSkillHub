@@ -1,0 +1,384 @@
+{
+  "generated": "2026-03-05T16:07:39.379750+00:00",
+  "total_categories": 7,
+  "mcp_servers": 5692,
+  "agent_skills": 5406,
+  "categories": [
+    {
+      "id": "dev",
+      "label": "Software Development",
+      "skill_count": 8945,
+      "children": [
+        {
+          "id": "dev-web",
+          "label": "Web Application",
+          "skill_count": 4283,
+          "children": [
+            {
+              "id": "dev-web-frontend",
+              "label": "Frontend",
+              "skill_count": 885,
+              "child_count": 4
+            },
+            {
+              "id": "dev-web-backend",
+              "label": "Backend",
+              "skill_count": 1554,
+              "child_count": 4
+            },
+            {
+              "id": "dev-web-fullstack",
+              "label": "Fullstack",
+              "skill_count": 250,
+              "child_count": 2
+            }
+          ]
+        },
+        {
+          "id": "dev-testing",
+          "label": "Testing & QA",
+          "skill_count": 467
+        },
+        {
+          "id": "dev-git",
+          "label": "Git & Version Control",
+          "skill_count": 145
+        },
+        {
+          "id": "dev-devops",
+          "label": "DevOps & Infrastructure",
+          "skill_count": 693,
+          "children": [
+            {
+              "id": "dev-devops-docker",
+              "label": "Docker",
+              "skill_count": 136
+            },
+            {
+              "id": "dev-devops-k8s",
+              "label": "Kubernetes",
+              "skill_count": 46
+            },
+            {
+              "id": "dev-devops-ci",
+              "label": "CI/CD",
+              "skill_count": 57
+            }
+          ]
+        },
+        {
+          "id": "dev-agents",
+          "label": "AI Agents & Multi-Agent",
+          "skill_count": 139
+        },
+        {
+          "id": "dev-mobile",
+          "label": "Mobile Application",
+          "skill_count": 175,
+          "children": [
+            {
+              "id": "dev-mobile-react-native",
+              "label": "React Native",
+              "skill_count": 29
+            },
+            {
+              "id": "dev-mobile-flutter",
+              "label": "Flutter",
+              "skill_count": 34
+            }
+          ]
+        },
+        {
+          "id": "dev-desktop",
+          "label": "Desktop Application",
+          "skill_count": 62,
+          "children": [
+            {
+              "id": "dev-desktop-electron",
+              "label": "Electron",
+              "skill_count": 13
+            },
+            {
+              "id": "dev-desktop-tauri",
+              "label": "Tauri",
+              "skill_count": 9
+            }
+          ]
+        },
+        {
+          "id": "dev-gamedev",
+          "label": "Game Development",
+          "skill_count": 42
+        }
+      ]
+    },
+    {
+      "id": "data",
+      "label": "Data & AI",
+      "skill_count": 5377,
+      "children": [
+        {
+          "id": "data-ai",
+          "label": "AI & LLM Tools",
+          "skill_count": 2476,
+          "children": [
+            {
+              "id": "data-ai-nlp",
+              "label": "NLP & Text",
+              "skill_count": 250
+            },
+            {
+              "id": "data-ai-vision",
+              "label": "Vision",
+              "skill_count": 135
+            },
+            {
+              "id": "data-ai-audio",
+              "label": "Audio",
+              "skill_count": 132
+            },
+            {
+              "id": "data-ai-rag",
+              "label": "RAG & Retrieval",
+              "skill_count": 70
+            },
+            {
+              "id": "data-ai-agents",
+              "label": "Agent Frameworks",
+              "skill_count": 0
+            }
+          ]
+        },
+        {
+          "id": "data-db",
+          "label": "Databases",
+          "skill_count": 456,
+          "children": [
+            {
+              "id": "data-db-vector",
+              "label": "Vector DB",
+              "skill_count": 36
+            },
+            {
+              "id": "data-db-graph",
+              "label": "Graph DB",
+              "skill_count": 15
+            }
+          ]
+        },
+        {
+          "id": "data-ml",
+          "label": "Machine Learning",
+          "skill_count": 30
+        },
+        {
+          "id": "data-analysis",
+          "label": "Data Analysis",
+          "skill_count": 53
+        },
+        {
+          "id": "data-finance",
+          "label": "Finance & Trading",
+          "skill_count": 103
+        },
+        {
+          "id": "data-rag",
+          "label": "RAG & Retrieval",
+          "skill_count": 0
+        }
+      ]
+    },
+    {
+      "id": "productivity",
+      "label": "Productivity & Office",
+      "skill_count": 3583,
+      "children": [
+        {
+          "id": "productivity-docs",
+          "label": "Documents",
+          "skill_count": 783
+        },
+        {
+          "id": "productivity-comm",
+          "label": "Communication",
+          "skill_count": 404
+        },
+        {
+          "id": "productivity-pm",
+          "label": "Project Management",
+          "skill_count": 110
+        },
+        {
+          "id": "productivity-notes",
+          "label": "Notes",
+          "skill_count": 37
+        },
+        {
+          "id": "productivity-calendar",
+          "label": "Calendar",
+          "skill_count": 93
+        },
+        {
+          "id": "productivity-email",
+          "label": "Email",
+          "skill_count": 39
+        }
+      ]
+    },
+    {
+      "id": "integrations",
+      "label": "Integrations & APIs",
+      "skill_count": 5470,
+      "children": [
+        {
+          "id": "integrations-cloud",
+          "label": "Cloud Services",
+          "skill_count": 476,
+          "children": [
+            {
+              "id": "integrations-cloud-aws",
+              "label": "AWS",
+              "skill_count": 88
+            },
+            {
+              "id": "integrations-cloud-azure",
+              "label": "Azure",
+              "skill_count": 84
+            },
+            {
+              "id": "integrations-cloud-gcp",
+              "label": "GCP",
+              "skill_count": 27
+            }
+          ]
+        },
+        {
+          "id": "integrations-social",
+          "label": "Social Media",
+          "skill_count": 131
+        },
+        {
+          "id": "integrations-crm",
+          "label": "CRM",
+          "skill_count": 27
+        },
+        {
+          "id": "integrations-payment",
+          "label": "Payments",
+          "skill_count": 41
+        },
+        {
+          "id": "integrations-github",
+          "label": "GitHub",
+          "skill_count": 94
+        },
+        {
+          "id": "integrations-slack",
+          "label": "Slack",
+          "skill_count": 32
+        },
+        {
+          "id": "integrations-notion",
+          "label": "Notion",
+          "skill_count": 30
+        },
+        {
+          "id": "integrations-jira",
+          "label": "Jira",
+          "skill_count": 41
+        },
+        {
+          "id": "integrations-messaging",
+          "label": "Messaging & Chat",
+          "skill_count": 81
+        },
+        {
+          "id": "integrations-google",
+          "label": "Google",
+          "skill_count": 61
+        }
+      ]
+    },
+    {
+      "id": "security",
+      "label": "Security & Compliance",
+      "skill_count": 1083,
+      "children": [
+        {
+          "id": "security-scanning",
+          "label": "Scanning",
+          "skill_count": 78
+        },
+        {
+          "id": "security-auth",
+          "label": "Authentication",
+          "skill_count": 182
+        },
+        {
+          "id": "security-secrets",
+          "label": "Secrets Management",
+          "skill_count": 17
+        },
+        {
+          "id": "security-crypto",
+          "label": "Crypto & Web3",
+          "skill_count": 109
+        },
+        {
+          "id": "security-compliance",
+          "label": "Compliance & Legal",
+          "skill_count": 71
+        }
+      ]
+    },
+    {
+      "id": "utilities",
+      "label": "Utilities",
+      "skill_count": 6355,
+      "children": [
+        {
+          "id": "utilities-file",
+          "label": "File Management",
+          "skill_count": 118
+        },
+        {
+          "id": "utilities-search",
+          "label": "Search",
+          "skill_count": 624
+        },
+        {
+          "id": "utilities-browser",
+          "label": "Browser",
+          "skill_count": 95
+        },
+        {
+          "id": "utilities-system",
+          "label": "System",
+          "skill_count": 42
+        },
+        {
+          "id": "utilities-media",
+          "label": "Media",
+          "skill_count": 236
+        },
+        {
+          "id": "utilities-monitor",
+          "label": "Monitoring",
+          "skill_count": 222
+        }
+      ]
+    },
+    {
+      "id": "status",
+      "label": "Status Tags",
+      "skill_count": 1575,
+      "children": [
+        {
+          "id": "repo_unavailable",
+          "label": "Repo Unavailable",
+          "skill_count": 1575
+        }
+      ]
+    }
+  ]
+}

@@ -27,7 +27,8 @@
       "risk_level": "medium",
       "primary_language": "typescript",
       "install_url": "https://github.com/anomalyco/opencode",
-      "skill_type": "agent_skill"
+      "skill_type": "agent_skill",
+      "verified_commit": "324230806e99d4e5c9cc14fd66ddad0ba0c2b6e6"
     },
     {
       "id": "wox-plugin-creator-414045f5",
@@ -41,7 +42,8 @@
       "risk_level": "medium",
       "primary_language": "go",
       "install_url": "https://github.com/wox-launcher/wox",
-      "skill_type": "agent_skill"
+      "skill_type": "agent_skill",
+      "verified_commit": "fd10b0488dce9ca1aa7672a2ce40db11339ef1b2"
     },
     {
       "id": "quality-bun-feature-delivery-b55bcfa6",
@@ -55,7 +57,8 @@
       "risk_level": "medium",
       "primary_language": "rust",
       "install_url": "https://github.com/nikivdev/flow",
-      "skill_type": "agent_skill"
+      "skill_type": "agent_skill",
+      "verified_commit": "c6a5560b29dec7b636e06dcda31bbdcbde2b05f5"
     },
     {
       "id": "modelcontextprotocol--inspector",
@@ -69,7 +72,8 @@
       "risk_level": "low",
       "primary_language": "TypeScript",
       "install_url": "https://github.com/modelcontextprotocol/inspector",
-      "skill_type": "mcp_server"
+      "skill_type": "mcp_server",
+      "verified_commit": "db0827b24645f61c8b15aaaa4726bb7d21ad8282"
     },
     {
       "id": "ai-model-nodejs-ddef7cdb",
@@ -83,7 +87,8 @@
       "risk_level": "medium",
       "primary_language": "typescript",
       "install_url": "https://github.com/tencentcloudbase/cloudbase-mcp",
-      "skill_type": "agent_skill"
+      "skill_type": "agent_skill",
+      "verified_commit": "0a60d5ed9dda6a9313bed2decad441a1be1a4d78"
     },
     {
       "id": "pdf-reader-mcp-863e47ea",
@@ -97,7 +102,8 @@
       "risk_level": "medium",
       "primary_language": "typescript",
       "install_url": "https://github.com/shtse8/pdf-reader-mcp",
-      "skill_type": "mcp_server"
+      "skill_type": "mcp_server",
+      "verified_commit": "b393d46b6e40020e0b39ccc82701e85df114d337"
     },
     {
       "id": "agent-browser-cf195ac0",
@@ -111,7 +117,8 @@
       "risk_level": "medium",
       "primary_language": "unknown",
       "install_url": "https://github.com/am-will/codex-skills",
-      "skill_type": "agent_skill"
+      "skill_type": "agent_skill",
+      "verified_commit": "c81091796fba691a18d851b6b435fdc9d4d3722f"
     },
     {
       "id": "mcp-server-boilerplate-5591b362",
@@ -125,7 +132,8 @@
       "risk_level": "medium",
       "primary_language": "javascript",
       "install_url": "https://github.com/lucianoayres/mcp-server-boilerplate",
-      "skill_type": "mcp_server"
+      "skill_type": "mcp_server",
+      "verified_commit": "fb4603787f5d8bf50bcefe8d669849618f4cab4b"
     },
     {
       "id": "mcp-server-node-2d752252",
@@ -139,7 +147,8 @@
       "risk_level": "medium",
       "primary_language": "javascript",
       "install_url": "https://github.com/lucianoayres/mcp-server-node",
-      "skill_type": "mcp_server"
+      "skill_type": "mcp_server",
+      "verified_commit": "fb4603787f5d8bf50bcefe8d669849618f4cab4b"
     },
     {
       "id": "antigravity-workflows-6e6d80a6",
@@ -153,7 +162,8 @@
       "risk_level": "medium",
       "primary_language": "JavaScript",
       "install_url": "https://github.com/harikrishna8121999/antigravity-workflows",
-      "skill_type": "agent_skill"
+      "skill_type": "agent_skill",
+      "verified_commit": "a0262811ca85bfb717a281bec310357d7b68880d"
     }
   ],
   "total_skills": 10,
@@ -161,5 +171,5 @@
   "avg_score": 72.5,
   "min_score": 50,
   "top_stars": 0,
-  "generated_at": "2026-03-05T16:00:23Z"
+  "generated_at": "2026-03-05T16:07:36Z"
 }

@@ -27,7 +27,8 @@
       "risk_level": "medium",
       "primary_language": "typescript",
       "install_url": "https://github.com/tldraw/tldraw",
-      "skill_type": "agent_skill"
+      "skill_type": "agent_skill",
+      "verified_commit": "6c9d28260f168277abf35d43175497dddc3dba07"
     },
     {
       "id": "agents-6c7d0d94",
@@ -41,7 +42,8 @@
       "risk_level": "medium",
       "primary_language": "typescript",
       "install_url": "https://github.com/danielmiessler/personal_ai_infrastructure",
-      "skill_type": "agent_skill"
+      "skill_type": "agent_skill",
+      "verified_commit": "2306de68a998c346fa1ae99c06d3e5125b1df9d7"
     },
     {
       "id": "acestep-68dfaad9",
@@ -55,7 +57,8 @@
       "risk_level": "medium",
       "primary_language": "python",
       "install_url": "https://github.com/ace-step/ace-step-1.5",
-      "skill_type": "agent_skill"
+      "skill_type": "agent_skill",
+      "verified_commit": "c0a32a23826a99eff208b9b305f088a49737463d"
     },
     {
       "id": "nix-config-f003377d",
@@ -69,7 +72,8 @@
       "risk_level": "medium",
       "primary_language": "nix",
       "install_url": "https://github.com/malob/nix-config",
-      "skill_type": "agent_skill"
+      "skill_type": "agent_skill",
+      "verified_commit": "91556e4a8f83608b2a00001c5438650e00231d08"
     },
     {
       "id": "claude-stt-fbdecf1b",
@@ -83,7 +87,8 @@
       "risk_level": "medium",
       "primary_language": "Python",
       "install_url": "https://github.com/jarrodwatts/claude-stt",
-      "skill_type": "agent_skill"
+      "skill_type": "agent_skill",
+      "verified_commit": "b7b6d9562ab14dfb170580e168bbcda6a8fb1e3f"
     },
     {
       "id": "alicloud-ai-audio-tts-78242cb2",
@@ -97,7 +102,8 @@
       "risk_level": "medium",
       "primary_language": "python",
       "install_url": "https://github.com/cinience/alicloud-skills",
-      "skill_type": "agent_skill"
+      "skill_type": "agent_skill",
+      "verified_commit": "e91c575cf77fc0282492034112bf128d1d1f4ac0"
     },
     {
       "id": "analyze-video-4553bbf1",
@@ -111,7 +117,8 @@
       "risk_level": "info",
       "primary_language": "ruby",
       "install_url": "https://github.com/barefootford/buttercut",
-      "skill_type": "agent_skill"
+      "skill_type": "agent_skill",
+      "verified_commit": "1c06030f4ace94e1c4152aed278d97e717ab546e"
     },
     {
       "id": "agentvibes-7d05a092",
@@ -125,7 +132,8 @@
       "risk_level": "medium",
       "primary_language": "javascript",
       "install_url": "https://github.com/paulpreibisch/agentvibes",
-      "skill_type": "agent_skill"
+      "skill_type": "agent_skill",
+      "verified_commit": "98c2a8ad9ff14cc2338f98f38d65edae8a60e680"
     },
     {
       "id": "ai-pattern-detection-2c3399a7",
@@ -139,7 +147,8 @@
       "risk_level": "medium",
       "primary_language": "unknown",
       "install_url": "https://github.com/jmagly/aiwg",
-      "skill_type": "agent_skill"
+      "skill_type": "agent_skill",
+      "verified_commit": "ebc24babf0e1d6f296eabdf3672bac8af72fcae5"
     },
     {
       "id": "mureka-mcp-a633d41c",
@@ -153,7 +162,8 @@
       "risk_level": "medium",
       "primary_language": "python",
       "install_url": "https://github.com/SkyworkAI/Mureka-mcp",
-      "skill_type": "mcp_server"
+      "skill_type": "mcp_server",
+      "verified_commit": "0d4237246db5063cd487351fd36ade39d6bbee41"
     }
   ],
   "total_skills": 10,
@@ -161,5 +171,5 @@
   "avg_score": 66.5,
   "min_score": 50,
   "top_stars": 0,
-  "generated_at": "2026-03-05T16:00:23Z"
+  "generated_at": "2026-03-05T16:07:36Z"
 }

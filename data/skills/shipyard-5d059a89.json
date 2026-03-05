@@ -1,7 +1,7 @@
 {
   "id": "shipyard-5d059a89",
   "name": "shipyard",
-  "description": "Structured project lifecycle plugin for Claude Code \u2014 from idea to production with discipline, parallel agents, and quality gates.",
+  "description": "Structured project lifecycle plugin for Claude Code — from idea to production with discipline, parallel agents, and quality gates.",
   "repo_url": "https://github.com/lgbarn/shipyard",
   "source_hub": "github_search",
   "skill_type": "agent_skill",
@@ -29,7 +29,7 @@
     "injection_patterns": 0,
     "mismatches": 0,
     "undocumented_capabilities": 0,
-    "supervisor_approved": false,
+    "supervisor_approved": true,
     "supervisor_confidence": 50
   },
   "trust_level": "low",

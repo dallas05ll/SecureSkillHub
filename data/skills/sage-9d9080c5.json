@@ -1,7 +1,7 @@
 {
   "id": "sage-9d9080c5",
   "name": "sage",
-  "description": "Sage \u2014 Safety for Agents: lightweight Agent Detection & Response layer for AI agents guarding commands, files, and web requests via hook systems.",
+  "description": "Sage — Safety for Agents: lightweight Agent Detection & Response layer for AI agents guarding commands, files, and web requests via hook systems.",
   "repo_url": "https://github.com/avast/sage",
   "source_hub": "github_search",
   "skill_type": "agent_skill",
@@ -29,7 +29,7 @@
     "injection_patterns": 0,
     "mismatches": 0,
     "undocumented_capabilities": 0,
-    "supervisor_approved": false,
+    "supervisor_approved": true,
     "supervisor_confidence": 50
   },
   "trust_level": "low",

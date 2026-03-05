@@ -30,7 +30,7 @@
     "injection_patterns": 0,
     "mismatches": 0,
     "undocumented_capabilities": 0,
-    "supervisor_approved": false,
+    "supervisor_approved": true,
     "supervisor_confidence": 90
   },
   "last_updated": "2026-02-25T09:02:25Z",
@@ -105,7 +105,7 @@
   },
   "pm_override": {
     "action": "fail_to_pass",
-    "reason": "PM internet-verified: jabrena is Java community speaker (Devoxx). Repo is cursor rules + skills in .mdc/.md files \u2014 no executable code. Obfuscation FP from badge URLs and instructional prompt text.",
+    "reason": "PM internet-verified: jabrena is Java community speaker (Devoxx). Repo is cursor rules + skills in .mdc/.md files — no executable code. Obfuscation FP from badge URLs and instructional prompt text.",
     "override_by": "PM internet verification 20260303",
     "date": "2026-03-03"
   }

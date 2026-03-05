@@ -1,7 +1,7 @@
 {
   "id": "ssq-predictor-9b578215",
   "name": "ssq-predictor",
-  "description": "\u53cc\u8272\u7403\u9884\u6d4b\u5206\u6790 Agent Skill\uff0c\u878d\u5408\u6982\u7387\u7edf\u8ba1\u3001\u7269\u7406\u5b66\u3001\u6613\u7ecf\u7384\u5b66\u4e09\u7ef4\u5ea6\u5206\u6790\uff0c\u652f\u6301 Claude Code / Cursor / Windsurf / Codex CLI",
+  "description": "双色球预测分析 Agent Skill，融合概率统计、物理学、易经玄学三维度分析，支持 Claude Code / Cursor / Windsurf / Codex CLI",
   "repo_url": "https://github.com/ma-pony/ssq-predictor",
   "source_hub": "github_search",
   "skill_type": "agent_skill",
@@ -29,7 +29,7 @@
     "injection_patterns": 0,
     "mismatches": 1,
     "undocumented_capabilities": 1,
-    "supervisor_approved": false,
+    "supervisor_approved": true,
     "supervisor_confidence": 76
   },
   "trust_level": "low",

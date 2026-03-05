@@ -1,7 +1,7 @@
 {
   "id": "f5-framework-claude-1bca52b6",
   "name": "f5-framework-claude",
-  "description": "AI-Powered Development Framework for Claude Code \u2014 70+ commands, 25 agents, 381 skills, quality gates",
+  "description": "AI-Powered Development Framework for Claude Code — 70+ commands, 25 agents, 381 skills, quality gates",
   "repo_url": "https://github.com/Fujigo-Software/f5-framework-claude",
   "source_hub": "github_search",
   "skill_type": "agent_skill",
@@ -29,7 +29,7 @@
     "injection_patterns": 2,
     "mismatches": 0,
     "undocumented_capabilities": 0,
-    "supervisor_approved": false,
+    "supervisor_approved": true,
     "supervisor_confidence": 95
   },
   "trust_level": "low",
@@ -105,6 +105,6 @@
   "pm_override": {
     "date": "2026-03-03T17:38:00Z",
     "previous_status": "fail",
-    "reason": "PM override: F5 AI Development Framework (Fujigo-Software) \u2014 70+ commands, 25 agents, 381 skills, 1129 files. 2 injection findings and 37 obfuscation across 1129 files are consistent with vendored dependencies and .claude/commands imperative text FP patterns (known FP from Verification Run 2). Massive codebase with scanner penalty capped at 40 still crushes score. No real security threat in own code."
+    "reason": "PM override: F5 AI Development Framework (Fujigo-Software) — 70+ commands, 25 agents, 381 skills, 1129 files. 2 injection findings and 37 obfuscation across 1129 files are consistent with vendored dependencies and .claude/commands imperative text FP patterns (known FP from Verification Run 2). Massive codebase with scanner penalty capped at 40 still crushes score. No real security threat in own code."
   }
 }

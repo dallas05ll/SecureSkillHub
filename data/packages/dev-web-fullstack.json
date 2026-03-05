@@ -27,7 +27,8 @@
       "risk_level": "medium",
       "primary_language": "typescript",
       "install_url": "https://github.com/upstash/context7",
-      "skill_type": "agent_skill"
+      "skill_type": "agent_skill",
+      "verified_commit": "a3c3bb44c630f03f8c739031674c1cf781852655"
     },
     {
       "id": "next-best-practices-211cd6ec",
@@ -41,7 +42,8 @@
       "risk_level": "low",
       "primary_language": "unknown",
       "install_url": "https://github.com/vercel-labs/next-skills",
-      "skill_type": "agent_skill"
+      "skill_type": "agent_skill",
+      "verified_commit": "038954e07bfc313e97fa5f6ff7caf87226e4a782"
     },
     {
       "id": "evals-context-dd2d7063",
@@ -55,7 +57,8 @@
       "risk_level": "medium",
       "primary_language": "typescript",
       "install_url": "https://github.com/roocodeinc/roo-code",
-      "skill_type": "agent_skill"
+      "skill_type": "agent_skill",
+      "verified_commit": "52ce796e4272f3cf3f3ea4369d5e6a6bfc066396"
     },
     {
       "id": "vueuse-functions-d53b8806",
@@ -69,7 +72,8 @@
       "risk_level": "medium",
       "primary_language": "typescript",
       "install_url": "https://github.com/vueuse/vueuse",
-      "skill_type": "agent_skill"
+      "skill_type": "agent_skill",
+      "verified_commit": "49da8f9c5cd03d0d5ac4619733dfa9cbaaf4b94d"
     },
     {
       "id": "pinme-3dccfc8d",
@@ -83,7 +87,8 @@
       "risk_level": "medium",
       "primary_language": "TypeScript",
       "install_url": "https://github.com/glitternetwork/pinme",
-      "skill_type": "agent_skill"
+      "skill_type": "agent_skill",
+      "verified_commit": "c6c629e9ae0844154713871259a53958f0f5e9c8"
     },
     {
       "id": "1k-app-upgrade-test-77b89ded",
@@ -97,7 +102,8 @@
       "risk_level": "medium",
       "primary_language": "typescript",
       "install_url": "https://github.com/onekeyhq/app-monorepo",
-      "skill_type": "agent_skill"
+      "skill_type": "agent_skill",
+      "verified_commit": "a78dd5c97cfd3ff074364afeef75c8776facac56"
     },
     {
       "id": "aios-architect-eb44e201",
@@ -111,7 +117,8 @@
       "risk_level": "medium",
       "primary_language": "javascript",
       "install_url": "https://github.com/synkraai/aios-core",
-      "skill_type": "agent_skill"
+      "skill_type": "agent_skill",
+      "verified_commit": "61991a35fde353d22863e5a8bd01f3a97a9817b7"
     },
     {
       "id": "mcp-adapter-14432921",
@@ -125,7 +132,8 @@
       "risk_level": "medium",
       "primary_language": "typescript",
       "install_url": "https://github.com/vercel/mcp-adapter",
-      "skill_type": "mcp_server"
+      "skill_type": "mcp_server",
+      "verified_commit": "78345590e8cdd430cc74780271ec5f9939fe6a3a"
     },
     {
       "id": "add-locale-21ff6633",
@@ -139,7 +147,8 @@
       "risk_level": "medium",
       "primary_language": "typescript",
       "install_url": "https://github.com/notum-cz/strapi-next-monorepo-starter",
-      "skill_type": "agent_skill"
+      "skill_type": "agent_skill",
+      "verified_commit": "a520089e7c30d5950b9977263cd7511dfbd7ea9d"
     },
     {
       "id": "web-asset-generator-6888dce7",
@@ -153,7 +162,8 @@
       "risk_level": "low",
       "primary_language": "Python",
       "install_url": "https://github.com/alonw0/web-asset-generator",
-      "skill_type": "agent_skill"
+      "skill_type": "agent_skill",
+      "verified_commit": "c6d56dc54ab86eae4eeb1393d9c8cdc71ae8d1a8"
     }
   ],
   "total_skills": 10,
@@ -161,5 +171,5 @@
   "avg_score": 64.6,
   "min_score": 50,
   "top_stars": 0,
-  "generated_at": "2026-03-05T16:00:23Z"
+  "generated_at": "2026-03-05T16:07:36Z"
 }

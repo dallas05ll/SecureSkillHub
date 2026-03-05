@@ -1,7 +1,7 @@
 {
   "id": "agent-architect-3131daa6",
   "name": "agent-architect",
-  "description": "Create and refine OpenCode agents via guided Q&A. Use proactively for agent creation, performance improvement, or configuration design.\n\nExamples:\n- user: \"Create an agent for code reviews\" \u2192 ask about scope, permissions, tools, model preferences, generate AGENTS.md frontmatter\n- user: \"My agent ignores context\" \u2192 analyze description clarity, allowed-tools, permissions, suggest improvements\n- user: \"Add a database expert agent\" \u2192 gather requirements, set convex-database-expert in subagent_typ...",
+  "description": "Create and refine OpenCode agents via guided Q&A. Use proactively for agent creation, performance improvement, or configuration design.\n\nExamples:\n- user: \"Create an agent for code reviews\" → ask about scope, permissions, tools, model preferences, generate AGENTS.md frontmatter\n- user: \"My agent ignores context\" → analyze description clarity, allowed-tools, permissions, suggest improvements\n- user: \"Add a database expert agent\" → gather requirements, set convex-database-expert in subagent_typ...",
   "repo_url": "https://github.com/igorwarzocha/opencode-workflows",
   "source_hub": "skillsmp",
   "skill_type": "agent_skill",
@@ -34,7 +34,7 @@
     "injection_patterns": 0,
     "mismatches": 0,
     "undocumented_capabilities": 0,
-    "supervisor_approved": false,
+    "supervisor_approved": true,
     "supervisor_confidence": 66
   },
   "verification_level": "full_pipeline",

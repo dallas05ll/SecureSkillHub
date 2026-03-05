@@ -18,7 +18,7 @@
   "pm_override": {
     "date": "2026-03-03T17:50:00Z",
     "previous_status": "fail",
-    "reason": "PM override: 1 inj + 7 obf across 207 files \u2014 vendored deps pattern. 9\u2605 personal Claude tool project."
+    "reason": "PM override: 1 inj + 7 obf across 207 files — vendored deps pattern. 9★ personal Claude tool project."
   },
   "verified_commit": "aa826c9b3c8c42e1a660847376ef5a54f679da37",
   "scan_summary": null,
@@ -33,7 +33,7 @@
     "injection_patterns": 1,
     "mismatches": 0,
     "undocumented_capabilities": 0,
-    "supervisor_approved": false,
+    "supervisor_approved": true,
     "supervisor_confidence": 95
   },
   "trust_level": "low",

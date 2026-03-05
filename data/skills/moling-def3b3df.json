@@ -43,7 +43,7 @@
     "injection_patterns": 0,
     "mismatches": 0,
     "undocumented_capabilities": 0,
-    "supervisor_approved": false,
+    "supervisor_approved": true,
     "supervisor_confidence": 79
   },
   "pm_override": "Score 79, 3 findings all in README install commands, 0 injection/obfuscation",

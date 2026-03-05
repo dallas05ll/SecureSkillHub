@@ -27,7 +27,8 @@
       "risk_level": "medium",
       "primary_language": "typescript",
       "install_url": "https://github.com/cline/cline",
-      "skill_type": "agent_skill"
+      "skill_type": "agent_skill",
+      "verified_commit": "2baf966db7dc46dc7932be64c91c5cf85aa58492"
     },
     {
       "id": "backport-pr-assistant-9670a381",
@@ -41,7 +42,8 @@
       "risk_level": "medium",
       "primary_language": "go",
       "install_url": "https://github.com/cockroachdb/cockroach",
-      "skill_type": "agent_skill"
+      "skill_type": "agent_skill",
+      "verified_commit": "e588a07710e98b4efd6a01cbfe718b53b37b8bf2"
     },
     {
       "id": "add-provider-4e28c6d2",
@@ -55,7 +57,8 @@
       "risk_level": "medium",
       "primary_language": "unknown",
       "install_url": "https://github.com/tddworks/claudebar",
-      "skill_type": "agent_skill"
+      "skill_type": "agent_skill",
+      "verified_commit": "88f07a2634fd9a0fc2e360e39e841cb92ca1aff6"
     },
     {
       "id": "create-typescript-server-a86418c5",
@@ -69,7 +72,8 @@
       "risk_level": "medium",
       "primary_language": "unknown",
       "install_url": "https://github.com/modelcontextprotocol/create-typescript-server",
-      "skill_type": "mcp_server"
+      "skill_type": "mcp_server",
+      "verified_commit": "3115f395cebe7c3ca631ba4becd4cbdf46cd6291"
     },
     {
       "id": "mcp-config-fa9dae8d",
@@ -83,7 +87,8 @@
       "risk_level": "medium",
       "primary_language": "unknown",
       "install_url": "https://github.com/marcusschiesser/mcp-config",
-      "skill_type": "mcp_server"
+      "skill_type": "mcp_server",
+      "verified_commit": "19c797fec1b5b1ae5f140766554d2fecb5bda61d"
     },
     {
       "id": "create-mcp-server-app-33b12019",
@@ -97,7 +102,8 @@
       "risk_level": "medium",
       "primary_language": "typescript",
       "install_url": "https://github.com/boguan/create-mcp-server-app",
-      "skill_type": "mcp_server"
+      "skill_type": "mcp_server",
+      "verified_commit": "ced7cfd6eb572e420e095572721ee18efce65538"
     },
     {
       "id": "skrills-18c44e30",
@@ -111,7 +117,8 @@
       "risk_level": "medium",
       "primary_language": "Rust",
       "install_url": "https://github.com/athola/skrills",
-      "skill_type": "agent_skill"
+      "skill_type": "agent_skill",
+      "verified_commit": "bc57e75a932444c3274c902355213440ec0dc306"
     },
     {
       "id": "openai-codex-mcp-3a586a3a",
@@ -125,7 +132,8 @@
       "risk_level": "high",
       "primary_language": "unknown",
       "install_url": "https://github.com/agency-ai-solutions/openai-codex-mcp",
-      "skill_type": "mcp_server"
+      "skill_type": "mcp_server",
+      "verified_commit": "18ab4bd083040696b195fc4e1e1c11a21ef4a11f"
     },
     {
       "id": "claude-crew-5433c5c4",
@@ -139,7 +147,8 @@
       "risk_level": "medium",
       "primary_language": "typescript",
       "install_url": "https://github.com/d-kimuson/claude-crew",
-      "skill_type": "mcp_server"
+      "skill_type": "mcp_server",
+      "verified_commit": "804cf0a003c704599906a0f5141ae3a2e9eab537"
     },
     {
       "id": "outline-driven-development-bc569980",
@@ -153,7 +162,8 @@
       "risk_level": "info",
       "primary_language": "markdown",
       "install_url": "https://github.com/OutlineDriven/outline-driven-development",
-      "skill_type": "agent_skill"
+      "skill_type": "agent_skill",
+      "verified_commit": "975da62f35f4df3457326977ff81679167452c81"
     }
   ],
   "total_skills": 10,
@@ -161,5 +171,5 @@
   "avg_score": 80.7,
   "min_score": 60,
   "top_stars": 0,
-  "generated_at": "2026-03-05T16:00:23Z"
+  "generated_at": "2026-03-05T16:07:36Z"
 }

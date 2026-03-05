@@ -27,7 +27,8 @@
       "risk_level": "medium",
       "primary_language": "Python",
       "install_url": "https://github.com/1Panel-dev/MaxKB",
-      "skill_type": "mcp_server"
+      "skill_type": "mcp_server",
+      "verified_commit": "ae3d95f3c4b369e543949a853982c217800d9cbc"
     },
     {
       "id": "ai-article-a019340c",
@@ -41,7 +42,8 @@
       "risk_level": "medium",
       "primary_language": "unknown",
       "install_url": "https://github.com/itwanger/tobebetterjavaer",
-      "skill_type": "agent_skill"
+      "skill_type": "agent_skill",
+      "verified_commit": "36d92ac0f2b8f9eccd5fb53ecf439bfffece2fbb"
     },
     {
       "id": "skill-seekers-doc-converter-dcbed0f4",
@@ -55,7 +57,8 @@
       "risk_level": "medium",
       "primary_language": "Python",
       "install_url": "https://github.com/yusufkaraaslan/Skill_Seekers",
-      "skill_type": "agent_skill"
+      "skill_type": "agent_skill",
+      "verified_commit": "3bad7cf365d91233293b006b89454eb7d10ef30c"
     },
     {
       "id": "ai-sdk-fb3d3f32",
@@ -69,7 +72,8 @@
       "risk_level": "medium",
       "primary_language": "typescript",
       "install_url": "https://github.com/solidspoon/dashplayer",
-      "skill_type": "agent_skill"
+      "skill_type": "agent_skill",
+      "verified_commit": "00f8aa90831b126c10a406e8f0d3d8405dd0402b"
     },
     {
       "id": "context-portal-5b42c2d8",
@@ -83,7 +87,8 @@
       "risk_level": "medium",
       "primary_language": "python",
       "install_url": "https://github.com/GreatScottyMac/context-portal",
-      "skill_type": "mcp_server"
+      "skill_type": "mcp_server",
+      "verified_commit": "18bde469feb03c233d11c9a4941bd27bd859a5ff"
     },
     {
       "id": "mcp-pinecone-6a2e34b9",
@@ -97,7 +102,8 @@
       "risk_level": "medium",
       "primary_language": "python",
       "install_url": "https://github.com/sirmews/mcp-pinecone",
-      "skill_type": "mcp_server"
+      "skill_type": "mcp_server",
+      "verified_commit": "5477b421bace738621653ca659f2301ad03fa37a"
     },
     {
       "id": "mcp-local-rag-5d93774b",
@@ -111,7 +117,8 @@
       "risk_level": "medium",
       "primary_language": "python",
       "install_url": "https://github.com/nkapila6/mcp-local-rag",
-      "skill_type": "mcp_server"
+      "skill_type": "mcp_server",
+      "verified_commit": "1e96748859f3b70716d3830d3dfa7941c4e688b4"
     },
     {
       "id": "deepseek-thinking-claude-3-5-sonnet-clin-4b26314d",
@@ -125,7 +132,8 @@
       "risk_level": "medium",
       "primary_language": "unknown",
       "install_url": "https://github.com/newideas99/Deepseek-Thinking-Claude-3.5-Sonnet-CLINE-MCP",
-      "skill_type": "mcp_server"
+      "skill_type": "mcp_server",
+      "verified_commit": "a45b5ddd82dfed110e9aaece2fc24996330b3dc2"
     },
     {
       "id": "rat-retrieval-augmented-thinking-mcp-5df7133d",
@@ -139,7 +147,8 @@
       "risk_level": "medium",
       "primary_language": "unknown",
       "install_url": "https://github.com/newideas99/RAT-retrieval-augmented-thinking-MCP",
-      "skill_type": "mcp_server"
+      "skill_type": "mcp_server",
+      "verified_commit": "a45b5ddd82dfed110e9aaece2fc24996330b3dc2"
     },
     {
       "id": "all-in-one-model-context-protocol-5df10e64",
@@ -153,7 +162,8 @@
       "risk_level": "info",
       "primary_language": "unknown",
       "install_url": "https://github.com/nguyenvanduocit/all-in-one-model-context-protocol",
-      "skill_type": "mcp_server"
+      "skill_type": "mcp_server",
+      "verified_commit": "342c09febf99330cc1e60fba0d5c104411781159"
     }
   ],
   "total_skills": 10,
@@ -161,5 +171,5 @@
   "avg_score": 87.9,
   "min_score": 50,
   "top_stars": 20166,
-  "generated_at": "2026-03-05T16:00:23Z"
+  "generated_at": "2026-03-05T16:07:36Z"
 }

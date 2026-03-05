@@ -27,7 +27,8 @@
       "risk_level": "medium",
       "primary_language": "typescript",
       "install_url": "https://github.com/everyinc/compound-engineering-plugin",
-      "skill_type": "agent_skill"
+      "skill_type": "agent_skill",
+      "verified_commit": "ca57c67c1cb7df1ba348a3388f50969ff04dd974"
     },
     {
       "id": "agent-browser-938ebd57",
@@ -41,7 +42,8 @@
       "risk_level": "medium",
       "primary_language": "typescript",
       "install_url": "https://github.com/arize-ai/phoenix",
-      "skill_type": "agent_skill"
+      "skill_type": "agent_skill",
+      "verified_commit": "7ca881362726b381fb9c9f225036befd62dbbca1"
     },
     {
       "id": "agent-browser-88b9c3ab",
@@ -55,7 +57,8 @@
       "risk_level": "medium",
       "primary_language": "unknown",
       "install_url": "https://github.com/shanraisshan/claude-code-best-practice",
-      "skill_type": "agent_skill"
+      "skill_type": "agent_skill",
+      "verified_commit": "296d0e8c8c4f464743bcfb60b8697e472275dfc3"
     },
     {
       "id": "agent-browser-bd83330a",
@@ -69,7 +72,8 @@
       "risk_level": "medium",
       "primary_language": "typescript",
       "install_url": "https://github.com/jlia0/tinyclaw",
-      "skill_type": "agent_skill"
+      "skill_type": "agent_skill",
+      "verified_commit": "048dbeaeed6130a98892efa9a8c7ba4b20ac3ab3"
     },
     {
       "id": "aesthetic-bf400e72",
@@ -83,7 +87,8 @@
       "risk_level": "medium",
       "primary_language": "unknown",
       "install_url": "https://github.com/mrgoonie/claudekit-skills",
-      "skill_type": "agent_skill"
+      "skill_type": "agent_skill",
+      "verified_commit": "05a226815663ab151a3083244608fe398eefc7fc"
     },
     {
       "id": "ai-model-nodejs-ddef7cdb",
@@ -97,7 +102,8 @@
       "risk_level": "medium",
       "primary_language": "typescript",
       "install_url": "https://github.com/tencentcloudbase/cloudbase-mcp",
-      "skill_type": "agent_skill"
+      "skill_type": "agent_skill",
+      "verified_commit": "0a60d5ed9dda6a9313bed2decad441a1be1a4d78"
     },
     {
       "id": "ai-model-cloudbase-c5cc58e2",
@@ -111,7 +117,8 @@
       "risk_level": "medium",
       "primary_language": "javascript",
       "install_url": "https://github.com/tencentcloudbase/awesome-cloudbase-examples",
-      "skill_type": "agent_skill"
+      "skill_type": "agent_skill",
+      "verified_commit": "2a4f98e58a5a4c00e4a0c1253b28ac30ffc7b58b"
     },
     {
       "id": "smart-illustrator-99428fe6",
@@ -125,7 +132,8 @@
       "risk_level": "medium",
       "primary_language": "TypeScript",
       "install_url": "https://github.com/axtonliu/smart-illustrator",
-      "skill_type": "agent_skill"
+      "skill_type": "agent_skill",
+      "verified_commit": "51408881fa41c6c7ba9afdfe9c4653a4b42d1f02"
     },
     {
       "id": "imagesorcery-mcp-b5df3d20",
@@ -139,7 +147,8 @@
       "risk_level": "medium",
       "primary_language": "python",
       "install_url": "https://github.com/sunriseapps/imagesorcery-mcp",
-      "skill_type": "mcp_server"
+      "skill_type": "mcp_server",
+      "verified_commit": "b1e3c339c7fd5c2dded52c7a34f3395408d1fdee"
     },
     {
       "id": "agent-browser-8cde6bc0",
@@ -153,7 +162,8 @@
       "risk_level": "medium",
       "primary_language": "typescript",
       "install_url": "https://github.com/mburumaxwell/paklo",
-      "skill_type": "agent_skill"
+      "skill_type": "agent_skill",
+      "verified_commit": "37783c8030664295325dbe09e853b2f64b52abaf"
     }
   ],
   "total_skills": 10,
@@ -161,5 +171,5 @@
   "avg_score": 66.7,
   "min_score": 50,
   "top_stars": 0,
-  "generated_at": "2026-03-05T16:00:23Z"
+  "generated_at": "2026-03-05T16:07:36Z"
 }

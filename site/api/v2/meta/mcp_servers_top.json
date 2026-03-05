@@ -1,0 +1,2670 @@
+{
+  "generated": "2026-03-05T16:07:39.288422+00:00",
+  "total": 5692,
+  "verified": 3146,
+  "showing": 200,
+  "sort": "priority_desc",
+  "items": [
+    {
+      "id": "n8n-io--n8n",
+      "name": "n8n",
+      "score": 176312,
+      "score_type": "stars",
+      "tier": "S",
+      "verified": true,
+      "tags": [
+        "productivity"
+      ],
+      "one_liner": "Fair-code workflow automation platform with native AI capabilities, 400+ inte..."
+    },
+    {
+      "id": "upstash--context7-mcp",
+      "name": "context7-mcp",
+      "score": 46887,
+      "score_type": "stars",
+      "tier": "S",
+      "verified": true,
+      "tags": [
+        "integrations",
+        "productivity",
+        "productivity-docs"
+      ],
+      "one_liner": "MCP server providing up-to-date library documentation and code examples to LL..."
+    },
+    {
+      "id": "mindsdb--mindsdb",
+      "name": "mindsdb",
+      "score": 38581,
+      "score_type": "stars",
+      "tier": "S",
+      "verified": true,
+      "tags": [
+        "integrations",
+        "utilities"
+      ],
+      "one_liner": "Federated Query Engine for AI with a built-in MCP Server that connects databa..."
+    },
+    {
+      "id": "code-yeongyu--oh-my-opencode",
+      "name": "oh-my-opencode",
+      "score": 34263,
+      "score_type": "stars",
+      "tier": "S",
+      "verified": true,
+      "tags": [
+        "data",
+        "data-ai"
+      ],
+      "one_liner": "AI agent harness/plugin for OpenCode with multi-model orchestration, parallel..."
+    },
+    {
+      "id": "thedotmack--claude-mem",
+      "name": "claude-mem",
+      "score": 30916,
+      "score_type": "stars",
+      "tier": "S",
+      "verified": true,
+      "tags": [
+        "utilities"
+      ],
+      "one_liner": "Persistent memory compression system for Claude Code that captures tool usage..."
+    },
+    {
+      "id": "jumpserver--jumpserver",
+      "name": "jumpserver",
+      "score": 29936,
+      "score_type": "stars",
+      "tier": "S",
+      "verified": true,
+      "tags": [
+        "dev",
+        "dev-devops",
+        "dev-devops-k8s"
+      ],
+      "one_liner": "Open-source Privileged Access Management (PAM) platform providing secure acce..."
+    },
+    {
+      "id": "wshobson--agents",
+      "name": "agents",
+      "score": 29367,
+      "score_type": "stars",
+      "tier": "S",
+      "verified": true,
+      "tags": [
+        "productivity"
+      ],
+      "one_liner": "Production-ready Claude Code plugin marketplace with 72 plugins, 112 agents,..."
+    },
+    {
+      "id": "OpenTofu--opentofu",
+      "name": "opentofu",
+      "score": 27964,
+      "score_type": "stars",
+      "tier": "S",
+      "verified": true,
+      "tags": [
+        "dev",
+        "dev-devops",
+        "integrations"
+      ],
+      "one_liner": "Open-source Terraform fork for declarative cloud infrastructure management, b..."
+    },
+    {
+      "id": "microsoft--playwright-mcp",
+      "name": "Playwright MCP Server",
+      "score": 27675,
+      "score_type": "stars",
+      "tier": "S",
+      "verified": true,
+      "tags": [
+        "dev",
+        "dev-testing",
+        "dev-web"
+      ],
+      "one_liner": "MCP server providing browser automation via Playwright accessibility snapshot..."
+    },
+    {
+      "id": "github--github-mcp-server",
+      "name": "github-mcp-server",
+      "score": 27239,
+      "score_type": "stars",
+      "tier": "S",
+      "verified": true,
+      "tags": [
+        "data",
+        "data-ai",
+        "data-ai-nlp"
+      ],
+      "one_liner": "GitHub's official MCP Server connecting AI tools to GitHub for repo managemen..."
+    },
+    {
+      "id": "jlowin--fastmcp",
+      "name": "fastmcp",
+      "score": 23139,
+      "score_type": "stars",
+      "tier": "S",
+      "verified": true,
+      "tags": [
+        "dev",
+        "dev-web",
+        "dev-web-backend"
+      ],
+      "one_liner": "The fast, Pythonic way to build MCP servers and clients. Standard framework i..."
+    },
+    {
+      "id": "1Panel-dev--MaxKB",
+      "name": "MaxKB",
+      "score": 20166,
+      "score_type": "stars",
+      "tier": "S",
+      "verified": true,
+      "tags": [
+        "data",
+        "data-ai",
+        "data-ai-rag"
+      ],
+      "one_liner": "Open-source platform for building enterprise-grade AI agents with RAG pipelin..."
+    },
+    {
+      "id": "qwibitai--nanoclaw",
+      "name": "nanoclaw",
+      "score": 14543,
+      "score_type": "stars",
+      "tier": "S",
+      "verified": true,
+      "tags": [
+        "data",
+        "data-ai",
+        "integrations"
+      ],
+      "one_liner": "Lightweight AI assistant running Claude agents in isolated containers. Suppor..."
+    },
+    {
+      "id": "OthmanAdi--planning-with-files",
+      "name": "planning-with-files",
+      "score": 14540,
+      "score_type": "stars",
+      "tier": "S",
+      "verified": true,
+      "tags": [
+        "productivity",
+        "productivity-docs"
+      ],
+      "one_liner": "Claude Code skill implementing Manus-style persistent markdown planning with..."
+    },
+    {
+      "id": "GLips--Figma-Context-MCP",
+      "name": "Figma-Context-MCP",
+      "score": 13248,
+      "score_type": "stars",
+      "tier": "S",
+      "verified": true,
+      "tags": [
+        "integrations",
+        "utilities"
+      ],
+      "one_liner": "MCP server providing Figma layout/design data to AI coding agents. Fetches, s..."
+    },
+    {
+      "id": "tadata-org--fastapi_mcp",
+      "name": "fastapi_mcp",
+      "score": 11590,
+      "score_type": "stars",
+      "tier": "S",
+      "verified": true,
+      "tags": [
+        "dev",
+        "dev-devops",
+        "dev-web"
+      ],
+      "one_liner": "Expose FastAPI endpoints as MCP tools with built-in OAuth auth, ASGI transpor..."
+    },
+    {
+      "id": "NevaMind-AI--memU",
+      "name": "memU",
+      "score": 10658,
+      "score_type": "stars",
+      "tier": "S",
+      "verified": true,
+      "tags": [
+        "data-ai",
+        "productivity-notes",
+        "utilities-file"
+      ],
+      "one_liner": "Memory framework for 24/7 proactive AI agents. Structured file-system-like me..."
+    },
+    {
+      "id": "muratcankoylan--Agent-Skills-for-Context-Engineering",
+      "name": "Context Engineering",
+      "score": 10475,
+      "score_type": "stars",
+      "tier": "S",
+      "verified": true,
+      "tags": [
+        "dev",
+        "dev-agents"
+      ],
+      "one_liner": "Comprehensive collection of Agent Skills for context engineering, multi-agent..."
+    },
+    {
+      "id": "modelcontextprotocol--inspector",
+      "name": "inspector",
+      "score": 8795,
+      "score_type": "stars",
+      "tier": "A",
+      "verified": true,
+      "tags": [
+        "dev",
+        "dev-testing",
+        "dev-web"
+      ],
+      "one_liner": "Official MCP Inspector: visual developer tool for testing and debugging MCP s..."
+    },
+    {
+      "id": "awslabs--mcp",
+      "name": "mcp",
+      "score": 8246,
+      "score_type": "stars",
+      "tier": "A",
+      "verified": true,
+      "tags": [
+        "integrations",
+        "integrations-cloud",
+        "integrations-cloud-aws"
+      ],
+      "one_liner": "Official suite of MCP servers for AWS services by awslabs, providing speciali..."
+    },
+    {
+      "id": "mark3labs--mcp-go",
+      "name": "mcp-go",
+      "score": 8218,
+      "score_type": "stars",
+      "tier": "A",
+      "verified": true,
+      "tags": [
+        "data",
+        "data-ai",
+        "integrations"
+      ],
+      "one_liner": "Go implementation of the Model Context Protocol (MCP), enabling LLM integrati..."
+    },
+    {
+      "id": "LaurieWired--GhidraMCP",
+      "name": "GhidraMCP",
+      "score": 7712,
+      "score_type": "stars",
+      "tier": "A",
+      "verified": true,
+      "tags": [
+        "integrations",
+        "utilities"
+      ],
+      "one_liner": "MCP Server for Ghidra enabling LLMs to autonomously reverse engineer binaries..."
+    },
+    {
+      "id": "idosal--git-mcp",
+      "name": "git-mcp",
+      "score": 7649,
+      "score_type": "stars",
+      "tier": "A",
+      "verified": true,
+      "tags": [
+        "productivity",
+        "productivity-docs"
+      ],
+      "one_liner": "Free, open-source remote MCP server that transforms any GitHub project into a..."
+    },
+    {
+      "id": "lamda-1ac696c7",
+      "name": "lamda",
+      "score": 7622,
+      "score_type": "stars",
+      "tier": "A",
+      "verified": true,
+      "tags": [
+        "dev",
+        "dev-agents",
+        "productivity"
+      ],
+      "one_liner": "The most powerful Android RPA agent framework, next generation of mobile auto..."
+    },
+    {
+      "id": "AgentDeskAI--browser-tools-mcp",
+      "name": "browser-tools-mcp",
+      "score": 7093,
+      "score_type": "stars",
+      "tier": "A",
+      "verified": true,
+      "tags": [
+        "dev",
+        "dev-web",
+        "utilities"
+      ],
+      "one_liner": "MCP server + Chrome extension for browser monitoring: console logs, network t..."
+    },
+    {
+      "id": "unity-mcp-e1b80ade",
+      "name": "unity-mcp",
+      "score": 6547,
+      "score_type": "stars",
+      "tier": "A",
+      "verified": true,
+      "tags": [
+        "status-pass",
+        "dev",
+        "dev-gamedev"
+      ],
+      "one_liner": "A Unity MCP server that allows MCP clients like Claude Desktop or Cursor to p..."
+    },
+    {
+      "id": "modelcontextprotocol--registry",
+      "name": "registry",
+      "score": 6473,
+      "score_type": "stars",
+      "tier": "A",
+      "verified": true,
+      "tags": [
+        "integrations",
+        "utilities"
+      ],
+      "one_liner": "Community-driven registry service for MCP servers, providing app-store-like d..."
+    },
+    {
+      "id": "punkpeye--awesome-mcp-clients",
+      "name": "awesome-mcp-clients",
+      "score": 6300,
+      "score_type": "stars",
+      "tier": "A",
+      "verified": true,
+      "tags": [
+        "productivity",
+        "productivity-docs"
+      ],
+      "one_liner": "Curated awesome-list of Model Context Protocol (MCP) clients. Documentation-o..."
+    },
+    {
+      "id": "ida-pro-mcp-27c4973f",
+      "name": "ida-pro-mcp",
+      "score": 5793,
+      "score_type": "stars",
+      "tier": "A",
+      "verified": true,
+      "tags": [
+        "integrations",
+        "utilities"
+      ],
+      "one_liner": "MCP Server for IDA Pro."
+    },
+    {
+      "id": "firecrawl-mcp-server-467f3250",
+      "name": "firecrawl-mcp-server",
+      "score": 5649,
+      "score_type": "stars",
+      "tier": "A",
+      "verified": true,
+      "tags": [
+        "status-pass",
+        "data",
+        "data-ai"
+      ],
+      "one_liner": "Official Firecrawl MCP Server - Adds powerful web scraping to Cursor, Claude..."
+    },
+    {
+      "id": "klavis-43fe26b8",
+      "name": "klavis",
+      "score": 5645,
+      "score_type": "stars",
+      "tier": "A",
+      "verified": true,
+      "tags": [
+        "integrations"
+      ],
+      "one_liner": "Klavis AI (YC X25): Open Source MCP integration for AI applications"
+    },
+    {
+      "id": "claudecomputercommander-378803b2",
+      "name": "ClaudeComputerCommander",
+      "score": 5535,
+      "score_type": "stars",
+      "tier": "A",
+      "verified": true,
+      "tags": [
+        "utilities",
+        "utilities-media",
+        "utilities-search"
+      ],
+      "one_liner": "Run & Manage Long Processes - install, scrap, encode video, compile\r\nSearch &..."
+    },
+    {
+      "id": "claude-context-92028691",
+      "name": "claude-context",
+      "score": 5443,
+      "score_type": "stars",
+      "tier": "A",
+      "verified": true,
+      "tags": [
+        "utilities",
+        "utilities-search"
+      ],
+      "one_liner": "Claude Context is an MCP plugin that adds semantic code search to Claude Code..."
+    },
+    {
+      "id": "snyk-0a9b70bc",
+      "name": "Snyk",
+      "score": 5440,
+      "score_type": "stars",
+      "tier": "A",
+      "verified": true,
+      "tags": [
+        "status-pass",
+        "data",
+        "data-ai"
+      ],
+      "one_liner": "Enhance security posture by embedding Snyk vulnerability scanning directly in..."
+    },
+    {
+      "id": "whatsapp-mcp-40a1d651",
+      "name": "whatsapp-mcp",
+      "score": 5353,
+      "score_type": "stars",
+      "tier": "A",
+      "verified": true,
+      "tags": [
+        "integrations",
+        "integrations-messaging"
+      ],
+      "one_liner": "WhatsApp MCP server"
+    },
+    {
+      "id": "viper-10a53d66",
+      "name": "Viper",
+      "score": 4973,
+      "score_type": "stars",
+      "tier": "A",
+      "verified": true,
+      "tags": [
+        "data-ai"
+      ],
+      "one_liner": "Adversary simulation and Red teaming platform with AI"
+    },
+    {
+      "id": "xcodebuildmcp-c8de0f2b",
+      "name": "XcodeBuildMCP",
+      "score": 4449,
+      "score_type": "stars",
+      "tier": "A",
+      "verified": true,
+      "tags": [
+        "integrations"
+      ],
+      "one_liner": "A Model Context Protocol (MCP) server that provides Xcode-related tools for i..."
+    },
+    {
+      "id": "windows-mcp-aa607c9f",
+      "name": "Windows-MCP",
+      "score": 4425,
+      "score_type": "stars",
+      "tier": "A",
+      "verified": true,
+      "tags": [
+        "productivity"
+      ],
+      "one_liner": "Lightweight MCP Server for automating Windows OS in the easy way."
+    },
+    {
+      "id": "core-52045eb4",
+      "name": "core",
+      "score": 3606,
+      "score_type": "stars",
+      "tier": "A",
+      "verified": true,
+      "tags": [
+        "integrations",
+        "utilities"
+      ],
+      "one_liner": "A framework helps you quickly build AI Native IDE products. MCP Client, suppo..."
+    },
+    {
+      "id": "container-use-bc7daff5",
+      "name": "container-use",
+      "score": 3579,
+      "score_type": "stars",
+      "tier": "A",
+      "verified": true,
+      "tags": [
+        "status-pass",
+        "data",
+        "data-ai"
+      ],
+      "one_liner": "MCP server to add container superpowers to your AI agent"
+    },
+    {
+      "id": "container-use-d2e99f05",
+      "name": "container-use",
+      "score": 3570,
+      "score_type": "stars",
+      "tier": "A",
+      "verified": true,
+      "tags": [
+        "data",
+        "data-ai",
+        "dev"
+      ],
+      "one_liner": "MCP server to add container superpowers to your AI agent"
+    },
+    {
+      "id": "mobile-mcp-45aa5582",
+      "name": "mobile-mcp",
+      "score": 3550,
+      "score_type": "stars",
+      "tier": "A",
+      "verified": true,
+      "tags": [
+        "dev",
+        "dev-mobile",
+        "dev-testing"
+      ],
+      "one_liner": "MCP server for iOS and Android Mobile Development, Automation and Testing"
+    },
+    {
+      "id": "mcp-context-forge-f1f665f6",
+      "name": "mcp-context-forge",
+      "score": 3329,
+      "score_type": "stars",
+      "tier": "A",
+      "verified": true,
+      "tags": [
+        "data",
+        "data-ai",
+        "dev"
+      ],
+      "one_liner": "A Model Context Protocol (MCP) Gateway. Serves as a central management point..."
+    },
+    {
+      "id": "fastmcp-b8853d85",
+      "name": "fastmcp",
+      "score": 2959,
+      "score_type": "stars",
+      "tier": "A",
+      "verified": true,
+      "tags": [
+        "integrations",
+        "utilities"
+      ],
+      "one_liner": "A TypeScript framework for building MCP servers."
+    },
+    {
+      "id": "likec4-2a279f32",
+      "name": "LikeC4",
+      "score": 2781,
+      "score_type": "stars",
+      "tier": "A",
+      "verified": true,
+      "tags": [
+        "data",
+        "data-ai",
+        "data-ai-nlp"
+      ],
+      "one_liner": "LikeC4 MCP Server provides knowledge of your LikeC4 model to LLMs.\nThis enabl..."
+    },
+    {
+      "id": "solon-223cc44c",
+      "name": "solon",
+      "score": 2705,
+      "score_type": "stars",
+      "tier": "A",
+      "verified": true,
+      "tags": [
+        "dev",
+        "dev-web",
+        "dev-web-backend"
+      ],
+      "one_liner": "🔥 Java enterprise application development framework for full scenario: Restra..."
+    },
+    {
+      "id": "mcp-supabase-95603cab",
+      "name": "mcp-supabase",
+      "score": 2486,
+      "score_type": "stars",
+      "tier": "A",
+      "verified": true,
+      "tags": [
+        "data",
+        "data-db"
+      ],
+      "one_liner": "A collection of MCP servers that connect LLMs to Supabase"
+    },
+    {
+      "id": "peekaboo-7a0ef95f",
+      "name": "peekaboo",
+      "score": 2383,
+      "score_type": "stars",
+      "tier": "A",
+      "verified": true,
+      "tags": [
+        "utilities"
+      ],
+      "one_liner": "## What Peekaboo Can Do\n\nPeekaboo provides three main tools that give AI agen..."
+    },
+    {
+      "id": "arxiv-mcp-server-6e4944dd",
+      "name": "arxiv-mcp-server",
+      "score": 2222,
+      "score_type": "stars",
+      "tier": "A",
+      "verified": true,
+      "tags": [
+        "integrations",
+        "utilities"
+      ],
+      "one_liner": "A Model Context Protocol server for searching and analyzing arXiv papers"
+    },
+    {
+      "id": "postgres-mcp-23d75fe2",
+      "name": "postgres-mcp",
+      "score": 2188,
+      "score_type": "stars",
+      "tier": "A",
+      "verified": true,
+      "tags": [
+        "data",
+        "data-db"
+      ],
+      "one_liner": "Postgres MCP Pro provides configurable read/write access and performance anal..."
+    },
+    {
+      "id": "dbhub-3f995b9f",
+      "name": "dbhub",
+      "score": 2177,
+      "score_type": "stars",
+      "tier": "A",
+      "verified": true,
+      "tags": [
+        "data",
+        "data-db"
+      ],
+      "one_liner": "Universal database MCP server connecting to MySQL, PostgreSQL, Oracle, SQL Se..."
+    },
+    {
+      "id": "papersgpt-for-zotero-796c9dfd",
+      "name": "papersgpt-for-zotero",
+      "score": 2130,
+      "score_type": "stars",
+      "tier": "A",
+      "verified": true,
+      "tags": [
+        "data",
+        "data-ai",
+        "integrations"
+      ],
+      "one_liner": "PapersGPT is a powerful Zotero plugin that seamlessly embeds state-of-the-art..."
+    },
+    {
+      "id": "brightdata-mcp-96eccf50",
+      "name": "brightdata-mcp",
+      "score": 2060,
+      "score_type": "stars",
+      "tier": "A",
+      "verified": true,
+      "tags": [
+        "integrations",
+        "utilities"
+      ],
+      "one_liner": "A powerful Model Context Protocol (MCP) server that provides an all-in-one so..."
+    },
+    {
+      "id": "mcp-directory-4366e9ee",
+      "name": "mcp-directory",
+      "score": 1969,
+      "score_type": "stars",
+      "tier": "A",
+      "verified": true,
+      "tags": [
+        "integrations",
+        "utilities"
+      ],
+      "one_liner": "directory for Awesome MCP Servers"
+    },
+    {
+      "id": "office-word-mcp-server-2b945011",
+      "name": "Office-Word-MCP-Server",
+      "score": 1634,
+      "score_type": "stars",
+      "tier": "A",
+      "verified": true,
+      "tags": [
+        "productivity",
+        "productivity-docs"
+      ],
+      "one_liner": "A Model Context Protocol (MCP) server for creating, reading, and manipulating..."
+    },
+    {
+      "id": "anyquery-887a1dbd",
+      "name": "anyquery",
+      "score": 1626,
+      "score_type": "stars",
+      "tier": "A",
+      "verified": true,
+      "tags": [
+        "integrations"
+      ],
+      "one_liner": "Connect to more than 40 apps with a single binary"
+    },
+    {
+      "id": "toolhive-0a964deb",
+      "name": "toolhive",
+      "score": 1618,
+      "score_type": "stars",
+      "tier": "A",
+      "verified": true,
+      "tags": [
+        "integrations",
+        "utilities"
+      ],
+      "one_liner": "ToolHive makes deploying MCP servers easy, secure and fun"
+    },
+    {
+      "id": "mcp-scan-97994414",
+      "name": "mcp-scan",
+      "score": 1585,
+      "score_type": "stars",
+      "tier": "A",
+      "verified": true,
+      "tags": [
+        "security",
+        "security-scanning",
+        "utilities"
+      ],
+      "one_liner": "A security scanning tool for MCP servers"
+    },
+    {
+      "id": "google-workspace-mcp-0afbbdc6",
+      "name": "google_workspace_mcp",
+      "score": 1535,
+      "score_type": "stars",
+      "tier": "A",
+      "verified": true,
+      "tags": [
+        "integrations",
+        "integrations-google",
+        "productivity"
+      ],
+      "one_liner": "Comprehensive, highly performant Google Workspace Streamable HTTP & SSE MCP S..."
+    },
+    {
+      "id": "mcptools-4e29f4f0",
+      "name": "mcptools",
+      "score": 1493,
+      "score_type": "stars",
+      "tier": "A",
+      "verified": true,
+      "tags": [
+        "integrations",
+        "utilities"
+      ],
+      "one_liner": "A command-line interface for interacting with MCP (Model Context Protocol) se..."
+    },
+    {
+      "id": "ops-3166cb60",
+      "name": "ops",
+      "score": 1466,
+      "score_type": "stars",
+      "tier": "A",
+      "verified": true,
+      "tags": [
+        "integrations",
+        "integrations-cloud",
+        "integrations-cloud-aws"
+      ],
+      "one_liner": "OPS is a MCP server that allows you to build, deploy and orchestrate unikerne..."
+    },
+    {
+      "id": "mcp-language-server-2345cb2d",
+      "name": "mcp-language-server",
+      "score": 1454,
+      "score_type": "stars",
+      "tier": "A",
+      "verified": true,
+      "tags": [
+        "integrations",
+        "utilities"
+      ],
+      "one_liner": "mcp-language-server gives MCP enabled clients access semantic tools like get..."
+    },
+    {
+      "id": "unreal-mcp-62dc0b06",
+      "name": "unreal-mcp",
+      "score": 1440,
+      "score_type": "stars",
+      "tier": "A",
+      "verified": true,
+      "tags": [
+        "data",
+        "data-ai",
+        "data-ai-nlp"
+      ],
+      "one_liner": "Enable AI assistant clients like Cursor, Windsurf and Claude Desktop to contr..."
+    },
+    {
+      "id": "slack-mcp-server-487ce5b7",
+      "name": "slack-mcp-server",
+      "score": 1392,
+      "score_type": "stars",
+      "tier": "A",
+      "verified": true,
+      "tags": [
+        "integrations",
+        "integrations-slack",
+        "productivity"
+      ],
+      "one_liner": "The most powerful MCP Slack Server with Stdio and SSE transports, Proxy suppo..."
+    },
+    {
+      "id": "google-analytics-mcp-server-84e30b6f",
+      "name": "Google Analytics MCP Server",
+      "score": 1346,
+      "score_type": "stars",
+      "tier": "A",
+      "verified": true,
+      "tags": [
+        "integrations",
+        "integrations-google"
+      ],
+      "one_liner": "Official Google Analytics MCP Server"
+    },
+    {
+      "id": "mcp-server-kubernetes-740d17af",
+      "name": "mcp-server-kubernetes",
+      "score": 1323,
+      "score_type": "stars",
+      "tier": "A",
+      "verified": true,
+      "tags": [
+        "dev",
+        "dev-devops",
+        "dev-devops-k8s"
+      ],
+      "one_liner": "MCP Server for kubernetes management commands"
+    },
+    {
+      "id": "mcp-obsidian-03666543",
+      "name": "mcp-obsidian",
+      "score": 1310,
+      "score_type": "stars",
+      "tier": "A",
+      "verified": true,
+      "tags": [
+        "productivity",
+        "productivity-docs",
+        "utilities"
+      ],
+      "one_liner": "A connector for Claude Desktop to read and search an Obsidian vault."
+    },
+    {
+      "id": "awesome-hacking-lists-d9a5d7a6",
+      "name": "awesome-hacking-lists",
+      "score": 1292,
+      "score_type": "stars",
+      "tier": "A",
+      "verified": true,
+      "tags": [
+        "dev",
+        "dev-testing",
+        "productivity"
+      ],
+      "one_liner": "A curated collection of top-tier penetration testing tools and productivity u..."
+    },
+    {
+      "id": "jadx-ai-mcp-5c5bc36b",
+      "name": "jadx-ai-mcp",
+      "score": 1290,
+      "score_type": "stars",
+      "tier": "A",
+      "verified": true,
+      "tags": [
+        "data",
+        "data-ai"
+      ],
+      "one_liner": "Plugin for JADX to integrate MCP server"
+    },
+    {
+      "id": "minimax-mcp-server-09a1082f",
+      "name": "MiniMax MCP Server",
+      "score": 1274,
+      "score_type": "stars",
+      "tier": "A",
+      "verified": true,
+      "tags": [
+        "data",
+        "data-ai",
+        "data-ai-audio"
+      ],
+      "one_liner": "Enables MCP clients like Claude Desktop and Cursor to interact with MiniMax A..."
+    },
+    {
+      "id": "damn-vulnerable-mcp-server-7a371454",
+      "name": "damn-vulnerable-MCP-server",
+      "score": 1258,
+      "score_type": "stars",
+      "tier": "A",
+      "verified": true,
+      "tags": [
+        "integrations",
+        "utilities"
+      ],
+      "one_liner": "Damn Vulnerable MCP Server"
+    },
+    {
+      "id": "web-agent-qa-c07eea79",
+      "name": "web-agent-qa",
+      "score": 1235,
+      "score_type": "stars",
+      "tier": "A",
+      "verified": true,
+      "tags": [
+        "integrations",
+        "utilities"
+      ],
+      "one_liner": "An MCP server that evaluates web applications."
+    },
+    {
+      "id": "mcp-server-mysql-daebc53f",
+      "name": "mcp-server-mysql",
+      "score": 1230,
+      "score_type": "stars",
+      "tier": "A",
+      "verified": true,
+      "tags": [
+        "data",
+        "data-db"
+      ],
+      "one_liner": "A Model Context Protocol server that provides read-only access to MySQL datab..."
+    },
+    {
+      "id": "npcpy-d925d302",
+      "name": "npcpy",
+      "score": 1210,
+      "score_type": "stars",
+      "tier": "A",
+      "verified": true,
+      "tags": [
+        "dev",
+        "utilities"
+      ],
+      "one_liner": "The AI toolkit for the AI developer"
+    },
+    {
+      "id": "azure-mcp-184c5851",
+      "name": "azure-mcp",
+      "score": 1204,
+      "score_type": "stars",
+      "tier": "A",
+      "verified": true,
+      "tags": [
+        "integrations",
+        "integrations-cloud",
+        "integrations-cloud-azure"
+      ],
+      "one_liner": "The Azure MCP Server, bringing the power of Azure to your agents."
+    },
+    {
+      "id": "kubernetes-mcp-server-083ef26a",
+      "name": "kubernetes-mcp-server",
+      "score": 1202,
+      "score_type": "stars",
+      "tier": "A",
+      "verified": true,
+      "tags": [
+        "dev",
+        "dev-devops",
+        "dev-devops-k8s"
+      ],
+      "one_liner": "Model Context Protocol (MCP) server for Kubernetes and OpenShift"
+    },
+    {
+      "id": "mcp-golang-29dfa9fc",
+      "name": "mcp-golang",
+      "score": 1196,
+      "score_type": "stars",
+      "tier": "A",
+      "verified": true,
+      "tags": [
+        "dev",
+        "dev-web",
+        "dev-web-backend"
+      ],
+      "one_liner": "Write Model Context Protocol servers in few lines of go code. Docs at"
+    },
+    {
+      "id": "imcp-554e254a",
+      "name": "iMCP",
+      "score": 1170,
+      "score_type": "stars",
+      "tier": "A",
+      "verified": true,
+      "tags": [
+        "productivity",
+        "productivity-comm"
+      ],
+      "one_liner": "A macOS app that provides an MCP server to your Messages, Contacts, Reminders..."
+    },
+    {
+      "id": "mcp-server-chatsum-24cbd4a1",
+      "name": "mcp-server-chatsum",
+      "score": 1032,
+      "score_type": "stars",
+      "tier": "A",
+      "verified": true,
+      "tags": [
+        "data",
+        "data-ai",
+        "data-ai-nlp"
+      ],
+      "one_liner": "summarize wechat messages"
+    },
+    {
+      "id": "mcp-server-chatsum-ae962098",
+      "name": "mcp-server-chatsum",
+      "score": 1032,
+      "score_type": "stars",
+      "tier": "A",
+      "verified": true,
+      "tags": [
+        "data",
+        "data-ai",
+        "data-ai-nlp"
+      ],
+      "one_liner": "summarize chat message"
+    },
+    {
+      "id": "ros-mcp-server-cdd227a3",
+      "name": "ros_mcp_server",
+      "score": 1031,
+      "score_type": "stars",
+      "tier": "A",
+      "verified": true,
+      "tags": [
+        "dev",
+        "dev-web",
+        "dev-web-frontend"
+      ],
+      "one_liner": "The ROS MCP Server is designed to facilitate the control of robotic movement..."
+    },
+    {
+      "id": "openops-6578e739",
+      "name": "openops",
+      "score": 994,
+      "score_type": "stars",
+      "tier": "B",
+      "verified": true,
+      "tags": [
+        "productivity"
+      ],
+      "one_liner": "The batteries-included, No-Code FinOps automation platform, with the AI you t..."
+    },
+    {
+      "id": "cloudbase-ai-toolkit-dcb36dfe",
+      "name": "cloudbase-ai-toolkit",
+      "score": 960,
+      "score_type": "stars",
+      "tier": "B",
+      "verified": true,
+      "tags": [
+        "dev",
+        "dev-web",
+        "dev-web-backend"
+      ],
+      "one_liner": "为微信小程序和全栈应用提供一站式后端服务 One-stop backend services for WeChat Mini-Programs and f..."
+    },
+    {
+      "id": "mcp-jetbrains-6f0177e4",
+      "name": "mcp-jetbrains",
+      "score": 943,
+      "score_type": "stars",
+      "tier": "B",
+      "verified": true,
+      "tags": [
+        "data",
+        "data-ai"
+      ],
+      "one_liner": "A model context protocol server to work with JetBrains IDEs: IntelliJ, PyChar..."
+    },
+    {
+      "id": "pixelle-mcp-7d0abdc3",
+      "name": "pixelle-mcp",
+      "score": 926,
+      "score_type": "stars",
+      "tier": "B",
+      "verified": true,
+      "tags": [
+        "data",
+        "data-ai",
+        "data-ai-audio"
+      ],
+      "one_liner": "An omnimodal AIGC framework that seamlessly converts ComfyUI workflows into M..."
+    },
+    {
+      "id": "atlas-mcp-server-73c5cabf",
+      "name": "atlas-mcp-server",
+      "score": 924,
+      "score_type": "stars",
+      "tier": "B",
+      "verified": true,
+      "tags": [
+        "integrations",
+        "utilities"
+      ],
+      "one_liner": "Atlas MCP Server"
+    },
+    {
+      "id": "agentic-radar-b86020f9",
+      "name": "agentic-radar",
+      "score": 915,
+      "score_type": "stars",
+      "tier": "B",
+      "verified": true,
+      "tags": [
+        "data",
+        "data-ai",
+        "security"
+      ],
+      "one_liner": "A security scanner for your LLM agentic workflows"
+    },
+    {
+      "id": "jupyter-mcp-server-6832e1ad",
+      "name": "jupyter-mcp-server",
+      "score": 908,
+      "score_type": "stars",
+      "tier": "B",
+      "verified": true,
+      "tags": [
+        "data",
+        "data-analysis"
+      ],
+      "one_liner": "🪐 ✨ Model Context Protocol (MCP) Server for Jupyter."
+    },
+    {
+      "id": "mcp-neo4j-a62aa8d6",
+      "name": "mcp-neo4j",
+      "score": 908,
+      "score_type": "stars",
+      "tier": "B",
+      "verified": true,
+      "tags": [
+        "data",
+        "data-db",
+        "data-db-graph"
+      ],
+      "one_liner": "Model Context Protocol with Neo4j"
+    },
+    {
+      "id": "mcp-framework-a210231d",
+      "name": "mcp-framework",
+      "score": 903,
+      "score_type": "stars",
+      "tier": "B",
+      "verified": true,
+      "tags": [
+        "integrations",
+        "utilities"
+      ],
+      "one_liner": "A framework for writing MCP (Model Context Protocol) servers in Typescript"
+    },
+    {
+      "id": "openapi-mcp-server-4df63d35",
+      "name": "openapi-mcp-server",
+      "score": 878,
+      "score_type": "stars",
+      "tier": "B",
+      "verified": true,
+      "tags": [
+        "integrations"
+      ],
+      "one_liner": "Allow AI to wade through complex OpenAPIs using Simple Language"
+    },
+    {
+      "id": "ai-gateway-82dd1685",
+      "name": "AI-Gateway",
+      "score": 873,
+      "score_type": "stars",
+      "tier": "B",
+      "verified": true,
+      "tags": [
+        "data",
+        "data-ai",
+        "integrations"
+      ],
+      "one_liner": "APIM ❤️ AI - This repo contains experiments on Azure API Management's AI capa..."
+    },
+    {
+      "id": "mcpjungle-9faab14a",
+      "name": "MCPJungle",
+      "score": 872,
+      "score_type": "stars",
+      "tier": "B",
+      "verified": true,
+      "tags": [
+        "integrations",
+        "utilities"
+      ],
+      "one_liner": "Self-hosted MCP Server registry for AI agents"
+    },
+    {
+      "id": "memory-bank-mcp-37652574",
+      "name": "memory-bank-mcp",
+      "score": 866,
+      "score_type": "stars",
+      "tier": "B",
+      "verified": true,
+      "tags": [
+        "integrations",
+        "utilities"
+      ],
+      "one_liner": "A Model Context Protocol (MCP) server implementation for remote memory bank m..."
+    },
+    {
+      "id": "excel-mcp-server-01bd9fc1",
+      "name": "excel-mcp-server",
+      "score": 853,
+      "score_type": "stars",
+      "tier": "B",
+      "verified": true,
+      "tags": [
+        "integrations",
+        "utilities"
+      ],
+      "one_liner": "A Model Context Protocol (MCP) server that reads and writes MS Excel data"
+    },
+    {
+      "id": "yokai-f2625fb6",
+      "name": "yokai",
+      "score": 822,
+      "score_type": "stars",
+      "tier": "B",
+      "verified": true,
+      "tags": [
+        "dev",
+        "dev-web",
+        "dev-web-backend"
+      ],
+      "one_liner": "Simple, modular, and observable Go framework for backend applications."
+    },
+    {
+      "id": "supabase-mcp-server-038601b0",
+      "name": "supabase-mcp-server",
+      "score": 813,
+      "score_type": "stars",
+      "tier": "B",
+      "verified": true,
+      "tags": [
+        "data",
+        "data-db",
+        "integrations"
+      ],
+      "one_liner": "Query MCP enables end-to-end management of Supabase via chat interface: read..."
+    },
+    {
+      "id": "golf-fb000db4",
+      "name": "golf",
+      "score": 811,
+      "score_type": "stars",
+      "tier": "B",
+      "verified": true,
+      "tags": [
+        "data",
+        "data-ai",
+        "dev"
+      ],
+      "one_liner": "Production-Ready MCP Server Framework • Build, deploy & scale secure AI agent..."
+    },
+    {
+      "id": "vectorcode-17b77894",
+      "name": "VectorCode",
+      "score": 808,
+      "score_type": "stars",
+      "tier": "B",
+      "verified": true,
+      "tags": [
+        "data",
+        "data-ai",
+        "utilities"
+      ],
+      "one_liner": "A code repository indexing tool to supercharge your LLM experience."
+    },
+    {
+      "id": "browser-use-mcp-server-577325d5",
+      "name": "browser-use-mcp-server",
+      "score": 806,
+      "score_type": "stars",
+      "tier": "B",
+      "verified": true,
+      "tags": [
+        "dev",
+        "dev-web"
+      ],
+      "one_liner": "Browse the web, directly from Cursor etc."
+    },
+    {
+      "id": "code-index-mcp-3fa62a79",
+      "name": "code-index-mcp",
+      "score": 792,
+      "score_type": "stars",
+      "tier": "B",
+      "verified": true,
+      "tags": [
+        "utilities",
+        "utilities-search"
+      ],
+      "one_liner": "A Model Context Protocol (MCP) server that helps large language models index,..."
+    },
+    {
+      "id": "vibetest-use-72aa9faf",
+      "name": "vibetest-use",
+      "score": 768,
+      "score_type": "stars",
+      "tier": "B",
+      "verified": true,
+      "tags": [
+        "dev",
+        "dev-testing",
+        "dev-web"
+      ],
+      "one_liner": "Vibetest MCP - automated QA testing using Browser-Use agents"
+    },
+    {
+      "id": "context-portal-5b42c2d8",
+      "name": "context-portal",
+      "score": 750,
+      "score_type": "stars",
+      "tier": "B",
+      "verified": true,
+      "tags": [
+        "data",
+        "data-ai",
+        "data-ai-rag"
+      ],
+      "one_liner": "Context Portal (ConPort): A memory bank MCP server building a project-specifi..."
+    },
+    {
+      "id": "12306-mcp-6e97232c",
+      "name": "12306-mcp",
+      "score": 728,
+      "score_type": "stars",
+      "tier": "B",
+      "verified": true,
+      "tags": [
+        "utilities",
+        "utilities-search"
+      ],
+      "one_liner": "This is a 12306 ticket search server based on the Model Context Protocol (MCP)."
+    },
+    {
+      "id": "mcp-google-sheets-cd383f77",
+      "name": "mcp-google-sheets",
+      "score": 699,
+      "score_type": "stars",
+      "tier": "B",
+      "verified": true,
+      "tags": [
+        "integrations",
+        "integrations-google"
+      ],
+      "one_liner": "This MCP server integrates with your Google Drive and Google Sheets, to enabl..."
+    },
+    {
+      "id": "howtocook-mcp-f0f77b57",
+      "name": "howtocook-mcp",
+      "score": 692,
+      "score_type": "stars",
+      "tier": "B",
+      "verified": true,
+      "tags": [
+        "integrations",
+        "utilities"
+      ],
+      "one_liner": "基于Anduin2017 / HowToCook （程序员在家做饭指南）的mcp server，帮你推荐菜谱、规划膳食，解决“今天吃什么“的世纪难题；\nB..."
+    },
+    {
+      "id": "brave-search-mcp-server-ed499903",
+      "name": "Brave Search MCP Server",
+      "score": 687,
+      "score_type": "stars",
+      "tier": "B",
+      "verified": true,
+      "tags": [
+        "data",
+        "data-ai",
+        "data-ai-nlp"
+      ],
+      "one_liner": "An MCP implementation that integrates the Brave Search API, providing compreh..."
+    },
+    {
+      "id": "mcp-server-docker-1a91e7d3",
+      "name": "mcp-server-docker",
+      "score": 677,
+      "score_type": "stars",
+      "tier": "B",
+      "verified": true,
+      "tags": [
+        "dev",
+        "dev-devops",
+        "dev-devops-docker"
+      ],
+      "one_liner": "MCP server for Docker"
+    },
+    {
+      "id": "android-mcp-server-847ca272",
+      "name": "android-mcp-server",
+      "score": 670,
+      "score_type": "stars",
+      "tier": "B",
+      "verified": true,
+      "tags": [
+        "integrations",
+        "utilities"
+      ],
+      "one_liner": "An MCP server that provides control over Android devices via adb"
+    },
+    {
+      "id": "wcgw-afee020a",
+      "name": "wcgw",
+      "score": 643,
+      "score_type": "stars",
+      "tier": "B",
+      "verified": true,
+      "tags": [
+        "dev",
+        "dev-desktop"
+      ],
+      "one_liner": "Shell and coding agent on claude desktop app"
+    },
+    {
+      "id": "obsidian-mcp-c2fc82b6",
+      "name": "obsidian-mcp",
+      "score": 640,
+      "score_type": "stars",
+      "tier": "B",
+      "verified": true,
+      "tags": [
+        "productivity",
+        "productivity-docs"
+      ],
+      "one_liner": "A simple MCP server for Obsidian"
+    },
+    {
+      "id": "yargi-mcp-2a87f57e",
+      "name": "yargi-mcp",
+      "score": 614,
+      "score_type": "stars",
+      "tier": "B",
+      "verified": true,
+      "tags": [
+        "integrations",
+        "utilities"
+      ],
+      "one_liner": "MCP Server For Turkish Legal Databases"
+    },
+    {
+      "id": "mcp-link-2aa6c787",
+      "name": "mcp-link",
+      "score": 600,
+      "score_type": "stars",
+      "tier": "B",
+      "verified": true,
+      "tags": [
+        "integrations",
+        "utilities"
+      ],
+      "one_liner": "Convert Any OpenAPI V3 API to MCP Server"
+    },
+    {
+      "id": "awesome-web3-mcp-servers-053f3ffd",
+      "name": "awesome-web3-mcp-servers",
+      "score": 595,
+      "score_type": "stars",
+      "tier": "B",
+      "verified": true,
+      "tags": [
+        "security",
+        "security-crypto"
+      ],
+      "one_liner": "DeMCP is the first Decentralized MCP network, offering SSE proxies for MCP se..."
+    },
+    {
+      "id": "mcp-nest-6a515a97",
+      "name": "MCP-Nest",
+      "score": 584,
+      "score_type": "stars",
+      "tier": "B",
+      "verified": true,
+      "tags": [
+        "integrations",
+        "utilities"
+      ],
+      "one_liner": "A NestJS module to effortlessly create Model Context Protocol (MCP) servers f..."
+    },
+    {
+      "id": "mcp-adapter-14432921",
+      "name": "mcp-adapter",
+      "score": 566,
+      "score_type": "stars",
+      "tier": "B",
+      "verified": true,
+      "tags": [
+        "dev",
+        "dev-web",
+        "dev-web-frontend"
+      ],
+      "one_liner": "Easily spin up an MCP Server on Next.js, Nuxt.js, Svelte.js, and more"
+    },
+    {
+      "id": "mcp-sequentialthinking-tools-7ba2c6da",
+      "name": "mcp-sequentialthinking-tools",
+      "score": 566,
+      "score_type": "stars",
+      "tier": "B",
+      "verified": true,
+      "tags": [
+        "utilities"
+      ],
+      "one_liner": "🧠 An adaptation of the MCP Sequential Thinking Server to guide tool usage. Th..."
+    },
+    {
+      "id": "mcp-server-neon-9f824259",
+      "name": "mcp-server-neon",
+      "score": 554,
+      "score_type": "stars",
+      "tier": "B",
+      "verified": true,
+      "tags": [
+        "integrations"
+      ],
+      "one_liner": "MCP server for interacting with Neon Management API and databases"
+    },
+    {
+      "id": "iterm-mcp-bcd5cc8d",
+      "name": "iterm-mcp",
+      "score": 529,
+      "score_type": "stars",
+      "tier": "B",
+      "verified": true,
+      "tags": [
+        "integrations",
+        "utilities"
+      ],
+      "one_liner": "A Model Context Protocol server that executes commands in the current iTerm s..."
+    },
+    {
+      "id": "cli-39ca2c14",
+      "name": "cli",
+      "score": 525,
+      "score_type": "stars",
+      "tier": "B",
+      "verified": true,
+      "tags": [
+        "integrations",
+        "utilities"
+      ],
+      "one_liner": "Smithery CLI MCP server installer"
+    },
+    {
+      "id": "alpaca-mcp-server-0b18ac25",
+      "name": "alpaca-mcp-server",
+      "score": 524,
+      "score_type": "stars",
+      "tier": "B",
+      "verified": true,
+      "tags": [
+        "data",
+        "data-ai",
+        "data-ai-nlp"
+      ],
+      "one_liner": "With Alpaca's MCP server, you can:\r\n* Build simple and complex trading strate..."
+    },
+    {
+      "id": "line-bot-mcp-server-47743531",
+      "name": "line-bot-mcp-server",
+      "score": 524,
+      "score_type": "stars",
+      "tier": "B",
+      "verified": true,
+      "tags": [
+        "data",
+        "data-ai",
+        "integrations"
+      ],
+      "one_liner": "MCP server that integrates the LINE Messaging API to connect an AI Agent to t..."
+    },
+    {
+      "id": "openapi-mcp-generator-49ba1e7b",
+      "name": "openapi-mcp-generator",
+      "score": 521,
+      "score_type": "stars",
+      "tier": "B",
+      "verified": true,
+      "tags": [
+        "utilities"
+      ],
+      "one_liner": "A tool that converts OpenAPI specifications to MCP server"
+    },
+    {
+      "id": "pdf-reader-mcp-863e47ea",
+      "name": "pdf-reader-mcp",
+      "score": 520,
+      "score_type": "stars",
+      "tier": "B",
+      "verified": true,
+      "tags": [
+        "dev",
+        "dev-web",
+        "dev-web-backend"
+      ],
+      "one_liner": "An MCP server built with Node.js/TypeScript that allows AI agents to securely..."
+    },
+    {
+      "id": "flux-operator-bb6f812f",
+      "name": "flux-operator",
+      "score": 505,
+      "score_type": "stars",
+      "tier": "B",
+      "verified": true,
+      "tags": [
+        "dev",
+        "dev-devops",
+        "dev-devops-k8s"
+      ],
+      "one_liner": "Flux Operator is a Kubernetes controller for managing the lifecycle of Flux CD"
+    },
+    {
+      "id": "mcp-youtube-9abb87fc",
+      "name": "mcp-youtube",
+      "score": 495,
+      "score_type": "stars",
+      "tier": "B",
+      "verified": true,
+      "tags": [
+        "integrations",
+        "integrations-social"
+      ],
+      "one_liner": "A Model-Context Protocol Server for YouTube"
+    },
+    {
+      "id": "mcp-kali-server-cd83fb77",
+      "name": "MCP-Kali-Server",
+      "score": 493,
+      "score_type": "stars",
+      "tier": "B",
+      "verified": true,
+      "tags": [
+        "data",
+        "data-ai"
+      ],
+      "one_liner": "MCP configuration to connect AI agent to a Linux machine."
+    },
+    {
+      "id": "n8n-workflow-builder-88eaf7ab",
+      "name": "n8n-workflow-builder",
+      "score": 489,
+      "score_type": "stars",
+      "tier": "B",
+      "verified": true,
+      "tags": [
+        "productivity"
+      ],
+      "one_liner": "MCP server for programmatically creating and managing n8n workflows"
+    },
+    {
+      "id": "mcp-searxng-934cab72",
+      "name": "mcp-searxng",
+      "score": 485,
+      "score_type": "stars",
+      "tier": "B",
+      "verified": true,
+      "tags": [
+        "integrations",
+        "utilities"
+      ],
+      "one_liner": "MCP Server for SearXNG"
+    },
+    {
+      "id": "create-python-server-d3a7806d",
+      "name": "create-python-server",
+      "score": 477,
+      "score_type": "stars",
+      "tier": "B",
+      "verified": true,
+      "tags": [
+        "dev",
+        "dev-web",
+        "dev-web-backend"
+      ],
+      "one_liner": "Create a Python MCP server"
+    },
+    {
+      "id": "mcp-gsuite-a91d2433",
+      "name": "mcp-gsuite",
+      "score": 475,
+      "score_type": "stars",
+      "tier": "B",
+      "verified": true,
+      "tags": [
+        "integrations",
+        "utilities"
+      ],
+      "one_liner": "MCP Server to interact with Google Gsuite prodcuts"
+    },
+    {
+      "id": "vibe-check-mcp-server-e3ed9d4b",
+      "name": "vibe-check-mcp-server",
+      "score": 473,
+      "score_type": "stars",
+      "tier": "B",
+      "verified": true,
+      "tags": [
+        "data",
+        "data-ai",
+        "integrations"
+      ],
+      "one_liner": "The definitive Vibe Coder's sanity check MCP server: Prevent cascading errors..."
+    },
+    {
+      "id": "mcp-remote-macos-use-4448fafd",
+      "name": "mcp-remote-macos-use",
+      "score": 462,
+      "score_type": "stars",
+      "tier": "B",
+      "verified": true,
+      "tags": [
+        "integrations"
+      ],
+      "one_liner": "A zero-installation solution for AI agents to control remote macOS systems. F..."
+    },
+    {
+      "id": "mcp-mermaid-da4ec910",
+      "name": "mcp-mermaid",
+      "score": 452,
+      "score_type": "stars",
+      "tier": "B",
+      "verified": true,
+      "tags": [
+        "data",
+        "data-ai"
+      ],
+      "one_liner": "❤️ Generate mermaid diagram and chart with AI MCP dynamically."
+    },
+    {
+      "id": "docker-mcp-ce7fe59b",
+      "name": "docker-mcp",
+      "score": 450,
+      "score_type": "stars",
+      "tier": "B",
+      "verified": true,
+      "tags": [
+        "dev",
+        "dev-devops",
+        "dev-devops-docker"
+      ],
+      "one_liner": "A docker MCP Server (modelcontextprotocol)"
+    },
+    {
+      "id": "mcp-send-email-3e900ce4",
+      "name": "mcp-send-email",
+      "score": 450,
+      "score_type": "stars",
+      "tier": "B",
+      "verified": true,
+      "tags": [
+        "productivity",
+        "productivity-email"
+      ],
+      "one_liner": "Send emails directly from Cursor with this email sending MCP server"
+    },
+    {
+      "id": "mcp-hub-9b960bcc",
+      "name": "mcp-hub",
+      "score": 442,
+      "score_type": "stars",
+      "tier": "B",
+      "verified": true,
+      "tags": [
+        "utilities",
+        "utilities-monitor"
+      ],
+      "one_liner": "A centralized manager for Model Context Protocol (MCP) servers with dynamic s..."
+    },
+    {
+      "id": "mcp-gsc-e12000c1",
+      "name": "mcp-gsc",
+      "score": 433,
+      "score_type": "stars",
+      "tier": "B",
+      "verified": true,
+      "tags": [
+        "utilities",
+        "utilities-search"
+      ],
+      "one_liner": "Google Search Console Insights with Claude AI for SEOs"
+    },
+    {
+      "id": "biomcp-391daae7",
+      "name": "biomcp",
+      "score": 432,
+      "score_type": "stars",
+      "tier": "B",
+      "verified": true,
+      "tags": [
+        "utilities"
+      ],
+      "one_liner": "BioMCP: Biomedical Model Context Protocol"
+    },
+    {
+      "id": "mcp-redis-984a2a53",
+      "name": "mcp-redis",
+      "score": 432,
+      "score_type": "stars",
+      "tier": "B",
+      "verified": true,
+      "tags": [
+        "data",
+        "data-ai",
+        "data-ai-nlp"
+      ],
+      "one_liner": "The official Redis MCP Server is a natural language interface designed for ag..."
+    },
+    {
+      "id": "airtable-mcp-server-d90b6386",
+      "name": "airtable-mcp-server",
+      "score": 423,
+      "score_type": "stars",
+      "tier": "B",
+      "verified": true,
+      "tags": [
+        "data",
+        "data-ai"
+      ],
+      "one_liner": "🗂️🤖 Airtable Model Context Protocol Server, for allowing AI systems to intera..."
+    },
+    {
+      "id": "applescript-mcp-aaf2c6d8",
+      "name": "applescript-mcp",
+      "score": 423,
+      "score_type": "stars",
+      "tier": "B",
+      "verified": true,
+      "tags": [
+        "integrations",
+        "utilities"
+      ],
+      "one_liner": "A macOS AppleScript MCP server"
+    },
+    {
+      "id": "docfork-7878165d",
+      "name": "Docfork",
+      "score": 423,
+      "score_type": "stars",
+      "tier": "B",
+      "verified": true,
+      "tags": [
+        "productivity",
+        "productivity-docs"
+      ],
+      "one_liner": "Provides up-to-date documentation for 9000+ libraries directly in your AI cod..."
+    },
+    {
+      "id": "shinkai-apps-cab532ad",
+      "name": "shinkai-apps",
+      "score": 418,
+      "score_type": "stars",
+      "tier": "B",
+      "verified": true,
+      "tags": [
+        "data",
+        "data-ai"
+      ],
+      "one_liner": "Shinkai is a two click install AI manager (Local and Remote) that allows you..."
+    },
+    {
+      "id": "puppeteer-mcp-server-e41f284a",
+      "name": "puppeteer-mcp-server",
+      "score": 400,
+      "score_type": "stars",
+      "tier": "B",
+      "verified": true,
+      "tags": [
+        "dev",
+        "dev-web",
+        "productivity"
+      ],
+      "one_liner": "This MCP server provides browser automation capabilities through Puppeteer, a..."
+    },
+    {
+      "id": "edgeone-pages-mcp-c404269f",
+      "name": "EdgeOne Pages MCP",
+      "score": 396,
+      "score_type": "stars",
+      "tier": "B",
+      "verified": true,
+      "tags": [
+        "dev",
+        "dev-devops",
+        "dev-web"
+      ],
+      "one_liner": "A service that enables rapid deployment of HTML content to EdgeOne Pages and..."
+    },
+    {
+      "id": "mcp-alchemy-d4ee75d2",
+      "name": "mcp-alchemy",
+      "score": 393,
+      "score_type": "stars",
+      "tier": "B",
+      "verified": true,
+      "tags": [
+        "data",
+        "data-ai",
+        "data-db"
+      ],
+      "one_liner": "A MCP (model context protocol) server that gives the LLM access to and knowle..."
+    },
+    {
+      "id": "reddit-mcp-buddy-bbed837f",
+      "name": "reddit-mcp-buddy",
+      "score": 386,
+      "score_type": "stars",
+      "tier": "B",
+      "verified": true,
+      "tags": [
+        "integrations",
+        "utilities",
+        "utilities-search"
+      ],
+      "one_liner": "Browse Reddit directly in Claude Desktop without API keys. Search posts, view..."
+    },
+    {
+      "id": "mcp-hfspace-700339a8",
+      "name": "mcp-hfspace",
+      "score": 383,
+      "score_type": "stars",
+      "tier": "B",
+      "verified": true,
+      "tags": [
+        "data",
+        "data-ml"
+      ],
+      "one_liner": "MCP Server to Use HuggingFace spaces, easy configuration and Claude Desktop m..."
+    },
+    {
+      "id": "agent-da936377",
+      "name": "agent",
+      "score": 382,
+      "score_type": "stars",
+      "tier": "B",
+      "verified": true,
+      "tags": [
+        "integrations",
+        "utilities"
+      ],
+      "one_liner": "A unified Model Context Protocol server implementation that aggregates multip..."
+    },
+    {
+      "id": "mcp-server-e841bbd8",
+      "name": "mcp-server",
+      "score": 381,
+      "score_type": "stars",
+      "tier": "B",
+      "verified": true,
+      "tags": [
+        "integrations",
+        "utilities"
+      ],
+      "one_liner": "Giving Claude ability to run code with E2B via MCP (Model Context Protocol)"
+    },
+    {
+      "id": "labs-ai-tools-for-devs-009389d4",
+      "name": "labs-ai-tools-for-devs",
+      "score": 379,
+      "score_type": "stars",
+      "tier": "B",
+      "verified": true,
+      "tags": [
+        "data",
+        "data-ai",
+        "dev"
+      ],
+      "one_liner": "An MCP server & prompt runner for all of Docker. Simple Markdown. BYO LLM."
+    },
+    {
+      "id": "prometheus-mcp-server-2e6799fd",
+      "name": "prometheus-mcp-server",
+      "score": 375,
+      "score_type": "stars",
+      "tier": "B",
+      "verified": true,
+      "tags": [
+        "utilities",
+        "utilities-monitor"
+      ],
+      "one_liner": "A Model Context Protocol (MCP) server that enables AI assistants to query and..."
+    },
+    {
+      "id": "agentchat-1cdba4ea",
+      "name": "AgentChat",
+      "score": 363,
+      "score_type": "stars",
+      "tier": "B",
+      "verified": true,
+      "tags": [
+        "data",
+        "data-ai",
+        "data-ai-rag"
+      ],
+      "one_liner": "AgentChat 是一个与Agent交流的平台，包含默认Agent，并支持自定义Agent，可以实现多轮问答使Agent帮助用户想实现的功能。该项目技术..."
+    },
+    {
+      "id": "evm-mcp-server-b795ffef",
+      "name": "evm-mcp-server",
+      "score": 363,
+      "score_type": "stars",
+      "tier": "B",
+      "verified": true,
+      "tags": [
+        "data",
+        "data-ai"
+      ],
+      "one_liner": "MCP server that provides LLM with tools for interacting with EVM networks"
+    },
+    {
+      "id": "ableton-live-mcp-server-680295ec",
+      "name": "ableton-live-mcp-server",
+      "score": 362,
+      "score_type": "stars",
+      "tier": "B",
+      "verified": true,
+      "tags": [
+        "integrations",
+        "utilities"
+      ],
+      "one_liner": "MCP Server implementation for Ableton Live OSC control"
+    },
+    {
+      "id": "applescript-mcp-82a27448",
+      "name": "applescript-mcp",
+      "score": 359,
+      "score_type": "stars",
+      "tier": "B",
+      "verified": true,
+      "tags": [
+        "integrations",
+        "utilities"
+      ],
+      "one_liner": "A macOS AppleScript MCP server"
+    },
+    {
+      "id": "mcp-reddit-db6aa0cb",
+      "name": "mcp-reddit",
+      "score": 354,
+      "score_type": "stars",
+      "tier": "B",
+      "verified": true,
+      "tags": [
+        "integrations",
+        "utilities"
+      ],
+      "one_liner": "A Model Context Protocol (MCP) server that provides tools for fetching and an..."
+    },
+    {
+      "id": "mcp-teams-server-edf6ada5",
+      "name": "mcp-teams-server",
+      "score": 353,
+      "score_type": "stars",
+      "tier": "B",
+      "verified": true,
+      "tags": [
+        "integrations",
+        "productivity",
+        "productivity-comm"
+      ],
+      "one_liner": "An MCP (Model Context Protocol) server implementation for Microsoft Teams int..."
+    },
+    {
+      "id": "ue5-mcp-d03093a2",
+      "name": "UE5-MCP",
+      "score": 348,
+      "score_type": "stars",
+      "tier": "B",
+      "verified": true,
+      "tags": [
+        "dev",
+        "dev-gamedev"
+      ],
+      "one_liner": "MCP for Unreal Engine 5"
+    },
+    {
+      "id": "mcp-gateway-00720b0a",
+      "name": "mcp-gateway",
+      "score": 347,
+      "score_type": "stars",
+      "tier": "B",
+      "verified": true,
+      "tags": [
+        "utilities"
+      ],
+      "one_liner": "A plugin-based gateway that orchestrates other MCPs and allows developers to..."
+    },
+    {
+      "id": "db-mcp-server-d517f758",
+      "name": "db-mcp-server",
+      "score": 344,
+      "score_type": "stars",
+      "tier": "B",
+      "verified": true,
+      "tags": [
+        "data",
+        "data-db"
+      ],
+      "one_liner": "A powerful multi-database server implementing the Model Context Protocol (MCP..."
+    },
+    {
+      "id": "linear-mcp-server-99c0bedd",
+      "name": "linear-mcp-server",
+      "score": 344,
+      "score_type": "stars",
+      "tier": "B",
+      "verified": true,
+      "tags": [
+        "productivity",
+        "productivity-pm"
+      ],
+      "one_liner": "A server that integrates Linear's project management system with the Model Co..."
+    },
+    {
+      "id": "azure-devops-mcp-1da9be94",
+      "name": "azure-devops-mcp",
+      "score": 336,
+      "score_type": "stars",
+      "tier": "B",
+      "verified": true,
+      "tags": [
+        "dev",
+        "dev-devops",
+        "integrations"
+      ],
+      "one_liner": "An MCP server for Azure DevOps"
+    },
+    {
+      "id": "bloodhound-mcp-ai-b04bed58",
+      "name": "BloodHound-MCP-AI",
+      "score": 336,
+      "score_type": "stars",
+      "tier": "B",
+      "verified": true,
+      "tags": [
+        "data",
+        "data-ai",
+        "data-ai-nlp"
+      ],
+      "one_liner": "BloodHound-MCP-AI is integration that connects BloodHound with AI through Mod..."
+    },
+    {
+      "id": "mcp-llm-bridge-9e215dad",
+      "name": "mcp-llm-bridge",
+      "score": 336,
+      "score_type": "stars",
+      "tier": "B",
+      "verified": true,
+      "tags": [
+        "data",
+        "data-ai",
+        "productivity"
+      ],
+      "one_liner": "MCP implementation that enables communication between MCP servers and OpenAI-..."
+    },
+    {
+      "id": "interactive-mcp-49aa31b7",
+      "name": "interactive-mcp",
+      "score": 335,
+      "score_type": "stars",
+      "tier": "B",
+      "verified": true,
+      "tags": [
+        "data",
+        "data-ai"
+      ],
+      "one_liner": "Vibe coding should have human in the loop! interactive-mcp: Local, cross-plat..."
+    },
+    {
+      "id": "memorymesh-0977f0a9",
+      "name": "MemoryMesh",
+      "score": 332,
+      "score_type": "stars",
+      "tier": "B",
+      "verified": true,
+      "tags": [
+        "integrations",
+        "utilities"
+      ],
+      "one_liner": "A knowledge graph server that uses the Model Context Protocol (MCP) to provid..."
+    },
+    {
+      "id": "vscode-mcp-server-22d3c105",
+      "name": "vscode-mcp-server",
+      "score": 332,
+      "score_type": "stars",
+      "tier": "B",
+      "verified": true,
+      "tags": [
+        "data",
+        "data-ai"
+      ],
+      "one_liner": "MCP server to expose VS Code editing features to an LLM for AI coding"
+    },
+    {
+      "id": "argocd-mcp-2a16db4c",
+      "name": "argocd-mcp",
+      "score": 331,
+      "score_type": "stars",
+      "tier": "B",
+      "verified": true,
+      "tags": [
+        "integrations",
+        "utilities"
+      ],
+      "one_liner": "An implementation of Model Context Protocol (MCP) server for Argo CD."
+    },
+    {
+      "id": "queryweaver-8d774113",
+      "name": "queryweaver",
+      "score": 331,
+      "score_type": "stars",
+      "tier": "B",
+      "verified": true,
+      "tags": [
+        "data",
+        "data-ai",
+        "data-ai-nlp"
+      ],
+      "one_liner": "An open-source Text2SQL tool that transforms natural language into SQL using..."
+    },
+    {
+      "id": "moling-def3b3df",
+      "name": "moling",
+      "score": 326,
+      "score_type": "stars",
+      "tier": "B",
+      "verified": true,
+      "tags": [
+        "data",
+        "data-ai",
+        "dev"
+      ],
+      "one_liner": "MoLing is a computer-use and browser-use based MCP server. It is a locally de..."
+    },
+    {
+      "id": "code-sandbox-mcp-f9ec6248",
+      "name": "code-sandbox-mcp",
+      "score": 314,
+      "score_type": "stars",
+      "tier": "B",
+      "verified": true,
+      "tags": [
+        "dev",
+        "dev-devops",
+        "dev-devops-docker"
+      ],
+      "one_liner": "An MCP server to create secure code sandbox environment for executing code wi..."
+    },
+    {
+      "id": "kagimcp-b03b8166",
+      "name": "kagimcp",
+      "score": 308,
+      "score_type": "stars",
+      "tier": "B",
+      "verified": true,
+      "tags": [
+        "utilities",
+        "utilities-search"
+      ],
+      "one_liner": "The Official Model Context Protocol (MCP) server for Kagi search & other tools."
+    },
+    {
+      "id": "solon-ai-6211b59e",
+      "name": "solon-ai",
+      "score": 305,
+      "score_type": "stars",
+      "tier": "B",
+      "verified": true,
+      "tags": [
+        "data",
+        "data-ai",
+        "data-ai-rag"
+      ],
+      "one_liner": "Java AI (agent) full scenario application development framework (LLM, Functio..."
+    },
+    {
+      "id": "ssh-mcp-b7a98fce",
+      "name": "ssh-mcp",
+      "score": 303,
+      "score_type": "stars",
+      "tier": "B",
+      "verified": true,
+      "tags": [
+        "integrations",
+        "utilities"
+      ],
+      "one_liner": "MCP server exposing SSH control for Linux servers via Model Context Protocol."
+    },
+    {
+      "id": "ai-kline-1be011f9",
+      "name": "AI-Kline",
+      "score": 302,
+      "score_type": "stars",
+      "tier": "B",
+      "verified": true,
+      "tags": [
+        "integrations",
+        "utilities"
+      ],
+      "one_liner": "AI看线，结合K线图，技术指标，财务数据，新闻数据的AI股票分析及预测框架，支持WEB页面及MCP SERVER"
+    },
+    {
+      "id": "automcp-c7738ad7",
+      "name": "automcp",
+      "score": 302,
+      "score_type": "stars",
+      "tier": "B",
+      "verified": true,
+      "tags": [
+        "utilities"
+      ],
+      "one_liner": "Easily convert tool, agents and orchestrators from existing agent frameworks..."
+    },
+    {
+      "id": "generator-e41912ad",
+      "name": "generator",
+      "score": 301,
+      "score_type": "stars",
+      "tier": "B",
+      "verified": true,
+      "tags": [
+        "data",
+        "data-ai",
+        "utilities"
+      ],
+      "one_liner": "CTX: The missing link between your codebase and your LLM. Context as Code (Ca..."
+    },
+    {
+      "id": "deepseek-mcp-server-da7c5856",
+      "name": "deepseek-mcp-server",
+      "score": 299,
+      "score_type": "stars",
+      "tier": "B",
+      "verified": true,
+      "tags": [
+        "integrations",
+        "utilities"
+      ],
+      "one_liner": "Model Context Protocol server for DeepSeek's advanced language models"
+    },
+    {
+      "id": "jadx-mcp-server-1b6679a3",
+      "name": "jadx-mcp-server",
+      "score": 296,
+      "score_type": "stars",
+      "tier": "B",
+      "verified": true,
+      "tags": [
+        "integrations",
+        "utilities"
+      ],
+      "one_liner": "MCP server for JADX-AI Plugin"
+    },
+    {
+      "id": "mcp-claude-code-6c9d1df6",
+      "name": "mcp-claude-code",
+      "score": 296,
+      "score_type": "stars",
+      "tier": "B",
+      "verified": true,
+      "tags": [
+        "utilities"
+      ],
+      "one_liner": "MCP implementation of Claude Code capabilities and more"
+    },
+    {
+      "id": "mcp-server-simulator-ios-idb-ad76e093",
+      "name": "mcp-server-simulator-ios-idb",
+      "score": 295,
+      "score_type": "stars",
+      "tier": "B",
+      "verified": true,
+      "tags": [
+        "data",
+        "data-ai",
+        "data-ai-nlp"
+      ],
+      "one_liner": "A Model Context Protocol (MCP) server that enables LLMs to interact with iOS..."
+    },
+    {
+      "id": "napi-5b3589fc",
+      "name": "napi",
+      "score": 295,
+      "score_type": "stars",
+      "tier": "B",
+      "verified": true,
+      "tags": [
+        "integrations"
+      ],
+      "one_liner": "Software architecture tooling for the AI age"
+    },
+    {
+      "id": "mcp-neovim-server-b6e47521",
+      "name": "mcp-neovim-server",
+      "score": 292,
+      "score_type": "stars",
+      "tier": "B",
+      "verified": true,
+      "tags": [
+        "integrations",
+        "utilities"
+      ],
+      "one_liner": "Control Neovim using Model Context Protocol (MCP) and the official neovim/nod..."
+    },
+    {
+      "id": "mysql-mcp-server-pro-cc093b26",
+      "name": "mysql_mcp_server_pro",
+      "score": 292,
+      "score_type": "stars",
+      "tier": "B",
+      "verified": true,
+      "tags": [
+        "data",
+        "data-db"
+      ],
+      "one_liner": "Support for SSE, STDIO in MySQL MCP server, includes CRUD, database anomaly a..."
+    },
+    {
+      "id": "mcpsvr-16e76c55",
+      "name": "mcpsvr",
+      "score": 291,
+      "score_type": "stars",
+      "tier": "B",
+      "verified": true,
+      "tags": [
+        "integrations",
+        "utilities"
+      ],
+      "one_liner": "Discover Exceptional MCP Servers"
+    },
+    {
+      "id": "imagesorcery-mcp-b5df3d20",
+      "name": "imagesorcery-mcp",
+      "score": 290,
+      "score_type": "stars",
+      "tier": "B",
+      "verified": true,
+      "tags": [
+        "data",
+        "data-ai",
+        "data-ai-vision"
+      ],
+      "one_liner": "An MCP server providing tools for image processing operations"
+    },
+    {
+      "id": "mcpcontrol-6dda7b1a",
+      "name": "MCPControl",
+      "score": 289,
+      "score_type": "stars",
+      "tier": "B",
+      "verified": true,
+      "tags": [
+        "productivity"
+      ],
+      "one_liner": "MCP server for Windows OS automation"
+    },
+    {
+      "id": "mcp-server-mas-sequential-thinking-72d9f9d2",
+      "name": "mcp-server-mas-sequential-thinking",
+      "score": 288,
+      "score_type": "stars",
+      "tier": "B",
+      "verified": true,
+      "tags": [
+        "dev",
+        "dev-agents"
+      ],
+      "one_liner": "An advanced sequential thinking process using a Multi-Agent System (MAS) buil..."
+    },
+    {
+      "id": "mcp-server-12306-5b5c3bae",
+      "name": "mcp-server-12306",
+      "score": 283,
+      "score_type": "stars",
+      "tier": "B",
+      "verified": true,
+      "tags": [
+        "dev",
+        "dev-web",
+        "integrations"
+      ],
+      "one_liner": "12306 MCP Server​​ 是一个基于 ​​Model Context Protocol (MCP)​​ 的高性能火车票查询后端系统。它通过标准..."
+    },
+    {
+      "id": "perplexity-mcp-069e9543",
+      "name": "perplexity-mcp",
+      "score": 283,
+      "score_type": "stars",
+      "tier": "B",
+      "verified": true,
+      "tags": [
+        "integrations",
+        "utilities",
+        "utilities-search"
+      ],
+      "one_liner": "A Model Context Protocol (MCP) server that provides web search functionality..."
+    },
+    {
+      "id": "mcp-manager-13f508fc",
+      "name": "mcp-manager",
+      "score": 282,
+      "score_type": "stars",
+      "tier": "B",
+      "verified": true,
+      "tags": [
+        "integrations",
+        "utilities"
+      ],
+      "one_liner": "simple web ui to manage mcp (model context protocol) servers in the claude app"
+    },
+    {
+      "id": "private-journal-mcp-bd5f46ab",
+      "name": "private-journal-mcp",
+      "score": 282,
+      "score_type": "stars",
+      "tier": "B",
+      "verified": true,
+      "tags": [
+        "productivity",
+        "productivity-notes"
+      ],
+      "one_liner": "A lightweight MCP server that provides Claude with a private journaling capab..."
+    },
+    {
+      "id": "mcp-server-playwright-f26b49b5",
+      "name": "MCP-Server-Playwright",
+      "score": 281,
+      "score_type": "stars",
+      "tier": "B",
+      "verified": true,
+      "tags": [
+        "dev",
+        "dev-testing",
+        "dev-web"
+      ],
+      "one_liner": "MCP server for browser automation using Playwright"
+    },
+    {
+      "id": "hass-mcp-349fddf1",
+      "name": "hass-mcp",
+      "score": 277,
+      "score_type": "stars",
+      "tier": "B",
+      "verified": true,
+      "tags": [
+        "integrations",
+        "utilities"
+      ],
+      "one_liner": "Home Assistant MCP Server"
+    },
+    {
+      "id": "mcp-gdrive-1432455d",
+      "name": "mcp-gdrive",
+      "score": 270,
+      "score_type": "stars",
+      "tier": "B",
+      "verified": true,
+      "tags": [
+        "integrations",
+        "integrations-google"
+      ],
+      "one_liner": "Model Context Protocol (MCP) Server for reading from Google Drive and editing..."
+    },
+    {
+      "id": "reddit-mcp-50473372",
+      "name": "reddit-mcp",
+      "score": 267,
+      "score_type": "stars",
+      "tier": "B",
+      "verified": true,
+      "tags": [
+        "integrations",
+        "utilities"
+      ],
+      "one_liner": "Model Context Protocol server implementation for Reddit"
+    },
+    {
+      "id": "mcp-server-tree-sitter-84cbe7d4",
+      "name": "mcp-server-tree-sitter",
+      "score": 266,
+      "score_type": "stars",
+      "tier": "B",
+      "verified": true,
+      "tags": [
+        "integrations",
+        "utilities"
+      ],
+      "one_liner": "MCP Server for Tree-sitter"
+    },
+    {
+      "id": "apollo-mcp-server-2120f4a1",
+      "name": "apollo-mcp-server",
+      "score": 264,
+      "score_type": "stars",
+      "tier": "B",
+      "verified": true,
+      "tags": [
+        "integrations",
+        "utilities"
+      ],
+      "one_liner": "Apollo MCP Server"
+    }
+  ]
+}

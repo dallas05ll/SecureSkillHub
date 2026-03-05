@@ -27,7 +27,8 @@
       "risk_level": "medium",
       "primary_language": "typescript",
       "install_url": "https://github.com/upstash/context7",
-      "skill_type": "agent_skill"
+      "skill_type": "agent_skill",
+      "verified_commit": "a3c3bb44c630f03f8c739031674c1cf781852655"
     },
     {
       "id": "supabase-postgres-best-practices-593fe9e6",
@@ -41,7 +42,8 @@
       "risk_level": "info",
       "primary_language": "unknown",
       "install_url": "https://github.com/supabase/agent-skills",
-      "skill_type": "agent_skill"
+      "skill_type": "agent_skill",
+      "verified_commit": "760460c221d30d0db904ff28e8fa52af85672255"
     },
     {
       "id": "db-migrations-and-schema-changes-31a16b1b",
@@ -55,7 +57,8 @@
       "risk_level": "medium",
       "primary_language": "python",
       "install_url": "https://github.com/letta-ai/letta",
-      "skill_type": "agent_skill"
+      "skill_type": "agent_skill",
+      "verified_commit": "4cb2f21c65d571d807d7466335e51432826749ba"
     },
     {
       "id": "litestream-5a1debb7",
@@ -69,7 +72,8 @@
       "risk_level": "medium",
       "primary_language": "go",
       "install_url": "https://github.com/benbjohnson/litestream",
-      "skill_type": "agent_skill"
+      "skill_type": "agent_skill",
+      "verified_commit": "f404f2ff1184b6b142d5869891af263b821c138f"
     },
     {
       "id": "skill-seekers-doc-converter-dcbed0f4",
@@ -83,7 +87,8 @@
       "risk_level": "medium",
       "primary_language": "Python",
       "install_url": "https://github.com/yusufkaraaslan/Skill_Seekers",
-      "skill_type": "agent_skill"
+      "skill_type": "agent_skill",
+      "verified_commit": "3bad7cf365d91233293b006b89454eb7d10ef30c"
     },
     {
       "id": "convex-d88ae04c",
@@ -97,7 +102,8 @@
       "risk_level": "medium",
       "primary_language": "unknown",
       "install_url": "https://github.com/waynesutton/convexskills",
-      "skill_type": "agent_skill"
+      "skill_type": "agent_skill",
+      "verified_commit": "8ef49c96675f760dd5569c0588c1abb04cd989dd"
     },
     {
       "id": "likec4-2a279f32",
@@ -111,7 +117,8 @@
       "risk_level": "medium",
       "primary_language": "typescript",
       "install_url": "https://github.com/LikeC4/LikeC4",
-      "skill_type": "mcp_server"
+      "skill_type": "mcp_server",
+      "verified_commit": "5993c843bbcb1adef29b2cc5c2ac14f2980f9285"
     },
     {
       "id": "mcp-supabase-95603cab",
@@ -125,7 +132,8 @@
       "risk_level": "medium",
       "primary_language": "typescript",
       "install_url": "https://github.com/supabase-community/mcp-supabase",
-      "skill_type": "mcp_server"
+      "skill_type": "mcp_server",
+      "verified_commit": "24656102f56a8dea6dc3ae70f0857e19d58c5445"
     },
     {
       "id": "postgres-mcp-23d75fe2",
@@ -139,7 +147,8 @@
       "risk_level": "high",
       "primary_language": "python",
       "install_url": "https://github.com/crystaldba/postgres-mcp",
-      "skill_type": "mcp_server"
+      "skill_type": "mcp_server",
+      "verified_commit": "07eb329c8c48e49640e0d1b5b35465d4d024c3ee"
     },
     {
       "id": "agent-mail-5c9a3048",
@@ -153,7 +162,8 @@
       "risk_level": "medium",
       "primary_language": "python",
       "install_url": "https://github.com/dicklesworthstone/mcp_agent_mail",
-      "skill_type": "agent_skill"
+      "skill_type": "agent_skill",
+      "verified_commit": "ddcef4ff886548a94c19c14b083c4ec53a4955ad"
     }
   ],
   "total_skills": 10,
@@ -161,5 +171,5 @@
   "avg_score": 75.7,
   "min_score": 50,
   "top_stars": 0,
-  "generated_at": "2026-03-05T16:00:23Z"
+  "generated_at": "2026-03-05T16:07:36Z"
 }

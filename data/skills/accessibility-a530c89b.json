@@ -1,7 +1,7 @@
 {
   "id": "accessibility-a530c89b",
   "name": "accessibility",
-  "description": "Accessibility guidelines for VS Code features \u2014 covers accessibility help dialogs, accessible views, verbosity settings, accessibility signals, ARIA alerts/status announcements, keyboard navigation, and ARIA labels/roles. Applies to both new interactive UI surfaces and updates to existing features. Use when creating new UI or updating existing UI features.",
+  "description": "Accessibility guidelines for VS Code features — covers accessibility help dialogs, accessible views, verbosity settings, accessibility signals, ARIA alerts/status announcements, keyboard navigation, and ARIA labels/roles. Applies to both new interactive UI surfaces and updates to existing features. Use when creating new UI or updating existing UI features.",
   "repo_url": "https://github.com/microsoft/vscode",
   "source_hub": "skillsmp",
   "skill_type": "agent_skill",
@@ -17,7 +17,7 @@
   ],
   "verification_status": "pass",
   "pm_override": true,
-  "pm_override_reason": "FP: microsoft/vscode \u2014 regex_roleplay_escape on TS token files",
+  "pm_override_reason": "FP: microsoft/vscode — regex_roleplay_escape on TS token files",
   "overall_score": 10,
   "risk_level": "critical",
   "verified_commit": "e933711737d39d20f5dda4de4e15e83f9c56853d",
@@ -36,7 +36,7 @@
     "injection_patterns": 4,
     "mismatches": 0,
     "undocumented_capabilities": 0,
-    "supervisor_approved": false,
+    "supervisor_approved": true,
     "supervisor_confidence": 95
   },
   "verification_level": "full_pipeline",

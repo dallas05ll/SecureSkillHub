@@ -21,7 +21,8 @@
       "risk_level": "medium",
       "primary_language": "typescript",
       "install_url": "https://github.com/heroui-inc/heroui",
-      "skill_type": "agent_skill"
+      "skill_type": "agent_skill",
+      "verified_commit": "0d4671413ef7307965c388be04b8bfcc6aa76561"
     },
     {
       "id": "react-native-best-practices-1970bd18",
@@ -35,7 +36,8 @@
       "risk_level": "medium",
       "primary_language": "unknown",
       "install_url": "https://github.com/callstackincubator/agent-skills",
-      "skill_type": "agent_skill"
+      "skill_type": "agent_skill",
+      "verified_commit": "35d2e956c9fee6d60169a32494906fd98dc5e71c"
     },
     {
       "id": "skills-b1bc2b7d",
@@ -49,7 +51,8 @@
       "risk_level": "info",
       "primary_language": "Markdown",
       "install_url": "https://github.com/zaferayan/skills",
-      "skill_type": "agent_skill"
+      "skill_type": "agent_skill",
+      "verified_commit": "254fc4558c0c8162eb03bf08caa600b74ec6004b"
     },
     {
       "id": "add-screen-ea5bb08a",
@@ -63,7 +66,8 @@
       "risk_level": "medium",
       "primary_language": "typescript",
       "install_url": "https://github.com/stodevx/aao-react-native",
-      "skill_type": "agent_skill"
+      "skill_type": "agent_skill",
+      "verified_commit": "d9472453b1c94823c66faff647e9945e88a03790"
     }
   ],
   "total_skills": 4,
@@ -71,5 +75,5 @@
   "avg_score": 79.5,
   "min_score": 60,
   "top_stars": 0,
-  "generated_at": "2026-03-05T16:00:23Z"
+  "generated_at": "2026-03-05T16:07:36Z"
 }

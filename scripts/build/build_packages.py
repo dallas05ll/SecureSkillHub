@@ -107,6 +107,7 @@ def skill_entry(skill: dict) -> dict:
         "primary_language": skill.get("primary_language", "unknown"),
         "install_url": skill.get("install_url", skill.get("repo_url", "")),
         "skill_type": skill.get("skill_type", "mcp_server"),
+        "verified_commit": skill.get("verified_commit", ""),
     }
 
 

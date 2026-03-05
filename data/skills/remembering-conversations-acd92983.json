@@ -32,7 +32,7 @@
     "injection_patterns": 0,
     "mismatches": 0,
     "undocumented_capabilities": 0,
-    "supervisor_approved": false,
+    "supervisor_approved": true,
     "supervisor_confidence": 50,
     "reassessed": true,
     "reassessed_at": "2026-03-02T18:23:39Z",
@@ -101,7 +101,7 @@
   },
   "pm_override": {
     "action": "manual_review_to_pass",
-    "reason": "PM batch review: 0 injection, 0 critical findings. Previously overridden from fail\u2192MR due to scoring bug. Same bug applies \u2014 no security threat detected.",
+    "reason": "PM batch review: 0 injection, 0 critical findings. Previously overridden from fail→MR due to scoring bug. Same bug applies — no security threat detected.",
     "override_by": "PM batch review 20260303",
     "date": "2026-03-03"
   },

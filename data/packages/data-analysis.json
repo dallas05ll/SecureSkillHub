@@ -27,7 +27,8 @@
       "risk_level": "high",
       "primary_language": "python",
       "install_url": "https://github.com/K-Dense-AI/claude-scientific-skills",
-      "skill_type": "agent_skill"
+      "skill_type": "agent_skill",
+      "verified_commit": "29c869326e92bc0da492f7f87bfedad1d9658a58"
     },
     {
       "id": "jupyter-mcp-server-6832e1ad",
@@ -41,7 +42,8 @@
       "risk_level": "medium",
       "primary_language": "python",
       "install_url": "https://github.com/datalayer/jupyter-mcp-server",
-      "skill_type": "mcp_server"
+      "skill_type": "mcp_server",
+      "verified_commit": "8123f65757fcc557c2288d599523cb0747e27c0f"
     },
     {
       "id": "academic-jupyter-2dc0d04a",
@@ -55,7 +57,8 @@
       "risk_level": "medium",
       "primary_language": "typescript",
       "install_url": "https://github.com/prismer-ai/prismer",
-      "skill_type": "agent_skill"
+      "skill_type": "agent_skill",
+      "verified_commit": "6dcb5a12b656e3c91c49d2698f3683d875894f87"
     },
     {
       "id": "awesome-claude-code-plugins-c3feba0c",
@@ -69,7 +72,8 @@
       "risk_level": "medium",
       "primary_language": "Python",
       "install_url": "https://github.com/ccplugins/awesome-claude-code-plugins",
-      "skill_type": "agent_skill"
+      "skill_type": "agent_skill",
+      "verified_commit": "e5856f987d0f4e05078b1ba433b3995393119818"
     },
     {
       "id": "13f-analyzer-4b23f891",
@@ -83,7 +87,8 @@
       "risk_level": "medium",
       "primary_language": "python",
       "install_url": "https://github.com/benchflow-ai/skillsbench",
-      "skill_type": "agent_skill"
+      "skill_type": "agent_skill",
+      "verified_commit": "593b0c6a3d95e0d4acc813788b12b6c044560b43"
     },
     {
       "id": "csv-data-summarizer-80775e3c",
@@ -97,7 +102,8 @@
       "risk_level": "info",
       "primary_language": "Python",
       "install_url": "https://github.com/coffeefuelbump/csv-data-summarizer-claude-skill",
-      "skill_type": "agent_skill"
+      "skill_type": "agent_skill",
+      "verified_commit": "9b3affd270f85aaf1c8a7a457f510034d5736cde"
     },
     {
       "id": "1c-metadata-manage-ad987054",
@@ -111,7 +117,8 @@
       "risk_level": "info",
       "primary_language": "unknown",
       "install_url": "https://github.com/comol/cursor_rules_1c",
-      "skill_type": "agent_skill"
+      "skill_type": "agent_skill",
+      "verified_commit": "fa0c8ca55ac37e604c74e177f08e6701f4be2101"
     },
     {
       "id": "quick-data-mcp-097d46bb",
@@ -125,7 +132,8 @@
       "risk_level": "medium",
       "primary_language": "python",
       "install_url": "https://github.com/disler/quick-data-mcp",
-      "skill_type": "mcp_server"
+      "skill_type": "mcp_server",
+      "verified_commit": "02142fc23b8c7f417decf08e897c8c0c079565a8"
     },
     {
       "id": "jupyter-notebook-mcp-eb313ed9",
@@ -139,7 +147,8 @@
       "risk_level": "medium",
       "primary_language": "python",
       "install_url": "https://github.com/jjsantos01/jupyter-notebook-mcp",
-      "skill_type": "mcp_server"
+      "skill_type": "mcp_server",
+      "verified_commit": "1511d78bb03f35c7142010e0eff3226c7d10b9da"
     },
     {
       "id": "d3-js-visualization-c5416516",
@@ -153,7 +162,8 @@
       "risk_level": "info",
       "primary_language": "markdown",
       "install_url": "https://github.com/chrisvoncsefalvay/claude-d3js-skill",
-      "skill_type": "agent_skill"
+      "skill_type": "agent_skill",
+      "verified_commit": "e198c87d03f1c9811acbff681886fac24baee53d"
     }
   ],
   "total_skills": 10,
@@ -161,5 +171,5 @@
   "avg_score": 77.0,
   "min_score": 51,
   "top_stars": 9302,
-  "generated_at": "2026-03-05T16:00:23Z"
+  "generated_at": "2026-03-05T16:07:36Z"
 }

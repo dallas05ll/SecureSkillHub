@@ -27,7 +27,8 @@
       "risk_level": "high",
       "primary_language": "TypeScript",
       "install_url": "https://github.com/qwibitai/nanoclaw",
-      "skill_type": "mcp_server"
+      "skill_type": "mcp_server",
+      "verified_commit": "8f91d3be576b830081f2a802e2f2d426b010f8f7"
     },
     {
       "id": "slack-mcp-server-487ce5b7",
@@ -41,7 +42,8 @@
       "risk_level": "medium",
       "primary_language": "go",
       "install_url": "https://github.com/korotovsky/slack-mcp-server",
-      "skill_type": "mcp_server"
+      "skill_type": "mcp_server",
+      "verified_commit": "6681f33083f7adee8addcfc0a5e5023864ace437"
     },
     {
       "id": "agent-slack-e56188e6",
@@ -55,7 +57,8 @@
       "risk_level": "medium",
       "primary_language": "typescript",
       "install_url": "https://github.com/stablyai/agent-slack",
-      "skill_type": "agent_skill"
+      "skill_type": "agent_skill",
+      "verified_commit": "7d84e93010c0dd0c6581352ef271844d0261137e"
     },
     {
       "id": "airbyte-agent-connectors-9b3db86a",
@@ -69,7 +72,8 @@
       "risk_level": "medium",
       "primary_language": "python",
       "install_url": "https://github.com/airbytehq/airbyte-agent-connectors",
-      "skill_type": "agent_skill"
+      "skill_type": "agent_skill",
+      "verified_commit": "52d5a25ade1dbfc49494d45764c81cf672e4ee75"
     },
     {
       "id": "add-integration-1fcfe183",
@@ -83,7 +87,8 @@
       "risk_level": "medium",
       "primary_language": "python",
       "install_url": "https://github.com/seer-engg/seer",
-      "skill_type": "agent_skill"
+      "skill_type": "agent_skill",
+      "verified_commit": "42bed9150bad1fcfc17a80c6e92dc3f4778c58e4"
     },
     {
       "id": "agentic-n8n-3ccad69e",
@@ -97,7 +102,8 @@
       "risk_level": "medium",
       "primary_language": "unknown",
       "install_url": "https://github.com/fhoffa/geotab-vibe-guide",
-      "skill_type": "agent_skill"
+      "skill_type": "agent_skill",
+      "verified_commit": "3b392b1fcd104082aacfac46bb635a93722ffc1a"
     },
     {
       "id": "agent-notifier-318ec33f",
@@ -111,7 +117,8 @@
       "risk_level": "medium",
       "primary_language": "python",
       "install_url": "https://github.com/crossoverjie/skills",
-      "skill_type": "agent_skill"
+      "skill_type": "agent_skill",
+      "verified_commit": "5fba626f63784d14dbe4bcf919df7e4422edab27"
     },
     {
       "id": "slack-mcp-host-dbe1cbcf",
@@ -125,7 +132,8 @@
       "risk_level": "medium",
       "primary_language": "python",
       "install_url": "https://github.com/jexp/slack-mcp-host",
-      "skill_type": "mcp_server"
+      "skill_type": "mcp_server",
+      "verified_commit": "57f4edf727288e1cec88d3ff21b3c051e19ace79"
     },
     {
       "id": "slack-mcp-bot-integration-9b8f44b9",
@@ -139,7 +147,8 @@
       "risk_level": "medium",
       "primary_language": "unknown",
       "install_url": "https://github.com/seratch/slack-mcp-bot-integration",
-      "skill_type": "mcp_server"
+      "skill_type": "mcp_server",
+      "verified_commit": "8c70aa54a6bbc2a9fe1ccdb3bdc60e3bfc7df266"
     },
     {
       "id": "slack-search-3ad068e6",
@@ -153,7 +162,8 @@
       "risk_level": "low",
       "primary_language": "unknown",
       "install_url": "https://github.com/AdilFayyaz/Slack-Search",
-      "skill_type": "mcp_server"
+      "skill_type": "mcp_server",
+      "verified_commit": "f6325771e138c8618a4afed20969878fff548a8d"
     }
   ],
   "total_skills": 10,
@@ -161,5 +171,5 @@
   "avg_score": 70.3,
   "min_score": 53,
   "top_stars": 14543,
-  "generated_at": "2026-03-05T16:00:23Z"
+  "generated_at": "2026-03-05T16:07:36Z"
 }

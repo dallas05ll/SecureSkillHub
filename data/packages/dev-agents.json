@@ -27,7 +27,8 @@
       "risk_level": "medium",
       "primary_language": "unknown",
       "install_url": "https://github.com/microsoft/ai-agents-for-beginners",
-      "skill_type": "agent_skill"
+      "skill_type": "agent_skill",
+      "verified_commit": "5596a4dbdf1f0be8c051b5cd6ba9b8ae78210b4d"
     },
     {
       "id": "ai-article-a019340c",
@@ -41,7 +42,8 @@
       "risk_level": "medium",
       "primary_language": "unknown",
       "install_url": "https://github.com/itwanger/tobebetterjavaer",
-      "skill_type": "agent_skill"
+      "skill_type": "agent_skill",
+      "verified_commit": "36d92ac0f2b8f9eccd5fb53ecf439bfffece2fbb"
     },
     {
       "id": "muratcankoylan--Agent-Skills-for-Context-Engineering",
@@ -55,7 +57,8 @@
       "risk_level": "medium",
       "primary_language": "Python",
       "install_url": "https://github.com/muratcankoylan/Agent-Skills-for-Context-Engineering",
-      "skill_type": "mcp_server"
+      "skill_type": "mcp_server",
+      "verified_commit": "8ecfb76ca3437b96857ec400166685cfa5e96a51"
     },
     {
       "id": "skill-seekers-doc-converter-dcbed0f4",
@@ -69,7 +72,8 @@
       "risk_level": "medium",
       "primary_language": "Python",
       "install_url": "https://github.com/yusufkaraaslan/Skill_Seekers",
-      "skill_type": "agent_skill"
+      "skill_type": "agent_skill",
+      "verified_commit": "3bad7cf365d91233293b006b89454eb7d10ef30c"
     },
     {
       "id": "lamda-1ac696c7",
@@ -83,7 +87,8 @@
       "risk_level": "high",
       "primary_language": "python",
       "install_url": "https://github.com/firerpa/lamda",
-      "skill_type": "mcp_server"
+      "skill_type": "mcp_server",
+      "verified_commit": "2e9d4e833c50fbb14f158ee0ed29f72bcc54271c"
     },
     {
       "id": "continuous-claude-v3-67454ffb",
@@ -97,7 +102,8 @@
       "risk_level": "medium",
       "primary_language": "python",
       "install_url": "https://github.com/parcadei/Continuous-Claude-v3",
-      "skill_type": "agent_skill"
+      "skill_type": "agent_skill",
+      "verified_commit": "d07ff4b06b62f43771bc0c927d0211b734d6149e"
     },
     {
       "id": "agent-mail-5c9a3048",
@@ -111,7 +117,8 @@
       "risk_level": "medium",
       "primary_language": "python",
       "install_url": "https://github.com/dicklesworthstone/mcp_agent_mail",
-      "skill_type": "agent_skill"
+      "skill_type": "agent_skill",
+      "verified_commit": "ddcef4ff886548a94c19c14b083c4ec53a4955ad"
     },
     {
       "id": "agent-framework-acc99033",
@@ -125,7 +132,8 @@
       "risk_level": "medium",
       "primary_language": "unknown",
       "install_url": "https://github.com/microsoft/skills",
-      "skill_type": "agent_skill"
+      "skill_type": "agent_skill",
+      "verified_commit": "924cd5316ad7904765e409c3d9aaba014a1d7e07"
     },
     {
       "id": "agentscope-java-6b3c4f39",
@@ -139,7 +147,8 @@
       "risk_level": "medium",
       "primary_language": "java",
       "install_url": "https://github.com/agentscope-ai/agentscope-java",
-      "skill_type": "agent_skill"
+      "skill_type": "agent_skill",
+      "verified_commit": "7970e97c645355cff9383e73dfa9f742437bdf75"
     },
     {
       "id": "agent-repo-init-9f153b45",
@@ -153,7 +162,8 @@
       "risk_level": "medium",
       "primary_language": "python",
       "install_url": "https://github.com/study8677/antigravity-workspace-template",
-      "skill_type": "agent_skill"
+      "skill_type": "agent_skill",
+      "verified_commit": "7eea6554c9d30eab96ec63d393db2139473a2e43"
     }
   ],
   "total_skills": 10,
@@ -161,5 +171,5 @@
   "avg_score": 68.5,
   "min_score": 50,
   "top_stars": 0,
-  "generated_at": "2026-03-05T16:00:23Z"
+  "generated_at": "2026-03-05T16:07:36Z"
 }

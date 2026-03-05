@@ -27,7 +27,8 @@
       "risk_level": "medium",
       "primary_language": "typescript",
       "install_url": "https://github.com/anomalyco/opencode",
-      "skill_type": "agent_skill"
+      "skill_type": "agent_skill",
+      "verified_commit": "324230806e99d4e5c9cc14fd66ddad0ba0c2b6e6"
     },
     {
       "id": "api-design-52937de2",
@@ -41,7 +42,8 @@
       "risk_level": "medium",
       "primary_language": "javascript",
       "install_url": "https://github.com/affaan-m/everything-claude-code",
-      "skill_type": "agent_skill"
+      "skill_type": "agent_skill",
+      "verified_commit": "32e9c293f0d6f04e3b9bf804887747d5c8b5dc10"
     },
     {
       "id": "ccxt-csharp-88ce3fec",
@@ -55,7 +57,8 @@
       "risk_level": "medium",
       "primary_language": "typescript",
       "install_url": "https://github.com/ccxt/ccxt",
-      "skill_type": "agent_skill"
+      "skill_type": "agent_skill",
+      "verified_commit": "ff95cd2a813790719621a3d24e810ca95ae26f8b"
     },
     {
       "id": "syncable-entity-integration-26406115",
@@ -69,7 +72,8 @@
       "risk_level": "medium",
       "primary_language": "typescript",
       "install_url": "https://github.com/twentyhq/twenty",
-      "skill_type": "agent_skill"
+      "skill_type": "agent_skill",
+      "verified_commit": "228865bd9491090a516b49df8056bbc7f6897fd4"
     },
     {
       "id": "wox-plugin-creator-414045f5",
@@ -83,7 +87,8 @@
       "risk_level": "medium",
       "primary_language": "go",
       "install_url": "https://github.com/wox-launcher/wox",
-      "skill_type": "agent_skill"
+      "skill_type": "agent_skill",
+      "verified_commit": "fd10b0488dce9ca1aa7672a2ce40db11339ef1b2"
     },
     {
       "id": "backend-dev-1b7f27c9",
@@ -97,7 +102,8 @@
       "risk_level": "medium",
       "primary_language": "typescript",
       "install_url": "https://github.com/srbhr/resume-matcher",
-      "skill_type": "agent_skill"
+      "skill_type": "agent_skill",
+      "verified_commit": "4744329c0bf6f4d8daa5d37e8ecab7abcd03322f"
     },
     {
       "id": "add-jit-kernel-6041f7f6",
@@ -111,7 +117,8 @@
       "risk_level": "medium",
       "primary_language": "python",
       "install_url": "https://github.com/sgl-project/sglang",
-      "skill_type": "agent_skill"
+      "skill_type": "agent_skill",
+      "verified_commit": "1b76eb93618c5c4318c6c0f70783dd18dc315bc1"
     },
     {
       "id": "jlowin--fastmcp",
@@ -125,7 +132,8 @@
       "risk_level": "medium",
       "primary_language": "Python",
       "install_url": "https://github.com/jlowin/fastmcp",
-      "skill_type": "mcp_server"
+      "skill_type": "mcp_server",
+      "verified_commit": "610551c7b610e8f7b9367672c42acc80a2b12038"
     },
     {
       "id": "quality-bun-feature-delivery-b55bcfa6",
@@ -139,7 +147,8 @@
       "risk_level": "medium",
       "primary_language": "rust",
       "install_url": "https://github.com/nikivdev/flow",
-      "skill_type": "agent_skill"
+      "skill_type": "agent_skill",
+      "verified_commit": "c6a5560b29dec7b636e06dcda31bbdcbde2b05f5"
     },
     {
       "id": "code-change-verification-31050be0",
@@ -153,7 +162,8 @@
       "risk_level": "medium",
       "primary_language": "python",
       "install_url": "https://github.com/openai/openai-agents-python",
-      "skill_type": "agent_skill"
+      "skill_type": "agent_skill",
+      "verified_commit": "2e1d608bc66db1bf8312bbbb57f5c6d6904e2155"
     }
   ],
   "total_skills": 10,
@@ -161,5 +171,5 @@
   "avg_score": 62.0,
   "min_score": 50,
   "top_stars": 0,
-  "generated_at": "2026-03-05T16:00:23Z"
+  "generated_at": "2026-03-05T16:07:36Z"
 }

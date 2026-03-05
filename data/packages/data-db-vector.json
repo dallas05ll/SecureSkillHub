@@ -27,7 +27,8 @@
       "risk_level": "medium",
       "primary_language": "Python",
       "install_url": "https://github.com/yusufkaraaslan/Skill_Seekers",
-      "skill_type": "agent_skill"
+      "skill_type": "agent_skill",
+      "verified_commit": "3bad7cf365d91233293b006b89454eb7d10ef30c"
     },
     {
       "id": "mcp-server-milvus-8e15b5bd",
@@ -41,7 +42,8 @@
       "risk_level": "high",
       "primary_language": "unknown",
       "install_url": "https://github.com/zilliztech/mcp-server-milvus",
-      "skill_type": "mcp_server"
+      "skill_type": "mcp_server",
+      "verified_commit": "ca21cc71f00ad61f7a79e77af7d1dc20de549dd3"
     },
     {
       "id": "mcp-server-weaviate-f4747e86",
@@ -55,7 +57,8 @@
       "risk_level": "info",
       "primary_language": "go",
       "install_url": "https://github.com/weaviate/mcp-server-weaviate",
-      "skill_type": "mcp_server"
+      "skill_type": "mcp_server",
+      "verified_commit": "4db6a8f0aacfbca38b44510c60dc5f8afed0439b"
     },
     {
       "id": "mcp-pinecone-6a2e34b9",
@@ -69,7 +72,8 @@
       "risk_level": "medium",
       "primary_language": "python",
       "install_url": "https://github.com/sirmews/mcp-pinecone",
-      "skill_type": "mcp_server"
+      "skill_type": "mcp_server",
+      "verified_commit": "5477b421bace738621653ca659f2301ad03fa37a"
     },
     {
       "id": "add-tools-1fbcc399",
@@ -83,7 +87,8 @@
       "risk_level": "medium",
       "primary_language": "typescript",
       "install_url": "https://github.com/databricks/app-templates",
-      "skill_type": "agent_skill"
+      "skill_type": "agent_skill",
+      "verified_commit": "8271997f6ce671189fd8e769fa1ff488b1d24d7c"
     },
     {
       "id": "chroma-dd6d20fa",
@@ -97,7 +102,8 @@
       "risk_level": "low",
       "primary_language": "python",
       "install_url": "https://github.com/privetin/chroma",
-      "skill_type": "mcp_server"
+      "skill_type": "mcp_server",
+      "verified_commit": "7d1b85ab72c9c1c8f9b67f3cacd38f723d93780f"
     },
     {
       "id": "pinecone-claude-code-plugin-bf41aad0",
@@ -111,7 +117,8 @@
       "risk_level": "medium",
       "primary_language": "markdown",
       "install_url": "https://github.com/pinecone-io/pinecone-claude-code-plugin",
-      "skill_type": "agent_skill"
+      "skill_type": "agent_skill",
+      "verified_commit": "022eb355120838567dd4974217a01957494410ee"
     },
     {
       "id": "cursor-local-indexing-d598ba46",
@@ -125,7 +132,8 @@
       "risk_level": "medium",
       "primary_language": "python",
       "install_url": "https://github.com/LuotoCompany/cursor-local-indexing",
-      "skill_type": "mcp_server"
+      "skill_type": "mcp_server",
+      "verified_commit": "92d0f461fe7ee53924cd353ecaad3fe52acb5cf9"
     },
     {
       "id": "zilliz-mcp-server-c57b951b",
@@ -139,7 +147,8 @@
       "risk_level": "medium",
       "primary_language": "python",
       "install_url": "https://github.com/zilliztech/zilliz-mcp-server",
-      "skill_type": "mcp_server"
+      "skill_type": "mcp_server",
+      "verified_commit": "28aa191b2e10b42e5634bea9105a682f151aacd1"
     },
     {
       "id": "chroma-mcp-server-b0852269",
@@ -153,7 +162,8 @@
       "risk_level": "medium",
       "primary_language": "python",
       "install_url": "https://github.com/djm81/chroma_mcp_server",
-      "skill_type": "mcp_server"
+      "skill_type": "mcp_server",
+      "verified_commit": "4401cbbb23e80a2aafcdf99140eed095d87d1ad4"
     }
   ],
   "total_skills": 10,
@@ -161,5 +171,5 @@
   "avg_score": 80.9,
   "min_score": 57,
   "top_stars": 9849,
-  "generated_at": "2026-03-05T16:00:23Z"
+  "generated_at": "2026-03-05T16:07:36Z"
 }

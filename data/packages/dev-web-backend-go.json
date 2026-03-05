@@ -27,7 +27,8 @@
       "risk_level": "info",
       "primary_language": "go",
       "install_url": "https://github.com/metoro-io/mcp-golang",
-      "skill_type": "mcp_server"
+      "skill_type": "mcp_server",
+      "verified_commit": "e5d629c5cd43e3470dcd3bf4cbc675a90bfcf513"
     },
     {
       "id": "cortex-777cbcd6",
@@ -41,7 +42,8 @@
       "risk_level": "medium",
       "primary_language": "go",
       "install_url": "https://github.com/FreePeak/cortex",
-      "skill_type": "mcp_server"
+      "skill_type": "mcp_server",
+      "verified_commit": "64e47c1d4a73c1fe9fc2491c4ad49b9cd8c0aeb2"
     },
     {
       "id": "zerodha-mcp-go-82808d00",
@@ -55,7 +57,8 @@
       "risk_level": "medium",
       "primary_language": "go",
       "install_url": "https://github.com/sukeesh/zerodha-mcp-go",
-      "skill_type": "mcp_server"
+      "skill_type": "mcp_server",
+      "verified_commit": "f680ec5be05a3d5079c730f5d85a299663e221bf"
     },
     {
       "id": "mcp-argo-server-1f9968dc",
@@ -69,7 +72,8 @@
       "risk_level": "medium",
       "primary_language": "go",
       "install_url": "https://github.com/jakkaj/mcp-argo-server",
-      "skill_type": "mcp_server"
+      "skill_type": "mcp_server",
+      "verified_commit": "f4fd50ee6d7734544184e9671c31d31b28143080"
     },
     {
       "id": "go-dev-mcp-c6f0c6e6",
@@ -83,7 +87,8 @@
       "risk_level": "info",
       "primary_language": "go",
       "install_url": "https://github.com/fpt/go-dev-mcp",
-      "skill_type": "mcp_server"
+      "skill_type": "mcp_server",
+      "verified_commit": "b19422494e4463c1686078ef63a43fcace16a7cf"
     },
     {
       "id": "keeper-mcp-golang-docker-d14b373d",
@@ -97,7 +102,8 @@
       "risk_level": "info",
       "primary_language": "go",
       "install_url": "https://github.com/Keeper-Security/keeper-mcp-golang-docker",
-      "skill_type": "mcp_server"
+      "skill_type": "mcp_server",
+      "verified_commit": "cac362909a33767f4dd9729f535715a8b9583ff5"
     },
     {
       "id": "mcp-client-server-ed2abea1",
@@ -111,7 +117,8 @@
       "risk_level": "medium",
       "primary_language": "go",
       "install_url": "https://github.com/duaraghav8/mcp-client-server",
-      "skill_type": "mcp_server"
+      "skill_type": "mcp_server",
+      "verified_commit": "ebf35a2058559bfc6d55840c6ec2b2b2edb37a92"
     },
     {
       "id": "mcp-golang-http-server-4d26ae71",
@@ -125,7 +132,8 @@
       "risk_level": "info",
       "primary_language": "go",
       "install_url": "https://github.com/davidferlay/mcp-golang-http-server",
-      "skill_type": "mcp_server"
+      "skill_type": "mcp_server",
+      "verified_commit": "7dafbcd6822aafc5c8cd3546a4078326a4514d07"
     },
     {
       "id": "sonar-mcp-server-000a500a",
@@ -139,7 +147,8 @@
       "risk_level": "medium",
       "primary_language": "go",
       "install_url": "https://github.com/lreimer/sonar-mcp-server",
-      "skill_type": "mcp_server"
+      "skill_type": "mcp_server",
+      "verified_commit": "84f38b4a385d6b8b402044954b75cbb95a1d6703"
     },
     {
       "id": "timemcp-0515afd6",
@@ -153,7 +162,8 @@
       "risk_level": "medium",
       "primary_language": "go",
       "install_url": "https://github.com/chew-z/TimeMCP",
-      "skill_type": "mcp_server"
+      "skill_type": "mcp_server",
+      "verified_commit": "78074d9f248bfef329b89e412d53229a545df956"
     }
   ],
   "total_skills": 10,
@@ -161,5 +171,5 @@
   "avg_score": 94.6,
   "min_score": 78,
   "top_stars": 1196,
-  "generated_at": "2026-03-05T16:00:23Z"
+  "generated_at": "2026-03-05T16:07:36Z"
 }

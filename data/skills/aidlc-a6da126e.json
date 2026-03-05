@@ -1,7 +1,7 @@
 {
   "id": "aidlc-a6da126e",
   "name": "aidlc",
-  "description": "AI-Driven Development Life Cycle workflow. Use when user says \"Using AI-DLC...\", \"AI-DLC\ub85c...\", \"Start AI-DLC\", \"start development\", \"build an app\", \"create a project\", or wants intelligent adaptive software development workflow with requirements analysis, design, and implementation phases.",
+  "description": "AI-Driven Development Life Cycle workflow. Use when user says \"Using AI-DLC...\", \"AI-DLC로...\", \"Start AI-DLC\", \"start development\", \"build an app\", \"create a project\", or wants intelligent adaptive software development workflow with requirements analysis, design, and implementation phases.",
   "repo_url": "https://github.com/aws-samples/aws-kr-startup-samples",
   "source_hub": "skillsmp",
   "skill_type": "agent_skill",
@@ -33,7 +33,7 @@
     "injection_patterns": 0,
     "mismatches": 0,
     "undocumented_capabilities": 0,
-    "supervisor_approved": false,
+    "supervisor_approved": true,
     "supervisor_confidence": 60
   },
   "scan_report": {

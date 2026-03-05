@@ -1,0 +1,2722 @@
+{
+  "generated": "2026-03-05T16:07:39.333116+00:00",
+  "total": 5406,
+  "verified": 1329,
+  "showing": 200,
+  "sort": "priority_desc",
+  "items": [
+    {
+      "id": "find-skills-dbd2f3df",
+      "name": "Find Skills",
+      "score": 350000,
+      "score_type": "installs",
+      "tier": "S",
+      "verified": true,
+      "tags": [
+        "utilities-search"
+      ],
+      "one_liner": "Agent skill: find-skills from vercel-labs/skills"
+    },
+    {
+      "id": "extract-errors-d657e736",
+      "name": "extract-errors",
+      "score": 243058,
+      "score_type": "installs",
+      "tier": "S",
+      "verified": true,
+      "tags": [
+        "dev",
+        "dev-web",
+        "dev-web-frontend"
+      ],
+      "one_liner": "Use when adding new error messages to React, or seeing \"unknown error code\" w..."
+    },
+    {
+      "id": "1password-21f2bd26",
+      "name": "1password",
+      "score": 206456,
+      "score_type": "installs",
+      "tier": "S",
+      "verified": true,
+      "tags": [
+        "dev",
+        "dev-desktop",
+        "integrations"
+      ],
+      "one_liner": "Set up and use 1Password CLI (op). Use when installing the CLI, enabling desk..."
+    },
+    {
+      "id": "accessibility-a530c89b",
+      "name": "accessibility",
+      "score": 181759,
+      "score_type": "installs",
+      "tier": "S",
+      "verified": true,
+      "tags": [
+        "status-pass",
+        "utilities",
+        "utilities-monitor"
+      ],
+      "one_liner": "Accessibility guidelines for VS Code features — covers accessibility help dia..."
+    },
+    {
+      "id": "vercel-react-best-practices-56554634",
+      "name": "Vercel React Best Practices",
+      "score": 175300,
+      "score_type": "installs",
+      "tier": "S",
+      "verified": true,
+      "tags": [
+        "dev",
+        "dev-web",
+        "dev-web-frontend"
+      ],
+      "one_liner": "Agent skill: vercel-react-best-practices from vercel-labs/agent-skills"
+    },
+    {
+      "id": "book-translation-ca9b97b5",
+      "name": "book-translation",
+      "score": 145396,
+      "score_type": "installs",
+      "tier": "S",
+      "verified": true,
+      "tags": [
+        "data",
+        "data-ai",
+        "data-ai-nlp"
+      ],
+      "one_liner": "Translate \"The Interactive Book of Prompting\" chapters and UI strings to a ne..."
+    },
+    {
+      "id": "authoring-skills-5244e826",
+      "name": "authoring-skills",
+      "score": 137738,
+      "score_type": "installs",
+      "tier": "S",
+      "verified": true,
+      "tags": [
+        "data",
+        "data-ai",
+        "status-pass"
+      ],
+      "one_liner": "How to create and maintain agent skills in .agents/skills/. Use when creating..."
+    },
+    {
+      "id": "component-refactoring-ea710729",
+      "name": "component-refactoring",
+      "score": 129746,
+      "score_type": "installs",
+      "tier": "S",
+      "verified": true,
+      "tags": [
+        "dev",
+        "dev-testing",
+        "dev-web"
+      ],
+      "one_liner": "Refactor high-complexity React components in Dify frontend. Use when `pnpm an..."
+    },
+    {
+      "id": "electron-chromium-upgrade-1a936deb",
+      "name": "electron-chromium-upgrade",
+      "score": 120137,
+      "score_type": "installs",
+      "tier": "S",
+      "verified": true,
+      "tags": [
+        "dev",
+        "dev-desktop",
+        "dev-desktop-electron"
+      ],
+      "one_liner": "Guide for performing Chromium version upgrades in the Electron project. Use w..."
+    },
+    {
+      "id": "remotion-best-practices-52f6dfff",
+      "name": "Remotion Best Practices",
+      "score": 116200,
+      "score_type": "installs",
+      "tier": "S",
+      "verified": true,
+      "tags": [
+        "dev-web-frontend",
+        "dev"
+      ],
+      "one_liner": "Agent skill: remotion-best-practices from remotion-dev/skills"
+    },
+    {
+      "id": "frontend-design-b0f77b24",
+      "name": "Frontend Design",
+      "score": 107100,
+      "score_type": "installs",
+      "tier": "S",
+      "verified": true,
+      "tags": [
+        "dev",
+        "dev-web",
+        "dev-web-frontend"
+      ],
+      "one_liner": "Agent skill: frontend-design from anthropics/skills"
+    },
+    {
+      "id": "bun-file-io-73b87698",
+      "name": "bun-file-io",
+      "score": 106258,
+      "score_type": "installs",
+      "tier": "S",
+      "verified": true,
+      "tags": [
+        "dev",
+        "dev-web",
+        "dev-web-backend"
+      ],
+      "one_liner": ""
+    },
+    {
+      "id": "angular-new-app-9e37438e",
+      "name": "angular-new-app",
+      "score": 99859,
+      "score_type": "installs",
+      "tier": "S",
+      "verified": true,
+      "tags": [
+        "dev",
+        "dev-web",
+        "dev-web-frontend"
+      ],
+      "one_liner": "Creates a new Angular app using the Angular CLI. This skill should be used wh..."
+    },
+    {
+      "id": "e2e-studio-tests-4e62511a",
+      "name": "e2e-studio-tests",
+      "score": 97732,
+      "score_type": "installs",
+      "tier": "S",
+      "verified": true,
+      "tags": [
+        "dev",
+        "dev-testing",
+        "status-fail"
+      ],
+      "one_liner": "Run e2e tests in the Studio app. Use when asked to run e2e tests, run studio..."
+    },
+    {
+      "id": "aoti-debug-63f2cfca",
+      "name": "aoti-debug",
+      "score": 97476,
+      "score_type": "installs",
+      "tier": "S",
+      "verified": true,
+      "tags": [
+        "dev",
+        "status-pass"
+      ],
+      "one_liner": "Debug AOTInductor (AOTI) errors and crashes. Use when encountering AOTI segfa..."
+    },
+    {
+      "id": "code-reviewer-7462d107",
+      "name": "code-reviewer",
+      "score": 95770,
+      "score_type": "installs",
+      "tier": "S",
+      "verified": true,
+      "tags": [
+        "dev",
+        "dev-git",
+        "security"
+      ],
+      "one_liner": "Thorough code review with focus on security, performance, and best practices...."
+    },
+    {
+      "id": "code-reviewer-6ed1f6c6",
+      "name": "code-reviewer",
+      "score": 94757,
+      "score_type": "installs",
+      "tier": "S",
+      "verified": true,
+      "tags": [
+        "utilities",
+        "status-pass"
+      ],
+      "one_liner": ""
+    },
+    {
+      "id": "implementing-jsc-classes-cpp-d0790e55",
+      "name": "implementing-jsc-classes-cpp",
+      "score": 87385,
+      "score_type": "installs",
+      "tier": "S",
+      "verified": true,
+      "tags": [
+        "utilities",
+        "status-pass"
+      ],
+      "one_liner": "Implements JavaScript classes in C++ using JavaScriptCore. Use when creating..."
+    },
+    {
+      "id": "azure-ai-4eff05a2",
+      "name": "Azure Ai",
+      "score": 86100,
+      "score_type": "installs",
+      "tier": "S",
+      "verified": true,
+      "tags": [
+        "data",
+        "data-ai",
+        "integrations"
+      ],
+      "one_liner": "Agent skill: azure-ai from microsoft/github-copilot-for-azure"
+    },
+    {
+      "id": "home-assistant-integration-knowledge-8dfdc09c",
+      "name": "home-assistant-integration-knowledge",
+      "score": 84876,
+      "score_type": "installs",
+      "tier": "S",
+      "verified": true,
+      "tags": [
+        "integrations",
+        "status-pass"
+      ],
+      "one_liner": "Everything you need to know to build, test and review Home Assistant Integrat..."
+    },
+    {
+      "id": "playwright-cli-2f232e28",
+      "name": "playwright-cli",
+      "score": 82751,
+      "score_type": "installs",
+      "tier": "S",
+      "verified": true,
+      "tags": [
+        "dev",
+        "dev-testing",
+        "dev-web"
+      ],
+      "one_liner": "Automates browser interactions for web testing, form filling, screenshots, an..."
+    },
+    {
+      "id": "brand-writer-54cd7d71",
+      "name": "brand-writer",
+      "score": 75523,
+      "score_type": "installs",
+      "tier": "S",
+      "verified": true,
+      "tags": [
+        "dev",
+        "status-pass"
+      ],
+      "one_liner": "Write clear, developer-first copy for Zed — leading with facts, grounded in c..."
+    },
+    {
+      "id": "add-provider-doc-1097a62f",
+      "name": "add-provider-doc",
+      "score": 72342,
+      "score_type": "installs",
+      "tier": "S",
+      "verified": true,
+      "tags": [
+        "status-pass",
+        "data",
+        "data-ai"
+      ],
+      "one_liner": "Guide for adding new AI provider documentation. Use when adding documentation..."
+    },
+    {
+      "id": "concept-workflow-3ef8cb47",
+      "name": "concept-workflow",
+      "score": 66246,
+      "score_type": "installs",
+      "tier": "S",
+      "verified": true,
+      "tags": [
+        "productivity",
+        "productivity-docs",
+        "status-pass"
+      ],
+      "one_liner": "End-to-end workflow for creating complete JavaScript concept documentation, o..."
+    },
+    {
+      "id": "agent-browser-1bf556f2",
+      "name": "Agent Browser",
+      "score": 65600,
+      "score_type": "installs",
+      "tier": "S",
+      "verified": true,
+      "tags": [
+        "dev",
+        "dev-web"
+      ],
+      "one_liner": "Agent skill: agent-browser from vercel-labs/agent-browser"
+    },
+    {
+      "id": "superpowers-675df694",
+      "name": "Superpowers",
+      "score": 61708,
+      "score_type": "installs",
+      "tier": "S",
+      "verified": true,
+      "tags": [
+        "dev",
+        "dev-testing"
+      ],
+      "one_liner": "Comprehensive agentic skills framework and software development methodology f..."
+    },
+    {
+      "id": "skill-creator-8fb73594",
+      "name": "skill-creator",
+      "score": 60910,
+      "score_type": "installs",
+      "tier": "S",
+      "verified": true,
+      "tags": [
+        "utilities",
+        "status-pass"
+      ],
+      "one_liner": "Guide for creating effective skills. This skill should be used when users wan..."
+    },
+    {
+      "id": "create-pull-request-5bf14eee",
+      "name": "create-pull-request",
+      "score": 58099,
+      "score_type": "installs",
+      "tier": "S",
+      "verified": true,
+      "tags": [
+        "dev",
+        "dev-git",
+        "integrations"
+      ],
+      "one_liner": "Create a GitHub pull request following project conventions. Use when the user..."
+    },
+    {
+      "id": "add-admin-api-endpoint-fda06124",
+      "name": "add-admin-api-endpoint",
+      "score": 51838,
+      "score_type": "installs",
+      "tier": "S",
+      "verified": true,
+      "tags": [
+        "status-pass",
+        "dev",
+        "dev-web"
+      ],
+      "one_liner": "Add a new endpoint or endpoints to Ghost's Admin API at `ghost/api/admin/**`."
+    },
+    {
+      "id": "debugging-output-and-previewing-html-usi-820d3f32",
+      "name": "debugging-output-and-previewing-html-using-ray",
+      "score": 50768,
+      "score_type": "installs",
+      "tier": "S",
+      "verified": true,
+      "tags": [
+        "dev",
+        "dev-desktop",
+        "dev-web"
+      ],
+      "one_liner": "Use when user says \"send to Ray,\" \"show in Ray,\" \"debug in Ray,\" \"log to Ray,..."
+    },
+    {
+      "id": "microsoft-docs-68876f00",
+      "name": "microsoft-docs",
+      "score": 50742,
+      "score_type": "installs",
+      "tier": "S",
+      "verified": true,
+      "tags": [
+        "dev",
+        "dev-agents",
+        "integrations"
+      ],
+      "one_liner": "Query official Microsoft documentation to find concepts, tutorials, and code..."
+    },
+    {
+      "id": "api-design-52937de2",
+      "name": "api-design",
+      "score": 47582,
+      "score_type": "installs",
+      "tier": "S",
+      "verified": true,
+      "tags": [
+        "dev",
+        "dev-web",
+        "dev-web-backend"
+      ],
+      "one_liner": "REST API design patterns including resource naming, status codes, pagination,..."
+    },
+    {
+      "id": "discourse-upcoming-changes-e7563f18",
+      "name": "discourse-upcoming-changes",
+      "score": 46359,
+      "score_type": "installs",
+      "tier": "S",
+      "verified": true,
+      "tags": [
+        "data",
+        "data-ai",
+        "data-ai-nlp"
+      ],
+      "one_liner": "Use when adding a new upcoming change feature flag to Discourse - handles sit..."
+    },
+    {
+      "id": "context7-docs-lookup-e3efeab3",
+      "name": "context7-docs-lookup",
+      "score": 46024,
+      "score_type": "installs",
+      "tier": "S",
+      "verified": true,
+      "tags": [
+        "data",
+        "data-db",
+        "dev"
+      ],
+      "one_liner": "Use Context7 to fetch up-to-date library documentation. Activates when the us..."
+    },
+    {
+      "id": "add-malli-schemas-bf4256f0",
+      "name": "add-malli-schemas",
+      "score": 45980,
+      "score_type": "installs",
+      "tier": "S",
+      "verified": true,
+      "tags": [
+        "status-pass",
+        "integrations"
+      ],
+      "one_liner": "Efficiently add Malli schemas to API endpoints in the Metabase codebase with..."
+    },
+    {
+      "id": "build-4296c0f1",
+      "name": "build",
+      "score": 45935,
+      "score_type": "installs",
+      "tier": "S",
+      "verified": true,
+      "tags": [
+        "dev",
+        "status-pass"
+      ],
+      "one_liner": "Build ClickHouse with various configurations (Release, Debug, ASAN, TSAN, etc..."
+    },
+    {
+      "id": "pr-walkthrough-afa904d1",
+      "name": "pr-walkthrough",
+      "score": 45240,
+      "score_type": "installs",
+      "tier": "S",
+      "verified": true,
+      "tags": [
+        "data",
+        "data-ai",
+        "data-ai-audio"
+      ],
+      "one_liner": "Create a narrated video walkthrough of a pull request with code slides and au..."
+    },
+    {
+      "id": "ai-context-3aadea06",
+      "name": "ai-context",
+      "score": 44785,
+      "score_type": "installs",
+      "tier": "S",
+      "verified": true,
+      "tags": [
+        "productivity",
+        "productivity-docs",
+        "status-pass"
+      ],
+      "one_liner": "Use when creating, updating, or maintaining AI documentation files (AGENTS.md..."
+    },
+    {
+      "id": "slidev-faab6e02",
+      "name": "slidev",
+      "score": 44376,
+      "score_type": "installs",
+      "tier": "S",
+      "verified": true,
+      "tags": [
+        "dev",
+        "dev-web",
+        "dev-web-frontend"
+      ],
+      "one_liner": "Create and present web-based slides for developers using Markdown, Vue compon..."
+    },
+    {
+      "id": "read-arxiv-paper-2216d31b",
+      "name": "read-arxiv-paper",
+      "score": 43581,
+      "score_type": "installs",
+      "tier": "S",
+      "verified": true,
+      "tags": [
+        "utilities",
+        "status-pass"
+      ],
+      "one_liner": "Use this skill when when asked to read an arxiv paper given an arxiv URL"
+    },
+    {
+      "id": "addressing-pr-review-comments-6845d29b",
+      "name": "addressing-pr-review-comments",
+      "score": 43512,
+      "score_type": "installs",
+      "tier": "S",
+      "verified": true,
+      "tags": [
+        "productivity",
+        "productivity-docs",
+        "utilities"
+      ],
+      "one_liner": "Address all valid review comments on a PR for the current branch in the strea..."
+    },
+    {
+      "id": "agent-tools-0b12a3f4",
+      "name": "Agent Tools",
+      "score": 43400,
+      "score_type": "installs",
+      "tier": "S",
+      "verified": true,
+      "tags": [
+        "utilities"
+      ],
+      "one_liner": "Agent skill: agent-tools from inference-sh-9/skills"
+    },
+    {
+      "id": "design-system-91b970e4",
+      "name": "design-system",
+      "score": 43162,
+      "score_type": "installs",
+      "tier": "S",
+      "verified": true,
+      "tags": [
+        "utilities",
+        "utilities-monitor",
+        "status-pass"
+      ],
+      "one_liner": "Guide for using Sentry's layout and text primitives. Use when implementing UI..."
+    },
+    {
+      "id": "browser-use-fb4a9228",
+      "name": "Browser Use",
+      "score": 41700,
+      "score_type": "installs",
+      "tier": "S",
+      "verified": true,
+      "tags": [
+        "dev",
+        "dev-web"
+      ],
+      "one_liner": "Agent skill: browser-use from browser-use/browser-use"
+    },
+    {
+      "id": "ui-ux-pro-max-04b8c90e",
+      "name": "Ui Ux Pro Max",
+      "score": 41400,
+      "score_type": "installs",
+      "tier": "S",
+      "verified": true,
+      "tags": [
+        "dev-web-frontend"
+      ],
+      "one_liner": "Agent skill: ui-ux-pro-max from nextlevelbuilder/ui-ux-pro-max-skill"
+    },
+    {
+      "id": "linkai-agent-10e095bd",
+      "name": "linkai-agent",
+      "score": 41306,
+      "score_type": "installs",
+      "tier": "S",
+      "verified": true,
+      "tags": [
+        "data",
+        "data-ai",
+        "status-pass"
+      ],
+      "one_liner": "Call LinkAI applications and workflows. Use bash command to execute like 'bas..."
+    },
+    {
+      "id": "ccxt-csharp-88ce3fec",
+      "name": "ccxt-csharp",
+      "score": 40951,
+      "score_type": "installs",
+      "tier": "S",
+      "verified": true,
+      "tags": [
+        "data",
+        "data-finance",
+        "dev"
+      ],
+      "one_liner": "CCXT cryptocurrency exchange library for C# and .NET developers. Covers both..."
+    },
+    {
+      "id": "payload-4dbf9285",
+      "name": "payload",
+      "score": 40647,
+      "score_type": "installs",
+      "tier": "S",
+      "verified": true,
+      "tags": [
+        "dev",
+        "integrations",
+        "security"
+      ],
+      "one_liner": "Use when working with Payload CMS projects (payload.config.ts, collections, f..."
+    },
+    {
+      "id": "calcom-api-41399316",
+      "name": "calcom-api",
+      "score": 40236,
+      "score_type": "installs",
+      "tier": "S",
+      "verified": true,
+      "tags": [
+        "dev",
+        "dev-devops",
+        "integrations"
+      ],
+      "one_liner": "Interact with the Cal.com API v2 to manage scheduling, bookings, event types,..."
+    },
+    {
+      "id": "gh-create-pr-8e096837",
+      "name": "gh-create-pr",
+      "score": 39908,
+      "score_type": "installs",
+      "tier": "S",
+      "verified": true,
+      "tags": [
+        "productivity",
+        "productivity-docs",
+        "security"
+      ],
+      "one_liner": "Create or update GitHub pull requests using the repository-required workflow..."
+    },
+    {
+      "id": "syncable-entity-integration-26406115",
+      "name": "syncable-entity-integration",
+      "score": 39769,
+      "score_type": "installs",
+      "tier": "S",
+      "verified": true,
+      "tags": [
+        "dev",
+        "dev-web",
+        "dev-web-backend"
+      ],
+      "one_liner": "Wire syncable entity services into NestJS modules, create service layer and r..."
+    },
+    {
+      "id": "tidb-test-guidelines-0ae3ef66",
+      "name": "tidb-test-guidelines",
+      "score": 39746,
+      "score_type": "installs",
+      "tier": "S",
+      "verified": true,
+      "tags": [
+        "utilities",
+        "status-pass"
+      ],
+      "one_liner": "Decide where to place TiDB tests and how to write them (basic structure, nami..."
+    },
+    {
+      "id": "better-auth-best-practices-9ad36993",
+      "name": "better-auth-best-practices",
+      "score": 38585,
+      "score_type": "installs",
+      "tier": "S",
+      "verified": true,
+      "tags": [
+        "security",
+        "security-auth",
+        "status-pass"
+      ],
+      "one_liner": "Skill for integrating Better Auth - the comprehensive TypeScript authenticati..."
+    },
+    {
+      "id": "code-review-b41809ba",
+      "name": "code-review",
+      "score": 37919,
+      "score_type": "installs",
+      "tier": "S",
+      "verified": true,
+      "tags": [
+        "dev",
+        "status-pass"
+      ],
+      "one_liner": "Code review assistance with linting, style checking, and best practices"
+    },
+    {
+      "id": "desktop-release-e4cbd82d",
+      "name": "desktop-release",
+      "score": 37216,
+      "score_type": "installs",
+      "tier": "S",
+      "verified": true,
+      "tags": [
+        "data",
+        "data-ai",
+        "status-pass"
+      ],
+      "one_liner": "Perform a regular desktop release from the dev branch. Gathers commits since..."
+    },
+    {
+      "id": "add-expert-5daf80cc",
+      "name": "add-expert",
+      "score": 37007,
+      "score_type": "installs",
+      "tier": "S",
+      "verified": true,
+      "tags": [
+        "status-pass",
+        "utilities"
+      ],
+      "one_liner": "Add a new expert to the Remotion experts page"
+    },
+    {
+      "id": "bmad-os-changelog-social-b9995050",
+      "name": "bmad-os-changelog-social",
+      "score": 36179,
+      "score_type": "installs",
+      "tier": "S",
+      "verified": true,
+      "tags": [
+        "integrations",
+        "integrations-social",
+        "productivity"
+      ],
+      "one_liner": "Generate social media announcements for Discord, Twitter, and LinkedIn from t..."
+    },
+    {
+      "id": "agent-mail-automation-2799f28b",
+      "name": "agent-mail-automation",
+      "score": 35572,
+      "score_type": "installs",
+      "tier": "S",
+      "verified": true,
+      "tags": [
+        "productivity",
+        "utilities",
+        "utilities-search"
+      ],
+      "one_liner": "Automate Agent Mail tasks via Rube MCP (Composio). Always search tools first..."
+    },
+    {
+      "id": "resume-builder-4ef5b990",
+      "name": "resume-builder",
+      "score": 35275,
+      "score_type": "installs",
+      "tier": "S",
+      "verified": true,
+      "tags": [
+        "utilities",
+        "status-pass"
+      ],
+      "one_liner": "Generate professional resumes that conform to the Reactive Resume schema. Use..."
+    },
+    {
+      "id": "analyzing-financial-statements-e0f9e1f5",
+      "name": "analyzing-financial-statements",
+      "score": 33010,
+      "score_type": "installs",
+      "tier": "S",
+      "verified": true,
+      "tags": [
+        "utilities",
+        "utilities-monitor",
+        "status-pass"
+      ],
+      "one_liner": "This skill calculates key financial ratios and metrics from financial stateme..."
+    },
+    {
+      "id": "backport-pr-assistant-9670a381",
+      "name": "backport-pr-assistant",
+      "score": 31857,
+      "score_type": "installs",
+      "tier": "S",
+      "verified": true,
+      "tags": [
+        "utilities",
+        "utilities-system",
+        "status-pass"
+      ],
+      "one_liner": "Help backport PRs to release branches using the backport CLI tool. Use when b..."
+    },
+    {
+      "id": "cn-check-2238e816",
+      "name": "cn-check",
+      "score": 31429,
+      "score_type": "installs",
+      "tier": "S",
+      "verified": true,
+      "tags": [
+        "data",
+        "data-ai",
+        "dev"
+      ],
+      "one_liner": "Install and run the Continue CLI (`cn`) to execute AI agent checks on local c..."
+    },
+    {
+      "id": "clickhouse-migrations-9dde2af6",
+      "name": "clickhouse-migrations",
+      "score": 31290,
+      "score_type": "installs",
+      "tier": "S",
+      "verified": true,
+      "tags": [
+        "utilities",
+        "status-pass"
+      ],
+      "one_liner": "ClickHouse migration patterns and rules. Use when creating or modifying Click..."
+    },
+    {
+      "id": "summarize-activity-41137b98",
+      "name": "summarize-activity",
+      "score": 31181,
+      "score_type": "installs",
+      "tier": "S",
+      "verified": true,
+      "tags": [
+        "data",
+        "data-ai",
+        "data-ai-nlp"
+      ],
+      "one_liner": "Summarize recent GitHub activity — discussions, PRs, issues, events, traffic..."
+    },
+    {
+      "id": "task-think-665f0f1b",
+      "name": "task-think",
+      "score": 29880,
+      "score_type": "installs",
+      "tier": "S",
+      "verified": true,
+      "tags": [
+        "productivity",
+        "status-pass"
+      ],
+      "one_liner": "Orchestrate a multi-phase implementation workflow for this repository with ar..."
+    },
+    {
+      "id": "brightdata-web-mcp-3d0085a6",
+      "name": "brightdata-web-mcp",
+      "score": 29876,
+      "score_type": "installs",
+      "tier": "S",
+      "verified": true,
+      "tags": [
+        "integrations",
+        "integrations-cloud",
+        "integrations-cloud-aws"
+      ],
+      "one_liner": "Search the web, scrape websites, extract structured data from URLs, and autom..."
+    },
+    {
+      "id": "seo-audit-708a167a",
+      "name": "Seo Audit",
+      "score": 28700,
+      "score_type": "installs",
+      "tier": "S",
+      "verified": true,
+      "tags": [
+        "data",
+        "data-ai"
+      ],
+      "one_liner": "Agent skill: seo-audit from coreyhaines31/marketingskills"
+    },
+    {
+      "id": "srs-support-7eaa676e",
+      "name": "srs-support",
+      "score": 28527,
+      "score_type": "installs",
+      "tier": "S",
+      "verified": true,
+      "tags": [
+        "dev",
+        "dev-devops",
+        "status-pass"
+      ],
+      "one_liner": "Answer SRS (Simple Realtime Server) questions for developers and users — prot..."
+    },
+    {
+      "id": "audit-website-e2d17711",
+      "name": "Audit Website",
+      "score": 28400,
+      "score_type": "installs",
+      "tier": "S",
+      "verified": true,
+      "tags": [
+        "dev",
+        "dev-web"
+      ],
+      "one_liner": "Agent skill: audit-website from squirrelscan/skills"
+    },
+    {
+      "id": "openspec-apply-change-cb42fe06",
+      "name": "openspec-apply-change",
+      "score": 28220,
+      "score_type": "installs",
+      "tier": "S",
+      "verified": true,
+      "tags": [
+        "utilities",
+        "status-pass"
+      ],
+      "one_liner": "Implement tasks from an OpenSpec change. Use when the user wants to start imp..."
+    },
+    {
+      "id": "nx-generate-6568a3da",
+      "name": "nx-generate",
+      "score": 28164,
+      "score_type": "installs",
+      "tier": "S",
+      "verified": true,
+      "tags": [
+        "productivity",
+        "status-pass"
+      ],
+      "one_liner": "Generate code using nx generators. USE WHEN scaffolding code or transforming..."
+    },
+    {
+      "id": "heroui-native-c69a7c11",
+      "name": "heroui-native",
+      "score": 28163,
+      "score_type": "installs",
+      "tier": "S",
+      "verified": true,
+      "tags": [
+        "dev",
+        "dev-mobile",
+        "dev-mobile-react-native"
+      ],
+      "one_liner": "HeroUI Native component library for React Native (Tailwind v4 via Uniwind). U..."
+    },
+    {
+      "id": "go-6f9efa4f",
+      "name": "go",
+      "score": 27630,
+      "score_type": "installs",
+      "tier": "S",
+      "verified": true,
+      "tags": [
+        "dev",
+        "productivity",
+        "productivity-docs"
+      ],
+      "one_liner": "Best practices for working with Go codebases. Use when writing, debugging, or..."
+    },
+    {
+      "id": "api-development-0065ed19",
+      "name": "api-development",
+      "score": 27130,
+      "score_type": "installs",
+      "tier": "S",
+      "verified": true,
+      "tags": [
+        "integrations",
+        "status-pass"
+      ],
+      "one_liner": "FastGPT API 开发规范。重点强调使用 zod schema 定义入参和出参,在 API 文档中声明路由信息,编写对应的 OpenAPI 文档,以..."
+    },
+    {
+      "id": "wox-plugin-creator-414045f5",
+      "name": "wox-plugin-creator",
+      "score": 26574,
+      "score_type": "installs",
+      "tier": "S",
+      "verified": true,
+      "tags": [
+        "dev",
+        "dev-web",
+        "dev-web-backend"
+      ],
+      "one_liner": "Create and scaffold Wox plugins (nodejs, python, script-nodejs, script-python..."
+    },
+    {
+      "id": "react-admin-fcabd792",
+      "name": "react-admin",
+      "score": 26536,
+      "score_type": "installs",
+      "tier": "S",
+      "verified": true,
+      "tags": [
+        "dev",
+        "dev-web",
+        "dev-web-frontend"
+      ],
+      "one_liner": "This skill should be used when building, modifying, or debugging a react-admi..."
+    },
+    {
+      "id": "backend-dev-1b7f27c9",
+      "name": "backend-dev",
+      "score": 25975,
+      "score_type": "installs",
+      "tier": "S",
+      "verified": true,
+      "tags": [
+        "dev",
+        "dev-web",
+        "dev-web-backend"
+      ],
+      "one_liner": "Backend development skill for Resume Matcher. Handles FastAPI endpoints, Pyda..."
+    },
+    {
+      "id": "chrome-devtools-6c607f5a",
+      "name": "chrome-devtools",
+      "score": 25819,
+      "score_type": "installs",
+      "tier": "S",
+      "verified": true,
+      "tags": [
+        "dev",
+        "dev-web",
+        "productivity"
+      ],
+      "one_liner": "Uses Chrome DevTools via MCP for efficient debugging, troubleshooting and bro..."
+    },
+    {
+      "id": "supabase-postgres-best-practices-593fe9e6",
+      "name": "Supabase Postgres Best Practices",
+      "score": 25500,
+      "score_type": "installs",
+      "tier": "S",
+      "verified": true,
+      "tags": [
+        "data",
+        "data-db"
+      ],
+      "one_liner": "Agent skill: supabase-postgres-best-practices from supabase/agent-skills"
+    },
+    {
+      "id": "gpt-researcher-aac087c1",
+      "name": "gpt-researcher",
+      "score": 25341,
+      "score_type": "installs",
+      "tier": "S",
+      "verified": true,
+      "tags": [
+        "data",
+        "data-ai",
+        "dev"
+      ],
+      "one_liner": "GPT Researcher is an autonomous deep research agent that conducts web and loc..."
+    },
+    {
+      "id": "debug-node-coverage-585085bf",
+      "name": "debug-node-coverage",
+      "score": 24671,
+      "score_type": "installs",
+      "tier": "S",
+      "verified": true,
+      "tags": [
+        "dev",
+        "dev-testing",
+        "status-pass"
+      ],
+      "one_liner": "Debug node test coverage failures. Use when ./tools/test-js-with-node --cover..."
+    },
+    {
+      "id": "add-review-comment-efb4de97",
+      "name": "add-review-comment",
+      "score": 24211,
+      "score_type": "installs",
+      "tier": "S",
+      "verified": true,
+      "tags": [
+        "status-pass",
+        "dev",
+        "dev-git"
+      ],
+      "one_liner": "Add a review comment to a GitHub pull request."
+    },
+    {
+      "id": "biome-developer-9292b5c3",
+      "name": "biome-developer",
+      "score": 23632,
+      "score_type": "installs",
+      "tier": "S",
+      "verified": true,
+      "tags": [
+        "dev",
+        "status-pass"
+      ],
+      "one_liner": "General development best practices and common gotchas when working on Biome...."
+    },
+    {
+      "id": "add-jit-kernel-6041f7f6",
+      "name": "add-jit-kernel",
+      "score": 23575,
+      "score_type": "installs",
+      "tier": "S",
+      "verified": true,
+      "tags": [
+        "status-pass",
+        "dev",
+        "dev-web"
+      ],
+      "one_liner": "Step-by-step tutorial for adding a lightweight JIT CUDA/C++ kernel to python/..."
+    },
+    {
+      "id": "summarize-activity-fdfe2fb6",
+      "name": "summarize-activity",
+      "score": 23442,
+      "score_type": "installs",
+      "tier": "S",
+      "verified": true,
+      "tags": [
+        "data",
+        "data-ai",
+        "data-ai-nlp"
+      ],
+      "one_liner": "Summarize recent GitHub activity — discussions, PRs, issues, events, traffic..."
+    },
+    {
+      "id": "ai-summary-comment-5fcb40f6",
+      "name": "ai-summary-comment",
+      "score": 23180,
+      "score_type": "installs",
+      "tier": "S",
+      "verified": true,
+      "tags": [
+        "productivity",
+        "status-pass"
+      ],
+      "one_liner": "Posts or updates automated progress comments on GitHub PRs. Use after complet..."
+    },
+    {
+      "id": "verify-8fd6b4a3",
+      "name": "verify",
+      "score": 23036,
+      "score_type": "installs",
+      "tier": "S",
+      "verified": true,
+      "tags": [
+        "utilities",
+        "status-pass"
+      ],
+      "one_liner": "Verifies code changes by running tests and generation scripts"
+    },
+    {
+      "id": "next-best-practices-211cd6ec",
+      "name": "Next Best Practices",
+      "score": 22700,
+      "score_type": "installs",
+      "tier": "S",
+      "verified": true,
+      "tags": [
+        "dev-web-frontend",
+        "dev-web-fullstack"
+      ],
+      "one_liner": "Agent skill: next-best-practices from vercel-labs/next-skills"
+    },
+    {
+      "id": "pytest-runner-3a7dfee2",
+      "name": "pytest-runner",
+      "score": 22602,
+      "score_type": "installs",
+      "tier": "S",
+      "verified": true,
+      "tags": [
+        "dev",
+        "dev-testing",
+        "productivity"
+      ],
+      "one_liner": "Run pytest tests with automatic virtual environment activation. Use this skil..."
+    },
+    {
+      "id": "evals-context-dd2d7063",
+      "name": "evals-context",
+      "score": 22251,
+      "score_type": "installs",
+      "tier": "S",
+      "verified": true,
+      "tags": [
+        "dev",
+        "dev-devops",
+        "dev-web"
+      ],
+      "one_liner": "Provides context about the Roo Code evals system structure in this monorepo...."
+    },
+    {
+      "id": "vueuse-functions-d53b8806",
+      "name": "vueuse-functions",
+      "score": 22085,
+      "score_type": "installs",
+      "tier": "S",
+      "verified": true,
+      "tags": [
+        "dev",
+        "dev-web",
+        "dev-web-frontend"
+      ],
+      "one_liner": "Apply VueUse composables where appropriate to build concise, maintainable Vue..."
+    },
+    {
+      "id": "add-model-price-3ad1d8d7",
+      "name": "add-model-price",
+      "score": 22017,
+      "score_type": "installs",
+      "tier": "S",
+      "verified": true,
+      "tags": [
+        "status-pass",
+        "data",
+        "data-ai"
+      ],
+      "one_liner": "Add new LLM model pricing entries to Langfuse's default-model-prices.json. Us..."
+    },
+    {
+      "id": "agent-memory-4359a53e",
+      "name": "agent-memory",
+      "score": 21916,
+      "score_type": "installs",
+      "tier": "S",
+      "verified": true,
+      "tags": [
+        "utilities",
+        "status-pass"
+      ],
+      "one_liner": "Use this skill when the user asks to save, remember, recall, or organize memo..."
+    },
+    {
+      "id": "libraries-release-notes-4b89a5e1",
+      "name": "libraries-release-notes",
+      "score": 21894,
+      "score_type": "installs",
+      "tier": "S",
+      "verified": true,
+      "tags": [
+        "integrations",
+        "productivity",
+        "productivity-docs"
+      ],
+      "one_liner": "Generate .NET Libraries release notes by evaluating the release's API diff, f..."
+    },
+    {
+      "id": "write-docs-2edadcd9",
+      "name": "write-docs",
+      "score": 21630,
+      "score_type": "installs",
+      "tier": "S",
+      "verified": true,
+      "tags": [
+        "dev",
+        "dev-testing",
+        "productivity"
+      ],
+      "one_liner": "Comprehensive guide for writing and updating Prefect documentation. Use when..."
+    },
+    {
+      "id": "quality-bun-feature-delivery-b55bcfa6",
+      "name": "quality-bun-feature-delivery",
+      "score": 21158,
+      "score_type": "installs",
+      "tier": "S",
+      "verified": true,
+      "tags": [
+        "dev",
+        "dev-testing",
+        "dev-web"
+      ],
+      "one_liner": "Enforce tight Codex/Claude delivery loop with Bun-first testing, skill sync/r..."
+    },
+    {
+      "id": "api-design-dcc677b8",
+      "name": "api-design",
+      "score": 21157,
+      "score_type": "installs",
+      "tier": "S",
+      "verified": true,
+      "tags": [
+        "integrations",
+        "status-pass"
+      ],
+      "one_liner": "Guidelines for designing RESTful APIs and TypeScript interfaces. Use when des..."
+    },
+    {
+      "id": "db-migrations-and-schema-changes-31a16b1b",
+      "name": "db-migrations-and-schema-changes",
+      "score": 21149,
+      "score_type": "installs",
+      "tier": "S",
+      "verified": true,
+      "tags": [
+        "data",
+        "data-db",
+        "integrations"
+      ],
+      "one_liner": "Workflows and commands for managing Alembic database migrations and schema ch..."
+    },
+    {
+      "id": "clawhub-e797009b",
+      "name": "clawhub",
+      "score": 21109,
+      "score_type": "installs",
+      "tier": "S",
+      "verified": true,
+      "tags": [
+        "utilities",
+        "utilities-search",
+        "status-pass"
+      ],
+      "one_liner": "Search and install agent skills from ClawHub, the public skill registry."
+    },
+    {
+      "id": "activate-data-source-dd1c2941",
+      "name": "activate-data-source",
+      "score": 20948,
+      "score_type": "installs",
+      "tier": "S",
+      "verified": true,
+      "tags": [
+        "status-pass",
+        "integrations"
+      ],
+      "one_liner": "Activates a data source in a running Kibana instance by creating it via the D..."
+    },
+    {
+      "id": "confidence-check-ddb363af",
+      "name": "confidence-check",
+      "score": 20845,
+      "score_type": "installs",
+      "tier": "S",
+      "verified": true,
+      "tags": [
+        "security",
+        "security-compliance",
+        "status-pass"
+      ],
+      "one_liner": "Pre-implementation confidence assessment (≥90% required). Use before starting..."
+    },
+    {
+      "id": "2d-games-0b1afe4b",
+      "name": "2d-games",
+      "score": 20807,
+      "score_type": "installs",
+      "tier": "S",
+      "verified": true,
+      "tags": [
+        "status-pass",
+        "dev",
+        "dev-gamedev"
+      ],
+      "one_liner": "2D game development principles. Sprites, tilemaps, physics, camera."
+    },
+    {
+      "id": "gen-ut-93b6b78a",
+      "name": "gen-ut",
+      "score": 20678,
+      "score_type": "installs",
+      "tier": "S",
+      "verified": true,
+      "tags": [
+        "dev-testing",
+        "status-pass"
+      ],
+      "one_liner": "Generate standard unit tests for one or more target classes in Apache Shardin..."
+    },
+    {
+      "id": "animation-best-practices-fc0727a3",
+      "name": "animation-best-practices",
+      "score": 20596,
+      "score_type": "installs",
+      "tier": "S",
+      "verified": true,
+      "tags": [
+        "dev",
+        "dev-web",
+        "dev-web-frontend"
+      ],
+      "one_liner": "CSS and UI animation patterns for responsive, polished interfaces. Use when i..."
+    },
+    {
+      "id": "chart-visualization-5314c7dc",
+      "name": "chart-visualization",
+      "score": 19974,
+      "score_type": "installs",
+      "tier": "S",
+      "verified": true,
+      "tags": [
+        "data",
+        "data-ai",
+        "status-pass"
+      ],
+      "one_liner": "This skill should be used when the user wants to visualize data. It intellige..."
+    },
+    {
+      "id": "actions-35789ce2",
+      "name": "actions",
+      "score": 19716,
+      "score_type": "installs",
+      "tier": "S",
+      "verified": true,
+      "tags": [
+        "status-pass",
+        "utilities"
+      ],
+      "one_liner": "Guidelines for implementing IntelliJ actions (AnAction). Use those rules when..."
+    },
+    {
+      "id": "dailydev-7fac0fc8",
+      "name": "dailydev",
+      "score": 19693,
+      "score_type": "installs",
+      "tier": "S",
+      "verified": true,
+      "tags": [
+        "data",
+        "data-ai",
+        "dev"
+      ],
+      "one_liner": "Overcome LLM knowledge cutoffs with real-time developer content. daily.dev ag..."
+    },
+    {
+      "id": "dyadcheck-workflows-35cd3c7a",
+      "name": "dyadcheck-workflows",
+      "score": 19631,
+      "score_type": "installs",
+      "tier": "S",
+      "verified": true,
+      "tags": [
+        "dev",
+        "dev-devops",
+        "dev-devops-ci"
+      ],
+      "one_liner": "Check GitHub Actions workflow runs from the past day, identify severe or cons..."
+    },
+    {
+      "id": "but-a22a6b34",
+      "name": "but",
+      "score": 19432,
+      "score_type": "installs",
+      "tier": "S",
+      "verified": true,
+      "tags": [
+        "dev",
+        "dev-git",
+        "status-pass"
+      ],
+      "one_liner": "Commit, push, branch, and manage version control with GitButler. Use for: com..."
+    },
+    {
+      "id": "code-change-verification-31050be0",
+      "name": "code-change-verification",
+      "score": 18990,
+      "score_type": "installs",
+      "tier": "S",
+      "verified": true,
+      "tags": [
+        "data",
+        "data-ai",
+        "dev"
+      ],
+      "one_liner": "Run the mandatory verification stack when changes affect runtime code, tests,..."
+    },
+    {
+      "id": "generate-sparkle-appcast-b0fd3849",
+      "name": "generate-sparkle-appcast",
+      "score": 18683,
+      "score_type": "installs",
+      "tier": "S",
+      "verified": true,
+      "tags": [
+        "dev-git",
+        "status-pass"
+      ],
+      "one_liner": "Generate Mos Sparkle appcast.xml from the latest build zip and recent git cha..."
+    },
+    {
+      "id": "synonyms-4fd08bcc",
+      "name": "synonyms",
+      "score": 18594,
+      "score_type": "installs",
+      "tier": "S",
+      "verified": true,
+      "tags": [
+        "utilities",
+        "status-pass"
+      ],
+      "one_liner": "Generate synonyms for words or phrases. Use this skill when the user needs al..."
+    },
+    {
+      "id": "review-128bd059",
+      "name": "review",
+      "score": 18381,
+      "score_type": "installs",
+      "tier": "S",
+      "verified": true,
+      "tags": [
+        "utilities",
+        "status-pass"
+      ],
+      "one_liner": "Review code for common issues. Use when reviewing PRs, suggesting code change..."
+    },
+    {
+      "id": "bit-cli-2914939c",
+      "name": "bit-cli",
+      "score": 18354,
+      "score_type": "installs",
+      "tier": "S",
+      "verified": true,
+      "tags": [
+        "utilities",
+        "status-pass"
+      ],
+      "one_liner": "MUST consult before running ANY bit command. Do NOT guess bit commands from m..."
+    },
+    {
+      "id": "react-email-6045e8d3",
+      "name": "react-email",
+      "score": 18065,
+      "score_type": "installs",
+      "tier": "S",
+      "verified": true,
+      "tags": [
+        "dev",
+        "dev-web",
+        "dev-web-frontend"
+      ],
+      "one_liner": "Use when creating HTML email templates with React components - welcome emails..."
+    },
+    {
+      "id": "weather-skill-ef18160c",
+      "name": "weather-skill",
+      "score": 17798,
+      "score_type": "installs",
+      "tier": "S",
+      "verified": true,
+      "tags": [
+        "utilities",
+        "status-pass"
+      ],
+      "one_liner": "A skill that provides weather information based on reference data."
+    },
+    {
+      "id": "documentation-0757b7c9",
+      "name": "documentation",
+      "score": 17760,
+      "score_type": "installs",
+      "tier": "S",
+      "verified": true,
+      "tags": [
+        "productivity",
+        "productivity-docs",
+        "status-pass"
+      ],
+      "one_liner": "Feature documentation and release notes patterns. Use when documenting change..."
+    },
+    {
+      "id": "add-new-jit-ee-api-8141886f",
+      "name": "add-new-jit-ee-api",
+      "score": 17585,
+      "score_type": "installs",
+      "tier": "S",
+      "verified": true,
+      "tags": [
+        "status-pass",
+        "integrations"
+      ],
+      "one_liner": "Add a new API to the JIT-VM (aka JIT-EE) interface in the codebase."
+    },
+    {
+      "id": "1password-104110da",
+      "name": "1password",
+      "score": 17529,
+      "score_type": "installs",
+      "tier": "S",
+      "verified": true,
+      "tags": [
+        "status-pass",
+        "dev",
+        "dev-desktop"
+      ],
+      "one_liner": "Set up and use 1Password CLI (op). Use when installing the CLI, enabling desk..."
+    },
+    {
+      "id": "image-generation-071c5672",
+      "name": "image-generation",
+      "score": 17469,
+      "score_type": "installs",
+      "tier": "S",
+      "verified": true,
+      "tags": [
+        "utilities",
+        "status-pass"
+      ],
+      "one_liner": "Generate images using nano banana."
+    },
+    {
+      "id": "cdc-5d71e341",
+      "name": "cdc",
+      "score": 17403,
+      "score_type": "installs",
+      "tier": "S",
+      "verified": true,
+      "tags": [
+        "integrations",
+        "status-pass"
+      ],
+      "one_liner": "Change Data Capture - architecture, entrypoints, bytecode emission, sync engi..."
+    },
+    {
+      "id": "add-config-e2e846c9",
+      "name": "add-config",
+      "score": 17400,
+      "score_type": "installs",
+      "tier": "S",
+      "verified": true,
+      "tags": [
+        "status-pass",
+        "utilities"
+      ],
+      "one_liner": "Guide for adding new configuration settings to Wave Terminal. Use when adding..."
+    },
+    {
+      "id": "trl-training-64ea14ee",
+      "name": "trl-training",
+      "score": 17391,
+      "score_type": "installs",
+      "tier": "S",
+      "verified": true,
+      "tags": [
+        "data",
+        "data-ai",
+        "data-ml"
+      ],
+      "one_liner": "Train and fine-tune transformer language models using TRL (Transformers Reinf..."
+    },
+    {
+      "id": "agent-builder-df07a3e2",
+      "name": "agent-builder",
+      "score": 17197,
+      "score_type": "installs",
+      "tier": "S",
+      "verified": true,
+      "tags": [
+        "productivity",
+        "utilities",
+        "status-pass"
+      ],
+      "one_liner": "Design and build AI agents for any domain. Use when users:\n(1) ask to \"create..."
+    },
+    {
+      "id": "brand-style-096092fa",
+      "name": "brand-style",
+      "score": 16914,
+      "score_type": "installs",
+      "tier": "S",
+      "verified": true,
+      "tags": [
+        "utilities",
+        "status-pass"
+      ],
+      "one_liner": "Screenpipe brand style guide. Reference this when designing UI components, wr..."
+    },
+    {
+      "id": "ai-article-a019340c",
+      "name": "ai-article",
+      "score": 16679,
+      "score_type": "installs",
+      "tier": "S",
+      "verified": true,
+      "tags": [
+        "data",
+        "data-ai",
+        "data-ai-rag"
+      ],
+      "one_liner": "自动搜集AI领域热点或根据指定选题，按照二哥的写作风格完成AI技术类文章撰写。专注于AI Coding工具实测（Claude Code、Qoder、Cur..."
+    },
+    {
+      "id": "beads-ba7b80b0",
+      "name": "beads",
+      "score": 16578,
+      "score_type": "installs",
+      "tier": "S",
+      "verified": true,
+      "tags": [
+        "utilities",
+        "status-pass"
+      ],
+      "one_liner": "Git-backed issue tracker for multi-session work with dependencies and persist..."
+    },
+    {
+      "id": "cts-triage-bd60d11e",
+      "name": "cts-triage",
+      "score": 16423,
+      "score_type": "installs",
+      "tier": "S",
+      "verified": true,
+      "tags": [
+        "data",
+        "data-ai",
+        "status-pass"
+      ],
+      "one_liner": "Run CTS test suites and investigate failures"
+    },
+    {
+      "id": "better-auth-best-practices-2ac458f9",
+      "name": "Better Auth Best Practices",
+      "score": 16400,
+      "score_type": "installs",
+      "tier": "S",
+      "verified": true,
+      "tags": [
+        "security"
+      ],
+      "one_liner": "Agent skill: better-auth-best-practices from better-auth/skills"
+    },
+    {
+      "id": "a2ui-response-generator-5f3b4c58",
+      "name": "a2ui-response-generator",
+      "score": 16378,
+      "score_type": "installs",
+      "tier": "S",
+      "verified": true,
+      "tags": [
+        "status-pass",
+        "utilities"
+      ],
+      "one_liner": "A skill that can retrieve A2UI UI JSON schematics and UI templates that best..."
+    },
+    {
+      "id": "aionui-webui-setup-c19a5811",
+      "name": "aionui-webui-setup",
+      "score": 16341,
+      "score_type": "installs",
+      "tier": "S",
+      "verified": true,
+      "tags": [
+        "dev",
+        "dev-devops",
+        "status-pass"
+      ],
+      "one_liner": "AionUi WebUI configuration expert: Helps users configure AionUi WebUI mode fo..."
+    },
+    {
+      "id": "code-reviewer-d921573e",
+      "name": "code-reviewer",
+      "score": 16038,
+      "score_type": "installs",
+      "tier": "S",
+      "verified": true,
+      "tags": [
+        "utilities",
+        "status-pass"
+      ],
+      "one_liner": "Review code for quality, bugs, and improvements. Use when user wants code rev..."
+    },
+    {
+      "id": "cli-commands-7f793dcc",
+      "name": "cli-commands",
+      "score": 15828,
+      "score_type": "installs",
+      "tier": "S",
+      "verified": true,
+      "tags": [
+        "utilities",
+        "status-pass"
+      ],
+      "one_liner": "MUST use when using the CLI."
+    },
+    {
+      "id": "fix-members-short-description-f97e8461",
+      "name": "fix-members-short-description",
+      "score": 15581,
+      "score_type": "installs",
+      "tier": "S",
+      "verified": true,
+      "tags": [
+        "dev",
+        "dev-web",
+        "dev-web-backend"
+      ],
+      "one_liner": "Use when asked to fix short descriptions of Python type members."
+    },
+    {
+      "id": "translation-4ef80979",
+      "name": "translation",
+      "score": 15547,
+      "score_type": "installs",
+      "tier": "S",
+      "verified": true,
+      "tags": [
+        "data",
+        "data-ai",
+        "data-ai-nlp"
+      ],
+      "one_liner": "Guidelines for translating and localizing the Kilo Code extension, including..."
+    },
+    {
+      "id": "dagger-codegen-b572f345",
+      "name": "dagger-codegen",
+      "score": 15437,
+      "score_type": "installs",
+      "tier": "S",
+      "verified": true,
+      "tags": [
+        "dev",
+        "status-pass"
+      ],
+      "one_liner": "Edit dagger.gen.go output, Go templates (object.go.tmpl, defs.go.tmpl), invok..."
+    },
+    {
+      "id": "dev-server-1526fe84",
+      "name": "dev-server",
+      "score": 15038,
+      "score_type": "installs",
+      "tier": "S",
+      "verified": true,
+      "tags": [
+        "utilities",
+        "utilities-monitor",
+        "status-pass"
+      ],
+      "one_liner": "Development server setup and build watch monitoring. Use when starting dev wo..."
+    },
+    {
+      "id": "create-skill-e9b5b872",
+      "name": "create-skill",
+      "score": 14860,
+      "score_type": "installs",
+      "tier": "S",
+      "verified": true,
+      "tags": [
+        "utilities",
+        "status-pass"
+      ],
+      "one_liner": "Wizard for creating new Agent Zero skills. Guides users through creating well..."
+    },
+    {
+      "id": "vercel-cli-d8e24815",
+      "name": "vercel-cli",
+      "score": 14840,
+      "score_type": "installs",
+      "tier": "S",
+      "verified": true,
+      "tags": [
+        "dev-devops",
+        "status-pass"
+      ],
+      "one_liner": "Deploy, manage, and develop projects on Vercel from the command line"
+    },
+    {
+      "id": "deepcode-19a7450e",
+      "name": "deepcode",
+      "score": 14516,
+      "score_type": "installs",
+      "tier": "S",
+      "verified": true,
+      "tags": [
+        "integrations",
+        "productivity",
+        "status-pass"
+      ],
+      "one_liner": "DeepCode integration - automated code generation from papers and text require..."
+    },
+    {
+      "id": "playwright-roll-b912c7fa",
+      "name": "playwright-roll",
+      "score": 14268,
+      "score_type": "installs",
+      "tier": "S",
+      "verified": true,
+      "tags": [
+        "dev",
+        "dev-testing",
+        "dev-web"
+      ],
+      "one_liner": "Roll Playwright Python to a new version"
+    },
+    {
+      "id": "agent-adaptive-coordinator-0d88ec11",
+      "name": "agent-adaptive-coordinator",
+      "score": 14164,
+      "score_type": "installs",
+      "tier": "S",
+      "verified": true,
+      "tags": [
+        "utilities",
+        "status-fail"
+      ],
+      "one_liner": "Agent skill for adaptive-coordinator - invoke with $agent-adaptive-coordinator"
+    },
+    {
+      "id": "freshrss-git-0b81c2b3",
+      "name": "freshrss-git",
+      "score": 14043,
+      "score_type": "installs",
+      "tier": "S",
+      "verified": true,
+      "tags": [
+        "dev",
+        "dev-git",
+        "productivity"
+      ],
+      "one_liner": "FreshRSS version control, git workflow, branching strategy (edge/latest), dif..."
+    },
+    {
+      "id": "git-safety-b8b2306a",
+      "name": "git-safety",
+      "score": 13719,
+      "score_type": "installs",
+      "tier": "S",
+      "verified": true,
+      "tags": [
+        "dev",
+        "dev-git",
+        "status-pass"
+      ],
+      "one_liner": "Git safety rules. INVOKE WHEN: git push, force push, git reset, git clean, de..."
+    },
+    {
+      "id": "building-native-ui-1a2120f1",
+      "name": "Building Native Ui",
+      "score": 13700,
+      "score_type": "installs",
+      "tier": "S",
+      "verified": true,
+      "tags": [
+        "dev-mobile",
+        "dev-web-frontend"
+      ],
+      "one_liner": "Agent skill: building-native-ui from expo/skills"
+    },
+    {
+      "id": "trigger-dev-tasks-4953abb8",
+      "name": "trigger-dev-tasks",
+      "score": 13667,
+      "score_type": "installs",
+      "tier": "S",
+      "verified": true,
+      "tags": [
+        "dev",
+        "dev-testing",
+        "productivity"
+      ],
+      "one_liner": "Use this skill when writing, designing, or optimizing Trigger.dev background..."
+    },
+    {
+      "id": "litestream-5a1debb7",
+      "name": "litestream",
+      "score": 13218,
+      "score_type": "installs",
+      "tier": "S",
+      "verified": true,
+      "tags": [
+        "data",
+        "data-db",
+        "dev"
+      ],
+      "one_liner": "Expert knowledge for contributing to Litestream, a standalone disaster recove..."
+    },
+    {
+      "id": "pdf-processing-ffdebd71",
+      "name": "pdf-processing",
+      "score": 13054,
+      "score_type": "installs",
+      "tier": "S",
+      "verified": true,
+      "tags": [
+        "productivity",
+        "productivity-docs",
+        "status-pass"
+      ],
+      "one_liner": "Extract text and tables from PDF files, fill forms, merge documents. Use when..."
+    },
+    {
+      "id": "ai-sdk-5-577e0a0d",
+      "name": "ai-sdk-5",
+      "score": 13006,
+      "score_type": "installs",
+      "tier": "S",
+      "verified": true,
+      "tags": [
+        "dev",
+        "productivity",
+        "productivity-comm"
+      ],
+      "one_liner": "Vercel AI SDK 5 patterns. Trigger: When building AI features with AI SDK v5 (..."
+    },
+    {
+      "id": "upgrade-oxc-94dd997d",
+      "name": "upgrade-oxc",
+      "score": 12857,
+      "score_type": "installs",
+      "tier": "S",
+      "verified": true,
+      "tags": [
+        "utilities",
+        "status-pass"
+      ],
+      "one_liner": "Upgrade oxc, run codegen, and fix any breaking changes."
+    },
+    {
+      "id": "laravel-permission-development-7777cb6c",
+      "name": "laravel-permission-development",
+      "score": 12840,
+      "score_type": "installs",
+      "tier": "S",
+      "verified": true,
+      "tags": [
+        "dev",
+        "dev-web",
+        "dev-web-backend"
+      ],
+      "one_liner": "Build and work with Spatie Laravel Permission features, including roles, perm..."
+    },
+    {
+      "id": "g2-legend-expert-a37f7246",
+      "name": "g2-legend-expert",
+      "score": 12521,
+      "score_type": "installs",
+      "tier": "S",
+      "verified": true,
+      "tags": [
+        "dev",
+        "status-pass"
+      ],
+      "one_liner": "Expert skill for G2 legend development - provides comprehensive knowledge abo..."
+    },
+    {
+      "id": "build-with-agent-team-e4d0ac5c",
+      "name": "build-with-agent-team",
+      "score": 12507,
+      "score_type": "installs",
+      "tier": "S",
+      "verified": true,
+      "tags": [
+        "productivity",
+        "productivity-docs",
+        "status-pass"
+      ],
+      "one_liner": "Build a project using Claude Code Agent Teams with tmux split panes. Takes a..."
+    },
+    {
+      "id": "rspack-perf-profiling-61f09c76",
+      "name": "rspack-perf-profiling",
+      "score": 12485,
+      "score_type": "installs",
+      "tier": "S",
+      "verified": true,
+      "tags": [
+        "utilities",
+        "status-pass"
+      ],
+      "one_liner": "Run Rspack performance profiling on Linux using perf (with DWARF call stacks)..."
+    },
+    {
+      "id": "create-justification-5551bd93",
+      "name": "create-justification",
+      "score": 12409,
+      "score_type": "installs",
+      "tier": "S",
+      "verified": true,
+      "tags": [
+        "utilities",
+        "status-pass"
+      ],
+      "one_liner": "Create a new justification file in .agents/justifications/ with a unique thre..."
+    },
+    {
+      "id": "code-review-eb823dae",
+      "name": "code-review",
+      "score": 12262,
+      "score_type": "installs",
+      "tier": "S",
+      "verified": true,
+      "tags": [
+        "security",
+        "status-pass"
+      ],
+      "one_liner": "Reviews code changes for bugs, security issues, and quality problems"
+    },
+    {
+      "id": "angular-modernization-1da09c71",
+      "name": "angular-modernization",
+      "score": 12156,
+      "score_type": "installs",
+      "tier": "S",
+      "verified": true,
+      "tags": [
+        "dev",
+        "dev-web",
+        "dev-web-frontend"
+      ],
+      "one_liner": "Modernizes Angular code such as components and directives to follow best prac..."
+    },
+    {
+      "id": "ccxt-dd05e8cf",
+      "name": "ccxt",
+      "score": 12141,
+      "score_type": "installs",
+      "tier": "S",
+      "verified": true,
+      "tags": [
+        "data",
+        "data-finance",
+        "dev"
+      ],
+      "one_liner": "CCXT cryptocurrency trading library. Use for cryptocurrency exchange APIs, tr..."
+    },
+    {
+      "id": "seedance2-api-aa235660",
+      "name": "Seedance2 Api",
+      "score": 11400,
+      "score_type": "installs",
+      "tier": "S",
+      "verified": true,
+      "tags": [
+        "integrations"
+      ],
+      "one_liner": "Agent skill: seedance2-api from hexiaochun/seedance2-api"
+    },
+    {
+      "id": "android-37d7e809",
+      "name": "android",
+      "score": 11285,
+      "score_type": "installs",
+      "tier": "S",
+      "verified": true,
+      "tags": [
+        "productivity",
+        "status-pass"
+      ],
+      "one_liner": "Workflow guide when working with Android builds or the mobile/ directory."
+    },
+    {
+      "id": "json-render-core-0c8fcc9c",
+      "name": "json-render-core",
+      "score": 10946,
+      "score_type": "installs",
+      "tier": "S",
+      "verified": true,
+      "tags": [
+        "utilities",
+        "utilities-media",
+        "status-pass"
+      ],
+      "one_liner": "Core package for defining schemas, catalogs, and AI prompt generation for jso..."
+    },
+    {
+      "id": "fix-clippy-c78f47a3",
+      "name": "fix-clippy",
+      "score": 10907,
+      "score_type": "installs",
+      "tier": "S",
+      "verified": true,
+      "tags": [
+        "dev",
+        "status-pass"
+      ],
+      "one_liner": "Fix all clippy lint warnings in the project"
+    },
+    {
+      "id": "read-docs-3c7ba947",
+      "name": "read-docs",
+      "score": 10824,
+      "score_type": "installs",
+      "tier": "S",
+      "verified": true,
+      "tags": [
+        "productivity",
+        "productivity-docs",
+        "status-pass"
+      ],
+      "one_liner": "Enables efficient, accurate retrieval of content from Fumadocs-powered docume..."
+    },
+    {
+      "id": "gc-safe-coding-540b0bcc",
+      "name": "gc-safe-coding",
+      "score": 10798,
+      "score_type": "installs",
+      "tier": "S",
+      "verified": true,
+      "tags": [
+        "integrations",
+        "status-pass"
+      ],
+      "one_liner": "Rules for writing and reviewing GC-safe C++ code in the Hermes VM runtime. Us..."
+    },
+    {
+      "id": "byethrow-19657938",
+      "name": "byethrow",
+      "score": 10783,
+      "score_type": "installs",
+      "tier": "S",
+      "verified": true,
+      "tags": [
+        "integrations",
+        "productivity",
+        "productivity-docs"
+      ],
+      "one_liner": "Reference the byethrow documentation to understand and use the Result type li..."
+    },
+    {
+      "id": "add-components-to-registry-4b87cfb9",
+      "name": "add-components-to-registry",
+      "score": 10622,
+      "score_type": "installs",
+      "tier": "S",
+      "verified": true,
+      "tags": [
+        "status-pass",
+        "dev",
+        "dev-web"
+      ],
+      "one_liner": "Registers existing React components with Tambo so AI can render them. Use whe..."
+    },
+    {
+      "id": "prd-481d8956",
+      "name": "prd",
+      "score": 10563,
+      "score_type": "installs",
+      "tier": "S",
+      "verified": true,
+      "tags": [
+        "productivity",
+        "productivity-docs",
+        "status-pass"
+      ],
+      "one_liner": "Generate a Product Requirements Document (PRD) for a new feature. Use when pl..."
+    },
+    {
+      "id": "add-model-descriptions-5138cd98",
+      "name": "add-model-descriptions",
+      "score": 10513,
+      "score_type": "installs",
+      "tier": "S",
+      "verified": true,
+      "tags": [
+        "status-pass",
+        "data",
+        "data-ml"
+      ],
+      "one_liner": "Add descriptions for new models from the HuggingFace router to chat-ui config..."
+    },
+    {
+      "id": "redteam-plugin-development-072f64af",
+      "name": "redteam-plugin-development",
+      "score": 10495,
+      "score_type": "installs",
+      "tier": "S",
+      "verified": true,
+      "tags": [
+        "utilities",
+        "status-pass"
+      ],
+      "one_liner": "Standards for creating redteam plugins and graders. Use when creating new plu..."
+    },
+    {
+      "id": "generate-component-documentation-40394cd6",
+      "name": "generate-component-documentation",
+      "score": 10341,
+      "score_type": "installs",
+      "tier": "S",
+      "verified": true,
+      "tags": [
+        "productivity",
+        "productivity-docs",
+        "status-pass"
+      ],
+      "one_liner": "Generate documentation for new components. Use when writing docs, documenting..."
+    },
+    {
+      "id": "changelog-94ed5fab",
+      "name": "changelog",
+      "score": 10335,
+      "score_type": "installs",
+      "tier": "S",
+      "verified": true,
+      "tags": [
+        "dev-git",
+        "status-pass"
+      ],
+      "one_liner": "Create changelog files for important commits in a PR"
+    },
+    {
+      "id": "woocommerce-backend-dev-ff97e0ff",
+      "name": "woocommerce-backend-dev",
+      "score": 10178,
+      "score_type": "installs",
+      "tier": "S",
+      "verified": true,
+      "tags": [
+        "dev",
+        "dev-web",
+        "dev-web-backend"
+      ],
+      "one_liner": "Add or modify WooCommerce backend PHP code following project conventions. Use..."
+    },
+    {
+      "id": "changelog-9e8f9474",
+      "name": "changelog",
+      "score": 10138,
+      "score_type": "installs",
+      "tier": "S",
+      "verified": true,
+      "tags": [
+        "productivity",
+        "productivity-docs",
+        "status-pass"
+      ],
+      "one_liner": "Maintains IdeaVim changelog (CHANGES.md) and build.gradle.kts changeNotes. Us..."
+    },
+    {
+      "id": "data-fetching-b638b7e9",
+      "name": "data-fetching",
+      "score": 10083,
+      "score_type": "installs",
+      "tier": "S",
+      "verified": true,
+      "tags": [
+        "integrations",
+        "status-pass"
+      ],
+      "one_liner": "Fetching data from the API using SWR"
+    },
+    {
+      "id": "defuddle-19398a15",
+      "name": "defuddle",
+      "score": 10027,
+      "score_type": "installs",
+      "tier": "S",
+      "verified": true,
+      "tags": [
+        "productivity",
+        "productivity-docs",
+        "status-pass"
+      ],
+      "one_liner": "Extract clean markdown content from web pages using Defuddle CLI, removing cl..."
+    },
+    {
+      "id": "browser-setup-devtools-4b33a3ad",
+      "name": "browser-setup-devtools",
+      "score": 9944,
+      "score_type": "installs",
+      "tier": "A",
+      "verified": false,
+      "tags": [
+        "dev",
+        "dev-web",
+        "productivity"
+      ],
+      "one_liner": "Guide users through browser automation setup using Chrome DevTools MCP as the..."
+    },
+    {
+      "id": "blog-planner-09475a0a",
+      "name": "blog-planner",
+      "score": 9894,
+      "score_type": "installs",
+      "tier": "A",
+      "verified": false,
+      "tags": [
+        "data-db"
+      ],
+      "one_liner": "Interactive blog post authoring. Produces a draft blog post file with structu..."
+    },
+    {
+      "id": "skill-seekers-doc-converter-dcbed0f4",
+      "name": "Skill Seekers (Doc Converter)",
+      "score": 9849,
+      "score_type": "installs",
+      "tier": "A",
+      "verified": true,
+      "tags": [
+        "data",
+        "data-ai",
+        "data-ai-rag"
+      ],
+      "one_liner": "Universal data layer for AI systems that converts documentation websites, Git..."
+    },
+    {
+      "id": "semi-design-guide-e3bc1f25",
+      "name": "semi-design-guide",
+      "score": 9726,
+      "score_type": "installs",
+      "tier": "A",
+      "verified": false,
+      "tags": [
+        "utilities"
+      ],
+      "one_liner": "使用 Semi Design 组件的完整指南，包括 MCP 工具使用流程、常见模式、最佳实践。当你需要查询 Semi Design 组件、生成组件代码或解..."
+    },
+    {
+      "id": "design-md-d705d036",
+      "name": "Design Md",
+      "score": 9700,
+      "score_type": "installs",
+      "tier": "A",
+      "verified": true,
+      "tags": [
+        "dev"
+      ],
+      "one_liner": "Agent skill: design-md from google-labs-code/stitch-skills"
+    },
+    {
+      "id": "openspec-apply-change-2b57a74d",
+      "name": "openspec-apply-change",
+      "score": 9678,
+      "score_type": "installs",
+      "tier": "A",
+      "verified": false,
+      "tags": [
+        "utilities"
+      ],
+      "one_liner": "实现 OpenSpec 变更中的任务。当用户想要开始实现、继续实现或处理任务时使用。"
+    },
+    {
+      "id": "agent-customization-f2e66b88",
+      "name": "agent-customization",
+      "score": 9472,
+      "score_type": "installs",
+      "tier": "A",
+      "verified": true,
+      "tags": [
+        "dev",
+        "utilities",
+        "status-pass"
+      ],
+      "one_liner": "Create, update, review, fix, or debug VS Code agent customization files (.ins..."
+    },
+    {
+      "id": "local-environment-af5e095a",
+      "name": "local-environment",
+      "score": 9441,
+      "score_type": "installs",
+      "tier": "A",
+      "verified": false,
+      "tags": [
+        "dev",
+        "dev-devops",
+        "dev-devops-docker"
+      ],
+      "one_liner": "Local development environment management for Polar using Docker"
+    },
+    {
+      "id": "arxiv-search-e75915f0",
+      "name": "arxiv-search",
+      "score": 9373,
+      "score_type": "installs",
+      "tier": "A",
+      "verified": false,
+      "tags": [
+        "utilities",
+        "utilities-search"
+      ],
+      "one_liner": "Search arXiv preprint repository for papers in physics, mathematics, computer..."
+    },
+    {
+      "id": "write-docs-4470c336",
+      "name": "write-docs",
+      "score": 9368,
+      "score_type": "installs",
+      "tier": "A",
+      "verified": false,
+      "tags": [
+        "productivity",
+        "productivity-docs"
+      ],
+      "one_liner": "Write BrowserOS feature documentation. Use when the user wants to create or u..."
+    },
+    {
+      "id": "scientific-thinking-analysis-be07c652",
+      "name": "Scientific Thinking & Analysis",
+      "score": 9302,
+      "score_type": "installs",
+      "tier": "A",
+      "verified": true,
+      "tags": [
+        "data",
+        "data-analysis",
+        "productivity"
+      ],
+      "one_liner": "A comprehensive collection of 147+ ready-to-use scientific and research skill..."
+    },
+    {
+      "id": "chatgpt-app-builder-b14e5935",
+      "name": "chatgpt-app-builder",
+      "score": 9183,
+      "score_type": "installs",
+      "tier": "A",
+      "verified": false,
+      "tags": [
+        "data",
+        "data-ai",
+        "dev"
+      ],
+      "one_liner": "DEPRECATED: This skill has been replaced by `mcp-app-builder`.\nCheck if `mcp-..."
+    },
+    {
+      "id": "qmd-d8b5fc42",
+      "name": "qmd",
+      "score": 9162,
+      "score_type": "installs",
+      "tier": "A",
+      "verified": false,
+      "tags": [
+        "productivity",
+        "productivity-docs",
+        "utilities"
+      ],
+      "one_liner": "Search markdown knowledge bases, notes, and documentation using QMD. Use when..."
+    },
+    {
+      "id": "agent-browser-f49e0dd5",
+      "name": "agent-browser",
+      "score": 9136,
+      "score_type": "installs",
+      "tier": "A",
+      "verified": true,
+      "tags": [
+        "data",
+        "data-ai",
+        "data-ai-vision"
+      ],
+      "one_liner": "Browser automation using Vercel's agent-browser CLI. Use when you need to int..."
+    },
+    {
+      "id": "cloudflare-browser-35dedad2",
+      "name": "cloudflare-browser",
+      "score": 8891,
+      "score_type": "installs",
+      "tier": "A",
+      "verified": false,
+      "tags": [
+        "dev",
+        "dev-web",
+        "productivity"
+      ],
+      "one_liner": "Control headless Chrome via Cloudflare Browser Rendering CDP WebSocket. Use f..."
+    },
+    {
+      "id": "cloudflare-deploy-bf4cd972",
+      "name": "cloudflare-deploy",
+      "score": 8864,
+      "score_type": "installs",
+      "tier": "A",
+      "verified": false,
+      "tags": [
+        "dev",
+        "dev-devops"
+      ],
+      "one_liner": "Deploy applications and infrastructure to Cloudflare using Workers, Pages, an..."
+    },
+    {
+      "id": "create-blog-post-89201c7f",
+      "name": "create-blog-post",
+      "score": 8832,
+      "score_type": "installs",
+      "tier": "A",
+      "verified": false,
+      "tags": [
+        "dev",
+        "dev-web",
+        "integrations"
+      ],
+      "one_liner": "Use this if the user wants to convert a blog post from Google Docs markdown t..."
+    },
+    {
+      "id": "fix-buildkite-ci-80549b2e",
+      "name": "fix-buildkite-ci",
+      "score": 8799,
+      "score_type": "installs",
+      "tier": "A",
+      "verified": false,
+      "tags": [
+        "productivity",
+        "productivity-comm"
+      ],
+      "one_liner": "Triage and fix failing Buildkite CI checks for RisingWave pull requests by ex..."
+    },
+    {
+      "id": "playwright-test-b206e9a2",
+      "name": "playwright-test",
+      "score": 8711,
+      "score_type": "installs",
+      "tier": "A",
+      "verified": false,
+      "tags": [
+        "dev",
+        "dev-testing",
+        "integrations"
+      ],
+      "one_liner": "Generate robust, zero-flakiness Playwright E2E tests following OpenMetadata p..."
+    },
+    {
+      "id": "agents-6c7d0d94",
+      "name": "agents",
+      "score": 8710,
+      "score_type": "installs",
+      "tier": "A",
+      "verified": true,
+      "tags": [
+        "data",
+        "data-ai",
+        "data-ai-audio"
+      ],
+      "one_liner": "Dynamic agent composition and management system. USE WHEN user says create cu..."
+    },
+    {
+      "id": "bloblang-authoring-18f00f21",
+      "name": "bloblang-authoring",
+      "score": 8589,
+      "score_type": "installs",
+      "tier": "A",
+      "verified": false,
+      "tags": [
+        "dev",
+        "utilities"
+      ],
+      "one_liner": "This skill should be used when users need to create or debug Bloblang transfo..."
+    },
+    {
+      "id": "e2e-4e92f5f2",
+      "name": "e2e",
+      "score": 8584,
+      "score_type": "installs",
+      "tier": "A",
+      "verified": false,
+      "tags": [
+        "dev",
+        "dev-testing",
+        "utilities"
+      ],
+      "one_liner": "Run E2E tests for Sentry JavaScript SDK test applications"
+    },
+    {
+      "id": "agent-browser-938ebd57",
+      "name": "agent-browser",
+      "score": 8576,
+      "score_type": "installs",
+      "tier": "A",
+      "verified": true,
+      "tags": [
+        "data",
+        "data-ai",
+        "data-ai-vision"
+      ],
+      "one_liner": "Browser automation CLI for AI agents. Use when the user needs to interact wit..."
+    },
+    {
+      "id": "ci-cd-5c79dcbc",
+      "name": "ci-cd",
+      "score": 8489,
+      "score_type": "installs",
+      "tier": "A",
+      "verified": false,
+      "tags": [
+        "dev",
+        "dev-devops",
+        "dev-devops-ci"
+      ],
+      "one_liner": "Guides understanding and working with Apache Beam's CI/CD system using GitHub..."
+    },
+    {
+      "id": "reviewing-changes-4f77f740",
+      "name": "reviewing-changes",
+      "score": 8443,
+      "score_type": "installs",
+      "tier": "A",
+      "verified": false,
+      "tags": [
+        "dev",
+        "dev-devops",
+        "dev-devops-docker"
+      ],
+      "one_liner": "Guides Android code reviews with type-specific checklists and MVVM/Compose pa..."
+    }
+  ]
+}

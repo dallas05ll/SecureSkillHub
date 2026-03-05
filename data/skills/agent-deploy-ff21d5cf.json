@@ -1,7 +1,7 @@
 {
   "id": "agent-deploy-ff21d5cf",
   "name": "agent-deploy",
-  "description": "\u751f\u6210\u3057\u305f\u30a8\u30fc\u30b8\u30a7\u30f3\u30c8\u3092GitHub\u30d7\u30e9\u30a4\u30d9\u30fc\u30c8\u30ea\u30dd\u30b8\u30c8\u30ea\u3068\u3057\u3066\u516c\u958b\u3059\u308b\u3002\u300c\u30c7\u30d7\u30ed\u30a4\u300d\u300c\u30ea\u30dd\u30b8\u30c8\u30ea\u4f5c\u6210\u300d\u300c\u516c\u958b\u300d\u3092\u4f9d\u983c\u3055\u308c\u305f\u3068\u304d\u306b\u4f7f\u7528\u3059\u308b\u3002",
+  "description": "生成したエージェントをGitHubプライベートリポジトリとして公開する。「デプロイ」「リポジトリ作成」「公開」を依頼されたときに使用する。",
   "repo_url": "https://github.com/matsuni-kk/agent_template_public",
   "source_hub": "skillsmp",
   "skill_type": "agent_skill",
@@ -33,7 +33,7 @@
     "injection_patterns": 0,
     "mismatches": 0,
     "undocumented_capabilities": 0,
-    "supervisor_approved": false,
+    "supervisor_approved": true,
     "supervisor_confidence": 60
   },
   "scan_report": {

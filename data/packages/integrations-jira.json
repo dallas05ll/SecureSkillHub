@@ -27,7 +27,8 @@
       "risk_level": "medium",
       "primary_language": "Python",
       "install_url": "https://github.com/Zaloog/kanban-tui",
-      "skill_type": "agent_skill"
+      "skill_type": "agent_skill",
+      "verified_commit": "2ecf2860e3f0ebc8112a853b44ced25ac23b93f7"
     },
     {
       "id": "airbyte-agent-connectors-9b3db86a",
@@ -41,7 +42,8 @@
       "risk_level": "medium",
       "primary_language": "python",
       "install_url": "https://github.com/airbytehq/airbyte-agent-connectors",
-      "skill_type": "agent_skill"
+      "skill_type": "agent_skill",
+      "verified_commit": "52d5a25ade1dbfc49494d45764c81cf672e4ee75"
     },
     {
       "id": "all-in-one-model-context-protocol-5df10e64",
@@ -55,7 +57,8 @@
       "risk_level": "info",
       "primary_language": "unknown",
       "install_url": "https://github.com/nguyenvanduocit/all-in-one-model-context-protocol",
-      "skill_type": "mcp_server"
+      "skill_type": "mcp_server",
+      "verified_commit": "342c09febf99330cc1e60fba0d5c104411781159"
     },
     {
       "id": "jira-skill-e935fb3a",
@@ -69,7 +72,8 @@
       "risk_level": "medium",
       "primary_language": "markdown",
       "install_url": "https://github.com/netresearch/jira-skill",
-      "skill_type": "agent_skill"
+      "skill_type": "agent_skill",
+      "verified_commit": "9290370699f77e9496c5d133e6439ff0ae234afa"
     },
     {
       "id": "jira-mcp-server-cc48f9d5",
@@ -83,7 +87,8 @@
       "risk_level": "medium",
       "primary_language": "unknown",
       "install_url": "https://github.com/KS-GEN-AI/jira-mcp-server",
-      "skill_type": "mcp_server"
+      "skill_type": "mcp_server",
+      "verified_commit": "0063dcb83ea64f30ce314889027a33388f5dc9fb"
     },
     {
       "id": "jira-context-mcp-ebe9f8d0",
@@ -97,7 +102,8 @@
       "risk_level": "low",
       "primary_language": "typescript",
       "install_url": "https://github.com/rahulthedevil/Jira-Context-MCP",
-      "skill_type": "mcp_server"
+      "skill_type": "mcp_server",
+      "verified_commit": "ed9c13e4da908763d87e0dd0cd5cbfe0242dab77"
     },
     {
       "id": "mcp-jira-06be2dcf",
@@ -111,7 +117,8 @@
       "risk_level": "medium",
       "primary_language": "python",
       "install_url": "https://github.com/Warzuponus/mcp-jira",
-      "skill_type": "mcp_server"
+      "skill_type": "mcp_server",
+      "verified_commit": "0796d620438ce6b43650e12c2513f131c64b972c"
     },
     {
       "id": "jira-e839506c",
@@ -125,7 +132,8 @@
       "risk_level": "info",
       "primary_language": "markdown",
       "install_url": "https://github.com/SpillwaveSolutions/jira",
-      "skill_type": "agent_skill"
+      "skill_type": "agent_skill",
+      "verified_commit": "54bbda7550307968f4d3fd14382c4d44fa18d4cf"
     },
     {
       "id": "jira-mcp-3e66ad81",
@@ -139,7 +147,8 @@
       "risk_level": "medium",
       "primary_language": "typescript",
       "install_url": "https://github.com/tbreeding/jira-mcp",
-      "skill_type": "mcp_server"
+      "skill_type": "mcp_server",
+      "verified_commit": "e7f58e7d9b12bec35a79fb829972804c4bbcdb21"
     },
     {
       "id": "jira-mcp-c3b103f3",
@@ -153,7 +162,8 @@
       "risk_level": "medium",
       "primary_language": "typescript",
       "install_url": "https://github.com/MankowskiNick/jira-mcp",
-      "skill_type": "mcp_server"
+      "skill_type": "mcp_server",
+      "verified_commit": "fd5a0aa01207d656d86e39b2d33a638ee7d5fa6e"
     }
   ],
   "total_skills": 10,
@@ -161,5 +171,5 @@
   "avg_score": 77.6,
   "min_score": 55,
   "top_stars": 210,
-  "generated_at": "2026-03-05T16:00:23Z"
+  "generated_at": "2026-03-05T16:07:36Z"
 }

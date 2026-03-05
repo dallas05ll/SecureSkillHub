@@ -27,7 +27,8 @@
       "risk_level": "medium",
       "primary_language": "typescript",
       "install_url": "https://github.com/openclaw/openclaw",
-      "skill_type": "agent_skill"
+      "skill_type": "agent_skill",
+      "verified_commit": "9c6847074d7758602a4bb491de62e24c2f063994"
     },
     {
       "id": "electron-chromium-upgrade-1a936deb",
@@ -41,7 +42,8 @@
       "risk_level": "medium",
       "primary_language": "unknown",
       "install_url": "https://github.com/electron/electron",
-      "skill_type": "agent_skill"
+      "skill_type": "agent_skill",
+      "verified_commit": "d18b017cb05b1c5aec330603b6fcc9b016fa5cee"
     },
     {
       "id": "debugging-output-and-previewing-html-usi-820d3f32",
@@ -55,7 +57,8 @@
       "risk_level": "medium",
       "primary_language": "unknown",
       "install_url": "https://github.com/coollabsio/coolify",
-      "skill_type": "agent_skill"
+      "skill_type": "agent_skill",
+      "verified_commit": "d29a9a2802c122c7fc02b3d640165a1fd04a54a8"
     },
     {
       "id": "1password-05004d49",
@@ -69,7 +72,8 @@
       "risk_level": "medium",
       "primary_language": "unknown",
       "install_url": "https://github.com/steipete/agent-scripts",
-      "skill_type": "agent_skill"
+      "skill_type": "agent_skill",
+      "verified_commit": "4e28dd5bd7caa5ba142c20f80325ac63d42ecf0e"
     },
     {
       "id": "daymon-94a20b85",
@@ -83,7 +87,8 @@
       "risk_level": "medium",
       "primary_language": "TypeScript",
       "install_url": "https://github.com/daymonio/daymon",
-      "skill_type": "agent_skill"
+      "skill_type": "agent_skill",
+      "verified_commit": "536295561b5eef2df9c7ff34688907162d8f04c2"
     },
     {
       "id": "aicut-deploy-dba3ca34",
@@ -97,7 +102,8 @@
       "risk_level": "medium",
       "primary_language": "typescript",
       "install_url": "https://github.com/luoluoluo22/aicut",
-      "skill_type": "agent_skill"
+      "skill_type": "agent_skill",
+      "verified_commit": "1790af15d66083e1969d65de25ec94fed5c52571"
     },
     {
       "id": "1password-47e15d08",
@@ -111,7 +117,8 @@
       "risk_level": "medium",
       "primary_language": "python",
       "install_url": "https://github.com/seedprod/openclaw-prompts-and-skills",
-      "skill_type": "agent_skill"
+      "skill_type": "agent_skill",
+      "verified_commit": "5736d1ab074b372b4468a0c59593562acbe6f357"
     },
     {
       "id": "chatgpt-x-deepseek-x-grok-x-claude-linux-98af04a2",
@@ -125,7 +132,8 @@
       "risk_level": "medium",
       "primary_language": "javascript",
       "install_url": "https://github.com/alexandephilia/ChatGPT-x-DeepSeek-x-Grok-x-Claude-Linux-APP",
-      "skill_type": "mcp_server"
+      "skill_type": "mcp_server",
+      "verified_commit": "65e93c2852ad5974ca154f06148cd10e3cd644a9"
     },
     {
       "id": "chatgpt-x-deepseek-x-grok-x-claude-x-per-47fe199e",
@@ -139,7 +147,8 @@
       "risk_level": "medium",
       "primary_language": "javascript",
       "install_url": "https://github.com/alexandephilia/ChatGPT-x-DeepSeek-x-Grok-x-Claude-x-Perplexity-Linux-APP",
-      "skill_type": "mcp_server"
+      "skill_type": "mcp_server",
+      "verified_commit": "65e93c2852ad5974ca154f06148cd10e3cd644a9"
     },
     {
       "id": "mcp-desk-f439d7b7",
@@ -153,7 +162,8 @@
       "risk_level": "medium",
       "primary_language": "typescript",
       "install_url": "https://github.com/debsouryadatta/mcp-desk",
-      "skill_type": "mcp_server"
+      "skill_type": "mcp_server",
+      "verified_commit": "9115027deb6d9b5c1cc5d9ea83b72564be815790"
     }
   ],
   "total_skills": 10,
@@ -161,5 +171,5 @@
   "avg_score": 72.0,
   "min_score": 50,
   "top_stars": 0,
-  "generated_at": "2026-03-05T16:00:23Z"
+  "generated_at": "2026-03-05T16:07:36Z"
 }

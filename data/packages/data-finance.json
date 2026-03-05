@@ -27,7 +27,8 @@
       "risk_level": "medium",
       "primary_language": "typescript",
       "install_url": "https://github.com/ccxt/ccxt",
-      "skill_type": "agent_skill"
+      "skill_type": "agent_skill",
+      "verified_commit": "ff95cd2a813790719621a3d24e810ca95ae26f8b"
     },
     {
       "id": "ccxt-dd05e8cf",
@@ -41,7 +42,8 @@
       "risk_level": "medium",
       "primary_language": "unknown",
       "install_url": "https://github.com/2025emma/vibe-coding-cn",
-      "skill_type": "agent_skill"
+      "skill_type": "agent_skill",
+      "verified_commit": "9b42dd10ddf3fff58f8c7a4d347175db107d7bf9"
     },
     {
       "id": "alpaca-mcp-server-0b18ac25",
@@ -55,7 +57,8 @@
       "risk_level": "medium",
       "primary_language": "unknown",
       "install_url": "https://github.com/alpacahq/alpaca-mcp-server",
-      "skill_type": "mcp_server"
+      "skill_type": "mcp_server",
+      "verified_commit": "7ea7fb56d6b994cb8b56ac0ee7ec42ef54e26855"
     },
     {
       "id": "add-strategy-2e54db61",
@@ -69,7 +72,8 @@
       "risk_level": "medium",
       "primary_language": "python",
       "install_url": "https://github.com/whchien/ai-trader",
-      "skill_type": "agent_skill"
+      "skill_type": "agent_skill",
+      "verified_commit": "35e6366c47c7d18bb6661f7140389193ec81d80f"
     },
     {
       "id": "mcp-trader-ae9a0424",
@@ -83,7 +87,8 @@
       "risk_level": "info",
       "primary_language": "unknown",
       "install_url": "https://github.com/wshobson/mcp-trader",
-      "skill_type": "mcp_server"
+      "skill_type": "mcp_server",
+      "verified_commit": "8b7b96043fed3518ee35f15d9af49a2d43a8d43f"
     },
     {
       "id": "yahoo-finance-mcp-08c8e946",
@@ -97,7 +102,8 @@
       "risk_level": "medium",
       "primary_language": "unknown",
       "install_url": "https://github.com/Alex2Yang97/yahoo-finance-mcp",
-      "skill_type": "mcp_server"
+      "skill_type": "mcp_server",
+      "verified_commit": "88ee02382764a91639a402694541360874511653"
     },
     {
       "id": "0-finance-cli-b2c60630",
@@ -111,7 +117,8 @@
       "risk_level": "medium",
       "primary_language": "typescript",
       "install_url": "https://github.com/different-ai/agent-bank",
-      "skill_type": "agent_skill"
+      "skill_type": "agent_skill",
+      "verified_commit": "1d8cdd487abf4df37f8784568117fa6acd0dd2ac"
     },
     {
       "id": "freqtrade-mcp-ab018e1e",
@@ -125,7 +132,8 @@
       "risk_level": "medium",
       "primary_language": "python",
       "install_url": "https://github.com/kukapay/freqtrade-mcp",
-      "skill_type": "mcp_server"
+      "skill_type": "mcp_server",
+      "verified_commit": "6762093f9a294f770c886edcc1eda1c5a5ddeaf8"
     },
     {
       "id": "mcp-metatrader5-server-abaf7bef",
@@ -139,7 +147,8 @@
       "risk_level": "medium",
       "primary_language": "python",
       "install_url": "https://github.com/Qoyyuum/mcp-metatrader5-server",
-      "skill_type": "mcp_server"
+      "skill_type": "mcp_server",
+      "verified_commit": "8bae3c214609924acc2ef4224a1101844960059d"
     },
     {
       "id": "kospi-kosdaq-stock-server-66eb7209",
@@ -153,7 +162,8 @@
       "risk_level": "medium",
       "primary_language": "unknown",
       "install_url": "https://github.com/dragon1086/kospi-kosdaq-stock-server",
-      "skill_type": "mcp_server"
+      "skill_type": "mcp_server",
+      "verified_commit": "4fed3319aedccb01cc59867ebe499893e6f54f31"
     }
   ],
   "total_skills": 10,
@@ -161,5 +171,5 @@
   "avg_score": 72.2,
   "min_score": 50,
   "top_stars": 0,
-  "generated_at": "2026-03-05T16:00:23Z"
+  "generated_at": "2026-03-05T16:07:36Z"
 }

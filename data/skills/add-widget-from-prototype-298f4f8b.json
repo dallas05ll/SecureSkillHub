@@ -1,7 +1,7 @@
 {
   "id": "add-widget-from-prototype-298f4f8b",
   "name": "add-widget-from-prototype",
-  "description": "\u4ece code_snippet \u539f\u578b\u6587\u4ef6\u521b\u5efa\u53ef\u9884\u89c8\u7684 Dart \u5c0f\u7ec4\u4ef6\u3002\u81ea\u52a8\u5206\u6790 HTML \u8bbe\u8ba1\u3001\u751f\u6210 Flutter \u7ec4\u4ef6\u3001\u6ce8\u518c\u8def\u7531\u5e76\u6dfb\u52a0\u5230\u7ec4\u4ef6\u5c55\u793a\u5217\u8868\u3002",
+  "description": "从 code_snippet 原型文件创建可预览的 Dart 小组件。自动分析 HTML 设计、生成 Flutter 组件、注册路由并添加到组件展示列表。",
   "repo_url": "https://github.com/hunmer/memento",
   "source_hub": "skillsmp",
   "skill_type": "agent_skill",
@@ -36,7 +36,7 @@
     "injection_patterns": 0,
     "mismatches": 0,
     "undocumented_capabilities": 0,
-    "supervisor_approved": false,
+    "supervisor_approved": true,
     "supervisor_confidence": 55
   },
   "verification_level": "full_pipeline",

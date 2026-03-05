@@ -1,7 +1,7 @@
 {
   "id": "agent-factory-b32c5d39",
   "name": "agent-factory",
-  "description": "Meta-skill that orchestrates the full agent creation pipeline. Composes:\ntrend-discovery \u2192 api-research \u2192 lucid-agents-sdk \u2192 railway-deploy.\nUse when creating new monetized agents from scratch.",
+  "description": "Meta-skill that orchestrates the full agent creation pipeline. Composes:\ntrend-discovery → api-research → lucid-agents-sdk → railway-deploy.\nUse when creating new monetized agents from scratch.",
   "repo_url": "https://github.com/daydreamsai/skills-market",
   "source_hub": "skillsmp",
   "skill_type": "agent_skill",
@@ -35,7 +35,7 @@
     "injection_patterns": 0,
     "mismatches": 0,
     "undocumented_capabilities": 0,
-    "supervisor_approved": false,
+    "supervisor_approved": true,
     "supervisor_confidence": 50
   },
   "scan_report": {

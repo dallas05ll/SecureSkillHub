@@ -27,7 +27,8 @@
       "risk_level": "medium",
       "primary_language": "python",
       "install_url": "https://github.com/huggingface/trl",
-      "skill_type": "agent_skill"
+      "skill_type": "agent_skill",
+      "verified_commit": "8f635b65f6819761f01394be7711b5f0ad1bcf48"
     },
     {
       "id": "add-model-descriptions-5138cd98",
@@ -41,7 +42,8 @@
       "risk_level": "medium",
       "primary_language": "typescript",
       "install_url": "https://github.com/huggingface/chat-ui",
-      "skill_type": "agent_skill"
+      "skill_type": "agent_skill",
+      "verified_commit": "679f45de50cac55818ebd8536eb2fc22b94b8874"
     },
     {
       "id": "add-archon-model-d6637f8c",
@@ -55,7 +57,8 @@
       "risk_level": "medium",
       "primary_language": "python",
       "install_url": "https://github.com/inclusionai/areal",
-      "skill_type": "agent_skill"
+      "skill_type": "agent_skill",
+      "verified_commit": "6bc0830cf19e5bc66e6da55390fbfa8129011e81"
     },
     {
       "id": "mcp-hfspace-700339a8",
@@ -69,7 +72,8 @@
       "risk_level": "medium",
       "primary_language": "typescript",
       "install_url": "https://github.com/evalstate/mcp-hfspace",
-      "skill_type": "mcp_server"
+      "skill_type": "mcp_server",
+      "verified_commit": "b9e3903f1fb679629ec2995697b444700bcf001a"
     },
     {
       "id": "ai-engineer-92eee0eb",
@@ -83,7 +87,8 @@
       "risk_level": "medium",
       "primary_language": "unknown",
       "install_url": "https://github.com/intelligentcode-ai/intelligent-claude-code",
-      "skill_type": "agent_skill"
+      "skill_type": "agent_skill",
+      "verified_commit": "ca5d2ea494fb4c52b582440b64d40fd1e133a9ed"
     },
     {
       "id": "alex-mcp-f14e94a6",
@@ -97,7 +102,8 @@
       "risk_level": "medium",
       "primary_language": "python",
       "install_url": "https://github.com/drAbreu/alex-mcp",
-      "skill_type": "mcp_server"
+      "skill_type": "mcp_server",
+      "verified_commit": "55b62b0ab267f023ca93f95e7e5726628710626a"
     },
     {
       "id": "dataset-viewer-7da90a41",
@@ -111,7 +117,8 @@
       "risk_level": "medium",
       "primary_language": "python",
       "install_url": "https://github.com/privetin/dataset-viewer",
-      "skill_type": "mcp_server"
+      "skill_type": "mcp_server",
+      "verified_commit": "b1a340430a2e7f5c388e6d8676ad5366c1f18f2a"
     },
     {
       "id": "aeon-5ee45701",
@@ -125,7 +132,8 @@
       "risk_level": "medium",
       "primary_language": "python",
       "install_url": "https://github.com/lifangda/claude-plugins",
-      "skill_type": "agent_skill"
+      "skill_type": "agent_skill",
+      "verified_commit": "76d90e8304f792a3c98ddd4172ec7ec59b1e656f"
     },
     {
       "id": "agent-evaluation-3d81ea37",
@@ -139,7 +147,8 @@
       "risk_level": "medium",
       "primary_language": "python",
       "install_url": "https://github.com/mlflow/skills",
-      "skill_type": "agent_skill"
+      "skill_type": "agent_skill",
+      "verified_commit": "130dc974c1d3f574c086e025b3f347a9d62ee0a5"
     },
     {
       "id": "mlflowagent-9fd57dea",
@@ -153,7 +162,8 @@
       "risk_level": "medium",
       "primary_language": "python",
       "install_url": "https://github.com/iRahulPandey/mlflowAgent",
-      "skill_type": "mcp_server"
+      "skill_type": "mcp_server",
+      "verified_commit": "4bdb7d338bb2aaec13eaa747d391cd30cdaca39b"
     }
   ],
   "total_skills": 10,
@@ -161,5 +171,5 @@
   "avg_score": 66.3,
   "min_score": 55,
   "top_stars": 0,
-  "generated_at": "2026-03-05T16:00:23Z"
+  "generated_at": "2026-03-05T16:07:36Z"
 }

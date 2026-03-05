@@ -27,7 +27,8 @@
       "risk_level": "info",
       "primary_language": "python",
       "install_url": "https://github.com/googleanalytics/google-analytics-mcp",
-      "skill_type": "mcp_server"
+      "skill_type": "mcp_server",
+      "verified_commit": "ec7467a9fa9a780bcdffb0f429135a4ef65fa3f3"
     },
     {
       "id": "mcp-google-sheets-cd383f77",
@@ -41,7 +42,8 @@
       "risk_level": "medium",
       "primary_language": "python",
       "install_url": "https://github.com/xing5/mcp-google-sheets",
-      "skill_type": "mcp_server"
+      "skill_type": "mcp_server",
+      "verified_commit": "1cf967574085e315bb3f4e6f330f7f70b6ddcabe"
     },
     {
       "id": "mcp-gdrive-1432455d",
@@ -55,7 +57,8 @@
       "risk_level": "medium",
       "primary_language": "typescript",
       "install_url": "https://github.com/isaacphi/mcp-gdrive",
-      "skill_type": "mcp_server"
+      "skill_type": "mcp_server",
+      "verified_commit": "5a94bdcb751975f9f6552d261da35314baf89c43"
     },
     {
       "id": "google-analytics-mcp-1ff24fb0",
@@ -69,7 +72,8 @@
       "risk_level": "medium",
       "primary_language": "python",
       "install_url": "https://github.com/surendranb/google-analytics-mcp",
-      "skill_type": "mcp_server"
+      "skill_type": "mcp_server",
+      "verified_commit": "791103c9b3c50d1074947c16b912e20e8db59433"
     },
     {
       "id": "google-sheets-mcp-c62b4fb5",
@@ -83,7 +87,8 @@
       "risk_level": "medium",
       "primary_language": "unknown",
       "install_url": "https://github.com/mkummer225/google-sheets-mcp",
-      "skill_type": "mcp_server"
+      "skill_type": "mcp_server",
+      "verified_commit": "1d52b9ddf162ec302f693d4e00d5c57a52e908bb"
     },
     {
       "id": "mcp-server-google-analytics-8f7dd083",
@@ -97,7 +102,8 @@
       "risk_level": "medium",
       "primary_language": "unknown",
       "install_url": "https://github.com/ruchernchong/mcp-server-google-analytics",
-      "skill_type": "mcp_server"
+      "skill_type": "mcp_server",
+      "verified_commit": "a138c9b2e7b3e881328e778a38194783b50309bd"
     },
     {
       "id": "gdrive-mcp-server-b72fedd0",
@@ -111,7 +117,8 @@
       "risk_level": "medium",
       "primary_language": "unknown",
       "install_url": "https://github.com/felores/gdrive-mcp-server",
-      "skill_type": "mcp_server"
+      "skill_type": "mcp_server",
+      "verified_commit": "a1e0fa1f57319d261c5ee67f6302762ad23f11c4"
     },
     {
       "id": "google-sheets-cli-f94ee119",
@@ -125,7 +132,8 @@
       "risk_level": "medium",
       "primary_language": "markdown",
       "install_url": "https://github.com/gmickel/sheets-cli",
-      "skill_type": "agent_skill"
+      "skill_type": "agent_skill",
+      "verified_commit": "1c0e3dc0aa7d158ca06ba45f412cb32a372e657b"
     },
     {
       "id": "google-workspace-mcp-server-142062cd",
@@ -139,7 +147,8 @@
       "risk_level": "medium",
       "primary_language": "unknown",
       "install_url": "https://github.com/epaproditus/google-workspace-mcp-server",
-      "skill_type": "mcp_server"
+      "skill_type": "mcp_server",
+      "verified_commit": "d98b9500ee1d51efbc0646702d8b5eda0454b622"
     },
     {
       "id": "calendar-mcp-bcfad445",
@@ -153,7 +162,8 @@
       "risk_level": "medium",
       "primary_language": "python",
       "install_url": "https://github.com/deciduus/calendar-mcp",
-      "skill_type": "mcp_server"
+      "skill_type": "mcp_server",
+      "verified_commit": "67d062b44cc15f781dc193b8be6091e2ef5af204"
     }
   ],
   "total_skills": 10,
@@ -161,5 +171,5 @@
   "avg_score": 79.9,
   "min_score": 63,
   "top_stars": 1346,
-  "generated_at": "2026-03-05T16:00:23Z"
+  "generated_at": "2026-03-05T16:07:36Z"
 }

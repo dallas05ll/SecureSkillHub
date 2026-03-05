@@ -1,7 +1,7 @@
 {
   "id": "agents-md-mastery-ff16b19c",
   "name": "agents-md-mastery",
-  "description": "Use when bootstrapping, updating, or reviewing AGENTS.md \u2014 teaches what makes effective agent memory, how to structure sections, signal vs noise filtering, and when to prune stale entries",
+  "description": "Use when bootstrapping, updating, or reviewing AGENTS.md — teaches what makes effective agent memory, how to structure sections, signal vs noise filtering, and when to prune stale entries",
   "repo_url": "https://github.com/tctinh/agent-hive",
   "source_hub": "skillsmp",
   "skill_type": "agent_skill",
@@ -34,7 +34,7 @@
     "injection_patterns": 0,
     "mismatches": 0,
     "undocumented_capabilities": 0,
-    "supervisor_approved": false,
+    "supervisor_approved": true,
     "supervisor_confidence": 60
   },
   "scan_report": {

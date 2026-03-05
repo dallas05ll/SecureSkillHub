@@ -27,7 +27,8 @@
       "risk_level": "medium",
       "primary_language": "Python",
       "install_url": "https://github.com/jumpserver/jumpserver",
-      "skill_type": "mcp_server"
+      "skill_type": "mcp_server",
+      "verified_commit": "b71519cc449b270a6dee20278769be27a78725de"
     },
     {
       "id": "mcp-k8s-20d1f04c",
@@ -41,7 +42,8 @@
       "risk_level": "medium",
       "primary_language": "go",
       "install_url": "https://github.com/silenceper/mcp-k8s",
-      "skill_type": "mcp_server"
+      "skill_type": "mcp_server",
+      "verified_commit": "e770cdc8fc3864ce63c8caa59108974b61a4b068"
     },
     {
       "id": "mcp-kubernetes-e0007ac5",
@@ -55,7 +57,8 @@
       "risk_level": "medium",
       "primary_language": "go",
       "install_url": "https://github.com/Azure/mcp-kubernetes",
-      "skill_type": "mcp_server"
+      "skill_type": "mcp_server",
+      "verified_commit": "e981bc61c6f62be1bfb8d4b30ff5acc1b90329cb"
     },
     {
       "id": "aks-deployment-troubleshooter-44876c89",
@@ -69,7 +72,8 @@
       "risk_level": "medium",
       "primary_language": "python",
       "install_url": "https://github.com/mjunaidca/mjs-agent-skills",
-      "skill_type": "agent_skill"
+      "skill_type": "agent_skill",
+      "verified_commit": "14c990557ce22d59bae37f669134658e887b2b05"
     },
     {
       "id": "mcp-kubernetes-server-2c494505",
@@ -83,7 +87,8 @@
       "risk_level": "medium",
       "primary_language": "python",
       "install_url": "https://github.com/feiskyer/mcp-kubernetes-server",
-      "skill_type": "mcp_server"
+      "skill_type": "mcp_server",
+      "verified_commit": "e1184f8c7c010a09be8dcc89094fe7f6d67bd1b0"
     },
     {
       "id": "k8s-ai-3c715331",
@@ -97,7 +102,8 @@
       "risk_level": "info",
       "primary_language": "kotlin",
       "install_url": "https://github.com/hariohmprasath/k8s-ai",
-      "skill_type": "mcp_server"
+      "skill_type": "mcp_server",
+      "verified_commit": "6942254bf11312c1d895945f163628fc961dc08f"
     },
     {
       "id": "mcp-k8s-server-594a6f63",
@@ -111,7 +117,8 @@
       "risk_level": "info",
       "primary_language": "kotlin",
       "install_url": "https://github.com/hariohmprasath/mcp-k8s-server",
-      "skill_type": "mcp_server"
+      "skill_type": "mcp_server",
+      "verified_commit": "6942254bf11312c1d895945f163628fc961dc08f"
     },
     {
       "id": "advanced-kubernetes-76e490a1",
@@ -125,7 +132,8 @@
       "risk_level": "medium",
       "primary_language": "unknown",
       "install_url": "https://github.com/williamzujkowski/standards",
-      "skill_type": "agent_skill"
+      "skill_type": "agent_skill",
+      "verified_commit": "a8aeb9ff9e670875491385f1d0eb8ac561e45b8e"
     },
     {
       "id": "k8s-multicluster-mcp-00a56e6c",
@@ -139,7 +147,8 @@
       "risk_level": "medium",
       "primary_language": "python",
       "install_url": "https://github.com/razvanmacovei/k8s_multicluster_mcp",
-      "skill_type": "mcp_server"
+      "skill_type": "mcp_server",
+      "verified_commit": "40245bfa5753ff1c124ce4d228ab4f037a8003cc"
     },
     {
       "id": "kubernetes-mcp-server-2bafb7cb",
@@ -153,7 +162,8 @@
       "risk_level": "medium",
       "primary_language": "go",
       "install_url": "https://github.com/Blankcut/kubernetes-mcp-server",
-      "skill_type": "mcp_server"
+      "skill_type": "mcp_server",
+      "verified_commit": "58162fe177d158f7a16fe973ccf65fc8fb373e42"
     }
   ],
   "total_skills": 10,
@@ -161,5 +171,5 @@
   "avg_score": 79.8,
   "min_score": 60,
   "top_stars": 29936,
-  "generated_at": "2026-03-05T16:00:23Z"
+  "generated_at": "2026-03-05T16:07:36Z"
 }

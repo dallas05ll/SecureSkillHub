@@ -27,7 +27,8 @@
       "risk_level": "medium",
       "primary_language": "python",
       "install_url": "https://github.com/shubhamsaboo/awesome-llm-apps",
-      "skill_type": "agent_skill"
+      "skill_type": "agent_skill",
+      "verified_commit": "a5f5bb0ed7c9161c6939af9699ff2d2314f120e0"
     },
     {
       "id": "create-pull-request-5bf14eee",
@@ -41,7 +42,8 @@
       "risk_level": "medium",
       "primary_language": "typescript",
       "install_url": "https://github.com/cline/cline",
-      "skill_type": "agent_skill"
+      "skill_type": "agent_skill",
+      "verified_commit": "2baf966db7dc46dc7932be64c91c5cf85aa58492"
     },
     {
       "id": "pr-walkthrough-afa904d1",
@@ -55,7 +57,8 @@
       "risk_level": "medium",
       "primary_language": "typescript",
       "install_url": "https://github.com/tldraw/tldraw",
-      "skill_type": "agent_skill"
+      "skill_type": "agent_skill",
+      "verified_commit": "6c9d28260f168277abf35d43175497dddc3dba07"
     },
     {
       "id": "but-a22a6b34",
@@ -69,7 +72,8 @@
       "risk_level": "medium",
       "primary_language": "rust",
       "install_url": "https://github.com/gitbutlerapp/gitbutler",
-      "skill_type": "agent_skill"
+      "skill_type": "agent_skill",
+      "verified_commit": "407c2d3dd7e675b2147cb04feb253cfdb914ec05"
     },
     {
       "id": "generate-sparkle-appcast-b0fd3849",
@@ -83,7 +87,8 @@
       "risk_level": "medium",
       "primary_language": "unknown",
       "install_url": "https://github.com/caldis/mos",
-      "skill_type": "agent_skill"
+      "skill_type": "agent_skill",
+      "verified_commit": "244ad11fe98beb40b8089027bdd08614d0150e02"
     },
     {
       "id": "freshrss-git-0b81c2b3",
@@ -97,7 +102,8 @@
       "risk_level": "medium",
       "primary_language": "unknown",
       "install_url": "https://github.com/freshrss/freshrss",
-      "skill_type": "agent_skill"
+      "skill_type": "agent_skill",
+      "verified_commit": "ff8c269a3f57b96cef2c7760649943b3a06e6e55"
     },
     {
       "id": "git-safety-b8b2306a",
@@ -111,7 +117,8 @@
       "risk_level": "medium",
       "primary_language": "typescript",
       "install_url": "https://github.com/tamagui/tamagui",
-      "skill_type": "agent_skill"
+      "skill_type": "agent_skill",
+      "verified_commit": "37708393f968a9247ee17db189a6db4f06abef85"
     },
     {
       "id": "changelog-94ed5fab",
@@ -125,7 +132,8 @@
       "risk_level": "medium",
       "primary_language": "python",
       "install_url": "https://github.com/pipecat-ai/pipecat",
-      "skill_type": "agent_skill"
+      "skill_type": "agent_skill",
+      "verified_commit": "fd545cabab6bc19e14c027b2256e4c7ee787d8e3"
     },
     {
       "id": "git-commit-84755991",
@@ -139,7 +147,8 @@
       "risk_level": "medium",
       "primary_language": "unknown",
       "install_url": "https://github.com/github/awesome-copilot",
-      "skill_type": "agent_skill"
+      "skill_type": "agent_skill",
+      "verified_commit": "4488150e942c231c148e9648b3eda147d5237279"
     },
     {
       "id": "alignment-review-4bf2ad9b",
@@ -153,7 +162,8 @@
       "risk_level": "medium",
       "primary_language": "python",
       "install_url": "https://github.com/meta-pytorch/openenv",
-      "skill_type": "agent_skill"
+      "skill_type": "agent_skill",
+      "verified_commit": "036e9427f291e6b9bf8b93071969637b94449efa"
     }
   ],
   "total_skills": 10,
@@ -161,5 +171,5 @@
   "avg_score": 60.9,
   "min_score": 50,
   "top_stars": 0,
-  "generated_at": "2026-03-05T16:00:23Z"
+  "generated_at": "2026-03-05T16:07:36Z"
 }

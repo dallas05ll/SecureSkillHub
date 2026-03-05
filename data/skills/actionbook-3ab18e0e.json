@@ -1,7 +1,7 @@
 {
   "id": "actionbook-3ab18e0e",
   "name": "actionbook",
-  "description": "Activate when the user needs to interact with any website \u2014 browser automation, web scraping, screenshots, form filling, UI testing, monitoring, or building AI agents. Provides pre-verified page actions with step-by-step instructions and tested selectors.",
+  "description": "Activate when the user needs to interact with any website — browser automation, web scraping, screenshots, form filling, UI testing, monitoring, or building AI agents. Provides pre-verified page actions with step-by-step instructions and tested selectors.",
   "repo_url": "https://github.com/actionbook/actionbook",
   "source_hub": "skillsmp",
   "skill_type": "agent_skill",
@@ -39,7 +39,7 @@
     "injection_patterns": 0,
     "mismatches": 0,
     "undocumented_capabilities": 0,
-    "supervisor_approved": false,
+    "supervisor_approved": true,
     "supervisor_confidence": 60
   },
   "verification_level": "full_pipeline",

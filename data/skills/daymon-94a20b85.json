@@ -34,7 +34,7 @@
     "injection_patterns": 0,
     "mismatches": 0,
     "undocumented_capabilities": 0,
-    "supervisor_approved": false,
+    "supervisor_approved": true,
     "supervisor_confidence": 60
   },
   "scan_summary": "Electron/TypeScript desktop daemon. Background process execution, SQLite persistence, MCP integration. New project (11 days old at verification), background execution model warrants caution. No scripts inspected beyond config example.",

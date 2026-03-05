@@ -27,7 +27,8 @@
       "risk_level": "medium",
       "primary_language": "Go",
       "install_url": "https://github.com/github/github-mcp-server",
-      "skill_type": "mcp_server"
+      "skill_type": "mcp_server",
+      "verified_commit": "bf6467855c13d3b8f5cf72f8dfd9c86f8336b20b"
     },
     {
       "id": "dyadcheck-workflows-35cd3c7a",
@@ -41,7 +42,8 @@
       "risk_level": "medium",
       "primary_language": "typescript",
       "install_url": "https://github.com/dyad-sh/dyad",
-      "skill_type": "agent_skill"
+      "skill_type": "agent_skill",
+      "verified_commit": "fd95897f9d9f323e5f3811fbabe975b7d887568e"
     },
     {
       "id": "pinme-3dccfc8d",
@@ -55,7 +57,8 @@
       "risk_level": "medium",
       "primary_language": "TypeScript",
       "install_url": "https://github.com/glitternetwork/pinme",
-      "skill_type": "agent_skill"
+      "skill_type": "agent_skill",
+      "verified_commit": "c6c629e9ae0844154713871259a53958f0f5e9c8"
     },
     {
       "id": "terraform-skill-b2b81537",
@@ -69,7 +72,8 @@
       "risk_level": "medium",
       "primary_language": "Markdown",
       "install_url": "https://github.com/antonbabenko/terraform-skill",
-      "skill_type": "agent_skill"
+      "skill_type": "agent_skill",
+      "verified_commit": "5a68694c647526d95859f972bea3a2ae4e9cdfa7"
     },
     {
       "id": "actions-db6b47a7",
@@ -83,7 +87,8 @@
       "risk_level": "medium",
       "primary_language": "shell",
       "install_url": "https://github.com/robbyt/claude-skills",
-      "skill_type": "agent_skill"
+      "skill_type": "agent_skill",
+      "verified_commit": "5f664891f9d6b4752630e61f92250e5de5ca0d71"
     },
     {
       "id": "mcp-hello-world-d23aee28",
@@ -97,7 +102,8 @@
       "risk_level": "medium",
       "primary_language": "unknown",
       "install_url": "https://github.com/lobehub/mcp-hello-world",
-      "skill_type": "mcp_server"
+      "skill_type": "mcp_server",
+      "verified_commit": "9ec2a14b4f0ebd64681149e160a6b7cc7c85ea9f"
     },
     {
       "id": "agent-capabilities-9618088e",
@@ -111,7 +117,8 @@
       "risk_level": "medium",
       "primary_language": "python",
       "install_url": "https://github.com/jgtolentino/insightpulse-odoo",
-      "skill_type": "agent_skill"
+      "skill_type": "agent_skill",
+      "verified_commit": "99354337b6d7f0fa14fbb3524ddd6fbd146c9827"
     },
     {
       "id": "ai4curation-configuration-c2c88b42",
@@ -125,7 +132,8 @@
       "risk_level": "medium",
       "primary_language": "unknown",
       "install_url": "https://github.com/ai4curation/curation-skills",
-      "skill_type": "agent_skill"
+      "skill_type": "agent_skill",
+      "verified_commit": "4e12527acaae52d7bf1bfbc3cfe2d71a83f81b7e"
     },
     {
       "id": "add-artifact-attestations-to-workflow-5fa9e478",
@@ -139,7 +147,8 @@
       "risk_level": "medium",
       "primary_language": "python",
       "install_url": "https://github.com/jim60105/copilot-prompt",
-      "skill_type": "agent_skill"
+      "skill_type": "agent_skill",
+      "verified_commit": "011122dd7e734c1bc1aaa1da48e3a105822efd45"
     },
     {
       "id": "9to5-1fbe9de3",
@@ -153,7 +162,8 @@
       "risk_level": "medium",
       "primary_language": "typescript",
       "install_url": "https://github.com/michaelliv/9to5",
-      "skill_type": "agent_skill"
+      "skill_type": "agent_skill",
+      "verified_commit": "255bcb345cc4f783967a80ff779e9465b7b0c29c"
     }
   ],
   "total_skills": 10,
@@ -161,5 +171,5 @@
   "avg_score": 75.0,
   "min_score": 60,
   "top_stars": 27239,
-  "generated_at": "2026-03-05T16:00:23Z"
+  "generated_at": "2026-03-05T16:07:36Z"
 }

@@ -111,6 +111,8 @@ TAG_ALIASES: dict[str, str] = {
     "dev-web-frontend-svelte":   "dev-web-frontend-svelte",   # added 2026-03-03
     "dev-web-backend-rust":      "dev-web-backend-rust",      # added 2026-03-03
     "dev-web-fullstack-nuxt": "dev-web-fullstack-nuxt",
+    "react":             "dev-web-frontend-react",
+    "react-native":      "dev-mobile-react-native",
     "dev-automation":    "dev",
     "dev-backend":       "dev-web-backend",
     "dev-diagramming":   "dev",

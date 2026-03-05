@@ -23,7 +23,8 @@
       "risk_level": "medium",
       "primary_language": "unknown",
       "install_url": "https://github.com/electron/electron",
-      "skill_type": "agent_skill"
+      "skill_type": "agent_skill",
+      "verified_commit": "d18b017cb05b1c5aec330603b6fcc9b016fa5cee"
     },
     {
       "id": "daymon-94a20b85",
@@ -37,7 +38,8 @@
       "risk_level": "medium",
       "primary_language": "TypeScript",
       "install_url": "https://github.com/daymonio/daymon",
-      "skill_type": "agent_skill"
+      "skill_type": "agent_skill",
+      "verified_commit": "536295561b5eef2df9c7ff34688907162d8f04c2"
     },
     {
       "id": "aicut-deploy-dba3ca34",
@@ -51,7 +53,8 @@
       "risk_level": "medium",
       "primary_language": "typescript",
       "install_url": "https://github.com/luoluoluo22/aicut",
-      "skill_type": "agent_skill"
+      "skill_type": "agent_skill",
+      "verified_commit": "1790af15d66083e1969d65de25ec94fed5c52571"
     },
     {
       "id": "chatgpt-x-deepseek-x-grok-x-claude-linux-98af04a2",
@@ -65,7 +68,8 @@
       "risk_level": "medium",
       "primary_language": "javascript",
       "install_url": "https://github.com/alexandephilia/ChatGPT-x-DeepSeek-x-Grok-x-Claude-Linux-APP",
-      "skill_type": "mcp_server"
+      "skill_type": "mcp_server",
+      "verified_commit": "65e93c2852ad5974ca154f06148cd10e3cd644a9"
     },
     {
       "id": "chatgpt-x-deepseek-x-grok-x-claude-x-per-47fe199e",
@@ -79,7 +83,8 @@
       "risk_level": "medium",
       "primary_language": "javascript",
       "install_url": "https://github.com/alexandephilia/ChatGPT-x-DeepSeek-x-Grok-x-Claude-x-Perplexity-Linux-APP",
-      "skill_type": "mcp_server"
+      "skill_type": "mcp_server",
+      "verified_commit": "65e93c2852ad5974ca154f06148cd10e3cd644a9"
     },
     {
       "id": "mcp-client-7ex-1c80cb13",
@@ -93,7 +98,8 @@
       "risk_level": "medium",
       "primary_language": "typescript",
       "install_url": "https://github.com/kuc-arc-f/mcp_client_7ex",
-      "skill_type": "mcp_server"
+      "skill_type": "mcp_server",
+      "verified_commit": "1f67842467f425ff7283d68721fb36e1e68d3ca5"
     }
   ],
   "total_skills": 6,
@@ -101,5 +107,5 @@
   "avg_score": 72.7,
   "min_score": 60,
   "top_stars": 0,
-  "generated_at": "2026-03-05T16:00:23Z"
+  "generated_at": "2026-03-05T16:07:36Z"
 }

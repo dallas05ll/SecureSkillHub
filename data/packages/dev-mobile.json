@@ -27,7 +27,8 @@
       "risk_level": "medium",
       "primary_language": "typescript",
       "install_url": "https://github.com/heroui-inc/heroui",
-      "skill_type": "agent_skill"
+      "skill_type": "agent_skill",
+      "verified_commit": "0d4671413ef7307965c388be04b8bfcc6aa76561"
     },
     {
       "id": "building-native-ui-1a2120f1",
@@ -41,7 +42,8 @@
       "risk_level": "low",
       "primary_language": "javascript",
       "install_url": "https://github.com/expo/skills",
-      "skill_type": "agent_skill"
+      "skill_type": "agent_skill",
+      "verified_commit": "69fce80130bd1c75b009dde7edde8addb2852d61"
     },
     {
       "id": "flutter-animations-dc2bfbce",
@@ -55,7 +57,8 @@
       "risk_level": "low",
       "primary_language": "unknown",
       "install_url": "https://github.com/madteacher/mad-agents-skills",
-      "skill_type": "agent_skill"
+      "skill_type": "agent_skill",
+      "verified_commit": "69d260a364033d0846ac0945a6a5f7237705d93b"
     },
     {
       "id": "react-native-best-practices-1970bd18",
@@ -69,7 +72,8 @@
       "risk_level": "medium",
       "primary_language": "unknown",
       "install_url": "https://github.com/callstackincubator/agent-skills",
-      "skill_type": "agent_skill"
+      "skill_type": "agent_skill",
+      "verified_commit": "35d2e956c9fee6d60169a32494906fd98dc5e71c"
     },
     {
       "id": "swiftui-expert-skill-a242c934",
@@ -83,7 +87,8 @@
       "risk_level": "info",
       "primary_language": "unknown",
       "install_url": "https://github.com/avdlee/swiftui-agent-skill",
-      "skill_type": "agent_skill"
+      "skill_type": "agent_skill",
+      "verified_commit": "b4d29fba3650f5dde11e331c656e82e7086e8971"
     },
     {
       "id": "claude-code-ios-dev-guide-0fc91844",
@@ -97,7 +102,8 @@
       "risk_level": "medium",
       "primary_language": "markdown",
       "install_url": "https://github.com/keskinonur/claude-code-ios-dev-guide",
-      "skill_type": "agent_skill"
+      "skill_type": "agent_skill",
+      "verified_commit": "189b05b506074d1228099a0b32a7e4a6a71f120e"
     },
     {
       "id": "mcp-flutter-ba37ebfe",
@@ -111,7 +117,8 @@
       "risk_level": "medium",
       "primary_language": "unknown",
       "install_url": "https://github.com/Arenukvern/mcp_flutter",
-      "skill_type": "mcp_server"
+      "skill_type": "mcp_server",
+      "verified_commit": "0966869fb6d9d92b79d5bedbbbc18c5fe6f5da10"
     },
     {
       "id": "skills-b1bc2b7d",
@@ -125,7 +132,8 @@
       "risk_level": "info",
       "primary_language": "Markdown",
       "install_url": "https://github.com/zaferayan/skills",
-      "skill_type": "agent_skill"
+      "skill_type": "agent_skill",
+      "verified_commit": "254fc4558c0c8162eb03bf08caa600b74ec6004b"
     },
     {
       "id": "add-widget-from-prototype-298f4f8b",
@@ -139,7 +147,8 @@
       "risk_level": "medium",
       "primary_language": "unknown",
       "install_url": "https://github.com/hunmer/memento",
-      "skill_type": "agent_skill"
+      "skill_type": "agent_skill",
+      "verified_commit": "d62ae3a8a63a8099db1d4558e92d9239204c1113"
     },
     {
       "id": "add-screen-ea5bb08a",
@@ -153,7 +162,8 @@
       "risk_level": "medium",
       "primary_language": "typescript",
       "install_url": "https://github.com/stodevx/aao-react-native",
-      "skill_type": "agent_skill"
+      "skill_type": "agent_skill",
+      "verified_commit": "d9472453b1c94823c66faff647e9945e88a03790"
     }
   ],
   "total_skills": 10,
@@ -161,5 +171,5 @@
   "avg_score": 75.7,
   "min_score": 55,
   "top_stars": 0,
-  "generated_at": "2026-03-05T16:00:23Z"
+  "generated_at": "2026-03-05T16:07:36Z"
 }

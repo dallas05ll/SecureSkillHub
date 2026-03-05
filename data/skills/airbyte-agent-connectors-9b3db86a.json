@@ -1,7 +1,7 @@
 {
   "id": "airbyte-agent-connectors-9b3db86a",
   "name": "airbyte-agent-connectors",
-  "description": "Sets up and operates Airbyte Agent Connectors \u2014 strongly typed Python packages\nfor accessing 21+ third-party APIs (Salesforce, HubSpot, GitHub, Slack, Stripe,\nJira, and more) through a unified entity-action interface. Use when the user wants\nto connect to a SaaS API, set up an Airbyte connector, integrate third-party data\ninto an AI agent, or configure MCP tools for Claude. Covers Platform Mode (Airbyte\nCloud) and OSS Mode (local SDK).",
+  "description": "Sets up and operates Airbyte Agent Connectors — strongly typed Python packages\nfor accessing 21+ third-party APIs (Salesforce, HubSpot, GitHub, Slack, Stripe,\nJira, and more) through a unified entity-action interface. Use when the user wants\nto connect to a SaaS API, set up an Airbyte connector, integrate third-party data\ninto an AI agent, or configure MCP tools for Claude. Covers Platform Mode (Airbyte\nCloud) and OSS Mode (local SDK).",
   "repo_url": "https://github.com/airbytehq/airbyte-agent-connectors",
   "source_hub": "skillsmp",
   "skill_type": "agent_skill",
@@ -47,7 +47,7 @@
     "injection_patterns": 0,
     "mismatches": 0,
     "undocumented_capabilities": 0,
-    "supervisor_approved": false,
+    "supervisor_approved": true,
     "supervisor_confidence": 60
   },
   "scan_report": {

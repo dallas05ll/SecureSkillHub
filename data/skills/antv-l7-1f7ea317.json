@@ -34,7 +34,7 @@
     "injection_patterns": 0,
     "mismatches": 0,
     "undocumented_capabilities": 0,
-    "supervisor_approved": false,
+    "supervisor_approved": true,
     "supervisor_confidence": 90
   },
   "scan_report": {
@@ -77,21 +77,21 @@
         "rule_id": "regex_js_fetch",
         "severity": "medium",
         "category": "network_ops",
-        "file": "legacy/dev-docs/\u4f7f\u7528\u65b9\u6cd5.md",
+        "file": "legacy/dev-docs/使用方法.md",
         "line": 35
       },
       {
         "rule_id": "regex_js_fetch",
         "severity": "medium",
         "category": "network_ops",
-        "file": "legacy/dev-docs/\u4f7f\u7528\u65b9\u6cd5.md",
+        "file": "legacy/dev-docs/使用方法.md",
         "line": 105
       },
       {
         "rule_id": "regex_js_fetch",
         "severity": "medium",
         "category": "network_ops",
-        "file": "legacy/dev-docs/\u4f7f\u7528\u65b9\u6cd5.md",
+        "file": "legacy/dev-docs/使用方法.md",
         "line": 160
       },
       {

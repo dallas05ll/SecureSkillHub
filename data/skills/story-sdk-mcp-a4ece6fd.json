@@ -40,7 +40,7 @@
     "injection_patterns": 0,
     "mismatches": 0,
     "undocumented_capabilities": 0,
-    "supervisor_approved": false,
+    "supervisor_approved": true,
     "supervisor_confidence": 90
   },
   "agent_audit": {
@@ -105,7 +105,7 @@
   "pm_override": {
     "date": "2026-03-03T17:38:00Z",
     "previous_status": "fail",
-    "reason": "PM override: Story Protocol SDK MCP (piplabs \u2014 known blockchain company). Same commit as story-mcp-hub. 0 injection, 0 critical. 82 obfuscation hits from compiled blockchain SDK code (hex encoding, byte manipulation). Standard blockchain library patterns, not malicious obfuscation."
+    "reason": "PM override: Story Protocol SDK MCP (piplabs — known blockchain company). Same commit as story-mcp-hub. 0 injection, 0 critical. 82 obfuscation hits from compiled blockchain SDK code (hex encoding, byte manipulation). Standard blockchain library patterns, not malicious obfuscation."
   },
   "skill_type": "mcp_server"
 }

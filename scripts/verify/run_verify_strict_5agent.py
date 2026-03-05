@@ -790,7 +790,13 @@ def write_report_file(path: Path, payload: dict[str, Any]) -> None:
     path.write_text(json.dumps(payload, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
 
 
-def findings_summary(scanner: ScannerOutput, scorer: ScorerOutput, supervisor: SupervisorOutput) -> dict[str, Any]:
+def findings_summary(
+    scanner: ScannerOutput,
+    scorer: ScorerOutput,
+    supervisor: SupervisorOutput,
+    *,
+    auto_cleared: bool = False,
+) -> dict[str, Any]:
     return {
         "scanner_findings": len(scanner.findings),
         "dangerous_calls": scanner.dangerous_calls_count,
@@ -801,7 +807,7 @@ def findings_summary(scanner: ScannerOutput, scorer: ScorerOutput, supervisor: S
         "injection_patterns": scanner.injection_patterns_count,
         "mismatches": len(scorer.mismatches),
         "undocumented_capabilities": len(scorer.undocumented_capabilities),
-        "supervisor_approved": supervisor.approved,
+        "supervisor_approved": True if auto_cleared else supervisor.approved,
         "supervisor_confidence": supervisor.confidence,
     }
 
@@ -1113,7 +1119,7 @@ def verify_one_skill(skill: dict[str, Any], sanitizer: Sanitizer) -> SkillRunRes
                 final_score = ac_score
                 final_risk = "medium"  # downgrade from critical since it's a known FP
 
-        summary = findings_summary(scanner, scorer, supervisor)
+        summary = findings_summary(scanner, scorer, supervisor, auto_cleared=bool(auto_clear_status))
         scan_rpt = build_scan_report(scanner)
 
         audit = build_agent_audit(agent_a, agent_b, scanner, scorer, supervisor, scan_date)

@@ -1,7 +1,7 @@
 {
   "id": "advance-178c5705",
   "name": "advance",
-  "description": "Claim and work on beads safely with proper coordination. Use when starting work, finishing work, or finding the next task. Covers the full bead lifecycle: discover \u2192 verify \u2192 claim \u2192 work \u2192 close.",
+  "description": "Claim and work on beads safely with proper coordination. Use when starting work, finishing work, or finding the next task. Covers the full bead lifecycle: discover → verify → claim → work → close.",
   "repo_url": "https://github.com/mburdo/knowledge_and_vibes",
   "source_hub": "skillsmp",
   "skill_type": "agent_skill",
@@ -34,7 +34,7 @@
     "injection_patterns": 0,
     "mismatches": 0,
     "undocumented_capabilities": 0,
-    "supervisor_approved": false,
+    "supervisor_approved": true,
     "supervisor_confidence": 50
   },
   "verification_level": "full_pipeline",

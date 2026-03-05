@@ -27,7 +27,8 @@
       "risk_level": "high",
       "primary_language": "TypeScript",
       "install_url": "https://github.com/qwibitai/nanoclaw",
-      "skill_type": "mcp_server"
+      "skill_type": "mcp_server",
+      "verified_commit": "8f91d3be576b830081f2a802e2f2d426b010f8f7"
     },
     {
       "id": "whatsapp-mcp-40a1d651",
@@ -41,7 +42,8 @@
       "risk_level": "medium",
       "primary_language": "python",
       "install_url": "https://github.com/lharries/whatsapp-mcp",
-      "skill_type": "mcp_server"
+      "skill_type": "mcp_server",
+      "verified_commit": "7d6a06dcdce1f01dfb24f60e1030d5efba9f3b88"
     },
     {
       "id": "agent-support-matrix-0baad370",
@@ -55,7 +57,8 @@
       "risk_level": "medium",
       "primary_language": "unknown",
       "install_url": "https://github.com/jazzyalex/agent-sessions",
-      "skill_type": "agent_skill"
+      "skill_type": "agent_skill",
+      "verified_commit": "d9c7b52e5ca066ddc6d3e79e6f18e4cc14d0d2f3"
     },
     {
       "id": "add-ktnip-ksp-tests-d398f53e",
@@ -69,7 +72,8 @@
       "risk_level": "medium",
       "primary_language": "kotlin",
       "install_url": "https://github.com/vendelieu/telegram-bot",
-      "skill_type": "agent_skill"
+      "skill_type": "agent_skill",
+      "verified_commit": "dc3e49769a53aeb44964e2f44b006c08c946ccfe"
     },
     {
       "id": "mcp-telegram-1157fbf2",
@@ -83,7 +87,8 @@
       "risk_level": "low",
       "primary_language": "python",
       "install_url": "https://github.com/dryeab/mcp-telegram",
-      "skill_type": "mcp_server"
+      "skill_type": "mcp_server",
+      "verified_commit": "653a1ed43c4927b28b4060e6759d3c4009d5ea00"
     },
     {
       "id": "agents-md-mastery-ff16b19c",
@@ -97,7 +102,8 @@
       "risk_level": "medium",
       "primary_language": "typescript",
       "install_url": "https://github.com/tctinh/agent-hive",
-      "skill_type": "agent_skill"
+      "skill_type": "agent_skill",
+      "verified_commit": "9735ca03d0ec5fc9a6d7bf05482cd0d1607a484f"
     },
     {
       "id": "whatsapp-mcp-ts-7ba27d62",
@@ -111,7 +117,8 @@
       "risk_level": "medium",
       "primary_language": "unknown",
       "install_url": "https://github.com/jlucaso1/whatsapp-mcp-ts",
-      "skill_type": "mcp_server"
+      "skill_type": "mcp_server",
+      "verified_commit": "ce9b144a2327d44f4288ee400503e2dc06c7d2d5"
     },
     {
       "id": "mcp-communicator-telegram-6260d921",
@@ -125,7 +132,8 @@
       "risk_level": "medium",
       "primary_language": "unknown",
       "install_url": "https://github.com/qpd-v/mcp-communicator-telegram",
-      "skill_type": "mcp_server"
+      "skill_type": "mcp_server",
+      "verified_commit": "0c90dc657ed20fc314bf1d538fae6599da2192b0"
     },
     {
       "id": "agent-reachout-2d34dd25",
@@ -139,7 +147,8 @@
       "risk_level": "medium",
       "primary_language": "markdown",
       "install_url": "https://github.com/vibe-with-me-tools/agent-reachout",
-      "skill_type": "agent_skill"
+      "skill_type": "agent_skill",
+      "verified_commit": "c1dd6d35e4ee041a6d26abcd4c37a9507fedc211"
     },
     {
       "id": "telegram-mcp-server-214d9a31",
@@ -153,7 +162,8 @@
       "risk_level": "medium",
       "primary_language": "javascript",
       "install_url": "https://github.com/kfastov/telegram-mcp-server",
-      "skill_type": "mcp_server"
+      "skill_type": "mcp_server",
+      "verified_commit": "493a3e7fdbef1121b52a05cd4ba6644a8b42c8f4"
     }
   ],
   "total_skills": 10,
@@ -161,5 +171,5 @@
   "avg_score": 82.5,
   "min_score": 60,
   "top_stars": 14543,
-  "generated_at": "2026-03-05T16:00:23Z"
+  "generated_at": "2026-03-05T16:07:36Z"
 }

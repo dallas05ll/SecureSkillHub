@@ -27,7 +27,8 @@
       "risk_level": "medium",
       "primary_language": "typescript",
       "install_url": "https://github.com/langgenius/dify",
-      "skill_type": "agent_skill"
+      "skill_type": "agent_skill",
+      "verified_commit": "164ccb7c48f9482e227acc820bd731328fad8c9f"
     },
     {
       "id": "playwright-cli-2f232e28",
@@ -41,7 +42,8 @@
       "risk_level": "medium",
       "primary_language": "typescript",
       "install_url": "https://github.com/microsoft/playwright",
-      "skill_type": "agent_skill"
+      "skill_type": "agent_skill",
+      "verified_commit": "3c8c457b85e211f30dd15f343aa7213dc50ab18b"
     },
     {
       "id": "superpowers-675df694",
@@ -55,7 +57,8 @@
       "risk_level": "high",
       "primary_language": "Shell",
       "install_url": "https://github.com/obra/superpowers",
-      "skill_type": "agent_skill"
+      "skill_type": "agent_skill",
+      "verified_commit": "e4a2375cb705ca5800f0833528ce36a3faf9017a"
     },
     {
       "id": "microsoft--playwright-mcp",
@@ -69,7 +72,8 @@
       "risk_level": "high",
       "primary_language": "TypeScript",
       "install_url": "https://github.com/microsoft/playwright-mcp",
-      "skill_type": "mcp_server"
+      "skill_type": "mcp_server",
+      "verified_commit": "43e31e83619c23c07bcfab31cfba24b4c437251b"
     },
     {
       "id": "debug-node-coverage-585085bf",
@@ -83,7 +87,8 @@
       "risk_level": "medium",
       "primary_language": "unknown",
       "install_url": "https://github.com/zulip/zulip",
-      "skill_type": "agent_skill"
+      "skill_type": "agent_skill",
+      "verified_commit": "f86b4a6867174ea553c099561bdefb9ce47ddcd8"
     },
     {
       "id": "pytest-runner-3a7dfee2",
@@ -97,7 +102,8 @@
       "risk_level": "medium",
       "primary_language": "python",
       "install_url": "https://github.com/saleor/saleor",
-      "skill_type": "agent_skill"
+      "skill_type": "agent_skill",
+      "verified_commit": "88cddd3340d71661f529655ab413fa80a40a6b1f"
     },
     {
       "id": "write-docs-2edadcd9",
@@ -111,7 +117,8 @@
       "risk_level": "medium",
       "primary_language": "python",
       "install_url": "https://github.com/prefecthq/prefect",
-      "skill_type": "agent_skill"
+      "skill_type": "agent_skill",
+      "verified_commit": "fc4d9c77a0fd0f12c8c7f49cffd4ef1ed1189ae4"
     },
     {
       "id": "quality-bun-feature-delivery-b55bcfa6",
@@ -125,7 +132,8 @@
       "risk_level": "medium",
       "primary_language": "rust",
       "install_url": "https://github.com/nikivdev/flow",
-      "skill_type": "agent_skill"
+      "skill_type": "agent_skill",
+      "verified_commit": "c6a5560b29dec7b636e06dcda31bbdcbde2b05f5"
     },
     {
       "id": "gen-ut-93b6b78a",
@@ -139,7 +147,8 @@
       "risk_level": "medium",
       "primary_language": "java",
       "install_url": "https://github.com/apache/shardingsphere",
-      "skill_type": "agent_skill"
+      "skill_type": "agent_skill",
+      "verified_commit": "dd0f9819c45aa4c5fc8aa2d6de710233d6aeefbb"
     },
     {
       "id": "playwright-roll-b912c7fa",
@@ -153,7 +162,8 @@
       "risk_level": "medium",
       "primary_language": "python",
       "install_url": "https://github.com/microsoft/playwright-python",
-      "skill_type": "agent_skill"
+      "skill_type": "agent_skill",
+      "verified_commit": "3aecfcfded4239d157bb3e86cb682f6c8ecf6827"
     }
   ],
   "total_skills": 10,
@@ -161,5 +171,5 @@
   "avg_score": 59.5,
   "min_score": 50,
   "top_stars": 0,
-  "generated_at": "2026-03-05T16:00:23Z"
+  "generated_at": "2026-03-05T16:07:36Z"
 }
