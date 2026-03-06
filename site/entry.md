@@ -256,6 +256,30 @@ GET /v2/stats              → {mcp_servers: {total, verified, safe}, agent_skil
 
 ---
 
+## MCP Server (Native Tool Integration)
+
+For agents that support MCP (Model Context Protocol), install the SecureSkillHub MCP server for native tool access:
+
+```
+npx @secureskillhub/mcp-server
+```
+
+This provides 5 tools:
+
+| Tool | Description |
+|------|-------------|
+| `search_skills` | Search catalog with type/tags/tier/query filters |
+| `get_report` | Full security audit report for a skill |
+| `get_bundle` | Pre-built package of verified skills for a project type |
+| `install` | Commit-pinned install command for a verified skill |
+| `browse_categories` | List all packages and catalog statistics |
+
+**When to use MCP vs v2 API**: Use the MCP server when your agent supports MCP natively — it wraps the v2 API with proper tool schemas and structured output. Use the v2 API directly when MCP is not available.
+
+**Configuration**: Set `SECURESKILLHUB_API_BASE` env var to override the default API endpoint.
+
+---
+
 ## Custom Packages
 
 Users can create personalized skill packages tied to their GitHub account.

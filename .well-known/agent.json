@@ -28,6 +28,11 @@
       "indexes": "site/api/indexes/manifest.json"
     }
   },
-  "instructions": "Start by reading site/entry.md for the progressive disclosure flow. PREFERRED: Use the dynamic API at api.secureskillhub.workers.dev/v2/ for search, filtering, and targeted queries (small responses, 2-5KB). FALLBACK: Use static files for bulk data or offline use. For quick results, use packages/ first (~5KB each). Do NOT parse index.html — it is a human-facing frontend.",
-  "version": "2.1"
+  "mcp_server": {
+    "package": "@secureskillhub/mcp-server",
+    "install": "npx @secureskillhub/mcp-server",
+    "tools": ["search_skills", "get_report", "get_bundle", "install", "browse_categories"]
+  },
+  "instructions": "Start by reading site/entry.md for the progressive disclosure flow. BEST: Use the MCP server (@secureskillhub/mcp-server) for native tool integration. PREFERRED: Use the dynamic API at api.secureskillhub.workers.dev/v2/ for search, filtering, and targeted queries (small responses, 2-5KB). FALLBACK: Use static files for bulk data or offline use. For quick results, use packages/ first (~5KB each). Do NOT parse index.html — it is a human-facing frontend.",
+  "version": "2.2"
 }

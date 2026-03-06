@@ -80,8 +80,9 @@ src/build/            — build_json.py, build_html.py (static site generator)
 site/                 — static frontend (vanilla HTML/CSS/JS)
 site/api/             — generated JSON API endpoints (do not hand-edit)
 site/entry.md         — agent-readable discovery entry point
-api/                  — Cloudflare Worker API (user accounts, custom packages)
+api/                  — Cloudflare Worker API (user accounts, custom packages, v2 dynamic endpoints)
 cli/                  — npx secureskillhub CLI tool
+packages/secureskillhub-mcp/ — MCP server (@secureskillhub/mcp-server, 5 tools)
 ```
 
 ## Workflows
