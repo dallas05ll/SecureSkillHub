@@ -27,6 +27,7 @@ Each topic has ONE canonical home. Never duplicate content across files. If you 
 | Security Manager (false positive audit, patterns) | `roles/SECURITY_MANAGER.md` | PM's on-demand security consultant, pattern accuracy |
 | Memory Manager (memory infrastructure, health) | `roles/MEMORY_MANAGER.md` | Cross-role memory auditor, 9 sub-agents, 4 protocols (LOAD/WRITE/EVOLVE/HEALTH) |
 | Structured memory schema + per-role memory | `memory/structured/*.json` | Layer 1: fast-load JSON, tagged, filterable. Owned by MemM |
+| MCP server package | `packages/secureskillhub-mcp/` | AXM-owned, npm-publishable MCP integration (5 tools) |
 
 **Rules:**
 - Before writing content, check if it already exists in a canonical file
