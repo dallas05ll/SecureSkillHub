@@ -1,4 +1,4 @@
-import { apiFetch, ApiError } from "../api.js";
+import { apiFetch, ApiError, formatError } from "../api.js";
 
 interface PackageListItem {
   tag: string;
@@ -54,12 +54,9 @@ export async function browseCategories(apiBase: string) {
 
     return { content: [{ type: "text" as const, text }] };
   } catch (err) {
-    if (err instanceof ApiError) {
-      return {
-        content: [{ type: "text" as const, text: `Browse failed: ${err.message}` }],
-        isError: true,
-      };
-    }
-    throw err;
+    return {
+      content: [{ type: "text" as const, text: `Browse failed: ${err instanceof ApiError ? err.message : formatError(err)}` }],
+      isError: true,
+    };
   }
 }

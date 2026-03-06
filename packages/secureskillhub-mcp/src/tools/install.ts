@@ -1,4 +1,4 @@
-import { apiFetch, ApiError } from "../api.js";
+import { apiFetch, ApiError, formatError } from "../api.js";
 
 interface SkillDetail {
   id: string;
@@ -85,12 +85,9 @@ export async function installSkill(apiBase: string, skillId: string) {
         isError: true,
       };
     }
-    if (err instanceof ApiError) {
-      return {
-        content: [{ type: "text" as const, text: `Install failed: ${err.message}` }],
-        isError: true,
-      };
-    }
-    throw err;
+    return {
+      content: [{ type: "text" as const, text: `Install failed: ${err instanceof ApiError ? err.message : formatError(err)}` }],
+      isError: true,
+    };
   }
 }

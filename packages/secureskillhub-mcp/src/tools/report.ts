@@ -1,4 +1,4 @@
-import { apiFetch, ApiError } from "../api.js";
+import { apiFetch, ApiError, formatError } from "../api.js";
 
 interface AgentAuditEntry {
   signed: boolean;
@@ -90,12 +90,9 @@ export async function getReport(apiBase: string, skillId: string) {
         isError: true,
       };
     }
-    if (err instanceof ApiError) {
-      return {
-        content: [{ type: "text" as const, text: `Report failed: ${err.message}` }],
-        isError: true,
-      };
-    }
-    throw err;
+    return {
+      content: [{ type: "text" as const, text: `Report failed: ${err instanceof ApiError ? err.message : formatError(err)}` }],
+      isError: true,
+    };
   }
 }

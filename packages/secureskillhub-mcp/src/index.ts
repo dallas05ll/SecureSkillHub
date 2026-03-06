@@ -13,6 +13,12 @@ const API_BASE =
   process.env.SECURESKILLHUB_API_BASE ||
   "https://api.secureskillhub.workers.dev";
 
+// SSRF protection: only allow https:// API base URLs
+if (!/^https:\/\//.test(API_BASE)) {
+  console.error("SECURESKILLHUB_API_BASE must use https://");
+  process.exit(1);
+}
+
 const server = new McpServer({
   name: "secureskillhub",
   version: "0.1.0",
@@ -37,10 +43,12 @@ server.tool(
       .describe("Filter by skill type: mcp (MCP servers), agent (agent skills), or all"),
     tags: z
       .string()
+      .regex(/^[a-zA-Z0-9_,-]+$/, "Tags must be comma-separated alphanumeric values")
       .optional()
       .describe("Comma-separated tags to filter by (e.g. 'data-db,data-ai')"),
     tier: z
       .string()
+      .regex(/^[SABCDE](,[SABCDE])*$/i, "Tier must be comma-separated letters: S,A,B,C,D,E")
       .optional()
       .describe("Comma-separated tier letters: S,A,B,C,D,E (S=10K+, A=1K+, B=100+)"),
     verified: z

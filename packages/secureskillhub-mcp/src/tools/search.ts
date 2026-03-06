@@ -1,4 +1,4 @@
-import { apiFetch, ApiError } from "../api.js";
+import { apiFetch, ApiError, formatError } from "../api.js";
 
 interface SearchResult {
   id: string;
@@ -72,6 +72,9 @@ export async function searchSkills(apiBase: string, params: SearchParams) {
         isError: true,
       };
     }
-    throw err;
+    return {
+      content: [{ type: "text" as const, text: `Search failed: ${formatError(err)}` }],
+      isError: true,
+    };
   }
 }

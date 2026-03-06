@@ -1,4 +1,4 @@
-import { apiFetch, ApiError } from "../api.js";
+import { apiFetch, ApiError, formatError } from "../api.js";
 
 interface PackageSkill {
   id: string;
@@ -61,12 +61,9 @@ export async function getBundle(apiBase: string, tag: string) {
         isError: true,
       };
     }
-    if (err instanceof ApiError) {
-      return {
-        content: [{ type: "text" as const, text: `Bundle failed: ${err.message}` }],
-        isError: true,
-      };
-    }
-    throw err;
+    return {
+      content: [{ type: "text" as const, text: `Bundle failed: ${err instanceof ApiError ? err.message : formatError(err)}` }],
+      isError: true,
+    };
   }
 }
