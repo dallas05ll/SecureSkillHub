@@ -102,5 +102,6 @@
   },
   "pm_override": true,
   "pm_override_reason": "FP: tryghost/ghost CMS, 1 injection = HTML sanitization",
-  "installs": 51838
+  "installs": 51838,
+  "has_plugin_json": false
 }

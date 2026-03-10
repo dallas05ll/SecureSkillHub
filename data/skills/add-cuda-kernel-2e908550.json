@@ -99,5 +99,6 @@
   },
   "pm_override": true,
   "pm_override_reason": "FP: flashinfer-ai (CMU/UW), 7 obf = hex GPU kernel constants",
-  "installs": 4988
+  "installs": 4988,
+  "has_plugin_json": false
 }

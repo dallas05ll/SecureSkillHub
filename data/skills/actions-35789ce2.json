@@ -97,5 +97,6 @@
   },
   "pm_override": true,
   "pm_override_reason": "FP: jetbrains/intellij-community, 3 injection in 182K files = 0.0016% hit rate",
-  "installs": 19716
+  "installs": 19716,
+  "has_plugin_json": false
 }

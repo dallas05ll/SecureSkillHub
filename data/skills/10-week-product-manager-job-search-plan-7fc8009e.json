@@ -1,7 +1,7 @@
 {
   "id": "10-week-product-manager-job-search-plan-7fc8009e",
   "name": "10-week-product-manager-job-search-plan",
-  "description": "A time-boxed, iterative 10-week plan for product manager job seekers that balances depth and sustainability by capping weekly effort at 12 hours, with built-in feedback loops for resume refinement, targeted applications, strategic referrals, and progressive interview simulation — including mandatory weekly 10-minute review and adaptive planning triggered by real-world signals like reply rate.",
+  "description": "A time-boxed, iterative 10-week plan for product manager job seekers that balances depth and sustainability by capping weekly effort at 12 hours, with built-in feedback loops for resume refinement, targeted applications, strategic referrals, and progressive interview simulation \u2014 including mandatory weekly 10-minute review and adaptive planning triggered by real-world signals like reply rate.",
   "repo_url": "https://github.com/ecnu-icalk/autoskill",
   "source_hub": "skillsmp",
   "skill_type": "agent_skill",
@@ -104,5 +104,6 @@
       "original_score": 60
     }
   },
-  "installs": 20
+  "installs": 20,
+  "has_plugin_json": false
 }

@@ -1,7 +1,7 @@
 {
   "id": "3x-ui-setup-242114d0",
   "name": "3x-ui-setup",
-  "description": "Complete VPN server setup from scratch. Takes a fresh VPS (IP + root + password from hosting provider) through full server hardening and 3x-ui (Xray proxy panel) installation with VLESS Reality or VLESS TLS. Guides user through connecting via Hiddify client. Use when user mentions v2ray, xray, vless, 3x-ui, proxy server, vpn server, or wants to set up encrypted proxy access on a VPS. Designed for beginners — hand-holds through every step.",
+  "description": "Complete VPN server setup from scratch. Takes a fresh VPS (IP + root + password from hosting provider) through full server hardening and 3x-ui (Xray proxy panel) installation with VLESS Reality or VLESS TLS. Guides user through connecting via Hiddify client. Use when user mentions v2ray, xray, vless, 3x-ui, proxy server, vpn server, or wants to set up encrypted proxy access on a VPS. Designed for beginners \u2014 hand-holds through every step.",
   "repo_url": "https://github.com/andyshaman/3x-ui-skill",
   "source_hub": "skillsmp",
   "skill_type": "agent_skill",
@@ -97,5 +97,6 @@
       "original_score": 55
     }
   },
-  "installs": 17
+  "installs": 17,
+  "has_plugin_json": false
 }

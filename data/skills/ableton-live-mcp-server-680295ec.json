@@ -101,5 +101,6 @@
     },
     "manager_summary": "5/5 agents completed. Score: 99/100, Risk: medium. 0 mismatches, 1 scanner findings. Approved at 95% confidence. No safety overrides."
   },
-  "skill_type": "mcp_server"
+  "skill_type": "mcp_server",
+  "has_plugin_json": false
 }

@@ -97,5 +97,6 @@
   },
   "pm_override": true,
   "pm_override_reason": "FP: dotnet/runtime (Microsoft), 163 obf = JIT opcode encoding",
-  "installs": 17585
+  "installs": 17585,
+  "has_plugin_json": false
 }

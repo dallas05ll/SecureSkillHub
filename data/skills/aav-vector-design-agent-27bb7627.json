@@ -99,5 +99,6 @@
   },
   "pm_override": true,
   "pm_override_reason": "FP: all injection/obf in vendored External_Collections (langchain, semantic-kernel)",
-  "installs": 10
+  "installs": 10,
+  "has_plugin_json": false
 }

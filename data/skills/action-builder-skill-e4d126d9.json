@@ -97,5 +97,6 @@
   },
   "pm_override": true,
   "pm_override_reason": "FP: nangohq (YC OAuth platform), 1 injection in 3126 files = test fixture",
-  "installs": 25
+  "installs": 25,
+  "has_plugin_json": false
 }

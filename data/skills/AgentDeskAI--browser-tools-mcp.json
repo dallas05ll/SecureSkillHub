@@ -97,5 +97,6 @@
     "previous_status": "fail",
     "reason": "PM override (internet-verified): TRUSTED: Well-known MCP browser tool, stars match (~7.1K)",
     "override_by": "PM + SecM(Opus) audit + internet verification 20260302"
-  }
+  },
+  "has_plugin_json": false
 }

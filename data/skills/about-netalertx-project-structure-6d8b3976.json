@@ -99,5 +99,6 @@
   },
   "pm_override": true,
   "pm_override_reason": "FP: chr(39) in Docker test + DataTables Unicode currency table in bundled lib",
-  "installs": 5801
+  "installs": 5801,
+  "has_plugin_json": false
 }

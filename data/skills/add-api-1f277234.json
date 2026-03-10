@@ -1,7 +1,7 @@
 {
   "id": "add-api-1f277234",
   "name": "add-api",
-  "description": "Add new C# APIs to SkiaSharp by wrapping Skia C++ functionality. Structured 6-phase workflow: C++ analysis → C API creation → submodule commits → binding generation → C# wrapper → testing. Triggers: - Issue classified as \"New API\" (after fetching and classification) - Direct request: \"add DrawFoo method\", \"expose SkSurface::draw\", \"wrap sk_foo_bar\" - Keywords: \"add API\", \"expose function\", \"wrap method\", \"create binding for\"",
+  "description": "Add new C# APIs to SkiaSharp by wrapping Skia C++ functionality. Structured 6-phase workflow: C++ analysis \u2192 C API creation \u2192 submodule commits \u2192 binding generation \u2192 C# wrapper \u2192 testing. Triggers: - Issue classified as \"New API\" (after fetching and classification) - Direct request: \"add DrawFoo method\", \"expose SkSurface::draw\", \"wrap sk_foo_bar\" - Keywords: \"add API\", \"expose function\", \"wrap method\", \"create binding for\"",
   "repo_url": "https://github.com/mono/skiasharp",
   "source_hub": "skillsmp",
   "skill_type": "agent_skill",
@@ -102,5 +102,6 @@
       "original_score": 60
     }
   },
-  "installs": 5268
+  "installs": 5268,
+  "has_plugin_json": false
 }

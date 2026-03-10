@@ -96,5 +96,6 @@
   },
   "pm_override": true,
   "pm_override_reason": "FP: elastic/kibana, 15 injection = security-aware UI, 3189 obf = minified bundles",
-  "installs": 20948
+  "installs": 20948,
+  "has_plugin_json": false
 }

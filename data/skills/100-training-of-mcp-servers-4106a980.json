@@ -1,7 +1,7 @@
 {
   "id": "100-training-of-mcp-servers-4106a980",
   "name": "100-training-of-mcp-servers",
-  "description": "MCPサーバーを100個作ってみるトレーニング",
+  "description": "MCP\u30b5\u30fc\u30d0\u30fc\u3092100\u500b\u4f5c\u3063\u3066\u307f\u308b\u30c8\u30ec\u30fc\u30cb\u30f3\u30b0",
   "repo_url": "https://github.com/Ossamoon/100-training-of-mcp-servers",
   "source_hub": "mcp_so",
   "owner": "Ossamoon",
@@ -93,5 +93,6 @@
     },
     "manager_summary": "5/5 agents completed. Score: 100/100, Risk: info. 0 mismatches, 0 scanner findings. Approved at 95% confidence. No safety overrides."
   },
-  "skill_type": "mcp_server"
+  "skill_type": "mcp_server",
+  "has_plugin_json": false
 }
