@@ -37,7 +37,6 @@ PROJECT_ROOT = Path(__file__).resolve().parent.parent.parent
 SKILLS_DIR = PROJECT_ROOT / "data" / "skills"
 REPORTS_DIR = PROJECT_ROOT / "data" / "scan-reports"
 STATUS_TAG_PREFIX = "status-"
-NOT_REACHABLE_TAG = "not_reachable"
 STATUS_TAGS = {
     "status-pass",
     "status-manual_review",
@@ -65,7 +64,7 @@ def get_skills(
             continue
         tags = data.get("tags", [])
         tag_set = {str(t) for t in tags} if isinstance(tags, list) else set()
-        if not include_repo_unavailable and ("repo_unavailable" in tag_set or "clone_failure" in tag_set or NOT_REACHABLE_TAG in tag_set):
+        if not include_repo_unavailable and ("repo_unavailable" in tag_set or "clone_failure" in tag_set):
             continue
         if data.get("repo_url", "").startswith("https://github.com/"):
             if only_unverified and normalize_status(data.get("verification_status")) not in {"unverified", "updated_unverified"}:
@@ -279,8 +278,6 @@ def main(
                     tags = list(tags) if isinstance(tags, list) else []
                     if "repo_unavailable" not in tags:
                         tags.append("repo_unavailable")
-                    if NOT_REACHABLE_TAG not in tags:
-                        tags.append(NOT_REACHABLE_TAG)
                     skill_data["tags"] = tags
                     skill_data["repo_status"] = "unavailable"
                     skill_data["repo_check_date"] = datetime.now(timezone.utc).isoformat()

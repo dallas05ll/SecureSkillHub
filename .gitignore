@@ -46,6 +46,9 @@ data/scan-reports/**/*.json
 !data/tags.json
 !data/stats.json
 
+# Claude Code plugin (generated)
+.claude-plugin/marketplace.json
+
 # Generated site API (rebuilt from data/ during CI deploy)
 site/api/skills/*.json
 site/api/packages/*.json
