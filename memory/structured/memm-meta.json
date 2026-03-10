@@ -49,20 +49,20 @@
       "date": "2026-03-05",
       "entry_counts_verified": {
         "vm-corrections.json": 19,
-        "secm-patterns.json": 18,
-        "sm-health.json": 8,
-        "pm-decisions.json": 7,
-        "axm-patterns.json": 2,
-        "docm-knowledge.json": 2,
-        "dplm-history.json": 1,
-        "frtm-fixes.json": 2,
+        "secm-patterns.json": 26,
+        "sm-health.json": 10,
+        "pm-decisions.json": 10,
+        "axm-patterns.json": 8,
+        "docm-knowledge.json": 5,
+        "dplm-history.json": 3,
+        "frtm-fixes.json": 4,
         "memm-meta.json": 7
       }
     }
   ],
   "metrics": {
     "layer1_files": 9,
-    "total_entries": 66,
+    "total_entries": 92,
     "evolve_cycles": 11,
     "last_audit": "2026-03-05",
     "roles_covered": [

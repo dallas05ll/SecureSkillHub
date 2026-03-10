@@ -55,7 +55,7 @@ Every Task agent MUST use the correct model for its job type. Set the `model` pa
 ## Project Structure (Current)
 
 ```
-roles/                — agent role definition files (8 *_MANAGER.md files)
+roles/                — agent role definition files (9 *_MANAGER.md files)
 scripts/crawl/        — crawl scripts (run_crawl, crawl_state, check_reachability, etc.)
 scripts/verify/       — verification scripts (run_verify_strict_5agent, run_verify_sample, etc.)
 scripts/build/        — build scripts (build_indexes, build_packages, build_priority, fix_data_quality)

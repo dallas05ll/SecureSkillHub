@@ -73,12 +73,6 @@
       "category": "agent_ux",
       "description": "Phase 2 of agent-first API reconstruction. Added 4 public v2 endpoint groups to the existing Hono CF Worker (api/src/routes/v2/). Architecture: in-memory cache of search-index.json (4.5MB) with 10-min stale-while-revalidate TTL. No new KV/D1/R2 bindings — fetches from STATIC_API_BASE with cf:{cacheTtl:300} edge caching. Rate limited at 100 req/min per IP via Workers Cache API. Endpoints: GET /v2/search (type/tags/tier/verified/q/sort/limit/offset), GET /v2/skill/:id (proxy), GET /v2/packages (list/detail/install), GET /v2/stats (with safe counts). All public, no auth. New files: lib/tier.ts, lib/search-cache.ts, lib/rate-limit.ts, middleware/rate-limit.ts, routes/v2/{search,skill,packages,stats}.ts. wrangler.toml API_VERSION bumped to v2.",
       "date": "2026-03-05"
-    },
-    {
-      "id": "axm-p-009",
-      "title": "v2 Dynamic API (CF Worker)",
-      "category": "api",
-      "description": "Phase 2 added /v2/search, /v2/skill/:id, /v2/packages, /v2/stats to CF Worker. In-memory cache of search-index.json (10min TTL, stale-while-revalidate). Rate limited 100 req/min/IP via Workers Cache API. No KV/D1/R2 needed. Files: api/src/routes/v2/{search,skill,packages,stats}.ts, api/src/lib/{tier,search-cache,rate-limit}.ts, api/src/middleware/rate-limit.ts."
     }
   ]
 }
