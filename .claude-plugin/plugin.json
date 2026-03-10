@@ -6,5 +6,10 @@
     "name": "SecureSkillHub"
   },
   "repository": "https://github.com/dallas05ll/SecureSkillHub",
-  "tags": ["marketplace", "security", "mcp", "agent-skills", "verification"]
+  "tags": ["marketplace", "security", "mcp", "agent-skills", "verification"],
+  "skills": [
+    "skills/browse",
+    "skills/search",
+    "skills/install"
+  ]
 }

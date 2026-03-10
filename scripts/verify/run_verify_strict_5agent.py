@@ -247,8 +247,6 @@ CLAIM_SYSTEM = {"shell", "command", "exec", "subprocess", "system"}
 CLAIM_FILE = {"file", "filesystem", "read", "write", "storage"}
 CLAIM_ENV = {"env", "environment", "token", "secret", "credential", "key"}
 STATUS_TAG_PREFIX = "status-"
-NOT_REACHABLE_TAG = "not_reachable"
-
 
 @dataclass
 class SkillRunResult:
@@ -961,8 +959,6 @@ def update_skill_file(
     tags = [str(t) for t in tags if not str(t).startswith(STATUS_TAG_PREFIX)]
     if ensure_repo_unavailable_tag and "repo_unavailable" not in tags:
         tags.append("repo_unavailable")
-    if ensure_repo_unavailable_tag and NOT_REACHABLE_TAG not in tags:
-        tags.append(NOT_REACHABLE_TAG)
     tags.append(f"{STATUS_TAG_PREFIX}{normalized_status}")
     data["tags"] = list(dict.fromkeys(tags))
     if primary_language and (not data.get("primary_language") or data.get("primary_language") == "unknown"):
@@ -1181,7 +1177,7 @@ def has_repo_unavailable_tag(tags: Any) -> bool:
     if not isinstance(tags, list):
         return False
     tag_set = {str(t) for t in tags}
-    return "repo_unavailable" in tag_set or "clone_failure" in tag_set or NOT_REACHABLE_TAG in tag_set
+    return "repo_unavailable" in tag_set or "clone_failure" in tag_set
 
 
 def load_candidates(

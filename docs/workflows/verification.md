@@ -121,7 +121,7 @@ The verification system uses a feedback loop where Opus (PM/SecM) writes learnin
 ┌─────────────────────────────────────────────────────────┐
 │  SELF-EVOLVING VERIFICATION LOOP                        │
 │                                                         │
-│  1. VM (Sonnet) reads memory/verification-manager.md    │
+│  1. VM (Sonnet) reads memory/structured/vm-corrections.json │
 │  2. VM runs pipeline → produces pass/fail/MR            │
 │  3. PM + SecM (Opus) reviews → discovers FP patterns    │
 │  4. PM + SecM writes learnings → VM memory file         │
@@ -132,7 +132,7 @@ The verification system uses a feedback loop where Opus (PM/SecM) writes learnin
 └─────────────────────────────────────────────────────────┘
 ```
 
-**Memory file:** `memory/verification-manager.md` — contains:
+**Memory file:** `memory/structured/vm-corrections.json` — contains:
 - Known FP categories with trigger conditions, examples, root causes
 - Scoring formula bug documentation
 - PM-verified organizations (auto-trust list)
@@ -149,7 +149,7 @@ The verification system uses a feedback loop where Opus (PM/SecM) writes learnin
 1. **Read VM memory** (MANDATORY pre-flight)
 
 ```bash
-# VM reads memory/verification-manager.md before every run
+# VM reads memory/structured/vm-corrections.json before every run
 # This contains PM/SecM learnings from previous cycles
 ```
 
@@ -187,9 +187,9 @@ for tier in ['tier_1_1000plus', 'tier_2_100_999', 'tier_3_10_99', 'tier_4_1_9', 
 
 ```bash
 # VM uses SM's exact skill_ids (from step 3)
-python3 scripts/verify/run_verify_strict_5agent.py --skill-ids id1,id2,id3,...
+.venv/bin/python scripts/verify/run_verify_strict_5agent.py --skill-ids id1,id2,id3,...
 # target explicit records when needed
-python3 scripts/verify/run_verify_strict_5agent.py --skill-ids skill_a,skill_b,skill_c
+.venv/bin/python scripts/verify/run_verify_strict_5agent.py --skill-ids skill_a,skill_b,skill_c
 ```
 
 5. **(Optional) scanner-only sampling**
@@ -226,7 +226,7 @@ PM owns the entire learning chain. After EVERY review, PM must update:
 
 ```bash
 # Step 7a: Write to VM memory (FP patterns, categories, orgs, run stats)
-# File: memory/verification-manager.md
+# File: memory/structured/vm-corrections.json
 
 # Step 7b: Update pipeline CODE if FP pattern confirmed across 2+ runs
 # Scanner exclusions: src/scanner/scanner.py (path/file exclusions)
@@ -239,11 +239,11 @@ PM owns the entire learning chain. After EVERY review, PM must update:
 # Step 7d: Log to SM operational log
 # check_type: "pm_learning" in data/skill-manager-log.json
 
-# Step 7e: Update PM learning tracker (sync timestamps, code change status)
-# File: memory/pm-learning-tracker.md
+# Step 7e: Update PM decisions memory (sync timestamps, code change status)
+# File: memory/structured/pm-decisions.json
 ```
 
-**Bond rule:** PM learning tracker (`memory/pm-learning-tracker.md`) is the central bond. All memories reference it. PM updates it last to confirm sync.
+**Bond rule:** PM decisions memory (`memory/structured/pm-decisions.json`) is the central bond. All memories reference it. PM updates it last to confirm sync.
 
 8. **Rebuild site API + HTML**
 
@@ -263,9 +263,13 @@ python3 -m http.server 4173 --directory site
 ## Command Reference
 
 ```bash
-# Full pipeline verification
-python3 scripts/verify/run_verify_strict_5agent.py --limit 50 --group-count 5 --only-unverified
-python3 scripts/verify/run_verify_strict_5agent.py --limit 50 --group-count 5 --include-repo-unavailable
+# Full pipeline verification (SM-first, MANDATORY)
+SM_TARGETS=$(python3 scripts/review/sm_select_targets.py --limit 50 --output-ids)
+.venv/bin/python scripts/verify/run_verify_strict_5agent.py --skill-ids "$SM_TARGETS"
+
+# Full pipeline — repo-unavailable included (SM-first)
+SM_TARGETS=$(python3 scripts/review/sm_select_targets.py --limit 50 --output-ids)
+.venv/bin/python scripts/verify/run_verify_strict_5agent.py --skill-ids "$SM_TARGETS" --include-repo-unavailable
 
 # Scanner-only verification
 python3 scripts/verify/run_verify_sample.py --limit 20 --only-unverified
@@ -284,7 +288,7 @@ After a verification run completes, the Skills Manager reviews all processed ski
 3. **Reconciliation**: Both agree clean → finalize. Both find issues → flag for PM. Disagree → escalate to PM with both perspectives.
 4. For `manual_review` results: PM auto-reviews using Decision Tree from `roles/PROJECT_MANAGER.md`.
 5. All decisions logged to `data/skill-manager-log.json` with `check_type: "sm_review"` or `"pm_review"`.
-6. **PM writes learnings to ALL memories + pipeline code** (see Step 6 above). Central tracker: `memory/pm-learning-tracker.md`.
+6. **PM writes learnings to ALL memories + pipeline code** (see Step 6 above). Central tracker: `memory/structured/pm-decisions.json`.
 7. **Pipeline auto-clear:** `auto_clear_known_fp()` in scoring script auto-clears known FP patterns (Cat 9 monorepo, Cat 10 verified orgs, Cat 11 incidental). Check `agent_audit.auto_clear` field for auto-clear decisions.
 
 ```bash

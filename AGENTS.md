@@ -47,7 +47,7 @@ Assign each spawned agent to exactly one workstream:
 - **WS5 API (Cloudflare Worker)** *(Named role: AXM)*
   - Owns: `api/**`
 - **WS6 Agent Experience (AXM)**
-  - Owns: `cli/**`, `site/entry.md`, `scripts/build/build_packages.py`, `data/packages/**`
+  - Owns: `cli/**`, `site/entry.md`, `scripts/build/build_packages.py`, `data/packages/**`, `skills/*/SKILL.md`, `.claude-plugin/`, `scripts/build/build_plugin_catalog.py`, `scripts/build/build_marketplace.py`, `scripts/enrich/detect_plugin_repos.py`
   - May write: `site/api/packages/**`
   - Coordinates with: WS4 (frontend), WS3 (build pipeline)
 - **WS7 Deploy (DeployM)**
@@ -148,7 +148,7 @@ Run these after relevant changes:
   - `.venv/bin/python -m src.build.build_json`
   - `.venv/bin/python -m src.build.build_html`
 - Verification:
-  - `python3 scripts/verify/run_verify_strict_5agent.py --limit 5 --only-unverified`
+  - `SM_TARGETS=$(python3 scripts/review/sm_select_targets.py --limit 5 --output-ids) && .venv/bin/python scripts/verify/run_verify_strict_5agent.py --skill-ids "$SM_TARGETS"`
 - Smoke:
   - `python3 -m http.server 4173 --directory site`
   - Verify `/`, `/api/stats.json`, `/api/skills/index.json`, `/api/search-index.json`

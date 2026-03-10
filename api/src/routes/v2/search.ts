@@ -16,6 +16,12 @@ search.get("/", async (c) => {
   const tierParam = c.req.query("tier");
   const verifiedParam = c.req.query("verified") ?? "true";
   const rawQ = c.req.query("q");
+  if (tagsParam && tagsParam.length > 200) {
+    return c.json({ error: "tags parameter too long (max 200 chars)" }, 400);
+  }
+  if (tierParam && !/^[SABCDE](,[SABCDE])*$/i.test(tierParam)) {
+    return c.json({ error: "tier must be a comma-separated list of letters A-E or S (e.g. 'S,A,B')" }, 400);
+  }
   if (rawQ && rawQ.length > 200) {
     return c.json({ error: "Search query too long (max 200 chars)" }, 400);
   }

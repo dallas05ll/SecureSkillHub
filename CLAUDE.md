@@ -60,10 +60,10 @@ roles/                — agent role definition files (9 *_MANAGER.md files)
 scripts/crawl/        — crawl scripts (run_crawl, crawl_state, check_reachability, etc.)
 scripts/verify/       — verification scripts (run_verify_strict_5agent, run_verify_sample, etc.)
 scripts/build/        — build scripts (build_indexes, build_packages, build_priority, fix_data_quality)
-scripts/review/       — review scripts (skills_manager_review, health_check, sm_select_targets, sm_evolve)
-scripts/enrich/       — enrichment scripts (enrich_stars, auto_tag, retag_data_ai_bulk, retag_integ_bulk)
+scripts/review/       — review scripts (skills_manager_review, health_check, sm_select_targets, sm_evolve, check_claude_trigger, check_git_trigger)
+scripts/enrich/       — enrichment scripts (enrich_stars, auto_tag, retag_data_ai_bulk, retag_integ_bulk, detect_plugin_repos)
 scripts/memory/       — memory manager scripts (memm_health_check)
-scripts/secm/         — security manager scripts (secm_false_positive_audit, secm_pattern_test)
+scripts/secm/         — security manager scripts (secm_false_positive_audit, secm_pattern_test, secm_evolve, batch_reassess)
 data/skills/          — skill JSON files (source of truth)
 data/packages/        — source package definitions
 data/tags.json        — 4-layer tag hierarchy

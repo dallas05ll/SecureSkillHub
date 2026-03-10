@@ -117,6 +117,8 @@ def main(
         parsed = extract_owner_repo(repo_url)
         if parsed:
             owner, repo = parsed
+            if not re.match(r'^[a-zA-Z0-9._-]+$', owner) or not re.match(r'^[a-zA-Z0-9._-]+$', repo):
+                continue
             to_check.append((filepath, data, owner, repo))
 
     logger.info("Skipped %d unavailable, %d already checked", skipped_unavailable, skipped_already)
