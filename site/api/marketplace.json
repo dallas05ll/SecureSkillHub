@@ -1,0 +1,3224 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "secureskillhub-marketplace",
+  "description": "Security-verified AI skills marketplace — 4473 verified skills with 5-agent adversarial security pipeline",
+  "version": "1.0.0",
+  "generated_at": "2026-03-10T17:02:06Z",
+  "generator": "build_marketplace.py v1.0.0",
+  "owner": {
+    "name": "SecureSkillHub",
+    "url": "https://dallas05ll.github.io/SecureSkillHub"
+  },
+  "total_plugins": 201,
+  "plugins": [
+    {
+      "name": "secureskillhub",
+      "source": ".",
+      "description": "Browse, search, and install 11,000+ security-verified AI agent skills with verification badges",
+      "version": "0.1.0",
+      "author": {
+        "name": "SecureSkillHub"
+      }
+    },
+    {
+      "name": "find-skills",
+      "source": "github:vercel-labs/skills",
+      "description": "Agent skill: find-skills from vercel-labs/skills",
+      "version": "0.1.0",
+      "author": {
+        "name": "vercel-labs"
+      },
+      "verification": {
+        "status": "pass",
+        "score": 100,
+        "risk_level": "high",
+        "verified_commit": "5ac56d8d6b6f74a7f8169e2bc9b45336aa01a8bf"
+      },
+      "sha": "5ac56d8d6b6f74a7f8169e2bc9b45336aa01a8bf"
+    },
+    {
+      "name": "extract-errors",
+      "source": "github:facebook/react",
+      "description": "Use when adding new error messages to React, or seeing \"unknown error code\" warnings.",
+      "version": "0.1.0",
+      "author": {
+        "name": "facebook"
+      },
+      "verification": {
+        "status": "pass",
+        "score": 50,
+        "risk_level": "medium",
+        "verified_commit": "93882bd40ee48dc6d072dfc0b6cc7801fac1be31"
+      },
+      "sha": "93882bd40ee48dc6d072dfc0b6cc7801fac1be31"
+    },
+    {
+      "name": "1password",
+      "source": "github:openclaw/openclaw",
+      "description": "Set up and use 1Password CLI (op). Use when installing the CLI, enabling desktop app integration, signing in (single or multi-account), or reading/injecting/running secrets via op.",
+      "version": "0.1.0",
+      "author": {
+        "name": "openclaw"
+      },
+      "verification": {
+        "status": "pass",
+        "score": 50,
+        "risk_level": "medium",
+        "verified_commit": "9c6847074d7758602a4bb491de62e24c2f063994"
+      },
+      "sha": "9c6847074d7758602a4bb491de62e24c2f063994"
+    },
+    {
+      "name": "accessibility",
+      "source": "github:microsoft/vscode",
+      "description": "Accessibility guidelines for VS Code features — covers accessibility help dialogs, accessible views, verbosity settings, accessibility signals, ARIA alerts/status announcements, keyboard navigation...",
+      "version": "0.1.0",
+      "author": {
+        "name": "microsoft"
+      },
+      "verification": {
+        "status": "pass",
+        "score": 10,
+        "risk_level": "critical",
+        "verified_commit": "e933711737d39d20f5dda4de4e15e83f9c56853d"
+      },
+      "sha": "e933711737d39d20f5dda4de4e15e83f9c56853d"
+    },
+    {
+      "name": "n8n",
+      "source": "github:n8n-io/n8n",
+      "description": "Fair-code workflow automation platform with native AI capabilities, 400+ integrations, visual builder, self-hostable. Includes MCP client and server nodes.",
+      "version": "0.1.0",
+      "author": {
+        "name": "n8n-io"
+      },
+      "verification": {
+        "status": "pass",
+        "score": 70,
+        "risk_level": "medium",
+        "verified_commit": "e01ce10f206cdbbfce531d34ab83b06dc26cac68"
+      },
+      "sha": "e01ce10f206cdbbfce531d34ab83b06dc26cac68"
+    },
+    {
+      "name": "vercel-react-best-practices",
+      "source": "github:vercel-labs/agent-skills",
+      "description": "Agent skill: vercel-react-best-practices from vercel-labs/agent-skills",
+      "version": "0.1.0",
+      "author": {
+        "name": "vercel-labs"
+      },
+      "verification": {
+        "status": "pass",
+        "score": 100,
+        "risk_level": "medium",
+        "verified_commit": "e23951b8cad2f4b1e7e176c5731127c1263fe86f"
+      },
+      "sha": "e23951b8cad2f4b1e7e176c5731127c1263fe86f"
+    },
+    {
+      "name": "book-translation",
+      "source": "github:f/prompts.chat",
+      "description": "Translate \"The Interactive Book of Prompting\" chapters and UI strings to a new language",
+      "version": "0.1.0",
+      "author": {
+        "name": "f"
+      },
+      "verification": {
+        "status": "pass",
+        "score": 50,
+        "risk_level": "medium",
+        "verified_commit": "ec34d2e8fbea1e8c60647af873e4ec14034e9734"
+      },
+      "sha": "ec34d2e8fbea1e8c60647af873e4ec14034e9734"
+    },
+    {
+      "name": "authoring-skills",
+      "source": "github:vercel/next.js",
+      "description": "How to create and maintain agent skills in .agents/skills/. Use when creating a new SKILL.md, writing skill descriptions, choosing frontmatter fields, or deciding what content belongs in a skill vs...",
+      "version": "0.1.0",
+      "author": {
+        "name": "vercel"
+      },
+      "verification": {
+        "status": "pass",
+        "score": 50,
+        "risk_level": "medium",
+        "verified_commit": "286a73f84a516b06df59c2e5524150c4ad5d47d6"
+      },
+      "sha": "286a73f84a516b06df59c2e5524150c4ad5d47d6"
+    },
+    {
+      "name": "component-refactoring",
+      "source": "github:langgenius/dify",
+      "description": "Refactor high-complexity React components in Dify frontend. Use when `pnpm analyze-component --json` shows complexity > 50 or lineCount > 300, when the user asks for code splitting, hook extraction...",
+      "version": "0.1.0",
+      "author": {
+        "name": "langgenius"
+      },
+      "verification": {
+        "status": "pass",
+        "score": 50,
+        "risk_level": "medium",
+        "verified_commit": "164ccb7c48f9482e227acc820bd731328fad8c9f"
+      },
+      "sha": "164ccb7c48f9482e227acc820bd731328fad8c9f"
+    },
+    {
+      "name": "electron-chromium-upgrade",
+      "source": "github:electron/electron",
+      "description": "Guide for performing Chromium version upgrades in the Electron project. Use when working on the roller/chromium/main branch to fix patch conflicts during `e sync --3`. Covers the patch application...",
+      "version": "0.1.0",
+      "author": {
+        "name": "electron"
+      },
+      "verification": {
+        "status": "pass",
+        "score": 60,
+        "risk_level": "medium",
+        "verified_commit": "d18b017cb05b1c5aec330603b6fcc9b016fa5cee"
+      },
+      "sha": "d18b017cb05b1c5aec330603b6fcc9b016fa5cee"
+    },
+    {
+      "name": "remotion-best-practices",
+      "source": "github:remotion-dev/skills",
+      "description": "Agent skill: remotion-best-practices from remotion-dev/skills",
+      "version": "0.1.0",
+      "author": {
+        "name": "remotion-dev"
+      },
+      "verification": {
+        "status": "pass",
+        "score": 55,
+        "risk_level": "low",
+        "verified_commit": "937ffb32b148fdceef4b4184f975a708aab8d560"
+      },
+      "sha": "937ffb32b148fdceef4b4184f975a708aab8d560"
+    },
+    {
+      "name": "frontend-design",
+      "source": "github:anthropics/skills",
+      "description": "Agent skill: frontend-design from anthropics/skills",
+      "version": "0.1.0",
+      "author": {
+        "name": "anthropics"
+      },
+      "verification": {
+        "status": "pass",
+        "score": 85,
+        "risk_level": "high",
+        "verified_commit": "3d59511518591fa82e6cfcf0438d68dd5dad3e76"
+      },
+      "sha": "3d59511518591fa82e6cfcf0438d68dd5dad3e76"
+    },
+    {
+      "name": "bun-file-io",
+      "source": "github:anomalyco/opencode",
+      "description": "",
+      "version": "0.1.0",
+      "author": {
+        "name": "anomalyco"
+      },
+      "verification": {
+        "status": "pass",
+        "score": 50,
+        "risk_level": "medium",
+        "verified_commit": "324230806e99d4e5c9cc14fd66ddad0ba0c2b6e6"
+      },
+      "sha": "324230806e99d4e5c9cc14fd66ddad0ba0c2b6e6"
+    },
+    {
+      "name": "angular-new-app",
+      "source": "github:angular/angular",
+      "description": "Creates a new Angular app using the Angular CLI. This skill should be used whenver a user wants to create a new Angular application and contains important guidelines for how to effectively create a...",
+      "version": "0.1.0",
+      "author": {
+        "name": "angular"
+      },
+      "verification": {
+        "status": "pass",
+        "score": 50,
+        "risk_level": "medium",
+        "verified_commit": "a6941adce8d942ab1317b9572cb23ac2ace72173"
+      },
+      "sha": "a6941adce8d942ab1317b9572cb23ac2ace72173"
+    },
+    {
+      "name": "e2e-studio-tests",
+      "source": "github:supabase/supabase",
+      "description": "Run e2e tests in the Studio app. Use when asked to run e2e tests, run studio tests, playwright tests, or test the feature.",
+      "version": "0.1.0",
+      "author": {
+        "name": "supabase"
+      },
+      "verification": {
+        "status": "pass",
+        "score": 10,
+        "risk_level": "critical",
+        "verified_commit": "aef1d70351311e500a4565f1d6dac7365aa4bb55"
+      },
+      "sha": "aef1d70351311e500a4565f1d6dac7365aa4bb55"
+    },
+    {
+      "name": "aoti-debug",
+      "source": "github:pytorch/pytorch",
+      "description": "Debug AOTInductor (AOTI) errors and crashes. Use when encountering AOTI segfaults, device mismatch errors, constant loading failures, or runtime errors from aot_compile, aot_load, aoti_compile_and_...",
+      "version": "0.1.0",
+      "author": {
+        "name": "pytorch"
+      },
+      "verification": {
+        "status": "pass",
+        "score": 50,
+        "risk_level": "medium",
+        "verified_commit": "9e34c7ae375f47f4414ca07f6753021eee2094f8"
+      },
+      "sha": "9e34c7ae375f47f4414ca07f6753021eee2094f8"
+    },
+    {
+      "name": "code-reviewer",
+      "source": "github:shubhamsaboo/awesome-llm-apps",
+      "description": "Thorough code review with focus on security, performance, and best practices.\nUse when: reviewing code, performing security audits, checking for code quality, reviewing pull requests,\nor when user...",
+      "version": "0.1.0",
+      "author": {
+        "name": "shubhamsaboo"
+      },
+      "verification": {
+        "status": "pass",
+        "score": 60,
+        "risk_level": "medium",
+        "verified_commit": "a5f5bb0ed7c9161c6939af9699ff2d2314f120e0"
+      },
+      "sha": "a5f5bb0ed7c9161c6939af9699ff2d2314f120e0"
+    },
+    {
+      "name": "code-reviewer",
+      "source": "github:google-gemini/gemini-cli",
+      "description": "",
+      "version": "0.1.0",
+      "author": {
+        "name": "google-gemini"
+      },
+      "verification": {
+        "status": "pass",
+        "score": 50,
+        "risk_level": "medium",
+        "verified_commit": "c5112cde46b1b0d8c7fccc78352d693ac832cf44"
+      },
+      "sha": "c5112cde46b1b0d8c7fccc78352d693ac832cf44"
+    },
+    {
+      "name": "implementing-jsc-classes-cpp",
+      "source": "github:oven-sh/bun",
+      "description": "Implements JavaScript classes in C++ using JavaScriptCore. Use when creating new JS classes with C++ bindings, prototypes, or constructors.",
+      "version": "0.1.0",
+      "author": {
+        "name": "oven-sh"
+      },
+      "verification": {
+        "status": "pass",
+        "score": 50,
+        "risk_level": "medium",
+        "verified_commit": "3832c8570a03d21d0806f9ecb101d759e829abcc"
+      },
+      "sha": "3832c8570a03d21d0806f9ecb101d759e829abcc"
+    },
+    {
+      "name": "azure-ai",
+      "source": "github:microsoft/github-copilot-for-azure",
+      "description": "Agent skill: azure-ai from microsoft/github-copilot-for-azure",
+      "version": "0.1.0",
+      "author": {
+        "name": "microsoft"
+      },
+      "verification": {
+        "status": "pass",
+        "score": 55,
+        "risk_level": "low",
+        "verified_commit": "8a460124cfbf68a7a9c74ca3b393595ab6a14d29"
+      },
+      "sha": "8a460124cfbf68a7a9c74ca3b393595ab6a14d29"
+    },
+    {
+      "name": "home-assistant-integration-knowledge",
+      "source": "github:home-assistant/core",
+      "description": "Everything you need to know to build, test and review Home Assistant Integrations. If you're looking at an integration, you must use this as your primary reference.",
+      "version": "0.1.0",
+      "author": {
+        "name": "home-assistant"
+      },
+      "verification": {
+        "status": "pass",
+        "score": 50,
+        "risk_level": "medium",
+        "verified_commit": "f75140b626727b1ed54170893109b9ad15a15026"
+      },
+      "sha": "f75140b626727b1ed54170893109b9ad15a15026"
+    },
+    {
+      "name": "playwright-cli",
+      "source": "github:microsoft/playwright",
+      "description": "Automates browser interactions for web testing, form filling, screenshots, and data extraction. Use when the user needs to navigate websites, interact with web pages, fill forms, take screenshots,...",
+      "version": "0.1.0",
+      "author": {
+        "name": "microsoft"
+      },
+      "verification": {
+        "status": "pass",
+        "score": 60,
+        "risk_level": "medium",
+        "verified_commit": "3c8c457b85e211f30dd15f343aa7213dc50ab18b"
+      },
+      "sha": "3c8c457b85e211f30dd15f343aa7213dc50ab18b"
+    },
+    {
+      "name": "brand-writer",
+      "source": "github:zed-industries/zed",
+      "description": "Write clear, developer-first copy for Zed — leading with facts, grounded in craft.",
+      "version": "0.1.0",
+      "author": {
+        "name": "zed-industries"
+      },
+      "verification": {
+        "status": "pass",
+        "score": 50,
+        "risk_level": "medium",
+        "verified_commit": "608185be4e0cc32ad925074185b5821af8aa2da9"
+      },
+      "sha": "608185be4e0cc32ad925074185b5821af8aa2da9"
+    },
+    {
+      "name": "add-provider-doc",
+      "source": "github:lobehub/lobehub",
+      "description": "Guide for adding new AI provider documentation. Use when adding documentation for a new AI provider (like OpenAI, Anthropic, etc.), including usage docs, environment variables, Docker config, and i...",
+      "version": "0.1.0",
+      "author": {
+        "name": "lobehub"
+      },
+      "verification": {
+        "status": "pass",
+        "score": 10,
+        "risk_level": "critical",
+        "verified_commit": "522dcf789ce9a1e8879b8010657777d0fc91ca9f"
+      },
+      "sha": "522dcf789ce9a1e8879b8010657777d0fc91ca9f"
+    },
+    {
+      "name": "concept-workflow",
+      "source": "github:leonardomso/33-js-concepts",
+      "description": "End-to-end workflow for creating complete JavaScript concept documentation, orchestrating all skills from research to final review",
+      "version": "0.1.0",
+      "author": {
+        "name": "leonardomso"
+      },
+      "verification": {
+        "status": "pass",
+        "score": 60,
+        "risk_level": "medium",
+        "verified_commit": "9e2b863fd36e642c36e1da6e9ed377c7f7bb17f1"
+      },
+      "sha": "9e2b863fd36e642c36e1da6e9ed377c7f7bb17f1"
+    },
+    {
+      "name": "agent-browser",
+      "source": "github:vercel-labs/agent-browser",
+      "description": "Agent skill: agent-browser from vercel-labs/agent-browser",
+      "version": "0.1.0",
+      "author": {
+        "name": "vercel-labs"
+      },
+      "verification": {
+        "status": "pass",
+        "score": 70,
+        "risk_level": "medium",
+        "verified_commit": "14ec5b5ffa1a8ea596c6799b3c6d06418140d621"
+      },
+      "sha": "14ec5b5ffa1a8ea596c6799b3c6d06418140d621"
+    },
+    {
+      "name": "superpowers",
+      "source": "github:obra/superpowers",
+      "description": "Comprehensive agentic skills framework and software development methodology for coding agents. Implements spec-driven development, subagent-driven-development (SDD), TDD/red-green testing, YAGNI/DR...",
+      "version": "0.1.0",
+      "author": {
+        "name": "obra"
+      },
+      "verification": {
+        "status": "pass",
+        "score": 70,
+        "risk_level": "high",
+        "verified_commit": "e4a2375cb705ca5800f0833528ce36a3faf9017a"
+      },
+      "sha": "e4a2375cb705ca5800f0833528ce36a3faf9017a"
+    },
+    {
+      "name": "skill-creator",
+      "source": "github:openai/codex",
+      "description": "Guide for creating effective skills. This skill should be used when users want to create a new skill (or update an existing skill) that extends Codex's capabilities with specialized knowledge, work...",
+      "version": "0.1.0",
+      "author": {
+        "name": "openai"
+      },
+      "verification": {
+        "status": "pass",
+        "score": 60,
+        "risk_level": "medium",
+        "verified_commit": "be5e8fbd379481275d0b7c3823a57a537dac13ec"
+      },
+      "sha": "be5e8fbd379481275d0b7c3823a57a537dac13ec"
+    },
+    {
+      "name": "create-pull-request",
+      "source": "github:cline/cline",
+      "description": "Create a GitHub pull request following project conventions. Use when the user asks to create a PR, submit changes for review, or open a pull request. Handles commit analysis, branch management, and...",
+      "version": "0.1.0",
+      "author": {
+        "name": "cline"
+      },
+      "verification": {
+        "status": "pass",
+        "score": 60,
+        "risk_level": "medium",
+        "verified_commit": "2baf966db7dc46dc7932be64c91c5cf85aa58492"
+      },
+      "sha": "2baf966db7dc46dc7932be64c91c5cf85aa58492"
+    },
+    {
+      "name": "add-admin-api-endpoint",
+      "source": "github:tryghost/ghost",
+      "description": "Add a new endpoint or endpoints to Ghost's Admin API at `ghost/api/admin/**`.",
+      "version": "0.1.0",
+      "author": {
+        "name": "tryghost"
+      },
+      "verification": {
+        "status": "pass",
+        "score": 10,
+        "risk_level": "critical",
+        "verified_commit": "3671359a507f8a0d61533a85eabffa19969a765d"
+      },
+      "sha": "3671359a507f8a0d61533a85eabffa19969a765d"
+    },
+    {
+      "name": "debugging-output-and-previewing-html-using-ray",
+      "source": "github:coollabsio/coolify",
+      "description": "Use when user says \"send to Ray,\" \"show in Ray,\" \"debug in Ray,\" \"log to Ray,\" \"display in Ray,\" or wants to visualize data, debug output, or show diagrams in the Ray desktop application.",
+      "version": "0.1.0",
+      "author": {
+        "name": "coollabsio"
+      },
+      "verification": {
+        "status": "pass",
+        "score": 50,
+        "risk_level": "medium",
+        "verified_commit": "d29a9a2802c122c7fc02b3d640165a1fd04a54a8"
+      },
+      "sha": "d29a9a2802c122c7fc02b3d640165a1fd04a54a8"
+    },
+    {
+      "name": "microsoft-docs",
+      "source": "github:microsoft/ai-agents-for-beginners",
+      "description": "Query official Microsoft documentation to find concepts, tutorials, and code examples across Azure, .NET, Agent Framework, Aspire, VS Code, GitHub, and more. Uses Microsoft Learn MCP as the default...",
+      "version": "0.1.0",
+      "author": {
+        "name": "microsoft"
+      },
+      "verification": {
+        "status": "pass",
+        "score": 55,
+        "risk_level": "medium",
+        "verified_commit": "5596a4dbdf1f0be8c051b5cd6ba9b8ae78210b4d"
+      },
+      "sha": "5596a4dbdf1f0be8c051b5cd6ba9b8ae78210b4d"
+    },
+    {
+      "name": "api-design",
+      "source": "github:affaan-m/everything-claude-code",
+      "description": "REST API design patterns including resource naming, status codes, pagination, filtering, error responses, versioning, and rate limiting for production APIs.",
+      "version": "0.1.0",
+      "author": {
+        "name": "affaan-m"
+      },
+      "verification": {
+        "status": "pass",
+        "score": 60,
+        "risk_level": "medium",
+        "verified_commit": "32e9c293f0d6f04e3b9bf804887747d5c8b5dc10"
+      },
+      "sha": "32e9c293f0d6f04e3b9bf804887747d5c8b5dc10"
+    },
+    {
+      "name": "context7-mcp",
+      "source": "github:upstash/context7-mcp",
+      "description": "MCP server providing up-to-date library documentation and code examples to LLMs via Context7 API, supporting stdio and HTTP transports.",
+      "version": "0.1.0",
+      "author": {
+        "name": "upstash"
+      },
+      "verification": {
+        "status": "pass",
+        "score": 85,
+        "risk_level": "high",
+        "verified_commit": "dfe9863f306b12e488196d6f90623979fba172bf"
+      },
+      "sha": "dfe9863f306b12e488196d6f90623979fba172bf"
+    },
+    {
+      "name": "discourse-upcoming-changes",
+      "source": "github:discourse/discourse",
+      "description": "Use when adding a new upcoming change feature flag to Discourse - handles site settings, translations, images, and code access patterns",
+      "version": "0.1.0",
+      "author": {
+        "name": "discourse"
+      },
+      "verification": {
+        "status": "pass",
+        "score": 50,
+        "risk_level": "medium",
+        "verified_commit": "790dc4a5ed16a7ef146bfe2cd1d218239d007c58"
+      },
+      "sha": "790dc4a5ed16a7ef146bfe2cd1d218239d007c58"
+    },
+    {
+      "name": "context7-docs-lookup",
+      "source": "github:upstash/context7",
+      "description": "Use Context7 to fetch up-to-date library documentation. Activates when the user asks about libraries, frameworks, API references, or needs code examples — especially for setup questions, code gener...",
+      "version": "0.1.0",
+      "author": {
+        "name": "upstash"
+      },
+      "verification": {
+        "status": "pass",
+        "score": 60,
+        "risk_level": "medium",
+        "verified_commit": "a3c3bb44c630f03f8c739031674c1cf781852655"
+      },
+      "sha": "a3c3bb44c630f03f8c739031674c1cf781852655"
+    },
+    {
+      "name": "add-malli-schemas",
+      "source": "github:metabase/metabase",
+      "description": "Efficiently add Malli schemas to API endpoints in the Metabase codebase with proper patterns, validation timing, and error handling",
+      "version": "0.1.0",
+      "author": {
+        "name": "metabase"
+      },
+      "verification": {
+        "status": "pass",
+        "score": 60,
+        "risk_level": "medium",
+        "verified_commit": "483117981c9ca4a07f095893fad5f2c1b0722fb2"
+      },
+      "sha": "483117981c9ca4a07f095893fad5f2c1b0722fb2"
+    },
+    {
+      "name": "build",
+      "source": "github:clickhouse/clickhouse",
+      "description": "Build ClickHouse with various configurations (Release, Debug, ASAN, TSAN, etc.). Use when the user wants to compile ClickHouse.",
+      "version": "0.1.0",
+      "author": {
+        "name": "clickhouse"
+      },
+      "verification": {
+        "status": "pass",
+        "score": 50,
+        "risk_level": "medium",
+        "verified_commit": "ceaa23d238d7d81a2c86a6df2d82a885e0f22bdf"
+      },
+      "sha": "ceaa23d238d7d81a2c86a6df2d82a885e0f22bdf"
+    },
+    {
+      "name": "pr-walkthrough",
+      "source": "github:tldraw/tldraw",
+      "description": "Create a narrated video walkthrough of a pull request with code slides and audio narration. Use when asked to create a PR walkthrough, PR video, or walkthrough video.",
+      "version": "0.1.0",
+      "author": {
+        "name": "tldraw"
+      },
+      "verification": {
+        "status": "pass",
+        "score": 60,
+        "risk_level": "medium",
+        "verified_commit": "6c9d28260f168277abf35d43175497dddc3dba07"
+      },
+      "sha": "6c9d28260f168277abf35d43175497dddc3dba07"
+    },
+    {
+      "name": "ai-context",
+      "source": "github:meteor/meteor",
+      "description": "Use when creating, updating, or maintaining AI documentation files (AGENTS.md, CLAUDE.md, skills). Covers file structure, conventions, and guidelines for evolving AI context.",
+      "version": "0.1.0",
+      "author": {
+        "name": "meteor"
+      },
+      "verification": {
+        "status": "pass",
+        "score": 50,
+        "risk_level": "medium",
+        "verified_commit": "367e97ccbac7abd754b7cbe7c12c2b7a0c825777"
+      },
+      "sha": "367e97ccbac7abd754b7cbe7c12c2b7a0c825777"
+    },
+    {
+      "name": "slidev",
+      "source": "github:slidevjs/slidev",
+      "description": "Create and present web-based slides for developers using Markdown, Vue components, code highlighting, animations, and interactive features. Use when building technical presentations, conference tal...",
+      "version": "0.1.0",
+      "author": {
+        "name": "slidevjs"
+      },
+      "verification": {
+        "status": "pass",
+        "score": 60,
+        "risk_level": "medium",
+        "verified_commit": "c8a7b7d639ff0a26cf3de036505668263ef5a3b0"
+      },
+      "sha": "c8a7b7d639ff0a26cf3de036505668263ef5a3b0"
+    },
+    {
+      "name": "read-arxiv-paper",
+      "source": "github:karpathy/nanochat",
+      "description": "Use this skill when when asked to read an arxiv paper given an arxiv URL",
+      "version": "0.1.0",
+      "author": {
+        "name": "karpathy"
+      },
+      "verification": {
+        "status": "pass",
+        "score": 60,
+        "risk_level": "medium",
+        "verified_commit": "1076f97059785ed6d763706bf2304ce7721ab75c"
+      },
+      "sha": "1076f97059785ed6d763706bf2304ce7721ab75c"
+    },
+    {
+      "name": "addressing-pr-review-comments",
+      "source": "github:streamlit/streamlit",
+      "description": "Address all valid review comments on a PR for the current branch in the streamlit/streamlit repo. Use when a PR has received reviewer feedback that needs to be addressed, including code changes, st...",
+      "version": "0.1.0",
+      "author": {
+        "name": "streamlit"
+      },
+      "verification": {
+        "status": "pass",
+        "score": 15,
+        "risk_level": "critical",
+        "verified_commit": "91c88ce32e16c085ab853fa4f0930e55f8d963de"
+      },
+      "sha": "91c88ce32e16c085ab853fa4f0930e55f8d963de"
+    },
+    {
+      "name": "agent-tools",
+      "source": "github:inference-sh-9/skills",
+      "description": "Agent skill: agent-tools from inference-sh-9/skills",
+      "version": "0.1.0",
+      "author": {
+        "name": "inference-sh-9"
+      },
+      "verification": {
+        "status": "pass",
+        "score": 25,
+        "risk_level": "high",
+        "verified_commit": "9a723cdec71c3da5019296ee4ce844a6041c466c"
+      },
+      "sha": "9a723cdec71c3da5019296ee4ce844a6041c466c"
+    },
+    {
+      "name": "design-system",
+      "source": "github:getsentry/sentry",
+      "description": "Guide for using Sentry's layout and text primitives. Use when implementing UI components, layouts, or typography. Enforces use of core components over styled components.",
+      "version": "0.1.0",
+      "author": {
+        "name": "getsentry"
+      },
+      "verification": {
+        "status": "pass",
+        "score": 50,
+        "risk_level": "medium",
+        "verified_commit": "f6e5070eac1396b78f4b800e9c71f435dd580c20"
+      },
+      "sha": "f6e5070eac1396b78f4b800e9c71f435dd580c20"
+    },
+    {
+      "name": "browser-use",
+      "source": "github:browser-use/browser-use",
+      "description": "Agent skill: browser-use from browser-use/browser-use",
+      "version": "0.1.0",
+      "author": {
+        "name": "browser-use"
+      },
+      "verification": {
+        "status": "pass",
+        "score": 85,
+        "risk_level": "high",
+        "verified_commit": "e6dc04db6ecc4e19640664e45f7bd0a49b56fcaa"
+      },
+      "sha": "e6dc04db6ecc4e19640664e45f7bd0a49b56fcaa"
+    },
+    {
+      "name": "ui-ux-pro-max",
+      "source": "github:nextlevelbuilder/ui-ux-pro-max-skill",
+      "description": "Agent skill: ui-ux-pro-max from nextlevelbuilder/ui-ux-pro-max-skill",
+      "version": "0.1.0",
+      "author": {
+        "name": "nextlevelbuilder"
+      },
+      "verification": {
+        "status": "pass",
+        "score": 100,
+        "risk_level": "medium",
+        "verified_commit": "d820991781d4bdb8e2b2ee40f12442a5002c2b97"
+      },
+      "sha": "d820991781d4bdb8e2b2ee40f12442a5002c2b97"
+    },
+    {
+      "name": "linkai-agent",
+      "source": "github:zhayujie/chatgpt-on-wechat",
+      "description": "Call LinkAI applications and workflows. Use bash command to execute like 'bash <base_dir>/scripts/call.sh <app_code> <question>'.",
+      "version": "0.1.0",
+      "author": {
+        "name": "zhayujie"
+      },
+      "verification": {
+        "status": "pass",
+        "score": 60,
+        "risk_level": "medium",
+        "verified_commit": "84c6f31c7613301e019afcb1cec8be01cf76513c"
+      },
+      "sha": "84c6f31c7613301e019afcb1cec8be01cf76513c"
+    },
+    {
+      "name": "ccxt-csharp",
+      "source": "github:ccxt/ccxt",
+      "description": "CCXT cryptocurrency exchange library for C# and .NET developers. Covers both REST API (standard) and WebSocket API (real-time). Helps install CCXT, connect to exchanges, fetch market data, place or...",
+      "version": "0.1.0",
+      "author": {
+        "name": "ccxt"
+      },
+      "verification": {
+        "status": "pass",
+        "score": 50,
+        "risk_level": "medium",
+        "verified_commit": "ff95cd2a813790719621a3d24e810ca95ae26f8b"
+      },
+      "sha": "ff95cd2a813790719621a3d24e810ca95ae26f8b"
+    },
+    {
+      "name": "payload",
+      "source": "github:payloadcms/payload",
+      "description": "Use when working with Payload CMS projects (payload.config.ts, collections, fields, hooks, access control, Payload API). Use when debugging validation errors, security issues, relationship queries,...",
+      "version": "0.1.0",
+      "author": {
+        "name": "payloadcms"
+      },
+      "verification": {
+        "status": "pass",
+        "score": 50,
+        "risk_level": "medium",
+        "verified_commit": "649f1178135e1110c367bc370661a4c52f56f552"
+      },
+      "sha": "649f1178135e1110c367bc370661a4c52f56f552"
+    },
+    {
+      "name": "calcom-api",
+      "source": "github:calcom/cal.com",
+      "description": "Interact with the Cal.com API v2 to manage scheduling, bookings, event types, availability, and calendars. Use this skill when building integrations that need to create or manage bookings, check av...",
+      "version": "0.1.0",
+      "author": {
+        "name": "calcom"
+      },
+      "verification": {
+        "status": "pass",
+        "score": 50,
+        "risk_level": "medium",
+        "verified_commit": "9a08d2e46c6d75b3f0db41e6099035cac3cb9f8f"
+      },
+      "sha": "9a08d2e46c6d75b3f0db41e6099035cac3cb9f8f"
+    },
+    {
+      "name": "gh-create-pr",
+      "source": "github:cherryhq/cherry-studio",
+      "description": "Create or update GitHub pull requests using the repository-required workflow and template compliance. Use when asked to create/open/update a PR so the assistant reads `.github/pull_request_template...",
+      "version": "0.1.0",
+      "author": {
+        "name": "cherryhq"
+      },
+      "verification": {
+        "status": "pass",
+        "score": 50,
+        "risk_level": "medium",
+        "verified_commit": "e0cda09697a46c3971b720fafeed14e3cbf80c8b"
+      },
+      "sha": "e0cda09697a46c3971b720fafeed14e3cbf80c8b"
+    },
+    {
+      "name": "syncable-entity-integration",
+      "source": "github:twentyhq/twenty",
+      "description": "Wire syncable entity services into NestJS modules, create service layer and resolvers for Twenty entities. Use when registering builders, validators, and action handlers in modules, creating busine...",
+      "version": "0.1.0",
+      "author": {
+        "name": "twentyhq"
+      },
+      "verification": {
+        "status": "pass",
+        "score": 60,
+        "risk_level": "medium",
+        "verified_commit": "228865bd9491090a516b49df8056bbc7f6897fd4"
+      },
+      "sha": "228865bd9491090a516b49df8056bbc7f6897fd4"
+    },
+    {
+      "name": "tidb-test-guidelines",
+      "source": "github:pingcap/tidb",
+      "description": "Decide where to place TiDB tests and how to write them (basic structure, naming, testdata usage). Use when asked about test locations, writing conventions, shard_count limits, casetest categorizati...",
+      "version": "0.1.0",
+      "author": {
+        "name": "pingcap"
+      },
+      "verification": {
+        "status": "pass",
+        "score": 60,
+        "risk_level": "medium",
+        "verified_commit": "6d482284b2aa2582d9b8c4746e4ed10b15394ac8"
+      },
+      "sha": "6d482284b2aa2582d9b8c4746e4ed10b15394ac8"
+    },
+    {
+      "name": "better-auth-best-practices",
+      "source": "github:novuhq/novu",
+      "description": "Skill for integrating Better Auth - the comprehensive TypeScript authentication framework.",
+      "version": "0.1.0",
+      "author": {
+        "name": "novuhq"
+      },
+      "verification": {
+        "status": "pass",
+        "score": 50,
+        "risk_level": "medium",
+        "verified_commit": "283b17c22ff7f11c017d56c87c16b3ec42ea313f"
+      },
+      "sha": "283b17c22ff7f11c017d56c87c16b3ec42ea313f"
+    },
+    {
+      "name": "mindsdb",
+      "source": "github:mindsdb/mindsdb",
+      "description": "Federated Query Engine for AI with a built-in MCP Server that connects databases, data warehouses, and SaaS apps for unified data access.",
+      "version": "0.1.0",
+      "author": {
+        "name": "mindsdb"
+      },
+      "verification": {
+        "status": "pass",
+        "score": 100,
+        "risk_level": "medium",
+        "verified_commit": "dcc4b82e8e06ddfaf019dc4d1bf16a8e7ed5d302"
+      },
+      "sha": "dcc4b82e8e06ddfaf019dc4d1bf16a8e7ed5d302"
+    },
+    {
+      "name": "code-review",
+      "source": "github:agno-agi/agno",
+      "description": "Code review assistance with linting, style checking, and best practices",
+      "version": "0.1.0",
+      "author": {
+        "name": "agno-agi"
+      },
+      "verification": {
+        "status": "pass",
+        "score": 50,
+        "risk_level": "medium",
+        "verified_commit": "b45d985ef4c11b462e549634ae9c668285f70ca0"
+      },
+      "sha": "b45d985ef4c11b462e549634ae9c668285f70ca0"
+    },
+    {
+      "name": "desktop-release",
+      "source": "github:rssnext/folo",
+      "description": "Perform a regular desktop release from the dev branch. Gathers commits since last release, updates changelog, evaluates mainHash changes, bumps version, and creates release PR.",
+      "version": "0.1.0",
+      "author": {
+        "name": "rssnext"
+      },
+      "verification": {
+        "status": "pass",
+        "score": 60,
+        "risk_level": "medium",
+        "verified_commit": "49f69f4d194ef7acc71225eb7f0cccc772ecbeaf"
+      },
+      "sha": "49f69f4d194ef7acc71225eb7f0cccc772ecbeaf"
+    },
+    {
+      "name": "add-expert",
+      "source": "github:remotion-dev/remotion",
+      "description": "Add a new expert to the Remotion experts page",
+      "version": "0.1.0",
+      "author": {
+        "name": "remotion-dev"
+      },
+      "verification": {
+        "status": "pass",
+        "score": 15,
+        "risk_level": "critical",
+        "verified_commit": "99eec750cd6f9580a2f7f8fd609647c4e03d56cb"
+      },
+      "sha": "99eec750cd6f9580a2f7f8fd609647c4e03d56cb"
+    },
+    {
+      "name": "bmad-os-changelog-social",
+      "source": "github:bmad-code-org/bmad-method",
+      "description": "Generate social media announcements for Discord, Twitter, and LinkedIn from the latest changelog entry. Use when user asks to create release announcements, social posts, or share changelog updates....",
+      "version": "0.1.0",
+      "author": {
+        "name": "bmad-code-org"
+      },
+      "verification": {
+        "status": "pass",
+        "score": 60,
+        "risk_level": "medium",
+        "verified_commit": "259e8a11ba4a05ac6ca1ffe2593e9fedf2176293"
+      },
+      "sha": "259e8a11ba4a05ac6ca1ffe2593e9fedf2176293"
+    },
+    {
+      "name": "agent-mail-automation",
+      "source": "github:composiohq/awesome-claude-skills",
+      "description": "Automate Agent Mail tasks via Rube MCP (Composio). Always search tools first for current schemas.",
+      "version": "0.1.0",
+      "author": {
+        "name": "composiohq"
+      },
+      "verification": {
+        "status": "pass",
+        "score": 60,
+        "risk_level": "medium",
+        "verified_commit": "27904475d1270d8395acf07691966267d5abda2d"
+      },
+      "sha": "27904475d1270d8395acf07691966267d5abda2d"
+    },
+    {
+      "name": "resume-builder",
+      "source": "github:amruthpillai/reactive-resume",
+      "description": "Generate professional resumes that conform to the Reactive Resume schema. Use when the user wants to create, build, or generate a resume through conversational AI, or asks about resume structure, s...",
+      "version": "0.1.0",
+      "author": {
+        "name": "amruthpillai"
+      },
+      "verification": {
+        "status": "pass",
+        "score": 60,
+        "risk_level": "medium",
+        "verified_commit": "27edc963ce56cbf933ae1724e47fd431859109cb"
+      },
+      "sha": "27edc963ce56cbf933ae1724e47fd431859109cb"
+    },
+    {
+      "name": "oh-my-opencode",
+      "source": "github:code-yeongyu/oh-my-opencode",
+      "description": "AI agent harness/plugin for OpenCode with multi-model orchestration, parallel background agents, LSP/AST tools, and built-in MCP servers.",
+      "version": "0.1.0",
+      "author": {
+        "name": "code-yeongyu"
+      },
+      "verification": {
+        "status": "pass",
+        "score": 100,
+        "risk_level": "medium",
+        "verified_commit": "acc21326c50da142c2b1843d8e8ac82f3aa4712d"
+      },
+      "sha": "acc21326c50da142c2b1843d8e8ac82f3aa4712d"
+    },
+    {
+      "name": "analyzing-financial-statements",
+      "source": "github:anthropics/claude-cookbooks",
+      "description": "This skill calculates key financial ratios and metrics from financial statement data for investment analysis",
+      "version": "0.1.0",
+      "author": {
+        "name": "anthropics"
+      },
+      "verification": {
+        "status": "pass",
+        "score": 60,
+        "risk_level": "medium",
+        "verified_commit": "d332ded818f0804509dcc517f98378508e5d05e2"
+      },
+      "sha": "d332ded818f0804509dcc517f98378508e5d05e2"
+    },
+    {
+      "name": "backport-pr-assistant",
+      "source": "github:cockroachdb/cockroach",
+      "description": "Help backport PRs to release branches using the backport CLI tool. Use when backporting changes that have merge conflicts requiring manual resolution.",
+      "version": "0.1.0",
+      "author": {
+        "name": "cockroachdb"
+      },
+      "verification": {
+        "status": "pass",
+        "score": 60,
+        "risk_level": "medium",
+        "verified_commit": "e588a07710e98b4efd6a01cbfe718b53b37b8bf2"
+      },
+      "sha": "e588a07710e98b4efd6a01cbfe718b53b37b8bf2"
+    },
+    {
+      "name": "cn-check",
+      "source": "github:continuedev/continue",
+      "description": "Install and run the Continue CLI (`cn`) to execute AI agent checks on local code changes. Use when asked to \"run checks\", \"lint with AI\", \"review my changes with cn\", or set up Continue CI locally.",
+      "version": "0.1.0",
+      "author": {
+        "name": "continuedev"
+      },
+      "verification": {
+        "status": "pass",
+        "score": 60,
+        "risk_level": "medium",
+        "verified_commit": "abb1fc0439bd335efafd2dc4f39907e25348c572"
+      },
+      "sha": "abb1fc0439bd335efafd2dc4f39907e25348c572"
+    },
+    {
+      "name": "clickhouse-migrations",
+      "source": "github:posthog/posthog",
+      "description": "ClickHouse migration patterns and rules. Use when creating or modifying ClickHouse migrations.",
+      "version": "0.1.0",
+      "author": {
+        "name": "posthog"
+      },
+      "verification": {
+        "status": "pass",
+        "score": 50,
+        "risk_level": "medium",
+        "verified_commit": "015d0bcaf3307c1dcd73c75ac406a8db1861cc0a"
+      },
+      "sha": "015d0bcaf3307c1dcd73c75ac406a8db1861cc0a"
+    },
+    {
+      "name": "summarize-activity",
+      "source": "github:alpinejs/alpine",
+      "description": "Summarize recent GitHub activity — discussions, PRs, issues, events, traffic — into an actionable report so you can stay on top of the project without reading everything.",
+      "version": "0.1.0",
+      "author": {
+        "name": "alpinejs"
+      },
+      "verification": {
+        "status": "pass",
+        "score": 71,
+        "risk_level": "medium",
+        "verified_commit": "b35706824d891269de6fff706f66b90b55a1bf2c"
+      },
+      "sha": "b35706824d891269de6fff706f66b90b55a1bf2c"
+    },
+    {
+      "name": "claude-mem",
+      "source": "github:thedotmack/claude-mem",
+      "description": "Persistent memory compression system for Claude Code that captures tool usage, generates summaries, and injects context via lifecycle hooks.",
+      "version": "0.1.0",
+      "author": {
+        "name": "thedotmack"
+      },
+      "verification": {
+        "status": "pass",
+        "score": 100,
+        "risk_level": "medium",
+        "verified_commit": "ecb09df42002db222a57e117abcec188393ef984"
+      },
+      "sha": "ecb09df42002db222a57e117abcec188393ef984"
+    },
+    {
+      "name": "jumpserver",
+      "source": "github:jumpserver/jumpserver",
+      "description": "Open-source Privileged Access Management (PAM) platform providing secure access to SSH, RDP, K8s, DB and RemoteApp endpoints via web browser.",
+      "version": "0.1.0",
+      "author": {
+        "name": "jumpserver"
+      },
+      "verification": {
+        "status": "pass",
+        "score": 85,
+        "risk_level": "medium",
+        "verified_commit": "b71519cc449b270a6dee20278769be27a78725de"
+      },
+      "sha": "b71519cc449b270a6dee20278769be27a78725de"
+    },
+    {
+      "name": "task-think",
+      "source": "github:telegramdesktop/tdesktop",
+      "description": "Orchestrate a multi-phase implementation workflow for this repository with artifact files under .ai/<project-name>/<letter>/ and fresh codex exec child runs per phase. Use when the user wants one p...",
+      "version": "0.1.0",
+      "author": {
+        "name": "telegramdesktop"
+      },
+      "verification": {
+        "status": "pass",
+        "score": 75,
+        "risk_level": "medium",
+        "verified_commit": "719cae0406daac3d68e7e316b4c78c1ef04a5585"
+      },
+      "sha": "719cae0406daac3d68e7e316b4c78c1ef04a5585"
+    },
+    {
+      "name": "brightdata-web-mcp",
+      "source": "github:patchy631/ai-engineering-hub",
+      "description": "Search the web, scrape websites, extract structured data from URLs, and automate browsers using Bright Data's Web MCP. Use when fetching live web content, bypassing blocks/CAPTCHAs, getting product...",
+      "version": "0.1.0",
+      "author": {
+        "name": "patchy631"
+      },
+      "verification": {
+        "status": "pass",
+        "score": 50,
+        "risk_level": "medium",
+        "verified_commit": "30b2e64af4f468873a3b045e667d524dd2a8a19d"
+      },
+      "sha": "30b2e64af4f468873a3b045e667d524dd2a8a19d"
+    },
+    {
+      "name": "agents",
+      "source": "github:wshobson/agents",
+      "description": "Production-ready Claude Code plugin marketplace with 72 plugins, 112 agents, 146 skills, and 16 workflow orchestrators.",
+      "version": "0.1.0",
+      "author": {
+        "name": "wshobson"
+      },
+      "verification": {
+        "status": "pass",
+        "score": 85,
+        "risk_level": "medium",
+        "verified_commit": "ade0c7a211d04fa1354d10359737cace5c6fc5b0"
+      },
+      "sha": "ade0c7a211d04fa1354d10359737cace5c6fc5b0"
+    },
+    {
+      "name": "seo-audit",
+      "source": "github:coreyhaines31/marketingskills",
+      "description": "Agent skill: seo-audit from coreyhaines31/marketingskills",
+      "version": "0.1.0",
+      "author": {
+        "name": "coreyhaines31"
+      },
+      "verification": {
+        "status": "pass",
+        "score": 55,
+        "risk_level": "high",
+        "verified_commit": "90a7e84d0ef924b8116bd9fef8bef137ee5e18f9"
+      },
+      "sha": "90a7e84d0ef924b8116bd9fef8bef137ee5e18f9"
+    },
+    {
+      "name": "srs-support",
+      "source": "github:ossrs/srs",
+      "description": "Answer SRS (Simple Realtime Server) questions for developers and users — protocols, configuration, architecture, codecs, ecosystem tools, deployment, and troubleshooting. Use when anyone asks about...",
+      "version": "0.1.0",
+      "author": {
+        "name": "ossrs"
+      },
+      "verification": {
+        "status": "pass",
+        "score": 50,
+        "risk_level": "medium",
+        "verified_commit": "4c39d2b8e86cdd6f0e506322b5c20b07f8b3b286"
+      },
+      "sha": "4c39d2b8e86cdd6f0e506322b5c20b07f8b3b286"
+    },
+    {
+      "name": "audit-website",
+      "source": "github:squirrelscan/skills",
+      "description": "Agent skill: audit-website from squirrelscan/skills",
+      "version": "0.1.0",
+      "author": {
+        "name": "squirrelscan"
+      },
+      "verification": {
+        "status": "pass",
+        "score": 100,
+        "risk_level": "info",
+        "verified_commit": "91e0dfb0407e2d2a819b106d4b375677dc218108"
+      },
+      "sha": "91e0dfb0407e2d2a819b106d4b375677dc218108"
+    },
+    {
+      "name": "openspec-apply-change",
+      "source": "github:alibaba/druid",
+      "description": "Implement tasks from an OpenSpec change. Use when the user wants to start implementing, continue implementation, or work through tasks.",
+      "version": "0.1.0",
+      "author": {
+        "name": "alibaba"
+      },
+      "verification": {
+        "status": "pass",
+        "score": 50,
+        "risk_level": "medium",
+        "verified_commit": "608b12b2a6497b5f467f59d6fea6dedb2811f1b1"
+      },
+      "sha": "608b12b2a6497b5f467f59d6fea6dedb2811f1b1"
+    },
+    {
+      "name": "nx-generate",
+      "source": "github:nrwl/nx",
+      "description": "Generate code using nx generators. USE WHEN scaffolding code or transforming existing code - for example creating libraries or applications, or anything else that is boilerplate code or automates r...",
+      "version": "0.1.0",
+      "author": {
+        "name": "nrwl"
+      },
+      "verification": {
+        "status": "pass",
+        "score": 55,
+        "risk_level": "medium",
+        "verified_commit": "a9678b21801a45e6ae8a3d33b3fa5b9578181937"
+      },
+      "sha": "a9678b21801a45e6ae8a3d33b3fa5b9578181937"
+    },
+    {
+      "name": "heroui-native",
+      "source": "github:heroui-inc/heroui",
+      "description": "HeroUI Native component library for React Native (Tailwind v4 via Uniwind). Use when working with HeroUI Native components, installing HeroUI Native, customizing themes, or accessing component docu...",
+      "version": "0.1.0",
+      "author": {
+        "name": "heroui-inc"
+      },
+      "verification": {
+        "status": "pass",
+        "score": 60,
+        "risk_level": "medium",
+        "verified_commit": "0d4671413ef7307965c388be04b8bfcc6aa76561"
+      },
+      "sha": "0d4671413ef7307965c388be04b8bfcc6aa76561"
+    },
+    {
+      "name": "opentofu",
+      "source": "github:OpenTofu/opentofu",
+      "description": "Open-source Terraform fork for declarative cloud infrastructure management, backed by CNCF.",
+      "version": "0.1.0",
+      "author": {
+        "name": "OpenTofu"
+      },
+      "verification": {
+        "status": "pass",
+        "score": 70,
+        "risk_level": "high",
+        "verified_commit": "f1c8e39b69c057d885d434a5920f9ea3e76da167"
+      },
+      "sha": "f1c8e39b69c057d885d434a5920f9ea3e76da167"
+    },
+    {
+      "name": "playwright-mcp-server",
+      "source": "github:microsoft/playwright-mcp",
+      "description": "MCP server providing browser automation via Playwright accessibility snapshots, enabling LLMs to interact with web pages without screenshots.",
+      "version": "0.1.0",
+      "author": {
+        "name": "microsoft"
+      },
+      "verification": {
+        "status": "pass",
+        "score": 85,
+        "risk_level": "high",
+        "verified_commit": "43e31e83619c23c07bcfab31cfba24b4c437251b"
+      },
+      "sha": "43e31e83619c23c07bcfab31cfba24b4c437251b"
+    },
+    {
+      "name": "go",
+      "source": "github:grafana/loki",
+      "description": "Best practices for working with Go codebases. Use when writing, debugging, or exploring Go code, including reading dependency sources and documentation.",
+      "version": "0.1.0",
+      "author": {
+        "name": "grafana"
+      },
+      "verification": {
+        "status": "pass",
+        "score": 55,
+        "risk_level": "medium",
+        "verified_commit": "50d878b39d47a20ee41eb76b0cda737b0f754679"
+      },
+      "sha": "50d878b39d47a20ee41eb76b0cda737b0f754679"
+    },
+    {
+      "name": "github-mcp-server",
+      "source": "github:github/github-mcp-server",
+      "description": "GitHub's official MCP Server connecting AI tools to GitHub for repo management, issues, PRs, CI/CD, and code analysis via natural language.",
+      "version": "0.1.0",
+      "author": {
+        "name": "github"
+      },
+      "verification": {
+        "status": "pass",
+        "score": 85,
+        "risk_level": "medium",
+        "verified_commit": "bf6467855c13d3b8f5cf72f8dfd9c86f8336b20b"
+      },
+      "sha": "bf6467855c13d3b8f5cf72f8dfd9c86f8336b20b"
+    },
+    {
+      "name": "api-development",
+      "source": "github:labring/fastgpt",
+      "description": "FastGPT API 开发规范。重点强调使用 zod schema 定义入参和出参,在 API 文档中声明路由信息,编写对应的 OpenAPI 文档,以及在 API 路由中使用 schema.parse 进行验证。",
+      "version": "0.1.0",
+      "author": {
+        "name": "labring"
+      },
+      "verification": {
+        "status": "pass",
+        "score": 50,
+        "risk_level": "medium",
+        "verified_commit": "410cb30c28c3fd6cbb45e21d2d536213f3acb5a0"
+      },
+      "sha": "410cb30c28c3fd6cbb45e21d2d536213f3acb5a0"
+    },
+    {
+      "name": "wox-plugin-creator",
+      "source": "github:wox-launcher/wox",
+      "description": "Create and scaffold Wox plugins (nodejs, python, script-nodejs, script-python). Use when cloning official SDK templates, generating script plugin templates, or preparing plugins for publish.",
+      "version": "0.1.0",
+      "author": {
+        "name": "wox-launcher"
+      },
+      "verification": {
+        "status": "pass",
+        "score": 60,
+        "risk_level": "medium",
+        "verified_commit": "fd10b0488dce9ca1aa7672a2ce40db11339ef1b2"
+      },
+      "sha": "fd10b0488dce9ca1aa7672a2ce40db11339ef1b2"
+    },
+    {
+      "name": "react-admin",
+      "source": "github:marmelab/react-admin",
+      "description": "This skill should be used when building, modifying, or debugging a react-admin application — including creating resources, lists, forms, data fetching, authentication, relationships between entitie...",
+      "version": "0.1.0",
+      "author": {
+        "name": "marmelab"
+      },
+      "verification": {
+        "status": "pass",
+        "score": 60,
+        "risk_level": "medium",
+        "verified_commit": "5a90ddeafd23a6b28202edcca7cca4fb8f4bb997"
+      },
+      "sha": "5a90ddeafd23a6b28202edcca7cca4fb8f4bb997"
+    },
+    {
+      "name": "backend-dev",
+      "source": "github:srbhr/resume-matcher",
+      "description": "Backend development skill for Resume Matcher. Handles FastAPI endpoints, Pydantic schemas, TinyDB operations, LiteLLM integration, and Python service logic. Use when creating or modifying backend c...",
+      "version": "0.1.0",
+      "author": {
+        "name": "srbhr"
+      },
+      "verification": {
+        "status": "pass",
+        "score": 60,
+        "risk_level": "medium",
+        "verified_commit": "4744329c0bf6f4d8daa5d37e8ecab7abcd03322f"
+      },
+      "sha": "4744329c0bf6f4d8daa5d37e8ecab7abcd03322f"
+    },
+    {
+      "name": "chrome-devtools",
+      "source": "github:chromedevtools/chrome-devtools-mcp",
+      "description": "Uses Chrome DevTools via MCP for efficient debugging, troubleshooting and browser automation. Use when debugging web pages, automating browser interactions, analyzing performance, or inspecting net...",
+      "version": "0.1.0",
+      "author": {
+        "name": "chromedevtools"
+      },
+      "verification": {
+        "status": "pass",
+        "score": 60,
+        "risk_level": "medium",
+        "verified_commit": "a02a5671f9eb4f5d381efa36c2b45ea2c29673bc"
+      },
+      "sha": "a02a5671f9eb4f5d381efa36c2b45ea2c29673bc"
+    },
+    {
+      "name": "supabase-postgres-best-practices",
+      "source": "github:supabase/agent-skills",
+      "description": "Agent skill: supabase-postgres-best-practices from supabase/agent-skills",
+      "version": "0.1.0",
+      "author": {
+        "name": "supabase"
+      },
+      "verification": {
+        "status": "pass",
+        "score": 100,
+        "risk_level": "info",
+        "verified_commit": "760460c221d30d0db904ff28e8fa52af85672255"
+      },
+      "sha": "760460c221d30d0db904ff28e8fa52af85672255"
+    },
+    {
+      "name": "gpt-researcher",
+      "source": "github:assafelovic/gpt-researcher",
+      "description": "GPT Researcher is an autonomous deep research agent that conducts web and local research, producing detailed reports with citations. Use this skill when helping developers understand, extend, debug...",
+      "version": "0.1.0",
+      "author": {
+        "name": "assafelovic"
+      },
+      "verification": {
+        "status": "pass",
+        "score": 60,
+        "risk_level": "medium",
+        "verified_commit": "9e4a19aea48a6b312e96e41fedbdeb513c829928"
+      },
+      "sha": "9e4a19aea48a6b312e96e41fedbdeb513c829928"
+    },
+    {
+      "name": "debug-node-coverage",
+      "source": "github:zulip/zulip",
+      "description": "Debug node test coverage failures. Use when ./tools/test-js-with-node --coverage reports lines missing coverage.",
+      "version": "0.1.0",
+      "author": {
+        "name": "zulip"
+      },
+      "verification": {
+        "status": "pass",
+        "score": 50,
+        "risk_level": "medium",
+        "verified_commit": "f86b4a6867174ea553c099561bdefb9ce47ddcd8"
+      },
+      "sha": "f86b4a6867174ea553c099561bdefb9ce47ddcd8"
+    },
+    {
+      "name": "add-review-comment",
+      "source": "github:mlflow/mlflow",
+      "description": "Add a review comment to a GitHub pull request.",
+      "version": "0.1.0",
+      "author": {
+        "name": "mlflow"
+      },
+      "verification": {
+        "status": "pass",
+        "score": 10,
+        "risk_level": "critical",
+        "verified_commit": "1e049b2f5116a93e58eb2c78030f96732276ae55"
+      },
+      "sha": "1e049b2f5116a93e58eb2c78030f96732276ae55"
+    },
+    {
+      "name": "biome-developer",
+      "source": "github:biomejs/biome",
+      "description": "General development best practices and common gotchas when working on Biome. Use for avoiding common mistakes, understanding Biome-specific patterns, and learning technical tips. Examples:<example>...",
+      "version": "0.1.0",
+      "author": {
+        "name": "biomejs"
+      },
+      "verification": {
+        "status": "pass",
+        "score": 50,
+        "risk_level": "medium",
+        "verified_commit": "306490604ee885fd2d21bcaef5f6b87da0f45dbf"
+      },
+      "sha": "306490604ee885fd2d21bcaef5f6b87da0f45dbf"
+    },
+    {
+      "name": "add-jit-kernel",
+      "source": "github:sgl-project/sglang",
+      "description": "Step-by-step tutorial for adding a lightweight JIT CUDA/C++ kernel to python/sglang/jit_kernel (including tests & benchmarks)",
+      "version": "0.1.0",
+      "author": {
+        "name": "sgl-project"
+      },
+      "verification": {
+        "status": "pass",
+        "score": 60,
+        "risk_level": "medium",
+        "verified_commit": "1b76eb93618c5c4318c6c0f70783dd18dc315bc1"
+      },
+      "sha": "1b76eb93618c5c4318c6c0f70783dd18dc315bc1"
+    },
+    {
+      "name": "summarize-activity",
+      "source": "github:livewire/livewire",
+      "description": "Summarize recent GitHub activity — discussions, PRs, issues, events, traffic — into an actionable report so you can stay on top of the project without reading everything.",
+      "version": "0.1.0",
+      "author": {
+        "name": "livewire"
+      },
+      "verification": {
+        "status": "pass",
+        "score": 68,
+        "risk_level": "medium",
+        "verified_commit": "93e972fa42c1b34fff1550093ab94f778d81ea5a"
+      },
+      "sha": "93e972fa42c1b34fff1550093ab94f778d81ea5a"
+    },
+    {
+      "name": "ai-summary-comment",
+      "source": "github:dotnet/maui",
+      "description": "Posts or updates automated progress comments on GitHub PRs. Use after completing any PR agent phase (pre-flight, tests, gate, fix, report). Triggers on 'post comment to PR', 'update PR progress', '...",
+      "version": "0.1.0",
+      "author": {
+        "name": "dotnet"
+      },
+      "verification": {
+        "status": "pass",
+        "score": 55,
+        "risk_level": "medium",
+        "verified_commit": "2f22928c39cdc548754fbf2f2bb76b2c00103f72"
+      },
+      "sha": "2f22928c39cdc548754fbf2f2bb76b2c00103f72"
+    },
+    {
+      "name": "fastmcp",
+      "source": "github:jlowin/fastmcp",
+      "description": "The fast, Pythonic way to build MCP servers and clients. Standard framework incorporated into official MCP Python SDK.",
+      "version": "0.1.0",
+      "author": {
+        "name": "jlowin"
+      },
+      "verification": {
+        "status": "pass",
+        "score": 100,
+        "risk_level": "medium",
+        "verified_commit": "610551c7b610e8f7b9367672c42acc80a2b12038"
+      },
+      "sha": "610551c7b610e8f7b9367672c42acc80a2b12038"
+    },
+    {
+      "name": "verify",
+      "source": "github:pubkey/rxdb",
+      "description": "Verifies code changes by running tests and generation scripts",
+      "version": "0.1.0",
+      "author": {
+        "name": "pubkey"
+      },
+      "verification": {
+        "status": "pass",
+        "score": 50,
+        "risk_level": "medium",
+        "verified_commit": "68e2f51eab145b967b3150e5f40bf7553d703d85"
+      },
+      "sha": "68e2f51eab145b967b3150e5f40bf7553d703d85"
+    },
+    {
+      "name": "next-best-practices",
+      "source": "github:vercel-labs/next-skills",
+      "description": "Agent skill: next-best-practices from vercel-labs/next-skills",
+      "version": "0.1.0",
+      "author": {
+        "name": "vercel-labs"
+      },
+      "verification": {
+        "status": "pass",
+        "score": 70,
+        "risk_level": "low",
+        "verified_commit": "038954e07bfc313e97fa5f6ff7caf87226e4a782"
+      },
+      "sha": "038954e07bfc313e97fa5f6ff7caf87226e4a782"
+    },
+    {
+      "name": "pytest-runner",
+      "source": "github:saleor/saleor",
+      "description": "Run pytest tests with automatic virtual environment activation. Use this skill whenever running tests, executing pytest, or when asked to \"run tests\", \"test this\", or any test execution task. Ensur...",
+      "version": "0.1.0",
+      "author": {
+        "name": "saleor"
+      },
+      "verification": {
+        "status": "pass",
+        "score": 50,
+        "risk_level": "medium",
+        "verified_commit": "88cddd3340d71661f529655ab413fa80a40a6b1f"
+      },
+      "sha": "88cddd3340d71661f529655ab413fa80a40a6b1f"
+    },
+    {
+      "name": "evals-context",
+      "source": "github:roocodeinc/roo-code",
+      "description": "Provides context about the Roo Code evals system structure in this monorepo. Use when tasks mention \"evals\", \"evaluation\", \"eval runs\", \"eval exercises\", or working with the evals infrastructure. H...",
+      "version": "0.1.0",
+      "author": {
+        "name": "roocodeinc"
+      },
+      "verification": {
+        "status": "pass",
+        "score": 50,
+        "risk_level": "medium",
+        "verified_commit": "52ce796e4272f3cf3f3ea4369d5e6a6bfc066396"
+      },
+      "sha": "52ce796e4272f3cf3f3ea4369d5e6a6bfc066396"
+    },
+    {
+      "name": "vueuse-functions",
+      "source": "github:vueuse/vueuse",
+      "description": "Apply VueUse composables where appropriate to build concise, maintainable Vue.js / Nuxt features.",
+      "version": "0.1.0",
+      "author": {
+        "name": "vueuse"
+      },
+      "verification": {
+        "status": "pass",
+        "score": 60,
+        "risk_level": "medium",
+        "verified_commit": "49da8f9c5cd03d0d5ac4619733dfa9cbaaf4b94d"
+      },
+      "sha": "49da8f9c5cd03d0d5ac4619733dfa9cbaaf4b94d"
+    },
+    {
+      "name": "add-model-price",
+      "source": "github:langfuse/langfuse",
+      "description": "Add new LLM model pricing entries to Langfuse's default-model-prices.json. Use when adding model prices, updating model pricing, creating model entries, adding Claude/OpenAI/Anthropic/Google/Gemini...",
+      "version": "0.1.0",
+      "author": {
+        "name": "langfuse"
+      },
+      "verification": {
+        "status": "pass",
+        "score": 50,
+        "risk_level": "medium",
+        "verified_commit": "87997f6d96be337ac0406da7103d31a37765ea8e"
+      },
+      "sha": "87997f6d96be337ac0406da7103d31a37765ea8e"
+    },
+    {
+      "name": "agent-memory",
+      "source": "github:yamadashy/repomix",
+      "description": "Use this skill when the user asks to save, remember, recall, or organize memories. Triggers on: 'remember this', 'save this', 'note this', 'what did we discuss about...', 'check your notes', 'clean...",
+      "version": "0.1.0",
+      "author": {
+        "name": "yamadashy"
+      },
+      "verification": {
+        "status": "pass",
+        "score": 60,
+        "risk_level": "medium",
+        "verified_commit": "bf4e45e9c59f6565545e87acd77118cca4eca5f2"
+      },
+      "sha": "bf4e45e9c59f6565545e87acd77118cca4eca5f2"
+    },
+    {
+      "name": "libraries-release-notes",
+      "source": "github:dotnet/core",
+      "description": "Generate .NET Libraries release notes by evaluating the release's API diff, fetching merged PRs from a GitHub repository, categorizing by area or theme, and producing formatted markdown with exact...",
+      "version": "0.1.0",
+      "author": {
+        "name": "dotnet"
+      },
+      "verification": {
+        "status": "pass",
+        "score": 55,
+        "risk_level": "medium",
+        "verified_commit": "d83dc0af81a0a5c2b176dbabccdeef1baf030bb5"
+      },
+      "sha": "d83dc0af81a0a5c2b176dbabccdeef1baf030bb5"
+    },
+    {
+      "name": "write-docs",
+      "source": "github:prefecthq/prefect",
+      "description": "Comprehensive guide for writing and updating Prefect documentation. Use when creating new doc pages, updating existing docs, or working with Mintlify components and code example testing.",
+      "version": "0.1.0",
+      "author": {
+        "name": "prefecthq"
+      },
+      "verification": {
+        "status": "pass",
+        "score": 60,
+        "risk_level": "medium",
+        "verified_commit": "fc4d9c77a0fd0f12c8c7f49cffd4ef1ed1189ae4"
+      },
+      "sha": "fc4d9c77a0fd0f12c8c7f49cffd4ef1ed1189ae4"
+    },
+    {
+      "name": "quality-bun-feature-delivery",
+      "source": "github:nikivdev/flow",
+      "description": "Enforce tight Codex/Claude delivery loop with Bun-first testing, skill sync/reload, and commit quality gates.",
+      "version": "0.1.0",
+      "author": {
+        "name": "nikivdev"
+      },
+      "verification": {
+        "status": "pass",
+        "score": 60,
+        "risk_level": "medium",
+        "verified_commit": "c6a5560b29dec7b636e06dcda31bbdcbde2b05f5"
+      },
+      "sha": "c6a5560b29dec7b636e06dcda31bbdcbde2b05f5"
+    },
+    {
+      "name": "api-design",
+      "source": "github:mastra-ai/mastra",
+      "description": "Guidelines for designing RESTful APIs and TypeScript interfaces. Use when designing new endpoints, reviewing API contracts, or structuring data models.",
+      "version": "0.1.0",
+      "author": {
+        "name": "mastra-ai"
+      },
+      "verification": {
+        "status": "pass",
+        "score": 60,
+        "risk_level": "medium",
+        "verified_commit": "9bf3a0dac602787925f1762f1f0387d7b4a59620"
+      },
+      "sha": "9bf3a0dac602787925f1762f1f0387d7b4a59620"
+    },
+    {
+      "name": "db-migrations-and-schema-changes",
+      "source": "github:letta-ai/letta",
+      "description": "Workflows and commands for managing Alembic database migrations and schema changes in the letta-cloud core app, including using uv, just, LETTA_PG_URI, and switching between SQLite and Postgres.",
+      "version": "0.1.0",
+      "author": {
+        "name": "letta-ai"
+      },
+      "verification": {
+        "status": "pass",
+        "score": 60,
+        "risk_level": "medium",
+        "verified_commit": "4cb2f21c65d571d807d7466335e51432826749ba"
+      },
+      "sha": "4cb2f21c65d571d807d7466335e51432826749ba"
+    },
+    {
+      "name": "clawhub",
+      "source": "github:hkuds/nanobot",
+      "description": "Search and install agent skills from ClawHub, the public skill registry.",
+      "version": "0.1.0",
+      "author": {
+        "name": "hkuds"
+      },
+      "verification": {
+        "status": "pass",
+        "score": 60,
+        "risk_level": "medium",
+        "verified_commit": "fb742814340e7b2931e6cc20dcdf7949e43abfed"
+      },
+      "sha": "fb742814340e7b2931e6cc20dcdf7949e43abfed"
+    },
+    {
+      "name": "activate-data-source",
+      "source": "github:elastic/kibana",
+      "description": "Activates a data source in a running Kibana instance by creating it via the Data Sources API. Use when asked to activate, connect, enable, or register a data source in Kibana.",
+      "version": "0.1.0",
+      "author": {
+        "name": "elastic"
+      },
+      "verification": {
+        "status": "pass",
+        "score": 10,
+        "risk_level": "critical",
+        "verified_commit": "bd4e892334b1d4ac6bedb52bdbe5140a357559f7"
+      },
+      "sha": "bd4e892334b1d4ac6bedb52bdbe5140a357559f7"
+    },
+    {
+      "name": "confidence-check",
+      "source": "github:superclaude-org/superclaude_framework",
+      "description": "Pre-implementation confidence assessment (≥90% required). Use before starting any implementation to verify readiness with duplicate check, architecture compliance, official docs verification, OSS r...",
+      "version": "0.1.0",
+      "author": {
+        "name": "superclaude-org"
+      },
+      "verification": {
+        "status": "pass",
+        "score": 60,
+        "risk_level": "medium",
+        "verified_commit": "b061b2f7b00ca33d66c10b666c15016873b2e094"
+      },
+      "sha": "b061b2f7b00ca33d66c10b666c15016873b2e094"
+    },
+    {
+      "name": "2d-games",
+      "source": "github:davila7/claude-code-templates",
+      "description": "2D game development principles. Sprites, tilemaps, physics, camera.",
+      "version": "0.1.0",
+      "author": {
+        "name": "davila7"
+      },
+      "verification": {
+        "status": "pass",
+        "score": 10,
+        "risk_level": "critical",
+        "verified_commit": "2ed5d984ca697a92108cdcd3ad82c72141064c5e"
+      },
+      "sha": "2ed5d984ca697a92108cdcd3ad82c72141064c5e"
+    },
+    {
+      "name": "gen-ut",
+      "source": "github:apache/shardingsphere",
+      "description": "Generate standard unit tests for one or more target classes in Apache ShardingSphere; by default, target 100% class/line/branch coverage and pass quality gates; perform explicit merge analysis, sui...",
+      "version": "0.1.0",
+      "author": {
+        "name": "apache"
+      },
+      "verification": {
+        "status": "pass",
+        "score": 50,
+        "risk_level": "medium",
+        "verified_commit": "dd0f9819c45aa4c5fc8aa2d6de710233d6aeefbb"
+      },
+      "sha": "dd0f9819c45aa4c5fc8aa2d6de710233d6aeefbb"
+    },
+    {
+      "name": "animation-best-practices",
+      "source": "github:aidenybai/react-scan",
+      "description": "CSS and UI animation patterns for responsive, polished interfaces. Use when implementing hover effects, tooltips, button feedback, transitions, or fixing animation issues like flicker and shakiness.",
+      "version": "0.1.0",
+      "author": {
+        "name": "aidenybai"
+      },
+      "verification": {
+        "status": "pass",
+        "score": 60,
+        "risk_level": "medium",
+        "verified_commit": "137d52a36cc6fd7e0dbaa09e10978da906ca7180"
+      },
+      "sha": "137d52a36cc6fd7e0dbaa09e10978da906ca7180"
+    },
+    {
+      "name": "maxkb",
+      "source": "github:1Panel-dev/MaxKB",
+      "description": "Open-source platform for building enterprise-grade AI agents with RAG pipelines, agentic workflows, and MCP tool-use capabilities.",
+      "version": "0.1.0",
+      "author": {
+        "name": "1Panel-dev"
+      },
+      "verification": {
+        "status": "pass",
+        "score": 100,
+        "risk_level": "medium",
+        "verified_commit": "ae3d95f3c4b369e543949a853982c217800d9cbc"
+      },
+      "sha": "ae3d95f3c4b369e543949a853982c217800d9cbc"
+    },
+    {
+      "name": "chart-visualization",
+      "source": "github:bytedance/deer-flow",
+      "description": "This skill should be used when the user wants to visualize data. It intelligently selects the most suitable chart type from 26 available options, extracts parameters based on detailed specification...",
+      "version": "0.1.0",
+      "author": {
+        "name": "bytedance"
+      },
+      "verification": {
+        "status": "pass",
+        "score": 60,
+        "risk_level": "medium",
+        "verified_commit": "6ac0042cfee14ca395681d96c2e7b1393f4cb528"
+      },
+      "sha": "6ac0042cfee14ca395681d96c2e7b1393f4cb528"
+    },
+    {
+      "name": "actions",
+      "source": "github:jetbrains/intellij-community",
+      "description": "Guidelines for implementing IntelliJ actions (AnAction). Use those rules when you need to create or change an action in the intellij platform.",
+      "version": "0.1.0",
+      "author": {
+        "name": "jetbrains"
+      },
+      "verification": {
+        "status": "pass",
+        "score": 10,
+        "risk_level": "critical",
+        "verified_commit": "0666d2f7bac32d156c564eb0c18a4188b6192915"
+      },
+      "sha": "0666d2f7bac32d156c564eb0c18a4188b6192915"
+    },
+    {
+      "name": "dailydev",
+      "source": "github:dailydotdev/daily",
+      "description": "Overcome LLM knowledge cutoffs with real-time developer content. daily.dev aggregates articles from thousands of sources, validated by community engagement, with structured taxonomy for precise dis...",
+      "version": "0.1.0",
+      "author": {
+        "name": "dailydotdev"
+      },
+      "verification": {
+        "status": "pass",
+        "score": 94,
+        "risk_level": "medium",
+        "verified_commit": "9a38006f55079fdd4b1723e4478e42ff7cbf93d9"
+      },
+      "sha": "9a38006f55079fdd4b1723e4478e42ff7cbf93d9"
+    },
+    {
+      "name": "dyadcheck-workflows",
+      "source": "github:dyad-sh/dyad",
+      "description": "Check GitHub Actions workflow runs from the past day, identify severe or consistent failures, and file an issue if actionable problems are found.",
+      "version": "0.1.0",
+      "author": {
+        "name": "dyad-sh"
+      },
+      "verification": {
+        "status": "pass",
+        "score": 60,
+        "risk_level": "medium",
+        "verified_commit": "fd95897f9d9f323e5f3811fbabe975b7d887568e"
+      },
+      "sha": "fd95897f9d9f323e5f3811fbabe975b7d887568e"
+    },
+    {
+      "name": "but",
+      "source": "github:gitbutlerapp/gitbutler",
+      "description": "Commit, push, branch, and manage version control with GitButler. Use for: commit my changes, check what changed, create a PR, push my branch, view diff, create branches, stage files, edit commit hi...",
+      "version": "0.1.0",
+      "author": {
+        "name": "gitbutlerapp"
+      },
+      "verification": {
+        "status": "pass",
+        "score": 60,
+        "risk_level": "medium",
+        "verified_commit": "407c2d3dd7e675b2147cb04feb253cfdb914ec05"
+      },
+      "sha": "407c2d3dd7e675b2147cb04feb253cfdb914ec05"
+    },
+    {
+      "name": "code-change-verification",
+      "source": "github:openai/openai-agents-python",
+      "description": "Run the mandatory verification stack when changes affect runtime code, tests, or build/test behavior in the OpenAI Agents Python repository.",
+      "version": "0.1.0",
+      "author": {
+        "name": "openai"
+      },
+      "verification": {
+        "status": "pass",
+        "score": 60,
+        "risk_level": "medium",
+        "verified_commit": "2e1d608bc66db1bf8312bbbb57f5c6d6904e2155"
+      },
+      "sha": "2e1d608bc66db1bf8312bbbb57f5c6d6904e2155"
+    },
+    {
+      "name": "generate-sparkle-appcast",
+      "source": "github:caldis/mos",
+      "description": "Generate Mos Sparkle appcast.xml from the latest build zip and recent git changes (since a given commit), then sync to docs/ for publishing.",
+      "version": "0.1.0",
+      "author": {
+        "name": "caldis"
+      },
+      "verification": {
+        "status": "pass",
+        "score": 69,
+        "risk_level": "medium",
+        "verified_commit": "244ad11fe98beb40b8089027bdd08614d0150e02"
+      },
+      "sha": "244ad11fe98beb40b8089027bdd08614d0150e02"
+    },
+    {
+      "name": "synonyms",
+      "source": "github:qwenlm/qwen-code",
+      "description": "Generate synonyms for words or phrases. Use this skill when the user needs alternative words with similar meanings, wants to expand vocabulary, or seeks varied expressions for writing.",
+      "version": "0.1.0",
+      "author": {
+        "name": "qwenlm"
+      },
+      "verification": {
+        "status": "pass",
+        "score": 60,
+        "risk_level": "medium",
+        "verified_commit": "991ae9febcb20ae04f334a6200f4cd407538e057"
+      },
+      "sha": "991ae9febcb20ae04f334a6200f4cd407538e057"
+    },
+    {
+      "name": "review",
+      "source": "github:temporalio/temporal",
+      "description": "Review code for common issues. Use when reviewing PRs, suggesting code changes, or when user asks to review code.",
+      "version": "0.1.0",
+      "author": {
+        "name": "temporalio"
+      },
+      "verification": {
+        "status": "pass",
+        "score": 60,
+        "risk_level": "medium",
+        "verified_commit": "f9529d048142939a0e73cc182d28b9cb833c5bdf"
+      },
+      "sha": "f9529d048142939a0e73cc182d28b9cb833c5bdf"
+    },
+    {
+      "name": "bit-cli",
+      "source": "github:teambit/bit",
+      "description": "MUST consult before running ANY bit command. Do NOT guess bit commands from memory. This skill tells you the right command, correct syntax, subcommands, and flags.",
+      "version": "0.1.0",
+      "author": {
+        "name": "teambit"
+      },
+      "verification": {
+        "status": "pass",
+        "score": 55,
+        "risk_level": "medium",
+        "verified_commit": "78afd4f3f24d50029dcc33a54a5d962465734cc3"
+      },
+      "sha": "78afd4f3f24d50029dcc33a54a5d962465734cc3"
+    },
+    {
+      "name": "react-email",
+      "source": "github:resend/react-email",
+      "description": "Use when creating HTML email templates with React components - welcome emails, password resets, notifications, order confirmations, newsletters, or transactional emails.",
+      "version": "0.1.0",
+      "author": {
+        "name": "resend"
+      },
+      "verification": {
+        "status": "pass",
+        "score": 50,
+        "risk_level": "medium",
+        "verified_commit": "01a424b2631d17edff7e1295ff3c41bcd28d4421"
+      },
+      "sha": "01a424b2631d17edff7e1295ff3c41bcd28d4421"
+    },
+    {
+      "name": "weather-skill",
+      "source": "github:google/adk-python",
+      "description": "A skill that provides weather information based on reference data.",
+      "version": "0.1.0",
+      "author": {
+        "name": "google"
+      },
+      "verification": {
+        "status": "pass",
+        "score": 50,
+        "risk_level": "medium",
+        "verified_commit": "36e76b98b31fe4a8e5a60d1b5704fcbdd38994c3"
+      },
+      "sha": "36e76b98b31fe4a8e5a60d1b5704fcbdd38994c3"
+    },
+    {
+      "name": "documentation",
+      "source": "github:comet-ml/opik",
+      "description": "Feature documentation and release notes patterns. Use when documenting changes, writing PR descriptions, or preparing releases.",
+      "version": "0.1.0",
+      "author": {
+        "name": "comet-ml"
+      },
+      "verification": {
+        "status": "pass",
+        "score": 50,
+        "risk_level": "medium",
+        "verified_commit": "7839c10d7766dc05cf971de628d79f7a7b8f8984"
+      },
+      "sha": "7839c10d7766dc05cf971de628d79f7a7b8f8984"
+    },
+    {
+      "name": "add-new-jit-ee-api",
+      "source": "github:dotnet/runtime",
+      "description": "Add a new API to the JIT-VM (aka JIT-EE) interface in the codebase.",
+      "version": "0.1.0",
+      "author": {
+        "name": "dotnet"
+      },
+      "verification": {
+        "status": "pass",
+        "score": 15,
+        "risk_level": "critical",
+        "verified_commit": "4417a32478a71c4c73a782f5a394c77c333c07bd"
+      },
+      "sha": "4417a32478a71c4c73a782f5a394c77c333c07bd"
+    },
+    {
+      "name": "1password",
+      "source": "github:elizaos/eliza",
+      "description": "Set up and use 1Password CLI (op). Use when installing the CLI, enabling desktop app integration, signing in (single or multi-account), or reading/injecting/running secrets via op.",
+      "version": "0.1.0",
+      "author": {
+        "name": "elizaos"
+      },
+      "verification": {
+        "status": "pass",
+        "score": 10,
+        "risk_level": "critical",
+        "verified_commit": "645f273ed2eee2f5777193ee7d9d94c8a4444767"
+      },
+      "sha": "645f273ed2eee2f5777193ee7d9d94c8a4444767"
+    },
+    {
+      "name": "image-generation",
+      "source": "github:onyx-dot-app/onyx",
+      "description": "Generate images using nano banana.",
+      "version": "0.1.0",
+      "author": {
+        "name": "onyx-dot-app"
+      },
+      "verification": {
+        "status": "pass",
+        "score": 50,
+        "risk_level": "medium",
+        "verified_commit": "c5c236d098c2202a315ddaf794937e59824b59d4"
+      },
+      "sha": "c5c236d098c2202a315ddaf794937e59824b59d4"
+    },
+    {
+      "name": "cdc",
+      "source": "github:tursodatabase/turso",
+      "description": "Change Data Capture - architecture, entrypoints, bytecode emission, sync engine integration, tests",
+      "version": "0.1.0",
+      "author": {
+        "name": "tursodatabase"
+      },
+      "verification": {
+        "status": "pass",
+        "score": 60,
+        "risk_level": "medium",
+        "verified_commit": "0f4692fd06f5b74f9de029c9b3d7f054f2b68012"
+      },
+      "sha": "0f4692fd06f5b74f9de029c9b3d7f054f2b68012"
+    },
+    {
+      "name": "add-config",
+      "source": "github:wavetermdev/waveterm",
+      "description": "Guide for adding new configuration settings to Wave Terminal. Use when adding a new setting to the configuration system, implementing a new config key, or adding user-customizable settings.",
+      "version": "0.1.0",
+      "author": {
+        "name": "wavetermdev"
+      },
+      "verification": {
+        "status": "pass",
+        "score": 60,
+        "risk_level": "medium",
+        "verified_commit": "f4acfc945664478fb6b5a4edbb754a89b85d2634"
+      },
+      "sha": "f4acfc945664478fb6b5a4edbb754a89b85d2634"
+    },
+    {
+      "name": "trl-training",
+      "source": "github:huggingface/trl",
+      "description": "Train and fine-tune transformer language models using TRL (Transformers Reinforcement Learning). Supports SFT, DPO, GRPO, KTO, RLOO and Reward Model training via CLI commands.",
+      "version": "0.1.0",
+      "author": {
+        "name": "huggingface"
+      },
+      "verification": {
+        "status": "pass",
+        "score": 60,
+        "risk_level": "medium",
+        "verified_commit": "8f635b65f6819761f01394be7711b5f0ad1bcf48"
+      },
+      "sha": "8f635b65f6819761f01394be7711b5f0ad1bcf48"
+    },
+    {
+      "name": "agent-builder",
+      "source": "github:shareai-lab/learn-claude-code",
+      "description": "Design and build AI agents for any domain. Use when users:\n(1) ask to \"create an agent\", \"build an assistant\", or \"design an AI system\"\n(2) want to understand agent architecture, agentic patterns,...",
+      "version": "0.1.0",
+      "author": {
+        "name": "shareai-lab"
+      },
+      "verification": {
+        "status": "pass",
+        "score": 60,
+        "risk_level": "medium",
+        "verified_commit": "aa61ecd7c09c13c2b3a1666b6d53ce794a4b7211"
+      },
+      "sha": "aa61ecd7c09c13c2b3a1666b6d53ce794a4b7211"
+    },
+    {
+      "name": "brand-style",
+      "source": "github:screenpipe/screenpipe",
+      "description": "Screenpipe brand style guide. Reference this when designing UI components, writing copy, or making visual decisions.",
+      "version": "0.1.0",
+      "author": {
+        "name": "screenpipe"
+      },
+      "verification": {
+        "status": "pass",
+        "score": 60,
+        "risk_level": "medium",
+        "verified_commit": "2cf0c14e56c33617aac7a0dba22e78618b0dabb5"
+      },
+      "sha": "2cf0c14e56c33617aac7a0dba22e78618b0dabb5"
+    },
+    {
+      "name": "ai-article",
+      "source": "github:itwanger/tobebetterjavaer",
+      "description": "自动搜集AI领域热点或根据指定选题，按照二哥的写作风格完成AI技术类文章撰写。专注于AI Coding工具实测（Claude Code、Qoder、Cursor、TRAE等）、大模型工程化落地（SpringAI、LangChain、RAG等）、AI Agent和工作流编排、国产大模型评测（GLM、通义千问、DeepSeek、MiniMax、Kimi等）。触发关键词：写一篇AI文章、AI技术文...",
+      "version": "0.1.0",
+      "author": {
+        "name": "itwanger"
+      },
+      "verification": {
+        "status": "pass",
+        "score": 50,
+        "risk_level": "medium",
+        "verified_commit": "36d92ac0f2b8f9eccd5fb53ecf439bfffece2fbb"
+      },
+      "sha": "36d92ac0f2b8f9eccd5fb53ecf439bfffece2fbb"
+    },
+    {
+      "name": "beads",
+      "source": "github:steveyegge/beads",
+      "description": "Git-backed issue tracker for multi-session work with dependencies and persistent memory across conversation compaction. Use when work spans sessions, has blockers, or needs context recovery after c...",
+      "version": "0.1.0",
+      "author": {
+        "name": "steveyegge"
+      },
+      "verification": {
+        "status": "pass",
+        "score": 60,
+        "risk_level": "medium",
+        "verified_commit": "7f41edd9c4350e5c68ebec6f9571e27833f27133"
+      },
+      "sha": "7f41edd9c4350e5c68ebec6f9571e27833f27133"
+    },
+    {
+      "name": "cts-triage",
+      "source": "github:gfx-rs/wgpu",
+      "description": "Run CTS test suites and investigate failures",
+      "version": "0.1.0",
+      "author": {
+        "name": "gfx-rs"
+      },
+      "verification": {
+        "status": "pass",
+        "score": 97,
+        "risk_level": "medium",
+        "verified_commit": "7f13acbf828fac6e50a092d99122362871f3dc71"
+      },
+      "sha": "7f13acbf828fac6e50a092d99122362871f3dc71"
+    },
+    {
+      "name": "better-auth-best-practices",
+      "source": "github:better-auth/skills",
+      "description": "Agent skill: better-auth-best-practices from better-auth/skills",
+      "version": "0.1.0",
+      "author": {
+        "name": "better-auth"
+      },
+      "verification": {
+        "status": "pass",
+        "score": 85,
+        "risk_level": "medium",
+        "verified_commit": "f7c870fc9f9040f22ec39230ffc0f8b487e52893"
+      },
+      "sha": "f7c870fc9f9040f22ec39230ffc0f8b487e52893"
+    },
+    {
+      "name": "a2ui-response-generator",
+      "source": "github:agentscope-ai/agentscope",
+      "description": "A skill that can retrieve A2UI UI JSON schematics and UI templates that best show the response. This skill is essential and must be used before generating A2UI (Agent to UI) JSON responses.",
+      "version": "0.1.0",
+      "author": {
+        "name": "agentscope-ai"
+      },
+      "verification": {
+        "status": "pass",
+        "score": 60,
+        "risk_level": "medium",
+        "verified_commit": "28cfb99a21902d330dab6cb3762a739198cf972f"
+      },
+      "sha": "28cfb99a21902d330dab6cb3762a739198cf972f"
+    },
+    {
+      "name": "aionui-webui-setup",
+      "source": "github:iofficeai/aionui",
+      "description": "AionUi WebUI configuration expert: Helps users configure AionUi WebUI mode for remote access through the settings interface. Supports LAN connection, Tailscale VPN, and server deployment. Use when...",
+      "version": "0.1.0",
+      "author": {
+        "name": "iofficeai"
+      },
+      "verification": {
+        "status": "pass",
+        "score": 50,
+        "risk_level": "medium",
+        "verified_commit": "97c915f9879b18eec31ba8f1a75258c1c5b797d7"
+      },
+      "sha": "97c915f9879b18eec31ba8f1a75258c1c5b797d7"
+    },
+    {
+      "name": "code-reviewer",
+      "source": "github:camel-ai/camel",
+      "description": "Review code for quality, bugs, and improvements. Use when user wants code review or quality assessment.",
+      "version": "0.1.0",
+      "author": {
+        "name": "camel-ai"
+      },
+      "verification": {
+        "status": "pass",
+        "score": 50,
+        "risk_level": "medium",
+        "verified_commit": "b381e2be7bd8fe92cbd4df489026c4f63f1398f9"
+      },
+      "sha": "b381e2be7bd8fe92cbd4df489026c4f63f1398f9"
+    },
+    {
+      "name": "cli-commands",
+      "source": "github:windmill-labs/windmill",
+      "description": "MUST use when using the CLI.",
+      "version": "0.1.0",
+      "author": {
+        "name": "windmill-labs"
+      },
+      "verification": {
+        "status": "pass",
+        "score": 50,
+        "risk_level": "medium",
+        "verified_commit": "077779ec52f7d3e5fcc93951544bf47bd6dc30b6"
+      },
+      "sha": "077779ec52f7d3e5fcc93951544bf47bd6dc30b6"
+    },
+    {
+      "name": "fix-members-short-description",
+      "source": "github:flet-dev/flet",
+      "description": "Use when asked to fix short descriptions of Python type members.",
+      "version": "0.1.0",
+      "author": {
+        "name": "flet-dev"
+      },
+      "verification": {
+        "status": "pass",
+        "score": 50,
+        "risk_level": "medium",
+        "verified_commit": "4f73d04237b5dc650ac25a419de32d49db718026"
+      },
+      "sha": "4f73d04237b5dc650ac25a419de32d49db718026"
+    },
+    {
+      "name": "translation",
+      "source": "github:kilo-org/kilocode",
+      "description": "Guidelines for translating and localizing the Kilo Code extension, including language-specific rules for German, Simplified Chinese, and Traditional Chinese.",
+      "version": "0.1.0",
+      "author": {
+        "name": "kilo-org"
+      },
+      "verification": {
+        "status": "pass",
+        "score": 50,
+        "risk_level": "medium",
+        "verified_commit": "5a85a0d7c91a032ec69f1458ed2bd81ec68a4a7e"
+      },
+      "sha": "5a85a0d7c91a032ec69f1458ed2bd81ec68a4a7e"
+    },
+    {
+      "name": "dagger-codegen",
+      "source": "github:dagger/dagger",
+      "description": "Edit dagger.gen.go output, Go templates (object.go.tmpl, defs.go.tmpl), invoke() dispatch,\nSDK interfaces (CodeGenerator, ClientGenerator), `dagger develop`, `dagger client install`.\nKeywords: code...",
+      "version": "0.1.0",
+      "author": {
+        "name": "dagger"
+      },
+      "verification": {
+        "status": "pass",
+        "score": 50,
+        "risk_level": "medium",
+        "verified_commit": "06e5f1b75b786ecd6b121f20d44cc049a2ff197e"
+      },
+      "sha": "06e5f1b75b786ecd6b121f20d44cc049a2ff197e"
+    },
+    {
+      "name": "dev-server",
+      "source": "github:ag-grid/ag-grid",
+      "description": "Development server setup and build watch monitoring. Use when starting dev work, checking build status, or troubleshooting the dev server.",
+      "version": "0.1.0",
+      "author": {
+        "name": "ag-grid"
+      },
+      "verification": {
+        "status": "pass",
+        "score": 50,
+        "risk_level": "medium",
+        "verified_commit": "b7f7451648d52a4ba761034ad8cc1fe0ffed80c7"
+      },
+      "sha": "b7f7451648d52a4ba761034ad8cc1fe0ffed80c7"
+    },
+    {
+      "name": "create-skill",
+      "source": "github:agent0ai/agent-zero",
+      "description": "Wizard for creating new Agent Zero skills. Guides users through creating well-structured SKILL.md files. Use when users want to create custom skills.",
+      "version": "0.1.0",
+      "author": {
+        "name": "agent0ai"
+      },
+      "verification": {
+        "status": "pass",
+        "score": 50,
+        "risk_level": "medium",
+        "verified_commit": "fa65fa3ddc12b46efed05bd7884a5aa64209901e"
+      },
+      "sha": "fa65fa3ddc12b46efed05bd7884a5aa64209901e"
+    },
+    {
+      "name": "vercel-cli",
+      "source": "github:vercel/vercel",
+      "description": "Deploy, manage, and develop projects on Vercel from the command line",
+      "version": "0.1.0",
+      "author": {
+        "name": "vercel"
+      },
+      "verification": {
+        "status": "pass",
+        "score": 60,
+        "risk_level": "medium",
+        "verified_commit": "7d66136c75cb62417294db64784bd40cdce97a87"
+      },
+      "sha": "7d66136c75cb62417294db64784bd40cdce97a87"
+    },
+    {
+      "name": "nanoclaw",
+      "source": "github:qwibitai/nanoclaw",
+      "description": "Lightweight AI assistant running Claude agents in isolated containers. Supports WhatsApp, Telegram, Discord, Slack, and agent swarms.",
+      "version": "0.1.0",
+      "author": {
+        "name": "qwibitai"
+      },
+      "verification": {
+        "status": "pass",
+        "score": 100,
+        "risk_level": "high",
+        "verified_commit": "8f91d3be576b830081f2a802e2f2d426b010f8f7"
+      },
+      "sha": "8f91d3be576b830081f2a802e2f2d426b010f8f7"
+    },
+    {
+      "name": "planning-with-files",
+      "source": "github:OthmanAdi/planning-with-files",
+      "description": "Claude Code skill implementing Manus-style persistent markdown planning with task_plan.md, findings.md, and progress.md.",
+      "version": "0.1.0",
+      "author": {
+        "name": "OthmanAdi"
+      },
+      "verification": {
+        "status": "pass",
+        "score": 85,
+        "risk_level": "medium",
+        "verified_commit": "8004498f35f12f11bb2cd08048eeb79fd6dfec90"
+      },
+      "sha": "8004498f35f12f11bb2cd08048eeb79fd6dfec90"
+    },
+    {
+      "name": "deepcode",
+      "source": "github:hkuds/deepcode",
+      "description": "DeepCode integration - automated code generation from papers and text requirements",
+      "version": "0.1.0",
+      "author": {
+        "name": "hkuds"
+      },
+      "verification": {
+        "status": "pass",
+        "score": 60,
+        "risk_level": "medium",
+        "verified_commit": "b5c741ab572ab53814dc40d2d84f0da8f015e66d"
+      },
+      "sha": "b5c741ab572ab53814dc40d2d84f0da8f015e66d"
+    },
+    {
+      "name": "playwright-roll",
+      "source": "github:microsoft/playwright-python",
+      "description": "Roll Playwright Python to a new version",
+      "version": "0.1.0",
+      "author": {
+        "name": "microsoft"
+      },
+      "verification": {
+        "status": "pass",
+        "score": 60,
+        "risk_level": "medium",
+        "verified_commit": "3aecfcfded4239d157bb3e86cb682f6c8ecf6827"
+      },
+      "sha": "3aecfcfded4239d157bb3e86cb682f6c8ecf6827"
+    },
+    {
+      "name": "agent-adaptive-coordinator",
+      "source": "github:ruvnet/claude-flow",
+      "description": "Agent skill for adaptive-coordinator - invoke with $agent-adaptive-coordinator",
+      "version": "0.1.0",
+      "author": {
+        "name": "ruvnet"
+      },
+      "verification": {
+        "status": "pass",
+        "score": 10,
+        "risk_level": "critical",
+        "verified_commit": "ce0274954625736979b4e196c8e1cbcbab9f676e"
+      },
+      "sha": "ce0274954625736979b4e196c8e1cbcbab9f676e"
+    },
+    {
+      "name": "freshrss-git",
+      "source": "github:freshrss/freshrss",
+      "description": "FreshRSS version control, git workflow, branching strategy (edge/latest), diff/compare, PR changes.",
+      "version": "0.1.0",
+      "author": {
+        "name": "freshrss"
+      },
+      "verification": {
+        "status": "pass",
+        "score": 60,
+        "risk_level": "medium",
+        "verified_commit": "ff8c269a3f57b96cef2c7760649943b3a06e6e55"
+      },
+      "sha": "ff8c269a3f57b96cef2c7760649943b3a06e6e55"
+    },
+    {
+      "name": "git-safety",
+      "source": "github:tamagui/tamagui",
+      "description": "Git safety rules. INVOKE WHEN: git push, force push, git reset, git clean, destructive git, push force, reset hard. NEVER force push or do destructive git operations.",
+      "version": "0.1.0",
+      "author": {
+        "name": "tamagui"
+      },
+      "verification": {
+        "status": "pass",
+        "score": 60,
+        "risk_level": "medium",
+        "verified_commit": "37708393f968a9247ee17db189a6db4f06abef85"
+      },
+      "sha": "37708393f968a9247ee17db189a6db4f06abef85"
+    },
+    {
+      "name": "building-native-ui",
+      "source": "github:expo/skills",
+      "description": "Agent skill: building-native-ui from expo/skills",
+      "version": "0.1.0",
+      "author": {
+        "name": "expo"
+      },
+      "verification": {
+        "status": "pass",
+        "score": 55,
+        "risk_level": "low",
+        "verified_commit": "69fce80130bd1c75b009dde7edde8addb2852d61"
+      },
+      "sha": "69fce80130bd1c75b009dde7edde8addb2852d61"
+    },
+    {
+      "name": "trigger-dev-tasks",
+      "source": "github:triggerdotdev/trigger.dev",
+      "description": "Use this skill when writing, designing, or optimizing Trigger.dev background tasks and workflows. This includes creating reliable async tasks, implementing AI workflows, setting up scheduled jobs,...",
+      "version": "0.1.0",
+      "author": {
+        "name": "triggerdotdev"
+      },
+      "verification": {
+        "status": "pass",
+        "score": 50,
+        "risk_level": "medium",
+        "verified_commit": "c01332297b18fb7d18c3222b7945a63a681e6ee7"
+      },
+      "sha": "c01332297b18fb7d18c3222b7945a63a681e6ee7"
+    },
+    {
+      "name": "figma-context-mcp",
+      "source": "github:GLips/Figma-Context-MCP",
+      "description": "MCP server providing Figma layout/design data to AI coding agents. Fetches, simplifies, and serves Figma file metadata via stdio or HTTP.",
+      "version": "0.1.0",
+      "author": {
+        "name": "GLips"
+      },
+      "verification": {
+        "status": "pass",
+        "score": 100,
+        "risk_level": "medium",
+        "verified_commit": "c334c33a8b60c2a0dd85cecc102a0437aa8c9106"
+      },
+      "sha": "c334c33a8b60c2a0dd85cecc102a0437aa8c9106"
+    },
+    {
+      "name": "litestream",
+      "source": "github:benbjohnson/litestream",
+      "description": "Expert knowledge for contributing to Litestream, a standalone disaster recovery tool for SQLite. Provides architectural understanding, code patterns, critical rules, and debugging procedures for WA...",
+      "version": "0.1.0",
+      "author": {
+        "name": "benbjohnson"
+      },
+      "verification": {
+        "status": "pass",
+        "score": 72,
+        "risk_level": "medium",
+        "verified_commit": "f404f2ff1184b6b142d5869891af263b821c138f"
+      },
+      "sha": "f404f2ff1184b6b142d5869891af263b821c138f"
+    },
+    {
+      "name": "pdf-processing",
+      "source": "github:tencent/weknora",
+      "description": "Extract text and tables from PDF files, fill forms, merge documents. Use when working with PDF files or when the user mentions PDFs, forms, or document extraction.",
+      "version": "0.1.0",
+      "author": {
+        "name": "tencent"
+      },
+      "verification": {
+        "status": "pass",
+        "score": 50,
+        "risk_level": "medium",
+        "verified_commit": "a0952edc079a1dca00593029186608cc8b3a3de0"
+      },
+      "sha": "a0952edc079a1dca00593029186608cc8b3a3de0"
+    },
+    {
+      "name": "ai-sdk-5",
+      "source": "github:prowler-cloud/prowler",
+      "description": "Vercel AI SDK 5 patterns. Trigger: When building AI features with AI SDK v5 (chat, streaming, tools/function calling, UIMessage parts), including migration from v4.",
+      "version": "0.1.0",
+      "author": {
+        "name": "prowler-cloud"
+      },
+      "verification": {
+        "status": "pass",
+        "score": 60,
+        "risk_level": "medium",
+        "verified_commit": "43792f39c833ca782cb1184d1493014a04fc5963"
+      },
+      "sha": "43792f39c833ca782cb1184d1493014a04fc5963"
+    },
+    {
+      "name": "upgrade-oxc",
+      "source": "github:rolldown/rolldown",
+      "description": "Upgrade oxc, run codegen, and fix any breaking changes.",
+      "version": "0.1.0",
+      "author": {
+        "name": "rolldown"
+      },
+      "verification": {
+        "status": "pass",
+        "score": 50,
+        "risk_level": "medium",
+        "verified_commit": "3a64ec48f9766a05e161f10f868a84f3bdc199cc"
+      },
+      "sha": "3a64ec48f9766a05e161f10f868a84f3bdc199cc"
+    },
+    {
+      "name": "laravel-permission-development",
+      "source": "github:spatie/laravel-permission",
+      "description": "Build and work with Spatie Laravel Permission features, including roles, permissions, middleware, policies, teams, and Blade directives.",
+      "version": "0.1.0",
+      "author": {
+        "name": "spatie"
+      },
+      "verification": {
+        "status": "pass",
+        "score": 100,
+        "risk_level": "info",
+        "verified_commit": "0f46f66ea8a082433ae3eea6b55001ac97e610c2"
+      },
+      "sha": "0f46f66ea8a082433ae3eea6b55001ac97e610c2"
+    },
+    {
+      "name": "g2-legend-expert",
+      "source": "github:antvis/g2",
+      "description": "Expert skill for G2 legend development - provides comprehensive knowledge about legend rendering implementation, component architecture, layout algorithms, and interaction handling. Use when implem...",
+      "version": "0.1.0",
+      "author": {
+        "name": "antvis"
+      },
+      "verification": {
+        "status": "pass",
+        "score": 60,
+        "risk_level": "medium",
+        "verified_commit": "45ce44965c95ddbfb2a03c1a2496e531b87f25f3"
+      },
+      "sha": "45ce44965c95ddbfb2a03c1a2496e531b87f25f3"
+    },
+    {
+      "name": "build-with-agent-team",
+      "source": "github:coleam00/context-engineering-intro",
+      "description": "Build a project using Claude Code Agent Teams with tmux split panes. Takes a plan document path and optional team size. Use when you want multiple agents collaborating on a build.",
+      "version": "0.1.0",
+      "author": {
+        "name": "coleam00"
+      },
+      "verification": {
+        "status": "pass",
+        "score": 60,
+        "risk_level": "medium",
+        "verified_commit": "38113371a1ac8d3f8ca1e586ec402e6d7c47370d"
+      },
+      "sha": "38113371a1ac8d3f8ca1e586ec402e6d7c47370d"
+    },
+    {
+      "name": "rspack-perf-profiling",
+      "source": "github:web-infra-dev/rspack",
+      "description": "Run Rspack performance profiling on Linux using perf (with DWARF call stacks), generate perf.data, and analyze hotspots. Use when you need CPU-level bottlenecks, kernel symbol resolution, or repeat...",
+      "version": "0.1.0",
+      "author": {
+        "name": "web-infra-dev"
+      },
+      "verification": {
+        "status": "pass",
+        "score": 50,
+        "risk_level": "medium",
+        "verified_commit": "9b0ccf6b677f2bb219ea5315c024857a68ff31fd"
+      },
+      "sha": "9b0ccf6b677f2bb219ea5315c024857a68ff31fd"
+    },
+    {
+      "name": "create-justification",
+      "source": "github:documenso/documenso",
+      "description": "Create a new justification file in .agents/justifications/ with a unique three-word ID, frontmatter, and formatted title",
+      "version": "0.1.0",
+      "author": {
+        "name": "documenso"
+      },
+      "verification": {
+        "status": "pass",
+        "score": 50,
+        "risk_level": "medium",
+        "verified_commit": "03e2e4f171b3d35f7464294d149724aa19456379"
+      },
+      "sha": "03e2e4f171b3d35f7464294d149724aa19456379"
+    },
+    {
+      "name": "code-review",
+      "source": "github:coder/coder",
+      "description": "Reviews code changes for bugs, security issues, and quality problems",
+      "version": "0.1.0",
+      "author": {
+        "name": "coder"
+      },
+      "verification": {
+        "status": "pass",
+        "score": 50,
+        "risk_level": "medium",
+        "verified_commit": "63b68681132dd3df9a4209a5ad3e57b13fbbecea"
+      },
+      "sha": "63b68681132dd3df9a4209a5ad3e57b13fbbecea"
+    },
+    {
+      "name": "angular-modernization",
+      "source": "github:bitwarden/clients",
+      "description": "Modernizes Angular code such as components and directives to follow best practices using both automatic CLI migrations and Bitwarden-specific patterns. YOU must use this skill when someone requests...",
+      "version": "0.1.0",
+      "author": {
+        "name": "bitwarden"
+      },
+      "verification": {
+        "status": "pass",
+        "score": 50,
+        "risk_level": "medium",
+        "verified_commit": "944b3ffdc246afa6f4d145984a48f07727a74dd6"
+      },
+      "sha": "944b3ffdc246afa6f4d145984a48f07727a74dd6"
+    },
+    {
+      "name": "ccxt",
+      "source": "github:2025emma/vibe-coding-cn",
+      "description": "CCXT cryptocurrency trading library. Use for cryptocurrency exchange APIs, trading, market data, order management, and crypto trading automation across 150+ exchanges. Supports JavaScript/Python/PHP.",
+      "version": "0.1.0",
+      "author": {
+        "name": "2025emma"
+      },
+      "verification": {
+        "status": "pass",
+        "score": 50,
+        "risk_level": "medium",
+        "verified_commit": "9b42dd10ddf3fff58f8c7a4d347175db107d7bf9"
+      },
+      "sha": "9b42dd10ddf3fff58f8c7a4d347175db107d7bf9"
+    },
+    {
+      "name": "fastapi-mcp",
+      "source": "github:tadata-org/fastapi_mcp",
+      "description": "Expose FastAPI endpoints as MCP tools with built-in OAuth auth, ASGI transport, schema preservation, and flexible deployment.",
+      "version": "0.1.0",
+      "author": {
+        "name": "tadata-org"
+      },
+      "verification": {
+        "status": "pass",
+        "score": 85,
+        "risk_level": "medium",
+        "verified_commit": "e5cad13cabfc725bbcb047e526816d887d96da62"
+      },
+      "sha": "e5cad13cabfc725bbcb047e526816d887d96da62"
+    },
+    {
+      "name": "seedance2-api",
+      "source": "github:hexiaochun/seedance2-api",
+      "description": "Agent skill: seedance2-api from hexiaochun/seedance2-api",
+      "version": "0.1.0",
+      "author": {
+        "name": "hexiaochun"
+      },
+      "verification": {
+        "status": "pass",
+        "score": 100,
+        "risk_level": "medium",
+        "verified_commit": "03cce209de6964375c0c8a988f5dd6f7bfed1d2e"
+      },
+      "sha": "03cce209de6964375c0c8a988f5dd6f7bfed1d2e"
+    },
+    {
+      "name": "android",
+      "source": "github:mozilla-firefox/firefox",
+      "description": "Workflow guide when working with Android builds or the mobile/ directory.",
+      "version": "0.1.0",
+      "author": {
+        "name": "mozilla-firefox"
+      },
+      "verification": {
+        "status": "pass",
+        "score": 50,
+        "risk_level": "medium",
+        "verified_commit": "22d04b52b0eb8d9fa11bf8ede5ccc0243a07c5ba"
+      },
+      "sha": "22d04b52b0eb8d9fa11bf8ede5ccc0243a07c5ba"
+    },
+    {
+      "name": "json-render-core",
+      "source": "github:vercel-labs/json-render",
+      "description": "Core package for defining schemas, catalogs, and AI prompt generation for json-render. Use when working with @json-render/core, defining schemas, creating catalogs, or building JSON specs for UI/vi...",
+      "version": "0.1.0",
+      "author": {
+        "name": "vercel-labs"
+      },
+      "verification": {
+        "status": "pass",
+        "score": 60,
+        "risk_level": "medium",
+        "verified_commit": "b6f12d4d5361bf66f87bbf130a9a73b048c57e80"
+      },
+      "sha": "b6f12d4d5361bf66f87bbf130a9a73b048c57e80"
+    },
+    {
+      "name": "fix-clippy",
+      "source": "github:quickwit-oss/quickwit",
+      "description": "Fix all clippy lint warnings in the project",
+      "version": "0.1.0",
+      "author": {
+        "name": "quickwit-oss"
+      },
+      "verification": {
+        "status": "pass",
+        "score": 55,
+        "risk_level": "medium",
+        "verified_commit": "0915a37b22c479a5874783fd70b5892d4ae38086"
+      },
+      "sha": "0915a37b22c479a5874783fd70b5892d4ae38086"
+    },
+    {
+      "name": "read-docs",
+      "source": "github:fuma-nama/fumadocs",
+      "description": "Enables efficient, accurate retrieval of content from Fumadocs-powered documentation sites.",
+      "version": "0.1.0",
+      "author": {
+        "name": "fuma-nama"
+      },
+      "verification": {
+        "status": "pass",
+        "score": 60,
+        "risk_level": "medium",
+        "verified_commit": "5cc497edbcf9552d83cfd4823be9d292920a23fd"
+      },
+      "sha": "5cc497edbcf9552d83cfd4823be9d292920a23fd"
+    },
+    {
+      "name": "gc-safe-coding",
+      "source": "github:facebook/hermes",
+      "description": "Rules for writing and reviewing GC-safe C++ code in the Hermes VM runtime. Use when writing, modifying, or reviewing C++ runtime VM code that uses internal Hermes VM APIs (as opposed to code using...",
+      "version": "0.1.0",
+      "author": {
+        "name": "facebook"
+      },
+      "verification": {
+        "status": "pass",
+        "score": 50,
+        "risk_level": "medium",
+        "verified_commit": "0239ec8cc73cf3bfbf0c956f7fa78462af3687dc"
+      },
+      "sha": "0239ec8cc73cf3bfbf0c956f7fa78462af3687dc"
+    },
+    {
+      "name": "byethrow",
+      "source": "github:ryoppippi/ccusage",
+      "description": "Reference the byethrow documentation to understand and use the Result type library for error handling in JavaScript/TypeScript. Access detailed API references, practical usage examples, and best pr...",
+      "version": "0.1.0",
+      "author": {
+        "name": "ryoppippi"
+      },
+      "verification": {
+        "status": "pass",
+        "score": 60,
+        "risk_level": "medium",
+        "verified_commit": "c40ea6ef8d4db06b125c37f5b196e7d3b7cf450e"
+      },
+      "sha": "c40ea6ef8d4db06b125c37f5b196e7d3b7cf450e"
+    },
+    {
+      "name": "memu",
+      "source": "github:NevaMind-AI/memU",
+      "description": "Memory framework for 24/7 proactive AI agents. Structured file-system-like memory with intent capture and cross-session persistence.",
+      "version": "0.1.0",
+      "author": {
+        "name": "NevaMind-AI"
+      },
+      "verification": {
+        "status": "pass",
+        "score": 85,
+        "risk_level": "high",
+        "verified_commit": "dc6880a793d40b04cd599298a110af5f0f0b9cb5"
+      },
+      "sha": "dc6880a793d40b04cd599298a110af5f0f0b9cb5"
+    },
+    {
+      "name": "add-components-to-registry",
+      "source": "github:tambo-ai/tambo",
+      "description": "Registers existing React components with Tambo so AI can render them. Use when user wants to make their existing components available to AI, register components for generative UI, convert React com...",
+      "version": "0.1.0",
+      "author": {
+        "name": "tambo-ai"
+      },
+      "verification": {
+        "status": "pass",
+        "score": 55,
+        "risk_level": "medium",
+        "verified_commit": "5625dc89ea973e52bf4e0cc99f888e9baa780d6e"
+      },
+      "sha": "5625dc89ea973e52bf4e0cc99f888e9baa780d6e"
+    },
+    {
+      "name": "prd",
+      "source": "github:snarktank/ralph",
+      "description": "Generate a Product Requirements Document (PRD) for a new feature. Use when planning a feature, starting a new project, or when asked to create a PRD. Triggers on: create a prd, write prd for, plan...",
+      "version": "0.1.0",
+      "author": {
+        "name": "snarktank"
+      },
+      "verification": {
+        "status": "pass",
+        "score": 100,
+        "risk_level": "info",
+        "verified_commit": "6c53cb0b831ebe8739c6a003e22af14902d8b0b5"
+      },
+      "sha": "6c53cb0b831ebe8739c6a003e22af14902d8b0b5"
+    },
+    {
+      "name": "add-model-descriptions",
+      "source": "github:huggingface/chat-ui",
+      "description": "Add descriptions for new models from the HuggingFace router to chat-ui configuration. Use when new models are released on the router and need descriptions added to prod.yaml and dev.yaml. Triggers...",
+      "version": "0.1.0",
+      "author": {
+        "name": "huggingface"
+      },
+      "verification": {
+        "status": "pass",
+        "score": 55,
+        "risk_level": "medium",
+        "verified_commit": "679f45de50cac55818ebd8536eb2fc22b94b8874"
+      },
+      "sha": "679f45de50cac55818ebd8536eb2fc22b94b8874"
+    },
+    {
+      "name": "redteam-plugin-development",
+      "source": "github:promptfoo/promptfoo",
+      "description": "Standards for creating redteam plugins and graders. Use when creating new plugins, writing graders, or modifying attack templates.",
+      "version": "0.1.0",
+      "author": {
+        "name": "promptfoo"
+      },
+      "verification": {
+        "status": "pass",
+        "score": 50,
+        "risk_level": "medium",
+        "verified_commit": "46e5ce7a7ccc11ed3517eea568183cd0aa4a4fc2"
+      },
+      "sha": "46e5ce7a7ccc11ed3517eea568183cd0aa4a4fc2"
+    },
+    {
+      "name": "context-engineering",
+      "source": "github:muratcankoylan/Agent-Skills-for-Context-Engineering",
+      "description": "Comprehensive collection of Agent Skills for context engineering, multi-agent architectures, and production agent systems.",
+      "version": "0.1.0",
+      "author": {
+        "name": "muratcankoylan"
+      },
+      "verification": {
+        "status": "pass",
+        "score": 85,
+        "risk_level": "medium",
+        "verified_commit": "8ecfb76ca3437b96857ec400166685cfa5e96a51"
+      },
+      "sha": "8ecfb76ca3437b96857ec400166685cfa5e96a51"
+    },
+    {
+      "name": "generate-component-documentation",
+      "source": "github:longbridge/gpui-component",
+      "description": "Generate documentation for new components. Use when writing docs, documenting components, or creating component documentation.",
+      "version": "0.1.0",
+      "author": {
+        "name": "longbridge"
+      },
+      "verification": {
+        "status": "pass",
+        "score": 90,
+        "risk_level": "medium",
+        "verified_commit": "3ae8752e845e5f984a932826b664adad227e298b"
+      },
+      "sha": "3ae8752e845e5f984a932826b664adad227e298b"
+    },
+    {
+      "name": "changelog",
+      "source": "github:pipecat-ai/pipecat",
+      "description": "Create changelog files for important commits in a PR",
+      "version": "0.1.0",
+      "author": {
+        "name": "pipecat-ai"
+      },
+      "verification": {
+        "status": "pass",
+        "score": 60,
+        "risk_level": "medium",
+        "verified_commit": "fd545cabab6bc19e14c027b2256e4c7ee787d8e3"
+      },
+      "sha": "fd545cabab6bc19e14c027b2256e4c7ee787d8e3"
+    },
+    {
+      "name": "woocommerce-backend-dev",
+      "source": "github:woocommerce/woocommerce",
+      "description": "Add or modify WooCommerce backend PHP code following project conventions. Use when creating new classes, methods, hooks, or modifying existing backend code. **MUST be invoked before writing any PHP...",
+      "version": "0.1.0",
+      "author": {
+        "name": "woocommerce"
+      },
+      "verification": {
+        "status": "pass",
+        "score": 50,
+        "risk_level": "medium",
+        "verified_commit": "8082f639c3f26ab819ef9d024f80219de31c48f5"
+      },
+      "sha": "8082f639c3f26ab819ef9d024f80219de31c48f5"
+    },
+    {
+      "name": "changelog",
+      "source": "github:jetbrains/ideavim",
+      "description": "Maintains IdeaVim changelog (CHANGES.md) and build.gradle.kts changeNotes. Use when updating changelog, documenting releases, or reviewing commits/PRs for changelog entries.",
+      "version": "0.1.0",
+      "author": {
+        "name": "jetbrains"
+      },
+      "verification": {
+        "status": "pass",
+        "score": 83,
+        "risk_level": "medium",
+        "verified_commit": "3492e09c49dada687f2943c9c2760850a0e0e290"
+      },
+      "sha": "3492e09c49dada687f2943c9c2760850a0e0e290"
+    },
+    {
+      "name": "data-fetching",
+      "source": "github:elie222/inbox-zero",
+      "description": "Fetching data from the API using SWR",
+      "version": "0.1.0",
+      "author": {
+        "name": "elie222"
+      },
+      "verification": {
+        "status": "pass",
+        "score": 55,
+        "risk_level": "medium",
+        "verified_commit": "5f60d717cd8ce170dae96f55e0de61d6e13fe14a"
+      },
+      "sha": "5f60d717cd8ce170dae96f55e0de61d6e13fe14a"
+    },
+    {
+      "name": "defuddle",
+      "source": "github:kepano/obsidian-skills",
+      "description": "Extract clean markdown content from web pages using Defuddle CLI, removing clutter and navigation to save tokens. Use instead of WebFetch when the user provides a URL to read or analyze, for online...",
+      "version": "0.1.0",
+      "author": {
+        "name": "kepano"
+      },
+      "verification": {
+        "status": "pass",
+        "score": 100,
+        "risk_level": "info",
+        "verified_commit": "bb9ec95e1b59c3471bd6fd77a78a4042430bfac3"
+      },
+      "sha": "bb9ec95e1b59c3471bd6fd77a78a4042430bfac3"
+    },
+    {
+      "name": "skill-seekers-doc-converter",
+      "source": "github:yusufkaraaslan/Skill_Seekers",
+      "description": "Universal data layer for AI systems that converts documentation websites, GitHub repositories, PDFs, and local codebases into structured knowledge assets for Claude, Gemini, OpenAI, RAG pipelines (...",
+      "version": "0.1.0",
+      "author": {
+        "name": "yusufkaraaslan"
+      },
+      "verification": {
+        "status": "pass",
+        "score": 100,
+        "risk_level": "medium",
+        "verified_commit": "3bad7cf365d91233293b006b89454eb7d10ef30c"
+      },
+      "sha": "3bad7cf365d91233293b006b89454eb7d10ef30c"
+    },
+    {
+      "name": "design-md",
+      "source": "github:google-labs-code/stitch-skills",
+      "description": "Agent skill: design-md from google-labs-code/stitch-skills",
+      "version": "0.1.0",
+      "author": {
+        "name": "google-labs-code"
+      },
+      "verification": {
+        "status": "pass",
+        "score": 70,
+        "risk_level": "low",
+        "verified_commit": "51d6d5ab56b9b46e1947bc4dabcd7f53bd343b3e"
+      },
+      "sha": "51d6d5ab56b9b46e1947bc4dabcd7f53bd343b3e"
+    },
+    {
+      "name": "agent-customization",
+      "source": "github:microsoft/vscode-copilot-chat",
+      "description": "Create, update, review, fix, or debug VS Code agent customization files (.instructions.md, .prompt.md, .agent.md, SKILL.md, copilot-instructions.md, AGENTS.md). Use for: saving coding preferences;...",
+      "version": "0.1.0",
+      "author": {
+        "name": "microsoft"
+      },
+      "verification": {
+        "status": "pass",
+        "score": 50,
+        "risk_level": "medium",
+        "verified_commit": "a1ad7957ddad8d2a967db22de5fc93ed118d4355"
+      },
+      "sha": "a1ad7957ddad8d2a967db22de5fc93ed118d4355"
+    },
+    {
+      "name": "scientific-thinking-analysis",
+      "source": "github:K-Dense-AI/claude-scientific-skills",
+      "description": "A comprehensive collection of 147+ ready-to-use scientific and research skills for AI agents (Claude Code, Cursor, Codex). Covers biology, chemistry, medicine, bioinformatics, drug discovery, prote...",
+      "version": "0.1.0",
+      "author": {
+        "name": "K-Dense-AI"
+      },
+      "verification": {
+        "status": "pass",
+        "score": 85,
+        "risk_level": "high",
+        "verified_commit": "29c869326e92bc0da492f7f87bfedad1d9658a58"
+      },
+      "sha": "29c869326e92bc0da492f7f87bfedad1d9658a58"
+    },
+    {
+      "name": "agent-browser",
+      "source": "github:everyinc/compound-engineering-plugin",
+      "description": "Browser automation using Vercel's agent-browser CLI. Use when you need to interact with web pages, fill forms, take screenshots, or scrape data. Alternative to Playwright MCP - uses Bash commands w...",
+      "version": "0.1.0",
+      "author": {
+        "name": "everyinc"
+      },
+      "verification": {
+        "status": "pass",
+        "score": 60,
+        "risk_level": "medium",
+        "verified_commit": "ca57c67c1cb7df1ba348a3388f50969ff04dd974"
+      },
+      "sha": "ca57c67c1cb7df1ba348a3388f50969ff04dd974"
+    },
+    {
+      "name": "inspector",
+      "source": "github:modelcontextprotocol/inspector",
+      "description": "Official MCP Inspector: visual developer tool for testing and debugging MCP servers via React UI and Node.js proxy.",
+      "version": "0.1.0",
+      "author": {
+        "name": "modelcontextprotocol"
+      },
+      "verification": {
+        "status": "pass",
+        "score": 70,
+        "risk_level": "low",
+        "verified_commit": "db0827b24645f61c8b15aaaa4726bb7d21ad8282"
+      },
+      "sha": "db0827b24645f61c8b15aaaa4726bb7d21ad8282"
+    },
+    {
+      "name": "agents",
+      "source": "github:danielmiessler/personal_ai_infrastructure",
+      "description": "Dynamic agent composition and management system. USE WHEN user says create custom agents, spin up custom agents, specialized agents, OR asks for agent personalities, available traits, agent voices....",
+      "version": "0.1.0",
+      "author": {
+        "name": "danielmiessler"
+      },
+      "verification": {
+        "status": "pass",
+        "score": 69,
+        "risk_level": "medium",
+        "verified_commit": "2306de68a998c346fa1ae99c06d3e5125b1df9d7"
+      },
+      "sha": "2306de68a998c346fa1ae99c06d3e5125b1df9d7"
+    }
+  ]
+}

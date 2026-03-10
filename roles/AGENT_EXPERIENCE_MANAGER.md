@@ -95,6 +95,9 @@ AXM delivers periodic adoption reports to SM:
 | `skills/search/SKILL.md` | Search skill: fetches search-index.json, keyword matching |
 | `skills/install/SKILL.md` | Install skill: fetches individual skill JSON, safety rules |
 | `scripts/build/build_plugin_catalog.py` | Regenerates browse SKILL.md catalog section from live data |
+| `scripts/build/build_marketplace.py` | Generates marketplace.json from top 200 verified skills |
+| `.claude-plugin/marketplace.json` | Marketplace manifest for `plugin marketplace add` |
+| `site/api/marketplace.json` | API copy of marketplace manifest |
 | `packages/secureskillhub-mcp/` | MCP server package (@secureskillhub/mcp-server, 5 tools) |
 
 ## Design Principles
