@@ -6,6 +6,11 @@ Applies corrected D+E scoring logic to scanner_output.json data.
 Sets verification_level to "scanner_rescored" (not "full_pipeline"
 since Agents A+B did not run on actual repo content).
 
+NOTE: Uses pass threshold >= 80 (not 70 like the main pipeline).
+This is intentional — without A+B analysis, a higher bar compensates
+for reduced confidence. The main pipeline (run_verify_strict_5agent.py)
+uses >= 70 per vm-c-019.
+
 Usage:
     python3 scripts/verify/rescore_from_scanner.py --skill-ids id1,id2  # dry-run
     python3 scripts/verify/rescore_from_scanner.py --skill-ids id1,id2 --apply

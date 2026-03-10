@@ -18,7 +18,7 @@
       "id": "frtm-f-003",
       "title": "Dual catalog display: MCP vs Agent skill types",
       "category": "ui",
-      "description": "Collection is 11,098 skills across two types: mcp_server (6,297, have stars) and agent_skill (4,801, have installs). Frontend should display catalog type context. Agent skills show installs as the primary metric (not stars — stars will be 0 or absent). MCP skills show stars. The skill.skill_type field drives which metric to surface. Future: separate catalog tabs or filter by skill_type.",
+      "description": "Collection is 11,098 skills across two types: mcp_server (5,692, have stars) and agent_skill (5,406, have installs). Frontend should display catalog type context. Agent skills show installs as the primary metric (not stars — stars will be 0 or absent). MCP skills show stars. The skill.skill_type field drives which metric to surface. Future: separate catalog tabs or filter by skill_type.",
       "date": "2026-03-05"
     },
     {
