@@ -112,7 +112,7 @@ skills/               — Claude Code plugin skills (browse, search, install)
 > | Fix data quality issues | `docs/workflows/skills-manager.md` | Commands |
 > | Check repo reachability | `scripts/crawl/check_reachability.py` | `--report` for stats, `--recheck` for re-test |
 > | Quickly find skills by status/risk/ID | `site/api/indexes/` | manifest, by-status, by-risk, lookup |
-> | See what needs verification next | `site/api/indexes/verify-queue.json` | Tiered by stars |
+> | See what needs verification next | `site/api/indexes/verify-queue.json` | Tiered by priority |
 > | Run the full refresh (crawl→deploy) | `docs/workflows/deployment.md` | Full Refresh Sequence |
 > | Understand the project vision | `docs/design/vision.md` | Full document |
 > | Know the design principles | `docs/design/principles.md` | Full document |
@@ -149,7 +149,7 @@ python3 scripts/enrich/detect_plugin_repos.py --batch-size 100  # Check first 10
 - **AGENTS.md controls parallel execution** — Use file ownership to avoid overlap and drift.
 - **Static-first** — The site runs on GitHub Pages ($0). No server-side rendering. All JSON pre-built.
 - **Agent-first** — entry.md is for agents. Humans use index.html. Design for machines first.
-- **Stars = priority** — Skills sorted by GitHub stars everywhere. High-star skills get verified first.
+- **Dual priority: `max(stars, installs)`** — Skills sorted by `max(github_stars, install_count)` for unified priority. MCP servers use stars as primary; agent skills use installs as primary. High-priority skills get verified first.
 - **TAG_ALIASES in build_json.py** — Maps abbreviated tags to canonical IDs. Check this when tags don't match.
 - **Commit-pinned installs** — Skills link to verified commit hashes, not latest.
 - **Status normalization is mandatory** — Canonical statuses are `pass`, `fail`, `manual_review`, `unverified`, `updated_unverified`.

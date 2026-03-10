@@ -102,6 +102,10 @@ When the user tells you what they need, match it to the right category and recom
 
 ---
 
+> **Live category data**: For the most current counts, fetch `https://api.secureskillhub.workers.dev/v2/packages` — returns all packages with up-to-date skill and verified counts. Use this when the embedded catalog above may be out of date.
+
+---
+
 ## How to Help Users
 
 ### When user describes what they need:

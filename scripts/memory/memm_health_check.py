@@ -79,7 +79,7 @@ def check_file_integrity(files):
         if "_error" in data:
             issues.append(("CORRUPT", fname, f"JSON parse error: {data['_error']}"))
             continue
-        for field in ["schema_version", "role", "corrections", "meta"]:
+        for field in ["schema_version", "role", "entries"]:
             if field not in data:
                 issues.append(("SCHEMA", fname, f"Missing top-level field: {field}"))
         if data.get("schema_version") != SCHEMA_VERSION:
@@ -93,7 +93,7 @@ def check_correction_schema(files):
     for fname, data in files.items():
         if data is None or "_error" in data:
             continue
-        for c in data.get("corrections", []):
+        for c in data.get("entries", []):
             cid = c.get("id", "UNKNOWN")
             for field in REQUIRED_FIELDS:
                 if field not in c:
@@ -118,7 +118,7 @@ def check_duplicate_ids(files):
     for fname, data in files.items():
         if data is None or "_error" in data:
             continue
-        for c in data.get("corrections", []):
+        for c in data.get("entries", []):
             cid = c.get("id", "UNKNOWN")
             if cid in all_ids:
                 issues.append(("DUPLICATE", fname, f"ID {cid} already exists in {all_ids[cid]}"))
@@ -133,8 +133,8 @@ def check_meta_accuracy(files):
     for fname, data in files.items():
         if data is None or "_error" in data:
             continue
-        actual_active = sum(1 for c in data.get("corrections", []) if c.get("status") == "active")
-        actual_archived = sum(1 for c in data.get("corrections", []) if c.get("status") in ("archived", "superseded"))
+        actual_active = sum(1 for c in data.get("entries", []) if c.get("status") == "active")
+        actual_archived = sum(1 for c in data.get("entries", []) if c.get("status") in ("archived", "superseded"))
         declared_active = data.get("meta", {}).get("total_active", -1)
         declared_archived = data.get("meta", {}).get("total_archived", -1)
         if actual_active != declared_active:
@@ -163,7 +163,7 @@ def check_cross_role_contradictions(files):
         if data is None or "_error" in data:
             continue
         role = data.get("role", "?")
-        for c in data.get("corrections", []):
+        for c in data.get("entries", []):
             if c.get("status") != "active":
                 continue
             for tag in c.get("tags", []):
@@ -252,7 +252,7 @@ def check_staleness(files):
     for fname, data in files.items():
         if data is None or "_error" in data:
             continue
-        for c in data.get("corrections", []):
+        for c in data.get("entries", []):
             if c.get("status") != "active":
                 continue
             try:
@@ -276,7 +276,7 @@ def check_orphan_tentative(files):
     for fname, data in files.items():
         if data is None or "_error" in data:
             continue
-        for c in data.get("corrections", []):
+        for c in data.get("entries", []):
             if c.get("status") != "active" or c.get("confidence") != "tentative":
                 continue
             try:
@@ -298,7 +298,7 @@ def check_size_budgets(files):
         if data is None or "_error" in data:
             continue
         role = data.get("role", "?")
-        active_count = sum(1 for c in data.get("corrections", []) if c.get("status") == "active")
+        active_count = sum(1 for c in data.get("entries", []) if c.get("status") == "active")
         budget = TOKEN_BUDGETS.get(role, 40)
         usage_pct = (active_count / budget) * 100 if budget > 0 else 0
         if active_count > budget:
@@ -328,7 +328,7 @@ def check_coverage_gaps(files):
         if data is None or "_error" in data:
             continue
         role = data.get("role", "?")
-        active_count = sum(1 for c in data.get("corrections", []) if c.get("status") == "active")
+        active_count = sum(1 for c in data.get("entries", []) if c.get("status") == "active")
         min_expected = activity_expectations.get(role, 1)
         if active_count < min_expected:
             issues.append(("GAP", fname,
@@ -343,7 +343,7 @@ def check_audit_status(files):
     for fname, data in files.items():
         if data is None or "_error" in data:
             continue
-        for c in data.get("corrections", []):
+        for c in data.get("entries", []):
             if c.get("status") != "active":
                 continue
             audit = c.get("audit", {})
@@ -373,7 +373,7 @@ def compute_metrics(files):
         role = data.get("role", "?")
         active = 0
         archived = 0
-        for c in data.get("corrections", []):
+        for c in data.get("entries", []):
             status = c.get("status", "?")
             if status == "active":
                 active += 1
@@ -399,7 +399,7 @@ def run_evolve(files, verbose=False):
         if data is None or "_error" in data:
             continue
         role = data.get("role", "?")
-        active = [c for c in data.get("corrections", []) if c.get("status") == "active"]
+        active = [c for c in data.get("entries", []) if c.get("status") == "active"]
 
         # Find entries with overlapping tags that could be consolidated
         tag_groups = defaultdict(list)

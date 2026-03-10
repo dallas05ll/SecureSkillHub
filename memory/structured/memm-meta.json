@@ -48,7 +48,7 @@
       "description": "PM conducted full audit of all 9 structured memory files. Findings: total_entries corrected from 63 to 65 (vm had 19, secm had 18 — both undercounted). evolve_cycles updated to 11. S-tier 100% milestone reached. Total verified: 4,475 (up from prior snapshots). All 9 files healthy, no contradictions with CLAUDE.md.",
       "date": "2026-03-05",
       "entry_counts_verified": {
-        "vm-corrections.json": 21,
+        "vm-corrections.json": 22,
         "secm-patterns.json": 26,
         "sm-health.json": 10,
         "pm-decisions.json": 10,
@@ -58,12 +58,30 @@
         "frtm-fixes.json": 4,
         "memm-meta.json": 7
       }
+    },
+    {
+      "id": "memm-m-008",
+      "title": "MemM P2 audit and fixes — 2026-03-10",
+      "category": "audit",
+      "description": "MemM self-audit and P2 fixes performed. (1) pm-d-004 corrected: was '48 orgs, inj<=3 threshold', now '47 orgs, unconditional Cat 10 auto-clear' per secm-p-020 and source code. (2) pm-d-001 through pm-d-005 had only 'decision' field — added matching 'description' field to all 5 for schema consistency with pm-d-006+. (3) docm-k-002 file count '98 files, 0 missing' marked stale with note to re-run registry scan. (4) vm-corrections.json has 22 entries (vm-c-024 added 2026-03-10); total across all files is 96. Unowned file found: memory/agent-experience-manager.md (AXM working notes, predates axm-patterns.json). Health check script (scripts/memory/memm_health_check.py) is functional but uses 'corrections' key internally — deployed files use 'entries' key — script will fail structural checks until updated.",
+      "date": "2026-03-10",
+      "entry_counts_verified": {
+        "vm-corrections.json": 22,
+        "secm-patterns.json": 26,
+        "sm-health.json": 10,
+        "pm-decisions.json": 10,
+        "axm-patterns.json": 9,
+        "docm-knowledge.json": 5,
+        "dplm-history.json": 3,
+        "frtm-fixes.json": 4,
+        "memm-meta.json": 8
+      }
     }
   ],
   "metrics": {
     "layer1_files": 9,
-    "total_entries": 95,
-    "evolve_cycles": 11,
+    "total_entries": 97,
+    "evolve_cycles": 12,
     "last_audit": "2026-03-10",
     "roles_covered": [
       "vm",

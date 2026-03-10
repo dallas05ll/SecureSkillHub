@@ -99,6 +99,7 @@ AXM delivers periodic adoption reports to SM:
 | `.claude-plugin/marketplace.json` | Marketplace manifest for `plugin marketplace add` |
 | `site/api/marketplace.json` | API copy of marketplace manifest |
 | `packages/secureskillhub-mcp/` | MCP server package (@secureskillhub/mcp-server, 5 tools) |
+| `scripts/enrich/detect_plugin_repos.py` | Detects Claude Code plugin manifests in skill repos via GitHub API |
 
 ## Design Principles
 

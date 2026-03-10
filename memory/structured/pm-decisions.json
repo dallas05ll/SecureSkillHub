@@ -7,6 +7,7 @@
       "title": "2-tier verification architecture",
       "category": "architecture",
       "decision": "Tier 1 (API verify, no clone) for bulk triage. Tier 2 (full clone + 5-agent) for high-star skills.",
+      "description": "Tier 1 (API verify, no clone) for bulk triage. Tier 2 (full clone + 5-agent) for high-star skills.",
       "date": "2026-03-02"
     },
     {
@@ -14,6 +15,7 @@
       "title": "Three-party verification separation",
       "category": "workflow",
       "decision": "VM runs, SM reviews, PM approves. No single role can both execute and approve.",
+      "description": "VM runs, SM reviews, PM approves. No single role can both execute and approve.",
       "date": "2026-03-01"
     },
     {
@@ -21,20 +23,25 @@
       "title": "Scoring formula fix priority",
       "category": "verification",
       "decision": "Formula 100 - min(40,penalty) - 15*b_missed makes large repos mathematically unable to pass. #1 pipeline fix needed.",
+      "description": "Formula 100 - min(40,penalty) - 15*b_missed makes large repos mathematically unable to pass. #1 pipeline fix needed.",
       "date": "2026-03-03"
     },
     {
       "id": "pm-d-004",
       "title": "PM_VERIFIED_ORGS auto-clear",
       "category": "verification",
-      "decision": "48 trusted orgs auto-clear when injection count <= 3. Mitigates structural FPs from full-repo skills.",
-      "date": "2026-03-04"
+      "decision": "47 trusted orgs auto-clear unconditionally (regardless of injection count) via Cat 10 in auto_clear_known_fp(). Handles both injection and obfuscation FPs for known-safe major OSS/enterprise orgs. Org count as of 2026-03-04: 47 (see secm-p-020 for full list). No injection-count threshold applies — Cat 10 fires on org match alone.",
+      "description": "47 trusted orgs auto-clear unconditionally (regardless of injection count) via Cat 10 in auto_clear_known_fp(). Handles both injection and obfuscation FPs for known-safe major OSS/enterprise orgs. Org count as of 2026-03-04: 47 (see secm-p-020 for full list). No injection-count threshold applies — Cat 10 fires on org match alone.",
+      "date": "2026-03-04",
+      "updated": "2026-03-10",
+      "update_note": "Corrected from '48 orgs, inj<=3 threshold' — actual behavior is 47 orgs, unconditional clear. Source: secm-p-020 + run_verify_strict_5agent.py lines 62-81, 160-166."
     },
     {
       "id": "pm-d-005",
       "title": "SM self-evolve loop",
       "category": "workflow",
       "decision": "SM learns from each verification run via sm_evolve.py. Updates structured memory with tag analysis, quality metrics, FP patterns.",
+      "description": "SM learns from each verification run via sm_evolve.py. Updates structured memory with tag analysis, quality metrics, FP patterns.",
       "date": "2026-03-04"
     },
     {

@@ -75,22 +75,22 @@ These roles oversee multiple workstreams but do not own exclusive file sets. The
   - Writes to: `data/skills/*.json` (PM review decisions), `data/skill-manager-log.json` (pm_review entries)
   - Detects doc drift → notifies DocM to fix
 - **Skills Manager (SM)** — Catalog health, dual-agent SM-A/SM-B review, pipeline monitoring. See `roles/SKILLS_MANAGER.md`.
-  - Owns: `scripts/review/skills_manager_review.py`, `scripts/review/health_check.py`
+  - Owns: `scripts/review/skills_manager_review.py`, `scripts/review/health_check.py`, `scripts/review/sm_select_targets.py`, `scripts/review/sm_evolve.py`, `scripts/review/tag_skillsmp.py`, `scripts/review/check_claude_trigger.py`, `scripts/review/check_git_trigger.py`, `scripts/enrich/retag_data_ai_bulk.py`, `scripts/enrich/retag_integ_bulk.py`
   - Reads from: WS1 (crawl results), VM (verification results), WS3 (build outputs)
   - Writes to: `data/skill-manager-log.json` (sm_review entries), `data/skills/*.json` (review decisions)
   - Selects what VM should verify (priority tiers). Reviews VM's output (SM-A/SM-B).
 - **Verification Manager (VM)** — Pipeline execution, scanner maintenance, safety override guardian. See `roles/VERIFICATION_MANAGER.md`.
-  - Owns: WS2 file set (src/scanner/**, src/sanitizer/**, src/verification/**, scripts/verify/run_verify_*.py)
+  - Owns: WS2 file set (src/scanner/**, src/sanitizer/**, src/verification/**, scripts/verify/run_verify_*.py, scripts/verify/rescore_from_scanner.py)
   - Reads from: SM (verification requests), PM (trigger signals)
   - Writes to: `data/scan-reports/**`, `data/verification-runs/**`, `data/skills/**` (verification fields), `data/skill-manager-log.json`
   - Never reviews own output (SM does that). Never decides what to verify (SM does that).
 - **Security Manager (SecM)** — PM's on-demand security consultant. False positive audit, pattern accuracy. See `roles/SECURITY_MANAGER.md`.
-  - Owns: `scripts/secm/secm_false_positive_audit.py`, `scripts/secm/secm_pattern_test.py`, `data/secm-audit-log.json`, `data/pattern-test-cases/`
+  - Owns: `scripts/secm/secm_false_positive_audit.py`, `scripts/secm/secm_pattern_test.py`, `scripts/secm/secm_evolve.py`, `scripts/secm/batch_reassess.py`, `data/secm-audit-log.json`, `data/pattern-test-cases/`
   - Reads from: WS2 (scan reports, regex_patterns.py), SM (skill data, skill-manager-log.json)
   - Writes to: `data/secm-audit-log.json`, `data/skill-manager-log.json` (secm_fp_audit / secm_pattern_audit entries)
   - Invoked by PM only. Not in the normal verification chain.
 - **Memory Manager (MemM)** — Cross-role memory infrastructure, health auditor, 9 sub-agents. See `roles/MEMORY_MANAGER.md`.
-  - Owns: `memory/structured/*.json` (all 9 structured memory files)
+  - Owns: `memory/structured/*.json` (all 9 structured memory files), `scripts/memory/memm_health_check.py`, `memory/agent-experience-manager.md` (AXM working notes)
   - Reads from: all role memory files (unique cross-role visibility)
   - Writes to: `memory/structured/*.json` (maintenance: consolidation, archival, schema migration)
   - 4 Protocols: LOAD (before work), WRITE (after learning), EVOLVE (consolidation), HEALTH (integrity audit)

@@ -11,6 +11,11 @@
       "date": "2026-03-05",
       "by": "PM Phase 1A rebuild",
       "changes": "Added vm-c-023: VerifiedSkill schema bug (skill_type/installs missing). Also: unified priority scoring now in all build scripts, v2 meta files added."
+    },
+    {
+      "date": "2026-03-10",
+      "by": "VM self-audit P2 fixes",
+      "changes": "Added vm-c-024: rescore_from_scanner.py filename mismatch fix (scanner_output.json -> agent_c_scanner.json). Entry count now 22 (was 21 before this session)."
     }
   ],
   "entries": [
@@ -182,6 +187,14 @@
       "date": "2026-03-05",
       "severity": "critical",
       "fixed": true
+    },
+    {
+      "id": "vm-c-024",
+      "title": "rescore_from_scanner.py filename mismatch",
+      "category": "tooling",
+      "status": "fixed",
+      "description": "rescore_from_scanner.py looked for REPORTS_DIR/{id}/scanner_output.json but the strict 5-agent pipeline writes REPORTS_DIR/{id}/agent_c_scanner.json (see pipeline.py line 248). The script would silently skip every skill with 'no scan report'. Fixed: filename constant updated to agent_c_scanner.json. REPORTS_DIR path (data/scan-reports) was already correct.",
+      "date_fixed": "2026-03-10"
     }
   ]
 }

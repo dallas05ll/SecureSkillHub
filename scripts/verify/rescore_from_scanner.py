@@ -227,7 +227,7 @@ def main():
     results = []
 
     for sid in ids:
-        scanner_file = REPORTS_DIR / sid / "scanner_output.json"
+        scanner_file = REPORTS_DIR / sid / "agent_c_scanner.json"
         skill_file = SKILLS_DIR / f"{sid}.json"
 
         if not scanner_file.exists():

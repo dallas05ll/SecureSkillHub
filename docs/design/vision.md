@@ -21,7 +21,7 @@ AI agent skills and MCP servers can claim to do anything in their README. Curren
 
 - **Static-first.** $0 hosting on GitHub Pages. All data is pre-built JSON. No server-side rendering.
 - **Agent-first.** `entry.md` is for machines. `index.html` is for humans. The JSON API requires zero authentication.
-- **Stars = priority.** High-star skills are verified first. GitHub stars are the proxy for impact.
+- **Dual priority: `max(stars, installs)`.** High-impact skills are verified first. MCP servers use GitHub stars as primary proxy; agent skills use install counts. Unified priority score is `max(github_stars, install_count)`.
 - **Claude Code is the execution environment.** The verification pipeline runs inside Claude Code sessions using Task agents. No separate infrastructure needed.
 - **Commit-pinned installs.** Users install the exact version that was audited via `verified_commit`.
 

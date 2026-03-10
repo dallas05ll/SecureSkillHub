@@ -678,7 +678,8 @@ Viper C2, docker-expert, hacking-lists, DVWA, pilot-shell, claude-night-market, 
 | `data/pattern-test-cases/injection_patterns.json` | Injection pattern test cases |
 | `data/pattern-test-cases/obfuscation.json` | Obfuscation pattern test cases |
 | `data/pattern-test-cases/dangerous_calls.json` | Dangerous call pattern test cases |
-| `data/threat-intel/` | Threat intelligence reports from SecM-TI sweeps |
+| `scripts/secm/secm_evolve.py` | SecM self-evolve loop — analyzes PM overrides, proposes scanner fixes |
+| `scripts/secm/batch_reassess.py` | Re-applies scoring to existing fail/MR skills using cached reports |
 
 ### Does NOT Own (Read Only)
 

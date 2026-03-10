@@ -12,7 +12,9 @@
       "id": "docm-k-002",
       "title": "File registry",
       "category": "infrastructure",
-      "description": "DocM maintains file registry via src/docm_registry.py. Persistent cross-session file tracking stored in ~/.claude/projects/.../memory/docm-file-registry.json. As of 2026-03-04: 98 files registered, 0 missing."
+      "description": "DocM maintains file registry via src/docm_registry.py. Persistent cross-session file tracking stored in ~/.claude/projects/.../memory/docm-file-registry.json. Count as of 2026-03-04 was 98 files registered, 0 missing — but multiple new scripts were added since then (scripts/build/build_plugin_catalog.py, scripts/enrich/retag_data_ai_bulk.py, scripts/enrich/retag_integ_bulk.py, scripts/review/check_claude_trigger.py, scripts/review/check_git_trigger.py, scripts/verify/rescore_from_scanner.py, skills/ directory). Count is stale — DocM must re-run registry scan to get accurate count.",
+      "stale_since": "2026-03-04",
+      "updated": "2026-03-10"
     },
     {
       "id": "docm-k-003",
