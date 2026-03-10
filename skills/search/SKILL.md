@@ -12,11 +12,19 @@ Search the SecureSkillHub catalog for AI agent skills matching a keyword or desc
 
 ## How to Search
 
+### Option 1: v2 Dynamic API (Recommended — small responses)
+
+Fetch: `https://api.secureskillhub.workers.dev/v2/search?type=all&q=$ARGUMENTS&limit=10&sort=score`
+
+This returns a JSON response with `{total, offset, limit, results: [...]}`. Each result includes id, name, type, score, tier, verified, tags, one_liner, and install command.
+
+Optional filters: `&tags=python,web` `&tier=S,A` `&verified=true` `&type=mcp` or `&type=agent`
+
+### Option 2: Static Index (Fallback — larger but works offline)
+
 Fetch: `https://dallas05ll.github.io/SecureSkillHub/api/search-index.json`
 
-This returns an array of all skills with their names, IDs, tags, stars, and verification status.
-
-Filter the results by matching `$ARGUMENTS` against skill names and tags. Sort by stars descending.
+This returns an array of all skills. Filter by matching `$ARGUMENTS` against skill names and tags. Sort by stars descending.
 
 ## Present Results
 
