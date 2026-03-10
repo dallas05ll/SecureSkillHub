@@ -86,7 +86,7 @@ api/                  — Cloudflare Worker API (user accounts, custom packages,
 cli/                  — npx secureskillhub CLI tool
 packages/secureskillhub-mcp/ — MCP server (@secureskillhub/mcp-server, 5 tools)
 skills/               — Claude Code plugin skills (browse, search, install)
-.claude-plugin/       — Claude Code plugin manifest (plugin.json)
+.claude-plugin/       — Claude Code plugin manifest + marketplace registry
 ```
 
 ## Workflows
@@ -139,6 +139,8 @@ SM_TARGETS=$(python3 scripts/review/sm_select_targets.py --limit 100 --type agen
 python3 scripts/build/build_indexes.py                   # Rebuild agent-access indexes (manifest, by-status, by-risk, verify-queue, lookup)
 python3 scripts/build/build_plugin_catalog.py            # Rebuild plugin browse skill catalog from live data
 python3 scripts/build/build_marketplace.py               # Rebuild marketplace.json (top 200 verified plugins)
+python3 scripts/enrich/detect_plugin_repos.py            # Detect Claude Code plugin manifests in skill repos
+python3 scripts/enrich/detect_plugin_repos.py --batch-size 100  # Check first 100 unscanned repos
 ```
 
 ## Key Conventions

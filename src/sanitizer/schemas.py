@@ -263,6 +263,7 @@ class VerifiedSkill(BaseModel):
     findings_summary: dict = Field(default_factory=dict)
     verification_level: Optional[str] = None  # full_pipeline, scanner_only, metadata_only
     agent_audit: Optional[dict] = None  # Per-agent audit trail (see AgentAudit model)
+    has_plugin_json: Optional[bool] = None  # True if repo has .claude-plugin/ or plugin.json
 
 
 # ---------------------------------------------------------------------------

@@ -142,10 +142,17 @@ def _truncate(text: str, max_len: int = 200) -> str:
 
 
 def _priority_score(skill: dict[str, Any]) -> int:
-    """Compute priority score: max(stars, installs)."""
+    """Compute priority score: max(stars, installs).
+
+    Native Claude Code plugins (has_plugin_json=True) get a 2x boost
+    so they surface higher in the marketplace.
+    """
     stars = _safe_int(skill.get("stars"), 0)
     installs = _safe_int(skill.get("installs"), 0)
-    return max(stars, installs)
+    base = max(stars, installs)
+    if skill.get("has_plugin_json"):
+        return base * 2
+    return base
 
 
 # ---------------------------------------------------------------------------
@@ -204,6 +211,11 @@ def filter_marketplace_skills(skills: list[dict[str, Any]]) -> list[dict[str, An
         if "repo_unavailable" in tags:
             continue
 
+        # Must not be high/critical risk
+        risk = str(skill.get("risk_level") or "info").strip().lower()
+        if risk in ("high", "critical"):
+            continue
+
         # Must have a valid GitHub repo_url
         repo_url = str(skill.get("repo_url") or "")
         if not _parse_github_owner_repo(repo_url):
@@ -260,7 +272,70 @@ def build_plugin_entry(skill: dict[str, Any]) -> dict[str, Any]:
     if verified_commit:
         entry["sha"] = verified_commit
 
+    # Mark native Claude Code plugins
+    if skill.get("has_plugin_json"):
+        entry["native_plugin"] = True
+
     return entry
+
+
+# ---------------------------------------------------------------------------
+# Quality gates
+# ---------------------------------------------------------------------------
+
+
+def validate_marketplace(manifest: dict[str, Any]) -> list[str]:
+    """Run quality gate checks on a marketplace manifest.
+
+    Returns a list of warnings (empty = all gates passed).
+    """
+    warnings: list[str] = []
+    plugins = manifest.get("plugins", [])
+    external = [p for p in plugins if p.get("source") != "."]
+
+    if not external:
+        warnings.append("GATE-01: No external plugins in marketplace")
+        return warnings
+
+    # Gate 1: Minimum plugin count
+    if len(external) < 10:
+        warnings.append(f"GATE-02: Only {len(external)} plugins (minimum: 10)")
+
+    # Gate 2: All entries must have verification metadata
+    missing_verification = [p["name"] for p in external if "verification" not in p]
+    if missing_verification:
+        warnings.append(
+            f"GATE-03: {len(missing_verification)} plugins missing verification metadata"
+        )
+
+    # Gate 3: Minimum average score
+    scores = [p.get("verification", {}).get("score", 0) for p in external]
+    avg_score = sum(scores) / len(scores) if scores else 0
+    if avg_score < 50:
+        warnings.append(f"GATE-04: Average score {avg_score:.1f} < 50 minimum")
+
+    # Gate 4: No high/critical risk plugins
+    risky = [
+        p["name"]
+        for p in external
+        if p.get("verification", {}).get("risk_level") in ("high", "critical")
+    ]
+    if risky:
+        warnings.append(f"GATE-05: {len(risky)} plugins with high/critical risk: {risky[:5]}")
+
+    # Gate 5: Commit-pinned percentage
+    pinned = sum(1 for p in external if p.get("sha"))
+    pin_pct = (pinned / len(external)) * 100 if external else 0
+    if pin_pct < 50:
+        warnings.append(f"GATE-06: Only {pin_pct:.0f}% commit-pinned (minimum: 50%)")
+
+    # Gate 6: No duplicate sources
+    sources = [p.get("source", "") for p in external]
+    dupes = [s for s in sources if sources.count(s) > 1]
+    if dupes:
+        warnings.append(f"GATE-07: Duplicate sources found: {set(dupes)}")
+
+    return warnings
 
 
 # ---------------------------------------------------------------------------
@@ -333,6 +408,15 @@ def build_marketplace(
         "total_plugins": len(plugins),
         "plugins": plugins,
     }
+
+    # Run quality gates
+    gate_warnings = validate_marketplace(manifest)
+    if gate_warnings:
+        logger.warning("Quality gate warnings:")
+        for w in gate_warnings:
+            logger.warning("  %s", w)
+    else:
+        logger.info("All quality gates passed")
 
     if dry_run:
         logger.info("[DRY RUN] Would write %d plugins. Skipping file writes.", len(plugins))

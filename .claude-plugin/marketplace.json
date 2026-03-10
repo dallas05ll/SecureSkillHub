@@ -1,9 +1,9 @@
 {
   "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
   "name": "secureskillhub-marketplace",
-  "description": "Security-verified AI skills marketplace — 4473 verified skills with 5-agent adversarial security pipeline",
+  "description": "Security-verified AI skills marketplace — 4370 verified skills with 5-agent adversarial security pipeline",
   "version": "1.0.0",
-  "generated_at": "2026-03-10T17:02:06Z",
+  "generated_at": "2026-03-10T17:19:26Z",
   "generator": "build_marketplace.py v1.0.0",
   "owner": {
     "name": "SecureSkillHub",
@@ -19,22 +19,6 @@
       "author": {
         "name": "SecureSkillHub"
       }
-    },
-    {
-      "name": "find-skills",
-      "source": "github:vercel-labs/skills",
-      "description": "Agent skill: find-skills from vercel-labs/skills",
-      "version": "0.1.0",
-      "author": {
-        "name": "vercel-labs"
-      },
-      "verification": {
-        "status": "pass",
-        "score": 100,
-        "risk_level": "high",
-        "verified_commit": "5ac56d8d6b6f74a7f8169e2bc9b45336aa01a8bf"
-      },
-      "sha": "5ac56d8d6b6f74a7f8169e2bc9b45336aa01a8bf"
     },
     {
       "name": "extract-errors",
@@ -67,22 +51,6 @@
         "verified_commit": "9c6847074d7758602a4bb491de62e24c2f063994"
       },
       "sha": "9c6847074d7758602a4bb491de62e24c2f063994"
-    },
-    {
-      "name": "accessibility",
-      "source": "github:microsoft/vscode",
-      "description": "Accessibility guidelines for VS Code features — covers accessibility help dialogs, accessible views, verbosity settings, accessibility signals, ARIA alerts/status announcements, keyboard navigation...",
-      "version": "0.1.0",
-      "author": {
-        "name": "microsoft"
-      },
-      "verification": {
-        "status": "pass",
-        "score": 10,
-        "risk_level": "critical",
-        "verified_commit": "e933711737d39d20f5dda4de4e15e83f9c56853d"
-      },
-      "sha": "e933711737d39d20f5dda4de4e15e83f9c56853d"
     },
     {
       "name": "n8n",
@@ -197,22 +165,6 @@
       "sha": "937ffb32b148fdceef4b4184f975a708aab8d560"
     },
     {
-      "name": "frontend-design",
-      "source": "github:anthropics/skills",
-      "description": "Agent skill: frontend-design from anthropics/skills",
-      "version": "0.1.0",
-      "author": {
-        "name": "anthropics"
-      },
-      "verification": {
-        "status": "pass",
-        "score": 85,
-        "risk_level": "high",
-        "verified_commit": "3d59511518591fa82e6cfcf0438d68dd5dad3e76"
-      },
-      "sha": "3d59511518591fa82e6cfcf0438d68dd5dad3e76"
-    },
-    {
       "name": "bun-file-io",
       "source": "github:anomalyco/opencode",
       "description": "",
@@ -243,22 +195,6 @@
         "verified_commit": "a6941adce8d942ab1317b9572cb23ac2ace72173"
       },
       "sha": "a6941adce8d942ab1317b9572cb23ac2ace72173"
-    },
-    {
-      "name": "e2e-studio-tests",
-      "source": "github:supabase/supabase",
-      "description": "Run e2e tests in the Studio app. Use when asked to run e2e tests, run studio tests, playwright tests, or test the feature.",
-      "version": "0.1.0",
-      "author": {
-        "name": "supabase"
-      },
-      "verification": {
-        "status": "pass",
-        "score": 10,
-        "risk_level": "critical",
-        "verified_commit": "aef1d70351311e500a4565f1d6dac7365aa4bb55"
-      },
-      "sha": "aef1d70351311e500a4565f1d6dac7365aa4bb55"
     },
     {
       "name": "aoti-debug",
@@ -389,22 +325,6 @@
       "sha": "608185be4e0cc32ad925074185b5821af8aa2da9"
     },
     {
-      "name": "add-provider-doc",
-      "source": "github:lobehub/lobehub",
-      "description": "Guide for adding new AI provider documentation. Use when adding documentation for a new AI provider (like OpenAI, Anthropic, etc.), including usage docs, environment variables, Docker config, and i...",
-      "version": "0.1.0",
-      "author": {
-        "name": "lobehub"
-      },
-      "verification": {
-        "status": "pass",
-        "score": 10,
-        "risk_level": "critical",
-        "verified_commit": "522dcf789ce9a1e8879b8010657777d0fc91ca9f"
-      },
-      "sha": "522dcf789ce9a1e8879b8010657777d0fc91ca9f"
-    },
-    {
       "name": "concept-workflow",
       "source": "github:leonardomso/33-js-concepts",
       "description": "End-to-end workflow for creating complete JavaScript concept documentation, orchestrating all skills from research to final review",
@@ -437,22 +357,6 @@
       "sha": "14ec5b5ffa1a8ea596c6799b3c6d06418140d621"
     },
     {
-      "name": "superpowers",
-      "source": "github:obra/superpowers",
-      "description": "Comprehensive agentic skills framework and software development methodology for coding agents. Implements spec-driven development, subagent-driven-development (SDD), TDD/red-green testing, YAGNI/DR...",
-      "version": "0.1.0",
-      "author": {
-        "name": "obra"
-      },
-      "verification": {
-        "status": "pass",
-        "score": 70,
-        "risk_level": "high",
-        "verified_commit": "e4a2375cb705ca5800f0833528ce36a3faf9017a"
-      },
-      "sha": "e4a2375cb705ca5800f0833528ce36a3faf9017a"
-    },
-    {
       "name": "skill-creator",
       "source": "github:openai/codex",
       "description": "Guide for creating effective skills. This skill should be used when users want to create a new skill (or update an existing skill) that extends Codex's capabilities with specialized knowledge, work...",
@@ -483,22 +387,6 @@
         "verified_commit": "2baf966db7dc46dc7932be64c91c5cf85aa58492"
       },
       "sha": "2baf966db7dc46dc7932be64c91c5cf85aa58492"
-    },
-    {
-      "name": "add-admin-api-endpoint",
-      "source": "github:tryghost/ghost",
-      "description": "Add a new endpoint or endpoints to Ghost's Admin API at `ghost/api/admin/**`.",
-      "version": "0.1.0",
-      "author": {
-        "name": "tryghost"
-      },
-      "verification": {
-        "status": "pass",
-        "score": 10,
-        "risk_level": "critical",
-        "verified_commit": "3671359a507f8a0d61533a85eabffa19969a765d"
-      },
-      "sha": "3671359a507f8a0d61533a85eabffa19969a765d"
     },
     {
       "name": "debugging-output-and-previewing-html-using-ray",
@@ -547,22 +435,6 @@
         "verified_commit": "32e9c293f0d6f04e3b9bf804887747d5c8b5dc10"
       },
       "sha": "32e9c293f0d6f04e3b9bf804887747d5c8b5dc10"
-    },
-    {
-      "name": "context7-mcp",
-      "source": "github:upstash/context7-mcp",
-      "description": "MCP server providing up-to-date library documentation and code examples to LLMs via Context7 API, supporting stdio and HTTP transports.",
-      "version": "0.1.0",
-      "author": {
-        "name": "upstash"
-      },
-      "verification": {
-        "status": "pass",
-        "score": 85,
-        "risk_level": "high",
-        "verified_commit": "dfe9863f306b12e488196d6f90623979fba172bf"
-      },
-      "sha": "dfe9863f306b12e488196d6f90623979fba172bf"
     },
     {
       "name": "discourse-upcoming-changes",
@@ -693,38 +565,6 @@
       "sha": "1076f97059785ed6d763706bf2304ce7721ab75c"
     },
     {
-      "name": "addressing-pr-review-comments",
-      "source": "github:streamlit/streamlit",
-      "description": "Address all valid review comments on a PR for the current branch in the streamlit/streamlit repo. Use when a PR has received reviewer feedback that needs to be addressed, including code changes, st...",
-      "version": "0.1.0",
-      "author": {
-        "name": "streamlit"
-      },
-      "verification": {
-        "status": "pass",
-        "score": 15,
-        "risk_level": "critical",
-        "verified_commit": "91c88ce32e16c085ab853fa4f0930e55f8d963de"
-      },
-      "sha": "91c88ce32e16c085ab853fa4f0930e55f8d963de"
-    },
-    {
-      "name": "agent-tools",
-      "source": "github:inference-sh-9/skills",
-      "description": "Agent skill: agent-tools from inference-sh-9/skills",
-      "version": "0.1.0",
-      "author": {
-        "name": "inference-sh-9"
-      },
-      "verification": {
-        "status": "pass",
-        "score": 25,
-        "risk_level": "high",
-        "verified_commit": "9a723cdec71c3da5019296ee4ce844a6041c466c"
-      },
-      "sha": "9a723cdec71c3da5019296ee4ce844a6041c466c"
-    },
-    {
       "name": "design-system",
       "source": "github:getsentry/sentry",
       "description": "Guide for using Sentry's layout and text primitives. Use when implementing UI components, layouts, or typography. Enforces use of core components over styled components.",
@@ -739,22 +579,6 @@
         "verified_commit": "f6e5070eac1396b78f4b800e9c71f435dd580c20"
       },
       "sha": "f6e5070eac1396b78f4b800e9c71f435dd580c20"
-    },
-    {
-      "name": "browser-use",
-      "source": "github:browser-use/browser-use",
-      "description": "Agent skill: browser-use from browser-use/browser-use",
-      "version": "0.1.0",
-      "author": {
-        "name": "browser-use"
-      },
-      "verification": {
-        "status": "pass",
-        "score": 85,
-        "risk_level": "high",
-        "verified_commit": "e6dc04db6ecc4e19640664e45f7bd0a49b56fcaa"
-      },
-      "sha": "e6dc04db6ecc4e19640664e45f7bd0a49b56fcaa"
     },
     {
       "name": "ui-ux-pro-max",
@@ -947,22 +771,6 @@
         "verified_commit": "49f69f4d194ef7acc71225eb7f0cccc772ecbeaf"
       },
       "sha": "49f69f4d194ef7acc71225eb7f0cccc772ecbeaf"
-    },
-    {
-      "name": "add-expert",
-      "source": "github:remotion-dev/remotion",
-      "description": "Add a new expert to the Remotion experts page",
-      "version": "0.1.0",
-      "author": {
-        "name": "remotion-dev"
-      },
-      "verification": {
-        "status": "pass",
-        "score": 15,
-        "risk_level": "critical",
-        "verified_commit": "99eec750cd6f9580a2f7f8fd609647c4e03d56cb"
-      },
-      "sha": "99eec750cd6f9580a2f7f8fd609647c4e03d56cb"
     },
     {
       "name": "bmad-os-changelog-social",
@@ -1189,22 +997,6 @@
       "sha": "ade0c7a211d04fa1354d10359737cace5c6fc5b0"
     },
     {
-      "name": "seo-audit",
-      "source": "github:coreyhaines31/marketingskills",
-      "description": "Agent skill: seo-audit from coreyhaines31/marketingskills",
-      "version": "0.1.0",
-      "author": {
-        "name": "coreyhaines31"
-      },
-      "verification": {
-        "status": "pass",
-        "score": 55,
-        "risk_level": "high",
-        "verified_commit": "90a7e84d0ef924b8116bd9fef8bef137ee5e18f9"
-      },
-      "sha": "90a7e84d0ef924b8116bd9fef8bef137ee5e18f9"
-    },
-    {
       "name": "srs-support",
       "source": "github:ossrs/srs",
       "description": "Answer SRS (Simple Realtime Server) questions for developers and users — protocols, configuration, architecture, codecs, ecosystem tools, deployment, and troubleshooting. Use when anyone asks about...",
@@ -1283,38 +1075,6 @@
         "verified_commit": "0d4671413ef7307965c388be04b8bfcc6aa76561"
       },
       "sha": "0d4671413ef7307965c388be04b8bfcc6aa76561"
-    },
-    {
-      "name": "opentofu",
-      "source": "github:OpenTofu/opentofu",
-      "description": "Open-source Terraform fork for declarative cloud infrastructure management, backed by CNCF.",
-      "version": "0.1.0",
-      "author": {
-        "name": "OpenTofu"
-      },
-      "verification": {
-        "status": "pass",
-        "score": 70,
-        "risk_level": "high",
-        "verified_commit": "f1c8e39b69c057d885d434a5920f9ea3e76da167"
-      },
-      "sha": "f1c8e39b69c057d885d434a5920f9ea3e76da167"
-    },
-    {
-      "name": "playwright-mcp-server",
-      "source": "github:microsoft/playwright-mcp",
-      "description": "MCP server providing browser automation via Playwright accessibility snapshots, enabling LLMs to interact with web pages without screenshots.",
-      "version": "0.1.0",
-      "author": {
-        "name": "microsoft"
-      },
-      "verification": {
-        "status": "pass",
-        "score": 85,
-        "risk_level": "high",
-        "verified_commit": "43e31e83619c23c07bcfab31cfba24b4c437251b"
-      },
-      "sha": "43e31e83619c23c07bcfab31cfba24b4c437251b"
     },
     {
       "name": "go",
@@ -1475,22 +1235,6 @@
         "verified_commit": "f86b4a6867174ea553c099561bdefb9ce47ddcd8"
       },
       "sha": "f86b4a6867174ea553c099561bdefb9ce47ddcd8"
-    },
-    {
-      "name": "add-review-comment",
-      "source": "github:mlflow/mlflow",
-      "description": "Add a review comment to a GitHub pull request.",
-      "version": "0.1.0",
-      "author": {
-        "name": "mlflow"
-      },
-      "verification": {
-        "status": "pass",
-        "score": 10,
-        "risk_level": "critical",
-        "verified_commit": "1e049b2f5116a93e58eb2c78030f96732276ae55"
-      },
-      "sha": "1e049b2f5116a93e58eb2c78030f96732276ae55"
     },
     {
       "name": "biome-developer",
@@ -1781,22 +1525,6 @@
       "sha": "fb742814340e7b2931e6cc20dcdf7949e43abfed"
     },
     {
-      "name": "activate-data-source",
-      "source": "github:elastic/kibana",
-      "description": "Activates a data source in a running Kibana instance by creating it via the Data Sources API. Use when asked to activate, connect, enable, or register a data source in Kibana.",
-      "version": "0.1.0",
-      "author": {
-        "name": "elastic"
-      },
-      "verification": {
-        "status": "pass",
-        "score": 10,
-        "risk_level": "critical",
-        "verified_commit": "bd4e892334b1d4ac6bedb52bdbe5140a357559f7"
-      },
-      "sha": "bd4e892334b1d4ac6bedb52bdbe5140a357559f7"
-    },
-    {
       "name": "confidence-check",
       "source": "github:superclaude-org/superclaude_framework",
       "description": "Pre-implementation confidence assessment (≥90% required). Use before starting any implementation to verify readiness with duplicate check, architecture compliance, official docs verification, OSS r...",
@@ -1811,22 +1539,6 @@
         "verified_commit": "b061b2f7b00ca33d66c10b666c15016873b2e094"
       },
       "sha": "b061b2f7b00ca33d66c10b666c15016873b2e094"
-    },
-    {
-      "name": "2d-games",
-      "source": "github:davila7/claude-code-templates",
-      "description": "2D game development principles. Sprites, tilemaps, physics, camera.",
-      "version": "0.1.0",
-      "author": {
-        "name": "davila7"
-      },
-      "verification": {
-        "status": "pass",
-        "score": 10,
-        "risk_level": "critical",
-        "verified_commit": "2ed5d984ca697a92108cdcd3ad82c72141064c5e"
-      },
-      "sha": "2ed5d984ca697a92108cdcd3ad82c72141064c5e"
     },
     {
       "name": "gen-ut",
@@ -1891,22 +1603,6 @@
         "verified_commit": "6ac0042cfee14ca395681d96c2e7b1393f4cb528"
       },
       "sha": "6ac0042cfee14ca395681d96c2e7b1393f4cb528"
-    },
-    {
-      "name": "actions",
-      "source": "github:jetbrains/intellij-community",
-      "description": "Guidelines for implementing IntelliJ actions (AnAction). Use those rules when you need to create or change an action in the intellij platform.",
-      "version": "0.1.0",
-      "author": {
-        "name": "jetbrains"
-      },
-      "verification": {
-        "status": "pass",
-        "score": 10,
-        "risk_level": "critical",
-        "verified_commit": "0666d2f7bac32d156c564eb0c18a4188b6192915"
-      },
-      "sha": "0666d2f7bac32d156c564eb0c18a4188b6192915"
     },
     {
       "name": "dailydev",
@@ -2083,38 +1779,6 @@
         "verified_commit": "7839c10d7766dc05cf971de628d79f7a7b8f8984"
       },
       "sha": "7839c10d7766dc05cf971de628d79f7a7b8f8984"
-    },
-    {
-      "name": "add-new-jit-ee-api",
-      "source": "github:dotnet/runtime",
-      "description": "Add a new API to the JIT-VM (aka JIT-EE) interface in the codebase.",
-      "version": "0.1.0",
-      "author": {
-        "name": "dotnet"
-      },
-      "verification": {
-        "status": "pass",
-        "score": 15,
-        "risk_level": "critical",
-        "verified_commit": "4417a32478a71c4c73a782f5a394c77c333c07bd"
-      },
-      "sha": "4417a32478a71c4c73a782f5a394c77c333c07bd"
-    },
-    {
-      "name": "1password",
-      "source": "github:elizaos/eliza",
-      "description": "Set up and use 1Password CLI (op). Use when installing the CLI, enabling desktop app integration, signing in (single or multi-account), or reading/injecting/running secrets via op.",
-      "version": "0.1.0",
-      "author": {
-        "name": "elizaos"
-      },
-      "verification": {
-        "status": "pass",
-        "score": 10,
-        "risk_level": "critical",
-        "verified_commit": "645f273ed2eee2f5777193ee7d9d94c8a4444767"
-      },
-      "sha": "645f273ed2eee2f5777193ee7d9d94c8a4444767"
     },
     {
       "name": "image-generation",
@@ -2437,22 +2101,6 @@
       "sha": "7d66136c75cb62417294db64784bd40cdce97a87"
     },
     {
-      "name": "nanoclaw",
-      "source": "github:qwibitai/nanoclaw",
-      "description": "Lightweight AI assistant running Claude agents in isolated containers. Supports WhatsApp, Telegram, Discord, Slack, and agent swarms.",
-      "version": "0.1.0",
-      "author": {
-        "name": "qwibitai"
-      },
-      "verification": {
-        "status": "pass",
-        "score": 100,
-        "risk_level": "high",
-        "verified_commit": "8f91d3be576b830081f2a802e2f2d426b010f8f7"
-      },
-      "sha": "8f91d3be576b830081f2a802e2f2d426b010f8f7"
-    },
-    {
       "name": "planning-with-files",
       "source": "github:OthmanAdi/planning-with-files",
       "description": "Claude Code skill implementing Manus-style persistent markdown planning with task_plan.md, findings.md, and progress.md.",
@@ -2499,22 +2147,6 @@
         "verified_commit": "3aecfcfded4239d157bb3e86cb682f6c8ecf6827"
       },
       "sha": "3aecfcfded4239d157bb3e86cb682f6c8ecf6827"
-    },
-    {
-      "name": "agent-adaptive-coordinator",
-      "source": "github:ruvnet/claude-flow",
-      "description": "Agent skill for adaptive-coordinator - invoke with $agent-adaptive-coordinator",
-      "version": "0.1.0",
-      "author": {
-        "name": "ruvnet"
-      },
-      "verification": {
-        "status": "pass",
-        "score": 10,
-        "risk_level": "critical",
-        "verified_commit": "ce0274954625736979b4e196c8e1cbcbab9f676e"
-      },
-      "sha": "ce0274954625736979b4e196c8e1cbcbab9f676e"
     },
     {
       "name": "freshrss-git",
@@ -2917,22 +2549,6 @@
       "sha": "c40ea6ef8d4db06b125c37f5b196e7d3b7cf450e"
     },
     {
-      "name": "memu",
-      "source": "github:NevaMind-AI/memU",
-      "description": "Memory framework for 24/7 proactive AI agents. Structured file-system-like memory with intent capture and cross-session persistence.",
-      "version": "0.1.0",
-      "author": {
-        "name": "NevaMind-AI"
-      },
-      "verification": {
-        "status": "pass",
-        "score": 85,
-        "risk_level": "high",
-        "verified_commit": "dc6880a793d40b04cd599298a110af5f0f0b9cb5"
-      },
-      "sha": "dc6880a793d40b04cd599298a110af5f0f0b9cb5"
-    },
-    {
       "name": "add-components-to-registry",
       "source": "github:tambo-ai/tambo",
       "description": "Registers existing React components with Tambo so AI can render them. Use when user wants to make their existing components available to AI, register components for generative UI, convert React com...",
@@ -3157,22 +2773,6 @@
       "sha": "a1ad7957ddad8d2a967db22de5fc93ed118d4355"
     },
     {
-      "name": "scientific-thinking-analysis",
-      "source": "github:K-Dense-AI/claude-scientific-skills",
-      "description": "A comprehensive collection of 147+ ready-to-use scientific and research skills for AI agents (Claude Code, Cursor, Codex). Covers biology, chemistry, medicine, bioinformatics, drug discovery, prote...",
-      "version": "0.1.0",
-      "author": {
-        "name": "K-Dense-AI"
-      },
-      "verification": {
-        "status": "pass",
-        "score": 85,
-        "risk_level": "high",
-        "verified_commit": "29c869326e92bc0da492f7f87bfedad1d9658a58"
-      },
-      "sha": "29c869326e92bc0da492f7f87bfedad1d9658a58"
-    },
-    {
       "name": "agent-browser",
       "source": "github:everyinc/compound-engineering-plugin",
       "description": "Browser automation using Vercel's agent-browser CLI. Use when you need to interact with web pages, fill forms, take screenshots, or scrape data. Alternative to Playwright MCP - uses Bash commands w...",
@@ -3219,6 +2819,406 @@
         "verified_commit": "2306de68a998c346fa1ae99c06d3e5125b1df9d7"
       },
       "sha": "2306de68a998c346fa1ae99c06d3e5125b1df9d7"
+    },
+    {
+      "name": "agent-browser",
+      "source": "github:arize-ai/phoenix",
+      "description": "Browser automation CLI for AI agents. Use when the user needs to interact with websites, including navigating pages, filling forms, clicking buttons, taking screenshots, extracting data, testing we...",
+      "version": "0.1.0",
+      "author": {
+        "name": "arize-ai"
+      },
+      "verification": {
+        "status": "pass",
+        "score": 55,
+        "risk_level": "medium",
+        "verified_commit": "7ca881362726b381fb9c9f225036befd62dbbca1"
+      },
+      "sha": "7ca881362726b381fb9c9f225036befd62dbbca1"
+    },
+    {
+      "name": "mcp",
+      "source": "github:awslabs/mcp",
+      "description": "Official suite of MCP servers for AWS services by awslabs, providing specialized MCP integrations across AWS.",
+      "version": "0.1.0",
+      "author": {
+        "name": "awslabs"
+      },
+      "verification": {
+        "status": "pass",
+        "score": 100,
+        "risk_level": "medium",
+        "verified_commit": "4573dd70826a69b88d25298f96a001ad44ba8e9d"
+      },
+      "sha": "4573dd70826a69b88d25298f96a001ad44ba8e9d"
+    },
+    {
+      "name": "mcp-go",
+      "source": "github:mark3labs/mcp-go",
+      "description": "Go implementation of the Model Context Protocol (MCP), enabling LLM integration with external data sources and tools.",
+      "version": "0.1.0",
+      "author": {
+        "name": "mark3labs"
+      },
+      "verification": {
+        "status": "pass",
+        "score": 85,
+        "risk_level": "medium",
+        "verified_commit": "6bea1d45470061b86c0503fcc043dfc815adeec5"
+      },
+      "sha": "6bea1d45470061b86c0503fcc043dfc815adeec5"
+    },
+    {
+      "name": "flutter-animations",
+      "source": "github:madteacher/mad-agents-skills",
+      "description": "Agent skill: flutter-animations from madteacher/mad-agents-skills",
+      "version": "0.1.0",
+      "author": {
+        "name": "madteacher"
+      },
+      "verification": {
+        "status": "pass",
+        "score": 70,
+        "risk_level": "low",
+        "verified_commit": "69d260a364033d0846ac0945a6a5f7237705d93b"
+      },
+      "sha": "69d260a364033d0846ac0945a6a5f7237705d93b"
+    },
+    {
+      "name": "awesome-agent-skills",
+      "source": "github:VoltAgent/awesome-agent-skills",
+      "description": "Curated list of 383+ agent skills from official dev teams and community, compatible with Claude Code, Codex, Gemini CLI, Cursor.",
+      "version": "0.1.0",
+      "author": {
+        "name": "VoltAgent"
+      },
+      "verification": {
+        "status": "pass",
+        "score": 100,
+        "risk_level": "info",
+        "verified_commit": "0fa70cec19222cf28f0d955e55b93d256541f58d"
+      },
+      "sha": "0fa70cec19222cf28f0d955e55b93d256541f58d"
+    },
+    {
+      "name": "admin-developer",
+      "source": "github:webiny/webiny-js",
+      "description": "Use when implementing admin-area features (headless or presentation). Covers headless features (use cases, services, repositories, gateways), presentation features (presenters, view models, React v...",
+      "version": "0.1.0",
+      "author": {
+        "name": "webiny"
+      },
+      "verification": {
+        "status": "pass",
+        "score": 55,
+        "risk_level": "medium",
+        "verified_commit": "07d1d77cd1e353d1e91c0c4c391f3903261cd088"
+      },
+      "sha": "07d1d77cd1e353d1e91c0c4c391f3903261cd088"
+    },
+    {
+      "name": "shadcn-ui",
+      "source": "github:giuseppe-trisciuoglio/developer-kit",
+      "description": "Agent skill: shadcn-ui from giuseppe-trisciuoglio/developer-kit",
+      "version": "0.1.0",
+      "author": {
+        "name": "giuseppe-trisciuoglio"
+      },
+      "verification": {
+        "status": "pass",
+        "score": 85,
+        "risk_level": "medium",
+        "verified_commit": "8053511fb130f60c976a0beb09cb696beb3d6b6a"
+      },
+      "sha": "8053511fb130f60c976a0beb09cb696beb3d6b6a"
+    },
+    {
+      "name": "ghidramcp",
+      "source": "github:LaurieWired/GhidraMCP",
+      "description": "MCP Server for Ghidra enabling LLMs to autonomously reverse engineer binaries via decompilation, renaming, and analysis tools.",
+      "version": "0.1.0",
+      "author": {
+        "name": "LaurieWired"
+      },
+      "verification": {
+        "status": "pass",
+        "score": 100,
+        "risk_level": "medium",
+        "verified_commit": "27f316f80139e2d5dec882519a1bdf4aa46ac04c"
+      },
+      "sha": "27f316f80139e2d5dec882519a1bdf4aa46ac04c"
+    },
+    {
+      "name": "awesome-claude-skills",
+      "source": "github:travisvn/awesome-claude-skills",
+      "description": "Curated awesome-list of Claude Skills, resources, and tools for customizing Claude AI workflows.",
+      "version": "0.1.0",
+      "author": {
+        "name": "travisvn"
+      },
+      "verification": {
+        "status": "pass",
+        "score": 100,
+        "risk_level": "info",
+        "verified_commit": "c9f1fd4399d0d429677f813b1db3389de66b75b3"
+      },
+      "sha": "c9f1fd4399d0d429677f813b1db3389de66b75b3"
+    },
+    {
+      "name": "agent-modes",
+      "source": "github:basedhardware/omi",
+      "description": "Guidance on choosing and using Cursor agent modes: Agent, Ask, Plan, and Debug. Use when selecting the right mode for a task or when explaining mode capabilities.",
+      "version": "0.1.0",
+      "author": {
+        "name": "basedhardware"
+      },
+      "verification": {
+        "status": "pass",
+        "score": 50,
+        "risk_level": "medium",
+        "verified_commit": "748170cb169c3e149f4fad02ad8e21b7e6eb0276"
+      },
+      "sha": "748170cb169c3e149f4fad02ad8e21b7e6eb0276"
+    },
+    {
+      "name": "git-mcp",
+      "source": "github:idosal/git-mcp",
+      "description": "Free, open-source remote MCP server that transforms any GitHub project into a documentation hub for AI tools.",
+      "version": "0.1.0",
+      "author": {
+        "name": "idosal"
+      },
+      "verification": {
+        "status": "pass",
+        "score": 100,
+        "risk_level": "medium",
+        "verified_commit": "3763ee8d426f06d6006872d0beaf5b287e7b21c8"
+      },
+      "sha": "3763ee8d426f06d6006872d0beaf5b287e7b21c8"
+    },
+    {
+      "name": "ai-sdk",
+      "source": "github:vercel/ai",
+      "description": "Agent skill: ai-sdk from vercel/ai",
+      "version": "0.1.0",
+      "author": {
+        "name": "vercel"
+      },
+      "verification": {
+        "status": "pass",
+        "score": 100,
+        "risk_level": "medium",
+        "verified_commit": "ed17fe86d13bed87a21dc0264178bd2417f999ce"
+      },
+      "sha": "ed17fe86d13bed87a21dc0264178bd2417f999ce"
+    },
+    {
+      "name": "agent-development",
+      "source": "github:anthropics/claude-plugins-official",
+      "description": "This skill should be used when the user asks to \"create an agent\", \"add an agent\", \"write a subagent\", \"agent frontmatter\", \"when to use description\", \"agent examples\", \"agent tools\", \"agent colors...",
+      "version": "0.1.0",
+      "author": {
+        "name": "anthropics"
+      },
+      "verification": {
+        "status": "pass",
+        "score": 60,
+        "risk_level": "medium",
+        "verified_commit": "205b6e0b30366a969412d9aab7b99bea99d58db1"
+      },
+      "sha": "205b6e0b30366a969412d9aab7b99bea99d58db1"
+    },
+    {
+      "name": "agent-session-monitor",
+      "source": "github:alibaba/higress",
+      "description": "Real-time agent conversation monitoring - monitors Higress access logs, aggregates conversations by session, tracks token usage. Supports web interface for viewing complete conversation history and...",
+      "version": "0.1.0",
+      "author": {
+        "name": "alibaba"
+      },
+      "verification": {
+        "status": "pass",
+        "score": 50,
+        "risk_level": "medium",
+        "verified_commit": "6c9747d7781aa99e84c6beb3060b2ee449031456"
+      },
+      "sha": "6c9747d7781aa99e84c6beb3060b2ee449031456"
+    },
+    {
+      "name": "account-research",
+      "source": "github:anthropics/knowledge-work-plugins",
+      "description": "Research a company or person and get actionable sales intel. Works standalone with web search, supercharged when you connect enrichment tools or your CRM. Trigger with \"research [company]\", \"look u...",
+      "version": "0.1.0",
+      "author": {
+        "name": "anthropics"
+      },
+      "verification": {
+        "status": "pass",
+        "score": 60,
+        "risk_level": "medium",
+        "verified_commit": "477c893b7a63f9ee021d2ccd55d89afd1c4b7c03"
+      },
+      "sha": "477c893b7a63f9ee021d2ccd55d89afd1c4b7c03"
+    },
+    {
+      "name": "turborepo",
+      "source": "github:vercel/turborepo",
+      "description": "Agent skill: turborepo from vercel/turborepo",
+      "version": "0.1.0",
+      "author": {
+        "name": "vercel"
+      },
+      "verification": {
+        "status": "pass",
+        "score": 100,
+        "risk_level": "medium",
+        "verified_commit": "338911d1fde0ec367db03ab74f0830b5b647aa9e"
+      },
+      "sha": "338911d1fde0ec367db03ab74f0830b5b647aa9e"
+    },
+    {
+      "name": "vue-debug-guides",
+      "source": "github:hyf0/vue-skills",
+      "description": "Agent skill: vue-debug-guides from hyf0/vue-skills",
+      "version": "0.1.0",
+      "author": {
+        "name": "hyf0"
+      },
+      "verification": {
+        "status": "pass",
+        "score": 1,
+        "risk_level": "medium",
+        "verified_commit": "f3dd1bf4d3ac78331bdc903e4519d561c538ca6a"
+      },
+      "sha": "f3dd1bf4d3ac78331bdc903e4519d561c538ca6a"
+    },
+    {
+      "name": "vite",
+      "source": "github:antfu/skills",
+      "description": "Agent skill: vite from antfu/skills",
+      "version": "0.1.0",
+      "author": {
+        "name": "antfu"
+      },
+      "verification": {
+        "status": "pass",
+        "score": 40,
+        "risk_level": "medium",
+        "verified_commit": "3fb90f01f5298b00de0a2500aab1ddd1357e6eb2"
+      },
+      "sha": "3fb90f01f5298b00de0a2500aab1ddd1357e6eb2"
+    },
+    {
+      "name": "browser-tools-mcp",
+      "source": "github:AgentDeskAI/browser-tools-mcp",
+      "description": "MCP server + Chrome extension for browser monitoring: console logs, network traffic, screenshots, and Lighthouse audits.",
+      "version": "0.1.0",
+      "author": {
+        "name": "AgentDeskAI"
+      },
+      "verification": {
+        "status": "pass",
+        "score": 36,
+        "risk_level": "medium",
+        "verified_commit": "0befce357f2421e928f2a19ee09ab502080a35a5"
+      },
+      "sha": "0befce357f2421e928f2a19ee09ab502080a35a5"
+    },
+    {
+      "name": "agent-review",
+      "source": "github:civitai/civitai",
+      "description": "Get external agent review and feedback. Routes Anthropic models through Claude Agent SDK (uses local subscription) and other models through OpenRouter API. Use for code review, architecture feedbac...",
+      "version": "0.1.0",
+      "author": {
+        "name": "civitai"
+      },
+      "verification": {
+        "status": "pass",
+        "score": 60,
+        "risk_level": "medium",
+        "verified_commit": "3f59b7b3e3616e3511ea5a846c151ffbf8a687b5"
+      },
+      "sha": "3f59b7b3e3616e3511ea5a846c151ffbf8a687b5"
+    },
+    {
+      "name": "firecrawl",
+      "source": "github:firecrawl/cli",
+      "description": "Agent skill: firecrawl from firecrawl/cli",
+      "version": "0.1.0",
+      "author": {
+        "name": "firecrawl"
+      },
+      "verification": {
+        "status": "pass",
+        "score": 60,
+        "risk_level": "medium",
+        "verified_commit": "b95a7e958456bfc22e1ca6f2b8e2f0bc3cd03d7f"
+      },
+      "sha": "b95a7e958456bfc22e1ca6f2b8e2f0bc3cd03d7f"
+    },
+    {
+      "name": "agent-builder",
+      "source": "github:nangohq/nango",
+      "description": "Use when creating, improving, or troubleshooting Claude Code subagents. Expert guidance on agent design, system prompts, tool access, model selection, and best practices for building specialized AI...",
+      "version": "0.1.0",
+      "author": {
+        "name": "nangohq"
+      },
+      "verification": {
+        "status": "pass",
+        "score": 60,
+        "risk_level": "medium",
+        "verified_commit": "ed2d1cc15cb40c3bb4b3a7396948f892199b2b78"
+      },
+      "sha": "ed2d1cc15cb40c3bb4b3a7396948f892199b2b78"
+    },
+    {
+      "name": "unity-mcp",
+      "source": "github:justinpbarnett/unity-mcp",
+      "description": "A Unity MCP server that allows MCP clients like Claude Desktop or Cursor to perform Unity Editor actions.",
+      "version": "0.1.0",
+      "author": {
+        "name": "justinpbarnett"
+      },
+      "verification": {
+        "status": "pass",
+        "score": 60,
+        "risk_level": "medium",
+        "verified_commit": "74f8606671fbcdbb2f3f29ab75762a3c56e2986e"
+      },
+      "sha": "74f8606671fbcdbb2f3f29ab75762a3c56e2986e"
+    },
+    {
+      "name": "react-native-best-practices",
+      "source": "github:callstackincubator/agent-skills",
+      "description": "Agent skill: react-native-best-practices from callstackincubator/agent-skills",
+      "version": "0.1.0",
+      "author": {
+        "name": "callstackincubator"
+      },
+      "verification": {
+        "status": "pass",
+        "score": 84,
+        "risk_level": "medium",
+        "verified_commit": "35d2e956c9fee6d60169a32494906fd98dc5e71c"
+      },
+      "sha": "35d2e956c9fee6d60169a32494906fd98dc5e71c"
+    },
+    {
+      "name": "registry",
+      "source": "github:modelcontextprotocol/registry",
+      "description": "Community-driven registry service for MCP servers, providing app-store-like directory with publishing, validation, and auth.",
+      "version": "0.1.0",
+      "author": {
+        "name": "modelcontextprotocol"
+      },
+      "verification": {
+        "status": "pass",
+        "score": 6,
+        "risk_level": "medium",
+        "verified_commit": "bb84ea69e810ad1c9a1cde6760dacfc0890f8848"
+      },
+      "sha": "bb84ea69e810ad1c9a1cde6760dacfc0890f8848"
     }
   ]
 }

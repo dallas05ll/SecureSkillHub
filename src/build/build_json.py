@@ -522,6 +522,7 @@ def build_skills_index(skills: list[dict[str, Any]]) -> list[dict[str, Any]]:
             "verified_commit": skill.get("verified_commit", ""),
             "verification_level": skill.get("verification_level", ""),
             "agents_completed": (skill.get("agent_audit") or {}).get("agents_completed", 0),
+            "has_plugin_json": skill.get("has_plugin_json"),
         }
         index.append(summary)
 
