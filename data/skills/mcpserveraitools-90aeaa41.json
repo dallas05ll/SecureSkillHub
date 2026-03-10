@@ -4,6 +4,7 @@
   "description": "Just unleashed a \"Model Context Protocol\" (MCP) server that's basically JARVIS but with more attitude and less British accent! When the robot uprising happens, I'll be on their \"handled this human's weird questions\" list.",
   "repo_url": "https://github.com/mynkchaudhry/mcpserveraitools",
   "source_hub": "mcp_so",
+  "skill_type": "mcp_server",
   "owner": "mynkchaudhry",
   "stars": 0,
   "primary_language": "unknown",
@@ -21,14 +22,5 @@
     "severity_counts": {},
     "category_counts": {}
   },
-  "scan_date": "2026-02-28T04:14:42Z",
-  "status_cleared": {
-    "date": "2026-03-02T20:40:18.531782+00:00",
-    "previous_status": "pass",
-    "previous_score": 85,
-    "previous_risk": "info",
-    "verification_level": "scanner_only",
-    "reason": "SM cleanup: only full_pipeline pass is real pass. Needs re-verification."
-  },
-  "skill_type": "mcp_server"
+  "scan_date": "2026-02-28T04:14:42Z"
 }

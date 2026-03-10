@@ -1,9 +1,10 @@
 {
   "id": "limelink-mcp-server-98ab14b3",
   "name": "limelink-mcp-server",
-  "description": "MCP server for managing Limelink dynamic links. Create short links with platform-specific deep linking (iOS/Android), social media previews, and UTM tracking. Retrieve link details by suffix or full URL. Includes\r\n   documentation resources and guided prompts for link creation and deep linking setup.ㅌ",
+  "description": "MCP server for managing Limelink dynamic links. Create short links with platform-specific deep linking (iOS/Android), social media previews, and UTM tracking. Retrieve link details by suffix or full URL. Includes\r\n   documentation resources and guided prompts for link creation and deep linking setup.\u314c",
   "repo_url": "https://github.com/hellovelop/limelink-mcp-server",
   "source_hub": "mcp_so",
+  "skill_type": "mcp_server",
   "owner": "hellovelop",
   "stars": 0,
   "primary_language": "unknown",
@@ -25,14 +26,5 @@
     "severity_counts": {},
     "category_counts": {}
   },
-  "scan_date": "2026-02-28T04:14:40Z",
-  "status_cleared": {
-    "date": "2026-03-02T20:40:18.531782+00:00",
-    "previous_status": "pass",
-    "previous_score": 85,
-    "previous_risk": "info",
-    "verification_level": "scanner_only",
-    "reason": "SM cleanup: only full_pipeline pass is real pass. Needs re-verification."
-  },
-  "skill_type": "mcp_server"
+  "scan_date": "2026-02-28T04:14:40Z"
 }

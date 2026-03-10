@@ -1,0 +1,23 @@
+{
+  "id": "browser-23f038ec",
+  "name": "browser",
+  "description": "Browser automation via agent-browser CLI. Use when you need to navigate websites, verify deployed UI, test web apps, read online documentation, scrape data, fill forms, capture baseline screenshots before design work, or inspect current page state. Triggers on \"check the page\", \"verify UI\", \"test the site\", \"read docs at\", \"look up API\", \"visit URL\", \"browse\", \"screenshot\", \"scrape\", \"e2e test\", \"login flow\", \"capture baseline\", \"see how it looks\", \"inspect current\", \"before redesign\".",
+  "repo_url": "https://github.com/gmickel/gmickel-claude-marketplace",
+  "source_hub": "skillsmp",
+  "skill_type": "agent_skill",
+  "owner": "gmickel",
+  "stars": 526,
+  "primary_language": "unknown",
+  "tags": [
+    "agent-skills",
+    "dev-web-frontend",
+    "installs:512"
+  ],
+  "verification_status": "pass",
+  "overall_score": 60,
+  "risk_level": "medium",
+  "verified_commit": "29b7499948ff053928072d4f0468f2fafa9e3067",
+  "scan_summary": null,
+  "scan_date": "2026-03-03T03:39:51Z",
+  "verification_level": "full_pipeline"
+}

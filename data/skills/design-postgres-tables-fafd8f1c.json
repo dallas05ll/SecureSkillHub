@@ -1,0 +1,23 @@
+{
+  "id": "design-postgres-tables-fafd8f1c",
+  "name": "design-postgres-tables",
+  "description": "Use this skill for general PostgreSQL table design.\n\n**Trigger when user asks to:**\n- Design PostgreSQL tables, schemas, or data models when creating new tables and when modifying existing ones.\n- Choose data types, constraints, or indexes for PostgreSQL\n- Create user tables, order tables, reference tables, or JSONB schemas\n- Understand PostgreSQL best practices for normalization, constraints, or indexing\n- Design update-heavy, upsert-heavy, or OLTP-style tables\n\n\n**Keywords:** PostgreSQL sch...",
+  "repo_url": "https://github.com/timescale/pg-aiguide",
+  "source_hub": "skillsmp",
+  "skill_type": "agent_skill",
+  "owner": "timescale",
+  "stars": 1563,
+  "primary_language": "unknown",
+  "tags": [
+    "agent-skills",
+    "dev-devops",
+    "installs:1542"
+  ],
+  "verification_status": "pass",
+  "overall_score": 60,
+  "risk_level": "medium",
+  "verified_commit": "55d79bed716f3b6c6a3616fb20bf218c89ea0ee0",
+  "scan_summary": null,
+  "scan_date": "2026-03-03T03:23:07Z",
+  "verification_level": "full_pipeline"
+}

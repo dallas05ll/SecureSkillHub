@@ -4,9 +4,10 @@
   "description": "The ROS MCP Server is designed to facilitate the control of robotic movement by providing a set of functions that allow for precise manipulation of linear and angular velocities.",
   "repo_url": "https://github.com/lpigeon/ros_mcp_server",
   "source_hub": "mcp_so",
+  "skill_type": "mcp_server",
   "owner": "lpigeon",
   "stars": 1031,
-  "primary_language": "python",
+  "primary_language": "unknown",
   "tags": [
     "dev",
     "dev-web",
@@ -21,93 +22,5 @@
   "verified_commit": "199d21908a936d17fc8f02a318cf7758ab619376",
   "scan_summary": null,
   "scan_date": "2026-03-03T03:23:37Z",
-  "verification_level": "full_pipeline",
-  "status_cleared": {
-    "date": "2026-03-02T20:40:18.531782+00:00",
-    "previous_status": "pass",
-    "previous_score": 73,
-    "previous_risk": "low",
-    "verification_level": "scanner_only",
-    "reason": "SM cleanup: only full_pipeline pass is real pass. Needs re-verification."
-  },
-  "findings_summary": {
-    "scanner_findings": 39,
-    "dangerous_calls": 9,
-    "network_ops": 1,
-    "file_ops": 12,
-    "env_access": 3,
-    "obfuscation": 2,
-    "injection_patterns": 0,
-    "mismatches": 0,
-    "undocumented_capabilities": 0,
-    "supervisor_approved": true,
-    "supervisor_confidence": 50
-  },
-  "agent_audit": {
-    "agents_completed": 5,
-    "agents_required": 5,
-    "pipeline_run_at": "2026-03-03T03:23:37Z",
-    "agent_a": {
-      "signed": true,
-      "signed_at": "2026-03-03T03:23:37Z",
-      "comment": "Docs quality 9/10. README present. 12 features, 4 permissions claimed.",
-      "doc_quality_score": 9,
-      "claimed_permissions": [
-        "network access",
-        "system command execution",
-        "file system access",
-        "environment/secret access"
-      ]
-    },
-    "agent_b": {
-      "signed": true,
-      "signed_at": "2026-03-03T03:23:37Z",
-      "comment": "64 files analyzed. Found: 39 network, 9 file, 3 env, 7 system calls. Primary: python.",
-      "files_analyzed": 64,
-      "capabilities_found": [
-        "imports external dependencies",
-        "performs network operations",
-        "reads/writes files",
-        "reads environment values",
-        "executes system commands"
-      ]
-    },
-    "agent_c_star": {
-      "signed": true,
-      "signed_at": "2026-03-03T03:23:37Z",
-      "comment": "39 findings: 0 critical, 23 high, 4 medium, 12 low. Obfuscation detected!. No injection.",
-      "total_findings": 39,
-      "severity_counts": {
-        "critical": 0,
-        "high": 23,
-        "medium": 4,
-        "low": 12,
-        "info": 0
-      }
-    },
-    "agent_d": {
-      "signed": true,
-      "signed_at": "2026-03-03T03:23:37Z",
-      "comment": "Score 45. 0 mismatches. Risk: medium. Safety overrides: none triggered.",
-      "score": 45,
-      "mismatches": 0,
-      "safety_overrides_applied": false
-    },
-    "agent_e": {
-      "signed": true,
-      "signed_at": "2026-03-03T03:23:37Z",
-      "comment": "Rejected. Confidence 50%. No overrides.",
-      "approved": false,
-      "confidence": 50,
-      "override_reason": null
-    },
-    "manager_summary": "5/5 agents completed. Score: 45/100, Risk: medium. 0 mismatches, 39 scanner findings. Rejected at 50% confidence. No safety overrides."
-  },
-  "pm_override": {
-    "action": "fail_to_pass",
-    "reason": "PM batch override: 0 critical, 0 injection, 0 obfuscation. Fail caused by known scoring bug (max scanner penalty 40 + b_missed 15 = score <=45 < 50 threshold). No security threat detected.",
-    "override_by": "PM batch review 20260303",
-    "date": "2026-03-03"
-  },
-  "skill_type": "mcp_server"
+  "verification_level": "full_pipeline"
 }

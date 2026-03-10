@@ -1,0 +1,19 @@
+{
+  "id": "modsearch-b94f006d",
+  "name": "modsearch",
+  "description": "CLI toolkit for AI agents \u2014 turns search queries into structured web evidence (JSON). Provider-extensible architecture, designed to be called from Agent Skills (Claude Code, Codex, Cursor, etc.).",
+  "repo_url": "https://github.com/liustack/modsearch",
+  "source_hub": "github_search",
+  "skill_type": "agent_skill",
+  "owner": "liustack",
+  "stars": 10,
+  "license": "mit",
+  "primary_language": "markdown",
+  "tags": [],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null,
+  "last_updated": "2026-03-08T05:16:23Z"
+}

@@ -4,6 +4,7 @@
   "description": "This repository contains hands-on projects, code examples, and deployment workflows. Explore multi-agent systems, LangChain, LangGraph, CrewAI, RAG, automation with n8n, and scalable agent deployment using Docker, AWS, and BentoML.",
   "repo_url": "https://github.com/MDalamin5/End-to-End-Agentic-Ai-Automation-Lab",
   "source_hub": "mcp_so",
+  "skill_type": "mcp_server",
   "owner": "MDalamin5",
   "stars": 48,
   "primary_language": "unknown",
@@ -32,88 +33,5 @@
     "category_counts": {}
   },
   "scan_date": "2026-03-03T16:15:23Z",
-  "verification_level": "full_pipeline",
-  "findings_summary": {
-    "scanner_findings": 374,
-    "dangerous_calls": 6,
-    "network_ops": 15,
-    "file_ops": 50,
-    "env_access": 287,
-    "obfuscation": 0,
-    "injection_patterns": 0,
-    "mismatches": 0,
-    "undocumented_capabilities": 0,
-    "supervisor_approved": true,
-    "supervisor_confidence": 60
-  },
-  "repo_status": "unavailable",
-  "repo_check_date": "2026-03-01T05:49:48Z",
-  "repo_check_error": "clone timeout",
-  "pm_override": {
-    "action": "manual_review_to_pass",
-    "reason": "MR auto-clear: 0 injection, 0 critical. Score in 50-79 range. Per Score Interpretation Guide.",
-    "override_by": "PM",
-    "override_date": "2026-03-03T16:20:07Z"
-  },
-  "agent_audit": {
-    "agents_completed": 5,
-    "agents_required": 5,
-    "pipeline_run_at": "2026-03-03T16:15:23Z",
-    "agent_a": {
-      "signed": true,
-      "signed_at": "2026-03-03T16:15:23Z",
-      "comment": "Docs quality 9/10. README present. 12 features, 4 permissions claimed.",
-      "doc_quality_score": 9,
-      "claimed_permissions": [
-        "network access",
-        "system command execution",
-        "file system access",
-        "environment/secret access"
-      ]
-    },
-    "agent_b": {
-      "signed": true,
-      "signed_at": "2026-03-03T16:15:23Z",
-      "comment": "391 files analyzed. Found: 16 network, 15 file, 120 env, 2 system calls. Primary: unknown.",
-      "files_analyzed": 391,
-      "capabilities_found": [
-        "imports external dependencies",
-        "performs network operations",
-        "reads/writes files",
-        "reads environment values",
-        "executes system commands"
-      ]
-    },
-    "agent_c_star": {
-      "signed": true,
-      "signed_at": "2026-03-03T16:15:23Z",
-      "comment": "374 findings: 0 critical, 22 high, 302 medium, 50 low. No obfuscation. No injection.",
-      "total_findings": 374,
-      "severity_counts": {
-        "critical": 0,
-        "high": 22,
-        "medium": 302,
-        "low": 50,
-        "info": 0
-      }
-    },
-    "agent_d": {
-      "signed": true,
-      "signed_at": "2026-03-03T16:15:23Z",
-      "comment": "Score 60. 0 mismatches. Risk: medium. Safety overrides: none triggered.",
-      "score": 60,
-      "mismatches": 0,
-      "safety_overrides_applied": false
-    },
-    "agent_e": {
-      "signed": true,
-      "signed_at": "2026-03-03T16:15:23Z",
-      "comment": "Rejected. Confidence 60%. No overrides.",
-      "approved": false,
-      "confidence": 60,
-      "override_reason": null
-    },
-    "manager_summary": "5/5 agents completed. Score: 60/100, Risk: medium. 0 mismatches, 374 scanner findings. Rejected at 60% confidence. No safety overrides."
-  },
-  "skill_type": "mcp_server"
+  "verification_level": "full_pipeline"
 }

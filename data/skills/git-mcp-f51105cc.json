@@ -1,0 +1,22 @@
+{
+  "id": "git-mcp-f51105cc",
+  "name": "git-mcp",
+  "description": "Put an end to code hallucinations! GitMCP is a free, open-source, remote MCP server for any GitHub project",
+  "repo_url": "https://github.com/idosal/git-mcp",
+  "source_hub": "mcp_so",
+  "skill_type": "mcp_server",
+  "owner": "idosal",
+  "stars": 7649,
+  "primary_language": "unknown",
+  "tags": [
+    "prod",
+    "prod-docs"
+  ],
+  "verification_status": "pass",
+  "overall_score": 100,
+  "risk_level": "medium",
+  "verified_commit": "3763ee8d426f06d6006872d0beaf5b287e7b21c8",
+  "scan_summary": null,
+  "scan_date": "2026-02-28T20:56:00Z",
+  "verification_level": "full_pipeline"
+}

@@ -1,0 +1,23 @@
+{
+  "id": "dotnet-dependency-4955deda",
+  "name": "dotnet-dependency",
+  "description": "This skill should be used when investigating .NET project dependencies, understanding why packages are included, listing references, or auditing for outdated/vulnerable packages.",
+  "repo_url": "https://github.com/nikiforovall/claude-code-rules",
+  "source_hub": "skillsmp",
+  "skill_type": "agent_skill",
+  "owner": "nikiforovall",
+  "stars": 88,
+  "primary_language": "unknown",
+  "tags": [
+    "agent-skills",
+    "dev-devops",
+    "installs:85"
+  ],
+  "verification_status": "pass",
+  "overall_score": 30,
+  "risk_level": "medium",
+  "verified_commit": "37e81d2043068ac60fac1c71786b09d7e1c1f6b0",
+  "scan_summary": null,
+  "scan_date": "2026-03-03T14:50:43Z",
+  "verification_level": "full_pipeline"
+}

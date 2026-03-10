@@ -1,0 +1,17 @@
+{
+  "id": "mac-shell-mcp-4832131a",
+  "name": "mac-shell-mcp",
+  "description": "An MCP (Model Context Protocol) server for executing macOS terminal commands with ZSH shell. This server provides a secure way to execute shell commands with built-in whitelisting and approval mechanisms.",
+  "repo_url": "https://github.com/cfdude/mac-shell-mcp",
+  "source_hub": "mcp_so",
+  "skill_type": "mcp_server",
+  "owner": "cfdude",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null
+}

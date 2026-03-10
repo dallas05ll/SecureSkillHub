@@ -1,0 +1,23 @@
+{
+  "id": "notion-knowledge-capture-68eaaee3",
+  "name": "notion-knowledge-capture",
+  "description": "Transforms conversations and discussions into structured documentation pages in Notion. Captures insights, decisions, and knowledge from chat context, formats appropriately, and saves to wikis or databases with proper organization and linking for easy discovery.",
+  "repo_url": "https://github.com/prat011/awesome-llm-skills",
+  "source_hub": "skillsmp",
+  "skill_type": "agent_skill",
+  "owner": "prat011",
+  "stars": 934,
+  "primary_language": "unknown",
+  "tags": [
+    "agent-skills",
+    "dev-devops",
+    "installs:901"
+  ],
+  "verification_status": "pass",
+  "overall_score": 45,
+  "risk_level": "medium",
+  "verified_commit": "d62d6510cf186b3c3cbd5c09895924d3469a9f9b",
+  "scan_summary": null,
+  "scan_date": "2026-03-03T03:23:47Z",
+  "verification_level": "full_pipeline"
+}

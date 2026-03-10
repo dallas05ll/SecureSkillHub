@@ -1,0 +1,26 @@
+{
+  "id": "github-mcp-server-da75de8e",
+  "name": "github-mcp-server",
+  "description": "GitHub's official MCP Server",
+  "repo_url": "https://github.com/github/github-mcp-server",
+  "source_hub": "mcp_so",
+  "skill_type": "mcp_server",
+  "owner": "github",
+  "stars": 27239,
+  "primary_language": "unknown",
+  "tags": [
+    "data",
+    "data-ai",
+    "data-ai-nlp",
+    "dev",
+    "dev-devops",
+    "dev-devops-ci"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "medium",
+  "verified_commit": "bf6467855c13d3b8f5cf72f8dfd9c86f8336b20b",
+  "scan_summary": null,
+  "scan_date": "2026-03-01T05:57:22Z",
+  "verification_level": "full_pipeline"
+}

@@ -1,0 +1,23 @@
+{
+  "id": "aws-cdk-development-b54f31b9",
+  "name": "aws-cdk-development",
+  "description": "AWS Cloud Development Kit (CDK) expert for building cloud infrastructure with TypeScript/Python. Use when creating CDK stacks, defining CDK constructs, implementing infrastructure as code, or when the user mentions CDK, CloudFormation, IaC, cdk synth, cdk deploy, or wants to define AWS infrastructure programmatically. Covers CDK app structure, construct patterns, stack composition, and deployment workflows.",
+  "repo_url": "https://github.com/zxkane/aws-skills",
+  "source_hub": "skillsmp",
+  "skill_type": "agent_skill",
+  "owner": "zxkane",
+  "stars": 179,
+  "primary_language": "unknown",
+  "tags": [
+    "agent-skills",
+    "dev-web-frontend",
+    "installs:200"
+  ],
+  "verification_status": "pass",
+  "overall_score": 15,
+  "risk_level": "medium",
+  "verified_commit": "e48bf4c63b6a2a39dac29c03546a3df97b384d0f",
+  "scan_summary": "Well-structured AWS skills marketplace with 5 plugins covering CDK, cost optimization, serverless, and Bedrock AgentCore. MIT licensed. Skill files are Markdown-only with reference docs. MCP server integrations are listed in marketplace.json config but not bundled. No executable scripts in skill directories \u2014 only SKILL.md and references/ folders. Symlink-based local dev setup. Shell plugin in repo is minimal.",
+  "scan_date": "2026-03-03T05:16:32Z",
+  "verification_level": "full_pipeline"
+}

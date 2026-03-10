@@ -1,0 +1,17 @@
+{
+  "id": "mcpo-docker-d76b3bcc",
+  "name": "mcpo-docker",
+  "description": "An example Docker image for mcpo, a tool that exposes MCP (Model Context Protocol) servers as OpenAPI-compatible HTTP endpoints for OpenWebUI.",
+  "repo_url": "https://github.com/alephpiece/mcpo-docker",
+  "source_hub": "mcp_so",
+  "skill_type": "mcp_server",
+  "owner": "alephpiece",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null
+}

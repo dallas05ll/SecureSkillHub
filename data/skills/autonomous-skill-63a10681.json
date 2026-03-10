@@ -1,0 +1,23 @@
+{
+  "id": "autonomous-skill-63a10681",
+  "name": "autonomous-skill",
+  "description": "Use when user wants to execute long-running tasks that require multiple sessions to complete. This skill manages task decomposition, progress tracking, and autonomous execution using Codex non-interactive mode with auto-continuation. Trigger phrases include autonomous, long-running task, multi-session, \u81ea\u4e3b\u6267\u884c, \u957f\u65f6\u4efb\u52a1, autonomous skill.",
+  "repo_url": "https://github.com/feiskyer/codex-settings",
+  "source_hub": "skillsmp",
+  "skill_type": "agent_skill",
+  "owner": "feiskyer",
+  "stars": 141,
+  "primary_language": "unknown",
+  "tags": [
+    "agent-skills",
+    "dev-web-frontend",
+    "installs:131"
+  ],
+  "verification_status": "pass",
+  "overall_score": 56,
+  "risk_level": "medium",
+  "verified_commit": "ee959429e67be8a9deeca15f8af0983f7de636c6",
+  "scan_summary": "Configuration and skills repository primarily for OpenAI Codex CLI but includes Claude-compatible skills. MIT licensed. Skills use SKILL.md format with references/. Contains LiteLLM config (litellm_config.yaml) which includes model routing configuration. Policy files (.codexpolicy) define allowed operations. No hardcoded credentials \u2014 uses environment variables. Some skills include YouTube API and image generation capabilities.",
+  "scan_date": "2026-03-03T05:22:15Z",
+  "verification_level": "full_pipeline"
+}

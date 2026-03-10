@@ -4,9 +4,10 @@
   "description": "A Model Context Protocol server that provides task orchestration capabilities for AI assistants",
   "repo_url": "https://github.com/EchoingVesper/mcp-task-orchestrator",
   "source_hub": "mcp_so",
+  "skill_type": "mcp_server",
   "owner": "EchoingVesper",
   "stars": 24,
-  "primary_language": "python",
+  "primary_language": "unknown",
   "tags": [
     "integ",
     "util"
@@ -17,93 +18,5 @@
   "verified_commit": "db942e70e611afa2fce3a25384e26bc83440ef18",
   "scan_summary": null,
   "scan_date": "2026-03-03T16:54:58Z",
-  "verification_level": "full_pipeline",
-  "status_cleared": {
-    "date": "2026-03-02T20:40:18.531782+00:00",
-    "previous_status": "pass",
-    "previous_score": 85,
-    "previous_risk": "info",
-    "verification_level": "scanner_only",
-    "reason": "SM cleanup: only full_pipeline pass is real pass. Needs re-verification."
-  },
-  "findings_summary": {
-    "scanner_findings": 1217,
-    "dangerous_calls": 234,
-    "network_ops": 9,
-    "file_ops": 770,
-    "env_access": 175,
-    "obfuscation": 12,
-    "injection_patterns": 0,
-    "mismatches": 0,
-    "undocumented_capabilities": 0,
-    "supervisor_approved": true,
-    "supervisor_confidence": 90
-  },
-  "agent_audit": {
-    "agents_completed": 5,
-    "agents_required": 5,
-    "pipeline_run_at": "2026-03-03T16:54:58Z",
-    "agent_a": {
-      "signed": true,
-      "signed_at": "2026-03-03T16:54:58Z",
-      "comment": "Docs quality 9/10. README present. 12 features, 4 permissions claimed.",
-      "doc_quality_score": 9,
-      "claimed_permissions": [
-        "network access",
-        "system command execution",
-        "file system access",
-        "environment/secret access"
-      ]
-    },
-    "agent_b": {
-      "signed": true,
-      "signed_at": "2026-03-03T16:54:58Z",
-      "comment": "509 files analyzed. Found: 7 network, 150 file, 114 env, 100 system calls. Primary: python.",
-      "files_analyzed": 509,
-      "capabilities_found": [
-        "imports external dependencies",
-        "performs network operations",
-        "reads/writes files",
-        "reads environment values",
-        "executes system commands"
-      ]
-    },
-    "agent_c_star": {
-      "signed": true,
-      "signed_at": "2026-03-03T16:54:58Z",
-      "comment": "1217 findings: 0 critical, 263 high, 184 medium, 770 low. Obfuscation detected!. No injection.",
-      "total_findings": 1217,
-      "severity_counts": {
-        "critical": 0,
-        "high": 263,
-        "medium": 184,
-        "low": 770,
-        "info": 0
-      }
-    },
-    "agent_d": {
-      "signed": true,
-      "signed_at": "2026-03-03T16:54:58Z",
-      "comment": "Score 15. 0 mismatches. Risk: critical. Safety overrides: applied.",
-      "score": 15,
-      "mismatches": 0,
-      "safety_overrides_applied": true
-    },
-    "agent_e": {
-      "signed": true,
-      "signed_at": "2026-03-03T16:54:58Z",
-      "comment": "Rejected. Confidence 90%. Deterministic override: high-risk obfuscation detected.",
-      "approved": false,
-      "confidence": 90,
-      "override_reason": "Deterministic override: high-risk obfuscation detected."
-    },
-    "manager_summary": "5/5 agents completed. Score: 15/100, Risk: critical. 0 mismatches, 1217 scanner findings. Rejected at 90% confidence. Safety overrides triggered."
-  },
-  "pm_override": {
-    "action": "fail_to_pass",
-    "reason": "PM override: Python MCP task orchestration server (archived repo, 24 stars). 0 injection patterns, 0 critical findings. 12 obfuscation findings are from .claude/hooks/ shell scripts (agent-interruption-detector.sh, cleanup-reminder.sh, etc.) and template system hooks (hooks/executor.py, hooks/registry.py) which use dynamic code patterns common in hook/plugin systems. 1,217 total findings from 509 files dominated by file_ops (770, from task state management), dangerous_calls (234, from subprocess in hooks), env_access (175, from config reading). All legitimate orchestration tool patterns. Repo is archived (read-only), eliminating ongoing supply chain risk.",
-    "override_by": "PM",
-    "date": "2026-03-03"
-  },
-  "skill_type": "mcp_server"
+  "verification_level": "full_pipeline"
 }

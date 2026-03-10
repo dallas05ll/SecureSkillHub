@@ -1,0 +1,22 @@
+{
+  "id": "agent-router-f092fc48",
+  "name": "agent-router",
+  "description": "Analyzing user intent and delegating tasks.",
+  "repo_url": "https://github.com/udapy/rust-agentic-skills",
+  "source_hub": "skillsmp",
+  "skill_type": "agent_skill",
+  "owner": "udapy",
+  "stars": 13,
+  "primary_language": "unknown",
+  "tags": [
+    "agent-skills",
+    "installs:12"
+  ],
+  "verification_status": "pass",
+  "overall_score": 99,
+  "risk_level": "low",
+  "verified_commit": "447eee0e2380c593bfcd14f91211524a57a8db92",
+  "scan_summary": null,
+  "scan_date": "2026-03-03T17:34:59Z",
+  "verification_level": "full_pipeline"
+}

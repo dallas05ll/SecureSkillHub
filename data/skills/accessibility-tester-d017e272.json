@@ -7,96 +7,17 @@
   "skill_type": "agent_skill",
   "owner": "saeed-vayghan",
   "stars": 0,
-  "primary_language": "typescript",
+  "primary_language": "unknown",
   "tags": [
     "agent-skills",
-    "installs:10",
-    "status-pass",
-    "integ",
-    "sec",
-    "security-compliance"
+    "dev-devops",
+    "installs:10"
   ],
   "verification_status": "pass",
   "overall_score": 94,
   "risk_level": "medium",
   "verified_commit": "34ca3ca1db04b092c5f86eba155c23e105fc933b",
   "scan_summary": null,
-  "repo_status": "available",
-  "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
-  "repo_check_error": null,
   "scan_date": "2026-03-04T16:08:12Z",
-  "findings_summary": {
-    "scanner_findings": 12,
-    "dangerous_calls": 0,
-    "network_ops": 0,
-    "file_ops": 11,
-    "env_access": 1,
-    "obfuscation": 0,
-    "injection_patterns": 0,
-    "mismatches": 0,
-    "undocumented_capabilities": 0,
-    "supervisor_approved": true,
-    "supervisor_confidence": 94
-  },
-  "verification_level": "full_pipeline",
-  "agent_audit": {
-    "agents_completed": 5,
-    "agents_required": 5,
-    "pipeline_run_at": "2026-03-04T16:08:12Z",
-    "agent_a": {
-      "signed": true,
-      "signed_at": "2026-03-04T16:08:12Z",
-      "comment": "Docs quality 9/10. README present. 12 features, 4 permissions claimed.",
-      "doc_quality_score": 9,
-      "claimed_permissions": [
-        "network access",
-        "system command execution",
-        "file system access",
-        "environment/secret access"
-      ]
-    },
-    "agent_b": {
-      "signed": true,
-      "signed_at": "2026-03-04T16:08:12Z",
-      "comment": "11 files analyzed. Found: 0 network, 9 file, 1 env, 0 system calls. Primary: typescript.",
-      "files_analyzed": 11,
-      "capabilities_found": [
-        "imports external dependencies",
-        "reads/writes files",
-        "reads environment values"
-      ]
-    },
-    "agent_c_star": {
-      "signed": true,
-      "signed_at": "2026-03-04T16:08:12Z",
-      "comment": "12 findings: 0 critical, 0 high, 1 medium, 11 low. No obfuscation. No injection.",
-      "total_findings": 12,
-      "severity_counts": {
-        "critical": 0,
-        "high": 0,
-        "medium": 1,
-        "low": 11,
-        "info": 0
-      }
-    },
-    "agent_d": {
-      "signed": true,
-      "signed_at": "2026-03-04T16:08:12Z",
-      "comment": "Score 94. 0 mismatches. Risk: medium. Safety overrides: none triggered.",
-      "score": 94,
-      "mismatches": 0,
-      "safety_overrides_applied": false
-    },
-    "agent_e": {
-      "signed": true,
-      "signed_at": "2026-03-04T16:08:12Z",
-      "comment": "Approved. Confidence 94%. No overrides.",
-      "approved": true,
-      "confidence": 94,
-      "override_reason": null
-    },
-    "manager_summary": "5/5 agents completed. Score: 94/100, Risk: medium. 0 mismatches, 12 scanner findings. Approved at 94% confidence. No safety overrides."
-  },
-  "installs": 10,
-  "has_plugin_json": false
+  "verification_level": "full_pipeline"
 }

@@ -1,0 +1,23 @@
+{
+  "id": "autonomous-skill-89738951",
+  "name": "autonomous-skill",
+  "description": "Use when user wants to execute long-running tasks that require multiple sessions to complete. This skill manages task decomposition, progress tracking, and autonomous execution using Claude Code headless mode with auto-continuation. Trigger phrases: \"autonomous\", \"long-running task\", \"multi-session\", \"\u81ea\u4e3b\u6267\u884c\", \"\u957f\u65f6\u4efb\u52a1\", \"autonomous skill\".",
+  "repo_url": "https://github.com/feiskyer/claude-code-settings",
+  "source_hub": "skillsmp",
+  "skill_type": "agent_skill",
+  "owner": "feiskyer",
+  "stars": 1232,
+  "primary_language": "unknown",
+  "tags": [
+    "agent-skills",
+    "dev-web-frontend",
+    "installs:1209"
+  ],
+  "verification_status": "pass",
+  "overall_score": 60,
+  "risk_level": "medium",
+  "verified_commit": "eac119585f88e46f9d5530a95c74e078acb2e6b1",
+  "scan_summary": null,
+  "scan_date": "2026-03-03T03:23:35Z",
+  "verification_level": "full_pipeline"
+}

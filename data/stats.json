@@ -1,25 +1,25 @@
 {
-  "total_skills": 11098,
-  "verified_skills": 4475,
+  "total_skills": 12690,
+  "verified_skills": 4624,
   "failed_skills": 0,
   "pending_review": 0,
-  "total_scans_run": 4475,
-  "last_crawl": "2026-03-04T14:40:00Z",
-  "last_build": "2026-03-04T15:30:00Z",
+  "total_scans_run": 4624,
+  "last_crawl": "2026-03-10T19:31:37Z",
+  "last_build": "2026-03-10T19:31:37Z",
   "sources": {
-    "mcp_so": 5616,
-    "skillsmp": 4801,
-    "github_search": 515,
-    "skills_sh": 43,
-    "claude_skills_hub": 73,
-    "glama": 50
+    "mcp_so": 6763,
+    "skillsmp": 4945,
+    "github_search": 807,
+    "skills_sh": 55,
+    "glama": 51,
+    "claude_skills_hub": 69
   },
   "skill_types": {
-    "mcp_server": 5692,
-    "agent_skill": 5406
+    "mcp_server": 6894,
+    "agent_skill": 5796
   },
   "verification_tiers": {
-    "full_pipeline": 4475,
+    "full_pipeline": 4624,
     "scanner_only": 0,
     "metadata_only": 1
   }

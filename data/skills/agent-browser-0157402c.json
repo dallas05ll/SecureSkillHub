@@ -1,0 +1,23 @@
+{
+  "id": "agent-browser-0157402c",
+  "name": "agent-browser",
+  "description": "Automates browser interactions for web testing, form filling, screenshots, and data extraction. Use when the user needs to navigate websites, interact with web pages, fill forms, take screenshots, test web applications, or extract information from web pages.",
+  "repo_url": "https://github.com/code-yeongyu/oh-my-opencode",
+  "source_hub": "skillsmp",
+  "skill_type": "agent_skill",
+  "owner": "code-yeongyu",
+  "stars": 34263,
+  "primary_language": "unknown",
+  "tags": [
+    "agent-skills",
+    "dev-web-frontend",
+    "installs:32052"
+  ],
+  "verification_status": "pass",
+  "overall_score": 100,
+  "risk_level": "medium",
+  "verified_commit": "acc21326c50da142c2b1843d8e8ac82f3aa4712d",
+  "scan_summary": null,
+  "scan_date": "2026-02-28T20:55:20Z",
+  "verification_level": "full_pipeline"
+}

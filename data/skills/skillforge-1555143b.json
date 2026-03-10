@@ -1,0 +1,22 @@
+{
+  "id": "skillforge-1555143b",
+  "name": "skillforge",
+  "description": "Intelligent skill router and creator. Analyzes ANY input to recommend existing skills, improve them, or create new ones. Uses deep iterative analysis with 11 thinking models, regression questioning, evolution lens, and multi-agent synthesis panel. Phase 0 triage ensures you never duplicate existing functionality.",
+  "repo_url": "https://github.com/tripleyak/skillforge",
+  "source_hub": "skillsmp",
+  "skill_type": "agent_skill",
+  "owner": "tripleyak",
+  "stars": 516,
+  "primary_language": "unknown",
+  "tags": [
+    "agent-skills",
+    "installs:508"
+  ],
+  "verification_status": "pass",
+  "overall_score": 82,
+  "risk_level": "medium",
+  "verified_commit": "f07042f09793815eed92469841a39dc0eeea7ab0",
+  "scan_summary": null,
+  "scan_date": "2026-03-03T03:39:30Z",
+  "verification_level": "full_pipeline"
+}

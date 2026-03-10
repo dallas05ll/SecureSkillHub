@@ -1,0 +1,19 @@
+{
+  "id": "file-safety-guard-a52f8120",
+  "name": "file-safety-guard",
+  "description": "\ud83d\udee1\ufe0f Claude plugin that prevents accidental file deletion, overwrites, and destructive operations. Auto-backups, dry-run planning, and activity logging for Claude Code & Cowork.",
+  "repo_url": "https://github.com/jitangupta/file-safety-guard",
+  "source_hub": "github_search",
+  "skill_type": "agent_skill",
+  "owner": "jitangupta",
+  "stars": 3,
+  "license": "mit",
+  "primary_language": "markdown",
+  "tags": [],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null,
+  "last_updated": "2026-03-07T10:33:24Z"
+}

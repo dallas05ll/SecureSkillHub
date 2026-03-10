@@ -1,0 +1,23 @@
+{
+  "id": "ai-development-guide-c25c2c9e",
+  "name": "ai-development-guide",
+  "description": "Technical decision criteria, anti-pattern detection, debugging techniques, and quality check workflow. Use when making technical decisions, detecting code smells, or performing quality assurance.",
+  "repo_url": "https://github.com/shinpr/claude-code-workflows",
+  "source_hub": "skillsmp",
+  "skill_type": "agent_skill",
+  "owner": "shinpr",
+  "stars": 158,
+  "primary_language": "unknown",
+  "tags": [
+    "agent-skills",
+    "dev-web-frontend",
+    "installs:140"
+  ],
+  "verification_status": "pass",
+  "overall_score": 62,
+  "risk_level": "medium",
+  "verified_commit": "7c58a55d0378322bb3f6e879226710893063826e",
+  "scan_summary": "Well-structured multi-plugin workflow system with backend, frontend, and fullstack components. MIT licensed, organized into agents/commands/skills directories. No executable scripts with dangerous patterns. .claude-plugin marketplace format properly used. No credential handling or network calls in skill files.",
+  "scan_date": "2026-03-03T05:21:42Z",
+  "verification_level": "full_pipeline"
+}

@@ -7,146 +7,17 @@
   "skill_type": "agent_skill",
   "owner": "aaronjmars",
   "stars": 0,
-  "primary_language": "shell",
+  "primary_language": "unknown",
   "tags": [
     "agent-skills",
-    "installs:11",
-    "data",
     "data-ai",
-    "status-pass"
+    "installs:11"
   ],
   "verification_status": "pass",
   "overall_score": 85,
   "risk_level": "medium",
   "verified_commit": "2c207a326b008840e3bb6a41760f38b6f8d5101f",
   "scan_summary": null,
-  "repo_status": "available",
-  "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
-  "repo_check_error": null,
   "scan_date": "2026-03-04T21:43:26Z",
-  "findings_summary": {
-    "scanner_findings": 5,
-    "dangerous_calls": 1,
-    "network_ops": 0,
-    "file_ops": 0,
-    "env_access": 0,
-    "obfuscation": 4,
-    "injection_patterns": 0,
-    "mismatches": 0,
-    "undocumented_capabilities": 0,
-    "supervisor_approved": true,
-    "supervisor_confidence": 85
-  },
-  "scan_report": {
-    "total_findings": 5,
-    "injection_patterns_count": 0,
-    "obfuscation_count": 4,
-    "obfuscation_high_risk_count": 0,
-    "dangerous_calls_count": 1,
-    "severity_counts": {
-      "critical": 0,
-      "high": 5,
-      "medium": 0,
-      "low": 0,
-      "info": 0
-    },
-    "category_counts": {
-      "obfuscation": 4,
-      "dangerous_calls": 1
-    },
-    "top_findings": [
-      {
-        "rule_id": "regex_long_base64_literal",
-        "severity": "high",
-        "category": "obfuscation",
-        "file": "aave-repay.sh",
-        "line": 46
-      },
-      {
-        "rule_id": "regex_shell_backtick_exec",
-        "severity": "high",
-        "category": "dangerous_calls",
-        "file": "SKILL.md",
-        "line": 205
-      },
-      {
-        "rule_id": "regex_long_base64_literal",
-        "severity": "high",
-        "category": "obfuscation",
-        "file": "aave-borrow.sh",
-        "line": 118
-      },
-      {
-        "rule_id": "regex_long_base64_literal",
-        "severity": "high",
-        "category": "obfuscation",
-        "file": "aave-status.sh",
-        "line": 50
-      },
-      {
-        "rule_id": "regex_long_base64_literal",
-        "severity": "high",
-        "category": "obfuscation",
-        "file": "aave-setup.sh",
-        "line": 204
-      }
-    ],
-    "total_files_scanned": 10
-  },
-  "verification_level": "full_pipeline",
-  "agent_audit": {
-    "agents_completed": 5,
-    "agents_required": 5,
-    "pipeline_run_at": "2026-03-04T21:43:26Z",
-    "agent_a": {
-      "signed": true,
-      "signed_at": "2026-03-04T21:43:26Z",
-      "comment": "Docs quality 10/10. README present. 12 features, 4 permissions claimed.",
-      "doc_quality_score": 10,
-      "claimed_permissions": [
-        "network access",
-        "system command execution",
-        "file system access",
-        "environment/secret access"
-      ]
-    },
-    "agent_b": {
-      "signed": true,
-      "signed_at": "2026-03-04T21:43:26Z",
-      "comment": "5 files analyzed. Found: 0 network, 0 file, 0 env, 0 system calls. Primary: shell.",
-      "files_analyzed": 5,
-      "capabilities_found": []
-    },
-    "agent_c_star": {
-      "signed": true,
-      "signed_at": "2026-03-04T21:43:26Z",
-      "comment": "5 findings: 0 critical, 5 high, 0 medium, 0 low. Obfuscation detected!. No injection.",
-      "total_findings": 5,
-      "severity_counts": {
-        "critical": 0,
-        "high": 5,
-        "medium": 0,
-        "low": 0,
-        "info": 0
-      }
-    },
-    "agent_d": {
-      "signed": true,
-      "signed_at": "2026-03-04T21:43:26Z",
-      "comment": "Score 85. 0 mismatches. Risk: medium. Safety overrides: none triggered.",
-      "score": 85,
-      "mismatches": 0,
-      "safety_overrides_applied": false
-    },
-    "agent_e": {
-      "signed": true,
-      "signed_at": "2026-03-04T21:43:26Z",
-      "comment": "Approved. Confidence 85%. No overrides.",
-      "approved": true,
-      "confidence": 85,
-      "override_reason": null
-    },
-    "manager_summary": "5/5 agents completed. Score: 85/100, Risk: medium. 0 mismatches, 5 scanner findings. Approved at 85% confidence. No safety overrides."
-  },
-  "installs": 11
+  "verification_level": "full_pipeline"
 }

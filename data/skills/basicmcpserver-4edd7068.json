@@ -4,6 +4,7 @@
   "description": "\ud0c0\uc785\uc2a4\ud06c\ub9bd\ud2b8\ub85c \uad6c\ud604\ud55c MCP \uc11c\ubc84 \uae30",
   "repo_url": "https://github.com/HIG52/basicMcpServer",
   "source_hub": "mcp_so",
+  "skill_type": "mcp_server",
   "owner": "HIG52",
   "stars": 0,
   "primary_language": "unknown",
@@ -21,14 +22,5 @@
     "severity_counts": {},
     "category_counts": {}
   },
-  "scan_date": "2026-02-28T04:14:41Z",
-  "status_cleared": {
-    "date": "2026-03-02T20:40:18.531782+00:00",
-    "previous_status": "pass",
-    "previous_score": 85,
-    "previous_risk": "info",
-    "verification_level": "scanner_only",
-    "reason": "SM cleanup: only full_pipeline pass is real pass. Needs re-verification."
-  },
-  "skill_type": "mcp_server"
+  "scan_date": "2026-02-28T04:14:41Z"
 }

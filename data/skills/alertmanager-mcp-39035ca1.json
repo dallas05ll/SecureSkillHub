@@ -1,0 +1,17 @@
+{
+  "id": "alertmanager-mcp-39035ca1",
+  "name": "alertmanager-mcp",
+  "description": "A Model Context Protocol (MCP) server that integrates with Prometheus Alertmanager",
+  "repo_url": "https://github.com/kaznak/alertmanager-mcp",
+  "source_hub": "mcp_so",
+  "skill_type": "mcp_server",
+  "owner": "kaznak",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null
+}

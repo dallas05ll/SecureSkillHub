@@ -7,99 +7,17 @@
   "skill_type": "agent_skill",
   "owner": "michaelboeding",
   "stars": 0,
-  "primary_language": "python",
+  "primary_language": "unknown",
   "tags": [
     "agent-skills",
-    "installs:9",
-    "data",
-    "data-ai",
-    "status-fail"
+    "dev-web-frontend",
+    "installs:9"
   ],
   "verification_status": "pass",
   "overall_score": 10,
   "risk_level": "critical",
   "verified_commit": "21436fb5019c6857ca5cac5ac7e00cc71bd49807",
   "scan_summary": null,
-  "repo_status": "available",
-  "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
-  "repo_check_error": null,
   "scan_date": "2026-03-04T19:53:26Z",
-  "findings_summary": {
-    "scanner_findings": 286,
-    "dangerous_calls": 41,
-    "network_ops": 0,
-    "file_ops": 161,
-    "env_access": 67,
-    "obfuscation": 15,
-    "injection_patterns": 2,
-    "mismatches": 0,
-    "undocumented_capabilities": 0,
-    "supervisor_approved": true,
-    "supervisor_confidence": 95
-  },
-  "verification_level": "full_pipeline",
-  "agent_audit": {
-    "agents_completed": 5,
-    "agents_required": 5,
-    "pipeline_run_at": "2026-03-04T19:53:26Z",
-    "agent_a": {
-      "signed": true,
-      "signed_at": "2026-03-04T19:53:26Z",
-      "comment": "Docs quality 10/10. README present. 12 features, 4 permissions claimed.",
-      "doc_quality_score": 10,
-      "claimed_permissions": [
-        "network access",
-        "system command execution",
-        "file system access",
-        "environment/secret access"
-      ]
-    },
-    "agent_b": {
-      "signed": true,
-      "signed_at": "2026-03-04T19:53:26Z",
-      "comment": "70 files analyzed. Found: 33 network, 88 file, 64 env, 34 system calls. Primary: python.",
-      "files_analyzed": 70,
-      "capabilities_found": [
-        "imports external dependencies",
-        "performs network operations",
-        "reads/writes files",
-        "reads environment values",
-        "executes system commands"
-      ]
-    },
-    "agent_c_star": {
-      "signed": true,
-      "signed_at": "2026-03-04T19:53:26Z",
-      "comment": "286 findings: 2 critical, 56 high, 67 medium, 161 low. Obfuscation detected!. Injection patterns found!.",
-      "total_findings": 286,
-      "severity_counts": {
-        "critical": 2,
-        "high": 56,
-        "medium": 67,
-        "low": 161,
-        "info": 0
-      }
-    },
-    "agent_d": {
-      "signed": true,
-      "signed_at": "2026-03-04T19:53:26Z",
-      "comment": "Score 10. 0 mismatches. Risk: critical. Safety overrides: applied.",
-      "score": 10,
-      "mismatches": 0,
-      "safety_overrides_applied": true
-    },
-    "agent_e": {
-      "signed": true,
-      "signed_at": "2026-03-04T19:53:26Z",
-      "comment": "Rejected. Confidence 95%. Deterministic override: injection patterns detected.",
-      "approved": false,
-      "confidence": 95,
-      "override_reason": "Deterministic override: injection patterns detected."
-    },
-    "manager_summary": "5/5 agents completed. Score: 10/100, Risk: critical. 0 mismatches, 286 scanner findings. Rejected at 95% confidence. Safety overrides triggered."
-  },
-  "pm_override": true,
-  "pm_override_reason": "FP: michaelboeding/skills — data-URI image embedding + base64 API I/O",
-  "pm_override_date": "2026-03-04T20:08:05.903346+00:00",
-  "installs": 9
+  "verification_level": "full_pipeline"
 }

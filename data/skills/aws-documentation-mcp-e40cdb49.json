@@ -1,12 +1,13 @@
 {
   "id": "aws-documentation-mcp-e40cdb49",
   "name": "aws-documentation-mcp",
-  "description": "AWS Documentation MCP Server - AWS公式ドキュメントを活用したMCPサーバー",
+  "description": "AWS Documentation MCP Server - AWS\u516c\u5f0f\u30c9\u30ad\u30e5\u30e1\u30f3\u30c8\u3092\u6d3b\u7528\u3057\u305fMCP\u30b5\u30fc\u30d0\u30fc",
   "repo_url": "https://github.com/enomoto11/aws-documentation-mcp",
   "source_hub": "mcp_so",
+  "skill_type": "mcp_server",
   "owner": "enomoto11",
   "stars": 0,
-  "primary_language": "python",
+  "primary_language": "unknown",
   "tags": [
     "integ",
     "integ-cloud",
@@ -26,124 +27,5 @@
     "category_counts": {}
   },
   "scan_date": "2026-03-05T00:47:45Z",
-  "status_cleared": {
-    "date": "2026-03-02T20:40:18.531782+00:00",
-    "previous_status": "pass",
-    "previous_score": 85,
-    "previous_risk": "info",
-    "verification_level": "scanner_only",
-    "reason": "SM cleanup: only full_pipeline pass is real pass. Needs re-verification."
-  },
-  "skill_type": "mcp_server",
-  "findings_summary": {
-    "scanner_findings": 3,
-    "dangerous_calls": 0,
-    "network_ops": 1,
-    "file_ops": 0,
-    "env_access": 1,
-    "obfuscation": 0,
-    "injection_patterns": 0,
-    "mismatches": 0,
-    "undocumented_capabilities": 0,
-    "supervisor_approved": true,
-    "supervisor_confidence": 91
-  },
-  "scan_report": {
-    "total_findings": 3,
-    "injection_patterns_count": 0,
-    "obfuscation_count": 0,
-    "obfuscation_high_risk_count": 0,
-    "dangerous_calls_count": 0,
-    "severity_counts": {
-      "critical": 0,
-      "high": 1,
-      "medium": 2,
-      "low": 0,
-      "info": 0
-    },
-    "category_counts": {
-      "suspicious_urls": 1,
-      "network_ops": 1,
-      "env_access": 1
-    },
-    "top_findings": [
-      {
-        "rule_id": "regex_localhost_non_std",
-        "severity": "high",
-        "category": "suspicious_urls",
-        "file": "README.md",
-        "line": 35
-      },
-      {
-        "rule_id": "regex_py_httpx",
-        "severity": "medium",
-        "category": "network_ops",
-        "file": "main.py",
-        "line": 33
-      },
-      {
-        "rule_id": "regex_py_dotenv_load",
-        "severity": "medium",
-        "category": "env_access",
-        "file": "main.py",
-        "line": 11
-      }
-    ],
-    "total_files_scanned": 3
-  },
-  "verification_level": "full_pipeline",
-  "agent_audit": {
-    "agents_completed": 5,
-    "agents_required": 5,
-    "pipeline_run_at": "2026-03-05T00:47:45Z",
-    "agent_a": {
-      "signed": true,
-      "signed_at": "2026-03-05T00:47:45Z",
-      "comment": "Docs quality 8/10. README present. 9 features, 2 permissions claimed.",
-      "doc_quality_score": 8,
-      "claimed_permissions": [
-        "network access",
-        "environment/secret access"
-      ]
-    },
-    "agent_b": {
-      "signed": true,
-      "signed_at": "2026-03-05T00:47:45Z",
-      "comment": "1 files analyzed. Found: 0 network, 0 file, 0 env, 0 system calls. Primary: python.",
-      "files_analyzed": 1,
-      "capabilities_found": [
-        "imports external dependencies"
-      ]
-    },
-    "agent_c_star": {
-      "signed": true,
-      "signed_at": "2026-03-05T00:47:45Z",
-      "comment": "3 findings: 0 critical, 1 high, 2 medium, 0 low. No obfuscation. No injection.",
-      "total_findings": 3,
-      "severity_counts": {
-        "critical": 0,
-        "high": 1,
-        "medium": 2,
-        "low": 0,
-        "info": 0
-      }
-    },
-    "agent_d": {
-      "signed": true,
-      "signed_at": "2026-03-05T00:47:45Z",
-      "comment": "Score 91. 0 mismatches. Risk: medium. Safety overrides: none triggered.",
-      "score": 91,
-      "mismatches": 0,
-      "safety_overrides_applied": false
-    },
-    "agent_e": {
-      "signed": true,
-      "signed_at": "2026-03-05T00:47:45Z",
-      "comment": "Approved. Confidence 91%. No overrides.",
-      "approved": true,
-      "confidence": 91,
-      "override_reason": null
-    },
-    "manager_summary": "5/5 agents completed. Score: 91/100, Risk: medium. 0 mismatches, 3 scanner findings. Approved at 91% confidence. No safety overrides."
-  }
+  "verification_level": "full_pipeline"
 }

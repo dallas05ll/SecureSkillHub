@@ -1,0 +1,23 @@
+{
+  "id": "web-search-fallback-2b53f5b8",
+  "name": "web-search-fallback",
+  "description": "Autonomous agent-based web search fallback for when WebSearch API fails or hits limits",
+  "repo_url": "https://github.com/bejranonda/llm-autonomous-agent-plugin-for-claude",
+  "source_hub": "skillsmp",
+  "skill_type": "agent_skill",
+  "owner": "bejranonda",
+  "stars": 17,
+  "primary_language": "unknown",
+  "tags": [
+    "agent-skills",
+    "dev-web-backend",
+    "installs:17"
+  ],
+  "verification_status": "pass",
+  "overall_score": 60,
+  "risk_level": "medium",
+  "verified_commit": "a3c2d0ca34c98ea5e4457998982aee163c92c393",
+  "scan_summary": null,
+  "scan_date": "2026-03-03T17:30:12Z",
+  "verification_level": "full_pipeline"
+}

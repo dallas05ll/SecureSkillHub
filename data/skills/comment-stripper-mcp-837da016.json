@@ -1,0 +1,17 @@
+{
+  "id": "comment-stripper-mcp-837da016",
+  "name": "comment-stripper-mcp",
+  "description": "A flexible MCP server that batch processes code files to remove comments across multiple programming languages. Currently supports JavaScript, TypeScript, and Vue files with regex-based pattern matching. Handles individual files, directories (including subdirectories), and text input. Built for clean code maintenance and preparation.",
+  "repo_url": "https://github.com/yhzion/comment-stripper-mcp",
+  "source_hub": "mcp_so",
+  "skill_type": "mcp_server",
+  "owner": "yhzion",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null
+}

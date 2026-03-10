@@ -1,0 +1,19 @@
+{
+  "id": "skill-a11y-audit-e2eb62e6",
+  "name": "skill-a11y-audit",
+  "description": "WCAG 2.1 AA accessibility audit skill for Claude Code, Codex, and other AI agents \u2014 axe-core, Lighthouse, configurable output",
+  "repo_url": "https://github.com/snapsynapse/skill-a11y-audit",
+  "source_hub": "github_search",
+  "skill_type": "agent_skill",
+  "owner": "snapsynapse",
+  "stars": 1,
+  "license": "mit",
+  "primary_language": "markdown",
+  "tags": [],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null,
+  "last_updated": "2026-03-03T22:25:44Z"
+}

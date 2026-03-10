@@ -1,0 +1,23 @@
+{
+  "id": "accessibility-992ebb9d",
+  "name": "accessibility",
+  "description": "Accessibility patterns for WCAG 2.2 compliance, keyboard focus management, and React Aria component patterns. Use when implementing screen reader support, keyboard navigation, ARIA patterns, focus traps, or accessible component libraries.",
+  "repo_url": "https://github.com/yonatangross/orchestkit",
+  "source_hub": "skillsmp",
+  "skill_type": "agent_skill",
+  "owner": "yonatangross",
+  "stars": 90,
+  "primary_language": "unknown",
+  "tags": [
+    "agent-skills",
+    "dev-web-frontend",
+    "installs:76"
+  ],
+  "verification_status": "pass",
+  "overall_score": 10,
+  "risk_level": "critical",
+  "verified_commit": "3be55a58e22b91955ae43cd9cd349c4f1b105c77",
+  "scan_summary": null,
+  "scan_date": "2026-03-03T14:50:32Z",
+  "verification_level": "full_pipeline"
+}

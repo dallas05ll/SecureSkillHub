@@ -1,0 +1,23 @@
+{
+  "id": "ipsw-f939262a",
+  "name": "ipsw",
+  "description": "Apple firmware and binary reverse engineering with the ipsw CLI tool. Use when analyzing iOS/macOS binaries, disassembling functions in dyld_shared_cache, dumping Objective-C headers from private frameworks, downloading IPSWs or kernelcaches, extracting entitlements, analyzing Mach-O files, or researching Apple security. Triggers on requests involving Apple RE, iOS internals, kernel analysis, KEXT extraction, or vulnerability research on Apple platforms.",
+  "repo_url": "https://github.com/blacktop/ipsw-skill",
+  "source_hub": "skillsmp",
+  "skill_type": "agent_skill",
+  "owner": "blacktop",
+  "stars": 43,
+  "primary_language": "unknown",
+  "tags": [
+    "agent-skills",
+    "security",
+    "installs:40"
+  ],
+  "verification_status": "pass",
+  "overall_score": 100,
+  "risk_level": "info",
+  "verified_commit": "84598a30c8cbd316fd0a287c6071c816b61f2f00",
+  "scan_summary": null,
+  "scan_date": "2026-03-03T14:58:37Z",
+  "verification_level": "full_pipeline"
+}

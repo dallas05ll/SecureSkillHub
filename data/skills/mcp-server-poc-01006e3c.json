@@ -1,0 +1,17 @@
+{
+  "id": "mcp-server-poc-01006e3c",
+  "name": "mcp-server-poc",
+  "description": "This project demonstrates how to create and use a Model Context Protocol (MCP) server that can provide custom tools and resources to AI assistants like Claude and others that support the MCP standard. The server includes: - Simple math operations (addition) - Dynamic greeting resource - Web crawling capability using the crawl4ai library",
+  "repo_url": "https://github.com/TarcisioPhilips/mcp-server-poc",
+  "source_hub": "mcp_so",
+  "skill_type": "mcp_server",
+  "owner": "TarcisioPhilips",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null
+}

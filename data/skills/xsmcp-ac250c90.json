@@ -1,12 +1,13 @@
 {
   "id": "xsmcp-ac250c90",
   "name": "xsmcp",
-  "description": "🤖📎 extra-small MCP SDK for quick client/server builds.",
+  "description": "\ud83e\udd16\ud83d\udcce extra-small MCP SDK for quick client/server builds.",
   "repo_url": "https://github.com/moeru-ai/xsmcp",
   "source_hub": "mcp_so",
+  "skill_type": "mcp_server",
   "owner": "moeru-ai",
   "stars": 47,
-  "primary_language": "typescript",
+  "primary_language": "unknown",
   "tags": [
     "dev"
   ],
@@ -21,88 +22,5 @@
     "category_counts": {}
   },
   "scan_date": "2026-03-03T14:57:05Z",
-  "verification_level": "full_pipeline",
-  "status_cleared": {
-    "date": "2026-03-02T20:40:18.531782+00:00",
-    "previous_status": "pass",
-    "previous_score": 85,
-    "previous_risk": "info",
-    "verification_level": "scanner_only",
-    "reason": "SM cleanup: only full_pipeline pass is real pass. Needs re-verification."
-  },
-  "findings_summary": {
-    "scanner_findings": 20,
-    "dangerous_calls": 0,
-    "network_ops": 9,
-    "file_ops": 0,
-    "env_access": 0,
-    "obfuscation": 7,
-    "injection_patterns": 0,
-    "mismatches": 0,
-    "undocumented_capabilities": 0,
-    "supervisor_approved": true,
-    "supervisor_confidence": 54
-  },
-  "agent_audit": {
-    "agents_completed": 5,
-    "agents_required": 5,
-    "pipeline_run_at": "2026-03-03T14:57:05Z",
-    "agent_a": {
-      "signed": true,
-      "signed_at": "2026-03-03T14:57:05Z",
-      "comment": "Docs quality 7/10. README present. 3 features, 2 permissions claimed.",
-      "doc_quality_score": 7,
-      "claimed_permissions": [
-        "network access",
-        "file system access"
-      ]
-    },
-    "agent_b": {
-      "signed": true,
-      "signed_at": "2026-03-03T14:57:05Z",
-      "comment": "82 files analyzed. Found: 6 network, 0 file, 0 env, 0 system calls. Primary: typescript.",
-      "files_analyzed": 82,
-      "capabilities_found": [
-        "imports external dependencies",
-        "performs network operations"
-      ]
-    },
-    "agent_c_star": {
-      "signed": true,
-      "signed_at": "2026-03-03T14:57:05Z",
-      "comment": "20 findings: 0 critical, 11 high, 9 medium, 0 low. Obfuscation detected!. No injection.",
-      "total_findings": 20,
-      "severity_counts": {
-        "critical": 0,
-        "high": 11,
-        "medium": 9,
-        "low": 0,
-        "info": 0
-      }
-    },
-    "agent_d": {
-      "signed": true,
-      "signed_at": "2026-03-03T14:57:05Z",
-      "comment": "Score 54. 0 mismatches. Risk: medium. Safety overrides: none triggered.",
-      "score": 54,
-      "mismatches": 0,
-      "safety_overrides_applied": false
-    },
-    "agent_e": {
-      "signed": true,
-      "signed_at": "2026-03-03T14:57:05Z",
-      "comment": "Rejected. Confidence 54%. No overrides.",
-      "approved": false,
-      "confidence": 54,
-      "override_reason": null
-    },
-    "manager_summary": "5/5 agents completed. Score: 54/100, Risk: medium. 0 mismatches, 20 scanner findings. Rejected at 54% confidence. No safety overrides."
-  },
-  "pm_override": {
-    "action": "manual_review_to_pass",
-    "reason": "PM override: score 54 with low-risk obfuscation (minified JS/vendored), 0 injection, 0 critical. Known scoring bug pattern.",
-    "override_by": "PM",
-    "date": "2026-03-03T15:04:06.548466+00:00"
-  },
-  "skill_type": "mcp_server"
+  "verification_level": "full_pipeline"
 }

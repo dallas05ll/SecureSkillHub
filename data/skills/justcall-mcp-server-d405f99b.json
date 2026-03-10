@@ -1,0 +1,17 @@
+{
+  "id": "justcall-mcp-server-d405f99b",
+  "name": "justcall-mcp-server",
+  "description": "The JustCall Model Context Protocol (MCP) Server lets Large Language Models (LLMs) and AI agents make real-world voice calls and send SMS directly through JustCall\u2019s APIs \u2014 securely, contextually, and programmatically.\r\n\r\nIt provides a function-calling interface for conversational AI systems, enabling:\r\n\r\n    \ud83d\udcde AI-powered calling: Let your LLM initiate, manage, or transcribe calls using JustCall.\r\n    \ud83d\udcac Smart messaging: Allow your AI agent to send or respond to SMS within conversations.\r\n    ...",
+  "repo_url": "https://github.com/saaslabsco/justcall-mcp-server",
+  "source_hub": "mcp_so",
+  "skill_type": "mcp_server",
+  "owner": "saaslabsco",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null
+}

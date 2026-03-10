@@ -7,102 +7,17 @@
   "skill_type": "agent_skill",
   "owner": "basher83",
   "stars": 0,
-  "primary_language": "python",
+  "primary_language": "unknown",
   "tags": [
     "agent-skills",
-    "installs:13",
-    "prod",
-    "prod-docs",
-    "status-pass"
+    "dev-devops",
+    "installs:13"
   ],
   "verification_status": "pass",
   "overall_score": 60,
   "risk_level": "medium",
   "verified_commit": "d9baa9d2f2c5e80373fbb54ca3f3d1a12552df16",
   "scan_summary": null,
-  "repo_status": "available",
-  "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
-  "repo_check_error": null,
   "scan_date": "2026-03-04T19:57:08Z",
-  "findings_summary": {
-    "scanner_findings": 565,
-    "dangerous_calls": 240,
-    "network_ops": 63,
-    "file_ops": 131,
-    "env_access": 94,
-    "obfuscation": 2,
-    "injection_patterns": 0,
-    "mismatches": 0,
-    "undocumented_capabilities": 0,
-    "supervisor_approved": true,
-    "supervisor_confidence": 60
-  },
-  "verification_level": "full_pipeline",
-  "agent_audit": {
-    "agents_completed": 5,
-    "agents_required": 5,
-    "pipeline_run_at": "2026-03-04T19:57:08Z",
-    "agent_a": {
-      "signed": true,
-      "signed_at": "2026-03-04T19:57:08Z",
-      "comment": "Docs quality 10/10. README present. 12 features, 4 permissions claimed.",
-      "doc_quality_score": 10,
-      "claimed_permissions": [
-        "network access",
-        "system command execution",
-        "file system access",
-        "environment/secret access"
-      ]
-    },
-    "agent_b": {
-      "signed": true,
-      "signed_at": "2026-03-04T19:57:08Z",
-      "comment": "121 files analyzed. Found: 2 network, 83 file, 37 env, 15 system calls. Primary: python.",
-      "files_analyzed": 121,
-      "capabilities_found": [
-        "imports external dependencies",
-        "performs network operations",
-        "reads/writes files",
-        "reads environment values",
-        "executes system commands"
-      ]
-    },
-    "agent_c_star": {
-      "signed": true,
-      "signed_at": "2026-03-04T19:57:08Z",
-      "comment": "565 findings: 0 critical, 277 high, 157 medium, 131 low. Obfuscation detected!. No injection.",
-      "total_findings": 565,
-      "severity_counts": {
-        "critical": 0,
-        "high": 277,
-        "medium": 157,
-        "low": 131,
-        "info": 0
-      }
-    },
-    "agent_d": {
-      "signed": true,
-      "signed_at": "2026-03-04T19:57:08Z",
-      "comment": "Score 60. 0 mismatches. Risk: medium. Safety overrides: none triggered.",
-      "score": 60,
-      "mismatches": 0,
-      "safety_overrides_applied": false
-    },
-    "agent_e": {
-      "signed": true,
-      "signed_at": "2026-03-04T19:57:08Z",
-      "comment": "Rejected. Confidence 60%. No overrides.",
-      "approved": false,
-      "confidence": 60,
-      "override_reason": null
-    },
-    "manager_summary": "5/5 agents completed. Score: 60/100, Risk: medium. 0 mismatches, 565 scanner findings. Rejected at 60% confidence. No safety overrides.",
-    "auto_clear": {
-      "applied": true,
-      "reason": "Auto-clear Cat 1: clean profile (0 inj, 0 obf_hr, 0 crit, score=60)",
-      "original_status": "manual_review",
-      "original_score": 60
-    }
-  },
-  "installs": 13
+  "verification_level": "full_pipeline"
 }

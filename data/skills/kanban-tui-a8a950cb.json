@@ -1,0 +1,23 @@
+{
+  "id": "kanban-tui-a8a950cb",
+  "name": "kanban-tui",
+  "description": "Comprehensive kanban board and task management via ktui CLI. Use for project tracking, todo lists, task dependencies, workflow automation, and board management. Activates when user mentions boards, tasks, kanban, or project management. If the `ktui` command is not available, but `uv` is available utilize `uvx kanban-tui` instead.",
+  "repo_url": "https://github.com/zaloog/kanban-tui",
+  "source_hub": "skillsmp",
+  "skill_type": "agent_skill",
+  "owner": "zaloog",
+  "stars": 210,
+  "primary_language": "unknown",
+  "tags": [
+    "agent-skills",
+    "dev-web-frontend",
+    "installs:198"
+  ],
+  "verification_status": "pass",
+  "overall_score": 60,
+  "risk_level": "medium",
+  "verified_commit": "2ecf2860e3f0ebc8112a853b44ced25ac23b93f7",
+  "scan_summary": null,
+  "scan_date": "2026-03-03T05:15:44Z",
+  "verification_level": "full_pipeline"
+}

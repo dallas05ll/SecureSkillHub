@@ -1,0 +1,22 @@
+{
+  "id": "textum-b8ccae3d",
+  "name": "textum",
+  "description": "Textum PRD\u2192Scaffold\u2192Story workflow for Codex with low-noise outputs and gate checks.",
+  "repo_url": "https://github.com/snakeying/textum",
+  "source_hub": "skillsmp",
+  "skill_type": "agent_skill",
+  "owner": "snakeying",
+  "stars": 41,
+  "primary_language": "unknown",
+  "tags": [
+    "agent-skills",
+    "installs:41"
+  ],
+  "verification_status": "pass",
+  "overall_score": 83,
+  "risk_level": "medium",
+  "verified_commit": "bdf874634b741dcef879369390975c45dd8f0081",
+  "scan_summary": null,
+  "scan_date": "2026-03-03T14:58:48Z",
+  "verification_level": "full_pipeline"
+}

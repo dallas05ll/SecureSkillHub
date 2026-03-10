@@ -1,9 +1,10 @@
 {
   "id": "mcp-demo-c8fb17aa",
   "name": "mcp-demo",
-  "description": "使用百度AI开放平台MCP Server的demo",
+  "description": "\u4f7f\u7528\u767e\u5ea6AI\u5f00\u653e\u5e73\u53f0MCP Server\u7684demo",
   "repo_url": "https://github.com/Baidu-AIP/mcp-demo",
   "source_hub": "mcp_so",
+  "skill_type": "mcp_server",
   "owner": "Baidu-AIP",
   "stars": 0,
   "primary_language": "unknown",
@@ -21,14 +22,5 @@
     "severity_counts": {},
     "category_counts": {}
   },
-  "scan_date": "2026-02-28T04:14:40Z",
-  "status_cleared": {
-    "date": "2026-03-02T20:40:18.531782+00:00",
-    "previous_status": "pass",
-    "previous_score": 85,
-    "previous_risk": "info",
-    "verification_level": "scanner_only",
-    "reason": "SM cleanup: only full_pipeline pass is real pass. Needs re-verification."
-  },
-  "skill_type": "mcp_server"
+  "scan_date": "2026-02-28T04:14:40Z"
 }

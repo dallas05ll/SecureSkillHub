@@ -7,164 +7,17 @@
   "skill_type": "agent_skill",
   "owner": "cloudcarver",
   "stars": 0,
-  "primary_language": "go",
+  "primary_language": "unknown",
   "tags": [
     "agent-skills",
-    "installs:12",
-    "data",
-    "data-db",
-    "status-pass"
+    "dev-web-frontend",
+    "installs:12"
   ],
   "verification_status": "pass",
   "overall_score": 85,
   "risk_level": "medium",
   "verified_commit": "019a330ec838f609843b980178ee7acaeb7efa1e",
   "scan_summary": null,
-  "repo_status": "available",
-  "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
-  "repo_check_error": null,
   "scan_date": "2026-03-05T00:46:47Z",
-  "findings_summary": {
-    "scanner_findings": 7,
-    "dangerous_calls": 0,
-    "network_ops": 0,
-    "file_ops": 0,
-    "env_access": 4,
-    "obfuscation": 2,
-    "injection_patterns": 0,
-    "mismatches": 0,
-    "undocumented_capabilities": 0,
-    "supervisor_approved": true,
-    "supervisor_confidence": 85
-  },
-  "scan_report": {
-    "total_findings": 7,
-    "injection_patterns_count": 0,
-    "obfuscation_count": 2,
-    "obfuscation_high_risk_count": 0,
-    "dangerous_calls_count": 0,
-    "severity_counts": {
-      "critical": 0,
-      "high": 3,
-      "medium": 4,
-      "low": 0,
-      "info": 0
-    },
-    "category_counts": {
-      "env_access": 4,
-      "suspicious_urls": 1,
-      "obfuscation": 2
-    },
-    "top_findings": [
-      {
-        "rule_id": "regex_generic_password",
-        "severity": "medium",
-        "category": "env_access",
-        "file": "README.zh.md",
-        "line": 75
-      },
-      {
-        "rule_id": "regex_generic_password",
-        "severity": "medium",
-        "category": "env_access",
-        "file": "README.md",
-        "line": 94
-      },
-      {
-        "rule_id": "regex_generic_password",
-        "severity": "medium",
-        "category": "env_access",
-        "file": "cmd/anclax/initFiles/README.md",
-        "line": 29
-      },
-      {
-        "rule_id": "regex_localhost_non_std",
-        "severity": "high",
-        "category": "suspicious_urls",
-        "file": "web/README.md",
-        "line": 17
-      },
-      {
-        "rule_id": "regex_js_btoa",
-        "severity": "high",
-        "category": "obfuscation",
-        "file": "web/api-gen/core/request.ts",
-        "line": 51
-      },
-      {
-        "rule_id": "regex_js_buffer_from",
-        "severity": "high",
-        "category": "obfuscation",
-        "file": "web/api-gen/core/request.ts",
-        "line": 54
-      },
-      {
-        "rule_id": "regex_generic_password",
-        "severity": "medium",
-        "category": "env_access",
-        "file": "examples/simple/README.md",
-        "line": 29
-      }
-    ],
-    "total_files_scanned": 68
-  },
-  "verification_level": "full_pipeline",
-  "agent_audit": {
-    "agents_completed": 5,
-    "agents_required": 5,
-    "pipeline_run_at": "2026-03-05T00:46:47Z",
-    "agent_a": {
-      "signed": true,
-      "signed_at": "2026-03-05T00:46:47Z",
-      "comment": "Docs quality 10/10. README present. 12 features, 4 permissions claimed.",
-      "doc_quality_score": 10,
-      "claimed_permissions": [
-        "network access",
-        "system command execution",
-        "file system access",
-        "environment/secret access"
-      ]
-    },
-    "agent_b": {
-      "signed": true,
-      "signed_at": "2026-03-05T00:46:47Z",
-      "comment": "158 files analyzed. Found: 10 network, 0 file, 0 env, 0 system calls. Primary: go.",
-      "files_analyzed": 158,
-      "capabilities_found": [
-        "imports external dependencies",
-        "performs network operations"
-      ]
-    },
-    "agent_c_star": {
-      "signed": true,
-      "signed_at": "2026-03-05T00:46:47Z",
-      "comment": "7 findings: 0 critical, 3 high, 4 medium, 0 low. Obfuscation detected!. No injection.",
-      "total_findings": 7,
-      "severity_counts": {
-        "critical": 0,
-        "high": 3,
-        "medium": 4,
-        "low": 0,
-        "info": 0
-      }
-    },
-    "agent_d": {
-      "signed": true,
-      "signed_at": "2026-03-05T00:46:47Z",
-      "comment": "Score 85. 0 mismatches. Risk: medium. Safety overrides: none triggered.",
-      "score": 85,
-      "mismatches": 0,
-      "safety_overrides_applied": false
-    },
-    "agent_e": {
-      "signed": true,
-      "signed_at": "2026-03-05T00:46:47Z",
-      "comment": "Approved. Confidence 85%. No overrides.",
-      "approved": true,
-      "confidence": 85,
-      "override_reason": null
-    },
-    "manager_summary": "5/5 agents completed. Score: 85/100, Risk: medium. 0 mismatches, 7 scanner findings. Approved at 85% confidence. No safety overrides."
-  },
-  "installs": 12
+  "verification_level": "full_pipeline"
 }

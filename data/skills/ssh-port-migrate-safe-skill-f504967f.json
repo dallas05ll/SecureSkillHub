@@ -1,0 +1,19 @@
+{
+  "id": "ssh-port-migrate-safe-skill-f504967f",
+  "name": "ssh-port-migrate-safe-skill",
+  "description": "Backup-first SSH port migration skill to move off port 22 safely with two-phase rollout, validation, firewall sync, and rollback.",
+  "repo_url": "https://github.com/Arianassskm/ssh-port-migrate-safe-skill",
+  "source_hub": "github_search",
+  "skill_type": "agent_skill",
+  "owner": "Arianassskm",
+  "stars": 0,
+  "license": "mit",
+  "primary_language": "markdown",
+  "tags": [],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null,
+  "last_updated": "2026-02-25T18:04:56Z"
+}

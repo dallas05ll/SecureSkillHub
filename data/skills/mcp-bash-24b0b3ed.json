@@ -1,0 +1,17 @@
+{
+  "id": "mcp-bash-24b0b3ed",
+  "name": "mcp-bash",
+  "description": "A simple model context protocol (MCP) server that allows Claude Desktop or other MCP aware clients to run Bash commands on your local machine.",
+  "repo_url": "https://github.com/patrickomatik/mcp-bash",
+  "source_hub": "mcp_so",
+  "skill_type": "mcp_server",
+  "owner": "patrickomatik",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null
+}

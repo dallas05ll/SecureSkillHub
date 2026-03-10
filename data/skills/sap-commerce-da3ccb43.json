@@ -1,0 +1,23 @@
+{
+  "id": "sap-commerce-da3ccb43",
+  "name": "sap-commerce",
+  "description": "Provides comprehensive SAP Commerce Cloud (formerly Hybris) development guidance including type system modeling, service layer architecture, data management with ImpEx and FlexibleSearch, OCC API customization, B2C/B2B accelerator patterns, CronJobs, business processes, Solr search, promotions, caching, and Backoffice configuration. Use when the user asks to \"create SAP Commerce extensions\", \"define item types in items.xml\", \"write ImpEx scripts\", \"implement service layer components (facades/...",
+  "repo_url": "https://github.com/emenowicz/sap-commerce-skill",
+  "source_hub": "skillsmp",
+  "skill_type": "agent_skill",
+  "owner": "emenowicz",
+  "stars": 4,
+  "primary_language": "unknown",
+  "tags": [
+    "agent-skills",
+    "dev-web-frontend",
+    "installs:10"
+  ],
+  "verification_status": "pass",
+  "overall_score": 86,
+  "risk_level": "medium",
+  "verified_commit": "eec85e6de3ae005341eb4ce6ce17b3c99ef84305",
+  "scan_summary": null,
+  "scan_date": "2026-03-03T17:56:02Z",
+  "verification_level": "full_pipeline"
+}

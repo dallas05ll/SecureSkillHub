@@ -4,6 +4,7 @@
   "description": "MCP \u0441\u0435\u0440\u0432\u0435\u0440 \u0434\u043b\u044f \u0440\u043e\u0431\u043e\u0442\u0438 \u0437 API Prom.ua",
   "repo_url": "https://github.com/bigcatchkm/mcp-server-promua",
   "source_hub": "mcp_so",
+  "skill_type": "mcp_server",
   "owner": "bigcatchkm",
   "stars": 0,
   "primary_language": "unknown",
@@ -20,14 +21,5 @@
     "severity_counts": {},
     "category_counts": {}
   },
-  "scan_date": "2026-02-28T04:14:42Z",
-  "status_cleared": {
-    "date": "2026-03-02T20:40:18.531782+00:00",
-    "previous_status": "pass",
-    "previous_score": 85,
-    "previous_risk": "info",
-    "verification_level": "scanner_only",
-    "reason": "SM cleanup: only full_pipeline pass is real pass. Needs re-verification."
-  },
-  "skill_type": "mcp_server"
+  "scan_date": "2026-02-28T04:14:42Z"
 }

@@ -4,9 +4,10 @@
   "description": "A Model Context Protocol (MCP) server enabling AI assistants to interact with Outline documentation services.",
   "repo_url": "https://github.com/Vortiago/mcp-outline",
   "source_hub": "mcp_so",
+  "skill_type": "mcp_server",
   "owner": "Vortiago",
   "stars": 102,
-  "primary_language": "python",
+  "primary_language": "unknown",
   "tags": [
     "prod",
     "prod-docs"
@@ -22,92 +23,5 @@
     "category_counts": {}
   },
   "scan_date": "2026-03-03T14:50:00Z",
-  "verification_level": "full_pipeline",
-  "status_cleared": {
-    "date": "2026-03-02T20:40:18.531782+00:00",
-    "previous_status": "pass",
-    "previous_score": 85,
-    "previous_risk": "info",
-    "verification_level": "scanner_only",
-    "reason": "SM cleanup: only full_pipeline pass is real pass. Needs re-verification."
-  },
-  "findings_summary": {
-    "scanner_findings": 149,
-    "dangerous_calls": 7,
-    "network_ops": 17,
-    "file_ops": 4,
-    "env_access": 98,
-    "obfuscation": 6,
-    "injection_patterns": 0,
-    "mismatches": 0,
-    "undocumented_capabilities": 0,
-    "supervisor_approved": true,
-    "supervisor_confidence": 50
-  },
-  "agent_audit": {
-    "agents_completed": 5,
-    "agents_required": 5,
-    "pipeline_run_at": "2026-03-03T14:50:00Z",
-    "agent_a": {
-      "signed": true,
-      "signed_at": "2026-03-03T14:50:00Z",
-      "comment": "Docs quality 9/10. README present. 12 features, 4 permissions claimed.",
-      "doc_quality_score": 9,
-      "claimed_permissions": [
-        "network access",
-        "system command execution",
-        "file system access",
-        "environment/secret access"
-      ]
-    },
-    "agent_b": {
-      "signed": true,
-      "signed_at": "2026-03-03T14:50:00Z",
-      "comment": "75 files analyzed. Found: 12 network, 0 file, 68 env, 7 system calls. Primary: python.",
-      "files_analyzed": 75,
-      "capabilities_found": [
-        "imports external dependencies",
-        "performs network operations",
-        "reads environment values",
-        "executes system commands"
-      ]
-    },
-    "agent_c_star": {
-      "signed": true,
-      "signed_at": "2026-03-03T14:50:00Z",
-      "comment": "149 findings: 0 critical, 30 high, 115 medium, 4 low. Obfuscation detected!. No injection.",
-      "total_findings": 149,
-      "severity_counts": {
-        "critical": 0,
-        "high": 30,
-        "medium": 115,
-        "low": 4,
-        "info": 0
-      }
-    },
-    "agent_d": {
-      "signed": true,
-      "signed_at": "2026-03-03T14:50:00Z",
-      "comment": "Score 30. 0 mismatches. Risk: medium. Safety overrides: none triggered.",
-      "score": 30,
-      "mismatches": 0,
-      "safety_overrides_applied": false
-    },
-    "agent_e": {
-      "signed": true,
-      "signed_at": "2026-03-03T14:50:00Z",
-      "comment": "Rejected. Confidence 50%. No overrides.",
-      "approved": false,
-      "confidence": 50,
-      "override_reason": null
-    },
-    "manager_summary": "5/5 agents completed. Score: 30/100, Risk: medium. 0 mismatches, 149 scanner findings. Rejected at 50% confidence. No safety overrides."
-  },
-  "pm_override": {
-    "action": "fail_to_pass",
-    "reason": "PM override: score 30 with low-risk obfuscation (minified JS/vendored), 0 injection, 0 critical. Known scoring bug pattern.",
-    "override_by": "PM",
-    "date": "2026-03-03T15:04:06.548466+00:00"
-  },
-  "skill_type": "mcp_server"
+  "verification_level": "full_pipeline"
 }

@@ -1,0 +1,17 @@
+{
+  "id": "mcp-code-checker-3484b3e7",
+  "name": "mcp-code-checker",
+  "description": "MCP server providing code quality checks (pylint and pytest) with smart LLM-friendly prompts for analysis and fixes. Enables Claude and other AI assistants to analyze your code and suggest improvements.",
+  "repo_url": "https://github.com/MarcusJellinghaus/mcp-code-checker",
+  "source_hub": "mcp_so",
+  "skill_type": "mcp_server",
+  "owner": "MarcusJellinghaus",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null
+}

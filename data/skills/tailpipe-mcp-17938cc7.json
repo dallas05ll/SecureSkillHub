@@ -4,9 +4,10 @@
   "description": "Enable AI assistants to explore and query your Tailpipe data!",
   "repo_url": "https://github.com/turbot/tailpipe-mcp",
   "source_hub": "mcp_so",
+  "skill_type": "mcp_server",
   "owner": "turbot",
   "stars": 7,
-  "primary_language": "typescript",
+  "primary_language": "unknown",
   "tags": [
     "data",
     "data-ai"
@@ -22,90 +23,5 @@
     "category_counts": {}
   },
   "scan_date": "2026-03-03T17:49:31Z",
-  "verification_level": "full_pipeline",
-  "status_cleared": {
-    "date": "2026-03-02T20:40:18.531782+00:00",
-    "previous_status": "pass",
-    "previous_score": 85,
-    "previous_risk": "info",
-    "verification_level": "scanner_only",
-    "reason": "SM cleanup: only full_pipeline pass is real pass. Needs re-verification."
-  },
-  "findings_summary": {
-    "scanner_findings": 22,
-    "dangerous_calls": 0,
-    "network_ops": 0,
-    "file_ops": 0,
-    "env_access": 22,
-    "obfuscation": 0,
-    "injection_patterns": 0,
-    "mismatches": 0,
-    "undocumented_capabilities": 0,
-    "supervisor_approved": true,
-    "supervisor_confidence": 78
-  },
-  "agent_audit": {
-    "agents_completed": 5,
-    "agents_required": 5,
-    "pipeline_run_at": "2026-03-03T17:49:31Z",
-    "agent_a": {
-      "signed": true,
-      "signed_at": "2026-03-03T17:49:31Z",
-      "comment": "Docs quality 9/10. README present. 12 features, 4 permissions claimed.",
-      "doc_quality_score": 9,
-      "claimed_permissions": [
-        "network access",
-        "system command execution",
-        "file system access",
-        "environment/secret access"
-      ]
-    },
-    "agent_b": {
-      "signed": true,
-      "signed_at": "2026-03-03T17:49:31Z",
-      "comment": "42 files analyzed. Found: 0 network, 0 file, 22 env, 0 system calls. Primary: typescript.",
-      "files_analyzed": 42,
-      "capabilities_found": [
-        "imports external dependencies",
-        "reads environment values"
-      ]
-    },
-    "agent_c_star": {
-      "signed": true,
-      "signed_at": "2026-03-03T17:49:31Z",
-      "comment": "22 findings: 0 critical, 0 high, 22 medium, 0 low. No obfuscation. No injection.",
-      "total_findings": 22,
-      "severity_counts": {
-        "critical": 0,
-        "high": 0,
-        "medium": 22,
-        "low": 0,
-        "info": 0
-      }
-    },
-    "agent_d": {
-      "signed": true,
-      "signed_at": "2026-03-03T17:49:31Z",
-      "comment": "Score 78. 0 mismatches. Risk: medium. Safety overrides: none triggered.",
-      "score": 78,
-      "mismatches": 0,
-      "safety_overrides_applied": false
-    },
-    "agent_e": {
-      "signed": true,
-      "signed_at": "2026-03-03T17:49:31Z",
-      "comment": "Rejected. Confidence 78%. No overrides.",
-      "approved": false,
-      "confidence": 78,
-      "override_reason": null
-    },
-    "manager_summary": "5/5 agents completed. Score: 78/100, Risk: medium. 0 mismatches, 22 scanner findings. Rejected at 78% confidence. No safety overrides.",
-    "auto_clear": {
-      "applied": true,
-      "reason": "Auto-clear Cat 1: clean profile (0 inj, 0 obf_hr, 0 crit, score=78)",
-      "original_status": "manual_review",
-      "original_score": 78
-    }
-  },
-  "skill_type": "mcp_server"
+  "verification_level": "full_pipeline"
 }

@@ -1,12 +1,13 @@
 {
   "id": "crawlbase-mcp-6a88a5bf",
   "name": "crawlbase-mcp",
-  "description": "Crawlbase Web MCP Server (Model Context Protocol) connects AI agents and large language models (LLMs) with real-time web data. Built on Crawlbase’s proven web scraping and crawling infrastructure, it handles JavaScript rendering, anti-bot protection, and web data extraction at scale — powering Claude, Cursor, and Windsurf. It delivers a reliable, production-ready pipeline of live, structured data for AI workflows and intelligent applications.",
+  "description": "Crawlbase Web MCP Server (Model Context Protocol) connects AI agents and large language models (LLMs) with real-time web data. Built on Crawlbase\u2019s proven web scraping and crawling infrastructure, it handles JavaScript rendering, anti-bot protection, and web data extraction at scale \u2014 powering Claude, Cursor, and Windsurf. It delivers a reliable, production-ready pipeline of live, structured data for AI workflows and intelligent applications.",
   "repo_url": "https://github.com/crawlbase/crawlbase-mcp",
   "source_hub": "mcp_so",
+  "skill_type": "mcp_server",
   "owner": "crawlbase",
   "stars": 49,
-  "primary_language": "javascript",
+  "primary_language": "unknown",
   "tags": [
     "dev",
     "dev-devops",
@@ -24,99 +25,5 @@
     "category_counts": {}
   },
   "scan_date": "2026-03-01T06:03:03Z",
-  "verification_level": "full_pipeline",
-  "findings_summary": {
-    "scanner_findings": 7,
-    "dangerous_calls": 0,
-    "network_ops": 2,
-    "file_ops": 0,
-    "env_access": 4,
-    "obfuscation": 0,
-    "injection_patterns": 0,
-    "mismatches": 0,
-    "undocumented_capabilities": 0,
-    "supervisor_approved": true,
-    "supervisor_confidence": 95,
-    "pm_review": {
-      "reviewed_at": "2026-03-01T06:14:16Z",
-      "reviewer": "pm_dual_agent",
-      "previous_status": "manual_review",
-      "decision": "fail",
-      "reason": "PM final decision: fail due to high-risk scanner findings.",
-      "mode": "run-report",
-      "evidence": {
-        "score": 100,
-        "risk_level": "high",
-        "high_findings": 1,
-        "critical_findings": 0,
-        "obfuscation_high_risk_count": 0,
-        "injection_patterns_count": 0,
-        "repo_unavailable": false
-      }
-    },
-    "reassessed": true,
-    "reassessed_at": "2026-03-01T21:16:57Z",
-    "reassessment_reason": "Scoring logic fixed: scanner_penalty capped at 40, risk=HIGH from documented dangerous_calls no longer blocks PASS",
-    "previous_status": "fail",
-    "previous_score": 100
-  },
-  "agent_audit": {
-    "agents_completed": 5,
-    "agents_required": 5,
-    "pipeline_run_at": "2026-03-01T06:03:03Z",
-    "agent_a": {
-      "signed": true,
-      "signed_at": "2026-03-01T06:03:03Z",
-      "comment": "Docs quality 9/10. README present. 12 features, 4 permissions claimed.",
-      "doc_quality_score": 9,
-      "claimed_permissions": [
-        "network access",
-        "system command execution",
-        "file system access",
-        "environment/secret access"
-      ]
-    },
-    "agent_b": {
-      "signed": true,
-      "signed_at": "2026-03-01T06:03:03Z",
-      "comment": "13 files analyzed. Found: 2 network, 0 file, 4 env, 0 system calls. Primary: javascript.",
-      "files_analyzed": 13,
-      "capabilities_found": [
-        "imports external dependencies",
-        "performs network operations",
-        "reads environment values"
-      ]
-    },
-    "agent_c_star": {
-      "signed": true,
-      "signed_at": "2026-03-01T06:03:03Z",
-      "comment": "7 findings: 0 critical, 1 high, 6 medium, 0 low. No obfuscation. No injection.",
-      "total_findings": 7,
-      "severity_counts": {
-        "critical": 0,
-        "high": 1,
-        "medium": 6,
-        "low": 0,
-        "info": 0
-      }
-    },
-    "agent_d": {
-      "signed": true,
-      "signed_at": "2026-03-01T06:03:03Z",
-      "comment": "Score 100. 0 mismatches. Risk: high. Safety overrides: none triggered.",
-      "score": 100,
-      "mismatches": 0,
-      "safety_overrides_applied": false
-    },
-    "agent_e": {
-      "signed": true,
-      "signed_at": "2026-03-01T06:03:03Z",
-      "comment": "Rejected. Confidence 95%. No overrides.",
-      "approved": false,
-      "confidence": 95,
-      "override_reason": null
-    },
-    "manager_summary": "5/5 agents completed. Score: 100/100, Risk: high. 0 mismatches, 7 scanner findings. Rejected at 95% confidence. No safety overrides.\n[2026-03-01T06:14:16Z] PM review: fail. PM final decision: fail due to high-risk scanner findings."
-  },
-  "skill_type": "mcp_server"
+  "verification_level": "full_pipeline"
 }

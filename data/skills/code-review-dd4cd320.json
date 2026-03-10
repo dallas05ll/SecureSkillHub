@@ -1,0 +1,22 @@
+{
+  "id": "code-review-dd4cd320",
+  "name": "code-review",
+  "description": "[Skill] Perform thorough code reviews focusing on unused code, duplications, coding patterns, bugs, and optimizations. Use when user wants code reviewed or audited. Read-only - outputs findings without making changes.",
+  "repo_url": "https://github.com/weaverse/.claude",
+  "source_hub": "skillsmp",
+  "skill_type": "agent_skill",
+  "owner": "weaverse",
+  "stars": 76,
+  "primary_language": "unknown",
+  "tags": [
+    "agent-skills",
+    "installs:76"
+  ],
+  "verification_status": "pass",
+  "overall_score": 83,
+  "risk_level": "medium",
+  "verified_commit": "54c48d00f7c9c6f0e97689b5d70e60f466fc09a6",
+  "scan_summary": null,
+  "scan_date": "2026-03-03T14:51:35Z",
+  "verification_level": "full_pipeline"
+}

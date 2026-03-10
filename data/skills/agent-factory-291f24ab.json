@@ -1,0 +1,23 @@
+{
+  "id": "agent-factory-291f24ab",
+  "name": "agent-factory",
+  "description": "Claude Code agent generation system that creates custom agents and sub-agents with enhanced YAML frontmatter, tool access patterns, and MCP integration support following proven production patterns",
+  "repo_url": "https://github.com/alirezarezvani/claude-code-skill-factory",
+  "source_hub": "skillsmp",
+  "skill_type": "agent_skill",
+  "owner": "alirezarezvani",
+  "stars": 530,
+  "primary_language": "unknown",
+  "tags": [
+    "agent-skills",
+    "data-ai",
+    "installs:512"
+  ],
+  "verification_status": "pass",
+  "overall_score": 60,
+  "risk_level": "medium",
+  "verified_commit": "ba18b31703542d9d7eda5f9ba94f0df65a59dddf",
+  "scan_summary": null,
+  "scan_date": "2026-03-03T03:39:18Z",
+  "verification_level": "full_pipeline"
+}

@@ -4,6 +4,7 @@
   "description": "A Model Context Protocol (MCP) server for automating openMSX emulator instances. This server provides comprehensive tools for MSX software development, testing, and automation through standardized MCP protocols.",
   "repo_url": "https://github.com/nataliapc/mcp-openmsx",
   "source_hub": "mcp_so",
+  "skill_type": "mcp_server",
   "owner": "nataliapc",
   "stars": 43,
   "primary_language": "unknown",
@@ -23,93 +24,5 @@
     "category_counts": {}
   },
   "scan_date": "2026-03-03T14:58:32Z",
-  "verification_level": "full_pipeline",
-  "status_cleared": {
-    "date": "2026-03-02T20:40:18.531782+00:00",
-    "previous_status": "pass",
-    "previous_score": 85,
-    "previous_risk": "info",
-    "verification_level": "scanner_only",
-    "reason": "SM cleanup: only full_pipeline pass is real pass. Needs re-verification."
-  },
-  "findings_summary": {
-    "scanner_findings": 156,
-    "dangerous_calls": 123,
-    "network_ops": 1,
-    "file_ops": 14,
-    "env_access": 16,
-    "obfuscation": 1,
-    "injection_patterns": 0,
-    "mismatches": 0,
-    "undocumented_capabilities": 0,
-    "supervisor_approved": true,
-    "supervisor_confidence": 50
-  },
-  "agent_audit": {
-    "agents_completed": 5,
-    "agents_required": 5,
-    "pipeline_run_at": "2026-03-03T14:58:32Z",
-    "agent_a": {
-      "signed": true,
-      "signed_at": "2026-03-03T14:58:32Z",
-      "comment": "Docs quality 9/10. README present. 12 features, 4 permissions claimed.",
-      "doc_quality_score": 9,
-      "claimed_permissions": [
-        "network access",
-        "system command execution",
-        "file system access",
-        "environment/secret access"
-      ]
-    },
-    "agent_b": {
-      "signed": true,
-      "signed_at": "2026-03-03T14:58:32Z",
-      "comment": "30 files analyzed. Found: 2 network, 6 file, 11 env, 3 system calls. Primary: unknown.",
-      "files_analyzed": 30,
-      "capabilities_found": [
-        "imports external dependencies",
-        "performs network operations",
-        "reads/writes files",
-        "reads environment values",
-        "executes system commands"
-      ]
-    },
-    "agent_c_star": {
-      "signed": true,
-      "signed_at": "2026-03-03T14:58:32Z",
-      "comment": "156 findings: 0 critical, 125 high, 17 medium, 14 low. Obfuscation detected!. No injection.",
-      "total_findings": 156,
-      "severity_counts": {
-        "critical": 0,
-        "high": 125,
-        "medium": 17,
-        "low": 14,
-        "info": 0
-      }
-    },
-    "agent_d": {
-      "signed": true,
-      "signed_at": "2026-03-03T14:58:32Z",
-      "comment": "Score 45. 0 mismatches. Risk: medium. Safety overrides: none triggered.",
-      "score": 45,
-      "mismatches": 0,
-      "safety_overrides_applied": false
-    },
-    "agent_e": {
-      "signed": true,
-      "signed_at": "2026-03-03T14:58:32Z",
-      "comment": "Rejected. Confidence 50%. No overrides.",
-      "approved": false,
-      "confidence": 50,
-      "override_reason": null
-    },
-    "manager_summary": "5/5 agents completed. Score: 45/100, Risk: medium. 0 mismatches, 156 scanner findings. Rejected at 50% confidence. No safety overrides."
-  },
-  "pm_override": {
-    "action": "fail_to_pass",
-    "reason": "PM override: score 45 with low-risk obfuscation (minified JS/vendored), 0 injection, 0 critical. Known scoring bug pattern.",
-    "override_by": "PM",
-    "date": "2026-03-03T15:04:06.548466+00:00"
-  },
-  "skill_type": "mcp_server"
+  "verification_level": "full_pipeline"
 }

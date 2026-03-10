@@ -1,0 +1,23 @@
+{
+  "id": "architecture-review-1ae6b517",
+  "name": "architecture-review",
+  "description": "Conducts a comprehensive multi-perspective architecture review using ALL architecture team members. Use when the user requests \"Start architecture review\", \"Full architecture review\", \"Review architecture for version X.Y.Z\", \"Conduct comprehensive review\", or when they want assessment from multiple perspectives. Do NOT use for single-specialist reviews (use specialist-review instead) or for status checks (use architecture-status instead).",
+  "repo_url": "https://github.com/codenamev/ai-software-architect",
+  "source_hub": "skillsmp",
+  "skill_type": "agent_skill",
+  "owner": "codenamev",
+  "stars": 46,
+  "primary_language": "unknown",
+  "tags": [
+    "agent-skills",
+    "dev-devops",
+    "installs:44"
+  ],
+  "verification_status": "pass",
+  "overall_score": 82,
+  "risk_level": "medium",
+  "verified_commit": "203694babd51a8239e4b412878ca8dbb3f20c9c6",
+  "scan_summary": null,
+  "scan_date": "2026-03-03T14:57:42Z",
+  "verification_level": "full_pipeline"
+}

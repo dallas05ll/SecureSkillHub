@@ -4,6 +4,7 @@
   "description": "slack",
   "repo_url": "https://github.com/edrigu1989/slack-mcp-server",
   "source_hub": "mcp_so",
+  "skill_type": "mcp_server",
   "owner": "edrigu1989",
   "stars": 0,
   "primary_language": "unknown",
@@ -18,14 +19,5 @@
   "risk_level": "medium",
   "verified_commit": null,
   "scan_summary": null,
-  "scan_date": "2026-02-26T03:00:50Z",
-  "status_cleared": {
-    "date": "2026-03-02T20:40:18.531782+00:00",
-    "previous_status": "pass",
-    "previous_score": 35,
-    "previous_risk": "medium",
-    "verification_level": "scanner_only",
-    "reason": "SM cleanup: only full_pipeline pass is real pass. Needs re-verification."
-  },
-  "skill_type": "mcp_server"
+  "scan_date": "2026-02-26T03:00:50Z"
 }

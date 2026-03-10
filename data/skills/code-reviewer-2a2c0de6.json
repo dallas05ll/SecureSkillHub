@@ -1,0 +1,22 @@
+{
+  "id": "code-reviewer-2a2c0de6",
+  "name": "code-reviewer",
+  "description": "Code review automation for TypeScript, JavaScript, Python, Go, Swift, Kotlin. Analyzes PRs for complexity and risk, checks code quality for SOLID violations and code smells, generates review reports. Use when reviewing pull requests, analyzing code quality, identifying issues, generating review checklists.",
+  "repo_url": "https://github.com/joncik91/ucai",
+  "source_hub": "skillsmp",
+  "skill_type": "agent_skill",
+  "owner": "joncik91",
+  "stars": 26,
+  "primary_language": "unknown",
+  "tags": [
+    "agent-skills",
+    "installs:20"
+  ],
+  "verification_status": "pass",
+  "overall_score": 50,
+  "risk_level": "medium",
+  "verified_commit": "95b44ce758c2b91ea6ee92fc24c1b49904959b5f",
+  "scan_summary": null,
+  "scan_date": "2026-03-03T16:18:57Z",
+  "verification_level": "full_pipeline"
+}

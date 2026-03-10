@@ -1,0 +1,17 @@
+{
+  "id": "ollama-mcpo-adapter-1c63a146",
+  "name": "ollama-mcpo-adapter",
+  "description": "Adapter to expose MCPO, the MCP-to-OpenAPI proxy server, tools in Ollama-compatible format",
+  "repo_url": "https://github.com/tappi287/ollama-mcpo-adapter",
+  "source_hub": "mcp_so",
+  "skill_type": "mcp_server",
+  "owner": "tappi287",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null
+}

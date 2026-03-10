@@ -1,0 +1,22 @@
+{
+  "id": "askme-88d73f64",
+  "name": "askme",
+  "description": "Verbalized Sampling (VS) protocol for deep intent exploration before planning. Use when starting ambiguous or complex tasks, when multiple interpretations exist, or when you need to explore diverse intent hypotheses and ask maximum clarifying questions before committing to an approach.",
+  "repo_url": "https://github.com/outlinedriven/odin-claude-plugin",
+  "source_hub": "skillsmp",
+  "skill_type": "agent_skill",
+  "owner": "outlinedriven",
+  "stars": 9,
+  "primary_language": "unknown",
+  "tags": [
+    "agent-skills",
+    "installs:9"
+  ],
+  "verification_status": "pass",
+  "overall_score": 69,
+  "risk_level": "medium",
+  "verified_commit": "ed7f5dbce5a741d3e0438d5eba2c95c86b4cc4dd",
+  "scan_summary": null,
+  "scan_date": "2026-03-03T17:45:31Z",
+  "verification_level": "full_pipeline"
+}

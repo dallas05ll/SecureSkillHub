@@ -1,12 +1,13 @@
 {
   "id": "mcp-waifu-queue-f508406d",
   "name": "mcp-waifu-queue",
-  "description": "MCP server for conversational AI using an LLM for text generation. 🗣️ Utilizes a Redis queue for asynchronous request processing and handling concurrent users. ⚙️ Built with the FastMCP library for simplified server setup and management. ⚡ Offers an MCP tool to enqueue generation jobs and an MCP resource to track job status. 👍📊",
+  "description": "MCP server for conversational AI using an LLM for text generation. \ud83d\udde3\ufe0f Utilizes a Redis queue for asynchronous request processing and handling concurrent users. \u2699\ufe0f Built with the FastMCP library for simplified server setup and management. \u26a1 Offers an MCP tool to enqueue generation jobs and an MCP resource to track job status. \ud83d\udc4d\ud83d\udcca",
   "repo_url": "https://github.com/waifuai/mcp-waifu-queue",
   "source_hub": "mcp_so",
+  "skill_type": "mcp_server",
   "owner": "waifuai",
   "stars": 1,
-  "primary_language": "python",
+  "primary_language": "unknown",
   "tags": [
     "data",
     "data-ai",
@@ -24,86 +25,5 @@
     "category_counts": {}
   },
   "scan_date": "2026-03-03T20:51:23Z",
-  "verification_level": "full_pipeline",
-  "status_cleared": {
-    "date": "2026-03-02T20:40:18.531782+00:00",
-    "previous_status": "pass",
-    "previous_score": 85,
-    "previous_risk": "info",
-    "verification_level": "scanner_only",
-    "reason": "SM cleanup: only full_pipeline pass is real pass. Needs re-verification."
-  },
-  "findings_summary": {
-    "scanner_findings": 8,
-    "dangerous_calls": 0,
-    "network_ops": 3,
-    "file_ops": 0,
-    "env_access": 5,
-    "obfuscation": 0,
-    "injection_patterns": 0,
-    "mismatches": 0,
-    "undocumented_capabilities": 0,
-    "supervisor_approved": true,
-    "supervisor_confidence": 92
-  },
-  "agent_audit": {
-    "agents_completed": 5,
-    "agents_required": 5,
-    "pipeline_run_at": "2026-03-03T20:51:23Z",
-    "agent_a": {
-      "signed": true,
-      "signed_at": "2026-03-03T20:51:23Z",
-      "comment": "Docs quality 9/10. README present. 12 features, 4 permissions claimed.",
-      "doc_quality_score": 9,
-      "claimed_permissions": [
-        "network access",
-        "system command execution",
-        "file system access",
-        "environment/secret access"
-      ]
-    },
-    "agent_b": {
-      "signed": true,
-      "signed_at": "2026-03-03T20:51:23Z",
-      "comment": "13 files analyzed. Found: 3 network, 2 file, 6 env, 0 system calls. Primary: python.",
-      "files_analyzed": 13,
-      "capabilities_found": [
-        "imports external dependencies",
-        "performs network operations",
-        "reads/writes files",
-        "reads environment values"
-      ]
-    },
-    "agent_c_star": {
-      "signed": true,
-      "signed_at": "2026-03-03T20:51:23Z",
-      "comment": "8 findings: 0 critical, 0 high, 8 medium, 0 low. No obfuscation. No injection.",
-      "total_findings": 8,
-      "severity_counts": {
-        "critical": 0,
-        "high": 0,
-        "medium": 8,
-        "low": 0,
-        "info": 0
-      }
-    },
-    "agent_d": {
-      "signed": true,
-      "signed_at": "2026-03-03T20:51:23Z",
-      "comment": "Score 92. 0 mismatches. Risk: medium. Safety overrides: none triggered.",
-      "score": 92,
-      "mismatches": 0,
-      "safety_overrides_applied": false
-    },
-    "agent_e": {
-      "signed": true,
-      "signed_at": "2026-03-03T20:51:23Z",
-      "comment": "Approved. Confidence 92%. No overrides.",
-      "approved": true,
-      "confidence": 92,
-      "override_reason": null
-    },
-    "manager_summary": "5/5 agents completed. Score: 92/100, Risk: medium. 0 mismatches, 8 scanner findings. Approved at 92% confidence. No safety overrides."
-  },
-  "skill_type": "mcp_server"
+  "verification_level": "full_pipeline"
 }

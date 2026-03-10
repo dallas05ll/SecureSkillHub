@@ -1,12 +1,13 @@
 {
   "id": "mcp-x-f6f67a16",
   "name": "MCP-X",
-  "description": "这是一个MCP客户端，让你轻松配置各个大模型，对接各种MCP Server而开发。This is an MCP client that allows you to easily configure various large models and develop interfaces with various MCP servers.",
+  "description": "\u8fd9\u662f\u4e00\u4e2aMCP\u5ba2\u6237\u7aef\uff0c\u8ba9\u4f60\u8f7b\u677e\u914d\u7f6e\u5404\u4e2a\u5927\u6a21\u578b\uff0c\u5bf9\u63a5\u5404\u79cdMCP Server\u800c\u5f00\u53d1\u3002This is an MCP client that allows you to easily configure various large models and develop interfaces with various MCP servers.",
   "repo_url": "https://github.com/TimeCyber/MCP-X",
   "source_hub": "mcp_so",
+  "skill_type": "mcp_server",
   "owner": "TimeCyber",
   "stars": 139,
-  "primary_language": "typescript",
+  "primary_language": "unknown",
   "tags": [
     "integ",
     "util"
@@ -22,93 +23,5 @@
     "category_counts": {}
   },
   "scan_date": "2026-03-03T05:22:17Z",
-  "verification_level": "full_pipeline",
-  "status_cleared": {
-    "date": "2026-03-02T20:40:18.531782+00:00",
-    "previous_status": "pass",
-    "previous_score": 85,
-    "previous_risk": "info",
-    "verification_level": "scanner_only",
-    "reason": "SM cleanup: only full_pipeline pass is real pass. Needs re-verification."
-  },
-  "findings_summary": {
-    "scanner_findings": 172,
-    "dangerous_calls": 6,
-    "network_ops": 46,
-    "file_ops": 55,
-    "env_access": 55,
-    "obfuscation": 3,
-    "injection_patterns": 0,
-    "mismatches": 0,
-    "undocumented_capabilities": 0,
-    "supervisor_approved": true,
-    "supervisor_confidence": 50
-  },
-  "agent_audit": {
-    "agents_completed": 5,
-    "agents_required": 5,
-    "pipeline_run_at": "2026-03-03T05:22:17Z",
-    "agent_a": {
-      "signed": true,
-      "signed_at": "2026-03-03T05:22:17Z",
-      "comment": "Docs quality 9/10. README present. 12 features, 4 permissions claimed.",
-      "doc_quality_score": 9,
-      "claimed_permissions": [
-        "network access",
-        "system command execution",
-        "file system access",
-        "environment/secret access"
-      ]
-    },
-    "agent_b": {
-      "signed": true,
-      "signed_at": "2026-03-03T05:22:17Z",
-      "comment": "193 files analyzed. Found: 56 network, 47 file, 45 env, 5 system calls. Primary: typescript.",
-      "files_analyzed": 193,
-      "capabilities_found": [
-        "imports external dependencies",
-        "performs network operations",
-        "reads/writes files",
-        "reads environment values",
-        "executes system commands"
-      ]
-    },
-    "agent_c_star": {
-      "signed": true,
-      "signed_at": "2026-03-03T05:22:17Z",
-      "comment": "172 findings: 0 critical, 16 high, 101 medium, 55 low. Obfuscation detected!. No injection.",
-      "total_findings": 172,
-      "severity_counts": {
-        "critical": 0,
-        "high": 16,
-        "medium": 101,
-        "low": 55,
-        "info": 0
-      }
-    },
-    "agent_d": {
-      "signed": true,
-      "signed_at": "2026-03-03T05:22:17Z",
-      "comment": "Score 45. 0 mismatches. Risk: medium. Safety overrides: none triggered.",
-      "score": 45,
-      "mismatches": 0,
-      "safety_overrides_applied": false
-    },
-    "agent_e": {
-      "signed": true,
-      "signed_at": "2026-03-03T05:22:17Z",
-      "comment": "Rejected. Confidence 50%. No overrides.",
-      "approved": false,
-      "confidence": 50,
-      "override_reason": null
-    },
-    "manager_summary": "5/5 agents completed. Score: 45/100, Risk: medium. 0 mismatches, 172 scanner findings. Rejected at 50% confidence. No safety overrides."
-  },
-  "pm_override": {
-    "action": "fail_to_pass",
-    "reason": "PM override: score 45 with low-risk obfuscation (minified JS/vendored), 0 injection, 0 critical. Known scoring bug pattern.",
-    "override_by": "PM",
-    "date": "2026-03-03T05:28:08.397144+00:00"
-  },
-  "skill_type": "mcp_server"
+  "verification_level": "full_pipeline"
 }

@@ -1,0 +1,19 @@
+{
+  "id": "senzing-mcp-skill-d47f4d2e",
+  "name": "senzing-mcp-skill",
+  "description": "Agent skill for Senzing entity resolution \u2014 data mapping, SDK code generation, documentation search, error troubleshooting, and sample data via the Senzing MCP server",
+  "repo_url": "https://github.com/Senzing/senzing-mcp-skill",
+  "source_hub": "github_search",
+  "skill_type": "agent_skill",
+  "owner": "Senzing",
+  "stars": 12,
+  "license": "",
+  "primary_language": "markdown",
+  "tags": [],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null,
+  "last_updated": "2026-03-06T13:11:39Z"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "clone-repo-0524f1b4",
+  "name": "clone-repo",
+  "description": "This skill should be used when the user asks to \"clone a repo\", \"fetch code from github\", \"get external code\", \"look at a repo\", or needs to explore an external repository for code examples and patterns.",
+  "repo_url": "https://github.com/ojowwalker77/claude-matrix",
+  "source_hub": "skillsmp",
+  "skill_type": "agent_skill",
+  "owner": "ojowwalker77",
+  "stars": 97,
+  "primary_language": "unknown",
+  "tags": [
+    "agent-skills",
+    "installs:94"
+  ],
+  "verification_status": "pass",
+  "overall_score": 30,
+  "risk_level": "medium",
+  "verified_commit": "e311b04b7608e1438ae18fa86c881210227a213c",
+  "scan_summary": null,
+  "scan_date": "2026-03-03T14:50:21Z",
+  "verification_level": "full_pipeline"
+}

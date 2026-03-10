@@ -1,0 +1,28 @@
+{
+  "id": "inspector-fe74b692",
+  "name": "inspector",
+  "description": "Visual testing tool for MCP servers",
+  "repo_url": "https://github.com/modelcontextprotocol/inspector",
+  "source_hub": "mcp_so",
+  "skill_type": "mcp_server",
+  "owner": "modelcontextprotocol",
+  "stars": 8795,
+  "primary_language": "unknown",
+  "tags": [
+    "dev",
+    "dev-testing",
+    "dev-web",
+    "dev-web-backend",
+    "dev-web-backend-node",
+    "dev-web-frontend",
+    "dev-web-frontend-react",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 70,
+  "risk_level": "low",
+  "verified_commit": "db0827b24645f61c8b15aaaa4726bb7d21ad8282",
+  "scan_summary": null,
+  "scan_date": "2026-03-01T05:57:22Z",
+  "verification_level": "full_pipeline"
+}

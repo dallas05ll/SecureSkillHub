@@ -4,6 +4,7 @@
   "description": "\u79c1\u306e\u30dd\u30fc\u30c8\u30d5\u30a9\u30ea\u30aa\u30b5\u30a4\u30c8\u3067\u3059\u3002Riml\u306b\u3064\u3044\u3066\u77e5\u308b\u3053\u3068\u304c\u3067\u304d\u307e\u3059\u3002",
   "repo_url": "https://github.com/RimlTempest/riml-me",
   "source_hub": "mcp_so",
+  "skill_type": "mcp_server",
   "owner": "RimlTempest",
   "stars": 0,
   "primary_language": "unknown",
@@ -20,14 +21,5 @@
     "severity_counts": {},
     "category_counts": {}
   },
-  "scan_date": "2026-02-28T04:14:40Z",
-  "status_cleared": {
-    "date": "2026-03-02T20:40:18.531782+00:00",
-    "previous_status": "pass",
-    "previous_score": 85,
-    "previous_risk": "info",
-    "verification_level": "scanner_only",
-    "reason": "SM cleanup: only full_pipeline pass is real pass. Needs re-verification."
-  },
-  "skill_type": "mcp_server"
+  "scan_date": "2026-02-28T04:14:40Z"
 }

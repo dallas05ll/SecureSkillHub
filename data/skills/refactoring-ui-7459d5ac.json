@@ -1,0 +1,23 @@
+{
+  "id": "refactoring-ui-7459d5ac",
+  "name": "refactoring-ui",
+  "description": "Practical UI design system based on Adam Wathan & Steve Schoger''s \"Refactoring UI\". Use when you need to: (1) fix visual hierarchy problems, (2) choose consistent spacing and typography scales, (3) build color palettes with proper contrast, (4) add depth with shadows and layering, (5) design in grayscale first and add color last, (6) style components in Tailwind CSS, (7) make UI look professional without a designer.",
+  "repo_url": "https://github.com/wondelai/skills",
+  "source_hub": "skillsmp",
+  "skill_type": "agent_skill",
+  "owner": "wondelai",
+  "stars": 147,
+  "primary_language": "unknown",
+  "tags": [
+    "agent-skills",
+    "dev-web-frontend",
+    "installs:235"
+  ],
+  "verification_status": "pass",
+  "overall_score": 36,
+  "risk_level": "medium",
+  "verified_commit": "2c6ab8eb9ff3212a7e9e89bb647f8393933143ec",
+  "scan_summary": "Large, well-organized multi-agent skill collection covering product, UX, marketing, sales, engineering domains. MIT licensed. Skills are pure Markdown SKILL.md files. Has .claude-plugin marketplace format, .cursor and .windsurf integration directories, plus scripts/ for npx skills CLI. No executable code in skill files. Shell scripts in /scripts are packaging utilities.",
+  "scan_date": "2026-03-03T05:22:02Z",
+  "verification_level": "full_pipeline"
+}

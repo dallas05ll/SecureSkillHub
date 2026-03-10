@@ -4,6 +4,7 @@
   "description": "A Model Context Protocol (MCP) server that converts Mermaid diagrams to PNG images",
   "repo_url": "https://github.com/peng-shawn/mermaid-mcp-server",
   "source_hub": "mcp_so",
+  "skill_type": "mcp_server",
   "owner": "peng-shawn",
   "stars": 222,
   "primary_language": "unknown",
@@ -16,83 +17,5 @@
   "verified_commit": "81dc507991c6bfcc09bb59805916d47c9bfd03c5",
   "scan_summary": null,
   "scan_date": "2026-03-03T03:55:51Z",
-  "pm_override": {
-    "action": "manual_review_to_pass",
-    "reason": "PM batch review: score 50-69, 0 injection, 0 critical findings, no safety override triggered. Manual review not warranted — scoring system places these in MR from scanner penalty inflation, not from real security concerns.",
-    "override_by": "PM batch review 20260303",
-    "date": "2026-03-03"
-  },
-  "findings_summary": {
-    "scanner_findings": 14,
-    "dangerous_calls": 3,
-    "network_ops": 0,
-    "file_ops": 6,
-    "env_access": 4,
-    "obfuscation": 1,
-    "injection_patterns": 0,
-    "mismatches": 0,
-    "undocumented_capabilities": 0,
-    "supervisor_approved": true,
-    "supervisor_confidence": 55
-  },
-  "verification_level": "full_pipeline",
-  "agent_audit": {
-    "agents_completed": 5,
-    "agents_required": 5,
-    "pipeline_run_at": "2026-03-03T03:55:51Z",
-    "agent_a": {
-      "signed": true,
-      "signed_at": "2026-03-03T03:55:51Z",
-      "comment": "Docs quality 9/10. README present. 12 features, 4 permissions claimed.",
-      "doc_quality_score": 9,
-      "claimed_permissions": [
-        "network access",
-        "system command execution",
-        "file system access",
-        "environment/secret access"
-      ]
-    },
-    "agent_b": {
-      "signed": true,
-      "signed_at": "2026-03-03T03:55:51Z",
-      "comment": "6 files analyzed. Found: 0 network, 0 file, 4 env, 2 system calls. Primary: unknown.",
-      "files_analyzed": 6,
-      "capabilities_found": [
-        "imports external dependencies",
-        "reads environment values",
-        "executes system commands"
-      ]
-    },
-    "agent_c_star": {
-      "signed": true,
-      "signed_at": "2026-03-03T03:55:51Z",
-      "comment": "14 findings: 0 critical, 4 high, 4 medium, 6 low. Obfuscation detected!. No injection.",
-      "total_findings": 14,
-      "severity_counts": {
-        "critical": 0,
-        "high": 4,
-        "medium": 4,
-        "low": 6,
-        "info": 0
-      }
-    },
-    "agent_d": {
-      "signed": true,
-      "signed_at": "2026-03-03T03:55:51Z",
-      "comment": "Score 55. 0 mismatches. Risk: medium. Safety overrides: none triggered.",
-      "score": 55,
-      "mismatches": 0,
-      "safety_overrides_applied": false
-    },
-    "agent_e": {
-      "signed": true,
-      "signed_at": "2026-03-03T03:55:51Z",
-      "comment": "Rejected. Confidence 55%. No overrides.",
-      "approved": false,
-      "confidence": 55,
-      "override_reason": null
-    },
-    "manager_summary": "5/5 agents completed. Score: 55/100, Risk: medium. 0 mismatches, 14 scanner findings. Rejected at 55% confidence. No safety overrides."
-  },
-  "skill_type": "mcp_server"
+  "verification_level": "full_pipeline"
 }

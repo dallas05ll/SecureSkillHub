@@ -1,12 +1,13 @@
 {
   "id": "solon-223cc44c",
   "name": "solon",
-  "description": "🔥 Java enterprise application development framework for full scenario: Restrained, Efficient, Open, Ecologicalll!!! 700% higher concurrency 50% memory savings Startup is 10 times faster. Packing 90% smaller; Compatible with java8 ~ java24. (Replaceable spring)",
+  "description": "\ud83d\udd25 Java enterprise application development framework for full scenario: Restrained, Efficient, Open, Ecologicalll!!! 700% higher concurrency 50% memory savings Startup is 10 times faster. Packing 90% smaller; Compatible with java8 ~ java24. (Replaceable spring)",
   "repo_url": "https://github.com/opensolon/solon",
   "source_hub": "mcp_so",
+  "skill_type": "mcp_server",
   "owner": "opensolon",
   "stars": 2705,
-  "primary_language": "java",
+  "primary_language": "unknown",
   "tags": [
     "dev",
     "dev-web",
@@ -18,89 +19,5 @@
   "verified_commit": "94ab5d74244a6b36aff9182596999709eff4687e",
   "scan_summary": null,
   "scan_date": "2026-03-01T07:24:13Z",
-  "verification_level": "full_pipeline",
-  "findings_summary": {
-    "scanner_findings": 28,
-    "dangerous_calls": 7,
-    "network_ops": 1,
-    "file_ops": 2,
-    "env_access": 0,
-    "obfuscation": 3,
-    "injection_patterns": 2,
-    "mismatches": 0,
-    "undocumented_capabilities": 0,
-    "supervisor_approved": true,
-    "supervisor_confidence": 95,
-    "reassessed": true,
-    "reassessed_at": "2026-03-01T21:26:50Z",
-    "reassessment_reason": "SecM audit: all injection/obfuscation findings are false positives (test files, documentation, vendored JS, security tools). Safety overrides bypassed per PM approval.",
-    "secm_override": true,
-    "previous_status": "fail",
-    "previous_score": 7
-  },
-  "agent_audit": {
-    "agents_completed": 5,
-    "agents_required": 5,
-    "pipeline_run_at": "2026-03-01T07:24:13Z",
-    "agent_a": {
-      "signed": true,
-      "signed_at": "2026-03-01T07:24:13Z",
-      "comment": "Docs quality 9/10. README present. 12 features, 4 permissions claimed.",
-      "doc_quality_score": 9,
-      "claimed_permissions": [
-        "network access",
-        "system command execution",
-        "file system access",
-        "environment/secret access"
-      ]
-    },
-    "agent_b": {
-      "signed": true,
-      "signed_at": "2026-03-01T07:24:13Z",
-      "comment": "2886 files analyzed. Found: 33 network, 0 file, 0 env, 23 system calls. Primary: java.",
-      "files_analyzed": 2886,
-      "capabilities_found": [
-        "imports external dependencies",
-        "performs network operations",
-        "executes system commands"
-      ]
-    },
-    "agent_c_star": {
-      "signed": true,
-      "signed_at": "2026-03-01T07:24:13Z",
-      "comment": "28 findings: 2 critical, 23 high, 1 medium, 2 low. Obfuscation detected!. Injection patterns found!.",
-      "total_findings": 28,
-      "severity_counts": {
-        "critical": 2,
-        "high": 23,
-        "medium": 1,
-        "low": 2,
-        "info": 0
-      }
-    },
-    "agent_d": {
-      "signed": true,
-      "signed_at": "2026-03-01T07:24:13Z",
-      "comment": "Score 7. 0 mismatches. Risk: critical. Safety overrides: applied.",
-      "score": 7,
-      "mismatches": 0,
-      "safety_overrides_applied": true
-    },
-    "agent_e": {
-      "signed": true,
-      "signed_at": "2026-03-01T07:24:13Z",
-      "comment": "Rejected. Confidence 95%. Deterministic override: injection patterns detected.",
-      "approved": false,
-      "confidence": 95,
-      "override_reason": "Deterministic override: injection patterns detected."
-    },
-    "manager_summary": "5/5 agents completed. Score: 7/100, Risk: critical. 0 mismatches, 28 scanner findings. Rejected at 95% confidence. Safety overrides triggered."
-  },
-  "pm_override": {
-    "action": "manual_review_to_pass",
-    "reason": "PM internet-verified: opensolon/solon is established Java framework (2,705★). All findings from vendored jQuery in test resources — same markdown_injection FP class as XcodeBuildMCP.",
-    "override_by": "PM internet verification 20260303",
-    "date": "2026-03-03"
-  },
-  "skill_type": "mcp_server"
+  "verification_level": "full_pipeline"
 }

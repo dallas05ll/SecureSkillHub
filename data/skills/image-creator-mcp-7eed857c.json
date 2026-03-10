@@ -4,9 +4,10 @@
   "description": "Model Context Protocol (MCP) server enabling AI clients (Cline, Claude Desktop) to generate images using OpenAI (DALL-E 3, gpt-image-1) and save them directly to the user's project directory.",
   "repo_url": "https://github.com/dfeirstein/image-creator-mcp",
   "source_hub": "mcp_so",
+  "skill_type": "mcp_server",
   "owner": "dfeirstein",
   "stars": 2,
-  "primary_language": "typescript",
+  "primary_language": "unknown",
   "tags": [
     "data",
     "data-ai"
@@ -22,91 +23,5 @@
     "category_counts": {}
   },
   "scan_date": "2026-03-03T19:54:57Z",
-  "verification_level": "full_pipeline",
-  "status_cleared": {
-    "date": "2026-03-02T20:40:18.531782+00:00",
-    "previous_status": "pass",
-    "previous_score": 85,
-    "previous_risk": "info",
-    "verification_level": "scanner_only",
-    "reason": "SM cleanup: only full_pipeline pass is real pass. Needs re-verification."
-  },
-  "findings_summary": {
-    "scanner_findings": 20,
-    "dangerous_calls": 0,
-    "network_ops": 0,
-    "file_ops": 8,
-    "env_access": 3,
-    "obfuscation": 5,
-    "injection_patterns": 0,
-    "mismatches": 0,
-    "undocumented_capabilities": 0,
-    "supervisor_approved": true,
-    "supervisor_confidence": 75
-  },
-  "agent_audit": {
-    "agents_completed": 5,
-    "agents_required": 5,
-    "pipeline_run_at": "2026-03-03T19:54:57Z",
-    "agent_a": {
-      "signed": true,
-      "signed_at": "2026-03-03T19:54:57Z",
-      "comment": "Docs quality 9/10. README present. 12 features, 4 permissions claimed.",
-      "doc_quality_score": 9,
-      "claimed_permissions": [
-        "network access",
-        "system command execution",
-        "file system access",
-        "environment/secret access"
-      ]
-    },
-    "agent_b": {
-      "signed": true,
-      "signed_at": "2026-03-03T19:54:57Z",
-      "comment": "12 files analyzed. Found: 0 network, 5 file, 3 env, 0 system calls. Primary: typescript.",
-      "files_analyzed": 12,
-      "capabilities_found": [
-        "imports external dependencies",
-        "reads/writes files",
-        "reads environment values"
-      ]
-    },
-    "agent_c_star": {
-      "signed": true,
-      "signed_at": "2026-03-03T19:54:57Z",
-      "comment": "20 findings: 0 critical, 9 high, 3 medium, 8 low. Obfuscation detected!. No injection.",
-      "total_findings": 20,
-      "severity_counts": {
-        "critical": 0,
-        "high": 9,
-        "medium": 3,
-        "low": 8,
-        "info": 0
-      }
-    },
-    "agent_d": {
-      "signed": true,
-      "signed_at": "2026-03-03T19:54:57Z",
-      "comment": "Score 75. 0 mismatches. Risk: medium. Safety overrides: none triggered.",
-      "score": 75,
-      "mismatches": 0,
-      "safety_overrides_applied": false
-    },
-    "agent_e": {
-      "signed": true,
-      "signed_at": "2026-03-03T19:54:57Z",
-      "comment": "Rejected. Confidence 75%. No overrides.",
-      "approved": false,
-      "confidence": 75,
-      "override_reason": null
-    },
-    "manager_summary": "5/5 agents completed. Score: 75/100, Risk: medium. 0 mismatches, 20 scanner findings. Rejected at 75% confidence. No safety overrides.",
-    "auto_clear": {
-      "applied": true,
-      "reason": "Auto-clear Cat 1: clean profile (0 inj, 0 obf_hr, 0 crit, score=75)",
-      "original_status": "manual_review",
-      "original_score": 75
-    }
-  },
-  "skill_type": "mcp_server"
+  "verification_level": "full_pipeline"
 }

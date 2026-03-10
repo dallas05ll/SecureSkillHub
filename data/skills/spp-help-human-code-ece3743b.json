@@ -1,0 +1,22 @@
+{
+  "id": "spp-help-human-code-ece3743b",
+  "name": "spp-help-human-code",
+  "description": "Help a human complete a coding task",
+  "repo_url": "https://github.com/mlolson/claude-spp",
+  "source_hub": "skillsmp",
+  "skill_type": "agent_skill",
+  "owner": "mlolson",
+  "stars": 10,
+  "primary_language": "unknown",
+  "tags": [
+    "agent-skills",
+    "installs:10"
+  ],
+  "verification_status": "pass",
+  "overall_score": 45,
+  "risk_level": "low",
+  "verified_commit": "73f3259a7a47e960cb1ef15aa60673058c08e674",
+  "scan_summary": null,
+  "scan_date": "2026-03-03T17:37:22Z",
+  "verification_level": "full_pipeline"
+}

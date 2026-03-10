@@ -1,0 +1,17 @@
+{
+  "id": "mcp-http-proxy-07ccbdb5",
+  "name": "mcp-http-proxy",
+  "description": "An HTTP/SSE proxy server for Model Context Protocol (MCP) applications using stdio. Supports raw JSON-RPC commands via HTTP and implements direct stdio communication without an MCP SDK.",
+  "repo_url": "https://github.com/spontaneous-order/mcp-http-proxy",
+  "source_hub": "mcp_so",
+  "skill_type": "mcp_server",
+  "owner": "spontaneous-order",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null
+}

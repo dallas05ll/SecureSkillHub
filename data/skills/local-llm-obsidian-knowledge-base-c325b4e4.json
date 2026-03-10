@@ -1,0 +1,17 @@
+{
+  "id": "local-llm-obsidian-knowledge-base-c325b4e4",
+  "name": "local-llm-obsidian-knowledge-base",
+  "description": "A template repository that includes a dev container for running a local LLM and included knowledge base. Add a git repo using `git subtree` or `git submodule` and update it using an MCP Client/Server relationship i.e. `VS Code` extension like `Cline` and the `Filesystem`/`Obsidian-MCP` MCP server.",
+  "repo_url": "https://github.com/PSFW/local-llm-obsidian-knowledge-base",
+  "source_hub": "mcp_so",
+  "skill_type": "mcp_server",
+  "owner": "PSFW",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null
+}

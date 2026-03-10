@@ -1,0 +1,23 @@
+{
+  "id": "reddit-commenter-eb3d27aa",
+  "name": "reddit-commenter",
+  "description": "A skill for writing natural and valuable comments on Reddit communities. Includes the complete workflow from subreddit exploration, comment writing, review, posting, to tracking.",
+  "repo_url": "https://github.com/rokpiy/auto-commenter",
+  "source_hub": "skillsmp",
+  "skill_type": "agent_skill",
+  "owner": "rokpiy",
+  "stars": 512,
+  "primary_language": "unknown",
+  "tags": [
+    "agent-skills",
+    "data-ai",
+    "installs:506"
+  ],
+  "verification_status": "pass",
+  "overall_score": 100,
+  "risk_level": "info",
+  "verified_commit": "8b9984e240dfd23c21945754c1d45e783caf249a",
+  "scan_summary": null,
+  "scan_date": "2026-03-01T05:57:48Z",
+  "verification_level": "full_pipeline"
+}

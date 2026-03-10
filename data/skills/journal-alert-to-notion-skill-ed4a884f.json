@@ -1,0 +1,19 @@
+{
+  "id": "journal-alert-to-notion-skill-ed4a884f",
+  "name": "journal-alert-to-notion-skill",
+  "description": "Codex skill to ingest Gmail journal alerts into Notion with publisher verification, anti-bot-aware extraction, and duplicate-safe writes.",
+  "repo_url": "https://github.com/binqi20/journal-alert-to-notion-skill",
+  "source_hub": "github_search",
+  "skill_type": "agent_skill",
+  "owner": "binqi20",
+  "stars": 0,
+  "license": "mit",
+  "primary_language": "markdown",
+  "tags": [],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null,
+  "last_updated": "2026-03-02T08:46:27Z"
+}

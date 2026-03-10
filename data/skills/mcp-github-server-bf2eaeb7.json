@@ -1,9 +1,10 @@
 {
   "id": "mcp-github-server-bf2eaeb7",
   "name": "mcp-github-server",
-  "description": "GitHub APIを使用したModel Context Protocolサーバーの実装",
+  "description": "GitHub API\u3092\u4f7f\u7528\u3057\u305fModel Context Protocol\u30b5\u30fc\u30d0\u30fc\u306e\u5b9f\u88c5",
   "repo_url": "https://github.com/emrum01/mcp-github-server",
   "source_hub": "mcp_so",
+  "skill_type": "mcp_server",
   "owner": "emrum01",
   "stars": 0,
   "primary_language": "unknown",
@@ -21,14 +22,5 @@
     "severity_counts": {},
     "category_counts": {}
   },
-  "scan_date": "2026-02-28T04:14:41Z",
-  "status_cleared": {
-    "date": "2026-03-02T20:40:18.531782+00:00",
-    "previous_status": "pass",
-    "previous_score": 85,
-    "previous_risk": "info",
-    "verification_level": "scanner_only",
-    "reason": "SM cleanup: only full_pipeline pass is real pass. Needs re-verification."
-  },
-  "skill_type": "mcp_server"
+  "scan_date": "2026-02-28T04:14:41Z"
 }

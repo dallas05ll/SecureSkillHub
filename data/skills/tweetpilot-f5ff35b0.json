@@ -4,6 +4,7 @@
   "description": "TweetPilot is a MERN stack-based AI agent that generates context-aware Twitter posts using an MCP server. It crafts personalized, engaging tweets by understanding user intent, tone, and content goals. Perfect for marketers, creators, and anyone looking to automate smart social media content.",
   "repo_url": "https://github.com/HamdanRaza309/TweetPilot",
   "source_hub": "mcp_so",
+  "skill_type": "mcp_server",
   "owner": "HamdanRaza309",
   "stars": 0,
   "primary_language": "unknown",
@@ -26,14 +27,5 @@
     "severity_counts": {},
     "category_counts": {}
   },
-  "scan_date": "2026-02-28T04:43:00Z",
-  "status_cleared": {
-    "date": "2026-03-02T20:40:18.531782+00:00",
-    "previous_status": "pass",
-    "previous_score": 85,
-    "previous_risk": "info",
-    "verification_level": "scanner_only",
-    "reason": "SM cleanup: only full_pipeline pass is real pass. Needs re-verification."
-  },
-  "skill_type": "mcp_server"
+  "scan_date": "2026-02-28T04:43:00Z"
 }

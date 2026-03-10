@@ -4,12 +4,12 @@
   "description": "A Model Context Protocol server that enables Claude to interact with DataForSEO APIs, allowing access to SEO data including SERPs, keyword research, on-page metrics, and domain analytics.",
   "repo_url": "https://github.com/dataforseo/mcp-server-typescript",
   "source_hub": "glama",
+  "skill_type": "mcp_server",
   "owner": "dataforseo",
   "stars": 150,
-  "primary_language": "typescript",
+  "primary_language": "unknown",
   "tags": [
-    "util",
-    "util-monitor"
+    "ServerApplication"
   ],
   "verification_status": "pass",
   "overall_score": 30,
@@ -22,92 +22,5 @@
     "category_counts": {}
   },
   "scan_date": "2026-03-03T05:21:55Z",
-  "verification_level": "full_pipeline",
-  "status_cleared": {
-    "date": "2026-03-02T20:40:18.531782+00:00",
-    "previous_status": "pass",
-    "previous_score": 85,
-    "previous_risk": "info",
-    "verification_level": "scanner_only",
-    "reason": "SM cleanup: only full_pipeline pass is real pass. Needs re-verification."
-  },
-  "findings_summary": {
-    "scanner_findings": 53,
-    "dangerous_calls": 2,
-    "network_ops": 8,
-    "file_ops": 6,
-    "env_access": 25,
-    "obfuscation": 12,
-    "injection_patterns": 0,
-    "mismatches": 0,
-    "undocumented_capabilities": 0,
-    "supervisor_approved": true,
-    "supervisor_confidence": 50
-  },
-  "agent_audit": {
-    "agents_completed": 5,
-    "agents_required": 5,
-    "pipeline_run_at": "2026-03-03T05:21:55Z",
-    "agent_a": {
-      "signed": true,
-      "signed_at": "2026-03-03T05:21:55Z",
-      "comment": "Docs quality 9/10. README present. 12 features, 4 permissions claimed.",
-      "doc_quality_score": 9,
-      "claimed_permissions": [
-        "network access",
-        "system command execution",
-        "file system access",
-        "environment/secret access"
-      ]
-    },
-    "agent_b": {
-      "signed": true,
-      "signed_at": "2026-03-03T05:21:55Z",
-      "comment": "119 files analyzed. Found: 11 network, 1 file, 28 env, 0 system calls. Primary: typescript.",
-      "files_analyzed": 119,
-      "capabilities_found": [
-        "imports external dependencies",
-        "performs network operations",
-        "reads/writes files",
-        "reads environment values"
-      ]
-    },
-    "agent_c_star": {
-      "signed": true,
-      "signed_at": "2026-03-03T05:21:55Z",
-      "comment": "53 findings: 0 critical, 14 high, 33 medium, 6 low. Obfuscation detected!. No injection.",
-      "total_findings": 53,
-      "severity_counts": {
-        "critical": 0,
-        "high": 14,
-        "medium": 33,
-        "low": 6,
-        "info": 0
-      }
-    },
-    "agent_d": {
-      "signed": true,
-      "signed_at": "2026-03-03T05:21:55Z",
-      "comment": "Score 30. 0 mismatches. Risk: medium. Safety overrides: none triggered.",
-      "score": 30,
-      "mismatches": 0,
-      "safety_overrides_applied": false
-    },
-    "agent_e": {
-      "signed": true,
-      "signed_at": "2026-03-03T05:21:55Z",
-      "comment": "Rejected. Confidence 50%. No overrides.",
-      "approved": false,
-      "confidence": 50,
-      "override_reason": null
-    },
-    "manager_summary": "5/5 agents completed. Score: 30/100, Risk: medium. 0 mismatches, 53 scanner findings. Rejected at 50% confidence. No safety overrides."
-  },
-  "pm_override": {
-    "action": "fail_to_pass",
-    "reason": "PM override: score 30 with low-risk obfuscation (minified JS/vendored), 0 injection, 0 critical. Known scoring bug pattern.",
-    "override_by": "PM",
-    "date": "2026-03-03T05:28:08.397144+00:00"
-  },
-  "skill_type": "mcp_server"
+  "verification_level": "full_pipeline"
 }

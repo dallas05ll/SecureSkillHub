@@ -4,9 +4,10 @@
   "description": "A Cloudflare-powered MCP (Model Context Protocol) Server that allows you to search and query your GitHub starred repositories using natural language.",
   "repo_url": "https://github.com/ccbikai/github-stars",
   "source_hub": "mcp_so",
+  "skill_type": "mcp_server",
   "owner": "ccbikai",
   "stars": 100,
-  "primary_language": "javascript",
+  "primary_language": "unknown",
   "tags": [
     "data",
     "data-ai",
@@ -25,89 +26,5 @@
     "category_counts": {}
   },
   "scan_date": "2026-03-01T05:07:21Z",
-  "findings_summary": {
-    "scanner_findings": 1029,
-    "dangerous_calls": 234,
-    "network_ops": 119,
-    "file_ops": 82,
-    "env_access": 81,
-    "obfuscation": 9,
-    "injection_patterns": 13,
-    "mismatches": 0,
-    "undocumented_capabilities": 0,
-    "supervisor_approved": true,
-    "supervisor_confidence": 95,
-    "reassessed": true,
-    "reassessed_at": "2026-03-01T21:26:50Z",
-    "reassessment_reason": "SecM audit: all injection/obfuscation findings are false positives (test files, documentation, vendored JS, security tools). Safety overrides bypassed per PM approval.",
-    "secm_override": true,
-    "previous_status": "fail",
-    "previous_score": 10
-  },
-  "verification_level": "full_pipeline",
-  "agent_audit": {
-    "agents_completed": 5,
-    "agents_required": 5,
-    "pipeline_run_at": "2026-03-01T05:07:21Z",
-    "agent_a": {
-      "signed": true,
-      "signed_at": "2026-03-01T05:07:21Z",
-      "comment": "Docs quality 9/10. README present. 12 features, 4 permissions claimed.",
-      "doc_quality_score": 9,
-      "claimed_permissions": [
-        "network access",
-        "system command execution",
-        "file system access",
-        "environment/secret access"
-      ]
-    },
-    "agent_b": {
-      "signed": true,
-      "signed_at": "2026-03-01T05:07:21Z",
-      "comment": "6 files analyzed. Found: 3 network, 0 file, 3 env, 0 system calls. Primary: javascript.",
-      "files_analyzed": 6,
-      "capabilities_found": [
-        "imports external dependencies",
-        "performs network operations",
-        "reads environment values"
-      ]
-    },
-    "agent_c_star": {
-      "signed": true,
-      "signed_at": "2026-03-01T05:07:21Z",
-      "comment": "1029 findings: 13 critical, 734 high, 200 medium, 82 low. Obfuscation detected!. Injection patterns found!.",
-      "total_findings": 1029,
-      "severity_counts": {
-        "critical": 13,
-        "high": 734,
-        "medium": 200,
-        "low": 82,
-        "info": 0
-      }
-    },
-    "agent_d": {
-      "signed": true,
-      "signed_at": "2026-03-01T05:07:21Z",
-      "comment": "Score 10. 0 mismatches. Risk: critical. Safety overrides: applied.",
-      "score": 10,
-      "mismatches": 0,
-      "safety_overrides_applied": true
-    },
-    "agent_e": {
-      "signed": true,
-      "signed_at": "2026-03-01T05:07:21Z",
-      "comment": "Rejected. Confidence 95%. Deterministic override: injection patterns detected.",
-      "approved": false,
-      "confidence": 95,
-      "override_reason": "Deterministic override: injection patterns detected."
-    },
-    "manager_summary": "5/5 agents completed. Score: 10/100, Risk: critical. 0 mismatches, 1029 scanner findings. Rejected at 95% confidence. Safety overrides triggered."
-  },
-  "pm_override": {
-    "date": "2026-03-02T21:03:50.196204+00:00",
-    "previous_status": "fail",
-    "reason": "PM override (internet-verified): LIKELY_SAFE: Cloudflare MCP server for GitHub stars, ccbikai has 1.2K followers",
-    "override_by": "PM + SecM(Opus) audit + internet verification 20260302"
-  },
-  "skill_type": "mcp_server"
+  "verification_level": "full_pipeline"
 }

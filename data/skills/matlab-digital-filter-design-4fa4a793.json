@@ -1,0 +1,22 @@
+{
+  "id": "matlab-digital-filter-design-4fa4a793",
+  "name": "matlab-digital-filter-design",
+  "description": "Designs and validates digital filters in MATLAB. Use when cleaning up noisy signals, removing interference, filtering signals, designing FIR/IIR filters (lowpass/highpass/bandpass/bandstop/notch), or comparing filters in Filter Analyzer.",
+  "repo_url": "https://github.com/matlab/skills",
+  "source_hub": "skillsmp",
+  "skill_type": "agent_skill",
+  "owner": "matlab",
+  "stars": 26,
+  "primary_language": "unknown",
+  "tags": [
+    "agent-skills",
+    "installs:24"
+  ],
+  "verification_status": "pass",
+  "overall_score": 92,
+  "risk_level": "medium",
+  "verified_commit": "38cf907598dda165379aa3e42bf2921d3f9339f3",
+  "scan_summary": null,
+  "scan_date": "2026-03-03T16:18:56Z",
+  "verification_level": "full_pipeline"
+}

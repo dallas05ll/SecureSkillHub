@@ -1,0 +1,19 @@
+{
+  "id": "claude-research-skill-f59d2402",
+  "name": "claude-research-skill",
+  "description": "Multi-agent research orchestrator for Claude Code \u2014 decomposes any question into parallel workstreams, monitors agents, and synthesizes results",
+  "repo_url": "https://github.com/altmbr/claude-research-skill",
+  "source_hub": "github_search",
+  "skill_type": "agent_skill",
+  "owner": "altmbr",
+  "stars": 1,
+  "license": "mit",
+  "primary_language": "markdown",
+  "tags": [],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null,
+  "last_updated": "2026-03-06T14:48:04Z"
+}

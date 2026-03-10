@@ -1,0 +1,23 @@
+{
+  "id": "wp-performance-review-216e6b9d",
+  "name": "wp-performance-review",
+  "description": "WordPress performance code review and optimization analysis. Use when reviewing WordPress PHP code for performance issues, auditing themes/plugins for scalability, optimizing WP_Query, analyzing caching strategies, checking code before launch, or detecting anti-patterns, or when user mentions \"performance review\", \"optimization audit\", \"slow WordPress\", \"slow queries\", \"high-traffic\", \"scale WordPress\", \"code review\", \"timeout\", \"500 error\", \"out of memory\", or \"site won't load\". Detects anti...",
+  "repo_url": "https://github.com/elvismdev/claude-wordpress-skills",
+  "source_hub": "skillsmp",
+  "skill_type": "agent_skill",
+  "owner": "elvismdev",
+  "stars": 85,
+  "primary_language": "unknown",
+  "tags": [
+    "agent-skills",
+    "data-db",
+    "installs:79"
+  ],
+  "verification_status": "pass",
+  "overall_score": 64,
+  "risk_level": "medium",
+  "verified_commit": "0ac0bbd5fd7c2a91f45af8ec3f5282537e52b075",
+  "scan_summary": null,
+  "scan_date": "2026-03-03T14:50:51Z",
+  "verification_level": "full_pipeline"
+}

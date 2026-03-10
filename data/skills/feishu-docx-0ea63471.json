@@ -1,116 +1,22 @@
 {
   "id": "feishu-docx-0ea63471",
   "name": "feishu-docx",
-  "description": "Feishu/Lark Docs, Sheets, and Bitable to Markdown exporter with OAuth 2.0, CLI, TUI, and Claude Skills support for AI agent knowledge bases.",
+  "description": "Export Feishu/Lark cloud documents to Markdown. Supports docx, sheets, bitable, wiki, and batch wiki space export. Use this skill when you need to read, analyze, write, or reference content from Feishu knowledge base.",
   "repo_url": "https://github.com/leemysw/feishu-docx",
-  "source_hub": "github_search",
+  "source_hub": "skillsmp",
   "skill_type": "agent_skill",
   "owner": "leemysw",
   "stars": 57,
-  "license": "mit",
-  "primary_language": "Python",
+  "primary_language": "unknown",
   "tags": [
-    "data",
-    "data-ai",
-    "integ",
-    "prod",
-    "prod-docs",
-    "sec",
-    "sec-auth"
+    "agent-skills",
+    "installs:63"
   ],
   "verification_status": "pass",
   "overall_score": 74,
   "risk_level": "medium",
   "verified_commit": "7b79b1e2462ce85cd28b98496f36ecc2417039d3",
   "scan_summary": null,
-  "last_updated": "2026-02-25T04:53:45Z",
-  "findings_summary": {
-    "scanner_findings": 26,
-    "dangerous_calls": 0,
-    "network_ops": 5,
-    "file_ops": 5,
-    "env_access": 13,
-    "obfuscation": 0,
-    "injection_patterns": 0,
-    "mismatches": 0,
-    "undocumented_capabilities": 0,
-    "supervisor_approved": true,
-    "supervisor_confidence": 74
-  },
-  "trust_level": "low",
   "scan_date": "2026-03-03T14:56:20Z",
-  "verification_level": "full_pipeline",
-  "status_cleared": {
-    "date": "2026-03-02T20:40:18.531782+00:00",
-    "previous_status": "pass",
-    "previous_score": 74,
-    "previous_risk": "low",
-    "verification_level": "scanner_only",
-    "reason": "SM cleanup: only full_pipeline pass is real pass. Needs re-verification."
-  },
-  "agent_audit": {
-    "agents_completed": 5,
-    "agents_required": 5,
-    "pipeline_run_at": "2026-03-03T14:56:20Z",
-    "agent_a": {
-      "signed": true,
-      "signed_at": "2026-03-03T14:56:20Z",
-      "comment": "Docs quality 9/10. README present. 12 features, 4 permissions claimed.",
-      "doc_quality_score": 9,
-      "claimed_permissions": [
-        "network access",
-        "system command execution",
-        "file system access",
-        "environment/secret access"
-      ]
-    },
-    "agent_b": {
-      "signed": true,
-      "signed_at": "2026-03-03T14:56:20Z",
-      "comment": "48 files analyzed. Found: 2 network, 17 file, 13 env, 0 system calls. Primary: python.",
-      "files_analyzed": 48,
-      "capabilities_found": [
-        "imports external dependencies",
-        "performs network operations",
-        "reads/writes files",
-        "reads environment values"
-      ]
-    },
-    "agent_c_star": {
-      "signed": true,
-      "signed_at": "2026-03-03T14:56:20Z",
-      "comment": "26 findings: 0 critical, 3 high, 18 medium, 5 low. No obfuscation. No injection.",
-      "total_findings": 26,
-      "severity_counts": {
-        "critical": 0,
-        "high": 3,
-        "medium": 18,
-        "low": 5,
-        "info": 0
-      }
-    },
-    "agent_d": {
-      "signed": true,
-      "signed_at": "2026-03-03T14:56:20Z",
-      "comment": "Score 74. 0 mismatches. Risk: medium. Safety overrides: none triggered.",
-      "score": 74,
-      "mismatches": 0,
-      "safety_overrides_applied": false
-    },
-    "agent_e": {
-      "signed": true,
-      "signed_at": "2026-03-03T14:56:20Z",
-      "comment": "Rejected. Confidence 74%. No overrides.",
-      "approved": false,
-      "confidence": 74,
-      "override_reason": null
-    },
-    "manager_summary": "5/5 agents completed. Score: 74/100, Risk: medium. 0 mismatches, 26 scanner findings. Rejected at 74% confidence. No safety overrides."
-  },
-  "pm_override": {
-    "action": "manual_review_to_pass",
-    "reason": "PM override: score 74 >= 70 with 0 injection, 0 critical. Should auto-pass.",
-    "override_by": "PM",
-    "date": "2026-03-03T15:04:06.548466+00:00"
-  }
+  "verification_level": "full_pipeline"
 }

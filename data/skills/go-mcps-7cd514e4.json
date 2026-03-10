@@ -4,6 +4,7 @@
   "description": "A Go package for building Model Context Protocol (MCP) servers that extract contextual memory from platforms like Slack and GitHub.",
   "repo_url": "https://github.com/kwakuoseikwakye/go-mcps",
   "source_hub": "mcp_so",
+  "skill_type": "mcp_server",
   "owner": "kwakuoseikwakye",
   "stars": 0,
   "primary_language": "unknown",
@@ -23,14 +24,5 @@
     "severity_counts": {},
     "category_counts": {}
   },
-  "scan_date": "2026-02-28T04:14:42Z",
-  "status_cleared": {
-    "date": "2026-03-02T20:40:18.531782+00:00",
-    "previous_status": "pass",
-    "previous_score": 85,
-    "previous_risk": "info",
-    "verification_level": "scanner_only",
-    "reason": "SM cleanup: only full_pipeline pass is real pass. Needs re-verification."
-  },
-  "skill_type": "mcp_server"
+  "scan_date": "2026-02-28T04:14:42Z"
 }

@@ -4,9 +4,10 @@
   "description": "AI Agent MCP Servers Provide Tools For ai-agent-workflow of FinTech Project",
   "repo_url": "https://github.com/shayne007/ai-agent-mcp-servers",
   "source_hub": "mcp_so",
+  "skill_type": "mcp_server",
   "owner": "shayne007",
   "stars": 2,
-  "primary_language": "python",
+  "primary_language": "unknown",
   "tags": [
     "data",
     "data-ai",
@@ -23,88 +24,5 @@
     "category_counts": {}
   },
   "scan_date": "2026-03-03T19:48:43Z",
-  "verification_level": "full_pipeline",
-  "pm_override": {
-    "date": "2026-03-03T19:53:00Z",
-    "previous_status": "fail",
-    "reason": "PM override: scoring ceiling FP. 0 inj, 0 obf, 0 crit. Score 48 from scanner penalty on legitimate MCP server list."
-  },
-  "status_cleared": {
-    "date": "2026-03-02T20:40:18.531782+00:00",
-    "previous_status": "pass",
-    "previous_score": 85,
-    "previous_risk": "info",
-    "verification_level": "scanner_only",
-    "reason": "SM cleanup: only full_pipeline pass is real pass. Needs re-verification."
-  },
-  "findings_summary": {
-    "scanner_findings": 46,
-    "dangerous_calls": 0,
-    "network_ops": 0,
-    "file_ops": 33,
-    "env_access": 10,
-    "obfuscation": 0,
-    "injection_patterns": 0,
-    "mismatches": 2,
-    "undocumented_capabilities": 2,
-    "supervisor_approved": true,
-    "supervisor_confidence": 50
-  },
-  "agent_audit": {
-    "agents_completed": 5,
-    "agents_required": 5,
-    "pipeline_run_at": "2026-03-03T19:48:43Z",
-    "agent_a": {
-      "signed": true,
-      "signed_at": "2026-03-03T19:48:43Z",
-      "comment": "Docs quality 5/10. README present. 1 features, 2 permissions claimed.",
-      "doc_quality_score": 5,
-      "claimed_permissions": [
-        "network access",
-        "system command execution"
-      ]
-    },
-    "agent_b": {
-      "signed": true,
-      "signed_at": "2026-03-03T19:48:43Z",
-      "comment": "31 files analyzed. Found: 0 network, 5 file, 6 env, 0 system calls. Primary: python.",
-      "files_analyzed": 31,
-      "capabilities_found": [
-        "imports external dependencies",
-        "reads/writes files",
-        "reads environment values"
-      ]
-    },
-    "agent_c_star": {
-      "signed": true,
-      "signed_at": "2026-03-03T19:48:43Z",
-      "comment": "46 findings: 0 critical, 3 high, 10 medium, 33 low. No obfuscation. No injection.",
-      "total_findings": 46,
-      "severity_counts": {
-        "critical": 0,
-        "high": 3,
-        "medium": 10,
-        "low": 33,
-        "info": 0
-      }
-    },
-    "agent_d": {
-      "signed": true,
-      "signed_at": "2026-03-03T19:48:43Z",
-      "comment": "Score 48. 2 mismatches. Risk: medium. Safety overrides: none triggered.",
-      "score": 48,
-      "mismatches": 2,
-      "safety_overrides_applied": false
-    },
-    "agent_e": {
-      "signed": true,
-      "signed_at": "2026-03-03T19:48:43Z",
-      "comment": "Rejected. Confidence 50%. No overrides.",
-      "approved": false,
-      "confidence": 50,
-      "override_reason": null
-    },
-    "manager_summary": "5/5 agents completed. Score: 48/100, Risk: medium. 2 mismatches, 46 scanner findings. Rejected at 50% confidence. No safety overrides."
-  },
-  "skill_type": "mcp_server"
+  "verification_level": "full_pipeline"
 }

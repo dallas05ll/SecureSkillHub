@@ -1,0 +1,23 @@
+{
+  "id": "pict-test-designer-24858b61",
+  "name": "pict-test-designer",
+  "description": "Design comprehensive test cases using PICT (Pairwise Independent Combinatorial Testing) for any piece of requirements or code. Analyzes inputs, generates PICT models with parameters, values, and constraints for valid scenarios using pairwise testing. Outputs the PICT model, markdown table of test cases, and expected results.",
+  "repo_url": "https://github.com/omkamal/pypict-claude-skill",
+  "source_hub": "skillsmp",
+  "skill_type": "agent_skill",
+  "owner": "omkamal",
+  "stars": 37,
+  "primary_language": "unknown",
+  "tags": [
+    "agent-skills",
+    "dev-web-frontend",
+    "installs:37"
+  ],
+  "verification_status": "pass",
+  "overall_score": 99,
+  "risk_level": "low",
+  "verified_commit": "a001d8737c70066401cfe1b39cf64969b4d3e5df",
+  "scan_summary": null,
+  "scan_date": "2026-03-03T14:59:51Z",
+  "verification_level": "full_pipeline"
+}

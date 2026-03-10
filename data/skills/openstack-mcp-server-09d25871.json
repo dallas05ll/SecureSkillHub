@@ -1,0 +1,17 @@
+{
+  "id": "openstack-mcp-server-09d25871",
+  "name": "openstack-mcp-server",
+  "description": "A lightweight and extensible service that enables AI assistants to securely execute OpenStack CLI commands via the Model Context Protocol (MCP)",
+  "repo_url": "https://github.com/DragomirAlin/openstack-mcp-server",
+  "source_hub": "mcp_so",
+  "skill_type": "mcp_server",
+  "owner": "DragomirAlin",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null
+}

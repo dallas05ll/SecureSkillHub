@@ -1,12 +1,13 @@
 {
   "id": "mcp-server-sql-19796e9c",
   "name": "mcp-server-sql",
-  "description": "这是一个基于Spring Boot的SQL服务应用，用于执行SQL查询并将结果写入文件。该服务作为Spring AI MCP（Model, Chat, Prompt）框架的一部分，提供了SQL查询和更新操作的功能。",
+  "description": "\u8fd9\u662f\u4e00\u4e2a\u57fa\u4e8eSpring Boot\u7684SQL\u670d\u52a1\u5e94\u7528\uff0c\u7528\u4e8e\u6267\u884cSQL\u67e5\u8be2\u5e76\u5c06\u7ed3\u679c\u5199\u5165\u6587\u4ef6\u3002\u8be5\u670d\u52a1\u4f5c\u4e3aSpring AI MCP\uff08Model, Chat, Prompt\uff09\u6846\u67b6\u7684\u4e00\u90e8\u5206\uff0c\u63d0\u4f9b\u4e86SQL\u67e5\u8be2\u548c\u66f4\u65b0\u64cd\u4f5c\u7684\u529f\u80fd\u3002",
   "repo_url": "https://github.com/cherry-SC/mcp-server-sql",
   "source_hub": "mcp_so",
+  "skill_type": "mcp_server",
   "owner": "cherry-SC",
   "stars": 2,
-  "primary_language": "java",
+  "primary_language": "unknown",
   "tags": [
     "data",
     "data-db",
@@ -24,78 +25,5 @@
     "category_counts": {}
   },
   "scan_date": "2026-03-03T20:05:02Z",
-  "verification_level": "full_pipeline",
-  "status_cleared": {
-    "date": "2026-03-02T20:40:18.531782+00:00",
-    "previous_status": "pass",
-    "previous_score": 85,
-    "previous_risk": "info",
-    "verification_level": "scanner_only",
-    "reason": "SM cleanup: only full_pipeline pass is real pass. Needs re-verification."
-  },
-  "findings_summary": {
-    "scanner_findings": 0,
-    "dangerous_calls": 0,
-    "network_ops": 0,
-    "file_ops": 0,
-    "env_access": 0,
-    "obfuscation": 0,
-    "injection_patterns": 0,
-    "mismatches": 0,
-    "undocumented_capabilities": 0,
-    "supervisor_approved": true,
-    "supervisor_confidence": 95
-  },
-  "agent_audit": {
-    "agents_completed": 5,
-    "agents_required": 5,
-    "pipeline_run_at": "2026-03-03T20:05:02Z",
-    "agent_a": {
-      "signed": true,
-      "signed_at": "2026-03-03T20:05:02Z",
-      "comment": "Docs quality 8/10. README present. 12 features, 0 permissions claimed.",
-      "doc_quality_score": 8,
-      "claimed_permissions": []
-    },
-    "agent_b": {
-      "signed": true,
-      "signed_at": "2026-03-03T20:05:02Z",
-      "comment": "5 files analyzed. Found: 0 network, 0 file, 0 env, 0 system calls. Primary: java.",
-      "files_analyzed": 5,
-      "capabilities_found": [
-        "imports external dependencies"
-      ]
-    },
-    "agent_c_star": {
-      "signed": true,
-      "signed_at": "2026-03-03T20:05:02Z",
-      "comment": "0 findings: 0 critical, 0 high, 0 medium, 0 low. No obfuscation. No injection.",
-      "total_findings": 0,
-      "severity_counts": {
-        "critical": 0,
-        "high": 0,
-        "medium": 0,
-        "low": 0,
-        "info": 0
-      }
-    },
-    "agent_d": {
-      "signed": true,
-      "signed_at": "2026-03-03T20:05:02Z",
-      "comment": "Score 100. 0 mismatches. Risk: info. Safety overrides: none triggered.",
-      "score": 100,
-      "mismatches": 0,
-      "safety_overrides_applied": false
-    },
-    "agent_e": {
-      "signed": true,
-      "signed_at": "2026-03-03T20:05:02Z",
-      "comment": "Approved. Confidence 95%. No overrides.",
-      "approved": true,
-      "confidence": 95,
-      "override_reason": null
-    },
-    "manager_summary": "5/5 agents completed. Score: 100/100, Risk: info. 0 mismatches, 0 scanner findings. Approved at 95% confidence. No safety overrides."
-  },
-  "skill_type": "mcp_server"
+  "verification_level": "full_pipeline"
 }

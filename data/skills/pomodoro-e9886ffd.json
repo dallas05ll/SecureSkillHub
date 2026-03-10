@@ -1,0 +1,23 @@
+{
+  "id": "pomodoro-e9886ffd",
+  "name": "pomodoro",
+  "description": "Simple Pomodoro timer for focused work sessions with session tracking and productivity analytics. Use when users request focus timers, ask about productivity patterns, or want to track work sessions over time. Demonstrates the System Skill Pattern (CLI + SKILL.md + Database).",
+  "repo_url": "https://github.com/jakedahn/pomodoro",
+  "source_hub": "skillsmp",
+  "skill_type": "agent_skill",
+  "owner": "jakedahn",
+  "stars": 28,
+  "primary_language": "unknown",
+  "tags": [
+    "agent-skills",
+    "data-db",
+    "installs:28"
+  ],
+  "verification_status": "pass",
+  "overall_score": 96,
+  "risk_level": "medium",
+  "verified_commit": "9fad5826f029df88d53c537e3676865a73731783",
+  "scan_summary": null,
+  "scan_date": "2026-03-03T16:15:25Z",
+  "verification_level": "full_pipeline"
+}

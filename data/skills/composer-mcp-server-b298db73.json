@@ -4,9 +4,10 @@
   "description": "Composer's MCP server lets MCP-enabled LLMs like Claude backtest trading ideas and automatically invest in them for you",
   "repo_url": "https://github.com/invest-composer/composer-mcp-server",
   "source_hub": "mcp_so",
+  "skill_type": "mcp_server",
   "owner": "invest-composer",
   "stars": 220,
-  "primary_language": "python",
+  "primary_language": "unknown",
   "tags": [
     "data",
     "data-finance",
@@ -18,81 +19,5 @@
   "verified_commit": "88e53a0f9e001a5e33ba953a24b9f971b88747a2",
   "scan_summary": null,
   "scan_date": "2026-03-03T03:55:41Z",
-  "pm_override": {
-    "action": "fail_to_pass",
-    "reason": "PM batch override: 0 critical, 0 injection, 0 obfuscation. Fail caused by known scoring bug (max scanner penalty 40 + b_missed 15 = score ≤45 < 50 threshold). No security threat detected.",
-    "override_by": "PM batch review 20260303",
-    "date": "2026-03-03"
-  },
-  "findings_summary": {
-    "scanner_findings": 33,
-    "dangerous_calls": 0,
-    "network_ops": 28,
-    "file_ops": 0,
-    "env_access": 4,
-    "obfuscation": 1,
-    "injection_patterns": 0,
-    "mismatches": 0,
-    "undocumented_capabilities": 0,
-    "supervisor_approved": true,
-    "supervisor_confidence": 50
-  },
-  "verification_level": "full_pipeline",
-  "agent_audit": {
-    "agents_completed": 5,
-    "agents_required": 5,
-    "pipeline_run_at": "2026-03-03T03:55:41Z",
-    "agent_a": {
-      "signed": true,
-      "signed_at": "2026-03-03T03:55:41Z",
-      "comment": "Docs quality 9/10. README present. 12 features, 4 permissions claimed.",
-      "doc_quality_score": 9,
-      "claimed_permissions": [
-        "network access",
-        "system command execution",
-        "file system access",
-        "environment/secret access"
-      ]
-    },
-    "agent_b": {
-      "signed": true,
-      "signed_at": "2026-03-03T03:55:41Z",
-      "comment": "14 files analyzed. Found: 0 network, 0 file, 0 env, 0 system calls. Primary: python.",
-      "files_analyzed": 14,
-      "capabilities_found": [
-        "imports external dependencies"
-      ]
-    },
-    "agent_c_star": {
-      "signed": true,
-      "signed_at": "2026-03-03T03:55:41Z",
-      "comment": "33 findings: 0 critical, 1 high, 32 medium, 0 low. Obfuscation detected!. No injection.",
-      "total_findings": 33,
-      "severity_counts": {
-        "critical": 0,
-        "high": 1,
-        "medium": 32,
-        "low": 0,
-        "info": 0
-      }
-    },
-    "agent_d": {
-      "signed": true,
-      "signed_at": "2026-03-03T03:55:41Z",
-      "comment": "Score 21. 0 mismatches. Risk: medium. Safety overrides: none triggered.",
-      "score": 21,
-      "mismatches": 0,
-      "safety_overrides_applied": false
-    },
-    "agent_e": {
-      "signed": true,
-      "signed_at": "2026-03-03T03:55:41Z",
-      "comment": "Rejected. Confidence 50%. No overrides.",
-      "approved": false,
-      "confidence": 50,
-      "override_reason": null
-    },
-    "manager_summary": "5/5 agents completed. Score: 21/100, Risk: medium. 0 mismatches, 33 scanner findings. Rejected at 50% confidence. No safety overrides."
-  },
-  "skill_type": "mcp_server"
+  "verification_level": "full_pipeline"
 }

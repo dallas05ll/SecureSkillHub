@@ -1,0 +1,19 @@
+{
+  "id": "misconfiguration-detection-skill-8e33496c",
+  "name": "misconfiguration-detection-skill",
+  "description": "A skill for AI agents to perform misconfiguration detection powered by CoGuard.",
+  "repo_url": "https://github.com/coguardio/misconfiguration-detection-skill",
+  "source_hub": "github_search",
+  "skill_type": "agent_skill",
+  "owner": "coguardio",
+  "stars": 4,
+  "license": "mit",
+  "primary_language": "markdown",
+  "tags": [],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null,
+  "last_updated": "2026-03-10T09:53:45Z"
+}

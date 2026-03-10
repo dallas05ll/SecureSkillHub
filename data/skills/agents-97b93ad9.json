@@ -1,0 +1,23 @@
+{
+  "id": "agents-97b93ad9",
+  "name": "agents",
+  "description": "Use when creating or updating AGENTS.md files, onboarding AI agents to a project, or standardizing agent documentation across repositories.",
+  "repo_url": "https://github.com/netresearch/agents-skill",
+  "source_hub": "skillsmp",
+  "skill_type": "agent_skill",
+  "owner": "netresearch",
+  "stars": 14,
+  "primary_language": "unknown",
+  "tags": [
+    "agent-skills",
+    "data-ai",
+    "installs:11"
+  ],
+  "verification_status": "pass",
+  "overall_score": 60,
+  "risk_level": "medium",
+  "verified_commit": "36e6777b78552ab22e660ee7bdaa19303ca1f1c2",
+  "scan_summary": null,
+  "scan_date": "2026-03-03T17:34:07Z",
+  "verification_level": "full_pipeline"
+}

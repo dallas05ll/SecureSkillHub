@@ -1,0 +1,22 @@
+{
+  "id": "figma-context-mcp-dd61fa8f",
+  "name": "Figma-Context-MCP",
+  "description": "MCP server to provide Figma layout information to AI coding agents like Cursor",
+  "repo_url": "https://github.com/GLips/Figma-Context-MCP",
+  "source_hub": "mcp_so",
+  "skill_type": "mcp_server",
+  "owner": "GLips",
+  "stars": 13248,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 100,
+  "risk_level": "medium",
+  "verified_commit": "c334c33a8b60c2a0dd85cecc102a0437aa8c9106",
+  "scan_summary": null,
+  "scan_date": "2026-03-01T05:57:21Z",
+  "verification_level": "full_pipeline"
+}

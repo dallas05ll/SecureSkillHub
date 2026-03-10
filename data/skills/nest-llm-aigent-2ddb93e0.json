@@ -1,9 +1,10 @@
 {
   "id": "nest-llm-aigent-2ddb93e0",
   "name": "nest-llm-aigent",
-  "description": "Stdio Mcp Server 转为 RestFul，轻松部署与 Web 服务集成, mcp gateway",
+  "description": "Stdio Mcp Server \u8f6c\u4e3a RestFul\uff0c\u8f7b\u677e\u90e8\u7f72\u4e0e Web \u670d\u52a1\u96c6\u6210, mcp gateway",
   "repo_url": "https://github.com/luis1232023/nest-llm-aigent",
   "source_hub": "mcp_so",
+  "skill_type": "mcp_server",
   "owner": "luis1232023",
   "stars": 0,
   "primary_language": "unknown",
@@ -21,14 +22,5 @@
     "severity_counts": {},
     "category_counts": {}
   },
-  "scan_date": "2026-02-28T04:14:41Z",
-  "status_cleared": {
-    "date": "2026-03-02T20:40:18.531782+00:00",
-    "previous_status": "pass",
-    "previous_score": 85,
-    "previous_risk": "info",
-    "verification_level": "scanner_only",
-    "reason": "SM cleanup: only full_pipeline pass is real pass. Needs re-verification."
-  },
-  "skill_type": "mcp_server"
+  "scan_date": "2026-02-28T04:14:41Z"
 }

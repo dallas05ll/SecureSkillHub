@@ -4,9 +4,10 @@
   "description": "A MCP server that provides Chrome DevTools Protocol access to LLMs",
   "repo_url": "https://github.com/stefanli/devtools-mcp",
   "source_hub": "mcp_so",
+  "skill_type": "mcp_server",
   "owner": "stefanli",
   "stars": 26,
-  "primary_language": "typescript",
+  "primary_language": "unknown",
   "tags": [
     "integ",
     "util"
@@ -17,88 +18,5 @@
   "verified_commit": "4640cd42b1ec86999ac51e37adcfba42f2edd31f",
   "scan_summary": null,
   "scan_date": "2026-03-03T16:18:30Z",
-  "verification_level": "full_pipeline",
-  "status_cleared": {
-    "date": "2026-03-02T20:40:18.531782+00:00",
-    "previous_status": "pass",
-    "previous_score": 85,
-    "previous_risk": "info",
-    "verification_level": "scanner_only",
-    "reason": "SM cleanup: only full_pipeline pass is real pass. Needs re-verification."
-  },
-  "findings_summary": {
-    "scanner_findings": 6,
-    "dangerous_calls": 0,
-    "network_ops": 2,
-    "file_ops": 2,
-    "env_access": 0,
-    "obfuscation": 1,
-    "injection_patterns": 0,
-    "mismatches": 1,
-    "undocumented_capabilities": 1,
-    "supervisor_approved": true,
-    "supervisor_confidence": 68
-  },
-  "agent_audit": {
-    "agents_completed": 5,
-    "agents_required": 5,
-    "pipeline_run_at": "2026-03-03T16:18:30Z",
-    "agent_a": {
-      "signed": true,
-      "signed_at": "2026-03-03T16:18:30Z",
-      "comment": "Docs quality 7/10. README present. 7 features, 2 permissions claimed.",
-      "doc_quality_score": 7,
-      "claimed_permissions": [
-        "system command execution",
-        "file system access"
-      ]
-    },
-    "agent_b": {
-      "signed": true,
-      "signed_at": "2026-03-03T16:18:30Z",
-      "comment": "7 files analyzed. Found: 2 network, 0 file, 0 env, 0 system calls. Primary: typescript.",
-      "files_analyzed": 7,
-      "capabilities_found": [
-        "imports external dependencies",
-        "performs network operations"
-      ]
-    },
-    "agent_c_star": {
-      "signed": true,
-      "signed_at": "2026-03-03T16:18:30Z",
-      "comment": "6 findings: 0 critical, 2 high, 2 medium, 2 low. Obfuscation detected!. No injection.",
-      "total_findings": 6,
-      "severity_counts": {
-        "critical": 0,
-        "high": 2,
-        "medium": 2,
-        "low": 2,
-        "info": 0
-      }
-    },
-    "agent_d": {
-      "signed": true,
-      "signed_at": "2026-03-03T16:18:30Z",
-      "comment": "Score 68. 1 mismatches. Risk: medium. Safety overrides: none triggered.",
-      "score": 68,
-      "mismatches": 1,
-      "safety_overrides_applied": false
-    },
-    "agent_e": {
-      "signed": true,
-      "signed_at": "2026-03-03T16:18:30Z",
-      "comment": "Rejected. Confidence 68%. No overrides.",
-      "approved": false,
-      "confidence": 68,
-      "override_reason": null
-    },
-    "manager_summary": "5/5 agents completed. Score: 68/100, Risk: medium. 1 mismatches, 6 scanner findings. Rejected at 68% confidence. No safety overrides."
-  },
-  "pm_override": {
-    "action": "manual_review_to_pass",
-    "reason": "MR auto-clear: 0 injection, 0 critical. Score in 50-79 range. Per Score Interpretation Guide.",
-    "override_by": "PM",
-    "override_date": "2026-03-03T16:20:07Z"
-  },
-  "skill_type": "mcp_server"
+  "verification_level": "full_pipeline"
 }

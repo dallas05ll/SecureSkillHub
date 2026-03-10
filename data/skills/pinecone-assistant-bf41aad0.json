@@ -1,0 +1,23 @@
+{
+  "id": "pinecone-assistant-bf41aad0",
+  "name": "pinecone-assistant",
+  "description": "Main skill for all Pinecone Assistant operations. Read this first! Create, manage, and chat with Pinecone Assistants for document Q&A. Automatically recognizes natural language requests like \"create an assistant from my docs\" or \"ask my assistant about authentication\" without requiring slash commands. ALWAYS invoke when using Pinecone Assistant related commands",
+  "repo_url": "https://github.com/pinecone-io/pinecone-claude-code-plugin",
+  "source_hub": "skillsmp",
+  "skill_type": "agent_skill",
+  "owner": "pinecone-io",
+  "stars": 40,
+  "primary_language": "unknown",
+  "tags": [
+    "agent-skills",
+    "dev-web-frontend",
+    "installs:40"
+  ],
+  "verification_status": "pass",
+  "overall_score": 76,
+  "risk_level": "medium",
+  "verified_commit": "022eb355120838567dd4974217a01957494410ee",
+  "scan_summary": null,
+  "scan_date": "2026-03-03T14:59:05Z",
+  "verification_level": "full_pipeline"
+}

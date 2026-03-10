@@ -4,9 +4,10 @@
   "description": "The Cursor Memory MCP Server provides a powerful tool to assist in coding with cursor, enpower cursor to operate with memory, make coding taste much more dilicious",
   "repo_url": "https://github.com/zjmwqx/cursor-memory-mcp",
   "source_hub": "mcp_so",
+  "skill_type": "mcp_server",
   "owner": "zjmwqx",
   "stars": 1,
-  "primary_language": "python",
+  "primary_language": "unknown",
   "tags": [
     "util"
   ],
@@ -21,90 +22,5 @@
     "category_counts": {}
   },
   "scan_date": "2026-03-03T20:27:29Z",
-  "verification_level": "full_pipeline",
-  "status_cleared": {
-    "date": "2026-03-02T20:40:18.531782+00:00",
-    "previous_status": "pass",
-    "previous_score": 85,
-    "previous_risk": "info",
-    "verification_level": "scanner_only",
-    "reason": "SM cleanup: only full_pipeline pass is real pass. Needs re-verification."
-  },
-  "pm_override": {
-    "date": "2026-03-03T20:31:00Z",
-    "previous_status": "fail",
-    "reason": "PM override: vendored deps FP. 0 inj, 1 low-risk obf, 0 crit."
-  },
-  "findings_summary": {
-    "scanner_findings": 33,
-    "dangerous_calls": 0,
-    "network_ops": 0,
-    "file_ops": 31,
-    "env_access": 1,
-    "obfuscation": 1,
-    "injection_patterns": 0,
-    "mismatches": 0,
-    "undocumented_capabilities": 0,
-    "supervisor_approved": true,
-    "supervisor_confidence": 90
-  },
-  "agent_audit": {
-    "agents_completed": 5,
-    "agents_required": 5,
-    "pipeline_run_at": "2026-03-03T20:27:29Z",
-    "agent_a": {
-      "signed": true,
-      "signed_at": "2026-03-03T20:27:29Z",
-      "comment": "Docs quality 9/10. README present. 12 features, 4 permissions claimed.",
-      "doc_quality_score": 9,
-      "claimed_permissions": [
-        "network access",
-        "system command execution",
-        "file system access",
-        "environment/secret access"
-      ]
-    },
-    "agent_b": {
-      "signed": true,
-      "signed_at": "2026-03-03T20:27:29Z",
-      "comment": "11 files analyzed. Found: 0 network, 13 file, 1 env, 0 system calls. Primary: python.",
-      "files_analyzed": 11,
-      "capabilities_found": [
-        "imports external dependencies",
-        "reads/writes files",
-        "reads environment values"
-      ]
-    },
-    "agent_c_star": {
-      "signed": true,
-      "signed_at": "2026-03-03T20:27:29Z",
-      "comment": "33 findings: 0 critical, 1 high, 1 medium, 31 low. Obfuscation detected!. No injection.",
-      "total_findings": 33,
-      "severity_counts": {
-        "critical": 0,
-        "high": 1,
-        "medium": 1,
-        "low": 31,
-        "info": 0
-      }
-    },
-    "agent_d": {
-      "signed": true,
-      "signed_at": "2026-03-03T20:27:29Z",
-      "comment": "Score 15. 0 mismatches. Risk: critical. Safety overrides: applied.",
-      "score": 15,
-      "mismatches": 0,
-      "safety_overrides_applied": true
-    },
-    "agent_e": {
-      "signed": true,
-      "signed_at": "2026-03-03T20:27:29Z",
-      "comment": "Rejected. Confidence 90%. Deterministic override: high-risk obfuscation detected.",
-      "approved": false,
-      "confidence": 90,
-      "override_reason": "Deterministic override: high-risk obfuscation detected."
-    },
-    "manager_summary": "5/5 agents completed. Score: 15/100, Risk: critical. 0 mismatches, 33 scanner findings. Rejected at 90% confidence. Safety overrides triggered."
-  },
-  "skill_type": "mcp_server"
+  "verification_level": "full_pipeline"
 }

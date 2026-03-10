@@ -1,0 +1,23 @@
+{
+  "id": "integration-b0ce0497",
+  "name": "integration",
+  "description": "Use this skill when working with Playgama Bridge SDK for Unity games. Activates for game development involving cross-platform publishing, advertisements, in-app purchases, leaderboards, or social features using Playgama Bridge in Unity/C#.",
+  "repo_url": "https://github.com/playgama/bridge-claude-plugins",
+  "source_hub": "skillsmp",
+  "skill_type": "agent_skill",
+  "owner": "playgama",
+  "stars": 10,
+  "primary_language": "unknown",
+  "tags": [
+    "agent-skills",
+    "dev-devops",
+    "installs:10"
+  ],
+  "verification_status": "pass",
+  "overall_score": 100,
+  "risk_level": "info",
+  "verified_commit": "825e2a195e7c0a3765d6d94444b11e3ae55ebe04",
+  "scan_summary": null,
+  "scan_date": "2026-03-03T17:37:21Z",
+  "verification_level": "full_pipeline"
+}

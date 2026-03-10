@@ -1,0 +1,23 @@
+{
+  "id": "beads-schema-65350b35",
+  "name": "beads-schema",
+  "description": "Beads (bd CLI) reference \u2014 issue types, statuses, priorities, dependencies, and common commands",
+  "repo_url": "https://github.com/gantisstorm/essentials-claude-code",
+  "source_hub": "skillsmp",
+  "skill_type": "agent_skill",
+  "owner": "gantisstorm",
+  "stars": 82,
+  "primary_language": "unknown",
+  "tags": [
+    "agent-skills",
+    "dev-devops",
+    "installs:71"
+  ],
+  "verification_status": "pass",
+  "overall_score": 62,
+  "risk_level": "medium",
+  "verified_commit": "8caeb0ca2ce8f51cf575532af7494530001c8a2b",
+  "scan_summary": null,
+  "scan_date": "2026-03-03T14:51:21Z",
+  "verification_level": "full_pipeline"
+}

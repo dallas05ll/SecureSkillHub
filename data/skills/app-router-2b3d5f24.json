@@ -1,0 +1,23 @@
+{
+  "id": "app-router-2b3d5f24",
+  "name": "app-router",
+  "description": "This skill should be used when the user asks to \"create a Next.js route\", \"add a page\", \"set up layouts\", \"implement loading states\", \"add error boundaries\", \"organize routes\", \"create dynamic routes\", or needs guidance on Next.js App Router file conventions and routing patterns.",
+  "repo_url": "https://github.com/davepoon/buildwithclaude",
+  "source_hub": "skillsmp",
+  "skill_type": "agent_skill",
+  "owner": "davepoon",
+  "stars": 2492,
+  "primary_language": "unknown",
+  "tags": [
+    "agent-skills",
+    "dev-web-frontend",
+    "installs:2442"
+  ],
+  "verification_status": "pass",
+  "overall_score": 45,
+  "risk_level": "medium",
+  "verified_commit": "a13c91daf70e001592fcc256c02d03766f24209d",
+  "scan_summary": null,
+  "scan_date": "2026-03-01T07:22:56Z",
+  "verification_level": "full_pipeline"
+}

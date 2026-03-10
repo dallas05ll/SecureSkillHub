@@ -5165,6 +5165,52 @@
           "+6623 unverified delta"
         ]
       }
+    },
+    {
+      "timestamp": "2026-03-10T19:28:22.120835+00:00",
+      "check_type": "crawl_reachability",
+      "findings": {
+        "source": "github_search",
+        "total_checked": 302,
+        "reachable": 302,
+        "unreachable": 0
+      }
+    },
+    {
+      "timestamp": "2026-03-10T19:28:22.148155+00:00",
+      "check_type": "crawl_run",
+      "findings": {
+        "source": "github_search",
+        "total_discovered": 302,
+        "already_existing": 0,
+        "new_checked": 302,
+        "reachable": 302,
+        "unreachable_skipped": 0,
+        "written": 302
+      }
+    },
+    {
+      "timestamp": "2026-03-10T19:31:36.532783+00:00",
+      "check_type": "crawl_reachability",
+      "findings": {
+        "source": "batch_crawl",
+        "total_checked": 12186,
+        "reachable": 10273,
+        "unreachable": 1913
+      }
+    },
+    {
+      "timestamp": "2026-03-10T19:31:38.114361+00:00",
+      "check_type": "crawl_run",
+      "findings": {
+        "source": "batch_crawl",
+        "total_discovered": 16163,
+        "after_dedup": 12186,
+        "reachable": 10273,
+        "unreachable_skipped": 1913,
+        "written": 10273,
+        "merged": 9143
+      }
     }
   ],
   "last_check": "2026-03-05T03:08:42.334922+00:00",

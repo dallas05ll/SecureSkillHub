@@ -1,12 +1,13 @@
 {
   "id": "china-festival-mcp-58f1d741",
   "name": "china-festival-mcp",
-  "description": "一个基于模型上下文协议（MCP）的中国节假日和农历信息服务器，为AI助手提供准确的法定节假日、调休安排、中国传统节日、农历转换、二十四节气和八字计算功能。西方节日都是固定公历日期，不需要查询工具。\r\n\r\n项目地址：https://github.com/Eis4TY/china-festival-mcp",
+  "description": "\u4e00\u4e2a\u57fa\u4e8e\u6a21\u578b\u4e0a\u4e0b\u6587\u534f\u8bae\uff08MCP\uff09\u7684\u4e2d\u56fd\u8282\u5047\u65e5\u548c\u519c\u5386\u4fe1\u606f\u670d\u52a1\u5668\uff0c\u4e3aAI\u52a9\u624b\u63d0\u4f9b\u51c6\u786e\u7684\u6cd5\u5b9a\u8282\u5047\u65e5\u3001\u8c03\u4f11\u5b89\u6392\u3001\u4e2d\u56fd\u4f20\u7edf\u8282\u65e5\u3001\u519c\u5386\u8f6c\u6362\u3001\u4e8c\u5341\u56db\u8282\u6c14\u548c\u516b\u5b57\u8ba1\u7b97\u529f\u80fd\u3002\u897f\u65b9\u8282\u65e5\u90fd\u662f\u56fa\u5b9a\u516c\u5386\u65e5\u671f\uff0c\u4e0d\u9700\u8981\u67e5\u8be2\u5de5\u5177\u3002\r\n\r\n\u9879\u76ee\u5730\u5740\uff1ahttps://github.com/Eis4TY/china-festival-mcp",
   "repo_url": "https://github.com/Eis4TY/china-festival-mcp",
   "source_hub": "mcp_so",
+  "skill_type": "mcp_server",
   "owner": "Eis4TY",
   "stars": 1,
-  "primary_language": "python",
+  "primary_language": "unknown",
   "tags": [
     "integ",
     "util"
@@ -22,82 +23,5 @@
     "category_counts": {}
   },
   "scan_date": "2026-03-03T20:22:54Z",
-  "verification_level": "full_pipeline",
-  "status_cleared": {
-    "date": "2026-03-02T20:40:18.531782+00:00",
-    "previous_status": "pass",
-    "previous_score": 85,
-    "previous_risk": "info",
-    "verification_level": "scanner_only",
-    "reason": "SM cleanup: only full_pipeline pass is real pass. Needs re-verification."
-  },
-  "findings_summary": {
-    "scanner_findings": 2,
-    "dangerous_calls": 0,
-    "network_ops": 2,
-    "file_ops": 0,
-    "env_access": 0,
-    "obfuscation": 0,
-    "injection_patterns": 0,
-    "mismatches": 0,
-    "undocumented_capabilities": 0,
-    "supervisor_approved": true,
-    "supervisor_confidence": 95
-  },
-  "agent_audit": {
-    "agents_completed": 5,
-    "agents_required": 5,
-    "pipeline_run_at": "2026-03-03T20:22:54Z",
-    "agent_a": {
-      "signed": true,
-      "signed_at": "2026-03-03T20:22:54Z",
-      "comment": "Docs quality 9/10. README present. 11 features, 3 permissions claimed.",
-      "doc_quality_score": 9,
-      "claimed_permissions": [
-        "network access",
-        "system command execution",
-        "file system access"
-      ]
-    },
-    "agent_b": {
-      "signed": true,
-      "signed_at": "2026-03-03T20:22:54Z",
-      "comment": "12 files analyzed. Found: 0 network, 0 file, 0 env, 0 system calls. Primary: python.",
-      "files_analyzed": 12,
-      "capabilities_found": [
-        "imports external dependencies"
-      ]
-    },
-    "agent_c_star": {
-      "signed": true,
-      "signed_at": "2026-03-03T20:22:54Z",
-      "comment": "2 findings: 0 critical, 0 high, 2 medium, 0 low. No obfuscation. No injection.",
-      "total_findings": 2,
-      "severity_counts": {
-        "critical": 0,
-        "high": 0,
-        "medium": 2,
-        "low": 0,
-        "info": 0
-      }
-    },
-    "agent_d": {
-      "signed": true,
-      "signed_at": "2026-03-03T20:22:54Z",
-      "comment": "Score 98. 0 mismatches. Risk: medium. Safety overrides: none triggered.",
-      "score": 98,
-      "mismatches": 0,
-      "safety_overrides_applied": false
-    },
-    "agent_e": {
-      "signed": true,
-      "signed_at": "2026-03-03T20:22:54Z",
-      "comment": "Approved. Confidence 95%. No overrides.",
-      "approved": true,
-      "confidence": 95,
-      "override_reason": null
-    },
-    "manager_summary": "5/5 agents completed. Score: 98/100, Risk: medium. 0 mismatches, 2 scanner findings. Approved at 95% confidence. No safety overrides."
-  },
-  "skill_type": "mcp_server"
+  "verification_level": "full_pipeline"
 }

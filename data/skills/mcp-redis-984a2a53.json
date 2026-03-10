@@ -4,9 +4,10 @@
   "description": "The official Redis MCP Server is a natural language interface designed for agentic applications to manage and search data in Redis efficiently",
   "repo_url": "https://github.com/redis/mcp-redis",
   "source_hub": "mcp_so",
+  "skill_type": "mcp_server",
   "owner": "redis",
   "stars": 432,
-  "primary_language": "python",
+  "primary_language": "unknown",
   "tags": [
     "data",
     "data-ai",
@@ -26,91 +27,5 @@
     "category_counts": {}
   },
   "scan_date": "2026-03-03T03:49:16Z",
-  "verification_level": "full_pipeline",
-  "status_cleared": {
-    "date": "2026-03-02T20:40:18.531782+00:00",
-    "previous_status": "pass",
-    "previous_score": 85,
-    "previous_risk": "info",
-    "verification_level": "scanner_only",
-    "reason": "SM cleanup: only full_pipeline pass is real pass. Needs re-verification."
-  },
-  "findings_summary": {
-    "scanner_findings": 40,
-    "dangerous_calls": 2,
-    "network_ops": 1,
-    "file_ops": 0,
-    "env_access": 36,
-    "obfuscation": 0,
-    "injection_patterns": 0,
-    "mismatches": 0,
-    "undocumented_capabilities": 0,
-    "supervisor_approved": true,
-    "supervisor_confidence": 50
-  },
-  "agent_audit": {
-    "agents_completed": 5,
-    "agents_required": 5,
-    "pipeline_run_at": "2026-03-03T03:49:16Z",
-    "agent_a": {
-      "signed": true,
-      "signed_at": "2026-03-03T03:49:16Z",
-      "comment": "Docs quality 9/10. README present. 12 features, 4 permissions claimed.",
-      "doc_quality_score": 9,
-      "claimed_permissions": [
-        "network access",
-        "system command execution",
-        "file system access",
-        "environment/secret access"
-      ]
-    },
-    "agent_b": {
-      "signed": true,
-      "signed_at": "2026-03-03T03:49:16Z",
-      "comment": "47 files analyzed. Found: 0 network, 0 file, 12 env, 1 system calls. Primary: python.",
-      "files_analyzed": 47,
-      "capabilities_found": [
-        "imports external dependencies",
-        "reads environment values",
-        "executes system commands"
-      ]
-    },
-    "agent_c_star": {
-      "signed": true,
-      "signed_at": "2026-03-03T03:49:16Z",
-      "comment": "40 findings: 0 critical, 3 high, 37 medium, 0 low. No obfuscation. No injection.",
-      "total_findings": 40,
-      "severity_counts": {
-        "critical": 0,
-        "high": 3,
-        "medium": 37,
-        "low": 0,
-        "info": 0
-      }
-    },
-    "agent_d": {
-      "signed": true,
-      "signed_at": "2026-03-03T03:49:16Z",
-      "comment": "Score 45. 0 mismatches. Risk: medium. Safety overrides: none triggered.",
-      "score": 45,
-      "mismatches": 0,
-      "safety_overrides_applied": false
-    },
-    "agent_e": {
-      "signed": true,
-      "signed_at": "2026-03-03T03:49:16Z",
-      "comment": "Rejected. Confidence 50%. No overrides.",
-      "approved": false,
-      "confidence": 50,
-      "override_reason": null
-    },
-    "manager_summary": "5/5 agents completed. Score: 45/100, Risk: medium. 0 mismatches, 40 scanner findings. Rejected at 50% confidence. No safety overrides."
-  },
-  "pm_override": {
-    "action": "fail_to_pass",
-    "reason": "PM batch override: 0 critical, 0 injection, 0 obfuscation. Fail caused by known scoring bug (max scanner penalty 40 + b_missed 15 = score ≤45 < 50 threshold). No security threat detected.",
-    "override_by": "PM batch review 20260303",
-    "date": "2026-03-03"
-  },
-  "skill_type": "mcp_server"
+  "verification_level": "full_pipeline"
 }

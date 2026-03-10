@@ -1,9 +1,10 @@
 {
   "id": "java-mcp-server-fbc05a4f",
   "name": "java_mcp_server",
-  "description": "Java 환경에서 MCP 서버를 구축하여 Claude Client와 연결해보자",
+  "description": "Java \ud658\uacbd\uc5d0\uc11c MCP \uc11c\ubc84\ub97c \uad6c\ucd95\ud558\uc5ec Claude Client\uc640 \uc5f0\uacb0\ud574\ubcf4\uc790",
   "repo_url": "https://github.com/seonghoo1217/java_mcp_server",
   "source_hub": "mcp_so",
+  "skill_type": "mcp_server",
   "owner": "seonghoo1217",
   "stars": 0,
   "primary_language": "unknown",
@@ -21,14 +22,5 @@
     "severity_counts": {},
     "category_counts": {}
   },
-  "scan_date": "2026-02-28T04:14:42Z",
-  "status_cleared": {
-    "date": "2026-03-02T20:40:18.531782+00:00",
-    "previous_status": "pass",
-    "previous_score": 85,
-    "previous_risk": "info",
-    "verification_level": "scanner_only",
-    "reason": "SM cleanup: only full_pipeline pass is real pass. Needs re-verification."
-  },
-  "skill_type": "mcp_server"
+  "scan_date": "2026-02-28T04:14:42Z"
 }

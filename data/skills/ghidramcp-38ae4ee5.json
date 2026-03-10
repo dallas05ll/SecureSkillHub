@@ -1,0 +1,22 @@
+{
+  "id": "ghidramcp-38ae4ee5",
+  "name": "GhidraMCP",
+  "description": "MCP Server for Ghidra",
+  "repo_url": "https://github.com/LaurieWired/GhidraMCP",
+  "source_hub": "mcp_so",
+  "skill_type": "mcp_server",
+  "owner": "LaurieWired",
+  "stars": 7712,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 100,
+  "risk_level": "medium",
+  "verified_commit": "27f316f80139e2d5dec882519a1bdf4aa46ac04c",
+  "scan_summary": null,
+  "scan_date": "2026-03-01T05:57:29Z",
+  "verification_level": "full_pipeline"
+}

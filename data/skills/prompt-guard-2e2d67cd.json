@@ -1,0 +1,23 @@
+{
+  "id": "prompt-guard-2e2d67cd",
+  "name": "prompt-guard",
+  "description": "Meta's 86M prompt injection and jailbreak detector. Filters malicious prompts and third-party data for LLM apps. 99%+ TPR, <1% FPR. Fast (<2ms GPU). Multilingual (8 languages). Deploy with HuggingFace or batch processing for RAG security.",
+  "repo_url": "https://github.com/orchestra-research/ai-research-skills",
+  "source_hub": "skillsmp",
+  "skill_type": "agent_skill",
+  "owner": "orchestra-research",
+  "stars": 3936,
+  "primary_language": "unknown",
+  "tags": [
+    "agent-skills",
+    "dev-devops",
+    "installs:3574"
+  ],
+  "verification_status": "pass",
+  "overall_score": 25,
+  "risk_level": "medium",
+  "verified_commit": "8a14d269df6f44ee4ecae2de542a09800e42d829",
+  "scan_summary": null,
+  "scan_date": "2026-03-01T07:21:45Z",
+  "verification_level": "full_pipeline"
+}

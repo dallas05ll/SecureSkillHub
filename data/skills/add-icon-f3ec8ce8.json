@@ -7,101 +7,17 @@
   "skill_type": "agent_skill",
   "owner": "wei",
   "stars": 0,
-  "primary_language": "typescript",
+  "primary_language": "unknown",
   "tags": [
     "agent-skills",
-    "installs:2157",
-    "status-pass",
-    "util"
+    "dev-web-frontend",
+    "installs:2157"
   ],
   "verification_status": "pass",
   "overall_score": 65,
   "risk_level": "medium",
   "verified_commit": "ec0151e5916dc0497bfcf2e5ef26d3e0508dbd83",
   "scan_summary": null,
-  "repo_status": "available",
-  "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
-  "repo_check_error": null,
   "scan_date": "2026-03-04T17:59:30Z",
-  "findings_summary": {
-    "scanner_findings": 30,
-    "dangerous_calls": 0,
-    "network_ops": 10,
-    "file_ops": 1,
-    "env_access": 13,
-    "obfuscation": 1,
-    "injection_patterns": 0,
-    "mismatches": 0,
-    "undocumented_capabilities": 0,
-    "supervisor_approved": true,
-    "supervisor_confidence": 65
-  },
-  "verification_level": "full_pipeline",
-  "agent_audit": {
-    "agents_completed": 5,
-    "agents_required": 5,
-    "pipeline_run_at": "2026-03-04T17:59:30Z",
-    "agent_a": {
-      "signed": true,
-      "signed_at": "2026-03-04T17:59:30Z",
-      "comment": "Docs quality 9/10. README present. 12 features, 4 permissions claimed.",
-      "doc_quality_score": 9,
-      "claimed_permissions": [
-        "network access",
-        "system command execution",
-        "file system access",
-        "environment/secret access"
-      ]
-    },
-    "agent_b": {
-      "signed": true,
-      "signed_at": "2026-03-04T17:59:30Z",
-      "comment": "74 files analyzed. Found: 10 network, 1 file, 14 env, 0 system calls. Primary: typescript.",
-      "files_analyzed": 74,
-      "capabilities_found": [
-        "imports external dependencies",
-        "performs network operations",
-        "reads/writes files",
-        "reads environment values"
-      ]
-    },
-    "agent_c_star": {
-      "signed": true,
-      "signed_at": "2026-03-04T17:59:30Z",
-      "comment": "30 findings: 0 critical, 6 high, 23 medium, 1 low. Obfuscation detected!. No injection.",
-      "total_findings": 30,
-      "severity_counts": {
-        "critical": 0,
-        "high": 6,
-        "medium": 23,
-        "low": 1,
-        "info": 0
-      }
-    },
-    "agent_d": {
-      "signed": true,
-      "signed_at": "2026-03-04T17:59:30Z",
-      "comment": "Score 65. 0 mismatches. Risk: medium. Safety overrides: none triggered.",
-      "score": 65,
-      "mismatches": 0,
-      "safety_overrides_applied": false
-    },
-    "agent_e": {
-      "signed": true,
-      "signed_at": "2026-03-04T17:59:30Z",
-      "comment": "Rejected. Confidence 65%. No overrides.",
-      "approved": false,
-      "confidence": 65,
-      "override_reason": null
-    },
-    "manager_summary": "5/5 agents completed. Score: 65/100, Risk: medium. 0 mismatches, 30 scanner findings. Rejected at 65% confidence. No safety overrides.",
-    "auto_clear": {
-      "applied": true,
-      "reason": "Auto-clear Cat 1: clean profile (0 inj, 0 obf_hr, 0 crit, score=65)",
-      "original_status": "manual_review",
-      "original_score": 65
-    }
-  },
-  "installs": 2157,
-  "has_plugin_json": false
+  "verification_level": "full_pipeline"
 }

@@ -1,0 +1,23 @@
+{
+  "id": "context7-mcp-d80e8686",
+  "name": "context7-mcp",
+  "description": "Context7 MCP Server",
+  "repo_url": "https://github.com/upstash/context7-mcp",
+  "source_hub": "mcp_so",
+  "skill_type": "mcp_server",
+  "owner": "upstash",
+  "stars": 46887,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "prod",
+    "prod-docs"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "high",
+  "verified_commit": "dfe9863f306b12e488196d6f90623979fba172bf",
+  "scan_summary": null,
+  "scan_date": "2026-03-01T05:57:17Z",
+  "verification_level": "full_pipeline"
+}

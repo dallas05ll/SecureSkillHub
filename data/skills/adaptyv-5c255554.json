@@ -1,0 +1,23 @@
+{
+  "id": "adaptyv-5c255554",
+  "name": "adaptyv",
+  "description": "Cloud laboratory platform for automated protein testing and validation. Use when designing proteins and needing experimental validation including binding assays, expression testing, thermostability measurements, enzyme activity assays, or protein sequence optimization. Also use for submitting experiments via API, tracking experiment status, downloading results, optimizing protein sequences for better expression using computational tools (NetSolP, SoluProt, SolubleMPNN, ESM), or managing prote...",
+  "repo_url": "https://github.com/k-dense-ai/claude-scientific-skills",
+  "source_hub": "skillsmp",
+  "skill_type": "agent_skill",
+  "owner": "k-dense-ai",
+  "stars": 9302,
+  "primary_language": "unknown",
+  "tags": [
+    "agent-skills",
+    "dev-web-backend",
+    "installs:8815"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "high",
+  "verified_commit": "29c869326e92bc0da492f7f87bfedad1d9658a58",
+  "scan_summary": null,
+  "scan_date": "2026-03-01T05:57:29Z",
+  "verification_level": "full_pipeline"
+}

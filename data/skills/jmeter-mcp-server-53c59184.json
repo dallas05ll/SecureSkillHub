@@ -1,12 +1,13 @@
 {
   "id": "jmeter-mcp-server-53c59184",
   "name": "jmeter-mcp-server",
-  "description": "✨ JMeter Meets AI Workflows: Introducing the JMeter MCP Server! 🤯",
+  "description": "\u2728 JMeter Meets AI Workflows: Introducing the JMeter MCP Server! \ud83e\udd2f",
   "repo_url": "https://github.com/QAInsights/jmeter-mcp-server",
   "source_hub": "mcp_so",
+  "skill_type": "mcp_server",
   "owner": "QAInsights",
   "stars": 61,
-  "primary_language": "python",
+  "primary_language": "unknown",
   "tags": [
     "integ",
     "util"
@@ -22,92 +23,5 @@
     "category_counts": {}
   },
   "scan_date": "2026-03-03T14:55:37Z",
-  "verification_level": "full_pipeline",
-  "status_cleared": {
-    "date": "2026-03-02T20:40:18.531782+00:00",
-    "previous_status": "pass",
-    "previous_score": 85,
-    "previous_risk": "info",
-    "verification_level": "scanner_only",
-    "reason": "SM cleanup: only full_pipeline pass is real pass. Needs re-verification."
-  },
-  "findings_summary": {
-    "scanner_findings": 62,
-    "dangerous_calls": 2,
-    "network_ops": 0,
-    "file_ops": 53,
-    "env_access": 7,
-    "obfuscation": 0,
-    "injection_patterns": 0,
-    "mismatches": 0,
-    "undocumented_capabilities": 0,
-    "supervisor_approved": true,
-    "supervisor_confidence": 63
-  },
-  "agent_audit": {
-    "agents_completed": 5,
-    "agents_required": 5,
-    "pipeline_run_at": "2026-03-03T14:55:37Z",
-    "agent_a": {
-      "signed": true,
-      "signed_at": "2026-03-03T14:55:37Z",
-      "comment": "Docs quality 9/10. README present. 12 features, 4 permissions claimed.",
-      "doc_quality_score": 9,
-      "claimed_permissions": [
-        "network access",
-        "system command execution",
-        "file system access",
-        "environment/secret access"
-      ]
-    },
-    "agent_b": {
-      "signed": true,
-      "signed_at": "2026-03-03T14:55:37Z",
-      "comment": "33 files analyzed. Found: 0 network, 10 file, 5 env, 2 system calls. Primary: python.",
-      "files_analyzed": 33,
-      "capabilities_found": [
-        "imports external dependencies",
-        "reads/writes files",
-        "reads environment values",
-        "executes system commands"
-      ]
-    },
-    "agent_c_star": {
-      "signed": true,
-      "signed_at": "2026-03-03T14:55:37Z",
-      "comment": "62 findings: 0 critical, 2 high, 7 medium, 53 low. No obfuscation. No injection.",
-      "total_findings": 62,
-      "severity_counts": {
-        "critical": 0,
-        "high": 2,
-        "medium": 7,
-        "low": 53,
-        "info": 0
-      }
-    },
-    "agent_d": {
-      "signed": true,
-      "signed_at": "2026-03-03T14:55:37Z",
-      "comment": "Score 63. 0 mismatches. Risk: medium. Safety overrides: none triggered.",
-      "score": 63,
-      "mismatches": 0,
-      "safety_overrides_applied": false
-    },
-    "agent_e": {
-      "signed": true,
-      "signed_at": "2026-03-03T14:55:37Z",
-      "comment": "Rejected. Confidence 63%. No overrides.",
-      "approved": false,
-      "confidence": 63,
-      "override_reason": null
-    },
-    "manager_summary": "5/5 agents completed. Score: 63/100, Risk: medium. 0 mismatches, 62 scanner findings. Rejected at 63% confidence. No safety overrides."
-  },
-  "pm_override": {
-    "action": "manual_review_to_pass",
-    "reason": "PM override: score 63 in 50-69 range, 0 injection, 0 critical. Known FP scoring range.",
-    "override_by": "PM",
-    "date": "2026-03-03T15:04:06.548466+00:00"
-  },
-  "skill_type": "mcp_server"
+  "verification_level": "full_pipeline"
 }

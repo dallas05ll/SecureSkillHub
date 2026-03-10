@@ -1,0 +1,23 @@
+{
+  "id": "binary-analysis-6ec14f1c",
+  "name": "binary-analysis",
+  "description": "Analyze binary files (exe, dll, sys, bin, ocx, scr, cpl, drv) to assess if they are malicious, perform decompilation, extract strings/imports/exports, detect malware, and provide threat assessment. Use this skill when user asks to analyze, examine, check, or assess any binary file, asks if a file is malicious/suspicious/safe, or provides a file path to a binary. Trigger for phrases like \"Is [file] malicious?\", \"Analyze [file]\", \"What does [binary] do?\", or any request involving binary file an...",
+  "repo_url": "https://github.com/deepbitstechnology/claude-plugins",
+  "source_hub": "skillsmp",
+  "skill_type": "agent_skill",
+  "owner": "deepbitstechnology",
+  "stars": 30,
+  "primary_language": "unknown",
+  "tags": [
+    "agent-skills",
+    "dev-devops",
+    "installs:27"
+  ],
+  "verification_status": "pass",
+  "overall_score": 100,
+  "risk_level": "info",
+  "verified_commit": "e89f2d78d0c5d80fa394bcfc71d305a977e04a77",
+  "scan_summary": null,
+  "scan_date": "2026-03-03T15:02:09Z",
+  "verification_level": "full_pipeline"
+}

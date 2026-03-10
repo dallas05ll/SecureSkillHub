@@ -1,0 +1,17 @@
+{
+  "id": "memgpt-agent-fc20e1d9",
+  "name": "memgpt-agent",
+  "description": "A simple, abridged MemGPT agent written in Spring Boot. Includes a running as a REST API or MCP server. Also includes a simple ChatBot App to interact with the agent.",
+  "repo_url": "https://github.com/gm2552/memgpt-agent",
+  "source_hub": "mcp_so",
+  "skill_type": "mcp_server",
+  "owner": "gm2552",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null
+}

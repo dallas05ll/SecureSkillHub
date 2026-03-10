@@ -1,0 +1,17 @@
+{
+  "id": "azure-cosmos-mcp-server-6fc4a482",
+  "name": "azure-cosmos-mcp-server",
+  "description": "A Model Context Protocol (MCP) server that provides secure access to Azure Cosmos DB datasets. Enables Large Language Models (LLMs) to safely query and analyze data through a standardized interface.",
+  "repo_url": "https://github.com/AzureCosmosDB/azure-cosmos-mcp-server",
+  "source_hub": "mcp_so",
+  "skill_type": "mcp_server",
+  "owner": "AzureCosmosDB",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null
+}

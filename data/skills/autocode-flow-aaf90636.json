@@ -1,0 +1,19 @@
+{
+  "id": "autocode-flow-aaf90636",
+  "name": "autocode-flow",
+  "description": "One command, fully autonomous development. A Claude Code plugin that transforms feature descriptions into production-ready code with tests. Runs the complete PLAN \u2192 TDD \u2192 CODE \u2192 TEST \u2192 VERIFY pipeline automatically.",
+  "repo_url": "https://github.com/charles001-wong/autocode-flow",
+  "source_hub": "github_search",
+  "skill_type": "agent_skill",
+  "owner": "charles001-wong",
+  "stars": 2,
+  "license": "mit",
+  "primary_language": "markdown",
+  "tags": [],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null,
+  "last_updated": "2026-03-06T18:58:20Z"
+}

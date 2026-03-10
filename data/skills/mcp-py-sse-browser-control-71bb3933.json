@@ -1,0 +1,17 @@
+{
+  "id": "mcp-py-sse-browser-control-71bb3933",
+  "name": "mcp_py_sse_browser_control",
+  "description": "This is a reference design for a MCP server that hosts a web page that connects back to the server via sse and allows Claude to execute javascript on the page.",
+  "repo_url": "https://github.com/matdmiller/mcp_py_sse_browser_control",
+  "source_hub": "mcp_so",
+  "skill_type": "mcp_server",
+  "owner": "matdmiller",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null
+}

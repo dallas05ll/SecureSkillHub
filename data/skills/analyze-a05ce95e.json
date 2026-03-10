@@ -1,0 +1,22 @@
+{
+  "id": "analyze-a05ce95e",
+  "name": "analyze",
+  "description": "Discover and document business rules, technical patterns, and system interfaces through iterative analysis",
+  "repo_url": "https://github.com/rsmdt/the-startup",
+  "source_hub": "skillsmp",
+  "skill_type": "agent_skill",
+  "owner": "rsmdt",
+  "stars": 202,
+  "primary_language": "unknown",
+  "tags": [
+    "agent-skills",
+    "installs:187"
+  ],
+  "verification_status": "pass",
+  "overall_score": 15,
+  "risk_level": "medium",
+  "verified_commit": "d36ee9090027a4151e15dc23746f6a769be49131",
+  "scan_summary": null,
+  "scan_date": "2026-03-03T05:15:46Z",
+  "verification_level": "full_pipeline"
+}

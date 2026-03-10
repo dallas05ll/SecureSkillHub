@@ -1,0 +1,23 @@
+{
+  "id": "codex-agent-collaboration-5d24f400",
+  "name": "codex-agent-collaboration",
+  "description": "Delegate coding tasks to Codex AI for implementation, analysis, and alternative solutions. Use when you need a second AI perspective, want to explore different approaches, or need specialized Codex capabilities for complex coding tasks.",
+  "repo_url": "https://github.com/fortescarlet/codex-kkp",
+  "source_hub": "skillsmp",
+  "skill_type": "agent_skill",
+  "owner": "fortescarlet",
+  "stars": 23,
+  "primary_language": "unknown",
+  "tags": [
+    "agent-skills",
+    "dev-devops",
+    "installs:22"
+  ],
+  "verification_status": "pass",
+  "overall_score": 98,
+  "risk_level": "medium",
+  "verified_commit": "c829e64a944d8131511e402e3b993c34e627cfd6",
+  "scan_summary": null,
+  "scan_date": "2026-03-03T17:16:26Z",
+  "verification_level": "full_pipeline"
+}

@@ -1,0 +1,19 @@
+{
+  "id": "terraform-lsp-01e7e8c6",
+  "name": "terraform-lsp",
+  "description": "Claude Code plugin for Terraform/Terragrunt with terraform-ls, tflint, trivy, and checkov",
+  "repo_url": "https://github.com/zircote/terraform-lsp",
+  "source_hub": "github_search",
+  "skill_type": "agent_skill",
+  "owner": "zircote",
+  "stars": 2,
+  "license": "mit",
+  "primary_language": "markdown",
+  "tags": [],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null,
+  "last_updated": "2026-03-06T18:58:07Z"
+}

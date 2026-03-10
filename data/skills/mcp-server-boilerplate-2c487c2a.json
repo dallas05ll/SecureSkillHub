@@ -1,9 +1,10 @@
 {
   "id": "mcp-server-boilerplate-2c487c2a",
   "name": "mcp-server-boilerplate",
-  "description": "Model Context Protocol(MCP) サーバーのボイラープレートとなるシンプルな実装です。",
+  "description": "Model Context Protocol(MCP) \u30b5\u30fc\u30d0\u30fc\u306e\u30dc\u30a4\u30e9\u30fc\u30d7\u30ec\u30fc\u30c8\u3068\u306a\u308b\u30b7\u30f3\u30d7\u30eb\u306a\u5b9f\u88c5\u3067\u3059\u3002",
   "repo_url": "https://github.com/takunagai/mcp-server-boilerplate",
   "source_hub": "mcp_so",
+  "skill_type": "mcp_server",
   "owner": "takunagai",
   "stars": 0,
   "primary_language": "unknown",
@@ -21,14 +22,5 @@
     "severity_counts": {},
     "category_counts": {}
   },
-  "scan_date": "2026-02-28T04:14:40Z",
-  "status_cleared": {
-    "date": "2026-03-02T20:40:18.531782+00:00",
-    "previous_status": "pass",
-    "previous_score": 85,
-    "previous_risk": "info",
-    "verification_level": "scanner_only",
-    "reason": "SM cleanup: only full_pipeline pass is real pass. Needs re-verification."
-  },
-  "skill_type": "mcp_server"
+  "scan_date": "2026-02-28T04:14:40Z"
 }

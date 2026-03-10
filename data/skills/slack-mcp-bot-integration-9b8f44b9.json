@@ -4,6 +4,7 @@
   "description": "WIP: Simple MCP (Model Context Protocol) server example for Slack",
   "repo_url": "https://github.com/seratch/slack-mcp-bot-integration",
   "source_hub": "mcp_so",
+  "skill_type": "mcp_server",
   "owner": "seratch",
   "stars": 3,
   "primary_language": "unknown",
@@ -24,88 +25,5 @@
     "category_counts": {}
   },
   "scan_date": "2026-03-03T17:57:08Z",
-  "verification_level": "full_pipeline",
-  "status_cleared": {
-    "date": "2026-03-02T20:40:18.531782+00:00",
-    "previous_status": "pass",
-    "previous_score": 85,
-    "previous_risk": "info",
-    "verification_level": "scanner_only",
-    "reason": "SM cleanup: only full_pipeline pass is real pass. Needs re-verification."
-  },
-  "findings_summary": {
-    "scanner_findings": 10,
-    "dangerous_calls": 0,
-    "network_ops": 8,
-    "file_ops": 0,
-    "env_access": 2,
-    "obfuscation": 0,
-    "injection_patterns": 0,
-    "mismatches": 2,
-    "undocumented_capabilities": 2,
-    "supervisor_approved": true,
-    "supervisor_confidence": 60
-  },
-  "agent_audit": {
-    "agents_completed": 5,
-    "agents_required": 5,
-    "pipeline_run_at": "2026-03-03T17:57:08Z",
-    "agent_a": {
-      "signed": true,
-      "signed_at": "2026-03-03T17:57:08Z",
-      "comment": "Docs quality 5/10. README present. 0 features, 1 permissions claimed.",
-      "doc_quality_score": 5,
-      "claimed_permissions": [
-        "file system access"
-      ]
-    },
-    "agent_b": {
-      "signed": true,
-      "signed_at": "2026-03-03T17:57:08Z",
-      "comment": "8 files analyzed. Found: 8 network, 0 file, 2 env, 0 system calls. Primary: unknown.",
-      "files_analyzed": 8,
-      "capabilities_found": [
-        "imports external dependencies",
-        "performs network operations",
-        "reads environment values"
-      ]
-    },
-    "agent_c_star": {
-      "signed": true,
-      "signed_at": "2026-03-03T17:57:08Z",
-      "comment": "10 findings: 0 critical, 0 high, 10 medium, 0 low. No obfuscation. No injection.",
-      "total_findings": 10,
-      "severity_counts": {
-        "critical": 0,
-        "high": 0,
-        "medium": 10,
-        "low": 0,
-        "info": 0
-      }
-    },
-    "agent_d": {
-      "signed": true,
-      "signed_at": "2026-03-03T17:57:08Z",
-      "comment": "Score 60. 2 mismatches. Risk: medium. Safety overrides: none triggered.",
-      "score": 60,
-      "mismatches": 2,
-      "safety_overrides_applied": false
-    },
-    "agent_e": {
-      "signed": true,
-      "signed_at": "2026-03-03T17:57:08Z",
-      "comment": "Rejected. Confidence 60%. No overrides.",
-      "approved": false,
-      "confidence": 60,
-      "override_reason": null
-    },
-    "manager_summary": "5/5 agents completed. Score: 60/100, Risk: medium. 2 mismatches, 10 scanner findings. Rejected at 60% confidence. No safety overrides.",
-    "auto_clear": {
-      "applied": true,
-      "reason": "Auto-clear Cat 1: clean profile (0 inj, 0 obf_hr, 0 crit, score=60)",
-      "original_status": "manual_review",
-      "original_score": 60
-    }
-  },
-  "skill_type": "mcp_server"
+  "verification_level": "full_pipeline"
 }

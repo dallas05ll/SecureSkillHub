@@ -1,0 +1,22 @@
+{
+  "id": "mindsdb-a22a4ecf",
+  "name": "mindsdb",
+  "description": "AI's query engine - Platform for building AI that can answer questions over large scale federated data. - The only MCP Server you'll ever need",
+  "repo_url": "https://github.com/mindsdb/mindsdb",
+  "source_hub": "mcp_so",
+  "skill_type": "mcp_server",
+  "owner": "mindsdb",
+  "stars": 38581,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 100,
+  "risk_level": "medium",
+  "verified_commit": "dcc4b82e8e06ddfaf019dc4d1bf16a8e7ed5d302",
+  "scan_summary": null,
+  "scan_date": "2026-02-28T20:55:22Z",
+  "verification_level": "full_pipeline"
+}

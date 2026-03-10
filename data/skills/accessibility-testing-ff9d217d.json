@@ -1,0 +1,23 @@
+{
+  "id": "accessibility-testing-ff9d217d",
+  "name": "accessibility-testing",
+  "description": "WCAG compliance testing and accessibility quality assurance workflows for iOS apps. Use when validating accessibility labels, testing VoiceOver compatibility, checking contrast ratios, or ensuring WCAG 2.1 compliance. Covers accessibility tree analysis, semantic validation, and automated accessibility testing patterns.",
+  "repo_url": "https://github.com/conorluddy/xclaude-plugin",
+  "source_hub": "skillsmp",
+  "skill_type": "agent_skill",
+  "owner": "conorluddy",
+  "stars": 97,
+  "primary_language": "unknown",
+  "tags": [
+    "agent-skills",
+    "dev-testing",
+    "installs:90"
+  ],
+  "verification_status": "pass",
+  "overall_score": 80,
+  "risk_level": "medium",
+  "verified_commit": "1d05d18cd44c501f4431e7c40310bf3963c707e7",
+  "scan_summary": null,
+  "scan_date": "2026-03-03T14:50:19Z",
+  "verification_level": "full_pipeline"
+}

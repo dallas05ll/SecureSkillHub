@@ -1,0 +1,23 @@
+{
+  "id": "make-plan-128ffc83",
+  "name": "make-plan",
+  "description": "Create a detailed, phased implementation plan with documentation discovery. Use when asked to plan a feature, task, or multi-step implementation \u2014 especially before executing with do-plan.",
+  "repo_url": "https://github.com/thedotmack/claude-mem",
+  "source_hub": "skillsmp",
+  "skill_type": "agent_skill",
+  "owner": "thedotmack",
+  "stars": 30916,
+  "primary_language": "unknown",
+  "tags": [
+    "agent-skills",
+    "dev-devops",
+    "installs:28832"
+  ],
+  "verification_status": "pass",
+  "overall_score": 100,
+  "risk_level": "medium",
+  "verified_commit": "ecb09df42002db222a57e117abcec188393ef984",
+  "scan_summary": null,
+  "scan_date": "2026-02-28T20:55:22Z",
+  "verification_level": "full_pipeline"
+}

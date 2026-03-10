@@ -1,0 +1,19 @@
+{
+  "id": "renderdoc-skill-2db57fb0",
+  "name": "renderdoc-skill",
+  "description": "A Claude Code skill for GPU frame debugging with RenderDoc via rdc-cli",
+  "repo_url": "https://github.com/rudybear/renderdoc-skill",
+  "source_hub": "github_search",
+  "skill_type": "agent_skill",
+  "owner": "rudybear",
+  "stars": 104,
+  "license": "mit",
+  "primary_language": "markdown",
+  "tags": [],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null,
+  "last_updated": "2026-03-10T16:46:38Z"
+}

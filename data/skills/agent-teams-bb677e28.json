@@ -1,0 +1,23 @@
+{
+  "id": "agent-teams-bb677e28",
+  "name": "agent-teams",
+  "description": "Coordinate Claude Code Agent Teams through filesystem-based protocol. Use",
+  "repo_url": "https://github.com/athola/claude-night-market",
+  "source_hub": "skillsmp",
+  "skill_type": "agent_skill",
+  "owner": "athola",
+  "stars": 183,
+  "primary_language": "unknown",
+  "tags": [
+    "agent-skills",
+    "data-ai",
+    "installs:173"
+  ],
+  "verification_status": "pass",
+  "overall_score": 65,
+  "risk_level": "medium",
+  "verified_commit": "592c97afae5b97de14567288018ce2777101c699",
+  "scan_summary": null,
+  "scan_date": "2026-03-03T05:15:59Z",
+  "verification_level": "full_pipeline"
+}

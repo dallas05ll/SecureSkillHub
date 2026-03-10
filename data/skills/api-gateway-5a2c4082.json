@@ -1,0 +1,23 @@
+{
+  "id": "api-gateway-5a2c4082",
+  "name": "api-gateway",
+  "description": "AWS API Gateway for REST and HTTP API management. Use when creating APIs, configuring integrations, setting up authorization, managing stages, implementing rate limiting, or troubleshooting API issues.",
+  "repo_url": "https://github.com/itsmostafa/aws-agent-skills",
+  "source_hub": "skillsmp",
+  "skill_type": "agent_skill",
+  "owner": "itsmostafa",
+  "stars": 1001,
+  "primary_language": "unknown",
+  "tags": [
+    "agent-skills",
+    "dev-web-backend",
+    "installs:995"
+  ],
+  "verification_status": "pass",
+  "overall_score": 30,
+  "risk_level": "medium",
+  "verified_commit": "2ccd14e6700ba96524e0961a6750ce6b056ed9c8",
+  "scan_summary": null,
+  "scan_date": "2026-03-03T03:23:40Z",
+  "verification_level": "full_pipeline"
+}

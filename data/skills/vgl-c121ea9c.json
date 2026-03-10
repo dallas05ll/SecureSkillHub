@@ -1,0 +1,23 @@
+{
+  "id": "vgl-c121ea9c",
+  "name": "vgl",
+  "description": "Write structured VGL (Visual Generation Language) JSON prompts for Bria's FIBO image generation models. Use this skill when creating detailed image descriptions in JSON format for text-to-image generation, image editing, inpainting, outpainting, background generation, or captioning. Triggers include requests to write structured prompts, create VGL JSON, describe images for AI generation, or work with Bria/FIBO's structured_prompt format. Also use when converting natural language image request...",
+  "repo_url": "https://github.com/bria-ai/bria-skill",
+  "source_hub": "skillsmp",
+  "skill_type": "agent_skill",
+  "owner": "bria-ai",
+  "stars": 4,
+  "primary_language": "unknown",
+  "tags": [
+    "agent-skills",
+    "dev-web-frontend",
+    "installs:10"
+  ],
+  "verification_status": "pass",
+  "overall_score": 66,
+  "risk_level": "medium",
+  "verified_commit": "54c2af8b95ca11a7dd03e7e5a79dc2ed2f5e4481",
+  "scan_summary": null,
+  "scan_date": "2026-03-03T17:54:40Z",
+  "verification_level": "full_pipeline"
+}

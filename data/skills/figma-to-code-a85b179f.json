@@ -1,0 +1,23 @@
+{
+  "id": "figma-to-code-a85b179f",
+  "name": "figma-to-code",
+  "description": "Generate production-ready React/Next.js code from Figma designs. Instructs proper Figma MCP tool usage, component reuse strategies, and variant mapping. **CRITICAL: ALWAYS use this skill when user provides a Figma link or mentions implementing/redesigning from Figma design.** Never attempt manual implementation without invoking this skill first.",
+  "repo_url": "https://github.com/scoobynko/claude-code-design-skills",
+  "source_hub": "skillsmp",
+  "skill_type": "agent_skill",
+  "owner": "scoobynko",
+  "stars": 28,
+  "primary_language": "unknown",
+  "tags": [
+    "agent-skills",
+    "dev-web-frontend",
+    "installs:25"
+  ],
+  "verification_status": "pass",
+  "overall_score": 100,
+  "risk_level": "info",
+  "verified_commit": "ccb4c17d672f410754f139524a185b619872d60e",
+  "scan_summary": null,
+  "scan_date": "2026-03-03T16:15:23Z",
+  "verification_level": "full_pipeline"
+}

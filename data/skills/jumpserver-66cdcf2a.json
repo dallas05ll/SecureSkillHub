@@ -1,0 +1,24 @@
+{
+  "id": "jumpserver-66cdcf2a",
+  "name": "jumpserver",
+  "description": "mcp-jumpserver is the Model Context Protocol (MCP) server implementation for JumpServer.",
+  "repo_url": "https://github.com/jumpserver/jumpserver",
+  "source_hub": "mcp_so",
+  "skill_type": "mcp_server",
+  "owner": "jumpserver",
+  "stars": 29936,
+  "primary_language": "unknown",
+  "tags": [
+    "dev",
+    "dev-devops",
+    "dev-devops-k8s",
+    "dev-web"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "medium",
+  "verified_commit": "b71519cc449b270a6dee20278769be27a78725de",
+  "scan_summary": null,
+  "scan_date": "2026-02-28T20:56:09Z",
+  "verification_level": "full_pipeline"
+}

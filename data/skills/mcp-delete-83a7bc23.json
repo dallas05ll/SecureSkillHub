@@ -1,0 +1,17 @@
+{
+  "id": "mcp-delete-83a7bc23",
+  "name": "mcp-delete",
+  "description": "A Model Context Protocol (MCP) server that provides file deletion capabilities for AI assistants. Supports both relative and absolute paths with smart path resolution, making it easy for AI assistants to safely delete files when needed.",
+  "repo_url": "https://github.com/qpd-v/mcp-delete",
+  "source_hub": "mcp_so",
+  "skill_type": "mcp_server",
+  "owner": "qpd-v",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null
+}

@@ -1,0 +1,17 @@
+{
+  "id": "weather-bridge-mcp-10218ae9",
+  "name": "weather-bridge-mcp",
+  "description": "A Spring Boot implementation of the Model Context Protocol (MCP) that enables AI agents like GitHub Copilot to access weather data. Demonstrates building a custom MCP server that connects AI models to weather APIs through standardised tools, complete with VS Code integration examples.",
+  "repo_url": "https://github.com/mm-camelcase/weather-bridge-mcp",
+  "source_hub": "mcp_so",
+  "skill_type": "mcp_server",
+  "owner": "mm-camelcase",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null
+}

@@ -1,0 +1,17 @@
+{
+  "id": "rival-mcp-e557ff65",
+  "name": "rival-mcp",
+  "description": "rival-mcp\r\nMCP server for querying AI model comparison data from rival.tips\r\n\r\nThis server lets AI coding assistants \u2014 Claude Code, Cursor, Windsurf, and any MCP-compatible client \u2014 natively query model benchmarks, pricing, capabilities, and side-by-side comparisons without leaving your editor.\r\n\r\nQuick Start\r\nnpx rival-mcp\r\nNo API key required. All data is served from the public rival.tips API.\r\n\r\nConfiguration\r\nClaude Code\r\nAdd to your .claude/settings.json (project-level) or ~/.claude/sett...",
+  "repo_url": "https://github.com/nuance-dev/rival-mcp",
+  "source_hub": "mcp_so",
+  "skill_type": "mcp_server",
+  "owner": "nuance-dev",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null
+}

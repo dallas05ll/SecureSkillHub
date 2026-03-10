@@ -4,9 +4,10 @@
   "description": "A MCP Server that gives you latest docs and data from the web",
   "repo_url": "https://github.com/instructa/nowledge",
   "source_hub": "mcp_so",
+  "skill_type": "mcp_server",
   "owner": "instructa",
   "stars": 17,
-  "primary_language": "typescript",
+  "primary_language": "unknown",
   "tags": [
     "integ",
     "util"
@@ -22,92 +23,5 @@
     "category_counts": {}
   },
   "scan_date": "2026-03-03T17:33:46Z",
-  "verification_level": "full_pipeline",
-  "status_cleared": {
-    "date": "2026-03-02T20:40:18.531782+00:00",
-    "previous_status": "pass",
-    "previous_score": 85,
-    "previous_risk": "info",
-    "verification_level": "scanner_only",
-    "reason": "SM cleanup: only full_pipeline pass is real pass. Needs re-verification."
-  },
-  "findings_summary": {
-    "scanner_findings": 20,
-    "dangerous_calls": 3,
-    "network_ops": 3,
-    "file_ops": 3,
-    "env_access": 8,
-    "obfuscation": 0,
-    "injection_patterns": 0,
-    "mismatches": 0,
-    "undocumented_capabilities": 0,
-    "supervisor_approved": true,
-    "supervisor_confidence": 76
-  },
-  "agent_audit": {
-    "agents_completed": 5,
-    "agents_required": 5,
-    "pipeline_run_at": "2026-03-03T17:33:46Z",
-    "agent_a": {
-      "signed": true,
-      "signed_at": "2026-03-03T17:33:46Z",
-      "comment": "Docs quality 9/10. README present. 12 features, 4 permissions claimed.",
-      "doc_quality_score": 9,
-      "claimed_permissions": [
-        "network access",
-        "system command execution",
-        "file system access",
-        "environment/secret access"
-      ]
-    },
-    "agent_b": {
-      "signed": true,
-      "signed_at": "2026-03-03T17:33:46Z",
-      "comment": "25 files analyzed. Found: 3 network, 0 file, 6 env, 2 system calls. Primary: typescript.",
-      "files_analyzed": 25,
-      "capabilities_found": [
-        "imports external dependencies",
-        "performs network operations",
-        "reads environment values",
-        "executes system commands"
-      ]
-    },
-    "agent_c_star": {
-      "signed": true,
-      "signed_at": "2026-03-03T17:33:46Z",
-      "comment": "20 findings: 0 critical, 6 high, 11 medium, 3 low. No obfuscation. No injection.",
-      "total_findings": 20,
-      "severity_counts": {
-        "critical": 0,
-        "high": 6,
-        "medium": 11,
-        "low": 3,
-        "info": 0
-      }
-    },
-    "agent_d": {
-      "signed": true,
-      "signed_at": "2026-03-03T17:33:46Z",
-      "comment": "Score 76. 0 mismatches. Risk: medium. Safety overrides: none triggered.",
-      "score": 76,
-      "mismatches": 0,
-      "safety_overrides_applied": false
-    },
-    "agent_e": {
-      "signed": true,
-      "signed_at": "2026-03-03T17:33:46Z",
-      "comment": "Rejected. Confidence 76%. No overrides.",
-      "approved": false,
-      "confidence": 76,
-      "override_reason": null
-    },
-    "manager_summary": "5/5 agents completed. Score: 76/100, Risk: medium. 0 mismatches, 20 scanner findings. Rejected at 76% confidence. No safety overrides.",
-    "auto_clear": {
-      "applied": true,
-      "reason": "Auto-clear Cat 1: clean profile (0 inj, 0 obf_hr, 0 crit, score=76)",
-      "original_status": "manual_review",
-      "original_score": 76
-    }
-  },
-  "skill_type": "mcp_server"
+  "verification_level": "full_pipeline"
 }

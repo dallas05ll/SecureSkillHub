@@ -10,25 +10,12 @@
   "primary_language": "unknown",
   "tags": [
     "agent-skills",
-    "installs:217",
-    "dev",
-    "dev-desktop",
-    "dev-desktop-tauri",
-    "dev-web",
-    "dev-web-backend",
-    "dev-web-backend-rust",
-    "dev-web-frontend",
-    "dev-web-frontend-react",
-    "dev-web-fullstack",
-    "dev-web-fullstack-nextjs"
+    "dev-devops",
+    "installs:217"
   ],
   "verification_status": "unverified",
   "overall_score": 0,
   "risk_level": "info",
   "verified_commit": null,
-  "scan_summary": null,
-  "repo_status": "available",
-  "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
-  "repo_check_error": null,
-  "installs": 217
+  "scan_summary": null
 }

@@ -10,18 +10,12 @@
   "primary_language": "unknown",
   "tags": [
     "agent-skills",
-    "installs:10",
-    "integ",
-    "prod",
-    "prod-docs"
+    "dev-testing",
+    "installs:10"
   ],
   "verification_status": "unverified",
   "overall_score": 0,
   "risk_level": "info",
   "verified_commit": null,
-  "scan_summary": null,
-  "repo_status": "available",
-  "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
-  "repo_check_error": null,
-  "installs": 10
+  "scan_summary": null
 }

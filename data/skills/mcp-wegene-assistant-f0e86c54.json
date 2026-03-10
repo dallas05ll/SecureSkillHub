@@ -4,9 +4,10 @@
   "description": "MCP server to analyze your genetic test results from WeGene",
   "repo_url": "https://github.com/xraywu/mcp-wegene-assistant",
   "source_hub": "mcp_so",
+  "skill_type": "mcp_server",
   "owner": "xraywu",
   "stars": 4,
-  "primary_language": "python",
+  "primary_language": "unknown",
   "tags": [
     "integ",
     "util"
@@ -22,92 +23,5 @@
     "category_counts": {}
   },
   "scan_date": "2026-03-03T17:55:41Z",
-  "verification_level": "full_pipeline",
-  "status_cleared": {
-    "date": "2026-03-02T20:40:18.531782+00:00",
-    "previous_status": "pass",
-    "previous_score": 85,
-    "previous_risk": "info",
-    "verification_level": "scanner_only",
-    "reason": "SM cleanup: only full_pipeline pass is real pass. Needs re-verification."
-  },
-  "findings_summary": {
-    "scanner_findings": 25,
-    "dangerous_calls": 0,
-    "network_ops": 3,
-    "file_ops": 3,
-    "env_access": 16,
-    "obfuscation": 0,
-    "injection_patterns": 0,
-    "mismatches": 0,
-    "undocumented_capabilities": 0,
-    "supervisor_approved": true,
-    "supervisor_confidence": 74
-  },
-  "agent_audit": {
-    "agents_completed": 5,
-    "agents_required": 5,
-    "pipeline_run_at": "2026-03-03T17:55:41Z",
-    "agent_a": {
-      "signed": true,
-      "signed_at": "2026-03-03T17:55:41Z",
-      "comment": "Docs quality 8/10. README present. 12 features, 4 permissions claimed.",
-      "doc_quality_score": 8,
-      "claimed_permissions": [
-        "network access",
-        "system command execution",
-        "file system access",
-        "environment/secret access"
-      ]
-    },
-    "agent_b": {
-      "signed": true,
-      "signed_at": "2026-03-03T17:55:41Z",
-      "comment": "10 files analyzed. Found: 1 network, 3 file, 12 env, 0 system calls. Primary: python.",
-      "files_analyzed": 10,
-      "capabilities_found": [
-        "imports external dependencies",
-        "performs network operations",
-        "reads/writes files",
-        "reads environment values"
-      ]
-    },
-    "agent_c_star": {
-      "signed": true,
-      "signed_at": "2026-03-03T17:55:41Z",
-      "comment": "25 findings: 0 critical, 3 high, 19 medium, 3 low. No obfuscation. No injection.",
-      "total_findings": 25,
-      "severity_counts": {
-        "critical": 0,
-        "high": 3,
-        "medium": 19,
-        "low": 3,
-        "info": 0
-      }
-    },
-    "agent_d": {
-      "signed": true,
-      "signed_at": "2026-03-03T17:55:41Z",
-      "comment": "Score 74. 0 mismatches. Risk: medium. Safety overrides: none triggered.",
-      "score": 74,
-      "mismatches": 0,
-      "safety_overrides_applied": false
-    },
-    "agent_e": {
-      "signed": true,
-      "signed_at": "2026-03-03T17:55:41Z",
-      "comment": "Rejected. Confidence 74%. No overrides.",
-      "approved": false,
-      "confidence": 74,
-      "override_reason": null
-    },
-    "manager_summary": "5/5 agents completed. Score: 74/100, Risk: medium. 0 mismatches, 25 scanner findings. Rejected at 74% confidence. No safety overrides.",
-    "auto_clear": {
-      "applied": true,
-      "reason": "Auto-clear Cat 1: clean profile (0 inj, 0 obf_hr, 0 crit, score=74)",
-      "original_status": "manual_review",
-      "original_score": 74
-    }
-  },
-  "skill_type": "mcp_server"
+  "verification_level": "full_pipeline"
 }

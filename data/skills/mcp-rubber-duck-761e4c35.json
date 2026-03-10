@@ -1,12 +1,13 @@
 {
   "id": "mcp-rubber-duck-761e4c35",
   "name": "mcp-rubber-duck",
-  "description": "Query multiple LLMs in parallel from AI coding tools. Ask a question to OpenAI, Gemini, Groq, or any OpenAI-compatible API — and CLI agents like Claude Code, Codex, and Gemini CLI — then compare answers, run consensus votes, structured debates, and judge evaluations. Rubber duck debugging, but the ducks talk back.",
+  "description": "Query multiple LLMs in parallel from AI coding tools. Ask a question to OpenAI, Gemini, Groq, or any OpenAI-compatible API \u2014 and CLI agents like Claude Code, Codex, and Gemini CLI \u2014 then compare answers, run consensus votes, structured debates, and judge evaluations. Rubber duck debugging, but the ducks talk back.",
   "repo_url": "https://github.com/nesquikm/mcp-rubber-duck",
   "source_hub": "mcp_so",
+  "skill_type": "mcp_server",
   "owner": "nesquikm",
   "stars": 140,
-  "primary_language": "typescript",
+  "primary_language": "unknown",
   "tags": [
     "data",
     "data-ai",
@@ -24,91 +25,5 @@
     "category_counts": {}
   },
   "scan_date": "2026-03-03T05:22:17Z",
-  "verification_level": "full_pipeline",
-  "status_cleared": {
-    "date": "2026-03-02T20:40:18.531782+00:00",
-    "previous_status": "pass",
-    "previous_score": 85,
-    "previous_risk": "info",
-    "verification_level": "scanner_only",
-    "reason": "SM cleanup: only full_pipeline pass is real pass. Needs re-verification."
-  },
-  "findings_summary": {
-    "scanner_findings": 459,
-    "dangerous_calls": 3,
-    "network_ops": 0,
-    "file_ops": 0,
-    "env_access": 442,
-    "obfuscation": 1,
-    "injection_patterns": 0,
-    "mismatches": 0,
-    "undocumented_capabilities": 0,
-    "supervisor_approved": true,
-    "supervisor_confidence": 90
-  },
-  "agent_audit": {
-    "agents_completed": 5,
-    "agents_required": 5,
-    "pipeline_run_at": "2026-03-03T05:22:17Z",
-    "agent_a": {
-      "signed": true,
-      "signed_at": "2026-03-03T05:22:17Z",
-      "comment": "Docs quality 9/10. README present. 12 features, 4 permissions claimed.",
-      "doc_quality_score": 9,
-      "claimed_permissions": [
-        "network access",
-        "system command execution",
-        "file system access",
-        "environment/secret access"
-      ]
-    },
-    "agent_b": {
-      "signed": true,
-      "signed_at": "2026-03-03T05:22:17Z",
-      "comment": "137 files analyzed. Found: 0 network, 0 file, 50 env, 3 system calls. Primary: typescript.",
-      "files_analyzed": 137,
-      "capabilities_found": [
-        "imports external dependencies",
-        "reads environment values",
-        "executes system commands"
-      ]
-    },
-    "agent_c_star": {
-      "signed": true,
-      "signed_at": "2026-03-03T05:22:17Z",
-      "comment": "459 findings: 0 critical, 17 high, 442 medium, 0 low. Obfuscation detected!. No injection.",
-      "total_findings": 459,
-      "severity_counts": {
-        "critical": 0,
-        "high": 17,
-        "medium": 442,
-        "low": 0,
-        "info": 0
-      }
-    },
-    "agent_d": {
-      "signed": true,
-      "signed_at": "2026-03-03T05:22:17Z",
-      "comment": "Score 15. 0 mismatches. Risk: critical. Safety overrides: applied.",
-      "score": 15,
-      "mismatches": 0,
-      "safety_overrides_applied": true
-    },
-    "agent_e": {
-      "signed": true,
-      "signed_at": "2026-03-03T05:22:17Z",
-      "comment": "Rejected. Confidence 90%. Deterministic override: high-risk obfuscation detected.",
-      "approved": false,
-      "confidence": 90,
-      "override_reason": "Deterministic override: high-risk obfuscation detected."
-    },
-    "manager_summary": "5/5 agents completed. Score: 15/100, Risk: critical. 0 mismatches, 459 scanner findings. Rejected at 90% confidence. Safety overrides triggered."
-  },
-  "pm_override": {
-    "action": "fail_to_pass",
-    "reason": "PM override: score 15 with low-risk obfuscation (minified JS/vendored), 0 injection, 0 critical. Known scoring bug pattern.",
-    "override_by": "PM",
-    "date": "2026-03-03T05:28:08.397144+00:00"
-  },
-  "skill_type": "mcp_server"
+  "verification_level": "full_pipeline"
 }

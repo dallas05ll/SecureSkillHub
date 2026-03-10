@@ -1,0 +1,17 @@
+{
+  "id": "langchain-mcp-client-a2f16b9e",
+  "name": "langchain-mcp-client",
+  "description": "This Streamlit application provides a user interface for connecting to MCP (Model Context Protocol) servers and interacting with them using different LLM providers (OpenAI, Anthropic, Google...).",
+  "repo_url": "https://github.com/guinacio/langchain-mcp-client",
+  "source_hub": "mcp_so",
+  "skill_type": "mcp_server",
+  "owner": "guinacio",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null
+}

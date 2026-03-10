@@ -1,0 +1,17 @@
+{
+  "id": "sharkmcp-78e2a1a1",
+  "name": "sharkmcp",
+  "description": "A tshark MCP server for packet capture and analysis\n\nFeatures:\n\nAsync: your agent can run a curl command and get the packets for it\nFlexible: You choose the capture and display filters\nConfig: You can reuse the display and capture filters",
+  "repo_url": "https://github.com/kriztalz/sharkmcp",
+  "source_hub": "mcp_so",
+  "skill_type": "mcp_server",
+  "owner": "kriztalz",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null
+}

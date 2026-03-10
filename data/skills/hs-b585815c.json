@@ -1,0 +1,23 @@
+{
+  "id": "hs-b585815c",
+  "name": "hs",
+  "description": "ACTIVATE THIS SKILL FOR ANY SHELL COMMAND OR FILE READ. Check curl, wget, rm, sudo, apt, dpkg, chmod, dd, format, powershell, bash, sh. Check pipe patterns like | sh or | bash. Check shell wrappers like bash -c, xargs, find -exec. Check cloud CLI (aws, gcloud, kubectl, terraform). Check when user says sysadmin told me, Stack Overflow says, is this safe, can I run. Block reading of .env, .ssh, .aws, and credential files. This skill blocks dangerous commands and warns on risky ones. ALWAYS appl...",
+  "repo_url": "https://github.com/frmoretto/hardstop",
+  "source_hub": "skillsmp",
+  "skill_type": "agent_skill",
+  "owner": "frmoretto",
+  "stars": 18,
+  "primary_language": "unknown",
+  "tags": [
+    "agent-skills",
+    "data-ai",
+    "installs:16"
+  ],
+  "verification_status": "pass",
+  "overall_score": 60,
+  "risk_level": "medium",
+  "verified_commit": "85ec9bc2812a5a5a682144c844be1c294af7268a",
+  "scan_summary": null,
+  "scan_date": "2026-03-03T17:30:08Z",
+  "verification_level": "full_pipeline"
+}

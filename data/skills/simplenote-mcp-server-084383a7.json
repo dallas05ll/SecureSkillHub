@@ -4,9 +4,10 @@
   "description": "MCP Server for Simplenote integration with Claude Desktop",
   "repo_url": "https://github.com/docdyhr/simplenote-mcp-server",
   "source_hub": "mcp_so",
+  "skill_type": "mcp_server",
   "owner": "docdyhr",
   "stars": 10,
-  "primary_language": "python",
+  "primary_language": "unknown",
   "tags": [
     "integ"
   ],
@@ -21,92 +22,5 @@
     "category_counts": {}
   },
   "scan_date": "2026-03-03T17:37:34Z",
-  "verification_level": "full_pipeline",
-  "status_cleared": {
-    "date": "2026-03-02T20:40:18.531782+00:00",
-    "previous_status": "pass",
-    "previous_score": 85,
-    "previous_risk": "info",
-    "verification_level": "scanner_only",
-    "reason": "SM cleanup: only full_pipeline pass is real pass. Needs re-verification."
-  },
-  "findings_summary": {
-    "scanner_findings": 383,
-    "dangerous_calls": 50,
-    "network_ops": 7,
-    "file_ops": 178,
-    "env_access": 135,
-    "obfuscation": 1,
-    "injection_patterns": 0,
-    "mismatches": 0,
-    "undocumented_capabilities": 0,
-    "supervisor_approved": true,
-    "supervisor_confidence": 90
-  },
-  "agent_audit": {
-    "agents_completed": 5,
-    "agents_required": 5,
-    "pipeline_run_at": "2026-03-03T17:37:34Z",
-    "agent_a": {
-      "signed": true,
-      "signed_at": "2026-03-03T17:37:34Z",
-      "comment": "Docs quality 9/10. README present. 12 features, 4 permissions claimed.",
-      "doc_quality_score": 9,
-      "claimed_permissions": [
-        "network access",
-        "system command execution",
-        "file system access",
-        "environment/secret access"
-      ]
-    },
-    "agent_b": {
-      "signed": true,
-      "signed_at": "2026-03-03T17:37:34Z",
-      "comment": "210 files analyzed. Found: 9 network, 111 file, 94 env, 34 system calls. Primary: python.",
-      "files_analyzed": 210,
-      "capabilities_found": [
-        "imports external dependencies",
-        "performs network operations",
-        "reads/writes files",
-        "reads environment values",
-        "executes system commands"
-      ]
-    },
-    "agent_c_star": {
-      "signed": true,
-      "signed_at": "2026-03-03T17:37:34Z",
-      "comment": "383 findings: 0 critical, 63 high, 142 medium, 178 low. Obfuscation detected!. No injection.",
-      "total_findings": 383,
-      "severity_counts": {
-        "critical": 0,
-        "high": 63,
-        "medium": 142,
-        "low": 178,
-        "info": 0
-      }
-    },
-    "agent_d": {
-      "signed": true,
-      "signed_at": "2026-03-03T17:37:34Z",
-      "comment": "Score 15. 0 mismatches. Risk: critical. Safety overrides: applied.",
-      "score": 15,
-      "mismatches": 0,
-      "safety_overrides_applied": true
-    },
-    "agent_e": {
-      "signed": true,
-      "signed_at": "2026-03-03T17:37:34Z",
-      "comment": "Rejected. Confidence 90%. Deterministic override: high-risk obfuscation detected.",
-      "approved": false,
-      "confidence": 90,
-      "override_reason": "Deterministic override: high-risk obfuscation detected."
-    },
-    "manager_summary": "5/5 agents completed. Score: 15/100, Risk: critical. 0 mismatches, 383 scanner findings. Rejected at 90% confidence. Safety overrides triggered."
-  },
-  "pm_override": {
-    "date": "2026-03-03T17:38:00Z",
-    "previous_status": "fail",
-    "reason": "PM override: Simplenote MCP server. 0 injection, 0 critical. Only 1 obfuscation finding across 210 files triggered the high-risk obfuscation safety override — this is a clear FP. A single obf hit in a 210-file Python codebase is noise, not a threat. Scanner penalty from 383 findings (mostly file_ops 178 + env_access 135) crushed score."
-  },
-  "skill_type": "mcp_server"
+  "verification_level": "full_pipeline"
 }

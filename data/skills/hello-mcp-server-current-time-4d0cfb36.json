@@ -1,9 +1,10 @@
 {
   "id": "hello-mcp-server-current-time-4d0cfb36",
   "name": "hello-mcp-server-current-time",
-  "description": "基于spring-ai-starter-mcp-server的自定义mcp server简单示例，获取当前时间，",
+  "description": "\u57fa\u4e8espring-ai-starter-mcp-server\u7684\u81ea\u5b9a\u4e49mcp server\u7b80\u5355\u793a\u4f8b\uff0c\u83b7\u53d6\u5f53\u524d\u65f6\u95f4\uff0c",
   "repo_url": "https://github.com/devotion-coding/hello-mcp-server-current-time",
   "source_hub": "mcp_so",
+  "skill_type": "mcp_server",
   "owner": "devotion-coding",
   "stars": 0,
   "primary_language": "unknown",
@@ -21,14 +22,5 @@
     "severity_counts": {},
     "category_counts": {}
   },
-  "scan_date": "2026-02-28T04:14:40Z",
-  "status_cleared": {
-    "date": "2026-03-02T20:40:18.531782+00:00",
-    "previous_status": "pass",
-    "previous_score": 85,
-    "previous_risk": "info",
-    "verification_level": "scanner_only",
-    "reason": "SM cleanup: only full_pipeline pass is real pass. Needs re-verification."
-  },
-  "skill_type": "mcp_server"
+  "scan_date": "2026-02-28T04:14:40Z"
 }

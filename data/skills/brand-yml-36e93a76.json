@@ -1,0 +1,23 @@
+{
+  "id": "brand-yml-36e93a76",
+  "name": "brand-yml",
+  "description": "Create and use brand.yml files for consistent branding across Shiny apps and Quarto documents. Use when working with brand styling, colors, fonts, logos, or corporate identity in Shiny or Quarto projects. Covers: (1) Creating new _brand.yml files from brand guidelines, (2) Applying brand.yml to Shiny for R apps with bslib, (3) Applying brand.yml to Shiny for Python apps with ui.Theme, (4) Using brand.yml in Quarto documents, presentations, dashboards, and PDFs, (5) Modifying existing brand.ym...",
+  "repo_url": "https://github.com/posit-dev/skills",
+  "source_hub": "skillsmp",
+  "skill_type": "agent_skill",
+  "owner": "posit-dev",
+  "stars": 123,
+  "primary_language": "unknown",
+  "tags": [
+    "agent-skills",
+    "dev-web-frontend",
+    "installs:112"
+  ],
+  "verification_status": "pass",
+  "overall_score": 83,
+  "risk_level": "medium",
+  "verified_commit": "97b0d388f24ccb500fd06ddd01116e427c5aa65f",
+  "scan_summary": "Official skills from Posit (a well-known enterprise open-source company behind RStudio). MIT licensed. Skills are SKILL.md files with clean metadata. Includes a Python utility (count-skill-tokens.py) for tooling only. PR automation skill (pr-create) interfaces with GitHub Actions and CI \u2014 legitimate use. .claude-plugin marketplace format properly used. Contributes to open-source release workflows (changelog, blog posts).",
+  "scan_date": "2026-03-03T14:48:47Z",
+  "verification_level": "full_pipeline"
+}

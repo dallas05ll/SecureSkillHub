@@ -1,0 +1,23 @@
+{
+  "id": "agent-guardrails-91378d68",
+  "name": "agent-guardrails",
+  "description": "Stop AI agents from secretly bypassing your rules. Mechanical enforcement with git hooks, secret detection, deployment verification, and import registries. Born from real production incidents: server crashes, token leaks, code rewrites. Works with Claude Code, Clawdbot, Cursor. Install once, enforce forever.",
+  "repo_url": "https://github.com/jzocb/agent-guardrails",
+  "source_hub": "skillsmp",
+  "skill_type": "agent_skill",
+  "owner": "jzocb",
+  "stars": 10,
+  "primary_language": "unknown",
+  "tags": [
+    "agent-skills",
+    "dev-web-backend",
+    "installs:9"
+  ],
+  "verification_status": "pass",
+  "overall_score": 96,
+  "risk_level": "medium",
+  "verified_commit": "1141d8f8968faa64ed48014665e954d998222b13",
+  "scan_summary": null,
+  "scan_date": "2026-03-03T17:35:54Z",
+  "verification_level": "full_pipeline"
+}

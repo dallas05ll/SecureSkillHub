@@ -4,6 +4,7 @@
   "description": "MCP Server using TypeScript and JavaScript made with official MCP docs handling US Weather data having context for two tools - showing weather forecast and weather alerts for US based location. Used Zod for data validation and architectured two folders - src and build , development (ts) and production (js) respectively.",
   "repo_url": "https://github.com/AdiGo22/mcp_server",
   "source_hub": "mcp_so",
+  "skill_type": "mcp_server",
   "owner": "AdiGo22",
   "stars": 0,
   "primary_language": "unknown",
@@ -22,14 +23,5 @@
     "severity_counts": {},
     "category_counts": {}
   },
-  "scan_date": "2026-02-28T04:14:41Z",
-  "status_cleared": {
-    "date": "2026-03-02T20:40:18.531782+00:00",
-    "previous_status": "pass",
-    "previous_score": 85,
-    "previous_risk": "info",
-    "verification_level": "scanner_only",
-    "reason": "SM cleanup: only full_pipeline pass is real pass. Needs re-verification."
-  },
-  "skill_type": "mcp_server"
+  "scan_date": "2026-02-28T04:14:41Z"
 }

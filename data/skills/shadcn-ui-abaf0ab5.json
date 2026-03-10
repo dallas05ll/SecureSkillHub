@@ -4,11 +4,13 @@
   "description": "Agent skill: shadcn-ui from giuseppe-trisciuoglio/developer-kit",
   "repo_url": "https://github.com/giuseppe-trisciuoglio/developer-kit",
   "source_hub": "skills_sh",
+  "skill_type": "mcp_server",
   "owner": "giuseppe-trisciuoglio",
   "stars": 7900,
-  "primary_language": "typescript",
+  "primary_language": "unknown",
   "tags": [
-    "dev"
+    "agent-skill",
+    "skills-sh"
   ],
   "verification_status": "pass",
   "overall_score": 85,
@@ -16,84 +18,5 @@
   "verified_commit": "8053511fb130f60c976a0beb09cb696beb3d6b6a",
   "scan_summary": "Large modular plugin marketplace with 10 plugins and 174 total components (skills, agents, commands). MIT licensed. Makefile provides cross-CLI installation for Claude Code, Copilot, OpenCode, and Codex. Plugins are organized into separate directories with their own skills/agents/commands. Python and shell scripts in scripts/ are packaging/installation utilities. .skills-validator-check file present for validation tooling. pyproject.toml for Python tooling.",
   "scan_date": "2026-02-28T20:57:25Z",
-  "findings_summary": {
-    "scanner_findings": 634,
-    "dangerous_calls": 73,
-    "network_ops": 72,
-    "file_ops": 37,
-    "env_access": 287,
-    "obfuscation": 16,
-    "injection_patterns": 1,
-    "mismatches": 0,
-    "undocumented_capabilities": 0,
-    "supervisor_approved": true,
-    "supervisor_confidence": 95,
-    "reassessed": true,
-    "reassessed_at": "2026-03-01T21:26:50Z",
-    "reassessment_reason": "SecM audit: all injection/obfuscation findings are false positives (test files, documentation, vendored JS, security tools). Safety overrides bypassed per PM approval.",
-    "secm_override": true,
-    "previous_status": "fail",
-    "previous_score": 10
-  },
-  "verification_level": "full_pipeline",
-  "agent_audit": {
-    "agents_completed": 5,
-    "agents_required": 5,
-    "pipeline_run_at": "2026-02-28T20:57:25Z",
-    "agent_a": {
-      "signed": true,
-      "signed_at": "2026-02-28T20:57:25Z",
-      "comment": "Docs quality 10/10. README present. 12 features, 4 permissions claimed.",
-      "doc_quality_score": 10,
-      "claimed_permissions": [
-        "network access",
-        "system command execution",
-        "file system access",
-        "environment/secret access"
-      ]
-    },
-    "agent_b": {
-      "signed": true,
-      "signed_at": "2026-02-28T20:57:25Z",
-      "comment": "38 files analyzed. Found: 1 network, 11 file, 3 env, 0 system calls. Primary: typescript.",
-      "files_analyzed": 38,
-      "capabilities_found": [
-        "imports external dependencies",
-        "performs network operations",
-        "reads/writes files",
-        "reads environment values"
-      ]
-    },
-    "agent_c_star": {
-      "signed": true,
-      "signed_at": "2026-02-28T20:57:25Z",
-      "comment": "634 findings: 1 critical, 237 high, 359 medium, 37 low. Obfuscation detected!. Injection patterns found!.",
-      "total_findings": 634,
-      "severity_counts": {
-        "critical": 1,
-        "high": 237,
-        "medium": 359,
-        "low": 37,
-        "info": 0
-      }
-    },
-    "agent_d": {
-      "signed": true,
-      "signed_at": "2026-02-28T20:57:25Z",
-      "comment": "Score 10. 0 mismatches. Risk: critical. Safety overrides: applied.",
-      "score": 10,
-      "mismatches": 0,
-      "safety_overrides_applied": true
-    },
-    "agent_e": {
-      "signed": true,
-      "signed_at": "2026-02-28T20:57:25Z",
-      "comment": "Rejected. Confidence 95%. Deterministic override: injection patterns detected.",
-      "approved": false,
-      "confidence": 95,
-      "override_reason": "Deterministic override: injection patterns detected."
-    },
-    "manager_summary": "5/5 agents completed. Score: 10/100, Risk: critical. 0 mismatches, 634 scanner findings. Rejected at 95% confidence. Safety overrides triggered."
-  },
-  "skill_type": "agent_skill"
+  "verification_level": "full_pipeline"
 }

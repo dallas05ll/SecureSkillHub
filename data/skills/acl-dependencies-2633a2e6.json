@@ -10,93 +10,14 @@
   "primary_language": "unknown",
   "tags": [
     "agent-skills",
-    "installs:182",
-    "status-pass",
-    "utilities"
+    "dev-devops",
+    "installs:182"
   ],
   "verification_status": "pass",
   "overall_score": 65,
   "risk_level": "medium",
   "verified_commit": "55da491f4b3d4ee5bf4c35e25f44bb51b9cf0f23",
   "scan_summary": null,
-  "repo_status": "available",
-  "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
-  "repo_check_error": null,
   "scan_date": "2026-03-04T17:56:24Z",
-  "findings_summary": {
-    "scanner_findings": 17,
-    "dangerous_calls": 0,
-    "network_ops": 0,
-    "file_ops": 5,
-    "env_access": 1,
-    "obfuscation": 6,
-    "injection_patterns": 0,
-    "mismatches": 0,
-    "undocumented_capabilities": 0,
-    "supervisor_approved": true,
-    "supervisor_confidence": 65
-  },
-  "verification_level": "full_pipeline",
-  "agent_audit": {
-    "agents_completed": 5,
-    "agents_required": 5,
-    "pipeline_run_at": "2026-03-04T17:56:24Z",
-    "agent_a": {
-      "signed": true,
-      "signed_at": "2026-03-04T17:56:24Z",
-      "comment": "Docs quality 10/10. README present. 12 features, 4 permissions claimed.",
-      "doc_quality_score": 10,
-      "claimed_permissions": [
-        "network access",
-        "system command execution",
-        "file system access",
-        "environment/secret access"
-      ]
-    },
-    "agent_b": {
-      "signed": true,
-      "signed_at": "2026-03-04T17:56:24Z",
-      "comment": "762 files analyzed. Found: 0 network, 0 file, 0 env, 0 system calls. Primary: unknown.",
-      "files_analyzed": 762,
-      "capabilities_found": []
-    },
-    "agent_c_star": {
-      "signed": true,
-      "signed_at": "2026-03-04T17:56:24Z",
-      "comment": "17 findings: 0 critical, 11 high, 1 medium, 5 low. Obfuscation detected!. No injection.",
-      "total_findings": 17,
-      "severity_counts": {
-        "critical": 0,
-        "high": 11,
-        "medium": 1,
-        "low": 5,
-        "info": 0
-      }
-    },
-    "agent_d": {
-      "signed": true,
-      "signed_at": "2026-03-04T17:56:24Z",
-      "comment": "Score 65. 0 mismatches. Risk: medium. Safety overrides: none triggered.",
-      "score": 65,
-      "mismatches": 0,
-      "safety_overrides_applied": false
-    },
-    "agent_e": {
-      "signed": true,
-      "signed_at": "2026-03-04T17:56:24Z",
-      "comment": "Rejected. Confidence 65%. No overrides.",
-      "approved": false,
-      "confidence": 65,
-      "override_reason": null
-    },
-    "manager_summary": "5/5 agents completed. Score: 65/100, Risk: medium. 0 mismatches, 17 scanner findings. Rejected at 65% confidence. No safety overrides.",
-    "auto_clear": {
-      "applied": true,
-      "reason": "Auto-clear Cat 1: clean profile (0 inj, 0 obf_hr, 0 crit, score=65)",
-      "original_status": "manual_review",
-      "original_score": 65
-    }
-  },
-  "installs": 182,
-  "has_plugin_json": false
+  "verification_level": "full_pipeline"
 }

@@ -4,16 +4,12 @@
   "description": "Enables AI-powered video-to-audio and text-to-audio generation using MMAudio's API. Create synchronized audio from video content or generate audio from text descriptions with configurable parameters.",
   "repo_url": "https://github.com/mmaudio/mmaudio-mcp",
   "source_hub": "glama",
+  "skill_type": "mcp_server",
   "owner": "mmaudio",
   "stars": 3,
   "primary_language": "unknown",
   "tags": [
-    "data",
-    "data-ai",
-    "data-ai-audio",
-    "integ",
-    "util",
-    "util-media"
+    "ServerApplication"
   ],
   "verification_status": "pass",
   "overall_score": 87,
@@ -26,85 +22,5 @@
     "category_counts": {}
   },
   "scan_date": "2026-03-03T17:57:07Z",
-  "verification_level": "full_pipeline",
-  "status_cleared": {
-    "date": "2026-03-02T20:40:18.531782+00:00",
-    "previous_status": "pass",
-    "previous_score": 85,
-    "previous_risk": "info",
-    "verification_level": "scanner_only",
-    "reason": "SM cleanup: only full_pipeline pass is real pass. Needs re-verification."
-  },
-  "findings_summary": {
-    "scanner_findings": 13,
-    "dangerous_calls": 0,
-    "network_ops": 3,
-    "file_ops": 0,
-    "env_access": 10,
-    "obfuscation": 0,
-    "injection_patterns": 0,
-    "mismatches": 0,
-    "undocumented_capabilities": 0,
-    "supervisor_approved": true,
-    "supervisor_confidence": 87
-  },
-  "agent_audit": {
-    "agents_completed": 5,
-    "agents_required": 5,
-    "pipeline_run_at": "2026-03-03T17:57:07Z",
-    "agent_a": {
-      "signed": true,
-      "signed_at": "2026-03-03T17:57:07Z",
-      "comment": "Docs quality 9/10. README present. 12 features, 4 permissions claimed.",
-      "doc_quality_score": 9,
-      "claimed_permissions": [
-        "network access",
-        "system command execution",
-        "file system access",
-        "environment/secret access"
-      ]
-    },
-    "agent_b": {
-      "signed": true,
-      "signed_at": "2026-03-03T17:57:07Z",
-      "comment": "5 files analyzed. Found: 3 network, 0 file, 11 env, 0 system calls. Primary: unknown.",
-      "files_analyzed": 5,
-      "capabilities_found": [
-        "imports external dependencies",
-        "performs network operations",
-        "reads environment values"
-      ]
-    },
-    "agent_c_star": {
-      "signed": true,
-      "signed_at": "2026-03-03T17:57:07Z",
-      "comment": "13 findings: 0 critical, 0 high, 13 medium, 0 low. No obfuscation. No injection.",
-      "total_findings": 13,
-      "severity_counts": {
-        "critical": 0,
-        "high": 0,
-        "medium": 13,
-        "low": 0,
-        "info": 0
-      }
-    },
-    "agent_d": {
-      "signed": true,
-      "signed_at": "2026-03-03T17:57:07Z",
-      "comment": "Score 87. 0 mismatches. Risk: medium. Safety overrides: none triggered.",
-      "score": 87,
-      "mismatches": 0,
-      "safety_overrides_applied": false
-    },
-    "agent_e": {
-      "signed": true,
-      "signed_at": "2026-03-03T17:57:07Z",
-      "comment": "Approved. Confidence 87%. No overrides.",
-      "approved": true,
-      "confidence": 87,
-      "override_reason": null
-    },
-    "manager_summary": "5/5 agents completed. Score: 87/100, Risk: medium. 0 mismatches, 13 scanner findings. Approved at 87% confidence. No safety overrides."
-  },
-  "skill_type": "mcp_server"
+  "verification_level": "full_pipeline"
 }

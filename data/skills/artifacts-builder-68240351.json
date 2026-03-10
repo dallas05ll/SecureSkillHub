@@ -1,0 +1,23 @@
+{
+  "id": "artifacts-builder-68240351",
+  "name": "artifacts-builder",
+  "description": "Suite of tools for creating elaborate, multi-component claude.ai HTML artifacts using modern frontend web technologies (React, Tailwind CSS, shadcn/ui). Use for complex artifacts requiring state management, routing, or shadcn/ui components - not for simple single-file HTML/JSX artifacts.",
+  "repo_url": "https://github.com/composiohq/awesome-claude-plugins",
+  "source_hub": "skillsmp",
+  "skill_type": "agent_skill",
+  "owner": "composiohq",
+  "stars": 1210,
+  "primary_language": "unknown",
+  "tags": [
+    "agent-skills",
+    "dev-web-frontend",
+    "installs:1330"
+  ],
+  "verification_status": "pass",
+  "overall_score": 60,
+  "risk_level": "medium",
+  "verified_commit": "15bd71180c82f6177adecf9770c51aa0134fe397",
+  "scan_summary": null,
+  "scan_date": "2026-03-03T03:23:34Z",
+  "verification_level": "full_pipeline"
+}

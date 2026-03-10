@@ -1,0 +1,19 @@
+{
+  "id": "rust-tutor-claude-plugin-f310e276",
+  "name": "rust-tutor-claude-plugin",
+  "description": "Interactive Rust learning plugin for Claude Code with progression levels, quality gates, and an auto-mode that challenges you to implement real functions while building projects. Learn by doing, not watching.",
+  "repo_url": "https://github.com/razlani/rust-tutor-claude-plugin",
+  "source_hub": "github_search",
+  "skill_type": "agent_skill",
+  "owner": "razlani",
+  "stars": 1,
+  "license": "mit",
+  "primary_language": "markdown",
+  "tags": [],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null,
+  "last_updated": "2025-12-14T18:58:12Z"
+}

@@ -1,0 +1,23 @@
+{
+  "id": "add-gmail-c8bd2d57",
+  "name": "add-gmail",
+  "description": "Add Gmail integration to NanoClaw. Can be configured as a tool (agent reads/sends emails when triggered from WhatsApp) or as a full channel (emails can trigger the agent, schedule tasks, and receive replies). Guides through GCP OAuth setup and implements the integration.",
+  "repo_url": "https://github.com/qwibitai/nanoclaw",
+  "source_hub": "skillsmp",
+  "skill_type": "agent_skill",
+  "owner": "qwibitai",
+  "stars": 14543,
+  "primary_language": "unknown",
+  "tags": [
+    "agent-skills",
+    "dev-web-frontend",
+    "installs:9202"
+  ],
+  "verification_status": "pass",
+  "overall_score": 100,
+  "risk_level": "high",
+  "verified_commit": "8f91d3be576b830081f2a802e2f2d426b010f8f7",
+  "scan_summary": null,
+  "scan_date": "2026-03-01T05:57:29Z",
+  "verification_level": "full_pipeline"
+}

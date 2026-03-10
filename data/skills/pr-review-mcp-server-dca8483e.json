@@ -4,6 +4,7 @@
   "description": "pr \ubd84\uc11d\uc744 \uc880 \ub354 \ud3b8\ud558\uac8c \ud558\uace0\uc790 \ubbf8\ub9ac \uc791\uc131\ud574\uc8fc\ub294 mcp \uc11c\ubc84\uc785\ub2c8\ub2e4.",
   "repo_url": "https://github.com/wn01011/pr-review-mcp-server",
   "source_hub": "mcp_so",
+  "skill_type": "mcp_server",
   "owner": "wn01011",
   "stars": 0,
   "primary_language": "unknown",
@@ -21,14 +22,5 @@
     "severity_counts": {},
     "category_counts": {}
   },
-  "scan_date": "2026-02-28T04:14:40Z",
-  "status_cleared": {
-    "date": "2026-03-02T20:40:18.531782+00:00",
-    "previous_status": "pass",
-    "previous_score": 85,
-    "previous_risk": "info",
-    "verification_level": "scanner_only",
-    "reason": "SM cleanup: only full_pipeline pass is real pass. Needs re-verification."
-  },
-  "skill_type": "mcp_server"
+  "scan_date": "2026-02-28T04:14:40Z"
 }

@@ -4,6 +4,7 @@
   "description": "MCP (Model Context Protocol) Server to control Android TV",
   "repo_url": "https://github.com/isseikz/mcp-adb",
   "source_hub": "mcp_so",
+  "skill_type": "mcp_server",
   "owner": "isseikz",
   "stars": 2,
   "primary_language": "unknown",
@@ -22,83 +23,5 @@
     "category_counts": {}
   },
   "scan_date": "2026-03-03T19:58:25Z",
-  "verification_level": "full_pipeline",
-  "status_cleared": {
-    "date": "2026-03-02T20:40:18.531782+00:00",
-    "previous_status": "pass",
-    "previous_score": 85,
-    "previous_risk": "info",
-    "verification_level": "scanner_only",
-    "reason": "SM cleanup: only full_pipeline pass is real pass. Needs re-verification."
-  },
-  "findings_summary": {
-    "scanner_findings": 3,
-    "dangerous_calls": 0,
-    "network_ops": 0,
-    "file_ops": 3,
-    "env_access": 0,
-    "obfuscation": 0,
-    "injection_patterns": 0,
-    "mismatches": 0,
-    "undocumented_capabilities": 0,
-    "supervisor_approved": true,
-    "supervisor_confidence": 95
-  },
-  "agent_audit": {
-    "agents_completed": 5,
-    "agents_required": 5,
-    "pipeline_run_at": "2026-03-03T19:58:25Z",
-    "agent_a": {
-      "signed": true,
-      "signed_at": "2026-03-03T19:58:25Z",
-      "comment": "Docs quality 9/10. README present. 12 features, 4 permissions claimed.",
-      "doc_quality_score": 9,
-      "claimed_permissions": [
-        "network access",
-        "system command execution",
-        "file system access",
-        "environment/secret access"
-      ]
-    },
-    "agent_b": {
-      "signed": true,
-      "signed_at": "2026-03-03T19:58:25Z",
-      "comment": "5 files analyzed. Found: 0 network, 2 file, 0 env, 0 system calls. Primary: unknown.",
-      "files_analyzed": 5,
-      "capabilities_found": [
-        "reads/writes files"
-      ]
-    },
-    "agent_c_star": {
-      "signed": true,
-      "signed_at": "2026-03-03T19:58:25Z",
-      "comment": "3 findings: 0 critical, 0 high, 0 medium, 3 low. No obfuscation. No injection.",
-      "total_findings": 3,
-      "severity_counts": {
-        "critical": 0,
-        "high": 0,
-        "medium": 0,
-        "low": 3,
-        "info": 0
-      }
-    },
-    "agent_d": {
-      "signed": true,
-      "signed_at": "2026-03-03T19:58:25Z",
-      "comment": "Score 99. 0 mismatches. Risk: low. Safety overrides: none triggered.",
-      "score": 99,
-      "mismatches": 0,
-      "safety_overrides_applied": false
-    },
-    "agent_e": {
-      "signed": true,
-      "signed_at": "2026-03-03T19:58:25Z",
-      "comment": "Approved. Confidence 95%. No overrides.",
-      "approved": true,
-      "confidence": 95,
-      "override_reason": null
-    },
-    "manager_summary": "5/5 agents completed. Score: 99/100, Risk: low. 0 mismatches, 3 scanner findings. Approved at 95% confidence. No safety overrides."
-  },
-  "skill_type": "mcp_server"
+  "verification_level": "full_pipeline"
 }

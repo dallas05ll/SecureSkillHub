@@ -1,0 +1,22 @@
+{
+  "id": "agent-output-formats-9cb084cd",
+  "name": "agent-output-formats",
+  "description": "Standardized output formats for research, planning, implementation, and review agents. Use when generating agent outputs or parsing agent responses.",
+  "repo_url": "https://github.com/akaszubski/autonomous-dev",
+  "source_hub": "skillsmp",
+  "skill_type": "agent_skill",
+  "owner": "akaszubski",
+  "stars": 11,
+  "primary_language": "unknown",
+  "tags": [
+    "agent-skills",
+    "installs:11"
+  ],
+  "verification_status": "pass",
+  "overall_score": 60,
+  "risk_level": "medium",
+  "verified_commit": "420488645b5080b83ecc5792b425ea0d085ca688",
+  "scan_summary": null,
+  "scan_date": "2026-03-03T17:35:46Z",
+  "verification_level": "full_pipeline"
+}

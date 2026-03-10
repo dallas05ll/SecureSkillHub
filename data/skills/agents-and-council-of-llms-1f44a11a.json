@@ -7,154 +7,17 @@
   "skill_type": "agent_skill",
   "owner": "gregoryg",
   "stars": 0,
-  "primary_language": "shell",
+  "primary_language": "unknown",
   "tags": [
     "agent-skills",
-    "installs:67",
-    "data",
-    "data-ai",
-    "status-pass"
+    "dev-devops",
+    "installs:67"
   ],
   "verification_status": "pass",
   "overall_score": 85,
   "risk_level": "medium",
   "verified_commit": "209858843506e0390c731f696b5efa9150227de8",
   "scan_summary": null,
-  "repo_status": "available",
-  "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
-  "repo_check_error": null,
   "scan_date": "2026-03-04T22:17:23Z",
-  "findings_summary": {
-    "scanner_findings": 6,
-    "dangerous_calls": 4,
-    "network_ops": 0,
-    "file_ops": 1,
-    "env_access": 0,
-    "obfuscation": 0,
-    "injection_patterns": 0,
-    "mismatches": 0,
-    "undocumented_capabilities": 0,
-    "supervisor_approved": true,
-    "supervisor_confidence": 85
-  },
-  "scan_report": {
-    "total_findings": 6,
-    "injection_patterns_count": 0,
-    "obfuscation_count": 0,
-    "obfuscation_high_risk_count": 0,
-    "dangerous_calls_count": 4,
-    "severity_counts": {
-      "critical": 0,
-      "high": 5,
-      "medium": 0,
-      "low": 1,
-      "info": 0
-    },
-    "category_counts": {
-      "file_ops": 1,
-      "dangerous_calls": 4,
-      "suspicious_urls": 1
-    },
-    "top_findings": [
-      {
-        "rule_id": "regex_py_open",
-        "severity": "low",
-        "category": "file_ops",
-        "file": "skills/python-dev/SKILL.md",
-        "line": 15
-      },
-      {
-        "rule_id": "regex_shell_backtick_exec",
-        "severity": "high",
-        "category": "dangerous_calls",
-        "file": "skills/hass-cli/SKILL.md",
-        "line": 24
-      },
-      {
-        "rule_id": "regex_raw_ip_url",
-        "severity": "high",
-        "category": "suspicious_urls",
-        "file": "skills/hass-cli/SKILL.md",
-        "line": 20
-      },
-      {
-        "rule_id": "regex_shell_backtick_exec",
-        "severity": "high",
-        "category": "dangerous_calls",
-        "file": "skills/agents-and-council-of-llms/README.md",
-        "line": 117
-      },
-      {
-        "rule_id": "regex_shell_backtick_exec",
-        "severity": "high",
-        "category": "dangerous_calls",
-        "file": "skills/agents-and-council-of-llms/SKILL.md",
-        "line": 24
-      },
-      {
-        "rule_id": "regex_shell_backtick_exec",
-        "severity": "high",
-        "category": "dangerous_calls",
-        "file": "skills/agents-and-council-of-llms/SKILL.md",
-        "line": 181
-      }
-    ],
-    "total_files_scanned": 43
-  },
-  "verification_level": "full_pipeline",
-  "agent_audit": {
-    "agents_completed": 5,
-    "agents_required": 5,
-    "pipeline_run_at": "2026-03-04T22:17:23Z",
-    "agent_a": {
-      "signed": true,
-      "signed_at": "2026-03-04T22:17:23Z",
-      "comment": "Docs quality 10/10. README present. 12 features, 4 permissions claimed.",
-      "doc_quality_score": 10,
-      "claimed_permissions": [
-        "network access",
-        "system command execution",
-        "file system access",
-        "environment/secret access"
-      ]
-    },
-    "agent_b": {
-      "signed": true,
-      "signed_at": "2026-03-04T22:17:23Z",
-      "comment": "3 files analyzed. Found: 0 network, 0 file, 0 env, 0 system calls. Primary: shell.",
-      "files_analyzed": 3,
-      "capabilities_found": []
-    },
-    "agent_c_star": {
-      "signed": true,
-      "signed_at": "2026-03-04T22:17:23Z",
-      "comment": "6 findings: 0 critical, 5 high, 0 medium, 1 low. No obfuscation. No injection.",
-      "total_findings": 6,
-      "severity_counts": {
-        "critical": 0,
-        "high": 5,
-        "medium": 0,
-        "low": 1,
-        "info": 0
-      }
-    },
-    "agent_d": {
-      "signed": true,
-      "signed_at": "2026-03-04T22:17:23Z",
-      "comment": "Score 85. 0 mismatches. Risk: medium. Safety overrides: none triggered.",
-      "score": 85,
-      "mismatches": 0,
-      "safety_overrides_applied": false
-    },
-    "agent_e": {
-      "signed": true,
-      "signed_at": "2026-03-04T22:17:23Z",
-      "comment": "Approved. Confidence 85%. No overrides.",
-      "approved": true,
-      "confidence": 85,
-      "override_reason": null
-    },
-    "manager_summary": "5/5 agents completed. Score: 85/100, Risk: medium. 0 mismatches, 6 scanner findings. Approved at 85% confidence. No safety overrides."
-  },
-  "installs": 67
+  "verification_level": "full_pipeline"
 }

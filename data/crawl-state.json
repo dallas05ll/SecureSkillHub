@@ -4,9 +4,9 @@
       "url": "https://mcp.so",
       "crawler": "src/crawler/mcp_so.py",
       "status": "done",
-      "total_collected": 5421,
-      "pages_crawled": 115,
-      "last_crawl": "2026-02-25T16:05:37Z",
+      "total_collected": 3793,
+      "pages_crawled": 120,
+      "last_crawl": "2026-03-10T19:31:50Z",
       "trust_level": "LOW",
       "notes": "Unvetted directory, largest source"
     },
@@ -14,9 +14,9 @@
       "url": "https://glama.ai",
       "crawler": "src/crawler/glama.py",
       "status": "done",
-      "total_collected": 51,
+      "total_collected": 48,
       "pages_crawled": 3,
-      "last_crawl": "2026-02-25T16:05:37Z",
+      "last_crawl": "2026-03-10T19:31:50Z",
       "trust_level": "MEDIUM",
       "notes": "Curated directory with JSON-LD metadata"
     },
@@ -24,9 +24,9 @@
       "url": "https://github.com",
       "crawler": "crawl_agent_skills.py",
       "status": "done",
-      "total_collected": 499,
+      "total_collected": 302,
       "pages_crawled": 0,
-      "last_crawl": "2026-02-25T00:00:00Z",
+      "last_crawl": "2026-03-10T19:31:50Z",
       "trust_level": "MEDIUM",
       "notes": "GitHub topic + code search via gh CLI, direct-write path"
     },
@@ -43,10 +43,10 @@
     "skills_sh": {
       "url": "https://skills.sh",
       "crawler": "src/crawler/skills_sh.py",
-      "status": "pending",
-      "total_collected": 0,
-      "pages_crawled": 0,
-      "last_crawl": null,
+      "status": "done",
+      "total_collected": 199,
+      "pages_crawled": 1,
+      "last_crawl": "2026-03-10T19:31:50Z",
       "trust_level": "MEDIUM",
       "notes": "Dual API/HTML strategy with Snyk scanning, crawler exists but no runner script"
     },
@@ -61,5 +61,5 @@
       "notes": "Rebuilt crawler uses AmazingAng/skilldb GitHub mirror (bypasses Cloudflare). 5000 repos from skillsmp source, 4801 new. Install counts used as star proxy (inflated)."
     }
   },
-  "last_updated": "2026-03-04T14:40:00Z"
+  "last_updated": "2026-03-10T19:31:50Z"
 }

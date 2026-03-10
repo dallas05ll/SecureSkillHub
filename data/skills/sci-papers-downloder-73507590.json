@@ -1,0 +1,19 @@
+{
+  "id": "sci-papers-downloder-73507590",
+  "name": "sci-papers-downloder",
+  "description": "Academic paper downloader skill: Scopus search + Unpaywall primary + optional Sci-Hub fallback",
+  "repo_url": "https://github.com/wdc63/sci-papers-downloder",
+  "source_hub": "github_search",
+  "skill_type": "agent_skill",
+  "owner": "wdc63",
+  "stars": 3,
+  "license": "mit",
+  "primary_language": "markdown",
+  "tags": [],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null,
+  "last_updated": "2026-03-09T00:24:24Z"
+}

@@ -1,0 +1,23 @@
+{
+  "id": "activitypub-testing-92db432c",
+  "name": "activitypub-testing",
+  "description": "Testing patterns for PHPUnit and Playwright E2E tests. Use when writing tests, debugging test failures, setting up test coverage, or implementing test patterns for ActivityPub features.",
+  "repo_url": "https://github.com/microck/ordinary-claude-skills",
+  "source_hub": "skillsmp",
+  "skill_type": "agent_skill",
+  "owner": "microck",
+  "stars": 128,
+  "primary_language": "unknown",
+  "tags": [
+    "agent-skills",
+    "data-ai",
+    "installs:125"
+  ],
+  "verification_status": "pass",
+  "overall_score": 45,
+  "risk_level": "medium",
+  "verified_commit": "76c86cb21a36c0cc10c213d991aa1c9498b363c8",
+  "scan_summary": "Aggregated collection of 600+ skills from multiple sources (Anthropic, Composio, k-dense-ai, community). Non-standard license (NOASSERTION). Skills are categorized in skills_all/ and skills_categorized/ directories. Repo author acknowledges passive maintenance and does not individually vet each skill. Contains Python utility scripts for site generation. Static docs site at microck.github.io.",
+  "scan_date": "2026-03-03T05:23:12Z",
+  "verification_level": "full_pipeline"
+}

@@ -4,9 +4,10 @@
   "description": "\u5168\u5999\u65b0\u95fb\u64ad\u62a5MCP Server \u662f\u4e00\u4e2a\u57fa\u4e8e\u963f\u91cc\u4e91\u767e\u70bcAPI\u7684\u65b0\u95fb\u805a\u5408\u670d\u52a1\uff0c\u4e13\u6ce8\u4e8e\u5b9e\u65f6\u83b7\u53d6\u70ed\u70b9\u65b0\u95fb\u8d44\u8baf\u3002",
   "repo_url": "https://github.com/iic-llm-solution/mcp-quanmiao-hotnews",
   "source_hub": "mcp_so",
+  "skill_type": "mcp_server",
   "owner": "iic-llm-solution",
   "stars": 7,
-  "primary_language": "typescript",
+  "primary_language": "unknown",
   "tags": [
     "integ"
   ],
@@ -21,84 +22,5 @@
     "category_counts": {}
   },
   "scan_date": "2026-03-03T17:49:23Z",
-  "verification_level": "full_pipeline",
-  "status_cleared": {
-    "date": "2026-03-02T20:40:18.531782+00:00",
-    "previous_status": "pass",
-    "previous_score": 85,
-    "previous_risk": "info",
-    "verification_level": "scanner_only",
-    "reason": "SM cleanup: only full_pipeline pass is real pass. Needs re-verification."
-  },
-  "findings_summary": {
-    "scanner_findings": 14,
-    "dangerous_calls": 0,
-    "network_ops": 0,
-    "file_ops": 0,
-    "env_access": 12,
-    "obfuscation": 0,
-    "injection_patterns": 0,
-    "mismatches": 0,
-    "undocumented_capabilities": 0,
-    "supervisor_approved": true,
-    "supervisor_confidence": 84
-  },
-  "agent_audit": {
-    "agents_completed": 5,
-    "agents_required": 5,
-    "pipeline_run_at": "2026-03-03T17:49:23Z",
-    "agent_a": {
-      "signed": true,
-      "signed_at": "2026-03-03T17:49:23Z",
-      "comment": "Docs quality 9/10. README present. 12 features, 4 permissions claimed.",
-      "doc_quality_score": 9,
-      "claimed_permissions": [
-        "network access",
-        "system command execution",
-        "file system access",
-        "environment/secret access"
-      ]
-    },
-    "agent_b": {
-      "signed": true,
-      "signed_at": "2026-03-03T17:49:23Z",
-      "comment": "8 files analyzed. Found: 0 network, 0 file, 9 env, 0 system calls. Primary: typescript.",
-      "files_analyzed": 8,
-      "capabilities_found": [
-        "imports external dependencies",
-        "reads environment values"
-      ]
-    },
-    "agent_c_star": {
-      "signed": true,
-      "signed_at": "2026-03-03T17:49:23Z",
-      "comment": "14 findings: 0 critical, 2 high, 12 medium, 0 low. No obfuscation. No injection.",
-      "total_findings": 14,
-      "severity_counts": {
-        "critical": 0,
-        "high": 2,
-        "medium": 12,
-        "low": 0,
-        "info": 0
-      }
-    },
-    "agent_d": {
-      "signed": true,
-      "signed_at": "2026-03-03T17:49:23Z",
-      "comment": "Score 84. 0 mismatches. Risk: medium. Safety overrides: none triggered.",
-      "score": 84,
-      "mismatches": 0,
-      "safety_overrides_applied": false
-    },
-    "agent_e": {
-      "signed": true,
-      "signed_at": "2026-03-03T17:49:23Z",
-      "comment": "Approved. Confidence 84%. No overrides.",
-      "approved": true,
-      "confidence": 84,
-      "override_reason": null
-    },
-    "manager_summary": "5/5 agents completed. Score: 84/100, Risk: medium. 0 mismatches, 14 scanner findings. Approved at 84% confidence. No safety overrides."
-  },
-  "skill_type": "mcp_server"
+  "verification_level": "full_pipeline"
 }

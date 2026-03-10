@@ -7,98 +7,16 @@
   "skill_type": "agent_skill",
   "owner": "netalertx",
   "stars": 0,
-  "primary_language": "python",
+  "primary_language": "unknown",
   "tags": [
     "agent-skills",
-    "installs:5801",
-    "status-pass",
-    "utilities"
+    "installs:5801"
   ],
   "verification_status": "pass",
   "overall_score": 15,
   "risk_level": "critical",
   "verified_commit": "c73ce839f26455b5d1a48e9ca521a2fb6ee4ecc2",
   "scan_summary": null,
-  "repo_status": "available",
-  "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
-  "repo_check_error": null,
   "scan_date": "2026-03-04T16:30:16Z",
-  "findings_summary": {
-    "scanner_findings": 944,
-    "dangerous_calls": 366,
-    "network_ops": 43,
-    "file_ops": 306,
-    "env_access": 139,
-    "obfuscation": 66,
-    "injection_patterns": 0,
-    "mismatches": 0,
-    "undocumented_capabilities": 0,
-    "supervisor_approved": true,
-    "supervisor_confidence": 90
-  },
-  "verification_level": "full_pipeline",
-  "agent_audit": {
-    "agents_completed": 5,
-    "agents_required": 5,
-    "pipeline_run_at": "2026-03-04T16:30:16Z",
-    "agent_a": {
-      "signed": true,
-      "signed_at": "2026-03-04T16:30:16Z",
-      "comment": "Docs quality 9/10. README present. 12 features, 4 permissions claimed.",
-      "doc_quality_score": 9,
-      "claimed_permissions": [
-        "network access",
-        "system command execution",
-        "file system access",
-        "environment/secret access"
-      ]
-    },
-    "agent_b": {
-      "signed": true,
-      "signed_at": "2026-03-04T16:30:16Z",
-      "comment": "387 files analyzed. Found: 54 network, 116 file, 120 env, 86 system calls. Primary: python.",
-      "files_analyzed": 387,
-      "capabilities_found": [
-        "imports external dependencies",
-        "performs network operations",
-        "reads/writes files",
-        "reads environment values",
-        "executes system commands"
-      ]
-    },
-    "agent_c_star": {
-      "signed": true,
-      "signed_at": "2026-03-04T16:30:16Z",
-      "comment": "944 findings: 0 critical, 456 high, 182 medium, 306 low. Obfuscation detected!. No injection.",
-      "total_findings": 944,
-      "severity_counts": {
-        "critical": 0,
-        "high": 456,
-        "medium": 182,
-        "low": 306,
-        "info": 0
-      }
-    },
-    "agent_d": {
-      "signed": true,
-      "signed_at": "2026-03-04T16:30:16Z",
-      "comment": "Score 15. 0 mismatches. Risk: critical. Safety overrides: applied.",
-      "score": 15,
-      "mismatches": 0,
-      "safety_overrides_applied": true
-    },
-    "agent_e": {
-      "signed": true,
-      "signed_at": "2026-03-04T16:30:16Z",
-      "comment": "Rejected. Confidence 90%. Deterministic override: high-risk obfuscation detected.",
-      "approved": false,
-      "confidence": 90,
-      "override_reason": "Deterministic override: high-risk obfuscation detected."
-    },
-    "manager_summary": "5/5 agents completed. Score: 15/100, Risk: critical. 0 mismatches, 944 scanner findings. Rejected at 90% confidence. Safety overrides triggered."
-  },
-  "pm_override": true,
-  "pm_override_reason": "FP: chr(39) in Docker test + DataTables Unicode currency table in bundled lib",
-  "installs": 5801,
-  "has_plugin_json": false
+  "verification_level": "full_pipeline"
 }

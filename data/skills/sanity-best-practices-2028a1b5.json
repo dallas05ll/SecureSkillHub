@@ -1,0 +1,23 @@
+{
+  "id": "sanity-best-practices-2028a1b5",
+  "name": "sanity-best-practices",
+  "description": "Comprehensive Sanity development best practices covering GROQ performance, schema design, Visual Editing, images, Portable Text, page builders, Studio configuration, TypeGen, localization, and migrations. Use this skill when building, reviewing, or optimizing Sanity applications.",
+  "repo_url": "https://github.com/sanity-io/agent-toolkit",
+  "source_hub": "skillsmp",
+  "skill_type": "agent_skill",
+  "owner": "sanity-io",
+  "stars": 90,
+  "primary_language": "unknown",
+  "tags": [
+    "agent-skills",
+    "dev-web-frontend",
+    "installs:616"
+  ],
+  "verification_status": "pass",
+  "overall_score": 30,
+  "risk_level": "medium",
+  "verified_commit": "ddb989101fef18b5ce7cca6312cc57071ded3e7c",
+  "scan_summary": null,
+  "scan_date": "2026-03-03T14:50:39Z",
+  "verification_level": "full_pipeline"
+}

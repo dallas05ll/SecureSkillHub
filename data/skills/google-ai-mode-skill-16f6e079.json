@@ -1,0 +1,23 @@
+{
+  "id": "google-ai-mode-skill-16f6e079",
+  "name": "google-ai-mode-skill",
+  "description": "Use this skill when the user requests current information, documentation, coding examples, or web research beyond the knowledge cutoff. Queries Google's AI Search mode to retrieve comprehensive AI-generated overviews with source citations from 100+ websites. Returns markdown with inline footnoted references [1][2][3]. You will receive a detailed Markdown file with references and information summarized directly from Google's AI search. Ideal for you to get new information and clues for further...",
+  "repo_url": "https://github.com/pleaseprompto/google-ai-mode-skill",
+  "source_hub": "skillsmp",
+  "skill_type": "agent_skill",
+  "owner": "pleaseprompto",
+  "stars": 101,
+  "primary_language": "unknown",
+  "tags": [
+    "agent-skills",
+    "dev-devops",
+    "installs:94"
+  ],
+  "verification_status": "pass",
+  "overall_score": 84,
+  "risk_level": "medium",
+  "verified_commit": "c10c13b296c7dbb7c7740863f72ecb0e97dbe4d2",
+  "scan_summary": null,
+  "scan_date": "2026-03-03T14:50:02Z",
+  "verification_level": "full_pipeline"
+}

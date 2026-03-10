@@ -1,0 +1,23 @@
+{
+  "id": "rubycritic-code-quality-analysis-4ad97f2a",
+  "name": "rubycritic-code-quality-analysis",
+  "description": "Analyze Ruby and Rails code quality with RubyCritic. Identifies code smells, complexity issues, and refactoring opportunities. Provides detailed metrics, scores files A-F, compares branches, and prioritizes high-churn problem areas. Use when analyzing Ruby code quality, reviewing PRs, or identifying technical debt.",
+  "repo_url": "https://github.com/esparkman/claude-rubycritic-skill",
+  "source_hub": "skillsmp",
+  "skill_type": "agent_skill",
+  "owner": "esparkman",
+  "stars": 13,
+  "primary_language": "unknown",
+  "tags": [
+    "agent-skills",
+    "data-ai",
+    "installs:12"
+  ],
+  "verification_status": "pass",
+  "overall_score": 98,
+  "risk_level": "medium",
+  "verified_commit": "4e66117a8bbbecccdb786db4091c5fbcdf3776f3",
+  "scan_summary": null,
+  "scan_date": "2026-03-03T17:34:58Z",
+  "verification_level": "full_pipeline"
+}

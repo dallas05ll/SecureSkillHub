@@ -1,0 +1,23 @@
+{
+  "id": "ai-daily-news-40cdb923",
+  "name": "ai-daily-news",
+  "description": "Fetches AI news from smol.ai RSS and generates structured markdown with intelligent summarization and categorization. Optionally creates beautiful HTML webpages with Apple-style themes and shareable card images. Use when user asks about AI news, daily tech updates, or wants news organized by date or category.",
+  "repo_url": "https://github.com/geekjourneyx/ai-daily-skill",
+  "source_hub": "skillsmp",
+  "skill_type": "agent_skill",
+  "owner": "geekjourneyx",
+  "stars": 156,
+  "primary_language": "unknown",
+  "tags": [
+    "agent-skills",
+    "data-ai",
+    "installs:151"
+  ],
+  "verification_status": "pass",
+  "overall_score": 50,
+  "risk_level": "medium",
+  "verified_commit": "c4523c60017b227b42f31139193bb6b2fb6a7b8f",
+  "scan_summary": "Python-heavy skill with RSS fetching, Claude API proxy usage, email notification, and image generation. Requires third-party API key (ZHIPU_API_KEY) routing through a Chinese AI proxy (bigmodel.cn) instead of official Anthropic endpoints. No LICENSE file present. Dependencies include anthropic, feedparser, requests, python-dateutil. .env.example present with credential placeholders.",
+  "scan_date": "2026-03-03T05:21:42Z",
+  "verification_level": "full_pipeline"
+}

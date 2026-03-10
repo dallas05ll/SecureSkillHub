@@ -4,9 +4,10 @@
   "description": "MCP Server for Translationx",
   "repo_url": "https://github.com/Deep-Intelligent-Pharma/Translationx-mcp-server",
   "source_hub": "mcp_so",
+  "skill_type": "mcp_server",
   "owner": "Deep-Intelligent-Pharma",
   "stars": 4,
-  "primary_language": "python",
+  "primary_language": "unknown",
   "tags": [
     "data",
     "data-ai",
@@ -23,85 +24,5 @@
     "category_counts": {}
   },
   "scan_date": "2026-03-03T17:56:10Z",
-  "verification_level": "full_pipeline",
-  "status_cleared": {
-    "date": "2026-03-02T20:40:18.531782+00:00",
-    "previous_status": "pass",
-    "previous_score": 85,
-    "previous_risk": "info",
-    "verification_level": "scanner_only",
-    "reason": "SM cleanup: only full_pipeline pass is real pass. Needs re-verification."
-  },
-  "findings_summary": {
-    "scanner_findings": 11,
-    "dangerous_calls": 0,
-    "network_ops": 6,
-    "file_ops": 4,
-    "env_access": 1,
-    "obfuscation": 0,
-    "injection_patterns": 0,
-    "mismatches": 1,
-    "undocumented_capabilities": 1,
-    "supervisor_approved": true,
-    "supervisor_confidence": 81
-  },
-  "agent_audit": {
-    "agents_completed": 5,
-    "agents_required": 5,
-    "pipeline_run_at": "2026-03-03T17:56:10Z",
-    "agent_a": {
-      "signed": true,
-      "signed_at": "2026-03-03T17:56:10Z",
-      "comment": "Docs quality 5/10. README present. 0 features, 3 permissions claimed.",
-      "doc_quality_score": 5,
-      "claimed_permissions": [
-        "network access",
-        "system command execution",
-        "environment/secret access"
-      ]
-    },
-    "agent_b": {
-      "signed": true,
-      "signed_at": "2026-03-03T17:56:10Z",
-      "comment": "12 files analyzed. Found: 1 network, 2 file, 1 env, 0 system calls. Primary: python.",
-      "files_analyzed": 12,
-      "capabilities_found": [
-        "imports external dependencies",
-        "performs network operations",
-        "reads/writes files",
-        "reads environment values"
-      ]
-    },
-    "agent_c_star": {
-      "signed": true,
-      "signed_at": "2026-03-03T17:56:10Z",
-      "comment": "11 findings: 0 critical, 0 high, 7 medium, 4 low. No obfuscation. No injection.",
-      "total_findings": 11,
-      "severity_counts": {
-        "critical": 0,
-        "high": 0,
-        "medium": 7,
-        "low": 4,
-        "info": 0
-      }
-    },
-    "agent_d": {
-      "signed": true,
-      "signed_at": "2026-03-03T17:56:10Z",
-      "comment": "Score 81. 1 mismatches. Risk: medium. Safety overrides: none triggered.",
-      "score": 81,
-      "mismatches": 1,
-      "safety_overrides_applied": false
-    },
-    "agent_e": {
-      "signed": true,
-      "signed_at": "2026-03-03T17:56:10Z",
-      "comment": "Approved. Confidence 81%. No overrides.",
-      "approved": true,
-      "confidence": 81,
-      "override_reason": null
-    },
-    "manager_summary": "5/5 agents completed. Score: 81/100, Risk: medium. 1 mismatches, 11 scanner findings. Approved at 81% confidence. No safety overrides."
-  },
-  "skill_type": "mcp_server"
+  "verification_level": "full_pipeline"
 }

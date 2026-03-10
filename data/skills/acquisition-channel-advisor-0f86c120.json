@@ -1,0 +1,23 @@
+{
+  "id": "acquisition-channel-advisor-0f86c120",
+  "name": "acquisition-channel-advisor",
+  "description": "Evaluate acquisition channels using unit economics, customer quality, and scalability. Recommends scale/test/kill decisions.",
+  "repo_url": "https://github.com/deanpeters/product-manager-skills",
+  "source_hub": "skillsmp",
+  "skill_type": "agent_skill",
+  "owner": "deanpeters",
+  "stars": 163,
+  "primary_language": "unknown",
+  "tags": [
+    "agent-skills",
+    "dev-web-frontend",
+    "installs:111"
+  ],
+  "verification_status": "pass",
+  "overall_score": 84,
+  "risk_level": "medium",
+  "verified_commit": "1e8ff6247c02c9d77da03a823bb8c9da3ed00884",
+  "scan_summary": "Large collection of 42 PM framework skills with Shell adapter scripts. License is CC BY-NC-SA 4.0 (non-commercial) which is noted. Shell scripts in /scripts are adapter helpers for packaging, not executed at runtime. Well-organized SKILL.md structure per skill. No network calls, no credential handling, no dangerous bash patterns found.",
+  "scan_date": "2026-03-03T05:16:40Z",
+  "verification_level": "full_pipeline"
+}

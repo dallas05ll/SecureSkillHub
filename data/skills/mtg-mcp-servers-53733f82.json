@@ -1,0 +1,17 @@
+{
+  "id": "mtg-mcp-servers-53733f82",
+  "name": "mtg-mcp-servers",
+  "description": "Model Context Protocol (MCP) servers for searching for cards with the Scryfall API, and managing the LLM's decklist and hand when playing",
+  "repo_url": "https://github.com/artillect/mtg-mcp-servers",
+  "source_hub": "mcp_so",
+  "skill_type": "mcp_server",
+  "owner": "artillect",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null
+}

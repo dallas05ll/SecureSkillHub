@@ -4,6 +4,7 @@
   "description": "A MCP server for our beloved terminal multiplexer tmux.",
   "repo_url": "https://github.com/nickgnd/tmux-mcp",
   "source_hub": "mcp_so",
+  "skill_type": "mcp_server",
   "owner": "nickgnd",
   "stars": 228,
   "primary_language": "unknown",
@@ -17,79 +18,5 @@
   "verified_commit": "ec68b1061cf3b0d1faa9c5ef5e3f703918e07ba8",
   "scan_summary": null,
   "scan_date": "2026-03-01T05:57:35Z",
-  "findings_summary": {
-    "scanner_findings": 1,
-    "dangerous_calls": 1,
-    "network_ops": 0,
-    "file_ops": 0,
-    "env_access": 0,
-    "obfuscation": 0,
-    "injection_patterns": 0,
-    "mismatches": 0,
-    "undocumented_capabilities": 0,
-    "supervisor_approved": true,
-    "supervisor_confidence": 95,
-    "reassessed": true,
-    "reassessed_at": "2026-03-01T21:16:57Z",
-    "reassessment_reason": "Scoring logic fixed: scanner_penalty capped at 40, risk=HIGH from documented dangerous_calls no longer blocks PASS",
-    "previous_status": "manual_review",
-    "previous_score": 100
-  },
-  "verification_level": "full_pipeline",
-  "agent_audit": {
-    "agents_completed": 5,
-    "agents_required": 5,
-    "pipeline_run_at": "2026-03-01T05:57:35Z",
-    "agent_a": {
-      "signed": true,
-      "signed_at": "2026-03-01T05:57:35Z",
-      "comment": "Docs quality 8/10. README present. 12 features, 3 permissions claimed.",
-      "doc_quality_score": 8,
-      "claimed_permissions": [
-        "network access",
-        "system command execution",
-        "file system access"
-      ]
-    },
-    "agent_b": {
-      "signed": true,
-      "signed_at": "2026-03-01T05:57:35Z",
-      "comment": "5 files analyzed. Found: 0 network, 0 file, 0 env, 1 system calls. Primary: unknown.",
-      "files_analyzed": 5,
-      "capabilities_found": [
-        "executes system commands"
-      ]
-    },
-    "agent_c_star": {
-      "signed": true,
-      "signed_at": "2026-03-01T05:57:35Z",
-      "comment": "1 findings: 0 critical, 1 high, 0 medium, 0 low. No obfuscation. No injection.",
-      "total_findings": 1,
-      "severity_counts": {
-        "critical": 0,
-        "high": 1,
-        "medium": 0,
-        "low": 0,
-        "info": 0
-      }
-    },
-    "agent_d": {
-      "signed": true,
-      "signed_at": "2026-03-01T05:57:35Z",
-      "comment": "Score 100. 0 mismatches. Risk: high. Safety overrides: none triggered.",
-      "score": 100,
-      "mismatches": 0,
-      "safety_overrides_applied": false
-    },
-    "agent_e": {
-      "signed": true,
-      "signed_at": "2026-03-01T05:57:35Z",
-      "comment": "Rejected. Confidence 95%. No overrides.",
-      "approved": false,
-      "confidence": 95,
-      "override_reason": null
-    },
-    "manager_summary": "5/5 agents completed. Score: 100/100, Risk: high. 0 mismatches, 1 scanner findings. Rejected at 95% confidence. No safety overrides."
-  },
-  "skill_type": "mcp_server"
+  "verification_level": "full_pipeline"
 }

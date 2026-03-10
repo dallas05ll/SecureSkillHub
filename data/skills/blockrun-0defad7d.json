@@ -1,0 +1,23 @@
+{
+  "id": "blockrun-0defad7d",
+  "name": "blockrun",
+  "description": "Use when user needs capabilities Claude lacks (image generation, real-time X/Twitter data) or explicitly requests external models (\"blockrun\", \"use grok\", \"use gpt\", \"dall-e\", \"deepseek\"). For Antigravity users, also use when credits are exhausted, stuck in refactoring loops, or need a second opinion on Gemini's code.",
+  "repo_url": "https://github.com/blockrunai/blockrun-agent-wallet",
+  "source_hub": "skillsmp",
+  "skill_type": "agent_skill",
+  "owner": "blockrunai",
+  "stars": 23,
+  "primary_language": "unknown",
+  "tags": [
+    "agent-skills",
+    "dev-devops",
+    "installs:20"
+  ],
+  "verification_status": "pass",
+  "overall_score": 77,
+  "risk_level": "medium",
+  "verified_commit": "091d4460ec3e6ca02d9f7c66a041e087093cb3cd",
+  "scan_summary": null,
+  "scan_date": "2026-03-03T17:13:26Z",
+  "verification_level": "full_pipeline"
+}

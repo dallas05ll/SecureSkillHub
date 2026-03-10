@@ -1,0 +1,23 @@
+{
+  "id": "md2wechat-106f3830",
+  "name": "md2wechat",
+  "description": "Convert Markdown to WeChat Official Account HTML. Supports API mode (fast) and AI mode (themed). Features writer style assistant, AI trace removal (humanizer), and draft upload.",
+  "repo_url": "https://github.com/geekjourneyx/md2wechat-skill",
+  "source_hub": "skillsmp",
+  "skill_type": "agent_skill",
+  "owner": "geekjourneyx",
+  "stars": 472,
+  "primary_language": "unknown",
+  "tags": [
+    "agent-skills",
+    "dev-web-backend",
+    "installs:448"
+  ],
+  "verification_status": "pass",
+  "overall_score": 58,
+  "risk_level": "medium",
+  "verified_commit": "ffe0a3393ad07168d177a47227db5c52fbb41abc",
+  "scan_summary": null,
+  "scan_date": "2026-03-03T03:49:11Z",
+  "verification_level": "full_pipeline"
+}

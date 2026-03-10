@@ -1,0 +1,19 @@
+{
+  "id": "wp-coding-standards-claude-skill-aa42b4a4",
+  "name": "wp-coding-standards-claude-skill",
+  "description": "WordPress Coding Standards skill for Claude Code - WPCS enforcement, sanitization, escaping, nonce verification, PHPDoc patterns",
+  "repo_url": "https://github.com/xonack/wp-coding-standards-claude-skill",
+  "source_hub": "github_search",
+  "skill_type": "agent_skill",
+  "owner": "xonack",
+  "stars": 1,
+  "license": "mit",
+  "primary_language": "markdown",
+  "tags": [],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null,
+  "last_updated": "2026-03-05T20:12:21Z"
+}

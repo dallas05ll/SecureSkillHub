@@ -1,0 +1,23 @@
+{
+  "id": "administering-linux-93a50b20",
+  "name": "administering-linux",
+  "description": "Manage Linux systems covering systemd services, process management, filesystems, networking, performance tuning, and troubleshooting. Use when deploying applications, optimizing server performance, diagnosing production issues, or managing users and security on Linux servers.",
+  "repo_url": "https://github.com/ancoleman/ai-design-components",
+  "source_hub": "skillsmp",
+  "skill_type": "agent_skill",
+  "owner": "ancoleman",
+  "stars": 290,
+  "primary_language": "unknown",
+  "tags": [
+    "agent-skills",
+    "dev-web-backend",
+    "installs:273"
+  ],
+  "verification_status": "pass",
+  "overall_score": 45,
+  "risk_level": "medium",
+  "verified_commit": "76551b7b19ebc667764ec75da14990d0aef8b6e5",
+  "scan_summary": null,
+  "scan_date": "2026-03-03T03:55:06Z",
+  "verification_level": "full_pipeline"
+}

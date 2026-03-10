@@ -4,6 +4,7 @@
   "description": "Model Context Protocol for Text-to-Speech",
   "repo_url": "https://github.com/yuiseki/edge_tts_mcp_server",
   "source_hub": "mcp_so",
+  "skill_type": "mcp_server",
   "owner": "yuiseki",
   "stars": 5,
   "primary_language": "unknown",
@@ -23,82 +24,5 @@
     "category_counts": {}
   },
   "scan_date": "2026-03-03T17:50:56Z",
-  "verification_level": "full_pipeline",
-  "status_cleared": {
-    "date": "2026-03-02T20:40:18.531782+00:00",
-    "previous_status": "pass",
-    "previous_score": 85,
-    "previous_risk": "info",
-    "verification_level": "scanner_only",
-    "reason": "SM cleanup: only full_pipeline pass is real pass. Needs re-verification."
-  },
-  "findings_summary": {
-    "scanner_findings": 14,
-    "dangerous_calls": 8,
-    "network_ops": 0,
-    "file_ops": 6,
-    "env_access": 0,
-    "obfuscation": 0,
-    "injection_patterns": 0,
-    "mismatches": 0,
-    "undocumented_capabilities": 0,
-    "supervisor_approved": true,
-    "supervisor_confidence": 81
-  },
-  "agent_audit": {
-    "agents_completed": 5,
-    "agents_required": 5,
-    "pipeline_run_at": "2026-03-03T17:50:56Z",
-    "agent_a": {
-      "signed": true,
-      "signed_at": "2026-03-03T17:50:56Z",
-      "comment": "Docs quality 7/10. README present. 8 features, 2 permissions claimed.",
-      "doc_quality_score": 7,
-      "claimed_permissions": [
-        "network access",
-        "system command execution"
-      ]
-    },
-    "agent_b": {
-      "signed": true,
-      "signed_at": "2026-03-03T17:50:56Z",
-      "comment": "4 files analyzed. Found: 0 network, 0 file, 0 env, 6 system calls. Primary: unknown.",
-      "files_analyzed": 4,
-      "capabilities_found": [
-        "imports external dependencies",
-        "executes system commands"
-      ]
-    },
-    "agent_c_star": {
-      "signed": true,
-      "signed_at": "2026-03-03T17:50:56Z",
-      "comment": "14 findings: 0 critical, 8 high, 0 medium, 6 low. No obfuscation. No injection.",
-      "total_findings": 14,
-      "severity_counts": {
-        "critical": 0,
-        "high": 8,
-        "medium": 0,
-        "low": 6,
-        "info": 0
-      }
-    },
-    "agent_d": {
-      "signed": true,
-      "signed_at": "2026-03-03T17:50:56Z",
-      "comment": "Score 81. 0 mismatches. Risk: medium. Safety overrides: none triggered.",
-      "score": 81,
-      "mismatches": 0,
-      "safety_overrides_applied": false
-    },
-    "agent_e": {
-      "signed": true,
-      "signed_at": "2026-03-03T17:50:56Z",
-      "comment": "Approved. Confidence 81%. No overrides.",
-      "approved": true,
-      "confidence": 81,
-      "override_reason": null
-    },
-    "manager_summary": "5/5 agents completed. Score: 81/100, Risk: medium. 0 mismatches, 14 scanner findings. Approved at 81% confidence. No safety overrides."
-  },
-  "skill_type": "mcp_server"
+  "verification_level": "full_pipeline"
 }

@@ -1,0 +1,23 @@
+{
+  "id": "code-simplification-5d059a89",
+  "name": "code-simplification",
+  "description": "Use after implementing features, before claiming a phase is complete, when reviewing AI-generated code, or when code feels overly complex \u2014 detects duplication, dead code, over-engineering, and AI-specific bloat patterns",
+  "repo_url": "https://github.com/lgbarn/shipyard",
+  "source_hub": "skillsmp",
+  "skill_type": "agent_skill",
+  "owner": "lgbarn",
+  "stars": 41,
+  "primary_language": "unknown",
+  "tags": [
+    "agent-skills",
+    "dev-devops",
+    "installs:38"
+  ],
+  "verification_status": "pass",
+  "overall_score": 25,
+  "risk_level": "medium",
+  "verified_commit": "05ad0fd4aac82512407b1714b8d338ea31f98e6d",
+  "scan_summary": null,
+  "scan_date": "2026-03-03T14:59:02Z",
+  "verification_level": "full_pipeline"
+}

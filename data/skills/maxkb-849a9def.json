@@ -1,0 +1,24 @@
+{
+  "id": "maxkb-849a9def",
+  "name": "MaxKB",
+  "description": "\ud83d\udcac MaxKB is an open-source AI assistant for enterprise. It seamlessly integrates RAG pipelines, supports robust workflows, and provides MCP tool-use capabilities.",
+  "repo_url": "https://github.com/1Panel-dev/MaxKB",
+  "source_hub": "mcp_so",
+  "skill_type": "mcp_server",
+  "owner": "1Panel-dev",
+  "stars": 20166,
+  "primary_language": "unknown",
+  "tags": [
+    "data",
+    "data-ai",
+    "data-ai-rag",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 100,
+  "risk_level": "medium",
+  "verified_commit": "ae3d95f3c4b369e543949a853982c217800d9cbc",
+  "scan_summary": null,
+  "scan_date": "2026-02-28T20:57:07Z",
+  "verification_level": "full_pipeline"
+}

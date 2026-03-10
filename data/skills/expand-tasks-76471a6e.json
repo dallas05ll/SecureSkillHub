@@ -1,0 +1,22 @@
+{
+  "id": "expand-tasks-76471a6e",
+  "name": "expand-tasks",
+  "description": "Expand all TaskMaster tasks with deep research via Perplexity before coding begins. Reads tasks.json, launches parallel research agents per task, writes findings back. Part of the prd-taskmaster toolkit. Use after PRD is parsed into tasks and before implementation begins. Invoke with /expand-tasks or when user says \"expand tasks\", \"research all tasks\", or \"research before coding for all tasks\".",
+  "repo_url": "https://github.com/anombyte93/prd-taskmaster",
+  "source_hub": "skillsmp",
+  "skill_type": "agent_skill",
+  "owner": "anombyte93",
+  "stars": 115,
+  "primary_language": "unknown",
+  "tags": [
+    "agent-skills",
+    "installs:98"
+  ],
+  "verification_status": "pass",
+  "overall_score": 71,
+  "risk_level": "medium",
+  "verified_commit": "44ac8c09aac04827dd8f93dfee583b78bc7e3450",
+  "scan_summary": "Python-based PRD generation skill with SKILL.md, script.py automation, and install.sh. MIT licensed. install.sh uses set -euo pipefail, clones repo via git (not curl-pipe), checks for updates via GitHub API, and installs to ~/.claude/skills. script.py performs local filesystem operations only (read templates, write PRD files, validate content, run subprocess for taskmaster CLI). SKILL.md has proper frontmatter with allowed-tools list. No network calls except GitHub API for update check.",
+  "scan_date": "2026-03-03T14:49:11Z",
+  "verification_level": "full_pipeline"
+}

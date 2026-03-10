@@ -4,9 +4,10 @@
   "description": "Skillhub MCP bridges that gap: it turns Claude-style skills into MCP tools, so any MCP client can call the same skills.",
   "repo_url": "https://github.com/214140846/skillhub-mcp",
   "source_hub": "mcp_so",
+  "skill_type": "mcp_server",
   "owner": "214140846",
   "stars": 1,
-  "primary_language": "python",
+  "primary_language": "unknown",
   "tags": [
     "util"
   ],
@@ -21,88 +22,5 @@
     "category_counts": {}
   },
   "scan_date": "2026-03-03T21:01:44Z",
-  "verification_level": "full_pipeline",
-  "status_cleared": {
-    "date": "2026-03-02T20:40:18.531782+00:00",
-    "previous_status": "pass",
-    "previous_score": 85,
-    "previous_risk": "info",
-    "verification_level": "scanner_only",
-    "reason": "SM cleanup: only full_pipeline pass is real pass. Needs re-verification."
-  },
-  "pm_override": {
-    "date": "2026-03-03T21:05:00Z",
-    "previous_status": "fail",
-    "reason": "PM override: vendored deps FP. 0 inj, 4 obf, 0 crit."
-  },
-  "findings_summary": {
-    "scanner_findings": 4,
-    "dangerous_calls": 0,
-    "network_ops": 0,
-    "file_ops": 0,
-    "env_access": 0,
-    "obfuscation": 4,
-    "injection_patterns": 0,
-    "mismatches": 0,
-    "undocumented_capabilities": 0,
-    "supervisor_approved": true,
-    "supervisor_confidence": 90
-  },
-  "agent_audit": {
-    "agents_completed": 5,
-    "agents_required": 5,
-    "pipeline_run_at": "2026-03-03T21:01:44Z",
-    "agent_a": {
-      "signed": true,
-      "signed_at": "2026-03-03T21:01:44Z",
-      "comment": "Docs quality 9/10. README present. 12 features, 3 permissions claimed.",
-      "doc_quality_score": 9,
-      "claimed_permissions": [
-        "network access",
-        "system command execution",
-        "file system access"
-      ]
-    },
-    "agent_b": {
-      "signed": true,
-      "signed_at": "2026-03-03T21:01:44Z",
-      "comment": "11 files analyzed. Found: 0 network, 18 file, 0 env, 0 system calls. Primary: python.",
-      "files_analyzed": 11,
-      "capabilities_found": [
-        "imports external dependencies",
-        "reads/writes files"
-      ]
-    },
-    "agent_c_star": {
-      "signed": true,
-      "signed_at": "2026-03-03T21:01:44Z",
-      "comment": "4 findings: 0 critical, 4 high, 0 medium, 0 low. Obfuscation detected!. No injection.",
-      "total_findings": 4,
-      "severity_counts": {
-        "critical": 0,
-        "high": 4,
-        "medium": 0,
-        "low": 0,
-        "info": 0
-      }
-    },
-    "agent_d": {
-      "signed": true,
-      "signed_at": "2026-03-03T21:01:44Z",
-      "comment": "Score 15. 0 mismatches. Risk: critical. Safety overrides: applied.",
-      "score": 15,
-      "mismatches": 0,
-      "safety_overrides_applied": true
-    },
-    "agent_e": {
-      "signed": true,
-      "signed_at": "2026-03-03T21:01:44Z",
-      "comment": "Rejected. Confidence 90%. Deterministic override: high-risk obfuscation detected.",
-      "approved": false,
-      "confidence": 90,
-      "override_reason": "Deterministic override: high-risk obfuscation detected."
-    },
-    "manager_summary": "5/5 agents completed. Score: 15/100, Risk: critical. 0 mismatches, 4 scanner findings. Rejected at 90% confidence. Safety overrides triggered."
-  },
-  "skill_type": "mcp_server"
+  "verification_level": "full_pipeline"
 }

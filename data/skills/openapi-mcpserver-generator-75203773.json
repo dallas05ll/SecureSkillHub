@@ -4,9 +4,10 @@
   "description": "Generate MCP server from openapi specifications",
   "repo_url": "https://github.com/vincent-pli/openapi-mcpserver-generator",
   "source_hub": "mcp_so",
+  "skill_type": "mcp_server",
   "owner": "vincent-pli",
   "stars": 1,
-  "primary_language": "javascript",
+  "primary_language": "unknown",
   "tags": [
     "integ"
   ],
@@ -21,92 +22,5 @@
     "category_counts": {}
   },
   "scan_date": "2026-03-03T20:56:19Z",
-  "verification_level": "full_pipeline",
-  "status_cleared": {
-    "date": "2026-03-02T20:40:18.531782+00:00",
-    "previous_status": "pass",
-    "previous_score": 85,
-    "previous_risk": "info",
-    "verification_level": "scanner_only",
-    "reason": "SM cleanup: only full_pipeline pass is real pass. Needs re-verification."
-  },
-  "findings_summary": {
-    "scanner_findings": 25,
-    "dangerous_calls": 1,
-    "network_ops": 1,
-    "file_ops": 3,
-    "env_access": 18,
-    "obfuscation": 2,
-    "injection_patterns": 0,
-    "mismatches": 0,
-    "undocumented_capabilities": 0,
-    "supervisor_approved": true,
-    "supervisor_confidence": 69
-  },
-  "agent_audit": {
-    "agents_completed": 5,
-    "agents_required": 5,
-    "pipeline_run_at": "2026-03-03T20:56:19Z",
-    "agent_a": {
-      "signed": true,
-      "signed_at": "2026-03-03T20:56:19Z",
-      "comment": "Docs quality 9/10. README present. 12 features, 4 permissions claimed.",
-      "doc_quality_score": 9,
-      "claimed_permissions": [
-        "network access",
-        "system command execution",
-        "file system access",
-        "environment/secret access"
-      ]
-    },
-    "agent_b": {
-      "signed": true,
-      "signed_at": "2026-03-03T20:56:19Z",
-      "comment": "10 files analyzed. Found: 1 network, 0 file, 8 env, 1 system calls. Primary: javascript.",
-      "files_analyzed": 10,
-      "capabilities_found": [
-        "imports external dependencies",
-        "performs network operations",
-        "reads environment values",
-        "executes system commands"
-      ]
-    },
-    "agent_c_star": {
-      "signed": true,
-      "signed_at": "2026-03-03T20:56:19Z",
-      "comment": "25 findings: 0 critical, 3 high, 19 medium, 3 low. Obfuscation detected!. No injection.",
-      "total_findings": 25,
-      "severity_counts": {
-        "critical": 0,
-        "high": 3,
-        "medium": 19,
-        "low": 3,
-        "info": 0
-      }
-    },
-    "agent_d": {
-      "signed": true,
-      "signed_at": "2026-03-03T20:56:19Z",
-      "comment": "Score 69. 0 mismatches. Risk: medium. Safety overrides: none triggered.",
-      "score": 69,
-      "mismatches": 0,
-      "safety_overrides_applied": false
-    },
-    "agent_e": {
-      "signed": true,
-      "signed_at": "2026-03-03T20:56:19Z",
-      "comment": "Rejected. Confidence 69%. No overrides.",
-      "approved": false,
-      "confidence": 69,
-      "override_reason": null
-    },
-    "manager_summary": "5/5 agents completed. Score: 69/100, Risk: medium. 0 mismatches, 25 scanner findings. Rejected at 69% confidence. No safety overrides.",
-    "auto_clear": {
-      "applied": true,
-      "reason": "Auto-clear Cat 1: clean profile (0 inj, 0 obf_hr, 0 crit, score=69)",
-      "original_status": "manual_review",
-      "original_score": 69
-    }
-  },
-  "skill_type": "mcp_server"
+  "verification_level": "full_pipeline"
 }

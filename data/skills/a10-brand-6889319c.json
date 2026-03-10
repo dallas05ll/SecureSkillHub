@@ -1,0 +1,23 @@
+{
+  "id": "a10-brand-6889319c",
+  "name": "a10-brand",
+  "description": "Apply A10 Networks brand guidelines to any frontend output \u2014 React/JSX artifacts, HTML pages, dashboards, PDFs, infographics, charts, presentations, and documentation. Use this skill whenever creating or reviewing visual content for A10 Networks, Signal Horizon, Synapse, ThreatX Labs, The Crows, or any A10-related product. Also trigger when the user mentions A10 brand colors, Rubik font, square corners, or asks to make something \"on-brand\" for A10. This includes reviewing existing work agains...",
+  "repo_url": "https://github.com/nickcrew/claude-cortex",
+  "source_hub": "skillsmp",
+  "skill_type": "agent_skill",
+  "owner": "nickcrew",
+  "stars": 9,
+  "primary_language": "unknown",
+  "tags": [
+    "agent-skills",
+    "dev-web-frontend",
+    "installs:9"
+  ],
+  "verification_status": "pass",
+  "overall_score": 55,
+  "risk_level": "low",
+  "verified_commit": "aa826c9b3c8c42e1a660847376ef5a54f679da37",
+  "scan_summary": null,
+  "scan_date": "2026-03-03T17:45:24Z",
+  "verification_level": "full_pipeline"
+}

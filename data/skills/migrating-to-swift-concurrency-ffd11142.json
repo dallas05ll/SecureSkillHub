@@ -1,0 +1,23 @@
+{
+  "id": "migrating-to-swift-concurrency-ffd11142",
+  "name": "migrating-to-swift-concurrency",
+  "description": "Provides the complete Swift Concurrency Migration Guide. Use when migrating to Swift 6, resolving data-race safety errors, understanding Sendable and actor isolation, or incrementally adopting async/await.",
+  "repo_url": "https://github.com/kylehughes/the-unofficial-swift-concurrency-migration-skill",
+  "source_hub": "skillsmp",
+  "skill_type": "agent_skill",
+  "owner": "kylehughes",
+  "stars": 45,
+  "primary_language": "unknown",
+  "tags": [
+    "agent-skills",
+    "dev-web-frontend",
+    "installs:45"
+  ],
+  "verification_status": "pass",
+  "overall_score": 94,
+  "risk_level": "medium",
+  "verified_commit": "bcb4569878ff15a839e6a50a8b6b262b8c386427",
+  "scan_summary": null,
+  "scan_date": "2026-03-03T14:57:36Z",
+  "verification_level": "full_pipeline"
+}

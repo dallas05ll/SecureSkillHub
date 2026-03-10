@@ -1,12 +1,13 @@
 {
   "id": "nacos-mcp-router-96d81b3d",
   "name": "nacos-mcp-router",
-  "description": "Nacos MCP Router是一个基于MCP官方标准SDK实现的的MCP Server。它提供了一组工具，提供MCP Server推荐、分发、安装及代理其他MCP Server的功能，帮助用户更方便的使用MCP Server服务。",
+  "description": "Nacos MCP Router\u662f\u4e00\u4e2a\u57fa\u4e8eMCP\u5b98\u65b9\u6807\u51c6SDK\u5b9e\u73b0\u7684\u7684MCP Server\u3002\u5b83\u63d0\u4f9b\u4e86\u4e00\u7ec4\u5de5\u5177\uff0c\u63d0\u4f9bMCP Server\u63a8\u8350\u3001\u5206\u53d1\u3001\u5b89\u88c5\u53ca\u4ee3\u7406\u5176\u4ed6MCP Server\u7684\u529f\u80fd\uff0c\u5e2e\u52a9\u7528\u6237\u66f4\u65b9\u4fbf\u7684\u4f7f\u7528MCP Server\u670d\u52a1\u3002",
   "repo_url": "https://github.com/nacos-group/nacos-mcp-router",
   "source_hub": "mcp_so",
+  "skill_type": "mcp_server",
   "owner": "nacos-group",
   "stars": 170,
-  "primary_language": "typescript",
+  "primary_language": "unknown",
   "tags": [
     "integ",
     "util"
@@ -22,91 +23,5 @@
     "category_counts": {}
   },
   "scan_date": "2026-03-03T05:16:33Z",
-  "verification_level": "full_pipeline",
-  "status_cleared": {
-    "date": "2026-03-02T20:40:18.531782+00:00",
-    "previous_status": "pass",
-    "previous_score": 85,
-    "previous_risk": "info",
-    "verification_level": "scanner_only",
-    "reason": "SM cleanup: only full_pipeline pass is real pass. Needs re-verification."
-  },
-  "findings_summary": {
-    "scanner_findings": 56,
-    "dangerous_calls": 0,
-    "network_ops": 3,
-    "file_ops": 9,
-    "env_access": 37,
-    "obfuscation": 1,
-    "injection_patterns": 0,
-    "mismatches": 0,
-    "undocumented_capabilities": 0,
-    "supervisor_approved": true,
-    "supervisor_confidence": 50
-  },
-  "agent_audit": {
-    "agents_completed": 5,
-    "agents_required": 5,
-    "pipeline_run_at": "2026-03-03T05:16:33Z",
-    "agent_a": {
-      "signed": true,
-      "signed_at": "2026-03-03T05:16:33Z",
-      "comment": "Docs quality 9/10. README present. 12 features, 4 permissions claimed.",
-      "doc_quality_score": 9,
-      "claimed_permissions": [
-        "network access",
-        "system command execution",
-        "file system access",
-        "environment/secret access"
-      ]
-    },
-    "agent_b": {
-      "signed": true,
-      "signed_at": "2026-03-03T05:16:33Z",
-      "comment": "56 files analyzed. Found: 2 network, 0 file, 29 env, 0 system calls. Primary: typescript.",
-      "files_analyzed": 56,
-      "capabilities_found": [
-        "imports external dependencies",
-        "performs network operations",
-        "reads environment values"
-      ]
-    },
-    "agent_c_star": {
-      "signed": true,
-      "signed_at": "2026-03-03T05:16:33Z",
-      "comment": "56 findings: 0 critical, 7 high, 40 medium, 9 low. Obfuscation detected!. No injection.",
-      "total_findings": 56,
-      "severity_counts": {
-        "critical": 0,
-        "high": 7,
-        "medium": 40,
-        "low": 9,
-        "info": 0
-      }
-    },
-    "agent_d": {
-      "signed": true,
-      "signed_at": "2026-03-03T05:16:33Z",
-      "comment": "Score 30. 0 mismatches. Risk: medium. Safety overrides: none triggered.",
-      "score": 30,
-      "mismatches": 0,
-      "safety_overrides_applied": false
-    },
-    "agent_e": {
-      "signed": true,
-      "signed_at": "2026-03-03T05:16:33Z",
-      "comment": "Rejected. Confidence 50%. No overrides.",
-      "approved": false,
-      "confidence": 50,
-      "override_reason": null
-    },
-    "manager_summary": "5/5 agents completed. Score: 30/100, Risk: medium. 0 mismatches, 56 scanner findings. Rejected at 50% confidence. No safety overrides."
-  },
-  "pm_override": {
-    "action": "fail_to_pass",
-    "reason": "PM override: score 30 with low-risk obfuscation (minified JS/vendored), 0 injection, 0 critical. Known scoring bug pattern.",
-    "override_by": "PM",
-    "date": "2026-03-03T05:28:08.397144+00:00"
-  },
-  "skill_type": "mcp_server"
+  "verification_level": "full_pipeline"
 }

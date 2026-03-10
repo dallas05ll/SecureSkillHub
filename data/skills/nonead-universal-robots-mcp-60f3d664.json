@@ -4,9 +4,10 @@
   "description": "Nonead Universal Robots MCP is an intelligent industrial collaborative robot control middleware system built based on the MCP (Model Control Protocol) interface protocol. It realizes the natural language interactive control of industrial robots by integrating a large language model (LLM). Support: Universal-Robots UR3\\UR5\\UR10\\UR3e\\UR5e\\UR7e\\UR10e\\UR12e\\UR16e\\UR15\\UR20\\UR30 PolyScope 3.x & 5.x",
   "repo_url": "https://github.com/nonead/nonead-universal-robots-mcp",
   "source_hub": "mcp_so",
+  "skill_type": "mcp_server",
   "owner": "nonead",
   "stars": 5,
-  "primary_language": "python",
+  "primary_language": "unknown",
   "tags": [
     "data",
     "data-ai",
@@ -26,91 +27,5 @@
     "category_counts": {}
   },
   "scan_date": "2026-03-03T17:52:40Z",
-  "verification_level": "full_pipeline",
-  "status_cleared": {
-    "date": "2026-03-02T20:40:18.531782+00:00",
-    "previous_status": "pass",
-    "previous_score": 85,
-    "previous_risk": "info",
-    "verification_level": "scanner_only",
-    "reason": "SM cleanup: only full_pipeline pass is real pass. Needs re-verification."
-  },
-  "findings_summary": {
-    "scanner_findings": 76,
-    "dangerous_calls": 2,
-    "network_ops": 4,
-    "file_ops": 68,
-    "env_access": 0,
-    "obfuscation": 1,
-    "injection_patterns": 0,
-    "mismatches": 0,
-    "undocumented_capabilities": 0,
-    "supervisor_approved": true,
-    "supervisor_confidence": 55
-  },
-  "agent_audit": {
-    "agents_completed": 5,
-    "agents_required": 5,
-    "pipeline_run_at": "2026-03-03T17:52:40Z",
-    "agent_a": {
-      "signed": true,
-      "signed_at": "2026-03-03T17:52:40Z",
-      "comment": "Docs quality 9/10. README present. 12 features, 4 permissions claimed.",
-      "doc_quality_score": 9,
-      "claimed_permissions": [
-        "network access",
-        "system command execution",
-        "file system access",
-        "environment/secret access"
-      ]
-    },
-    "agent_b": {
-      "signed": true,
-      "signed_at": "2026-03-03T17:52:40Z",
-      "comment": "28 files analyzed. Found: 24 network, 21 file, 0 env, 0 system calls. Primary: python.",
-      "files_analyzed": 28,
-      "capabilities_found": [
-        "imports external dependencies",
-        "performs network operations",
-        "reads/writes files"
-      ]
-    },
-    "agent_c_star": {
-      "signed": true,
-      "signed_at": "2026-03-03T17:52:40Z",
-      "comment": "76 findings: 0 critical, 4 high, 4 medium, 68 low. Obfuscation detected!. No injection.",
-      "total_findings": 76,
-      "severity_counts": {
-        "critical": 0,
-        "high": 4,
-        "medium": 4,
-        "low": 68,
-        "info": 0
-      }
-    },
-    "agent_d": {
-      "signed": true,
-      "signed_at": "2026-03-03T17:52:40Z",
-      "comment": "Score 55. 0 mismatches. Risk: medium. Safety overrides: none triggered.",
-      "score": 55,
-      "mismatches": 0,
-      "safety_overrides_applied": false
-    },
-    "agent_e": {
-      "signed": true,
-      "signed_at": "2026-03-03T17:52:40Z",
-      "comment": "Rejected. Confidence 55%. No overrides.",
-      "approved": false,
-      "confidence": 55,
-      "override_reason": null
-    },
-    "manager_summary": "5/5 agents completed. Score: 55/100, Risk: medium. 0 mismatches, 76 scanner findings. Rejected at 55% confidence. No safety overrides.",
-    "auto_clear": {
-      "applied": true,
-      "reason": "Auto-clear Cat 1: clean profile (0 inj, 0 obf_hr, 0 crit, score=55)",
-      "original_status": "manual_review",
-      "original_score": 55
-    }
-  },
-  "skill_type": "mcp_server"
+  "verification_level": "full_pipeline"
 }

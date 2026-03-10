@@ -1,12 +1,13 @@
 {
   "id": "translate-server-6d68074b",
   "name": "translate-server",
-  "description": "一个简单的翻译MCP Server，可以实现单文件或者目录翻译能力，仅支持JSON数据(JSON，JS，TS格式)，根据文件名称自动截取翻译的目标语言，完成自动化处理。",
+  "description": "\u4e00\u4e2a\u7b80\u5355\u7684\u7ffb\u8bd1MCP Server\uff0c\u53ef\u4ee5\u5b9e\u73b0\u5355\u6587\u4ef6\u6216\u8005\u76ee\u5f55\u7ffb\u8bd1\u80fd\u529b\uff0c\u4ec5\u652f\u6301JSON\u6570\u636e(JSON\uff0cJS\uff0cTS\u683c\u5f0f)\uff0c\u6839\u636e\u6587\u4ef6\u540d\u79f0\u81ea\u52a8\u622a\u53d6\u7ffb\u8bd1\u7684\u76ee\u6807\u8bed\u8a00\uff0c\u5b8c\u6210\u81ea\u52a8\u5316\u5904\u7406\u3002",
   "repo_url": "https://github.com/vlinr/translate-server",
   "source_hub": "mcp_so",
+  "skill_type": "mcp_server",
   "owner": "vlinr",
   "stars": 1,
-  "primary_language": "typescript",
+  "primary_language": "unknown",
   "tags": [
     "data",
     "data-ai",
@@ -23,82 +24,5 @@
     "category_counts": {}
   },
   "scan_date": "2026-03-03T22:05:35Z",
-  "verification_level": "full_pipeline",
-  "status_cleared": {
-    "date": "2026-03-02T20:40:18.531782+00:00",
-    "previous_status": "pass",
-    "previous_score": 85,
-    "previous_risk": "info",
-    "verification_level": "scanner_only",
-    "reason": "SM cleanup: only full_pipeline pass is real pass. Needs re-verification."
-  },
-  "findings_summary": {
-    "scanner_findings": 4,
-    "dangerous_calls": 0,
-    "network_ops": 0,
-    "file_ops": 4,
-    "env_access": 0,
-    "obfuscation": 0,
-    "injection_patterns": 0,
-    "mismatches": 0,
-    "undocumented_capabilities": 0,
-    "supervisor_approved": true,
-    "supervisor_confidence": 95
-  },
-  "agent_audit": {
-    "agents_completed": 5,
-    "agents_required": 5,
-    "pipeline_run_at": "2026-03-03T22:05:35Z",
-    "agent_a": {
-      "signed": true,
-      "signed_at": "2026-03-03T22:05:35Z",
-      "comment": "Docs quality 8/10. README present. 12 features, 3 permissions claimed.",
-      "doc_quality_score": 8,
-      "claimed_permissions": [
-        "network access",
-        "system command execution",
-        "environment/secret access"
-      ]
-    },
-    "agent_b": {
-      "signed": true,
-      "signed_at": "2026-03-03T22:05:35Z",
-      "comment": "13 files analyzed. Found: 0 network, 0 file, 0 env, 0 system calls. Primary: typescript.",
-      "files_analyzed": 13,
-      "capabilities_found": [
-        "imports external dependencies"
-      ]
-    },
-    "agent_c_star": {
-      "signed": true,
-      "signed_at": "2026-03-03T22:05:35Z",
-      "comment": "4 findings: 0 critical, 0 high, 0 medium, 4 low. No obfuscation. No injection.",
-      "total_findings": 4,
-      "severity_counts": {
-        "critical": 0,
-        "high": 0,
-        "medium": 0,
-        "low": 4,
-        "info": 0
-      }
-    },
-    "agent_d": {
-      "signed": true,
-      "signed_at": "2026-03-03T22:05:35Z",
-      "comment": "Score 98. 0 mismatches. Risk: low. Safety overrides: none triggered.",
-      "score": 98,
-      "mismatches": 0,
-      "safety_overrides_applied": false
-    },
-    "agent_e": {
-      "signed": true,
-      "signed_at": "2026-03-03T22:05:35Z",
-      "comment": "Approved. Confidence 95%. No overrides.",
-      "approved": true,
-      "confidence": 95,
-      "override_reason": null
-    },
-    "manager_summary": "5/5 agents completed. Score: 98/100, Risk: low. 0 mismatches, 4 scanner findings. Approved at 95% confidence. No safety overrides."
-  },
-  "skill_type": "mcp_server"
+  "verification_level": "full_pipeline"
 }

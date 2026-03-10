@@ -1,0 +1,17 @@
+{
+  "id": "engram-b5fb34d2",
+  "name": "engram",
+  "description": "Engram is a production-ready memory system that gives AI agents persistent, searchable memory across conversations. Think of it as SQLite for agent state - simple, fast, and reliable.\r\nFeatures\r\n\ud83e\udde0 Hybrid Memory Retrieval - Combines semantic similarity, recency, confidence, and access patterns\r\n\ud83d\udd0d Full-Text Search - SQLite FTS5 for fast keyword search\r\n\ud83c\udfaf Vector Embeddings - Local embeddings with Xenova/all-MiniLM-L6-v2 (~23MB)\r\n\ud83d\udd10 Secret Detection - Automatic detection and redaction of API keys ...",
+  "repo_url": "https://github.com/HBarefoot/engram",
+  "source_hub": "mcp_so",
+  "skill_type": "mcp_server",
+  "owner": "HBarefoot",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null
+}

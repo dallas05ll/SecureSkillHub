@@ -1,0 +1,19 @@
+{
+  "id": "skilltap-1ed88932",
+  "name": "skilltap",
+  "description": "Homebrew taps for AI agent skills. Agent-agnostic. Install from any git host or npm registry, search across taps and searchable registries like skill.sh, find, static and semantic security scanning before anything touches disk.",
+  "repo_url": "https://github.com/nklisch/skilltap",
+  "source_hub": "github_search",
+  "skill_type": "agent_skill",
+  "owner": "nklisch",
+  "stars": 2,
+  "license": "mit",
+  "primary_language": "markdown",
+  "tags": [],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null,
+  "last_updated": "2026-03-10T04:22:00Z"
+}

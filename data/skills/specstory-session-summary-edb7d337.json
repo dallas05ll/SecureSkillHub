@@ -1,0 +1,23 @@
+{
+  "id": "specstory-session-summary-edb7d337",
+  "name": "specstory-session-summary",
+  "description": "Summarize recent SpecStory AI coding sessions in standup format. Use when the user wants to review sessions from .specstory/history, prepare for standups, track work progress, or understand what was accomplished.",
+  "repo_url": "https://github.com/specstoryai/agent-skills",
+  "source_hub": "skillsmp",
+  "skill_type": "agent_skill",
+  "owner": "specstoryai",
+  "stars": 18,
+  "primary_language": "unknown",
+  "tags": [
+    "agent-skills",
+    "data-ai",
+    "installs:54"
+  ],
+  "verification_status": "pass",
+  "overall_score": 70,
+  "risk_level": "medium",
+  "verified_commit": "9454d3f2b9ac5397d735ae3bbdcfa6dc83392036",
+  "scan_summary": null,
+  "scan_date": "2026-03-03T17:30:06Z",
+  "verification_level": "full_pipeline"
+}

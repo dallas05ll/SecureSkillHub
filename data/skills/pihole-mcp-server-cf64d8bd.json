@@ -1,0 +1,17 @@
+{
+  "id": "pihole-mcp-server-cf64d8bd",
+  "name": "pihole-mcp-server",
+  "description": "A Model Context Protocol (MCP) server for Pi-hole",
+  "repo_url": "https://github.com/sbarbett/pihole-mcp-server",
+  "source_hub": "mcp_so",
+  "skill_type": "mcp_server",
+  "owner": "sbarbett",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null
+}

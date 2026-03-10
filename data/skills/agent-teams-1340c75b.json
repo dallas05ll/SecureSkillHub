@@ -1,195 +1,23 @@
 {
   "id": "agent-teams-1340c75b",
   "name": "agent-teams",
-  "description": "Use when facing complex tasks needing parallel collaboration between multiple agents with shared state, coordination, and direct inter-agent communication. Triggers on \"создай команду\", \"agent team\", \"параллельная работа агентов\", \"team of agents\"",
+  "description": "Use when facing complex tasks needing parallel collaboration between multiple agents with shared state, coordination, and direct inter-agent communication. Triggers on \"\u0441\u043e\u0437\u0434\u0430\u0439 \u043a\u043e\u043c\u0430\u043d\u0434\u0443\", \"agent team\", \"\u043f\u0430\u0440\u0430\u043b\u043b\u0435\u043b\u044c\u043d\u0430\u044f \u0440\u0430\u0431\u043e\u0442\u0430 \u0430\u0433\u0435\u043d\u0442\u043e\u0432\", \"team of agents\"",
   "repo_url": "https://github.com/serejaris/ris-claude-code",
   "source_hub": "skillsmp",
   "skill_type": "agent_skill",
   "owner": "serejaris",
   "stars": 0,
-  "primary_language": "shell",
+  "primary_language": "unknown",
   "tags": [
     "agent-skills",
-    "installs:98",
-    "prod",
-    "prod-comm",
-    "status-pass"
+    "dev-devops",
+    "installs:98"
   ],
   "verification_status": "pass",
   "overall_score": 78,
   "risk_level": "medium",
   "verified_commit": "ec7405c0d1f33b2c4d6332f04f240e5911975604",
   "scan_summary": null,
-  "repo_status": "available",
-  "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
-  "repo_check_error": null,
   "scan_date": "2026-03-04T22:16:04Z",
-  "findings_summary": {
-    "scanner_findings": 10,
-    "dangerous_calls": 8,
-    "network_ops": 0,
-    "file_ops": 2,
-    "env_access": 0,
-    "obfuscation": 0,
-    "injection_patterns": 0,
-    "mismatches": 0,
-    "undocumented_capabilities": 0,
-    "supervisor_approved": true,
-    "supervisor_confidence": 78
-  },
-  "scan_report": {
-    "total_findings": 10,
-    "injection_patterns_count": 0,
-    "obfuscation_count": 0,
-    "obfuscation_high_risk_count": 0,
-    "dangerous_calls_count": 8,
-    "severity_counts": {
-      "critical": 0,
-      "high": 8,
-      "medium": 0,
-      "low": 2,
-      "info": 0
-    },
-    "category_counts": {
-      "dangerous_calls": 8,
-      "file_ops": 2
-    },
-    "top_findings": [
-      {
-        "rule_id": "regex_shell_backtick_exec",
-        "severity": "high",
-        "category": "dangerous_calls",
-        "file": "skills/git-workflow-manager/README.md",
-        "line": 38
-      },
-      {
-        "rule_id": "regex_shell_backtick_exec",
-        "severity": "high",
-        "category": "dangerous_calls",
-        "file": "skills/git-workflow-manager/SKILL.md",
-        "line": 59
-      },
-      {
-        "rule_id": "regex_shell_backtick_exec",
-        "severity": "high",
-        "category": "dangerous_calls",
-        "file": "skills/git-workflow-manager/SKILL.md",
-        "line": 133
-      },
-      {
-        "rule_id": "regex_shell_backtick_exec",
-        "severity": "high",
-        "category": "dangerous_calls",
-        "file": "skills/git-workflow-manager/README.ru.md",
-        "line": 38
-      },
-      {
-        "rule_id": "regex_shell_backtick_exec",
-        "severity": "high",
-        "category": "dangerous_calls",
-        "file": "skills/gemini-tmux-orchestration/SKILL.md",
-        "line": 43
-      },
-      {
-        "rule_id": "regex_py_subprocess_call",
-        "severity": "high",
-        "category": "dangerous_calls",
-        "file": "skills/cc-analytics/SKILL.md",
-        "line": 38
-      },
-      {
-        "rule_id": "regex_py_subprocess_call",
-        "severity": "high",
-        "category": "dangerous_calls",
-        "file": "skills/cc-analytics/SKILL.md",
-        "line": 45
-      },
-      {
-        "rule_id": "regex_py_open",
-        "severity": "low",
-        "category": "file_ops",
-        "file": "skills/cc-analytics/SKILL.md",
-        "line": 54
-      },
-      {
-        "rule_id": "regex_py_os_path",
-        "severity": "low",
-        "category": "file_ops",
-        "file": "skills/cc-analytics/SKILL.md",
-        "line": 35
-      },
-      {
-        "rule_id": "regex_shell_backtick_exec",
-        "severity": "high",
-        "category": "dangerous_calls",
-        "file": "skills/gh-issues/SKILL.md",
-        "line": 108
-      }
-    ],
-    "total_files_scanned": 48
-  },
-  "verification_level": "full_pipeline",
-  "agent_audit": {
-    "agents_completed": 5,
-    "agents_required": 5,
-    "pipeline_run_at": "2026-03-04T22:16:04Z",
-    "agent_a": {
-      "signed": true,
-      "signed_at": "2026-03-04T22:16:04Z",
-      "comment": "Docs quality 10/10. README present. 12 features, 4 permissions claimed.",
-      "doc_quality_score": 10,
-      "claimed_permissions": [
-        "network access",
-        "system command execution",
-        "file system access",
-        "environment/secret access"
-      ]
-    },
-    "agent_b": {
-      "signed": true,
-      "signed_at": "2026-03-04T22:16:04Z",
-      "comment": "2 files analyzed. Found: 0 network, 0 file, 0 env, 0 system calls. Primary: shell.",
-      "files_analyzed": 2,
-      "capabilities_found": [
-        "imports external dependencies"
-      ]
-    },
-    "agent_c_star": {
-      "signed": true,
-      "signed_at": "2026-03-04T22:16:04Z",
-      "comment": "10 findings: 0 critical, 8 high, 0 medium, 2 low. No obfuscation. No injection.",
-      "total_findings": 10,
-      "severity_counts": {
-        "critical": 0,
-        "high": 8,
-        "medium": 0,
-        "low": 2,
-        "info": 0
-      }
-    },
-    "agent_d": {
-      "signed": true,
-      "signed_at": "2026-03-04T22:16:04Z",
-      "comment": "Score 78. 0 mismatches. Risk: medium. Safety overrides: none triggered.",
-      "score": 78,
-      "mismatches": 0,
-      "safety_overrides_applied": false
-    },
-    "agent_e": {
-      "signed": true,
-      "signed_at": "2026-03-04T22:16:04Z",
-      "comment": "Rejected. Confidence 78%. No overrides.",
-      "approved": false,
-      "confidence": 78,
-      "override_reason": null
-    },
-    "manager_summary": "5/5 agents completed. Score: 78/100, Risk: medium. 0 mismatches, 10 scanner findings. Rejected at 78% confidence. No safety overrides.",
-    "auto_clear": {
-      "applied": true,
-      "reason": "Auto-clear Cat 1: clean profile (0 inj, 0 obf_hr, score=78)",
-      "original_status": "manual_review",
-      "original_score": 78
-    }
-  },
-  "installs": 98
+  "verification_level": "full_pipeline"
 }

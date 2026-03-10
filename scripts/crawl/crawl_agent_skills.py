@@ -26,6 +26,7 @@ logging.basicConfig(
 logger = logging.getLogger("crawl_agent_skills")
 
 PROJECT_ROOT = Path(__file__).resolve().parent.parent.parent
+sys.path.insert(0, str(PROJECT_ROOT))
 SKILLS_DIR = PROJECT_ROOT / "data" / "skills"
 
 # GitHub topics that indicate agent skills

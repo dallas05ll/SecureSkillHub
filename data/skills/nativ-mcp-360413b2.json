@@ -4,15 +4,12 @@
   "description": "AI-powered localization platform. Translate text, search translation memory, and access style guides from any MCP-compatible AI tool.",
   "repo_url": "https://github.com/Nativ-Technologies/nativ-mcp",
   "source_hub": "glama",
+  "skill_type": "mcp_server",
   "owner": "Nativ-Technologies",
   "stars": 0,
   "primary_language": "unknown",
   "tags": [
-    "data",
-    "data-ai",
-    "data-ai-nlp",
-    "util",
-    "util-search"
+    "ServerApplication"
   ],
   "verification_status": "unverified",
   "overall_score": 85,
@@ -24,14 +21,5 @@
     "severity_counts": {},
     "category_counts": {}
   },
-  "scan_date": "2026-02-28T04:14:41Z",
-  "status_cleared": {
-    "date": "2026-03-02T20:40:18.531782+00:00",
-    "previous_status": "pass",
-    "previous_score": 85,
-    "previous_risk": "info",
-    "verification_level": "scanner_only",
-    "reason": "SM cleanup: only full_pipeline pass is real pass. Needs re-verification."
-  },
-  "skill_type": "mcp_server"
+  "scan_date": "2026-02-28T04:14:41Z"
 }

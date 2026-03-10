@@ -1,0 +1,22 @@
+{
+  "id": "code-docs-443fad84",
+  "name": "code-docs",
+  "description": "Apply Google Style documentation standards to Python, Go, and Terraform code. Use when writing or reviewing code that needs docstrings/comments, when asked to \"document this code\", \"add docstrings\", \"follow Google Style\", or when improving code documentation quality. Supports Python docstrings, Go comments, and Terraform variable/output descriptions. Enforces consistent, professional documentation standards.",
+  "repo_url": "https://github.com/jjmartres/opencode",
+  "source_hub": "skillsmp",
+  "skill_type": "agent_skill",
+  "owner": "jjmartres",
+  "stars": 50,
+  "primary_language": "unknown",
+  "tags": [
+    "agent-skills",
+    "installs:48"
+  ],
+  "verification_status": "pass",
+  "overall_score": 39,
+  "risk_level": "medium",
+  "verified_commit": "f6885c9c83aba977f08566ad2f84991c4f6cc61b",
+  "scan_summary": null,
+  "scan_date": "2026-03-03T14:56:49Z",
+  "verification_level": "full_pipeline"
+}

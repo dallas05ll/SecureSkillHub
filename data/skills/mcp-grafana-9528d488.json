@@ -1,0 +1,21 @@
+{
+  "id": "mcp-grafana-9528d488",
+  "name": "mcp-grafana",
+  "description": "MCP server for Grafana",
+  "repo_url": "https://github.com/grafana/mcp-grafana",
+  "source_hub": "mcp_so",
+  "skill_type": "mcp_server",
+  "owner": "grafana",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [
+    "agent-skills",
+    "installs:2318",
+    "dev-git"
+  ],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null
+}

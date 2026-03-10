@@ -1,0 +1,19 @@
+{
+  "id": "repl-scratchpad-d3fa43e5",
+  "name": "repl-scratchpad",
+  "description": "Persistent REPL scratchpad for coding agents \u2014 variables survive across turns, only print() enters context. Agent skill for Claude Code, Codex, Gemini CLI, and 14+ coding agents.",
+  "repo_url": "https://github.com/knot0-com/repl-scratchpad",
+  "source_hub": "github_search",
+  "skill_type": "agent_skill",
+  "owner": "knot0-com",
+  "stars": 6,
+  "license": "mit",
+  "primary_language": "markdown",
+  "tags": [],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null,
+  "last_updated": "2026-03-09T21:39:42Z"
+}

@@ -1,0 +1,23 @@
+{
+  "id": "context7-auto-research-944c4d16",
+  "name": "context7-auto-research",
+  "description": "Automatically fetches up-to-date documentation from Context7 when users ask about libraries, frameworks, APIs, or need code examples. Triggers proactively without explicit user request.",
+  "repo_url": "https://github.com/benedictking/context7-auto-research",
+  "source_hub": "skillsmp",
+  "skill_type": "agent_skill",
+  "owner": "benedictking",
+  "stars": 7,
+  "primary_language": "unknown",
+  "tags": [
+    "agent-skills",
+    "dev-web-backend",
+    "installs:269"
+  ],
+  "verification_status": "pass",
+  "overall_score": 100,
+  "risk_level": "info",
+  "verified_commit": "f2e1b6b0ec995aa5e1fc07f15b2a96ccdb4ef30e",
+  "scan_summary": null,
+  "scan_date": "2026-03-03T17:48:26Z",
+  "verification_level": "full_pipeline"
+}

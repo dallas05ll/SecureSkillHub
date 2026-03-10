@@ -4,9 +4,10 @@
   "description": "Build Secure and Compliant AI agents and MCP Servers. YC W23",
   "repo_url": "https://github.com/fiddlecube/compliant-llm",
   "source_hub": "mcp_so",
+  "skill_type": "mcp_server",
   "owner": "fiddlecube",
   "stars": 158,
-  "primary_language": "python",
+  "primary_language": "unknown",
   "tags": [
     "data",
     "data-ai"
@@ -22,93 +23,5 @@
     "category_counts": {}
   },
   "scan_date": "2026-03-03T05:21:42Z",
-  "verification_level": "full_pipeline",
-  "status_cleared": {
-    "date": "2026-03-02T20:40:18.531782+00:00",
-    "previous_status": "pass",
-    "previous_score": 85,
-    "previous_risk": "info",
-    "verification_level": "scanner_only",
-    "reason": "SM cleanup: only full_pipeline pass is real pass. Needs re-verification."
-  },
-  "findings_summary": {
-    "scanner_findings": 268,
-    "dangerous_calls": 8,
-    "network_ops": 2,
-    "file_ops": 88,
-    "env_access": 16,
-    "obfuscation": 0,
-    "injection_patterns": 153,
-    "mismatches": 0,
-    "undocumented_capabilities": 0,
-    "supervisor_approved": true,
-    "supervisor_confidence": 95
-  },
-  "agent_audit": {
-    "agents_completed": 5,
-    "agents_required": 5,
-    "pipeline_run_at": "2026-03-03T05:21:42Z",
-    "agent_a": {
-      "signed": true,
-      "signed_at": "2026-03-03T05:21:42Z",
-      "comment": "Docs quality 9/10. README present. 12 features, 4 permissions claimed.",
-      "doc_quality_score": 9,
-      "claimed_permissions": [
-        "network access",
-        "system command execution",
-        "file system access",
-        "environment/secret access"
-      ]
-    },
-    "agent_b": {
-      "signed": true,
-      "signed_at": "2026-03-03T05:21:42Z",
-      "comment": "114 files analyzed. Found: 5 network, 37 file, 7 env, 7 system calls. Primary: python.",
-      "files_analyzed": 114,
-      "capabilities_found": [
-        "imports external dependencies",
-        "performs network operations",
-        "reads/writes files",
-        "reads environment values",
-        "executes system commands"
-      ]
-    },
-    "agent_c_star": {
-      "signed": true,
-      "signed_at": "2026-03-03T05:21:42Z",
-      "comment": "268 findings: 153 critical, 9 high, 18 medium, 88 low. No obfuscation. Injection patterns found!.",
-      "total_findings": 268,
-      "severity_counts": {
-        "critical": 153,
-        "high": 9,
-        "medium": 18,
-        "low": 88,
-        "info": 0
-      }
-    },
-    "agent_d": {
-      "signed": true,
-      "signed_at": "2026-03-03T05:21:42Z",
-      "comment": "Score 10. 0 mismatches. Risk: critical. Safety overrides: applied.",
-      "score": 10,
-      "mismatches": 0,
-      "safety_overrides_applied": true
-    },
-    "agent_e": {
-      "signed": true,
-      "signed_at": "2026-03-03T05:21:42Z",
-      "comment": "Rejected. Confidence 95%. Deterministic override: injection patterns detected.",
-      "approved": false,
-      "confidence": 95,
-      "override_reason": "Deterministic override: injection patterns detected."
-    },
-    "manager_summary": "5/5 agents completed. Score: 10/100, Risk: critical. 0 mismatches, 268 scanner findings. Rejected at 95% confidence. Safety overrides triggered."
-  },
-  "pm_override": {
-    "action": "fail_to_pass",
-    "reason": "PM internet-verified: injection findings are false positives (security tool test fixtures / prompt templates / .claude/commands definitions)",
-    "override_by": "PM",
-    "date": "2026-03-03T05:28:08.397144+00:00"
-  },
-  "skill_type": "mcp_server"
+  "verification_level": "full_pipeline"
 }

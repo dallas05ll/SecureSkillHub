@@ -1,0 +1,21 @@
+{
+  "id": "playwright-mcp-server-99472128",
+  "name": "Playwright MCP Server",
+  "description": "A Model Context Protocol server that enables LLMs to interact with web pages through structured accessibility snapshots without requiring vision models or screenshots.",
+  "repo_url": "https://github.com/microsoft/playwright-mcp",
+  "source_hub": "glama",
+  "skill_type": "mcp_server",
+  "owner": "microsoft",
+  "stars": 27675,
+  "primary_language": "unknown",
+  "tags": [
+    "ServerApplication"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "high",
+  "verified_commit": "43e31e83619c23c07bcfab31cfba24b4c437251b",
+  "scan_summary": null,
+  "scan_date": "2026-02-28T20:55:38Z",
+  "verification_level": "full_pipeline"
+}

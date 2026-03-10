@@ -1,0 +1,24 @@
+{
+  "id": "fastmcp-771ada80",
+  "name": "fastmcp",
+  "description": "\ud83d\ude80 The fast, Pythonic way to build MCP servers and clients",
+  "repo_url": "https://github.com/jlowin/fastmcp",
+  "source_hub": "mcp_so",
+  "skill_type": "mcp_server",
+  "owner": "jlowin",
+  "stars": 23139,
+  "primary_language": "unknown",
+  "tags": [
+    "dev",
+    "dev-web",
+    "dev-web-backend",
+    "dev-web-backend-python"
+  ],
+  "verification_status": "pass",
+  "overall_score": 100,
+  "risk_level": "medium",
+  "verified_commit": "610551c7b610e8f7b9367672c42acc80a2b12038",
+  "scan_summary": null,
+  "scan_date": "2026-02-28T20:56:11Z",
+  "verification_level": "full_pipeline"
+}

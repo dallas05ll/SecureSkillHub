@@ -1,0 +1,22 @@
+{
+  "id": "brainstorming-675df694",
+  "name": "Brainstorming",
+  "description": "Agent skill: brainstorming from obra/superpowers",
+  "repo_url": "https://github.com/obra/superpowers",
+  "source_hub": "skills_sh",
+  "skill_type": "mcp_server",
+  "owner": "obra",
+  "stars": 33900,
+  "primary_language": "unknown",
+  "tags": [
+    "agent-skill",
+    "skills-sh"
+  ],
+  "verification_status": "pass",
+  "overall_score": 70,
+  "risk_level": "high",
+  "verified_commit": "e4a2375cb705ca5800f0833528ce36a3faf9017a",
+  "scan_summary": null,
+  "scan_date": "2026-02-28T23:54:07Z",
+  "verification_level": "full_pipeline"
+}

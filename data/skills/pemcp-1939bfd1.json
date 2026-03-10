@@ -4,9 +4,10 @@
   "description": "An comprehensive MCP Server for PE File Analysis",
   "repo_url": "https://github.com/JameZUK/PeMCP",
   "source_hub": "mcp_so",
+  "skill_type": "mcp_server",
   "owner": "JameZUK",
   "stars": 1,
-  "primary_language": "python",
+  "primary_language": "unknown",
   "tags": [
     "integ",
     "util"
@@ -22,92 +23,5 @@
     "category_counts": {}
   },
   "scan_date": "2026-03-03T20:56:51Z",
-  "verification_level": "full_pipeline",
-  "pm_override": {
-    "date": "2026-03-03T21:00:00Z",
-    "previous_status": "fail",
-    "reason": "PM override: security analysis tool FP. 0 inj, 6 obf from PE analysis patterns, 0 crit."
-  },
-  "status_cleared": {
-    "date": "2026-03-02T20:40:18.531782+00:00",
-    "previous_status": "pass",
-    "previous_score": 85,
-    "previous_risk": "info",
-    "verification_level": "scanner_only",
-    "reason": "SM cleanup: only full_pipeline pass is real pass. Needs re-verification."
-  },
-  "findings_summary": {
-    "scanner_findings": 364,
-    "dangerous_calls": 45,
-    "network_ops": 6,
-    "file_ops": 276,
-    "env_access": 20,
-    "obfuscation": 6,
-    "injection_patterns": 0,
-    "mismatches": 0,
-    "undocumented_capabilities": 0,
-    "supervisor_approved": true,
-    "supervisor_confidence": 90
-  },
-  "agent_audit": {
-    "agents_completed": 5,
-    "agents_required": 5,
-    "pipeline_run_at": "2026-03-03T20:56:51Z",
-    "agent_a": {
-      "signed": true,
-      "signed_at": "2026-03-03T20:56:51Z",
-      "comment": "Docs quality 9/10. README present. 12 features, 4 permissions claimed.",
-      "doc_quality_score": 9,
-      "claimed_permissions": [
-        "network access",
-        "system command execution",
-        "file system access",
-        "environment/secret access"
-      ]
-    },
-    "agent_b": {
-      "signed": true,
-      "signed_at": "2026-03-03T20:56:51Z",
-      "comment": "122 files analyzed. Found: 15 network, 94 file, 18 env, 8 system calls. Primary: python.",
-      "files_analyzed": 122,
-      "capabilities_found": [
-        "imports external dependencies",
-        "performs network operations",
-        "reads/writes files",
-        "reads environment values",
-        "executes system commands"
-      ]
-    },
-    "agent_c_star": {
-      "signed": true,
-      "signed_at": "2026-03-03T20:56:51Z",
-      "comment": "364 findings: 0 critical, 62 high, 26 medium, 276 low. Obfuscation detected!. No injection.",
-      "total_findings": 364,
-      "severity_counts": {
-        "critical": 0,
-        "high": 62,
-        "medium": 26,
-        "low": 276,
-        "info": 0
-      }
-    },
-    "agent_d": {
-      "signed": true,
-      "signed_at": "2026-03-03T20:56:51Z",
-      "comment": "Score 15. 0 mismatches. Risk: critical. Safety overrides: applied.",
-      "score": 15,
-      "mismatches": 0,
-      "safety_overrides_applied": true
-    },
-    "agent_e": {
-      "signed": true,
-      "signed_at": "2026-03-03T20:56:51Z",
-      "comment": "Rejected. Confidence 90%. Deterministic override: high-risk obfuscation detected.",
-      "approved": false,
-      "confidence": 90,
-      "override_reason": "Deterministic override: high-risk obfuscation detected."
-    },
-    "manager_summary": "5/5 agents completed. Score: 15/100, Risk: critical. 0 mismatches, 364 scanner findings. Rejected at 90% confidence. Safety overrides triggered."
-  },
-  "skill_type": "mcp_server"
+  "verification_level": "full_pipeline"
 }

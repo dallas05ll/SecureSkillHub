@@ -1,0 +1,19 @@
+{
+  "id": "comfyui-custom-node-skills-40d38f9b",
+  "name": "comfyui-custom-node-skills",
+  "description": "A curated collection of [Claude Code skills](https://docs.anthropic.com/en/docs/claude-code/skills) for developing ComfyUI custom nodes. These skills give Claude comprehensive knowledge of the ComfyUI node system, covering both the V3 (recommended) and V1 (legacy) APIs.",
+  "repo_url": "https://github.com/jtydhr88/comfyui-custom-node-skills",
+  "source_hub": "github_search",
+  "skill_type": "agent_skill",
+  "owner": "jtydhr88",
+  "stars": 84,
+  "license": "",
+  "primary_language": "markdown",
+  "tags": [],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null,
+  "last_updated": "2026-03-10T12:49:47Z"
+}

@@ -1,0 +1,23 @@
+{
+  "id": "agent-context-isolation-b959b66d",
+  "name": "agent-context-isolation",
+  "description": "Agent Context Isolation",
+  "repo_url": "https://github.com/parcadei/continuous-claude-v3",
+  "source_hub": "skillsmp",
+  "skill_type": "agent_skill",
+  "owner": "parcadei",
+  "stars": 3563,
+  "primary_language": "unknown",
+  "tags": [
+    "agent-skills",
+    "data-ai",
+    "installs:3520"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "medium",
+  "verified_commit": "d07ff4b06b62f43771bc0c927d0211b734d6149e",
+  "scan_summary": null,
+  "scan_date": "2026-03-01T05:57:31Z",
+  "verification_level": "full_pipeline"
+}

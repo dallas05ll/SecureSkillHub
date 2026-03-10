@@ -1,0 +1,23 @@
+{
+  "id": "as-built-documentation-ee75c756",
+  "name": "as-built-documentation",
+  "description": "Automate as-built documentation and digital handover for construction. Compile project records, generate O&M manuals, create asset databases, and ensure complete project closeout.",
+  "repo_url": "https://github.com/datadrivenconstruction/ddc_skills_for_ai_agents_in_construction",
+  "source_hub": "skillsmp",
+  "skill_type": "agent_skill",
+  "owner": "datadrivenconstruction",
+  "stars": 43,
+  "primary_language": "unknown",
+  "tags": [
+    "agent-skills",
+    "dev-web-frontend",
+    "installs:35"
+  ],
+  "verification_status": "pass",
+  "overall_score": 0,
+  "risk_level": "critical",
+  "verified_commit": "34e0d78332ce6a510706703dcb61793ee85e4aed",
+  "scan_summary": null,
+  "scan_date": "2026-03-03T14:58:40Z",
+  "verification_level": "full_pipeline"
+}

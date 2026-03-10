@@ -7,99 +7,17 @@
   "skill_type": "agent_skill",
   "owner": "davila7",
   "stars": 0,
-  "primary_language": "python",
+  "primary_language": "unknown",
   "tags": [
     "agent-skills",
-    "installs:20807",
-    "status-pass",
-    "dev",
-    "dev-gamedev"
+    "dev-devops",
+    "installs:20807"
   ],
   "verification_status": "pass",
-  "pm_override": true,
-  "pm_override_reason": "FP: regex_ignore_previous in SemanticValidator detection logic",
   "overall_score": 10,
   "risk_level": "critical",
   "verified_commit": "2ed5d984ca697a92108cdcd3ad82c72141064c5e",
   "scan_summary": null,
-  "repo_status": "available",
-  "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
-  "repo_check_error": null,
   "scan_date": "2026-03-04T16:13:24Z",
-  "findings_summary": {
-    "scanner_findings": 5311,
-    "dangerous_calls": 746,
-    "network_ops": 1361,
-    "file_ops": 1715,
-    "env_access": 989,
-    "obfuscation": 80,
-    "injection_patterns": 1,
-    "mismatches": 0,
-    "undocumented_capabilities": 0,
-    "supervisor_approved": true,
-    "supervisor_confidence": 95
-  },
-  "verification_level": "full_pipeline",
-  "agent_audit": {
-    "agents_completed": 5,
-    "agents_required": 5,
-    "pipeline_run_at": "2026-03-04T16:13:24Z",
-    "agent_a": {
-      "signed": true,
-      "signed_at": "2026-03-04T16:13:24Z",
-      "comment": "Docs quality 10/10. README present. 12 features, 4 permissions claimed.",
-      "doc_quality_score": 10,
-      "claimed_permissions": [
-        "network access",
-        "system command execution",
-        "file system access",
-        "environment/secret access"
-      ]
-    },
-    "agent_b": {
-      "signed": true,
-      "signed_at": "2026-03-04T16:13:24Z",
-      "comment": "1331 files analyzed. Found: 31 network, 45 file, 55 env, 10 system calls. Primary: python.",
-      "files_analyzed": 1331,
-      "capabilities_found": [
-        "imports external dependencies",
-        "performs network operations",
-        "reads/writes files",
-        "reads environment values",
-        "executes system commands"
-      ]
-    },
-    "agent_c_star": {
-      "signed": true,
-      "signed_at": "2026-03-04T16:13:24Z",
-      "comment": "5311 findings: 1 critical, 1245 high, 2350 medium, 1715 low. Obfuscation detected!. Injection patterns found!.",
-      "total_findings": 5311,
-      "severity_counts": {
-        "critical": 1,
-        "high": 1245,
-        "medium": 2350,
-        "low": 1715,
-        "info": 0
-      }
-    },
-    "agent_d": {
-      "signed": true,
-      "signed_at": "2026-03-04T16:13:24Z",
-      "comment": "Score 10. 0 mismatches. Risk: critical. Safety overrides: applied.",
-      "score": 10,
-      "mismatches": 0,
-      "safety_overrides_applied": true
-    },
-    "agent_e": {
-      "signed": true,
-      "signed_at": "2026-03-04T16:13:24Z",
-      "comment": "Rejected. Confidence 95%. Deterministic override: injection patterns detected.",
-      "approved": false,
-      "confidence": 95,
-      "override_reason": "Deterministic override: injection patterns detected."
-    },
-    "manager_summary": "5/5 agents completed. Score: 10/100, Risk: critical. 0 mismatches, 5311 scanner findings. Rejected at 95% confidence. Safety overrides triggered."
-  },
-  "installs": 20807,
-  "has_plugin_json": false
+  "verification_level": "full_pipeline"
 }

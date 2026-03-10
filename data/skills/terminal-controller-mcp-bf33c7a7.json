@@ -4,6 +4,7 @@
   "description": "A Model Context Protocol (MCP) server that enables secure terminal command execution, directory navigation, and file system operations through a standardized interface.",
   "repo_url": "https://github.com/GongRzhe/terminal-controller-mcp",
   "source_hub": "mcp_so",
+  "skill_type": "mcp_server",
   "owner": "GongRzhe",
   "stars": 99,
   "primary_language": "unknown",
@@ -22,90 +23,5 @@
     "category_counts": {}
   },
   "scan_date": "2026-03-03T14:50:08Z",
-  "verification_level": "full_pipeline",
-  "status_cleared": {
-    "date": "2026-03-02T20:40:18.531782+00:00",
-    "previous_status": "pass",
-    "previous_score": 85,
-    "previous_risk": "info",
-    "verification_level": "scanner_only",
-    "reason": "SM cleanup: only full_pipeline pass is real pass. Needs re-verification."
-  },
-  "findings_summary": {
-    "scanner_findings": 56,
-    "dangerous_calls": 6,
-    "network_ops": 0,
-    "file_ops": 50,
-    "env_access": 0,
-    "obfuscation": 0,
-    "injection_patterns": 0,
-    "mismatches": 0,
-    "undocumented_capabilities": 0,
-    "supervisor_approved": true,
-    "supervisor_confidence": 63
-  },
-  "agent_audit": {
-    "agents_completed": 5,
-    "agents_required": 5,
-    "pipeline_run_at": "2026-03-03T14:50:08Z",
-    "agent_a": {
-      "signed": true,
-      "signed_at": "2026-03-03T14:50:08Z",
-      "comment": "Docs quality 9/10. README present. 12 features, 3 permissions claimed.",
-      "doc_quality_score": 9,
-      "claimed_permissions": [
-        "network access",
-        "system command execution",
-        "file system access"
-      ]
-    },
-    "agent_b": {
-      "signed": true,
-      "signed_at": "2026-03-03T14:50:08Z",
-      "comment": "5 files analyzed. Found: 0 network, 12 file, 0 env, 8 system calls. Primary: unknown.",
-      "files_analyzed": 5,
-      "capabilities_found": [
-        "imports external dependencies",
-        "reads/writes files",
-        "executes system commands"
-      ]
-    },
-    "agent_c_star": {
-      "signed": true,
-      "signed_at": "2026-03-03T14:50:08Z",
-      "comment": "56 findings: 0 critical, 6 high, 0 medium, 50 low. No obfuscation. No injection.",
-      "total_findings": 56,
-      "severity_counts": {
-        "critical": 0,
-        "high": 6,
-        "medium": 0,
-        "low": 50,
-        "info": 0
-      }
-    },
-    "agent_d": {
-      "signed": true,
-      "signed_at": "2026-03-03T14:50:08Z",
-      "comment": "Score 63. 0 mismatches. Risk: medium. Safety overrides: none triggered.",
-      "score": 63,
-      "mismatches": 0,
-      "safety_overrides_applied": false
-    },
-    "agent_e": {
-      "signed": true,
-      "signed_at": "2026-03-03T14:50:08Z",
-      "comment": "Rejected. Confidence 63%. No overrides.",
-      "approved": false,
-      "confidence": 63,
-      "override_reason": null
-    },
-    "manager_summary": "5/5 agents completed. Score: 63/100, Risk: medium. 0 mismatches, 56 scanner findings. Rejected at 63% confidence. No safety overrides."
-  },
-  "pm_override": {
-    "action": "manual_review_to_pass",
-    "reason": "PM override: score 63 in 50-69 range, 0 injection, 0 critical. Known FP scoring range.",
-    "override_by": "PM",
-    "date": "2026-03-03T15:04:06.548466+00:00"
-  },
-  "skill_type": "mcp_server"
+  "verification_level": "full_pipeline"
 }

@@ -1,0 +1,23 @@
+{
+  "id": "agent-development-0fa5be69",
+  "name": "agent-development",
+  "description": "This skill should be used when the user asks to \"create an agent\", \"add an agent\", \"write a subagent\", \"agent frontmatter\", \"when to use description\", \"agent examples\", \"agent tools\", \"agent colors\", \"autonomous agent\", or needs guidance on agent structure, system prompts, triggering conditions, or agent development best practices for Claude Code plugins.",
+  "repo_url": "https://github.com/fcakyon/claude-codex-settings",
+  "source_hub": "skillsmp",
+  "skill_type": "agent_skill",
+  "owner": "fcakyon",
+  "stars": 438,
+  "primary_language": "unknown",
+  "tags": [
+    "agent-skills",
+    "dev-web-frontend",
+    "installs:424"
+  ],
+  "verification_status": "pass",
+  "overall_score": 30,
+  "risk_level": "medium",
+  "verified_commit": "a5431bffac0c94041b460bf15e4ebe5371b9581d",
+  "scan_summary": null,
+  "scan_date": "2026-03-03T03:49:11Z",
+  "verification_level": "full_pipeline"
+}

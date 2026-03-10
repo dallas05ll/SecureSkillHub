@@ -1,0 +1,23 @@
+{
+  "id": "critical-app-brief-5e2140db",
+  "name": "critical-app-brief",
+  "description": "Create critical MVP application briefs through ruthless scope-cutting dialogue. Use when user wants to turn business ideas and processes into applications. Ruthlessly cuts scope, challenges overengineering, and focuses on minimum viable product to test hypotheses. Creates structured MVP briefs in .ideas/[name]/app.md. Triggers include \"build an app\", \"MVP for this\", \"what should the application do\", or readiness to design application.",
+  "repo_url": "https://github.com/przemocny/critical-briefs",
+  "source_hub": "skillsmp",
+  "skill_type": "agent_skill",
+  "owner": "przemocny",
+  "stars": 13,
+  "primary_language": "unknown",
+  "tags": [
+    "agent-skills",
+    "dev-web-frontend",
+    "installs:12"
+  ],
+  "verification_status": "pass",
+  "overall_score": 100,
+  "risk_level": "info",
+  "verified_commit": "df189a76e800496ed64448c42c1252bae2b69d9b",
+  "scan_summary": null,
+  "scan_date": "2026-03-03T17:35:06Z",
+  "verification_level": "full_pipeline"
+}

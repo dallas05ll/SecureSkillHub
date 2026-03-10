@@ -1,0 +1,17 @@
+{
+  "id": "mcp-server-any-openapi-2af5d46f",
+  "name": "mcp-server-any-openapi",
+  "description": "A MCP server that enables Claude to discover and call any API endpoint through semantic search. Intelligently chunks OpenAPI specifications to handle large API documentation, with built-in request execution capabilities. Perfect for integrating private APIs with Claude Desktop.",
+  "repo_url": "https://github.com/baryhuang/mcp-server-any-openapi",
+  "source_hub": "mcp_so",
+  "skill_type": "mcp_server",
+  "owner": "baryhuang",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null
+}

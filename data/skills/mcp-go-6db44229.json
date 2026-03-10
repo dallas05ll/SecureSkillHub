@@ -1,0 +1,23 @@
+{
+  "id": "mcp-go-6db44229",
+  "name": "mcp-go",
+  "description": "A Go implementation of the Model Context Protocol (MCP), enabling seamless integration between LLM applications and external data sources and tools.",
+  "repo_url": "https://github.com/mark3labs/mcp-go",
+  "source_hub": "mcp_so",
+  "skill_type": "mcp_server",
+  "owner": "mark3labs",
+  "stars": 8218,
+  "primary_language": "unknown",
+  "tags": [
+    "data",
+    "data-ai",
+    "integ"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "medium",
+  "verified_commit": "6bea1d45470061b86c0503fcc043dfc815adeec5",
+  "scan_summary": null,
+  "scan_date": "2026-03-01T05:57:31Z",
+  "verification_level": "full_pipeline"
+}

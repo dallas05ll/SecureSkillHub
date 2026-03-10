@@ -1,0 +1,19 @@
+{
+  "id": "claude-ecom-c2eee37a",
+  "name": "claude-ecom",
+  "description": "Claude Code skill that turns order or sales CSV data into business reviews, with KPI decomposition, prioritized findings, and next actions powered by a Python backend.",
+  "repo_url": "https://github.com/takechanman1228/claude-ecom",
+  "source_hub": "github_search",
+  "skill_type": "agent_skill",
+  "owner": "takechanman1228",
+  "stars": 11,
+  "license": "mit",
+  "primary_language": "markdown",
+  "tags": [],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null,
+  "last_updated": "2026-03-10T01:25:15Z"
+}

@@ -1,0 +1,23 @@
+{
+  "id": "github-repo-management-1d95a18c",
+  "name": "github-repo-management",
+  "description": "Manage GitHub repositories for Claude Code plugins including issues, pull requests, releases, CI/CD workflows, and GitHub Actions. Use when working with GitHub repository management, creating releases, setting up CI/CD, managing issues or pull requests.",
+  "repo_url": "https://github.com/d-oit/gemini-search-plugin",
+  "source_hub": "skillsmp",
+  "skill_type": "agent_skill",
+  "owner": "d-oit",
+  "stars": 10,
+  "primary_language": "unknown",
+  "tags": [
+    "agent-skills",
+    "dev-devops",
+    "installs:10"
+  ],
+  "verification_status": "pass",
+  "overall_score": 74,
+  "risk_level": "medium",
+  "verified_commit": "754f27dd6bd44a8bb0089e167aea6667c250d816",
+  "scan_summary": null,
+  "scan_date": "2026-03-03T17:37:23Z",
+  "verification_level": "full_pipeline"
+}

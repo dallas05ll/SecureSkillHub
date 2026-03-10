@@ -4,6 +4,7 @@
   "description": "Bitbucket MCP - A Model Context Protocol (MCP) server for integrating with Bitbucket Cloud and Server APIs",
   "repo_url": "https://github.com/MatanYemini/bitbucket-mcp",
   "source_hub": "mcp_so",
+  "skill_type": "mcp_server",
   "owner": "MatanYemini",
   "stars": 93,
   "primary_language": "unknown",
@@ -22,82 +23,5 @@
     "category_counts": {}
   },
   "scan_date": "2026-03-01T05:57:55Z",
-  "findings_summary": {
-    "scanner_findings": 25,
-    "dangerous_calls": 0,
-    "network_ops": 2,
-    "file_ops": 6,
-    "env_access": 16,
-    "obfuscation": 0,
-    "injection_patterns": 0,
-    "mismatches": 0,
-    "undocumented_capabilities": 0,
-    "supervisor_approved": true,
-    "supervisor_confidence": 85,
-    "reassessed": true,
-    "reassessed_at": "2026-03-01T21:16:57Z",
-    "reassessment_reason": "Scoring logic fixed: scanner_penalty capped at 40, risk=HIGH from documented dangerous_calls no longer blocks PASS",
-    "previous_status": "manual_review",
-    "previous_score": 85
-  },
-  "verification_level": "full_pipeline",
-  "agent_audit": {
-    "agents_completed": 5,
-    "agents_required": 5,
-    "pipeline_run_at": "2026-03-01T05:57:55Z",
-    "agent_a": {
-      "signed": true,
-      "signed_at": "2026-03-01T05:57:55Z",
-      "comment": "Docs quality 9/10. README present. 12 features, 4 permissions claimed.",
-      "doc_quality_score": 9,
-      "claimed_permissions": [
-        "network access",
-        "system command execution",
-        "file system access",
-        "environment/secret access"
-      ]
-    },
-    "agent_b": {
-      "signed": true,
-      "signed_at": "2026-03-01T05:57:55Z",
-      "comment": "14 files analyzed. Found: 1 network, 0 file, 9 env, 0 system calls. Primary: unknown.",
-      "files_analyzed": 14,
-      "capabilities_found": [
-        "imports external dependencies",
-        "performs network operations",
-        "reads environment values"
-      ]
-    },
-    "agent_c_star": {
-      "signed": true,
-      "signed_at": "2026-03-01T05:57:55Z",
-      "comment": "25 findings: 0 critical, 1 high, 18 medium, 6 low. No obfuscation. No injection.",
-      "total_findings": 25,
-      "severity_counts": {
-        "critical": 0,
-        "high": 1,
-        "medium": 18,
-        "low": 6,
-        "info": 0
-      }
-    },
-    "agent_d": {
-      "signed": true,
-      "signed_at": "2026-03-01T05:57:55Z",
-      "comment": "Score 85. 0 mismatches. Risk: high. Safety overrides: none triggered.",
-      "score": 85,
-      "mismatches": 0,
-      "safety_overrides_applied": false
-    },
-    "agent_e": {
-      "signed": true,
-      "signed_at": "2026-03-01T05:57:55Z",
-      "comment": "Rejected. Confidence 85%. No overrides.",
-      "approved": false,
-      "confidence": 85,
-      "override_reason": null
-    },
-    "manager_summary": "5/5 agents completed. Score: 85/100, Risk: high. 0 mismatches, 25 scanner findings. Rejected at 85% confidence. No safety overrides."
-  },
-  "skill_type": "mcp_server"
+  "verification_level": "full_pipeline"
 }

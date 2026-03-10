@@ -1,0 +1,17 @@
+{
+  "id": "tailscale-mcp-server-ba6f0b7e",
+  "name": "tailscale-mcp-server",
+  "description": "MCP server for safe read-only operations on the Tailscale CLI",
+  "repo_url": "https://github.com/paulsmith/tailscale-mcp-server",
+  "source_hub": "mcp_so",
+  "skill_type": "mcp_server",
+  "owner": "paulsmith",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null
+}

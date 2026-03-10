@@ -4,6 +4,7 @@
   "description": "A Model Context Protocol (MCP) server that provides web search functionality using Perplexity AI's API.",
   "repo_url": "https://github.com/jsonallen/perplexity-mcp",
   "source_hub": "mcp_so",
+  "skill_type": "mcp_server",
   "owner": "jsonallen",
   "stars": 283,
   "primary_language": "unknown",
@@ -13,7 +14,6 @@
     "util-search"
   ],
   "verification_status": "pass",
-  "pm_override": "Score 79, 0 injection/obfuscation, tiny 4-file API wrapper, clean profile",
   "overall_score": 79,
   "risk_level": "medium",
   "verified_commit": "e001e5e245e14481d77dc6f19d73ce623295d022",
@@ -24,84 +24,5 @@
     "category_counts": {}
   },
   "scan_date": "2026-03-03T03:55:08Z",
-  "verification_level": "full_pipeline",
-  "status_cleared": {
-    "date": "2026-03-02T20:40:18.531782+00:00",
-    "previous_status": "pass",
-    "previous_score": 85,
-    "previous_risk": "info",
-    "verification_level": "scanner_only",
-    "reason": "SM cleanup: only full_pipeline pass is real pass. Needs re-verification."
-  },
-  "findings_summary": {
-    "scanner_findings": 6,
-    "dangerous_calls": 0,
-    "network_ops": 1,
-    "file_ops": 0,
-    "env_access": 5,
-    "obfuscation": 0,
-    "injection_patterns": 0,
-    "mismatches": 0,
-    "undocumented_capabilities": 0,
-    "supervisor_approved": true,
-    "supervisor_confidence": 79
-  },
-  "agent_audit": {
-    "agents_completed": 5,
-    "agents_required": 5,
-    "pipeline_run_at": "2026-03-03T03:55:08Z",
-    "agent_a": {
-      "signed": true,
-      "signed_at": "2026-03-03T03:55:08Z",
-      "comment": "Docs quality 9/10. README present. 12 features, 4 permissions claimed.",
-      "doc_quality_score": 9,
-      "claimed_permissions": [
-        "network access",
-        "system command execution",
-        "file system access",
-        "environment/secret access"
-      ]
-    },
-    "agent_b": {
-      "signed": true,
-      "signed_at": "2026-03-03T03:55:08Z",
-      "comment": "4 files analyzed. Found: 0 network, 0 file, 5 env, 0 system calls. Primary: unknown.",
-      "files_analyzed": 4,
-      "capabilities_found": [
-        "imports external dependencies",
-        "reads environment values"
-      ]
-    },
-    "agent_c_star": {
-      "signed": true,
-      "signed_at": "2026-03-03T03:55:08Z",
-      "comment": "6 findings: 0 critical, 0 high, 6 medium, 0 low. No obfuscation. No injection.",
-      "total_findings": 6,
-      "severity_counts": {
-        "critical": 0,
-        "high": 0,
-        "medium": 6,
-        "low": 0,
-        "info": 0
-      }
-    },
-    "agent_d": {
-      "signed": true,
-      "signed_at": "2026-03-03T03:55:08Z",
-      "comment": "Score 79. 0 mismatches. Risk: medium. Safety overrides: none triggered.",
-      "score": 79,
-      "mismatches": 0,
-      "safety_overrides_applied": false
-    },
-    "agent_e": {
-      "signed": true,
-      "signed_at": "2026-03-03T03:55:08Z",
-      "comment": "Rejected. Confidence 79%. No overrides.",
-      "approved": false,
-      "confidence": 79,
-      "override_reason": null
-    },
-    "manager_summary": "5/5 agents completed. Score: 79/100, Risk: medium. 0 mismatches, 6 scanner findings. Rejected at 79% confidence. No safety overrides."
-  },
-  "skill_type": "mcp_server"
+  "verification_level": "full_pipeline"
 }

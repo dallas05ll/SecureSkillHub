@@ -1,0 +1,23 @@
+{
+  "id": "ln-002-best-practices-researcher-efcd99b4",
+  "name": "ln-002-best-practices-researcher",
+  "description": "Research best practices via MCP Ref/Context7/WebSearch and create documentation (guide/manual/ADR/research). Single research, multiple output types.",
+  "repo_url": "https://github.com/levnikolaevich/claude-code-skills",
+  "source_hub": "skillsmp",
+  "skill_type": "agent_skill",
+  "owner": "levnikolaevich",
+  "stars": 112,
+  "primary_language": "unknown",
+  "tags": [
+    "agent-skills",
+    "dev-web-frontend",
+    "installs:92"
+  ],
+  "verification_status": "pass",
+  "overall_score": 45,
+  "risk_level": "medium",
+  "verified_commit": "7191df9a5d14f367c846f828c332cb5c1db635ec",
+  "scan_summary": null,
+  "scan_date": "2026-03-03T14:49:19Z",
+  "verification_level": "full_pipeline"
+}

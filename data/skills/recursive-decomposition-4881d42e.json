@@ -1,0 +1,22 @@
+{
+  "id": "recursive-decomposition-4881d42e",
+  "name": "recursive-decomposition",
+  "description": "Based on the Recursive Language Models (RLM) research by Zhang, Kraska, and Khattab (2025), this skill provides strategies for handling tasks that exceed comfortable context limits through programmatic decomposition and recursive self-invocation. Triggers on phrases like \"analyze all files\", \"process this large document\", \"aggregate information from\", \"search across the codebase\", or tasks involving 10+ files or 50k+ tokens.",
+  "repo_url": "https://github.com/massimodeluisa/recursive-decomposition-skill",
+  "source_hub": "skillsmp",
+  "skill_type": "agent_skill",
+  "owner": "massimodeluisa",
+  "stars": 17,
+  "primary_language": "unknown",
+  "tags": [
+    "agent-skills",
+    "installs:16"
+  ],
+  "verification_status": "pass",
+  "overall_score": 100,
+  "risk_level": "info",
+  "verified_commit": "1780d46a73e485cbad4d0a48c019475d8be9193e",
+  "scan_summary": null,
+  "scan_date": "2026-03-03T17:33:46Z",
+  "verification_level": "full_pipeline"
+}

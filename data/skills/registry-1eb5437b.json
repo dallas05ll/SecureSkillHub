@@ -1,0 +1,22 @@
+{
+  "id": "registry-1eb5437b",
+  "name": "registry",
+  "description": "A community driven registry service for Model Context Protocol (MCP) servers.",
+  "repo_url": "https://github.com/modelcontextprotocol/registry",
+  "source_hub": "mcp_so",
+  "skill_type": "mcp_server",
+  "owner": "modelcontextprotocol",
+  "stars": 6473,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "util"
+  ],
+  "verification_status": "pass",
+  "overall_score": 6,
+  "risk_level": "medium",
+  "verified_commit": "bb84ea69e810ad1c9a1cde6760dacfc0890f8848",
+  "scan_summary": null,
+  "scan_date": "2026-03-01T07:21:40Z",
+  "verification_level": "full_pipeline"
+}

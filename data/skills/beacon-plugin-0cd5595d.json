@@ -1,0 +1,19 @@
+{
+  "id": "beacon-plugin-0cd5595d",
+  "name": "beacon-plugin",
+  "description": "Semantic code search plugin for Claude Code  using hybrid vector search + BM25. 98% accuracy, 5x faster than grep.",
+  "repo_url": "https://github.com/sagarmk/beacon-plugin",
+  "source_hub": "github_search",
+  "skill_type": "agent_skill",
+  "owner": "sagarmk",
+  "stars": 15,
+  "license": "mit",
+  "primary_language": "markdown",
+  "tags": [],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null,
+  "last_updated": "2026-03-10T14:41:00Z"
+}

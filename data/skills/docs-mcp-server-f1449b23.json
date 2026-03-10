@@ -1,0 +1,17 @@
+{
+  "id": "docs-mcp-server-f1449b23",
+  "name": "docs-mcp-server",
+  "description": "The Docs MCP Server acts as a personal, always-current knowledge base for your AI assistant. Its primary purpose is to index 3rd party documentation \u2013 the libraries you actually use in your codebase. It scrapes websites, GitHub repositories, package managers (npm, PyPI), and even local files, cataloging the docs locally. It then provides powerful search tools via the Model Context Protocol (MCP) to your coding agent.\n\nThis enables your LLM agent to access the latest official documentation for...",
+  "repo_url": "https://github.com/arabold/docs-mcp-server",
+  "source_hub": "mcp_so",
+  "skill_type": "mcp_server",
+  "owner": "arabold",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null
+}

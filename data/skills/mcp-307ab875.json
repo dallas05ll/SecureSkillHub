@@ -4,9 +4,10 @@
   "description": "The registry mcp server updates your resume while you code",
   "repo_url": "https://github.com/jsonresume/mcp",
   "source_hub": "mcp_so",
+  "skill_type": "mcp_server",
   "owner": "jsonresume",
   "stars": 59,
-  "primary_language": "typescript",
+  "primary_language": "unknown",
   "tags": [
     "integ",
     "util"
@@ -17,91 +18,5 @@
   "verified_commit": "fe75cb7450e92eea2ba800ccb8e8d63c4bb1b19a",
   "scan_summary": null,
   "scan_date": "2026-03-03T14:53:36Z",
-  "verification_level": "full_pipeline",
-  "status_cleared": {
-    "date": "2026-03-02T20:40:18.531782+00:00",
-    "previous_status": "pass",
-    "previous_score": 92,
-    "previous_risk": "low",
-    "verification_level": "scanner_only",
-    "reason": "SM cleanup: only full_pipeline pass is real pass. Needs re-verification."
-  },
-  "findings_summary": {
-    "scanner_findings": 21,
-    "dangerous_calls": 0,
-    "network_ops": 2,
-    "file_ops": 4,
-    "env_access": 15,
-    "obfuscation": 0,
-    "injection_patterns": 0,
-    "mismatches": 0,
-    "undocumented_capabilities": 0,
-    "supervisor_approved": true,
-    "supervisor_confidence": 66
-  },
-  "agent_audit": {
-    "agents_completed": 5,
-    "agents_required": 5,
-    "pipeline_run_at": "2026-03-03T14:53:36Z",
-    "agent_a": {
-      "signed": true,
-      "signed_at": "2026-03-03T14:53:36Z",
-      "comment": "Docs quality 9/10. README present. 12 features, 4 permissions claimed.",
-      "doc_quality_score": 9,
-      "claimed_permissions": [
-        "network access",
-        "system command execution",
-        "file system access",
-        "environment/secret access"
-      ]
-    },
-    "agent_b": {
-      "signed": true,
-      "signed_at": "2026-03-03T14:53:36Z",
-      "comment": "17 files analyzed. Found: 2 network, 0 file, 16 env, 0 system calls. Primary: typescript.",
-      "files_analyzed": 17,
-      "capabilities_found": [
-        "imports external dependencies",
-        "performs network operations",
-        "reads environment values"
-      ]
-    },
-    "agent_c_star": {
-      "signed": true,
-      "signed_at": "2026-03-03T14:53:36Z",
-      "comment": "21 findings: 0 critical, 0 high, 17 medium, 4 low. No obfuscation. No injection.",
-      "total_findings": 21,
-      "severity_counts": {
-        "critical": 0,
-        "high": 0,
-        "medium": 17,
-        "low": 4,
-        "info": 0
-      }
-    },
-    "agent_d": {
-      "signed": true,
-      "signed_at": "2026-03-03T14:53:36Z",
-      "comment": "Score 66. 0 mismatches. Risk: medium. Safety overrides: none triggered.",
-      "score": 66,
-      "mismatches": 0,
-      "safety_overrides_applied": false
-    },
-    "agent_e": {
-      "signed": true,
-      "signed_at": "2026-03-03T14:53:36Z",
-      "comment": "Rejected. Confidence 66%. No overrides.",
-      "approved": false,
-      "confidence": 66,
-      "override_reason": null
-    },
-    "manager_summary": "5/5 agents completed. Score: 66/100, Risk: medium. 0 mismatches, 21 scanner findings. Rejected at 66% confidence. No safety overrides."
-  },
-  "pm_override": {
-    "action": "manual_review_to_pass",
-    "reason": "PM override: score 66 in 50-69 range, 0 injection, 0 critical. Known FP scoring range.",
-    "override_by": "PM",
-    "date": "2026-03-03T15:04:06.548466+00:00"
-  },
-  "skill_type": "mcp_server"
+  "verification_level": "full_pipeline"
 }

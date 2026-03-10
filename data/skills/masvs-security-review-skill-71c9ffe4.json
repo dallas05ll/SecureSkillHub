@@ -1,0 +1,19 @@
+{
+  "id": "masvs-security-review-skill-71c9ffe4",
+  "name": "masvs-security-review-skill",
+  "description": "Codex skill for evidence-based OWASP MASVS mobile app security reviews.",
+  "repo_url": "https://github.com/OdellMoreno/masvs-security-review-skill",
+  "source_hub": "github_search",
+  "skill_type": "agent_skill",
+  "owner": "OdellMoreno",
+  "stars": 1,
+  "license": "other",
+  "primary_language": "markdown",
+  "tags": [],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null,
+  "last_updated": "2026-02-13T23:53:39Z"
+}

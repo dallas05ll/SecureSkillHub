@@ -1,0 +1,23 @@
+{
+  "id": "docx-d66f1950",
+  "name": "docx",
+  "description": "Use this skill whenever the user wants to create, read, edit, or manipulate Word documents (.docx files). Triggers include: any mention of \\\"Word doc\\\", \\\"word document\\\", \\\".docx\\\", or requests to produce professional documents with formatting like tables of contents, headings, page numbers, or letterheads. Also use when extracting or reorganizing content from .docx files, inserting or replacing images in documents, performing find-and-replace in Word files, working with tracked changes or c...",
+  "repo_url": "https://github.com/guanyang/antigravity-skills",
+  "source_hub": "skillsmp",
+  "skill_type": "agent_skill",
+  "owner": "guanyang",
+  "stars": 312,
+  "primary_language": "unknown",
+  "tags": [
+    "agent-skills",
+    "dev-devops",
+    "installs:261"
+  ],
+  "verification_status": "pass",
+  "overall_score": 45,
+  "risk_level": "medium",
+  "verified_commit": "d3f021846bdcacd44206d0ed22caa2f04eb7dca4",
+  "scan_summary": null,
+  "scan_date": "2026-03-03T03:54:59Z",
+  "verification_level": "full_pipeline"
+}

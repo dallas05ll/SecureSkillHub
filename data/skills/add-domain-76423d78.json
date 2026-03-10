@@ -1,0 +1,23 @@
+{
+  "id": "add-domain-76423d78",
+  "name": "add-domain",
+  "description": "Add a new knowledge domain to your existing system. Derives domain-specific configuration through conversation, generates domain folders, templates, and vocabulary while preserving and connecting to your existing architecture.",
+  "repo_url": "https://github.com/agenticnotetaking/arscontexta",
+  "source_hub": "skillsmp",
+  "skill_type": "agent_skill",
+  "owner": "agenticnotetaking",
+  "stars": 1879,
+  "primary_language": "unknown",
+  "tags": [
+    "agent-skills",
+    "dev-devops",
+    "installs:313"
+  ],
+  "verification_status": "pass",
+  "overall_score": 45,
+  "risk_level": "medium",
+  "verified_commit": "2acfd5cc4473c4d06c46be63df748e77e00e2746",
+  "scan_summary": null,
+  "scan_date": "2026-03-03T03:23:03Z",
+  "verification_level": "full_pipeline"
+}

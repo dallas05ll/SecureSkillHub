@@ -4,9 +4,10 @@
   "description": "A command-line tool for managing MCP servers in Claude App.",
   "repo_url": "https://github.com/MCP-Club/mcpm",
   "source_hub": "mcp_so",
+  "skill_type": "mcp_server",
   "owner": "MCP-Club",
   "stars": 106,
-  "primary_language": "typescript",
+  "primary_language": "unknown",
   "tags": [
     "util"
   ],
@@ -21,80 +22,5 @@
     "category_counts": {}
   },
   "scan_date": "2026-03-01T05:58:08Z",
-  "findings_summary": {
-    "scanner_findings": 2,
-    "dangerous_calls": 0,
-    "network_ops": 0,
-    "file_ops": 1,
-    "env_access": 0,
-    "obfuscation": 1,
-    "injection_patterns": 0,
-    "mismatches": 0,
-    "undocumented_capabilities": 0,
-    "supervisor_approved": true,
-    "supervisor_confidence": 70
-  },
-  "verification_level": "full_pipeline",
-  "agent_audit": {
-    "agents_completed": 5,
-    "agents_required": 5,
-    "pipeline_run_at": "2026-03-01T05:58:08Z",
-    "agent_a": {
-      "signed": true,
-      "signed_at": "2026-03-01T05:58:08Z",
-      "comment": "Docs quality 9/10. README present. 12 features, 3 permissions claimed.",
-      "doc_quality_score": 9,
-      "claimed_permissions": [
-        "network access",
-        "system command execution",
-        "file system access"
-      ]
-    },
-    "agent_b": {
-      "signed": true,
-      "signed_at": "2026-03-01T05:58:08Z",
-      "comment": "16 files analyzed. Found: 0 network, 0 file, 0 env, 0 system calls. Primary: typescript.",
-      "files_analyzed": 16,
-      "capabilities_found": [
-        "imports external dependencies"
-      ]
-    },
-    "agent_c_star": {
-      "signed": true,
-      "signed_at": "2026-03-01T05:58:08Z",
-      "comment": "2 findings: 0 critical, 1 high, 0 medium, 1 low. Obfuscation detected!. No injection.",
-      "total_findings": 2,
-      "severity_counts": {
-        "critical": 0,
-        "high": 1,
-        "medium": 0,
-        "low": 1,
-        "info": 0
-      }
-    },
-    "agent_d": {
-      "signed": true,
-      "signed_at": "2026-03-01T05:58:08Z",
-      "comment": "Score 70. 0 mismatches. Risk: high. Safety overrides: none triggered.",
-      "score": 70,
-      "mismatches": 0,
-      "safety_overrides_applied": false
-    },
-    "agent_e": {
-      "signed": true,
-      "signed_at": "2026-03-01T05:58:08Z",
-      "comment": "Rejected. Confidence 70%. No overrides.",
-      "approved": false,
-      "confidence": 70,
-      "override_reason": null
-    },
-    "manager_summary": "5/5 agents completed. Score: 70/100, Risk: high. 0 mismatches, 2 scanner findings. Rejected at 70% confidence. No safety overrides."
-  },
-  "pm_override": {
-    "action": "manual_review_to_pass",
-    "reason": "PM review: score >=70, 0 injection, 0 critical findings. No security threat. Scored above pass threshold but pipeline put in MR due to minor obfuscation (low-risk only, no safety override).",
-    "override_by": "PM batch review 20260303",
-    "date": "2026-03-03"
-  },
-  "skill_type": "mcp_server"
+  "verification_level": "full_pipeline"
 }

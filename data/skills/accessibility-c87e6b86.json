@@ -1,0 +1,23 @@
+{
+  "id": "accessibility-c87e6b86",
+  "name": "accessibility",
+  "description": "Web accessibility guidelines and implementation",
+  "repo_url": "https://github.com/fujigo-software/f5-framework-claude",
+  "source_hub": "skillsmp",
+  "skill_type": "agent_skill",
+  "owner": "fujigo-software",
+  "stars": 17,
+  "primary_language": "unknown",
+  "tags": [
+    "agent-skills",
+    "dev-web-frontend",
+    "installs:17"
+  ],
+  "verification_status": "pass",
+  "overall_score": 10,
+  "risk_level": "low",
+  "verified_commit": "62c1b02b328560754fbf6d575c82f3637123eea5",
+  "scan_summary": null,
+  "scan_date": "2026-03-03T17:30:08Z",
+  "verification_level": "full_pipeline"
+}

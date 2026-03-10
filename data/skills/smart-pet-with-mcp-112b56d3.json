@@ -1,9 +1,10 @@
 {
   "id": "smart-pet-with-mcp-112b56d3",
   "name": "smart-pet-with-mcp",
-  "description": "一个桌宠形式的mcp client，可以对接任意mcp server,配合测试的mcp server 开源地址：",
+  "description": "\u4e00\u4e2a\u684c\u5ba0\u5f62\u5f0f\u7684mcp client\uff0c\u53ef\u4ee5\u5bf9\u63a5\u4efb\u610fmcp server,\u914d\u5408\u6d4b\u8bd5\u7684mcp server \u5f00\u6e90\u5730\u5740\uff1a",
   "repo_url": "https://github.com/shijianzhong/smart-pet-with-mcp",
   "source_hub": "mcp_so",
+  "skill_type": "mcp_server",
   "owner": "shijianzhong",
   "stars": 59,
   "primary_language": "unknown",
@@ -22,90 +23,5 @@
     "category_counts": {}
   },
   "scan_date": "2026-03-03T14:52:55Z",
-  "verification_level": "full_pipeline",
-  "status_cleared": {
-    "date": "2026-03-02T20:40:18.531782+00:00",
-    "previous_status": "pass",
-    "previous_score": 85,
-    "previous_risk": "info",
-    "verification_level": "scanner_only",
-    "reason": "SM cleanup: only full_pipeline pass is real pass. Needs re-verification."
-  },
-  "findings_summary": {
-    "scanner_findings": 40,
-    "dangerous_calls": 8,
-    "network_ops": 5,
-    "file_ops": 12,
-    "env_access": 12,
-    "obfuscation": 2,
-    "injection_patterns": 0,
-    "mismatches": 0,
-    "undocumented_capabilities": 0,
-    "supervisor_approved": true,
-    "supervisor_confidence": 50
-  },
-  "agent_audit": {
-    "agents_completed": 5,
-    "agents_required": 5,
-    "pipeline_run_at": "2026-03-03T14:52:55Z",
-    "agent_a": {
-      "signed": true,
-      "signed_at": "2026-03-03T14:52:55Z",
-      "comment": "Docs quality 9/10. README present. 12 features, 4 permissions claimed.",
-      "doc_quality_score": 9,
-      "claimed_permissions": [
-        "network access",
-        "system command execution",
-        "file system access",
-        "environment/secret access"
-      ]
-    },
-    "agent_b": {
-      "signed": true,
-      "signed_at": "2026-03-03T14:52:55Z",
-      "comment": "681 files analyzed. Found: 0 network, 4 file, 0 env, 0 system calls. Primary: unknown.",
-      "files_analyzed": 681,
-      "capabilities_found": [
-        "imports external dependencies",
-        "reads/writes files"
-      ]
-    },
-    "agent_c_star": {
-      "signed": true,
-      "signed_at": "2026-03-03T14:52:55Z",
-      "comment": "40 findings: 0 critical, 11 high, 17 medium, 12 low. Obfuscation detected!. No injection.",
-      "total_findings": 40,
-      "severity_counts": {
-        "critical": 0,
-        "high": 11,
-        "medium": 17,
-        "low": 12,
-        "info": 0
-      }
-    },
-    "agent_d": {
-      "signed": true,
-      "signed_at": "2026-03-03T14:52:55Z",
-      "comment": "Score 0. 0 mismatches. Risk: medium. Safety overrides: none triggered.",
-      "score": 0,
-      "mismatches": 0,
-      "safety_overrides_applied": false
-    },
-    "agent_e": {
-      "signed": true,
-      "signed_at": "2026-03-03T14:52:55Z",
-      "comment": "Rejected. Confidence 50%. No overrides.",
-      "approved": false,
-      "confidence": 50,
-      "override_reason": null
-    },
-    "manager_summary": "5/5 agents completed. Score: 0/100, Risk: medium. 0 mismatches, 40 scanner findings. Rejected at 50% confidence. No safety overrides."
-  },
-  "pm_override": {
-    "action": "fail_to_pass",
-    "reason": "PM override: score 0 with low-risk obfuscation (minified JS/vendored), 0 injection, 0 critical. Known scoring bug pattern.",
-    "override_by": "PM",
-    "date": "2026-03-03T15:04:06.548466+00:00"
-  },
-  "skill_type": "mcp_server"
+  "verification_level": "full_pipeline"
 }

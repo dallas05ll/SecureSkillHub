@@ -1,0 +1,23 @@
+{
+  "id": "bug-investigation-aae5e834",
+  "name": "bug-investigation",
+  "description": "Systematically investigate user-reported bugs and issues, generating detailed reports with root cause analysis, recommended fixes, symptom details, flow diagrams, error message mappings, code analysis, and prioritized fix proposals.",
+  "repo_url": "https://github.com/nokonoko1203/claude-code-settings",
+  "source_hub": "skillsmp",
+  "skill_type": "agent_skill",
+  "owner": "nokonoko1203",
+  "stars": 87,
+  "primary_language": "unknown",
+  "tags": [
+    "agent-skills",
+    "data-ai",
+    "installs:87"
+  ],
+  "verification_status": "pass",
+  "overall_score": 81,
+  "risk_level": "medium",
+  "verified_commit": "000f5fe444520ff69dde868ff610449c587161de",
+  "scan_summary": null,
+  "scan_date": "2026-03-03T14:50:48Z",
+  "verification_level": "full_pipeline"
+}

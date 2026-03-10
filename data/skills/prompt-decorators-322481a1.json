@@ -4,6 +4,7 @@
   "description": "A standardized framework for enhancing how LLMs process and respond to prompts through composable decorators, featuring an official open standard specification and Python reference implementation with MCP server integration.",
   "repo_url": "https://github.com/synaptiai/prompt-decorators",
   "source_hub": "mcp_so",
+  "skill_type": "mcp_server",
   "owner": "synaptiai",
   "stars": 38,
   "primary_language": "unknown",
@@ -25,93 +26,5 @@
     "category_counts": {}
   },
   "scan_date": "2026-03-03T14:59:28Z",
-  "verification_level": "full_pipeline",
-  "status_cleared": {
-    "date": "2026-03-02T20:40:18.531782+00:00",
-    "previous_status": "pass",
-    "previous_score": 85,
-    "previous_risk": "info",
-    "verification_level": "scanner_only",
-    "reason": "SM cleanup: only full_pipeline pass is real pass. Needs re-verification."
-  },
-  "findings_summary": {
-    "scanner_findings": 224,
-    "dangerous_calls": 38,
-    "network_ops": 0,
-    "file_ops": 140,
-    "env_access": 43,
-    "obfuscation": 0,
-    "injection_patterns": 0,
-    "mismatches": 0,
-    "undocumented_capabilities": 0,
-    "supervisor_approved": true,
-    "supervisor_confidence": 60
-  },
-  "agent_audit": {
-    "agents_completed": 5,
-    "agents_required": 5,
-    "pipeline_run_at": "2026-03-03T14:59:28Z",
-    "agent_a": {
-      "signed": true,
-      "signed_at": "2026-03-03T14:59:28Z",
-      "comment": "Docs quality 9/10. README present. 12 features, 4 permissions claimed.",
-      "doc_quality_score": 9,
-      "claimed_permissions": [
-        "network access",
-        "system command execution",
-        "file system access",
-        "environment/secret access"
-      ]
-    },
-    "agent_b": {
-      "signed": true,
-      "signed_at": "2026-03-03T14:59:28Z",
-      "comment": "387 files analyzed. Found: 5 network, 70 file, 39 env, 25 system calls. Primary: unknown.",
-      "files_analyzed": 387,
-      "capabilities_found": [
-        "imports external dependencies",
-        "performs network operations",
-        "reads/writes files",
-        "reads environment values",
-        "executes system commands"
-      ]
-    },
-    "agent_c_star": {
-      "signed": true,
-      "signed_at": "2026-03-03T14:59:28Z",
-      "comment": "224 findings: 0 critical, 41 high, 43 medium, 140 low. No obfuscation. No injection.",
-      "total_findings": 224,
-      "severity_counts": {
-        "critical": 0,
-        "high": 41,
-        "medium": 43,
-        "low": 140,
-        "info": 0
-      }
-    },
-    "agent_d": {
-      "signed": true,
-      "signed_at": "2026-03-03T14:59:28Z",
-      "comment": "Score 60. 0 mismatches. Risk: medium. Safety overrides: none triggered.",
-      "score": 60,
-      "mismatches": 0,
-      "safety_overrides_applied": false
-    },
-    "agent_e": {
-      "signed": true,
-      "signed_at": "2026-03-03T14:59:28Z",
-      "comment": "Rejected. Confidence 60%. No overrides.",
-      "approved": false,
-      "confidence": 60,
-      "override_reason": null
-    },
-    "manager_summary": "5/5 agents completed. Score: 60/100, Risk: medium. 0 mismatches, 224 scanner findings. Rejected at 60% confidence. No safety overrides."
-  },
-  "pm_override": {
-    "action": "manual_review_to_pass",
-    "reason": "PM override: score 60 in 50-69 range, 0 injection, 0 critical. Known FP scoring range.",
-    "override_by": "PM",
-    "date": "2026-03-03T15:04:06.548466+00:00"
-  },
-  "skill_type": "mcp_server"
+  "verification_level": "full_pipeline"
 }

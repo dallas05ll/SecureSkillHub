@@ -1,0 +1,22 @@
+{
+  "id": "create-slidev-presentation-99930da6",
+  "name": "create-slidev-presentation",
+  "description": "This skill should be used when asked to create or edit Slidev (sli.dev) presentation slide decks.",
+  "repo_url": "https://github.com/b33eep/claude-code-setup",
+  "source_hub": "skillsmp",
+  "skill_type": "agent_skill",
+  "owner": "b33eep",
+  "stars": 44,
+  "primary_language": "unknown",
+  "tags": [
+    "agent-skills",
+    "installs:44"
+  ],
+  "verification_status": "pass",
+  "overall_score": 0,
+  "risk_level": "critical",
+  "verified_commit": "ae4b85e359e5b89f3c760c2080d293a0ff6eed53",
+  "scan_summary": null,
+  "scan_date": "2026-03-03T14:57:57Z",
+  "verification_level": "full_pipeline"
+}

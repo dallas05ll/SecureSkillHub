@@ -1,0 +1,28 @@
+{
+  "id": "fastapi-mcp-10d156c4",
+  "name": "fastapi_mcp",
+  "description": "Expose your FastAPI endpoints as Model Context Protocol (MCP) tools, with Auth!",
+  "repo_url": "https://github.com/tadata-org/fastapi_mcp",
+  "source_hub": "mcp_so",
+  "skill_type": "mcp_server",
+  "owner": "tadata-org",
+  "stars": 11590,
+  "primary_language": "unknown",
+  "tags": [
+    "dev",
+    "dev-devops",
+    "dev-web",
+    "dev-web-backend",
+    "dev-web-backend-python",
+    "integ",
+    "sec",
+    "sec-auth"
+  ],
+  "verification_status": "pass",
+  "overall_score": 85,
+  "risk_level": "medium",
+  "verified_commit": "e5cad13cabfc725bbcb047e526816d887d96da62",
+  "scan_summary": null,
+  "scan_date": "2026-03-01T05:57:29Z",
+  "verification_level": "full_pipeline"
+}

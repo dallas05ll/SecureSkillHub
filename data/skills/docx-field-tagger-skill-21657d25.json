@@ -1,0 +1,19 @@
+{
+  "id": "docx-field-tagger-skill-21657d25",
+  "name": "docx-field-tagger-skill",
+  "description": "A Claude Code Agent Skill that detects and tags all fillable fields in Word (.docx) templates using a 5-pass detection pipeline",
+  "repo_url": "https://github.com/morganngraom1/docx-field-tagger-skill",
+  "source_hub": "github_search",
+  "skill_type": "agent_skill",
+  "owner": "morganngraom1",
+  "stars": 0,
+  "license": "mit",
+  "primary_language": "markdown",
+  "tags": [],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null,
+  "last_updated": "2026-03-04T10:08:33Z"
+}

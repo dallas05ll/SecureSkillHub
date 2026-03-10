@@ -1,0 +1,17 @@
+{
+  "id": "easy-memory-f85acdfa",
+  "name": "easy-memory",
+  "description": "MCP persistent memory service that gives AI assistants long-term memory across sessions and projects. Powered by Qdrant vector search + Ollama/Gemini embedding with hybrid retrieval (vector + BM25). Features include: semantic memory save/search/forget, content deduplication via SHA-256, automatic sensitive data redaction, dual-shell architecture (MCP stdio + HTTP REST), Web Admin Panel with analytics, multi-user auth & API key management, and audit logging.",
+  "repo_url": "https://github.com/FlippySun/easy-memory",
+  "source_hub": "mcp_so",
+  "skill_type": "mcp_server",
+  "owner": "FlippySun",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null
+}

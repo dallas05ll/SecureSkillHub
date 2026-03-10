@@ -1,0 +1,23 @@
+{
+  "id": "mcp-c25f97f6",
+  "name": "mcp",
+  "description": "AWS MCP Servers \u2014 helping you get the most out of AWS, wherever you use MCP.",
+  "repo_url": "https://github.com/awslabs/mcp",
+  "source_hub": "mcp_so",
+  "skill_type": "mcp_server",
+  "owner": "awslabs",
+  "stars": 8246,
+  "primary_language": "unknown",
+  "tags": [
+    "integ",
+    "integ-cloud",
+    "integ-cloud-aws"
+  ],
+  "verification_status": "pass",
+  "overall_score": 100,
+  "risk_level": "medium",
+  "verified_commit": "4573dd70826a69b88d25298f96a001ad44ba8e9d",
+  "scan_summary": null,
+  "scan_date": "2026-02-28T20:56:21Z",
+  "verification_level": "full_pipeline"
+}

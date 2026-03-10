@@ -4,9 +4,10 @@
   "description": "MCP server for iOS and Android Mobile Development, Automation and Testing",
   "repo_url": "https://github.com/mobile-next/mobile-mcp",
   "source_hub": "mcp_so",
+  "skill_type": "mcp_server",
   "owner": "mobile-next",
   "stars": 3550,
-  "primary_language": "typescript",
+  "primary_language": "unknown",
   "tags": [
     "dev",
     "dev-mobile",
@@ -19,88 +20,5 @@
   "verified_commit": "93351ad8db198e25da84f757f88601ad0d47b2fd",
   "scan_summary": null,
   "scan_date": "2026-03-01T07:24:12Z",
-  "verification_level": "full_pipeline",
-  "findings_summary": {
-    "scanner_findings": 46,
-    "dangerous_calls": 0,
-    "network_ops": 20,
-    "file_ops": 4,
-    "env_access": 16,
-    "obfuscation": 6,
-    "injection_patterns": 0,
-    "mismatches": 0,
-    "undocumented_capabilities": 0,
-    "supervisor_approved": true,
-    "supervisor_confidence": 50,
-    "reassessed": true,
-    "reassessed_at": "2026-03-02T18:23:39Z",
-    "reassessment_reason": "Scoring fix: uncapped scanner_penalty bug. Old penalty=50 crushed score to 20. Capped at 40: new_score=30 (base=70, b_missed_deduction=30, capped_penalty=40).",
-    "previous_status": "fail",
-    "previous_score": 20
-  },
-  "agent_audit": {
-    "agents_completed": 5,
-    "agents_required": 5,
-    "pipeline_run_at": "2026-03-01T07:24:12Z",
-    "agent_a": {
-      "signed": true,
-      "signed_at": "2026-03-01T07:24:12Z",
-      "comment": "Docs quality 9/10. README present. 12 features, 4 permissions claimed.",
-      "doc_quality_score": 9,
-      "claimed_permissions": [
-        "network access",
-        "system command execution",
-        "file system access",
-        "environment/secret access"
-      ]
-    },
-    "agent_b": {
-      "signed": true,
-      "signed_at": "2026-03-01T07:24:12Z",
-      "comment": "23 files analyzed. Found: 9 network, 0 file, 16 env, 0 system calls. Primary: typescript.",
-      "files_analyzed": 23,
-      "capabilities_found": [
-        "imports external dependencies",
-        "performs network operations",
-        "reads environment values"
-      ]
-    },
-    "agent_c_star": {
-      "signed": true,
-      "signed_at": "2026-03-01T07:24:12Z",
-      "comment": "46 findings: 0 critical, 6 high, 36 medium, 4 low. Obfuscation detected!. No injection.",
-      "total_findings": 46,
-      "severity_counts": {
-        "critical": 0,
-        "high": 6,
-        "medium": 36,
-        "low": 4,
-        "info": 0
-      }
-    },
-    "agent_d": {
-      "signed": true,
-      "signed_at": "2026-03-01T07:24:12Z",
-      "comment": "Score 20. 0 mismatches. Risk: high. Safety overrides: none triggered.",
-      "score": 20,
-      "mismatches": 0,
-      "safety_overrides_applied": false
-    },
-    "agent_e": {
-      "signed": true,
-      "signed_at": "2026-03-01T07:24:12Z",
-      "comment": "Rejected. Confidence 50%. No overrides.",
-      "approved": false,
-      "confidence": 50,
-      "override_reason": null
-    },
-    "manager_summary": "5/5 agents completed. Score: 20/100, Risk: high. 0 mismatches, 46 scanner findings. Rejected at 50% confidence. No safety overrides."
-  },
-  "pm_override": {
-    "date": "2026-03-02T21:03:50.196204+00:00",
-    "previous_status": "fail",
-    "reason": "PM override (internet-verified): TRUSTED: mobile-next org, listed in MCP registries, stars match (~3.4K)",
-    "override_by": "PM + SecM(Opus) audit + internet verification 20260302"
-  },
-  "skill_type": "mcp_server"
+  "verification_level": "full_pipeline"
 }

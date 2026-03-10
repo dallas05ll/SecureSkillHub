@@ -1,0 +1,17 @@
+{
+  "id": "zerodha-mcpserver-c68ffe1e",
+  "name": "zerodha-mcpserver",
+  "description": "This is a Cloudflare Worker that serves as an MCP (Model Context Protocol) server for interacting with the Zerodha Kite Connect API.",
+  "repo_url": "https://github.com/manucr619/zerodha-mcpserver",
+  "source_hub": "mcp_so",
+  "skill_type": "mcp_server",
+  "owner": "manucr619",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null
+}

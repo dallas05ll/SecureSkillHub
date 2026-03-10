@@ -1,12 +1,13 @@
 {
   "id": "mcp-server-weibo-74eef807",
   "name": "mcp-server-weibo",
-  "description": "Model Context Protocol服务器，用于抓取微博用户信息、动态和搜索功能",
+  "description": "Model Context Protocol\u670d\u52a1\u5668\uff0c\u7528\u4e8e\u6293\u53d6\u5fae\u535a\u7528\u6237\u4fe1\u606f\u3001\u52a8\u6001\u548c\u641c\u7d22\u529f\u80fd",
   "repo_url": "https://github.com/Selenium39/mcp-server-weibo",
   "source_hub": "mcp_so",
+  "skill_type": "mcp_server",
   "owner": "Selenium39",
   "stars": 30,
-  "primary_language": "typescript",
+  "primary_language": "unknown",
   "tags": [
     "integ",
     "util",
@@ -23,84 +24,5 @@
     "category_counts": {}
   },
   "scan_date": "2026-03-03T15:02:06Z",
-  "verification_level": "full_pipeline",
-  "status_cleared": {
-    "date": "2026-03-02T20:40:18.531782+00:00",
-    "previous_status": "pass",
-    "previous_score": 85,
-    "previous_risk": "info",
-    "verification_level": "scanner_only",
-    "reason": "SM cleanup: only full_pipeline pass is real pass. Needs re-verification."
-  },
-  "findings_summary": {
-    "scanner_findings": 6,
-    "dangerous_calls": 0,
-    "network_ops": 6,
-    "file_ops": 0,
-    "env_access": 0,
-    "obfuscation": 0,
-    "injection_patterns": 0,
-    "mismatches": 0,
-    "undocumented_capabilities": 0,
-    "supervisor_approved": true,
-    "supervisor_confidence": 94
-  },
-  "agent_audit": {
-    "agents_completed": 5,
-    "agents_required": 5,
-    "pipeline_run_at": "2026-03-03T15:02:06Z",
-    "agent_a": {
-      "signed": true,
-      "signed_at": "2026-03-03T15:02:06Z",
-      "comment": "Docs quality 7/10. README present. 6 features, 4 permissions claimed.",
-      "doc_quality_score": 7,
-      "claimed_permissions": [
-        "network access",
-        "system command execution",
-        "file system access",
-        "environment/secret access"
-      ]
-    },
-    "agent_b": {
-      "signed": true,
-      "signed_at": "2026-03-03T15:02:06Z",
-      "comment": "8 files analyzed. Found: 6 network, 0 file, 0 env, 0 system calls. Primary: typescript.",
-      "files_analyzed": 8,
-      "capabilities_found": [
-        "imports external dependencies",
-        "performs network operations"
-      ]
-    },
-    "agent_c_star": {
-      "signed": true,
-      "signed_at": "2026-03-03T15:02:06Z",
-      "comment": "6 findings: 0 critical, 0 high, 6 medium, 0 low. No obfuscation. No injection.",
-      "total_findings": 6,
-      "severity_counts": {
-        "critical": 0,
-        "high": 0,
-        "medium": 6,
-        "low": 0,
-        "info": 0
-      }
-    },
-    "agent_d": {
-      "signed": true,
-      "signed_at": "2026-03-03T15:02:06Z",
-      "comment": "Score 94. 0 mismatches. Risk: medium. Safety overrides: none triggered.",
-      "score": 94,
-      "mismatches": 0,
-      "safety_overrides_applied": false
-    },
-    "agent_e": {
-      "signed": true,
-      "signed_at": "2026-03-03T15:02:06Z",
-      "comment": "Approved. Confidence 94%. No overrides.",
-      "approved": true,
-      "confidence": 94,
-      "override_reason": null
-    },
-    "manager_summary": "5/5 agents completed. Score: 94/100, Risk: medium. 0 mismatches, 6 scanner findings. Approved at 94% confidence. No safety overrides."
-  },
-  "skill_type": "mcp_server"
+  "verification_level": "full_pipeline"
 }

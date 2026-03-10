@@ -10,28 +10,12 @@
   "primary_language": "unknown",
   "tags": [
     "agent-skills",
-    "installs:112",
-    "data",
-    "data-ai",
-    "dev",
-    "dev-mobile",
-    "dev-mobile-flutter",
-    "dev-mobile-react-native",
-    "dev-web",
     "dev-web-frontend",
-    "dev-web-frontend-react",
-    "dev-web-frontend-svelte",
-    "dev-web-frontend-vue",
-    "dev-web-fullstack",
-    "dev-web-fullstack-nextjs"
+    "installs:112"
   ],
   "verification_status": "unverified",
   "overall_score": 0,
   "risk_level": "info",
   "verified_commit": null,
-  "scan_summary": null,
-  "repo_status": "available",
-  "repo_check_date": "2026-03-04T15:09:49.909986+00:00",
-  "repo_check_error": null,
-  "installs": 112
+  "scan_summary": null
 }

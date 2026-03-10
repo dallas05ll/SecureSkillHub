@@ -1,0 +1,23 @@
+{
+  "id": "spec-flow-04cb07ee",
+  "name": "spec-flow",
+  "description": "Spec-driven development workflow. Interactive phase-by-phase confirmation from proposal to implementation. Trigger: 'spec-flow', 'spec mode', 'need a plan', 'structured development', 'write a spec', 'feature spec', 'technical spec', '\u9700\u6c42\u6587\u6863', '\u6280\u672f\u65b9\u6848', '\u4efb\u52a1\u62c6\u89e3', '\u89c4\u683c\u9a71\u52a8', '\u5199\u4e2a\u65b9\u6848', '\u505a\u4e2a\u89c4\u5212', '\u7ed3\u6784\u5316\u5f00\u53d1', 'plan this feature', 'break this down', 'design doc'. Creates .spec-flow/ directory with proposal, requirements, design, and tasks.",
+  "repo_url": "https://github.com/echovic/spec-flow",
+  "source_hub": "skillsmp",
+  "skill_type": "agent_skill",
+  "owner": "echovic",
+  "stars": 26,
+  "primary_language": "unknown",
+  "tags": [
+    "agent-skills",
+    "dev-web-frontend",
+    "installs:24"
+  ],
+  "verification_status": "pass",
+  "overall_score": 96,
+  "risk_level": "medium",
+  "verified_commit": "3ae2516ec9216fd42ef6b83176c128f0165981eb",
+  "scan_summary": null,
+  "scan_date": "2026-03-03T16:18:59Z",
+  "verification_level": "full_pipeline"
+}

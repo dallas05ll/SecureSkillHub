@@ -4,9 +4,10 @@
   "description": "a cli/mcp server tool for managing mcp server json config file with version control, profiles and multi-client support",
   "repo_url": "https://github.com/benhaotang/mcp-serverman",
   "source_hub": "mcp_so",
+  "skill_type": "mcp_server",
   "owner": "benhaotang",
   "stars": 10,
-  "primary_language": "python",
+  "primary_language": "unknown",
   "tags": [
     "dev",
     "dev-git",
@@ -23,84 +24,5 @@
     "category_counts": {}
   },
   "scan_date": "2026-03-03T17:37:28Z",
-  "verification_level": "full_pipeline",
-  "status_cleared": {
-    "date": "2026-03-02T20:40:18.531782+00:00",
-    "previous_status": "pass",
-    "previous_score": 85,
-    "previous_risk": "info",
-    "verification_level": "scanner_only",
-    "reason": "SM cleanup: only full_pipeline pass is real pass. Needs re-verification."
-  },
-  "findings_summary": {
-    "scanner_findings": 38,
-    "dangerous_calls": 1,
-    "network_ops": 0,
-    "file_ops": 37,
-    "env_access": 0,
-    "obfuscation": 0,
-    "injection_patterns": 0,
-    "mismatches": 0,
-    "undocumented_capabilities": 0,
-    "supervisor_approved": true,
-    "supervisor_confidence": 80
-  },
-  "agent_audit": {
-    "agents_completed": 5,
-    "agents_required": 5,
-    "pipeline_run_at": "2026-03-03T17:37:28Z",
-    "agent_a": {
-      "signed": true,
-      "signed_at": "2026-03-03T17:37:28Z",
-      "comment": "Docs quality 9/10. README present. 12 features, 4 permissions claimed.",
-      "doc_quality_score": 9,
-      "claimed_permissions": [
-        "network access",
-        "system command execution",
-        "file system access",
-        "environment/secret access"
-      ]
-    },
-    "agent_b": {
-      "signed": true,
-      "signed_at": "2026-03-03T17:37:28Z",
-      "comment": "7 files analyzed. Found: 0 network, 23 file, 0 env, 0 system calls. Primary: python.",
-      "files_analyzed": 7,
-      "capabilities_found": [
-        "imports external dependencies",
-        "reads/writes files"
-      ]
-    },
-    "agent_c_star": {
-      "signed": true,
-      "signed_at": "2026-03-03T17:37:28Z",
-      "comment": "38 findings: 0 critical, 1 high, 0 medium, 37 low. No obfuscation. No injection.",
-      "total_findings": 38,
-      "severity_counts": {
-        "critical": 0,
-        "high": 1,
-        "medium": 0,
-        "low": 37,
-        "info": 0
-      }
-    },
-    "agent_d": {
-      "signed": true,
-      "signed_at": "2026-03-03T17:37:28Z",
-      "comment": "Score 80. 0 mismatches. Risk: medium. Safety overrides: none triggered.",
-      "score": 80,
-      "mismatches": 0,
-      "safety_overrides_applied": false
-    },
-    "agent_e": {
-      "signed": true,
-      "signed_at": "2026-03-03T17:37:28Z",
-      "comment": "Approved. Confidence 80%. No overrides.",
-      "approved": true,
-      "confidence": 80,
-      "override_reason": null
-    },
-    "manager_summary": "5/5 agents completed. Score: 80/100, Risk: medium. 0 mismatches, 38 scanner findings. Approved at 80% confidence. No safety overrides."
-  },
-  "skill_type": "mcp_server"
+  "verification_level": "full_pipeline"
 }

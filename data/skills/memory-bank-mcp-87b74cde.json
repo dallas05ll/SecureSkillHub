@@ -4,9 +4,10 @@
   "description": "Memory Bank is an MCP server that helps teams create, manage, and access structured project documentation. It generates and maintains a set of interconnected Markdown documents that capture different aspects of project knowledge, from high-level goals to technical details and day-to-day progress.",
   "repo_url": "https://github.com/tuncer-byte/memory-bank-MCP",
   "source_hub": "mcp_so",
+  "skill_type": "mcp_server",
   "owner": "tuncer-byte",
   "stars": 102,
-  "primary_language": "typescript",
+  "primary_language": "unknown",
   "tags": [
     "prod",
     "prod-docs"
@@ -22,85 +23,5 @@
     "category_counts": {}
   },
   "scan_date": "2026-03-03T14:49:59Z",
-  "verification_level": "full_pipeline",
-  "status_cleared": {
-    "date": "2026-03-02T20:40:18.531782+00:00",
-    "previous_status": "pass",
-    "previous_score": 85,
-    "previous_risk": "info",
-    "verification_level": "scanner_only",
-    "reason": "SM cleanup: only full_pipeline pass is real pass. Needs re-verification."
-  },
-  "findings_summary": {
-    "scanner_findings": 19,
-    "dangerous_calls": 0,
-    "network_ops": 0,
-    "file_ops": 13,
-    "env_access": 6,
-    "obfuscation": 0,
-    "injection_patterns": 0,
-    "mismatches": 0,
-    "undocumented_capabilities": 0,
-    "supervisor_approved": true,
-    "supervisor_confidence": 88
-  },
-  "agent_audit": {
-    "agents_completed": 5,
-    "agents_required": 5,
-    "pipeline_run_at": "2026-03-03T14:49:59Z",
-    "agent_a": {
-      "signed": true,
-      "signed_at": "2026-03-03T14:49:59Z",
-      "comment": "Docs quality 9/10. README present. 12 features, 4 permissions claimed.",
-      "doc_quality_score": 9,
-      "claimed_permissions": [
-        "network access",
-        "system command execution",
-        "file system access",
-        "environment/secret access"
-      ]
-    },
-    "agent_b": {
-      "signed": true,
-      "signed_at": "2026-03-03T14:49:59Z",
-      "comment": "8 files analyzed. Found: 0 network, 11 file, 5 env, 0 system calls. Primary: typescript.",
-      "files_analyzed": 8,
-      "capabilities_found": [
-        "imports external dependencies",
-        "reads/writes files",
-        "reads environment values"
-      ]
-    },
-    "agent_c_star": {
-      "signed": true,
-      "signed_at": "2026-03-03T14:49:59Z",
-      "comment": "19 findings: 0 critical, 0 high, 6 medium, 13 low. No obfuscation. No injection.",
-      "total_findings": 19,
-      "severity_counts": {
-        "critical": 0,
-        "high": 0,
-        "medium": 6,
-        "low": 13,
-        "info": 0
-      }
-    },
-    "agent_d": {
-      "signed": true,
-      "signed_at": "2026-03-03T14:49:59Z",
-      "comment": "Score 88. 0 mismatches. Risk: medium. Safety overrides: none triggered.",
-      "score": 88,
-      "mismatches": 0,
-      "safety_overrides_applied": false
-    },
-    "agent_e": {
-      "signed": true,
-      "signed_at": "2026-03-03T14:49:59Z",
-      "comment": "Approved. Confidence 88%. No overrides.",
-      "approved": true,
-      "confidence": 88,
-      "override_reason": null
-    },
-    "manager_summary": "5/5 agents completed. Score: 88/100, Risk: medium. 0 mismatches, 19 scanner findings. Approved at 88% confidence. No safety overrides."
-  },
-  "skill_type": "mcp_server"
+  "verification_level": "full_pipeline"
 }

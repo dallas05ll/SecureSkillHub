@@ -1,0 +1,23 @@
+{
+  "id": "obsidian-4545e269",
+  "name": "obsidian",
+  "description": "Comprehensive guidelines for Obsidian.md plugin development including all 27 ESLint rules, TypeScript best practices, memory management, API usage (requestUrl vs fetch), UI/UX standards, and submission requirements. Use when working with Obsidian plugins, main.ts files, manifest.json, Plugin class, MarkdownView, TFile, vault operations, or any Obsidian API development.",
+  "repo_url": "https://github.com/gapmiss/obsidian-plugin-skill",
+  "source_hub": "skillsmp",
+  "skill_type": "agent_skill",
+  "owner": "gapmiss",
+  "stars": 77,
+  "primary_language": "unknown",
+  "tags": [
+    "agent-skills",
+    "dev-web-frontend",
+    "installs:78"
+  ],
+  "verification_status": "pass",
+  "overall_score": 67,
+  "risk_level": "medium",
+  "verified_commit": "cbb37f634780f4b928d8b815f13c4de748bd96e7",
+  "scan_summary": null,
+  "scan_date": "2026-03-03T14:51:24Z",
+  "verification_level": "full_pipeline"
+}

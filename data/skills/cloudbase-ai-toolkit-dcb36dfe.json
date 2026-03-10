@@ -1,12 +1,13 @@
 {
   "id": "cloudbase-ai-toolkit-dcb36dfe",
   "name": "cloudbase-ai-toolkit",
-  "description": "为微信小程序和全栈应用提供一站式后端服务 One-stop backend services for WeChat Mini-Programs and full-stack apps",
+  "description": "\u4e3a\u5fae\u4fe1\u5c0f\u7a0b\u5e8f\u548c\u5168\u6808\u5e94\u7528\u63d0\u4f9b\u4e00\u7ad9\u5f0f\u540e\u7aef\u670d\u52a1 One-stop backend services for WeChat Mini-Programs and full-stack apps",
   "repo_url": "https://github.com/TencentCloudBase/cloudbase-ai-toolkit",
   "source_hub": "mcp_so",
+  "skill_type": "mcp_server",
   "owner": "TencentCloudBase",
   "stars": 960,
-  "primary_language": "typescript",
+  "primary_language": "unknown",
   "tags": [
     "dev",
     "dev-web",
@@ -41,108 +42,5 @@
     "obfuscation_high_risk_count": 0
   },
   "scan_date": "2026-03-03T03:23:48Z",
-  "verification_level": "full_pipeline",
-  "verification_date": "2026-03-02T16:41:18.249979+00:00",
-  "verification_summary": {
-    "rescored_from": "scanner_output",
-    "scoring_version": "2026-03-02_fixed",
-    "approved": false,
-    "confidence": 50,
-    "override": null,
-    "scanner_penalty": 40,
-    "severity_counts": {
-      "critical": 3,
-      "high": 8,
-      "medium": 190,
-      "low": 132,
-      "info": 0
-    }
-  },
-  "pm_override": {
-    "action": "fail_to_pass",
-    "reason": "PM batch override: 0 critical, 0 injection, 0 obfuscation. Fail caused by known scoring bug (max scanner penalty 40 + b_missed 15 = score <=45 < 50 threshold). No security threat detected.",
-    "override_by": "PM batch review 20260303",
-    "date": "2026-03-03"
-  },
-  "status_cleared": {
-    "date": "2026-03-02T20:40:18.531782+00:00",
-    "previous_status": "pass",
-    "previous_score": 85,
-    "previous_risk": "info",
-    "verification_level": "scanner_rescored",
-    "reason": "SM cleanup: only full_pipeline pass is real pass. Needs re-verification."
-  },
-  "findings_summary": {
-    "scanner_findings": 337,
-    "dangerous_calls": 0,
-    "network_ops": 25,
-    "file_ops": 134,
-    "env_access": 170,
-    "obfuscation": 3,
-    "injection_patterns": 0,
-    "mismatches": 0,
-    "undocumented_capabilities": 0,
-    "supervisor_approved": true,
-    "supervisor_confidence": 50
-  },
-  "agent_audit": {
-    "agents_completed": 5,
-    "agents_required": 5,
-    "pipeline_run_at": "2026-03-03T03:23:48Z",
-    "agent_a": {
-      "signed": true,
-      "signed_at": "2026-03-03T03:23:48Z",
-      "comment": "Docs quality 10/10. README present. 12 features, 4 permissions claimed.",
-      "doc_quality_score": 10,
-      "claimed_permissions": [
-        "network access",
-        "system command execution",
-        "file system access",
-        "environment/secret access"
-      ]
-    },
-    "agent_b": {
-      "signed": true,
-      "signed_at": "2026-03-03T03:23:48Z",
-      "comment": "113 files analyzed. Found: 7 network, 17 file, 120 env, 0 system calls. Primary: typescript.",
-      "files_analyzed": 113,
-      "capabilities_found": [
-        "imports external dependencies",
-        "performs network operations",
-        "reads/writes files",
-        "reads environment values"
-      ]
-    },
-    "agent_c_star": {
-      "signed": true,
-      "signed_at": "2026-03-03T03:23:48Z",
-      "comment": "337 findings: 0 critical, 8 high, 195 medium, 134 low. Obfuscation detected!. No injection.",
-      "total_findings": 337,
-      "severity_counts": {
-        "critical": 0,
-        "high": 8,
-        "medium": 195,
-        "low": 134,
-        "info": 0
-      }
-    },
-    "agent_d": {
-      "signed": true,
-      "signed_at": "2026-03-03T03:23:48Z",
-      "comment": "Score 45. 0 mismatches. Risk: medium. Safety overrides: none triggered.",
-      "score": 45,
-      "mismatches": 0,
-      "safety_overrides_applied": false
-    },
-    "agent_e": {
-      "signed": true,
-      "signed_at": "2026-03-03T03:23:48Z",
-      "comment": "Rejected. Confidence 50%. No overrides.",
-      "approved": false,
-      "confidence": 50,
-      "override_reason": null
-    },
-    "manager_summary": "5/5 agents completed. Score: 45/100, Risk: medium. 0 mismatches, 337 scanner findings. Rejected at 50% confidence. No safety overrides."
-  },
-  "skill_type": "mcp_server"
+  "verification_level": "full_pipeline"
 }

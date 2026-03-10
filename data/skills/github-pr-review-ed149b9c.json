@@ -1,0 +1,23 @@
+{
+  "id": "github-pr-review-ed149b9c",
+  "name": "github-pr-review",
+  "description": "Handles PR review comments and feedback resolution. Use when user wants to resolve PR comments, handle review feedback, fix review comments, address PR review, check review status, respond to reviewer, verify PR readiness, review PR comments, analyze review feedback, evaluate PR comments, assess review suggestions, or triage PR comments. Fetches comments via GitHub CLI, classifies by severity, applies fixes with user confirmation, commits with proper format, replies to threads.",
+  "repo_url": "https://github.com/fvadicamo/dev-agent-skills",
+  "source_hub": "skillsmp",
+  "skill_type": "agent_skill",
+  "owner": "fvadicamo",
+  "stars": 40,
+  "primary_language": "unknown",
+  "tags": [
+    "agent-skills",
+    "data-db",
+    "installs:105"
+  ],
+  "verification_status": "pass",
+  "overall_score": 73,
+  "risk_level": "medium",
+  "verified_commit": "961d9cd7d96ab40b9ae8490f4c28197415ba3013",
+  "scan_summary": null,
+  "scan_date": "2026-03-03T14:59:12Z",
+  "verification_level": "full_pipeline"
+}

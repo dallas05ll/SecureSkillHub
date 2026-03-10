@@ -1,0 +1,17 @@
+{
+  "id": "imf-data-mcp-93115628",
+  "name": "imf-data-mcp",
+  "description": "This MCP server integrates with the free IMF data API to provide a set of tools and resources for retrieving and processing economic data. It enables users to query datasets, fetch time series data, and list available indicators and countries, making it easier to work with IMF data in a structured and programmatic way.",
+  "repo_url": "https://github.com/c-cf/imf-data-mcp",
+  "source_hub": "mcp_so",
+  "skill_type": "mcp_server",
+  "owner": "c-cf",
+  "stars": 0,
+  "primary_language": "unknown",
+  "tags": [],
+  "verification_status": "unverified",
+  "overall_score": 0,
+  "risk_level": "info",
+  "verified_commit": null,
+  "scan_summary": null
+}
