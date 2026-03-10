@@ -84,6 +84,8 @@ site/entry.md         — agent-readable discovery entry point
 api/                  — Cloudflare Worker API (user accounts, custom packages, v2 dynamic endpoints)
 cli/                  — npx secureskillhub CLI tool
 packages/secureskillhub-mcp/ — MCP server (@secureskillhub/mcp-server, 5 tools)
+skills/               — Claude Code plugin skills (browse, search, install)
+.claude-plugin/       — Claude Code plugin manifest (plugin.json)
 ```
 
 ## Workflows

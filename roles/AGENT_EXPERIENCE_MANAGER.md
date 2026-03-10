@@ -30,7 +30,14 @@ You are the **Agent Experience Manager** (AXM) for SecureSkillHub. You own the a
 - Skill comparison: "skill A vs skill B"
 - Skill relationship / dependency mapping
 
-### 5. Feedback Collection
+### 5. Claude Code Plugin
+- Owns: `.claude-plugin/` — the SecureSkillHub Claude Code plugin
+- Three skills: `browse` (embedded catalog), `search` (search-index), `install` (skill detail + safety)
+- Run `python3 scripts/build/build_plugin_catalog.py` after every `build_json` run to keep browse.md catalog current
+- Plugin must be reviewed and updated whenever: (a) API endpoints change, (b) verified skill counts shift significantly, (c) new top-star skills join a category
+- Safety rule: `install.md` must always warn on unverified and high-risk skills — never remove these warnings
+
+### 6. Feedback Collection
 - Gather signal on what agents actually use
 - Track which skills are recommended/installed via API
 - Surface underperforming skills (high stars but low adoption)
@@ -82,6 +89,13 @@ AXM delivers periodic adoption reports to SM:
 | `scripts/build/build_packages.py` | Package curation script |
 | `data/packages/` | Package definitions |
 | `site/api/packages/` | Package API endpoints (generated) |
+| `.claude-plugin/` | Claude Code plugin manifest directory |
+| `.claude-plugin/plugin.json` | Plugin manifest: name, version, author |
+| `skills/browse/SKILL.md` | Browse skill: embedded catalog map, in-context navigation |
+| `skills/search/SKILL.md` | Search skill: fetches search-index.json, keyword matching |
+| `skills/install/SKILL.md` | Install skill: fetches individual skill JSON, safety rules |
+| `scripts/build/build_plugin_catalog.py` | Regenerates browse SKILL.md catalog section from live data |
+| `packages/secureskillhub-mcp/` | MCP server package (@secureskillhub/mcp-server, 5 tools) |
 
 ## Design Principles
 
